@@ -6,7 +6,7 @@ def ard(n): return str(n).translate(AR_DIGITS)
 
 SUBJ_EN, SUBJ_AR = "Diagnostic Microbiology", "الأحياء المجهرية التشخيصية"
 TITLE_EN, TITLE_AR = "Rules and Biosafety Levels", "القواعد ومستويات السلامة الحيوية"
-DOCTOR = "د. ذهب"
+DOCTOR = "د. هبه سامي"
 
 def md(s):
     s = html.escape(s, quote=False)
