@@ -15,6 +15,11 @@ description: Build a BIOS-style bilingual (English + Arabic) handout PDF — and
     `#8E8AA5`, `#CBCAD0`, `#E4E4E6`; key terms are underlined instead of coloured.
   - `plum` (**default for every handout**, chosen by the team): `#3F2537`, `#EFCAD0`, `#FFF1F3`;
     key terms underlined in pink.
+  - Calm three-colour trials made with `bios-engine/make_theme.py` (dark text/bars, soft mid
+    accent, very light panels — nothing else): `sage` (slate `#2F3E46`, sage `#A3B8A8`,
+    `#F0F4F1`), `mist` (ink blue `#2B3A4A`, mist `#A9BCCF`, `#EFF3F7`), `sand` (charcoal
+    `#3D3833`, sand `#C9B79C`, `#F6F2EC`). New palettes: `python3 bios-engine/make_theme.py
+    NAME DARK MID LIGHT "Title"`.
   - `violet` (trial): Antique Gold `#B9A38B` + Deep Violet `#2C1F33`.
   - `oatmeal` (trial): Plum `#33022F` + Oatmeal `#D9C1A7`.
     Both are two-colour palettes; light surfaces are tints of the beige.
