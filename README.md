@@ -2,7 +2,7 @@
 
 Bilingual (English + Arabic) handouts in the BIOS style.
 
-- `bios-engine/` — the engine (style, colour themes — plum by default — fonts, logo, pagination, PDF rendering).
+- `bios-engine/` — the engine (style, colour themes — wineoat (option 10) by default — fonts, logo, pagination, PDF rendering).
 - `lab1-biosafety/` — Diagnostic Microbiology Lab 1, the reference handout: `lecture.json` is the content, the PDFs are the output.
 - `immunology-lab1-serology/` — Practical Immunology Lab 1.
 - `parasitology-week1-mcq/` — Diagnostic Parasitology MCQ bank, week 1.

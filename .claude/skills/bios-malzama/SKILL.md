@@ -13,13 +13,16 @@ description: Build a BIOS-style bilingual (English + Arabic) handout PDF — and
   - `knight`: navy, gold, crimson, parchment, ink.
   - `nightfall` (trial, used by `lab1-biosafety/`): Nightfall Serenity — `#444152`,
     `#8E8AA5`, `#CBCAD0`, `#E4E4E6`; key terms are underlined instead of coloured.
-  - `plum` (**default for every handout**, chosen by the team): `#3F2537`, `#EFCAD0`, `#FFF1F3`;
+  - `plum` (earlier default): `#3F2537`, `#EFCAD0`, `#FFF1F3`;
     key terms underlined in pink.
   - Calm three-colour trials made with `bios-engine/make_theme.py` (dark text/bars, soft mid
     accent, very light panels — nothing else): `sage` (slate `#2F3E46`, sage `#A3B8A8`,
     `#F0F4F1`), `mist` (ink blue `#2B3A4A`, mist `#A9BCCF`, `#EFF3F7`), `sand` (charcoal
     `#3D3833`, sand `#C9B79C`, `#F6F2EC`). New palettes: `python3 bios-engine/make_theme.py
     NAME DARK MID LIGHT "Title"`.
+  - **`wineoat` — the default for every handout, chosen by the team (option 10 on the colour
+    board):** soft wine `#4A2C34` (text, bars), oatmeal `#C9B4A5` (numbers, rules, underlines),
+    `#F7F1EE` (Arabic panels, cover). Three colours only.
   - Shortlist the team asked to see as samples (numbers from the colour board): 2 `seafoam`
     (`#1F4447`, `#9CC5C0`, `#EEF6F5`), 3 `lilac` (`#3E3346`, `#B9A9C6`, `#F5F2F8`),
     5 `powder` (`#22324A`, `#B6C7DC`, `#F1F5FA`), 9 `oceansand` (`#2D4256`, `#CDBB9C`,
