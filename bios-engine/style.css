@@ -67,6 +67,10 @@ body{font-family:Mada,sans-serif;color:var(--ink);-webkit-print-color-adjust:exa
 .c-ar{position:relative;padding:1.6mm 13.4mm 1.8mm 5mm;background:var(--egret);border-top:.3mm dashed var(--star)}
 .chip{position:absolute;left:4mm;top:3.3mm;font-size:6.4pt;font-weight:800;background:var(--egret);color:var(--dark);border:.25mm solid var(--star);border-radius:1mm;padding:.4mm 1.2mm;line-height:1}
 .chip-ar{left:auto;right:4mm;top:3.2mm;background:var(--star);border-color:var(--star)}
+/* follow-on sentence rows inside one card: no repeated chips, a solid divider between pairs */
+.c-en.cont{border-top:.3mm solid var(--star)}
+.c-en.cont .chip,.c-ar.cont .chip{display:none}
+
 .en{font-size:11.6pt;line-height:1.5;color:var(--ink)}
 .ar{font-family:AmiriQ,serif;font-size:13pt;line-height:1.72;color:var(--ink);text-align:right}
 b.t{color:var(--key);font-weight:800}

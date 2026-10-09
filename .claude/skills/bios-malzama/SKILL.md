@@ -21,6 +21,12 @@ description: Build a BIOS-style bilingual (English + Arabic) handout PDF — and
   To add a theme, copy a theme file, change the values, and recolour
   `brand/logo_full.jpg` the same way (dark ink → the theme's `--dark`, paper → `--egret`).
 - **Arabic body text is 13 pt** (one step smaller than before); keep it there.
+- **Sentence by sentence:** when a paragraph has more than one sentence, write `en` and
+  `ar` as lists of sentences (same length). Each English sentence is then followed directly
+  by its Arabic translation, and the text continues with the next sentence. Split only at
+  real sentence ends — not at stray full stops inside a sentence (`patient's. particulars`)
+  or abbreviations (`D.W.`, `spp.`, `e.g.`, `5 min.`). Works for `card`, `rule`, `group`
+  and `note`.
 - **Every listed point carries its own translation right after it** — never all English
   points followed by all Arabic points. Short pairs sit on one line (English left, Arabic
   right); long pairs stack with the Arabic underneath. MCQ options follow the same rule.
@@ -106,7 +112,7 @@ For a theory lecture use `"unit_en": "Lecture 3"`, `"unit_ar": "المحاضرة
 |---|---|---|
 | `section` | `en`, `ar` | slide title → numbered sage bar (auto 1, 2, 3…) |
 | `h2` | `en`, `ar` | sub-heading inside a section |
-| `card` | `en`, `ar`, optional `list_en`, `list_ar` (same length); leave `en` and `ar` empty for a list-only card | paragraph, definition, or an intro line followed by numbered points; point *n* of `list_en` is paired with point *n* of `list_ar` |
+| `card` | `en`, `ar` (string, or list of sentences), optional `list_en`, `list_ar` (same length); leave `en` and `ar` empty for a list-only card | paragraph, definition, or an intro line followed by numbered points; point *n* of `list_en` is paired with point *n* of `list_ar` |
 | `rule` | `en`, `ar` | numbered instruction/step; numbering restarts at each section |
 | `group` | `title_en`, `title_ar`, optional `sub_en`, `sub_ar`, `en`, `ar`, optional `style: "light"` | a classified item with a dark header bar (risk groups, types, stages); `light` gives a Star White bar |
 | `figure` | `src` (relative to the lecture folder), `en`, `ar`, optional `h` + `fit` ("cover"/"contain") or `width` | one figure |

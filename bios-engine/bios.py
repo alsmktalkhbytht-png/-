@@ -36,9 +36,29 @@ def ar(s): return f'<p class="ar" dir="rtl">{md(s)}</p>'
 
 
 # ------------------------------------------------------------------ components
+def sentences(e, a):
+    """en/ar may each be one string or a list of sentences (same length): every English
+    sentence is followed directly by its Arabic translation."""
+    if isinstance(e, list):
+        assert isinstance(a, list) and len(a) == len(e), f"en/ar sentence lists differ: {e!r}"
+        return list(zip(e, a))
+    return [(e, a)]
+
+
+def card_body(e, a, e_extra="", a_extra=""):
+    rows = sentences(e, a)
+    out = ""
+    for k, (se, sa) in enumerate(rows):
+        last = k == len(rows) - 1
+        cont = " cont" if k else ""
+        out += (f'<div class="c-en{cont}"><span class="chip">EN</span>{en(se) if se else ""}{e_extra if last else ""}</div>'
+                f'<div class="c-ar{cont}"><span class="chip chip-ar">AR</span>{ar(sa) if sa else ""}{a_extra if last else ""}</div>')
+    return out
+
+
 def card(e, a, e_extra="", a_extra="", cls=""):
-    return (f'<div class="card {cls}"><div class="c-en"><span class="chip">EN</span>{en(e) if e else ""}{e_extra}</div>'
-            f'<div class="c-ar"><span class="chip chip-ar">AR</span>{ar(a) if a else ""}{a_extra}</div></div>')
+    return f'<div class="card {cls}">{card_body(e, a, e_extra, a_extra)}</div>'
+
 
 
 SHORT = 38   # an EN/AR pair this short sits on one line; longer pairs stack (Arabic under English)
@@ -83,13 +103,12 @@ def group(b, alt=False):
     if b.get("sub_en") or b.get("sub_ar"):
         sub = f'<div class="rg-s"><span dir="ltr">{md(b.get("sub_en", ""))}</span><span dir="rtl">{md(b.get("sub_ar", ""))}</span></div>'
     return (f'<div class="rg card"><div class="rg-h{' alt' if alt else ''}"><span dir="ltr">{md(b["title_en"])}</span>'
-            f'<span dir="rtl">{md(b["title_ar"])}</span></div>{sub}'
-            f'<div class="c-en"><span class="chip">EN</span>{en(b["en"])}</div>'
-            f'<div class="c-ar"><span class="chip chip-ar">AR</span>{ar(b["ar"])}</div></div>')
+            f'<span dir="rtl">{md(b["title_ar"])}</span></div>{sub}{card_body(b["en"], b["ar"])}</div>')
 
 
 def note(e, a, label=("Note", "ملاحظة")):
-    return f'<div class="note"><span class="np">{label[0]} &nbsp; <span dir="rtl">{label[1]}</span></span>{en(e)}{ar(a)}</div>'
+    body = "".join(en(se) + ar(sa) for se, sa in sentences(e, a))
+    return f'<div class="note"><span class="np">{label[0]} &nbsp; <span dir="rtl">{label[1]}</span></span>{body}</div>'
 
 
 FIG = {"n": 0}

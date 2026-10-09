@@ -23,8 +23,14 @@
   },
   {
    "t": "card",
-   "en": "**Immunity:** body defense against foreign agent. The immune response is divided into **cellular** and **humoral** immunity, cellular immunity related to the activity of cells of the immune response, humoral immunity is related to action of some proteins, cytokines and immunoglobulin.",
-   "ar": "**المناعة (`Immunity`):** دفاع الجسم ضد العامل الغريب. وتُقسم الاستجابة المناعية إلى مناعة **خلوية** ومناعة **خلطية**؛ فالمناعة الخلوية (`Cellular immunity`) ترتبط بنشاط خلايا الاستجابة المناعية، أما المناعة الخلطية (`Humoral immunity`) فترتبط بعمل بعض البروتينات والسيتوكينات (`Cytokines`) والغلوبولينات المناعية (`Immunoglobulin`)."
+   "en": [
+    "**Immunity:** body defense against foreign agent.",
+    "The immune response is divided into **cellular** and **humoral** immunity, cellular immunity related to the activity of cells of the immune response, humoral immunity is related to action of some proteins, cytokines and immunoglobulin."
+   ],
+   "ar": [
+    "**المناعة (`Immunity`):** دفاع الجسم ضد العامل الغريب.",
+    "وتُقسم الاستجابة المناعية إلى مناعة **خلوية** ومناعة **خلطية**؛ فالمناعة الخلوية (`Cellular immunity`) ترتبط بنشاط خلايا الاستجابة المناعية، أما المناعة الخلطية (`Humoral immunity`) فترتبط بعمل بعض البروتينات والسيتوكينات (`Cytokines`) والغلوبولينات المناعية (`Immunoglobulin`)."
+   ]
   },
   {
    "t": "section",
@@ -38,18 +44,38 @@
   },
   {
    "t": "card",
-   "en": "**Blood:** body fluid in humans and other animals that delivers necessary substances such as nutrients and oxygen to the cells and transports metabolic waste products away from those same cells. It is composed of blood cells suspended in blood plasma",
-   "ar": "**الدم (`Blood`):** سائل جسمي لدى الإنسان والحيوانات الأخرى، يوصل المواد الضرورية مثل المغذيات والأوكسجين إلى الخلايا، وينقل نواتج الأيض الفضلية بعيدًا عن تلك الخلايا نفسها. ويتكوّن من خلايا دم معلّقة في بلازما الدم"
+   "en": [
+    "**Blood:** body fluid in humans and other animals that delivers necessary substances such as nutrients and oxygen to the cells and transports metabolic waste products away from those same cells.",
+    "It is composed of blood cells suspended in blood plasma"
+   ],
+   "ar": [
+    "**الدم (`Blood`):** سائل جسمي لدى الإنسان والحيوانات الأخرى، يوصل المواد الضرورية مثل المغذيات والأوكسجين إلى الخلايا، وينقل نواتج الأيض الفضلية بعيدًا عن تلك الخلايا نفسها.",
+    "ويتكوّن من خلايا دم معلّقة في بلازما الدم"
+   ]
   },
   {
    "t": "card",
-   "en": "**Plasma:** It is the **yellowish liquid** part of the blood that carries cells and proteins (albumin, globulin and fibrinogen) throughout the body. It makes up about **55%** of the body's total blood volume.",
-   "ar": "**البلازما (`Plasma`):** هي الجزء **السائل المائل إلى الصفرة** من الدم، وتحمل الخلايا والبروتينات (الألبومين `Albumin`، والغلوبيولين `Globulin`، والفايبرينوجين `Fibrinogen`) إلى جميع أنحاء الجسم. وتشكّل نحو **55%** من الحجم الكلي لدم الجسم."
+   "en": [
+    "**Plasma:** It is the **yellowish liquid** part of the blood that carries cells and proteins (albumin, globulin and fibrinogen) throughout the body.",
+    "It makes up about **55%** of the body's total blood volume."
+   ],
+   "ar": [
+    "**البلازما (`Plasma`):** هي الجزء **السائل المائل إلى الصفرة** من الدم، وتحمل الخلايا والبروتينات (الألبومين `Albumin`، والغلوبيولين `Globulin`، والفايبرينوجين `Fibrinogen`) إلى جميع أنحاء الجسم.",
+    "وتشكّل نحو **55%** من الحجم الكلي لدم الجسم."
+   ]
   },
   {
    "t": "card",
-   "en": "**Serum:** is the fluid and solute component of blood after clotting. it is the blood plasma **not including the fibrinogens**. Serum includes all proteins not used in blood clotting and all the electrolytes, antibodies, antigens, hormones, and any exogenous substances.",
-   "ar": "**المصل (`Serum`):** هو المكوّن السائل والمذاب من الدم بعد التخثّر؛ أي إنه بلازما الدم **من دون الفايبرينوجين**. ويضم المصل جميع البروتينات غير المستعملة في تخثّر الدم، وجميع الأملاح المتأينة (`Electrolytes`)، والأجسام المضادة (`Antibodies`)، والمستضدات (`Antigens`)، والهرمونات، وأي مواد خارجية المنشأ."
+   "en": [
+    "**Serum:** is the fluid and solute component of blood after clotting.",
+    "it is the blood plasma **not including the fibrinogens**.",
+    "Serum includes all proteins not used in blood clotting and all the electrolytes, antibodies, antigens, hormones, and any exogenous substances."
+   ],
+   "ar": [
+    "**المصل (`Serum`):** هو المكوّن السائل والمذاب من الدم بعد التخثّر.",
+    "أي إنه بلازما الدم **من دون الفايبرينوجين**.",
+    "ويضم المصل جميع البروتينات غير المستعملة في تخثّر الدم، وجميع الأملاح المتأينة (`Electrolytes`)، والأجسام المضادة (`Antibodies`)، والمستضدات (`Antigens`)، والهرمونات، وأي مواد خارجية المنشأ."
+   ]
   },
   {
    "t": "figures",
@@ -146,8 +172,14 @@
   },
   {
    "t": "card",
-   "en": "**Saline:** It is normal or isotonic aqueous solutions for sodium chloride in **0.85%** (8.5 gram of NaCl in 1 liter of D.W.). keep the cell as they are.",
-   "ar": "**المحلول الملحي (`Saline`):** هو محلول مائي طبيعي أو متساوي التوتر لكلوريد الصوديوم بتركيز **0.85%** (8.5 غرام من `NaCl` في لتر واحد من الماء المقطّر `D.W.`). يحافظ على الخلايا كما هي."
+   "en": [
+    "**Saline:** It is normal or isotonic aqueous solutions for sodium chloride in **0.85%** (8.5 gram of NaCl in 1 liter of D.W.).",
+    "keep the cell as they are."
+   ],
+   "ar": [
+    "**المحلول الملحي (`Saline`):** هو محلول مائي طبيعي أو متساوي التوتر لكلوريد الصوديوم بتركيز **0.85%** (8.5 غرام من `NaCl` في لتر واحد من الماء المقطّر `D.W.`).",
+    "يحافظ على الخلايا كما هي."
+   ]
   },
   {
    "t": "card",

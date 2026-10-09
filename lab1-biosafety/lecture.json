@@ -57,8 +57,14 @@
    "title_ar": "مجموعة الخطورة 1 — (خطورة ضئيلة)",
    "sub_en": "Biosafety level 1",
    "sub_ar": "مستوى السلامة الحيوية 1",
-   "en": "**Non-pathogenic** factors in healthy people and adults (with little or no risk). __E. coli__, __Bacillus subtilis__",
-   "ar": "عوامل **غير ممرضة** للأشخاص الأصحاء والبالغين (خطورتها قليلة أو معدومة). `__E. coli__`، `__Bacillus subtilis__`"
+   "en": [
+    "**Non-pathogenic** factors in healthy people and adults (with little or no risk).",
+    "__E. coli__, __Bacillus subtilis__"
+   ],
+   "ar": [
+    "عوامل **غير ممرضة** للأشخاص الأصحاء والبالغين (خطورتها قليلة أو معدومة).",
+    "`__E. coli__`، `__Bacillus subtilis__`"
+   ]
   },
   {
    "t": "group",
@@ -66,8 +72,14 @@
    "title_ar": "مجموعة الخطورة 2 — (خطورة متوسطة)",
    "sub_en": "Biosafety level 2",
    "sub_ar": "مستوى السلامة الحيوية 2",
-   "en": "Factors related to **human infection** and **treatment is possible** in this case (moderate risk and **limited** risk of spread). __E. coli__ pathogenic strain, __Brucella__ spp., __Salmonella__ spp.",
-   "ar": "عوامل ترتبط **بإصابة الإنسان بالعدوى**، و**علاجها ممكن** في هذه الحالة (خطورة متوسطة وخطر انتشار **محدود**). السلالة الممرضة من `__E. coli__`، وأنواع `__Brucella spp.__`، وأنواع `__Salmonella spp.__`"
+   "en": [
+    "Factors related to **human infection** and **treatment is possible** in this case (moderate risk and **limited** risk of spread).",
+    "__E. coli__ pathogenic strain, __Brucella__ spp., __Salmonella__ spp."
+   ],
+   "ar": [
+    "عوامل ترتبط **بإصابة الإنسان بالعدوى**، و**علاجها ممكن** في هذه الحالة (خطورة متوسطة وخطر انتشار **محدود**).",
+    "السلالة الممرضة من `__E. coli__`، وأنواع `__Brucella spp.__`، وأنواع `__Salmonella spp.__`"
+   ]
   },
   {
    "t": "group",
@@ -75,8 +87,14 @@
    "title_ar": "مجموعة الخطورة 3 — (خطورة عالية)",
    "sub_en": "Biosafety level 3",
    "sub_ar": "مستوى السلامة الحيوية 3",
-   "en": "Factors that cause serious and fatal infections to humans and their **treatment is not easy**, specially for immunosuppressed persons (with a high risk for individuals). __Salmonella typhi__. __Mycobacterium tuberculosis__.",
-   "ar": "عوامل تسبب للإنسان أنواع عدوى خطيرة ومميتة، و**علاجها ليس سهلًا**، ولا سيما لدى الأشخاص المثبَّطين مناعيًا (خطورة عالية على الأفراد). `__Salmonella typhi__`. `__Mycobacterium tuberculosis__`."
+   "en": [
+    "Factors that cause serious and fatal infections to humans and their **treatment is not easy**, specially for immunosuppressed persons (with a high risk for individuals).",
+    "__Salmonella typhi__. __Mycobacterium tuberculosis__."
+   ],
+   "ar": [
+    "عوامل تسبب للإنسان أنواع عدوى خطيرة ومميتة، و**علاجها ليس سهلًا**، ولا سيما لدى الأشخاص المثبَّطين مناعيًا (خطورة عالية على الأفراد).",
+    "`__Salmonella typhi__`. `__Mycobacterium tuberculosis__`."
+   ]
   },
   {
    "t": "group",
@@ -185,13 +203,25 @@
   },
   {
    "t": "rule",
-   "en": "Avoid touching objects (pencils, cell phones, door handles, e.g.) while wearing gloves. And pencils, labels, or any other materials should never be placed in your mouth.",
-   "ar": "تجنّب لمس الأشياء (مثل الأقلام والهواتف المحمولة ومقابض الأبواب) في أثناء ارتداء القفازات. ولا يجوز أبدًا وضع الأقلام أو الملصقات أو أي مواد أخرى في فمك."
+   "en": [
+    "Avoid touching objects (pencils, cell phones, door handles, e.g.) while wearing gloves.",
+    "And pencils, labels, or any other materials should never be placed in your mouth."
+   ],
+   "ar": [
+    "تجنّب لمس الأشياء (مثل الأقلام والهواتف المحمولة ومقابض الأبواب) في أثناء ارتداء القفازات.",
+    "ولا يجوز أبدًا وضع الأقلام أو الملصقات أو أي مواد أخرى في فمك."
+   ]
   },
   {
    "t": "rule",
-   "en": "Do not eat food or drink water in the lab. Do not use lab glassware as food or water containers.",
-   "ar": "لا تتناول الطعام ولا تشرب الماء في المختبر. ولا تستخدم الأواني الزجاجية المختبرية أوعيةً للطعام أو الماء."
+   "en": [
+    "Do not eat food or drink water in the lab.",
+    "Do not use lab glassware as food or water containers."
+   ],
+   "ar": [
+    "لا تتناول الطعام ولا تشرب الماء في المختبر.",
+    "ولا تستخدم الأواني الزجاجية المختبرية أوعيةً للطعام أو الماء."
+   ]
   },
   {
    "t": "rule",
