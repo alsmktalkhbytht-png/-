@@ -13,6 +13,8 @@ description: Build a BIOS-style bilingual (English + Arabic) handout PDF — and
   - `knight` (default): navy, gold, crimson, parchment, ink.
   - `nightfall` (trial, used by `lab1-biosafety/`): Nightfall Serenity — `#444152`,
     `#8E8AA5`, `#CBCAD0`, `#E4E4E6`; key terms are underlined instead of coloured.
+  - `plum` (trial, used by `parasitology-week1-mcq/`): `#3F2537`, `#EFCAD0`, `#FFF1F3`;
+    key terms underlined in pink.
   - `blush` (trial, used by `immunology-lab1-serology/`): `#f9e9ef`, `#f2808f`, `#e8d6d0`,
     `#eebcc2`, plus a deep rose ink `#4a2a30` for text — the palette has no dark colour, so
     coral bars carry ink text and key terms are underlined in coral.
@@ -138,6 +140,18 @@ on a figure that is explained by the table or list right after it.
   "important": [{"en": "…", "ar": "…", "answer_en": "…", "answer_ar": "…"}]
 }
 ```
+
+**Question bank from a professor's MCQ file** (no lecture text): leave out `blocks`; only
+the question PDF is built and named after `meta.file_name`. Keep every question and option
+verbatim and use the professor's marked answer (often bold/underlined — extract it with
+`pdfplumber` font names). Extra keys:
+
+- `questions.title_en/title_ar` (title band), `sub` (header pill, e.g. `"MCQ"`),
+  `mcq_en/mcq_ar` (section bar), `intro_en/intro_ar` (instructions note).
+- `{"topic_en": …, "topic_ar": …}` items inside `mcq` print a sub-heading between questions.
+- Options can be 4 or 5 (shown A–E). If a marked answer contradicts standard references,
+  keep it as the key and add `note_en/note_ar` to that question; the notes print under
+  the answer key.
 
 Write questions from the lecture content only: about 25–35 MCQs covering every section,
 12–16 true/false, 6–8 traps (details students mix up), and 6–8 essay questions with

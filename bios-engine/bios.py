@@ -251,12 +251,15 @@ def doc(title, pages):
 
 # ------------------------------------------------------------------ questions
 def mcq(i, q):
-    one = not all(is_short(e, a, 22) for e, a in q["options"])
-    o = "".join(f'<div class="op"><span class="l">{l}</span>{pair(e, a, 22 if not one else 44)}</div>'
-                for l, (e, a) in zip("abcdef", q["options"]))
+    """Options sit two to a row; an option too long for half the width takes a full row."""
+    o = ""
+    for l, (e, a) in zip("ABCDEF", q["options"]):
+        wide = not is_short(e, a, 22)
+        o += (f'<div class="op{" wide" if wide else ""}"><span class="l">{l}</span>'
+              f'{pair(e, a, 44 if wide else 22)}</div>')
     return (f'<div class="card qc"><div class="c-en q"><span class="chip">EN</span><span class="qnum">Q{i}</span>{en(q["en"])}</div>'
             f'<div class="c-ar"><span class="chip chip-ar">AR</span>{ar(f"س{i}. " + q["ar"])}</div>'
-            f'<div class="opts{" one" if one else ""}">{o}</div></div>')
+            f'<div class="opts">{o}</div></div>')
 
 
 def tfq(i, t):
@@ -272,14 +275,14 @@ def numbered(i, e, a, lines=False):
 
 
 def model_answer(i, e, a, q=None):
-    head = f'<div style="font-weight:800;color:var(--burg);font-size:9.5pt;margin-bottom:.6mm">{md(q)}</div>' if q else ""
+    head = f'<div style="font-weight:800;color:var(--key);font-size:9.5pt;margin-bottom:.6mm">{md(q)}</div>' if q else ""
     c = card("", a, e_extra=head + en(e))
     c = c.replace('<span class="chip">EN</span>', f'<span class="chip">EN</span><span class="qnum">{i}</span>', 1)
     return c.replace('class="c-en"', 'class="c-en q"', 1)
 
 
 def question_items(Q):
-    out = [(unit_title("Exam & Questions", "بنك الأسئلة"), True)]
+    out = [(unit_title(Q.get("title_en", "Exam & Questions"), Q.get("title_ar", "بنك الأسئلة")), True)]
     n = 0
 
     def head(e, a):
@@ -287,9 +290,18 @@ def question_items(Q):
         n += 1
         out.append(('<div style="height:2mm"></div>' + sec(n, e, a), True))
 
-    if Q.get("mcq"):
-        head("Comprehensive MCQs", "أسئلة اختيار من متعدد شاملة")
-        out += [(mcq(i, q), False) for i, q in enumerate(Q["mcq"], 1)]
+    mcqs = [q for q in Q.get("mcq", []) if "topic_en" not in q]
+    if mcqs:
+        head(Q.get("mcq_en", "Comprehensive MCQs"), Q.get("mcq_ar", "أسئلة اختيار من متعدد شاملة"))
+        if Q.get("intro_en"):
+            out.append((note(Q["intro_en"], Q["intro_ar"], ("Instructions", "التعليمات")), False))
+        i = 0
+        for q in Q["mcq"]:
+            if "topic_en" in q:                          # a topic heading between questions
+                out.append((h2(q["topic_en"], q["topic_ar"]), True))
+            else:
+                i += 1
+                out.append((mcq(i, q), False))
     if Q.get("tf"):
         head("True / False", "صح أو خطأ")
         out += [(tfq(i, t), False) for i, t in enumerate(Q["tf"], 1)]
@@ -302,10 +314,14 @@ def question_items(Q):
         head("Important Questions", "أهم الأسئلة للمراجعة")
         out += [(numbered(i, t["en"], t["ar"], lines=True), False) for i, t in enumerate(Q["important"], 1)]
     head("Answer Key", "الحلول")
-    if Q.get("mcq"):
+    if mcqs:
         out.append((h2("MCQ Answers", "إجابات الاختيار من متعدد"), True))
         out.append(('<div class="akey">' + "".join(f'<div><b>{i}</b><span>{q["answer"].upper()}</span></div>'
-                                                   for i, q in enumerate(Q["mcq"], 1)) + "</div>", False))
+                                                   for i, q in enumerate(mcqs, 1)) + "</div>", False))
+        flagged = [(i, q) for i, q in enumerate(mcqs, 1) if q.get("note_en")]
+        if flagged:
+            out.append((h2("Notes on the answer key", "ملاحظات على الحلول"), True))
+            out += [(model_answer(i, q["note_en"], q["note_ar"]), False) for i, q in flagged]
     if Q.get("tf"):
         out.append((h2("True / False Answers", "إجابات صح أو خطأ"), True))
         out.append(('<div class="akey tf">' + "".join(f'<div><b>{i}</b><span>{"True" if t["answer"] == "T" else "False"}</span></div>'
@@ -379,33 +395,39 @@ def build(path, html_only=False):
     name = M.get("file_name") or f'{M["brand"]} - {M["subject_en"]} - {M["unit_en"]}'
     outputs = []
 
-    # booklet
+    # booklet (skipped for a question bank with no lecture text)
+    if not data.get("blocks"):
+        data["blocks"] = None
     FIG["n"] = 0
     st = {"sec": 0, "rule": 0, "grp": 0}
     items, forced = [(unit_title(M["title_en"], M["title_ar"]), True)], set()
-    for b in data["blocks"]:
+    for b in data["blocks"] or []:
         if b["t"] == "pagebreak":
             forced.add(len(items))
             continue
         h, keep = render_block(b, st, asset_base)
         items.append((h, keep or b.get("keep", False)))
-    tmp = os.path.join(out_dir, "booklet.html")
-    pages = paginate(items, tmp, sub, forced)
-    FIG["n"] = 0  # numbering already baked into items
-    html_pages = [cover(f'{M["unit_en"]} — {M["title_en"]}', M["title_ar"], M["kind"])]
-    html_pages += [page("".join(p), n, sub) for n, p in enumerate(pages, 1)]
-    open(tmp, "w").write(doc(name, html_pages))
-    outputs.append((tmp, os.path.join(base_dir, name + ".pdf"), len(pages)))
+    if data["blocks"]:
+        tmp = os.path.join(out_dir, "booklet.html")
+        pages = paginate(items, tmp, sub, forced)
+        FIG["n"] = 0  # numbering already baked into items
+        html_pages = [cover(f'{M["unit_en"]} — {M["title_en"]}', M["title_ar"], M["kind"])]
+        html_pages += [page("".join(p), n, sub) for n, p in enumerate(pages, 1)]
+        open(tmp, "w").write(doc(name, html_pages))
+        outputs.append((tmp, os.path.join(base_dir, name + ".pdf"), len(pages)))
 
     # question bank
     if data.get("questions"):
-        qsub = f'{M["unit_en"]} · Exam'
+        Q = data["questions"]
+        qsub = f'{M["unit_en"]} · {Q.get("sub", "Exam")}'
         tmpq = os.path.join(out_dir, "questions.html")
-        qpages = paginate(question_items(data["questions"]), tmpq, qsub, set())
-        hp = [cover(f'{M["unit_en"]} — Exam &amp; Questions', "بنك الأسئلة", M["questions_kind"])]
+        qpages = paginate(question_items(Q), tmpq, qsub, set())
+        hp = [cover(f'{M["unit_en"]} — {html.escape(Q.get("title_en", "Exam & Questions"))}',
+                    Q.get("title_ar", "بنك الأسئلة"), M["questions_kind"])]
         hp += [page("".join(p), n, qsub) for n, p in enumerate(qpages, 1)]
         open(tmpq, "w").write(doc(name + " - Questions", hp))
-        outputs.append((tmpq, os.path.join(base_dir, name + " - Questions.pdf"), len(qpages)))
+        qname = name + " - Questions" if data["blocks"] else name
+        outputs.append((tmpq, os.path.join(base_dir, qname + ".pdf"), len(qpages)))
 
     for h, pdf, n in outputs:
         if not html_only:

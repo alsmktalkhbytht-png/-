@@ -1,0 +1,9 @@
+/* Plum: #3F2537 · #EFCAD0 · #FFF1F3 */
+:root{--dark:#3f2537;--gold:#efcad0;--star:#efcad0;--egret:#fff1f3;--red:#3f2537;--key:#3f2537;--paper:#fff;
+--ink:#3f2537;--muted:rgba(63,37,55,.62);--bd:var(--star)}
+/* key terms share the ink colour, so they get a pink underline */
+b.t{text-decoration:underline;text-decoration-color:#efcad0;text-decoration-thickness:.7mm;text-underline-offset:.9mm;text-decoration-skip-ink:none}
+.ftr{border-top-color:#efcad0}
+.cv-b1{background:#efcad0}
+.cv-st{color:#3f2537}
+.sn{border-color:#efcad0}
