@@ -10,6 +10,10 @@
 .sn{border-color:#2b3a4a}
 .c-ar,.c-ar.cont{border-top-color:#a9bccf}
 .cv-st{color:#a9bccf}
+/* anything that used the accent as a text colour reads in dark instead */
+.cv-ins .v,figcaption b,.mark,.cut,.sym .l1,.akey div span,.cv-card .v{color:#2b3a4a}
+.cv-ins{border-color:#a9bccf}
+.cv-ins .v{border-color:#a9bccf}
 .cv-b1{background:#a9bccf}
 .cover{background:#eff3f7}
 figcaption,.rg-s,.cv-card .k,.cv-ins .k{opacity:.75}

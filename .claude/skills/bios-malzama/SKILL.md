@@ -20,6 +20,10 @@ description: Build a BIOS-style bilingual (English + Arabic) handout PDF — and
     `#F0F4F1`), `mist` (ink blue `#2B3A4A`, mist `#A9BCCF`, `#EFF3F7`), `sand` (charcoal
     `#3D3833`, sand `#C9B79C`, `#F6F2EC`). New palettes: `python3 bios-engine/make_theme.py
     NAME DARK MID LIGHT "Title"`.
+  - Shortlist the team asked to see as samples (numbers from the colour board): 2 `seafoam`
+    (`#1F4447`, `#9CC5C0`, `#EEF6F5`), 3 `lilac` (`#3E3346`, `#B9A9C6`, `#F5F2F8`),
+    5 `powder` (`#22324A`, `#B6C7DC`, `#F1F5FA`), 9 `oceansand` (`#2D4256`, `#CDBB9C`,
+    `#F6F3EE`), 10 `wineoat` (`#4A2C34`, `#C9B4A5`, `#F7F1EE`).
   - `violet` (trial): Antique Gold `#B9A38B` + Deep Violet `#2C1F33`.
   - `oatmeal` (trial): Plum `#33022F` + Oatmeal `#D9C1A7`.
     Both are two-colour palettes; light surfaces are tints of the beige.

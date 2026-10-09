@@ -29,6 +29,10 @@ def make(name, dark, mid, light, title):
 .sn{{border-color:{dark}}}
 .c-ar,.c-ar.cont{{border-top-color:{mid}}}
 .cv-st{{color:{mid}}}
+/* anything that used the accent as a text colour reads in dark instead */
+.cv-ins .v,figcaption b,.mark,.cut,.sym .l1,.akey div span,.cv-card .v{{color:{dark}}}
+.cv-ins{{border-color:{mid}}}
+.cv-ins .v{{border-color:{mid}}}
 .cv-b1{{background:{mid}}}
 .cover{{background:{light}}}
 figcaption,.rg-s,.cv-card .k,.cv-ins .k{{opacity:.75}}
