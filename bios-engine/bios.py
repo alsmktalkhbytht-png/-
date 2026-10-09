@@ -13,20 +13,19 @@ sys.path.insert(0, ENGINE)
 from art import biohazard, radiation  # noqa: E402
 
 BODY_MM = 240.0                                   # usable height of .body
-GROUP_COLORS = ["#6F8B72", "#B08A3E", "#A65A34", "#6E1F2A", "#56605A", "#7A5A00"]
 M = {}                                            # lecture meta, set by load()
 
 
 # ------------------------------------------------------------------ inline markup
 def md(s):
     """**bold**  *italic*  __bold italic species__  `LTR run inside Arabic`
-    ^^gold mark^^  [[cut]] / [[قطع]] = text cut off in the original file."""
+    ^^mark^^  [[cut]] / [[قطع]] = text cut off in the original file."""
     s = html.escape(s or "", quote=False)
     s = re.sub(r"__(.+?)__", r'<i class="sp">\1</i>', s)
     s = re.sub(r"\*\*(.+?)\*\*", r'<b class="t">\1</b>', s)
     s = re.sub(r"(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])", r"<i>\1</i>", s)
     s = re.sub(r"`(.+?)`", r'<bdi dir="ltr" class="lt">\1</bdi>', s)
-    s = re.sub(r"\^\^(.+?)\^\^", r'<span style="color:var(--gold)">\1</span>', s)
+    s = re.sub(r"\^\^(.+?)\^\^", r'<span class="mark">\1</span>', s)
     s = s.replace("[[cut]]", '<span class="cut" dir="ltr">[text cut off in the original file]</span>')
     s = s.replace("[[قطع]]", '<span class="cut" dir="rtl">[النص مقطوع في الملف الأصلي]</span>')
     return s
@@ -63,11 +62,11 @@ def unit_title(e, a):
 def rule(n, e, a): return f'<div class="rule"><span class="rn">{n}</span>{card(e, a)}</div>'
 
 
-def group(b, color):
+def group(b, alt=False):
     sub = ""
     if b.get("sub_en") or b.get("sub_ar"):
         sub = f'<div class="rg-s"><span dir="ltr">{md(b.get("sub_en", ""))}</span><span dir="rtl">{md(b.get("sub_ar", ""))}</span></div>'
-    return (f'<div class="rg card"><div class="rg-h" style="background:{color}"><span dir="ltr">{md(b["title_en"])}</span>'
+    return (f'<div class="rg card"><div class="rg-h{' alt' if alt else ''}"><span dir="ltr">{md(b["title_en"])}</span>'
             f'<span dir="rtl">{md(b["title_ar"])}</span></div>{sub}'
             f'<div class="c-en"><span class="chip">EN</span>{en(b["en"])}</div>'
             f'<div class="c-ar"><span class="chip chip-ar">AR</span>{ar(b["ar"])}</div></div>')
@@ -86,7 +85,7 @@ def fig(f, base):
     if f.get("symbols"):
         art = {"biohazard": (biohazard, "BIOHAZARD", "خطر بيولوجي"), "radiation": (radiation, "RADIATION HAZARD", "خطر إشعاعي")}
         body = '<div class="sym">' + "".join(
-            f'<div>{art[k][0](tri="#F2C318", fill="#111", edge="#111")}<div class="l1">{art[k][1]}</div><div class="l2" dir="rtl">{art[k][2]}</div></div>'
+            f'<div>{art[k][0](tri="#d7cfbb", fill="#2e272a", edge="#2e272a")}<div class="l1">{art[k][1]}</div><div class="l2" dir="rtl">{art[k][2]}</div></div>'
             for k in f["symbols"]) + "</div>"
     else:
         src = os.path.join(base, f["src"])
@@ -142,9 +141,8 @@ def render_block(b, st, base):
         st["rule"] += 1
         return rule(st["rule"], b["en"], b["ar"]), False
     if t == "group":
-        c = b.get("color") or GROUP_COLORS[st["grp"] % len(GROUP_COLORS)]
         st["grp"] += 1
-        return group(b, c), False
+        return group(b, b.get("style") == "light"), False
     if t == "figure":
         return fig(b, base), False
     if t == "figures":
@@ -164,43 +162,26 @@ def render_block(b, st, base):
 
 
 # ------------------------------------------------------------------ page chrome
-def guides(seed):
-    r = random.Random(seed)
-    out = '<div class="vg l"></div><div class="vg r"></div>'
-    for side, x in (("l", "9mm"), ("r", "calc(100% - 9mm)")):
-        out += f'<span class="vd {"f" if (side == "r") == (seed % 2 == 1) else ""}" style="left:{x};top:29.5mm"></span>'
-        out += f'<span class="vd {"" if (side == "r") == (seed % 2 == 1) else "f"}" style="left:{x};bottom:21.5mm"></span>'
-        for y in (80, 155, 230):
-            out += f'<span class="vd" style="left:{x};top:{y + r.uniform(-8, 8):.0f}mm;width:1.5mm;height:1.5mm;margin-left:-.75mm"></span>'
-        out += f'<span class="vt" style="left:{x};top:{r.uniform(110, 200):.0f}mm"></span>'
-    return out
+def margin_rule():
+    return (f'<div class="mr"><i class="t"></i><i class="b"></i>'
+            f'<span>{M["brand"]} <em>·</em> TELEGRAM <em>·</em> {M["telegram"]}</span></div>')
 
 
-def header(n, sub):
-    lab = f'<div class="hp lab" style="{{pos}}"><span>{sub[0]}</span><span dir="rtl">{sub[1]}</span></div>'
-    bios = f'<div class="hp bios" style="{{pos}}"><span class="bt" dir="rtl">{M["tagline"]}</span><span class="bw">{M["brand"]}</span></div>'
-    if n % 2:
-        left, right = lab.replace("{pos}", "left:0"), bios.replace("{pos}", "right:0")
-    else:
-        left = bios.replace("{pos}", "left:0").replace('class="hp bios"', 'class="hp bios flip"')
-        right = lab.replace("{pos}", "right:0").replace('class="hp lab"', 'class="hp lab flip"')
-    return (f'<div class="hdr">{left}<span class="hl" style="left:25%;width:8%"></span>'
-            f'<div class="hc"><div class="e">{M["subject_en"]}</div><div class="a" dir="rtl">{M["subject_ar"]}</div>'
-            f'<span class="dr">✦ {M["instructor"]} ✦</span></div>'
-            f'<span class="hl" style="right:25%;width:8%"></span>{right}</div>')
+def header(sub):
+    return (f'<div class="hdr"><div class="hp lab"><span>{sub}</span></div>'
+            f'<span class="hl" style="left:25%;width:8%"></span>'
+            f'<div class="hc"><div class="e">{M["subject_en"]}</div><div class="a" dir="rtl">{M["subject_ar"]}</div></div>'
+            f'<span class="hl" style="right:25%;width:8%"></span>'
+            f'<div class="hp bios"><span class="bw">{M["brand"]}</span></div></div>')
 
 
 def footer(n):
-    b, ab, tg, tl = M["brand"], M["brand_ar"], M["telegram"], M["tagline"]
-    if n % 2:
-        txt = f'<b>{b}</b><span>|{ab}</span><span class="s">|</span><span>Telegram: {tg}</span><span class="s">|</span><span>{tl}</span>'
-        return f'<div class="ftr"><div class="fx" style="left:13mm">{txt}</div></div><div class="tab r">{n}</div>'
-    txt = f'<span>{tl}</span><span class="s">|</span><span>Telegram: {tg}</span><span class="s">|</span><span>{ab}|</span><b>{b}</b>'
-    return f'<div class="ftr"><div class="fx" style="right:13mm">{txt}</div></div><div class="tab l">{n}</div>'
+    return (f'<div class="ftr"><div class="fx"><span>Telegram</span><b>@{M["telegram"]}</b></div></div>'
+            f'<div class="tab">{n}</div>')
 
 
 def page(content, n, sub):
-    return (f'<section class="page" data-num="{n}">{guides(n)}{header(n, sub)}'
+    return (f'<section class="page" data-num="{n}">{margin_rule()}{header(sub)}'
             f'<div class="body"><div class="content">{content}</div></div>{footer(n)}</section>')
 
 
@@ -211,11 +192,7 @@ def cover(pill_l, pill_r, kind):
                  for k, ka, v in cards)
     return f'''<section class="page cover">
 <div class="cv-c1"></div><div class="cv-c2"></div><div class="cv-b1"></div><div class="cv-b2"></div>
-<div class="cv-vg" style="left:10mm"></div><div class="cv-vg" style="right:10mm"></div>
 <div class="cv-logo"><img src="{M["_logo"]}"></div>
-<div class="cv-ln"></div>
-<div class="cv-tr" dir="rtl">{M["tagline"]}</div>
-<div class="cv-tre">LECTURE TRANSLATION &amp; EDITING</div>
 <div class="cv-r" style="top:130mm"></div>
 <div class="cv-t1">{M["subject_en"]}</div>
 <div class="cv-t2" dir="rtl">{M["subject_ar"]}</div>
@@ -224,8 +201,8 @@ def cover(pill_l, pill_r, kind):
 <div class="cv-cards">{cc}</div>
 <div class="cv-ins"><span class="k">Instructor<br><span dir="rtl">{M["instructor_label_ar"]}</span></span><span class="v" dir="rtl">{M["instructor"]}</span></div>
 <span class="cv-st" style="top:221.2mm">✦ ✦ ✦</span><span class="cv-st" style="top:238.6mm;letter-spacing:0;padding:0 3mm">✦</span>
-<div class="cv-sage"></div>
-<div class="cv-foot"><div class="l"><b>{M["brand"]}</b><span>{M["brand_ar"]}</span></div><div class="r">Telegram: <b>{M["telegram"]}</b><br><span dir="rtl" style="font-weight:700">{M["tagline"]}</span></div></div>
+<div class="cv-band"></div>
+<div class="cv-foot"><div class="l"><b>{M["brand"]}</b></div><div class="r">Telegram &nbsp;<b>@{M["telegram"]}</b></div></div>
 </section>'''
 
 
@@ -337,8 +314,7 @@ def paginate(items, html_path, sub, forced):
 
 
 # ------------------------------------------------------------------ main
-DEFAULTS = {"brand": "BIOS", "brand_ar": "بايوس", "telegram": "BIOS0t", "tagline": "ترجمة وتعديل الملازم",
-            "instructor_label_ar": "تدريسية المادة", "unit_label": "LAB", "kind": "Laboratories — عملي",
+DEFAULTS = {"brand": "BIOS", "telegram": "BIOS0t", "instructor_label_ar": "تدريسية المادة", "unit_label": "LAB", "kind": "Laboratories — عملي",
             "questions_kind": "Questions — أسئلة"}
 
 
@@ -357,9 +333,9 @@ def build(path, html_only=False):
     os.makedirs(out_dir, exist_ok=True)
     rel = lambda p: os.path.relpath(p, out_dir)
     M["_css"] = rel(os.path.join(ENGINE, "style.css"))
-    M["_logo"] = rel(os.path.join(ENGINE, "brand", "logo_full.jpg"))
+    M["_logo"] = rel(os.path.join(ENGINE, "brand", "logo_mono.jpg"))
     asset_base = rel(base_dir)
-    sub = (M["unit_en"], M["unit_ar"])
+    sub = M["unit_en"]
     name = M.get("file_name") or f'{M["brand"]} - {M["subject_en"]} - {M["unit_en"]}'
     outputs = []
 
@@ -371,21 +347,22 @@ def build(path, html_only=False):
         if b["t"] == "pagebreak":
             forced.add(len(items))
             continue
-        items.append(render_block(b, st, asset_base))
+        h, keep = render_block(b, st, asset_base)
+        items.append((h, keep or b.get("keep", False)))
     tmp = os.path.join(out_dir, "booklet.html")
     pages = paginate(items, tmp, sub, forced)
     FIG["n"] = 0  # numbering already baked into items
-    html_pages = [cover(f'{M["unit_en"]} — {M["title_en"]}', f'{M["unit_ar"]} — {M["title_ar"]}', M["kind"])]
+    html_pages = [cover(f'{M["unit_en"]} — {M["title_en"]}', M["title_ar"], M["kind"])]
     html_pages += [page("".join(p), n, sub) for n, p in enumerate(pages, 1)]
     open(tmp, "w").write(doc(name, html_pages))
     outputs.append((tmp, os.path.join(base_dir, name + ".pdf"), len(pages)))
 
     # question bank
     if data.get("questions"):
-        qsub = ("Exam", "الأسئلة")
+        qsub = f'{M["unit_en"]} · Exam'
         tmpq = os.path.join(out_dir, "questions.html")
         qpages = paginate(question_items(data["questions"]), tmpq, qsub, set())
-        hp = [cover(f'{M["unit_en"]} — Exam &amp; Questions', f'{M["unit_ar"]} — بنك الأسئلة', M["questions_kind"])]
+        hp = [cover(f'{M["unit_en"]} — Exam &amp; Questions', "بنك الأسئلة", M["questions_kind"])]
         hp += [page("".join(p), n, qsub) for n, p in enumerate(qpages, 1)]
         open(tmpq, "w").write(doc(name + " - Questions", hp))
         outputs.append((tmpq, os.path.join(base_dir, name + " - Questions.pdf"), len(qpages)))

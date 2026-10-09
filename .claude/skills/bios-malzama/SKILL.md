@@ -5,6 +5,20 @@ description: Build a BIOS-style bilingual (English + Arabic) handout PDF — and
 
 # BIOS handout (ملزمة) — house style
 
+## Look (agreed with the BIOS team — do not change without being asked)
+
+- **Three colours only:** Black Bean `#2e272a`, Star White `#d7cfbb`, Egret `#efefe8`
+  (plus white paper). They are the CSS variables `--dark`, `--star`, `--egret` in
+  `bios-engine/style.css`; never add another colour.
+- **Every page has the same header and footer** (no mirrored odd/even pages).
+- **Header:** `Lab 1` pill (English only), subject in the centre (no instructor
+  name — the instructor appears on the cover only), `BIOS` pill on its own.
+- **Footer:** only the Telegram handle, page number always on the right.
+- **Right margin:** one vertical rule carrying `BIOS · TELEGRAM · BIOS0t`; no left rule.
+- No "ترجمة وتعديل الملازم" / "Lecture translation" text anywhere — BIOS also does
+  explanations, exams and summaries. The cover logo is `brand/logo_mono.jpg`
+  (recoloured to the palette, tagline removed).
+
 Every handout in this repo uses one engine: `bios-engine/bios.py`. You never write HTML
 or CSS for a new lecture. You only write **one JSON file** per lecture, and the engine
 produces the cover, the alternating headers and footers, the EN/AR cards, figures, tables,
@@ -46,7 +60,7 @@ automatic pagination, and the question bank. The reference result is `lab1-biosa
 | `*text*` | italic |
 | `__text__` | bold italic (species names) |
 | `` `text` `` | left-to-right run inside Arabic (English terms, species) |
-| `^^text^^` | gold mark (for example a `*` footnote marker in a table) |
+| `^^text^^` | bold mark (for example a `*` footnote marker in a table) |
 | `[[cut]]` / `[[قطع]]` | yellow "text cut off in the original file" tag |
 
 ## lecture.json schema
@@ -68,8 +82,8 @@ automatic pagination, and the question bank. The reference result is `lab1-biosa
 
 For a theory lecture use `"unit_en": "Lecture 3"`, `"unit_ar": "المحاضرة 3"`,
 `"unit_label": "LECTURE"`, `"kind": "Theory — نظري"`. Optional meta keys (defaults in
-`bios.py`): `brand`, `brand_ar`, `telegram`, `tagline`, `instructor_label_ar`,
-`questions_kind`, `file_name`.
+`bios.py`): `brand`, `telegram`, `instructor_label_ar`, `questions_kind`, `file_name`.
+`unit_ar` is only used in the file name logic of older handouts; the header shows `unit_en`.
 
 ### Blocks
 
@@ -79,7 +93,7 @@ For a theory lecture use `"unit_en": "Lecture 3"`, `"unit_ar": "المحاضرة
 | `h2` | `en`, `ar` | sub-heading inside a section |
 | `card` | `en`, `ar`, optional `list_en`, `list_ar` | paragraph, definition, or an intro line followed by a numbered list |
 | `rule` | `en`, `ar` | numbered instruction/step; numbering restarts at each section |
-| `group` | `title_en`, `title_ar`, optional `sub_en`, `sub_ar`, `en`, `ar`, optional `color` | a classified item with a coloured header (risk groups, types, stages); colours cycle automatically |
+| `group` | `title_en`, `title_ar`, optional `sub_en`, `sub_ar`, `en`, `ar`, optional `style: "light"` | a classified item with a dark header bar (risk groups, types, stages); `light` gives a Star White bar |
 | `figure` | `src` (relative to the lecture folder), `en`, `ar`, optional `h` + `fit` ("cover"/"contain") or `width` | one figure |
 | `figure` | `symbols: ["biohazard", "radiation"]`, `en`, `ar` | the redrawn vector warning signs |
 | `figures` | `items: [figure, figure]` | two figures side by side |
@@ -89,6 +103,9 @@ For a theory lecture use `"unit_en": "Lecture 3"`, `"unit_ar": "المحاضرة
 | `spacer` | `h` (for example `"2mm"`) | small vertical gap |
 | `pagebreak` | — | force a new page (rarely needed) |
 | `html` | `html` | escape hatch for a one-off layout |
+
+Any block can take `"keep": true` to stay on the same page as the block after it — use it
+on a figure that is explained by the table or list right after it.
 
 ### Questions (optional — produces the second PDF)
 
