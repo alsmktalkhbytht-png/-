@@ -1,70 +1,15 @@
-"""BIOS reference template (cream · burgundy · sage · gold), rebuilt to match the BIOS Lab 1 booklet."""
-import re, html
+/* BIOS handout style — ivory · burgundy · sage · gold. Font URLs are relative to this file. */
+@font-face{font-family:Mada;src:url(fonts/Mada-Light.ttf);font-weight:300}
+@font-face{font-family:Mada;src:url(fonts/Mada-Regular.ttf);font-weight:400}
+@font-face{font-family:Mada;src:url(fonts/Mada-Medium.ttf);font-weight:500}
+@font-face{font-family:Mada;src:url(fonts/Mada-SemiBold.ttf);font-weight:600}
+@font-face{font-family:Mada;src:url(fonts/Mada-Bold.ttf);font-weight:700}
+@font-face{font-family:Mada;src:url(fonts/Mada-ExtraBold.ttf);font-weight:800}
+@font-face{font-family:Mada;src:url(fonts/Mada-Black.ttf);font-weight:900}
+@font-face{font-family:AmiriQ;src:url(fonts/AmiriQuran-Regular.ttf)}
+@font-face{font-family:Playfair;src:url(fonts/playfair-display-latin-900-italic.woff2);font-weight:900;font-style:italic}
+@font-face{font-family:Playfair;src:url(fonts/playfair-display-latin-700-italic.woff2);font-weight:700;font-style:italic}
 
-AR_DIGITS = str.maketrans("0123456789", "٠١٢٣٤٥٦٧٨٩")
-def ard(n): return str(n).translate(AR_DIGITS)
-
-SUBJ_EN, SUBJ_AR = "Diagnostic Microbiology", "الأحياء المجهرية التشخيصية"
-TITLE_EN, TITLE_AR = "Rules and Biosafety Levels", "القواعد ومستويات السلامة الحيوية"
-DOCTOR = "د. ذهب"
-
-def md(s):
-    s = html.escape(s, quote=False)
-    s = re.sub(r"\*\*(.+?)\*\*", r'<b class="t">\1</b>', s)
-    s = re.sub(r"(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])", r"<i>\1</i>", s)
-    s = re.sub(r"`(.+?)`", r'<bdi dir="ltr" class="lt">\1</bdi>', s)
-    s = s.replace("[[cut]]", '<span class="cut" dir="ltr">[text cut off in the original file]</span>')
-    s = s.replace("[[قطع]]", '<span class="cut" dir="rtl">[النص مقطوع في الملف الأصلي]</span>')
-    return s
-
-def en(s): return f'<p class="en" dir="ltr">{md(s)}</p>'
-def ar(s): return f'<p class="ar" dir="rtl">{md(s)}</p>'
-
-def card(e, a, e_extra="", a_extra="", cls=""):
-    return (f'<div class="card {cls}"><div class="c-en"><span class="chip">EN</span>{en(e) if e else ""}{e_extra}</div>'
-            f'<div class="c-ar"><span class="chip chip-ar">AR</span>{ar(a) if a else ""}{a_extra}</div></div>')
-
-def nlist(items, rtl=False):
-    d = "rtl" if rtl else "ltr"
-    cls = "ar" if rtl else "en"
-    return f'<ol class="nl {cls}" dir="{d}">' + "".join(f'<li><span class="nb">{i}</span><span>{md(t)}</span></li>' for i, t in enumerate(items, 1)) + "</ol>"
-
-def sec(n, e, a):
-    return (f'<div class="sec"><span class="sn">{n}</span><div class="sb"><span dir="ltr">{e}</span><span dir="rtl">{a}</span></div></div>')
-
-def labtitle():
-    return (f'<div class="lt-band"><div class="lt-box"><small>LAB</small><b>1</b></div>'
-            f'<span class="lt-en" dir="ltr">{TITLE_EN}</span><span class="lt-ar" dir="rtl">{TITLE_AR}</span></div>')
-
-def rule(n, e, a):
-    return f'<div class="rule"><span class="rn">{n}</span>{card(e, a)}</div>'
-
-def rg(n, col, te, ta, e, a):
-    return (f'<div class="rg card"><div class="rg-h" style="background:{col}"><span dir="ltr">{te}</span><span dir="rtl">{ta}</span></div>'
-            f'<div class="rg-s"><span dir="ltr">Biosafety level {n}</span><span dir="rtl">مستوى السلامة الحيوية {n}</span></div>'
-            f'<div class="c-en"><span class="chip">EN</span>{en(e)}</div><div class="c-ar"><span class="chip chip-ar">AR</span>{ar(a)}</div></div>')
-
-FIG = {"n": 0}
-def fig(src, ce, ca, h=None, inner=None, fit="contain"):
-    FIG["n"] += 1; n = FIG["n"]
-    st = f"height:{h};object-fit:{fit};object-position:center 40%;width:100%" if h else "width:100%"
-    body = inner if inner is not None else f'<img src="{src}" style="{st}">'
-    return (f'<figure class="fig"><div class="fig-c">{body}</div><figcaption><span dir="ltr"><b>Figure {n}.</b> {ce}</span>'
-            f'<span dir="rtl"><b>الشكل {n}.</b> {ca}</span></figcaption></figure>')
-
-def h2(e, a): return f'<div class="h2"><span dir="ltr">{e}</span><span dir="rtl">{a}</span></div>'
-
-def note(e, a, label=("Note", "ملاحظة")):
-    return (f'<div class="note"><span class="np">{label[0]} &nbsp; <span dir="rtl">{label[1]}</span></span>'
-            f'{en(e)}{ar(a)}</div>')
-
-FONTS = "".join(f"@font-face{{font-family:Mada;src:url(fonts/Mada-{n}.ttf);font-weight:{w}}}" for n, w in
-                [("Light", 300), ("Regular", 400), ("Medium", 500), ("SemiBold", 600), ("Bold", 700), ("ExtraBold", 800), ("Black", 900)])
-FONTS += "@font-face{font-family:AmiriQ;src:url(fonts/AmiriQuran-Regular.ttf)}"
-FONTS += "@font-face{font-family:Playfair;src:url(fonts/playfair-display-latin-900-italic.woff2);font-weight:900;font-style:italic}"
-FONTS += "@font-face{font-family:Playfair;src:url(fonts/playfair-display-latin-700-italic.woff2);font-weight:700;font-style:italic}"
-
-CSS = FONTS + r"""
 :root{--burg:#6E1F2A;--burg-d:#4A131B;--sage:#56605A;--sage-m:#8C968D;--sage-l:#EDF0EC;--sage-ll:#D5DBD4;--beige:#F7F2E9;--pink:#F4E8E7;
 --gold:#B08A3E;--gold-l:#F2E7CB;--gold-t:#7A5A00;--ink:#2B2B2B;--muted:#7D7D7D;--bd:#E2DDD5;--cream:#F6F1E8}
 *{box-sizing:border-box;margin:0;padding:0}
@@ -173,51 +118,15 @@ table.tb th + th{border-left:.3mm solid rgba(255,255,255,.35)}
 .note{background:#F6EBEA;border-left:3.4mm solid var(--burg);border-radius:2.6mm;padding:2.6mm 5mm 2.6mm;margin:0 0 3.6mm;break-inside:avoid}
 .note .en{font-size:10.5pt}.note .ar{font-size:13.5pt;line-height:1.7}
 .np{display:inline-block;background:var(--burg);color:#fff;font-weight:800;font-size:7.4pt;border-radius:3mm;padding:.5mm 3mm;margin-bottom:1.2mm}
-"""
 
-def guides(seed):
-    import random
-    r = random.Random(seed)
-    out = '<div class="vg l"></div><div class="vg r"></div>'
-    for side, x in (("l", "9mm"), ("r", "calc(100% - 9mm)")):
-        out += f'<span class="vd {"f" if (side == "r") == (seed % 2 == 1) else ""}" style="left:{x};top:29.5mm"></span>'
-        out += f'<span class="vd {"" if (side == "r") == (seed % 2 == 1) else "f"}" style="left:{x};bottom:21.5mm"></span>'
-        for y in (80, 155, 230):
-            out += f'<span class="vd" style="left:{x};top:{y + r.uniform(-8, 8):.0f}mm;width:1.5mm;height:1.5mm;margin-left:-.75mm"></span>'
-        out += f'<span class="vt" style="left:{x};top:{r.uniform(110, 200):.0f}mm"></span>'
-    return out
-
-def header(n, sub=("Lab 1", "العملي 1")):
-    lab = f'<div class="hp lab" style="{{pos}}"><span>{sub[0]}</span><span dir="rtl">{sub[1]}</span></div>'
-    bios = '<div class="hp bios" style="{pos}"><span class="bt" dir="rtl">ترجمة وتعديل الملازم</span><span class="bw">BIOS</span></div>'
-    if n % 2:  # odd: lab left, bios right
-        left = lab.replace("{pos}", "left:0"); right = bios.replace("{pos}", "right:0")
-    else:
-        left = bios.replace("{pos}", "left:0").replace('class="hp bios"', 'class="hp bios flip"'); right = lab.replace("{pos}", "right:0").replace('class="hp lab"', 'class="hp lab flip"')
-    return (f'<div class="hdr">{left}<span class="hl" style="left:28%;width:16%"></span>'
-            f'<div class="hc"><div class="e">{SUBJ_EN}</div><div class="a" dir="rtl">{SUBJ_AR}</div><span class="dr">✦ {DOCTOR} ✦</span></div>'
-            f'<span class="hl" style="right:28%;width:16%"></span>{right}</div>')
-
-FLIP = r"""
+/* alternating header */
 .hp.bios.flip{padding:0 4.5mm 0 8mm;flex-direction:row-reverse}
 .hp.bios.flip::after{left:0;right:auto;border-radius:6mm 0 0 6mm}
 .hp.bios.flip .bt{border-right:0;border-left:.3mm solid #c9a9ad;padding:0 0 0 3mm;text-align:left}
 .hp.lab.flip{padding:0 7mm 0 4mm;align-items:flex-end}
 .hp.lab.flip::before{left:auto;right:0;border-radius:0 6mm 6mm 0}
-"""
 
-def footer(n):
-    txt_l = '<b>BIOS</b><span>|بايوس</span><span class="s">|</span><span>Telegram: BIOS0t</span><span class="s">|</span><span>ترجمة وتعديل الملازم</span>'
-    txt_r = '<span>ترجمة وتعديل الملازم</span><span class="s">|</span><span>Telegram: BIOS0t</span><span class="s">|</span><span>بايوس|</span><b>BIOS</b>'
-    if n % 2:
-        return f'<div class="ftr"><div class="fx" style="left:13mm">{txt_l}</div></div><div class="tab r">{n}</div>'
-    return f'<div class="ftr"><div class="fx" style="right:13mm">{txt_r}</div></div><div class="tab l">{n}</div>'
-
-def page(content, n, sub=("Lab 1", "العملي 1")):
-    return (f'<section class="page" data-num="{n}">{guides(n)}{header(n, sub)}'
-            f'<div class="body"><div class="content">{content}</div></div>{footer(n)}</section>')
-
-COVER_CSS = r"""
+/* cover */
 .cover{background:var(--cream)}
 .cv-c1{position:absolute;left:140mm;top:-30mm;width:115mm;height:115mm;border-radius:50%;background:#E9EBE5}
 .cv-c2{position:absolute;left:130mm;top:-42mm;width:135mm;height:135mm;border-radius:50%;border:.3mm solid #CFCAC1}
@@ -251,29 +160,34 @@ COVER_CSS = r"""
 .cv-foot .l span{font-size:9pt;font-weight:700;border-left:.3mm solid #fff;padding-left:2mm}
 .cv-foot .r{position:absolute;right:18mm;top:6.5mm;text-align:right;font-size:8.6pt;line-height:1.6}
 .cv-foot .r b{font-weight:800}
-"""
 
-def cover(pill_l, pill_r, cards, ins=("Instructor", "تدريسية المادة", DOCTOR)):
-    cc = "".join(f'<div class="cv-card"><span class="k">{k}<small dir="rtl">{ka}</small></span><span class="v" dir="rtl">{v}</span></div>' for k, ka, v in cards)
-    return f'''<section class="page cover">
-<div class="cv-c1"></div><div class="cv-c2"></div><div class="cv-b1"></div><div class="cv-b2"></div>
-<div class="cv-vg" style="left:10mm"></div><div class="cv-vg" style="right:10mm"></div>
-<div class="cv-logo"><img src="assets/logo_full.jpg"></div>
-<div class="cv-ln"></div>
-<div class="cv-tr" dir="rtl">ترجمة وتعديل الملازم</div>
-<div class="cv-tre">LECTURE TRANSLATION &amp; EDITING</div>
-<div class="cv-r" style="top:130mm"></div>
-<div class="cv-t1">{SUBJ_EN}</div>
-<div class="cv-t2" dir="rtl">{SUBJ_AR}</div>
-<div class="cv-pill"><span dir="ltr">{pill_l}</span><span dir="rtl">{pill_r}</span></div>
-<div class="cv-r" style="top:181mm"></div>
-<div class="cv-cards">{cc}</div>
-<div class="cv-ins"><span class="k">{ins[0]}<br><span dir="rtl">{ins[1]}</span></span><span class="v" dir="rtl">{ins[2]}</span></div>
-<span class="cv-st" style="top:221.2mm">✦ ✦ ✦</span><span class="cv-st" style="top:238.6mm;letter-spacing:0;padding:0 3mm">✦</span>
-<div class="cv-sage"></div>
-<div class="cv-foot"><div class="l"><b>BIOS</b><span>بايوس</span></div><div class="r">Telegram: <b>BIOS0t</b><br><span dir="rtl" style="font-weight:700">ترجمة وتعديل الملازم</span></div></div>
-</section>'''
+/* side figure, symbols, species */
+i.sp{font-weight:700;font-style:italic}
+.ar i.sp{font-family:Mada;font-size:.86em}
+.side{display:grid;grid-template-columns:1fr 34mm;gap:4.5mm;align-items:start}
+.side figcaption{display:block;text-align:center;font-size:7.8pt;line-height:1.35}
+.side figcaption span{display:block}
+.sym{display:flex;justify-content:space-around;padding:1.5mm 0 .5mm}
+.sym div{text-align:center}
+.sym svg{width:25mm}
+.sym .l1{font-weight:800;font-size:9.5pt;color:var(--burg);margin-top:1mm}
+.sym .l2{font-weight:800;font-size:10.5pt;color:#222}
 
-def doc(title, pages, extra=""):
-    return (f'<!doctype html><html><head><meta charset="utf-8"><title>{title}</title>'
-            f'<style>{CSS}{FLIP}{COVER_CSS}{extra}</style></head><body>{"".join(pages)}</body></html>')
+/* question bank */
+.qc .c-en .en{font-weight:600}.qc .c-ar .ar{line-height:1.55}.qc .c-ar{padding-top:1mm;padding-bottom:1mm}.qc .c-en{padding-top:1.8mm;padding-bottom:1.8mm}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:1mm 3mm;padding:.6mm 4mm 2.4mm 4mm;background:#fff;border-top:.3mm dashed #DDD3C2}
+.opts.one{grid-template-columns:1fr}
+.op{display:grid;grid-template-columns:6mm 1fr 1fr;gap:3mm;align-items:center;border:.3mm solid var(--bd);border-radius:3mm;padding:0 3mm 0 1.4mm;margin-top:.9mm}
+.op .l{width:5mm;height:5mm;border-radius:50%;background:var(--sage-l);color:var(--sage);font-weight:800;font-size:7.6pt;display:flex;align-items:center;justify-content:center}
+.op .en{font-size:10.4pt;line-height:1.3}
+.op .ar{font-size:12.5pt;line-height:1.4}
+.qnum{position:absolute;right:4mm;top:3.1mm;font-size:6.4pt;font-weight:800;background:var(--burg);color:#fff;border-radius:1mm;padding:.5mm 1.4mm;line-height:1}
+.c-en.q{padding-right:16mm}
+.tfrow{position:absolute;left:4mm;bottom:2mm;display:flex;gap:2mm}.c-ar.tfa{padding-left:52mm}
+.tfrow span{border:.35mm solid var(--sage-m);border-radius:3mm;padding:.3mm 3mm;font-size:8.6pt;font-weight:800;color:var(--sage);background:#fff}
+.lines{height:24mm;margin:0 5mm 2mm;background:repeating-linear-gradient(to bottom,transparent 0,transparent 7.7mm,#D7D2C8 7.7mm,#D7D2C8 8mm)}
+.akey{display:grid;grid-template-columns:repeat(8,1fr);gap:1.4mm;margin:0 0 3.6mm}
+.akey div{border:.3mm solid var(--bd);border-radius:1.6mm;background:#fff;text-align:center;font-size:9.5pt;padding:1mm 0}
+.akey div b{color:var(--sage);margin-right:1mm}
+.akey div span{color:var(--burg);font-weight:800}
+.akey.tf{grid-template-columns:repeat(6,1fr)}

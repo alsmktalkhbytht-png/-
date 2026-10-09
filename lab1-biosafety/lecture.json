@@ -1,0 +1,1297 @@
+{
+ "meta": {
+  "subject_en": "Diagnostic Microbiology",
+  "subject_ar": "الأحياء المجهرية التشخيصية",
+  "instructor": "د. ذهب",
+  "unit_en": "Lab 1",
+  "unit_ar": "العملي 1",
+  "unit_label": "LAB",
+  "unit_no": "1",
+  "title_en": "Rules and Biosafety Levels",
+  "title_ar": "القواعد ومستويات السلامة الحيوية",
+  "department": "قسم التحليلات",
+  "stage": "The fourth stage — الرابعة",
+  "kind": "Laboratories — عملي",
+  "translator": "محمد حامد"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Biosafety Levels",
+   "ar": "مستويات السلامة الحيوية"
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "**Biosafety levels:** They are principles and application used to protect laboratory workers and the surrounding environment from exposure to danger while working with living organisms.",
+     "ar": "**مستويات السلامة الحيوية (`Biosafety levels`):** هي مبادئ وتطبيقات تُستخدم لحماية العاملين في المختبر والبيئة المحيطة من التعرض للخطر في أثناء العمل مع الكائنات الحية."
+    },
+    {
+     "t": "card",
+     "en": "**It aims to:** provide the highest level of protection and the lowest range of exposure.",
+     "ar": "**وتهدف إلى:** توفير أعلى مستوى من الحماية وأدنى حدٍّ من التعرض."
+    }
+   ],
+   "figure": {
+    "src": "assets/labsafety.jpg",
+    "en": "Lab safety",
+    "ar": "سلامة المختبر"
+   }
+  },
+  {
+   "t": "section",
+   "en": "Risk Groups",
+   "ar": "مجموعات الخطورة"
+  },
+  {
+   "t": "card",
+   "en": "**Risk groups:** are used to assess risk, determine its source and how to deal with it, includes 4 groups:",
+   "ar": "**مجموعات الخطورة (`Risk groups`):** تُستخدم لتقييم الخطر وتحديد مصدره وكيفية التعامل معه، وتشمل 4 مجموعات:"
+  },
+  {
+   "t": "group",
+   "title_en": "Risk group 1 — (Minimal risk)",
+   "title_ar": "مجموعة الخطورة 1 — (خطورة ضئيلة)",
+   "sub_en": "Biosafety level 1",
+   "sub_ar": "مستوى السلامة الحيوية 1",
+   "en": "**Non-pathogenic** factors in healthy people and adults (with little or no risk). __E. coli__, __Bacillus subtilis__",
+   "ar": "عوامل **غير ممرضة** للأشخاص الأصحاء والبالغين (خطورتها قليلة أو معدومة). `__E. coli__`، `__Bacillus subtilis__`"
+  },
+  {
+   "t": "group",
+   "title_en": "Risk group 2 — (Moderate risk)",
+   "title_ar": "مجموعة الخطورة 2 — (خطورة متوسطة)",
+   "sub_en": "Biosafety level 2",
+   "sub_ar": "مستوى السلامة الحيوية 2",
+   "en": "Factors related to **human infection** and **treatment is possible** in this case (moderate risk and **limited** risk of spread). __E. coli__ pathogenic strain, __Brucella__ spp., __Salmonella__ spp.",
+   "ar": "عوامل ترتبط **بإصابة الإنسان بالعدوى**، و**علاجها ممكن** في هذه الحالة (خطورة متوسطة وخطر انتشار **محدود**). السلالة الممرضة من `__E. coli__`، وأنواع `__Brucella spp.__`، وأنواع `__Salmonella spp.__`"
+  },
+  {
+   "t": "group",
+   "title_en": "Risk group 3 — (High risk)",
+   "title_ar": "مجموعة الخطورة 3 — (خطورة عالية)",
+   "sub_en": "Biosafety level 3",
+   "sub_ar": "مستوى السلامة الحيوية 3",
+   "en": "Factors that cause serious and fatal infections to humans and their **treatment is not easy**, specially for immunosuppressed persons (with a high risk for individuals). __Salmonella typhi__. __Mycobacterium tuberculosis__.",
+   "ar": "عوامل تسبب للإنسان أنواع عدوى خطيرة ومميتة، و**علاجها ليس سهلًا**، ولا سيما لدى الأشخاص المثبَّطين مناعيًا (خطورة عالية على الأفراد). `__Salmonella typhi__`. `__Mycobacterium tuberculosis__`."
+  },
+  {
+   "t": "group",
+   "title_en": "Risk group 4 — (Extreme risk)",
+   "title_ar": "مجموعة الخطورة 4 — (خطورة قصوى)",
+   "sub_en": "Biosafety level 4",
+   "sub_ar": "مستوى السلامة الحيوية 4",
+   "en": "Factor that are fatal to humans are easily transmitted from … [[cut]]",
+   "ar": "عوامل مميتة للإنسان وتنتقل بسهولة من … [[قطع]]"
+  },
+  {
+   "t": "spacer",
+   "h": "2mm"
+  },
+  {
+   "t": "table",
+   "style": "summary",
+   "label_en": "Summary",
+   "label_ar": "خلاصة الجدول",
+   "head": [
+    "Risk group",
+    "مجموعة الخطورة",
+    "Biosafety level",
+    "مستوى السلامة الحيوية"
+   ],
+   "ar_cols": [
+    1,
+    3
+   ],
+   "key_cols": [
+    2
+   ],
+   "rows": [
+    [
+     "1 — Minimal risk",
+     "1 — خطورة ضئيلة",
+     "Biosafety level 1",
+     "المستوى 1"
+    ],
+    [
+     "2 — Moderate risk",
+     "2 — خطورة متوسطة",
+     "Biosafety level 2",
+     "المستوى 2"
+    ],
+    [
+     "3 — High risk",
+     "3 — خطورة عالية",
+     "Biosafety level 3",
+     "المستوى 3"
+    ],
+    [
+     "4 — Extreme risk",
+     "4 — خطورة قصوى",
+     "Biosafety level 4",
+     "المستوى 4"
+    ]
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Biohazard Symbol",
+   "ar": "رمز الخطر البيولوجي"
+  },
+  {
+   "t": "card",
+   "en": "**Biohazard symbol:** it used to warn people of the potential for the presence dangerous biological materials such as:",
+   "ar": "**رمز الخطر البيولوجي (`Biohazard symbol`):** يُستخدم لتحذير الأشخاص من احتمال وجود مواد بيولوجية خطرة، مثل:",
+   "list_en": [
+    "Cultures of pathogens.",
+    "Human Blood and Tissue.",
+    "Corridors leading to the laboratories."
+   ],
+   "list_ar": [
+    "مزارع الأحياء الممرضة (`Cultures of pathogens`).",
+    "دم الإنسان وأنسجته.",
+    "الممرات المؤدية إلى المختبرات."
+   ]
+  },
+  {
+   "t": "figure",
+   "symbols": [
+    "biohazard",
+    "radiation"
+   ],
+   "en": "Warning symbols (redrawn in high resolution)",
+   "ar": "رموز التحذير (أُعيد رسمها بدقة عالية)"
+  },
+  {
+   "t": "section",
+   "en": "Laboratory Safety Considerations",
+   "ar": "اعتبارات السلامة في المختبر"
+  },
+  {
+   "t": "rule",
+   "en": "Wear protective clothing (clean lab. coat – **gloves** – **mask** – safety **glasses**).",
+   "ar": "ارتدِ الملابس الواقية (صدرية مختبر نظيفة – **قفازات** – **كمّامة** – **نظارات** السلامة)."
+  },
+  {
+   "t": "figure",
+   "src": "assets/ppe.jpg",
+   "en": "Personal protective equipment",
+   "ar": "معدات الحماية الشخصية",
+   "h": "27mm",
+   "fit": "cover"
+  },
+  {
+   "t": "rule",
+   "en": "Avoid touching objects (pencils, cell phones, door handles, e.g.) while wearing gloves. And pencils, labels, or any other materials should never be placed in your mouth.",
+   "ar": "تجنّب لمس الأشياء (مثل الأقلام والهواتف المحمولة ومقابض الأبواب) في أثناء ارتداء القفازات. ولا يجوز أبدًا وضع الأقلام أو الملصقات أو أي مواد أخرى في فمك."
+  },
+  {
+   "t": "rule",
+   "en": "Do not eat food or drink water in the lab. Do not use lab glassware as food or water containers.",
+   "ar": "لا تتناول الطعام ولا تشرب الماء في المختبر. ولا تستخدم الأواني الزجاجية المختبرية أوعيةً للطعام أو الماء."
+  },
+  {
+   "t": "rule",
+   "en": "Long hair must be tied back or covered to minimize fire hazard or contamination of experiment.",
+   "ar": "يجب ربط الشعر الطويل إلى الخلف أو تغطيته لتقليل خطر الحريق أو تلوث التجربة."
+  },
+  {
+   "t": "rule",
+   "en": "Do not take any cultures out of the lab for any reason, all cultures should be handled as potentially pathogenic.",
+   "ar": "لا تُخرج أي مزرعة من المختبر لأي سبب كان، ويجب التعامل مع جميع المزارع على أنها ممرضة محتملة."
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/nofood.jpg",
+     "en": "No food or drink",
+     "ar": "ممنوع الطعام والشراب",
+     "h": "44mm",
+     "fit": "cover"
+    },
+    {
+     "src": "assets/cultures.jpg",
+     "en": "Bacterial cultures",
+     "ar": "مزارع بكتيرية",
+     "h": "44mm",
+     "fit": "cover"
+    }
+   ]
+  },
+  {
+   "t": "rule",
+   "en": "Wash hands after working with infectious materials.",
+   "ar": "اغسل يديك بعد العمل مع المواد المُعدية."
+  },
+  {
+   "t": "rule",
+   "en": "Disinfect all instruments immediately after use.",
+   "ar": "طهّر جميع الأدوات فور الانتهاء من استخدامها."
+  },
+  {
+   "t": "rule",
+   "en": "Disinfect all contaminated waste before discarding.",
+   "ar": "طهّر جميع النفايات الملوثة قبل التخلص منها."
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/handwash.jpg",
+     "en": "Hand washing",
+     "ar": "غسل اليدين",
+     "h": "44mm",
+     "fit": "cover"
+    },
+    {
+     "src": "assets/disinfect.jpg",
+     "en": "Disinfecting instruments and surfaces",
+     "ar": "تطهير الأدوات والأسطح",
+     "h": "44mm",
+     "fit": "cover"
+    }
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Important Definitions",
+   "ar": "تعريفات مهمة"
+  },
+  {
+   "t": "card",
+   "en": "**Sterilization:** is the complete killing or removal of all living organism such as cell spore, viruses, fungi, ….",
+   "ar": "**التعقيم (`Sterilization`):** هو القتل أو الإزالة الكاملة لجميع الكائنات الحية، مثل الأبواغ (`Spores`) والفيروسات والفطريات، …."
+  },
+  {
+   "t": "card",
+   "en": "**Disinfection:** the destruction or removal of pathogens **but not bacterial spores**, usually used only on inanimate object.",
+   "ar": "**التطهير (`Disinfection`):** إتلاف الأحياء الممرضة أو إزالتها **ولكن ليس الأبواغ البكتيرية**، ويُستخدم عادةً على الأجسام غير الحية فقط."
+  },
+  {
+   "t": "card",
+   "en": "**Antiseptics:** chemicals applied to **body surfaces** to destroy or inhibit pathogens.",
+   "ar": "**المطهرات الموضعية (`Antiseptics`):** مواد كيميائية توضع على **سطوح الجسم** لإتلاف الأحياء الممرضة أو تثبيطها."
+  },
+  {
+   "t": "card",
+   "en": "**Decontamination:** the mechanical removal of most microbes by using washing, heat or disinfectants.",
+   "ar": "**إزالة التلوث (`Decontamination`):** الإزالة الميكانيكية لمعظم الميكروبات باستخدام الغسل أو الحرارة أو المطهرات."
+  },
+  {
+   "t": "card",
+   "en": "**Biological laboratory:** A facility within which microorganisms, their components or their derivatives are collected, handled and/or stored.",
+   "ar": "**المختبر البيولوجي (`Biological laboratory`):** منشأة تُجمع فيها الأحياء المجهرية أو مكوّناتها أو مشتقاتها، ويُتعامل معها و/أو تُخزَّن."
+  },
+  {
+   "t": "card",
+   "en": "**Bio risk:** The probability or chance that a particular adverse event (accidental infection or loss, theft, misuse, diversion or intentional release), possibly leading to harm.",
+   "ar": "**الخطر البيولوجي (`Bio risk`):** احتمال أو فرصة وقوع حدث ضار معيّن (عدوى عَرَضية، أو فقدان، أو سرقة، أو إساءة استخدام، أو تحويل عن الغرض، أو إطلاق متعمَّد)، قد يؤدي إلى الأذى."
+  },
+  {
+   "t": "card",
+   "en": "**Bio risk assessment:** The process to identify acceptable and unacceptable risks (embracing biosafety risks (risks of accidental infection) and laboratory biosecurity risks (risks of unauthorized access, loss, theft, misuse, diversion or intentional release)) and their potential consequences.",
+   "ar": "**تقييم الخطر البيولوجي (`Bio risk assessment`):** عملية تحديد المخاطر المقبولة وغير المقبولة (وتشمل مخاطر السلامة الحيوية (مخاطر العدوى العَرَضية)، ومخاطر الأمن البيولوجي المختبري (مخاطر الوصول غير المصرَّح به، أو الفقدان، أو السرقة، أو إساءة الاستخدام، أو التحويل عن الغرض، أو الإطلاق المتعمَّد))، وعواقبها المحتملة."
+  },
+  {
+   "t": "section",
+   "en": "Biosafety Cabinet",
+   "ar": "خزانة السلامة الحيوية"
+  },
+  {
+   "t": "figure",
+   "src": "assets/cabinets.jpg",
+   "en": "Biosafety cabinets and laboratory equipment",
+   "ar": "خزانات السلامة الحيوية وأجهزة مختبرية",
+   "width": "118mm"
+  },
+  {
+   "t": "h2",
+   "en": "Labels in the figure",
+   "ar": "تسميات الشكل"
+  },
+  {
+   "t": "table",
+   "numbered": true,
+   "head": [
+    "#",
+    "Label (English)",
+    "التسمية بالعربية"
+   ],
+   "widths": [
+    "10mm",
+    "72mm",
+    ""
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    1
+   ],
+   "rows": [
+    [
+     "1",
+     "Class I biosafety cabinet",
+     "خزانة السلامة الحيوية من الصنف الأول"
+    ],
+    [
+     "2",
+     "Mini Biosafety cabinet",
+     "خزانة سلامة حيوية صغيرة"
+    ],
+    [
+     "3",
+     "[Class] II Biosafety cabinet ^^*^^",
+     "خزانة السلامة الحيوية من الصنف الثاني"
+    ],
+    [
+     "4",
+     "[…] Bio Cabinet ^^*^^",
+     "خزانة سلامة حيوية"
+    ],
+    [
+     "5",
+     "[…]F Biosafety cabinet ^^*^^",
+     "خزانة سلامة حيوية"
+    ],
+    [
+     "6",
+     "Class III Biosafety Cabinet",
+     "خزانة السلامة الحيوية من الصنف الثالث"
+    ],
+    [
+     "7",
+     "Ducted and Ductless Fume Hood",
+     "خزانة سحب الأبخرة (بمجرى هواء وبدون مجرى)"
+    ],
+    [
+     "8",
+     "Laminar flow Cabinet",
+     "خزانة التدفق الهوائي الصفائحي"
+    ],
+    [
+     "9",
+     "PCR Cabinet",
+     "خزانة PCR"
+    ],
+    [
+     "10",
+     "Autoclave",
+     "جهاز التعقيم بالبخار المضغوط (الأوتوكليف)"
+    ],
+    [
+     "11",
+     "Incubator",
+     "الحاضنة"
+    ]
+   ]
+  },
+  {
+   "t": "note",
+   "en": "* Labels 3–5 are partly hidden by a watermark in the original image; only the readable parts are shown.",
+   "ar": "* التسميات 3–5 مغطّاة جزئيًا بعلامة مائية في الصورة الأصلية، لذلك كُتب الجزء المقروء منها فقط."
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "en": "Biosafety levels are principles and application used to protect:",
+    "ar": "مستويات السلامة الحيوية مبادئ وتطبيقات تُستخدم لحماية:",
+    "options": [
+     [
+      "Only the patients",
+      "المرضى فقط"
+     ],
+     [
+      "Only laboratory equipment",
+      "الأجهزة المختبرية فقط"
+     ],
+     [
+      "Laboratory workers and the surrounding environment",
+      "العاملين في المختبر والبيئة المحيطة"
+     ],
+     [
+      "Only the cultures",
+      "المزارع فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Biosafety levels aim to provide:",
+    "ar": "تهدف مستويات السلامة الحيوية إلى توفير:",
+    "options": [
+     [
+      "The highest level of protection and the lowest range of exposure",
+      "أعلى مستوى من الحماية وأدنى مدى من التعرّض"
+     ],
+     [
+      "The lowest level of protection and the highest range of exposure",
+      "أدنى مستوى من الحماية وأعلى مدى من التعرّض"
+     ],
+     [
+      "Moderate protection and moderate exposure",
+      "حماية متوسطة وتعرّض متوسط"
+     ],
+     [
+      "Protection of cultures only",
+      "حماية المزارع فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Risk groups are used to:",
+    "ar": "تُستخدم مجموعات الخطورة من أجل:",
+    "options": [
+     [
+      "Sterilize instruments",
+      "تعقيم الأدوات"
+     ],
+     [
+      "Assess risk, determine its source and how to deal with it",
+      "تقييم الخطر وتحديد مصدره وكيفية التعامل معه"
+     ],
+     [
+      "Destroy bacterial spores",
+      "تدمير الأبواغ البكتيرية"
+     ],
+     [
+      "Classify lab glassware",
+      "تصنيف الأدوات الزجاجية المختبرية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "How many risk groups are described in the lecture?",
+    "ar": "كم عدد مجموعات الخطورة الموصوفة في المحاضرة؟",
+    "options": [
+     [
+      "2",
+      "2"
+     ],
+     [
+      "3",
+      "3"
+     ],
+     [
+      "5",
+      "5"
+     ],
+     [
+      "4",
+      "4"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "*Bacillus Subtilis* belongs to:",
+    "ar": "تنتمي `*Bacillus Subtilis*` إلى:",
+    "options": [
+     [
+      "Risk group 1",
+      "مجموعة الخطورة 1"
+     ],
+     [
+      "Risk group 2",
+      "مجموعة الخطورة 2"
+     ],
+     [
+      "Risk group 3",
+      "مجموعة الخطورة 3"
+     ],
+     [
+      "Risk group 4",
+      "مجموعة الخطورة 4"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Risk group 1 includes:",
+    "ar": "تضم مجموعة الخطورة 1:",
+    "options": [
+     [
+      "Factors that are fatal to humans",
+      "عوامل مميتة للإنسان"
+     ],
+     [
+      "Non-pathogenic factors in healthy people and adults",
+      "عوامل غير مُمرِضة للأشخاص الأصحّاء والبالغين"
+     ],
+     [
+      "Factors whose treatment is not easy",
+      "عوامل علاجها ليس سهلًا"
+     ],
+     [
+      "Factors related to human infection only",
+      "عوامل مرتبطة بعدوى الإنسان فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which statement describes Risk group 2?",
+    "ar": "أيّ عبارة تصف مجموعة الخطورة 2؟",
+    "options": [
+     [
+      "Minimal risk; non-pathogenic",
+      "خطورة ضئيلة؛ غير مُمرِضة"
+     ],
+     [
+      "High risk; treatment is not easy",
+      "خطورة عالية؛ العلاج ليس سهلًا"
+     ],
+     [
+      "Moderate risk; treatment is possible; limited risk of spread",
+      "خطورة متوسطة؛ العلاج ممكن؛ خطر انتشار محدود"
+     ],
+     [
+      "Extreme risk",
+      "خطورة قصوى"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "*Brucella spp.* is an example of:",
+    "ar": "تُعدّ `*Brucella spp.*` مثالًا على:",
+    "options": [
+     [
+      "Risk group 1",
+      "مجموعة الخطورة 1"
+     ],
+     [
+      "Risk group 3",
+      "مجموعة الخطورة 3"
+     ],
+     [
+      "Risk group 4",
+      "مجموعة الخطورة 4"
+     ],
+     [
+      "Risk group 2",
+      "مجموعة الخطورة 2"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The pathogenic strain of *E.coli* is classified in:",
+    "ar": "تُصنَّف السلالة المُمرِضة من `*E.coli*` ضمن:",
+    "options": [
+     [
+      "Risk group 2",
+      "مجموعة الخطورة 2"
+     ],
+     [
+      "Risk group 1",
+      "مجموعة الخطورة 1"
+     ],
+     [
+      "Risk group 3",
+      "مجموعة الخطورة 3"
+     ],
+     [
+      "Risk group 4",
+      "مجموعة الخطورة 4"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "*Mycobacterium tuberculosis* belongs to:",
+    "ar": "تنتمي `*Mycobacterium tuberculosis*` إلى:",
+    "options": [
+     [
+      "Risk group 1",
+      "مجموعة الخطورة 1"
+     ],
+     [
+      "Risk group 2",
+      "مجموعة الخطورة 2"
+     ],
+     [
+      "Risk group 3",
+      "مجموعة الخطورة 3"
+     ],
+     [
+      "Risk group 4",
+      "مجموعة الخطورة 4"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "*Salmonella typhi* is classified in:",
+    "ar": "تُصنَّف `*Salmonella typhi*` ضمن:",
+    "options": [
+     [
+      "Risk group 1",
+      "مجموعة الخطورة 1"
+     ],
+     [
+      "Risk group 3",
+      "مجموعة الخطورة 3"
+     ],
+     [
+      "Risk group 2",
+      "مجموعة الخطورة 2"
+     ],
+     [
+      "Risk group 4",
+      "مجموعة الخطورة 4"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Risk group 3 agents are especially dangerous for:",
+    "ar": "عوامل مجموعة الخطورة 3 خطيرة بشكل خاص على:",
+    "options": [
+     [
+      "Immunosuppressed persons",
+      "الأشخاص المثبَّطة مناعتهم"
+     ],
+     [
+      "Laboratory equipment",
+      "الأجهزة المختبرية"
+     ],
+     [
+      "Inanimate objects",
+      "الأجسام غير الحيّة"
+     ],
+     [
+      "Lab glassware",
+      "الأدوات الزجاجية المختبرية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The biosafety level that corresponds to Risk group 3 is:",
+    "ar": "مستوى السلامة الحيوية المقابل لمجموعة الخطورة 3 هو:",
+    "options": [
+     [
+      "Biosafety level 1",
+      "مستوى السلامة الحيوية 1"
+     ],
+     [
+      "Biosafety level 2",
+      "مستوى السلامة الحيوية 2"
+     ],
+     [
+      "Biosafety level 4",
+      "مستوى السلامة الحيوية 4"
+     ],
+     [
+      "Biosafety level 3",
+      "مستوى السلامة الحيوية 3"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Risk group 4 is described as:",
+    "ar": "توصف مجموعة الخطورة 4 بأنها:",
+    "options": [
+     [
+      "Minimal risk",
+      "خطورة ضئيلة"
+     ],
+     [
+      "Extreme risk",
+      "خطورة قصوى"
+     ],
+     [
+      "Moderate risk",
+      "خطورة متوسطة"
+     ],
+     [
+      "High risk",
+      "خطورة عالية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The biohazard symbol is used to:",
+    "ar": "يُستخدم رمز الخطر الحيوي من أجل:",
+    "options": [
+     [
+      "Warn people of the potential presence of dangerous biological materials",
+      "تحذير الأشخاص من احتمال وجود مواد بيولوجية خطرة"
+     ],
+     [
+      "Mark sterile instruments",
+      "تمييز الأدوات المعقّمة"
+     ],
+     [
+      "Indicate radiation sources only",
+      "الإشارة إلى مصادر الإشعاع فقط"
+     ],
+     [
+      "Label food containers",
+      "وسم أوعية الطعام"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which of the following is NOT listed as an example for using the biohazard symbol?",
+    "ar": "أيّ مما يلي لم يُذكر مثالًا لاستخدام رمز الخطر الحيوي؟",
+    "options": [
+     [
+      "Cultures of pathogens",
+      "مزارع المُمرِضات"
+     ],
+     [
+      "Human blood and tissue",
+      "دم الإنسان وأنسجته"
+     ],
+     [
+      "Corridors leading to the laboratories",
+      "الممرات المؤدية إلى المختبرات"
+     ],
+     [
+      "Office stationery",
+      "القرطاسية المكتبية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Protective clothing in the lab includes all of the following EXCEPT:",
+    "ar": "تشمل الملابس الواقية في المختبر جميع ما يلي ما عدا:",
+    "options": [
+     [
+      "Clean lab coat",
+      "معطف مختبر نظيف"
+     ],
+     [
+      "Lab glassware",
+      "الأدوات الزجاجية المختبرية"
+     ],
+     [
+      "Mask",
+      "الكمامة"
+     ],
+     [
+      "Safety glasses",
+      "النظارات الواقية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "While wearing gloves, you should avoid touching:",
+    "ar": "أثناء ارتداء القفازات يجب تجنّب لمس:",
+    "options": [
+     [
+      "Pencils",
+      "الأقلام"
+     ],
+     [
+      "Cell phones",
+      "الهواتف المحمولة"
+     ],
+     [
+      "Door handles",
+      "مقابض الأبواب"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Long hair must be tied back or covered to minimize:",
+    "ar": "يجب ربط الشعر الطويل أو تغطيته لتقليل:",
+    "options": [
+     [
+      "Fire hazard or contamination of experiment",
+      "خطر الحريق أو تلوّث التجربة"
+     ],
+     [
+      "Noise in the lab",
+      "الضوضاء في المختبر"
+     ],
+     [
+      "Breakage of glassware",
+      "كسر الأدوات الزجاجية"
+     ],
+     [
+      "Radiation hazard",
+      "خطر الإشعاع"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "All cultures should be handled as:",
+    "ar": "يجب التعامل مع جميع المزارع على أنها:",
+    "options": [
+     [
+      "Non-pathogenic",
+      "غير مُمرِضة"
+     ],
+     [
+      "Sterile",
+      "معقّمة"
+     ],
+     [
+      "Potentially pathogenic",
+      "يُحتمل أن تكون مُمرِضة"
+     ],
+     [
+      "Harmless outside the lab",
+      "غير ضارة خارج المختبر"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Laboratory instruments should be disinfected:",
+    "ar": "يجب تطهير أدوات المختبر:",
+    "options": [
+     [
+      "Once a week",
+      "مرة في الأسبوع"
+     ],
+     [
+      "Immediately after use",
+      "فور استخدامها"
+     ],
+     [
+      "Only before use",
+      "قبل الاستخدام فقط"
+     ],
+     [
+      "Only if visibly dirty",
+      "فقط إذا بدت متّسخة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Contaminated waste must be:",
+    "ar": "يجب أن تُعامَل النفايات الملوّثة بـ:",
+    "options": [
+     [
+      "Discarded directly",
+      "التخلّص منها مباشرة"
+     ],
+     [
+      "Taken out of the lab",
+      "إخراجها من المختبر"
+     ],
+     [
+      "Disinfected before discarding",
+      "تطهيرها قبل التخلّص منها"
+     ],
+     [
+      "Kept in food containers",
+      "حفظها في أوعية الطعام"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The complete killing or removal of all living organisms is called:",
+    "ar": "يُسمّى القتل أو الإزالة الكاملة لجميع الكائنات الحية:",
+    "options": [
+     [
+      "Disinfection",
+      "التطهير"
+     ],
+     [
+      "Antiseptics",
+      "المطهّرات الموضعية"
+     ],
+     [
+      "Decontamination",
+      "إزالة التلوّث"
+     ],
+     [
+      "Sterilization",
+      "التعقيم"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The destruction or removal of pathogens but not bacterial spores is:",
+    "ar": "تدمير المُمرِضات أو إزالتها ولكن ليس الأبواغ البكتيرية هو:",
+    "options": [
+     [
+      "Disinfection",
+      "التطهير"
+     ],
+     [
+      "Sterilization",
+      "التعقيم"
+     ],
+     [
+      "Antiseptics",
+      "المطهّرات الموضعية"
+     ],
+     [
+      "Bio risk",
+      "الخطر البيولوجي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Disinfection is usually used only on:",
+    "ar": "يُستخدم التطهير عادةً على:",
+    "options": [
+     [
+      "Body surfaces",
+      "أسطح الجسم"
+     ],
+     [
+      "Inanimate objects",
+      "الأجسام غير الحيّة فقط"
+     ],
+     [
+      "Wounds",
+      "الجروح"
+     ],
+     [
+      "Food",
+      "الطعام"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Chemicals applied to body surfaces to destroy or inhibit pathogens are:",
+    "ar": "المواد الكيميائية التي تُطبَّق على أسطح الجسم لتدمير المُمرِضات أو تثبيطها هي:",
+    "options": [
+     [
+      "Disinfectants of instruments",
+      "مطهّرات الأدوات"
+     ],
+     [
+      "Sterilizers",
+      "المعقِّمات"
+     ],
+     [
+      "Antiseptics",
+      "المطهّرات الموضعية"
+     ],
+     [
+      "Cultures",
+      "المزارع"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The mechanical removal of most microbes by using washing, heat or disinfectants is:",
+    "ar": "الإزالة الميكانيكية لمعظم الميكروبات باستخدام الغسل أو الحرارة أو المطهّرات هي:",
+    "options": [
+     [
+      "Sterilization",
+      "التعقيم"
+     ],
+     [
+      "Decontamination",
+      "إزالة التلوّث"
+     ],
+     [
+      "Bio risk assessment",
+      "تقييم الخطر البيولوجي"
+     ],
+     [
+      "Antiseptics",
+      "المطهّرات الموضعية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "A facility within which microorganisms, their components or their derivatives are collected, handled and/or stored is:",
+    "ar": "المنشأة التي تُجمَع فيها الكائنات الحية الدقيقة أو مكوّناتها أو مشتقّاتها ويُتعامل معها و/أو تُخزَّن هي:",
+    "options": [
+     [
+      "Biosafety cabinet",
+      "كابينة السلامة الحيوية"
+     ],
+     [
+      "Incubator",
+      "الحاضنة"
+     ],
+     [
+      "Corridor",
+      "الممر"
+     ],
+     [
+      "Biological laboratory",
+      "المختبر البيولوجي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The probability or chance that a particular adverse event possibly leads to harm is:",
+    "ar": "احتمال أو فرصة أن يؤدي حدث ضار معيّن إلى الضرر هو:",
+    "options": [
+     [
+      "Bio risk",
+      "الخطر البيولوجي"
+     ],
+     [
+      "Biohazard symbol",
+      "رمز الخطر الحيوي"
+     ],
+     [
+      "Sterilization",
+      "التعقيم"
+     ],
+     [
+      "Risk group 1",
+      "مجموعة الخطورة 1"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The process to identify acceptable and unacceptable risks and their potential consequences is:",
+    "ar": "عملية تحديد المخاطر المقبولة وغير المقبولة وعواقبها المحتملة هي:",
+    "options": [
+     [
+      "Decontamination",
+      "إزالة التلوّث"
+     ],
+     [
+      "Bio risk assessment",
+      "تقييم الخطر البيولوجي"
+     ],
+     [
+      "Disinfection",
+      "التطهير"
+     ],
+     [
+      "Biosafety level 1",
+      "مستوى السلامة الحيوية 1"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which of the following is a laboratory biosecurity risk?",
+    "ar": "أيّ مما يلي من مخاطر الأمن الحيوي المختبري؟",
+    "options": [
+     [
+      "Accidental infection",
+      "العدوى العَرَضية"
+     ],
+     [
+      "Loss of bacterial spores during sterilization",
+      "فقدان الأبواغ البكتيرية أثناء التعقيم"
+     ],
+     [
+      "Washing with heat",
+      "الغسل بالحرارة"
+     ],
+     [
+      "Unauthorized access, theft or misuse",
+      "الوصول غير المصرَّح به أو السرقة أو إساءة الاستخدام"
+     ]
+    ],
+    "answer": "d"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Biosafety levels protect only laboratory workers, not the surrounding environment.",
+    "ar": "تحمي مستويات السلامة الحيوية العاملين في المختبر فقط، وليس البيئة المحيطة.",
+    "answer": "F"
+   },
+   {
+    "en": "Risk groups include 4 groups.",
+    "ar": "تشمل مجموعات الخطورة 4 مجموعات.",
+    "answer": "T"
+   },
+   {
+    "en": "*E.coli* and *Bacillus Subtilis* are given as examples of Risk group 1.",
+    "ar": "ذُكرت `*E.coli*` و`*Bacillus Subtilis*` مثالين على مجموعة الخطورة 1.",
+    "answer": "T"
+   },
+   {
+    "en": "In Risk group 2, treatment is not possible.",
+    "ar": "في مجموعة الخطورة 2 لا يكون العلاج ممكنًا.",
+    "answer": "F"
+   },
+   {
+    "en": "Risk group 3 agents cause serious and fatal infections and their treatment is not easy.",
+    "ar": "تسبّب عوامل مجموعة الخطورة 3 عدوى خطيرة ومميتة وعلاجها ليس سهلًا.",
+    "answer": "T"
+   },
+   {
+    "en": "*Salmonella spp.* belongs to Risk group 3.",
+    "ar": "تنتمي `*Salmonella spp.*` إلى مجموعة الخطورة 3.",
+    "answer": "F"
+   },
+   {
+    "en": "Biosafety level 4 corresponds to Risk group 4 (Extreme risk).",
+    "ar": "يقابل مستوى السلامة الحيوية 4 مجموعة الخطورة 4 (خطورة قصوى).",
+    "answer": "T"
+   },
+   {
+    "en": "The biohazard symbol is used on corridors leading to the laboratories.",
+    "ar": "يُستخدم رمز الخطر الحيوي على الممرات المؤدية إلى المختبرات.",
+    "answer": "T"
+   },
+   {
+    "en": "Pencils and labels may be placed in the mouth after removing the gloves.",
+    "ar": "يجوز وضع الأقلام والملصقات في الفم بعد خلع القفازات.",
+    "answer": "F"
+   },
+   {
+    "en": "Lab glassware can be used as food or water containers if it is clean.",
+    "ar": "يمكن استخدام الأدوات الزجاجية المختبرية أوعيةً للطعام أو الماء إذا كانت نظيفة.",
+    "answer": "F"
+   },
+   {
+    "en": "Cultures may be taken out of the lab if there is a good reason.",
+    "ar": "يجوز إخراج المزارع من المختبر إذا وُجد سبب وجيه.",
+    "answer": "F"
+   },
+   {
+    "en": "Hands should be washed after working with infectious materials.",
+    "ar": "يجب غسل اليدين بعد العمل مع المواد المُعدية.",
+    "answer": "T"
+   },
+   {
+    "en": "Disinfection destroys bacterial spores.",
+    "ar": "التطهير يدمّر الأبواغ البكتيرية.",
+    "answer": "F"
+   },
+   {
+    "en": "Antiseptics are chemicals applied to body surfaces.",
+    "ar": "المطهّرات الموضعية مواد كيميائية تُطبَّق على أسطح الجسم.",
+    "answer": "T"
+   },
+   {
+    "en": "Decontamination is the complete killing of all living organisms.",
+    "ar": "إزالة التلوّث هي القتل الكامل لجميع الكائنات الحية.",
+    "answer": "F"
+   },
+   {
+    "en": "Bio risk assessment embraces biosafety risks and laboratory biosecurity risks.",
+    "ar": "يشمل تقييم الخطر البيولوجي مخاطر السلامة الحيوية ومخاطر الأمن الحيوي المختبري.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "*Salmonella spp.* and *Salmonella typhi* belong to the same risk group. Correct?",
+    "ar": "تنتمي `*Salmonella spp.*` و`*Salmonella typhi*` إلى مجموعة الخطورة نفسها. هل هذا صحيح؟",
+    "answer_en": "No. *Salmonella spp.* → Risk group 2; *Salmonella typhi* → Risk group 3.",
+    "answer_ar": "لا. `*Salmonella spp.*` ← المجموعة 2؛ `*Salmonella typhi*` ← المجموعة 3."
+   },
+   {
+    "en": "*E.coli* appears in two risk groups. Which ones, and why?",
+    "ar": "تظهر `*E.coli*` في مجموعتَي خطورة. ما هما، ولماذا؟",
+    "answer_en": "*E.coli* → Risk group 1; *E.coli* **pathogenic strain** → Risk group 2.",
+    "answer_ar": "`*E.coli*` ← المجموعة 1؛ **السلالة المُمرِضة** من `*E.coli*` ← المجموعة 2."
+   },
+   {
+    "en": "Disinfection and sterilization both kill bacterial spores. Correct?",
+    "ar": "التطهير والتعقيم كلاهما يقتلان الأبواغ البكتيرية. هل هذا صحيح؟",
+    "answer_en": "No. Sterilization kills **all** living organisms; disinfection does **not** kill bacterial spores.",
+    "answer_ar": "لا. التعقيم يقتل **جميع** الكائنات الحية؛ أما التطهير فلا يقتل الأبواغ البكتيرية."
+   },
+   {
+    "en": "Antiseptics are applied to lab benches and instruments. Correct?",
+    "ar": "تُطبَّق المطهّرات الموضعية على طاولات المختبر والأدوات. هل هذا صحيح؟",
+    "answer_en": "No. Antiseptics → **body surfaces**; disinfection → inanimate objects.",
+    "answer_ar": "لا. المطهّرات الموضعية ← **أسطح الجسم**؛ التطهير ← الأجسام غير الحيّة."
+   },
+   {
+    "en": "Decontamination removes all microbes. Correct?",
+    "ar": "إزالة التلوّث تزيل جميع الميكروبات. هل هذا صحيح؟",
+    "answer_en": "No. It is the mechanical removal of **most** microbes (washing, heat or disinfectants).",
+    "answer_ar": "لا. هي الإزالة الميكانيكية **لمعظم** الميكروبات (الغسل أو الحرارة أو المطهّرات)."
+   },
+   {
+    "en": "Biosafety levels aim to provide the highest exposure and the lowest protection. Correct?",
+    "ar": "تهدف مستويات السلامة الحيوية إلى توفير أعلى تعرّض وأدنى حماية. هل هذا صحيح؟",
+    "answer_en": "No — reversed. The aim is the **highest protection** and the **lowest exposure**.",
+    "answer_ar": "لا — العبارة معكوسة. الهدف **أعلى حماية** و**أدنى تعرّض**."
+   },
+   {
+    "en": "Theft and misuse are biosafety risks. Correct?",
+    "ar": "السرقة وإساءة الاستخدام من مخاطر السلامة الحيوية. هل هذا صحيح؟",
+    "answer_en": "No. They are **laboratory biosecurity** risks; biosafety risks are risks of accidental infection.",
+    "answer_ar": "لا. هي من مخاطر **الأمن الحيوي المختبري**؛ أما مخاطر السلامة الحيوية فهي مخاطر العدوى العَرَضية."
+   },
+   {
+    "en": "Contaminated waste is discarded first and then disinfected. Correct?",
+    "ar": "تُرمى النفايات الملوّثة أولًا ثم تُطهَّر. هل هذا صحيح؟",
+    "answer_en": "No. Waste is disinfected **before discarding**; instruments are disinfected **immediately after use**.",
+    "answer_ar": "لا. تُطهَّر النفايات **قبل التخلّص منها**؛ وتُطهَّر الأدوات **فور استخدامها**."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define biosafety levels and state their aim.",
+    "ar": "عرّف مستويات السلامة الحيوية واذكر هدفها.",
+    "answer_en": "Principles and application used to protect laboratory workers and the surrounding environment from exposure to danger while working with living organisms. Aim: the highest level of protection and the lowest range of exposure.",
+    "answer_ar": "مبادئ وتطبيقات لحماية العاملين في المختبر والبيئة المحيطة من التعرّض للخطر أثناء العمل مع الكائنات الحية. الهدف: أعلى مستوى من الحماية وأدنى مدى من التعرّض."
+   },
+   {
+    "en": "What are risk groups? List the four groups with their examples.",
+    "ar": "ما مجموعات الخطورة؟ عدّد المجموعات الأربع مع أمثلتها.",
+    "answer_en": "Used to assess risk, determine its source and how to deal with it. RG1 minimal (*E.coli*, *Bacillus Subtilis*); RG2 moderate (*E.coli* pathogenic strain, *Brucella spp.*, *Salmonella spp.*); RG3 high (*Salmonella typhi*, *Mycobacterium tuberculosis*); RG4 extreme.",
+    "answer_ar": "تُستخدم لتقييم الخطر وتحديد مصدره وكيفية التعامل معه. المجموعة 1 ضئيلة؛ المجموعة 2 متوسطة؛ المجموعة 3 عالية؛ المجموعة 4 قصوى (مع الأمثلة المذكورة)."
+   },
+   {
+    "en": "Compare Risk group 2 and Risk group 3.",
+    "ar": "قارن بين مجموعة الخطورة 2 ومجموعة الخطورة 3.",
+    "answer_en": "RG2: moderate risk, related to human infection, treatment is possible, limited risk of spread. RG3: high risk, serious and fatal infections, treatment is not easy, especially for immunosuppressed persons.",
+    "answer_ar": "المجموعة 2: خطورة متوسطة، عدوى للإنسان، العلاج ممكن، انتشار محدود. المجموعة 3: خطورة عالية، عدوى خطيرة ومميتة، العلاج ليس سهلًا خصوصًا للمثبَّطة مناعتهم."
+   },
+   {
+    "en": "What is the biohazard symbol used for? Give three examples.",
+    "ar": "لِمَ يُستخدم رمز الخطر الحيوي؟ أعطِ ثلاثة أمثلة.",
+    "answer_en": "To warn people of the potential presence of dangerous biological materials: cultures of pathogens; human blood and tissue; corridors leading to the laboratories.",
+    "answer_ar": "لتحذير الأشخاص من احتمال وجود مواد بيولوجية خطرة: مزارع المُمرِضات؛ دم الإنسان وأنسجته؛ الممرات المؤدية إلى المختبرات."
+   },
+   {
+    "en": "List the eight laboratory safety considerations.",
+    "ar": "عدّد اعتبارات السلامة الثمانية في المختبر.",
+    "answer_en": "Protective clothing; avoid touching objects with gloves and never place items in the mouth; no eating/drinking and no glassware as food containers; tie long hair; no cultures out of the lab; wash hands; disinfect instruments after use; disinfect waste before discarding.",
+    "answer_ar": "الملابس الواقية؛ عدم لمس الأشياء بالقفازات وعدم وضع شيء في الفم؛ عدم الأكل والشرب؛ ربط الشعر الطويل؛ عدم إخراج المزارع؛ غسل اليدين؛ تطهير الأدوات فور الاستخدام؛ تطهير النفايات قبل التخلّص منها."
+   },
+   {
+    "en": "Define: sterilization, disinfection, antiseptics and decontamination.",
+    "ar": "عرّف: التعقيم، التطهير، المطهّرات الموضعية، إزالة التلوّث.",
+    "answer_en": "See the four definitions in the booklet (Section 5) — key words: all organisms / not bacterial spores, inanimate objects / body surfaces / mechanical removal of most microbes.",
+    "answer_ar": "راجع التعاريف الأربعة في الملزمة (القسم 5) — الكلمات المفتاحية: جميع الكائنات / ليس الأبواغ البكتيرية، الأجسام غير الحيّة / أسطح الجسم / إزالة ميكانيكية لمعظم الميكروبات."
+   },
+   {
+    "en": "Define: biological laboratory, bio risk and bio risk assessment.",
+    "ar": "عرّف: المختبر البيولوجي، الخطر البيولوجي، تقييم الخطر البيولوجي.",
+    "answer_en": "See Section 6 of the booklet — facility for collecting/handling/storing microorganisms; probability of an adverse event leading to harm; process to identify acceptable and unacceptable risks and their consequences.",
+    "answer_ar": "راجع القسم 6 من الملزمة — منشأة لجمع الكائنات الدقيقة والتعامل معها وتخزينها؛ احتمال حدث ضار يؤدي إلى الضرر؛ عملية تحديد المخاطر المقبولة وغير المقبولة وعواقبها."
+   },
+   {
+    "en": "Differentiate between biosafety risks and laboratory biosecurity risks.",
+    "ar": "فرّق بين مخاطر السلامة الحيوية ومخاطر الأمن الحيوي المختبري.",
+    "answer_en": "Biosafety risks: risks of accidental infection. Biosecurity risks: unauthorized access, loss, theft, misuse, diversion or intentional release.",
+    "answer_ar": "مخاطر السلامة الحيوية: العدوى العَرَضية. مخاطر الأمن الحيوي: الوصول غير المصرَّح به، الفقدان، السرقة، إساءة الاستخدام، التحويل أو الإطلاق المتعمَّد."
+   }
+  ]
+ }
+}
