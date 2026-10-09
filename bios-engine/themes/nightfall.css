@@ -1,0 +1,6 @@
+/* Nightfall Serenity: #444152 · #8E8AA5 · #CBCAD0 · #E4E4E6 */
+:root{--dark:#444152;--gold:#8e8aa5;--star:#cbcad0;--egret:#ecebef;--red:#8e8aa5;--key:#444152;--paper:#fff;
+--ink:#444152;--muted:rgba(68,65,82,.62);--bd:var(--star)}
+/* key terms: bold with a thin lavender underline, so they stand out from body text of the same colour */
+b.t{text-decoration:underline;text-decoration-color:#8e8aa5;text-decoration-thickness:.45mm;text-underline-offset:1mm;text-decoration-skip-ink:none}
+.cover{background:#e4e4e6}

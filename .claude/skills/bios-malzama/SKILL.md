@@ -11,6 +11,8 @@ description: Build a BIOS-style bilingual (English + Arabic) handout PDF — and
   `bios-engine/themes/` (CSS variables only) plus a recoloured cover logo
   `bios-engine/brand/logo_<theme>.jpg`. Never hard-code a colour in a lecture.
   - `knight` (default): navy, gold, crimson, parchment, ink.
+  - `nightfall` (trial, used by `lab1-biosafety/`): Nightfall Serenity — `#444152`,
+    `#8E8AA5`, `#CBCAD0`, `#E4E4E6`; key terms are underlined instead of coloured.
   - `rose` (trial, used by `immunology-lab1-serology/`): Dark Raspberry `#89235B`,
     Electric Rose `#F10291`, Pastel Petal `#FFCAE4`, Snow `#FFF3F2`, Rich Mahogany `#250209`.
   To add a theme, copy a theme file, change the values, and recolour
@@ -78,7 +80,7 @@ automatic pagination, and the question bank. The reference result is `lab1-biosa
 {
   "meta": {
     "subject_en": "Diagnostic Microbiology", "subject_ar": "الأحياء المجهرية التشخيصية",
-    "instructor": "د. ذهب",
+    "instructor": "د. هبة سامي",
     "unit_en": "Lab 2", "unit_ar": "العملي 2", "unit_label": "LAB", "unit_no": "2",
     "title_en": "…", "title_ar": "…",
     "department": "قسم التحليلات", "stage": "The fourth stage — الرابعة",
