@@ -83,7 +83,7 @@ automatic pagination, and the question bank. The reference result is `lab1-biosa
 For a theory lecture use `"unit_en": "Lecture 3"`, `"unit_ar": "المحاضرة 3"`,
 `"unit_label": "LECTURE"`, `"kind": "Theory — نظري"`. Optional meta keys (defaults in
 `bios.py`): `brand`, `telegram`, `instructor_label_ar`, `questions_kind`, `file_name`.
-`unit_ar` is only used in the file name logic of older handouts; the header shows `unit_en`.
+`unit_ar` is optional and not printed (the header shows `unit_en` only).
 
 ### Blocks
 
