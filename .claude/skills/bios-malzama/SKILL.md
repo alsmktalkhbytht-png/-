@@ -13,7 +13,10 @@ description: Build a BIOS-style bilingual (English + Arabic) handout PDF — and
   - `knight` (default): navy, gold, crimson, parchment, ink.
   - `nightfall` (trial, used by `lab1-biosafety/`): Nightfall Serenity — `#444152`,
     `#8E8AA5`, `#CBCAD0`, `#E4E4E6`; key terms are underlined instead of coloured.
-  - `rose` (trial, used by `immunology-lab1-serology/`): Dark Raspberry `#89235B`,
+  - `blush` (trial, used by `immunology-lab1-serology/`): `#f9e9ef`, `#f2808f`, `#e8d6d0`,
+    `#eebcc2`, plus a deep rose ink `#4a2a30` for text — the palette has no dark colour, so
+    coral bars carry ink text and key terms are underlined in coral.
+  - `rose` (earlier trial): Dark Raspberry `#89235B`,
     Electric Rose `#F10291`, Pastel Petal `#FFCAE4`, Snow `#FFF3F2`, Rich Mahogany `#250209`.
   To add a theme, copy a theme file, change the values, and recolour
   `brand/logo_full.jpg` the same way (dark ink → the theme's `--dark`, paper → `--egret`).

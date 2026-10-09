@@ -4,7 +4,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 
 - `bios-engine/` — the engine (style, fonts, logo, pagination, PDF rendering).
 - `lab1-biosafety/` — Diagnostic Microbiology Lab 1 (nightfall theme), the reference handout: `lecture.json` is the content, the PDFs are the output.
-- `immunology-lab1-serology/` — Practical Immunology Lab 1 (rose theme).
+- `immunology-lab1-serology/` — Practical Immunology Lab 1 (blush theme).
 - `.claude/skills/bios-malzama/SKILL.md` — how to make a new handout and the full `lecture.json` format.
 
 Build a handout:

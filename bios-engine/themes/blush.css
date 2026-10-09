@@ -1,0 +1,19 @@
+/* Blush: #f9e9ef · #f2808f · #e8d6d0 · #eebcc2 — plus a deep rose ink #4a2a30 for text,
+   because every swatch in the palette is too light to read as body text. */
+:root{--dark:#f2808f;--gold:#f2808f;--star:#eebcc2;--egret:#f9e9ef;--red:#f2808f;--key:#4a2a30;--paper:#fff;
+--ink:#4a2a30;--muted:rgba(74,42,48,.62);--bd:var(--star)}
+/* coral fills carry ink text (white on coral is too faint) */
+.sb,.rg-h,table.tb th,.lt-box,.pillh,.np,.cv-pill,.ftr .fx,.ftr .fx b,.nb,.rule .rn,.qnum,.sn,.cv-foot,.cv-foot .l b,.cv-foot .r b{color:var(--ink)}
+/* headings and labels that used the bar colour as text colour */
+.hc .e,.lt-en,.lt-ar,.h2,.hp.lab,.hp.bios .bw,.cv-t1,.cv-t2,.cv-card .v,.sym .l1,.sym .l2,.op .l,.tfrow span,
+.akey div span,.cv-ins .v,figcaption b,.mark,.cut,.chip{color:var(--ink)}
+.h2{border-bottom-color:var(--dark)}
+/* key terms: ink, bold, coral underline */
+b.t{text-decoration:underline;text-decoration-color:#f2808f;text-decoration-thickness:.5mm;text-underline-offset:1mm;text-decoration-skip-ink:none}
+/* beige (#e8d6d0) for the quieter surfaces */
+.sum{background:#e8d6d0;border-left-color:#f2808f}
+.cover{background:#e8d6d0}
+.cv-st{color:#f2808f}
+.cv-b1{background:#eebcc2}
+.tab{background:var(--ink);color:#f9e9ef}
+.ftr{border-top-color:#eebcc2}
