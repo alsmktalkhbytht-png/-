@@ -10,10 +10,10 @@ description: Build a BIOS-style bilingual (English + Arabic) handout PDF — and
 - **Colour themes:** set `"theme"` in `meta`. Each theme is one file in
   `bios-engine/themes/` (CSS variables only) plus a recoloured cover logo
   `bios-engine/brand/logo_<theme>.jpg`. Never hard-code a colour in a lecture.
-  - `knight` (default): navy, gold, crimson, parchment, ink.
+  - `knight`: navy, gold, crimson, parchment, ink.
   - `nightfall` (trial, used by `lab1-biosafety/`): Nightfall Serenity — `#444152`,
     `#8E8AA5`, `#CBCAD0`, `#E4E4E6`; key terms are underlined instead of coloured.
-  - `plum` (trial, used by `parasitology-week1-mcq/`): `#3F2537`, `#EFCAD0`, `#FFF1F3`;
+  - `plum` (**default for every handout**, chosen by the team): `#3F2537`, `#EFCAD0`, `#FFF1F3`;
     key terms underlined in pink.
   - `blush` (trial, used by `immunology-lab1-serology/`): `#f9e9ef`, `#f2808f`, `#e8d6d0`,
     `#eebcc2`, plus a deep rose ink `#4a2a30` for text — the palette has no dark colour, so
@@ -22,6 +22,9 @@ description: Build a BIOS-style bilingual (English + Arabic) handout PDF — and
     Electric Rose `#F10291`, Pastel Petal `#FFCAE4`, Snow `#FFF3F2`, Rich Mahogany `#250209`.
   To add a theme, copy a theme file, change the values, and recolour
   `brand/logo_full.jpg` the same way (dark ink → the theme's `--dark`, paper → `--egret`).
+- **Cover credit:** the cover shows "Translation · ترجمة: بايوس" (meta `translation`, default
+  `بايوس`). Never put a person's name as translator. `instructor` and `stage` are optional —
+  leave them out when the source does not give them and the cover hides those boxes.
 - **Arabic body text is 13 pt** (one step smaller than before); keep it there.
 - **Sentence by sentence:** when a paragraph has more than one sentence, write `en` and
   `ar` as lists of sentences (same length). Each English sentence is then followed directly
@@ -95,8 +98,7 @@ automatic pagination, and the question bank. The reference result is `lab1-biosa
     "unit_en": "Lab 2", "unit_ar": "العملي 2", "unit_label": "LAB", "unit_no": "2",
     "title_en": "…", "title_ar": "…",
     "department": "قسم التحليلات", "stage": "The fourth stage — الرابعة",
-    "kind": "Laboratories — عملي", "translator": "محمد حامد",
-    "theme": "knight"
+    "kind": "Laboratories — عملي"
   },
   "blocks": [ … ],
   "questions": { … }

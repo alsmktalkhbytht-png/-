@@ -224,10 +224,14 @@ def page(content, n, sub):
 
 
 def cover(pill_l, pill_r, kind):
-    cards = [("Department", "القسم", M["department"]), ("Stage", "المرحلة", M["stage"]),
-             ("Type", "النوع", kind), ("Prepared by", "إعداد", M["translator"])]
+    cards = [("Department", "القسم", M.get("department")), ("Stage", "المرحلة", M.get("stage")),
+             ("Type", "النوع", kind), ("Translation", "ترجمة", M["translation"])]
     cc = "".join(f'<div class="cv-card"><span class="k">{k}<small dir="rtl">{ka}</small></span><span class="v" dir="rtl">{v}</span></div>'
-                 for k, ka, v in cards)
+                 for k, ka, v in cards if v)
+    ins = (f'<div class="cv-ins"><span class="k">Instructor<br><span dir="rtl">{M["instructor_label_ar"]}</span></span>'
+           f'<span class="v" dir="rtl">{M["instructor"]}</span></div>\n'
+           '<span class="cv-st" style="top:221.2mm">✦ ✦ ✦</span><span class="cv-st" style="top:238.6mm;letter-spacing:0;padding:0 3mm">✦</span>'
+           if M.get("instructor") else "")
     return f'''<section class="page cover">
 <div class="cv-c1"></div><div class="cv-c2"></div><div class="cv-b1"></div><div class="cv-b2"></div>
 <div class="cv-logo"><img src="{M["_logo"]}"></div>
@@ -237,8 +241,7 @@ def cover(pill_l, pill_r, kind):
 <div class="cv-pill"><span dir="ltr">{pill_l}</span><span dir="rtl">{pill_r}</span></div>
 <div class="cv-r" style="top:181mm"></div>
 <div class="cv-cards">{cc}</div>
-<div class="cv-ins"><span class="k">Instructor<br><span dir="rtl">{M["instructor_label_ar"]}</span></span><span class="v" dir="rtl">{M["instructor"]}</span></div>
-<span class="cv-st" style="top:221.2mm">✦ ✦ ✦</span><span class="cv-st" style="top:238.6mm;letter-spacing:0;padding:0 3mm">✦</span>
+{ins}
 <div class="cv-band"></div>
 <div class="cv-foot"><div class="l"><b>{M["brand"]}</b></div><div class="r">Telegram &nbsp;<b>@{M["telegram"]}</b></div></div>
 </section>'''
@@ -368,7 +371,7 @@ def paginate(items, html_path, sub, forced):
 
 
 # ------------------------------------------------------------------ main
-DEFAULTS = {"brand": "BIOS", "telegram": "BIOS0t", "instructor_label_ar": "تدريسية المادة", "unit_label": "LAB", "kind": "Laboratories — عملي",
+DEFAULTS = {"brand": "BIOS", "telegram": "BIOS0t", "translation": "بايوس", "instructor_label_ar": "تدريسية المادة", "unit_label": "LAB", "kind": "Laboratories — عملي",
             "questions_kind": "Questions — أسئلة"}
 
 
@@ -387,7 +390,7 @@ def build(path, html_only=False):
     os.makedirs(out_dir, exist_ok=True)
     rel = lambda p: os.path.relpath(p, out_dir)
     M["_css"] = rel(os.path.join(ENGINE, "style.css"))
-    theme = M.get("theme", "knight")
+    theme = M.get("theme", "plum")
     M["_theme"] = rel(os.path.join(ENGINE, "themes", theme + ".css"))
     M["_logo"] = rel(os.path.join(ENGINE, "brand", f"logo_{theme}.jpg"))
     asset_base = rel(base_dir)

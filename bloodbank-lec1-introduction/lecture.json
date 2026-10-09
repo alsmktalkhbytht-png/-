@@ -1,0 +1,1291 @@
+{
+ "meta": {
+  "subject_en": "Blood Bank",
+  "subject_ar": "بنك الدم",
+  "unit_en": "Lecture 1",
+  "unit_ar": "المحاضرة 1",
+  "unit_label": "LEC",
+  "unit_no": "1",
+  "title_en": "Introduction to blood Banking",
+  "title_ar": "مقدمة في بنك الدم",
+  "department": "قسم التحليلات",
+  "kind": "Theory & Practical — نظري وعملي"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Introduction",
+   "ar": "المقدمة"
+  },
+  {
+   "t": "card",
+   "en": "The road to an efficient, safe, and uncomplicated transfusion technique has been rather difficult, but great progress has been made.",
+   "ar": "كان الطريق إلى تقنية نقل دم فعّالة وآمنة وغير معقّدة صعبًا نوعًا ما، لكن تقدّمًا كبيرًا قد تحقّق."
+  },
+  {
+   "t": "card",
+   "en": [
+    "In **1492**, blood was taken from three young men and given to Pope Innocent VII in the hope of curing him; unfortunately, all four died.",
+    "Although the outcome of this event was unsatisfactory, it is the **first time a blood transfusion was recorded** in history."
+   ],
+   "ar": [
+    "في عام **1492**، أُخذ دم من ثلاثة شبّان وأُعطي للبابا إنوسنت السابع على أمل شفائه؛ ولسوء الحظ مات الأربعة جميعًا.",
+    "ومع أن نتيجة هذه الحادثة لم تكن مُرضية، فإنها **أول مرة يُسجَّل فيها نقل دم** في التاريخ."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "In **1628**, British physician **William Harvey** discovered **blood circulation**.",
+    "The first known blood transfusion is attempted soon afterward."
+   ],
+   "ar": [
+    "في عام **1628**، اكتشف الطبيب البريطاني **وليم هارفي** (`William Harvey`) **الدورة الدموية**.",
+    "وجُرِّبت أول عملية نقل دم معروفة بعد ذلك بوقت قصير."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "In **1901** **Karl Landsteiner** discovered the **ABO blood groups** and won a Nobel Prize.",
+   "ar": "في عام **1901** اكتشف **كارل لاندشتاينر** (`Karl Landsteiner`) **فصائل الدم ABO** ونال جائزة نوبل."
+  },
+  {
+   "t": "card",
+   "en": [
+    "In **1914** , An unprecedented accomplishment in blood transfusion was achieved , when **Hustin** reported the use of **sodium citrate** as an **anticoagulant** solution for transfusions.",
+    "After that transfusions became more practical and safer for the patient."
+   ],
+   "ar": [
+    "في عام **1914**، تحقّق إنجاز غير مسبوق في نقل الدم، حين أعلن **هوستن** (`Hustin`) استعمال **سترات الصوديوم** (`Sodium citrate`) محلولًا **مانعًا للتخثّر** في عمليات نقل الدم.",
+    "وبعد ذلك أصبح نقل الدم أكثر عملية وأكثر أمانًا للمريض."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "HistoricaL review",
+   "ar": "لمحة تاريخية"
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/russian-syringe.jpg",
+     "en": "World War II Russian syringe for direct inter-human blood transfusion",
+     "ar": "محقنة روسية من الحرب العالمية الثانية لنقل الدم المباشر بين شخصين",
+     "h": "52mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/agote-1914.jpg",
+     "en": "Luis Agote (second from right) overseeing one of the first safe and effective blood transfusions in 1914",
+     "ar": "لويس أغوتي (الثاني من اليمين) يُشرف على إحدى أولى عمليات نقل الدم الآمنة والفعّالة عام 1914",
+     "h": "52mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Blood collection bags",
+   "ar": "أكياس جمع الدم"
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "In **1950** Carl Walter and W.P. Murphy Jr. introduced the **plastic bag** for blood collection.",
+     "ar": "في عام **1950** قدّم كارل والتر (`Carl Walter`) و و. ب. مورفي الابن (`W.P. Murphy Jr.`) **الكيس البلاستيكي** لجمع الدم."
+    },
+    {
+     "t": "card",
+     "en": "Replacing breakable **glass** bottles with durable **plastic bags** allowed for the evolution of a collection system capable of safe and easy preparation of **multiple blood components from a single unit** of whole blood.",
+     "ar": "إنّ استبدال القناني **الزجاجية** القابلة للكسر **بأكياس بلاستيكية** متينة أتاح تطوير نظام جمع قادر على تحضير **عدة مكوّنات دموية من وحدة واحدة** من الدم الكامل بأمان وسهولة."
+    }
+   ],
+   "figure": {
+    "src": "assets/blood-bag.jpg",
+    "en": "Transfusion from a glass bottle",
+    "ar": "نقل الدم من قنينة زجاجية"
+   }
+  },
+  {
+   "t": "section",
+   "en": "Blood banking",
+   "ar": "بنك الدم"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Blood Bank** :A place where blood and its components (plasma, platelets, & others) are **collected** from donors; **typed, testing, separated** into components, **stored**, and **prepared** for transfusion to recipients.",
+    "(i.e Blood banks prepare, stores safe blood for patient who need transfusions)"
+   ],
+   "ar": [
+    "**بنك الدم** (`Blood Bank`): مكان **يُجمع** فيه الدم ومكوّناته (البلازما، الصفائح الدموية، وغيرها) من المتبرعين، ثم **تُحدَّد فصيلته ويُفحص ويُفصل** إلى مكوّناته، **ويُخزَّن ويُحضَّر** لنقله إلى المستلمين.",
+    "(أي إن بنوك الدم تُحضّر الدم الآمن وتخزّنه للمرضى الذين يحتاجون إلى نقل الدم)"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "A blood bank may be a **separate free-standing facility** or **part of a larger laboratory** in a hospital. .",
+   "ar": "قد يكون بنك الدم **منشأة مستقلة قائمة بذاتها** أو **جزءًا من مختبر أكبر** في مستشفى."
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Transfusion medicine** : , is the medical specialty concerned with **collection, testing , storage and transfusion** of blood and blood components as well as the **prevention, diagnosis and management** of transfusion-related complications.",
+    "(i.e transfusion medicine ensures that the right blood products is safely given to the right patient at right time)"
+   ],
+   "ar": [
+    "**طب نقل الدم** (`Transfusion medicine`): هو التخصص الطبي المعني **بجمع الدم ومكوّناته وفحصها وخزنها ونقلها**، فضلًا عن **الوقاية من مضاعفات نقل الدم وتشخيصها ومعالجتها**.",
+    "(أي إن طب نقل الدم يضمن إعطاء منتج الدم الصحيح بأمان للمريض الصحيح في الوقت الصحيح)"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "WHO principles of a safe blood supply",
+   "ar": "مبادئ منظمة الصحة العالمية لإمداد دم آمن"
+  },
+  {
+   "t": "card",
+   "en": "A **safe blood supply** depends on several important **principles** that have been set out by **WHO** (World Health Organization)",
+   "ar": "يعتمد **الإمداد الآمن بالدم** على عدة **مبادئ** مهمة وضعتها **منظمة الصحة العالمية** (`WHO`)",
+   "list_en": [
+    "Collection of blood from only **voluntary, non-remunerated, low-risk** blood donors.",
+    "**Screening** of all donated blood for **transfusion-transmissible infectious agents**.",
+    "**ABO and Rh(D)** blood group testing for collected blood and appropriately labeled.",
+    "**Compatibility testing** should be done before transfusion",
+    "Appropriate clinical uses & **Reduction** in unnecessary transfusions through the effective clinical use of blood.",
+    "**Monitoring** of transfusions and adverse reactions should be monitored and investigated to improve safety."
+   ],
+   "list_ar": [
+    "جمع الدم فقط من متبرعين **متطوّعين، غير مأجورين، منخفضي الخطورة**.",
+    "**تحرّي** جميع الدم المتبرَّع به عن **العوامل المُعدية المنتقلة بنقل الدم**.",
+    "فحص فصيلة الدم **ABO وRh(D)** للدم المجموع، ووضع الملصقات عليه بصورة مناسبة.",
+    "يجب إجراء **فحص التوافق** قبل نقل الدم",
+    "الاستعمال السريري المناسب، و**تقليل** عمليات النقل غير الضرورية عبر الاستعمال السريري الفعّال للدم.",
+    "**مراقبة** عمليات نقل الدم، ويجب رصد التفاعلات الضارة والتحقيق فيها لتحسين السلامة."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Blood banking department include :",
+   "ar": "أقسام بنك الدم :"
+  },
+  {
+   "t": "h2",
+   "en": "1. Collection unit:",
+   "ar": "1. وحدة الجمع:"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Most blood for transfusion is collected as **whole blood**.",
+    "Autologous donations are sometimes transfused without further modification, however whole blood is typically separated (via **centrifugation**) into its components, RBC , WBC , platelets , plasma, with red blood cells (RBC) in solution being the **most commonly used product**."
+   ],
+   "ar": [
+    "يُجمع معظم الدم المخصّص للنقل بوصفه **دمًا كاملًا** (`Whole blood`).",
+    "وتُنقل التبرعات الذاتية (`Autologous`) أحيانًا من دون تعديل إضافي، غير أن الدم الكامل يُفصل عادةً (**بالطرد المركزي**) إلى مكوّناته: كريات الدم الحمر، وكريات الدم البيض، والصفائح الدموية، والبلازما، وتُعدّ كريات الدم الحمر في المحلول **المنتج الأكثر استعمالًا**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Units of Whole blood and RBC are both kept refrigerated at **33.8 to 42.8 °F (1.0 to 6.0 °C)**, with maximum permitted storage periods (shelf lives) of **35 and 42 days** respectively.",
+   "ar": "تُحفظ وحدات الدم الكامل وكريات الدم الحمر كلتاهما مبرّدةً عند **33.8 إلى 42.8 °ف (1.0 إلى 6.0 °م)**، وأقصى مدة خزن مسموح بها (العمر التخزيني) **35 و42 يومًا** على الترتيب."
+  },
+  {
+   "t": "card",
+   "en": [
+    "RBC units can also be **frozen** when buffered with **glycerol**, but this is an expensive and time-consuming process, and is rarely done.",
+    "Frozen red cells are given an expiration date of up to **ten years** and are stored at **−85 °F (−65 °C)**."
+   ],
+   "ar": [
+    "يمكن أيضًا **تجميد** وحدات كريات الدم الحمر عند تنظيمها **بالغليسيرول** (`Glycerol`)، لكنها عملية مكلفة وتستغرق وقتًا طويلًا، ونادرًا ما تُجرى.",
+    "وتُعطى الكريات الحمر المجمّدة تاريخ انتهاء يصل إلى **عشر سنوات**، وتُخزَّن عند **−85 °ف (−65 °م)**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Blood may be collected in a number of different types of collection facilities including:",
+   "ar": "يمكن جمع الدم في عدد من أنواع منشآت الجمع المختلفة، منها:",
+   "list_en": [
+    "Mobile collection units or vehicles; [[cut]]"
+   ],
+   "list_ar": [
+    "وحدات أو مركبات جمع متنقّلة؛ [[قطع]]"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "2. Processing Unit :",
+   "ar": "2. وحدة المعالجة :"
+  },
+  {
+   "t": "card",
+   "en": "This unit is responsible for:",
+   "ar": "هذه الوحدة مسؤولة عن:",
+   "list_en": [
+    "Blood and blood sample reception and registration.",
+    "Blood component preparation.",
+    "Storage; and,",
+    "Labelling of blood prior to storage in the inventory and distribution unit"
+   ],
+   "list_ar": [
+    "استلام الدم وعيّنات الدم وتسجيلها.",
+    "تحضير مكوّنات الدم.",
+    "الخزن؛",
+    "وضع الملصقات على الدم قبل خزنه في وحدة المخزون والتوزيع"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "3. Inventory and distribution unit",
+   "ar": "3. وحدة المخزون والتوزيع"
+  },
+  {
+   "t": "card",
+   "en": [
+    "This unit is responsible for the **inventory and distribution** of processed, tested and verified blood to users within the health system."
+   ],
+   "ar": [
+    "هذه الوحدة مسؤولة عن **جرد وتوزيع** الدم المعالَج والمفحوص والمتحقَّق منه على المستعملين ضمن النظام الصحي."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "It is recommended that the Inventory and Distribution unit be **co-located with and adjacent, to, but separate from the Processing unit**.",
+    "The separation of inventory and distribution from processing is required to ensure the effective separation of **untested and verified blood**."
+   ],
+   "ar": [
+    "يُوصى بأن تكون وحدة المخزون والتوزيع **في الموقع نفسه ومجاورةً لوحدة المعالجة، لكن منفصلةً عنها**.",
+    "ويُشترط فصل المخزون والتوزيع عن المعالجة لضمان الفصل الفعّال بين **الدم غير المفحوص والدم المتحقَّق منه**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "The Inventory and Distribution unit will:",
+   "ar": "ستقوم وحدة المخزون والتوزيع بما يأتي:",
+   "list_en": [
+    "Plan and manage inventory;",
+    "Store inventory blood; and",
+    "Release verified blood and blood products to users."
+   ],
+   "list_ar": [
+    "تخطيط المخزون وإدارته؛",
+    "خزن دم المخزون؛",
+    "إصدار الدم ومنتجاته المتحقَّق منها إلى المستعملين."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "4. Laboratories unit",
+   "ar": "4. وحدة المختبرات"
+  },
+  {
+   "t": "card",
+   "en": "The laboratories do the testing of donor blood for **blood group serology** and **infectious disease markers**, and **quality control** testing for blood and blood products.",
+   "ar": "تُجري المختبرات فحص دم المتبرع من حيث **مصليات فصائل الدم** و**مؤشرات الأمراض المُعدية**، وفحوص **ضبط الجودة** للدم ومنتجاته."
+  },
+  {
+   "t": "card",
+   "en": "The testing laboratories may also provide a range of investigative and diagnostic services for patient testing, including **pre-transfusion testing**, **platelet serology**, and others.",
+   "ar": "وقد تقدّم مختبرات الفحص أيضًا مجموعة من الخدمات الاستقصائية والتشخيصية لفحص المرضى، منها **فحوص ما قبل نقل الدم**، و**مصليات الصفائح الدموية**، وغيرها."
+  },
+  {
+   "t": "section",
+   "en": "Blood Donation and blood collection",
+   "ar": "التبرع بالدم وجمعه"
+  },
+  {
+   "t": "card",
+   "en": "**Blood donation** is the process of giving blood to be used for blood transfusions and treatment.",
+   "ar": "**التبرع بالدم** (`Blood donation`) هو عملية إعطاء الدم لاستعماله في عمليات نقل الدم والعلاج."
+  },
+  {
+   "t": "card",
+   "en": "**Donor:** is a person who gives his or her blood",
+   "ar": "**المتبرع** (`Donor`): هو الشخص الذي يعطي دمه"
+  },
+  {
+   "t": "card",
+   "en": "**Recipient:** is the person who needs the blood",
+   "ar": "**المستلم** (`Recipient`): هو الشخص الذي يحتاج إلى الدم"
+  },
+  {
+   "t": "card",
+   "en": "**Importance:** Blood donation is extremely important because it is the **only way** to maintain sufficient blood supplies for medical treatment",
+   "ar": "**الأهمية:** التبرع بالدم بالغ الأهمية لأنه **الطريقة الوحيدة** للحفاظ على إمدادات كافية من الدم للعلاج الطبي"
+  },
+  {
+   "t": "note",
+   "label": [
+    "Restrictive transfusion",
+    "النقل المقيَّد"
+   ],
+   "en": [
+    "“Less blood, or what we call **restrictive transfusion**, did not harm patients.",
+    "And Yet there was no evidence that using more blood improved outcomes.”",
+    "Transfusion is a common therapeutic intervention for which there is considerable variation in clinical practice",
+    "Standard practice should be to intiate a transfusion with **less blood ( 1 unit rather than 2 unit )** to minimize the risks of infectious and non infectious complications"
+   ],
+   "ar": [
+    "«إن الدم الأقل، أو ما نسمّيه **النقل المقيَّد** (`Restrictive transfusion`)، لم يضرّ المرضى.",
+    "ومع ذلك لم يكن هناك دليل على أن استعمال دم أكثر قد حسّن النتائج.»",
+    "نقل الدم تدخّل علاجي شائع، وهناك تباين كبير في ممارسته السريرية",
+    "ينبغي أن تكون الممارسة المعيارية البدء بنقل الدم **بكمية أقل (وحدة واحدة بدلًا من وحدتين)** لتقليل مخاطر المضاعفات المُعدية وغير المُعدية"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Practical 1 — Safety procedures in blood bank",
+   "ar": "العملي 1 — إجراءات السلامة في بنك الدم"
+  },
+  {
+   "t": "rule",
+   "en": "Blood should be collected into a **sterile closed system**.",
+   "ar": "يجب جمع الدم في **نظام مغلق معقّم**."
+  },
+  {
+   "t": "rule",
+   "en": "Protection Against Contamination",
+   "ar": "الحماية من التلوث"
+  },
+  {
+   "t": "rule",
+   "en": "The venipuncture site should be prepared for a minimum of **30 seconds** to minimize risk of bacterial contamination.",
+   "ar": "يجب تحضير موضع البزل الوريدي مدةً لا تقل عن **30 ثانية** لتقليل خطر التلوث البكتيري."
+  },
+  {
+   "t": "rule",
+   "en": "**Samples for Laboratory Tests** : At the time of collection or component preparation, the donor tubing should be filled with anticoagulated blood sealed in such a manner that it will be available for subsequent compatibility testing.",
+   "ar": "**عيّنات الفحوص المختبرية:** عند الجمع أو عند تحضير المكوّنات، يجب ملء أنبوب المتبرع بدم ممزوج بمانع التخثّر ومختوم بطريقة تجعله متاحًا لفحص التوافق اللاحق."
+  },
+  {
+   "t": "rule",
+   "en": "The donor tubing segments should be separable from the container **without breaking the sterility** of the container",
+   "ar": "يجب أن تكون مقاطع أنبوب المتبرع قابلة للفصل عن الوعاء **من دون الإخلال بتعقيم** الوعاء"
+  },
+  {
+   "t": "rule",
+   "en": "Tubes for laboratory tests should be properly labeled.",
+   "ar": "يجب وضع الملصقات على أنابيب الفحوص المختبرية بصورة صحيحة."
+  },
+  {
+   "t": "rule",
+   "en": "Storage of samples before testing should meet the requirements stated in the manufacturer’s instructions.",
+   "ar": "يجب أن يستوفي خزن العيّنات قبل الفحص المتطلبات المذكورة في تعليمات الشركة المصنّعة."
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Temperature During Transport** :",
+    "A. The blood cooled toward a temperature range of **1 to 10 C** until it arrives at the processing laboratory",
+    "B. Platelets toward a temperature range of **20 to 24 C**."
+   ],
+   "ar": [
+    "**درجة الحرارة في أثناء النقل:**",
+    "أ. يُبرَّد الدم نحو مدى حراري **من 1 إلى 10 °م** حتى يصل إلى مختبر المعالجة",
+    "ب. والصفائح الدموية نحو مدى حراري **من 20 إلى 24 °م**."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": "**Final Inspection** : a process to ensure that blood, blood components, or services meet specified requirements, including appearance before distribution or issue.",
+   "ar": "**الفحص النهائي:** عملية لضمان أن الدم أو مكوّناته أو الخدمات تستوفي المتطلبات المحدّدة، ومنها المظهر، قبل التوزيع أو الإصدار."
+  },
+  {
+   "t": "section",
+   "en": "Types of blood transfused",
+   "ar": "أنواع الدم المنقول"
+  },
+  {
+   "t": "card",
+   "en": "Several types of blood transfusion exist:",
+   "ar": "توجد عدة أنواع من نقل الدم:"
+  },
+  {
+   "t": "rule",
+   "en": "**Whole blood**, which is blood transfused without separation.",
+   "ar": "**الدم الكامل**، وهو الدم المنقول من دون فصل."
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Red blood cells or packed cells** is transfused to patients with **anemia/iron deficiency**.",
+    "It also helps to improve the oxygen saturation in blood.",
+    "It can be stored at **1.0 --6.0 °C** for **35–45 days**."
+   ],
+   "ar": [
+    "**كريات الدم الحمر أو الكريات المكدّسة** (`Packed cells`) تُنقل إلى المرضى المصابين **بفقر الدم/نقص الحديد**.",
+    "وتساعد أيضًا على تحسين تشبّع الدم بالأوكسجين.",
+    "ويمكن خزنها عند **1.0 – 6.0 °م** مدة **35–45 يومًا**."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Platelet** transfusion is transfused to those with **low platelet count**.",
+    "Platelets can be stored at **room temperature** for up to **5–7 days**."
+   ],
+   "ar": [
+    "نقل **الصفائح الدموية** يُعطى لمن لديهم **انخفاض في عدد الصفائح**.",
+    "ويمكن خزن الصفائح الدموية **بدرجة حرارة الغرفة** مدة تصل إلى **5–7 أيام**."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Plasma** transfusion is indicated to patients with **liver failure, severe infections or serious burns**.",
+    "**Fresh frozen plasma** can be stored at a very low temperature of **-30 °C** for up to **12 months**.",
+    "The separation of plasma from a donor's blood is called **plasmapheresis**."
+   ],
+   "ar": [
+    "نقل **البلازما** يُستطب للمرضى المصابين **بفشل الكبد أو العدوى الشديدة أو الحروق الخطيرة**.",
+    "ويمكن خزن **البلازما الطازجة المجمّدة** بدرجة حرارة منخفضة جدًا **−30 °م** مدة تصل إلى **12 شهرًا**.",
+    "ويُسمّى فصل البلازما عن دم المتبرع **فصادة البلازما** (`Plasmapheresis`)."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Sterility",
+   "ar": "التعقيم"
+  },
+  {
+   "t": "card",
+   "en": "A septic methods should be employed to minimize the risk of microbial contamination of blood and blood components.",
+   "ar": "يجب استعمال الطرق **العقيمة** (`Aseptic`) لتقليل خطر التلوث الميكروبي للدم ومكوّناته."
+  },
+  {
+   "t": "card",
+   "en": "Equipment and solutions that come into direct contact with blood or blood components should be **sterile and pyrogen-free**.",
+   "ar": "يجب أن تكون الأجهزة والمحاليل التي تتماس مباشرةً مع الدم أو مكوّناته **معقّمة وخالية من مولّدات الحمّى** (`Pyrogen-free`)."
+  },
+  {
+   "t": "card",
+   "en": "**Single-use** equipment should be used whenever possible.",
+   "ar": "يجب استعمال الأدوات **ذات الاستعمال الواحد** كلما أمكن ذلك."
+  },
+  {
+   "t": "section",
+   "en": "Labelling standards",
+   "ar": "معايير وضع الملصقات"
+  },
+  {
+   "t": "rule",
+   "en": "The original label and added portions of the label should be affixed or attached to the container",
+   "ar": "يجب لصق الملصق الأصلي والأجزاء المضافة إليه أو تثبيتها على الوعاء"
+  },
+  {
+   "t": "rule",
+   "en": "Handwritten additions or changes should be applied with **permanent, moisture-proof ink**.",
+   "ar": "يجب كتابة الإضافات أو التغييرات اليدوية **بحبر دائم مقاوم للرطوبة**."
+  },
+  {
+   "t": "rule",
+   "en": "All modifications to component labels should be specified and controlled.",
+   "ar": "يجب تحديد جميع التعديلات على ملصقات المكوّنات وضبطها."
+  },
+  {
+   "t": "rule",
+   "en": "If a new labels are applied, the process should include a method to ensure the accuracy of all labels, including the **donation identification number, ABO/Rh, expiration date**",
+   "ar": "إذا وُضعت ملصقات جديدة، يجب أن تتضمن العملية طريقة لضمان دقة جميع الملصقات، ومنها **رقم تعريف التبرع، وفصيلة ABO/Rh، وتاريخ انتهاء الصلاحية**"
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "en": "The first blood transfusion recorded in history was in:",
+    "ar": "أول نقل دم سُجّل في التاريخ كان عام:",
+    "options": [
+     [
+      "1492",
+      "1492"
+     ],
+     [
+      "1628",
+      "1628"
+     ],
+     [
+      "1901",
+      "1901"
+     ],
+     [
+      "1914",
+      "1914"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Blood circulation was discovered by:",
+    "ar": "اكتشف الدورة الدموية:",
+    "options": [
+     [
+      "Karl Landsteiner",
+      "كارل لاندشتاينر"
+     ],
+     [
+      "William Harvey",
+      "وليم هارفي"
+     ],
+     [
+      "Hustin",
+      "هوستن"
+     ],
+     [
+      "Carl Walter",
+      "كارل والتر"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The ABO blood groups were discovered in 1901 by:",
+    "ar": "اكتُشفت فصائل الدم ABO عام 1901 على يد:",
+    "options": [
+     [
+      "William Harvey",
+      "وليم هارفي"
+     ],
+     [
+      "Luis Agote",
+      "لويس أغوتي"
+     ],
+     [
+      "Karl Landsteiner",
+      "كارل لاندشتاينر"
+     ],
+     [
+      "W.P. Murphy Jr.",
+      "و. ب. مورفي الابن"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In 1914, Hustin reported the use of which anticoagulant for transfusions?",
+    "ar": "في عام 1914، أعلن هوستن استعمال أي مانع تخثّر في نقل الدم؟",
+    "options": [
+     [
+      "EDTA",
+      "EDTA"
+     ],
+     [
+      "Heparin",
+      "الهيبارين"
+     ],
+     [
+      "Glycerol",
+      "الغليسيرول"
+     ],
+     [
+      "Sodium citrate",
+      "سترات الصوديوم"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The plastic bag for blood collection was introduced in:",
+    "ar": "قُدّم الكيس البلاستيكي لجمع الدم عام:",
+    "options": [
+     [
+      "1914",
+      "1914"
+     ],
+     [
+      "1950",
+      "1950"
+     ],
+     [
+      "1901",
+      "1901"
+     ],
+     [
+      "1628",
+      "1628"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Plastic bags replaced breakable glass bottles because they allow:",
+    "ar": "حلّت الأكياس البلاستيكية محل القناني الزجاجية لأنها تتيح:",
+    "options": [
+     [
+      "Preparation of multiple components from a single unit",
+      "تحضير عدة مكوّنات من وحدة واحدة"
+     ],
+     [
+      "Longer freezing at −85 °C only",
+      "تجميدًا أطول عند −85 °م فقط"
+     ],
+     [
+      "Direct transfusion without a donor",
+      "نقلًا مباشرًا من دون متبرع"
+     ],
+     [
+      "ABO typing without testing",
+      "تحديد الفصيلة من دون فحص"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The medical specialty concerned with collection, testing, storage and transfusion of blood is:",
+    "ar": "التخصص الطبي المعني بجمع الدم وفحصه وخزنه ونقله هو:",
+    "options": [
+     [
+      "Hematology",
+      "علم أمراض الدم"
+     ],
+     [
+      "Immunology",
+      "علم المناعة"
+     ],
+     [
+      "Transfusion medicine",
+      "طب نقل الدم"
+     ],
+     [
+      "Serology",
+      "علم الأمصال"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "According to WHO, blood should be collected only from donors who are:",
+    "ar": "وفق منظمة الصحة العالمية، يجب جمع الدم فقط من متبرعين:",
+    "options": [
+     [
+      "Paid and high-risk",
+      "مأجورين وعالي الخطورة"
+     ],
+     [
+      "Voluntary, non-remunerated, low-risk",
+      "متطوّعين، غير مأجورين، منخفضي الخطورة"
+     ],
+     [
+      "Relatives of the patient only",
+      "من أقارب المريض فقط"
+     ],
+     [
+      "Hospital staff only",
+      "من كادر المستشفى فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which test should be done before transfusion according to WHO principles?",
+    "ar": "أي فحص يجب إجراؤه قبل نقل الدم وفق مبادئ منظمة الصحة العالمية؟",
+    "options": [
+     [
+      "Liver function test",
+      "فحص وظائف الكبد"
+     ],
+     [
+      "Blood sugar",
+      "سكر الدم"
+     ],
+     [
+      "Urine analysis",
+      "تحليل الإدرار"
+     ],
+     [
+      "Compatibility testing",
+      "فحص التوافق"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The most commonly used blood product is:",
+    "ar": "منتج الدم الأكثر استعمالًا هو:",
+    "options": [
+     [
+      "Red blood cells (RBC) in solution",
+      "كريات الدم الحمر في المحلول"
+     ],
+     [
+      "Platelets",
+      "الصفائح الدموية"
+     ],
+     [
+      "Fresh frozen plasma",
+      "البلازما الطازجة المجمّدة"
+     ],
+     [
+      "WBC",
+      "كريات الدم البيض"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Whole blood is separated into its components by:",
+    "ar": "يُفصل الدم الكامل إلى مكوّناته بواسطة:",
+    "options": [
+     [
+      "Filtration",
+      "الترشيح"
+     ],
+     [
+      "Centrifugation",
+      "الطرد المركزي"
+     ],
+     [
+      "Freezing",
+      "التجميد"
+     ],
+     [
+      "Glycerol",
+      "الغليسيرول"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Whole blood and RBC units are kept refrigerated at:",
+    "ar": "تُحفظ وحدات الدم الكامل وكريات الدم الحمر مبرّدةً عند:",
+    "options": [
+     [
+      "20 to 24 °C",
+      "20 إلى 24 °م"
+     ],
+     [
+      "−30 °C",
+      "−30 °م"
+     ],
+     [
+      "1.0 to 6.0 °C",
+      "1.0 إلى 6.0 °م"
+     ],
+     [
+      "−65 °C",
+      "−65 °م"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The maximum shelf lives of whole blood and RBC are respectively:",
+    "ar": "أقصى عمر تخزيني للدم الكامل وكريات الدم الحمر على الترتيب:",
+    "options": [
+     [
+      "5 and 7 days",
+      "5 و7 أيام"
+     ],
+     [
+      "12 and 10 months",
+      "12 و10 أشهر"
+     ],
+     [
+      "42 and 35 days",
+      "42 و35 يومًا"
+     ],
+     [
+      "35 and 42 days",
+      "35 و42 يومًا"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "RBC units can be frozen when buffered with:",
+    "ar": "يمكن تجميد وحدات كريات الدم الحمر عند تنظيمها بـ:",
+    "options": [
+     [
+      "Glycerol",
+      "الغليسيرول"
+     ],
+     [
+      "Sodium citrate",
+      "سترات الصوديوم"
+     ],
+     [
+      "Saline",
+      "المحلول الملحي"
+     ],
+     [
+      "Dextrose",
+      "الدكستروز"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Frozen red cells are stored at −65 °C and expire after up to:",
+    "ar": "تُخزَّن الكريات الحمر المجمّدة عند −65 °م وتنتهي صلاحيتها بعد مدة تصل إلى:",
+    "options": [
+     [
+      "42 days",
+      "42 يومًا"
+     ],
+     [
+      "12 months",
+      "12 شهرًا"
+     ],
+     [
+      "Ten years",
+      "عشر سنوات"
+     ],
+     [
+      "5 years",
+      "5 سنوات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Blood component preparation is the responsibility of the:",
+    "ar": "تحضير مكوّنات الدم من مسؤولية:",
+    "options": [
+     [
+      "Collection unit",
+      "وحدة الجمع"
+     ],
+     [
+      "Processing unit",
+      "وحدة المعالجة"
+     ],
+     [
+      "Inventory and distribution unit",
+      "وحدة المخزون والتوزيع"
+     ],
+     [
+      "Laboratories unit",
+      "وحدة المختبرات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The inventory and distribution unit should be separate from the processing unit to separate:",
+    "ar": "يجب أن تنفصل وحدة المخزون والتوزيع عن وحدة المعالجة للفصل بين:",
+    "options": [
+     [
+      "Donors and recipients",
+      "المتبرعين والمستلمين"
+     ],
+     [
+      "Plasma and platelets",
+      "البلازما والصفائح"
+     ],
+     [
+      "Staff and patients",
+      "الكادر والمرضى"
+     ],
+     [
+      "Untested and verified blood",
+      "الدم غير المفحوص والدم المتحقَّق منه"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Testing donor blood for infectious disease markers is done in the:",
+    "ar": "يُجرى فحص دم المتبرع عن مؤشرات الأمراض المُعدية في:",
+    "options": [
+     [
+      "Laboratories unit",
+      "وحدة المختبرات"
+     ],
+     [
+      "Collection unit",
+      "وحدة الجمع"
+     ],
+     [
+      "Inventory and distribution unit",
+      "وحدة المخزون والتوزيع"
+     ],
+     [
+      "Mobile collection vehicle",
+      "مركبة الجمع المتنقّلة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The person who needs the blood is called:",
+    "ar": "الشخص الذي يحتاج إلى الدم يُسمّى:",
+    "options": [
+     [
+      "Donor",
+      "المتبرع"
+     ],
+     [
+      "Recipient",
+      "المستلم"
+     ],
+     [
+      "Volunteer",
+      "المتطوّع"
+     ],
+     [
+      "Carrier",
+      "الحامل"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Standard practice is to initiate a transfusion with:",
+    "ar": "الممارسة المعيارية هي بدء نقل الدم بـ:",
+    "options": [
+     [
+      "2 units rather than 1",
+      "وحدتين بدلًا من وحدة"
+     ],
+     [
+      "Whole blood only",
+      "دم كامل فقط"
+     ],
+     [
+      "1 unit rather than 2 units",
+      "وحدة واحدة بدلًا من وحدتين"
+     ],
+     [
+      "Plasma only",
+      "بلازما فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The venipuncture site should be prepared for a minimum of:",
+    "ar": "يجب تحضير موضع البزل الوريدي مدةً لا تقل عن:",
+    "options": [
+     [
+      "5 seconds",
+      "5 ثوانٍ"
+     ],
+     [
+      "10 seconds",
+      "10 ثوانٍ"
+     ],
+     [
+      "60 minutes",
+      "60 دقيقة"
+     ],
+     [
+      "30 seconds",
+      "30 ثانية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "During transport, platelets are kept at:",
+    "ar": "في أثناء النقل، تُحفظ الصفائح الدموية عند:",
+    "options": [
+     [
+      "1 to 10 °C",
+      "1 إلى 10 °م"
+     ],
+     [
+      "20 to 24 °C",
+      "20 إلى 24 °م"
+     ],
+     [
+      "−30 °C",
+      "−30 °م"
+     ],
+     [
+      "1 to 6 °C",
+      "1 إلى 6 °م"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "During transport, blood is cooled toward:",
+    "ar": "في أثناء النقل، يُبرَّد الدم نحو:",
+    "options": [
+     [
+      "1 to 10 °C",
+      "1 إلى 10 °م"
+     ],
+     [
+      "20 to 24 °C",
+      "20 إلى 24 °م"
+     ],
+     [
+      "−65 °C",
+      "−65 °م"
+     ],
+     [
+      "37 °C",
+      "37 °م"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Platelets can be stored at room temperature for up to:",
+    "ar": "يمكن خزن الصفائح الدموية بدرجة حرارة الغرفة مدة تصل إلى:",
+    "options": [
+     [
+      "35–45 days",
+      "35–45 يومًا"
+     ],
+     [
+      "12 months",
+      "12 شهرًا"
+     ],
+     [
+      "5–7 days",
+      "5–7 أيام"
+     ],
+     [
+      "24 hours",
+      "24 ساعة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Fresh frozen plasma can be stored at −30 °C for up to:",
+    "ar": "يمكن خزن البلازما الطازجة المجمّدة عند −30 °م مدة تصل إلى:",
+    "options": [
+     [
+      "5–7 days",
+      "5–7 أيام"
+     ],
+     [
+      "42 days",
+      "42 يومًا"
+     ],
+     [
+      "10 years",
+      "10 سنوات"
+     ],
+     [
+      "12 months",
+      "12 شهرًا"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Plasma transfusion is indicated in:",
+    "ar": "يُستطب نقل البلازما في:",
+    "options": [
+     [
+      "Liver failure, severe infections or serious burns",
+      "فشل الكبد أو العدوى الشديدة أو الحروق الخطيرة"
+     ],
+     [
+      "Low platelet count",
+      "انخفاض عدد الصفائح"
+     ],
+     [
+      "Iron deficiency anemia",
+      "فقر الدم بعوز الحديد"
+     ],
+     [
+      "Polycythemia",
+      "كثرة الحمر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The separation of plasma from a donor's blood is called:",
+    "ar": "فصل البلازما عن دم المتبرع يُسمّى:",
+    "options": [
+     [
+      "Centrifugation",
+      "الطرد المركزي"
+     ],
+     [
+      "Plasmapheresis",
+      "فصادة البلازما"
+     ],
+     [
+      "Hemolysis",
+      "انحلال الدم"
+     ],
+     [
+      "Agglutination",
+      "التلازن"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Handwritten changes on blood labels should be made with:",
+    "ar": "يجب إجراء التغييرات اليدوية على ملصقات الدم بـ:",
+    "options": [
+     [
+      "Pencil",
+      "قلم رصاص"
+     ],
+     [
+      "Any ink",
+      "أي حبر"
+     ],
+     [
+      "Permanent, moisture-proof ink",
+      "حبر دائم مقاوم للرطوبة"
+     ],
+     [
+      "Marker that can be erased",
+      "قلم قابل للمسح"
+     ]
+    ],
+    "answer": "c"
+   }
+  ],
+  "tf": [
+   {
+    "en": "In 1492 the blood transfusion to Pope Innocent VII succeeded and he was cured.",
+    "ar": "في عام 1492 نجح نقل الدم إلى البابا إنوسنت السابع وشُفي.",
+    "answer": "F"
+   },
+   {
+    "en": "Karl Landsteiner won a Nobel Prize for discovering the ABO blood groups.",
+    "ar": "نال كارل لاندشتاينر جائزة نوبل لاكتشافه فصائل الدم ABO.",
+    "answer": "T"
+   },
+   {
+    "en": "A blood bank must always be a separate free-standing facility.",
+    "ar": "يجب أن يكون بنك الدم دائمًا منشأة مستقلة قائمة بذاتها.",
+    "answer": "F"
+   },
+   {
+    "en": "WHO recommends screening all donated blood for transfusion-transmissible infectious agents.",
+    "ar": "توصي منظمة الصحة العالمية بتحرّي كل الدم المتبرَّع به عن العوامل المُعدية المنتقلة بنقل الدم.",
+    "answer": "T"
+   },
+   {
+    "en": "Most blood for transfusion is collected as plasma.",
+    "ar": "يُجمع معظم الدم المخصّص للنقل بوصفه بلازما.",
+    "answer": "F"
+   },
+   {
+    "en": "Freezing RBC units with glycerol is cheap, quick and commonly done.",
+    "ar": "تجميد وحدات كريات الدم الحمر بالغليسيرول رخيص وسريع ويُجرى كثيرًا.",
+    "answer": "F"
+   },
+   {
+    "en": "Labelling of blood prior to storage is a task of the processing unit.",
+    "ar": "وضع الملصقات على الدم قبل خزنه من مهام وحدة المعالجة.",
+    "answer": "T"
+   },
+   {
+    "en": "Pre-transfusion testing may be provided by the laboratories unit.",
+    "ar": "قد تقدّم وحدة المختبرات فحوص ما قبل نقل الدم.",
+    "answer": "T"
+   },
+   {
+    "en": "There is evidence that using more blood improves outcomes.",
+    "ar": "هناك دليل على أن استعمال دم أكثر يحسّن النتائج.",
+    "answer": "F"
+   },
+   {
+    "en": "Blood should be collected into a sterile closed system.",
+    "ar": "يجب جمع الدم في نظام مغلق معقّم.",
+    "answer": "T"
+   },
+   {
+    "en": "Donor tubing segments may be separated even if this breaks the sterility of the container.",
+    "ar": "يمكن فصل مقاطع أنبوب المتبرع حتى لو أخلّ ذلك بتعقيم الوعاء.",
+    "answer": "F"
+   },
+   {
+    "en": "Packed red cells are transfused to patients with low platelet count.",
+    "ar": "تُنقل الكريات الحمر المكدّسة إلى المرضى المصابين بانخفاض عدد الصفائح.",
+    "answer": "F"
+   },
+   {
+    "en": "Equipment in direct contact with blood should be sterile and pyrogen-free.",
+    "ar": "يجب أن تكون الأجهزة المتماسّة مباشرةً مع الدم معقّمة وخالية من مولّدات الحمّى.",
+    "answer": "T"
+   },
+   {
+    "en": "A label check should include the donation identification number, ABO/Rh and expiration date.",
+    "ar": "يجب أن يشمل التحقق من الملصق رقم تعريف التبرع وفصيلة ABO/Rh وتاريخ انتهاء الصلاحية.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Whole blood and RBC have the same shelf life. Correct?",
+    "ar": "للدم الكامل وكريات الدم الحمر العمر التخزيني نفسه. هل هذا صحيح؟",
+    "answer_en": "No. Same temperature (1.0–6.0 °C) but different shelf lives: whole blood **35** days, RBC **42** days.",
+    "answer_ar": "لا. درجة الحرارة نفسها (1.0–6.0 °م) لكن العمر التخزيني مختلف: الدم الكامل **35** يومًا، وكريات الدم الحمر **42** يومًا."
+   },
+   {
+    "en": "Platelets are transported and stored cold like red cells. Correct?",
+    "ar": "تُنقل الصفائح الدموية وتُخزَّن مبرّدةً مثل الكريات الحمر. هل هذا صحيح؟",
+    "answer_en": "No. Platelets → **20 to 24 °C** (room temperature, up to 5–7 days); blood → 1 to 10 °C during transport.",
+    "answer_ar": "لا. الصفائح ← **20 إلى 24 °م** (حرارة الغرفة، حتى 5–7 أيام)؛ أما الدم ← 1 إلى 10 °م في أثناء النقل."
+   },
+   {
+    "en": "Harvey discovered the ABO blood groups. Correct?",
+    "ar": "اكتشف هارفي فصائل الدم ABO. هل هذا صحيح؟",
+    "answer_en": "No. Harvey (1628) → **blood circulation**; Landsteiner (1901) → **ABO blood groups**; Hustin (1914) → **sodium citrate**.",
+    "answer_ar": "لا. هارفي (1628) ← **الدورة الدموية**؛ لاندشتاينر (1901) ← **فصائل ABO**؛ هوستن (1914) ← **سترات الصوديوم**."
+   },
+   {
+    "en": "Frozen red cells are stored at −30 °C. Correct?",
+    "ar": "تُخزَّن الكريات الحمر المجمّدة عند −30 °م. هل هذا صحيح؟",
+    "answer_en": "No. Frozen red cells → **−65 °C** (−85 °F) for up to 10 years; **fresh frozen plasma** → −30 °C for up to 12 months.",
+    "answer_ar": "لا. الكريات الحمر المجمّدة ← **−65 °م** حتى 10 سنوات؛ أما **البلازما الطازجة المجمّدة** ← −30 °م حتى 12 شهرًا."
+   },
+   {
+    "en": "Plasmapheresis is the separation of platelets from the donor's blood. Correct?",
+    "ar": "فصادة البلازما هي فصل الصفائح عن دم المتبرع. هل هذا صحيح؟",
+    "answer_en": "No. Plasmapheresis is the separation of **plasma** from a donor's blood.",
+    "answer_ar": "لا. فصادة البلازما هي فصل **البلازما** عن دم المتبرع."
+   },
+   {
+    "en": "The inventory unit should be in a separate building far from processing. Correct?",
+    "ar": "يجب أن تكون وحدة المخزون في بناية منفصلة بعيدة عن المعالجة. هل هذا صحيح؟",
+    "answer_en": "No. It should be **co-located with and adjacent to**, but **separate from**, the processing unit.",
+    "answer_ar": "لا. يجب أن تكون **في الموقع نفسه ومجاورةً** لوحدة المعالجة، لكن **منفصلةً** عنها."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define blood bank and transfusion medicine.",
+    "ar": "عرّف بنك الدم وطب نقل الدم.",
+    "answer_en": "Blood bank: a place where blood and its components are collected from donors, typed, tested, separated, stored and prepared for transfusion. Transfusion medicine: the specialty concerned with collection, testing, storage and transfusion of blood and its components, and with prevention, diagnosis and management of transfusion complications.",
+    "answer_ar": "بنك الدم: مكان يُجمع فيه الدم ومكوّناته من المتبرعين وتُحدَّد فصيلته ويُفحص ويُفصل ويُخزَّن ويُحضَّر للنقل. طب نقل الدم: التخصص المعني بجمع الدم ومكوّناته وفحصها وخزنها ونقلها، وبالوقاية من مضاعفات النقل وتشخيصها ومعالجتها."
+   },
+   {
+    "en": "List the WHO principles of a safe blood supply.",
+    "ar": "عدّد مبادئ منظمة الصحة العالمية للإمداد الآمن بالدم.",
+    "answer_en": "Voluntary, non-remunerated, low-risk donors; screening for transfusion-transmissible infections; ABO and Rh(D) testing and labelling; compatibility testing before transfusion; appropriate clinical use and fewer unnecessary transfusions; monitoring of transfusions and adverse reactions.",
+    "answer_ar": "متبرعون متطوّعون غير مأجورين منخفضو الخطورة؛ تحرّي العدوى المنتقلة بالدم؛ فحص ABO وRh(D) ووضع الملصقات؛ فحص التوافق قبل النقل؛ الاستعمال السريري المناسب وتقليل النقل غير الضروري؛ مراقبة النقل والتفاعلات الضارة."
+   },
+   {
+    "en": "What are the units of the blood banking department?",
+    "ar": "ما وحدات قسم بنك الدم؟",
+    "answer_en": "1) Collection unit; 2) Processing unit; 3) Inventory and distribution unit; 4) Laboratories unit.",
+    "answer_ar": "1) وحدة الجمع؛ 2) وحدة المعالجة؛ 3) وحدة المخزون والتوزيع؛ 4) وحدة المختبرات."
+   },
+   {
+    "en": "Compare the storage of whole blood, RBC, frozen RBC, platelets and fresh frozen plasma.",
+    "ar": "قارن بين خزن الدم الكامل، وكريات الدم الحمر، والكريات الحمر المجمّدة، والصفائح، والبلازما الطازجة المجمّدة.",
+    "answer_en": "Whole blood: 1.0–6.0 °C, 35 days. RBC: 1.0–6.0 °C, 42 days. Frozen RBC (glycerol): −65 °C, up to 10 years. Platelets: room temperature, 5–7 days. Fresh frozen plasma: −30 °C, up to 12 months.",
+    "answer_ar": "الدم الكامل: 1.0–6.0 °م، 35 يومًا. كريات الدم الحمر: 1.0–6.0 °م، 42 يومًا. الكريات الحمر المجمّدة (بالغليسيرول): −65 °م، حتى 10 سنوات. الصفائح: حرارة الغرفة، 5–7 أيام. البلازما الطازجة المجمّدة: −30 °م، حتى 12 شهرًا."
+   },
+   {
+    "en": "List the safety procedures in the blood bank.",
+    "ar": "عدّد إجراءات السلامة في بنك الدم.",
+    "answer_en": "Sterile closed collection system; protection against contamination; prepare the venipuncture site ≥30 seconds; sealed donor tubing samples for compatibility testing; separable segments without breaking sterility; properly labelled tubes; sample storage per manufacturer; transport temperature (blood 1–10 °C, platelets 20–24 °C); final inspection.",
+    "answer_ar": "نظام جمع مغلق معقّم؛ الحماية من التلوث؛ تحضير موضع البزل 30 ثانية على الأقل؛ عيّنات أنبوب المتبرع المختومة لفحص التوافق؛ مقاطع قابلة للفصل من دون الإخلال بالتعقيم؛ أنابيب عليها ملصقات صحيحة؛ خزن العيّنات وفق تعليمات المصنّع؛ حرارة النقل (الدم 1–10 °م، الصفائح 20–24 °م)؛ الفحص النهائي."
+   },
+   {
+    "en": "What are the types of blood transfused and the indication of each?",
+    "ar": "ما أنواع الدم المنقول ودواعي استعمال كل منها؟",
+    "answer_en": "Whole blood (without separation); RBC/packed cells (anemia/iron deficiency, improve O₂ saturation); platelets (low platelet count); plasma (liver failure, severe infections, serious burns).",
+    "answer_ar": "الدم الكامل (من دون فصل)؛ كريات الدم الحمر/المكدّسة (فقر الدم/نقص الحديد، وتحسين تشبّع الأوكسجين)؛ الصفائح (انخفاض عدد الصفائح)؛ البلازما (فشل الكبد، العدوى الشديدة، الحروق الخطيرة)."
+   }
+  ]
+ }
+}
