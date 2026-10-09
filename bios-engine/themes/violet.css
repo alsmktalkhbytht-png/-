@@ -1,0 +1,15 @@
+/* Antique Gold #B9A38B · Deep Violet #2C1F33 — two-colour palette; the light surfaces are tints of the beige */
+:root{--dark:#2c1f33;--gold:#b9a38b;--star:#d8ccbf;--egret:#f1ede8;--red:#b9a38b;--key:#2c1f33;--paper:#fff;
+--ink:#2c1f33;--muted:rgba(0,0,0,.55);--bd:var(--star)}
+/* beige fills carry dark text */
+.nb,.rule .rn,.qnum,.sn,.np,.tab,.pillh{color:var(--ink)}
+.rule .rn{box-shadow:0 0 0 .8mm var(--egret)}
+.sn{border-color:var(--dark)}
+/* text on dark bars in beige */
+.sb,.rg-h,table.tb th,.lt-box,.cv-pill,.ftr .fx{color:#b9a38b}
+.ftr .fx b,.cv-foot .l b,.cv-foot .r b{color:#b9a38b}
+/* key terms share the ink colour, so they get a beige underline */
+b.t{text-decoration:underline;text-decoration-color:#b9a38b;text-decoration-thickness:.7mm;text-underline-offset:.9mm;text-decoration-skip-ink:none}
+.cover{background:#f1ede8}
+.cv-st{color:#2c1f33}
+.cv-b1{background:#b9a38b}

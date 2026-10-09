@@ -15,6 +15,9 @@ description: Build a BIOS-style bilingual (English + Arabic) handout PDF — and
     `#8E8AA5`, `#CBCAD0`, `#E4E4E6`; key terms are underlined instead of coloured.
   - `plum` (**default for every handout**, chosen by the team): `#3F2537`, `#EFCAD0`, `#FFF1F3`;
     key terms underlined in pink.
+  - `violet` (trial): Antique Gold `#B9A38B` + Deep Violet `#2C1F33`.
+  - `oatmeal` (trial): Plum `#33022F` + Oatmeal `#D9C1A7`.
+    Both are two-colour palettes; light surfaces are tints of the beige.
   - `blush` (trial, used by `immunology-lab1-serology/`): `#f9e9ef`, `#f2808f`, `#e8d6d0`,
     `#eebcc2`, plus a deep rose ink `#4a2a30` for text — the palette has no dark colour, so
     coral bars carry ink text and key terms are underlined in coral.

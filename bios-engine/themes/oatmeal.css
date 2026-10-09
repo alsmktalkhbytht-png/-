@@ -1,0 +1,15 @@
+/* Plum #33022F · Oatmeal #D9C1A7 — two-colour palette; the light surfaces are tints of the beige */
+:root{--dark:#33022f;--gold:#d9c1a7;--star:#eaddcf;--egret:#f7f3ed;--red:#d9c1a7;--key:#33022f;--paper:#fff;
+--ink:#33022f;--muted:rgba(0,0,0,.55);--bd:var(--star)}
+/* beige fills carry dark text */
+.nb,.rule .rn,.qnum,.sn,.np,.tab,.pillh{color:var(--ink)}
+.rule .rn{box-shadow:0 0 0 .8mm var(--egret)}
+.sn{border-color:var(--dark)}
+/* text on dark bars in beige */
+.sb,.rg-h,table.tb th,.lt-box,.cv-pill,.ftr .fx{color:#d9c1a7}
+.ftr .fx b,.cv-foot .l b,.cv-foot .r b{color:#d9c1a7}
+/* key terms share the ink colour, so they get a beige underline */
+b.t{text-decoration:underline;text-decoration-color:#d9c1a7;text-decoration-thickness:.7mm;text-underline-offset:.9mm;text-decoration-skip-ink:none}
+.cover{background:#f7f3ed}
+.cv-st{color:#33022f}
+.cv-b1{background:#d9c1a7}
