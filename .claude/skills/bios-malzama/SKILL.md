@@ -7,17 +7,23 @@ description: Build a BIOS-style bilingual (English + Arabic) handout PDF — and
 
 ## Look (agreed with the BIOS team — do not change without being asked)
 
-- **Three colours only:** Black Bean `#2e272a`, Star White `#d7cfbb`, Egret `#efefe8`
-  (plus white paper). They are the CSS variables `--dark`, `--star`, `--egret` in
-  `bios-engine/style.css`; never add another colour.
+- **Palette (from the knight artwork the team chose):** navy `#2c3846` (bars, headers),
+  gold `#b08547` (rules, outlines) and light gold `#e2cfa3` (borders), crimson `#8e2219`
+  (number badges, key terms), parchment `#f3ead6` (Arabic panels, cover), ink `#1e1b1c`
+  (text), page paper `#fffcf5`. They are the CSS variables in `bios-engine/style.css`;
+  never add another colour.
+- **Arabic body text is 13 pt** (one step smaller than before); keep it there.
+- **Every listed point carries its own translation right after it** — never all English
+  points followed by all Arabic points. Short pairs sit on one line (English left, Arabic
+  right); long pairs stack with the Arabic underneath. MCQ options follow the same rule.
 - **Every page has the same header and footer** (no mirrored odd/even pages).
 - **Header:** `Lab 1` pill (English only), subject in the centre (no instructor
   name — the instructor appears on the cover only), `BIOS` pill on its own.
 - **Footer:** only the Telegram handle, page number always on the right.
 - **Right margin:** one vertical rule carrying `BIOS · TELEGRAM · BIOS0t`; no left rule.
 - No "ترجمة وتعديل الملازم" / "Lecture translation" text anywhere — BIOS also does
-  explanations, exams and summaries. The cover logo is `brand/logo_mono.jpg`
-  (recoloured to the palette, tagline removed).
+  explanations, exams and summaries. The cover logo is `brand/logo_cover.jpg`
+  (recoloured to the palette, tagline removed). The cover card says "Prepared by / إعداد".
 
 Every handout in this repo uses one engine: `bios-engine/bios.py`. You never write HTML
 or CSS for a new lecture. You only write **one JSON file** per lecture, and the engine
@@ -91,7 +97,7 @@ For a theory lecture use `"unit_en": "Lecture 3"`, `"unit_ar": "المحاضرة
 |---|---|---|
 | `section` | `en`, `ar` | slide title → numbered sage bar (auto 1, 2, 3…) |
 | `h2` | `en`, `ar` | sub-heading inside a section |
-| `card` | `en`, `ar`, optional `list_en`, `list_ar` | paragraph, definition, or an intro line followed by a numbered list |
+| `card` | `en`, `ar`, optional `list_en`, `list_ar` (same length) | paragraph, definition, or an intro line followed by numbered points; point *n* of `list_en` is paired with point *n* of `list_ar` |
 | `rule` | `en`, `ar` | numbered instruction/step; numbering restarts at each section |
 | `group` | `title_en`, `title_ar`, optional `sub_en`, `sub_ar`, `en`, `ar`, optional `style: "light"` | a classified item with a dark header bar (risk groups, types, stages); `light` gives a Star White bar |
 | `figure` | `src` (relative to the lecture folder), `en`, `ar`, optional `h` + `fit` ("cover"/"contain") or `width` | one figure |

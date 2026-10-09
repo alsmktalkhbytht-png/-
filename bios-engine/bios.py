@@ -41,10 +41,26 @@ def card(e, a, e_extra="", a_extra="", cls=""):
             f'<div class="c-ar"><span class="chip chip-ar">AR</span>{ar(a) if a else ""}{a_extra}</div></div>')
 
 
-def nlist(items, rtl=False):
-    d, cls = ("rtl", "ar") if rtl else ("ltr", "en")
-    return (f'<ol class="nl {cls}" dir="{d}">'
-            + "".join(f'<li><span class="nb">{i}</span><span>{md(t)}</span></li>' for i, t in enumerate(items, 1)) + "</ol>")
+SHORT = 38   # an EN/AR pair this short sits on one line; longer pairs stack (Arabic under English)
+
+
+def is_short(e, a, limit=SHORT):
+    plain = lambda x: re.sub(r"[*_`^\[\]]", "", x or "")
+    le, la = len(plain(e)), len(plain(a))
+    return le + la <= 2 * limit and max(le, la) <= 1.3 * limit
+
+
+def pair(e, a, limit=SHORT):
+    """English with its Arabic translation: side by side when short, Arabic underneath when long."""
+    lay = "inline" if is_short(e, a, limit) else "stack"
+    return f'<div class="pr {lay}">{en(e)}{ar(a) if a and a != e else ""}</div>'
+
+
+def plist(items_en, items_ar):
+    """Numbered points, each followed immediately by its own translation."""
+    rows = "".join(f'<li><span class="nb">{i}</span>{pair(e, a)}</li>'
+                   for i, (e, a) in enumerate(zip(items_en, items_ar), 1))
+    return f'<ol class="pl">{rows}</ol>'
 
 
 def sec(n, e, a):
@@ -85,7 +101,7 @@ def fig(f, base):
     if f.get("symbols"):
         art = {"biohazard": (biohazard, "BIOHAZARD", "خطر بيولوجي"), "radiation": (radiation, "RADIATION HAZARD", "خطر إشعاعي")}
         body = '<div class="sym">' + "".join(
-            f'<div>{art[k][0](tri="#d7cfbb", fill="#2e272a", edge="#2e272a")}<div class="l1">{art[k][1]}</div><div class="l2" dir="rtl">{art[k][2]}</div></div>'
+            f'<div>{art[k][0](tri="#d9b45a", fill="#1e1b1c", edge="#1e1b1c")}<div class="l1">{art[k][1]}</div><div class="l2" dir="rtl">{art[k][2]}</div></div>'
             for k in f["symbols"]) + "</div>"
     else:
         src = os.path.join(base, f["src"])
@@ -111,7 +127,7 @@ def table(b):
         for i, c in enumerate(r):
             cls = "a" if i in ar_cols else ("k" if i in key_cols else "")
             if b.get("numbered") and i == 0:
-                tds += f'<td style="text-align:center;color:var(--burg);font-weight:800">{md(c)}</td>'
+                tds += f'<td style="text-align:center;color:var(--red);font-weight:800">{md(c)}</td>'
             else:
                 tds += f'<td class="{cls}">{md(c)}</td>'
         rows += f"<tr>{tds}</tr>"
@@ -134,9 +150,10 @@ def render_block(b, st, base):
     if t == "h2":
         return h2(b["en"], b["ar"]), True
     if t == "card":
-        e_extra = nlist(b["list_en"]) if b.get("list_en") else ""
-        a_extra = nlist(b["list_ar"], rtl=True) if b.get("list_ar") else ""
-        return card(b["en"], b["ar"], e_extra, a_extra), False
+        c = card(b["en"], b["ar"])
+        if b.get("list_en"):
+            c = c[:-len("</div>")] + f'<div class="c-list">{plist(b["list_en"], b.get("list_ar", []))}</div></div>'
+        return c, False
     if t == "rule":
         st["rule"] += 1
         return rule(st["rule"], b["en"], b["ar"]), False
@@ -187,7 +204,7 @@ def page(content, n, sub):
 
 def cover(pill_l, pill_r, kind):
     cards = [("Department", "القسم", M["department"]), ("Stage", "المرحلة", M["stage"]),
-             ("Type", "النوع", kind), ("Translated &amp; edited by", "ترجمة وتعديل", M["translator"])]
+             ("Type", "النوع", kind), ("Prepared by", "إعداد", M["translator"])]
     cc = "".join(f'<div class="cv-card"><span class="k">{k}<small dir="rtl">{ka}</small></span><span class="v" dir="rtl">{v}</span></div>'
                  for k, ka, v in cards)
     return f'''<section class="page cover">
@@ -213,8 +230,8 @@ def doc(title, pages):
 
 # ------------------------------------------------------------------ questions
 def mcq(i, q):
-    one = any(len(o[0]) > 24 or len(o[1]) > 24 for o in q["options"])
-    o = "".join(f'<div class="op"><span class="l">{l}</span>{en(e)}{ar(a) if a != e else "<span></span>"}</div>'
+    one = not all(is_short(e, a, 22) for e, a in q["options"])
+    o = "".join(f'<div class="op"><span class="l">{l}</span>{pair(e, a, 22 if not one else 44)}</div>'
                 for l, (e, a) in zip("abcdef", q["options"]))
     return (f'<div class="card qc"><div class="c-en q"><span class="chip">EN</span><span class="qnum">Q{i}</span>{en(q["en"])}</div>'
             f'<div class="c-ar"><span class="chip chip-ar">AR</span>{ar(f"س{i}. " + q["ar"])}</div>'
@@ -333,7 +350,7 @@ def build(path, html_only=False):
     os.makedirs(out_dir, exist_ok=True)
     rel = lambda p: os.path.relpath(p, out_dir)
     M["_css"] = rel(os.path.join(ENGINE, "style.css"))
-    M["_logo"] = rel(os.path.join(ENGINE, "brand", "logo_mono.jpg"))
+    M["_logo"] = rel(os.path.join(ENGINE, "brand", "logo_cover.jpg"))
     asset_base = rel(base_dir)
     sub = M["unit_en"]
     name = M.get("file_name") or f'{M["brand"]} - {M["subject_en"]} - {M["unit_en"]}'
@@ -371,6 +388,8 @@ def build(path, html_only=False):
         if not html_only:
             shots = os.path.join(out_dir, os.path.splitext(os.path.basename(h))[0] + "-pages")
             os.makedirs(shots, exist_ok=True)
+            for old in os.listdir(shots):
+                os.remove(os.path.join(shots, old))
             print(node("pdf", h, pdf, shots))
         print(f"{pdf}  ({n} pages + cover)")
 
