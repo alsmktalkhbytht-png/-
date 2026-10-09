@@ -1,4 +1,4 @@
-/* BIOS handout style — knight palette: navy #2c3846 · gold #b08547 / light gold #e2cfa3 · crimson #8e2219 · parchment #f3ead6 · ink #1e1b1c. Font URLs are relative to this file. */
+/* BIOS handout style. Colours come from themes/<name>.css (loaded after this file). Font URLs are relative to this file. */
 @font-face{font-family:Mada;src:url(fonts/Mada-Light.ttf);font-weight:300}
 @font-face{font-family:Mada;src:url(fonts/Mada-Regular.ttf);font-weight:400}
 @font-face{font-family:Mada;src:url(fonts/Mada-Medium.ttf);font-weight:500}
@@ -10,8 +10,7 @@
 @font-face{font-family:Playfair;src:url(fonts/playfair-display-latin-900-italic.woff2);font-weight:900;font-style:italic}
 @font-face{font-family:Playfair;src:url(fonts/playfair-display-latin-700-italic.woff2);font-weight:700;font-style:italic}
 
-:root{--dark:#2c3846;--gold:#b08547;--star:#e2cfa3;--egret:#f3ead6;--red:#8e2219;--paper:#fffcf5;
---ink:#1e1b1c;--muted:rgba(30,27,28,.6);--bd:var(--star)}
+:root{--key:var(--red)}
 *{box-sizing:border-box;margin:0;padding:0}
 @page{size:A4;margin:0}
 html,body{background:#ccc}
@@ -70,7 +69,7 @@ body{font-family:Mada,sans-serif;color:var(--ink);-webkit-print-color-adjust:exa
 .chip-ar{left:auto;right:4mm;top:3.2mm;background:var(--star);border-color:var(--star)}
 .en{font-size:11.6pt;line-height:1.5;color:var(--ink)}
 .ar{font-family:AmiriQ,serif;font-size:13pt;line-height:1.72;color:var(--ink);text-align:right}
-b.t{color:var(--red);font-weight:800}
+b.t{color:var(--key);font-weight:800}
 .ar b.t{font-weight:700}
 .ar b.t bdi,.ar bdi.lt{font-family:Mada;font-size:.86em}
 .en i{font-style:italic}

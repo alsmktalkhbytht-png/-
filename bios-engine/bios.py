@@ -150,6 +150,8 @@ def render_block(b, st, base):
     if t == "h2":
         return h2(b["en"], b["ar"]), True
     if t == "card":
+        if not b.get("en") and not b.get("ar"):     # list-only card
+            return f'<div class="card"><div class="c-list" style="border-top:0">{plist(b["list_en"], b.get("list_ar", []))}</div></div>', False
         c = card(b["en"], b["ar"])
         if b.get("list_en"):
             c = c[:-len("</div>")] + f'<div class="c-list">{plist(b["list_en"], b.get("list_ar", []))}</div></div>'
@@ -225,7 +227,7 @@ def cover(pill_l, pill_r, kind):
 
 def doc(title, pages):
     return (f'<!doctype html><html><head><meta charset="utf-8"><title>{title}</title>'
-            f'<link rel="stylesheet" href="{M["_css"]}"></head><body>{"".join(pages)}</body></html>')
+            f'<link rel="stylesheet" href="{M["_css"]}"><link rel="stylesheet" href="{M["_theme"]}"></head><body>{"".join(pages)}</body></html>')
 
 
 # ------------------------------------------------------------------ questions
@@ -350,7 +352,9 @@ def build(path, html_only=False):
     os.makedirs(out_dir, exist_ok=True)
     rel = lambda p: os.path.relpath(p, out_dir)
     M["_css"] = rel(os.path.join(ENGINE, "style.css"))
-    M["_logo"] = rel(os.path.join(ENGINE, "brand", "logo_cover.jpg"))
+    theme = M.get("theme", "knight")
+    M["_theme"] = rel(os.path.join(ENGINE, "themes", theme + ".css"))
+    M["_logo"] = rel(os.path.join(ENGINE, "brand", f"logo_{theme}.jpg"))
     asset_base = rel(base_dir)
     sub = M["unit_en"]
     name = M.get("file_name") or f'{M["brand"]} - {M["subject_en"]} - {M["unit_en"]}'

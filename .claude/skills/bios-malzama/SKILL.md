@@ -7,11 +7,14 @@ description: Build a BIOS-style bilingual (English + Arabic) handout PDF — and
 
 ## Look (agreed with the BIOS team — do not change without being asked)
 
-- **Palette (from the knight artwork the team chose):** navy `#2c3846` (bars, headers),
-  gold `#b08547` (rules, outlines) and light gold `#e2cfa3` (borders), crimson `#8e2219`
-  (number badges, key terms), parchment `#f3ead6` (Arabic panels, cover), ink `#1e1b1c`
-  (text), page paper `#fffcf5`. They are the CSS variables in `bios-engine/style.css`;
-  never add another colour.
+- **Colour themes:** set `"theme"` in `meta`. Each theme is one file in
+  `bios-engine/themes/` (CSS variables only) plus a recoloured cover logo
+  `bios-engine/brand/logo_<theme>.jpg`. Never hard-code a colour in a lecture.
+  - `knight` (default): navy, gold, crimson, parchment, ink.
+  - `rose` (trial, used by `immunology-lab1-serology/`): Dark Raspberry `#89235B`,
+    Electric Rose `#F10291`, Pastel Petal `#FFCAE4`, Snow `#FFF3F2`, Rich Mahogany `#250209`.
+  To add a theme, copy a theme file, change the values, and recolour
+  `brand/logo_full.jpg` the same way (dark ink → the theme's `--dark`, paper → `--egret`).
 - **Arabic body text is 13 pt** (one step smaller than before); keep it there.
 - **Every listed point carries its own translation right after it** — never all English
   points followed by all Arabic points. Short pairs sit on one line (English left, Arabic
@@ -79,7 +82,8 @@ automatic pagination, and the question bank. The reference result is `lab1-biosa
     "unit_en": "Lab 2", "unit_ar": "العملي 2", "unit_label": "LAB", "unit_no": "2",
     "title_en": "…", "title_ar": "…",
     "department": "قسم التحليلات", "stage": "The fourth stage — الرابعة",
-    "kind": "Laboratories — عملي", "translator": "محمد حامد"
+    "kind": "Laboratories — عملي", "translator": "محمد حامد",
+    "theme": "knight"
   },
   "blocks": [ … ],
   "questions": { … }
@@ -97,7 +101,7 @@ For a theory lecture use `"unit_en": "Lecture 3"`, `"unit_ar": "المحاضرة
 |---|---|---|
 | `section` | `en`, `ar` | slide title → numbered sage bar (auto 1, 2, 3…) |
 | `h2` | `en`, `ar` | sub-heading inside a section |
-| `card` | `en`, `ar`, optional `list_en`, `list_ar` (same length) | paragraph, definition, or an intro line followed by numbered points; point *n* of `list_en` is paired with point *n* of `list_ar` |
+| `card` | `en`, `ar`, optional `list_en`, `list_ar` (same length); leave `en` and `ar` empty for a list-only card | paragraph, definition, or an intro line followed by numbered points; point *n* of `list_en` is paired with point *n* of `list_ar` |
 | `rule` | `en`, `ar` | numbered instruction/step; numbering restarts at each section |
 | `group` | `title_en`, `title_ar`, optional `sub_en`, `sub_ar`, `en`, `ar`, optional `style: "light"` | a classified item with a dark header bar (risk groups, types, stages); `light` gives a Star White bar |
 | `figure` | `src` (relative to the lecture folder), `en`, `ar`, optional `h` + `fit` ("cover"/"contain") or `width` | one figure |
