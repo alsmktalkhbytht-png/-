@@ -260,9 +260,13 @@ def mcq(i, q):
         wide = not is_short(e, a, 22)
         o += (f'<div class="op{" wide" if wide else ""}"><span class="l">{l}</span>'
               f'{pair(e, a, 44 if wide else 22)}</div>')
+    img = ""
+    if q.get("img"):                          # picture question: the figure sits between question and options
+        img = (f'<div class="qimg"><img src="{os.path.join(M["_assets"], q["img"])}" '
+               f'style="height:{q.get("img_h", "42mm")}"></div>')
     return (f'<div class="card qc"><div class="c-en q"><span class="chip">EN</span><span class="qnum">Q{i}</span>{en(q["en"])}</div>'
             f'<div class="c-ar"><span class="chip chip-ar">AR</span>{ar(f"س{i}. " + q["ar"])}</div>'
-            f'<div class="opts">{o}</div></div>')
+            f'{img}<div class="opts">{o}</div></div>')
 
 
 def tfq(i, t):
@@ -394,6 +398,7 @@ def build(path, html_only=False):
     M["_theme"] = rel(os.path.join(ENGINE, "themes", theme + ".css"))
     M["_logo"] = rel(os.path.join(ENGINE, "brand", f"logo_{theme}.jpg"))
     asset_base = rel(base_dir)
+    M["_assets"] = asset_base
     sub = M["unit_en"]
     name = M.get("file_name") or f'{M["brand"]} - {M["subject_en"]} - {M["unit_en"]}'
     outputs = []

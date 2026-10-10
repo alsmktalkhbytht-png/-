@@ -170,6 +170,12 @@ verbatim and use the professor's marked answer (often bold/underlined — extrac
   keep it as the key and add `note_en/note_ar` to that question; the notes print under
   the answer key.
 
+**Picture questions:** every question bank built from a lecture with figures ends its MCQ
+section with `{"topic_en": "Picture questions", "topic_ar": "أسئلة الصور"}` followed by MCQs
+that carry `"img": "assets/…"` (and optional `"img_h": "40mm"`). The figure prints between the
+question and its options. Use the lecture's important figures (symbols, specimens, equipment,
+procedures) and ask about what the figure shows, answered from the lecture text.
+
 Write questions from the lecture content only: about 25–35 MCQs covering every section,
 12–16 true/false, 6–8 traps (details students mix up), and 6–8 essay questions with
 model answers. Spread the correct MCQ letters evenly across a–d.

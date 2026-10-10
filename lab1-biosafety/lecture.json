@@ -1140,6 +1140,210 @@
      ]
     ],
     "answer": "d"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "img": "assets/biohazard.jpg",
+    "img_h": "34mm",
+    "en": "What does this warning symbol indicate?",
+    "ar": "ماذا تعني علامة التحذير هذه؟",
+    "options": [
+     [
+      "Radiation hazard",
+      "خطر إشعاعي"
+     ],
+     [
+      "Potential presence of dangerous biological materials",
+      "احتمال وجود مواد بيولوجية خطرة"
+     ],
+     [
+      "Fire hazard",
+      "خطر الحريق"
+     ],
+     [
+      "Electrical hazard",
+      "خطر كهربائي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "img": "assets/radiation.jpg",
+    "img_h": "30mm",
+    "en": "This warning symbol is the:",
+    "ar": "علامة التحذير هذه هي:",
+    "options": [
+     [
+      "Biohazard symbol",
+      "رمز الخطر البيولوجي"
+     ],
+     [
+      "Laser warning",
+      "تحذير الليزر"
+     ],
+     [
+      "Radiation hazard symbol",
+      "رمز الخطر الإشعاعي"
+     ],
+     [
+      "Toxic chemical symbol",
+      "رمز المواد الكيميائية السامة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "img": "assets/ppe.jpg",
+    "img_h": "30mm",
+    "en": "The worker in the picture is wearing:",
+    "ar": "الشخص في الصورة يرتدي:",
+    "options": [
+     [
+      "Personal protective equipment (gown – mask – safety glasses – gloves)",
+      "معدات الحماية الشخصية (رداء – كمامة – نظارات السلامة – قفازات)"
+     ],
+     [
+      "Ordinary clothes",
+      "ملابس عادية"
+     ],
+     [
+      "Radiation suit only",
+      "بدلة إشعاع فقط"
+     ],
+     [
+      "Surgical cap only",
+      "قبعة جراحية فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "img": "assets/nofood.jpg",
+    "img_h": "36mm",
+    "en": "In the laboratory, this sign means:",
+    "ar": "تعني هذه العلامة في المختبر:",
+    "options": [
+     [
+      "Wash your hands",
+      "اغسل يديك"
+     ],
+     [
+      "Use lab glassware for drinks",
+      "استعمل الأواني المختبرية للشرب"
+     ],
+     [
+      "Store food in the lab refrigerator",
+      "خزّن الطعام في ثلاجة المختبر"
+     ],
+     [
+      "Do not eat food or drink water in the lab",
+      "لا تأكل ولا تشرب في المختبر"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "img": "assets/cultures.jpg",
+    "img_h": "40mm",
+    "en": "All cultures like those in the picture should be handled as:",
+    "ar": "يجب التعامل مع جميع المزارع مثل التي في الصورة على أنها:",
+    "options": [
+     [
+      "Potentially pathogenic",
+      "ممرضة محتملة"
+     ],
+     [
+      "Non-pathogenic",
+      "غير ممرضة"
+     ],
+     [
+      "Safe to take home",
+      "آمنة لأخذها إلى البيت"
+     ],
+     [
+      "Sterile",
+      "معقّمة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "img": "assets/handwash.jpg",
+    "img_h": "40mm",
+    "en": "According to the safety rules, hands are washed:",
+    "ar": "وفق تعليمات السلامة، تُغسل اليدان:",
+    "options": [
+     [
+      "Only before entering the lab",
+      "قبل دخول المختبر فقط"
+     ],
+     [
+      "After working with infectious materials",
+      "بعد العمل مع المواد المُعدية"
+     ],
+     [
+      "Only once a day",
+      "مرة واحدة في اليوم فقط"
+     ],
+     [
+      "Never while wearing gloves",
+      "لا تُغسل أبدًا في أثناء ارتداء القفازات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "img": "assets/disinfect.jpg",
+    "img_h": "40mm",
+    "en": "Instruments and contaminated waste should be disinfected:",
+    "ar": "يجب تطهير الأدوات والنفايات الملوّثة:",
+    "options": [
+     [
+      "At the end of the week",
+      "في نهاية الأسبوع"
+     ],
+     [
+      "Only if visibly dirty",
+      "فقط إذا بدت متّسخة"
+     ],
+     [
+      "Immediately after use / before discarding",
+      "فور الاستخدام / قبل التخلّص منها"
+     ],
+     [
+      "Never",
+      "أبدًا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "img": "assets/cabinets.jpg",
+    "img_h": "52mm",
+    "en": "In this picture of laboratory equipment, which device sterilizes by pressurized steam?",
+    "ar": "في صورة الأجهزة المختبرية هذه، أي جهاز يعقّم بالبخار المضغوط؟",
+    "options": [
+     [
+      "PCR cabinet",
+      "خزانة PCR"
+     ],
+     [
+      "Incubator",
+      "الحاضنة"
+     ],
+     [
+      "Laminar flow cabinet",
+      "خزانة التدفق الصفائحي"
+     ],
+     [
+      "Autoclave",
+      "جهاز التعقيم بالبخار (الأوتوكليف)"
+     ]
+    ],
+    "answer": "d"
    }
   ],
   "tf": [
