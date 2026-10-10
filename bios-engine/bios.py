@@ -223,24 +223,48 @@ def page(content, n, sub):
             f'<div class="body"><div class="content">{content}</div></div>{footer(n)}</section>')
 
 
+def cover_kind(kind):
+    """'Laboratories — عملي' → 'عملي · Practical' (the wording the approved cover uses)."""
+    if M.get("kind_ar") and M.get("kind_en"):
+        return f'{M["kind_ar"]} · {M["kind_en"]}'
+    k = kind or ""
+    if "عملي" in k and "نظري" in k:
+        return "نظري وعملي · Theory &amp; Practical"
+    if "عملي" in k:
+        return "عملي · Practical"
+    if "نظري" in k:
+        return "نظري · Theory"
+    return k
+
+
+def cover_stage():
+    """'The third stage — الثالثة' → 'المرحلة الثالثة'."""
+    if M.get("stage_ar"):
+        return M["stage_ar"]
+    st = M.get("stage") or ""
+    ar_part = st.split("—")[-1].strip() if "—" in st else st
+    return ("المرحلة " + ar_part) if ar_part and not ar_part.startswith("المرحلة") else ar_part
+
+
 def cover(title_en, title_ar, kind):
-    """Cover 1B: double frame, logo, subject, the lecture title in a dark box with the lecture-number
-    badge on top, type and stage chips, the instructor in a large clear line, BIOS · Telegram at the bottom."""
-    badge = f'{M["unit_en"]} · <span dir="rtl">{M["unit_ar"]}</span>'
-    chips = "".join(f'<span class="cb-chip" dir="rtl">{v}</span>' for v in (kind, M.get("stage")) if v)
-    ins = (f'<div class="cb-ins"><small>Instructor · التدريسي</small><b>{M["instructor"]}</b></div>'
+    """The approved cover (1B) — keep it exactly like this for every lecture:
+    double frame, logo, subject, the title in a dark box with the number badge on top,
+    type and stage chips, a short rule, the instructor, 'BIOS · Telegram' at the bottom."""
+    badge = f'{M["unit_en"].upper()} · <span dir="rtl">{M["unit_ar"]}</span>'
+    chips = "".join(f'<span class="cb-chip" dir="rtl">{v}</span>' for v in (cover_kind(kind), cover_stage()) if v)
+    ins = (f'<div class="cb-rule"></div><div class="cb-ins"><small>INSTRUCTOR · التدريسي</small><b>{M["instructor"]}</b></div>'
            if M.get("instructor") else "")
     return f'''<section class="page cover cb">
 <div class="cb-fr"></div><div class="cb-fr2"></div>
 <img class="cb-logo" src="{M["_logo"]}">
-<div class="cb-body">
- <div class="cb-subj"><div class="e">{M["subject_en"]}</div><div class="a">{M["subject_ar"]}</div></div>
+<div class="cb-subj"><div class="e">{M["subject_en"]}</div><div class="a">{M["subject_ar"]}</div></div>
+<div class="cb-low">
  <div class="cb-title"><span class="cb-badge">{badge}</span>
   <div class="a">{title_ar}</div><div class="e">{title_en}</div></div>
  <div class="cb-chips">{chips}</div>
  {ins}
 </div>
-<div class="cb-foot"><b>{M["brand"]}</b><span></span>Telegram&nbsp;<b>@{M["telegram"]}</b></div>
+<div class="cb-foot">{M["brand"]} · Telegram @{M["telegram"]}</div>
 </section>'''
 
 

@@ -37,12 +37,14 @@ description: Build a BIOS-style bilingual (English + Arabic) handout PDF — and
     Electric Rose `#F10291`, Pastel Petal `#FFCAE4`, Snow `#FFF3F2`, Rich Mahogany `#250209`.
   To add a theme, copy a theme file, change the values, and recolour
   `brand/logo_full.jpg` the same way (dark ink → the theme's `--dark`, paper → `--egret`).
-- **Cover (option 1B, chosen by the team — every handout, current and future):** double frame,
-  BIOS logo, then only these six items: subject; the lecture title in a dark box with the
-  lecture-number badge (`unit_en`/`unit_ar`) on top; type (`meta.kind`) and stage (`meta.stage`)
-  chips; the instructor (`meta.instructor`) in a large, clear line. BIOS · Telegram sits in a
-  strip at the bottom of the cover. No translator name, department or other credits on the
-  cover. Stage and instructor are hidden when the source does not give them.
+- **Cover — FINAL, do not redesign (approved by the team from the 1B sample):** every lecture,
+  current and future, uses exactly this cover: double thin frame on the light colour, the BIOS
+  logo, the subject (English then Arabic), the lecture title in a dark box with a light badge
+  on top ("LAB 1 · العملي 1"), two white chips (type "عملي · Practical" / "نظري · Theory", and
+  "المرحلة الثالثة"), a short rule, "INSTRUCTOR · التدريسي" and the instructor's name in large
+  bold, and the small line "BIOS · Telegram @BIOS0t" at the bottom. Nothing else on the cover.
+  The engine derives the chip wording from `meta.kind` and `meta.stage` (or set `kind_ar`,
+  `kind_en`, `stage_ar` explicitly). Stage and instructor are hidden when the source lacks them.
 - **Arabic body text is 13 pt** (one step smaller than before); keep it there.
 - **Sentence by sentence:** when a paragraph has more than one sentence, write `en` and
   `ar` as lists of sentences (same length). Each English sentence is then followed directly
