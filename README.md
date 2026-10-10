@@ -11,6 +11,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `bloodbank-lec3-services/` — Blood Transfusion lecture 3: Blood bank services.
 - `research-lec1-principles/` — Principles of Research (مبادئ البحث العلمي) lecture 1.
 - `enzymology-lab1-safety-tubes/` — Clinical Enzymology (الإنزيمات السريرية) Lab 1: lab safety and blood collecting tubes.
+- `ethics-lec1-morals/` — Professional Ethics (أخلاقيات المهنة) lecture 1 — Arabic-only handout.
 - `.claude/skills/bios-malzama/SKILL.md` — how to make a new handout and the full `lecture.json` format.
 
 Build a handout:

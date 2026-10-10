@@ -181,6 +181,13 @@ verbatim and use the professor's marked answer (often bold/underlined — extrac
   keep it as the key and add `note_en/note_ar` to that question; the notes print under
   the answer key.
 
+**Lectures written in Arabic** (no English source): set `meta.arabic_only: true` and leave every
+`en` empty (`""`, or `[""]` per list item / option). Copy the Arabic text verbatim — fix only
+PDF extraction garbage by reading the page images. The engine then drops the EN/AR chips, puts
+list numbers on the right, writes question numbers as س1، س2…, uses أ ب ج د for options and
+the answer key, and runs arrow chains right to left. Questions are written in Arabic too.
+Cover keeps the subject and title in both languages.
+
 **Picture questions:** every question bank built from a lecture with figures ends its MCQ
 section with `{"topic_en": "Picture questions", "topic_ar": "أسئلة الصور"}` followed by MCQs
 that carry `"img": "assets/…"` (and optional `"img_h": "40mm"`). The figure prints between the

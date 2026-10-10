@@ -39,6 +39,8 @@ def ar(s): return f'<p class="ar" dir="rtl">{md(s)}</p>'
 def sentences(e, a):
     """en/ar may each be one string or a list of sentences (same length): every English
     sentence is followed directly by its Arabic translation."""
+    if isinstance(a, list) and not e:           # Arabic-only paragraph split into sentences
+        e = [""] * len(a)
     if isinstance(e, list):
         assert isinstance(a, list) and len(a) == len(e), f"en/ar sentence lists differ: {e!r}"
         return list(zip(e, a))
@@ -51,8 +53,13 @@ def card_body(e, a, e_extra="", a_extra=""):
     for k, (se, sa) in enumerate(rows):
         last = k == len(rows) - 1
         cont = " cont" if k else ""
-        out += (f'<div class="c-en{cont}"><span class="chip">EN</span>{en(se) if se else ""}{e_extra if last else ""}</div>'
-                f'<div class="c-ar{cont}"><span class="chip chip-ar">AR</span>{ar(sa) if sa else ""}{a_extra if last else ""}</div>')
+        has_en = se or (last and e_extra)
+        has_ar = sa or (last and a_extra)
+        if has_en or not has_ar:
+            out += f'<div class="c-en{cont}"><span class="chip">EN</span>{en(se) if se else ""}{e_extra if last else ""}</div>'
+        if has_ar or not has_en:
+            out += f'<div class="c-ar{cont}"><span class="chip chip-ar">AR</span>{ar(sa) if sa else ""}{a_extra if last else ""}</div>'
+
     return out
 
 
@@ -73,7 +80,7 @@ def is_short(e, a, limit=SHORT):
 def pair(e, a, limit=SHORT):
     """English with its Arabic translation: side by side when short, Arabic underneath when long."""
     lay = "inline" if is_short(e, a, limit) else "stack"
-    return f'<div class="pr {lay}">{en(e)}{ar(a) if a and a != e else ""}</div>'
+    return f'<div class="pr {lay}">{en(e) if e else ""}{ar(a) if a and a != e else ""}</div>'
 
 
 def plist(items_en, items_ar, alpha=False):
@@ -94,7 +101,8 @@ def flow(b):
             f'<div class="fl-box"><div class="fl-l"><span dir="ltr">{md(x["en"])}</span><span dir="rtl">{md(x["ar"])}</span></div>'
             f'{pair(x["text_en"], x["text_ar"]) if x.get("text_en") else ""}</div>' for x in steps) + "</div>"
     else:
-        body = '<div class="fl-r">' + '<span class="fl-arr">→</span>'.join(
+        rtl = not any(x.get("en") for x in steps)            # Arabic-only chain reads right to left
+        body = f'<div class="fl-r{" rtl" if rtl else ""}">' + f'<span class="fl-arr">{"←" if rtl else "→"}</span>'.join(
             f'<span class="fl-p"><b dir="ltr">{md(x["en"])}</b><i dir="rtl">{md(x["ar"])}</i></span>' for x in steps) + "</div>"
     tail = f'<div class="fl-t">{pair(b["tail_en"], b["tail_ar"])}</div>' if b.get("tail_en") else ""
     return f'<div class="card fl">{head}{body}{tail}</div>'
@@ -124,7 +132,7 @@ def group(b, alt=False):
 
 
 def note(e, a, label=("Note", "ملاحظة")):
-    body = "".join(en(se) + ar(sa) for se, sa in sentences(e, a))
+    body = "".join((en(se) if se else "") + (ar(sa) if sa else "") for se, sa in sentences(e, a))
     return f'<div class="note"><span class="np">{label[0]} &nbsp; <span dir="rtl">{label[1]}</span></span>{body}</div>'
 
 
@@ -308,14 +316,24 @@ def cover(title_en, title_ar, kind):
 
 def doc(title, pages):
     return (f'<!doctype html><html><head><meta charset="utf-8"><title>{title}</title>'
-            f'<link rel="stylesheet" href="{M["_css"]}"><link rel="stylesheet" href="{M["_theme"]}"></head><body>{"".join(pages)}</body></html>')
+            f'<link rel="stylesheet" href="{M["_css"]}"><link rel="stylesheet" href="{M["_theme"]}"></head>'
+            f'<body class="{"ar-only" if M.get("arabic_only") else ""}">{"".join(pages)}</body></html>')
 
 
 # ------------------------------------------------------------------ questions
+def letters():
+    """Option letters: Arabic (أ ب ج د) in Arabic-only documents, otherwise A–F."""
+    return "أبجدهو" if M.get("arabic_only") else "ABCDEF"
+
+
+def key_letter(a):
+    return letters()["abcdef".index(a.lower())] if a.lower() in "abcdef" else a.upper()
+
+
 def mcq(i, q):
     """Options sit two to a row; an option too long for half the width takes a full row."""
     o = ""
-    for l, (e, a) in zip("ABCDEF", q["options"]):
+    for l, (e, a) in zip(letters(), q["options"]):
         wide = not is_short(e, a, 22)
         o += (f'<div class="op{" wide" if wide else ""}"><span class="l">{l}</span>'
               f'{pair(e, a, 44 if wide else 22)}</div>')
@@ -323,28 +341,39 @@ def mcq(i, q):
     if q.get("img"):                          # picture question: the figure sits between question and options
         img = (f'<div class="qimg"><img src="{os.path.join(M["_assets"], q["img"])}" '
                f'style="height:{q.get("img_h", "42mm")}"></div>')
-    return (f'<div class="card qc"><div class="c-en q"><span class="chip">EN</span><span class="qnum">Q{i}</span>{en(q["en"])}</div>'
-            f'<div class="c-ar"><span class="chip chip-ar">AR</span>{ar(f"س{i}. " + q["ar"])}</div>'
-            f'{img}<div class="opts">{o}</div></div>')
+    top = (f'<div class="c-en q"><span class="chip">EN</span><span class="qnum">Q{i}</span>{en(q["en"])}</div>'
+           f'<div class="c-ar"><span class="chip chip-ar">AR</span>{ar(f"س{i}. " + q["ar"])}</div>') if q["en"] else \
+          f'<div class="c-ar q" style="border-top:0"><span class="qnum">س{i}</span>{ar(q["ar"])}</div>'
+    return f'<div class="card qc">{top}{img}<div class="opts">{o}</div></div>'
 
 
 def tfq(i, t):
+    tf = '<div class="tfrow" dir="ltr"><span>True · صح</span><span>False · خطأ</span></div>'
+    if not t["en"]:
+        return f'<div class="card"><div class="c-ar tfa q" style="border-top:0"><span class="qnum">{i}</span>{tf}{ar(t["ar"])}</div></div>'
     return (f'<div class="card"><div class="c-en q"><span class="chip">EN</span><span class="qnum">{i}</span>{en(t["en"])}</div>'
-            f'<div class="c-ar tfa"><span class="chip chip-ar">AR</span><div class="tfrow" dir="ltr"><span>True · صح</span>'
-            f'<span>False · خطأ</span></div>{ar(t["ar"])}</div></div>')
+            f'<div class="c-ar tfa"><span class="chip chip-ar">AR</span>{tf}{ar(t["ar"])}</div></div>')
+
+
+def put_qnum(c, label):
+    """Attach the question-number badge to the English row, or to the Arabic row in Arabic-only cards."""
+    if 'class="c-en"' in c:
+        c = c.replace('<span class="chip">EN</span>', f'<span class="chip">EN</span><span class="qnum">{label}</span>', 1)
+        return c.replace('class="c-en"', 'class="c-en q"', 1)
+    c = c.replace('<span class="chip chip-ar">AR</span>', f'<span class="chip chip-ar">AR</span><span class="qnum">{label}</span>', 1)
+    return c.replace('class="c-ar"', 'class="c-ar q"', 1)
 
 
 def numbered(i, e, a, lines=False):
-    c = card(e, a).replace('<span class="chip">EN</span>', f'<span class="chip">EN</span><span class="qnum">{i}</span>', 1)
-    c = c.replace('class="c-en"', 'class="c-en q"', 1)
+    c = put_qnum(card(e, a), i)
     return c[:-len("</div>")] + '<div class="lines" style="margin-top:2mm"></div></div>' if lines else c
 
 
 def model_answer(i, e, a, q=None):
     head = f'<div style="font-weight:800;color:var(--key);font-size:9.5pt;margin-bottom:.6mm">{md(q)}</div>' if q else ""
-    c = card("", a, e_extra=head + en(e))
-    c = c.replace('<span class="chip">EN</span>', f'<span class="chip">EN</span><span class="qnum">{i}</span>', 1)
-    return c.replace('class="c-en"', 'class="c-en q"', 1)
+    if not e:                                   # Arabic-only answer: question line above the answer
+        return put_qnum(card("", a), i).replace('<div class="c-ar q">', f'<div class="c-ar q"><div dir="rtl">{head}</div>', 1)
+    return put_qnum(card("", a, e_extra=head + en(e)), i)
 
 
 def question_items(Q):
@@ -382,7 +411,7 @@ def question_items(Q):
     head("Answer Key", "الحلول")
     if mcqs:
         out.append((h2("MCQ Answers", "إجابات الاختيار من متعدد"), True))
-        out.append(('<div class="akey">' + "".join(f'<div><b>{i}</b><span>{q["answer"].upper()}</span></div>'
+        out.append(('<div class="akey">' + "".join(f'<div><b>{i}</b><span>{key_letter(q["answer"])}</span></div>'
                                                    for i, q in enumerate(mcqs, 1)) + "</div>", False))
         flagged = [(i, q) for i, q in enumerate(mcqs, 1) if q.get("note_en")]
         if flagged:

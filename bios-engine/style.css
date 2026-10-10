@@ -224,3 +224,21 @@ i.sp{font-weight:700;font-style:italic}
 .fl-l{display:flex;justify-content:space-between;font-weight:800;font-size:10.5pt;color:var(--dark);margin-bottom:.6mm}
 .fl-ar{text-align:center;color:var(--star);font-weight:900;font-size:13pt;line-height:1.3}
 .fl-t{margin-top:2.5mm}
+
+/* Arabic-only documents (source lecture written in Arabic): no language chips, Arabic rows lead */
+.c-ar:first-child{border-top:0}
+.ar-only .chip{display:none}
+.ar-only .c-ar{padding:2mm 6mm 2.2mm 6mm;background:#fff}
+.ar-only .c-ar.cont{border-top:.3mm solid var(--star)}
+.ar-only .c-list .pr .ar{font-size:13pt}
+.c-ar.q{padding-right:16mm}
+.c-ar.q .qnum{right:4mm;top:3.4mm}
+.ar-only .c-ar.q{padding-right:16mm}
+.fl-r.rtl{direction:rtl}
+.ar-only .sb [dir=rtl]{font-size:13pt}
+.ar-only .h2 [dir=rtl]{font-size:12pt}
+.ar-only ol.pl li{direction:rtl}
+.ar-only .opts,.ar-only .op{direction:rtl}
+.ar-only .op .l{font-family:AmiriQ,serif;font-size:10pt;line-height:1}
+.ar-only .akey div{direction:rtl}
+.ar-only .akey div span{font-family:AmiriQ,serif;font-size:12pt}
