@@ -10,6 +10,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `bloodbank-lec2-donation-criteria/` — Blood Transfusion lecture 2: Criteria of blood donation.
 - `bloodbank-lec3-services/` — Blood Transfusion lecture 3: Blood bank services.
 - `research-lec1-principles/` — Principles of Research (مبادئ البحث العلمي) lecture 1.
+- `research-lec2-scientific-method/` — Principles of Research lecture 2: the scientific method.
 - `enzymology-lab1-safety-tubes/` — Clinical Enzymology (الإنزيمات السريرية) Lab 1: lab safety and blood collecting tubes.
 - `ethics-lec1-morals/` — Professional Ethics (أخلاقيات المهنة) lecture 1 — Arabic-only handout.
 - `pathology-lec1-2-atelectasis/` — Pathology (علم الأمراض) lectures 1+2: atelectasis, acute lung injury/ARDS, emphysema.
