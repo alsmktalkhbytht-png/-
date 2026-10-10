@@ -1,0 +1,743 @@
+{
+ "meta": {
+  "subject_en": "Hematology",
+  "subject_ar": "أمراض الدم",
+  "short_ar": "امراض الدم",
+  "unit_en": "Lecture 4",
+  "unit_ar": "المحاضرة 4",
+  "unit_label": "LEC",
+  "unit_no": "4",
+  "title_en": "Hemoglobin",
+  "title_ar": "الهيموغلوبين",
+  "kind": "Theory — نظري",
+  "stage": "The third stage — الثالثة",
+  "instructor": "د. مازن اللهيبي"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Hemoglobin",
+   "ar": "الهيموغلوبين"
+  },
+  {
+   "t": "card",
+   "en": [
+    "The main function of red cells is to **carry O2 to the tissues** and to **return carbon dioxide (CO2)** from the tissues to the lungs.",
+    "In orders to achieve the gaseous exchange, they contain the specialized protein called **hemoglobin**."
+   ],
+   "ar": [
+    "الوظيفة الرئيسة للكريات الحمر هي **نقل الأوكسجين إلى الأنسجة** و**إعادة ثاني أوكسيد الكاربون** من الأنسجة إلى الرئتين.",
+    "ولتحقيق تبادل الغازات تحتوي على بروتين متخصّص يُسمّى **الهيموغلوبين**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Each red cell contains approximately **640 million** hemoglobin molecules.",
+   "ar": "تحتوي كل كرية حمراء على نحو **640 مليون** جزيء هيموغلوبين."
+  },
+  {
+   "t": "card",
+   "en": "Each molecules of normal adult hemoglobin (**Hb.A**) which is the dominant hemoglobin in blood **after the age of 3-6 months** consist **four polypeptide chains (2 alpha and 2 beta)** chains and each chain contains **haem** molecule in the center.",
+   "ar": "يتكوّن كل جزيء من هيموغلوبين البالغين الطبيعي (**`Hb.A`**)، وهو الهيموغلوبين السائد في الدم **بعد عمر 3–6 أشهر**، من **أربع سلاسل ببتيدية متعدّدة (2 ألفا و2 بيتا)**، وتحتوي كل سلسلة على جزيء **هيم** في مركزها."
+  },
+  {
+   "t": "card",
+   "en": [
+    "Normal adult blood also contains small quantities of two other hemoglobin, **Hb.F** and **Hb.A2**.",
+    "These also contain **α Chains** but with **γ and δ chains** respectively, Instead of β .",
+    "Different between two chains is in the **number and sequences of amino acid**."
+   ],
+   "ar": [
+    "ويحتوي دم البالغين الطبيعي أيضًا على كميات صغيرة من نوعين آخرين من الهيموغلوبين: **`Hb.F`** و**`Hb.A2`**.",
+    "وهما يحتويان أيضًا على **سلاسل ألفا** لكن مع **سلاسل غاما ودلتا** على التوالي، بدلًا من بيتا.",
+    "والفرق بين السلسلتين في **عدد الأحماض الأمينية وتسلسلها**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "In normal adults, we have three type of hemoglobin:",
+   "ar": "لدى البالغين الطبيعيين ثلاثة أنواع من الهيموغلوبين:"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Types of Hb.",
+    "Hb.A",
+    "Hb.F",
+    "Hb.A2"
+   ],
+   "rows": [
+    [
+     "Structure",
+     "α2 β2",
+     "α2 γ2",
+     "α2 δ2"
+    ],
+    [
+     "Normal %",
+     "96-98%",
+     "0.5-0.8%",
+     "1.5-3.2%"
+    ],
+    [
+     "البنية بالعربي",
+     "سلسلتا ألفا + سلسلتا بيتا",
+     "سلسلتا ألفا + سلسلتا غاما",
+     "سلسلتا ألفا + سلسلتا دلتا"
+    ]
+   ],
+   "key_cols": [
+    0
+   ]
+  },
+  {
+   "t": "card",
+   "en": "The major **switch from fetal to adult hemoglobin** occurs **3-6 months after birth** when **β. chain synthesis** started.",
+   "ar": "يحدث **التحوّل الرئيس من الهيموغلوبين الجنيني إلى هيموغلوبين البالغين** بعد **3–6 أشهر من الولادة** عندما يبدأ **تخليق سلسلة بيتا**."
+  },
+  {
+   "t": "card",
+   "en": "Hemoglobin abnormalities could result from either:",
+   "ar": "قد تنتج تشوّهات الهيموغلوبين عن:",
+   "list_en": [
+    "Synthesis of **abnormal hemoglobin**.",
+    "**Reduced rate of synthesis** of normal α- or β- globin's chains."
+   ],
+   "list_ar": [
+    "تخليق **هيموغلوبين غير طبيعي**.",
+    "**انخفاض سرعة تخليق** سلاسل الكلوبين ألفا أو بيتا الطبيعية."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Haem synthesis",
+   "ar": "تخليق الهيم"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Haem synthesis occurs largely in the **mitochondria** by a series of biochemical reactions under action of enzymes **δ- amino levulinic acid (ALA) synthase** and **vit.B6** as a coenzyme.",
+    "Ultimately, **protoporhyrin combines with iron in the ferrous state** to form haem."
+   ],
+   "ar": [
+    "يحدث تخليق الهيم غالبًا في **المايتوكوندريا** عبر سلسلة تفاعلات كيميائية حيوية بفعل إنزيم **مُخلِّق حمض دلتا-أمينوليفولينيك (`ALA synthase`)** وبوجود **فيتامين `B6`** مرافقًا إنزيميًا.",
+    "وفي النهاية **يتّحد البروتوبورفيرين مع الحديد بحالته الحديدوزية** ليكوّن الهيم."
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Protoporphyrin",
+     "ar": "البروتوبورفيرين"
+    },
+    {
+     "en": "+ Iron (Fe²⁺)",
+     "ar": "+ حديد (`Fe²⁺`)"
+    },
+    {
+     "en": "Haem",
+     "ar": "الهيم"
+    },
+    {
+     "en": "+ Globin chains",
+     "ar": "+ سلاسل الكلوبين"
+    },
+    {
+     "en": "Hemoglobin",
+     "ar": "الهيموغلوبين"
+    }
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    "",
+    "Male",
+    "Female",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Hemoglobin (Hb.) (g/dl)",
+     "13.5-17.5",
+     "11.5-15.5",
+     "الهيموغلوبين (غ/دل)"
+    ],
+    [
+     "Hematocrit (pcv) (%)",
+     "40-52",
+     "36-48",
+     "الهيماتوكريت (%)"
+    ],
+    [
+     "Red cell count (x10¹²/l)",
+     "4.5- 6.5",
+     "3.9-5.6",
+     "عدد الكريات الحمر (×10¹²/لتر)"
+    ],
+    [
+     "MCV (fl)",
+     "80-95",
+     "80-95",
+     "متوسط حجم الكرية"
+    ],
+    [
+     "MCH (pg)",
+     "27-34",
+     "27-34",
+     "متوسط هيموغلوبين الكرية"
+    ],
+    [
+     "MCHC (g/dl)",
+     "20-35",
+     "20-35",
+     "متوسط تركيز الهيموغلوبين"
+    ]
+   ],
+   "ar_cols": [
+    3
+   ],
+   "key_cols": [
+    0
+   ],
+   "style": "summary",
+   "label_en": "Normal adult red cell value",
+   "label_ar": "القيم الطبيعية لكريات البالغين الحمر"
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "en": "The main function of red cells is to:",
+    "ar": "الوظيفة الرئيسة للكريات الحمر:",
+    "options": [
+     [
+      "Fight infection",
+      "مقاومة العدوى"
+     ],
+     [
+      "Carry O2 to tissues and return CO2 to the lungs",
+      "نقل الأوكسجين للأنسجة وإعادة CO2 للرئتين"
+     ],
+     [
+      "Clot blood",
+      "تخثير الدم"
+     ],
+     [
+      "Produce antibodies",
+      "إنتاج الأجسام المضادة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Each red cell contains approximately how many haemoglobin molecules?",
+    "ar": "كم جزيء هيموغلوبين في كل كرية حمراء تقريبًا؟",
+    "options": [
+     [
+      "640 thousand",
+      "640 ألف"
+     ],
+     [
+      "6.4 million",
+      "6.4 مليون"
+     ],
+     [
+      "640 million",
+      "640 مليون"
+     ],
+     [
+      "64 billion",
+      "64 مليار"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Normal adult haemoglobin (Hb A) consists of:",
+    "ar": "يتكوّن هيموغلوبين البالغين (Hb A) من:",
+    "options": [
+     [
+      "2 alpha and 2 beta chains",
+      "سلسلتي ألفا وسلسلتي بيتا"
+     ],
+     [
+      "2 alpha and 2 gamma chains",
+      "سلسلتي ألفا وسلسلتي غاما"
+     ],
+     [
+      "4 beta chains",
+      "أربع سلاسل بيتا"
+     ],
+     [
+      "2 alpha and 2 delta chains",
+      "سلسلتي ألفا وسلسلتي دلتا"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Hb F is composed of:",
+    "ar": "يتكوّن Hb F من:",
+    "options": [
+     [
+      "α2 β2",
+      "α2 β2"
+     ],
+     [
+      "α2 δ2",
+      "α2 δ2"
+     ],
+     [
+      "β4",
+      "β4"
+     ],
+     [
+      "α2 γ2",
+      "α2 γ2"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Hb A2 contains alpha chains with:",
+    "ar": "يحتوي Hb A2 على سلاسل ألفا مع:",
+    "options": [
+     [
+      "Beta chains",
+      "سلاسل بيتا"
+     ],
+     [
+      "Delta chains",
+      "سلاسل دلتا"
+     ],
+     [
+      "Gamma chains",
+      "سلاسل غاما"
+     ],
+     [
+      "Epsilon chains",
+      "سلاسل إبسيلون"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The normal percentage of Hb A in adults is:",
+    "ar": "النسبة الطبيعية لـ Hb A عند البالغين:",
+    "options": [
+     [
+      "50–60%",
+      "50–60%"
+     ],
+     [
+      "1.5–3.2%",
+      "1.5–3.2%"
+     ],
+     [
+      "96–98%",
+      "96–98%"
+     ],
+     [
+      "0.5–0.8%",
+      "0.5–0.8%"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The normal percentage of Hb F in adults is:",
+    "ar": "النسبة الطبيعية لـ Hb F عند البالغين:",
+    "options": [
+     [
+      "0.5–0.8%",
+      "0.5–0.8%"
+     ],
+     [
+      "5–10%",
+      "5–10%"
+     ],
+     [
+      "96–98%",
+      "96–98%"
+     ],
+     [
+      "1.5–3.2%",
+      "1.5–3.2%"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The normal percentage of Hb A2 in adults is:",
+    "ar": "النسبة الطبيعية لـ Hb A2 عند البالغين:",
+    "options": [
+     [
+      "0.5–0.8%",
+      "0.5–0.8%"
+     ],
+     [
+      "10%",
+      "10%"
+     ],
+     [
+      "50%",
+      "50%"
+     ],
+     [
+      "1.5–3.2%",
+      "1.5–3.2%"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The switch from fetal to adult haemoglobin occurs:",
+    "ar": "يحدث التحوّل من الهيموغلوبين الجنيني إلى البالغ:",
+    "options": [
+     [
+      "At birth",
+      "عند الولادة"
+     ],
+     [
+      "3–6 months after birth",
+      "بعد 3–6 أشهر من الولادة"
+     ],
+     [
+      "At puberty",
+      "عند البلوغ"
+     ],
+     [
+      "At 2 years",
+      "عند عمر سنتين"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The switch to adult Hb happens when synthesis starts of the:",
+    "ar": "يحدث التحوّل إلى Hb البالغين عند بدء تخليق سلسلة:",
+    "options": [
+     [
+      "Alpha chain",
+      "ألفا"
+     ],
+     [
+      "Gamma chain",
+      "غاما"
+     ],
+     [
+      "Beta chain",
+      "بيتا"
+     ],
+     [
+      "Delta chain",
+      "دلتا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The difference between globin chains is in the:",
+    "ar": "الفرق بين سلاسل الكلوبين في:",
+    "options": [
+     [
+      "Number and sequence of amino acids",
+      "عدد الأحماض الأمينية وتسلسلها"
+     ],
+     [
+      "Iron content",
+      "محتوى الحديد"
+     ],
+     [
+      "Haem structure",
+      "بنية الهيم"
+     ],
+     [
+      "Carbohydrate content",
+      "محتوى الكاربوهيدرات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Haemoglobin abnormalities result from abnormal Hb synthesis or:",
+    "ar": "تنتج تشوّهات الهيموغلوبين عن تخليق Hb غير طبيعي أو:",
+    "options": [
+     [
+      "Excess iron",
+      "زيادة الحديد"
+     ],
+     [
+      "Increased haem",
+      "زيادة الهيم"
+     ],
+     [
+      "Reduced rate of synthesis of normal α or β chains",
+      "انخفاض سرعة تخليق سلاسل ألفا أو بيتا الطبيعية"
+     ],
+     [
+      "Low oxygen",
+      "قلّة الأوكسجين"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Haem synthesis occurs largely in the:",
+    "ar": "يحدث تخليق الهيم غالبًا في:",
+    "options": [
+     [
+      "Nucleus",
+      "النواة"
+     ],
+     [
+      "Ribosomes",
+      "الرايبوسومات"
+     ],
+     [
+      "Golgi",
+      "جهاز كولجي"
+     ],
+     [
+      "Mitochondria",
+      "المايتوكوندريا"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The coenzyme of ALA synthase in haem synthesis is:",
+    "ar": "المرافق الإنزيمي لإنزيم ALA synthase في تخليق الهيم:",
+    "options": [
+     [
+      "Vitamin B12",
+      "فيتامين B12"
+     ],
+     [
+      "Vitamin B6",
+      "فيتامين B6"
+     ],
+     [
+      "Folate",
+      "الفولات"
+     ],
+     [
+      "Vitamin C",
+      "فيتامين C"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Haem is formed when protoporphyrin combines with:",
+    "ar": "يتكوّن الهيم عندما يتّحد البروتوبورفيرين مع:",
+    "options": [
+     [
+      "Iron in the ferrous state",
+      "الحديد بالحالة الحديدوزية"
+     ],
+     [
+      "Iron in the ferric state",
+      "الحديد بالحالة الحديدية"
+     ],
+     [
+      "Copper",
+      "النحاس"
+     ],
+     [
+      "Zinc",
+      "الزنك"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The normal red cell count in males is:",
+    "ar": "عدد الكريات الحمر الطبيعي عند الذكور:",
+    "options": [
+     [
+      "3.9–5.6 ×10¹²/L",
+      "3.9–5.6"
+     ],
+     [
+      "2–3 ×10¹²/L",
+      "2–3"
+     ],
+     [
+      "4.5–6.5 ×10¹²/L",
+      "4.5–6.5"
+     ],
+     [
+      "8–10 ×10¹²/L",
+      "8–10"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The normal haematocrit in females is:",
+    "ar": "الهيماتوكريت الطبيعي عند الإناث:",
+    "options": [
+     [
+      "36–48%",
+      "36–48%"
+     ],
+     [
+      "40–52%",
+      "40–52%"
+     ],
+     [
+      "20–30%",
+      "20–30%"
+     ],
+     [
+      "55–65%",
+      "55–65%"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Hb A becomes the dominant haemoglobin after the age of:",
+    "ar": "يصبح Hb A الهيموغلوبين السائد بعد عمر:",
+    "options": [
+     [
+      "1 week",
+      "أسبوع"
+     ],
+     [
+      "1 month",
+      "شهر"
+     ],
+     [
+      "10 years",
+      "10 سنوات"
+     ],
+     [
+      "3–6 months",
+      "3–6 أشهر"
+     ]
+    ],
+    "answer": "d"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Each haemoglobin chain contains a haem molecule in its centre.",
+    "ar": "تحتوي كل سلسلة هيموغلوبين على جزيء هيم في مركزها.",
+    "answer": "T"
+   },
+   {
+    "en": "Hb A is a tetramer of four polypeptide chains.",
+    "ar": "Hb A رباعي من أربع سلاسل ببتيدية.",
+    "answer": "T"
+   },
+   {
+    "en": "Hb F contains beta chains.",
+    "ar": "يحتوي Hb F على سلاسل بيتا.",
+    "answer": "F"
+   },
+   {
+    "en": "All adult haemoglobins contain alpha chains.",
+    "ar": "جميع أنواع هيموغلوبين البالغين تحتوي سلاسل ألفا.",
+    "answer": "T"
+   },
+   {
+    "en": "Hb A2 is the main haemoglobin of adults.",
+    "ar": "Hb A2 هو الهيموغلوبين الرئيس للبالغين.",
+    "answer": "F"
+   },
+   {
+    "en": "Beta-chain synthesis starts 3–6 months after birth.",
+    "ar": "يبدأ تخليق سلسلة بيتا بعد 3–6 أشهر من الولادة.",
+    "answer": "T"
+   },
+   {
+    "en": "Haem synthesis occurs mainly in the cytoplasm.",
+    "ar": "يحدث تخليق الهيم أساسًا في السايتوبلازم.",
+    "answer": "F"
+   },
+   {
+    "en": "Vitamin B6 is a coenzyme for ALA synthase.",
+    "ar": "فيتامين B6 مرافق إنزيمي لـ ALA synthase.",
+    "answer": "T"
+   },
+   {
+    "en": "Haem contains iron in the ferric state.",
+    "ar": "يحتوي الهيم على الحديد بالحالة الحديدية (Fe³⁺).",
+    "answer": "F"
+   },
+   {
+    "en": "Reduced synthesis of normal globin chains can cause a haemoglobin abnormality.",
+    "ar": "قد يسبّب انخفاض تخليق سلاسل الكلوبين الطبيعية تشوّهًا في الهيموغلوبين.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Which chains in each haemoglobin?",
+    "ar": "أي السلاسل في كل هيموغلوبين؟",
+    "answer_en": "Hb A α2β2; Hb F α2γ2; Hb A2 α2δ2 — all share alpha chains.",
+    "answer_ar": "Hb A α2β2؛ Hb F α2γ2؛ Hb A2 α2δ2 — وكلها تشترك في سلاسل ألفا."
+   },
+   {
+    "en": "Hb F % vs Hb A2 % in adults",
+    "ar": "نسبة Hb F مقابل Hb A2 عند البالغين",
+    "answer_en": "Hb F 0.5–0.8% (smaller); Hb A2 1.5–3.2%; Hb A 96–98%.",
+    "answer_ar": "Hb F 0.5–0.8% (الأصغر)؛ Hb A2 1.5–3.2%؛ Hb A 96–98%."
+   },
+   {
+    "en": "Ferrous or ferric iron in haem?",
+    "ar": "حديد حديدوزي أم حديدي في الهيم؟",
+    "answer_en": "Ferrous (Fe²⁺) iron combines with protoporphyrin.",
+    "answer_ar": "الحديد الحديدوزي (Fe²⁺) هو الذي يتّحد مع البروتوبورفيرين."
+   },
+   {
+    "en": "Vitamin for haem synthesis",
+    "ar": "الفيتامين اللازم لتخليق الهيم",
+    "answer_en": "Vitamin B6 (coenzyme of ALA synthase) — not B12.",
+    "answer_ar": "فيتامين B6 (مرافق ALA synthase) — لا B12."
+   },
+   {
+    "en": "Two causes of haemoglobin abnormality",
+    "ar": "سببا تشوّه الهيموغلوبين",
+    "answer_en": "(1) Synthesis of an abnormal haemoglobin; (2) reduced rate of synthesis of normal α or β chains.",
+    "answer_ar": "(1) تخليق هيموغلوبين غير طبيعي؛ (2) انخفاض سرعة تخليق سلاسل ألفا أو بيتا الطبيعية."
+   }
+  ],
+  "important": [
+   {
+    "en": "Describe the structure of adult haemoglobin.",
+    "ar": "صف بنية هيموغلوبين البالغين.",
+    "answer_en": "Hb A (dominant after 3–6 months) has four polypeptide chains — 2 alpha and 2 beta — each with a haem molecule in its centre; each red cell holds about 640 million Hb molecules.",
+    "answer_ar": "يتكوّن Hb A (السائد بعد 3–6 أشهر) من أربع سلاسل — 2 ألفا و2 بيتا — في مركز كل منها جزيء هيم؛ وتحمل كل كرية نحو 640 مليون جزيء."
+   },
+   {
+    "en": "Compare the three normal adult haemoglobins.",
+    "ar": "قارن بين أنواع الهيموغلوبين الطبيعية الثلاثة عند البالغين.",
+    "answer_en": "Hb A: α2β2, 96–98%. Hb F: α2γ2, 0.5–0.8%. Hb A2: α2δ2, 1.5–3.2%. Chains differ in the number and sequence of amino acids.",
+    "answer_ar": "Hb A: α2β2، 96–98%. Hb F: α2γ2، 0.5–0.8%. Hb A2: α2δ2، 1.5–3.2%. وتختلف السلاسل في عدد الأحماض الأمينية وتسلسلها."
+   },
+   {
+    "en": "Describe haem synthesis.",
+    "ar": "صف تخليق الهيم.",
+    "answer_en": "Mostly in the mitochondria through reactions driven by ALA synthase with vitamin B6 as coenzyme; finally protoporphyrin combines with ferrous iron to form haem.",
+    "answer_ar": "يحدث غالبًا في المايتوكوندريا بتفاعلات يقودها ALA synthase مع فيتامين B6 مرافقًا؛ وفي النهاية يتّحد البروتوبورفيرين مع الحديد الحديدوزي ليكوّن الهيم."
+   },
+   {
+    "en": "When does the fetal-to-adult switch occur and why?",
+    "ar": "متى يحدث التحوّل من الجنيني إلى البالغ ولماذا؟",
+    "answer_en": "3–6 months after birth, when beta-chain synthesis starts.",
+    "answer_ar": "بعد 3–6 أشهر من الولادة، عندما يبدأ تخليق سلسلة بيتا."
+   },
+   {
+    "en": "Write the normal adult red cell values.",
+    "ar": "اكتب القيم الطبيعية لكريات البالغين الحمر.",
+    "answer_en": "Hb 13.5–17.5 (M) / 11.5–15.5 (F) g/dl; PCV 40–52 / 36–48%; RBC 4.5–6.5 / 3.9–5.6 ×10¹²/L; MCV 80–95 fl; MCH 27–34 pg; MCHC 20–35 g/dl (as in the lecture).",
+    "answer_ar": "Hb 13.5–17.5 (ذ) / 11.5–15.5 (إ) غ/دل؛ PCV 40–52 / 36–48%؛ RBC 4.5–6.5 / 3.9–5.6 ×10¹²/L؛ MCV 80–95؛ MCH 27–34؛ MCHC 20–35 (كما في المحاضرة)."
+   }
+  ]
+ }
+}

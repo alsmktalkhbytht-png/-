@@ -1,0 +1,917 @@
+{
+ "meta": {
+  "subject_en": "Hematology",
+  "subject_ar": "أمراض الدم",
+  "short_ar": "امراض الدم",
+  "unit_en": "Lecture 2",
+  "unit_ar": "المحاضرة 2",
+  "unit_label": "LEC",
+  "unit_no": "2",
+  "title_en": "Blood cell formation",
+  "title_ar": "تكوين خلايا الدم",
+  "kind": "Theory — نظري",
+  "stage": "The third stage — الثالثة",
+  "instructor": "د. مازن اللهيبي"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Haemopoiesis",
+   "ar": "تكوين الدم"
+  },
+  {
+   "t": "card",
+   "en": "**Haemopoiesis:** It is the **production and maintenance of blood cells** (i.e. Red cells, White cells and platelets) at the **normal physiological level**.",
+   "ar": "**تكوين الدم** (`Haemopoiesis`): هو **إنتاج خلايا الدم والمحافظة عليها** (أي الكريات الحمر والكريات البيض والصفيحات) عند **المستوى الفسيولوجي الطبيعي**."
+  },
+  {
+   "t": "section",
+   "en": "Site of haemopoiesis",
+   "ar": "مواقع تكوين الدم"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Age",
+    "Site",
+    "العمر — الموقع"
+   ],
+   "rows": [
+    [
+     "Fetus 0-2 months",
+     "yolk sac.",
+     "**الجنين 0–2 شهر**: كيس المح."
+    ],
+    [
+     "Fetus 2-7 months",
+     "liver, spleen.",
+     "**الجنين 2–7 أشهر**: الكبد والطحال."
+    ],
+    [
+     "Fetus 5-9 months",
+     "bone marrow (B.M).",
+     "**الجنين 5–9 أشهر**: نخاع العظم."
+    ],
+    [
+     "Infants",
+     "Bone marrow (B.M) practically all bones.",
+     "**الرضّع**: نخاع العظم في جميع العظام تقريبًا."
+    ],
+    [
+     "Adults",
+     "vertebrae, ribs, sternum, skull, sacrum, pelvic and proximal ends of femur.",
+     "**البالغون**: الفقرات، الأضلاع، عظم القص، الجمجمة، العجز، الحوض، والنهايات القريبة لعظم الفخذ."
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    "32mm",
+    "",
+    ""
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "The **bone marrow** represented approximately **3.5-6 %** of total body weight, average around **1500 gm.** in adults,",
+    "and consist of haemopoeitic cells, fat, osteoblast, osteoclast and stroma."
+   ],
+   "ar": [
+    "يمثّل **نخاع العظم** نحو **3.5–6%** من وزن الجسم الكلي، بمعدل **1500 غم** تقريبًا عند البالغين،",
+    "ويتكوّن من الخلايا المكوّنة للدم، والدهن، والخلايا البانية للعظم، والخلايا الكاسرة للعظم، والسدى (النسيج الداعم)."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Types of marrow:**",
+   "ar": "**أنواع النخاع:**",
+   "list_en": [
+    "**Yellow marrow**(inactive)composed of **fat tissues**",
+    "**RED marrow** (active) contain **all the three cell types**."
+   ],
+   "list_ar": [
+    "**النخاع الأصفر** (غير فعّال) يتكوّن من **أنسجة دهنية**",
+    "**النخاع الأحمر** (فعّال) يحتوي على **أنواع الخلايا الثلاثة كلها**."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Type's haemopoiesis",
+   "ar": "أنواع تكوين الدم"
+  },
+  {
+   "t": "rule",
+   "en": "**Medullary Haemopoiesis** (Intramedullary haemopoiesis): This is the formation of blood cells **from B.M.**",
+   "ar": "**تكوين الدم النخاعي** (داخل النخاع): هو تكوين خلايا الدم **من نخاع العظم**."
+  },
+  {
+   "t": "rule",
+   "en": "**Extra-medullary Haemopoiesis**: This is the formation of blood cells **outside the B.M** (e.g. liver, spleen).",
+   "ar": "**تكوين الدم خارج النخاع**: هو تكوين خلايا الدم **خارج نخاع العظم** (مثل الكبد والطحال)."
+  },
+  {
+   "t": "card",
+   "en": "This type of haemopoiesis (extra-medullary) occurs when either:",
+   "ar": "يحدث هذا النوع (خارج النخاع) في إحدى الحالتين:",
+   "alpha": true,
+   "list_en": [
+    "B.M **fails** to produce blood cells like in **myelofibrosis** or when B.M **infiltrated** by non-haemopoeitic elements like any **tumors**. Or",
+    "When there is **no B.M failure** but B.M **cannot produce enough** blood cells specially the red cells and this usually occur in **hemolytic anemia**."
+   ],
+   "list_ar": [
+    "**يفشل** نخاع العظم في إنتاج خلايا الدم كما في **تليّف النخاع**، أو عندما **يرتشح** النخاع بعناصر غير مكوّنة للدم مثل أي **أورام**. أو",
+    "عندما **لا يوجد فشل** في النخاع لكنه **لا يستطيع إنتاج ما يكفي** من خلايا الدم ولا سيما الحمر، ويحدث هذا عادةً في **فقر الدم الانحلالي**."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Origin of blood cells",
+   "ar": "منشأ خلايا الدم"
+  },
+  {
+   "t": "card",
+   "en": "All the blood cells arise from **\"Hematopoietic stem cells”** or **“Pluripotent stem cell”**.",
+   "ar": "تنشأ جميع خلايا الدم من **«الخلايا الجذعية المكوّنة للدم»** أو **«الخلية الجذعية متعدّدة القدرات»**."
+  },
+  {
+   "t": "card",
+   "en": "The common pluripotent stem cell give rise to a series of progenitor cells after a number a number of cell divisions and differentiations , these series of progenitor cells can gives rise after a number of cell divisions and differentiation steps to a series of progenitor cells for **three main marrow cell lines**:",
+   "ar": "تعطي الخلية الجذعية متعدّدة القدرات المشتركة سلسلة من الخلايا السلفية بعد عدد من الانقسامات والتمايزات، وتعطي هذه الخلايا السلفية بعد عدد من خطوات الانقسام والتمايز سلسلة من الخلايا السلفية لـ**ثلاثة خطوط خلوية نخاعية رئيسة**:",
+   "alpha": true,
+   "list_en": [
+    "Erythroid",
+    "Granulocytic and monocytic",
+    "Megakaryocytic as well as to a **common lymphoid stem cell**."
+   ],
+   "list_ar": [
+    "الخط الحمري",
+    "الخط المحبّب والوحيدي",
+    "الخط النوّائي (المكوّن للصفيحات)، إضافة إلى **خلية جذعية لمفاوية مشتركة**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "HSC is **rare** , perhaps **1 in every 20 million** nucleated cells in bone marrow .",
+    "The stem cells also has the capability of **self-renewal, proliferation and differentiation** so that the BM is the main site of new cell productions, its overall **cellularity remains constant** in a normal healthy steady state."
+   ],
+   "ar": [
+    "الخلايا الجذعية المكوّنة للدم (`HSC`) **نادرة**، ربما **واحدة في كل 20 مليون** خلية منوّاة في نخاع العظم.",
+    "ولها القدرة على **التجدّد الذاتي والتكاثر والتمايز**، بحيث يكون نخاع العظم الموقع الرئيس لإنتاج الخلايا الجديدة، و**تبقى خلويّته الكلية ثابتة** في الحالة الصحية الطبيعية المستقرة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "The **precursor cells** are however capable of responding to various stimuli and hormonal messages with increased productions of one or other cell line **according to the body need**.",
+    "These stimuli include **haematopoeitic growth factors, hormones and interleukins**."
+   ],
+   "ar": [
+    "غير أن **الخلايا الأولية** قادرة على الاستجابة لمحفّزات ورسائل هرمونية مختلفة بزيادة إنتاج خط خلوي أو آخر **بحسب حاجة الجسم**.",
+    "وتشمل هذه المحفّزات **عوامل النمو المكوّنة للدم، والهرمونات، والإنترلوكينات**."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Regulation of blood elements production",
+   "ar": "تنظيم إنتاج عناصر الدم"
+  },
+  {
+   "t": "card",
+   "en": [
+    "The production of these blood elements are under control of **haemopoietic growth factors** which include **IL1,IL3,IL5,IL6,TNF,SCF,G.CSF,Erythropietin and thrombopoietin**.",
+    "All these factors regulate the **proliferation and differentiation** of haemopoietic progenitor's cells and the **function of mature blood cells**."
+   ],
+   "ar": [
+    "يخضع إنتاج عناصر الدم هذه لسيطرة **عوامل النمو المكوّنة للدم**، ومنها `IL1` و`IL3` و`IL5` و`IL6` و`TNF` و`SCF` و`G-CSF` و**الإريثروبويتين والثرومبوبويتين**.",
+    "وتنظّم جميع هذه العوامل **تكاثر وتمايز** الخلايا السلفية المكوّنة للدم و**وظيفة خلايا الدم الناضجة**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "1. Erythrocyte production (Erythropoiesis)",
+   "ar": "1. إنتاج الكريات الحمر (تكوين الكريات الحمر)"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Pronormoblast",
+     "ar": "أرومة سوية أولية"
+    },
+    {
+     "en": "Normoblast (erythroblast)",
+     "ar": "أرومة سوية (أرومة حمراء)"
+    },
+    {
+     "en": "Early erythroblast (basophilic)",
+     "ar": "أرومة حمراء مبكرة (قاعدية)"
+    },
+    {
+     "en": "Intermediate erythroblast (polychromatic)",
+     "ar": "أرومة حمراء وسطية (متعدّدة الألوان)"
+    },
+    {
+     "en": "Late erythroblast (pyknotic)",
+     "ar": "أرومة حمراء متأخرة (متغلّظة النواة)"
+    },
+    {
+     "en": "Reticulocytes",
+     "ar": "الخلايا الشبكية"
+    },
+    {
+     "en": "Red cells",
+     "ar": "الكريات الحمر"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "The progressive differentiation and proliferation appear to be under the control of **erythropoietin** which is produce mainly in the **kidney (90%)** and possibly **10% in liver** and other organs",
+   "ar": "يبدو أن التمايز والتكاثر المتدرّجين تحت سيطرة **الإريثروبويتين** الذي يُنتج أساسًا في **الكلية (90%)** وربما **10% في الكبد** وأعضاء أخرى"
+  },
+  {
+   "t": "h2",
+   "en": "2. Granulocyte production (Granulopoiesis)",
+   "ar": "2. إنتاج الخلايا المحبّبة"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Myeloblast",
+     "ar": "أرومة نقوية"
+    },
+    {
+     "en": "Promyelocyte",
+     "ar": "خلية نقوية أولية"
+    },
+    {
+     "en": "Myelocytes",
+     "ar": "خلايا نقوية"
+    },
+    {
+     "en": "Metamyelocytes",
+     "ar": "خلايا نقوية بعدية"
+    },
+    {
+     "en": "Band form",
+     "ar": "الشكل الشريطي"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Band form →**",
+   "ar": "**الشكل الشريطي ←**",
+   "list_en": [
+    "Neutrophils",
+    "Eosinophils",
+    "Basophiles"
+   ],
+   "list_ar": [
+    "العدلات",
+    "الحمضات",
+    "القعدات"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "The production of these granulocytes are under control of haemopoietic growth factors which include **IL1, IL3, IL5, IL6, TNF, SCF, G.CSF**.",
+   "ar": "يخضع إنتاج هذه الخلايا المحبّبة لسيطرة عوامل النمو المكوّنة للدم، ومنها `IL1` و`IL3` و`IL5` و`IL6` و`TNF` و`SCF` و`G-CSF`."
+  },
+  {
+   "t": "h2",
+   "en": "3. Platelets production (Megakaryopoiesis)",
+   "ar": "3. إنتاج الصفيحات"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Megakaryoblast",
+     "ar": "أرومة نوّائية"
+    },
+    {
+     "en": "Megakaryocytes",
+     "ar": "الخلايا النوّائية (المكوّنة للصفيحات)"
+    },
+    {
+     "en": "Platelets",
+     "ar": "الصفيحات"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Platelets production is under control of humeral agents knows as **Thrombopoietin**, made largely in the **liver**.",
+    "The normal platelets lifespan is **7-10 days**."
+   ],
+   "list_ar": [
+    "يخضع إنتاج الصفيحات لسيطرة عوامل خِلطية تُعرف بـ**الثرومبوبويتين**، الذي يُصنع غالبًا في **الكبد**.",
+    "العمر الطبيعي للصفيحات **7–10 أيام**."
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Haemopoiesis and its sites",
+    "topic_ar": "تكوين الدم ومواقعه"
+   },
+   {
+    "en": "Haemopoiesis is the production and maintenance of:",
+    "ar": "تكوين الدم هو إنتاج والمحافظة على:",
+    "options": [
+     [
+      "Plasma proteins",
+      "بروتينات البلازما"
+     ],
+     [
+      "Blood cells",
+      "خلايا الدم"
+     ],
+     [
+      "Bone tissue",
+      "النسيج العظمي"
+     ],
+     [
+      "Lymph",
+      "اللمف"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In the fetus 0–2 months, haemopoiesis occurs in the:",
+    "ar": "في الجنين 0–2 شهر يحدث تكوين الدم في:",
+    "options": [
+     [
+      "Yolk sac",
+      "كيس المح"
+     ],
+     [
+      "Liver",
+      "الكبد"
+     ],
+     [
+      "Bone marrow",
+      "نخاع العظم"
+     ],
+     [
+      "Spleen",
+      "الطحال"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In the fetus 2–7 months, the main sites are:",
+    "ar": "في الجنين 2–7 أشهر تكون المواقع الرئيسة:",
+    "options": [
+     [
+      "Yolk sac",
+      "كيس المح"
+     ],
+     [
+      "Vertebrae",
+      "الفقرات"
+     ],
+     [
+      "Liver and spleen",
+      "الكبد والطحال"
+     ],
+     [
+      "Lymph nodes",
+      "العقد اللمفاوية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Bone marrow starts haemopoiesis in the fetus at:",
+    "ar": "يبدأ نخاع العظم تكوين الدم في الجنين عند:",
+    "options": [
+     [
+      "0–2 months",
+      "0–2 شهر"
+     ],
+     [
+      "1–3 months",
+      "1–3 أشهر"
+     ],
+     [
+      "2–4 months",
+      "2–4 أشهر"
+     ],
+     [
+      "5–9 months",
+      "5–9 أشهر"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In adults, haemopoiesis occurs in all of the following EXCEPT:",
+    "ar": "عند البالغين يحدث تكوين الدم في كل مما يأتي عدا:",
+    "options": [
+     [
+      "Vertebrae",
+      "الفقرات"
+     ],
+     [
+      "Sternum",
+      "عظم القص"
+     ],
+     [
+      "Distal ends of the tibia",
+      "النهايات البعيدة لعظم الظنبوب"
+     ],
+     [
+      "Pelvis",
+      "الحوض"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The bone marrow in adults weighs on average about:",
+    "ar": "يزن نخاع العظم عند البالغين بالمعدّل نحو:",
+    "options": [
+     [
+      "500 g",
+      "500 غم"
+     ],
+     [
+      "1500 g",
+      "1500 غم"
+     ],
+     [
+      "3000 g",
+      "3000 غم"
+     ],
+     [
+      "150 g",
+      "150 غم"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Bone marrow represents about what percentage of body weight?",
+    "ar": "يمثّل نخاع العظم نحو أي نسبة من وزن الجسم؟",
+    "options": [
+     [
+      "3.5–6%",
+      "3.5–6%"
+     ],
+     [
+      "10–15%",
+      "10–15%"
+     ],
+     [
+      "0.5–1%",
+      "0.5–1%"
+     ],
+     [
+      "20%",
+      "20%"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Yellow marrow is:",
+    "ar": "النخاع الأصفر:",
+    "options": [
+     [
+      "Active and contains all three cell lines",
+      "فعّال ويحتوي الخطوط الثلاثة"
+     ],
+     [
+      "Composed of lymphocytes",
+      "يتكوّن من اللمفاويات"
+     ],
+     [
+      "Found only in the fetus",
+      "يوجد في الجنين فقط"
+     ],
+     [
+      "Inactive and composed of fat tissue",
+      "غير فعّال ويتكوّن من نسيج دهني"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Extramedullary haemopoiesis means formation of blood cells:",
+    "ar": "تكوين الدم خارج النخاع يعني تكوين خلايا الدم:",
+    "options": [
+     [
+      "Outside the bone marrow (e.g. liver, spleen)",
+      "خارج النخاع (مثل الكبد والطحال)"
+     ],
+     [
+      "Inside the bone marrow",
+      "داخل النخاع"
+     ],
+     [
+      "In the kidney only",
+      "في الكلية فقط"
+     ],
+     [
+      "In lymph only",
+      "في اللمف فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Extramedullary haemopoiesis without bone marrow failure usually occurs in:",
+    "ar": "يحدث تكوين الدم خارج النخاع دون فشل النخاع عادةً في:",
+    "options": [
+     [
+      "Myelofibrosis",
+      "تليّف النخاع"
+     ],
+     [
+      "Tumour infiltration",
+      "ارتشاح الأورام"
+     ],
+     [
+      "Hemolytic anemia",
+      "فقر الدم الانحلالي"
+     ],
+     [
+      "Aplastic anaemia",
+      "فقر الدم اللاتنسّجي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Stem cells and regulation",
+    "topic_ar": "الخلايا الجذعية والتنظيم"
+   },
+   {
+    "en": "All blood cells arise from:",
+    "ar": "تنشأ جميع خلايا الدم من:",
+    "options": [
+     [
+      "Erythroblasts",
+      "الأرومات الحمر"
+     ],
+     [
+      "Pluripotent haematopoietic stem cells",
+      "الخلايا الجذعية المكوّنة للدم متعدّدة القدرات"
+     ],
+     [
+      "Megakaryocytes",
+      "الخلايا النوّائية"
+     ],
+     [
+      "Lymphocytes",
+      "اللمفاويات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The frequency of HSC in bone marrow is perhaps:",
+    "ar": "نسبة الخلايا الجذعية المكوّنة للدم في النخاع ربما:",
+    "options": [
+     [
+      "1 in 100 cells",
+      "1 في 100 خلية"
+     ],
+     [
+      "1 in 1000 cells",
+      "1 في 1000 خلية"
+     ],
+     [
+      "1 in 1 million",
+      "1 في مليون"
+     ],
+     [
+      "1 in 20 million nucleated cells",
+      "1 في 20 مليون خلية منوّاة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Stem cells are capable of all EXCEPT:",
+    "ar": "الخلايا الجذعية قادرة على كل مما يأتي عدا:",
+    "options": [
+     [
+      "Self-renewal",
+      "التجدّد الذاتي"
+     ],
+     [
+      "Proliferation",
+      "التكاثر"
+     ],
+     [
+      "Differentiation",
+      "التمايز"
+     ],
+     [
+      "Producing haemoglobin themselves",
+      "إنتاج الهيموغلوبين بنفسها"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Erythropoietin is produced mainly in the:",
+    "ar": "يُنتج الإريثروبويتين أساسًا في:",
+    "options": [
+     [
+      "Liver",
+      "الكبد"
+     ],
+     [
+      "Spleen",
+      "الطحال"
+     ],
+     [
+      "Kidney (90%)",
+      "الكلية (90%)"
+     ],
+     [
+      "Bone marrow",
+      "نخاع العظم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Thrombopoietin is made largely in the:",
+    "ar": "يُصنع الثرومبوبويتين غالبًا في:",
+    "options": [
+     [
+      "Liver",
+      "الكبد"
+     ],
+     [
+      "Kidney",
+      "الكلية"
+     ],
+     [
+      "Spleen",
+      "الطحال"
+     ],
+     [
+      "Lungs",
+      "الرئتين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The normal platelet lifespan is:",
+    "ar": "العمر الطبيعي للصفيحات:",
+    "options": [
+     [
+      "1–2 days",
+      "1–2 يوم"
+     ],
+     [
+      "7–10 days",
+      "7–10 أيام"
+     ],
+     [
+      "30 days",
+      "30 يومًا"
+     ],
+     [
+      "120 days",
+      "120 يومًا"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The cell that directly precedes red cells in erythropoiesis is the:",
+    "ar": "الخلية التي تسبق الكرية الحمراء مباشرة في تكوين الكريات الحمر هي:",
+    "options": [
+     [
+      "Pronormoblast",
+      "الأرومة السوية الأولية"
+     ],
+     [
+      "Late erythroblast",
+      "الأرومة الحمراء المتأخرة"
+     ],
+     [
+      "Reticulocyte",
+      "الخلية الشبكية"
+     ],
+     [
+      "Myeloblast",
+      "الأرومة النقوية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The first cell of granulopoiesis is the:",
+    "ar": "الخلية الأولى في تكوين المحبّبات هي:",
+    "options": [
+     [
+      "Myeloblast",
+      "الأرومة النقوية"
+     ],
+     [
+      "Promyelocyte",
+      "الخلية النقوية الأولية"
+     ],
+     [
+      "Metamyelocyte",
+      "الخلية النقوية البعدية"
+     ],
+     [
+      "Band form",
+      "الشكل الشريطي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Platelets are produced from:",
+    "ar": "تُنتج الصفيحات من:",
+    "options": [
+     [
+      "Myelocytes",
+      "الخلايا النقوية"
+     ],
+     [
+      "Reticulocytes",
+      "الخلايا الشبكية"
+     ],
+     [
+      "Monocytes",
+      "الوحيدات"
+     ],
+     [
+      "Megakaryocytes",
+      "الخلايا النوّائية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The intermediate erythroblast is described as:",
+    "ar": "توصف الأرومة الحمراء الوسطية بأنها:",
+    "options": [
+     [
+      "Basophilic",
+      "قاعدية"
+     ],
+     [
+      "Polychromatic",
+      "متعدّدة الألوان"
+     ],
+     [
+      "Pyknotic",
+      "متغلّظة النواة"
+     ],
+     [
+      "Granular",
+      "محبّبة"
+     ]
+    ],
+    "answer": "b"
+   }
+  ],
+  "tf": [
+   {
+    "en": "The spleen is a site of haemopoiesis in the fetus 2–7 months.",
+    "ar": "الطحال موقع لتكوين الدم في الجنين 2–7 أشهر.",
+    "answer": "T"
+   },
+   {
+    "en": "In infants, haemopoiesis occurs in practically all bones.",
+    "ar": "عند الرضّع يحدث تكوين الدم في جميع العظام تقريبًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Yellow marrow contains all three cell types.",
+    "ar": "النخاع الأصفر يحتوي أنواع الخلايا الثلاثة.",
+    "answer": "F"
+   },
+   {
+    "en": "Myelofibrosis can lead to extramedullary haemopoiesis.",
+    "ar": "قد يؤدي تليّف النخاع إلى تكوين الدم خارج النخاع.",
+    "answer": "T"
+   },
+   {
+    "en": "Haematopoietic stem cells are very common in the marrow.",
+    "ar": "الخلايا الجذعية المكوّنة للدم شائعة جدًا في النخاع.",
+    "answer": "F"
+   },
+   {
+    "en": "Bone marrow cellularity remains constant in a healthy steady state.",
+    "ar": "تبقى خلويّة النخاع ثابتة في الحالة الصحية المستقرة.",
+    "answer": "T"
+   },
+   {
+    "en": "Erythropoietin is produced mainly in the liver.",
+    "ar": "يُنتج الإريثروبويتين أساسًا في الكبد.",
+    "answer": "F"
+   },
+   {
+    "en": "Granulopoiesis is controlled by growth factors such as G-CSF and IL3.",
+    "ar": "يخضع تكوين المحبّبات لعوامل نمو مثل G-CSF وIL3.",
+    "answer": "T"
+   },
+   {
+    "en": "The band form gives rise to neutrophils, eosinophils and basophils.",
+    "ar": "يعطي الشكل الشريطي العدلات والحمضات والقعدات.",
+    "answer": "T"
+   },
+   {
+    "en": "Platelets live about 120 days.",
+    "ar": "تعيش الصفيحات نحو 120 يومًا.",
+    "answer": "F"
+   },
+   {
+    "en": "A common lymphoid stem cell arises from the pluripotent stem cell.",
+    "ar": "تنشأ خلية جذعية لمفاوية مشتركة من الخلية الجذعية متعدّدة القدرات.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Fetal sites — order and months",
+    "ar": "مواقع الجنين — الترتيب والأشهر",
+    "answer_en": "Yolk sac 0–2 m → liver and spleen 2–7 m → bone marrow 5–9 m (overlapping).",
+    "answer_ar": "كيس المح 0–2 شهر ← الكبد والطحال 2–7 ← نخاع العظم 5–9 (مع تداخل)."
+   },
+   {
+    "en": "Yellow vs red marrow",
+    "ar": "النخاع الأصفر مقابل الأحمر",
+    "answer_en": "Yellow: inactive, fat. Red: active, contains all three cell types.",
+    "answer_ar": "الأصفر: غير فعّال، دهني. الأحمر: فعّال، يحتوي الأنواع الثلاثة."
+   },
+   {
+    "en": "Two causes of extramedullary haemopoiesis",
+    "ar": "سببا تكوين الدم خارج النخاع",
+    "answer_en": "(A) Marrow failure or infiltration (myelofibrosis, tumours); (B) no failure but not enough production — haemolytic anaemia.",
+    "answer_ar": "(أ) فشل النخاع أو ارتشاحه (تليّف، أورام)؛ (ب) لا فشل لكن إنتاج غير كافٍ — فقر الدم الانحلالي."
+   },
+   {
+    "en": "Erythropoietin vs thrombopoietin — where made?",
+    "ar": "الإريثروبويتين مقابل الثرومبوبويتين — أين يُصنعان؟",
+    "answer_en": "Erythropoietin: kidney 90% (liver ~10%). Thrombopoietin: mainly liver.",
+    "answer_ar": "الإريثروبويتين: الكلية 90% (الكبد نحو 10%). الثرومبوبويتين: الكبد أساسًا."
+   },
+   {
+    "en": "Erythroblast stages",
+    "ar": "مراحل الأرومة الحمراء",
+    "answer_en": "Early = basophilic; intermediate = polychromatic; late = pyknotic.",
+    "answer_ar": "المبكرة = قاعدية؛ الوسطية = متعدّدة الألوان؛ المتأخرة = متغلّظة النواة."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define haemopoiesis and list its sites by age.",
+    "ar": "عرّف تكوين الدم وعدّد مواقعه بحسب العمر.",
+    "answer_en": "Production and maintenance of red cells, white cells and platelets at the normal level. Fetus: yolk sac 0–2 m, liver and spleen 2–7 m, bone marrow 5–9 m; infants: marrow of practically all bones; adults: vertebrae, ribs, sternum, skull, sacrum, pelvis, proximal femur.",
+    "answer_ar": "إنتاج الكريات الحمر والبيض والصفيحات والمحافظة عليها بالمستوى الطبيعي. الجنين: كيس المح 0–2، الكبد والطحال 2–7، النخاع 5–9؛ الرضّع: نخاع جميع العظام تقريبًا؛ البالغون: الفقرات، الأضلاع، القص، الجمجمة، العجز، الحوض، نهاية الفخذ القريبة."
+   },
+   {
+    "en": "What is extramedullary haemopoiesis and when does it occur?",
+    "ar": "ما تكوين الدم خارج النخاع ومتى يحدث؟",
+    "answer_en": "Blood cell formation outside the marrow (liver, spleen); occurs when the marrow fails (myelofibrosis) or is infiltrated (tumours), or when it cannot produce enough red cells as in haemolytic anaemia.",
+    "answer_ar": "تكوين خلايا الدم خارج النخاع (الكبد، الطحال)؛ يحدث عند فشل النخاع (التليّف) أو ارتشاحه (الأورام)، أو عندما لا يكفي إنتاجه للكريات الحمر كما في فقر الدم الانحلالي."
+   },
+   {
+    "en": "Describe the origin of blood cells from stem cells.",
+    "ar": "صف منشأ خلايا الدم من الخلايا الجذعية.",
+    "answer_en": "The pluripotent stem cell gives progenitors for erythroid, granulocytic/monocytic and megakaryocytic lines and a common lymphoid stem cell. HSCs are rare (1 in 20 million), capable of self-renewal, proliferation and differentiation; precursors respond to growth factors, hormones and interleukins.",
+    "answer_ar": "تعطي الخلية الجذعية متعدّدة القدرات خلايا سلفية للخطوط الحمري، والمحبّب/الوحيدي، والنوّائي، وخلية جذعية لمفاوية مشتركة. الخلايا الجذعية نادرة (1 في 20 مليون) وقادرة على التجدّد والتكاثر والتمايز؛ وتستجيب الأوليات لعوامل النمو والهرمونات والإنترلوكينات."
+   },
+   {
+    "en": "Write the stages of erythropoiesis and its regulation.",
+    "ar": "اكتب مراحل تكوين الكريات الحمر وتنظيمه.",
+    "answer_en": "Pronormoblast → normoblast: early (basophilic), intermediate (polychromatic), late (pyknotic) → reticulocyte → red cell; controlled by erythropoietin (kidney 90%, liver ~10%).",
+    "answer_ar": "أرومة سوية أولية ← أرومة سوية: مبكرة (قاعدية)، وسطية (متعدّدة الألوان)، متأخرة (متغلّظة) ← خلية شبكية ← كرية حمراء؛ ويتحكّم بها الإريثروبويتين (الكلية 90%، الكبد نحو 10%)."
+   },
+   {
+    "en": "Write the stages of granulopoiesis and megakaryopoiesis.",
+    "ar": "اكتب مراحل تكوين المحبّبات والصفيحات.",
+    "answer_en": "Myeloblast → promyelocyte → myelocyte → metamyelocyte → band → neutrophil/eosinophil/basophil (IL1, IL3, IL5, IL6, TNF, SCF, G-CSF). Megakaryoblast → megakaryocyte → platelets (thrombopoietin, liver; lifespan 7–10 days).",
+    "answer_ar": "أرومة نقوية ← نقوية أولية ← نقوية ← نقوية بعدية ← شريطية ← عدلة/حمضة/قعدة (IL1، IL3، IL5، IL6، TNF، SCF، G-CSF). أرومة نوّائية ← خلية نوّائية ← صفيحات (الثرومبوبويتين، الكبد؛ عمرها 7–10 أيام)."
+   }
+  ]
+ }
+}

@@ -1,0 +1,965 @@
+{
+ "meta": {
+  "subject_en": "Hematology",
+  "subject_ar": "أمراض الدم",
+  "short_ar": "امراض الدم",
+  "unit_en": "Lecture 6",
+  "unit_ar": "المحاضرة 6",
+  "unit_label": "LEC",
+  "unit_no": "6",
+  "title_en": "Iron Deficiency anemia (IDA)",
+  "title_ar": "فقر الدم بنقص الحديد",
+  "kind": "Theory — نظري",
+  "stage": "The third stage — الثالثة",
+  "instructor": "د. مازن اللهيبي"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Microcytic hypochromic anaemia",
+   "ar": "فقر الدم صغير الكريات ناقص الصباغ"
+  },
+  {
+   "t": "card",
+   "en": "It results from **defect in hemoglobin synthesis**.",
+   "ar": "ينتج عن **خلل في تخليق الهيموغلوبين**."
+  },
+  {
+   "t": "table",
+   "head": [
+    "Component",
+    "Defect leads to",
+    "المكوّن — الخلل يؤدي إلى"
+   ],
+   "rows": [
+    [
+     "Iron",
+     "Iron deficiency Anaemia, chronic Inflammation or Malignancy.",
+     "**الحديد**: فقر الدم بنقص الحديد، الالتهاب المزمن أو الخباثة."
+    ],
+    [
+     "Protoporphyrin",
+     "(defect in protoporphyrin synthesis)",
+     "**البروتوبورفيرين**: (خلل في تخليق البروتوبورفيرين)"
+    ],
+    [
+     "Iron + Protoporphyrin → Haem",
+     "",
+     "**الحديد + البروتوبورفيرين ← الهيم**"
+    ],
+    [
+     "Goblin (globin)",
+     "Thalassemias (alpha or Beta)",
+     "**الكلوبين**: الثلاسيميا (ألفا أو بيتا)"
+    ],
+    [
+     "Haem + Goblin → Hemoglobin",
+     "",
+     "**الهيم + الكلوبين ← الهيموغلوبين**"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ]
+  },
+  {
+   "t": "card",
+   "en": "So the defect could be either in **iron** or in **goblin chain synthesis** or in **Protoporphyrin Synthesis**, all these defects lead to **microcytic hypochromic anaemia**.",
+   "ar": "لذلك قد يكون الخلل في **الحديد** أو في **تخليق سلاسل الكلوبين** أو في **تخليق البروتوبورفيرين**، وكل هذه الأخطاء تؤدي إلى **فقر دم صغير الكريات ناقص الصباغ**."
+  },
+  {
+   "t": "section",
+   "en": "Iron deficiency anemia (IDA)",
+   "ar": "فقر الدم بنقص الحديد"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**The commonest anaemia.**",
+    "It results from failure of production of adequate number of red blood cells due to **lack of iron** which is essential for hemoglobin synthesis.",
+    "In normal adult, about **2/3 of body iron** is in form of **circulating hemoglobin**.",
+    "**Total body iron is about 3-5 gm.**",
+    "The remaining **1/3** of iron is present in form of certain enzyme like **Cytochromes, Catalase ,Peroxides** and some are present in the body stored in **reticuloendothelial system** especially macrophage of bone marrow and liver.",
+    "The form of iron present in store is **ferritin and haemosidrin**. The **haemosidrin is the stainable iron** in the tissues.",
+    "Normal **daily intake** of iron is **10 mg** in average diet from which only **5-10%** is absorbed.",
+    "Normal **daily loss** of iron is **1 mg**, the loss usually occurs through GIT mucosa, urinary system, sweating, nail and hair."
+   ],
+   "list_ar": [
+    "**أكثر أنواع فقر الدم شيوعًا.**",
+    "ينتج عن الفشل في إنتاج عدد كافٍ من الكريات الحمر بسبب **نقص الحديد** الضروري لتخليق الهيموغلوبين.",
+    "عند البالغ الطبيعي يكون نحو **ثلثي حديد الجسم** بشكل **هيموغلوبين دائر**.",
+    "**الحديد الكلي في الجسم نحو 3–5 غم.**",
+    "ويوجد **الثلث** المتبقي بشكل إنزيمات مثل **السايتوكرومات والكاتاليز والبيروكسيديز**، وبعضه مخزون في **الجهاز الشبكي البطاني** ولا سيما بلاعم نخاع العظم والكبد.",
+    "وشكل الحديد المخزون هو **الفيريتين والهيموسيدرين**. و**الهيموسيدرين هو الحديد القابل للتصبيغ** في الأنسجة.",
+    "**المدخول اليومي** الطبيعي من الحديد **10 ملغم** في الغذاء المعتاد، يُمتص منه **5–10%** فقط.",
+    "**الفقدان اليومي** الطبيعي **1 ملغم**، ويحدث عادةً عبر مخاطية القناة الهضمية، والجهاز البولي، والتعرّق، والأظافر، والشعر."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Iron Absorption and metabolism",
+   "ar": "امتصاص الحديد واستقلابه"
+  },
+  {
+   "t": "card",
+   "en": "**Absorption of iron:**",
+   "ar": "**امتصاص الحديد:**",
+   "list_en": [
+    "Normal western diet contains **10-15 mg** of iron from which only **5-10 %** is normally absorbed.",
+    "The proportion can be increased to **20-30 %** in **iron deficiency or pregnancy**.",
+    "Iron absorption occurs through the **duodenum** and less through jejunum."
+   ],
+   "list_ar": [
+    "يحتوي الغذاء الغربي الطبيعي على **10–15 ملغم** حديد يُمتص منه عادةً **5–10%** فقط.",
+    "ويمكن أن ترتفع النسبة إلى **20–30%** في **نقص الحديد أو الحمل**.",
+    "ويحدث امتصاص الحديد في **الاثني عشري** وبدرجة أقل في الصائم."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    "Factors favoring absorption",
+    "Factors reducing absorption",
+    "الترجمة (يزيد ← يقلّل)"
+   ],
+   "rows": [
+    [
+     "1. Ferrous form (Fe +2)",
+     "1. Ferric form (Fe+3)",
+     "الحديدوز `Fe²⁺` ← الحديديك `Fe³⁺`"
+    ],
+    [
+     "2. Inorganic iron.",
+     "2. Organic irons.",
+     "الحديد غير العضوي ← الحديد العضوي"
+    ],
+    [
+     "3. Acids, vitamin C.",
+     "3. Antacids, alkali.",
+     "الحوامض وفيتامين `C` ← مضادات الحموضة والقلويات"
+    ],
+    [
+     "4. Iron deficiency.",
+     "4. Iron excess.",
+     "نقص الحديد ← زيادة الحديد"
+    ],
+    [
+     "5. Pregnancy.",
+     "5. Infection.",
+     "الحمل ← العدوى"
+    ],
+    [
+     "6. Primary haemchromatosis.",
+     "6. Tea.",
+     "داء ترسّب الأصبغة الدموية الأولي ← الشاي"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Causes of iron deficiency anaemia",
+   "ar": "أسباب فقر الدم بنقص الحديد"
+  },
+  {
+   "t": "rule",
+   "en": "**Chronic blood loss** (GIT, uterine, urinary, etc).",
+   "ar": "**الفقدان المزمن للدم** (القناة الهضمية، الرحم، الجهاز البولي، إلخ)."
+  },
+  {
+   "t": "rule",
+   "en": "**Increase physiological demand** (growth period, pregnancy, lactation, menstruation).",
+   "ar": "**زيادة الحاجة الفسيولوجية** (فترة النمو، الحمل، الإرضاع، الحيض)."
+  },
+  {
+   "t": "rule",
+   "en": "**Impaired absorption** of iron e.g. lesion in GIT like gastrectomy.",
+   "ar": "**ضعف امتصاص** الحديد مثل آفة في القناة الهضمية كاستئصال المعدة."
+  },
+  {
+   "t": "rule",
+   "en": "**Inadequate intake** of iron (poor diet).",
+   "ar": "**عدم كفاية المدخول** من الحديد (غذاء فقير)."
+  },
+  {
+   "t": "section",
+   "en": "Clinical features",
+   "ar": "المظاهر السريرية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Signs and symptoms of anaemia.",
+    "Painless **glossities**, **angular stomatitis**, brittle and ridged or **spoon nails (koilonychias)**,",
+    "**Dysphagia** due to **pharyngeal webs** (**Paterson-Kelly or Plummer-Vinson syndrome**) And unusual dietary cravings (**pica**)."
+   ],
+   "list_ar": [
+    "علامات فقر الدم وأعراضه.",
+    "**التهاب اللسان** غير المؤلم، و**التهاب زاوية الفم**، والأظافر الهشّة المحزّزة أو **الملعقية (تقعّر الأظافر)**،",
+    "**عسر البلع** بسبب **الأغشية البلعومية** (**متلازمة باترسون–كيلي أو بلامر–فينسون**)، والرغبات الغذائية غير المعتادة (**القَطَا** `pica`)."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Laboratory findings",
+   "ar": "النتائج المختبرية"
+  },
+  {
+   "t": "card",
+   "en": "**1. Red cell indices and blood film:**",
+   "ar": "**1. مؤشّرات الكريات والمسحة الدموية:**",
+   "list_en": [
+    "**Decrease** Hb, PCV, RBCs, MCV, MCH, MCHC.",
+    "Blood film will show: **Hypochromic microcytic** anaemia.",
+    "**Anisocytosis** (i.e. differences in size of cells)",
+    "**Poikilocytosis** (i.e. differences in shape of cells)",
+    "**Target cells and pencil shaped cells.**",
+    "WBC is variable.",
+    "**Platelets usually increase.**"
+   ],
+   "list_ar": [
+    "**انخفاض** `Hb` و`PCV` و`RBC` و`MCV` و`MCH` و`MCHC`.",
+    "تُظهر المسحة: فقر دم **ناقص الصباغ صغير الكريات**.",
+    "**تفاوت حجم الكريات** (أي اختلاف أحجام الخلايا)",
+    "**تشوّه شكل الكريات** (أي اختلاف أشكال الخلايا)",
+    "**الخلايا الهدفية والخلايا قلمية الشكل.**",
+    "الكريات البيض متغيّرة.",
+    "**الصفيحات تزداد عادةً.**"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**2. Bone marrow aspirates and iron storage:**",
+   "ar": "**2. رشافة نخاع العظم ومخزون الحديد:**",
+   "list_en": [
+    "**Erythrocytic hyperplasia** with **micronormoblastic** maturation.",
+    "**Depleted iron store** usually there is **complete absences of iron** from stores."
+   ],
+   "list_ar": [
+    "**فرط تنسّج الخط الحمري** مع نضج **بأرومات سوية صغيرة**.",
+    "**نفاد مخزون الحديد**، وعادةً **يغيب الحديد كليًا** من المخازن."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": "**Serum iron and total iron binding capacity:** Usually there is **decrease serum iron** and **increase total iron binding capacity**.",
+   "ar": "**حديد المصل والسعة الكلية لربط الحديد:** عادةً **ينخفض حديد المصل** و**ترتفع السعة الكلية لربط الحديد**."
+  },
+  {
+   "t": "rule",
+   "en": "**Serum ferritin is decrease.**",
+   "ar": "**ينخفض فيريتين المصل.**"
+  },
+  {
+   "t": "rule",
+   "en": "**Serum transferrine receptors:** The level of these receptors is **increased in iron deficiency anaemia** but **not in anaemia of chronic diseases or thalassemia trait**.",
+   "ar": "**مستقبلات الترانسفيرين في المصل:** يرتفع مستواها **في فقر الدم بنقص الحديد** لكن **ليس في فقر دم الأمراض المزمنة ولا في سمة الثلاسيميا**."
+  },
+  {
+   "t": "table",
+   "head": [
+    "Test",
+    "In IDA",
+    "الفحص — في نقص الحديد"
+   ],
+   "rows": [
+    [
+     "Serum iron",
+     "↓",
+     "حديد المصل ↓"
+    ],
+    [
+     "TIBC",
+     "↑",
+     "السعة الكلية لربط الحديد ↑"
+    ],
+    [
+     "Serum ferritin",
+     "↓",
+     "الفيريتين ↓"
+    ],
+    [
+     "Serum transferrin receptors",
+     "↑",
+     "مستقبلات الترانسفيرين ↑"
+    ],
+    [
+     "Marrow iron stores",
+     "Absent",
+     "مخزون حديد النخاع: غائب"
+    ],
+    [
+     "Platelets",
+     "Usually ↑",
+     "الصفيحات: ترتفع عادةً"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ],
+   "style": "summary",
+   "label_en": "IDA at a glance",
+   "label_ar": "نقص الحديد باختصار"
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Iron and its body stores",
+    "topic_ar": "الحديد ومخازنه في الجسم"
+   },
+   {
+    "en": "The commonest anaemia is:",
+    "ar": "أكثر أنواع فقر الدم شيوعًا:",
+    "options": [
+     [
+      "Thalassaemia",
+      "الثلاسيميا"
+     ],
+     [
+      "Iron deficiency anaemia",
+      "فقر الدم بنقص الحديد"
+     ],
+     [
+      "Aplastic anaemia",
+      "اللاتنسّجي"
+     ],
+     [
+      "Sideroblastic anaemia",
+      "الحديدي الأرومات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Total body iron is about:",
+    "ar": "الحديد الكلي في الجسم نحو:",
+    "options": [
+     [
+      "3–5 g",
+      "3–5 غم"
+     ],
+     [
+      "10–15 g",
+      "10–15 غم"
+     ],
+     [
+      "300–500 mg",
+      "300–500 ملغم"
+     ],
+     [
+      "1 g",
+      "1 غم"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "About two-thirds of body iron is in the form of:",
+    "ar": "نحو ثلثي حديد الجسم بشكل:",
+    "options": [
+     [
+      "Ferritin",
+      "الفيريتين"
+     ],
+     [
+      "Cytochromes",
+      "السايتوكرومات"
+     ],
+     [
+      "Circulating haemoglobin",
+      "الهيموغلوبين الدائر"
+     ],
+     [
+      "Myoglobin",
+      "المايوغلوبين"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The stainable iron in the tissues is:",
+    "ar": "الحديد القابل للتصبيغ في الأنسجة هو:",
+    "options": [
+     [
+      "Ferritin",
+      "الفيريتين"
+     ],
+     [
+      "Transferrin",
+      "الترانسفيرين"
+     ],
+     [
+      "Haem",
+      "الهيم"
+     ],
+     [
+      "Haemosiderin",
+      "الهيموسيدرين"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The normal daily loss of iron is:",
+    "ar": "الفقدان اليومي الطبيعي من الحديد:",
+    "options": [
+     [
+      "1 mg",
+      "1 ملغم"
+     ],
+     [
+      "10 mg",
+      "10 ملغم"
+     ],
+     [
+      "5 mg",
+      "5 ملغم"
+     ],
+     [
+      "0.1 mg",
+      "0.1 ملغم"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Of the dietary iron, normally only this proportion is absorbed:",
+    "ar": "يُمتص عادةً من حديد الغذاء نسبة:",
+    "options": [
+     [
+      "50%",
+      "50%"
+     ],
+     [
+      "5–10%",
+      "5–10%"
+     ],
+     [
+      "80%",
+      "80%"
+     ],
+     [
+      "1%",
+      "1%"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In iron deficiency or pregnancy, absorption can increase to:",
+    "ar": "في نقص الحديد أو الحمل يمكن أن يرتفع الامتصاص إلى:",
+    "options": [
+     [
+      "5–10%",
+      "5–10%"
+     ],
+     [
+      "50–60%",
+      "50–60%"
+     ],
+     [
+      "20–30%",
+      "20–30%"
+     ],
+     [
+      "90%",
+      "90%"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Iron is mainly absorbed in the:",
+    "ar": "يُمتص الحديد أساسًا في:",
+    "options": [
+     [
+      "Stomach",
+      "المعدة"
+     ],
+     [
+      "Ileum",
+      "اللفائفي"
+     ],
+     [
+      "Colon",
+      "القولون"
+     ],
+     [
+      "Duodenum",
+      "الاثني عشري"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Absorption factors and causes",
+    "topic_ar": "عوامل الامتصاص والأسباب"
+   },
+   {
+    "en": "Which factor favours iron absorption?",
+    "ar": "أي عامل يزيد امتصاص الحديد؟",
+    "options": [
+     [
+      "Ferric form",
+      "الحديديك"
+     ],
+     [
+      "Tea",
+      "الشاي"
+     ],
+     [
+      "Vitamin C",
+      "فيتامين C"
+     ],
+     [
+      "Antacids",
+      "مضادات الحموضة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which factor reduces iron absorption?",
+    "ar": "أي عامل يقلّل امتصاص الحديد؟",
+    "options": [
+     [
+      "Tea",
+      "الشاي"
+     ],
+     [
+      "Pregnancy",
+      "الحمل"
+     ],
+     [
+      "Ferrous form",
+      "الحديدوز"
+     ],
+     [
+      "Iron deficiency",
+      "نقص الحديد"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The best absorbed form of iron is:",
+    "ar": "أفضل أشكال الحديد امتصاصًا:",
+    "options": [
+     [
+      "Ferric (Fe³⁺)",
+      "الحديديك (Fe³⁺)"
+     ],
+     [
+      "Ferrous (Fe²⁺)",
+      "الحديدوز (Fe²⁺)"
+     ],
+     [
+      "Organic iron",
+      "الحديد العضوي"
+     ],
+     [
+      "Haemosiderin",
+      "الهيموسيدرين"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The most common cause of IDA in the list is:",
+    "ar": "أول أسباب فقر الدم بنقص الحديد في القائمة:",
+    "options": [
+     [
+      "Chronic blood loss",
+      "الفقدان المزمن للدم"
+     ],
+     [
+      "Excess intake",
+      "زيادة المدخول"
+     ],
+     [
+      "Infection",
+      "العدوى"
+     ],
+     [
+      "Haemolysis",
+      "الانحلال"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Gastrectomy causes iron deficiency by:",
+    "ar": "يسبّب استئصال المعدة نقص الحديد بسبب:",
+    "options": [
+     [
+      "Increased demand",
+      "زيادة الحاجة"
+     ],
+     [
+      "Blood loss",
+      "فقدان الدم"
+     ],
+     [
+      "Impaired absorption",
+      "ضعف الامتصاص"
+     ],
+     [
+      "Poor diet",
+      "سوء الغذاء"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Clinical and laboratory findings",
+    "topic_ar": "النتائج السريرية والمختبرية"
+   },
+   {
+    "en": "Dysphagia due to pharyngeal webs in IDA is called:",
+    "ar": "عسر البلع بسبب الأغشية البلعومية في نقص الحديد يُسمّى:",
+    "options": [
+     [
+      "Zollinger–Ellison",
+      "زولنجر–إليسون"
+     ],
+     [
+      "Cushing syndrome",
+      "متلازمة كوشينغ"
+     ],
+     [
+      "Pica",
+      "القَطَا"
+     ],
+     [
+      "Plummer–Vinson (Paterson–Kelly) syndrome",
+      "متلازمة بلامر–فينسون (باترسون–كيلي)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Unusual dietary cravings in IDA are called:",
+    "ar": "الرغبات الغذائية غير المعتادة في نقص الحديد تُسمّى:",
+    "options": [
+     [
+      "Pica",
+      "القَطَا (pica)"
+     ],
+     [
+      "Glossitis",
+      "التهاب اللسان"
+     ],
+     [
+      "Koilonychia",
+      "تقعّر الأظافر"
+     ],
+     [
+      "Stomatitis",
+      "التهاب الفم"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Differences in the shape of red cells are called:",
+    "ar": "اختلاف أشكال الكريات الحمر يُسمّى:",
+    "options": [
+     [
+      "Anisocytosis",
+      "تفاوت الحجم"
+     ],
+     [
+      "Poikilocytosis",
+      "تشوّه الشكل"
+     ],
+     [
+      "Polychromasia",
+      "تعدّد الصباغ"
+     ],
+     [
+      "Spherocytosis",
+      "كثرة الكريات الكروية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In IDA, platelets are usually:",
+    "ar": "في نقص الحديد تكون الصفيحات عادةً:",
+    "options": [
+     [
+      "Decreased",
+      "منخفضة"
+     ],
+     [
+      "Absent",
+      "غائبة"
+     ],
+     [
+      "Increased",
+      "مرتفعة"
+     ],
+     [
+      "Giant",
+      "عملاقة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In IDA, serum iron and TIBC are:",
+    "ar": "في نقص الحديد يكون حديد المصل وTIBC:",
+    "options": [
+     [
+      "Both increased",
+      "كلاهما مرتفع"
+     ],
+     [
+      "Both decreased",
+      "كلاهما منخفض"
+     ],
+     [
+      "Iron increased, TIBC decreased",
+      "الحديد مرتفع وTIBC منخفض"
+     ],
+     [
+      "Iron decreased, TIBC increased",
+      "الحديد منخفض وTIBC مرتفع"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Serum ferritin in IDA is:",
+    "ar": "فيريتين المصل في نقص الحديد:",
+    "options": [
+     [
+      "Decreased",
+      "منخفض"
+     ],
+     [
+      "Increased",
+      "مرتفع"
+     ],
+     [
+      "Normal",
+      "طبيعي"
+     ],
+     [
+      "Variable",
+      "متغيّر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Serum transferrin receptors are increased in:",
+    "ar": "ترتفع مستقبلات الترانسفيرين في المصل في:",
+    "options": [
+     [
+      "Anaemia of chronic disease",
+      "فقر دم الأمراض المزمنة"
+     ],
+     [
+      "Thalassaemia trait",
+      "سمة الثلاسيميا"
+     ],
+     [
+      "Iron deficiency anaemia",
+      "فقر الدم بنقص الحديد"
+     ],
+     [
+      "All anaemias",
+      "كل أنواع فقر الدم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Bone marrow in IDA shows:",
+    "ar": "يُظهر نخاع العظم في نقص الحديد:",
+    "options": [
+     [
+      "Increased iron stores",
+      "زيادة مخزون الحديد"
+     ],
+     [
+      "Ringed sideroblasts",
+      "أرومات حديدية حلقية"
+     ],
+     [
+      "Megaloblasts",
+      "أرومات ضخمة"
+     ],
+     [
+      "Erythroid hyperplasia with micronormoblasts and absent iron stores",
+      "فرط تنسّج حمري بأرومات صغيرة وغياب مخزون الحديد"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Target cells and pencil cells in the blood film suggest:",
+    "ar": "الخلايا الهدفية والقلمية في المسحة توحي بـ:",
+    "options": [
+     [
+      "Iron deficiency anaemia",
+      "فقر الدم بنقص الحديد"
+     ],
+     [
+      "Megaloblastic anaemia",
+      "الأرومي الضخم"
+     ],
+     [
+      "Aplastic anaemia",
+      "اللاتنسّجي"
+     ],
+     [
+      "Acute blood loss",
+      "النزف الحاد"
+     ]
+    ],
+    "answer": "a"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Microcytic hypochromic anaemia results from a defect in haemoglobin synthesis.",
+    "ar": "ينتج فقر الدم صغير الكريات ناقص الصباغ عن خلل في تخليق الهيموغلوبين.",
+    "answer": "T"
+   },
+   {
+    "en": "A defect in protoporphyrin synthesis gives a macrocytic anaemia.",
+    "ar": "يعطي خلل تخليق البروتوبورفيرين فقر دم كبير الكريات.",
+    "answer": "F"
+   },
+   {
+    "en": "Ferritin and haemosiderin are storage forms of iron.",
+    "ar": "الفيريتين والهيموسيدرين شكلا خزن الحديد.",
+    "answer": "T"
+   },
+   {
+    "en": "Iron stores are found mainly in macrophages of the bone marrow and liver.",
+    "ar": "توجد مخازن الحديد أساسًا في بلاعم نخاع العظم والكبد.",
+    "answer": "T"
+   },
+   {
+    "en": "Average daily intake of iron is about 100 mg.",
+    "ar": "متوسط المدخول اليومي من الحديد نحو 100 ملغم.",
+    "answer": "F"
+   },
+   {
+    "en": "Pregnancy increases iron absorption.",
+    "ar": "يزيد الحمل امتصاص الحديد.",
+    "answer": "T"
+   },
+   {
+    "en": "Organic iron is absorbed better than inorganic iron.",
+    "ar": "يُمتص الحديد العضوي أفضل من غير العضوي.",
+    "answer": "F"
+   },
+   {
+    "en": "Menstruation increases physiological iron demand.",
+    "ar": "يزيد الحيض الحاجة الفسيولوجية للحديد.",
+    "answer": "T"
+   },
+   {
+    "en": "Koilonychia is a feature of iron deficiency.",
+    "ar": "تقعّر الأظافر من مظاهر نقص الحديد.",
+    "answer": "T"
+   },
+   {
+    "en": "In IDA, MCHC is increased.",
+    "ar": "في نقص الحديد يرتفع MCHC.",
+    "answer": "F"
+   },
+   {
+    "en": "Serum transferrin receptors are increased in thalassaemia trait.",
+    "ar": "ترتفع مستقبلات الترانسفيرين في سمة الثلاسيميا.",
+    "answer": "F"
+   },
+   {
+    "en": "Iron stores are usually completely absent in IDA.",
+    "ar": "يغيب مخزون الحديد عادةً كليًا في نقص الحديد.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Ferrous vs ferric for absorption",
+    "ar": "الحديدوز مقابل الحديديك في الامتصاص",
+    "answer_en": "Ferrous (Fe²⁺) favours absorption; ferric (Fe³⁺) reduces it. (Inorganic > organic in this lecture.)",
+    "answer_ar": "الحديدوز (Fe²⁺) يزيد الامتصاص؛ والحديديك (Fe³⁺) يقلّله. (غير العضوي > العضوي في هذه المحاضرة.)"
+   },
+   {
+    "en": "Intake vs absorption vs loss",
+    "ar": "المدخول مقابل الامتصاص مقابل الفقدان",
+    "answer_en": "Intake 10 mg/day (western diet 10–15 mg), absorbed 5–10% (20–30% in deficiency/pregnancy), loss 1 mg/day.",
+    "answer_ar": "المدخول 10 ملغم/يوم (الغربي 10–15)، يُمتص 5–10% (20–30% في النقص/الحمل)، الفقدان 1 ملغم/يوم."
+   },
+   {
+    "en": "Serum iron and TIBC move in opposite directions in IDA",
+    "ar": "حديد المصل وTIBC يتحرّكان بعكس بعضهما في نقص الحديد",
+    "answer_en": "Serum iron ↓, TIBC ↑, ferritin ↓, transferrin receptors ↑.",
+    "answer_ar": "حديد المصل ↓، TIBC ↑، الفيريتين ↓، مستقبلات الترانسفيرين ↑."
+   },
+   {
+    "en": "Transferrin receptors — IDA vs chronic disease vs thalassaemia trait",
+    "ar": "مستقبلات الترانسفيرين — نقص الحديد مقابل المزمن مقابل سمة الثلاسيميا",
+    "answer_en": "Increased only in IDA, not in anaemia of chronic disease or thalassaemia trait.",
+    "answer_ar": "ترتفع في نقص الحديد فقط، لا في فقر دم الأمراض المزمنة ولا سمة الثلاسيميا."
+   },
+   {
+    "en": "Anisocytosis vs poikilocytosis",
+    "ar": "تفاوت الحجم مقابل تشوّه الشكل",
+    "answer_en": "Anisocytosis = different sizes; poikilocytosis = different shapes.",
+    "answer_ar": "تفاوت الحجم = أحجام مختلفة؛ تشوّه الشكل = أشكال مختلفة."
+   }
+  ],
+  "important": [
+   {
+    "en": "Explain why defects in iron, protoporphyrin or globin cause microcytic hypochromic anaemia.",
+    "ar": "وضّح لماذا يسبّب خلل الحديد أو البروتوبورفيرين أو الكلوبين فقر دم صغير الكريات ناقص الصباغ.",
+    "answer_en": "Haem = iron + protoporphyrin, and haemoglobin = haem + globin; a defect in any (iron deficiency/chronic inflammation/malignancy, protoporphyrin synthesis, or thalassaemia) impairs haemoglobin synthesis.",
+    "answer_ar": "الهيم = حديد + بروتوبورفيرين، والهيموغلوبين = هيم + كلوبين؛ وخلل أي منها (نقص الحديد/الالتهاب المزمن/الخباثة، تخليق البروتوبورفيرين، الثلاسيميا) يضعف تخليق الهيموغلوبين."
+   },
+   {
+    "en": "Describe body iron distribution and balance.",
+    "ar": "صف توزيع الحديد في الجسم وتوازنه.",
+    "answer_en": "Total 3–5 g; 2/3 in circulating Hb; 1/3 in enzymes (cytochromes, catalase, peroxidase) and stores (ferritin, haemosiderin) in RES macrophages of marrow and liver. Intake 10 mg/day, 5–10% absorbed; loss 1 mg/day through GIT, urine, sweat, nails and hair.",
+    "answer_ar": "الكلي 3–5 غم؛ الثلثان في Hb الدائر؛ والثلث في الإنزيمات (السايتوكرومات، الكاتاليز، البيروكسيديز) والمخازن (الفيريتين، الهيموسيدرين) في بلاعم النخاع والكبد. المدخول 10 ملغم/يوم يُمتص 5–10%؛ والفقدان 1 ملغم/يوم عبر الهضمي والبول والعرق والأظافر والشعر."
+   },
+   {
+    "en": "List the factors that favour and reduce iron absorption.",
+    "ar": "عدّد العوامل التي تزيد امتصاص الحديد والتي تقلّله.",
+    "answer_en": "Favour: ferrous form, inorganic iron, acids/vitamin C, iron deficiency, pregnancy, primary haemochromatosis. Reduce: ferric form, organic iron, antacids/alkali, iron excess, infection, tea.",
+    "answer_ar": "تزيد: الحديدوز، الحديد غير العضوي، الحوامض/فيتامين C، نقص الحديد، الحمل، داء ترسّب الأصبغة الأولي. تقلّل: الحديديك، العضوي، مضادات الحموضة/القلويات، زيادة الحديد، العدوى، الشاي."
+   },
+   {
+    "en": "List the causes and clinical features of IDA.",
+    "ar": "عدّد أسباب نقص الحديد ومظاهره السريرية.",
+    "answer_en": "Causes: chronic blood loss, increased demand (growth, pregnancy, lactation, menstruation), impaired absorption (gastrectomy), poor intake. Features: anaemia, painless glossitis, angular stomatitis, koilonychia, dysphagia with pharyngeal webs (Plummer–Vinson), pica.",
+    "answer_ar": "الأسباب: الفقدان المزمن للدم، زيادة الحاجة (النمو، الحمل، الإرضاع، الحيض)، ضعف الامتصاص (استئصال المعدة)، قلّة المدخول. المظاهر: فقر الدم، التهاب اللسان، التهاب زاوية الفم، تقعّر الأظافر، عسر البلع مع الأغشية البلعومية (بلامر–فينسون)، القَطَا."
+   },
+   {
+    "en": "Give the laboratory findings of IDA.",
+    "ar": "اذكر النتائج المختبرية لنقص الحديد.",
+    "answer_en": "Low Hb, PCV, RBC, MCV, MCH, MCHC; hypochromic microcytic film with anisocytosis, poikilocytosis, target and pencil cells; variable WBC; platelets usually up; marrow erythroid hyperplasia with micronormoblasts and absent iron; serum iron ↓, TIBC ↑, ferritin ↓, transferrin receptors ↑.",
+    "answer_ar": "انخفاض Hb وPCV وRBC وMCV وMCH وMCHC؛ مسحة ناقصة الصباغ صغيرة الكريات مع تفاوت الحجم والشكل وخلايا هدفية وقلمية؛ كريات بيض متغيّرة؛ الصفيحات ترتفع عادةً؛ النخاع فرط تنسّج حمري بأرومات صغيرة وغياب الحديد؛ حديد المصل ↓، TIBC ↑، الفيريتين ↓، مستقبلات الترانسفيرين ↑."
+   }
+  ]
+ }
+}
