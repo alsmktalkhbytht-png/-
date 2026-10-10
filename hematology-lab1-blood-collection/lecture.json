@@ -1,0 +1,1662 @@
+{
+ "meta": {
+  "subject_en": "Hematology",
+  "subject_ar": "أمراض الدم",
+  "short_ar": "امراض الدم",
+  "unit_en": "Lab 1",
+  "unit_ar": "العملي 1",
+  "unit_label": "LAB",
+  "unit_no": "1",
+  "title_en": "Blood Collection",
+  "title_ar": "جمع الدم",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة",
+  "instructor": "ليندا منجد هادي"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Blood Collection",
+   "ar": "جمع الدم"
+  },
+  {
+   "t": "card",
+   "en": "**Blood collection** is the process of obtaining a blood sample for **laboratory testing, diagnosis, and monitoring**.",
+   "ar": "**جمع الدم** هو عملية الحصول على عيّنة دم لأغراض **الفحص المختبري والتشخيص والمتابعة**."
+  },
+  {
+   "t": "card",
+   "en": "**Purposes of Blood Collection** — Blood is collected mainly for:",
+   "ar": "**أغراض جمع الدم** — يُجمع الدم أساسًا من أجل:",
+   "list_en": [
+    "**Laboratory testing** – such as hematological, biochemical, serological, immunological, and microbiological tests.",
+    "**Blood donation** – to provide blood and blood components for transfusion.",
+    "**Monitoring** – to follow the patient’s condition and response to treatment."
+   ],
+   "list_ar": [
+    "**الفحص المختبري** – مثل الفحوص الدموية، والكيميائية الحيوية، والمصلية، والمناعية، والأحياء المجهرية.",
+    "**التبرّع بالدم** – لتوفير الدم ومكوّناته لنقلها للمرضى.",
+    "**المتابعة** – لمتابعة حالة المريض واستجابته للعلاج."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Types of blood collection",
+   "ar": "أنواع جمع الدم"
+  },
+  {
+   "t": "card",
+   "en": "**1. Venous Blood**",
+   "ar": "**1. الدم الوريدي**",
+   "list_en": [
+    "Most commonly used specimen.",
+    "Suitable for most routine laboratory tests.",
+    "Provides a relatively large volume of blood."
+   ],
+   "list_ar": [
+    "العيّنة الأكثر استخدامًا.",
+    "مناسبة لمعظم الفحوص المختبرية الروتينية.",
+    "توفّر حجمًا كبيرًا نسبيًا من الدم."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**2. Capillary Blood**",
+   "ar": "**2. الدم الشعيري**",
+   "list_en": [
+    "Obtained by **skin puncture**.",
+    "Used when a **small volume** is required.",
+    "Common in **infants** and **point-of-care testing**."
+   ],
+   "list_ar": [
+    "يُحصل عليه **بوخز الجلد**.",
+    "يُستخدم عندما يكون المطلوب **حجمًا صغيرًا**.",
+    "شائع عند **الرضّع** وفي **الفحوص بجانب المريض**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**3. Arterial Blood**",
+   "ar": "**3. الدم الشرياني**",
+   "list_en": [
+    "Obtained directly from an **artery**.",
+    "Mainly used for **Arterial Blood Gas (ABG)** analysis.",
+    "Provides information about **respiratory and acid–base status**."
+   ],
+   "list_ar": [
+    "يُحصل عليه مباشرة من **شريان**.",
+    "يُستخدم أساسًا لتحليل **غازات الدم الشرياني** (`ABG`).",
+    "يعطي معلومات عن **الحالة التنفسية والتوازن الحامضي–القاعدي**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/types-of-collection.jpg",
+   "en": "Types of blood collection: venous, capillary and arterial",
+   "ar": "أنواع جمع الدم: الوريدي والشعيري والشرياني",
+   "h": "80mm"
+  },
+  {
+   "t": "section",
+   "en": "Materials and tools",
+   "ar": "المواد والأدوات"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Tool (from the slide)",
+    "الأداة"
+   ],
+   "ar_cols": [
+    1
+   ],
+   "key_cols": [
+    0
+   ],
+   "numbered": false,
+   "rows": [
+    [
+     "Syringes & needles",
+     "المحاقن والإبر"
+    ],
+    [
+     "Tourniquet",
+     "الرباط الضاغط (التورنيكه)"
+    ],
+    [
+     "Test-tubes",
+     "أنابيب الفحص"
+    ],
+    [
+     "70% isopropanol",
+     "كحول الأيزوبروبانول 70%"
+    ],
+    [
+     "Cotton",
+     "القطن"
+    ],
+    [
+     "Marker pen",
+     "قلم التأشير"
+    ],
+    [
+     "Gloves",
+     "القفّازات"
+    ]
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/materials-and-tools.jpg",
+   "en": "Materials and tools for blood collection",
+   "ar": "المواد والأدوات المستخدمة في جمع الدم",
+   "h": "62mm"
+  },
+  {
+   "t": "figure",
+   "src": "assets/venipuncture-systems.jpg",
+   "en": "Venipuncture systems: vacuum (evacuated tube system), butterfly (winged) and disposable syringe",
+   "ar": "أنظمة سحب الدم الوريدي: النظام المفرَّغ (أنابيب مفرّغة من الهواء)، والفراشة (المجنّحة)، والمحقنة ذات الاستعمال الواحد",
+   "h": "74mm"
+  },
+  {
+   "t": "section",
+   "en": "Venipuncture: Equipment & Sites",
+   "ar": "سحب الدم الوريدي: الأدوات والمواقع"
+  },
+  {
+   "t": "card",
+   "en": "**Venous Blood Collection** — Most common method of blood collection.",
+   "ar": "**جمع الدم الوريدي** — الطريقة الأكثر شيوعًا لجمع الدم."
+  },
+  {
+   "t": "card",
+   "en": "**Common Venipuncture Sites**",
+   "ar": "**مواقع سحب الدم الوريدي الشائعة**",
+   "list_en": [
+    "**Median cubital vein → preferred**",
+    "Cephalic vein",
+    "Basilic vein."
+   ],
+   "list_ar": [
+    "**الوريد المرفقي الناصف ← المفضّل**",
+    "الوريد الرأسي",
+    "الوريد القاعدي."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/antecubital-veins.jpg",
+     "en": "Antecubital veins: cephalic (lateral), median cubital (preferred), basilic (medial)",
+     "ar": "أوردة الحفرة المرفقية: الرأسي (الجانبي)، والمرفقي الناصف (المفضّل)، والقاعدي (الإنسي)",
+     "h": "60mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/venous-sites.jpg",
+     "en": "Common venous blood collection sites (including dorsal hand and saphenous veins)",
+     "ar": "مواقع جمع الدم الوريدي الشائعة (ومنها أوردة ظهر اليد والأوردة الصافنة)",
+     "h": "60mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Basic steps:**",
+   "ar": "**الخطوات الأساسية:**"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Patient identification",
+     "ar": "تعريف المريض"
+    },
+    {
+     "en": "Tourniquet",
+     "ar": "الرباط الضاغط"
+    },
+    {
+     "en": "Disinfection (70% alcohol)",
+     "ar": "التعقيم (كحول 70%)"
+    },
+    {
+     "en": "Blood collection",
+     "ar": "سحب الدم"
+    },
+    {
+     "en": "Pressure",
+     "ar": "الضغط"
+    },
+    {
+     "en": "Labeling",
+     "ar": "وضع الملصق"
+    }
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Arterial Blood Collection",
+   "ar": "جمع الدم الشرياني"
+  },
+  {
+   "t": "card",
+   "en": "Blood is collected directly from an **artery**, mainly for **Arterial Blood Gas (ABG)** analysis.",
+   "ar": "يُجمع الدم مباشرة من **شريان**، أساسًا لتحليل **غازات الدم الشرياني** (`ABG`)."
+  },
+  {
+   "t": "card",
+   "en": "**Sites:**",
+   "ar": "**المواقع:**",
+   "list_en": [
+    "**Radial artery → preferred**",
+    "Brachial artery",
+    "Femoral artery"
+   ],
+   "list_ar": [
+    "**الشريان الكعبري ← المفضّل**",
+    "الشريان العضدي",
+    "الشريان الفخذي"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**ABG measures:** pH – PaO₂ – PaCO₂ – HCO₃⁻ – O₂ saturation",
+   "ar": "**يقيس تحليل غازات الدم:** `pH – PaO₂ – PaCO₂ – HCO₃⁻` – تشبّع الأوكسجين"
+  },
+  {
+   "t": "card",
+   "en": "It evaluates **oxygenation, ventilation, and acid–base balance**.",
+   "ar": "وهو يقيّم **الأكسجة والتهوية والتوازن الحامضي–القاعدي**."
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/arterial-sampling.jpg",
+     "en": "Arterial blood sampling (radial artery, with the Allen test)",
+     "ar": "سحب الدم الشرياني (الشريان الكعبري، مع اختبار ألن)",
+     "h": "56mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/arterial-sites.jpg",
+     "en": "Common arterial blood sampling sites",
+     "ar": "مواقع سحب الدم الشرياني الشائعة",
+     "h": "56mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Arterial Blood Collection: Basic Steps**",
+   "ar": "**جمع الدم الشرياني: الخطوات الأساسية**",
+   "list_en": [
+    "Use a **heparinized syringe**.",
+    "Clean the puncture site.",
+    "Collect arterial blood.",
+    "**Remove air bubbles.**",
+    "Apply **firm pressure** after collection.",
+    "Send the sample **promptly** for analysis."
+   ],
+   "list_ar": [
+    "استخدم **محقنة مُهَبرنة** (تحتوي هيبارين).",
+    "نظّف موقع الوخز.",
+    "اسحب الدم الشرياني.",
+    "**أزل فقاعات الهواء.**",
+    "اضغط **ضغطًا قويًا** بعد السحب.",
+    "أرسل العيّنة للتحليل **فورًا**."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Capillary Blood Collection",
+   "ar": "جمع الدم الشعيري"
+  },
+  {
+   "t": "card",
+   "en": "Capillary blood is obtained by **skin puncture** using a **sterile lancet**.",
+   "ar": "يُحصل على الدم الشعيري **بوخز الجلد** باستخدام **مِشرط وخز معقّم** (`lancet`)."
+  },
+  {
+   "t": "card",
+   "en": "**Collection Sites**",
+   "ar": "**مواقع الجمع**",
+   "list_en": [
+    "**Adults/older children** → side of the middle or ring finger , earlobe .",
+    "**Infants** → medial or lateral plantar surface of the heel."
+   ],
+   "list_ar": [
+    "**البالغون/الأطفال الأكبر** ← جانب الإصبع الوسطى أو البنصر، وشحمة الأذن.",
+    "**الرضّع** ← السطح الأخمصي الإنسي أو الوحشي للكعب."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/capillary-sites.jpg",
+     "en": "Capillary blood collection sites: earlobe, heel, fingertip",
+     "ar": "مواقع جمع الدم الشعيري: شحمة الأذن، الكعب، طرف الإصبع",
+     "h": "50mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/capillary-collection.jpg",
+     "en": "Preferred sites on the heel and finger — avoid the central area",
+     "ar": "المواقع المفضّلة على الكعب والإصبع — تجنّب المنطقة الوسطى",
+     "h": "50mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Precautions**",
+   "ar": "**الاحتياطات**",
+   "list_en": [
+    "Allow alcohol to dry.",
+    "**Wipe away the first drop.**",
+    "Avoid excessive squeezing.",
+    "Allow blood to flow freely."
+   ],
+   "list_ar": [
+    "اترك الكحول ليجفّ.",
+    "**امسح القطرة الأولى.**",
+    "تجنّب العصر المفرط.",
+    "دع الدم ينساب بحرّية."
+   ]
+  },
+  {
+   "t": "note",
+   "en": "Excessive squeezing may cause **hemolysis** and **contamination with tissue fluid**.",
+   "ar": "قد يسبّب العصر المفرط **تحلّل الدم** و**التلوّث بسائل الأنسجة**.",
+   "label": [
+    "Why",
+    "لماذا"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Blood Collection Tubes",
+   "ar": "أنابيب جمع الدم"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Additive",
+    "Main Use",
+    "المادة المضافة — الاستخدام الرئيس"
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ],
+   "rows": [
+    [
+     "EDTA",
+     "CBC, blood film",
+     "`EDTA` — صورة الدم الكاملة (`CBC`) والمسحة الدموية"
+    ],
+    [
+     "Sodium citrate",
+     "Coagulation tests",
+     "سترات الصوديوم — فحوص التخثّر"
+    ],
+    [
+     "Heparin",
+     "Blood gases / some chemistry tests",
+     "الهيبارين — غازات الدم / بعض الفحوص الكيميائية"
+    ],
+    [
+     "Fluoride/Oxalate",
+     "Glucose",
+     "الفلورايد/الأوكزالات — الكلوكوز"
+    ],
+    [
+     "Plain tube",
+     "Serum",
+     "الأنبوب العادي — المصل"
+    ]
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/collection-tubes.jpg",
+   "en": "Blood collection tubes: EDTA, sodium citrate, plain, SST, heparin, fluoride/oxalate",
+   "ar": "أنابيب جمع الدم: EDTA، سترات الصوديوم، العادي، أنبوب فصل المصل، الهيبارين، الفلورايد/الأوكزالات",
+   "h": "70mm"
+  },
+  {
+   "t": "section",
+   "en": "Serum vs. Plasma",
+   "ar": "المصل مقابل البلازما"
+  },
+  {
+   "t": "table",
+   "head": [
+    "",
+    "Plasma",
+    "Serum",
+    "الترجمة"
+   ],
+   "ar_cols": [
+    3
+   ],
+   "key_cols": [
+    0
+   ],
+   "rows": [
+    [
+     "Source",
+     "From anticoagulated blood.",
+     "Obtained after blood clotting.",
+     "**البلازما**: من دم مُضاف إليه مانع تخثّر. **المصل**: بعد تخثّر الدم."
+    ],
+    [
+     "Fibrinogen",
+     "Contains fibrinogen.",
+     "Does not contain fibrinogen.",
+     "**البلازما** تحتوي الفايبرينوجين، و**المصل** لا يحتويه."
+    ]
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Blood + anticoagulant",
+     "ar": "دم + مانع تخثّر"
+    },
+    {
+     "en": "Plasma",
+     "ar": "بلازما"
+    }
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Blood + clotting",
+     "ar": "دم + تخثّر"
+    },
+    {
+     "en": "Serum",
+     "ar": "مصل"
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/serum-vs-plasma.jpg",
+   "en": "Serum and plasma: how each is obtained and what it contains",
+   "ar": "المصل والبلازما: كيف يُحصل على كلٍّ منهما وما يحتويه",
+   "h": "76mm"
+  },
+  {
+   "t": "section",
+   "en": "Hemolysis",
+   "ar": "تحلّل الدم"
+  },
+  {
+   "t": "card",
+   "en": "**Hemolysis:** rupture of RBCs with release of **hemoglobin and intracellular contents** into serum/plasma.",
+   "ar": "**تحلّل الدم** (`Hemolysis`): تمزّق كريات الدم الحمر مع تحرّر **الهيموغلوبين والمحتويات داخل الخلوية** إلى المصل/البلازما."
+  },
+  {
+   "t": "card",
+   "en": "**Common causes:**",
+   "ar": "**الأسباب الشائعة:**",
+   "list_en": [
+    "Small needle",
+    "Forceful aspiration",
+    "Vigorous shaking"
+   ],
+   "list_ar": [
+    "الإبرة الصغيرة",
+    "السحب بقوة",
+    "الرجّ العنيف"
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Hemolyzed samples may appear **pink or red**.",
+    "Hemolysis may cause **incorrect laboratory results**."
+   ],
+   "ar": [
+    "قد تظهر العيّنات المتحلّلة **وردية أو حمراء**.",
+    "قد يسبّب تحلّل الدم **نتائج مختبرية غير صحيحة**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Prevention:**",
+   "ar": "**الوقاية:**",
+   "list_en": [
+    "Use appropriate needle size.",
+    "Avoid forceful aspiration.",
+    "Handle and mix tubes gently."
+   ],
+   "list_ar": [
+    "استخدم إبرة بحجم مناسب.",
+    "تجنّب السحب بقوة.",
+    "تعامل مع الأنابيب واخلطها بلطف."
+   ]
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Tube",
+      "Serum (from the figure)",
+      "المصل"
+     ],
+     "ar_cols": [
+      2
+     ],
+     "key_cols": [
+      0
+     ],
+     "rows": [
+      [
+       "1, 4 and 7",
+       "Normal serum",
+       "مصل طبيعي"
+      ],
+      [
+       "2 and 3",
+       "Icteric serum (Hyperbilirubinemia)",
+       "مصل يرقاني (فرط البيليروبين)"
+      ],
+      [
+       "5",
+       "Lipemic serum",
+       "مصل دهني"
+      ],
+      [
+       "6",
+       "Hemolyzed serum",
+       "مصل متحلّل"
+      ]
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/normal-vs-pathology-serum.jpg",
+    "en": "Normal vs. pathology serum",
+    "ar": "المصل الطبيعي مقابل المرضي"
+   }
+  },
+  {
+   "t": "section",
+   "en": "Important Precautions",
+   "ar": "احتياطات مهمة"
+  },
+  {
+   "t": "table",
+   "head": [
+    "",
+    "Precaution (from the slide)",
+    "الاحتياط"
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    1
+   ],
+   "numbered": true,
+   "widths": [
+    "10mm",
+    "",
+    ""
+   ],
+   "rows": [
+    [
+     "1",
+     "Hand hygiene",
+     "نظافة اليدين"
+    ],
+    [
+     "2",
+     "Use PPE",
+     "ارتداء معدّات الوقاية الشخصية"
+    ],
+    [
+     "3",
+     "Check patient identification",
+     "التحقّق من هوية المريض"
+    ],
+    [
+     "4",
+     "Explain the procedure and obtain consent",
+     "شرح الإجراء وأخذ الموافقة"
+    ],
+    [
+     "5",
+     "Use the correct collection site",
+     "استخدام موقع الجمع الصحيح"
+    ],
+    [
+     "6",
+     "Use appropriate equipment",
+     "استخدام الأدوات المناسبة"
+    ],
+    [
+     "7",
+     "Avoid prolonged tourniquet time (< 1 minute)",
+     "تجنّب إطالة وقت الرباط الضاغط (أقل من دقيقة)"
+    ],
+    [
+     "8",
+     "Avoid hemolysis",
+     "تجنّب تحلّل الدم"
+    ],
+    [
+     "9",
+     "Order of draw",
+     "ترتيب سحب الأنابيب"
+    ],
+    [
+     "10",
+     "Proper disposal of sharps",
+     "التخلّص السليم من الأدوات الحادة"
+    ],
+    [
+     "11",
+     "Apply pressure and bandage",
+     "الضغط ووضع الضمادة"
+    ],
+    [
+     "12",
+     "Dispose of contaminated materials properly",
+     "التخلّص السليم من المواد الملوّثة"
+    ]
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/important-precautions.jpg",
+   "en": "Important precautions during blood collection",
+   "ar": "احتياطات مهمة أثناء جمع الدم",
+   "h": "84mm"
+  },
+  {
+   "t": "note",
+   "en": "**Remember:** Proper collection → Reliable laboratory results",
+   "ar": "**تذكّر:** الجمع السليم ← نتائج مختبرية موثوقة",
+   "label": [
+    "Remember",
+    "تذكّر"
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Purposes and types",
+    "topic_ar": "الأغراض والأنواع"
+   },
+   {
+    "en": "Blood is collected mainly for all of the following EXCEPT:",
+    "ar": "يُجمع الدم أساسًا لكل مما يأتي عدا:",
+    "options": [
+     [
+      "Laboratory testing",
+      "الفحص المختبري"
+     ],
+     [
+      "Blood donation",
+      "التبرّع بالدم"
+     ],
+     [
+      "Monitoring",
+      "المتابعة"
+     ],
+     [
+      "Sterilization",
+      "التعقيم"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The most commonly used blood specimen is:",
+    "ar": "العيّنة الدموية الأكثر استخدامًا هي:",
+    "options": [
+     [
+      "Venous blood",
+      "الدم الوريدي"
+     ],
+     [
+      "Capillary blood",
+      "الدم الشعيري"
+     ],
+     [
+      "Arterial blood",
+      "الدم الشرياني"
+     ],
+     [
+      "Cord blood",
+      "دم الحبل السري"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Capillary blood is obtained by:",
+    "ar": "يُحصل على الدم الشعيري بـ:",
+    "options": [
+     [
+      "Venipuncture",
+      "بزل الوريد"
+     ],
+     [
+      "Skin puncture",
+      "وخز الجلد"
+     ],
+     [
+      "Arterial puncture",
+      "بزل الشريان"
+     ],
+     [
+      "Catheter",
+      "قسطرة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Capillary blood is common in:",
+    "ar": "الدم الشعيري شائع عند:",
+    "options": [
+     [
+      "Blood donors",
+      "المتبرّعين بالدم"
+     ],
+     [
+      "ABG analysis",
+      "تحليل غازات الدم"
+     ],
+     [
+      "Infants and point-of-care testing",
+      "الرضّع والفحوص بجانب المريض"
+     ],
+     [
+      "Coagulation studies only",
+      "دراسات التخثّر فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Arterial blood is mainly used for:",
+    "ar": "يُستخدم الدم الشرياني أساسًا لـ:",
+    "options": [
+     [
+      "CBC",
+      "صورة الدم الكاملة"
+     ],
+     [
+      "Blood film",
+      "المسحة الدموية"
+     ],
+     [
+      "Glucose",
+      "الكلوكوز"
+     ],
+     [
+      "Arterial blood gas (ABG) analysis",
+      "تحليل غازات الدم الشرياني"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Venous, arterial and capillary collection",
+    "topic_ar": "الجمع الوريدي والشرياني والشعيري"
+   },
+   {
+    "en": "The preferred vein for venipuncture is the:",
+    "ar": "الوريد المفضّل لسحب الدم هو:",
+    "options": [
+     [
+      "Cephalic vein",
+      "الوريد الرأسي"
+     ],
+     [
+      "Median cubital vein",
+      "الوريد المرفقي الناصف"
+     ],
+     [
+      "Basilic vein",
+      "الوريد القاعدي"
+     ],
+     [
+      "Femoral vein",
+      "الوريد الفخذي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Disinfection before venipuncture uses:",
+    "ar": "يُستخدم في التعقيم قبل سحب الدم الوريدي:",
+    "options": [
+     [
+      "70% alcohol",
+      "كحول 70%"
+     ],
+     [
+      "Distilled water",
+      "الماء المقطّر"
+     ],
+     [
+      "Saline",
+      "المحلول الملحي"
+     ],
+     [
+      "EDTA",
+      "EDTA"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The last basic step of venous collection is:",
+    "ar": "الخطوة الأساسية الأخيرة في الجمع الوريدي هي:",
+    "options": [
+     [
+      "Tourniquet",
+      "الرباط الضاغط"
+     ],
+     [
+      "Disinfection",
+      "التعقيم"
+     ],
+     [
+      "Labeling",
+      "وضع الملصق"
+     ],
+     [
+      "Patient identification",
+      "تعريف المريض"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The preferred artery for ABG sampling is the:",
+    "ar": "الشريان المفضّل لسحب غازات الدم هو:",
+    "options": [
+     [
+      "Femoral artery",
+      "الشريان الفخذي"
+     ],
+     [
+      "Brachial artery",
+      "الشريان العضدي"
+     ],
+     [
+      "Carotid artery",
+      "الشريان السباتي"
+     ],
+     [
+      "Radial artery",
+      "الشريان الكعبري"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which is NOT measured by ABG analysis?",
+    "ar": "أي مما يأتي لا يقيسه تحليل غازات الدم؟",
+    "options": [
+     [
+      "pH",
+      "pH"
+     ],
+     [
+      "PaO₂",
+      "PaO₂"
+     ],
+     [
+      "Hemoglobin electrophoresis",
+      "الترحيل الكهربائي للهيموغلوبين"
+     ],
+     [
+      "HCO₃⁻",
+      "HCO₃⁻"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "ABG evaluates oxygenation, ventilation and:",
+    "ar": "يقيّم تحليل غازات الدم الأكسجة والتهوية و:",
+    "options": [
+     [
+      "Acid–base balance",
+      "التوازن الحامضي–القاعدي"
+     ],
+     [
+      "Coagulation",
+      "التخثّر"
+     ],
+     [
+      "Blood groups",
+      "فصائل الدم"
+     ],
+     [
+      "Glucose level",
+      "مستوى الكلوكوز"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Arterial blood is collected using a:",
+    "ar": "يُجمع الدم الشرياني باستخدام:",
+    "options": [
+     [
+      "EDTA tube",
+      "أنبوب EDTA"
+     ],
+     [
+      "Heparinized syringe",
+      "محقنة مُهَبرنة"
+     ],
+     [
+      "Plain tube",
+      "أنبوب عادي"
+     ],
+     [
+      "Citrate tube",
+      "أنبوب سترات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "After collecting arterial blood you should:",
+    "ar": "بعد سحب الدم الشرياني يجب:",
+    "options": [
+     [
+      "Shake the syringe vigorously",
+      "رجّ المحقنة بقوة"
+     ],
+     [
+      "Leave air bubbles",
+      "ترك فقاعات الهواء"
+     ],
+     [
+      "Remove air bubbles and send promptly",
+      "إزالة فقاعات الهواء والإرسال فورًا"
+     ],
+     [
+      "Store it for a day",
+      "حفظها يومًا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In infants, capillary blood is collected from the:",
+    "ar": "عند الرضّع يُجمع الدم الشعيري من:",
+    "options": [
+     [
+      "Earlobe",
+      "شحمة الأذن"
+     ],
+     [
+      "Middle finger",
+      "الإصبع الوسطى"
+     ],
+     [
+      "Center of the heel",
+      "وسط الكعب"
+     ],
+     [
+      "Medial or lateral plantar surface of the heel",
+      "السطح الأخمصي الإنسي أو الوحشي للكعب"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In adults, capillary blood is taken from the:",
+    "ar": "عند البالغين يُؤخذ الدم الشعيري من:",
+    "options": [
+     [
+      "Side of the middle or ring finger, earlobe",
+      "جانب الإصبع الوسطى أو البنصر، وشحمة الأذن"
+     ],
+     [
+      "Thumb nail",
+      "ظفر الإبهام"
+     ],
+     [
+      "Heel",
+      "الكعب"
+     ],
+     [
+      "Radial artery",
+      "الشريان الكعبري"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "During capillary collection, the first drop should be:",
+    "ar": "أثناء الجمع الشعيري يجب أن تكون القطرة الأولى:",
+    "options": [
+     [
+      "Collected for CBC",
+      "مجموعة لصورة الدم"
+     ],
+     [
+      "Wiped away",
+      "ممسوحة"
+     ],
+     [
+      "Squeezed out strongly",
+      "معصورة بقوة"
+     ],
+     [
+      "Mixed with alcohol",
+      "ممزوجة بالكحول"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Excessive squeezing during capillary collection may cause:",
+    "ar": "قد يسبّب العصر المفرط أثناء الجمع الشعيري:",
+    "options": [
+     [
+      "Clotting only",
+      "التخثّر فقط"
+     ],
+     [
+      "Lipemia",
+      "الدهنية"
+     ],
+     [
+      "Hemolysis and contamination with tissue fluid",
+      "تحلّل الدم والتلوّث بسائل الأنسجة"
+     ],
+     [
+      "Icterus",
+      "اليرقان"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Tubes, serum and plasma, hemolysis",
+    "topic_ar": "الأنابيب والمصل والبلازما وتحلّل الدم"
+   },
+   {
+    "en": "The tube used for CBC and blood film contains:",
+    "ar": "الأنبوب المستخدم لصورة الدم والمسحة يحتوي على:",
+    "options": [
+     [
+      "Sodium citrate",
+      "سترات الصوديوم"
+     ],
+     [
+      "EDTA",
+      "EDTA"
+     ],
+     [
+      "Heparin",
+      "الهيبارين"
+     ],
+     [
+      "Fluoride",
+      "الفلورايد"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Coagulation tests use a tube containing:",
+    "ar": "تستخدم فحوص التخثّر أنبوبًا يحتوي على:",
+    "options": [
+     [
+      "Sodium citrate",
+      "سترات الصوديوم"
+     ],
+     [
+      "EDTA",
+      "EDTA"
+     ],
+     [
+      "Fluoride/oxalate",
+      "الفلورايد/الأوكزالات"
+     ],
+     [
+      "Nothing",
+      "لا شيء"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Fluoride/oxalate tubes are used for:",
+    "ar": "تُستخدم أنابيب الفلورايد/الأوكزالات لـ:",
+    "options": [
+     [
+      "Serum",
+      "المصل"
+     ],
+     [
+      "CBC",
+      "صورة الدم"
+     ],
+     [
+      "Blood gases",
+      "غازات الدم"
+     ],
+     [
+      "Glucose",
+      "الكلوكوز"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A plain tube is used to obtain:",
+    "ar": "يُستخدم الأنبوب العادي للحصول على:",
+    "options": [
+     [
+      "Plasma",
+      "البلازما"
+     ],
+     [
+      "Whole blood",
+      "الدم الكامل"
+     ],
+     [
+      "Serum",
+      "المصل"
+     ],
+     [
+      "Buffy coat",
+      "الطبقة البيضاء"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The main difference between serum and plasma is that serum:",
+    "ar": "الفرق الرئيس بين المصل والبلازما أن المصل:",
+    "options": [
+     [
+      "Contains fibrinogen",
+      "يحتوي الفايبرينوجين"
+     ],
+     [
+      "Does not contain fibrinogen",
+      "لا يحتوي الفايبرينوجين"
+     ],
+     [
+      "Comes from anticoagulated blood",
+      "يأتي من دم مضاف إليه مانع تخثّر"
+     ],
+     [
+      "Contains RBCs",
+      "يحتوي كريات حمراء"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Blood + anticoagulant gives:",
+    "ar": "دم + مانع تخثّر يعطي:",
+    "options": [
+     [
+      "Plasma",
+      "البلازما"
+     ],
+     [
+      "Serum",
+      "المصل"
+     ],
+     [
+      "Clot only",
+      "خثرة فقط"
+     ],
+     [
+      "Hemolysate",
+      "محلّل دموي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Hemolysis is the rupture of RBCs with release of:",
+    "ar": "تحلّل الدم هو تمزّق الكريات الحمر مع تحرّر:",
+    "options": [
+     [
+      "Fibrinogen",
+      "الفايبرينوجين"
+     ],
+     [
+      "Bilirubin only",
+      "البيليروبين فقط"
+     ],
+     [
+      "Lipids",
+      "الدهون"
+     ],
+     [
+      "Hemoglobin and intracellular contents",
+      "الهيموغلوبين والمحتويات داخل الخلوية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A common cause of hemolysis is:",
+    "ar": "من الأسباب الشائعة لتحلّل الدم:",
+    "options": [
+     [
+      "Large needle",
+      "الإبرة الكبيرة"
+     ],
+     [
+      "Gentle mixing",
+      "الخلط اللطيف"
+     ],
+     [
+      "Forceful aspiration",
+      "السحب بقوة"
+     ],
+     [
+      "Allowing alcohol to dry",
+      "ترك الكحول يجفّ"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The tourniquet should not be left on for more than:",
+    "ar": "يجب ألّا يُترك الرباط الضاغط أكثر من:",
+    "options": [
+     [
+      "1 minute",
+      "دقيقة واحدة"
+     ],
+     [
+      "5 minutes",
+      "5 دقائق"
+     ],
+     [
+      "10 minutes",
+      "10 دقائق"
+     ],
+     [
+      "30 minutes",
+      "30 دقيقة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this figure, the vein marked as preferred (most common) for venipuncture is the:",
+    "ar": "في هذا الشكل، الوريد المؤشَّر بأنه المفضّل لسحب الدم هو:",
+    "options": [
+     [
+      "Basilic vein",
+      "الوريد القاعدي"
+     ],
+     [
+      "Median cubital vein",
+      "الوريد المرفقي الناصف"
+     ],
+     [
+      "Cephalic vein",
+      "الوريد الرأسي"
+     ],
+     [
+      "Dorsal hand vein",
+      "وريد ظهر اليد"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/antecubital-veins.jpg",
+    "img_h": "44mm"
+   },
+   {
+    "en": "In this figure of an infant’s heel, where should the puncture be made?",
+    "ar": "في شكل كعب الرضيع هذا، أين يجب أن يكون الوخز؟",
+    "options": [
+     [
+      "The central area of the heel",
+      "المنطقة الوسطى من الكعب"
+     ],
+     [
+      "The toes",
+      "أصابع القدم"
+     ],
+     [
+      "The medial or lateral plantar surface",
+      "السطح الأخمصي الإنسي أو الوحشي"
+     ],
+     [
+      "The back of the heel",
+      "مؤخّرة الكعب"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/capillary-collection.jpg",
+    "img_h": "42mm"
+   },
+   {
+    "en": "In this figure, tube number 6 (red serum) is:",
+    "ar": "في هذا الشكل، الأنبوب رقم 6 (مصل أحمر) هو:",
+    "options": [
+     [
+      "Normal serum",
+      "مصل طبيعي"
+     ],
+     [
+      "Icteric serum",
+      "مصل يرقاني"
+     ],
+     [
+      "Lipemic serum",
+      "مصل دهني"
+     ],
+     [
+      "Hemolyzed serum",
+      "مصل متحلّل"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/normal-vs-pathology-serum.jpg",
+    "img_h": "48mm"
+   },
+   {
+    "en": "In this figure, tube number 5 (milky serum) is:",
+    "ar": "في هذا الشكل، الأنبوب رقم 5 (مصل حليبي) هو:",
+    "options": [
+     [
+      "Lipemic serum",
+      "مصل دهني"
+     ],
+     [
+      "Hemolyzed serum",
+      "مصل متحلّل"
+     ],
+     [
+      "Normal serum",
+      "مصل طبيعي"
+     ],
+     [
+      "Icteric serum",
+      "مصل يرقاني"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/normal-vs-pathology-serum.jpg",
+    "img_h": "48mm"
+   },
+   {
+    "en": "The lavender (purple) tube in this figure contains EDTA and is used for:",
+    "ar": "الأنبوب البنفسجي في هذا الشكل يحتوي EDTA ويُستخدم لـ:",
+    "options": [
+     [
+      "Glucose",
+      "الكلوكوز"
+     ],
+     [
+      "CBC, blood film",
+      "صورة الدم والمسحة"
+     ],
+     [
+      "Coagulation tests",
+      "فحوص التخثّر"
+     ],
+     [
+      "Blood gases",
+      "غازات الدم"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/collection-tubes.jpg",
+    "img_h": "46mm"
+   },
+   {
+    "en": "The system shown on the left of this figure, using evacuated tubes, is the:",
+    "ar": "النظام المعروض يسار هذا الشكل، الذي يستخدم أنابيب مفرّغة، هو:",
+    "options": [
+     [
+      "Butterfly (winged) system",
+      "نظام الفراشة (المجنّح)"
+     ],
+     [
+      "Disposable syringe",
+      "المحقنة ذات الاستعمال الواحد"
+     ],
+     [
+      "Vacuum (evacuated tube) system",
+      "النظام المفرَّغ (الأنابيب المفرّغة)"
+     ],
+     [
+      "Lancet",
+      "مِشرط الوخز"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/venipuncture-systems.jpg",
+    "img_h": "46mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Blood collection is used for laboratory testing, diagnosis and monitoring.",
+    "ar": "يُستخدم جمع الدم للفحص المختبري والتشخيص والمتابعة.",
+    "answer": "T"
+   },
+   {
+    "en": "Capillary blood provides a relatively large volume of blood.",
+    "ar": "يوفّر الدم الشعيري حجمًا كبيرًا نسبيًا من الدم.",
+    "answer": "F"
+   },
+   {
+    "en": "The median cubital vein is the preferred site for venipuncture.",
+    "ar": "الوريد المرفقي الناصف هو الموقع المفضّل لسحب الدم الوريدي.",
+    "answer": "T"
+   },
+   {
+    "en": "Patient identification is the first basic step of venous collection.",
+    "ar": "تعريف المريض هو الخطوة الأساسية الأولى في الجمع الوريدي.",
+    "answer": "T"
+   },
+   {
+    "en": "The brachial artery is the preferred artery for ABG.",
+    "ar": "الشريان العضدي هو الشريان المفضّل لغازات الدم.",
+    "answer": "F"
+   },
+   {
+    "en": "Air bubbles should be removed from an arterial sample.",
+    "ar": "يجب إزالة فقاعات الهواء من العيّنة الشريانية.",
+    "answer": "T"
+   },
+   {
+    "en": "Firm pressure is applied after arterial collection.",
+    "ar": "يُطبَّق ضغط قوي بعد سحب الدم الشرياني.",
+    "answer": "T"
+   },
+   {
+    "en": "In capillary collection, the alcohol should not be allowed to dry.",
+    "ar": "في الجمع الشعيري لا يجب ترك الكحول يجفّ.",
+    "answer": "F"
+   },
+   {
+    "en": "Sodium citrate tubes are used for coagulation tests.",
+    "ar": "تُستخدم أنابيب سترات الصوديوم لفحوص التخثّر.",
+    "answer": "T"
+   },
+   {
+    "en": "Heparin tubes are used for glucose.",
+    "ar": "تُستخدم أنابيب الهيبارين للكلوكوز.",
+    "answer": "F"
+   },
+   {
+    "en": "Plasma contains fibrinogen.",
+    "ar": "تحتوي البلازما على الفايبرينوجين.",
+    "answer": "T"
+   },
+   {
+    "en": "Serum is obtained from anticoagulated blood.",
+    "ar": "يُحصل على المصل من دم مضاف إليه مانع تخثّر.",
+    "answer": "F"
+   },
+   {
+    "en": "Hemolyzed samples may appear pink or red.",
+    "ar": "قد تظهر العيّنات المتحلّلة وردية أو حمراء.",
+    "answer": "T"
+   },
+   {
+    "en": "Vigorous shaking of tubes prevents hemolysis.",
+    "ar": "رجّ الأنابيب بعنف يمنع تحلّل الدم.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Preferred vein vs preferred artery",
+    "ar": "الوريد المفضّل مقابل الشريان المفضّل",
+    "answer_en": "Vein: median cubital. Artery (ABG): radial.",
+    "answer_ar": "الوريد: المرفقي الناصف. الشريان (غازات الدم): الكعبري."
+   },
+   {
+    "en": "Capillary sites: adults vs infants",
+    "ar": "مواقع الدم الشعيري: البالغون مقابل الرضّع",
+    "answer_en": "Adults/older children: side of the middle or ring finger, earlobe. Infants: medial or lateral plantar surface of the heel (avoid the central heel).",
+    "answer_ar": "البالغون/الأطفال الأكبر: جانب الوسطى أو البنصر، وشحمة الأذن. الرضّع: السطح الأخمصي الإنسي أو الوحشي للكعب (تجنّب وسط الكعب)."
+   },
+   {
+    "en": "Which tube for which test?",
+    "ar": "أي أنبوب لأي فحص؟",
+    "answer_en": "EDTA → CBC, blood film; sodium citrate → coagulation; heparin → blood gases/some chemistry; fluoride/oxalate → glucose; plain → serum.",
+    "answer_ar": "EDTA ← صورة الدم والمسحة؛ سترات الصوديوم ← التخثّر؛ الهيبارين ← غازات الدم/بعض الكيمياء؛ الفلورايد/الأوكزالات ← الكلوكوز؛ العادي ← المصل."
+   },
+   {
+    "en": "Serum vs plasma — which has fibrinogen?",
+    "ar": "المصل مقابل البلازما — أيهما فيه الفايبرينوجين؟",
+    "answer_en": "Plasma (anticoagulated blood) contains fibrinogen; serum (after clotting) does not.",
+    "answer_ar": "البلازما (دم مع مانع تخثّر) تحتوي الفايبرينوجين؛ والمصل (بعد التخثّر) لا يحتويه."
+   },
+   {
+    "en": "Small or large needle for hemolysis?",
+    "ar": "إبرة صغيرة أم كبيرة وتحلّل الدم؟",
+    "answer_en": "A small needle causes hemolysis; use an appropriate needle size.",
+    "answer_ar": "الإبرة الصغيرة تسبّب تحلّل الدم؛ استخدم إبرة بحجم مناسب."
+   },
+   {
+    "en": "Why wipe the first drop?",
+    "ar": "لماذا تُمسح القطرة الأولى؟",
+    "answer_en": "It is part of capillary precautions (with letting alcohol dry and avoiding squeezing) — squeezing causes hemolysis and tissue-fluid contamination.",
+    "answer_ar": "من احتياطات الجمع الشعيري (مع ترك الكحول يجفّ وتجنّب العصر) — فالعصر يسبّب التحلّل والتلوّث بسائل الأنسجة."
+   },
+   {
+    "en": "Colours of serum in the figure",
+    "ar": "ألوان المصل في الشكل",
+    "answer_en": "Normal: clear yellow; icteric (hyperbilirubinemia): dark yellow; lipemic: milky; hemolyzed: red.",
+    "answer_ar": "الطبيعي: أصفر صافٍ؛ اليرقاني (فرط البيليروبين): أصفر داكن؛ الدهني: حليبي؛ المتحلّل: أحمر."
+   }
+  ],
+  "important": [
+   {
+    "en": "What is blood collection, and what are its main purposes?",
+    "ar": "ما جمع الدم، وما أغراضه الرئيسة؟",
+    "answer_en": "Obtaining a blood sample for laboratory testing, diagnosis and monitoring. Purposes: laboratory testing, blood donation, monitoring.",
+    "answer_ar": "الحصول على عيّنة دم للفحص المختبري والتشخيص والمتابعة. أغراضه: الفحص المختبري، التبرّع بالدم، المتابعة."
+   },
+   {
+    "en": "What are the three main types of blood collection?",
+    "ar": "ما الأنواع الثلاثة الرئيسة لجمع الدم؟",
+    "answer_en": "Venous, capillary and arterial.",
+    "answer_ar": "الوريدي، والشعيري، والشرياني."
+   },
+   {
+    "en": "What is the preferred vein for venipuncture?",
+    "ar": "ما الوريد المفضّل لسحب الدم الوريدي؟",
+    "answer_en": "The median cubital vein.",
+    "answer_ar": "الوريد المرفقي الناصف."
+   },
+   {
+    "en": "What are the basic steps of venous blood collection?",
+    "ar": "ما الخطوات الأساسية لجمع الدم الوريدي؟",
+    "answer_en": "Patient identification → tourniquet → disinfection (70% alcohol) → blood collection → pressure → labeling.",
+    "answer_ar": "تعريف المريض ← الرباط الضاغط ← التعقيم (كحول 70%) ← سحب الدم ← الضغط ← وضع الملصق."
+   },
+   {
+    "en": "What is the main purpose of arterial blood collection?",
+    "ar": "ما الغرض الرئيس من جمع الدم الشرياني؟",
+    "answer_en": "Arterial blood gas (ABG) analysis.",
+    "answer_ar": "تحليل غازات الدم الشرياني (ABG)."
+   },
+   {
+    "en": "What is the preferred artery for ABG sampling?",
+    "ar": "ما الشريان المفضّل لسحب غازات الدم؟",
+    "answer_en": "The radial artery.",
+    "answer_ar": "الشريان الكعبري."
+   },
+   {
+    "en": "What parameters are measured in ABG analysis?",
+    "ar": "ما المعايير التي يقيسها تحليل غازات الدم؟",
+    "answer_en": "pH, PaO₂, PaCO₂, HCO₃⁻ and O₂ saturation.",
+    "answer_ar": "pH، وPaO₂، وPaCO₂، وHCO₃⁻، وتشبّع الأوكسجين."
+   },
+   {
+    "en": "What are the common sites for capillary blood collection in adults and infants?",
+    "ar": "ما المواقع الشائعة للجمع الشعيري عند البالغين والرضّع؟",
+    "answer_en": "Adults/older children: side of the middle or ring finger, earlobe. Infants: medial or lateral plantar surface of the heel.",
+    "answer_ar": "البالغون/الأطفال الأكبر: جانب الوسطى أو البنصر، وشحمة الأذن. الرضّع: السطح الأخمصي الإنسي أو الوحشي للكعب."
+   },
+   {
+    "en": "Why should excessive squeezing be avoided during capillary collection?",
+    "ar": "لماذا يجب تجنّب العصر المفرط أثناء الجمع الشعيري؟",
+    "answer_en": "It may cause hemolysis and contamination with tissue fluid.",
+    "answer_ar": "لأنه قد يسبّب تحلّل الدم والتلوّث بسائل الأنسجة."
+   },
+   {
+    "en": "What is the main difference between serum and plasma?",
+    "ar": "ما الفرق الرئيس بين المصل والبلازما؟",
+    "answer_en": "Plasma comes from anticoagulated blood and contains fibrinogen; serum is obtained after clotting and does not contain fibrinogen.",
+    "answer_ar": "البلازما من دم مع مانع تخثّر وتحتوي الفايبرينوجين؛ والمصل بعد التخثّر ولا يحتويه."
+   },
+   {
+    "en": "What is hemolysis? Mention two common causes.",
+    "ar": "ما تحلّل الدم؟ اذكر سببين شائعين.",
+    "answer_en": "Rupture of RBCs with release of hemoglobin and intracellular contents into serum/plasma. Causes: small needle, forceful aspiration, vigorous shaking.",
+    "answer_ar": "تمزّق الكريات الحمر مع تحرّر الهيموغلوبين والمحتويات داخل الخلوية إلى المصل/البلازما. أسبابه: الإبرة الصغيرة، السحب بقوة، الرجّ العنيف."
+   },
+   {
+    "en": "How can hemolysis be prevented during blood collection?",
+    "ar": "كيف يمكن منع تحلّل الدم أثناء الجمع؟",
+    "answer_en": "Use an appropriate needle size, avoid forceful aspiration, and handle and mix tubes gently.",
+    "answer_ar": "استخدام إبرة بحجم مناسب، وتجنّب السحب بقوة، والتعامل مع الأنابيب وخلطها بلطف."
+   }
+  ]
+ }
+}
