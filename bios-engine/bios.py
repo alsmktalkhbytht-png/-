@@ -224,29 +224,23 @@ def page(content, n, sub):
 
 
 def cover(title_en, title_ar, kind):
-    """Cover 1C: framed page, logo medallion, subject, lecture title between ornaments,
-    a details table (type, number, stage), the instructor in a clear box, BIOS · Telegram at the bottom."""
-    orn = '<div class="c3-orn"><i></i><s></s><i></i></div>'
-    rows = [("Type · النوع", kind), (f'{M["unit_en"].split()[0]} · {M["unit_ar"].split()[0]}', M["unit_no"]),
-            ("Stage · المرحلة", M.get("stage"))]
-    table = "".join(f'<tr><td class="k">{k}</td><td class="v">{v}</td></tr>' for k, v in rows if v)
-    ins = (f'<div class="c3-ins"><small>Instructor · التدريسي</small><b>{M["instructor"]}</b></div>'
+    """Cover 1B: double frame, logo, subject, the lecture title in a dark box with the lecture-number
+    badge on top, type and stage chips, the instructor in a large clear line, BIOS · Telegram at the bottom."""
+    badge = f'{M["unit_en"]} · <span dir="rtl">{M["unit_ar"]}</span>'
+    chips = "".join(f'<span class="cb-chip" dir="rtl">{v}</span>' for v in (kind, M.get("stage")) if v)
+    ins = (f'<div class="cb-ins"><small>Instructor · التدريسي</small><b>{M["instructor"]}</b></div>'
            if M.get("instructor") else "")
-    corners = "".join(f'<i class="c3-cn" style="{v}:8mm;{h}:8mm;border-{v}-width:.45mm;border-{h}-width:.45mm"></i>'
-                      for v in ("top", "bottom") for h in ("left", "right"))
-    return f'''<section class="page cover c3">
-<div class="c3-fr"></div>{corners}
-<div class="c3-med"></div><img class="c3-logo" src="{M["_logo"]}">
-<div class="c3-body">
- <div class="c3-lbl">SUBJECT · المادة</div>
- <div class="c3-se">{M["subject_en"]}</div><div class="c3-sa">{M["subject_ar"]}</div>
- {orn}
- <div class="c3-ta">{title_ar}</div><div class="c3-te">{title_en}</div>
- {orn}
- <table class="c3-tb">{table}</table>
+    return f'''<section class="page cover cb">
+<div class="cb-fr"></div><div class="cb-fr2"></div>
+<img class="cb-logo" src="{M["_logo"]}">
+<div class="cb-body">
+ <div class="cb-subj"><div class="e">{M["subject_en"]}</div><div class="a">{M["subject_ar"]}</div></div>
+ <div class="cb-title"><span class="cb-badge">{badge}</span>
+  <div class="a">{title_ar}</div><div class="e">{title_en}</div></div>
+ <div class="cb-chips">{chips}</div>
  {ins}
 </div>
-<div class="c3-foot"><b>{M["brand"]}</b><span></span>Telegram&nbsp;<b>@{M["telegram"]}</b></div>
+<div class="cb-foot"><b>{M["brand"]}</b><span></span>Telegram&nbsp;<b>@{M["telegram"]}</b></div>
 </section>'''
 
 
