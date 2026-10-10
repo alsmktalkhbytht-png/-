@@ -21,10 +21,10 @@ def make(name, dark, mid, light, title):
 :root{{--dark:{dark};--gold:{mid};--star:{mid};--egret:{light};--red:{mid};--key:{dark};--paper:#fff;
 --ink:{dark};--muted:{dark};--bd:{mid}}}
 /* soft accent fills carry dark text */
-.nb,.rule .rn,.qnum,.sn,.np,.tab,.pillh,.chip,.op .l{{color:{dark}}}
+.nb,.rule .rn,.qnum,.sn,.np,.tab,.chip,.op .l{{color:{dark}}}
 .chip,.op .l{{background:{light};border-color:{mid}}}
 /* bars carry light text */
-.sb,.rg-h,table.tb th,.lt-box,.cv-pill,.ftr .fx,.ftr .fx b,.cv-foot,.cv-foot .l b,.cv-foot .r b{{color:{light}}}
+.sb,.rg-h,table.tb th,.lt-box,.cv-pill,.pillh,.ftr .fx,.ftr .fx b,.cv-foot,.cv-foot .l b,.cv-foot .r b{{color:{light}}}
 .rule .rn{{box-shadow:0 0 0 .8mm {light}}}
 .sn{{border-color:{dark}}}
 .c-ar,.c-ar.cont{{border-top-color:{mid}}}

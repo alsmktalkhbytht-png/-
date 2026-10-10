@@ -2,10 +2,10 @@
 :root{--dark:#4a2c34;--gold:#c9b4a5;--star:#c9b4a5;--egret:#f7f1ee;--red:#c9b4a5;--key:#4a2c34;--paper:#fff;
 --ink:#4a2c34;--muted:#4a2c34;--bd:#c9b4a5}
 /* soft accent fills carry dark text */
-.nb,.rule .rn,.qnum,.sn,.np,.tab,.pillh,.chip,.op .l{color:#4a2c34}
+.nb,.rule .rn,.qnum,.sn,.np,.tab,.chip,.op .l{color:#4a2c34}
 .chip,.op .l{background:#f7f1ee;border-color:#c9b4a5}
 /* bars carry light text */
-.sb,.rg-h,table.tb th,.lt-box,.cv-pill,.ftr .fx,.ftr .fx b,.cv-foot,.cv-foot .l b,.cv-foot .r b{color:#f7f1ee}
+.sb,.rg-h,table.tb th,.lt-box,.cv-pill,.pillh,.ftr .fx,.ftr .fx b,.cv-foot,.cv-foot .l b,.cv-foot .r b{color:#f7f1ee}
 .rule .rn{box-shadow:0 0 0 .8mm #f7f1ee}
 .sn{border-color:#4a2c34}
 .c-ar,.c-ar.cont{border-top-color:#c9b4a5}
