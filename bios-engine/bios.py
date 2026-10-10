@@ -223,27 +223,30 @@ def page(content, n, sub):
             f'<div class="body"><div class="content">{content}</div></div>{footer(n)}</section>')
 
 
-def cover(pill_l, pill_r, kind):
-    cards = [("Department", "القسم", M.get("department")), ("Stage", "المرحلة", M.get("stage")),
-             ("Type", "النوع", kind), ("Translation", "ترجمة", M["translation"])]
-    cc = "".join(f'<div class="cv-card"><span class="k">{k}<small dir="rtl">{ka}</small></span><span class="v" dir="rtl">{v}</span></div>'
-                 for k, ka, v in cards if v)
-    ins = (f'<div class="cv-ins"><span class="k">Instructor<br><span dir="rtl">{M["instructor_label_ar"]}</span></span>'
-           f'<span class="v" dir="rtl">{M["instructor"]}</span></div>\n'
-           '<span class="cv-st" style="top:221.2mm">✦ ✦ ✦</span><span class="cv-st" style="top:238.6mm;letter-spacing:0;padding:0 3mm">✦</span>'
+def cover(title_en, title_ar, kind):
+    """Cover 1C: framed page, logo medallion, subject, lecture title between ornaments,
+    a details table (type, number, stage), the instructor in a clear box, BIOS · Telegram at the bottom."""
+    orn = '<div class="c3-orn"><i></i><s></s><i></i></div>'
+    rows = [("Type · النوع", kind), (f'{M["unit_en"].split()[0]} · {M["unit_ar"].split()[0]}', M["unit_no"]),
+            ("Stage · المرحلة", M.get("stage"))]
+    table = "".join(f'<tr><td class="k">{k}</td><td class="v">{v}</td></tr>' for k, v in rows if v)
+    ins = (f'<div class="c3-ins"><small>Instructor · التدريسي</small><b>{M["instructor"]}</b></div>'
            if M.get("instructor") else "")
-    return f'''<section class="page cover">
-<div class="cv-c1"></div><div class="cv-c2"></div><div class="cv-b1"></div><div class="cv-b2"></div>
-<div class="cv-logo"><img src="{M["_logo"]}"></div>
-<div class="cv-r" style="top:130mm"></div>
-<div class="cv-t1">{M["subject_en"]}</div>
-<div class="cv-t2" dir="rtl">{M["subject_ar"]}</div>
-<div class="cv-pill"><span dir="ltr">{pill_l}</span><span dir="rtl">{pill_r}</span></div>
-<div class="cv-r" style="top:181mm"></div>
-<div class="cv-cards">{cc}</div>
-{ins}
-<div class="cv-band"></div>
-<div class="cv-foot"><div class="l"><b>{M["brand"]}</b></div><div class="r">Telegram &nbsp;<b>@{M["telegram"]}</b></div></div>
+    corners = "".join(f'<i class="c3-cn" style="{v}:8mm;{h}:8mm;border-{v}-width:.45mm;border-{h}-width:.45mm"></i>'
+                      for v in ("top", "bottom") for h in ("left", "right"))
+    return f'''<section class="page cover c3">
+<div class="c3-fr"></div>{corners}
+<div class="c3-med"></div><img class="c3-logo" src="{M["_logo"]}">
+<div class="c3-body">
+ <div class="c3-lbl">SUBJECT · المادة</div>
+ <div class="c3-se">{M["subject_en"]}</div><div class="c3-sa">{M["subject_ar"]}</div>
+ {orn}
+ <div class="c3-ta">{title_ar}</div><div class="c3-te">{title_en}</div>
+ {orn}
+ <table class="c3-tb">{table}</table>
+ {ins}
+</div>
+<div class="c3-foot"><b>{M["brand"]}</b><span></span>Telegram&nbsp;<b>@{M["telegram"]}</b></div>
 </section>'''
 
 
@@ -396,7 +399,8 @@ def build(path, html_only=False):
     M["_css"] = rel(os.path.join(ENGINE, "style.css"))
     theme = M.get("theme", "wineoat")
     M["_theme"] = rel(os.path.join(ENGINE, "themes", theme + ".css"))
-    M["_logo"] = rel(os.path.join(ENGINE, "brand", f"logo_{theme}.jpg"))
+    logo = os.path.join(ENGINE, "brand", f"logo_{theme}.png")      # transparent cover logo when the theme has one
+    M["_logo"] = rel(logo if os.path.exists(logo) else os.path.join(ENGINE, "brand", f"logo_{theme}.jpg"))
     asset_base = rel(base_dir)
     M["_assets"] = asset_base
     sub = M["unit_en"]
@@ -419,7 +423,7 @@ def build(path, html_only=False):
         tmp = os.path.join(out_dir, "booklet.html")
         pages = paginate(items, tmp, sub, forced)
         FIG["n"] = 0  # numbering already baked into items
-        html_pages = [cover(f'{M["unit_en"]} — {M["title_en"]}', M["title_ar"], M["kind"])]
+        html_pages = [cover(M["title_en"], M["title_ar"], M["kind"])]
         html_pages += [page("".join(p), n, sub) for n, p in enumerate(pages, 1)]
         open(tmp, "w").write(doc(name, html_pages))
         outputs.append((tmp, os.path.join(base_dir, name + ".pdf"), len(pages)))
@@ -430,8 +434,8 @@ def build(path, html_only=False):
         qsub = f'{M["unit_en"]} · {Q.get("sub", "Exam")}'
         tmpq = os.path.join(out_dir, "questions.html")
         qpages = paginate(question_items(Q), tmpq, qsub, set())
-        hp = [cover(f'{M["unit_en"]} — {html.escape(Q.get("title_en", "Exam & Questions"))}',
-                    Q.get("title_ar", "بنك الأسئلة"), M["questions_kind"])]
+        hp = [cover(html.escape(Q.get("title_en", M["title_en"] + " — Exam & Questions")),
+                    Q.get("title_ar", M["title_ar"] + " — بنك الأسئلة"), M["kind"])]
         hp += [page("".join(p), n, qsub) for n, p in enumerate(qpages, 1)]
         open(tmpq, "w").write(doc(name + " - Questions", hp))
         qname = name + " - Questions" if data["blocks"] else name

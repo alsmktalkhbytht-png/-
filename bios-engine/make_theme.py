@@ -49,6 +49,10 @@ b.t{{text-decoration:underline;text-decoration-color:{mid};text-decoration-thick
     D, E = np.array(rgb(dark)), np.array(rgb(light))
     Image.fromarray((D + (E - D) * t[..., None]).astype("uint8")).save(
         os.path.join(ENGINE, "brand", f"logo_{name}.jpg"), quality=92)
+    # transparent version for the cover medallion: logo ink in the dark colour, no paper
+    alpha = ((1 - t) * 255).astype("uint8")
+    ink = np.dstack([np.full(t.shape, c, "uint8") for c in rgb(dark)] + [alpha])
+    Image.fromarray(ink, "RGBA").crop((90, 150, 810, 640)).save(os.path.join(ENGINE, "brand", f"logo_{name}.png"))
 
 
 if __name__ == "__main__":

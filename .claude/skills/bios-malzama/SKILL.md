@@ -37,9 +37,12 @@ description: Build a BIOS-style bilingual (English + Arabic) handout PDF — and
     Electric Rose `#F10291`, Pastel Petal `#FFCAE4`, Snow `#FFF3F2`, Rich Mahogany `#250209`.
   To add a theme, copy a theme file, change the values, and recolour
   `brand/logo_full.jpg` the same way (dark ink → the theme's `--dark`, paper → `--egret`).
-- **Cover credit:** the cover shows "Translation · ترجمة: بايوس" (meta `translation`, default
-  `بايوس`). Never put a person's name as translator. `instructor` and `stage` are optional —
-  leave them out when the source does not give them and the cover hides those boxes.
+- **Cover (option 1C, chosen by the team — every handout, current and future):** framed page,
+  BIOS logo in a white medallion, then only these six items: subject, lecture title, type
+  (theory/practical, `meta.kind`), lecture number (`unit_en`/`unit_ar` + `unit_no`), stage
+  (`meta.stage`) and the instructor (`meta.instructor`) in a large, clear dark box. BIOS ·
+  Telegram sits in a strip at the bottom of the cover. No translator name, department or other
+  credits on the cover. Stage and instructor rows are hidden when the source does not give them.
 - **Arabic body text is 13 pt** (one step smaller than before); keep it there.
 - **Sentence by sentence:** when a paragraph has more than one sentence, write `en` and
   `ar` as lists of sentences (same length). Each English sentence is then followed directly
