@@ -152,6 +152,7 @@ For a theory lecture use `"unit_en": "Lecture 3"`, `"unit_ar": "المحاضرة
 | `note` | `en`, `ar`, optional `label: ["Note", "ملاحظة"]` | remark, warning, or clinical note |
 | `spacer` | `h` (for example `"2mm"`) | small vertical gap |
 | `pagebreak` | — | force a new page (rarely needed) |
+| `eq` | `src` (path or list of paths), optional `h` (default `"14mm"`) | equation or reaction-scheme images cropped from the slides, centred and not numbered (Michaelis-Menten, Lineweaver-Burke…) |
 | `flow` | `steps: [{en, ar}]` (row with →) or `steps: [{en, ar, text_en, text_ar}]` (stacked with ↓), optional `en`/`ar` heading and `tail_en`/`tail_ar` | arrow chains from the slides (Question → … → Answer) |
 | `html` | `html` | escape hatch for a one-off layout |
 

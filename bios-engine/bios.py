@@ -210,6 +210,10 @@ def render_block(b, st, base):
         return group(b, b.get("style") == "light"), False
     if t == "figure":
         return fig(b, base), False
+    if t == "eq":                                   # equation image(s), centred, not numbered
+        srcs = b["src"] if isinstance(b["src"], list) else [b["src"]]
+        imgs = "".join(f'<img src="{os.path.join(base, x)}" style="height:{b.get("h", "14mm")}">' for x in srcs)
+        return f'<div class="eq">{imgs}</div>', False
     if t == "figures":
         return '<div class="fig2">' + "".join(fig(f, base) for f in b["items"]) + "</div>", False
     if t == "side":

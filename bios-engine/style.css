@@ -242,3 +242,7 @@ i.sp{font-weight:700;font-style:italic}
 .ar-only .op .l{font-family:AmiriQ,serif;font-size:10pt;line-height:1}
 .ar-only .akey div{direction:rtl}
 .ar-only .akey div span{font-family:AmiriQ,serif;font-size:12pt}
+
+/* equation images (block type eq) */
+.eq{display:flex;justify-content:center;align-items:center;gap:8mm;margin:1mm 0 3.4mm}
+.eq img{max-width:100%;object-fit:contain}
