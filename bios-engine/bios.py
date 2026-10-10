@@ -237,6 +237,25 @@ def cover_kind(kind):
     return k
 
 
+ORD_F = ["الأولى", "الثانية", "الثالثة", "الرابعة", "الخامسة", "السادسة", "السابعة", "الثامنة", "التاسعة", "العاشرة",
+         "الحادية عشرة", "الثانية عشرة", "الثالثة عشرة", "الرابعة عشرة", "الخامسة عشرة"]
+ORD_M = ["الأول", "الثاني", "الثالث", "الرابع", "الخامس", "السادس", "السابع", "الثامن", "التاسع", "العاشر",
+         "الحادي عشر", "الثاني عشر", "الثالث عشر", "الرابع عشر", "الخامس عشر"]
+
+
+def file_name():
+    """Arabic file name, only BIOS in English: 'BIOS - مناعة عملي المحاضرة الأولى'."""
+    if M.get("file_name"):
+        return M["file_name"]
+    n = int(M["unit_no"]) if str(M["unit_no"]).isdigit() else 0
+    week = M["unit_ar"].startswith("الأسبوع")
+    ords = ORD_M if week else ORD_F
+    num = ords[n - 1] if 0 < n <= len(ords) else str(M["unit_no"])
+    unit = f'{"الأسبوع" if week else "المحاضرة"} {num}'
+    kind_ar = cover_kind(M.get("kind")).split(" · ")[0]
+    return f'{M["brand"]} - {M.get("short_ar", M["subject_ar"])} {kind_ar} {unit}'
+
+
 def cover_stage():
     """'The third stage — الثالثة' → 'المرحلة الثالثة'."""
     if M.get("stage_ar"):
@@ -422,7 +441,7 @@ def build(path, html_only=False):
     asset_base = rel(base_dir)
     M["_assets"] = asset_base
     sub = M["unit_en"]
-    name = M.get("file_name") or f'{M["brand"]} - {M["subject_en"]} - {M["unit_en"]}'
+    name = file_name()
     outputs = []
 
     # booklet (skipped for a question bank with no lecture text)
@@ -456,7 +475,7 @@ def build(path, html_only=False):
                     Q.get("title_ar", M["title_ar"] + " — بنك الأسئلة"), M["kind"])]
         hp += [page("".join(p), n, qsub) for n, p in enumerate(qpages, 1)]
         open(tmpq, "w").write(doc(name + " - Questions", hp))
-        qname = name + " - Questions" if data["blocks"] else name
+        qname = name + " - الأسئلة" if data["blocks"] else name
         outputs.append((tmpq, os.path.join(base_dir, qname + ".pdf"), len(qpages)))
 
     for h, pdf, n in outputs:
