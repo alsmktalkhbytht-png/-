@@ -7,6 +7,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `immunology-lab1-serology/` — Practical Immunology Lab 1.
 - `parasitology-week1-mcq/` — Diagnostic Parasitology MCQ bank, week 1.
 - `bloodbank-lec1-introduction/` — Blood Transfusion (نقل الدم) lecture 1: Introduction to blood banking + Practical 1.
+- `research-lec1-principles/` — Principles of Research (مبادئ البحث العلمي) lecture 1.
 - `.claude/skills/bios-malzama/SKILL.md` — how to make a new handout and the full `lecture.json` format.
 
 Build a handout:

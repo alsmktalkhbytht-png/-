@@ -111,6 +111,7 @@ automatic pagination, and the question bank. The reference result is `lab1-biosa
 | `` `text` `` | left-to-right run inside Arabic (English terms, species) |
 | `^^text^^` | bold mark (for example a `*` footnote marker in a table) |
 | `[[cut]]` / `[[قطع]]` | yellow "text cut off in the original file" tag |
+| `\\*` | a literal asterisk (when the slide itself shows `**`) |
 
 ## lecture.json schema
 
@@ -140,7 +141,7 @@ For a theory lecture use `"unit_en": "Lecture 3"`, `"unit_ar": "المحاضرة
 |---|---|---|
 | `section` | `en`, `ar` | slide title → numbered sage bar (auto 1, 2, 3…) |
 | `h2` | `en`, `ar` | sub-heading inside a section |
-| `card` | `en`, `ar` (string, or list of sentences), optional `list_en`, `list_ar` (same length); leave `en` and `ar` empty for a list-only card | paragraph, definition, or an intro line followed by numbered points; point *n* of `list_en` is paired with point *n* of `list_ar` |
+| `card` | `en`, `ar` (string, or list of sentences), optional `alpha: true` (A, B, C badges), `list_en`, `list_ar` (same length); leave `en` and `ar` empty for a list-only card | paragraph, definition, or an intro line followed by numbered points; point *n* of `list_en` is paired with point *n* of `list_ar` |
 | `rule` | `en`, `ar` | numbered instruction/step; numbering restarts at each section |
 | `group` | `title_en`, `title_ar`, optional `sub_en`, `sub_ar`, `en`, `ar`, optional `style: "light"` | a classified item with a dark header bar (risk groups, types, stages); `light` gives a Star White bar |
 | `figure` | `src` (relative to the lecture folder), `en`, `ar`, optional `h` + `fit` ("cover"/"contain") or `width` | one figure |
@@ -151,6 +152,7 @@ For a theory lecture use `"unit_en": "Lecture 3"`, `"unit_ar": "المحاضرة
 | `note` | `en`, `ar`, optional `label: ["Note", "ملاحظة"]` | remark, warning, or clinical note |
 | `spacer` | `h` (for example `"2mm"`) | small vertical gap |
 | `pagebreak` | — | force a new page (rarely needed) |
+| `flow` | `steps: [{en, ar}]` (row with →) or `steps: [{en, ar, text_en, text_ar}]` (stacked with ↓), optional `en`/`ar` heading and `tail_en`/`tail_ar` | arrow chains from the slides (Question → … → Answer) |
 | `html` | `html` | escape hatch for a one-off layout |
 
 Any block can take `"keep": true` to stay on the same page as the block after it — use it

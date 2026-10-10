@@ -20,7 +20,7 @@ M = {}                                            # lecture meta, set by load()
 def md(s):
     """**bold**  *italic*  __bold italic species__  `LTR run inside Arabic`
     ^^mark^^  [[cut]] / [[قطع]] = text cut off in the original file."""
-    s = html.escape(s or "", quote=False)
+    s = html.escape(s or "", quote=False).replace("\\*", "\x00")       # \* = a literal asterisk
     s = re.sub(r"__(.+?)__", r'<i class="sp">\1</i>', s)
     s = re.sub(r"\*\*(.+?)\*\*", r'<b class="t">\1</b>', s)
     s = re.sub(r"(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])", r"<i>\1</i>", s)
@@ -28,7 +28,7 @@ def md(s):
     s = re.sub(r"\^\^(.+?)\^\^", r'<span class="mark">\1</span>', s)
     s = s.replace("[[cut]]", '<span class="cut" dir="ltr">[text cut off in the original file]</span>')
     s = s.replace("[[قطع]]", '<span class="cut" dir="rtl">[النص مقطوع في الملف الأصلي]</span>')
-    return s
+    return s.replace("\x00", "*")
 
 
 def en(s): return f'<p class="en" dir="ltr">{md(s)}</p>'
@@ -76,11 +76,28 @@ def pair(e, a, limit=SHORT):
     return f'<div class="pr {lay}">{en(e)}{ar(a) if a and a != e else ""}</div>'
 
 
-def plist(items_en, items_ar):
-    """Numbered points, each followed immediately by its own translation."""
-    rows = "".join(f'<li><span class="nb">{i}</span>{pair(e, a)}</li>'
+def plist(items_en, items_ar, alpha=False):
+    """Numbered (or lettered) points, each followed immediately by its own translation."""
+    rows = "".join(f'<li><span class="nb">{"ABCDEFGHIJ"[i - 1] if alpha else i}</span>{pair(e, a)}</li>'
                    for i, (e, a) in enumerate(zip(items_en, items_ar), 1))
     return f'<ol class="pl">{rows}</ol>'
+
+
+def flow(b):
+    """A chain of steps. Steps with explanatory text stack vertically with ↓; bare labels run in a row with arrows."""
+    head = ""
+    if b.get("en") or b.get("ar"):
+        head = f'<div class="fl-h"><span dir="ltr">{md(b.get("en", ""))}</span><span dir="rtl">{md(b.get("ar", ""))}</span></div>'
+    steps = b["steps"]
+    if any(x.get("text_en") for x in steps):
+        body = '<div class="fl-v">' + '<div class="fl-ar">↓</div>'.join(
+            f'<div class="fl-box"><div class="fl-l"><span dir="ltr">{md(x["en"])}</span><span dir="rtl">{md(x["ar"])}</span></div>'
+            f'{pair(x["text_en"], x["text_ar"]) if x.get("text_en") else ""}</div>' for x in steps) + "</div>"
+    else:
+        body = '<div class="fl-r">' + '<span class="fl-arr">→</span>'.join(
+            f'<span class="fl-p"><b dir="ltr">{md(x["en"])}</b><i dir="rtl">{md(x["ar"])}</i></span>' for x in steps) + "</div>"
+    tail = f'<div class="fl-t">{pair(b["tail_en"], b["tail_ar"])}</div>' if b.get("tail_en") else ""
+    return f'<div class="card fl">{head}{body}{tail}</div>'
 
 
 def sec(n, e, a):
@@ -170,11 +187,13 @@ def render_block(b, st, base):
         return h2(b["en"], b["ar"]), True
     if t == "card":
         if not b.get("en") and not b.get("ar"):     # list-only card
-            return f'<div class="card"><div class="c-list" style="border-top:0">{plist(b["list_en"], b.get("list_ar", []))}</div></div>', False
+            return f'<div class="card"><div class="c-list" style="border-top:0">{plist(b["list_en"], b.get("list_ar", []), b.get("alpha"))}</div></div>', False
         c = card(b["en"], b["ar"])
         if b.get("list_en"):
-            c = c[:-len("</div>")] + f'<div class="c-list">{plist(b["list_en"], b.get("list_ar", []))}</div></div>'
+            c = c[:-len("</div>")] + f'<div class="c-list">{plist(b["list_en"], b.get("list_ar", []), b.get("alpha"))}</div></div>'
         return c, False
+    if t == "flow":
+        return flow(b), False
     if t == "rule":
         st["rule"] += 1
         return rule(st["rule"], b["en"], b["ar"]), False
