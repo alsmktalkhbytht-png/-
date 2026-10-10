@@ -486,7 +486,9 @@ def build(path, html_only=False):
     os.makedirs(out_dir, exist_ok=True)
     rel = lambda p: os.path.relpath(p, out_dir)
     M["_css"] = rel(os.path.join(ENGINE, "style.css"))
-    theme = M.get("theme", "wineoat")
+    third = cover_stage() == "المرحلة الثالثة"
+    theme = M.get("theme", "blush" if third else "wineoat")      # third stage: the pink palette
+    merge = M.get("merge_questions", third)                       # third stage: questions inside the handout
     M["_theme"] = rel(os.path.join(ENGINE, "themes", theme + ".css"))
     logo = os.path.join(ENGINE, "brand", f"logo_{theme}.png")      # transparent cover logo when the theme has one
     M["_logo"] = rel(logo if os.path.exists(logo) else os.path.join(ENGINE, "brand", f"logo_{theme}.jpg"))
@@ -508,17 +510,28 @@ def build(path, html_only=False):
             continue
         h, keep = render_block(b, st, asset_base)
         items.append((h, keep or b.get("keep", False)))
+    merge = merge and bool(data["blocks"]) and bool(data.get("questions"))
     if data["blocks"]:
         tmp = os.path.join(out_dir, "booklet.html")
         pages = paginate(items, tmp, sub, forced)
         FIG["n"] = 0  # numbering already baked into items
         html_pages = [cover(M["title_en"], M["title_ar"], M["kind"])]
         html_pages += [page("".join(p), n, sub) for n, p in enumerate(pages, 1)]
+        n_pages = len(pages)
+        if merge:                                   # one file: lecture, then its questions
+            Q = data["questions"]
+            qsub = f'{M["unit_en"]} · {Q.get("sub", "Exam")}'
+            qpages = paginate(question_items(Q), os.path.join(out_dir, "questions.html"), qsub, set())
+            html_pages += [page("".join(p), n_pages + n, qsub) for n, p in enumerate(qpages, 1)]
+            n_pages += len(qpages)
+            stale = os.path.join(base_dir, name + " - الأسئلة.pdf")
+            if os.path.exists(stale):
+                os.remove(stale)
         open(tmp, "w").write(doc(name, html_pages))
-        outputs.append((tmp, os.path.join(base_dir, name + ".pdf"), len(pages)))
+        outputs.append((tmp, os.path.join(base_dir, name + ".pdf"), n_pages))
 
-    # question bank
-    if data.get("questions"):
+    # question bank (its own file unless merged above)
+    if data.get("questions") and not merge:
         Q = data["questions"]
         qsub = f'{M["unit_en"]} · {Q.get("sub", "Exam")}'
         tmpq = os.path.join(out_dir, "questions.html")

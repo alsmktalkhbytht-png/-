@@ -37,6 +37,12 @@ description: Build a BIOS-style bilingual (English + Arabic) handout PDF — and
     Electric Rose `#F10291`, Pastel Petal `#FFCAE4`, Snow `#FFF3F2`, Rich Mahogany `#250209`.
   To add a theme, copy a theme file, change the values, and recolour
   `brand/logo_full.jpg` the same way (dark ink → the theme's `--dark`, paper → `--egret`).
+- **Third stage (المرحلة الثالثة) — automatic, chosen by the team:** every lecture whose stage is
+  the third uses the `blush` theme (the four pink palette colours `#f9e9ef`, `#f2808f`, `#e8d6d0`,
+  `#eebcc2` only, with a deep rose ink `#4a2a30` for text) and puts its questions **inside the same
+  PDF**, right after the lecture (no separate "- الأسئلة" file). The engine does this from
+  `meta.stage`; override with `meta.theme` or `meta.merge_questions: false` only if asked.
+  Other stages keep `wineoat` and a separate question file.
 - **Cover — FINAL, do not redesign (approved by the team from the 1B sample):** every lecture,
   current and future, uses exactly this cover: double thin frame on the light colour, the BIOS
   logo, the subject (English then Arabic), the lecture title in a dark box with a light badge
