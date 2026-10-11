@@ -270,7 +270,7 @@
    ],
    "ar": [
     "والجدير بالذكر أن هناك زيادة ملحوظة في حدوث الربو في **العالم الغربي** خلال العقود الأربعة الماضية.",
-    "وقد أدّت هذه الملاحظة الوبائية إلى **«فرضية النظافة»** (`hygiene hypothesis`)، التي بموجبها قد يؤدي **القضاء على العدوى** إلى تغيير التوازن المناعي وتعزيز الاستجابات المناعية الأرجية وغيرها من الاستجابات الضارة."
+    "وقد أدّت هذه الملاحظة الوبائية إلى **«فرضية النظافة»** (`hygiene hypothesis`)، التي بموجبها قد يؤدي **القضاء على العدوى** إلى تغيير التوازن المناعي وتعزيز الاستجابات المناعية التحسّسية وغيرها من الاستجابات الضارة."
    ]
   },
   {
@@ -287,7 +287,7 @@
     "**nonatopic.**"
    ],
    "list_ar": [
-    "**تأتّبي** (`atopic`) (دليل على التحسّس لمستأرج، وغالبًا لدى مريض لديه تاريخ من التهاب الأنف التحسّسي أو الإكزيما)",
+    "**تأتّبي** (`atopic`) (دليل على التحسّس لمسبّب حساسية، وغالبًا لدى مريض لديه تاريخ من التهاب الأنف التحسّسي أو الإكزيما)",
     "**غير تأتّبي** (`nonatopic`)."
    ]
   },
@@ -371,7 +371,7 @@
     "This induces two waves of reaction:"
    ],
    "ar": [
-    "**يغلّف** `IgE` **الخلايا البدينة تحت المخاطية**، التي تُطلق محتويات حبيباتها عند التعرّض للمستأرج.",
+    "**يغلّف** `IgE` **الخلايا البدينة تحت المخاطية**، التي تُطلق محتويات حبيباتها عند التعرّض لمسبّب الحساسية.",
     "ويُحدث هذا موجتين من التفاعل:"
    ],
    "list_en": [
@@ -852,7 +852,7 @@
      ],
      [
       "Eradication of infections may alter immune homeostasis and promote allergy",
-      "القضاء على العدوى قد يغيّر التوازن المناعي ويعزّز الأرجية"
+      "القضاء على العدوى قد يغيّر التوازن المناعي ويعزّز التحسّس"
      ],
      [
       "Cold air cures asthma",
@@ -867,7 +867,7 @@
     "options": [
      [
       "Evidence of allergen sensitization, history of allergic rhinitis or eczema",
-      "دليل على التحسّس لمستأرج، وتاريخ التهاب الأنف التحسّسي أو الإكزيما"
+      "دليل على التحسّس لمسبّب حساسية، وتاريخ التهاب الأنف التحسّسي أو الإكزيما"
      ],
      [
       "Absence of IgE",
@@ -1343,19 +1343,19 @@
     "en": "What is the hygiene hypothesis?",
     "ar": "ما فرضية النظافة؟",
     "answer_en": "Based on the rise of asthma in the Western world over four decades: eradication of infections may alter immune homeostasis and promote allergic and other harmful immune responses.",
-    "answer_ar": "مبنية على ارتفاع الربو في العالم الغربي خلال أربعة عقود: القضاء على العدوى قد يغيّر التوازن المناعي ويعزّز الاستجابات الأرجية والضارة الأخرى."
+    "answer_ar": "مبنية على ارتفاع الربو في العالم الغربي خلال أربعة عقود: القضاء على العدوى قد يغيّر التوازن المناعي ويعزّز الاستجابات التحسّسية والضارة الأخرى."
    },
    {
     "en": "Classify asthma.",
     "ar": "صنّف الربو.",
     "answer_en": "Atopic (allergen sensitization, history of allergic rhinitis, eczema) and nonatopic; by inflammatory pattern (eosinophilic, neutrophilic, mixed, pauci-granulocytic); or by the agents/events that trigger bronchoconstriction.",
-    "answer_ar": "تأتّبي (تحسّس لمستأرج، تاريخ التهاب أنف تحسّسي أو إكزيما) وغير تأتّبي؛ أو بحسب نمط الالتهاب (حمضي، عدلي، مختلط، قليل المحبّبات)؛ أو بحسب العوامل/الأحداث المُطلِقة لتضيّق القصبات."
+    "answer_ar": "تأتّبي (تحسّس لمسبّب حساسية، تاريخ التهاب أنف تحسّسي أو إكزيما) وغير تأتّبي؛ أو بحسب نمط الالتهاب (حمضي، عدلي، مختلط، قليل المحبّبات)؛ أو بحسب العوامل/الأحداث المُطلِقة لتضيّق القصبات."
    },
    {
     "en": "Explain the role of TH2 cells and IgE in the pathogenesis of asthma.",
     "ar": "اشرح دور خلايا TH2 وIgE في إمراضية الربو.",
     "answer_en": "Excessive TH2 reaction to environmental antigens; IL-4 → IgE, IL-5 → eosinophils, IL-13 → mucus and IgE. IgE coats submucosal mast cells, which release granule contents on allergen exposure, giving an early phase (bronchoconstriction via vagal receptors, mucus, vasodilation) and a late phase.",
-    "answer_ar": "تفاعل مفرط لخلايا TH2 ضد المستضدات البيئية؛ IL-4 → IgE، وIL-5 → الحمضات، وIL-13 → المخاط وIgE. يغلّف IgE الخلايا البدينة تحت المخاطية فتُطلق حبيباتها عند التعرّض للمستأرج، فيحدث طور مبكر (تضيّق قصبات عبر المستقبلات المبهمية، ومخاط، وتوسّع أوعية) وطور متأخر."
+    "answer_ar": "تفاعل مفرط لخلايا TH2 ضد المستضدات البيئية؛ IL-4 → IgE، وIL-5 → الحمضات، وIL-13 → المخاط وIgE. يغلّف IgE الخلايا البدينة تحت المخاطية فتُطلق حبيباتها عند التعرّض لمسبّب الحساسية، فيحدث طور مبكر (تضيّق قصبات عبر المستقبلات المبهمية، ومخاط، وتوسّع أوعية) وطور متأخر."
    }
   ]
  }
