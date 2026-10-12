@@ -268,23 +268,14 @@ def cover_kind(kind):
     return k
 
 
-ORD_F = ["الأولى", "الثانية", "الثالثة", "الرابعة", "الخامسة", "السادسة", "السابعة", "الثامنة", "التاسعة", "العاشرة",
-         "الحادية عشرة", "الثانية عشرة", "الثالثة عشرة", "الرابعة عشرة", "الخامسة عشرة"]
-ORD_M = ["الأول", "الثاني", "الثالث", "الرابع", "الخامس", "السادس", "السابع", "الثامن", "التاسع", "العاشر",
-         "الحادي عشر", "الثاني عشر", "الثالث عشر", "الرابع عشر", "الخامس عشر"]
-
-
 def file_name():
-    """Arabic file name, only BIOS in English: 'BIOS - مناعة عملي المحاضرة الأولى'."""
+    """Arabic file name, no BIOS prefix and a plain digit: 'امراض دم نظري محاضرة 1'."""
     if M.get("file_name"):
         return M["file_name"]
-    n = int(M["unit_no"]) if str(M["unit_no"]).isdigit() else 0
     week = M["unit_ar"].startswith("الأسبوع")
-    ords = ORD_M if week else ORD_F
-    num = ords[n - 1] if 0 < n <= len(ords) else str(M["unit_no"])
-    unit = f'{"الأسبوع" if week else "المحاضرة"} {num}'
+    unit = f'{"الأسبوع" if week else "محاضرة"} {M["unit_no"]}'
     kind_ar = cover_kind(M.get("kind")).split(" · ")[0]
-    return f'{M["brand"]} - {M.get("short_ar", M["subject_ar"])} {kind_ar} {unit}'
+    return f'{M.get("short_ar", M["subject_ar"])} {kind_ar} {unit}'
 
 
 def cover_stage():

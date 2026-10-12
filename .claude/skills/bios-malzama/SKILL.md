@@ -51,10 +51,11 @@ description: Build a BIOS-style bilingual (English + Arabic) handout PDF — and
   bold, and the small line "BIOS · Telegram @BIOS0t" at the bottom. Nothing else on the cover.
   The engine derives the chip wording from `meta.kind` and `meta.stage` (or set `kind_ar`,
   `kind_en`, `stage_ar` explicitly). Stage and instructor are hidden when the source lacks them.
-- **File names are Arabic, only BIOS in English:** `BIOS - <short subject> <type> المحاضرة <ordinal>`,
-  e.g. `BIOS - مناعة عملي المحاضرة الأولى`; the question bank adds ` - الأسئلة`. Set
-  `meta.short_ar` (مناعة، بكتريا، بنك الدم، طفيليات…); the engine writes the type and the
-  ordinal (الأولى، الثانية… or الأسبوع الأول… for weeks). `meta.file_name` overrides it.
+- **File names are Arabic only, no BIOS prefix, plain digit (team rule):**
+  `<short subject> <type> محاضرة <number>`, e.g. `امراض دم نظري محاضرة 1`,
+  `مناعة عملي محاضرة 2`; the question bank adds ` - الأسئلة`. Set `meta.short_ar`
+  (امراض دم، مناعة، بكتريا، طفيليات…); the engine writes the type and the number
+  (`الأسبوع 1` for weeks). `meta.file_name` overrides it. Older handouts keep their old names.
 - **Arabic body text is 13 pt** (one step smaller than before); keep it there.
 - **Sentence by sentence:** when a paragraph has more than one sentence, write `en` and
   `ar` as lists of sentences (same length). Each English sentence is then followed directly
@@ -89,7 +90,7 @@ automatic pagination, and the question bank. The reference result is `lab1-biosa
 3. **Write `lecture.json`** using the schema below. Start from
    `lab1-biosafety/lecture.json` as the worked example.
 4. **Build:** `python3 bios-engine/bios.py <folder>/lecture.json`
-   This writes `<folder>/BIOS - <short subject> <type> المحاضرة <ordinal>.pdf` (plus `... - الأسئلة.pdf`
+   This writes `<folder>/<short subject> <type> محاضرة <number>.pdf` (plus `... - الأسئلة.pdf`
    when `questions` exists) and one PNG per page in `<folder>/.build/*-pages/`.
 5. **Look at the page PNGs** (contact sheet with PIL) and fix anything odd: an overflow
    line in the build output, a wrongly cropped figure, a bad line break. Rebuild.
