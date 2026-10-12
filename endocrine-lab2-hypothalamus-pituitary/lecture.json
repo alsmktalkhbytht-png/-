@@ -1,0 +1,1117 @@
+{
+ "meta": {
+  "subject_en": "Clinical Biochemistry (Endocrine)",
+  "subject_ar": "الكيمياء السريرية (الغدد الصمّاء)",
+  "short_ar": "كيمياء سريرية",
+  "unit_en": "Lab 2",
+  "unit_ar": "العملي 2",
+  "unit_label": "LAB",
+  "unit_no": "2",
+  "title_en": "Hypothalamus and Pituitary Gland",
+  "title_ar": "الوطاء والغدة النخامية",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة",
+  "instructor": "م.م. نور إبراهيم"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Introduction",
+   "ar": "مقدمة"
+  },
+  {
+   "t": "card",
+   "en": [
+    "The hypothalamus and pituitary gland work together to regulate several endocrine functions, including growth, metabolism, reproduction, stress responses, and water balance.",
+    "The hypothalamus controls pituitary hormone secretion through releasing and inhibiting hormones, neural connections, and feedback mechanisms.",
+    "Pituitary disorders may result in either excessive or deficient hormone secretion."
+   ],
+   "ar": [
+    "يعمل **الوطاء** (تحت المهاد) و**الغدة النخامية** معًا لتنظيم عدّة وظائف صمّاوية، منها النمو والأيض والتكاثر والاستجابة للإجهاد وتوازن الماء.",
+    "يتحكّم الوطاء في إفراز هرمونات النخامية عن طريق **الهرمونات المحرِّرة والمثبِّطة**، والاتصالات العصبية، وآليات التغذية الراجعة.",
+    "قد تؤدّي اضطرابات الغدة النخامية إلى **زيادة** إفراز الهرمونات أو **نقصه**."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Hypothalamic–Pituitary Relationship",
+   "ar": "العلاقة بين الوطاء والغدة النخامية"
+  },
+  {
+   "t": "card",
+   "en": "The pituitary gland consists of two functionally distinct parts:",
+   "ar": "تتكوّن الغدة النخامية من **جزأين مختلفين وظيفيًا**:"
+  },
+  {
+   "t": "figure",
+   "src": "assets/hormones.jpg",
+   "en": "Hormones",
+   "ar": "الهرمونات: الوطاء والغدة النخامية وأعضاؤها المستهدفة",
+   "h": "118mm",
+   "fit": "contain"
+  },
+  {
+   "t": "note",
+   "en": "The figure labels adrenocorticotropic hormone as (ACH); the correct abbreviation is ACTH. Vasopressin (ADH) in the figure is the same hormone written ADH/AVP in the tables.",
+   "ar": "في الشكل كُتب اختصار الهرمون الموجّه لقشرة الكظر `(ACH)` والصحيح `ACTH`. و**الفازوبريسين** `(ADH)` في الشكل هو نفسه الهرمون المكتوب `ADH/AVP` في الجداول.",
+   "label": [
+    "BIOS note",
+    "ملاحظة بايوس"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "A-Anterior Pituitary (Adenohypophysis)",
+   "ar": "أ- النخامية الأمامية (النخامية الغدّية)"
+  },
+  {
+   "t": "card",
+   "en": "The hypothalamus regulates the anterior pituitary through releasing and inhibiting hormones transported by the hypothalamic–pituitary portal system.",
+   "ar": "ينظّم الوطاء النخامية الأمامية عن طريق هرمونات محرِّرة ومثبِّطة تُنقل عبر **الجهاز البابي الوطائي النخامي**."
+  },
+  {
+   "t": "card",
+   "en": "**Major anterior pituitary hormones:**",
+   "ar": "**أهم هرمونات النخامية الأمامية:**",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    "Hormone",
+    "Main Function",
+    "الهرمون — الوظيفة الرئيسة"
+   ],
+   "rows": [
+    [
+     "Growth Hormone (GH)",
+     "Stimulates body growth and regulates metabolism",
+     "**هرمون النمو** `(GH)` — يحفّز نمو الجسم وينظّم الأيض"
+    ],
+    [
+     "Prolactin (PRL)",
+     "Stimulates milk production",
+     "**البرولاكتين** `(PRL)` — يحفّز إنتاج الحليب"
+    ],
+    [
+     "Adrenocorticotropic-Hormone (ACTH)",
+     "Stimulates cortisol secretion from the adrenal cortex",
+     "**الهرمون الموجّه لقشرة الكظر** `(ACTH)` — يحفّز إفراز الكورتيزول من قشرة الكظر"
+    ],
+    [
+     "Thyroid-Stimulating-Hormone (TSH)",
+     "Stimulates thyroid hormone production",
+     "**الهرمون المحفّز للدرقية** `(TSH)` — يحفّز إنتاج هرمونات الغدة الدرقية"
+    ],
+    [
+     "Follicle-Stimulating-Hormone (FSH)",
+     "Regulates follicular development and spermatogenesis",
+     "**الهرمون المحفّز للجريب** `(FSH)` — ينظّم نموّ الجريبات وتكوين النطف"
+    ],
+    [
+     "Luteinizing Hormone (LH)",
+     "Regulates ovulation and sex hormone production",
+     "**الهرمون اللوتيني** `(LH)` — ينظّم الإباضة وإنتاج الهرمونات الجنسية"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    "52mm",
+    "",
+    "62mm"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "B. Posterior Pituitary (Neurohypophysis)",
+   "ar": "ب. النخامية الخلفية (النخامية العصبية)"
+  },
+  {
+   "t": "card",
+   "en": "The posterior pituitary stores and releases hormones synthesized in the hypothalamus.",
+   "ar": "**تخزّن** النخامية الخلفية **وتحرّر** هرمونات **تُصنَّع في الوطاء**.",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    "Hormone",
+    "Main Function",
+    "الهرمون — الوظيفة الرئيسة"
+   ],
+   "rows": [
+    [
+     "Antidiuretic-Hormone (ADH/AVP)",
+     "Increases water reabsorption in the kidney collecting ducts",
+     "**الهرمون المضاد لإدرار البول** `(ADH/AVP)` — يزيد إعادة امتصاص الماء في القنوات الجامعة للكلية"
+    ],
+    [
+     "Oxytocin",
+     "Promotes milk ejection and uterine contractions",
+     "**الأوكسيتوسين** — يعزّز قذف الحليب وتقلّصات الرحم"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    "52mm",
+    "",
+    "62mm"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Control of Anterior Pituitary Hormones",
+   "ar": "التحكّم في هرمونات النخامية الأمامية"
+  },
+  {
+   "t": "card",
+   "en": "The hypothalamus regulates anterior pituitary hormone secretion through specific factors:",
+   "ar": "ينظّم الوطاء إفراز هرمونات النخامية الأمامية عن طريق عوامل محدّدة:",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    "Hypothalamic Factor",
+    "Effect",
+    "العامل الوطائي — التأثير"
+   ],
+   "rows": [
+    [
+     "Growth-Hormone-Releasing-Hormone (GHRH)",
+     "Stimulates GH secretion",
+     "**الهرمون المحرِّر لهرمون النمو** `(GHRH)` — يحفّز إفراز `GH`"
+    ],
+    [
+     "Somatostatin",
+     "Inhibits GH secretion",
+     "**السوماتوستاتين** — يثبّط إفراز `GH`"
+    ],
+    [
+     "Dopamine",
+     "Inhibits prolactin secretion",
+     "**الدوبامين** — يثبّط إفراز البرولاكتين"
+    ],
+    [
+     "Corticotropin-Releasing Hormone (CRH)",
+     "Stimulates ACTH secretion",
+     "**الهرمون المحرِّر لموجّهة القشرة** `(CRH)` — يحفّز إفراز `ACTH`"
+    ],
+    [
+     "Thyrotropin-Releasing Hormone (TRH)",
+     "Stimulates TSH secretion",
+     "**الهرمون المحرِّر لموجّهة الدرقية** `(TRH)` — يحفّز إفراز `TSH`"
+    ],
+    [
+     "Gonadotropin-Releasing Hormone (GnRH)",
+     "Stimulates FSH and LH secretion",
+     "**الهرمون المحرِّر لموجّهة الغدد التناسلية** `(GnRH)` — يحفّز إفراز `FSH` و`LH`"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    "52mm",
+    "",
+    "62mm"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Negative Feedback Mechanism",
+   "ar": "آلية التغذية الراجعة السلبية"
+  },
+  {
+   "t": "card",
+   "en": "Hormones released by target endocrine glands inhibit further secretion from the hypothalamus and pituitary gland.",
+   "ar": "الهرمونات التي تحرّرها **الغدد الصمّاء المستهدفة** **تثبّط** استمرار الإفراز من الوطاء والغدة النخامية."
+  },
+  {
+   "t": "note",
+   "en": "Increased circulating thyroid hormones (T3 and T4) suppress TRH and TSH secretion.",
+   "ar": "ارتفاع هرمونات الدرقية الجائلة في الدم (`T3` و`T4`) **يكبح** إفراز `TRH` و`TSH`.",
+   "label": [
+    "Example",
+    "مثال"
+   ]
+  },
+  {
+   "t": "flow",
+   "en": "Thyroid axis (drawn for the handout from the lecture text)",
+   "ar": "محور الغدة الدرقية (رُسم للملزمة من نص المحاضرة)",
+   "steps": [
+    {
+     "en": "Hypothalamus → TRH",
+     "ar": "الوطاء ← `TRH`"
+    },
+    {
+     "en": "Anterior pituitary → TSH",
+     "ar": "النخامية الأمامية ← `TSH`"
+    },
+    {
+     "en": "Thyroid → T3 & T4",
+     "ar": "الدرقية ← `T3` و`T4`"
+    }
+   ],
+   "tail_en": "↑ T3 & T4 → suppress TRH and TSH (negative feedback)",
+   "tail_ar": "ارتفاع `T3` و`T4` يكبح `TRH` و`TSH` (تغذية راجعة سلبية)"
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Introduction & relationship",
+    "topic_ar": "المقدمة والعلاقة بين الوطاء والنخامية"
+   },
+   {
+    "en": "The hypothalamus and pituitary gland regulate all of the following EXCEPT:",
+    "ar": "ينظّم الوطاء والغدة النخامية كل ما يلي عدا:",
+    "options": [
+     [
+      "Growth",
+      "النمو"
+     ],
+     [
+      "Water balance",
+      "توازن الماء"
+     ],
+     [
+      "Digestion of food",
+      "هضم الطعام"
+     ],
+     [
+      "Stress responses",
+      "الاستجابة للإجهاد"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The hypothalamus controls pituitary hormone secretion through:",
+    "ar": "يتحكّم الوطاء في إفراز هرمونات النخامية عن طريق:",
+    "options": [
+     [
+      "Releasing and inhibiting hormones only",
+      "الهرمونات المحرِّرة والمثبِّطة فقط"
+     ],
+     [
+      "Neural connections only",
+      "الاتصالات العصبية فقط"
+     ],
+     [
+      "Feedback mechanisms only",
+      "آليات التغذية الراجعة فقط"
+     ],
+     [
+      "All of the above",
+      "كل ما سبق"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Pituitary disorders may result in:",
+    "ar": "قد تؤدّي اضطرابات الغدة النخامية إلى:",
+    "options": [
+     [
+      "Either excessive or deficient hormone secretion",
+      "زيادة إفراز الهرمونات أو نقصه"
+     ],
+     [
+      "Excessive secretion only",
+      "زيادة الإفراز فقط"
+     ],
+     [
+      "Deficient secretion only",
+      "نقص الإفراز فقط"
+     ],
+     [
+      "No change in secretion",
+      "لا تغيّر في الإفراز"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The anterior pituitary is also called:",
+    "ar": "تُسمّى النخامية الأمامية أيضًا:",
+    "options": [
+     [
+      "Neurohypophysis",
+      "النخامية العصبية"
+     ],
+     [
+      "Adenohypophysis",
+      "النخامية الغدّية"
+     ],
+     [
+      "Pineal gland",
+      "الغدة الصنوبرية"
+     ],
+     [
+      "Hypothalamus",
+      "الوطاء"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The posterior pituitary is also called:",
+    "ar": "تُسمّى النخامية الخلفية أيضًا:",
+    "options": [
+     [
+      "Adenohypophysis",
+      "النخامية الغدّية"
+     ],
+     [
+      "Adrenal medulla",
+      "لبّ الكظر"
+     ],
+     [
+      "Neurohypophysis",
+      "النخامية العصبية"
+     ],
+     [
+      "Thyroid gland",
+      "الغدة الدرقية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Hypothalamic releasing and inhibiting hormones reach the anterior pituitary through the:",
+    "ar": "تصل الهرمونات الوطائية المحرِّرة والمثبِّطة إلى النخامية الأمامية عبر:",
+    "options": [
+     [
+      "Lymphatic vessels",
+      "الأوعية اللمفاوية"
+     ],
+     [
+      "Cerebrospinal fluid",
+      "السائل الدماغي الشوكي"
+     ],
+     [
+      "Kidney collecting ducts",
+      "القنوات الجامعة للكلية"
+     ],
+     [
+      "Hypothalamic–pituitary portal system",
+      "الجهاز البابي الوطائي النخامي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Anterior pituitary hormones",
+    "topic_ar": "هرمونات النخامية الأمامية"
+   },
+   {
+    "en": "The hormone that stimulates body growth and regulates metabolism is:",
+    "ar": "الهرمون الذي يحفّز نمو الجسم وينظّم الأيض هو:",
+    "options": [
+     [
+      "Growth Hormone (GH)",
+      "هرمون النمو"
+     ],
+     [
+      "Prolactin (PRL)",
+      "البرولاكتين"
+     ],
+     [
+      "TSH",
+      "TSH"
+     ],
+     [
+      "Oxytocin",
+      "الأوكسيتوسين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Prolactin (PRL) stimulates:",
+    "ar": "يحفّز البرولاكتين `(PRL)`:",
+    "options": [
+     [
+      "Milk ejection",
+      "قذف الحليب"
+     ],
+     [
+      "Milk production",
+      "إنتاج الحليب"
+     ],
+     [
+      "Uterine contractions",
+      "تقلّصات الرحم"
+     ],
+     [
+      "Ovulation",
+      "الإباضة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Cortisol secretion from the adrenal cortex is stimulated by:",
+    "ar": "يُحفَّز إفراز الكورتيزول من قشرة الكظر بواسطة:",
+    "options": [
+     [
+      "TSH",
+      "TSH"
+     ],
+     [
+      "LH",
+      "LH"
+     ],
+     [
+      "ACTH",
+      "ACTH"
+     ],
+     [
+      "ADH",
+      "ADH"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Follicular development and spermatogenesis are regulated by:",
+    "ar": "يُنظَّم نموّ الجريبات وتكوين النطف بواسطة:",
+    "options": [
+     [
+      "LH",
+      "LH"
+     ],
+     [
+      "Prolactin (PRL)",
+      "البرولاكتين"
+     ],
+     [
+      "Growth Hormone (GH)",
+      "هرمون النمو"
+     ],
+     [
+      "FSH",
+      "FSH"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Ovulation and sex hormone production are regulated by:",
+    "ar": "تُنظَّم الإباضة وإنتاج الهرمونات الجنسية بواسطة:",
+    "options": [
+     [
+      "LH",
+      "LH"
+     ],
+     [
+      "FSH",
+      "FSH"
+     ],
+     [
+      "TSH",
+      "TSH"
+     ],
+     [
+      "ACTH",
+      "ACTH"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which of the following is NOT an anterior pituitary hormone?",
+    "ar": "أيّ مما يلي ليس من هرمونات النخامية الأمامية؟",
+    "options": [
+     [
+      "TSH",
+      "TSH"
+     ],
+     [
+      "Oxytocin",
+      "الأوكسيتوسين"
+     ],
+     [
+      "FSH",
+      "FSH"
+     ],
+     [
+      "Growth Hormone (GH)",
+      "هرمون النمو"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Posterior pituitary hormones",
+    "topic_ar": "هرمونات النخامية الخلفية"
+   },
+   {
+    "en": "The posterior pituitary:",
+    "ar": "النخامية الخلفية:",
+    "options": [
+     [
+      "Synthesizes ADH and oxytocin",
+      "تصنّع `ADH` والأوكسيتوسين"
+     ],
+     [
+      "Secretes GH and PRL",
+      "تفرز `GH` و`PRL`"
+     ],
+     [
+      "Stores and releases hormones synthesized in the hypothalamus",
+      "تخزّن وتحرّر هرمونات مصنّعة في الوطاء"
+     ],
+     [
+      "Is controlled by the portal system",
+      "يتحكّم بها الجهاز البابي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "ADH increases water reabsorption in the:",
+    "ar": "يزيد `ADH` إعادة امتصاص الماء في:",
+    "options": [
+     [
+      "Proximal tubule",
+      "النُبيب القريب"
+     ],
+     [
+      "Urinary bladder",
+      "المثانة"
+     ],
+     [
+      "Glomerulus",
+      "الكُبيبة"
+     ],
+     [
+      "Kidney collecting ducts",
+      "القنوات الجامعة للكلية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Milk ejection and uterine contractions are promoted by:",
+    "ar": "يعزّز قذف الحليب وتقلّصات الرحم:",
+    "options": [
+     [
+      "Oxytocin",
+      "الأوكسيتوسين"
+     ],
+     [
+      "Prolactin (PRL)",
+      "البرولاكتين"
+     ],
+     [
+      "ADH",
+      "ADH"
+     ],
+     [
+      "LH",
+      "LH"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Antidiuretic hormone is also written as:",
+    "ar": "يُكتب الهرمون المضاد لإدرار البول أيضًا:",
+    "options": [
+     [
+      "ACTH",
+      "ACTH"
+     ],
+     [
+      "AVP",
+      "AVP"
+     ],
+     [
+      "GHRH",
+      "GHRH"
+     ],
+     [
+      "CRH",
+      "CRH"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Control of anterior pituitary hormones",
+    "topic_ar": "التحكّم في هرمونات النخامية الأمامية"
+   },
+   {
+    "en": "GH secretion is inhibited by:",
+    "ar": "يُثبَّط إفراز `GH` بواسطة:",
+    "options": [
+     [
+      "GHRH",
+      "GHRH"
+     ],
+     [
+      "Dopamine",
+      "الدوبامين"
+     ],
+     [
+      "Somatostatin",
+      "السوماتوستاتين"
+     ],
+     [
+      "TRH",
+      "TRH"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Prolactin secretion is inhibited by:",
+    "ar": "يُثبَّط إفراز البرولاكتين بواسطة:",
+    "options": [
+     [
+      "Somatostatin",
+      "السوماتوستاتين"
+     ],
+     [
+      "CRH",
+      "CRH"
+     ],
+     [
+      "GnRH",
+      "GnRH"
+     ],
+     [
+      "Dopamine",
+      "الدوبامين"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Corticotropin-releasing hormone (CRH) stimulates the secretion of:",
+    "ar": "يحفّز الهرمون المحرِّر لموجّهة القشرة `(CRH)` إفراز:",
+    "options": [
+     [
+      "ACTH",
+      "ACTH"
+     ],
+     [
+      "TSH",
+      "TSH"
+     ],
+     [
+      "Growth Hormone (GH)",
+      "هرمون النمو"
+     ],
+     [
+      "Prolactin (PRL)",
+      "البرولاكتين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Thyrotropin-releasing hormone (TRH) stimulates the secretion of:",
+    "ar": "يحفّز الهرمون المحرِّر لموجّهة الدرقية `(TRH)` إفراز:",
+    "options": [
+     [
+      "ACTH",
+      "ACTH"
+     ],
+     [
+      "TSH",
+      "TSH"
+     ],
+     [
+      "FSH",
+      "FSH"
+     ],
+     [
+      "T3 and T4 directly",
+      "T3 و T4 مباشرة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "GnRH stimulates the secretion of:",
+    "ar": "يحفّز `GnRH` إفراز:",
+    "options": [
+     [
+      "GH",
+      "GH"
+     ],
+     [
+      "ACTH",
+      "ACTH"
+     ],
+     [
+      "FSH and LH",
+      "FSH و LH"
+     ],
+     [
+      "Prolactin",
+      "البرولاكتين"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The hypothalamic factor that stimulates GH secretion is:",
+    "ar": "العامل الوطائي الذي يحفّز إفراز `GH` هو:",
+    "options": [
+     [
+      "Somatostatin",
+      "السوماتوستاتين"
+     ],
+     [
+      "Dopamine",
+      "الدوبامين"
+     ],
+     [
+      "CRH",
+      "CRH"
+     ],
+     [
+      "GHRH",
+      "GHRH"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Negative feedback",
+    "topic_ar": "التغذية الراجعة السلبية"
+   },
+   {
+    "en": "In negative feedback, hormones released by target endocrine glands:",
+    "ar": "في التغذية الراجعة السلبية، الهرمونات التي تحرّرها الغدد المستهدفة:",
+    "options": [
+     [
+      "Inhibit further secretion from the hypothalamus and pituitary",
+      "تثبّط استمرار الإفراز من الوطاء والنخامية"
+     ],
+     [
+      "Stimulate further secretion from the hypothalamus",
+      "تحفّز استمرار إفراز الوطاء"
+     ],
+     [
+      "Have no effect on the pituitary",
+      "لا تأثير لها في النخامية"
+     ],
+     [
+      "Are stored in the posterior pituitary",
+      "تُخزَّن في النخامية الخلفية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Increased circulating T3 and T4 suppress:",
+    "ar": "ارتفاع `T3` و`T4` في الدم يكبح:",
+    "options": [
+     [
+      "GHRH and GH",
+      "GHRH و GH"
+     ],
+     [
+      "TRH and TSH",
+      "TRH و TSH"
+     ],
+     [
+      "CRH and ACTH",
+      "CRH و ACTH"
+     ],
+     [
+      "GnRH and LH",
+      "GnRH و LH"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "The gland shown secretes cortisol when stimulated by which pituitary hormone?",
+    "ar": "تفرز الغدة الظاهرة في الصورة الكورتيزول بتحفيز من أيّ هرمون نخامي؟",
+    "options": [
+     [
+      "TSH",
+      "TSH"
+     ],
+     [
+      "ACTH",
+      "ACTH"
+     ],
+     [
+      "LH",
+      "LH"
+     ],
+     [
+      "ADH",
+      "ADH"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/q-adrenal.jpg",
+    "img_h": "32mm"
+   },
+   {
+    "en": "Production of the hormones shown is stimulated by:",
+    "ar": "يُحفَّز إنتاج الهرمونات الظاهرة في الصورة بواسطة:",
+    "options": [
+     [
+      "ACTH",
+      "ACTH"
+     ],
+     [
+      "FSH",
+      "FSH"
+     ],
+     [
+      "TSH",
+      "TSH"
+     ],
+     [
+      "Prolactin (PRL)",
+      "البرولاكتين"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/q-thyroid.jpg",
+    "img_h": "32mm"
+   },
+   {
+    "en": "The anterior pituitary hormone that stimulates milk production in the organ shown is:",
+    "ar": "هرمون النخامية الأمامية الذي يحفّز إنتاج الحليب في العضو الظاهر هو:",
+    "options": [
+     [
+      "Oxytocin",
+      "الأوكسيتوسين"
+     ],
+     [
+      "LH",
+      "LH"
+     ],
+     [
+      "ADH",
+      "ADH"
+     ],
+     [
+      "Prolactin (PRL)",
+      "البرولاكتين"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/q-breast.jpg",
+    "img_h": "32mm"
+   },
+   {
+    "en": "The posterior pituitary hormone that promotes contractions of the organ shown (uterus) is:",
+    "ar": "هرمون النخامية الخلفية الذي يعزّز تقلّصات العضو الظاهر (الرحم) هو:",
+    "options": [
+     [
+      "Oxytocin",
+      "الأوكسيتوسين"
+     ],
+     [
+      "Prolactin (PRL)",
+      "البرولاكتين"
+     ],
+     [
+      "FSH",
+      "FSH"
+     ],
+     [
+      "Growth Hormone (GH)",
+      "هرمون النمو"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/q-uterus.jpg",
+    "img_h": "32mm"
+   },
+   {
+    "en": "The hormone that increases water reabsorption in the collecting ducts of the organ shown is:",
+    "ar": "الهرمون الذي يزيد إعادة امتصاص الماء في القنوات الجامعة للعضو الظاهر هو:",
+    "options": [
+     [
+      "ACTH",
+      "ACTH"
+     ],
+     [
+      "TSH",
+      "TSH"
+     ],
+     [
+      "ADH",
+      "ADH"
+     ],
+     [
+      "Oxytocin",
+      "الأوكسيتوسين"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/q-kidneys.jpg",
+    "img_h": "32mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "The hypothalamus and pituitary gland regulate water balance.",
+    "ar": "ينظّم الوطاء والغدة النخامية توازن الماء.",
+    "answer": "T"
+   },
+   {
+    "en": "The pituitary gland consists of three functionally distinct parts.",
+    "ar": "تتكوّن الغدة النخامية من ثلاثة أجزاء مختلفة وظيفيًا.",
+    "answer": "F"
+   },
+   {
+    "en": "The posterior pituitary synthesizes ADH and oxytocin.",
+    "ar": "تصنّع النخامية الخلفية `ADH` والأوكسيتوسين.",
+    "answer": "F"
+   },
+   {
+    "en": "The anterior pituitary is regulated by hormones transported by the hypothalamic–pituitary portal system.",
+    "ar": "تُنظَّم النخامية الأمامية بهرمونات ينقلها الجهاز البابي الوطائي النخامي.",
+    "answer": "T"
+   },
+   {
+    "en": "Prolactin promotes milk ejection.",
+    "ar": "يعزّز البرولاكتين قذف الحليب.",
+    "answer": "F"
+   },
+   {
+    "en": "ACTH stimulates cortisol secretion from the adrenal cortex.",
+    "ar": "يحفّز `ACTH` إفراز الكورتيزول من قشرة الكظر.",
+    "answer": "T"
+   },
+   {
+    "en": "FSH regulates ovulation and sex hormone production.",
+    "ar": "ينظّم `FSH` الإباضة وإنتاج الهرمونات الجنسية.",
+    "answer": "F"
+   },
+   {
+    "en": "Somatostatin stimulates GH secretion.",
+    "ar": "يحفّز السوماتوستاتين إفراز `GH`.",
+    "answer": "F"
+   },
+   {
+    "en": "Dopamine inhibits prolactin secretion.",
+    "ar": "يثبّط الدوبامين إفراز البرولاكتين.",
+    "answer": "T"
+   },
+   {
+    "en": "GnRH stimulates both FSH and LH secretion.",
+    "ar": "يحفّز `GnRH` إفراز `FSH` و`LH` كليهما.",
+    "answer": "T"
+   },
+   {
+    "en": "In negative feedback, target-gland hormones stimulate further secretion from the hypothalamus.",
+    "ar": "في التغذية الراجعة السلبية تحفّز هرمونات الغدد المستهدفة استمرار إفراز الوطاء.",
+    "answer": "F"
+   },
+   {
+    "en": "Increased circulating T3 and T4 suppress TRH and TSH secretion.",
+    "ar": "ارتفاع `T3` و`T4` الجائلة يكبح إفراز `TRH` و`TSH`.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Milk production vs milk ejection",
+    "ar": "إنتاج الحليب مقابل قذف الحليب",
+    "answer_en": "Prolactin (anterior pituitary) stimulates milk production; oxytocin (posterior pituitary) promotes milk ejection.",
+    "answer_ar": "البرولاكتين (النخامية الأمامية) يحفّز **إنتاج** الحليب، والأوكسيتوسين (النخامية الخلفية) يعزّز **قذفه**."
+   },
+   {
+    "en": "Does the posterior pituitary make its own hormones?",
+    "ar": "هل تصنّع النخامية الخلفية هرموناتها؟",
+    "answer_en": "No — it stores and releases hormones synthesized in the hypothalamus (ADH and oxytocin).",
+    "answer_ar": "لا، هي **تخزّن وتحرّر** هرمونات **مصنّعة في الوطاء** (`ADH` والأوكسيتوسين)."
+   },
+   {
+    "en": "FSH vs LH",
+    "ar": "`FSH` مقابل `LH`",
+    "answer_en": "FSH: follicular development and spermatogenesis. LH: ovulation and sex hormone production.",
+    "answer_ar": "ينظّم `FSH` نموّ الجريبات وتكوين النطف، أمّا `LH` فينظّم الإباضة وإنتاج الهرمونات الجنسية."
+   },
+   {
+    "en": "GHRH vs somatostatin",
+    "ar": "`GHRH` مقابل السوماتوستاتين",
+    "answer_en": "Both act on GH: GHRH stimulates GH secretion, somatostatin inhibits it.",
+    "answer_ar": "كلاهما يؤثّر في `GH`، إذ **يحفّز** `GHRH` إفرازه، و**يثبّطه** السوماتوستاتين."
+   },
+   {
+    "en": "Which factor inhibits prolactin?",
+    "ar": "أيّ عامل يثبّط البرولاكتين؟",
+    "answer_en": "Dopamine — not somatostatin (somatostatin inhibits GH).",
+    "answer_ar": "**الدوبامين**، وليس السوماتوستاتين (فالسوماتوستاتين يثبّط `GH`)."
+   },
+   {
+    "en": "ADH, AVP and vasopressin",
+    "ar": "`ADH` و`AVP` والفازوبريسين",
+    "answer_en": "They are the same posterior pituitary hormone; it acts on the kidney collecting ducts.",
+    "answer_ar": "كلها **هرمون واحد** من النخامية الخلفية، يعمل على القنوات الجامعة في الكلية."
+   }
+  ],
+  "important": [
+   {
+    "en": "How does the hypothalamus control pituitary hormone secretion?",
+    "ar": "كيف يتحكّم الوطاء في إفراز هرمونات النخامية؟",
+    "answer_en": "Through releasing and inhibiting hormones, neural connections, and feedback mechanisms.",
+    "answer_ar": "عن طريق الهرمونات المحرِّرة والمثبِّطة، والاتصالات العصبية، وآليات التغذية الراجعة."
+   },
+   {
+    "en": "Compare the anterior and posterior pituitary.",
+    "ar": "قارن بين النخامية الأمامية والخلفية.",
+    "answer_en": "Anterior (adenohypophysis): regulated by hypothalamic releasing/inhibiting hormones carried by the hypothalamic–pituitary portal system; secretes GH, PRL, ACTH, TSH, FSH, LH. Posterior (neurohypophysis): stores and releases hormones synthesized in the hypothalamus — ADH/AVP and oxytocin.",
+    "answer_ar": "الأمامية (الغدّية): ينظّمها الوطاء بهرمونات محرِّرة ومثبِّطة ينقلها الجهاز البابي، وتفرز `GH` و`PRL` و`ACTH` و`TSH` و`FSH` و`LH`. الخلفية (العصبية): تخزّن وتحرّر هرمونات مصنّعة في الوطاء، وهي `ADH/AVP` والأوكسيتوسين."
+   },
+   {
+    "en": "List the major anterior pituitary hormones and their main functions.",
+    "ar": "عدّد أهم هرمونات النخامية الأمامية ووظائفها الرئيسة.",
+    "answer_en": "GH: body growth and metabolism; PRL: milk production; ACTH: cortisol secretion from the adrenal cortex; TSH: thyroid hormone production; FSH: follicular development and spermatogenesis; LH: ovulation and sex hormone production.",
+    "answer_ar": "هرمون النمو `(GH)` لنمو الجسم والأيض، والبرولاكتين `(PRL)` لإنتاج الحليب، والهرمون الموجّه لقشرة الكظر `(ACTH)` لإفراز الكورتيزول، والهرمون المحفّز للدرقية `(TSH)` لإنتاج هرمونات الدرقية، والهرمون المحفّز للجريب `(FSH)` لنموّ الجريبات وتكوين النطف، والهرمون اللوتيني `(LH)` للإباضة وإنتاج الهرمونات الجنسية."
+   },
+   {
+    "en": "Name the posterior pituitary hormones and their functions.",
+    "ar": "اذكر هرمونات النخامية الخلفية ووظائفها.",
+    "answer_en": "ADH/AVP: increases water reabsorption in the kidney collecting ducts. Oxytocin: promotes milk ejection and uterine contractions.",
+    "answer_ar": "الهرمون المضاد لإدرار البول `(ADH/AVP)` يزيد إعادة امتصاص الماء في القنوات الجامعة للكلية، والأوكسيتوسين يعزّز قذف الحليب وتقلّصات الرحم."
+   },
+   {
+    "en": "List the hypothalamic factors that control anterior pituitary hormones and their effects.",
+    "ar": "عدّد العوامل الوطائية التي تتحكّم في هرمونات النخامية الأمامية وتأثيراتها.",
+    "answer_en": "GHRH stimulates GH; somatostatin inhibits GH; dopamine inhibits prolactin; CRH stimulates ACTH; TRH stimulates TSH; GnRH stimulates FSH and LH.",
+    "answer_ar": "يحفّز `GHRH` إفراز `GH` ويثبّطه السوماتوستاتين، ويثبّط الدوبامين إفراز البرولاكتين، ويحفّز `CRH` إفراز `ACTH`، ويحفّز `TRH` إفراز `TSH`، ويحفّز `GnRH` إفراز `FSH` و`LH`."
+   },
+   {
+    "en": "Explain the negative feedback mechanism with an example.",
+    "ar": "اشرح آلية التغذية الراجعة السلبية مع مثال.",
+    "answer_en": "Hormones released by target endocrine glands inhibit further secretion from the hypothalamus and pituitary. Example: increased circulating T3 and T4 suppress TRH and TSH secretion.",
+    "answer_ar": "الهرمونات التي تحرّرها الغدد الصمّاء المستهدفة تثبّط استمرار الإفراز من الوطاء والنخامية. مثال: ارتفاع `T3` و`T4` الجائلة يكبح إفراز `TRH` و`TSH`."
+   }
+  ]
+ }
+}
