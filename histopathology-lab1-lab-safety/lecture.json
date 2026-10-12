@@ -1,0 +1,1342 @@
+{
+ "meta": {
+  "subject_en": "Histopathology",
+  "subject_ar": "علم الأمراض النسيجية",
+  "short_ar": "انسجة",
+  "unit_en": "Lab 1",
+  "unit_ar": "العملي 1",
+  "unit_label": "LAB",
+  "unit_no": "1",
+  "title_en": "Laboratory management & Chemical safety in the lab",
+  "title_ar": "إدارة المختبر والسلامة الكيميائية فيه",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة",
+  "instructor": "م.م. آية وسمي"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "HISTOPATHOLOGY — Definition",
+   "ar": "علم الأمراض النسيجية — التعريف"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Histo** : Tissue",
+    "**Histology** : Study of anatomy of normal cell or tissue.",
+    "**Histopathology** : Study of diseased tissue at microscopic level.",
+    "**Histotechniques** : Processing of tissue in such a manner that it enables the satisfactory study of tissue."
+   ],
+   "list_ar": [
+    "**`Histo`**: نسيج",
+    "**علم الأنسجة** (`Histology`): دراسة تشريح الخلية أو النسيج الطبيعي.",
+    "**علم الأمراض النسيجية** (`Histopathology`): دراسة النسيج المريض على المستوى المجهري.",
+    "**التقنيات النسيجية** (`Histotechniques`): معالجة النسيج بطريقة تتيح دراسته دراسة مُرضية."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "What is Histopathology",
+   "ar": "ما علم الأمراض النسيجية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Histopathology is the **diagnosis and study of diseases of the tissue**, and involves examining tissue and/or cell **under a microscope**.",
+    "**Histopathologist** are responsible for making **tissue diagnoses** and helping clinicians manage a patient's care."
+   ],
+   "list_ar": [
+    "علم الأمراض النسيجية هو **تشخيص أمراض النسيج ودراستها**، ويتضمّن فحص النسيج و/أو الخلية **بالمجهر**.",
+    "**أخصائيو علم الأمراض النسيجية** مسؤولون عن **التشخيص النسيجي** ومساعدة الأطباء السريريين في إدارة رعاية المريض."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "What is Histopathology Laboratory",
+   "ar": "ما مختبر علم الأمراض النسيجية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Histopathology Laboratory is specially designed to undergo histopathological diagnosis like studying the **malignant or benign condition** of tissue",
+    "In this Laboratory we also study **morphology of tissues**",
+    "In **Immunohistochemistry** section presence of **specific antigen or special molecules** on tissue is detected. We detect the presence of **tumor marker** to indentify different types cancer"
+   ],
+   "list_ar": [
+    "مختبر علم الأمراض النسيجية مصمّم خصيصًا لإجراء التشخيص النسيجي المرضي، مثل دراسة **الحالة الخبيثة أو الحميدة** للنسيج",
+    "وفي هذا المختبر ندرس أيضًا **شكل الأنسجة**",
+    "وفي قسم **الكيمياء النسيجية المناعية** يُكشف عن وجود **مستضد معيّن أو جزيئات خاصة** على النسيج. ونكشف عن وجود **الواسم الورمي** لتحديد أنواع السرطان المختلفة"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Laboratory Management & Chemical Safety in the Lab",
+   "ar": "إدارة المختبر والسلامة الكيميائية فيه"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Personal Protective Equipment (PPE)",
+    "Safe Chemical Handling",
+    "Proper Chemical Storage",
+    "Chemical Waste Disposal",
+    "Emergency Procedures",
+    "Laboratory Hygiene",
+    "Accident Prevention"
+   ],
+   "list_ar": [
+    "معدّات الوقاية الشخصية (`PPE`)",
+    "التعامل الآمن مع المواد الكيميائية",
+    "الخزن السليم للمواد الكيميائية",
+    "التخلّص من النفايات الكيميائية",
+    "إجراءات الطوارئ",
+    "نظافة المختبر",
+    "منع الحوادث"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Chemicals & Reagents",
+   "ar": "المواد الكيميائية والكواشف"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Fixative",
+    "Decalcifying Agents",
+    "Dehydrating Agents",
+    "Clearing Agents",
+    "Embedding Agents",
+    "Staining Chemicals",
+    "Mounting Medium"
+   ],
+   "list_ar": [
+    "المثبّت",
+    "عوامل إزالة الكلس",
+    "عوامل نزع الماء",
+    "عوامل الترويق (التصفية)",
+    "عوامل الطمر",
+    "مواد التصبيغ",
+    "وسط التحميل (التركيب)"
+   ]
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "**Laboratory construction**",
+     "ar": "**بناء المختبر**",
+     "list_en": [
+      "Laboratory Construction",
+      "Proper Laboratory Layout",
+      "Good Ventilation",
+      "Adequate Lighting",
+      "Safe Electrical Systems",
+      "Emergency Exits",
+      "Fire Safety Equipment",
+      "Safe Workspaces"
+     ],
+     "list_ar": [
+      "بناء المختبر",
+      "تخطيط سليم للمختبر",
+      "تهوية جيدة",
+      "إضاءة كافية",
+      "أنظمة كهربائية آمنة",
+      "مخارج طوارئ",
+      "معدّات السلامة من الحريق",
+      "أماكن عمل آمنة"
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/lab-construction.jpg",
+    "en": "Laboratory",
+    "ar": "المختبر"
+   }
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "**Laboratory staff**",
+     "ar": "**كادر المختبر**",
+     "list_en": [
+      "Laboratory Staff",
+      "Qualified Staff",
+      "Proper Training",
+      "Safety Awareness",
+      "Good Communication",
+      "Teamwork",
+      "Following Safety Rules"
+     ],
+     "list_ar": [
+      "كادر المختبر",
+      "كادر مؤهّل",
+      "تدريب مناسب",
+      "وعي بالسلامة",
+      "تواصل جيد",
+      "العمل بروح الفريق",
+      "اتّباع قواعد السلامة"
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/lab-staff.jpg",
+    "en": "Laboratory staff",
+    "ar": "كادر المختبر"
+   }
+  },
+  {
+   "t": "section",
+   "en": "Safety in pathology lab",
+   "ar": "السلامة في مختبر الأمراض"
+  },
+  {
+   "t": "card",
+   "en": "The histopathology department is **rich in hazards** including :",
+   "ar": "قسم علم الأمراض النسيجية **غني بالمخاطر**، ومنها:",
+   "list_en": [
+    "**Biological or infectious hazard** (HBV, HCV, HIV, T.B…etc)",
+    "**Physical hazard** (burn, injury by sharp instruments, electrical injury…etc)",
+    "**Chemical hazard**"
+   ],
+   "list_ar": [
+    "**الخطر الحيوي أو المعدي** (`HBV`، `HCV`، `HIV`، التدرّن… إلخ)",
+    "**الخطر الفيزيائي** (الحروق، الإصابة بالأدوات الحادة، الصدمة الكهربائية… إلخ)",
+    "**الخطر الكيميائي**"
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/biohazard.jpg",
+     "en": "Caution — Biohazard",
+     "ar": "تحذير — خطر حيوي",
+     "h": "46mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/danger-formaldehyde.jpg",
+     "en": "Danger — Formaldehyde: irritant and potential cancer hazard",
+     "ar": "خطر — الفورمالديهايد: مهيّج وخطر سرطاني محتمل",
+     "h": "46mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Universal precautions",
+   "ar": "الاحتياطات العامة (الشاملة)"
+  },
+  {
+   "t": "card",
+   "en": "To prevent the transmission of infective agents with serious health hazards: **hepatitis B, hepatitis C and HIV**",
+   "ar": "لمنع انتقال العوامل المعدية ذات المخاطر الصحية الخطيرة: **التهاب الكبد `B`، والتهاب الكبد `C`، و`HIV`**"
+  },
+  {
+   "t": "card",
+   "en": "**Body fluids that need universal precautions:** blood, peritoneal and pleural fluid, CSF, semen, vaginal secretions, synovial effusion and faecal material",
+   "ar": "**سوائل الجسم التي تحتاج إلى الاحتياطات العامة:** الدم، والسائل البريتوني والجنبي، والسائل الدماغي الشوكي، والسائل المنوي، والإفرازات المهبلية، والانصباب الزليلي، والمواد البرازية"
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "**Measure:**",
+     "ar": "**الإجراءات:**",
+     "list_en": [
+      "hand wash",
+      "gloves",
+      "Mask",
+      "Goggles",
+      "Aprons or gowns",
+      "Take care of sharp objects",
+      "Proper disposal of waste."
+     ],
+     "list_ar": [
+      "غسل اليدين",
+      "القفّازات",
+      "الكمّامة",
+      "النظّارات الواقية",
+      "المآزر أو الأردية",
+      "الحذر من الأدوات الحادة",
+      "التخلّص السليم من النفايات."
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/universal-precautions.jpg",
+    "en": "Universal precautionary measures in laboratory",
+    "ar": "إجراءات الاحتياطات العامة في المختبر"
+   }
+  },
+  {
+   "t": "section",
+   "en": "Needle stick injury",
+   "ar": "إصابة وخز الإبرة"
+  },
+  {
+   "t": "card",
+   "en": "The most important pathogens that can be transmitted through needlestick injury are :",
+   "ar": "أهم الممرضات التي يمكن أن تنتقل بإصابة وخز الإبرة:",
+   "list_en": [
+    "Hepatitis B virus",
+    "Hepatitis C virus",
+    "HIV"
+   ],
+   "list_ar": [
+    "فيروس التهاب الكبد `B`",
+    "فيروس التهاب الكبد `C`",
+    "فيروس `HIV`"
+   ]
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "**What to do in case of needle prick?**",
+     "ar": "**ماذا تفعل عند وخز الإبرة؟**",
+     "list_en": [
+      "Immediately **report** to your employer",
+      "**Rinse** the area with running water for **15 minutes**.",
+      "Gently **squeeze the wound** to encourage it to bleed (ideally while holding it under running water)",
+      "Take appropriate **post-exposure prophylaxis** if available."
+     ],
+     "list_ar": [
+      "**أبلغ** صاحب العمل فورًا",
+      "**اغسل** المنطقة بماء جارٍ لمدة **15 دقيقة**.",
+      "**اعصر الجرح** بلطف لتشجيع نزفه (ويُفضّل أثناء وضعه تحت الماء الجاري)",
+      "خذ **الوقاية الدوائية بعد التعرّض** المناسبة إن توفّرت."
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/needle-stick.jpg",
+    "en": "Needle stick injury",
+    "ar": "إصابة وخز الإبرة"
+   }
+  },
+  {
+   "t": "table",
+   "head": [
+    "",
+    "Standard first-aid treatment",
+    "الإسعاف الأولي القياسي"
+   ],
+   "rows": [
+    [
+     "Eye contact",
+     "Rinse immediately with plenty of water for at least 15 minutes. Obtain medical attention.",
+     "**تماس العين**: اغسلها فورًا بكمية وفيرة من الماء 15 دقيقة على الأقل، واطلب الرعاية الطبية."
+    ],
+    [
+     "Skin contact",
+     "Remove any contaminated clothing. Wash off immediately with plenty of water for at least 15 minutes. Obtain medical attention.",
+     "**تماس الجلد**: انزع الملابس الملوّثة، واغسل فورًا بكمية وفيرة من الماء 15 دقيقة على الأقل، واطلب الرعاية الطبية."
+    ],
+    [
+     "Inhalation",
+     "Move to fresh air. If breathing is difficult, give oxygen. If not breathing, give artificial respiration. Obtain medical attention.",
+     "**الاستنشاق**: انتقل إلى هواء نقي؛ وإذا صعب التنفّس أعطِ أوكسجين، وإذا توقّف أعطِ تنفّسًا صناعيًا، واطلب الرعاية الطبية."
+    ],
+    [
+     "Ingestion",
+     "Do not induce vomiting. Obtain medical attention.",
+     "**البلع**: لا تُحفّز التقيّؤ، واطلب الرعاية الطبية."
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ],
+   "style": "summary",
+   "label_en": "Table 2.5 Standard first-aid treatment",
+   "label_ar": "جدول 2.5 الإسعاف الأولي القياسي"
+  },
+  {
+   "t": "section",
+   "en": "Proper disposal of laboratory Waste",
+   "ar": "التخلّص السليم من نفايات المختبر"
+  },
+  {
+   "t": "card",
+   "en": "**Basic rules to Dispose the Waste Material are:**",
+   "ar": "**القواعد الأساسية للتخلّص من النفايات:**",
+   "list_en": [
+    "Store waste only in a **closed container** with no chance of puncture in case of sharp material.",
+    "**Do not keep incompatible chemicals in a same container** such as **acid and alkali** should not be kept together."
+   ],
+   "list_ar": [
+    "خزّن النفايات في **وعاء مغلق** فقط لا يمكن ثقبه في حالة المواد الحادة.",
+    "**لا تحفظ المواد الكيميائية غير المتوافقة في الوعاء نفسه**، فمثلًا **الحامض والقاعدة** لا يُحفظان معًا."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    "Colour",
+    "Waste",
+    "اللون — النفايات"
+   ],
+   "rows": [
+    [
+     "Red",
+     "Infectious / contaminated waste",
+     "**الأحمر**: النفايات المعدية / الملوّثة"
+    ],
+    [
+     "Yellow",
+     "Biohazardous waste",
+     "**الأصفر**: النفايات الخطرة حيويًا"
+    ],
+    [
+     "Purple",
+     "Cytotoxic waste",
+     "**البنفسجي**: النفايات السامّة للخلايا"
+    ],
+    [
+     "Black",
+     "General waste",
+     "**الأسود**: النفايات العامة"
+    ],
+    [
+     "Blue",
+     "Glass waste",
+     "**الأزرق**: نفايات الزجاج"
+    ],
+    [
+     "Brown",
+     "Chemical waste",
+     "**البنّي**: النفايات الكيميائية"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ],
+   "style": "summary",
+   "label_en": "Waste Color Coding",
+   "label_ar": "ترميز النفايات بالألوان"
+  },
+  {
+   "t": "figure",
+   "src": "assets/waste-disposal.jpg",
+   "en": "Waste disposal in healthcare laboratory — colour-coded bins",
+   "ar": "التخلّص من النفايات في المختبر الصحي — حاويات بألوان مختلفة",
+   "h": "56mm"
+  },
+  {
+   "t": "section",
+   "en": "Histopathology lab equipment",
+   "ar": "أجهزة مختبر الأنسجة"
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/embedding-station.jpg",
+     "en": "Embedding Station",
+     "ar": "محطة الطمر",
+     "h": "50mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/microtome.jpg",
+     "en": "Microtome",
+     "ar": "المِقطاع (الميكروتوم)",
+     "h": "50mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/water-bath.jpg",
+     "en": "Water bath",
+     "ar": "الحمّام المائي",
+     "h": "44mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/staining-racks.jpg",
+     "en": "Microscopic Slide staining Racks",
+     "ar": "حوامل تصبيغ الشرائح المجهرية",
+     "h": "44mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/staining-jars.jpg",
+     "en": "Slide Staining Dishes/ Jars",
+     "ar": "أحواض / جِرار تصبيغ الشرائح",
+     "h": "44mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/automated-stainer.jpg",
+     "en": "Automated slide stainer",
+     "ar": "جهاز التصبيغ الآلي للشرائح",
+     "h": "44mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/microscope.jpg",
+     "en": "Microscope",
+     "ar": "المجهر",
+     "h": "48mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/microwave.jpg",
+     "en": "Microwave",
+     "ar": "المايكروويف",
+     "h": "48mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/slide-storage.jpg",
+     "en": "Storage for Stained Slides",
+     "ar": "خزانة حفظ الشرائح المصبوغة",
+     "h": "46mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/slide-storage-2.jpg",
+     "en": "Storage for Stained Slides",
+     "ar": "خزانة حفظ الشرائح المصبوغة",
+     "h": "46mm",
+     "fit": "contain"
+    }
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Definitions",
+    "topic_ar": "التعريفات"
+   },
+   {
+    "en": "“Histo” means:",
+    "ar": "كلمة “Histo” تعني:",
+    "options": [
+     [
+      "Cell",
+      "الخلية"
+     ],
+     [
+      "Tissue",
+      "النسيج"
+     ],
+     [
+      "Disease",
+      "المرض"
+     ],
+     [
+      "Organ",
+      "العضو"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Histology is the study of:",
+    "ar": "علم الأنسجة هو دراسة:",
+    "options": [
+     [
+      "Diseased tissue",
+      "النسيج المريض"
+     ],
+     [
+      "Anatomy of normal cell or tissue",
+      "تشريح الخلية أو النسيج الطبيعي"
+     ],
+     [
+      "Microbes",
+      "الأحياء المجهرية"
+     ],
+     [
+      "Blood only",
+      "الدم فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Histopathology is the study of:",
+    "ar": "علم الأمراض النسيجية هو دراسة:",
+    "options": [
+     [
+      "Diseased tissue at microscopic level",
+      "النسيج المريض على المستوى المجهري"
+     ],
+     [
+      "Normal tissue",
+      "النسيج الطبيعي"
+     ],
+     [
+      "Body fluids",
+      "سوائل الجسم"
+     ],
+     [
+      "Genes",
+      "الجينات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Processing of tissue to enable its satisfactory study is called:",
+    "ar": "معالجة النسيج بطريقة تتيح دراسته دراسة مُرضية تُسمّى:",
+    "options": [
+     [
+      "Histology",
+      "علم الأنسجة"
+     ],
+     [
+      "Cytology",
+      "علم الخلايا"
+     ],
+     [
+      "Histotechniques",
+      "التقنيات النسيجية"
+     ],
+     [
+      "Immunology",
+      "علم المناعة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Detecting tumour markers on tissue is done in which section?",
+    "ar": "يُكشف عن الواسمات الورمية على النسيج في أي قسم؟",
+    "options": [
+     [
+      "Haematology",
+      "أمراض الدم"
+     ],
+     [
+      "Microbiology",
+      "الأحياء المجهرية"
+     ],
+     [
+      "Blood bank",
+      "مصرف الدم"
+     ],
+     [
+      "Immunohistochemistry",
+      "الكيمياء النسيجية المناعية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Management, chemicals and hazards",
+    "topic_ar": "الإدارة والمواد والمخاطر"
+   },
+   {
+    "en": "Which is NOT one of the chemicals & reagents of the histopathology lab?",
+    "ar": "أي مما يأتي ليس من مواد وكواشف مختبر الأنسجة؟",
+    "options": [
+     [
+      "Fixative",
+      "المثبّت"
+     ],
+     [
+      "Clearing agents",
+      "عوامل الترويق"
+     ],
+     [
+      "Antibiotic discs",
+      "أقراص المضادات الحيوية"
+     ],
+     [
+      "Mounting medium",
+      "وسط التحميل"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which is part of good laboratory construction?",
+    "ar": "أي مما يأتي من البناء الجيد للمختبر؟",
+    "options": [
+     [
+      "Poor lighting",
+      "إضاءة ضعيفة"
+     ],
+     [
+      "Good ventilation",
+      "تهوية جيدة"
+     ],
+     [
+      "No emergency exits",
+      "بلا مخارج طوارئ"
+     ],
+     [
+      "Closed windows only",
+      "نوافذ مغلقة فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Burns and injury by sharp instruments are:",
+    "ar": "الحروق والإصابة بالأدوات الحادة:",
+    "options": [
+     [
+      "Physical hazards",
+      "مخاطر فيزيائية"
+     ],
+     [
+      "Biological hazards",
+      "مخاطر حيوية"
+     ],
+     [
+      "Chemical hazards",
+      "مخاطر كيميائية"
+     ],
+     [
+      "Not hazards",
+      "ليست مخاطر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "HBV, HCV, HIV and TB represent:",
+    "ar": "تمثّل HBV وHCV وHIV والتدرّن:",
+    "options": [
+     [
+      "Chemical hazard",
+      "خطرًا كيميائيًا"
+     ],
+     [
+      "Physical hazard",
+      "خطرًا فيزيائيًا"
+     ],
+     [
+      "Electrical hazard",
+      "خطرًا كهربائيًا"
+     ],
+     [
+      "Biological or infectious hazard",
+      "خطرًا حيويًا أو معديًا"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Universal precautions and needle stick",
+    "topic_ar": "الاحتياطات العامة ووخز الإبرة"
+   },
+   {
+    "en": "Universal precautions mainly prevent transmission of:",
+    "ar": "تمنع الاحتياطات العامة أساسًا انتقال:",
+    "options": [
+     [
+      "Influenza",
+      "الإنفلونزا"
+     ],
+     [
+      "Hepatitis B, hepatitis C and HIV",
+      "التهاب الكبد B وC وHIV"
+     ],
+     [
+      "Malaria",
+      "الملاريا"
+     ],
+     [
+      "Food poisoning",
+      "التسمّم الغذائي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which body fluid is NOT listed as needing universal precautions?",
+    "ar": "أي سائل لم يُذكر ضمن ما يحتاج احتياطات عامة؟",
+    "options": [
+     [
+      "CSF",
+      "السائل الدماغي الشوكي"
+     ],
+     [
+      "Pleural fluid",
+      "السائل الجنبي"
+     ],
+     [
+      "Semen",
+      "السائل المنوي"
+     ],
+     [
+      "Tears",
+      "الدموع"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "All are measures of universal precautions EXCEPT:",
+    "ar": "كل مما يأتي من إجراءات الاحتياطات العامة عدا:",
+    "options": [
+     [
+      "Hand wash",
+      "غسل اليدين"
+     ],
+     [
+      "Goggles",
+      "النظّارات الواقية"
+     ],
+     [
+      "Recapping needles by hand",
+      "إعادة غطاء الإبرة باليد"
+     ],
+     [
+      "Proper disposal of waste",
+      "التخلّص السليم من النفايات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "After a needle prick, rinse the area with running water for:",
+    "ar": "بعد وخز الإبرة اغسل المنطقة بماء جارٍ لمدة:",
+    "options": [
+     [
+      "1 minute",
+      "دقيقة"
+     ],
+     [
+      "5 minutes",
+      "5 دقائق"
+     ],
+     [
+      "15 minutes",
+      "15 دقيقة"
+     ],
+     [
+      "1 hour",
+      "ساعة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "After a needle prick, the wound should be:",
+    "ar": "بعد وخز الإبرة يجب أن يكون الجرح:",
+    "options": [
+     [
+      "Gently squeezed to encourage bleeding",
+      "معصورًا بلطف لتشجيع النزف"
+     ],
+     [
+      "Sucked by mouth",
+      "ممصوصًا بالفم"
+     ],
+     [
+      "Covered without washing",
+      "مغطّى دون غسل"
+     ],
+     [
+      "Burned with alcohol flame",
+      "محروقًا بلهب الكحول"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The first step after a needle prick is to:",
+    "ar": "الخطوة الأولى بعد وخز الإبرة:",
+    "options": [
+     [
+      "Go home",
+      "الذهاب إلى البيت"
+     ],
+     [
+      "Immediately report to your employer",
+      "الإبلاغ الفوري لصاحب العمل"
+     ],
+     [
+      "Wait for symptoms",
+      "انتظار الأعراض"
+     ],
+     [
+      "Ignore it",
+      "تجاهله"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "For ingestion of a chemical, first aid is:",
+    "ar": "الإسعاف الأولي لبلع مادة كيميائية:",
+    "options": [
+     [
+      "Induce vomiting",
+      "تحفيز التقيّؤ"
+     ],
+     [
+      "Give oxygen",
+      "إعطاء الأوكسجين"
+     ],
+     [
+      "Do not induce vomiting; obtain medical attention",
+      "عدم تحفيز التقيّؤ وطلب الرعاية الطبية"
+     ],
+     [
+      "Wash the skin",
+      "غسل الجلد"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "For inhalation of a chemical, the first step is to:",
+    "ar": "عند استنشاق مادة كيميائية الخطوة الأولى:",
+    "options": [
+     [
+      "Move to fresh air",
+      "الانتقال إلى هواء نقي"
+     ],
+     [
+      "Drink water",
+      "شرب الماء"
+     ],
+     [
+      "Induce vomiting",
+      "تحفيز التقيّؤ"
+     ],
+     [
+      "Remove clothing only",
+      "نزع الملابس فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Waste",
+    "topic_ar": "النفايات"
+   },
+   {
+    "en": "Acid and alkali waste should be:",
+    "ar": "يجب أن تكون نفايات الحامض والقاعدة:",
+    "options": [
+     [
+      "Kept in the same container",
+      "في الوعاء نفسه"
+     ],
+     [
+      "Kept in separate containers",
+      "في وعاءين منفصلين"
+     ],
+     [
+      "Poured in the sink together",
+      "مسكوبة معًا في المغسلة"
+     ],
+     [
+      "Burned",
+      "محروقة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Cytotoxic waste is placed in the colour:",
+    "ar": "تُوضع النفايات السامّة للخلايا في اللون:",
+    "options": [
+     [
+      "Black",
+      "الأسود"
+     ],
+     [
+      "Blue",
+      "الأزرق"
+     ],
+     [
+      "Brown",
+      "البنّي"
+     ],
+     [
+      "Purple",
+      "البنفسجي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Glass waste is placed in the colour:",
+    "ar": "تُوضع نفايات الزجاج في اللون:",
+    "options": [
+     [
+      "Blue",
+      "الأزرق"
+     ],
+     [
+      "Red",
+      "الأحمر"
+     ],
+     [
+      "Yellow",
+      "الأصفر"
+     ],
+     [
+      "Black",
+      "الأسود"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Chemical waste is placed in the colour:",
+    "ar": "تُوضع النفايات الكيميائية في اللون:",
+    "options": [
+     [
+      "Purple",
+      "البنفسجي"
+     ],
+     [
+      "Brown",
+      "البنّي"
+     ],
+     [
+      "Black",
+      "الأسود"
+     ],
+     [
+      "Blue",
+      "الأزرق"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "General waste is placed in the colour:",
+    "ar": "تُوضع النفايات العامة في اللون:",
+    "options": [
+     [
+      "Yellow",
+      "الأصفر"
+     ],
+     [
+      "Red",
+      "الأحمر"
+     ],
+     [
+      "Black",
+      "الأسود"
+     ],
+     [
+      "Purple",
+      "البنفسجي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "The instrument shown is used to cut thin tissue sections. It is the:",
+    "ar": "الجهاز في الشكل يُستخدم لقطع مقاطع نسيجية رقيقة. هو:",
+    "options": [
+     [
+      "Water bath",
+      "الحمّام المائي"
+     ],
+     [
+      "Microtome",
+      "المِقطاع (الميكروتوم)"
+     ],
+     [
+      "Microwave",
+      "المايكروويف"
+     ],
+     [
+      "Embedding station",
+      "محطة الطمر"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/q-microtome.jpg",
+    "img_h": "36mm"
+   },
+   {
+    "en": "Identify the instrument shown:",
+    "ar": "تعرّف على الجهاز في الشكل:",
+    "options": [
+     [
+      "Automated slide stainer",
+      "جهاز التصبيغ الآلي"
+     ],
+     [
+      "Microtome",
+      "المِقطاع"
+     ],
+     [
+      "Water bath",
+      "الحمّام المائي"
+     ],
+     [
+      "Microscope",
+      "المجهر"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/q-water-bath.jpg",
+    "img_h": "32mm"
+   },
+   {
+    "en": "Identify the equipment shown:",
+    "ar": "تعرّف على الجهاز في الشكل:",
+    "options": [
+     [
+      "Embedding station",
+      "محطة الطمر"
+     ],
+     [
+      "Microwave",
+      "المايكروويف"
+     ],
+     [
+      "Slide storage",
+      "خزانة الشرائح"
+     ],
+     [
+      "Microtome",
+      "المِقطاع"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/q-embedding-station.jpg",
+    "img_h": "36mm"
+   },
+   {
+    "en": "The sign in this figure warns of a:",
+    "ar": "تحذّر العلامة في هذا الشكل من:",
+    "options": [
+     [
+      "Chemical hazard",
+      "خطر كيميائي"
+     ],
+     [
+      "Electrical hazard",
+      "خطر كهربائي"
+     ],
+     [
+      "Fire hazard",
+      "خطر حريق"
+     ],
+     [
+      "Biohazard",
+      "خطر حيوي"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/biohazard.jpg",
+    "img_h": "36mm"
+   },
+   {
+    "en": "According to the sign, formaldehyde is:",
+    "ar": "بحسب العلامة، الفورمالديهايد:",
+    "options": [
+     [
+      "Safe for everyone",
+      "آمن للجميع"
+     ],
+     [
+      "Irritant and potential cancer hazard",
+      "مهيّج وخطر سرطاني محتمل"
+     ],
+     [
+      "Radioactive",
+      "مشعّ"
+     ],
+     [
+      "A biohazard",
+      "خطر حيوي"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/danger-formaldehyde.jpg",
+    "img_h": "30mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Histopathology studies diseased tissue at the microscopic level.",
+    "ar": "يدرس علم الأمراض النسيجية النسيج المريض على المستوى المجهري.",
+    "answer": "T"
+   },
+   {
+    "en": "Histology is the study of diseased tissue.",
+    "ar": "علم الأنسجة دراسة النسيج المريض.",
+    "answer": "F"
+   },
+   {
+    "en": "Histopathologists help clinicians manage a patient's care.",
+    "ar": "يساعد أخصائيو الأمراض النسيجية الأطباء في إدارة رعاية المريض.",
+    "answer": "T"
+   },
+   {
+    "en": "The histopathology lab studies only malignant tissue.",
+    "ar": "يدرس مختبر الأنسجة النسيج الخبيث فقط.",
+    "answer": "F"
+   },
+   {
+    "en": "Decalcifying agents are among the chemicals of the histopathology lab.",
+    "ar": "عوامل إزالة الكلس من مواد مختبر الأنسجة.",
+    "answer": "T"
+   },
+   {
+    "en": "Electrical injury is a chemical hazard.",
+    "ar": "الصدمة الكهربائية خطر كيميائي.",
+    "answer": "F"
+   },
+   {
+    "en": "Synovial effusion needs universal precautions.",
+    "ar": "يحتاج الانصباب الزليلي إلى الاحتياطات العامة.",
+    "answer": "T"
+   },
+   {
+    "en": "After a needle prick, the area should be rinsed with running water for 15 minutes.",
+    "ar": "بعد وخز الإبرة تُغسل المنطقة بماء جارٍ 15 دقيقة.",
+    "answer": "T"
+   },
+   {
+    "en": "Post-exposure prophylaxis should be taken if available.",
+    "ar": "يجب أخذ الوقاية بعد التعرّض إن توفّرت.",
+    "answer": "T"
+   },
+   {
+    "en": "For eye contact with a chemical, rinse for at least 1 minute.",
+    "ar": "عند تماس العين مع مادة كيميائية تُغسل دقيقة واحدة على الأقل.",
+    "answer": "F"
+   },
+   {
+    "en": "Yellow bins are for biohazardous waste.",
+    "ar": "الحاويات الصفراء للنفايات الخطرة حيويًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Red bins are for glass waste.",
+    "ar": "الحاويات الحمراء لنفايات الزجاج.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Histology vs histopathology vs histotechniques",
+    "ar": "علم الأنسجة مقابل الأمراض النسيجية مقابل التقنيات النسيجية",
+    "answer_en": "Histology: normal cell/tissue. Histopathology: diseased tissue at microscopic level. Histotechniques: processing tissue for satisfactory study.",
+    "answer_ar": "علم الأنسجة: الخلية/النسيج الطبيعي. الأمراض النسيجية: النسيج المريض مجهريًا. التقنيات النسيجية: معالجة النسيج لدراسته."
+   },
+   {
+    "en": "Which hazard type?",
+    "ar": "أي نوع من المخاطر؟",
+    "answer_en": "Biological: HBV, HCV, HIV, TB. Physical: burns, sharps, electrical injury. Chemical: chemicals such as formaldehyde.",
+    "answer_ar": "حيوي: HBV، HCV، HIV، التدرّن. فيزيائي: الحروق، الأدوات الحادة، الكهرباء. كيميائي: المواد مثل الفورمالديهايد."
+   },
+   {
+    "en": "Red vs yellow bins",
+    "ar": "الحاوية الحمراء مقابل الصفراء",
+    "answer_en": "Red: infectious/contaminated waste. Yellow: biohazardous waste.",
+    "answer_ar": "الحمراء: النفايات المعدية/الملوّثة. الصفراء: النفايات الخطرة حيويًا."
+   },
+   {
+    "en": "Purple vs brown bins",
+    "ar": "الحاوية البنفسجية مقابل البنّية",
+    "answer_en": "Purple: cytotoxic waste. Brown: chemical waste.",
+    "answer_ar": "البنفسجية: النفايات السامّة للخلايا. البنّية: النفايات الكيميائية."
+   },
+   {
+    "en": "Ingestion first aid",
+    "ar": "الإسعاف عند البلع",
+    "answer_en": "Do NOT induce vomiting; obtain medical attention.",
+    "answer_ar": "لا تُحفّز التقيّؤ؛ اطلب الرعاية الطبية."
+   },
+   {
+    "en": "Squeeze or not after a needle prick?",
+    "ar": "تعصر أم لا بعد وخز الإبرة؟",
+    "answer_en": "Gently squeeze to encourage bleeding, ideally under running water, after reporting and rinsing for 15 minutes.",
+    "answer_ar": "اعصر بلطف لتشجيع النزف، ويُفضّل تحت الماء الجاري، بعد الإبلاغ والغسل 15 دقيقة."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define histology, histopathology and histotechniques.",
+    "ar": "عرّف علم الأنسجة والأمراض النسيجية والتقنيات النسيجية.",
+    "answer_en": "Histology: study of anatomy of normal cell or tissue. Histopathology: study of diseased tissue at microscopic level. Histotechniques: processing tissue so it can be studied satisfactorily.",
+    "answer_ar": "علم الأنسجة: دراسة تشريح الخلية أو النسيج الطبيعي. الأمراض النسيجية: دراسة النسيج المريض مجهريًا. التقنيات النسيجية: معالجة النسيج لتمكين دراسته."
+   },
+   {
+    "en": "What is studied in the histopathology laboratory?",
+    "ar": "ماذا يُدرس في مختبر الأمراض النسيجية؟",
+    "answer_en": "Histopathological diagnosis (malignant or benign condition of tissue), morphology of tissues, and in immunohistochemistry the presence of specific antigens or molecules such as tumour markers to identify cancer types.",
+    "answer_ar": "التشخيص النسيجي المرضي (الحالة الخبيثة أو الحميدة)، وشكل الأنسجة، وفي الكيمياء النسيجية المناعية وجود مستضدات أو جزيئات معيّنة كالواسمات الورمية لتحديد أنواع السرطان."
+   },
+   {
+    "en": "List the hazards of the histopathology department.",
+    "ar": "عدّد مخاطر قسم الأمراض النسيجية.",
+    "answer_en": "Biological/infectious (HBV, HCV, HIV, TB); physical (burns, sharp instruments, electrical injury); chemical.",
+    "answer_ar": "حيوية/معدية (HBV، HCV، HIV، التدرّن)؛ فيزيائية (الحروق، الأدوات الحادة، الكهرباء)؛ كيميائية."
+   },
+   {
+    "en": "What are universal precautions and their measures?",
+    "ar": "ما الاحتياطات العامة وما إجراءاتها؟",
+    "answer_en": "Precautions to prevent transmission of HBV, HCV and HIV from blood, peritoneal/pleural fluid, CSF, semen, vaginal secretions, synovial effusion and faeces. Measures: hand wash, gloves, mask, goggles, aprons/gowns, care with sharps, proper waste disposal.",
+    "answer_ar": "احتياطات لمنع انتقال HBV وHCV وHIV من الدم والسوائل البريتونية/الجنبية والدماغي الشوكي والمني والإفرازات المهبلية والزليلي والبراز. الإجراءات: غسل اليدين، القفّازات، الكمّامة، النظّارات، المآزر، الحذر من الأدوات الحادة، التخلّص السليم من النفايات."
+   },
+   {
+    "en": "What should be done in case of a needle prick?",
+    "ar": "ماذا يجب فعله عند وخز الإبرة؟",
+    "answer_en": "Report immediately; rinse under running water for 15 minutes; gently squeeze to encourage bleeding; take post-exposure prophylaxis if available.",
+    "answer_ar": "الإبلاغ فورًا؛ الغسل بماء جارٍ 15 دقيقة؛ العصر بلطف لتشجيع النزف؛ أخذ الوقاية بعد التعرّض إن توفّرت."
+   },
+   {
+    "en": "Give the rules and colour coding of laboratory waste disposal.",
+    "ar": "اذكر قواعد التخلّص من نفايات المختبر وترميزها اللوني.",
+    "answer_en": "Store waste in closed puncture-proof containers; don't keep incompatible chemicals (acid and alkali) together. Red infectious, yellow biohazardous, purple cytotoxic, black general, blue glass, brown chemical.",
+    "answer_ar": "خزن النفايات في أوعية مغلقة لا تُثقب؛ وعدم جمع المواد غير المتوافقة (حامض وقاعدة). الأحمر معدية، الأصفر خطرة حيويًا، البنفسجي سامّة للخلايا، الأسود عامة، الأزرق زجاج، البنّي كيميائية."
+   }
+  ]
+ }
+}
