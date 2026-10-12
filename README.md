@@ -22,6 +22,8 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `genetics-lec1-cell-cycle-mitosis/` — Genetics (علم الوراثة) lecture 1: cell cycle and mitosis — third stage.
 - `hematology-lec2…lec7-*/` — Hematology theory (د. مازن اللهيبي) lectures 2–7: blood cell formation, blood elements, hemoglobin, anaemia, iron deficiency, chronic/sideroblastic — third stage.
 - `histopathology-lab1-lab-safety/`, `histopathology-lab2-samples/` — Histopathology (علم الأمراض النسيجية) practical labs 1–2 — third stage.
+- `hematology-lab2-anticoagulants/`, `hematology-lab3-normal-values/` — Hematology practical labs 2–3 (ليندا منجد هادي) — third stage.
+- `virology-lab1-safety/` — Medical Virology practical lab 1: safety and aseptic techniques — third stage.
 - `.claude/skills/bios-malzama/SKILL.md` — how to make a new handout and the full `lecture.json` format.
 
 Build a handout:

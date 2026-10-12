@@ -1,0 +1,738 @@
+{
+ "meta": {
+  "subject_en": "Medical Virology",
+  "subject_ar": "الفيروسات الطبية",
+  "short_ar": "فايروسات",
+  "unit_en": "Lab 1",
+  "unit_ar": "العملي 1",
+  "unit_label": "LAB",
+  "unit_no": "1",
+  "title_en": "Laboratory Safety Guidelines & Aseptic Techniques",
+  "title_ar": "إرشادات السلامة في المختبر والتقنيات المعقّمة",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Laboratory Safety Guidelines",
+   "ar": "إرشادات السلامة في المختبر"
+  },
+  {
+   "t": "rule",
+   "en": "**Personal Protective Equipment:** Wear lab coat, gloves, lab coats.",
+   "ar": "**معدّات الوقاية الشخصية:** ارتدِ صدرية المختبر والقفّازات."
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Safe Handling of Pathogens:** Handle infectious agents within a **biological safety cabinet (Hood)** to contain aerosols and splashes.",
+    "Use **sealed tubes and secondary containment** when transporting specimens."
+   ],
+   "ar": [
+    "**التعامل الآمن مع الممرضات:** تعامل مع العوامل المعدية داخل **كابينة السلامة الحيوية (الهود)** لاحتواء الرذاذ والتناثر.",
+    "واستخدم **أنابيب محكمة الغلق مع حاوية ثانوية** عند نقل العيّنات."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Waste Management:** Decontaminate biohazard waste using **autoclaves or chemical disinfectants** before disposal.",
+    "Follow regulations for disposal of sharps and infectious materials."
+   ],
+   "ar": [
+    "**إدارة النفايات:** أزِل تلوّث النفايات الخطرة حيويًا باستخدام **المؤصدة (الأوتوكليف) أو المطهّرات الكيميائية** قبل التخلّص منها.",
+    "واتّبع الأنظمة الخاصة بالتخلّص من الأدوات الحادة والمواد المعدية."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Aseptic Techniques",
+   "ar": "التقنيات المعقّمة (اللاتلوّثية)"
+  },
+  {
+   "t": "card",
+   "en": "Aseptic techniques **minimize contamination risk** and **ensure sample integrity** during virological work.",
+   "ar": "تقلّل التقنيات المعقّمة **خطر التلوّث** و**تضمن سلامة العيّنة** أثناء العمل الفيروسي."
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Workstation Preparation:** Disinfect the work area with an appropriate agent (e.g., **70% ethanol or sodium hypochlorite**).",
+    "Organize tools and materials to minimize unnecessary movement."
+   ],
+   "ar": [
+    "**تهيئة مكان العمل:** طهّر منطقة العمل بمادة مناسبة (مثل **الإيثانول 70% أو هايبوكلورايت الصوديوم**).",
+    "ونظّم الأدوات والمواد لتقليل الحركة غير الضرورية."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Specimen Collection and Handling:** Use **sterile equipment** for specimen collection.",
+    "**Avoid touching sterile surfaces with bare hands** or non-sterile objects."
+   ],
+   "ar": [
+    "**جمع العيّنات والتعامل معها:** استخدم **أدوات معقّمة** لجمع العيّنات.",
+    "و**تجنّب لمس الأسطح المعقّمة باليد المجرّدة** أو بأدوات غير معقّمة."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Hand Hygiene:** Wash hands thoroughly **before and after** procedures.",
+    "Use **alcohol-based hand sanitizers** as an additional measure."
+   ],
+   "ar": [
+    "**نظافة اليدين:** اغسل يديك جيدًا **قبل الإجراءات وبعدها**.",
+    "واستخدم **معقّمات اليدين الكحولية** إجراءً إضافيًا."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Use of Sterile Supplies:** Employ **single-use sterile** pipette tips, tubes, and culture plates.",
+    "Open sterile packaging carefully to maintain sterility."
+   ],
+   "ar": [
+    "**استخدام المستلزمات المعقّمة:** استخدم رؤوس ماصّات وأنابيب وأطباق زرع **معقّمة ذات استعمال واحد**.",
+    "وافتح العبوات المعقّمة بحذر للمحافظة على تعقيمها."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Minimizing Aerosols:** Perform procedures **gently** to avoid splashing or aerosol generation.",
+    "Centrifuge samples in **sealed containers** with appropriate rotors."
+   ],
+   "ar": [
+    "**تقليل الرذاذ:** نفّذ الإجراءات **بلطف** لتجنّب التناثر أو توليد الرذاذ.",
+    "وضع العيّنات في جهاز الطرد المركزي داخل **حاويات محكمة الغلق** مع دوّارات مناسبة."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Flame Sterilization:** Sterilize reusable instruments (e.g., **inoculation loops**) using a **Bunsen burner** or a sterilizer.",
+    "**Avoid reaching over the flame** to prevent contamination."
+   ],
+   "ar": [
+    "**التعقيم باللهب:** عقّم الأدوات القابلة لإعادة الاستعمال (مثل **عروة التلقيح**) باستخدام **مصباح بنزن** أو جهاز تعقيم.",
+    "و**تجنّب مدّ اليد فوق اللهب** لمنع التلوّث."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": "**Environmental Monitoring:** Regularly test the work environment for contamination using **swabs and microbial culture** techniques.",
+   "ar": "**مراقبة البيئة:** افحص بيئة العمل بانتظام بحثًا عن التلوّث باستخدام **المسحات وتقنيات الزرع الميكروبي**."
+  },
+  {
+   "t": "table",
+   "head": [
+    "Situation",
+    "Use",
+    "الحالة — الاستخدام"
+   ],
+   "rows": [
+    [
+     "Infectious agents",
+     "Biological safety cabinet (Hood)",
+     "**العوامل المعدية**: كابينة السلامة الحيوية"
+    ],
+    [
+     "Transport",
+     "Sealed tubes + secondary containment",
+     "**النقل**: أنابيب محكمة + حاوية ثانوية"
+    ],
+    [
+     "Biohazard waste",
+     "Autoclave or chemical disinfectants",
+     "**النفايات الخطرة حيويًا**: المؤصدة أو المطهّرات"
+    ],
+    [
+     "Work area",
+     "70% ethanol or sodium hypochlorite",
+     "**منطقة العمل**: إيثانول 70% أو هايبوكلورايت الصوديوم"
+    ],
+    [
+     "Centrifugation",
+     "Sealed containers, appropriate rotors",
+     "**الطرد المركزي**: حاويات محكمة ودوّارات مناسبة"
+    ],
+    [
+     "Inoculation loops",
+     "Bunsen burner or sterilizer",
+     "**عروة التلقيح**: مصباح بنزن أو جهاز تعقيم"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ],
+   "style": "summary",
+   "label_en": "At a glance",
+   "label_ar": "باختصار"
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Lecturer's MCQs (Medical Virology Lab One)",
+    "topic_ar": "أسئلة المحاضرة (من ملف التدريسي)"
+   },
+   {
+    "en": "What is the main purpose of aseptic techniques in virology laboratory work:",
+    "ar": "ما الغرض الرئيس من التقنيات المعقّمة في العمل المختبري الفيروسي:",
+    "options": [
+     [
+      "Increase viral growth",
+      "زيادة نمو الفيروس"
+     ],
+     [
+      "Minimize contamination risk and ensure sample integrity",
+      "تقليل خطر التلوّث وضمان سلامة العيّنة"
+     ],
+     [
+      "Increase aerosol production",
+      "زيادة إنتاج الرذاذ"
+     ],
+     [
+      "Destroy laboratory equipment",
+      "إتلاف الأدوات المختبرية"
+     ],
+     [
+      "Increase specimen volume",
+      "زيادة حجم العيّنة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Infectious agents should be handled within a:",
+    "ar": "يجب التعامل مع العوامل المعدية داخل:",
+    "options": [
+     [
+      "Centrifuge",
+      "جهاز الطرد المركزي"
+     ],
+     [
+      "Water bath",
+      "الحمّام المائي"
+     ],
+     [
+      "Biological safety cabinet",
+      "كابينة السلامة الحيوية"
+     ],
+     [
+      "Refrigerator",
+      "الثلاجة"
+     ],
+     [
+      "Incubator",
+      "الحاضنة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "When transporting specimens, which should be used:",
+    "ar": "عند نقل العيّنات يجب استخدام:",
+    "options": [
+     [
+      "Open tubes",
+      "أنابيب مفتوحة"
+     ],
+     [
+      "Sealed tubes and secondary containment",
+      "أنابيب محكمة مع حاوية ثانوية"
+     ],
+     [
+      "Paper bags",
+      "أكياس ورقية"
+     ],
+     [
+      "Open Petri dishes",
+      "أطباق بتري مفتوحة"
+     ],
+     [
+      "Uncovered containers",
+      "حاويات مكشوفة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which agent can be used to disinfect the laboratory work area:",
+    "ar": "أي مادة يمكن استخدامها لتطهير منطقة العمل:",
+    "options": [
+     [
+      "Normal saline",
+      "المحلول الملحي"
+     ],
+     [
+      "Distilled water",
+      "الماء المقطّر"
+     ],
+     [
+      "70% ethanol",
+      "إيثانول 70%"
+     ],
+     [
+      "Culture medium",
+      "الوسط الزرعي"
+     ],
+     [
+      "Glucose solution",
+      "محلول الكلوكوز"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Specimens should be collected using:",
+    "ar": "يجب جمع العيّنات باستخدام:",
+    "options": [
+     [
+      "Contaminated equipment",
+      "أدوات ملوّثة"
+     ],
+     [
+      "Bare hands",
+      "اليد المجرّدة"
+     ],
+     [
+      "Sterile equipment",
+      "أدوات معقّمة"
+     ],
+     [
+      "Used pipettes",
+      "ماصّات مستعملة"
+     ],
+     [
+      "Non-sterile tubes",
+      "أنابيب غير معقّمة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which practice should be avoided during aseptic procedures:",
+    "ar": "أي ممارسة يجب تجنّبها أثناء الإجراءات المعقّمة:",
+    "options": [
+     [
+      "Touching sterile surfaces with bare hands",
+      "لمس الأسطح المعقّمة باليد المجرّدة"
+     ],
+     [
+      "Washing hands",
+      "غسل اليدين"
+     ],
+     [
+      "Using sterile equipment",
+      "استخدام الأدوات المعقّمة"
+     ],
+     [
+      "Using sterile pipette tips",
+      "استخدام رؤوس ماصّات معقّمة"
+     ],
+     [
+      "Disinfecting the work area",
+      "تطهير منطقة العمل"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Samples should be centrifuged in:",
+    "ar": "يجب وضع العيّنات في الطرد المركزي داخل:",
+    "options": [
+     [
+      "Open containers",
+      "حاويات مفتوحة"
+     ],
+     [
+      "Sealed containers with appropriate rotors",
+      "حاويات محكمة مع دوّارات مناسبة"
+     ],
+     [
+      "Paper containers",
+      "حاويات ورقية"
+     ],
+     [
+      "Open Petri dishes",
+      "أطباق بتري مفتوحة"
+     ],
+     [
+      "Uncovered tubes",
+      "أنابيب مكشوفة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Biohazard waste should be decontaminated using:",
+    "ar": "يجب إزالة تلوّث النفايات الخطرة حيويًا باستخدام:",
+    "options": [
+     [
+      "Distilled water",
+      "الماء المقطّر"
+     ],
+     [
+      "Culture media",
+      "الأوساط الزرعية"
+     ],
+     [
+      "Normal saline",
+      "المحلول الملحي"
+     ],
+     [
+      "Autoclaves or chemical disinfectants",
+      "المؤصدة أو المطهّرات الكيميائية"
+     ],
+     [
+      "Refrigeration",
+      "التبريد"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which of the following is used as a sterile, single-use laboratory supply:",
+    "ar": "أي مما يأتي يُستخدم مستلزمًا معقّمًا ذا استعمال واحد:",
+    "options": [
+     [
+      "Pipette tips",
+      "رؤوس الماصّات"
+     ],
+     [
+      "Bunsen burner",
+      "مصباح بنزن"
+     ],
+     [
+      "Microscope",
+      "المجهر"
+     ],
+     [
+      "Centrifuge",
+      "جهاز الطرد المركزي"
+     ],
+     [
+      "Incubator",
+      "الحاضنة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Laboratory procedures should be performed gently to:",
+    "ar": "يجب تنفيذ الإجراءات المختبرية بلطف من أجل:",
+    "options": [
+     [
+      "Increase splashing",
+      "زيادة التناثر"
+     ],
+     [
+      "Generate aerosols",
+      "توليد الرذاذ"
+     ],
+     [
+      "Avoid splashing and aerosol generation",
+      "تجنّب التناثر وتوليد الرذاذ"
+     ],
+     [
+      "Increase contamination",
+      "زيادة التلوّث"
+     ],
+     [
+      "Increase specimen evaporation",
+      "زيادة تبخّر العيّنة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "More practice",
+    "topic_ar": "تدريب إضافي"
+   },
+   {
+    "en": "Besides 70% ethanol, the work area can be disinfected with:",
+    "ar": "إضافة إلى إيثانول 70% يمكن تطهير منطقة العمل بـ:",
+    "options": [
+     [
+      "Sodium hypochlorite",
+      "هايبوكلورايت الصوديوم"
+     ],
+     [
+      "Glucose",
+      "الكلوكوز"
+     ],
+     [
+      "Saline",
+      "المحلول الملحي"
+     ],
+     [
+      "Distilled water",
+      "الماء المقطّر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Reusable inoculation loops are sterilized by:",
+    "ar": "تُعقَّم عروة التلقيح القابلة لإعادة الاستعمال بـ:",
+    "options": [
+     [
+      "Washing with water",
+      "الغسل بالماء"
+     ],
+     [
+      "A Bunsen burner or a sterilizer",
+      "مصباح بنزن أو جهاز تعقيم"
+     ],
+     [
+      "Refrigeration",
+      "التبريد"
+     ],
+     [
+      "Saline",
+      "المحلول الملحي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "During flame sterilization you should avoid:",
+    "ar": "أثناء التعقيم باللهب يجب تجنّب:",
+    "options": [
+     [
+      "Using a Bunsen burner",
+      "استخدام مصباح بنزن"
+     ],
+     [
+      "Sterilizing loops",
+      "تعقيم العروات"
+     ],
+     [
+      "Reaching over the flame",
+      "مدّ اليد فوق اللهب"
+     ],
+     [
+      "Wearing gloves",
+      "ارتداء القفّازات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The work environment is tested for contamination using:",
+    "ar": "تُفحص بيئة العمل بحثًا عن التلوّث باستخدام:",
+    "options": [
+     [
+      "Thermometers",
+      "محارير"
+     ],
+     [
+      "pH paper",
+      "ورق الأس الهيدروجيني"
+     ],
+     [
+      "Microscopes only",
+      "المجاهر فقط"
+     ],
+     [
+      "Swabs and microbial culture",
+      "المسحات والزرع الميكروبي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Hands should be washed:",
+    "ar": "يجب غسل اليدين:",
+    "options": [
+     [
+      "Before and after procedures",
+      "قبل الإجراءات وبعدها"
+     ],
+     [
+      "Only after work",
+      "بعد العمل فقط"
+     ],
+     [
+      "Only before work",
+      "قبل العمل فقط"
+     ],
+     [
+      "Never",
+      "أبدًا"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Organizing tools and materials on the workstation aims to:",
+    "ar": "يهدف تنظيم الأدوات والمواد في مكان العمل إلى:",
+    "options": [
+     [
+      "Increase contamination",
+      "زيادة التلوّث"
+     ],
+     [
+      "Minimize unnecessary movement",
+      "تقليل الحركة غير الضرورية"
+     ],
+     [
+      "Speed up aerosols",
+      "تسريع الرذاذ"
+     ],
+     [
+      "Avoid disinfection",
+      "تجنّب التطهير"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Sterile packaging should be:",
+    "ar": "يجب أن تُفتح العبوات المعقّمة:",
+    "options": [
+     [
+      "Torn open quickly",
+      "بسرعة وتمزيق"
+     ],
+     [
+      "Opened with bare teeth",
+      "بالأسنان"
+     ],
+     [
+      "Opened carefully to maintain sterility",
+      "بحذر للمحافظة على التعقيم"
+     ],
+     [
+      "Left open overnight",
+      "وتُترك مفتوحة طوال الليل"
+     ]
+    ],
+    "answer": "c"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Infectious agents should be handled on an open bench.",
+    "ar": "يُتعامل مع العوامل المعدية على منضدة مفتوحة.",
+    "answer": "F"
+   },
+   {
+    "en": "A biological safety cabinet contains aerosols and splashes.",
+    "ar": "تحتوي كابينة السلامة الحيوية الرذاذ والتناثر.",
+    "answer": "T"
+   },
+   {
+    "en": "Biohazard waste can be thrown away without decontamination.",
+    "ar": "يمكن رمي النفايات الخطرة حيويًا دون إزالة تلوّثها.",
+    "answer": "F"
+   },
+   {
+    "en": "Aseptic techniques ensure sample integrity.",
+    "ar": "تضمن التقنيات المعقّمة سلامة العيّنة.",
+    "answer": "T"
+   },
+   {
+    "en": "Alcohol-based hand sanitizers replace hand washing.",
+    "ar": "تحلّ معقّمات اليدين الكحولية محلّ غسل اليدين.",
+    "answer": "F"
+   },
+   {
+    "en": "Pipette tips, tubes and culture plates should be single-use and sterile.",
+    "ar": "يجب أن تكون رؤوس الماصّات والأنابيب وأطباق الزرع معقّمة وذات استعمال واحد.",
+    "answer": "T"
+   },
+   {
+    "en": "Samples may be centrifuged in open tubes.",
+    "ar": "يمكن وضع العيّنات في الطرد المركزي بأنابيب مفتوحة.",
+    "answer": "F"
+   },
+   {
+    "en": "Reaching over the flame may cause contamination.",
+    "ar": "قد يسبّب مدّ اليد فوق اللهب التلوّث.",
+    "answer": "T"
+   },
+   {
+    "en": "Environmental monitoring is done regularly.",
+    "ar": "تُجرى مراقبة البيئة بانتظام.",
+    "answer": "T"
+   },
+   {
+    "en": "Sodium hypochlorite is used to disinfect the work area.",
+    "ar": "يُستخدم هايبوكلورايت الصوديوم لتطهير منطقة العمل.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Where are infectious agents handled?",
+    "ar": "أين يُتعامل مع العوامل المعدية؟",
+    "answer_en": "Inside a biological safety cabinet (hood) — not a centrifuge, incubator or open bench.",
+    "answer_ar": "داخل كابينة السلامة الحيوية (الهود) — لا الطرد المركزي ولا الحاضنة ولا المنضدة المفتوحة."
+   },
+   {
+    "en": "Disinfectant vs diluent",
+    "ar": "المطهّر مقابل المخفّف",
+    "answer_en": "70% ethanol or sodium hypochlorite disinfect; saline and distilled water do not.",
+    "answer_ar": "الإيثانول 70% وهايبوكلورايت الصوديوم يطهّران؛ أما المحلول الملحي والماء المقطّر فلا."
+   },
+   {
+    "en": "Single-use supply or equipment?",
+    "ar": "مستلزم ذو استعمال واحد أم جهاز؟",
+    "answer_en": "Pipette tips, tubes, culture plates are single-use; Bunsen burner, microscope, centrifuge, incubator are equipment.",
+    "answer_ar": "رؤوس الماصّات والأنابيب وأطباق الزرع ذات استعمال واحد؛ ومصباح بنزن والمجهر والطرد المركزي والحاضنة أجهزة."
+   },
+   {
+    "en": "Hand sanitizer — main or additional?",
+    "ar": "معقّم اليدين — رئيس أم إضافي؟",
+    "answer_en": "Additional measure; hands are washed thoroughly before and after procedures.",
+    "answer_ar": "إجراء إضافي؛ وتُغسل اليدان جيدًا قبل الإجراءات وبعدها."
+   },
+   {
+    "en": "How is biohazard waste decontaminated?",
+    "ar": "كيف تُزال تلوّث النفايات الخطرة حيويًا؟",
+    "answer_en": "Autoclave or chemical disinfectants before disposal.",
+    "answer_ar": "بالمؤصدة أو المطهّرات الكيميائية قبل التخلّص منها."
+   }
+  ],
+  "important": [
+   {
+    "en": "List the laboratory safety guidelines in virology.",
+    "ar": "عدّد إرشادات السلامة في مختبر الفيروسات.",
+    "answer_en": "PPE (lab coat, gloves); handle pathogens in a biological safety cabinet and transport them in sealed tubes with secondary containment; decontaminate biohazard waste by autoclave or chemicals and follow sharps regulations.",
+    "answer_ar": "معدّات الوقاية (صدرية، قفّازات)؛ التعامل مع الممرضات في كابينة السلامة الحيوية ونقلها بأنابيب محكمة وحاوية ثانوية؛ إزالة تلوّث النفايات بالمؤصدة أو الكيميائيات واتّباع أنظمة الأدوات الحادة."
+   },
+   {
+    "en": "Define aseptic techniques and list them.",
+    "ar": "عرّف التقنيات المعقّمة وعدّدها.",
+    "answer_en": "Techniques that minimize contamination risk and ensure sample integrity: workstation preparation, specimen collection and handling, hand hygiene, sterile supplies, minimizing aerosols, flame sterilization, environmental monitoring.",
+    "answer_ar": "تقنيات تقلّل خطر التلوّث وتضمن سلامة العيّنة: تهيئة مكان العمل، جمع العيّنات والتعامل معها، نظافة اليدين، المستلزمات المعقّمة، تقليل الرذاذ، التعقيم باللهب، مراقبة البيئة."
+   },
+   {
+    "en": "How is the workstation prepared?",
+    "ar": "كيف يُهيّأ مكان العمل؟",
+    "answer_en": "Disinfect with 70% ethanol or sodium hypochlorite and organize tools to minimize unnecessary movement.",
+    "answer_ar": "يُطهّر بالإيثانول 70% أو هايبوكلورايت الصوديوم وتُنظّم الأدوات لتقليل الحركة غير الضرورية."
+   },
+   {
+    "en": "How are aerosols minimized?",
+    "ar": "كيف يُقلَّل الرذاذ؟",
+    "answer_en": "Perform procedures gently to avoid splashing and centrifuge in sealed containers with appropriate rotors.",
+    "answer_ar": "بتنفيذ الإجراءات بلطف لتجنّب التناثر، والطرد المركزي في حاويات محكمة مع دوّارات مناسبة."
+   },
+   {
+    "en": "Describe flame sterilization and environmental monitoring.",
+    "ar": "صف التعقيم باللهب ومراقبة البيئة.",
+    "answer_en": "Reusable instruments such as inoculation loops are sterilized with a Bunsen burner or sterilizer without reaching over the flame; the environment is tested regularly with swabs and microbial culture.",
+    "answer_ar": "تُعقَّم الأدوات القابلة لإعادة الاستعمال كعروة التلقيح بمصباح بنزن أو جهاز تعقيم دون مدّ اليد فوق اللهب؛ وتُفحص البيئة بانتظام بالمسحات والزرع الميكروبي."
+   }
+  ]
+ }
+}

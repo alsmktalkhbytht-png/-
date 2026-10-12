@@ -1,0 +1,996 @@
+{
+ "meta": {
+  "subject_en": "Hematology",
+  "subject_ar": "أمراض الدم",
+  "short_ar": "امراض الدم",
+  "unit_label": "LAB",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة",
+  "instructor": "ليندا منجد هادي",
+  "unit_en": "Lab 3",
+  "unit_ar": "العملي 3",
+  "unit_no": "3",
+  "title_en": "Normal Values of Blood Components According to Age",
+  "title_ar": "القيم الطبيعية لمكوّنات الدم بحسب العمر"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Definition and Why Age Matters",
+   "ar": "التعريف ولماذا يهمّ العمر"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "A **normal value (reference range)** is the **expected range in healthy people**.",
+    "Normal values **change with age**, and sometimes with **sex**.",
+    "The same result may be **normal in one age group and abnormal in another**."
+   ],
+   "list_ar": [
+    "**القيمة الطبيعية (المدى المرجعي)** هي **المدى المتوقّع عند الأشخاص الأصحاء**.",
+    "تتغيّر القيم الطبيعية **مع العمر**، وأحيانًا مع **الجنس**.",
+    "والنتيجة نفسها قد تكون **طبيعية في فئة عمرية وغير طبيعية في أخرى**."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key Age Groups",
+   "ar": "الفئات العمرية الرئيسة"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Age group",
+    "Main point",
+    "الفئة — النقطة الرئيسة"
+   ],
+   "rows": [
+    [
+     "Newborn",
+     "Higher hemoglobin, higher white blood cell count, higher reticulocytes",
+     "**حديث الولادة**: هيموغلوبين أعلى، وكريات بيض أكثر، وخلايا شبكية أكثر"
+    ],
+    [
+     "Child",
+     "Values gradually move toward the adult range",
+     "**الطفل**: تقترب القيم تدريجيًا من مدى البالغين"
+    ],
+    [
+     "Adult",
+     "Stable adult range; sex differences become clearer",
+     "**البالغ**: مدى ثابت للبالغين؛ وتتّضح الفروق بين الجنسين"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/age-overview.jpg",
+   "en": "Newborn → child → adult; platelets are relatively stable across ages",
+   "ar": "حديث الولادة ← الطفل ← البالغ؛ والصفيحات ثابتة نسبيًا عبر الأعمار",
+   "h": "34mm"
+  },
+  {
+   "t": "section",
+   "en": "Hemoglobin According to Age",
+   "ar": "الهيموغلوبين بحسب العمر"
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "",
+     "ar": "",
+     "list_en": [
+      "**Newborn:** 14–24 g/dL",
+      "**Child:** 11–14 g/dL",
+      "**Adult male:** 13.5–17.5 g/dL",
+      "**Adult female:** 12.0–16.0 g/dL"
+     ],
+     "list_ar": [
+      "**حديث الولادة:** 14–24 غ/دل",
+      "**الطفل:** 11–14 غ/دل",
+      "**الذكر البالغ:** 13.5–17.5 غ/دل",
+      "**الأنثى البالغة:** 12.0–16.0 غ/دل"
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/hb-by-age.jpg",
+    "en": "Hemoglobin reference values by age",
+    "ar": "قيم الهيموغلوبين المرجعية بحسب العمر"
+   }
+  },
+  {
+   "t": "section",
+   "en": "White Blood Cell Count",
+   "ar": "عدد الكريات البيض"
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "",
+     "ar": "",
+     "list_en": [
+      "**Newborn:** 9,000–30,000 /µL",
+      "**Child:** 6,000–17,000 /µL",
+      "**Adult:** 4,000–11,000 /µL"
+     ],
+     "list_ar": [
+      "**حديث الولادة:** 9,000–30,000 /مايكرولتر",
+      "**الطفل:** 6,000–17,000 /مايكرولتر",
+      "**البالغ:** 4,000–11,000 /مايكرولتر"
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/wbc-by-age.jpg",
+    "en": "White blood cell count reference values by age",
+    "ar": "قيم الكريات البيض المرجعية بحسب العمر"
+   }
+  },
+  {
+   "t": "h2",
+   "en": "Adult White Blood Cell Differential Count",
+   "ar": "العدّ التفريقي للكريات البيض عند البالغين"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Cell",
+    "%",
+    "الخلية"
+   ],
+   "rows": [
+    [
+     "Neutrophils",
+     "40–75%",
+     "العدلات"
+    ],
+    [
+     "Lymphocytes",
+     "20–45%",
+     "اللمفاويات"
+    ],
+    [
+     "Monocytes",
+     "2–10%",
+     "الوحيدات"
+    ],
+    [
+     "Eosinophils",
+     "1–6%",
+     "الحمضات"
+    ],
+    [
+     "Basophils",
+     "0–1%",
+     "القعدات"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/neutrophil-lymphocyte.jpg",
+   "en": "Blood film: a neutrophil and a lymphocyte among red cells",
+   "ar": "مسحة دموية: عدلة ولمفاوية بين الكريات الحمر",
+   "h": "54mm"
+  },
+  {
+   "t": "section",
+   "en": "Platelets and Reticulocytes",
+   "ar": "الصفيحات والخلايا الشبكية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Platelets:** 150,000–450,000 /µL",
+    "**Reticulocytes in newborns:** 2.5–6.0%",
+    "**Reticulocytes in adults:** 0.5–1.5%"
+   ],
+   "list_ar": [
+    "**الصفيحات:** 150,000–450,000 /مايكرولتر",
+    "**الخلايا الشبكية عند حديثي الولادة:** 2.5–6.0%",
+    "**الخلايا الشبكية عند البالغين:** 0.5–1.5%"
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/platelets.jpg",
+     "en": "Platelets (arrows) in a blood film",
+     "ar": "الصفيحات (الأسهم) في مسحة دموية",
+     "h": "48mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/reticulocytes.jpg",
+     "en": "Reticulocytes (supravital stain)",
+     "ar": "الخلايا الشبكية (صبغة فوق حيوية)",
+     "h": "48mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Red Blood Cell Count and Red Blood Cell Indices",
+   "ar": "عدد الكريات الحمر ومؤشّراتها"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Adult male** red blood cell count: **4.7–6.1 ×10⁶/µL**",
+    "**Adult female** red blood cell count: **4.2–5.4 ×10⁶/µL**"
+   ],
+   "list_ar": [
+    "عدد الكريات الحمر عند **الذكر البالغ**: **4.7–6.1 ×10⁶/مايكرولتر**",
+    "عدد الكريات الحمر عند **الأنثى البالغة**: **4.2–5.4 ×10⁶/مايكرولتر**"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    "Index",
+    "Normal",
+    "Meaning",
+    "المعنى"
+   ],
+   "rows": [
+    [
+     "Mean Corpuscular Volume (MCV)",
+     "80–100 fL",
+     "Average red blood cell size",
+     "متوسط حجم الكرية الحمراء"
+    ],
+    [
+     "Mean Corpuscular Hemoglobin (MCH)",
+     "27–33 pg",
+     "Average hemoglobin amount per red blood cell",
+     "متوسط كمية الهيموغلوبين في الكرية الحمراء"
+    ],
+    [
+     "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+     "32–36 g/dL",
+     "Average hemoglobin concentration in red blood cells",
+     "متوسط تركيز الهيموغلوبين في الكريات الحمر"
+    ]
+   ],
+   "ar_cols": [
+    3
+   ],
+   "key_cols": [
+    0
+   ]
+  },
+  {
+   "t": "note",
+   "en": "These practical values (MCV 80–100, MCHC 32–36) differ slightly from the theory lectures of Dr. Mazin (MCV 80–95, MCHC 20–35) — use each lecturer's values in their exam.",
+   "ar": "تختلف هذه القيم العملية (`MCV 80–100`، `MCHC 32–36`) قليلًا عن محاضرات النظري لدكتور مازن (`MCV 80–95`، `MCHC 20–35`) — اعتمد قيم كل تدريسي في امتحانه.",
+   "label": [
+    "BIOS note",
+    "ملاحظة بايوس"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Quick Comparison by Age",
+   "ar": "مقارنة سريعة بحسب العمر"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Parameter",
+    "Newborn",
+    "Child",
+    "Adult"
+   ],
+   "rows": [
+    [
+     "Hemoglobin (g/dL)",
+     "14–24",
+     "11–14",
+     "Male: 13.5–17.5 · Female: 12–16"
+    ],
+    [
+     "White Blood Cell Count (/µL)",
+     "9,000–30,000",
+     "6,000–17,000",
+     "4,000–11,000"
+    ],
+    [
+     "Platelets (/µL)",
+     "150,000–450,000",
+     "150,000–450,000",
+     "150,000–450,000"
+    ],
+    [
+     "Reticulocytes",
+     "2.5–6.0%",
+     "—",
+     "0.5–1.5%"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "style": "summary",
+   "label_en": "Quick comparison",
+   "label_ar": "مقارنة سريعة"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Newborns usually have **higher hemoglobin and white blood cell counts**.",
+    "Children **gradually approach** adult reference ranges.",
+    "Adult males and females differ mainly in **hemoglobin and red blood cell count**.",
+    "**Platelets are relatively stable** across age groups.",
+    "**Always interpret results using the patient’s age.**"
+   ],
+   "ar": [
+    "لدى حديثي الولادة عادةً **هيموغلوبين وكريات بيض أعلى**.",
+    "يقترب الأطفال **تدريجيًا** من مديات البالغين المرجعية.",
+    "يختلف الذكور والإناث البالغون أساسًا في **الهيموغلوبين وعدد الكريات الحمر**.",
+    "**الصفيحات ثابتة نسبيًا** عبر الفئات العمرية.",
+    "**فسّر النتائج دائمًا بحسب عمر المريض.**"
+   ],
+   "label": [
+    "Keep in mind",
+    "تذكّر"
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Reference ranges and age",
+    "topic_ar": "المديات المرجعية والعمر"
+   },
+   {
+    "en": "A normal value (reference range) is:",
+    "ar": "القيمة الطبيعية (المدى المرجعي) هي:",
+    "options": [
+     [
+      "The highest value ever measured",
+      "أعلى قيمة قيست"
+     ],
+     [
+      "The expected range in healthy people",
+      "المدى المتوقّع عند الأصحاء"
+     ],
+     [
+      "The value in sick people",
+      "القيمة عند المرضى"
+     ],
+     [
+      "A fixed number for all ages",
+      "رقم ثابت لكل الأعمار"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Normal values change with:",
+    "ar": "تتغيّر القيم الطبيعية مع:",
+    "options": [
+     [
+      "Age and sometimes sex",
+      "العمر وأحيانًا الجنس"
+     ],
+     [
+      "Weather",
+      "الطقس"
+     ],
+     [
+      "Blood group only",
+      "فصيلة الدم فقط"
+     ],
+     [
+      "Nothing",
+      "لا شيء"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which age group has higher Hb, WBC and reticulocytes?",
+    "ar": "أي فئة عمرية لديها Hb وكريات بيض وخلايا شبكية أعلى؟",
+    "options": [
+     [
+      "Child",
+      "الطفل"
+     ],
+     [
+      "Adult",
+      "البالغ"
+     ],
+     [
+      "Newborn",
+      "حديث الولادة"
+     ],
+     [
+      "Elderly",
+      "كبير السن"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In which group do sex differences become clearer?",
+    "ar": "في أي فئة تتّضح الفروق بين الجنسين؟",
+    "options": [
+     [
+      "Newborn",
+      "حديث الولادة"
+     ],
+     [
+      "Infant",
+      "الرضيع"
+     ],
+     [
+      "Child",
+      "الطفل"
+     ],
+     [
+      "Adult",
+      "البالغ"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Values",
+    "topic_ar": "القيم"
+   },
+   {
+    "en": "Normal haemoglobin of a newborn is:",
+    "ar": "الهيموغلوبين الطبيعي لحديث الولادة:",
+    "options": [
+     [
+      "11–14 g/dL",
+      "11–14"
+     ],
+     [
+      "14–24 g/dL",
+      "14–24"
+     ],
+     [
+      "12–16 g/dL",
+      "12–16"
+     ],
+     [
+      "8–10 g/dL",
+      "8–10"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Normal haemoglobin of a child is:",
+    "ar": "الهيموغلوبين الطبيعي للطفل:",
+    "options": [
+     [
+      "11–14 g/dL",
+      "11–14"
+     ],
+     [
+      "14–24 g/dL",
+      "14–24"
+     ],
+     [
+      "13.5–17.5 g/dL",
+      "13.5–17.5"
+     ],
+     [
+      "18–22 g/dL",
+      "18–22"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Normal haemoglobin of an adult female (this lecture) is:",
+    "ar": "الهيموغلوبين الطبيعي للأنثى البالغة (هذه المحاضرة):",
+    "options": [
+     [
+      "11–14 g/dL",
+      "11–14"
+     ],
+     [
+      "13.5–17.5 g/dL",
+      "13.5–17.5"
+     ],
+     [
+      "12.0–16.0 g/dL",
+      "12.0–16.0"
+     ],
+     [
+      "14–24 g/dL",
+      "14–24"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The normal WBC count of a newborn is:",
+    "ar": "عدد الكريات البيض الطبيعي لحديث الولادة:",
+    "options": [
+     [
+      "4,000–11,000",
+      "4,000–11,000"
+     ],
+     [
+      "6,000–17,000",
+      "6,000–17,000"
+     ],
+     [
+      "1,000–3,000",
+      "1,000–3,000"
+     ],
+     [
+      "9,000–30,000",
+      "9,000–30,000"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The normal adult WBC count is:",
+    "ar": "عدد الكريات البيض الطبيعي للبالغ:",
+    "options": [
+     [
+      "4,000–11,000 /µL",
+      "4,000–11,000"
+     ],
+     [
+      "9,000–30,000 /µL",
+      "9,000–30,000"
+     ],
+     [
+      "150,000–450,000 /µL",
+      "150,000–450,000"
+     ],
+     [
+      "6,000–17,000 /µL",
+      "6,000–17,000"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The most numerous white cells in adults are:",
+    "ar": "أكثر الكريات البيض عددًا عند البالغين:",
+    "options": [
+     [
+      "Lymphocytes",
+      "اللمفاويات"
+     ],
+     [
+      "Neutrophils (40–75%)",
+      "العدلات (40–75%)"
+     ],
+     [
+      "Monocytes",
+      "الوحيدات"
+     ],
+     [
+      "Eosinophils",
+      "الحمضات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Normal basophils in adults are:",
+    "ar": "النسبة الطبيعية للقعدات عند البالغين:",
+    "options": [
+     [
+      "2–10%",
+      "2–10%"
+     ],
+     [
+      "1–6%",
+      "1–6%"
+     ],
+     [
+      "0–1%",
+      "0–1%"
+     ],
+     [
+      "20–45%",
+      "20–45%"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Normal lymphocytes in adults are:",
+    "ar": "النسبة الطبيعية للمفاويات عند البالغين:",
+    "options": [
+     [
+      "20–45%",
+      "20–45%"
+     ],
+     [
+      "40–75%",
+      "40–75%"
+     ],
+     [
+      "0–1%",
+      "0–1%"
+     ],
+     [
+      "2–10%",
+      "2–10%"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The normal platelet count is:",
+    "ar": "العدد الطبيعي للصفيحات:",
+    "options": [
+     [
+      "4,000–11,000 /µL",
+      "4,000–11,000"
+     ],
+     [
+      "1–2 million /µL",
+      "1–2 مليون"
+     ],
+     [
+      "50,000–100,000 /µL",
+      "50,000–100,000"
+     ],
+     [
+      "150,000–450,000 /µL",
+      "150,000–450,000"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Reticulocytes in adults are:",
+    "ar": "الخلايا الشبكية عند البالغين:",
+    "options": [
+     [
+      "2.5–6.0%",
+      "2.5–6.0%"
+     ],
+     [
+      "0.5–1.5%",
+      "0.5–1.5%"
+     ],
+     [
+      "10%",
+      "10%"
+     ],
+     [
+      "0%",
+      "0%"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The adult male red cell count (this lecture) is:",
+    "ar": "عدد الكريات الحمر للذكر البالغ (هذه المحاضرة):",
+    "options": [
+     [
+      "4.2–5.4 ×10⁶/µL",
+      "4.2–5.4"
+     ],
+     [
+      "3.0–4.0 ×10⁶/µL",
+      "3.0–4.0"
+     ],
+     [
+      "4.7–6.1 ×10⁶/µL",
+      "4.7–6.1"
+     ],
+     [
+      "7–8 ×10⁶/µL",
+      "7–8"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "MCV reflects:",
+    "ar": "يعكس MCV:",
+    "options": [
+     [
+      "Average red blood cell size",
+      "متوسط حجم الكرية الحمراء"
+     ],
+     [
+      "Average Hb concentration",
+      "متوسط تركيز Hb"
+     ],
+     [
+      "Platelet count",
+      "عدد الصفيحات"
+     ],
+     [
+      "WBC count",
+      "عدد الكريات البيض"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The normal MCHC (this lecture) is:",
+    "ar": "الـ MCHC الطبيعي (هذه المحاضرة):",
+    "options": [
+     [
+      "80–100 g/dL",
+      "80–100"
+     ],
+     [
+      "27–33 g/dL",
+      "27–33"
+     ],
+     [
+      "12–16 g/dL",
+      "12–16"
+     ],
+     [
+      "32–36 g/dL",
+      "32–36"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which parameter is relatively stable across ages?",
+    "ar": "أي معيار ثابت نسبيًا عبر الأعمار؟",
+    "options": [
+     [
+      "Haemoglobin",
+      "الهيموغلوبين"
+     ],
+     [
+      "Platelets",
+      "الصفيحات"
+     ],
+     [
+      "WBC count",
+      "عدد الكريات البيض"
+     ],
+     [
+      "Reticulocytes",
+      "الخلايا الشبكية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this chart, the age group with the widest WBC range is:",
+    "ar": "في هذا المخطط، الفئة العمرية ذات أوسع مدى للكريات البيض:",
+    "options": [
+     [
+      "Adult",
+      "البالغ"
+     ],
+     [
+      "Child",
+      "الطفل"
+     ],
+     [
+      "Newborn",
+      "حديث الولادة"
+     ],
+     [
+      "All equal",
+      "متساوية"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/wbc-by-age.jpg",
+    "img_h": "40mm"
+   },
+   {
+    "en": "The small fragments marked by arrows in this blood film are:",
+    "ar": "القطع الصغيرة المؤشّرة بالأسهم في هذه المسحة:",
+    "options": [
+     [
+      "Reticulocytes",
+      "خلايا شبكية"
+     ],
+     [
+      "Lymphocytes",
+      "لمفاويات"
+     ],
+     [
+      "Platelets",
+      "صفيحات"
+     ],
+     [
+      "Neutrophils",
+      "عدلات"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/platelets.jpg",
+    "img_h": "40mm"
+   },
+   {
+    "en": "The cell with the multilobed nucleus in this film is a:",
+    "ar": "الخلية ذات النواة متعدّدة الفصوص في هذه المسحة:",
+    "options": [
+     [
+      "Neutrophil",
+      "عدلة"
+     ],
+     [
+      "Lymphocyte",
+      "لمفاوية"
+     ],
+     [
+      "Platelet",
+      "صفيحة"
+     ],
+     [
+      "Reticulocyte",
+      "خلية شبكية"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/neutrophil-lymphocyte.jpg",
+    "img_h": "40mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "The same result may be normal in one age group and abnormal in another.",
+    "ar": "قد تكون النتيجة نفسها طبيعية في فئة عمرية وغير طبيعية في أخرى.",
+    "answer": "T"
+   },
+   {
+    "en": "Children have higher haemoglobin than newborns.",
+    "ar": "لدى الأطفال هيموغلوبين أعلى من حديثي الولادة.",
+    "answer": "F"
+   },
+   {
+    "en": "Children's values gradually move toward the adult range.",
+    "ar": "تقترب قيم الأطفال تدريجيًا من مدى البالغين.",
+    "answer": "T"
+   },
+   {
+    "en": "Newborns have the highest WBC count.",
+    "ar": "لدى حديثي الولادة أعلى عدد للكريات البيض.",
+    "answer": "T"
+   },
+   {
+    "en": "Monocytes are 40–75% of adult WBC.",
+    "ar": "تشكّل الوحيدات 40–75% من كريات البالغين البيض.",
+    "answer": "F"
+   },
+   {
+    "en": "Eosinophils are 1–6% in adults.",
+    "ar": "تشكّل الحمضات 1–6% عند البالغين.",
+    "answer": "T"
+   },
+   {
+    "en": "Reticulocytes are higher in newborns than adults.",
+    "ar": "الخلايا الشبكية أعلى عند حديثي الولادة منها عند البالغين.",
+    "answer": "T"
+   },
+   {
+    "en": "Platelet reference ranges differ greatly between newborns and adults.",
+    "ar": "تختلف مديات الصفيحات كثيرًا بين حديثي الولادة والبالغين.",
+    "answer": "F"
+   },
+   {
+    "en": "Adult males and females differ mainly in Hb and RBC count.",
+    "ar": "يختلف الذكور والإناث البالغون أساسًا في Hb وعدد الكريات الحمر.",
+    "answer": "T"
+   },
+   {
+    "en": "MCH means average haemoglobin concentration in red cells.",
+    "ar": "يعني MCH متوسط تركيز الهيموغلوبين في الكريات الحمر.",
+    "answer": "F"
+   },
+   {
+    "en": "Results should always be interpreted using the patient’s age.",
+    "ar": "يجب تفسير النتائج دائمًا بحسب عمر المريض.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "MCH vs MCHC",
+    "ar": "MCH مقابل MCHC",
+    "answer_en": "MCH: average Hb amount per cell (27–33 pg). MCHC: average Hb concentration in red cells (32–36 g/dL).",
+    "answer_ar": "MCH: متوسط كمية Hb في الكرية (27–33 pg). MCHC: متوسط تركيز Hb في الكريات (32–36 g/dL)."
+   },
+   {
+    "en": "Highest Hb vs highest WBC",
+    "ar": "أعلى Hb مقابل أعلى كريات بيض",
+    "answer_en": "Both are highest in newborns (Hb 14–24; WBC 9,000–30,000).",
+    "answer_ar": "كلاهما الأعلى عند حديثي الولادة (Hb 14–24؛ الكريات البيض 9,000–30,000)."
+   },
+   {
+    "en": "Reticulocytes: newborn vs adult",
+    "ar": "الخلايا الشبكية: حديث الولادة مقابل البالغ",
+    "answer_en": "Newborn 2.5–6.0%; adult 0.5–1.5%.",
+    "answer_ar": "حديث الولادة 2.5–6.0%؛ البالغ 0.5–1.5%."
+   },
+   {
+    "en": "Differential percentages",
+    "ar": "نسب العدّ التفريقي",
+    "answer_en": "Neutrophils 40–75, lymphocytes 20–45, monocytes 2–10, eosinophils 1–6, basophils 0–1.",
+    "answer_ar": "العدلات 40–75، اللمفاويات 20–45، الوحيدات 2–10، الحمضات 1–6، القعدات 0–1."
+   },
+   {
+    "en": "Practical vs theory values",
+    "ar": "قيم العملي مقابل النظري",
+    "answer_en": "This lecture: female Hb 12–16, MCV 80–100, MCHC 32–36. Dr. Mazin's theory: female Hb 11.5–15.5, MCV 80–95, MCHC 20–35.",
+    "answer_ar": "هذه المحاضرة: Hb الأنثى 12–16، MCV 80–100، MCHC 32–36. نظري د. مازن: Hb الأنثى 11.5–15.5، MCV 80–95، MCHC 20–35."
+   }
+  ],
+  "important": [
+   {
+    "en": "What is meant by a normal (reference) value?",
+    "ar": "ما المقصود بالقيمة الطبيعية (المرجعية)؟",
+    "answer_en": "The expected range in healthy people.",
+    "answer_ar": "المدى المتوقّع عند الأشخاص الأصحاء."
+   },
+   {
+    "en": "Why is age important in hematology?",
+    "ar": "لماذا يهمّ العمر في أمراض الدم؟",
+    "answer_en": "Normal values change with age (and sometimes sex), so the same result may be normal in one age group and abnormal in another.",
+    "answer_ar": "لأن القيم الطبيعية تتغيّر مع العمر (وأحيانًا الجنس)، فقد تكون النتيجة نفسها طبيعية في فئة وغير طبيعية في أخرى."
+   },
+   {
+    "en": "Which age group usually has the highest white blood cell count?",
+    "ar": "أي فئة عمرية لديها عادةً أعلى عدد للكريات البيض؟",
+    "answer_en": "Newborns (9,000–30,000 /µL).",
+    "answer_ar": "حديثو الولادة (9,000–30,000 /مايكرولتر)."
+   },
+   {
+    "en": "What is the normal platelet range?",
+    "ar": "ما المدى الطبيعي للصفيحات؟",
+    "answer_en": "150,000–450,000 /µL, relatively stable across ages.",
+    "answer_ar": "150,000–450,000 /مايكرولتر، وهو ثابت نسبيًا عبر الأعمار."
+   },
+   {
+    "en": "What is the hemoglobin range in adult males and females?",
+    "ar": "ما مدى الهيموغلوبين عند الذكور والإناث البالغين؟",
+    "answer_en": "Males 13.5–17.5 g/dL; females 12.0–16.0 g/dL.",
+    "answer_ar": "الذكور 13.5–17.5 غ/دل؛ الإناث 12.0–16.0 غ/دل."
+   },
+   {
+    "en": "Why are reticulocytes higher in newborns?",
+    "ar": "لماذا تكون الخلايا الشبكية أعلى عند حديثي الولادة؟",
+    "answer_en": "Newborns show higher values (2.5–6.0% vs 0.5–1.5% in adults) because red cell production is very active at birth, with high haemoglobin.",
+    "answer_ar": "لأن لديهم قيمًا أعلى (2.5–6.0% مقابل 0.5–1.5% عند البالغين) بسبب نشاط إنتاج الكريات الحمر العالي عند الولادة مع ارتفاع الهيموغلوبين."
+   }
+  ]
+ }
+}

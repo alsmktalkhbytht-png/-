@@ -1,0 +1,1367 @@
+{
+ "meta": {
+  "subject_en": "Hematology",
+  "subject_ar": "أمراض الدم",
+  "short_ar": "امراض الدم",
+  "unit_label": "LAB",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة",
+  "instructor": "ليندا منجد هادي",
+  "unit_en": "Lab 2",
+  "unit_ar": "العملي 2",
+  "unit_no": "2",
+  "title_en": "Anticoagulants",
+  "title_ar": "مانعات التخثّر"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "What Are Anticoagulants?",
+   "ar": "ما مانعات التخثّر؟"
+  },
+  {
+   "t": "card",
+   "en": "**Substances that prevent or reduce blood clotting.**",
+   "ar": "**مواد تمنع تخثّر الدم أو تقلّله.**",
+   "list_en": [
+    "Prevent clot formation in collected blood.",
+    "Preserve blood cells for laboratory analysis.",
+    "Allow plasma to be obtained for appropriate tests.",
+    "Examples: **EDTA, heparin, sodium citrate**."
+   ],
+   "list_ar": [
+    "تمنع تكوّن الخثرة في الدم المجموع.",
+    "تحافظ على خلايا الدم للتحليل المختبري.",
+    "تتيح الحصول على البلازما للفحوص المناسبة.",
+    "أمثلة: **`EDTA`، الهيبارين، سترات الصوديوم**."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/clotted-vs-anticoagulated.jpg",
+     "en": "Clotted blood vs. anticoagulated blood",
+     "ar": "دم متخثّر مقابل دم مضاف إليه مانع تخثّر",
+     "h": "62mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/clot-in-tube.jpg",
+     "en": "A clot in a tube without anticoagulant",
+     "ar": "خثرة في أنبوب بلا مانع تخثّر",
+     "h": "62mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/types-of-anticoagulants.jpg",
+   "en": "Types of anticoagulants: laboratory (in-vitro), clinical (in-vivo) and natural (in the body)",
+   "ar": "أنواع مانعات التخثّر: المختبرية (خارج الجسم)، والسريرية (داخل الجسم)، والطبيعية (في الجسم)",
+   "h": "118mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Group (from the figure)",
+    "Examples",
+    "المجموعة — الأمثلة"
+   ],
+   "rows": [
+    [
+     "I. Laboratory (In-Vitro)",
+     "EDTA (lavender), sodium citrate (light blue), heparin (green), oxalate fluoride (grey)",
+     "**المختبرية (خارج الجسم)**: `EDTA` (بنفسجي)، سترات الصوديوم (أزرق فاتح)، الهيبارين (أخضر)، أوكزالات الفلورايد (رمادي)"
+    ],
+    [
+     "II. Clinical (In-Vivo)",
+     "Heparin, LMWH (enoxaparin, dalteparin), warfarin (vitamin K antagonist), DOACs (dabigatran, rivaroxaban)",
+     "**السريرية (داخل الجسم)**: الهيبارين، الهيبارين منخفض الوزن الجزيئي (إينوكسابارين، دالتيبارين)، الوارفارين (مضاد فيتامين `K`)، مانعات التخثّر الفموية المباشرة (دابيغاتران، ريفاروكسابان)"
+    ],
+    [
+     "III. Natural (In the Body)",
+     "Antithrombin III (inhibits thrombin), protein C & S (inactivate clotting factors), heparan sulfate (enhances antithrombin)",
+     "**الطبيعية (في الجسم)**: مضاد الثرومبين الثالث (يثبّط الثرومبين)، البروتين `C` و`S` (يعطّلان عوامل التخثّر)، كبريتات الهيباران (تعزّز مضاد الثرومبين)"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    "30mm",
+    "",
+    ""
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Properties of a Good Anticoagulant",
+   "ar": "خصائص مانع التخثّر الجيد"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Prevents blood clotting effectively.",
+    "Does **not cause hemolysis**.",
+    "Does **not alter blood composition**.",
+    "**Preserves normal cell size and shape.**",
+    "Does **not interfere with test results**."
+   ],
+   "list_ar": [
+    "يمنع تخثّر الدم بفعالية.",
+    "**لا يسبّب تحلّل الدم**.",
+    "**لا يغيّر تركيب الدم**.",
+    "**يحافظ على حجم الخلايا وشكلها الطبيعيين.**",
+    "**لا يتداخل مع نتائج الفحوص**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/edta-blood-film.jpg",
+   "en": "Normal red cells in a blood film (normal size and shape, central pallor)",
+   "ar": "كريات حمر طبيعية في مسحة دموية (حجم وشكل طبيعيان، وشحوب مركزي)",
+   "h": "56mm"
+  },
+  {
+   "t": "section",
+   "en": "Main Types of Anticoagulants",
+   "ar": "الأنواع الرئيسة لمانعات التخثّر"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Anticoagulant",
+    "Tube colour",
+    "Main use",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "EDTA",
+     "Purple / Lavender",
+     "CBC • Blood film",
+     "`EDTA` — بنفسجي — صورة الدم الكاملة، المسحة الدموية"
+    ],
+    [
+     "Heparin",
+     "Green",
+     "Plasma chemistry • Blood gas",
+     "الهيبارين — أخضر — كيمياء البلازما، غازات الدم"
+    ],
+    [
+     "Sodium Citrate",
+     "Light Blue",
+     "PT • aPTT",
+     "سترات الصوديوم — أزرق فاتح — `PT` و`aPTT`"
+    ],
+    [
+     "Fluoride + Oxalate",
+     "Gray",
+     "Glucose testing",
+     "الفلورايد + الأوكزالات — رمادي — فحص الكلوكوز"
+    ]
+   ],
+   "ar_cols": [
+    3
+   ],
+   "key_cols": [
+    0
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "EDTA — Ethylenediaminetetraacetic Acid",
+   "ar": "`EDTA` — إيثيلين ثنائي الأمين رباعي حمض الخليك"
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "",
+     "ar": "",
+     "list_en": [
+      "**Mechanism:** binds **calcium ions** and prevents coagulation.",
+      "**Main uses:** CBC, blood film, hemoglobin measurement, cell counting.",
+      "**Tube color:** Purple / Lavender.",
+      "**Preferred in hematology** because it **preserves cell morphology** relatively well."
+     ],
+     "list_ar": [
+      "**الآلية:** يرتبط **بأيونات الكالسيوم** فيمنع التخثّر.",
+      "**الاستخدامات الرئيسة:** صورة الدم الكاملة، المسحة الدموية، قياس الهيموغلوبين، عدّ الخلايا.",
+      "**لون الأنبوب:** بنفسجي / ليلكي.",
+      "**مفضّل في أمراض الدم** لأنه **يحافظ على شكل الخلايا** جيدًا نسبيًا."
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/edta-tubes.jpg",
+    "en": "EDTA tubes (purple)",
+    "ar": "أنابيب `EDTA` (بنفسجية)"
+   }
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "EDTA + Ca²⁺",
+     "ar": "`EDTA` + كالسيوم"
+    },
+    {
+     "en": "EDTA–Ca complex",
+     "ar": "معقّد `EDTA`–كالسيوم"
+    },
+    {
+     "en": "No coagulation",
+     "ar": "لا تخثّر"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Heparin",
+   "ar": "الهيبارين"
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "",
+     "ar": "",
+     "list_en": [
+      "**Mechanism:** enhances the activity of **Antithrombin III**.",
+      "This inhibits coagulation factors and reduces fibrin clot formation.",
+      "**Main uses:** plasma chemistry and blood gas analysis.",
+      "**Forms:** lithium, sodium, and ammonium heparin.",
+      "**Tube color:** Green."
+     ],
+     "list_ar": [
+      "**الآلية:** يعزّز فعالية **مضاد الثرومبين الثالث**.",
+      "وهذا يثبّط عوامل التخثّر ويقلّل تكوّن خثرة الفايبرين.",
+      "**الاستخدامات الرئيسة:** كيمياء البلازما وتحليل غازات الدم.",
+      "**الأشكال:** هيبارين الليثيوم، والصوديوم، والأمونيوم.",
+      "**لون الأنبوب:** أخضر."
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/heparin-tubes.jpg",
+    "en": "Heparin tubes (green)",
+    "ar": "أنابيب الهيبارين (خضراء)"
+   }
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Heparin",
+     "ar": "الهيبارين"
+    },
+    {
+     "en": "Antithrombin III",
+     "ar": "مضاد الثرومبين الثالث"
+    },
+    {
+     "en": "↓ Thrombin",
+     "ar": "↓ الثرومبين"
+    },
+    {
+     "en": "↓ Fibrin",
+     "ar": "↓ الفايبرين"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Sodium Citrate",
+   "ar": "سترات الصوديوم"
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "",
+     "ar": "",
+     "list_en": [
+      "**Mechanism:** binds **calcium ions** and prevents coagulation.",
+      "**Main uses:** **PT, aPTT**, and other coagulation tests.",
+      "**Tube color:** Light Blue.",
+      "**Blood : Citrate = 9 : 1**",
+      "**Correct filling is essential** for reliable coagulation results."
+     ],
+     "list_ar": [
+      "**الآلية:** ترتبط **بأيونات الكالسيوم** فتمنع التخثّر.",
+      "**الاستخدامات الرئيسة:** `PT` و`aPTT` وفحوص التخثّر الأخرى.",
+      "**لون الأنبوب:** أزرق فاتح.",
+      "**الدم : السترات = 9 : 1**",
+      "**الملء الصحيح ضروري** لنتائج تخثّر موثوقة."
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/citrate-fill-line.jpg",
+    "en": "3.2% sodium citrate tube with fill line",
+    "ar": "أنبوب سترات الصوديوم 3.2% مع خط الملء"
+   }
+  },
+  {
+   "t": "table",
+   "head": [
+    "Citrate tube",
+    "Mixing ratio (citrate : blood)",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "3.2 %",
+     "1 : 9",
+     "أنبوب 3.2%: جزء سترات لكل 9 أجزاء دم"
+    ],
+    [
+     "3.8 %",
+     "1 : 4",
+     "أنبوب 3.8%: جزء سترات لكل 4 أجزاء دم"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ],
+   "style": "summary",
+   "label_en": "Mixing ratio",
+   "label_ar": "نسبة الخلط"
+  },
+  {
+   "t": "h2",
+   "en": "Potassium Oxalate + Sodium Fluoride",
+   "ar": "أوكزالات البوتاسيوم + فلورايد الصوديوم"
+  },
+  {
+   "t": "table",
+   "head": [
+    "",
+    "Role",
+    "الدور"
+   ],
+   "rows": [
+    [
+     "Potassium Oxalate",
+     "Anticoagulant — removes / precipitates calcium",
+     "**أوكزالات البوتاسيوم**: مانع تخثّر — يزيل / يرسّب الكالسيوم"
+    ],
+    [
+     "Sodium Fluoride",
+     "Antiglycolytic agent — helps preserve glucose concentration",
+     "**فلورايد الصوديوم**: مانع للتحلّل السكري — يساعد في المحافظة على تركيز الكلوكوز"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Main use:** Blood glucose testing",
+   "ar": "**الاستخدام الرئيس:** فحص كلوكوز الدم"
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/grey-tube.jpg",
+     "en": "Grey-top (fluoride/oxalate) tube",
+     "ar": "أنبوب ذو غطاء رمادي (فلورايد/أوكزالات)",
+     "h": "40mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/fluoride-glycolysis.jpg",
+     "en": "Sodium fluoride inhibits enolase and glycolysis",
+     "ar": "فلورايد الصوديوم يثبّط إنزيم الإينوليز والتحلّل السكري",
+     "h": "40mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Anticoagulant Tubes and Their Uses",
+   "ar": "أنابيب مانعات التخثّر واستخداماتها"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Tube Color",
+    "Additive",
+    "Main Use",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Purple / Lavender",
+     "EDTA",
+     "CBC, Blood Film",
+     "بنفسجي — `EDTA` — صورة الدم، المسحة"
+    ],
+    [
+     "Light Blue",
+     "Sodium Citrate",
+     "PT, aPTT",
+     "أزرق فاتح — سترات الصوديوم — `PT`، `aPTT`"
+    ],
+    [
+     "Green",
+     "Heparin",
+     "Plasma Chemistry, Blood Gas",
+     "أخضر — الهيبارين — كيمياء البلازما، غازات الدم"
+    ],
+    [
+     "Gray",
+     "Fluoride + Oxalate",
+     "Glucose",
+     "رمادي — فلورايد + أوكزالات — الكلوكوز"
+    ]
+   ],
+   "ar_cols": [
+    3
+   ],
+   "key_cols": [
+    0
+   ],
+   "style": "summary",
+   "label_en": "Tubes summary",
+   "label_ar": "خلاصة الأنابيب"
+  },
+  {
+   "t": "figure",
+   "src": "assets/tube-summary.jpg",
+   "en": "EDTA, sodium citrate, heparin and oxalate fluoride tubes",
+   "ar": "أنابيب `EDTA` وسترات الصوديوم والهيبارين وأوكزالات الفلورايد",
+   "h": "62mm"
+  },
+  {
+   "t": "section",
+   "en": "Whole Blood Clotting Test (WBCT)",
+   "ar": "اختبار تخثّر الدم الكامل"
+  },
+  {
+   "t": "rule",
+   "en": "Collection of **2 mL of venous blood** that is transferred directly into a **clean and dry glass tube**. It must be maintained upright, open, undisturbed for **20 and/or 30 minutes** at room temperature.",
+   "ar": "يُجمع **2 مل من الدم الوريدي** ويُنقل مباشرة إلى **أنبوب زجاجي نظيف وجاف**، ويُترك قائمًا مفتوحًا دون تحريك مدة **20 و/أو 30 دقيقة** بدرجة حرارة الغرفة."
+  },
+  {
+   "t": "rule",
+   "en": "After exactly **20 minutes**, the tube must be **inverted**. If a **solid clot is retained**, the test indicates **normal coagulation**.",
+   "ar": "بعد **20 دقيقة** بالضبط **يُقلب** الأنبوب. فإذا **بقيت خثرة صلبة**، دلّ الاختبار على **تخثّر طبيعي**."
+  },
+  {
+   "t": "rule",
+   "en": "If the **clot breaks down quickly** upon inversion of the tube or if there is **no clot**, the test indicates a **coagulopathy**. A friable clot is pictured below.",
+   "ar": "وإذا **تفكّكت الخثرة بسرعة** عند قلب الأنبوب أو **لم تتكوّن خثرة**، دلّ الاختبار على **اعتلال التخثّر**. والصورة أدناه لخثرة هشّة."
+  },
+  {
+   "t": "figure",
+   "src": "assets/wbct.jpg",
+   "en": "WBCT — Normal: solid clot retained at 20 or 30 minutes (Grade 0). Abnormal: friable clot (Grade 1) or no clot (Grade 2)",
+   "ar": "اختبار `WBCT` — الطبيعي: بقاء خثرة صلبة عند 20 أو 30 دقيقة (الدرجة 0). غير الطبيعي: خثرة هشّة (الدرجة 1) أو لا خثرة (الدرجة 2)",
+   "h": "60mm"
+  },
+  {
+   "t": "section",
+   "en": "Proper Sample Handling",
+   "ar": "التعامل السليم مع العيّنة"
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "",
+     "ar": "",
+     "list_en": [
+      "Fill the tube to the **correct level**.",
+      "**Gently invert** the tube several times.",
+      "**Do not shake vigorously.**",
+      "Check the sample for **clots**.",
+      "**Label** the sample correctly."
+     ],
+     "list_ar": [
+      "املأ الأنبوب إلى **المستوى الصحيح**.",
+      "**اقلب** الأنبوب **بلطف** عدة مرات.",
+      "**لا ترجّه بقوة.**",
+      "افحص العيّنة بحثًا عن **خثرات**.",
+      "**ضع الملصق** على العيّنة بشكل صحيح."
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/inversion.jpg",
+    "en": "Gentle inversion of the tube",
+    "ar": "قلب الأنبوب بلطف"
+   }
+  },
+  {
+   "t": "note",
+   "en": "Incorrect handling → **unreliable laboratory results**",
+   "ar": "التعامل الخاطئ ← **نتائج مختبرية غير موثوقة**",
+   "label": [
+    "Remember",
+    "تذكّر"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Common Errors",
+   "ar": "الأخطاء الشائعة"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Error",
+    "Result",
+    "الخطأ ← النتيجة"
+   ],
+   "rows": [
+    [
+     "Underfilled citrate tube",
+     "Incorrect coagulation results",
+     "أنبوب سترات ناقص الملء ← نتائج تخثّر غير صحيحة"
+    ],
+    [
+     "Clotted EDTA sample",
+     "Unreliable CBC results",
+     "عيّنة `EDTA` متخثّرة ← نتائج صورة دم غير موثوقة"
+    ],
+    [
+     "Vigorous shaking",
+     "May cause hemolysis",
+     "الرجّ العنيف ← قد يسبّب تحلّل الدم"
+    ],
+    [
+     "Wrong anticoagulant",
+     "May interfere with test results",
+     "مانع تخثّر خاطئ ← قد يتداخل مع نتائج الفحص"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/clotted-edta.jpg",
+     "en": "Clotted EDTA sample",
+     "ar": "عيّنة `EDTA` متخثّرة",
+     "h": "50mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/underfilling.jpg",
+     "en": "Underfilling vs overfilling",
+     "ar": "نقص الملء مقابل زيادته",
+     "h": "50mm",
+     "fit": "contain"
+    }
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Anticoagulants",
+    "topic_ar": "مانعات التخثّر"
+   },
+   {
+    "en": "Anticoagulants are substances that:",
+    "ar": "مانعات التخثّر مواد:",
+    "options": [
+     [
+      "Cause clotting",
+      "تسبّب التخثّر"
+     ],
+     [
+      "Prevent or reduce blood clotting",
+      "تمنع تخثّر الدم أو تقلّله"
+     ],
+     [
+      "Destroy red cells",
+      "تحطّم الكريات الحمر"
+     ],
+     [
+      "Increase platelets",
+      "تزيد الصفيحات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "A good anticoagulant should:",
+    "ar": "يجب أن يكون مانع التخثّر الجيد:",
+    "options": [
+     [
+      "Cause haemolysis",
+      "مسبّبًا لتحلّل الدم"
+     ],
+     [
+      "Alter blood composition",
+      "مغيّرًا لتركيب الدم"
+     ],
+     [
+      "Preserve normal cell size and shape",
+      "محافظًا على حجم الخلايا وشكلها"
+     ],
+     [
+      "Interfere with results",
+      "متداخلًا مع النتائج"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which is a natural anticoagulant in the body?",
+    "ar": "أي مما يأتي مانع تخثّر طبيعي في الجسم؟",
+    "options": [
+     [
+      "Warfarin",
+      "الوارفارين"
+     ],
+     [
+      "EDTA",
+      "EDTA"
+     ],
+     [
+      "Sodium citrate",
+      "سترات الصوديوم"
+     ],
+     [
+      "Antithrombin III",
+      "مضاد الثرومبين الثالث"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Warfarin acts as a:",
+    "ar": "يعمل الوارفارين بوصفه:",
+    "options": [
+     [
+      "Vitamin K antagonist",
+      "مضادًا لفيتامين K"
+     ],
+     [
+      "Calcium chelator",
+      "رابطًا للكالسيوم"
+     ],
+     [
+      "Antiglycolytic agent",
+      "مانعًا للتحلّل السكري"
+     ],
+     [
+      "Antithrombin enhancer",
+      "معزّزًا لمضاد الثرومبين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "EDTA and heparin",
+    "topic_ar": "EDTA والهيبارين"
+   },
+   {
+    "en": "EDTA prevents coagulation by:",
+    "ar": "يمنع EDTA التخثّر عن طريق:",
+    "options": [
+     [
+      "Enhancing antithrombin III",
+      "تعزيز مضاد الثرومبين"
+     ],
+     [
+      "Binding calcium ions",
+      "الارتباط بأيونات الكالسيوم"
+     ],
+     [
+      "Inhibiting glycolysis",
+      "تثبيط التحلّل السكري"
+     ],
+     [
+      "Lysing platelets",
+      "تحليل الصفيحات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The tube colour of EDTA is:",
+    "ar": "لون أنبوب EDTA:",
+    "options": [
+     [
+      "Green",
+      "أخضر"
+     ],
+     [
+      "Light blue",
+      "أزرق فاتح"
+     ],
+     [
+      "Purple / lavender",
+      "بنفسجي / ليلكي"
+     ],
+     [
+      "Grey",
+      "رمادي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "EDTA is preferred in haematology because it:",
+    "ar": "يُفضّل EDTA في أمراض الدم لأنه:",
+    "options": [
+     [
+      "Preserves cell morphology relatively well",
+      "يحافظ على شكل الخلايا جيدًا نسبيًا"
+     ],
+     [
+      "Preserves glucose",
+      "يحافظ على الكلوكوز"
+     ],
+     [
+      "Activates clotting",
+      "ينشّط التخثّر"
+     ],
+     [
+      "Is cheapest",
+      "أرخص"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Heparin works by enhancing the activity of:",
+    "ar": "يعمل الهيبارين بتعزيز فعالية:",
+    "options": [
+     [
+      "Vitamin K",
+      "فيتامين K"
+     ],
+     [
+      "Thrombin",
+      "الثرومبين"
+     ],
+     [
+      "Calcium",
+      "الكالسيوم"
+     ],
+     [
+      "Antithrombin III",
+      "مضاد الثرومبين الثالث"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The green-top tube contains:",
+    "ar": "يحتوي الأنبوب ذو الغطاء الأخضر على:",
+    "options": [
+     [
+      "EDTA",
+      "EDTA"
+     ],
+     [
+      "Heparin",
+      "الهيبارين"
+     ],
+     [
+      "Sodium citrate",
+      "سترات الصوديوم"
+     ],
+     [
+      "Fluoride",
+      "الفلورايد"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Heparin tubes are mainly used for:",
+    "ar": "تُستخدم أنابيب الهيبارين أساسًا لـ:",
+    "options": [
+     [
+      "Plasma chemistry and blood gas",
+      "كيمياء البلازما وغازات الدم"
+     ],
+     [
+      "CBC",
+      "صورة الدم"
+     ],
+     [
+      "PT and aPTT",
+      "PT وaPTT"
+     ],
+     [
+      "Glucose",
+      "الكلوكوز"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which is NOT a form of heparin listed?",
+    "ar": "أي مما يأتي ليس من أشكال الهيبارين المذكورة؟",
+    "options": [
+     [
+      "Lithium heparin",
+      "هيبارين الليثيوم"
+     ],
+     [
+      "Sodium heparin",
+      "هيبارين الصوديوم"
+     ],
+     [
+      "Ammonium heparin",
+      "هيبارين الأمونيوم"
+     ],
+     [
+      "Potassium heparin",
+      "هيبارين البوتاسيوم"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Citrate and fluoride/oxalate",
+    "topic_ar": "السترات والفلورايد/الأوكزالات"
+   },
+   {
+    "en": "The tube used for PT and aPTT is:",
+    "ar": "الأنبوب المستخدم لـ PT وaPTT:",
+    "options": [
+     [
+      "Purple",
+      "البنفسجي"
+     ],
+     [
+      "Green",
+      "الأخضر"
+     ],
+     [
+      "Light blue (sodium citrate)",
+      "الأزرق الفاتح (سترات الصوديوم)"
+     ],
+     [
+      "Grey",
+      "الرمادي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The blood-to-citrate ratio in a 3.2% citrate tube is:",
+    "ar": "نسبة الدم إلى السترات في أنبوب 3.2%:",
+    "options": [
+     [
+      "1 : 1",
+      "1 : 1"
+     ],
+     [
+      "4 : 1",
+      "4 : 1"
+     ],
+     [
+      "9 : 1",
+      "9 : 1"
+     ],
+     [
+      "1 : 9",
+      "1 : 9"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "For a 3.8% citrate tube, the mixing ratio is 1 part citrate to:",
+    "ar": "في أنبوب سترات 3.8% نسبة الخلط جزء سترات إلى:",
+    "options": [
+     [
+      "4 parts blood",
+      "4 أجزاء دم"
+     ],
+     [
+      "9 parts blood",
+      "9 أجزاء دم"
+     ],
+     [
+      "2 parts blood",
+      "جزأين دم"
+     ],
+     [
+      "10 parts blood",
+      "10 أجزاء دم"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Sodium fluoride in the grey tube acts as:",
+    "ar": "يعمل فلورايد الصوديوم في الأنبوب الرمادي بوصفه:",
+    "options": [
+     [
+      "Anticoagulant only",
+      "مانع تخثّر فقط"
+     ],
+     [
+      "Antiglycolytic agent",
+      "مانعًا للتحلّل السكري"
+     ],
+     [
+      "Clot activator",
+      "منشّطًا للتخثّر"
+     ],
+     [
+      "Antithrombin enhancer",
+      "معزّزًا لمضاد الثرومبين"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The anticoagulant in the grey tube that precipitates calcium is:",
+    "ar": "مانع التخثّر في الأنبوب الرمادي الذي يرسّب الكالسيوم:",
+    "options": [
+     [
+      "Sodium fluoride",
+      "فلورايد الصوديوم"
+     ],
+     [
+      "Heparin",
+      "الهيبارين"
+     ],
+     [
+      "EDTA",
+      "EDTA"
+     ],
+     [
+      "Potassium oxalate",
+      "أوكزالات البوتاسيوم"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The anticoagulant used for glucose testing is:",
+    "ar": "مانع التخثّر المستخدم لفحص الكلوكوز:",
+    "options": [
+     [
+      "Fluoride + oxalate",
+      "فلورايد + أوكزالات"
+     ],
+     [
+      "EDTA",
+      "EDTA"
+     ],
+     [
+      "Citrate",
+      "السترات"
+     ],
+     [
+      "Heparin",
+      "الهيبارين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Handling, errors and WBCT",
+    "topic_ar": "التعامل والأخطاء واختبار WBCT"
+   },
+   {
+    "en": "Blood tubes should be:",
+    "ar": "يجب التعامل مع أنابيب الدم بـ:",
+    "options": [
+     [
+      "Shaken vigorously",
+      "الرجّ بقوة"
+     ],
+     [
+      "Left unmixed",
+      "تركها دون خلط"
+     ],
+     [
+      "Gently inverted several times",
+      "قلبها بلطف عدة مرات"
+     ],
+     [
+      "Frozen immediately",
+      "تجميدها فورًا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "An underfilled citrate tube gives:",
+    "ar": "أنبوب السترات ناقص الملء يعطي:",
+    "options": [
+     [
+      "Incorrect coagulation results",
+      "نتائج تخثّر غير صحيحة"
+     ],
+     [
+      "Hemolysis only",
+      "تحلّل الدم فقط"
+     ],
+     [
+      "High glucose",
+      "كلوكوز مرتفع"
+     ],
+     [
+      "No effect",
+      "لا تأثير"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "A clotted EDTA sample gives:",
+    "ar": "عيّنة EDTA المتخثّرة تعطي:",
+    "options": [
+     [
+      "Reliable CBC",
+      "صورة دم موثوقة"
+     ],
+     [
+      "Unreliable CBC results",
+      "نتائج صورة دم غير موثوقة"
+     ],
+     [
+      "Better morphology",
+      "شكلًا أفضل"
+     ],
+     [
+      "Higher glucose",
+      "كلوكوزًا أعلى"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In WBCT, the tube is inverted after exactly:",
+    "ar": "في اختبار WBCT يُقلب الأنبوب بعد:",
+    "options": [
+     [
+      "5 minutes",
+      "5 دقائق"
+     ],
+     [
+      "10 minutes",
+      "10 دقائق"
+     ],
+     [
+      "20 minutes",
+      "20 دقيقة"
+     ],
+     [
+      "60 minutes",
+      "60 دقيقة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In WBCT, no clot or a rapidly breaking clot indicates:",
+    "ar": "في اختبار WBCT عدم تكوّن خثرة أو تفكّكها سريعًا يدل على:",
+    "options": [
+     [
+      "Normal coagulation",
+      "تخثّر طبيعي"
+     ],
+     [
+      "Polycythaemia",
+      "كثرة الكريات الحمر"
+     ],
+     [
+      "Anaemia",
+      "فقر الدم"
+     ],
+     [
+      "Coagulopathy",
+      "اعتلال التخثّر"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this figure, the tube on the left (separated plasma over cells) contains:",
+    "ar": "في هذا الشكل، الأنبوب الأيسر (بلازما منفصلة فوق الخلايا) يحتوي على:",
+    "options": [
+     [
+      "Anticoagulated blood",
+      "دم مع مانع تخثّر"
+     ],
+     [
+      "Clotted blood",
+      "دم متخثّر"
+     ],
+     [
+      "Serum only",
+      "مصل فقط"
+     ],
+     [
+      "Water",
+      "ماء"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/clotted-vs-anticoagulated.jpg",
+    "img_h": "46mm"
+   },
+   {
+    "en": "The tube shown (green top) is used for:",
+    "ar": "الأنبوب في الشكل (غطاء أخضر) يُستخدم لـ:",
+    "options": [
+     [
+      "CBC",
+      "صورة الدم"
+     ],
+     [
+      "PT",
+      "PT"
+     ],
+     [
+      "Plasma chemistry and blood gas",
+      "كيمياء البلازما وغازات الدم"
+     ],
+     [
+      "Glucose",
+      "الكلوكوز"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/heparin-tubes.jpg",
+    "img_h": "36mm"
+   },
+   {
+    "en": "The line marked “FILL LINE” on this light-blue tube shows that:",
+    "ar": "يبيّن «خط الملء» على هذا الأنبوب الأزرق الفاتح أن:",
+    "options": [
+     [
+      "Filling is not important",
+      "الملء غير مهم"
+     ],
+     [
+      "The tube must be filled correctly (9:1)",
+      "يجب ملء الأنبوب بشكل صحيح (9:1)"
+     ],
+     [
+      "Only serum is collected",
+      "يُجمع المصل فقط"
+     ],
+     [
+      "Glucose is preserved",
+      "يُحفظ الكلوكوز"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/citrate-fill-line.jpg",
+    "img_h": "42mm"
+   },
+   {
+    "en": "In this figure (WBCT), the middle tube with a solid clot after inversion means:",
+    "ar": "في هذا الشكل (WBCT)، الأنبوب الأوسط مع خثرة صلبة بعد القلب يعني:",
+    "options": [
+     [
+      "Coagulopathy (Grade 2)",
+      "اعتلال تخثّر (الدرجة 2)"
+     ],
+     [
+      "Friable clot (Grade 1)",
+      "خثرة هشّة (الدرجة 1)"
+     ],
+     [
+      "Haemolysis",
+      "تحلّل الدم"
+     ],
+     [
+      "Normal coagulation (Grade 0)",
+      "تخثّر طبيعي (الدرجة 0)"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/wbct.jpg",
+    "img_h": "34mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Anticoagulants allow plasma to be obtained.",
+    "ar": "تتيح مانعات التخثّر الحصول على البلازما.",
+    "answer": "T"
+   },
+   {
+    "en": "A good anticoagulant may cause haemolysis.",
+    "ar": "قد يسبّب مانع التخثّر الجيد تحلّل الدم.",
+    "answer": "F"
+   },
+   {
+    "en": "EDTA and sodium citrate both bind calcium ions.",
+    "ar": "يرتبط كلٌّ من EDTA وسترات الصوديوم بأيونات الكالسيوم.",
+    "answer": "T"
+   },
+   {
+    "en": "Heparin binds calcium ions.",
+    "ar": "يرتبط الهيبارين بأيونات الكالسيوم.",
+    "answer": "F"
+   },
+   {
+    "en": "EDTA is used for haemoglobin measurement and cell counting.",
+    "ar": "يُستخدم EDTA لقياس الهيموغلوبين وعدّ الخلايا.",
+    "answer": "T"
+   },
+   {
+    "en": "The light-blue tube is used for CBC.",
+    "ar": "يُستخدم الأنبوب الأزرق الفاتح لصورة الدم.",
+    "answer": "F"
+   },
+   {
+    "en": "Correct filling of citrate tubes is essential.",
+    "ar": "الملء الصحيح لأنابيب السترات ضروري.",
+    "answer": "T"
+   },
+   {
+    "en": "Sodium fluoride preserves glucose concentration.",
+    "ar": "يحافظ فلورايد الصوديوم على تركيز الكلوكوز.",
+    "answer": "T"
+   },
+   {
+    "en": "Vigorous shaking may cause haemolysis.",
+    "ar": "قد يسبّب الرجّ العنيف تحلّل الدم.",
+    "answer": "T"
+   },
+   {
+    "en": "Using the wrong anticoagulant does not affect results.",
+    "ar": "لا يؤثّر استخدام مانع تخثّر خاطئ في النتائج.",
+    "answer": "F"
+   },
+   {
+    "en": "WBCT uses a clean, dry glass tube.",
+    "ar": "يستخدم اختبار WBCT أنبوبًا زجاجيًا نظيفًا وجافًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Enoxaparin is a low molecular weight heparin.",
+    "ar": "الإينوكسابارين هيبارين منخفض الوزن الجزيئي.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Which anticoagulants bind calcium?",
+    "ar": "أي مانعات التخثّر ترتبط بالكالسيوم؟",
+    "answer_en": "EDTA and sodium citrate bind calcium (oxalate precipitates it); heparin does NOT — it enhances antithrombin III.",
+    "answer_ar": "EDTA وسترات الصوديوم يرتبطان بالكالسيوم (والأوكزالات ترسّبه)؛ أما الهيبارين فلا — بل يعزّز مضاد الثرومبين الثالث."
+   },
+   {
+    "en": "Citrate ratio — which tube?",
+    "ar": "نسبة السترات — أي أنبوب؟",
+    "answer_en": "3.2% tube: 1 citrate : 9 blood. 3.8% tube: 1 citrate : 4 blood.",
+    "answer_ar": "أنبوب 3.2%: 1 سترات : 9 دم. أنبوب 3.8%: 1 سترات : 4 دم."
+   },
+   {
+    "en": "Grey tube — two additives, two jobs",
+    "ar": "الأنبوب الرمادي — مادتان ووظيفتان",
+    "answer_en": "Potassium oxalate = anticoagulant; sodium fluoride = antiglycolytic (preserves glucose).",
+    "answer_ar": "أوكزالات البوتاسيوم = مانع تخثّر؛ فلورايد الصوديوم = مانع للتحلّل السكري (يحفظ الكلوكوز)."
+   },
+   {
+    "en": "Tube colours",
+    "ar": "ألوان الأنابيب",
+    "answer_en": "Purple EDTA (CBC); light blue citrate (PT, aPTT); green heparin (chemistry, blood gas); grey fluoride/oxalate (glucose).",
+    "answer_ar": "البنفسجي EDTA (صورة الدم)؛ الأزرق الفاتح سترات (PT، aPTT)؛ الأخضر هيبارين (كيمياء، غازات)؛ الرمادي فلورايد/أوكزالات (كلوكوز)."
+   },
+   {
+    "en": "Shake or invert?",
+    "ar": "رجّ أم قلب؟",
+    "answer_en": "Gently invert several times; vigorous shaking may cause haemolysis.",
+    "answer_ar": "يُقلب بلطف عدة مرات؛ والرجّ العنيف قد يسبّب تحلّل الدم."
+   },
+   {
+    "en": "WBCT grades",
+    "ar": "درجات اختبار WBCT",
+    "answer_en": "Grade 0: solid clot (normal). Grade 1: friable clot. Grade 2: no clot.",
+    "answer_ar": "الدرجة 0: خثرة صلبة (طبيعي). الدرجة 1: خثرة هشّة. الدرجة 2: لا خثرة."
+   }
+  ],
+  "important": [
+   {
+    "en": "What is an anticoagulant?",
+    "ar": "ما مانع التخثّر؟",
+    "answer_en": "A substance that prevents or reduces blood clotting, preserving blood cells and allowing plasma to be obtained (e.g. EDTA, heparin, sodium citrate).",
+    "answer_ar": "مادة تمنع تخثّر الدم أو تقلّله، فتحافظ على خلايا الدم وتتيح الحصول على البلازما (مثل EDTA والهيبارين وسترات الصوديوم)."
+   },
+   {
+    "en": "Why is EDTA used for CBC?",
+    "ar": "لماذا يُستخدم EDTA لصورة الدم؟",
+    "answer_en": "It binds calcium to prevent clotting and preserves cell morphology relatively well.",
+    "answer_ar": "لأنه يرتبط بالكالسيوم فيمنع التخثّر، ويحافظ على شكل الخلايا جيدًا نسبيًا."
+   },
+   {
+    "en": "Which tube is used for PT and aPTT?",
+    "ar": "أي أنبوب يُستخدم لـ PT وaPTT؟",
+    "answer_en": "The light-blue sodium citrate tube.",
+    "answer_ar": "أنبوب سترات الصوديوم الأزرق الفاتح."
+   },
+   {
+    "en": "What is the blood-to-citrate ratio?",
+    "ar": "ما نسبة الدم إلى السترات؟",
+    "answer_en": "Blood : citrate = 9 : 1 (3.2% tube); 1 citrate : 4 blood for the 3.8% tube.",
+    "answer_ar": "الدم : السترات = 9 : 1 (أنبوب 3.2%)؛ و1 سترات : 4 دم في أنبوب 3.8%."
+   },
+   {
+    "en": "Which anticoagulant is used for glucose testing?",
+    "ar": "أي مانع تخثّر يُستخدم لفحص الكلوكوز؟",
+    "answer_en": "Fluoride + oxalate (grey tube): oxalate anticoagulates, fluoride stops glycolysis.",
+    "answer_ar": "الفلورايد + الأوكزالات (الأنبوب الرمادي): الأوكزالات تمنع التخثّر والفلورايد يوقف التحلّل السكري."
+   },
+   {
+    "en": "What is the mechanism of action of heparin?",
+    "ar": "ما آلية عمل الهيبارين؟",
+    "answer_en": "It enhances antithrombin III, which inhibits coagulation factors (↓ thrombin → ↓ fibrin).",
+    "answer_ar": "يعزّز مضاد الثرومبين الثالث الذي يثبّط عوامل التخثّر (↓ الثرومبين ← ↓ الفايبرين)."
+   },
+   {
+    "en": "Why should blood tubes be gently inverted?",
+    "ar": "لماذا تُقلب أنابيب الدم بلطف؟",
+    "answer_en": "To mix blood with the anticoagulant without causing haemolysis (vigorous shaking may cause haemolysis).",
+    "answer_ar": "لخلط الدم مع مانع التخثّر دون إحداث تحلّل الدم (فالرجّ العنيف قد يسبّبه)."
+   },
+   {
+    "en": "What may happen if an EDTA sample contains a clot?",
+    "ar": "ماذا قد يحدث إذا احتوت عيّنة EDTA على خثرة؟",
+    "answer_en": "Unreliable CBC results.",
+    "answer_ar": "نتائج صورة دم غير موثوقة."
+   }
+  ]
+ }
+}
