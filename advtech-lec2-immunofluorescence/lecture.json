@@ -1,0 +1,1637 @@
+{
+ "meta": {
+  "subject_en": "Advanced Techniques",
+  "subject_ar": "التقنيات المتقدمة",
+  "short_ar": "تقنيات متقدمة",
+  "unit_en": "Lecture 2",
+  "unit_ar": "المحاضرة 2",
+  "unit_label": "LEC",
+  "unit_no": "2",
+  "title_en": "Immunofluorescence",
+  "title_ar": "التألّق المناعي",
+  "kind": "Theory — نظري",
+  "stage": "The third stage — الثالثة",
+  "instructor": "د. مصطفى",
+  "merge_questions": false
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Introduction:",
+   "ar": "مقدمة"
+  },
+  {
+   "t": "card",
+   "en": "**Immunofluorescence :** Immunofluorescence is a powerful technique that utilizes fluorescent-labeled antibodies to detect specific target antigens..",
+   "ar": "**التألّق المناعي** (`Immunofluorescence`): تقنية قوية تستعمل **أجسامًا مضادة موسومة بمادة متألّقة** للكشف عن مستضدات هدف محدّدة."
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Fluorescein** is a dye which emits greenish fluorescence under UV light.",
+    "It can be tagged to immunoglobulin molecules."
+   ],
+   "ar": [
+    "**الفلوريسين** (`Fluorescein`) صبغة تبعث **تألّقًا مخضرًّا** تحت الأشعة فوق البنفسجية.",
+    "ويمكن ربطها بجزيئات الغلوبولينات المناعية."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "This technique is sometimes used to make viral plaques more readily visible to the human eye.",
+   "ar": "تُستعمل هذه التقنية أحيانًا لجعل **اللويحات الفيروسية** أوضح للعين البشرية."
+  },
+  {
+   "t": "card",
+   "en": "Immunofluorescent labeled tissue sections are studied using a fluorescence microscope.",
+   "ar": "تُدرس المقاطع النسيجية الموسومة بالتألّق المناعي باستعمال **المجهر التألّقي**."
+  },
+  {
+   "t": "section",
+   "en": "Immunofluorescence assay",
+   "ar": "فحص التألّق المناعي"
+  },
+  {
+   "t": "card",
+   "en": "Immunofluorescence is a technique allowing the visualization of a specific protein or antigen in tissue sections by binding a specific antibody chemically conjugated with a fluorescent dye such as fluorescein isothiocyanate (FITC).",
+   "ar": "التألّق المناعي تقنية تسمح **برؤية بروتين أو مستضد محدّد** في المقاطع النسيجية، عن طريق ربط جسم مضاد نوعي **مقترن كيميائيًا بصبغة متألّقة** مثل **فلوريسين أيزوثيوسيانات** `(FITC)`."
+  },
+  {
+   "t": "card",
+   "en": "The specific antibodies are labeled with a compound (FITC) that makes them glow an apple-green color when observed microscopically under ultraviolet light.",
+   "ar": "توسم الأجسام المضادة النوعية بمركّب `(FITC)` يجعلها **تتوهّج بلون أخضر تفّاحي** عند فحصها مجهريًا تحت الأشعة فوق البنفسجية."
+  },
+  {
+   "t": "section",
+   "en": "Fluorescence",
+   "ar": "التألّق"
+  },
+  {
+   "t": "card",
+   "en": "Fluorescence is the property of certain molecules or fluorophores to absorb light at one wave length and emit light at longer wave length (emission wavelength) when it is illuminated by light of a different wavelength (excitation wavelength).",
+   "ar": "**التألّق** (`Fluorescence`) خاصية لبعض الجزيئات أو **الحوامل المتألّقة** (`fluorophores`) تمتصّ بها الضوء بطول موجي معيّن، وتبعث ضوءًا **بطول موجي أطول** (طول موجة الانبعاث)، عند إضاءتها بضوء ذي طول موجي مختلف (طول موجة الإثارة)."
+  },
+  {
+   "t": "card",
+   "en": [
+    "The incident light excites the molecule to a higher level of vibrational energy.",
+    "As the molecules return to the ground state, the excited fluorophore emits a photon(= fluorescence emission )."
+   ],
+   "ar": [
+    "يثير الضوء الساقط الجزيء إلى مستوى أعلى من **الطاقة الاهتزازية**.",
+    "وعند عودة الجزيئات إلى **الحالة الأرضية** يبعث الحامل المتألّق المُثار **فوتونًا** (= انبعاث التألّق)."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/spectral.jpg",
+   "en": "Excitation and Emission Spectral Profiles (Absorption, Fluorescence Emission, Stokes Shift, Spectral Overlap)",
+   "ar": "منحنيا الإثارة والانبعاث الطيفيان (الامتصاص، انبعاث التألّق، إزاحة ستوكس، التداخل الطيفي)",
+   "h": "62mm",
+   "fit": "contain"
+  },
+  {
+   "t": "section",
+   "en": "Principle",
+   "ar": "المبدأ"
+  },
+  {
+   "t": "figure",
+   "src": "assets/principle.jpg",
+   "en": "Principle: FITC-labeled anti-human antibody binds the specific human antibody attached to the cell antigen",
+   "ar": "المبدأ: جسم مضاد للإنسان موسوم بـ `FITC` يرتبط بالجسم المضاد البشري النوعي المرتبط بمستضد الخلية",
+   "h": "72mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    "Label in the figure",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "FITC-labeled anti-human antibody",
+     "جسم مضاد للإنسان موسوم بـ `FITC`"
+    ],
+    [
+     "Specific human antibody",
+     "جسم مضاد بشري نوعي"
+    ],
+    [
+     "Cell with antigen",
+     "خلية تحمل المستضد"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "key_cols": [
+    0
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Types of IF staining",
+   "ar": "أنواع صبغ التألّق المناعي"
+  },
+  {
+   "t": "card",
+   "en": "There are two ways of doing IF staining",
+   "ar": "هناك طريقتان لإجراء صبغ التألّق المناعي `(IF)`:",
+   "list_en": [
+    "Direct immunofluorescence",
+    "Indirect immunofluorescence"
+   ],
+   "list_ar": [
+    "التألّق المناعي المباشر",
+    "التألّق المناعي غير المباشر"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "1. Direct immunofluorescence",
+   "ar": "1. التألّق المناعي المباشر"
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "",
+     "ar": "",
+     "list_en": [
+      "It's just a simple & a very common procedure in this regard.",
+      "Ag is fixed on the slide",
+      "Fluorescein labeled Ab's are layered over it",
+      "Slide is washed to remove unattached Ab's",
+      "Examined under UV light in an fluorescent microscope",
+      "The site where the Ab attaches to its specific Ag will show apple green fluorescence"
+     ],
+     "list_ar": [
+      "إجراء بسيط وشائع جدًا في هذا المجال.",
+      "يُثبَّت المستضد `(Ag)` على الشريحة.",
+      "تُفرش فوقه أجسام مضادة `(Ab)` موسومة بالفلوريسين.",
+      "تُغسل الشريحة لإزالة الأجسام المضادة غير المرتبطة.",
+      "تُفحص تحت الأشعة فوق البنفسجية في مجهر تألّقي.",
+      "الموقع الذي يرتبط فيه الجسم المضاد بمستضده النوعي يُظهر **تألّقًا أخضر تفّاحيًا**."
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/direct.jpg",
+    "en": "Direct immunofluorescence",
+    "ar": "التألّق المناعي المباشر"
+   }
+  },
+  {
+   "t": "note",
+   "en": "Use: Direct detection of Pathogens or their Ag's in tissues or in pathological samples.",
+   "ar": "**الاستعمال:** الكشف المباشر عن **الممرضات أو مستضداتها** في الأنسجة أو العيّنات المرضية.",
+   "label": [
+    "Use",
+    "الاستعمال"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "2. Indirect immunofluorescence:",
+   "ar": "2. التألّق المناعي غير المباشر"
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "",
+     "ar": "",
+     "list_en": [
+      "Indirect test is a double-layer technique",
+      "The unlabelled antibody is applied directly to the tissue substrate",
+      "Treated with a fluorochrome-conjugated anti-immunoglobulin serum."
+     ],
+     "list_ar": [
+      "الاختبار غير المباشر تقنية **ثنائية الطبقة**.",
+      "يوضع الجسم المضاد **غير الموسوم** مباشرة على الركيزة النسيجية.",
+      "ثم تُعامل بمصل **مضاد للغلوبولين المناعي مقترن بحامل متألّق** (`fluorochrome`)."
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/indirect.jpg",
+    "en": "Indirect immunofluorescence",
+    "ar": "التألّق المناعي غير المباشر"
+   }
+  },
+  {
+   "t": "section",
+   "en": "Advantages of direct immunofluorescence",
+   "ar": "مزايا التألّق المناعي المباشر"
+  },
+  {
+   "t": "card",
+   "en": [
+    "This technique has several advantages over indirect immunofluorescence because of the direct conjugation of the antibody to the fluorophore.",
+    "This residues the number of steps in the staining procedure making the process faster and can reduce background signal by avoiding some issues with antibody cross-reactivity."
+   ],
+   "ar": [
+    "لهذه التقنية عدّة مزايا على التألّق المناعي غير المباشر بسبب **الاقتران المباشر** للجسم المضاد بالحامل المتألّق.",
+    "وهذا **يقلّل عدد خطوات** الصبغ فتصبح العملية أسرع، ويمكن أن **يقلّل إشارة الخلفية** بتجنّب بعض مشكلات **التفاعل المتصالب** للأجسام المضادة."
+   ]
+  },
+  {
+   "t": "note",
+   "en": "The slide writes “residues”; the intended word is “reduces”.",
+   "ar": "في الشريحة كُتبت `residues` والمقصود `reduces` (يقلّل).",
+   "label": [
+    "BIOS note",
+    "ملاحظة بايوس"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Advantages of indirect immunofluorescence",
+   "ar": "مزايا التألّق المناعي غير المباشر"
+  },
+  {
+   "t": "card",
+   "en": "Gives an amplification effect- more label per molecule of target protein.",
+   "ar": "يعطي **تأثير تضخيم**: كمية وسم أكبر لكل جزيء من البروتين الهدف."
+  },
+  {
+   "t": "card",
+   "en": "Requires only one labelled antibody to identify many proteins- same labelled secondary antibody can be used to bind to many different proteins.",
+   "ar": "يحتاج إلى **جسم مضاد موسوم واحد** فقط لتحديد بروتينات كثيرة، إذ يمكن استعمال الجسم المضاد الثانوي الموسوم نفسه للارتباط ببروتينات مختلفة كثيرة."
+  },
+  {
+   "t": "card",
+   "en": [
+    "A different primary antibody is used for each target protein.",
+    "variable part of primary antibody binds to specific part of target protein."
+   ],
+   "ar": [
+    "يُستعمل **جسم مضاد أولي مختلف** لكل بروتين هدف.",
+    "ويرتبط **الجزء المتغيّر** من الجسم المضاد الأولي بجزء محدّد من البروتين الهدف."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "The secondary antibody binds to the constant part of the primary antibody.",
+    "Therefore a sample of the same batch of secondary antibody can bind to many different primary antibodies."
+   ],
+   "ar": [
+    "يرتبط الجسم المضاد الثانوي **بالجزء الثابت** من الجسم المضاد الأولي.",
+    "لذلك يمكن لعيّنة من الدفعة نفسها من الجسم المضاد الثانوي أن ترتبط بأجسام مضادة أولية مختلفة كثيرة."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Fluorescence microscopy",
+   "ar": "المجهر التألّقي"
+  },
+  {
+   "t": "figure",
+   "src": "assets/microscope.jpg",
+   "en": "Epi-Fluorescence Microscope",
+   "ar": "المجهر التألّقي الانعكاسي ومكوّناته",
+   "h": "74mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Part",
+    "الجزء",
+    "Part",
+    "الجزء"
+   ],
+   "rows": [
+    [
+     "Digital Camera Systems",
+     "أنظمة الكاميرا الرقمية",
+     "Epi-Fluorescence Lamphouse",
+     "مصباح التألّق الانعكاسي"
+    ],
+    [
+     "Observation Tubes",
+     "أنابيب المشاهدة",
+     "Eyepiece",
+     "العدسة العينية"
+    ],
+    [
+     "Filter Turret",
+     "برج المرشّحات",
+     "UV Shield",
+     "واقي الأشعة فوق البنفسجية"
+    ],
+    [
+     "Objective",
+     "العدسة الشيئية",
+     "Stage",
+     "المنصّة"
+    ],
+    [
+     "Condenser",
+     "المكثّف",
+     "Field Diaphragm",
+     "حاجز المجال"
+    ],
+    [
+     "Microscope Control Circuit Board",
+     "لوحة دائرة التحكّم",
+     "Tungsten-Halogen Lamphouse",
+     "مصباح التنغستن والهالوجين"
+    ],
+    [
+     "Filters",
+     "المرشّحات",
+     "Collector Lens",
+     "العدسة الجامعة"
+    ],
+    [
+     "Base",
+     "القاعدة",
+     "",
+     ""
+    ]
+   ],
+   "ar_cols": [
+    1,
+    3
+   ],
+   "key_cols": [
+    0,
+    2
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/cryptosporidium.jpg",
+     "en": "Immunofluorescence image of __Cryptosporidium parvum__ oocysts",
+     "ar": "صورة تألّق مناعي لأكياس بيض `__Cryptosporidium parvum__`",
+     "h": "52mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/akt.jpg",
+     "en": "Confocal image to detect phosphorylated AKT (green) in cardiomyocytes infected with adenovirus",
+     "ar": "صورة متّحدة البؤرة للكشف عن `AKT` المفسفر (الأخضر) في خلايا عضلة القلب المصابة بالفيروس الغدّي",
+     "h": "52mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "section",
+   "en": "ANA test",
+   "ar": "اختبار الأجسام المضادة للنواة"
+  },
+  {
+   "t": "card",
+   "en": "The ANA (anti nuclear antigen) test is an example of indirect immunofluorescence",
+   "ar": "اختبار `ANA` **مثال على التألّق المناعي غير المباشر**.",
+   "keep": true
+  },
+  {
+   "t": "figure",
+   "src": "assets/ana-sle.jpg",
+   "en": "Patient with systemic lupus erythematosus (SLE): serum is applied to the HEp-2 cell line",
+   "ar": "مريض الذئبة الحمامية الجهازية `(SLE)`: يوضع المصل على خط خلايا `HEp-2`",
+   "h": "50mm",
+   "fit": "contain"
+  },
+  {
+   "t": "note",
+   "en": "ANA stands for antinuclear antibodies (the slides write “anti nuclear antigen”).",
+   "ar": "اختصار `ANA` يعني **الأجسام المضادة للنواة**، أمّا ما كُتب في الشرائح (مستضد نووي) فغير دقيق؛ فالاختبار يكشف أجسامًا مضادة لا مستضدات.",
+   "label": [
+    "BIOS note",
+    "ملاحظة بايوس"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "The HEp-2 cell line, which is a native protein array with hundreds of antigens, provides an ideal substrate for the detection of ANA",
+   "ar": "خط خلايا `HEp-2` **مصفوفة بروتينية طبيعية تضم مئات المستضدات**، ويوفّر **ركيزة مثالية** للكشف عن `ANA`.",
+   "keep": true
+  },
+  {
+   "t": "figure",
+   "src": "assets/hep2.jpg",
+   "en": "Possibility 1: antinuclear antibodies present; Possibility 2: antinuclear antibodies absent",
+   "ar": "الاحتمال 1: وجود الأجسام المضادة للنواة؛ الاحتمال 2: غيابها",
+   "h": "58mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    "Label in the figure",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Possibility 1 — antinuclear antibodies present",
+     "الاحتمال 1: الأجسام المضادة للنواة موجودة (ترتبط بنواة الخلية)"
+    ],
+    [
+     "Possibility 2 — antinuclear antibodies absent",
+     "الاحتمال 2: الأجسام المضادة للنواة غائبة (لا ارتباط)"
+    ],
+    [
+     "Secondary antibody",
+     "جسم مضاد ثانوي"
+    ],
+    [
+     "Fluorescence labeled secondary antibody",
+     "جسم مضاد ثانوي موسوم بالتألّق"
+    ],
+    [
+     "antinuclear antibodies (from patient's sample)",
+     "أجسام مضادة للنواة (من عيّنة المريض)"
+    ],
+    [
+     "Nuclear antigen",
+     "مستضد نووي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "key_cols": [
+    0
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "An ANA (anti nuclear antigen) test looks for antinuclear antibodies in your blood.",
+    "If the test finds antinuclear antibodies in your blood, it may mean you have an autoimmune disorder."
+   ],
+   "ar": [
+    "يبحث اختبار `ANA` عن **الأجسام المضادة للنواة** في الدم.",
+    "وإذا وجدها الاختبار في الدم فقد يعني ذلك وجود **اضطراب مناعي ذاتي**."
+   ],
+   "keep": true
+  },
+  {
+   "t": "figure",
+   "src": "assets/ana-patterns.jpg",
+   "en": "ANA patterns: Homogenous, Speckled, Peripheral, Nucleolar",
+   "ar": "أنماط `ANA`: المتجانس، المنقّط، المحيطي، النُوَيّي",
+   "h": "52mm",
+   "fit": "contain"
+  },
+  {
+   "t": "h2",
+   "en": "How to interpret ANA test result ?",
+   "ar": "كيف تُفسَّر نتيجة اختبار `ANA`؟"
+  },
+  {
+   "t": "figure",
+   "src": "assets/ana-interpret.jpg",
+   "en": "How to interpret ANA test result",
+   "ar": "تفسير نتيجة اختبار `ANA`",
+   "h": "64mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    "Pattern",
+    "Diseases",
+    "النمط — الأمراض"
+   ],
+   "rows": [
+    [
+     "Homogenous",
+     "SLE, DLE, RA",
+     "**المتجانس** — `SLE` و`DLE` و`RA`"
+    ],
+    [
+     "Speckled",
+     "SLE, MCTD, Scleroderma",
+     "**المنقّط** — `SLE` و`MCTD` وتصلّب الجلد"
+    ],
+    [
+     "Nucleolar",
+     "Scleroderma",
+     "**النُوَيّي** — تصلّب الجلد"
+    ],
+    [
+     "Peripheral",
+     "CREST,SLE",
+     "**المحيطي** — `CREST` و`SLE`"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    "Abbreviation",
+    "Meaning",
+    "المعنى"
+   ],
+   "rows": [
+    [
+     "RA",
+     "Rheumatoid arthritis",
+     "التهاب المفاصل الرثياني"
+    ],
+    [
+     "MCTD",
+     "Mixed connective tissue disease",
+     "مرض النسيج الضام المختلط"
+    ],
+    [
+     "SLE",
+     "Systemic lupus erythematosus",
+     "الذئبة الحمامية الجهازية"
+    ],
+    [
+     "DLE",
+     "Discoid lupus erythematosus",
+     "الذئبة الحمامية القرصية"
+    ],
+    [
+     "CREST",
+     "cutaneous form of systemic sclerosis",
+     "الشكل الجلدي من التصلّب الجهازي"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    "28mm",
+    "",
+    ""
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Application",
+   "ar": "التطبيقات"
+  },
+  {
+   "t": "card",
+   "en": "Immunofluorescence can be used on tissue sections, cultured cell lines, or individual cells, and may be used to analyse the distribution of proteins and small biological and non-biological molecules.",
+   "ar": "يمكن استعمال التألّق المناعي على **المقاطع النسيجية** و**خطوط الخلايا المزروعة** أو **الخلايا المفردة**، وقد يُستعمل لتحليل توزيع البروتينات والجزيئات الصغيرة الحيوية وغير الحيوية."
+  },
+  {
+   "t": "card",
+   "en": "Immunofluorescence can be used in combination with other , non-antibody methods of fluorescent staining, for example, use of DAPI,( 4’,6-diamidino-2-phenylindole) is a fluorescent stain that binds strongly to A-T rich regions in DNA, to label DNA.",
+   "ar": "يمكن استعمال التألّق المناعي مع طرق صبغ تألّقي أخرى **لا تعتمد على الأجسام المضادة**، مثل استعمال `DAPI` (`4’,6-diamidino-2-phenylindole`)، وهو صبغة متألّقة **ترتبط بقوّة بالمناطق الغنية بـ `A-T` في الـ `DNA`**، لوسم الـ `DNA`."
+  },
+  {
+   "t": "card",
+   "en": "It also play a key role in the diagnosis of autoimmune disorder.",
+   "ar": "وله أيضًا **دور أساسي في تشخيص اضطرابات المناعة الذاتية**."
+  },
+  {
+   "t": "card",
+   "en": "This technique has a number of different biological applications including evaluation of cells in suspension,cultured cells,tissue, beads.",
+   "ar": "لهذه التقنية عدد من التطبيقات الحيوية المختلفة، منها تقييم **الخلايا المعلّقة** و**الخلايا المزروعة** و**الأنسجة** و**الحبيبات** (`beads`)."
+  },
+  {
+   "t": "section",
+   "en": "Limitation",
+   "ar": "المحدّدات"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Quality and concentration of the antibody.",
+    "Proper handling of the specimen.",
+    "Choice of secondary antibodies.",
+    "Fluorophores undergoes photo bleaching as they are exposed to light."
+   ],
+   "list_ar": [
+    "جودة الجسم المضاد وتركيزه.",
+    "التعامل الصحيح مع العيّنة.",
+    "اختيار الأجسام المضادة الثانوية.",
+    "تتعرّض الحوامل المتألّقة إلى **الابيضاض الضوئي** (`photo bleaching`) عند تعرّضها للضوء."
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Introduction & assay",
+    "topic_ar": "المقدمة والفحص"
+   },
+   {
+    "en": "Immunofluorescence utilizes fluorescent-labeled ______ to detect specific target antigens.",
+    "ar": "يستعمل التألّق المناعي ______ موسومة بمادة متألّقة للكشف عن مستضدات هدف محدّدة.",
+    "options": [
+     [
+      "Antigens",
+      "مستضدات"
+     ],
+     [
+      "Antibodies",
+      "أجسامًا مضادة"
+     ],
+     [
+      "Enzymes",
+      "إنزيمات"
+     ],
+     [
+      "Nucleic acids",
+      "أحماضًا نووية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Fluorescein emits ______ fluorescence under UV light.",
+    "ar": "يبعث الفلوريسين تألّقًا ______ تحت الأشعة فوق البنفسجية.",
+    "options": [
+     [
+      "Red",
+      "أحمر"
+     ],
+     [
+      "Blue",
+      "أزرق"
+     ],
+     [
+      "Greenish",
+      "مخضرًّا"
+     ],
+     [
+      "Yellow",
+      "أصفر"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Fluorescein can be tagged to:",
+    "ar": "يمكن ربط الفلوريسين بـ:",
+    "options": [
+     [
+      "Immunoglobulin molecules",
+      "جزيئات الغلوبولينات المناعية"
+     ],
+     [
+      "Red cell membranes only",
+      "أغشية الكريات الحمر فقط"
+     ],
+     [
+      "Agar plates",
+      "أطباق الآجار"
+     ],
+     [
+      "Glass slides only",
+      "الشرائح الزجاجية فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Immunofluorescence is sometimes used to make ______ more readily visible to the human eye.",
+    "ar": "تُستعمل التقنية أحيانًا لجعل ______ أوضح للعين البشرية.",
+    "options": [
+     [
+      "Bacterial colonies",
+      "المستعمرات البكتيرية"
+     ],
+     [
+      "Red cells",
+      "الكريات الحمر"
+     ],
+     [
+      "Crystals",
+      "البلّورات"
+     ],
+     [
+      "Viral plaques",
+      "اللويحات الفيروسية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Immunofluorescent labeled tissue sections are studied using:",
+    "ar": "تُدرس المقاطع النسيجية الموسومة بالتألّق المناعي باستعمال:",
+    "options": [
+     [
+      "Light microscope only",
+      "المجهر الضوئي فقط"
+     ],
+     [
+      "Fluorescence microscope",
+      "المجهر التألّقي"
+     ],
+     [
+      "Electron microscope",
+      "المجهر الإلكتروني"
+     ],
+     [
+      "Hand lens",
+      "العدسة اليدوية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "FITC stands for:",
+    "ar": "اختصار `FITC` يعني:",
+    "options": [
+     [
+      "Fluorescein isothiocyanate",
+      "فلوريسين أيزوثيوسيانات"
+     ],
+     [
+      "Fluorescent immune T cell",
+      "خلية تائية مناعية متألّقة"
+     ],
+     [
+      "Fluorochrome inhibitor test control",
+      "ضابط اختبار مثبّط الحامل المتألّق"
+     ],
+     [
+      "Fixed indirect tissue complex",
+      "معقّد نسيجي غير مباشر مثبّت"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "FITC-labeled antibodies glow ______ under ultraviolet light.",
+    "ar": "تتوهّج الأجسام المضادة الموسومة بـ `FITC` بلون ______ تحت الأشعة فوق البنفسجية.",
+    "options": [
+     [
+      "Bright red",
+      "أحمر ساطع"
+     ],
+     [
+      "Deep blue",
+      "أزرق داكن"
+     ],
+     [
+      "Apple-green",
+      "أخضر تفّاحي"
+     ],
+     [
+      "Orange",
+      "برتقالي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Fluorescence",
+    "topic_ar": "التألّق"
+   },
+   {
+    "en": "In fluorescence, the emitted light has a ______ wavelength than the absorbed light.",
+    "ar": "في التألّق يكون للضوء المنبعث طول موجي ______ من الضوء الممتص.",
+    "options": [
+     [
+      "Shorter",
+      "أقصر"
+     ],
+     [
+      "Equal",
+      "مساوٍ"
+     ],
+     [
+      "Zero",
+      "صفري"
+     ],
+     [
+      "Longer",
+      "أطول"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The wavelength of the light used to illuminate the fluorophore is the:",
+    "ar": "الطول الموجي للضوء المستعمل لإضاءة الحامل المتألّق هو:",
+    "options": [
+     [
+      "Excitation wavelength",
+      "طول موجة الإثارة"
+     ],
+     [
+      "Emission wavelength",
+      "طول موجة الانبعاث"
+     ],
+     [
+      "Ground wavelength",
+      "الطول الموجي الأرضي"
+     ],
+     [
+      "Background wavelength",
+      "طول موجة الخلفية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "As the excited fluorophore returns to the ground state, it:",
+    "ar": "عند عودة الحامل المتألّق المُثار إلى الحالة الأرضية فإنه:",
+    "options": [
+     [
+      "Absorbs a photon",
+      "يمتصّ فوتونًا"
+     ],
+     [
+      "Emits a photon",
+      "يبعث فوتونًا"
+     ],
+     [
+      "Loses its antibody",
+      "يفقد جسمه المضاد"
+     ],
+     [
+      "Binds DNA",
+      "يرتبط بالـ DNA"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Direct & indirect IF",
+    "topic_ar": "التألّق المناعي المباشر وغير المباشر"
+   },
+   {
+    "en": "In direct immunofluorescence, the fluorescein-labeled antibodies are layered over:",
+    "ar": "في التألّق المناعي المباشر تُفرش الأجسام المضادة الموسومة فوق:",
+    "options": [
+     [
+      "A secondary antibody",
+      "جسم مضاد ثانوي"
+     ],
+     [
+      "Unlabelled patient serum",
+      "مصل مريض غير موسوم"
+     ],
+     [
+      "Ag fixed on the slide",
+      "المستضد المثبّت على الشريحة"
+     ],
+     [
+      "A culture medium",
+      "وسط زرعي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "After applying labeled antibodies in direct IF, the slide is washed to:",
+    "ar": "بعد وضع الأجسام المضادة الموسومة في الطريقة المباشرة تُغسل الشريحة من أجل:",
+    "options": [
+     [
+      "Fix the antigen",
+      "تثبيت المستضد"
+     ],
+     [
+      "Add the secondary antibody",
+      "إضافة الجسم المضاد الثانوي"
+     ],
+     [
+      "Increase fluorescence",
+      "زيادة التألّق"
+     ],
+     [
+      "Remove unattached Ab's",
+      "إزالة الأجسام المضادة غير المرتبطة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The main use of direct immunofluorescence is:",
+    "ar": "الاستعمال الرئيس للتألّق المناعي المباشر هو:",
+    "options": [
+     [
+      "Direct detection of pathogens or their Ag's in tissues",
+      "الكشف المباشر عن الممرضات أو مستضداتها في الأنسجة"
+     ],
+     [
+      "Labelling DNA with DAPI",
+      "وسم الـ DNA بالـ DAPI"
+     ],
+     [
+      "Measuring enzyme activity",
+      "قياس فعالية الإنزيمات"
+     ],
+     [
+      "Counting red cells",
+      "عدّ الكريات الحمر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The indirect test is described as a:",
+    "ar": "يوصف الاختبار غير المباشر بأنه تقنية:",
+    "options": [
+     [
+      "Single-layer technique",
+      "أحادية الطبقة"
+     ],
+     [
+      "Double-layer technique",
+      "ثنائية الطبقة"
+     ],
+     [
+      "Triple-layer technique",
+      "ثلاثية الطبقات"
+     ],
+     [
+      "Non-antibody technique",
+      "لا تعتمد على الأجسام المضادة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In indirect IF, the antibody applied directly to the tissue substrate is:",
+    "ar": "في الطريقة غير المباشرة يكون الجسم المضاد الموضوع مباشرة على الركيزة النسيجية:",
+    "options": [
+     [
+      "Fluorescein-labeled",
+      "موسومًا بالفلوريسين"
+     ],
+     [
+      "DAPI-labeled",
+      "موسومًا بالـ DAPI"
+     ],
+     [
+      "Unlabelled",
+      "غير موسوم"
+     ],
+     [
+      "Anti-immunoglobulin",
+      "مضادًا للغلوبولين المناعي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In indirect IF, the fluorochrome is conjugated to the:",
+    "ar": "في الطريقة غير المباشرة يقترن الحامل المتألّق بـ:",
+    "options": [
+     [
+      "Antigen",
+      "المستضد"
+     ],
+     [
+      "Primary antibody",
+      "الجسم المضاد الأولي"
+     ],
+     [
+      "Tissue substrate",
+      "الركيزة النسيجية"
+     ],
+     [
+      "Anti-immunoglobulin serum",
+      "المصل المضاد للغلوبولين المناعي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Advantages",
+    "topic_ar": "المزايا"
+   },
+   {
+    "en": "An advantage of direct over indirect immunofluorescence is:",
+    "ar": "من مزايا الطريقة المباشرة على غير المباشرة:",
+    "options": [
+     [
+      "Fewer steps and a faster process",
+      "خطوات أقل وعملية أسرع"
+     ],
+     [
+      "Amplification effect",
+      "تأثير التضخيم"
+     ],
+     [
+      "One labelled antibody for many proteins",
+      "جسم موسوم واحد لبروتينات كثيرة"
+     ],
+     [
+      "More label per molecule",
+      "وسم أكثر لكل جزيء"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Direct IF can reduce background signal by avoiding:",
+    "ar": "يمكن للطريقة المباشرة تقليل إشارة الخلفية بتجنّب:",
+    "options": [
+     [
+      "UV light",
+      "الأشعة فوق البنفسجية"
+     ],
+     [
+      "Antibody cross-reactivity",
+      "التفاعل المتصالب للأجسام المضادة"
+     ],
+     [
+      "Washing",
+      "الغسل"
+     ],
+     [
+      "Fixation",
+      "التثبيت"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Indirect IF gives an amplification effect because it provides:",
+    "ar": "تعطي الطريقة غير المباشرة تأثير تضخيم لأنها توفّر:",
+    "options": [
+     [
+      "Fewer steps",
+      "خطوات أقل"
+     ],
+     [
+      "No secondary antibody",
+      "عدم وجود جسم ثانوي"
+     ],
+     [
+      "More label per molecule of target protein",
+      "وسمًا أكثر لكل جزيء من البروتين الهدف"
+     ],
+     [
+      "Less background",
+      "خلفية أقل"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The secondary antibody binds to the ______ of the primary antibody.",
+    "ar": "يرتبط الجسم المضاد الثانوي بـ ______ من الجسم المضاد الأولي.",
+    "options": [
+     [
+      "Variable part",
+      "الجزء المتغيّر"
+     ],
+     [
+      "Antigen-binding site",
+      "موقع ربط المستضد"
+     ],
+     [
+      "Fluorophore",
+      "الحامل المتألّق"
+     ],
+     [
+      "Constant part",
+      "الجزء الثابت"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The variable part of the primary antibody binds to:",
+    "ar": "يرتبط الجزء المتغيّر من الجسم المضاد الأولي بـ:",
+    "options": [
+     [
+      "A specific part of the target protein",
+      "جزء محدّد من البروتين الهدف"
+     ],
+     [
+      "The secondary antibody",
+      "الجسم المضاد الثانوي"
+     ],
+     [
+      "FITC",
+      "الـ FITC"
+     ],
+     [
+      "The glass slide",
+      "الشريحة الزجاجية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "ANA test",
+    "topic_ar": "اختبار ANA"
+   },
+   {
+    "en": "The ANA test is an example of:",
+    "ar": "اختبار `ANA` مثال على:",
+    "options": [
+     [
+      "Direct immunofluorescence",
+      "التألّق المناعي المباشر"
+     ],
+     [
+      "Indirect immunofluorescence",
+      "التألّق المناعي غير المباشر"
+     ],
+     [
+      "ELISA",
+      "الإليزا"
+     ],
+     [
+      "DAPI staining",
+      "صبغ DAPI"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The ideal substrate for the detection of ANA is:",
+    "ar": "الركيزة المثالية للكشف عن `ANA` هي:",
+    "options": [
+     [
+      "HeLa cells",
+      "خلايا HeLa"
+     ],
+     [
+      "Red blood cells",
+      "الكريات الحمر"
+     ],
+     [
+      "HEp-2 cell line",
+      "خط خلايا HEp-2"
+     ],
+     [
+      "Agar gel",
+      "هلام الآجار"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Finding antinuclear antibodies in blood may mean:",
+    "ar": "وجود الأجسام المضادة للنواة في الدم قد يعني:",
+    "options": [
+     [
+      "A bacterial infection",
+      "عدوى بكتيرية"
+     ],
+     [
+      "Anaemia",
+      "فقر الدم"
+     ],
+     [
+      "A viral plaque",
+      "لويحة فيروسية"
+     ],
+     [
+      "An autoimmune disorder",
+      "اضطرابًا مناعيًا ذاتيًا"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The nucleolar ANA pattern is associated with:",
+    "ar": "يرتبط النمط النُوَيّي لـ `ANA` بـ:",
+    "options": [
+     [
+      "Scleroderma",
+      "تصلّب الجلد"
+     ],
+     [
+      "RA",
+      "RA"
+     ],
+     [
+      "DLE",
+      "DLE"
+     ],
+     [
+      "MCTD",
+      "MCTD"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The homogenous ANA pattern is seen in:",
+    "ar": "يُشاهد النمط المتجانس لـ `ANA` في:",
+    "options": [
+     [
+      "CREST only",
+      "CREST فقط"
+     ],
+     [
+      "SLE, DLE, RA",
+      "SLE و DLE و RA"
+     ],
+     [
+      "Scleroderma only",
+      "تصلّب الجلد فقط"
+     ],
+     [
+      "MCTD only",
+      "MCTD فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "CREST is:",
+    "ar": "`CREST` هو:",
+    "options": [
+     [
+      "Rheumatoid arthritis",
+      "التهاب المفاصل الرثياني"
+     ],
+     [
+      "Discoid lupus",
+      "الذئبة القرصية"
+     ],
+     [
+      "Cutaneous form of systemic sclerosis",
+      "الشكل الجلدي من التصلّب الجهازي"
+     ],
+     [
+      "Mixed connective tissue disease",
+      "مرض النسيج الضام المختلط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Application & limitation",
+    "topic_ar": "التطبيقات والمحدّدات"
+   },
+   {
+    "en": "DAPI binds strongly to:",
+    "ar": "يرتبط `DAPI` بقوّة بـ:",
+    "options": [
+     [
+      "G-C rich regions in RNA",
+      "مناطق غنية بـ G-C في الـ RNA"
+     ],
+     [
+      "Cell membranes",
+      "أغشية الخلايا"
+     ],
+     [
+      "Immunoglobulins",
+      "الغلوبولينات المناعية"
+     ],
+     [
+      "A-T rich regions in DNA",
+      "مناطق غنية بـ A-T في الـ DNA"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "All of the following are limitations of immunofluorescence EXCEPT:",
+    "ar": "كل ما يلي من محدّدات التألّق المناعي عدا:",
+    "options": [
+     [
+      "Photo bleaching of fluorophores",
+      "الابيضاض الضوئي للحوامل المتألّقة"
+     ],
+     [
+      "Choice of secondary antibodies",
+      "اختيار الأجسام المضادة الثانوية"
+     ],
+     [
+      "Quality and concentration of the antibody",
+      "جودة الجسم المضاد وتركيزه"
+     ],
+     [
+      "Use of a fluorescence microscope",
+      "استعمال المجهر التألّقي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "The ANA pattern shown is:",
+    "ar": "نمط `ANA` الظاهر في الصورة هو:",
+    "options": [
+     [
+      "Homogenous",
+      "المتجانس"
+     ],
+     [
+      "Speckled",
+      "المنقّط"
+     ],
+     [
+      "Peripheral",
+      "المحيطي"
+     ],
+     [
+      "Nucleolar",
+      "النُوَيّي"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/q-homogenous.jpg",
+    "img_h": "34mm"
+   },
+   {
+    "en": "The ANA pattern shown is:",
+    "ar": "نمط `ANA` الظاهر في الصورة هو:",
+    "options": [
+     [
+      "Homogenous",
+      "المتجانس"
+     ],
+     [
+      "Nucleolar",
+      "النُوَيّي"
+     ],
+     [
+      "Speckled",
+      "المنقّط"
+     ],
+     [
+      "Peripheral",
+      "المحيطي"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/q-speckled.jpg",
+    "img_h": "34mm"
+   },
+   {
+    "en": "The ANA pattern shown (rim staining) is associated with:",
+    "ar": "يرتبط نمط `ANA` الظاهر (صبغ الحافة) بـ:",
+    "options": [
+     [
+      "Scleroderma only",
+      "تصلّب الجلد فقط"
+     ],
+     [
+      "CREST, SLE",
+      "CREST و SLE"
+     ],
+     [
+      "RA, DLE",
+      "RA و DLE"
+     ],
+     [
+      "MCTD only",
+      "MCTD فقط"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/q-peripheral.jpg",
+    "img_h": "34mm"
+   },
+   {
+    "en": "The ANA pattern shown (stained nucleoli) is associated with:",
+    "ar": "يرتبط نمط `ANA` الظاهر (صبغ النُوَيّات) بـ:",
+    "options": [
+     [
+      "SLE, DLE, RA",
+      "SLE و DLE و RA"
+     ],
+     [
+      "CREST",
+      "CREST"
+     ],
+     [
+      "MCTD",
+      "MCTD"
+     ],
+     [
+      "Scleroderma",
+      "تصلّب الجلد"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/q-nucleolar.jpg",
+    "img_h": "34mm"
+   },
+   {
+    "en": "In the technique shown, the fluorophore is attached directly to the antibody that binds the antigen. It is:",
+    "ar": "في التقنية الظاهرة يرتبط الحامل المتألّق مباشرة بالجسم المضاد المرتبط بالمستضد. هذه التقنية هي:",
+    "options": [
+     [
+      "Direct immunofluorescence",
+      "التألّق المناعي المباشر"
+     ],
+     [
+      "Indirect immunofluorescence",
+      "التألّق المناعي غير المباشر"
+     ],
+     [
+      "ANA test",
+      "اختبار ANA"
+     ],
+     [
+      "DAPI staining",
+      "صبغ DAPI"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/direct.jpg",
+    "img_h": "34mm"
+   },
+   {
+    "en": "The instrument shown is used to study immunofluorescent labeled sections. It is the:",
+    "ar": "الجهاز الظاهر يُستعمل لدراسة المقاطع الموسومة بالتألّق المناعي، وهو:",
+    "options": [
+     [
+      "Electron microscope",
+      "المجهر الإلكتروني"
+     ],
+     [
+      "Spectrophotometer",
+      "المطياف الضوئي"
+     ],
+     [
+      "Fluorescence microscope",
+      "المجهر التألّقي"
+     ],
+     [
+      "Centrifuge",
+      "جهاز الطرد المركزي"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/q-microscope.jpg",
+    "img_h": "40mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Immunofluorescence uses fluorescent-labeled antibodies to detect specific antigens.",
+    "ar": "يستعمل التألّق المناعي أجسامًا مضادة موسومة بالتألّق للكشف عن مستضدات محدّدة.",
+    "answer": "T"
+   },
+   {
+    "en": "Fluorescein emits red fluorescence under UV light.",
+    "ar": "يبعث الفلوريسين تألّقًا أحمر تحت الأشعة فوق البنفسجية.",
+    "answer": "F"
+   },
+   {
+    "en": "FITC makes antibodies glow apple-green under ultraviolet light.",
+    "ar": "يجعل `FITC` الأجسام المضادة تتوهّج بالأخضر التفّاحي تحت الأشعة فوق البنفسجية.",
+    "answer": "T"
+   },
+   {
+    "en": "In fluorescence, the emission wavelength is shorter than the excitation wavelength.",
+    "ar": "في التألّق يكون طول موجة الانبعاث أقصر من طول موجة الإثارة.",
+    "answer": "F"
+   },
+   {
+    "en": "In direct IF, the slide is washed to remove unattached antibodies.",
+    "ar": "في الطريقة المباشرة تُغسل الشريحة لإزالة الأجسام المضادة غير المرتبطة.",
+    "answer": "T"
+   },
+   {
+    "en": "The indirect test is a single-layer technique.",
+    "ar": "الاختبار غير المباشر تقنية أحادية الطبقة.",
+    "answer": "F"
+   },
+   {
+    "en": "In indirect IF, the primary antibody applied to the tissue is unlabelled.",
+    "ar": "في الطريقة غير المباشرة يكون الجسم المضاد الأولي الموضوع على النسيج غير موسوم.",
+    "answer": "T"
+   },
+   {
+    "en": "Direct IF gives an amplification effect.",
+    "ar": "تعطي الطريقة المباشرة تأثير تضخيم.",
+    "answer": "F"
+   },
+   {
+    "en": "The same labelled secondary antibody can bind many different primary antibodies.",
+    "ar": "يمكن للجسم المضاد الثانوي الموسوم نفسه أن يرتبط بأجسام أولية مختلفة كثيرة.",
+    "answer": "T"
+   },
+   {
+    "en": "The ANA test is an example of direct immunofluorescence.",
+    "ar": "اختبار `ANA` مثال على التألّق المناعي المباشر.",
+    "answer": "F"
+   },
+   {
+    "en": "The HEp-2 cell line is an ideal substrate for detecting ANA.",
+    "ar": "خط خلايا `HEp-2` ركيزة مثالية للكشف عن `ANA`.",
+    "answer": "T"
+   },
+   {
+    "en": "The nucleolar pattern is associated with SLE, DLE and RA.",
+    "ar": "يرتبط النمط النُوَيّي بـ `SLE` و`DLE` و`RA`.",
+    "answer": "F"
+   },
+   {
+    "en": "DAPI binds strongly to A-T rich regions in DNA.",
+    "ar": "يرتبط `DAPI` بقوّة بالمناطق الغنية بـ `A-T` في الـ `DNA`.",
+    "answer": "T"
+   },
+   {
+    "en": "Fluorophores undergo photo bleaching when exposed to light.",
+    "ar": "تتعرّض الحوامل المتألّقة للابيضاض الضوئي عند تعرّضها للضوء.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Which antibody carries the label in indirect IF?",
+    "ar": "أيّ جسم مضاد يحمل الوسم في الطريقة غير المباشرة؟",
+    "answer_en": "The secondary (anti-immunoglobulin) antibody; the primary antibody applied to the tissue is unlabelled.",
+    "answer_ar": "الجسم المضاد **الثانوي** (المضاد للغلوبولين المناعي)، أمّا الأولي الموضوع على النسيج فهو **غير موسوم**."
+   },
+   {
+    "en": "Emission vs excitation wavelength",
+    "ar": "طول موجة الانبعاث مقابل طول موجة الإثارة",
+    "answer_en": "The emitted light has a longer wavelength than the excitation light.",
+    "answer_ar": "الضوء المنبعث **أطول** طولًا موجيًا من ضوء الإثارة."
+   },
+   {
+    "en": "Amplification: direct or indirect?",
+    "ar": "التضخيم: في المباشر أم غير المباشر؟",
+    "answer_en": "Indirect IF gives the amplification effect; direct IF is faster with fewer steps and less background.",
+    "answer_ar": "**غير المباشر** يعطي التضخيم، أمّا **المباشر** فأسرع بخطوات أقل وخلفية أقل."
+   },
+   {
+    "en": "Variable vs constant part",
+    "ar": "الجزء المتغيّر مقابل الجزء الثابت",
+    "answer_en": "The variable part of the primary antibody binds the target protein; the secondary antibody binds the constant part of the primary antibody.",
+    "answer_ar": "**الجزء المتغيّر** من الأولي يرتبط بالبروتين الهدف، والثانوي يرتبط **بالجزء الثابت** من الأولي."
+   },
+   {
+    "en": "ANA: direct or indirect?",
+    "ar": "اختبار `ANA`: مباشر أم غير مباشر؟",
+    "answer_en": "Indirect — patient's antinuclear antibodies bind the HEp-2 nuclei and are detected by a fluorescence labeled secondary antibody.",
+    "answer_ar": "**غير مباشر**: ترتبط أجسام المريض المضادة للنواة بأنوية خلايا `HEp-2` ثم يكشفها جسم مضاد ثانوي موسوم بالتألّق."
+   },
+   {
+    "en": "Nucleolar vs peripheral pattern",
+    "ar": "النمط النُوَيّي مقابل المحيطي",
+    "answer_en": "Nucleolar: Scleroderma. Peripheral: CREST and SLE.",
+    "answer_ar": "النُوَيّي يرتبط بتصلّب الجلد، والمحيطي يرتبط بـ `CREST` و`SLE`."
+   },
+   {
+    "en": "Is DAPI an antibody method?",
+    "ar": "هل `DAPI` طريقة تعتمد على الأجسام المضادة؟",
+    "answer_en": "No — DAPI is a non-antibody fluorescent stain that binds A-T rich regions of DNA.",
+    "answer_ar": "لا، `DAPI` صبغة متألّقة **لا تعتمد على الأجسام المضادة** وترتبط بالمناطق الغنية بـ `A-T` في الـ `DNA`."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define immunofluorescence and fluorescence.",
+    "ar": "عرّف التألّق المناعي والتألّق.",
+    "answer_en": "Immunofluorescence is a technique that utilizes fluorescent-labeled antibodies to detect specific target antigens. Fluorescence is the property of certain molecules (fluorophores) to absorb light at one wavelength (excitation) and emit light at a longer wavelength (emission).",
+    "answer_ar": "التألّق المناعي تقنية تستعمل أجسامًا مضادة موسومة بالتألّق للكشف عن مستضدات هدف محدّدة. والتألّق خاصية لبعض الجزيئات (الحوامل المتألّقة) تمتصّ بها الضوء بطول موجي (الإثارة) وتبعثه بطول موجي أطول (الانبعاث)."
+   },
+   {
+    "en": "Describe the steps of direct immunofluorescence and its use.",
+    "ar": "صف خطوات التألّق المناعي المباشر واستعماله.",
+    "answer_en": "Ag is fixed on the slide; fluorescein labeled Ab's are layered over it; the slide is washed to remove unattached Ab's; it is examined under UV light in a fluorescent microscope, where the Ab–Ag site shows apple green fluorescence. Use: direct detection of pathogens or their Ag's in tissues or pathological samples.",
+    "answer_ar": "يُثبَّت المستضد على الشريحة، ثم تُفرش فوقه أجسام مضادة موسومة بالفلوريسين، ثم تُغسل الشريحة لإزالة غير المرتبط، ثم تُفحص تحت الأشعة فوق البنفسجية في مجهر تألّقي، فيُظهر موقع الارتباط تألّقًا أخضر تفّاحيًا. ويُستعمل للكشف المباشر عن الممرضات أو مستضداتها في الأنسجة والعيّنات المرضية."
+   },
+   {
+    "en": "Explain indirect immunofluorescence.",
+    "ar": "اشرح التألّق المناعي غير المباشر.",
+    "answer_en": "A double-layer technique: the unlabelled antibody is applied directly to the tissue substrate, then treated with a fluorochrome-conjugated anti-immunoglobulin serum.",
+    "answer_ar": "تقنية ثنائية الطبقة: يوضع الجسم المضاد غير الموسوم مباشرة على الركيزة النسيجية، ثم تُعامل بمصل مضاد للغلوبولين المناعي مقترن بحامل متألّق."
+   },
+   {
+    "en": "Compare the advantages of direct and indirect immunofluorescence.",
+    "ar": "قارن بين مزايا التألّق المناعي المباشر وغير المباشر.",
+    "answer_en": "Direct: fewer steps, faster process, and less background signal by avoiding antibody cross-reactivity. Indirect: amplification effect (more label per molecule), and one labelled secondary antibody can identify many proteins because it binds the constant part of many different primary antibodies.",
+    "answer_ar": "المباشر: خطوات أقل وعملية أسرع وإشارة خلفية أقل بتجنّب التفاعل المتصالب. غير المباشر: تأثير تضخيم (وسم أكثر لكل جزيء)، وجسم ثانوي موسوم واحد يحدّد بروتينات كثيرة لأنه يرتبط بالجزء الثابت لأجسام أولية مختلفة."
+   },
+   {
+    "en": "Explain the ANA test and how its result is interpreted.",
+    "ar": "اشرح اختبار `ANA` وكيف تُفسَّر نتيجته.",
+    "answer_en": "An indirect IF test that looks for antinuclear antibodies in blood using the HEp-2 cell line as substrate; positive results may mean an autoimmune disorder. Patterns: homogenous (SLE, DLE, RA), speckled (SLE, MCTD, scleroderma), nucleolar (scleroderma), peripheral (CREST, SLE).",
+    "answer_ar": "اختبار تألّق مناعي غير مباشر يبحث عن الأجسام المضادة للنواة في الدم باستعمال خط خلايا `HEp-2` ركيزةً، ووجودها قد يعني اضطرابًا مناعيًا ذاتيًا. الأنماط: المتجانس (`SLE` و`DLE` و`RA`)، والمنقّط (`SLE` و`MCTD` وتصلّب الجلد)، والنُوَيّي (تصلّب الجلد)، والمحيطي (`CREST` و`SLE`)."
+   },
+   {
+    "en": "List the applications and limitations of immunofluorescence.",
+    "ar": "عدّد تطبيقات التألّق المناعي ومحدّداته.",
+    "answer_en": "Applications: tissue sections, cultured cell lines or individual cells; distribution of proteins and small molecules; combination with non-antibody stains such as DAPI; diagnosis of autoimmune disorders; cells in suspension, cultured cells, tissue, beads. Limitations: quality and concentration of the antibody, proper handling of the specimen, choice of secondary antibodies, photo bleaching of fluorophores.",
+    "answer_ar": "التطبيقات: المقاطع النسيجية وخطوط الخلايا المزروعة والخلايا المفردة، وتحليل توزيع البروتينات والجزيئات الصغيرة، والجمع مع صبغات لا تعتمد على الأجسام المضادة مثل `DAPI`، وتشخيص اضطرابات المناعة الذاتية، وتقييم الخلايا المعلّقة والمزروعة والأنسجة والحبيبات. المحدّدات: جودة الجسم المضاد وتركيزه، والتعامل الصحيح مع العيّنة، واختيار الأجسام الثانوية، والابيضاض الضوئي للحوامل المتألّقة."
+   }
+  ]
+ }
+}
