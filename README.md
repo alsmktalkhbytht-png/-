@@ -26,6 +26,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `virology-lab1-safety/` — Medical Virology practical lab 1: safety and aseptic techniques — third stage.
 - `endocrine-lab2-hypothalamus-pituitary/` — Endocrine (الغدد الصمّاء) practical lab 2: hypothalamus and pituitary gland (م.م. نور إبراهيم) — third stage.
 - `advtech-lec2-immunofluorescence/` — Advanced Techniques (التقنيات المتقدمة, د. مصطفى) lecture 2: immunofluorescence and the ANA test — third stage.
+- `immunology-lec2-immune-system/` — Immunology (علم المناعة) theory lecture 2: the immune system — cells, organs, and defense — third stage.
 - `docs/BIOS_ENGINE_GUIDE.md` — full documentation (Arabic): design, workflow, code, troubleshooting.
 - `.claude/skills/bios-malzama/SKILL.md` — how to make a new handout and the full `lecture.json` format.
 
