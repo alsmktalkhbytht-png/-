@@ -1,0 +1,1323 @@
+{
+ "meta": {
+  "subject_en": "Endocrine",
+  "subject_ar": "الغدد الصمّاء",
+  "short_ar": "غدد",
+  "unit_en": "Lab 1",
+  "unit_ar": "العملي 1",
+  "unit_label": "LAB",
+  "unit_no": "1",
+  "title_en": "ELISA (Enzyme Linked Immunosorbent Assay)",
+  "title_ar": "الإليزا: فحص الامتصاص المناعي المرتبط بالإنزيم",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة",
+  "instructor": "م.م. نور إبراهيم"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Antigens",
+   "ar": "المستضدات"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Antigens are macromolecules of natural or synthetic origin; chemically they consist of various polymers – proteins, polypeptides, polysaccharides or nucleoproteins.",
+    "Antigens display two essential properties: first, they are able to evoke a specific immune response, either cellular or humoral type; and, second, they specifically interact with products of this immune response, i.e. antibodies or immunocompetent cells.",
+    "A complete antigen – immunogen – consists of a macromolecule that bears antigenic determinants (epitopes) on its surface."
+   ],
+   "ar": [
+    "**المستضدات** (`Antigens`) جزيئات كبيرة طبيعية أو صناعية المنشأ، تتكوّن كيميائيًا من بوليمرات مختلفة: بروتينات أو ببتيدات متعدّدة أو سكريات متعدّدة أو بروتينات نووية.",
+    "وللمستضدات **خاصيتان أساسيتان**: الأولى أنها قادرة على **إثارة استجابة مناعية نوعية** خلوية أو خلطية، والثانية أنها **تتفاعل نوعيًا مع نواتج هذه الاستجابة**، أي الأجسام المضادة أو الخلايا ذات الكفاءة المناعية.",
+    "و**المستضد الكامل** (**المستمنِع** `immunogen`) جزيء كبير يحمل على سطحه **محدِّدات مستضدية** (**الحواتم** `epitopes`)."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/antigen-epitope.jpg",
+   "en": "Antigen with several epitopes on its surface",
+   "ar": "مستضد تحمل سطحه عدّة حواتم",
+   "h": "48mm",
+   "fit": "contain"
+  },
+  {
+   "t": "section",
+   "en": "Antibodies",
+   "ar": "الأجسام المضادة"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Antibodies are produced by plasma cells that result from differentiation of B lymphocytes following stimulation with antigen.",
+    "Antibodies are heterogeneous group of animal glycoproteins with electrophoretic mobility β-γ, and are also called immunoglobulins (Ig).",
+    "Every immunoglobulin molecule contains at least two light (L) and two heavy (H) chains connected with disulphide bridges"
+   ],
+   "ar": [
+    "تُنتج **الأجسام المضادة** **خلايا البلازما** الناتجة عن تمايز **اللمفاويات البائية** بعد تحفيزها بالمستضد.",
+    "وهي مجموعة غير متجانسة من **البروتينات السكرية** الحيوانية، حركتها الكهربائية في منطقة `β-γ`، وتُسمّى أيضًا **الغلوبولينات المناعية** `(Ig)`.",
+    "ويحتوي كل جزيء غلوبولين مناعي على **سلسلتين خفيفتين** `(L)` و**سلسلتين ثقيلتين** `(H)` على الأقل، تربطها **جسور ثنائي الكبريتيد**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/antibody-structure.jpg",
+   "en": "Antibody structure: light chain, heavy chain, variable region, constant region",
+   "ar": "تركيب الجسم المضاد: السلسلة الخفيفة، السلسلة الثقيلة، المنطقة المتغيّرة، المنطقة الثابتة",
+   "h": "52mm",
+   "fit": "contain"
+  },
+  {
+   "t": "section",
+   "en": "ELISA",
+   "ar": "الإليزا"
+  },
+  {
+   "t": "card",
+   "en": [
+    "This method can be used for the quantitation of either antigens or antibodies in patient specimens.",
+    "It is based on covalently linking an enzyme to a known antigen or antibody, reacting the enzyme- linked material with the patient‘s specimen, and then assaying for enzyme activity by adding the substrate of the enzyme.",
+    "The method is nearly as sensitive as RIA yet requires no special equipment or radioactive labels."
+   ],
+   "ar": [
+    "يمكن استعمال هذه الطريقة **للقياس الكمّي للمستضدات أو الأجسام المضادة** في عيّنات المرضى.",
+    "وتعتمد على **ربط إنزيم تساهميًا** بمستضد أو جسم مضاد معروف، ثم تفاعل المادة المرتبطة بالإنزيم مع عيّنة المريض، ثم قياس فعالية الإنزيم بإضافة **مادته الأساس** (الركيزة).",
+    "وهي تقارب **المقايسة المناعية الإشعاعية** `(RIA)` في الحساسية، لكنها **لا تحتاج إلى أجهزة خاصة ولا إلى واسمات مشعّة**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "The term enzyme-linked refers to the covalent binding (linking) of an enzyme to antibody to human IgG.",
+    "If the patient has antibodies to the microbial or viral antigen, those antibodies will bind to the microbial or viral antigens.",
+    "The antibody to human IgG linked to the enzyme will then bind to the patient‘s antibodies.",
+    "Then when the substrate of the enzyme is added, the substrate changes color, indicating that the patient‘s serum contained antibodies."
+   ],
+   "ar": [
+    "يشير مصطلح **المرتبط بالإنزيم** إلى الارتباط التساهمي لإنزيم **بجسم مضاد لـ `IgG` البشري**.",
+    "فإذا كان لدى المريض أجسام مضادة للمستضد الميكروبي أو الفيروسي فإنها ترتبط بتلك المستضدات.",
+    "ثم يرتبط الجسم المضاد لـ `IgG` البشري المرتبط بالإنزيم بأجسام المريض المضادة.",
+    "وعند إضافة مادة الإنزيم الأساس **يتغيّر لونها**، دلالةً على أن **مصل المريض يحتوي أجسامًا مضادة**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "For measurement of antibody, known antigens are fixed to a surface (e.g., the bottom of small wells on a plastic plate), incubated with dilutions of the patient‘s serum, washed, and then reincubated with antibody to human IgG labeled with an enzyme (e.g., horseradish peroxidase).",
+    "Enzyme activity is measured by adding the substrate for the enzyme and estimating the color reaction in a spectrophotometer."
+   ],
+   "ar": [
+    "**لقياس الجسم المضاد** تُثبَّت مستضدات معروفة على سطح (مثل قاع الحُفر الصغيرة في صفيحة بلاستيكية)، وتُحضن مع **تخافيف مصل المريض**، ثم تُغسل، ثم تُحضن مجدّدًا مع جسم مضاد لـ `IgG` البشري **موسوم بإنزيم** (مثل **بيروكسيداز الفجل الحار**).",
+    "وتُقاس فعالية الإنزيم بإضافة مادته الأساس وتقدير التفاعل اللوني في **جهاز المطياف الضوئي**."
+   ]
+  },
+  {
+   "t": "flow",
+   "en": "Measurement of antibody (steps from the text)",
+   "ar": "قياس الجسم المضاد (الخطوات من النص)",
+   "steps": [
+    {
+     "en": "Fix known antigen",
+     "ar": "تثبيت المستضد المعروف"
+    },
+    {
+     "en": "Add diluted serum",
+     "ar": "إضافة المصل المخفّف"
+    },
+    {
+     "en": "Wash",
+     "ar": "الغسل"
+    },
+    {
+     "en": "Enzyme-labeled anti-human IgG",
+     "ar": "مضاد `IgG` موسوم بإنزيم"
+    },
+    {
+     "en": "Substrate → color",
+     "ar": "المادة الأساس ← اللون"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "The amount of antibody bound is proportional to the enzyme activity.",
+    "The titer of antibody in the patient‘s serum is the highest dilution of serum that gives a positive color reaction."
+   ],
+   "ar": [
+    "**كمية الجسم المضاد المرتبط تتناسب مع فعالية الإنزيم**.",
+    "و**عيار الجسم المضاد** في مصل المريض هو **أعلى تخفيف للمصل يعطي تفاعلًا لونيًا موجبًا**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "ELISA is so named because of two of its components:",
+   "ar": "سُمّيت الإليزا بهذا الاسم نسبةً إلى اثنين من مكوّناتها:"
+  },
+  {
+   "t": "rule",
+   "en": "**Immunosorbent:** It is an absorbing material used (e.g. polystyrene, polyvinyl), that specifically absorbs the antigen or antibody present in serum.",
+   "ar": "**الماصّ المناعي:** مادة ماصّة مستعملة (مثل **البوليستيرين** و**البولي فينيل**) تمتصّ نوعيًا المستضد أو الجسم المضاد الموجود في المصل."
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Enzyme** is used to label one of the components of immunoassay (i.e. antigen or antibody).",
+    "ELISA is the method of choice in big laboratories as large number of samples can be tested together using the 96 well microtiter plate."
+   ],
+   "ar": [
+    "**الإنزيم** يُستعمل لوسم أحد مكوّنات المقايسة المناعية (أي المستضد أو الجسم المضاد).",
+    "والإليزا **الطريقة المفضّلة في المختبرات الكبيرة**، لأنه يمكن فحص عدد كبير من العيّنات معًا باستعمال **صفيحة المعايرة الدقيقة ذات 96 حفرة**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "But it is not preferred in small laboratories:",
+   "ar": "لكنها غير مفضّلة في المختبرات الصغيرة:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "It is economical, takes 2-3 hours (rapid tests take 10–20 min)",
+    "ELISA is the most sensitive immunoassay, thus is the preferred screening test at blood banks and tertiary care sites.",
+    "Its specificity used to be low. But now, with use of more purified recombinant and synthetic antigens, and monoclonal antibodies, ELISA has become more specific.",
+    "It needs expensive equipments such as ELISA washer and reader."
+   ],
+   "list_ar": [
+    "اقتصادية، وتستغرق **ساعتين إلى ثلاث ساعات** (الفحوص السريعة تستغرق من 10 إلى 20 دقيقة).",
+    "الإليزا **أكثر المقايسات المناعية حساسية**، لذا فهي فحص المسح المفضّل في **مصارف الدم** ومراكز الرعاية الثالثية.",
+    "كانت **نوعيتها منخفضة** سابقًا، لكنها أصبحت أكثر نوعية الآن باستعمال **مستضدات مأشوبة وصناعية** أكثر نقاءً و**أجسام مضادة وحيدة النسيلة**.",
+    "تحتاج إلى **أجهزة غالية** مثل **غاسلة الإليزا وقارئها**."
+   ]
+  },
+  {
+   "t": "note",
+   "en": "The list mixes advantages with the drawback; the reason ELISA is not preferred in small laboratories is the last point — it needs expensive equipment such as the ELISA washer and reader.",
+   "ar": "القائمة تجمع المزايا مع العيب؛ و**سبب عدم تفضيلها في المختبرات الصغيرة** هو النقطة الأخيرة: حاجتها إلى **أجهزة غالية** مثل غاسلة الإليزا وقارئها.",
+   "label": [
+    "BIOS note",
+    "ملاحظة بايوس"
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/microplate.jpg",
+     "en": "Microplate ELISA for HIV antibody: colored wells indicate reactivity",
+     "ar": "إليزا الصفيحة الدقيقة لأجسام `HIV` المضادة: الحُفر الملوّنة تدلّ على التفاعل",
+     "h": "44mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/elisa-reader.jpg",
+     "en": "Elisa reader (spectrophotometry)",
+     "ar": "قارئ الإليزا (المطياف الضوئي)",
+     "h": "44mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Applications of ELISA test (mainly)",
+   "ar": "تطبيقات فحص الإليزا (أهمها)"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Measure of nanogram amounts.",
+    "Enzymeimmunoassays for antimicrobial Antibodies.",
+    "Antigens detection.",
+    "Quantity measure for hormones.",
+    "Quantity measure for drugs.",
+    "Pregnancy test (HCG Antigen).",
+    "Diagnosis of different infectious diseases."
+   ],
+   "list_ar": [
+    "قياس الكميات بمستوى **النانوغرام**.",
+    "المقايسات المناعية الإنزيمية للأجسام المضادة للميكروبات.",
+    "الكشف عن المستضدات.",
+    "القياس الكمّي **للهرمونات**.",
+    "القياس الكمّي **للأدوية**.",
+    "**فحص الحمل** (مستضد `HCG`).",
+    "تشخيص الأمراض المعدية المختلفة."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Types of ELISA",
+   "ar": "أنواع الإليزا"
+  },
+  {
+   "t": "table",
+   "head": [
+    "ELISA type",
+    "Used for detection of",
+    "Enzyme is labeled with",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Direct ELISA",
+     "Antigen",
+     "Primary antibody",
+     "**المباشرة**: للكشف عن المستضد؛ الإنزيم على الجسم الأولي"
+    ],
+    [
+     "Indirect ELISA",
+     "Antibody or antigen",
+     "Secondary antibody",
+     "**غير المباشرة**: للجسم المضاد أو المستضد؛ الإنزيم على الجسم الثانوي"
+    ],
+    [
+     "Sandwich ELISA",
+     "Antigen",
+     "Primary antibody in sandwich direct ELISA Secondary antibody in sandwich indirect ELISA",
+     "**الساندويتش**: للمستضد؛ الإنزيم على الأولي في الساندويتش المباشرة، وعلى الثانوي في الساندويتش غير المباشرة"
+    ],
+    [
+     "Competitive ELISA",
+     "Antigen or antibody",
+     "Secondary antibody",
+     "**التنافسية**: للمستضد أو الجسم المضاد؛ الإنزيم على الجسم الثانوي"
+    ],
+    [
+     "ELISPOT",
+     "Cells producing antibody or cytokine",
+     "Primary antibody",
+     "**الإليسبوت**: للخلايا المنتجة للأجسام المضادة أو السيتوكينات؛ الإنزيم على الأولي"
+    ]
+   ],
+   "ar_cols": [
+    3
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    "28mm",
+    "28mm",
+    "40mm",
+    ""
+   ]
+  },
+  {
+   "t": "note",
+   "en": "Primary antibody is directed against the antigen, Secondary antibody is an anti-human (or other species) Ig directed against Fc region of any human/other species Ig.",
+   "ar": "**الجسم المضاد الأولي** موجّه ضد المستضد، و**الجسم المضاد الثانوي** غلوبولين مناعي مضاد للإنسان (أو لنوع آخر) موجّه ضد **منطقة `Fc`** لأي غلوبولين مناعي بشري أو من نوع آخر.",
+   "label": [
+    "Note",
+    "ملاحظة"
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/direct-elisa.jpg",
+     "en": "Direct ELISA",
+     "ar": "الإليزا المباشرة",
+     "h": "52mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/indirect-elisa.jpg",
+     "en": "Indirect ELISA (Antigen coated plate)",
+     "ar": "الإليزا غير المباشرة (صفيحة مغلّفة بالمستضد)",
+     "h": "52mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/competitive-elisa.jpg",
+   "en": "Competitive ELISA (Antigen coated plate): Step 1 Add sample, Step 2 Add antibodys, Step 3 Washing, Step 4 Add substrate",
+   "ar": "الإليزا التنافسية (صفيحة مغلّفة بالمستضد): 1 إضافة العيّنة، 2 إضافة الأجسام المضادة، 3 الغسل، 4 إضافة المادة الأساس",
+   "h": "44mm",
+   "fit": "contain"
+  },
+  {
+   "t": "figure",
+   "src": "assets/sandwich-elisa.jpg",
+   "en": "Sandwich ELISA (Antibody coated plate)",
+   "ar": "إليزا الساندويتش (صفيحة مغلّفة بالجسم المضاد)",
+   "h": "52mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    "Step in the figure",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "1. Capture antibody is coated onto wells by passive adsroption and incubation.",
+     "يُغلَّف **الجسم المضاد الآسر** على الحُفر بالامتزاز السلبي والحضن."
+    ],
+    [
+     "2. Antigen sample is added and incubated with capture antibody",
+     "تُضاف عيّنة المستضد وتُحضن مع الجسم الآسر."
+    ],
+    [
+     "3. labeled antibody (a)/primary antibody and labeled antibody (b) is added and incubated with antigen",
+     "يُضاف الجسم الموسوم (أ: الساندويتش المباشرة)، أو الأولي ثم الموسوم (ب: غير المباشرة)، ويُحضن مع المستضد."
+    ],
+    [
+     "4. Substrate / chromophore is added and colour develops.",
+     "تُضاف المادة الأساس أو الحامل اللوني **فيتكوّن اللون**."
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "key_cols": []
+  },
+  {
+   "t": "note",
+   "en": "The figures write “antibodys”, “caputure” and “adsroption”; the correct spellings are antibodies, capture and adsorption.",
+   "ar": "في الأشكال كُتبت `antibodys` و`caputure` و`adsroption`، والصحيح `antibodies` و`capture` و`adsorption`.",
+   "label": [
+    "BIOS note",
+    "ملاحظة بايوس"
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Antigens & antibodies",
+    "topic_ar": "المستضدات والأجسام المضادة"
+   },
+   {
+    "en": "Chemically, antigens consist of:",
+    "ar": "تتكوّن المستضدات كيميائيًا من:",
+    "options": [
+     [
+      "Lipids only",
+      "دهون فقط"
+     ],
+     [
+      "Proteins, polypeptides, polysaccharides or nucleoproteins",
+      "بروتينات أو ببتيدات متعدّدة أو سكريات متعدّدة أو بروتينات نووية"
+     ],
+     [
+      "Minerals",
+      "معادن"
+     ],
+     [
+      "Water and salts",
+      "ماء وأملاح"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The two essential properties of antigens are:",
+    "ar": "الخاصيتان الأساسيتان للمستضدات هما:",
+    "options": [
+     [
+      "Evoking a specific immune response and specifically interacting with its products",
+      "إثارة استجابة مناعية نوعية والتفاعل نوعيًا مع نواتجها"
+     ],
+     [
+      "Producing antibodies and plasma cells",
+      "إنتاج الأجسام المضادة وخلايا البلازما"
+     ],
+     [
+      "Fixing complement and lysing cells",
+      "تثبيت المتمّم وحلّ الخلايا"
+     ],
+     [
+      "Binding enzymes and substrates",
+      "ربط الإنزيمات والمواد الأساس"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Antigenic determinants on the surface of an antigen are called:",
+    "ar": "تُسمّى المحدِّدات المستضدية على سطح المستضد:",
+    "options": [
+     [
+      "Paratopes",
+      "مواقع ربط الجسم المضاد"
+     ],
+     [
+      "Haptens",
+      "الناشبات"
+     ],
+     [
+      "Epitopes",
+      "الحواتم"
+     ],
+     [
+      "Fc regions",
+      "مناطق Fc"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "A complete antigen is also called:",
+    "ar": "يُسمّى المستضد الكامل أيضًا:",
+    "options": [
+     [
+      "Hapten",
+      "ناشبة"
+     ],
+     [
+      "Antibody",
+      "جسمًا مضادًا"
+     ],
+     [
+      "Adjuvant",
+      "مادة مساعدة"
+     ],
+     [
+      "Immunogen",
+      "مستمنِعًا"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Antibodies are produced by:",
+    "ar": "تُنتج الأجسام المضادة بواسطة:",
+    "options": [
+     [
+      "T lymphocytes",
+      "اللمفاويات التائية"
+     ],
+     [
+      "Plasma cells",
+      "خلايا البلازما"
+     ],
+     [
+      "Neutrophils",
+      "العدلات"
+     ],
+     [
+      "Macrophages",
+      "البلاعم"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The electrophoretic mobility of antibodies is:",
+    "ar": "الحركة الكهربائية للأجسام المضادة في منطقة:",
+    "options": [
+     [
+      "α1",
+      "α1"
+     ],
+     [
+      "α2",
+      "α2"
+     ],
+     [
+      "β-γ",
+      "β-γ"
+     ],
+     [
+      "Albumin",
+      "الألبومين"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The chains of an immunoglobulin molecule are connected by:",
+    "ar": "تترابط سلاسل جزيء الغلوبولين المناعي بواسطة:",
+    "options": [
+     [
+      "Disulphide bridges",
+      "جسور ثنائي الكبريتيد"
+     ],
+     [
+      "Peptide bonds only",
+      "روابط ببتيدية فقط"
+     ],
+     [
+      "Hydrogen bonds only",
+      "روابط هيدروجينية فقط"
+     ],
+     [
+      "Ionic bonds",
+      "روابط أيونية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Every immunoglobulin molecule contains at least:",
+    "ar": "يحتوي كل جزيء غلوبولين مناعي على الأقل على:",
+    "options": [
+     [
+      "One light and one heavy chain",
+      "سلسلة خفيفة وسلسلة ثقيلة"
+     ],
+     [
+      "Four heavy chains",
+      "أربع سلاسل ثقيلة"
+     ],
+     [
+      "Two light chains only",
+      "سلسلتين خفيفتين فقط"
+     ],
+     [
+      "Two light and two heavy chains",
+      "سلسلتين خفيفتين وسلسلتين ثقيلتين"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "ELISA principle",
+    "topic_ar": "مبدأ الإليزا"
+   },
+   {
+    "en": "ELISA can be used for the quantitation of:",
+    "ar": "يمكن استعمال الإليزا للقياس الكمّي لـ:",
+    "options": [
+     [
+      "Antigens only",
+      "المستضدات فقط"
+     ],
+     [
+      "Antibodies only",
+      "الأجسام المضادة فقط"
+     ],
+     [
+      "Either antigens or antibodies",
+      "المستضدات أو الأجسام المضادة"
+     ],
+     [
+      "Electrolytes",
+      "الأملاح"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Compared with RIA, ELISA:",
+    "ar": "مقارنةً بـ `RIA`، فإن الإليزا:",
+    "options": [
+     [
+      "Is nearly as sensitive and needs no radioactive labels",
+      "تقاربها في الحساسية ولا تحتاج واسمات مشعّة"
+     ],
+     [
+      "Is much less sensitive",
+      "أقل حساسية بكثير"
+     ],
+     [
+      "Needs radioactive labels",
+      "تحتاج واسمات مشعّة"
+     ],
+     [
+      "Needs a gamma counter",
+      "تحتاج عدّاد غاما"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In ELISA, the enzyme is linked to the antibody by:",
+    "ar": "في الإليزا يرتبط الإنزيم بالجسم المضاد ارتباطًا:",
+    "options": [
+     [
+      "Hydrogen bonding",
+      "هيدروجينيًا"
+     ],
+     [
+      "Ionic attraction",
+      "أيونيًا"
+     ],
+     [
+      "Physical adsorption",
+      "بالامتزاز الفيزيائي"
+     ],
+     [
+      "Covalent binding",
+      "تساهميًا"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A color change after adding the substrate indicates that the patient's serum:",
+    "ar": "تغيّر اللون بعد إضافة المادة الأساس يدلّ على أن مصل المريض:",
+    "options": [
+     [
+      "Contained antibodies",
+      "يحتوي أجسامًا مضادة"
+     ],
+     [
+      "Contained no antibodies",
+      "لا يحتوي أجسامًا مضادة"
+     ],
+     [
+      "Was hemolysed",
+      "متحلّل الدم"
+     ],
+     [
+      "Was diluted wrongly",
+      "مخفّف خطأً"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "An example of an enzyme used to label anti-human IgG is:",
+    "ar": "من أمثلة الإنزيمات المستعملة لوسم مضاد `IgG` البشري:",
+    "options": [
+     [
+      "Amylase",
+      "الأميليز"
+     ],
+     [
+      "Horseradish peroxidase",
+      "بيروكسيداز الفجل الحار"
+     ],
+     [
+      "Lipase",
+      "الليباز"
+     ],
+     [
+      "Trypsin",
+      "التربسين"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The color reaction in ELISA is estimated by:",
+    "ar": "يُقدَّر التفاعل اللوني في الإليزا بواسطة:",
+    "options": [
+     [
+      "Centrifuge",
+      "جهاز الطرد المركزي"
+     ],
+     [
+      "Microscope",
+      "المجهر"
+     ],
+     [
+      "Spectrophotometer",
+      "المطياف الضوئي"
+     ],
+     [
+      "Gamma counter",
+      "عدّاد غاما"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The amount of antibody bound is:",
+    "ar": "كمية الجسم المضاد المرتبط:",
+    "options": [
+     [
+      "Inversely proportional to enzyme activity",
+      "تتناسب عكسيًا مع فعالية الإنزيم"
+     ],
+     [
+      "Unrelated to enzyme activity",
+      "لا علاقة لها بفعالية الإنزيم"
+     ],
+     [
+      "Equal to substrate volume",
+      "تساوي حجم المادة الأساس"
+     ],
+     [
+      "Proportional to the enzyme activity",
+      "تتناسب مع فعالية الإنزيم"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The titer of antibody is the:",
+    "ar": "عيار الجسم المضاد هو:",
+    "options": [
+     [
+      "Highest dilution of serum giving a positive color reaction",
+      "أعلى تخفيف للمصل يعطي تفاعلًا لونيًا موجبًا"
+     ],
+     [
+      "Lowest dilution giving a negative reaction",
+      "أقل تخفيف يعطي تفاعلًا سالبًا"
+     ],
+     [
+      "Volume of serum used",
+      "حجم المصل المستعمل"
+     ],
+     [
+      "Time to color change",
+      "زمن تغيّر اللون"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Components, features & applications",
+    "topic_ar": "المكوّنات والخصائص والتطبيقات"
+   },
+   {
+    "en": "The immunosorbent in ELISA is made of materials such as:",
+    "ar": "يُصنع الماصّ المناعي في الإليزا من مواد مثل:",
+    "options": [
+     [
+      "Glass and quartz",
+      "الزجاج والكوارتز"
+     ],
+     [
+      "Polystyrene, polyvinyl",
+      "البوليستيرين والبولي فينيل"
+     ],
+     [
+      "Agar and agarose",
+      "الآجار والأغاروز"
+     ],
+     [
+      "Cellulose paper",
+      "ورق السليلوز"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Large numbers of samples are tested together in ELISA using:",
+    "ar": "يُفحص عدد كبير من العيّنات معًا في الإليزا باستعمال:",
+    "options": [
+     [
+      "Test tubes",
+      "أنابيب الاختبار"
+     ],
+     [
+      "Slides",
+      "الشرائح"
+     ],
+     [
+      "96 well microtiter plate",
+      "صفيحة معايرة دقيقة ذات 96 حفرة"
+     ],
+     [
+      "Petri dishes",
+      "أطباق بتري"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "An ELISA usually takes:",
+    "ar": "تستغرق الإليزا عادةً:",
+    "options": [
+     [
+      "10–20 min",
+      "من 10 إلى 20 دقيقة"
+     ],
+     [
+      "24 hours",
+      "24 ساعة"
+     ],
+     [
+      "1 week",
+      "أسبوعًا"
+     ],
+     [
+      "2-3 hours",
+      "ساعتين إلى ثلاث"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "ELISA is the preferred screening test at blood banks because it is:",
+    "ar": "الإليزا فحص المسح المفضّل في مصارف الدم لأنها:",
+    "options": [
+     [
+      "The most sensitive immunoassay",
+      "أكثر المقايسات المناعية حساسية"
+     ],
+     [
+      "The cheapest test",
+      "أرخص فحص"
+     ],
+     [
+      "Radioactive",
+      "مشعّة"
+     ],
+     [
+      "Done without equipment",
+      "تُجرى بلا أجهزة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "ELISA has become more specific due to the use of:",
+    "ar": "أصبحت الإليزا أكثر نوعية بسبب استعمال:",
+    "options": [
+     [
+      "Radioactive labels",
+      "واسمات مشعّة"
+     ],
+     [
+      "Purified recombinant/synthetic antigens and monoclonal antibodies",
+      "مستضدات مأشوبة وصناعية نقية وأجسام وحيدة النسيلة"
+     ],
+     [
+      "Cotton swabs",
+      "مسحات قطنية"
+     ],
+     [
+      "Longer incubation",
+      "حضن أطول"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "ELISA is not preferred in small laboratories because it needs:",
+    "ar": "الإليزا غير مفضّلة في المختبرات الصغيرة لأنها تحتاج:",
+    "options": [
+     [
+      "Radioactive materials",
+      "مواد مشعّة"
+     ],
+     [
+      "Large sample volumes",
+      "حجوم عيّنات كبيرة"
+     ],
+     [
+      "Expensive equipment such as ELISA washer and reader",
+      "أجهزة غالية مثل غاسلة الإليزا وقارئها"
+     ],
+     [
+      "Live animals",
+      "حيوانات حيّة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The pregnancy test detects which antigen by ELISA?",
+    "ar": "أيّ مستضد يكشفه فحص الحمل بالإليزا؟",
+    "options": [
+     [
+      "TSH",
+      "TSH"
+     ],
+     [
+      "LH",
+      "LH"
+     ],
+     [
+      "FSH",
+      "FSH"
+     ],
+     [
+      "HCG",
+      "HCG"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Types of ELISA",
+    "topic_ar": "أنواع الإليزا"
+   },
+   {
+    "en": "In direct ELISA, the enzyme is labeled with the:",
+    "ar": "في الإليزا المباشرة يكون الإنزيم موسومًا على:",
+    "options": [
+     [
+      "Primary antibody",
+      "الجسم المضاد الأولي"
+     ],
+     [
+      "Secondary antibody",
+      "الجسم المضاد الثانوي"
+     ],
+     [
+      "Antigen",
+      "المستضد"
+     ],
+     [
+      "Capture antibody",
+      "الجسم الآسر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Indirect ELISA is used for detection of:",
+    "ar": "تُستعمل الإليزا غير المباشرة للكشف عن:",
+    "options": [
+     [
+      "Cytokine-producing cells only",
+      "الخلايا المنتجة للسيتوكينات فقط"
+     ],
+     [
+      "Antibody or antigen",
+      "الجسم المضاد أو المستضد"
+     ],
+     [
+      "Hormones only",
+      "الهرمونات فقط"
+     ],
+     [
+      "DNA",
+      "الـ DNA"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "ELISPOT detects:",
+    "ar": "يكشف الإليسبوت:",
+    "options": [
+     [
+      "Free antigen only",
+      "المستضد الحرّ فقط"
+     ],
+     [
+      "Drugs",
+      "الأدوية"
+     ],
+     [
+      "Cells producing antibody or cytokine",
+      "الخلايا المنتجة للأجسام المضادة أو السيتوكينات"
+     ],
+     [
+      "HCG only",
+      "HCG فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The secondary antibody is directed against the:",
+    "ar": "يُوجَّه الجسم المضاد الثانوي ضد:",
+    "options": [
+     [
+      "Antigen",
+      "المستضد"
+     ],
+     [
+      "Enzyme",
+      "الإنزيم"
+     ],
+     [
+      "Substrate",
+      "المادة الأساس"
+     ],
+     [
+      "Fc region of human/other species Ig",
+      "منطقة Fc للغلوبولين المناعي البشري أو لنوع آخر"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In sandwich ELISA, the plate is coated with:",
+    "ar": "في إليزا الساندويتش تُغلَّف الصفيحة بـ:",
+    "options": [
+     [
+      "Capture antibody",
+      "الجسم المضاد الآسر"
+     ],
+     [
+      "Antigen",
+      "المستضد"
+     ],
+     [
+      "Substrate",
+      "المادة الأساس"
+     ],
+     [
+      "Enzyme",
+      "الإنزيم"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "The technique shown, with the enzyme on the antibody that binds the antigen directly, is:",
+    "ar": "التقنية الظاهرة، والإنزيم فيها على الجسم الذي يرتبط بالمستضد مباشرة، هي:",
+    "options": [
+     [
+      "Indirect ELISA",
+      "الإليزا غير المباشرة"
+     ],
+     [
+      "Direct ELISA",
+      "الإليزا المباشرة"
+     ],
+     [
+      "Competitive ELISA",
+      "الإليزا التنافسية"
+     ],
+     [
+      "ELISPOT",
+      "الإليسبوت"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/direct-elisa.jpg",
+    "img_h": "34mm"
+   },
+   {
+    "en": "In the ELISA type shown, the enzyme is labeled with the:",
+    "ar": "في نوع الإليزا الظاهر يكون الإنزيم موسومًا على:",
+    "options": [
+     [
+      "Primary antibody",
+      "الجسم المضاد الأولي"
+     ],
+     [
+      "Antigen",
+      "المستضد"
+     ],
+     [
+      "Secondary antibody",
+      "الجسم المضاد الثانوي"
+     ],
+     [
+      "Plate",
+      "الصفيحة"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/indirect-elisa.jpg",
+    "img_h": "34mm"
+   },
+   {
+    "en": "The instrument shown measures the ELISA color reaction. It is the:",
+    "ar": "الجهاز الظاهر يقيس التفاعل اللوني في الإليزا، وهو:",
+    "options": [
+     [
+      "ELISA washer",
+      "غاسلة الإليزا"
+     ],
+     [
+      "Centrifuge",
+      "جهاز الطرد المركزي"
+     ],
+     [
+      "Incubator",
+      "الحاضنة"
+     ],
+     [
+      "ELISA reader (spectrophotometer)",
+      "قارئ الإليزا (المطياف الضوئي)"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/elisa-reader.jpg",
+    "img_h": "34mm"
+   },
+   {
+    "en": "The plate shown, used to test many samples together, is the:",
+    "ar": "الصفيحة الظاهرة، المستعملة لفحص عيّنات كثيرة معًا، هي:",
+    "options": [
+     [
+      "96 well microtiter plate",
+      "صفيحة المعايرة الدقيقة ذات 96 حفرة"
+     ],
+     [
+      "Petri dish",
+      "طبق بتري"
+     ],
+     [
+      "Slide",
+      "شريحة"
+     ],
+     [
+      "Haemocytometer",
+      "مقياس كريات الدم"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/microplate.jpg",
+    "img_h": "34mm"
+   },
+   {
+    "en": "In the molecule shown, the antigen binds to the:",
+    "ar": "في الجزيء الظاهر يرتبط المستضد بـ:",
+    "options": [
+     [
+      "Constant region",
+      "المنطقة الثابتة"
+     ],
+     [
+      "Variable region",
+      "المنطقة المتغيّرة"
+     ],
+     [
+      "Disulphide bridge",
+      "جسر ثنائي الكبريتيد"
+     ],
+     [
+      "Fc region",
+      "منطقة Fc"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/antibody-structure.jpg",
+    "img_h": "34mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Antigens can be of natural or synthetic origin.",
+    "ar": "يمكن أن تكون المستضدات طبيعية أو صناعية المنشأ.",
+    "answer": "T"
+   },
+   {
+    "en": "Epitopes are antigenic determinants on the antigen surface.",
+    "ar": "الحواتم محدِّدات مستضدية على سطح المستضد.",
+    "answer": "T"
+   },
+   {
+    "en": "Antibodies are produced by T lymphocytes.",
+    "ar": "تُنتج اللمفاويات التائية الأجسام المضادة.",
+    "answer": "F"
+   },
+   {
+    "en": "Each immunoglobulin has at least two light and two heavy chains.",
+    "ar": "لكل غلوبولين مناعي سلسلتان خفيفتان وسلسلتان ثقيلتان على الأقل.",
+    "answer": "T"
+   },
+   {
+    "en": "ELISA requires radioactive labels.",
+    "ar": "تحتاج الإليزا إلى واسمات مشعّة.",
+    "answer": "F"
+   },
+   {
+    "en": "The amount of antibody bound is proportional to the enzyme activity.",
+    "ar": "كمية الجسم المضاد المرتبط تتناسب مع فعالية الإنزيم.",
+    "answer": "T"
+   },
+   {
+    "en": "The antibody titer is the lowest dilution of serum that gives a positive reaction.",
+    "ar": "عيار الجسم المضاد أقل تخفيف للمصل يعطي تفاعلًا موجبًا.",
+    "answer": "F"
+   },
+   {
+    "en": "Polystyrene can be used as the immunosorbent.",
+    "ar": "يمكن استعمال البوليستيرين ماصًّا مناعيًا.",
+    "answer": "T"
+   },
+   {
+    "en": "ELISA is the least sensitive immunoassay.",
+    "ar": "الإليزا أقل المقايسات المناعية حساسية.",
+    "answer": "F"
+   },
+   {
+    "en": "ELISA needs expensive equipment such as a washer and reader.",
+    "ar": "تحتاج الإليزا أجهزة غالية مثل الغاسلة والقارئ.",
+    "answer": "T"
+   },
+   {
+    "en": "In indirect ELISA the enzyme is on the primary antibody.",
+    "ar": "في الإليزا غير المباشرة يكون الإنزيم على الجسم الأولي.",
+    "answer": "F"
+   },
+   {
+    "en": "ELISA can be used for the quantity measure of hormones and drugs.",
+    "ar": "يمكن استعمال الإليزا للقياس الكمّي للهرمونات والأدوية.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Titer: highest or lowest dilution?",
+    "ar": "العيار: أعلى تخفيف أم أقل؟",
+    "answer_en": "The highest dilution of serum that still gives a positive color reaction.",
+    "answer_ar": "**أعلى** تخفيف للمصل ما يزال يعطي تفاعلًا لونيًا موجبًا."
+   },
+   {
+    "en": "Primary vs secondary antibody",
+    "ar": "الجسم الأولي مقابل الثانوي",
+    "answer_en": "Primary is directed against the antigen; secondary is anti-human (or other species) Ig directed against the Fc region.",
+    "answer_ar": "الأولي موجّه ضد **المستضد**، والثانوي مضاد للغلوبولين المناعي البشري (أو لنوع آخر) موجّه ضد **منطقة `Fc`**."
+   },
+   {
+    "en": "Where is the enzyme in direct vs indirect ELISA?",
+    "ar": "أين الإنزيم في المباشرة وغير المباشرة؟",
+    "answer_en": "Direct: on the primary antibody. Indirect: on the secondary antibody.",
+    "answer_ar": "المباشرة: على **الأولي**. غير المباشرة: على **الثانوي**."
+   },
+   {
+    "en": "Why not in small laboratories?",
+    "ar": "لماذا ليست مفضّلة في المختبرات الصغيرة؟",
+    "answer_en": "Because it needs expensive equipment (ELISA washer and reader) — not because of sensitivity or cost per test.",
+    "answer_ar": "لأنها تحتاج **أجهزة غالية** (الغاسلة والقارئ)، لا بسبب الحساسية ولا كلفة الفحص."
+   },
+   {
+    "en": "ELISA time vs rapid tests",
+    "ar": "زمن الإليزا مقابل الفحوص السريعة",
+    "answer_en": "ELISA takes 2-3 hours; rapid tests take 10–20 min.",
+    "answer_ar": "الإليزا **ساعتان إلى ثلاث**، والفحوص السريعة **10 إلى 20 دقيقة**."
+   },
+   {
+    "en": "Sandwich ELISA plate coating",
+    "ar": "تغليف الصفيحة في الساندويتش",
+    "answer_en": "Sandwich ELISA uses an antibody (capture antibody) coated plate; competitive ELISA in the figure uses an antigen coated plate.",
+    "answer_ar": "الساندويتش صفيحتها مغلّفة **بالجسم المضاد الآسر**، أمّا التنافسية في الشكل فمغلّفة **بالمستضد**."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define antigen and state its two essential properties.",
+    "ar": "عرّف المستضد واذكر خاصيتيه الأساسيتين.",
+    "answer_en": "Macromolecules of natural or synthetic origin (proteins, polypeptides, polysaccharides or nucleoproteins). They evoke a specific cellular or humoral immune response, and specifically interact with its products (antibodies or immunocompetent cells).",
+    "answer_ar": "جزيئات كبيرة طبيعية أو صناعية (بروتينات أو ببتيدات أو سكريات متعدّدة أو بروتينات نووية). تثير استجابة مناعية نوعية خلوية أو خلطية، وتتفاعل نوعيًا مع نواتجها (الأجسام المضادة أو الخلايا ذات الكفاءة المناعية)."
+   },
+   {
+    "en": "Describe antibodies (origin, nature and structure).",
+    "ar": "صف الأجسام المضادة (المنشأ والطبيعة والتركيب).",
+    "answer_en": "Produced by plasma cells derived from B lymphocytes after antigen stimulation; heterogeneous animal glycoproteins with β-γ mobility called immunoglobulins; each has at least two light and two heavy chains linked by disulphide bridges.",
+    "answer_ar": "تنتجها خلايا البلازما المتمايزة من اللمفاويات البائية بعد التحفيز بالمستضد؛ بروتينات سكرية حيوانية غير متجانسة حركتها `β-γ` وتُسمّى الغلوبولينات المناعية؛ لكل منها سلسلتان خفيفتان وثقيلتان على الأقل تربطها جسور ثنائي الكبريتيد."
+   },
+   {
+    "en": "Explain the principle of ELISA for measurement of antibody.",
+    "ar": "اشرح مبدأ الإليزا لقياس الجسم المضاد.",
+    "answer_en": "Known antigens are fixed to the wells, incubated with dilutions of patient serum, washed, then incubated with enzyme-labeled anti-human IgG (e.g., horseradish peroxidase); the substrate is added and the color is read in a spectrophotometer. Bound antibody is proportional to enzyme activity.",
+    "answer_ar": "تُثبَّت مستضدات معروفة في الحُفر، وتُحضن مع تخافيف مصل المريض، ثم تُغسل، ثم تُحضن مع مضاد `IgG` بشري موسوم بإنزيم (مثل بيروكسيداز الفجل الحار)، ثم تُضاف المادة الأساس ويُقرأ اللون بالمطياف الضوئي. والجسم المرتبط يتناسب مع فعالية الإنزيم."
+   },
+   {
+    "en": "Why is ELISA so named? Explain its two components.",
+    "ar": "لماذا سُمّيت الإليزا بهذا الاسم؟ اشرح مكوّنيها.",
+    "answer_en": "Immunosorbent: an absorbing material (polystyrene, polyvinyl) that specifically absorbs the antigen or antibody in serum. Enzyme: used to label one component of the immunoassay (antigen or antibody).",
+    "answer_ar": "الماصّ المناعي: مادة ماصّة (بوليستيرين، بولي فينيل) تمتصّ نوعيًا المستضد أو الجسم المضاد في المصل. الإنزيم: يُستعمل لوسم أحد مكوّنات المقايسة (المستضد أو الجسم المضاد)."
+   },
+   {
+    "en": "List the applications of ELISA.",
+    "ar": "عدّد تطبيقات الإليزا.",
+    "answer_en": "Measure of nanogram amounts; enzyme immunoassays for antimicrobial antibodies; antigen detection; quantity measure for hormones and drugs; pregnancy test (HCG antigen); diagnosis of different infectious diseases.",
+    "answer_ar": "قياس كميات بمستوى النانوغرام؛ المقايسات الإنزيمية للأجسام المضادة للميكروبات؛ الكشف عن المستضدات؛ القياس الكمّي للهرمونات والأدوية؛ فحص الحمل (مستضد `HCG`)؛ تشخيص الأمراض المعدية المختلفة."
+   },
+   {
+    "en": "Compare the types of ELISA by what they detect and where the enzyme is labeled.",
+    "ar": "قارن أنواع الإليزا من حيث ما تكشفه وموقع وسم الإنزيم.",
+    "answer_en": "Direct: antigen, primary antibody. Indirect: antibody or antigen, secondary antibody. Sandwich: antigen, primary (direct sandwich) or secondary (indirect sandwich). Competitive: antigen or antibody, secondary antibody. ELISPOT: cells producing antibody or cytokine, primary antibody.",
+    "answer_ar": "المباشرة: المستضد، والإنزيم على الأولي. غير المباشرة: الجسم المضاد أو المستضد، والإنزيم على الثانوي. الساندويتش: المستضد، والإنزيم على الأولي (المباشرة) أو الثانوي (غير المباشرة). التنافسية: المستضد أو الجسم المضاد، والإنزيم على الثانوي. الإليسبوت: الخلايا المنتجة للأجسام المضادة أو السيتوكينات، والإنزيم على الأولي."
+   }
+  ]
+ }
+}
