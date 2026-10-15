@@ -243,8 +243,7 @@ important = [
 meta = dict(subject_en="Diagnostic Microbiology", subject_ar="الأحياء المجهرية التشخيصية", short_ar="بكتريا",
             unit_en="Lab 1", unit_ar="العملي 1", unit_label="LAB", unit_no="1",
             title_en="Rules and biosafety levels", title_ar="القواعد ومستويات السلامة الحيوية",
-            kind="Laboratories — عملي", stage="The fourth stage — الرابعة",
-            # instructor: not in the source; the user will send it later
+            kind="Laboratories — عملي", stage="The fourth stage — الرابعة", instructor="د. ذهب",
             file_name="بكتريا عملي المحاضرة الاولى", questions_suffix=" اسئلة")   # user-chosen file names
 
 folder = "microbiology-lab1-biosafety"
