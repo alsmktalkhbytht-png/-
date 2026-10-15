@@ -1,0 +1,1047 @@
+{
+ "meta": {
+  "subject_en": "Diagnostic Microbiology",
+  "subject_ar": "الأحياء المجهرية التشخيصية",
+  "short_ar": "بكتريا",
+  "unit_en": "Lecture 2",
+  "unit_ar": "المحاضرة 2",
+  "unit_label": "LEC",
+  "unit_no": "2",
+  "title_en": "Laboratory Safety",
+  "title_ar": "السلامة في المختبر",
+  "kind": "Theory — نظري",
+  "stage": "The fourth stage — الرابعة",
+  "instructor": "د. عدنان",
+  "file_name": "بكتريا نظري المحاضرة الثانية",
+  "questions_suffix": " اسئلة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Laboratory safety",
+   "ar": "السلامة في المختبر"
+  },
+  {
+   "t": "card",
+   "en": "Microbiology laboratory include admonitions such as the necessity to (1) wear gloves, (2) wash hands after working with infectious materials, (3) disinfect all instruments immediately after use, (4) use water to moisten specimen labels rather than the tongue, (5) disinfect all contaminated waste before discarding, and (6) report to appropriate personnel all accidents or exposures to infectious agents.",
+   "ar": "يتضمّن **مختبر الأحياء المجهرية** تحذيرات مثل ضرورة: (1) **ارتداء القفازات**، (2) **غسل اليدين** بعد العمل بالمواد المعدية، (3) **تطهير كل الأدوات** فور استعمالها، (4) استعمال **الماء لترطيب ملصقات العيّنات** بدل اللسان، (5) **تطهير كل النفايات الملوّثة** قبل التخلّص منها، (6) **إبلاغ الأشخاص المختصّين** بكل الحوادث أو حالات التعرّض للعوامل المعدية."
+  },
+  {
+   "t": "section",
+   "en": "Safety",
+   "ar": "السلامة"
+  },
+  {
+   "t": "card",
+   "en": "Programs have been expanded to include the proper handling of biologic hazards encountered in processing patient specimens and handling infectious microorganisms; fire and electrical safety; the safe handling, storage, and disposal of chemicals and radioactive substances; and techniques for safely lifting or moving heavy objects.",
+   "ar": "وُسّعت **البرامج** لتشمل: التعامل الصحيح مع **المخاطر الحيوية** التي تُصادف عند معالجة عيّنات المرضى والتعامل مع الكائنات الدقيقة المعدية؛ و**السلامة من الحريق والكهرباء**؛ والتعامل الآمن مع **المواد الكيميائية والمواد المشعّة** وخزنها والتخلّص منها؛ وتقنيات **رفع الأجسام الثقيلة أو تحريكها** بأمان."
+  },
+  {
+   "t": "section",
+   "en": "Sterilization, Disinfection, and Decontamination",
+   "ar": "التعقيم والتطهير وإزالة التلوّث"
+  },
+  {
+   "t": "card",
+   "en": "**Sterilization** is a process that kills all forms of microbial life, including bacterial endospores.",
+   "ar": "**التعقيم** (`Sterilization`) عملية تقتل **كل أشكال الحياة الميكروبية**، بما فيها **الأبواغ الداخلية البكتيرية**."
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Disinfection** is a process that destroys pathogenic organisms, but not necessarily all microorganisms, endospores, or prions.",
+    "However, some disinfectants will kill endospores with prolonged exposure times."
+   ],
+   "ar": [
+    "**التطهير** (`Disinfection`) عملية تُتلف **الكائنات المُمرِضة**، ولكن ليس بالضرورة كل الكائنات الدقيقة أو الأبواغ الداخلية أو البريونات.",
+    "ومع ذلك، فإن بعض المطهّرات تقتل الأبواغ الداخلية عند **إطالة زمن التعرّض**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Decontamination** is the removal of pathogenic microorganisms so items are safe to handle or dispose of.",
+   "ar": "**إزالة التلوّث** (`Decontamination`) هي إزالة الكائنات الدقيقة المُمرِضة بحيث تصبح الأشياء **آمنة للتداول أو التخلّص منها**."
+  },
+  {
+   "t": "card",
+   "en": [
+    "Many factors limit the success or degree of sterilization, disinfection, or decontamination in a health care setting, such as organic load (organisms and other contaminating materials such as blood or body fluids), the type of organisms present, the concentration and exposure time to the germicide, the physical and chemical nature of the surface (hinges, cracks, rough or smooth surfaces),temperature, pH, humidity, and presence of a biofilm.",
+    "These processes may be accomplished by a variety of physical or chemical methods."
+   ],
+   "ar": [
+    "تحدّ عوامل كثيرة من نجاح التعقيم أو التطهير أو إزالة التلوّث أو من درجته في مرافق الرعاية الصحية، مثل: **الحمل العضوي** (الكائنات والمواد الملوِّثة الأخرى كالدم أو سوائل الجسم)، ونوع الكائنات الموجودة، و**تركيز مبيد الجراثيم وزمن التعرّض له**، والطبيعة الفيزيائية والكيميائية للسطح (المفصّلات، والشقوق، والسطوح الخشنة أو الملساء)، ودرجة الحرارة، والأس الهيدروجيني (`pH`)، والرطوبة، ووجود **غشاء حيوي** (`biofilm`).",
+    "ويمكن إنجاز هذه العمليات بطرق **فيزيائية أو كيميائية** متنوّعة."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Methods of Sterilization",
+   "ar": "طرق التعقيم"
+  },
+  {
+   "t": "card",
+   "en": "The physical methods of sterilization include:",
+   "ar": "تشمل **الطرق الفيزيائية للتعقيم**:",
+   "list_en": [
+    "Incineration",
+    "Moist heat",
+    "Dry heat",
+    "Filtration",
+    "Ionizing (gamma) radiation",
+    "Chemicals (ethylene oxide gas, hydrogen peroxide gas plasma, vaporized hydrogen peroxide, and other liquid chemicals)."
+   ],
+   "list_ar": [
+    "**الحرق**",
+    "**الحرارة الرطبة**",
+    "**الحرارة الجافة**",
+    "**الترشيح**",
+    "**الإشعاع المؤيِّن** (أشعة كاما)",
+    "**المواد الكيميائية** (غاز أوكسيد الإثيلين، وبلازما غاز بيروكسيد الهيدروجين، وبيروكسيد الهيدروجين المُبخَّر، والمواد الكيميائية السائلة الأخرى)."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Chemical safety of diagnostic microbiologically laboratory should have a chemical hygiene plan that includes guidelines on proper labeling of chemical containers, manufacturers material safety data sheets (MSDSs), and the written chemical safety training and retraining programs.",
+   "ar": "**السلامة الكيميائية**: يجب أن تكون لمختبر الأحياء المجهرية التشخيصية **خطة للصحة الكيميائية** تتضمّن إرشادات عن الوسم الصحيح لحاويات المواد الكيميائية، و**صحائف بيانات سلامة المواد** من الشركات المصنّعة (`MSDSs`)، وبرامج التدريب وإعادة التدريب المكتوبة على السلامة الكيميائية."
+  },
+  {
+   "t": "card",
+   "en": [
+    "Fire safety is an important component of the laboratory safety program.",
+    "Each laboratory is required to post fire evacuation plans that are essentially strategies for finding the nearest exit in case of fire."
+   ],
+   "ar": [
+    "**السلامة من الحريق** مكوّن مهم في برنامج السلامة المختبرية.",
+    "ويُطلب من كل مختبر أن يعلّق **خطط الإخلاء عند الحريق**، وهي أساسًا استراتيجيات لإيجاد **أقرب مخرج** في حالة الحريق."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Electrical safety",
+   "ar": "السلامة الكهربائية"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Electrical cables should be checked regularly for fraying and replaced when necessary.",
+    "All plugs should be the three-prong, grounded type.",
+    "All sockets should be checked for electrical grounding and leakage at least annually.",
+    "No extension cables should be used in the laboratory."
+   ],
+   "ar": [
+    "يجب فحص **الأسلاك الكهربائية** بانتظام للتأكّد من عدم تآكلها، واستبدالها عند الضرورة.",
+    "ويجب أن تكون كل القوابس من النوع **ثلاثي الأطراف المؤرَّض**.",
+    "ويجب فحص كل المقابس للتأكّد من **التأريض الكهربائي** وعدم التسرّب **مرة واحدة سنويًا على الأقل**.",
+    "ولا يجوز استعمال **أسلاك التمديد** في المختبر."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Handling of compressed gases",
+   "ar": "التعامل مع الغازات المضغوطة"
+  },
+  {
+   "t": "card",
+   "en": "Compressed gas cylinders (CO2, anaerobic gas mixture) contain pressurized gases and must be properly handled and secured.",
+   "ar": "تحتوي **أسطوانات الغاز المضغوط** (ثنائي أوكسيد الكربون `CO2`، وخليط الغاز اللاهوائي) على غازات مضغوطة، ويجب التعامل معها بصورة صحيحة **وتثبيتها بإحكام**."
+  },
+  {
+   "t": "section",
+   "en": "Biosafety",
+   "ar": "السلامة الحيوية"
+  },
+  {
+   "t": "card",
+   "en": "Individuals are exposed in various ways to laboratory acquired infections in microbiology laboratories, through that risks from a microbiology laboratory may extend to adjacent laboratories and to the families of those who work in the microbiology laboratory.",
+   "ar": "يتعرّض الأفراد بطرق مختلفة إلى **العدوى المكتسبة من المختبر** في مختبرات الأحياء المجهرية، وقد تمتدّ مخاطر مختبر الأحياء المجهرية إلى **المختبرات المجاورة** وإلى **عائلات العاملين** فيه."
+  },
+  {
+   "t": "card",
+   "en": "**Individuals are exposed in various ways to health care– associated infections, transporting specimens and in public areas such as elevators or cafeterias, by:**",
+   "ar": "**يتعرّض الأفراد بطرق مختلفة إلى العدوى المرتبطة بالرعاية الصحية، وعند نقل العيّنات، وفي الأماكن العامة مثل المصاعد أو الكافتيريات، وذلك عن طريق:**",
+   "list_en": [
+    "Rubbing the eyes or nose with contaminated hands",
+    "Inhaling aerosols produced during centrifugation, mixing with a vortex, or spills of liquid cultures",
+    "Accidentally ingesting microorganisms by putting pens or fingers in the mouth",
+    "Receiving percutaneous inoculation (i.e., through puncture from an accidental needle stick)",
+    "Manipulating or opening bacterial cultures in liquid media or on plates, creating potentially hazardous aerosols,outside of a biosafety hood",
+    "Failure to wash hands upon leaving the restroom or other public areas before entering the laboratory"
+   ],
+   "list_ar": [
+    "**فرك العينين أو الأنف** بأيدٍ ملوّثة",
+    "**استنشاق الرذاذ** (`aerosols`) الناتج أثناء النبذ المركزي، أو الخلط بجهاز الدوّامة (`vortex`)، أو انسكاب المزارع السائلة",
+    "**ابتلاع الكائنات الدقيقة عرضًا** بوضع الأقلام أو الأصابع في الفم",
+    "**التلقيح عبر الجلد** (أي من خلال وخزة إبرة عرضية)",
+    "التعامل مع المزارع البكتيرية في الأوساط السائلة أو على الأطباق أو فتحها، مما يولّد رذاذًا قد يكون خطرًا، **خارج خزانة السلامة الحيوية**",
+    "**عدم غسل اليدين** عند مغادرة دورة المياه أو الأماكن العامة الأخرى قبل دخول المختبر"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/autoclave-bags.jpg",
+   "en": "Figure (2 ):Autoclave bags.",
+   "ar": "الشكل (2): أكياس جهاز التعقيم بالبخار (الأوتوكليف).",
+   "h": "48mm",
+   "fit": "contain",
+   "nonum": true
+  },
+  {
+   "t": "card",
+   "en": [
+    "Microbiologists should wear laboratory coats over their street clothes, and these coats should be removed before leaving the laboratory.",
+    "Most exposures to blood-containing fluids occur on the hands or forearms, so gowns with closed wrists or forearm covers and gloves that cover all potentially exposed skin on the arms are most beneficial."
+   ],
+   "ar": [
+    "يجب أن يرتدي العاملون في الأحياء المجهرية **صدريات المختبر** فوق ملابسهم الاعتيادية، وأن يخلعوها **قبل مغادرة المختبر**.",
+    "معظم حالات التعرّض للسوائل الحاوية على الدم تحدث على **اليدين أو الساعدين**، لذا فإن الأردية **مغلقة المعصمين** أو أغطية الساعد، والقفازات التي تغطّي كل الجلد المعرّض على الذراعين هي الأكثر فائدة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "If the laboratory protective clothing becomes contaminated with body fluids or potential pathogens, it should be sterilized in an autoclave immediately and cleaned before reusing.",
+    "The institution or a uniform agency should clean laboratory coats; it is no longer permissible for microbiologists to launder their own coats.",
+    "Alternatively, disposable gowns may be use."
+   ],
+   "ar": [
+    "إذا تلوّثت الملابس الواقية المختبرية بسوائل الجسم أو بمُمرِضات محتملة، فيجب **تعقيمها في جهاز الأوتوكليف فورًا** وتنظيفها قبل إعادة استعمالها.",
+    "يجب أن تتولّى **المؤسسة أو جهة مختصّة بالأزياء** تنظيف صدريات المختبر؛ إذ **لم يعد مسموحًا** للعاملين في الأحياء المجهرية أن يغسلوا صدرياتهم بأنفسهم.",
+    "وبدلًا من ذلك، يمكن استعمال **أردية تُستعمل لمرة واحدة**."
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Laboratory safety and safety programs",
+    "topic_ar": "السلامة في المختبر وبرامج السلامة"
+   },
+   {
+    "en": "To moisten specimen labels, microbiology laboratory admonitions say to use:",
+    "ar": "لترطيب ملصقات العيّنات، تنصّ تحذيرات مختبر الأحياء المجهرية على استعمال:",
+    "options": [
+     [
+      "The tongue",
+      "اللسان"
+     ],
+     [
+      "Alcohol",
+      "الكحول"
+     ],
+     [
+      "Disinfectant",
+      "المطهّر"
+     ],
+     [
+      "Water",
+      "الماء"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "All instruments in the microbiology laboratory should be disinfected:",
+    "ar": "يجب تطهير كل الأدوات في مختبر الأحياء المجهرية:",
+    "options": [
+     [
+      "Once a week",
+      "مرة أسبوعيًا"
+     ],
+     [
+      "Immediately after use",
+      "فور استعمالها"
+     ],
+     [
+      "Before use only",
+      "قبل الاستعمال فقط"
+     ],
+     [
+      "At the end of the month",
+      "في نهاية الشهر"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "All accidents or exposures to infectious agents should be:",
+    "ar": "كل الحوادث أو حالات التعرّض للعوامل المعدية يجب:",
+    "options": [
+     [
+      "Ignored if minor",
+      "تجاهلها إن كانت بسيطة"
+     ],
+     [
+      "Reported to the patient",
+      "إبلاغ المريض بها"
+     ],
+     [
+      "Recorded only at the end of the year",
+      "تسجيلها في نهاية السنة فقط"
+     ],
+     [
+      "Reported to appropriate personnel",
+      "إبلاغ الأشخاص المختصّين بها"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "All contaminated waste should be:",
+    "ar": "كل النفايات الملوّثة يجب:",
+    "options": [
+     [
+      "Disinfected before discarding",
+      "تطهيرها قبل التخلّص منها"
+     ],
+     [
+      "Discarded directly",
+      "التخلّص منها مباشرة"
+     ],
+     [
+      "Stored in the laboratory",
+      "خزنها في المختبر"
+     ],
+     [
+      "Washed with water only",
+      "غسلها بالماء فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Safety programs have been expanded to include all of the following EXCEPT:",
+    "ar": "وُسّعت برامج السلامة لتشمل كل ما يأتي عدا:",
+    "options": [
+     [
+      "Fire and electrical safety",
+      "السلامة من الحريق والكهرباء"
+     ],
+     [
+      "Safe handling of radioactive substances",
+      "التعامل الآمن مع المواد المشعّة"
+     ],
+     [
+      "Choosing the antibiotic for the patient",
+      "اختيار المضاد الحيوي للمريض"
+     ],
+     [
+      "Techniques for safely lifting heavy objects",
+      "تقنيات رفع الأجسام الثقيلة بأمان"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Sterilization, disinfection and decontamination",
+    "topic_ar": "التعقيم والتطهير وإزالة التلوّث"
+   },
+   {
+    "en": "A process that kills all forms of microbial life, including bacterial endospores, is:",
+    "ar": "العملية التي تقتل كل أشكال الحياة الميكروبية بما فيها الأبواغ الداخلية البكتيرية هي:",
+    "options": [
+     [
+      "Disinfection",
+      "التطهير"
+     ],
+     [
+      "Sterilization",
+      "التعقيم"
+     ],
+     [
+      "Decontamination",
+      "إزالة التلوّث"
+     ],
+     [
+      "Filtration only",
+      "الترشيح فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Disinfection destroys:",
+    "ar": "التطهير يُتلف:",
+    "options": [
+     [
+      "All forms of microbial life",
+      "كل أشكال الحياة الميكروبية"
+     ],
+     [
+      "Pathogenic organisms, but not necessarily all microorganisms, endospores, or prions",
+      "الكائنات المُمرِضة، ولكن ليس بالضرورة كل الكائنات الدقيقة أو الأبواغ أو البريونات"
+     ],
+     [
+      "Prions only",
+      "البريونات فقط"
+     ],
+     [
+      "Endospores only",
+      "الأبواغ الداخلية فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Some disinfectants will kill endospores with:",
+    "ar": "بعض المطهّرات تقتل الأبواغ الداخلية عند:",
+    "options": [
+     [
+      "Short exposure times",
+      "تقصير زمن التعرّض"
+     ],
+     [
+      "Low temperature only",
+      "انخفاض الحرارة فقط"
+     ],
+     [
+      "Dilution with water",
+      "التخفيف بالماء"
+     ],
+     [
+      "Prolonged exposure times",
+      "إطالة زمن التعرّض"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Removal of pathogenic microorganisms so items are safe to handle or dispose of is:",
+    "ar": "إزالة الكائنات المُمرِضة بحيث تصبح الأشياء آمنة للتداول أو التخلّص منها هي:",
+    "options": [
+     [
+      "Sterilization",
+      "التعقيم"
+     ],
+     [
+      "Incineration",
+      "الحرق"
+     ],
+     [
+      "Inoculation",
+      "التلقيح"
+     ],
+     [
+      "Decontamination",
+      "إزالة التلوّث"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which is NOT listed among the factors limiting the success of sterilization or disinfection?",
+    "ar": "أيّ ممّا يأتي لم يُذكر ضمن العوامل التي تحدّ من نجاح التعقيم أو التطهير؟",
+    "options": [
+     [
+      "Organic load",
+      "الحمل العضوي"
+     ],
+     [
+      "Presence of a biofilm",
+      "وجود غشاء حيوي"
+     ],
+     [
+      "Colour of the laboratory walls",
+      "لون جدران المختبر"
+     ],
+     [
+      "Concentration and exposure time to the germicide",
+      "تركيز مبيد الجراثيم وزمن التعرّض له"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Organic load includes organisms and other contaminating materials such as:",
+    "ar": "يشمل الحمل العضوي الكائنات والمواد الملوِّثة الأخرى مثل:",
+    "options": [
+     [
+      "Ethylene oxide gas",
+      "غاز أوكسيد الإثيلين"
+     ],
+     [
+      "Autoclave bags",
+      "أكياس الأوتوكليف"
+     ],
+     [
+      "Blood or body fluids",
+      "الدم أو سوائل الجسم"
+     ],
+     [
+      "Gloves",
+      "القفازات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Methods of sterilization",
+    "topic_ar": "طرق التعقيم"
+   },
+   {
+    "en": "Which of the following is listed among the methods of sterilization?",
+    "ar": "أيّ ممّا يأتي ذُكر ضمن طرق التعقيم؟",
+    "options": [
+     [
+      "Incineration",
+      "الحرق"
+     ],
+     [
+      "Vortex mixing",
+      "الخلط بالدوّامة"
+     ],
+     [
+      "Centrifugation",
+      "النبذ المركزي"
+     ],
+     [
+      "Refrigeration",
+      "التبريد"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Ionizing radiation used for sterilization is:",
+    "ar": "الإشعاع المؤيِّن المستعمل في التعقيم هو:",
+    "options": [
+     [
+      "Infrared",
+      "الأشعة تحت الحمراء"
+     ],
+     [
+      "Gamma radiation",
+      "أشعة كاما"
+     ],
+     [
+      "Visible light",
+      "الضوء المرئي"
+     ],
+     [
+      "Radio waves",
+      "موجات الراديو"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which of the following is a chemical used for sterilization in the lecture?",
+    "ar": "أيّ ممّا يأتي مادة كيميائية للتعقيم مذكورة في المحاضرة؟",
+    "options": [
+     [
+      "Carbon dioxide",
+      "ثنائي أوكسيد الكربون"
+     ],
+     [
+      "Ethylene oxide gas",
+      "غاز أوكسيد الإثيلين"
+     ],
+     [
+      "Glycerol",
+      "الغليسيرول"
+     ],
+     [
+      "Saline",
+      "المحلول الملحي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Hydrogen peroxide is used for sterilization as:",
+    "ar": "يُستعمل بيروكسيد الهيدروجين في التعقيم على شكل:",
+    "options": [
+     [
+      "Gas plasma or vaporized hydrogen peroxide",
+      "بلازما غازية أو بيروكسيد هيدروجين مُبخَّر"
+     ],
+     [
+      "Tablets only",
+      "أقراص فقط"
+     ],
+     [
+      "Powder only",
+      "مسحوق فقط"
+     ],
+     [
+      "It is not mentioned",
+      "لم يُذكر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Chemical, fire and electrical safety, compressed gases",
+    "topic_ar": "السلامة الكيميائية والحريق والكهرباء والغازات المضغوطة"
+   },
+   {
+    "en": "The chemical hygiene plan includes guidelines on:",
+    "ar": "تتضمّن خطة الصحة الكيميائية إرشادات عن:",
+    "options": [
+     [
+      "Fire evacuation plans",
+      "خطط الإخلاء عند الحريق"
+     ],
+     [
+      "Three-prong plugs",
+      "القوابس ثلاثية الأطراف"
+     ],
+     [
+      "Proper labeling of chemical containers and MSDSs",
+      "الوسم الصحيح لحاويات المواد الكيميائية وصحائف بيانات السلامة"
+     ],
+     [
+      "Laundering laboratory coats",
+      "غسل صدريات المختبر"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "MSDSs stands for:",
+    "ar": "يرمز `MSDSs` إلى:",
+    "options": [
+     [
+      "Microbiology safety data systems",
+      "أنظمة بيانات سلامة الأحياء المجهرية"
+     ],
+     [
+      "Medical specimen data sheets",
+      "صحائف بيانات العيّنات الطبية"
+     ],
+     [
+      "Material safety data sheets",
+      "صحائف بيانات سلامة المواد"
+     ],
+     [
+      "Material sterilization data sheets",
+      "صحائف بيانات تعقيم المواد"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Fire evacuation plans are essentially strategies for:",
+    "ar": "خطط الإخلاء عند الحريق هي أساسًا استراتيجيات لـ:",
+    "options": [
+     [
+      "Extinguishing all fires",
+      "إطفاء كل الحرائق"
+     ],
+     [
+      "Storing chemicals",
+      "خزن المواد الكيميائية"
+     ],
+     [
+      "Checking sockets",
+      "فحص المقابس"
+     ],
+     [
+      "Finding the nearest exit in case of fire",
+      "إيجاد أقرب مخرج في حالة الحريق"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "All plugs in the laboratory should be:",
+    "ar": "يجب أن تكون كل القوابس في المختبر:",
+    "options": [
+     [
+      "The three-prong, grounded type",
+      "من النوع ثلاثي الأطراف المؤرَّض"
+     ],
+     [
+      "Two-prong type",
+      "ثنائية الأطراف"
+     ],
+     [
+      "Connected to extension cables",
+      "موصولة بأسلاك تمديد"
+     ],
+     [
+      "Ungrounded",
+      "غير مؤرَّضة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Sockets should be checked for electrical grounding and leakage at least:",
+    "ar": "يجب فحص المقابس للتأريض والتسرّب على الأقل:",
+    "options": [
+     [
+      "Every 10 years",
+      "كل 10 سنوات"
+     ],
+     [
+      "Never",
+      "أبدًا"
+     ],
+     [
+      "Annually",
+      "سنويًا"
+     ],
+     [
+      "Only when broken",
+      "عند عطلها فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which of the following should NOT be used in the laboratory?",
+    "ar": "أيّ ممّا يأتي لا يجوز استعماله في المختبر؟",
+    "options": [
+     [
+      "Extension cables",
+      "أسلاك التمديد"
+     ],
+     [
+      "Grounded plugs",
+      "القوابس المؤرَّضة"
+     ],
+     [
+      "Gloves",
+      "القفازات"
+     ],
+     [
+      "Biosafety hood",
+      "خزانة السلامة الحيوية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Compressed gas cylinders mentioned in the lecture contain:",
+    "ar": "أسطوانات الغاز المضغوط المذكورة في المحاضرة تحتوي على:",
+    "options": [
+     [
+      "Ethylene oxide only",
+      "أوكسيد الإثيلين فقط"
+     ],
+     [
+      "CO2 and anaerobic gas mixture",
+      "ثنائي أوكسيد الكربون وخليط الغاز اللاهوائي"
+     ],
+     [
+      "Hydrogen peroxide",
+      "بيروكسيد الهيدروجين"
+     ],
+     [
+      "Oxygen only",
+      "الأوكسجين فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Biosafety",
+    "topic_ar": "السلامة الحيوية"
+   },
+   {
+    "en": "Risks from a microbiology laboratory may extend to:",
+    "ar": "قد تمتدّ مخاطر مختبر الأحياء المجهرية إلى:",
+    "options": [
+     [
+      "No one outside the laboratory",
+      "لا أحد خارج المختبر"
+     ],
+     [
+      "Adjacent laboratories and the families of those who work in it",
+      "المختبرات المجاورة وعائلات العاملين فيه"
+     ],
+     [
+      "Patients' blood groups",
+      "فصائل دم المرضى"
+     ],
+     [
+      "Fire evacuation plans",
+      "خطط الإخلاء"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Inhaling aerosols may occur during:",
+    "ar": "قد يحدث استنشاق الرذاذ أثناء:",
+    "options": [
+     [
+      "Centrifugation, mixing with a vortex, or spills of liquid cultures",
+      "النبذ المركزي أو الخلط بالدوّامة أو انسكاب المزارع السائلة"
+     ],
+     [
+      "Washing hands",
+      "غسل اليدين"
+     ],
+     [
+      "Wearing gloves",
+      "ارتداء القفازات"
+     ],
+     [
+      "Reading MSDSs",
+      "قراءة صحائف بيانات السلامة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Percutaneous inoculation means exposure through:",
+    "ar": "التلقيح عبر الجلد يعني التعرّض من خلال:",
+    "options": [
+     [
+      "Puncture from an accidental needle stick",
+      "وخزة إبرة عرضية"
+     ],
+     [
+      "Inhaling aerosols",
+      "استنشاق الرذاذ"
+     ],
+     [
+      "Rubbing the eyes",
+      "فرك العينين"
+     ],
+     [
+      "Putting pens in the mouth",
+      "وضع الأقلام في الفم"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Most exposures to blood-containing fluids occur on:",
+    "ar": "معظم حالات التعرّض للسوائل الحاوية على الدم تحدث على:",
+    "options": [
+     [
+      "The feet",
+      "القدمين"
+     ],
+     [
+      "The back",
+      "الظهر"
+     ],
+     [
+      "The hair",
+      "الشعر"
+     ],
+     [
+      "The hands or forearms",
+      "اليدين أو الساعدين"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Contaminated laboratory protective clothing should be:",
+    "ar": "الملابس الواقية المختبرية الملوّثة يجب:",
+    "options": [
+     [
+      "Laundered at home by the microbiologist",
+      "غسلها في البيت من قبل العامل"
+     ],
+     [
+      "Worn until the end of the week",
+      "ارتداؤها حتى نهاية الأسبوع"
+     ],
+     [
+      "Discarded in the street",
+      "رميها خارجًا"
+     ],
+     [
+      "Sterilized in an autoclave immediately and cleaned before reusing",
+      "تعقيمها في الأوتوكليف فورًا وتنظيفها قبل إعادة الاستعمال"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "Figure (2) shows:",
+    "ar": "يبيّن الشكل (2):",
+    "options": [
+     [
+      "Compressed gas cylinders",
+      "أسطوانات الغاز المضغوط"
+     ],
+     [
+      "Biosafety hood",
+      "خزانة السلامة الحيوية"
+     ],
+     [
+      "Autoclave bags",
+      "أكياس جهاز الأوتوكليف"
+     ],
+     [
+      "Laboratory coats",
+      "صدريات المختبر"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/autoclave-bags.jpg",
+    "img_h": "36mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Specimen labels should be moistened with the tongue.",
+    "ar": "يجب ترطيب ملصقات العيّنات باللسان.",
+    "answer": "F"
+   },
+   {
+    "en": "Hands should be washed after working with infectious materials.",
+    "ar": "يجب غسل اليدين بعد العمل بالمواد المعدية.",
+    "answer": "T"
+   },
+   {
+    "en": "Sterilization kills all forms of microbial life, including bacterial endospores.",
+    "ar": "التعقيم يقتل كل أشكال الحياة الميكروبية بما فيها الأبواغ الداخلية البكتيرية.",
+    "answer": "T"
+   },
+   {
+    "en": "Disinfection always destroys all microorganisms, endospores and prions.",
+    "ar": "التطهير يُتلف دائمًا كل الكائنات الدقيقة والأبواغ والبريونات.",
+    "answer": "F"
+   },
+   {
+    "en": "Presence of a biofilm limits the success of sterilization and disinfection.",
+    "ar": "وجود غشاء حيوي يحدّ من نجاح التعقيم والتطهير.",
+    "answer": "T"
+   },
+   {
+    "en": "Refrigeration is listed among the methods of sterilization.",
+    "ar": "التبريد من طرق التعقيم المذكورة.",
+    "answer": "F"
+   },
+   {
+    "en": "Ethylene oxide is used for sterilization as a liquid only.",
+    "ar": "يُستعمل أوكسيد الإثيلين في التعقيم سائلًا فقط.",
+    "answer": "F"
+   },
+   {
+    "en": "Extension cables may be used in the laboratory.",
+    "ar": "يجوز استعمال أسلاك التمديد في المختبر.",
+    "answer": "F"
+   },
+   {
+    "en": "Electrical cables should be checked regularly for fraying.",
+    "ar": "يجب فحص الأسلاك الكهربائية بانتظام للتأكّد من عدم تآكلها.",
+    "answer": "T"
+   },
+   {
+    "en": "Compressed gas cylinders must be properly handled and secured.",
+    "ar": "يجب التعامل مع أسطوانات الغاز المضغوط بصورة صحيحة وتثبيتها.",
+    "answer": "T"
+   },
+   {
+    "en": "Laboratory coats may be worn when leaving the laboratory.",
+    "ar": "يجوز ارتداء صدريات المختبر عند مغادرته.",
+    "answer": "F"
+   },
+   {
+    "en": "Microbiologists are allowed to launder their own coats.",
+    "ar": "يُسمح للعاملين في الأحياء المجهرية بغسل صدرياتهم بأنفسهم.",
+    "answer": "F"
+   },
+   {
+    "en": "Disposable gowns may be used as an alternative.",
+    "ar": "يمكن استعمال أردية لمرة واحدة بديلًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Opening bacterial cultures outside a biosafety hood can create hazardous aerosols.",
+    "ar": "فتح المزارع البكتيرية خارج خزانة السلامة الحيوية قد يولّد رذاذًا خطرًا.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Sterilization and disinfection mean the same thing.",
+    "ar": "التعقيم والتطهير يعنيان الشيء نفسه.",
+    "answer_en": "No — sterilization kills all forms of microbial life including endospores; disinfection destroys pathogenic organisms but not necessarily all microorganisms, endospores, or prions.",
+    "answer_ar": "لا — التعقيم يقتل كل أشكال الحياة الميكروبية بما فيها الأبواغ، أمّا التطهير فيُتلف الكائنات المُمرِضة وليس بالضرورة كل الكائنات أو الأبواغ أو البريونات."
+   },
+   {
+    "en": "No disinfectant can ever kill endospores.",
+    "ar": "لا يوجد مطهّر يمكنه قتل الأبواغ الداخلية.",
+    "answer_en": "No — some disinfectants will kill endospores with prolonged exposure times.",
+    "answer_ar": "لا — بعض المطهّرات تقتل الأبواغ الداخلية عند إطالة زمن التعرّض."
+   },
+   {
+    "en": "Decontamination kills all microbial life.",
+    "ar": "إزالة التلوّث تقتل كل الحياة الميكروبية.",
+    "answer_en": "No — it is the removal of pathogenic microorganisms so items are safe to handle or dispose of.",
+    "answer_ar": "لا — هي إزالة الكائنات الدقيقة المُمرِضة بحيث تصبح الأشياء آمنة للتداول أو التخلّص منها."
+   },
+   {
+    "en": "Contaminated lab coats can be taken home to be washed.",
+    "ar": "يمكن أخذ الصدريات الملوّثة إلى البيت لغسلها.",
+    "answer_en": "No — they are sterilized in an autoclave immediately; the institution or a uniform agency cleans lab coats; laundering your own coat is no longer permissible.",
+    "answer_ar": "لا — تُعقّم فورًا في الأوتوكليف، وتتولّى المؤسسة أو جهة مختصّة تنظيف الصدريات؛ ولم يعد مسموحًا أن يغسلها العامل بنفسه."
+   },
+   {
+    "en": "Two-prong plugs and extension cables are acceptable in the laboratory.",
+    "ar": "القوابس ثنائية الأطراف وأسلاك التمديد مقبولة في المختبر.",
+    "answer_en": "No — all plugs should be the three-prong, grounded type, and no extension cables should be used.",
+    "answer_ar": "لا — يجب أن تكون كل القوابس ثلاثية الأطراف مؤرَّضة، ولا تُستعمل أسلاك التمديد."
+   },
+   {
+    "en": "Lab-acquired infection risks stay inside the microbiology laboratory.",
+    "ar": "مخاطر العدوى المكتسبة من المختبر تبقى داخل مختبر الأحياء المجهرية.",
+    "answer_en": "No — they may extend to adjacent laboratories and to the families of those who work there.",
+    "answer_ar": "لا — قد تمتدّ إلى المختبرات المجاورة وإلى عائلات العاملين فيه."
+   },
+   {
+    "en": "Sockets need to be checked for grounding only when they break.",
+    "ar": "تُفحص المقابس للتأريض عند عطلها فقط.",
+    "answer_en": "No — at least annually, for electrical grounding and leakage.",
+    "answer_ar": "لا — مرة سنويًا على الأقل، للتأريض الكهربائي والتسرّب."
+   }
+  ],
+  "important": [
+   {
+    "en": "List the admonitions of the microbiology laboratory.",
+    "ar": "عدّد تحذيرات مختبر الأحياء المجهرية.",
+    "answer_en": "(1) wear gloves, (2) wash hands after working with infectious materials, (3) disinfect all instruments immediately after use, (4) use water to moisten specimen labels rather than the tongue, (5) disinfect all contaminated waste before discarding, (6) report to appropriate personnel all accidents or exposures to infectious agents.",
+    "answer_ar": "(1) ارتداء القفازات، (2) غسل اليدين بعد العمل بالمواد المعدية، (3) تطهير كل الأدوات فور استعمالها، (4) استعمال الماء لترطيب ملصقات العيّنات بدل اللسان، (5) تطهير كل النفايات الملوّثة قبل التخلّص منها، (6) إبلاغ المختصّين بكل الحوادث أو حالات التعرّض."
+   },
+   {
+    "en": "Define sterilization, disinfection and decontamination.",
+    "ar": "عرّف التعقيم والتطهير وإزالة التلوّث.",
+    "answer_en": "Sterilization kills all forms of microbial life, including bacterial endospores. Disinfection destroys pathogenic organisms, but not necessarily all microorganisms, endospores, or prions. Decontamination is the removal of pathogenic microorganisms so items are safe to handle or dispose of.",
+    "answer_ar": "التعقيم يقتل كل أشكال الحياة الميكروبية بما فيها الأبواغ الداخلية البكتيرية. التطهير يُتلف الكائنات المُمرِضة وليس بالضرورة كل الكائنات الدقيقة أو الأبواغ أو البريونات. إزالة التلوّث هي إزالة الكائنات المُمرِضة بحيث تصبح الأشياء آمنة للتداول أو التخلّص منها."
+   },
+   {
+    "en": "Mention the factors that limit the success of sterilization, disinfection, or decontamination.",
+    "ar": "اذكر العوامل التي تحدّ من نجاح التعقيم أو التطهير أو إزالة التلوّث.",
+    "answer_en": "Organic load, the type of organisms present, the concentration and exposure time to the germicide, the physical and chemical nature of the surface, temperature, pH, humidity, and presence of a biofilm.",
+    "answer_ar": "الحمل العضوي، ونوع الكائنات الموجودة، وتركيز مبيد الجراثيم وزمن التعرّض له، والطبيعة الفيزيائية والكيميائية للسطح، ودرجة الحرارة، والأس الهيدروجيني، والرطوبة، ووجود غشاء حيوي."
+   },
+   {
+    "en": "List the methods of sterilization.",
+    "ar": "عدّد طرق التعقيم.",
+    "answer_en": "Incineration, moist heat, dry heat, filtration, ionizing (gamma) radiation, chemicals (ethylene oxide gas, hydrogen peroxide gas plasma, vaporized hydrogen peroxide, and other liquid chemicals).",
+    "answer_ar": "الحرق، والحرارة الرطبة، والحرارة الجافة، والترشيح، والإشعاع المؤيِّن (أشعة كاما)، والمواد الكيميائية (غاز أوكسيد الإثيلين، وبلازما غاز بيروكسيد الهيدروجين، وبيروكسيد الهيدروجين المُبخَّر، والمواد الكيميائية السائلة الأخرى)."
+   },
+   {
+    "en": "What are the rules of electrical safety in the laboratory?",
+    "ar": "ما قواعد السلامة الكهربائية في المختبر؟",
+    "answer_en": "Check cables regularly for fraying and replace when necessary; all plugs three-prong, grounded; check sockets for grounding and leakage at least annually; no extension cables.",
+    "answer_ar": "فحص الأسلاك بانتظام واستبدالها عند الحاجة؛ كل القوابس ثلاثية الأطراف مؤرَّضة؛ فحص المقابس للتأريض والتسرّب سنويًا على الأقل؛ عدم استعمال أسلاك التمديد."
+   },
+   {
+    "en": "How are individuals exposed to infections in the laboratory?",
+    "ar": "كيف يتعرّض الأفراد للعدوى في المختبر؟",
+    "answer_en": "Rubbing the eyes or nose with contaminated hands; inhaling aerosols (centrifugation, vortex, spills); accidentally ingesting microorganisms (pens or fingers in the mouth); percutaneous inoculation (needle stick); manipulating or opening cultures outside a biosafety hood; failure to wash hands before entering the laboratory.",
+    "answer_ar": "فرك العينين أو الأنف بأيدٍ ملوّثة؛ استنشاق الرذاذ (النبذ المركزي، الدوّامة، الانسكاب)؛ ابتلاع الكائنات عرضًا (الأقلام أو الأصابع في الفم)؛ التلقيح عبر الجلد (وخزة إبرة)؛ التعامل مع المزارع أو فتحها خارج خزانة السلامة الحيوية؛ عدم غسل اليدين قبل دخول المختبر."
+   },
+   {
+    "en": "What are the rules for laboratory coats and protective clothing?",
+    "ar": "ما قواعد صدريات المختبر والملابس الواقية؟",
+    "answer_en": "Wear coats over street clothes and remove them before leaving; gowns with closed wrists or forearm covers and gloves covering exposed skin; contaminated clothing is sterilized in an autoclave immediately and cleaned before reuse; the institution or a uniform agency cleans coats; disposable gowns may be used.",
+    "answer_ar": "تُرتدى الصدريات فوق الملابس وتُخلع قبل المغادرة؛ أردية مغلقة المعصمين أو أغطية ساعد وقفازات تغطّي الجلد المعرّض؛ الملابس الملوّثة تُعقّم فورًا في الأوتوكليف وتُنظّف قبل إعادة استعمالها؛ المؤسسة أو جهة مختصّة تنظّف الصدريات؛ ويمكن استعمال أردية لمرة واحدة."
+   }
+  ]
+ }
+}

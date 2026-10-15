@@ -157,8 +157,9 @@ def fig(f, base):
         else:
             st = "width:100%"
         body = f'<img src="{src}" style="{st}">'
-    return (f'<figure class="fig"><div class="fig-c">{body}</div><figcaption><span dir="ltr"><b>Figure {n}.</b> {md(f.get("en", ""))}</span>'
-            f'<span dir="rtl"><b>الشكل {n}.</b> {md(f.get("ar", ""))}</span></figcaption></figure>')
+    num_en, num_ar = ("", "") if f.get("nonum") else (f"<b>Figure {n}.</b> ", f"<b>الشكل {n}.</b> ")  # nonum: the source caption carries its own number
+    return (f'<figure class="fig"><div class="fig-c">{body}</div><figcaption><span dir="ltr">{num_en}{md(f.get("en", ""))}</span>'
+            f'<span dir="rtl">{num_ar}{md(f.get("ar", ""))}</span></figcaption></figure>')
 
 
 def table(b):

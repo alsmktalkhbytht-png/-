@@ -87,7 +87,7 @@ blocks = [
  C("This “feedback” information from the laboratory consists of earliest reports of the results of individual steps in the isolation and identification of the causative agent.",
    "وتتكون معلومات «**التغذية الراجعة**» من المختبر من أقدم التقارير عن نتائج الخطوات الفردية في عزل وتحديد العامل المسبب."),
  F("specimens-diagnosis.jpg", "Figure (1): Represent human specimens collection and diagnoses",
-   "الشكل (1): يمثّل جمع العيّنات البشرية والتشخيص", h="150mm", fit="contain"),
+   "الشكل (1): يمثّل جمع العيّنات البشرية والتشخيص", h="150mm", fit="contain", nonum=True),
  T(["Label", "الترجمة", "Label", "الترجمة"], [
    ["Symptomatic Patient: (localized or systemic)", "مريض ظاهر الأعراض (موضعي أو جهازي)", "Specimen collection", "جمع العيّنات"],
    ["Characteristic signs and symptoms", "العلامات والأعراض المميّزة", "Presumptive clinical diagnosis", "التشخيص السريري المبدئي"],
