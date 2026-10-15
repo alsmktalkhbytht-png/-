@@ -6,6 +6,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `lab1-biosafety/` — Diagnostic Microbiology Lab 1, the reference handout: `lecture.json` is the content, the PDFs are the output.
 - `immunology-lab1-serology/` — Practical Immunology Lab 1.
 - `parasitology-week1-mcq/` — Diagnostic Parasitology MCQ bank, week 1.
+- `parasitology-lec1-classification/` — Diagnostic Parasitology theory lecture 1: recent classification of parasites and general terms (أ.د. نزار الخفاجي) — fourth stage, no question file (by request).
 - `parasitology-lab1-introduction/` — Diagnostic Parasitology practical lab 1: introduction to medical parasitology, stool specimens, solutions and stains (د. ناريمان حسن) — fourth stage, separate question file.
 - `parasitology-lab2-protozoa/` — Diagnostic Parasitology practical lab 2: sources and entry of parasitic infections, life cycle, protozoa and their classification (د. ناريمان حسن) — fourth stage, separate question file.
 - `parasitology-lab3-entamoeba/` — Diagnostic Parasitology practical lab 3: Entamoeba histolytica (د. ناريمان حسن) — fourth stage, separate question file.

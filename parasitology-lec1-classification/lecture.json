@@ -1,0 +1,545 @@
+{
+ "meta": {
+  "subject_en": "Diagnostic Parasitology",
+  "subject_ar": "الطفيليات التشخيصية",
+  "short_ar": "طفيليات",
+  "unit_en": "Lecture 1",
+  "unit_ar": "المحاضرة 1",
+  "unit_label": "LEC",
+  "unit_no": "1",
+  "title_en": "Recent classification of parasites and general terms",
+  "title_ar": "التصنيف الحديث للطفيليات والمصطلحات العامة",
+  "kind": "Theory — نظري",
+  "stage": "The fourth stage — الرابعة",
+  "instructor": "أ.د. نزار الخفاجي",
+  "file_name": "طفيليات نظري المحاضرة الاولى"
+ },
+ "blocks": [
+  {
+   "t": "card",
+   "en": [
+    "Diagnostic Parasitology 1st semester 4th year Prof. Dr. AL-Khafaji Nazar",
+    "1st week"
+   ],
+   "ar": [
+    "الطفيليات التشخيصية — الفصل الأول — السنة الرابعة — أ.د. نزار الخفاجي",
+    "الأسبوع الأول"
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Recent classification of parasite;",
+    "\\*Systematic grouping of parasites; General terms used in parasitology",
+    "Introduction; Parasites; Host; Zoonosis; Host-parasite relationships; Life Cycle of Parasites; Sources of infection; Mode of Infection; Pathogenesis; Immunity in parasitic infection; Laboratory Diagnosis"
+   ],
+   "ar": [
+    "التصنيف الحديث للطفيليات؛",
+    "\\*التجميع النظامي للطفيليات؛ المصطلحات العامة المستعملة في علم الطفيليات",
+    "المقدّمة؛ الطفيليات؛ المضيف؛ الأمراض المشتركة؛ العلاقات بين المضيف والطفيلي؛ دورة حياة الطفيليات؛ مصادر العدوى؛ طريقة العدوى؛ الإمراضية؛ المناعة في العدوى الطفيلية؛ التشخيص المختبري"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Recent classification of parasite",
+   "ar": "التصنيف الحديث للطفيليات"
+  },
+  {
+   "t": "card",
+   "en": "Recent parasite classification uses a combination of morphology (Structure) and molecular (DNA) analysis to place organisms within super groups.",
+   "ar": "يستعمل التصنيف الحديث للطفيليات مزيجًا من الشكل (التركيب) والتحليل الجزيئي (`DNA`) لوضع الكائنات ضمن مجموعات عليا."
+  },
+  {
+   "t": "h2",
+   "en": "Modern classification and new approaches:",
+   "ar": "التصنيف الحديث والمناهج الجديدة:"
+  },
+  {
+   "t": "card",
+   "en": "The classification of Eukaryotic, including parasites, uses molecular – based techniques is now based on evolutionary relationships into five major super groups:",
+   "ar": "يعتمد تصنيف حقيقيات النواة، ومنها الطفيليات، باستعمال التقنيات الجزيئية، الآن على العلاقات التطوّرية ضمن خمس مجموعات عليا رئيسة:",
+   "list_en": [
+    "**Excavate:** Includes many parasitic flagellates",
+    "**Amoebozoa:** Contains non- flagellated parasitic amoebae.",
+    "**SAR:** (Stramenopiles, Alveolates, and Rhizaria ) a diverse super group that include some parasitic organisms, such as the Apicomplexa",
+    "**Opisthokonta:** Includes fungi and animals encompassing parasitic helminths.",
+    "**Chromista:** A kingdom where medically significant organisms like ciliates and dino flagellates, previously considered protozoa, are now placed."
+   ],
+   "list_ar": [
+    "**الحفّاريات** (`Excavate`): تشمل كثيرًا من السوطيات الطفيلية",
+    "**الأميبيات** (`Amoebozoa`): تضمّ الأميبات الطفيلية غير السوطية.",
+    "**مجموعة** `SAR` (اللاسعات، والسنخيات، والجذريات): مجموعة عليا متنوّعة تشمل بعض الكائنات الطفيلية مثل المعقّدات القمّية (`Apicomplexa`)",
+    "**خلفيات السوط** (`Opisthokonta`): تشمل الفطريات والحيوانات ومنها الديدان الطفيلية.",
+    "**الكروميستا** (`Chromista`): مملكة وُضعت فيها الآن كائنات مهمّة طبيًا مثل الهدبيات والسوطيات الدوّارة (`dino flagellates`) التي كانت تُعدّ سابقًا من الأوالي."
+   ],
+   "alpha": true
+  },
+  {
+   "t": "card",
+   "en": "**Molecular data:** The 18S small ribosomal RNA gene is sequenced to determine evolutionary distances",
+   "ar": "**البيانات الجزيئية:** يُحدَّد تسلسل جين الحمض النووي الرايبوسومي الصغير (`18S rRNA`) لتحديد المسافات التطوّرية"
+  },
+  {
+   "t": "section",
+   "en": "Systemic grouping of parasites",
+   "ar": "التجميع النظامي للطفيليات"
+  },
+  {
+   "t": "card",
+   "en": "Historically, parasites were grouped based on their physical characteristics (Morphology) and life cycles.",
+   "ar": "تاريخيًا، جُمّعت الطفيليات على أساس صفاتها الفيزيائية (الشكل) ودورات حياتها."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Protozoa:** Single- celled (Unicellular), Eukaryotic microorganisms, Cause human infection. Classified by their method of locomotion Examples: amoeba, flagellates, ciliates, and sporozoans",
+    "**Helminthes:** These are multicellular parasitic worms, also known as Metazoans, ranging from microscopic to over a meter long; often categorized as: Platyhelminthes (flatworms) includes cestodes (tapeworms) and Trematodes (flukes). In addition to Nematoda (round worms)",
+    "**Arthropods:** Eukaryotic, Invertebrate organism with segmented bodies and jointed appendages. These are ectoparasites, meaning they live on the exterior of their hosts, such as ticks, mites, lice, and fleas as, which can either cause disease directly or act as vectors"
+   ],
+   "list_ar": [
+    "**الأوالي** (`Protozoa`): أحياء مجهرية وحيدة الخلية حقيقية النواة، تسبّب عدوى الإنسان، وتُصنَّف حسب طريقة حركتها. أمثلة: الأميبا، والسوطيات، والهدبيات، والبوغيات",
+    "**الديدان** (`Helminthes`): ديدان طفيلية متعدّدة الخلايا تُعرف أيضًا بالبعديات (`Metazoans`)، يتراوح حجمها من مجهري إلى أكثر من متر؛ وتُقسَّم غالبًا إلى: الديدان المسطّحة (`Platyhelminthes`) وتشمل الشريطيات (الديدان الشريطية) والمثقوبات (`Trematodes`)، إضافةً إلى الديدان الأسطوانية (`Nematoda`)",
+    "**مفصليات الأرجل** (`Arthropods`): كائنات حقيقية النواة لافقارية ذات أجسام مقسّمة وزوائد مفصلية. وهي طفيليات خارجية، أي تعيش على السطح الخارجي لمضائفها، مثل القراد والحَلَم والقمل والبراغيث، ويمكن أن تسبّب المرض مباشرةً أو تعمل نواقل"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Parasites of humans are contained in ten major subdivisions or phyla.",
+   "ar": "تقع طفيليات الإنسان ضمن عشرة أقسام رئيسة أو شُعب."
+  },
+  {
+   "t": "h2",
+   "en": "The protozoa include:",
+   "ar": "تشمل الأوالي:"
+  },
+  {
+   "t": "card",
+   "en": "**1. Phylum Sarcomastigophora:** This phylum includes two subphyla:",
+   "ar": "**1. شعبة السوطيات اللحمية** (`Sarcomastigophora`): تشمل هذه الشعبة شُعيبتين:",
+   "list_en": [
+    "**Subphylum Sarcodina;** move by pseudopodia (example __Entamoeba histolytica__)",
+    "**Subphylum Mastigophora;** move by flagella (example: __Giardia lamblia__)."
+   ],
+   "list_ar": [
+    "**شُعيبة اللحميات** (`Sarcodina`): تتحرّك بالأقدام الكاذبة (مثال: الأميبا الحالّة للنسيج `__Entamoeba histolytica__`)",
+    "**شُعيبة السوطيات** (`Mastigophora`): تتحرّك بالأسواط (مثال: الجيارديا اللامبلية `__Giardia lamblia__`)."
+   ],
+   "alpha": true
+  },
+  {
+   "t": "card",
+   "en": [
+    "**2. Phylum Ciliophora;** move by cilia (example: __Balantidium coli__).",
+    "**3. Phylum Apicomplexa;** No organs of locomotion (examples: __Plasmodium falciparum, P. vivax, P. malariae__ and __P. ovale__).",
+    "**4. Phylum Microsporidia;** spore – forming parasites (example: __Encephallitozoon intestinalis__)."
+   ],
+   "ar": [
+    "**2. شعبة الهدبيات** (`Ciliophora`): تتحرّك بالأهداب (مثال: القربيّة القولونية `__Balantidium coli__`).",
+    "**3. شعبة المعقّدات القمّية** (`Apicomplexa`): لا أعضاء حركة لها (أمثلة: البلازموديوم المنجلي، والنشيط، والملاريا الرباعية، والبيضوي).",
+    "**4. شعبة الأبواغ المجهرية** (`Microsporidia`): طفيليات مكوّنة للأبواغ (مثال: `__Encephallitozoon intestinalis__`)."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Metazoa",
+   "ar": "البعديات (متعدّدة الخلايا)"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**5. Phylum Platyhelminthes:** Platyhelminthes or flatworms, are multicellular parasites with dorso-ventrally flattened bodies.",
+    "All the flat worms infecting humans are hermaphroditic (having both male and female reproductive organs in the same worm) except Schistosomes, where the sexes are separated."
+   ],
+   "ar": [
+    "**5. شعبة الديدان المسطّحة** (`Platyhelminthes`): الديدان المسطّحة طفيليات متعدّدة الخلايا ذات أجسام مفلطحة ظهريًا بطنيًا.",
+    "وجميع الديدان المسطّحة التي تصيب الإنسان خنثى (تحمل الأعضاء التناسلية الذكرية والأنثوية في الدودة نفسها) عدا البلهارزيات (`Schistosomes`) التي تكون فيها الجنسان منفصلين."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "This phylum includes only two classes:",
+   "ar": "تضمّ هذه الشعبة صنفين فقط:",
+   "list_en": [
+    "**Class Cestoda;** they have scolexes with sucking organs, segmented bodies with no alimentary canal and each body segment are hermaphrodite.",
+    "**Class Trematoda;** adult worms have non- segmented bodies with two suckers, but no distinct scolex; that contain parasitic forms."
+   ],
+   "list_ar": [
+    "**صنف الشريطيات** (`Cestoda`): لها رؤيسات بأعضاء ماصّة، وأجسام مقسّمة بلا قناة هضمية، وكل قطعة من الجسم خنثى.",
+    "**صنف المثقوبات** (`Trematoda`): للديدان البالغة أجسام غير مقسّمة بممصّين، ولكن بلا رؤيس واضح؛ وتضمّ أشكالًا طفيلية."
+   ],
+   "alpha": true
+  },
+  {
+   "t": "card",
+   "en": [
+    "**6. Phylum Nematoda:** The nematodes or roundworm have elongated, cylindrical bodies which are frequently attenuated, especially at the posterior end.",
+    "They have body cavities, a straight alimentary canal, and an anal opening.",
+    "The sexes are separated and the male is usually smaller than the female.",
+    "Parasites of humans include intestinal and tissue – inhabiting species.",
+    "Among the most common nematodes are __Ascaris lumbricoides__ (round worm), __Trichuris trichiura__ (whipworm), __Ancylostoma__ spp. (hookworm), __Enterobius vermicularis__ (pinworm) and __Strongyloides stercoralis__"
+   ],
+   "ar": [
+    "**6. شعبة الديدان الأسطوانية** (`Nematoda`): للديدان الأسطوانية أجسام متطاولة أسطوانية كثيرًا ما تكون مستدقّة، خصوصًا عند الطرف الخلفي.",
+    "لها تجاويف جسمية، وقناة هضمية مستقيمة، وفتحة شرج.",
+    "والجنسان منفصلان، والذكر عادةً أصغر من الأنثى.",
+    "وتشمل طفيليات الإنسان أنواعًا تعيش في الأمعاء وأخرى في الأنسجة.",
+    "ومن أشهر الديدان الأسطوانية: الصفر الخراطيني (`__Ascaris lumbricoides__`) (الدودة المدوّرة)، والدودة السوطية (`__Trichuris trichiura__`)، والديدان الخطّافية (`__Ancylostoma__ spp.`)، والدودة الدبّوسية (`__Enterobius vermicularis__`)، والأسطوانية البرازية (`__Strongyloides stercoralis__`)"
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**7. Phylum Acanthocephala (thorny – headed worms):** The name is derived from the fact that the anterior end of the worm is modified into a retractable proboscis, which is usually armed with spines and serves in attachment.",
+    "No digestive tract and the sexes are separated.",
+    "Two members are parasitic in humans: __Macracanthorhynchus hirudinaceus__ and __Moniliformis moniliformis__"
+   ],
+   "ar": [
+    "**7. شعبة شوكيات الرأس** (`Acanthocephala`) (الديدان شوكية الرأس): اشتُقّ الاسم من أنّ الطرف الأمامي للدودة متحوّر إلى خرطوم قابل للانسحاب، مسلّح عادةً بأشواك ويعمل على الالتصاق.",
+    "لا قناة هضمية لها، والجنسان منفصلان.",
+    "عضوان منها يتطفّلان على الإنسان: `__Macracanthorhynchus hirudinaceus__` و`__Moniliformis moniliformis__`"
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**8. Phylum Annelida:** The Annelida is a medium sized phylum of more than 9,000 species of worms.",
+    "Most species are aquatic, but there are also a number of well- known terrestrial species.",
+    "The most distinguishing characteristic that differentiates them from other wormlike creatures is their segmentation (metamerism).",
+    "Human beings commonly knew a few species of annelids, these include the earthworms that make the soils healthy, the famous medicinal leeches which are still used in many countries for various medicinal uses, and marine polychaetes"
+   ],
+   "ar": [
+    "**8. شعبة الحلقيات** (`Annelida`): الحلقيات شعبة متوسّطة الحجم تضمّ أكثر من 9,000 نوع من الديدان.",
+    "معظم أنواعها مائية، وهناك أيضًا عدد من الأنواع الأرضية المعروفة.",
+    "وأبرز صفة تميّزها عن غيرها من الكائنات الشبيهة بالديدان هي تقسّمها (التعقّل `metamerism`).",
+    "ويعرف البشر عادةً أنواعًا قليلة من الحلقيات، منها ديدان الأرض التي تجعل التربة صحّية، والعَلَق الطبّي الشهير الذي لا يزال يُستعمل في دول كثيرة لأغراض طبّية مختلفة، والديدان البحرية كثيرة الأشواك"
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**9. Phylum Arthropoda:** The arthropods are characterized by having segmented and bilaterally symmetrical bodies bearing paired and jointed appendages.",
+    "The digestive system is well developed and the sexes are separate.",
+    "This phylum contains a number of classes, many of which are of medicinal importance."
+   ],
+   "ar": [
+    "**9. شعبة مفصليات الأرجل** (`Arthropoda`): تتميّز المفصليات بأجسام مقسّمة متناظرة جانبيًا تحمل زوائد مزدوجة مفصلية.",
+    "الجهاز الهضمي متطوّر جيدًا والجنسان منفصلان.",
+    "وتضمّ هذه الشعبة عددًا من الأصناف، كثير منها ذو أهمية طبّية."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**10. Phylum Pentastomida:** They are called tongue worms or linguatulids because the body is elongated and in some species are tongue – like.",
+    "Adults live in the respiratory tract of vertebrates.",
+    "Encysted larval stages may occur in the lungs and other internal organs of humans.",
+    "The infections are found mainly in the tropical areas."
+   ],
+   "ar": [
+    "**10. شعبة خماسيات الفم** (`Pentastomida`): تُسمّى الديدان اللسانية لأنّ الجسم متطاول ويشبه اللسان في بعض الأنواع.",
+    "تعيش البالغات في الجهاز التنفّسي للفقاريات.",
+    "وقد توجد الأطوار اليرقية المتكيّسة في الرئتين وأعضاء داخلية أخرى للإنسان.",
+    "وتوجد الإصابات أساسًا في المناطق الاستوائية."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "General terms used in parasitology",
+   "ar": "المصطلحات العامة المستعملة في علم الطفيليات"
+  },
+  {
+   "t": "h2",
+   "en": "Introduction",
+   "ar": "المقدّمة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Medical parasitology:** Is the branch of medical sciences specifically deals with parasites that infect humans, the diseases they cause, and their transmission.",
+    "**Medical Parasitology:** Is the science, that specializes in studying all aspects of life in parasite, as movement, nutrition, reproduction, respiration, excretion, secretion, sensation and even susceptibility to disease.",
+    "**Parasite:** An organism adapted to living on / or within another organism (host), at the host’s expense, from which it obtains food and shelter, for part or all of its life cycle.",
+    "**Host:** Is the organism on / or in which the parasite lives and get its nutrients with protection from it"
+   ],
+   "list_ar": [
+    "**علم الطفيليات الطبية:** فرع من العلوم الطبية يختصّ بالطفيليات التي تصيب الإنسان، والأمراض التي تسبّبها، وانتقالها.",
+    "**علم الطفيليات الطبية:** العلم المتخصّص بدراسة جميع جوانب الحياة في الطفيلي، كالحركة والتغذية والتكاثر والتنفّس والإطراح والإفراز والإحساس وحتى القابلية للمرض.",
+    "**الطفيلي** (`Parasite`): كائن متكيّف للعيش على كائن آخر (المضيف) و/أو داخله، على حساب المضيف، ويحصل منه على الغذاء والمأوى لجزء من دورة حياته أو كلّها.",
+    "**المضيف** (`Host`): الكائن الذي يعيش عليه الطفيلي و/أو داخله ويحصل منه على مغذّياته مع الحماية"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Zoonosis",
+   "ar": "الأمراض المشتركة"
+  },
+  {
+   "t": "card",
+   "en": [
+    "This term is used to describe an animal infection that is naturally transmissible to humans either directly or indirectly via a vector.",
+    "Examples of parasitic disease that are zoonosis include leishmaniasis, trypanosomiasis, hydatid disease, __Fasciola__ species.",
+    "An example of zoonosis in Iraq, is the human infection with the larval stages (hydatid cysts) of the dog tapeworm, __Echinococcus granulosus__, causing a condition known as hydatidosis (hydatid disease)."
+   ],
+   "ar": [
+    "يُستعمل هذا المصطلح لوصف عدوى حيوانية تنتقل طبيعيًا إلى الإنسان إمّا مباشرةً أو بشكل غير مباشر عن طريق ناقل.",
+    "ومن أمثلة الأمراض الطفيلية المشتركة: داء الليشمانيات، وداء المثقبيات، والداء العُداري، وأنواع المتورّقة (`__Fasciola__`).",
+    "ومن أمثلة الأمراض المشتركة في العراق إصابة الإنسان بالأطوار اليرقية (الأكياس العُدارية) لدودة الكلب الشريطية (المشوّكة الحبيبية `__Echinococcus granulosus__`)، مسبّبةً حالة تُعرف بداء العُدار (الداء العُداري)."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": ":Host- Parasite Relationships",
+   "ar": "العلاقات بين المضيف والطفيلي:"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Symbiosis:** the word itself is taken from Ancient Greek language meaning\" living together\".",
+    "A broad term for a close, long – term interaction between two different biological species",
+    "Any organism that spends a portion or all of its life cycle intimately associated with another organism of a different species is considered as Symbiont (symbiote) and the relationship is called symbiosis (symbiotic relationships)."
+   ],
+   "ar": [
+    "**التكافل** (`Symbiosis`): الكلمة نفسها مأخوذة من اللغة الإغريقية القديمة وتعني «العيش معًا».",
+    "مصطلح واسع لتفاعل وثيق وطويل الأمد بين نوعين حيويين مختلفين",
+    "أيّ كائن يقضي جزءًا من دورة حياته أو كلّها مرتبطًا ارتباطًا وثيقًا بكائن آخر من نوع مختلف يُعدّ متكافلًا (`Symbiont`)، وتُسمّى العلاقة تكافلًا (علاقات تكافلية)."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "The following are the three common symbiotic relationships between two organisms:",
+   "ar": "فيما يأتي العلاقات التكافلية الثلاث الشائعة بين كائنين:",
+   "list_en": [
+    "**Commensalism:** A symbiotic relationship between two organisms in which one partner is benefited (commensal) and the other (host) is neither benefited nor harm. It may be called a non- pathogenic parasite (e. g. non- pathogenic intestinal protozoa and humans).",
+    "**Mutualism:** Association of two different species of organisms that is beneficial to both",
+    "**Parasitism:** An association of two different species of organisms that is beneficial to one and harm to other. e.g., worms like __Ascaris lumbricoides__ reside in the gastrointestinal tract of man"
+   ],
+   "list_ar": [
+    "**المعايشة** (`Commensalism`): علاقة تكافلية بين كائنين يستفيد فيها أحد الشريكين (المتعايش) والآخر (المضيف) لا يستفيد ولا يتضرّر. وقد يُسمّى طفيليًا غير مُمرِض (مثل الأوالي المعوية غير المُمرِضة والإنسان).",
+    "**التبادل المنفعي** (`Mutualism`): ارتباط بين نوعين مختلفين من الكائنات يكون مفيدًا لكليهما",
+    "**التطفّل** (`Parasitism`): ارتباط بين نوعين مختلفين من الكائنات يكون مفيدًا لأحدهما وضارًّا بالآخر. مثل الديدان كالصفر الخراطيني التي تسكن القناة الهضمية للإنسان"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Life cycle of parasites",
+   "ar": "دورة حياة الطفيليات"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Indirect life cycle (Heteroxenous):** Is a type of a life cycle wherein a parasite is transmitted from one host to another by using a vector or by an intermediate host of another species. Indirect life cycles are characterized by two host stages, definitive and intermediate host.",
+    "**Direct (Monoxenous);** Parasite with direct life cycles spend most of their adult lives in one host, known as parasitic stage, with their progeny transmitted from one host to another, known as the free – living stage."
+   ],
+   "list_ar": [
+    "**دورة الحياة غير المباشرة** (`Heteroxenous`): نوع من دورات الحياة ينتقل فيه الطفيلي من مضيف إلى آخر باستعمال ناقل أو مضيف وسطي من نوع آخر. وتتميّز دورات الحياة غير المباشرة بطورين مضيفين: نهائي ووسطي.",
+    "**دورة الحياة المباشرة** (`Monoxenous`): الطفيليات ذات دورات الحياة المباشرة تقضي معظم حياتها البالغة في مضيف واحد، ويُعرف بالطور الطفيلي، وينتقل نسلها من مضيف إلى آخر، ويُعرف بالطور الحرّ المعيشة."
+   ],
+   "alpha": true
+  },
+  {
+   "t": "h2",
+   "en": "Sources of Infection",
+   "ar": "مصادر العدوى"
+  },
+  {
+   "t": "card",
+   "en": "The source of infection means a parasite become contact with its host to produces infections, these sources are:",
+   "ar": "مصدر العدوى يعني اتّصال الطفيلي بمضيفه لإحداث العدوى، وهذه المصادر هي:"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**1. Fecal -contaminated food and drink:** Containing the infective stage e.g. Protozoa infection through ingestion of infected cyst.",
+    "**Contaminated soil and water:** Soil polluted with human feces acts as a source of infection",
+    "The diseases that transport by water named water borne diseases.",
+    "While the diseases that transport by food is termed food borne disease",
+    "Water also polluted with human feces may contain viable cysts of __Entamoeba histolytica, Giardia lamblia, Balantidium coli__"
+   ],
+   "ar": [
+    "**1. الطعام والشراب الملوّثان بالبراز:** يحتويان على الطور المُعدي، مثل إصابة الأوالي بابتلاع الكيس المُعدي.",
+    "**التربة والماء الملوّثان:** التربة الملوّثة ببراز الإنسان تعمل مصدرًا للعدوى",
+    "والأمراض المنقولة بالماء تُسمّى الأمراض المنقولة بالماء.",
+    "بينما الأمراض المنقولة بالطعام تُسمّى الأمراض المنقولة بالغذاء",
+    "والماء الملوّث ببراز الإنسان قد يحتوي أيضًا على أكياس حيّة للأميبا الحالّة للنسيج والجيارديا اللامبلية والقربيّة القولونية"
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**2-Vector:** Blood -sucking insects: Transmit __Plasmodium__ spp.; __Trypanosoma__ spp.; __Leishmania__ spp. and __Babesia__ spp.",
+    "**3. House fly:** (Mechanical carrier) is the source of __E. histolytica__",
+    "**4. Patients – diseases carrier** Man: Is the source of __E. histolytica, Giardia lamblia__",
+    "**5. Cat:** Is the source of __Toxoplasma gondii__"
+   ],
+   "ar": [
+    "**2- الناقل:** الحشرات الماصّة للدم: تنقل أنواع البلازموديوم والمثقبيات والليشمانيا والبابيزيا.",
+    "**3. الذبابة المنزلية:** (ناقل ميكانيكي) مصدر للأميبا الحالّة للنسيج",
+    "**4. المرضى — حاملو الأمراض:** الإنسان مصدر للأميبا الحالّة للنسيج والجيارديا اللامبلية",
+    "**5. القطّ:** مصدر للمقوّسة الغوندية (`__Toxoplasma gondii__`)"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Modes of infections; Portal of Entry into the body",
+   "ar": "طرق العدوى؛ بوّابة الدخول إلى الجسم"
+  },
+  {
+   "t": "card",
+   "en": "The major modes of transmission are the followings:",
+   "ar": "طرق الانتقال الرئيسة هي الآتية:",
+   "list_en": [
+    "**Oral-transmission:** The most common method of transmission is oral through contaminated food, water, soil, fingers or fomites can enter host, __E. histolytica, G. lamblia, Balantidium coli.__",
+    "**Direct transmission person; Kissing:** __Entamoeba gingivalis__ is transmitted from person – to – person by kissing",
+    "**Skin:** The entry of parasites by skin. __Plasmodium__ spp. __Leishmania__ spp. are infected host by bloodsucking arthropods for skin",
+    "**Sexual contact:** __Trichomonas vaginalis__ is transmitted by sexual contact -",
+    "**Congenital:** Infection with __Toxoplasma gondii__ and __Plasmodium__ spp., may be transmitted from mother to fetus trans placentally.",
+    "**Inhalation** of air- borne eggs may be one of the methods of transmission of __Naegleria fowleri__ through nose",
+    "**Latrogenic infection:** Malaria parasites may be transmitted by transfusion of blood from the donor with malaria"
+   ],
+   "list_ar": [
+    "**الانتقال الفموي:** أكثر طرق الانتقال شيوعًا هي الفموية عبر الطعام أو الماء أو التربة أو الأصابع أو الأدوات الملوّثة، فتدخل المضيف مثل الأميبا الحالّة للنسيج والجيارديا اللامبلية والقربيّة القولونية.",
+    "**الانتقال المباشر من شخص؛ التقبيل:** تنتقل أميبا اللثة (`__Entamoeba gingivalis__`) من شخص إلى آخر بالتقبيل",
+    "**الجلد:** دخول الطفيليات عن طريق الجلد. إذ تصيب أنواع البلازموديوم والليشمانيا المضيف عبر الجلد بواسطة المفصليات الماصّة للدم",
+    "**الاتصال الجنسي:** تنتقل المشعّرة المهبلية (`__Trichomonas vaginalis__`) بالاتصال الجنسي",
+    "**الخِلقي:** قد تنتقل عدوى المقوّسة الغوندية وأنواع البلازموديوم من الأم إلى الجنين عبر المشيمة.",
+    "**استنشاق** البيوض المحمولة بالهواء قد يكون إحدى طرق انتقال النيغلرية الفاولرية (`__Naegleria fowleri__`) عن طريق الأنف",
+    "**العدوى علاجية المنشأ** (`Latrogenic`): قد تنتقل طفيليات الملاريا بنقل دم من متبرّع مصاب بالملاريا"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Pathogenesis:",
+   "ar": "الإمراضية:"
+  },
+  {
+   "t": "card",
+   "en": "Protozoal infection results in tissue damage leading to disease. In chronic infection, tissue damage is often due to:",
+   "ar": "تؤدّي عدوى الأوالي إلى تلف الأنسجة المؤدّي إلى المرض. وفي العدوى المزمنة يكون تلف الأنسجة غالبًا بسبب:",
+   "list_en": [
+    "Immune response to the parasite and / or to host antigens",
+    "Due to toxics protozoal products",
+    "and / or mechanical damage"
+   ],
+   "list_ar": [
+    "الاستجابة المناعية للطفيلي و/أو لمستضدات المضيف",
+    "بسبب النواتج السامّة للأوالي",
+    "و/أو الضرر الميكانيكي"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Immunity in parasitic infection",
+   "ar": "المناعة في العدوى الطفيلية"
+  },
+  {
+   "t": "card",
+   "en": "Protozoa cause chronic and persistent infection because:",
+   "ar": "تسبّب الأوالي عدوى مزمنة ومستمرّة لأنّ:",
+   "list_en": [
+    "Natural immunity against protozoa is weak.",
+    "Because protozoa have evolved multiple mechanisms for evading",
+    "Resisting specific immunity"
+   ],
+   "list_ar": [
+    "المناعة الطبيعية ضدّ الأوالي ضعيفة.",
+    "لأنّ الأوالي طوّرت آليات متعدّدة للتهرّب",
+    "مقاومة المناعة النوعية"
+   ],
+   "alpha": true
+  },
+  {
+   "t": "card",
+   "en": [
+    "protozoa may be phagocytozed by macrophage but many are resistant to phagocytic killing and may even replicate within macrophage",
+    "__Trypanosoma brucei gambianse__ is the best example of protozoa which can induce humoral immune response because of the extracellular location.",
+    "In __Leishmania__ spp. infections cellular defense mechanism depend upon T. lymphocytes and activate macrophages as effectors cells",
+    "__Plasmodium__ spp. is a protozoan which show the diversity of defense mechanism which can be cellular or humoral depending on Ag and protozoa’s location"
+   ],
+   "ar": [
+    "قد تبلع البلاعم الأوالي، لكن كثيرًا منها يقاوم القتل البلعمي بل قد يتكاثر داخل البلاعم",
+    "المثقبية البروسية الغامبية (`__Trypanosoma brucei gambianse__`) أفضل مثال على الأوالي التي تستحثّ استجابة مناعية خلطية بسبب موقعها خارج الخلايا.",
+    "في عدوى أنواع الليشمانيا تعتمد آلية الدفاع الخلوية على الخلايا اللمفاوية التائية وتنشيط البلاعم بوصفها خلايا مستجيبة",
+    "أنواع البلازموديوم من الأوالي التي تُظهر تنوّع آليات الدفاع، فقد تكون خلوية أو خلطية اعتمادًا على المستضد (`Ag`) وموقع الطفيلي"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**The way of protozoal resisting of specific immunity**",
+   "ar": "**طرق مقاومة الأوالي للمناعة النوعية**",
+   "list_en": [
+    "**Anatomic sequestration** is commonly observed with protozoa plasma and __T. gondii__",
+    "Some protozoa can become resistant to immunity effector mechanisms. __Trypanosoma, Leishmania__ and __T. gondii__",
+    "Some protozoa developed effective mechanisms for varying their surface antigens __plasmodium__ and Trypanosomes",
+    "Some protozoa shed their antigen coats either spontaneously or after binding with specific antibodies __E. histolytica__",
+    "Some protozoa alter host immune response by nonspecific and generalized immunosuppression. __Trypanosoma, Leishmania, Toxoplasma, Entamoeba__"
+   ],
+   "list_ar": [
+    "**العزل التشريحي** يُلاحظ عادةً مع الأوالي `plasma` والمقوّسة الغوندية",
+    "بعض الأوالي تصبح مقاومة لآليات المناعة المستجيبة: المثقبيات والليشمانيا والمقوّسة الغوندية",
+    "بعض الأوالي طوّرت آليات فعّالة لتغيير مستضداتها السطحية: البلازموديوم والمثقبيات",
+    "بعض الأوالي تطرح أغلفتها المستضدّية تلقائيًا أو بعد ارتباطها بأجسام مضادة نوعية: الأميبا الحالّة للنسيج",
+    "بعض الأوالي تغيّر الاستجابة المناعية للمضيف بتثبيط مناعي غير نوعي وعام: المثقبيات والليشمانيا والمقوّسة والأميبا"
+   ],
+   "alpha": true
+  },
+  {
+   "t": "h2",
+   "en": "Laboratory Diagnosis:",
+   "ar": "التشخيص المختبري:"
+  },
+  {
+   "t": "card",
+   "en": "Depending on the nature of parasitic infection: The following specimens are selected for laboratory diagnosis",
+   "ar": "حسب طبيعة العدوى الطفيلية تُختار العيّنات الآتية للتشخيص المختبري",
+   "list_en": [
+    "**Blood:** Examination of blood film is one of the main procedures for specific diagnosis e.g. malaria found in the red blood cells. In Bancrofti and Malayan filariasis microfilaria found in blood plasma",
+    "**Stool** for diagnosis of intestinal parasite, or those localized in biliary tract and discharge their eggs into the intestine. In Protozoa either trophozoites or cysts. Trophozoite during acute active phase and cysts during chronic phases e. g. amebiasis; Giardiasis",
+    "**Urine:** When parasite habitat in urinary tract as in urinary Schistosomiasis, eggs of __Schistosoma haematobium__ can be detected in urine. In case of Chyluria caused by __Wuchereria bancrofti__, microfilariae are found in urine.",
+    "**Sputum** in amoebic abscess of lung, or in case of amoebic liver abscess, bursting into the lung; trophozoites of __Entamoeba histolytica__ are detected in sputum. __Paragonimus wastermani__ eggs found in sputum."
+   ],
+   "list_ar": [
+    "**الدم:** فحص مسحة الدم من الإجراءات الرئيسة للتشخيص النوعي، مثل الملاريا الموجودة في كريات الدم الحمراء. وفي داء الفيلاريات البنكروفتي والملاوي توجد الميكروفيلاريا في بلازما الدم",
+    "**البراز:** لتشخيص الطفيليات المعوية أو تلك المستقرّة في القناة الصفراوية التي تطرح بيوضها في الأمعاء. وفي الأوالي إمّا الأطوار المتغذّية أو الأكياس: الطور المتغذّي في المرحلة الحادّة النشطة والأكياس في المراحل المزمنة، مثل داء الأميبات وداء الجيارديا",
+    "**الإدرار:** عندما يسكن الطفيلي المجاري البولية كما في البلهارزيا البولية، يمكن الكشف عن بيوض البلهارزيا الدموية (`__Schistosoma haematobium__`) في الإدرار. وفي حالة البيلة الكيلوسية التي تسبّبها الفخرية البنكروفتية (`__Wuchereria bancrofti__`) توجد الميكروفيلاريا في الإدرار.",
+    "**القشع:** في الخُرّاج الأميبي للرئة، أو في حالة خُرّاج الكبد الأميبي المنفجر إلى الرئة، يُكشف عن الأطوار المتغذّية للأميبا الحالّة للنسيج في القشع. وتوجد بيوض المجنّبة الوسترمانية (`__Paragonimus wastermani__`) في القشع."
+   ],
+   "alpha": true
+  },
+  {
+   "t": "card",
+   "en": [
+    "**e. Biopsy material;** spleen puncture in case of Kala -azar; Muscle biopsy in cysticercus; Trichinelliasis (Trichinosis) and Chagas disease; skin snip for Onchocerciasis",
+    "**f. Urethral or vaginal discharge;** in __Trichomonas vaginalis__",
+    "**g. Indirect evidences:** indicate of intestinal parasites infection"
+   ],
+   "ar": [
+    "**هـ. مادة الخزعة:** بزل الطحال في حالة الكالا آزار؛ وخزعة العضلات في الكيسات المذنّبة وداء الشعرينات وداء شاغاس؛ وقطعة جلد صغيرة لداء كلابية الذنب (`Onchocerciasis`)",
+    "**و. الإفرازات الإحليلية أو المهبلية:** في المشعّرة المهبلية",
+    "**ز. الأدلّة غير المباشرة:** تدلّ على الإصابة بالطفيليات المعوية"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Cytological changes in blood, eosinophilia indication of tissue invasion by helminthes",
+    "Reduction of white blood cells count in Kala – azar",
+    "Anemia in malaria and hook worm infestation",
+    "Serological test; laboratory where special antigens are available ."
+   ],
+   "list_ar": [
+    "تغيّرات خلوية في الدم: كثرة الحمضات دليل على غزو الأنسجة بالديدان",
+    "انخفاض عدد خلايا الدم البيض في الكالا آزار",
+    "فقر الدم في الملاريا والإصابة بالديدان الخطّافية",
+    "الفحص المصلي: في المختبر الذي تتوفّر فيه مستضدات خاصة."
+   ],
+   "alpha": true
+  }
+ ]
+}
