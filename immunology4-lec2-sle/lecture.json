@@ -1,0 +1,1515 @@
+{
+ "meta": {
+  "subject_en": "Clinical Immunology",
+  "subject_ar": "المناعة السريرية",
+  "short_ar": "مناعة",
+  "unit_en": "Lecture 2",
+  "unit_ar": "المحاضرة 2",
+  "unit_label": "LEC",
+  "unit_no": "2",
+  "title_en": "Systemic lupus erythematosus",
+  "title_ar": "الذئبة الحمامية الجهازية",
+  "kind": "Theory — نظري",
+  "stage": "The fourth stage — الرابعة",
+  "instructor": "د. عبير",
+  "file_name": "مناعة نظري المحاضرة الثانية",
+  "questions_suffix": " اسئلة"
+ },
+ "blocks": [
+  {
+   "t": "card",
+   "en": [
+    "Systemic lupus erythematosus (SLE) is a systemic autoimmune disease characterized by the production of autoantibodies and a diversity of clinical manifestations.",
+    "It most commonly presents in women during their child-bearing years, in which the immune system targets intracellular particles that contain both nucleic acids and nucleic acid binding proteins."
+   ],
+   "ar": [
+    "**الذئبة الحمامية الجهازية** (`SLE`) مرض **مناعي ذاتي جهازي** يتميّز **بإنتاج الأضداد الذاتية** وبتنوّع المظاهر السريرية.",
+    "ويظهر غالبًا لدى **النساء في سنوات الإنجاب**، ويستهدف فيه الجهاز المناعي **جسيمات داخل الخلية** تحتوي على **الأحماض النووية** والبروتينات المرتبطة بها."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Etiology and Pathogenesis",
+   "ar": "السببيات والإمراض"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Although the etiology of SLE is unknown, multiple factors are associated with the development of SLE, including genetic (HLA- DR2/DR3), racial, hormonal, immune abnormalities and environmental factors (ultraviolet light, viral infection involving molecular mimicry between organism and self for example anti-Sm autoantibody react with p24 gag protein of retroviruses and that anti- Ro recognizes a nucleocapsid protein on vesicular stomatitis virus).",
+    "One proposed mechanism for the development of autoantibodies involves a defect in apoptosis or clearance of apoptotic cells, leading to a disturbance in immune tolerance."
+   ],
+   "ar": [
+    "مع أن سبب المرض **غير معروف**، فإن عوامل متعدّدة ترتبط بحدوثه، منها: **الوراثية** (`HLA-DR2/DR3`)، والعرقية، والهرمونية، والاضطرابات المناعية، و**البيئية** (الأشعة فوق البنفسجية، والعدوى الفيروسية التي تتضمّن **المحاكاة الجزيئية** بين الكائن والذات؛ فمثلًا يتفاعل الضدّ الذاتي `anti-Sm` مع بروتين `p24 gag` للفيروسات القهقرية، ويتعرّف `anti-Ro` على بروتين القفيصة النووية لفيروس التهاب الفم الحويصلي).",
+    "ومن الآليات المقترحة لتكوّن الأضداد الذاتية **خلل في الاستماتة (موت الخلية المبرمج)** أو في إزالة الخلايا المستميتة، ممّا يؤدّي إلى **اضطراب التحمّل المناعي**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "The redistribution of cellular antigens during apoptosis leads to a display of cytoplasmic and nuclear antigens on the cell surface, enhancing immune reactivity to antigens, which are normally protected intracellularly.",
+    "Activation of antigen-presenting cells by IFN-α might promote presentation of autoantigens to self-reactive T cells."
+   ],
+   "ar": [
+    "إذ تؤدّي إعادة توزيع المستضدّات الخلوية أثناء الاستماتة إلى **عرض المستضدّات السيتوبلازمية والنووية على سطح الخلية**، فتزداد التفاعلية المناعية لمستضدّات تكون عادةً محميّة داخل الخلية.",
+    "وقد يعزّز تنشيط **الخلايا المقدّمة للمستضدّ** بواسطة `IFN-α` تقديمَ المستضدّات الذاتية إلى الخلايا التائية ذاتية التفاعل."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Immune complexes form in the microvasculature, leading to complement activation and inflammation.",
+    "Antibody–antigen complexes deposit on the basement membranes of skin and kidneys."
+   ],
+   "ar": [
+    "وتتكوّن **المعقّدات المناعية** في الأوعية الدقيقة، فتؤدّي إلى تنشيط المتمّم والالتهاب.",
+    "وتترسّب معقّدات الضدّ–المستضدّ على **الأغشية القاعدية للجلد والكليتين**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "In active SLE, this process has been confirmed based on the presence of complexes of nuclear antigens such as DNA, immunoglobulins, and complement proteins at these sites."
+   ],
+   "ar": [
+    "وفي المرض النشط تأكّدت هذه العملية بوجود معقّدات من المستضدّات النووية مثل `DNA` والغلوبيولينات المناعية وبروتينات المتمّم في هذه المواقع."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Figure: Etiology of SLE.",
+   "ar": "الشكل: سببيات الذئبة الحمامية الجهازية."
+  },
+  {
+   "t": "group",
+   "title_en": "INATE SUSCEPTIBILITY",
+   "title_ar": "القابلية الفطرية",
+   "en": [
+    "•HLA type (DR3/2) •Immunoregulatory genes (multiple) •Complement levels •Hormonal levels"
+   ],
+   "ar": [
+    "نمط `HLA` (`DR3/2`) • جينات التنظيم المناعي (متعدّدة) • مستويات المتمّم • المستويات الهرمونية"
+   ]
+  },
+  {
+   "t": "group",
+   "title_en": "ENVIRONMENTAL STIMULI",
+   "title_ar": "المحفّزات البيئية",
+   "en": [
+    "•UV exposure •Microbial response •Drugs"
+   ],
+   "ar": [
+    "التعرّض للأشعة فوق البنفسجية • الاستجابة للميكروبات • الأدوية"
+   ]
+  },
+  {
+   "t": "group",
+   "title_en": "AUTOIMMUNE PROLIFERATION",
+   "title_ar": "التكاثر المناعي الذاتي",
+   "en": [
+    "•Hyperactive B-cell/T-cell activation •High ratio of CD4:CD8 T-cells •Defective immune complex clearance •Impaired tolerance"
+   ],
+   "ar": [
+    "تنشيط مفرط للخلايا البائية/التائية • نسبة عالية من `CD4:CD8` • خلل في إزالة المعقّدات المناعية • ضعف التحمّل"
+   ]
+  },
+  {
+   "t": "group",
+   "title_en": "AUTOANTIBODY PRODUCTION",
+   "title_ar": "إنتاج الأضداد الذاتية",
+   "en": [
+    "•Apoptosis & self exposure •Self-recognition •Foreign-Ab cross reaction"
+   ],
+   "ar": [
+    "الاستماتة وانكشاف الذات • التعرّف على الذات • التفاعل المتصالب مع الأضداد الغريبة"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/nuclear-antigens.jpg",
+   "en": "Nuclear antigens — Double stranded DNA: Systematic lupus erythematosus (chronic active hepatitis) · Histones · Single-stranded DNA: Non-specific i.e. elderly and many rheumatic conditions · Nucleolus: Scleroderma · Non-histone nuclear proteins e.g. Sm — systemic lupus erythematosus; RNP — mixed connective tissue disease; Ro — vasculitis/SLE/Sjögren's syndrome; La — Sjögren's syndrome",
+   "ar": "المستضدّات النووية — `DNA` المزدوج الشريط: الذئبة الحمامية الجهازية (التهاب الكبد النشط المزمن) · الهستونات · `DNA` المفرد الشريط: غير نوعي، أي لدى المسنّين وفي حالات روماتيزمية كثيرة · النُّوَيّة: تصلّب الجلد · بروتينات نووية غير هستونية مثل: `Sm` — الذئبة الحمامية الجهازية؛ `RNP` — مرض النسيج الضامّ المختلط؛ `Ro` — التهاب الأوعية/الذئبة/متلازمة شوغرن؛ `La` — متلازمة شوغرن",
+   "h": "80mm",
+   "fit": "contain",
+   "nonum": true
+  },
+  {
+   "t": "h2",
+   "en": "Clinical Features",
+   "ar": "المظاهر السريرية"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Systemic lupus erythematosus is a multisystem disease and can affect virtually all organs and system; whilst some manifestations are common, others are rare.",
+    "Therefore, joint, skin and blood are affected in 80-100% of patients, kidneys, CNS and cardiopulmonary system in over 50%; while thrombosis, a typical lupus manifestation associated with possession of the anticardiolipin antibody, is present in 10% of patients."
+   ],
+   "ar": [
+    "الذئبة الحمامية الجهازية **مرض متعدّد الأجهزة** يمكن أن يصيب تقريبًا كل الأعضاء والأجهزة؛ وبعض مظاهره شائعة وبعضها نادر.",
+    "لذلك تُصاب **المفاصل والجلد والدم لدى 80–100%** من المرضى، و**الكليتان والجهاز العصبي المركزي والجهاز القلبي الرئوي لدى أكثر من 50%**؛ بينما يوجد **الخُثار** — وهو مظهر نموذجي للذئبة يرتبط بوجود **ضدّ الكارديوليبين** — لدى **10%** من المرضى."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Systemic manifestations including fatigue, malaise, fever, anorexia, nausea and weight loss, are present in the great majority of patients.",
+    "The symptoms difference according to the infected organ and including arthritis, arthralgia, malar rash, an erythematous rash over the nasal bridge, photosensitivity, discoid lesions, headache, migraine, nephrotic syndrome, pleuritis and pericarditis."
+   ],
+   "ar": [
+    "وتوجد المظاهر الجهازية، ومنها التعب والوعكة والحمّى وفقدان الشهية والغثيان ونقص الوزن، لدى **الغالبية العظمى** من المرضى.",
+    "وتختلف الأعراض حسب العضو المصاب، وتشمل التهاب المفاصل، وألم المفاصل، و**الطفح الوجني** (طفح حمامي فوق جسر الأنف)، و**الحساسية للضوء**، و**الآفات القرصية**، والصداع، والشقيقة، والمتلازمة الكلوية، والتهاب الجنبة، والتهاب التامور."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Table 10.12 American College of Rheumatology criteria for diagnosis of systemic lupus erythematosus (SLE).\\*",
+   "ar": "جدول 10.12 معايير الكلية الأمريكية لأمراض الروماتيزم لتشخيص الذئبة الحمامية الجهازية.\\*"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Malar rash",
+    "Discoid rash",
+    "Photosensitivity",
+    "Oral ulcers",
+    "Non-erosive arthritis",
+    "Serositis (pleuritis/pericarditis)",
+    "Renal disease (persistent proteinuria/urinary casts)",
+    "Neurological disorder (seizures/psychosis)",
+    "Haemolytic anaemia/leucopenia/lymphopenia/thrombocytopenia",
+    "Antinuclear antibody",
+    "Antibodies to dsDNA/antibodies to extractable nuclear antigens/ antiphospholipid antibodies"
+   ],
+   "list_ar": [
+    "الطفح الوجني",
+    "الطفح القرصي",
+    "الحساسية للضوء",
+    "تقرّحات الفم",
+    "التهاب مفاصل غير تآكلي",
+    "التهاب المصليّات (التهاب الجنبة/التامور)",
+    "مرض كلوي (بيلة بروتينية مستمرّة/أسطوانات بولية)",
+    "اضطراب عصبي (نوبات صرع/ذهان)",
+    "فقر دم انحلالي/قلّة الكريات البيض/قلّة اللمفاويات/قلّة الصفيحات",
+    "الضدّ المضادّ للنواة",
+    "أضداد `dsDNA`/أضداد المستضدّات النووية القابلة للاستخلاص/أضداد الفسفوليبيدات"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "\\* To establish a diagnosis of SLE a patient must have four or more of these criteria.",
+   "ar": "\\* لإثبات تشخيص الذئبة يجب أن يمتلك المريض **أربعة معايير أو أكثر** من هذه المعايير."
+  },
+  {
+   "t": "figure",
+   "src": "assets/sle-skin.jpg",
+   "en": "Raynaud’s Phenomena · Oral ulcerations · Discoid Lesions · Malar Rash",
+   "ar": "ظاهرة رينو · تقرّحات الفم · الآفات القرصية · الطفح الوجني",
+   "h": "78mm",
+   "fit": "contain",
+   "nonum": true
+  },
+  {
+   "t": "h2",
+   "en": "General laboratory findings",
+   "ar": "النتائج المختبرية العامة"
+  },
+  {
+   "t": "card",
+   "en": [
+    "The most frequent laboratory alteration that is identified is normochromic normocytic anemia of chronic disorders.",
+    "Occasinally a Coombs-positive haemolytic anemia is observed."
+   ],
+   "ar": [
+    "أكثر التغيّرات المختبرية شيوعًا هو **فقر دم الأمراض المزمنة سويّ الصباغ سويّ الكريات**.",
+    "وأحيانًا يُلاحَظ **فقر دم انحلالي موجب لاختبار كومبس**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Leukopenia (probably autoantibody mediated), especially lymphopenia, and thrombocytopenia are frequent.",
+    "The erythrocyte sedimentation rate is typically elevated, while C-reactive protein tends to be normal."
+   ],
+   "ar": [
+    "و**قلّة الكريات البيض** (على الأرجح بوساطة الأضداد الذاتية)، ولا سيّما **قلّة اللمفاويات**، و**قلّة الصفيحات** شائعة.",
+    "وتكون **سرعة الترسيب مرتفعة** عادةً، بينما يميل **البروتين المتفاعل-سي إلى أن يكون طبيعيًا**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Urinalysis can show haematuria, proteinuria and renal casts in the presence of glomerulonephritis."
+   ],
+   "ar": [
+    "ويمكن أن يُظهر تحليل الإدرار بيلة دموية وبيلة بروتينية وأسطوانات كلوية عند وجود التهاب كبيبات الكلى."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Immunological laboratory findings",
+   "ar": "النتائج المختبرية المناعية"
+  },
+  {
+   "t": "card",
+   "en": [
+    "All patients in whom SLE is suspected should be tested for antinuclear antibodies, including those to dsDNA and extractable nuclear antigens (ENA), and for antiphospholipid antibodies, as well as having their serum level of IgG and complement components, C3 and C4 measured, Antihistone antibodies are also present in patients with drug-induced SLE, most frequently associated with hydralazine and procainamide therapies."
+   ],
+   "ar": [
+    "يجب فحص كل المرضى المشتبه بإصابتهم **للأضداد المضادّة للنواة**، ومنها أضداد `dsDNA` و**المستضدّات النووية القابلة للاستخلاص** (`ENA`)، ولأضداد **الفسفوليبيدات**، مع قياس مستوى `IgG` في المصل ومكوّنات المتمّم `C3` و`C4`. وتوجد **أضداد الهستون** أيضًا لدى مرضى **الذئبة المحرَّضة بالأدوية**، وأكثر ما ترتبط بعلاج **الهيدرالازين والبروكاييناميد**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "The sero-immunological hallmark of SLE is **antinuclear antibodies (ANA)**, in the absence of ANA, the diagnosis of SLE is put into question, even though some 5% of patients may have an ANA-negative serology.",
+    "ANA is currently detected by an indirect immunofluorescence technique, where diluted patients serum is applied to frozen tissue, especially liver, of rodent origin and cell lines of human origin, such as the HEp2 cell line derived from a laryngeal tumor, in which nuclei are prominent, are used as substrate to detect ANA."
+   ],
+   "ar": [
+    "**السمة المصلية المناعية المميّزة** للذئبة هي **الأضداد المضادّة للنواة** (`ANA`)؛ ففي غيابها يصبح التشخيص **موضع شكّ**، مع أن نحو **5%** من المرضى قد يكونون سالبي `ANA`.",
+    "وتُكشف `ANA` حاليًا بتقنية **التألّق المناعي غير المباشر**، إذ يُوضع مصل المريض المخفَّف على نسيج مجمّد، ولا سيّما **كبد القوارض**، وتُستعمل خطوط خلايا بشرية، مثل خط خلايا **`HEp2`** المشتقّ من ورم حنجري ذي نوى بارزة، ركيزةً لكشف `ANA`."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "If the patient is ANA positive, the autoantibody will bind to nuclei.",
+    "To reveal this binding, a second antibody tagged with fluorescent label is add."
+   ],
+   "ar": [
+    "فإذا كان المريض موجب `ANA`، يرتبط الضدّ الذاتي بالنوى.",
+    "ولإظهار هذا الارتباط يُضاف **ضدّ ثانٍ موسوم بصبغة متألّقة**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "This second antibody will bind and ANA will then be seen by placing the preparation under a fluorescence microscope.",
+    "Four patterns of fluorescence can be seen indicating different types of antinuclear antibodies."
+   ],
+   "ar": [
+    "يرتبط هذا الضدّ الثاني، ثم تُرى `ANA` بوضع التحضير تحت **المجهر التألّقي**.",
+    "ويمكن رؤية **أربعة أنماط** من التألّق تدلّ على أنواع مختلفة من الأضداد المضادّة للنواة."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Table. Immunofluorescence Patterns of Antinuclear Antibodies",
+   "ar": "جدول: أنماط التألّق المناعي للأضداد المضادّة للنواة"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Pattern",
+    "Antigen",
+    "Disease association(s)",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Peripheral",
+     "Double-stranded DNA",
+     "SLE",
+     "**المحيطي:** `DNA` المزدوج الشريط — الذئبة"
+    ],
+    [
+     "Homogeneous",
+     "DNA-histone complexes",
+     "SLE and other connective tissue diseases",
+     "**المتجانس:** معقّدات `DNA`–الهستون — الذئبة وأمراض النسيج الضامّ الأخرى"
+    ],
+    [
+     "Speckled",
+     "Non-DNA nuclear antigens",
+     "",
+     "**المرقّط:** مستضدّات نووية غير `DNA`"
+    ],
+    [
+     "",
+     "Sm",
+     "SLE",
+     "`Sm` — الذئبة"
+    ],
+    [
+     "",
+     "ribonucleoprotein",
+     "Mixed connective tissue disease, SLE, scleroderma, etc.",
+     "البروتين النووي الريبي — مرض النسيج الضامّ المختلط، الذئبة، تصلّب الجلد، إلخ."
+    ],
+    [
+     "",
+     "SS-A, SS-B",
+     "Sjögren's disease",
+     "`SS-A, SS-B` — مرض شوغرن"
+    ],
+    [
+     "Nucleolar",
+     "Nucleolus-specific RNA",
+     "Scleroderma",
+     "**النُّوَيّي:** `RNA` الخاصّ بالنُّوَيّة — تصلّب الجلد"
+    ]
+   ],
+   "ar_cols": [
+    3
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    "15%",
+    "22%",
+    "25%",
+    "38%"
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "ANA is a very sensitive test for SLE, being present in virtually all patients and frequently at high titers; its disease specificity is relatively low since it is frequently found in other rheumatic diseases, as well as in autoimmune liver disease, during viral infections and, occasionally, at low titers, in normal subjects."
+   ],
+   "ar": [
+    "`ANA` فحص **عالي الحساسية** للذئبة، إذ توجد لدى جميع المرضى تقريبًا وغالبًا بعيارات عالية؛ لكن **نوعيتها للمرض منخفضة نسبيًا** لأنها توجد كثيرًا في أمراض روماتيزمية أخرى، وفي أمراض الكبد المناعية الذاتية، وأثناء العداوى الفيروسية، وأحيانًا بعيارات منخفضة لدى الأصحّاء."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**DNA** antibodies are the most important in SLE.",
+    "They can react with **single-stranded DNA (ssDNA) or with double-stranded DNA (dsDNA)**."
+   ],
+   "ar": [
+    "**أضداد `DNA`** هي **الأهمّ** في الذئبة.",
+    "ويمكن أن تتفاعل مع **`DNA` المفرد الشريط** (`ssDNA`) أو **المزدوج الشريط** (`dsDNA`)."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Although anti-ssDNA may be found in many diseases besides SLE, anti-dsDNA autoantibodies are found almost exclusively in SLE (70%of the patients).",
+    "While the disease specificity of dsDNA autoantibodies is high, that of ANA is low."
+   ],
+   "ar": [
+    "ومع أن `anti-ssDNA` قد يوجد في أمراض كثيرة غير الذئبة، فإن أضداد **`anti-dsDNA` توجد حصرًا تقريبًا في الذئبة** (لدى 70% من المرضى).",
+    "فبينما تكون **نوعية أضداد `dsDNA` عالية**، تكون نوعية `ANA` منخفضة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Anti-dsDNA autoantibodies** are usually detected by very analytically sensitive technique, such as radioimmunoassay (RIA) or enzyme linked immunosorbent assay (ELISA).they can also be detected by immunofluorescence staining of an organelle called a kinotoplast in the flagellate __Crithdia luciliae__,which contains dsDNA."
+   ],
+   "ar": [
+    "تُكشف **أضداد `anti-dsDNA`** عادةً بتقنية **عالية الحساسية التحليلية** مثل **المقايسة المناعية الإشعاعية** (`RIA`) أو **مقايسة الامتصاص المناعي المرتبط بالإنزيم** (`ELISA`)، ويمكن كشفها أيضًا بالتلوين بالتألّق المناعي لعُضيّة تُسمّى **الحُبَيبة الحركية** (`kinotoplast`) في السوطيّ `__Crithdia luciliae__` الذي يحتوي على `dsDNA`."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "In a patient with lupus nephritis, a kidney biopsy is frequently obtained for diagnostic reasons the glomeruli of such bioptic renal material contain antigen-antibody complexes.",
+    "By applying a fluorescent antibody directed against human antibody (similar to that used in the second step of ANA detection) to frozen section of the kidney biopsy.",
+    "This one step technique is known as direct immunofluorescence."
+   ],
+   "ar": [
+    "لدى مريض **التهاب الكلية الذئبي** تُؤخذ **خزعة كلية** غالبًا لأسباب تشخيصية، وتحتوي كبيبات هذه المادة الكلوية على **معقّدات المستضدّ–الضدّ**.",
+    "وذلك بتطبيق ضدّ متألّق موجّه ضدّ الضدّ البشري (مشابه لما يُستعمل في الخطوة الثانية من كشف `ANA`) على مقطع مجمّد من خزعة الكلية.",
+    "وتُعرف هذه التقنية ذات الخطوة الواحدة باسم **التألّق المناعي المباشر**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Extractable nuclear antigens (ENA)** include **Sm** (Smith), **RNP** (ribonucleoprotein), **Ro** (Robert) also called SS-A (Sjogrens syndrome antigen A) and anti- **La** (Lane) or SS-B (Sjogrens syndrome antigen B).",
+    "Anti-ENA antibodies are include anti-Sm found almost exclusively in SLE, and anti-RNP more typically associated with mixed connective tissue disease than with SLE, anti- Ro and anti-La are found in Sjogrens syndrome."
+   ],
+   "ar": [
+    "تشمل **المستضدّات النووية القابلة للاستخلاص** (`ENA`): **`Sm`** (سميث)، و**`RNP`** (البروتين النووي الريبي)، و**`Ro`** (روبرت) ويُسمّى أيضًا `SS-A` (مستضدّ متلازمة شوغرن A)، و**`La`** (لين) أو `SS-B` (مستضدّ متلازمة شوغرن B).",
+    "وتشمل أضداد `ENA`: **`anti-Sm` الموجود حصرًا تقريبًا في الذئبة**، و`anti-RNP` الأكثر ارتباطًا **بمرض النسيج الضامّ المختلط** منه بالذئبة، و`anti-Ro` و`anti-La` الموجودين في **متلازمة شوغرن**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Other Anti-ENA antibodies are **anti-Jo-1**, anti **Scl-70** and **anticentromere**, which are associated mainly with polmyositis, systemic sclerosis and CREST syndrome respectively.",
+    "Anti-ENA antibodies are normally detected by immunodiffusion or ELISA technique."
+   ],
+   "ar": [
+    "ومن أضداد `ENA` الأخرى **`anti-Jo-1`** و**`anti Scl-70`** و**`anticentromere`**، التي ترتبط أساسًا **بالتهاب العضلات المتعدّد، والتصلّب الجهازي، ومتلازمة `CREST`** على الترتيب.",
+    "وتُكشف أضداد `ENA` عادةً بتقنية **الانتشار المناعي** أو `ELISA`."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "The lupus anticoagulant causes a prolonged clotting time in vitro but thrombosis in vivo.",
+    "It is often found in associated with other autoantibodies to phospholipids, such as anticardiolipin antibodies and false positive tests for syphilis."
+   ],
+   "ar": [
+    "**مضادّ التخثّر الذئبي** يسبّب **إطالة زمن التخثّر في المختبر** لكنه يسبّب **الخُثار داخل الجسم**.",
+    "ويوجد غالبًا مع أضداد ذاتية أخرى للفسفوليبيدات، مثل **أضداد الكارديوليبين**، ومع **نتائج إيجابية كاذبة لفحوص الزهري**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Assessment of the complement profile is of importance in management.",
+    "Serial determinations of CH₅₀, a functional assay measuring complement hemolytic activity, and of the individual factors C3 and C4, inform on how much immune complexes are consuming complement."
+   ],
+   "ar": [
+    "تقييم **مرتسم المتمّم** مهمّ في متابعة المرض.",
+    "فالقياسات المتتالية لـ **`CH₅₀`** — وهو فحص وظيفي يقيس **الفعالية الحالّة للمتمّم** — وللعاملين المنفردين `C3` و`C4`، تبيّن **مقدار استهلاك المعقّدات المناعية للمتمّم**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Table 10.13 Laboratory findings in untreated systemic lupus erythematosus (SLE)\\*.",
+   "ar": "جدول 10.13 النتائج المختبرية في الذئبة الحمامية الجهازية غير المعالَجة\\*."
+  },
+  {
+   "t": "table",
+   "head": [
+    "Immunological test",
+    "%",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "dsDNA binding",
+     "70–85",
+     "الارتباط بـ `dsDNA`"
+    ],
+    [
+     "Antinuclear bodies (high titre; IgG class)",
+     "95",
+     "الأضداد المضادّة للنواة (عيار عالٍ؛ صنف `IgG`)"
+    ],
+    [
+     "Raised serum IgG level",
+     "65",
+     "ارتفاع مستوى `IgG` في المصل"
+    ],
+    [
+     "Low serum complement C3/C4 levels",
+     "60",
+     "انخفاض مستويات المتمّم `C3/C4` في المصل"
+    ],
+    [
+     "Platelet antibodies",
+     "60",
+     "أضداد الصفيحات"
+    ],
+    [
+     "Cryoglobulinaemia",
+     "60",
+     "الغلوبيولينات القرّية في الدم"
+    ],
+    [
+     "Antibodies to ENA: Sm",
+     "30",
+     "أضداد `ENA`: `Sm`"
+    ],
+    [
+     "RNP",
+     "35",
+     "`RNP`"
+    ],
+    [
+     "Ro",
+     "30",
+     "`Ro`"
+    ],
+    [
+     "La",
+     "15",
+     "`La`"
+    ],
+    [
+     "Antibodies to phospholipids",
+     "30–40",
+     "أضداد الفسفوليبيدات"
+    ],
+    [
+     "Rheumatoid factor (low titre)",
+     "30",
+     "العامل الروماتويدي (عيار منخفض)"
+    ],
+    [
+     "Skin biopsy IgG, C3 and C4 deposits in normal skin",
+     "75",
+     "خزعة الجلد: ترسّبات `IgG` و`C3` و`C4` في الجلد الطبيعي"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    "45%",
+    "12%",
+    "43%"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    "Haematological",
+    "%",
+    "Others",
+    "%",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Raised ESR",
+     "60",
+     "C-reactive protein–normal unless infection present",
+     "",
+     "ارتفاع `ESR` (60%) — البروتين المتفاعل-سي طبيعي ما لم توجد عدوى"
+    ],
+    [
+     "Leucopenia",
+     "45",
+     "Proteinuria",
+     "30",
+     "قلّة الكريات البيض (45%) — البيلة البروتينية (30%)"
+    ],
+    [
+     "Direct Coombs’ test positive",
+     "40",
+     "",
+     "",
+     "اختبار كومبس المباشر موجب (40%)"
+    ],
+    [
+     "Lupus anticoagulant",
+     "10–20",
+     "",
+     "",
+     "مضادّ التخثّر الذئبي (10–20%)"
+    ]
+   ],
+   "ar_cols": [
+    4
+   ],
+   "key_cols": [
+    0,
+    2
+   ],
+   "widths": [
+    "20%",
+    "8%",
+    "28%",
+    "6%",
+    "38%"
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "\\* Figures show percentage of patients with positive tests.",
+    "ESR, erythrocyte sedimentation rate; ENA, extractable nuclear antigens; RNP, ribonucleoprotein."
+   ],
+   "ar": [
+    "\\* الأرقام تبيّن نسبة المرضى ذوي الفحوص الموجبة.",
+    "`ESR`: سرعة ترسيب كريات الدم الحمر؛ `ENA`: المستضدّات النووية القابلة للاستخلاص؛ `RNP`: البروتين النووي الريبي."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/ana-patterns.jpg",
+   "en": "1. Rim pattern (150x magnif; anti-DNA) · 2. Homogenous pattern (435x enlarged; anti-DNA) · 3. Nucleolar pattern (e.g. fibrillarin) · 4. Coarse-speckled pattern (U1RNP/Sm) · 5. Fine-speckled pattern (Ro/La) · 6. Anti-centromere antibody pattern",
+   "ar": "1. النمط الحافّي (تكبير 150×؛ `anti-DNA`) · 2. النمط المتجانس (تكبير 435×؛ `anti-DNA`) · 3. النمط النُّوَيّي (مثل الفيبريلارين) · 4. النمط المرقّط الخشن (`U1RNP/Sm`) · 5. النمط المرقّط الناعم (`Ro/La`) · 6. نمط ضدّ القُسَيم المركزي",
+   "h": "85mm",
+   "fit": "contain",
+   "nonum": true
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Definition, etiology and pathogenesis",
+    "topic_ar": "التعريف والسببيات والإمراض"
+   },
+   {
+    "en": "SLE most commonly presents in:",
+    "ar": "تظهر الذئبة الحمامية الجهازية غالبًا لدى:",
+    "options": [
+     [
+      "Women during their child-bearing years",
+      "النساء في سنوات الإنجاب"
+     ],
+     [
+      "Elderly men",
+      "الرجال المسنّين"
+     ],
+     [
+      "Newborns",
+      "حديثي الولادة"
+     ],
+     [
+      "Men below 40 years",
+      "الرجال دون 40 سنة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The HLA association of SLE is:",
+    "ar": "ارتباط `HLA` في الذئبة هو:",
+    "options": [
+     [
+      "HLA-DR4",
+      "`HLA-DR4`"
+     ],
+     [
+      "HLA-DR2/DR3",
+      "`HLA-DR2/DR3`"
+     ],
+     [
+      "HLA-B27",
+      "`HLA-B27`"
+     ],
+     [
+      "HLA-DR1 only",
+      "`HLA-DR1` فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Anti-Sm autoantibody reacts with which retroviral protein (molecular mimicry)?",
+    "ar": "يتفاعل الضدّ الذاتي `anti-Sm` مع أيّ بروتين فيروسي قهقري (محاكاة جزيئية)؟",
+    "options": [
+     [
+      "gp120",
+      "`gp120`"
+     ],
+     [
+      "p24 gag protein",
+      "بروتين `p24 gag`"
+     ],
+     [
+      "Hemagglutinin",
+      "الراصّة الدموية"
+     ],
+     [
+      "Reverse transcriptase",
+      "إنزيم النسخ العكسي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "One proposed mechanism for autoantibody development in SLE is:",
+    "ar": "من الآليات المقترحة لتكوّن الأضداد الذاتية في الذئبة:",
+    "options": [
+     [
+      "Excess IgE production",
+      "إنتاج مفرط لـ `IgE`"
+     ],
+     [
+      "Lack of B cells",
+      "غياب الخلايا البائية"
+     ],
+     [
+      "A defect in apoptosis or clearance of apoptotic cells",
+      "خلل في الاستماتة أو في إزالة الخلايا المستميتة"
+     ],
+     [
+      "Iron deficiency",
+      "نقص الحديد"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Activation of antigen-presenting cells in SLE might be promoted by:",
+    "ar": "قد يعزّز تنشيطَ الخلايا المقدّمة للمستضدّ في الذئبة:",
+    "options": [
+     [
+      "IL-4",
+      "`IL-4`"
+     ],
+     [
+      "Insulin",
+      "الإنسولين"
+     ],
+     [
+      "IFN-α",
+      "`IFN-α`"
+     ],
+     [
+      "Erythropoietin",
+      "الإريثروبويتين"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In SLE, antibody–antigen complexes deposit on the basement membranes of:",
+    "ar": "في الذئبة تترسّب معقّدات الضدّ–المستضدّ على الأغشية القاعدية لـ:",
+    "options": [
+     [
+      "Liver and spleen",
+      "الكبد والطحال"
+     ],
+     [
+      "Skin and kidneys",
+      "الجلد والكليتين"
+     ],
+     [
+      "Bone and cartilage",
+      "العظم والغضروف"
+     ],
+     [
+      "Lungs only",
+      "الرئتين فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In the etiology figure, “High ratio of CD4:CD8 T-cells” belongs to:",
+    "ar": "في مخطّط السببيات، «نسبة عالية من `CD4:CD8`» تنتمي إلى:",
+    "options": [
+     [
+      "Environmental stimuli",
+      "المحفّزات البيئية"
+     ],
+     [
+      "Innate susceptibility",
+      "القابلية الفطرية"
+     ],
+     [
+      "Autoimmune proliferation",
+      "التكاثر المناعي الذاتي"
+     ],
+     [
+      "Autoantibody production",
+      "إنتاج الأضداد الذاتية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Clinical features and criteria",
+    "topic_ar": "المظاهر السريرية والمعايير"
+   },
+   {
+    "en": "In SLE, joint, skin and blood are affected in:",
+    "ar": "في الذئبة تُصاب المفاصل والجلد والدم لدى:",
+    "options": [
+     [
+      "10% of patients",
+      "10% من المرضى"
+     ],
+     [
+      "80-100% of patients",
+      "80–100% من المرضى"
+     ],
+     [
+      "30% of patients",
+      "30% من المرضى"
+     ],
+     [
+      "50% of patients",
+      "50% من المرضى"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Thrombosis in SLE is associated with possession of:",
+    "ar": "يرتبط الخُثار في الذئبة بوجود:",
+    "options": [
+     [
+      "Anticardiolipin antibody",
+      "ضدّ الكارديوليبين"
+     ],
+     [
+      "Anti-Sm",
+      "`anti-Sm`"
+     ],
+     [
+      "Rheumatoid factor",
+      "العامل الروماتويدي"
+     ],
+     [
+      "Anti-Jo-1",
+      "`anti-Jo-1`"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "An erythematous rash over the nasal bridge is called:",
+    "ar": "الطفح الحمامي فوق جسر الأنف يُسمّى:",
+    "options": [
+     [
+      "Discoid rash",
+      "الطفح القرصي"
+     ],
+     [
+      "Psoriasis",
+      "الصدفية"
+     ],
+     [
+      "Raynaud’s phenomena",
+      "ظاهرة رينو"
+     ],
+     [
+      "Malar rash",
+      "الطفح الوجني"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "To establish a diagnosis of SLE, a patient must have:",
+    "ar": "لإثبات تشخيص الذئبة يجب أن يمتلك المريض:",
+    "options": [
+     [
+      "One criterion only",
+      "معيارًا واحدًا فقط"
+     ],
+     [
+      "Two criteria",
+      "معيارين"
+     ],
+     [
+      "Four or more of the ACR criteria",
+      "أربعة معايير أو أكثر"
+     ],
+     [
+      "All eleven criteria",
+      "المعايير الأحد عشر كلّها"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Laboratory findings",
+    "topic_ar": "النتائج المختبرية"
+   },
+   {
+    "en": "The most frequent laboratory alteration in SLE is:",
+    "ar": "التغيّر المختبري الأكثر شيوعًا في الذئبة:",
+    "options": [
+     [
+      "Normochromic normocytic anemia of chronic disorders",
+      "فقر دم الأمراض المزمنة سويّ الصباغ سويّ الكريات"
+     ],
+     [
+      "Iron deficiency anemia",
+      "فقر دم نقص الحديد"
+     ],
+     [
+      "Polycythemia",
+      "كثرة الحمر"
+     ],
+     [
+      "Megaloblastic anemia",
+      "فقر الدم الضخم الأرومات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In SLE, ESR and CRP typically are:",
+    "ar": "في الذئبة تكون `ESR` و`CRP` عادةً:",
+    "options": [
+     [
+      "Both normal",
+      "كلاهما طبيعي"
+     ],
+     [
+      "ESR normal, CRP elevated",
+      "`ESR` طبيعية و`CRP` مرتفع"
+     ],
+     [
+      "Both very low",
+      "كلاهما منخفض جدًا"
+     ],
+     [
+      "ESR elevated, CRP normal",
+      "`ESR` مرتفعة و`CRP` طبيعي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Antihistone antibodies are present in drug-induced SLE, most frequently with:",
+    "ar": "توجد أضداد الهستون في الذئبة المحرَّضة بالأدوية، وأكثر ما ترتبط بـ:",
+    "options": [
+     [
+      "Aspirin and paracetamol",
+      "الأسبرين والباراسيتامول"
+     ],
+     [
+      "Insulin",
+      "الإنسولين"
+     ],
+     [
+      "Penicillin",
+      "البنسلين"
+     ],
+     [
+      "Hydralazine and procainamide",
+      "الهيدرالازين والبروكاييناميد"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The sero-immunological hallmark of SLE is:",
+    "ar": "السمة المصلية المناعية المميّزة للذئبة هي:",
+    "options": [
+     [
+      "Rheumatoid factor",
+      "العامل الروماتويدي"
+     ],
+     [
+      "Antinuclear antibodies (ANA)",
+      "الأضداد المضادّة للنواة (`ANA`)"
+     ],
+     [
+      "Anti-CCP",
+      "`anti-CCP`"
+     ],
+     [
+      "IgE",
+      "`IgE`"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "About what percentage of SLE patients may have an ANA-negative serology?",
+    "ar": "نحو أيّ نسبة من مرضى الذئبة قد يكونون سالبي `ANA`؟",
+    "options": [
+     [
+      "5%",
+      "5%"
+     ],
+     [
+      "50%",
+      "50%"
+     ],
+     [
+      "30%",
+      "30%"
+     ],
+     [
+      "95%",
+      "95%"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The human cell line used as substrate to detect ANA is:",
+    "ar": "خطّ الخلايا البشري المستعمل ركيزةً لكشف `ANA` هو:",
+    "options": [
+     [
+      "HeLa",
+      "`HeLa`"
+     ],
+     [
+      "Vero",
+      "`Vero`"
+     ],
+     [
+      "CHO",
+      "`CHO`"
+     ],
+     [
+      "HEp2",
+      "`HEp2`"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "ANA is detected by:",
+    "ar": "تُكشف `ANA` بـ:",
+    "options": [
+     [
+      "Direct agglutination",
+      "التلازن المباشر"
+     ],
+     [
+      "Gram stain",
+      "صبغة غرام"
+     ],
+     [
+      "Indirect immunofluorescence",
+      "التألّق المناعي غير المباشر"
+     ],
+     [
+      "Culture",
+      "الزرع"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The peripheral ANA pattern is associated with antibodies to:",
+    "ar": "يرتبط النمط المحيطي لـ `ANA` بأضداد:",
+    "options": [
+     [
+      "Double-stranded DNA",
+      "`DNA` المزدوج الشريط"
+     ],
+     [
+      "Nucleolus-specific RNA",
+      "`RNA` الخاصّ بالنُّوَيّة"
+     ],
+     [
+      "SS-A, SS-B",
+      "`SS-A, SS-B`"
+     ],
+     [
+      "DNA-histone complexes",
+      "معقّدات `DNA`–الهستون"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The nucleolar ANA pattern is associated with:",
+    "ar": "يرتبط النمط النُّوَيّي لـ `ANA` بـ:",
+    "options": [
+     [
+      "Scleroderma",
+      "تصلّب الجلد"
+     ],
+     [
+      "SLE only",
+      "الذئبة فقط"
+     ],
+     [
+      "Sjögren's disease",
+      "مرض شوغرن"
+     ],
+     [
+      "Rheumatoid arthritis",
+      "التهاب المفاصل الروماتويدي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Anti-dsDNA autoantibodies are found almost exclusively in SLE, in about:",
+    "ar": "توجد أضداد `anti-dsDNA` حصرًا تقريبًا في الذئبة لدى نحو:",
+    "options": [
+     [
+      "5% of the patients",
+      "5% من المرضى"
+     ],
+     [
+      "15% of the patients",
+      "15% من المرضى"
+     ],
+     [
+      "70% of the patients",
+      "70% من المرضى"
+     ],
+     [
+      "100% of the patients",
+      "100% من المرضى"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Anti-dsDNA can be detected by immunofluorescence of the kinetoplast of:",
+    "ar": "يمكن كشف `anti-dsDNA` بالتألّق المناعي لحُبَيبة:",
+    "options": [
+     [
+      "Giardia lamblia",
+      "`Giardia lamblia`"
+     ],
+     [
+      "Trypanosoma cruzi",
+      "`Trypanosoma cruzi`"
+     ],
+     [
+      "Escherichia coli",
+      "`Escherichia coli`"
+     ],
+     [
+      "Crithdia luciliae",
+      "`Crithdia luciliae`"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Applying a fluorescent anti-human antibody to a frozen kidney biopsy section is:",
+    "ar": "تطبيق ضدّ متألّق مضادّ للضدّ البشري على مقطع مجمّد من خزعة الكلية هو:",
+    "options": [
+     [
+      "Indirect immunofluorescence",
+      "التألّق المناعي غير المباشر"
+     ],
+     [
+      "Direct immunofluorescence",
+      "التألّق المناعي المباشر"
+     ],
+     [
+      "ELISA",
+      "`ELISA`"
+     ],
+     [
+      "Immunodiffusion",
+      "الانتشار المناعي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The anti-ENA antibody found almost exclusively in SLE is:",
+    "ar": "ضدّ `ENA` الموجود حصرًا تقريبًا في الذئبة هو:",
+    "options": [
+     [
+      "Anti-Sm",
+      "`anti-Sm`"
+     ],
+     [
+      "Anti-RNP",
+      "`anti-RNP`"
+     ],
+     [
+      "Anti-La",
+      "`anti-La`"
+     ],
+     [
+      "Anti-Jo-1",
+      "`anti-Jo-1`"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Anti-Scl-70 is associated mainly with:",
+    "ar": "يرتبط `anti Scl-70` أساسًا بـ:",
+    "options": [
+     [
+      "Polymyositis",
+      "التهاب العضلات المتعدّد"
+     ],
+     [
+      "CREST syndrome",
+      "متلازمة `CREST`"
+     ],
+     [
+      "Sjögren's syndrome",
+      "متلازمة شوغرن"
+     ],
+     [
+      "Systemic sclerosis",
+      "التصلّب الجهازي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The lupus anticoagulant causes:",
+    "ar": "يسبّب مضادّ التخثّر الذئبي:",
+    "options": [
+     [
+      "Bleeding in vivo",
+      "نزفًا في الجسم"
+     ],
+     [
+      "Shortened clotting time in vitro",
+      "قِصَر زمن التخثّر في المختبر"
+     ],
+     [
+      "No effect",
+      "لا تأثير"
+     ],
+     [
+      "Prolonged clotting time in vitro but thrombosis in vivo",
+      "إطالة زمن التخثّر في المختبر وخُثارًا في الجسم"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Serial CH₅₀, C3 and C4 determinations inform on:",
+    "ar": "القياسات المتتالية لـ `CH₅₀` و`C3` و`C4` تبيّن:",
+    "options": [
+     [
+      "The number of platelets",
+      "عدد الصفيحات"
+     ],
+     [
+      "Kidney size",
+      "حجم الكلية"
+     ],
+     [
+      "How much immune complexes are consuming complement",
+      "مقدار استهلاك المعقّدات المناعية للمتمّم"
+     ],
+     [
+      "The blood group",
+      "فصيلة الدم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "According to Table 10.13, ANA (high titre; IgG class) is positive in:",
+    "ar": "حسب جدول 10.13، تكون `ANA` (عيار عالٍ؛ `IgG`) موجبة لدى:",
+    "options": [
+     [
+      "30%",
+      "30%"
+     ],
+     [
+      "95%",
+      "95%"
+     ],
+     [
+      "60%",
+      "60%"
+     ],
+     [
+      "15%",
+      "15%"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "This ANA immunofluorescence pattern (anti-DNA) is the:",
+    "ar": "نمط التألّق المناعي لـ `ANA` هذا (`anti-DNA`) هو:",
+    "options": [
+     [
+      "Nucleolar pattern",
+      "النمط النُّوَيّي"
+     ],
+     [
+      "Fine-speckled pattern",
+      "النمط المرقّط الناعم"
+     ],
+     [
+      "Anti-centromere pattern",
+      "نمط ضدّ القُسَيم المركزي"
+     ],
+     [
+      "Rim pattern",
+      "النمط الحافّي"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/q-rim.jpg",
+    "img_h": "34mm"
+   },
+   {
+    "en": "This ANA immunofluorescence pattern (anti-DNA) is the:",
+    "ar": "نمط التألّق المناعي لـ `ANA` هذا (`anti-DNA`) هو:",
+    "options": [
+     [
+      "Rim pattern",
+      "النمط الحافّي"
+     ],
+     [
+      "Coarse-speckled pattern",
+      "النمط المرقّط الخشن"
+     ],
+     [
+      "Homogenous pattern",
+      "النمط المتجانس"
+     ],
+     [
+      "Nucleolar pattern",
+      "النمط النُّوَيّي"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/q-homogenous.jpg",
+    "img_h": "34mm"
+   },
+   {
+    "en": "This skin lesion of SLE is:",
+    "ar": "هذه الآفة الجلدية في الذئبة هي:",
+    "options": [
+     [
+      "Discoid Lesions",
+      "الآفات القرصية"
+     ],
+     [
+      "Malar Rash",
+      "الطفح الوجني"
+     ],
+     [
+      "Raynaud’s Phenomena",
+      "ظاهرة رينو"
+     ],
+     [
+      "Oral ulcerations",
+      "تقرّحات الفم"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/q-malar.jpg",
+    "img_h": "34mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "SLE is characterized by the production of autoantibodies.",
+    "ar": "تتميّز الذئبة بإنتاج الأضداد الذاتية.",
+    "answer": "T"
+   },
+   {
+    "en": "Anti-Ro recognizes a nucleocapsid protein on vesicular stomatitis virus.",
+    "ar": "يتعرّف `anti-Ro` على بروتين القفيصة النووية لفيروس التهاب الفم الحويصلي.",
+    "answer": "T"
+   },
+   {
+    "en": "During apoptosis, nuclear antigens remain hidden inside the cell.",
+    "ar": "أثناء الاستماتة تبقى المستضدّات النووية مخفيّة داخل الخلية.",
+    "answer": "F"
+   },
+   {
+    "en": "Kidneys, CNS and cardiopulmonary system are affected in over 50% of SLE patients.",
+    "ar": "تُصاب الكليتان والجهاز العصبي والجهاز القلبي الرئوي لدى أكثر من 50% من المرضى.",
+    "answer": "T"
+   },
+   {
+    "en": "Thrombosis is present in 50% of SLE patients.",
+    "ar": "يوجد الخُثار لدى 50% من مرضى الذئبة.",
+    "answer": "F"
+   },
+   {
+    "en": "A Coombs-positive haemolytic anemia is occasionally observed in SLE.",
+    "ar": "يُلاحَظ أحيانًا فقر دم انحلالي موجب لاختبار كومبس في الذئبة.",
+    "answer": "T"
+   },
+   {
+    "en": "C-reactive protein is typically very high in untreated SLE.",
+    "ar": "البروتين المتفاعل-سي مرتفع جدًا عادةً في الذئبة غير المعالَجة.",
+    "answer": "F"
+   },
+   {
+    "en": "ANA has high disease specificity for SLE.",
+    "ar": "لـ `ANA` نوعية عالية للذئبة.",
+    "answer": "F"
+   },
+   {
+    "en": "Anti-ssDNA is found almost exclusively in SLE.",
+    "ar": "يوجد `anti-ssDNA` حصرًا تقريبًا في الذئبة.",
+    "answer": "F"
+   },
+   {
+    "en": "Anti-dsDNA is usually detected by Gram stain.",
+    "ar": "يُكشف `anti-dsDNA` عادةً بصبغة غرام.",
+    "answer": "F"
+   },
+   {
+    "en": "Anti-RNP is more typically associated with mixed connective tissue disease than with SLE.",
+    "ar": "`anti-RNP` أكثر ارتباطًا بمرض النسيج الضامّ المختلط منه بالذئبة.",
+    "answer": "T"
+   },
+   {
+    "en": "Anticentromere antibodies are associated mainly with polymyositis.",
+    "ar": "ترتبط أضداد القُسَيم المركزي أساسًا بالتهاب العضلات المتعدّد.",
+    "answer": "F"
+   },
+   {
+    "en": "The lupus anticoagulant may give false positive tests for syphilis.",
+    "ar": "قد يصاحب مضادّ التخثّر الذئبي نتائج إيجابية كاذبة للزهري.",
+    "answer": "T"
+   },
+   {
+    "en": "Anti-ENA antibodies are normally detected by immunodiffusion or ELISA.",
+    "ar": "تُكشف أضداد `ENA` عادةً بالانتشار المناعي أو `ELISA`.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "ANA is both very sensitive and very specific for SLE.",
+    "ar": "`ANA` عالية الحساسية وعالية النوعية للذئبة.",
+    "answer_en": "No — ANA is very sensitive but its disease specificity is relatively low; anti-dsDNA has high specificity.",
+    "answer_ar": "لا — `ANA` عالية الحساسية لكن نوعيتها منخفضة نسبيًا؛ أمّا `anti-dsDNA` فنوعيته عالية."
+   },
+   {
+    "en": "ANA detection on HEp2 cells is direct immunofluorescence.",
+    "ar": "كشف `ANA` على خلايا `HEp2` تألّق مناعي مباشر.",
+    "answer_en": "No — ANA uses indirect immunofluorescence (patient serum then a fluorescent second antibody); the one-step kidney biopsy technique is direct immunofluorescence.",
+    "answer_ar": "لا — كشف `ANA` تألّق مناعي غير مباشر (مصل المريض ثم ضدّ ثانٍ متألّق)؛ أمّا تقنية خزعة الكلية ذات الخطوة الواحدة فهي التألّق المباشر."
+   },
+   {
+    "en": "The lupus anticoagulant causes bleeding.",
+    "ar": "مضادّ التخثّر الذئبي يسبّب النزف.",
+    "answer_en": "No — it prolongs clotting time in vitro but causes thrombosis in vivo.",
+    "answer_ar": "لا — يطيل زمن التخثّر في المختبر لكنه يسبّب الخُثار داخل الجسم."
+   },
+   {
+    "en": "Anti-Ro and anti-La are typical of SLE only.",
+    "ar": "`anti-Ro` و`anti-La` خاصّان بالذئبة فقط.",
+    "answer_en": "No — anti-Ro and anti-La are found in Sjögren's syndrome; anti-Sm is the one found almost exclusively in SLE.",
+    "answer_ar": "لا — `anti-Ro` و`anti-La` يوجدان في متلازمة شوغرن؛ أمّا `anti-Sm` فهو الموجود حصرًا تقريبًا في الذئبة."
+   },
+   {
+    "en": "In SLE both ESR and CRP rise together.",
+    "ar": "في الذئبة ترتفع `ESR` و`CRP` معًا.",
+    "answer_en": "No — ESR is typically elevated while CRP tends to be normal (unless infection is present).",
+    "answer_ar": "لا — ترتفع `ESR` عادةً بينما يميل `CRP` إلى أن يكون طبيعيًا (ما لم توجد عدوى)."
+   },
+   {
+    "en": "Anti-Jo-1, anti-Scl-70 and anticentromere are all markers of SLE.",
+    "ar": "`anti-Jo-1` و`anti Scl-70` و`anticentromere` كلّها واسمات للذئبة.",
+    "answer_en": "No — they are associated mainly with polymyositis, systemic sclerosis and CREST syndrome respectively.",
+    "answer_ar": "لا — ترتبط أساسًا بالتهاب العضلات المتعدّد، والتصلّب الجهازي، ومتلازمة `CREST` على الترتيب."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define SLE and mention the factors associated with its development.",
+    "ar": "عرّف الذئبة واذكر العوامل المرتبطة بحدوثها.",
+    "answer_en": "A systemic autoimmune disease characterized by autoantibody production and diverse clinical manifestations, mostly in women of child-bearing years. Factors: genetic (HLA-DR2/DR3), racial, hormonal, immune abnormalities and environmental (UV light, viral infection with molecular mimicry).",
+    "answer_ar": "مرض مناعي ذاتي جهازي يتميّز بإنتاج الأضداد الذاتية وتنوّع المظاهر، غالبًا لدى النساء في سنوات الإنجاب. العوامل: وراثية (`HLA-DR2/DR3`)، عرقية، هرمونية، اضطرابات مناعية، بيئية (الأشعة فوق البنفسجية، العدوى الفيروسية بالمحاكاة الجزيئية)."
+   },
+   {
+    "en": "Explain the role of apoptosis in SLE pathogenesis.",
+    "ar": "اشرح دور الاستماتة في إمراض الذئبة.",
+    "answer_en": "A defect in apoptosis or clearance of apoptotic cells disturbs immune tolerance; redistribution of antigens during apoptosis displays cytoplasmic and nuclear antigens on the cell surface, enhancing immune reactivity; IFN-α-activated APCs present autoantigens; immune complexes form, activate complement and deposit on skin and kidney basement membranes.",
+    "answer_ar": "خلل الاستماتة أو إزالة الخلايا المستميتة يُضعف التحمّل المناعي؛ وإعادة توزيع المستضدّات تعرض المستضدّات السيتوبلازمية والنووية على سطح الخلية فتزداد التفاعلية المناعية؛ والخلايا المقدّمة للمستضدّ المنشَّطة بـ `IFN-α` تقدّم المستضدّات الذاتية؛ وتتكوّن معقّدات مناعية تنشّط المتمّم وتترسّب على الأغشية القاعدية للجلد والكلى."
+   },
+   {
+    "en": "Describe the general laboratory findings in SLE.",
+    "ar": "صِف النتائج المختبرية العامة في الذئبة.",
+    "answer_en": "Normochromic normocytic anemia of chronic disorders; occasionally Coombs-positive haemolytic anemia; leukopenia (especially lymphopenia) and thrombocytopenia; elevated ESR with normal CRP; urinalysis: haematuria, proteinuria and renal casts with glomerulonephritis.",
+    "answer_ar": "فقر دم الأمراض المزمنة سويّ الصباغ سويّ الكريات؛ وأحيانًا فقر دم انحلالي موجب لكومبس؛ قلّة الكريات البيض (ولا سيّما اللمفاويات) وقلّة الصفيحات؛ `ESR` مرتفعة مع `CRP` طبيعي؛ تحليل الإدرار: بيلة دموية وبروتينية وأسطوانات كلوية مع التهاب الكبيبات."
+   },
+   {
+    "en": "Describe how ANA is detected.",
+    "ar": "صِف طريقة كشف `ANA`.",
+    "answer_en": "By indirect immunofluorescence: diluted patient serum on frozen rodent liver tissue or HEp2 cells; if positive the autoantibody binds nuclei; a second fluorescent-labelled antibody is added and the preparation is viewed under a fluorescence microscope; four patterns indicate different ANA types.",
+    "answer_ar": "بالتألّق المناعي غير المباشر: مصل المريض المخفَّف على نسيج كبد قوارض مجمّد أو خلايا `HEp2`؛ فإن كان موجبًا ارتبط الضدّ الذاتي بالنوى؛ ثم يُضاف ضدّ ثانٍ موسوم بالتألّق ويُفحص التحضير بالمجهر التألّقي؛ وتدلّ أربعة أنماط على أنواع مختلفة من `ANA`."
+   },
+   {
+    "en": "Compare ANA and anti-dsDNA in SLE.",
+    "ar": "قارن بين `ANA` و`anti-dsDNA` في الذئبة.",
+    "answer_en": "ANA: very sensitive (virtually all patients, high titers) but low specificity. Anti-dsDNA: found almost exclusively in SLE (70% of patients), high specificity; detected by RIA, ELISA or Crithidia luciliae kinetoplast immunofluorescence.",
+    "answer_ar": "`ANA`: عالية الحساسية (لدى جميع المرضى تقريبًا وبعيارات عالية) لكن نوعيتها منخفضة. `anti-dsDNA`: يوجد حصرًا تقريبًا في الذئبة (70%) ونوعيته عالية؛ ويُكشف بـ `RIA` أو `ELISA` أو بالتألّق المناعي لحُبَيبة `Crithidia luciliae`."
+   },
+   {
+    "en": "List the extractable nuclear antigens and their associated diseases.",
+    "ar": "عدّد المستضدّات النووية القابلة للاستخلاص والأمراض المرتبطة بأضدادها.",
+    "answer_en": "Sm (anti-Sm: almost exclusively SLE), RNP (anti-RNP: mixed connective tissue disease), Ro/SS-A and La/SS-B (Sjögren's syndrome). Others: anti-Jo-1 (polymyositis), anti-Scl-70 (systemic sclerosis), anticentromere (CREST). Detected by immunodiffusion or ELISA.",
+    "answer_ar": "`Sm` (`anti-Sm`: حصرًا تقريبًا في الذئبة)، `RNP` (`anti-RNP`: مرض النسيج الضامّ المختلط)، `Ro/SS-A` و`La/SS-B` (متلازمة شوغرن). وأخرى: `anti-Jo-1` (التهاب العضلات المتعدّد)، `anti Scl-70` (التصلّب الجهازي)، `anticentromere` (`CREST`). وتُكشف بالانتشار المناعي أو `ELISA`."
+   }
+  ]
+ }
+}

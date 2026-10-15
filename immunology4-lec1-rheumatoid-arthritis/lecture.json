@@ -1,0 +1,1215 @@
+{
+ "meta": {
+  "subject_en": "Clinical Immunology",
+  "subject_ar": "المناعة السريرية",
+  "short_ar": "مناعة",
+  "unit_en": "Lecture 1",
+  "unit_ar": "المحاضرة 1",
+  "unit_label": "LEC",
+  "unit_no": "1",
+  "title_en": "Rheumatoid Arthritis",
+  "title_ar": "التهاب المفاصل الروماتويدي",
+  "kind": "Theory — نظري",
+  "stage": "The fourth stage — الرابعة",
+  "instructor": "د. عبير",
+  "file_name": "مناعة نظري المحاضرة الاولى",
+  "questions_suffix": " اسئلة"
+ },
+ "blocks": [
+  {
+   "t": "card",
+   "en": [
+    "Republic of Iraq Ministry of Higher Education and Scientific Research",
+    "Training package In Clinical Immunology For Students of fourth class of Medical Laboratory Techniques Department",
+    "By Dr. Izzat Abdulsatar Al-Rayahi — Dr. Radhia Hussain — Dr. Braihan Hamdi Hameed — Dr. Saja Majid Hamid",
+    "2023-2024"
+   ],
+   "ar": [
+    "جمهورية العراق — وزارة التعليم العالي والبحث العلمي",
+    "حقيبة تدريبية في **المناعة السريرية** لطلبة المرحلة الرابعة — قسم تقنيات المختبرات الطبية",
+    "إعداد: د. عزت عبد الستار الرياحي — د. راضية حسين — د. بريهان حمدي حميد — د. سجى ماجد حميد",
+    "من 2023 إلى 2024"
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Rheumatoid Arthritis (RA)** is a chronic systemic inflammatory disease of undetermined etiology involving primarily the synovial membranes and articular structures of multiple joints.",
+    "The disease is often progressive and results in pain, stiffness, and swelling of joints.",
+    "In late stages, deformity and ankyloses develop.",
+    "Women are affected more than men, with a female: male ratio of **3:1**; the disease onset reaches between 35 and 50 years."
+   ],
+   "ar": [
+    "**التهاب المفاصل الروماتويدي** (`RA`) مرض التهابي جهازي مزمن **غير محدّد السبب**، يصيب أساسًا **الأغشية الزليلية** والتراكيب المفصلية في **مفاصل متعدّدة**.",
+    "وغالبًا ما يكون المرض **متقدّمًا** ويؤدّي إلى الألم والتيبّس وتورّم المفاصل.",
+    "وفي المراحل المتأخرة يحدث **التشوّه والتصلّب (القَسَط)**.",
+    "تُصاب النساء أكثر من الرجال بنسبة إناث إلى ذكور **3:1**، ويبدأ المرض بين عمر 35 و50 سنة."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Causes",
+   "ar": "الأسباب"
+  },
+  {
+   "t": "card",
+   "en": "The causes of RA is unknown.",
+   "ar": "أسباب التهاب المفاصل الروماتويدي **غير معروفة**."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Genetic**: Certain **HLA-DR4** molecules associated with RA (e.g. **HLA-DR beta \\*0401, 0404, or 0405**); in addition, **HLA-DR1** (**HLA-DR beta \\*0101**) carries this shared epitope and confer risk, particularly in certain southern European areas.",
+    "**Environmental:** for many decades, numerous infection age bnts have been suggested to induce RA. Among these are Mycoplasma organisms, Epstein Barr virus, rubella virus, cytomegalovirus and herpes virus.",
+    "**Hormonal:** Sex hormones may play a role, as evidenced by the disproportionate number of females with RA, its amelioration during pregnancy, its recurrence in the early postpartum period, and its reduced incidence in women using oral contraceptives. Hyperprolactinemia may be a risk factor for RA."
+   ],
+   "list_ar": [
+    "**الوراثية:** ترتبط جزيئات معيّنة من **`HLA-DR4`** بالمرض (مثل **`HLA-DR beta *0401, 0404, or 0405`**)؛ إضافةً إلى ذلك يحمل **`HLA-DR1`** (**`HLA-DR beta *0101`**) هذه **الحاتمة المشتركة** ويمنح خطرًا، ولا سيّما في بعض مناطق جنوب أوروبا.",
+    "**البيئية:** منذ عقود طويلة اقتُرح أن عوامل عدوى كثيرة (`infection age bnts`) تُحفّز المرض، ومنها كائنات **المفطورة** (`Mycoplasma`)، و**فيروس إبشتاين-بار**، وفيروس الحصبة الألمانية، والفيروس المضخّم للخلايا، وفيروس الهربس.",
+    "**الهرمونية:** قد تؤدّي **الهرمونات الجنسية** دورًا، بدليل العدد غير المتناسب من الإناث المصابات، و**تحسّنه أثناء الحمل**، وعودته في فترة ما بعد الولادة المبكرة، وانخفاض حدوثه لدى النساء اللواتي يستعملن موانع الحمل الفموية. وقد يكون **فرط برولاكتين الدم** عامل خطر للمرض."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Immunopathogensis",
+   "ar": "الإمراض المناعي"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Rheumatoid Arthritis is a disease result from immunological response to an antigen within the joint.",
+    "This antigen could be self molecules expressed in the joint or could be foreign (e.g. bacterial or viral) antigen sequestered in joint tissue.",
+    "The nature of this immunological response and the target antigen remain uncertain."
+   ],
+   "ar": [
+    "التهاب المفاصل الروماتويدي مرض ينتج عن **استجابة مناعية لمستضدّ داخل المفصل**.",
+    "وقد يكون هذا المستضدّ **جزيئات ذاتية** معبَّرًا عنها في المفصل، أو **مستضدًّا غريبًا** (بكتيريًا أو فيروسيًا مثلًا) محتجزًا في نسيج المفصل.",
+    "وتبقى طبيعة هذه الاستجابة المناعية والمستضدّ المستهدف **غير مؤكّدة**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Unknown antigen stimulates the activation of T lymphocytes that, in turn activate synovial macrophages.",
+    "The macrophages secrete the pro-inflammatory cytokines, TNF-α and IL-1, which activate osteoclasts and chondrocytes. This \"two-pronged attack\" results in the destruction of cartilage and bone.",
+    "The chondrocytes begin to produce high quantities of fibroblast growth factor and GM-CSF, which completes a harmful cycle that can result in reactivation of the macrophage.",
+    "Also, B cells are activated by polyclonal stimulation and produce immunoglobulins, especially rheumatoid factors, that stimulate the activation of complement through immune complex. Moreover, proinflammatory cytokines, especially TNF-α and IL-1, lead to the increased of proliferation and activation of fibroblast. This result in synovitis with pannus formation and in consecutive bone and joint damage."
+   ],
+   "list_ar": [
+    "مستضدّ مجهول يحفّز تنشيط **الخلايا اللمفاوية التائية**، التي بدورها تنشّط **البلاعم الزليلية**.",
+    "تفرز البلاعم **السيتوكينات المحفّزة للالتهاب** `TNF-α` و`IL-1`، التي تنشّط **ناقضات العظم** و**الخلايا الغضروفية**. ويؤدّي هذا «**الهجوم ثنائي الشُّعبة**» إلى تدمير الغضروف والعظم.",
+    "تبدأ الخلايا الغضروفية بإنتاج كميات عالية من **عامل نموّ الأرومات الليفية** و`GM-CSF`، فتكتمل **حلقة ضارّة** قد تؤدّي إلى إعادة تنشيط البلعم.",
+    "وكذلك تُنشَّط **الخلايا البائية** بالتحفيز متعدّد النسائل فتنتج الغلوبيولينات المناعية، ولا سيّما **العوامل الروماتويدية**، التي تحفّز تنشيط **المتمّم** عبر **المعقّدات المناعية**. فضلًا عن ذلك، تؤدّي السيتوكينات المحفّزة للالتهاب، ولا سيّما `TNF-α` و`IL-1`، إلى زيادة تكاثر **الأرومات الليفية** وتنشيطها. وينتج عن ذلك **التهاب الغشاء الزليلي** مع **تكوّن السَّبَل** (`pannus`)، ثم تلف العظم والمفصل تباعًا."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/ra-joint.jpg",
+   "en": "Figure: Comparison between normal and RA joint — Normal Joint: Muscle · Cartilage · Tendon · Bone · Synovium · Synovial Fluid · Joint Capsule — Joint Affected by Rheumatoid Arthritis: Bone Loss/Erosion · Cartilage Loss · Bone Loss (Generalized) · Inflamed Synovium · Swollen Joint Capsule",
+   "ar": "الشكل: مقارنة بين المفصل الطبيعي ومفصل التهاب المفاصل الروماتويدي — المفصل الطبيعي: العضلة · الغضروف · الوتر · العظم · الغشاء الزليلي · السائل الزليلي · محفظة المفصل — المفصل المصاب: فقدان/تآكل العظم · فقدان الغضروف · فقدان العظم (المعمَّم) · غشاء زليلي ملتهب · محفظة مفصل متورّمة",
+   "h": "78mm",
+   "fit": "contain",
+   "nonum": true
+  },
+  {
+   "t": "figure",
+   "src": "assets/ra-pathogenesis.jpg",
+   "en": "B. Pathogenesis of rheumatoid arthritis: Post-capillary venules · T cells · Arthritogenic peptide · Antigen presentation by synovial cells · Cytokines · B cells · Immunoglobulins Rheumatoid factor · Immune complexes · Complement activation · Synovial proliferation · Synovitis Pannus formation · Bone and joint damage — C. Induction of rheumatoid arthritis: Unknown antigen · T cells · Macrophages · Pannus tissue · GM-CSF · Synovial tissue · FGF · Chondrocytes · IL-1 · TNF-α · Osteoclasts",
+   "ar": "ب. إمراض التهاب المفاصل الروماتويدي: الوريدات بعد الشعيرية · الخلايا التائية · الببتيد المسبّب لالتهاب المفصل · تقديم المستضدّ بالخلايا الزليلية · السيتوكينات · الخلايا البائية · الغلوبيولينات المناعية والعامل الروماتويدي · المعقّدات المناعية · تنشيط المتمّم · تكاثر الغشاء الزليلي · التهاب الغشاء الزليلي وتكوّن السَّبَل · تلف العظم والمفصل — ج. استحداث التهاب المفاصل الروماتويدي: مستضدّ مجهول · الخلايا التائية · البلاعم · نسيج السَّبَل · `GM-CSF` · النسيج الزليلي · `FGF` · الخلايا الغضروفية · `IL-1` · `TNF-α` · ناقضات العظم",
+   "h": "92mm",
+   "fit": "contain",
+   "nonum": true
+  },
+  {
+   "t": "h2",
+   "en": "Symptoms of RA Patients",
+   "ar": "أعراض مرضى التهاب المفاصل الروماتويدي"
+  },
+  {
+   "t": "card",
+   "en": [
+    "RA usually affects joints on both sides of the body equally.",
+    "Wrists, fingers, knees, feet, and ankles are the most commonly affected.",
+    "The disease often begins slowly, usually with only minor joint pain, stiffness, and fatigue."
+   ],
+   "ar": [
+    "يصيب المرض عادةً المفاصل **في جانبي الجسم بالتساوي** (تناظريًا).",
+    "و**الرسغان والأصابع والركبتان والقدمان والكاحلان** هي الأكثر إصابة.",
+    "وغالبًا ما يبدأ المرض **ببطء**، عادةً بألم مفصلي بسيط وتيبّس وتعب فقط."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Other symptoms include:**",
+   "ar": "**تشمل الأعراض الأخرى:**",
+   "list_en": [
+    "Chest pain when taking a breath (pleurisy).",
+    "Pericarditis.",
+    "Eye burning, itching, and discharge.",
+    "Nodules under the skin (usually a sign of more severe disease).",
+    "Burning in the hands and feet.",
+    "Sleep difficulties."
+   ],
+   "list_ar": [
+    "ألم الصدر عند التنفّس (**التهاب الجنبة**).",
+    "**التهاب التامور**.",
+    "حرقة العين وحكّتها وإفرازاتها.",
+    "**عقيدات تحت الجلد** (علامة عادةً على مرض أشدّ).",
+    "حرقة في اليدين والقدمين.",
+    "صعوبات النوم."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Joint symptoms may include:**",
+   "ar": "**قد تشمل الأعراض المفصلية:**",
+   "list_en": [
+    "Morning stiffness, which lasts more than 1 hour, is common. Joints may feel warm, tender, and stiff when not used for an hour.",
+    "Joint pain is often felt on the same joint on both sides of the body.",
+    "Over time, joints may lose their range of motion and may become deformed."
+   ],
+   "list_ar": [
+    "**التيبّس الصباحي** الذي يستمرّ **أكثر من ساعة** شائع. وقد تبدو المفاصل دافئة ومؤلمة عند اللمس ومتيبّسة إذا لم تُستعمل لمدّة ساعة.",
+    "يُحَسّ ألم المفصل غالبًا في **المفصل نفسه في جانبي الجسم**.",
+    "ومع الوقت قد تفقد المفاصل **مدى حركتها** وقد **تتشوّه**."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Laboratory diagnosis",
+   "ar": "التشخيص المختبري"
+  },
+  {
+   "t": "h2",
+   "en": "A. Synovial fluid analysis",
+   "ar": "أ. تحليل السائل الزليلي"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Inflammatory synovial fluid (WBC count > 2000/µL) is present with WBC counts generally from 5,000-50,000/µL.",
+    "Usually, neutrophil predominance (60-70%) is observed in the synovial fluid( in contrast with mononuclear cell predominance in the synovium). Because of a transport defect, the glucose levels of pleural, pericardial, and synovial fluids in patients with RA are often low compared to serum glucose levels."
+   ],
+   "list_ar": [
+    "يوجد **سائل زليلي التهابي** (عدد كريات الدم البيض أكثر من 2000 لكل مايكرولتر)، ويكون عدد الكريات البيض عمومًا **من 5,000 إلى 50,000 لكل مايكرولتر**.",
+    "تُلاحَظ عادةً **غلبة العدلات (من 60 إلى 70%)** في السائل الزليلي (بخلاف غلبة الخلايا وحيدة النواة في الغشاء الزليلي). وبسبب **خلل في النقل**، تكون مستويات **الغلوكوز** في السوائل الجنبية والتامورية والزليلية لدى المرضى **منخفضة** غالبًا مقارنةً بغلوكوز المصل."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "B. Immunological diagnosis",
+   "ar": "ب. التشخيص المناعي"
+  },
+  {
+   "t": "card",
+   "en": "**Immunological diagnosis** include autoantibodies (e.g., **RF, anti-RF33 (nuclear antigen), anti-CCP, ANA)**.",
+   "ar": "يشمل **التشخيص المناعي** الأضداد الذاتية (مثل **`RF`، و`anti-RF33` (مستضدّ نووي)، و`anti-CCP`، و`ANA`**)."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Rheumatoid factor(RF)** refers only to the IgM antibody which binds aggregated IgG as antigen. During the first year of illness, rheumatoid factor is more likely to be negative with some individuals converting to seropositive status over time. RF is also seen in other illnesses, for example Sjögren's syndrome, Hepatitis C, chronic infections and in approximately 10% of the healthy population, therefore the test is not very specific.",
+    "**Anti-cyclic Citrullinated peptide** (**anti-CCP**) is the highly sensitivity (90-96%) for RA, can identify RA years before symptoms develop and is the most specific test for RA.",
+    "**Antinuclear antibodies (ANA)** are present in approximately 30% of patient with RA. This test is not routinely performed in the early disease.",
+    "**C-reactive protein (CRP)** for acute active arthritis."
+   ],
+   "list_ar": [
+    "**العامل الروماتويدي** (`RF`) يشير فقط إلى **ضدّ `IgM`** الذي يرتبط بـ **`IgG` المتجمّع** بوصفه مستضدًّا. وفي **السنة الأولى** من المرض يكون العامل الروماتويدي **سالبًا** على الأرجح، ويتحوّل بعض الأفراد إلى الحالة الموجبة مصليًا مع الوقت. ويُرى `RF` أيضًا في أمراض أخرى، مثل متلازمة شوغرن، والتهاب الكبد `C`، والعداوى المزمنة، ولدى نحو **10% من الأصحّاء**، لذا فالفحص **غير نوعي كثيرًا**.",
+    "**ضدّ الببتيد السيتروليني الحلقي** (`anti-CCP`) **عالي الحساسية (من 90 إلى 96%)** للمرض، ويمكنه كشف المرض **قبل ظهور الأعراض بسنوات**، وهو **الفحص الأكثر نوعية** للمرض.",
+    "**الأضداد المضادّة للنواة** (`ANA`) موجودة لدى نحو **30%** من المرضى. ولا يُجرى هذا الفحص روتينيًا في المرحلة المبكرة من المرض.",
+    "**البروتين المتفاعل-سي** (`CRP`) لالتهاب المفاصل النشط الحادّ."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Table: autoimmune response identified in patients with RA.",
+   "ar": "جدول: الاستجابة المناعية الذاتية المحدّدة لدى مرضى التهاب المفاصل الروماتويدي."
+  },
+  {
+   "t": "table",
+   "head": [
+    "Autoantigen",
+    "Antibodies in RA",
+    "T cell response in RA",
+    "Specificity for RA",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "IgG",
+     "Yes: RF",
+     "",
+     "No",
+     "`IgG` — أضداد: نعم (`RF`)؛ النوعية للمرض: لا"
+    ],
+    [
+     "Type II collagen and other cartilage antigens",
+     "Yes: in10-20%",
+     "Yes: in10-20%",
+     "No",
+     "**الكولاجين نوع II ومستضدّات الغضروف الأخرى** — أضداد: نعم لدى 10–20%؛ استجابة تائية: نعم لدى 10–20%؛ النوعية: لا"
+    ],
+    [
+     "Citrullinated proteins (CCP)",
+     "Yes",
+     "Probably",
+     "Yes",
+     "**البروتينات السيترولينية** (`CCP`) — أضداد: نعم؛ استجابة تائية: على الأرجح؛ النوعية: نعم"
+    ]
+   ],
+   "ar_cols": [
+    4
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    "20%",
+    "13%",
+    "15%",
+    "13%",
+    "39%"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "C. Hematological tests",
+   "ar": "ج. الفحوص الدموية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Complete blood count (CBC)** indicate the presence of anemia in normocytic and normochromic.",
+    "**Thrombocytosis** may be present.",
+    "**Erythrocyte sedimentation rate (ESR)** is elevated in approximately 90% of patient with RA. This test is not routinely performed in the acute setting"
+   ],
+   "list_ar": [
+    "**تعداد الدم الكامل** (`CBC`) يدلّ على وجود **فقر دم سويّ الكريات سويّ الصباغ**.",
+    "قد يوجد **كثرة الصفيحات**.",
+    "**سرعة ترسيب كريات الدم الحمر** (`ESR`) **مرتفعة لدى نحو 90%** من المرضى. ولا يُجرى هذا الفحص روتينيًا في الحالة الحادّة"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Table 10.5 Some laboratory findings in active rheumatoid arthritis (RA) contrasted with those in active systemic lupus erythematosus (SLE).",
+   "ar": "جدول 10.5 بعض النتائج المختبرية في التهاب المفاصل الروماتويدي النشط مقارنةً بالذئبة الحمامية الجهازية النشطة."
+  },
+  {
+   "t": "table",
+   "head": [
+    "",
+    "RA",
+    "SLE",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Rheumatoid factor",
+     "Positive in 70%",
+     "Positive in 30%",
+     "**العامل الروماتويدي:** موجب لدى 70% (`RA`) — موجب لدى 30% (`SLE`)"
+    ],
+    [
+     "• Titre",
+     "High",
+     "Low",
+     "العيار: عالٍ (`RA`) — منخفض (`SLE`)"
+    ],
+    [
+     "Antinuclear antibody",
+     "",
+     "",
+     "**الضدّ المضادّ للنواة:**"
+    ],
+    [
+     "• Class",
+     "IgM",
+     "IgG",
+     "الصنف: `IgM` (`RA`) — `IgG` (`SLE`)"
+    ],
+    [
+     "• Titre",
+     "Low",
+     "High",
+     "العيار: منخفض (`RA`) — عالٍ (`SLE`)"
+    ],
+    [
+     "• Proportion of patients positive",
+     "40%",
+     "95%",
+     "نسبة المرضى الموجبين: 40% (`RA`) — 95% (`SLE`)"
+    ],
+    [
+     "DNA binding",
+     "",
+     "",
+     "**الارتباط بالـ `DNA`:**"
+    ],
+    [
+     "• Proportion of patients positive",
+     "<10%",
+     "70–85%",
+     "نسبة المرضى الموجبين: أقل من 10% (`RA`) — من 70 إلى 85% (`SLE`)"
+    ],
+    [
+     "C3 + C4 levels",
+     "Normal or ↑",
+     "↓ or normal",
+     "**مستويات `C3 + C4`:** طبيعية أو مرتفعة (`RA`) — منخفضة أو طبيعية (`SLE`)"
+    ],
+    [
+     "C-reactive protein",
+     "↑",
+     "Usually normal",
+     "**البروتين المتفاعل-سي:** مرتفع (`RA`) — طبيعي عادةً (`SLE`)"
+    ],
+    [
+     "Immunofluorescent examination of a skin biopsy\\*",
+     "–ve",
+     "+ve",
+     "**الفحص بالتألّق المناعي لخزعة جلد:** سالب (`RA`) — موجب (`SLE`)"
+    ],
+    [
+     "Serum IgG levels",
+     "Usually normal",
+     "Often ↑",
+     "**مستويات `IgG` في المصل:** طبيعية عادةً (`RA`) — مرتفعة غالبًا (`SLE`)"
+    ]
+   ],
+   "ar_cols": [
+    3
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    "30%",
+    "15%",
+    "15%",
+    "40%"
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Definition and causes",
+    "topic_ar": "التعريف والأسباب"
+   },
+   {
+    "en": "Rheumatoid arthritis primarily involves:",
+    "ar": "يصيب التهاب المفاصل الروماتويدي أساسًا:",
+    "options": [
+     [
+      "The skin only",
+      "الجلد فقط"
+     ],
+     [
+      "The kidneys only",
+      "الكليتين فقط"
+     ],
+     [
+      "The synovial membranes and articular structures of multiple joints",
+      "الأغشية الزليلية والتراكيب المفصلية لمفاصل متعدّدة"
+     ],
+     [
+      "A single large joint only",
+      "مفصلًا كبيرًا واحدًا فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The female : male ratio of RA is:",
+    "ar": "نسبة الإناث إلى الذكور في التهاب المفاصل الروماتويدي:",
+    "options": [
+     [
+      "1:1",
+      "1:1"
+     ],
+     [
+      "3:1",
+      "3:1"
+     ],
+     [
+      "1:3",
+      "1:3"
+     ],
+     [
+      "9:1",
+      "9:1"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The onset of RA reaches between:",
+    "ar": "يبدأ التهاب المفاصل الروماتويدي بين عمر:",
+    "options": [
+     [
+      "5 and 15 years",
+      "5 و15 سنة"
+     ],
+     [
+      "35 and 50 years",
+      "35 و50 سنة"
+     ],
+     [
+      "15 and 25 years",
+      "15 و25 سنة"
+     ],
+     [
+      "70 and 90 years",
+      "70 و90 سنة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which HLA molecules are associated with RA?",
+    "ar": "أيّ جزيئات `HLA` ترتبط بالتهاب المفاصل الروماتويدي؟",
+    "options": [
+     [
+      "HLA-B27",
+      "`HLA-B27`"
+     ],
+     [
+      "HLA-DR4",
+      "`HLA-DR4`"
+     ],
+     [
+      "HLA-DR2/DR3",
+      "`HLA-DR2/DR3`"
+     ],
+     [
+      "HLA-A1",
+      "`HLA-A1`"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which is listed among the environmental (infectious) agents suggested to induce RA?",
+    "ar": "أيّ ممّا يأتي من العوامل البيئية (العدوى) المقترحة لتحفيز المرض؟",
+    "options": [
+     [
+      "Epstein Barr virus",
+      "فيروس إبشتاين-بار"
+     ],
+     [
+      "Plasmodium",
+      "البلازموديوم"
+     ],
+     [
+      "Ascaris",
+      "الأسكارس"
+     ],
+     [
+      "Candida",
+      "المبيضّات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Evidence for a hormonal role in RA includes:",
+    "ar": "من أدلّة الدور الهرموني في المرض:",
+    "options": [
+     [
+      "Its amelioration during pregnancy",
+      "تحسّنه أثناء الحمل"
+     ],
+     [
+      "Its worsening during pregnancy",
+      "تفاقمه أثناء الحمل"
+     ],
+     [
+      "Equal sex distribution",
+      "تساوي الإصابة بين الجنسين"
+     ],
+     [
+      "Increased incidence with oral contraceptives",
+      "زيادة حدوثه مع موانع الحمل الفموية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which may be a risk factor for RA?",
+    "ar": "أيّ ممّا يأتي قد يكون عامل خطر للمرض؟",
+    "options": [
+     [
+      "Hypoglycemia",
+      "نقص سكر الدم"
+     ],
+     [
+      "Hypocalcemia",
+      "نقص كالسيوم الدم"
+     ],
+     [
+      "Hyperprolactinemia",
+      "فرط برولاكتين الدم"
+     ],
+     [
+      "Hypothyroidism",
+      "قصور الدرقية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Immunopathogenesis",
+    "topic_ar": "الإمراض المناعي"
+   },
+   {
+    "en": "In RA, the unknown antigen first stimulates the activation of:",
+    "ar": "في المرض، يحفّز المستضدّ المجهول أولًا تنشيط:",
+    "options": [
+     [
+      "T lymphocytes",
+      "الخلايا اللمفاوية التائية"
+     ],
+     [
+      "Neutrophils",
+      "العدلات"
+     ],
+     [
+      "Eosinophils",
+      "الحمضات"
+     ],
+     [
+      "Platelets",
+      "الصفيحات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Synovial macrophages secrete the pro-inflammatory cytokines:",
+    "ar": "تفرز البلاعم الزليلية السيتوكينات المحفّزة للالتهاب:",
+    "options": [
+     [
+      "IL-4 and IL-10",
+      "`IL-4` و`IL-10`"
+     ],
+     [
+      "IFN-α only",
+      "`IFN-α` فقط"
+     ],
+     [
+      "TNF-α and IL-1",
+      "`TNF-α` و`IL-1`"
+     ],
+     [
+      "IL-2 only",
+      "`IL-2` فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The “two-pronged attack” in RA activates:",
+    "ar": "«الهجوم ثنائي الشُّعبة» في المرض ينشّط:",
+    "options": [
+     [
+      "B cells and T cells",
+      "الخلايا البائية والتائية"
+     ],
+     [
+      "Platelets and RBCs",
+      "الصفيحات وكريات الدم الحمر"
+     ],
+     [
+      "Osteoclasts and chondrocytes",
+      "ناقضات العظم والخلايا الغضروفية"
+     ],
+     [
+      "Neutrophils and eosinophils",
+      "العدلات والحمضات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Chondrocytes produce high quantities of:",
+    "ar": "تنتج الخلايا الغضروفية كميات عالية من:",
+    "options": [
+     [
+      "Insulin",
+      "الإنسولين"
+     ],
+     [
+      "Rheumatoid factor",
+      "العامل الروماتويدي"
+     ],
+     [
+      "Complement",
+      "المتمّم"
+     ],
+     [
+      "Fibroblast growth factor and GM-CSF",
+      "عامل نموّ الأرومات الليفية و`GM-CSF`"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "B cells in RA are activated by polyclonal stimulation and produce especially:",
+    "ar": "تُنشَّط الخلايا البائية في المرض بالتحفيز متعدّد النسائل وتنتج خصوصًا:",
+    "options": [
+     [
+      "Anti-dsDNA",
+      "`anti-dsDNA`"
+     ],
+     [
+      "IgE",
+      "`IgE`"
+     ],
+     [
+      "Rheumatoid factors",
+      "العوامل الروماتويدية"
+     ],
+     [
+      "Anti-Sm",
+      "`anti-Sm`"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Increased proliferation and activation of fibroblasts results in:",
+    "ar": "زيادة تكاثر الأرومات الليفية وتنشيطها تؤدّي إلى:",
+    "options": [
+     [
+      "Uveitis",
+      "التهاب العنبية"
+     ],
+     [
+      "Malar rash",
+      "الطفح الوجني"
+     ],
+     [
+      "Glomerulonephritis",
+      "التهاب كبيبات الكلى"
+     ],
+     [
+      "Synovitis with pannus formation",
+      "التهاب الغشاء الزليلي مع تكوّن السَّبَل"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Symptoms",
+    "topic_ar": "الأعراض"
+   },
+   {
+    "en": "RA usually affects joints:",
+    "ar": "يصيب المرض المفاصل عادةً:",
+    "options": [
+     [
+      "On one side only",
+      "في جانب واحد فقط"
+     ],
+     [
+      "In the spine only",
+      "في العمود الفقري فقط"
+     ],
+     [
+      "Randomly in one joint",
+      "عشوائيًا في مفصل واحد"
+     ],
+     [
+      "On both sides of the body equally",
+      "في جانبي الجسم بالتساوي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Morning stiffness in RA typically lasts:",
+    "ar": "يستمرّ التيبّس الصباحي في المرض عادةً:",
+    "options": [
+     [
+      "Less than 5 minutes",
+      "أقل من 5 دقائق"
+     ],
+     [
+      "Exactly 10 minutes",
+      "10 دقائق بالضبط"
+     ],
+     [
+      "More than 1 hour",
+      "أكثر من ساعة"
+     ],
+     [
+      "It never occurs",
+      "لا يحدث أبدًا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Chest pain when taking a breath in RA is called:",
+    "ar": "ألم الصدر عند التنفّس في المرض يُسمّى:",
+    "options": [
+     [
+      "Pericarditis",
+      "التهاب التامور"
+     ],
+     [
+      "Iritis",
+      "التهاب القزحية"
+     ],
+     [
+      "Dactylitis",
+      "التهاب الإصبع"
+     ],
+     [
+      "Pleurisy",
+      "التهاب الجنبة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Nodules under the skin in RA are usually a sign of:",
+    "ar": "العقيدات تحت الجلد في المرض علامة عادةً على:",
+    "options": [
+     [
+      "Early mild disease",
+      "مرض مبكر خفيف"
+     ],
+     [
+      "Cure",
+      "الشفاء"
+     ],
+     [
+      "Drug allergy",
+      "حساسية دوائية"
+     ],
+     [
+      "More severe disease",
+      "مرض أشدّ"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Laboratory diagnosis",
+    "topic_ar": "التشخيص المختبري"
+   },
+   {
+    "en": "WBC counts in inflammatory synovial fluid of RA are generally:",
+    "ar": "عدد الكريات البيض في السائل الزليلي الالتهابي للمرض عمومًا:",
+    "options": [
+     [
+      "< 200/µL",
+      "أقل من 200"
+     ],
+     [
+      "5,000–50,000/µL",
+      "من 5,000 إلى 50,000 لكل مايكرولتر"
+     ],
+     [
+      "500–1,000/µL",
+      "من 500 إلى 1,000"
+     ],
+     [
+      "> 500,000/µL",
+      "أكثر من 500,000"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In RA synovial fluid, the predominant cells are usually:",
+    "ar": "الخلايا الغالبة في السائل الزليلي للمرض عادةً:",
+    "options": [
+     [
+      "Eosinophils",
+      "الحمضات"
+     ],
+     [
+      "Neutrophils (60-70%)",
+      "العدلات (من 60 إلى 70%)"
+     ],
+     [
+      "Basophils",
+      "القعدات"
+     ],
+     [
+      "Plasma cells only",
+      "خلايا البلازما فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Synovial fluid glucose in RA is often low because of:",
+    "ar": "يكون غلوكوز السائل الزليلي في المرض منخفضًا غالبًا بسبب:",
+    "options": [
+     [
+      "Diabetes",
+      "داء السكري"
+     ],
+     [
+      "Fasting",
+      "الصيام"
+     ],
+     [
+      "A transport defect",
+      "خلل في النقل"
+     ],
+     [
+      "Excess insulin",
+      "زيادة الإنسولين"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Rheumatoid factor refers only to:",
+    "ar": "يشير العامل الروماتويدي فقط إلى:",
+    "options": [
+     [
+      "IgG antibody against DNA",
+      "ضدّ `IgG` موجّه ضدّ `DNA`"
+     ],
+     [
+      "The IgM antibody which binds aggregated IgG as antigen",
+      "ضدّ `IgM` الذي يرتبط بـ `IgG` المتجمّع كمستضدّ"
+     ],
+     [
+      "IgE against allergens",
+      "`IgE` ضدّ المؤرّجات"
+     ],
+     [
+      "IgA in saliva",
+      "`IgA` في اللعاب"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "RF is not very specific because it is also found in about:",
+    "ar": "`RF` غير نوعي كثيرًا لأنه يوجد أيضًا لدى نحو:",
+    "options": [
+     [
+      "90% of the healthy population",
+      "90% من الأصحّاء"
+     ],
+     [
+      "10% of the healthy population",
+      "10% من الأصحّاء"
+     ],
+     [
+      "0% of other diseases",
+      "0% من الأمراض الأخرى"
+     ],
+     [
+      "All children",
+      "كل الأطفال"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The most specific test for RA is:",
+    "ar": "الفحص الأكثر نوعية للمرض هو:",
+    "options": [
+     [
+      "Anti-CCP",
+      "`anti-CCP`"
+     ],
+     [
+      "ANA",
+      "`ANA`"
+     ],
+     [
+      "ESR",
+      "`ESR`"
+     ],
+     [
+      "CBC",
+      "`CBC`"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "ANA is present in approximately what percentage of RA patients?",
+    "ar": "توجد `ANA` لدى نحو أيّ نسبة من مرضى المرض؟",
+    "options": [
+     [
+      "30%",
+      "30%"
+     ],
+     [
+      "90%",
+      "90%"
+     ],
+     [
+      "70%",
+      "70%"
+     ],
+     [
+      "100%",
+      "100%"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "ESR is elevated in approximately what percentage of RA patients?",
+    "ar": "ترتفع `ESR` لدى نحو أيّ نسبة من مرضى المرض؟",
+    "options": [
+     [
+      "90%",
+      "90%"
+     ],
+     [
+      "10%",
+      "10%"
+     ],
+     [
+      "30%",
+      "30%"
+     ],
+     [
+      "50%",
+      "50%"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "According to Table 10.5, the ANA class in RA is:",
+    "ar": "حسب جدول 10.5، صنف `ANA` في المرض هو:",
+    "options": [
+     [
+      "IgG",
+      "`IgG`"
+     ],
+     [
+      "IgA",
+      "`IgA`"
+     ],
+     [
+      "IgE",
+      "`IgE`"
+     ],
+     [
+      "IgM",
+      "`IgM`"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "According to the RA autoimmune response table, which autoantigen has specificity for RA?",
+    "ar": "حسب جدول الاستجابة المناعية الذاتية، أيّ مستضدّ ذاتي له نوعية للمرض؟",
+    "options": [
+     [
+      "IgG",
+      "`IgG`"
+     ],
+     [
+      "Type II collagen",
+      "الكولاجين نوع II"
+     ],
+     [
+      "Other cartilage antigens",
+      "مستضدّات الغضروف الأخرى"
+     ],
+     [
+      "Citrullinated proteins (CCP)",
+      "البروتينات السيترولينية (`CCP`)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The CBC in RA indicates anemia that is:",
+    "ar": "يدلّ `CBC` في المرض على فقر دم:",
+    "options": [
+     [
+      "Normocytic and normochromic",
+      "سويّ الكريات سويّ الصباغ"
+     ],
+     [
+      "Microcytic hypochromic",
+      "صغير الكريات ناقص الصباغ"
+     ],
+     [
+      "Macrocytic",
+      "كبير الكريات"
+     ],
+     [
+      "Hemolytic only",
+      "انحلالي فقط"
+     ]
+    ],
+    "answer": "a"
+   }
+  ],
+  "tf": [
+   {
+    "en": "The causes of RA are well known.",
+    "ar": "أسباب التهاب المفاصل الروماتويدي معروفة جيدًا.",
+    "answer": "F"
+   },
+   {
+    "en": "Women are affected by RA more than men.",
+    "ar": "تُصاب النساء بالمرض أكثر من الرجال.",
+    "answer": "T"
+   },
+   {
+    "en": "HLA-DR1 carries the shared epitope and confers risk for RA.",
+    "ar": "يحمل `HLA-DR1` الحاتمة المشتركة ويمنح خطر الإصابة.",
+    "answer": "T"
+   },
+   {
+    "en": "RA incidence is increased in women using oral contraceptives.",
+    "ar": "يزداد حدوث المرض لدى النساء اللواتي يستعملن موانع الحمل الفموية.",
+    "answer": "F"
+   },
+   {
+    "en": "Macrophages in RA secrete TNF-α and IL-1.",
+    "ar": "تفرز البلاعم في المرض `TNF-α` و`IL-1`.",
+    "answer": "T"
+   },
+   {
+    "en": "Rheumatoid factors stimulate complement activation through immune complexes.",
+    "ar": "تحفّز العوامل الروماتويدية تنشيط المتمّم عبر المعقّدات المناعية.",
+    "answer": "T"
+   },
+   {
+    "en": "Wrists, fingers, knees, feet, and ankles are the most commonly affected joints.",
+    "ar": "الرسغان والأصابع والركبتان والقدمان والكاحلان هي الأكثر إصابة.",
+    "answer": "T"
+   },
+   {
+    "en": "In RA synovial fluid, mononuclear cells predominate.",
+    "ar": "في السائل الزليلي للمرض تغلب الخلايا وحيدة النواة.",
+    "answer": "F"
+   },
+   {
+    "en": "Synovial glucose in RA is usually higher than serum glucose.",
+    "ar": "غلوكوز السائل الزليلي في المرض أعلى عادةً من غلوكوز المصل.",
+    "answer": "F"
+   },
+   {
+    "en": "During the first year of illness, RF is more likely to be negative.",
+    "ar": "في السنة الأولى من المرض يكون `RF` سالبًا على الأرجح.",
+    "answer": "T"
+   },
+   {
+    "en": "Anti-CCP can identify RA years before symptoms develop.",
+    "ar": "يمكن لـ `anti-CCP` كشف المرض قبل ظهور الأعراض بسنوات.",
+    "answer": "T"
+   },
+   {
+    "en": "ANA is routinely performed in early RA.",
+    "ar": "يُجرى فحص `ANA` روتينيًا في المرض المبكر.",
+    "answer": "F"
+   },
+   {
+    "en": "Thrombocytopenia is listed among the hematological findings of RA.",
+    "ar": "قلّة الصفيحات مذكورة ضمن النتائج الدموية للمرض.",
+    "answer": "F"
+   },
+   {
+    "en": "According to Table 10.5, C-reactive protein is usually normal in RA.",
+    "ar": "حسب جدول 10.5، البروتين المتفاعل-سي طبيعي عادةً في المرض.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Rheumatoid factor is the most specific test for RA.",
+    "ar": "العامل الروماتويدي هو الفحص الأكثر نوعية للمرض.",
+    "answer_en": "No — RF is not very specific (seen in Sjögren's syndrome, Hepatitis C, chronic infections and ~10% of healthy people); anti-CCP is the most specific test for RA.",
+    "answer_ar": "لا — `RF` غير نوعي كثيرًا (يوجد في متلازمة شوغرن والتهاب الكبد `C` والعداوى المزمنة ولدى نحو 10% من الأصحّاء)؛ و`anti-CCP` هو الفحص الأكثر نوعية."
+   },
+   {
+    "en": "RF is an IgG antibody.",
+    "ar": "العامل الروماتويدي ضدّ من صنف `IgG`.",
+    "answer_en": "No — RF refers only to the IgM antibody which binds aggregated IgG as antigen.",
+    "answer_ar": "لا — `RF` يشير فقط إلى ضدّ `IgM` الذي يرتبط بـ `IgG` المتجمّع كمستضدّ."
+   },
+   {
+    "en": "Synovial fluid and synovium in RA are dominated by the same cells.",
+    "ar": "السائل الزليلي والغشاء الزليلي في المرض تغلب عليهما الخلايا نفسها.",
+    "answer_en": "No — neutrophils predominate in the synovial fluid (60-70%), in contrast with mononuclear cell predominance in the synovium.",
+    "answer_ar": "لا — تغلب العدلات في السائل الزليلي (من 60 إلى 70%)، بخلاف غلبة الخلايا وحيدة النواة في الغشاء الزليلي."
+   },
+   {
+    "en": "Pregnancy worsens RA.",
+    "ar": "الحمل يُفاقم المرض.",
+    "answer_en": "No — RA shows amelioration during pregnancy and recurrence in the early postpartum period.",
+    "answer_ar": "لا — يتحسّن المرض أثناء الحمل ويعود في فترة ما بعد الولادة المبكرة."
+   },
+   {
+    "en": "In Table 10.5, the ANA titre is high in RA.",
+    "ar": "في جدول 10.5، عيار `ANA` عالٍ في المرض.",
+    "answer_en": "No — in RA the ANA titre is low (IgM, 40% positive); in SLE it is high (IgG, 95% positive).",
+    "answer_ar": "لا — في `RA` عيار `ANA` منخفض (`IgM`، 40% موجبون)؛ وفي `SLE` عالٍ (`IgG`، 95% موجبون)."
+   },
+   {
+    "en": "The two-pronged attack is made by T cells and B cells.",
+    "ar": "الهجوم ثنائي الشُّعبة تقوم به الخلايا التائية والبائية.",
+    "answer_en": "No — TNF-α and IL-1 from macrophages activate osteoclasts and chondrocytes; this two-pronged attack destroys cartilage and bone.",
+    "answer_ar": "لا — `TNF-α` و`IL-1` من البلاعم ينشّطان ناقضات العظم والخلايا الغضروفية؛ وهذا الهجوم ثنائي الشُّعبة يدمّر الغضروف والعظم."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define rheumatoid arthritis and mention its sex ratio and age of onset.",
+    "ar": "عرّف التهاب المفاصل الروماتويدي واذكر نسبة الجنسين وعمر البدء.",
+    "answer_en": "A chronic systemic inflammatory disease of undetermined etiology involving primarily the synovial membranes and articular structures of multiple joints; female:male 3:1; onset between 35 and 50 years.",
+    "answer_ar": "مرض التهابي جهازي مزمن غير محدّد السبب يصيب أساسًا الأغشية الزليلية والتراكيب المفصلية لمفاصل متعدّدة؛ الإناث إلى الذكور 3:1؛ البدء بين 35 و50 سنة."
+   },
+   {
+    "en": "Mention the causes (risk factors) of RA.",
+    "ar": "اذكر أسباب (عوامل خطر) المرض.",
+    "answer_en": "Genetic (HLA-DR4, HLA-DR1 shared epitope); environmental (Mycoplasma, Epstein Barr virus, rubella, cytomegalovirus, herpes virus); hormonal (sex hormones, hyperprolactinemia).",
+    "answer_ar": "وراثية (`HLA-DR4`، والحاتمة المشتركة لـ `HLA-DR1`)؛ بيئية (المفطورة، إبشتاين-بار، الحصبة الألمانية، المضخّم للخلايا، الهربس)؛ هرمونية (الهرمونات الجنسية، فرط البرولاكتين)."
+   },
+   {
+    "en": "Describe the immunopathogenesis of RA.",
+    "ar": "صِف الإمراض المناعي للمرض.",
+    "answer_en": "Unknown antigen activates T cells → synovial macrophages secrete TNF-α and IL-1 → activate osteoclasts and chondrocytes (cartilage and bone destruction) → chondrocytes produce FGF and GM-CSF (harmful cycle) → B cells produce rheumatoid factors → complement activation via immune complexes → fibroblast proliferation → synovitis with pannus and bone/joint damage.",
+    "answer_ar": "مستضدّ مجهول ينشّط الخلايا التائية ← البلاعم الزليلية تفرز `TNF-α` و`IL-1` ← تنشيط ناقضات العظم والخلايا الغضروفية (تدمير الغضروف والعظم) ← الخلايا الغضروفية تنتج `FGF` و`GM-CSF` (حلقة ضارّة) ← الخلايا البائية تنتج العوامل الروماتويدية ← تنشيط المتمّم عبر المعقّدات المناعية ← تكاثر الأرومات الليفية ← التهاب زليلي مع السَّبَل وتلف العظم والمفصل."
+   },
+   {
+    "en": "List the joint symptoms of RA.",
+    "ar": "عدّد الأعراض المفصلية للمرض.",
+    "answer_en": "Morning stiffness lasting more than 1 hour; joint pain on the same joint on both sides of the body; over time, loss of range of motion and deformity.",
+    "answer_ar": "تيبّس صباحي أكثر من ساعة؛ ألم المفصل نفسه في جانبي الجسم؛ ومع الوقت فقدان مدى الحركة والتشوّه."
+   },
+   {
+    "en": "Describe the synovial fluid analysis in RA.",
+    "ar": "صِف تحليل السائل الزليلي في المرض.",
+    "answer_en": "Inflammatory fluid (WBC > 2000/µL, generally 5,000-50,000/µL); neutrophil predominance (60-70%); low glucose compared to serum because of a transport defect.",
+    "answer_ar": "سائل التهابي (كريات بيض أكثر من 2000، عمومًا من 5,000 إلى 50,000 لكل مايكرولتر)؛ غلبة العدلات (من 60 إلى 70%)؛ غلوكوز منخفض مقارنةً بالمصل بسبب خلل في النقل."
+   },
+   {
+    "en": "Compare RF and anti-CCP in the diagnosis of RA.",
+    "ar": "قارن بين `RF` و`anti-CCP` في تشخيص المرض.",
+    "answer_en": "RF: IgM binding aggregated IgG; often negative in the first year; also in other diseases and ~10% of healthy people — not very specific. Anti-CCP: highly sensitive (90-96%), detects RA years before symptoms, the most specific test.",
+    "answer_ar": "`RF`: `IgM` يرتبط بـ `IgG` المتجمّع؛ سالب غالبًا في السنة الأولى؛ يوجد في أمراض أخرى ولدى نحو 10% من الأصحّاء — غير نوعي كثيرًا. `anti-CCP`: عالي الحساسية (من 90 إلى 96%)، يكشف المرض قبل الأعراض بسنوات، وهو الأكثر نوعية."
+   }
+  ]
+ }
+}
