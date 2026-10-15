@@ -13,6 +13,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `parasitology-lab3-entamoeba/` — Diagnostic Parasitology practical lab 3: Entamoeba histolytica (د. ناريمان حسن) — fourth stage, separate question file.
 - `microbiology-lab1-biosafety/` — Diagnostic Microbiology practical lab 1: rules and biosafety levels (new build from the Markdown source) — fourth stage, separate question file.
 - `microbiology-lab2-specimens/` — Diagnostic Microbiology practical lab 2: selection, collection and transport of specimens (د. ذهب) — fourth stage, separate question file.
+- `microbiology-lec1-purpose-philosophy/` — Diagnostic Microbiology theory lecture 1: manifestations of infection, conventional and newer methods, purpose and philosophy of diagnostic bacteriology (د. عدنان) — fourth stage, separate question file.
 - `microbiology-lab3-culture-media/` — Diagnostic Microbiology practical lab 3: culture media (د. ذهب) — fourth stage, separate question file.
 - `bloodbank-lec1-introduction/` — Blood Transfusion (نقل الدم) lecture 1: Introduction to blood banking + Practical 1.
 - `bloodbank-lec2-donation-criteria/` — Blood Transfusion lecture 2: Criteria of blood donation.

@@ -1,0 +1,1134 @@
+{
+ "meta": {
+  "subject_en": "Diagnostic Microbiology",
+  "subject_ar": "الأحياء المجهرية التشخيصية",
+  "short_ar": "بكتريا",
+  "unit_en": "Lecture 1",
+  "unit_ar": "المحاضرة 1",
+  "unit_label": "LEC",
+  "unit_no": "1",
+  "title_en": "Purpose and Philosophy — Manifestations of Infection",
+  "title_ar": "الهدف والفلسفة ومظاهر العدوى",
+  "kind": "Theory — نظري",
+  "stage": "The fourth stage — الرابعة",
+  "instructor": "د. عدنان",
+  "file_name": "بكتريا نظري المحاضرة الاولى",
+  "questions_suffix": " اسئلة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Manifestations of Infection",
+   "ar": "مظاهر العدوى"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The clinical presentation of an infectious disease reflects the interaction between the host and the microorganism.",
+    "This interaction is affected by the host immune status and microbial virulence factors. Signs and symptoms vary according to the site and severity of infection.",
+    "Diagnosis requires a composite of information, including history, physical examination, radiographic findings, and laboratory data."
+   ],
+   "list_ar": [
+    "يعكس **العرض السريري** لمرض معدٍ التفاعل بين **المضيف** والكائنات الحية الدقيقة.",
+    "يتأثر هذا التفاعل **بالحالة المناعية للمضيف** و**عوامل الفوعة الميكروبية**. تختلف العلامات والأعراض وفقًا لموقع العدوى وشدتها.",
+    "يتطلب **التشخيص** مجموعة من المعلومات، بما في ذلك التاريخ والفحص البدني والنتائج الإشعاعية والبيانات المختبرية."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Microbial Causes of Infection",
+   "ar": "الأسباب الميكروبية للعدوى"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Infections may be caused by bacteria, viruses, fungi, and parasites.",
+    "The pathogen may be:"
+   ],
+   "ar": [
+    "قد تحدث العدوى بسبب البكتيريا والفيروسات والفطريات والطفيليات.",
+    "وقد يكون العامل الممرض:"
+   ],
+   "list_en": [
+    "**Exogenous:** acquired from environmental or animal sources or from other persons.",
+    "**Endogenous:** from the normal flora."
+   ],
+   "list_ar": [
+    "**خارجي** (`Exogenous`): مكتسب من مصادر بيئية أو حيوانية أو من أشخاص آخرين.",
+    "**داخلي** (`Endogenous`): من النبيت الطبيعي."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Diagnostic Microbiology",
+   "ar": "الأحياء المجهرية التشخيصية"
+  },
+  {
+   "t": "card",
+   "en": "Diagnostic microbiology is the tool that makes it possible to identify the exact pathogens of infectious diseases and the most optimal therapy at the level of individual patients.",
+   "ar": "**الأحياء المجهرية التشخيصية** هي الأداة التي تجعل من الممكن تحديد مسببات الأمراض الدقيقة للأمراض المعدية والعلاج الأمثل على مستوى المرضى الأفراد."
+  },
+  {
+   "t": "section",
+   "en": "Conventional Methods",
+   "ar": "الطرق التقليدية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Conventional methods require time to grow the microbes *in vitro* under specific conditions, and not all microbes can easily be cultured. This is followed by biochemical methods for identification, which further makes the process lengthy.",
+    "Transport of the specimens under less than ideal conditions, prior use of antibiotics, and small number of organisms are among the factors that render culture-based methods less reliable."
+   ],
+   "list_ar": [
+    "تتطلب **الطرق التقليدية** وقتًا لزراعة الميكروبات في المختبر (`in vitro`) في ظل ظروف محددة، ولا يمكن زراعة جميع الميكروبات بسهولة. يتبع ذلك طرق كيميائية حيوية لتحديد الهوية، مما يزيد من إطالة العملية.",
+    "يعد نقل العينات في ظل ظروف أقل من المثالية، والاستخدام السابق للمضادات الحيوية، والعدد القليل من الكائنات الحية من بين العوامل التي تجعل **الطرق القائمة على الزرع أقل موثوقية**."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Newer Methods",
+   "ar": "الطرق الأحدث"
+  },
+  {
+   "t": "card",
+   "en": "Newer methods depend on amplification of nucleic acids followed by use of probes for identification.",
+   "ar": "تعتمد **الطرق الأحدث** على **تضخيم الأحماض النووية** ثم استعمال **المجسّات** (`probes`) لتحديد الهوية.",
+   "list_en": [
+    "This mitigates the need for higher microbial load, presence of metabolically active viable organisms, and shortens the time.",
+    "These methods can be used to detect antibiotic resistance genes directly from the specimen and help direct targeted therapy with efficacy.",
+    "Since these methods will not fulfill all the diagnostic needs, a second approach is being used to shorten the time to identification after the organism has already grown."
+   ],
+   "list_ar": [
+    "تخفف هذه الطرق من الحاجة إلى **حمل ميكروبي أعلى** ووجود كائنات حية نشطة الأيض، كما **تقصر الوقت**.",
+    "يمكن استخدام هذه الطرق للكشف عن **جينات مقاومة المضادات الحيوية** مباشرة من العينة والمساعدة في توجيه العلاج المستهدف بفعالية.",
+    "نظرًا لأن هذه الطرق لن تلبي جميع الاحتياجات التشخيصية، يتم استخدام نهج ثانٍ لتقصير الوقت اللازم لتحديد الهوية بعد نمو الكائن الحي بالفعل."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Microbial Colonization",
+   "ar": "الاستعمار الميكروبي"
+  },
+  {
+   "t": "card",
+   "en": "Microbial colonization may result in:",
+   "ar": "قد يؤدّي **الاستعمار الميكروبي** إلى:",
+   "list_en": [
+    "**Elimination of the microorganism without affecting the host.**",
+    "**Infection** in which the organisms multiply and cause the host to react by making an immune or other type of response.",
+    "**A transient or prolonged carrier state.** Infectious disease occurs when the organism causes tissue damage and loss of function of body systems."
+   ],
+   "list_ar": [
+    "**القضاء على الكائنات الحية الدقيقة دون التأثير على المضيف.**",
+    "**العدوى** التي تتكاثر فيها الكائنات الحية وتتسبب في تفاعل المضيف عن طريق إجراء استجابة مناعية أو أي نوع آخر من الاستجابة.",
+    "**حالة حاملة عابرة أو طويلة.** يحدث **المرض المعدي** عندما يتسبب الكائن الحي في تلف الأنسجة وفقدان وظيفة أنظمة الجسم."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Purpose and Philosophy of Diagnostic Bacteriology",
+   "ar": "هدف علم البكتيريا التشخيصي وفلسفته"
+  },
+  {
+   "t": "card",
+   "en": "The purpose and philosophy of diagnostic bacteriology depend on identifying the causative microorganism by different laboratory methods, which is usually essential for effective antimicrobial and supportive therapy.",
+   "ar": "يعتمد الهدف والفلسفة من **علم البكتيريا التشخيصي** على **تحديد الكائن المسبب للعدوى** باستخدام طرق مخبرية مختلفة، وهو أمر ضروري عادةً للعلاج الفعال بمضادات الميكروبات والعلاج الداعم."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Through that initial treatment may be empiric, based on the microbiologic epidemiology of the infection and the patient’s symptoms."
+   ],
+   "list_ar": [
+    "وقد يكون **العلاج الأولي تجريبيًا**، استنادًا إلى علم الأوبئة الميكروبيولوجي للعدوى وأعراض المريض."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "However, definitive microbiologic diagnosis of an infectious disease usually involves one or more of the following five basic laboratory techniques, which guide the physician along a narrowing path of possible causative pathogens:",
+   "ar": "ومع ذلك، يتضمّن **التشخيص الميكروبيولوجي النهائي** للمرض المعدي عادةً واحدة أو أكثر من **التقنيات المختبرية الأساسية الخمس** الآتية، التي توجّه الطبيب في مسار يضيق تدريجيًا بين المُمرِضات المحتملة:",
+   "list_en": [
+    "**Morphologic identification** of the agent in stains of specimens or sections of tissues (light and electron microscopy).",
+    "**Cultivation and identification** of the organisms.",
+    "**Detection of microbial antigens** by immunologic assay (latex agglutination, enzyme immunoassay [EIA]).",
+    "**Detection of microbial DNA or RNA.**",
+    "The source lists obtaining the proper specimens and informing the laboratory of the careful clinical diagnosis; the clinician should begin treatment with drugs aimed at the organism thought to be responsible for the patient’s illness."
+   ],
+   "list_ar": [
+    "**التعرّف الشكلي** على العامل في صبغات العيّنات أو مقاطع الأنسجة (المجهر الضوئي والإلكتروني).",
+    "**الزرع والتشخيص** للكائنات.",
+    "**الكشف عن المستضدات الميكروبية** بالفحص المناعي (التلازن بالّلاتكس، والفحص المناعي الإنزيمي `[EIA]`).",
+    "**الكشف عن `DNA` أو `RNA` الميكروبي.**",
+    "يذكر المصدر الحصول على العيّنات المناسبة وإبلاغ المختبر بالتشخيص السريري الدقيق؛ وعلى الطبيب أن يبدأ العلاج بأدوية موجّهة إلى الكائن الذي يُعتقد أنه المسؤول عن مرض المريض."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Laboratory Feedback and Clinical Course",
+   "ar": "التغذية الراجعة من المختبر والمسار السريري"
+  },
+  {
+   "t": "card",
+   "en": "As the laboratory staff begins to obtain results, they inform health care providers, who can then reevaluate the diagnosis and clinical course of the patient and perhaps make changes in the therapeutic program.",
+   "ar": "عندما يبدأ موظفو المختبر في الحصول على النتائج، فإنهم يبلغون مقدمي الرعاية الصحية، الذين يمكنهم بعد ذلك **إعادة تقييم التشخيص والمسار السريري** للمريض وربما إجراء تغييرات في البرنامج العلاجي."
+  },
+  {
+   "t": "card",
+   "en": "This “feedback” information from the laboratory consists of earliest reports of the results of individual steps in the isolation and identification of the causative agent.",
+   "ar": "وتتكون معلومات «**التغذية الراجعة**» من المختبر من أقدم التقارير عن نتائج الخطوات الفردية في عزل وتحديد العامل المسبب."
+  },
+  {
+   "t": "figure",
+   "src": "assets/specimens-diagnosis.jpg",
+   "en": "Figure (1): Represent human specimens collection and diagnoses",
+   "ar": "الشكل (1): يمثّل جمع العيّنات البشرية والتشخيص",
+   "h": "150mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Label",
+    "الترجمة",
+    "Label",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Symptomatic Patient: (localized or systemic)",
+     "مريض ظاهر الأعراض (موضعي أو جهازي)",
+     "Specimen collection",
+     "جمع العيّنات"
+    ],
+    [
+     "Characteristic signs and symptoms",
+     "العلامات والأعراض المميّزة",
+     "Presumptive clinical diagnosis",
+     "التشخيص السريري المبدئي"
+    ],
+    [
+     "Sputum",
+     "القشع",
+     "Urine",
+     "الإدرار"
+    ],
+    [
+     "Blood",
+     "الدم",
+     "Serum",
+     "المصل"
+    ],
+    [
+     "Swab",
+     "المسحة",
+     "Feces",
+     "البراز"
+    ],
+    [
+     "Tissue biopsy",
+     "خزعة نسيجية",
+     "Anaerobic sample",
+     "عيّنة لاهوائية"
+    ],
+    [
+     "Test selection by clinicians",
+     "اختيار الفحص من قبل الأطباء",
+     "Microscopic",
+     "الفحص المجهري"
+    ],
+    [
+     "Quantitation",
+     "التقدير الكمّي",
+     "Culture",
+     "الزرع"
+    ],
+    [
+     "Selective and nonselective media",
+     "أوساط انتقائية وغير انتقائية",
+     "Biochemical tests",
+     "الفحوص الكيميائية الحيوية"
+    ],
+    [
+     "Serologic Tests",
+     "الفحوص المصلية",
+     "Agglutination, complement fixation, ELISA",
+     "التلازن، وتثبيت المتمّم، و`ELISA`"
+    ],
+    [
+     "Genetic",
+     "الفحوص الجينية",
+     "Hybridization of DNA, RNA",
+     "تهجين `DNA` و`RNA`"
+    ],
+    [
+     "Definitive diagnosis",
+     "التشخيص النهائي",
+     "Antimicrobial susceptibility testing (or known susceptibility)",
+     "فحص الحساسية لمضادات الميكروبات (أو حساسية معروفة)"
+    ],
+    [
+     "Treatment",
+     "العلاج",
+     "Asymptomatic patient",
+     "مريض بلا أعراض"
+    ]
+   ],
+   "ar_cols": [
+    1,
+    3
+   ],
+   "key_cols": [
+    0,
+    2
+   ],
+   "widths": [
+    "24%",
+    "26%",
+    "24%",
+    "26%"
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Manifestations and causes of infection",
+    "topic_ar": "مظاهر العدوى وأسبابها"
+   },
+   {
+    "en": "The clinical presentation of an infectious disease reflects the interaction between:",
+    "ar": "يعكس العرض السريري للمرض المعدي التفاعل بين:",
+    "options": [
+     [
+      "The laboratory and the physician",
+      "المختبر والطبيب"
+     ],
+     [
+      "Two antibiotics",
+      "مضادّين حيويين"
+     ],
+     [
+      "The host and the microorganism",
+      "المضيف والكائن الحي الدقيق"
+     ],
+     [
+      "The specimen and the culture medium",
+      "العيّنة والوسط الزرعي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The host–microorganism interaction is affected by:",
+    "ar": "يتأثر تفاعل المضيف مع الكائن الدقيق بـ:",
+    "options": [
+     [
+      "Specimen transport only",
+      "نقل العيّنة فقط"
+     ],
+     [
+      "Host immune status and microbial virulence factors",
+      "الحالة المناعية للمضيف وعوامل الفوعة الميكروبية"
+     ],
+     [
+      "Type of culture media",
+      "نوع الأوساط الزرعية"
+     ],
+     [
+      "Laboratory feedback",
+      "التغذية الراجعة من المختبر"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Signs and symptoms of infection vary according to:",
+    "ar": "تختلف علامات العدوى وأعراضها وفقًا لـ:",
+    "options": [
+     [
+      "The colour of the specimen",
+      "لون العيّنة"
+     ],
+     [
+      "The laboratory staff",
+      "موظفي المختبر"
+     ],
+     [
+      "The site and severity of infection",
+      "موقع العدوى وشدتها"
+     ],
+     [
+      "The biochemical tests used",
+      "الفحوص الكيميائية الحيوية المستعملة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Diagnosis of infection requires a composite of information including all EXCEPT:",
+    "ar": "يتطلب تشخيص العدوى مجموعة معلومات تشمل كل ما يأتي عدا:",
+    "options": [
+     [
+      "Blood group of the physician",
+      "فصيلة دم الطبيب"
+     ],
+     [
+      "History",
+      "التاريخ"
+     ],
+     [
+      "Physical examination",
+      "الفحص البدني"
+     ],
+     [
+      "Radiographic findings and laboratory data",
+      "النتائج الإشعاعية والبيانات المختبرية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "An exogenous pathogen is acquired from:",
+    "ar": "العامل الممرض الخارجي يُكتسب من:",
+    "options": [
+     [
+      "The normal flora",
+      "النبيت الطبيعي"
+     ],
+     [
+      "Environmental or animal sources or from other persons",
+      "مصادر بيئية أو حيوانية أو من أشخاص آخرين"
+     ],
+     [
+      "Antibiotic resistance genes",
+      "جينات مقاومة المضادات الحيوية"
+     ],
+     [
+      "Selective media",
+      "الأوساط الانتقائية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "An endogenous pathogen comes from:",
+    "ar": "العامل الممرض الداخلي يأتي من:",
+    "options": [
+     [
+      "Animal sources",
+      "مصادر حيوانية"
+     ],
+     [
+      "The normal flora",
+      "النبيت الطبيعي"
+     ],
+     [
+      "Other persons",
+      "أشخاص آخرين"
+     ],
+     [
+      "The environment",
+      "البيئة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Diagnostic microbiology and its methods",
+    "topic_ar": "الأحياء المجهرية التشخيصية وطرقها"
+   },
+   {
+    "en": "Diagnostic microbiology is the tool that makes it possible to identify:",
+    "ar": "الأحياء المجهرية التشخيصية هي الأداة التي تمكّن من تحديد:",
+    "options": [
+     [
+      "The exact pathogens and the most optimal therapy at the level of individual patients",
+      "مسببات الأمراض الدقيقة والعلاج الأمثل على مستوى المرضى الأفراد"
+     ],
+     [
+      "The blood group of patients",
+      "فصيلة دم المرضى"
+     ],
+     [
+      "Only the epidemiology of infections",
+      "علم أوبئة العدوى فقط"
+     ],
+     [
+      "The radiographic findings only",
+      "النتائج الإشعاعية فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Conventional methods are lengthy because they need:",
+    "ar": "الطرق التقليدية طويلة لأنها تحتاج إلى:",
+    "options": [
+     [
+      "Amplification of nucleic acids",
+      "تضخيم الأحماض النووية"
+     ],
+     [
+      "Use of probes only",
+      "استعمال المجسّات فقط"
+     ],
+     [
+      "Time to grow microbes in vitro followed by biochemical identification",
+      "وقت لزراعة الميكروبات في المختبر ثم التشخيص الكيميائي الحيوي"
+     ],
+     [
+      "Detection of resistance genes",
+      "الكشف عن جينات المقاومة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which factor renders culture-based methods less reliable?",
+    "ar": "أيّ عامل يجعل الطرق القائمة على الزرع أقل موثوقية؟",
+    "options": [
+     [
+      "Large number of organisms",
+      "العدد الكبير من الكائنات"
+     ],
+     [
+      "Prior use of antibiotics",
+      "الاستخدام السابق للمضادات الحيوية"
+     ],
+     [
+      "Ideal transport conditions",
+      "ظروف النقل المثالية"
+     ],
+     [
+      "Use of probes",
+      "استعمال المجسّات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Newer methods depend on:",
+    "ar": "تعتمد الطرق الأحدث على:",
+    "options": [
+     [
+      "Growing microbes in vitro for days",
+      "زراعة الميكروبات في المختبر لأيام"
+     ],
+     [
+      "Biochemical tests only",
+      "الفحوص الكيميائية الحيوية فقط"
+     ],
+     [
+      "Amplification of nucleic acids followed by use of probes",
+      "تضخيم الأحماض النووية ثم استعمال المجسّات"
+     ],
+     [
+      "Gram stain only",
+      "صبغة غرام فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "An advantage of newer methods is that they:",
+    "ar": "من مزايا الطرق الأحدث أنها:",
+    "options": [
+     [
+      "Need a higher microbial load",
+      "تحتاج حملًا ميكروبيًا أعلى"
+     ],
+     [
+      "Need metabolically active viable organisms",
+      "تحتاج كائنات حية نشطة الأيض"
+     ],
+     [
+      "Fulfill all the diagnostic needs",
+      "تلبي كل الاحتياجات التشخيصية"
+     ],
+     [
+      "Shorten the time",
+      "تقصّر الوقت"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Newer methods can detect directly from the specimen:",
+    "ar": "يمكن للطرق الأحدث أن تكشف مباشرة من العيّنة:",
+    "options": [
+     [
+      "The patient’s symptoms",
+      "أعراض المريض"
+     ],
+     [
+      "The site of infection",
+      "موقع العدوى"
+     ],
+     [
+      "Radiographic findings",
+      "النتائج الإشعاعية"
+     ],
+     [
+      "Antibiotic resistance genes",
+      "جينات مقاومة المضادات الحيوية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Since newer methods will not fulfill all diagnostic needs, a second approach is used to:",
+    "ar": "لأن الطرق الأحدث لا تلبي كل الاحتياجات التشخيصية، يُستعمل نهج ثانٍ لـ:",
+    "options": [
+     [
+      "Avoid specimen collection",
+      "تجنّب جمع العيّنات"
+     ],
+     [
+      "Shorten the time to identification after the organism has already grown",
+      "تقصير وقت التشخيص بعد نمو الكائن الحي"
+     ],
+     [
+      "Replace treatment",
+      "الاستغناء عن العلاج"
+     ],
+     [
+      "Increase the microbial load",
+      "زيادة الحمل الميكروبي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Microbial colonization",
+    "topic_ar": "الاستعمار الميكروبي"
+   },
+   {
+    "en": "Microbial colonization may result in all of the following EXCEPT:",
+    "ar": "قد يؤدّي الاستعمار الميكروبي إلى كل ما يأتي عدا:",
+    "options": [
+     [
+      "Elimination of the microorganism without affecting the host",
+      "القضاء على الكائن دون التأثير على المضيف"
+     ],
+     [
+      "Infection",
+      "العدوى"
+     ],
+     [
+      "A transient or prolonged carrier state",
+      "حالة حاملة عابرة أو طويلة"
+     ],
+     [
+      "Detection of microbial DNA",
+      "الكشف عن `DNA` الميكروبي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Infection is the state in which the organisms:",
+    "ar": "العدوى هي الحالة التي فيها الكائنات:",
+    "options": [
+     [
+      "Multiply and cause the host to make an immune or other type of response",
+      "تتكاثر وتجعل المضيف يُحدث استجابة مناعية أو غيرها"
+     ],
+     [
+      "Are eliminated without affecting the host",
+      "تُزال دون التأثير على المضيف"
+     ],
+     [
+      "Never multiply",
+      "لا تتكاثر أبدًا"
+     ],
+     [
+      "Live only in culture media",
+      "تعيش في الأوساط الزرعية فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Infectious disease occurs when the organism causes:",
+    "ar": "يحدث المرض المعدي عندما يسبّب الكائن:",
+    "options": [
+     [
+      "Tissue damage and loss of function of body systems",
+      "تلف الأنسجة وفقدان وظيفة أنظمة الجسم"
+     ],
+     [
+      "No response in the host",
+      "لا استجابة في المضيف"
+     ],
+     [
+      "A transient carrier state only",
+      "حالة حاملة عابرة فقط"
+     ],
+     [
+      "Elimination of itself",
+      "القضاء على نفسه"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Purpose and philosophy of diagnostic bacteriology",
+    "topic_ar": "هدف علم البكتيريا التشخيصي وفلسفته"
+   },
+   {
+    "en": "The purpose and philosophy of diagnostic bacteriology depend on:",
+    "ar": "يعتمد هدف علم البكتيريا التشخيصي وفلسفته على:",
+    "options": [
+     [
+      "Radiographic findings only",
+      "النتائج الإشعاعية فقط"
+     ],
+     [
+      "Identifying the causative microorganism by different laboratory methods",
+      "تحديد الكائن المسبّب بطرق مختبرية مختلفة"
+     ],
+     [
+      "Empiric treatment only",
+      "العلاج التجريبي فقط"
+     ],
+     [
+      "The patient’s history only",
+      "تاريخ المريض فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Initial treatment may be empiric, based on:",
+    "ar": "قد يكون العلاج الأولي تجريبيًا استنادًا إلى:",
+    "options": [
+     [
+      "The microbiologic epidemiology of the infection and the patient’s symptoms",
+      "علم الأوبئة الميكروبيولوجي للعدوى وأعراض المريض"
+     ],
+     [
+      "Antimicrobial susceptibility testing",
+      "فحص الحساسية لمضادات الميكروبات"
+     ],
+     [
+      "The definitive diagnosis",
+      "التشخيص النهائي"
+     ],
+     [
+      "Hybridization of DNA",
+      "تهجين `DNA`"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Definitive microbiologic diagnosis usually involves how many basic laboratory techniques?",
+    "ar": "يتضمّن التشخيص الميكروبيولوجي النهائي عادةً كم تقنية مختبرية أساسية؟",
+    "options": [
+     [
+      "Two",
+      "اثنتين"
+     ],
+     [
+      "Three",
+      "ثلاث"
+     ],
+     [
+      "Five",
+      "خمس"
+     ],
+     [
+      "Seven",
+      "سبع"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Morphologic identification of the agent is done in stains of specimens or sections of tissues using:",
+    "ar": "يتمّ التعرّف الشكلي على العامل في صبغات العيّنات أو مقاطع الأنسجة باستعمال:",
+    "options": [
+     [
+      "Latex agglutination",
+      "التلازن باللاتكس"
+     ],
+     [
+      "Biochemical tests",
+      "الفحوص الكيميائية الحيوية"
+     ],
+     [
+      "Light and electron microscopy",
+      "المجهر الضوئي والإلكتروني"
+     ],
+     [
+      "Probes",
+      "المجسّات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Detection of microbial antigens is done by immunologic assay such as:",
+    "ar": "يتمّ الكشف عن المستضدات الميكروبية بالفحص المناعي مثل:",
+    "options": [
+     [
+      "Latex agglutination and enzyme immunoassay (EIA)",
+      "التلازن باللاتكس والفحص المناعي الإنزيمي (`EIA`)"
+     ],
+     [
+      "Electron microscopy",
+      "المجهر الإلكتروني"
+     ],
+     [
+      "Culture on selective media",
+      "الزرع على أوساط انتقائية"
+     ],
+     [
+      "Radiography",
+      "التصوير الشعاعي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which of the following is one of the basic laboratory techniques of definitive diagnosis?",
+    "ar": "أيّ ممّا يأتي من التقنيات المختبرية الأساسية للتشخيص النهائي؟",
+    "options": [
+     [
+      "Physical examination",
+      "الفحص البدني"
+     ],
+     [
+      "Patient history",
+      "تاريخ المريض"
+     ],
+     [
+      "Empiric therapy",
+      "العلاج التجريبي"
+     ],
+     [
+      "Detection of microbial DNA or RNA",
+      "الكشف عن `DNA` أو `RNA` الميكروبي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Laboratory feedback and Figure (1)",
+    "topic_ar": "التغذية الراجعة من المختبر والشكل (1)"
+   },
+   {
+    "en": "As the laboratory staff obtain results, they inform:",
+    "ar": "عندما يحصل موظفو المختبر على النتائج يبلغون:",
+    "options": [
+     [
+      "The patient’s family only",
+      "عائلة المريض فقط"
+     ],
+     [
+      "The pharmacy only",
+      "الصيدلية فقط"
+     ],
+     [
+      "No one until the final report",
+      "لا أحد حتى التقرير النهائي"
+     ],
+     [
+      "Health care providers",
+      "مقدمي الرعاية الصحية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Laboratory “feedback” information consists of:",
+    "ar": "تتكوّن معلومات «التغذية الراجعة» من المختبر من:",
+    "options": [
+     [
+      "The final report only",
+      "التقرير النهائي فقط"
+     ],
+     [
+      "The patient’s symptoms",
+      "أعراض المريض"
+     ],
+     [
+      "Radiographic findings",
+      "النتائج الإشعاعية"
+     ],
+     [
+      "Earliest reports of the results of individual steps in isolation and identification",
+      "أقدم التقارير عن نتائج الخطوات الفردية في العزل والتشخيص"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In Figure (1), the specimen obtained from blood for serologic tests is:",
+    "ar": "في الشكل (1)، العيّنة المأخوذة من الدم للفحوص المصلية هي:",
+    "options": [
+     [
+      "Serum",
+      "المصل"
+     ],
+     [
+      "Sputum",
+      "القشع"
+     ],
+     [
+      "Swab",
+      "المسحة"
+     ],
+     [
+      "Feces",
+      "البراز"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In Figure (1), characteristic signs and symptoms lead to:",
+    "ar": "في الشكل (1)، تؤدّي العلامات والأعراض المميّزة إلى:",
+    "options": [
+     [
+      "Definitive diagnosis",
+      "التشخيص النهائي"
+     ],
+     [
+      "Presumptive clinical diagnosis",
+      "التشخيص السريري المبدئي"
+     ],
+     [
+      "Treatment directly",
+      "العلاج مباشرة"
+     ],
+     [
+      "Quantitation",
+      "التقدير الكمّي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this part of Figure (1), the hidden test category that ends in hybridization of DNA, RNA is:",
+    "ar": "في هذا الجزء من الشكل (1)، فئة الفحص المخفيّة التي تنتهي بتهجين `DNA` و`RNA` هي:",
+    "options": [
+     [
+      "Serologic Tests",
+      "الفحوص المصلية"
+     ],
+     [
+      "Culture",
+      "الزرع"
+     ],
+     [
+      "Genetic",
+      "الفحوص الجينية"
+     ],
+     [
+      "Microscopic",
+      "الفحص المجهري"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/q-genetic.jpg",
+    "img_h": "40mm"
+   },
+   {
+    "en": "In this part of Figure (1), the hidden step that comes before antimicrobial susceptibility testing is:",
+    "ar": "في هذا الجزء من الشكل (1)، الخطوة المخفيّة التي تسبق فحص الحساسية لمضادات الميكروبات هي:",
+    "options": [
+     [
+      "Presumptive clinical diagnosis",
+      "التشخيص السريري المبدئي"
+     ],
+     [
+      "Specimen collection",
+      "جمع العيّنات"
+     ],
+     [
+      "Treatment",
+      "العلاج"
+     ],
+     [
+      "Definitive diagnosis",
+      "التشخيص النهائي"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/q-definitive.jpg",
+    "img_h": "40mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "The clinical presentation of an infectious disease reflects the interaction between the host and the microorganism.",
+    "ar": "يعكس العرض السريري للمرض المعدي التفاعل بين المضيف والكائن الدقيق.",
+    "answer": "T"
+   },
+   {
+    "en": "Signs and symptoms are the same whatever the site and severity of infection.",
+    "ar": "العلامات والأعراض نفسها مهما كان موقع العدوى وشدتها.",
+    "answer": "F"
+   },
+   {
+    "en": "Infections may be caused by bacteria, viruses, fungi, and parasites.",
+    "ar": "قد تحدث العدوى بسبب البكتيريا والفيروسات والفطريات والطفيليات.",
+    "answer": "T"
+   },
+   {
+    "en": "An endogenous pathogen is acquired from other persons.",
+    "ar": "العامل الممرض الداخلي يُكتسب من أشخاص آخرين.",
+    "answer": "F"
+   },
+   {
+    "en": "All microbes can easily be cultured.",
+    "ar": "يمكن زراعة جميع الميكروبات بسهولة.",
+    "answer": "F"
+   },
+   {
+    "en": "Small number of organisms renders culture-based methods less reliable.",
+    "ar": "العدد القليل من الكائنات يجعل الطرق القائمة على الزرع أقل موثوقية.",
+    "answer": "T"
+   },
+   {
+    "en": "Newer methods need a higher microbial load.",
+    "ar": "تحتاج الطرق الأحدث إلى حمل ميكروبي أعلى.",
+    "answer": "F"
+   },
+   {
+    "en": "Newer methods can detect antibiotic resistance genes directly from the specimen.",
+    "ar": "يمكن للطرق الأحدث الكشف عن جينات مقاومة المضادات الحيوية مباشرة من العيّنة.",
+    "answer": "T"
+   },
+   {
+    "en": "Newer methods fulfill all the diagnostic needs.",
+    "ar": "تلبي الطرق الأحدث كل الاحتياجات التشخيصية.",
+    "answer": "F"
+   },
+   {
+    "en": "Infectious disease occurs when the organism causes tissue damage and loss of function of body systems.",
+    "ar": "يحدث المرض المعدي عندما يسبّب الكائن تلف الأنسجة وفقدان وظيفة أنظمة الجسم.",
+    "answer": "T"
+   },
+   {
+    "en": "Initial treatment may be empiric.",
+    "ar": "قد يكون العلاج الأولي تجريبيًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Definitive microbiologic diagnosis involves only one laboratory technique.",
+    "ar": "يتضمّن التشخيص الميكروبيولوجي النهائي تقنية مختبرية واحدة فقط.",
+    "answer": "F"
+   },
+   {
+    "en": "Laboratory feedback may lead to changes in the therapeutic program.",
+    "ar": "قد تؤدّي التغذية الراجعة من المختبر إلى تغييرات في البرنامج العلاجي.",
+    "answer": "T"
+   },
+   {
+    "en": "In Figure (1), ELISA is listed under culture.",
+    "ar": "في الشكل (1)، ذُكر `ELISA` تحت الزرع.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Exogenous and endogenous pathogens: which one comes from the normal flora?",
+    "ar": "العامل الممرض الخارجي والداخلي: أيّهما يأتي من النبيت الطبيعي؟",
+    "answer_en": "Endogenous — from the normal flora. Exogenous is acquired from environmental or animal sources or from other persons.",
+    "answer_ar": "الداخلي — من النبيت الطبيعي. أمّا الخارجي فيُكتسب من مصادر بيئية أو حيوانية أو من أشخاص آخرين."
+   },
+   {
+    "en": "Newer methods need metabolically active viable organisms.",
+    "ar": "تحتاج الطرق الأحدث إلى كائنات حية نشطة الأيض.",
+    "answer_en": "No — they mitigate the need for higher microbial load and for metabolically active viable organisms, and shorten the time.",
+    "answer_ar": "لا — فهي تخفّف الحاجة إلى حمل ميكروبي أعلى وإلى كائنات حية نشطة الأيض، وتقصّر الوقت."
+   },
+   {
+    "en": "Every microbial colonization ends in infectious disease.",
+    "ar": "كل استعمار ميكروبي ينتهي بمرض معدٍ.",
+    "answer_en": "No — it may end in elimination without affecting the host, infection, or a transient or prolonged carrier state; disease occurs only when the organism causes tissue damage and loss of function.",
+    "answer_ar": "لا — قد ينتهي بالقضاء على الكائن دون التأثير على المضيف، أو بالعدوى، أو بحالة حاملة عابرة أو طويلة؛ والمرض يحدث فقط عندما يسبّب الكائن تلف الأنسجة وفقدان الوظيفة."
+   },
+   {
+    "en": "Empiric treatment is based on laboratory results.",
+    "ar": "العلاج التجريبي مبنيّ على نتائج المختبر.",
+    "answer_en": "No — it is based on the microbiologic epidemiology of the infection and the patient’s symptoms.",
+    "answer_ar": "لا — مبنيّ على علم الأوبئة الميكروبيولوجي للعدوى وأعراض المريض."
+   },
+   {
+    "en": "Latex agglutination is a morphologic identification method.",
+    "ar": "التلازن باللاتكس طريقة تعرّف شكلي.",
+    "answer_en": "No — it is an immunologic assay for detection of microbial antigens; morphologic identification uses light and electron microscopy.",
+    "answer_ar": "لا — هو فحص مناعي للكشف عن المستضدات الميكروبية؛ أمّا التعرّف الشكلي فيستعمل المجهر الضوئي والإلكتروني."
+   },
+   {
+    "en": "Presumptive and definitive diagnosis are the same step in Figure (1).",
+    "ar": "التشخيص المبدئي والنهائي خطوة واحدة في الشكل (1).",
+    "answer_en": "No — presumptive clinical diagnosis comes from characteristic signs and symptoms; definitive diagnosis comes after the laboratory tests.",
+    "answer_ar": "لا — التشخيص السريري المبدئي يأتي من العلامات والأعراض المميّزة، والتشخيص النهائي يأتي بعد الفحوص المختبرية."
+   },
+   {
+    "en": "Feedback information is the final laboratory report only.",
+    "ar": "معلومات التغذية الراجعة هي التقرير النهائي للمختبر فقط.",
+    "answer_en": "No — it consists of earliest reports of the results of individual steps in the isolation and identification of the causative agent.",
+    "answer_ar": "لا — تتكوّن من أقدم التقارير عن نتائج الخطوات الفردية في عزل العامل المسبّب وتحديده."
+   }
+  ],
+  "important": [
+   {
+    "en": "What does the clinical presentation of an infectious disease reflect, and what affects it?",
+    "ar": "علامَ يدلّ العرض السريري للمرض المعدي، وما الذي يؤثّر فيه؟",
+    "answer_en": "It reflects the interaction between the host and the microorganism; this interaction is affected by the host immune status and microbial virulence factors. Signs and symptoms vary according to the site and severity of infection.",
+    "answer_ar": "يعكس التفاعل بين المضيف والكائن الدقيق، ويتأثر هذا التفاعل بالحالة المناعية للمضيف وعوامل الفوعة الميكروبية. وتختلف العلامات والأعراض حسب موقع العدوى وشدتها."
+   },
+   {
+    "en": "Define diagnostic microbiology.",
+    "ar": "عرّف الأحياء المجهرية التشخيصية.",
+    "answer_en": "It is the tool that makes it possible to identify the exact pathogens of infectious diseases and the most optimal therapy at the level of individual patients.",
+    "answer_ar": "هي الأداة التي تمكّن من تحديد مسببات الأمراض الدقيقة للأمراض المعدية والعلاج الأمثل على مستوى المرضى الأفراد."
+   },
+   {
+    "en": "Why are conventional methods lengthy and less reliable?",
+    "ar": "لماذا تكون الطرق التقليدية طويلة وأقل موثوقية؟",
+    "answer_en": "They require time to grow microbes in vitro under specific conditions (not all microbes can be cultured), followed by biochemical identification. Transport under less than ideal conditions, prior use of antibiotics and small number of organisms make them less reliable.",
+    "answer_ar": "لأنها تتطلب وقتًا لزراعة الميكروبات في المختبر في ظروف محددة (ولا يمكن زراعة كل الميكروبات)، ثم التشخيص الكيميائي الحيوي. والنقل في ظروف غير مثالية، والاستخدام السابق للمضادات الحيوية، وقلّة عدد الكائنات تجعلها أقل موثوقية."
+   },
+   {
+    "en": "What do newer methods depend on, and what are their advantages?",
+    "ar": "على ماذا تعتمد الطرق الأحدث، وما مزاياها؟",
+    "answer_en": "Amplification of nucleic acids followed by probes. They mitigate the need for higher microbial load and viable organisms, shorten the time, and detect antibiotic resistance genes directly from the specimen.",
+    "answer_ar": "على تضخيم الأحماض النووية ثم المجسّات. وتخفّف الحاجة إلى حمل ميكروبي أعلى وكائنات حية، وتقصّر الوقت، وتكشف عن جينات مقاومة المضادات الحيوية مباشرة من العيّنة."
+   },
+   {
+    "en": "What may microbial colonization result in?",
+    "ar": "إلامَ قد يؤدّي الاستعمار الميكروبي؟",
+    "answer_en": "1. Elimination of the microorganism without affecting the host. 2. Infection. 3. A transient or prolonged carrier state.",
+    "answer_ar": "1. القضاء على الكائن الدقيق دون التأثير على المضيف. 2. العدوى. 3. حالة حاملة عابرة أو طويلة."
+   },
+   {
+    "en": "List the five basic laboratory techniques of definitive microbiologic diagnosis.",
+    "ar": "عدّد التقنيات المختبرية الأساسية الخمس للتشخيص الميكروبيولوجي النهائي.",
+    "answer_en": "1. Morphologic identification (light and electron microscopy). 2. Cultivation and identification. 3. Detection of microbial antigens (latex agglutination, EIA). 4. Detection of microbial DNA or RNA. 5. Obtaining the proper specimens and informing the laboratory of the careful clinical diagnosis.",
+    "answer_ar": "1. التعرّف الشكلي (المجهر الضوئي والإلكتروني). 2. الزرع والتشخيص. 3. الكشف عن المستضدات الميكروبية (التلازن باللاتكس، `EIA`). 4. الكشف عن `DNA` أو `RNA` الميكروبي. 5. الحصول على العيّنات المناسبة وإبلاغ المختبر بالتشخيص السريري الدقيق."
+   },
+   {
+    "en": "What is laboratory “feedback” information and why is it important?",
+    "ar": "ما معلومات «التغذية الراجعة» من المختبر ولماذا هي مهمة؟",
+    "answer_en": "Earliest reports of the results of individual steps in isolation and identification of the causative agent; health care providers use them to reevaluate the diagnosis and clinical course and perhaps change the therapeutic program.",
+    "answer_ar": "هي أقدم التقارير عن نتائج الخطوات الفردية في عزل العامل المسبّب وتحديده؛ ويستعملها مقدمو الرعاية الصحية لإعادة تقييم التشخيص والمسار السريري وربما تغيير البرنامج العلاجي."
+   }
+  ]
+ }
+}
