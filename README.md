@@ -25,6 +25,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `research-lec2-scientific-method/` — Principles of Research lecture 2: the scientific method.
 - `enzymology-lab1-safety-tubes/` — Clinical Enzymology (الإنزيمات السريرية) Lab 1: lab safety and blood collecting tubes.
 - `ethics-lec1-morals/` — Professional Ethics (أخلاقيات المهنة) lecture 1 — Arabic-only handout.
+- `ethics-lec2-lab-work-ethics/` — Professional Ethics (أخلاقيات المهنة) lecture 2: work ethics in medical laboratories (د. نور) — Arabic only, fourth stage, separate question file.
 - `pathology-lec1-2-atelectasis/` — Pathology (علم الأمراض) lectures 1+2: atelectasis, acute lung injury/ARDS, emphysema.
 - `pathology-lec3-chronic-bronchitis/` — Pathology lecture 3: chronic bronchitis and asthma.
 - `enzymology-lab1-introduction/` — Clinical Enzymology practical lab 1: introduction of enzymes, properties, sources, composition, definitions, factors, classification (د. بارق & د. هشام) — fourth stage, separate question file.
