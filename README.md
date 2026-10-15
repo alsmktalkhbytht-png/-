@@ -15,6 +15,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `microbiology-lab2-specimens/` — Diagnostic Microbiology practical lab 2: selection, collection and transport of specimens (د. ذهب) — fourth stage, separate question file.
 - `microbiology-lec1-purpose-philosophy/` — Diagnostic Microbiology theory lecture 1: manifestations of infection, conventional and newer methods, purpose and philosophy of diagnostic bacteriology (د. عدنان) — fourth stage, separate question file.
 - `microbiology-lec2-laboratory-safety/` — Diagnostic Microbiology theory lecture 2: laboratory safety, sterilization/disinfection/decontamination, chemical, fire and electrical safety, biosafety (د. عدنان) — fourth stage, separate question file.
+- `microbiology-lec3-5-specimens/` — Diagnostic Microbiology theory lectures 3+4+5: selection, collection and transport of specimens, non-culture techniques (د. عدنان) — fourth stage, separate question file.
 - `microbiology-lab3-culture-media/` — Diagnostic Microbiology practical lab 3: culture media (د. ذهب) — fourth stage, separate question file.
 - `bloodbank-lec1-introduction/` — Blood Transfusion (نقل الدم) lecture 1: Introduction to blood banking + Practical 1.
 - `bloodbank-lec2-donation-criteria/` — Blood Transfusion lecture 2: Criteria of blood donation.
