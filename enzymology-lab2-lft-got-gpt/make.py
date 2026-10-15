@@ -1,4 +1,4 @@
-# BIOS — انزيمات عملي المحاضرة الثانية (Liver Function Tests: GOT, GPT) — د. بارق ود. هشام، المرحلة الرابعة
+# BIOS — انزيمات عملي المحاضرة الثانية (Liver Function Tests: GOT, GPT) — د. بارق & د. هشام، المرحلة الرابعة
 # المصدر: Liver Function Tests GOT GPT.md + 4 صور مرقّمة. كل جملة منقولة حرفيًا ومترجمة؛ بلا تصحيح إملائي (طلب المستخدم).
 # الصورتان 02 و04 نصّ «Principle» مصوّر: نُقل نصّهما حرفيًا (العنوان، الجملة، التفاعلات، الاختصارات).
 import json, os, random
@@ -373,7 +373,7 @@ important = [
 meta = dict(subject_en="Clinical Enzymology", subject_ar="الإنزيمات السريرية", short_ar="انزيمات",
             unit_en="Lab 2", unit_ar="العملي 2", unit_label="LAB", unit_no="2",
             title_en="Liver Function Tests (LFT): GOT and GPT", title_ar="فحوص وظائف الكبد",
-            kind="Laboratories — عملي", stage="The fourth stage — الرابعة", instructor="د. بارق ود. هشام",
+            kind="Laboratories — عملي", stage="The fourth stage — الرابعة", instructor="د. بارق & د. هشام",
             file_name="انزيمات عملي المحاضرة الثانية", questions_suffix=" اسئلة")   # user-chosen file names
 
 folder = "enzymology-lab2-lft-got-gpt"
