@@ -61,8 +61,8 @@
    "rows": [
     [
      "(Minimal risk) Risk group 1",
-     "**Biosafety level 1** — Non-pathogenic factors in healthy people and adults (with little or no risk). __E.coli__ , __Bacillus Subtilis__",
-     "**مجموعة الخطورة 1** (خطر أدنى) — **مستوى السلامة الحيوية 1**: عوامل غير مُمرِضة للأشخاص الأصحّاء والبالغين (بخطر قليل أو معدوم). مثل الإشريكية القولونية (`E.coli`) والعصوية الرقيقة (`Bacillus Subtilis`)"
+     "**Biosafety level 1** — Non-pathogenic factors in healthy people and adults (with little or no risk). __E.coli__ , __Bacillus subtilis__",
+     "**مجموعة الخطورة 1** (خطر أدنى) — **مستوى السلامة الحيوية 1**: عوامل غير مُمرِضة للأشخاص الأصحّاء والبالغين (بخطر قليل أو معدوم). مثل الإشريكية القولونية (`E.coli`) والعصوية الرقيقة (`Bacillus subtilis`)"
     ],
     [
      "(Moderate risk) Risk group 2",
@@ -71,12 +71,12 @@
     ],
     [
      "(High risk) Risk group 3",
-     "**Biosafety level 3** — Factors that cause serious and fatal infections to humans and their treatment is not easy, specially for immunosuppressed persons (with a high risk for individuals). __Salmonella typhi.__ __Mycobacterium tuberculosis.__",
+     "**Biosafety level 3** — Factors that cause serious and fatal infections to humans and their treatment is not easy, especially for immunosuppressed persons (with a high risk for individuals). __Salmonella typhi.__ __Mycobacterium tuberculosis.__",
      "**مجموعة الخطورة 3** (خطر عالٍ) — **مستوى السلامة الحيوية 3**: عوامل تسبّب إصابات خطيرة ومميتة للإنسان وعلاجها ليس سهلًا، خصوصًا لمثبّطي المناعة (بخطر عالٍ على الأفراد). مثل السالمونيلا التيفية (`Salmonella typhi`) والمتفطّرة السلّية (`Mycobacterium tuberculosis`)"
     ],
     [
      "(Extreme risk) Risk group 4",
-     "**Biosafety level 4** — Factor that are fatal to humans are easily transmitted from [[cut]]",
+     "**Biosafety level 4** — Factors that are fatal to humans are easily transmitted from [[cut]]",
      "**مجموعة الخطورة 4** (خطر بالغ) — **مستوى السلامة الحيوية 4**: عوامل مميتة للإنسان وتنتقل بسهولة من [[قطع]]"
     ]
    ],
@@ -99,7 +99,7 @@
   },
   {
    "t": "card",
-   "en": "**Biohazard symbol:** it used to warn people of the potential for the presence dangerous biological materials such as :",
+   "en": "**Biohazard symbol:** it used to warn people of the potential for the presence of dangerous biological materials such as :",
    "ar": "**رمز الخطر الحيوي** (`Biohazard symbol`): يُستعمل لتحذير الناس من احتمال وجود مواد حيوية خطرة مثل:",
    "list_en": [
     "Cultures of pathogens.",
@@ -238,8 +238,8 @@
    "en": "",
    "ar": "",
    "list_en": [
-    "**Sterilization:** is the complete killing or removal of all living organism such as cell spore , viruses , fungi, ….",
-    "**Disinfection:** the destruction or removal of pathogens but not bacterial spores , usually used only on inanimate object.",
+    "**Sterilization:** is the complete killing or removal of all living organisms such as cell spore , viruses , fungi, ….",
+    "**Disinfection:** the destruction or removal of pathogens but not bacterial spores , usually used only on inanimate objects.",
     "**Antiseptics:** chemicals applied to body surfaces to destroy or inhibit pathogens.",
     "**Decontamination:** the mechanical removal of most microbes by using washing , heat or disinfectants."
    ],
@@ -255,8 +255,8 @@
    "en": "",
    "ar": "",
    "list_en": [
-    "**Biological laboratory :** A facility within which microorganisms, their components or their derivatives are collected handled and/or stored.",
-    "**Bio risk :** The probability or chance that a particular adverse event :accidental infection or loss, theft, misuse, diversion or intentional release), possibly leading to harm.",
+    "**Biological laboratory :** A facility within which microorganisms, their components or their derivatives are collected, handled and/or stored.",
+    "**Bio risk :** The probability or chance that a particular adverse event (accidental infection or loss, theft, misuse, diversion or intentional release), possibly leading to harm.",
     "**Bio risk assessment :** The process to identify acceptable and unacceptable risks (embracing biosafety risks (risks of accidental infection) and laboratory biosecurity risks (risks of unauthorized access, loss, theft, misuse, diversion or intentional release)) and their potential consequences."
    ],
    "list_ar": [
@@ -355,7 +355,7 @@
     "answer": "c"
    },
    {
-    "en": "Bacillus Subtilis belongs to:",
+    "en": "Bacillus subtilis belongs to:",
     "ar": "تنتمي العصوية الرقيقة إلى:",
     "options": [
      [
@@ -758,7 +758,7 @@
     "topic_ar": "التعاريف"
    },
    {
-    "en": "The complete killing or removal of all living organism is:",
+    "en": "The complete killing or removal of all living organisms is:",
     "ar": "القتل أو الإزالة الكاملة لجميع الكائنات الحيّة هو:",
     "options": [
      [
@@ -1112,13 +1112,13 @@
    {
     "en": "Sterilization vs disinfection.",
     "ar": "التعقيم مقابل التطهير.",
-    "answer_en": "Sterilization: complete killing or removal of all living organism (including spores). Disinfection: destruction or removal of pathogens but not bacterial spores, on inanimate objects.",
+    "answer_en": "Sterilization: complete killing or removal of all living organisms (including spores). Disinfection: destruction or removal of pathogens but not bacterial spores, on inanimate objects.",
     "answer_ar": "التعقيم: قتل أو إزالة كاملة لكل الكائنات الحيّة (ومنها الأبواغ). التطهير: إتلاف المُمرِضات أو إزالتها ولكن ليس الأبواغ البكتيرية، على الأجسام غير الحيّة."
    },
    {
     "en": "Disinfection vs antiseptics.",
     "ar": "التطهير مقابل المطهّرات الجلدية.",
-    "answer_en": "Disinfection: usually used only on inanimate object. Antiseptics: chemicals applied to body surfaces.",
+    "answer_en": "Disinfection: usually used only on inanimate objects. Antiseptics: chemicals applied to body surfaces.",
     "answer_ar": "التطهير: يُستعمل عادةً على الأجسام غير الحيّة فقط. المطهّرات الجلدية: مواد كيميائية توضع على أسطح الجسم."
    },
    {
@@ -1156,7 +1156,7 @@
    {
     "en": "Mention the four risk groups with an example of each.",
     "ar": "اذكر مجموعات الخطورة الأربع مع مثال لكل منها.",
-    "answer_en": "Risk group 1 (minimal risk): E.coli, Bacillus Subtilis. Risk group 2 (moderate risk): E.coli pathogenic strain, Brucella spp., Salmonella spp. Risk group 3 (high risk): Salmonella typhi, Mycobacterium tuberculosis. Risk group 4 (extreme risk): factors fatal to humans and easily transmitted.",
+    "answer_en": "Risk group 1 (minimal risk): E.coli, Bacillus subtilis. Risk group 2 (moderate risk): E.coli pathogenic strain, Brucella spp., Salmonella spp. Risk group 3 (high risk): Salmonella typhi, Mycobacterium tuberculosis. Risk group 4 (extreme risk): factors fatal to humans and easily transmitted.",
     "answer_ar": "المجموعة 1 (خطر أدنى): الإشريكية القولونية والعصوية الرقيقة. المجموعة 2 (متوسط): السلالة المُمرِضة من الإشريكية القولونية والبروسيلا والسالمونيلا. المجموعة 3 (عالٍ): السالمونيلا التيفية والمتفطّرة السلّية. المجموعة 4 (بالغ): عوامل مميتة وسهلة الانتقال."
    },
    {
@@ -1174,7 +1174,7 @@
    {
     "en": "Define sterilization, disinfection, antiseptics and decontamination.",
     "ar": "عرّف التعقيم والتطهير والمطهّرات الجلدية وإزالة التلوّث.",
-    "answer_en": "Sterilization: complete killing or removal of all living organism. Disinfection: destruction or removal of pathogens but not bacterial spores. Antiseptics: chemicals applied to body surfaces to destroy or inhibit pathogens. Decontamination: mechanical removal of most microbes by washing, heat or disinfectants.",
+    "answer_en": "Sterilization: complete killing or removal of all living organisms. Disinfection: destruction or removal of pathogens but not bacterial spores. Antiseptics: chemicals applied to body surfaces to destroy or inhibit pathogens. Decontamination: mechanical removal of most microbes by washing, heat or disinfectants.",
     "answer_ar": "التعقيم: القتل أو الإزالة الكاملة لكل الكائنات الحيّة. التطهير: إتلاف المُمرِضات أو إزالتها دون الأبواغ البكتيرية. المطهّرات الجلدية: مواد على أسطح الجسم لإتلاف المُمرِضات أو تثبيطها. إزالة التلوّث: إزالة ميكانيكية لمعظم الميكروبات بالغسل أو الحرارة أو المطهّرات."
    },
    {
