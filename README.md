@@ -24,6 +24,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `pathology-lec1-2-atelectasis/` — Pathology (علم الأمراض) lectures 1+2: atelectasis, acute lung injury/ARDS, emphysema.
 - `pathology-lec3-chronic-bronchitis/` — Pathology lecture 3: chronic bronchitis and asthma.
 - `enzymology-lab1-introduction/` — Clinical Enzymology practical lab 1: introduction of enzymes, properties, sources, composition, definitions, factors, classification (د. هشام) — fourth stage, separate question file.
+- `enzymology-lab2-lft-got-gpt/` — Clinical Enzymology practical lab 2 (new source): liver function tests, ALT/GPT and AST/GOT (د. هشام) — fourth stage, separate question file.
 - `enzymology-lab2-liver-function/` — Clinical Enzymology practical lab 2: liver function tests, GPT and GOT (د. بارق) — fourth stage, separate question file.
 - `enzymology-lec1-introduction/` — Clinical Enzymology lecture 1: introduction, classification, properties, units, factors.
 - `enzymology-lec2-kinetics-inhibition/` — Clinical Enzymology lecture 2: Michaelis-Menten, Lineweaver-Burke, inhibition.
