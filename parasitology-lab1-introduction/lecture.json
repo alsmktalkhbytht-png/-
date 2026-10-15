@@ -1,0 +1,1491 @@
+{
+ "meta": {
+  "subject_en": "Diagnostic Parasitology",
+  "subject_ar": "الطفيليات التشخيصية",
+  "short_ar": "طفيليات",
+  "unit_en": "Lab 1",
+  "unit_ar": "العملي 1",
+  "unit_label": "LAB",
+  "unit_no": "1",
+  "title_en": "Introduction to Medical Parasitology",
+  "title_ar": "مقدّمة في علم الطفيليات الطبية",
+  "kind": "Laboratories — عملي",
+  "stage": "The fourth stage — الرابعة",
+  "instructor": "د. ناريمان حسن"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Medical Parasitology",
+   "ar": "علم الطفيليات الطبية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Medical Parasitology:** Is the science that deals with parasites and their pathogenic effects.",
+    "**Parasite:** Is an organism adapted to live on or in other organism (host).",
+    "**Parasite** and **Parasitism** are terms that define a way of life."
+   ],
+   "list_ar": [
+    "**علم الطفيليات الطبية** (`Medical Parasitology`): هو العلم الذي يتعامل مع الطفيليات وتأثيراتها المُمرِضة.",
+    "**الطفيلي** (`Parasite`): هو كائن متكيّف للعيش على كائن آخر أو داخله (المضيف).",
+    "**الطفيلي** و**التطفّل** (`Parasitism`) مصطلحان يعرّفان أسلوبًا للحياة."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Parasitism - a way of life",
+   "ar": "التطفّل — أسلوب حياة"
+  },
+  {
+   "t": "card",
+   "en": "**Symbiosis:** The relationship between two dissimilar organisms adapted to living together and lost the ability to live alone.",
+   "ar": "**التكافل** (`Symbiosis`): العلاقة بين كائنين غير متشابهين متكيّفين على العيش معًا وفقدا القدرة على العيش منفردين."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Commensalism:** The relationship between the parasite and the host, when one of them is benefited and the other (host) neither benefited nor harmed. e.g. __E. coli__",
+    "**Mutualism:** The relationship which is benefit for both associates.",
+    "**Parasitism:** Where the relationship is harmful to the host. e.g. __E. histolytica.__"
+   ],
+   "list_ar": [
+    "**المعايشة** (`Commensalism`): العلاقة بين الطفيلي والمضيف، عندما يستفيد أحدهما والآخر (المضيف) لا يستفيد ولا يتضرّر. مثال: `__E. coli__`",
+    "**التبادل المنفعي** (`Mutualism`): العلاقة التي تكون مفيدة لكلا الشريكين.",
+    "**التطفّل** (`Parasitism`): حيث تكون العلاقة ضارّة بالمضيف. مثال: `__E. histolytica__`."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Types of parasites",
+   "ar": "أنواع الطفيليات"
+  },
+  {
+   "t": "card",
+   "en": "**Facultative parasite:** Parasites that are capable of living either free or in or on a host.",
+   "ar": "**الطفيلي الاختياري** (`Facultative parasite`): طفيليات قادرة على العيش إمّا حرّة أو داخل المضيف أو عليه."
+  },
+  {
+   "t": "card",
+   "en": "**Obligatory parasite:** Parasites that are entirely dependant on their hosts & can not live outside the host.",
+   "ar": "**الطفيلي الإجباري** (`Obligatory parasite`): طفيليات تعتمد كليًّا على مضائفها ولا تستطيع العيش خارج المضيف."
+  },
+  {
+   "t": "card",
+   "en": "**Accidental or incidental parasite:** occasionally an organism parasitizes a species other than its usual host.",
+   "ar": "**الطفيلي العَرَضي أو الصُّدفي** (`Accidental or incidental parasite`): أحيانًا يتطفّل كائن على نوع غير مضيفه المعتاد."
+  },
+  {
+   "t": "card",
+   "en": "**Ectoparasites:** live on the external surface of the host causing infestation.",
+   "ar": "**الطفيليات الخارجية** (`Ectoparasites`): تعيش على السطح الخارجي للمضيف مسبّبةً **إصابة خارجية** (`infestation`)."
+  },
+  {
+   "t": "card",
+   "en": "**Endoparasites:** The parasites which live inside the body of the host (in the digestive tract, extraintestinal organs and tissues) This relationship called “infection”",
+   "ar": "**الطفيليات الداخلية** (`Endoparasites`): الطفيليات التي تعيش داخل جسم المضيف (في القناة الهضمية والأعضاء خارج الأمعاء والأنسجة)، وتُسمّى هذه العلاقة «**عدوى**» (`infection`)."
+  },
+  {
+   "t": "section",
+   "en": "Types of Parasites",
+   "ar": "أنواع الطفيليات"
+  },
+  {
+   "t": "card",
+   "en": "Parasites can be classified by the duration of their association with their hosts:",
+   "ar": "يمكن تصنيف الطفيليات حسب مدة ارتباطها بمضائفها:",
+   "list_en": [
+    "**Temporary parasite:** Visits a host for a short period.",
+    "**Permanent parasite:** always fixed to the host. Leads a parasitic life all through its life.",
+    "**Opportunistic parasite:** produces disease only in immunodeficient hosts.",
+    "**Accidental parasites:** Parasite reaches a place where it usually not live."
+   ],
+   "list_ar": [
+    "**الطفيلي المؤقّت** (`Temporary parasite`): يزور المضيف لمدة قصيرة.",
+    "**الطفيلي الدائم** (`Permanent parasite`): مثبّت دائمًا على المضيف، ويعيش حياة طفيلية طوال حياته.",
+    "**الطفيلي الانتهازي** (`Opportunistic parasite`): يُحدث المرض فقط في المضائف ناقصة المناعة.",
+    "**الطفيليات العَرَضية** (`Accidental parasites`): يصل الطفيلي إلى مكان لا يعيش فيه عادةً."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Types of Hosts",
+   "ar": "أنواع المضائف"
+  },
+  {
+   "t": "card",
+   "en": "**Definitive host:** Is the organism in which the adult or final stage of the parasite develops or where sexual reproduction of the parasite occurs",
+   "ar": "**المضيف النهائي** (`Definitive host`): هو الكائن الذي تتطوّر فيه المرحلة البالغة أو النهائية للطفيلي، أو الذي يحدث فيه التكاثر الجنسي للطفيلي."
+  },
+  {
+   "t": "card",
+   "en": "**Intermediate host:** The organism (host) which harbors the larval (a sexual stage) develops. Some have two intermediate hosts.",
+   "ar": "**المضيف الوسطي** (`Intermediate host`): الكائن (المضيف) الذي يؤوي تطوّر الطور اليرقي (مرحلة جنسية). وبعضها لها مضيفان وسطيان."
+  },
+  {
+   "t": "card",
+   "en": "**Reservoir host:** Is an animal species on which the parasite depends for its survival in nature & acts as a source of infection for other hosts including man",
+   "ar": "**المضيف الخازن** (`Reservoir host`): هو نوع حيواني يعتمد عليه الطفيلي لبقائه في الطبيعة، ويعمل مصدرًا للعدوى للمضائف الأخرى ومنها الإنسان."
+  },
+  {
+   "t": "card",
+   "en": "**Paratenic host:** Is the host in which the parasite is transported & neither gains nor loses infectivity for its definitive host. Or a carrier or transport host where the parasite remains viable without further development",
+   "ar": "**المضيف الناقل** (`Paratenic host`): هو المضيف الذي يُنقل فيه الطفيلي ولا يكسب ولا يفقد قدرته على العدوى لمضيفه النهائي. أو هو مضيف حامل أو ناقل يبقى فيه الطفيلي حيًّا دون تطوّر إضافي."
+  },
+  {
+   "t": "section",
+   "en": "Vector and its types",
+   "ar": "النواقل وأنواعها"
+  },
+  {
+   "t": "card",
+   "en": "**Vector:** Is the transmitter of parasites from host to host . (Agents of transmission).",
+   "ar": "**الناقل** (`Vector`): هو ناقل الطفيليات من مضيف إلى مضيف (عوامل النقل)."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**biological vector :** It is essential for the parasite life cycle e.g. Anopheles female",
+    "**Mechanical vector:** When the vector is not essential for the parasite life cycle e.g. house fly"
+   ],
+   "list_ar": [
+    "**الناقل الحيوي** (`biological vector`): ضروري لدورة حياة الطفيلي، مثال: أنثى بعوض **الأنوفيليس** (`Anopheles`).",
+    "**الناقل الميكانيكي** (`Mechanical vector`): عندما لا يكون الناقل ضروريًا لدورة حياة الطفيلي، مثال: الذبابة المنزلية."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Zoonosis:** It is a term applies to the disease which transmitted from animal to human either incidentally or commonly.",
+   "ar": "**الأمراض المشتركة** (`Zoonosis`): مصطلح يُطلق على المرض الذي ينتقل من الحيوان إلى الإنسان إمّا صدفةً أو بشكل شائع."
+  },
+  {
+   "t": "section",
+   "en": "Diagnosis:",
+   "ar": "التشخيص:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**1st. Clinical features:** like fever, pain, etc ….",
+    "**2nd. Laboratory diagnosis** in this way the parasite infection detected by founding the parasite or any stage of its life cycle which performed as the following:"
+   ],
+   "list_ar": [
+    "**أولًا: المظاهر السريرية:** مثل الحمّى والألم وغيرها….",
+    "**ثانيًا: التشخيص المختبري:** وبهذه الطريقة تُكشف الإصابة الطفيلية بإيجاد الطفيلي أو أي مرحلة من دورة حياته، ويُجرى كما يلي:"
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**A: Direct Microscopic Examination:** this method depending on obtain samples from the patients directly and examine under microscope to detect the parasite.",
+    "in this method used the solution of the following:"
+   ],
+   "ar": [
+    "**أ: الفحص المجهري المباشر:** تعتمد هذه الطريقة على أخذ عيّنات من المرضى مباشرةً وفحصها تحت المجهر للكشف عن الطفيلي.",
+    "ويُستعمل في هذه الطريقة المحلول الآتي:"
+   ],
+   "list_en": [
+    "Normal saline"
+   ],
+   "list_ar": [
+    "المحلول الملحي الطبيعي (`Normal saline`)"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**B: Indirect (concentration) method**",
+   "ar": "**ب: الطريقة غير المباشرة (التركيز)**",
+   "list_en": [
+    "Sedimentation method",
+    "Flotation method"
+   ],
+   "list_ar": [
+    "طريقة الترسيب (`Sedimentation`)",
+    "طريقة التطويف (`Flotation`)"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**C-Culture method:** after taking the sample from the patient, these samples culturing on special culture media, the most prominent culture media which uses in parasite culturing Novy–MacNeal–Nicolle medium (N.N.N media).",
+   "ar": "**ج- طريقة الزرع:** بعد أخذ العيّنة من المريض تُزرع هذه العيّنات على أوساط زرعية خاصة، وأبرز وسط زرعي يُستعمل في زراعة الطفيليات هو وسط **نوفي–ماكنيل–نيكول** (`N.N.N media`)."
+  },
+  {
+   "t": "card",
+   "en": "**D- Serological diagnosis method:** This method depends particularly on the reaction that be between anti parasite bodies which formed as results of infection and the parasites antigens.",
+   "ar": "**د- طريقة التشخيص المصلي:** تعتمد هذه الطريقة بصورة خاصة على التفاعل الذي يحدث بين **الأجسام المضادة للطفيلي** المتكوّنة نتيجة الإصابة و**مستضدات الطفيليات**."
+  },
+  {
+   "t": "section",
+   "en": "Collection, Preservation and Examination of stool specimens",
+   "ar": "جمع عيّنات البراز وحفظها وفحصها"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Stool –** Stools contain bacteria and other substances that are present in the digestive system.",
+    "examination of the stool forms an important part in the diagnosis of intestinal parasitic infections and also for those helminthic parasites that localize in the biliary tract and discharge their eggs into the intestine."
+   ],
+   "ar": [
+    "**البراز** (`Stool`): يحتوي البراز على بكتيريا ومواد أخرى موجودة في الجهاز الهضمي.",
+    "ويُعدّ فحص البراز جزءًا مهمًّا في تشخيص الإصابات الطفيلية المعوية، وكذلك للطفيليات الديدانية التي تستقرّ في القناة الصفراوية وتطرح بيوضها في الأمعاء."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "In protozoan infections, either trophozoites or cystic forms may be detected; the former during the active phase and the latter during the chronic phase.",
+    "Example Amoebiasis, Giardiasis, etc."
+   ],
+   "ar": [
+    "في إصابات **الأوالي** (`protozoa`) قد تُكشف إمّا **الأطوار المتغذّية** (`trophozoites`) أو **الأطوار المتكيّسة** (`cystic forms`)؛ الأولى خلال الطور النشط والثانية خلال الطور المزمن.",
+    "مثال: داء الأميبات، وداء الجيارديا، وغيرها."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "In the case of helminthic infections, the adult worms, their eggs, or larvae are found in the stool.",
+   "ar": "وفي حالة الإصابات بالديدان، توجد الديدان البالغة أو بيوضها أو يرقاتها في البراز."
+  },
+  {
+   "t": "section",
+   "en": "correct procedures for collecting stool samples",
+   "ar": "الإجراءات الصحيحة لجمع عيّنات البراز"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Collect stool into a clean, dry container, without disinfectant.",
+    "Specimens must not be contaminated with urine or water, so collection from toilet bowls is unacceptable.",
+    "Print the patient’s name, date and time on the container.",
+    "Deliver the specimen to the lab immediately (maximum of 2 hours)."
+   ],
+   "list_ar": [
+    "اجمع البراز في وعاء نظيف وجاف، بدون مطهّر.",
+    "يجب ألّا تتلوّث العيّنات بالإدرار أو الماء، لذلك فإنّ الجمع من أحواض المرحاض غير مقبول.",
+    "اكتب اسم المريض والتاريخ والوقت على الوعاء.",
+    "أوصل العيّنة إلى المختبر فورًا (خلال ساعتين كحدّ أقصى)."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "5- Specimens that cannot be cultured within 2 hours of collection should be placed in transport medium and refrigerated immediately.",
+    "Stool samples must be fresh – if they aren't, the bacteria in them can multiply.",
+    "This means the levels of bacteria in the stool sample won't be the same as the levels of bacteria in your digestive system.",
+    "If the levels of bacteria don't match, the test results may not be accurate."
+   ],
+   "ar": [
+    "5- العيّنات التي لا يمكن زرعها خلال ساعتين من جمعها يجب أن توضع في **وسط نقل** وتُبرَّد فورًا.",
+    "يجب أن تكون عيّنات البراز طازجة، وإن لم تكن كذلك فإنّ البكتيريا فيها قد تتكاثر.",
+    "وهذا يعني أنّ مستويات البكتيريا في عيّنة البراز لن تكون مماثلة لمستوياتها في جهازك الهضمي.",
+    "وإذا لم تتطابق مستويات البكتيريا فقد لا تكون نتائج الفحص دقيقة."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Preparation of the solution",
+   "ar": "تحضير المحلول"
+  },
+  {
+   "t": "h2",
+   "en": "1-Iodin stain:",
+   "ar": "1- صبغة اليود:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Distilled water 100 ml",
+    "Potassium iodide 10g",
+    "Iodine crystals 5g"
+   ],
+   "list_ar": [
+    "ماء مقطّر `100 ml`",
+    "يوديد البوتاسيوم `10 g`",
+    "بلّورات اليود `5 g`"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Used to detect **parasite structures**, **nuclei** and **cell membranes**.",
+    "Color: reddish-brown"
+   ],
+   "list_ar": [
+    "تُستعمل للكشف عن **تراكيب الطفيلي** و**الأنوية** و**الأغشية الخلوية**.",
+    "اللون: بنّي محمرّ"
+   ],
+   "alpha": true
+  },
+  {
+   "t": "figure",
+   "src": "assets/iodine-eggs.jpg",
+   "en": "Images on the Iodin stain slide",
+   "ar": "الصور المرافقة لشريحة صبغة اليود",
+   "h": "62mm",
+   "fit": "contain"
+  },
+  {
+   "t": "h2",
+   "en": "2-Phsiological saline solution (Normal Salian):",
+   "ar": "2- المحلول الملحي الفسلجي (المحلول الملحي الطبيعي):"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Sodium chloride 8.5 g",
+    "Distilled water 100 ml"
+   ],
+   "list_ar": [
+    "كلوريد الصوديوم `8.5 g`",
+    "ماء مقطّر `100 ml`"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Used to detect **parasite motion**."
+   ],
+   "list_ar": [
+    "يُستعمل للكشف عن **حركة الطفيلي**."
+   ],
+   "alpha": true
+  },
+  {
+   "t": "figure",
+   "src": "assets/saline-egg.jpg",
+   "en": "Image on the Phsiological saline solution slide",
+   "ar": "الصورة المرافقة لشريحة المحلول الملحي الفسلجي",
+   "h": "48mm",
+   "fit": "contain"
+  },
+  {
+   "t": "h2",
+   "en": "4-Giemsa stain",
+   "ar": "4- صبغة كيمزا"
+  },
+  {
+   "t": "card",
+   "en": [
+    "4-**Giemsa stain** is a type of dye used mainly in microbiology, parasitology, and cytogenetics to stain cells and tissues, making them easier to differentiate under a microscope.",
+    "It is widely used for diagnosing blood-related diseases and identifying parasites."
+   ],
+   "ar": [
+    "4- **صبغة كيمزا** (`Giemsa stain`) نوع من الصبغات يُستعمل أساسًا في علم الأحياء المجهرية وعلم الطفيليات و**علم الوراثة الخلوي** لصبغ الخلايا والأنسجة، ممّا يجعل تمييزها تحت المجهر أسهل.",
+    "وتُستعمل على نطاق واسع في تشخيص الأمراض المتعلّقة بالدم والتعرّف على الطفيليات."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Components of Giemsa Stain:",
+   "ar": "مكوّنات صبغة كيمزا:"
+  },
+  {
+   "t": "card",
+   "en": "The stain is made up of several key ingredients:",
+   "ar": "تتكوّن الصبغة من عدّة مكوّنات رئيسة:",
+   "list_en": [
+    "**Methylene Blue:** A basic dye that stains acidic cellular components like nucleic acids (DNA and RNA).",
+    "**Eosin:** An acidic dye that stains basic cell components, such as cytoplasmic proteins, usually giving them a pink color.",
+    "**Azure B:** This enhances the staining of nucleic acids, providing strong differentiation of chromosomal material.",
+    "**Glycerol and Distilled Water:** Used as solvents to dissolve the stain components and make it ready for use."
+   ],
+   "list_ar": [
+    "**أزرق المثيلين** (`Methylene Blue`): صبغة قاعدية تصبغ المكوّنات الخلوية الحامضية مثل الأحماض النووية (`DNA` و`RNA`).",
+    "**الأيوسين** (`Eosin`): صبغة حامضية تصبغ مكوّنات الخلية القاعدية، مثل بروتينات السايتوبلازم، وتعطيها عادةً لونًا ورديًا.",
+    "**الأزور ب** (`Azure B`): يعزّز صبغ الأحماض النووية، ممّا يوفّر تمييزًا قويًا للمادة الكروموسومية.",
+    "**الغليسيرول والماء المقطّر** (`Glycerol and Distilled Water`): يُستعملان مذيبين لإذابة مكوّنات الصبغة وجعلها جاهزة للاستعمال."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Uses of Leishman Stain:",
+   "ar": "استعمالات صبغة ليشمان:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Blood Cell Differentiation:** Leishman stain is commonly used to examine blood smears for analyzing the different types of white blood cells (WBCs), red blood cells (RBCs), and platelets.",
+    "**Parasitology:** It helps in identifying blood-borne parasites, particularly \\*Leishmania\\* (causing leishmaniasis) and \\*Plasmodium\\* (causing malaria).",
+    "**Hematology:** Leishman stain is used to study the morphology of blood cells and to detect abnormalities, infections, or conditions such as leukemia and anemia."
+   ],
+   "list_ar": [
+    "**تمييز خلايا الدم:** تُستعمل صبغة ليشمان عادةً لفحص المسحات الدموية لتحليل الأنواع المختلفة من خلايا الدم البيض (`WBCs`) وخلايا الدم الحمر (`RBCs`) والصفيحات الدموية.",
+    "**علم الطفيليات:** تساعد في التعرّف على الطفيليات المنقولة بالدم، ولا سيّما `__Leishmania__` (المسبّبة لداء الليشمانيات) و`__Plasmodium__` (المسبّبة للملاريا).",
+    "**علم الدم:** تُستعمل صبغة ليشمان لدراسة شكل خلايا الدم وللكشف عن الشذوذات أو الإصابات أو حالات مثل ابيضاض الدم وفقر الدم."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "The stain's ability to highlight both cellular details and parasites makes it a valuable tool in diagnosing infections and blood disorders.",
+   "ar": "إنّ قدرة الصبغة على إبراز التفاصيل الخلوية والطفيليات معًا تجعلها أداة قيّمة في تشخيص الإصابات واضطرابات الدم."
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/stain-bottle.jpg",
+     "en": "Image on the Leishman stain slide",
+     "ar": "صورة من شريحة صبغة ليشمان",
+     "h": "44mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/staining.jpg",
+     "en": "Image on the Leishman stain slide",
+     "ar": "صورة من شريحة صبغة ليشمان",
+     "h": "44mm",
+     "fit": "contain"
+    }
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Definitions and relationships",
+    "topic_ar": "التعاريف والعلاقات"
+   },
+   {
+    "en": "Medical Parasitology is the science that deals with:",
+    "ar": "علم الطفيليات الطبية هو العلم الذي يتعامل مع:",
+    "options": [
+     [
+      "Parasites and their pathogenic effects",
+      "الطفيليات وتأثيراتها المُمرِضة"
+     ],
+     [
+      "Bacteria and their toxins",
+      "البكتيريا وسمومها"
+     ],
+     [
+      "Viruses and their replication",
+      "الفيروسات وتضاعفها"
+     ],
+     [
+      "Fungi and their spores",
+      "الفطريات وأبواغها"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "A parasite is an organism adapted to live:",
+    "ar": "الطفيلي كائن متكيّف للعيش:",
+    "options": [
+     [
+      "Only free in nature",
+      "حرًّا في الطبيعة فقط"
+     ],
+     [
+      "On or in other organism (host)",
+      "على كائن آخر أو داخله (المضيف)"
+     ],
+     [
+      "Only in water",
+      "في الماء فقط"
+     ],
+     [
+      "Only in soil",
+      "في التربة فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The relationship in which one is benefited and the other (host) neither benefited nor harmed is:",
+    "ar": "العلاقة التي يستفيد فيها أحدهما والآخر (المضيف) لا يستفيد ولا يتضرّر هي:",
+    "options": [
+     [
+      "Mutualism",
+      "التبادل المنفعي"
+     ],
+     [
+      "Parasitism",
+      "التطفّل"
+     ],
+     [
+      "Commensalism",
+      "المعايشة"
+     ],
+     [
+      "Symbiosis",
+      "التكافل"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The example given for commensalism is:",
+    "ar": "المثال المذكور للمعايشة هو:",
+    "options": [
+     [
+      "E. histolytica",
+      "`E. histolytica`"
+     ],
+     [
+      "Anopheles female",
+      "أنثى الأنوفيليس"
+     ],
+     [
+      "House fly",
+      "الذبابة المنزلية"
+     ],
+     [
+      "E. coli",
+      "`E. coli`"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The relationship that is harmful to the host is:",
+    "ar": "العلاقة الضارّة بالمضيف هي:",
+    "options": [
+     [
+      "Parasitism",
+      "التطفّل"
+     ],
+     [
+      "Commensalism",
+      "المعايشة"
+     ],
+     [
+      "Mutualism",
+      "التبادل المنفعي"
+     ],
+     [
+      "Symbiosis",
+      "التكافل"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The example given for parasitism is:",
+    "ar": "المثال المذكور للتطفّل هو:",
+    "options": [
+     [
+      "E. coli",
+      "`E. coli`"
+     ],
+     [
+      "E. histolytica",
+      "`E. histolytica`"
+     ],
+     [
+      "Leishmania",
+      "`Leishmania`"
+     ],
+     [
+      "Plasmodium",
+      "`Plasmodium`"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The relationship which is benefit for both associates is:",
+    "ar": "العلاقة المفيدة لكلا الشريكين هي:",
+    "options": [
+     [
+      "Parasitism",
+      "التطفّل"
+     ],
+     [
+      "Commensalism",
+      "المعايشة"
+     ],
+     [
+      "Mutualism",
+      "التبادل المنفعي"
+     ],
+     [
+      "Zoonosis",
+      "الأمراض المشتركة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Two dissimilar organisms adapted to living together and lost the ability to live alone describes:",
+    "ar": "كائنان غير متشابهين متكيّفان على العيش معًا وفقدا القدرة على العيش منفردين يصف:",
+    "options": [
+     [
+      "Commensalism",
+      "المعايشة"
+     ],
+     [
+      "Parasitism",
+      "التطفّل"
+     ],
+     [
+      "Zoonosis",
+      "الأمراض المشتركة"
+     ],
+     [
+      "Symbiosis",
+      "التكافل"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Types of parasites",
+    "topic_ar": "أنواع الطفيليات"
+   },
+   {
+    "en": "Parasites that are entirely dependant on their hosts & can not live outside the host are:",
+    "ar": "الطفيليات التي تعتمد كليًّا على مضائفها ولا تستطيع العيش خارجها هي:",
+    "options": [
+     [
+      "Obligatory parasites",
+      "الطفيليات الإجبارية"
+     ],
+     [
+      "Facultative parasites",
+      "الطفيليات الاختيارية"
+     ],
+     [
+      "Accidental parasites",
+      "الطفيليات العَرَضية"
+     ],
+     [
+      "Temporary parasites",
+      "الطفيليات المؤقّتة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Parasites capable of living either free or in or on a host are:",
+    "ar": "الطفيليات القادرة على العيش إمّا حرّة أو داخل المضيف أو عليه هي:",
+    "options": [
+     [
+      "Obligatory",
+      "الإجبارية"
+     ],
+     [
+      "Facultative",
+      "الاختيارية"
+     ],
+     [
+      "Permanent",
+      "الدائمة"
+     ],
+     [
+      "Endoparasites",
+      "الداخلية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Parasites that live on the external surface of the host causing infestation are:",
+    "ar": "الطفيليات التي تعيش على السطح الخارجي للمضيف مسبّبةً إصابة خارجية هي:",
+    "options": [
+     [
+      "Endoparasites",
+      "الطفيليات الداخلية"
+     ],
+     [
+      "Opportunistic parasites",
+      "الطفيليات الانتهازية"
+     ],
+     [
+      "Ectoparasites",
+      "الطفيليات الخارجية"
+     ],
+     [
+      "Permanent parasites",
+      "الطفيليات الدائمة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The relationship of endoparasites with the host is called:",
+    "ar": "تُسمّى علاقة الطفيليات الداخلية بالمضيف:",
+    "options": [
+     [
+      "Infestation",
+      "إصابة خارجية"
+     ],
+     [
+      "Commensalism",
+      "المعايشة"
+     ],
+     [
+      "Mutualism",
+      "التبادل المنفعي"
+     ],
+     [
+      "Infection",
+      "عدوى"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A parasite that produces disease only in immunodeficient hosts is:",
+    "ar": "الطفيلي الذي يُحدث المرض فقط في المضائف ناقصة المناعة هو:",
+    "options": [
+     [
+      "Opportunistic parasite",
+      "الطفيلي الانتهازي"
+     ],
+     [
+      "Temporary parasite",
+      "الطفيلي المؤقّت"
+     ],
+     [
+      "Permanent parasite",
+      "الطفيلي الدائم"
+     ],
+     [
+      "Facultative parasite",
+      "الطفيلي الاختياري"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "A parasite that visits a host for a short period is:",
+    "ar": "الطفيلي الذي يزور المضيف لمدة قصيرة هو:",
+    "options": [
+     [
+      "Permanent parasite",
+      "الطفيلي الدائم"
+     ],
+     [
+      "Temporary parasite",
+      "الطفيلي المؤقّت"
+     ],
+     [
+      "Obligatory parasite",
+      "الطفيلي الإجباري"
+     ],
+     [
+      "Endoparasite",
+      "الطفيلي الداخلي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Hosts and vectors",
+    "topic_ar": "المضائف والنواقل"
+   },
+   {
+    "en": "The host in which the adult or final stage of the parasite develops or sexual reproduction occurs is:",
+    "ar": "المضيف الذي تتطوّر فيه المرحلة البالغة أو النهائية للطفيلي أو يحدث فيه التكاثر الجنسي هو:",
+    "options": [
+     [
+      "Intermediate host",
+      "المضيف الوسطي"
+     ],
+     [
+      "Reservoir host",
+      "المضيف الخازن"
+     ],
+     [
+      "Definitive host",
+      "المضيف النهائي"
+     ],
+     [
+      "Paratenic host",
+      "المضيف الناقل"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The host in which the parasite is transported & neither gains nor loses infectivity is:",
+    "ar": "المضيف الذي يُنقل فيه الطفيلي ولا يكسب ولا يفقد قدرته على العدوى هو:",
+    "options": [
+     [
+      "Definitive host",
+      "المضيف النهائي"
+     ],
+     [
+      "Intermediate host",
+      "المضيف الوسطي"
+     ],
+     [
+      "Reservoir host",
+      "المضيف الخازن"
+     ],
+     [
+      "Paratenic host",
+      "المضيف الناقل"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "An animal species on which the parasite depends for its survival in nature & acts as a source of infection is:",
+    "ar": "النوع الحيواني الذي يعتمد عليه الطفيلي لبقائه في الطبيعة ويعمل مصدرًا للعدوى هو:",
+    "options": [
+     [
+      "Reservoir host",
+      "المضيف الخازن"
+     ],
+     [
+      "Paratenic host",
+      "المضيف الناقل"
+     ],
+     [
+      "Definitive host",
+      "المضيف النهائي"
+     ],
+     [
+      "Mechanical vector",
+      "الناقل الميكانيكي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The example given for a biological vector is:",
+    "ar": "المثال المذكور للناقل الحيوي هو:",
+    "options": [
+     [
+      "House fly",
+      "الذبابة المنزلية"
+     ],
+     [
+      "Anopheles female",
+      "أنثى الأنوفيليس"
+     ],
+     [
+      "E. coli",
+      "`E. coli`"
+     ],
+     [
+      "Man",
+      "الإنسان"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The example given for a mechanical vector is:",
+    "ar": "المثال المذكور للناقل الميكانيكي هو:",
+    "options": [
+     [
+      "Anopheles female",
+      "أنثى الأنوفيليس"
+     ],
+     [
+      "E. histolytica",
+      "`E. histolytica`"
+     ],
+     [
+      "House fly",
+      "الذبابة المنزلية"
+     ],
+     [
+      "Plasmodium",
+      "`Plasmodium`"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The term applies to the disease which transmitted from animal to human is:",
+    "ar": "المصطلح الذي يُطلق على المرض المنتقل من الحيوان إلى الإنسان هو:",
+    "options": [
+     [
+      "Symbiosis",
+      "التكافل"
+     ],
+     [
+      "Infestation",
+      "إصابة خارجية"
+     ],
+     [
+      "Mutualism",
+      "التبادل المنفعي"
+     ],
+     [
+      "Zoonosis",
+      "الأمراض المشتركة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Diagnosis and stool specimens",
+    "topic_ar": "التشخيص وعيّنات البراز"
+   },
+   {
+    "en": "The most prominent culture media used in parasite culturing is:",
+    "ar": "أبرز وسط زرعي يُستعمل في زراعة الطفيليات هو:",
+    "options": [
+     [
+      "Novy–MacNeal–Nicolle medium (N.N.N)",
+      "وسط نوفي–ماكنيل–نيكول `(N.N.N)`"
+     ],
+     [
+      "Normal saline",
+      "المحلول الملحي الطبيعي"
+     ],
+     [
+      "Iodine stain",
+      "صبغة اليود"
+     ],
+     [
+      "Transport medium",
+      "وسط النقل"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Serological diagnosis depends on the reaction between:",
+    "ar": "يعتمد التشخيص المصلي على التفاعل بين:",
+    "options": [
+     [
+      "Stain and parasite nuclei",
+      "الصبغة وأنوية الطفيلي"
+     ],
+     [
+      "Anti parasite bodies and the parasites antigens",
+      "الأجسام المضادة للطفيلي ومستضدات الطفيليات"
+     ],
+     [
+      "Saline and parasite motion",
+      "المحلول الملحي وحركة الطفيلي"
+     ],
+     [
+      "Culture media and the sample",
+      "الوسط الزرعي والعيّنة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The indirect (concentration) method includes:",
+    "ar": "تشمل الطريقة غير المباشرة (التركيز):",
+    "options": [
+     [
+      "Culture and serology",
+      "الزرع والتشخيص المصلي"
+     ],
+     [
+      "Normal saline only",
+      "المحلول الملحي الطبيعي فقط"
+     ],
+     [
+      "Sedimentation and flotation methods",
+      "طريقتَي الترسيب والتطويف"
+     ],
+     [
+      "Clinical features",
+      "المظاهر السريرية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The solution used in the direct microscopic examination is:",
+    "ar": "المحلول المستعمل في الفحص المجهري المباشر هو:",
+    "options": [
+     [
+      "Giemsa stain",
+      "صبغة كيمزا"
+     ],
+     [
+      "Leishman stain",
+      "صبغة ليشمان"
+     ],
+     [
+      "Glycerol",
+      "الغليسيرول"
+     ],
+     [
+      "Normal saline",
+      "المحلول الملحي الطبيعي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In protozoan infections, cystic forms are detected during:",
+    "ar": "في إصابات الأوالي تُكشف الأطوار المتكيّسة خلال:",
+    "options": [
+     [
+      "The chronic phase",
+      "الطور المزمن"
+     ],
+     [
+      "The active phase",
+      "الطور النشط"
+     ],
+     [
+      "Culture only",
+      "الزرع فقط"
+     ],
+     [
+      "The larval stage",
+      "الطور اليرقي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The specimen should be delivered to the lab within a maximum of:",
+    "ar": "يجب إيصال العيّنة إلى المختبر خلال حدّ أقصى قدره:",
+    "options": [
+     [
+      "30 minutes",
+      "30 دقيقة"
+     ],
+     [
+      "2 hours",
+      "ساعتين"
+     ],
+     [
+      "6 hours",
+      "6 ساعات"
+     ],
+     [
+      "24 hours",
+      "24 ساعة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Collection from toilet bowls is unacceptable because specimens must not be:",
+    "ar": "الجمع من أحواض المرحاض غير مقبول لأنّ العيّنات يجب ألّا:",
+    "options": [
+     [
+      "Refrigerated",
+      "تُبرَّد"
+     ],
+     [
+      "Labelled",
+      "تُعلَّم"
+     ],
+     [
+      "Contaminated with urine or water",
+      "تتلوّث بالإدرار أو الماء"
+     ],
+     [
+      "Put in a dry container",
+      "توضع في وعاء جاف"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Solutions and stains",
+    "topic_ar": "المحاليل والصبغات"
+   },
+   {
+    "en": "The color of the Iodin stain is:",
+    "ar": "لون صبغة اليود هو:",
+    "options": [
+     [
+      "Pink",
+      "وردي"
+     ],
+     [
+      "Blue",
+      "أزرق"
+     ],
+     [
+      "Purple",
+      "بنفسجي"
+     ],
+     [
+      "Reddish-brown",
+      "بنّي محمرّ"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The amount of potassium iodide in the Iodin stain is:",
+    "ar": "كمية يوديد البوتاسيوم في صبغة اليود هي:",
+    "options": [
+     [
+      "10g",
+      "`10 g`"
+     ],
+     [
+      "5g",
+      "`5 g`"
+     ],
+     [
+      "8.5 g",
+      "`8.5 g`"
+     ],
+     [
+      "100 ml",
+      "`100 ml`"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Physiological saline solution is used to detect:",
+    "ar": "يُستعمل المحلول الملحي الفسلجي للكشف عن:",
+    "options": [
+     [
+      "Nuclei",
+      "الأنوية"
+     ],
+     [
+      "Parasite motion",
+      "حركة الطفيلي"
+     ],
+     [
+      "Cell membranes",
+      "الأغشية الخلوية"
+     ],
+     [
+      "Nucleic acids",
+      "الأحماض النووية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Methylene Blue in Giemsa stain is:",
+    "ar": "أزرق المثيلين في صبغة كيمزا هو:",
+    "options": [
+     [
+      "An acidic dye that stains basic components",
+      "صبغة حامضية تصبغ المكوّنات القاعدية"
+     ],
+     [
+      "A solvent",
+      "مذيب"
+     ],
+     [
+      "A basic dye that stains acidic cellular components",
+      "صبغة قاعدية تصبغ المكوّنات الخلوية الحامضية"
+     ],
+     [
+      "A transport medium",
+      "وسط نقل"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The component that enhances the staining of nucleic acids, providing strong differentiation of chromosomal material, is:",
+    "ar": "المكوّن الذي يعزّز صبغ الأحماض النووية ويوفّر تمييزًا قويًا للمادة الكروموسومية هو:",
+    "options": [
+     [
+      "Eosin",
+      "الأيوسين"
+     ],
+     [
+      "Glycerol",
+      "الغليسيرول"
+     ],
+     [
+      "Methylene Blue",
+      "أزرق المثيلين"
+     ],
+     [
+      "Azure B",
+      "الأزور ب"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Glycerol and Distilled Water in Giemsa stain are used as:",
+    "ar": "يُستعمل الغليسيرول والماء المقطّر في صبغة كيمزا:",
+    "options": [
+     [
+      "Solvents",
+      "مذيبين"
+     ],
+     [
+      "Basic dyes",
+      "صبغتين قاعديتين"
+     ],
+     [
+      "Acidic dyes",
+      "صبغتين حامضيتين"
+     ],
+     [
+      "Fixatives of parasites",
+      "مثبّتين للطفيليات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Leishman stain helps in identifying blood-borne parasites, particularly:",
+    "ar": "تساعد صبغة ليشمان في التعرّف على الطفيليات المنقولة بالدم، ولا سيّما:",
+    "options": [
+     [
+      "E. coli and E. histolytica",
+      "`E. coli` و`E. histolytica`"
+     ],
+     [
+      "Leishmania and Plasmodium",
+      "`Leishmania` و`Plasmodium`"
+     ],
+     [
+      "Giardia and Amoeba",
+      "الجيارديا والأميبا"
+     ],
+     [
+      "Helminth eggs only",
+      "بيوض الديدان فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "These images appear on the slide of a stain used to detect:",
+    "ar": "تظهر هذه الصور في شريحة صبغة تُستعمل للكشف عن:",
+    "options": [
+     [
+      "Parasite motion",
+      "حركة الطفيلي"
+     ],
+     [
+      "Blood cell differentiation",
+      "تمييز خلايا الدم"
+     ],
+     [
+      "Parasite structures, nuclei and cell membranes",
+      "تراكيب الطفيلي والأنوية والأغشية الخلوية"
+     ],
+     [
+      "Antibodies",
+      "الأجسام المضادة"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/iodine-eggs.jpg",
+    "img_h": "36mm"
+   },
+   {
+    "en": "This image appears on the slide of the solution (Sodium chloride 8.5 g + Distilled water 100 ml) used to detect:",
+    "ar": "تظهر هذه الصورة في شريحة المحلول (كلوريد الصوديوم + ماء مقطّر) المستعمل للكشف عن:",
+    "options": [
+     [
+      "Nuclei",
+      "الأنوية"
+     ],
+     [
+      "Cell membranes",
+      "الأغشية الخلوية"
+     ],
+     [
+      "Nucleic acids",
+      "الأحماض النووية"
+     ],
+     [
+      "Parasite motion",
+      "حركة الطفيلي"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/saline-egg.jpg",
+    "img_h": "32mm"
+   },
+   {
+    "en": "The stain in the bottle (Eosin) is, according to the lecture:",
+    "ar": "الصبغة في القنينة (الأيوسين) هي حسب المحاضرة:",
+    "options": [
+     [
+      "An acidic dye that stains basic cell components, usually pink",
+      "صبغة حامضية تصبغ مكوّنات الخلية القاعدية، عادةً باللون الوردي"
+     ],
+     [
+      "A basic dye that stains nucleic acids blue",
+      "صبغة قاعدية تصبغ الأحماض النووية"
+     ],
+     [
+      "A solvent of the stain components",
+      "مذيب لمكوّنات الصبغة"
+     ],
+     [
+      "A solution used to detect parasite motion",
+      "محلول يُستعمل للكشف عن حركة الطفيلي"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/stain-bottle.jpg",
+    "img_h": "32mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Parasite and Parasitism are terms that define a way of life.",
+    "ar": "الطفيلي والتطفّل مصطلحان يعرّفان أسلوبًا للحياة.",
+    "answer": "T"
+   },
+   {
+    "en": "In mutualism the relationship is harmful to the host.",
+    "ar": "في التبادل المنفعي تكون العلاقة ضارّة بالمضيف.",
+    "answer": "F"
+   },
+   {
+    "en": "Facultative parasites can not live outside the host.",
+    "ar": "الطفيليات الاختيارية لا تستطيع العيش خارج المضيف.",
+    "answer": "F"
+   },
+   {
+    "en": "Ectoparasites live on the external surface of the host causing infestation.",
+    "ar": "تعيش الطفيليات الخارجية على السطح الخارجي للمضيف مسبّبةً إصابة خارجية.",
+    "answer": "T"
+   },
+   {
+    "en": "A permanent parasite visits a host for a short period.",
+    "ar": "الطفيلي الدائم يزور المضيف لمدة قصيرة.",
+    "answer": "F"
+   },
+   {
+    "en": "Some parasites have two intermediate hosts.",
+    "ar": "بعض الطفيليات لها مضيفان وسطيان.",
+    "answer": "T"
+   },
+   {
+    "en": "A mechanical vector is essential for the parasite life cycle.",
+    "ar": "الناقل الميكانيكي ضروري لدورة حياة الطفيلي.",
+    "answer": "F"
+   },
+   {
+    "en": "Stool should be collected into a clean, dry container, without disinfectant.",
+    "ar": "يُجمع البراز في وعاء نظيف وجاف بدون مطهّر.",
+    "answer": "T"
+   },
+   {
+    "en": "In protozoan infections, trophozoites are detected during the chronic phase.",
+    "ar": "في إصابات الأوالي تُكشف الأطوار المتغذّية خلال الطور المزمن.",
+    "answer": "F"
+   },
+   {
+    "en": "In helminthic infections, the adult worms, their eggs, or larvae are found in the stool.",
+    "ar": "في إصابات الديدان توجد الديدان البالغة أو بيوضها أو يرقاتها في البراز.",
+    "answer": "T"
+   },
+   {
+    "en": "Eosin is a basic dye that stains acidic cellular components.",
+    "ar": "الأيوسين صبغة قاعدية تصبغ المكوّنات الخلوية الحامضية.",
+    "answer": "F"
+   },
+   {
+    "en": "Leishman stain is used to detect conditions such as leukemia and anemia.",
+    "ar": "تُستعمل صبغة ليشمان للكشف عن حالات مثل ابيضاض الدم وفقر الدم.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Accidental parasite appears in two classifications — what does each say?",
+    "ar": "الطفيلي العَرَضي يظهر في تصنيفين — ماذا يقول كل منهما؟",
+    "answer_en": "Types of parasites: occasionally an organism parasitizes a species other than its usual host. By duration: parasite reaches a place where it usually not live.",
+    "answer_ar": "في أنواع الطفيليات: يتطفّل كائن أحيانًا على نوع غير مضيفه المعتاد. وفي التصنيف حسب المدة: يصل الطفيلي إلى مكان لا يعيش فيه عادةً."
+   },
+   {
+    "en": "Infestation vs infection.",
+    "ar": "الإصابة الخارجية مقابل العدوى.",
+    "answer_en": "Ectoparasites live on the external surface of the host causing infestation; the relationship of endoparasites (inside the body) is called “infection”.",
+    "answer_ar": "الطفيليات الخارجية تعيش على السطح الخارجي وتسبّب إصابة خارجية `(infestation)`، أمّا علاقة الطفيليات الداخلية (داخل الجسم) فتُسمّى عدوى `(infection)`."
+   },
+   {
+    "en": "Trophozoites vs cystic forms — which phase?",
+    "ar": "الأطوار المتغذّية مقابل المتكيّسة — في أي طور؟",
+    "answer_en": "Trophozoites during the active phase; cystic forms during the chronic phase.",
+    "answer_ar": "الأطوار المتغذّية خلال الطور النشط، والمتكيّسة خلال الطور المزمن."
+   },
+   {
+    "en": "Biological vs mechanical vector.",
+    "ar": "الناقل الحيوي مقابل الميكانيكي.",
+    "answer_en": "Biological vector is essential for the parasite life cycle (e.g. Anopheles female); mechanical vector is not essential (e.g. house fly).",
+    "answer_ar": "الناقل الحيوي ضروري لدورة حياة الطفيلي (مثل أنثى الأنوفيليس)، والميكانيكي غير ضروري (مثل الذبابة المنزلية)."
+   },
+   {
+    "en": "Iodin stain vs saline — what does each detect?",
+    "ar": "صبغة اليود مقابل المحلول الملحي — عمّ يكشف كل منهما؟",
+    "answer_en": "Iodin stain: parasite structures, nuclei and cell membranes. Saline: parasite motion.",
+    "answer_ar": "صبغة اليود: تراكيب الطفيلي والأنوية والأغشية الخلوية. المحلول الملحي: حركة الطفيلي."
+   },
+   {
+    "en": "Methylene Blue vs Eosin.",
+    "ar": "أزرق المثيلين مقابل الأيوسين.",
+    "answer_en": "Methylene Blue: a basic dye that stains acidic components (DNA, RNA). Eosin: an acidic dye that stains basic components (cytoplasmic proteins), usually pink.",
+    "answer_ar": "أزرق المثيلين: صبغة قاعدية تصبغ المكوّنات الحامضية `(DNA, RNA)`. الأيوسين: صبغة حامضية تصبغ المكوّنات القاعدية (بروتينات السايتوبلازم) عادةً باللون الوردي."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define Medical Parasitology and Parasite.",
+    "ar": "عرّف علم الطفيليات الطبية والطفيلي.",
+    "answer_en": "Medical Parasitology: Is the science that deals with parasites and their pathogenic effects. Parasite: Is an organism adapted to live on or in other organism (host).",
+    "answer_ar": "علم الطفيليات الطبية: العلم الذي يتعامل مع الطفيليات وتأثيراتها المُمرِضة. الطفيلي: كائن متكيّف للعيش على كائن آخر أو داخله (المضيف)."
+   },
+   {
+    "en": "Mention the types of hosts.",
+    "ar": "اذكر أنواع المضائف.",
+    "answer_en": "Definitive host, Intermediate host, Reservoir host, Paratenic host.",
+    "answer_ar": "المضيف النهائي، المضيف الوسطي، المضيف الخازن، المضيف الناقل."
+   },
+   {
+    "en": "Define vector and mention its types with examples.",
+    "ar": "عرّف الناقل واذكر أنواعه مع الأمثلة.",
+    "answer_en": "Vector: Is the transmitter of parasites from host to host. Biological vector (e.g. Anopheles female) and Mechanical vector (e.g. house fly).",
+    "answer_ar": "الناقل: ناقل الطفيليات من مضيف إلى مضيف. ناقل حيوي (مثل أنثى الأنوفيليس) وناقل ميكانيكي (مثل الذبابة المنزلية)."
+   },
+   {
+    "en": "List the methods of laboratory diagnosis.",
+    "ar": "عدّد طرق التشخيص المختبري.",
+    "answer_en": "A: Direct Microscopic Examination; B: Indirect (concentration) method — sedimentation, flotation; C: Culture method; D: Serological diagnosis method.",
+    "answer_ar": "أ: الفحص المجهري المباشر؛ ب: الطريقة غير المباشرة (التركيز) — الترسيب والتطويف؛ ج: طريقة الزرع؛ د: التشخيص المصلي."
+   },
+   {
+    "en": "Mention the correct procedures for collecting stool samples.",
+    "ar": "اذكر الإجراءات الصحيحة لجمع عيّنات البراز.",
+    "answer_en": "1- Clean, dry container, without disinfectant. 2- Not contaminated with urine or water. 3- Print the patient’s name, date and time. 4- Deliver immediately (maximum of 2 hours). 5- If not cultured within 2 hours: transport medium and refrigerate immediately.",
+    "answer_ar": "1- وعاء نظيف وجاف بدون مطهّر. 2- عدم التلوّث بالإدرار أو الماء. 3- كتابة اسم المريض والتاريخ والوقت. 4- الإيصال فورًا (ساعتان كحدّ أقصى). 5- إن لم تُزرع خلال ساعتين: وسط نقل وتبريد فوري."
+   },
+   {
+    "en": "What are the components of Giemsa stain?",
+    "ar": "ما مكوّنات صبغة كيمزا؟",
+    "answer_en": "Methylene Blue, Eosin, Azure B, Glycerol and Distilled Water.",
+    "answer_ar": "أزرق المثيلين، الأيوسين، الأزور ب، الغليسيرول والماء المقطّر."
+   },
+   {
+    "en": "Mention the uses of Leishman stain.",
+    "ar": "اذكر استعمالات صبغة ليشمان.",
+    "answer_en": "Blood cell differentiation; Parasitology (Leishmania and Plasmodium); Hematology (morphology of blood cells, abnormalities, leukemia and anemia).",
+    "answer_ar": "تمييز خلايا الدم؛ علم الطفيليات `(Leishmania, Plasmodium)`؛ علم الدم (شكل خلايا الدم، الشذوذات، ابيضاض الدم وفقر الدم)."
+   }
+  ]
+ }
+}
