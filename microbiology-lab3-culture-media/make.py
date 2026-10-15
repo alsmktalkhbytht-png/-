@@ -308,7 +308,7 @@ important = [
 meta = dict(subject_en="Diagnostic Microbiology", subject_ar="الأحياء المجهرية التشخيصية", short_ar="بكتريا",
             unit_en="Lab 3", unit_ar="العملي 3", unit_label="LAB", unit_no="3",
             title_en="Culture Media", title_ar="الأوساط الزرعية",
-            kind="Laboratories — عملي", stage="The fourth stage — الرابعة", instructor="د. ذهب",
+            kind="Laboratories — عملي", stage="The fourth stage — الرابعة", instructor="د. هبة سامي",
             file_name="بكتريا عملي المحاضرة الثالثة", questions_suffix=" اسئلة")   # user-chosen file names
 
 folder = "microbiology-lab3-culture-media"

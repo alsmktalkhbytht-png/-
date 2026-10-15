@@ -258,7 +258,7 @@ important = [
 meta = dict(subject_en="Diagnostic Microbiology", subject_ar="الأحياء المجهرية التشخيصية", short_ar="بكتريا",
             unit_en="Lab 2", unit_ar="العملي 2", unit_label="LAB", unit_no="2",
             title_en="Selection, Collection, and Transport of Specimens", title_ar="اختيار العيّنات وجمعها ونقلها",
-            kind="Laboratories — عملي", stage="The fourth stage — الرابعة", instructor="د. ذهب",
+            kind="Laboratories — عملي", stage="The fourth stage — الرابعة", instructor="د. هبة سامي",
             file_name="بكتريا عملي المحاضرة الثانية", questions_suffix=" اسئلة")   # user-chosen file names
 
 folder = "microbiology-lab2-specimens"
