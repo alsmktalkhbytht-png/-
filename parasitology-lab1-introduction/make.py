@@ -150,7 +150,6 @@ blocks = [
  *SALINE,
  F("saline-egg.jpg", "Image on the Physiological saline solution slide", "الصورة المرافقة لشريحة المحلول الملحي الفسلجي", h="48mm", fit="contain"),
 
- H2("4-Giemsa stain", "4- صبغة كيمزا"),
  C(["4-**Giemsa stain** is a type of dye used mainly in microbiology, parasitology, and cytogenetics to stain cells and tissues, making them easier to differentiate under a microscope.",
     "It is widely used for diagnosing blood-related diseases and identifying parasites."],
    ["4- **صبغة كيمزا** (`Giemsa stain`) نوع من الصبغات يُستعمل أساسًا في علم الأحياء المجهرية وعلم الطفيليات و**علم الوراثة الخلوي** لصبغ الخلايا والأنسجة، ممّا يجعل تمييزها تحت المجهر أسهل.",

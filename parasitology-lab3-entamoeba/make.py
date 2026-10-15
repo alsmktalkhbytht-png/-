@@ -107,7 +107,6 @@ blocks = [
     ["transmission stage", "", "**الكيس:** طور الانتقال"]],
    ar_cols=[2], widths=["48mm", "44mm", ""]),
 
- SEC("Encystation and Excystation", "التكيّس والخروج من الكيس"),
  L(["**Encystation:** the process of forming a cyst or becoming enclosed in a capsule.",
     "**Excystation:** the stage in the life cycle of a parasite in which it escapes from a cyst (after being swallowed by its host)"],
    ["**التكيّس** (`Encystation`): عملية تكوين كيس أو الانغلاق داخل محفظة.",
@@ -133,7 +132,7 @@ blocks = [
  C("It is estimated that up to 10% of the world`s population may infected with __E.histolytica.__",
    f"يُقدَّر أنّ ما يصل إلى 10% من سكان العالم قد يكونون مصابين بـ{EH} (`__E.histolytica__`)."),
  C("Incubation period: 2-4 w", "فترة الحضانة: من 2 إلى 4 أسابيع"),
- F("life-cycle.jpg", "Life cycle figure (cut at the bottom of the source page)", "مخطط دورة الحياة (مقطوع أسفل صفحة المصدر)", h="80mm", fit="contain"),
+ F("life-cycle.jpg", "Life cycle figure (cut at the bottom of the source page); its text is listed below", "مخطط دورة الحياة (مقطوع أسفل صفحة المصدر)؛ نصّه مترجم في الأسفل", h="80mm", fit="contain"),
  L(["Ingestion in contaminated food and water",
     "Mature cyst",
     "Excystation: One trophozoite with four nuclei emerges, divides three times and each nucleus divides once to produce eight trophozoites from each cyst",
@@ -154,7 +153,7 @@ blocks = [
     "العدوى غير الغازية: تخرج الأكياس من المضيف مع البراز",
     "الكيس غير الناضج",
     "الكيس رباعي النواة"],
-   en="Text written on the life cycle figure:", ar="النص المكتوب على مخطط دورة الحياة:"),
+),
 
  SEC("AMOEBIASIS", "داء الأميبات"),
  L(["ASYMPTOMATIC 85-95%", "SYMPTOMATIC 5-15%"],

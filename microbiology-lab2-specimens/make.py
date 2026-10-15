@@ -27,7 +27,6 @@ blocks = [
    ["نوع العيّنة", "جمع العيّنة", "وقت العيّنة", "وطريقة إرسالها إلى المختبر يجب أن تكون صحيحة."],
    en="If pathogens are to be isolated successfully", ar="إذا أُريد عزل المُمرِضات بنجاح، فإنّ:"),
 
- SEC("Request form", "استمارة الطلب"),
  L(["Patient details.", "Clinical diagnosis.", "Onset of symptoms", "Sample type.", "Time of collection.",
     "Treatment history and antimicrobial therapy.", "Other health and safety issues.",
     "Supporting clinical information, including travel history and contact with infected individuals, is also important."],

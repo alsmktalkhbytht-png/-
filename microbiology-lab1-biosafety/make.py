@@ -75,7 +75,6 @@ blocks = [
  C("8. Disinfect all contaminated waste before discarding.", "8. طهّر جميع النفايات الملوّثة قبل التخلّص منها."),
  F("disinfect.jpg", "Image under items 7–8", "صورة البندين 7 و8", h="40mm", fit="contain"),
 
- SEC("Definitions", "تعاريف"),
  L(["**Sterilization:** is the complete killing or removal of all living organisms such as cell spore , viruses , fungi, ….",
     "**Disinfection:** the destruction or removal of pathogens but not bacterial spores , usually used only on inanimate objects.",
     "**Antiseptics:** chemicals applied to body surfaces to destroy or inhibit pathogens.",
