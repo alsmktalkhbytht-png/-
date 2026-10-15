@@ -1,9 +1,17 @@
 ---
 name: bios-malzama
-description: Build a BIOS-style bilingual (English + Arabic) handout PDF — and its matching question-bank PDF — from a lecture or lab PDF. Use whenever the user uploads a lecture/lab PDF and asks for a ملزمة / ملازم / "طبق عليه" / "مثل هذا النمط", or wants a new handout in the same style as Lab 1 (lab1-biosafety/). This style replaces the generic .docx malzama for this repository.
+description: Build a BIOS-style bilingual (English + Arabic) handout PDF — and its matching question-bank PDF — from a lecture or lab PDF/PPTX/DOCX. Use whenever the user writes «ترجم المحاضرة» / «ترجم الملزمة», uploads a lecture file, or asks for a ملزمة / ملازم / "طبق عليه" / "مثل هذا النمط". First read the Obsidian memory vault obsidian-memory/ (00 → 12). This style replaces the generic .docx malzama for this repository.
 ---
 
 # BIOS handout (ملزمة) — house style
+
+> **Read the Obsidian memory first:** `obsidian-memory/00 - ابدأ هنا.md` and the notes it links (01–12).
+> They hold the latest decisions and override anything older below. Key ones:
+> - Scientific content is untouchable: every sentence verbatim + translated; no shortening; no added content,
+>   summary tables, drawn diagrams or explanatory notes that are not in the source.
+> - Third stage → `blush`, questions inside the handout. Fourth stage → `wineoat` («النموذج العاشر»), separate question file.
+> - File name: `<short subject> <نظري|عملي> محاضرة <N>` (no BIOS prefix, digit).
+> - Each lecture folder keeps its generator `make.py`; template in `obsidian-memory/قوالب/make_template.py`.
 
 ## Look (agreed with the BIOS team — do not change without being asked)
 
