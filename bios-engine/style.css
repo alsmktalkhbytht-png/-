@@ -79,7 +79,7 @@ b.t{color:var(--key);font-weight:800}
 .en i{font-style:italic}
 .en b.t i,.en i{font-weight:inherit}
 .ar i{font-family:Mada;font-weight:700;font-style:italic;font-size:.86em}
-bdi.lt{unicode-bidi:isolate}
+bdi.lt{unicode-bidi:isolate}bdi.lt.nw{white-space:nowrap}
 .cut{display:inline-block;font-family:Mada;font-size:7.4pt;font-weight:800;color:var(--red);background:var(--egret);border:.3mm dashed var(--red);border-radius:1mm;padding:.2mm 1.4mm;margin:0 1mm;vertical-align:middle;line-height:1.45;font-style:normal}
 .mark{color:var(--red);font-weight:800}
 /* numbered list inside cards */
