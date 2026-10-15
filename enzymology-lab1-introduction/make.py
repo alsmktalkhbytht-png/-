@@ -1,4 +1,4 @@
-# BIOS — انزيمات عملي المحاضرة الاولى (Introduction of Enzymes) — ليندا منجد هادي، المرحلة الرابعة
+# BIOS — انزيمات عملي المحاضرة الاولى (Introduction of Enzymes) — د. هشام، المرحلة الرابعة
 # المصدر: Introduction of Enzymes.md + 4 صور مرقّمة (image_01..04). كل جملة منقولة حرفيًا ومترجمة.
 import json, os, random
 from collections import Counter
@@ -326,7 +326,7 @@ important = [
 meta = dict(subject_en="Clinical Enzymology", subject_ar="الإنزيمات السريرية", short_ar="انزيمات",
             unit_en="Lab 1", unit_ar="العملي 1", unit_label="LAB", unit_no="1",
             title_en="Introduction of Enzymes", title_ar="مقدمة في الإنزيمات",
-            kind="Laboratories — عملي", stage="The fourth stage — الرابعة", instructor="ليندا منجد هادي",
+            kind="Laboratories — عملي", stage="The fourth stage — الرابعة", instructor="د. هشام",
             file_name="انزيمات عملي المحاضرة الاولى", questions_suffix=" اسئلة")   # user-chosen file names
 
 folder = "enzymology-lab1-introduction"
