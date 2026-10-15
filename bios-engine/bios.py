@@ -326,12 +326,16 @@ def key_letter(a):
 
 
 def mcq(i, q):
-    """Options sit two to a row; an option too long for half the width takes a full row."""
+    """Options sit two to a row; an option too long for half the width takes a full row.
+    Each option keeps English on top and its Arabic right-aligned just underneath (team choice),
+    so a long translation never shuffles the word order."""
     o = ""
+    plain = lambda x: len(re.sub(r"[*_`^\[\]]", "", x or ""))
     for l, (e, a) in zip(letters(), q["options"]):
-        wide = not is_short(e, a, 22)
-        o += (f'<div class="op{" wide" if wide else ""}"><span class="l">{l}</span>'
-              f'{pair(e, a, 44 if wide else 22)}</div>')
+        wide = max(plain(e), plain(a)) > 40
+        body = (f'<div class="pr stack">{en(e)}{ar(a) if a and a != e else ""}</div>' if e
+                else pair(e, a, 44 if wide else 22))
+        o += f'<div class="op{" wide" if wide else ""}"><span class="l">{l}</span>{body}</div>'
     img = ""
     if q.get("img"):                          # picture question: the figure sits between question and options
         img = (f'<div class="qimg"><img src="{os.path.join(M["_assets"], q["img"])}" '
