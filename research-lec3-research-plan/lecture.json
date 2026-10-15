@@ -1,0 +1,2208 @@
+{
+ "meta": {
+  "subject_en": "Research Methods",
+  "subject_ar": "طرائق البحث",
+  "short_ar": "طرائق البحث",
+  "unit_en": "Lecture 3",
+  "unit_ar": "المحاضرة 3",
+  "unit_label": "LEC",
+  "unit_no": "3",
+  "title_en": "Designing the Research Plan",
+  "title_ar": "تصميم خطة البحث",
+  "kind": "Theory — نظري",
+  "stage": "The fourth stage — الرابعة",
+  "instructor": "ليندا منجد هادي",
+  "file_name": "طرائق البحث نظري المحاضرة الثالثة",
+  "questions_suffix": " اسئلة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "What Is a Research Plan?",
+   "ar": "ما خطة البحث؟"
+  },
+  {
+   "t": "card",
+   "en": [
+    "A research plan is a practical map that explains how a study will be carried out.",
+    "It connects the research question with the design, participants or samples, measurements, analysis, ethics, and time.",
+    "It should be prepared before data collection begins."
+   ],
+   "ar": [
+    "**خطة البحث** خريطة عملية توضّح **كيف ستُنفَّذ الدراسة**.",
+    "وهي تربط **سؤال البحث** بالتصميم، والمشاركين أو العيّنات، والقياسات، والتحليل، والأخلاقيات، والوقت.",
+    "ويجب أن تُعَدّ **قبل بدء جمع البيانات**."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Why Do We Need a Research Plan?",
+   "ar": "لماذا نحتاج إلى خطة بحث؟"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Clarity** — turns an idea into organized steps.",
+    "**Feasibility** — shows whether the study can actually be completed.",
+    "**Consistency** — keeps procedures similar for all participants or samples.",
+    "**Quality** — reduces avoidable errors, bias, and missing information."
+   ],
+   "list_ar": [
+    "**الوضوح** (`Clarity`) — يحوّل الفكرة إلى خطوات منظّمة.",
+    "**قابلية التنفيذ** (`Feasibility`) — تبيّن هل يمكن إكمال الدراسة فعلًا.",
+    "**الاتّساق** (`Consistency`) — يُبقي الإجراءات متشابهة لكل المشاركين أو العيّنات.",
+    "**الجودة** (`Quality`) — تقلّل الأخطاء الممكن تجنّبها، والتحيّز، والمعلومات الناقصة."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "From Scientific Method to Research Plan",
+   "ar": "من المنهج العلمي إلى خطة البحث"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Scientific Method",
+     "ar": "المنهج العلمي"
+    },
+    {
+     "en": "Research Question",
+     "ar": "سؤال البحث"
+    },
+    {
+     "en": "Objectives",
+     "ar": "الأهداف"
+    },
+    {
+     "en": "Study Design",
+     "ar": "تصميم الدراسة"
+    },
+    {
+     "en": "Sample",
+     "ar": "العيّنة"
+    },
+    {
+     "en": "Methods",
+     "ar": "الطرائق"
+    },
+    {
+     "en": "Analysis",
+     "ar": "التحليل"
+    },
+    {
+     "en": "Ethics & Timeline",
+     "ar": "الأخلاقيات والجدول الزمني"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Scientific Method explains how we think scientifically.",
+    "The Research Plan converts that logic into practical steps."
+   ],
+   "ar": [
+    "**المنهج العلمي** يوضّح كيف نفكّر تفكيرًا علميًا.",
+    "و**خطة البحث** تحوّل هذا المنطق إلى **خطوات عملية**."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "The Main Question of This Lecture",
+   "ar": "السؤال الرئيس لهذه المحاضرة"
+  },
+  {
+   "t": "card",
+   "en": [
+    "I have a research question.",
+    "How do I turn it into a study that can actually be performed?",
+    "A good plan tells us what we will study, who we will study, what we will measure, and how we will analyse the evidence."
+   ],
+   "ar": [
+    "لديّ سؤال بحث.",
+    "كيف أحوّله إلى دراسة **يمكن تنفيذها فعلًا**؟",
+    "الخطة الجيدة تخبرنا **ماذا** سندرس، و**مَن** سندرس، و**ماذا** سنقيس، و**كيف** سنحلّل الأدلّة."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Step 1 — Define the Research Question",
+   "ar": "الخطوة 1 — تحديد سؤال البحث"
+  },
+  {
+   "t": "card",
+   "en": "A good research question is clear, focused, measurable, and feasible.",
+   "ar": "سؤال البحث الجيد **واضح، ومركّز، وقابل للقياس، وقابل للتنفيذ**."
+  },
+  {
+   "t": "card",
+   "en": "Example: Is serum ferritin associated with hemoglobin level in hemodialysis patients?",
+   "ar": "مثال: هل يرتبط **فيريتين المصل** بمستوى **الهيموغلوبين** لدى مرضى **الغسل الدموي** (`hemodialysis`)؟"
+  },
+  {
+   "t": "card",
+   "en": "The question guides the rest of the research plan.",
+   "ar": "السؤال **يوجّه بقيّة خطة البحث**."
+  },
+  {
+   "t": "section",
+   "en": "Step 2 — Set the Research Objectives",
+   "ar": "الخطوة 2 — وضع أهداف البحث"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**General objective (Aim)** — states the main purpose of the study.",
+    "**Specific objectives** — divide the main purpose into measurable tasks."
+   ],
+   "list_ar": [
+    "**الهدف العام** (`Aim`) — يحدّد الغرض الرئيس للدراسة.",
+    "**الأهداف الخاصة** (`Specific objectives`) — تقسّم الغرض الرئيس إلى **مهام قابلة للقياس**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Example: Measure ferritin and hemoglobin, then assess their association.",
+   "ar": "مثال: قياس الفيريتين والهيموغلوبين، ثم تقييم العلاقة بينهما."
+  },
+  {
+   "t": "section",
+   "en": "Research Question vs. Objective",
+   "ar": "سؤال البحث مقابل الهدف"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Research question** — asks what we want to know.",
+    "**Objective** — states what we will do to answer the question."
+   ],
+   "list_ar": [
+    "**سؤال البحث** — يسأل **ماذا نريد أن نعرف**.",
+    "**الهدف** — يحدّد **ماذا سنفعل** للإجابة عن السؤال."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Question: Is ferritin associated with haemoglobin?",
+    "Objective: To assess the association between serum ferritin and haemoglobin level."
+   ],
+   "ar": [
+    "السؤال: هل يرتبط الفيريتين بالهيموغلوبين؟",
+    "الهدف: تقييم العلاقة بين فيريتين المصل ومستوى الهيموغلوبين."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Step 3 — Choose the Study Design",
+   "ar": "الخطوة 3 — اختيار تصميم الدراسة"
+  },
+  {
+   "t": "card",
+   "en": [
+    "The study design is the basic structure used to obtain evidence.",
+    "At this stage, we choose a design that matches the research question."
+   ],
+   "ar": [
+    "**تصميم الدراسة** هو البنية الأساسية المستعملة **للحصول على الأدلّة**.",
+    "في هذه المرحلة نختار تصميمًا **يناسب سؤال البحث**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Two broad approaches are",
+   "ar": "هناك نهجان عامّان:",
+   "list_en": [
+    "Observational studies.",
+    "Experimental studies."
+   ],
+   "list_ar": [
+    "**الدراسات الرصدية** (`Observational`).",
+    "**الدراسات التجريبية** (`Experimental`)."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Observational Study Designs",
+   "ar": "تصاميم الدراسات الرصدية"
+  },
+  {
+   "t": "card",
+   "en": "Three common designs — illustrated with anemia and iron status",
+   "ar": "ثلاثة تصاميم شائعة — موضّحة بمثال فقر الدم وحالة الحديد"
+  },
+  {
+   "t": "group",
+   "title_en": "01 Cross-sectional Study",
+   "title_ar": "01 الدراسة المقطعية",
+   "en": [
+    "Measure exposure and outcome at the same time",
+    "Exposure: Ferritin level → Outcome: Hemoglobin level",
+    "Measure both in 100 patients at one time"
+   ],
+   "ar": [
+    "**قياس التعرّض والنتيجة في الوقت نفسه**",
+    "التعرّض: مستوى الفيريتين ← النتيجة: مستوى الهيموغلوبين",
+    "قياس الاثنين لدى 100 مريض في وقت واحد"
+   ]
+  },
+  {
+   "t": "group",
+   "title_en": "02 Case-control Study",
+   "title_ar": "02 دراسة الحالات والشواهد",
+   "en": [
+    "Start with the outcome → Examine previous exposure",
+    "Cases: 50 patients with anemia → Controls: 50 people without anemia",
+    "Compare previous iron deficiency"
+   ],
+   "ar": [
+    "**البدء بالنتيجة ← فحص التعرّض السابق**",
+    "الحالات: 50 مريضًا بفقر الدم ← الشواهد: 50 شخصًا بلا فقر دم",
+    "مقارنة نقص الحديد السابق"
+   ]
+  },
+  {
+   "t": "group",
+   "title_en": "03 Cohort Study",
+   "title_ar": "03 الدراسة الأترابية (الجماعية)",
+   "en": [
+    "Start with exposure → Observe new outcomes",
+    "Exposed: 50 people with low ferritin → Unexposed: 50 people with normal ferritin",
+    "Follow for 1 year → Who develops anemia?"
+   ],
+   "ar": [
+    "**البدء بالتعرّض ← رصد النتائج الجديدة**",
+    "المعرَّضون: 50 شخصًا بفيريتين منخفض ← غير المعرَّضين: 50 شخصًا بفيريتين طبيعي",
+    "المتابعة لمدة سنة ← مَن يُصاب بفقر الدم؟"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "Key idea: The researcher observes exposures and outcomes without assigning the exposure.",
+   "ar": "الفكرة الأساسية: الباحث **يرصد** التعرّضات والنتائج **دون أن يحدّد التعرّض** للمشاركين.",
+   "label": [
+    "Key idea",
+    "الفكرة الأساسية"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Experimental Study Design",
+   "ar": "تصميم الدراسة التجريبية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Experimental study** — the researcher assigns an intervention and compares outcomes.",
+    "**Clinical trial** — an experimental study in human participants used to evaluate an intervention."
+   ],
+   "list_ar": [
+    "**الدراسة التجريبية** — الباحث **يحدّد تدخّلًا** ويقارن النتائج.",
+    "**التجربة السريرية** (`Clinical trial`) — دراسة تجريبية على **مشاركين من البشر** تُستعمل لتقييم تدخّل."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Example: comparing a new diagnostic or treatment strategy with an appropriate comparison.",
+   "ar": "مثال: مقارنة استراتيجية تشخيصية أو علاجية جديدة بمقارنة مناسبة."
+  },
+  {
+   "t": "card",
+   "en": "Clinical trials will be discussed in detail in a later lecture.",
+   "ar": "ستُناقَش التجارب السريرية بالتفصيل في محاضرة لاحقة."
+  },
+  {
+   "t": "h2",
+   "en": "Example: Comparing two treatments for iron-deficiency anemia",
+   "ar": "مثال: مقارنة علاجين لفقر الدم بنقص الحديد"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Patients with iron-deficiency anemia",
+     "ar": "مرضى فقر الدم بنقص الحديد"
+    },
+    {
+     "en": "Assign treatment groups",
+     "ar": "توزيع مجموعات العلاج"
+    }
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    "Group A",
+    "Group B",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "New iron treatment",
+     "Standard iron treatment",
+     "**المجموعة أ:** علاج حديد جديد — **المجموعة ب:** علاج حديد قياسي"
+    ],
+    [
+     "Measure hemoglobin after treatment",
+     "Measure hemoglobin after treatment",
+     "قياس الهيموغلوبين بعد العلاج (في المجموعتين)"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "widths": [
+    "30%",
+    "30%",
+    "40%"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Compare Hb levels: Which treatment works better?",
+   "ar": "مقارنة مستويات الهيموغلوبين (`Hb`): أيّ العلاجين أفضل؟"
+  },
+  {
+   "t": "note",
+   "en": "Key idea: The researcher assigns an intervention and compares outcomes.",
+   "ar": "الفكرة الأساسية: الباحث **يحدّد تدخّلًا** ويقارن النتائج.",
+   "label": [
+    "Key idea",
+    "الفكرة الأساسية"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Observational vs. Experimental Study",
+   "ar": "الدراسة الرصدية مقابل الدراسة التجريبية"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Observational Study",
+    "Experimental Study",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Researcher observes",
+     "Researcher assigns an intervention",
+     "**الرصدية:** الباحث يرصد — **التجريبية:** الباحث يحدّد تدخّلًا"
+    ],
+    [
+     "No intervention is assigned",
+     "An intervention is assigned",
+     "**الرصدية:** لا يُحدَّد تدخّل — **التجريبية:** يُحدَّد تدخّل"
+    ],
+    [
+     "Measures existing exposures and outcomes",
+     "Compares outcomes after intervention",
+     "**الرصدية:** تقيس التعرّضات والنتائج الموجودة — **التجريبية:** تقارن النتائج بعد التدخّل"
+    ],
+    [
+     "Example: Measure Hb and ferritin levels",
+     "Example: Give iron treatment and measure Hb",
+     "**الرصدية:** قياس مستويات الهيموغلوبين والفيريتين — **التجريبية:** إعطاء علاج الحديد وقياس الهيموغلوبين"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0,
+    1
+   ],
+   "widths": [
+    "27%",
+    "27%",
+    "46%"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "Key difference: Does the researcher assign the intervention?",
+   "ar": "الفرق الأساسي: هل **يحدّد الباحث التدخّل**؟",
+   "label": [
+    "Key difference",
+    "الفرق الأساسي"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Step 4 — Define the Study Population",
+   "ar": "الخطوة 4 — تحديد مجتمع الدراسة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Target population** — the wider group the study aims to understand.",
+    "**Study population** — the accessible group from which participants are recruited.",
+    "**Sample** — the participants or specimens actually included in the study."
+   ],
+   "list_ar": [
+    "**المجتمع المستهدف** (`Target population`) — المجموعة الأوسع التي تهدف الدراسة إلى فهمها.",
+    "**مجتمع الدراسة** (`Study population`) — المجموعة **المتاحة** التي يُستقطب منها المشاركون.",
+    "**العيّنة** (`Sample`) — المشاركون أو العيّنات **المشمولون فعلًا** في الدراسة."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Step 5 — Inclusion Criteria",
+   "ar": "الخطوة 5 — معايير الشمول"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Inclusion criteria define who is eligible to enter the study.",
+    "They should be related to the research question and defined before recruitment."
+   ],
+   "ar": [
+    "**معايير الشمول** تحدّد **مَن يحقّ له دخول الدراسة**.",
+    "ويجب أن ترتبط بسؤال البحث وأن تُحدَّد **قبل الاستقطاب**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Example for a hemodialysis study: adults ≥18 years, receiving haemodialysis, and meeting the required dialysis duration.",
+   "ar": "مثال لدراسة على الغسل الدموي: بالغون بعمر 18 سنة فأكثر، يتلقّون الغسل الدموي، ويستوفون مدّة الغسل المطلوبة."
+  },
+  {
+   "t": "card",
+   "en": "Clear criteria make participant selection consistent.",
+   "ar": "المعايير الواضحة تجعل **اختيار المشاركين متّسقًا**."
+  },
+  {
+   "t": "section",
+   "en": "Step 5 — Exclusion Criteria",
+   "ar": "الخطوة 5 — معايير الاستبعاد"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Exclusion criteria identify conditions that make an otherwise relevant participant unsuitable for this particular study.",
+    "Examples may include an acute condition, recent treatment that affects the studied marker, inadequate specimen, or another predefined reason.",
+    "Exclusion should be scientifically justified—not based on whether the result supports the hypothesis."
+   ],
+   "ar": [
+    "**معايير الاستبعاد** تحدّد حالات تجعل مشاركًا مناسبًا في غير ذلك **غير ملائم لهذه الدراسة بالذات**.",
+    "ومن أمثلتها: حالة حادّة، أو علاج حديث يؤثّر في الواسم المدروس، أو عيّنة غير كافية، أو سبب آخر محدّد مسبقًا.",
+    "ويجب أن يكون الاستبعاد **مبرّرًا علميًا** — لا مبنيًّا على ما إذا كانت النتيجة **تدعم الفرضية**."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Step 6 — Sampling and Sample Size",
+   "ar": "الخطوة 6 — المعاينة وحجم العيّنة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Sampling method** — how participants or specimens are selected.",
+    "**Sample size** — the number of participants or specimens required for the study."
+   ],
+   "list_ar": [
+    "**طريقة المعاينة** (`Sampling method`) — **كيف يُختار** المشاركون أو العيّنات.",
+    "**حجم العيّنة** (`Sample size`) — **عدد** المشاركين أو العيّنات المطلوب للدراسة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "A sample that is too small may give imprecise estimates or miss an important difference.",
+    "A very large sample is not automatically better; the number should be scientifically justified and feasible."
+   ],
+   "ar": [
+    "العيّنة **الصغيرة جدًا** قد تعطي تقديرات غير دقيقة أو **تفوّت فرقًا مهمًا**.",
+    "والعيّنة **الكبيرة جدًا ليست أفضل تلقائيًا**؛ إذ يجب أن يكون العدد **مبرّرًا علميًا وقابلًا للتنفيذ**."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "What Determines Sample Size?",
+   "ar": "ما الذي يحدّد حجم العيّنة؟"
+  },
+  {
+   "t": "card",
+   "en": "Sample size depends on five main factors:",
+   "ar": "يعتمد حجم العيّنة على **خمسة عوامل رئيسة**:",
+   "list_en": [
+    "**Study Aim and Design** — What are we studying, and how?",
+    "**Expected Difference and Variation** — Smaller differences or greater variation often need more samples.",
+    "**Required Precision** — Higher precision usually needs more samples.",
+    "**Missing Data and Dropouts** — Plan extra participants for incomplete data or loss to follow-up.",
+    "**Available Resources** — Consider time, cost, participants, and laboratory materials."
+   ],
+   "list_ar": [
+    "**هدف الدراسة وتصميمها** — ماذا ندرس، وكيف؟",
+    "**الفرق المتوقّع والتباين** — الفروق الأصغر أو التباين الأكبر يحتاجان غالبًا **عيّنات أكثر**.",
+    "**الدقّة المطلوبة** — الدقّة الأعلى تحتاج عادةً **عيّنات أكثر**.",
+    "**البيانات الناقصة والانسحابات** — خطّط لمشاركين إضافيين تحسّبًا للبيانات الناقصة أو فقدان المتابعة.",
+    "**الموارد المتاحة** — راعِ الوقت، والكلفة، والمشاركين، والمواد المختبرية."
+   ]
+  },
+  {
+   "t": "note",
+   "en": "Calculate and justify sample size before starting the study.",
+   "ar": "احسب حجم العيّنة وبرّره **قبل بدء الدراسة**.",
+   "label": [
+    "KEY POINT",
+    "نقطة أساسية"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Step 7 — Define the Variables",
+   "ar": "الخطوة 7 — تحديد المتغيّرات"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Exposure / independent variable** — the factor being investigated.",
+    "**Outcome / dependent variable** — the result being measured.",
+    "**Other relevant variables** — may include age, sex, clinical factors, or potential confounders."
+   ],
+   "list_ar": [
+    "**التعرّض / المتغيّر المستقل** — العامل الذي يُدرَس.",
+    "**النتيجة / المتغيّر التابع** — الحصيلة التي تُقاس.",
+    "**متغيّرات أخرى ذات صلة** — قد تشمل العمر، والجنس، والعوامل السريرية، أو **العوامل المُربِكة** المحتملة (`confounders`)."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Important variables need clear definitions and measurement methods.",
+   "ar": "المتغيّرات المهمة تحتاج **تعاريف واضحة وطرائق قياس** محدّدة."
+  },
+  {
+   "t": "section",
+   "en": "Plan Data and Specimen Collection",
+   "ar": "التخطيط لجمع البيانات والعيّنات"
+  },
+  {
+   "t": "h2",
+   "en": "STEP 8 / RESEARCH PLANNING",
+   "ar": "الخطوة 8 / التخطيط للبحث"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Step",
+    "What to do",
+    "Example",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "01 Plan Data Collection",
+     "Decide what data to collect and when",
+     "e.g., Age, sex, Hb level",
+     "**التخطيط لجمع البيانات** — تحديد البيانات المطلوب جمعها ومتى؛ مثل: العمر، والجنس، ومستوى الهيموغلوبين"
+    ],
+    [
+     "02 Collect Specimens",
+     "Follow a standard collection procedure",
+     "e.g., Venous blood sample",
+     "**جمع العيّنات** — اتّباع إجراء جمع قياسي؛ مثل: عيّنة دم وريدي"
+    ],
+    [
+     "03 Handle and Test Samples",
+     "Transport, process, store, and measure",
+     "e.g., Serum separation for ELISA",
+     "**تداول العيّنات وفحصها** — النقل، والمعالجة، والخزن، والقياس؛ مثل: فصل المصل لفحص `ELISA`"
+    ],
+    [
+     "04 Record Data",
+     "Use coded IDs and structured forms",
+     "e.g., Sample ID: S001",
+     "**تسجيل البيانات** — استعمال رموز تعريف مشفّرة واستمارات منظّمة؛ مثل: رمز العيّنة `S001`"
+    ],
+    [
+     "05 Document Problems",
+     "Record missing data and deviations",
+     "e.g., Missing Hb result",
+     "**توثيق المشكلات** — تسجيل البيانات الناقصة والانحرافات؛ مثل: نتيجة هيموغلوبين مفقودة"
+    ]
+   ],
+   "ar_cols": [
+    3
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    "21%",
+    "22%",
+    "19%",
+    "38%"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "Key idea: Standard procedures and accurate records improve data quality.",
+   "ar": "الفكرة الأساسية: **الإجراءات القياسية والسجلّات الدقيقة** تحسّن جودة البيانات.",
+   "label": [
+    "Key idea",
+    "الفكرة الأساسية"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Plan Laboratory Quality",
+   "ar": "التخطيط لجودة العمل المختبري"
+  },
+  {
+   "t": "h2",
+   "en": "STEP 9 / STUDY DESIGN",
+   "ar": "الخطوة 9 / تصميم الدراسة"
+  },
+  {
+   "t": "card",
+   "en": "Four essential practices for reliable laboratory results",
+   "ar": "أربع ممارسات أساسية للحصول على نتائج مختبرية موثوقة"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Practice",
+    "What to do",
+    "Example",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "01 Validated / Verified Methods",
+     "Use methods proven suitable for the test.",
+     "Example: Verify ELISA kit performance",
+     "**طرائق مُصادَق عليها / مُتحقَّق منها** — استعمال طرائق ثبتت ملاءمتها للفحص؛ مثال: التحقّق من أداء عدّة `ELISA`"
+    ],
+    [
+     "02 Calibration & Quality Control",
+     "Check calibration and test performance.",
+     "Example: Standards + control samples",
+     "**المعايرة وضبط الجودة** — فحص المعايرة وأداء الفحص؛ مثال: المحاليل القياسية + عيّنات السيطرة"
+    ],
+    [
+     "03 Consistent Procedures",
+     "Use the same procedure for every sample.",
+     "Example: Same incubation time and temperature",
+     "**إجراءات متّسقة** — استعمال الإجراء نفسه لكل عيّنة؛ مثال: زمن الحضن ودرجة الحرارة نفسيهما"
+    ],
+    [
+     "04 Traceability",
+     "Record materials, equipment, and results.",
+     "Example: Sample ID, kit lot, test date",
+     "**قابلية التتبّع** — تسجيل المواد والأجهزة والنتائج؛ مثال: رمز العيّنة، ورقم تشغيلة العدّة، وتاريخ الفحص"
+    ]
+   ],
+   "ar_cols": [
+    3
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    "21%",
+    "22%",
+    "19%",
+    "38%"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "✓ Reliable and Consistent Laboratory Results",
+   "ar": "✓ نتائج مختبرية **موثوقة ومتّسقة**"
+  },
+  {
+   "t": "section",
+   "en": "Step 10 — Plan the Data Analysis",
+   "ar": "الخطوة 10 — التخطيط لتحليل البيانات"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Decide how each objective will be analyzed before examining the final results.",
+    "Plan descriptive statistics and appropriate comparisons or associations.",
+    "Consider effect size, variability, uncertainty, and potential confounding.",
+    "The analysis should answer the research question—not simply produce a p-value."
+   ],
+   "list_ar": [
+    "حدّد كيف سيُحلَّل كل هدف **قبل فحص النتائج النهائية**.",
+    "خطّط **للإحصاء الوصفي** وللمقارنات أو العلاقات المناسبة.",
+    "راعِ **حجم الأثر**، والتباين، وعدم اليقين، والإرباك المحتمل.",
+    "يجب أن **يجيب التحليل عن سؤال البحث** — لا أن ينتج قيمة `p` فقط."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Step 11 — Ethics and Data Protection",
+   "ar": "الخطوة 11 — الأخلاقيات وحماية البيانات"
+  },
+  {
+   "t": "card",
+   "en": "Four essential principles for responsible medical research",
+   "ar": "أربعة مبادئ أساسية للبحث الطبي المسؤول"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Research Ethics & Data Protection",
+     "ar": "أخلاقيات البحث وحماية البيانات"
+    }
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    "Principle",
+    "What to do",
+    "Example",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "01 Ethical Approval",
+     "Obtain required ethics approval before starting.",
+     "Example: Research ethics committee approval",
+     "**الموافقة الأخلاقية** — الحصول على الموافقة الأخلاقية المطلوبة قبل البدء؛ مثال: موافقة لجنة أخلاقيات البحث"
+    ],
+    [
+     "02 Informed Consent",
+     "Explain the study and obtain valid consent.",
+     "Example: Signed participant consent form",
+     "**الموافقة المستنيرة** — شرح الدراسة والحصول على موافقة صحيحة؛ مثال: استمارة موافقة موقّعة من المشارك"
+    ],
+    [
+     "03 Confidentiality",
+     "Protect identities and personal information.",
+     "Example: Use sample ID S001 instead of names",
+     "**السرّية** — حماية الهويات والمعلومات الشخصية؛ مثال: استعمال رمز العيّنة `S001` بدل الأسماء"
+    ],
+    [
+     "04 Patient Safety",
+     "Avoid unauthorized changes to patient care.",
+     "Example: Do not stop treatment for research",
+     "**سلامة المريض** — تجنّب التغييرات غير المصرّح بها في رعاية المريض؛ مثال: لا تُوقف العلاج لأجل البحث"
+    ]
+   ],
+   "ar_cols": [
+    3
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    "19%",
+    "23%",
+    "21%",
+    "37%"
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Protect Participants’ Rights, Privacy & Safety",
+     "ar": "حماية حقوق المشاركين وخصوصيتهم وسلامتهم"
+    }
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Step 12 — Feasibility and Timeline",
+   "ar": "الخطوة 12 — قابلية التنفيذ والجدول الزمني"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Feasibility** — Can the study realistically be completed with the available participants, tests, equipment, staff, budget, and time?",
+    "**Timeline** — When will recruitment, laboratory work, analysis, and reporting occur?"
+   ],
+   "list_ar": [
+    "**قابلية التنفيذ** — هل يمكن إكمال الدراسة واقعيًا بالمشاركين، والفحوص، والأجهزة، والكادر، والميزانية، والوقت المتاح؟",
+    "**الجدول الزمني** — متى سيحدث الاستقطاب، والعمل المختبري، والتحليل، وكتابة التقرير؟"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Different Forms of Research — A Preview",
+   "ar": "أشكال البحث المختلفة — لمحة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Review-based research** — uses existing published evidence and does not collect new participant or laboratory data.",
+    "**Original research** — collects new data, such as laboratory, clinical, observational, experimental, or survey data."
+   ],
+   "list_ar": [
+    "**البحث القائم على المراجعة** — يستعمل الأدلّة المنشورة الموجودة و**لا يجمع بيانات جديدة** من المشاركين أو المختبر.",
+    "**البحث الأصيل** (`Original research`) — **يجمع بيانات جديدة**، مثل البيانات المختبرية، أو السريرية، أو الرصدية، أو التجريبية، أو بيانات المسح."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "The detailed classification of research will be covered in a later lecture.",
+   "ar": "سيُتناوَل التصنيف التفصيلي للبحث في محاضرة لاحقة."
+  },
+  {
+   "t": "section",
+   "en": "From the Research Plan to the Final Research",
+   "ar": "من خطة البحث إلى البحث النهائي"
+  },
+  {
+   "t": "table",
+   "head": [
+    "BEFORE THE STUDY — Research Plan",
+    "AFTER CONDUCTING THE STUDY — Final Research",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Question & objectives ✓",
+     "Abstract / Summary",
+     "**قبل:** السؤال والأهداف — **بعد:** الخلاصة / الملخّص"
+    ],
+    [
+     "Study design ✓",
+     "Introduction",
+     "**قبل:** تصميم الدراسة — **بعد:** المقدمة"
+    ],
+    [
+     "Population & sample ✓",
+     "Literature Review",
+     "**قبل:** المجتمع والعيّنة — **بعد:** مراجعة الأدبيات"
+    ],
+    [
+     "Variables & methods ✓",
+     "Materials and Methods",
+     "**قبل:** المتغيّرات والطرائق — **بعد:** المواد وطرائق العمل"
+    ],
+    [
+     "Analysis plan ✓",
+     "Results",
+     "**قبل:** خطة التحليل — **بعد:** النتائج"
+    ],
+    [
+     "Ethics & timeline ✓",
+     "Discussion",
+     "**قبل:** الأخلاقيات والجدول الزمني — **بعد:** المناقشة"
+    ],
+    [
+     "",
+     "Conclusion & Recommendations",
+     "**بعد:** الاستنتاج والتوصيات"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "widths": [
+    "28%",
+    "30%",
+    "42%"
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Plan",
+     "ar": "التخطيط"
+    },
+    {
+     "en": "Conduct",
+     "ar": "التنفيذ"
+    },
+    {
+     "en": "Analyse",
+     "ar": "التحليل"
+    },
+    {
+     "en": "Report",
+     "ar": "كتابة التقرير"
+    }
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Main Parts of a Completed Research",
+   "ar": "الأجزاء الرئيسة للبحث المكتمل"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Abstract / Summary** — a brief overview of the whole study.",
+    "**Introduction** — explains the problem and why it matters.",
+    "**Literature Review** — summarizes what is already known and identifies the gap.",
+    "**Materials and Methods** — explains how the study was performed.",
+    "**Results** — reports what was found.",
+    "**Discussion** — explains what the findings mean and compares them with previous evidence.",
+    "**Conclusion & Recommendations** — states the main conclusion and appropriate future or practical recommendations.",
+    "**References** — lists the sources used."
+   ],
+   "list_ar": [
+    "**الخلاصة / الملخّص** — نظرة موجزة على الدراسة كلّها.",
+    "**المقدمة** — تشرح المشكلة ولماذا هي مهمة.",
+    "**مراجعة الأدبيات** — تلخّص ما هو معروف مسبقًا وتحدّد **الفجوة**.",
+    "**المواد وطرائق العمل** — تشرح **كيف أُجريت الدراسة**.",
+    "**النتائج** — تعرض **ما وُجد**.",
+    "**المناقشة** — تشرح **معنى النتائج** وتقارنها بالأدلّة السابقة.",
+    "**الاستنتاج والتوصيات** — يبيّن الاستنتاج الرئيس والتوصيات المستقبلية أو العملية المناسبة.",
+    "**المراجع** — تسرد المصادر المستعملة."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "AI in Designing a Research Plan",
+   "ar": "الذكاء الاصطناعي في تصميم خطة البحث"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Literature planning** — suggest search terms and help organize topics.",
+    "**Plan organization** — help structure objectives, variables, checklists, or timelines.",
+    "**Consistency checks** — identify unclear definitions or missing links between question, variables, and analysis.",
+    "**Writing support** — improve clarity of a draft protocol or data-collection form."
+   ],
+   "list_ar": [
+    "**التخطيط للأدبيات** — اقتراح مصطلحات البحث والمساعدة في تنظيم المواضيع.",
+    "**تنظيم الخطة** — المساعدة في هيكلة الأهداف، والمتغيّرات، وقوائم التحقّق، أو الجداول الزمنية.",
+    "**فحوص الاتّساق** — تحديد التعاريف غير الواضحة أو الروابط المفقودة بين السؤال والمتغيّرات والتحليل.",
+    "**دعم الكتابة** — تحسين وضوح مسودّة البروتوكول أو استمارة جمع البيانات."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "AI Tools for Research Planning",
+   "ar": "أدوات الذكاء الاصطناعي للتخطيط للبحث"
+  },
+  {
+   "t": "card",
+   "en": "Practical tools students can start using for free",
+   "ar": "أدوات عملية يمكن للطلبة البدء باستعمالها مجانًا"
+  },
+  {
+   "t": "group",
+   "title_en": "Elicit",
+   "title_ar": "إليسِت",
+   "en": [
+    "LITERATURE SEARCH",
+    "Find papers and extract study details.",
+    "Free plan • Paid upgrades"
+   ],
+   "ar": [
+    "**البحث في الأدبيات**",
+    "إيجاد البحوث واستخراج تفاصيل الدراسات.",
+    "خطة مجانية • ترقيات مدفوعة"
+   ]
+  },
+  {
+   "t": "group",
+   "title_en": "ResearchRabbit",
+   "title_ar": "ريسيرتش رابِت",
+   "en": [
+    "RESEARCH MAPPING",
+    "Discover related studies and citation networks.",
+    "Free plan • Paid upgrades"
+   ],
+   "ar": [
+    "**رسم خرائط البحث**",
+    "اكتشاف الدراسات ذات الصلة وشبكات الاستشهاد.",
+    "خطة مجانية • ترقيات مدفوعة"
+   ]
+  },
+  {
+   "t": "group",
+   "title_en": "ChatGPT",
+   "title_ar": "تشات جي بي تي",
+   "en": [
+    "RESEARCH ORGANIZATION",
+    "Draft objectives, variables, and study outlines.",
+    "Free plan • Paid upgrades"
+   ],
+   "ar": [
+    "**تنظيم البحث**",
+    "صياغة مسودّات الأهداف والمتغيّرات ومخطّطات الدراسة.",
+    "خطة مجانية • ترقيات مدفوعة"
+   ]
+  },
+  {
+   "t": "group",
+   "title_en": "Consensus",
+   "title_ar": "كونسينسس",
+   "en": [
+    "EVIDENCE SEARCH",
+    "Explore published evidence on a research question.",
+    "Free plan • Paid upgrades"
+   ],
+   "ar": [
+    "**البحث عن الأدلّة**",
+    "استكشاف الأدلّة المنشورة حول سؤال بحث.",
+    "خطة مجانية • ترقيات مدفوعة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "Remember: AI supports research; always verify references and protect patient data.",
+   "ar": "تذكّر: الذكاء الاصطناعي **يدعم** البحث؛ تحقّق دائمًا من **المراجع** واحمِ **بيانات المرضى**.",
+   "label": [
+    "Remember",
+    "تذكّر"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "AI Tools for Scientific Research",
+   "ar": "أدوات الذكاء الاصطناعي للبحث العلمي"
+  },
+  {
+   "t": "card",
+   "en": "Two useful tools for literature review and research planning",
+   "ar": "أداتان مفيدتان لمراجعة الأدبيات والتخطيط للبحث"
+  },
+  {
+   "t": "group",
+   "title_en": "Claude",
+   "title_ar": "كلود",
+   "en": [
+    "Academic reading & writing",
+    "Summarize research papers, analyze documents, and help organize research objectives.",
+    "Example: Draft objectives for a study on anemia in CKD."
+   ],
+   "ar": [
+    "**القراءة والكتابة الأكاديمية**",
+    "تلخيص البحوث، وتحليل الوثائق، والمساعدة في تنظيم أهداف البحث.",
+    "مثال: صياغة مسودّة أهداف لدراسة عن فقر الدم في مرض الكلى المزمن (`CKD`)."
+   ]
+  },
+  {
+   "t": "group",
+   "title_en": "LeapSpace (Elsevier)",
+   "title_ar": "ليب سبيس (إلسيفير)",
+   "en": [
+    "Scientific literature & evidence",
+    "Explore scientific literature, compare published findings, and investigate research gaps.",
+    "Example: Compare previous studies on anemia biomarkers."
+   ],
+   "ar": [
+    "**الأدبيات العلمية والأدلّة**",
+    "استكشاف الأدبيات العلمية، ومقارنة النتائج المنشورة، والبحث في فجوات البحث.",
+    "مثال: مقارنة الدراسات السابقة عن الواسمات الحيوية لفقر الدم."
+   ]
+  },
+  {
+   "t": "note",
+   "en": "Researcher responsibility: Verify citations, check accuracy, and protect patient data.",
+   "ar": "مسؤولية الباحث: التحقّق من الاستشهادات، وفحص الدقّة، وحماية بيانات المرضى.",
+   "label": [
+    "Researcher responsibility",
+    "مسؤولية الباحث"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Putting the Plan Together — Laboratory Example",
+   "ar": "تجميع الخطة — مثال مختبري"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Question:** Is serum ferritin associated with haemoglobin in haemodialysis patients?",
+    "**Objectives:** Measure ferritin and haemoglobin and assess their association.",
+    "**Design:** Cross-sectional observational study.",
+    "**Population:** Eligible haemodialysis patients; inclusion and exclusion criteria are defined in advance.",
+    "**Measurements:** Ferritin, haemoglobin, and relevant clinical variables.",
+    "**Analysis:** Describe the data and assess the planned association while considering relevant confounders.",
+    "**Ethics:** Approval, coded data, and confidentiality."
+   ],
+   "list_ar": [
+    "**السؤال:** هل يرتبط فيريتين المصل بالهيموغلوبين لدى مرضى الغسل الدموي؟",
+    "**الأهداف:** قياس الفيريتين والهيموغلوبين وتقييم العلاقة بينهما.",
+    "**التصميم:** دراسة رصدية مقطعية.",
+    "**المجتمع:** مرضى الغسل الدموي المؤهّلون؛ ومعايير الشمول والاستبعاد محدّدة مسبقًا.",
+    "**القياسات:** الفيريتين، والهيموغلوبين، والمتغيّرات السريرية ذات الصلة.",
+    "**التحليل:** وصف البيانات وتقييم العلاقة المخطّط لها مع مراعاة العوامل المُربِكة ذات الصلة.",
+    "**الأخلاقيات:** الموافقة، والبيانات المرمّزة، والسرّية."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Summary",
+   "ar": "الخلاصة"
+  },
+  {
+   "t": "card",
+   "en": "A research plan converts a scientific question into an organized and feasible study.",
+   "ar": "خطة البحث **تحوّل السؤال العلمي إلى دراسة منظّمة وقابلة للتنفيذ**."
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Question",
+     "ar": "السؤال"
+    },
+    {
+     "en": "Objectives",
+     "ar": "الأهداف"
+    },
+    {
+     "en": "Design",
+     "ar": "التصميم"
+    },
+    {
+     "en": "Population/Sample",
+     "ar": "المجتمع/العيّنة"
+    },
+    {
+     "en": "Variables",
+     "ar": "المتغيّرات"
+    },
+    {
+     "en": "Data Collection",
+     "ar": "جمع البيانات"
+    },
+    {
+     "en": "Analysis",
+     "ar": "التحليل"
+    },
+    {
+     "en": "Ethics",
+     "ar": "الأخلاقيات"
+    },
+    {
+     "en": "Timeline",
+     "ar": "الجدول الزمني"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Study-design types and research classification will be explored further in later lectures.",
+    "The final research report presents what was planned, performed, found, and interpreted.",
+    "AI can support planning, but scientific responsibility remains with the researcher."
+   ],
+   "ar": [
+    "ستُستكشَف أنواع تصاميم الدراسات وتصنيف البحوث أكثر في محاضرات لاحقة.",
+    "يعرض **التقرير النهائي للبحث** ما خُطّط له، وما نُفّذ، وما وُجد، وكيف فُسّر.",
+    "يمكن للذكاء الاصطناعي أن يدعم التخطيط، لكن **المسؤولية العلمية تبقى على الباحث**."
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "The research plan",
+    "topic_ar": "خطة البحث"
+   },
+   {
+    "en": "A research plan is best described as:",
+    "ar": "أفضل وصف لخطة البحث أنها:",
+    "options": [
+     [
+      "The final report of a completed study",
+      "التقرير النهائي لدراسة مكتملة"
+     ],
+     [
+      "A practical map that explains how a study will be carried out",
+      "خريطة عملية توضّح كيف ستُنفَّذ الدراسة"
+     ],
+     [
+      "A list of references only",
+      "قائمة مراجع فقط"
+     ],
+     [
+      "The statistical analysis of results",
+      "التحليل الإحصائي للنتائج"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The research plan should be prepared:",
+    "ar": "يجب إعداد خطة البحث:",
+    "options": [
+     [
+      "Before data collection begins",
+      "قبل بدء جمع البيانات"
+     ],
+     [
+      "After data analysis",
+      "بعد تحليل البيانات"
+     ],
+     [
+      "After publishing the results",
+      "بعد نشر النتائج"
+     ],
+     [
+      "During the discussion",
+      "أثناء كتابة المناقشة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which reason for a research plan means it “shows whether the study can actually be completed”?",
+    "ar": "أيّ سبب لخطة البحث يعني أنها «تبيّن هل يمكن إكمال الدراسة فعلًا»؟",
+    "options": [
+     [
+      "Feasibility",
+      "قابلية التنفيذ"
+     ],
+     [
+      "Clarity",
+      "الوضوح"
+     ],
+     [
+      "Consistency",
+      "الاتّساق"
+     ],
+     [
+      "Quality",
+      "الجودة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "“Keeps procedures similar for all participants or samples” describes:",
+    "ar": "«يُبقي الإجراءات متشابهة لكل المشاركين أو العيّنات» يصف:",
+    "options": [
+     [
+      "Consistency",
+      "الاتّساق"
+     ],
+     [
+      "Clarity",
+      "الوضوح"
+     ],
+     [
+      "Feasibility",
+      "قابلية التنفيذ"
+     ],
+     [
+      "Transparency",
+      "الشفافية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The Research Plan, compared with the Scientific Method:",
+    "ar": "خطة البحث، مقارنةً بالمنهج العلمي:",
+    "options": [
+     [
+      "Explains how we think scientifically",
+      "توضّح كيف نفكّر علميًا"
+     ],
+     [
+      "Replaces the research question",
+      "تستغني عن سؤال البحث"
+     ],
+     [
+      "Is prepared after the study",
+      "تُعَدّ بعد الدراسة"
+     ],
+     [
+      "Converts the scientific logic into practical steps",
+      "تحوّل المنطق العلمي إلى خطوات عملية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Question, objectives and study design",
+    "topic_ar": "السؤال والأهداف وتصميم الدراسة"
+   },
+   {
+    "en": "A good research question is:",
+    "ar": "سؤال البحث الجيد:",
+    "options": [
+     [
+      "Broad and general",
+      "واسع وعام"
+     ],
+     [
+      "Impossible to measure",
+      "غير قابل للقياس"
+     ],
+     [
+      "Clear, focused, measurable, and feasible",
+      "واضح ومركّز وقابل للقياس وقابل للتنفيذ"
+     ],
+     [
+      "Answered before the study",
+      "مُجاب عنه قبل الدراسة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The general objective (Aim):",
+    "ar": "الهدف العام (`Aim`):",
+    "options": [
+     [
+      "Divides the purpose into measurable tasks",
+      "يقسّم الغرض إلى مهام قابلة للقياس"
+     ],
+     [
+      "Lists the references",
+      "يسرد المراجع"
+     ],
+     [
+      "Reports what was found",
+      "يعرض ما وُجد"
+     ],
+     [
+      "States the main purpose of the study",
+      "يحدّد الغرض الرئيس للدراسة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Specific objectives:",
+    "ar": "الأهداف الخاصة:",
+    "options": [
+     [
+      "State the main purpose only",
+      "تحدّد الغرض الرئيس فقط"
+     ],
+     [
+      "Divide the main purpose into measurable tasks",
+      "تقسّم الغرض الرئيس إلى مهام قابلة للقياس"
+     ],
+     [
+      "Replace the study design",
+      "تحلّ محلّ تصميم الدراسة"
+     ],
+     [
+      "Are written after the results",
+      "تُكتب بعد النتائج"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "“States what we will do to answer the question” defines:",
+    "ar": "«يحدّد ماذا سنفعل للإجابة عن السؤال» تعريف لـ:",
+    "options": [
+     [
+      "Research question",
+      "سؤال البحث"
+     ],
+     [
+      "Objective",
+      "الهدف"
+     ],
+     [
+      "Hypothesis",
+      "الفرضية"
+     ],
+     [
+      "Sample",
+      "العيّنة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The study design is:",
+    "ar": "تصميم الدراسة هو:",
+    "options": [
+     [
+      "The number of participants",
+      "عدد المشاركين"
+     ],
+     [
+      "The basic structure used to obtain evidence",
+      "البنية الأساسية المستعملة للحصول على الأدلّة"
+     ],
+     [
+      "The ethics approval",
+      "الموافقة الأخلاقية"
+     ],
+     [
+      "The final conclusion",
+      "الاستنتاج النهائي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Measuring exposure and outcome at the same time is a:",
+    "ar": "قياس التعرّض والنتيجة في الوقت نفسه هو:",
+    "options": [
+     [
+      "Case-control study",
+      "دراسة حالات وشواهد"
+     ],
+     [
+      "Cohort study",
+      "دراسة أترابية"
+     ],
+     [
+      "Clinical trial",
+      "تجربة سريرية"
+     ],
+     [
+      "Cross-sectional study",
+      "دراسة مقطعية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A study that starts with the outcome and examines previous exposure is a:",
+    "ar": "الدراسة التي تبدأ بالنتيجة وتفحص التعرّض السابق هي:",
+    "options": [
+     [
+      "Cohort study",
+      "دراسة أترابية"
+     ],
+     [
+      "Case-control study",
+      "دراسة الحالات والشواهد"
+     ],
+     [
+      "Cross-sectional study",
+      "دراسة مقطعية"
+     ],
+     [
+      "Experimental study",
+      "دراسة تجريبية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Following 50 people with low ferritin and 50 with normal ferritin for 1 year to see who develops anemia is a:",
+    "ar": "متابعة 50 شخصًا بفيريتين منخفض و50 بفيريتين طبيعي لسنة لمعرفة مَن يُصاب بفقر الدم هي:",
+    "options": [
+     [
+      "Case-control study",
+      "دراسة حالات وشواهد"
+     ],
+     [
+      "Cross-sectional study",
+      "دراسة مقطعية"
+     ],
+     [
+      "Review-based research",
+      "بحث قائم على المراجعة"
+     ],
+     [
+      "Cohort study",
+      "دراسة أترابية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The key difference between observational and experimental studies is whether:",
+    "ar": "الفرق الأساسي بين الدراسات الرصدية والتجريبية هو هل:",
+    "options": [
+     [
+      "The study uses blood samples",
+      "تستعمل الدراسة عيّنات دم"
+     ],
+     [
+      "The study has a title",
+      "للدراسة عنوان"
+     ],
+     [
+      "The researcher assigns the intervention",
+      "يحدّد الباحث التدخّل"
+     ],
+     [
+      "The results are published",
+      "تُنشر النتائج"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "An experimental study in human participants used to evaluate an intervention is a:",
+    "ar": "الدراسة التجريبية على مشاركين من البشر لتقييم تدخّل هي:",
+    "options": [
+     [
+      "Clinical trial",
+      "تجربة سريرية"
+     ],
+     [
+      "Cohort study",
+      "دراسة أترابية"
+     ],
+     [
+      "Case-control study",
+      "دراسة حالات وشواهد"
+     ],
+     [
+      "Literature review",
+      "مراجعة أدبيات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Population, eligibility, sample size and variables",
+    "topic_ar": "المجتمع والأهلية وحجم العيّنة والمتغيّرات"
+   },
+   {
+    "en": "The accessible group from which participants are recruited is the:",
+    "ar": "المجموعة المتاحة التي يُستقطب منها المشاركون هي:",
+    "options": [
+     [
+      "Study population",
+      "مجتمع الدراسة"
+     ],
+     [
+      "Target population",
+      "المجتمع المستهدف"
+     ],
+     [
+      "Sample",
+      "العيّنة"
+     ],
+     [
+      "Control group",
+      "مجموعة الشواهد"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The participants or specimens actually included in the study are the:",
+    "ar": "المشاركون أو العيّنات المشمولون فعلًا في الدراسة هم:",
+    "options": [
+     [
+      "Target population",
+      "المجتمع المستهدف"
+     ],
+     [
+      "Study population",
+      "مجتمع الدراسة"
+     ],
+     [
+      "Sample",
+      "العيّنة"
+     ],
+     [
+      "Exposure",
+      "التعرّض"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Inclusion criteria should be defined:",
+    "ar": "يجب تحديد معايير الشمول:",
+    "options": [
+     [
+      "After analysis",
+      "بعد التحليل"
+     ],
+     [
+      "Before recruitment",
+      "قبل الاستقطاب"
+     ],
+     [
+      "After seeing the results",
+      "بعد رؤية النتائج"
+     ],
+     [
+      "During the discussion",
+      "أثناء المناقشة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Exclusion should be:",
+    "ar": "يجب أن يكون الاستبعاد:",
+    "options": [
+     [
+      "Based on whether the result supports the hypothesis",
+      "مبنيًّا على دعم النتيجة للفرضية"
+     ],
+     [
+      "Decided after the analysis",
+      "مقرّرًا بعد التحليل"
+     ],
+     [
+      "Random",
+      "عشوائيًا"
+     ],
+     [
+      "Scientifically justified",
+      "مبرّرًا علميًا"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A sample that is too small may:",
+    "ar": "العيّنة الصغيرة جدًا قد:",
+    "options": [
+     [
+      "Give imprecise estimates or miss an important difference",
+      "تعطي تقديرات غير دقيقة أو تفوّت فرقًا مهمًا"
+     ],
+     [
+      "Always be better",
+      "تكون أفضل دائمًا"
+     ],
+     [
+      "Increase precision",
+      "تزيد الدقّة"
+     ],
+     [
+      "Remove confounding",
+      "تزيل الإرباك"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which is NOT one of the five main factors determining sample size?",
+    "ar": "أيّ ممّا يأتي ليس من العوامل الخمسة الرئيسة لحجم العيّنة؟",
+    "options": [
+     [
+      "The colour of the report",
+      "لون التقرير"
+     ],
+     [
+      "Required precision",
+      "الدقّة المطلوبة"
+     ],
+     [
+      "Missing data and dropouts",
+      "البيانات الناقصة والانسحابات"
+     ],
+     [
+      "Available resources",
+      "الموارد المتاحة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Higher precision usually needs:",
+    "ar": "الدقّة الأعلى تحتاج عادةً:",
+    "options": [
+     [
+      "Fewer samples",
+      "عيّنات أقل"
+     ],
+     [
+      "No samples",
+      "لا عيّنات"
+     ],
+     [
+      "Only review-based data",
+      "بيانات مراجعة فقط"
+     ],
+     [
+      "More samples",
+      "عيّنات أكثر"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The outcome / dependent variable is:",
+    "ar": "النتيجة / المتغيّر التابع هو:",
+    "options": [
+     [
+      "The factor being investigated",
+      "العامل الذي يُدرَس"
+     ],
+     [
+      "The sample ID",
+      "رمز العيّنة"
+     ],
+     [
+      "The ethics approval",
+      "الموافقة الأخلاقية"
+     ],
+     [
+      "The result being measured",
+      "الحصيلة التي تُقاس"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Data collection, laboratory quality, analysis and ethics",
+    "topic_ar": "جمع البيانات وجودة المختبر والتحليل والأخلاقيات"
+   },
+   {
+    "en": "Using coded IDs and structured forms belongs to which step of data and specimen collection?",
+    "ar": "استعمال رموز تعريف مشفّرة واستمارات منظّمة ينتمي إلى أيّ خطوة من جمع البيانات والعيّنات؟",
+    "options": [
+     [
+      "Collect Specimens",
+      "جمع العيّنات"
+     ],
+     [
+      "Plan Data Collection",
+      "التخطيط لجمع البيانات"
+     ],
+     [
+      "Handle and Test Samples",
+      "تداول العيّنات وفحصها"
+     ],
+     [
+      "Record Data",
+      "تسجيل البيانات"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "“Standards + control samples” is an example of:",
+    "ar": "«المحاليل القياسية + عيّنات السيطرة» مثال على:",
+    "options": [
+     [
+      "Traceability",
+      "قابلية التتبّع"
+     ],
+     [
+      "Calibration & Quality Control",
+      "المعايرة وضبط الجودة"
+     ],
+     [
+      "Consistent Procedures",
+      "إجراءات متّسقة"
+     ],
+     [
+      "Informed Consent",
+      "الموافقة المستنيرة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Recording sample ID, kit lot, and test date is an example of:",
+    "ar": "تسجيل رمز العيّنة ورقم تشغيلة العدّة وتاريخ الفحص مثال على:",
+    "options": [
+     [
+      "Traceability",
+      "قابلية التتبّع"
+     ],
+     [
+      "Validated methods",
+      "الطرائق المُصادَق عليها"
+     ],
+     [
+      "Confidentiality",
+      "السرّية"
+     ],
+     [
+      "Feasibility",
+      "قابلية التنفيذ"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The data analysis should:",
+    "ar": "يجب أن يكون تحليل البيانات:",
+    "options": [
+     [
+      "Answer the research question, not simply produce a p-value",
+      "مجيبًا عن سؤال البحث لا منتجًا لقيمة `p` فقط"
+     ],
+     [
+      "Only produce a p-value",
+      "منتجًا لقيمة `p` فقط"
+     ],
+     [
+      "Be decided after seeing final results",
+      "مقرّرًا بعد رؤية النتائج النهائية"
+     ],
+     [
+      "Ignore confounding",
+      "متجاهلًا للإرباك"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Using sample ID S001 instead of names protects:",
+    "ar": "استعمال رمز العيّنة `S001` بدل الأسماء يحمي:",
+    "options": [
+     [
+      "Calibration",
+      "المعايرة"
+     ],
+     [
+      "Sample size",
+      "حجم العيّنة"
+     ],
+     [
+      "Timeline",
+      "الجدول الزمني"
+     ],
+     [
+      "Confidentiality",
+      "السرّية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "“Do not stop treatment for research” is an example of:",
+    "ar": "«لا تُوقف العلاج لأجل البحث» مثال على:",
+    "options": [
+     [
+      "Informed Consent",
+      "الموافقة المستنيرة"
+     ],
+     [
+      "Patient Safety",
+      "سلامة المريض"
+     ],
+     [
+      "Ethical Approval",
+      "الموافقة الأخلاقية"
+     ],
+     [
+      "Traceability",
+      "قابلية التتبّع"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Forms of research, final research and AI",
+    "topic_ar": "أشكال البحث والبحث النهائي والذكاء الاصطناعي"
+   },
+   {
+    "en": "Research that uses existing published evidence and does not collect new data is:",
+    "ar": "البحث الذي يستعمل الأدلّة المنشورة ولا يجمع بيانات جديدة هو:",
+    "options": [
+     [
+      "Original research",
+      "بحث أصيل"
+     ],
+     [
+      "Clinical trial",
+      "تجربة سريرية"
+     ],
+     [
+      "Review-based research",
+      "بحث قائم على المراجعة"
+     ],
+     [
+      "Cohort study",
+      "دراسة أترابية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The part of a completed research that explains how the study was performed is:",
+    "ar": "جزء البحث المكتمل الذي يشرح كيف أُجريت الدراسة هو:",
+    "options": [
+     [
+      "Results",
+      "النتائج"
+     ],
+     [
+      "Materials and Methods",
+      "المواد وطرائق العمل"
+     ],
+     [
+      "Introduction",
+      "المقدمة"
+     ],
+     [
+      "Abstract",
+      "الخلاصة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The part that summarizes what is already known and identifies the gap is:",
+    "ar": "الجزء الذي يلخّص ما هو معروف ويحدّد الفجوة هو:",
+    "options": [
+     [
+      "Discussion",
+      "المناقشة"
+     ],
+     [
+      "Results",
+      "النتائج"
+     ],
+     [
+      "Literature Review",
+      "مراجعة الأدبيات"
+     ],
+     [
+      "References",
+      "المراجع"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which AI tool is described as “Discover related studies and citation networks”?",
+    "ar": "أيّ أداة ذكاء اصطناعي وُصفت بأنها «اكتشاف الدراسات ذات الصلة وشبكات الاستشهاد»؟",
+    "options": [
+     [
+      "Elicit",
+      "إليسِت"
+     ],
+     [
+      "ChatGPT",
+      "تشات جي بي تي"
+     ],
+     [
+      "ResearchRabbit",
+      "ريسيرتش رابِت"
+     ],
+     [
+      "Consensus",
+      "كونسينسس"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "With AI in research, scientific responsibility remains with:",
+    "ar": "مع الذكاء الاصطناعي في البحث، تبقى المسؤولية العلمية على:",
+    "options": [
+     [
+      "The AI tool",
+      "أداة الذكاء الاصطناعي"
+     ],
+     [
+      "The journal",
+      "المجلة"
+     ],
+     [
+      "The researcher",
+      "الباحث"
+     ],
+     [
+      "The patient",
+      "المريض"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In the laboratory example (ferritin and haemoglobin in haemodialysis patients), the design is:",
+    "ar": "في المثال المختبري (الفيريتين والهيموغلوبين لدى مرضى الغسل الدموي)، التصميم هو:",
+    "options": [
+     [
+      "Clinical trial",
+      "تجربة سريرية"
+     ],
+     [
+      "Cohort study",
+      "دراسة أترابية"
+     ],
+     [
+      "Cross-sectional observational study",
+      "دراسة رصدية مقطعية"
+     ],
+     [
+      "Review-based research",
+      "بحث قائم على المراجعة"
+     ]
+    ],
+    "answer": "c"
+   }
+  ],
+  "tf": [
+   {
+    "en": "A research plan should be prepared after data collection begins.",
+    "ar": "يجب إعداد خطة البحث بعد بدء جمع البيانات.",
+    "answer": "F"
+   },
+   {
+    "en": "Quality, as a reason for a research plan, reduces avoidable errors, bias, and missing information.",
+    "ar": "الجودة، كسبب لخطة البحث، تقلّل الأخطاء الممكن تجنّبها والتحيّز والمعلومات الناقصة.",
+    "answer": "T"
+   },
+   {
+    "en": "The research question guides the rest of the research plan.",
+    "ar": "سؤال البحث يوجّه بقيّة خطة البحث.",
+    "answer": "T"
+   },
+   {
+    "en": "A research question states what we will do; an objective asks what we want to know.",
+    "ar": "سؤال البحث يحدّد ماذا سنفعل؛ والهدف يسأل ماذا نريد أن نعرف.",
+    "answer": "F"
+   },
+   {
+    "en": "In observational studies the researcher assigns the exposure.",
+    "ar": "في الدراسات الرصدية يحدّد الباحث التعرّض.",
+    "answer": "F"
+   },
+   {
+    "en": "A cohort study starts with exposure and observes new outcomes.",
+    "ar": "الدراسة الأترابية تبدأ بالتعرّض وترصد النتائج الجديدة.",
+    "answer": "T"
+   },
+   {
+    "en": "The target population is the accessible group from which participants are recruited.",
+    "ar": "المجتمع المستهدف هو المجموعة المتاحة التي يُستقطب منها المشاركون.",
+    "answer": "F"
+   },
+   {
+    "en": "A very large sample is automatically better.",
+    "ar": "العيّنة الكبيرة جدًا أفضل تلقائيًا.",
+    "answer": "F"
+   },
+   {
+    "en": "Smaller differences or greater variation often need more samples.",
+    "ar": "الفروق الأصغر أو التباين الأكبر يحتاجان غالبًا عيّنات أكثر.",
+    "answer": "T"
+   },
+   {
+    "en": "Sample size should be calculated and justified before starting the study.",
+    "ar": "يجب حساب حجم العيّنة وتبريره قبل بدء الدراسة.",
+    "answer": "T"
+   },
+   {
+    "en": "How each objective will be analyzed should be decided before examining the final results.",
+    "ar": "يجب تحديد كيفية تحليل كل هدف قبل فحص النتائج النهائية.",
+    "answer": "T"
+   },
+   {
+    "en": "Original research does not collect new data.",
+    "ar": "البحث الأصيل لا يجمع بيانات جديدة.",
+    "answer": "F"
+   },
+   {
+    "en": "References list the sources used.",
+    "ar": "المراجع تسرد المصادر المستعملة.",
+    "answer": "T"
+   },
+   {
+    "en": "AI tools remove the need to verify references.",
+    "ar": "أدوات الذكاء الاصطناعي تُغني عن التحقّق من المراجع.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Research question and objective are the same thing.",
+    "ar": "سؤال البحث والهدف شيء واحد.",
+    "answer_en": "No — the research question asks what we want to know; the objective states what we will do to answer it.",
+    "answer_ar": "لا — سؤال البحث يسأل ماذا نريد أن نعرف، والهدف يحدّد ماذا سنفعل للإجابة عنه."
+   },
+   {
+    "en": "Case-control and cohort studies both start with the outcome.",
+    "ar": "دراستا الحالات والشواهد والأترابية تبدأان كلتاهما بالنتيجة.",
+    "answer_en": "No — case-control starts with the outcome and examines previous exposure; cohort starts with exposure and observes new outcomes.",
+    "answer_ar": "لا — دراسة الحالات والشواهد تبدأ بالنتيجة وتفحص التعرّض السابق، والأترابية تبدأ بالتعرّض وترصد النتائج الجديدة."
+   },
+   {
+    "en": "Target population, study population and sample mean the same group.",
+    "ar": "المجتمع المستهدف ومجتمع الدراسة والعيّنة تعني المجموعة نفسها.",
+    "answer_en": "No — target: the wider group to understand; study population: the accessible group recruited from; sample: those actually included.",
+    "answer_ar": "لا — المستهدف: المجموعة الأوسع؛ مجتمع الدراسة: المجموعة المتاحة للاستقطاب؛ العيّنة: المشمولون فعلًا."
+   },
+   {
+    "en": "A participant can be excluded if their result does not support the hypothesis.",
+    "ar": "يمكن استبعاد مشارك إذا كانت نتيجته لا تدعم الفرضية.",
+    "answer_en": "No — exclusion should be scientifically justified, not based on whether the result supports the hypothesis.",
+    "answer_ar": "لا — يجب أن يكون الاستبعاد مبرّرًا علميًا، لا مبنيًّا على دعم النتيجة للفرضية."
+   },
+   {
+    "en": "The bigger the sample, the better the study.",
+    "ar": "كلّما كبرت العيّنة كانت الدراسة أفضل.",
+    "answer_en": "No — a very large sample is not automatically better; the number should be scientifically justified and feasible.",
+    "answer_ar": "لا — العيّنة الكبيرة جدًا ليست أفضل تلقائيًا؛ يجب أن يكون العدد مبرّرًا علميًا وقابلًا للتنفيذ."
+   },
+   {
+    "en": "Getting a p-value is the goal of the analysis.",
+    "ar": "الحصول على قيمة `p` هو هدف التحليل.",
+    "answer_en": "No — the analysis should answer the research question, not simply produce a p-value.",
+    "answer_ar": "لا — يجب أن يجيب التحليل عن سؤال البحث، لا أن ينتج قيمة `p` فقط."
+   },
+   {
+    "en": "“Abstract” belongs to the research plan before the study.",
+    "ar": "«الخلاصة» جزء من خطة البحث قبل الدراسة.",
+    "answer_en": "No — Abstract / Summary is part of the final research after conducting the study.",
+    "answer_ar": "لا — الخلاصة / الملخّص جزء من البحث النهائي بعد تنفيذ الدراسة."
+   }
+  ],
+  "important": [
+   {
+    "en": "What is a research plan, and why do we need it?",
+    "ar": "ما خطة البحث، ولماذا نحتاج إليها؟",
+    "answer_en": "A practical map that explains how a study will be carried out, connecting the research question with design, participants or samples, measurements, analysis, ethics, and time; prepared before data collection. Needed for clarity, feasibility, consistency, and quality.",
+    "answer_ar": "خريطة عملية توضّح كيف ستُنفَّذ الدراسة، وتربط سؤال البحث بالتصميم والمشاركين أو العيّنات والقياسات والتحليل والأخلاقيات والوقت، وتُعَدّ قبل جمع البيانات. ونحتاجها للوضوح وقابلية التنفيذ والاتّساق والجودة."
+   },
+   {
+    "en": "Differentiate between the general objective and the specific objectives, with an example.",
+    "ar": "فرّق بين الهدف العام والأهداف الخاصة مع مثال.",
+    "answer_en": "General objective (Aim) states the main purpose; specific objectives divide it into measurable tasks. Example: Measure ferritin and hemoglobin, then assess their association.",
+    "answer_ar": "الهدف العام يحدّد الغرض الرئيس؛ والأهداف الخاصة تقسّمه إلى مهام قابلة للقياس. مثال: قياس الفيريتين والهيموغلوبين ثم تقييم العلاقة بينهما."
+   },
+   {
+    "en": "Describe the three observational study designs with the anemia example.",
+    "ar": "صِف تصاميم الدراسات الرصدية الثلاثة بمثال فقر الدم.",
+    "answer_en": "Cross-sectional: exposure (ferritin) and outcome (hemoglobin) measured at the same time in 100 patients. Case-control: start with outcome (50 with anemia vs 50 without) and compare previous iron deficiency. Cohort: start with exposure (50 low vs 50 normal ferritin), follow for 1 year to see who develops anemia.",
+    "answer_ar": "المقطعية: قياس التعرّض (الفيريتين) والنتيجة (الهيموغلوبين) في الوقت نفسه لدى 100 مريض. الحالات والشواهد: البدء بالنتيجة (50 مصابًا مقابل 50 غير مصاب) ومقارنة نقص الحديد السابق. الأترابية: البدء بالتعرّض (50 بفيريتين منخفض مقابل 50 طبيعي) ومتابعتهم سنة لمعرفة مَن يُصاب."
+   },
+   {
+    "en": "Compare observational and experimental studies.",
+    "ar": "قارن بين الدراسات الرصدية والتجريبية.",
+    "answer_en": "Observational: researcher observes, no intervention assigned, measures existing exposures and outcomes (e.g., measure Hb and ferritin). Experimental: researcher assigns an intervention and compares outcomes after it (e.g., give iron treatment and measure Hb).",
+    "answer_ar": "الرصدية: الباحث يرصد ولا يحدّد تدخّلًا ويقيس التعرّضات والنتائج الموجودة (مثل قياس الهيموغلوبين والفيريتين). التجريبية: الباحث يحدّد تدخّلًا ويقارن النتائج بعده (مثل إعطاء علاج الحديد وقياس الهيموغلوبين)."
+   },
+   {
+    "en": "What determines sample size?",
+    "ar": "ما الذي يحدّد حجم العيّنة؟",
+    "answer_en": "Study aim and design; expected difference and variation; required precision; missing data and dropouts; available resources. Sample size should be calculated and justified before starting the study.",
+    "answer_ar": "هدف الدراسة وتصميمها؛ والفرق المتوقّع والتباين؛ والدقّة المطلوبة؛ والبيانات الناقصة والانسحابات؛ والموارد المتاحة. ويجب حسابه وتبريره قبل بدء الدراسة."
+   },
+   {
+    "en": "List the four essential practices for laboratory quality and the four principles of research ethics.",
+    "ar": "عدّد الممارسات الأربع لجودة المختبر ومبادئ أخلاقيات البحث الأربعة.",
+    "answer_en": "Laboratory quality: validated/verified methods, calibration & quality control, consistent procedures, traceability. Ethics: ethical approval, informed consent, confidentiality, patient safety.",
+    "answer_ar": "جودة المختبر: طرائق مُصادَق عليها/مُتحقَّق منها، والمعايرة وضبط الجودة، وإجراءات متّسقة، وقابلية التتبّع. الأخلاقيات: الموافقة الأخلاقية، والموافقة المستنيرة، والسرّية، وسلامة المريض."
+   },
+   {
+    "en": "List the main parts of a completed research.",
+    "ar": "عدّد الأجزاء الرئيسة للبحث المكتمل.",
+    "answer_en": "Abstract/Summary, Introduction, Literature Review, Materials and Methods, Results, Discussion, Conclusion & Recommendations, References.",
+    "answer_ar": "الخلاصة/الملخّص، والمقدمة، ومراجعة الأدبيات، والمواد وطرائق العمل، والنتائج، والمناقشة، والاستنتاج والتوصيات، والمراجع."
+   }
+  ]
+ }
+}
