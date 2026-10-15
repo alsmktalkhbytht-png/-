@@ -57,7 +57,7 @@
     "**Skin:** e.g schistosomiasis.",
     "**Sexual contact:** e.g __Trichomonas vaginalis.__",
     "**Congenital:** e.g __Toxoplasma gondii.__",
-    "**Inhalation:** e.g __Entrobius vermicularis.__",
+    "**Inhalation:** e.g __Enterobius vermicularis.__",
     "**Kissing:** e.g __Entamoeba gingivalis.__",
     "**Blood transfusion:** e.g malaria parasite."
    ],
@@ -66,7 +66,7 @@
     "**الجلد:** مثل داء البلهارزيا (`schistosomiasis`).",
     "**الاتصال الجنسي:** مثل المشعّرة المهبلية (`__Trichomonas vaginalis__`).",
     "**خِلقي (من الأم إلى الجنين):** مثل المقوّسة الغوندية (`__Toxoplasma gondii__`).",
-    "**الاستنشاق:** مثل الدودة الدبّوسية (`__Entrobius vermicularis__`).",
+    "**الاستنشاق:** مثل الدودة الدبّوسية (`__Enterobius vermicularis__`).",
     "**التقبيل:** مثل أميبا اللثة (`__Entamoeba gingivalis__`).",
     "**نقل الدم:** مثل طفيلي الملاريا."
    ]
@@ -307,23 +307,23 @@
     [
      "Sarcomastig-ophora further divided into",
      "Sarcodina- (Amoeba) move by pseudopodia",
-     "Entamoeba → __E. hstolytica__; Endolimax → __E.nana__; Iodameba → __I.butchlii__; Dientameba → __D.fragilis__",
+     "Entamoeba → __E. histolytica__; Endolimax → __E.nana__; Iodameba → __I.buetschlii__; Dientameba → __D.fragilis__",
      "**السوطيات اللحمية** تنقسم إلى: **اللحميات** (الأميبا) تتحرّك بالأقدام الكاذبة"
     ],
     [
      "",
      "Mastigophora (Flagellates) move by flagella",
-     "Giardia → __G. Lamblia__; Trichmonas → __T.vaginalis__; Trypanosoma → __T.brucci__; Leishmania → __L.donovani__",
+     "Giardia → __G. Lamblia__; Trichomonas → __T.vaginalis__; Trypanosoma → __T.brucei__; Leishmania → __L.donovani__",
      "**السوطيات** تتحرّك بالأسواط"
     ],
     [
      "Apicomplexa (Sporozoa) no organelle of Locomotion",
      "",
-     "Plasmodium → __P. falciparum__; Toxoplasma → __T.gonidi__; Cryptosporidium → __C.parvum__; Isospora → __I.beli__",
+     "Plasmodium → __P. falciparum__; Toxoplasma → __T.gondii__; Cryptosporidium → __C.parvum__; Isospora → __I.belli__",
      "**المعقّدات القمّية** (البوغيات): لا عُضيّة للحركة"
     ],
     [
-     "Ciliophora move by cillia",
+     "Ciliophora move by cilia",
      "",
      "Balantidium → __B. coli__",
      "**الهدبيات**: تتحرّك بالأهداب"
@@ -367,7 +367,7 @@
   {
    "t": "figure",
    "src": "assets/amoeba.jpg",
-   "en": "Amoeba (ectoplasm, endoplesm, nucleus)",
+   "en": "Amoeba (ectoplasm, endoplasm, nucleus)",
    "ar": "الأميبا (السايتوبلازم الخارجي، الداخلي، النواة)",
    "h": "58mm",
    "fit": "contain"
@@ -412,14 +412,14 @@
    "list_en": [
     "Ciliate **trophozoites** are covered with short hairs (**cilia**) by which they move.",
     "They reproduce asexually by **binary fission** and sexually by **conjugation**.",
-    "They have **cyst** and **trophozoit**.",
-    "The only ciliate known to infect human is __Blantidium coli.__"
+    "They have **cyst** and **trophozoite**.",
+    "The only ciliate known to infect human is __Balantidium coli.__"
    ],
    "list_ar": [
     "**الأطوار المتغذّية** للهدبيات مغطّاة بشعيرات قصيرة (**أهداب**) تتحرّك بها.",
     "تتكاثر لاجنسيًا بـ**الانشطار الثنائي** وجنسيًا بـ**الاقتران**.",
     "لها **كيس** و**طور متغذٍّ**.",
-    "الهدبي الوحيد المعروف بإصابته للإنسان هو القربيّة القولونية (`__Blantidium coli__`)."
+    "الهدبي الوحيد المعروف بإصابته للإنسان هو القربيّة القولونية (`__Balantidium coli__`)."
    ]
   },
   {
@@ -440,12 +440,12 @@
    "en": "",
    "ar": "",
    "list_en": [
-    "Coccidia are **intracellular parasites** that reproduce asexually by a process called **schizgony** or **merogony** and sexually by **sporogony**.",
-    "Plasmodium species, __Toxoplasma gondii__ and intestinal coccidia __Cryptosporiduim parvum__ are examples."
+    "Coccidia are **intracellular parasites** that reproduce asexually by a process called **schizogony** or **merogony** and sexually by **sporogony**.",
+    "Plasmodium species, __Toxoplasma gondii__ and intestinal coccidia __Cryptosporidium parvum__ are examples."
    ],
    "list_ar": [
-    "الكوكسيديا **طفيليات داخل خلوية** تتكاثر لاجنسيًا بعملية تُسمّى **التقسّم المتعدّد** (`schizgony`) أو **التقسّم الميروزوئيتي** (`merogony`)، وجنسيًا بـ**تكوين الأبواغ** (`sporogony`).",
-    "أنواع البلازموديوم (`Plasmodium`)، والمقوّسة الغوندية (`__Toxoplasma gondii__`)، والكوكسيديا المعوية الخبيئة الصغيرة (`__Cryptosporiduim parvum__`) أمثلة عليها."
+    "الكوكسيديا **طفيليات داخل خلوية** تتكاثر لاجنسيًا بعملية تُسمّى **التقسّم المتعدّد** (`schizogony`) أو **التقسّم الميروزوئيتي** (`merogony`)، وجنسيًا بـ**تكوين الأبواغ** (`sporogony`).",
+    "أنواع البلازموديوم (`Plasmodium`)، والمقوّسة الغوندية (`__Toxoplasma gondii__`)، والكوكسيديا المعوية الخبيئة الصغيرة (`__Cryptosporidium parvum__`) أمثلة عليها."
    ]
   },
   {
@@ -610,7 +610,7 @@
       "داء البلهارزيا"
      ],
      [
-      "Entrobius vermicularis",
+      "Enterobius vermicularis",
       "الدودة الدبّوسية"
      ],
      [
@@ -1213,7 +1213,7 @@
       "المثقبيات"
      ],
      [
-      "Blantidium coli",
+      "Balantidium coli",
       "القربيّة القولونية"
      ]
     ],
@@ -1228,7 +1228,7 @@
       "تكوين الأبواغ"
      ],
      [
-      "Schizgony",
+      "Schizogony",
       "التقسّم المتعدّد"
      ],
      [
@@ -1422,7 +1422,7 @@
     "answer": "F"
    },
    {
-    "en": "Ciliates have cyst and trophozoit.",
+    "en": "Ciliates have cyst and trophozoite.",
     "ar": "للهدبيات كيس وطور متغذٍّ.",
     "answer": "T"
    },
@@ -1460,7 +1460,7 @@
    {
     "en": "Coccidia reproduction — which process is sexual?",
     "ar": "تكاثر الكوكسيديا — أيّ عملية جنسية؟",
-    "answer_en": "Asexually by schizgony or merogony; sexually by sporogony.",
+    "answer_en": "Asexually by schizogony or merogony; sexually by sporogony.",
     "answer_ar": "لاجنسيًا بالتقسّم المتعدّد أو التقسّم الميروزوئيتي؛ وجنسيًا بتكوين الأبواغ."
    },
    {
@@ -1480,7 +1480,7 @@
    {
     "en": "Mention the routes of entry of parasites with one example each.",
     "ar": "اذكر طرق دخول الطفيليات مع مثال لكل منها.",
-    "answer_en": "Mouth (Entamoeba histolytica); Skin (schistosomiasis); Sexual contact (Trichomonas vaginalis); Congenital (Toxoplasma gondii); Inhalation (Entrobius vermicularis); Kissing (Entamoeba gingivalis); Blood transfusion (malaria parasite).",
+    "answer_en": "Mouth (Entamoeba histolytica); Skin (schistosomiasis); Sexual contact (Trichomonas vaginalis); Congenital (Toxoplasma gondii); Inhalation (Enterobius vermicularis); Kissing (Entamoeba gingivalis); Blood transfusion (malaria parasite).",
     "answer_ar": "الفم (الأميبا الحالّة للنسيج)؛ الجلد (البلهارزيا)؛ الاتصال الجنسي (المشعّرة المهبلية)؛ خِلقيًا (المقوّسة الغوندية)؛ الاستنشاق (الدودة الدبّوسية)؛ التقبيل (أميبا اللثة)؛ نقل الدم (طفيلي الملاريا)."
    },
    {
@@ -1510,7 +1510,7 @@
    {
     "en": "Give examples of the flagellates and of the Apicomplexa.",
     "ar": "اذكر أمثلة على السوطيات وعلى المعقّدات القمّية.",
-    "answer_en": "Flagellates: G. lamblia, Trypanosoma and Leishmania. Apicomplexa: Plasmodium species, Toxoplasma gondii and Cryptosporiduim parvum.",
+    "answer_en": "Flagellates: G. lamblia, Trypanosoma and Leishmania. Apicomplexa: Plasmodium species, Toxoplasma gondii and Cryptosporidium parvum.",
     "answer_ar": "السوطيات: الجيارديا اللامبلية والمثقبيات والليشمانيا. المعقّدات القمّية: أنواع البلازموديوم والمقوّسة الغوندية والخبيئة الصغيرة."
    }
   ]
