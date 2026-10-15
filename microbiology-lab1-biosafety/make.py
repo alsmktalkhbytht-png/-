@@ -1,0 +1,257 @@
+import json, os
+from collections import Counter
+
+def C(en, ar, **k):  return dict(t="card", en=en, ar=ar, **k)
+def SEC(en, ar):     return dict(t="section", en=en, ar=ar)
+def H2(en, ar):      return dict(t="h2", en=en, ar=ar)
+def L(en_items, ar_items, en="", ar="", **k):
+    return dict(t="card", en=en, ar=ar, list_en=en_items, list_ar=ar_items, **k)
+def T(head, rows, **k): return dict(t="table", head=head, rows=rows, **k)
+def F(src, en, ar, **k): return dict(t="figure", src="assets/" + src, en=en, ar=ar, **k)
+def FF(*items):
+    return dict(t="figures", items=[dict(src="assets/" + s, en=e, ar=a, h=h, fit="contain") for s, e, a, h in items])
+def Q(en, ar, opts, ans, **k):
+    return dict(en=en, ar=ar, options=[list(o) for o in opts], answer=ans, **k)
+def TF(en, ar, a): return dict(en=en, ar=ar, answer=a)
+def TR(en, ar, ae, aa): return dict(en=en, ar=ar, answer_en=ae, answer_ar=aa)
+IM = TR
+
+blocks = [
+ SEC("Biosafety levels", "مستويات السلامة الحيوية"),
+ F("lab-safety.jpg", "Image on the Biosafety levels slide (Lab Safety)", "صورة شريحة مستويات السلامة الحيوية (السلامة المختبرية)", h="34mm", fit="contain"),
+ L(["**Biosafety levels:** They are principles and application used to protect laboratory workers and the surrounding environment from exposure to danger while working with living organisms.",
+    "**It aims to:** provide the highest level of protection and the lowest range of exposure."],
+   ["**مستويات السلامة الحيوية** (`Biosafety levels`): هي مبادئ وتطبيقات تُستعمل لحماية العاملين في المختبر والبيئة المحيطة من التعرّض للخطر أثناء العمل مع الكائنات الحيّة.",
+    "**وتهدف إلى:** توفير أعلى مستوى من الحماية وأدنى نطاق من التعرّض."]),
+
+ SEC("Risk groups", "مجموعات الخطورة"),
+ C("**Risk groups:** are used to assess risk, determine its source and how to deal with it , includes 4 groups:",
+   "**مجموعات الخطورة** (`Risk groups`): تُستعمل لتقييم الخطر وتحديد مصدره وكيفية التعامل معه، وتشمل 4 مجموعات:"),
+ T(["Risk groups", "The level of biological safety for each group", "الترجمة"],
+   [["(Minimal risk) Risk group 1",
+     "**Biosafety level 1** — Non-pathogenic factors in healthy people and adults (with little or no risk). __E.coli__ , __Bacillus Subtilis__",
+     "**مجموعة الخطورة 1** (خطر أدنى) — **مستوى السلامة الحيوية 1**: عوامل غير مُمرِضة للأشخاص الأصحّاء والبالغين (بخطر قليل أو معدوم). مثل الإشريكية القولونية (`E.coli`) والعصوية الرقيقة (`Bacillus Subtilis`)"],
+    ["(Moderate risk) Risk group 2",
+     "**Biosafety level 2** — Factors related to human infection and treatment is possible in this case (moderate risk and limited risk of spread). __E.coli__ pathogenic strain , __Brucella__ spp. , __Salmonella__ spp.",
+     "**مجموعة الخطورة 2** (خطر متوسط) — **مستوى السلامة الحيوية 2**: عوامل مرتبطة بإصابة الإنسان، والعلاج ممكن في هذه الحالة (خطر متوسط وخطر انتشار محدود). مثل السلالة المُمرِضة من الإشريكية القولونية، وأنواع البروسيلا (`Brucella spp.`)، وأنواع السالمونيلا (`Salmonella spp.`)"],
+    ["(High risk) Risk group 3",
+     "**Biosafety level 3** — Factors that cause serious and fatal infections to humans and their treatment is not easy, specially for immunosuppressed persons (with a high risk for individuals). __Salmonella typhi.__ __Mycobacterium tuberculosis.__",
+     "**مجموعة الخطورة 3** (خطر عالٍ) — **مستوى السلامة الحيوية 3**: عوامل تسبّب إصابات خطيرة ومميتة للإنسان وعلاجها ليس سهلًا، خصوصًا لمثبّطي المناعة (بخطر عالٍ على الأفراد). مثل السالمونيلا التيفية (`Salmonella typhi`) والمتفطّرة السلّية (`Mycobacterium tuberculosis`)"],
+    ["(Extreme risk) Risk group 4",
+     "**Biosafety level 4** — Factor that are fatal to humans are easily transmitted from [[cut]]",
+     "**مجموعة الخطورة 4** (خطر بالغ) — **مستوى السلامة الحيوية 4**: عوامل مميتة للإنسان وتنتقل بسهولة من [[قطع]]"]],
+   ar_cols=[2], key_cols=[0], widths=["28mm", "", "70mm"]),
+
+ SEC("Biohazard symbol", "رمز الخطر الحيوي"),
+ L(["Cultures of pathogens.", "Human Blood and Tissue.", "Corridors leading to the laboratories."],
+   ["مزارع المُمرِضات.", "دم الإنسان وأنسجته.", "الممرّات المؤدّية إلى المختبرات."],
+   en="**Biohazard symbol:** it used to warn people of the potential for the presence dangerous biological materials such as :",
+   ar="**رمز الخطر الحيوي** (`Biohazard symbol`): يُستعمل لتحذير الناس من احتمال وجود مواد حيوية خطرة مثل:"),
+ FF(("img02-radiation.jpg", "Image 02 (page 4)", "الصورة 02 (الصفحة 4)", "40mm"),
+    ("img03-biohazard.jpg", "Image 03 (page 4)", "الصورة 03 (الصفحة 4)", "40mm")),
+
+ SEC("Laboratory safety considerations:", "اعتبارات السلامة في المختبر:"),
+ C("1. Wear protective clothing (clean lab. Coat – Gloves - mask – safety glasses).",
+   "1. ارتدِ الملابس الواقية (صدرية مختبر نظيفة – قفازات – كمامة – نظارات واقية)."),
+ F("ppe.jpg", "Image under item 1", "صورة البند 1", h="40mm", fit="contain"),
+ C(["2. Avoid touching objects (pencils , cell phones , door handles, e.g.) while wearing gloves.",
+    "And pencils, labels , or any other materials should never be placed in your mouth."],
+   ["2. تجنّب لمس الأشياء (الأقلام والهواتف الخلوية ومقابض الأبواب، مثلًا) وأنت ترتدي القفازات.",
+    "ولا يجوز أبدًا وضع الأقلام أو الملصقات أو أي مواد أخرى في فمك."]),
+ C(["3. Do not eat food or drink water in the lab.",
+    "Do not use lab glassware as food or water containers."],
+   ["3. لا تأكل الطعام ولا تشرب الماء في المختبر.",
+    "لا تستعمل الزجاجيات المختبرية أوعيةً للطعام أو الماء."]),
+ F("no-food.jpg", "Image under items 2–3", "صورة البندين 2 و3", h="40mm", fit="contain"),
+ C("4. Long hair must be tied back or covered to minimize fire hazard or contamination of experiment.",
+   "4. يجب ربط الشعر الطويل إلى الخلف أو تغطيته لتقليل خطر الحريق أو تلوّث التجربة."),
+ C("5. Do not take any cultures out of the lab for any reason, all cultures should be handled as potentially pathogenic.",
+   "5. لا تُخرج أي مزارع من المختبر لأي سبب، ويجب التعامل مع جميع المزارع على أنها قد تكون مُمرِضة."),
+ F("cultures.jpg", "Image under items 4–5", "صورة البندين 4 و5", h="40mm", fit="contain"),
+ C("6. Wash hands after working with infectious materials.",
+   "6. اغسل يديك بعد العمل مع المواد المُعدية."),
+ F("handwash.jpg", "Image under item 6", "صورة البند 6", h="40mm", fit="contain"),
+ C("7. Disinfect all instruments immediately after use.", "7. طهّر جميع الأدوات فور استعمالها."),
+ C("8. Disinfect all contaminated waste before discarding.", "8. طهّر جميع النفايات الملوّثة قبل التخلّص منها."),
+ F("disinfect.jpg", "Image under items 7–8", "صورة البندين 7 و8", h="40mm", fit="contain"),
+
+ SEC("Definitions", "تعاريف"),
+ L(["**Sterilization:** is the complete killing or removal of all living organism such as cell spore , viruses , fungi, ….",
+    "**Disinfection:** the destruction or removal of pathogens but not bacterial spores , usually used only on inanimate object.",
+    "**Antiseptics:** chemicals applied to body surfaces to destroy or inhibit pathogens.",
+    "**Decontamination:** the mechanical removal of most microbes by using washing , heat or disinfectants."],
+   ["**التعقيم** (`Sterilization`): هو القتل أو الإزالة الكاملة لجميع الكائنات الحيّة مثل الأبواغ الخلوية والفيروسات والفطريات….",
+    "**التطهير** (`Disinfection`): إتلاف المُمرِضات أو إزالتها ولكن ليس الأبواغ البكتيرية، ويُستعمل عادةً على الأجسام غير الحيّة فقط.",
+    "**المطهّرات الجلدية** (`Antiseptics`): مواد كيميائية توضع على أسطح الجسم لإتلاف المُمرِضات أو تثبيطها.",
+    "**إزالة التلوّث** (`Decontamination`): الإزالة الميكانيكية لمعظم الميكروبات باستعمال الغسل أو الحرارة أو المطهّرات."]),
+ L(["**Biological laboratory :** A facility within which microorganisms, their components or their derivatives are collected handled and/or stored.",
+    "**Bio risk :** The probability or chance that a particular adverse event :accidental infection or loss, theft, misuse, diversion or intentional release), possibly leading to harm.",
+    "**Bio risk assessment :** The process to identify acceptable and unacceptable risks (embracing biosafety risks (risks of accidental infection) and laboratory biosecurity risks (risks of unauthorized access, loss, theft, misuse, diversion or intentional release)) and their potential consequences."],
+   ["**المختبر البيولوجي** (`Biological laboratory`): منشأة تُجمع فيها الأحياء المجهرية أو مكوّناتها أو مشتقّاتها وتُداوَل و/أو تُخزَّن.",
+    "**الخطر البيولوجي** (`Bio risk`): احتمال أو فرصة وقوع حدث ضار معيّن (عدوى عَرَضية أو فقدان أو سرقة أو سوء استعمال أو تحويل أو إطلاق متعمّد)، قد يؤدّي إلى ضرر.",
+    "**تقييم الخطر البيولوجي** (`Bio risk assessment`): عملية تحديد المخاطر المقبولة وغير المقبولة (بما فيها مخاطر السلامة الحيوية (مخاطر العدوى العَرَضية) ومخاطر الأمن الحيوي المختبري (مخاطر الوصول غير المصرّح به أو الفقدان أو السرقة أو سوء الاستعمال أو التحويل أو الإطلاق المتعمّد)) وعواقبها المحتملة."]),
+
+ SEC("Biosafety Cabinet", "كابينة السلامة الحيوية"),
+ F("cabinets.jpg", "Image on the Biosafety Cabinet slide", "صورة شريحة كابينة السلامة الحيوية", h="90mm", fit="contain"),
+]
+
+mcq = [
+ {"topic_en": "Biosafety levels and risk groups", "topic_ar": "مستويات السلامة الحيوية ومجموعات الخطورة"},
+ Q("Biosafety levels are used to protect:", "تُستعمل مستويات السلامة الحيوية لحماية:",
+   [("Laboratory workers and the surrounding environment", "العاملين في المختبر والبيئة المحيطة"), ("Cultures only", "المزارع فقط"),
+    ("Instruments only", "الأدوات فقط"), ("Patients only", "المرضى فقط")], "a"),
+ Q("Biosafety levels aim to provide:", "تهدف مستويات السلامة الحيوية إلى توفير:",
+   [("The lowest level of protection", "أدنى مستوى من الحماية"), ("The highest level of protection and the lowest range of exposure", "أعلى مستوى من الحماية وأدنى نطاق من التعرّض"),
+    ("The highest range of exposure", "أعلى نطاق من التعرّض"), ("Faster culture growth", "نموًا أسرع للمزارع")], "b"),
+ Q("Risk groups include how many groups?", "كم مجموعة تشمل مجموعات الخطورة؟",
+   [("2", "2"), ("3", "3"), ("4", "4"), ("5", "5")], "c"),
+ Q("Bacillus Subtilis belongs to:", "تنتمي العصوية الرقيقة إلى:",
+   [("Risk group 4", "مجموعة الخطورة 4"), ("Risk group 3", "مجموعة الخطورة 3"), ("Risk group 2", "مجموعة الخطورة 2"), ("Risk group 1", "مجموعة الخطورة 1")], "d"),
+ Q("Brucella spp. requires:", "تتطلّب أنواع البروسيلا:",
+   [("Biosafety level 2", "مستوى السلامة الحيوية 2"), ("Biosafety level 1", "مستوى السلامة الحيوية 1"),
+    ("Biosafety level 4", "مستوى السلامة الحيوية 4"), ("No biosafety level", "لا مستوى سلامة")], "a"),
+ Q("Mycobacterium tuberculosis belongs to:", "تنتمي المتفطّرة السلّية إلى:",
+   [("Risk group 1", "مجموعة الخطورة 1"), ("Risk group 3", "مجموعة الخطورة 3"), ("Risk group 2", "مجموعة الخطورة 2"), ("Risk group 4", "مجموعة الخطورة 4")], "b"),
+ Q("Risk group 1 is described as:", "تُوصف مجموعة الخطورة 1 بأنها:",
+   [("Extreme risk", "خطر بالغ"), ("High risk", "خطر عالٍ"), ("Minimal risk", "خطر أدنى"), ("Moderate risk", "خطر متوسط")], "c"),
+ Q("Factors related to human infection where treatment is possible (moderate risk and limited risk of spread) are in:",
+   "العوامل المرتبطة بإصابة الإنسان مع إمكانية العلاج (خطر متوسط وانتشار محدود) تكون في:",
+   [("Risk group 1", "مجموعة الخطورة 1"), ("Risk group 3", "مجموعة الخطورة 3"), ("Risk group 4", "مجموعة الخطورة 4"), ("Risk group 2", "مجموعة الخطورة 2")], "d"),
+ Q("Salmonella typhi requires:", "تتطلّب السالمونيلا التيفية:",
+   [("Biosafety level 3", "مستوى السلامة الحيوية 3"), ("Biosafety level 1", "مستوى السلامة الحيوية 1"),
+    ("Biosafety level 2", "مستوى السلامة الحيوية 2"), ("Biosafety level 0", "مستوى السلامة الحيوية 0")], "a"),
+ Q("The E.coli pathogenic strain belongs to:", "تنتمي السلالة المُمرِضة من الإشريكية القولونية إلى:",
+   [("Risk group 1", "مجموعة الخطورة 1"), ("Risk group 2", "مجموعة الخطورة 2"), ("Risk group 3", "مجموعة الخطورة 3"), ("Risk group 4", "مجموعة الخطورة 4")], "b"),
+ Q("Risk group 3 is especially dangerous for:", "مجموعة الخطورة 3 خطرة خصوصًا على:",
+   [("Healthy adults", "البالغين الأصحّاء"), ("Plants", "النباتات"), ("Immunosuppressed persons", "مثبّطي المناعة"), ("Laboratory animals only", "حيوانات المختبر فقط")], "c"),
+
+ {"topic_en": "Biohazard symbol", "topic_ar": "رمز الخطر الحيوي"},
+ Q("The biohazard symbol is used to warn people of the potential presence of:", "يُستعمل رمز الخطر الحيوي لتحذير الناس من احتمال وجود:",
+   [("Radioactive materials", "مواد مشعّة"), ("Flammable solvents", "مذيبات قابلة للاشتعال"), ("Electrical hazards", "مخاطر كهربائية"), ("Dangerous biological materials", "مواد حيوية خطرة")], "d"),
+ Q("Which of the following is listed as an example for the biohazard symbol?", "أيّ ممّا يأتي مذكور كمثال لرمز الخطر الحيوي؟",
+   [("Cultures of pathogens", "مزارع المُمرِضات"), ("Distilled water", "الماء المقطّر"), ("Clean glassware", "الزجاجيات النظيفة"), ("Office rooms", "غرف المكاتب")], "a"),
+ Q("The biohazard symbol is also placed on:", "يوضع رمز الخطر الحيوي أيضًا على:",
+   [("Food containers", "أوعية الطعام"), ("Corridors leading to the laboratories", "الممرّات المؤدّية إلى المختبرات"), ("Car parks", "مواقف السيارات"), ("Libraries", "المكتبات")], "b"),
+
+ {"topic_en": "Laboratory safety considerations", "topic_ar": "اعتبارات السلامة في المختبر"},
+ Q("Protective clothing includes:", "تشمل الملابس الواقية:",
+   [("Sandals", "الصنادل"), ("Jewelry", "المجوهرات"), ("Clean lab coat, gloves, mask and safety glasses", "صدرية نظيفة وقفازات وكمامة ونظارات واقية"), ("Short sleeves", "أكمامًا قصيرة")], "c"),
+ Q("While wearing gloves you should avoid touching:", "أثناء ارتداء القفازات يجب تجنّب لمس:",
+   [("Cultures", "المزارع"), ("Petri dishes", "أطباق بتري"), ("Lab instruments", "أدوات المختبر"), ("Pencils, cell phones and door handles", "الأقلام والهواتف ومقابض الأبواب")], "d"),
+ Q("Long hair must be tied back or covered to minimize:", "يجب ربط الشعر الطويل أو تغطيته لتقليل:",
+   [("Fire hazard or contamination of experiment", "خطر الحريق أو تلوّث التجربة"), ("Noise", "الضوضاء"), ("Electric shock", "الصدمة الكهربائية"), ("Eye strain", "إجهاد العين")], "a"),
+ Q("All cultures should be handled as:", "يجب التعامل مع جميع المزارع على أنها:",
+   [("Harmless", "غير ضارّة"), ("Potentially pathogenic", "قد تكون مُمرِضة"), ("Sterile", "معقّمة"), ("Food", "طعام")], "b"),
+ Q("Instruments should be disinfected:", "يجب تطهير الأدوات:",
+   [("Once a week", "مرة في الأسبوع"), ("Before use only", "قبل الاستعمال فقط"), ("Immediately after use", "فور استعمالها"), ("Never", "أبدًا")], "c"),
+ Q("Contaminated waste should be:", "يجب أن تكون النفايات الملوّثة:",
+   [("Discarded directly", "يُتخلّص منها مباشرة"), ("Taken home", "تؤخذ إلى المنزل"), ("Stored in the lab forever", "تُخزّن في المختبر للأبد"), ("Disinfected before discarding", "مطهّرة قبل التخلّص منها")], "d"),
+
+ {"topic_en": "Definitions", "topic_ar": "التعاريف"},
+ Q("The complete killing or removal of all living organism is:", "القتل أو الإزالة الكاملة لجميع الكائنات الحيّة هو:",
+   [("Sterilization", "التعقيم"), ("Disinfection", "التطهير"), ("Antiseptics", "المطهّرات الجلدية"), ("Decontamination", "إزالة التلوّث")], "a"),
+ Q("Disinfection destroys pathogens but not:", "التطهير يُتلف المُمرِضات ولكن ليس:",
+   [("Viruses", "الفيروسات"), ("Bacterial spores", "الأبواغ البكتيرية"), ("Fungi", "الفطريات"), ("Vegetative bacteria", "البكتيريا الخضرية")], "b"),
+ Q("Chemicals applied to body surfaces to destroy or inhibit pathogens are:", "المواد الكيميائية التي توضع على أسطح الجسم لإتلاف المُمرِضات أو تثبيطها هي:",
+   [("Disinfectants for instruments", "مطهّرات الأدوات"), ("Culture media", "أوساط زرعية"), ("Antiseptics", "المطهّرات الجلدية"), ("Stains", "صبغات")], "c"),
+ Q("The mechanical removal of most microbes by using washing, heat or disinfectants is:", "الإزالة الميكانيكية لمعظم الميكروبات بالغسل أو الحرارة أو المطهّرات هي:",
+   [("Sterilization", "التعقيم"), ("Antisepsis", "التطهير الجلدي"), ("Bio risk", "الخطر البيولوجي"), ("Decontamination", "إزالة التلوّث")], "d"),
+ Q("Disinfection is usually used only on:", "يُستعمل التطهير عادةً فقط على:",
+   [("Inanimate object", "الأجسام غير الحيّة"), ("Body surfaces", "أسطح الجسم"), ("Wounds", "الجروح"), ("Blood", "الدم")], "a"),
+ Q("A facility within which microorganisms are collected, handled and/or stored is:", "المنشأة التي تُجمع فيها الأحياء المجهرية وتُداوَل و/أو تُخزَّن هي:",
+   [("Bio risk", "الخطر البيولوجي"), ("Biological laboratory", "المختبر البيولوجي"), ("Biosafety cabinet", "كابينة السلامة الحيوية"), ("Risk group", "مجموعة الخطورة")], "b"),
+ Q("The probability or chance that a particular adverse event possibly leading to harm is:", "احتمال أو فرصة وقوع حدث ضار معيّن قد يؤدّي إلى ضرر هو:",
+   [("Bio risk assessment", "تقييم الخطر البيولوجي"), ("Decontamination", "إزالة التلوّث"), ("Bio risk", "الخطر البيولوجي"), ("Sterilization", "التعقيم")], "c"),
+ Q("Laboratory biosecurity risks include risks of:", "تشمل مخاطر الأمن الحيوي المختبري مخاطر:",
+   [("Accidental infection only", "العدوى العَرَضية فقط"), ("Fire only", "الحريق فقط"), ("Noise", "الضوضاء"), ("Unauthorized access, loss, theft and misuse", "الوصول غير المصرّح به والفقدان والسرقة وسوء الاستعمال")], "d"),
+
+ {"topic_en": "Picture questions", "topic_ar": "أسئلة الصور"},
+ Q("This symbol (shown on the slide) is the:", "هذا الرمز (الظاهر في الشريحة) هو:",
+   [("Biohazard symbol", "رمز الخطر الحيوي"), ("Radiation hazard symbol", "رمز خطر الإشعاع"), ("Fire symbol", "رمز الحريق"), ("Recycling symbol", "رمز إعادة التدوير")], "a",
+   img="assets/img03-biohazard.jpg", img_h="30mm"),
+ Q("This image accompanies the rule:", "ترافق هذه الصورة القاعدة:",
+   [("Wash hands after working with infectious materials", "اغسل يديك بعد العمل مع المواد المُعدية"),
+    ("Do not eat food or drink water in the lab", "لا تأكل الطعام ولا تشرب الماء في المختبر"),
+    ("Long hair must be tied back", "يجب ربط الشعر الطويل"), ("Disinfect all instruments", "طهّر جميع الأدوات")], "b",
+   img="assets/no-food.jpg", img_h="30mm"),
+ Q("This image accompanies the rule:", "ترافق هذه الصورة القاعدة:",
+   [("Do not take any cultures out of the lab", "لا تُخرج أي مزارع من المختبر"), ("Disinfect contaminated waste", "طهّر النفايات الملوّثة"),
+    ("Wash hands after working with infectious materials", "اغسل يديك بعد العمل مع المواد المُعدية"), ("Wear protective clothing", "ارتدِ الملابس الواقية")], "c",
+   img="assets/handwash.jpg", img_h="30mm"),
+ Q("This image is on the slide titled:", "هذه الصورة في الشريحة المعنونة:",
+   [("Risk groups", "مجموعات الخطورة"), ("Biohazard symbol", "رمز الخطر الحيوي"), ("Biosafety levels", "مستويات السلامة الحيوية"), ("Biosafety Cabinet", "كابينة السلامة الحيوية")], "d",
+   img="assets/cabinets.jpg", img_h="40mm"),
+]
+
+tf = [
+ TF("Biosafety levels protect laboratory workers and the surrounding environment.", "تحمي مستويات السلامة الحيوية العاملين في المختبر والبيئة المحيطة.", "T"),
+ TF("Risk group 1 is described as high risk.", "تُوصف مجموعة الخطورة 1 بأنها خطر عالٍ.", "F"),
+ TF("Salmonella spp. are examples of risk group 2.", "أنواع السالمونيلا أمثلة على مجموعة الخطورة 2.", "T"),
+ TF("Mycobacterium tuberculosis belongs to risk group 1.", "تنتمي المتفطّرة السلّية إلى مجموعة الخطورة 1.", "F"),
+ TF("Human blood and tissue are among the materials marked with the biohazard symbol.", "دم الإنسان وأنسجته من المواد التي يُشار إليها برمز الخطر الحيوي.", "T"),
+ TF("Lab glassware can be used as food or water containers.", "يمكن استعمال الزجاجيات المختبرية أوعيةً للطعام أو الماء.", "F"),
+ TF("Pencils and labels should never be placed in your mouth.", "لا يجوز أبدًا وضع الأقلام والملصقات في الفم.", "T"),
+ TF("Cultures may be taken out of the lab if they are non-pathogenic.", "يمكن إخراج المزارع من المختبر إذا كانت غير مُمرِضة.", "F"),
+ TF("Disinfection does not destroy bacterial spores.", "التطهير لا يُتلف الأبواغ البكتيرية.", "T"),
+ TF("Antiseptics are applied on inanimate objects only.", "تُوضع المطهّرات الجلدية على الأجسام غير الحيّة فقط.", "F"),
+ TF("Decontamination may use washing, heat or disinfectants.", "قد تستعمل إزالة التلوّث الغسل أو الحرارة أو المطهّرات.", "T"),
+ TF("Bio risk assessment identifies only acceptable risks.", "تقييم الخطر البيولوجي يحدّد المخاطر المقبولة فقط.", "F"),
+]
+
+traps = [
+ TR("Sterilization vs disinfection.", "التعقيم مقابل التطهير.",
+    "Sterilization: complete killing or removal of all living organism (including spores). Disinfection: destruction or removal of pathogens but not bacterial spores, on inanimate objects.",
+    "التعقيم: قتل أو إزالة كاملة لكل الكائنات الحيّة (ومنها الأبواغ). التطهير: إتلاف المُمرِضات أو إزالتها ولكن ليس الأبواغ البكتيرية، على الأجسام غير الحيّة."),
+ TR("Disinfection vs antiseptics.", "التطهير مقابل المطهّرات الجلدية.",
+    "Disinfection: usually used only on inanimate object. Antiseptics: chemicals applied to body surfaces.",
+    "التطهير: يُستعمل عادةً على الأجسام غير الحيّة فقط. المطهّرات الجلدية: مواد كيميائية توضع على أسطح الجسم."),
+ TR("E.coli appears in two risk groups — how?", "الإشريكية القولونية تظهر في مجموعتي خطورة — كيف؟",
+    "E.coli (non-pathogenic) is in risk group 1; E.coli pathogenic strain is in risk group 2.",
+    "الإشريكية القولونية (غير المُمرِضة) في مجموعة الخطورة 1، وسلالتها المُمرِضة في مجموعة الخطورة 2."),
+ TR("Salmonella spp. vs Salmonella typhi.", "أنواع السالمونيلا مقابل السالمونيلا التيفية.",
+    "Salmonella spp.: risk group 2 (biosafety level 2). Salmonella typhi: risk group 3 (biosafety level 3).",
+    "أنواع السالمونيلا: مجموعة الخطورة 2 (المستوى 2). السالمونيلا التيفية: مجموعة الخطورة 3 (المستوى 3)."),
+ TR("Biosafety risks vs laboratory biosecurity risks.", "مخاطر السلامة الحيوية مقابل مخاطر الأمن الحيوي المختبري.",
+    "Biosafety risks: risks of accidental infection. Biosecurity risks: unauthorized access, loss, theft, misuse, diversion or intentional release.",
+    "مخاطر السلامة الحيوية: مخاطر العدوى العَرَضية. مخاطر الأمن الحيوي: الوصول غير المصرّح به أو الفقدان أو السرقة أو سوء الاستعمال أو التحويل أو الإطلاق المتعمّد."),
+ TR("Gloves — protection or contamination source?", "القفازات — حماية أم مصدر تلوّث؟",
+    "Gloves are protective clothing, but avoid touching objects (pencils, cell phones, door handles) while wearing them.",
+    "القفازات من الملابس الواقية، لكن تجنّب لمس الأشياء (الأقلام، الهواتف، مقابض الأبواب) وأنت ترتديها."),
+]
+
+important = [
+ IM("Define biosafety levels and mention their aim.", "عرّف مستويات السلامة الحيوية واذكر هدفها.",
+    "Principles and application used to protect laboratory workers and the surrounding environment from exposure to danger while working with living organisms. It aims to provide the highest level of protection and the lowest range of exposure.",
+    "مبادئ وتطبيقات لحماية العاملين في المختبر والبيئة المحيطة من التعرّض للخطر أثناء العمل مع الكائنات الحيّة، وتهدف إلى توفير أعلى حماية وأدنى تعرّض."),
+ IM("Mention the four risk groups with an example of each.", "اذكر مجموعات الخطورة الأربع مع مثال لكل منها.",
+    "Risk group 1 (minimal risk): E.coli, Bacillus Subtilis. Risk group 2 (moderate risk): E.coli pathogenic strain, Brucella spp., Salmonella spp. Risk group 3 (high risk): Salmonella typhi, Mycobacterium tuberculosis. Risk group 4 (extreme risk): factors fatal to humans and easily transmitted.",
+    "المجموعة 1 (خطر أدنى): الإشريكية القولونية والعصوية الرقيقة. المجموعة 2 (متوسط): السلالة المُمرِضة من الإشريكية القولونية والبروسيلا والسالمونيلا. المجموعة 3 (عالٍ): السالمونيلا التيفية والمتفطّرة السلّية. المجموعة 4 (بالغ): عوامل مميتة وسهلة الانتقال."),
+ IM("What is the biohazard symbol used for? Give examples.", "لماذا يُستعمل رمز الخطر الحيوي؟ اذكر أمثلة.",
+    "To warn people of the potential presence of dangerous biological materials such as cultures of pathogens, human blood and tissue, and corridors leading to the laboratories.",
+    "لتحذير الناس من احتمال وجود مواد حيوية خطرة مثل مزارع المُمرِضات، ودم الإنسان وأنسجته، والممرّات المؤدّية إلى المختبرات."),
+ IM("List the laboratory safety considerations.", "عدّد اعتبارات السلامة في المختبر.",
+    "1. Wear protective clothing. 2. Avoid touching objects while wearing gloves; never place materials in your mouth. 3. Do not eat or drink in the lab. 4. Tie back long hair. 5. Do not take cultures out of the lab. 6. Wash hands. 7. Disinfect instruments after use. 8. Disinfect contaminated waste before discarding.",
+    "1. ارتداء الملابس الواقية. 2. تجنّب لمس الأشياء بالقفازات وعدم وضع المواد في الفم. 3. عدم الأكل والشرب في المختبر. 4. ربط الشعر الطويل. 5. عدم إخراج المزارع. 6. غسل اليدين. 7. تطهير الأدوات بعد الاستعمال. 8. تطهير النفايات الملوّثة قبل التخلّص منها."),
+ IM("Define sterilization, disinfection, antiseptics and decontamination.", "عرّف التعقيم والتطهير والمطهّرات الجلدية وإزالة التلوّث.",
+    "Sterilization: complete killing or removal of all living organism. Disinfection: destruction or removal of pathogens but not bacterial spores. Antiseptics: chemicals applied to body surfaces to destroy or inhibit pathogens. Decontamination: mechanical removal of most microbes by washing, heat or disinfectants.",
+    "التعقيم: القتل أو الإزالة الكاملة لكل الكائنات الحيّة. التطهير: إتلاف المُمرِضات أو إزالتها دون الأبواغ البكتيرية. المطهّرات الجلدية: مواد على أسطح الجسم لإتلاف المُمرِضات أو تثبيطها. إزالة التلوّث: إزالة ميكانيكية لمعظم الميكروبات بالغسل أو الحرارة أو المطهّرات."),
+ IM("Define biological laboratory, bio risk and bio risk assessment.", "عرّف المختبر البيولوجي والخطر البيولوجي وتقييم الخطر البيولوجي.",
+    "Biological laboratory: a facility where microorganisms, their components or derivatives are collected, handled and/or stored. Bio risk: the probability that a particular adverse event possibly leading to harm. Bio risk assessment: the process to identify acceptable and unacceptable risks and their potential consequences.",
+    "المختبر البيولوجي: منشأة تُجمع فيها الأحياء المجهرية ومكوّناتها ومشتقّاتها وتُداوَل وتُخزَّن. الخطر البيولوجي: احتمال وقوع حدث ضار قد يؤدّي إلى ضرر. تقييم الخطر البيولوجي: عملية تحديد المخاطر المقبولة وغير المقبولة وعواقبها المحتملة."),
+]
+
+meta = dict(subject_en="Diagnostic Microbiology", subject_ar="الأحياء المجهرية التشخيصية", short_ar="بكتريا",
+            unit_en="Lab 1", unit_ar="العملي 1", unit_label="LAB", unit_no="1",
+            title_en="Rules and biosafety levels", title_ar="القواعد ومستويات السلامة الحيوية",
+            kind="Laboratories — عملي", stage="The fourth stage — الرابعة",
+            # instructor: not in the source; the user will send it later
+            file_name="بكتريا عملي المحاضرة الاولى", questions_suffix=" اسئلة")   # user-chosen file names
+
+folder = "microbiology-lab1-biosafety"
+qs = [q for q in mcq if "answer" in q]
+print(folder, len(qs), dict(Counter(q["answer"] for q in qs)), len(tf),
+      dict(Counter(t["answer"] for t in tf)), len(traps), len(important))
+d = os.path.dirname(os.path.abspath(__file__))
+json.dump({"meta": meta, "blocks": blocks,
+           "questions": {"mcq": mcq, "tf": tf, "traps": traps, "important": important}},
+          open(os.path.join(d, "lecture.json"), "w"), ensure_ascii=False, indent=1)
