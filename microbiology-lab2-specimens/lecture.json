@@ -1,0 +1,1238 @@
+{
+ "meta": {
+  "subject_en": "Diagnostic Microbiology",
+  "subject_ar": "الأحياء المجهرية التشخيصية",
+  "short_ar": "بكتريا",
+  "unit_en": "Lab 2",
+  "unit_ar": "العملي 2",
+  "unit_label": "LAB",
+  "unit_no": "2",
+  "title_en": "Selection, Collection, and Transport of Specimens",
+  "title_ar": "اختيار العيّنات وجمعها ونقلها",
+  "kind": "Laboratories — عملي",
+  "stage": "The fourth stage — الرابعة",
+  "instructor": "د. ذهب",
+  "file_name": "بكتريا عملي المحاضرة الثانية",
+  "questions_suffix": " اسئلة"
+ },
+ "blocks": [
+  {
+   "t": "card",
+   "en": "Prepared by: MSc. Ammar hassn — MSc. Ali Thamer",
+   "ar": "إعداد: م. عمار حسن — م. علي ثامر (ماجستير)"
+  },
+  {
+   "t": "section",
+   "en": "Selection, collection, and transportation of specimens for microbiological examination",
+   "ar": "اختيار العيّنات وجمعها ونقلها للفحص الميكروبيولوجي"
+  },
+  {
+   "t": "card",
+   "en": "The role of the laboratory in the diagnosis of infections can be considered a major steps of diagnostic microbiology.",
+   "ar": "يمكن عدّ دور المختبر في تشخيص الإصابات من الخطوات الرئيسة في الأحياء المجهرية التشخيصية."
+  },
+  {
+   "t": "card",
+   "en": "If pathogens are to be isolated successfully",
+   "ar": "إذا أُريد عزل المُمرِضات بنجاح، فإنّ:",
+   "list_en": [
+    "the type of specimen",
+    "collection of specimen",
+    "time of specimen",
+    "method of its dispatch to the laboratory must be correct."
+   ],
+   "list_ar": [
+    "نوع العيّنة",
+    "جمع العيّنة",
+    "وقت العيّنة",
+    "وطريقة إرسالها إلى المختبر يجب أن تكون صحيحة."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Request form",
+   "ar": "استمارة الطلب"
+  },
+  {
+   "t": "card",
+   "en": "A detailed request form that accompanies a clinical sample is pivotal in ensuring the appropriate diagnostic procedures are undertaken; information should include:",
+   "ar": "استمارة الطلب المفصّلة التي ترافق العيّنة السريرية أساسية لضمان إجراء الفحوص التشخيصية المناسبة؛ ويجب أن تتضمّن المعلومات:",
+   "list_en": [
+    "Patient details.",
+    "Clinical diagnosis.",
+    "Onset of symptoms",
+    "Sample type.",
+    "Time of collection.",
+    "Treatment history and antimicrobial therapy.",
+    "Other health and safety issues.",
+    "Supporting clinical information, including travel history and contact with infected individuals, is also important."
+   ],
+   "list_ar": [
+    "معلومات المريض.",
+    "التشخيص السريري.",
+    "بداية ظهور الأعراض",
+    "نوع العيّنة.",
+    "وقت الجمع.",
+    "تاريخ العلاج والعلاج بمضادات الميكروبات.",
+    "قضايا صحية وأمنية أخرى.",
+    "والمعلومات السريرية الداعمة، ومنها تاريخ السفر والتماس مع الأفراد المصابين، مهمّة أيضًا."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Transport of microbiological specimens",
+   "ar": "نقل العيّنات الميكروبيولوجية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Specimen should reach to the laboratory as soon as possible or a suitable preservative or transport medium must be used.",
+    "Refrigeration of sample at 4 ºC can help to preserve cells and reduce the multiplication of commensals in unpreserved specimens.",
+    "Freezing at -70 ºC or below In the presence of a stabilizing fluid, like glycerol or serum.",
+    "Ensure that the specimen container is free from cracks, and the cap is leak proof.",
+    "Seal round the container cap with adhesive tape to prevent loosening and leakage during transit.",
+    "If the container is glass tube or bottle, use sufficient packaging material to prefect a specimen.",
+    "If the specimen is fluid, use sufficient absorbent material to absorb it.",
+    "Mark all specimen that may contain highly infectious organism “HIGH RISK”."
+   ],
+   "list_ar": [
+    "يجب أن تصل العيّنة إلى المختبر بأسرع وقت ممكن، وإلّا وجب استعمال مادة حافظة أو وسط نقل مناسب.",
+    "تبريد العيّنة بدرجة 4 °م يساعد على حفظ الخلايا وتقليل تكاثر الكائنات المتعايشة في العيّنات غير المحفوظة.",
+    "التجميد بدرجة سالب 70 °م أو أقل بوجود سائل مثبّت مثل الغليسيرول أو المصل.",
+    "تأكّد من أنّ وعاء العيّنة خالٍ من الشقوق وأنّ غطاءه محكم لا يسرّب.",
+    "أحكم إغلاق محيط غطاء الوعاء بشريط لاصق لمنع ارتخائه وتسرّبه أثناء النقل.",
+    "إذا كان الوعاء أنبوبًا أو قنينة زجاجية، فاستعمل مواد تغليف كافية لحماية العيّنة (`prefect`).",
+    "إذا كانت العيّنة سائلة، فاستعمل مادة ماصّة كافية لامتصاصها.",
+    "علّم كل العيّنات التي قد تحتوي على كائنات شديدة العدوى بعبارة «خطر عالٍ» (`HIGH RISK`)."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Non-culture techniques",
+   "ar": "التقنيات غير الزرعية"
+  },
+  {
+   "t": "card",
+   "en": "Following receipt of the sample, the microbiology laboratory may utilize non- culture techniques to provide rapid clinical information, which may benefit patient management.",
+   "ar": "بعد استلام العيّنة، قد يستعمل مختبر الأحياء المجهرية تقنيات غير زرعية لتوفير معلومات سريرية سريعة قد تفيد في إدارة حالة المريض."
+  },
+  {
+   "t": "card",
+   "en": "There are several situations where non-culture techniques are of importance:",
+   "ar": "هناك عدّة حالات تكون فيها التقنيات غير الزرعية مهمّة:",
+   "list_en": [
+    "Microorganism cannot be readily cultured in vitro;",
+    "Microorganism is slow-growing;",
+    "Rapid laboratory diagnosis significantly influences clinical management of the patient."
+   ],
+   "list_ar": [
+    "لا يمكن زرع الكائن المجهري بسهولة خارج الجسم؛",
+    "الكائن المجهري بطيء النمو؛",
+    "التشخيص المختبري السريع يؤثّر بشكل كبير في الإدارة السريرية للمريض."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "-Non-culture techniques include: (direct microscopy, immunological methods, serology, and nucleic acid amplification techniques (NAAT).",
+   "ar": "تشمل التقنيات غير الزرعية: (الفحص المجهري المباشر، والطرائق المناعية، والفحوص المصلية، وتقنيات تضخيم الحمض النووي (`NAAT`)."
+  },
+  {
+   "t": "section",
+   "en": "Principles of Specimen Collection",
+   "ar": "مبادئ جمع العيّنات"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Collect from correct site.",
+    "Collect before antibiotics.",
+    "Use aseptic technique.",
+    "Collect sufficient quantity.",
+    "Label properly.",
+    "Use sterile containers.",
+    "Transport immediately."
+   ],
+   "list_ar": [
+    "اجمع من الموقع الصحيح.",
+    "اجمع قبل المضادات الحيوية.",
+    "استعمل التقنية المعقّمة.",
+    "اجمع كمية كافية.",
+    "علّم العيّنة بشكل صحيح.",
+    "استعمل أوعية معقّمة.",
+    "انقل العيّنة فورًا."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Collection Techniques",
+   "ar": "تقنيات الجمع"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Blood:** aseptic collection.",
+    "**Urine:** midstream clean-catch.",
+    "**Sputum:** deep cough specimen.",
+    "**Swabs:** sterile cotton, avoid normal flora.",
+    "**Stool:** small amount, avoid urine.",
+    "**CSF:** lumbar puncture."
+   ],
+   "list_ar": [
+    "**الدم:** جمع معقّم.",
+    "**الإدرار:** عيّنة منتصف الإدرار النظيفة.",
+    "**القشع:** عيّنة من سعال عميق.",
+    "**المسحات:** قطن معقّم، مع تجنّب النبيت الطبيعي.",
+    "**البراز:** كمية صغيرة، مع تجنّب الإدرار.",
+    "**السائل الدماغي الشوكي** (`CSF`): البزل القطني."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/swabs.jpg",
+     "en": "Image 01: specimen/swab image",
+     "ar": "الصورة 01: مسحات جمع العيّنات",
+     "h": "40mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/swab-transport.jpg",
+     "en": "Image 02: swab with transport media",
+     "ar": "الصورة 02: مسحة مع وسط النقل",
+     "h": "40mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/sputum-container.jpg",
+     "en": "Image 03: sputum container",
+     "ar": "الصورة 03: وعاء القشع",
+     "h": "40mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/specimen-container.jpg",
+     "en": "Image 04: specimen container",
+     "ar": "الصورة 04: وعاء العيّنة",
+     "h": "40mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Common Errors to Avoid",
+   "ar": "أخطاء شائعة يجب تجنّبها"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "✗ Collecting after antibiotics",
+    "✗ Contaminated containers",
+    "✗ Delayed transport",
+    "✗ Missing labels",
+    "✗ Insufficient specimen"
+   ],
+   "list_ar": [
+    "الجمع بعد المضادات الحيوية",
+    "أوعية ملوّثة",
+    "تأخّر النقل",
+    "غياب العلامات (الملصقات)",
+    "عيّنة غير كافية"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Selection of Specimens",
+   "ar": "اختيار العيّنات"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Type of Infection",
+    "Specimen Required",
+    "Notes",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Respiratory infection",
+     "Sputum, throat swab, nasopharyngeal swab",
+     "Avoid saliva; collect early morning sputum",
+     "**الإصابة التنفسية:** قشع، مسحة حلق، مسحة بلعومية أنفية — تجنّب اللعاب؛ واجمع قشع الصباح الباكر"
+    ],
+    [
+     "Urinary tract infection",
+     "Midstream urine (MSU(",
+     "Use sterile container, midstream portion",
+     "**إصابة المجاري البولية:** إدرار منتصف الدفق (`MSU`) — استعمل وعاءً معقّمًا والجزء الأوسط من الدفق"
+    ],
+    [
+     "Wound infection",
+     "Swab, pus aspirate, tissue biopsy",
+     "Aspirate preferred over swab",
+     "**إصابة الجروح:** مسحة، رشافة القيح، خزعة نسيجية — الرشافة أفضل من المسحة"
+    ],
+    [
+     "Bloodstream infection",
+     "Blood culture",
+     "Collect before antibiotics",
+     "**إصابة مجرى الدم:** زرع الدم — اجمع قبل المضادات الحيوية"
+    ],
+    [
+     "CSF infection",
+     "Cerebrospinal fluid",
+     "Urgent transport to lab",
+     "**إصابة السائل الدماغي الشوكي:** السائل الدماغي الشوكي — نقل عاجل إلى المختبر"
+    ]
+   ],
+   "ar_cols": [
+    3
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    "30mm",
+    "36mm",
+    "34mm",
+    ""
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Transport Media Examples",
+   "ar": "أمثلة على أوساط النقل"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Medium",
+    "Use",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Stuart’s medium",
+     "Swabs (throat, wound, genital(",
+     "**وسط ستيوارت:** المسحات (الحلق، الجروح، التناسلية)"
+    ],
+    [
+     "Amies medium",
+     "Swabs (with or without charcoal(",
+     "**وسط إيميز:** المسحات (مع الفحم أو بدونه)"
+    ],
+    [
+     "Cary-Blair medium",
+     "Stool specimens",
+     "**وسط كاري-بلير:** عيّنات البراز"
+    ],
+    [
+     "Viral transport medium (VTM(",
+     "Viral samples (nasal, throat swabs(",
+     "**وسط النقل الفيروسي** (`VTM`): العيّنات الفيروسية (مسحات الأنف والحلق)"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    "44mm",
+    "52mm",
+    ""
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/collection-infographic.jpg",
+   "en": "Image 05: specimen collection infographic (Arabic in the source)",
+   "ar": "الصورة 05: لوحة جمع العيّنات (مكتوبة بالعربي في المصدر)",
+   "h": "150mm",
+   "fit": "contain"
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Introduction and request form",
+    "topic_ar": "المقدّمة واستمارة الطلب"
+   },
+   {
+    "en": "For pathogens to be isolated successfully, which must be correct?",
+    "ar": "لعزل المُمرِضات بنجاح، أيّ ممّا يأتي يجب أن يكون صحيحًا؟",
+    "options": [
+     [
+      "The type, collection, time of specimen and method of its dispatch",
+      "نوع العيّنة وجمعها ووقتها وطريقة إرسالها"
+     ],
+     [
+      "The colour of the container only",
+      "لون الوعاء فقط"
+     ],
+     [
+      "The patient's age only",
+      "عمر المريض فقط"
+     ],
+     [
+      "The lab temperature only",
+      "حرارة المختبر فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which of the following should be included in the request form?",
+    "ar": "أيّ ممّا يأتي يجب أن تتضمّنه استمارة الطلب؟",
+    "options": [
+     [
+      "The lab technician's salary",
+      "راتب فنّي المختبر"
+     ],
+     [
+      "Treatment history and antimicrobial therapy",
+      "تاريخ العلاج والعلاج بمضادات الميكروبات"
+     ],
+     [
+      "The colour of the swab",
+      "لون المسحة"
+     ],
+     [
+      "The brand of the container",
+      "علامة الوعاء التجارية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Supporting clinical information in the request form includes:",
+    "ar": "تشمل المعلومات السريرية الداعمة في استمارة الطلب:",
+    "options": [
+     [
+      "Patient's hobbies",
+      "هوايات المريض"
+     ],
+     [
+      "Laboratory name only",
+      "اسم المختبر فقط"
+     ],
+     [
+      "Travel history and contact with infected individuals",
+      "تاريخ السفر والتماس مع المصابين"
+     ],
+     [
+      "Price of the test",
+      "سعر الفحص"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Transport of specimens",
+    "topic_ar": "نقل العيّنات"
+   },
+   {
+    "en": "If the specimen cannot reach the laboratory as soon as possible, use:",
+    "ar": "إذا لم تصل العيّنة إلى المختبر بسرعة، فاستعمل:",
+    "options": [
+     [
+      "Hot water",
+      "ماءً حارًّا"
+     ],
+     [
+      "Direct sunlight",
+      "أشعة الشمس المباشرة"
+     ],
+     [
+      "Antibiotics",
+      "المضادات الحيوية"
+     ],
+     [
+      "A suitable preservative or transport medium",
+      "مادة حافظة أو وسط نقل مناسب"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Refrigeration of the sample is done at:",
+    "ar": "يُبرَّد النموذج بدرجة:",
+    "options": [
+     [
+      "4 ºC",
+      "4 °م"
+     ],
+     [
+      "37 ºC",
+      "37 °م"
+     ],
+     [
+      "-20 ºC",
+      "سالب 20 °م"
+     ],
+     [
+      "25 ºC",
+      "25 °م"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Refrigeration helps to preserve cells and reduce the multiplication of:",
+    "ar": "يساعد التبريد على حفظ الخلايا وتقليل تكاثر:",
+    "options": [
+     [
+      "Viruses only",
+      "الفيروسات فقط"
+     ],
+     [
+      "Commensals in unpreserved specimens",
+      "الكائنات المتعايشة في العيّنات غير المحفوظة"
+     ],
+     [
+      "Red blood cells",
+      "كريات الدم الحمراء"
+     ],
+     [
+      "Antibodies",
+      "الأجسام المضادة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Freezing is done at -70 ºC or below in the presence of:",
+    "ar": "يُجرى التجميد بدرجة سالب 70 °م أو أقل بوجود:",
+    "options": [
+     [
+      "Formalin",
+      "الفورمالين"
+     ],
+     [
+      "Alcohol",
+      "الكحول"
+     ],
+     [
+      "A stabilizing fluid like glycerol or serum",
+      "سائل مثبّت مثل الغليسيرول أو المصل"
+     ],
+     [
+      "Charcoal",
+      "الفحم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The container cap is sealed with adhesive tape to prevent:",
+    "ar": "يُغلق غطاء الوعاء بشريط لاصق لمنع:",
+    "options": [
+     [
+      "Freezing",
+      "التجمّد"
+     ],
+     [
+      "Labeling",
+      "التعليم"
+     ],
+     [
+      "Refrigeration",
+      "التبريد"
+     ],
+     [
+      "Loosening and leakage during transit",
+      "الارتخاء والتسرّب أثناء النقل"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Specimens that may contain highly infectious organism are marked:",
+    "ar": "تُعلَّم العيّنات التي قد تحتوي على كائنات شديدة العدوى بعبارة:",
+    "options": [
+     [
+      "HIGH RISK",
+      "خطر عالٍ"
+     ],
+     [
+      "FRAGILE",
+      "قابل للكسر"
+     ],
+     [
+      "URGENT ONLY",
+      "عاجل فقط"
+     ],
+     [
+      "STERILE",
+      "معقّم"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "If the specimen is fluid, use:",
+    "ar": "إذا كانت العيّنة سائلة، فاستعمل:",
+    "options": [
+     [
+      "Glass bottle only",
+      "قنينة زجاجية فقط"
+     ],
+     [
+      "Sufficient absorbent material",
+      "مادة ماصّة كافية"
+     ],
+     [
+      "No packaging",
+      "بلا تغليف"
+     ],
+     [
+      "Charcoal",
+      "الفحم"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Non-culture techniques",
+    "topic_ar": "التقنيات غير الزرعية"
+   },
+   {
+    "en": "Non-culture techniques are important when:",
+    "ar": "تكون التقنيات غير الزرعية مهمّة عندما:",
+    "options": [
+     [
+      "The microorganism grows very fast",
+      "ينمو الكائن المجهري بسرعة كبيرة"
+     ],
+     [
+      "No diagnosis is needed",
+      "لا حاجة إلى التشخيص"
+     ],
+     [
+      "The microorganism is slow-growing",
+      "يكون الكائن المجهري بطيء النمو"
+     ],
+     [
+      "The specimen is frozen",
+      "تكون العيّنة مجمّدة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which of the following is a non-culture technique?",
+    "ar": "أيّ ممّا يأتي تقنية غير زرعية؟",
+    "options": [
+     [
+      "Blood culture",
+      "زرع الدم"
+     ],
+     [
+      "Cary-Blair medium",
+      "وسط كاري-بلير"
+     ],
+     [
+      "Stuart's medium",
+      "وسط ستيوارت"
+     ],
+     [
+      "Nucleic acid amplification techniques (NAAT)",
+      "تقنيات تضخيم الحمض النووي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Non-culture techniques are used to provide:",
+    "ar": "تُستعمل التقنيات غير الزرعية لتوفير:",
+    "options": [
+     [
+      "Rapid clinical information",
+      "معلومات سريرية سريعة"
+     ],
+     [
+      "Transport media",
+      "أوساط نقل"
+     ],
+     [
+      "Sterile containers",
+      "أوعية معقّمة"
+     ],
+     [
+      "Antibiotics",
+      "مضادات حيوية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Principles and techniques of collection",
+    "topic_ar": "مبادئ الجمع وتقنياته"
+   },
+   {
+    "en": "According to the principles of specimen collection, specimens should be collected:",
+    "ar": "حسب مبادئ جمع العيّنات، يجب جمع العيّنات:",
+    "options": [
+     [
+      "After antibiotics",
+      "بعد المضادات الحيوية"
+     ],
+     [
+      "Before antibiotics",
+      "قبل المضادات الحيوية"
+     ],
+     [
+      "Only at night",
+      "ليلًا فقط"
+     ],
+     [
+      "After 24 hours of symptoms only",
+      "بعد 24 ساعة من الأعراض فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Urine is collected as:",
+    "ar": "يُجمع الإدرار على شكل:",
+    "options": [
+     [
+      "First drops only",
+      "القطرات الأولى فقط"
+     ],
+     [
+      "24-hour sample only",
+      "عيّنة 24 ساعة فقط"
+     ],
+     [
+      "Midstream clean-catch",
+      "عيّنة منتصف الإدرار النظيفة"
+     ],
+     [
+      "From the toilet",
+      "من المرحاض"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Sputum is collected as:",
+    "ar": "يُجمع القشع على شكل:",
+    "options": [
+     [
+      "Saliva",
+      "لعاب"
+     ],
+     [
+      "Throat swab only",
+      "مسحة حلق فقط"
+     ],
+     [
+      "Nasal wash",
+      "غسول أنفي"
+     ],
+     [
+      "Deep cough specimen",
+      "عيّنة من سعال عميق"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "CSF is collected by:",
+    "ar": "يُجمع السائل الدماغي الشوكي بواسطة:",
+    "options": [
+     [
+      "Lumbar puncture",
+      "البزل القطني"
+     ],
+     [
+      "Venipuncture",
+      "بزل الوريد"
+     ],
+     [
+      "Swab",
+      "مسحة"
+     ],
+     [
+      "Midstream collection",
+      "جمع منتصف الدفق"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "When collecting swabs you should:",
+    "ar": "عند جمع المسحات يجب:",
+    "options": [
+     [
+      "Use non-sterile cotton",
+      "استعمال قطن غير معقّم"
+     ],
+     [
+      "Use sterile cotton and avoid normal flora",
+      "استعمال قطن معقّم وتجنّب النبيت الطبيعي"
+     ],
+     [
+      "Touch the normal flora",
+      "لمس النبيت الطبيعي"
+     ],
+     [
+      "Add urine",
+      "إضافة الإدرار"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "When collecting stool you should:",
+    "ar": "عند جمع البراز يجب:",
+    "options": [
+     [
+      "Collect a large amount with urine",
+      "جمع كمية كبيرة مع الإدرار"
+     ],
+     [
+      "Add disinfectant",
+      "إضافة مطهّر"
+     ],
+     [
+      "Collect a small amount and avoid urine",
+      "جمع كمية صغيرة وتجنّب الإدرار"
+     ],
+     [
+      "Freeze immediately at 4 ºC",
+      "التجميد فورًا بدرجة 4 °م"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which of the following is a common error to avoid?",
+    "ar": "أيّ ممّا يأتي خطأ شائع يجب تجنّبه؟",
+    "options": [
+     [
+      "Using sterile containers",
+      "استعمال أوعية معقّمة"
+     ],
+     [
+      "Proper labeling",
+      "التعليم الصحيح"
+     ],
+     [
+      "Immediate transport",
+      "النقل الفوري"
+     ],
+     [
+      "Collecting after antibiotics",
+      "الجمع بعد المضادات الحيوية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Selection of specimens and transport media",
+    "topic_ar": "اختيار العيّنات وأوساط النقل"
+   },
+   {
+    "en": "For respiratory infection you should:",
+    "ar": "في الإصابة التنفسية يجب:",
+    "options": [
+     [
+      "Avoid saliva; collect early morning sputum",
+      "تجنّب اللعاب وجمع قشع الصباح الباكر"
+     ],
+     [
+      "Collect saliva only",
+      "جمع اللعاب فقط"
+     ],
+     [
+      "Collect blood culture only",
+      "جمع زرع الدم فقط"
+     ],
+     [
+      "Collect evening sputum mixed with saliva",
+      "جمع قشع المساء مع اللعاب"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The specimen required for urinary tract infection is:",
+    "ar": "العيّنة المطلوبة لإصابة المجاري البولية هي:",
+    "options": [
+     [
+      "Sputum",
+      "القشع"
+     ],
+     [
+      "Midstream urine (MSU)",
+      "إدرار منتصف الدفق"
+     ],
+     [
+      "Blood culture",
+      "زرع الدم"
+     ],
+     [
+      "Throat swab",
+      "مسحة الحلق"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In wound infection, which is preferred?",
+    "ar": "في إصابة الجروح، أيّهما المفضّل؟",
+    "options": [
+     [
+      "Swab over aspirate",
+      "المسحة على الرشافة"
+     ],
+     [
+      "Saliva",
+      "اللعاب"
+     ],
+     [
+      "Aspirate over swab",
+      "الرشافة على المسحة"
+     ],
+     [
+      "Urine",
+      "الإدرار"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "For CSF infection, the note is:",
+    "ar": "الملاحظة الخاصة بإصابة السائل الدماغي الشوكي هي:",
+    "options": [
+     [
+      "Collect after antibiotics",
+      "الجمع بعد المضادات الحيوية"
+     ],
+     [
+      "Refrigerate for 2 days",
+      "التبريد يومين"
+     ],
+     [
+      "Avoid saliva",
+      "تجنّب اللعاب"
+     ],
+     [
+      "Urgent transport to lab",
+      "النقل العاجل إلى المختبر"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The transport medium used for stool specimens is:",
+    "ar": "وسط النقل المستعمل لعيّنات البراز هو:",
+    "options": [
+     [
+      "Cary-Blair medium",
+      "وسط كاري-بلير"
+     ],
+     [
+      "Stuart’s medium",
+      "وسط ستيوارت"
+     ],
+     [
+      "Amies medium",
+      "وسط إيميز"
+     ],
+     [
+      "VTM",
+      "وسط النقل الفيروسي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The transport medium that may be used with or without charcoal is:",
+    "ar": "وسط النقل الذي قد يُستعمل مع الفحم أو بدونه هو:",
+    "options": [
+     [
+      "Cary-Blair medium",
+      "وسط كاري-بلير"
+     ],
+     [
+      "Amies medium",
+      "وسط إيميز"
+     ],
+     [
+      "VTM",
+      "وسط النقل الفيروسي"
+     ],
+     [
+      "Stuart’s medium",
+      "وسط ستيوارت"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Viral transport medium (VTM) is used for:",
+    "ar": "يُستعمل وسط النقل الفيروسي لـ:",
+    "options": [
+     [
+      "Stool specimens",
+      "عيّنات البراز"
+     ],
+     [
+      "Blood culture",
+      "زرع الدم"
+     ],
+     [
+      "Viral samples (nasal, throat swabs)",
+      "العيّنات الفيروسية (مسحات الأنف والحلق)"
+     ],
+     [
+      "Tissue biopsy",
+      "الخزعة النسيجية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "The item in this image is:",
+    "ar": "الأداة في هذه الصورة هي:",
+    "options": [
+     [
+      "Sputum container",
+      "وعاء القشع"
+     ],
+     [
+      "Blood culture bottle",
+      "قنينة زرع الدم"
+     ],
+     [
+      "Stool container",
+      "وعاء البراز"
+     ],
+     [
+      "Swab with transport media",
+      "مسحة مع وسط النقل"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/swab-transport.jpg",
+    "img_h": "32mm"
+   },
+   {
+    "en": "The specimen in this container should be collected as:",
+    "ar": "العيّنة في هذا الوعاء يجب أن تُجمع على شكل:",
+    "options": [
+     [
+      "Deep cough specimen",
+      "عيّنة من سعال عميق"
+     ],
+     [
+      "Midstream clean-catch",
+      "منتصف الإدرار النظيفة"
+     ],
+     [
+      "Lumbar puncture",
+      "بزل قطني"
+     ],
+     [
+      "Small amount, avoid urine",
+      "كمية صغيرة مع تجنّب الإدرار"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/sputum-container.jpg",
+    "img_h": "32mm"
+   },
+   {
+    "en": "These items are used for collecting:",
+    "ar": "تُستعمل هذه الأدوات لجمع:",
+    "options": [
+     [
+      "CSF",
+      "السائل الدماغي الشوكي"
+     ],
+     [
+      "Swabs (sterile cotton)",
+      "المسحات (قطن معقّم)"
+     ],
+     [
+      "Blood",
+      "الدم"
+     ],
+     [
+      "Stool",
+      "البراز"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/swabs.jpg",
+    "img_h": "32mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "The time of the specimen affects successful isolation of pathogens.",
+    "ar": "يؤثّر وقت العيّنة في نجاح عزل المُمرِضات.",
+    "answer": "T"
+   },
+   {
+    "en": "The request form does not need the time of collection.",
+    "ar": "استمارة الطلب لا تحتاج إلى وقت الجمع.",
+    "answer": "F"
+   },
+   {
+    "en": "Refrigeration at 4 ºC reduces the multiplication of commensals in unpreserved specimens.",
+    "ar": "التبريد بدرجة 4 °م يقلّل تكاثر الكائنات المتعايشة في العيّنات غير المحفوظة.",
+    "answer": "T"
+   },
+   {
+    "en": "Freezing of specimens is done at 4 ºC.",
+    "ar": "يُجرى تجميد العيّنات بدرجة 4 °م.",
+    "answer": "F"
+   },
+   {
+    "en": "The specimen container should be free from cracks and the cap leak proof.",
+    "ar": "يجب أن يكون وعاء العيّنة خاليًا من الشقوق وغطاؤه محكمًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Non-culture techniques are used when microorganisms grow rapidly in vitro.",
+    "ar": "تُستعمل التقنيات غير الزرعية عندما تنمو الكائنات بسرعة خارج الجسم.",
+    "answer": "F"
+   },
+   {
+    "en": "Serology is a non-culture technique.",
+    "ar": "الفحوص المصلية من التقنيات غير الزرعية.",
+    "answer": "T"
+   },
+   {
+    "en": "Specimens should be collected after antibiotics.",
+    "ar": "يجب جمع العيّنات بعد المضادات الحيوية.",
+    "answer": "F"
+   },
+   {
+    "en": "Blood should be collected aseptically.",
+    "ar": "يجب جمع الدم بطريقة معقّمة.",
+    "answer": "T"
+   },
+   {
+    "en": "Saliva is the preferred specimen in respiratory infection.",
+    "ar": "اللعاب هو العيّنة المفضّلة في الإصابة التنفسية.",
+    "answer": "F"
+   },
+   {
+    "en": "Blood culture should be collected before antibiotics.",
+    "ar": "يجب جمع زرع الدم قبل المضادات الحيوية.",
+    "answer": "T"
+   },
+   {
+    "en": "Cary-Blair medium is used for throat swabs.",
+    "ar": "يُستعمل وسط كاري-بلير لمسحات الحلق.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Refrigeration vs freezing temperatures.",
+    "ar": "درجة التبريد مقابل درجة التجميد.",
+    "answer_en": "Refrigeration: 4 ºC. Freezing: -70 ºC or below in the presence of a stabilizing fluid (glycerol or serum).",
+    "answer_ar": "التبريد: 4 °م. التجميد: سالب 70 °م أو أقل بوجود سائل مثبّت (غليسيرول أو مصل)."
+   },
+   {
+    "en": "Wound infection — swab or aspirate?",
+    "ar": "إصابة الجروح — مسحة أم رشافة؟",
+    "answer_en": "Aspirate preferred over swab.",
+    "answer_ar": "الرشافة أفضل من المسحة."
+   },
+   {
+    "en": "Respiratory specimen — sputum or saliva?",
+    "ar": "العيّنة التنفسية — قشع أم لعاب؟",
+    "answer_en": "Sputum (deep cough, early morning); avoid saliva.",
+    "answer_ar": "القشع (سعال عميق، الصباح الباكر)؛ وتجنّب اللعاب."
+   },
+   {
+    "en": "Stuart’s vs Cary-Blair medium.",
+    "ar": "وسط ستيوارت مقابل وسط كاري-بلير.",
+    "answer_en": "Stuart’s: swabs (throat, wound, genital). Cary-Blair: stool specimens.",
+    "answer_ar": "ستيوارت: المسحات (الحلق، الجروح، التناسلية). كاري-بلير: عيّنات البراز."
+   },
+   {
+    "en": "Glass container vs fluid specimen packaging.",
+    "ar": "تغليف الوعاء الزجاجي مقابل العيّنة السائلة.",
+    "answer_en": "Glass tube or bottle: sufficient packaging material. Fluid specimen: sufficient absorbent material.",
+    "answer_ar": "الأنبوب أو القنينة الزجاجية: مواد تغليف كافية. العيّنة السائلة: مادة ماصّة كافية."
+   },
+   {
+    "en": "Urine vs stool collection — the word “urine” appears in both.",
+    "ar": "جمع الإدرار مقابل البراز — كلمة «الإدرار» تظهر في الاثنين.",
+    "answer_en": "Urine: midstream clean-catch. Stool: small amount, avoid urine.",
+    "answer_ar": "الإدرار: عيّنة منتصف الإدرار النظيفة. البراز: كمية صغيرة مع تجنّب الإدرار."
+   }
+  ],
+  "important": [
+   {
+    "en": "What must be correct for pathogens to be isolated successfully?",
+    "ar": "ما الذي يجب أن يكون صحيحًا لعزل المُمرِضات بنجاح؟",
+    "answer_en": "1- The type of specimen, 2- collection of specimen, 3- time of specimen, 4- method of its dispatch to the laboratory.",
+    "answer_ar": "1- نوع العيّنة، 2- جمعها، 3- وقتها، 4- طريقة إرسالها إلى المختبر."
+   },
+   {
+    "en": "List the information that the request form should include.",
+    "ar": "عدّد المعلومات التي يجب أن تتضمّنها استمارة الطلب.",
+    "answer_en": "Patient details; clinical diagnosis; onset of symptoms; sample type; time of collection; treatment history and antimicrobial therapy; other health and safety issues; supporting clinical information.",
+    "answer_ar": "معلومات المريض؛ التشخيص السريري؛ بداية الأعراض؛ نوع العيّنة؛ وقت الجمع؛ تاريخ العلاج ومضادات الميكروبات؛ قضايا صحية وأمنية أخرى؛ معلومات سريرية داعمة."
+   },
+   {
+    "en": "Mention the rules of transport of microbiological specimens.",
+    "ar": "اذكر قواعد نقل العيّنات الميكروبيولوجية.",
+    "answer_en": "Reach the lab as soon as possible or use a preservative/transport medium; refrigerate at 4 ºC; freeze at -70 ºC with a stabilizing fluid; container free from cracks with leak-proof cap; seal the cap with adhesive tape; packaging material for glass; absorbent material for fluid; mark highly infectious specimens “HIGH RISK”.",
+    "answer_ar": "الوصول بسرعة أو استعمال حافظ/وسط نقل؛ التبريد بدرجة 4 °م؛ التجميد بدرجة سالب 70 °م مع سائل مثبّت؛ وعاء بلا شقوق وغطاء محكم؛ إغلاق الغطاء بشريط لاصق؛ تغليف كافٍ للزجاج؛ مادة ماصّة للسوائل؛ وتعليم العيّنات شديدة العدوى «خطر عالٍ»."
+   },
+   {
+    "en": "When are non-culture techniques important? Give examples.",
+    "ar": "متى تكون التقنيات غير الزرعية مهمّة؟ اذكر أمثلة.",
+    "answer_en": "When the microorganism cannot be readily cultured in vitro, is slow-growing, or rapid diagnosis significantly influences management. Examples: direct microscopy, immunological methods, serology, NAAT.",
+    "answer_ar": "عندما لا يمكن زرع الكائن بسهولة، أو يكون بطيء النمو، أو يؤثّر التشخيص السريع كثيرًا في الإدارة. أمثلة: الفحص المجهري المباشر، الطرائق المناعية، الفحوص المصلية، تضخيم الحمض النووي."
+   },
+   {
+    "en": "Mention the principles of specimen collection.",
+    "ar": "اذكر مبادئ جمع العيّنات.",
+    "answer_en": "Collect from correct site; before antibiotics; aseptic technique; sufficient quantity; label properly; sterile containers; transport immediately.",
+    "answer_ar": "الجمع من الموقع الصحيح؛ قبل المضادات الحيوية؛ بتقنية معقّمة؛ كمية كافية؛ تعليم صحيح؛ أوعية معقّمة؛ نقل فوري."
+   },
+   {
+    "en": "Mention the common errors to avoid in specimen collection.",
+    "ar": "اذكر الأخطاء الشائعة الواجب تجنّبها في جمع العيّنات.",
+    "answer_en": "Collecting after antibiotics; contaminated containers; delayed transport; missing labels; insufficient specimen.",
+    "answer_ar": "الجمع بعد المضادات الحيوية؛ أوعية ملوّثة؛ تأخّر النقل؛ غياب العلامات؛ عيّنة غير كافية."
+   },
+   {
+    "en": "Give examples of transport media and their uses.",
+    "ar": "اذكر أمثلة على أوساط النقل واستعمالاتها.",
+    "answer_en": "Stuart’s: swabs (throat, wound, genital); Amies: swabs (with or without charcoal); Cary-Blair: stool specimens; VTM: viral samples (nasal, throat swabs).",
+    "answer_ar": "ستيوارت: المسحات (الحلق، الجروح، التناسلية)؛ إيميز: المسحات (مع الفحم أو بدونه)؛ كاري-بلير: عيّنات البراز؛ الوسط الفيروسي: العيّنات الفيروسية (مسحات الأنف والحلق)."
+   }
+  ]
+ }
+}
