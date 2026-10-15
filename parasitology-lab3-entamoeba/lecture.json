@@ -18,7 +18,7 @@
  "blocks": [
   {
    "t": "section",
-   "en": "They are three groups of amoeaba",
+   "en": "They are three groups of amoeba",
    "ar": "الأميبات ثلاث مجموعات"
   },
   {
@@ -26,14 +26,14 @@
    "en": "",
    "ar": "",
    "list_en": [
-    "**Pathogenic** __Entamoeba histolytic__",
-    "**Nonpathogenic** __Entamoeba coli, E.gingivalis , Endolimax nana Iodamoeba butschilii.__",
-    "**free living** __Neagleria fowleria__"
+    "**Pathogenic** __Entamoeba histolytica__",
+    "**Nonpathogenic** __Entamoeba coli, E.gingivalis , Endolimax nana Iodamoeba buetschlii.__",
+    "**free living** __Naegleria fowleri__"
    ],
    "list_ar": [
-    "**المُمرِضة** (`Pathogenic`): الأميبا الحالّة للنسيج (`__Entamoeba histolytic__`)",
-    "**غير المُمرِضة** (`Nonpathogenic`): الأميبا القولونية (`__Entamoeba coli__`)، وأميبا اللثة (`__E.gingivalis__`)، والإندوليماكس القزمة (`__Endolimax nana__`)، واليودأميبا (`__Iodamoeba butschilii__`).",
-    "**حرّة المعيشة** (`free living`): النيغلرية الفاولرية (`__Neagleria fowleria__`)"
+    "**المُمرِضة** (`Pathogenic`): الأميبا الحالّة للنسيج (`__Entamoeba histolytica__`)",
+    "**غير المُمرِضة** (`Nonpathogenic`): الأميبا القولونية (`__Entamoeba coli__`)، وأميبا اللثة (`__E.gingivalis__`)، والإندوليماكس القزمة (`__Endolimax nana__`)، واليودأميبا (`__Iodamoeba buetschlii__`).",
+    "**حرّة المعيشة** (`free living`): النيغلرية الفاولرية (`__Naegleria fowleri__`)"
    ],
    "alpha": true
   },
@@ -123,7 +123,7 @@
     "**D.H:** Man",
     "**R.H:** Dogs, pigs, rats and monkeys.",
     "**Disease:** Amoebiasis or amoebic dysentery",
-    "Exist as trophozoite (I nucleus+_ RBCs) and cysts (4 nuclei)"
+    "Exist as trophozoite (1 nucleus ± RBCs) and cysts (4 nuclei)"
    ],
    "list_ar": [
     "من الأوالي",
@@ -131,7 +131,7 @@
     "**المضيف النهائي** (`D.H`): الإنسان",
     "**المضيف الخازن** (`R.H`): الكلاب والخنازير والجرذان والقرود.",
     "**المرض:** داء الأميبات أو الزحار الأميبي",
-    "يوجد بطور متغذٍّ (نواة واحدة `+_` كريات دم حمراء) وأكياس (4 أنوية)"
+    "يوجد بطور متغذٍّ (نواة واحدة `±` كريات دم حمراء) وأكياس (4 أنوية)"
    ]
   },
   {
@@ -145,9 +145,9 @@
    "ar": "",
    "list_en": [
     "Large finger – like **pseudopodia**",
-    "Its size (12-30 µm), **Clear_ectoplasm.**",
+    "Its size (12-30 µm), **Clear ectoplasm.**",
     "The **endoplasm is granular and may contain RBCs.**",
-    "It has **one nucleus,** contain small central_karyosome and fine chromatin granules arranged regularly beneath nuclear membrane."
+    "It has **one nucleus,** contain small central karyosome and fine chromatin granules arranged regularly beneath nuclear membrane."
    ],
    "list_ar": [
     "**أقدام كاذبة** كبيرة تشبه الإصبع",
@@ -183,15 +183,15 @@
     "Trophozoites undergo encystment in the intestinal lumen.",
     "Encystment does not occur in the tissues nor in feces outside the body.",
     "Before encystment, the trophozoite extrudes its food vacuoles and becomes round or oval in shape.",
-    "It contains a large glycogen vacuole and two chromatid bars.",
-    "It then secretes a highly retractile cyst wall around it and becomes cyst."
+    "It contains a large glycogen vacuole and two chromatoid bars.",
+    "It then secretes a highly refractile cyst wall around it and becomes cyst."
    ],
    "ar": [
     "تتكيّس الأطوار المتغذّية في تجويف الأمعاء.",
     "لا يحدث التكيّس في الأنسجة ولا في البراز خارج الجسم.",
     "قبل التكيّس يطرد الطور المتغذّي فجواته الغذائية ويصبح دائري أو بيضوي الشكل.",
-    "ويحتوي على فجوة غلايكوجين كبيرة وقضيبين كروماتيديين.",
-    "ثم يفرز حوله جدار كيس شديد الانكسار (`retractile`) ويصبح كيسًا."
+    "ويحتوي على فجوة غلايكوجين كبيرة وقضيبين كروماتينيين.",
+    "ثم يفرز حوله جدار كيس شديد الانكسار (`refractile`) ويصبح كيسًا."
    ]
   },
   {
@@ -217,7 +217,7 @@
    "en": "2- Cyst stage (Luminal form):",
    "ar": "2- طور الكيس (الشكل التجويفي):",
    "list_en": [
-    "Immature cyst (Uninucleate cyst and Binucleate cyst): Uninucleate cyst (one nucleus); Binucleate cyst (2 nucleus)",
+    "Immature cyst (Uninucleate cyst and Binucleate cyst): Uninucleate cyst (one nucleus); Binucleate cyst (2 nuclei)",
     "Mature cyst (Quadrinucleate cyst)"
    ],
    "list_ar": [
@@ -253,8 +253,8 @@
   {
    "t": "figure",
    "src": "assets/troph-precyst-cyst.jpg",
-   "en": "Trophozoite, precyst and cyst of Entamoeba histolytica (Pseudopodium, Ingested food, Nucleus, Pre - cystic stage, Chromatid bar, Uninucleate cyst, Binucleate cyst, Quadrinucleate cyst)",
-   "ar": "الطور المتغذّي وما قبل الكيس والكيس لـالأميبا الحالّة للنسيج (القدم الكاذبة، الغذاء المبتلع، النواة، طور ما قبل التكيّس، القضيب الكروماتيدي، الكيس أحادي النواة، ثنائي النواة، رباعي النواة)",
+   "en": "Trophozoite, precyst and cyst of Entamoeba histolytica (Pseudopodium, Ingested food, Nucleus, Pre - cystic stage, Chromatoid bar, Uninucleate cyst, Binucleate cyst, Quadrinucleate cyst)",
+   "ar": "الطور المتغذّي وما قبل الكيس والكيس لـالأميبا الحالّة للنسيج (القدم الكاذبة، الغذاء المبتلع، النواة، طور ما قبل التكيّس، القضيب الكروماتيني، الكيس أحادي النواة، ثنائي النواة، رباعي النواة)",
    "h": "66mm",
    "fit": "contain"
   },
@@ -282,9 +282,9 @@
      "**الكيس:** غلاف خلوي صلب — **المتغذّي:** غشاء خلوي غير ثابت"
     ],
     [
-     "resistant to H20 dryness",
+     "resistant to H2O dryness",
      "disease causing stage",
-     "**الكيس:** مقاوم للماء (`H20`) والجفاف — **المتغذّي:** الطور المسبّب للمرض"
+     "**الكيس:** مقاوم للماء (`H2O`) والجفاف — **المتغذّي:** الطور المسبّب للمرض"
     ],
     [
      "can survive outside of host in most ambient conditions",
@@ -393,12 +393,12 @@
   },
   {
    "t": "card",
-   "en": "The **incidence** of Amebiasis is common anf high in tropical & subtropical areas especially in areas of **lower socioeconomic status** due to:",
+   "en": "The **incidence** of Amebiasis is common and high in tropical & subtropical areas especially in areas of **lower socioeconomic status** due to:",
    "ar": "**معدّل حدوث** داء الأميبات شائع ومرتفع في المناطق الاستوائية وشبه الاستوائية، ولا سيّما في مناطق **المستوى الاجتماعي والاقتصادي المنخفض** بسبب:",
    "list_en": [
     "poor sanitation",
     "overcrowding &",
-    "malntrition"
+    "malnutrition"
    ],
    "list_ar": [
     "سوء الصرف الصحي",
@@ -473,26 +473,26 @@
   },
   {
    "t": "card",
-   "en": "**Intestina amoebiasis**",
+   "en": "**Intestinal amoebiasis**",
    "ar": "**داء الأميبات المعوي**",
    "list_en": [
     "Amoebic dysentery",
     "Non -dysenteric colitis",
     "Amoebic appendicitis",
-    "Posit-dysenteric colitis",
+    "Post-dysenteric colitis",
     "Complication of all above"
    ],
    "list_ar": [
     "الزحار الأميبي",
     "التهاب القولون غير الزحاري",
     "التهاب الزائدة الأميبي",
-    "التهاب القولون التالي للزحار (`Posit-dysenteric`)",
+    "التهاب القولون التالي للزحار (`Post-dysenteric`)",
     "مضاعفات كل ما سبق"
    ]
   },
   {
    "t": "card",
-   "en": "**Extraintestina amoebiasis** (5% of symptomatic cases)",
+   "en": "**Extraintestinal amoebiasis** (5% of symptomatic cases)",
    "ar": "**داء الأميبات خارج المعوي** (5% من الحالات المصحوبة بأعراض)",
    "list_en": [
     "Amoebic hepatitis",
@@ -579,8 +579,8 @@
    "ar": "**داء الأميبات خارج المعوي**",
    "list_en": [
     "Hepatic amoebiasis : based on aspirate & liver biopsy to identify trophozoite.",
-    "Pulmonary ; based on identify trophzoites in sputum sample.",
-    "Serlogical tests :",
+    "Pulmonary ; based on identify trophozoites in sputum sample.",
+    "Serological tests :",
     "IHA,IFAT",
     "ELISA,PCR (distinguishes __E.histolytica__ from __E. dispar__)."
    ],
@@ -616,7 +616,7 @@
       "الإندوليماكس القزمة"
      ],
      [
-      "Neagleria fowleria",
+      "Naegleria fowleri",
       "النيغلرية الفاولرية"
      ]
     ],
@@ -631,7 +631,7 @@
       "أميبا اللثة"
      ],
      [
-      "Neagleria fowleria",
+      "Naegleria fowleri",
       "النيغلرية الفاولرية"
      ],
      [
@@ -639,7 +639,7 @@
       "الأميبا الحالّة للنسيج"
      ],
      [
-      "Iodamoeba butschilii",
+      "Iodamoeba buetschlii",
       "اليودأميبا"
      ]
     ],
@@ -654,7 +654,7 @@
       "الأميبا الحالّة للنسيج"
      ],
      [
-      "Neagleria fowleria",
+      "Naegleria fowleri",
       "النيغلرية الفاولرية"
      ],
      [
@@ -915,8 +915,8 @@
       "أربع أنوية"
      ],
      [
-      "Two chromatid bars",
-      "قضيبين كروماتيديين"
+      "Two chromatoid bars",
+      "قضيبين كروماتينيين"
      ],
      [
       "Ingested RBCs",
@@ -1610,7 +1610,7 @@
    {
     "en": "Mention the three groups of amoeba with examples.",
     "ar": "اذكر مجموعات الأميبا الثلاث مع الأمثلة.",
-    "answer_en": "Pathogenic: Entamoeba histolytic. Nonpathogenic: Entamoeba coli, E.gingivalis, Endolimax nana, Iodamoeba butschilii. Free living: Neagleria fowleria.",
+    "answer_en": "Pathogenic: Entamoeba histolytica. Nonpathogenic: Entamoeba coli, E.gingivalis, Endolimax nana, Iodamoeba buetschlii. Free living: Naegleria fowleri.",
     "answer_ar": "المُمرِضة: الأميبا الحالّة للنسيج. غير المُمرِضة: الأميبا القولونية، أميبا اللثة، الإندوليماكس القزمة، اليودأميبا. حرّة المعيشة: النيغلرية الفاولرية."
    },
    {
@@ -1628,7 +1628,7 @@
    {
     "en": "Mention the differences between a cyst and a trophozoite.",
     "ar": "اذكر الفروق بين الكيس والطور المتغذّي.",
-    "answer_en": "Cyst: non-dividing, rigid cell coat, resistant to H20 dryness, survives outside host, transmission stage. Trophozoite: dividing (binary fission), labile cell membrane, disease causing stage, cannot survive outside host.",
+    "answer_en": "Cyst: non-dividing, rigid cell coat, resistant to H2O dryness, survives outside host, transmission stage. Trophozoite: dividing (binary fission), labile cell membrane, disease causing stage, cannot survive outside host.",
     "answer_ar": "الكيس: لا ينقسم، غلاف صلب، مقاوم للماء والجفاف، يبقى خارج المضيف، طور الانتقال. المتغذّي: ينقسم (انشطار ثنائي)، غشاء غير ثابت، الطور المسبّب للمرض، لا يبقى خارج المضيف."
    },
    {
