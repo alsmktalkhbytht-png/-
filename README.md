@@ -7,6 +7,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `immunology-lab1-serology/` — Practical Immunology Lab 1.
 - `parasitology-week1-mcq/` — Diagnostic Parasitology MCQ bank, week 1.
 - `parasitology-lab1-introduction/` — Diagnostic Parasitology practical lab 1: introduction to medical parasitology, stool specimens, solutions and stains (د. ناريمان حسن) — fourth stage, questions merged at the end of the handout.
+- `parasitology-lab2-protozoa/` — Diagnostic Parasitology practical lab 2: sources and entry of parasitic infections, life cycle, protozoa and their classification (د. ناريمان حسن) — fourth stage, questions merged at the end.
 - `bloodbank-lec1-introduction/` — Blood Transfusion (نقل الدم) lecture 1: Introduction to blood banking + Practical 1.
 - `bloodbank-lec2-donation-criteria/` — Blood Transfusion lecture 2: Criteria of blood donation.
 - `bloodbank-lec3-services/` — Blood Transfusion lecture 3: Blood bank services.

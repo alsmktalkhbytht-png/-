@@ -1,0 +1,1518 @@
+{
+ "meta": {
+  "subject_en": "Diagnostic Parasitology",
+  "subject_ar": "الطفيليات التشخيصية",
+  "short_ar": "طفيليات",
+  "unit_en": "Lab 2",
+  "unit_ar": "العملي 2",
+  "unit_label": "LAB",
+  "unit_no": "2",
+  "title_en": "Parasitic infections and Protozoa",
+  "title_ar": "العدوى الطفيلية والأوالي",
+  "kind": "Laboratories — عملي",
+  "stage": "The fourth stage — الرابعة",
+  "instructor": "د. ناريمان حسن",
+  "merge_questions": true
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Source of parasitic infections",
+   "ar": "مصادر العدوى الطفيلية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Contaminated food, water and soil.",
+    "Vectors.",
+    "Dogs and cats.",
+    "Raw or undercooked pork or beef meat.",
+    "Raw or undercooked fish & crab meat.",
+    "Autoinfection.",
+    "Human."
+   ],
+   "list_ar": [
+    "الغذاء والماء والتربة الملوّثة.",
+    "النواقل.",
+    "الكلاب والقطط.",
+    "لحم الخنزير أو لحم البقر النيّء أو غير المطبوخ جيدًا.",
+    "لحم السمك والسلطعون النيّء أو غير المطبوخ جيدًا.",
+    "العدوى الذاتية.",
+    "الإنسان."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Entry of parasites",
+   "ar": "طرق دخول الطفيليات"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Mouth:** e.g __Entamoeba histolytica__ and __Giardia lamblia.__",
+    "**Skin:** e.g schistosomiasis.",
+    "**Sexual contact:** e.g __Trichomonas vaginalis.__",
+    "**Congenital:** e.g __Toxoplasma gondii.__",
+    "**Inhalation:** e.g __Entrobius vermicularis.__",
+    "**Kissing:** e.g __Entamoeba gingivalis.__",
+    "**Blood transfusion:** e.g malaria parasite."
+   ],
+   "list_ar": [
+    "**الفم:** مثل الأميبا الحالّة للنسيج (`__Entamoeba histolytica__`) والجيارديا اللامبلية (`__Giardia lamblia__`).",
+    "**الجلد:** مثل داء البلهارزيا (`schistosomiasis`).",
+    "**الاتصال الجنسي:** مثل المشعّرة المهبلية (`__Trichomonas vaginalis__`).",
+    "**خِلقي (من الأم إلى الجنين):** مثل المقوّسة الغوندية (`__Toxoplasma gondii__`).",
+    "**الاستنشاق:** مثل الدودة الدبّوسية (`__Entrobius vermicularis__`).",
+    "**التقبيل:** مثل أميبا اللثة (`__Entamoeba gingivalis__`).",
+    "**نقل الدم:** مثل طفيلي الملاريا."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Life cycle of parasites",
+   "ar": "دورة حياة الطفيليات"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Direct life cycle:** parasite does not involve any intermediate host between parasite and its host.",
+    "**Indirect life cycle:** parasite involves necessarily one or more intermediate hosts to complete its life cycle."
+   ],
+   "list_ar": [
+    "**دورة الحياة المباشرة** (`Direct life cycle`): لا يشمل الطفيلي أي مضيف وسطي بين الطفيلي ومضيفه.",
+    "**دورة الحياة غير المباشرة** (`Indirect life cycle`): يشمل الطفيلي بالضرورة مضيفًا وسطيًا واحدًا أو أكثر لإكمال دورة حياته."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Classification of Medically important Parasites",
+   "ar": "تصنيف الطفيليات ذات الأهمية الطبية"
+  },
+  {
+   "t": "card",
+   "en": "The parasite divide into three main groups",
+   "ar": "تنقسم الطفيليات إلى ثلاث مجموعات رئيسة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Protozoa** Parasite consist of a single celled organism which is morphologically and functionally complete and can perform all function of life ,reproduction by asexual or sexual",
+    "**Metazoa** Parasite consist of multicellular cells, Bilaterally symmetrical animals, having well-differentiated tissues and complex organ",
+    "**Arthropoda(Medical Entomology)** include Insecta (Butter fly) Arachnida (Mite) Crustacea (Cyclops)"
+   ],
+   "list_ar": [
+    "**الأوالي** (`Protozoa`): طفيليات تتكوّن من كائن وحيد الخلية مكتمل شكليًا ووظيفيًا ويستطيع أداء جميع وظائف الحياة، والتكاثر لاجنسي أو جنسي.",
+    "**البعديات (متعدّدة الخلايا)** (`Metazoa`): طفيليات تتكوّن من خلايا متعدّدة، حيوانات متناظرة جانبيًا، لها أنسجة متمايزة جيدًا وأعضاء معقّدة.",
+    "**مفصليات الأرجل (علم الحشرات الطبية)** (`Arthropoda`): تشمل الحشرات (`Insecta`) (الفراشة)، والعنكبيات (`Arachnida`) (الحَلَم)، والقشريات (`Crustacea`) (السايكلوبس)."
+   ],
+   "alpha": true
+  },
+  {
+   "t": "section",
+   "en": "Protozoa",
+   "ar": "الأوالي"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Protozoa:** are one-celled animals found worldwide in most habitats.",
+    "Most species are free living, but all higher animals are infected with one or more species of protozoa.",
+    "Infections range from asymptomatic to life threatening, depending on the species and strain of the parasite and the resistance of the host."
+   ],
+   "ar": [
+    "**الأوالي** (`Protozoa`): حيوانات وحيدة الخلية توجد في أنحاء العالم في معظم البيئات.",
+    "معظم أنواعها حرّة المعيشة، لكن جميع الحيوانات الراقية مصابة بنوع واحد أو أكثر من الأوالي.",
+    "تتراوح الإصابات من عديمة الأعراض إلى مهدّدة للحياة، اعتمادًا على نوع الطفيلي وسلالته ومقاومة المضيف."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "General Concepts",
+   "ar": "مفاهيم عامة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Eukaryotic Organisms",
+    "Generally unicellular",
+    "Found in every conceivable damp habitat",
+    "Approximately 60,000 living species",
+    "Largest visible to the naked eye",
+    "Smallest only seen with the EM",
+    "have all necessary life activities."
+   ],
+   "list_ar": [
+    "كائنات حقيقية النواة",
+    "وحيدة الخلية عمومًا",
+    "توجد في كل بيئة رطبة يمكن تصوّرها",
+    "قرابة 60,000 نوع حيّ",
+    "أكبرها مرئي بالعين المجرّدة",
+    "أصغرها لا يُرى إلا بالمجهر الإلكتروني (`EM`)",
+    "تمتلك جميع أنشطة الحياة الضرورية."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Reproduction in Protozoa",
+   "ar": "التكاثر في الأوالي"
+  },
+  {
+   "t": "card",
+   "en": "Protozoa can reproduce their offspring by both Sexual and Asexual methods",
+   "ar": "تستطيع الأوالي إنتاج نسلها بالطريقتين الجنسية واللاجنسية"
+  },
+  {
+   "t": "card",
+   "en": "**Asexual** methods of reproduction are:",
+   "ar": "طرائق التكاثر **اللاجنسي** هي:",
+   "list_en": [
+    "Budding",
+    "Binary Fission",
+    "Schizogony or Multiple Fission"
+   ],
+   "list_ar": [
+    "التبرعم",
+    "الانشطار الثنائي",
+    "التقسّم المتعدّد (`Schizogony`) أو الانشطار المتعدّد"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Sexual** Methods:",
+   "ar": "الطرائق **الجنسية**:",
+   "list_en": [
+    "Conjugation",
+    "Gametogony"
+   ],
+   "list_ar": [
+    "الاقتران",
+    "تكوين الأمشاج"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Protozoa generally have two Stage:",
+   "ar": "للأوالي عمومًا طوران:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Trophozoite** - the motile vegetative ,quite stage; multiply via binary fission; colonizes host.",
+    "**Cyst** - the inactive, non-motile, infective stage; survives the environment due to the presence of a cyst wall. Cysts do not multiply, however, some organisms divide within the cyst wall."
+   ],
+   "list_ar": [
+    "**الطور المتغذّي** (`Trophozoite`): الطور الخضري المتحرّك (`quite stage`)؛ يتكاثر بالانشطار الثنائي؛ ويستعمر المضيف.",
+    "**الكيس** (`Cyst`): الطور غير النشط وغير المتحرّك والمُعدي؛ يقاوم البيئة بسبب وجود جدار الكيس. الأكياس لا تتكاثر، إلا أنّ بعض الكائنات تنقسم داخل جدار الكيس."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/troph-cyst.jpg",
+   "en": "Trophozoite (ingested RBC, karyosome, nucleus) and Cyst (chromatoidal body, karyosome, nucleus)",
+   "ar": "الطور المتغذّي (كرية دم حمراء مبتلعة، الجسيم النووي، النواة) والكيس (الجسم الكروماتيني، الجسيم النووي، النواة)",
+   "h": "46mm",
+   "fit": "contain"
+  },
+  {
+   "t": "section",
+   "en": "Classification",
+   "ar": "التصنيف"
+  },
+  {
+   "t": "card",
+   "en": [
+    "On the basis of light and electron microscopic morphology, the protozoa are currently classified into seven phyla.",
+    "Most species causing human disease are members of the phyla Sarcomastigophora and Apicomplexa."
+   ],
+   "ar": [
+    "على أساس الشكل تحت المجهر الضوئي والإلكتروني، تُصنَّف الأوالي حاليًا إلى سبع شُعب.",
+    "ومعظم الأنواع المسبّبة لأمراض الإنسان تنتمي إلى شعبتَي السوطيات اللحمية (`Sarcomastigophora`) والمعقّدات القمّية (`Apicomplexa`)."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**\\*Phylum:** Sarcomastigophora Subphylum:",
+   "ar": "**\\*الشعبة:** السوطيات اللحمية (`Sarcomastigophora`)، الشُّعيبة:",
+   "list_en": [
+    "**Sarcodina** ex. __Entamoeba histolytica__ and __E.Coli__",
+    "**Mastigophora** ex. __Leishmania__ Spp."
+   ],
+   "list_ar": [
+    "**اللحميات** (`Sarcodina`): مثل الأميبا الحالّة للنسيج (`__Entamoeba histolytica__`) و`__E.Coli__`.",
+    "**السوطيات** (`Mastigophora`): مثل أنواع الليشمانيا (`__Leishmania__ Spp.`)."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Protozoa and their classification",
+   "ar": "الأوالي وتصنيفها"
+  },
+  {
+   "t": "card",
+   "en": "Protozoa classified into four subdivisions according to the methods of locomotion:",
+   "ar": "تُصنَّف الأوالي إلى أربعة أقسام فرعية حسب طرائق الحركة:",
+   "list_en": [
+    "**The amoebae (Sarcodina):** move by means of pseudopodia.",
+    "**The flagellates (Mastigophora):** typically move by long, whip like structure called flagella.",
+    "**The ciliates (Ciliata):** are propelled by rows of cilia that beat with a synchronized wavelike motion.",
+    "**The Apicomplexa or Coccidian:** lack specialized organelles of motility."
+   ],
+   "list_ar": [
+    "**الأميبات** (`Sarcodina`): تتحرّك بواسطة الأقدام الكاذبة.",
+    "**السوطيات** (`Mastigophora`): تتحرّك عادةً بتراكيب طويلة تشبه السوط تُسمّى الأسواط.",
+    "**الهدبيات** (`Ciliata`): تندفع بصفوف من الأهداب التي تضرب بحركة موجية متزامنة.",
+    "**المعقّدات القمّية أو الكوكسيديا** (`Apicomplexa or Coccidian`): تفتقر إلى عُضيّات متخصّصة للحركة."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Taxonomic classification of Protozoa",
+   "ar": "التصنيف التصنيفي للأوالي"
+  },
+  {
+   "t": "figure",
+   "src": "assets/taxonomy.jpg",
+   "en": "Taxonomic classification of Protozoa",
+   "ar": "التصنيف التصنيفي للأوالي",
+   "h": "78mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "card",
+   "en": "Sub kingdom: Protozoa",
+   "ar": "المملكة الفرعية: الأوالي"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Phylum",
+    "Class",
+    "Genus- examples → Species- examples",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Sarcomastig-ophora further divided into",
+     "Sarcodina- (Amoeba) move by pseudopodia",
+     "Entamoeba → __E. hstolytica__; Endolimax → __E.nana__; Iodameba → __I.butchlii__; Dientameba → __D.fragilis__",
+     "**السوطيات اللحمية** تنقسم إلى: **اللحميات** (الأميبا) تتحرّك بالأقدام الكاذبة"
+    ],
+    [
+     "",
+     "Mastigophora (Flagellates) move by flagella",
+     "Giardia → __G. Lamblia__; Trichmonas → __T.vaginalis__; Trypanosoma → __T.brucci__; Leishmania → __L.donovani__",
+     "**السوطيات** تتحرّك بالأسواط"
+    ],
+    [
+     "Apicomplexa (Sporozoa) no organelle of Locomotion",
+     "",
+     "Plasmodium → __P. falciparum__; Toxoplasma → __T.gonidi__; Cryptosporidium → __C.parvum__; Isospora → __I.beli__",
+     "**المعقّدات القمّية** (البوغيات): لا عُضيّة للحركة"
+    ],
+    [
+     "Ciliophora move by cillia",
+     "",
+     "Balantidium → __B. coli__",
+     "**الهدبيات**: تتحرّك بالأهداب"
+    ]
+   ],
+   "ar_cols": [
+    3
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    "30mm",
+    "32mm",
+    "",
+    "38mm"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "The amoebae (Sarcodina)",
+   "ar": "الأميبات (اللحميات)"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Consist of a **shapeless mass of moving cytoplasm** which is divided into granular endoplasm and clear ectoplasm.",
+    "They move by **pseudopodia** (false feet).",
+    "Reproduce asexually by simply dividing into two (**binary fission**).",
+    "Have a **trophozoite** (stage of protozoa showing motility and the ability to grow, feed, and reproduce) and resistant **cyst stage** by which it is transmitted."
+   ],
+   "list_ar": [
+    "تتكوّن من **كتلة عديمة الشكل من السايتوبلازم المتحرّك** تنقسم إلى سايتوبلازم داخلي حُبيبي وسايتوبلازم خارجي رائق.",
+    "تتحرّك بـ**الأقدام الكاذبة** (`pseudopodia`).",
+    "تتكاثر لاجنسيًا بالانقسام البسيط إلى اثنين (**الانشطار الثنائي**).",
+    "لها **طور متغذٍّ** (طور من الأوالي يُظهر الحركة والقدرة على النمو والتغذّي والتكاثر) و**طور كيس** مقاوم تنتقل به."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/amoeba.jpg",
+   "en": "Amoeba (ectoplasm, endoplesm, nucleus)",
+   "ar": "الأميبا (السايتوبلازم الخارجي، الداخلي، النواة)",
+   "h": "58mm",
+   "fit": "contain"
+  },
+  {
+   "t": "section",
+   "en": "The flagellates (Mastigophora)",
+   "ar": "السوطيات"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Flagellates possess one or more long hair-like **flagella for locomotion**.",
+    "They reproduce asexually by **binary fission**.",
+    "__G. lamblia, Trypanosoma__ and __Leishmania__ are examples."
+   ],
+   "list_ar": [
+    "تمتلك السوطيات سوطًا واحدًا أو أكثر طويلًا يشبه الشعرة **للحركة**.",
+    "تتكاثر لاجنسيًا بـ**الانشطار الثنائي**.",
+    "الجيارديا اللامبلية (`__G. lamblia__`) والمثقبيات (`__Trypanosoma__`) والليشمانيا (`__Leishmania__`) أمثلة عليها."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/giardia.jpg",
+   "en": "GIARDIA (Basal bodies, Nucleus, Anterior flagella, Ventral disc, Median body, Posterior flagella, Ventral flagella, Caudal flagella)",
+   "ar": "الجيارديا (الأجسام القاعدية، النواة، الأسواط الأمامية، القرص البطني، الجسم الوسطي، الأسواط الخلفية، الأسواط البطنية، الأسواط الذيلية)",
+   "h": "58mm",
+   "fit": "contain"
+  },
+  {
+   "t": "section",
+   "en": "The ciliates (Ciliata)",
+   "ar": "الهدبيات"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Ciliate **trophozoites** are covered with short hairs (**cilia**) by which they move.",
+    "They reproduce asexually by **binary fission** and sexually by **conjugation**.",
+    "They have **cyst** and **trophozoit**.",
+    "The only ciliate known to infect human is __Blantidium coli.__"
+   ],
+   "list_ar": [
+    "**الأطوار المتغذّية** للهدبيات مغطّاة بشعيرات قصيرة (**أهداب**) تتحرّك بها.",
+    "تتكاثر لاجنسيًا بـ**الانشطار الثنائي** وجنسيًا بـ**الاقتران**.",
+    "لها **كيس** و**طور متغذٍّ**.",
+    "الهدبي الوحيد المعروف بإصابته للإنسان هو القربيّة القولونية (`__Blantidium coli__`)."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/balantidium.jpg",
+   "en": "Image on the ciliates slide",
+   "ar": "صورة من شريحة الهدبيات",
+   "h": "58mm",
+   "fit": "contain"
+  },
+  {
+   "t": "section",
+   "en": "The Apicomplexa or Coccidian",
+   "ar": "المعقّدات القمّية أو الكوكسيديا"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Coccidia are **intracellular parasites** that reproduce asexually by a process called **schizgony** or **merogony** and sexually by **sporogony**.",
+    "Plasmodium species, __Toxoplasma gondii__ and intestinal coccidia __Cryptosporiduim parvum__ are examples."
+   ],
+   "list_ar": [
+    "الكوكسيديا **طفيليات داخل خلوية** تتكاثر لاجنسيًا بعملية تُسمّى **التقسّم المتعدّد** (`schizgony`) أو **التقسّم الميروزوئيتي** (`merogony`)، وجنسيًا بـ**تكوين الأبواغ** (`sporogony`).",
+    "أنواع البلازموديوم (`Plasmodium`)، والمقوّسة الغوندية (`__Toxoplasma gondii__`)، والكوكسيديا المعوية الخبيئة الصغيرة (`__Cryptosporiduim parvum__`) أمثلة عليها."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/plasmodium-smear.jpg",
+   "en": "Image on the Apicomplexa slide",
+   "ar": "صورة من شريحة المعقّدات القمّية",
+   "h": "58mm",
+   "fit": "contain"
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Sources and entry",
+    "topic_ar": "المصادر وطرق الدخول"
+   },
+   {
+    "en": "Which of the following is listed as a source of parasitic infections?",
+    "ar": "أيّ ممّا يأتي مذكور كمصدر للعدوى الطفيلية؟",
+    "options": [
+     [
+      "Autoinfection",
+      "العدوى الذاتية"
+     ],
+     [
+      "Sterile water",
+      "الماء المعقّم"
+     ],
+     [
+      "Well-cooked meat",
+      "اللحم المطبوخ جيدًا"
+     ],
+     [
+      "Distilled water",
+      "الماء المقطّر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Entamoeba histolytica and Giardia lamblia enter through:",
+    "ar": "تدخل الأميبا الحالّة للنسيج والجيارديا اللامبلية عن طريق:",
+    "options": [
+     [
+      "Skin",
+      "الجلد"
+     ],
+     [
+      "Mouth",
+      "الفم"
+     ],
+     [
+      "Blood transfusion",
+      "نقل الدم"
+     ],
+     [
+      "Kissing",
+      "التقبيل"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The example given for entry through the skin is:",
+    "ar": "المثال المذكور للدخول عن طريق الجلد هو:",
+    "options": [
+     [
+      "Toxoplasma gondii",
+      "المقوّسة الغوندية"
+     ],
+     [
+      "Malaria parasite",
+      "طفيلي الملاريا"
+     ],
+     [
+      "Schistosomiasis",
+      "داء البلهارزيا"
+     ],
+     [
+      "Entamoeba gingivalis",
+      "أميبا اللثة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Trichomonas vaginalis enters through:",
+    "ar": "تدخل المشعّرة المهبلية عن طريق:",
+    "options": [
+     [
+      "Inhalation",
+      "الاستنشاق"
+     ],
+     [
+      "Congenital",
+      "خِلقيًا"
+     ],
+     [
+      "Mouth",
+      "الفم"
+     ],
+     [
+      "Sexual contact",
+      "الاتصال الجنسي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The example given for congenital entry is:",
+    "ar": "المثال المذكور للدخول الخِلقي هو:",
+    "options": [
+     [
+      "Toxoplasma gondii",
+      "المقوّسة الغوندية"
+     ],
+     [
+      "Giardia lamblia",
+      "الجيارديا اللامبلية"
+     ],
+     [
+      "Trichomonas vaginalis",
+      "المشعّرة المهبلية"
+     ],
+     [
+      "Entamoeba histolytica",
+      "الأميبا الحالّة للنسيج"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Entamoeba gingivalis enters through:",
+    "ar": "تدخل أميبا اللثة عن طريق:",
+    "options": [
+     [
+      "Blood transfusion",
+      "نقل الدم"
+     ],
+     [
+      "Kissing",
+      "التقبيل"
+     ],
+     [
+      "Skin",
+      "الجلد"
+     ],
+     [
+      "Sexual contact",
+      "الاتصال الجنسي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The example given for entry by blood transfusion is:",
+    "ar": "المثال المذكور للدخول عن طريق نقل الدم هو:",
+    "options": [
+     [
+      "Schistosomiasis",
+      "داء البلهارزيا"
+     ],
+     [
+      "Entrobius vermicularis",
+      "الدودة الدبّوسية"
+     ],
+     [
+      "Malaria parasite",
+      "طفيلي الملاريا"
+     ],
+     [
+      "Giardia lamblia",
+      "الجيارديا اللامبلية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "A life cycle in which the parasite necessarily involves one or more intermediate hosts is:",
+    "ar": "دورة الحياة التي يشمل فيها الطفيلي بالضرورة مضيفًا وسطيًا واحدًا أو أكثر هي:",
+    "options": [
+     [
+      "Direct life cycle",
+      "دورة الحياة المباشرة"
+     ],
+     [
+      "Simple life cycle",
+      "دورة الحياة البسيطة"
+     ],
+     [
+      "Autoinfection",
+      "العدوى الذاتية"
+     ],
+     [
+      "Indirect life cycle",
+      "دورة الحياة غير المباشرة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Classification of medically important parasites",
+    "topic_ar": "تصنيف الطفيليات ذات الأهمية الطبية"
+   },
+   {
+    "en": "The parasites divide into how many main groups?",
+    "ar": "تنقسم الطفيليات إلى كم مجموعة رئيسة؟",
+    "options": [
+     [
+      "Three",
+      "ثلاث"
+     ],
+     [
+      "Two",
+      "اثنتين"
+     ],
+     [
+      "Four",
+      "أربع"
+     ],
+     [
+      "Seven",
+      "سبع"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Parasites consisting of a single celled organism that can perform all function of life are:",
+    "ar": "الطفيليات المتكوّنة من كائن وحيد الخلية يستطيع أداء جميع وظائف الحياة هي:",
+    "options": [
+     [
+      "Metazoa",
+      "البعديات"
+     ],
+     [
+      "Protozoa",
+      "الأوالي"
+     ],
+     [
+      "Arthropoda",
+      "مفصليات الأرجل"
+     ],
+     [
+      "Crustacea",
+      "القشريات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Bilaterally symmetrical multicellular animals having well-differentiated tissues are:",
+    "ar": "الحيوانات متعدّدة الخلايا المتناظرة جانبيًا ذات الأنسجة المتمايزة جيدًا هي:",
+    "options": [
+     [
+      "Protozoa",
+      "الأوالي"
+     ],
+     [
+      "Arachnida",
+      "العنكبيات"
+     ],
+     [
+      "Metazoa",
+      "البعديات"
+     ],
+     [
+      "Ciliata",
+      "الهدبيات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The example given for Arachnida is:",
+    "ar": "المثال المذكور للعنكبيات هو:",
+    "options": [
+     [
+      "Butter fly",
+      "الفراشة"
+     ],
+     [
+      "Cyclops",
+      "السايكلوبس"
+     ],
+     [
+      "Giardia",
+      "الجيارديا"
+     ],
+     [
+      "Mite",
+      "الحَلَم"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Cyclops belongs to:",
+    "ar": "ينتمي السايكلوبس إلى:",
+    "options": [
+     [
+      "Crustacea",
+      "القشريات"
+     ],
+     [
+      "Insecta",
+      "الحشرات"
+     ],
+     [
+      "Arachnida",
+      "العنكبيات"
+     ],
+     [
+      "Protozoa",
+      "الأوالي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Protozoa: general concepts",
+    "topic_ar": "الأوالي: مفاهيم عامة"
+   },
+   {
+    "en": "Protozoa are:",
+    "ar": "الأوالي هي:",
+    "options": [
+     [
+      "Prokaryotic organisms",
+      "كائنات بدائية النواة"
+     ],
+     [
+      "Eukaryotic organisms",
+      "كائنات حقيقية النواة"
+     ],
+     [
+      "Multicellular animals",
+      "حيوانات متعدّدة الخلايا"
+     ],
+     [
+      "Viruses",
+      "فيروسات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The approximate number of living protozoan species is:",
+    "ar": "العدد التقريبي لأنواع الأوالي الحيّة هو:",
+    "options": [
+     [
+      "600",
+      "600"
+     ],
+     [
+      "6,000",
+      "6,000"
+     ],
+     [
+      "60,000",
+      "60,000"
+     ],
+     [
+      "600,000",
+      "600,000"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The smallest protozoa are only seen with:",
+    "ar": "أصغر الأوالي لا تُرى إلا بـ:",
+    "options": [
+     [
+      "The naked eye",
+      "العين المجرّدة"
+     ],
+     [
+      "A hand lens",
+      "العدسة اليدوية"
+     ],
+     [
+      "The light microscope only",
+      "المجهر الضوئي فقط"
+     ],
+     [
+      "The EM",
+      "المجهر الإلكتروني"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Protozoan infections range from asymptomatic to life threatening depending on:",
+    "ar": "تتراوح إصابات الأوالي من عديمة الأعراض إلى مهدّدة للحياة اعتمادًا على:",
+    "options": [
+     [
+      "The species and strain of the parasite and the resistance of the host",
+      "نوع الطفيلي وسلالته ومقاومة المضيف"
+     ],
+     [
+      "The color of the parasite only",
+      "لون الطفيلي فقط"
+     ],
+     [
+      "The season only",
+      "الفصل فقط"
+     ],
+     [
+      "The size of the host only",
+      "حجم المضيف فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Reproduction and stages",
+    "topic_ar": "التكاثر والأطوار"
+   },
+   {
+    "en": "Which of the following is a sexual method of reproduction in protozoa?",
+    "ar": "أيّ ممّا يأتي طريقة تكاثر جنسي في الأوالي؟",
+    "options": [
+     [
+      "Budding",
+      "التبرعم"
+     ],
+     [
+      "Conjugation",
+      "الاقتران"
+     ],
+     [
+      "Binary Fission",
+      "الانشطار الثنائي"
+     ],
+     [
+      "Multiple Fission",
+      "الانشطار المتعدّد"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Schizogony is also called:",
+    "ar": "يُسمّى التقسّم المتعدّد (`Schizogony`) أيضًا:",
+    "options": [
+     [
+      "Budding",
+      "التبرعم"
+     ],
+     [
+      "Gametogony",
+      "تكوين الأمشاج"
+     ],
+     [
+      "Multiple Fission",
+      "الانشطار المتعدّد"
+     ],
+     [
+      "Conjugation",
+      "الاقتران"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The motile vegetative stage that multiplies via binary fission and colonizes host is:",
+    "ar": "الطور الخضري المتحرّك الذي يتكاثر بالانشطار الثنائي ويستعمر المضيف هو:",
+    "options": [
+     [
+      "Cyst",
+      "الكيس"
+     ],
+     [
+      "Egg",
+      "البيضة"
+     ],
+     [
+      "Larva",
+      "اليرقة"
+     ],
+     [
+      "Trophozoite",
+      "الطور المتغذّي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The cyst survives the environment due to:",
+    "ar": "يقاوم الكيس البيئة بسبب:",
+    "options": [
+     [
+      "The presence of a cyst wall",
+      "وجود جدار الكيس"
+     ],
+     [
+      "Its motility",
+      "حركته"
+     ],
+     [
+      "Binary fission",
+      "الانشطار الثنائي"
+     ],
+     [
+      "Its flagella",
+      "أسواطه"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The infective stage of protozoa is:",
+    "ar": "الطور المُعدي للأوالي هو:",
+    "options": [
+     [
+      "Trophozoite",
+      "الطور المتغذّي"
+     ],
+     [
+      "Cyst",
+      "الكيس"
+     ],
+     [
+      "Gamete",
+      "المشيج"
+     ],
+     [
+      "Merozoite",
+      "الميروزويت"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Classification of protozoa",
+    "topic_ar": "تصنيف الأوالي"
+   },
+   {
+    "en": "Protozoa are currently classified into how many phyla?",
+    "ar": "تُصنَّف الأوالي حاليًا إلى كم شعبة؟",
+    "options": [
+     [
+      "Three",
+      "ثلاث"
+     ],
+     [
+      "Four",
+      "أربع"
+     ],
+     [
+      "Seven",
+      "سبع"
+     ],
+     [
+      "Two",
+      "اثنتين"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Most species causing human disease are members of the phyla:",
+    "ar": "معظم الأنواع المسبّبة لأمراض الإنسان تنتمي إلى شعبتَي:",
+    "options": [
+     [
+      "Ciliophora and Metazoa",
+      "الهدبيات والبعديات"
+     ],
+     [
+      "Arthropoda and Crustacea",
+      "مفصليات الأرجل والقشريات"
+     ],
+     [
+      "Insecta and Arachnida",
+      "الحشرات والعنكبيات"
+     ],
+     [
+      "Sarcomastigophora and Apicomplexa",
+      "السوطيات اللحمية والمعقّدات القمّية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Protozoa are classified into four subdivisions according to:",
+    "ar": "تُصنَّف الأوالي إلى أربعة أقسام فرعية حسب:",
+    "options": [
+     [
+      "The methods of locomotion",
+      "طرائق الحركة"
+     ],
+     [
+      "Their color",
+      "لونها"
+     ],
+     [
+      "Their size",
+      "حجمها"
+     ],
+     [
+      "The host only",
+      "المضيف فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The flagellates (Mastigophora) move by:",
+    "ar": "تتحرّك السوطيات بواسطة:",
+    "options": [
+     [
+      "Pseudopodia",
+      "الأقدام الكاذبة"
+     ],
+     [
+      "Flagella",
+      "الأسواط"
+     ],
+     [
+      "Cilia",
+      "الأهداب"
+     ],
+     [
+      "No organelles of motility",
+      "لا عُضيّات حركة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The group that lacks specialized organelles of motility is:",
+    "ar": "المجموعة التي تفتقر إلى عُضيّات متخصّصة للحركة هي:",
+    "options": [
+     [
+      "The amoebae",
+      "الأميبات"
+     ],
+     [
+      "The ciliates",
+      "الهدبيات"
+     ],
+     [
+      "The Apicomplexa or Coccidian",
+      "المعقّدات القمّية أو الكوكسيديا"
+     ],
+     [
+      "The flagellates",
+      "السوطيات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In the taxonomic classification, Giardia belongs to:",
+    "ar": "في التصنيف التصنيفي تنتمي الجيارديا إلى:",
+    "options": [
+     [
+      "Sarcodina",
+      "اللحميات"
+     ],
+     [
+      "Apicomplexa",
+      "المعقّدات القمّية"
+     ],
+     [
+      "Ciliophora",
+      "الهدبيات"
+     ],
+     [
+      "Mastigophora",
+      "السوطيات"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In the taxonomic classification, Toxoplasma belongs to:",
+    "ar": "في التصنيف التصنيفي تنتمي المقوّسة إلى:",
+    "options": [
+     [
+      "Apicomplexa (Sporozoa)",
+      "المعقّدات القمّية (البوغيات)"
+     ],
+     [
+      "Sarcodina",
+      "اللحميات"
+     ],
+     [
+      "Mastigophora",
+      "السوطيات"
+     ],
+     [
+      "Ciliophora",
+      "الهدبيات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Amoebae, flagellates, ciliates and Apicomplexa",
+    "topic_ar": "الأميبات والسوطيات والهدبيات والمعقّدات القمّية"
+   },
+   {
+    "en": "The amoebae cytoplasm is divided into:",
+    "ar": "ينقسم سايتوبلازم الأميبات إلى:",
+    "options": [
+     [
+      "Nucleus and cyst wall",
+      "النواة وجدار الكيس"
+     ],
+     [
+      "Granular endoplasm and clear ectoplasm",
+      "سايتوبلازم داخلي حُبيبي وسايتوبلازم خارجي رائق"
+     ],
+     [
+      "Cilia and flagella",
+      "أهداب وأسواط"
+     ],
+     [
+      "Basal bodies and ventral disc",
+      "أجسام قاعدية وقرص بطني"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Ciliates reproduce sexually by:",
+    "ar": "تتكاثر الهدبيات جنسيًا بـ:",
+    "options": [
+     [
+      "Binary fission",
+      "الانشطار الثنائي"
+     ],
+     [
+      "Budding",
+      "التبرعم"
+     ],
+     [
+      "Conjugation",
+      "الاقتران"
+     ],
+     [
+      "Merogony",
+      "التقسّم الميروزوئيتي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The only ciliate known to infect human is:",
+    "ar": "الهدبي الوحيد المعروف بإصابته للإنسان هو:",
+    "options": [
+     [
+      "Giardia lamblia",
+      "الجيارديا اللامبلية"
+     ],
+     [
+      "Leishmania",
+      "الليشمانيا"
+     ],
+     [
+      "Trypanosoma",
+      "المثقبيات"
+     ],
+     [
+      "Blantidium coli",
+      "القربيّة القولونية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Coccidia reproduce sexually by:",
+    "ar": "تتكاثر الكوكسيديا جنسيًا بـ:",
+    "options": [
+     [
+      "Sporogony",
+      "تكوين الأبواغ"
+     ],
+     [
+      "Schizgony",
+      "التقسّم المتعدّد"
+     ],
+     [
+      "Merogony",
+      "التقسّم الميروزوئيتي"
+     ],
+     [
+      "Binary fission",
+      "الانشطار الثنائي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Coccidia are:",
+    "ar": "الكوكسيديا هي:",
+    "options": [
+     [
+      "Extracellular parasites",
+      "طفيليات خارج خلوية"
+     ],
+     [
+      "Intracellular parasites",
+      "طفيليات داخل خلوية"
+     ],
+     [
+      "Multicellular worms",
+      "ديدان متعدّدة الخلايا"
+     ],
+     [
+      "Arthropods",
+      "مفصليات أرجل"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this figure, the stage on the left (with ingested RBC) is the:",
+    "ar": "في هذا الشكل، الطور على اليسار (مع كرية دم حمراء مبتلعة) هو:",
+    "options": [
+     [
+      "Cyst",
+      "الكيس"
+     ],
+     [
+      "Egg",
+      "البيضة"
+     ],
+     [
+      "Trophozoite",
+      "الطور المتغذّي"
+     ],
+     [
+      "Larva",
+      "اليرقة"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/troph-cyst.jpg",
+    "img_h": "30mm"
+   },
+   {
+    "en": "The organism in this figure moves by:",
+    "ar": "يتحرّك الكائن في هذا الشكل بواسطة:",
+    "options": [
+     [
+      "Cilia",
+      "الأهداب"
+     ],
+     [
+      "Pseudopodia",
+      "الأقدام الكاذبة"
+     ],
+     [
+      "No organelles of motility",
+      "لا عُضيّات حركة"
+     ],
+     [
+      "Flagella",
+      "الأسواط"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/giardia.jpg",
+    "img_h": "40mm"
+   },
+   {
+    "en": "The organism in this figure (with ectoplasm and endoplasm) moves by:",
+    "ar": "يتحرّك الكائن في هذا الشكل (بسايتوبلازم خارجي وداخلي) بواسطة:",
+    "options": [
+     [
+      "Pseudopodia",
+      "الأقدام الكاذبة"
+     ],
+     [
+      "Flagella",
+      "الأسواط"
+     ],
+     [
+      "Cilia",
+      "الأهداب"
+     ],
+     [
+      "Ventral disc",
+      "القرص البطني"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/amoeba.jpg",
+    "img_h": "40mm"
+   },
+   {
+    "en": "This image is on the slide of a group that is:",
+    "ar": "هذه الصورة في شريحة مجموعة تكون:",
+    "options": [
+     [
+      "Covered with short hairs (cilia)",
+      "مغطّاة بشعيرات قصيرة (أهداب)"
+     ],
+     [
+      "Intracellular parasites",
+      "طفيليات داخل خلوية"
+     ],
+     [
+      "Moving by pseudopodia",
+      "متحرّكة بالأقدام الكاذبة"
+     ],
+     [
+      "Moving by flagella",
+      "متحرّكة بالأسواط"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/plasmodium-smear.jpg",
+    "img_h": "36mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Dogs and cats are a source of parasitic infections.",
+    "ar": "الكلاب والقطط مصدر للعدوى الطفيلية.",
+    "answer": "T"
+   },
+   {
+    "en": "Toxoplasma gondii is an example of entry through the skin.",
+    "ar": "المقوّسة الغوندية مثال على الدخول عن طريق الجلد.",
+    "answer": "F"
+   },
+   {
+    "en": "In the direct life cycle the parasite does not involve any intermediate host.",
+    "ar": "في دورة الحياة المباشرة لا يشمل الطفيلي أي مضيف وسطي.",
+    "answer": "T"
+   },
+   {
+    "en": "Metazoa consist of a single celled organism.",
+    "ar": "تتكوّن البعديات من كائن وحيد الخلية.",
+    "answer": "F"
+   },
+   {
+    "en": "Most protozoan species are free living.",
+    "ar": "معظم أنواع الأوالي حرّة المعيشة.",
+    "answer": "T"
+   },
+   {
+    "en": "All protozoa are visible to the naked eye.",
+    "ar": "جميع الأوالي مرئية بالعين المجرّدة.",
+    "answer": "F"
+   },
+   {
+    "en": "Budding is an asexual method of reproduction in protozoa.",
+    "ar": "التبرعم طريقة تكاثر لاجنسي في الأوالي.",
+    "answer": "T"
+   },
+   {
+    "en": "Cysts multiply by binary fission.",
+    "ar": "الأكياس تتكاثر بالانشطار الثنائي.",
+    "answer": "F"
+   },
+   {
+    "en": "The ciliates are propelled by rows of cilia that beat with a synchronized wavelike motion.",
+    "ar": "تندفع الهدبيات بصفوف من الأهداب تضرب بحركة موجية متزامنة.",
+    "answer": "T"
+   },
+   {
+    "en": "The amoebae move by flagella.",
+    "ar": "تتحرّك الأميبات بالأسواط.",
+    "answer": "F"
+   },
+   {
+    "en": "Ciliates have cyst and trophozoit.",
+    "ar": "للهدبيات كيس وطور متغذٍّ.",
+    "answer": "T"
+   },
+   {
+    "en": "Coccidia reproduce asexually by sporogony.",
+    "ar": "تتكاثر الكوكسيديا لاجنسيًا بتكوين الأبواغ.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Direct vs indirect life cycle.",
+    "ar": "دورة الحياة المباشرة مقابل غير المباشرة.",
+    "answer_en": "Direct: no intermediate host between parasite and its host. Indirect: necessarily one or more intermediate hosts to complete its life cycle.",
+    "answer_ar": "المباشرة: لا مضيف وسطي بين الطفيلي ومضيفه. غير المباشرة: مضيف وسطي واحد أو أكثر بالضرورة لإكمال دورة حياته."
+   },
+   {
+    "en": "Trophozoite vs cyst.",
+    "ar": "الطور المتغذّي مقابل الكيس.",
+    "answer_en": "Trophozoite: motile vegetative stage, multiplies via binary fission, colonizes host. Cyst: inactive, non-motile, infective stage with a cyst wall; cysts do not multiply.",
+    "answer_ar": "الطور المتغذّي: خضري متحرّك يتكاثر بالانشطار الثنائي ويستعمر المضيف. الكيس: غير نشط وغير متحرّك ومُعدٍ وله جدار؛ الأكياس لا تتكاثر."
+   },
+   {
+    "en": "Seven phyla vs four subdivisions.",
+    "ar": "سبع شُعب مقابل أربعة أقسام فرعية.",
+    "answer_en": "Seven phyla: classification on the basis of light and electron microscopic morphology. Four subdivisions: according to the methods of locomotion.",
+    "answer_ar": "سبع شُعب: تصنيف على أساس الشكل تحت المجهر الضوئي والإلكتروني. أربعة أقسام: حسب طرائق الحركة."
+   },
+   {
+    "en": "Ciliates reproduction — sexual or asexual?",
+    "ar": "تكاثر الهدبيات — جنسي أم لاجنسي؟",
+    "answer_en": "Both: asexually by binary fission and sexually by conjugation.",
+    "answer_ar": "كلاهما: لاجنسيًا بالانشطار الثنائي وجنسيًا بالاقتران."
+   },
+   {
+    "en": "Coccidia reproduction — which process is sexual?",
+    "ar": "تكاثر الكوكسيديا — أيّ عملية جنسية؟",
+    "answer_en": "Asexually by schizgony or merogony; sexually by sporogony.",
+    "answer_ar": "لاجنسيًا بالتقسّم المتعدّد أو التقسّم الميروزوئيتي؛ وجنسيًا بتكوين الأبواغ."
+   },
+   {
+    "en": "Entamoeba histolytica vs Entamoeba gingivalis — route of entry.",
+    "ar": "الأميبا الحالّة للنسيج مقابل أميبا اللثة — طريق الدخول.",
+    "answer_en": "Entamoeba histolytica: mouth. Entamoeba gingivalis: kissing.",
+    "answer_ar": "الأميبا الحالّة للنسيج: الفم. أميبا اللثة: التقبيل."
+   }
+  ],
+  "important": [
+   {
+    "en": "Mention the sources of parasitic infections.",
+    "ar": "اذكر مصادر العدوى الطفيلية.",
+    "answer_en": "Contaminated food, water and soil; vectors; dogs and cats; raw or undercooked pork or beef meat; raw or undercooked fish & crab meat; autoinfection; human.",
+    "answer_ar": "الغذاء والماء والتربة الملوّثة؛ النواقل؛ الكلاب والقطط؛ لحم الخنزير أو البقر النيّء أو غير المطبوخ جيدًا؛ لحم السمك والسلطعون النيّء أو غير المطبوخ جيدًا؛ العدوى الذاتية؛ الإنسان."
+   },
+   {
+    "en": "Mention the routes of entry of parasites with one example each.",
+    "ar": "اذكر طرق دخول الطفيليات مع مثال لكل منها.",
+    "answer_en": "Mouth (Entamoeba histolytica); Skin (schistosomiasis); Sexual contact (Trichomonas vaginalis); Congenital (Toxoplasma gondii); Inhalation (Entrobius vermicularis); Kissing (Entamoeba gingivalis); Blood transfusion (malaria parasite).",
+    "answer_ar": "الفم (الأميبا الحالّة للنسيج)؛ الجلد (البلهارزيا)؛ الاتصال الجنسي (المشعّرة المهبلية)؛ خِلقيًا (المقوّسة الغوندية)؛ الاستنشاق (الدودة الدبّوسية)؛ التقبيل (أميبا اللثة)؛ نقل الدم (طفيلي الملاريا)."
+   },
+   {
+    "en": "What are the three main groups of parasites?",
+    "ar": "ما المجموعات الرئيسة الثلاث للطفيليات؟",
+    "answer_en": "Protozoa, Metazoa and Arthropoda (Medical Entomology).",
+    "answer_ar": "الأوالي، والبعديات، ومفصليات الأرجل (علم الحشرات الطبية)."
+   },
+   {
+    "en": "Mention the methods of reproduction in protozoa.",
+    "ar": "اذكر طرائق التكاثر في الأوالي.",
+    "answer_en": "Asexual: budding, binary fission, schizogony or multiple fission. Sexual: conjugation, gametogony.",
+    "answer_ar": "اللاجنسي: التبرعم، الانشطار الثنائي، التقسّم المتعدّد أو الانشطار المتعدّد. الجنسي: الاقتران، تكوين الأمشاج."
+   },
+   {
+    "en": "Mention the two stages of protozoa.",
+    "ar": "اذكر طورَي الأوالي.",
+    "answer_en": "Trophozoite (motile vegetative stage) and Cyst (inactive, non-motile, infective stage).",
+    "answer_ar": "الطور المتغذّي (الطور الخضري المتحرّك) والكيس (الطور غير النشط وغير المتحرّك والمُعدي)."
+   },
+   {
+    "en": "Classify protozoa according to the methods of locomotion.",
+    "ar": "صنّف الأوالي حسب طرائق الحركة.",
+    "answer_en": "The amoebae (Sarcodina): pseudopodia; the flagellates (Mastigophora): flagella; the ciliates (Ciliata): cilia; the Apicomplexa or Coccidian: lack specialized organelles of motility.",
+    "answer_ar": "الأميبات: الأقدام الكاذبة؛ السوطيات: الأسواط؛ الهدبيات: الأهداب؛ المعقّدات القمّية أو الكوكسيديا: تفتقر إلى عُضيّات متخصّصة للحركة."
+   },
+   {
+    "en": "Give examples of the flagellates and of the Apicomplexa.",
+    "ar": "اذكر أمثلة على السوطيات وعلى المعقّدات القمّية.",
+    "answer_en": "Flagellates: G. lamblia, Trypanosoma and Leishmania. Apicomplexa: Plasmodium species, Toxoplasma gondii and Cryptosporiduim parvum.",
+    "answer_ar": "السوطيات: الجيارديا اللامبلية والمثقبيات والليشمانيا. المعقّدات القمّية: أنواع البلازموديوم والمقوّسة الغوندية والخبيئة الصغيرة."
+   }
+  ]
+ }
+}
