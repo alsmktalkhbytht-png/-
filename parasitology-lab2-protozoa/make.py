@@ -367,7 +367,8 @@ important = [
 meta = dict(subject_en="Diagnostic Parasitology", subject_ar="الطفيليات التشخيصية", short_ar="طفيليات",
             unit_en="Lab 2", unit_ar="العملي 2", unit_label="LAB", unit_no="2",
             title_en="Parasitic infections and Protozoa", title_ar="العدوى الطفيلية والأوالي",
-            kind="Laboratories — عملي", stage="The fourth stage — الرابعة", instructor="د. ناريمان حسن")
+            kind="Laboratories — عملي", stage="The fourth stage — الرابعة", instructor="د. ناريمان حسن",
+            file_name="طفيليات عملي المحاضرة الثانية", questions_suffix=" اسئلة")   # user-chosen file names
 
 folder = "parasitology-lab2-protozoa"
 qs = [q for q in mcq if "answer" in q]

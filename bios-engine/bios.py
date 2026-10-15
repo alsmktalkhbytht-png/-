@@ -519,7 +519,7 @@ def build(path, html_only=False):
             qpages = paginate(question_items(Q), os.path.join(out_dir, "questions.html"), qsub, set())
             html_pages += [page("".join(p), n_pages + n, qsub) for n, p in enumerate(qpages, 1)]
             n_pages += len(qpages)
-            stale = os.path.join(base_dir, name + " - الأسئلة.pdf")
+            stale = os.path.join(base_dir, name + M.get("questions_suffix", " - الأسئلة") + ".pdf")
             if os.path.exists(stale):
                 os.remove(stale)
         open(tmp, "w").write(doc(name, html_pages))
@@ -535,7 +535,7 @@ def build(path, html_only=False):
                     Q.get("title_ar", M["title_ar"] + " — بنك الأسئلة"), M["kind"])]
         hp += [page("".join(p), n, qsub) for n, p in enumerate(qpages, 1)]
         open(tmpq, "w").write(doc(name + " - Questions", hp))
-        qname = name + " - الأسئلة" if data["blocks"] else name
+        qname = name + M.get("questions_suffix", " - الأسئلة") if data["blocks"] else name
         outputs.append((tmpq, os.path.join(base_dir, qname + ".pdf"), len(qpages)))
 
     for h, pdf, n in outputs:
