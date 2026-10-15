@@ -1,0 +1,1654 @@
+{
+ "meta": {
+  "subject_en": "Diagnostic Parasitology",
+  "subject_ar": "الطفيليات التشخيصية",
+  "short_ar": "طفيليات",
+  "unit_en": "Lab 3",
+  "unit_ar": "العملي 3",
+  "unit_label": "LAB",
+  "unit_no": "3",
+  "title_en": "Entamoeba histolytica",
+  "title_ar": "الأميبا الحالّة للنسيج",
+  "kind": "Laboratories — عملي",
+  "stage": "The fourth stage — الرابعة",
+  "instructor": "د. ناريمان حسن",
+  "file_name": "طفيليات عملي المحاضرة الثالثة",
+  "questions_suffix": " اسئلة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "They are three groups of amoeaba",
+   "ar": "الأميبات ثلاث مجموعات"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Pathogenic** __Entamoeba histolytic__",
+    "**Nonpathogenic** __Entamoeba coli, E.gingivalis , Endolimax nana Iodamoeba butschilii.__",
+    "**free living** __Neagleria fowleria__"
+   ],
+   "list_ar": [
+    "**المُمرِضة** (`Pathogenic`): الأميبا الحالّة للنسيج (`__Entamoeba histolytic__`)",
+    "**غير المُمرِضة** (`Nonpathogenic`): الأميبا القولونية (`__Entamoeba coli__`)، وأميبا اللثة (`__E.gingivalis__`)، والإندوليماكس القزمة (`__Endolimax nana__`)، واليودأميبا (`__Iodamoeba butschilii__`).",
+    "**حرّة المعيشة** (`free living`): النيغلرية الفاولرية (`__Neagleria fowleria__`)"
+   ],
+   "alpha": true
+  },
+  {
+   "t": "section",
+   "en": "Pathogenic Amoeba",
+   "ar": "الأميبا المُمرِضة"
+  },
+  {
+   "t": "h2",
+   "en": "Entamoeba histolytica",
+   "ar": "الأميبا الحالّة للنسيج"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Rank",
+    "Name",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Kingdom",
+     "Animal",
+     "**المملكة:** الحيوانية"
+    ],
+    [
+     "Phylum",
+     "protozoa",
+     "**الشعبة:** الأوالي"
+    ],
+    [
+     "Subphylum",
+     "Sarcomastigophora",
+     "**الشُّعيبة:** السوطيات اللحمية"
+    ],
+    [
+     "Class",
+     "Sarcodina",
+     "**الصنف:** اللحميات"
+    ],
+    [
+     "Order",
+     "Lobosea",
+     "**الرتبة:** `Lobosea`"
+    ],
+    [
+     "Family",
+     "Endamoebidae",
+     "**العائلة:** `Endamoebidae`"
+    ],
+    [
+     "Genus",
+     "__Entamoeba__",
+     "**الجنس:** الأميبا الداخلية (`Entamoeba`)"
+    ],
+    [
+     "Species",
+     "__histolytica__",
+     "**النوع:** الحالّة للنسيج (`histolytica`)"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    "30mm",
+    "50mm",
+    ""
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Entamoeba histolytica",
+   "ar": "الأميبا الحالّة للنسيج"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Protozoa",
+    "**Geographical distribution:** Worldwide, 10% infected",
+    "**D.H:** Man",
+    "**R.H:** Dogs, pigs, rats and monkeys.",
+    "**Disease:** Amoebiasis or amoebic dysentery",
+    "Exist as trophozoite (I nucleus+_ RBCs) and cysts (4 nuclei)"
+   ],
+   "list_ar": [
+    "من الأوالي",
+    "**التوزيع الجغرافي:** في جميع أنحاء العالم، والمصابون 10%",
+    "**المضيف النهائي** (`D.H`): الإنسان",
+    "**المضيف الخازن** (`R.H`): الكلاب والخنازير والجرذان والقرود.",
+    "**المرض:** داء الأميبات أو الزحار الأميبي",
+    "يوجد بطور متغذٍّ (نواة واحدة `+_` كريات دم حمراء) وأكياس (4 أنوية)"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "E. histolytica — Trophozoite:",
+   "ar": "الأميبا الحالّة للنسيج — الطور المتغذّي:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Large finger – like **pseudopodia**",
+    "Its size (12-30 µm), **Clear_ectoplasm.**",
+    "The **endoplasm is granular and may contain RBCs.**",
+    "It has **one nucleus,** contain small central_karyosome and fine chromatin granules arranged regularly beneath nuclear membrane."
+   ],
+   "list_ar": [
+    "**أقدام كاذبة** كبيرة تشبه الإصبع",
+    "حجمه من 12 إلى 30 مايكرومتر، و**سايتوبلازم خارجي رائق**.",
+    "**السايتوبلازم الداخلي حُبيبي وقد يحتوي على كريات دم حمراء.**",
+    "له **نواة واحدة** تحتوي على جسيم نووي مركزي صغير وحبيبات كروماتين دقيقة مرتّبة بانتظام تحت الغشاء النووي."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/troph-photos.jpg",
+   "en": "Entamoeba histolytica Trophozoite (ingested RBC, vesicular nucleus, central karyosome, pseudopod)",
+   "ar": "الطور المتغذّي لـالأميبا الحالّة للنسيج (كرية دم حمراء مبتلعة، نواة حويصلية، جسيم نووي مركزي، قدم كاذبة)",
+   "h": "46mm",
+   "fit": "contain"
+  },
+  {
+   "t": "figure",
+   "src": "assets/troph-photos2.jpg",
+   "en": "Images on the following slide",
+   "ar": "صور الشريحة التالية",
+   "h": "52mm",
+   "fit": "contain"
+  },
+  {
+   "t": "h2",
+   "en": "Precystic",
+   "ar": "طور ما قبل التكيّس"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Trophozoites undergo encystment in the intestinal lumen.",
+    "Encystment does not occur in the tissues nor in feces outside the body.",
+    "Before encystment, the trophozoite extrudes its food vacuoles and becomes round or oval in shape.",
+    "It contains a large glycogen vacuole and two chromatid bars.",
+    "It then secretes a highly retractile cyst wall around it and becomes cyst."
+   ],
+   "ar": [
+    "تتكيّس الأطوار المتغذّية في تجويف الأمعاء.",
+    "لا يحدث التكيّس في الأنسجة ولا في البراز خارج الجسم.",
+    "قبل التكيّس يطرد الطور المتغذّي فجواته الغذائية ويصبح دائري أو بيضوي الشكل.",
+    "ويحتوي على فجوة غلايكوجين كبيرة وقضيبين كروماتيديين.",
+    "ثم يفرز حوله جدار كيس شديد الانكسار (`retractile`) ويصبح كيسًا."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/precyst.jpg",
+   "en": "Pre - cystic stage (Nucleus)",
+   "ar": "طور ما قبل التكيّس (النواة)",
+   "h": "36mm",
+   "fit": "contain"
+  },
+  {
+   "t": "h2",
+   "en": "Cyst:",
+   "ar": "الكيس:"
+  },
+  {
+   "t": "card",
+   "en": "Small (10 – 20 µm) , spherical in shape, smaller than that of E. coli, containing 1-4 nuclei is usually found in feces . Each nucleus contain similar nuclear morphology like the trophozoite.",
+   "ar": "صغير (من 10 إلى 20 مايكرومتر)، كروي الشكل، أصغر من كيس الأميبا القولونية (`E. coli`)، يحتوي من 1 إلى 4 أنوية، ويوجد عادةً في البراز. وكل نواة لها شكل نووي مماثل لنواة الطور المتغذّي."
+  },
+  {
+   "t": "card",
+   "en": "2- Cyst stage (Luminal form):",
+   "ar": "2- طور الكيس (الشكل التجويفي):",
+   "list_en": [
+    "Immature cyst (Uninucleate cyst and Binucleate cyst): Uninucleate cyst (one nucleus); Binucleate cyst (2 nucleus)",
+    "Mature cyst (Quadrinucleate cyst)"
+   ],
+   "list_ar": [
+    "**الكيس غير الناضج** (أحادي النواة وثنائي النواة): الكيس أحادي النواة (نواة واحدة)؛ الكيس ثنائي النواة (نواتان)",
+    "**الكيس الناضج** (رباعي النواة)"
+   ],
+   "alpha": true
+  },
+  {
+   "t": "figure",
+   "src": "assets/cyst-figs.jpg",
+   "en": "Cysts — Immature cyst (Nuclei 1 to 2, Chromatoid bodies) and Mature cyst (4 nuclei)",
+   "ar": "الأكياس — الكيس غير الناضج (من نواة إلى نواتين، الأجسام الكروماتينية) والكيس الناضج (4 أنوية)",
+   "h": "52mm",
+   "fit": "contain"
+  },
+  {
+   "t": "figure",
+   "src": "assets/cysts-photo.jpg",
+   "en": "Entamoeba histolytica cysts (20um)",
+   "ar": "أكياس الأميبا الحالّة للنسيج (`20 µm`)",
+   "h": "42mm",
+   "fit": "contain"
+  },
+  {
+   "t": "figure",
+   "src": "assets/cysts-grid.jpg",
+   "en": "Images on the same slide (cut at the bottom of the source page)",
+   "ar": "صور من الشريحة نفسها (مقطوعة أسفل صفحة المصدر)",
+   "h": "34mm",
+   "fit": "contain"
+  },
+  {
+   "t": "figure",
+   "src": "assets/troph-precyst-cyst.jpg",
+   "en": "Trophozoite, precyst and cyst of Entamoeba histolytica (Pseudopodium, Ingested food, Nucleus, Pre - cystic stage, Chromatid bar, Uninucleate cyst, Binucleate cyst, Quadrinucleate cyst)",
+   "ar": "الطور المتغذّي وما قبل الكيس والكيس لـالأميبا الحالّة للنسيج (القدم الكاذبة، الغذاء المبتلع، النواة، طور ما قبل التكيّس، القضيب الكروماتيدي، الكيس أحادي النواة، ثنائي النواة، رباعي النواة)",
+   "h": "66mm",
+   "fit": "contain"
+  },
+  {
+   "t": "section",
+   "en": "difference between a cyst and a trophozoite",
+   "ar": "الفرق بين الكيس والطور المتغذّي"
+  },
+  {
+   "t": "table",
+   "head": [
+    "1. Cyst",
+    "2. Trophozoite",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "non-dividing",
+     "dividing (binary fission)",
+     "**الكيس:** لا ينقسم — **المتغذّي:** ينقسم (انشطار ثنائي)"
+    ],
+    [
+     "rigid cell coat",
+     "labile cell membrane",
+     "**الكيس:** غلاف خلوي صلب — **المتغذّي:** غشاء خلوي غير ثابت"
+    ],
+    [
+     "resistant to H20 dryness",
+     "disease causing stage",
+     "**الكيس:** مقاوم للماء (`H20`) والجفاف — **المتغذّي:** الطور المسبّب للمرض"
+    ],
+    [
+     "can survive outside of host in most ambient conditions",
+     "cannot survive outside of host",
+     "**الكيس:** يمكنه البقاء خارج المضيف في معظم الظروف المحيطة — **المتغذّي:** لا يمكنه البقاء خارج المضيف"
+    ],
+    [
+     "transmission stage",
+     "",
+     "**الكيس:** طور الانتقال"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "widths": [
+    "48mm",
+    "44mm",
+    ""
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Encystation and Excystation",
+   "ar": "التكيّس والخروج من الكيس"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Encystation:** the process of forming a cyst or becoming enclosed in a capsule.",
+    "**Excystation:** the stage in the life cycle of a parasite in which it escapes from a cyst (after being swallowed by its host)"
+   ],
+   "list_ar": [
+    "**التكيّس** (`Encystation`): عملية تكوين كيس أو الانغلاق داخل محفظة.",
+    "**الخروج من الكيس** (`Excystation`): المرحلة من دورة حياة الطفيلي التي يخرج فيها من الكيس (بعد أن يبتلعه مضيفه)."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Encystation**",
+   "ar": "**التكيّس**",
+   "list_en": [
+    "Trophozoite round up",
+    "Secretion of cyst wall",
+    "Aggregation of ribosomes (Chromatoid Bodies)",
+    "Two round of nuclear division(1 → 4) nuclei"
+   ],
+   "list_ar": [
+    "يتكوّر الطور المتغذّي",
+    "إفراز جدار الكيس",
+    "تجمّع الرايبوسومات (الأجسام الكروماتينية)",
+    "جولتان من الانقسام النووي (من نواة إلى 4) أنوية"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Excystation**",
+   "ar": "**الخروج من الكيس**",
+   "list_en": [
+    "Occurs in small intestine",
+    "Cyst wall disruption",
+    "Nuclear division (4 → 8)",
+    "Cytoplasmic divisions (8 amebula)",
+    "Trophozoite Migrate to large intestine."
+   ],
+   "list_ar": [
+    "يحدث في الأمعاء الدقيقة",
+    "تمزّق جدار الكيس",
+    "انقسام نووي (من 4 إلى 8)",
+    "انقسامات سايتوبلازمية (8 أميبات صغيرة `amebula`)",
+    "يهاجر الطور المتغذّي إلى الأمعاء الغليظة."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/enc-exc.jpg",
+   "en": "Encystation — Excystation",
+   "ar": "التكيّس — الخروج من الكيس",
+   "h": "60mm",
+   "fit": "contain"
+  },
+  {
+   "t": "section",
+   "en": "Mode of infection",
+   "ar": "طريقة العدوى"
+  },
+  {
+   "t": "card",
+   "en": "Fecal oral: e.g",
+   "ar": "البرازية الفموية: مثل"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Contaminated foods (ex. green vegetables) or drinks or hands with human stool containing mature cyst.",
+    "Flies and cockroaches that carry the cysts from faeces to exposed food."
+   ],
+   "list_ar": [
+    "الأطعمة (مثل الخضروات الورقية) أو المشروبات أو الأيدي الملوّثة ببراز بشري يحتوي على الكيس الناضج.",
+    "الذباب والصراصر التي تنقل الأكياس من البراز إلى الطعام المكشوف."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "The **incidence** of Amebiasis is common anf high in tropical & subtropical areas especially in areas of **lower socioeconomic status** due to:",
+   "ar": "**معدّل حدوث** داء الأميبات شائع ومرتفع في المناطق الاستوائية وشبه الاستوائية، ولا سيّما في مناطق **المستوى الاجتماعي والاقتصادي المنخفض** بسبب:",
+   "list_en": [
+    "poor sanitation",
+    "overcrowding &",
+    "malntrition"
+   ],
+   "list_ar": [
+    "سوء الصرف الصحي",
+    "الاكتظاظ السكاني",
+    "سوء التغذية"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "It is estimated that up to 10% of the world`s population may infected with __E.histolytica.__",
+   "ar": "يُقدَّر أنّ ما يصل إلى 10% من سكان العالم قد يكونون مصابين بـالأميبا الحالّة للنسيج (`__E.histolytica__`)."
+  },
+  {
+   "t": "card",
+   "en": "Incubation period: 2-4 w",
+   "ar": "فترة الحضانة: من 2 إلى 4 أسابيع"
+  },
+  {
+   "t": "figure",
+   "src": "assets/life-cycle.jpg",
+   "en": "Life cycle figure (cut at the bottom of the source page)",
+   "ar": "مخطط دورة الحياة (مقطوع أسفل صفحة المصدر)",
+   "h": "80mm",
+   "fit": "contain"
+  },
+  {
+   "t": "card",
+   "en": "Text written on the life cycle figure:",
+   "ar": "النص المكتوب على مخطط دورة الحياة:",
+   "list_en": [
+    "Ingestion in contaminated food and water",
+    "Mature cyst",
+    "Excystation: One trophozoite with four nuclei emerges, divides three times and each nucleus divides once to produce eight trophozoites from each cyst",
+    "Trophozoites migrate to the large intestine",
+    "Trophozoites multiply by binary fission",
+    "Trophozoites invade the intestinal mucosa",
+    "Invasive infection through the bloodstream, infecting sites such as the liver, brain, and lungs.",
+    "Noninvasive infection Cysts exit host in the stool",
+    "Immature cyst",
+    "Quadrinucleate cyst"
+   ],
+   "list_ar": [
+    "الابتلاع في الطعام والماء الملوّثين",
+    "الكيس الناضج",
+    "الخروج من الكيس: يخرج طور متغذٍّ واحد بأربع أنوية، وينقسم ثلاث مرات وكل نواة تنقسم مرة واحدة لإنتاج ثمانية أطوار متغذّية من كل كيس",
+    "تهاجر الأطوار المتغذّية إلى الأمعاء الغليظة",
+    "تتكاثر الأطوار المتغذّية بالانشطار الثنائي",
+    "تغزو الأطوار المتغذّية الغشاء المخاطي المعوي",
+    "العدوى الغازية عبر مجرى الدم، فتصيب مواقع مثل الكبد والدماغ والرئتين.",
+    "العدوى غير الغازية: تخرج الأكياس من المضيف مع البراز",
+    "الكيس غير الناضج",
+    "الكيس رباعي النواة"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "AMOEBIASIS",
+   "ar": "داء الأميبات"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "ASYMPTOMATIC 85-95%",
+    "SYMPTOMATIC 5-15%"
+   ],
+   "list_ar": [
+    "**عديم الأعراض:** من 85 إلى 95%",
+    "**مصحوب بأعراض:** من 5 إلى 15%"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Intestina amoebiasis**",
+   "ar": "**داء الأميبات المعوي**",
+   "list_en": [
+    "Amoebic dysentery",
+    "Non -dysenteric colitis",
+    "Amoebic appendicitis",
+    "Posit-dysenteric colitis",
+    "Complication of all above"
+   ],
+   "list_ar": [
+    "الزحار الأميبي",
+    "التهاب القولون غير الزحاري",
+    "التهاب الزائدة الأميبي",
+    "التهاب القولون التالي للزحار (`Posit-dysenteric`)",
+    "مضاعفات كل ما سبق"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Extraintestina amoebiasis** (5% of symptomatic cases)",
+   "ar": "**داء الأميبات خارج المعوي** (5% من الحالات المصحوبة بأعراض)",
+   "list_en": [
+    "Amoebic hepatitis",
+    "Amoebic liver abscess",
+    "Pulmonary amoebiasis",
+    "Cerebral amoebiasis",
+    "Cutaneous amoebiasis",
+    "Splenic abscess",
+    "Urogenital tract amoebiasis"
+   ],
+   "list_ar": [
+    "التهاب الكبد الأميبي",
+    "خُرّاج الكبد الأميبي",
+    "داء الأميبات الرئوي",
+    "داء الأميبات الدماغي",
+    "داء الأميبات الجلدي",
+    "خُرّاج الطحال",
+    "داء الأميبات في الجهاز البولي التناسلي"
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/flask-ulcer.jpg",
+     "en": "FLASK-SHAPED ULCER",
+     "ar": "القرحة الدورقية الشكل",
+     "h": "62mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/liver-abscess.jpg",
+     "en": "LIVER ABSCESS",
+     "ar": "خُرّاج الكبد",
+     "h": "62mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Laboratory diagnosis",
+   "ar": "التشخيص المختبري"
+  },
+  {
+   "t": "card",
+   "en": "Microscopic identification of cysts and trophozoites in the stool is the common method for diagnosing __E. histolytica.__",
+   "ar": "التعرّف المجهري على الأكياس والأطوار المتغذّية في البراز هو الطريقة الشائعة لتشخيص الأميبا الحالّة للنسيج."
+  },
+  {
+   "t": "card",
+   "en": "In intestinal amoebiasis:",
+   "ar": "في داء الأميبات المعوي:",
+   "list_en": [
+    "Examination of a fresh dysenteric faecal specimen for trophozoite stage. (in case of dysentery contain RBCs).",
+    "Examination of formed or semiformed faeces for cyst stage. (Cysts indicate infection with a pathogenic __E.histolytica.__)"
+   ],
+   "list_ar": [
+    "فحص عيّنة براز زحارية طازجة بحثًا عن الطور المتغذّي (في حالة الزحار يحتوي على كريات دم حمراء).",
+    "فحص البراز المتماسك أو شبه المتماسك بحثًا عن طور الكيس (الأكياس تدلّ على الإصابة بـالأميبا الحالّة للنسيج المُمرِضة)."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Diagnosis",
+   "ar": "التشخيص"
+  },
+  {
+   "t": "card",
+   "en": "**In intestinal amoebiasis:**",
+   "ar": "**في داء الأميبات المعوي:**",
+   "list_en": [
+    "Examination of a fresh dysenteric faecal specimen or rectal scraping for trophozoite stage. (Motile amoebae containing red cells are diagnostic of amoebic dysentery).",
+    "Examination of formed or semiformed faeces for cyst stage. (Cysts indicate infection with either a pathogenic __E.histolytica__ or non-pathogenic __E.dispar.__)"
+   ],
+   "list_ar": [
+    "فحص عيّنة براز زحارية طازجة أو كشط المستقيم بحثًا عن الطور المتغذّي (الأميبات المتحرّكة المحتوية على كريات حمراء مشخِّصة للزحار الأميبي).",
+    "فحص البراز المتماسك أو شبه المتماسك بحثًا عن طور الكيس (الأكياس تدلّ على الإصابة إمّا بـالأميبا الحالّة للنسيج المُمرِضة أو بالأميبا المتباينة غير المُمرِضة `__E.dispar__`)."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Extraintestinal amoebiasis**",
+   "ar": "**داء الأميبات خارج المعوي**",
+   "list_en": [
+    "Hepatic amoebiasis : based on aspirate & liver biopsy to identify trophozoite.",
+    "Pulmonary ; based on identify trophzoites in sputum sample.",
+    "Serlogical tests :",
+    "IHA,IFAT",
+    "ELISA,PCR (distinguishes __E.histolytica__ from __E. dispar__)."
+   ],
+   "list_ar": [
+    "داء الأميبات الكبدي: يعتمد على الرشافة وخزعة الكبد للتعرّف على الطور المتغذّي.",
+    "الرئوي: يعتمد على التعرّف على الأطوار المتغذّية في عيّنة القشع.",
+    "الفحوص المصلية:",
+    "التلازن الدموي غير المباشر والتألّق المناعي غير المباشر (`IHA, IFAT`)",
+    "الإليزا وتفاعل البلمرة المتسلسل (`ELISA, PCR`) (يميّزان الأميبا الحالّة للنسيج عن الأميبا المتباينة `__E. dispar__`)."
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Groups and classification",
+    "topic_ar": "المجموعات والتصنيف"
+   },
+   {
+    "en": "The pathogenic amoeba is:",
+    "ar": "الأميبا المُمرِضة هي:",
+    "options": [
+     [
+      "Entamoeba histolytica",
+      "الأميبا الحالّة للنسيج"
+     ],
+     [
+      "Entamoeba coli",
+      "الأميبا القولونية"
+     ],
+     [
+      "Endolimax nana",
+      "الإندوليماكس القزمة"
+     ],
+     [
+      "Neagleria fowleria",
+      "النيغلرية الفاولرية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The free living amoeba is:",
+    "ar": "الأميبا حرّة المعيشة هي:",
+    "options": [
+     [
+      "E.gingivalis",
+      "أميبا اللثة"
+     ],
+     [
+      "Neagleria fowleria",
+      "النيغلرية الفاولرية"
+     ],
+     [
+      "Entamoeba histolytica",
+      "الأميبا الحالّة للنسيج"
+     ],
+     [
+      "Iodamoeba butschilii",
+      "اليودأميبا"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which of the following is nonpathogenic?",
+    "ar": "أيّ ممّا يأتي غير مُمرِض؟",
+    "options": [
+     [
+      "Entamoeba histolytica",
+      "الأميبا الحالّة للنسيج"
+     ],
+     [
+      "Neagleria fowleria",
+      "النيغلرية الفاولرية"
+     ],
+     [
+      "Entamoeba coli",
+      "الأميبا القولونية"
+     ],
+     [
+      "None of them",
+      "لا شيء منها"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The class of Entamoeba histolytica is:",
+    "ar": "صنف الأميبا الحالّة للنسيج هو:",
+    "options": [
+     [
+      "Lobosea",
+      "`Lobosea`"
+     ],
+     [
+      "Endamoebidae",
+      "`Endamoebidae`"
+     ],
+     [
+      "Sarcomastigophora",
+      "السوطيات اللحمية"
+     ],
+     [
+      "Sarcodina",
+      "اللحميات"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The family of Entamoeba histolytica is:",
+    "ar": "عائلة الأميبا الحالّة للنسيج هي:",
+    "options": [
+     [
+      "Endamoebidae",
+      "`Endamoebidae`"
+     ],
+     [
+      "Lobosea",
+      "`Lobosea`"
+     ],
+     [
+      "Sarcodina",
+      "اللحميات"
+     ],
+     [
+      "Protozoa",
+      "الأوالي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "General features",
+    "topic_ar": "الصفات العامة"
+   },
+   {
+    "en": "The definitive host (D.H) of E. histolytica is:",
+    "ar": "المضيف النهائي لـالأميبا الحالّة للنسيج هو:",
+    "options": [
+     [
+      "Dogs",
+      "الكلاب"
+     ],
+     [
+      "Man",
+      "الإنسان"
+     ],
+     [
+      "Pigs",
+      "الخنازير"
+     ],
+     [
+      "Flies",
+      "الذباب"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which of the following is a reservoir host (R.H) of E. histolytica?",
+    "ar": "أيّ ممّا يأتي مضيف خازن لـالأميبا الحالّة للنسيج؟",
+    "options": [
+     [
+      "Cockroaches",
+      "الصراصر"
+     ],
+     [
+      "Man",
+      "الإنسان"
+     ],
+     [
+      "Monkeys",
+      "القرود"
+     ],
+     [
+      "Mosquitoes",
+      "البعوض"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The disease caused by E. histolytica is:",
+    "ar": "المرض الذي تسبّبه الأميبا الحالّة للنسيج هو:",
+    "options": [
+     [
+      "Malaria",
+      "الملاريا"
+     ],
+     [
+      "Giardiasis",
+      "داء الجيارديا"
+     ],
+     [
+      "Leishmaniasis",
+      "داء الليشمانيات"
+     ],
+     [
+      "Amoebiasis or amoebic dysentery",
+      "داء الأميبات أو الزحار الأميبي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The mature cyst of E. histolytica contains:",
+    "ar": "يحتوي الكيس الناضج لـالأميبا الحالّة للنسيج على:",
+    "options": [
+     [
+      "4 nuclei",
+      "4 أنوية"
+     ],
+     [
+      "1 nucleus",
+      "نواة واحدة"
+     ],
+     [
+      "2 nuclei",
+      "نواتين"
+     ],
+     [
+      "8 nuclei",
+      "8 أنوية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Trophozoite, precyst and cyst",
+    "topic_ar": "الطور المتغذّي وما قبل الكيس والكيس"
+   },
+   {
+    "en": "The size of the E. histolytica trophozoite is:",
+    "ar": "حجم الطور المتغذّي لـالأميبا الحالّة للنسيج هو:",
+    "options": [
+     [
+      "10 – 20 µm",
+      "من 10 إلى 20 مايكرومتر"
+     ],
+     [
+      "12-30 µm",
+      "من 12 إلى 30 مايكرومتر"
+     ],
+     [
+      "2-4 µm",
+      "من 2 إلى 4 مايكرومتر"
+     ],
+     [
+      "50-60 µm",
+      "من 50 إلى 60 مايكرومتر"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The pseudopodia of the E. histolytica trophozoite are:",
+    "ar": "الأقدام الكاذبة للطور المتغذّي لـالأميبا الحالّة للنسيج هي:",
+    "options": [
+     [
+      "Absent",
+      "غائبة"
+     ],
+     [
+      "Short and blunt",
+      "قصيرة وكليلة"
+     ],
+     [
+      "Large finger – like",
+      "كبيرة تشبه الإصبع"
+     ],
+     [
+      "Whip like",
+      "تشبه السوط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The endoplasm of the trophozoite is granular and may contain:",
+    "ar": "السايتوبلازم الداخلي للطور المتغذّي حُبيبي وقد يحتوي على:",
+    "options": [
+     [
+      "Chromatoid bodies only",
+      "أجسام كروماتينية فقط"
+     ],
+     [
+      "Four nuclei",
+      "أربع أنوية"
+     ],
+     [
+      "A cyst wall",
+      "جدار كيس"
+     ],
+     [
+      "RBCs",
+      "كريات دم حمراء"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Encystment occurs in:",
+    "ar": "يحدث التكيّس في:",
+    "options": [
+     [
+      "The intestinal lumen",
+      "تجويف الأمعاء"
+     ],
+     [
+      "The tissues",
+      "الأنسجة"
+     ],
+     [
+      "Feces outside the body",
+      "البراز خارج الجسم"
+     ],
+     [
+      "The liver",
+      "الكبد"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The precystic stage contains a large glycogen vacuole and:",
+    "ar": "يحتوي طور ما قبل التكيّس على فجوة غلايكوجين كبيرة و:",
+    "options": [
+     [
+      "Four nuclei",
+      "أربع أنوية"
+     ],
+     [
+      "Two chromatid bars",
+      "قضيبين كروماتيديين"
+     ],
+     [
+      "Ingested RBCs",
+      "كريات دم حمراء مبتلعة"
+     ],
+     [
+      "Flagella",
+      "أسواط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The size of the E. histolytica cyst is:",
+    "ar": "حجم كيس الأميبا الحالّة للنسيج هو:",
+    "options": [
+     [
+      "12-30 µm",
+      "من 12 إلى 30 مايكرومتر"
+     ],
+     [
+      "2-4 µm",
+      "من 2 إلى 4 مايكرومتر"
+     ],
+     [
+      "10 – 20 µm",
+      "من 10 إلى 20 مايكرومتر"
+     ],
+     [
+      "30-40 µm",
+      "من 30 إلى 40 مايكرومتر"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The mature cyst is also called:",
+    "ar": "يُسمّى الكيس الناضج أيضًا:",
+    "options": [
+     [
+      "Uninucleate cyst",
+      "الكيس أحادي النواة"
+     ],
+     [
+      "Binucleate cyst",
+      "الكيس ثنائي النواة"
+     ],
+     [
+      "Precyst",
+      "ما قبل الكيس"
+     ],
+     [
+      "Quadrinucleate cyst",
+      "الكيس رباعي النواة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Cyst vs trophozoite; encystation and excystation",
+    "topic_ar": "الكيس مقابل المتغذّي؛ التكيّس والخروج منه"
+   },
+   {
+    "en": "The transmission stage is the:",
+    "ar": "طور الانتقال هو:",
+    "options": [
+     [
+      "Cyst",
+      "الكيس"
+     ],
+     [
+      "Trophozoite",
+      "الطور المتغذّي"
+     ],
+     [
+      "Precyst",
+      "ما قبل الكيس"
+     ],
+     [
+      "Amebula",
+      "الأميبة الصغيرة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The disease causing stage is the:",
+    "ar": "الطور المسبّب للمرض هو:",
+    "options": [
+     [
+      "Cyst",
+      "الكيس"
+     ],
+     [
+      "Trophozoite",
+      "الطور المتغذّي"
+     ],
+     [
+      "Mature cyst",
+      "الكيس الناضج"
+     ],
+     [
+      "Uninucleate cyst",
+      "الكيس أحادي النواة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which of the following describes the cyst?",
+    "ar": "أيّ ممّا يأتي يصف الكيس؟",
+    "options": [
+     [
+      "Dividing (binary fission)",
+      "ينقسم (انشطار ثنائي)"
+     ],
+     [
+      "Labile cell membrane",
+      "غشاء خلوي غير ثابت"
+     ],
+     [
+      "Rigid cell coat",
+      "غلاف خلوي صلب"
+     ],
+     [
+      "Cannot survive outside of host",
+      "لا يبقى خارج المضيف"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Excystation occurs in:",
+    "ar": "يحدث الخروج من الكيس في:",
+    "options": [
+     [
+      "Large intestine",
+      "الأمعاء الغليظة"
+     ],
+     [
+      "Liver",
+      "الكبد"
+     ],
+     [
+      "Feces outside the body",
+      "البراز خارج الجسم"
+     ],
+     [
+      "Small intestine",
+      "الأمعاء الدقيقة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "During encystation, nuclear division is:",
+    "ar": "خلال التكيّس يكون الانقسام النووي:",
+    "options": [
+     [
+      "1 → 4",
+      "من 1 إلى 4"
+     ],
+     [
+      "4 → 8",
+      "من 4 إلى 8"
+     ],
+     [
+      "1 → 2 only",
+      "من 1 إلى 2 فقط"
+     ],
+     [
+      "8 → 16",
+      "من 8 إلى 16"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Aggregation of ribosomes during encystation forms:",
+    "ar": "تجمّع الرايبوسومات خلال التكيّس يكوّن:",
+    "options": [
+     [
+      "Glycogen vacuole",
+      "فجوة الغلايكوجين"
+     ],
+     [
+      "Chromatoid Bodies",
+      "الأجسام الكروماتينية"
+     ],
+     [
+      "Cyst wall",
+      "جدار الكيس"
+     ],
+     [
+      "Pseudopodia",
+      "الأقدام الكاذبة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Cytoplasmic divisions during excystation produce:",
+    "ar": "الانقسامات السايتوبلازمية خلال الخروج من الكيس تنتج:",
+    "options": [
+     [
+      "4 cysts",
+      "4 أكياس"
+     ],
+     [
+      "2 trophozoites",
+      "طورين متغذّيين"
+     ],
+     [
+      "8 amebula",
+      "8 أميبات صغيرة"
+     ],
+     [
+      "16 nuclei",
+      "16 نواة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Mode of infection and amoebiasis",
+    "topic_ar": "طريقة العدوى وداء الأميبات"
+   },
+   {
+    "en": "The infective stage in contaminated food or drinks is the:",
+    "ar": "الطور المُعدي في الطعام أو المشروبات الملوّثة هو:",
+    "options": [
+     [
+      "Trophozoite",
+      "الطور المتغذّي"
+     ],
+     [
+      "Precyst",
+      "ما قبل الكيس"
+     ],
+     [
+      "Uninucleate cyst",
+      "الكيس أحادي النواة"
+     ],
+     [
+      "Mature cyst",
+      "الكيس الناضج"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The incubation period of amoebiasis is:",
+    "ar": "فترة حضانة داء الأميبات هي:",
+    "options": [
+     [
+      "2-4 w",
+      "من 2 إلى 4 أسابيع"
+     ],
+     [
+      "2-4 days",
+      "من 2 إلى 4 أيام"
+     ],
+     [
+      "2-4 months",
+      "من 2 إلى 4 أشهر"
+     ],
+     [
+      "24 hours",
+      "24 ساعة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Up to what percentage of the world`s population may be infected with E.histolytica?",
+    "ar": "إلى أي نسبة من سكان العالم قد يكونون مصابين بـالأميبا الحالّة للنسيج؟",
+    "options": [
+     [
+      "1%",
+      "1%"
+     ],
+     [
+      "10%",
+      "10%"
+     ],
+     [
+      "50%",
+      "50%"
+     ],
+     [
+      "85%",
+      "85%"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Asymptomatic amoebiasis represents:",
+    "ar": "يمثّل داء الأميبات عديم الأعراض:",
+    "options": [
+     [
+      "5-15%",
+      "من 5 إلى 15%"
+     ],
+     [
+      "5%",
+      "5%"
+     ],
+     [
+      "85-95%",
+      "من 85 إلى 95%"
+     ],
+     [
+      "10%",
+      "10%"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which of the following is an extraintestinal amoebiasis?",
+    "ar": "أيّ ممّا يأتي من داء الأميبات خارج المعوي؟",
+    "options": [
+     [
+      "Amoebic dysentery",
+      "الزحار الأميبي"
+     ],
+     [
+      "Amoebic appendicitis",
+      "التهاب الزائدة الأميبي"
+     ],
+     [
+      "Non -dysenteric colitis",
+      "التهاب القولون غير الزحاري"
+     ],
+     [
+      "Amoebic liver abscess",
+      "خُرّاج الكبد الأميبي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Extraintestinal amoebiasis represents what percentage of symptomatic cases?",
+    "ar": "يمثّل داء الأميبات خارج المعوي أي نسبة من الحالات المصحوبة بأعراض؟",
+    "options": [
+     [
+      "5%",
+      "5%"
+     ],
+     [
+      "15%",
+      "15%"
+     ],
+     [
+      "85%",
+      "85%"
+     ],
+     [
+      "95%",
+      "95%"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Laboratory diagnosis",
+    "topic_ar": "التشخيص المختبري"
+   },
+   {
+    "en": "The common method for diagnosing E. histolytica is:",
+    "ar": "الطريقة الشائعة لتشخيص الأميبا الحالّة للنسيج هي:",
+    "options": [
+     [
+      "Culture of blood",
+      "زرع الدم"
+     ],
+     [
+      "Microscopic identification of cysts and trophozoites in the stool",
+      "التعرّف المجهري على الأكياس والأطوار المتغذّية في البراز"
+     ],
+     [
+      "Urine examination",
+      "فحص الإدرار"
+     ],
+     [
+      "X-ray",
+      "الأشعة السينية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Motile amoebae containing red cells are diagnostic of:",
+    "ar": "الأميبات المتحرّكة المحتوية على كريات حمراء مشخِّصة لـ:",
+    "options": [
+     [
+      "Liver abscess",
+      "خُرّاج الكبد"
+     ],
+     [
+      "Pulmonary amoebiasis",
+      "داء الأميبات الرئوي"
+     ],
+     [
+      "Amoebic dysentery",
+      "الزحار الأميبي"
+     ],
+     [
+      "Asymptomatic infection",
+      "العدوى عديمة الأعراض"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Formed or semiformed faeces are examined for:",
+    "ar": "يُفحص البراز المتماسك أو شبه المتماسك بحثًا عن:",
+    "options": [
+     [
+      "Trophozoite stage",
+      "الطور المتغذّي"
+     ],
+     [
+      "RBCs only",
+      "كريات الدم الحمراء فقط"
+     ],
+     [
+      "Amebula",
+      "الأميبات الصغيرة"
+     ],
+     [
+      "Cyst stage",
+      "طور الكيس"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Pulmonary amoebiasis is diagnosed by identifying trophozoites in:",
+    "ar": "يُشخَّص داء الأميبات الرئوي بالتعرّف على الأطوار المتغذّية في:",
+    "options": [
+     [
+      "Sputum sample",
+      "عيّنة القشع"
+     ],
+     [
+      "Urine",
+      "الإدرار"
+     ],
+     [
+      "Liver biopsy",
+      "خزعة الكبد"
+     ],
+     [
+      "Rectal scraping",
+      "كشط المستقيم"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The tests that distinguish E.histolytica from E. dispar are:",
+    "ar": "الفحوص التي تميّز الأميبا الحالّة للنسيج عن الأميبا المتباينة هي:",
+    "options": [
+     [
+      "IHA, IFAT",
+      "`IHA, IFAT`"
+     ],
+     [
+      "ELISA, PCR",
+      "`ELISA, PCR`"
+     ],
+     [
+      "Stool microscopy for cysts",
+      "فحص البراز المجهري للأكياس"
+     ],
+     [
+      "Liver biopsy",
+      "خزعة الكبد"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "The stage shown in this image is:",
+    "ar": "الطور الظاهر في هذه الصورة هو:",
+    "options": [
+     [
+      "Mature cyst",
+      "الكيس الناضج"
+     ],
+     [
+      "Precyst",
+      "ما قبل الكيس"
+     ],
+     [
+      "Trophozoite",
+      "الطور المتغذّي"
+     ],
+     [
+      "Amebula",
+      "الأميبة الصغيرة"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/troph-photos.jpg",
+    "img_h": "32mm"
+   },
+   {
+    "en": "These cysts (scale 20um) belong to E. histolytica; their size range is:",
+    "ar": "هذه الأكياس (مقياس 20 مايكرومتر) تعود لـالأميبا الحالّة للنسيج؛ مدى حجمها هو:",
+    "options": [
+     [
+      "12-30 µm",
+      "من 12 إلى 30 مايكرومتر"
+     ],
+     [
+      "30-40 µm",
+      "من 30 إلى 40 مايكرومتر"
+     ],
+     [
+      "2-4 µm",
+      "من 2 إلى 4 مايكرومتر"
+     ],
+     [
+      "10 – 20 µm",
+      "من 10 إلى 20 مايكرومتر"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/cysts-photo.jpg",
+    "img_h": "32mm"
+   },
+   {
+    "en": "The lesion in this image is:",
+    "ar": "الآفة في هذه الصورة هي:",
+    "options": [
+     [
+      "Flask-shaped ulcer",
+      "القرحة الدورقية الشكل"
+     ],
+     [
+      "Liver abscess",
+      "خُرّاج الكبد"
+     ],
+     [
+      "Splenic abscess",
+      "خُرّاج الطحال"
+     ],
+     [
+      "Cutaneous amoebiasis",
+      "داء الأميبات الجلدي"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/flask-ulcer.jpg",
+    "img_h": "36mm"
+   },
+   {
+    "en": "The lesion in this image is:",
+    "ar": "الآفة في هذه الصورة هي:",
+    "options": [
+     [
+      "Flask-shaped ulcer",
+      "القرحة الدورقية الشكل"
+     ],
+     [
+      "Liver abscess",
+      "خُرّاج الكبد"
+     ],
+     [
+      "Amoebic appendicitis",
+      "التهاب الزائدة الأميبي"
+     ],
+     [
+      "Pulmonary amoebiasis",
+      "داء الأميبات الرئوي"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/liver-abscess.jpg",
+    "img_h": "36mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Entamoeba coli is a nonpathogenic amoeba.",
+    "ar": "الأميبا القولونية أميبا غير مُمرِضة.",
+    "answer": "T"
+   },
+   {
+    "en": "Dogs are the definitive host of E. histolytica.",
+    "ar": "الكلاب هي المضيف النهائي لـالأميبا الحالّة للنسيج.",
+    "answer": "F"
+   },
+   {
+    "en": "The E. histolytica trophozoite has one nucleus.",
+    "ar": "للطور المتغذّي لـالأميبا الحالّة للنسيج نواة واحدة.",
+    "answer": "T"
+   },
+   {
+    "en": "Encystment occurs in the tissues.",
+    "ar": "يحدث التكيّس في الأنسجة.",
+    "answer": "F"
+   },
+   {
+    "en": "Before encystment, the trophozoite extrudes its food vacuoles.",
+    "ar": "قبل التكيّس يطرد الطور المتغذّي فجواته الغذائية.",
+    "answer": "T"
+   },
+   {
+    "en": "The E. histolytica cyst is larger than that of E. coli.",
+    "ar": "كيس الأميبا الحالّة للنسيج أكبر من كيس الأميبا القولونية.",
+    "answer": "F"
+   },
+   {
+    "en": "The cyst can survive outside of host in most ambient conditions.",
+    "ar": "يمكن للكيس البقاء خارج المضيف في معظم الظروف المحيطة.",
+    "answer": "T"
+   },
+   {
+    "en": "Excystation occurs in the large intestine.",
+    "ar": "يحدث الخروج من الكيس في الأمعاء الغليظة.",
+    "answer": "F"
+   },
+   {
+    "en": "Flies and cockroaches can carry the cysts from faeces to exposed food.",
+    "ar": "يمكن للذباب والصراصر نقل الأكياس من البراز إلى الطعام المكشوف.",
+    "answer": "T"
+   },
+   {
+    "en": "Most amoebiasis infections are symptomatic.",
+    "ar": "معظم إصابات داء الأميبات مصحوبة بأعراض.",
+    "answer": "F"
+   },
+   {
+    "en": "Hepatic amoebiasis is based on aspirate & liver biopsy to identify trophozoite.",
+    "ar": "يعتمد تشخيص داء الأميبات الكبدي على الرشافة وخزعة الكبد للتعرّف على الطور المتغذّي.",
+    "answer": "T"
+   },
+   {
+    "en": "IHA and IFAT distinguish E.histolytica from E. dispar.",
+    "ar": "يميّز `IHA` و`IFAT` الأميبا الحالّة للنسيج عن الأميبا المتباينة.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Trophozoite size vs cyst size.",
+    "ar": "حجم الطور المتغذّي مقابل حجم الكيس.",
+    "answer_en": "Trophozoite: 12-30 µm. Cyst: 10 – 20 µm.",
+    "answer_ar": "الطور المتغذّي: من 12 إلى 30 مايكرومتر. الكيس: من 10 إلى 20 مايكرومتر."
+   },
+   {
+    "en": "Nuclear division in encystation vs excystation.",
+    "ar": "الانقسام النووي في التكيّس مقابل الخروج من الكيس.",
+    "answer_en": "Encystation: two rounds (1 → 4). Excystation: (4 → 8), then cytoplasmic divisions give 8 amebula.",
+    "answer_ar": "التكيّس: جولتان (من 1 إلى 4). الخروج من الكيس: (من 4 إلى 8)، ثم انقسامات سايتوبلازمية تعطي 8 أميبات صغيرة."
+   },
+   {
+    "en": "Where does encystment occur and where not?",
+    "ar": "أين يحدث التكيّس وأين لا يحدث؟",
+    "answer_en": "It occurs in the intestinal lumen; it does not occur in the tissues nor in feces outside the body.",
+    "answer_ar": "يحدث في تجويف الأمعاء، ولا يحدث في الأنسجة ولا في البراز خارج الجسم."
+   },
+   {
+    "en": "Cysts in formed faeces — do they prove pathogenic infection?",
+    "ar": "الأكياس في البراز المتماسك — هل تثبت إصابة مُمرِضة؟",
+    "answer_en": "The Diagnosis slide states: cysts indicate infection with either a pathogenic E.histolytica or non-pathogenic E.dispar.",
+    "answer_ar": "شريحة التشخيص تذكر: الأكياس تدلّ على الإصابة إمّا بـالأميبا الحالّة للنسيج المُمرِضة أو بالأميبا المتباينة غير المُمرِضة."
+   },
+   {
+    "en": "Transmission stage vs disease causing stage.",
+    "ar": "طور الانتقال مقابل الطور المسبّب للمرض.",
+    "answer_en": "Transmission stage: cyst. Disease causing stage: trophozoite.",
+    "answer_ar": "طور الانتقال: الكيس. الطور المسبّب للمرض: الطور المتغذّي."
+   },
+   {
+    "en": "Asymptomatic vs symptomatic amoebiasis percentages.",
+    "ar": "نسب داء الأميبات عديم الأعراض مقابل المصحوب بأعراض.",
+    "answer_en": "Asymptomatic 85-95%; symptomatic 5-15%; extraintestinal is 5% of symptomatic cases.",
+    "answer_ar": "عديم الأعراض من 85 إلى 95%؛ المصحوب بأعراض من 5 إلى 15%؛ وخارج المعوي 5% من الحالات المصحوبة بأعراض."
+   }
+  ],
+  "important": [
+   {
+    "en": "Mention the three groups of amoeba with examples.",
+    "ar": "اذكر مجموعات الأميبا الثلاث مع الأمثلة.",
+    "answer_en": "Pathogenic: Entamoeba histolytic. Nonpathogenic: Entamoeba coli, E.gingivalis, Endolimax nana, Iodamoeba butschilii. Free living: Neagleria fowleria.",
+    "answer_ar": "المُمرِضة: الأميبا الحالّة للنسيج. غير المُمرِضة: الأميبا القولونية، أميبا اللثة، الإندوليماكس القزمة، اليودأميبا. حرّة المعيشة: النيغلرية الفاولرية."
+   },
+   {
+    "en": "Describe the trophozoite of E. histolytica.",
+    "ar": "صف الطور المتغذّي لـالأميبا الحالّة للنسيج.",
+    "answer_en": "Large finger – like pseudopodia; size 12-30 µm; clear ectoplasm; granular endoplasm that may contain RBCs; one nucleus with small central karyosome and fine chromatin granules arranged regularly beneath nuclear membrane.",
+    "answer_ar": "أقدام كاذبة كبيرة تشبه الإصبع؛ الحجم من 12 إلى 30 مايكرومتر؛ سايتوبلازم خارجي رائق؛ سايتوبلازم داخلي حُبيبي قد يحتوي على كريات حمراء؛ نواة واحدة بجسيم نووي مركزي صغير وحبيبات كروماتين دقيقة منتظمة تحت الغشاء النووي."
+   },
+   {
+    "en": "Describe the cyst of E. histolytica.",
+    "ar": "صف كيس الأميبا الحالّة للنسيج.",
+    "answer_en": "Small (10 – 20 µm), spherical, smaller than that of E. coli, containing 1-4 nuclei; immature (uninucleate, binucleate) and mature (quadrinucleate).",
+    "answer_ar": "صغير (من 10 إلى 20 مايكرومتر)، كروي، أصغر من كيس الأميبا القولونية، يحتوي من 1 إلى 4 أنوية؛ غير ناضج (أحادي وثنائي النواة) وناضج (رباعي النواة)."
+   },
+   {
+    "en": "Mention the differences between a cyst and a trophozoite.",
+    "ar": "اذكر الفروق بين الكيس والطور المتغذّي.",
+    "answer_en": "Cyst: non-dividing, rigid cell coat, resistant to H20 dryness, survives outside host, transmission stage. Trophozoite: dividing (binary fission), labile cell membrane, disease causing stage, cannot survive outside host.",
+    "answer_ar": "الكيس: لا ينقسم، غلاف صلب، مقاوم للماء والجفاف، يبقى خارج المضيف، طور الانتقال. المتغذّي: ينقسم (انشطار ثنائي)، غشاء غير ثابت، الطور المسبّب للمرض، لا يبقى خارج المضيف."
+   },
+   {
+    "en": "Define encystation and excystation and list their steps.",
+    "ar": "عرّف التكيّس والخروج من الكيس واذكر خطواتهما.",
+    "answer_en": "Encystation: forming a cyst — trophozoite round up, secretion of cyst wall, aggregation of ribosomes, two rounds of nuclear division (1 → 4). Excystation: escape from a cyst — in small intestine, cyst wall disruption, nuclear division (4 → 8), cytoplasmic divisions (8 amebula), trophozoite migrate to large intestine.",
+    "answer_ar": "التكيّس: تكوين كيس — تكوّر المتغذّي، إفراز الجدار، تجمّع الرايبوسومات، جولتان من الانقسام النووي (من 1 إلى 4). الخروج من الكيس: في الأمعاء الدقيقة، تمزّق الجدار، انقسام نووي (من 4 إلى 8)، انقسامات سايتوبلازمية (8 أميبات صغيرة)، هجرة المتغذّي إلى الأمعاء الغليظة."
+   },
+   {
+    "en": "Mention the mode of infection of E. histolytica.",
+    "ar": "اذكر طريقة العدوى بـالأميبا الحالّة للنسيج.",
+    "answer_en": "Fecal oral: contaminated foods (green vegetables), drinks or hands with human stool containing mature cyst; flies and cockroaches carrying cysts from faeces to exposed food.",
+    "answer_ar": "البرازية الفموية: الأطعمة (الخضروات الورقية) أو المشروبات أو الأيدي الملوّثة ببراز يحتوي على الكيس الناضج؛ والذباب والصراصر الناقلة للأكياس من البراز إلى الطعام المكشوف."
+   },
+   {
+    "en": "How is extraintestinal amoebiasis diagnosed?",
+    "ar": "كيف يُشخَّص داء الأميبات خارج المعوي؟",
+    "answer_en": "Hepatic: aspirate & liver biopsy to identify trophozoite. Pulmonary: trophozoites in sputum. Serological tests: IHA, IFAT; ELISA, PCR (distinguishes E.histolytica from E. dispar).",
+    "answer_ar": "الكبدي: الرشافة وخزعة الكبد. الرئوي: الأطوار المتغذّية في القشع. الفحوص المصلية: `IHA, IFAT`؛ و`ELISA, PCR` (تميّز الحالّة للنسيج عن المتباينة)."
+   }
+  ]
+ }
+}
