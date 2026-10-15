@@ -36,7 +36,7 @@ blocks = [
  C("**Molecular data:** The 18S small ribosomal RNA gene is sequenced to determine evolutionary distances",
    "**البيانات الجزيئية:** يُحدَّد تسلسل جين الحمض النووي الرايبوسومي الصغير (`18S rRNA`) لتحديد المسافات التطوّرية"),
 
- SEC("Systemic grouping of parasites", "التجميع النظامي للطفيليات"),
+ SEC("\\*Systemic grouping of parasites", "\\*التجميع النظامي للطفيليات"),
  C("Historically, parasites were grouped based on their physical characteristics (Morphology) and life cycles.",
    "تاريخيًا، جُمّعت الطفيليات على أساس صفاتها الفيزيائية (الشكل) ودورات حياتها."),
  L(["**Protozoa:** Single- celled (Unicellular), Eukaryotic microorganisms, Cause human infection. Classified by their method of locomotion Examples: amoeba, flagellates, ciliates, and sporozoans",
