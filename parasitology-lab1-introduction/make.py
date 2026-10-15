@@ -17,7 +17,7 @@ def TR(en, ar, ae, aa): return dict(en=en, ar=ar, answer_en=ae, answer_ar=aa)
 IM = TR
 
 IODINE = [
- H2("1-Iodin stain:", "1- صبغة اليود:"),
+ H2("1-Iodine stain:", "1- صبغة اليود:"),
  L(["Distilled water 100 ml", "Potassium iodide 10g", "Iodine crystals 5g"],
    ["ماء مقطّر `100 ml`", "يوديد البوتاسيوم `10 g`", "بلّورات اليود `5 g`"]),
  L(["Used to detect **parasite structures**, **nuclei** and **cell membranes**.",
@@ -26,7 +26,7 @@ IODINE = [
     "اللون: بنّي محمرّ"], alpha=True),
 ]
 SALINE = [
- H2("2-Phsiological saline solution (Normal Salian):", "2- المحلول الملحي الفسلجي (المحلول الملحي الطبيعي):"),
+ H2("2-Physiological saline solution (Normal Saline):", "2- المحلول الملحي الفسلجي (المحلول الملحي الطبيعي):"),
  L(["Sodium chloride 8.5 g", "Distilled water 100 ml"],
    ["كلوريد الصوديوم `8.5 g`", "ماء مقطّر `100 ml`"]),
  L(["Used to detect **parasite motion**."],
@@ -54,7 +54,7 @@ blocks = [
 
  SEC("Types of parasites", "أنواع الطفيليات"),
  *CS(["**Facultative parasite:** Parasites that are capable of living either free or in or on a host.",
-    "**Obligatory parasite:** Parasites that are entirely dependant on their hosts & can not live outside the host.",
+    "**Obligatory parasite:** Parasites that are entirely dependent on their hosts & can not live outside the host.",
     "**Accidental or incidental parasite:** occasionally an organism parasitizes a species other than its usual host.",
     "**Ectoparasites:** live on the external surface of the host causing infestation.",
     "**Endoparasites:** The parasites which live inside the body of the host (in the digestive tract, extraintestinal organs and tissues) This relationship called “infection”"],
@@ -146,9 +146,9 @@ blocks = [
 
  SEC("Preparation of the solution", "تحضير المحلول"),
  *IODINE,
- F("iodine-eggs.jpg", "Images on the Iodin stain slide", "الصور المرافقة لشريحة صبغة اليود", h="62mm", fit="contain"),
+ F("iodine-eggs.jpg", "Images on the Iodine stain slide", "الصور المرافقة لشريحة صبغة اليود", h="62mm", fit="contain"),
  *SALINE,
- F("saline-egg.jpg", "Image on the Phsiological saline solution slide", "الصورة المرافقة لشريحة المحلول الملحي الفسلجي", h="48mm", fit="contain"),
+ F("saline-egg.jpg", "Image on the Physiological saline solution slide", "الصورة المرافقة لشريحة المحلول الملحي الفسلجي", h="48mm", fit="contain"),
 
  H2("4-Giemsa stain", "4- صبغة كيمزا"),
  C(["4-**Giemsa stain** is a type of dye used mainly in microbiology, parasitology, and cytogenetics to stain cells and tissues, making them easier to differentiate under a microscope.",
@@ -213,7 +213,7 @@ mcq = [
     ("Zoonosis", "الأمراض المشتركة"), ("Symbiosis", "التكافل")], "d"),
 
  {"topic_en": "Types of parasites", "topic_ar": "أنواع الطفيليات"},
- Q("Parasites that are entirely dependant on their hosts & can not live outside the host are:",
+ Q("Parasites that are entirely dependent on their hosts & can not live outside the host are:",
    "الطفيليات التي تعتمد كليًّا على مضائفها ولا تستطيع العيش خارجها هي:",
    [("Obligatory parasites", "الطفيليات الإجبارية"), ("Facultative parasites", "الطفيليات الاختيارية"),
     ("Accidental parasites", "الطفيليات العَرَضية"), ("Temporary parasites", "الطفيليات المؤقّتة")], "a"),
@@ -287,9 +287,9 @@ mcq = [
     ("Contaminated with urine or water", "تتلوّث بالإدرار أو الماء"), ("Put in a dry container", "توضع في وعاء جاف")], "c"),
 
  {"topic_en": "Solutions and stains", "topic_ar": "المحاليل والصبغات"},
- Q("The color of the Iodin stain is:", "لون صبغة اليود هو:",
+ Q("The color of the Iodine stain is:", "لون صبغة اليود هو:",
    [("Pink", "وردي"), ("Blue", "أزرق"), ("Purple", "بنفسجي"), ("Reddish-brown", "بنّي محمرّ")], "d"),
- Q("The amount of potassium iodide in the Iodin stain is:", "كمية يوديد البوتاسيوم في صبغة اليود هي:",
+ Q("The amount of potassium iodide in the Iodine stain is:", "كمية يوديد البوتاسيوم في صبغة اليود هي:",
    [("10g", "`10 g`"), ("5g", "`5 g`"), ("8.5 g", "`8.5 g`"), ("100 ml", "`100 ml`")], "a"),
  Q("Physiological saline solution is used to detect:", "يُستعمل المحلول الملحي الفسلجي للكشف عن:",
    [("Nuclei", "الأنوية"), ("Parasite motion", "حركة الطفيلي"),
@@ -355,8 +355,8 @@ traps = [
  TR("Biological vs mechanical vector.", "الناقل الحيوي مقابل الميكانيكي.",
     "Biological vector is essential for the parasite life cycle (e.g. Anopheles female); mechanical vector is not essential (e.g. house fly).",
     "الناقل الحيوي ضروري لدورة حياة الطفيلي (مثل أنثى الأنوفيليس)، والميكانيكي غير ضروري (مثل الذبابة المنزلية)."),
- TR("Iodin stain vs saline — what does each detect?", "صبغة اليود مقابل المحلول الملحي — عمّ يكشف كل منهما؟",
-    "Iodin stain: parasite structures, nuclei and cell membranes. Saline: parasite motion.",
+ TR("Iodine stain vs saline — what does each detect?", "صبغة اليود مقابل المحلول الملحي — عمّ يكشف كل منهما؟",
+    "Iodine stain: parasite structures, nuclei and cell membranes. Saline: parasite motion.",
     "صبغة اليود: تراكيب الطفيلي والأنوية والأغشية الخلوية. المحلول الملحي: حركة الطفيلي."),
  TR("Methylene Blue vs Eosin.", "أزرق المثيلين مقابل الأيوسين.",
     "Methylene Blue: a basic dye that stains acidic components (DNA, RNA). Eosin: an acidic dye that stains basic components (cytoplasmic proteins), usually pink.",
