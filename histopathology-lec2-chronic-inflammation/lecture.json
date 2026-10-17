@@ -1,0 +1,1351 @@
+{
+ "meta": {
+  "subject_en": "Histopathology",
+  "subject_ar": "علم الأمراض النسيجية",
+  "short_ar": "انسجة",
+  "unit_en": "Lecture 2",
+  "unit_ar": "المحاضرة 2",
+  "unit_label": "LEC",
+  "unit_no": "2",
+  "title_en": "Chronic Inflammation",
+  "title_ar": "الالتهاب المزمن",
+  "kind": "Theory — نظري",
+  "stage": "The third stage — الثالثة",
+  "instructor": "د. حامد خليل التميمي"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Chronic Inflammation",
+   "ar": "الالتهاب المزمن"
+  },
+  {
+   "t": "card",
+   "en": "Chronic inflammation is inflammation of **prolonged duration (weeks to years)** in which continuing inflammation, tissue injury, and healing, often by **fibrosis**, proceed **simultaneously**.",
+   "ar": "الالتهاب المزمن التهاب **طويل الأمد (أسابيع إلى سنوات)** تجري فيه **في آنٍ واحد** عمليات الالتهاب المستمر وإصابة النسيج والالتئام، وغالبًا بـ**التليّف**."
+  },
+  {
+   "t": "card",
+   "en": "In contrast with acute inflammation, which is distinguished by vascular changes, edema, and a predominantly neutrophilic infiltrate, chronic inflammation is characterized by a different set of reactions;",
+   "ar": "وعلى خلاف الالتهاب الحاد الذي يتميّز بالتغيّرات الوعائية والوذمة وارتشاح تغلب عليه العدلات، يتميّز الالتهاب المزمن بمجموعة مختلفة من التفاعلات:",
+   "list_en": [
+    "**Infiltration with mononuclear cells**, including macrophages, lymphocytes, and plasma cells.",
+    "**Tissue destruction**, largely induced by the products of the inflammatory cells.",
+    "**Repair**, involving new vessel proliferation (**angiogenesis**) and **fibrosis**."
+   ],
+   "list_ar": [
+    "**الارتشاح بالخلايا وحيدة النواة**، ومنها البلاعم واللمفاويات وخلايا البلازما.",
+    "**تدمير النسيج**، الناتج غالبًا عن منتجات الخلايا الالتهابية.",
+    "**الإصلاح**، ويشمل تكاثر أوعية جديدة (**تكوّن الأوعية**) و**التليّف**."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    "Feature",
+    "Acute",
+    "Chronic",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Onset",
+     "Fast: minutes or hours",
+     "Slow: days",
+     "**البدء**: سريع (دقائق أو ساعات) — بطيء (أيام)"
+    ],
+    [
+     "Cellular infiltrate",
+     "Mainly neutrophils",
+     "Monocytes/macrophages and lymphocytes",
+     "**الارتشاح الخلوي**: العدلات أساسًا — الوحيدات/البلاعم واللمفاويات"
+    ],
+    [
+     "Tissue injury, fibrosis",
+     "Usually mild and self-limited",
+     "Often severe and progressive",
+     "**إصابة النسيج والتليّف**: خفيفة ومحدودة ذاتيًا عادةً — شديدة ومتفاقمة غالبًا"
+    ],
+    [
+     "Local and systemic signs",
+     "Prominent",
+     "Less prominent; may be subtle",
+     "**العلامات الموضعية والجهازية**: بارزة — أقل بروزًا وقد تكون خفية"
+    ]
+   ],
+   "ar_cols": [
+    3
+   ],
+   "key_cols": [
+    0
+   ],
+   "style": "summary",
+   "label_en": "Table 2–1 Features of Acute and Chronic Inflammation",
+   "label_ar": "الجدول 2–1 سمات الالتهاب الحاد والمزمن"
+  },
+  {
+   "t": "section",
+   "en": "Settings of chronic inflammation",
+   "ar": "حالات نشوء الالتهاب المزمن"
+  },
+  {
+   "t": "card",
+   "en": "Chronic inflammation may arise in the following settings:",
+   "ar": "قد ينشأ الالتهاب المزمن في الحالات الآتية:"
+  },
+  {
+   "t": "rule",
+   "en": "**1-Persistent infections by microbes that are difficult to eradicate.** These include __Mycobacterium tuberculosis__, __Treponema pallidum__ (the causative organism of **syphilis**), and certain viruses and fungi, all of which tend to establish persistent infections and elicit a **T lymphocyte–mediated** immune response called **delayed-type hypersensitivity**.",
+   "ar": "**1- العدوى المستمرة بميكروبات يصعب استئصالها.** ومنها __Mycobacterium tuberculosis__ و__Treponema pallidum__ (المسبّب لـ**الزهري**) وبعض الفيروسات والفطريات، وكلها تميل إلى إحداث عدوى مستمرة وتثير استجابة مناعية **تتوسّطها اللمفاويات التائية** تُسمّى **فرط الحساسية المتأخر**."
+  },
+  {
+   "t": "rule",
+   "en": "**2-Immune-mediated inflammatory diseases (hypersensitivity diseases).** Diseases that are caused by excessive and inappropriate activation of the immune system are increasingly recognized as being important health problems. Under certain conditions, immune reactions develop against the affected person’s own tissues, leading to **autoimmune diseases**. In such diseases, **autoantigens** evoke a self-perpetuating immune reaction that results in tissue damage and persistent inflammation.",
+   "ar": "**2- الأمراض الالتهابية المتوسَّطة مناعيًا (أمراض فرط الحساسية).** يتزايد الاعتراف بالأمراض الناتجة عن تنشيط مفرط وغير ملائم لجهاز المناعة بوصفها مشكلات صحية مهمة. وفي ظروف معيّنة تنشأ تفاعلات مناعية ضد أنسجة الشخص نفسه فتؤدي إلى **أمراض المناعة الذاتية**، وفيها تثير **المستضدات الذاتية** تفاعلًا مناعيًا يديم نفسه فينتج عنه تلف النسيج والتهاب مستمر."
+  },
+  {
+   "t": "rule",
+   "en": "**3-Prolonged exposure to potentially toxic agents.** Examples are non-degradable **exogenous** materials such as inhaled particulate **silica**, which can induce a chronic inflammatory response in the lungs (**silicosis**), and **endogenous** agents such as **cholesterol crystals**, which may contribute to **atherosclerosis**.",
+   "ar": "**3- التعرّض الطويل لعوامل قد تكون سامة.** ومن أمثلتها مواد **خارجية** غير قابلة للتحلّل مثل جسيمات **السيليكا** المستنشقة التي قد تُحدث استجابة التهابية مزمنة في الرئتين (**السُّحار السيليسي**)، وعوامل **داخلية** مثل **بلورات الكوليسترول** التي قد تسهم في **تصلّب الشرايين العصيدي**."
+  },
+  {
+   "t": "rule",
+   "en": "**4-Mild forms of chronic inflammation** may be important in the pathogenesis of many diseases that are not conventionally thought of as inflammatory disorders. Such diseases include neurodegenerative disorders such as **Alzheimer disease**, **atherosclerosis**, **metabolic syndrome** and the associated **type 2 diabetes**, and some forms of **cancer** in which inflammatory reactions promote tumor development",
+   "ar": "**4- الأشكال الخفيفة من الالتهاب المزمن** قد تكون مهمة في إمراضية أمراض كثيرة لا تُعدّ تقليديًا اضطرابات التهابية، ومنها الاضطرابات التنكّسية العصبية مثل **مرض ألزهايمر**، و**تصلّب الشرايين العصيدي**، و**المتلازمة الاستقلابية** وما يرافقها من **سكري النوع الثاني**، وبعض أشكال **السرطان** التي تعزّز فيها التفاعلات الالتهابية نمو الورم."
+  },
+  {
+   "t": "section",
+   "en": "Granulomatous Inflammation",
+   "ar": "الالتهاب الحبيبومي"
+  },
+  {
+   "t": "card",
+   "en": "Granulomatous inflammation is a **distinctive pattern of chronic inflammation** characterized by **aggregates of activated macrophages with scattered lymphocytes**. Granulomas are characteristic of certain specific pathologic states; consequently, recognition of the granulomatous pattern is important because of the limited number of conditions (some life-threatening) that cause it .",
+   "ar": "الالتهاب الحبيبومي **نمط مميّز من الالتهاب المزمن** يتّصف بـ**تجمّعات من البلاعم المنشَّطة مع لمفاويات متناثرة**. والأورام الحبيبية مميّزة لحالات مرضية محدّدة، لذا فإن التعرّف على النمط الحبيبومي مهم لأن الحالات المسبّبة له محدودة العدد (وبعضها مهدّد للحياة)."
+  },
+  {
+   "t": "figure",
+   "src": "assets/granuloma.jpg",
+   "en": "Granuloma: Langhans giant cell, epithelioid cells, lymphocytes, caseous necrosis",
+   "ar": "الورم الحبيبي: خلية لانغهانز العملاقة، الخلايا الظهارانية، اللمفاويات، النخر الجبني",
+   "h": "72mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Label (from the figure)",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Langhans Giant cell",
+     "خلية لانغهانز العملاقة"
+    ],
+    [
+     "Epithelioid cells with pale elongated nuclei",
+     "خلايا ظهارانية ذات أنوية شاحبة مستطيلة"
+    ],
+    [
+     "Clusters of epithelioid cells surrounded by lymphocytes",
+     "عناقيد من الخلايا الظهارانية تحيط بها اللمفاويات"
+    ],
+    [
+     "Amorphous, eosinophilic granular debritic material with complete loss of cellular details",
+     "مادة حطامية حبيبية حمضية عديمة الشكل مع فقدان كامل للتفاصيل الخلوية"
+    ],
+    [
+     "CASEOUS NECROSIS on gross examination",
+     "النخر الجبني عند الفحص العياني"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "key_cols": [
+    0
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Granulomas can form under three settings:**",
+   "ar": "**قد تتكوّن الأورام الحبيبية في ثلاث حالات:**"
+  },
+  {
+   "t": "rule",
+   "en": "**1-With persistent T-cell responses to certain microbes** (such as __Mycobacterium tuberculosis__, __T. pallidum__, or fungi), in which **T cell–derived cytokines** are responsible for chronic macrophage activation. **Tuberculosis is the prototype** of a granulomatous disease caused by infection and **should always be excluded** as the cause when granulomas are identified.",
+   "ar": "**1- مع استجابات مستمرة للخلايا التائية ضد ميكروبات معيّنة** (مثل __Mycobacterium tuberculosis__ و__T. pallidum__ أو الفطريات)، وفيها تكون **السيتوكينات المشتقة من الخلايا التائية** مسؤولة عن التنشيط المزمن للبلاعم. و**السل هو النموذج الأصلي** للمرض الحبيبومي الناتج عن العدوى، و**يجب استبعاده دائمًا** سببًا عند العثور على أورام حبيبية."
+  },
+  {
+   "t": "rule",
+   "en": "**2-Granulomas may also develop in some immune-mediated inflammatory diseases**, notably **Crohn disease**, which is one type of inflammatory bowel disease and an important cause of granulomatous inflammation in the United States.",
+   "ar": "**2- قد تتكوّن الأورام الحبيبية أيضًا في بعض الأمراض الالتهابية المتوسَّطة مناعيًا**، وأبرزها **داء كرون**، وهو أحد أنواع داء الأمعاء الالتهابي وسبب مهم للالتهاب الحبيبومي في الولايات المتحدة."
+  },
+  {
+   "t": "rule",
+   "en": "**3-They are also seen in a disease of unknown etiology called sarcoidosis**, and they develop in response to relatively inert foreign bodies (e.g., suture or splinter), forming so-called **foreign body granulomas**.",
+   "ar": "**3- وتُرى أيضًا في مرض مجهول السبب يُسمّى الساركويد**، وتتكوّن استجابةً لأجسام غريبة خاملة نسبيًا (مثل خيوط الجراحة أو الشظايا) فتُكوّن ما يُسمّى **الأورام الحبيبية للأجسام الغريبة**."
+  },
+  {
+   "t": "section",
+   "en": "Systemic effects of inflammation.",
+   "ar": "التأثيرات الجهازية للالتهاب"
+  },
+  {
+   "t": "card",
+   "en": "Anyone who has suffered a severe bout of viral illness (such as influenza) has experienced the systemic effects of inflammation, collectively called the **acute-phase reaction**, or the **systemic inflammatory response syndrome**.",
+   "ar": "كل من أصيب بنوبة شديدة من مرض فيروسي (كالإنفلونزا) عانى التأثيرات الجهازية للالتهاب، وتُسمّى مجتمعةً **تفاعل الطور الحاد** أو **متلازمة الاستجابة الالتهابية الجهازية**."
+  },
+  {
+   "t": "card",
+   "en": "The cytokines **TNF, IL-1, and IL-6** are the most important mediators of the acute-phase reaction. These cytokines are produced by leukocytes (and other cell types) in response to infection or in immune reactions and are released systemically. TNF and IL-1 have similar biologic actions, although these may differ in subtle ways . **IL-6 stimulates the hepatic synthesis** of a number of plasma proteins.",
+   "ar": "السيتوكينات **`TNF` و`IL-1` و`IL-6`** أهم وسائط تفاعل الطور الحاد. تنتجها الكريات البيض (وأنواع خلوية أخرى) استجابةً للعدوى أو في التفاعلات المناعية، وتُطلق إلى الدوران العام. ولـ`TNF` و`IL-1` أفعال حيوية متشابهة وإن اختلفت بطرق دقيقة. و**`IL-6` يحفّز الكبد على تخليق** عدد من بروتينات البلازما."
+  },
+  {
+   "t": "card",
+   "en": "The acute-phase response consists of several clinical and pathologic changes.",
+   "ar": "تتكوّن استجابة الطور الحاد من عدة تغيّرات سريرية ومرضية."
+  },
+  {
+   "t": "h2",
+   "en": "1- Fever",
+   "ar": "1- الحمّى"
+  },
+  {
+   "t": "card",
+   "en": "characterized by an elevation of body temperature, is one of the **most prominent manifestations** of the acute-phase response. Fever is produced in response to substances called **pyrogens** that act by stimulating **prostaglandin synthesis** in the vascular and perivascular cells of the **hypothalamus**.",
+   "ar": "تتميّز بارتفاع درجة حرارة الجسم، وهي من **أبرز مظاهر** استجابة الطور الحاد. وتنتج الحمّى استجابةً لمواد تُسمّى **المولّدات الحرارية** التي تعمل بتحفيز **تخليق البروستاغلاندين** في الخلايا الوعائية وحول الوعائية لـ**الوطاء (تحت المهاد)**."
+  },
+  {
+   "t": "figure",
+   "src": "assets/fever.jpg",
+   "en": "Pathway of fever: pyrogenic cytokines (IL-1, TNFα, IL-6) → PGE₂ in the hypothalamus → elevated set-point",
+   "ar": "مسار الحمّى: السيتوكينات المولّدة للحرارة ← PGE₂ في الوطاء ← رفع نقطة الضبط",
+   "h": "62mm",
+   "fit": "contain"
+  },
+  {
+   "t": "h2",
+   "en": "2- Elevated plasma levels of acute-phase proteins",
+   "ar": "2- ارتفاع مستويات بروتينات الطور الحاد في البلازما"
+  },
+  {
+   "t": "card",
+   "en": "These plasma proteins are mostly synthesized in the **liver**, and in the setting of acute inflammation, their concentrations may increase **several hundred-fold**.",
+   "ar": "تُخلَّق هذه البروتينات غالبًا في **الكبد**، وقد تزداد تراكيزها في الالتهاب الحاد **مئات المرات**."
+  },
+  {
+   "t": "card",
+   "en": "Three of the best known of these proteins are",
+   "ar": "أشهر ثلاثة من هذه البروتينات:",
+   "list_en": [
+    "**C-reactive protein (CRP)**",
+    "**fibrinogen**",
+    "**serum amyloid A (SAA) protein**"
+   ],
+   "list_ar": [
+    "**البروتين المتفاعل C (`CRP`)**",
+    "**الفيبرينوجين**",
+    "**بروتين الأميلويد A المصلي (`SAA`)**"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Synthesis of these molecules by hepatocytes is stimulated by cytokines, especially **IL-6**. Many acute-phase proteins, such as CRP and SAA, bind to microbial cell walls, and they may act as **opsonins** and **fix complement**, thus promoting the elimination of the microbes.",
+   "ar": "يُحفَّز تخليق هذه الجزيئات في خلايا الكبد بالسيتوكينات، ولا سيما **`IL-6`**. وكثير من بروتينات الطور الحاد مثل `CRP` و`SAA` ترتبط بجدران الخلايا الميكروبية، وقد تعمل **طاهيات (أوبسونينات)** و**تثبّت المتمّمة**، فتعزّز التخلّص من الميكروبات."
+  },
+  {
+   "t": "card",
+   "en": "**Fibrinogen** binds to erythrocytes and causes them to form stacks (**rouleaux**) that sediment more rapidly at unit gravity than individual erythrocytes. This is the basis for measuring the **erythrocyte sedimentation rate (ESR)** as a simple test for the systemic inflammatory response, caused by any number of stimuli, including LPS.",
+   "ar": "يرتبط **الفيبرينوجين** بكريات الدم الحمر ويجعلها تكوّن رصّات (**الرصّ**) تترسّب بالجاذبية أسرع من الكريات المفردة. وهذا أساس قياس **سرعة ترسيب الكريات الحمر (`ESR`)** فحصًا بسيطًا للاستجابة الالتهابية الجهازية الناتجة عن محفّزات كثيرة منها `LPS`."
+  },
+  {
+   "t": "h2",
+   "en": "3- Leukocytosis",
+   "ar": "3- كثرة الكريات البيض"
+  },
+  {
+   "t": "card",
+   "en": "Is a common feature of inflammatory reactions, especially those induced by **bacterial infection**. The leukocyte count usually climbs to **15,000 to 20,000 cells/mL**, but in some extraordinary cases it may reach **40,000 to 100,000 cells/mL**.",
+   "ar": "سمة شائعة في التفاعلات الالتهابية، ولا سيما الناتجة عن **العدوى البكتيرية**. يرتفع عدد الكريات البيض عادةً إلى **15,000 إلى 20,000 خلية/مل**، وقد يبلغ في حالات استثنائية **40,000 إلى 100,000 خلية/مل**."
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "These extreme elevations are referred to as **leukemoid reactions** because they are similar to those seen in leukemia. The leukocytosis occurs initially because of accelerated release of cells (under the influence of cytokines, including **TNF and IL-1**) from the bone marrow **post mitotic reserve pool**.",
+     "ar": "تُسمّى هذه الارتفاعات الشديدة **التفاعلات شبيهة الابيضاض** لأنها تشبه ما يُرى في ابيضاض الدم. وتحدث كثرة الكريات البيض في البداية بسبب الإطلاق المتسارع للخلايا (بتأثير السيتوكينات ومنها **`TNF` و`IL-1`**) من **المخزون الاحتياطي بعد الانقسامي** في نقي العظم."
+    }
+   ],
+   "figure": {
+    "src": "assets/leukocytosis.jpg",
+    "en": "High vs low WBC count",
+    "ar": "عدد الكريات البيض المرتفع والمنخفض"
+   }
+  },
+  {
+   "t": "h2",
+   "en": "Examples of Leukocytosis",
+   "ar": "أمثلة على كثرة الكريات البيض"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Condition",
+    "Change",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Most bacterial infections",
+     "↑ Neutrophils (neutrophilia)",
+     "**معظم العدوى البكتيرية**: ↑ العدلات (كثرة العدلات)"
+    ],
+    [
+     "Viral infections (infectious mononucleosis, mumps, German measles)",
+     "↑ Lymphocytes (lymphocytosis)",
+     "**العدوى الفيروسية** (داء كثرة الوحيدات العدوائي، النكاف، الحصبة الألمانية): ↑ اللمفاويات"
+    ],
+    [
+     "Bronchial asthma, hay fever, parasite infestations",
+     "↑ Eosinophils (eosinophilia)",
+     "**الربو القصبي، حمّى القش، الإصابة بالطفيليات**: ↑ الحمضات"
+    ],
+    [
+     "Typhoid fever, some viruses, rickettsiae, certain protozoa",
+     "↓ White cells (leukopenia)",
+     "**الحمّى التيفية، بعض الفيروسات، الريكتسيات، بعض الأوالي**: ↓ الكريات البيض (قلّة الكريات البيض)"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ]
+  },
+  {
+   "t": "rule",
+   "en": "**1-** Most bacterial infections induce an increase in the blood neutrophil count, called **neutrophilia**.",
+   "ar": "**1-** تُحدث معظم العدوى البكتيرية زيادة في عدد عدلات الدم تُسمّى **كثرة العدلات**."
+  },
+  {
+   "t": "rule",
+   "en": "**2-** Viral infections, such as infectious mononucleosis, mumps, and German measles, are associated with increased numbers of lymphocytes (**lymphocytosis**).",
+   "ar": "**2-** ترتبط العدوى الفيروسية، مثل داء كثرة الوحيدات العدوائي والنكاف والحصبة الألمانية، بزيادة أعداد اللمفاويات (**كثرة اللمفاويات**)."
+  },
+  {
+   "t": "rule",
+   "en": "**3-** Bronchial asthma, hay fever, and parasite infestations all involve an increase in the absolute number of eosinophils, creating an **eosinophilia**.",
+   "ar": "**3-** يتضمّن الربو القصبي وحمّى القش والإصابة بالطفيليات زيادة في العدد المطلق للحمضات، فتنشأ **كثرة الحمضات**."
+  },
+  {
+   "t": "rule",
+   "en": "**4-** Certain infections (typhoid fever and infections caused by some viruses, rickettsiae, and certain protozoa) are **paradoxically** associated with a decreased number of circulating white cells (**leukopenia**), likely because of cytokine-induced **sequestration of lymphocytes in lymph nodes**.",
+   "ar": "**4-** ترتبط بعض أنواع العدوى (الحمّى التيفية والعدوى ببعض الفيروسات والريكتسيات وبعض الأوالي) **على نحو متناقض** بنقص عدد الكريات البيض الجائلة (**قلّة الكريات البيض**)، على الأرجح بسبب **احتجاز اللمفاويات في العقد اللمفية** بفعل السيتوكينات."
+  },
+  {
+   "t": "h2",
+   "en": "Other manifestations of the acute-phase response",
+   "ar": "مظاهر أخرى لاستجابة الطور الحاد"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Include **increased heart rate and blood pressure**.",
+    "**Decreased sweating**, mainly as a result of redirection of blood flow from cutaneous to deep vascular beds, to minimize heat loss through the skin.",
+    "**Rigors** (shivering),",
+    "**Chills** (perception of being cold as the hypothalamus resets the body temperature),",
+    "**anorexia**,",
+    "**somnolence**,",
+    "**malaise**, probably secondary to the actions of cytokines on brain cells."
+   ],
+   "list_ar": [
+    "تشمل **زيادة معدّل ضربات القلب وضغط الدم**.",
+    "**نقص التعرّق**، أساسًا نتيجة إعادة توجيه جريان الدم من الأسرّة الوعائية الجلدية إلى العميقة لتقليل فقد الحرارة عبر الجلد.",
+    "**النافض** (الارتجاف)،",
+    "**القشعريرة** (الإحساس بالبرد عندما يعيد الوطاء ضبط حرارة الجسم)،",
+    "**فقدان الشهية**،",
+    "**النعاس**،",
+    "**التوعّك**، على الأرجح بسبب تأثير السيتوكينات في خلايا الدماغ."
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Definition and features",
+    "topic_ar": "التعريف والسمات"
+   },
+   {
+    "en": "Chronic inflammation is of prolonged duration lasting:",
+    "ar": "الالتهاب المزمن طويل الأمد يستمر:",
+    "options": [
+     [
+      "Minutes to hours",
+      "دقائق إلى ساعات"
+     ],
+     [
+      "Only a few days",
+      "بضعة أيام فقط"
+     ],
+     [
+      "Hours to days",
+      "ساعات إلى أيام"
+     ],
+     [
+      "Weeks to years",
+      "أسابيع إلى سنوات"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Chronic inflammation is characterized by all of the following EXCEPT:",
+    "ar": "يتميّز الالتهاب المزمن بكل ما يأتي عدا:",
+    "options": [
+     [
+      "Predominantly neutrophilic infiltrate",
+      "ارتشاح تغلب عليه العدلات"
+     ],
+     [
+      "Tissue destruction",
+      "تدمير النسيج"
+     ],
+     [
+      "Repair by angiogenesis and fibrosis",
+      "الإصلاح بتكوّن الأوعية والتليّف"
+     ],
+     [
+      "Infiltration with mononuclear cells",
+      "الارتشاح بالخلايا وحيدة النواة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Mononuclear cells in chronic inflammation include all EXCEPT:",
+    "ar": "من الخلايا وحيدة النواة في الالتهاب المزمن كل ما يأتي عدا:",
+    "options": [
+     [
+      "Macrophages",
+      "البلاعم"
+     ],
+     [
+      "Neutrophils",
+      "العدلات"
+     ],
+     [
+      "Plasma cells",
+      "خلايا البلازما"
+     ],
+     [
+      "Lymphocytes",
+      "اللمفاويات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "According to Table 2–1, the onset of chronic inflammation is:",
+    "ar": "بحسب الجدول 2–1 يكون بدء الالتهاب المزمن:",
+    "options": [
+     [
+      "Fast: minutes or hours",
+      "سريعًا: دقائق أو ساعات"
+     ],
+     [
+      "Immediate",
+      "فوريًا"
+     ],
+     [
+      "Slow: days",
+      "بطيئًا: أيام"
+     ],
+     [
+      "Seconds",
+      "ثوانيَ"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Local and systemic signs in chronic inflammation are:",
+    "ar": "العلامات الموضعية والجهازية في الالتهاب المزمن:",
+    "options": [
+     [
+      "Prominent",
+      "بارزة"
+     ],
+     [
+      "More prominent than acute",
+      "أبرز من الحاد"
+     ],
+     [
+      "Absent always",
+      "غائبة دائمًا"
+     ],
+     [
+      "Less prominent; may be subtle",
+      "أقل بروزًا وقد تكون خفية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Settings of chronic inflammation",
+    "topic_ar": "حالات نشوء الالتهاب المزمن"
+   },
+   {
+    "en": "Treponema pallidum is the causative organism of:",
+    "ar": "Treponema pallidum هو المسبّب لـ:",
+    "options": [
+     [
+      "Syphilis",
+      "الزهري"
+     ],
+     [
+      "Tuberculosis",
+      "السل"
+     ],
+     [
+      "Typhoid",
+      "التيفوئيد"
+     ],
+     [
+      "Sarcoidosis",
+      "الساركويد"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Persistent infections elicit a T lymphocyte–mediated response called:",
+    "ar": "تثير العدوى المستمرة استجابة تتوسّطها اللمفاويات التائية تُسمّى:",
+    "options": [
+     [
+      "Immediate hypersensitivity",
+      "فرط الحساسية الفوري"
+     ],
+     [
+      "Anaphylaxis",
+      "التأق"
+     ],
+     [
+      "Delayed-type hypersensitivity",
+      "فرط الحساسية المتأخر"
+     ],
+     [
+      "Acute-phase reaction",
+      "تفاعل الطور الحاد"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Silicosis is an example of chronic inflammation due to:",
+    "ar": "السُّحار السيليسي مثال على التهاب مزمن بسبب:",
+    "options": [
+     [
+      "Persistent infection",
+      "عدوى مستمرة"
+     ],
+     [
+      "Prolonged exposure to toxic agents",
+      "التعرّض الطويل لعوامل سامة"
+     ],
+     [
+      "Autoimmunity",
+      "المناعة الذاتية"
+     ],
+     [
+      "Foreign body granuloma",
+      "ورم حبيبي لجسم غريب"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "An endogenous toxic agent that may contribute to atherosclerosis is:",
+    "ar": "عامل سام داخلي قد يسهم في تصلّب الشرايين:",
+    "options": [
+     [
+      "Silica",
+      "السيليكا"
+     ],
+     [
+      "LPS",
+      "LPS"
+     ],
+     [
+      "Sutures",
+      "خيوط الجراحة"
+     ],
+     [
+      "Cholesterol crystals",
+      "بلورات الكوليسترول"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Mild chronic inflammation may be important in all of the following EXCEPT:",
+    "ar": "قد يكون الالتهاب المزمن الخفيف مهمًا في كل ما يأتي عدا:",
+    "options": [
+     [
+      "Simple fracture healing",
+      "التئام كسر بسيط"
+     ],
+     [
+      "Type 2 diabetes",
+      "سكري النوع الثاني"
+     ],
+     [
+      "Some forms of cancer",
+      "بعض أشكال السرطان"
+     ],
+     [
+      "Alzheimer disease",
+      "مرض ألزهايمر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In autoimmune diseases, the immune reaction is evoked by:",
+    "ar": "في أمراض المناعة الذاتية يُثار التفاعل المناعي بـ:",
+    "options": [
+     [
+      "Silica",
+      "السيليكا"
+     ],
+     [
+      "Bacteria only",
+      "البكتيريا فقط"
+     ],
+     [
+      "Autoantigens",
+      "المستضدات الذاتية"
+     ],
+     [
+      "Cholesterol",
+      "الكوليسترول"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Granulomatous inflammation",
+    "topic_ar": "الالتهاب الحبيبومي"
+   },
+   {
+    "en": "Granulomatous inflammation is characterized by aggregates of:",
+    "ar": "يتميّز الالتهاب الحبيبومي بتجمّعات من:",
+    "options": [
+     [
+      "Neutrophils",
+      "العدلات"
+     ],
+     [
+      "Activated macrophages with scattered lymphocytes",
+      "البلاعم المنشَّطة مع لمفاويات متناثرة"
+     ],
+     [
+      "Eosinophils",
+      "الحمضات"
+     ],
+     [
+      "Plasma cells only",
+      "خلايا البلازما فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The prototype of a granulomatous disease caused by infection is:",
+    "ar": "النموذج الأصلي للمرض الحبيبومي الناتج عن العدوى:",
+    "options": [
+     [
+      "Syphilis",
+      "الزهري"
+     ],
+     [
+      "Sarcoidosis",
+      "الساركويد"
+     ],
+     [
+      "Crohn disease",
+      "داء كرون"
+     ],
+     [
+      "Tuberculosis",
+      "السل"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "An immune-mediated disease that causes granulomas is:",
+    "ar": "مرض متوسَّط مناعيًا يسبّب أورامًا حبيبية:",
+    "options": [
+     [
+      "Typhoid fever",
+      "الحمّى التيفية"
+     ],
+     [
+      "Silicosis",
+      "السُّحار السيليسي"
+     ],
+     [
+      "Crohn disease",
+      "داء كرون"
+     ],
+     [
+      "Hay fever",
+      "حمّى القش"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Granulomas in a disease of unknown etiology are seen in:",
+    "ar": "تُرى الأورام الحبيبية في مرض مجهول السبب هو:",
+    "options": [
+     [
+      "Sarcoidosis",
+      "الساركويد"
+     ],
+     [
+      "Tuberculosis",
+      "السل"
+     ],
+     [
+      "Syphilis",
+      "الزهري"
+     ],
+     [
+      "Crohn disease",
+      "داء كرون"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Granulomas formed in response to sutures or splinters are called:",
+    "ar": "الأورام الحبيبية المتكوّنة استجابةً لخيوط الجراحة أو الشظايا تُسمّى:",
+    "options": [
+     [
+      "Caseating granulomas",
+      "أورامًا حبيبية جبنية"
+     ],
+     [
+      "Foreign body granulomas",
+      "أورامًا حبيبية للأجسام الغريبة"
+     ],
+     [
+      "Immune granulomas",
+      "أورامًا حبيبية مناعية"
+     ],
+     [
+      "Leukemoid reaction",
+      "تفاعلًا شبيه الابيضاض"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In granulomas due to persistent T-cell responses, chronic macrophage activation is caused by:",
+    "ar": "في الأورام الحبيبية الناتجة عن استجابات تائية مستمرة يكون التنشيط المزمن للبلاعم بسبب:",
+    "options": [
+     [
+      "Antibodies",
+      "الأضداد"
+     ],
+     [
+      "Neutrophil enzymes",
+      "إنزيمات العدلات"
+     ],
+     [
+      "Complement only",
+      "المتمّمة فقط"
+     ],
+     [
+      "T cell–derived cytokines",
+      "السيتوكينات المشتقة من الخلايا التائية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Acute-phase reaction",
+    "topic_ar": "تفاعل الطور الحاد"
+   },
+   {
+    "en": "The most important mediators of the acute-phase reaction are:",
+    "ar": "أهم وسائط تفاعل الطور الحاد:",
+    "options": [
+     [
+      "IL-10 and TGF-β",
+      "IL-10 وTGF-β"
+     ],
+     [
+      "TNF, IL-1 and IL-6",
+      "TNF وIL-1 وIL-6"
+     ],
+     [
+      "Histamine and serotonin",
+      "الهستامين والسيروتونين"
+     ],
+     [
+      "VEGF",
+      "VEGF"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The cytokine that stimulates hepatic synthesis of plasma proteins is:",
+    "ar": "السيتوكين الذي يحفّز الكبد على تخليق بروتينات البلازما:",
+    "options": [
+     [
+      "IL-6",
+      "IL-6"
+     ],
+     [
+      "IL-1",
+      "IL-1"
+     ],
+     [
+      "TNF",
+      "TNF"
+     ],
+     [
+      "IL-10",
+      "IL-10"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Pyrogens produce fever by stimulating:",
+    "ar": "تُحدث المولّدات الحرارية الحمّى بتحفيز:",
+    "options": [
+     [
+      "Sweating",
+      "التعرّق"
+     ],
+     [
+      "Histamine release",
+      "إطلاق الهستامين"
+     ],
+     [
+      "Prostaglandin synthesis in the hypothalamus",
+      "تخليق البروستاغلاندين في الوطاء"
+     ],
+     [
+      "Liver enzymes",
+      "إنزيمات الكبد"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Acute-phase proteins are mostly synthesized in the:",
+    "ar": "تُخلَّق بروتينات الطور الحاد غالبًا في:",
+    "options": [
+     [
+      "Bone marrow",
+      "نقي العظم"
+     ],
+     [
+      "Kidney",
+      "الكلية"
+     ],
+     [
+      "Spleen",
+      "الطحال"
+     ],
+     [
+      "Liver",
+      "الكبد"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which is NOT one of the three best known acute-phase proteins:",
+    "ar": "أي مما يأتي ليس من بروتينات الطور الحاد الثلاثة الأشهر:",
+    "options": [
+     [
+      "Albumin",
+      "الألبومين"
+     ],
+     [
+      "Fibrinogen",
+      "الفيبرينوجين"
+     ],
+     [
+      "Serum amyloid A",
+      "الأميلويد A المصلي"
+     ],
+     [
+      "CRP",
+      "CRP"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The basis of the ESR test is that fibrinogen causes RBCs to form:",
+    "ar": "أساس فحص ESR أن الفيبرينوجين يجعل الكريات الحمر تكوّن:",
+    "options": [
+     [
+      "Target cells",
+      "خلايا هدفية"
+     ],
+     [
+      "Spherocytes",
+      "كريات كروية"
+     ],
+     [
+      "Rouleaux",
+      "رصّات (الرصّ)"
+     ],
+     [
+      "Clots",
+      "خثرات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "CRP and SAA promote elimination of microbes by acting as:",
+    "ar": "يعزّز CRP وSAA التخلّص من الميكروبات بعملهما كـ:",
+    "options": [
+     [
+      "Antibodies",
+      "أضداد"
+     ],
+     [
+      "Opsonins and fixing complement",
+      "طاهيات وتثبيت المتمّمة"
+     ],
+     [
+      "Enzymes",
+      "إنزيمات"
+     ],
+     [
+      "Hormones",
+      "هرمونات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Leukocytosis and other manifestations",
+    "topic_ar": "كثرة الكريات البيض والمظاهر الأخرى"
+   },
+   {
+    "en": "In inflammation, the leukocyte count usually climbs to:",
+    "ar": "في الالتهاب يرتفع عدد الكريات البيض عادةً إلى:",
+    "options": [
+     [
+      "5,000–10,000 cells/mL",
+      "5,000–10,000"
+     ],
+     [
+      "15,000–20,000 cells/mL",
+      "15,000–20,000"
+     ],
+     [
+      "40,000–100,000 cells/mL",
+      "40,000–100,000"
+     ],
+     [
+      "Over 200,000 cells/mL",
+      "أكثر من 200,000"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Extreme leukocyte elevations (40,000–100,000) are called:",
+    "ar": "تُسمّى الارتفاعات الشديدة للكريات البيض (40,000–100,000):",
+    "options": [
+     [
+      "Leukopenia",
+      "قلّة الكريات البيض"
+     ],
+     [
+      "Neutropenia",
+      "قلّة العدلات"
+     ],
+     [
+      "Leukemia",
+      "ابيضاض الدم"
+     ],
+     [
+      "Leukemoid reactions",
+      "تفاعلات شبيهة الابيضاض"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Initial leukocytosis is due to accelerated release of cells from the:",
+    "ar": "تعود كثرة الكريات البيض الأولية إلى الإطلاق المتسارع للخلايا من:",
+    "options": [
+     [
+      "Bone marrow post mitotic reserve pool",
+      "المخزون الاحتياطي بعد الانقسامي في نقي العظم"
+     ],
+     [
+      "Spleen",
+      "الطحال"
+     ],
+     [
+      "Lymph nodes",
+      "العقد اللمفية"
+     ],
+     [
+      "Liver",
+      "الكبد"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Most bacterial infections cause:",
+    "ar": "تسبّب معظم العدوى البكتيرية:",
+    "options": [
+     [
+      "Lymphocytosis",
+      "كثرة اللمفاويات"
+     ],
+     [
+      "Eosinophilia",
+      "كثرة الحمضات"
+     ],
+     [
+      "Neutrophilia",
+      "كثرة العدلات"
+     ],
+     [
+      "Leukopenia",
+      "قلّة الكريات البيض"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Infectious mononucleosis, mumps and German measles are associated with:",
+    "ar": "يرتبط داء كثرة الوحيدات العدوائي والنكاف والحصبة الألمانية بـ:",
+    "options": [
+     [
+      "Lymphocytosis",
+      "كثرة اللمفاويات"
+     ],
+     [
+      "Neutrophilia",
+      "كثرة العدلات"
+     ],
+     [
+      "Eosinophilia",
+      "كثرة الحمضات"
+     ],
+     [
+      "Leukopenia",
+      "قلّة الكريات البيض"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Bronchial asthma and parasite infestations cause:",
+    "ar": "يسبّب الربو القصبي والإصابة بالطفيليات:",
+    "options": [
+     [
+      "Leukopenia",
+      "قلّة الكريات البيض"
+     ],
+     [
+      "Neutrophilia",
+      "كثرة العدلات"
+     ],
+     [
+      "Lymphocytosis",
+      "كثرة اللمفاويات"
+     ],
+     [
+      "Eosinophilia",
+      "كثرة الحمضات"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Typhoid fever is paradoxically associated with:",
+    "ar": "ترتبط الحمّى التيفية على نحو متناقض بـ:",
+    "options": [
+     [
+      "Leukemoid reaction",
+      "تفاعل شبيه الابيضاض"
+     ],
+     [
+      "Leukopenia",
+      "قلّة الكريات البيض"
+     ],
+     [
+      "Neutrophilia",
+      "كثرة العدلات"
+     ],
+     [
+      "Eosinophilia",
+      "كثرة الحمضات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Decreased sweating in the acute-phase response is due to:",
+    "ar": "يعود نقص التعرّق في استجابة الطور الحاد إلى:",
+    "options": [
+     [
+      "Kidney failure",
+      "الفشل الكلوي"
+     ],
+     [
+      "Dehydration",
+      "الجفاف"
+     ],
+     [
+      "Redirection of blood flow from cutaneous to deep vascular beds",
+      "إعادة توجيه الدم من الأسرّة الجلدية إلى العميقة"
+     ],
+     [
+      "Low blood pressure",
+      "انخفاض ضغط الدم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "The amorphous pink central material in this granuloma represents:",
+    "ar": "المادة الوردية المركزية عديمة الشكل في هذا الورم الحبيبي تمثّل:",
+    "options": [
+     [
+      "Caseous necrosis",
+      "النخر الجبني"
+     ],
+     [
+      "Fibrosis",
+      "التليّف"
+     ],
+     [
+      "Lymphocytes",
+      "اللمفاويات"
+     ],
+     [
+      "Calcification",
+      "التكلّس"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/q-granuloma.jpg",
+    "img_h": "42mm"
+   },
+   {
+    "en": "The ring of dark small cells at the periphery of this granuloma are:",
+    "ar": "حلقة الخلايا الصغيرة الداكنة في محيط هذا الورم الحبيبي هي:",
+    "options": [
+     [
+      "Neutrophils",
+      "العدلات"
+     ],
+     [
+      "Red blood cells",
+      "كريات الدم الحمر"
+     ],
+     [
+      "Lymphocytes",
+      "اللمفاويات"
+     ],
+     [
+      "Epithelioid cells",
+      "الخلايا الظهارانية"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/q-granuloma.jpg",
+    "img_h": "42mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "In chronic inflammation, inflammation, tissue injury and healing proceed simultaneously.",
+    "ar": "في الالتهاب المزمن تجري عمليات الالتهاب وإصابة النسيج والالتئام في آنٍ واحد.",
+    "answer": "T"
+   },
+   {
+    "en": "Chronic inflammation is distinguished by edema and neutrophils.",
+    "ar": "يتميّز الالتهاب المزمن بالوذمة والعدلات.",
+    "answer": "F"
+   },
+   {
+    "en": "Mycobacterium tuberculosis causes persistent infection with delayed-type hypersensitivity.",
+    "ar": "تسبّب المتفطّرة السلية عدوى مستمرة مع فرط حساسية متأخر.",
+    "answer": "T"
+   },
+   {
+    "en": "Silica is an endogenous agent.",
+    "ar": "السيليكا عامل داخلي.",
+    "answer": "F"
+   },
+   {
+    "en": "Tuberculosis should always be excluded when granulomas are identified.",
+    "ar": "يجب استبعاد السل دائمًا عند العثور على أورام حبيبية.",
+    "answer": "T"
+   },
+   {
+    "en": "Sarcoidosis has a well-known infectious cause.",
+    "ar": "للساركويد سبب معدٍ معروف.",
+    "answer": "F"
+   },
+   {
+    "en": "IL-6 stimulates hepatic synthesis of acute-phase proteins.",
+    "ar": "يحفّز IL-6 الكبد على تخليق بروتينات الطور الحاد.",
+    "answer": "T"
+   },
+   {
+    "en": "Acute-phase protein concentrations may increase several hundred-fold.",
+    "ar": "قد تزداد تراكيز بروتينات الطور الحاد مئات المرات.",
+    "answer": "T"
+   },
+   {
+    "en": "Fibrinogen causes rouleaux formation, the basis of the ESR.",
+    "ar": "يسبّب الفيبرينوجين تكوين الرصّ، وهو أساس فحص ESR.",
+    "answer": "T"
+   },
+   {
+    "en": "Leukemoid reactions are a type of leukemia.",
+    "ar": "التفاعلات شبيهة الابيضاض نوع من ابيضاض الدم.",
+    "answer": "F"
+   },
+   {
+    "en": "Viral infections such as mumps cause neutrophilia.",
+    "ar": "تسبّب العدوى الفيروسية كالنكاف كثرة العدلات.",
+    "answer": "F"
+   },
+   {
+    "en": "Typhoid fever is associated with leukopenia.",
+    "ar": "ترتبط الحمّى التيفية بقلّة الكريات البيض.",
+    "answer": "T"
+   },
+   {
+    "en": "Chills are the perception of being cold as the hypothalamus resets body temperature.",
+    "ar": "القشعريرة إحساس بالبرد عندما يعيد الوطاء ضبط حرارة الجسم.",
+    "answer": "T"
+   },
+   {
+    "en": "Sweating increases in the acute-phase response.",
+    "ar": "يزداد التعرّق في استجابة الطور الحاد.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Exogenous or endogenous?",
+    "ar": "خارجي أم داخلي؟",
+    "answer_en": "Silica = exogenous (silicosis); cholesterol crystals = endogenous (atherosclerosis).",
+    "answer_ar": "السيليكا = خارجي (السُّحار السيليسي)؛ بلورات الكوليسترول = داخلي (تصلّب الشرايين)."
+   },
+   {
+    "en": "Which granuloma cause is of unknown etiology?",
+    "ar": "أي سبب للأورام الحبيبية مجهول السبب؟",
+    "answer_en": "Sarcoidosis — TB is infectious, Crohn is immune-mediated.",
+    "answer_ar": "الساركويد — أما السل فمعدٍ وكرون متوسَّط مناعيًا."
+   },
+   {
+    "en": "Which cytokine makes the liver produce acute-phase proteins?",
+    "ar": "أي سيتوكين يجعل الكبد ينتج بروتينات الطور الحاد؟",
+    "answer_en": "IL-6 — TNF and IL-1 have similar actions to each other.",
+    "answer_ar": "IL-6 — أما TNF وIL-1 فأفعالهما متشابهة فيما بينهما."
+   },
+   {
+    "en": "15,000–20,000 or 40,000–100,000?",
+    "ar": "15,000–20,000 أم 40,000–100,000؟",
+    "answer_en": "Usual leukocytosis 15,000–20,000; leukemoid reaction 40,000–100,000.",
+    "answer_ar": "كثرة الكريات المعتادة 15,000–20,000؛ والتفاعل شبيه الابيضاض 40,000–100,000."
+   },
+   {
+    "en": "Bacteria, viruses, allergy or typhoid?",
+    "ar": "بكتيريا، فيروسات، حساسية أم تيفوئيد؟",
+    "answer_en": "Bacteria → neutrophilia; viruses → lymphocytosis; asthma/parasites → eosinophilia; typhoid → leukopenia.",
+    "answer_ar": "البكتيريا ← كثرة العدلات؛ الفيروسات ← كثرة اللمفاويات؛ الربو/الطفيليات ← كثرة الحمضات؛ التيفوئيد ← قلّة الكريات البيض."
+   },
+   {
+    "en": "Which acute-phase protein causes rouleaux?",
+    "ar": "أي بروتين طور حاد يسبّب الرصّ؟",
+    "answer_en": "Fibrinogen — CRP and SAA act as opsonins and fix complement.",
+    "answer_ar": "الفيبرينوجين — أما CRP وSAA فيعملان طاهيات ويثبّتان المتمّمة."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define chronic inflammation and list its characteristic reactions.",
+    "ar": "عرّف الالتهاب المزمن وعدّد تفاعلاته المميّزة.",
+    "answer_en": "Inflammation of prolonged duration (weeks to years) with continuing inflammation, tissue injury and healing (often by fibrosis) proceeding simultaneously; characterized by mononuclear cell infiltration, tissue destruction, and repair (angiogenesis and fibrosis).",
+    "answer_ar": "التهاب طويل الأمد (أسابيع إلى سنوات) تجري فيه في آنٍ واحد عمليات الالتهاب وإصابة النسيج والالتئام (غالبًا بالتليّف)؛ ويتميّز بالارتشاح بالخلايا وحيدة النواة وتدمير النسيج والإصلاح (تكوّن الأوعية والتليّف)."
+   },
+   {
+    "en": "Compare acute and chronic inflammation (Table 2–1).",
+    "ar": "قارن بين الالتهاب الحاد والمزمن (الجدول 2–1).",
+    "answer_en": "Onset: fast vs slow; infiltrate: neutrophils vs monocytes/macrophages and lymphocytes; tissue injury: mild, self-limited vs severe, progressive; signs: prominent vs less prominent.",
+    "answer_ar": "البدء: سريع مقابل بطيء؛ الارتشاح: العدلات مقابل الوحيدات/البلاعم واللمفاويات؛ إصابة النسيج: خفيفة محدودة مقابل شديدة متفاقمة؛ العلامات: بارزة مقابل أقل بروزًا."
+   },
+   {
+    "en": "List the settings in which chronic inflammation arises.",
+    "ar": "عدّد الحالات التي ينشأ فيها الالتهاب المزمن.",
+    "answer_en": "Persistent infections (TB, syphilis, viruses, fungi); immune-mediated (hypersensitivity, autoimmune) diseases; prolonged exposure to toxic agents (silica, cholesterol crystals); mild chronic inflammation in diseases such as Alzheimer, atherosclerosis, metabolic syndrome/type 2 diabetes and cancer.",
+    "answer_ar": "العدوى المستمرة (السل، الزهري، الفيروسات، الفطريات)؛ الأمراض المتوسَّطة مناعيًا (فرط الحساسية، المناعة الذاتية)؛ التعرّض الطويل لعوامل سامة (السيليكا، بلورات الكوليسترول)؛ الالتهاب المزمن الخفيف في أمراض مثل ألزهايمر وتصلّب الشرايين والمتلازمة الاستقلابية/سكري النوع الثاني والسرطان."
+   },
+   {
+    "en": "Define granulomatous inflammation and list the settings of granuloma formation.",
+    "ar": "عرّف الالتهاب الحبيبومي وعدّد حالات تكوّن الأورام الحبيبية.",
+    "answer_en": "A distinctive pattern of chronic inflammation with aggregates of activated macrophages and scattered lymphocytes. Settings: persistent T-cell responses to microbes (TB prototype, T. pallidum, fungi); immune-mediated diseases (Crohn disease); sarcoidosis and foreign body granulomas.",
+    "answer_ar": "نمط مميّز من الالتهاب المزمن فيه تجمّعات من البلاعم المنشَّطة ولمفاويات متناثرة. حالاته: استجابات تائية مستمرة للميكروبات (السل نموذجها، الزهري، الفطريات)؛ الأمراض المتوسَّطة مناعيًا (داء كرون)؛ الساركويد والأورام الحبيبية للأجسام الغريبة."
+   },
+   {
+    "en": "What is the acute-phase reaction and its main mediators?",
+    "ar": "ما تفاعل الطور الحاد وما وسائطه الرئيسة؟",
+    "answer_en": "The systemic effects of inflammation (systemic inflammatory response syndrome); main mediators TNF, IL-1 and IL-6; IL-6 stimulates hepatic synthesis of plasma proteins.",
+    "answer_ar": "التأثيرات الجهازية للالتهاب (متلازمة الاستجابة الالتهابية الجهازية)؛ وسائطه الرئيسة TNF وIL-1 وIL-6؛ ويحفّز IL-6 الكبد على تخليق بروتينات البلازما."
+   },
+   {
+    "en": "Explain how fever is produced.",
+    "ar": "اشرح كيف تُحدث الحمّى.",
+    "answer_en": "Pyrogens (e.g., LPS, pyrogenic cytokines IL-1, TNF, IL-6) stimulate prostaglandin (PGE₂) synthesis in vascular and perivascular cells of the hypothalamus, raising the set-point.",
+    "answer_ar": "تحفّز المولّدات الحرارية (مثل LPS والسيتوكينات IL-1 وTNF وIL-6) تخليق البروستاغلاندين (PGE₂) في الخلايا الوعائية وحول الوعائية للوطاء فترتفع نقطة الضبط."
+   },
+   {
+    "en": "Name the three best known acute-phase proteins and their roles.",
+    "ar": "سمِّ بروتينات الطور الحاد الثلاثة الأشهر وأدوارها.",
+    "answer_en": "CRP and SAA bind microbial walls, act as opsonins and fix complement; fibrinogen causes rouleaux, the basis of the ESR. Synthesized in the liver, stimulated mainly by IL-6.",
+    "answer_ar": "CRP وSAA يرتبطان بجدران الميكروبات ويعملان طاهيات ويثبّتان المتمّمة؛ والفيبرينوجين يسبّب الرصّ وهو أساس ESR. تُخلَّق في الكبد بتحفيز IL-6 أساسًا."
+   },
+   {
+    "en": "Give examples of leukocyte changes in different infections.",
+    "ar": "أعطِ أمثلة على تغيّرات الكريات البيض في أنواع العدوى المختلفة.",
+    "answer_en": "Bacterial → neutrophilia; viral (infectious mononucleosis, mumps, German measles) → lymphocytosis; asthma, hay fever, parasites → eosinophilia; typhoid, some viruses, rickettsiae, protozoa → leukopenia.",
+    "answer_ar": "البكتيرية ← كثرة العدلات؛ الفيروسية (كثرة الوحيدات العدوائي، النكاف، الحصبة الألمانية) ← كثرة اللمفاويات؛ الربو وحمّى القش والطفيليات ← كثرة الحمضات؛ التيفوئيد وبعض الفيروسات والريكتسيات والأوالي ← قلّة الكريات البيض."
+   }
+  ]
+ }
+}

@@ -24,6 +24,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `histopathology-lab1-lab-safety/`, `histopathology-lab2-samples/` — Histopathology (علم الأمراض النسيجية) practical labs 1–2 — third stage.
 - `hematology-practical-anticoagulants/` (lab 1), `hematology-practical-normal-values/` (lab 2) — Hematology practical (ليندا منجد هادي) — third stage.
 - `histopathology-lec1-acute-inflammation/` — Histopathology theory lecture 1 (د. حامد خليل التميمي) — third stage.
+- `histopathology-lec2-chronic-inflammation/` — Histopathology theory lecture 2 (د. حامد خليل التميمي) — third stage.
 - `histopathology-lec4-healing-regeneration/` — Histopathology theory lecture 4 (د. حامد خليل التميمي) — third stage.
 - `virology-lab1-safety/` — Medical Virology practical lab 1: safety and aseptic techniques — third stage.
 - `bacteriology-lab2-specimens/`, `bacteriology-lab3-culture-media/` — Diagnostic Microbiology practical labs 2 and 3 (د. هبة سامي) — fourth stage.
