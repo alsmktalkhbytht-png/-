@@ -1,0 +1,1428 @@
+{
+ "meta": {
+  "subject_en": "Histopathology",
+  "subject_ar": "علم الأمراض النسيجية",
+  "short_ar": "انسجة",
+  "unit_en": "Lecture 1",
+  "unit_ar": "المحاضرة 1",
+  "unit_label": "LEC",
+  "unit_no": "1",
+  "title_en": "Acute Inflammation",
+  "title_ar": "الالتهاب الحاد",
+  "kind": "Theory — نظري",
+  "stage": "The third stage — الثالثة",
+  "instructor": "د. حامد خليل التميمي"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Inflammation",
+   "ar": "الالتهاب"
+  },
+  {
+   "t": "card",
+   "en": "The survival of all organisms requires that they eliminate foreign invaders, such as infectious agents, and damaged tissues. These functions are mediated by a complex host response called **inflammation**.",
+   "ar": "يتطلّب بقاء جميع الكائنات الحية أن تتخلّص من الغزاة الأجانب، كالعوامل المعدية، ومن الأنسجة التالفة. وتتوسّط هذه الوظائف استجابةٌ معقّدة من المضيف تُسمّى **الالتهاب**."
+  },
+  {
+   "t": "card",
+   "en": "**Inflammation** is a **protective response** involving host cells, blood vessels, and proteins and other mediators that is intended to eliminate the initial cause of cell injury, as well as the necrotic cells and tissues resulting from the original insult, and to initiate the process of repair.",
+   "ar": "**الالتهاب** **استجابة وقائية** تشترك فيها خلايا المضيف والأوعية الدموية والبروتينات والوسائط الأخرى، غايتها التخلّص من السبب الأولي لإصابة الخلية، ومن الخلايا والأنسجة الميتة الناتجة عن الإهانة الأصلية، وبدء عملية الإصلاح."
+  },
+  {
+   "t": "card",
+   "en": "Inflammation accomplishes its protective mission by first **diluting, destroying, or otherwise neutralizing** harmful agents (e.g., microbes, toxins). It then sets into motion the events that eventually heal and repair the sites of injury.",
+   "ar": "يؤدّي الالتهاب مهمته الوقائية أولًا بـ**تخفيف العوامل الضارة أو تدميرها أو معادلتها** بطريقة أخرى (مثل الميكروبات والسموم)، ثم يطلق الأحداث التي تنتهي بالتئام مواقع الإصابة وإصلاحها."
+  },
+  {
+   "t": "card",
+   "en": "Without inflammation, infections would go unchecked and wounds would never heal. In the context of infections, inflammation is one component of a protective response that immunologists refer to as **innate immunity**.",
+   "ar": "لولا الالتهاب لانتشرت العدوى دون رادع ولما التأمت الجروح أبدًا. وفي سياق العدوى يُعدّ الالتهاب أحد مكوّنات الاستجابة الوقائية التي يسمّيها علماء المناعة **المناعة الفطرية**."
+  },
+  {
+   "t": "card",
+   "en": "The components of the inflammatory reaction that destroy and eliminate microbes and dead tissues are **also capable of injuring normal tissues**.",
+   "ar": "مكوّنات التفاعل الالتهابي التي تدمّر الميكروبات والأنسجة الميتة وتزيلها **قادرة أيضًا على إصابة الأنسجة الطبيعية**."
+  },
+  {
+   "t": "card",
+   "en": "**the damage may even become the dominant feature if the reaction is;**",
+   "ar": "**وقد يصبح الضرر هو السمة الغالبة إذا كان التفاعل:**",
+   "list_en": [
+    "**Very strong** (e.g., when the infection is severe).",
+    "**Prolonged** (e.g., when the eliciting agent resists eradication).",
+    "**Inappropriate** (e.g., when it is directed against self-antigens in **autoimmune diseases**, or against usually harmless environmental antigens (e.g., in **allergic disorders**)."
+   ],
+   "list_ar": [
+    "**قويًا جدًا** (مثلًا عندما تكون العدوى شديدة).",
+    "**مطوّلًا** (مثلًا عندما يقاوم العامل المسبّب الاستئصال).",
+    "**غير ملائم** (مثلًا عندما يُوجَّه ضد المستضدات الذاتية في **أمراض المناعة الذاتية**، أو ضد مستضدات بيئية غير ضارة عادةً، كما في **الاضطرابات التحسّسية**)."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "The cells and molecules of host defence , including **leukocytes and plasma proteins**, normally circulate in the blood, and **the goal of the inflammatory reaction is to bring them to the site of infection or tissue damage**.",
+   "ar": "تدور خلايا الدفاع لدى المضيف وجزيئاته، ومنها **الكريات البيض وبروتينات البلازما**، في الدم عادةً، و**هدف التفاعل الالتهابي إيصالها إلى موقع العدوى أو تلف النسيج**."
+  },
+  {
+   "t": "card",
+   "en": "In addition, resident cells of vascular walls and the cells and proteins of the **extracellular matrix (ECM)** are also involved in inflammation and repair.",
+   "ar": "إضافةً إلى ذلك تشترك في الالتهاب والإصلاح الخلايا المقيمة في جدران الأوعية وخلايا **المادة خارج الخلوية (`ECM`)** وبروتيناتها."
+  },
+  {
+   "t": "figure",
+   "src": "assets/components.jpg",
+   "en": "The components of acute and chronic inflammatory responses (Fig. 2–1)",
+   "ar": "مكوّنات الاستجابات الالتهابية الحادة والمزمنة",
+   "h": "78mm",
+   "fit": "contain"
+  },
+  {
+   "t": "card",
+   "en": "**Figure 2–1** The components of acute and chronic inflammatory responses and their principal functions. The roles of these cells and molecules in inflammation are described in this chapter.",
+   "ar": "**الشكل 2–1** مكوّنات الاستجابات الالتهابية الحادة والمزمنة ووظائفها الرئيسة. وتُشرح أدوار هذه الخلايا والجزيئات في الالتهاب في هذا الفصل."
+  },
+  {
+   "t": "section",
+   "en": "Classification of inflammation",
+   "ar": "تصنيف الالتهاب"
+  },
+  {
+   "t": "card",
+   "en": "Inflammation can be **acute** or **chronic**.",
+   "ar": "قد يكون الالتهاب **حادًا** أو **مزمنًا**."
+  },
+  {
+   "t": "card",
+   "en": "**Acute inflammation is;**",
+   "ar": "**الالتهاب الحاد:**",
+   "list_en": [
+    "**Rapid** in onset",
+    "**Short duration**, lasting from a few minutes to as long as a few days.",
+    "Characterized by **fluid and plasma protein exudation** and a predominantly **neutrophilic** leukocyte accumulation."
+   ],
+   "list_ar": [
+    "**سريع** البدء",
+    "**قصير المدة**، يستمر من بضع دقائق إلى بضعة أيام.",
+    "يتميّز بـ**نضح السوائل وبروتينات البلازما** وتراكم الكريات البيض الذي تغلب عليه **العدلات**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Chronic inflammation may be**",
+   "ar": "**الالتهاب المزمن قد يكون:**",
+   "list_en": [
+    "More **insidious**, is of **longer duration** (days to years).",
+    "Typified by influx of **lymphocytes and macrophages** with associated **vascular proliferation and fibrosis** (scarring)."
+   ],
+   "list_ar": [
+    "أكثر **خفاءً**، و**أطول مدة** (من أيام إلى سنوات).",
+    "يتميّز بتدفّق **اللمفاويات والبلاعم** مع **تكاثر وعائي وتليّف** (تندّب) مرافقين."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "However, these two basic forms of inflammation **may coexist**, and many variables modify their course and histologic appearance.",
+   "ar": "غير أن هذين الشكلين الأساسيين من الالتهاب **قد يجتمعان**، وتعدّل متغيّرات كثيرة سيرهما ومظهرهما النسيجي."
+  },
+  {
+   "t": "table",
+   "head": [
+    "",
+    "Acute",
+    "Chronic",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Onset",
+     "Rapid",
+     "Insidious",
+     "**البدء**: سريع — خفي"
+    ],
+    [
+     "Duration",
+     "Minutes to a few days",
+     "Days to years",
+     "**المدة**: دقائق إلى أيام — أيام إلى سنوات"
+    ],
+    [
+     "Cells",
+     "Neutrophils",
+     "Lymphocytes and macrophages",
+     "**الخلايا**: العدلات — اللمفاويات والبلاعم"
+    ],
+    [
+     "Features",
+     "Fluid and plasma protein exudation",
+     "Vascular proliferation and fibrosis",
+     "**السمات**: نضح السوائل والبروتينات — تكاثر وعائي وتليّف"
+    ]
+   ],
+   "ar_cols": [
+    3
+   ],
+   "key_cols": [
+    0
+   ],
+   "style": "summary",
+   "label_en": "Acute vs chronic",
+   "label_ar": "الحاد مقابل المزمن"
+  },
+  {
+   "t": "section",
+   "en": "Inflammation and chemicals mediators.",
+   "ar": "الالتهاب والوسائط الكيميائية"
+  },
+  {
+   "t": "card",
+   "en": "Inflammation is induced by **chemical mediators** that are produced by host cells in response to injurious stimuli. When a microbe enters a tissue or the tissue is injured, the presence of the infection or damage is **sensed by resident cells, mainly macrophages**, but also dendritic cells, mast cells, and other cell types.",
+   "ar": "يُحدَث الالتهاب بـ**وسائط كيميائية** تنتجها خلايا المضيف استجابةً للمحفّزات المؤذية. فعندما يدخل ميكروب نسيجًا أو يُصاب النسيج، **تستشعر الخلايا المقيمة** وجود العدوى أو الضرر، **وأهمها البلاعم**، وكذلك الخلايا التغصّنية والخلايا البدينة وأنواع أخرى."
+  },
+  {
+   "t": "card",
+   "en": "These cells secrete molecules (**cytokines** and other mediators) that induce and regulate the subsequent inflammatory response.",
+   "ar": "تفرز هذه الخلايا جزيئات (**السيتوكينات** ووسائط أخرى) تُحدث الاستجابة الالتهابية اللاحقة وتنظّمها."
+  },
+  {
+   "t": "card",
+   "en": "Inflammatory mediators are also produced from **plasma proteins** that react with the microbes or to injured tissues. Some of these mediators promote the efflux of plasma and the recruitment of circulating leukocytes to the site where the offending agent is located. The recruited leukocytes are activated and they try to remove the often ding agent by **phagocytosis**.",
+   "ar": "تُنتَج الوسائط الالتهابية أيضًا من **بروتينات البلازما** التي تتفاعل مع الميكروبات أو مع الأنسجة المصابة. ويعزّز بعض هذه الوسائط خروج البلازما واستقطاب الكريات البيض الجائلة إلى موقع العامل المؤذي. فتُنشَّط الكريات المستقطَبة وتحاول إزالة العامل المؤذي بـ**البلعمة**."
+  },
+  {
+   "t": "card",
+   "en": "**An unfortunate side effect of the activation of leukocytes may be damage to normal host tissues.**",
+   "ar": "**من الآثار الجانبية المؤسفة لتنشيط الكريات البيض أنه قد يسبّب ضررًا لأنسجة المضيف الطبيعية.**"
+  },
+  {
+   "t": "h2",
+   "en": "Cardinal signs",
+   "ar": "العلامات الأساسية"
+  },
+  {
+   "t": "card",
+   "en": "The external manifestations of inflammation, often called its **cardinal signs**, are;",
+   "ar": "المظاهر الخارجية للالتهاب، وتُسمّى غالبًا **علاماته الأساسية**، هي:",
+   "list_en": [
+    "**Heat** (calor).",
+    "**Redness** (rubor).",
+    "**Swelling** (tumor)",
+    "**Pain** (dolor).",
+    "**Loss of function** (functio laesa)."
+   ],
+   "list_ar": [
+    "**الحرارة** (`calor`).",
+    "**الاحمرار** (`rubor`).",
+    "**التورّم** (`tumor`)",
+    "**الألم** (`dolor`).",
+    "**فقدان الوظيفة** (`functio laesa`)."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/cardinal-signs.jpg",
+   "en": "5 Cardinal Signs of Inflammation",
+   "ar": "العلامات الأساسية الخمس للالتهاب",
+   "h": "62mm",
+   "fit": "contain"
+  },
+  {
+   "t": "card",
+   "en": "Inflammation is normally **controlled and self-limited**. The mediators and cells are activated only in response to the injurious stimulus and are **short-lived**, and they are degraded or become inactive as the injurious agent is eliminated. In addition, various **anti-inflammatory mechanisms** become active. If the injurious agent cannot be quickly eliminated, the result may be **chronic inflammation**, which can have serious pathologic consequences.",
+   "ar": "الالتهاب عادةً **مضبوط ومحدود ذاتيًا**؛ فالوسائط والخلايا لا تُنشَّط إلا استجابةً للمحفّز المؤذي، وهي **قصيرة العمر**، وتتحلّل أو تصبح غير فعّالة عند التخلّص من العامل المؤذي. إضافةً إلى ذلك تنشط **آليات مضادة للالتهاب** متنوعة. وإذا تعذّر التخلّص من العامل المؤذي سريعًا فقد تكون النتيجة **التهابًا مزمنًا** له عواقب مرضية خطيرة."
+  },
+  {
+   "t": "section",
+   "en": "Acute inflammation",
+   "ar": "الالتهاب الحاد"
+  },
+  {
+   "t": "card",
+   "en": "The acute inflammatory response **rapidly delivers leukocytes and plasma proteins to sites of injury**. Once there, leukocytes clear the invaders and begin the process of digesting and getting rid of necrotic tissues.",
+   "ar": "توصل الاستجابة الالتهابية الحادة **الكريات البيض وبروتينات البلازما بسرعة إلى مواقع الإصابة**. وهناك تزيل الكريات البيض الغزاة وتبدأ عملية هضم الأنسجة الميتة والتخلّص منها."
+  },
+  {
+   "t": "h2",
+   "en": "Acute inflammation events",
+   "ar": "أحداث الالتهاب الحاد"
+  },
+  {
+   "t": "card",
+   "en": "Acute inflammation has two major components:",
+   "ar": "للالتهاب الحاد مكوّنان رئيسان:"
+  },
+  {
+   "t": "rule",
+   "en": "**1- Vascular changes:** alterations in vessel calibre resulting in **increased blood flow (vasodilation)** and changes in the vessel wall that permit plasma proteins to leave the circulation (**increased vascular permeability**). In addition, endothelial cells are activated, resulting in increased adhesion of leukocytes and migration of the leukocytes through the vessel wall.",
+   "ar": "**1- التغيّرات الوعائية:** تغيّرات في قطر الوعاء تؤدي إلى **زيادة جريان الدم (توسّع الأوعية)**، وتغيّرات في جدار الوعاء تسمح لبروتينات البلازما بمغادرة الدوران (**زيادة النفوذية الوعائية**). إضافةً إلى ذلك تُنشَّط الخلايا البطانية فيزداد التصاق الكريات البيض وهجرتها عبر جدار الوعاء."
+  },
+  {
+   "t": "rule",
+   "en": "**2- Cellular events:** emigration of the leukocytes from the circulation and accumulation in the focus of injury (**cellular recruitment**), followed by **activation** of the leukocytes, enabling them to eliminate the offending agent. The principal leukocytes in acute inflammation are **neutrophils** (polymorphonuclear leukocytes).",
+   "ar": "**2- الأحداث الخلوية:** هجرة الكريات البيض من الدوران وتجمّعها في بؤرة الإصابة (**الاستقطاب الخلوي**)، يليها **تنشيط** الكريات البيض لتتمكّن من التخلّص من العامل المؤذي. والكريات البيض الرئيسة في الالتهاب الحاد هي **العدلات** (الكريات البيض متعددة الأشكال النووية)."
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/normal-vessels.jpg",
+     "en": "Normal",
+     "ar": "الطبيعي",
+     "h": "48mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/inflamed-vessels.jpg",
+     "en": "Inflamed: increased blood flow, leakage of plasma proteins → edema, neutrophil emigration",
+     "ar": "الملتهب: زيادة جريان الدم، تسرّب بروتينات البلازما ← وذمة، هجرة العدلات",
+     "h": "48mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Stimuli for Acute Inflammation",
+   "ar": "محفّزات الالتهاب الحاد"
+  },
+  {
+   "t": "card",
+   "en": "Acute inflammatory reactions may be triggered by a variety of stimuli:",
+   "ar": "قد تُثار التفاعلات الالتهابية الحادة بمحفّزات متنوعة:"
+  },
+  {
+   "t": "rule",
+   "en": "**1- Infections** (bacterial, viral, fungal, parasitic) are among the **most common and medically important** causes of inflammation.",
+   "ar": "**1- العدوى** (البكتيرية والفيروسية والفطرية والطفيلية) من **أكثر أسباب الالتهاب شيوعًا وأهمية طبية**."
+  },
+  {
+   "t": "rule",
+   "en": "**2- Trauma** (blunt and penetrating) and various physical and chemical agents (e.g., thermal injury, such as **burns or frostbite**; **irradiation**; toxicity from certain environ-mental chemicals) injure host cells and elicit inflammatory reactions.",
+   "ar": "**2- الرضوض** (الكليلة والنافذة) والعوامل الفيزيائية والكيميائية المختلفة (مثل الإصابة الحرارية كـ**الحروق أو قضمة الصقيع**؛ و**الإشعاع**؛ والسمّية من بعض المواد الكيميائية البيئية) تصيب خلايا المضيف وتثير تفاعلات التهابية."
+  },
+  {
+   "t": "rule",
+   "en": "**3- Tissue necrosis** (from any cause), including **ischemia** (as in a myocardial infarct) and physical and chemical injury",
+   "ar": "**3- نخر النسيج** (من أي سبب)، ومنه **نقص التروية** (كما في احتشاء العضلة القلبية) والإصابة الفيزيائية والكيميائية"
+  },
+  {
+   "t": "rule",
+   "en": "**4- Foreign bodies** (splinters, dirt, sutures, crystal deposits)",
+   "ar": "**4- الأجسام الغريبة** (الشظايا، الأوساخ، خيوط الجراحة، ترسّبات البلورات)"
+  },
+  {
+   "t": "rule",
+   "en": "**5- Immune reactions** (also called **hypersensitivity reactions**) against environmental substances or against “self” tissues.",
+   "ar": "**5- التفاعلات المناعية** (وتُسمّى أيضًا **تفاعلات فرط الحساسية**) ضد المواد البيئية أو ضد الأنسجة «الذاتية»."
+  },
+  {
+   "t": "section",
+   "en": "Vascular Change",
+   "ar": "التغيّر الوعائي"
+  },
+  {
+   "t": "card",
+   "en": "The main vascular reactions of acute inflammation are **increased blood flow secondary to vasodilation** and **increased vascular permeability**, both designed to bring blood cells and proteins to sites of infection or injury.",
+   "ar": "التفاعلات الوعائية الرئيسة للالتهاب الحاد هي **زيادة جريان الدم الناتجة عن توسّع الأوعية** و**زيادة النفوذية الوعائية**، وكلاهما لإيصال خلايا الدم وبروتيناته إلى مواقع العدوى أو الإصابة."
+  },
+  {
+   "t": "card",
+   "en": "**Several mechanisms may contribute to increased vascular permeability in acute inflammatory reactions:**",
+   "ar": "**قد تسهم عدة آليات في زيادة النفوذية الوعائية في التفاعلات الالتهابية الحادة:**"
+  },
+  {
+   "t": "rule",
+   "en": "**1- Endothelial cell contraction** leading to intercellular gaps in **post-capillary venules** is the **most common cause** of increased vascular permeability.",
+   "ar": "**1- تقلّص الخلايا البطانية** المؤدي إلى فجوات بين الخلايا في **الوريدات بعد الشعيرية** هو **السبب الأكثر شيوعًا** لزيادة النفوذية الوعائية."
+  },
+  {
+   "t": "rule",
+   "en": "**2- Endothelial injury** results in vascular leakage by causing endothelial cell **necrosis and detachment**.",
+   "ar": "**2- إصابة البطانة** تؤدي إلى التسرّب الوعائي بإحداث **نخر الخلايا البطانية وانفصالها**."
+  },
+  {
+   "t": "rule",
+   "en": "**3- Increased transcytosis** of proteins by way of an intracellular vesicular pathway augments venular permeability, especially after exposure to certain mediators such as **vascular endothelial growth factor (VEGF)**.",
+   "ar": "**3- زيادة النقل عبر الخلية** للبروتينات بمسار حويصلي داخل الخلية تزيد نفوذية الوريدات، خاصةً بعد التعرّض لبعض الوسائط مثل **عامل نمو البطانة الوعائية (`VEGF`)**."
+  },
+  {
+   "t": "rule",
+   "en": "**4- Leakage from new blood vessels.** Tissue repair involves new blood vessel formation (**angiogenesis**).",
+   "ar": "**4- التسرّب من الأوعية الدموية الجديدة.** يتضمّن إصلاح النسيج تكوين أوعية دموية جديدة (**تكوّن الأوعية**)."
+  },
+  {
+   "t": "figure",
+   "src": "assets/transudate-exudate.jpg",
+   "en": "Formation of transudates and exudates (Fig. 2–4)",
+   "ar": "تكوّن الرشحات والنضحات",
+   "h": "70mm",
+   "fit": "contain"
+  },
+  {
+   "t": "card",
+   "en": "**Figure 2–4** Formation of transudates and exudates. **A,** Normal hydrostatic pressure (blue arrows) is approximately **32 mm Hg** at the arterial end of a capillary bed and **12 mm Hg** at the venous end; the mean colloid osmotic pressure of tissues is approximately **25 mm Hg** (green arrows), which is nearly equal to the mean capillary pressure. Therefore, the net flow of fluid across the vascular bed is almost nil. **B,** A **transudate** is formed when fluid leaks out because of increased hydrostatic pressure or decreased osmotic pressure. **C,** An **exudate** is formed in inflammation because vascular permeability increases as a result of the increase in interendothelial spaces.",
+   "ar": "**الشكل 2–4** تكوّن الرشحات والنضحات. **أ:** الضغط الهيدروستاتيكي الطبيعي (الأسهم الزرقاء) نحو **32 ملم زئبق** عند النهاية الشريانية للسرير الشعيري و**12 ملم زئبق** عند النهاية الوريدية؛ ومتوسط الضغط الغرواني التناضحي للأنسجة نحو **25 ملم زئبق** (الأسهم الخضراء)، وهو يساوي تقريبًا متوسط الضغط الشعيري، لذا يكون صافي جريان السائل عبر السرير الوعائي شبه معدوم. **ب:** تتكوّن **الرشحة** عندما يتسرّب السائل بسبب زيادة الضغط الهيدروستاتيكي أو نقص الضغط التناضحي. **ج:** تتكوّن **النضحة** في الالتهاب لأن النفوذية الوعائية تزداد نتيجة اتساع المسافات بين الخلايا البطانية."
+  },
+  {
+   "t": "table",
+   "head": [
+    "",
+    "Transudate",
+    "Exudate",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Cause",
+     "↑ Hydrostatic or ↓ osmotic pressure",
+     "↑ Vascular permeability (inflammation)",
+     "**السبب**: ↑ الضغط الهيدروستاتيكي أو ↓ التناضحي — ↑ النفوذية (الالتهاب)"
+    ],
+    [
+     "Content",
+     "Low protein, few cells",
+     "High protein, may contain white and red cells",
+     "**المحتوى**: بروتين قليل وخلايا قليلة — بروتين عالٍ وقد يحوي كريات بيضًا وحمرًا"
+    ],
+    [
+     "Examples",
+     "Congestive heart failure, liver disease, kidney disease",
+     "Inflammation",
+     "**أمثلة**: عجز القلب الاحتقاني، أمراض الكبد والكلية — الالتهاب"
+    ]
+   ],
+   "ar_cols": [
+    3
+   ],
+   "key_cols": [
+    0
+   ],
+   "style": "summary",
+   "label_en": "From the figure",
+   "label_ar": "من الشكل"
+  },
+  {
+   "t": "section",
+   "en": "Anti-inflammatory Mechanisms",
+   "ar": "الآليات المضادة للالتهاب"
+  },
+  {
+   "t": "card",
+   "en": "Inflammatory reactions subside because many of the mediators are **short-lived** and are destroyed by **degradative enzymes**. In addition, there are several mechanisms that counteract inflammatory mediators and function to limit or terminate the inflammatory response. Some of these, such as **lipoxins**, and **complement regulatory proteins**, have been mentioned earlier.",
+   "ar": "تخمد التفاعلات الالتهابية لأن كثيرًا من الوسائط **قصيرة العمر** وتُدمَّر بـ**الإنزيمات المحلِّلة**. إضافةً إلى ذلك توجد آليات عدة تعاكس الوسائط الالتهابية وتعمل على تحديد الاستجابة الالتهابية أو إنهائها، وقد ذُكر بعضها سابقًا مثل **الليبوكسينات** و**البروتينات المنظِّمة للمتمّمة**."
+  },
+  {
+   "t": "card",
+   "en": "Activated macrophages and other cells secrete a cytokine, **IL-10**, whose major function is to **down-regulate** the responses of activated macrophages, thus providing a **negative feedback loop**. In a rare inherited disease in which IL-10 receptors are mutated, affected patients develop **severe colitis in infancy**.",
+   "ar": "تفرز البلاعم المنشَّطة وخلايا أخرى سيتوكينًا هو **`IL-10`**، وظيفته الرئيسة **تثبيط** استجابات البلاعم المنشَّطة، فيوفّر بذلك **حلقة تغذية راجعة سلبية**. وفي مرض وراثي نادر تكون فيه مستقبلات `IL-10` طافرة، يصاب المرضى بـ**التهاب قولون شديد في الرضاعة**."
+  },
+  {
+   "t": "card",
+   "en": "Other anti-inflammatory cytokines include **TGF-β**, which is also a mediator of **fibrosis** in tissue repair after inflammation. Cells also express a number of intracellular proteins, such as **tyrosine phosphatases**, that inhibit pro-inflammatory signals triggered by receptors that recognize microbes and cytokines",
+   "ar": "ومن السيتوكينات المضادة للالتهاب الأخرى **`TGF-β`**، وهو أيضًا وسيط لـ**التليّف** في إصلاح النسيج بعد الالتهاب. كما تعبّر الخلايا عن عدد من البروتينات داخل الخلوية، مثل **فوسفاتازات التيروسين**، التي تثبّط الإشارات المحفّزة للالتهاب الصادرة عن المستقبلات التي تتعرّف على الميكروبات والسيتوكينات."
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Definition and harmful effects",
+    "topic_ar": "التعريف والآثار الضارة"
+   },
+   {
+    "en": "Inflammation is best defined as:",
+    "ar": "أفضل تعريف للالتهاب:",
+    "options": [
+     [
+      "A protective response intended to eliminate the cause of cell injury and initiate repair",
+      "استجابة وقائية غايتها إزالة سبب إصابة الخلية وبدء الإصلاح"
+     ],
+     [
+      "A harmful reaction that always damages tissue",
+      "تفاعل ضار يتلف النسيج دائمًا"
+     ],
+     [
+      "A type of tumor",
+      "نوع من الأورام"
+     ],
+     [
+      "A form of cell death",
+      "شكل من أشكال موت الخلية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In the context of infections, inflammation is a component of:",
+    "ar": "في سياق العدوى يُعدّ الالتهاب أحد مكوّنات:",
+    "options": [
+     [
+      "Adaptive immunity",
+      "المناعة المكتسبة"
+     ],
+     [
+      "Innate immunity",
+      "المناعة الفطرية"
+     ],
+     [
+      "Passive immunity",
+      "المناعة السلبية"
+     ],
+     [
+      "Autoimmunity",
+      "المناعة الذاتية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Inflammatory damage may become dominant when the reaction is all of the following EXCEPT:",
+    "ar": "قد يصبح الضرر الالتهابي هو الغالب عندما يكون التفاعل كل ما يأتي عدا:",
+    "options": [
+     [
+      "Very strong",
+      "قويًا جدًا"
+     ],
+     [
+      "Prolonged",
+      "مطوّلًا"
+     ],
+     [
+      "Controlled and self-limited",
+      "مضبوطًا ومحدودًا ذاتيًا"
+     ],
+     [
+      "Inappropriate",
+      "غير ملائم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Inflammation directed against self-antigens occurs in:",
+    "ar": "يحدث الالتهاب الموجّه ضد المستضدات الذاتية في:",
+    "options": [
+     [
+      "Allergic disorders",
+      "الاضطرابات التحسّسية"
+     ],
+     [
+      "Burns",
+      "الحروق"
+     ],
+     [
+      "Severe infection",
+      "العدوى الشديدة"
+     ],
+     [
+      "Autoimmune diseases",
+      "أمراض المناعة الذاتية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The goal of the inflammatory reaction is to:",
+    "ar": "هدف التفاعل الالتهابي:",
+    "options": [
+     [
+      "Increase blood pressure",
+      "رفع ضغط الدم"
+     ],
+     [
+      "Bring leukocytes and plasma proteins to the site of infection or tissue damage",
+      "إيصال الكريات البيض وبروتينات البلازما إلى موقع العدوى أو التلف"
+     ],
+     [
+      "Stop all blood flow",
+      "إيقاف جريان الدم"
+     ],
+     [
+      "Destroy the extracellular matrix",
+      "تدمير المادة خارج الخلوية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Acute vs chronic",
+    "topic_ar": "الحاد والمزمن"
+   },
+   {
+    "en": "Acute inflammation is characterized by a predominantly:",
+    "ar": "يتميّز الالتهاب الحاد بتراكم يغلب عليه:",
+    "options": [
+     [
+      "Lymphocytic",
+      "اللمفاويات"
+     ],
+     [
+      "Plasma cell",
+      "خلايا البلازما"
+     ],
+     [
+      "Eosinophilic",
+      "الحمضات"
+     ],
+     [
+      "Neutrophilic",
+      "العدلات"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The duration of acute inflammation is:",
+    "ar": "مدة الالتهاب الحاد:",
+    "options": [
+     [
+      "A few minutes to a few days",
+      "من بضع دقائق إلى بضعة أيام"
+     ],
+     [
+      "Weeks to months",
+      "أسابيع إلى أشهر"
+     ],
+     [
+      "Days to years",
+      "أيام إلى سنوات"
+     ],
+     [
+      "Lifelong",
+      "مدى الحياة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Chronic inflammation is typified by influx of:",
+    "ar": "يتميّز الالتهاب المزمن بتدفّق:",
+    "options": [
+     [
+      "Neutrophils",
+      "العدلات"
+     ],
+     [
+      "Platelets",
+      "الصفائح"
+     ],
+     [
+      "Lymphocytes and macrophages",
+      "اللمفاويات والبلاعم"
+     ],
+     [
+      "Red blood cells",
+      "كريات الدم الحمر"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Vascular proliferation and fibrosis are features of:",
+    "ar": "التكاثر الوعائي والتليّف من سمات:",
+    "options": [
+     [
+      "Acute inflammation",
+      "الالتهاب الحاد"
+     ],
+     [
+      "Hyperemia",
+      "الاحتقان"
+     ],
+     [
+      "Transudate",
+      "الرشحة"
+     ],
+     [
+      "Chronic inflammation",
+      "الالتهاب المزمن"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Mediators and cardinal signs",
+    "topic_ar": "الوسائط والعلامات الأساسية"
+   },
+   {
+    "en": "The presence of infection or damage is sensed mainly by:",
+    "ar": "يُستشعر وجود العدوى أو الضرر أساسًا بواسطة:",
+    "options": [
+     [
+      "Neutrophils",
+      "العدلات"
+     ],
+     [
+      "Red blood cells",
+      "كريات الدم الحمر"
+     ],
+     [
+      "Macrophages",
+      "البلاعم"
+     ],
+     [
+      "Fibroblasts",
+      "الخلايا الليفية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Resident cells secrete molecules that induce and regulate inflammation, called:",
+    "ar": "تفرز الخلايا المقيمة جزيئات تُحدث الالتهاب وتنظّمه تُسمّى:",
+    "options": [
+     [
+      "Antibodies",
+      "الأضداد"
+     ],
+     [
+      "Cytokines",
+      "السيتوكينات"
+     ],
+     [
+      "Hormones",
+      "الهرمونات"
+     ],
+     [
+      "Enzymes only",
+      "إنزيمات فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Recruited leukocytes try to remove the offending agent by:",
+    "ar": "تحاول الكريات البيض المستقطَبة إزالة العامل المؤذي بـ:",
+    "options": [
+     [
+      "Phagocytosis",
+      "البلعمة"
+     ],
+     [
+      "Fibrosis",
+      "التليّف"
+     ],
+     [
+      "Mitosis",
+      "الانقسام"
+     ],
+     [
+      "Coagulation",
+      "التخثّر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "'Rubor' means:",
+    "ar": "تعني `rubor`:",
+    "options": [
+     [
+      "Heat",
+      "الحرارة"
+     ],
+     [
+      "Swelling",
+      "التورّم"
+     ],
+     [
+      "Redness",
+      "الاحمرار"
+     ],
+     [
+      "Pain",
+      "الألم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "'Functio laesa' means:",
+    "ar": "تعني `functio laesa`:",
+    "options": [
+     [
+      "Pain",
+      "الألم"
+     ],
+     [
+      "Swelling",
+      "التورّم"
+     ],
+     [
+      "Heat",
+      "الحرارة"
+     ],
+     [
+      "Loss of function",
+      "فقدان الوظيفة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "'Tumor' as a cardinal sign means:",
+    "ar": "تعني `tumor` كعلامة أساسية:",
+    "options": [
+     [
+      "Cancer",
+      "السرطان"
+     ],
+     [
+      "Swelling",
+      "التورّم"
+     ],
+     [
+      "Redness",
+      "الاحمرار"
+     ],
+     [
+      "Heat",
+      "الحرارة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "If the injurious agent cannot be quickly eliminated, the result may be:",
+    "ar": "إذا تعذّر التخلّص من العامل المؤذي سريعًا فقد تكون النتيجة:",
+    "options": [
+     [
+      "Chronic inflammation",
+      "التهابًا مزمنًا"
+     ],
+     [
+      "Immediate healing",
+      "التئامًا فوريًا"
+     ],
+     [
+      "Regeneration only",
+      "تجدّدًا فقط"
+     ],
+     [
+      "No change",
+      "لا تغيير"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Acute inflammation and its stimuli",
+    "topic_ar": "الالتهاب الحاد ومحفّزاته"
+   },
+   {
+    "en": "The two major components of acute inflammation are:",
+    "ar": "المكوّنان الرئيسان للالتهاب الحاد:",
+    "options": [
+     [
+      "Necrosis and apoptosis",
+      "النخر والاستماتة"
+     ],
+     [
+      "Fibrosis and angiogenesis",
+      "التليّف وتكوّن الأوعية"
+     ],
+     [
+      "Vascular changes and cellular events",
+      "التغيّرات الوعائية والأحداث الخلوية"
+     ],
+     [
+      "Regeneration and scar",
+      "التجدّد والندبة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The principal leukocytes in acute inflammation are:",
+    "ar": "الكريات البيض الرئيسة في الالتهاب الحاد:",
+    "options": [
+     [
+      "Lymphocytes",
+      "اللمفاويات"
+     ],
+     [
+      "Neutrophils",
+      "العدلات"
+     ],
+     [
+      "Monocytes",
+      "الوحيدات"
+     ],
+     [
+      "Basophils",
+      "القعدات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Increased vascular permeability permits:",
+    "ar": "تسمح زيادة النفوذية الوعائية بـ:",
+    "options": [
+     [
+      "Plasma proteins to leave the circulation",
+      "مغادرة بروتينات البلازما للدوران"
+     ],
+     [
+      "Red cells to multiply",
+      "تكاثر الكريات الحمر"
+     ],
+     [
+      "Vasoconstriction",
+      "تضيّق الأوعية"
+     ],
+     [
+      "Fibrosis",
+      "التليّف"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The most common and medically important cause of inflammation is:",
+    "ar": "أكثر أسباب الالتهاب شيوعًا وأهمية طبية:",
+    "options": [
+     [
+      "Foreign bodies",
+      "الأجسام الغريبة"
+     ],
+     [
+      "Frostbite",
+      "قضمة الصقيع"
+     ],
+     [
+      "Irradiation",
+      "الإشعاع"
+     ],
+     [
+      "Infections",
+      "العدوى"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Ischemia as in myocardial infarct triggers inflammation through:",
+    "ar": "يثير نقص التروية كما في احتشاء القلب الالتهاب عن طريق:",
+    "options": [
+     [
+      "Foreign bodies",
+      "الأجسام الغريبة"
+     ],
+     [
+      "Tissue necrosis",
+      "نخر النسيج"
+     ],
+     [
+      "Infection",
+      "العدوى"
+     ],
+     [
+      "Immune reactions",
+      "التفاعلات المناعية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Hypersensitivity reactions are another name for:",
+    "ar": "تفاعلات فرط الحساسية اسم آخر لـ:",
+    "options": [
+     [
+      "Trauma",
+      "الرضوض"
+     ],
+     [
+      "Tissue necrosis",
+      "نخر النسيج"
+     ],
+     [
+      "Immune reactions",
+      "التفاعلات المناعية"
+     ],
+     [
+      "Infections",
+      "العدوى"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Sutures and crystal deposits are examples of:",
+    "ar": "خيوط الجراحة وترسّبات البلورات أمثلة على:",
+    "options": [
+     [
+      "Foreign bodies",
+      "الأجسام الغريبة"
+     ],
+     [
+      "Infections",
+      "العدوى"
+     ],
+     [
+      "Trauma",
+      "الرضوض"
+     ],
+     [
+      "Necrosis",
+      "النخر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Vascular changes and permeability",
+    "topic_ar": "التغيّرات الوعائية والنفوذية"
+   },
+   {
+    "en": "The most common cause of increased vascular permeability is:",
+    "ar": "السبب الأكثر شيوعًا لزيادة النفوذية الوعائية:",
+    "options": [
+     [
+      "Endothelial injury",
+      "إصابة البطانة"
+     ],
+     [
+      "Leakage from new vessels",
+      "التسرّب من الأوعية الجديدة"
+     ],
+     [
+      "Increased transcytosis",
+      "زيادة النقل عبر الخلية"
+     ],
+     [
+      "Endothelial cell contraction in post-capillary venules",
+      "تقلّص الخلايا البطانية في الوريدات بعد الشعيرية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Increased transcytosis augments venular permeability especially after exposure to:",
+    "ar": "تزيد زيادة النقل عبر الخلية نفوذية الوريدات خاصةً بعد التعرّض لـ:",
+    "options": [
+     [
+      "IL-10",
+      "IL-10"
+     ],
+     [
+      "Lipoxins",
+      "الليبوكسينات"
+     ],
+     [
+      "TGF-β",
+      "TGF-β"
+     ],
+     [
+      "VEGF",
+      "VEGF"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Endothelial injury causes vascular leakage by:",
+    "ar": "تسبّب إصابة البطانة التسرّب الوعائي بـ:",
+    "options": [
+     [
+      "Angiogenesis",
+      "تكوّن الأوعية"
+     ],
+     [
+      "Vasoconstriction",
+      "تضيّق الأوعية"
+     ],
+     [
+      "Endothelial cell necrosis and detachment",
+      "نخر الخلايا البطانية وانفصالها"
+     ],
+     [
+      "Fibrosis",
+      "التليّف"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "An exudate is characterized by:",
+    "ar": "تتميّز النضحة بـ:",
+    "options": [
+     [
+      "High protein content and may contain white and red cells",
+      "بروتين عالٍ وقد تحوي كريات بيضًا وحمرًا"
+     ],
+     [
+      "Low protein content, few cells",
+      "بروتين قليل وخلايا قليلة"
+     ],
+     [
+      "No proteins",
+      "عدم وجود بروتين"
+     ],
+     [
+      "Only water",
+      "الماء فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "A transudate is formed due to:",
+    "ar": "تتكوّن الرشحة بسبب:",
+    "options": [
+     [
+      "Increased vascular permeability",
+      "زيادة النفوذية الوعائية"
+     ],
+     [
+      "Increased hydrostatic or decreased osmotic pressure",
+      "زيادة الضغط الهيدروستاتيكي أو نقص التناضحي"
+     ],
+     [
+      "Inflammation",
+      "الالتهاب"
+     ],
+     [
+      "Neutrophil emigration",
+      "هجرة العدلات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Anti-inflammatory mechanisms",
+    "topic_ar": "الآليات المضادة للالتهاب"
+   },
+   {
+    "en": "The cytokine that down-regulates activated macrophages (negative feedback) is:",
+    "ar": "السيتوكين الذي يثبّط البلاعم المنشَّطة (تغذية راجعة سلبية):",
+    "options": [
+     [
+      "IL-1",
+      "IL-1"
+     ],
+     [
+      "VEGF",
+      "VEGF"
+     ],
+     [
+      "TNF",
+      "TNF"
+     ],
+     [
+      "IL-10",
+      "IL-10"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Mutation of IL-10 receptors causes:",
+    "ar": "تسبّب طفرة مستقبلات IL-10:",
+    "options": [
+     [
+      "Severe colitis in infancy",
+      "التهاب قولون شديد في الرضاعة"
+     ],
+     [
+      "Liver cirrhosis",
+      "تشمّع الكبد"
+     ],
+     [
+      "Asthma",
+      "الربو"
+     ],
+     [
+      "Anemia",
+      "فقر الدم"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "An anti-inflammatory cytokine that is also a mediator of fibrosis is:",
+    "ar": "سيتوكين مضاد للالتهاب وهو أيضًا وسيط للتليّف:",
+    "options": [
+     [
+      "Histamine",
+      "الهستامين"
+     ],
+     [
+      "IL-10",
+      "IL-10"
+     ],
+     [
+      "TGF-β",
+      "TGF-β"
+     ],
+     [
+      "VEGF",
+      "VEGF"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Intracellular proteins that inhibit pro-inflammatory signals include:",
+    "ar": "من البروتينات داخل الخلوية التي تثبّط إشارات الالتهاب:",
+    "options": [
+     [
+      "Collagen",
+      "الكولاجين"
+     ],
+     [
+      "Tyrosine phosphatases",
+      "فوسفاتازات التيروسين"
+     ],
+     [
+      "Hemoglobin",
+      "الهيموغلوبين"
+     ],
+     [
+      "Fibrinogen",
+      "الفيبرينوجين"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "This cardinal sign of inflammation is:",
+    "ar": "هذه العلامة الأساسية للالتهاب هي:",
+    "options": [
+     [
+      "Pain (dolor)",
+      "الألم"
+     ],
+     [
+      "Heat (calor)",
+      "الحرارة"
+     ],
+     [
+      "Redness (rubor)",
+      "الاحمرار"
+     ],
+     [
+      "Swelling (tumor)",
+      "التورّم"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/q-heat.jpg",
+    "img_h": "40mm"
+   },
+   {
+    "en": "This cardinal sign of inflammation is:",
+    "ar": "هذه العلامة الأساسية للالتهاب هي:",
+    "options": [
+     [
+      "Loss of function (functio laesa)",
+      "فقدان الوظيفة"
+     ],
+     [
+      "Swelling (tumor)",
+      "التورّم"
+     ],
+     [
+      "Pain (dolor)",
+      "الألم"
+     ],
+     [
+      "Redness (rubor)",
+      "الاحمرار"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/q-loss-function.jpg",
+    "img_h": "40mm"
+   },
+   {
+    "en": "Step (2) in the inflamed vessels is:",
+    "ar": "الخطوة (2) في الأوعية الملتهبة هي:",
+    "options": [
+     [
+      "Increased blood flow",
+      "زيادة جريان الدم"
+     ],
+     [
+      "Neutrophil emigration",
+      "هجرة العدلات"
+     ],
+     [
+      "Leakage of plasma proteins → edema",
+      "تسرّب بروتينات البلازما ← وذمة"
+     ],
+     [
+      "Venule constriction",
+      "تضيّق الوريدة"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/inflamed-vessels.jpg",
+    "img_h": "40mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Inflammation is a protective response.",
+    "ar": "الالتهاب استجابة وقائية.",
+    "answer": "T"
+   },
+   {
+    "en": "Without inflammation, wounds would heal faster.",
+    "ar": "لولا الالتهاب لالتأمت الجروح أسرع.",
+    "answer": "F"
+   },
+   {
+    "en": "Components of the inflammatory reaction can injure normal tissues.",
+    "ar": "قد تصيب مكوّنات التفاعل الالتهابي الأنسجة الطبيعية.",
+    "answer": "T"
+   },
+   {
+    "en": "Acute inflammation lasts from days to years.",
+    "ar": "يستمر الالتهاب الحاد من أيام إلى سنوات.",
+    "answer": "F"
+   },
+   {
+    "en": "Chronic inflammation is typified by lymphocytes and macrophages.",
+    "ar": "يتميّز الالتهاب المزمن باللمفاويات والبلاعم.",
+    "answer": "T"
+   },
+   {
+    "en": "Acute and chronic inflammation may coexist.",
+    "ar": "قد يجتمع الالتهاب الحاد والمزمن.",
+    "answer": "T"
+   },
+   {
+    "en": "Mast cells are the main resident cells that sense infection.",
+    "ar": "الخلايا البدينة هي الخلايا المقيمة الرئيسة التي تستشعر العدوى.",
+    "answer": "F"
+   },
+   {
+    "en": "Calor means heat.",
+    "ar": "تعني calor الحرارة.",
+    "answer": "T"
+   },
+   {
+    "en": "Inflammation is normally controlled and self-limited.",
+    "ar": "الالتهاب عادةً مضبوط ومحدود ذاتيًا.",
+    "answer": "T"
+   },
+   {
+    "en": "The principal leukocytes in acute inflammation are lymphocytes.",
+    "ar": "الكريات البيض الرئيسة في الالتهاب الحاد هي اللمفاويات.",
+    "answer": "F"
+   },
+   {
+    "en": "Endothelial cell contraction occurs mainly in post-capillary venules.",
+    "ar": "يحدث تقلّص الخلايا البطانية أساسًا في الوريدات بعد الشعيرية.",
+    "answer": "T"
+   },
+   {
+    "en": "A transudate has high protein content.",
+    "ar": "للرشحة محتوى بروتيني عالٍ.",
+    "answer": "F"
+   },
+   {
+    "en": "IL-10 provides a negative feedback loop for activated macrophages.",
+    "ar": "يوفّر IL-10 حلقة تغذية راجعة سلبية للبلاعم المنشَّطة.",
+    "answer": "T"
+   },
+   {
+    "en": "TGF-β is a pro-inflammatory cytokine only.",
+    "ar": "TGF-β سيتوكين محفّز للالتهاب فقط.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Which cells: acute or chronic?",
+    "ar": "أي خلايا: حاد أم مزمن؟",
+    "answer_en": "Acute → neutrophils; chronic → lymphocytes and macrophages.",
+    "answer_ar": "الحاد ← العدلات؛ المزمن ← اللمفاويات والبلاعم."
+   },
+   {
+    "en": "Who senses the injury first?",
+    "ar": "من يستشعر الإصابة أولًا؟",
+    "answer_en": "Resident cells, mainly macrophages (also dendritic and mast cells) — not neutrophils, which are recruited later.",
+    "answer_ar": "الخلايا المقيمة، وأهمها البلاعم (وكذلك التغصّنية والبدينة) — وليس العدلات التي تُستقطَب لاحقًا."
+   },
+   {
+    "en": "Tumor = cancer?",
+    "ar": "tumor = سرطان؟",
+    "answer_en": "No — as a cardinal sign, tumor means swelling.",
+    "answer_ar": "لا — كعلامة أساسية تعني التورّم."
+   },
+   {
+    "en": "Most common cause of increased permeability?",
+    "ar": "أكثر أسباب زيادة النفوذية شيوعًا؟",
+    "answer_en": "Endothelial cell contraction in post-capillary venules — not endothelial injury.",
+    "answer_ar": "تقلّص الخلايا البطانية في الوريدات بعد الشعيرية — وليس إصابة البطانة."
+   },
+   {
+    "en": "Transudate or exudate?",
+    "ar": "رشحة أم نضحة؟",
+    "answer_en": "Transudate: low protein, few cells (pressure changes). Exudate: high protein, cells (inflammation, ↑ permeability).",
+    "answer_ar": "الرشحة: بروتين وخلايا قليلة (تغيّر الضغوط). النضحة: بروتين عالٍ وخلايا (الالتهاب وزيادة النفوذية)."
+   },
+   {
+    "en": "IL-10 or TGF-β?",
+    "ar": "IL-10 أم TGF-β؟",
+    "answer_en": "IL-10 down-regulates activated macrophages; TGF-β is anti-inflammatory and also mediates fibrosis.",
+    "answer_ar": "IL-10 يثبّط البلاعم المنشَّطة؛ وTGF-β مضاد للالتهاب ووسيط للتليّف أيضًا."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define inflammation.",
+    "ar": "عرّف الالتهاب.",
+    "answer_en": "A protective response involving host cells, blood vessels, proteins and other mediators, intended to eliminate the initial cause of cell injury and the necrotic cells and tissues, and to initiate repair.",
+    "answer_ar": "استجابة وقائية تشترك فيها خلايا المضيف والأوعية الدموية والبروتينات والوسائط الأخرى، غايتها إزالة السبب الأولي لإصابة الخلية والخلايا والأنسجة الميتة، وبدء الإصلاح."
+   },
+   {
+    "en": "When may the damage become the dominant feature of inflammation?",
+    "ar": "متى يصبح الضرر هو السمة الغالبة للالتهاب؟",
+    "answer_en": "When the reaction is very strong (severe infection), prolonged (agent resists eradication), or inappropriate (autoimmune diseases, allergic disorders).",
+    "answer_ar": "عندما يكون التفاعل قويًا جدًا (عدوى شديدة)، أو مطوّلًا (العامل يقاوم الاستئصال)، أو غير ملائم (أمراض المناعة الذاتية والاضطرابات التحسّسية)."
+   },
+   {
+    "en": "Compare acute and chronic inflammation.",
+    "ar": "قارن بين الالتهاب الحاد والمزمن.",
+    "answer_en": "Acute: rapid onset, minutes to few days, fluid and plasma protein exudation, neutrophils. Chronic: insidious, days to years, lymphocytes and macrophages, vascular proliferation and fibrosis.",
+    "answer_ar": "الحاد: بدء سريع، دقائق إلى أيام، نضح السوائل والبروتينات، العدلات. المزمن: خفي، أيام إلى سنوات، اللمفاويات والبلاعم، تكاثر وعائي وتليّف."
+   },
+   {
+    "en": "List the cardinal signs of inflammation.",
+    "ar": "عدّد العلامات الأساسية للالتهاب.",
+    "answer_en": "Heat (calor), redness (rubor), swelling (tumor), pain (dolor), loss of function (functio laesa).",
+    "answer_ar": "الحرارة، الاحمرار، التورّم، الألم، فقدان الوظيفة."
+   },
+   {
+    "en": "What are the two major components of acute inflammation?",
+    "ar": "ما المكوّنان الرئيسان للالتهاب الحاد؟",
+    "answer_en": "Vascular changes (vasodilation → increased blood flow; increased vascular permeability; endothelial activation) and cellular events (leukocyte recruitment and activation; mainly neutrophils).",
+    "answer_ar": "التغيّرات الوعائية (توسّع الأوعية وزيادة الجريان، زيادة النفوذية، تنشيط البطانة) والأحداث الخلوية (استقطاب الكريات البيض وتنشيطها، وأهمها العدلات)."
+   },
+   {
+    "en": "List the stimuli for acute inflammation.",
+    "ar": "عدّد محفّزات الالتهاب الحاد.",
+    "answer_en": "Infections, trauma and physical/chemical agents, tissue necrosis, foreign bodies, immune (hypersensitivity) reactions.",
+    "answer_ar": "العدوى، الرضوض والعوامل الفيزيائية والكيميائية، نخر النسيج، الأجسام الغريبة، التفاعلات المناعية (فرط الحساسية)."
+   },
+   {
+    "en": "List the mechanisms of increased vascular permeability.",
+    "ar": "عدّد آليات زيادة النفوذية الوعائية.",
+    "answer_en": "Endothelial cell contraction (most common, post-capillary venules), endothelial injury, increased transcytosis (VEGF), leakage from new blood vessels.",
+    "answer_ar": "تقلّص الخلايا البطانية (الأكثر شيوعًا، في الوريدات بعد الشعيرية)، إصابة البطانة، زيادة النقل عبر الخلية (VEGF)، التسرّب من الأوعية الجديدة."
+   },
+   {
+    "en": "Describe the anti-inflammatory mechanisms.",
+    "ar": "صف الآليات المضادة للالتهاب.",
+    "answer_en": "Short-lived mediators destroyed by degradative enzymes; lipoxins and complement regulatory proteins; IL-10 (negative feedback on macrophages); TGF-β; intracellular tyrosine phosphatases.",
+    "answer_ar": "وسائط قصيرة العمر تدمّرها الإنزيمات المحلِّلة؛ الليبوكسينات والبروتينات المنظِّمة للمتمّمة؛ IL-10 (تغذية راجعة سلبية على البلاعم)؛ TGF-β؛ فوسفاتازات التيروسين داخل الخلية."
+   }
+  ]
+ }
+}
