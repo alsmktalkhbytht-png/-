@@ -23,6 +23,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `hematology-lec2…lec7-*/` — Hematology theory (د. مازن اللهيبي) lectures 2–7: blood cell formation, blood elements, hemoglobin, anaemia, iron deficiency, chronic/sideroblastic — third stage.
 - `histopathology-lab1-lab-safety/`, `histopathology-lab2-samples/` — Histopathology (علم الأمراض النسيجية) practical labs 1–2 — third stage.
 - `hematology-practical-anticoagulants/` (lab 1), `hematology-practical-normal-values/` (lab 2) — Hematology practical (ليندا منجد هادي) — third stage.
+- `histopathology-lec4-healing-regeneration/` — Histopathology theory lecture 4 (د. حامد خليل التميمي) — third stage.
 - `virology-lab1-safety/` — Medical Virology practical lab 1: safety and aseptic techniques — third stage.
 - `bacteriology-lab2-specimens/`, `bacteriology-lab3-culture-media/` — Diagnostic Microbiology practical labs 2 and 3 (د. هبة سامي) — fourth stage.
 - `docs/BIOS_ENGINE_GUIDE.md` — full documentation (Arabic): design, workflow, code, troubleshooting.
