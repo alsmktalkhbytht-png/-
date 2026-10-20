@@ -1128,6 +1128,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `hematology-practical-normal-values` | أمراض الدم | عملي 2 |
 | `hematology-lec2…lec7-*` | أمراض الدم | نظري 2–7 |
 | `genetics-lec1-cell-cycle-mitosis` | وراثة | نظري 1 |
+| `immunology-lec1-introduction` | مناعة | نظري 1 |
 | `histopathology-lab1-lab-safety` | أنسجة | عملي 1 |
 | `histopathology-lab2-samples` | أنسجة | عملي 2 |
 | `histopathology-lec1-acute-inflammation` | أنسجة | نظري 1 |

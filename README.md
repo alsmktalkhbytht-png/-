@@ -4,6 +4,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 
 - `bios-engine/` — the engine (style, colour themes — wineoat (option 10) by default — fonts, logo, pagination, PDF rendering).
 - `lab1-biosafety/` — Diagnostic Microbiology Lab 1, the reference handout: `lecture.json` is the content, the PDFs are the output.
+- `immunology-lec1-introduction/` — Immunology theory lecture 1: Introduction to Human Immunology (د. أحمد داود) — third stage.
 - `immunology-lab1-serology/` — Practical Immunology Lab 1.
 - `parasitology-week1-mcq/` — Diagnostic Parasitology MCQ bank, week 1.
 - `bloodbank-lec1-introduction/` — Blood Transfusion (نقل الدم) lecture 1: Introduction to blood banking + Practical 1.
