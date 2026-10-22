@@ -1107,6 +1107,11 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `bloodbank-lec1-introduction` | نقل الدم | 1 |
 | `bloodbank-lec2-donation-criteria` | نقل الدم | 2 |
 | `bloodbank-lec3-services` | نقل الدم | 3 |
+| `bloodbank-lec4-screening` | نقل الدم | 4 |
+| `bloodbank-lec5-abo-rh` | نقل الدم | 5 |
+| `clinimm-lec4-sjogren` | مناعة سريرية | نظري 4 |
+| `clinimm-lec5-behcet` | مناعة سريرية | نظري 5 |
+| `clinimm-lec6-celiac-pa-t1d` | مناعة سريرية | نظري 6 |
 | `parasitology-week1-mcq` | طفيليات | بنك أسئلة الأسبوع 1 |
 | `parasitology-lab4-solutions` | طفيليات | عملي 4 |
 | `research-lec1-principles` | مبادئ البحث | 1 |
@@ -1144,3 +1149,4 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | المجلد | المادة | ملاحظة |
 |---|---|---|
 | `ethics-lec1-morals` | أخلاقيات المهنة | عربية فقط |
+| `ethics-lec3-unethical-behavior` | أخلاقيات المهنة | محاضرة 3 — عربية فقط |

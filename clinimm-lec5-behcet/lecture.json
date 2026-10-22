@@ -1,0 +1,907 @@
+{
+ "meta": {
+  "subject_en": "Clinical Immunology",
+  "subject_ar": "المناعة السريرية",
+  "short_ar": "مناعة سريرية",
+  "unit_label": "LEC",
+  "kind": "Theory — نظري",
+  "stage": "The fourth stage — الرابعة",
+  "unit_en": "Lecture 5",
+  "unit_ar": "المحاضرة 5",
+  "unit_no": "5",
+  "title_en": "Behcet's Disease",
+  "title_ar": "داء بهجت"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Behcet's Disease",
+   "ar": "داء بهجت"
+  },
+  {
+   "t": "card",
+   "en": "Behcet's disease is a **rare, chronic, lifelong disorder** that involves **inflammation of blood vessels** throughout the body. It is a form of **vasculitis** that can lead to ulceration and other lesions, slightly affecting **more men than woman**.",
+   "ar": "داء بهجت **اضطراب نادر مزمن يدوم مدى الحياة** يتضمّن **التهاب الأوعية الدموية** في أنحاء الجسم، وهو شكل من **التهاب الأوعية** قد يؤدي إلى تقرّحات وآفات أخرى، ويصيب **الرجال أكثر قليلًا من النساء**."
+  },
+  {
+   "t": "card",
+   "en": "It is characterized by a **triad of symptoms**, including",
+   "ar": "ويتميّز بـ**ثالوث من الأعراض** يشمل:",
+   "list_en": [
+    "**aphthous ulceration of the oral mucous membranes**",
+    "**and genitalia**",
+    "**and uveitis**"
+   ],
+   "list_ar": [
+    "**تقرّح قلاعي للأغشية المخاطية الفموية**",
+    "**والأعضاء التناسلية**",
+    "**والتهاب العنبية**"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Rare manifestations** include **oligoarthritis** of the lower extremities, **vasculitis of the pulmonary vessels**, **cerebrovascular symptoms**.",
+   "ar": "ومن **المظاهر النادرة**: **التهاب قلّة المفاصل** في الأطراف السفلية، و**التهاب الأوعية الرئوية**، و**أعراض وعائية دماغية**."
+  },
+  {
+   "t": "card",
+   "en": "The etiology of the Behcet's disease is **unkown**. It is believed to be **partly genetic**, an association with **HLA-B51** has been found.",
+   "ar": "سبب داء بهجت **مجهول**، ويُعتقد أنه **وراثي جزئيًا**، وقد وُجد ارتباط بـ**HLA-B51**."
+  },
+  {
+   "t": "figure",
+   "src": "assets/behcet-pathogenesis.jpg",
+   "en": "Pathogencity of Behcet's disease",
+   "ar": "إمراضية داء بهجت",
+   "h": "62mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Label (from the figure)",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Genetic Susceptibility",
+     "الاستعداد الوراثي"
+    ],
+    [
+     "Epigenetic Changes",
+     "تغيّرات فوق جينية"
+    ],
+    [
+     "Immune System — Nonspecific Inflammation",
+     "الجهاز المناعي — التهاب غير نوعي"
+    ],
+    [
+     "Self-reactive autoinflammation",
+     "التهاب ذاتي متفاعل مع الذات"
+    ],
+    [
+     "Secretion of inflammatory cytokines (IL8, TNF-α)",
+     "إفراز السيتوكينات الالتهابية (IL8 وTNF-α)"
+    ],
+    [
+     "Activation of cytotoxic T-Cells — Production of autoantibodies from B-Cells",
+     "تنشيط الخلايا التائية السامّة — إنتاج أضداد ذاتية من الخلايا البائية"
+    ],
+    [
+     "Vasculitis/tissue damage \"Behcet's syndrome\"",
+     "التهاب الأوعية/تلف الأنسجة «متلازمة بهجت»"
+    ],
+    [
+     "Sign and Symptoms: inflamed eyes, mouth ulcers, genital ulcers, joint pain, skin problems",
+     "العلامات والأعراض: التهاب العينين، تقرّحات الفم، تقرّحات تناسلية، ألم المفاصل، مشكلات جلدية"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "key_cols": [
+    0
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Risk factors",
+   "ar": "عوامل الخطورة"
+  },
+  {
+   "t": "rule",
+   "en": "**Age.** Behcet's disease most commonly affects men and women in their **20s, 30s and 40s**, though children and older adults also can develop the condition. When the condition occurs at an **earlier age**, it tends to be **more severe**.",
+   "ar": "**العمر.** يصيب داء بهجت غالبًا الرجال والنساء في **العشرينيات والثلاثينيات والأربعينيات**، وقد يصيب الأطفال وكبار السن أيضًا. وعندما يحدث **في سن مبكرة** يميل إلى أن يكون **أشد**."
+  },
+  {
+   "t": "rule",
+   "en": "**Geography.** Although the disease occurs worldwide, people from countries in the **Middle East and Asia**, including **Turkey, Iran, Iraq, Japan and China**, are more likely to develop Behcet's.",
+   "ar": "**الجغرافيا.** مع أن المرض يحدث في أنحاء العالم، فإن سكان بلدان **الشرق الأوسط وآسيا**، ومنها **تركيا وإيران والعراق واليابان والصين**، أكثر عرضة للإصابة به."
+  },
+  {
+   "t": "rule",
+   "en": "**Sex.** While Behcet's disease occurs in both men and women, the disease is usually **more severe in men**.",
+   "ar": "**الجنس.** يحدث داء بهجت لدى الرجال والنساء، لكنه عادةً **أشد عند الرجال**."
+  },
+  {
+   "t": "rule",
+   "en": "**Genes.** Having certain genes **HLA-B51** is associated with a higher risk of developing Behcet's.",
+   "ar": "**الجينات.** امتلاك جينات معيّنة **HLA-B51** يرتبط بخطر أعلى للإصابة بداء بهجت."
+  },
+  {
+   "t": "section",
+   "en": "Clinical features",
+   "ar": "المظاهر السريرية"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Site",
+    "Feature",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Mouth",
+     "Painful mouth sores, identical to canker sores, are the most common sign of Behcet's disease. Sores begin as raised, round lesions in the mouth that quickly turn into painful ulcers. The sores heal usually in seven to 21 days, though they do recur.",
+     "**الفم**: قرح فموية مؤلمة مطابقة لقرح القلاع، وهي أكثر علامات داء بهجت شيوعًا؛ تبدأ آفات مرتفعة مستديرة تتحوّل سريعًا إلى قرح مؤلمة، وتلتئم عادةً خلال 7 إلى 21 يومًا لكنها تتكرّر."
+    ],
+    [
+     "Skin",
+     "Skin lesions may occur. Skin problems can vary. Some people may develop acne-like sores on their bodies. Others may develop nodules on the lower legs.",
+     "**الجلد**: قد تحدث آفات جلدية متنوعة؛ فقد يصاب بعضهم بقرح شبيهة بحب الشباب على الجسم، وآخرون بعقيدات على الساقين."
+    ],
+    [
+     "Genitals",
+     "Sores on the genitals, most commonly on the scrotum or the vulva.",
+     "**الأعضاء التناسلية**: قرح تناسلية، أكثرها على الصفن أو الفرج."
+    ],
+    [
+     "Eyes",
+     "Inflammation in the eye — uveitis — causes redness, pain and blurred vision in one or both eyes.",
+     "**العينان**: التهاب العين (التهاب العنبية) يسبّب الاحمرار والألم وتشوّش الرؤية في عين أو كلتيهما."
+    ],
+    [
+     "Joints",
+     "Joint swelling and pain most commonly affect the knee.",
+     "**المفاصل**: تورّم المفاصل وألمها، وأكثرها في الركبة."
+    ],
+    [
+     "Vascular system",
+     "Inflammation in veins and large arteries, causing redness, pain and swelling in the arms or legs when a blood clot results.",
+     "**الجهاز الوعائي**: التهاب الأوردة والشرايين الكبيرة، يسبّب احمرار الذراعين أو الساقين وألمهما وتورّمهما عند تكوّن خثرة."
+    ],
+    [
+     "Digestive system",
+     "Abdominal pain, diarrhea or bleeding.",
+     "**الجهاز الهضمي**: ألم بطني أو إسهال أو نزف."
+    ],
+    [
+     "Brain",
+     "Inflammation in the brain and nervous system that leads to headache, fever, disorientation, poor balance or stroke.",
+     "**الدماغ**: التهاب الدماغ والجهاز العصبي يؤدي إلى الصداع والحمّى والتوهان وضعف التوازن أو السكتة الدماغية."
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    13,
+    43,
+    44
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Diagnosis",
+   "ar": "التشخيص"
+  },
+  {
+   "t": "card",
+   "en": "There is **no diagnostic test** and the diagnosis is **entirely clinical**. Laboratory findings are **nonspecific** and reflect the inflammatory state, **C-reactive protein** levels, **erythrocyte sedimentation rate (ESR)**, **leukocyte count**, **complement components**, and **acute-phase reactants** may all be **elevated during an acute attack**. Internationally accepted diagnosis criteria have been published recently.",
+   "ar": "**لا يوجد فحص تشخيصي**، والتشخيص **سريري بالكامل**. والموجودات المختبرية **غير نوعية** وتعكس الحالة الالتهابية؛ فقد ترتفع **مستويات CRP** و**سرعة ترسيب الكريات الحمر (ESR)** و**عدد الكريات البيض** و**مكوّنات المتمّمة** و**متفاعلات الطور الحاد** جميعها **خلال النوبة الحادة**. ونُشرت حديثًا معايير تشخيص مقبولة دوليًا."
+  },
+  {
+   "t": "h2",
+   "en": "International Clinical Criteria for Behcet's Disease",
+   "ar": "المعايير السريرية الدولية لداء بهجت"
+  },
+  {
+   "t": "card",
+   "en": "An international group of physicians has established a set of guidelines to aid in the classification of Behcet's patients. The International Clinical Criteria for Behcet's Disease classification states patients must present with:",
+   "ar": "وضعت مجموعة دولية من الأطباء إرشادات للمساعدة في تصنيف مرضى بهجت، وتنص المعايير السريرية الدولية على أن المرضى يجب أن يُظهروا:"
+  },
+  {
+   "t": "card",
+   "en": "**Recurrent oral ulcerations** (apthous or herpetiform) **at least three times in one year**.",
+   "ar": "**تقرّحات فموية متكرّرة** (قلاعية أو شبيهة بالهربس) **ثلاث مرات على الأقل في السنة**."
+  },
+  {
+   "t": "card",
+   "en": "**Additionally, patients must present any two of the following:**",
+   "ar": "**إضافةً إلى ذلك يجب أن يُظهر المريض اثنين من الآتي:**",
+   "list_en": [
+    "**Recurrent genital ulcerations.**",
+    "**Eye lesions** (uveitis or retinal vasculitis) observed by an ophthalmologist.",
+    "**Skin lesions** (a variety of rashes or acne-like sores) may be caused by Behcet's disease. Positive",
+    "**Positive pathergy test**, your doctor inserts a **sterile needle** into your skin and then examines the area **two days later**. If the pathergy test is positive, a **small red bump** forms under your skin where the needle was inserted. This indicates your immune system is **overreacting to the minor injury**."
+   ],
+   "list_ar": [
+    "**تقرّحات تناسلية متكرّرة.**",
+    "**آفات عينية** (التهاب العنبية أو التهاب أوعية الشبكية) يلاحظها طبيب العيون.",
+    "**آفات جلدية** (طفوح متنوعة أو قرح شبيهة بحب الشباب) قد يسبّبها داء بهجت. [كلمة «Positive» مكرّرة في المصدر]",
+    "**اختبار الباثيرجي (فرط التفاعل) الموجب:** يُدخل الطبيب **إبرة معقّمة** في الجلد ثم يفحص المنطقة **بعد يومين**؛ فإذا كان موجبًا تتكوّن **نتوءة حمراء صغيرة** تحت الجلد مكان الإبرة، وهذا يدل على أن الجهاز المناعي **يبالغ في التفاعل مع إصابة بسيطة**."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**1 major** — recurrent oral ulcers ≥ 3 times/year",
+    "**+ any 2** — genital ulcers, eye lesions, skin lesions, positive pathergy test"
+   ],
+   "ar": [
+    "**معيار رئيس واحد** — قرح فموية متكرّرة 3 مرات على الأقل في السنة",
+    "**+ أي اثنين** — قرح تناسلية، آفات عينية، آفات جلدية، اختبار باثيرجي موجب"
+   ],
+   "label": [
+    "At a glance",
+    "باختصار"
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Definition and etiology",
+    "topic_ar": "التعريف والسببيات"
+   },
+   {
+    "en": "Behcet's disease is a form of:",
+    "ar": "داء بهجت شكل من:",
+    "options": [
+     [
+      "Vasculitis",
+      "التهاب الأوعية"
+     ],
+     [
+      "Arthritis only",
+      "التهاب المفاصل فقط"
+     ],
+     [
+      "Nephritis",
+      "التهاب الكلية"
+     ],
+     [
+      "Hepatitis",
+      "التهاب الكبد"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The triad of Behcet's disease includes all EXCEPT:",
+    "ar": "يشمل ثالوث داء بهجت كل ما يأتي عدا:",
+    "options": [
+     [
+      "Oral aphthous ulcers",
+      "قرح فموية قلاعية"
+     ],
+     [
+      "Genital ulcers",
+      "قرح تناسلية"
+     ],
+     [
+      "Dry mouth",
+      "جفاف الفم"
+     ],
+     [
+      "Uveitis",
+      "التهاب العنبية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Behcet's disease is associated with:",
+    "ar": "يرتبط داء بهجت بـ:",
+    "options": [
+     [
+      "HLA-B27",
+      "HLA-B27"
+     ],
+     [
+      "HLA-B51",
+      "HLA-B51"
+     ],
+     [
+      "HLA-DR4",
+      "HLA-DR4"
+     ],
+     [
+      "HLA-DQ2",
+      "HLA-DQ2"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "A rare manifestation of Behcet's disease is:",
+    "ar": "من المظاهر النادرة لداء بهجت:",
+    "options": [
+     [
+      "Oral ulcers",
+      "قرح الفم"
+     ],
+     [
+      "Uveitis",
+      "التهاب العنبية"
+     ],
+     [
+      "Genital ulcers",
+      "القرح التناسلية"
+     ],
+     [
+      "Vasculitis of the pulmonary vessels",
+      "التهاب الأوعية الرئوية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In the pathogenesis figure, the inflammatory cytokines secreted are:",
+    "ar": "في شكل الإمراضية تكون السيتوكينات الالتهابية المفرزة:",
+    "options": [
+     [
+      "IL8 and TNF-α",
+      "IL8 وTNF-α"
+     ],
+     [
+      "IL-4 and IL-5",
+      "IL-4 وIL-5"
+     ],
+     [
+      "IL-10 and TGF-β",
+      "IL-10 وTGF-β"
+     ],
+     [
+      "IFN-α",
+      "IFN-α"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Risk factors",
+    "topic_ar": "عوامل الخطورة"
+   },
+   {
+    "en": "Behcet's disease most commonly affects people in their:",
+    "ar": "يصيب داء بهجت غالبًا من هم في:",
+    "options": [
+     [
+      "Childhood",
+      "الطفولة"
+     ],
+     [
+      "60s and 70s",
+      "الستينيات والسبعينيات"
+     ],
+     [
+      "20s, 30s and 40s",
+      "العشرينيات والثلاثينيات والأربعينيات"
+     ],
+     [
+      "Infancy",
+      "الرضاعة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "When Behcet's occurs at an earlier age, it tends to be:",
+    "ar": "عندما يحدث بهجت في سن مبكرة يميل إلى أن يكون:",
+    "options": [
+     [
+      "Milder",
+      "أخف"
+     ],
+     [
+      "Self-limited",
+      "محدودًا ذاتيًا"
+     ],
+     [
+      "Asymptomatic",
+      "بلا أعراض"
+     ],
+     [
+      "More severe",
+      "أشد"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Behcet's disease is usually more severe in:",
+    "ar": "داء بهجت عادةً أشد عند:",
+    "options": [
+     [
+      "Women",
+      "النساء"
+     ],
+     [
+      "Men",
+      "الرجال"
+     ],
+     [
+      "Children",
+      "الأطفال"
+     ],
+     [
+      "Elderly women",
+      "المسنّات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which country is mentioned among those with higher risk:",
+    "ar": "أي بلد ذُكر ضمن الأعلى خطورة:",
+    "options": [
+     [
+      "Iraq",
+      "العراق"
+     ],
+     [
+      "Brazil",
+      "البرازيل"
+     ],
+     [
+      "Canada",
+      "كندا"
+     ],
+     [
+      "Australia",
+      "أستراليا"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Clinical features",
+    "topic_ar": "المظاهر السريرية"
+   },
+   {
+    "en": "The most common sign of Behcet's disease is:",
+    "ar": "أكثر علامات داء بهجت شيوعًا:",
+    "options": [
+     [
+      "Uveitis",
+      "التهاب العنبية"
+     ],
+     [
+      "Painful mouth sores",
+      "قرح فموية مؤلمة"
+     ],
+     [
+      "Knee swelling",
+      "تورّم الركبة"
+     ],
+     [
+      "Stroke",
+      "السكتة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Mouth sores in Behcet's usually heal in:",
+    "ar": "تلتئم قرح الفم في بهجت عادةً خلال:",
+    "options": [
+     [
+      "1–2 days",
+      "1–2 يوم"
+     ],
+     [
+      "2 months",
+      "شهرين"
+     ],
+     [
+      "7 to 21 days",
+      "7 إلى 21 يومًا"
+     ],
+     [
+      "They never heal",
+      "لا تلتئم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Skin lesions in Behcet's may include:",
+    "ar": "قد تشمل الآفات الجلدية في بهجت:",
+    "options": [
+     [
+      "Vitiligo",
+      "البهاق"
+     ],
+     [
+      "Butterfly rash",
+      "طفحًا فراشيًا"
+     ],
+     [
+      "Psoriatic plaques",
+      "لويحات صدفية"
+     ],
+     [
+      "Acne-like sores and nodules on the lower legs",
+      "قرحًا شبيهة بحب الشباب وعقيدات على الساقين"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Genital sores in Behcet's most commonly occur on:",
+    "ar": "تحدث القرح التناسلية في بهجت غالبًا على:",
+    "options": [
+     [
+      "The penis shaft",
+      "جسم القضيب"
+     ],
+     [
+      "The scrotum or the vulva",
+      "الصفن أو الفرج"
+     ],
+     [
+      "The cervix",
+      "عنق الرحم"
+     ],
+     [
+      "The urethra",
+      "الإحليل"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The eye involvement in Behcet's disease is called:",
+    "ar": "إصابة العين في داء بهجت تُسمّى:",
+    "options": [
+     [
+      "Keratitis",
+      "التهاب القرنية"
+     ],
+     [
+      "Cataract",
+      "الساد"
+     ],
+     [
+      "Uveitis",
+      "التهاب العنبية"
+     ],
+     [
+      "Glaucoma",
+      "الزرق"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The joint most commonly affected in Behcet's disease is the:",
+    "ar": "المفصل الأكثر إصابة في داء بهجت:",
+    "options": [
+     [
+      "Knee",
+      "الركبة"
+     ],
+     [
+      "Hip",
+      "الورك"
+     ],
+     [
+      "Shoulder",
+      "الكتف"
+     ],
+     [
+      "Wrist",
+      "الرسغ"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Diagnosis",
+    "topic_ar": "التشخيص"
+   },
+   {
+    "en": "The diagnosis of Behcet's disease is:",
+    "ar": "تشخيص داء بهجت:",
+    "options": [
+     [
+      "By a specific serological test",
+      "بفحص مصلي نوعي"
+     ],
+     [
+      "By HLA typing only",
+      "بتحديد HLA فقط"
+     ],
+     [
+      "By biopsy only",
+      "بالخزعة فقط"
+     ],
+     [
+      "Entirely clinical",
+      "سريري بالكامل"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "During an acute attack, all of the following may be elevated EXCEPT:",
+    "ar": "خلال النوبة الحادة قد يرتفع كل ما يأتي عدا:",
+    "options": [
+     [
+      "CRP",
+      "CRP"
+     ],
+     [
+      "ESR",
+      "ESR"
+     ],
+     [
+      "A specific Behcet autoantibody",
+      "ضد ذاتي نوعي لبهجت"
+     ],
+     [
+      "Leukocyte count",
+      "عدد الكريات البيض"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The required major criterion is recurrent oral ulceration at least:",
+    "ar": "المعيار الرئيس المطلوب تقرّح فموي متكرّر على الأقل:",
+    "options": [
+     [
+      "Three times in one year",
+      "ثلاث مرات في السنة"
+     ],
+     [
+      "Once a year",
+      "مرة في السنة"
+     ],
+     [
+      "Monthly",
+      "شهريًا"
+     ],
+     [
+      "Twice in a lifetime",
+      "مرتين في العمر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In addition to oral ulcers, patients must present:",
+    "ar": "إضافةً إلى قرح الفم يجب أن يُظهر المريض:",
+    "options": [
+     [
+      "Any one criterion",
+      "معيارًا واحدًا"
+     ],
+     [
+      "Any two of the other criteria",
+      "اثنين من المعايير الأخرى"
+     ],
+     [
+      "All other criteria",
+      "كل المعايير الأخرى"
+     ],
+     [
+      "A positive ANA",
+      "ANA موجبًا"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The pathergy test is read:",
+    "ar": "يُقرأ اختبار الباثيرجي:",
+    "options": [
+     [
+      "Immediately",
+      "فورًا"
+     ],
+     [
+      "After 2 hours",
+      "بعد ساعتين"
+     ],
+     [
+      "After one week",
+      "بعد أسبوع"
+     ],
+     [
+      "Two days later",
+      "بعد يومين"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A positive pathergy test shows:",
+    "ar": "يُظهر اختبار الباثيرجي الموجب:",
+    "options": [
+     [
+      "No change",
+      "لا تغيير"
+     ],
+     [
+      "A small red bump where the needle was inserted",
+      "نتوءة حمراء صغيرة مكان الإبرة"
+     ],
+     [
+      "Bleeding",
+      "نزفًا"
+     ],
+     [
+      "A blister far from the site",
+      "فقاعة بعيدة عن الموضع"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Eye lesions as a criterion must be observed by:",
+    "ar": "يجب أن يلاحظ الآفات العينية بوصفها معيارًا:",
+    "options": [
+     [
+      "An ophthalmologist",
+      "طبيب العيون"
+     ],
+     [
+      "The patient",
+      "المريض"
+     ],
+     [
+      "A dermatologist",
+      "طبيب الجلدية"
+     ],
+     [
+      "A nurse",
+      "ممرض"
+     ]
+    ],
+    "answer": "a"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Behcet's disease is a rare, chronic, lifelong disorder.",
+    "ar": "داء بهجت اضطراب نادر مزمن يدوم مدى الحياة.",
+    "answer": "T"
+   },
+   {
+    "en": "Behcet's disease affects women slightly more than men.",
+    "ar": "يصيب داء بهجت النساء أكثر قليلًا من الرجال.",
+    "answer": "F"
+   },
+   {
+    "en": "The etiology of Behcet's disease is well known.",
+    "ar": "سبب داء بهجت معروف جيدًا.",
+    "answer": "F"
+   },
+   {
+    "en": "HLA-B51 is associated with a higher risk of Behcet's.",
+    "ar": "يرتبط HLA-B51 بخطر أعلى لداء بهجت.",
+    "answer": "T"
+   },
+   {
+    "en": "Children and older adults cannot develop Behcet's disease.",
+    "ar": "لا يمكن أن يصاب الأطفال وكبار السن بداء بهجت.",
+    "answer": "F"
+   },
+   {
+    "en": "Mouth sores in Behcet's recur.",
+    "ar": "تتكرّر قرح الفم في بهجت.",
+    "answer": "T"
+   },
+   {
+    "en": "Uveitis may cause redness, pain and blurred vision.",
+    "ar": "قد يسبّب التهاب العنبية الاحمرار والألم وتشوّش الرؤية.",
+    "answer": "T"
+   },
+   {
+    "en": "Behcet's disease may cause stroke.",
+    "ar": "قد يسبّب داء بهجت السكتة الدماغية.",
+    "answer": "T"
+   },
+   {
+    "en": "There is a specific diagnostic laboratory test for Behcet's disease.",
+    "ar": "يوجد فحص مختبري تشخيصي نوعي لداء بهجت.",
+    "answer": "F"
+   },
+   {
+    "en": "Laboratory findings in Behcet's are nonspecific.",
+    "ar": "الموجودات المختبرية في بهجت غير نوعية.",
+    "answer": "T"
+   },
+   {
+    "en": "A positive pathergy test indicates an immune overreaction to minor injury.",
+    "ar": "يدل اختبار الباثيرجي الموجب على فرط تفاعل مناعي مع إصابة بسيطة.",
+    "answer": "T"
+   },
+   {
+    "en": "Recurrent genital ulceration is the mandatory major criterion.",
+    "ar": "التقرّح التناسلي المتكرّر هو المعيار الرئيس الإلزامي.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Which criterion is mandatory?",
+    "ar": "أي معيار إلزامي؟",
+    "answer_en": "Recurrent oral ulceration at least 3 times in one year — plus any two of: genital ulcers, eye lesions, skin lesions, positive pathergy test.",
+    "answer_ar": "التقرّح الفموي المتكرّر 3 مرات على الأقل في السنة — مع أي اثنين من: القرح التناسلية، الآفات العينية، الآفات الجلدية، الباثيرجي الموجب."
+   },
+   {
+    "en": "More common or more severe in men?",
+    "ar": "أكثر شيوعًا أم أشد عند الرجال؟",
+    "answer_en": "Both in this lecture: slightly more men are affected, and the disease is usually more severe in men.",
+    "answer_ar": "كلاهما في المحاضرة: يصيب الرجال أكثر قليلًا، وهو عادةً أشد عندهم."
+   },
+   {
+    "en": "Earlier age — milder or more severe?",
+    "ar": "سن مبكرة — أخف أم أشد؟",
+    "answer_en": "More severe.",
+    "answer_ar": "أشد."
+   },
+   {
+    "en": "HLA-B51 or HLA-B27?",
+    "ar": "HLA-B51 أم HLA-B27؟",
+    "answer_en": "Behcet's disease is associated with HLA-B51.",
+    "answer_ar": "يرتبط داء بهجت بـHLA-B51."
+   },
+   {
+    "en": "When is the pathergy test read?",
+    "ar": "متى يُقرأ اختبار الباثيرجي؟",
+    "answer_en": "Two days after inserting a sterile needle; a small red bump = positive.",
+    "answer_ar": "بعد يومين من إدخال إبرة معقّمة؛ والنتوءة الحمراء الصغيرة = موجب."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define Behcet's disease and its triad of symptoms.",
+    "ar": "عرّف داء بهجت وثالوث أعراضه.",
+    "answer_en": "A rare, chronic, lifelong vasculitis with inflammation of blood vessels throughout the body; triad: aphthous ulceration of the oral mucous membranes and genitalia, and uveitis; associated with HLA-B51.",
+    "answer_ar": "التهاب أوعية نادر مزمن مدى الحياة يصيب الأوعية في أنحاء الجسم؛ ثالوثه: تقرّح قلاعي للمخاطية الفموية والأعضاء التناسلية والتهاب العنبية؛ ويرتبط بـHLA-B51."
+   },
+   {
+    "en": "List the risk factors for Behcet's disease.",
+    "ar": "عدّد عوامل خطورة داء بهجت.",
+    "answer_en": "Age (20s–40s; earlier onset is more severe), geography (Middle East and Asia: Turkey, Iran, Iraq, Japan, China), sex (more severe in men), genes (HLA-B51).",
+    "answer_ar": "العمر (20–40؛ البدء المبكر أشد)، الجغرافيا (الشرق الأوسط وآسيا: تركيا وإيران والعراق واليابان والصين)، الجنس (أشد عند الرجال)، الجينات (HLA-B51)."
+   },
+   {
+    "en": "List the clinical features of Behcet's disease.",
+    "ar": "عدّد المظاهر السريرية لداء بهجت.",
+    "answer_en": "Mouth (painful sores, most common, heal in 7–21 days and recur), skin (acne-like sores, leg nodules), genitals (scrotum, vulva), eyes (uveitis), joints (knee), vascular (veins and large arteries, clots), digestive (pain, diarrhea, bleeding), brain (headache, fever, disorientation, poor balance, stroke).",
+    "answer_ar": "الفم (قرح مؤلمة، الأكثر شيوعًا)، الجلد، الأعضاء التناسلية، العينان (التهاب العنبية)، المفاصل (الركبة)، الأوعية (خثرات)، الجهاز الهضمي، الدماغ (صداع، حمّى، توهان، سكتة)."
+   },
+   {
+    "en": "State the International Clinical Criteria for Behcet's disease.",
+    "ar": "اذكر المعايير السريرية الدولية لداء بهجت.",
+    "answer_en": "Recurrent oral ulcerations (aphthous or herpetiform) at least three times in one year, plus any two of: recurrent genital ulcerations, eye lesions (uveitis or retinal vasculitis) seen by an ophthalmologist, skin lesions, positive pathergy test.",
+    "answer_ar": "تقرّحات فموية متكرّرة (قلاعية أو شبيهة بالهربس) 3 مرات على الأقل في السنة، مع أي اثنين من: تقرّحات تناسلية متكرّرة، آفات عينية يلاحظها طبيب العيون، آفات جلدية، اختبار باثيرجي موجب."
+   },
+   {
+    "en": "Describe the pathergy test.",
+    "ar": "صف اختبار الباثيرجي.",
+    "answer_en": "A sterile needle is inserted into the skin and the area is examined two days later; a small red bump at the site is positive, indicating an immune overreaction to minor injury.",
+    "answer_ar": "تُدخل إبرة معقّمة في الجلد وتُفحص المنطقة بعد يومين؛ والنتوءة الحمراء الصغيرة موجبة، وتدل على فرط تفاعل مناعي مع إصابة بسيطة."
+   }
+  ]
+ }
+}

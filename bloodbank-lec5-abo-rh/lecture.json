@@ -1,0 +1,1572 @@
+{
+ "meta": {
+  "subject_en": "Blood Transfusion",
+  "subject_ar": "نقل الدم",
+  "short_ar": "نقل الدم",
+  "unit_en": "Lecture 5",
+  "unit_ar": "المحاضرة 5",
+  "unit_label": "LEC",
+  "unit_no": "5",
+  "title_en": "ABO Blood groups & Rh blood group system",
+  "title_ar": "فصائل الدم ABO ونظام فصائل الدم Rh",
+  "kind": "Theory & Practical — نظري وعملي",
+  "stage": "The fourth stage — الرابعة",
+  "instructor": "د. مازن اللهيبي"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Blood groups systems",
+   "ar": "أنظمة فصائل الدم"
+  },
+  {
+   "t": "card",
+   "en": "**Blood group antigen**",
+   "ar": "**مستضد فصيلة الدم**",
+   "list_en": [
+    "Over **400 red cell antigens** are described",
+    "Each antigen is defined by a **specific antibody**",
+    "Antigens are divided into blood group systems **>25 systems**",
+    "The most important blood group system are : **ABO system** and **Rh system**"
+   ],
+   "list_ar": [
+    "وُصف أكثر من **400 مستضد للكريات الحمر**",
+    "يُعرَّف كل مستضد بـ**ضد نوعي**",
+    "تُقسم المستضدات إلى أنظمة فصائل دم **أكثر من 25 نظامًا**",
+    "أهم أنظمة فصائل الدم: **نظام ABO** و**نظام Rh**"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Blood group antibodies can be classified as**",
+   "ar": "**تُصنَّف أضداد فصائل الدم إلى:**",
+   "list_en": [
+    "**Naturally occurring** antibodies.",
+    "**Immune occurring** antibodies"
+   ],
+   "list_ar": [
+    "أضداد **طبيعية النشوء**.",
+    "أضداد **مناعية النشوء**."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "ABO Blood group system",
+   "ar": "نظام فصائل الدم ABO"
+  },
+  {
+   "t": "card",
+   "en": "Classified human blood into **four main type : A, B, AB and O** Based on the presence or absences of specific antigens ( A and B) on the surface of the red blood cells.",
+   "ar": "صنّف دم الإنسان إلى **أربعة أنواع رئيسة: A وB وAB وO** بحسب وجود مستضدَي (A وB) النوعيين على سطح الكريات الحمر أو غيابهما."
+  },
+  {
+   "t": "table",
+   "head": [
+    "Type",
+    "Red cell antigen",
+    "Serum antibodies",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "A",
+     "A antigen",
+     "anti-B",
+     "**A**: مستضد A على الكريات — أضداد B في المصل"
+    ],
+    [
+     "B",
+     "B antigen",
+     "anti-A",
+     "**B**: مستضد B — أضداد A"
+    ],
+    [
+     "AB",
+     "both A and B",
+     "no anti-A or anti-B",
+     "**AB**: المستضدان A وB — لا أضداد A ولا B"
+    ],
+    [
+     "O",
+     "neither A nor B",
+     "both anti-A and anti-B",
+     "**O**: لا A ولا B — أضداد A وB معًا"
+    ]
+   ],
+   "ar_cols": [
+    3
+   ],
+   "key_cols": [
+    0
+   ],
+   "style": "summary",
+   "label_en": "ABO groups",
+   "label_ar": "فصائل ABO"
+  },
+  {
+   "t": "note",
+   "en": "ABO antibodies are usually **IgM** can cause **rapid intravascular hemolysis** if the wrong ABO group is transfused, potentially resulting in **patient death**.",
+   "ar": "أضداد ABO عادةً **IgM** وقد تسبّب **انحلالًا سريعًا داخل الأوعية** إذا نُقلت فصيلة ABO خاطئة، مما قد يؤدي إلى **وفاة المريض**."
+  },
+  {
+   "t": "h2",
+   "en": "Antibodies of ABO system — Anti- A and Anti- B",
+   "ar": "أضداد نظام ABO — ضد A وضد B"
+  },
+  {
+   "t": "rule",
+   "en": "**Naturally occurring:** Ab to antigens found in the environment , exposure to **ABH antigen-like substances** in the diet or the environment e.g. **bacteria** leads to produce the naturally occurring alloantibodies.",
+   "ar": "**الطبيعية النشوء:** أضداد لمستضدات موجودة في البيئة؛ فالتعرّض لـ**مواد شبيهة بمستضدات ABH** في الغذاء أو البيئة، مثل **البكتيريا**، يؤدي إلى إنتاج أضداد خيفية طبيعية النشوء."
+  },
+  {
+   "t": "rule",
+   "en": "**Immune occurring:** Antibodies that are not naturally occurring and will only be formed if an individual is exposed to red cells through **transfusion or pregnancy** where the red cells transfused contain antigens not present on that individual’s own red cells. Exposed to this foreign red cell antigen, an individual may make an antibody. This is called an **alloantibody**",
+   "ar": "**المناعية النشوء:** أضداد ليست طبيعية النشوء، ولا تتكوّن إلا إذا تعرّض الفرد لكريات حمر عبر **النقل أو الحمل** تحمل مستضدات غير موجودة على كرياته. وعند التعرّض لهذا المستضد الغريب قد يكوّن الفرد ضدًا يُسمّى **الضد الخيفي (alloantibody)**."
+  },
+  {
+   "t": "h2",
+   "en": "ABO in infant",
+   "ar": "ABO عند الرضيع"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "ABO antibody production is **initiated at birth**, but titers are generally too low for detection until infants are **3 to 6 months** old.",
+    "In infant, Results of serum ABO testing before 3 to 6 months of age **cannot be considered valid** because some or all of the antibodies present may be **IgG maternal antibodies** that crossed the placenta , As a result, it is logical to perform **only forward grouping on cord blood** from newborn infants."
+   ],
+   "list_ar": [
+    "يبدأ إنتاج أضداد ABO **عند الولادة**، لكن عياراتها تبقى عمومًا أقل من حدّ الكشف حتى عمر **3 إلى 6 أشهر**.",
+    "عند الرضيع **لا تُعدّ نتائج** فحص ABO المصلي قبل عمر 3 إلى 6 أشهر **صحيحة**، لأن بعض الأضداد أو كلها قد تكون **أضداد IgG من الأم** عبرت المشيمة؛ لذا من المنطقي إجراء **التصنيف المباشر فقط على دم الحبل السري** لحديثي الولادة."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "ABO in later life",
+   "ar": "ABO في العمر المتقدّم"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Antibody production **peaks between 5 and 10 years** of age and declines later in life.",
+    "**Elderly** people usually have **lower levels** of anti-A and anti-B; therefore, antibodies may be **undetectable in the reverse grouping**."
+   ],
+   "list_ar": [
+    "يبلغ إنتاج الأضداد **ذروته بين عمر 5 و10 سنوات** ثم ينخفض لاحقًا.",
+    "لدى **كبار السن** عادةً **مستويات أقل** من ضد A وضد B، لذا قد **لا تُكشف الأضداد في التصنيف العكسي**."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Other Blood group antigens",
+   "ar": "مستضدات فصائل الدم الأخرى"
+  },
+  {
+   "t": "table",
+   "head": [
+    "System",
+    "Antigens",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Rh antigens",
+     "five principle antigen present D, C, c, E, e",
+     "**Rh**: خمسة مستضدات رئيسة D وC وc وE وe"
+    ],
+    [
+     "Lewis antigens",
+     "Le^a, Le^b",
+     "**لويس**: Leᵃ وLeᵇ"
+    ],
+    [
+     "KIDD antigens",
+     "Jk^a, Jk^b",
+     "**كيد**: Jkᵃ وJkᵇ"
+    ],
+    [
+     "KELL antigens",
+     "K, k, Js^a, Js^b, Kp^a, Kp^b",
+     "**كيل**: K وk وJsᵃ وJsᵇ وKpᵃ وKpᵇ"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    "Antibody class",
+    "Blood group systems",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "IgG antibodies",
+     "Rh, KIDD, KELL, Lutheran, and Ss",
+     "**أضداد IgG**: Rh وكيد وكيل ولوثران وSs"
+    ],
+    [
+     "IgM antibodies",
+     "ABO, Lewis, MN, and P1",
+     "**أضداد IgM**: ABO ولويس وMN وP1"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ],
+   "style": "summary",
+   "label_en": "Blood group systems antibodies either:",
+   "label_ar": "أضداد أنظمة فصائل الدم إما:"
+  },
+  {
+   "t": "section",
+   "en": "Rh Blood group system",
+   "ar": "نظام فصائل الدم Rh"
+  },
+  {
+   "t": "card",
+   "en": "The Rh system, formerly known as the **Rhesus system**, was so named because the original antibody that was raised by injecting red cells of **rhesus monkeys into rabbits** reacted with most human red cells.",
+   "ar": "سُمّي نظام Rh، المعروف سابقًا بـ**نظام الريسوس**، بهذا الاسم لأن الضد الأصلي الذي أُنتج بحقن كريات **قرود الريسوس في الأرانب** تفاعل مع معظم كريات الإنسان الحمر."
+  },
+  {
+   "t": "note",
+   "en": "Rh antibodies are **Immunoglobulin G (IgG)** antibodies which are **acquired** through exposure to Rh-positive blood (generally either through **pregnancy or transfusion** of blood products).",
+   "ar": "أضداد Rh من نوع **الغلوبولين المناعي G (IgG)** وهي **مكتسبة** بالتعرّض لدم Rh موجب (عادةً عبر **الحمل أو نقل** منتجات الدم)."
+  },
+  {
+   "t": "rule",
+   "en": "**Rh-positive:** individuals inherit **one or two Rh. D genes**, which result in expression of **RhD antigen** and are typed Rh-positive. **Most people are Rh-positive**",
+   "ar": "**Rh الموجب:** يرث الأفراد **جينًا أو جينين من RhD** فيُعبَّر عن **مستضد RhD** ويُصنَّفون Rh موجبًا. **ومعظم الناس Rh موجب**."
+  },
+  {
+   "t": "rule",
+   "en": "**Rh-negative:** If individuals RBCS **lack the D genes**, are usually typed as Rh-negative",
+   "ar": "**Rh السالب:** إذا **افتقرت** كريات الفرد إلى **جينات D** يُصنَّف عادةً Rh سالبًا."
+  },
+  {
+   "t": "note",
+   "en": "**Rh-negative recipients should receive Rh-negative red blood cells** to prevent the production of **anti-D alloantibodies**.",
+   "ar": "**يجب أن يتلقّى المتلقّون Rh السالب كريات حمراء Rh سالبة** لمنع إنتاج **أضداد D الخيفية**."
+  },
+  {
+   "t": "card",
+   "en": [
+    "In addition to the RhD gene(s), **two Rh CE genes** are inherited, one from each parent.",
+    "Another gene important to Rh antigen expression is **RhAG (Rh-associated glycoprotein)**, and it resides on **chromosome 6**."
+   ],
+   "ar": [
+    "إضافةً إلى جين (جينات) RhD يُورَث **جينان RhCE**، واحد من كل أب.",
+    "وجين آخر مهم للتعبير عن مستضد Rh هو **RhAG (البروتين السكري المرتبط بـRh)** ويقع على **الصبغي 6**."
+   ]
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": [
+      "**Inheritance of Rh system:** Rh system antigens : More than **50 related antigens** including (**D, C, E, c, e**).",
+      "The **D antigen is the most immunogenic antigen** in the Rh blood group system"
+     ],
+     "ar": [
+      "**وراثة نظام Rh:** لمستضدات نظام Rh أكثر من **50 مستضدًا مرتبطًا** منها (**D وC وE وc وe**).",
+      "و**مستضد D هو الأكثر استمناعية** في نظام Rh."
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/rh-inheritance.jpg",
+    "en": "Two Rh+ (Dd) parents: DD, Dd, Dd (Rh+), dd (Rh−)",
+    "ar": "أبوان Rh+ (Dd): ‏DD وDd وDd (Rh+) وdd (Rh−)"
+   }
+  },
+  {
+   "t": "h2",
+   "en": "Clinical importance of Rh system",
+   "ar": "الأهمية السريرية لنظام Rh"
+  },
+  {
+   "t": "card",
+   "en": "Rh antibodies **rarely occur naturally** and are therefore **immune antibodies** that result from previous transfusion or pregnancy.",
+   "ar": "نادرًا ما تنشأ أضداد Rh طبيعيًا، لذا فهي **أضداد مناعية** ناتجة عن نقل دم أو حمل سابق."
+  },
+  {
+   "t": "rule",
+   "en": "**1.** Individuals who are **D-negative** are often stimulated to make **anti-D** if transfused with D-positive blood causing **hemolytic transfusion reactions**.",
+   "ar": "**1.** الأفراد **D السالب** يُحفَّزون غالبًا لإنتاج **ضد D** إذا نُقل إليهم دم D موجب، فيسبّب **تفاعلات نقل انحلالية**."
+  },
+  {
+   "t": "rule",
+   "en": "**2.** In the case of **pregnant women**, if exposed to D-positive fetal red cells that have crossed the placenta. Once present, they can produce significant **hemolytic disease of the fetus and newborn (Erythroblastosis fetalis)**",
+   "ar": "**2.** عند **الحوامل** إذا تعرّضن لكريات جنين D موجبة عبرت المشيمة؛ وبمجرد وجود الأضداد قد تُحدث **داء انحلال الدم عند الجنين والوليد (الحمرة الأرومية الجنينية)** بصورة مهمة."
+  },
+  {
+   "t": "figure",
+   "src": "assets/rh-hdn.jpg",
+   "en": "How Rh hemolytic disease develops",
+   "ar": "كيف يتطوّر داء انحلال الدم Rh",
+   "h": "62mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Label (from the figure)",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Rh-negative mother with Rh-positive baby",
+     "أم Rh سالبة وجنين Rh موجب"
+    ],
+    [
+     "Rh-positive baby's blood cells enter mother's bloodstream (at delivery)",
+     "دخول كريات الجنين Rh الموجب إلى دم الأم (عند الولادة)"
+    ],
+    [
+     "invading Rh-positive blood cells cause the production of Rh antibodies",
+     "تُحفّز الكريات Rh الموجبة الداخلة إنتاج أضداد Rh"
+    ],
+    [
+     "Rh antibodies remain in mother's bloodstream (months later)",
+     "تبقى أضداد Rh في دم الأم (بعد أشهر)"
+    ],
+    [
+     "Rh antibodies attack the Rh-positive baby's blood cells, causing Rh disease (later pregnancy with Rh-positive baby)",
+     "تهاجم أضداد Rh كريات الجنين Rh الموجب فتسبّب داء Rh (في حمل لاحق بجنين Rh موجب)"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "key_cols": [
+    0
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Weak D: Variations of D Antigen expression",
+   "ar": "D الضعيف: تباينات التعبير عن مستضد D"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "When Rh-positive RBC samples are typed for the D antigen, they are expected to show **strong positive reactivity** with anti-D reagents (**+4, +3**).",
+    "However, some individuals have RBCs that possess **Weak D antigen** that requires an **antiglobulin reagent or monoclonal anti-D** reagent to detect the presence of D antigen.",
+    "RBCs carrying weaker D antigen because **fewer D antigen sites** have historically been referred to as having the **Du antigen**."
+   ],
+   "list_ar": [
+    "عند تصنيف عيّنات كريات Rh الموجبة لمستضد D يُتوقّع أن تُظهر **تفاعلًا موجبًا قويًا** مع كواشف ضد D (**+4، +3**).",
+    "لكن بعض الأفراد لديهم كريات تحمل **مستضد D ضعيفًا** يحتاج كشفه إلى **كاشف مضاد الغلوبيولين أو ضد D وحيد النسيلة**.",
+    "والكريات التي تحمل مستضد D أضعف بسبب **قلّة مواقع مستضد D** كان يُقال تاريخيًا إنها تحمل **مستضد Du**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**IgG is the predominant antibody in Rh system.**",
+   "ar": "**IgG هو الضد الغالب في نظام Rh.**",
+   "list_en": [
+    "**RhD is very immunogenic**",
+    "**> 80%** of D-negative recipients of a whole unit of D-positive red cells make anti-D",
+    "**17%** of D-negative women will be immunized by **one pregnancy** with an RhD-positive offspring",
+    "Because of the high immunogenicity of the D antigen, testing for the presence or absence of the D antigen is included in **routine blood typing** along with the ABO antigens."
+   ],
+   "list_ar": [
+    "**RhD شديد الاستمناعية**",
+    "**أكثر من 80%** من المتلقّين D السالب لوحدة كاملة من كريات D موجبة ينتجون ضد D",
+    "**17%** من النساء D السالب يتمنّعن **بحمل واحد** بجنين RhD موجب",
+    "بسبب الاستمناعية العالية لمستضد D يُدرج فحص وجوده أو غيابه في **التصنيف الروتيني للدم** مع مستضدات ABO."
+   ]
+  },
+  {
+   "t": "note",
+   "en": "**D < c < E < C < e** (Immunogenicity of common Rh antigens).",
+   "ar": "**`D < c < E < C < e`** (استمناعية مستضدات Rh الشائعة).",
+   "label": [
+    "Important",
+    "مهم"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "The lecture states that D is the most immunogenic Rh antigen, so the order reads from most to least immunogenic (D > c > E > C > e); the \"<\" signs are kept as written on the slide.",
+   "ar": "تذكر المحاضرة أن D هو الأكثر استمناعية، لذا يُقرأ الترتيب من الأكثر إلى الأقل استمناعية (`D > c > E > C > e`)؛ وأبقينا إشارة «<» كما وردت في السلايد.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Patients with **sickle cell and beta-thalassemia** patient transfused repeatedly, seem more likely to make alloantibodies than the general population; if they are immunized, it may be difficult to find compatible blood.",
+   "ar": "مرضى **فقر الدم المنجلي والثلاسيميا بيتا** الذين يُنقل إليهم الدم مرارًا أكثر ميلًا لتكوين أضداد خيفية من عامة السكان؛ وإذا تمنّعوا قد يصعب إيجاد دم متوافق لهم."
+  },
+  {
+   "t": "card",
+   "en": "When the number of antigens that must be negative makes it difficult to find suitable units what are the options that solve this problem?",
+   "ar": "عندما يجعل عدد المستضدات التي يجب أن تكون سالبة إيجاد وحدات مناسبة صعبًا، ما الخيارات لحل هذه المشكلة؟",
+   "list_en": [
+    "**Rare donor registries** maintain lists of donors and may provide **frozen units of rare phenotypes**.",
+    "Transfuse units that are **phenotypically matched for Rh antigens and K**, as these antigens are the **most immunogenic**."
+   ],
+   "list_ar": [
+    "**سجلات المتبرّعين النادرين** تحتفظ بقوائم متبرّعين وقد توفّر **وحدات مجمّدة بأنماط ظاهرية نادرة**.",
+    "نقل وحدات **مطابقة ظاهريًا لمستضدات Rh والمستضد K**، لأنها **الأكثر استمناعية**."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Practical Blood Transfusion 5 — ABO Blood and Rh grouping (Part 1)",
+   "ar": "نقل الدم العملي 5 — تحديد فصائل ABO وRh (الجزء 1)"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Individuals normally produce antibodies directed against the **A and/or B antigen(s) absent** from their RBCs. These antibodies have been described as **naturally occurring** because they are produced without any exposure to RBCs.",
+    "The ABO antibodies are **predominantly IgM**, activate complement, and react at **room temperature or colder**."
+   ],
+   "ar": [
+    "ينتج الأفراد طبيعيًا أضدادًا موجّهة ضد **مستضد A و/أو B الغائب** عن كرياتهم، ووُصفت هذه الأضداد بأنها **طبيعية النشوء** لأنها تُنتج دون أي تعرّض لكريات حمر.",
+    "أضداد ABO **غالبًا IgM**، تنشّط المتمّمة، وتتفاعل **بحرارة الغرفة أو أبرد**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**ABO antibodies produce strong direct agglutination reactions** during ABO testing.",
+   "ar": "**تُحدث أضداد ABO تفاعلات تلازن مباشرة قوية** أثناء فحص ABO."
+  },
+  {
+   "t": "h2",
+   "en": "Forward Blood Grouping",
+   "ar": "التصنيف المباشر لفصيلة الدم"
+  },
+  {
+   "t": "card",
+   "en": [
+    "is a method used to determine which **antigens (A, B, or Rh)** are present on the red blood cells.",
+    "It's called forward grouping because it **tests the red blood cells directly** using specific antibodies by observing how the blood reacts to these antibodies"
+   ],
+   "ar": [
+    "طريقة لتحديد **المستضدات (A أو B أو Rh)** الموجودة على الكريات الحمر.",
+    "وسُمّي تصنيفًا مباشرًا لأنه **يفحص الكريات الحمر مباشرةً** بأضداد نوعية بملاحظة تفاعل الدم معها."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/forward-grouping.jpg",
+   "en": "Forward Grouping Testing: patient RBC + anti sera → agglutination",
+   "ar": "التصنيف المباشر: كريات المريض + الأمصال المضادة ← تلازن",
+   "h": "40mm",
+   "fit": "contain"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Collect the blood sample ( **EDTA tube** )",
+     "ar": "اجمع عيّنة الدم (**أنبوب EDTA**)"
+    },
+    {
+     "en": "Prepare the slides – Label three slides as **Anti-A, Anti-B, and Anti-D**.",
+     "ar": "حضّر الشرائح — علّم ثلاث شرائح **ضد A وضد B وضد D**."
+    },
+    {
+     "en": "Add the blood – Place a drop of blood on each slide.",
+     "ar": "أضف الدم — ضع قطرة دم على كل شريحة."
+    },
+    {
+     "en": "Add the sera – Add Anti-A, Anti-B, and Anti-D to the respective slides.",
+     "ar": "أضف الأمصال — ضد A وضد B وضد D كلٌّ على شريحته."
+    },
+    {
+     "en": "Observe the reaction",
+     "ar": "لاحظ التفاعل"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "If the blood **clumps (agglutinates)**, it means the **antigen is present**.",
+    "If there's **no clumping**, the **antigen is absent**."
+   ],
+   "list_ar": [
+    "إذا **تكتّل (تلازن)** الدم فهذا يعني أن **المستضد موجود**.",
+    "إذا **لم يحدث تكتّل** فـ**المستضد غائب**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Reverse blood grouping** is a procedure to **confirm ABO blood group** based on the presence or absence of **anti-A and anti-B in serum** using **known A and B red cells**. It is **cross check for forward typing**. Performing both forward and reverse grouping provides a check for accuracy.",
+   "ar": "**التصنيف العكسي** إجراء لـ**تأكيد فصيلة ABO** بحسب وجود **ضد A وضد B في المصل** أو غيابهما باستخدام **كريات A وB معروفة**، وهو **تحقّق متصالب من التصنيف المباشر**. وإجراء التصنيفين معًا يوفّر تحقّقًا من الدقة."
+  },
+  {
+   "t": "table",
+   "head": [
+    "",
+    "Anti-A",
+    "Anti-B",
+    "A₁ Cells",
+    "B Cells",
+    "ABO Group"
+   ],
+   "rows": [
+    [
+     "1",
+     "0",
+     "0",
+     "+",
+     "+",
+     "O"
+    ],
+    [
+     "2",
+     "+",
+     "0",
+     "0",
+     "+",
+     "A"
+    ],
+    [
+     "3",
+     "0",
+     "+",
+     "+",
+     "0",
+     "B"
+    ],
+    [
+     "4",
+     "+",
+     "+",
+     "0",
+     "0",
+     "AB"
+    ]
+   ],
+   "ar_cols": [],
+   "key_cols": [
+    5
+   ],
+   "label_en": "FORWARD & REVERSE ABO BLOOD GROUPING — Reaction of Cells Tested With | Reaction of Serum Tested Against",
+   "label_ar": "التصنيف المباشر والعكسي — تفاعل الكريات مع | تفاعل المصل ضد",
+   "style": "summary"
+  },
+  {
+   "t": "note",
+   "en": [
+    "A blood sample shows: **Clumping with Anti-A** → A antigen present; **No clumping with Anti-B** → B antigen absent; **Clumping with Anti-D** → Rh factor present.",
+    "Result: Blood Group = ???"
+   ],
+   "ar": [
+    "عيّنة دم تُظهر: **تكتّلًا مع ضد A** ← مستضد A موجود؛ **لا تكتّل مع ضد B** ← مستضد B غائب؛ **تكتّلًا مع ضد D** ← عامل Rh موجود.",
+    "النتيجة: فصيلة الدم = ؟؟؟"
+   ],
+   "label": [
+    "Answer the following :",
+    "أجب عن الآتي:"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Key Facts:**",
+   "ar": "**حقائق أساسية:**",
+   "list_en": [
+    "**O− → Universal donor** (can donate to anyone).",
+    "**AB+ → Universal receiver** (can receive from anyone)"
+   ],
+   "list_ar": [
+    "**O− ← المتبرّع العام** (يمكنه التبرّع لأي شخص).",
+    "**AB+ ← المتلقّي العام** (يمكنه التلقّي من أي شخص)."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Rh testing",
+   "ar": "فحص Rh"
+  },
+  {
+   "t": "card",
+   "en": "Rh typing is performed to detect the **presence or absence of the D antigen**",
+   "ar": "يُجرى تصنيف Rh لكشف **وجود مستضد D أو غيابه**."
+  },
+  {
+   "t": "card",
+   "en": "**IgM** promotes **direct agglutination** of red blood cells at room temperature, whereas **IgG** is utilized in the **indirect antiglobulin test (IAT)** for the detection of the **weak D antigen**",
+   "ar": "يعزّز **IgM** **التلازن المباشر** للكريات الحمر بحرارة الغرفة، بينما يُستخدم **IgG** في **اختبار مضاد الغلوبيولين غير المباشر (IAT)** لكشف **مستضد D الضعيف**."
+  },
+  {
+   "t": "card",
+   "en": "D grouping is usually undertaken **at the same time as ABO grouping** for convenience and to minimize clerical errors that may arise through repeated handling of patients’ samples. In the absence of secure automation, testing should be undertaken **in duplicate**, as there is **no counterpart of the ‘reverse’ grouping** of ABO testing.",
+   "ar": "يُجرى تصنيف D عادةً **في الوقت نفسه مع تصنيف ABO** للتيسير وتقليل الأخطاء الكتابية الناتجة عن تكرار التعامل مع عيّنات المرضى. وفي غياب الأتمتة الآمنة يجب إجراء الفحص **بنسختين**، إذ **لا يوجد ما يقابل التصنيف «العكسي»** في فحص ABO."
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Reagents for D grouping:** **Monoclonal reagents** do not have the problem of possible **contamination with antibodies of unwanted specificities**, as was the case with **polyclonal reagents**.",
+    "When automation is not in use, each sample should be tested **in duplicate** with either the same anti-D reagent or with **two different IgM monoclonal anti-D reagents**."
+   ],
+   "ar": [
+    "**كواشف تصنيف D:** لا تعاني **الكواشف وحيدة النسيلة** مشكلة احتمال **التلوّث بأضداد ذات نوعيات غير مرغوبة** كما كان الحال مع **الكواشف متعددة النسائل**.",
+    "عند عدم استخدام الأتمتة يُفحص كل عيّنة **بنسختين** إما بكاشف ضد D نفسه أو بـ**كاشفين مختلفين من ضد D وحيد النسيلة من نوع IgM**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Anti D reagent:** Monoclonal anti-D reagents vary widely in their ability to detect both **partial and weak D**, so it is helpful to use **two of a similar affinity** to reduce the number of discrepancies due to the detection of weak D",
+   "ar": "**كاشف ضد D:** تختلف كواشف ضد D وحيدة النسيلة كثيرًا في قدرتها على كشف **D الجزئي والضعيف**، لذا يفيد استخدام **كاشفين متقاربين في الألفة** لتقليل الاختلافات الناتجة عن كشف D الضعيف."
+  },
+  {
+   "t": "card",
+   "en": "**Method:** There are several techniques available for routine ABO and D grouping, including both **manual tube and slide tests** and **liquid-phase and solid-phase microplates and columns** that can be used in both manual and automated settings.",
+   "ar": "**الطريقة:** تتوفّر تقنيات عدة لتصنيف ABO وD الروتيني، منها **فحوص الأنبوب والشريحة اليدوية** و**الصفائح الدقيقة والأعمدة بالطور السائل والصلب** التي تُستخدم يدويًا أو آليًا."
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/slide-method.jpg",
+     "en": "Slide method (B negative blood group)",
+     "ar": "طريقة الشريحة (فصيلة B سالبة)",
+     "h": "48mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/tube-method.jpg",
+     "en": "Tube method",
+     "ar": "طريقة الأنبوب",
+     "h": "48mm",
+     "fit": "contain"
+    }
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Blood group systems and ABO",
+    "topic_ar": "أنظمة فصائل الدم وABO"
+   },
+   {
+    "en": "The number of red cell antigens described is over:",
+    "ar": "عدد مستضدات الكريات الحمر الموصوفة أكثر من:",
+    "options": [
+     [
+      "25",
+      "25"
+     ],
+     [
+      "50",
+      "50"
+     ],
+     [
+      "400",
+      "400"
+     ],
+     [
+      "1000",
+      "1000"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The most important blood group systems are:",
+    "ar": "أهم أنظمة فصائل الدم:",
+    "options": [
+     [
+      "Kell and Kidd",
+      "كيل وكيد"
+     ],
+     [
+      "P1 and Lutheran",
+      "P1 ولوثران"
+     ],
+     [
+      "Lewis and MN",
+      "لويس وMN"
+     ],
+     [
+      "ABO and Rh",
+      "ABO وRh"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A person with group B has in serum:",
+    "ar": "الشخص ذو الفصيلة B لديه في المصل:",
+    "options": [
+     [
+      "Anti-A",
+      "ضد A"
+     ],
+     [
+      "Anti-B",
+      "ضد B"
+     ],
+     [
+      "Anti-A and anti-B",
+      "ضد A وضد B"
+     ],
+     [
+      "No antibodies",
+      "لا أضداد"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Group O red cells have:",
+    "ar": "كريات الفصيلة O تحمل:",
+    "options": [
+     [
+      "A antigen",
+      "مستضد A"
+     ],
+     [
+      "Neither A nor B antigen",
+      "لا A ولا B"
+     ],
+     [
+      "A and B antigens",
+      "مستضدي A وB"
+     ],
+     [
+      "B antigen",
+      "مستضد B"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "ABO antibodies are usually:",
+    "ar": "أضداد ABO عادةً:",
+    "options": [
+     [
+      "IgG",
+      "IgG"
+     ],
+     [
+      "IgE",
+      "IgE"
+     ],
+     [
+      "IgM",
+      "IgM"
+     ],
+     [
+      "IgA",
+      "IgA"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Naturally occurring ABO antibodies result from exposure to ABH-like substances in:",
+    "ar": "تنتج أضداد ABO الطبيعية من التعرّض لمواد شبيهة بـABH في:",
+    "options": [
+     [
+      "Transfusion only",
+      "النقل فقط"
+     ],
+     [
+      "Diet or environment (e.g., bacteria)",
+      "الغذاء أو البيئة (مثل البكتيريا)"
+     ],
+     [
+      "Pregnancy only",
+      "الحمل فقط"
+     ],
+     [
+      "Vaccination",
+      "التلقيح"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "An antibody formed after exposure to foreign red cells through transfusion or pregnancy is:",
+    "ar": "الضد الذي يتكوّن بعد التعرّض لكريات غريبة عبر النقل أو الحمل هو:",
+    "options": [
+     [
+      "Autoantibody",
+      "ضد ذاتي"
+     ],
+     [
+      "Cold agglutinin",
+      "راصّة باردة"
+     ],
+     [
+      "Heterophile antibody",
+      "ضد متغاير"
+     ],
+     [
+      "Alloantibody",
+      "ضد خيفي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "ABO antibody titers are detectable in infants from about:",
+    "ar": "تصبح عيارات أضداد ABO قابلة للكشف عند الرضّع من عمر نحو:",
+    "options": [
+     [
+      "3 to 6 months",
+      "3 إلى 6 أشهر"
+     ],
+     [
+      "1 month",
+      "شهر"
+     ],
+     [
+      "Birth",
+      "الولادة"
+     ],
+     [
+      "2 years",
+      "سنتين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In newborns, the logical test on cord blood is:",
+    "ar": "عند حديثي الولادة الفحص المنطقي على دم الحبل السري هو:",
+    "options": [
+     [
+      "Reverse grouping only",
+      "التصنيف العكسي فقط"
+     ],
+     [
+      "Forward grouping only",
+      "التصنيف المباشر فقط"
+     ],
+     [
+      "Both forward and reverse",
+      "المباشر والعكسي"
+     ],
+     [
+      "No testing",
+      "لا فحص"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "ABO antibody production peaks between:",
+    "ar": "يبلغ إنتاج أضداد ABO ذروته بين عمر:",
+    "options": [
+     [
+      "0–1 years",
+      "0–1 سنة"
+     ],
+     [
+      "60–70 years",
+      "60–70 سنة"
+     ],
+     [
+      "20–30 years",
+      "20–30 سنة"
+     ],
+     [
+      "5–10 years",
+      "5–10 سنوات"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which blood group system produces IgM antibodies:",
+    "ar": "أي نظام فصائل ينتج أضداد IgM:",
+    "options": [
+     [
+      "Rh",
+      "Rh"
+     ],
+     [
+      "Kell",
+      "كيل"
+     ],
+     [
+      "Lewis",
+      "لويس"
+     ],
+     [
+      "Kidd",
+      "كيد"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which blood group system produces IgG antibodies:",
+    "ar": "أي نظام فصائل ينتج أضداد IgG:",
+    "options": [
+     [
+      "Kidd",
+      "كيد"
+     ],
+     [
+      "P1",
+      "P1"
+     ],
+     [
+      "MN",
+      "MN"
+     ],
+     [
+      "ABO",
+      "ABO"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Rh system",
+    "topic_ar": "نظام Rh"
+   },
+   {
+    "en": "The Rh system was named after:",
+    "ar": "سُمّي نظام Rh نسبةً إلى:",
+    "options": [
+     [
+      "Rhesus monkeys",
+      "قرود الريسوس"
+     ],
+     [
+      "Rabbits",
+      "الأرانب"
+     ],
+     [
+      "A scientist named Rh",
+      "عالم اسمه Rh"
+     ],
+     [
+      "Rheumatic fever",
+      "الحمّى الرثوية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Rh antibodies are:",
+    "ar": "أضداد Rh:",
+    "options": [
+     [
+      "IgM, naturally occurring",
+      "IgM طبيعية"
+     ],
+     [
+      "IgA",
+      "IgA"
+     ],
+     [
+      "IgG, acquired",
+      "IgG مكتسبة"
+     ],
+     [
+      "IgE",
+      "IgE"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The RhAG gene resides on chromosome:",
+    "ar": "يقع جين RhAG على الصبغي:",
+    "options": [
+     [
+      "1",
+      "1"
+     ],
+     [
+      "6",
+      "6"
+     ],
+     [
+      "9",
+      "9"
+     ],
+     [
+      "17",
+      "17"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The most immunogenic antigen in the Rh system is:",
+    "ar": "المستضد الأكثر استمناعية في نظام Rh:",
+    "options": [
+     [
+      "C",
+      "C"
+     ],
+     [
+      "c",
+      "c"
+     ],
+     [
+      "e",
+      "e"
+     ],
+     [
+      "D",
+      "D"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Two Rh+ (Dd) parents can have an Rh− child with genotype:",
+    "ar": "أبوان Rh+ (Dd) قد ينجبان طفلًا Rh− بالنمط الجيني:",
+    "options": [
+     [
+      "DD",
+      "DD"
+     ],
+     [
+      "Dd",
+      "Dd"
+     ],
+     [
+      "None",
+      "لا شيء"
+     ],
+     [
+      "dd",
+      "dd"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Rh antibodies in a pregnant woman can cause:",
+    "ar": "قد تسبّب أضداد Rh عند الحامل:",
+    "options": [
+     [
+      "Thalassemia",
+      "الثلاسيميا"
+     ],
+     [
+      "Erythroblastosis fetalis (HDFN)",
+      "الحمرة الأرومية الجنينية (داء انحلال الدم عند الجنين والوليد)"
+     ],
+     [
+      "Hemophilia",
+      "الناعور"
+     ],
+     [
+      "Iron deficiency",
+      "عوز الحديد"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Weak D requires for its detection:",
+    "ar": "يحتاج كشف D الضعيف إلى:",
+    "options": [
+     [
+      "Antiglobulin reagent or monoclonal anti-D",
+      "كاشف مضاد الغلوبيولين أو ضد D وحيد النسيلة"
+     ],
+     [
+      "Saline only",
+      "محلول ملحي فقط"
+     ],
+     [
+      "Anti-A",
+      "ضد A"
+     ],
+     [
+      "Heat",
+      "الحرارة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Weak D was historically called:",
+    "ar": "سُمّي D الضعيف تاريخيًا:",
+    "options": [
+     [
+      "Kell",
+      "كيل"
+     ],
+     [
+      "Partial D",
+      "D جزئي"
+     ],
+     [
+      "Dᵘ antigen",
+      "مستضد Du"
+     ],
+     [
+      "Lewis",
+      "لويس"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The percentage of D-negative recipients of a whole D-positive unit who make anti-D is:",
+    "ar": "نسبة المتلقّين D السالب لوحدة كاملة D موجبة الذين ينتجون ضد D:",
+    "options": [
+     [
+      "17%",
+      "17%"
+     ],
+     [
+      "50%",
+      "50%"
+     ],
+     [
+      "5%",
+      "5%"
+     ],
+     [
+      "> 80%",
+      "أكثر من 80%"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The percentage of D-negative women immunized by one pregnancy with an RhD-positive offspring is:",
+    "ar": "نسبة النساء D السالب المتمنّعات بحمل واحد بجنين RhD موجب:",
+    "options": [
+     [
+      "17%",
+      "17%"
+     ],
+     [
+      "80%",
+      "80%"
+     ],
+     [
+      "50%",
+      "50%"
+     ],
+     [
+      "1%",
+      "1%"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "For repeatedly transfused patients, units should be phenotypically matched for:",
+    "ar": "للمرضى المنقول إليهم الدم مرارًا تُطابق الوحدات ظاهريًا لـ:",
+    "options": [
+     [
+      "MN",
+      "MN"
+     ],
+     [
+      "Lewis",
+      "لويس"
+     ],
+     [
+      "Rh antigens and K",
+      "مستضدات Rh وK"
+     ],
+     [
+      "P1",
+      "P1"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "ABO and Rh grouping (practical)",
+    "topic_ar": "تصنيف ABO وRh (عملي)"
+   },
+   {
+    "en": "The tube used to collect blood for forward grouping is:",
+    "ar": "الأنبوب المستخدم لجمع الدم للتصنيف المباشر:",
+    "options": [
+     [
+      "Plain tube",
+      "أنبوب عادي"
+     ],
+     [
+      "EDTA tube",
+      "أنبوب EDTA"
+     ],
+     [
+      "Citrate tube",
+      "أنبوب سترات"
+     ],
+     [
+      "Fluoride tube",
+      "أنبوب فلورايد"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Forward grouping detects:",
+    "ar": "يكشف التصنيف المباشر:",
+    "options": [
+     [
+      "Antibodies in serum",
+      "الأضداد في المصل"
+     ],
+     [
+      "Hemoglobin",
+      "الهيموغلوبين"
+     ],
+     [
+      "Antigens on red cells",
+      "المستضدات على الكريات"
+     ],
+     [
+      "Platelets",
+      "الصفائح"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Reverse grouping uses:",
+    "ar": "يستخدم التصنيف العكسي:",
+    "options": [
+     [
+      "Anti-A and anti-B sera",
+      "الأمصال ضد A وضد B"
+     ],
+     [
+      "AHG",
+      "AHG"
+     ],
+     [
+      "Anti-D",
+      "ضد D"
+     ],
+     [
+      "Known A and B red cells",
+      "كريات A وB معروفة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A sample agglutinates with anti-A and anti-D but not anti-B. The blood group is:",
+    "ar": "عيّنة تتلازن مع ضد A وضد D لا ضد B. الفصيلة:",
+    "options": [
+     [
+      "A−",
+      "A−"
+     ],
+     [
+      "A+",
+      "A+"
+     ],
+     [
+      "B+",
+      "B+"
+     ],
+     [
+      "AB+",
+      "AB+"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Serum reacting with A₁ and B cells but no reaction of cells with anti-A or anti-B indicates group:",
+    "ar": "مصل يتفاعل مع كريات A₁ وB مع عدم تفاعل الكريات مع ضد A وضد B يدل على الفصيلة:",
+    "options": [
+     [
+      "O",
+      "O"
+     ],
+     [
+      "B",
+      "B"
+     ],
+     [
+      "AB",
+      "AB"
+     ],
+     [
+      "A",
+      "A"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The universal donor is:",
+    "ar": "المتبرّع العام:",
+    "options": [
+     [
+      "AB+",
+      "AB+"
+     ],
+     [
+      "O+",
+      "O+"
+     ],
+     [
+      "A+",
+      "A+"
+     ],
+     [
+      "O−",
+      "O−"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "D grouping is tested in duplicate because:",
+    "ar": "يُفحص تصنيف D بنسختين لأنه:",
+    "options": [
+     [
+      "There is no reverse grouping for D",
+      "لا يوجد تصنيف عكسي لـD"
+     ],
+     [
+      "Reagents are expensive",
+      "الكواشف غالية"
+     ],
+     [
+      "IgG is weak",
+      "IgG ضعيف"
+     ],
+     [
+      "It is done on cord blood",
+      "يُجرى على دم الحبل"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Weak D is detected using IgG in the:",
+    "ar": "يُكشف D الضعيف باستخدام IgG في:",
+    "options": [
+     [
+      "Direct agglutination at room temperature",
+      "التلازن المباشر بحرارة الغرفة"
+     ],
+     [
+      "Indirect antiglobulin test (IAT)",
+      "اختبار مضاد الغلوبيولين غير المباشر"
+     ],
+     [
+      "Reverse grouping",
+      "التصنيف العكسي"
+     ],
+     [
+      "Slide test",
+      "فحص الشريحة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this Punnett square, the probability of an Rh-negative child is:",
+    "ar": "في هذا المربع، احتمال طفل Rh سالب:",
+    "options": [
+     [
+      "0%",
+      "0%"
+     ],
+     [
+      "50%",
+      "50%"
+     ],
+     [
+      "25%",
+      "25%"
+     ],
+     [
+      "75%",
+      "75%"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/rh-inheritance.jpg",
+    "img_h": "38mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Each blood group antigen is defined by a specific antibody.",
+    "ar": "يُعرَّف كل مستضد فصيلة بضد نوعي.",
+    "answer": "T"
+   },
+   {
+    "en": "Group AB has both anti-A and anti-B in serum.",
+    "ar": "للفصيلة AB ضد A وضد B في المصل.",
+    "answer": "F"
+   },
+   {
+    "en": "Wrong ABO transfusion can cause rapid intravascular hemolysis.",
+    "ar": "قد يسبّب نقل ABO الخاطئ انحلالًا سريعًا داخل الأوعية.",
+    "answer": "T"
+   },
+   {
+    "en": "Serum ABO testing before 3–6 months of age is valid.",
+    "ar": "فحص ABO المصلي قبل عمر 3–6 أشهر صحيح.",
+    "answer": "F"
+   },
+   {
+    "en": "Elderly people may have undetectable antibodies in reverse grouping.",
+    "ar": "قد لا تُكشف الأضداد في التصنيف العكسي لدى كبار السن.",
+    "answer": "T"
+   },
+   {
+    "en": "Most people are Rh-negative.",
+    "ar": "معظم الناس Rh سالب.",
+    "answer": "F"
+   },
+   {
+    "en": "Rh-negative recipients should receive Rh-negative red cells.",
+    "ar": "يجب أن يتلقّى المتلقّي Rh السالب كريات Rh سالبة.",
+    "answer": "T"
+   },
+   {
+    "en": "Rh antibodies commonly occur naturally.",
+    "ar": "تنشأ أضداد Rh طبيعيًا عادةً.",
+    "answer": "F"
+   },
+   {
+    "en": "Rh system has more than 50 related antigens.",
+    "ar": "لنظام Rh أكثر من 50 مستضدًا مرتبطًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Monoclonal anti-D reagents may be contaminated with unwanted antibodies like polyclonal reagents.",
+    "ar": "قد تتلوّث كواشف ضد D وحيدة النسيلة بأضداد غير مرغوبة مثل متعددة النسائل.",
+    "answer": "F"
+   },
+   {
+    "en": "AB+ is the universal receiver.",
+    "ar": "AB+ هو المتلقّي العام.",
+    "answer": "T"
+   },
+   {
+    "en": "Reverse grouping is a cross check for forward typing.",
+    "ar": "التصنيف العكسي تحقّق متصالب من التصنيف المباشر.",
+    "answer": "T"
+   },
+   {
+    "en": "ABO antibodies react best at 37°C.",
+    "ar": "تتفاعل أضداد ABO أفضل بدرجة 37 مْ.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "IgM or IgG?",
+    "ar": "IgM أم IgG؟",
+    "answer_en": "IgM: ABO, Lewis, MN, P1 (naturally occurring, room temperature). IgG: Rh, Kidd, Kell, Lutheran, Ss (immune, acquired).",
+    "answer_ar": "IgM: ABO ولويس وMN وP1 (طبيعية، بحرارة الغرفة). IgG: Rh وكيد وكيل ولوثران وSs (مناعية مكتسبة)."
+   },
+   {
+    "en": "80% or 17%?",
+    "ar": "80% أم 17%؟",
+    "answer_en": ">80% of D-negative recipients of a D-positive unit make anti-D; 17% of D-negative women are immunized by one pregnancy.",
+    "answer_ar": "أكثر من 80% من متلقّي وحدة D موجبة ينتجون ضد D؛ و17% من النساء D السالب يتمنّعن بحمل واحد."
+   },
+   {
+    "en": "Forward or reverse grouping?",
+    "ar": "تصنيف مباشر أم عكسي؟",
+    "answer_en": "Forward: patient's cells + known antisera (detects antigens). Reverse: patient's serum + known A and B cells (detects antibodies).",
+    "answer_ar": "المباشر: كريات المريض + أمصال معروفة (يكشف المستضدات). العكسي: مصل المريض + كريات A وB معروفة (يكشف الأضداد)."
+   },
+   {
+    "en": "Why only forward grouping on cord blood?",
+    "ar": "لماذا التصنيف المباشر فقط على دم الحبل؟",
+    "answer_en": "Infant antibodies are too low before 3–6 months and may be maternal IgG that crossed the placenta.",
+    "answer_ar": "أضداد الرضيع منخفضة جدًا قبل 3–6 أشهر وقد تكون IgG أمومية عبرت المشيمة."
+   },
+   {
+    "en": "Universal donor or receiver?",
+    "ar": "متبرّع عام أم متلقٍّ عام؟",
+    "answer_en": "O− is the universal donor; AB+ is the universal receiver.",
+    "answer_ar": "O− المتبرّع العام؛ AB+ المتلقّي العام."
+   },
+   {
+    "en": "Why test D in duplicate?",
+    "ar": "لماذا يُفحص D بنسختين؟",
+    "answer_en": "There is no counterpart of ABO reverse grouping for D.",
+    "answer_ar": "لا يوجد ما يقابل التصنيف العكسي لـABO في فحص D."
+   }
+  ],
+  "important": [
+   {
+    "en": "A blood sample shows clumping with anti-A, no clumping with anti-B and clumping with anti-D. What is the blood group? (lecturer's question)",
+    "ar": "عيّنة دم تُظهر تكتّلًا مع ضد A ولا تكتّل مع ضد B وتكتّلًا مع ضد D. ما فصيلة الدم؟ (سؤال المحاضرة)",
+    "answer_en": "A positive (A+): A antigen present, B antigen absent, Rh (D) present.",
+    "answer_ar": "A موجب (A+): مستضد A موجود، ومستضد B غائب، وعامل Rh (D) موجود."
+   },
+   {
+    "en": "Describe the four ABO blood groups.",
+    "ar": "صف فصائل ABO الأربع.",
+    "answer_en": "A: A antigen, anti-B. B: B antigen, anti-A. AB: A and B antigens, no anti-A or anti-B. O: no A or B antigen, both anti-A and anti-B.",
+    "answer_ar": "A: مستضد A وضد B. B: مستضد B وضد A. AB: المستضدان ولا أضداد. O: لا مستضدات وضد A وضد B معًا."
+   },
+   {
+    "en": "Compare naturally occurring and immune occurring antibodies.",
+    "ar": "قارن بين الأضداد الطبيعية والمناعية النشوء.",
+    "answer_en": "Naturally occurring: produced after exposure to ABH-like substances in diet or environment (e.g., bacteria). Immune occurring: formed only after exposure to foreign red cells through transfusion or pregnancy (alloantibodies).",
+    "answer_ar": "الطبيعية: تنتج بعد التعرّض لمواد شبيهة بـABH في الغذاء أو البيئة (مثل البكتيريا). المناعية: لا تتكوّن إلا بعد التعرّض لكريات غريبة عبر النقل أو الحمل (أضداد خيفية)."
+   },
+   {
+    "en": "Explain ABO in infants and in later life.",
+    "ar": "اشرح ABO عند الرضّع وفي العمر المتقدّم.",
+    "answer_en": "Production starts at birth but titers are undetectable until 3–6 months; earlier serum results are invalid (maternal IgG), so only forward grouping is done on cord blood. Production peaks at 5–10 years and declines; elderly may have undetectable antibodies in reverse grouping.",
+    "answer_ar": "يبدأ الإنتاج عند الولادة لكن العيارات لا تُكشف قبل 3–6 أشهر، ونتائج المصل قبلها غير صحيحة (IgG أمومي)، فيُجرى التصنيف المباشر فقط على دم الحبل. وتبلغ الذروة بين 5–10 سنوات ثم تنخفض، وقد لا تُكشف لدى كبار السن في التصنيف العكسي."
+   },
+   {
+    "en": "What is the clinical importance of the Rh system?",
+    "ar": "ما الأهمية السريرية لنظام Rh؟",
+    "answer_en": "Rh antibodies are immune (from transfusion or pregnancy). D-negative individuals transfused with D-positive blood make anti-D causing hemolytic transfusion reactions; pregnant D-negative women exposed to D-positive fetal cells can produce hemolytic disease of the fetus and newborn.",
+    "answer_ar": "أضداد Rh مناعية (من النقل أو الحمل). الأفراد D السالب المنقول إليهم دم D موجب ينتجون ضد D فتحدث تفاعلات نقل انحلالية؛ والحوامل D السالب المعرّضات لكريات جنين D موجبة قد يُحدثن داء انحلال الدم عند الجنين والوليد."
+   },
+   {
+    "en": "What is weak D?",
+    "ar": "ما D الضعيف؟",
+    "answer_en": "RBCs with fewer D antigen sites that do not react strongly with anti-D and need an antiglobulin reagent (IAT) or monoclonal anti-D to be detected; historically called Du.",
+    "answer_ar": "كريات بمواقع D أقل لا تتفاعل بقوة مع ضد D وتحتاج كاشف مضاد الغلوبيولين (IAT) أو ضد D وحيد النسيلة لكشفها؛ وسُمّيت تاريخيًا Du."
+   },
+   {
+    "en": "Compare forward and reverse blood grouping.",
+    "ar": "قارن بين التصنيف المباشر والعكسي.",
+    "answer_en": "Forward: tests the patient's red cells with anti-A, anti-B and anti-D to detect antigens. Reverse: tests the patient's serum with known A and B cells to detect anti-A and anti-B; it confirms the forward result.",
+    "answer_ar": "المباشر: يفحص كريات المريض بضد A وضد B وضد D لكشف المستضدات. العكسي: يفحص مصل المريض بكريات A وB معروفة لكشف ضد A وضد B؛ ويؤكّد نتيجة المباشر."
+   },
+   {
+    "en": "What are the options when compatible units are difficult to find for repeatedly transfused patients?",
+    "ar": "ما الخيارات عند صعوبة إيجاد وحدات متوافقة للمرضى المنقول إليهم الدم مرارًا؟",
+    "answer_en": "1. Rare donor registries (lists of donors, frozen units of rare phenotypes). 2. Transfuse units phenotypically matched for Rh antigens and K (the most immunogenic).",
+    "answer_ar": "1. سجلات المتبرّعين النادرين (قوائم ووحدات مجمّدة نادرة). 2. نقل وحدات مطابقة ظاهريًا لمستضدات Rh وK (الأكثر استمناعية)."
+   }
+  ]
+ }
+}
