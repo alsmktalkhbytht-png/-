@@ -14,8 +14,6 @@ from art import biohazard, radiation  # noqa: E402
 
 BODY_MM = 240.0                                   # usable height of .body
 M = {}                                            # lecture meta, set by load()
-LAST_H = []                                       # used height (mm) of each page from the last paginate()
-NOTES_MM = 50.0                                   # master layout: room needed for the 5 note lines
 
 
 # ------------------------------------------------------------------ inline markup
@@ -322,8 +320,7 @@ def cover(title_en, title_ar, kind):
 
 def doc(title, pages):
     return (f'<!doctype html><html><head><meta charset="utf-8"><title>{title}</title>'
-            f'<link rel="stylesheet" href="{M["_css"]}"><link rel="stylesheet" href="{M["_theme"]}">'
-            + (f'<link rel="stylesheet" href="{M["_master"]}">' if M.get("_master") else "") + '</head>'
+            f'<link rel="stylesheet" href="{M["_css"]}"><link rel="stylesheet" href="{M["_theme"]}"></head>'
             f'<body class="{"ar-only" if M.get("arabic_only") else ""}">{"".join(pages)}</body></html>')
 
 
@@ -451,7 +448,6 @@ def paginate(items, html_path, sub, forced):
     open(html_path, "w").write(doc("measure", [page(probe, 1, sub)]))
     H = json.loads(node("measure", html_path))
     pages, cur, h_cur = [], [], 0.0
-    LAST_H.clear()
     for i, (h, keep) in enumerate(items):
         need = H[str(i)]
         j = i
@@ -462,45 +458,12 @@ def paginate(items, html_path, sub, forced):
                 break
         if cur and (i in forced or h_cur + need > BODY_MM):
             pages.append(cur)
-            LAST_H.append(h_cur)
             cur, h_cur = [], 0.0
         cur.append(h)
         h_cur += H[str(i)]
     if cur:
         pages.append(cur)
-        LAST_H.append(h_cur)
     return pages
-
-
-# ------------------------------------------------------------------ master layout (TOC + note lines)
-def notes_block():
-    return ('<div class="notes"><div class="nt"><span>Notes</span><span dir="rtl">ملاحظات</span></div>'
-            + '<i></i>' * 5 + '</div>')
-
-
-
-
-def toc_page(entries):
-    """entries: [(level, en, ar, page)] — level 0 = lecture/part title, 1 = section."""
-    rows = "".join(
-        f'<div class="toc-r l{lv}"><span class="te" dir="ltr">{e}</span><span class="td"></span>'
-        f'<span class="ta" dir="rtl">{a}</span><b>{n}</b></div>' for lv, e, a, n in entries)
-    return (f'<section class="page toc-page">{margin_rule()}{header(M["unit_en"])}<div class="body"><div class="content">'
-            f'<div class="toc-h"><span dir="ltr">Contents</span><span dir="rtl">فهرس المحتويات</span></div>{rows}'
-            f'</div></div>{footer("")}</section>')
-
-
-def toc_entries(pages_html):
-    out = []
-    pat = re.compile(r'<span class="lt-en" dir="ltr">(.*?)</span><span class="lt-ar" dir="rtl">(.*?)</span>'
-                     r'|<div class="sb"><span dir="ltr">(.*?)</span><span dir="rtl">(.*?)</span>', re.S)
-    for n, ph in enumerate(pages_html, 1):
-        for m in pat.finditer(ph):
-            if m.group(1) is not None:
-                out.append((0, m.group(1), m.group(2), n))
-            else:
-                out.append((1, m.group(3), m.group(4), n))
-    return out
 
 
 # ------------------------------------------------------------------ main
@@ -526,10 +489,6 @@ def build(path, html_only=False):
     third = cover_stage() == "المرحلة الثالثة"
     theme = M.get("theme", "blush" if third else "wineoat")      # third stage: the pink palette
     merge = M.get("merge_questions", third)                       # third stage: questions inside the handout
-    master = M.get("layout") == "master"                          # BIOS master prompt: one file, TOC, note lines
-    if master:
-        merge = True
-    M["_master"] = rel(os.path.join(ENGINE, "master.css")) if master else ""
     M["_theme"] = rel(os.path.join(ENGINE, "themes", theme + ".css"))
     logo = os.path.join(ENGINE, "brand", f"logo_{theme}.png")      # transparent cover logo when the theme has one
     M["_logo"] = rel(logo if os.path.exists(logo) else os.path.join(ENGINE, "brand", f"logo_{theme}.jpg"))
@@ -556,22 +515,15 @@ def build(path, html_only=False):
         tmp = os.path.join(out_dir, "booklet.html")
         pages = paginate(items, tmp, sub, forced)
         FIG["n"] = 0  # numbering already baked into items
-        book_h = list(LAST_H)
-        bodies = [("".join(p), sub) for p in pages]
+        html_pages = [cover(M["title_en"], M["title_ar"], M["kind"])]
+        html_pages += [page("".join(p), n, sub) for n, p in enumerate(pages, 1)]
+        n_pages = len(pages)
         if merge:                                   # one file: lecture, then its questions
             Q = data["questions"]
             qsub = f'{M["unit_en"]} · {Q.get("sub", "Exam")}'
             qpages = paginate(question_items(Q), os.path.join(out_dir, "questions.html"), qsub, set())
-            book_h += list(LAST_H)
-            bodies += [("".join(p), qsub) for p in qpages]
-        if master:                                  # 5 note lines where the page has room
-            bodies = [(c + notes_block() if BODY_MM - hh >= NOTES_MM else c, sb) for (c, sb), hh in zip(bodies, book_h)]
-        html_pages = [cover(M["title_en"], M["title_ar"], M["kind"])]
-        if master:
-            html_pages.append(toc_page(toc_entries([c for c, _ in bodies])))
-        html_pages += [page(c, n, sb) for n, (c, sb) in enumerate(bodies, 1)]
-        n_pages = len(bodies)
-        if merge:
+            html_pages += [page("".join(p), n_pages + n, qsub) for n, p in enumerate(qpages, 1)]
+            n_pages += len(qpages)
             stale = os.path.join(base_dir, name + " - الأسئلة.pdf")
             if os.path.exists(stale):
                 os.remove(stale)
