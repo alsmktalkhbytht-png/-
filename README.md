@@ -15,7 +15,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `bloodbank-lec3-services/` — Blood Transfusion lecture 3: Blood bank services.
 - `bloodbank-lec4-screening/` — Blood Transfusion lecture 4: Screening of blood donors and pre-transfusion testing (crossmatch).
 - `bloodbank-lec5-abo-rh/` — Blood Transfusion lecture 5: ABO and Rh blood group systems.
-- `clinimm-lec4-sjogren/`, `clinimm-lec5-behcet/`, `clinimm-lec6-celiac-pa-t1d/` — Clinical Immunology (المناعة السريرية) lectures 4–6: Sjögren's syndrome, Behçet's disease, celiac disease / pernicious anemia / type 1 DM — fourth stage.
+- `clinimm-lec4-sjogren/`, `clinimm-lec5-behcet/`, `clinimm-lec6-celiac-pa-t1d/` — Clinical Immunology (المناعة السريرية, د. عبير) lectures 4–6: Sjögren's syndrome, Behçet's disease, celiac disease / pernicious anemia / type 1 DM — fourth stage.
 - `research-lec1-principles/` — Principles of Research (مبادئ البحث العلمي) lecture 1.
 - `research-lec2-scientific-method/` — Principles of Research lecture 2: the scientific method.
 - `enzymology-lab1-safety-tubes/` — Clinical Enzymology (الإنزيمات السريرية) Lab 1: lab safety and blood collecting tubes.
