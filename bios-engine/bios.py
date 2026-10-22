@@ -83,9 +83,16 @@ def pair(e, a, limit=SHORT):
     return f'<div class="pr {lay}">{en(e) if e else ""}{ar(a) if a and a != e else ""}</div>'
 
 
+def pairs(e, a):
+    """One point: a single pair, or (lists) every sentence followed by its own translation."""
+    if not isinstance(e, list):
+        return pair(e, a)
+    return '<div class="prs">' + "".join(pair(se, sa) for se, sa in sentences(e, a)) + "</div>"
+
+
 def plist(items_en, items_ar, alpha=False):
     """Numbered (or lettered) points, each followed immediately by its own translation."""
-    rows = "".join(f'<li><span class="nb">{"ABCDEFGHIJ"[i - 1] if alpha else i}</span>{pair(e, a)}</li>'
+    rows = "".join(f'<li><span class="nb">{"ABCDEFGHIJ"[i - 1] if alpha else i}</span>{pairs(e, a)}</li>'
                    for i, (e, a) in enumerate(zip(items_en, items_ar), 1))
     return f'<ol class="pl">{rows}</ol>'
 
@@ -160,10 +167,17 @@ def fig(f, base):
             f'<span dir="rtl"><b>الشكل {n}.</b> {md(f.get("ar", ""))}</span></figcaption></figure>')
 
 
+def cell(c):
+    """A table cell: plain text, or [en, ar] — the English with its own Arabic translation under it."""
+    if isinstance(c, list):
+        return f'<div class="tc-en" dir="ltr">{md(c[0])}</div><div class="tc-ar" dir="rtl">{md(c[1])}</div>'
+    return md(c)
+
+
 def table(b):
     ar_cols, key_cols = set(b.get("ar_cols", [])), set(b.get("key_cols", []))
     w = b.get("widths", [])
-    th = "".join(f'<th{" dir=rtl" if i in ar_cols else ""}{f" style=width:{w[i]}" if i < len(w) and w[i] else ""}>{md(h)}</th>'
+    th = "".join(f'<th{" dir=rtl" if i in ar_cols else ""}{f" style=width:{w[i]}" if i < len(w) and w[i] else ""}>{cell(h)}</th>'
                  for i, h in enumerate(b["head"]))
     rows = ""
     for r in b["rows"]:
@@ -173,7 +187,7 @@ def table(b):
             if b.get("numbered") and i == 0:
                 tds += f'<td style="text-align:center;color:var(--red);font-weight:800">{md(c)}</td>'
             else:
-                tds += f'<td class="{cls}">{md(c)}</td>'
+                tds += f'<td class="{cls}">{cell(c)}</td>'
         rows += f"<tr>{tds}</tr>"
     t = f'<table class="tb">{"<tr>" + th + "</tr>"}{rows}</table>'
     if b.get("style") == "summary":

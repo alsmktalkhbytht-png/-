@@ -92,6 +92,7 @@ ol.pl li:last-child{border-bottom:0}
 ol.pl .nb{margin-top:1.1mm}
 .pr.inline{display:flex;justify-content:space-between;align-items:baseline;gap:4mm}
 .pr.stack .ar{margin-top:.2mm}
+.prs{flex:1;min-width:0}.prs .pr + .pr{margin-top:1mm}
 .pr .en{font-size:11pt;line-height:1.45}
 .pr .ar{font-size:12.5pt;line-height:1.6}
 /* rule cards */
@@ -119,6 +120,8 @@ table.tb td{font-size:9pt;padding:1.3mm 3mm;border-top:.3mm solid var(--star)}
 table.tb tr:nth-child(even) td{background:var(--egret)}
 table.tb td.a{direction:rtl;text-align:right;font-weight:600}
 table.tb td.k{font-weight:700}
+table.tb .tc-ar{direction:rtl;text-align:right;font-size:10.5pt;line-height:1.45;font-weight:500;margin-top:.5mm;padding-top:.5mm;border-top:.2mm dashed var(--star)}
+table.tb th .tc-ar{border-top-color:rgba(239,239,232,.35);font-size:9.5pt;font-weight:600}
 table.tb th + th{border-left:.3mm solid rgba(239,239,232,.3)}
 /* h2 */
 .h2{display:flex;justify-content:space-between;font-weight:800;font-size:10.5pt;color:var(--dark);border-bottom:.35mm solid var(--gold);padding-bottom:1mm;margin:1mm 0 3mm}

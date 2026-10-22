@@ -62,6 +62,18 @@ description: Build a BIOS-style bilingual (English + Arabic) handout PDF — and
   real sentence ends — not at stray full stops inside a sentence (`patient's. particulars`)
   or abbreviations (`D.W.`, `spp.`, `e.g.`, `5 min.`). Works for `card`, `rule`, `group`
   and `note`.
+- **Never translate a whole paragraph at its end.** If a paragraph or a list point has several
+  sentences, every sentence gets its own translation — `card`/`rule`/`note` take sentence lists,
+  and so does a single `list_en` item (`["s1.", "s2."]` with a matching `list_ar` item).
+- **Tables are translated cell by cell:** every English cell (and header) is `["en", "ar"]`, so
+  its Arabic sits inside the same cell under it. Do not add a separate "الترجمة" column that
+  summarises the row.
+- **Organise for memorising:** do not leave everything as plain paragraphs — add a table, an arrow
+  chain (`flow`), points, or an "at a glance" summary box where it helps. The English stays verbatim;
+  these aids are BIOS additions.
+- **End every handout with "Quick summary & key terms — الخلاصة السريعة وأهم المصطلحات":** short
+  bilingual points covering the whole lecture (cards of at most 4 points), then a key-terms table
+  giving **several Arabic renderings** for each term (`الداء البطني / الداء الزلاقي / مرض السيلياك`).
 - **Every listed point carries its own translation right after it** — never all English
   points followed by all Arabic points. Short pairs sit on one line (English left, Arabic
   right); long pairs stack with the Arabic underneath. MCQ options follow the same rule.
@@ -154,7 +166,7 @@ For a theory lecture use `"unit_en": "Lecture 3"`, `"unit_ar": "المحاضرة
 | `figure` | `symbols: ["biohazard", "radiation"]`, `en`, `ar` | the redrawn vector warning signs |
 | `figures` | `items: [figure, figure]` | two figures side by side |
 | `side` | `blocks: [card…]`, `figure` | cards with a small figure in a 34 mm column on the right |
-| `table` | `head`, `rows`, optional `ar_cols`, `key_cols`, `widths`, `numbered`, `style: "summary"`, `label_en`, `label_ar` | tables; `summary` puts it in the sage box with a pill label |
+| `table` | `head`, `rows` (a cell or header is a string or `["en", "ar"]`), optional `ar_cols`, `key_cols`, `widths`, `numbered`, `style: "summary"`, `label_en`, `label_ar` | tables; `summary` puts it in the sage box with a pill label |
 | `note` | `en`, `ar`, optional `label: ["Note", "ملاحظة"]` | remark, warning, or clinical note |
 | `spacer` | `h` (for example `"2mm"`) | small vertical gap |
 | `pagebreak` | — | force a new page (rarely needed) |

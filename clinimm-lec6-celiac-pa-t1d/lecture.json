@@ -26,8 +26,14 @@
   },
   {
    "t": "card",
-   "en": "**Gluten** is the **alcohol-soluble protein** component of the cereals **wheat, rye and barley**. It is composed of 2 major protein fractions: **glutenin and gliadin**; most of the toxic activity exerted by gluten in CD is due to **gliadin**.",
-   "ar": "**الغلوتين** هو المكوّن البروتيني **الذائب في الكحول** في حبوب **القمح والشيلم (الجاودار) والشعير**، ويتكوّن من جزأين بروتينيين رئيسين: **الغلوتينين والغليادين**، ومعظم الفعل السام للغلوتين في الداء البطني يعود إلى **الغليادين**."
+   "en": [
+    "**Gluten** is the **alcohol-soluble protein** component of the cereals **wheat, rye and barley**.",
+    "It is composed of 2 major protein fractions: **glutenin and gliadin**; most of the toxic activity exerted by gluten in CD is due to **gliadin**."
+   ],
+   "ar": [
+    "**الغلوتين** هو المكوّن البروتيني **الذائب في الكحول** في حبوب **القمح والشيلم (الجاودار) والشعير**.",
+    "ويتكوّن من جزأين بروتينيين رئيسين: **الغلوتينين والغليادين**؛ ومعظم الفعل السام للغلوتين في الداء البطني يعود إلى **الغليادين**."
+   ]
   },
   {
    "t": "card",
@@ -45,24 +51,43 @@
   {
    "t": "table",
    "head": [
-    "Label (from the figure)",
-    "الترجمة"
+    [
+     "Label (from the figure)",
+     "التسمية في الشكل"
+    ],
+    [
+     "Meaning",
+     "المعنى"
+    ]
    ],
    "rows": [
     [
-     "Normal: Tall slender villi, goblet cell, intraepithelial lymphocytes, lamina propria, scattered lymphocytes and plasma cells, muscularis mucosa",
-     "الطبيعي: زغابات طويلة نحيلة، خلية كأسية، لمفاويات داخل الظهارة، الصفيحة المخصوصة، لمفاويات وخلايا بلازمية متناثرة، العضلية المخاطية"
+     [
+      "Normal",
+      "الطبيعي"
+     ],
+     [
+      "Tall slender villi, goblet cell, intraepithelial lymphocytes, lamina propria, scattered lymphocytes and plasma cells, muscularis mucosa",
+      "زغابات طويلة نحيلة، خلية كأسية، لمفاويات داخل الظهارة، الصفيحة المخصوصة، لمفاويات وخلايا بلازمية متناثرة، العضلية المخاطية"
+     ]
     ],
     [
-     "Subtotal villous atrophy: Loss of villi; flattened epithelium; increased numbers of intraepithelial lymphocytes; inflammatory cell infiltrate (plasma cells, lymphocytes and mast cells)",
-     "الضمور الزغابي شبه الكلي: فقدان الزغابات؛ ظهارة مسطّحة؛ زيادة اللمفاويات داخل الظهارة؛ ارتشاح خلايا التهابية (بلازمية ولمفاويات وبدينة)"
+     [
+      "Subtotal villous atrophy",
+      "الضمور الزغابي شبه الكلي"
+     ],
+     [
+      "Loss of villi; flattened epithelium; increased numbers of intraepithelial lymphocytes; inflammatory cell infiltrate (plasma cells, lymphocytes and mast cells)",
+      "فقدان الزغابات؛ ظهارة مسطّحة؛ زيادة اللمفاويات داخل الظهارة؛ ارتشاح خلايا التهابية (بلازمية ولمفاويات وبدينة)"
+     ]
     ]
-   ],
-   "ar_cols": [
-    1
    ],
    "key_cols": [
     0
+   ],
+   "widths": [
+    28,
+    72
    ]
   },
   {
@@ -72,8 +97,14 @@
   },
   {
    "t": "card",
-   "en": "The disorder is a **multifactorial condition**, originating from the interplay of **genetic and environmental factors**. The necessary environmental trigger is **gluten**, timing of gluten introduction into the diet could play a role in pathogenesis, since initial exposure to wheat, barley, or rye **in the first 3 months of life or after the 7th months** proved to be related to an **increased risk** of CD.",
-   "ar": "هذا الاضطراب **متعدّد العوامل** ينشأ من تداخل **العوامل الوراثية والبيئية**. والمحفّز البيئي الضروري هو **الغلوتين**، وقد يؤدي توقيت إدخاله إلى الغذاء دورًا في الإمراضية، إذ ثبت أن التعرّض الأول للقمح أو الشعير أو الشيلم **في الأشهر الثلاثة الأولى من العمر أو بعد الشهر السابع** يرتبط بـ**زيادة خطر** الداء البطني."
+   "en": [
+    "The disorder is a **multifactorial condition**, originating from the interplay of **genetic and environmental factors**.",
+    "The necessary environmental trigger is **gluten**, timing of gluten introduction into the diet could play a role in pathogenesis, since initial exposure to wheat, barley, or rye **in the first 3 months of life or after the 7th months** proved to be related to an **increased risk** of CD."
+   ],
+   "ar": [
+    "هذا الاضطراب **متعدّد العوامل** ينشأ من تداخل **العوامل الوراثية والبيئية**.",
+    "والمحفّز البيئي الضروري هو **الغلوتين**، وقد يؤدي توقيت إدخاله إلى الغذاء دورًا في الإمراضية، إذ ثبت أن التعرّض الأول للقمح أو الشعير أو الشيلم **في الأشهر الثلاثة الأولى من العمر أو بعد الشهر السابع** يرتبط بـ**زيادة خطر** الداء البطني."
+   ]
   },
   {
    "t": "card",
@@ -87,8 +118,14 @@
   },
   {
    "t": "card",
-   "en": "Some **infectious agents** could increase the risk of celiac disease, like repeated infection with **rotavirus**, the most common cause of childhood gastroenteritis, represent an independent risk factor for celiac disease in genetically susceptible individuals. Some **drugs** can have a role in enhancing a person’s susceptibility to gluten, a course of **interferon alfa** could activate celiac disease in predisposed people.",
-   "ar": "قد تزيد بعض **العوامل المعدية** خطر الداء البطني، مثل العدوى المتكرّرة بـ**الفيروس العجلي (روتا)**، أشيع أسباب التهاب المعدة والأمعاء عند الأطفال، وهو عامل خطر مستقل لدى المستعدّين وراثيًا. وقد تؤدّي بعض **الأدوية** دورًا في زيادة الحساسية للغلوتين، فقد يُنشّط مقرّر من **إنترفيرون ألفا** الداء البطني لدى المستعدّين."
+   "en": [
+    "Some **infectious agents** could increase the risk of celiac disease, like repeated infection with **rotavirus**, the most common cause of childhood gastroenteritis, represent an independent risk factor for celiac disease in genetically susceptible individuals.",
+    "Some **drugs** can have a role in enhancing a person’s susceptibility to gluten, a course of **interferon alfa** could activate celiac disease in predisposed people."
+   ],
+   "ar": [
+    "قد تزيد بعض **العوامل المعدية** خطر الداء البطني، مثل العدوى المتكرّرة بـ**الفيروس العجلي (روتا)**، أشيع أسباب التهاب المعدة والأمعاء عند الأطفال، وهو عامل خطر مستقل لدى المستعدّين وراثيًا.",
+    "وقد تؤدّي بعض **الأدوية** دورًا في زيادة الحساسية للغلوتين، فقد يُنشّط مقرّر من **إنترفيرون ألفا** الداء البطني لدى المستعدّين."
+   ]
   },
   {
    "t": "h2",
@@ -97,68 +134,148 @@
   },
   {
    "t": "card",
-   "en": "The clinical manifestations of CD vary markedly with the **age** of the patient, the **duration and extent** of disease, and the presence of **extraintestinal pathology**. Depending on the features at the time of presentation, together with the histologic and immunologic abnormalities at the time of diagnosis, CD can be subdivided into the following clinical forms.",
-   "ar": "تختلف المظاهر السريرية للداء البطني كثيرًا بحسب **عمر** المريض و**مدة المرض ومداه** ووجود **إمراضية خارج معوية**. وبحسب المظاهر عند التقديم، مع الشذوذات النسيجية والمناعية عند التشخيص، يُقسم إلى الأشكال السريرية الآتية:"
+   "en": [
+    "The clinical manifestations of CD vary markedly with the **age** of the patient, the **duration and extent** of disease, and the presence of **extraintestinal pathology**.",
+    "Depending on the features at the time of presentation, together with the histologic and immunologic abnormalities at the time of diagnosis, CD can be subdivided into the following clinical forms."
+   ],
+   "ar": [
+    "تختلف المظاهر السريرية للداء البطني كثيرًا بحسب **عمر** المريض و**مدة المرض ومداه** ووجود **إمراضية خارج معوية**.",
+    "وبحسب المظاهر عند التقديم، مع الشذوذات النسيجية والمناعية عند التشخيص، يُقسم إلى الأشكال السريرية الآتية:"
+   ]
   },
   {
    "t": "rule",
-   "en": "**1. Classical (typical) form:** present characteristically between **6 and 24 months** of age. Symptoms begin at various times after the introduction of weaning foods containing gluten. Infants and young children typically present with **chronic diarrhea, anorexia, abdominal distension, abdominal pain, poor weight gain or weight loss and vomiting**. Malnutrition can be severe if the diagnosis is delayed. Behavioral changes are common and include **irritability**.",
-   "ar": "**1. الشكل التقليدي (النموذجي):** يظهر نموذجيًا بين عمر **6 و24 شهرًا**، وتبدأ الأعراض في أوقات مختلفة بعد إدخال أغذية الفطام الحاوية للغلوتين. ويأتي الرضّع والأطفال الصغار عادةً بـ**إسهال مزمن وفقدان شهية وانتفاخ البطن وألم بطني وضعف زيادة الوزن أو نقصه وتقيؤ**. وقد يكون سوء التغذية شديدًا إذا تأخّر التشخيص، وتغيّرات السلوك شائعة ومنها **سرعة الانفعال**."
+   "en": [
+    "**1. Classical (typical) form:** present characteristically between **6 and 24 months** of age.",
+    "Symptoms begin at various times after the introduction of weaning foods containing gluten.",
+    "Infants and young children typically present with **chronic diarrhea, anorexia, abdominal distension, abdominal pain, poor weight gain or weight loss and vomiting**.",
+    "Malnutrition can be severe if the diagnosis is delayed.",
+    "Behavioral changes are common and include **irritability**."
+   ],
+   "ar": [
+    "**1. الشكل التقليدي (النموذجي):** يظهر نموذجيًا بين عمر **6 و24 شهرًا**.",
+    "وتبدأ الأعراض في أوقات مختلفة بعد إدخال أغذية الفطام الحاوية للغلوتين.",
+    "ويأتي الرضّع والأطفال الصغار عادةً بـ**إسهال مزمن وفقدان شهية وانتفاخ البطن وألم بطني وضعف زيادة الوزن أو نقصه وتقيؤ**.",
+    "وقد يكون سوء التغذية شديدًا إذا تأخّر التشخيص.",
+    "وتغيّرات السلوك شائعة ومنها **سرعة الانفعال**."
+   ]
   },
   {
    "t": "rule",
-   "en": "**2. Atypical forms:** An increasing number of patients, especially at an **older age**, are being diagnosed with CD **without having typical gastrointestinal manifestations** but there are various **extraintestinal manifestations** present such as **dermatitis herpetiformis, anemia, osteoporosis, autoimmune hepatitis, dental enamel defects, recurrent aphthous stomatitis, epilepsy, and neuropathy**. Serology for CD is positive and bioptic findings confirm the diagnosis.",
-   "ar": "**2. الأشكال غير النموذجية:** يُشخَّص عدد متزايد من المرضى، ولا سيما **الأكبر سنًا**، **دون مظاهر معدية معوية نموذجية**، لكن مع **مظاهر خارج معوية** متنوعة مثل **التهاب الجلد الحلئي الشكل، وفقر الدم، وهشاشة العظام، والتهاب الكبد المناعي الذاتي، وعيوب مينا الأسنان، والتهاب الفم القلاعي المتكرّر، والصرع، واعتلال الأعصاب**. والفحوص المصلية موجبة ونتائج الخزعة تؤكّد التشخيص."
+   "en": [
+    "**2. Atypical forms:** An increasing number of patients, especially at an **older age**, are being diagnosed with CD **without having typical gastrointestinal manifestations** but there are various **extraintestinal manifestations** present such as **dermatitis herpetiformis, anemia, osteoporosis, autoimmune hepatitis, dental enamel defects, recurrent aphthous stomatitis, epilepsy, and neuropathy**.",
+    "Serology for CD is positive and bioptic findings confirm the diagnosis."
+   ],
+   "ar": [
+    "**2. الأشكال غير النموذجية:** يُشخَّص عدد متزايد من المرضى، ولا سيما **الأكبر سنًا**، **دون مظاهر معدية معوية نموذجية**، لكن مع **مظاهر خارج معوية** متنوعة مثل **التهاب الجلد الحلئي الشكل، وفقر الدم، وهشاشة العظام، والتهاب الكبد المناعي الذاتي، وعيوب مينا الأسنان، والتهاب الفم القلاعي المتكرّر، والصرع، واعتلال الأعصاب**.",
+    "والفحوص المصلية موجبة ونتائج الخزعة تؤكّد التشخيص."
+   ]
   },
   {
    "t": "rule",
-   "en": "**3. Silent form:** Silent celiac disease patients are those who are **asymptomatic but small intestinal biopsy show villous atrophy**. Silent cases are detected by **population screening** and screening of **first degree relatives** of celiac disease, **10%** of whom are found to have CD. Serological tests are positive in them.",
-   "ar": "**3. الشكل الصامت:** مرضى بلا أعراض **لكن خزعة الأمعاء الدقيقة تُظهر ضمور الزغابات**. وتُكشف الحالات الصامتة بـ**تحرّي السكان** وتحرّي **أقارب الدرجة الأولى** للمرضى، ويوجد الداء لدى **10%** منهم، والفحوص المصلية موجبة لديهم."
+   "en": [
+    "**3. Silent form:** Silent celiac disease patients are those who are **asymptomatic but small intestinal biopsy show villous atrophy**.",
+    "Silent cases are detected by **population screening** and screening of **first degree relatives** of celiac disease, **10%** of whom are found to have CD.",
+    "Serological tests are positive in them."
+   ],
+   "ar": [
+    "**3. الشكل الصامت:** مرضى الداء البطني الصامت هم من **لا أعراض لديهم لكن خزعة الأمعاء الدقيقة تُظهر ضمور الزغابات**.",
+    "وتُكشف الحالات الصامتة بـ**تحرّي السكان** وتحرّي **أقارب الدرجة الأولى** للمرضى، ويوجد الداء لدى **10%** منهم.",
+    "والفحوص المصلية موجبة لديهم."
+   ]
   },
   {
    "t": "rule",
-   "en": "**4. Latent form:** Latent (or “potential”) form is **asymptomatic** patients, with a **normal or minimally abnormal mucosa**. These individuals have a **genetic susceptibility** to CD and may also have **positive autoimmune serology**.",
-   "ar": "**4. الشكل الكامن:** الشكل الكامن (أو «المحتمل») لمرضى **بلا أعراض** مع **مخاطية طبيعية أو شاذة بالحد الأدنى**، ولديهم **استعداد وراثي** وقد تكون **فحوصهم المصلية المناعية الذاتية موجبة**."
+   "en": [
+    "**4. Latent form:** Latent (or “potential”) form is **asymptomatic** patients, with a **normal or minimally abnormal mucosa**.",
+    "These individuals have a **genetic susceptibility** to CD and may also have **positive autoimmune serology**."
+   ],
+   "ar": [
+    "**4. الشكل الكامن:** الشكل الكامن (أو «المحتمل») لمرضى **بلا أعراض** مع **مخاطية طبيعية أو شاذة بالحد الأدنى**.",
+    "ولدى هؤلاء **استعداد وراثي** للداء البطني وقد تكون **فحوصهم المصلية المناعية الذاتية موجبة**."
+   ]
   },
   {
    "t": "table",
    "head": [
-    "Form",
-    "Symptoms",
-    "Mucosa / serology",
-    "الترجمة"
+    [
+     "Form",
+     "الشكل"
+    ],
+    [
+     "Symptoms",
+     "الأعراض"
+    ],
+    [
+     "Mucosa / serology",
+     "المخاطية / الفحص المصلي"
+    ]
    ],
    "rows": [
     [
-     "Classical",
-     "Typical GI (6–24 months)",
-     "Villous atrophy",
-     "**التقليدي**: أعراض هضمية نموذجية (6–24 شهرًا)"
+     [
+      "Classical",
+      "التقليدي"
+     ],
+     [
+      "Typical GI (6–24 months)",
+      "هضمية نموذجية (6–24 شهرًا)"
+     ],
+     [
+      "Villous atrophy",
+      "ضمور الزغابات"
+     ]
     ],
     [
-     "Atypical",
-     "Extraintestinal",
-     "Serology +, biopsy confirms",
-     "**غير النموذجي**: مظاهر خارج معوية؛ مصل موجب والخزعة تؤكّد"
+     [
+      "Atypical",
+      "غير النموذجي"
+     ],
+     [
+      "Extraintestinal",
+      "خارج معوية"
+     ],
+     [
+      "Serology +, biopsy confirms",
+      "مصل موجب، والخزعة تؤكّد"
+     ]
     ],
     [
-     "Silent",
-     "Asymptomatic",
-     "Villous atrophy; serology +",
-     "**الصامت**: بلا أعراض؛ ضمور زغابات ومصل موجب"
+     [
+      "Silent",
+      "الصامت"
+     ],
+     [
+      "Asymptomatic",
+      "بلا أعراض"
+     ],
+     [
+      "Villous atrophy; serology +",
+      "ضمور الزغابات؛ مصل موجب"
+     ]
     ],
     [
-     "Latent",
-     "Asymptomatic",
-     "Normal or minimally abnormal; may be serology +",
-     "**الكامن**: بلا أعراض؛ مخاطية طبيعية أو شبه طبيعية"
+     [
+      "Latent",
+      "الكامن"
+     ],
+     [
+      "Asymptomatic",
+      "بلا أعراض"
+     ],
+     [
+      "Normal or minimally abnormal; may be serology +",
+      "طبيعية أو شبه طبيعية؛ قد يكون المصل موجبًا"
+     ]
     ]
-   ],
-   "ar_cols": [
-    3
    ],
    "key_cols": [
     0
+   ],
+   "widths": [
+    22,
+    34,
+    44
    ],
    "style": "summary",
    "label_en": "Clinical forms at a glance",
@@ -199,53 +316,85 @@
   },
   {
    "t": "rule",
-   "en": "**1. Small intestine biopsy:** The most relevant feature of the disease was histological change, and **histology became the gold standard** for diagnosis. The diagnosis required **three small bowel biopsies** — the first during the **gluten containing diet**, which had to show **“flat” mucosa**; the second, during **gluten free diet** which showed **improvement** in villous structure, and the third, at **gluten challenge 2 years later** which had to show **histological relapse**.",
-   "ar": "**1. خزعة الأمعاء الدقيقة:** كانت التغيّرات النسيجية أهم سمات المرض، فأصبح **الفحص النسيجي المعيار الذهبي** للتشخيص. وكان التشخيص يتطلّب **ثلاث خزعات من الأمعاء الدقيقة**: الأولى أثناء **الحمية الحاوية للغلوتين** ويجب أن تُظهر **مخاطية «مسطّحة»**؛ والثانية أثناء **الحمية الخالية من الغلوتين** وتُظهر **تحسّن** بنية الزغابات؛ والثالثة عند **إعادة تحدّي الغلوتين بعد سنتين** ويجب أن تُظهر **انتكاسًا نسيجيًا**."
+   "en": [
+    "**1. Small intestine biopsy:** The most relevant feature of the disease was histological change, and **histology became the gold standard** for diagnosis.",
+    "The diagnosis required **three small bowel biopsies** — the first during the **gluten containing diet**, which had to show **“flat” mucosa**; the second, during **gluten free diet** which showed **improvement** in villous structure, and the third, at **gluten challenge 2 years later** which had to show **histological relapse**."
+   ],
+   "ar": [
+    "**1. خزعة الأمعاء الدقيقة:** كانت التغيّرات النسيجية أهم سمات المرض، فأصبح **الفحص النسيجي المعيار الذهبي** للتشخيص.",
+    "وكان التشخيص يتطلّب **ثلاث خزعات من الأمعاء الدقيقة**: الأولى أثناء **الحمية الحاوية للغلوتين** ويجب أن تُظهر **مخاطية «مسطّحة»**؛ والثانية أثناء **الحمية الخالية من الغلوتين** وتُظهر **تحسّن** بنية الزغابات؛ والثالثة عند **إعادة تحدّي الغلوتين بعد سنتين** ويجب أن تُظهر **انتكاسًا نسيجيًا**."
+   ]
   },
   {
    "t": "table",
    "head": [
-    "Marsh type",
-    "Lesion",
-    "الترجمة"
+    [
+     "Marsh type",
+     "نوع مارش"
+    ],
+    [
+     "Lesion",
+     "الآفة"
+    ]
    ],
    "rows": [
     [
-     "Type 0",
-     "Normal stage of the small bowel mucosa.",
-     "**النوع 0**: المرحلة الطبيعية لمخاطية الأمعاء الدقيقة."
+     [
+      "Type 0",
+      "النوع 0"
+     ],
+     [
+      "Normal stage of the small bowel mucosa.",
+      "المرحلة الطبيعية لمخاطية الأمعاء الدقيقة."
+     ]
     ],
     [
-     "Type 1 (infiltrative)",
-     "Normal mucosal architecture; villous epithelium infiltrated by small, non mitotic intraepithelial lymphocytes; characteristically in first-degree relatives of children with CD.",
-     "**النوع 1 (الارتشاحي)**: بنية مخاطية طبيعية؛ ظهارة الزغابات مرتشحة بلمفاويات صغيرة غير منقسمة داخل الظهارة؛ نموذجي لدى أقارب الدرجة الأولى للأطفال المصابين."
+     [
+      "Type 1 (infiltrative)",
+      "النوع 1 (الارتشاحي)"
+     ],
+     [
+      "Normal mucosal architecture; villous epithelium infiltrated by small, non mitotic intraepithelial lymphocytes; characteristically in first-degree relatives of children with CD.",
+      "بنية مخاطية طبيعية؛ ظهارة الزغابات مرتشحة بلمفاويات صغيرة غير منقسمة داخل الظهارة؛ نموذجي لدى أقارب الدرجة الأولى للأطفال المصابين."
+     ]
     ],
     [
-     "Type 2 (hyperplastic)",
-     "A type 1 lesion with enlarged crypts.",
-     "**النوع 2 (فرط التنسّج)**: آفة النوع 1 مع خبايا متضخّمة."
+     [
+      "Type 2 (hyperplastic)",
+      "النوع 2 (فرط التنسّج)"
+     ],
+     [
+      "A type 1 lesion with enlarged crypts.",
+      "آفة النوع 1 مع خبايا متضخّمة."
+     ]
     ],
     [
-     "Type 3 (destructive)",
-     "Typical flat mucosa: 3a partial, 3b subtotal, 3c total villous atrophy.",
-     "**النوع 3 (التدميري)**: المخاطية المسطّحة النموذجية: 3a ضمور جزئي، 3b شبه كلي، 3c كلي."
+     [
+      "Type 3 (destructive)",
+      "النوع 3 (التدميري)"
+     ],
+     [
+      "Typical flat mucosa: 3a partial, 3b subtotal, 3c total villous atrophy.",
+      "المخاطية المسطّحة النموذجية: 3a ضمور زغابي جزئي، 3b شبه كلي، 3c كلي."
+     ]
     ],
     [
-     "Type 4 (hypoplastic)",
-     "Total villous atrophy with crypt hypoplasia; irreversible; unresponsive to gluten withdrawal — refractory CD.",
-     "**النوع 4 (نقص التنسّج)**: ضمور زغابي كلي مع نقص تنسّج الخبايا؛ غير عكوس ولا يستجيب لسحب الغلوتين — الداء المعنّد."
+     [
+      "Type 4 (hypoplastic)",
+      "النوع 4 (نقص التنسّج)"
+     ],
+     [
+      "Total villous atrophy with crypt hypoplasia; irreversible; unresponsive to gluten withdrawal — refractory CD.",
+      "ضمور زغابي كلي مع نقص تنسّج الخبايا؛ غير عكوس؛ لا يستجيب لسحب الغلوتين — الداء المعنّد."
+     ]
     ]
-   ],
-   "ar_cols": [
-    2
    ],
    "key_cols": [
     0
    ],
    "widths": [
-    16,
-    40,
-    44
+    24,
+    76
    ],
    "label_en": "Marsh-Oberhuber classification (Marsh 0 to Marsh 4)",
    "label_ar": "تصنيف مارش-أوبرهوبر (مارش 0 إلى مارش 4)",
@@ -253,22 +402,60 @@
   },
   {
    "t": "rule",
-   "en": "**2. Serology tests:** Serologic testing is primarily used to identify symptomatic or at-risk individuals who need to undergo biopsy. Because of their **high sensitivity and specificity**, serologic tests are excellent for **screening asymptomatic at-risk individuals**; they also can be used for **monitoring dietary compliance**.",
-   "ar": "**2. الفحوص المصلية:** تُستخدم أساسًا لتحديد الأفراد ذوي الأعراض أو المعرّضين للخطر الذين يحتاجون الخزعة. ولـ**حساسيتها ونوعيتها العاليتين** فهي ممتازة لـ**تحرّي المعرّضين للخطر بلا أعراض**، ويمكن استخدامها أيضًا لـ**مراقبة الالتزام بالحمية**."
+   "en": [
+    "**2. Serology tests:** Serologic testing is primarily used to identify symptomatic or at-risk individuals who need to undergo biopsy.",
+    "Because of their **high sensitivity and specificity**, serologic tests are excellent for **screening asymptomatic at-risk individuals**; they also can be used for **monitoring dietary compliance**."
+   ],
+   "ar": [
+    "**2. الفحوص المصلية:** تُستخدم أساسًا لتحديد الأفراد ذوي الأعراض أو المعرّضين للخطر الذين يحتاجون الخزعة.",
+    "ولـ**حساسيتها ونوعيتها العاليتين** فهي ممتازة لـ**تحرّي المعرّضين للخطر بلا أعراض**، ويمكن استخدامها أيضًا لـ**مراقبة الالتزام بالحمية**."
+   ]
   },
   {
    "t": "card",
-   "en": "",
-   "ar": "",
-   "list_en": [
-    "**Anti-gliadin antibodies (AGA)** are **not specific** for CD as they are also found in healthy individuals and patients with other GI diseases such as gastritis, gastroenteritis and irritable bowel syndrome, **except in children younger than 2 years** of age, in whom AGA measure is more sensitive test. **IgG-AGA is very sensitive but less specific**, and **IgA-AGA is less sensitive but more specific**. Their use in combination can give results of a high detection rate. Currently **ELISA** is the most used method.",
-    "**Anti-endomysial antibodies (EMAs)** are used as the **“gold standard” for CD screening** because of their high sensitivity and specificity. Developed in the early 1980s as part of ''a celiac panel'' with AGA IgG and IgA. IgA-EMA and IgG-EMA are measured by **indirect immunofluorescence**, using tissue sections from either **monkey esophagus or human umbilical cord**. Major drawbacks are **false negatives in young children**, and in the hands of an inexperienced laboratory because of the **subjective nature** of the test. Also **IgA-EMA give false negative in patients with IgA deficiency**.",
-    "**Anti-tissue transglutaminase (tTG)** antibodies are **more specific**, have shown to be **correlated with mucosal damage** and are used widely in CD screening. IgG-tTG and IgA-tTG were used in combination as a screening test to assess IgA deficiency. **ELISA** is the most used method. It represents an improvement over the antiendomysial antibody assay because it is **inexpensive, rapid and easy to perform**."
+   "en": [
+    "**Anti-gliadin antibodies (AGA)** are **not specific** for CD as they are also found in healthy individuals and patients with other GI diseases such as gastritis, gastroenteritis and irritable bowel syndrome, **except in children younger than 2 years** of age, in whom AGA measure is more sensitive test.",
+    "**IgG-AGA is very sensitive but less specific**, and **IgA-AGA is less sensitive but more specific**.",
+    "Their use in combination can give results of a high detection rate.",
+    "Currently **ELISA** is the most used method."
    ],
-   "list_ar": [
-    "**أضداد الغليادين (AGA)** **غير نوعية** للداء البطني لوجودها لدى أصحاء ومرضى أمراض هضمية أخرى كالتهاب المعدة والتهاب المعدة والأمعاء والقولون العصبي، **إلا عند الأطفال دون سنتين** فهي أكثر حساسية لديهم. **IgG-AGA حساسة جدًا لكنها أقل نوعية**، و**IgA-AGA أقل حساسية لكنها أكثر نوعية**، واستخدامهما معًا يعطي معدّل كشف عاليًا. و**ELISA** الطريقة الأكثر استخدامًا حاليًا.",
-    "**أضداد البطانة العضلية (EMA)** تُعدّ **«المعيار الذهبي» لتحرّي الداء البطني** لحساسيتها ونوعيتها العاليتين. طُوّرت في أوائل الثمانينيات ضمن «لوحة الداء البطني» مع AGA. وتُقاس IgA-EMA وIgG-EMA بـ**التألّق المناعي غير المباشر** على مقاطع من **مريء القرد أو الحبل السري البشري**. وأبرز عيوبها **النتائج السالبة الكاذبة عند الأطفال الصغار**، وفي المختبرات قليلة الخبرة بسبب **طبيعتها الذاتية**، كما أن **IgA-EMA تعطي سلبًا كاذبًا لدى مرضى عوز IgA**.",
-    "أضداد **ناقلة الغلوتامين النسيجية (tTG)** **أكثر نوعية**، وثبت **ارتباطها بأذية المخاطية**، وتُستخدم كثيرًا في التحرّي. واستُخدمت IgG-tTG وIgA-tTG معًا فحصًا تحرّيًا لتقييم عوز IgA. و**ELISA** الطريقة الأكثر استخدامًا، وهي تحسين على مقايسة EMA لأنها **رخيصة وسريعة وسهلة الإجراء**."
+   "ar": [
+    "**أضداد الغليادين (AGA)** **غير نوعية** للداء البطني لوجودها لدى أصحاء ومرضى أمراض هضمية أخرى كالتهاب المعدة والتهاب المعدة والأمعاء والقولون العصبي، **إلا عند الأطفال دون سنتين** فقياسها أكثر حساسية لديهم.",
+    "**IgG-AGA حساسة جدًا لكنها أقل نوعية**، و**IgA-AGA أقل حساسية لكنها أكثر نوعية**.",
+    "واستخدامهما معًا يعطي معدّل كشف عاليًا.",
+    "و**ELISA** الطريقة الأكثر استخدامًا حاليًا."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Anti-endomysial antibodies (EMAs)** are used as the **“gold standard” for CD screening** because of their high sensitivity and specificity.",
+    "Developed in the early 1980s as part of ''a celiac panel'' with AGA IgG and IgA.",
+    "IgA-EMA and IgG-EMA are measured by **indirect immunofluorescence**, using tissue sections from either **monkey esophagus or human umbilical cord**.",
+    "Major drawbacks are **false negatives in young children**, and in the hands of an inexperienced laboratory because of the **subjective nature** of the test.",
+    "Also **IgA-EMA give false negative in patients with IgA deficiency**."
+   ],
+   "ar": [
+    "**أضداد البطانة العضلية (EMA)** تُستخدم **«معيارًا ذهبيًا» لتحرّي الداء البطني** لحساسيتها ونوعيتها العاليتين.",
+    "طُوّرت في أوائل الثمانينيات ضمن «لوحة الداء البطني» مع AGA من صنفي IgG وIgA.",
+    "وتُقاس IgA-EMA وIgG-EMA بـ**التألّق المناعي غير المباشر** على مقاطع نسيجية من **مريء القرد أو الحبل السري البشري**.",
+    "وأبرز عيوبها **النتائج السالبة الكاذبة عند الأطفال الصغار**، وفي المختبرات قليلة الخبرة بسبب **الطبيعة الذاتية** للاختبار.",
+    "كما أن **IgA-EMA تعطي سلبًا كاذبًا لدى مرضى عوز IgA**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Anti-tissue transglutaminase (tTG)** antibodies are **more specific**, have shown to be **correlated with mucosal damage** and are used widely in CD screening.",
+    "IgG-tTG and IgA-tTG were used in combination as a screening test to assess IgA deficiency.",
+    "**ELISA** is the most used method.",
+    "It represents an improvement over the antiendomysial antibody assay because it is **inexpensive, rapid and easy to perform**."
+   ],
+   "ar": [
+    "أضداد **ناقلة الغلوتامين النسيجية (tTG)** **أكثر نوعية**، وثبت **ارتباطها بأذية المخاطية**، وتُستخدم كثيرًا في تحرّي الداء البطني.",
+    "واستُخدمت IgG-tTG وIgA-tTG معًا فحصًا تحرّيًا لتقييم عوز IgA.",
+    "و**ELISA** الطريقة الأكثر استخدامًا.",
+    "وهي تمثّل تحسينًا على مقايسة أضداد البطانة العضلية لأنها **رخيصة وسريعة وسهلة الإجراء**."
    ]
   },
   {
@@ -276,57 +463,101 @@
    "en": "",
    "ar": "",
    "list_en": [
-    "**Anti-reticuline antibody** is best detected by **indirect immunofluorescence** using unfixed cryostat sections of **rat liver and kidney**. **IgA class** reticulin antibodies react with connective tissue fibers and are found in **60%** of celiac disease patients. **IgG class** are occasionally found in other disease states, especially **bullous dermatoses** and in some normal subjects."
+    [
+     "**Anti-reticuline antibody** is best detected by **indirect immunofluorescence** using unfixed cryostat sections of **rat liver and kidney**.",
+     "**IgA class** reticulin antibodies react with connective tissue fibers and are found in **60%** of celiac disease patients.",
+     "**IgG class** are occasionally found in other disease states, especially **bullous dermatoses** and in some normal subjects."
+    ]
    ],
    "list_ar": [
-    "**ضد الريتيكولين** يُكشف أفضل بـ**التألّق المناعي غير المباشر** على مقاطع مجمّدة غير مثبّتة من **كبد الجرذ وكليته**. وأضداد الريتيكولين من **صنف IgA** تتفاعل مع ألياف النسيج الضام وتوجد لدى **60%** من المرضى، أما **صنف IgG** فيوجد أحيانًا في أمراض أخرى، ولا سيما **الجلادات الفقاعية**، ولدى بعض الأصحاء."
+    [
+     "**ضد الريتيكولين** يُكشف على أفضل وجه بـ**التألّق المناعي غير المباشر** على مقاطع مجمّدة غير مثبّتة من **كبد الجرذ وكليته**.",
+     "وأضداد الريتيكولين من **صنف IgA** تتفاعل مع ألياف النسيج الضام وتوجد لدى **60%** من مرضى الداء البطني.",
+     "أما **صنف IgG** فيوجد أحيانًا في أمراض أخرى، ولا سيما **الجلادات الفقاعية**، ولدى بعض الأصحاء."
+    ]
    ]
   },
   {
    "t": "table",
    "head": [
-    "Antibody",
-    "Key point",
-    "Method",
-    "الترجمة"
+    [
+     "Antibody",
+     "الضد"
+    ],
+    [
+     "Key point",
+     "النقطة الأساسية"
+    ],
+    [
+     "Method",
+     "الطريقة"
+    ]
    ],
    "rows": [
     [
-     "AGA",
-     "Not specific (except < 2 years); IgG sensitive, IgA specific",
-     "ELISA",
-     "**AGA**: غير نوعي (إلا دون سنتين)؛ IgG حساس وIgA نوعي — ELISA"
+     [
+      "AGA",
+      "أضداد الغليادين"
+     ],
+     [
+      "Not specific (except < 2 years); IgG sensitive, IgA specific",
+      "غير نوعي (إلا دون سنتين)؛ IgG حساس وIgA نوعي"
+     ],
+     [
+      "ELISA",
+      "ELISA"
+     ]
     ],
     [
-     "EMA",
-     "Gold standard for screening; false negative in young children and IgA deficiency",
-     "Indirect IF (monkey esophagus / umbilical cord)",
-     "**EMA**: المعيار الذهبي للتحرّي؛ سلب كاذب عند الصغار وعوز IgA — تألّق مناعي غير مباشر"
+     [
+      "EMA",
+      "أضداد البطانة العضلية"
+     ],
+     [
+      "Gold standard for screening; false negative in young children and IgA deficiency",
+      "المعيار الذهبي للتحرّي؛ سلب كاذب عند الصغار وفي عوز IgA"
+     ],
+     [
+      "Indirect IF (monkey esophagus / umbilical cord)",
+      "تألّق مناعي غير مباشر (مريء القرد / الحبل السري)"
+     ]
     ],
     [
-     "tTG",
-     "More specific; correlates with mucosal damage; cheap, rapid, easy",
-     "ELISA",
-     "**tTG**: أكثر نوعية؛ يرتبط بأذية المخاطية؛ رخيص وسريع — ELISA"
+     [
+      "tTG",
+      "ناقلة الغلوتامين النسيجية"
+     ],
+     [
+      "More specific; correlates with mucosal damage; cheap, rapid, easy",
+      "أكثر نوعية؛ يرتبط بأذية المخاطية؛ رخيص وسريع وسهل"
+     ],
+     [
+      "ELISA",
+      "ELISA"
+     ]
     ],
     [
-     "Anti-reticulin",
-     "IgA in 60% of CD",
-     "Indirect IF (rat liver and kidney)",
-     "**ضد الريتيكولين**: IgA لدى 60% — تألّق مناعي غير مباشر"
+     [
+      "Anti-reticulin",
+      "ضد الريتيكولين"
+     ],
+     [
+      "IgA in 60% of CD",
+      "IgA لدى 60% من المرضى"
+     ],
+     [
+      "Indirect IF (rat liver and kidney)",
+      "تألّق مناعي غير مباشر (كبد الجرذ وكليته)"
+     ]
     ]
-   ],
-   "ar_cols": [
-    3
    ],
    "key_cols": [
     0
    ],
    "widths": [
-    13,
-    34,
-    22,
-    31
+    20,
+    46,
+    34
    ],
    "style": "summary",
    "label_en": "Celiac serology at a glance",
@@ -334,8 +565,18 @@
   },
   {
    "t": "rule",
-   "en": "**3. Genetic testing:** Up to **95%** of patients with celiac disease are positive for **HLA-DQ2**, and most of the remaining patients are positive for **HLA-DQ8**. However, these alleles are also found in **40% of the general population**. Although HLA-DQ2 and HLA-DQ8 are **necessary** in the disease process, they alone are **not sufficient** for celiac disease to develop. HLA testing has a **high negative predictive value** and can be useful in certain situations, such as when a diagnosis is unclear, when serologic testing or biopsy is performed in patients on a gluten-free diet, or in determining which family members to screen for celiac disease.",
-   "ar": "**3. الفحص الوراثي:** ما يصل إلى **95%** من المرضى موجبون لـ**HLA-DQ2**، ومعظم الباقين موجبون لـ**HLA-DQ8**. لكن هذه الأليلات توجد أيضًا لدى **40% من عامة السكان**. ومع أن HLA-DQ2 وDQ8 **ضروريان** في عملية المرض، فإنهما وحدهما **غير كافيين** لنشوئه. ولفحص HLA **قيمة تنبّؤية سلبية عالية**، ويفيد في حالات منها: عدم وضوح التشخيص، أو إجراء الفحص المصلي أو الخزعة لمرضى على حمية خالية من الغلوتين، أو تحديد أفراد العائلة الواجب تحرّيهم."
+   "en": [
+    "**3. Genetic testing:** Up to **95%** of patients with celiac disease are positive for **HLA-DQ2**, and most of the remaining patients are positive for **HLA-DQ8**.",
+    "However, these alleles are also found in **40% of the general population**.",
+    "Although HLA-DQ2 and HLA-DQ8 are **necessary** in the disease process, they alone are **not sufficient** for celiac disease to develop.",
+    "HLA testing has a **high negative predictive value** and can be useful in certain situations, such as when a diagnosis is unclear, when serologic testing or biopsy is performed in patients on a gluten-free diet, or in determining which family members to screen for celiac disease."
+   ],
+   "ar": [
+    "**3. الفحص الوراثي:** ما يصل إلى **95%** من المرضى موجبون لـ**HLA-DQ2**، ومعظم الباقين موجبون لـ**HLA-DQ8**.",
+    "لكن هذه الأليلات توجد أيضًا لدى **40% من عامة السكان**.",
+    "ومع أن HLA-DQ2 وDQ8 **ضروريان** في عملية المرض، فإنهما وحدهما **غير كافيين** لنشوئه.",
+    "ولفحص HLA **قيمة تنبّؤية سلبية عالية**، ويفيد في حالات منها: عدم وضوح التشخيص، أو إجراء الفحص المصلي أو الخزعة لمرضى على حمية خالية من الغلوتين، أو تحديد أفراد العائلة الواجب تحرّيهم."
+   ]
   },
   {
    "t": "note",
@@ -353,8 +594,16 @@
   },
   {
    "t": "card",
-   "en": "**Pernicious anemia (PA)** is a **megaloblastic anemia** caused by a deficiency of **vitamin B₁₂** resulting from **malabsorption**. Impaired absorption is the result of **defective intrinsic factor (IF) secretion**. This is due to **atrophy of the gastric mucosa** caused by **autoimmune reactions to gastric parietal cells** and their products.",
-   "ar": "**فقر الدم الخبيث (PA)** فقر دم **ضخم الأرومات** ناتج عن عوز **فيتامين B₁₂** بسبب **سوء الامتصاص**. وضعف الامتصاص ناتج عن **خلل إفراز العامل الداخلي (IF)**، بسبب **ضمور المخاطية المعدية** الناتج عن **تفاعلات مناعية ذاتية ضد الخلايا الجدارية المعدية** ومنتجاتها."
+   "en": [
+    "**Pernicious anemia (PA)** is a **megaloblastic anemia** caused by a deficiency of **vitamin B₁₂** resulting from **malabsorption**.",
+    "Impaired absorption is the result of **defective intrinsic factor (IF) secretion**.",
+    "This is due to **atrophy of the gastric mucosa** caused by **autoimmune reactions to gastric parietal cells** and their products."
+   ],
+   "ar": [
+    "**فقر الدم الخبيث (PA)** فقر دم **ضخم الأرومات** ناتج عن عوز **فيتامين B₁₂** بسبب **سوء الامتصاص**.",
+    "وضعف الامتصاص ناتج عن **خلل إفراز العامل الداخلي (IF)**.",
+    "وذلك بسبب **ضمور المخاطية المعدية** الناتج عن **تفاعلات مناعية ذاتية ضد الخلايا الجدارية المعدية** ومنتجاتها."
+   ]
   },
   {
    "t": "card",
@@ -364,30 +613,56 @@
   {
    "t": "table",
    "head": [
-    "Antibody against IF",
-    "Target",
-    "Frequency",
-    "الترجمة"
+    [
+     "Antibody against IF",
+     "الضد ضد العامل الداخلي"
+    ],
+    [
+     "Target",
+     "الهدف"
+    ],
+    [
+     "Frequency",
+     "النسبة"
+    ]
    ],
    "rows": [
     [
-     "Blocking",
-     "The combining site for vitamin B₁₂ on IF",
-     "Most patients (over 70%)",
-     "**الحاجب**: موقع ارتباط B₁₂ على IF — معظم المرضى (أكثر من 70%)"
+     [
+      "Blocking",
+      "الحاجب"
+     ],
+     [
+      "The combining site for vitamin B₁₂ on IF",
+      "موقع ارتباط فيتامين B₁₂ على العامل الداخلي"
+     ],
+     [
+      "Most patients (over 70%)",
+      "معظم المرضى (أكثر من 70%)"
+     ]
     ],
     [
-     "Binding",
-     "Other epitopes on IF (free or complexed to B₁₂)",
-     "Some 60%",
-     "**الرابط**: حواتم أخرى على IF (حرّ أو مرتبط بـB₁₂) — نحو 60%"
+     [
+      "Binding",
+      "الرابط"
+     ],
+     [
+      "Other epitopes on IF (free or complexed to B₁₂)",
+      "حواتم أخرى على العامل الداخلي (حرًّا أو مرتبطًا بـB₁₂)"
+     ],
+     [
+      "Some 60%",
+      "نحو 60%"
+     ]
     ]
-   ],
-   "ar_cols": [
-    3
    ],
    "key_cols": [
     0
+   ],
+   "widths": [
+    24,
+    46,
+    30
    ],
    "style": "summary",
    "label_en": "There are at least two types of antibody against intrinsic factor",
@@ -412,13 +687,33 @@
   },
   {
    "t": "card",
-   "en": "In pernicious anemia, the parietal cells **stop producing intrinsic factor**. The intestine is then completely unable to absorb B₁₂. So, the vitamin passes out of the body as waste. Although the body has **significant amounts of stored B₁₂**, this will eventually be used up. At this point, the symptoms of pernicious anemia will develop.",
-   "ar": "في فقر الدم الخبيث **تتوقّف الخلايا الجدارية عن إنتاج العامل الداخلي**، فتعجز الأمعاء كليًا عن امتصاص B₁₂ ويخرج الفيتامين فضلات. ومع أن للجسم **مخزونًا كبيرًا من B₁₂** فإنه يُستهلك في النهاية، وعندها تظهر الأعراض."
+   "en": [
+    "In pernicious anemia, the parietal cells **stop producing intrinsic factor**.",
+    "The intestine is then completely unable to absorb B₁₂.",
+    "So, the vitamin passes out of the body as waste.",
+    "Although the body has **significant amounts of stored B₁₂**, this will eventually be used up.",
+    "At this point, the symptoms of pernicious anemia will develop."
+   ],
+   "ar": [
+    "في فقر الدم الخبيث **تتوقّف الخلايا الجدارية عن إنتاج العامل الداخلي**.",
+    "فتصبح الأمعاء عاجزة كليًا عن امتصاص B₁₂.",
+    "لذا يخرج الفيتامين من الجسم مع الفضلات.",
+    "ومع أن للجسم **مخزونًا كبيرًا من B₁₂** فإنه سيُستهلك في النهاية.",
+    "وعندها تظهر أعراض فقر الدم الخبيث."
+   ]
   },
   {
    "t": "card",
-   "en": "Pernicious anemia occurs in **equal numbers in both men and women**. Most patients are **older, usually over 60 years**. Occasionally, a child will have an **inherited condition** that results in defective intrinsic factor.",
-   "ar": "يحدث فقر الدم الخبيث **بأعداد متساوية لدى الرجال والنساء**، ومعظم المرضى **كبار في السن، عادةً فوق 60 عامًا**. وأحيانًا يكون لدى طفل **حالة وراثية** تسبّب خلل العامل الداخلي."
+   "en": [
+    "Pernicious anemia occurs in **equal numbers in both men and women**.",
+    "Most patients are **older, usually over 60 years**.",
+    "Occasionally, a child will have an **inherited condition** that results in defective intrinsic factor."
+   ],
+   "ar": [
+    "يحدث فقر الدم الخبيث **بأعداد متساوية لدى الرجال والنساء**.",
+    "ومعظم المرضى **كبار في السن، عادةً فوق 60 عامًا**.",
+    "وأحيانًا يكون لدى طفل **حالة وراثية** تسبّب خلل العامل الداخلي."
+   ]
   },
   {
    "t": "h2",
@@ -427,8 +722,18 @@
   },
   {
    "t": "card",
-   "en": "Intrinsic factor is produced by specialized cells within the stomach called **parietal cells**. When these parietal cells **shrink in size (atrophy)**, they produce less intrinsic factor. Eventually, the parietal cells stop functioning altogether. Other important products of parietal cells are also lessened, including **stomach acid**, and an **enzyme involved in the digestion of proteins**.",
-   "ar": "يُنتج العامل الداخلي خلايا متخصصة في المعدة تُسمّى **الخلايا الجدارية**؛ وعندما **تضمر**، يقل إنتاجه، ثم تتوقّف الخلايا عن العمل كليًا. وتقل أيضًا منتجاتها المهمة الأخرى ومنها **حمض المعدة** و**إنزيم يشارك في هضم البروتينات**."
+   "en": [
+    "Intrinsic factor is produced by specialized cells within the stomach called **parietal cells**.",
+    "When these parietal cells **shrink in size (atrophy)**, they produce less intrinsic factor.",
+    "Eventually, the parietal cells stop functioning altogether.",
+    "Other important products of parietal cells are also lessened, including **stomach acid**, and an **enzyme involved in the digestion of proteins**."
+   ],
+   "ar": [
+    "يُنتج العامل الداخلي خلايا متخصصة في المعدة تُسمّى **الخلايا الجدارية**.",
+    "وعندما **تصغر هذه الخلايا (تضمر)** يقل إنتاجها للعامل الداخلي.",
+    "ثم تتوقّف الخلايا الجدارية عن العمل كليًا في النهاية.",
+    "وتقل أيضًا منتجاتها المهمة الأخرى، ومنها **حمض المعدة** و**إنزيم يشارك في هضم البروتينات**."
+   ]
   },
   {
    "t": "card",
@@ -436,13 +741,19 @@
    "ar": "حالات أخرى تتداخل مع إنتاج العامل الداخلي أو استخدام الجسم لـB₁₂:",
    "list_en": [
     "conditions that require **surgical removal of the stomach**, or **poisonings with corrosive substances** which destroy the lining of the stomach.",
-    "Certain **structural defects of the intestinal system** can result in an **overgrowth of normal bacteria**. These bacteria then absorb B₁₂ themselves, for use in their own growth.",
+    [
+     "Certain **structural defects of the intestinal system** can result in an **overgrowth of normal bacteria**.",
+     "These bacteria then absorb B₁₂ themselves, for use in their own growth."
+    ],
     "**Intestinal worms** (especially one called **fish tapeworm**) may also use B₁₂, resulting in anemia.",
     "Various conditions that affect the part of the intestine (**the ileum**), from which B₁₂ is absorbed: **tropical sprue, Crohn's disease, tuberculosis**."
    ],
    "list_ar": [
     "حالات تستدعي **الاستئصال الجراحي للمعدة**، أو **التسمّم بمواد أكّالة** تدمّر بطانة المعدة.",
-    "بعض **العيوب البنيوية في الجهاز المعوي** قد تؤدي إلى **فرط نمو البكتيريا الطبيعية** التي تمتص B₁₂ لنموها.",
+    [
+     "بعض **العيوب البنيوية في الجهاز المعوي** قد تؤدي إلى **فرط نمو البكتيريا الطبيعية**.",
+     "ثم تمتص هذه البكتيريا B₁₂ بنفسها لتستخدمه في نموها."
+    ],
     "**الديدان المعوية** (ولا سيما **الشريطية السمكية**) قد تستهلك B₁₂ فيحدث فقر الدم.",
     "حالات مختلفة تصيب جزء الأمعاء الذي يُمتص منه B₁₂ (**اللفائفي**): **الذرب الاستوائي وداء كرون والسل**."
    ]
@@ -459,8 +770,18 @@
   },
   {
    "t": "rule",
-   "en": "**The hematopoietic system** is harmed because B₁₂ is required for the proper formation of red blood cells. Without B₁₂, red blood cell production is greatly reduced. Those red blood cells that are produced are **abnormally large** and abnormal in shape. Decreased numbers (anemia) result in **fatigue, dizziness, ringing in the ears, pale or yellowish skin, fast heart rate, enlarged heart with an abnormal heart sound (murmur)**, and **chest pain**.",
-   "ar": "**الجهاز المكوّن للدم** يتضرّر لأن B₁₂ ضروري لتكوين الكريات الحمر السليم، ومن دونه ينخفض إنتاجها كثيرًا، والكريات المنتجة **كبيرة على نحو شاذ** وشاذة الشكل. ويؤدي نقص عددها (فقر الدم) إلى **التعب والدوار وطنين الأذنين وشحوب الجلد أو اصفراره وتسرّع القلب وتضخّمه مع صوت قلبي شاذ (لغط)** و**ألم الصدر**."
+   "en": [
+    "**The hematopoietic system** is harmed because B₁₂ is required for the proper formation of red blood cells.",
+    "Without B₁₂, red blood cell production is greatly reduced.",
+    "Those red blood cells that are produced are **abnormally large** and abnormal in shape.",
+    "Decreased numbers (anemia) result in **fatigue, dizziness, ringing in the ears, pale or yellowish skin, fast heart rate, enlarged heart with an abnormal heart sound (murmur)**, and **chest pain**."
+   ],
+   "ar": [
+    "**الجهاز المكوّن للدم** يتضرّر لأن B₁₂ ضروري لتكوين الكريات الحمر تكوينًا سليمًا.",
+    "ومن دون B₁₂ ينخفض إنتاج الكريات الحمر كثيرًا.",
+    "والكريات الحمر المنتجة تكون **كبيرة على نحو شاذ** وشاذة الشكل.",
+    "ويؤدي نقص عددها (فقر الدم) إلى **التعب والدوار وطنين الأذنين وشحوب الجلد أو اصفراره وتسرّع القلب وتضخّمه مع صوت قلبي شاذ (لغط)** و**ألم الصدر**."
+   ]
   },
   {
    "t": "rule",
@@ -469,8 +790,14 @@
   },
   {
    "t": "rule",
-   "en": "**The nervous system** is severely affected when pernicious anemia goes untreated. Symptoms include **numbness, tingling, or burning** in the arms, legs, hands, and feet; muscle weakness; difficulty and **loss of balance** while walking; changes in reflexes; irritability, confusion, and depression.",
-   "ar": "**الجهاز العصبي** يتأثّر بشدة إذا لم يُعالَج المرض، ومن أعراضه **الخدر والوخز أو الحرقة** في الذراعين والساقين واليدين والقدمين، وضعف العضلات، وصعوبة المشي و**فقدان التوازن**، وتغيّر المنعكسات، وسرعة الانفعال والتشوّش والاكتئاب."
+   "en": [
+    "**The nervous system** is severely affected when pernicious anemia goes untreated.",
+    "Symptoms include **numbness, tingling, or burning** in the arms, legs, hands, and feet; muscle weakness; difficulty and **loss of balance** while walking; changes in reflexes; irritability, confusion, and depression."
+   ],
+   "ar": [
+    "**الجهاز العصبي** يتأثّر بشدة إذا لم يُعالَج فقر الدم الخبيث.",
+    "ومن أعراضه **الخدر والوخز أو الحرقة** في الذراعين والساقين واليدين والقدمين؛ وضعف العضلات؛ وصعوبة المشي و**فقدان التوازن**؛ وتغيّر المنعكسات؛ وسرعة الانفعال والتشوّش والاكتئاب."
+   ]
   },
   {
    "t": "h2",
@@ -496,8 +823,18 @@
   },
   {
    "t": "card",
-   "en": "**Schilling test:** a patient is given **radioactive B₁₂** under two different sets of conditions: **once alone**, and **once attached to intrinsic factor**. Normally, large amounts of B₁₂ are absorbed through the intestine, then circulate through the blood, and enter the kidneys, where a certain amount of B₁₂ is then passed out in the urine. When a patient has pernicious anemia, the dose of B₁₂ given by itself will **not be absorbed**, so it will not pass into the urine; therefore levels of B₁₂ in the urine will be **low**. When the B₁₂ is given **along with intrinsic factor**, the intestine is able to absorb the vitamin; urine levels of B₁₂ will therefore be **higher**.",
-   "ar": "**اختبار شيلنغ:** يُعطى المريض **B₁₂ مشعًا** في ظرفين: **مرة وحده** و**مرة مرتبطًا بالعامل الداخلي**. طبيعيًا تُمتص كميات كبيرة من B₁₂ عبر الأمعاء وتدور في الدم وتدخل الكليتين فتُطرح كمية منه في البول. وفي فقر الدم الخبيث **لا تُمتص** الجرعة المعطاة وحدها فلا تصل البول، فيكون مستوى B₁₂ البولي **منخفضًا**؛ أما عند إعطائه **مع العامل الداخلي** فتستطيع الأمعاء امتصاصه فيكون مستواه البولي **أعلى**."
+   "en": [
+    "**Schilling test:** a patient is given **radioactive B₁₂** under two different sets of conditions: **once alone**, and **once attached to intrinsic factor**.",
+    "Normally, large amounts of B₁₂ are absorbed through the intestine, then circulate through the blood, and enter the kidneys, where a certain amount of B₁₂ is then passed out in the urine.",
+    "When a patient has pernicious anemia, the dose of B₁₂ given by itself will **not be absorbed**, so it will not pass into the urine; therefore levels of B₁₂ in the urine will be **low**.",
+    "When the B₁₂ is given **along with intrinsic factor**, the intestine is able to absorb the vitamin; urine levels of B₁₂ will therefore be **higher**."
+   ],
+   "ar": [
+    "**اختبار شيلنغ:** يُعطى المريض **B₁₂ مشعًا** في ظرفين مختلفين: **مرة وحده**، و**مرة مرتبطًا بالعامل الداخلي**.",
+    "طبيعيًا تُمتص كميات كبيرة من B₁₂ عبر الأمعاء ثم تدور في الدم وتدخل الكليتين، حيث تُطرح كمية منه في البول.",
+    "وعندما يكون لدى المريض فقر دم خبيث **لا تُمتص** جرعة B₁₂ المعطاة وحدها فلا تصل إلى البول؛ لذا يكون مستوى B₁₂ في البول **منخفضًا**.",
+    "وعند إعطاء B₁₂ **مع العامل الداخلي** تستطيع الأمعاء امتصاصه؛ فيكون مستواه في البول **أعلى**."
+   ]
   },
   {
    "t": "card",
@@ -542,13 +879,25 @@
   },
   {
    "t": "card",
-   "en": "**Type 1 diabetes mellitus (T1DM)** is a major clinical problem in both children and adults. It is an **organ-specific autoimmune disease** represents **10-15% of all diabetes**.",
-   "ar": "**سكري النوع الأول (T1DM)** مشكلة سريرية كبرى لدى الأطفال والبالغين، وهو **مرض مناعي ذاتي خاص بعضو** يمثّل **10–15% من حالات السكري كلها**."
+   "en": [
+    "**Type 1 diabetes mellitus (T1DM)** is a major clinical problem in both children and adults.",
+    "It is an **organ-specific autoimmune disease** represents **10-15% of all diabetes**."
+   ],
+   "ar": [
+    "**سكري النوع الأول (T1DM)** مشكلة سريرية كبرى لدى الأطفال والبالغين.",
+    "وهو **مرض مناعي ذاتي خاص بعضو** يمثّل **10–15% من حالات السكري كلها**."
+   ]
   },
   {
    "t": "card",
-   "en": "Healthy human **islets of Langerhans** are composed of a core of some **80% β cells** (making the glucose-regulating hormone **insulin**), with a mantle of other endocrine cells types, producing **glucogan (α cells), somatostatin (δ cells)** and **pancreatic polypeptide (PP cells)** making up the remainder. In type 1 DM, the hyperglycemia results from **insufficient insulin secretion by β cells**.",
-   "ar": "تتكوّن **جزر لانغرهانس** السليمة من لُب نحو **80% منه خلايا β** (تصنع هرمون **الإنسولين** المنظّم للغلوكوز)، يحيط بها غلاف من أنواع صمّاوية أخرى تنتج **الغلوكاغون (خلايا α) والسوماتوستاتين (خلايا δ)** و**عديد الببتيد البنكرياسي (خلايا PP)**. وفي سكري النوع الأول ينتج ارتفاع السكر عن **قصور إفراز الإنسولين من خلايا β**."
+   "en": [
+    "Healthy human **islets of Langerhans** are composed of a core of some **80% β cells** (making the glucose-regulating hormone **insulin**), with a mantle of other endocrine cells types, producing **glucogan (α cells), somatostatin (δ cells)** and **pancreatic polypeptide (PP cells)** making up the remainder.",
+    "In type 1 DM, the hyperglycemia results from **insufficient insulin secretion by β cells**."
+   ],
+   "ar": [
+    "تتكوّن **جزر لانغرهانس** السليمة من لُب نحو **80% منه خلايا β** (تصنع هرمون **الإنسولين** المنظّم للغلوكوز)، يحيط بها غلاف من أنواع صمّاوية أخرى تنتج **الغلوكاغون (خلايا α) والسوماتوستاتين (خلايا δ)** و**عديد الببتيد البنكرياسي (خلايا PP)**.",
+    "وفي سكري النوع الأول ينتج ارتفاع السكر عن **قصور إفراز الإنسولين من خلايا β**."
+   ]
   },
   {
    "t": "h2",
@@ -611,38 +960,97 @@
   {
    "t": "table",
    "head": [
-    "Autoantigen",
-    "Islet specific",
-    "Function",
-    "Autoantibody"
+    [
+     "Autoantigen",
+     "المستضد الذاتي"
+    ],
+    [
+     "Islet specific",
+     "خاص بالجزر؟"
+    ],
+    [
+     "Function",
+     "الوظيفة"
+    ],
+    [
+     "Autoantibody",
+     "الضد الذاتي"
+    ]
    ],
    "rows": [
     [
-     "Insulin",
-     "Yes, and β cells specific",
-     "Regulates glucose",
-     "Insulin autoantibody (IAA)"
+     [
+      "Insulin",
+      "الإنسولين"
+     ],
+     [
+      "Yes, and β cells specific",
+      "نعم، وخاص بخلايا β"
+     ],
+     [
+      "Regulates glucose",
+      "ينظّم الغلوكوز"
+     ],
+     [
+      "Insulin autoantibody (IAA)",
+      "ضد الإنسولين الذاتي (IAA)"
+     ]
     ],
     [
-     "Glutamic acid decarboxylase",
-     "No, present in other islet cells and CNS",
-     "Catalyses synthesis of γ-amino butyric acid (GABA), a negative neurotransmitter, probably regulates insulin release",
-     "GAD autoantibody (GADA)"
+     [
+      "Glutamic acid decarboxylase",
+      "ديكاربوكسيلاز حمض الغلوتاميك"
+     ],
+     [
+      "No, present in other islet cells and CNS",
+      "لا، موجود في خلايا جزر أخرى والجهاز العصبي المركزي"
+     ],
+     [
+      "Catalyses synthesis of γ-amino butyric acid (GABA), a negative neurotransmitter, probably regulates insulin release",
+      "يحفّز تخليق حمض غاما أمينوبيوتيريك (GABA)، وهو ناقل عصبي مثبّط، وربما ينظّم إطلاق الإنسولين"
+     ],
+     [
+      "GAD autoantibody (GADA)",
+      "ضد GAD الذاتي (GADA)"
+     ]
     ],
     [
-     "Islet tyrosine phosphatase",
-     "No, present in other islet cells and CNS",
-     "Unknown",
-     "Insulinoma-2 associated autoantibody (IA-2A)"
+     [
+      "Islet tyrosine phosphatase",
+      "فوسفاتاز التيروسين للجزر"
+     ],
+     [
+      "No, present in other islet cells and CNS",
+      "لا، موجود في خلايا جزر أخرى والجهاز العصبي المركزي"
+     ],
+     [
+      "Unknown",
+      "مجهولة"
+     ],
+     [
+      "Insulinoma-2 associated autoantibody (IA-2A)",
+      "الضد الذاتي المرتبط بالورم الإنسوليني-2 (IA-2A)"
+     ]
     ],
     [
-     "Zinc transport 8",
-     "Yes, and β cells specific",
-     "Zinc transport",
-     "Zinc transport 8 autoantibody (ZNT8A)"
+     [
+      "Zinc transport 8",
+      "ناقل الزنك 8"
+     ],
+     [
+      "Yes, and β cells specific",
+      "نعم، وخاص بخلايا β"
+     ],
+     [
+      "Zinc transport",
+      "نقل الزنك"
+     ],
+     [
+      "Zinc transport 8 autoantibody (ZNT8A)",
+      "ضد ناقل الزنك 8 الذاتي (ZNT8A)"
+     ]
     ]
    ],
-   "ar_cols": [],
    "key_cols": [
     0
    ],
@@ -655,41 +1063,6 @@
    "label_en": "Features of islet autoantigens in type 1 DM",
    "label_ar": "سمات المستضدات الذاتية للجزر في سكري النوع الأول",
    "style": "summary"
-  },
-  {
-   "t": "table",
-   "head": [
-    "Autoantigen",
-    "الترجمة"
-   ],
-   "rows": [
-    [
-     "Insulin",
-     "**الإنسولين**: خاص بالجزر وبخلايا β — ينظّم الغلوكوز — ضد الإنسولين الذاتي (IAA)"
-    ],
-    [
-     "Glutamic acid decarboxylase",
-     "**ديكاربوكسيلاز حمض الغلوتاميك**: غير خاص (في خلايا جزر أخرى والجهاز العصبي المركزي) — يحفّز تخليق GABA وهو ناقل عصبي مثبّط ينظّم على الأرجح إطلاق الإنسولين — GADA"
-    ],
-    [
-     "Islet tyrosine phosphatase",
-     "**فوسفاتاز التيروسين للجزر**: غير خاص (في خلايا جزر أخرى والجهاز العصبي المركزي) — وظيفته مجهولة — IA-2A"
-    ],
-    [
-     "Zinc transport 8",
-     "**ناقل الزنك 8**: خاص بالجزر وبخلايا β — نقل الزنك — ZNT8A"
-    ]
-   ],
-   "ar_cols": [
-    1
-   ],
-   "key_cols": [
-    0
-   ],
-   "widths": [
-    26,
-    74
-   ]
   },
   {
    "t": "h2",
@@ -725,6 +1098,171 @@
    "t": "card",
    "en": "If diabetes is undiagnosed or untreated, failure to metabolize glucose will result in the **breakdown of fat**, leading to **ketonemia and ketoacidosis**, which may be accompanied by nausea and hyperventilation before life-threatening **ketoacidotic coma**",
    "ar": "إذا لم يُشخَّص السكري أو يُعالَج فإن الفشل في استقلاب الغلوكوز يؤدي إلى **تحلّل الدهون** ثم **فرط الكيتونات في الدم والحماض الكيتوني**، وقد يرافقه الغثيان وفرط التهوية قبل **الغيبوبة الكيتونية الحماضية** المهدّدة للحياة."
+  },
+  {
+   "t": "section",
+   "en": "Quick summary & key terms",
+   "ar": "الخلاصة السريعة وأهم المصطلحات"
+  },
+  {
+   "t": "h2",
+   "en": "In short",
+   "ar": "باختصار"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Celiac disease** = immune-mediated small-intestine disorder triggered by **gluten** (toxic part: **gliadin**) from wheat, rye, barley.",
+    "Histology: **villous atrophy + crypt hyperplasia + intraepithelial lymphocytosis** → malabsorption.",
+    "Genes: **HLA-DQ2** (> 90%) and **DQ8**; necessary but not sufficient; present in 40% of the population.",
+    "Forms: **classical** (6–24 months), **atypical** (extraintestinal), **silent** (atrophy, no symptoms), **latent** (normal mucosa); **refractory** = no response to GFD 6–12 months."
+   ],
+   "list_ar": [
+    "**الداء البطني** = اضطراب مناعي في الأمعاء الدقيقة يحفّزه **الغلوتين** (الجزء السام: **الغليادين**) من القمح والشيلم والشعير.",
+    "النسيج: **ضمور الزغابات + فرط تنسّج الخبايا + كثرة اللمفاويات داخل الظهارة** ← سوء امتصاص.",
+    "الجينات: **HLA-DQ2** (أكثر من 90%) و**DQ8**؛ ضرورية لكنها غير كافية؛ وموجودة لدى 40% من السكان.",
+    "الأشكال: **التقليدي** (6–24 شهرًا)، **غير النموذجي** (خارج معوي)، **الصامت** (ضمور بلا أعراض)، **الكامن** (مخاطية طبيعية)؛ و**المعنّد** = لا استجابة للحمية 6–12 شهرًا."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Marsh 0–4:** normal → infiltrative → hyperplastic → destructive (3a/3b/3c) → hypoplastic.",
+    "Serology: **EMA = gold standard** (IF), **tTG = specific, ELISA, cheap**, AGA not specific (except < 2 y), anti-reticulin IgA 60%.",
+    "**Pernicious anemia:** anti-parietal cell + anti-IF antibodies → no intrinsic factor → **no B₁₂ absorption** → megaloblastic anemia.",
+    "PA diagnosis: large RBCs, low reticulocytes, low B₁₂, **Schilling test**, **APCA (85–90%) + IFA** together."
+   ],
+   "list_ar": [
+    "**مارش 0–4:** طبيعي ← ارتشاحي ← فرط تنسّج ← تدميري (3a/3b/3c) ← نقص تنسّج.",
+    "الفحوص المصلية: **EMA = المعيار الذهبي** (تألّق مناعي)، **tTG = نوعي وELISA ورخيص**، AGA غير نوعي (إلا دون سنتين)، ضد الريتيكولين IgA ‏60%.",
+    "**فقر الدم الخبيث:** أضداد الخلايا الجدارية والعامل الداخلي ← لا عامل داخلي ← **لا امتصاص لـB₁₂** ← فقر دم ضخم الأرومات.",
+    "تشخيص PA: كريات كبيرة، شبكيات منخفضة، B₁₂ منخفض، **اختبار شيلنغ**، و**APCA (85–90%) + IFA** معًا."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Type 1 DM:** autoimmune destruction of **β cells only**; HLA DR3/DQ2, DR4/DQ8, CTLA-4; mumps / coxsackie → molecular mimicry.",
+    "Autoantibodies: **IAA, GADA, IA-2A, ZnT8A**; stages 1–5 end with polyuria, polydipsia, polyphagia → hyperglycemia → ketoacidosis if untreated."
+   ],
+   "list_ar": [
+    "**سكري النوع الأول:** تدمير مناعي ذاتي لـ**خلايا β فقط**؛ HLA DR3/DQ2 وDR4/DQ8 وCTLA-4؛ النكاف/الكوكساكي ← محاكاة جزيئية.",
+    "الأضداد الذاتية: **IAA وGADA وIA-2A وZnT8A**؛ وتنتهي المراحل 1–5 بكثرة التبوّل والعطش والأكل ← ارتفاع السكر ← حماض كيتوني إن لم يُعالَج."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Key terms — more than one translation",
+   "ar": "أهم المصطلحات — بأكثر من ترجمة"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Celiac disease**",
+     "الداء البطني / الداء الزلاقي / مرض السيلياك / الاعتلال المعوي الحساس للغلوتين"
+    ],
+    [
+     "**Sprue**",
+     "الذرب / الإسهال الدهني المزمن"
+    ],
+    [
+     "**Gluten**",
+     "الغلوتين / الدابوق / بروتين القمح"
+    ],
+    [
+     "**Villous atrophy**",
+     "ضمور الزغابات / ضمور الخملات / تسطّح الزغابات"
+    ],
+    [
+     "**Crypt hyperplasia**",
+     "فرط تنسّج الخبايا / تضخّم الخبايا المعوية"
+    ],
+    [
+     "**Intraepithelial lymphocytes**",
+     "لمفاويات داخل الظهارة / خلايا لمفية بين الظهارية"
+    ],
+    [
+     "**Malabsorption**",
+     "سوء الامتصاص / قصور الامتصاص"
+    ],
+    [
+     "**Dermatitis herpetiformis**",
+     "التهاب الجلد الحلئي الشكل / التهاب الجلد الهربسي الشكل / داء دوهرنغ"
+    ],
+    [
+     "**Refractory**",
+     "معنّد / مستعصٍ / مقاوم للعلاج"
+    ],
+    [
+     "**Endomysium**",
+     "البطانة العضلية / غمد الليف العضلي"
+    ],
+    [
+     "**Tissue transglutaminase**",
+     "ناقلة الغلوتامين النسيجية / ترانس غلوتاميناز النسيج"
+    ],
+    [
+     "**Pernicious anemia**",
+     "فقر الدم الخبيث / فقر الدم الوبيل / فقر الدم بعوز B₁₂ المناعي"
+    ],
+    [
+     "**Megaloblastic**",
+     "ضخم الأرومات / أرومي ضخم / كبير الكريات"
+    ],
+    [
+     "**Intrinsic factor**",
+     "العامل الداخلي / العامل الذاتي / عامل كاسل الداخلي"
+    ],
+    [
+     "**Parietal cell**",
+     "الخلية الجدارية / الخلية الحمضية / الخلية المفرزة للحمض"
+    ],
+    [
+     "**Reticulocyte**",
+     "الخلية الشبكية / الشبكية / كرية حمراء فتية"
+    ],
+    [
+     "**Insulitis**",
+     "التهاب جزر البنكرياس / التهاب الجزر"
+    ],
+    [
+     "**Islets of Langerhans**",
+     "جزر لانغرهانس / جزيرات البنكرياس"
+    ],
+    [
+     "**Molecular mimicry**",
+     "المحاكاة الجزيئية / التقليد الجزيئي / التشابه الجزيئي"
+    ],
+    [
+     "**Polyuria · Polydipsia · Polyphagia**",
+     "كثرة التبوّل (بُوال) · كثرة العطش (سُهاف) · كثرة الأكل (نَهَم)"
+    ],
+    [
+     "**Ketoacidosis**",
+     "الحماض الكيتوني / الحماض الخلوني"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
   }
  ],
  "questions": {
