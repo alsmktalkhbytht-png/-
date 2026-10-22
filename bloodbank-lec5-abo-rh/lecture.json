@@ -62,42 +62,72 @@
   {
    "t": "table",
    "head": [
-    "Type",
-    "Red cell antigen",
-    "Serum antibodies",
-    "الترجمة"
+    [
+     "Type",
+     "الفصيلة"
+    ],
+    [
+     "Red cell antigen",
+     "مستضد الكريات الحمر"
+    ],
+    [
+     "Serum antibodies",
+     "أضداد المصل"
+    ]
    ],
    "rows": [
     [
-     "A",
-     "A antigen",
-     "anti-B",
-     "**A**: مستضد A على الكريات — أضداد B في المصل"
+     "**A**",
+     [
+      "A antigen",
+      "مستضد A"
+     ],
+     [
+      "anti-B",
+      "ضد B"
+     ]
     ],
     [
-     "B",
-     "B antigen",
-     "anti-A",
-     "**B**: مستضد B — أضداد A"
+     "**B**",
+     [
+      "B antigen",
+      "مستضد B"
+     ],
+     [
+      "anti-A",
+      "ضد A"
+     ]
     ],
     [
-     "AB",
-     "both A and B",
-     "no anti-A or anti-B",
-     "**AB**: المستضدان A وB — لا أضداد A ولا B"
+     "**AB**",
+     [
+      "both A and B",
+      "كلا المستضدين A وB"
+     ],
+     [
+      "no anti-A or anti-B",
+      "لا ضد A ولا ضد B"
+     ]
     ],
     [
-     "O",
-     "neither A nor B",
-     "both anti-A and anti-B",
-     "**O**: لا A ولا B — أضداد A وB معًا"
+     "**O**",
+     [
+      "neither A nor B",
+      "لا A ولا B"
+     ],
+     [
+      "both anti-A and anti-B",
+      "ضد A وضد B كلاهما"
+     ]
     ]
-   ],
-   "ar_cols": [
-    3
    ],
    "key_cols": [
     0
+   ],
+   "widths": [
+    16,
+    42,
+    42
    ],
    "style": "summary",
    "label_en": "ABO groups",
@@ -120,8 +150,16 @@
   },
   {
    "t": "rule",
-   "en": "**Immune occurring:** Antibodies that are not naturally occurring and will only be formed if an individual is exposed to red cells through **transfusion or pregnancy** where the red cells transfused contain antigens not present on that individual’s own red cells. Exposed to this foreign red cell antigen, an individual may make an antibody. This is called an **alloantibody**",
-   "ar": "**المناعية النشوء:** أضداد ليست طبيعية النشوء، ولا تتكوّن إلا إذا تعرّض الفرد لكريات حمر عبر **النقل أو الحمل** تحمل مستضدات غير موجودة على كرياته. وعند التعرّض لهذا المستضد الغريب قد يكوّن الفرد ضدًا يُسمّى **الضد الخيفي (alloantibody)**."
+   "en": [
+    "**Immune occurring:** Antibodies that are not naturally occurring and will only be formed if an individual is exposed to red cells through **transfusion or pregnancy** where the red cells transfused contain antigens not present on that individual’s own red cells.",
+    "Exposed to this foreign red cell antigen, an individual may make an antibody.",
+    "This is called an **alloantibody**"
+   ],
+   "ar": [
+    "**المناعية النشوء:** أضداد ليست طبيعية النشوء، ولا تتكوّن إلا إذا تعرّض الفرد لكريات حمر عبر **النقل أو الحمل** تحمل مستضدات غير موجودة على كرياته.",
+    "وعند التعرّض لهذا المستضد الغريب قد يكوّن الفرد ضدًا.",
+    "ويُسمّى هذا **الضد الخيفي (alloantibody)**."
+   ]
   },
   {
    "t": "h2",
@@ -167,63 +205,105 @@
   {
    "t": "table",
    "head": [
-    "System",
-    "Antigens",
-    "الترجمة"
+    [
+     "System",
+     "النظام"
+    ],
+    [
+     "Antigens",
+     "المستضدات"
+    ]
    ],
    "rows": [
     [
-     "Rh antigens",
-     "five principle antigen present D, C, c, E, e",
-     "**Rh**: خمسة مستضدات رئيسة D وC وc وE وe"
+     [
+      "Rh antigens",
+      "مستضدات Rh"
+     ],
+     [
+      "five principle antigen present D, C, c, E, e",
+      "خمسة مستضدات رئيسة: D وC وc وE وe"
+     ]
     ],
     [
-     "Lewis antigens",
-     "Le^a, Le^b",
-     "**لويس**: Leᵃ وLeᵇ"
+     [
+      "Lewis antigens",
+      "مستضدات لويس"
+     ],
+     [
+      "Le^a, Le^b",
+      "Leᵃ وLeᵇ"
+     ]
     ],
     [
-     "KIDD antigens",
-     "Jk^a, Jk^b",
-     "**كيد**: Jkᵃ وJkᵇ"
+     [
+      "KIDD antigens",
+      "مستضدات كيد"
+     ],
+     [
+      "Jk^a, Jk^b",
+      "Jkᵃ وJkᵇ"
+     ]
     ],
     [
-     "KELL antigens",
-     "K, k, Js^a, Js^b, Kp^a, Kp^b",
-     "**كيل**: K وk وJsᵃ وJsᵇ وKpᵃ وKpᵇ"
+     [
+      "KELL antigens",
+      "مستضدات كيل"
+     ],
+     [
+      "K, k, Js^a, Js^b, Kp^a, Kp^b",
+      "K وk وJsᵃ وJsᵇ وKpᵃ وKpᵇ"
+     ]
     ]
-   ],
-   "ar_cols": [
-    2
    ],
    "key_cols": [
     0
+   ],
+   "widths": [
+    30,
+    70
    ]
   },
   {
    "t": "table",
    "head": [
-    "Antibody class",
-    "Blood group systems",
-    "الترجمة"
+    [
+     "Antibody class",
+     "صنف الضد"
+    ],
+    [
+     "Blood group systems",
+     "أنظمة فصائل الدم"
+    ]
    ],
    "rows": [
     [
-     "IgG antibodies",
-     "Rh, KIDD, KELL, Lutheran, and Ss",
-     "**أضداد IgG**: Rh وكيد وكيل ولوثران وSs"
+     [
+      "IgG antibodies",
+      "أضداد IgG"
+     ],
+     [
+      "Rh, KIDD, KELL, Lutheran, and Ss",
+      "Rh وكيد وكيل ولوثران وSs"
+     ]
     ],
     [
-     "IgM antibodies",
-     "ABO, Lewis, MN, and P1",
-     "**أضداد IgM**: ABO ولويس وMN وP1"
+     [
+      "IgM antibodies",
+      "أضداد IgM"
+     ],
+     [
+      "ABO, Lewis, MN, and P1",
+      "ABO ولويس وMN وP1"
+     ]
     ]
-   ],
-   "ar_cols": [
-    2
    ],
    "key_cols": [
     0
+   ],
+   "widths": [
+    30,
+    70
    ],
    "style": "summary",
    "label_en": "Blood group systems antibodies either:",
@@ -246,8 +326,14 @@
   },
   {
    "t": "rule",
-   "en": "**Rh-positive:** individuals inherit **one or two Rh. D genes**, which result in expression of **RhD antigen** and are typed Rh-positive. **Most people are Rh-positive**",
-   "ar": "**Rh الموجب:** يرث الأفراد **جينًا أو جينين من RhD** فيُعبَّر عن **مستضد RhD** ويُصنَّفون Rh موجبًا. **ومعظم الناس Rh موجب**."
+   "en": [
+    "**Rh-positive:** individuals inherit **one or two Rh. D genes**, which result in expression of **RhD antigen** and are typed Rh-positive.",
+    "**Most people are Rh-positive**"
+   ],
+   "ar": [
+    "**Rh الموجب:** يرث الأفراد **جينًا أو جينين من RhD** فيُعبَّر عن **مستضد RhD** ويُصنَّفون Rh موجبًا.",
+    "**ومعظم الناس Rh موجب**."
+   ]
   },
   {
    "t": "rule",
@@ -308,8 +394,14 @@
   },
   {
    "t": "rule",
-   "en": "**2.** In the case of **pregnant women**, if exposed to D-positive fetal red cells that have crossed the placenta. Once present, they can produce significant **hemolytic disease of the fetus and newborn (Erythroblastosis fetalis)**",
-   "ar": "**2.** عند **الحوامل** إذا تعرّضن لكريات جنين D موجبة عبرت المشيمة؛ وبمجرد وجود الأضداد قد تُحدث **داء انحلال الدم عند الجنين والوليد (الحمرة الأرومية الجنينية)** بصورة مهمة."
+   "en": [
+    "**2.** In the case of **pregnant women**, if exposed to D-positive fetal red cells that have crossed the placenta.",
+    "Once present, they can produce significant **hemolytic disease of the fetus and newborn (Erythroblastosis fetalis)**"
+   ],
+   "ar": [
+    "**2.** عند **الحوامل** إذا تعرّضن لكريات جنين D موجبة عبرت المشيمة.",
+    "وبمجرد وجود الأضداد قد تُحدث **داء انحلال الدم عند الجنين والوليد (الحمرة الأرومية الجنينية)** بصورة مهمة."
+   ]
   },
   {
    "t": "figure",
@@ -322,36 +414,73 @@
   {
    "t": "table",
    "head": [
-    "Label (from the figure)",
-    "الترجمة"
+    [
+     "Step (from the figure)",
+     "الخطوة في الشكل"
+    ],
+    [
+     "What happens",
+     "ماذا يحدث"
+    ]
    ],
    "rows": [
     [
-     "Rh-negative mother with Rh-positive baby",
-     "أم Rh سالبة وجنين Rh موجب"
+     [
+      "1",
+      "1"
+     ],
+     [
+      "Rh-negative mother with Rh-positive baby",
+      "أم Rh سالبة مع جنين Rh موجب"
+     ]
     ],
     [
-     "Rh-positive baby's blood cells enter mother's bloodstream (at delivery)",
-     "دخول كريات الجنين Rh الموجب إلى دم الأم (عند الولادة)"
+     [
+      "2 — at delivery",
+      "2 — عند الولادة"
+     ],
+     [
+      "Rh-positive baby's blood cells enter mother's bloodstream",
+      "تدخل كريات الجنين Rh الموجب إلى دم الأم"
+     ]
     ],
     [
-     "invading Rh-positive blood cells cause the production of Rh antibodies",
-     "تُحفّز الكريات Rh الموجبة الداخلة إنتاج أضداد Rh"
+     [
+      "3",
+      "3"
+     ],
+     [
+      "invading Rh-positive blood cells cause the production of Rh antibodies",
+      "تُحفّز الكريات Rh الموجبة الداخلة إنتاج أضداد Rh"
+     ]
     ],
     [
-     "Rh antibodies remain in mother's bloodstream (months later)",
-     "تبقى أضداد Rh في دم الأم (بعد أشهر)"
+     [
+      "4 — months later",
+      "4 — بعد أشهر"
+     ],
+     [
+      "Rh antibodies remain in mother's bloodstream",
+      "تبقى أضداد Rh في دم الأم"
+     ]
     ],
     [
-     "Rh antibodies attack the Rh-positive baby's blood cells, causing Rh disease (later pregnancy with Rh-positive baby)",
-     "تهاجم أضداد Rh كريات الجنين Rh الموجب فتسبّب داء Rh (في حمل لاحق بجنين Rh موجب)"
+     [
+      "5 — later pregnancy with Rh-positive baby",
+      "5 — حمل لاحق بجنين Rh موجب"
+     ],
+     [
+      "Rh antibodies attack the Rh-positive baby's blood cells, causing Rh disease",
+      "تهاجم أضداد Rh كريات الجنين Rh الموجب فتسبّب داء Rh"
+     ]
     ]
-   ],
-   "ar_cols": [
-    1
    ],
    "key_cols": [
     0
+   ],
+   "widths": [
+    30,
+    70
    ]
   },
   {
@@ -435,11 +564,13 @@
   {
    "t": "card",
    "en": [
-    "Individuals normally produce antibodies directed against the **A and/or B antigen(s) absent** from their RBCs. These antibodies have been described as **naturally occurring** because they are produced without any exposure to RBCs.",
+    "Individuals normally produce antibodies directed against the **A and/or B antigen(s) absent** from their RBCs.",
+    "These antibodies have been described as **naturally occurring** because they are produced without any exposure to RBCs.",
     "The ABO antibodies are **predominantly IgM**, activate complement, and react at **room temperature or colder**."
    ],
    "ar": [
-    "ينتج الأفراد طبيعيًا أضدادًا موجّهة ضد **مستضد A و/أو B الغائب** عن كرياتهم، ووُصفت هذه الأضداد بأنها **طبيعية النشوء** لأنها تُنتج دون أي تعرّض لكريات حمر.",
+    "ينتج الأفراد طبيعيًا أضدادًا موجّهة ضد **مستضد A و/أو B الغائب** عن كرياتهم.",
+    "ووُصفت هذه الأضداد بأنها **طبيعية النشوء** لأنها تُنتج دون أي تعرّض لكريات حمر.",
     "أضداد ABO **غالبًا IgM**، تنشّط المتمّمة، وتتفاعل **بحرارة الغرفة أو أبرد**."
    ]
   },
@@ -512,18 +643,44 @@
   },
   {
    "t": "card",
-   "en": "**Reverse blood grouping** is a procedure to **confirm ABO blood group** based on the presence or absence of **anti-A and anti-B in serum** using **known A and B red cells**. It is **cross check for forward typing**. Performing both forward and reverse grouping provides a check for accuracy.",
-   "ar": "**التصنيف العكسي** إجراء لـ**تأكيد فصيلة ABO** بحسب وجود **ضد A وضد B في المصل** أو غيابهما باستخدام **كريات A وB معروفة**، وهو **تحقّق متصالب من التصنيف المباشر**. وإجراء التصنيفين معًا يوفّر تحقّقًا من الدقة."
+   "en": [
+    "**Reverse blood grouping** is a procedure to **confirm ABO blood group** based on the presence or absence of **anti-A and anti-B in serum** using **known A and B red cells**.",
+    "It is **cross check for forward typing**.",
+    "Performing both forward and reverse grouping provides a check for accuracy."
+   ],
+   "ar": [
+    "**التصنيف العكسي** إجراء لـ**تأكيد فصيلة ABO** بحسب وجود **ضد A وضد B في المصل** أو غيابهما باستخدام **كريات A وB معروفة**.",
+    "وهو **تحقّق متصالب من التصنيف المباشر**.",
+    "وإجراء التصنيفين معًا يوفّر تحقّقًا من الدقة."
+   ]
   },
   {
    "t": "table",
    "head": [
-    "",
-    "Anti-A",
-    "Anti-B",
-    "A₁ Cells",
-    "B Cells",
-    "ABO Group"
+    [
+     "",
+     ""
+    ],
+    [
+     "Anti-A",
+     "ضد A"
+    ],
+    [
+     "Anti-B",
+     "ضد B"
+    ],
+    [
+     "A₁ Cells",
+     "كريات A₁"
+    ],
+    [
+     "B Cells",
+     "كريات B"
+    ],
+    [
+     "ABO Group",
+     "الفصيلة"
+    ]
    ],
    "rows": [
     [
@@ -612,8 +769,14 @@
   },
   {
    "t": "card",
-   "en": "D grouping is usually undertaken **at the same time as ABO grouping** for convenience and to minimize clerical errors that may arise through repeated handling of patients’ samples. In the absence of secure automation, testing should be undertaken **in duplicate**, as there is **no counterpart of the ‘reverse’ grouping** of ABO testing.",
-   "ar": "يُجرى تصنيف D عادةً **في الوقت نفسه مع تصنيف ABO** للتيسير وتقليل الأخطاء الكتابية الناتجة عن تكرار التعامل مع عيّنات المرضى. وفي غياب الأتمتة الآمنة يجب إجراء الفحص **بنسختين**، إذ **لا يوجد ما يقابل التصنيف «العكسي»** في فحص ABO."
+   "en": [
+    "D grouping is usually undertaken **at the same time as ABO grouping** for convenience and to minimize clerical errors that may arise through repeated handling of patients’ samples.",
+    "In the absence of secure automation, testing should be undertaken **in duplicate**, as there is **no counterpart of the ‘reverse’ grouping** of ABO testing."
+   ],
+   "ar": [
+    "يُجرى تصنيف D عادةً **في الوقت نفسه مع تصنيف ABO** للتيسير وتقليل الأخطاء الكتابية الناتجة عن تكرار التعامل مع عيّنات المرضى.",
+    "وفي غياب الأتمتة الآمنة يجب إجراء الفحص **بنسختين**، إذ **لا يوجد ما يقابل التصنيف «العكسي»** في فحص ABO."
+   ]
   },
   {
    "t": "card",
@@ -653,6 +816,142 @@
      "h": "48mm",
      "fit": "contain"
     }
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Quick summary & key terms",
+   "ar": "الخلاصة السريعة وأهم المصطلحات"
+  },
+  {
+   "t": "h2",
+   "en": "In short",
+   "ar": "باختصار"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "> **400** red cell antigens in **> 25 systems**; the most important: **ABO and Rh**.",
+    "A → anti-B · B → anti-A · AB → no antibodies · O → anti-A + anti-B; ABO antibodies are **IgM** (intravascular hemolysis).",
+    "ABO antibodies start at birth, detectable at **3–6 months**, peak **5–10 years**, low in the elderly → newborns: **forward grouping only**.",
+    "**IgG** systems: Rh, Kidd, Kell, Lutheran, Ss · **IgM** systems: ABO, Lewis, MN, P1."
+   ],
+   "list_ar": [
+    "أكثر من **400** مستضد في **أكثر من 25 نظامًا**؛ وأهمها: **ABO وRh**.",
+    "A ← ضد B · B ← ضد A · AB ← بلا أضداد · O ← ضد A وضد B؛ وأضداد ABO من نوع **IgM** (انحلال داخل الأوعية).",
+    "تبدأ أضداد ABO عند الولادة، وتُكشف بعمر **3–6 أشهر**، وذروتها **5–10 سنوات**، وتقل عند المسنّين ← حديثو الولادة: **تصنيف مباشر فقط**.",
+    "أنظمة **IgG**: Rh وكيد وكيل ولوثران وSs · أنظمة **IgM**: ABO ولويس وMN وP1."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Rh antibodies are **immune IgG** (transfusion or pregnancy); **D is the most immunogenic** (> 80% after one unit, 17% after one pregnancy).",
+    "Rh-negative recipients get **Rh-negative** cells; weak D (**Du**) needs AHG or monoclonal anti-D.",
+    "**Forward** = known antisera + patient cells; **reverse** = known A₁/B cells + patient serum (confirms ABO).",
+    "D typing is done **in duplicate** (no reverse check); **O− universal donor**, **AB+ universal receiver**."
+   ],
+   "list_ar": [
+    "أضداد Rh **مناعية IgG** (نقل أو حمل)؛ و**D الأكثر استمناعية** (أكثر من 80% بعد وحدة واحدة، 17% بعد حمل واحد).",
+    "متلقّي Rh السالب يأخذ كريات **Rh سالبة**؛ وD الضعيف (**Du**) يحتاج AHG أو ضد D وحيد النسيلة.",
+    "**المباشر** = أمصال معروفة + كريات المريض؛ **العكسي** = كريات A₁/B معروفة + مصل المريض (يؤكّد ABO).",
+    "تصنيف D يُجرى **بنسختين** (لا تحقّق عكسي له)؛ **O− متبرّع عام**، **AB+ متلقٍّ عام**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Key terms — more than one translation",
+   "ar": "أهم المصطلحات — بأكثر من ترجمة"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Blood group**",
+     "فصيلة الدم / زمرة الدم / مجموعة الدم"
+    ],
+    [
+     "**Antigen**",
+     "مستضد / مولّد الضد / أنتيجين"
+    ],
+    [
+     "**Antibody**",
+     "ضد / جسم مضاد / أجسام مضادة"
+    ],
+    [
+     "**Alloantibody**",
+     "ضد خيفي / جسم مضاد مغاير / ضد متماثل النوع"
+    ],
+    [
+     "**Naturally occurring**",
+     "طبيعي النشوء / فطري / تلقائي"
+    ],
+    [
+     "**Immunogenic**",
+     "مستمنع / مولّد للاستجابة المناعية / مُمنِّع"
+    ],
+    [
+     "**Titer**",
+     "عيار / تركيز الضد"
+    ],
+    [
+     "**Forward grouping**",
+     "التصنيف المباشر / تحديد الفصيلة الأمامي / فحص الكريات"
+    ],
+    [
+     "**Reverse grouping**",
+     "التصنيف العكسي / تحديد الفصيلة الخلفي / فحص المصل"
+    ],
+    [
+     "**Agglutination**",
+     "التلازن / التراص / التكتّل"
+    ],
+    [
+     "**Weak D (Du)**",
+     "D الضعيف / Du / مستضد D الضعيف"
+    ],
+    [
+     "**Erythroblastosis fetalis**",
+     "الحمرة الأرومية الجنينية / داء انحلال الدم عند الوليد"
+    ],
+    [
+     "**Monoclonal**",
+     "وحيد النسيلة / أحادي النسيلة"
+    ],
+    [
+     "**Polyclonal**",
+     "متعدد النسائل / متعدد النسيلة"
+    ],
+    [
+     "**Universal donor**",
+     "المتبرّع العام / المعطي العام"
+    ],
+    [
+     "**Universal receiver**",
+     "المتلقّي العام / الآخذ العام"
+    ],
+    [
+     "**Phenotype**",
+     "النمط الظاهري / الشكل الظاهري"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
    ]
   }
  ],
