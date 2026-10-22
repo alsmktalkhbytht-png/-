@@ -1,0 +1,1276 @@
+{
+ "meta": {
+  "subject_en": "Practical Parasitology",
+  "subject_ar": "الطفيليات العملي",
+  "short_ar": "طفيليات",
+  "unit_en": "Lab 4",
+  "unit_ar": "العملي 4",
+  "unit_label": "LAB",
+  "unit_no": "4",
+  "title_en": "Preparation of Solutions",
+  "title_ar": "تحضير المحاليل",
+  "kind": "Laboratories — عملي",
+  "stage": "The fourth stage — الرابعة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Preparation of Solutions",
+   "ar": "تحضير المحاليل"
+  },
+  {
+   "t": "h2",
+   "en": "1- Polyvinyl Alcohol (PVA)",
+   "ar": "1- كحول البولي فاينيل (PVA)"
+  },
+  {
+   "t": "table",
+   "head": [
+    "Component",
+    "Amount",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Schaudinn's stock solution",
+     "93.5 ml",
+     "**محلول شاودين الأساسي**: 93.5 مل"
+    ],
+    [
+     "Glycerol",
+     "1.5 ml",
+     "**الكليسيرول**: 1.5 مل"
+    ],
+    [
+     "Glacial acetic acid",
+     "5.0 ml",
+     "**حامض الخليك الثلجي**: 5.0 مل"
+    ],
+    [
+     "Polyvinyl alcohol",
+     "5 g",
+     "**كحول البولي فاينيل**: 5 غم"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ],
+   "label_en": "Composition",
+   "label_ar": "المكوّنات",
+   "style": "summary"
+  },
+  {
+   "t": "card",
+   "en": "**Advantages:**",
+   "ar": "**المزايا:**",
+   "list_en": [
+    "**Fixative for all purposes.**",
+    "Has a **long shelf life (months to years)** in tightly sealed containers at room temperature.",
+    "The preservation of the two stages of protozoa (**trophozoite and cyst**) is **excellent**, and it is also suitable for **helminth eggs and larvae**."
+   ],
+   "list_ar": [
+    "**مثبّت لكل الأغراض.**",
+    "له **مدة صلاحية طويلة (أشهر إلى سنوات)** في أوعية محكمة الغلق بدرجة حرارة الغرفة.",
+    "حفظه لطوري الأوالي (**الطور الخضري والكيس**) **ممتاز**، ويصلح أيضًا لـ**بيوض الديدان ويرقاتها**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Compatible with **immunoassay kits** and **UV fluorescence microscopy**",
+    "The PVA is a **plastic resin** that serves as an **adhesive** for the stool material. When the stool-PVA mixture is spread onto the glass slide, it adheres because of the PVA component.",
+    "The greatest advantage of this fixative is that a **permanent stain** can be prepared from a stool specimen preserved by PVA, giving excellent results with **trichrome staining**.",
+    "Commercially available from several sources."
+   ],
+   "list_ar": [
+    "متوافق مع **عُدد المقايسات المناعية** و**المجهر الفلوري بالأشعة فوق البنفسجية**.",
+    "الـPVA **راتنج بلاستيكي** يعمل **مادة لاصقة** لمادة البراز؛ فعند فرد خليط البراز والـPVA على الشريحة الزجاجية يلتصق بها بفضل مكوّن الـPVA.",
+    "أعظم ميزة لهذا المثبّت إمكانية تحضير **صبغة دائمة** من عيّنة البراز المحفوظة بالـPVA، تعطي نتائج ممتازة مع **صبغة ثلاثية الألوان (Trichrome)**.",
+    "متوفّر تجاريًا من مصادر عدة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Disadvantages:**",
+   "ar": "**العيوب:**",
+   "list_en": [
+    "Contains **mercury compounds** (Schau Dinn’s fixative), which are **highly toxic** to both man and the environment, and must be disposed of as **toxic waste**.",
+    "**Concentration methods can’t be performed** on specimens preserved with PVA.",
+    "**Difficult to prepare** in the laboratory.",
+    "Some organisms (__Trichuris trichiura__ eggs, __Giardia lamblia__ cysts, __Isospora belli__ oocysts) are **not concentrated as well** from PVA, and morphology of some ova and larvae may be distorted.",
+    "Can **interfere with PCR**, especially after extended fixation time"
+   ],
+   "list_ar": [
+    "يحتوي **مركّبات الزئبق** (مثبّت شاودين) وهي **شديدة السمّية** للإنسان والبيئة، ويجب التخلّص منها بوصفها **نفايات سامة**.",
+    "**لا يمكن إجراء طرائق التركيز** على العيّنات المحفوظة بالـPVA.",
+    "**صعب التحضير** في المختبر.",
+    "بعض الكائنات (بيوض __Trichuris trichiura__، وأكياس __Giardia lamblia__، وأكياس بيض __Isospora belli__) **لا تتركّز جيدًا** من الـPVA، وقد يتشوّه شكل بعض البيوض واليرقات.",
+    "قد **يتداخل مع تفاعل PCR**، ولا سيما بعد مدة تثبيت طويلة."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "2- Schaudinn's fixative",
+   "ar": "2- مثبّت شاودين"
+  },
+  {
+   "t": "card",
+   "en": "**Saturated solution of mercuric chloride (HgCl₂)**",
+   "ar": "**محلول مشبع من كلوريد الزئبق (HgCl₂)**"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Dissolve **10 g HgCl₂** in **100 mL warm (not boiling)** distilled water; leave to cool (mercuric chloride crystals deposit)",
+     "ar": "أذب **10 غم من HgCl₂** في **100 مل ماء مقطّر دافئ (غير مغلي)**، واتركه ليبرد (تترسّب بلورات كلوريد الزئبق)."
+    },
+    {
+     "en": "Filter off the clear supernatant.",
+     "ar": "رشّح الطافي الرائق."
+    },
+    {
+     "en": "Store in a **sealed glass bottle** until use.",
+     "ar": "احفظه في **قنينة زجاجية محكمة الغلق** حتى الاستعمال."
+    },
+    {
+     "en": "**Label the bottle** (it is very important).",
+     "ar": "**ضع ملصقًا على القنينة** (وهذا مهم جدًا)."
+    }
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    "Component",
+    "Amount",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Saturated solution of mercuric chloride (HgCl₂)",
+     "2 volumes",
+     "**محلول كلوريد الزئبق المشبع**: حجمان"
+    ],
+    [
+     "95% ethanol",
+     "1 volume",
+     "**إيثانول 95%**: حجم واحد"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ],
+   "label_en": "Schaudinn's stock solution — Composition (mix well)",
+   "label_ar": "محلول شاودين الأساسي — المكوّنات (يُمزج جيدًا)",
+   "style": "summary"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Schaudinn's working solution:** Immediately before use, add **(5ml) glacial acetic acid** to **(95 ml)** of solution in a **Coplin jar** & mix well.",
+    "(This mixture is **stable for two weeks**)."
+   ],
+   "ar": [
+    "**محلول شاودين العامل:** قبل الاستعمال مباشرةً أضف **(5 مل) حامض الخليك الثلجي** إلى **(95 مل)** من المحلول في **جرة كوبلن** وامزج جيدًا.",
+    "(هذا الخليط **ثابت لمدة أسبوعين**)."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/staining-jar.jpg",
+     "en": "Staining jar",
+     "ar": "جرة صبغ",
+     "h": "30mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/coplin-jar.jpg",
+     "en": "Coplin jar",
+     "ar": "جرة كوبلن",
+     "h": "30mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Principle:** Schaudinn's fixative **adheres the fecal material to the slide** and maintains the staining integrity of protozoan **trophozoites and cysts** found in specimens.",
+   "ar": "**المبدأ:** يُلصق مثبّت شاودين **المادة البرازية بالشريحة** ويحافظ على سلامة صبغ **الأطوار الخضرية والأكياس** للأوالي الموجودة في العيّنات."
+  },
+  {
+   "t": "card",
+   "en": "**Advantages:**",
+   "ar": "**المزايا:**",
+   "list_en": [
+    "Designed to be used for the fixation of slides prepared from **fresh fecal specimens** or samples from the **intestinal mucosal surfaces**.",
+    "Prepared slides can be stored in the fixative for **up to a week** without distortion of protozoan organisms.",
+    "**Easily prepared** in the laboratory.",
+    "Available from several commercial suppliers."
+   ],
+   "list_ar": [
+    "مصمّم لتثبيت الشرائح المحضّرة من **عيّنات البراز الطازجة** أو من **السطوح المخاطية للأمعاء**.",
+    "يمكن حفظ الشرائح المحضّرة في المثبّت **حتى أسبوع** دون تشوّه الأوالي.",
+    "**سهل التحضير** في المختبر.",
+    "متوفّر لدى عدة مورّدين تجاريين."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Disadvantages:**",
+   "ar": "**العيوب:**",
+   "list_en": [
+    "**Not recommended for use in concentration techniques.**",
+    "Has **poor adhesive properties** with **liquid or mucoid** specimens.",
+    "Contains **mercury compounds (mercuric chloride)**, which may cause **disposal problems**."
+   ],
+   "list_ar": [
+    "**لا يُنصح باستعماله في تقنيات التركيز.**",
+    "**خواصّه اللاصقة ضعيفة** مع العيّنات **السائلة أو المخاطية**.",
+    "يحتوي **مركّبات الزئبق (كلوريد الزئبق)** التي قد تسبّب **مشكلات في التخلّص منها**."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    "",
+    "Formalin",
+    "PVA",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Toxicity",
+     "+/-",
+     "+++ (duo to Hg)",
+     "**السمّية**: ± — +++ (بسبب الزئبق)"
+    ],
+    [
+     "Shelf life",
+     "Long (months)",
+     "Long (months/years)",
+     "**الصلاحية**: طويلة (أشهر) — طويلة (أشهر/سنوات)"
+    ],
+    [
+     "Preparation",
+     "Easy",
+     "Difficult",
+     "**التحضير**: سهل — صعب"
+    ],
+    [
+     "Quality of fixation — Egg",
+     "++",
+     "++",
+     "**جودة التثبيت — البيضة**: ++ — ++"
+    ],
+    [
+     "Quality of fixation — Cyst",
+     "++",
+     "+++",
+     "**جودة التثبيت — الكيس**: ++ — +++"
+    ],
+    [
+     "Quality of fixation — Troph’s",
+     "+/-",
+     "+++",
+     "**جودة التثبيت — الطور الخضري**: ± — +++"
+    ],
+    [
+     "Formalin ether concentration",
+     "Possible",
+     "Not possible",
+     "**التركيز بالفورمالين-الإيثر**: ممكن — غير ممكن"
+    ],
+    [
+     "Permanent stained smear",
+     "Not possible",
+     "Only Trichrome",
+     "**المسحة المصبوغة الدائمة**: غير ممكنة — بالـTrichrome فقط"
+    ]
+   ],
+   "ar_cols": [
+    3
+   ],
+   "key_cols": [
+    0
+   ],
+   "label_en": "Formalin vs PVA",
+   "label_ar": "الفورمالين مقابل الـPVA",
+   "style": "summary"
+  },
+  {
+   "t": "h2",
+   "en": "3- The Buffered Methylene Blue (BMB) Wet Mount",
+   "ar": "3- المسحة الرطبة بأزرق المثيلين المنظَّم (BMB)"
+  },
+  {
+   "t": "card",
+   "en": "The Buffered Methylene Blue stain has been used successfully to **stain protozoan trophozoites in wet preparations**.",
+   "ar": "استُخدمت صبغة أزرق المثيلين المنظَّم بنجاح لـ**صبغ الأطوار الخضرية للأوالي في التحضيرات الرطبة**."
+  },
+  {
+   "t": "table",
+   "head": [
+    "Component",
+    "Amount",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Glacial acetic acid",
+     "1.2 ml",
+     "**حامض الخليك الثلجي**: 1.2 مل"
+    ],
+    [
+     "Distilled water",
+     "98.8 ml",
+     "**ماء مقطّر**: 98.8 مل"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ],
+   "label_en": "a) Stock reagents — Solution A: acetic acid",
+   "label_ar": "أ) الكواشف الأساسية — المحلول A: حامض الخليك",
+   "style": "summary"
+  },
+  {
+   "t": "card",
+   "en": "In a clean stoppered glass bottle, add the glacial acetic acid to about **50 mL** of distilled water, mix well, then complete the volume of distilled water and store.",
+   "ar": "في قنينة زجاجية نظيفة ذات سدادة، أضف حامض الخليك الثلجي إلى نحو **50 مل** من الماء المقطّر وامزج جيدًا، ثم أكمل الحجم بالماء المقطّر واحفظه."
+  },
+  {
+   "t": "table",
+   "head": [
+    "Component",
+    "Amount",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Sodium acetate",
+     "1.64 gm",
+     "**خلات الصوديوم**: 1.64 غم"
+    ],
+    [
+     "Distilled water",
+     "100 ml",
+     "**ماء مقطّر**: 100 مل"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ],
+   "label_en": "Solution B: sodium acetate",
+   "label_ar": "المحلول B: خلات الصوديوم",
+   "style": "summary"
+  },
+  {
+   "t": "card",
+   "en": "In a clean, stoppered glass bottle, put the sodium acetate (1.64 g) and dissolve it in distilled water. Mix well and store.",
+   "ar": "في قنينة زجاجية نظيفة ذات سدادة ضع خلات الصوديوم (1.64 غم) وأذبها في الماء المقطّر، ثم امزج جيدًا واحفظه."
+  },
+  {
+   "t": "table",
+   "head": [
+    "Component",
+    "Amount",
+    "الترجمة"
+   ],
+   "rows": [
+    [
+     "Solution A",
+     "46.3 ml",
+     "**المحلول A**: 46.3 مل"
+    ],
+    [
+     "Solution B",
+     "3.7 ml",
+     "**المحلول B**: 3.7 مل"
+    ],
+    [
+     "Methylene Blue powder",
+     "3.0 gm",
+     "**مسحوق أزرق المثيلين**: 3.0 غم"
+    ]
+   ],
+   "ar_cols": [
+    2
+   ],
+   "key_cols": [
+    0
+   ],
+   "label_en": "Working solution",
+   "label_ar": "المحلول العامل",
+   "style": "summary"
+  },
+  {
+   "t": "card",
+   "en": "Mix the ingredients well. This solution should be **prepared just prior to use** for optimum results.",
+   "ar": "امزج المكوّنات جيدًا. ويجب **تحضير هذا المحلول قبل الاستعمال مباشرةً** للحصول على أفضل النتائج."
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Should be prepared each time **amoebic trophozoites** are seen in a **saline wet mount**, or when their presence is suspected.",
+     "ar": "يُحضَّر كلما شوهدت **الأطوار الخضرية للأميبا** في **مسحة رطبة بالمحلول الملحي** أو عند الشك بوجودها."
+    },
+    {
+     "en": "Using an **applicator stick**, mix a small amount of fecal material with a drop of Buffered Methylene on a slide.",
+     "ar": "باستعمال **عود خشبي**، امزج كمية قليلة من البراز مع قطرة من أزرق المثيلين المنظَّم على شريحة."
+    },
+    {
+     "en": "Wait for **(5 minutes)** to allow the stain to penetrate the trophozoites. It will **overstain** the trophozoites in **30 minutes**.",
+     "ar": "انتظر **(5 دقائق)** لتخترق الصبغة الأطوار الخضرية، وستُفرط في صبغها بعد **30 دقيقة**."
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Advantages:**",
+   "ar": "**المزايا:**",
+   "list_en": [
+    "BMB stain is appropriate **only for fresh, unpreserved specimens**.",
+    "BMB stains **amoebic trophozoites**.",
+    "BMB stain **live organisms only**."
+   ],
+   "list_ar": [
+    "صبغة BMB مناسبة **للعيّنات الطازجة غير المحفوظة فقط**.",
+    "تصبغ BMB **الأطوار الخضرية للأميبا**.",
+    "تصبغ BMB **الكائنات الحية فقط**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Disadvantages:**",
+   "ar": "**العيوب:**",
+   "list_en": [
+    "**Does not stain amoebic cysts or flagellate trophozoites.**",
+    "It isn’t used on **preserved samples** in which the organism has been killed."
+   ],
+   "list_ar": [
+    "**لا تصبغ أكياس الأميبا ولا الأطوار الخضرية للسوطيات.**",
+    "لا تُستعمل مع **العيّنات المحفوظة** التي قُتل فيها الكائن."
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "PVA",
+    "topic_ar": "كحول البولي فاينيل"
+   },
+   {
+    "en": "The volume of Schaudinn's stock solution in PVA is:",
+    "ar": "حجم محلول شاودين الأساسي في الـPVA:",
+    "options": [
+     [
+      "5.0 ml",
+      "5.0 مل"
+     ],
+     [
+      "1.5 ml",
+      "1.5 مل"
+     ],
+     [
+      "95 ml",
+      "95 مل"
+     ],
+     [
+      "93.5 ml",
+      "93.5 مل"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The amount of polyvinyl alcohol in PVA fixative is:",
+    "ar": "كمية كحول البولي فاينيل في مثبّت الـPVA:",
+    "options": [
+     [
+      "1.5 g",
+      "1.5 غم"
+     ],
+     [
+      "5 g",
+      "5 غم"
+     ],
+     [
+      "10 g",
+      "10 غم"
+     ],
+     [
+      "3 g",
+      "3 غم"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The shelf life of PVA in tightly sealed containers is:",
+    "ar": "مدة صلاحية الـPVA في أوعية محكمة الغلق:",
+    "options": [
+     [
+      "Months to years",
+      "أشهر إلى سنوات"
+     ],
+     [
+      "Two weeks",
+      "أسبوعان"
+     ],
+     [
+      "A few hours",
+      "بضع ساعات"
+     ],
+     [
+      "One day",
+      "يوم واحد"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "PVA adheres stool material to the slide because it is a:",
+    "ar": "يُلصق الـPVA مادة البراز بالشريحة لأنه:",
+    "options": [
+     [
+      "Buffer",
+      "منظّم"
+     ],
+     [
+      "Dye",
+      "صبغة"
+     ],
+     [
+      "Plastic resin",
+      "راتنج بلاستيكي"
+     ],
+     [
+      "Mercury salt",
+      "ملح زئبقي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The greatest advantage of PVA is that it allows preparation of:",
+    "ar": "أعظم ميزة للـPVA أنه يتيح تحضير:",
+    "options": [
+     [
+      "A permanent stain (trichrome)",
+      "صبغة دائمة (Trichrome)"
+     ],
+     [
+      "Formalin-ether concentrates",
+      "مركّزات الفورمالين-الإيثر"
+     ],
+     [
+      "Wet mounts only",
+      "مسحات رطبة فقط"
+     ],
+     [
+      "Blood films",
+      "مسحات دم"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "PVA is highly toxic because it contains:",
+    "ar": "الـPVA شديد السمّية لاحتوائه:",
+    "options": [
+     [
+      "Formalin",
+      "الفورمالين"
+     ],
+     [
+      "Mercury compounds",
+      "مركّبات الزئبق"
+     ],
+     [
+      "Methylene blue",
+      "أزرق المثيلين"
+     ],
+     [
+      "Glycerol",
+      "الكليسيرول"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which procedure cannot be performed on PVA-preserved specimens:",
+    "ar": "أي إجراء لا يمكن إجراؤه على العيّنات المحفوظة بالـPVA:",
+    "options": [
+     [
+      "Trichrome stain",
+      "صبغة Trichrome"
+     ],
+     [
+      "Immunoassay",
+      "المقايسة المناعية"
+     ],
+     [
+      "Concentration methods",
+      "طرائق التركيز"
+     ],
+     [
+      "UV fluorescence",
+      "الفلورة بالأشعة فوق البنفسجية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "All of the following are not concentrated well from PVA EXCEPT:",
+    "ar": "كل ما يأتي لا يتركّز جيدًا من الـPVA عدا:",
+    "options": [
+     [
+      "Trichuris trichiura eggs",
+      "بيوض الدودة السوطية"
+     ],
+     [
+      "Giardia lamblia cysts",
+      "أكياس الجيارديا"
+     ],
+     [
+      "Isospora belli oocysts",
+      "أكياس بيض الإيزوسبورا"
+     ],
+     [
+      "Entamoeba trophozoites",
+      "الأطوار الخضرية للأميبا"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "PVA may interfere with:",
+    "ar": "قد يتداخل الـPVA مع:",
+    "options": [
+     [
+      "PCR",
+      "PCR"
+     ],
+     [
+      "Microscopy",
+      "المجهر"
+     ],
+     [
+      "Trichrome",
+      "Trichrome"
+     ],
+     [
+      "Immunoassays",
+      "المقايسات المناعية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Schaudinn's fixative",
+    "topic_ar": "مثبّت شاودين"
+   },
+   {
+    "en": "Schaudinn's fixative is a saturated solution of:",
+    "ar": "مثبّت شاودين محلول مشبع من:",
+    "options": [
+     [
+      "Sodium acetate",
+      "خلات الصوديوم"
+     ],
+     [
+      "Mercuric chloride (HgCl₂)",
+      "كلوريد الزئبق"
+     ],
+     [
+      "Methylene blue",
+      "أزرق المثيلين"
+     ],
+     [
+      "Formalin",
+      "الفورمالين"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "To prepare saturated HgCl₂, 10 g are dissolved in 100 mL of:",
+    "ar": "لتحضير HgCl₂ المشبع تُذاب 10 غم في 100 مل من:",
+    "options": [
+     [
+      "Boiling distilled water",
+      "ماء مقطّر مغلي"
+     ],
+     [
+      "Glacial acetic acid",
+      "حامض الخليك الثلجي"
+     ],
+     [
+      "Cold ethanol",
+      "إيثانول بارد"
+     ],
+     [
+      "Warm (not boiling) distilled water",
+      "ماء مقطّر دافئ غير مغلي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Schaudinn's stock solution contains saturated HgCl₂ and 95% ethanol in a ratio of:",
+    "ar": "يحتوي محلول شاودين الأساسي كلوريد الزئبق المشبع وإيثانول 95% بنسبة:",
+    "options": [
+     [
+      "1 : 1",
+      "1 : 1"
+     ],
+     [
+      "1 : 2",
+      "1 : 2"
+     ],
+     [
+      "2 : 1",
+      "2 : 1"
+     ],
+     [
+      "3 : 1",
+      "3 : 1"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The working solution is made by adding glacial acetic acid to the stock solution in a:",
+    "ar": "يُحضَّر المحلول العامل بإضافة حامض الخليك الثلجي إلى المحلول الأساسي في:",
+    "options": [
+     [
+      "Petri dish",
+      "طبق بتري"
+     ],
+     [
+      "Coplin jar",
+      "جرة كوبلن"
+     ],
+     [
+      "Test tube",
+      "أنبوبة اختبار"
+     ],
+     [
+      "Beaker only",
+      "كأس فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Schaudinn's working solution is stable for:",
+    "ar": "محلول شاودين العامل ثابت لمدة:",
+    "options": [
+     [
+      "Two weeks",
+      "أسبوعين"
+     ],
+     [
+      "One day",
+      "يوم واحد"
+     ],
+     [
+      "Six months",
+      "ستة أشهر"
+     ],
+     [
+      "Years",
+      "سنوات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Prepared slides can be stored in Schaudinn's fixative for up to:",
+    "ar": "يمكن حفظ الشرائح المحضّرة في مثبّت شاودين حتى:",
+    "options": [
+     [
+      "One hour",
+      "ساعة"
+     ],
+     [
+      "A year",
+      "سنة"
+     ],
+     [
+      "A week",
+      "أسبوع"
+     ],
+     [
+      "A day",
+      "يوم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Schaudinn's fixative has poor adhesive properties with:",
+    "ar": "خواص مثبّت شاودين اللاصقة ضعيفة مع:",
+    "options": [
+     [
+      "Formed stool",
+      "البراز المتشكّل"
+     ],
+     [
+      "Mucosal samples",
+      "عيّنات المخاطية"
+     ],
+     [
+      "Fresh specimens",
+      "العيّنات الطازجة"
+     ],
+     [
+      "Liquid or mucoid specimens",
+      "العيّنات السائلة أو المخاطية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Compared with PVA, Schaudinn's fixative is:",
+    "ar": "مقارنةً بالـPVA فإن مثبّت شاودين:",
+    "options": [
+     [
+      "Difficult to prepare",
+      "صعب التحضير"
+     ],
+     [
+      "Easily prepared in the laboratory",
+      "سهل التحضير في المختبر"
+     ],
+     [
+      "Mercury-free",
+      "خالٍ من الزئبق"
+     ],
+     [
+      "Recommended for concentration",
+      "يُنصح به للتركيز"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Formalin vs PVA",
+    "topic_ar": "الفورمالين مقابل الـPVA"
+   },
+   {
+    "en": "Formalin-ether concentration is possible with:",
+    "ar": "التركيز بالفورمالين-الإيثر ممكن مع:",
+    "options": [
+     [
+      "Formalin",
+      "الفورمالين"
+     ],
+     [
+      "PVA",
+      "PVA"
+     ],
+     [
+      "Both",
+      "كليهما"
+     ],
+     [
+      "Neither",
+      "لا هذا ولا ذاك"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The quality of fixation of trophozoites is best with:",
+    "ar": "جودة تثبيت الأطوار الخضرية أفضل مع:",
+    "options": [
+     [
+      "Formalin",
+      "الفورمالين"
+     ],
+     [
+      "Water",
+      "الماء"
+     ],
+     [
+      "PVA",
+      "PVA"
+     ],
+     [
+      "Saline",
+      "المحلول الملحي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "A permanent stained smear from PVA is possible only with:",
+    "ar": "المسحة المصبوغة الدائمة من الـPVA ممكنة فقط بـ:",
+    "options": [
+     [
+      "Giemsa",
+      "كيمزا"
+     ],
+     [
+      "Methylene blue",
+      "أزرق المثيلين"
+     ],
+     [
+      "Iodine",
+      "اليود"
+     ],
+     [
+      "Trichrome",
+      "Trichrome"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Buffered Methylene Blue",
+    "topic_ar": "أزرق المثيلين المنظَّم"
+   },
+   {
+    "en": "Solution A of BMB stock reagents is:",
+    "ar": "المحلول A من كواشف BMB الأساسية:",
+    "options": [
+     [
+      "Sodium acetate",
+      "خلات الصوديوم"
+     ],
+     [
+      "Methylene blue",
+      "أزرق المثيلين"
+     ],
+     [
+      "Acetic acid",
+      "حامض الخليك"
+     ],
+     [
+      "Mercuric chloride",
+      "كلوريد الزئبق"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Solution B contains sodium acetate:",
+    "ar": "يحتوي المحلول B خلات الصوديوم بمقدار:",
+    "options": [
+     [
+      "1.2 g",
+      "1.2 غم"
+     ],
+     [
+      "1.64 g",
+      "1.64 غم"
+     ],
+     [
+      "3.0 g",
+      "3.0 غم"
+     ],
+     [
+      "10 g",
+      "10 غم"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The BMB working solution contains methylene blue powder:",
+    "ar": "يحتوي المحلول العامل لـBMB مسحوق أزرق المثيلين بمقدار:",
+    "options": [
+     [
+      "1.64 g",
+      "1.64 غم"
+     ],
+     [
+      "46.3 g",
+      "46.3 غم"
+     ],
+     [
+      "5 g",
+      "5 غم"
+     ],
+     [
+      "3.0 g",
+      "3.0 غم"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "After mixing feces with BMB, wait for:",
+    "ar": "بعد مزج البراز مع BMB انتظر:",
+    "options": [
+     [
+      "5 minutes",
+      "5 دقائق"
+     ],
+     [
+      "1 minute",
+      "دقيقة"
+     ],
+     [
+      "30 minutes",
+      "30 دقيقة"
+     ],
+     [
+      "1 hour",
+      "ساعة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "BMB overstains trophozoites after:",
+    "ar": "تُفرط BMB في صبغ الأطوار الخضرية بعد:",
+    "options": [
+     [
+      "5 minutes",
+      "5 دقائق"
+     ],
+     [
+      "30 minutes",
+      "30 دقيقة"
+     ],
+     [
+      "10 minutes",
+      "10 دقائق"
+     ],
+     [
+      "24 hours",
+      "24 ساعة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "BMB stains:",
+    "ar": "تصبغ BMB:",
+    "options": [
+     [
+      "Amoebic trophozoites",
+      "الأطوار الخضرية للأميبا"
+     ],
+     [
+      "Amoebic cysts",
+      "أكياس الأميبا"
+     ],
+     [
+      "Flagellate trophozoites",
+      "الأطوار الخضرية للسوطيات"
+     ],
+     [
+      "Helminth eggs",
+      "بيوض الديدان"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "BMB is appropriate only for:",
+    "ar": "صبغة BMB مناسبة فقط لـ:",
+    "options": [
+     [
+      "Preserved specimens",
+      "العيّنات المحفوظة"
+     ],
+     [
+      "PVA specimens",
+      "عيّنات الـPVA"
+     ],
+     [
+      "Fresh, unpreserved specimens",
+      "العيّنات الطازجة غير المحفوظة"
+     ],
+     [
+      "Formalin specimens",
+      "عيّنات الفورمالين"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "This glass jar, used to prepare Schaudinn's working solution, is a:",
+    "ar": "هذه الجرة الزجاجية المستعملة لتحضير محلول شاودين العامل هي:",
+    "options": [
+     [
+      "Petri dish",
+      "طبق بتري"
+     ],
+     [
+      "Flask",
+      "دورق"
+     ],
+     [
+      "Beaker",
+      "كأس"
+     ],
+     [
+      "Coplin jar",
+      "جرة كوبلن"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/coplin-jar.jpg",
+    "img_h": "34mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "PVA is a fixative for all purposes.",
+    "ar": "الـPVA مثبّت لكل الأغراض.",
+    "answer": "T"
+   },
+   {
+    "en": "PVA preserves trophozoites poorly.",
+    "ar": "يحفظ الـPVA الأطوار الخضرية حفظًا ضعيفًا.",
+    "answer": "F"
+   },
+   {
+    "en": "PVA is compatible with immunoassay kits.",
+    "ar": "الـPVA متوافق مع عُدد المقايسات المناعية.",
+    "answer": "T"
+   },
+   {
+    "en": "PVA is easy to prepare in the laboratory.",
+    "ar": "الـPVA سهل التحضير في المختبر.",
+    "answer": "F"
+   },
+   {
+    "en": "Mercury-containing fixatives must be disposed of as toxic waste.",
+    "ar": "يجب التخلّص من المثبّتات الحاوية للزئبق بوصفها نفايات سامة.",
+    "answer": "T"
+   },
+   {
+    "en": "HgCl₂ should be dissolved in boiling water.",
+    "ar": "يجب إذابة HgCl₂ في ماء مغلي.",
+    "answer": "F"
+   },
+   {
+    "en": "Labelling the Schaudinn's bottle is very important.",
+    "ar": "وضع الملصق على قنينة شاودين مهم جدًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Schaudinn's fixative is recommended for concentration techniques.",
+    "ar": "يُنصح بمثبّت شاودين في تقنيات التركيز.",
+    "answer": "F"
+   },
+   {
+    "en": "Formalin is more toxic than PVA.",
+    "ar": "الفورمالين أكثر سمّية من الـPVA.",
+    "answer": "F"
+   },
+   {
+    "en": "BMB working solution should be prepared just prior to use.",
+    "ar": "يجب تحضير المحلول العامل لـBMB قبل الاستعمال مباشرةً.",
+    "answer": "T"
+   },
+   {
+    "en": "BMB stains amoebic cysts.",
+    "ar": "تصبغ BMB أكياس الأميبا.",
+    "answer": "F"
+   },
+   {
+    "en": "BMB stains live organisms only.",
+    "ar": "تصبغ BMB الكائنات الحية فقط.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "PVA or Schaudinn's — which is easy to prepare?",
+    "ar": "PVA أم شاودين — أيهما سهل التحضير؟",
+    "answer_en": "Schaudinn's is easily prepared; PVA is difficult to prepare.",
+    "answer_ar": "شاودين سهل التحضير؛ أما الـPVA فصعب."
+   },
+   {
+    "en": "Concentration possible?",
+    "ar": "هل التركيز ممكن؟",
+    "answer_en": "Formalin: possible. PVA and Schaudinn's: not for concentration techniques.",
+    "answer_ar": "الفورمالين: ممكن. الـPVA وشاودين: لا يصلحان لتقنيات التركيز."
+   },
+   {
+    "en": "Which stain on PVA smears?",
+    "ar": "أي صبغة على مسحات الـPVA؟",
+    "answer_en": "Only trichrome permanent stain.",
+    "answer_ar": "صبغة Trichrome الدائمة فقط."
+   },
+   {
+    "en": "5 or 30 minutes in BMB?",
+    "ar": "5 أم 30 دقيقة في BMB؟",
+    "answer_en": "Wait 5 minutes to penetrate; by 30 minutes it overstains.",
+    "answer_ar": "انتظر 5 دقائق للاختراق؛ وعند 30 دقيقة تُفرط في الصبغ."
+   },
+   {
+    "en": "What does BMB NOT stain?",
+    "ar": "ماذا لا تصبغ BMB؟",
+    "answer_en": "Amoebic cysts, flagellate trophozoites and preserved (killed) organisms.",
+    "answer_ar": "أكياس الأميبا والأطوار الخضرية للسوطيات والكائنات المحفوظة (المقتولة)."
+   }
+  ],
+  "important": [
+   {
+    "en": "Write the composition of PVA fixative.",
+    "ar": "اكتب مكوّنات مثبّت الـPVA.",
+    "answer_en": "Schaudinn's stock solution 93.5 ml, glycerol 1.5 ml, glacial acetic acid 5.0 ml, polyvinyl alcohol 5 g.",
+    "answer_ar": "محلول شاودين الأساسي 93.5 مل، الكليسيرول 1.5 مل، حامض الخليك الثلجي 5.0 مل، كحول البولي فاينيل 5 غم."
+   },
+   {
+    "en": "List the advantages of PVA.",
+    "ar": "عدّد مزايا الـPVA.",
+    "answer_en": "All-purpose fixative; long shelf life; excellent preservation of trophozoites and cysts, suitable for helminth eggs/larvae; compatible with immunoassays and UV fluorescence; adhesive plastic resin; permits permanent trichrome stain; commercially available.",
+    "answer_ar": "مثبّت لكل الأغراض؛ صلاحية طويلة؛ حفظ ممتاز للأطوار الخضرية والأكياس ويصلح لبيوض الديدان ويرقاتها؛ متوافق مع المقايسات المناعية والفلورة؛ راتنج لاصق؛ يتيح صبغة Trichrome الدائمة؛ متوفّر تجاريًا."
+   },
+   {
+    "en": "List the disadvantages of PVA.",
+    "ar": "عدّد عيوب الـPVA.",
+    "answer_en": "Contains toxic mercury compounds; concentration methods not possible; difficult to prepare; some organisms not concentrated well and morphology distorted; may interfere with PCR.",
+    "answer_ar": "يحتوي مركّبات زئبق سامة؛ لا تمكن طرائق التركيز؛ صعب التحضير؛ بعض الكائنات لا تتركّز جيدًا ويتشوّه شكلها؛ قد يتداخل مع PCR."
+   },
+   {
+    "en": "How is Schaudinn's fixative prepared?",
+    "ar": "كيف يُحضَّر مثبّت شاودين؟",
+    "answer_en": "Saturated HgCl₂: dissolve 10 g in 100 mL warm distilled water, cool, filter the supernatant, store sealed and label. Stock: 2 volumes saturated HgCl₂ + 1 volume 95% ethanol. Working: 5 ml glacial acetic acid + 95 ml stock in a Coplin jar (stable two weeks).",
+    "answer_ar": "HgCl₂ المشبع: أذب 10 غم في 100 مل ماء مقطّر دافئ، برّد، رشّح الطافي، احفظه محكمًا وضع ملصقًا. الأساسي: حجمان من HgCl₂ المشبع + حجم من إيثانول 95%. العامل: 5 مل حامض خليك ثلجي + 95 مل أساسي في جرة كوبلن (ثابت أسبوعين)."
+   },
+   {
+    "en": "Compare formalin and PVA.",
+    "ar": "قارن بين الفورمالين والـPVA.",
+    "answer_en": "Toxicity ± vs +++ (Hg); shelf life months vs months/years; preparation easy vs difficult; fixation: eggs ++/++, cysts ++/+++, trophozoites ±/+++; formalin-ether concentration possible vs not; permanent smear not possible vs trichrome only.",
+    "answer_ar": "السمّية ± مقابل +++ (زئبق)؛ الصلاحية أشهر مقابل أشهر/سنوات؛ التحضير سهل مقابل صعب؛ التثبيت: البيوض ++/++، الأكياس ++/+++، الأطوار الخضرية ±/+++؛ التركيز ممكن مقابل غير ممكن؛ المسحة الدائمة غير ممكنة مقابل Trichrome فقط."
+   },
+   {
+    "en": "Describe the preparation and procedure of the BMB wet mount.",
+    "ar": "صف تحضير المسحة الرطبة بـBMB وطريقتها.",
+    "answer_en": "Solution A: 1.2 ml glacial acetic acid + 98.8 ml water. Solution B: 1.64 g sodium acetate + 100 ml water. Working: 46.3 ml A + 3.7 ml B + 3.0 g methylene blue, prepared just before use. Mix feces with a drop on a slide, wait 5 minutes (overstains at 30 minutes).",
+    "answer_ar": "المحلول A: 1.2 مل حامض خليك ثلجي + 98.8 مل ماء. المحلول B: 1.64 غم خلات صوديوم + 100 مل ماء. العامل: 46.3 مل A + 3.7 مل B + 3.0 غم أزرق مثيلين، يُحضَّر قبل الاستعمال مباشرةً. يُمزج البراز مع قطرة على شريحة ويُنتظر 5 دقائق (يفرط في الصبغ عند 30 دقيقة)."
+   }
+  ]
+ }
+}

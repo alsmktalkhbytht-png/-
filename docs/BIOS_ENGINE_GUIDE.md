@@ -1108,6 +1108,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `bloodbank-lec2-donation-criteria` | نقل الدم | 2 |
 | `bloodbank-lec3-services` | نقل الدم | 3 |
 | `parasitology-week1-mcq` | طفيليات | بنك أسئلة الأسبوع 1 |
+| `parasitology-lab4-solutions` | طفيليات | عملي 4 |
 | `research-lec1-principles` | مبادئ البحث | 1 |
 | `research-lec2-scientific-method` | مبادئ البحث | 2 |
 | `enzymology-lab1-safety-tubes` | إنزيمات سريرية | عملي 1 |
