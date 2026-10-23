@@ -71,9 +71,13 @@ description: Build a BIOS-style bilingual (English + Arabic) handout PDF — and
 - **Organise for memorising:** do not leave everything as plain paragraphs — add a table, an arrow
   chain (`flow`), points, or an "at a glance" summary box where it helps. The English stays verbatim;
   these aids are BIOS additions.
-- **End every handout with "Quick summary & key terms — الخلاصة السريعة وأهم المصطلحات":** short
-  bilingual points covering the whole lecture (cards of at most 4 points), then a key-terms table
-  giving **several Arabic renderings** for each term (`الداء البطني / الداء الزلاقي / مرض السيلياك`).
+- **Summarise every topic where it ends (team decision, from the parasitology handouts on):** close each
+  section (`section` block) with a short "In short — باختصار" box of bilingual points covering that
+  topic — its definitions, numbers and differences — so students review each topic right after reading it.
+  Use a `table` with `style: "summary"` or a `card` list; keep it to the topic just read.
+- **End every handout with the key-terms glossary only — "Key terms — أهم المصطلحات":** a table giving
+  **several Arabic renderings** for each term (`الداء البطني / الداء الزلاقي / مرض السيلياك`). No long
+  whole-lecture summary at the end any more; the per-topic summaries replace it.
 - **Every listed point carries its own translation right after it** — never all English
   points followed by all Arabic points. Short pairs sit on one line (English left, Arabic
   right); long pairs stack with the Arabic underneath. MCQ options follow the same rule.
