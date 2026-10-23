@@ -1119,6 +1119,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `clinimm-lec6-celiac-pa-t1d` | مناعة سريرية | نظري 6 |
 | `parasitology-week1-mcq` … `parasitology-week5-mcq` | طفيليات | بنوك أسئلة الأسابيع 1–5 — الحل تحت كل سؤال |
 | `parasitology-lab4-solutions` | طفيليات | عملي 4 |
+| `parasitology-week2-theory` … `parasitology-week5-theory` | طفيليات | نظري الأسابيع 2–5 — بدون أسئلة |
 | `research-lec1-principles` | مبادئ البحث | 1 |
 | `research-lec2-scientific-method` | مبادئ البحث | 2 |
 | `research-lec3-research-plan` | مبادئ البحث | 3 — مدموجة مع الأسئلة |

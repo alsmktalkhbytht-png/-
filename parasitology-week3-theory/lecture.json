@@ -1,0 +1,1765 @@
+{
+ "meta": {
+  "subject_en": "Diagnostic Parasitology",
+  "subject_ar": "الطفيليات التشخيصية",
+  "short_ar": "طفيليات",
+  "instructor": "أ.د. نزار الخفاجي",
+  "unit_en": "Week 3",
+  "unit_ar": "الأسبوع 3",
+  "unit_label": "WEEK",
+  "unit_no": "3",
+  "title_en": "Amoeba: Entamoeba histolytica & Stool Examination",
+  "title_ar": "الأميبا: الأميبا الحالّة للنسيج وفحص البراز",
+  "department": "قسم التحليلات",
+  "stage": "The fourth stage — الرابعة",
+  "kind": "Theory — نظري"
+ },
+ "blocks": [
+  {
+   "t": "card",
+   "en": "**Amoeba** — topics of this week",
+   "ar": "**الأميبا** — مواضيع هذا الأسبوع",
+   "list_en": [
+    "__Entamoeba histolytica__; History and Distribution; Morphology; Life cycles; Pathogenesis; and Clinical features",
+    "Extraintestinal amoebiasis; laboratory diagnosis; immunity; treatment",
+    "Examination of stool sample",
+    "a. Macroscopic examination of stool",
+    "b. Microscopic examination wet mounts"
+   ],
+   "list_ar": [
+    "`__Entamoeba histolytica__`؛ التاريخ والانتشار؛ الشكل؛ دورات الحياة؛ الإمراضية؛ والمظاهر السريرية",
+    "داء الأميبات خارج المعوي؛ التشخيص المختبري؛ المناعة؛ العلاج",
+    "فحص عيّنة البراز",
+    "أ. الفحص العياني للبراز",
+    "ب. الفحص المجهري بالتحضيرات الرطبة"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Amoeba",
+   "ar": "الأميبا"
+  },
+  {
+   "t": "card",
+   "en": "**Amoebae** primitive unicellular microorganisms with a relatively simple life cycle which can be divided into **two stages**:",
+   "ar": "**الأميبات** كائنات مجهرية بدائية وحيدة الخلية ذات دورة حياة بسيطة نسبيًا يمكن تقسيمها إلى **طورين**:"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Stage",
+     "الطور"
+    ],
+    [
+     "Description",
+     "الوصف"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Trophozoite",
+      "الطور الناشط"
+     ],
+     [
+      "Actively motile feeding stage.",
+      "طور متغذٍّ نشط الحركة."
+     ]
+    ],
+    [
+     [
+      "Cyst",
+      "الكيس"
+     ],
+     [
+      "Quiescent, resistant, infective stage.",
+      "طور ساكن مقاوم معدٍ."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    76
+   ],
+   "style": "summary",
+   "label_en": "Two stages",
+   "label_ar": "طوران"
+  },
+  {
+   "t": "card",
+   "en": "Their reproduction is through **binary fission**, e. g. splitting of the trophozoite or through the development of numerous trophozoites within the mature multinucleated cyst.",
+   "ar": "تتكاثر بـ**الانشطار الثنائي**، أي انقسام الطور الناشط، أو بتكوّن أطوار ناشطة عديدة داخل الكيس الناضج متعدّد الأنوية."
+  },
+  {
+   "t": "card",
+   "en": "**Motility**– Is accomplished by extension of **pseudopodia** (“false foot”).",
+   "ar": "**الحركة** — تتم بمدّ **الأقدام الكاذبة** («القدم الزائفة»)."
+  },
+  {
+   "t": "card",
+   "en": "Two groups of amoebae are of medical importance",
+   "ar": "مجموعتان من الأميبات ذواتا أهمية طبية"
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**a. Amoebae of the alimentary canal:** The most important of these is **__Entamoeba histolytica__** which causes **intestinal and extraintestinal amoebiasis**.",
+    "Amoebae are also present in the mouth."
+   ],
+   "ar": [
+    "**أ. أميبات القناة الهضمية:** أهمها **`__Entamoeba histolytica__`** التي تسبّب **داء الأميبات المعوي وخارج المعوي**.",
+    "وتوجد الأميبات أيضًا في الفم."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**b. Potentially pathogenic free- living amoebae:** Several species of saprophytic amoebae are found in **soil and water**.",
+    "Two of these, **Naegleria and Acanthamoeba** are of clinical interest because they can cause **eye infections and fatal meningoencephalitis**"
+   ],
+   "ar": [
+    "**ب. الأميبات حرّة المعيشة الممرضة المحتملة:** توجد أنواع عدة من الأميبات الرمّية في **التربة والماء**.",
+    "واثنان منها، **النيغلرية والأكانثاميبا**، ذوا أهمية سريرية لأنهما قد يسبّبان **عدوى العين والتهاب السحايا والدماغ المميت**"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Entamoeba histolytica",
+   "ar": "الأميبا الحالّة للنسيج"
+  },
+  {
+   "t": "card",
+   "en": "Protozoa: Phylum Sarcomastigophora- Subphylum Sarcodina",
+   "ar": "الأوالي: شعبة اللحميات السوطية — شعيبة اللحميات"
+  },
+  {
+   "t": "card",
+   "en": "**1. __Entamoeba histolytica__** (**amebic dysentery, amebic hepatitis**).",
+   "ar": "**1. `__Entamoeba histolytica__`** (**الزحار الأميبي، التهاب الكبد الأميبي**)."
+  },
+  {
+   "t": "h2",
+   "en": "History and distribution:",
+   "ar": "التاريخ والانتشار:"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Is **world- wide** in prevalence.",
+    "It is much more common in the **tropics** than elsewhere, but it has been found wherever **sanitation is poor**, in all climatic zones."
+   ],
+   "ar": [
+    "انتشارها **عالمي**.",
+    "وهي أشيع كثيرًا في **المناطق الاستوائية** من غيرها، لكنها وُجدت حيثما **ساءت النظافة الصحية**، في كل المناطق المناخية."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "It is the **third leading parasitic cause of mortality**, after **malaria and Schistosomiasis**.",
+   "ar": "وهي **ثالث سبب طفيلي للوفيات**، بعد **الملاريا وداء البلهارسيات**."
+  },
+  {
+   "t": "card",
+   "en": [
+    "__Entamoeba histolytica__ is found in the **human colon**.",
+    "Natural infection also occurs in monkeys, dogs and probably in pigs."
+   ],
+   "ar": [
+    "توجد `__Entamoeba histolytica__` في **قولون الإنسان**.",
+    "وتحدث العدوى الطبيعية أيضًا في القرود والكلاب وربما الخنازير."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Morphology:",
+   "ar": "الشكل:"
+  },
+  {
+   "t": "card",
+   "en": "__E. histolytica__ occurs in **three forms**- the **Trophozoite; Pre-cystic; Cystic** stages",
+   "ar": "توجد `__E. histolytica__` في **ثلاثة أشكال** — أطوار **الناشط؛ وما قبل الكيس؛ والكيس**"
+  },
+  {
+   "t": "figure",
+   "src": "assets/eh-troph-cyst.jpg",
+   "en": "The trophozoite (top) and mature cyst (bottom; with 4 nuclei) of E. histolytica",
+   "ar": "الطور الناشط (أعلى) والكيس الناضج (أسفل؛ بأربع أنوية) لـ`E. histolytica`",
+   "h": "62mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label (from the figure)",
+     "التسمية في الشكل"
+    ],
+    [
+     "Meaning",
+     "المعنى"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Trophozoite: nucleus, food vacuoles, pseudopodium",
+      "الطور الناشط: النواة، الفجوات الغذائية، القدم الكاذبة"
+     ],
+     [
+      "The feeding, motile stage",
+      "الطور المتغذّي المتحرّك"
+     ]
+    ],
+    [
+     [
+      "Cyst: nucleus, chromatoid bar, cyst wall",
+      "الكيس: النواة، القضيب الكروماتيني، جدار الكيس"
+     ],
+     [
+      "The resistant, infective stage (4 nuclei)",
+      "الطور المقاوم المعدي (4 أنوية)"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    52,
+    48
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Trophozoite:",
+   "ar": "الطور الناشط:"
+  },
+  {
+   "t": "card",
+   "en": [
+    "The trophozoite or the **vegetative form** is the growing or feeding stage of the parasite.",
+    "It is the **only stage (form) present in tissues**.",
+    "This form has an amoeboid appearance."
+   ],
+   "ar": [
+    "الطور الناشط أو **الشكل الخضري** هو طور النمو أو التغذّي للطفيلي.",
+    "وهو **الطور (الشكل) الوحيد الموجود في الأنسجة**.",
+    "وله مظهر أميبي."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Viable trophozoite is irregular in shape and varies in size from about **10-60 µm** in diameter; average being **20 µm**.",
+   "ar": "الطور الناشط الحي غير منتظم الشكل ويتراوح قطره بين **10–60 ميكرومتر** تقريبًا؛ بمعدل **20 ميكرومتر**."
+  },
+  {
+   "t": "card",
+   "en": "It is **large and actively motile in freshly passed dysenteric stool**, while smaller in convalescents and carriers.",
+   "ar": "يكون **كبيرًا ونشط الحركة في البراز الزحاري المُخرج حديثًا**، وأصغر لدى الناقهين والحاملين."
+  },
+  {
+   "t": "card",
+   "en": "The protoplasm is differentiated into a thin outer layer **ectoplasm**; and **endoplasm**.",
+   "ar": "يتمايز البروتوبلازم إلى طبقة خارجية رقيقة هي **الإكتوبلازم**؛ و**الإندوبلازم**."
+  },
+  {
+   "t": "card",
+   "en": [
+    "The endoplasm contains the nucleus, food vacuoles and granules.",
+    "The nucleus is not clearly seen in the living trophozoite but can be distinctly demonstrated in preparations stained with **iron- haematoxylin or Gomorri’s trichrome** stains."
+   ],
+   "ar": [
+    "يحتوي الإندوبلازم النواة والفجوات الغذائية والحبيبات.",
+    "ولا تُرى النواة بوضوح في الطور الناشط الحي لكن يمكن إظهارها بوضوح في المحضّرات المصبوغة بصبغتي **الهيماتوكسيلين الحديدي أو ثلاثية الألوان لغوموري**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "The nucleus is spherical, **4 to 6 µm**. in size and contains a **small central karyosome** surrounded by a clear halo.",
+   "ar": "النواة كروية بحجم **4–6 ميكرومتر** وتحتوي **جسيمًا نوويًا مركزيًا صغيرًا** تحيط به هالة صافية."
+  },
+  {
+   "t": "card",
+   "en": "The trophozoite divides by **binary fission once in about 8 hours**.",
+   "ar": "ينقسم الطور الناشط بـ**الانشطار الثنائي مرة كل 8 ساعات تقريبًا**."
+  },
+  {
+   "t": "card",
+   "en": [
+    "Trophozoites are **delicate** organisms and are **killed by drying, heat and chemical disinfectants**.",
+    "They do not survive for any length of time in stools outside the body.",
+    "Therefore, the **infection is not transmitted by trophozoites**.",
+    "Even if live trophozoites from freshly passed stools are ingested, they are rapidly **destroyed in the stomach** and cannot initiate infection."
+   ],
+   "ar": [
+    "الأطوار الناشطة كائنات **رقيقة** و**تُقتل بالتجفيف والحرارة والمطهّرات الكيميائية**.",
+    "ولا تبقى حيّة أي مدة في البراز خارج الجسم.",
+    "لذلك **لا تنتقل العدوى بالأطوار الناشطة**.",
+    "وحتى لو ابتُلعت أطوار ناشطة حيّة من براز مُخرج حديثًا فإنها **تُدمَّر سريعًا في المعدة** ولا تستطيع بدء العدوى."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Pre-cystic Stage:",
+   "ar": "طور ما قبل الكيس:"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Some trophozoites undergo **encystment in the intestinal lumen**.",
+    "**Encystment does not occur in the tissues, nor in feces outside the body.**"
+   ],
+   "ar": [
+    "تتكيّس بعض الأطوار الناشطة **في تجويف الأمعاء**.",
+    "**ولا يحدث التكيّس في الأنسجة ولا في البراز خارج الجسم.**"
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Before encystment, the trophozoite **extrudes its food vacuoles** and become round or oval, about **10-20 µm** in size.",
+    "This is the pre-cystic stage of the parasite."
+   ],
+   "ar": [
+    "قبل التكيّس **يطرد الطور الناشط فجواته الغذائية** ويصبح مستديرًا أو بيضويًا بحجم **10–20 ميكرومتر** تقريبًا.",
+    "وهذا طور ما قبل الكيس للطفيلي."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Pre-cyst, contains a **large glycogen vacuole and two chromatid bars**.",
+    "It then secretes a highly retractile cyst wall around it and becomes cyst."
+   ],
+   "ar": [
+    "يحتوي ما قبل الكيس **فجوة غلايكوجين كبيرة وقضيبين كروماتينيين**.",
+    "ثم يفرز حوله جدار كيس شديد الانكسار فيصبح كيسًا."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Cystic Stage:",
+   "ar": "طور الكيس:"
+  },
+  {
+   "t": "card",
+   "en": "__Entamoeba histolytica__ cysts are **spherical** in shape, range in size from (**10-20 µm**) in diameter, with a **thin transparent wall**.",
+   "ar": "أكياس `__Entamoeba histolytica__` **كروية** الشكل، قطرها (**10–20 ميكرومتر**)، بـ**جدار رقيق شفاف**."
+  },
+  {
+   "t": "card",
+   "en": [
+    "The early cyst contains a **single nucleus** and two other structures- a **mass of glycogen**, and **1-4 chromatoid bodies** or chromatoid bars, which are **cigar – shaped**.",
+    "The chromatoid bodies are so called because they stain with hematoxylin, like chromatin."
+   ],
+   "ar": [
+    "يحتوي الكيس المبكر **نواة واحدة** وبنيتين أخريين — **كتلة غلايكوجين** و**1–4 أجسام كروماتينية** أو قضبان كروماتينية **سيجارية الشكل**.",
+    "وسُمّيت الأجسام الكروماتينية بذلك لأنها تتلوّن بالهيماتوكسيلين مثل الكروماتين."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "As the cyst matures, the glycogen mass and chromidial bars **disappear** and the nucleus undergoes **two successive mitotic divisions** to form two and then **four nuclei**.",
+   "ar": "مع نضج الكيس **تختفي** كتلة الغلايكوجين والقضبان الكروماتينية، وتنقسم النواة **انقسامين خيطيين متتاليين** فتكوّن نواتين ثم **أربع أنوية**."
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "Trophozoite",
+     "الطور الناشط"
+    ],
+    [
+     "Pre-cyst",
+     "ما قبل الكيس"
+    ],
+    [
+     "Mature cyst",
+     "الكيس الناضج"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Size",
+      "الحجم"
+     ],
+     [
+      "10-60 µm (average 20)",
+      "10–60 ميكرومتر (المعدل 20)"
+     ],
+     [
+      "10-20 µm",
+      "10–20 ميكرومتر"
+     ],
+     [
+      "10-20 µm",
+      "10–20 ميكرومتر"
+     ]
+    ],
+    [
+     [
+      "Nucleus",
+      "النواة"
+     ],
+     [
+      "1, small central karyosome",
+      "1، جسيم نووي مركزي صغير"
+     ],
+     [
+      "1",
+      "1"
+     ],
+     [
+      "4",
+      "4"
+     ]
+    ],
+    [
+     [
+      "Contents",
+      "المحتوى"
+     ],
+     [
+      "Food vacuoles (RBCs)",
+      "فجوات غذائية (كريات حمر)"
+     ],
+     [
+      "Glycogen vacuole + 2 chromatoid bars",
+      "فجوة غلايكوجين + قضيبان كروماتينيان"
+     ],
+     [
+      "Glycogen and bars disappear",
+      "يختفي الغلايكوجين والقضبان"
+     ]
+    ],
+    [
+     [
+      "Site",
+      "الموضع"
+     ],
+     [
+      "Only form in tissues",
+      "الشكل الوحيد في الأنسجة"
+     ],
+     [
+      "Intestinal lumen",
+      "تجويف الأمعاء"
+     ],
+     [
+      "Passed in stool — infective",
+      "يخرج مع البراز — معدٍ"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    16,
+    28,
+    28,
+    28
+   ],
+   "style": "summary",
+   "label_en": "Three forms of E. histolytica",
+   "label_ar": "الأشكال الثلاثة لـ E. histolytica"
+  },
+  {
+   "t": "section",
+   "en": "Life cycle",
+   "ar": "دورة الحياة"
+  },
+  {
+   "t": "card",
+   "en": "__E. histolytica__ has a relatively simple life cycle that alternates between trophozoite and cyst stages. __Entamoeba histolytica__ passes its life cycle **only in one host (man)**.",
+   "ar": "لـ`__E. histolytica__` دورة حياة بسيطة نسبيًا تتناوب بين طوري الناشط والكيس. وتُكمل `__Entamoeba histolytica__` دورة حياتها **في مضيف واحد فقط (الإنسان)**."
+  },
+  {
+   "t": "card",
+   "en": "Cysts and trophozoites are typically found in diarrheal stool.",
+   "ar": "توجد الأكياس والأطوار الناشطة عادةً في البراز الإسهالي."
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Intestinal infections by __Entamoeba histolytica__ occurs by **ingestion of a mature Quadri nucleate infective cysts**, contaminated food or drink and also by hand to mouth contact.",
+     "ar": "تحدث العدوى المعوية بـ`__Entamoeba histolytica__` بـ**ابتلاع الأكياس المعدية الناضجة رباعية الأنوية** في الطعام أو الشراب الملوّث، وكذلك بتماس اليد مع الفم."
+    },
+    {
+     "en": "It is then passed **unaltered through the stomach**, as the cyst wall is **resistant to gastric juice**.",
+     "ar": "ثم يمر **دون تغيير عبر المعدة**، لأن جدار الكيس **مقاوم للعصارة المعدية**."
+    },
+    {
+     "en": "**Excystment** occurs after ingestion and is followed by rapid cell division to produce four amebae which undergo a second division. Each cyst thus yields **eight tiny amebae**.",
+     "ar": "يحدث **الانفقاس** بعد الابتلاع ويتبعه انقسام خلوي سريع ينتج أربع أميبات تنقسم مرة ثانية. وهكذا يعطي كل كيس **ثماني أميبات صغيرة**."
+    },
+    {
+     "en": "Amebae multiply in the host by **simple binary fission**. Most multiplication occurs in the host, and survival outside the host depends on the **desiccation – resistant cyst** form.",
+     "ar": "تتكاثر الأميبات في المضيف بـ**الانشطار الثنائي البسيط**. ومعظم التكاثر يحدث في المضيف، ويعتمد البقاء خارجه على شكل **الكيس المقاوم للجفاف**."
+    },
+    {
+     "en": "**Encystment** occurs apparently in response to **desiccation** as the ameba is carried through the colon. After encystment, the nucleus divides twice to produce a **Quadri- nucleate mature cyst**.",
+     "ar": "يحدث **التكيّس** على ما يبدو استجابةً لـ**الجفاف** أثناء نقل الأميبا عبر القولون. وبعد التكيّس تنقسم النواة مرتين فتنتج **كيسًا ناضجًا رباعي الأنوية**."
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "The drawings illustrate the trophozoite (top) and mature cyst (bottom; with 4 nuclei) of __E. histolytica__.",
+    "The top photograph shows the trophozoite in stool sample while the bottom photograph shows the cyst in stool sample.",
+    "Note the **central karyosome** in the nuclei.",
+    "The lower diagram shows the life cycle"
+   ],
+   "ar": [
+    "توضّح الرسوم الطور الناشط (أعلى) والكيس الناضج (أسفل؛ بأربع أنوية) للأميبا الحالّة للنسيج.",
+    "وتُظهر الصورة العليا الطور الناشط في عيّنة البراز بينما تُظهر السفلى الكيس في عيّنة البراز.",
+    "لاحظ **الجسيم النووي المركزي** في الأنوية.",
+    "ويوضّح المخطط السفلي دورة الحياة"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/eh-cycle-diagram.jpg",
+   "en": "Cycle of Entamoeba histolytica",
+   "ar": "دورة الأميبا الحالّة للنسيج",
+   "h": "80mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label (from the figure)",
+     "التسمية في الشكل"
+    ],
+    [
+     "Meaning",
+     "المعنى"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Taken with water or food",
+      "يؤخذ مع الماء أو الطعام"
+     ],
+     [
+      "Mature cyst ingested",
+      "ابتلاع الكيس الناضج"
+     ]
+    ],
+    [
+     [
+      "Excystation process",
+      "عملية الانفقاس"
+     ],
+     [
+      "Cyst → trophozoites in intestine",
+      "الكيس ← أطوار ناشطة في الأمعاء"
+     ]
+    ],
+    [
+     [
+      "Trophozoites (Intestinal forms)",
+      "الأطوار الناشطة (الأشكال المعوية)"
+     ],
+     [
+      "Multiply in the colon",
+      "تتكاثر في القولون"
+     ]
+    ],
+    [
+     [
+      "Encystation",
+      "التكيّس"
+     ],
+     [
+      "Trophozoite → cyst",
+      "الطور الناشط ← الكيس"
+     ]
+    ],
+    [
+     [
+      "Passes out with feces",
+      "يخرج مع البراز"
+     ],
+     [
+      "Cyst in stool",
+      "الكيس في البراز"
+     ]
+    ],
+    [
+     [
+      "Disintegration",
+      "التحلّل"
+     ],
+     [
+      "Trophozoites passed outside die",
+      "الأطوار الناشطة الخارجة تموت"
+     ]
+    ],
+    [
+     [
+      "Via portal vein → Metastasis of amoebae to liver, lungs and brain",
+      "عبر الوريد البابي ← انتقال الأميبات إلى الكبد والرئتين والدماغ"
+     ],
+     [
+      "Extraintestinal amoebiasis",
+      "داء الأميبات خارج المعوي"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    54,
+    46
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/eh-rbc-troph.jpg",
+   "en": "Entamoeba histolytica trophozoite (with ingested red blood cells)",
+   "ar": "الطور الناشط للأميبا الحالّة للنسيج (مع كريات حمر مبتلعة)",
+   "h": "40mm",
+   "fit": "contain"
+  },
+  {
+   "t": "figure",
+   "src": "assets/eh-life-cycle.jpg",
+   "en": "Life cycle of Entamoeba histolytica (in body of host / external environment)",
+   "ar": "دورة حياة الأميبا الحالّة للنسيج (في جسم المضيف / البيئة الخارجية)",
+   "h": "92mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label (from the figure)",
+     "التسمية في الشكل"
+    ],
+    [
+     "Meaning",
+     "المعنى"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Ingested — Infective stage mature cyst",
+      "مُبتلَع — الطور المعدي الكيس الناضج"
+     ],
+     [
+      "Infection starts by swallowing the 4-nucleate cyst",
+      "تبدأ العدوى بابتلاع الكيس رباعي الأنوية"
+     ]
+    ],
+    [
+     [
+      "Invades wall of colon and multiplies",
+      "يغزو جدار القولون ويتكاثر"
+     ],
+     [
+      "Invasive disease (dysentery)",
+      "المرض الغازي (الزحار)"
+     ]
+    ],
+    [
+     [
+      "Circulation → Extraintestinal abscesses (liver, lungs, etc.)",
+      "الدوران ← خُراجات خارج معوية (الكبد والرئتين وغيرها)"
+     ],
+     [
+      "Spread through the blood",
+      "الانتشار عبر الدم"
+     ]
+    ],
+    [
+     [
+      "Returns to lumen / Remains in lumen of colon and multiplies",
+      "يعود إلى التجويف / يبقى في تجويف القولون ويتكاثر"
+     ],
+     [
+      "Luminal (non-invasive) infection",
+      "عدوى تجويفية (غير غازية)"
+     ]
+    ],
+    [
+     [
+      "Diagnostic stage — Trophozoite and Cyst in feces",
+      "الطور التشخيصي — الطور الناشط والكيس في البراز"
+     ],
+     [
+      "What we look for in stool",
+      "ما نبحث عنه في البراز"
+     ]
+    ],
+    [
+     [
+      "Trophozoite disintegrates",
+      "الطور الناشط يتحلّل"
+     ],
+     [
+      "Trophozoites do not survive outside",
+      "الأطوار الناشطة لا تبقى حيّة خارج الجسم"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    54,
+    46
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Pathogenicity and clinical features",
+   "ar": "الإمراضية والمظاهر السريرية"
+  },
+  {
+   "t": "card",
+   "en": "__E. histolytica__, as its name suggests (**histo – lytic = tissue destroying**), is pathogenic; infection can lead to **amoebic dysentery or amoebic liver abscess**.",
+   "ar": "`__E. histolytica__`، كما يدل اسمها (**histo-lytic = مدمّرة للنسيج**)، ممرضة؛ وقد تؤدي العدوى إلى **الزحار الأميبي أو خُراج الكبد الأميبي**."
+  },
+  {
+   "t": "card",
+   "en": [
+    "Symptoms can include **fulminating dysentery, bloody diarrhea, weight loss**.",
+    "Fatigue, abdominal pain, and **amoeboma**.",
+    "Many patients with acute intestinal infection also have **hepatomegaly**, but in these cases, amoebas are not demonstrable in the liver and the pathogenesis of this hepatomegaly is not clear.",
+    "**Amoebic abscess in the liver represents metastasis from intestinal infection**.",
+    "Occasionally the enlarging abscess presses on the common bile duct and causes **jaundice**."
+   ],
+   "ar": [
+    "قد تشمل الأعراض **الزحار الصاعق والإسهال الدموي ونقص الوزن**.",
+    "والتعب وألم البطن و**الورم الأميبي (amoeboma)**.",
+    "وكثير من مرضى العدوى المعوية الحادة لديهم أيضًا **تضخّم الكبد**، لكن لا تُكتشف الأميبات في الكبد في هذه الحالات وإمراضية هذا التضخّم غير واضحة.",
+    "**ويمثّل الخُراج الأميبي في الكبد انتقالًا من العدوى المعوية**.",
+    "وأحيانًا يضغط الخُراج المتضخّم على القناة الصفراوية المشتركة فيسبّب **اليرقان**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "The amoeba can actually **‘bore’ into the intestinal wall**, causing lesions and intestinal symptoms, and it may reach the blood stream.",
+    "From there, it can reach different vital organs of the human body, usually the **liver** but sometimes the lungs, brain, spleen etc. A common outcome of this invasion of tissues is a **liver abscess, which can be fatal if untreated**."
+   ],
+   "ar": [
+    "تستطيع الأميبا فعلًا **«حفر» جدار الأمعاء** فتسبّب آفات وأعراضًا معوية، وقد تصل إلى مجرى الدم.",
+    "ومن هناك تصل إلى أعضاء حيوية مختلفة، وغالبًا **الكبد** وأحيانًا الرئتين والدماغ والطحال وغيرها؛ ومن النتائج الشائعة لهذا الغزو **خُراج الكبد الذي قد يكون مميتًا إذا لم يُعالَج**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Epidemiology:",
+   "ar": "الوبائيات:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**0.5 to -50%** of the population worldwide harbors __E. histolytica__ parasite with the higher rates of infection being in underdeveloped countries.",
+    [
+     "**1-3%** of the population of the USA is infected.",
+     "Infection is associated with **poor hygiene**."
+    ],
+    "**Humans are the principal host**, although dogs, cats and rodents may be infected.",
+    "**Fecal – oral transmission** occurs when food preparation is not sanitary or when drinking water is contaminated.",
+    "Contamination may come directly from **infected food handlers** or indirectly from **faulty sewage disposal**.",
+    "The prevalence of amebiasis in underdeveloped countries reflects the lack of adequate sanitary systems.",
+    "Amebae are found in **all climates**, arctic to tropical."
+   ],
+   "list_ar": [
+    "**0.5 إلى 50%** من سكان العالم يحملون طفيلي `__E. histolytica__`، وأعلى نسب العدوى في البلدان النامية.",
+    [
+     "**1–3%** من سكان الولايات المتحدة مصابون.",
+     "وترتبط العدوى بـ**سوء النظافة**."
+    ],
+    "**الإنسان هو المضيف الرئيس**، مع أن الكلاب والقطط والقوارض قد تُصاب.",
+    "يحدث **الانتقال البرازي–الفموي** عندما يكون إعداد الطعام غير صحي أو يكون ماء الشرب ملوّثًا.",
+    "قد يأتي التلوّث مباشرة من **متداولي الطعام المصابين** أو بصورة غير مباشرة من **سوء التخلّص من المياه الثقيلة**.",
+    "يعكس انتشار داء الأميبات في البلدان النامية نقص الأنظمة الصحية الملائمة.",
+    "توجد الأميبات في **كل المناخات**، من القطبي إلى الاستوائي."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Extraintestinal amoebiasis:** **Amebic liver abscess; Amebic lung abscess**",
+   "ar": "**داء الأميبات خارج المعوي:** **خُراج الكبد الأميبي؛ خُراج الرئة الأميبي**"
+  },
+  {
+   "t": "h2",
+   "en": "Laboratory Diagnosis",
+   "ar": "التشخيص المختبري"
+  },
+  {
+   "t": "card",
+   "en": "**Diagnosis:** Definitive diagnosis depends on finding __E. histolytica__ **trophozoites or cysts in fresh stool**",
+   "ar": "**التشخيص:** يعتمد التشخيص القطعي على إيجاد **الأطوار الناشطة أو الأكياس** لـ`__E. histolytica__` **في البراز الطازج**"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Symptoms and epidemiology are the keys to diagnosis.",
+    "In the laboratory the infection is confirmed by finding **cysts (and sometimes trophozoites) in the stool**."
+   ],
+   "ar": [
+    "الأعراض والوبائيات مفتاحا التشخيص.",
+    "وفي المختبر تُؤكَّد العدوى بإيجاد **الأكياس (وأحيانًا الأطوار الناشطة) في البراز**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Immunity",
+   "ar": "المناعة"
+  },
+  {
+   "t": "card",
+   "en": "Immunity to __Entamoeba histolytica__ is complex, while the infection triggers both **humoral antibody and cell – mediated immune response**, but **protective immunity is generally transient** in humans, with **mucosal IgA antibodies developing in only about 20%** offering some short – lived resistance.",
+   "ar": "المناعة ضد `__Entamoeba histolytica__` معقّدة؛ فمع أن العدوى تحفّز **الاستجابة الخلطية بالأضداد والاستجابة المتوسَّطة بالخلايا**، فإن **المناعة الواقية عابرة عمومًا** لدى الإنسان، إذ **تتكوّن أضداد IgA المخاطية لدى نحو 20% فقط** وتوفّر مقاومة قصيرة الأمد."
+  },
+  {
+   "t": "card",
+   "en": "The immune response includes both humoral antibody – based, and cellular immunity, but __E. histolytica__ employs **immune evasion mechanisms** such as inducing tissue destruction and manipulating immune cells to its advantages, leading to a chronic on not invasive infection",
+   "ar": "تشمل الاستجابة المناعية المناعة الخلطية القائمة على الأضداد والمناعة الخلوية، لكن `__E. histolytica__` تستخدم **آليات للتملّص المناعي** مثل إحداث تدمير النسيج والتلاعب بالخلايا المناعية لصالحها، مما يؤدي إلى عدوى مزمنة أو غير غازية"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Host immune response",
+     "استجابة المضيف المناعية"
+    ],
+    [
+     "Components",
+     "المكوّنات"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Humoral immunity",
+      "المناعة الخلطية"
+     ],
+     [
+      "involves the production of specific antibodies, such as secretory IgA (sIgA) and circulating IgG antibodies against E. histolytica antigens",
+      "تتضمّن إنتاج أضداد نوعية مثل IgA الإفرازي (sIgA) وأضداد IgG الدائرة ضد مستضدات E. histolytica"
+     ]
+    ],
+    [
+     [
+      "Cell – mediated immunity",
+      "المناعة المتوسَّطة بالخلايا"
+     ],
+     [
+      "Includes the activation of immune cell like macrophages and T cells and the release of cytokines, such as interferon – gamma (IFN- π).",
+      "تشمل تنشيط الخلايا المناعية مثل البلاعم والخلايا التائية وإطلاق السيتوكينات مثل إنترفيرون غاما."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    28,
+    72
+   ],
+   "style": "summary",
+   "label_en": "Host immune response",
+   "label_ar": "استجابة المضيف المناعية"
+  },
+  {
+   "t": "note",
+   "en": "The source writes \"IFN- π\"; interferon-gamma is IFN-γ.",
+   "ar": "ورد في المصدر «IFN- π»، والصحيح أن إنترفيرون غاما هو `IFN-γ`.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Treatment",
+   "ar": "العلاج"
+  },
+  {
+   "t": "card",
+   "en": "Treatment of __Entamoeba histolytica__ depends on whether the infection is **invasive or asymptomatic**.",
+   "ar": "يعتمد علاج `__Entamoeba histolytica__` على كون العدوى **غازية أو بلا أعراض**."
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Infection",
+     "العدوى"
+    ],
+    [
+     "Treatment",
+     "العلاج"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Invasive infections, such as amebic dysentery, or abscesses",
+      "العدوى الغازية مثل الزحار الأميبي أو الخُراجات"
+     ],
+     [
+      "are treated with metronidazole or tinidazole followed by a luminal agent like paromomycin or iodoquinol.",
+      "تُعالَج بالميترونيدازول أو التينيدازول يتبعه دواء تجويفي مثل الباروموميسين أو اليودوكينول."
+     ]
+    ],
+    [
+     [
+      "Asymptomatic infections, where the individual pass cysts but has no symptoms",
+      "العدوى بلا أعراض، حين يُخرج الفرد أكياسًا دون أعراض"
+     ],
+     [
+      "are treated with lumoral agent like paromomycin or diloxanide furoate to prevent invasive disease",
+      "تُعالَج بدواء تجويفي مثل الباروموميسين أو فوروات الديلوكسانيد لمنع المرض الغازي"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    42,
+    58
+   ],
+   "style": "summary",
+   "label_en": "Treatment of E. histolytica",
+   "label_ar": "علاج E. histolytica"
+  },
+  {
+   "t": "card",
+   "en": "**Iodoquiol** is used to treat **asymptomatic** infections and **metronidazole** is used for **symptomatic and chronic** amoebiasis, including extra- intestinal infection.",
+   "ar": "يُستخدم **اليودوكينول** لعلاج العدوى **بلا أعراض**، ويُستخدم **الميترونيدازول** لداء الأميبات **العرضي والمزمن**، ومنه العدوى خارج المعوية."
+  },
+  {
+   "t": "h2",
+   "en": "Prevention",
+   "ar": "الوقاية"
+  },
+  {
+   "t": "card",
+   "en": "Prevention **boiling water** to kills __E. histolytica__ cysts, which can contaminate water supplies",
+   "ar": "الوقاية بـ**غلي الماء** لقتل أكياس `__E. histolytica__` التي قد تلوّث مصادر المياه",
+   "list_en": [
+    "Good sanitation",
+    "Proper sewage system",
+    "Avoidance of contamination of food and water",
+    "Health education",
+    "Personal hygiene."
+   ],
+   "list_ar": [
+    "النظافة الصحية الجيدة",
+    "نظام صرف صحي سليم",
+    "تجنّب تلوّث الطعام والماء",
+    "التثقيف الصحي",
+    "النظافة الشخصية."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Examination of stool sample",
+   "ar": "فحص عيّنة البراز"
+  },
+  {
+   "t": "card",
+   "en": "Stool or fecal specimens are examined for the presence of **protozoa and helminthes**.",
+   "ar": "تُفحص عيّنات البراز لوجود **الأوالي والديدان**."
+  },
+  {
+   "t": "card",
+   "en": [
+    "The stages of protozoa found in stools are **Trophozoites and Cyst**.",
+    "While the stages of helminths, are **worm, segment, egg, larva**."
+   ],
+   "ar": [
+    "أطوار الأوالي الموجودة في البراز هي **الأطوار الناشطة والأكياس**.",
+    "أما أطوار الديدان فهي **الدودة والقطعة والبيضة واليرقة**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Worm and segment** of worms can be seen by **naked eye**, while **ova, larvae, trophozoites, cysts** can be seen **only by microscope**.",
+   "ar": "**الدودة وقطعتها** تُريان بـ**العين المجردة**، بينما **البيوض واليرقات والأطوار الناشطة والأكياس** لا تُرى **إلا بالمجهر**."
+  },
+  {
+   "t": "h2",
+   "en": "General stool examination (GSE)",
+   "ar": "الفحص العام للبراز (GSE)"
+  },
+  {
+   "t": "rule",
+   "en": "**I. Quantity:** The adult person excretions about **150-250 gm / day** of feces, about (**1/3- 1/2**) of feces dry weight is **bacteria**.",
+   "ar": "**I. الكمية:** يُخرج الشخص البالغ نحو **150–250 غرامًا يوميًا** من البراز، ونحو (**1/3–1/2**) من الوزن الجاف للبراز **بكتيريا**."
+  },
+  {
+   "t": "rule",
+   "en": "**II. Macroscopic Examination** Stool specimen is examined with the naked eye for:",
+   "ar": "**II. الفحص العياني** — تُفحص عيّنة البراز بالعين المجردة لـ:"
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**a- Consistency (degree of moisture) and form:** It varies according to diet, but certain clinical conditions associated with parasite presence may be suggested by particular consistencies.",
+    "**Normal stool is well formed.**",
+    "It will be described as hard / solid (in constipation, and dehydration), formed, semi-formed (soft, loose) seen when taking certain medications and laxatives.",
+    "In abnormal cases such as diarrhea and dysentery the stool appears watery, or liquid in nature.",
+    "**Cysts are usually found in fully formed specimens and rarely in liquid stool.**"
+   ],
+   "ar": [
+    "**أ- القوام (درجة الرطوبة) والشكل:** يختلف بحسب الغذاء، لكن قوامًا معيّنًا قد يوحي بحالات سريرية مرتبطة بوجود الطفيليات.",
+    "**البراز الطبيعي جيد التشكّل.**",
+    "ويوصف بأنه صلب/جامد (في الإمساك والجفاف)، أو متشكّل، أو شبه متشكّل (طري، رخو) ويُرى عند تناول بعض الأدوية والمسهّلات.",
+    "وفي الحالات الشاذة كالإسهال والزحار يبدو البراز مائيًا أو سائلًا.",
+    "**وتوجد الأكياس عادةً في العيّنات المتشكّلة كليًا ونادرًا في البراز السائل.**"
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**b. Color:** **Normal colors of stools are light to dark brown due to the presence of bile pigments.**",
+    "Any abnormal color e. g., pale yellowish passed in steatorrhea conditions such as Giardiasis."
+   ],
+   "ar": [
+    "**ب. اللون:** **ألوان البراز الطبيعية بني فاتح إلى غامق بسبب وجود الأصباغ الصفراوية.**",
+    "وأي لون شاذ مثل الأصفر الشاحب يُخرج في حالات الإسهال الدهني مثل داء الجيارديات."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Color",
+     "اللون"
+    ],
+    [
+     "Cause",
+     "السبب"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Light to dark brown (normal)",
+      "بني فاتح إلى غامق (طبيعي)"
+     ],
+     [
+      "Bile pigments",
+      "الأصباغ الصفراوية"
+     ]
+    ],
+    [
+     [
+      "Pale yellowish",
+      "أصفر شاحب"
+     ],
+     [
+      "Steatorrhea (Giardiasis)",
+      "الإسهال الدهني (داء الجيارديات)"
+     ]
+    ],
+    [
+     [
+      "Dark black / dark tarry",
+      "أسود غامق / قطراني"
+     ],
+     [
+      "Iron or bismuth intake; bleeding in the small intestines (acid hematin)",
+      "تناول الحديد أو البزموت؛ النزف في الأمعاء الدقيقة (الهيماتين الحمضي)"
+     ]
+    ],
+    [
+     [
+      "Bright red",
+      "أحمر قانٍ"
+     ],
+     [
+      "Bleeding in large intestines or rectum (fresh blood); red beets",
+      "النزف في الأمعاء الغليظة أو المستقيم (دم طازج)؛ الشمندر الأحمر"
+     ]
+    ],
+    [
+     [
+      "Clay color",
+      "لون طيني"
+     ],
+     [
+      "Absence of stercobilinogen in biliary tract obstruction",
+      "غياب الستيركوبيلينوجين في انسداد الطرق الصفراوية"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    34,
+    66
+   ],
+   "style": "summary",
+   "label_en": "Stool colors at a glance",
+   "label_ar": "ألوان البراز باختصار"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Dark black – color stools**, occur when **iron or bismuth** is taken, or in cases of with bleeding (hemorrhage) into the intestinal tract the stools become **dark tarry** in nature due to the formation of **acid hematin**, If the bleeding is in the **small intestines**.",
+    "In case of bleeding in **large intestines or rectum** stool color may be **bright red** due to fresh blood."
+   ],
+   "ar": [
+    "**البراز الأسود الغامق** يحدث عند تناول **الحديد أو البزموت**، أو في حالات النزف داخل الجهاز الهضمي حيث يصبح البراز **قطرانيًا غامقًا** بسبب تكوّن **الهيماتين الحمضي** إذا كان النزف في **الأمعاء الدقيقة**.",
+    "وفي حالة النزف في **الأمعاء الغليظة أو المستقيم** قد يكون لون البراز **أحمر قانيًا** بسبب الدم الطازج."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Red color;** also resulted from eating certain colorful foods such as **red beets**.",
+    "**Clay color;** the stool may be clay colored due to **absence of stercobilinogen** in **biliary tract obstruction**."
+   ],
+   "ar": [
+    "**اللون الأحمر؛** ينتج أيضًا عن تناول بعض الأطعمة الملوّنة مثل **الشمندر الأحمر**.",
+    "**اللون الطيني؛** قد يكون البراز طيني اللون بسبب **غياب الستيركوبيلينوجين** في **انسداد الطرق الصفراوية**."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**c. Pathological odor:** offensive, non – offensive.",
+    "The **normal fecal odor of stool resulted from Indole and Skatole**.",
+    "Odor of stools may become **offensive** in condition like, **Intestinal amoebiasis**.",
+    "In cases of **bacillary dysentery and cholera** the stools are **not foul smelling** due to the absence of fecal matter."
+   ],
+   "ar": [
+    "**ج. الرائحة المرضية:** كريهة أو غير كريهة.",
+    "**الرائحة الطبيعية للبراز ناتجة عن الإندول والسكاتول**.",
+    "وقد تصبح رائحة البراز **كريهة** في حالات مثل **داء الأميبات المعوي**.",
+    "وفي حالات **الزحار العصوي والكوليرا** لا يكون البراز **كريه الرائحة** لغياب المادة البرازية."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": "**d. Presence of worms:** feces may contain **adult Helminthes or segments** Example: **Ascaris; gravid segments of Taenia** species.",
+   "ar": "**د. وجود الديدان:** قد يحتوي البراز **ديدانًا بالغة أو قطعًا** — مثال: **الأسكارس؛ والقطع الحاملة لأنواع الشريطية**."
+  },
+  {
+   "t": "rule",
+   "en": "**e. Abnormal composition:** Stool specimen is examined with the naked eye for abnormal composition: like **mucus, blood, fat, pus; cast; stones**; others.",
+   "ar": "**هـ. التركيب الشاذ:** تُفحص عيّنة البراز بالعين المجردة للتركيب الشاذ: مثل **المخاط والدم والدهن والقيح والأسطوانات والحصى** وغيرها."
+  },
+  {
+   "t": "card",
+   "en": "**Blood:** The blood is present on the outer surface of the feces; and this caused either by contamination from **menstrual cycle blood** in women, or **bleeding hemorrhoids** from the blood vessels.",
+   "ar": "**الدم:** يوجد الدم على السطح الخارجي للبراز؛ وينتج إما عن التلوّث بـ**دم الدورة الشهرية** لدى النساء، أو عن **نزف البواسير** من الأوعية الدموية."
+  },
+  {
+   "t": "card",
+   "en": "Blood should be noted in stools if present as it is indicative of **ulceration** or presence of any other pathology like **malignancy**.",
+   "ar": "يجب تسجيل الدم في البراز إن وُجد لأنه يدل على **التقرّح** أو وجود مرض آخر مثل **الخباثة**."
+  },
+  {
+   "t": "card",
+   "en": "**Mucus:** is present in certain conditions like **amoebic or bacillary dysentery**.",
+   "ar": "**المخاط:** يوجد في حالات معيّنة مثل **الزحار الأميبي أو العصوي**."
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Presence of Parasites** (worm, segment) stools may contain adult helminths.",
+    "Nematodes like **Ascaris** are easily visible as their size is large.",
+    "**Hook Worms and Proglottids of Cestodes** may also present.",
+    "These may be visible to the naked eye."
+   ],
+   "ar": [
+    "**وجود الطفيليات** (الدودة، القطعة): قد يحتوي البراز ديدانًا بالغة.",
+    "والخيطيات مثل **الأسكارس** تُرى بسهولة لكبر حجمها.",
+    "وقد توجد أيضًا **الديدان الشصية وأسلات الشريطيات**.",
+    "ويمكن رؤيتها بالعين المجردة."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": "**III. Microscopic examination of the stool** **1. Parasitic finding** that includes: a. **Protozoa** (trophozoites, cysts) b. **Helminthes** (worm, larvae, segment, ova).",
+   "ar": "**III. الفحص المجهري للبراز** — **1. الموجودات الطفيلية** وتشمل: أ. **الأوالي** (الأطوار الناشطة والأكياس) ب. **الديدان** (الدودة واليرقات والقطعة والبيوض)."
+  },
+  {
+   "t": "card",
+   "en": "**II. Non parasitic finding:**",
+   "ar": "**2. الموجودات غير الطفيلية:**",
+   "list_en": [
+    "R.B.C",
+    "Pus cell",
+    "Epithelial cells",
+    "Mucus",
+    "Fat droplets",
+    "Stone cell (Crystals)",
+    "Bacteria",
+    "Yeast and fungi",
+    "Air bubbles",
+    "Food particles that include: 1. Plant origin (plant tissue, starch) 2.Animal origin (glycogen, muscle fiber)."
+   ],
+   "list_ar": [
+    "الكريات الحمر",
+    "خلايا القيح",
+    "الخلايا الظهارية",
+    "المخاط",
+    "قطيرات الدهن",
+    "الخلايا الحجرية (البلورات)",
+    "البكتيريا",
+    "الخمائر والفطريات",
+    "فقاعات الهواء",
+    "جسيمات الغذاء وتشمل: 1. نباتية المنشأ (نسيج نباتي، نشا) 2. حيوانية المنشأ (غلايكوجين، ألياف عضلية)."
+   ],
+   "alpha": true
+  },
+  {
+   "t": "note",
+   "en": "The source numbers the non-parasitic findings \"II\" under part III; they are the second group (2) of microscopic findings.",
+   "ar": "رقّم المصدر الموجودات غير الطفيلية «II» تحت القسم III؛ وهي المجموعة الثانية (2) من الموجودات المجهرية.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "rule",
+   "en": "**IV- Chemical Examination of Stool** **a. pH:** The pH of stools is **acidic in amoebic dysentery** and is **alkaline in bacillary dysentery**. b. Reducing substances c. Presence of fat, carbohydrate, and protein",
+   "ar": "**IV- الفحص الكيميائي للبراز** — **أ. الأس الهيدروجيني:** يكون البراز **حمضيًا في الزحار الأميبي** و**قاعديًا في الزحار العصوي**. ب. المواد المختزلة ج. وجود الدهن والكربوهيدرات والبروتين"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**d. Occult blood:** Presence of blood in feces which is **not apparent on gross inspection**, and can be detected **only by chemical tests** which is called occult blood.",
+    "Causes of occult blood present in a number of diseases; including **malignancy of the gastrointestinal tract**."
+   ],
+   "ar": [
+    "**د. الدم الخفي:** وجود دم في البراز **لا يظهر بالفحص العياني** ولا يُكشف **إلا بالفحوص الكيميائية** ويُسمّى الدم الخفي.",
+    "وأسباب الدم الخفي موجودة في عدد من الأمراض؛ ومنها **خباثة الجهاز الهضمي**."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "The reagents used are:",
+     "الكواشف المستخدمة:"
+    ],
+    [
+     "Positive result",
+     "النتيجة الموجبة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "1. Benzidine reagent",
+      "1. كاشف البنزيدين"
+     ],
+     [
+      "Development of blue color is indicative of presence of occult blood in the stool specimens.",
+      "ظهور اللون الأزرق يدل على وجود الدم الخفي في عيّنات البراز."
+     ]
+    ],
+    [
+     [
+      "2. Orthotolidine",
+      "2. الأورثوتوليدين"
+     ],
+     [
+      "Development of green color in positive result",
+      "ظهور اللون الأخضر في النتيجة الموجبة"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    70
+   ],
+   "style": "summary",
+   "label_en": "Occult blood reagents",
+   "label_ar": "كواشف الدم الخفي"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Since bleeding from the lesion may be **intermittent**, **repeated testing** may be required.",
+    "Benzidine test is although **highly sensitive**, but **false – positive reaction is common**."
+   ],
+   "ar": [
+    "لأن النزف من الآفة قد يكون **متقطّعًا**، فقد يلزم **تكرار الفحص**.",
+    "ومع أن اختبار البنزيدين **عالي الحساسية**، فإن **التفاعل الموجب الكاذب شائع**."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Causes of false – positive tests",
+     "أسباب النتائج الموجبة الكاذبة"
+    ],
+    [
+     "Cause of false – negative tests",
+     "أسباب النتائج السالبة الكاذبة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "1. Ingestion of peroxidase – containing foods, like red meat, fish, poultry, turnips, horseradish, cauliflower, spinach, or cucumber. Diet should be free from peroxidase – containing foods for at least 3 days prior to testing.",
+      "1. تناول أطعمة تحتوي البيروكسيداز مثل اللحم الأحمر والسمك والدواجن واللفت والفجل الحار والقرنبيط والسبانخ أو الخيار. ويجب أن يخلو الغذاء منها 3 أيام على الأقل قبل الفحص."
+     ],
+     [
+      "1. Foods containing large amounts of Vitamin C.",
+      "1. أطعمة تحتوي كميات كبيرة من فيتامين C."
+     ]
+    ],
+    [
+     [
+      "2. Drugs like aspirin and other anti- inflammatory drugs, which increase blood loss from gastrointestinal tract in normal persons.",
+      "2. أدوية مثل الأسبرين ومضادات الالتهاب الأخرى التي تزيد فقد الدم من الجهاز الهضمي لدى الأشخاص الطبيعيين."
+     ],
+     [
+      "2. Conversion of all hemoglobin to acid hematin, which has no peroxidase – like activity, during passage through the gastrointestinal tract.",
+      "2. تحوّل كل الهيموغلوبين إلى هيماتين حمضي لا نشاط شبيهًا بالبيروكسيداز له، أثناء مروره في الجهاز الهضمي."
+     ]
+    ]
+   ],
+   "widths": [
+    52,
+    48
+   ],
+   "style": "summary",
+   "label_en": "False results of the occult blood test",
+   "label_ar": "النتائج الكاذبة لفحص الدم الخفي"
+  },
+  {
+   "t": "section",
+   "en": "Microscopic examination of stool",
+   "ar": "الفحص المجهري للبراز"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Stool specimens can be examined **fresh or preserved**.",
+    "Examination of fresh specimens permits the observation of **motile trophozoites**, but this must be carried out **without delay**."
+   ],
+   "ar": [
+    "يمكن فحص عيّنات البراز **طازجة أو محفوظة**.",
+    "وفحص العيّنات الطازجة يتيح مشاهدة **الأطوار الناشطة المتحرّكة**، لكن يجب إجراؤه **دون تأخير**."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Specimen",
+     "العيّنة"
+    ],
+    [
+     "Likely contents",
+     "المحتوى المرجّح"
+    ],
+    [
+     "Examine within",
+     "تُفحص خلال"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Liquid (diarrheic)",
+      "سائلة (إسهالية)"
+     ],
+     [
+      "more likely to contain trophozoites",
+      "يرجح أن تحتوي أطوارًا ناشطة"
+     ],
+     [
+      "30 minutes of passage (not within 30 minutes of arrival in the laboratory)",
+      "30 دقيقة من الإخراج (لا من وصولها إلى المختبر)"
+     ]
+    ],
+    [
+     [
+      "Soft",
+      "طرية"
+     ],
+     [
+      "may contain both trophozoites and cysts",
+      "قد تحتوي أطوارًا ناشطة وأكياسًا"
+     ],
+     [
+      "one hour of passage",
+      "ساعة واحدة من الإخراج"
+     ]
+    ],
+    [
+     [
+      "Formed",
+      "متشكّلة"
+     ],
+     [
+      "less likely to contain (trophozoites)",
+      "يقل احتمال احتوائها أطوارًا ناشطة"
+     ],
+     [
+      "up to one day, with overnight refrigeration if needed",
+      "حتى يوم واحد، مع التبريد ليلًا إن لزم"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    20,
+    36,
+    44
+   ],
+   "style": "summary",
+   "label_en": "When to examine the specimen",
+   "label_ar": "متى تُفحص العيّنة"
+  },
+  {
+   "t": "card",
+   "en": "If delays cannot be avoided, the specimen should be **preserved** to avoid disintegration of the trophozoites.",
+   "ar": "إذا تعذّر تجنّب التأخير فيجب **حفظ** العيّنة لتجنّب تحلّل الأطوار الناشطة."
+  },
+  {
+   "t": "note",
+   "en": "Week 2 says liquid and soft stool should be examined within 15 min, while this section says liquid within 30 minutes and soft within one hour; both are kept as written.",
+   "ar": "ذكر الأسبوع الثاني أن البراز السائل والطري يُفحص خلال 15 دقيقة، بينما يذكر هذا القسم السائل خلال 30 دقيقة والطري خلال ساعة؛ وأبقينا الرقمين كما وردا.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Specimens preserved in formalin can be tested directly (**wet mount, immunoassay, chromotrope stain, UV fluorescence**) or can be **concentrated** prior to further testing.",
+   "ar": "العيّنات المحفوظة بالفورمالين يمكن فحصها مباشرة (**التحضير الرطب، المقايسة المناعية، صبغة الكروموتروب، التألّق بالأشعة فوق البنفسجية**) أو **تركيزها** قبل الفحوص الأخرى."
+  },
+  {
+   "t": "card",
+   "en": "The stool can be examined by the following techniques for the presence of protozoa and helminths",
+   "ar": "يمكن فحص البراز بالتقنيات الآتية لوجود الأوالي والديدان",
+   "list_en": [
+    "Wet mounts examination",
+    "Concentration techniques.",
+    "Permanent stained slides."
+   ],
+   "list_ar": [
+    "فحص التحضيرات الرطبة",
+    "تقنيات التركيز.",
+    "الشرائح المصبوغة الدائمة."
+   ],
+   "alpha": true
+  },
+  {
+   "t": "h2",
+   "en": "Direct wet mount (Saline and Iodine)",
+   "ar": "التحضير الرطب المباشر (الملحي واليودي)"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**What is the purpose of direct wet examination?**",
+    "The direct wet mount examination of soft- to watery fecal specimens has a unique advantage, that can **detect the motile trophozoite stage** of the protozoa species."
+   ],
+   "ar": [
+    "**ما الغرض من الفحص الرطب المباشر؟**",
+    "للفحص الرطب المباشر لعيّنات البراز الطرية إلى المائية ميزة فريدة، فهو **يكشف طور الناشط المتحرّك** لأنواع الأوالي."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Routine microscopic examination of stool specimen with **physiological saline and iodine solution** helps to detect and identify the stages of some parasitic organisms.",
+   "ar": "الفحص المجهري الروتيني لعيّنة البراز بـ**المحلول الملحي الفسيولوجي ومحلول اليود** يساعد في كشف أطوار بعض الكائنات الطفيلية وتحديدها."
+  },
+  {
+   "t": "figure",
+   "src": "assets/wet-mounts.jpg",
+   "en": "Saline and iodine wet mounts of fecal sample",
+   "ar": "التحضير الرطب الملحي واليودي لعيّنة البراز",
+   "h": "52mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Saline wet mount",
+     "التحضير الملحي"
+    ],
+    [
+     "Iodine wet mount",
+     "التحضير اليودي"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "For trophozoites, cysts of protozoa, ova/larvae of helminths",
+      "للأطوار الناشطة وأكياس الأوالي وبيوض/يرقات الديدان"
+     ],
+     [
+      "For identification of protozoal cysts",
+      "لتحديد أكياس الأوالي"
+     ]
+    ]
+   ],
+   "widths": [
+    50,
+    50
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "a. Wet mount examination:",
+   "ar": "أ. فحص التحضير الرطب:"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Place fresh stool samples (**2 mg** of stool) on a slide with a wooden applicator stick",
+     "ar": "ضع عيّنة براز طازجة (**2 ملغ**) على شريحة بعود خشبي"
+    },
+    {
+     "en": "Emulsified the stool with a drop of **physiological (normal) saline (0.85%)**.",
+     "ar": "استحلب البراز بقطرة من **المحلول الملحي الفسيولوجي (الطبيعي) 0.85%**."
+    },
+    {
+     "en": "Then covered with a **cover slip**.",
+     "ar": "ثم غطِّه بـ**ساترة**."
+    },
+    {
+     "en": "Examine under a light microscope, it is important to examine specimen under **10x** objective lens at first to observe large molecules, cells, ova, and helminths, then to the **40x** objective to complete the test.",
+     "ar": "افحص بالمجهر الضوئي؛ ومن المهم فحص العيّنة أولًا بالعدسة الشيئية **10x** لرؤية الجزيئات الكبيرة والخلايا والبيوض والديدان، ثم بالعدسة **40x** لإكمال الفحص."
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "It is preferable to keep the **condenser down** and the **intensity of the light low** for proper visualization of the ova and cysts.",
+    "The thickness of the film should be such that one is able to **see the printed letters of the newspaper** through it."
+   ],
+   "list_ar": [
+    "يُفضَّل **خفض المكثّف** و**تقليل شدّة الضوء** لرؤية البيوض والأكياس جيدًا.",
+    "يجب أن يكون سمك الغشاء بحيث **تُقرأ حروف الجريدة المطبوعة** من خلاله."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "b. Iodine examination:",
+   "ar": "ب. الفحص باليود:"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Iodine preparation:** For the demonstration of **cysts or dead trophozoites**.",
+    "Stained preparations may be required for the study of the nuclear character."
+   ],
+   "ar": [
+    "**التحضير اليودي:** لإظهار **الأكياس أو الأطوار الناشطة الميتة**.",
+    "وقد تلزم المحضّرات المصبوغة لدراسة صفات النواة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Iodine preparation leads to better visualization of morphological details of ova and cysts as it **stains the glycogen** in them.",
+    "However, it has the disadvantage that the **live trophozoites** of __Entamoeba histolytica__ and other live parasites **cannot be seen as the iodine kills them**."
+   ],
+   "ar": [
+    "يؤدي التحضير اليودي إلى رؤية أفضل للتفاصيل الشكلية للبيوض والأكياس لأنه **يصبغ الغلايكوجين** فيها.",
+    "لكن عيبه أن **الأطوار الناشطة الحيّة** لـ`__Entamoeba histolytica__` وغيرها من الطفيليات الحيّة **لا تُرى لأن اليود يقتلها**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "The examination instructions in normal saline must be followed the same in iodine test.",
+   "ar": "يجب اتّباع تعليمات الفحص بالمحلول الملحي نفسها في فحص اليود."
+  },
+  {
+   "t": "section",
+   "en": "Quick summary & key terms",
+   "ar": "الخلاصة السريعة وأهم المصطلحات"
+  },
+  {
+   "t": "h2",
+   "en": "In short",
+   "ar": "باختصار"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Amoebae: **trophozoite** (motile, feeding) and **cyst** (resistant, infective); move by **pseudopodia**.",
+    "__E. histolytica__: worldwide, tropics; **3rd parasitic cause of death** (after malaria, schistosomiasis); lives in the **colon**.",
+    "Trophozoite **10–60 µm**, only form in tissue, small **central karyosome**, killed by drying/stomach → not infective.",
+    "Cyst **10–20 µm**, 1 → **4 nuclei**, glycogen + **cigar-shaped chromatoid bars** (disappear on maturity)."
+   ],
+   "list_ar": [
+    "الأميبات: **الطور الناشط** (متحرّك متغذٍّ) و**الكيس** (مقاوم معدٍ)؛ تتحرّك بـ**الأقدام الكاذبة**.",
+    "`__E. histolytica__`: عالمية، استوائية؛ **ثالث سبب طفيلي للوفاة** (بعد الملاريا والبلهارسيا)؛ تعيش في **القولون**.",
+    "الطور الناشط **10–60 ميكرومتر**، الشكل الوحيد في النسيج، **جسيم نووي مركزي** صغير، يموت بالجفاف/في المعدة ← غير معدٍ.",
+    "الكيس **10–20 ميكرومتر**، نواة 1 ← **4 أنوية**، غلايكوجين + **قضبان كروماتينية سيجارية** (تختفي عند النضج)."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Life cycle: **one host (man)**; ingest 4-nucleate cyst → excystation → **8 amebae** → binary fission → encystation in colon.",
+    "Disease: **amoebic dysentery**, amoeboma, **liver abscess** (via portal vein), lung/brain abscess.",
+    "Treatment: invasive → **metronidazole/tinidazole + luminal agent**; asymptomatic → **paromomycin / diloxanide / iodoquinol**.",
+    "GSE: quantity 150–250 g/day; macroscopic (consistency, color, odor, worms, blood/mucus); microscopic; chemical (pH **acid in amoebic**, alkaline in bacillary)."
+   ],
+   "list_ar": [
+    "دورة الحياة: **مضيف واحد (الإنسان)**؛ ابتلاع كيس رباعي ← انفقاس ← **8 أميبات** ← انشطار ثنائي ← تكيّس في القولون.",
+    "المرض: **الزحار الأميبي**، الورم الأميبي، **خُراج الكبد** (عبر الوريد البابي)، خُراج الرئة/الدماغ.",
+    "العلاج: الغازي ← **ميترونيدازول/تينيدازول + دواء تجويفي**؛ بلا أعراض ← **باروموميسين / ديلوكسانيد / يودوكينول**.",
+    "الفحص العام: الكمية 150–250 غ/يوم؛ عياني (القوام، اللون، الرائحة، الديدان، الدم/المخاط)؛ مجهري؛ كيميائي (الأس **حمضي في الأميبي** وقاعدي في العصوي)."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Occult blood: **benzidine (blue)**, **orthotolidine (green)**; false + peroxidase foods, aspirin; false − vitamin C.",
+    "Wet mount: **saline 0.85%** (motile trophozoites, cysts, ova) and **iodine** (cyst details; kills trophozoites); 10x then 40x."
+   ],
+   "list_ar": [
+    "الدم الخفي: **البنزيدين (أزرق)**، **الأورثوتوليدين (أخضر)**؛ الموجب الكاذب: أطعمة البيروكسيداز والأسبرين؛ والسالب الكاذب: فيتامين C.",
+    "التحضير الرطب: **الملحي 0.85%** (الناشطة المتحرّكة والأكياس والبيوض) و**اليودي** (تفاصيل الأكياس؛ يقتل الناشطة)؛ 10x ثم 40x."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Key terms — more than one translation",
+   "ar": "أهم المصطلحات — بأكثر من ترجمة"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Amoebiasis**",
+     "داء الأميبات / الأميبيا / الزحار الأميبي"
+    ],
+    [
+     "**Dysentery**",
+     "الزحار / الدوسنتاريا"
+    ],
+    [
+     "**Liver abscess**",
+     "خُراج الكبد / دُمّل الكبد"
+    ],
+    [
+     "**Amoeboma**",
+     "الورم الأميبي / الكتلة الأميبية"
+    ],
+    [
+     "**Chromatoid body**",
+     "الجسم الكروماتيني / القضيب الكروماتيني"
+    ],
+    [
+     "**Karyosome**",
+     "الجسيم النووي / النوية المركزية"
+    ],
+    [
+     "**Excystment**",
+     "الانفقاس / الخروج من الكيس"
+    ],
+    [
+     "**Encystment**",
+     "التكيّس / تكوين الكيس"
+    ],
+    [
+     "**Hepatomegaly**",
+     "تضخّم الكبد / ضخامة الكبد"
+    ],
+    [
+     "**Carrier**",
+     "حامل / ناقل بلا أعراض"
+    ],
+    [
+     "**Luminal agent**",
+     "دواء تجويفي / دواء يعمل داخل الأمعاء"
+    ],
+    [
+     "**Occult blood**",
+     "الدم الخفي / الدم المستتر"
+    ],
+    [
+     "**Steatorrhea**",
+     "الإسهال الدهني / الإسهال الشحمي"
+    ],
+    [
+     "**Stercobilinogen**",
+     "الستيركوبيلينوجين / صبغ البراز"
+    ],
+    [
+     "**Tarry stool**",
+     "البراز القطراني / البراز الأسود (melena)"
+    ],
+    [
+     "**Wet mount**",
+     "التحضير الرطب / المسحة الرطبة / الشريحة الرطبة"
+    ],
+    [
+     "**Physiological saline**",
+     "المحلول الملحي الفسيولوجي / المحلول الملحي الطبيعي"
+    ],
+    [
+     "**General stool examination (GSE)**",
+     "الفحص العام للبراز / تحليل البراز العام"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ]
+}

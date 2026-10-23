@@ -1,0 +1,1580 @@
+{
+ "meta": {
+  "subject_en": "Diagnostic Parasitology",
+  "subject_ar": "الطفيليات التشخيصية",
+  "short_ar": "طفيليات",
+  "instructor": "أ.د. نزار الخفاجي",
+  "unit_en": "Week 5",
+  "unit_ar": "الأسبوع 5",
+  "unit_label": "WEEK",
+  "unit_no": "5",
+  "title_en": "Pathogenic free- living amoeba & Fixatives",
+  "title_ar": "الأميبات حرّة المعيشة الممرضة والمثبّتات",
+  "department": "قسم التحليلات",
+  "stage": "The fourth stage — الرابعة",
+  "kind": "Theory — نظري"
+ },
+ "blocks": [
+  {
+   "t": "card",
+   "en": "**Pathogenic free- living amoeba** — topics of this week",
+   "ar": "**الأميبات حرّة المعيشة الممرضة** — مواضيع هذا الأسبوع",
+   "list_en": [
+    "__Naegleria fowleri__: History and distribution; morphology; life cycle; pathogenicity and clinical features; laboratory diagnosis; treatment",
+    "Acanthamoeba species; distribution; morphology; life cycles; pathogenicity and clinical features; laboratory diagnosis; treatment",
+    "Differentiation of pathogenic __Entamoeba histolytica__ and the morphologically identical nonpathogenic __Entamoeba dispar__ using immunological assays",
+    "Preparation of preservatives and fixative for mounted slides: Formalin solution 5-7%; PVA polyvinyl alcohol as fixative; Schaudinn's fixative"
+   ],
+   "list_ar": [
+    "النيغلرية الفاولرية: التاريخ والانتشار؛ الشكل؛ دورة الحياة؛ الإمراضية والمظاهر السريرية؛ التشخيص المختبري؛ العلاج",
+    "أنواع الأكانثاميبا؛ الانتشار؛ الشكل؛ دورات الحياة؛ الإمراضية والمظاهر السريرية؛ التشخيص المختبري؛ العلاج",
+    "التمييز بين الأميبا الحالّة للنسيج الممرضة والأميبا المتباينة (dispar) غير الممرضة المطابقة لها شكليًا بالمقايسات المناعية",
+    "تحضير المواد الحافظة والمثبّتة للشرائح: محلول الفورمالين 5–7%؛ كحول البولي فينيل مثبّتًا؛ مثبّت شاودن"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Pathogenic free- living amoebae",
+   "ar": "الأميبات حرّة المعيشة الممرضة"
+  },
+  {
+   "t": "card",
+   "en": "Among the numerous free- living amoebae of **soil and water** habitats, certain species of **Naegleria, Acanthamoeba and Balamuthia** are **facultative parasites** of human.",
+   "ar": "من بين الأميبات حرّة المعيشة العديدة في موائل **التربة والماء**، تُعدّ أنواع معيّنة من **النيغلرية والأكانثاميبا والبالاموثيا** **طفيليات اختيارية** للإنسان."
+  },
+  {
+   "t": "card",
+   "en": [
+    "Most human infections of these amoebae are acquired by **exposure to contaminated water while swimming**.",
+    "**Inhalation of cysts from dust** may account for some infections."
+   ],
+   "ar": [
+    "معظم إصابات الإنسان بهذه الأميبات تُكتسب بـ**التعرّض للماء الملوّث أثناء السباحة**.",
+    "وقد يفسّر **استنشاق الأكياس من الغبار** بعض الإصابات."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Naegleria fowleri",
+   "ar": "النيغلرية الفاولرية"
+  },
+  {
+   "t": "card",
+   "en": "__Naegleria fowleri__ has a worldwide distribution in **warm freshwater** environments and was first identified as a cause of human disease in the **1960s**.",
+   "ar": "لـالنيغلرية الفاولرية انتشار عالمي في بيئات **المياه العذبة الدافئة**، وعُرفت أول مرة مسبّبًا لمرض الإنسان في **الستينيات**."
+  },
+  {
+   "t": "card",
+   "en": "Cases of **Primary Amebic Meningoencephalitis (PAM)** caused by this amoeba have been reported in over 20 countries, on every continent except Antarctica.",
+   "ar": "سُجّلت حالات **التهاب السحايا والدماغ الأميبي الأولي (PAM)** الذي تسبّبه هذه الأميبا في أكثر من 20 بلدًا، في كل القارات عدا القطبية الجنوبية."
+  },
+  {
+   "t": "card",
+   "en": "The amoeba **thrives in warm water**, with its distribution increasing due to factors like rising temperatures and poor water treatment",
+   "ar": "تزدهر هذه الأميبا **في الماء الدافئ**، ويزداد انتشارها بسبب عوامل مثل ارتفاع الحرارة وضعف معالجة المياه"
+  },
+  {
+   "t": "h2",
+   "en": "History",
+   "ar": "التاريخ"
+  },
+  {
+   "t": "card",
+   "en": [
+    "The first human infection of __Naegleria fowleri__ was identified in **Australia in 1965**.",
+    "Since then, the organism has been a recognized, though the cause of a deadly brain infection called primary amebic Meningoencephalitis"
+   ],
+   "ar": [
+    "عُرفت أول إصابة بشرية بـالنيغلرية الفاولرية في **أستراليا عام 1965**.",
+    "ومنذ ذلك الحين عُرف هذا الكائن مسبّبًا لعدوى دماغية مميتة تُسمّى التهاب السحايا والدماغ الأميبي الأولي"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Distribution",
+   "ar": "الانتشار"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Cases have been reported in North America, South America, Asia, Europe, Africa, and Oceania",
+    "While found in many regions, higher incidence rates have been observed in areas with **warmer climates**, particularly in the **southern United States**.",
+    "The distribution of the pathogen is influenced by environmental factors like **high temperatures** and the presence of **bacteria in the water**.",
+    "There is evidence that __N. fowleri__ is **spreading to new regions**, which is a cause for concern due to its **extremely high fatality rate**"
+   ],
+   "list_ar": [
+    "سُجّلت حالات في أمريكا الشمالية وأمريكا الجنوبية وآسيا وأوروبا وأفريقيا وأوقيانوسيا",
+    "مع وجودها في مناطق كثيرة، لوحظت معدّلات حدوث أعلى في المناطق ذات **المناخ الأدفأ**، ولا سيما **جنوب الولايات المتحدة**.",
+    "يتأثّر انتشار هذا الممرض بعوامل بيئية مثل **الحرارة المرتفعة** ووجود **البكتيريا في الماء**.",
+    "هناك دليل على أن النيغلرية الفاولرية **تنتشر إلى مناطق جديدة**، وهذا مقلق بسبب **معدّل وفياتها المرتفع جدًا**"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Key factors in its spread:",
+     "العوامل الرئيسة في انتشارها:"
+    ],
+    [
+     "Explanation",
+     "الشرح"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Water temperature",
+      "حرارة الماء"
+     ],
+     [
+      "The organism is thermophiles, meaning it thrives in warm water",
+      "الكائن محبّ للحرارة، أي أنه يزدهر في الماء الدافئ"
+     ]
+    ],
+    [
+     [
+      "Environmental conditions",
+      "الظروف البيئية"
+     ],
+     [
+      "Poorly maintained water bodies and changes in water use patterns can favor its proliferation",
+      "المسطّحات المائية سيئة الصيانة وتغيّر أنماط استخدام المياه قد تعزّز تكاثرها"
+     ]
+    ],
+    [
+     [
+      "Recreational activities",
+      "الأنشطة الترفيهية"
+     ],
+     [
+      "Activities such as swimming, diving, and nasal irrigation (washing the nose) can lead to human exposure",
+      "أنشطة مثل السباحة والغوص وغسل الأنف قد تؤدي إلى تعرّض الإنسان"
+     ]
+    ],
+    [
+     [
+      "Climate change",
+      "التغيّر المناخي"
+     ],
+     [
+      "Rising global temperatures are expanding the ecological range of N. fowleri",
+      "ارتفاع الحرارة العالمية يوسّع النطاق البيئي لـ N. fowleri"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    70
+   ],
+   "style": "summary",
+   "label_en": "Key factors in its spread",
+   "label_ar": "عوامل انتشارها"
+  },
+  {
+   "t": "card",
+   "en": "__Naegleria fowleri__, free- living, in **fresh or brackish water (lake, river and ponds) and soil**.",
+   "ar": "النيغلرية الفاولرية حرّة المعيشة، في **المياه العذبة أو قليلة الملوحة (البحيرات والأنهار والبرك) والتربة**."
+  },
+  {
+   "t": "card",
+   "en": "__Naegleria fowleri__ is found globularly in warm freshwater, such as **lakes, rivers, and hot springs**",
+   "ar": "توجد النيغلرية الفاولرية عالميًا في المياه العذبة الدافئة مثل **البحيرات والأنهار والينابيع الحارّة**"
+  },
+  {
+   "t": "h2",
+   "en": "Morphology",
+   "ar": "الشكل"
+  },
+  {
+   "t": "card",
+   "en": "**Amoebo-flagellate** — **Three forms: Amoeboid; Flagellate; Cyst**",
+   "ar": "**أميبية سوطية** — **ثلاثة أشكال: الأميبي؛ السوطي؛ الكيس**"
+  },
+  {
+   "t": "card",
+   "en": [
+    "The trophozoites occur in **two forms**.",
+    "Amoeboid form with **single pseudopodia** and flagella forms with **two flagella** which usually appear a few hours after flooding water or in CSF."
+   ],
+   "ar": [
+    "توجد الأطوار الناشطة في **شكلين**.",
+    "الشكل الأميبي بـ**قدم كاذبة واحدة**، والشكل السوطي بـ**سوطين** يظهر عادةً بعد ساعات من غمر الماء أو في السائل الدماغي الشوكي."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "Amoeboid (Trophozoite)",
+     "الأميبي (الطور الناشط)"
+    ],
+    [
+     "Flagellate form",
+     "الشكل السوطي"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Shape",
+      "الشكل"
+     ],
+     [
+      "Rounded / elongated 15-30 micro",
+      "مستدير / مستطيل 15–30 ميكرون"
+     ],
+     [
+      "Elongated / pear shaped",
+      "مستطيل / كمثري"
+     ]
+    ],
+    [
+     [
+      "Nucleus",
+      "النواة"
+     ],
+     [
+      "Single nucleus",
+      "نواة واحدة"
+     ],
+     [
+      "Anterior nucleus",
+      "نواة أمامية"
+     ]
+    ],
+    [
+     [
+      "Organelles",
+      "العضيّات"
+     ],
+     [
+      "Single pseudopodia",
+      "قدم كاذبة واحدة"
+     ],
+     [
+      "Two free flagella",
+      "سوطان حرّان"
+     ]
+    ],
+    [
+     [
+      "Feeding / division",
+      "التغذّي / الانقسام"
+     ],
+     [
+      "Feed and divide by binary fission",
+      "يتغذّى وينقسم بالانشطار الثنائي"
+     ],
+     [
+      "Non feeding and non-dividing",
+      "لا يتغذّى ولا ينقسم"
+     ]
+    ],
+    [
+     [
+      "Role",
+      "الدور"
+     ],
+     [
+      "the infective stage",
+      "الطور المعدي"
+     ],
+     [
+      "—",
+      "—"
+     ]
+    ],
+    [
+     [
+      "Site",
+      "الموضع"
+     ],
+     [
+      "Found in CSF and tissue",
+      "يوجد في السائل الدماغي الشوكي والنسيج"
+     ],
+     [
+      "Never present in tissue",
+      "لا يوجد أبدًا في النسيج"
+     ]
+    ],
+    [
+     [
+      "Transformation",
+      "التحوّل"
+     ],
+     [
+      "Can be transformed into flagellate and cyst form",
+      "يمكن أن يتحوّل إلى الشكل السوطي والكيس"
+     ],
+     [
+      "Can be transformed to amoeboid form;",
+      "يمكن أن يتحوّل إلى الشكل الأميبي؛"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    20,
+    40,
+    40
+   ],
+   "style": "summary",
+   "label_en": "Amoeboid vs flagellate form",
+   "label_ar": "الشكل الأميبي مقابل السوطي"
+  },
+  {
+   "t": "h2",
+   "en": "Naegleria fowleri –Infection",
+   "ar": "النيغلرية الفاولرية — العدوى"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "The **trophozoite is the infectious form**",
+     "ar": "**الطور الناشط هو الشكل المعدي**"
+    },
+    {
+     "en": "Gets introduced through the **nose**",
+     "ar": "يدخل عبر **الأنف**"
+    },
+    {
+     "en": "Embeds in the **nasal epithelium**",
+     "ar": "ينغرس في **الظهارة الأنفية**"
+    },
+    {
+     "en": "Attracted to the neurotransmitters of **olfactory nerve**",
+     "ar": "ينجذب إلى النواقل العصبية لـ**العصب الشمّي**"
+    },
+    {
+     "en": "Eat the olfactory nerve and bulb, back to the **cerebrum**",
+     "ar": "يأكل العصب الشمّي والبصلة الشمّية وصولًا إلى **المخ**"
+    },
+    {
+     "en": "Spread to the rest of the brain",
+     "ar": "ينتشر إلى بقية الدماغ"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "The Naegleria fowleri life cycle has three stages:",
+   "ar": "لدورة حياة النيغلرية الفاولرية ثلاثة أطوار:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The trophozoite (the **invasive, infective stage**).",
+    "The Flagellate (a **temporary, non- feeding** form),",
+    "The cyst (a **resistant, dormant** stage)."
+   ],
+   "list_ar": [
+    "الطور الناشط (**الطور الغازي المعدي**).",
+    "السوطي (شكل **مؤقت لا يتغذّى**)،",
+    "الكيس (طور **مقاوم ساكن**)."
+   ],
+   "alpha": true
+  },
+  {
+   "t": "card",
+   "en": "**Trophozoites are the only stage that can cause human infection** by entering the nose and migrating to the brain,",
+   "ar": "**الأطوار الناشطة هي الطور الوحيد القادر على إحداث عدوى الإنسان** بدخول الأنف والهجرة إلى الدماغ،"
+  },
+  {
+   "t": "card",
+   "en": "While **cysts are responsible for environmental survival**",
+   "ar": "بينما **الأكياس مسؤولة عن البقاء في البيئة**"
+  },
+  {
+   "t": "card",
+   "en": "and **flagellates are a transitional form** that can revert to trophozoites",
+   "ar": "و**السوطيات شكل انتقالي** يمكنه العودة إلى أطوار ناشطة"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Stage",
+     "الطور"
+    ],
+    [
+     "Aspect",
+     "الجانب"
+    ],
+    [
+     "Description",
+     "الوصف"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "1. Trophozoite stage",
+      "1. طور الناشط"
+     ],
+     [
+      "—",
+      "—"
+     ],
+     [
+      "The ameboid trophozoite is the active, feeding, and reproductive stage of the N. Fowleri",
+      "الطور الناشط الأميبي هو الطور النشط المتغذّي والمتكاثر لـ N. fowleri"
+     ]
+    ],
+    [
+     [
+      "",
+      ""
+     ],
+     [
+      "Infection",
+      "العدوى"
+     ],
+     [
+      "This is the only form that causes human infection by entering the nasal passages, often during swimming or diving in warm freshwater",
+      "هو الشكل الوحيد الذي يسبّب عدوى الإنسان بدخول الممرات الأنفية، غالبًا أثناء السباحة أو الغوص في المياه العذبة الدافئة"
+     ]
+    ],
+    [
+     [
+      "",
+      ""
+     ],
+     [
+      "Migration",
+      "الهجرة"
+     ],
+     [
+      "From the nose, trophozoites travel along the olfactory nerve to the brain, causing primary amebic meningoencephalitis (PAM).",
+      "من الأنف تنتقل الأطوار الناشطة على طول العصب الشمّي إلى الدماغ، فتسبّب التهاب السحايا والدماغ الأميبي الأولي (PAM)."
+     ]
+    ],
+    [
+     [
+      "",
+      ""
+     ],
+     [
+      "Reproduction",
+      "التكاثر"
+     ],
+     [
+      "Trophozoites replicate by binary division",
+      "تتضاعف الأطوار الناشطة بالانقسام الثنائي"
+     ]
+    ],
+    [
+     [
+      "2. Flagellates stage",
+      "2. الطور السوطي"
+     ],
+     [
+      "—",
+      "—"
+     ],
+     [
+      "This is a temporary, non- feeding, pear- shaped form with two flagella that develop when environmental conditions become unfavorable, such as a reduced food source or exposure to a change in fluid ionic strength, like distilled water",
+      "شكل مؤقت لا يتغذّى، كمثري، بسوطين، يتكوّن عندما تصبح الظروف البيئية غير ملائمة، مثل نقص مصدر الغذاء أو التعرّض لتغيّر القوة الأيونية للسائل، كالماء المقطّر"
+     ]
+    ],
+    [
+     [
+      "",
+      ""
+     ],
+     [
+      "In the environment",
+      "في البيئة"
+     ],
+     [
+      "Flagellates can be found in the environment but do not cause infection",
+      "قد توجد السوطيات في البيئة لكنها لا تسبّب العدوى"
+     ]
+    ],
+    [
+     [
+      "",
+      ""
+     ],
+     [
+      "Infection in humans",
+      "العدوى لدى الإنسان"
+     ],
+     [
+      "If a flagellate enters the nasal cavity, it quickly transforms back into a trophozoite to initiate infection",
+      "إذا دخل السوطي التجويف الأنفي يتحوّل سريعًا إلى طور ناشط ليبدأ العدوى"
+     ]
+    ],
+    [
+     [
+      "3. Cyst stage",
+      "3. طور الكيس"
+     ],
+     [
+      "—",
+      "—"
+     ],
+     [
+      "The cyst is a metabolically inactive, resistant form that helps the ameba survive adverse environmental conditions, such as cold, temperatures or low nutrient levels",
+      "الكيس شكل خامل استقلابيًا مقاوم يساعد الأميبا على البقاء في الظروف البيئية القاسية، مثل البرد أو الحرارة أو قلّة المغذّيات"
+     ]
+    ],
+    [
+     [
+      "",
+      ""
+     ],
+     [
+      "Infection",
+      "العدوى"
+     ],
+     [
+      "Cysts are not seen in brain tissue or CSF and are not the infective stage",
+      "لا تُرى الأكياس في نسيج الدماغ أو السائل الدماغي الشوكي وليست الطور المعدي"
+     ]
+    ],
+    [
+     [
+      "",
+      ""
+     ],
+     [
+      "Environmental role",
+      "الدور البيئي"
+     ],
+     [
+      "Cysts can encyst in sediments and survive for extended periods",
+      "يمكن للأكياس أن تتكيّس في الرواسب وتبقى مددًا طويلة"
+     ]
+    ]
+   ],
+   "widths": [
+    20,
+    20,
+    60
+   ],
+   "style": "summary",
+   "label_en": "The three stages of Naegleria fowleri",
+   "label_ar": "الأطوار الثلاثة للنيغلرية الفاولرية"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "How it changes between stages",
+     "كيف يتحوّل بين الأطوار"
+    ],
+    [
+     "Trigger",
+     "المحفّز"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Trophozoite to flagellate",
+      "من الناشط إلى السوطي"
+     ],
+     [
+      "Adverse conditions, such as a lack of food, trigger the change from trophozoite to flagellate",
+      "الظروف القاسية، مثل نقص الغذاء، تحفّز التحوّل من الناشط إلى السوطي"
+     ]
+    ],
+    [
+     [
+      "Flagellate to trophozoite",
+      "من السوطي إلى الناشط"
+     ],
+     [
+      "When favorable conditions return, the flagellates form transforms back into a trophozoite",
+      "عندما تعود الظروف الملائمة يتحوّل الشكل السوطي إلى طور ناشط"
+     ]
+    ],
+    [
+     [
+      "Trophozoite/ flagellate to cyst",
+      "من الناشط/السوطي إلى الكيس"
+     ],
+     [
+      "If environmental conditions persist as unfavorable, the ameba will form a cyst",
+      "إذا استمرّت الظروف البيئية غير ملائمة تكوّن الأميبا كيسًا"
+     ]
+    ],
+    [
+     [
+      "Cyst to trophozoite",
+      "من الكيس إلى الناشط"
+     ],
+     [
+      "The cyst forms a single -layered wall with pores that allow the trophozoite to excyst and return to its active form when conditions are suitable",
+      "يكوّن الكيس جدارًا أحادي الطبقة فيه مسام تسمح للطور الناشط بالانفقاس والعودة إلى شكله النشط عندما تكون الظروف مناسبة"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    70
+   ],
+   "style": "summary",
+   "label_en": "How it changes between stages",
+   "label_ar": "التحوّل بين الأطوار"
+  },
+  {
+   "t": "section",
+   "en": "Acanthamoeba",
+   "ar": "الأكانثاميبا"
+  },
+  {
+   "t": "card",
+   "en": "**Acanthamoebas** is a genus of amoeba that are commonly recovered from the **soil, fresh water**, and other habitats.",
+   "ar": "**الأكانثاميبا** جنس من الأميبات يُعزل كثيرًا من **التربة والمياه العذبة** وموائل أخرى."
+  },
+  {
+   "t": "h2",
+   "en": "Free living amebic infections — Life cycle",
+   "ar": "عدوى الأميبات حرّة المعيشة — دورة الحياة"
+  },
+  {
+   "t": "card",
+   "en": "Acanthamoeba spp. __Balamuthia mandrillais__ has been isolated from **soil and dust**, and also from autopsy specimens of infected humans and animals",
+   "ar": "أنواع الأكانثاميبا. عُزلت `__Balamuthia mandrillaris__` من **التربة والغبار**، وكذلك من عيّنات تشريح بشر وحيوانات مصابة"
+  },
+  {
+   "t": "card",
+   "en": "The acanthamoeba life cycle consists of **two main stages**: The motile, feeding **trophozoite** and the resistant, dormant **cyst**.",
+   "ar": "تتكوّن دورة حياة الأكانثاميبا من **طورين رئيسين**: **الطور الناشط** المتحرّك المتغذّي و**الكيس** المقاوم الساكن."
+  },
+  {
+   "t": "card",
+   "en": [
+    "The trophozoite is the **infective, vegetative form** that divides and feeds on organic matter and microbes under optimal environmental conditions.",
+    "When faced with harsh conditions, the trophozoite differentiates into a resilient, **double- walled cyst**, which can survive for extended periods before excysting back into a trophozoite when conditions improve"
+   ],
+   "ar": [
+    "الطور الناشط هو **الشكل الخضري المعدي** الذي ينقسم ويتغذّى على المواد العضوية والميكروبات في الظروف البيئية المثلى.",
+    "وعند مواجهة ظروف قاسية يتمايز الطور الناشط إلى **كيس مزدوج الجدار** صامد، يمكنه البقاء مددًا طويلة قبل أن ينفقس عائدًا إلى طور ناشط عند تحسّن الظروف"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "Trophozoite stage",
+     "طور الناشط"
+    ],
+    [
+     "Cyst stage",
+     "طور الكيس"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Form",
+      "الشكل"
+     ],
+     [
+      "A mobile, actively feeding, and dividing vegetative form",
+      "شكل خضري متحرّك يتغذّى بنشاط وينقسم"
+     ],
+     [
+      "Form a dormant, double – walled cyst that is highly resistant to environmental stresses like heat, disinfectants (e.g. chlorine) , and antibiotics",
+      "كيس ساكن مزدوج الجدار شديد المقاومة للضغوط البيئية مثل الحرارة والمطهّرات (كالكلور) والمضادات الحيوية"
+     ]
+    ],
+    [
+     [
+      "Function",
+      "الوظيفة"
+     ],
+     [
+      "Ingest bacteria, algae, yeast, and other particulate matter through pseudopods and phagocytosed",
+      "يبتلع البكتيريا والطحالب والخمائر وغيرها من الجسيمات عبر الأقدام الكاذبة بالبلعمة"
+     ],
+     [
+      "Protect the organisms, during unfavorable conditions and enables ling - term survival",
+      "يحمي الكائن في الظروف غير الملائمة ويتيح البقاء الطويل"
+     ]
+    ],
+    [
+     [
+      "Conditions / Formation",
+      "الظروف / التكوّن"
+     ],
+     [
+      "Thrives in favorable conditions, including abundant food, a neutral pH , an appropriate temperature (~30 °C ), and suitable osmolarity.",
+      "يزدهر في الظروف الملائمة، ومنها وفرة الغذاء وأس هيدروجيني متعادل وحرارة مناسبة (~30 مْ) وأسمولية ملائمة."
+     ],
+     [
+      "Forms when the trophozoite encounters harsh conditions",
+      "يتكوّن عندما يواجه الطور الناشط ظروفًا قاسية"
+     ]
+    ],
+    [
+     [
+      "Division / Exit",
+      "الانقسام / الخروج"
+     ],
+     [
+      "Divides by mitosis to grow the population",
+      "ينقسم خيطيًا لزيادة العدد"
+     ],
+     [
+      "The cyst wall has an operculum that can open to allow the trophozoite to exit, a process called excystation",
+      "لجدار الكيس غطاء (operculum) ينفتح ليسمح للطور الناشط بالخروج، وتُسمّى العملية الانفقاس"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    18,
+    41,
+    41
+   ],
+   "style": "summary",
+   "label_en": "Acanthamoeba: trophozoite vs cyst",
+   "label_ar": "الأكانثاميبا: الناشط مقابل الكيس"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Pathogenic stages",
+     "الأطوار الممرضة"
+    ],
+    [
+     "Description",
+     "الوصف"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Entry",
+      "الدخول"
+     ],
+     [
+      "Both cyst and trophozoites forms can be pathogenic, entering the body through the eyes, nasal passages, or broken skin",
+      "يمكن أن يكون الكيس والطور الناشط كلاهما ممرضين، ويدخلان الجسم عبر العينين أو الممرات الأنفية أو الجلد المتشقّق"
+     ]
+    ],
+    [
+     [
+      "Infections",
+      "العدوى"
+     ],
+     [
+      "They can cause severe infections, such as amebic keratitis in the eyes or granulomatous amebic encephalitis (GAE) when they invade the central nervous system",
+      "قد تسبّب عدوى شديدة مثل التهاب القرنية الأميبي في العين أو التهاب الدماغ الأميبي الحبيبومي (GAE) عند غزو الجهاز العصبي المركزي"
+     ]
+    ],
+    [
+     [
+      "Persistence",
+      "الاستمرار"
+     ],
+     [
+      "The cysts resistance to treatment contribute to persistent infections.",
+      "مقاومة الأكياس للعلاج تسهم في استمرار العدوى."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    78
+   ],
+   "style": "summary",
+   "label_en": "Pathogenic stages",
+   "label_ar": "الأطوار الممرضة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Acanthamoeba species** – The trophozoites have an irregular appearance with **spine – like pseudopodia, and acanthopodia**.",
+    "**Balamuthia species**- The trophozoites extends a **broad, flat lamellipodia** or sub pseudopodia from it.",
+    [
+     "The trophozoite may be **bi – nucleated**.",
+     "Unlike most amoebae the **nuclear envelope breaks down during mitosis**."
+    ]
+   ],
+   "list_ar": [
+    "**أنواع الأكانثاميبا** — للأطوار الناشطة مظهر غير منتظم مع **أقدام كاذبة شوكية (acanthopodia)**.",
+    "**أنواع البالاموثيا** — يمدّ الطور الناشط **أقدامًا صفائحية عريضة مسطّحة (lamellipodia)** أو أقدامًا كاذبة فرعية.",
+    [
+     "قد يكون الطور الناشط **ثنائي النواة**.",
+     "وعلى خلاف معظم الأميبات **يتفكّك الغلاف النووي أثناء الانقسام الخيطي**."
+    ]
+   ]
+  },
+  {
+   "t": "note",
+   "en": "The source writes \"Balamuthia mandrillais\"; the species is __Balamuthia mandrillaris__.",
+   "ar": "ورد في المصدر «Balamuthia mandrillais»، والصحيح `__Balamuthia mandrillaris__`.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Disease, diagnosis and treatment",
+   "ar": "المرض والتشخيص والعلاج"
+  },
+  {
+   "t": "card",
+   "en": "**Naegleria, Acanthamoeba, Balamuthia** organisms are **opportunistic pathogens**.",
+   "ar": "كائنات **النيغلرية والأكانثاميبا والبالاموثيا** **ممرضات انتهازية**."
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Organism",
+     "الكائن"
+    ],
+    [
+     "Disease",
+     "المرض"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Naegleria fowleri",
+      "النيغلرية الفاولرية"
+     ],
+     [
+      "acute primary amoebic meningoencephalitis.",
+      "التهاب السحايا والدماغ الأميبي الأولي الحاد."
+     ]
+    ],
+    [
+     [
+      "Acanthamoeba and Balamuthia",
+      "الأكانثاميبا والبالاموثيا"
+     ],
+     [
+      "granulomatous amoebic encephalitis and single or multiple brain abscesses, primarily in immunocompromised individuals.",
+      "التهاب الدماغ الأميبي الحبيبومي وخُراجات دماغية مفردة أو متعدّدة، أساسًا لدى ضعيفي المناعة."
+     ]
+    ],
+    [
+     [
+      "Acanthamoeba",
+      "الأكانثاميبا"
+     ],
+     [
+      "Keratitis (eye) and skin infection by Acanthamoeba may also occur.",
+      "قد يحدث أيضًا التهاب القرنية (العين) وعدوى الجلد بالأكانثاميبا."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    28,
+    72
+   ],
+   "style": "summary",
+   "label_en": "Free-living amoebae and their diseases",
+   "label_ar": "الأميبات حرّة المعيشة وأمراضها"
+  },
+  {
+   "t": "card",
+   "en": "For the diagnosis of Naegleria, Acanthamoeba, ands Balamuthia infections, specimens of **nasal discharge and cerebrospinal fluid**, and in cases of eye infections **corneal scraping** should be collected.",
+   "ar": "لتشخيص عدوى النيغلرية والأكانثاميبا والبالاموثيا تُجمع عيّنات من **الإفرازات الأنفية والسائل الدماغي الشوكي**، وفي حالات عدوى العين **كشاطة القرنية**."
+  },
+  {
+   "t": "card",
+   "en": "The clinical specimens can be examined with **saline – wet – preparation and Iodine – stained smear**.",
+   "ar": "يمكن فحص العيّنات السريرية بـ**التحضير الرطب الملحي والمسحة المصبوغة باليود**."
+  },
+  {
+   "t": "card",
+   "en": "**Treatment of free – living amoebic infections is largely ineffective.**",
+   "ar": "**علاج عدوى الأميبات حرّة المعيشة غير فعّال إلى حد كبير.**"
+  },
+  {
+   "t": "section",
+   "en": "Differentiation of pathogenic Entamoeba histolytica and the morphologically identical nonpathogenic Entamoeba dispar using immunological assays",
+   "ar": "التمييز بين الأميبا الحالّة للنسيج الممرضة والأميبا المتباينة غير الممرضة المطابقة لها شكليًا بالمقايسات المناعية"
+  },
+  {
+   "t": "h2",
+   "en": "Enzyme immunoassays (EIA)",
+   "ar": "المقايسات المناعية الإنزيمية (EIA)"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Immunoassay kits are commercially available that detect __E. histolytica__.",
+    "Currently, these tests require the use of **fresh or frozen stool** specimens and **cannot be used with preserved specimens**."
+   ],
+   "ar": [
+    "تتوفّر تجاريًا عُدد مقايسة مناعية تكشف الأميبا الحالّة للنسيج.",
+    "وتتطلّب هذه الفحوص حاليًا استخدام عيّنات **براز طازجة أو مجمّدة** و**لا يمكن استخدامها مع العيّنات المحفوظة**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Rapid immunochromatographic cartridge assay",
+   "ar": "مقايسة الخرطوشة الكروماتوغرافية المناعية السريعة"
+  },
+  {
+   "t": "card",
+   "en": "A rapid cartridge is available that detects antigens of __E. histolytica / E. dispar__; however, this assay **does not distinguish between __E. histolytica__ and __E. dispar__**.",
+   "ar": "تتوفّر خرطوشة سريعة تكشف مستضدات الأميبا الحالّة للنسيج/المتباينة؛ لكن هذه المقايسة **لا تميّز بين الأميبا الحالّة للنسيج والأميبا المتباينة**."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Stool samples must be **fresh or frozen** and should **not be concentrated** prior to testing.",
+    "Borderline positives and questionable negatives obtained with this technique should be further confirmed by additional testing.",
+    "This assay is **quick and easy** to perform and no special equipment is needed."
+   ],
+   "list_ar": [
+    "يجب أن تكون عيّنات البراز **طازجة أو مجمّدة** و**ألا تُركَّز** قبل الفحص.",
+    "النتائج الموجبة الحدّية والسالبة المشكوك فيها بهذه التقنية يجب تأكيدها بفحوص إضافية.",
+    "هذه المقايسة **سريعة وسهلة** الإجراء ولا تحتاج إلى معدّات خاصة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**NAATs** can differentiate morphologically identical organisms, such as __Entamoeba histolytica__ and __Entamoeba dispar__.",
+   "ar": "**اختبارات تضخيم الحمض النووي (NAATs)** تستطيع التمييز بين الكائنات المتطابقة شكليًا، مثل الأميبا الحالّة للنسيج والأميبا المتباينة."
+  },
+  {
+   "t": "card",
+   "en": "The key difference among immunoassay tests for __Entamoeba histolytica__ (like ELISA and rapid tests) is whether they detect the parasite's **antigens (Present in stool)** or the host's **antibodies (Present in serum)**; with some tests distinguishing between the pathogenic __E. histolytica__ and the nonpathogenic __E. dispar__ and other failing to do so.",
+   "ar": "الفرق الأساسي بين المقايسات المناعية للأميبا الحالّة للنسيج (مثل ELISA والفحوص السريعة) هو هل تكشف **مستضدات الطفيلي (الموجودة في البراز)** أم **أضداد المضيف (الموجودة في المصل)**؛ وبعض الفحوص يميّز بين الحالّة للنسيج الممرضة والمتباينة غير الممرضة وبعضها يفشل في ذلك."
+  },
+  {
+   "t": "card",
+   "en": "**Antigen tests are more direct for active infection**, while **antibody tests indicate past, present infection exposure**.",
+   "ar": "**فحوص المستضد أكثر مباشرة للعدوى النشطة**، بينما **فحوص الأضداد تدل على التعرّض لعدوى سابقة أو حالية**."
+  },
+  {
+   "t": "h2",
+   "en": "Types of immunoassays",
+   "ar": "أنواع المقايسات المناعية"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "Antigen detection immunoassays (in stool)",
+     "مقايسات كشف المستضد (في البراز)"
+    ],
+    [
+     "Antibody Detection Immunoassays (In serum)",
+     "مقايسات كشف الأضداد (في المصل)"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "What they detect",
+      "ماذا تكشف"
+     ],
+     [
+      "These assays look for specific proteins (Antigen) produced by the parasite itself in a stool sample",
+      "تبحث عن بروتينات نوعية (مستضد) ينتجها الطفيلي نفسه في عيّنة البراز"
+     ],
+     [
+      "These assays look for antibodies produced by the patient immune system, in response to an E. histolytica infection",
+      "تبحث عن أضداد ينتجها جهاز المريض المناعي استجابةً لعدوى E. histolytica"
+     ]
+    ],
+    [
+     [
+      "Why they are used",
+      "لماذا تُستخدم"
+     ],
+     [
+      "they are useful for detecting active infection, as the antigen is directly related to the presence of the parasite in the gut",
+      "مفيدة لكشف العدوى النشطة، لأن المستضد مرتبط مباشرة بوجود الطفيلي في الأمعاء"
+     ],
+     [
+      "They can indicate exposure to the parasite and are often used for the serologic diagnosis of amebiasis , particularly invasive form like amebic liver abscess",
+      "تدل على التعرّض للطفيلي وتُستخدم كثيرًا للتشخيص المصلي لداء الأميبات، ولا سيما الشكل الغازي كخُراج الكبد الأميبي"
+     ]
+    ],
+    [
+     [
+      "Example",
+      "مثال"
+     ],
+     [
+      "The Tech Lab E. histolytica II ELISA and the Ridoscreen Entamoeba test are examples, with the Tech Lab test showing higher specificity for E. histolytica",
+      "اختبار Tech Lab E. histolytica II ELISA واختبار Ridoscreen Entamoeba مثالان، ويُظهر اختبار Tech Lab نوعية أعلى لـ E. histolytica"
+     ],
+     [
+      "Enzyme – linked Immunosorbent Assays (ELISA) and indirect hemagglutination tests (IHAs) are used to detect antibodies",
+      "تُستخدم مقايسات ELISA واختبارات التلازن الدموي غير المباشر (IHA) لكشف الأضداد"
+     ]
+    ],
+    [
+     [
+      "Key feature",
+      "الصفة الأساسية"
+     ],
+     [
+      "Some of these tests, like the Tech Lab E. histolytica II , are designed to specifically detect E. histolytica and not E. dispar , which is a crucial distinct for diagnosis and treatment",
+      "بعضها، مثل Tech Lab E. histolytica II، مصمّم لكشف E. histolytica تحديدًا دون E. dispar، وهو تمييز حاسم للتشخيص والعلاج"
+     ],
+     [
+      "—",
+      "—"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    16,
+    42,
+    42
+   ],
+   "style": "summary",
+   "label_en": "Antigen vs antibody immunoassays",
+   "label_ar": "مقايسات المستضد مقابل الأضداد"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Key difference explained",
+     "شرح الفرق الأساسي"
+    ],
+    [
+     "",
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Target of detection",
+      "هدف الكشف"
+     ],
+     [
+      "Antigen tests target the parasites components, while antibody tests target the host's immune response",
+      "فحوص المستضد تستهدف مكوّنات الطفيلي، بينما فحوص الأضداد تستهدف الاستجابة المناعية للمضيف"
+     ]
+    ],
+    [
+     [
+      "Clinical significance",
+      "الأهمية السريرية"
+     ],
+     [
+      "Antigen tests are often considered more direct evidence of an active infection in the gut, while antibody tests show exposure and can be positive for a longer period.",
+      "تُعدّ فحوص المستضد غالبًا دليلًا أكثر مباشرة على عدوى نشطة في الأمعاء، بينما تُظهر فحوص الأضداد التعرّض وقد تبقى موجبة مدة أطول."
+     ]
+    ],
+    [
+     [
+      "Specificity",
+      "النوعية"
+     ],
+     [
+      "The ability to distinguished between the pathogenic E. histolytica and the non – pathogenic E. dispar is a crucial; difference as only E. histolytica requires treatment",
+      "القدرة على التمييز بين E. histolytica الممرضة وE. dispar غير الممرضة فرق حاسم، لأن E. histolytica وحدها تحتاج علاجًا"
+     ]
+    ],
+    [
+     [
+      "Specimen Type",
+      "نوع العيّنة"
+     ],
+     [
+      "Antigen assays typically use stool specimen , while antibody assays use serum (Blood specimens)",
+      "تستخدم مقايسات المستضد عادةً عيّنة البراز، بينما تستخدم مقايسات الأضداد المصل (عيّنات الدم)"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    78
+   ],
+   "style": "summary",
+   "label_en": "Key difference explained",
+   "label_ar": "شرح الفرق الأساسي"
+  },
+  {
+   "t": "section",
+   "en": "Preparation of preservatives and fixatives for mounted slides",
+   "ar": "تحضير المواد الحافظة والمثبّتة للشرائح"
+  },
+  {
+   "t": "h2",
+   "en": "Formalin solution (5-7%) — Formalin Fixative",
+   "ar": "محلول الفورمالين (5–7%) — مثبّت الفورمالين"
+  },
+  {
+   "t": "card",
+   "en": [
+    "For histology the standard preferred fixative is **10% neutral buffered formalin (NBF)**.",
+    "This is best purchased as a prepared solution and avoids any additional risks of handling needed to mix the NBF yourself from stock solutions."
+   ],
+   "ar": [
+    "في علم الأنسجة المثبّت القياسي المفضّل هو **الفورمالين المتعادل المنظَّم 10% (NBF)**.",
+    "ويُفضّل شراؤه محلولًا جاهزًا، فيُتجنّب أي خطر إضافي في التعامل اللازم لمزجه بنفسك من المحاليل الخام."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Making 10% Neutral Buffered Formalin from stock solutions:",
+   "ar": "تحضير الفورمالين المتعادل المنظَّم 10% من المحاليل الخام:"
+  },
+  {
+   "t": "card",
+   "en": "Where only a standard stock solution of formalin is available it is typically **37-40 formaldehyde (a gas)** in aqueous solution and unbuffered.",
+   "ar": "حين لا يتوفّر إلا محلول فورمالين خام قياسي فهو عادةً **فورمالدهيد 37–40 (غاز)** في محلول مائي غير منظَّم."
+  },
+  {
+   "t": "card",
+   "en": [
+    "To make a histological fixative from this we need a 10% solution of this stock formalin i. e. **1 part of the stock formalin with 9 parts waters**, preferably distilled, which will have a **pH of 3-4**.",
+    "If used unbuffered the acidity can react with hemoglobin in the tissues to produce **dark brown acid formaldehyde hematin** precipitates, which complicate histological interpretation."
+   ],
+   "ar": [
+    "لتحضير مثبّت نسيجي منه نحتاج محلولًا 10% من هذا الفورمالين الخام، أي **جزءًا واحدًا من الفورمالين الخام مع 9 أجزاء ماء**، ويُفضّل المقطّر، ويكون **أسّه الهيدروجيني 3–4**.",
+    "وإذا استُخدم دون تنظيم فقد تتفاعل حموضته مع هيموغلوبين الأنسجة فتنتج رواسب **هيماتين الفورمالدهيد الحمضي البنية الغامقة** التي تعقّد التفسير النسيجي."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "To adjust the 10% formalin solution to a **neutral pH** you would need to mix in quantities of a **buffer, typically sodium phosphate**.",
+   "ar": "لضبط محلول الفورمالين 10% إلى **أس هيدروجيني متعادل** تحتاج إلى مزج كميات من **منظِّم، عادةً فوسفات الصوديوم**."
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Formaldehyde, 4% Buffered (=10% formalin) — A recommended recipe is as follows:",
+     "فورمالدهيد 4% منظَّم (= فورمالين 10%) — الوصفة الموصى بها:"
+    ],
+    [
+     "Amount",
+     "الكمية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Distilled water",
+      "ماء مقطّر"
+     ],
+     [
+      "900 ml",
+      "900 مل"
+     ]
+    ],
+    [
+     [
+      "Formalin (40% HCHO)",
+      "فورمالين (40% HCHO)"
+     ],
+     [
+      "100ml",
+      "100 مل"
+     ]
+    ],
+    [
+     [
+      "NaH2PO4.H2O (monobasic)",
+      "NaH2PO4.H2O (أحادي القاعدة)"
+     ],
+     [
+      "4.g",
+      "4 غ"
+     ]
+    ],
+    [
+     [
+      "Na2HPO4.2H2O (dibasic / anhydrous)",
+      "Na2HPO4.2H2O (ثنائي القاعدة / لا مائي)"
+     ],
+     [
+      "6.5g",
+      "6.5 غ"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    70,
+    30
+   ],
+   "style": "summary",
+   "label_en": "10% neutral buffered formalin",
+   "label_ar": "الفورمالين المتعادل المنظَّم 10%"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "10% formalin can also be referred to as **formal or formol**.",
+    [
+     "*Formalin is **formaldehyde gas dissolved in water** and reached saturation at **37-40%**.",
+     "Formaldehyde.",
+     "This can therefore regard as **100% formalin**."
+    ],
+    "**10% formalin actually represents 10% of the 37-40% stock solution.",
+    "The actual amount of dissolved formaldehyde in the 10% formalin is therefore only **3.7- 4.0%**."
+   ],
+   "list_ar": [
+    "يمكن أن يُسمّى الفورمالين 10% أيضًا **formal أو formol**.",
+    [
+     "*الفورمالين **غاز الفورمالدهيد المذاب في الماء** ويصل إلى التشبّع عند **37–40%**.",
+     "فورمالدهيد.",
+     "لذا يمكن عدّه **فورمالين 100%**."
+    ],
+    "**الفورمالين 10% يمثّل في الواقع 10% من المحلول الخام 37–40%.",
+    "لذا فإن الكمية الفعلية للفورمالدهيد المذاب في الفورمالين 10% هي **3.7–4.0%** فقط."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Fixative",
+     "المثبّت"
+    ],
+    [
+     "Advantage",
+     "المزايا"
+    ],
+    [
+     "Disadvantage",
+     "العيوب"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "10% formalin",
+      "الفورمالين 10%"
+     ],
+     [
+      "All purpose, fixative; Easy to prepare; Long shelf life; Good preservation of morphology of helminthes eggs; larvae; protozoan cyst; and coccidian; suitable for concentration procedures and UV fluorescence microscopy; suitable for acid – fast; Safranin; and Chromotrope stains; Compatible with immunoassay kits and UV fluorescence microscopy",
+      "لكل الأغراض، مثبّت؛ سهل التحضير؛ صلاحية طويلة؛ يحفظ شكل بيوض الديدان ويرقاتها وأكياس الأوالي والكوكسيديا جيدًا؛ مناسب لإجراءات التركيز والمجهر الفلوري بالأشعة فوق البنفسجية؛ مناسب للصبغة المقاومة للحمض والسافرانين والكروموتروب؛ متوافق مع عُدد المقايسة المناعية والمجهر الفلوري"
+     ],
+     [
+      "Not suitable for some permanent smears stained with trichrome; Inadequate preservation of morphology of protozoan trophozoites; Can interfere with PCR, especially after extended fixation time.",
+      "غير مناسب لبعض المسحات الدائمة المصبوغة بثلاثية الألوان؛ حفظ غير كافٍ لشكل الأطوار الناشطة للأوالي؛ قد يتداخل مع PCR، ولا سيما بعد التثبيت الطويل."
+     ]
+    ],
+    [
+     [
+      "Polyvinyl Alcohol (PVA)",
+      "كحول البولي فينيل (PVA)"
+     ],
+     [
+      "Good preservation of morphology of protozoan trophozoites and cysts; Easy preparation of permanent smears stained with such as trichrome (solution both preserves organisms and makes them adhere to slides); Preserved samples remain stable for several months.",
+      "يحفظ شكل الأطوار الناشطة والأكياس للأوالي جيدًا؛ سهولة تحضير المسحات الدائمة المصبوغة كثلاثية الألوان (المحلول يحفظ الكائنات ويجعلها تلتصق بالشرائح)؛ تبقى العيّنات المحفوظة مستقرة عدة أشهر."
+     ],
+     [
+      "Inadequate preservation of morphology of helminthes eggs and larvae, coccidian, and microsporidia; Contains mercuric chloride; Difficult to prepare in the laboratory; Not suitable for concentration procedures; Cannot be used with immunoassay kits; Not suitable for acid – fast, safranin and chromotrope stains.",
+      "حفظ غير كافٍ لشكل بيوض الديدان ويرقاتها والكوكسيديا والأبواغ الدقيقة؛ يحتوي كلوريد الزئبق؛ صعب التحضير في المختبر؛ غير مناسب لإجراءات التركيز؛ لا يُستخدم مع عُدد المقايسة المناعية؛ غير مناسب للصبغة المقاومة للحمض والسافرانين والكروموتروب."
+     ]
+    ],
+    [
+     [
+      "Schaudinn’s fixative",
+      "مثبّت شاودن"
+     ],
+     [
+      "Good preservation of morphology of protozoan trophozoites and cysts; Easy preparation of permanent stained smears.",
+      "يحفظ شكل الأطوار الناشطة والأكياس للأوالي جيدًا؛ سهولة تحضير المسحات المصبوغة الدائمة."
+     ],
+     [
+      "Less suitable for concentration procedures; Contains mercuric chloride (toxic); Inadequate preservation of morphology of helminthes eggs and larvae, coccidian, and microsporidia; Poor adhesion of liquid or mucoid specimens to slides.",
+      "أقل ملاءمة لإجراءات التركيز؛ يحتوي كلوريد الزئبق (سام)؛ حفظ غير كافٍ لشكل بيوض الديدان ويرقاتها والكوكسيديا والأبواغ الدقيقة؛ ضعف التصاق العيّنات السائلة أو المخاطية بالشرائح."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    16,
+    44,
+    40
+   ],
+   "style": "summary",
+   "label_en": "Fixatives: advantages and disadvantages",
+   "label_ar": "المثبّتات: المزايا والعيوب"
+  },
+  {
+   "t": "h2",
+   "en": "Polyvinyl Alcohol (PVA) as fixative",
+   "ar": "كحول البولي فينيل (PVA) مثبّتًا"
+  },
+  {
+   "t": "card",
+   "en": "Polyvinyl alcohol (PVA) containing the fixative **mercuric chloride HgCl2** is considered the **“gold standard”** for the fixation of ova and parasites in the preparation of **permanently stained smears** of stool specimens, mercuric chloride is potentially hazardous to laboratory personnel and presents disposal problems.",
+   "ar": "يُعدّ كحول البولي فينيل (PVA) الحاوي على المثبّت **كلوريد الزئبق HgCl2** **«المعيار الذهبي»** لتثبيت البيوض والطفيليات في تحضير **المسحات المصبوغة الدائمة** لعيّنات البراز، لكن كلوريد الزئبق قد يكون خطرًا على العاملين في المختبر ويسبّب مشكلات في التخلّص منه."
+  },
+  {
+   "t": "h2",
+   "en": "Schaudinn’s fixative",
+   "ar": "مثبّت شاودن"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Schaudinn‘s solution, widely used to **fix protozoa and helminthes** in human fecal specimens, contains **mercuric chloride (HgCl2)** which is a potential hazard to patients and laboratory workers.",
+    "If the solution is disposed of through drains, the HgCl2 will contribute to environmental hazards.",
+    "It would be desirable to replace the HgCl2 in the fixative with a less toxic compound."
+   ],
+   "ar": [
+    "محلول شاودن، المستخدم كثيرًا **لتثبيت الأوالي والديدان** في عيّنات البراز البشري، يحتوي **كلوريد الزئبق (HgCl2)** الذي قد يكون خطرًا على المرضى والعاملين في المختبر.",
+    "وإذا تُخلّص من المحلول في المجاري فإن HgCl2 يسهم في المخاطر البيئية.",
+    "ومن المستحسن استبدال HgCl2 في المثبّت بمركّب أقل سمّية."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Schaudinn's solution",
+     "محلول شاودن"
+    ],
+    [
+     "Composition",
+     "التركيب"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "stock solution",
+      "المحلول الخام"
+     ],
+     [
+      "Mercuric chloride 11.4 g; Distilled water 200 ml; Ethyl alcohol 95% 100 ml — Make a saturated solution of mercuric chloride by adding it to the distilled water, add the ethanol to the saturated solution",
+      "كلوريد الزئبق 11.4 غ؛ ماء مقطّر 200 مل؛ كحول إيثيلي 95% ‏100 مل — حضّر محلولًا مشبّعًا من كلوريد الزئبق بإضافته إلى الماء المقطّر، ثم أضف الإيثانول إلى المحلول المشبّع"
+     ]
+    ],
+    [
+     [
+      "Working solution",
+      "محلول العمل"
+     ],
+     [
+      "Add 3 ml of glacial acetic acid to 47 ml of the stock solution. This will be good for about two weeks.",
+      "أضف 3 مل من حمض الخليك الثلجي إلى 47 مل من المحلول الخام. ويبقى صالحًا نحو أسبوعين."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    78
+   ],
+   "style": "summary",
+   "label_en": "Preparing Schaudinn's solution",
+   "label_ar": "تحضير محلول شاودن"
+  },
+  {
+   "t": "section",
+   "en": "Quick summary & key terms",
+   "ar": "الخلاصة السريعة وأهم المصطلحات"
+  },
+  {
+   "t": "h2",
+   "en": "In short",
+   "ar": "باختصار"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Pathogenic free-living amoebae: **Naegleria, Acanthamoeba, Balamuthia** — facultative, opportunistic; caught by **swimming** (or inhaled cysts).",
+    "**N. fowleri**: warm fresh water, thermophilic; first human case **Australia 1965**; causes **PAM** (very high fatality).",
+    "N. fowleri forms: **amoeboid trophozoite** (infective, CSF/tissue), **flagellate** (2 flagella, temporary, non-feeding), **cyst** (environmental, not in brain).",
+    "Route: **nose → olfactory nerve → brain**."
+   ],
+   "list_ar": [
+    "الأميبات حرّة المعيشة الممرضة: **النيغلرية والأكانثاميبا والبالاموثيا** — اختيارية انتهازية؛ تُكتسب بـ**السباحة** (أو استنشاق الأكياس).",
+    "**النيغلرية الفاولرية**: مياه عذبة دافئة، محبّة للحرارة؛ أول حالة **أستراليا 1965**؛ تسبّب **PAM** (وفيات عالية جدًا).",
+    "أشكال النيغلرية: **الناشط الأميبي** (معدٍ، في CSF/النسيج)، **السوطي** (سوطان، مؤقت، لا يتغذّى)، **الكيس** (بيئي، لا يوجد في الدماغ).",
+    "المسار: **الأنف ← العصب الشمّي ← الدماغ**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Acanthamoeba**: trophozoite + **double-walled cyst**; enters eye, nose, broken skin; causes **keratitis** and **GAE**; spine-like acanthopodia.",
+    "Diagnosis: nasal discharge, **CSF**, corneal scraping → saline and iodine wet mounts; **treatment largely ineffective**.",
+    "E. histolytica vs E. dispar: **identical by microscopy**; EIA (fresh/frozen stool), rapid cartridge (does **not** separate them), **NAAT** separates them.",
+    "**Antigen tests (stool)** = active infection; **antibody tests (serum)** = exposure, invasive disease (liver abscess)."
+   ],
+   "list_ar": [
+    "**الأكانثاميبا**: ناشط + **كيس مزدوج الجدار**؛ تدخل العين والأنف والجلد المتشقّق؛ تسبّب **التهاب القرنية** و**GAE**؛ أقدام شوكية.",
+    "التشخيص: الإفرازات الأنفية، **CSF**، كشاطة القرنية ← تحضير رطب ملحي ويودي؛ و**العلاج غير فعّال غالبًا**.",
+    "الحالّة للنسيج مقابل المتباينة: **متطابقتان مجهريًا**؛ EIA (براز طازج/مجمّد)، الخرطوشة السريعة (**لا** تميّز)، و**NAAT** يميّز.",
+    "**فحوص المستضد (البراز)** = عدوى نشطة؛ **فحوص الأضداد (المصل)** = تعرّض، مرض غازٍ (خُراج الكبد)."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**10% formalin** = 1 stock : 9 water (3.7–4% formaldehyde); buffer with **sodium phosphate**.",
+    "**PVA** (HgCl₂) = gold standard for permanent smears; **Schaudinn's** (HgCl₂) for protozoa; working solution good ~**2 weeks**."
+   ],
+   "list_ar": [
+    "**الفورمالين 10%** = 1 خام : 9 ماء (فورمالدهيد 3.7–4%)؛ يُنظَّم بـ**فوسفات الصوديوم**.",
+    "**PVA** (‏HgCl₂) = المعيار الذهبي للمسحات الدائمة؛ **شاودن** (‏HgCl₂) للأوالي؛ ومحلول العمل صالح نحو **أسبوعين**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Key terms — more than one translation",
+   "ar": "أهم المصطلحات — بأكثر من ترجمة"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Free-living amoeba**",
+     "الأميبا حرّة المعيشة / الأميبا الطليقة"
+    ],
+    [
+     "**Facultative parasite**",
+     "طفيلي اختياري / طفيلي غير إجباري"
+    ],
+    [
+     "**Primary amebic meningoencephalitis (PAM)**",
+     "التهاب السحايا والدماغ الأميبي الأولي / التهاب الدماغ الأميبي الحاد"
+    ],
+    [
+     "**Granulomatous amebic encephalitis (GAE)**",
+     "التهاب الدماغ الأميبي الحبيبومي / التهاب الدماغ الحُبيبي الأميبي"
+    ],
+    [
+     "**Keratitis**",
+     "التهاب القرنية / قرنيّة ملتهبة"
+    ],
+    [
+     "**Thermophile**",
+     "محبّ للحرارة / أليف الحرارة"
+    ],
+    [
+     "**Olfactory nerve**",
+     "العصب الشمّي / عصب الشم"
+    ],
+    [
+     "**Flagellate form**",
+     "الشكل السوطي / الطور السوطي"
+    ],
+    [
+     "**Acanthopodia**",
+     "الأقدام الشوكية / الأقدام الكاذبة الشوكية"
+    ],
+    [
+     "**Lamellipodia**",
+     "الأقدام الصفائحية / الأقدام المسطّحة"
+    ],
+    [
+     "**Operculum**",
+     "الغطاء / الغُطيّة"
+    ],
+    [
+     "**Immunochromatographic assay**",
+     "مقايسة كروماتوغرافية مناعية / اختبار سريع (شريط)"
+    ],
+    [
+     "**NAAT**",
+     "اختبار تضخيم الحمض النووي / الفحص الجزيئي"
+    ],
+    [
+     "**Indirect hemagglutination (IHA)**",
+     "التلازن الدموي غير المباشر / التراص الدموي غير المباشر"
+    ],
+    [
+     "**Neutral buffered formalin**",
+     "الفورمالين المتعادل المنظَّم / الفورمالين الدارئ"
+    ],
+    [
+     "**Mercuric chloride**",
+     "كلوريد الزئبق / كلوريد الزئبقيك"
+    ],
+    [
+     "**Fixative**",
+     "مثبّت / مادة تثبيت"
+    ],
+    [
+     "**Gold standard**",
+     "المعيار الذهبي / المرجع القياسي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ]
+}
