@@ -375,8 +375,9 @@ def inline_answer(q):
         opts = dict(zip(letters(), q["options"]))
         ks = [k for k in str(ans).upper().replace(" ", "").split(",") if k]
         body = " · ".join(f'<b>{key_letter(k)}</b> {md(opts[key_letter(k)][0]) if key_letter(k) in opts else ""}' for k in ks)
+        body_ar = " · ".join(f'<bdi dir="rtl"><b><bdi dir="ltr">{key_letter(k)}</bdi></b> — <bdi dir="rtl">{md(opts[key_letter(k)][1]) if key_letter(k) in opts else ""}</bdi></bdi>' for k in ks)
         line = (f'<div class="qans"><span dir="ltr">Answer: {body}</span>'
-                f'<span dir="rtl">الحل: {" · ".join(key_letter(k) for k in ks)}</span></div>')
+                f'<span dir="rtl">الحل: {body_ar}</span></div>')
     else:
         line = ('<div class="qans none"><span dir="ltr">⚠ Not solved in the source file</span>'
                 '<span dir="rtl">⚠ غير محلول في الملف الأصلي</span></div>')

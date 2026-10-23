@@ -249,8 +249,8 @@ i.sp{font-weight:700;font-style:italic}
 /* equation images (block type eq) */
 .eq{display:flex;justify-content:center;align-items:center;gap:8mm;margin:1mm 0 3.4mm}
 .eq img{max-width:100%;object-fit:contain}
-.qans{display:flex;justify-content:space-between;gap:4mm;margin:1.4mm 0 0;padding:1.3mm 3mm;background:var(--egret);border-top:.4mm solid var(--gold);font-size:10.4pt;line-height:1.4}
-.qans b{color:var(--key);font-weight:800}.qans span[dir=rtl]{font-weight:700}
+.qans{display:flex;flex-wrap:wrap;justify-content:space-between;gap:1mm 4mm;margin:1.4mm 0 0;padding:1.3mm 3mm;background:var(--egret);border-top:.4mm solid var(--gold);font-size:10.4pt;line-height:1.4}
+.qans b{color:var(--key);font-weight:800}.qans span[dir=rtl]{font-weight:600;margin-left:auto;text-align:right}
 .qans.none{border-top-style:dashed;font-weight:700}
 .qflag{margin:1mm 0 0;padding:1.2mm 3mm;border:.3mm dashed var(--gold);border-radius:1.5mm;font-size:10pt}
 .qflag .pill{display:inline-block;font-size:7.5pt;font-weight:800;padding:.2mm 2mm;border-radius:2mm;background:var(--dark);color:var(--egret);margin-bottom:.6mm}
