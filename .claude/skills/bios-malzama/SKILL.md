@@ -196,6 +196,7 @@ verbatim and use the professor's marked answer (often bold/underlined — extrac
 - `questions.title_en/title_ar` (title band), `sub` (header pill, e.g. `"MCQ"`),
   `mcq_en/mcq_ar` (section bar), `intro_en/intro_ar` (instructions note).
 - `{"topic_en": …, "topic_ar": …}` items inside `mcq` print a sub-heading between questions.
+- `questions.answers_inline: true` prints each marked answer under its own options (no answer key at the end); a question with no answer shows a "not solved in the source" flag, and `note_en/note_ar` print as a BIOS note under the answer. Keep the source's answer even when wrong and flag it in the note.
 - Options can be 4 or 5 (shown A–E). If a marked answer contradicts standard references,
   keep it as the key and add `note_en/note_ar` to that question; the notes print under
   the answer key.

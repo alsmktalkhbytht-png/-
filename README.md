@@ -8,7 +8,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `immunology-lec2-cells-organs/` — Immunology theory lecture 2: Cells, Organs, and Defense (د. أحمد داود) — third stage.
 - `immunology-lec3-antigens/` — Immunology theory lecture 3: Immunogens or Antigens (د. أحمد داود) — third stage.
 - `immunology-lab1-serology/` — Practical Immunology Lab 1.
-- `parasitology-week1-mcq/` — Diagnostic Parasitology MCQ bank, week 1.
+- `parasitology-week1-mcq/` … `parasitology-week5-mcq/` — Diagnostic Parasitology theory MCQ banks, weeks 1–5 (أ.د. نزار الخفاجي): the source's marked answer sits under each question (`answers_inline`), with BIOS notes on doubtful or wrong answers.
 - `parasitology-lab4-solutions/` — Practical Parasitology lab 4: Preparation of Solutions — fourth stage.
 - `bloodbank-lec1-introduction/` — Blood Transfusion (نقل الدم) lecture 1: Introduction to blood banking + Practical 1.
 - `bloodbank-lec2-donation-criteria/` — Blood Transfusion lecture 2: Criteria of blood donation.

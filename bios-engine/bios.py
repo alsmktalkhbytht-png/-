@@ -362,7 +362,27 @@ def mcq(i, q):
     top = (f'<div class="c-en q"><span class="chip">EN</span><span class="qnum">Q{i}</span>{en(q["en"])}</div>'
            f'<div class="c-ar"><span class="chip chip-ar">AR</span>{ar(f"س{i}. " + q["ar"])}</div>') if q["en"] else \
           f'<div class="c-ar q" style="border-top:0"><span class="qnum">س{i}</span>{ar(q["ar"])}</div>'
-    return f'<div class="card qc">{top}{img}<div class="opts">{o}</div></div>'
+    return f'<div class="card qc">{top}{img}<div class="opts">{o}</div>{inline_answer(q) if INLINE["on"] else ""}</div>'
+
+
+INLINE = {"on": False}   # questions.answers_inline: the answer sits under each MCQ instead of in the key
+
+
+def inline_answer(q):
+    """Answer line under the options; unsolved and doubtful answers carry a BIOS flag."""
+    ans = q.get("answer")
+    if ans:
+        opts = dict(zip(letters(), q["options"]))
+        ks = [k for k in str(ans).upper().replace(" ", "").split(",") if k]
+        body = " · ".join(f'<b>{key_letter(k)}</b> {md(opts[key_letter(k)][0]) if key_letter(k) in opts else ""}' for k in ks)
+        line = (f'<div class="qans"><span dir="ltr">Answer: {body}</span>'
+                f'<span dir="rtl">الحل: {" · ".join(key_letter(k) for k in ks)}</span></div>')
+    else:
+        line = ('<div class="qans none"><span dir="ltr">⚠ Not solved in the source file</span>'
+                '<span dir="rtl">⚠ غير محلول في الملف الأصلي</span></div>')
+    if q.get("note_en"):
+        line += (f'<div class="qflag"><span class="pill">BIOS</span>{en(q["note_en"])}{ar(q["note_ar"])}</div>')
+    return line
 
 
 def tfq(i, t):
@@ -397,6 +417,7 @@ def model_answer(i, e, a, q=None):
 def question_items(Q):
     out = [(unit_title(Q.get("title_en", "Exam & Questions"), Q.get("title_ar", "بنك الأسئلة")), True)]
     n = 0
+    INLINE["on"] = bool(Q.get("answers_inline"))
 
     def head(e, a):
         nonlocal n
@@ -426,8 +447,10 @@ def question_items(Q):
     if Q.get("important"):
         head("Important Questions", "أهم الأسئلة للمراجعة")
         out += [(numbered(i, t["en"], t["ar"], lines=True), False) for i, t in enumerate(Q["important"], 1)]
+    if INLINE["on"] and not (Q.get("tf") or Q.get("traps") or Q.get("important")):
+        return out
     head("Answer Key", "الحلول")
-    if mcqs:
+    if mcqs and not INLINE["on"]:
         out.append((h2("MCQ Answers", "إجابات الاختيار من متعدد"), True))
         out.append(('<div class="akey">' + "".join(f'<div><b>{i}</b><span>{key_letter(q["answer"])}</span></div>'
                                                    for i, q in enumerate(mcqs, 1)) + "</div>", False))
