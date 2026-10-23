@@ -1112,6 +1112,8 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `bloodbank-lec3-services` | نقل الدم | 3 |
 | `bloodbank-lec4-screening` | نقل الدم | 4 |
 | `bloodbank-lec5-abo-rh` | نقل الدم | 5 |
+| `clinimm-lec2-sle` | مناعة سريرية | نظري 2 — مدموجة مع الأسئلة |
+| `clinimm-lec3-as-psa` | مناعة سريرية | نظري 3 — مدموجة مع الأسئلة |
 | `clinimm-lec4-sjogren` | مناعة سريرية | نظري 4 |
 | `clinimm-lec5-behcet` | مناعة سريرية | نظري 5 |
 | `clinimm-lec6-celiac-pa-t1d` | مناعة سريرية | نظري 6 |
@@ -1119,6 +1121,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `parasitology-lab4-solutions` | طفيليات | عملي 4 |
 | `research-lec1-principles` | مبادئ البحث | 1 |
 | `research-lec2-scientific-method` | مبادئ البحث | 2 |
+| `research-lec3-research-plan` | مبادئ البحث | 3 — مدموجة مع الأسئلة |
 | `enzymology-lab1-safety-tubes` | إنزيمات سريرية | عملي 1 |
 | `enzymology-lec1-introduction` | إنزيمات سريرية | نظري 1 |
 | `enzymology-lec2-kinetics-inhibition` | إنزيمات سريرية | نظري 2 |
