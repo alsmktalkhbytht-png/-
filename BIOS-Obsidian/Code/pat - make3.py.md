@@ -1,0 +1,300 @@
+---
+source: BIOS-Obsidian/tools/scripts/pat/make3.py
+handouts: [pathology-lec3-chronic-bronchitis]
+saved: 2026-10-28
+tags: [bios, code]
+---
+# pat/make3.py
+
+Generator script — writes the handout's `lecture.json`.
+
+Handouts: [[06 فهرس الملازم#pathology-lec3-chronic-bronchitis|pathology-lec3-chronic-bronchitis]]
+
+```python
+import json
+from collections import Counter
+def C(en, ar, **k): return dict(t="card", en=en, ar=ar, **k)
+def R(en, ar): return dict(t="rule", en=en, ar=ar)
+def SEC(en, ar): return dict(t="section", en=en, ar=ar)
+def H2(en, ar): return dict(t="h2", en=en, ar=ar)
+def F(src, en, ar, **k): return dict(t="figure", src="assets/" + src, en=en, ar=ar, **k)
+def FF(*items): return dict(t="figures", items=[dict(src="assets/" + s, en=e, ar=a, h=h, fit="contain") for s, e, a, h in items])
+def N(en, ar, label=None):
+    b = dict(t="note", en=en, ar=ar)
+    if label: b["label"] = label
+    return b
+
+blocks = [
+ SEC("Chronic Bronchitis", "التهاب القصبات المزمن"),
+ C("**Chronic bronchitis** is common among **cigarette smokers** and urban dwellers in **smog-ridden cities**; some studies indicate that **20% to 25% of men** in the **40- to 65-year-old** age group have the disease.",
+   "**التهاب القصبات المزمن** (`Chronic bronchitis`) شائع بين **مدخني السجائر** وسكان المدن في **المدن الملوّثة بالضباب الدخاني**؛ وتشير بعض الدراسات إلى أن **20% إلى 25% من الرجال** في الفئة العمرية **40 إلى 65 سنة** مصابون بالمرض."),
+ F("chronic-bronchitis-overview.jpg", "Chronic bronchitis: inflamed, thickened airway wall with excess mucus", "التهاب القصبات المزمن: جدار مجرى هوائي ملتهب ومتثخّن مع مخاط زائد", h="60mm"),
+ FF(("healthy-vs-inflamed.jpg", "Healthy and inflamed bronchial tube", "أنبوب قصبي سليم وآخر ملتهب", "46mm"),
+    ("excess-mucus.jpg", "Healthy bronchus compared with inflammation and excess mucus", "قصبة سليمة مقارنةً بالالتهاب والمخاط الزائد", "46mm")),
+
+ SEC("Pathogenesis", "الإمراضية"),
+ C(["The distinctive feature of chronic bronchitis is **hypersecretion of mucus**, beginning in the **large airways**.",
+    "Although the single most important cause is **cigarette smoking**, other air pollutants, such as **sulfur dioxide** and **nitrogen dioxide**, may contribute."],
+   ["السمة المميِّزة لالتهاب القصبات المزمن هي **فرط إفراز المخاط**، الذي يبدأ في **المجاري الهوائية الكبيرة**.",
+    "ومع أن السبب الأهم منفردًا هو **تدخين السجائر**، فإن ملوّثات هوائية أخرى مثل **ثاني أوكسيد الكبريت** و**ثاني أوكسيد النيتروجين** قد تسهم فيه."]),
+ C("These environmental irritants induce **hypertrophy of mucous glands** in the trachea and main bronchi, leading to a marked increase in **mucin-secreting goblet cells** in the surface epithelium of smaller bronchi and bronchioles.",
+   "تُحدث هذه المهيّجات البيئية **تضخّمًا في الغدد المخاطية** في الرغامى والقصبات الرئيسة، مما يؤدي إلى زيادة واضحة في **الخلايا الكأسية المفرِزة للميوسين** في الظهارة السطحية للقصبات الأصغر والقصيبات."),
+ F("goblet-cells.jpg", "Pseudostratified columnar epithelium with cilia and a goblet cell", "ظهارة عمودية مطبّقة كاذبة مع أهداب وخلية كأسية", h="42mm"),
+ C("In addition, these irritants cause **inflammation** with infiltration of **CD8+lymphocytes, macrophages, and neutrophils**.",
+   "إضافةً إلى ذلك، تسبّب هذه المهيّجات **التهابًا** مع ارتشاح **الخلايا اللمفاوية** `CD8+` **والبلاعم والعدلات**."),
+ C("Whereas the defining feature of chronic bronchitis (**mucus hypersecretion**) is primarily a reflection of **large bronchial involvement**, the morphologic basis of **airflow obstruction** in chronic bronchitis is results from;",
+   "بينما تعكس السمة المحدِّدة لالتهاب القصبات المزمن (**فرط إفراز المخاط**) أساسًا **إصابة القصبات الكبيرة**، فإن الأساس الشكلي لـ**انسداد جريان الهواء** في التهاب القصبات المزمن ينتج عن؛",
+   list_en=["**Small airway disease**, induced by goblet cell metaplasia with mucous plugging of the bronchiolar lumen, inflammation, and bronchiolar wall fibrosis.",
+            "**Coexistent emphysema.**"],
+   list_ar=["**مرض المجاري الهوائية الصغيرة**، الناتج عن حؤول الخلايا الكأسية مع انسداد لمعة القصيبات بسدادات مخاطية، والالتهاب، وتليّف جدار القصيبات.",
+            "**النُّفاخ المرافق.**"]),
+ C("Inflammatory cells, largely **mononuclear** but sometimes admixed with **neutrophils**, are frequently present in variable density in the bronchial mucosa.",
+   "تكون الخلايا الالتهابية، ومعظمها **وحيدة النواة** وأحيانًا ممزوجة بـ**العدلات**، موجودة غالبًا بكثافة متفاوتة في مخاطية القصبات."),
+ C("**Chronic bronchiolitis**(small airway disease), characterized by goblet cell metaplasia, mucous plugging, inflammation, and fibrosis, is also present.",
+   "ويوجد أيضًا **التهاب القصيبات المزمن** (مرض المجاري الهوائية الصغيرة)، الذي يتميّز بحؤول الخلايا الكأسية، والسدادات المخاطية، والالتهاب، والتليّف."),
+ dict(t="side", blocks=[
+   C("In the most severe cases, there may be complete obliteration of the lumen as a consequence of fibrosis (**bronchiolitis obliterans**).",
+     "في أشد الحالات، قد يحدث انسداد تام للّمعة نتيجة التليّف (**التهاب القصيبات المسدّ** `bronchiolitis obliterans`)."),
+   N("It is the **submucosal fibrosis** that leads to luminal narrowing and airway obstruction.",
+     "إن **التليّف تحت المخاطي** هو الذي يؤدي إلى تضيّق اللمعة وانسداد المجرى الهوائي.", label=["Key point", "نقطة مهمة"])],
+   figure=dict(src="assets/bronchial-tree.jpg", en="Trachea, bronchi and bronchioles", ar="الرغامى والقصبات والقصيبات")),
+
+ SEC("Morphology", "الشكليات"),
+ C(["As seen in gross specimens, the mucosal lining of the larger airways usually is **hyperemic** and **swollen by edema fluid**.",
+    "It often is covered by a layer of **mucinous or mucopurulent secretions**.",
+    "The smaller bronchi and bronchioles also may be filled with similar secretions."],
+   ["كما يُرى في العيّنات العيانية، تكون البطانة المخاطية للمجاري الهوائية الأكبر عادةً **محتقنة** و**متورّمة بسائل وذمي**.",
+    "وغالبًا ما تُغطّى بطبقة من **إفرازات مخاطية أو مخاطية قيحية**.",
+    "وقد تمتلئ القصبات الأصغر والقصيبات أيضًا بإفرازات مماثلة."]),
+ C("On histologic examination, the **diagnostic feature** of chronic bronchitis in the trachea and larger bronchi is **enlargement of the mucus-secreting glands**.",
+   "في الفحص النسيجي، تكون **السمة التشخيصية** لالتهاب القصبات المزمن في الرغامى والقصبات الأكبر هي **تضخّم الغدد المفرِزة للمخاط**."),
+ C("The magnitude of the increase in size is assessed by the ratio of the thickness of the **submucosal gland layer** to that of the **bronchial wall** (the **Reid index**— normally **0.4**).",
+   "يُقدَّر مقدار الزيادة في الحجم بنسبة سُمك **طبقة الغدد تحت المخاطية** إلى سُمك **جدار القصبة** (**مؤشّر ريد** — وقيمته الطبيعية **0.4**)."),
+ F("reid-index.jpg", "Reid index = ratio of B:A — normal and increased in chronic bronchitis", "مؤشّر ريد = نسبة `B:A` — طبيعي، ومرتفع في التهاب القصبات المزمن", h="70mm", keep=True),
+ FF(("reid-index-histology.jpg", "Reid index > 0.4 (increased above the normal value of 0.4)", "مؤشّر ريد أكبر من `0.4` (أعلى من القيمة الطبيعية `0.4`)", "40mm"),
+    ("normal-vs-bronchitis.jpg", "Normal vs chronic bronchitis: squamous metaplasia and mucous gland hyperplasia", "الطبيعي مقابل التهاب القصبات المزمن: حؤول حرشفي وفرط تنسّج الغدد المخاطية", "40mm")),
+
+ SEC("Diagnosis", "التشخيص"),
+ C("The diagnosis of chronic bronchitis is made on **clinical grounds**:", "يُوضع تشخيص التهاب القصبات المزمن على **أسس سريرية**:"),
+ R("Presence of **persistent productive cough** for at least **3 consecutive months** in at least **2 consecutive years**.",
+   "وجود **سعال منتج مستمر** لمدة **3 أشهر متتالية** على الأقل في **سنتين متتاليتين** على الأقل."),
+ R("In early stages of the disease, the productive cough raises **mucoid sputum**, but airflow is **not obstructed**.",
+   "في المراحل المبكرة من المرض، يُخرج السعال المنتج **قشعًا مخاطيًا**، لكن جريان الهواء **لا يكون مسدودًا**."),
+ R("Some patients with chronic bronchitis may demonstrate **hyper-responsive airways** with intermittent **bronchospasm** and **wheezing**.",
+   "قد تظهر لدى بعض مرضى التهاب القصبات المزمن **مجارٍ هوائية مفرطة الاستجابة** مع **تشنّج قصبي** و**أزيز** متقطّعين."),
+ R("A subset of bronchitic patients, especially **heavy smokers**, develop **chronic outflow obstruction**, usually with associated **emphysema**.",
+   "تُصاب مجموعة من مرضى التهاب القصبات، ولا سيما **المدخنون بشراهة**، بـ**انسداد مزمن في جريان الهواء الخارج**، يرافقه عادةً **النُّفاخ**."),
+ R("This clinical syndrome is accompanied by **hypercapnia**, **hypoxemia**, and (in severe cases) **cyanosis** (hence the term **“blue bloaters”**).",
+   "تترافق هذه المتلازمة السريرية مع **فرط ثاني أوكسيد الكاربون في الدم**، و**نقص أكسجة الدم**، و(في الحالات الشديدة) **الزُّراق** (ومن هنا جاءت تسمية **«المنتفخون الزُّرق»** `blue bloaters`)."),
+ R("**Recurrent infections** and **respiratory failure** are constant threats.",
+   "**العدوى المتكرّرة** و**الفشل التنفسي** تهديدان دائمان."),
+
+ SEC("Asthma", "الربو"),
+ C("**Asthma** is a **chronic inflammatory disorder of the airways** that causes recurrent episodes of **wheezing, breathlessness, chest tightness, and cough**, particularly **at night and/or early in the morning**.",
+   "**الربو** (`Asthma`) **اضطراب التهابي مزمن في المجاري الهوائية** يسبّب نوبات متكرّرة من **الأزيز، وضيق النفس، وضيق الصدر، والسعال**، ولا سيما **ليلًا و/أو في الصباح الباكر**."),
+ C("**The hallmarks of the disease are**", "**السمات المميِّزة للمرض هي**",
+   list_en=["Intermittent and **reversible** airway obstruction.", "Chronic bronchial inflammation with **eosinophils**.",
+            "Bronchial smooth muscle cell **hypertrophy**.", "**Hyperreactivity**, and increased mucus secretion."],
+   list_ar=["انسداد متقطّع و**قابل للعكس** في المجاري الهوائية.", "التهاب قصبي مزمن مع **الحمضات** (`eosinophils`).",
+            "**تضخّم** خلايا العضلات الملساء القصبية.", "**فرط التفاعلية**، وزيادة إفراز المخاط."]),
+ C("Some of the stimuli that trigger attacks in patients would have **little or no effect in persons with normal airways**.",
+   "بعض المحفّزات التي تُطلق النوبات عند المرضى يكون لها **تأثير قليل أو معدوم عند الأشخاص ذوي المجاري الهوائية الطبيعية**."),
+ C("Many cells play a role in the inflammatory response, in particular **eosinophils, mast cells, macrophages, lymphocytes, neutrophils, and epithelial cells**.",
+   "تؤدي خلايا كثيرة دورًا في الاستجابة الالتهابية، ولا سيما **الحمضات، والخلايا البدينة، والبلاعم، والخلايا اللمفاوية، والعدلات، والخلايا الظهارية**."),
+ C(["Of note, there has been a significant increase in the incidence of asthma in the **Western world** over the past four decades.",
+    "This epidemiologic observation has led to the **“hygiene hypothesis,”** according to which the **eradication of infections** may alter immune homeostasis and promote allergic and other harmful immune responses."],
+   ["والجدير بالذكر أن هناك زيادة ملحوظة في حدوث الربو في **العالم الغربي** خلال العقود الأربعة الماضية.",
+    "وقد أدّت هذه الملاحظة الوبائية إلى **«فرضية النظافة»** (`hygiene hypothesis`)، التي بموجبها قد يؤدي **القضاء على العدوى** إلى تغيير التوازن المناعي وتعزيز الاستجابات المناعية التحسّسية وغيرها من الاستجابات الضارة."]),
+
+ SEC("Classification of Asthma", "تصنيف الربو"),
+ C("Asthma may be categorized into", "يمكن تصنيف الربو إلى",
+   list_en=["**atopic**(evidence of allergen sensitization, often in a patient with a history of allergic rhinitis, eczema)", "**nonatopic.**"],
+   list_ar=["**تأتّبي** (`atopic`) (دليل على التحسّس لمسبّب حساسية، وغالبًا لدى مريض لديه تاريخ من التهاب الأنف التحسّسي أو الإكزيما)", "**غير تأتّبي** (`nonatopic`)."]),
+ C("In either type, episodes of bronchospasm can be triggered by diverse mechanisms, such as **respiratory infections (especially viral)**, environmental exposure to **irritants** (e.g., smoke, fumes), **cold air, stress, and exercise**.",
+   "في كلا النوعين، يمكن أن تُطلَق نوبات التشنّج القصبي بآليات متنوّعة، مثل **عدوى الجهاز التنفسي (ولا سيما الفيروسية)**، والتعرّض البيئي لـ**المهيّجات** (مثل الدخان والأبخرة)، و**الهواء البارد، والإجهاد، والتمارين**."),
+ C(["There is emerging evidence for differing patterns of inflammation: **eosinophilic, neutrophilic, mixed inflammatory, and pauci-granulocytic**.",
+    "These subgroups may differ in etiology, immunopathology, and response to treatment."],
+   ["هناك أدلة ناشئة على أنماط مختلفة من الالتهاب: **حمضي، وعدلي، والتهابي مختلط، وقليل الخلايا المحبّبة**.",
+    "وقد تختلف هذه المجموعات الفرعية في السببية، والإمراضية المناعية، والاستجابة للعلاج."]),
+ C("Asthma also may be classified according to the **agents or events that trigger bronchoconstriction**.",
+   "ويمكن تصنيف الربو أيضًا بحسب **العوامل أو الأحداث التي تُطلق تضيّق القصبات**."),
+ F("normal-vs-asthma.jpg", "Normal bronchus vs asthma (Ep epithelium, Bm basement membrane, Sm smooth muscle, Bv blood vessel)",
+   "قصبة طبيعية مقابل الربو (`Ep` الظهارة، `Bm` الغشاء القاعدي، `Sm` العضلات الملساء، `Bv` وعاء دموي)", h="74mm"),
+
+ SEC("Pathogenesis", "الإمراضية"),
+ C("**The major etiologic factors of asthma are**", "**العوامل السببية الرئيسة للربو هي**",
+   list_en=["Genetic predisposition to **type I hypersensitivity** (**atopy**),", "Acute and chronic **airway inflammation**,", "**Bronchial hyper-responsiveness** to a variety of stimuli."],
+   list_ar=["الاستعداد الوراثي لـ**فرط الحساسية من النوع الأول** (**التأتّب** `atopy`)،", "**التهاب المجاري الهوائية** الحاد والمزمن،", "**فرط استجابة القصبات** لمجموعة من المحفّزات."]),
+ C("The inflammation involves many cell types and numerous inflammatory mediators, but the role of **type 2 helper T (TH2) cells** may be **critical** to the pathogenesis of asthma.",
+   "يشمل الالتهاب أنواعًا كثيرة من الخلايا ووسائط التهابية عديدة، لكن دور **الخلايا التائية المساعدة من النوع الثاني** (`TH2`) قد يكون **حاسمًا** في إمراضية الربو."),
+ C("The classic **atopic** form of asthma is associated with an **excessive TH2 reaction** against environmental antigens.",
+   "يرتبط الشكل **التأتّبي** التقليدي للربو بـ**تفاعل مفرط للخلايا** `TH2` ضد المستضدات البيئية."),
+ C("**Cytokines produced by TH2 cells account for most of the features of asthma;**", "**السيتوكينات التي تنتجها خلايا** `TH2` **مسؤولة عن معظم مظاهر الربو؛**",
+   list_en=["**IL-4** stimulates **IgE production**.", "**IL-5** activates **eosinophils**.", "**IL-13** stimulates **mucus production** and also promotes IgE production by B cells."],
+   list_ar=["`IL-4` يحفّز **إنتاج** `IgE`.", "`IL-5` ينشّط **الحمضات**.", "`IL-13` يحفّز **إنتاج المخاط** ويعزّز أيضًا إنتاج `IgE` بواسطة الخلايا البائية."]),
+ C(["**IgE coats submucosal mast cells**, which, on exposure to allergen, release granule contents.", "This induces two waves of reaction:"],
+   ["**يغلّف** `IgE` **الخلايا البدينة تحت المخاطية**، التي تُطلق محتويات حبيباتها عند التعرّض لمسبّب الحساسية.", "ويُحدث هذا موجتين من التفاعل:"],
+   list_en=["An **early (immediate)** phase", "A **late phase** ."], list_ar=["طور **مبكر (فوري)**", "**طور متأخر**."]),
+ dict(t="side", blocks=[
+   C("The early reaction is dominated by **bronchoconstriction**, **increased mucus production** and variable **vasodilation**.",
+     "يغلب على التفاعل المبكر **تضيّق القصبات**، و**زيادة إنتاج المخاط**، و**توسّع الأوعية** بدرجات متفاوتة."),
+   C("Bronchoconstriction is triggered by direct stimulation of **sub-epithelial vagal receptors**.",
+     "يُطلَق تضيّق القصبات بالتحفيز المباشر لـ**المستقبلات المبهمية تحت الظهارية**.")],
+   figure=dict(src="assets/mast-cell.jpg", en="Mast cell with IgE bound to FcεRI", ar="خلية بدينة يرتبط بها `IgE` عبر `FcεRI`")),
+ C("Asthma is a **complex genetic disorder** in which multiple susceptibility genes interact with environmental factors to initiate the pathologic reaction.",
+   "الربو **اضطراب وراثي معقّد** تتفاعل فيه جينات استعداد متعددة مع العوامل البيئية لبدء التفاعل المرضي."),
+ C("One of the susceptibility loci is on the **long arm of chromosome 5 (5q)**, where several genes involved in regulation of **IgE synthesis** and **mast cell and eosinophil growth and differentiation** map.",
+   "يقع أحد مواقع الاستعداد على **الذراع الطويلة للكروموسوم 5** (`5q`)، حيث توجد عدة جينات تشارك في تنظيم **تخليق** `IgE` و**نمو الخلايا البدينة والحمضات وتمايزها**."),
+]
+
+def Q(en, ar, opts, ans, **k):
+    return dict(en=en, ar=ar, options=[list(o) for o in opts], answer=ans, **k)
+
+mcq = [
+ {"topic_en": "Chronic bronchitis", "topic_ar": "التهاب القصبات المزمن"},
+ Q("Some studies indicate that chronic bronchitis affects what percentage of men aged 40–65 years?", "تشير بعض الدراسات إلى أن التهاب القصبات المزمن يصيب أي نسبة من الرجال بعمر 40 إلى 65 سنة؟",
+   [("5% to 10%", "5% إلى 10%"), ("20% to 25%", "20% إلى 25%"), ("40% to 50%", "40% إلى 50%"), ("60% to 65%", "60% إلى 65%")], "b"),
+ Q("The distinctive feature of chronic bronchitis is:", "السمة المميِّزة لالتهاب القصبات المزمن هي:",
+   [("Hypersecretion of mucus", "فرط إفراز المخاط"), ("Destruction of alveolar walls", "تخرّب جدران الأسناخ"), ("Eosinophilic infiltration", "ارتشاح الحمضات"), ("Loss of lung volume", "فقدان حجم الرئة")], "a"),
+ Q("Mucus hypersecretion in chronic bronchitis begins in the:", "يبدأ فرط إفراز المخاط في التهاب القصبات المزمن في:",
+   [("Alveoli", "الأسناخ"), ("Terminal bronchioles", "القصيبات الانتهائية"), ("Large airways", "المجاري الهوائية الكبيرة"), ("Pleura", "الجنبة")], "c"),
+ Q("The single most important cause of chronic bronchitis is:", "السبب الأهم منفردًا لالتهاب القصبات المزمن هو:",
+   [("Sulfur dioxide", "ثاني أوكسيد الكبريت"), ("Viral infection", "العدوى الفيروسية"), ("Nitrogen dioxide", "ثاني أوكسيد النيتروجين"), ("Cigarette smoking", "تدخين السجائر")], "d"),
+ Q("Environmental irritants induce hypertrophy of mucous glands in the:", "تُحدث المهيّجات البيئية تضخّم الغدد المخاطية في:",
+   [("Trachea and main bronchi", "الرغامى والقصبات الرئيسة"), ("Alveolar ducts", "القنوات السنخية"), ("Pleural cavity", "التجويف الجنبي"), ("Pulmonary arteries", "الشرايين الرئوية")], "a"),
+ Q("The inflammation in chronic bronchitis includes infiltration of all EXCEPT:", "يشمل الالتهاب في التهاب القصبات المزمن ارتشاح كل مما يأتي عدا:",
+   [("CD8+ lymphocytes", "الخلايا اللمفاوية CD8+"), ("Macrophages", "البلاعم"), ("Platelets", "الصفيحات"), ("Neutrophils", "العدلات")], "c"),
+ Q("The morphologic basis of airflow obstruction in chronic bronchitis is:", "الأساس الشكلي لانسداد جريان الهواء في التهاب القصبات المزمن هو:",
+   [("Large bronchial involvement only", "إصابة القصبات الكبيرة فقط"), ("Small airway disease and coexistent emphysema", "مرض المجاري الهوائية الصغيرة والنُّفاخ المرافق"), ("Pleural effusion", "الانصباب الجنبي"), ("Surfactant deficiency", "نقص المادة الفاعلة بالسطح")], "b"),
+ Q("Complete obliteration of the lumen as a consequence of fibrosis is called:", "يُسمّى الانسداد التام للّمعة نتيجة التليّف:",
+   [("Bronchiectasis", "توسّع القصبات"), ("Atelectasis", "انخماص الرئة"), ("Emphysema", "النُّفاخ"), ("Bronchiolitis obliterans", "التهاب القصيبات المسدّ")], "d"),
+ Q("Luminal narrowing and airway obstruction in chronic bronchiolitis is caused by:", "تضيّق اللمعة وانسداد المجرى الهوائي في التهاب القصيبات المزمن سببهما:",
+   [("Submucosal fibrosis", "التليّف تحت المخاطي"), ("Smooth muscle atrophy", "ضمور العضلات الملساء"), ("Alveolar collapse", "انهيار الأسناخ"), ("Cartilage loss", "فقدان الغضروف")], "a"),
+ Q("On histology, the diagnostic feature of chronic bronchitis in the trachea and larger bronchi is:", "نسيجيًا، السمة التشخيصية لالتهاب القصبات المزمن في الرغامى والقصبات الأكبر هي:",
+   [("Squamous cell carcinoma", "سرطانة الخلايا الحرشفية"), ("Hyaline membranes", "الأغشية الزجاجية"), ("Enlargement of the mucus-secreting glands", "تضخّم الغدد المفرِزة للمخاط"), ("Granulomas", "الأورام الحبيبية")], "c"),
+ Q("The normal value of the Reid index is:", "القيمة الطبيعية لمؤشّر ريد هي:",
+   [("0.1", "0.1"), ("0.4", "0.4"), ("0.8", "0.8"), ("1.0", "1.0")], "b"),
+ Q("The Reid index is the ratio of the thickness of the:", "مؤشّر ريد هو نسبة سُمك:",
+   [("Epithelium to the basement membrane", "الظهارة إلى الغشاء القاعدي"), ("Cartilage to the bronchial wall", "الغضروف إلى جدار القصبة"), ("Smooth muscle to the submucosa", "العضلات الملساء إلى تحت المخاطية"), ("Submucosal gland layer to the bronchial wall", "طبقة الغدد تحت المخاطية إلى جدار القصبة")], "d"),
+ Q("Chronic bronchitis is diagnosed clinically by persistent productive cough for at least:", "يُشخَّص التهاب القصبات المزمن سريريًا بسعال منتج مستمر لمدة لا تقل عن:",
+   [("3 consecutive months in at least 2 consecutive years", "3 أشهر متتالية في سنتين متتاليتين على الأقل"), ("2 consecutive months in 3 years", "شهرين متتاليين في 3 سنوات"), ("6 months in 1 year", "6 أشهر في سنة واحدة"), ("3 weeks", "3 أسابيع")], "a"),
+ Q("Chronic bronchitis patients with hypercapnia, hypoxemia and cyanosis are called:", "يُسمّى مرضى التهاب القصبات المزمن المصابون بفرط ثاني أوكسيد الكاربون ونقص الأكسجة والزُّراق:",
+   [("Pink puffers", "المنفّخون الورديون"), ("Blue bloaters", "المنتفخون الزُّرق"), ("Atopics", "التأتّبيون"), ("Wheezers", "الأزّازون")], "b"),
+ Q("In early stages of chronic bronchitis:", "في المراحل المبكرة من التهاب القصبات المزمن:",
+   [("Airflow is severely obstructed", "يكون جريان الهواء مسدودًا بشدة"), ("Cyanosis is constant", "يكون الزُّراق دائمًا"), ("Cough raises mucoid sputum but airflow is not obstructed", "يُخرج السعال قشعًا مخاطيًا لكن جريان الهواء غير مسدود"), ("Respiratory failure occurs", "يحدث الفشل التنفسي")], "c"),
+ {"topic_en": "Asthma", "topic_ar": "الربو"},
+ Q("Asthma attacks occur particularly:", "تحدث نوبات الربو خصوصًا:",
+   [("At noon", "ظهرًا"), ("After meals", "بعد الوجبات"), ("In the afternoon", "بعد الظهر"), ("At night and/or early in the morning", "ليلًا و/أو في الصباح الباكر")], "d"),
+ Q("Airway obstruction in asthma is:", "انسداد المجاري الهوائية في الربو:",
+   [("Intermittent and reversible", "متقطّع وقابل للعكس"), ("Permanent and irreversible", "دائم وغير قابل للعكس"), ("Caused by fibrosis only", "سببه التليّف فقط"), ("Absent", "غائب")], "a"),
+ Q("Chronic bronchial inflammation in asthma is characteristically with:", "الالتهاب القصبي المزمن في الربو يكون بشكل مميِّز مع:",
+   [("Neutrophils only", "العدلات فقط"), ("Eosinophils", "الحمضات"), ("Plasma cells", "الخلايا البلازمية"), ("Platelets", "الصفيحات")], "b"),
+ Q("The “hygiene hypothesis” proposes that:", "تقترح «فرضية النظافة» أن:",
+   [("Infections cause asthma", "العدوى تسبّب الربو"), ("Smoking prevents asthma", "التدخين يمنع الربو"), ("Eradication of infections may alter immune homeostasis and promote allergy", "القضاء على العدوى قد يغيّر التوازن المناعي ويعزّز التحسّس"), ("Cold air cures asthma", "الهواء البارد يشفي الربو")], "c"),
+ Q("Atopic asthma is suggested by:", "يُستدَل على الربو التأتّبي بـ:",
+   [("Evidence of allergen sensitization, history of allergic rhinitis or eczema", "دليل على التحسّس لمسبّب حساسية، وتاريخ التهاب الأنف التحسّسي أو الإكزيما"), ("Absence of IgE", "غياب IgE"), ("Heavy smoking only", "التدخين الشديد فقط"), ("Old age", "كبر العمر")], "a"),
+ Q("All of the following can trigger bronchospasm in asthma EXCEPT:", "كل مما يأتي قد يُطلق التشنّج القصبي في الربو عدا:",
+   [("Viral respiratory infections", "عدوى الجهاز التنفسي الفيروسية"), ("Cold air", "الهواء البارد"), ("Exercise", "التمارين"), ("Surfactant", "المادة الفاعلة بالسطح")], "d"),
+ Q("Which is NOT one of the inflammatory patterns of asthma?", "أي مما يأتي ليس من الأنماط الالتهابية للربو؟",
+   [("Eosinophilic", "الحمضي"), ("Granulomatous", "الحبيبومي"), ("Neutrophilic", "العدلي"), ("Pauci-granulocytic", "قليل الخلايا المحبّبة")], "b"),
+ Q("The cells most critical to the pathogenesis of asthma are:", "الخلايا الأكثر أهمية في إمراضية الربو هي:",
+   [("CD8+ T cells", "الخلايا التائية CD8+"), ("TH1 cells", "خلايا TH1"), ("TH2 cells", "خلايا TH2"), ("NK cells", "الخلايا القاتلة الطبيعية")], "c"),
+ Q("Which cytokine stimulates IgE production?", "أي سيتوكين يحفّز إنتاج IgE؟",
+   [("IL-4", "IL-4"), ("IL-5", "IL-5"), ("IL-2", "IL-2"), ("IL-8", "IL-8")], "a"),
+ Q("IL-5 in asthma:", "دور IL-5 في الربو:",
+   [("Stimulates mucus production", "يحفّز إنتاج المخاط"), ("Activates eosinophils", "ينشّط الحمضات"), ("Coats mast cells", "يغلّف الخلايا البدينة"), ("Causes fibrosis", "يسبّب التليّف")], "b"),
+ Q("Which cytokine stimulates mucus production and also promotes IgE production by B cells?", "أي سيتوكين يحفّز إنتاج المخاط ويعزّز أيضًا إنتاج IgE بواسطة الخلايا البائية؟",
+   [("IL-4", "IL-4"), ("IL-5", "IL-5"), ("IL-1", "IL-1"), ("IL-13", "IL-13")], "d"),
+ Q("Bronchoconstriction in the early phase is triggered by direct stimulation of:", "يُطلَق تضيّق القصبات في الطور المبكر بالتحفيز المباشر لـ:",
+   [("Sub-epithelial vagal receptors", "المستقبلات المبهمية تحت الظهارية"), ("Type II pneumocytes", "الخلايا الرئوية من النوع الثاني"), ("Alveolar macrophages", "البلاعم السنخية"), ("Goblet cells", "الخلايا الكأسية")], "a"),
+ Q("A susceptibility locus for asthma is on:", "يقع أحد مواقع الاستعداد للربو على:",
+   [("Chromosome 7q", "الكروموسوم 7q"), ("Chromosome 5q", "الكروموسوم 5q"), ("Chromosome 21", "الكروموسوم 21"), ("The X chromosome", "الكروموسوم X")], "b"),
+ {"topic_en": "Picture questions", "topic_ar": "أسئلة الصور"},
+ Q("In this figure, the Reid index is the ratio of:", "في هذا الشكل، مؤشّر ريد هو نسبة:",
+   [("A:B", "A:B"), ("B:A", "B:A"), ("Cartilage:mucosa", "الغضروف:المخاطية"), ("Lumen:wall", "اللمعة:الجدار")], "b", img="assets/reid-index.jpg", img_h="50mm"),
+ Q("The change marked in the chronic bronchitis section of this figure (right) is:", "التغيّر المؤشَّر في مقطع التهاب القصبات المزمن في هذا الشكل (يمينًا) هو:",
+   [("Squamous metaplasia and mucous gland hyperplasia", "حؤول حرشفي وفرط تنسّج الغدد المخاطية"), ("Hyaline membrane", "غشاء زجاجي"), ("Alveolar collapse", "انهيار الأسناخ"), ("Granuloma", "ورم حبيبي")], "a", img="assets/normal-vs-bronchitis.jpg", img_h="44mm"),
+ Q("The cell labelled “goblet cell” in this figure increases in chronic bronchitis and secretes:", "الخلية المؤشَّرة “goblet cell” في هذا الشكل تزداد في التهاب القصبات المزمن وتفرز:",
+   [("Surfactant", "المادة الفاعلة بالسطح"), ("IgE", "IgE"), ("Histamine", "الهستامين"), ("Mucin", "الميوسين (المخاط)")], "d", img="assets/goblet-cells.jpg", img_h="34mm"),
+ Q("The right half of this figure (thickened basement membrane and smooth muscle, mucus in the lumen) represents:", "النصف الأيمن من هذا الشكل (غشاء قاعدي وعضلات ملساء متثخّنة، ومخاط في اللمعة) يمثّل:",
+   [("Normal bronchus", "قصبة طبيعية"), ("Emphysema", "النُّفاخ"), ("Asthma", "الربو"), ("Atelectasis", "انخماص الرئة")], "c", img="assets/normal-vs-asthma.jpg", img_h="50mm"),
+ Q("In this figure, IgE bound to FcεRI coats which cell?", "في هذا الشكل، يغلّف IgE المرتبط بـ FcεRI أي خلية؟",
+   [("Dendritic cell", "الخلية المتغصّنة"), ("Eosinophil", "الحمضة"), ("Mast cell", "الخلية البدينة"), ("Treg cell", "الخلية التائية التنظيمية")], "c", img="assets/mast-cell.jpg", img_h="44mm"),
+]
+
+tf = [
+ dict(en="Chronic bronchitis is common among cigarette smokers and urban dwellers in smog-ridden cities.", ar="التهاب القصبات المزمن شائع بين مدخني السجائر وسكان المدن الملوّثة بالضباب الدخاني.", answer="T"),
+ dict(en="Mucus hypersecretion in chronic bronchitis begins in the small airways.", ar="يبدأ فرط إفراز المخاط في التهاب القصبات المزمن في المجاري الهوائية الصغيرة.", answer="F"),
+ dict(en="Sulfur dioxide and nitrogen dioxide may contribute to chronic bronchitis.", ar="قد يسهم ثاني أوكسيد الكبريت وثاني أوكسيد النيتروجين في التهاب القصبات المزمن.", answer="T"),
+ dict(en="Mucus hypersecretion is the morphologic basis of airflow obstruction in chronic bronchitis.", ar="فرط إفراز المخاط هو الأساس الشكلي لانسداد جريان الهواء في التهاب القصبات المزمن.", answer="F"),
+ dict(en="The Reid index is normally 0.4.", ar="القيمة الطبيعية لمؤشّر ريد 0.4.", answer="T"),
+ dict(en="The diagnosis of chronic bronchitis is made on histologic grounds.", ar="يُوضع تشخيص التهاب القصبات المزمن على أسس نسيجية.", answer="F"),
+ dict(en="Recurrent infections and respiratory failure are constant threats in chronic bronchitis.", ar="العدوى المتكرّرة والفشل التنفسي تهديدان دائمان في التهاب القصبات المزمن.", answer="T"),
+ dict(en="Airway obstruction in asthma is permanent.", ar="انسداد المجاري الهوائية في الربو دائم.", answer="F"),
+ dict(en="Bronchial smooth muscle hypertrophy is a hallmark of asthma.", ar="تضخّم العضلات الملساء القصبية من السمات المميِّزة للربو.", answer="T"),
+ dict(en="The incidence of asthma in the Western world has decreased over the past four decades.", ar="انخفض حدوث الربو في العالم الغربي خلال العقود الأربعة الماضية.", answer="F"),
+ dict(en="Episodes of bronchospasm can be triggered in both atopic and nonatopic asthma.", ar="يمكن أن تُطلَق نوبات التشنّج القصبي في الربو التأتّبي وغير التأتّبي كليهما.", answer="T"),
+ dict(en="Classic atopic asthma is associated with an excessive TH1 reaction.", ar="يرتبط الربو التأتّبي التقليدي بتفاعل مفرط لخلايا TH1.", answer="F"),
+ dict(en="IL-5 activates eosinophils.", ar="ينشّط IL-5 الحمضات.", answer="T"),
+ dict(en="Asthma is a single-gene disorder.", ar="الربو اضطراب أحادي الجين.", answer="F"),
+]
+
+traps = [
+ dict(en="Defining feature vs cause of obstruction in chronic bronchitis", ar="السمة المحدِّدة مقابل سبب الانسداد في التهاب القصبات المزمن",
+      answer_en="Mucus hypersecretion reflects large bronchial involvement; airflow obstruction results from small airway disease and coexistent emphysema.",
+      answer_ar="فرط إفراز المخاط يعكس إصابة القصبات الكبيرة؛ أما انسداد جريان الهواء فينتج عن مرض المجاري الصغيرة والنُّفاخ المرافق."),
+ dict(en="Inflammatory cells: chronic bronchitis vs asthma", ar="الخلايا الالتهابية: التهاب القصبات المزمن مقابل الربو",
+      answer_en="Chronic bronchitis: CD8+ lymphocytes, macrophages, neutrophils (largely mononuclear). Asthma: eosinophils are the hallmark.",
+      answer_ar="التهاب القصبات المزمن: لمفاويات CD8+ وبلاعم وعدلات (معظمها وحيدة النواة). الربو: الحمضات هي السمة المميِّزة."),
+ dict(en="What causes luminal narrowing in chronic bronchiolitis?", ar="ما سبب تضيّق اللمعة في التهاب القصيبات المزمن؟",
+      answer_en="Submucosal fibrosis — not the mucus itself. Complete obliteration = bronchiolitis obliterans.",
+      answer_ar="التليّف تحت المخاطي — لا المخاط نفسه. والانسداد التام = التهاب القصيبات المسدّ."),
+ dict(en="Diagnosis of chronic bronchitis — clinical or histologic?", ar="تشخيص التهاب القصبات المزمن — سريري أم نسيجي؟",
+      answer_en="Clinical: productive cough for at least 3 consecutive months in at least 2 consecutive years. The histologic diagnostic feature (gland enlargement, Reid index) belongs to morphology.",
+      answer_ar="سريري: سعال منتج 3 أشهر متتالية في سنتين متتاليتين على الأقل. أما السمة النسيجية (تضخّم الغدد ومؤشّر ريد) فتخص الشكليات."),
+ dict(en="IL-4 vs IL-5 vs IL-13", ar="IL-4 مقابل IL-5 مقابل IL-13",
+      answer_en="IL-4: IgE production. IL-5: activates eosinophils. IL-13: mucus production and also promotes IgE by B cells.",
+      answer_ar="IL-4: إنتاج IgE. IL-5: تنشيط الحمضات. IL-13: إنتاج المخاط ويعزّز أيضًا IgE من الخلايا البائية."),
+ dict(en="TH1 or TH2 in atopic asthma?", ar="TH1 أم TH2 في الربو التأتّبي؟",
+      answer_en="TH2 — an excessive TH2 reaction against environmental antigens.",
+      answer_ar="TH2 — تفاعل مفرط لخلايا TH2 ضد المستضدات البيئية."),
+ dict(en="Chromosome of the asthma susceptibility locus", ar="كروموسوم موقع الاستعداد للربو",
+      answer_en="Long arm of chromosome 5 (5q) — genes regulating IgE synthesis and mast cell and eosinophil growth and differentiation.",
+      answer_ar="الذراع الطويلة للكروموسوم 5 (5q) — جينات تنظّم تخليق IgE ونمو الخلايا البدينة والحمضات وتمايزها."),
+]
+
+important = [
+ dict(en="Explain the pathogenesis of chronic bronchitis.", ar="اشرح إمراضية التهاب القصبات المزمن.",
+      answer_en="Irritants (mainly cigarette smoke; SO2, NO2) cause mucus hypersecretion beginning in large airways, hypertrophy of mucous glands in trachea and main bronchi, increased goblet cells in smaller bronchi and bronchioles, and inflammation with CD8+ lymphocytes, macrophages and neutrophils. Obstruction results from small airway disease and coexistent emphysema.",
+      answer_ar="المهيّجات (أساسًا دخان السجائر؛ وثاني أوكسيد الكبريت والنيتروجين) تسبّب فرط إفراز المخاط بدءًا من المجاري الكبيرة، وتضخّم الغدد المخاطية في الرغامى والقصبات الرئيسة، وزيادة الخلايا الكأسية في القصبات الأصغر والقصيبات، والتهابًا مع لمفاويات CD8+ وبلاعم وعدلات. وينتج الانسداد عن مرض المجاري الصغيرة والنُّفاخ المرافق."),
+ dict(en="Describe the morphology of chronic bronchitis and define the Reid index.", ar="صف شكليات التهاب القصبات المزمن وعرّف مؤشّر ريد.",
+      answer_en="Grossly: hyperemic, edematous mucosa covered by mucinous or mucopurulent secretions. Histologically: enlargement of mucus-secreting glands. Reid index = thickness of submucosal gland layer / bronchial wall, normally 0.4 (increased in chronic bronchitis).",
+      answer_ar="عيانيًا: مخاطية محتقنة متوذّمة تغطيها إفرازات مخاطية أو مخاطية قيحية. نسيجيًا: تضخّم الغدد المفرِزة للمخاط. مؤشّر ريد = سُمك طبقة الغدد تحت المخاطية / سُمك جدار القصبة، طبيعيًا 0.4 (ويرتفع في التهاب القصبات المزمن)."),
+ dict(en="How is chronic bronchitis diagnosed? Mention its clinical course.", ar="كيف يُشخَّص التهاب القصبات المزمن؟ اذكر سيره السريري.",
+      answer_en="Clinically: persistent productive cough for at least 3 consecutive months in at least 2 consecutive years. Early: mucoid sputum without obstruction; some have hyper-responsive airways; heavy smokers develop chronic outflow obstruction with emphysema, hypercapnia, hypoxemia and cyanosis (blue bloaters); recurrent infections and respiratory failure.",
+      answer_ar="سريريًا: سعال منتج مستمر 3 أشهر متتالية في سنتين متتاليتين على الأقل. مبكرًا: قشع مخاطي دون انسداد؛ بعضهم لديه مجارٍ مفرطة الاستجابة؛ المدخنون بشراهة يصابون بانسداد مزمن مع نُفاخ وفرط CO2 ونقص أكسجة وزُراق (المنتفخون الزُّرق)؛ وعدوى متكرّرة وفشل تنفسي."),
+ dict(en="Define asthma and list its hallmarks.", ar="عرّف الربو وعدّد سماته المميِّزة.",
+      answer_en="A chronic inflammatory disorder of the airways causing recurrent wheezing, breathlessness, chest tightness and cough, particularly at night/early morning. Hallmarks: intermittent reversible obstruction; chronic inflammation with eosinophils; smooth muscle hypertrophy; hyperreactivity and increased mucus.",
+      answer_ar="اضطراب التهابي مزمن في المجاري الهوائية يسبّب أزيزًا وضيق نفس وضيق صدر وسعالًا متكرّرة، خصوصًا ليلًا/صباحًا. السمات: انسداد متقطّع قابل للعكس؛ التهاب مزمن مع الحمضات؛ تضخّم العضلات الملساء؛ فرط التفاعلية وزيادة المخاط."),
+ dict(en="What is the hygiene hypothesis?", ar="ما فرضية النظافة؟",
+      answer_en="Based on the rise of asthma in the Western world over four decades: eradication of infections may alter immune homeostasis and promote allergic and other harmful immune responses.",
+      answer_ar="مبنية على ارتفاع الربو في العالم الغربي خلال أربعة عقود: القضاء على العدوى قد يغيّر التوازن المناعي ويعزّز الاستجابات التحسّسية والضارة الأخرى."),
+ dict(en="Classify asthma.", ar="صنّف الربو.",
+      answer_en="Atopic (allergen sensitization, history of allergic rhinitis, eczema) and nonatopic; by inflammatory pattern (eosinophilic, neutrophilic, mixed, pauci-granulocytic); or by the agents/events that trigger bronchoconstriction.",
+      answer_ar="تأتّبي (تحسّس لمسبّب حساسية، تاريخ التهاب أنف تحسّسي أو إكزيما) وغير تأتّبي؛ أو بحسب نمط الالتهاب (حمضي، عدلي، مختلط، قليل المحبّبات)؛ أو بحسب العوامل/الأحداث المُطلِقة لتضيّق القصبات."),
+ dict(en="Explain the role of TH2 cells and IgE in the pathogenesis of asthma.", ar="اشرح دور خلايا TH2 وIgE في إمراضية الربو.",
+      answer_en="Excessive TH2 reaction to environmental antigens; IL-4 → IgE, IL-5 → eosinophils, IL-13 → mucus and IgE. IgE coats submucosal mast cells, which release granule contents on allergen exposure, giving an early phase (bronchoconstriction via vagal receptors, mucus, vasodilation) and a late phase.",
+      answer_ar="تفاعل مفرط لخلايا TH2 ضد المستضدات البيئية؛ IL-4 → IgE، وIL-5 → الحمضات، وIL-13 → المخاط وIgE. يغلّف IgE الخلايا البدينة تحت المخاطية فتُطلق حبيباتها عند التعرّض لمسبّب الحساسية، فيحدث طور مبكر (تضيّق قصبات عبر المستقبلات المبهمية، ومخاط، وتوسّع أوعية) وطور متأخر."),
+]
+
+data = {"meta": {
+  "subject_en": "Pathology", "subject_ar": "علم الأمراض", "short_ar": "أمراض",
+  "unit_en": "Lecture 3", "unit_ar": "المحاضرة 3", "unit_label": "LEC", "unit_no": "3",
+  "title_en": "Chronic Bronchitis & Asthma", "title_ar": "التهاب القصبات المزمن والربو",
+  "kind": "Theory — نظري", "stage": "The fourth stage — الرابعة", "instructor": "د. حامد خليل التميمي"},
+ "blocks": blocks, "questions": {"mcq": mcq, "tf": tf, "traps": traps, "important": important}}
+qs = [q for q in mcq if "answer" in q]
+print(len(qs), Counter(q["answer"] for q in qs))
+json.dump(data, open("/home/user/-/pathology-lec3-chronic-bronchitis/lecture.json", "w"), ensure_ascii=False, indent=1)
+
+```

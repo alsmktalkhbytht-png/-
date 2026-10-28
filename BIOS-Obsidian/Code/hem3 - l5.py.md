@@ -1,0 +1,161 @@
+---
+source: BIOS-Obsidian/tools/scripts/hem3/l5.py
+handouts: [hematology-lec5-anaemia]
+saved: 2026-10-28
+tags: [bios, code]
+---
+# hem3/l5.py
+
+Generator script — writes the handout's `lecture.json`.
+
+Handouts: [[06 فهرس الملازم#hematology-lec5-anaemia|hematology-lec5-anaemia]]
+
+```python
+from common import *
+
+blocks = [
+ SEC("Anaemia", "فقر الدم"),
+ C("**Definition:** It is a state of **decrease hemoglobin level below the normal physiological level** take in consideration **patient age and sex**, usually (not always) accompanied by reduction in PCV and RBC count.",
+   "**التعريف:** حالة **انخفاض مستوى الهيموغلوبين عن المستوى الفسيولوجي الطبيعي** مع مراعاة **عمر المريض وجنسه**، ويرافقها عادةً (لا دائمًا) انخفاض في `PCV` وعدد الكريات الحمر."),
+ VALUES(),
+ C("**Causes of anaemia:**", "**أسباب فقر الدم:**",
+   list_en=["**Blood loss** e.g. bleeding.", "**Impaired red cell production** e.g. bone marrow failure.", "**Accelerated red cell destructions** e.g. hemolytic anemia"],
+   list_ar=["**فقدان الدم** مثل النزف.", "**ضعف إنتاج الكريات الحمر** مثل فشل نخاع العظم.", "**تسارع تحطّم الكريات الحمر** مثل فقر الدم الانحلالي"]),
+
+ SEC("Classification of anaemia", "تصنيف فقر الدم"),
+ C(["We have many classifications for the anemia.", "The most useful classification is that **Depending on blood indices**,",
+    "Depending on blood indices, anaemia can be classified into:"],
+   ["لفقر الدم تصنيفات كثيرة.", "وأكثرها فائدة التصنيف **المعتمد على مؤشّرات الدم**،", "وبالاعتماد على مؤشّرات الدم يُصنَّف فقر الدم إلى:"],
+   list_en=["Microcytic hypochromic anaemia.", "Normochromic normocytic anaemia.", "Macrocytic anaemia."],
+   list_ar=["فقر الدم صغير الكريات ناقص الصباغ.", "فقر الدم سوي الصباغ سوي الكريات.", "فقر الدم كبير الكريات."]),
+ T(["", "Microcytic hypochromic", "Normochromic normocytic", "Macrocytic"],
+   [["Indices", "MCV<80 fl, MCH< 27 pg", "MCV 80-95 fl, MCH >26 pg", "MCV >95 fl"],
+    ["Causes", "Iron deficiency anaemia; Thalassaemia; Anaemia of chronic disease (some cases); Lead poisoning; Sidroblastic anaemia(some cases)",
+     "Many haemolytic anaemia; Anaemia of chronic disease(some cases); After acute blood loss; Renal disease; Mixed deficiency; Bone marrow failure e.g. Post-chemotherapy, Infiltration by carcinoma.",
+     "Megaloblastic: Vitamin B12 or folate deficiency. Non-megaloblastic: Alcohol, liver disease, MDS, Aplastic anaemia ,etc"]],
+   key_cols=[0], widths=["18mm", "", "", ""]),
+ T(["Type", "الترجمة"],
+   [["Microcytic hypochromic", "**صغير الكريات ناقص الصباغ** (`MCV < 80`، `MCH < 27`): فقر الدم بنقص الحديد، الثلاسيميا، فقر دم الأمراض المزمنة (بعض الحالات)، التسمّم بالرصاص، فقر الدم الحديدي الأرومات (بعض الحالات)."],
+    ["Normochromic normocytic", "**سوي الصباغ سوي الكريات** (`MCV 80–95`، `MCH > 26`): كثير من فقر الدم الانحلالي، فقر دم الأمراض المزمنة (بعض الحالات)، بعد النزف الحاد، أمراض الكلية، النقص المختلط، فشل النخاع (بعد العلاج الكيميائي، ارتشاح السرطانة)."],
+    ["Macrocytic", "**كبير الكريات** (`MCV > 95`): أرومي ضخم بنقص `B12` أو الفولات؛ وغير أرومي ضخم: الكحول، أمراض الكبد، `MDS`، فقر الدم اللاتنسّجي، إلخ."]],
+   ar_cols=[1], key_cols=[0], widths=["36mm", ""]),
+
+ H2("1. Microcytic hypochromic anaemia", "1. فقر الدم صغير الكريات ناقص الصباغ"),
+ C("This mean **small size of cell** so in this type of anaemia there is", "ويعني **صغر حجم الخلية**، لذلك يوجد في هذا النوع",
+   list_en=["Decrease **MCV less than 76 fl.**", "Decrease **MCH less than 27 pg.**"], list_ar=["انخفاض `MCV` **إلى أقل من 76 fl**.", "انخفاض `MCH` **إلى أقل من 27 pg**."]),
+ C("This type of anaemia usually seen in:", "ويُرى هذا النوع عادةً في:", alpha=True,
+   list_en=["**Iron deficiency anaemia** (here its defect in **haem synthesis**).", "**Thalassemias** (here its defect in **globins chain synthesis**).",
+            "Anaemia of chronic diseases (some cases).", "Sidroblastic anaemia.", "Lead poisoning."],
+   list_ar=["**فقر الدم بنقص الحديد** (والخلل هنا في **تخليق الهيم**).", "**الثلاسيميا** (والخلل هنا في **تخليق سلاسل الكلوبين**).",
+            "فقر دم الأمراض المزمنة (بعض الحالات).", "فقر الدم الحديدي الأرومات.", "التسمّم بالرصاص."]),
+ N("The lecture uses **MCV < 80 fl** in the table and **< 76 fl** in the text — both appear in the original.", "تستخدم المحاضرة **`MCV < 80`** في الجدول و**`< 76`** في النص — والقيمتان موجودتان في الأصل.", label=["BIOS note", "ملاحظة بايوس"]),
+ H2("2. Normochromic normocytic anaemia", "2. فقر الدم سوي الصباغ سوي الكريات"),
+ C("Here there are **normal blood indices** (i.e. normal MCV, MCH). This type of anaemia is usually seen in:", "هنا تكون **مؤشّرات الدم طبيعية** (أي `MCV` و`MCH` طبيعيان). ويُرى هذا النوع عادةً في:", alpha=True,
+   list_en=["After acute blood loss.", "Many hemolytic anemias.", "Anemia of chronic disorders.", "Bone marrow failure (e.g. infiltrations by carcinoma and after chemotherapy)"],
+   list_ar=["بعد النزف الحاد.", "كثير من أنواع فقر الدم الانحلالي.", "فقر دم الاضطرابات المزمنة.", "فشل نخاع العظم (مثل الارتشاح بالسرطانة وبعد العلاج الكيميائي)"]),
+ H2("3. Macrocytic anaemia", "3. فقر الدم كبير الكريات"),
+ C("In which **increase MCV more than 95 fl**. This type of anaemia usually seen in:", "وفيه **يزداد `MCV` إلى أكثر من 95 fl**. ويُرى عادةً في:", alpha=True,
+   list_en=["Megaloblastic anaemia.", "A plastic anaemia.", "Others"], list_ar=["فقر الدم الأرومي الضخم.", "فقر الدم اللاتنسّجي.", "أخرى"]),
+
+ SEC("Clinical features of anemia", "المظاهر السريرية لفقر الدم"),
+ C(["**Symptoms:** These are usually **shortness of breath particularly on exercise, weakness, lethargy, palpitation and headaches**.",
+    "In older subjects symptoms of **cardiac failure, angina pectoris or intermittent claudication or confusion** may be present.",
+    "**Visual disturbances** because the **retinal hemorrhage** may complicate very severe anaemia, particularly of rapid onset."],
+   ["**الأعراض:** عادةً **ضيق النفس ولا سيما مع الجهد، والضعف، والخمول، والخفقان، والصداع**.",
+    "وعند كبار السن قد توجد أعراض **عجز القلب، أو الذبحة الصدرية، أو العرج المتقطّع، أو التشوّش الذهني**.",
+    "و**اضطرابات بصرية** لأن **نزف الشبكية** قد يعقّد فقر الدم الشديد جدًا، ولا سيما سريع البدء."]),
+ C("**Signs:** These may be divided into **general and specific signs**.", "**العلامات:** يمكن تقسيمها إلى **علامات عامة وعلامات خاصة**."),
+ L(["**Pallor of mucus membrane** which occurs if the hemoglobin level **less than 9-10 g /dl**. Conversely, **skin colour is not a reliable sign**.",
+    "A **hyper-dynamic circulation** may present with tachycardia, a bounding pulse, cardiomegaly and a systolic flow mummer especially at the apex of heart.",
+    "Particularly in elderly, features of **congestive heart failure** may be present.",
+    "Retinal hemorrhages are unusual."],
+   ["**شحوب الأغشية المخاطية** ويحدث إذا كان الهيموغلوبين **أقل من 9–10 غ/دل**. وبالمقابل **لون الجلد ليس علامة موثوقة**.",
+    "قد توجد **دورة دموية مفرطة الحركية** مع تسرّع القلب، ونبض واثب، وتضخّم القلب، ونفخة جريان انقباضية ولا سيما عند قمّة القلب.",
+    "ولا سيما عند كبار السن قد توجد مظاهر **عجز القلب الاحتقاني**.",
+    "نزوف الشبكية غير شائعة."], en="**General signs:** Include", ar="**العلامات العامة:** وتشمل"),
+ T(["Specific sign", "Type of anaemia", "العلامة — نوع فقر الدم"],
+   [["Koilonychias (spoon nails)", "iron deficiency anaemia", "**تقعّر الأظافر (الأظافر الملعقية)** — فقر الدم بنقص الحديد"],
+    ["Jaundice", "hemolytic anemia and megaloblastic anaemia", "**اليرقان** — فقر الدم الانحلالي والأرومي الضخم"],
+    ["Leg ulcer", "sickle cell and other hemolytic anaemia", "**قرحة الساق** — فقر الدم المنجلي وغيره من الانحلالي"],
+    ["Bone deformity", "thalassemia major and other severs congenital haemolytic anaemia", "**تشوّه العظام** — الثلاسيميا الكبرى وغيرها من فقر الدم الانحلالي الخلقي الشديد"]],
+   ar_cols=[2], key_cols=[0]),
+
+ SEC("Diagnosis of anemia", "تشخيص فقر الدم"),
+ C("The following Laboratory test used in the diagnosis of anemia:", "تُستخدم الفحوص المختبرية الآتية في تشخيص فقر الدم:"),
+ R("**Cpmlete blood count** including Hb., PCV, RBC, Red blood cell indices (MCV,MCH,MCHC) , Red cell distribution width (**RDW**).",
+   "**صورة الدم الكاملة** وتشمل `Hb` و`PCV` و`RBC` ومؤشّرات الكريات (`MCV` و`MCH` و`MCHC`) وعرض توزّع الكريات الحمر (**`RDW`**)."),
+ R(["**Reticulocytes count:** **Increased** reticulocytes count increased if the cause of anemia was **increased red cell loss or destruction**.",
+    "**Decreased** if the cause of anemia was **decreased red cell production**."],
+   ["**عدد الخلايا الشبكية:** **يرتفع** إذا كان سبب فقر الدم **زيادة فقدان الكريات الحمر أو تحطّمها**.",
+    "و**ينخفض** إذا كان السبب **انخفاض إنتاج الكريات الحمر**."]),
+ R("**Blood film:** Looking for morphology of the cells", "**المسحة الدموية:** للبحث في شكل الخلايا"),
+ R("**Bone marrow examination:** Useful in case of **unexplained anemia**", "**فحص نخاع العظم:** مفيد في حالة **فقر الدم غير المفسَّر**"),
+ R("**Other Tests include:**", "**فحوص أخرى تشمل:**"),
+ T(["Test", "Useful in diagnosis of", "الفحص — يفيد في تشخيص"],
+   [["Serum iron, total iron binding capacity, and serum ferritin", "iron deficiency anemia", "**حديد المصل، والسعة الكلية لربط الحديد، وفيريتين المصل** — فقر الدم بنقص الحديد"],
+    ["Serum B12 and folate", "megaloblastic anemia", "**`B12` والفولات في المصل** — فقر الدم الأرومي الضخم"],
+    ["Coombs test", "immune hemolytic anemia", "**اختبار كومبس** — فقر الدم الانحلالي المناعي"],
+    ["Osmotic fragility test", "hereditary spherocytosis", "**اختبار الهشاشة الأوزموزية** — كثرة الكريات الكروية الوراثية"],
+    ["Sickling test", "sickle cell anemia", "**اختبار التمنجل** — فقر الدم المنجلي"],
+    ["Hb. Electrophoresis", "hemoglobinopatheis", "**الترحيل الكهربائي للهيموغلوبين** — اعتلالات الهيموغلوبين"],
+    ["G6PD Enzymes assay", "G6PD ENZYME DEFICNCY", "**قياس إنزيم `G6PD`** — نقص إنزيم `G6PD`"]],
+   ar_cols=[2], key_cols=[0]),
+]
+
+mcq = [
+ {"topic_en": "Definition, causes and classification", "topic_ar": "التعريف والأسباب والتصنيف"},
+ Q("Anaemia is defined as a decrease in:", "يُعرَّف فقر الدم بأنه انخفاض في:", [("White cell count", "عدد الكريات البيض"), ("Haemoglobin level below normal for age and sex", "مستوى الهيموغلوبين عن الطبيعي للعمر والجنس"), ("Platelet count", "عدد الصفيحات"), ("Serum iron only", "حديد المصل فقط")], "b"),
+ Q("Which is NOT one of the three main causes of anaemia?", "أي مما يأتي ليس من الأسباب الثلاثة الرئيسة لفقر الدم؟", [("Blood loss", "فقدان الدم"), ("Impaired red cell production", "ضعف إنتاج الكريات"), ("Accelerated red cell destruction", "تسارع تحطّم الكريات"), ("Increased erythropoietin", "زيادة الإريثروبويتين")], "d"),
+ Q("The most useful classification of anaemia depends on:", "أكثر تصنيفات فقر الدم فائدة يعتمد على:", [("Blood indices", "مؤشّرات الدم"), ("Age", "العمر"), ("Symptoms", "الأعراض"), ("Bone marrow only", "نخاع العظم فقط")], "a"),
+ Q("Microcytic hypochromic anaemia has (table values):", "فقر الدم صغير الكريات ناقص الصباغ له (قيم الجدول):", [("MCV > 95 fl", "MCV > 95"), ("MCV 80–95 fl", "MCV 80–95"), ("MCV < 80 fl and MCH < 27 pg", "MCV < 80 وMCH < 27"), ("Normal indices", "مؤشّرات طبيعية")], "c"),
+ Q("Iron deficiency anaemia is a defect in:", "فقر الدم بنقص الحديد خلل في:", [("Globin chain synthesis", "تخليق سلاسل الكلوبين"), ("Haem synthesis", "تخليق الهيم"), ("DNA synthesis", "تخليق الـ DNA"), ("Membrane proteins", "بروتينات الغشاء")], "b"),
+ Q("Thalassaemia is a defect in:", "الثلاسيميا خلل في:", [("Globin chain synthesis", "تخليق سلاسل الكلوبين"), ("Haem synthesis", "تخليق الهيم"), ("Iron absorption", "امتصاص الحديد"), ("Erythropoietin", "الإريثروبويتين")], "a"),
+ Q("Which causes a normochromic normocytic anaemia?", "أي مما يأتي يسبّب فقر دم سوي الصباغ سوي الكريات؟", [("Iron deficiency", "نقص الحديد"), ("Thalassaemia", "الثلاسيميا"), ("Vitamin B12 deficiency", "نقص B12"), ("Acute blood loss", "النزف الحاد")], "d"),
+ Q("Macrocytic anaemia has an MCV of:", "لفقر الدم كبير الكريات MCV:", [("< 80 fl", "< 80"), ("80–95 fl", "80–95"), ("> 95 fl", "> 95"), ("< 76 fl", "< 76")], "c"),
+ Q("Megaloblastic anaemia is caused by deficiency of:", "يسبّب فقر الدم الأرومي الضخم نقص:", [("Iron", "الحديد"), ("Vitamin B12 or folate", "فيتامين B12 أو الفولات"), ("Vitamin C", "فيتامين C"), ("Erythropoietin", "الإريثروبويتين")], "b"),
+ Q("A non-megaloblastic cause of macrocytosis is:", "من الأسباب غير الأرومية الضخمة لكِبَر الكريات:", [("Alcohol", "الكحول"), ("Thalassaemia", "الثلاسيميا"), ("Lead poisoning", "التسمّم بالرصاص"), ("Iron deficiency", "نقص الحديد")], "a"),
+ {"topic_en": "Clinical features", "topic_ar": "المظاهر السريرية"},
+ Q("A common symptom of anaemia is:", "من الأعراض الشائعة لفقر الدم:", [("Fever", "الحمّى"), ("Itching", "الحكّة"), ("Shortness of breath particularly on exercise", "ضيق النفس ولا سيما مع الجهد"), ("Weight gain", "زيادة الوزن")], "c"),
+ Q("Pallor of mucous membranes occurs when haemoglobin is less than:", "يحدث شحوب الأغشية المخاطية عندما يقل الهيموغلوبين عن:", [("13 g/dl", "13 غ/دل"), ("11 g/dl", "11 غ/دل"), ("5 g/dl", "5 غ/دل"), ("9–10 g/dl", "9–10 غ/دل")], "d"),
+ Q("Which is NOT a reliable sign of anaemia?", "أي مما يأتي ليس علامة موثوقة لفقر الدم؟", [("Skin colour", "لون الجلد"), ("Mucous membrane pallor", "شحوب الأغشية المخاطية"), ("Tachycardia", "تسرّع القلب"), ("Systolic flow murmur", "نفخة جريان انقباضية")], "a"),
+ Q("Koilonychia (spoon nails) is a specific sign of:", "تقعّر الأظافر علامة خاصة بـ:", [("Haemolytic anaemia", "فقر الدم الانحلالي"), ("Iron deficiency anaemia", "فقر الدم بنقص الحديد"), ("Thalassaemia major", "الثلاسيميا الكبرى"), ("Sickle cell anaemia", "فقر الدم المنجلي")], "b"),
+ Q("Leg ulcer is a specific sign of:", "قرحة الساق علامة خاصة بـ:", [("Sickle cell and other haemolytic anaemia", "فقر الدم المنجلي وغيره من الانحلالي"), ("Iron deficiency", "نقص الحديد"), ("Megaloblastic anaemia only", "الأرومي الضخم فقط"), ("Aplastic anaemia", "اللاتنسّجي")], "a"),
+ Q("Bone deformity is associated with:", "يرتبط تشوّه العظام بـ:", [("Iron deficiency", "نقص الحديد"), ("Acute blood loss", "النزف الحاد"), ("Renal disease", "أمراض الكلية"), ("Thalassaemia major", "الثلاسيميا الكبرى")], "d"),
+ {"topic_en": "Diagnosis", "topic_ar": "التشخيص"},
+ Q("The reticulocyte count increases in anaemia due to:", "يرتفع عدد الخلايا الشبكية في فقر الدم الناتج عن:", [("Decreased production", "انخفاض الإنتاج"), ("Bone marrow failure", "فشل النخاع"), ("Increased red cell loss or destruction", "زيادة فقدان الكريات أو تحطّمها"), ("Aplastic anaemia", "فقر الدم اللاتنسّجي")], "c"),
+ Q("Bone marrow examination is useful in:", "يفيد فحص نخاع العظم في:", [("Every anaemia", "كل فقر دم"), ("Unexplained anaemia", "فقر الدم غير المفسَّر"), ("Iron deficiency only", "نقص الحديد فقط"), ("Acute blood loss", "النزف الحاد")], "b"),
+ Q("The Coombs test is useful in diagnosis of:", "يفيد اختبار كومبس في تشخيص:", [("Immune haemolytic anaemia", "فقر الدم الانحلالي المناعي"), ("Hereditary spherocytosis", "كثرة الكريات الكروية الوراثية"), ("Sickle cell anaemia", "فقر الدم المنجلي"), ("Iron deficiency", "نقص الحديد")], "a"),
+ Q("The osmotic fragility test is useful in diagnosis of:", "يفيد اختبار الهشاشة الأوزموزية في تشخيص:", [("G6PD deficiency", "نقص G6PD"), ("Megaloblastic anaemia", "الأرومي الضخم"), ("Haemoglobinopathies", "اعتلالات الهيموغلوبين"), ("Hereditary spherocytosis", "كثرة الكريات الكروية الوراثية")], "d"),
+ Q("Hb electrophoresis is useful in diagnosis of:", "يفيد الترحيل الكهربائي للهيموغلوبين في تشخيص:", [("Iron deficiency", "نقص الحديد"), ("Immune haemolysis", "الانحلال المناعي"), ("Haemoglobinopathies", "اعتلالات الهيموغلوبين"), ("Aplastic anaemia", "اللاتنسّجي")], "c"),
+ Q("Serum iron, TIBC and ferritin help in diagnosis of:", "يساعد حديد المصل وTIBC والفيريتين في تشخيص:", [("Iron deficiency anaemia", "فقر الدم بنقص الحديد"), ("Megaloblastic anaemia", "الأرومي الضخم"), ("Sickle cell anaemia", "المنجلي"), ("G6PD deficiency", "نقص G6PD")], "a"),
+]
+tf = [
+ TF("Anaemia is always accompanied by a reduction in PCV and RBC count.", "يرافق فقرَ الدم دائمًا انخفاضٌ في PCV وعدد الكريات.", "F"),
+ TF("Bone marrow failure is an example of impaired red cell production.", "فشل نخاع العظم مثال على ضعف إنتاج الكريات الحمر.", "T"),
+ TF("Lead poisoning causes a microcytic hypochromic anaemia.", "يسبّب التسمّم بالرصاص فقر دم صغير الكريات ناقص الصباغ.", "T"),
+ TF("Renal disease causes a macrocytic anaemia.", "تسبّب أمراض الكلية فقر دم كبير الكريات.", "F"),
+ TF("Aplastic anaemia may be macrocytic.", "قد يكون فقر الدم اللاتنسّجي كبير الكريات.", "T"),
+ TF("Retinal haemorrhages are common in anaemia.", "نزوف الشبكية شائعة في فقر الدم.", "F"),
+ TF("Jaundice occurs with haemolytic and megaloblastic anaemia.", "يحدث اليرقان مع فقر الدم الانحلالي والأرومي الضخم.", "T"),
+ TF("A hyperdynamic circulation may cause a systolic flow murmur.", "قد تسبّب الدورة الدموية مفرطة الحركية نفخة جريان انقباضية.", "T"),
+ TF("The reticulocyte count is decreased when red cell production is decreased.", "ينخفض عدد الخلايا الشبكية عند انخفاض إنتاج الكريات الحمر.", "T"),
+ TF("The sickling test diagnoses G6PD deficiency.", "يشخّص اختبار التمنجل نقص G6PD.", "F"),
+ TF("RDW is part of the complete blood count.", "الـ RDW جزء من صورة الدم الكاملة.", "T"),
+]
+traps = [
+ TR("Iron deficiency vs thalassaemia — where is the defect?", "نقص الحديد مقابل الثلاسيميا — أين الخلل؟", "Iron deficiency: haem synthesis. Thalassaemia: globin chain synthesis. Both microcytic hypochromic.", "نقص الحديد: تخليق الهيم. الثلاسيميا: تخليق سلاسل الكلوبين. وكلاهما صغير الكريات ناقص الصباغ."),
+ TR("Anaemia of chronic disease — which group?", "فقر دم الأمراض المزمنة — في أي مجموعة؟", "It appears in BOTH the microcytic and the normocytic lists (“some cases”).", "يظهر في قائمتي صغير الكريات وسوي الكريات كلتيهما («بعض الحالات»)."),
+ TR("Reticulocytes up or down?", "الخلايا الشبكية ترتفع أم تنخفض؟", "Up with loss or destruction (bleeding, haemolysis); down with decreased production (marrow failure).", "ترتفع مع الفقدان أو التحطّم (نزف، انحلال)؛ وتنخفض مع نقص الإنتاج (فشل النخاع)."),
+ TR("Skin vs mucous membrane pallor", "شحوب الجلد مقابل الأغشية المخاطية", "Mucous membrane pallor (Hb < 9–10 g/dl) is the sign; skin colour is not reliable.", "شحوب الأغشية المخاطية (Hb < 9–10) هو العلامة؛ ولون الجلد غير موثوق."),
+ TR("Which test for which anaemia?", "أي فحص لأي فقر دم؟", "Iron/TIBC/ferritin → IDA; B12/folate → megaloblastic; Coombs → immune haemolysis; osmotic fragility → spherocytosis; sickling → sickle cell; Hb electrophoresis → haemoglobinopathies; G6PD assay → G6PD deficiency.", "الحديد/TIBC/الفيريتين ← نقص الحديد؛ B12/الفولات ← الأرومي الضخم؛ كومبس ← الانحلال المناعي؛ الهشاشة ← الكريات الكروية؛ التمنجل ← المنجلي؛ الترحيل ← اعتلالات Hb؛ قياس G6PD ← نقصه."),
+]
+important = [
+ IM("Define anaemia and list its causes.", "عرّف فقر الدم وعدّد أسبابه.", "A decrease of haemoglobin below the normal physiological level for age and sex, usually with low PCV and RBC count. Causes: blood loss, impaired red cell production, accelerated red cell destruction.", "انخفاض الهيموغلوبين عن المستوى الطبيعي للعمر والجنس، مع انخفاض PCV وعدد الكريات عادةً. أسبابه: فقدان الدم، ضعف الإنتاج، تسارع التحطّم."),
+ IM("Classify anaemia according to blood indices with causes.", "صنّف فقر الدم بحسب مؤشّرات الدم مع الأسباب.", "Microcytic hypochromic (MCV < 80, MCH < 27): IDA, thalassaemia, chronic disease, lead, sideroblastic. Normochromic normocytic (MCV 80–95): haemolytic, chronic disease, acute blood loss, renal, marrow failure. Macrocytic (MCV > 95): megaloblastic (B12/folate), non-megaloblastic (alcohol, liver, MDS, aplastic).", "صغير الكريات ناقص الصباغ (MCV < 80، MCH < 27): نقص الحديد، الثلاسيميا، الأمراض المزمنة، الرصاص، الحديدي الأرومات. سوي الصباغ سوي الكريات (80–95): الانحلالي، المزمن، النزف الحاد، الكلية، فشل النخاع. كبير الكريات (> 95): الأرومي الضخم (B12/فولات) وغيره (الكحول، الكبد، MDS، اللاتنسّجي)."),
+ IM("List the symptoms of anaemia.", "عدّد أعراض فقر الدم.", "Shortness of breath on exercise, weakness, lethargy, palpitation, headache; in the elderly cardiac failure, angina, intermittent claudication, confusion; visual disturbance from retinal haemorrhage in very severe rapid anaemia.", "ضيق النفس مع الجهد، الضعف، الخمول، الخفقان، الصداع؛ وعند كبار السن عجز القلب، الذبحة، العرج المتقطّع، التشوّش؛ واضطراب البصر من نزف الشبكية في فقر الدم الشديد السريع."),
+ IM("Give the general and specific signs of anaemia.", "اذكر العلامات العامة والخاصة لفقر الدم.", "General: mucous membrane pallor (Hb < 9–10), hyperdynamic circulation (tachycardia, bounding pulse, cardiomegaly, systolic murmur), congestive heart failure in the elderly. Specific: koilonychia (IDA), jaundice (haemolytic, megaloblastic), leg ulcer (sickle cell), bone deformity (thalassaemia major).", "العامة: شحوب الأغشية (Hb < 9–10)، دورة مفرطة الحركية (تسرّع، نبض واثب، تضخّم القلب، نفخة)، عجز القلب الاحتقاني عند كبار السن. الخاصة: تقعّر الأظافر (نقص الحديد)، اليرقان (الانحلالي، الأرومي الضخم)، قرحة الساق (المنجلي)، تشوّه العظام (الثلاسيميا الكبرى)."),
+ IM("List the laboratory tests used in the diagnosis of anaemia.", "عدّد الفحوص المختبرية المستخدمة في تشخيص فقر الدم.", "CBC (Hb, PCV, RBC, MCV, MCH, MCHC, RDW); reticulocyte count; blood film; bone marrow examination; other tests: serum iron/TIBC/ferritin, B12 and folate, Coombs, osmotic fragility, sickling test, Hb electrophoresis, G6PD assay.", "صورة الدم الكاملة (Hb، PCV، RBC، MCV، MCH، MCHC، RDW)؛ عدد الخلايا الشبكية؛ المسحة؛ فحص النخاع؛ فحوص أخرى: الحديد/TIBC/الفيريتين، B12 والفولات، كومبس، الهشاشة الأوزموزية، التمنجل، ترحيل Hb، قياس G6PD."),
+]
+save("hematology-lec5-anaemia", 5, "Anaemia", "فقر الدم", blocks, mcq, tf, traps, important)
+
+```
