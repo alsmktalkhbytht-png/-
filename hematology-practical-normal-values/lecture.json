@@ -7,9 +7,9 @@
   "kind": "Laboratories — عملي",
   "stage": "The third stage — الثالثة",
   "instructor": "ليندا منجد هادي",
-  "unit_en": "Lab 2",
-  "unit_ar": "العملي 2",
-  "unit_no": "2",
+  "unit_en": "Lab 3",
+  "unit_ar": "العملي 3",
+  "unit_no": "3",
   "title_en": "Normal Values of Blood Components According to Age",
   "title_ar": "القيم الطبيعية لمكوّنات الدم بحسب العمر"
  },
@@ -35,6 +35,40 @@
    ]
   },
   {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Healthy people",
+     "ar": "الأشخاص الأصحاء"
+    },
+    {
+     "en": "Expected range",
+     "ar": "المدى المتوقّع"
+    },
+    {
+     "en": "Normal value",
+     "ar": "القيمة الطبيعية"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Normal value = reference range of healthy people.",
+    "It depends on **age** (and sometimes **sex**).",
+    "So the same number can be normal or abnormal."
+   ],
+   "ar": [
+    "القيمة الطبيعية = المدى المرجعي للأصحاء.",
+    "تعتمد على **العمر** (وأحيانًا **الجنس**).",
+    "لذلك قد يكون الرقم نفسه طبيعيًا أو غير طبيعي."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
    "t": "section",
    "en": "Key Age Groups",
    "ar": "الفئات العمرية الرئيسة"
@@ -42,32 +76,53 @@
   {
    "t": "table",
    "head": [
-    "Age group",
-    "Main point",
-    "الفئة — النقطة الرئيسة"
+    [
+     "Age group",
+     "الفئة العمرية"
+    ],
+    [
+     "Main point",
+     "النقطة الرئيسة"
+    ]
    ],
    "rows": [
     [
-     "Newborn",
-     "Higher hemoglobin, higher white blood cell count, higher reticulocytes",
-     "**حديث الولادة**: هيموغلوبين أعلى، وكريات بيض أكثر، وخلايا شبكية أكثر"
+     [
+      "**Newborn**",
+      "**حديث الولادة**"
+     ],
+     [
+      "Higher hemoglobin, higher white blood cell count, higher reticulocytes",
+      "هيموغلوبين أعلى، وعدد كريات بيض أعلى، وخلايا شبكية أعلى"
+     ]
     ],
     [
-     "Child",
-     "Values gradually move toward the adult range",
-     "**الطفل**: تقترب القيم تدريجيًا من مدى البالغين"
+     [
+      "**Child**",
+      "**الطفل**"
+     ],
+     [
+      "Values gradually move toward the adult range",
+      "تقترب القيم تدريجيًا من مدى البالغين"
+     ]
     ],
     [
-     "Adult",
-     "Stable adult range; sex differences become clearer",
-     "**البالغ**: مدى ثابت للبالغين؛ وتتّضح الفروق بين الجنسين"
+     [
+      "**Adult**",
+      "**البالغ**"
+     ],
+     [
+      "Stable adult range; sex differences become clearer",
+      "مدى ثابت للبالغين؛ وتتّضح الفروق بين الجنسين"
+     ]
     ]
-   ],
-   "ar_cols": [
-    2
    ],
    "key_cols": [
     0
+   ],
+   "widths": [
+    26,
+    74
    ]
   },
   {
@@ -78,6 +133,23 @@
    "h": "34mm"
   },
   {
+   "t": "note",
+   "en": [
+    "**Newborn:** everything high (Hb, WBC, reticulocytes).",
+    "**Child:** moving toward adult values.",
+    "**Adult:** stable values; male ≠ female."
+   ],
+   "ar": [
+    "**حديث الولادة:** كل شيء مرتفع (الهيموغلوبين والكريات البيض والخلايا الشبكية).",
+    "**الطفل:** يقترب من قيم البالغين.",
+    "**البالغ:** قيم ثابتة؛ والذكر يختلف عن الأنثى."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
    "t": "section",
    "en": "Hemoglobin According to Age",
    "ar": "الهيموغلوبين بحسب العمر"
@@ -86,20 +158,53 @@
    "t": "side",
    "blocks": [
     {
-     "t": "card",
-     "en": "",
-     "ar": "",
-     "list_en": [
-      "**Newborn:** 14–24 g/dL",
-      "**Child:** 11–14 g/dL",
-      "**Adult male:** 13.5–17.5 g/dL",
-      "**Adult female:** 12.0–16.0 g/dL"
+     "t": "table",
+     "head": [
+      [
+       "Age",
+       "العمر"
+      ],
+      [
+       "Hemoglobin",
+       "الهيموغلوبين"
+      ]
      ],
-     "list_ar": [
-      "**حديث الولادة:** 14–24 غ/دل",
-      "**الطفل:** 11–14 غ/دل",
-      "**الذكر البالغ:** 13.5–17.5 غ/دل",
-      "**الأنثى البالغة:** 12.0–16.0 غ/دل"
+     "rows": [
+      [
+       [
+        "**Newborn**",
+        "**حديث الولادة**"
+       ],
+       "**14–24** g/dL"
+      ],
+      [
+       [
+        "**Child**",
+        "**الطفل**"
+       ],
+       "**11–14** g/dL"
+      ],
+      [
+       [
+        "**Adult male**",
+        "**الذكر البالغ**"
+       ],
+       "**13.5–17.5** g/dL"
+      ],
+      [
+       [
+        "**Adult female**",
+        "**الأنثى البالغة**"
+       ],
+       "**12.0–16.0** g/dL"
+      ]
+     ],
+     "key_cols": [
+      0
+     ],
+     "widths": [
+      50,
+      50
      ]
     }
    ],
@@ -110,6 +215,21 @@
    }
   },
   {
+   "t": "note",
+   "en": [
+    "Highest Hb in the **newborn** (14–24), lowest in the **child** (11–14).",
+    "Adult male (13.5–17.5) is higher than adult female (12–16)."
+   ],
+   "ar": [
+    "أعلى هيموغلوبين عند **حديث الولادة** (14–24)، وأقلّه عند **الطفل** (11–14).",
+    "الذكر البالغ (13.5–17.5) أعلى من الأنثى البالغة (12–16)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
    "t": "section",
    "en": "White Blood Cell Count",
    "ar": "عدد الكريات البيض"
@@ -118,18 +238,46 @@
    "t": "side",
    "blocks": [
     {
-     "t": "card",
-     "en": "",
-     "ar": "",
-     "list_en": [
-      "**Newborn:** 9,000–30,000 /µL",
-      "**Child:** 6,000–17,000 /µL",
-      "**Adult:** 4,000–11,000 /µL"
+     "t": "table",
+     "head": [
+      [
+       "Age",
+       "العمر"
+      ],
+      [
+       "White blood cell count",
+       "عدد الكريات البيض"
+      ]
      ],
-     "list_ar": [
-      "**حديث الولادة:** 9,000–30,000 /مايكرولتر",
-      "**الطفل:** 6,000–17,000 /مايكرولتر",
-      "**البالغ:** 4,000–11,000 /مايكرولتر"
+     "rows": [
+      [
+       [
+        "**Newborn**",
+        "**حديث الولادة**"
+       ],
+       "**9,000–30,000** /µL"
+      ],
+      [
+       [
+        "**Child**",
+        "**الطفل**"
+       ],
+       "**6,000–17,000** /µL"
+      ],
+      [
+       [
+        "**Adult**",
+        "**البالغ**"
+       ],
+       "**4,000–11,000** /µL"
+      ]
+     ],
+     "key_cols": [
+      0
+     ],
+     "widths": [
+      45,
+      55
      ]
     }
    ],
@@ -147,43 +295,62 @@
   {
    "t": "table",
    "head": [
-    "Cell",
-    "%",
-    "الخلية"
+    [
+     "Cell",
+     "الخلية"
+    ],
+    [
+     "Normal %",
+     "النسبة الطبيعية"
+    ]
    ],
    "rows": [
     [
-     "Neutrophils",
-     "40–75%",
-     "العدلات"
+     [
+      "**Neutrophils**",
+      "**العدلات**"
+     ],
+     "**40–75%**"
     ],
     [
-     "Lymphocytes",
-     "20–45%",
-     "اللمفاويات"
+     [
+      "**Lymphocytes**",
+      "**اللمفاويات**"
+     ],
+     "**20–45%**"
     ],
     [
-     "Monocytes",
-     "2–10%",
-     "الوحيدات"
+     [
+      "**Monocytes**",
+      "**الوحيدات**"
+     ],
+     "**2–10%**"
     ],
     [
-     "Eosinophils",
-     "1–6%",
-     "الحمضات"
+     [
+      "**Eosinophils**",
+      "**الحمضات**"
+     ],
+     "**1–6%**"
     ],
     [
-     "Basophils",
-     "0–1%",
-     "القعدات"
+     [
+      "**Basophils**",
+      "**القعدات**"
+     ],
+     "**0–1%**"
     ]
-   ],
-   "ar_cols": [
-    2
    ],
    "key_cols": [
     0
-   ]
+   ],
+   "widths": [
+    55,
+    45
+   ],
+   "style": "summary",
+   "label_en": "Differential",
+   "label_ar": "العدّ التفريقي"
   },
   {
    "t": "figure",
@@ -193,23 +360,66 @@
    "h": "54mm"
   },
   {
+   "t": "note",
+   "en": [
+    "WBC count falls with age: 9,000–30,000 → 6,000–17,000 → 4,000–11,000.",
+    "Order in adults: **neutrophils > lymphocytes > monocytes > eosinophils > basophils**."
+   ],
+   "ar": [
+    "يقلّ عدد الكريات البيض مع العمر: 9,000–30,000 ← 6,000–17,000 ← 4,000–11,000.",
+    "الترتيب عند البالغين: **العدلات > اللمفاويات > الوحيدات > الحمضات > القعدات**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
    "t": "section",
    "en": "Platelets and Reticulocytes",
    "ar": "الصفيحات والخلايا الشبكية"
   },
   {
-   "t": "card",
-   "en": "",
-   "ar": "",
-   "list_en": [
-    "**Platelets:** 150,000–450,000 /µL",
-    "**Reticulocytes in newborns:** 2.5–6.0%",
-    "**Reticulocytes in adults:** 0.5–1.5%"
+   "t": "table",
+   "head": [
+    [
+     "Parameter",
+     "المعيار"
+    ],
+    [
+     "Normal value",
+     "القيمة الطبيعية"
+    ]
    ],
-   "list_ar": [
-    "**الصفيحات:** 150,000–450,000 /مايكرولتر",
-    "**الخلايا الشبكية عند حديثي الولادة:** 2.5–6.0%",
-    "**الخلايا الشبكية عند البالغين:** 0.5–1.5%"
+   "rows": [
+    [
+     [
+      "**Platelets**",
+      "**الصفيحات**"
+     ],
+     "**150,000–450,000** /µL"
+    ],
+    [
+     [
+      "**Reticulocytes in newborns**",
+      "**الخلايا الشبكية عند حديثي الولادة**"
+     ],
+     "**2.5–6.0%**"
+    ],
+    [
+     [
+      "**Reticulocytes in adults**",
+      "**الخلايا الشبكية عند البالغين**"
+     ],
+     "**0.5–1.5%**"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    60,
+    40
    ]
   },
   {
@@ -232,65 +442,151 @@
    ]
   },
   {
+   "t": "note",
+   "en": [
+    "Platelets: **150,000–450,000 /µL** at every age.",
+    "Reticulocytes: newborn **2.5–6.0%** > adult **0.5–1.5%**."
+   ],
+   "ar": [
+    "الصفيحات: **150,000–450,000 /مايكرولتر** في كل الأعمار.",
+    "الخلايا الشبكية: حديث الولادة **2.5–6.0%** أعلى من البالغ **0.5–1.5%**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
    "t": "section",
    "en": "Red Blood Cell Count and Red Blood Cell Indices",
    "ar": "عدد الكريات الحمر ومؤشّراتها"
   },
   {
-   "t": "card",
-   "en": "",
-   "ar": "",
-   "list_en": [
-    "**Adult male** red blood cell count: **4.7–6.1 ×10⁶/µL**",
-    "**Adult female** red blood cell count: **4.2–5.4 ×10⁶/µL**"
+   "t": "table",
+   "head": [
+    [
+     "Adult",
+     "البالغ"
+    ],
+    [
+     "Red blood cell count",
+     "عدد الكريات الحمر"
+    ]
    ],
-   "list_ar": [
-    "عدد الكريات الحمر عند **الذكر البالغ**: **4.7–6.1 ×10⁶/مايكرولتر**",
-    "عدد الكريات الحمر عند **الأنثى البالغة**: **4.2–5.4 ×10⁶/مايكرولتر**"
+   "rows": [
+    [
+     [
+      "**Adult male**",
+      "**الذكر البالغ**"
+     ],
+     "**4.7–6.1** ×10⁶/µL"
+    ],
+    [
+     [
+      "**Adult female**",
+      "**الأنثى البالغة**"
+     ],
+     "**4.2–5.4** ×10⁶/µL"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    45,
+    55
    ]
+  },
+  {
+   "t": "h2",
+   "en": "Important red blood cell indices",
+   "ar": "مؤشّرات الكريات الحمر المهمّة"
   },
   {
    "t": "table",
    "head": [
-    "Index",
-    "Normal",
-    "Meaning",
-    "المعنى"
+    [
+     "Parameter",
+     "المعيار"
+    ],
+    [
+     "Normal",
+     "الطبيعي"
+    ],
+    [
+     "Meaning",
+     "المعنى"
+    ]
    ],
    "rows": [
     [
-     "Mean Corpuscular Volume (MCV)",
-     "80–100 fL",
-     "Average red blood cell size",
-     "متوسط حجم الكرية الحمراء"
+     [
+      "**Mean Corpuscular Volume (MCV)**",
+      "**متوسط حجم الكرية**"
+     ],
+     "**80–100** fL",
+     [
+      "Average red blood cell size",
+      "متوسط حجم الكرية الحمراء"
+     ]
     ],
     [
-     "Mean Corpuscular Hemoglobin (MCH)",
-     "27–33 pg",
-     "Average hemoglobin amount per red blood cell",
-     "متوسط كمية الهيموغلوبين في الكرية الحمراء"
+     [
+      "**Mean Corpuscular Hemoglobin (MCH)**",
+      "**متوسط هيموغلوبين الكرية**"
+     ],
+     "**27–33** pg",
+     [
+      "Average hemoglobin amount per red blood cell",
+      "متوسط كمية الهيموغلوبين في الكرية الحمراء الواحدة"
+     ]
     ],
     [
-     "Mean Corpuscular Hemoglobin Concentration (MCHC)",
-     "32–36 g/dL",
-     "Average hemoglobin concentration in red blood cells",
-     "متوسط تركيز الهيموغلوبين في الكريات الحمر"
+     [
+      "**Mean Corpuscular Hemoglobin Concentration (MCHC)**",
+      "**متوسط تركيز هيموغلوبين الكرية**"
+     ],
+     "**32–36** g/dL",
+     [
+      "Average hemoglobin concentration in red blood cells",
+      "متوسط تركيز الهيموغلوبين في الكريات الحمر"
+     ]
     ]
-   ],
-   "ar_cols": [
-    3
    ],
    "key_cols": [
     0
-   ]
+   ],
+   "widths": [
+    38,
+    18,
+    44
+   ],
+   "style": "summary",
+   "label_en": "RBC indices",
+   "label_ar": "مؤشّرات الكريات الحمر"
   },
   {
    "t": "note",
    "en": "These practical values (MCV 80–100, MCHC 32–36) differ slightly from the theory lectures of Dr. Mazin (MCV 80–95, MCHC 20–35) — use each lecturer's values in their exam.",
-   "ar": "تختلف هذه القيم العملية (`MCV 80–100`، `MCHC 32–36`) قليلًا عن محاضرات النظري لدكتور مازن (`MCV 80–95`، `MCHC 20–35`) — اعتمد قيم كل تدريسي في امتحانه.",
+   "ar": "تختلف هذه القيم العملية (`MCV 80–100`، `MCHC 32–36`) قليلًا عن محاضرات النظري لدكتور مازن (`MCV 80–95`، `MCHC 20–35`)، فاعتمد قيم كل تدريسي في امتحانه.",
    "label": [
     "BIOS note",
-    "ملاحظة بايوس"
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "RBC count: male **4.7–6.1** > female **4.2–5.4** ×10⁶/µL.",
+    "**MCV** = size (fL), **MCH** = amount (pg), **MCHC** = concentration (g/dL)."
+   ],
+   "ar": [
+    "عدد الكريات الحمر: الذكر **4.7–6.1** أعلى من الأنثى **4.2–5.4** ×10⁶/مايكرولتر.",
+    "**MCV** = الحجم (fL)، و**MCH** = الكمية (pg)، و**MCHC** = التركيز (g/dL)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
    ]
   },
   {
@@ -301,32 +597,59 @@
   {
    "t": "table",
    "head": [
-    "Parameter",
-    "Newborn",
-    "Child",
-    "Adult"
+    [
+     "Parameter",
+     "المعيار"
+    ],
+    [
+     "Newborn",
+     "حديث الولادة"
+    ],
+    [
+     "Child",
+     "الطفل"
+    ],
+    [
+     "Adult",
+     "البالغ"
+    ]
    ],
    "rows": [
     [
-     "Hemoglobin (g/dL)",
+     [
+      "**Hemoglobin** (g/dL)",
+      "**الهيموغلوبين**"
+     ],
      "14–24",
      "11–14",
-     "Male: 13.5–17.5 · Female: 12–16"
+     [
+      "Male: 13.5–17.5 · Female: 12–16",
+      "الذكر: 13.5–17.5 · الأنثى: 12–16"
+     ]
     ],
     [
-     "White Blood Cell Count (/µL)",
+     [
+      "**White Blood Cell Count** (/µL)",
+      "**عدد الكريات البيض**"
+     ],
      "9,000–30,000",
      "6,000–17,000",
      "4,000–11,000"
     ],
     [
-     "Platelets (/µL)",
+     [
+      "**Platelets** (/µL)",
+      "**الصفيحات**"
+     ],
      "150,000–450,000",
      "150,000–450,000",
      "150,000–450,000"
     ],
     [
-     "Reticulocytes",
+     [
+      "**Reticulocytes**",
+      "**الخلايا الشبكية**"
+     ],
      "2.5–6.0%",
      "—",
      "0.5–1.5%"
@@ -334,6 +657,12 @@
    ],
    "key_cols": [
     0
+   ],
+   "widths": [
+    28,
+    20,
+    20,
+    32
    ],
    "style": "summary",
    "label_en": "Quick comparison",
@@ -358,6 +687,94 @@
    "label": [
     "Keep in mind",
     "تذكّر"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Normal value / Reference range**",
+     "القيمة الطبيعية / المدى المرجعي / المعدّل الطبيعي"
+    ],
+    [
+     "**Newborn**",
+     "حديث الولادة / الوليد / المولود الجديد"
+    ],
+    [
+     "**Hemoglobin (Hb)**",
+     "الهيموغلوبين / خضاب الدم / اليحمور"
+    ],
+    [
+     "**White blood cell (WBC)**",
+     "كرية بيضاء / خلية دم بيضاء / كرية دم بيضاء"
+    ],
+    [
+     "**Differential count**",
+     "العدّ التفريقي / العدّ النوعي / صيغة الدم"
+    ],
+    [
+     "**Neutrophil**",
+     "عدلة / متعادلة / خلية متعادلة"
+    ],
+    [
+     "**Lymphocyte**",
+     "لمفاوية / خلية لمفية / لمفية"
+    ],
+    [
+     "**Monocyte**",
+     "وحيدة / وحيدة النواة / خلية وحيدة"
+    ],
+    [
+     "**Eosinophil**",
+     "حمضة / يوزينية / محبّة للحمض"
+    ],
+    [
+     "**Basophil**",
+     "قعدة / محبّة للقاعدة / قاعدية"
+    ],
+    [
+     "**Platelet**",
+     "صفيحة / صفيحة دموية / خلية التخثّر"
+    ],
+    [
+     "**Reticulocyte**",
+     "خلية شبكية / كرية شبكية / كرية حمراء فتيّة"
+    ],
+    [
+     "**Red blood cell indices**",
+     "مؤشّرات الكريات الحمر / ثوابت الكريات الحمر / معاملات الكرية"
+    ],
+    [
+     "**MCV**",
+     "متوسط حجم الكرية / الحجم الكروي الوسطي"
+    ],
+    [
+     "**MCH**",
+     "متوسط هيموغلوبين الكرية / الخضاب الكروي الوسطي"
+    ],
+    [
+     "**MCHC**",
+     "متوسط تركيز هيموغلوبين الكرية / تركيز الخضاب الكروي الوسطي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
    ]
   }
  ],

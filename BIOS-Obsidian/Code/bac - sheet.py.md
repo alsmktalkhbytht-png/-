@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/bac/sheet.py
 handouts: []
-saved: 2026-10-28
+saved: 2026-10-29
 tags: [bios, code]
 ---
 # bac/sheet.py

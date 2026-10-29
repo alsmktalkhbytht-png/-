@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/im2/l2.py
 handouts: [immunology-lec2-cells-organs]
-saved: 2026-10-28
+saved: 2026-10-29
 tags: [bios, code]
 ---
 # im2/l2.py

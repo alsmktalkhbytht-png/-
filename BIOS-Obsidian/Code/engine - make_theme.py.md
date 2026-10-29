@@ -1,9 +1,9 @@
 ---
 source: bios-engine/make_theme.py
-saved: 2026-10-28
+saved: 2026-10-29
 tags: [bios, code, engine]
 ---
-# bios-engine/make_theme.py (snapshot 2026-10-28)
+# bios-engine/make_theme.py (snapshot 2026-10-29)
 
 The live file is in the repository; this note is a copy for reading in Obsidian.
 

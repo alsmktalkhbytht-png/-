@@ -1139,7 +1139,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `advtech-lec3-ria` | تقنيات متقدمة | نظري 3 |
 | `hematology-lab1-blood-collection` | أمراض الدم | عملي (جمع الدم) — رقمها بانتظار تأكيد |
 | `hematology-practical-anticoagulants` | أمراض الدم | عملي 1 |
-| `hematology-practical-normal-values` | أمراض الدم | عملي 2 |
+| `hematology-practical-normal-values` | أمراض الدم | عملي 3 |
 | `hematology-lec2…lec7-*` | أمراض الدم | نظري 2–7 |
 | `genetics-lec1-cell-cycle-mitosis` | وراثة | نظري 1 |
 | `immunology-lec1-introduction` | مناعة | نظري 1 |

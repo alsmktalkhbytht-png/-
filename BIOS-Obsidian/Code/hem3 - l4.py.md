@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/hem3/l4.py
 handouts: [hematology-lec4-hemoglobin]
-saved: 2026-10-28
+saved: 2026-10-29
 tags: [bios, code]
 ---
 # hem3/l4.py

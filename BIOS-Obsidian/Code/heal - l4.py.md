@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/heal/l4.py
 handouts: [histopathology-lec4-healing-regeneration]
-saved: 2026-10-28
+saved: 2026-10-29
 tags: [bios, code]
 ---
 # heal/l4.py
