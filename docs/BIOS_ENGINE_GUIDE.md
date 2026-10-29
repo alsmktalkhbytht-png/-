@@ -1145,6 +1145,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `genetics-lec1-cell-cycle-mitosis` | وراثة | نظري 1 |
 | `genetics-lab1-mitosis` | وراثة | عملي 1 |
 | `genetics-lab2-meiosis` | وراثة | عملي 2 |
+| `genetics-lab3-medical-genetics` | وراثة | عملي 3 |
 | `immunology-lec1-introduction` | مناعة | نظري 1 |
 | `immunology-lec2-cells-organs` | مناعة | نظري 2 |
 | `immunology-lec3-antigens` | مناعة | نظري 3 |
