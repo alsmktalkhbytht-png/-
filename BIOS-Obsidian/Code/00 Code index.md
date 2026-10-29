@@ -31,6 +31,7 @@
 - [[Code/hem3 - l7.py|hem3/l7.py]] → hematology-lec7-chronic-sideroblastic
 - [[Code/his - l1.py|his/l1.py]] → histopathology-lab1-lab-safety
 - [[Code/his - l2.py|his/l2.py]] → histopathology-lab2-samples
+- [[Code/hl10 - l10.py|hl10/l10.py]] → hematology-lec10-membrane-defects
 - [[Code/hl3 - norm3.py|hl3/norm3.py]] → hematology-practical-normal-values
 - [[Code/hl6 - l6new.py|hl6/l6new.py]] → hematology-lec6-iron-deficiency
 - [[Code/hl7 - l7new.py|hl7/l7new.py]] → hematology-lec7-chronic-sideroblastic
