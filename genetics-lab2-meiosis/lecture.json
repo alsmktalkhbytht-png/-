@@ -1,0 +1,1405 @@
+{
+ "meta": {
+  "subject_en": "Human Genetics",
+  "subject_ar": "الوراثة البشرية",
+  "short_ar": "وراثة",
+  "unit_label": "LAB",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة",
+  "instructor": "م.م. نور م. فاضل",
+  "unit_en": "Lab 2",
+  "unit_ar": "العملي 2",
+  "unit_no": "2",
+  "title_en": "Meiosis",
+  "title_ar": "الانقسام الاختزالي"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Meiosis",
+   "ar": "الانقسام الاختزالي"
+  },
+  {
+   "t": "card",
+   "en": "Meiosis is the division of a **germ cell (diploid)** involving **two fissions of the nucleus (Meiosis I and Meiosis II)**. and giving rise to **four gametes (haploid sex cells)**, each possessing **half the number of chromosomes** of the original cell.",
+   "ar": "الانقسام الاختزالي هو انقسام **خلية جرثومية (ثنائية المجموعة)** يتضمّن **انشطارين للنواة (الاختزالي الأول والاختزالي الثاني)**، وينتج عنه **أربعة أمشاج (خلايا جنسية أحادية المجموعة)**، يحمل كل منها **نصف عدد كروموسومات** الخلية الأصلية."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Meiosis Is a **Special Type of Cell Division** That Occurs in **Sexually Reproducing Organisms** .",
+    "Meiosis of **diploid cells** produces **haploid daughter cells**, which may function as **gametes**.",
+    "Gametes undergo **fertilization**, **restoring the diploid number** of chromosomes in the **zygote**"
+   ],
+   "list_ar": [
+    "الانقسام الاختزالي **نوع خاص من الانقسام الخلوي** يحدث في **الكائنات التي تتكاثر جنسيًا**.",
+    "ينتج الانقسام الاختزالي للخلايا **ثنائية المجموعة** **خلايا بنوية أحادية المجموعة** قد تعمل **أمشاجًا**.",
+    "وتخضع الأمشاج لـ**الإخصاب** فـ**يُستعاد العدد الثنائي** للكروموسومات في **البيضة المخصّبة (الزايكوت)**"
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Diploid germ cell (2n)",
+     "ar": "خلية جرثومية ثنائية (2n)"
+    },
+    {
+     "en": "Meiosis I + Meiosis II",
+     "ar": "الاختزالي الأول + الثاني"
+    },
+    {
+     "en": "4 haploid gametes (n)",
+     "ar": "4 أمشاج أحادية (n)"
+    },
+    {
+     "en": "Fertilization",
+     "ar": "الإخصاب"
+    },
+    {
+     "en": "Diploid zygote (2n)",
+     "ar": "زايكوت ثنائي (2n)"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "The stages of meiosis",
+   "ar": "مراحل الانقسام الاختزالي"
+  },
+  {
+   "t": "card",
+   "en": "The stages of meiosis can be broken down into **two main stages**,",
+   "ar": "يمكن تقسيم مراحل الانقسام الاختزالي إلى **مرحلتين رئيستين**،"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Main stage",
+     "المرحلة الرئيسة"
+    ],
+    [
+     "Sub stages",
+     "المراحل الفرعية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Meiosis I**",
+      "**الاختزالي الأول**"
+     ],
+     [
+      "Prophase I, Metaphase I, Anaphase I and Telophase I",
+      "التمهيدي I، والاستوائي I، والانفصالي I، والنهائي I"
+     ]
+    ],
+    [
+     [
+      "**Meiosis II**",
+      "**الاختزالي الثاني**"
+     ],
+     [
+      "Prophase II, Metaphase II, Anaphase II and Telophase II",
+      "التمهيدي II، والاستوائي II، والانفصالي II، والنهائي II"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    28,
+    72
+   ],
+   "style": "summary",
+   "label_en": "4 + 4 sub stages",
+   "label_ar": "4 + 4 مراحل فرعية"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Meiosis: **1 diploid cell → 4 haploid gametes**.",
+    "**Two** nuclear divisions (I and II), each with **4 sub stages**.",
+    "Fertilization brings back **2n** in the zygote."
+   ],
+   "ar": [
+    "الاختزالي: **خلية ثنائية واحدة ← 4 أمشاج أحادية**.",
+    "انقسامان **اثنان** للنواة (I وII)، لكل منهما **4 مراحل فرعية**.",
+    "الإخصاب يعيد **2n** في الزايكوت."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Meiosis I — Prophase I",
+   "ar": "الاختزالي الأول — التمهيدي I"
+  },
+  {
+   "t": "card",
+   "en": "**Prophase I** - **most of the significant processes** of Meiosis occur during Prophase I",
+   "ar": "**التمهيدي I**: تحدث **معظم العمليات المهمة** في الانقسام الاختزالي أثناء التمهيدي I"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The **nuclear membrane** begins to dissolve",
+    "The **centrioles** form by dividing and move toward the poles"
+   ],
+   "list_ar": [
+    "يبدأ **الغشاء النووي** بالذوبان",
+    "تتكوّن **المريكزات** بالانقسام وتتحرّك نحو القطبين"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Sub stage",
+     "المرحلة الفرعية"
+    ],
+    [
+     "Event",
+     "الحدث"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Leptotene**",
+      "**الطور القلادي (اللبتوتين)**"
+     ],
+     [
+      "chromosomes start to condense.",
+      "تبدأ الكروموسومات بالتكثّف."
+     ]
+    ],
+    [
+     [
+      "**Zygotene**",
+      "**الطور التزاوجي (الزايكوتين)**"
+     ],
+     [
+      "homologous chromosomes become closely associated (synapsis) to form pairs of chromosomes (bivalents) consisting of four chromatids (tetrads).",
+      "تتقارب الكروموسومات المتماثلة بشدّة (التشابك) لتكوّن أزواجًا (ثنائيات) تتكوّن من أربعة كروماتيدات (رباعيات)."
+     ]
+    ],
+    [
+     [
+      "**Pachytene**",
+      "**الطور الضام (الباكيتين)**"
+     ],
+     [
+      "crossing over between pairs of homologous chromosomes to form chiasmata (sing. chiasma).",
+      "العبور بين أزواج الكروموسومات المتماثلة لتكوين التصالبات (المفرد: تصالب)."
+     ]
+    ],
+    [
+     [
+      "**Diplotene**",
+      "**الطور الانفراجي (الدبلوتين)**"
+     ],
+     [
+      "homologous chromosomes start to separate but remain attached by chiasmata.",
+      "تبدأ الكروموسومات المتماثلة بالانفصال لكنها تبقى مرتبطة بالتصالبات."
+     ]
+    ],
+    [
+     [
+      "**Diakinesis**",
+      "**الطور التشتّتي (الدايكاينيسس)**"
+     ],
+     [
+      "homologous chromosomes continue to separate, and chiasmata move to the ends of the chromosomes .",
+      "يستمر انفصال الكروموسومات المتماثلة، وتتحرّك التصالبات إلى نهايات الكروموسومات."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    70
+   ],
+   "style": "summary",
+   "label_en": "5 sub stages of prophase I",
+   "label_ar": "5 مراحل للتمهيدي I"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Leptotene: condense",
+     "ar": "اللبتوتين: تكثّف"
+    },
+    {
+     "en": "Zygotene: synapsis",
+     "ar": "الزايكوتين: تشابك"
+    },
+    {
+     "en": "Pachytene: crossing over",
+     "ar": "الباكيتين: عبور"
+    },
+    {
+     "en": "Diplotene: separate",
+     "ar": "الدبلوتين: انفصال"
+    },
+    {
+     "en": "Diakinesis: chiasmata to ends",
+     "ar": "الدايكاينيسس: التصالبات للنهايات"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Definitions",
+   "ar": "تعريفات"
+  },
+  {
+   "t": "card",
+   "en": "**synapsis:** the process, Which the replicated homologous pair of chromosomes comes together In prophase I of meiosis.",
+   "ar": "**التشابك:** العملية التي يجتمع فيها زوج الكروموسومات المتماثلة المتضاعفة في التمهيدي I من الانقسام الاختزالي."
+  },
+  {
+   "t": "card",
+   "en": "**crossing over** : The **reciprocal exchange of genetic material** between **non sister chromatids** during synapsis in meiosis I. the resultant chromosomes are **neither entirely maternal nor entirely paternal**, but contain genes from both parents.",
+   "ar": "**العبور:** **التبادل المتقابل للمادة الوراثية** بين **الكروماتيدات غير الشقيقة** أثناء التشابك في الاختزالي الأول، فتكون الكروموسومات الناتجة **لا أمّية كليًا ولا أبوية كليًا**، بل تحمل جينات من الأبوين."
+  },
+  {
+   "t": "figure",
+   "src": "assets/crossing-over.png",
+   "en": "Crossing over during meiosis: non-sister chromatids exchange segments (X, Y, Z / x, y, z)",
+   "ar": "العبور أثناء الانقسام الاختزالي: تتبادل الكروماتيدات غير الشقيقة قطعًا (X وY وZ / x وy وz)",
+   "h": "58mm"
+  },
+  {
+   "t": "h2",
+   "en": "The results of Synapsis and crossing over that occur only in meiosis",
+   "ar": "نتائج التشابك والعبور التي تحدث في الانقسام الاختزالي فقط"
+  },
+  {
+   "t": "rule",
+   "en": "Genetic material from the homologous chromosomes is **randomly swapped**",
+   "ar": "تُتبادل المادة الوراثية بين الكروموسومات المتماثلة **عشوائيًا**"
+  },
+  {
+   "t": "rule",
+   "en": "This creates **four unique chromatids**",
+   "ar": "وهذا يكوّن **أربعة كروماتيدات فريدة**"
+  },
+  {
+   "t": "rule",
+   "en": "Since each chromatid is unique, the overall **genetic diversity of the gametes is greatly increased**.",
+   "ar": "وبما أن كل كروماتيد فريد، **يزداد التنوّع الوراثي للأمشاج** كثيرًا."
+  },
+  {
+   "t": "note",
+   "en": [
+    "Prophase I = **most important** phase; 5 sub stages: **L-Z-P-D-D**.",
+    "**Synapsis** (zygotene) → bivalents / **tetrads**.",
+    "**Crossing over** (pachytene) between **non-sister** chromatids → **chiasmata**.",
+    "Result: 4 unique chromatids → **genetic diversity ↑**."
+   ],
+   "ar": [
+    "التمهيدي I = **أهم** طور؛ وله 5 مراحل: **L-Z-P-D-D**.",
+    "**التشابك** (الزايكوتين) ← ثنائيات / **رباعيات**.",
+    "**العبور** (الباكيتين) بين كروماتيدات **غير شقيقة** ← **تصالبات**.",
+    "النتيجة: 4 كروماتيدات فريدة ← **↑ التنوّع الوراثي**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Meiosis I — Metaphase I to Telophase I",
+   "ar": "الاختزالي الأول — من الاستوائي I إلى النهائي I"
+  },
+  {
+   "t": "h2",
+   "en": "Metaphase I",
+   "ar": "الاستوائي I"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Microtubules** grow from the centrioles and attach to the centromeres",
+    "The **tetrads line up** along the cell equator ."
+   ],
+   "list_ar": [
+    "تنمو **الأنيبيبات الدقيقة** من المريكزات وترتبط بالسنتروميرات",
+    "**تصطفّ الرباعيات** على طول خط استواء الخلية."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Anaphase I",
+   "ar": "الانفصالي I"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The centromeres break and **homologous chromosomes separate** (note that the **sister chromatids are still attached**)",
+    "**Cytokinesis begins** ."
+   ],
+   "list_ar": [
+    "تنكسر السنتروميرات و**تنفصل الكروموسومات المتماثلة** (لاحظ أن **الكروماتيدات الشقيقة ما زالت مرتبطة**)",
+    "**يبدأ انقسام السايتوبلازم**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Telophase I",
+   "ar": "النهائي I"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The chromosomes **may decondense** (depends on species)",
+    "Cytokinesis reaches completion, creating **two haploid daughter cells**."
+   ],
+   "list_ar": [
+    "**قد تنفكّ** الكروموسومات (بحسب النوع)",
+    "يكتمل انقسام السايتوبلازم مكوّنًا **خليتين بنويتين أحاديتي المجموعة**."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Metaphase I: **tetrads** on the equator.",
+    "Anaphase I: **homologues** separate; sister chromatids **stay together**.",
+    "Telophase I: **2 haploid cells**."
+   ],
+   "ar": [
+    "الاستوائي I: **الرباعيات** على خط الاستواء.",
+    "الانفصالي I: تنفصل **المتماثلات**؛ والكروماتيدات الشقيقة **تبقى معًا**.",
+    "النهائي I: **خليتان أحاديتان**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Meiosis II",
+   "ar": "الاختزالي الثاني"
+  },
+  {
+   "t": "h2",
+   "en": "Prophase II",
+   "ar": "التمهيدي II"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Centrioles** form and move toward the poles",
+    "The **nuclear membrane dissolves**."
+   ],
+   "list_ar": [
+    "تتكوّن **المريكزات** وتتحرّك نحو القطبين",
+    "**يذوب الغشاء النووي**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Metaphase II",
+   "ar": "الاستوائي II"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Microtubules grow from the centrioles and attach to the centromeres",
+    "The **sister chromatids line up** along the cell Equator."
+   ],
+   "list_ar": [
+    "تنمو الأنيبيبات الدقيقة من المريكزات وترتبط بالسنتروميرات",
+    "**تصطفّ الكروماتيدات الشقيقة** على طول خط استواء الخلية."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Anaphase II",
+   "ar": "الانفصالي II"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The centromeres break and **sister chromatids separate**",
+    "**Cytokinesis begins** ."
+   ],
+   "list_ar": [
+    "تنكسر السنتروميرات و**تنفصل الكروماتيدات الشقيقة**",
+    "**يبدأ انقسام السايتوبلازم**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Telophase II",
+   "ar": "النهائي II"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The chromosomes may decondense (depends on species)",
+    "Cytokinesis reaches completion creating **four haploid daughter cells** ."
+   ],
+   "list_ar": [
+    "قد تنفكّ الكروموسومات (بحسب النوع)",
+    "يكتمل انقسام السايتوبلازم مكوّنًا **أربع خلايا بنوية أحادية المجموعة**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "The events of Meiosis II are **analogous to those of a mitotic division**, although the **number of chromosomes involved has been halved**.",
+   "ar": "أحداث الاختزالي الثاني **مشابهة لأحداث الانقسام الخيطي**، مع أن **عدد الكروموسومات المشاركة قد انخفض إلى النصف**."
+  },
+  {
+   "t": "figure",
+   "src": "assets/meiosis-stages.png",
+   "en": "Meiosis I and meiosis II: from interphase to 4 haploid daughter cells",
+   "ar": "الاختزالي الأول والثاني: من الطور البيني إلى 4 خلايا بنوية أحادية",
+   "h": "110mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label in the figure",
+     "التسمية في الشكل"
+    ],
+    [
+     "Arabic",
+     "بالعربي"
+    ]
+   ],
+   "rows": [
+    [
+     "**Prophase I — Synapsis and crossing over occur.**",
+     "التمهيدي I — يحدث التشابك والعبور."
+    ],
+    [
+     "**Tetrad (paired homologous chromosomes with two chromatids each)**",
+     "رباعي (كروموسومان متماثلان مقترنان لكل منهما كروماتيدان)"
+    ],
+    [
+     "**Metaphase I — Tetrads line up on the metaphase plate.**",
+     "الاستوائي I — تصطفّ الرباعيات على الصفيحة الاستوائية."
+    ],
+    [
+     "**Anaphase I — Homologous pairs separate.**",
+     "الانفصالي I — تنفصل الأزواج المتماثلة."
+    ],
+    [
+     "**Metaphase II — Chromosomes line up on the metaphase plate.**",
+     "الاستوائي II — تصطفّ الكروموسومات على الصفيحة الاستوائية."
+    ],
+    [
+     "**Anaphase II — Sister chromatids separate.**",
+     "الانفصالي II — تنفصل الكروماتيدات الشقيقة."
+    ],
+    [
+     "**4 haploid daughter cells are formed, each having only one chromosome of each homologous pair.**",
+     "تتكوّن 4 خلايا بنوية أحادية، لكل منها كروموسوم واحد فقط من كل زوج متماثل."
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    55,
+    45
+   ],
+   "label_en": "Figure labels",
+   "label_ar": "تسميات الشكل"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Meiosis II = **like mitosis** but with **half** the chromosomes.",
+    "Anaphase II: **sister chromatids** separate.",
+    "End: **4 haploid cells**."
+   ],
+   "ar": [
+    "الاختزالي الثاني = **مثل الخيطي** لكن بـ**نصف** الكروموسومات.",
+    "الانفصالي II: تنفصل **الكروماتيدات الشقيقة**.",
+    "النهاية: **4 خلايا أحادية**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Meiosis I vs Meiosis II",
+   "ar": "الاختزالي الأول مقابل الثاني"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Compare",
+     "مقارنة"
+    ],
+    [
+     "Meiosis I",
+     "الاختزالي الأول"
+    ],
+    [
+     "Meiosis II",
+     "الاختزالي الثاني"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Metaphase: what lines up?**",
+      "**الاستوائي: ماذا يصطفّ؟**"
+     ],
+     [
+      "Tetrads",
+      "الرباعيات"
+     ],
+     [
+      "Sister chromatids (chromosomes)",
+      "الكروماتيدات الشقيقة (الكروموسومات)"
+     ]
+    ],
+    [
+     [
+      "**Anaphase: what separates?**",
+      "**الانفصالي: ماذا ينفصل؟**"
+     ],
+     [
+      "Homologous chromosomes",
+      "الكروموسومات المتماثلة"
+     ],
+     [
+      "Sister chromatids",
+      "الكروماتيدات الشقيقة"
+     ]
+    ],
+    [
+     [
+      "**Synapsis and crossing over**",
+      "**التشابك والعبور**"
+     ],
+     [
+      "Yes (prophase I)",
+      "نعم (التمهيدي I)"
+     ],
+     [
+      "No",
+      "لا"
+     ]
+    ],
+    [
+     [
+      "**Result**",
+      "**الناتج**"
+     ],
+     [
+      "2 haploid cells",
+      "خليتان أحاديتان"
+     ],
+     [
+      "4 haploid cells",
+      "4 خلايا أحادية"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    34,
+    33,
+    33
+   ],
+   "style": "summary",
+   "label_en": "I vs II",
+   "label_ar": "I مقابل II"
+  },
+  {
+   "t": "note",
+   "en": "This comparison table is put together by BIOS from the lab.",
+   "ar": "جدول المقارنة هذا جمعته BIOS من المحاضرة.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Meiosis**",
+     "الانقسام الاختزالي / الانقسام المنصّف"
+    ],
+    [
+     "**Germ cell**",
+     "خلية جرثومية / خلية جنسية أولية"
+    ],
+    [
+     "**Gamete**",
+     "مشيج / كميت / خلية جنسية"
+    ],
+    [
+     "**Fertilization**",
+     "الإخصاب / التلقيح"
+    ],
+    [
+     "**Zygote**",
+     "الزايكوت / البيضة المخصّبة / اللاقحة"
+    ],
+    [
+     "**Leptotene**",
+     "اللبتوتين / الطور القلادي / الخيطي الرفيع"
+    ],
+    [
+     "**Zygotene**",
+     "الزايكوتين / الطور التزاوجي"
+    ],
+    [
+     "**Pachytene**",
+     "الباكيتين / الطور الضام / الثخين"
+    ],
+    [
+     "**Diplotene**",
+     "الدبلوتين / الطور الانفراجي"
+    ],
+    [
+     "**Diakinesis**",
+     "الدايكاينيسس / الطور التشتّتي"
+    ],
+    [
+     "**Synapsis**",
+     "التشابك / الاقتران"
+    ],
+    [
+     "**Bivalent / Tetrad**",
+     "ثنائي (زوج) / رباعي"
+    ],
+    [
+     "**Crossing over**",
+     "العبور / التصالب الوراثي / تبادل القطع"
+    ],
+    [
+     "**Chiasma (pl. chiasmata)**",
+     "تصالب / نقطة التصالب (تصالبات)"
+    ],
+    [
+     "**Non-sister chromatids**",
+     "كروماتيدات غير شقيقة"
+    ],
+    [
+     "**Centrioles**",
+     "المريكزات / الجسيمات المركزية"
+    ],
+    [
+     "**Genetic diversity**",
+     "التنوّع الوراثي / التباين الوراثي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Definition and stages",
+    "topic_ar": "التعريف والمراحل"
+   },
+   {
+    "en": "Meiosis gives rise to:",
+    "ar": "ينتج عن الانقسام الاختزالي:",
+    "options": [
+     [
+      "Two diploid cells",
+      "خليتان ثنائيتان"
+     ],
+     [
+      "Four haploid gametes",
+      "أربعة أمشاج أحادية"
+     ],
+     [
+      "One zygote",
+      "زايكوت واحد"
+     ],
+     [
+      "Four diploid cells",
+      "أربع خلايا ثنائية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Meiosis occurs in:",
+    "ar": "يحدث الانقسام الاختزالي في:",
+    "options": [
+     [
+      "Red blood cells",
+      "الكريات الحمر"
+     ],
+     [
+      "Bacteria only",
+      "البكتيريا فقط"
+     ],
+     [
+      "All somatic cells",
+      "كل الخلايا الجسمية"
+     ],
+     [
+      "Sexually reproducing organisms",
+      "الكائنات التي تتكاثر جنسيًا"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The diploid number is restored in the zygote by:",
+    "ar": "يُستعاد العدد الثنائي في الزايكوت بواسطة:",
+    "options": [
+     [
+      "Mitosis",
+      "الانقسام الخيطي"
+     ],
+     [
+      "Crossing over",
+      "العبور"
+     ],
+     [
+      "Fertilization",
+      "الإخصاب"
+     ],
+     [
+      "Synapsis",
+      "التشابك"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Meiosis involves how many nuclear fissions?",
+    "ar": "كم انشطارًا نوويًا يتضمّن الانقسام الاختزالي؟",
+    "options": [
+     [
+      "Two",
+      "اثنان"
+     ],
+     [
+      "Three",
+      "ثلاثة"
+     ],
+     [
+      "Four",
+      "أربعة"
+     ],
+     [
+      "One",
+      "واحد"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Prophase I",
+    "topic_ar": "التمهيدي I"
+   },
+   {
+    "en": "Most of the significant processes of meiosis occur in:",
+    "ar": "تحدث معظم العمليات المهمة في الاختزالي في:",
+    "options": [
+     [
+      "Prophase I",
+      "التمهيدي I"
+     ],
+     [
+      "Metaphase II",
+      "الاستوائي II"
+     ],
+     [
+      "Anaphase I",
+      "الانفصالي I"
+     ],
+     [
+      "Telophase II",
+      "النهائي II"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Chromosomes start to condense in:",
+    "ar": "تبدأ الكروموسومات بالتكثّف في:",
+    "options": [
+     [
+      "Zygotene",
+      "الزايكوتين"
+     ],
+     [
+      "Leptotene",
+      "اللبتوتين"
+     ],
+     [
+      "Diplotene",
+      "الدبلوتين"
+     ],
+     [
+      "Diakinesis",
+      "الدايكاينيسس"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Synapsis forming bivalents (tetrads) occurs in:",
+    "ar": "يحدث التشابك المكوّن للثنائيات (الرباعيات) في:",
+    "options": [
+     [
+      "Leptotene",
+      "اللبتوتين"
+     ],
+     [
+      "Pachytene",
+      "الباكيتين"
+     ],
+     [
+      "Diakinesis",
+      "الدايكاينيسس"
+     ],
+     [
+      "Zygotene",
+      "الزايكوتين"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Crossing over to form chiasmata occurs in:",
+    "ar": "يحدث العبور المكوّن للتصالبات في:",
+    "options": [
+     [
+      "Diplotene",
+      "الدبلوتين"
+     ],
+     [
+      "Leptotene",
+      "اللبتوتين"
+     ],
+     [
+      "Pachytene",
+      "الباكيتين"
+     ],
+     [
+      "Zygotene",
+      "الزايكوتين"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Homologous chromosomes start to separate but remain attached by chiasmata in:",
+    "ar": "تبدأ المتماثلات بالانفصال وتبقى مرتبطة بالتصالبات في:",
+    "options": [
+     [
+      "Pachytene",
+      "الباكيتين"
+     ],
+     [
+      "Diplotene",
+      "الدبلوتين"
+     ],
+     [
+      "Leptotene",
+      "اللبتوتين"
+     ],
+     [
+      "Metaphase I",
+      "الاستوائي I"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Chiasmata move to the ends of the chromosomes in:",
+    "ar": "تتحرّك التصالبات إلى نهايات الكروموسومات في:",
+    "options": [
+     [
+      "Diakinesis",
+      "الدايكاينيسس"
+     ],
+     [
+      "Zygotene",
+      "الزايكوتين"
+     ],
+     [
+      "Leptotene",
+      "اللبتوتين"
+     ],
+     [
+      "Anaphase II",
+      "الانفصالي II"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "A tetrad consists of:",
+    "ar": "يتكوّن الرباعي من:",
+    "options": [
+     [
+      "Two chromatids",
+      "كروماتيدين"
+     ],
+     [
+      "Eight chromatids",
+      "ثمانية كروماتيدات"
+     ],
+     [
+      "One chromosome",
+      "كروموسوم واحد"
+     ],
+     [
+      "Four chromatids",
+      "أربعة كروماتيدات"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Crossing over is an exchange of genetic material between:",
+    "ar": "العبور تبادل للمادة الوراثية بين:",
+    "options": [
+     [
+      "Sister chromatids",
+      "الكروماتيدات الشقيقة"
+     ],
+     [
+      "Two gametes",
+      "مشيجين"
+     ],
+     [
+      "Non sister chromatids",
+      "الكروماتيدات غير الشقيقة"
+     ],
+     [
+      "Mitochondria",
+      "المايتوكوندريا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "After crossing over, the resultant chromosomes are:",
+    "ar": "بعد العبور تكون الكروموسومات الناتجة:",
+    "options": [
+     [
+      "Neither entirely maternal nor entirely paternal",
+      "لا أمّية كليًا ولا أبوية كليًا"
+     ],
+     [
+      "Entirely maternal",
+      "أمّية كليًا"
+     ],
+     [
+      "Entirely paternal",
+      "أبوية كليًا"
+     ],
+     [
+      "Identical to the parent cell",
+      "مطابقة للخلية الأم"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The main result of synapsis and crossing over is:",
+    "ar": "النتيجة الأساسية للتشابك والعبور:",
+    "options": [
+     [
+      "Fewer gametes",
+      "أمشاج أقل"
+     ],
+     [
+      "Diploid gametes",
+      "أمشاج ثنائية"
+     ],
+     [
+      "Increased genetic diversity of gametes",
+      "زيادة التنوّع الوراثي للأمشاج"
+     ],
+     [
+      "No change",
+      "لا تغيّر"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Meiosis I and II",
+    "topic_ar": "الاختزالي الأول والثاني"
+   },
+   {
+    "en": "In metaphase I, the structures that line up on the equator are:",
+    "ar": "في الاستوائي I تصطفّ على خط الاستواء:",
+    "options": [
+     [
+      "Single chromatids",
+      "كروماتيدات مفردة"
+     ],
+     [
+      "Tetrads",
+      "الرباعيات"
+     ],
+     [
+      "Sister chromatids",
+      "كروماتيدات شقيقة"
+     ],
+     [
+      "Gametes",
+      "الأمشاج"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In anaphase I:",
+    "ar": "في الانفصالي I:",
+    "options": [
+     [
+      "Sister chromatids separate",
+      "تنفصل الكروماتيدات الشقيقة"
+     ],
+     [
+      "The nuclear membrane reforms",
+      "يُعاد الغشاء النووي"
+     ],
+     [
+      "Synapsis occurs",
+      "يحدث التشابك"
+     ],
+     [
+      "Homologous chromosomes separate; sister chromatids stay attached",
+      "تنفصل المتماثلات وتبقى الكروماتيدات الشقيقة مرتبطة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Telophase I ends with:",
+    "ar": "ينتهي النهائي I بـ:",
+    "options": [
+     [
+      "One diploid cell",
+      "خلية ثنائية واحدة"
+     ],
+     [
+      "Four haploid cells",
+      "أربع خلايا أحادية"
+     ],
+     [
+      "Two haploid daughter cells",
+      "خليتين بنويتين أحاديتين"
+     ],
+     [
+      "A zygote",
+      "زايكوت"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In anaphase II:",
+    "ar": "في الانفصالي II:",
+    "options": [
+     [
+      "Sister chromatids separate",
+      "تنفصل الكروماتيدات الشقيقة"
+     ],
+     [
+      "Homologues separate",
+      "تنفصل المتماثلات"
+     ],
+     [
+      "Crossing over occurs",
+      "يحدث العبور"
+     ],
+     [
+      "Tetrads form",
+      "تتكوّن الرباعيات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Meiosis II is analogous to:",
+    "ar": "يشبه الاختزالي الثاني:",
+    "options": [
+     [
+      "Fertilization",
+      "الإخصاب"
+     ],
+     [
+      "A mitotic division",
+      "الانقسام الخيطي"
+     ],
+     [
+      "Interphase",
+      "الطور البيني"
+     ],
+     [
+      "Prophase I",
+      "التمهيدي I"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Telophase II ends with:",
+    "ar": "ينتهي النهائي II بـ:",
+    "options": [
+     [
+      "Two diploid cells",
+      "خليتين ثنائيتين"
+     ],
+     [
+      "One gamete",
+      "مشيج واحد"
+     ],
+     [
+      "Two haploid cells",
+      "خليتين أحاديتين"
+     ],
+     [
+      "Four haploid daughter cells",
+      "أربع خلايا بنوية أحادية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "This figure shows:",
+    "ar": "يوضّح هذا الشكل:",
+    "options": [
+     [
+      "Fertilization",
+      "الإخصاب"
+     ],
+     [
+      "Cytokinesis",
+      "انقسام السايتوبلازم"
+     ],
+     [
+      "DNA replication",
+      "تضاعف DNA"
+     ],
+     [
+      "Crossing over during meiosis",
+      "العبور أثناء الانقسام الاختزالي"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/crossing-over.png",
+    "img_h": "36mm"
+   },
+   {
+    "en": "In this figure, the stage where homologous pairs separate is:",
+    "ar": "في هذا الشكل، الطور الذي تنفصل فيه الأزواج المتماثلة:",
+    "options": [
+     [
+      "Anaphase II",
+      "الانفصالي II"
+     ],
+     [
+      "Anaphase I",
+      "الانفصالي I"
+     ],
+     [
+      "Metaphase II",
+      "الاستوائي II"
+     ],
+     [
+      "Telophase II",
+      "النهائي II"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/meiosis-stages.png",
+    "img_h": "60mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Meiosis is the division of a diploid germ cell.",
+    "ar": "الانقسام الاختزالي انقسام لخلية جرثومية ثنائية.",
+    "answer": "T"
+   },
+   {
+    "en": "Each gamete has the same number of chromosomes as the original cell.",
+    "ar": "يحمل كل مشيج عدد كروموسومات الخلية الأصلية نفسه.",
+    "answer": "F"
+   },
+   {
+    "en": "Meiosis I and meiosis II each have four sub stages.",
+    "ar": "لكل من الاختزالي الأول والثاني أربع مراحل فرعية.",
+    "answer": "T"
+   },
+   {
+    "en": "The centrioles move toward the poles in prophase I.",
+    "ar": "تتحرّك المريكزات نحو القطبين في التمهيدي I.",
+    "answer": "T"
+   },
+   {
+    "en": "Crossing over occurs in zygotene.",
+    "ar": "يحدث العبور في الزايكوتين.",
+    "answer": "F"
+   },
+   {
+    "en": "Synapsis and crossing over occur only in meiosis.",
+    "ar": "يحدث التشابك والعبور في الانقسام الاختزالي فقط.",
+    "answer": "T"
+   },
+   {
+    "en": "Sister chromatids separate in anaphase I.",
+    "ar": "تنفصل الكروماتيدات الشقيقة في الانفصالي I.",
+    "answer": "F"
+   },
+   {
+    "en": "Cytokinesis begins in anaphase.",
+    "ar": "يبدأ انقسام السايتوبلازم في الطور الانفصالي.",
+    "answer": "T"
+   },
+   {
+    "en": "Chromosome decondensation in telophase depends on species.",
+    "ar": "يعتمد انفكاك الكروموسومات في النهائي على النوع.",
+    "answer": "T"
+   },
+   {
+    "en": "Meiosis II involves the full diploid number of chromosomes.",
+    "ar": "يتضمّن الاختزالي الثاني العدد الثنائي الكامل للكروموسومات.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Anaphase I vs anaphase II",
+    "ar": "الانفصالي I مقابل الانفصالي II",
+    "answer_en": "Anaphase I: homologous chromosomes separate (sister chromatids still attached). Anaphase II: sister chromatids separate.",
+    "answer_ar": "الانفصالي I: تنفصل المتماثلات (والكروماتيدات الشقيقة ما زالت مرتبطة). الانفصالي II: تنفصل الكروماتيدات الشقيقة."
+   },
+   {
+    "en": "Metaphase I vs metaphase II",
+    "ar": "الاستوائي I مقابل الاستوائي II",
+    "answer_en": "Metaphase I: tetrads line up. Metaphase II: sister chromatids (single chromosomes) line up.",
+    "answer_ar": "الاستوائي I: تصطفّ الرباعيات. الاستوائي II: تصطفّ الكروماتيدات الشقيقة (كروموسومات مفردة)."
+   },
+   {
+    "en": "Zygotene vs pachytene",
+    "ar": "الزايكوتين مقابل الباكيتين",
+    "answer_en": "Zygotene = synapsis (bivalents/tetrads). Pachytene = crossing over (chiasmata).",
+    "answer_ar": "الزايكوتين = التشابك (ثنائيات/رباعيات). الباكيتين = العبور (تصالبات)."
+   },
+   {
+    "en": "Non-sister, not sister",
+    "ar": "غير الشقيقة وليس الشقيقة",
+    "answer_en": "Crossing over is between NON-sister chromatids of homologous chromosomes.",
+    "answer_ar": "العبور يكون بين الكروماتيدات غير الشقيقة للكروموسومات المتماثلة."
+   },
+   {
+    "en": "Two cells or four?",
+    "ar": "خليتان أم أربع؟",
+    "answer_en": "Telophase I → 2 haploid cells; telophase II → 4 haploid cells.",
+    "answer_ar": "النهائي I ← خليتان أحاديتان؛ النهائي II ← 4 خلايا أحادية."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define meiosis and state its importance.",
+    "ar": "عرّف الانقسام الاختزالي وبيّن أهميته.",
+    "answer_en": "Division of a diploid germ cell with two nuclear fissions (meiosis I and II) giving four haploid gametes with half the chromosomes; it occurs in sexually reproducing organisms, and fertilization restores the diploid number in the zygote.",
+    "answer_ar": "انقسام خلية جرثومية ثنائية بانشطارين نوويين (I وII) ينتج أربعة أمشاج أحادية بنصف الكروموسومات؛ يحدث في الكائنات التي تتكاثر جنسيًا، ويعيد الإخصاب العدد الثنائي في الزايكوت."
+   },
+   {
+    "en": "List the sub stages of prophase I and the event of each.",
+    "ar": "عدّد المراحل الفرعية للتمهيدي I وحدث كل منها.",
+    "answer_en": "Leptotene: chromosomes condense; zygotene: synapsis forms bivalents (tetrads); pachytene: crossing over forms chiasmata; diplotene: homologues start to separate, held by chiasmata; diakinesis: separation continues, chiasmata move to the ends.",
+    "answer_ar": "اللبتوتين: تكثّف؛ الزايكوتين: تشابك يكوّن ثنائيات (رباعيات)؛ الباكيتين: عبور يكوّن تصالبات؛ الدبلوتين: تبدأ المتماثلات بالانفصال مع بقاء التصالبات؛ الدايكاينيسس: يستمر الانفصال وتتحرّك التصالبات للنهايات."
+   },
+   {
+    "en": "Define synapsis and crossing over.",
+    "ar": "عرّف التشابك والعبور.",
+    "answer_en": "Synapsis: the replicated homologous pair comes together in prophase I. Crossing over: reciprocal exchange of genetic material between non-sister chromatids during synapsis, so chromosomes carry genes from both parents.",
+    "answer_ar": "التشابك: اجتماع زوج المتماثلات المتضاعفة في التمهيدي I. العبور: تبادل متقابل للمادة الوراثية بين الكروماتيدات غير الشقيقة أثناء التشابك، فتحمل الكروموسومات جينات من الأبوين."
+   },
+   {
+    "en": "What are the results of synapsis and crossing over?",
+    "ar": "ما نتائج التشابك والعبور؟",
+    "answer_en": "Genetic material is randomly swapped, four unique chromatids are created, and the genetic diversity of the gametes is greatly increased.",
+    "answer_ar": "تُتبادل المادة الوراثية عشوائيًا، وتتكوّن أربعة كروماتيدات فريدة، ويزداد التنوّع الوراثي للأمشاج كثيرًا."
+   },
+   {
+    "en": "Describe metaphase, anaphase and telophase of meiosis I.",
+    "ar": "صف الاستوائي والانفصالي والنهائي في الاختزالي الأول.",
+    "answer_en": "Metaphase I: microtubules attach to centromeres and tetrads line up on the equator. Anaphase I: homologues separate (sister chromatids attached) and cytokinesis begins. Telophase I: chromosomes may decondense and two haploid cells form.",
+    "answer_ar": "الاستوائي I: ترتبط الأنيبيبات بالسنتروميرات وتصطفّ الرباعيات. الانفصالي I: تنفصل المتماثلات (والشقيقة مرتبطة) ويبدأ انقسام السايتوبلازم. النهائي I: قد تنفكّ الكروموسومات وتتكوّن خليتان أحاديتان."
+   },
+   {
+    "en": "Describe meiosis II and compare it with mitosis.",
+    "ar": "صف الاختزالي الثاني وقارنه بالانقسام الخيطي.",
+    "answer_en": "Prophase II: centrioles move to poles, nuclear membrane dissolves; metaphase II: sister chromatids line up; anaphase II: sister chromatids separate; telophase II: four haploid cells. It is like mitosis but with half the chromosomes.",
+    "answer_ar": "التمهيدي II: تتحرّك المريكزات ويذوب الغشاء؛ الاستوائي II: تصطفّ الكروماتيدات الشقيقة؛ الانفصالي II: تنفصل الشقيقة؛ النهائي II: أربع خلايا أحادية. وهو مثل الخيطي لكن بنصف الكروموسومات."
+   }
+  ]
+ }
+}

@@ -32,7 +32,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `advtech-lec3-ria/` — Advanced Techniques lecture 3: Radioimmunoassay (RIA) — third stage.
 - `hematology-lab1-blood-collection/` — Hematology (أمراض الدم) practical lab 1: blood collection — third stage.
 - `genetics-lec1-cell-cycle-mitosis/` — Genetics (علم الوراثة) lecture 1: cell cycle and mitosis — third stage.
-- `genetics-lab1-mitosis/` — Human Genetics practical lab 1: Mitosis (م.م. نور م. فاضل) — third stage, new style.
+- `genetics-lab1-mitosis/`, `genetics-lab2-meiosis/` — Human Genetics practical labs 1–2: Mitosis, Meiosis (م.م. نور م. فاضل) — third stage, new style.
 - `hematology-lec2…lec10-*/` — Hematology theory (د. مازن اللهيبي) lectures 2–10: blood cell formation, blood elements, hemoglobin, anaemia, iron deficiency, chronic/sideroblastic, macrocytic, hemolytic, membrane defects — third stage (6–10 in the new style).
 - `histopathology-lab1-lab-safety/`, `histopathology-lab2-samples/` — Histopathology (علم الأمراض النسيجية) practical labs 1–2 — third stage.
 - `hematology-practical-anticoagulants/` (lab 1), `hematology-practical-normal-values/` (lab 3, rebuilt in the new style: per-sentence translation, bilingual tables, per-topic "In short", key terms at the end), `hematology-practical-turbidimetry/` (lab 4: Turbidimetry, new style) — Hematology practical (ليندا منجد هادي) — third stage.

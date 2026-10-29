@@ -51,6 +51,7 @@
 - [[Code/imt - l1.py|imt/l1.py]] → immunology-lec1-introduction
 - [[Code/inf - l1.py|inf/l1.py]] → histopathology-lec1-acute-inflammation
 - [[Code/lb1 - gl1.py|lb1/gl1.py]] → genetics-lab1-mitosis
+- [[Code/lb2 - gl2.py|lb2/gl2.py]] → genetics-lab2-meiosis
 - [[Code/n2 - make1.py|n2/make1.py]] → enzymology-lec1-introduction
 - [[Code/n2 - make2.py|n2/make2.py]] → enzymology-lec2-kinetics-inhibition
 - [[Code/n3 - make.py|n3/make.py]] → research-lec2-scientific-method

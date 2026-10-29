@@ -1144,6 +1144,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `hematology-lec2…lec10-*` | أمراض الدم | نظري 2–10 |
 | `genetics-lec1-cell-cycle-mitosis` | وراثة | نظري 1 |
 | `genetics-lab1-mitosis` | وراثة | عملي 1 |
+| `genetics-lab2-meiosis` | وراثة | عملي 2 |
 | `immunology-lec1-introduction` | مناعة | نظري 1 |
 | `immunology-lec2-cells-organs` | مناعة | نظري 2 |
 | `immunology-lec3-antigens` | مناعة | نظري 3 |
