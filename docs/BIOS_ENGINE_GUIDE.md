@@ -1141,7 +1141,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `hematology-practical-anticoagulants` | أمراض الدم | عملي 1 |
 | `hematology-practical-normal-values` | أمراض الدم | عملي 3 |
 | `hematology-practical-turbidimetry` | أمراض الدم | عملي 4 |
-| `hematology-lec2…lec8-*` | أمراض الدم | نظري 2–8 |
+| `hematology-lec2…lec9-*` | أمراض الدم | نظري 2–9 |
 | `genetics-lec1-cell-cycle-mitosis` | وراثة | نظري 1 |
 | `immunology-lec1-introduction` | مناعة | نظري 1 |
 | `immunology-lec2-cells-organs` | مناعة | نظري 2 |

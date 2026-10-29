@@ -35,6 +35,7 @@
 - [[Code/hl6 - l6new.py|hl6/l6new.py]] → hematology-lec6-iron-deficiency
 - [[Code/hl7 - l7new.py|hl7/l7new.py]] → hematology-lec7-chronic-sideroblastic
 - [[Code/hl8 - l8.py|hl8/l8.py]] → hematology-lec8-macrocytic
+- [[Code/hl9 - l9.py|hl9/l9.py]] → hematology-lec9-hemolytic
 - [[Code/im2 - l2.py|im2/l2.py]] → immunology-lec2-cells-organs
 - [[Code/im3 - l3.py|im3/l3.py]] → immunology-lec3-antigens
 - [[Code/imm456 - bb4.py|imm456/bb4.py]] → bloodbank-lec4-screening

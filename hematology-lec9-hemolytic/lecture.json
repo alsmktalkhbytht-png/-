@@ -1,0 +1,1457 @@
+{
+ "meta": {
+  "subject_en": "Hematology",
+  "subject_ar": "أمراض الدم",
+  "short_ar": "امراض الدم",
+  "unit_label": "LEC",
+  "kind": "Theory — نظري",
+  "stage": "The third stage — الثالثة",
+  "instructor": "د. مازن اللهيبي",
+  "unit_en": "Lecture 9",
+  "unit_ar": "المحاضرة 9",
+  "unit_no": "9",
+  "title_en": "Hemolytic anemia",
+  "title_ar": "فقر الدم الانحلالي"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Hemolytic anemia",
+   "ar": "فقر الدم الانحلالي"
+  },
+  {
+   "t": "card",
+   "en": "haemolytic anemia can be defined as \"those anaemia which results from **increase in the rate of red cells destruction**\" and this destruction occurs either **intravascular or extra vascular**.",
+   "ar": "يمكن تعريف فقر الدم الانحلالي بأنه \"فقر الدم الناتج عن **زيادة معدّل تحطّم الكريات الحمر**\"، ويحدث هذا التحطّم إمّا **داخل الأوعية أو خارجها**."
+  },
+  {
+   "t": "card",
+   "en": "Red cell destruction usually occurs after a **mean lifespan of 120 days** when the red cells are removed extravascular by the **macrophages of reticulo-endothelial system**, especially in the **marrow** but also in the liver and spleen.",
+   "ar": "يحدث تحطّم الكريات الحمر عادةً بعد **متوسط عمر 120 يومًا**، حين تُزال خارج الأوعية بواسطة **بلاعم الجهاز الشبكي البطاني**، ولا سيما في **النخاع** وكذلك في الكبد والطحال."
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Site of destruction",
+     "مكان التحطّم"
+    ],
+    [
+     "Details",
+     "التفاصيل"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Extra vascular**",
+      "**خارج الأوعية**"
+     ],
+     [
+      "occurs in the spleen, liver, bone marrow.",
+      "يحدث في الطحال والكبد ونخاع العظم."
+     ]
+    ],
+    [
+     [
+      "**Intravascular**",
+      "**داخل الأوعية**"
+     ],
+     [
+      "Certain types of hemolytic anemia result in intravascular destruction.",
+      "تؤدي بعض أنواع فقر الدم الانحلالي إلى تحطّم داخل الأوعية."
+     ]
+    ],
+    [
+     [
+      "**Both**",
+      "**كلاهما**"
+     ],
+     [
+      "Some types of haemolysis lead to both (i.e. intra and extra vascular destruction).",
+      "تؤدي بعض أنواع الانحلال إلى الاثنين (أي تحطّم داخل الأوعية وخارجها)."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    28,
+    72
+   ],
+   "style": "summary",
+   "label_en": "Where?",
+   "label_ar": "أين؟"
+  },
+  {
+   "t": "card",
+   "en": [
+    "In conditions where the rate of red cell break down is increased, the body initially **compensated by producing marrow red cell**, however if the **breakdown exceed the rate of the body production**, the anemia will be develop and the **bilirubin** which is the breakdown product of hemoglobin can accumulated in the blood causing **jaundice** and be excreted in the urine causing the urine to become a **dark brown** in colour."
+   ],
+   "ar": [
+    "في الحالات التي يزداد فيها معدّل تحطّم الكريات الحمر، **يعوّض الجسم أولًا بإنتاج كريات حمر في النخاع**، لكن إذا **تجاوز التحطّم معدّل إنتاج الجسم** يحدث فقر الدم، ويتراكم **البيليروبين** (ناتج تحلّل الهيموغلوبين) في الدم مسبّبًا **اليرقان**، ويُطرح في الإدرار فيصبح لونه **بنيًا غامقًا**."
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "↑ Red cell destruction",
+     "ar": "↑ تحطّم الكريات"
+    },
+    {
+     "en": "Marrow compensates",
+     "ar": "النخاع يعوّض"
+    },
+    {
+     "en": "Breakdown > production",
+     "ar": "التحطّم > الإنتاج"
+    },
+    {
+     "en": "Anaemia + ↑ bilirubin",
+     "ar": "فقر دم + ↑ البيليروبين"
+    },
+    {
+     "en": "Jaundice, dark brown urine",
+     "ar": "يرقان، وإدرار بني غامق"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Usually hemolytic anemia associated with:",
+   "ar": "يرافق فقرَ الدم الانحلالي عادةً:",
+   "list_en": [
+    "**Reticulocytosis** (erythroidal hyperplasia).",
+    "**Jaundice.**"
+   ],
+   "list_ar": [
+    "**كثرة الخلايا الشبكية** (فرط تنسّج الخط الحمري).",
+    "**اليرقان.**"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Haemolytic = **red cells destroyed faster** than normal (normal life **120 days**).",
+    "Destruction: **extravascular** (spleen, liver, marrow), **intravascular**, or both.",
+    "Two signs: **reticulocytosis + jaundice**."
+   ],
+   "ar": [
+    "الانحلالي = **تحطّم الكريات أسرع** من الطبيعي (العمر الطبيعي **120 يومًا**).",
+    "التحطّم: **خارج الأوعية** (الطحال والكبد والنخاع)، أو **داخلها**، أو الاثنان.",
+    "علامتان: **كثرة الشبكيات + اليرقان**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Classification",
+   "ar": "التصنيف"
+  },
+  {
+   "t": "card",
+   "en": "Either: 1. **Hereditary** or 2. **Aquired**.",
+   "ar": "إمّا: 1. **وراثي** أو 2. **مكتسب**."
+  },
+  {
+   "t": "h2",
+   "en": "1. Hereditary",
+   "ar": "1. الوراثي"
+  },
+  {
+   "t": "card",
+   "en": "Its usually result of **intrinsic red cell defects** (i.e. **intra corpuscular defect**), the defect either in:",
+   "ar": "ينتج عادةً عن **عيوب داخلية في الكرية الحمراء** (أي **عيب داخل الكرية**)، ويكون العيب في:"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Defect",
+     "العيب"
+    ],
+    [
+     "Examples",
+     "أمثلة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**A. Membrane defect**",
+      "**أ. عيب الغشاء**"
+     ],
+     [
+      "e.g. hereditary spherocytosis and hereditary elliptocytosis.",
+      "مثل كثرة الكريات الكروية الوراثية وكثرة الكريات الإهليلجية الوراثية."
+     ]
+    ],
+    [
+     [
+      "**B. Metabolic defect** i.e. enzymopathy",
+      "**ب. عيب استقلابي** أي اعتلال إنزيمي"
+     ],
+     [
+      "like G6PD deficiency, Pyruvate kinas deficiency.",
+      "مثل نقص G6PD، ونقص البيروفيت كاينيز."
+     ]
+    ],
+    [
+     [
+      "**C. Hemoglobin defect**",
+      "**ج. عيب الهيموغلوبين**"
+     ],
+     [
+      "e.g. Hb. S, Hb. C, unstable Hb.",
+      "مثل Hb S، وHb C، والهيموغلوبين غير المستقر."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "style": "summary",
+   "label_en": "Intra-corpuscular",
+   "label_ar": "داخل الكرية"
+  },
+  {
+   "t": "h2",
+   "en": "2. Acquired",
+   "ar": "2. المكتسب"
+  },
+  {
+   "t": "card",
+   "en": "Its usually occur due to **extra corpuscular defect except PNH**, it include:",
+   "ar": "يحدث عادةً بسبب **عيب خارج الكرية ما عدا PNH**، ويشمل:"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Acquired cause",
+     "السبب المكتسب"
+    ],
+    [
+     "Acquired cause",
+     "السبب المكتسب"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**A. Immune** either autoimmune or alloimmune.",
+      "**أ. مناعي** إمّا ذاتي أو خيفي."
+     ],
+     [
+      "**E. Infection** e.g. malaria.",
+      "**هـ. العدوى** مثل الملاريا."
+     ]
+    ],
+    [
+     [
+      "**B. Drugs.**",
+      "**ب. الأدوية.**"
+     ],
+     [
+      "**F. Chemicals and physicals agents.**",
+      "**و. العوامل الكيميائية والفيزيائية.**"
+     ]
+    ],
+    [
+     [
+      "**C. Red cells fragmentation syndrome.**",
+      "**ج. متلازمة تشظّي الكريات الحمر.**"
+     ],
+     [
+      "**G. Secondary** e.g. renal diseases and liver diseases.",
+      "**ز. ثانوي** مثل أمراض الكلية والكبد."
+     ]
+    ],
+    [
+     [
+      "**D. March haemoglobinuria.**",
+      "**د. بيلة الهيموغلوبين المسيرية.**"
+     ],
+     [
+      "**H. Paroxysmal nocturnal haemoglobinuria (PNH)**",
+      "**ح. بيلة الهيموغلوبين الليلية الانتيابية (PNH)**"
+     ]
+    ]
+   ],
+   "widths": [
+    50,
+    50
+   ],
+   "style": "summary",
+   "label_en": "Extra-corpuscular (except PNH)",
+   "label_ar": "خارج الكرية (ما عدا PNH)"
+  },
+  {
+   "t": "note",
+   "en": "PNH is acquired but the defect is **inside** the red cell (intra-corpuscular) — that is why it is the exception.",
+   "ar": "PNH مكتسب لكن عيبه **داخل** الكرية الحمراء، ولهذا هو الاستثناء.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Hereditary = inside the cell**: membrane, enzyme (metabolism), haemoglobin.",
+    "**Acquired = outside the cell**, except **PNH**.",
+    "Acquired A–H: **immune, drugs, fragmentation, march, infection, chemical/physical, secondary, PNH**."
+   ],
+   "ar": [
+    "**الوراثي = داخل الكرية**: الغشاء، والإنزيم (الاستقلاب)، والهيموغلوبين.",
+    "**المكتسب = خارج الكرية**، ما عدا **PNH**.",
+    "المكتسب أ–ح: **المناعي، والأدوية، والتشظّي، والمسيري، والعدوى، والكيميائي/الفيزيائي، والثانوي، وPNH**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Classification of hemolytic anemia's",
+   "ar": "جدول تصنيف فقر الدم الانحلالي"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Hereditary",
+     "الوراثي"
+    ],
+    [
+     "Acquired",
+     "المكتسب"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**1. Membrane** e.g. Hereditary spherocytosis, Hereditary elliptocytosis.",
+      "**1. الغشاء** مثل كثرة الكريات الكروية الوراثية، وكثرة الكريات الإهليلجية الوراثية."
+     ],
+     [
+      "**1. Immune:** Autoimmune (Warm type, Cold type); Alloimmune (Haemolytic transfusion reaction, Haemolytic diseases of newborn, Allograft especially marrow transplantation); Drug associated.",
+      "**1. مناعي:** ذاتي (النوع الدافئ، النوع البارد)؛ خيفي (تفاعل نقل الدم الانحلالي، وداء انحلال الوليد، والطُّعم الخيفي ولا سيما زرع النخاع)؛ ومرتبط بالأدوية."
+     ]
+    ],
+    [
+     [
+      "**2. Metabolism** e.g. G6PD deficiency, pyruvate kinase deficiency.",
+      "**2. الاستقلاب** مثل نقص G6PD، ونقص البيروفيت كاينيز."
+     ],
+     [
+      "**2. Red cells fragmentation syndromes:** Arterial grafts cardiac valves; Microangipathic haemolytic anaemias (Thrombotic thrombocytopenic purpura, Haemolytic uremic syndrome, Meningococcal sepsis, Pre-eclampsia, Disseminated intravascular coagulation).",
+      "**2. متلازمات تشظّي الكريات:** الطعوم الشريانية وصمامات القلب؛ وفقر الدم الانحلالي باعتلال الأوعية الدقيقة (فرفرية قلّة الصفيحات الخثارية، ومتلازمة انحلال الدم اليوريمية، وإنتان المكوّرات السحائية، وما قبل الارتعاج، والتخثّر المنتثر داخل الأوعية)."
+     ]
+    ],
+    [
+     [
+      "**3. Haemoglobin** e.g. Abnormal Haemoglobin (Hb.S, Hb.C)",
+      "**3. الهيموغلوبين** مثل الهيموغلوبين الشاذ (Hb S، Hb C)"
+     ],
+     [
+      "**3. March haemoglobinuria. 4. Infections:** e.g. Malaria. **5. Chemical and physical agents:** Especially drugs, burn. **6. Secondary:** e.g. Liver and renal disease. **7. Paroxysmal nocturnal haemoglobinuria.**",
+      "**3. بيلة الهيموغلوبين المسيرية. 4. العدوى:** مثل الملاريا. **5. العوامل الكيميائية والفيزيائية:** ولا سيما الأدوية والحروق. **6. الثانوي:** مثل أمراض الكبد والكلية. **7. بيلة الهيموغلوبين الليلية الانتيابية.**"
+     ]
+    ]
+   ],
+   "widths": [
+    38,
+    62
+   ],
+   "style": "summary",
+   "label_en": "Lecture table",
+   "label_ar": "جدول المحاضرة"
+  },
+  {
+   "t": "h2",
+   "en": "Immune haemolysis at a glance",
+   "ar": "الانحلال المناعي بنظرة"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Immune",
+     "ar": "مناعي"
+    },
+    {
+     "en": "Autoimmune: warm / cold",
+     "ar": "ذاتي: دافئ / بارد"
+    },
+    {
+     "en": "Alloimmune: transfusion, newborn, allograft",
+     "ar": "خيفي: نقل الدم، الوليد، الطُّعم"
+    },
+    {
+     "en": "Drug associated",
+     "ar": "مرتبط بالأدوية"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "en": "\"Microangipathic\" in the lecture is **microangiopathic**; march haemoglobinuria follows long marching or running.",
+   "ar": "كلمة \"Microangipathic\" في المحاضرة هي **microangiopathic**؛ وبيلة الهيموغلوبين المسيرية تحدث بعد المشي أو الركض الطويل.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Left column (hereditary): **membrane, metabolism, haemoglobin** — 3 groups.",
+    "Right column (acquired): **7 groups**, immune and fragmentation have the most examples.",
+    "Microangiopathic: **TTP, HUS, meningococcal sepsis, pre-eclampsia, DIC**."
+   ],
+   "ar": [
+    "العمود الأيسر (الوراثي): **الغشاء، والاستقلاب، والهيموغلوبين** — 3 مجموعات.",
+    "العمود الأيمن (المكتسب): **7 مجموعات**، وأكثرها أمثلة المناعي والتشظّي.",
+    "اعتلال الأوعية الدقيقة: **TTP، وHUS، وإنتان المكوّرات السحائية، وما قبل الارتعاج، وDIC**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Clinical features of hemolytic anemia's",
+   "ar": "المظاهر السريرية لفقر الدم الانحلالي"
+  },
+  {
+   "t": "card",
+   "en": "The clinical evidences of hemolytic anemia are:",
+   "ar": "الأدلّة السريرية على فقر الدم الانحلالي هي:"
+  },
+  {
+   "t": "rule",
+   "en": "**Anaemia.**",
+   "ar": "**فقر الدم.**"
+  },
+  {
+   "t": "rule",
+   "en": "**Jaundice.**",
+   "ar": "**اليرقان.**"
+  },
+  {
+   "t": "rule",
+   "en": "**Crises** (a plastic or hemolytic crisis).",
+   "ar": "**النوبات** (نوبة لاتنسّجية أو نوبة انحلالية)."
+  },
+  {
+   "t": "rule",
+   "en": "**Splenomegaly.**",
+   "ar": "**تضخّم الطحال.**"
+  },
+  {
+   "t": "rule",
+   "en": "**Gall stones.**",
+   "ar": "**حصى المرارة.**"
+  },
+  {
+   "t": "rule",
+   "en": "**Leg ulceration.**",
+   "ar": "**تقرّح الساق.**"
+  },
+  {
+   "t": "note",
+   "en": "\"a plastic crisis\" in the lecture means **aplastic crisis**.",
+   "ar": "عبارة \"a plastic crisis\" في المحاضرة تعني **النوبة اللاتنسّجية (aplastic crisis)**.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "6 features: **anaemia, jaundice, crises, splenomegaly, gall stones, leg ulcers**.",
+    "Gall stones come from the **extra bilirubin**."
+   ],
+   "ar": [
+    "6 مظاهر: **فقر الدم، واليرقان، والنوبات، وتضخّم الطحال، وحصى المرارة، وتقرّح الساق**.",
+    "حصى المرارة تأتي من **البيليروبين الزائد**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Laboratory finding of hemolytic anemia's",
+   "ar": "النتائج المختبرية لفقر الدم الانحلالي"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Anemia is usual.**",
+    "**Normal blood indices.**",
+    "**Reticulocytosis** .",
+    "**Increased unconjugated bilirubin.**",
+    "**Increased urine urobilinogen** and **fecal stercobilinogen**.",
+    "**Decreased serum Haptoglobin.**",
+    "**Increased serum LDH.**",
+    "Blood film will show **microspherocytes** , **fragmented red cells** , **nucleated red cells**.",
+    "Bone marrow will show **Erythroid hyperplasia**."
+   ],
+   "list_ar": [
+    "**فقر الدم معتاد.**",
+    "**مؤشّرات الدم طبيعية.**",
+    "**كثرة الخلايا الشبكية**.",
+    "**ارتفاع البيليروبين غير المقترن.**",
+    "**ارتفاع اليوروبيلينوجين في الإدرار** و**الستيركوبيلينوجين في البراز**.",
+    "**انخفاض الهابتوغلوبين في المصل.**",
+    "**ارتفاع LDH في المصل.**",
+    "تُظهر المسحة **كريات كروية صغيرة**، و**كريات حمر متشظّية**، و**كريات حمر منوّاة**.",
+    "يُظهر نخاع العظم **فرط تنسّج حمري**."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Test",
+     "الفحص"
+    ],
+    [
+     "In haemolysis",
+     "في الانحلال"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Blood indices**",
+      "**مؤشّرات الدم**"
+     ],
+     [
+      "Normal",
+      "طبيعية"
+     ]
+    ],
+    [
+     [
+      "**Reticulocytes**",
+      "**الخلايا الشبكية**"
+     ],
+     "↑"
+    ],
+    [
+     [
+      "**Unconjugated bilirubin**",
+      "**البيليروبين غير المقترن**"
+     ],
+     "↑"
+    ],
+    [
+     [
+      "**Urine urobilinogen / fecal stercobilinogen**",
+      "**يوروبيلينوجين الإدرار / ستيركوبيلينوجين البراز**"
+     ],
+     "↑"
+    ],
+    [
+     [
+      "**Serum haptoglobin**",
+      "**هابتوغلوبين المصل**"
+     ],
+     "**↓**"
+    ],
+    [
+     [
+      "**Serum LDH**",
+      "**LDH المصل**"
+     ],
+     "↑"
+    ],
+    [
+     [
+      "**Bone marrow**",
+      "**نخاع العظم**"
+     ],
+     [
+      "Erythroid hyperplasia",
+      "فرط تنسّج حمري"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    60,
+    40
+   ],
+   "style": "summary",
+   "label_en": "At a glance",
+   "label_ar": "بنظرة"
+  },
+  {
+   "t": "h2",
+   "en": "Special tests",
+   "ar": "الفحوص الخاصة"
+  },
+  {
+   "t": "rule",
+   "en": "**Commbs test (Antihuman globulin test)** is usually **positive in immune mediated** hemolytic anemia.",
+   "ar": "**اختبار كومبس (اختبار الغلوبولين المضاد للإنسان)** يكون عادةً **موجبًا في فقر الدم الانحلالي المناعي**."
+  },
+  {
+   "t": "rule",
+   "en": "**Osmotic fragility test:** show **increased osmotic fragility**.",
+   "ar": "**اختبار الهشاشة التناضحية:** يُظهر **زيادة الهشاشة التناضحية**."
+  },
+  {
+   "t": "rule",
+   "en": "**Auto-haemolysis test:** show increase auto-haemolysis which is **corrected by glucose**.",
+   "ar": "**اختبار الانحلال الذاتي:** يُظهر زيادة الانحلال الذاتي التي **تُصحَّح بالغلوكوز**."
+  },
+  {
+   "t": "rule",
+   "en": "**Chromium-51 studies** used to document the dominates **splenic destruction**.",
+   "ar": "تُستعمل **دراسات الكروم-51** لتوثيق **التحطّم الطحالي** السائد."
+  },
+  {
+   "t": "note",
+   "en": "\"Commbs\" is the **Coombs** test; \"dominates splenic destruction\" means the **predominant (main) splenic destruction**.",
+   "ar": "كلمة \"Commbs\" هي اختبار **Coombs**؛ وعبارة \"dominates splenic destruction\" تعني **التحطّم الطحالي السائد (الرئيسي)**.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Everything **↑** (retics, bilirubin, urobilinogen, LDH) except **haptoglobin ↓**; indices **normal**.",
+    "Film: **microspherocytes, fragments, nucleated red cells**.",
+    "Coombs = **immune**; osmotic fragility ↑; autohaemolysis corrected by **glucose**; **Cr-51** = spleen."
+   ],
+   "ar": [
+    "كل شيء **↑** (الشبكيات، والبيليروبين، واليوروبيلينوجين، وLDH) ما عدا **الهابتوغلوبين ↓**؛ والمؤشّرات **طبيعية**.",
+    "المسحة: **كريات كروية صغيرة، وشظايا، وكريات منوّاة**.",
+    "كومبس = **مناعي**؛ والهشاشة التناضحية ↑؛ والانحلال الذاتي يُصحَّح **بالغلوكوز**؛ و**Cr-51** = الطحال."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Haemolytic anaemia**",
+     "فقر الدم الانحلالي / فقر الدم التحلّلي"
+    ],
+    [
+     "**Intravascular / Extravascular**",
+     "داخل الأوعية / خارج الأوعية"
+    ],
+    [
+     "**Intra-corpuscular / Extra-corpuscular**",
+     "داخل الكرية / خارج الكرية"
+    ],
+    [
+     "**Hereditary spherocytosis**",
+     "كثرة الكريات الكروية الوراثية / داء الكريات الكروية"
+    ],
+    [
+     "**Hereditary elliptocytosis**",
+     "كثرة الكريات الإهليلجية الوراثية / داء الكريات البيضوية"
+    ],
+    [
+     "**Enzymopathy**",
+     "اعتلال إنزيمي / عيب إنزيمي"
+    ],
+    [
+     "**G6PD deficiency**",
+     "نقص إنزيم G6PD / داء الفوال"
+    ],
+    [
+     "**Pyruvate kinase deficiency**",
+     "نقص البيروفيت كاينيز"
+    ],
+    [
+     "**Autoimmune / Alloimmune**",
+     "مناعي ذاتي / مناعي خيفي"
+    ],
+    [
+     "**Microangiopathic haemolytic anaemia**",
+     "فقر الدم الانحلالي باعتلال الأوعية الدقيقة"
+    ],
+    [
+     "**March haemoglobinuria**",
+     "بيلة الهيموغلوبين المسيرية / بيلة هيموغلوبين الجهد"
+    ],
+    [
+     "**PNH**",
+     "بيلة الهيموغلوبين الليلية الانتيابية"
+    ],
+    [
+     "**Aplastic crisis**",
+     "نوبة لاتنسّجية / نوبة توقّف النخاع"
+    ],
+    [
+     "**Haptoglobin**",
+     "الهابتوغلوبين / بروتين رابط الهيموغلوبين"
+    ],
+    [
+     "**Urobilinogen / Stercobilinogen**",
+     "اليوروبيلينوجين / الستيركوبيلينوجين"
+    ],
+    [
+     "**Coombs test**",
+     "اختبار كومبس / اختبار الغلوبولين المضاد للإنسان"
+    ],
+    [
+     "**Osmotic fragility test**",
+     "اختبار الهشاشة التناضحية / اختبار الهشاشة الأسموزية"
+    ],
+    [
+     "**Autohaemolysis test**",
+     "اختبار الانحلال الذاتي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Definition and mechanism",
+    "topic_ar": "التعريف والآلية"
+   },
+   {
+    "en": "Haemolytic anaemia results from:",
+    "ar": "ينتج فقر الدم الانحلالي عن:",
+    "options": [
+     [
+      "Increased rate of red cell destruction",
+      "زيادة معدّل تحطّم الكريات الحمر"
+     ],
+     [
+      "Decreased red cell production",
+      "نقص إنتاج الكريات الحمر"
+     ],
+     [
+      "Iron deficiency",
+      "نقص الحديد"
+     ],
+     [
+      "B12 deficiency",
+      "نقص B12"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The mean normal red cell lifespan is:",
+    "ar": "متوسط عمر الكرية الحمراء الطبيعي:",
+    "options": [
+     [
+      "30 days",
+      "30 يومًا"
+     ],
+     [
+      "120 days",
+      "120 يومًا"
+     ],
+     [
+      "60 days",
+      "60 يومًا"
+     ],
+     [
+      "365 days",
+      "365 يومًا"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Normal red cells are removed mainly by:",
+    "ar": "تُزال الكريات الحمر الطبيعية أساسًا بواسطة:",
+    "options": [
+     [
+      "Kidneys",
+      "الكليتين"
+     ],
+     [
+      "Neutrophils",
+      "العدلات"
+     ],
+     [
+      "Macrophages of the reticulo-endothelial system",
+      "بلاعم الجهاز الشبكي البطاني"
+     ],
+     [
+      "Platelets",
+      "الصفيحات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Extravascular destruction occurs in the:",
+    "ar": "يحدث التحطّم خارج الأوعية في:",
+    "options": [
+     [
+      "Lungs and heart",
+      "الرئتين والقلب"
+     ],
+     [
+      "Kidney only",
+      "الكلية فقط"
+     ],
+     [
+      "Blood vessels",
+      "الأوعية الدموية"
+     ],
+     [
+      "Spleen, liver, bone marrow",
+      "الطحال والكبد ونخاع العظم"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Dark brown urine in haemolysis is due to:",
+    "ar": "الإدرار البني الغامق في الانحلال سببه:",
+    "options": [
+     [
+      "Blood loss",
+      "فقدان الدم"
+     ],
+     [
+      "Excreted bilirubin breakdown products",
+      "نواتج البيليروبين المطروحة"
+     ],
+     [
+      "Glucose",
+      "الغلوكوز"
+     ],
+     [
+      "Protein",
+      "البروتين"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Haemolytic anaemia is usually associated with:",
+    "ar": "يرافق فقرَ الدم الانحلالي عادةً:",
+    "options": [
+     [
+      "Reticulopenia",
+      "قلّة الشبكيات"
+     ],
+     [
+      "Thrombocytosis only",
+      "كثرة الصفيحات فقط"
+     ],
+     [
+      "Leucopenia",
+      "قلّة الكريات البيض"
+     ],
+     [
+      "Reticulocytosis and jaundice",
+      "كثرة الشبكيات واليرقان"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Classification",
+    "topic_ar": "التصنيف"
+   },
+   {
+    "en": "Hereditary haemolytic anaemias are usually due to:",
+    "ar": "يعود فقر الدم الانحلالي الوراثي عادةً إلى:",
+    "options": [
+     [
+      "Intra-corpuscular defects",
+      "عيوب داخل الكرية"
+     ],
+     [
+      "Extra-corpuscular defects",
+      "عيوب خارج الكرية"
+     ],
+     [
+      "Infections",
+      "العدوى"
+     ],
+     [
+      "Drugs",
+      "الأدوية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Hereditary spherocytosis is a defect of the:",
+    "ar": "كثرة الكريات الكروية الوراثية عيب في:",
+    "options": [
+     [
+      "Enzyme",
+      "الإنزيم"
+     ],
+     [
+      "Haemoglobin",
+      "الهيموغلوبين"
+     ],
+     [
+      "Membrane",
+      "الغشاء"
+     ],
+     [
+      "Plasma",
+      "البلازما"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "G6PD deficiency is an example of:",
+    "ar": "نقص G6PD مثال على:",
+    "options": [
+     [
+      "Membrane defect",
+      "عيب الغشاء"
+     ],
+     [
+      "Fragmentation syndrome",
+      "متلازمة التشظّي"
+     ],
+     [
+      "Immune haemolysis",
+      "انحلال مناعي"
+     ],
+     [
+      "Metabolic defect (enzymopathy)",
+      "عيب استقلابي (اعتلال إنزيمي)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Hb S and Hb C are examples of:",
+    "ar": "Hb S وHb C مثالان على:",
+    "options": [
+     [
+      "Membrane defects",
+      "عيوب الغشاء"
+     ],
+     [
+      "Enzymopathies",
+      "اعتلالات إنزيمية"
+     ],
+     [
+      "Haemoglobin defects",
+      "عيوب الهيموغلوبين"
+     ],
+     [
+      "Acquired causes",
+      "أسباب مكتسبة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The acquired haemolytic anaemia with an intra-corpuscular defect is:",
+    "ar": "فقر الدم الانحلالي المكتسب ذو العيب داخل الكرية هو:",
+    "options": [
+     [
+      "Malaria",
+      "الملاريا"
+     ],
+     [
+      "PNH",
+      "PNH"
+     ],
+     [
+      "Autoimmune haemolysis",
+      "الانحلال المناعي الذاتي"
+     ],
+     [
+      "March haemoglobinuria",
+      "بيلة الهيموغلوبين المسيرية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Haemolytic disease of the newborn is classified as:",
+    "ar": "يُصنَّف داء انحلال الوليد بأنه:",
+    "options": [
+     [
+      "Alloimmune",
+      "مناعي خيفي"
+     ],
+     [
+      "Autoimmune warm type",
+      "مناعي ذاتي دافئ"
+     ],
+     [
+      "Membrane defect",
+      "عيب غشاء"
+     ],
+     [
+      "Infection",
+      "عدوى"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which is a microangiopathic haemolytic anaemia?",
+    "ar": "أي مما يأتي فقر دم انحلالي باعتلال الأوعية الدقيقة؟",
+    "options": [
+     [
+      "G6PD deficiency",
+      "نقص G6PD"
+     ],
+     [
+      "Hereditary elliptocytosis",
+      "كثرة الكريات الإهليلجية"
+     ],
+     [
+      "Haemolytic uremic syndrome",
+      "متلازمة انحلال الدم اليوريمية"
+     ],
+     [
+      "Hb C",
+      "Hb C"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Arterial grafts and cardiac valves cause haemolysis by:",
+    "ar": "تسبّب الطعوم الشريانية وصمامات القلب الانحلال عن طريق:",
+    "options": [
+     [
+      "Antibodies",
+      "الأضداد"
+     ],
+     [
+      "Enzyme deficiency",
+      "نقص الإنزيم"
+     ],
+     [
+      "Infection",
+      "العدوى"
+     ],
+     [
+      "Red cell fragmentation",
+      "تشظّي الكريات الحمر"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "An infectious cause of haemolytic anaemia is:",
+    "ar": "سبب معدٍ لفقر الدم الانحلالي:",
+    "options": [
+     [
+      "Tuberculosis",
+      "التدرّن"
+     ],
+     [
+      "Malaria",
+      "الملاريا"
+     ],
+     [
+      "Influenza",
+      "الإنفلونزا"
+     ],
+     [
+      "Hepatitis A only",
+      "التهاب الكبد A فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Autoimmune haemolytic anaemia is divided into:",
+    "ar": "يُقسَّم فقر الدم الانحلالي المناعي الذاتي إلى:",
+    "options": [
+     [
+      "Warm and cold types",
+      "النوع الدافئ والبارد"
+     ],
+     [
+      "Acute and chronic",
+      "حاد ومزمن"
+     ],
+     [
+      "Primary and tertiary",
+      "أولي وثالثي"
+     ],
+     [
+      "Membrane and enzyme",
+      "غشائي وإنزيمي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Clinical and laboratory",
+    "topic_ar": "السريري والمختبري"
+   },
+   {
+    "en": "Which is a clinical feature of haemolytic anaemia?",
+    "ar": "أي مما يأتي من المظاهر السريرية لفقر الدم الانحلالي؟",
+    "options": [
+     [
+      "Koilonychia",
+      "تقعّر الأظافر"
+     ],
+     [
+      "Pica",
+      "القَطَا"
+     ],
+     [
+      "Gall stones",
+      "حصى المرارة"
+     ],
+     [
+      "Glossitis only",
+      "التهاب اللسان فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In haemolytic anaemia, blood indices are usually:",
+    "ar": "في فقر الدم الانحلالي تكون مؤشّرات الدم عادةً:",
+    "options": [
+     [
+      "Microcytic",
+      "صغيرة الكريات"
+     ],
+     [
+      "Normal",
+      "طبيعية"
+     ],
+     [
+      "Macrocytic",
+      "كبيرة الكريات"
+     ],
+     [
+      "Hypochromic",
+      "ناقصة الصباغ"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Serum haptoglobin in haemolysis is:",
+    "ar": "الهابتوغلوبين في المصل عند الانحلال:",
+    "options": [
+     [
+      "Decreased",
+      "منخفض"
+     ],
+     [
+      "Normal",
+      "طبيعي"
+     ],
+     [
+      "Very high",
+      "مرتفع جدًا"
+     ],
+     [
+      "Increased",
+      "مرتفع"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The bilirubin raised in haemolysis is:",
+    "ar": "البيليروبين المرتفع في الانحلال:",
+    "options": [
+     [
+      "Urinary only",
+      "البولي فقط"
+     ],
+     [
+      "Conjugated only",
+      "المقترن فقط"
+     ],
+     [
+      "Neither",
+      "لا هذا ولا ذاك"
+     ],
+     [
+      "Unconjugated",
+      "غير المقترن"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The Coombs (antihuman globulin) test is usually positive in:",
+    "ar": "يكون اختبار كومبس عادةً موجبًا في:",
+    "options": [
+     [
+      "G6PD deficiency",
+      "نقص G6PD"
+     ],
+     [
+      "Immune mediated haemolytic anaemia",
+      "فقر الدم الانحلالي المناعي"
+     ],
+     [
+      "Thalassaemia",
+      "الثلاسيميا"
+     ],
+     [
+      "Iron deficiency",
+      "نقص الحديد"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The osmotic fragility test in haemolysis (as in the lecture) shows:",
+    "ar": "يُظهر اختبار الهشاشة التناضحية في الانحلال (كما في المحاضرة):",
+    "options": [
+     [
+      "Decreased fragility",
+      "نقص الهشاشة"
+     ],
+     [
+      "No change",
+      "لا تغيّر"
+     ],
+     [
+      "Increased osmotic fragility",
+      "زيادة الهشاشة التناضحية"
+     ],
+     [
+      "Absent haemolysis",
+      "غياب الانحلال"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Increased autohaemolysis is corrected by:",
+    "ar": "تُصحَّح زيادة الانحلال الذاتي بـ:",
+    "options": [
+     [
+      "Glucose",
+      "الغلوكوز"
+     ],
+     [
+      "Vitamin B12",
+      "فيتامين B12"
+     ],
+     [
+      "Folate",
+      "الفولات"
+     ],
+     [
+      "Iron",
+      "الحديد"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Chromium-51 studies are used to document:",
+    "ar": "تُستعمل دراسات الكروم-51 لتوثيق:",
+    "options": [
+     [
+      "Platelet function",
+      "وظيفة الصفيحات"
+     ],
+     [
+      "Iron absorption",
+      "امتصاص الحديد"
+     ],
+     [
+      "B12 absorption",
+      "امتصاص B12"
+     ],
+     [
+      "Splenic destruction",
+      "التحطّم الطحالي"
+     ]
+    ],
+    "answer": "d"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Red cell destruction may be intravascular, extravascular or both.",
+    "ar": "قد يكون تحطّم الكريات داخل الأوعية أو خارجها أو كليهما.",
+    "answer": "T"
+   },
+   {
+    "en": "The body first compensates for haemolysis by increasing marrow red cell production.",
+    "ar": "يعوّض الجسم الانحلال أولًا بزيادة إنتاج النخاع للكريات الحمر.",
+    "answer": "T"
+   },
+   {
+    "en": "Anaemia develops as soon as red cell breakdown increases.",
+    "ar": "يحدث فقر الدم بمجرد زيادة تحطّم الكريات.",
+    "answer": "F"
+   },
+   {
+    "en": "Hereditary haemolytic anaemias are usually extra-corpuscular.",
+    "ar": "فقر الدم الانحلالي الوراثي عادةً خارج الكرية.",
+    "answer": "F"
+   },
+   {
+    "en": "Pyruvate kinase deficiency is a metabolic defect.",
+    "ar": "نقص البيروفيت كاينيز عيب استقلابي.",
+    "answer": "T"
+   },
+   {
+    "en": "Haemolytic transfusion reaction is an alloimmune haemolysis.",
+    "ar": "تفاعل نقل الدم الانحلالي انحلال مناعي خيفي.",
+    "answer": "T"
+   },
+   {
+    "en": "DIC is a cause of microangiopathic haemolytic anaemia.",
+    "ar": "التخثّر المنتثر داخل الأوعية سبب لفقر الدم الانحلالي باعتلال الأوعية الدقيقة.",
+    "answer": "T"
+   },
+   {
+    "en": "Splenomegaly is not a feature of haemolytic anaemia.",
+    "ar": "تضخّم الطحال ليس من مظاهر فقر الدم الانحلالي.",
+    "answer": "F"
+   },
+   {
+    "en": "Serum LDH is decreased in haemolysis.",
+    "ar": "ينخفض LDH في المصل عند الانحلال.",
+    "answer": "F"
+   },
+   {
+    "en": "Urine urobilinogen and fecal stercobilinogen are increased in haemolysis.",
+    "ar": "يرتفع يوروبيلينوجين الإدرار وستيركوبيلينوجين البراز في الانحلال.",
+    "answer": "T"
+   },
+   {
+    "en": "Nucleated red cells may appear in the blood film.",
+    "ar": "قد تظهر كريات حمر منوّاة في المسحة.",
+    "answer": "T"
+   },
+   {
+    "en": "The bone marrow in haemolysis shows erythroid hypoplasia.",
+    "ar": "يُظهر النخاع في الانحلال نقص تنسّج حمري.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Hereditary vs acquired — the PNH exception",
+    "ar": "الوراثي مقابل المكتسب — استثناء PNH",
+    "answer_en": "Hereditary = intra-corpuscular; acquired = extra-corpuscular, EXCEPT PNH (acquired but intra-corpuscular).",
+    "answer_ar": "الوراثي = داخل الكرية؛ والمكتسب = خارج الكرية، ما عدا PNH (مكتسب لكن داخل الكرية)."
+   },
+   {
+    "en": "Haptoglobin goes DOWN",
+    "ar": "الهابتوغلوبين ينزل",
+    "answer_en": "In haemolysis almost everything rises (retics, bilirubin, urobilinogen, LDH) but haptoglobin falls.",
+    "answer_ar": "في الانحلال يرتفع كل شيء تقريبًا (الشبكيات، والبيليروبين، واليوروبيلينوجين، وLDH) لكن الهابتوغلوبين ينخفض."
+   },
+   {
+    "en": "Indices in haemolysis",
+    "ar": "المؤشّرات في الانحلال",
+    "answer_en": "Blood indices are NORMAL (normocytic normochromic), unlike IDA (microcytic) or megaloblastic (macrocytic).",
+    "answer_ar": "مؤشّرات الدم طبيعية، على خلاف نقص الحديد (صغيرة) والأرومي الضخم (كبيرة)."
+   },
+   {
+    "en": "Autoimmune vs alloimmune",
+    "ar": "الذاتي مقابل الخيفي",
+    "answer_en": "Autoimmune: own antibodies (warm, cold). Alloimmune: antibodies to another's cells (transfusion reaction, HDN, allograft).",
+    "answer_ar": "الذاتي: أضداد الشخص نفسه (دافئ، بارد). الخيفي: أضداد لخلايا شخص آخر (تفاعل النقل، داء انحلال الوليد، الطُّعم)."
+   },
+   {
+    "en": "Which test for what?",
+    "ar": "أي فحص لأي شيء؟",
+    "answer_en": "Coombs → immune; osmotic fragility → increased; autohaemolysis → corrected by glucose; Cr-51 → splenic destruction.",
+    "answer_ar": "كومبس ← المناعي؛ الهشاشة التناضحية ← زيادة؛ الانحلال الذاتي ← يُصحَّح بالغلوكوز؛ Cr-51 ← التحطّم الطحالي."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define haemolytic anaemia and explain how jaundice and dark urine develop.",
+    "ar": "عرّف فقر الدم الانحلالي ووضّح كيف يحدث اليرقان والإدرار الغامق.",
+    "answer_en": "Anaemia from increased rate of red cell destruction (intra- or extravascular). The marrow compensates first; when breakdown exceeds production, anaemia develops and bilirubin from haemoglobin breakdown accumulates (jaundice) and is excreted in urine (dark brown).",
+    "answer_ar": "فقر دم ناتج عن زيادة معدّل تحطّم الكريات (داخل الأوعية أو خارجها). يعوّض النخاع أولًا، وحين يتجاوز التحطّم الإنتاج يحدث فقر الدم ويتراكم البيليروبين (يرقان) ويُطرح في الإدرار (بني غامق)."
+   },
+   {
+    "en": "Classify hereditary haemolytic anaemias with examples.",
+    "ar": "صنّف فقر الدم الانحلالي الوراثي مع أمثلة.",
+    "answer_en": "Intra-corpuscular: membrane (hereditary spherocytosis, elliptocytosis); metabolic/enzymopathy (G6PD, pyruvate kinase deficiency); haemoglobin (Hb S, Hb C, unstable Hb).",
+    "answer_ar": "داخل الكرية: الغشاء (الكريات الكروية والإهليلجية الوراثية)؛ الاستقلاب/الإنزيم (نقص G6PD والبيروفيت كاينيز)؛ الهيموغلوبين (Hb S، Hb C، غير المستقر)."
+   },
+   {
+    "en": "List the acquired causes of haemolytic anaemia.",
+    "ar": "عدّد الأسباب المكتسبة لفقر الدم الانحلالي.",
+    "answer_en": "Immune (autoimmune warm/cold; alloimmune: transfusion reaction, HDN, allograft; drug), red cell fragmentation (cardiac valves, arterial grafts, microangiopathic: TTP, HUS, meningococcal sepsis, pre-eclampsia, DIC), march haemoglobinuria, infection (malaria), chemical/physical (drugs, burns), secondary (liver, renal), PNH.",
+    "answer_ar": "مناعي (ذاتي دافئ/بارد؛ خيفي: تفاعل النقل، داء الوليد، الطُّعم؛ دوائي)، تشظّي الكريات (الصمامات، الطعوم، اعتلال الأوعية الدقيقة: TTP، HUS، إنتان المكوّرات، ما قبل الارتعاج، DIC)، البيلة المسيرية، العدوى (الملاريا)، الكيميائي/الفيزيائي (الأدوية، الحروق)، الثانوي (الكبد، الكلية)، PNH."
+   },
+   {
+    "en": "Give the clinical features of haemolytic anaemia.",
+    "ar": "اذكر المظاهر السريرية لفقر الدم الانحلالي.",
+    "answer_en": "Anaemia, jaundice, crises (aplastic or haemolytic), splenomegaly, gall stones, leg ulceration.",
+    "answer_ar": "فقر الدم، واليرقان، والنوبات (لاتنسّجية أو انحلالية)، وتضخّم الطحال، وحصى المرارة، وتقرّح الساق."
+   },
+   {
+    "en": "Give the laboratory findings of haemolytic anaemia.",
+    "ar": "اذكر النتائج المختبرية لفقر الدم الانحلالي.",
+    "answer_en": "Anaemia with normal indices; reticulocytosis; ↑ unconjugated bilirubin; ↑ urine urobilinogen and fecal stercobilinogen; ↓ haptoglobin; ↑ LDH; film: microspherocytes, fragments, nucleated red cells; marrow erythroid hyperplasia.",
+    "answer_ar": "فقر دم بمؤشّرات طبيعية؛ كثرة الشبكيات؛ ارتفاع البيليروبين غير المقترن؛ ارتفاع يوروبيلينوجين الإدرار وستيركوبيلينوجين البراز؛ انخفاض الهابتوغلوبين؛ ارتفاع LDH؛ المسحة: كريات كروية صغيرة وشظايا وكريات منوّاة؛ فرط تنسّج حمري."
+   },
+   {
+    "en": "List the special tests used in haemolytic anaemia and what each shows.",
+    "ar": "عدّد الفحوص الخاصة في فقر الدم الانحلالي وما يُظهره كل منها.",
+    "answer_en": "Coombs test: positive in immune haemolysis; osmotic fragility: increased; autohaemolysis: increased, corrected by glucose; chromium-51 studies: document splenic destruction.",
+    "answer_ar": "اختبار كومبس: موجب في الانحلال المناعي؛ الهشاشة التناضحية: مرتفعة؛ الانحلال الذاتي: مرتفع ويُصحَّح بالغلوكوز؛ دراسات الكروم-51: توثّق التحطّم الطحالي."
+   }
+  ]
+ }
+}
