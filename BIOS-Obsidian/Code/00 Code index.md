@@ -32,6 +32,7 @@
 - [[Code/his - l1.py|his/l1.py]] → histopathology-lab1-lab-safety
 - [[Code/his - l2.py|his/l2.py]] → histopathology-lab2-samples
 - [[Code/hl3 - norm3.py|hl3/norm3.py]] → hematology-practical-normal-values
+- [[Code/hl6 - l6new.py|hl6/l6new.py]] → hematology-lec6-iron-deficiency
 - [[Code/im2 - l2.py|im2/l2.py]] → immunology-lec2-cells-organs
 - [[Code/im3 - l3.py|im3/l3.py]] → immunology-lec3-antigens
 - [[Code/imm456 - bb4.py|imm456/bb4.py]] → bloodbank-lec4-screening
