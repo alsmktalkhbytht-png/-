@@ -62,6 +62,7 @@
 - [[Code/res - make.py|res/make.py]] → research-lec1-principles
 - [[Code/ria - l3.py|ria/l3.py]] → advtech-lec3-ria
 - [[Code/sol - l4.py|sol/l4.py]] → parasitology-lab4-solutions
+- [[Code/tb - turb.py|tb/turb.py]] → advtech-lab4-turbidimetry
 
 ## Other utilities
 

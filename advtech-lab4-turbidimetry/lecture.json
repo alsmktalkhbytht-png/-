@@ -1,0 +1,1618 @@
+{
+ "meta": {
+  "subject_en": "Advanced Laboratory Techniques",
+  "subject_ar": "التقنيات المختبرية المتقدمة",
+  "short_ar": "تقنيات متقدمة",
+  "unit_label": "LAB",
+  "kind": "Laboratories — عملي",
+  "stage": "The fourth stage — الرابعة",
+  "instructor": "ليندا منجد هادي",
+  "unit_en": "Lab 4",
+  "unit_ar": "العملي 4",
+  "unit_no": "4",
+  "title_en": "Turbidimetry",
+  "title_ar": "قياس العكارة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "What is Turbidimetry?",
+   "ar": "ما هو قياس العكارة؟"
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "",
+     "ar": "",
+     "list_en": [
+      "Turbidimetry measures the **cloudiness of a liquid sample**.",
+      "Cloudiness is caused by **particles suspended** in the sample.",
+      "The instrument measures **how much light passes through** the sample."
+     ],
+     "list_ar": [
+      "يقيس قياسُ العكارة **تعكّرَ العيّنة السائلة**.",
+      "ينتج التعكّر عن **جسيمات عالقة** في العيّنة.",
+      "ويقيس الجهاز **كمية الضوء التي تنفذ خلال** العيّنة."
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/turbidimeter-kit.jpg",
+    "en": "A portable turbidimeter kit",
+    "ar": "جهاز قياس العكارة المحمول"
+   }
+  },
+  {
+   "t": "note",
+   "en": [
+    "Turbidimetry = measuring **cloudiness**.",
+    "Cloudiness comes from **suspended particles**.",
+    "The instrument reads the light that **passes through**."
+   ],
+   "ar": [
+    "قياس العكارة = قياس **التعكّر**.",
+    "يأتي التعكّر من **الجسيمات العالقة**.",
+    "يقرأ الجهاز الضوء الذي **ينفذ خلال** العيّنة."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Principle",
+   "ar": "المبدأ"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "A **beam of light** passes through the sample.",
+    "**Suspended particles reduce** the amount of light that passes straight through.",
+    "The **detector** measures the **transmitted light**.",
+    "**More turbidity → less transmitted light.**"
+   ],
+   "list_ar": [
+    "تمرّ **حزمة ضوئية** خلال العيّنة.",
+    "**تقلّل الجسيمات العالقة** كمية الضوء التي تنفذ بشكل مستقيم.",
+    "ويقيس **الكاشف** **الضوء النافذ**.",
+    "**عكارة أكثر ← ضوء نافذ أقل.**"
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Light source",
+     "ar": "مصدر الضوء"
+    },
+    {
+     "en": "Sample",
+     "ar": "العيّنة"
+    },
+    {
+     "en": "Transmitted light (measured)",
+     "ar": "الضوء النافذ (يُقاس)"
+    },
+    {
+     "en": "Detector",
+     "ar": "الكاشف"
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/turbidimeter-diagram.png",
+   "en": "Turbidimeter: visible light → filter → sample cell → photocell detector → read out device",
+   "ar": "جهاز قياس العكارة: ضوء مرئي ← مرشّح ← خلية العيّنة ← كاشف خلية ضوئية ← جهاز عرض القراءة",
+   "h": "62mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label in the figure",
+     "التسمية في الشكل"
+    ],
+    [
+     "Meaning",
+     "المعنى"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Visible light**",
+      "**ضوء مرئي**"
+     ],
+     [
+      "The light source of the instrument",
+      "مصدر الضوء في الجهاز"
+     ]
+    ],
+    [
+     [
+      "**Filter**",
+      "**مرشّح**"
+     ],
+     [
+      "Selects the light that reaches the sample",
+      "يختار الضوء الذي يصل إلى العيّنة"
+     ]
+    ],
+    [
+     [
+      "**Sample Cell**",
+      "**خلية العيّنة**"
+     ],
+     [
+      "Holds the cloudy sample (cuvette)",
+      "تحمل العيّنة العكرة (الكيوفيت)"
+     ]
+    ],
+    [
+     [
+      "**Photocell Detector**",
+      "**كاشف الخلية الضوئية**"
+     ],
+     [
+      "Measures the transmitted light",
+      "يقيس الضوء النافذ"
+     ]
+    ],
+    [
+     [
+      "**Read Out Device**",
+      "**جهاز عرض القراءة**"
+     ],
+     [
+      "Shows the result",
+      "يعرض النتيجة"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    38,
+    62
+   ],
+   "label_en": "Figure labels",
+   "label_ar": "تسميات الشكل"
+  },
+  {
+   "t": "note",
+   "en": "The meanings of the figure labels are explained by BIOS; the slide shows only the labels.",
+   "ar": "معاني تسميات الشكل شرحٌ من BIOS؛ والشريحة تعرض التسميات فقط.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Light → sample → detector, in a **straight line**.",
+    "The detector reads **transmitted** light.",
+    "**More turbidity = less transmitted light.**"
+   ],
+   "ar": [
+    "الضوء ← العيّنة ← الكاشف، في **خط مستقيم**.",
+    "يقرأ الكاشف الضوء **النافذ**.",
+    "**عكارة أكثر = ضوء نافذ أقل.**"
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Clinical Immunoturbidimetry",
+   "ar": "قياس العكارة المناعي السريري"
+  },
+  {
+   "t": "h2",
+   "en": "Medical laboratory use",
+   "ar": "الاستعمال في المختبر الطبي"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "In many clinical tests, an **antigen** reacts with a **specific antibody**.",
+    "This reaction forms small **immune complexes**.",
+    "The complexes make the sample **more turbid**.",
+    "The analyzer measures this change to **estimate the amount of the analyte**."
+   ],
+   "list_ar": [
+    "في كثير من الفحوص السريرية يتفاعل **مستضد** مع **ضد نوعي**.",
+    "يكوّن هذا التفاعل **معقّدات مناعية** صغيرة.",
+    "وتجعل هذه المعقّدات العيّنة **أكثر عكارة**.",
+    "ويقيس المحلّل هذا التغيّر **لتقدير كمية المادة المقاسة**."
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Antigen + Antibody",
+     "ar": "مستضد + ضد"
+    },
+    {
+     "en": "immune complexes",
+     "ar": "معقّدات مناعية"
+    },
+    {
+     "en": "turbidity increases",
+     "ar": "تزداد العكارة"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Antigen + specific antibody → **immune complexes**.",
+    "Complexes → **more turbidity** → the analyzer estimates the analyte."
+   ],
+   "ar": [
+    "مستضد + ضد نوعي ← **معقّدات مناعية**.",
+    "المعقّدات ← **عكارة أكثر** ← يقدّر المحلّل كمية المادة المقاسة."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Instrument",
+   "ar": "الجهاز"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Turbidimetry can be measured using:",
+     "يمكن قياس العكارة باستعمال:"
+    ],
+    [
+     "Main parts",
+     "الأجزاء الرئيسة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Spectrophotometer**",
+      "**مطياف ضوئي**"
+     ],
+     [
+      "**Light source**",
+      "**مصدر الضوء**"
+     ]
+    ],
+    [
+     [
+      "**Automated chemistry analyzer**",
+      "**محلّل كيميائي آلي**"
+     ],
+     [
+      "**Sample cell / cuvette**",
+      "**خلية العيّنة / الكيوفيت**"
+     ]
+    ],
+    [
+     [
+      "**Turbidimetric analyzer**",
+      "**محلّل العكارة**"
+     ],
+     [
+      "**Detector**",
+      "**الكاشف**"
+     ]
+    ],
+    [
+     "",
+     [
+      "**Display or computer**",
+      "**شاشة عرض أو حاسوب**"
+     ]
+    ]
+   ],
+   "widths": [
+    50,
+    50
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/instrument-cuvette.jpg",
+     "en": "Placing the cuvette in the instrument",
+     "ar": "وضع الكيوفيت في الجهاز",
+     "h": "44mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/instrument-analyzer.jpg",
+     "en": "A turbidimetric analyzer with samples",
+     "ar": "محلّل عكارة مع العيّنات",
+     "h": "44mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "3 instruments: **spectrophotometer, automated chemistry analyzer, turbidimetric analyzer**.",
+    "4 parts: **light source → cuvette → detector → display**."
+   ],
+   "ar": [
+    "3 أجهزة: **المطياف الضوئي، والمحلّل الكيميائي الآلي، ومحلّل العكارة**.",
+    "4 أجزاء: **مصدر الضوء ← الكيوفيت ← الكاشف ← الشاشة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Clinical Applications",
+   "ar": "التطبيقات السريرية"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Measured by turbidimetry",
+     "ما يُقاس بالعكارة"
+    ],
+    [
+     "Examples",
+     "أمثلة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**C-reactive protein (CRP)**",
+      "**البروتين المتفاعل C**"
+     ],
+     "CRP"
+    ],
+    [
+     [
+      "**Immunoglobulins**",
+      "**الغلوبولينات المناعية**"
+     ],
+     [
+      "such as IgG, IgA, and IgM",
+      "مثل IgG وIgA وIgM"
+     ]
+    ],
+    [
+     [
+      "**Complement proteins**",
+      "**بروتينات المتمّمة**"
+     ],
+     [
+      "such as C3 and C4",
+      "مثل C3 وC4"
+     ]
+    ],
+    [
+     [
+      "**Transferrin and other specific proteins**",
+      "**الترانسفيرين وبروتينات نوعية أخرى**"
+     ],
+     "Transferrin"
+    ],
+    [
+     [
+      "**Some urine protein measurements**",
+      "**بعض قياسات بروتين الإدرار**"
+     ],
+     [
+      "urine protein",
+      "بروتين الإدرار"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    55,
+    45
+   ],
+   "style": "summary",
+   "label_en": "Applications",
+   "label_ar": "التطبيقات"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Remember **CRP**, **IgG/IgA/IgM**, **C3/C4**, **transferrin**, **urine protein**.",
+    "All are **specific proteins** measured by antigen–antibody turbidity."
+   ],
+   "ar": [
+    "تذكّر **CRP**، و**IgG/IgA/IgM**، و**C3/C4**، و**الترانسفيرين**، و**بروتين الإدرار**.",
+    "كلها **بروتينات نوعية** تُقاس بعكارة تفاعل المستضد والضد."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Basic Practical Steps",
+   "ar": "الخطوات العملية الأساسية"
+  },
+  {
+   "t": "rule",
+   "en": "**Prepare** the sample and reagent",
+   "ar": "**حضّر** العيّنة والكاشف"
+  },
+  {
+   "t": "rule",
+   "en": "**Mix** them correctly",
+   "ar": "**امزجهما** بشكل صحيح"
+  },
+  {
+   "t": "rule",
+   "en": "Allow the reaction to **develop**",
+   "ar": "اترك التفاعل **ليكتمل**"
+  },
+  {
+   "t": "rule",
+   "en": "Place the **cuvette** in the instrument",
+   "ar": "ضع **الكيوفيت** في الجهاز"
+  },
+  {
+   "t": "rule",
+   "en": "**Measure** the turbidity / absorbance",
+   "ar": "**قِس** العكارة / الامتصاص"
+  },
+  {
+   "t": "rule",
+   "en": "**Record** the result",
+   "ar": "**سجّل** النتيجة"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Prepare",
+     "ar": "حضّر"
+    },
+    {
+     "en": "Mix",
+     "ar": "امزج"
+    },
+    {
+     "en": "React",
+     "ar": "تفاعل"
+    },
+    {
+     "en": "Cuvette",
+     "ar": "الكيوفيت"
+    },
+    {
+     "en": "Measure",
+     "ar": "قِس"
+    },
+    {
+     "en": "Record",
+     "ar": "سجّل"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "6 steps: **prepare → mix → react → cuvette → measure → record**."
+   ],
+   "ar": [
+    "6 خطوات: **حضّر ← امزج ← تفاعل ← الكيوفيت ← قِس ← سجّل**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Turbidimetry vs Nephelometry",
+   "ar": "قياس العكارة مقابل قياس التشتّت"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Turbidimetry",
+     "قياس العكارة"
+    ],
+    [
+     "Nephelometry",
+     "قياس التشتّت (النفلومتري)"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "1. Measures **transmitted light**.",
+      "1. يقيس **الضوء النافذ**."
+     ],
+     [
+      "1. Measures **scattered light**.",
+      "1. يقيس **الضوء المتشتّت**."
+     ]
+    ],
+    [
+     [
+      "2. Detector is **in line with the light beam**.",
+      "2. الكاشف **على خط الحزمة الضوئية**."
+     ],
+     [
+      "2. The detector is placed **at an angle, commonly 90°**.",
+      "2. يوضع الكاشف **بزاوية، غالبًا 90°**."
+     ]
+    ],
+    [
+     [
+      "3. More turbidity → **less transmitted light**.",
+      "3. عكارة أكثر ← **ضوء نافذ أقل**."
+     ],
+     [
+      "3. More particles → **more scattered light**.",
+      "3. جسيمات أكثر ← **ضوء متشتّت أكثر**."
+     ]
+    ]
+   ],
+   "widths": [
+    50,
+    50
+   ],
+   "style": "summary",
+   "label_en": "Comparison",
+   "label_ar": "مقارنة"
+  },
+  {
+   "t": "figure",
+   "src": "assets/turbid-vs-nephelo.png",
+   "en": "Turbidimetry: detector in line with the beam; nephelometry: detector at an angle to read scattered light",
+   "ar": "قياس العكارة: الكاشف على خط الحزمة؛ قياس التشتّت: الكاشف بزاوية ليقرأ الضوء المتشتّت",
+   "h": "48mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label in the figure",
+     "التسمية في الشكل"
+    ],
+    [
+     "Arabic",
+     "بالعربي"
+    ]
+   ],
+   "rows": [
+    [
+     "**Light source**",
+     "مصدر الضوء"
+    ],
+    [
+     "**Lens**",
+     "عدسة"
+    ],
+    [
+     "**Sample**",
+     "العيّنة"
+    ],
+    [
+     "**Scattered light**",
+     "الضوء المتشتّت"
+    ],
+    [
+     "**Detector and readout**",
+     "الكاشف والقراءة"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    45,
+    55
+   ],
+   "label_en": "Figure labels",
+   "label_ar": "تسميات الشكل"
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Turbidimetry** = transmitted light, detector **straight** (180°).",
+    "**Nephelometry** = scattered light, detector **at 90°**.",
+    "Particles ↑ → transmitted ↓ but scattered ↑."
+   ],
+   "ar": [
+    "**قياس العكارة** = ضوء نافذ، والكاشف **مستقيم** (180°).",
+    "**قياس التشتّت** = ضوء متشتّت، والكاشف **بزاوية 90°**.",
+    "الجسيمات ↑ ← النافذ ↓ لكن المتشتّت ↑."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Common Sources of Error",
+   "ar": "مصادر الخطأ الشائعة"
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "",
+     "ar": "",
+     "list_en": [
+      "**Air bubbles** in the cuvette",
+      "**Dirty or scratched** cuvette",
+      "**Incorrect** sample or reagent **volume**",
+      "**Poor mixing**",
+      "Very **lipemic samples** may interfere with some assays",
+      "Using the **wrong wavelength** or assay settings"
+     ],
+     "list_ar": [
+      "**فقاعات هواء** في الكيوفيت",
+      "كيوفيت **متّسخ أو مخدوش**",
+      "**حجم غير صحيح** للعيّنة أو الكاشف",
+      "**مزج ضعيف**",
+      "قد تتداخل **العيّنات الدهنية جدًا** مع بعض الفحوص",
+      "استعمال **طول موجي خاطئ** أو إعدادات فحص خاطئة"
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/turbidity-standards.png",
+    "en": "Pure water cuvette and turbidity reference solutions",
+    "ar": "كيوفيت ماء نقي ومحاليل العكارة المرجعية"
+   }
+  },
+  {
+   "t": "note",
+   "en": [
+    "Cuvette errors: **bubbles, dirt, scratches**.",
+    "Method errors: **wrong volume, poor mixing, wrong wavelength**.",
+    "Sample error: **very lipemic** sample."
+   ],
+   "ar": [
+    "أخطاء الكيوفيت: **الفقاعات، والاتّساخ، والخدوش**.",
+    "أخطاء الطريقة: **حجم خاطئ، ومزج ضعيف، وطول موجي خاطئ**.",
+    "خطأ العيّنة: عيّنة **دهنية جدًا**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Advantages",
+   "ar": "المزايا"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Simple and fast**",
+    "Can be **automated**",
+    "Useful for **quantitative** measurements",
+    "Suitable for **routine clinical laboratories**",
+    "Can measure **several specific proteins**"
+   ],
+   "list_ar": [
+    "**بسيط وسريع**",
+    "يمكن **أتمتته**",
+    "مفيد في القياسات **الكمّية**",
+    "مناسب **للمختبرات السريرية الروتينية**",
+    "يمكنه قياس **عدّة بروتينات نوعية**"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Simple, fast, automated, quantitative, routine.**"
+   ],
+   "ar": [
+    "**بسيط، وسريع، وآلي، وكمّي، وروتيني.**"
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Quick Summary",
+   "ar": "خلاصة سريعة"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    [
+     "Key idea",
+     "الفكرة الأساسية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Turbidimetry**",
+      "**قياس العكارة**"
+     ],
+     [
+      "Measures transmitted light through a cloudy sample. It does not directly measure scattered light.",
+      "يقيس الضوء النافذ خلال عيّنة عكرة. ولا يقيس الضوء المتشتّت مباشرة."
+     ]
+    ],
+    [
+     [
+      "**Immunoturbidimetry**",
+      "**قياس العكارة المناعي**"
+     ],
+     [
+      "Uses antigen–antibody complexes to create turbidity.",
+      "يستعمل معقّدات المستضد والضد لتكوين العكارة."
+     ]
+    ],
+    [
+     [
+      "**Nephelometry**",
+      "**قياس التشتّت**"
+     ],
+     [
+      "Measures scattered light, commonly at 90°.",
+      "يقيس الضوء المتشتّت، غالبًا بزاوية 90°."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    70
+   ],
+   "style": "summary",
+   "label_en": "Quick summary",
+   "label_ar": "خلاصة سريعة"
+  },
+  {
+   "t": "note",
+   "en": "**More particles → more turbidity → less transmitted light.**",
+   "ar": "**جسيمات أكثر ← عكارة أكثر ← ضوء نافذ أقل.**",
+   "label": [
+    "Remember",
+    "تذكّر"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Turbidimetry**",
+     "قياس العكارة / القياس العكري / التوربيديمتري"
+    ],
+    [
+     "**Turbidity / Cloudiness**",
+     "العكارة / التعكّر / الغباشة"
+    ],
+    [
+     "**Suspended particles**",
+     "جسيمات عالقة / دقائق معلّقة"
+    ],
+    [
+     "**Transmitted light**",
+     "الضوء النافذ / الضوء المار / الضوء المنقول"
+    ],
+    [
+     "**Scattered light**",
+     "الضوء المتشتّت / الضوء المبعثر"
+    ],
+    [
+     "**Detector**",
+     "الكاشف / المتحسّس / المستقبِل"
+    ],
+    [
+     "**Cuvette / Sample cell**",
+     "الكيوفيت / خلية العيّنة / أنبوب القياس"
+    ],
+    [
+     "**Immunoturbidimetry**",
+     "قياس العكارة المناعي / التوربيديمتري المناعي"
+    ],
+    [
+     "**Immune complex**",
+     "معقّد مناعي / مركّب مستضد–ضد"
+    ],
+    [
+     "**Analyte**",
+     "المادة المقاسة / المادة المحلَّلة / المحلول المستهدف"
+    ],
+    [
+     "**Nephelometry**",
+     "قياس التشتّت / قياس الكدرة / النفلومتري"
+    ],
+    [
+     "**Spectrophotometer**",
+     "مطياف ضوئي / جهاز المطياف / السبكتروفوتوميتر"
+    ],
+    [
+     "**Absorbance**",
+     "الامتصاص / الامتصاصية / الكثافة الضوئية"
+    ],
+    [
+     "**Wavelength**",
+     "الطول الموجي / طول الموجة"
+    ],
+    [
+     "**Lipemic sample**",
+     "عيّنة دهنية / مصل شحمي / عيّنة عكرة بالدهون"
+    ],
+    [
+     "**C-reactive protein (CRP)**",
+     "البروتين المتفاعل C / بروتين سي التفاعلي"
+    ],
+    [
+     "**Complement (C3, C4)**",
+     "المتمّمة / بروتينات المتمّم / الكومبلمنت"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Definition and principle",
+    "topic_ar": "التعريف والمبدأ"
+   },
+   {
+    "en": "Turbidimetry measures:",
+    "ar": "يقيس قياس العكارة:",
+    "options": [
+     [
+      "The cloudiness of a liquid sample",
+      "تعكّر العيّنة السائلة"
+     ],
+     [
+      "The colour of a sample",
+      "لون العيّنة"
+     ],
+     [
+      "The pH of a sample",
+      "الأس الهيدروجيني للعيّنة"
+     ],
+     [
+      "The temperature of a sample",
+      "درجة حرارة العيّنة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Cloudiness of a sample is caused by:",
+    "ar": "ينتج تعكّر العيّنة عن:",
+    "options": [
+     [
+      "Dissolved salts",
+      "الأملاح الذائبة"
+     ],
+     [
+      "Particles suspended in the sample",
+      "جسيمات عالقة في العيّنة"
+     ],
+     [
+      "Water",
+      "الماء"
+     ],
+     [
+      "Light",
+      "الضوء"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In turbidimetry, the detector measures:",
+    "ar": "في قياس العكارة يقيس الكاشف:",
+    "options": [
+     [
+      "Emitted fluorescence",
+      "الفلورة المنبعثة"
+     ],
+     [
+      "Scattered light",
+      "الضوء المتشتّت"
+     ],
+     [
+      "Transmitted light",
+      "الضوء النافذ"
+     ],
+     [
+      "Radioactivity",
+      "النشاط الإشعاعي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "More turbidity means:",
+    "ar": "العكارة الأكثر تعني:",
+    "options": [
+     [
+      "More transmitted light",
+      "ضوءًا نافذًا أكثر"
+     ],
+     [
+      "No change in light",
+      "لا تغيّر في الضوء"
+     ],
+     [
+      "More absorbed colour",
+      "لونًا ممتصًا أكثر"
+     ],
+     [
+      "Less transmitted light",
+      "ضوءًا نافذًا أقل"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The correct order in the principle is:",
+    "ar": "الترتيب الصحيح في المبدأ:",
+    "options": [
+     [
+      "Detector → sample → light source",
+      "الكاشف ← العيّنة ← مصدر الضوء"
+     ],
+     [
+      "Light source → sample → transmitted light → detector",
+      "مصدر الضوء ← العيّنة ← الضوء النافذ ← الكاشف"
+     ],
+     [
+      "Sample → light source → detector",
+      "العيّنة ← مصدر الضوء ← الكاشف"
+     ],
+     [
+      "Light source → detector → sample",
+      "مصدر الضوء ← الكاشف ← العيّنة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Suspended particles in the sample:",
+    "ar": "الجسيمات العالقة في العيّنة:",
+    "options": [
+     [
+      "Reduce the light that passes straight through",
+      "تقلّل الضوء النافذ بشكل مستقيم"
+     ],
+     [
+      "Have no effect on light",
+      "ليس لها تأثير على الضوء"
+     ],
+     [
+      "Increase the light that passes straight through",
+      "تزيد الضوء النافذ بشكل مستقيم"
+     ],
+     [
+      "Produce light",
+      "تُنتج ضوءًا"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Immunoturbidimetry and applications",
+    "topic_ar": "قياس العكارة المناعي والتطبيقات"
+   },
+   {
+    "en": "In immunoturbidimetry, turbidity is produced by:",
+    "ar": "في قياس العكارة المناعي تنتج العكارة عن:",
+    "options": [
+     [
+      "Air bubbles",
+      "فقاعات الهواء"
+     ],
+     [
+      "Red blood cells",
+      "الكريات الحمر"
+     ],
+     [
+      "Immune complexes of antigen and antibody",
+      "معقّدات مناعية من المستضد والضد"
+     ],
+     [
+      "Lipids only",
+      "الدهون فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The analyzer measures the change in turbidity to:",
+    "ar": "يقيس المحلّل تغيّر العكارة من أجل:",
+    "options": [
+     [
+      "Count cells",
+      "عدّ الخلايا"
+     ],
+     [
+      "Measure pH",
+      "قياس الأس الهيدروجيني"
+     ],
+     [
+      "Identify bacteria",
+      "تشخيص البكتيريا"
+     ],
+     [
+      "Estimate the amount of the analyte",
+      "تقدير كمية المادة المقاسة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which is a clinical application of turbidimetry?",
+    "ar": "أي مما يأتي تطبيق سريري لقياس العكارة؟",
+    "options": [
+     [
+      "C-reactive protein (CRP)",
+      "البروتين المتفاعل C"
+     ],
+     [
+      "Blood film staining",
+      "صبغ المسحة الدموية"
+     ],
+     [
+      "Gram stain",
+      "صبغة غرام"
+     ],
+     [
+      "Blood grouping",
+      "تحديد فصيلة الدم"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Complement proteins measured by turbidimetry include:",
+    "ar": "من بروتينات المتمّمة التي تُقاس بالعكارة:",
+    "options": [
+     [
+      "Hb and MCV",
+      "Hb وMCV"
+     ],
+     [
+      "IgE and IgD",
+      "IgE وIgD"
+     ],
+     [
+      "Albumin and globulin",
+      "الألبومين والغلوبولين"
+     ],
+     [
+      "C3 and C4",
+      "C3 وC4"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The immunoglobulins listed in the lecture are:",
+    "ar": "الغلوبولينات المناعية المذكورة في المحاضرة:",
+    "options": [
+     [
+      "IgE only",
+      "IgE فقط"
+     ],
+     [
+      "IgD and IgE",
+      "IgD وIgE"
+     ],
+     [
+      "IgG, IgA, and IgM",
+      "IgG وIgA وIgM"
+     ],
+     [
+      "None",
+      "لا شيء"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Instrument, steps, errors",
+    "topic_ar": "الجهاز والخطوات والأخطاء"
+   },
+   {
+    "en": "Which is NOT listed as an instrument for turbidimetry?",
+    "ar": "أي مما يأتي ليس من أجهزة قياس العكارة المذكورة؟",
+    "options": [
+     [
+      "Spectrophotometer",
+      "المطياف الضوئي"
+     ],
+     [
+      "Centrifuge",
+      "جهاز الطرد المركزي"
+     ],
+     [
+      "Turbidimetric analyzer",
+      "محلّل العكارة"
+     ],
+     [
+      "Automated chemistry analyzer",
+      "المحلّل الكيميائي الآلي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The sample is placed in the:",
+    "ar": "توضع العيّنة في:",
+    "options": [
+     [
+      "Detector",
+      "الكاشف"
+     ],
+     [
+      "Light source",
+      "مصدر الضوء"
+     ],
+     [
+      "Sample cell / cuvette",
+      "خلية العيّنة / الكيوفيت"
+     ],
+     [
+      "Display",
+      "الشاشة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "After mixing sample and reagent, the next step is:",
+    "ar": "بعد مزج العيّنة والكاشف تكون الخطوة التالية:",
+    "options": [
+     [
+      "Record the result",
+      "تسجيل النتيجة"
+     ],
+     [
+      "Measure immediately",
+      "القياس مباشرة"
+     ],
+     [
+      "Discard the cuvette",
+      "التخلّص من الكيوفيت"
+     ],
+     [
+      "Allow the reaction to develop",
+      "ترك التفاعل ليكتمل"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which is a common source of error?",
+    "ar": "أي مما يأتي من مصادر الخطأ الشائعة؟",
+    "options": [
+     [
+      "Air bubbles in the cuvette",
+      "فقاعات هواء في الكيوفيت"
+     ],
+     [
+      "Clean cuvette",
+      "كيوفيت نظيف"
+     ],
+     [
+      "Correct wavelength",
+      "طول موجي صحيح"
+     ],
+     [
+      "Good mixing",
+      "مزج جيد"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Very lipemic samples:",
+    "ar": "العيّنات الدهنية جدًا:",
+    "options": [
+     [
+      "Improve accuracy",
+      "تحسّن الدقّة"
+     ],
+     [
+      "May interfere with some assays",
+      "قد تتداخل مع بعض الفحوص"
+     ],
+     [
+      "Are required for the test",
+      "مطلوبة للفحص"
+     ],
+     [
+      "Have no effect",
+      "ليس لها تأثير"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which is an advantage of turbidimetry?",
+    "ar": "أي مما يأتي من مزايا قياس العكارة؟",
+    "options": [
+     [
+      "Very slow",
+      "بطيء جدًا"
+     ],
+     [
+      "Can be automated",
+      "يمكن أتمتته"
+     ],
+     [
+      "Qualitative only",
+      "نوعي فقط"
+     ],
+     [
+      "Measures one protein only",
+      "يقيس بروتينًا واحدًا فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Turbidimetry vs nephelometry",
+    "topic_ar": "العكارة مقابل التشتّت"
+   },
+   {
+    "en": "Nephelometry measures:",
+    "ar": "يقيس قياس التشتّت:",
+    "options": [
+     [
+      "Transmitted light",
+      "الضوء النافذ"
+     ],
+     [
+      "Absorbed colour",
+      "اللون الممتص"
+     ],
+     [
+      "Electrical current",
+      "التيار الكهربائي"
+     ],
+     [
+      "Scattered light",
+      "الضوء المتشتّت"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In nephelometry, the detector is commonly placed at:",
+    "ar": "في قياس التشتّت يوضع الكاشف غالبًا بزاوية:",
+    "options": [
+     [
+      "90°",
+      "90°"
+     ],
+     [
+      "0° behind the light source",
+      "0° خلف مصدر الضوء"
+     ],
+     [
+      "45° only",
+      "45° فقط"
+     ],
+     [
+      "In line with the light beam",
+      "على خط الحزمة الضوئية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In turbidimetry, the detector is:",
+    "ar": "في قياس العكارة يكون الكاشف:",
+    "options": [
+     [
+      "At 90°",
+      "بزاوية 90°"
+     ],
+     [
+      "Above the sample",
+      "فوق العيّنة"
+     ],
+     [
+      "In line with the light beam",
+      "على خط الحزمة الضوئية"
+     ],
+     [
+      "Inside the light source",
+      "داخل مصدر الضوء"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In nephelometry, more particles give:",
+    "ar": "في قياس التشتّت تعطي الجسيمات الأكثر:",
+    "options": [
+     [
+      "Less scattered light",
+      "ضوءًا متشتّتًا أقل"
+     ],
+     [
+      "More transmitted light",
+      "ضوءًا نافذًا أكثر"
+     ],
+     [
+      "No light",
+      "لا ضوء"
+     ],
+     [
+      "More scattered light",
+      "ضوءًا متشتّتًا أكثر"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this turbidimeter, the part that holds the sample is the:",
+    "ar": "في جهاز قياس العكارة هذا، الجزء الذي يحمل العيّنة هو:",
+    "options": [
+     [
+      "Filter",
+      "المرشّح"
+     ],
+     [
+      "Sample cell",
+      "خلية العيّنة"
+     ],
+     [
+      "Read out device",
+      "جهاز عرض القراءة"
+     ],
+     [
+      "Visible light",
+      "الضوء المرئي"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/turbidimeter-diagram.png",
+    "img_h": "38mm"
+   },
+   {
+    "en": "In the lower diagram (nephelometry), the detector reads:",
+    "ar": "في المخطط السفلي (قياس التشتّت) يقرأ الكاشف:",
+    "options": [
+     [
+      "Reflected colour",
+      "اللون المنعكس"
+     ],
+     [
+      "Transmitted light",
+      "الضوء النافذ"
+     ],
+     [
+      "Scattered light",
+      "الضوء المتشتّت"
+     ],
+     [
+      "Heat",
+      "الحرارة"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/turbid-vs-nephelo.png",
+    "img_h": "38mm"
+   },
+   {
+    "en": "The cuvettes in this picture show:",
+    "ar": "تُظهر الكيوفيتات في هذه الصورة:",
+    "options": [
+     [
+      "Pure water and turbidity reference solutions",
+      "ماءً نقيًا ومحاليل عكارة مرجعية"
+     ],
+     [
+      "Stained cells",
+      "خلايا مصبوغة"
+     ],
+     [
+      "Different pH values",
+      "قيم أس هيدروجيني مختلفة"
+     ],
+     [
+      "Blood groups",
+      "فصائل الدم"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/turbidity-standards.png",
+    "img_h": "38mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Turbidimetry measures the cloudiness of a liquid sample.",
+    "ar": "يقيس قياس العكارة تعكّر العيّنة السائلة.",
+    "answer": "T"
+   },
+   {
+    "en": "In turbidimetry, more turbidity gives more transmitted light.",
+    "ar": "في قياس العكارة تعطي العكارة الأكثر ضوءًا نافذًا أكثر.",
+    "answer": "F"
+   },
+   {
+    "en": "The detector in turbidimetry measures the transmitted light.",
+    "ar": "يقيس الكاشف في قياس العكارة الضوء النافذ.",
+    "answer": "T"
+   },
+   {
+    "en": "Immune complexes make the sample less turbid.",
+    "ar": "تجعل المعقّدات المناعية العيّنة أقل عكارة.",
+    "answer": "F"
+   },
+   {
+    "en": "CRP can be measured by turbidimetry.",
+    "ar": "يمكن قياس CRP بقياس العكارة.",
+    "answer": "T"
+   },
+   {
+    "en": "Nephelometry measures transmitted light.",
+    "ar": "يقيس قياس التشتّت الضوء النافذ.",
+    "answer": "F"
+   },
+   {
+    "en": "In nephelometry the detector is commonly at 90°.",
+    "ar": "في قياس التشتّت يكون الكاشف غالبًا بزاوية 90°.",
+    "answer": "T"
+   },
+   {
+    "en": "A scratched cuvette is a source of error.",
+    "ar": "الكيوفيت المخدوش مصدر من مصادر الخطأ.",
+    "answer": "T"
+   },
+   {
+    "en": "Turbidimetry cannot be automated.",
+    "ar": "لا يمكن أتمتة قياس العكارة.",
+    "answer": "F"
+   },
+   {
+    "en": "Turbidimetry directly measures scattered light.",
+    "ar": "يقيس قياس العكارة الضوء المتشتّت مباشرة.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Turbidimetry vs nephelometry",
+    "ar": "العكارة مقابل التشتّت",
+    "answer_en": "Turbidimetry: transmitted light, detector in line. Nephelometry: scattered light, detector at an angle (commonly 90°).",
+    "answer_ar": "العكارة: ضوء نافذ، والكاشف على الخط. التشتّت: ضوء متشتّت، والكاشف بزاوية (غالبًا 90°)."
+   },
+   {
+    "en": "Turbidity and transmitted light",
+    "ar": "العكارة والضوء النافذ",
+    "answer_en": "They move in opposite directions: more turbidity → less transmitted light.",
+    "answer_ar": "يتحرّكان باتجاهين متعاكسين: عكارة أكثر ← ضوء نافذ أقل."
+   },
+   {
+    "en": "Particles in nephelometry",
+    "ar": "الجسيمات في قياس التشتّت",
+    "answer_en": "More particles → MORE scattered light (not less).",
+    "answer_ar": "جسيمات أكثر ← ضوء متشتّت أكثر (وليس أقل)."
+   },
+   {
+    "en": "Turbidimetry vs immunoturbidimetry",
+    "ar": "العكارة مقابل العكارة المناعية",
+    "answer_en": "Immunoturbidimetry is turbidimetry where the turbidity comes from antigen–antibody complexes.",
+    "answer_ar": "العكارة المناعية هي قياس عكارة تنتج فيه العكارة عن معقّدات المستضد والضد."
+   },
+   {
+    "en": "Reaction time",
+    "ar": "زمن التفاعل",
+    "answer_en": "Do not measure right after mixing: allow the reaction to develop first.",
+    "answer_ar": "لا تقِس مباشرة بعد المزج: اترك التفاعل ليكتمل أولًا."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define turbidimetry and state what causes turbidity.",
+    "ar": "عرّف قياس العكارة، وما سبب العكارة؟",
+    "answer_en": "Turbidimetry measures the cloudiness of a liquid sample; cloudiness is caused by particles suspended in the sample.",
+    "answer_ar": "يقيس قياس العكارة تعكّر العيّنة السائلة، وينتج التعكّر عن جسيمات عالقة في العيّنة."
+   },
+   {
+    "en": "Explain the principle of turbidimetry.",
+    "ar": "اشرح مبدأ قياس العكارة.",
+    "answer_en": "A beam of light passes through the sample; suspended particles reduce the light passing straight through; the detector measures the transmitted light; more turbidity → less transmitted light.",
+    "answer_ar": "تمرّ حزمة ضوئية خلال العيّنة، فتقلّل الجسيمات العالقة الضوء النافذ المستقيم، ويقيس الكاشف الضوء النافذ؛ عكارة أكثر ← ضوء نافذ أقل."
+   },
+   {
+    "en": "How does immunoturbidimetry work?",
+    "ar": "كيف يعمل قياس العكارة المناعي؟",
+    "answer_en": "Antigen + specific antibody → small immune complexes → turbidity increases → the analyzer measures the change to estimate the analyte.",
+    "answer_ar": "مستضد + ضد نوعي ← معقّدات مناعية صغيرة ← تزداد العكارة ← يقيس المحلّل التغيّر لتقدير المادة المقاسة."
+   },
+   {
+    "en": "List the clinical applications of turbidimetry.",
+    "ar": "عدّد التطبيقات السريرية لقياس العكارة.",
+    "answer_en": "CRP; immunoglobulins IgG, IgA, IgM; complement C3 and C4; transferrin and other specific proteins; some urine protein measurements.",
+    "answer_ar": "CRP؛ الغلوبولينات المناعية IgG وIgA وIgM؛ المتمّمة C3 وC4؛ الترانسفيرين وبروتينات نوعية أخرى؛ بعض قياسات بروتين الإدرار."
+   },
+   {
+    "en": "Compare turbidimetry with nephelometry.",
+    "ar": "قارن بين قياس العكارة وقياس التشتّت.",
+    "answer_en": "Turbidimetry: transmitted light, detector in line, more turbidity → less transmitted light. Nephelometry: scattered light, detector at an angle (commonly 90°), more particles → more scattered light.",
+    "answer_ar": "العكارة: ضوء نافذ، والكاشف على الخط، وعكارة أكثر ← ضوء نافذ أقل. التشتّت: ضوء متشتّت، والكاشف بزاوية (غالبًا 90°)، وجسيمات أكثر ← ضوء متشتّت أكثر."
+   },
+   {
+    "en": "List the common sources of error in turbidimetry.",
+    "ar": "عدّد مصادر الخطأ الشائعة في قياس العكارة.",
+    "answer_en": "Air bubbles; dirty or scratched cuvette; incorrect sample or reagent volume; poor mixing; very lipemic samples; wrong wavelength or assay settings.",
+    "answer_ar": "فقاعات الهواء؛ كيوفيت متّسخ أو مخدوش؛ حجم غير صحيح للعيّنة أو الكاشف؛ مزج ضعيف؛ عيّنات دهنية جدًا؛ طول موجي أو إعدادات خاطئة."
+   }
+  ]
+ }
+}
