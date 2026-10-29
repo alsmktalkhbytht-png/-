@@ -1,6 +1,6 @@
 ---
 source: BIOS-Obsidian/tools/scripts/tb/turb.py
-handouts: [advtech-lab4-turbidimetry]
+handouts: [hematology-practical-turbidimetry]
 saved: 2026-10-29
 tags: [bios, code]
 ---
@@ -8,14 +8,11 @@ tags: [bios, code]
 
 Generator script — writes the handout's `lecture.json`.
 
-Handouts: [[06 فهرس الملازم#advtech-lab4-turbidimetry|advtech-lab4-turbidimetry]]
+Handouts: [[06 فهرس الملازم#hematology-practical-turbidimetry|hematology-practical-turbidimetry]]
 
 ```python
 import sys; sys.path.insert(0, "/tmp/claude-0/-home-user--/8f878068-bae9-502b-96f7-788f221c7cb0/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
-
-AT = dict(subject_en="Advanced Laboratory Techniques", subject_ar="التقنيات المختبرية المتقدمة", short_ar="تقنيات متقدمة", unit_label="LAB",
-          kind="Laboratories — عملي", stage="The fourth stage — الرابعة", instructor="ليندا منجد هادي")
 
 blocks = [
  SEC("What is Turbidimetry?", "ما هو قياس العكارة؟"),
@@ -209,7 +206,7 @@ important = [
  IM("Compare turbidimetry with nephelometry.", "قارن بين قياس العكارة وقياس التشتّت.", "Turbidimetry: transmitted light, detector in line, more turbidity → less transmitted light. Nephelometry: scattered light, detector at an angle (commonly 90°), more particles → more scattered light.", "العكارة: ضوء نافذ، والكاشف على الخط، وعكارة أكثر ← ضوء نافذ أقل. التشتّت: ضوء متشتّت، والكاشف بزاوية (غالبًا 90°)، وجسيمات أكثر ← ضوء متشتّت أكثر."),
  IM("List the common sources of error in turbidimetry.", "عدّد مصادر الخطأ الشائعة في قياس العكارة.", "Air bubbles; dirty or scratched cuvette; incorrect sample or reagent volume; poor mixing; very lipemic samples; wrong wavelength or assay settings.", "فقاعات الهواء؛ كيوفيت متّسخ أو مخدوش؛ حجم غير صحيح للعيّنة أو الكاشف؛ مزج ضعيف؛ عيّنات دهنية جدًا؛ طول موجي أو إعدادات خاطئة."),
 ]
-meta = dict(AT, unit_en="Lab 4", unit_ar="العملي 4", unit_no="4", title_en="Turbidimetry", title_ar="قياس العكارة")
-save("advtech-lab4-turbidimetry", meta, blocks, mcq, tf, traps, important)
+meta = dict(HEM, unit_en="Lab 4", unit_ar="العملي 4", unit_no="4", title_en="Turbidimetry", title_ar="قياس العكارة")
+save("hematology-practical-turbidimetry", meta, blocks, mcq, tf, traps, important)
 
 ```
