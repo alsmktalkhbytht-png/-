@@ -51,3 +51,4 @@ Build a handout:
 ```bash
 python3 bios-engine/bios.py lab1-biosafety/lecture.json
 ```
+- `intro-video/` — animated BIOS intro (10 s, 1920×1080 MP4 with synthesised sound): `intro.html` (timeline in `render(t)`), `render.js` (Playwright frames), `audio.py` (soundtrack). Credits: بإدارة محمد حامد و عبد الله خالد — إنشاء الفيديو بواسطة عبدالقهار حسيب. Rebuild: `python3 audio.py a.wav && node render.js <dir> 30 10 && ffmpeg …`.
