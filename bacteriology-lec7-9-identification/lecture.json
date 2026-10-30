@@ -7,7 +7,7 @@
   "department": "قسم التحليلات",
   "kind": "Theory — نظري",
   "stage": "The fourth stage — الرابعة",
-  "instructor": "أ.م.د. آمال عزيز كريم",
+  "instructor": "د. عدنان",
   "unit_en": "Lectures 7, 8, 9",
   "unit_ar": "المحاضرات 7 و8 و9",
   "unit_no": "7–9",
@@ -530,6 +530,34 @@
    "ar": "المسحات المباشرة وغير المباشرة"
   },
   {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "A **direct smear** is a preparation of the **primary clinical sample** received in the laboratory for processing.",
+    "A direct smear provides a mechanism to identify the **number and type of cells** present in a specimen, including **white blood cells, epithelial cells, and predominant organism type**."
+   ],
+   "list_ar": [
+    "**المسحة المباشرة** تحضير من **العيّنة السريرية الأولية** الواصلة إلى المختبر للمعالجة.",
+    "وتوفّر المسحة المباشرة وسيلة لتحديد **عدد الخلايا ونوعها** في العيّنة، ومنها **الكريات البيض، والخلايا الظهارية، ونوع الحي السائد**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Indirect smear** organisms obtained after **purification or growth on artificial media**.",
+    "Indirect smears may include preparation from **solid or semisolid media or broth**.",
+    "Care should be taken to ensure the smear is **not too thick** when preparing the slide from solid media."
+   ],
+   "list_ar": [
+    "**المسحة غير المباشرة**: أحياء نحصل عليها بعد **التنقية أو النمو على أوساط صناعية**.",
+    "وقد تشمل المسحات غير المباشرة تحضيرًا من **أوساط صلبة أو شبه صلبة أو مرق**.",
+    "ويجب الحرص على ألّا تكون المسحة **سميكة جدًا** عند تحضير الشريحة من الوسط الصلب."
+   ]
+  },
+  {
    "t": "table",
    "head": [
     [
@@ -584,8 +612,8 @@
     38
    ],
    "style": "summary",
-   "label_en": "Smears",
-   "label_ar": "المسحات"
+   "label_en": "Smears — summary",
+   "label_ar": "المسحات — خلاصة"
   },
   {
    "t": "note",
@@ -631,6 +659,21 @@
    "label": [
     "BIOS note",
     "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Simple stains** are directed toward coloring the forms and shapes present,",
+    "**differential stains** are directed toward coloring specific components of the elements present,",
+    "**diagnostic antibody or DNA probe–mediated stains** are directed specifically at identification of an organism."
+   ],
+   "list_ar": [
+    "**الأصباغ البسيطة** موجّهة نحو تلوين الأشكال والهيئات الموجودة،",
+    "و**الأصباغ التفريقية** موجّهة نحو تلوين مكوّنات محدّدة للعناصر الموجودة،",
+    "و**الأصباغ التشخيصية بالأضداد أو بمجسّات DNA** موجّهة تحديدًا نحو تشخيص حي معيّن."
    ]
   },
   {
@@ -723,6 +766,37 @@
    ]
   },
   {
+   "t": "card",
+   "en": "There are **two types of fixation** as follows:",
+   "ar": "هناك **نوعان من التثبيت** كالآتي:"
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Heat fixation:** It is usually done for bacterial smears by **gently flame heating an air-dried film** of bacteria.",
+    "This adequately preserves **overall morphology but not structures within the cells**."
+   ],
+   "ar": [
+    "**التثبيت الحراري:** يُجرى عادةً للمسحات البكتيرية **بتسخين غشاء بكتيري مجفّف بالهواء تسخينًا لطيفًا باللهب**.",
+    "وهذا يحفظ **الشكل العام جيدًا لكن ليس التراكيب داخل الخلايا**."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Chemical fixation:** It can be done using **ethanol, acetic acid, mercuric chloride, formaldehyde, methanol and glutaraldehyde**.",
+    "They are used to **protect the fine internal structure** of the cells.",
+    "This is useful for examination of **blood smears**.",
+    "The fixed smear is stained by appropriate staining technique."
+   ],
+   "ar": [
+    "**التثبيت الكيميائي:** يمكن إجراؤه باستعمال **الإيثانول، وحمض الخليك، وكلوريد الزئبق، والفورمالديهايد، والميثانول، والغلوتارالديهايد**.",
+    "وتُستعمل هذه المواد **لحماية التركيب الداخلي الدقيق** للخلايا.",
+    "وهذا مفيد لفحص **مسحات الدم**.",
+    "ثم تُصبغ المسحة المثبّتة بتقنية التصبيغ المناسبة."
+   ]
+  },
+  {
    "t": "table",
    "head": [
     [
@@ -777,13 +851,80 @@
     32
    ],
    "style": "summary",
-   "label_en": "Two types of fixation",
-   "label_ar": "نوعا التثبيت"
+   "label_en": "Fixation — summary",
+   "label_ar": "التثبيت — خلاصة"
   },
   {
    "t": "h2",
    "en": "Common staining techniques used on microbiology",
    "ar": "تقنيات التصبيغ الشائعة في الأحياء المجهرية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    [
+     "**Simple stain:** Basic dyes, such as **methylene blue or basic fuchsin** are used as simple stains.",
+     "They provide the color contrast, but impart the **same color to all the bacteria** in a smear."
+    ]
+   ],
+   "list_ar": [
+    [
+     "**الصبغ البسيط:** تُستعمل الأصباغ القاعدية مثل **أزرق المثيلين أو الفوكسين القاعدي** أصباغًا بسيطة.",
+     "وهي تعطي تباينًا لونيًا، لكنها تمنح **اللون نفسه لكل البكتيريا** في المسحة."
+    ]
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Negative staining:** A drop of bacterial suspension is mixed with dyes, such as **India ink or nigrosin**.The background gets stained **black** whereas unstained bacterial/yeast **capsule** stand out in contrast.",
+    "It is very useful in the demonstration of **bacterial/yeast capsules** which do not take up simple stains."
+   ],
+   "list_ar": [
+    "**الصبغ السلبي:** تُمزج قطرة من المعلّق البكتيري مع أصباغ مثل **حبر الهند أو النيغروسين**، فتُصبغ الخلفية بـ**الأسود** بينما تبرز **محفظة** البكتيريا/الخميرة غير المصبوغة بالتباين.",
+    "وهو مفيد جدًا في إظهار **محافظ البكتيريا/الخمائر** التي لا تأخذ الأصباغ البسيطة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Impregnation methods:** Bacterial cells and structures that are too thin to be seen under the light microscope, are **thickened by impregnation of silver salts** on their surface to make them visible, e.g. for demonstration of **bacterial flagella and spirochetes**."
+   ],
+   "list_ar": [
+    "**طرق التشريب:** الخلايا والتراكيب البكتيرية الرقيقة جدًا التي لا تُرى بالمجهر الضوئي **تُثخَّن بتشريب سطحها بأملاح الفضة** لتصبح مرئية، مثل إظهار **الأسواط البكتيرية والملتويات**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Differential stain:** **two stains** are used which impart different colors to different bacteria or bacterial structures, which help in differentiating bacteria.The most commonly employed differential stains are:"
+   ],
+   "list_ar": [
+    "**الصبغ التفريقي:** يُستعمل **صبغان** يمنحان ألوانًا مختلفة لبكتيريا أو تراكيب بكتيرية مختلفة، مما يساعد في التفريق بين البكتيريا، وأكثر الأصباغ التفريقية استعمالًا:"
+   ]
+  },
+  {
+   "t": "rule",
+   "en": "**Gram stain:** It differentiates bacteria into **gram positive and gram negative** groups (G+ or G- bacteria)",
+   "ar": "**صبغة كرام:** تفرّق البكتيريا إلى مجموعتي **موجبة كرام وسالبة كرام** (G+ أو G-)"
+  },
+  {
+   "t": "rule",
+   "en": "**Acid-fast stain:** It differentiates bacteria into **acid fast and nonacid fast** groups",
+   "ar": "**صبغة الصمود للحامض:** تفرّق البكتيريا إلى مجموعتي **الصامدة للحامض وغير الصامدة**"
+  },
+  {
+   "t": "rule",
+   "en": "**Chromatic granules** from other bacteria that do not have them.",
+   "ar": "**الحبيبات الملوّنة** عن البكتيريا الأخرى التي لا تملكها."
   },
   {
    "t": "table",
@@ -868,8 +1009,8 @@
     40
    ],
    "style": "summary",
-   "label_en": "Staining techniques",
-   "label_ar": "تقنيات التصبيغ"
+   "label_en": "Staining — summary",
+   "label_ar": "التصبيغ — خلاصة"
   },
   {
    "t": "note",
@@ -1430,6 +1571,60 @@
     "BIOS note",
     "ملاحظة BIOS"
    ]
+  },
+  {
+   "t": "section",
+   "en": "References",
+   "ar": "المصادر"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Reference",
+     "المصدر"
+    ],
+    [
+     "Year / edition",
+     "السنة / الطبعة"
+    ]
+   ],
+   "rows": [
+    [
+     "Jawetz, Melnick, & Adelberg’s — Medical Microbiology",
+     "2019 — Twenty-Eighth Edition"
+    ],
+    [
+     "Connie R. Mahon, Donald C. Lehman — Textbook of Diagnostic Microbiology",
+     "2019 — Sixth Edition"
+    ],
+    [
+     "Bailey & scott’s — Diagnostic microbiology",
+     "2017 — fourteenth edition"
+    ],
+    [
+     "Jeffrey C. Pommerville — Fundamentals of microbiology",
+     "2018 — Eleventh edition"
+    ],
+    [
+     "Orekan J. et al. — Clinical Microbiology and Infection 27: 1400-1408",
+     "2021"
+    ],
+    [
+     "Cynthia Nau Cornelissen — Lippincott Illustrated Reviews Flash Cards MICROBIOLOGY",
+     "2015 — Third Edition"
+    ],
+    [
+     "Prof.Dr.Mohammed Shammkhi Jeber — Notes of Diagnosis Microbiology",
+     "2019"
+    ]
+   ],
+   "widths": [
+    72,
+    28
+   ],
+   "label_en": "As listed in the lecture",
+   "label_ar": "كما في المحاضرة"
   },
   {
    "t": "section",
