@@ -54,6 +54,7 @@
 - [[Code/lb1 - gl1.py|lb1/gl1.py]] → genetics-lab1-mitosis
 - [[Code/lb2 - gl2.py|lb2/gl2.py]] → genetics-lab2-meiosis
 - [[Code/lb3 - gl3.py|lb3/gl3.py]] → genetics-lab3-medical-genetics
+- [[Code/mic - mic.py|mic/mic.py]] → bacteriology-lec7-9-identification
 - [[Code/n2 - make1.py|n2/make1.py]] → enzymology-lec1-introduction
 - [[Code/n2 - make2.py|n2/make2.py]] → enzymology-lec2-kinetics-inhibition
 - [[Code/n3 - make.py|n3/make.py]] → research-lec2-scientific-method

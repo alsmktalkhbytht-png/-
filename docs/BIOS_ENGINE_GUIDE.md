@@ -1108,6 +1108,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `lab1-biosafety` | بكتريا تشخيصية | عملي 1 |
 | `bacteriology-lab2-specimens` | بكتريا تشخيصية | عملي 2 |
 | `bacteriology-lab3-culture-media` | بكتريا تشخيصية | عملي 3 |
+| `bacteriology-lec7-9-identification` | بكتريا | نظري 7–9 (دمج) |
 | `bloodbank-lec1-introduction` | نقل الدم | 1 |
 | `bloodbank-lec2-donation-criteria` | نقل الدم | 2 |
 | `bloodbank-lec3-services` | نقل الدم | 3 |
