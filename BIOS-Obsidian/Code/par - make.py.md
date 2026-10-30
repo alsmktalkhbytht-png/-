@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/par/make.py
 handouts: [parasitology-week1-mcq]
-saved: 2026-10-29
+saved: 2026-10-30
 tags: [bios, code]
 ---
 # par/make.py

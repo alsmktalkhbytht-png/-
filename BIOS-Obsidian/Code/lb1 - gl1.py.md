@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/lb1/gl1.py
 handouts: [genetics-lab1-mitosis]
-saved: 2026-10-29
+saved: 2026-10-30
 tags: [bios, code]
 ---
 # lb1/gl1.py

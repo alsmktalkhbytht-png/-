@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/imm456/split.py
 handouts: []
-saved: 2026-10-29
+saved: 2026-10-30
 tags: [bios, code]
 ---
 # imm456/split.py

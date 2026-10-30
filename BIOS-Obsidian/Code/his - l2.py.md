@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/his/l2.py
 handouts: [histopathology-lab2-samples]
-saved: 2026-10-29
+saved: 2026-10-30
 tags: [bios, code]
 ---
 # his/l2.py

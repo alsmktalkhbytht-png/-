@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/bb/make.py
 handouts: [bloodbank-lec1-introduction]
-saved: 2026-10-29
+saved: 2026-10-30
 tags: [bios, code]
 ---
 # bb/make.py

@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/n7/anti.py
 handouts: [hematology-practical-anticoagulants]
-saved: 2026-10-29
+saved: 2026-10-30
 tags: [bios, code]
 ---
 # n7/anti.py

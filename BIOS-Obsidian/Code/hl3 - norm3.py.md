@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/hl3/norm3.py
 handouts: [hematology-practical-normal-values]
-saved: 2026-10-29
+saved: 2026-10-30
 tags: [bios, code]
 ---
 # hl3/norm3.py

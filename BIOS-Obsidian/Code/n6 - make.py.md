@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/n6/make.py
 handouts: [genetics-lec1-cell-cycle-mitosis]
-saved: 2026-10-29
+saved: 2026-10-30
 tags: [bios, code]
 ---
 # n6/make.py

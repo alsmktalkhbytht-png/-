@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/hl9/l9.py
 handouts: [hematology-lec9-hemolytic]
-saved: 2026-10-29
+saved: 2026-10-30
 tags: [bios, code]
 ---
 # hl9/l9.py

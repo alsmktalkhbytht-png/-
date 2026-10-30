@@ -21,6 +21,7 @@
 - [[Code/bt - make3.py|bt/make3.py]] → bloodbank-lec3-services
 - [[Code/chr - l2.py|chr/l2.py]] → histopathology-lec2-chronic-inflammation
 - [[Code/eth - make.py|eth/make.py]] → ethics-lec1-morals
+- [[Code/gt2 - gt2.py|gt2/gt2.py]] → genetics-lec2-meiosis
 - [[Code/heal - l4.py|heal/l4.py]] → histopathology-lec4-healing-regeneration
 - [[Code/hem - make.py|hem/make.py]] → enzymology-lab1-safety-tubes
 - [[Code/hem3 - l2.py|hem3/l2.py]] → hematology-lec2-blood-cell-formation

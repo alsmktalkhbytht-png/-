@@ -1,0 +1,2206 @@
+{
+ "meta": {
+  "subject_en": "Genetics",
+  "subject_ar": "علم الوراثة",
+  "short_ar": "وراثة",
+  "unit_label": "LEC",
+  "kind": "Theory — نظري",
+  "stage": "The third stage — الثالثة",
+  "instructor": "د. عبد سلطان",
+  "unit_en": "Lecture 2",
+  "unit_ar": "المحاضرة 2",
+  "unit_no": "2",
+  "title_en": "Meiosis",
+  "title_ar": "الانقسام الاختزالي"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Meiosis",
+   "ar": "الانقسام الاختزالي"
+  },
+  {
+   "t": "card",
+   "en": "Meiosis is the division of a **germ cell (diploid)** involving **two fissions of the nucleus (Meiosis I and Meiosis II)**. and giving rise to **four gametes (haploid sex cells)**, each possessing **half the number of chromosomes** of the original cell.",
+   "ar": "الانقسام الاختزالي هو انقسام **خلية جرثومية (ثنائية المجموعة)** يتضمّن **انشطارين للنواة (الاختزالي الأول والاختزالي الثاني)**، وينتج عنه **أربعة أمشاج (خلايا جنسية أحادية المجموعة)**، يحمل كل منها **نصف عدد كروموسومات** الخلية الأصلية."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Meiosis Is a **Special Type of Cell Division** That Occurs in **Sexually Reproducing Organisms**",
+    "Meiosis of **diploid cells** produces **haploid daughter cells**, which may function as **gametes**.",
+    "Gametes undergo **fertilization**, **restoring the diploid number** of chromosomes in the **zygote**"
+   ],
+   "list_ar": [
+    "الانقسام الاختزالي **نوع خاص من الانقسام الخلوي** يحدث في **الكائنات التي تتكاثر جنسيًا**",
+    "ينتج الانقسام الاختزالي للخلايا **ثنائية المجموعة** **خلايا بنوية أحادية المجموعة** قد تعمل **أمشاجًا**.",
+    "وتخضع الأمشاج لـ**الإخصاب** فـ**يُستعاد العدد الثنائي** للكروموسومات في **الزايكوت**"
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Diploid germ cell (2n)",
+     "ar": "خلية جرثومية ثنائية (2n)"
+    },
+    {
+     "en": "Meiosis I + II",
+     "ar": "الاختزالي الأول + الثاني"
+    },
+    {
+     "en": "4 haploid gametes (n)",
+     "ar": "4 أمشاج أحادية (n)"
+    },
+    {
+     "en": "Fertilization",
+     "ar": "الإخصاب"
+    },
+    {
+     "en": "Zygote (2n)",
+     "ar": "زايكوت (2n)"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "The stages of meiosis can be broken down into **two main stages**,",
+   "ar": "يمكن تقسيم مراحل الانقسام الاختزالي إلى **مرحلتين رئيستين**،"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Main stage",
+     "المرحلة الرئيسة"
+    ],
+    [
+     "Four substages",
+     "أربع مراحل فرعية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Meiosis I**",
+      "**الاختزالي الأول**"
+     ],
+     [
+      "Prophase I, Metaphase I, Anaphase I and Telophase I",
+      "التمهيدي I، والاستوائي I، والانفصالي I، والنهائي I"
+     ]
+    ],
+    [
+     [
+      "**Meiosis II**",
+      "**الاختزالي الثاني**"
+     ],
+     [
+      "Prophase II, Metaphase II, Anaphase II and Telophase II",
+      "التمهيدي II، والاستوائي II، والانفصالي II، والنهائي II"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    28,
+    72
+   ],
+   "style": "summary",
+   "label_en": "Stages",
+   "label_ar": "المراحل"
+  },
+  {
+   "t": "note",
+   "en": "The lecture sheet header says \"Lec 6\"; this handout follows the user's numbering (lecture 2).",
+   "ar": "رأس صفحات المحاضرة مكتوب عليه \"Lec 6\"؛ واعتمدنا ترقيم المستخدم (المحاضرة 2).",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Meiosis: **1 diploid germ cell → 4 haploid gametes**.",
+    "**Two** nuclear fissions, each with **4 substages**.",
+    "Fertilization restores **2n** in the zygote."
+   ],
+   "ar": [
+    "الاختزالي: **خلية جرثومية ثنائية ← 4 أمشاج أحادية**.",
+    "**انشطاران** للنواة، لكل منهما **4 مراحل فرعية**.",
+    "الإخصاب يعيد **2n** في الزايكوت."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Meiosis I — Prophase I",
+   "ar": "الاختزالي الأول — التمهيدي I"
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "**Prophase I** - **most of the significant processes** of Meiosis occur during Prophase I",
+     "ar": "**التمهيدي I**: تحدث **معظم العمليات المهمة** في الانقسام الاختزالي أثناء التمهيدي I"
+    },
+    {
+     "t": "card",
+     "en": "",
+     "ar": "",
+     "list_en": [
+      "The **nuclear membrane** begins to dissolve",
+      "The **centrioles** form by dividing and move toward the poles"
+     ],
+     "list_ar": [
+      "يبدأ **الغشاء النووي** بالذوبان",
+      "تتكوّن **المريكزات** بالانقسام وتتحرّك نحو القطبين"
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/prophase-1.png",
+    "en": "Prophase I: crossing over",
+    "ar": "التمهيدي I: العبور"
+   }
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Substage",
+     "المرحلة الفرعية"
+    ],
+    [
+     "Event",
+     "الحدث"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Leptotene**",
+      "**اللبتوتين (الطور القلادي)**"
+     ],
+     [
+      "chromosomes start to condense.",
+      "تبدأ الكروموسومات بالتكثّف."
+     ]
+    ],
+    [
+     [
+      "**Zygotene**",
+      "**الزايكوتين (الطور التزاوجي)**"
+     ],
+     [
+      "homologous chromosomes become closely associated (synapsis) to form pairs of chromosomes (bivalents) consisting of four chromatids (tetrads).",
+      "تتقارب الكروموسومات المتماثلة بشدّة (التشابك) لتكوّن أزواجًا (ثنائيات) من أربعة كروماتيدات (رباعيات)."
+     ]
+    ],
+    [
+     [
+      "**Pachytene**",
+      "**الباكيتين (الطور الضام)**"
+     ],
+     [
+      "crossing over between pairs of homologous chromosomes to form chiasmata (sing. chiasma).",
+      "العبور بين أزواج الكروموسومات المتماثلة لتكوين التصالبات (المفرد: تصالب)."
+     ]
+    ],
+    [
+     [
+      "**Diplotene**",
+      "**الدبلوتين (الطور الانفراجي)**"
+     ],
+     [
+      "homologous chromosomes start to separate but remain attached by chiasmata.",
+      "تبدأ الكروموسومات المتماثلة بالانفصال لكنها تبقى مرتبطة بالتصالبات."
+     ]
+    ],
+    [
+     [
+      "**Diakinesis**",
+      "**الدايكاينيسس (الطور التشتّتي)**"
+     ],
+     [
+      "homologous chromosomes continue to separate, and chiasmata move to the ends of the chromosomes",
+      "يستمر انفصال المتماثلات، وتتحرّك التصالبات إلى نهايات الكروموسومات"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    70
+   ],
+   "style": "summary",
+   "label_en": "5 substages",
+   "label_ar": "5 مراحل فرعية"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Leptotene: condense",
+     "ar": "اللبتوتين: تكثّف"
+    },
+    {
+     "en": "Zygotene: synapsis",
+     "ar": "الزايكوتين: تشابك"
+    },
+    {
+     "en": "Pachytene: crossing over",
+     "ar": "الباكيتين: عبور"
+    },
+    {
+     "en": "Diplotene: separate",
+     "ar": "الدبلوتين: انفصال"
+    },
+    {
+     "en": "Diakinesis: chiasmata to ends",
+     "ar": "الدايكاينيسس: التصالبات للنهايات"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**synapsis:** the process, Which the replicated homologous pair of chromosomes comes together In prophase I of meiosis .",
+   "ar": "**التشابك:** العملية التي يجتمع فيها زوج الكروموسومات المتماثلة المتضاعفة في التمهيدي I من الانقسام الاختزالي."
+  },
+  {
+   "t": "card",
+   "en": "**crossing over** : The **reciprocal exchange of genetic material** between **nonsister chromatids** during synapsis in meiosis I. the resultant chromosomes are **neither entirely maternal nor entirely paternal**, but contain genes from both parents.",
+   "ar": "**العبور:** **التبادل المتقابل للمادة الوراثية** بين **الكروماتيدات غير الشقيقة** أثناء التشابك في الاختزالي الأول، فتكون الكروموسومات الناتجة **لا أمّية كليًا ولا أبوية كليًا**، بل تحمل جينات من الأبوين."
+  },
+  {
+   "t": "figure",
+   "src": "assets/crossing-over.png",
+   "en": "Crossing over during meiosis",
+   "ar": "العبور أثناء الانقسام الاختزالي",
+   "h": "54mm"
+  },
+  {
+   "t": "h2",
+   "en": "The results of Synapsis and crossing over that occur only in meiosis",
+   "ar": "نتائج التشابك والعبور التي تحدث في الانقسام الاختزالي فقط"
+  },
+  {
+   "t": "rule",
+   "en": "Genetic material from the homologous chromosomes is **randomly swapped**",
+   "ar": "تُتبادل المادة الوراثية بين الكروموسومات المتماثلة **عشوائيًا**"
+  },
+  {
+   "t": "rule",
+   "en": "This creates **four unique chromatids**",
+   "ar": "وهذا يكوّن **أربعة كروماتيدات فريدة**"
+  },
+  {
+   "t": "rule",
+   "en": "Since each chromatid is unique, the overall **genetic diversity of the gametes is greatly increased**",
+   "ar": "وبما أن كل كروماتيد فريد، **يزداد التنوّع الوراثي للأمشاج** كثيرًا"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Prophase I = the **most important** phase; 5 substages **L-Z-P-D-D**.",
+    "**Synapsis** in zygotene; **crossing over** in pachytene (non-sister chromatids).",
+    "Result: **4 unique chromatids → genetic diversity ↑**."
+   ],
+   "ar": [
+    "التمهيدي I = **أهم** طور؛ وله 5 مراحل **L-Z-P-D-D**.",
+    "**التشابك** في الزايكوتين؛ و**العبور** في الباكيتين (كروماتيدات غير شقيقة).",
+    "النتيجة: **4 كروماتيدات فريدة ← ↑ التنوّع الوراثي**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Meiosis I — Metaphase I to Telophase I",
+   "ar": "الاختزالي الأول — من الاستوائي I إلى النهائي I"
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "h2",
+     "en": "Metaphase I",
+     "ar": "الاستوائي I"
+    },
+    {
+     "t": "card",
+     "en": "",
+     "ar": "",
+     "list_en": [
+      "**Microtubules** grow from the centrioles and attach to the centromeres",
+      "The **tetrads line up** along the cell equator"
+     ],
+     "list_ar": [
+      "تنمو **الأنيبيبات الدقيقة** من المريكزات وترتبط بالسنتروميرات",
+      "**تصطفّ الرباعيات** على طول خط استواء الخلية"
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/metaphase-1.png",
+    "en": "Metaphase I",
+    "ar": "الاستوائي I"
+   }
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "h2",
+     "en": "Anaphase I",
+     "ar": "الانفصالي I"
+    },
+    {
+     "t": "card",
+     "en": "",
+     "ar": "",
+     "list_en": [
+      "The centromeres break and **homologous chromosomes separate** (note that the **sister chromatids are still attached**)",
+      "**Cytokinesis begins**"
+     ],
+     "list_ar": [
+      "تنكسر السنتروميرات و**تنفصل الكروموسومات المتماثلة** (لاحظ أن **الكروماتيدات الشقيقة ما زالت مرتبطة**)",
+      "**يبدأ انقسام السايتوبلازم**"
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/anaphase-1.png",
+    "en": "Anaphase I",
+    "ar": "الانفصالي I"
+   }
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "h2",
+     "en": "Telophase I",
+     "ar": "النهائي I"
+    },
+    {
+     "t": "card",
+     "en": "",
+     "ar": "",
+     "list_en": [
+      "The chromosomes **may decondense** (depends on species)",
+      "Cytokinesis reaches completion, creating **two haploid daughter cells**"
+     ],
+     "list_ar": [
+      "**قد تنفكّ** الكروموسومات (بحسب النوع)",
+      "يكتمل انقسام السايتوبلازم مكوّنًا **خليتين بنويتين أحاديتي المجموعة**"
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/telophase-1.png",
+    "en": "Telophase I",
+    "ar": "النهائي I"
+   }
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Interkinesis or interphase II** is a **period of rest** that cells of some species enter during meiosis, between meiosis I and meiosis II.",
+    "**No DNA replication occurs during Interkinesis** and each chromosome still consists of **two chromatids**"
+   ],
+   "ar": [
+    "**الطور البيني الثاني (Interkinesis)** **فترة راحة** تدخلها خلايا بعض الأنواع أثناء الانقسام الاختزالي، بين الاختزالي الأول والثاني.",
+    "**لا يحدث تضاعف DNA أثناء هذه الفترة**، ويبقى كل كروموسوم مكوّنًا من **كروماتيدين**"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Metaphase I: **tetrads** line up; anaphase I: **homologues** separate.",
+    "Telophase I: **2 haploid cells**.",
+    "Interkinesis: rest, **no DNA replication**."
+   ],
+   "ar": [
+    "الاستوائي I: تصطفّ **الرباعيات**؛ والانفصالي I: تنفصل **المتماثلات**.",
+    "النهائي I: **خليتان أحاديتان**.",
+    "الطور البيني الثاني: راحة، **بلا تضاعف DNA**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Meiosis II",
+   "ar": "الاختزالي الثاني"
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "h2",
+     "en": "Prophase II",
+     "ar": "التمهيدي II"
+    },
+    {
+     "t": "card",
+     "en": "",
+     "ar": "",
+     "list_en": [
+      "**Centrioles** form and move toward the poles",
+      "The **nuclear membrane dissolves**"
+     ],
+     "list_ar": [
+      "تتكوّن **المريكزات** وتتحرّك نحو القطبين",
+      "**يذوب الغشاء النووي**"
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/prophase-2.png",
+    "en": "Prophase II",
+    "ar": "التمهيدي II"
+   }
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "h2",
+     "en": "Metaphase II",
+     "ar": "الاستوائي II"
+    },
+    {
+     "t": "card",
+     "en": "",
+     "ar": "",
+     "list_en": [
+      "Microtubules grow from the centrioles and attach to the centromeres",
+      "The **sister chromatids line up** along the cell equator"
+     ],
+     "list_ar": [
+      "تنمو الأنيبيبات الدقيقة من المريكزات وترتبط بالسنتروميرات",
+      "**تصطفّ الكروماتيدات الشقيقة** على طول خط استواء الخلية"
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/metaphase-2.png",
+    "en": "Metaphase II",
+    "ar": "الاستوائي II"
+   }
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "h2",
+     "en": "Anaphase II",
+     "ar": "الانفصالي II"
+    },
+    {
+     "t": "card",
+     "en": "",
+     "ar": "",
+     "list_en": [
+      "The centromeres break and **sister chromatids separate**",
+      "**Cytokinesis begins**"
+     ],
+     "list_ar": [
+      "تنكسر السنتروميرات و**تنفصل الكروماتيدات الشقيقة**",
+      "**يبدأ انقسام السايتوبلازم**"
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/anaphase-2.png",
+    "en": "Anaphase II",
+    "ar": "الانفصالي II"
+   }
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "h2",
+     "en": "Telophase II",
+     "ar": "النهائي II"
+    },
+    {
+     "t": "card",
+     "en": "",
+     "ar": "",
+     "list_en": [
+      "The chromosomes may decondense (depends on species)",
+      "Cytokinesis reaches completion, creating **four haploid daughter cells**"
+     ],
+     "list_ar": [
+      "قد تنفكّ الكروموسومات (بحسب النوع)",
+      "يكتمل انقسام السايتوبلازم مكوّنًا **أربع خلايا بنوية أحادية المجموعة**"
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/telophase-2.png",
+    "en": "Telophase II",
+    "ar": "النهائي II"
+   }
+  },
+  {
+   "t": "card",
+   "en": "The events of Meiosis II are **analogous to those of a mitotic division**, although the **number of chromosomes involved has been halved**.",
+   "ar": "أحداث الاختزالي الثاني **مشابهة لأحداث الانقسام الخيطي**، مع أن **عدد الكروموسومات المشاركة قد انخفض إلى النصف**."
+  },
+  {
+   "t": "figure",
+   "src": "assets/meiosis-summary.png",
+   "en": "Meiosis I and II from interphase to 4 haploid daughter cells",
+   "ar": "الاختزالي الأول والثاني من الطور البيني إلى 4 خلايا بنوية أحادية",
+   "h": "100mm"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Meiosis II = **like mitosis** with **half** the chromosomes.",
+    "Anaphase II: **sister chromatids** separate → **4 haploid cells**."
+   ],
+   "ar": [
+    "الاختزالي الثاني = **مثل الخيطي** بـ**نصف** الكروموسومات.",
+    "الانفصالي II: تنفصل **الكروماتيدات الشقيقة** ← **4 خلايا أحادية**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Meiosis Sex Differences",
+   "ar": "الفروق بين الجنسين في الانقسام الاختزالي"
+  },
+  {
+   "t": "h2",
+   "en": "Male (spermatogenesis)",
+   "ar": "الذكر (تكوين النطف)"
+  },
+  {
+   "t": "card",
+   "en": [
+    "The male testes have tiny tubules containing diploid cells called **spermatogonia** that mature to become sperm.",
+    "The basic function of spermatogenesis is to transform **each diploid spermatogonium into four haploid sperm cells**."
+   ],
+   "ar": [
+    "تحتوي خصيتا الذكر على نُبيبات دقيقة فيها خلايا ثنائية المجموعة تُسمّى **أمّهات النطف** تنضج لتصبح نطفًا.",
+    "والوظيفة الأساسية لتكوين النطف تحويل **كل أمّ نطفة ثنائية إلى أربع نطف أحادية**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/sperm-production.png",
+   "en": "Sperm production: spermatogenesis is a continuous and prolific process; each ejaculation = 100-600 million sperm",
+   "ar": "إنتاج النطف: تكوين النطف عملية مستمرة وغزيرة؛ وكل قذفة = 100–600 مليون نطفة",
+   "h": "60mm"
+  },
+  {
+   "t": "h2",
+   "en": "Male Abnormalities",
+   "ar": "شذوذات الذكر"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Abnormality",
+     "الشذوذ"
+    ],
+    [
+     "Meaning",
+     "المعنى"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Oligospermia**",
+      "**قلّة النطف**"
+     ],
+     [
+      "(Low Sperm Count) less than 20 million sperm after 72 hour abstinence from sex",
+      "(عدد نطف منخفض) أقل من 20 مليون نطفة بعد امتناع 72 ساعة عن الجماع"
+     ]
+    ],
+    [
+     [
+      "**Azoospermia**",
+      "**انعدام النطف**"
+     ],
+     [
+      "(Absent Sperm) blockage of duct network",
+      "(غياب النطف) انسداد شبكة القنوات"
+     ]
+    ],
+    [
+     [
+      "**Immotile Cilia Syndrome**",
+      "**متلازمة الأهداب غير المتحرّكة**"
+     ],
+     [
+      "lack of sperm motility",
+      "فقدان حركة النطف"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    34,
+    66
+   ],
+   "style": "summary",
+   "label_en": "Male",
+   "label_ar": "الذكر"
+  },
+  {
+   "t": "h2",
+   "en": "Female (oogenesis)",
+   "ar": "الأنثى (تكوين البيوض)"
+  },
+  {
+   "t": "card",
+   "en": "Similar to spermatogenesis, oogenesis involves the formation of haploid cells from an original diploid cell, the **primary oocyte**, through meiosis.",
+   "ar": "على غرار تكوين النطف، يتضمّن تكوين البيوض تكوين خلايا أحادية من خلية ثنائية أصلية هي **الخلية البيضية الأولية**، عبر الانقسام الاختزالي."
+  },
+  {
+   "t": "figure",
+   "src": "assets/oogenesis.png",
+   "en": "Oogenesis: germinal cell → primary oocyte → secondary oocyte + first polar body (meiosis I) → ovum + second polar body (meiosis II, after fertilization)",
+   "ar": "تكوين البيوض: خلية جرثومية ← خلية بيضية أولية ← خلية بيضية ثانوية + جسم قطبي أول (الاختزالي I) ← بيضة + جسم قطبي ثانٍ (الاختزالي II بعد الإخصاب)",
+   "h": "58mm"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**The polar body** two small cells produced during the first and second meiotic divisions in the development of an oocyte, containing **little cytoplasm** and **eventually degenerating**.",
+    "There are **2-3 polar bodies** derived from the oocyte.",
+    "These polar bodies **do not contribute** to the future genetic complement of the zygote, embryo or fetus."
+   ],
+   "ar": [
+    "**الجسم القطبي**: خليتان صغيرتان تُنتَجان أثناء الانقسامين الاختزاليين الأول والثاني في تطوّر الخلية البيضية، فيهما **سايتوبلازم قليل** و**تتحلّلان في النهاية**.",
+    "وتنتج عن الخلية البيضية **2–3 أجسام قطبية**.",
+    "ولا **تسهم** هذه الأجسام القطبية في المكوّن الوراثي المستقبلي للزايكوت أو الجنين."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/oogenesis-vs-spermatogenesis.png",
+   "en": "Oogenesis vs spermatogenesis: one ovum + polar bodies vs four sperm",
+   "ar": "تكوين البيوض مقابل تكوين النطف: بيضة واحدة + أجسام قطبية مقابل أربع نطف",
+   "h": "80mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Feature",
+     "الصفة"
+    ],
+    [
+     "Spermatogenesis",
+     "تكوين النطف"
+    ],
+    [
+     "Oogenesis",
+     "تكوين البيوض"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Location**",
+      "**المكان**"
+     ],
+     [
+      "Testis",
+      "الخصية"
+     ],
+     [
+      "Ovary",
+      "المبيض"
+     ]
+    ],
+    [
+     [
+      "**Number of gametes produced**",
+      "**عدد الأمشاج المنتجة**"
+     ],
+     [
+      "Life long production (millions)",
+      "إنتاج مدى الحياة (ملايين)"
+     ],
+     [
+      "Fixed amount (only ~ 400 mature)",
+      "عدد ثابت (نحو 400 ناضجة فقط)"
+     ]
+    ],
+    [
+     [
+      "**Gametes per germ cell**",
+      "**الأمشاج لكل خلية جرثومية**"
+     ],
+     [
+      "Four",
+      "أربعة"
+     ],
+     [
+      "One",
+      "واحد"
+     ]
+    ],
+    [
+     [
+      "**Beginning of process**",
+      "**بداية العملية**"
+     ],
+     [
+      "Begins at puberty",
+      "تبدأ عند البلوغ"
+     ],
+     [
+      "Begins during fetal development",
+      "تبدأ أثناء التطوّر الجنيني"
+     ]
+    ],
+    [
+     [
+      "**Timing of gamete formation**",
+      "**توقيت تكوين الأمشاج**"
+     ],
+     [
+      "Continuous (any time)",
+      "مستمر (أي وقت)"
+     ],
+     [
+      "Once a month (menstrual cycle)",
+      "مرة في الشهر (الدورة الشهرية)"
+     ]
+    ],
+    [
+     [
+      "**End of process**",
+      "**نهاية العملية**"
+     ],
+     [
+      "Fertility is life long but reduces",
+      "الخصوبة مدى الحياة لكنها تقل"
+     ],
+     [
+      "Fertility stops at menopause",
+      "تتوقّف الخصوبة عند سن اليأس"
+     ]
+    ],
+    [
+     [
+      "**Timing of gamete release**",
+      "**توقيت تحرير الأمشاج**"
+     ],
+     [
+      "Any time",
+      "أي وقت"
+     ],
+     [
+      "Monthly cycle",
+      "دورة شهرية"
+     ]
+    ],
+    [
+     [
+      "**Meiotic divisions**",
+      "**الانقسامات الاختزالية**"
+     ],
+     [
+      "Uninterrupted",
+      "غير متوقّفة"
+     ],
+     [
+      "Arrested",
+      "متوقّفة (معلّقة)"
+     ]
+    ],
+    [
+     [
+      "**Germ line epithelium**",
+      "**ظهارة الخط الجرثومي**"
+     ],
+     [
+      "Involved in gamete production",
+      "تشارك في إنتاج الأمشاج"
+     ],
+     [
+      "Not involved in gamete production",
+      "لا تشارك في إنتاج الأمشاج"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    35,
+    35
+   ],
+   "style": "summary",
+   "label_en": "Spermatogenesis vs oogenesis",
+   "label_ar": "تكوين النطف مقابل البيوض"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Male: **1 spermatogonium → 4 sperm**, continuous from puberty.",
+    "Female: **1 primary oocyte → 1 ovum + 2–3 polar bodies**, starts before birth, stops at menopause.",
+    "Oligospermia **< 20 million**; azoospermia = **blocked ducts**; immotile cilia = **no motility**."
+   ],
+   "ar": [
+    "الذكر: **أمّ نطفة واحدة ← 4 نطف**، باستمرار من البلوغ.",
+    "الأنثى: **خلية بيضية أولية ← بيضة واحدة + 2–3 أجسام قطبية**، تبدأ قبل الولادة وتتوقّف عند سن اليأس.",
+    "قلّة النطف **< 20 مليون**؛ وانعدام النطف = **انسداد القنوات**؛ والأهداب غير المتحرّكة = **لا حركة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Abnormalities",
+   "ar": "الشذوذات"
+  },
+  {
+   "t": "card",
+   "en": "**Meiotic Nondisjunction** Occurs when **homologues fail to separate** during meiotic division I or II For example **trisomy 21 (Down Syndrome)** caused by an **extra copy of chromosome 21**",
+   "ar": "**عدم الانفصال الاختزالي**: يحدث حين **تفشل المتماثلات في الانفصال** أثناء الانقسام الاختزالي الأول أو الثاني، مثل **التثلّث الصبغي 21 (متلازمة داون)** الناتج عن **نسخة إضافية من الكروموسوم 21**"
+  },
+  {
+   "t": "figure",
+   "src": "assets/nondisjunction.png",
+   "en": "Nondisjunction: (a) of homologous chromosomes in meiosis I; (b) of sister chromatids in meiosis II → gametes n+1 and n−1",
+   "ar": "عدم الانفصال: (أ) للمتماثلات في الاختزالي I؛ (ب) للكروماتيدات الشقيقة في الاختزالي II ← أمشاج n+1 وn−1",
+   "h": "62mm"
+  },
+  {
+   "t": "h2",
+   "en": "Chromosomal Translocations",
+   "ar": "الانتقالات الكروموسومية"
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "",
+     "ar": "",
+     "list_en": [
+      "**Philadelphia chromosome**",
+      "**Chronic myelogenous leukemia**",
+      "Piece of **Chr9 exchanged with Chr22** Generates truncated able"
+     ],
+     "list_ar": [
+      "**كروموسوم فيلادلفيا**",
+      "**ابيضاض الدم النقوي المزمن**",
+      "تتبادل قطعة من **الكروموسوم 9 مع الكروموسوم 22** فينتج able مبتور"
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/karyotype-down.png",
+    "en": "Karyotype (Down Syndrome)",
+    "ar": "النمط النووي (متلازمة داون)"
+   }
+  },
+  {
+   "t": "note",
+   "en": "\"truncated able\" means the **ABL** gene fused with **BCR** (the BCR-ABL fusion gene of chronic myeloid leukaemia).",
+   "ar": "عبارة \"truncated able\" تعني جين **ABL** المندمج مع **BCR** (الجين المندمج BCR-ABL في ابيضاض الدم النقوي المزمن).",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Female Abnormalities",
+   "ar": "شذوذات الأنثى"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Meiotic non-disjunction** resulting in **aneuploidy**, most are **embryonic lethal** and not seen.",
+    "The potential for genetic abnormalities **increase with maternal age**."
+   ],
+   "list_ar": [
+    "**عدم الانفصال الاختزالي** المؤدي إلى **اختلال الصيغة الصبغية**، ومعظمه **مميت للجنين** فلا يُرى.",
+    "واحتمال الشذوذات الوراثية **يزداد مع تقدّم عمر الأم**."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Autosomal chromosome aneuploid",
+     "اختلال الكروموسومات الجسمية"
+    ],
+    [
+     "Sex chromosome aneuploidy",
+     "اختلال الكروموسومات الجنسية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**trisomy 21** - Down syndrome",
+      "**التثلّث 21** — متلازمة داون"
+     ],
+     [
+      "**monosomy X** - Turner's Syndrome",
+      "**أحادية X** — متلازمة تيرنر"
+     ]
+    ],
+    [
+     [
+      "**trisomy 18** - Edwards syndrome",
+      "**التثلّث 18** — متلازمة إدواردز"
+     ],
+     [
+      "**trisomy X** - Triple-X syndrome",
+      "**التثلّث X** — متلازمة X الثلاثي"
+     ]
+    ],
+    [
+     [
+      "**trisomy 13** - Patau syndrome",
+      "**التثلّث 13** — متلازمة باتو"
+     ],
+     [
+      "**47 XXY** - Klinefelter's Syndrome",
+      "**47 XXY** — متلازمة كلاينفلتر"
+     ]
+    ]
+   ],
+   "widths": [
+    50,
+    50
+   ],
+   "style": "summary",
+   "label_en": "Aneuploidy",
+   "label_ar": "اختلال الصيغة"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Nondisjunction = homologues (or chromatids) **fail to separate** → n+1 / n−1.",
+    "Autosomal: **21 Down, 18 Edwards, 13 Patau**.",
+    "Sex: **XO Turner, XXX triple-X, XXY Klinefelter**.",
+    "Philadelphia: **9 ↔ 22** → CML; risk ↑ with **maternal age**."
+   ],
+   "ar": [
+    "عدم الانفصال = **فشل انفصال** المتماثلات (أو الكروماتيدات) ← n+1 / n−1.",
+    "الجسمية: **21 داون، و18 إدواردز، و13 باتو**.",
+    "الجنسية: **XO تيرنر، وXXX الثلاثي، وXXY كلاينفلتر**.",
+    "فيلادلفيا: **9 ↔ 22** ← CML؛ والخطر ↑ مع **عمر الأم**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Comparison chart between mitosis and meiosis",
+   "ar": "جدول المقارنة بين الانقسام الخيطي والاختزالي"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Feature",
+     "الصفة"
+    ],
+    [
+     "Meiosis",
+     "الاختزالي"
+    ],
+    [
+     "Mitosis",
+     "الخيطي"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Type of Reproduction**",
+      "**نوع التكاثر**"
+     ],
+     [
+      "Sexual",
+      "جنسي"
+     ],
+     [
+      "Asexual",
+      "لاجنسي"
+     ]
+    ],
+    [
+     [
+      "**Occurs in**",
+      "**يحدث في**"
+     ],
+     [
+      "Humans, animals, plants, fungi.",
+      "الإنسان والحيوان والنبات والفطريات."
+     ],
+     [
+      "All organisms.",
+      "كل الكائنات."
+     ]
+    ],
+    [
+     [
+      "**Genetically**",
+      "**وراثيًا**"
+     ],
+     [
+      "Different",
+      "مختلفة"
+     ],
+     [
+      "Identical",
+      "متطابقة"
+     ]
+    ],
+    [
+     [
+      "**Crossing Over**",
+      "**العبور**"
+     ],
+     [
+      "Yes, mixing of chromosomes can occur.",
+      "نعم، قد يحدث خلط للكروموسومات."
+     ],
+     [
+      "No, crossing over cannot occur.",
+      "لا، لا يمكن حدوث العبور."
+     ]
+    ],
+    [
+     [
+      "**Definition**",
+      "**التعريف**"
+     ],
+     [
+      "A type of cellular reproduction in which the number of chromosomes are reduced by half through the separation of homologous chromosomes, producing two haploid cells.",
+      "نوع من التكاثر الخلوي يُختزل فيه عدد الكروموسومات إلى النصف بفصل المتماثلات، فينتج خليتين أحاديتين."
+     ],
+     [
+      "A process of asexual reproduction in which the cell divides in two producing a replica, with an equal number of chromosomes in each resulting diploid cell.",
+      "عملية تكاثر لاجنسي تنقسم فيها الخلية إلى اثنتين منتجةً نسخة طبق الأصل، بعدد متساوٍ من الكروموسومات في كل خلية ثنائية ناتجة."
+     ]
+    ],
+    [
+     [
+      "**Pairing of Homologs**",
+      "**اقتران المتماثلات**"
+     ],
+     [
+      "Yes",
+      "نعم"
+     ],
+     [
+      "No",
+      "لا"
+     ]
+    ],
+    [
+     [
+      "**Function**",
+      "**الوظيفة**"
+     ],
+     [
+      "Genetic diversity through sexual reproduction.",
+      "التنوّع الوراثي عبر التكاثر الجنسي."
+     ],
+     [
+      "Cellular reproduction and general growth and repair of the body.",
+      "التكاثر الخلوي والنمو العام وإصلاح الجسم."
+     ]
+    ],
+    [
+     [
+      "**Number of Divisions**",
+      "**عدد الانقسامات**"
+     ],
+     "2",
+     "1"
+    ],
+    [
+     [
+      "**Number of Daughter Cells produced**",
+      "**عدد الخلايا البنوية**"
+     ],
+     [
+      "4 haploid cells",
+      "4 خلايا أحادية"
+     ],
+     [
+      "2 diploid cells",
+      "خليتان ثنائيتان"
+     ]
+    ],
+    [
+     [
+      "**Chromosome Number**",
+      "**عدد الكروموسومات**"
+     ],
+     [
+      "Reduced by half.",
+      "يُختزل إلى النصف."
+     ],
+     [
+      "Remains the same.",
+      "يبقى كما هو."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    38,
+    38
+   ],
+   "style": "summary",
+   "label_en": "Mitosis vs meiosis 1",
+   "label_ar": "الخيطي مقابل الاختزالي 1"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Feature",
+     "الصفة"
+    ],
+    [
+     "Meiosis",
+     "الاختزالي"
+    ],
+    [
+     "Mitosis",
+     "الخيطي"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Steps**",
+      "**الخطوات**"
+     ],
+     [
+      "(Meiosis 1) Prophase I, Metaphase I, Anaphase I, Telophase I; (Meiosis 2) Prophase II, Metaphase II, Anaphase II and Telophase II.",
+      "(الاختزالي 1) التمهيدي I والاستوائي I والانفصالي I والنهائي I؛ (الاختزالي 2) التمهيدي II والاستوائي II والانفصالي II والنهائي II."
+     ],
+     [
+      "Prophase, Metaphase, Anaphase, Telophase.",
+      "التمهيدي، والاستوائي، والانفصالي، والنهائي."
+     ]
+    ],
+    [
+     [
+      "**Karyokinesis**",
+      "**انقسام النواة**"
+     ],
+     [
+      "Occurs in Interphase I.",
+      "يحدث في الطور البيني I."
+     ],
+     [
+      "Occurs in Interphase.",
+      "يحدث في الطور البيني."
+     ]
+    ],
+    [
+     [
+      "**Cytokinesis**",
+      "**انقسام السايتوبلازم**"
+     ],
+     [
+      "Occurs in Telophase I and in Telophase II.",
+      "يحدث في النهائي I والنهائي II."
+     ],
+     [
+      "Occurs in Telophase.",
+      "يحدث في الطور النهائي."
+     ]
+    ],
+    [
+     [
+      "**Centromeres Split**",
+      "**انشطار السنتروميرات**"
+     ],
+     [
+      "The centromeres do not separate during anaphase I, but during anaphase II.",
+      "لا تنفصل السنتروميرات في الانفصالي I، بل في الانفصالي II."
+     ],
+     [
+      "The centromeres split during anaphase.",
+      "تنشطر السنتروميرات في الطور الانفصالي."
+     ]
+    ],
+    [
+     [
+      "**Creates**",
+      "**يُنتج**"
+     ],
+     [
+      "Sex cells only: female egg cells or male sperm cells.",
+      "خلايا جنسية فقط: بيوض أنثوية أو نطف ذكرية."
+     ],
+     [
+      "Makes everything other than sex cells.",
+      "يصنع كل شيء عدا الخلايا الجنسية."
+     ]
+    ],
+    [
+     [
+      "**Discovered by**",
+      "**اكتشفه**"
+     ],
+     [
+      "Oscar Hertwig",
+      "أوسكار هيرتفيغ"
+     ],
+     [
+      "Walther Flemming",
+      "فالتر فليمنغ"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    38,
+    38
+   ],
+   "style": "summary",
+   "label_en": "Mitosis vs meiosis 2",
+   "label_ar": "الخيطي مقابل الاختزالي 2"
+  },
+  {
+   "t": "note",
+   "en": [
+    "The chart says karyokinesis \"occurs in interphase\"; as given in lecture 1, karyokinesis is the **nuclear division of the M phase**, and interphase is the preparation before it (DNA copied in S).",
+    "Keep the chart wording for the exam."
+   ],
+   "ar": [
+    "الجدول يقول إن انقسام النواة \"يحدث في الطور البيني\"؛ وكما في المحاضرة 1 فإن انقسام النواة هو **الانقسام النووي في طور M**، والطور البيني هو التحضير قبله (نسخ DNA في S).",
+    "احفظ صياغة الجدول للامتحان."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Meiosis: **sexual, 2 divisions, 4 haploid, different, crossing over**.",
+    "Mitosis: **asexual, 1 division, 2 diploid, identical, no crossing over**.",
+    "Centromeres split in **anaphase II** (meiosis) vs **anaphase** (mitosis).",
+    "Discovered: meiosis **Hertwig**, mitosis **Flemming**."
+   ],
+   "ar": [
+    "الاختزالي: **جنسي، وانقسامان، و4 أحادية، ومختلفة، وفيه عبور**.",
+    "الخيطي: **لاجنسي، وانقسام واحد، وخليتان ثنائيتان، ومتطابقة، وبلا عبور**.",
+    "تنشطر السنتروميرات في **الانفصالي II** (الاختزالي) مقابل **الانفصالي** (الخيطي).",
+    "المكتشف: الاختزالي **هيرتفيغ**، والخيطي **فليمنغ**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Meiosis**",
+     "الانقسام الاختزالي / الانقسام المنصّف"
+    ],
+    [
+     "**Germ cell**",
+     "خلية جرثومية / خلية جنسية أولية"
+    ],
+    [
+     "**Synapsis / Bivalent / Tetrad**",
+     "التشابك / ثنائي / رباعي"
+    ],
+    [
+     "**Crossing over / Chiasma**",
+     "العبور / التصالب"
+    ],
+    [
+     "**Leptotene … Diakinesis**",
+     "اللبتوتين، الزايكوتين، الباكيتين، الدبلوتين، الدايكاينيسس"
+    ],
+    [
+     "**Interkinesis**",
+     "الطور البيني الثاني / فترة الراحة بين الانقسامين"
+    ],
+    [
+     "**Spermatogenesis**",
+     "تكوين النطف / النطفة"
+    ],
+    [
+     "**Spermatogonium**",
+     "أمّ النطفة / سليفة النطفة"
+    ],
+    [
+     "**Oogenesis**",
+     "تكوين البيوض / البيضة"
+    ],
+    [
+     "**Primary oocyte**",
+     "الخلية البيضية الأولية"
+    ],
+    [
+     "**Polar body**",
+     "الجسم القطبي"
+    ],
+    [
+     "**Oligospermia / Azoospermia**",
+     "قلّة النطف / انعدام النطف"
+    ],
+    [
+     "**Nondisjunction**",
+     "عدم الانفصال / عدم الافتراق"
+    ],
+    [
+     "**Aneuploidy**",
+     "اختلال الصيغة الصبغية / عدم انتظام عدد الكروموسومات"
+    ],
+    [
+     "**Trisomy / Monosomy**",
+     "التثلّث الصبغي / الأحادية الصبغية"
+    ],
+    [
+     "**Translocation**",
+     "انتقال كروموسومي / إزفاء"
+    ],
+    [
+     "**Philadelphia chromosome**",
+     "كروموسوم فيلادلفيا"
+    ],
+    [
+     "**Klinefelter / Turner syndrome**",
+     "متلازمة كلاينفلتر / متلازمة تيرنر"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Meiosis and its stages",
+    "topic_ar": "الانقسام الاختزالي ومراحله"
+   },
+   {
+    "en": "Meiosis gives rise to:",
+    "ar": "ينتج عن الانقسام الاختزالي:",
+    "options": [
+     [
+      "Four haploid gametes",
+      "أربعة أمشاج أحادية"
+     ],
+     [
+      "Two diploid cells",
+      "خليتان ثنائيتان"
+     ],
+     [
+      "One zygote",
+      "زايكوت واحد"
+     ],
+     [
+      "Four diploid cells",
+      "أربع خلايا ثنائية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Most of the significant processes of meiosis occur in:",
+    "ar": "تحدث معظم العمليات المهمة في:",
+    "options": [
+     [
+      "Telophase I",
+      "النهائي I"
+     ],
+     [
+      "Metaphase II",
+      "الاستوائي II"
+     ],
+     [
+      "Anaphase II",
+      "الانفصالي II"
+     ],
+     [
+      "Prophase I",
+      "التمهيدي I"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Synapsis forming bivalents (tetrads) occurs in:",
+    "ar": "يحدث التشابك المكوّن للرباعيات في:",
+    "options": [
+     [
+      "Leptotene",
+      "اللبتوتين"
+     ],
+     [
+      "Zygotene",
+      "الزايكوتين"
+     ],
+     [
+      "Pachytene",
+      "الباكيتين"
+     ],
+     [
+      "Diplotene",
+      "الدبلوتين"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Crossing over forming chiasmata occurs in:",
+    "ar": "يحدث العبور المكوّن للتصالبات في:",
+    "options": [
+     [
+      "Leptotene",
+      "اللبتوتين"
+     ],
+     [
+      "Zygotene",
+      "الزايكوتين"
+     ],
+     [
+      "Pachytene",
+      "الباكيتين"
+     ],
+     [
+      "Diakinesis",
+      "الدايكاينيسس"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Crossing over is between:",
+    "ar": "يكون العبور بين:",
+    "options": [
+     [
+      "Centrioles",
+      "المريكزات"
+     ],
+     [
+      "Sister chromatids",
+      "الكروماتيدات الشقيقة"
+     ],
+     [
+      "Two gametes",
+      "مشيجين"
+     ],
+     [
+      "Nonsister chromatids",
+      "الكروماتيدات غير الشقيقة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In anaphase I:",
+    "ar": "في الانفصالي I:",
+    "options": [
+     [
+      "Homologous chromosomes separate; sister chromatids stay attached",
+      "تنفصل المتماثلات وتبقى الشقيقة مرتبطة"
+     ],
+     [
+      "Sister chromatids separate",
+      "تنفصل الكروماتيدات الشقيقة"
+     ],
+     [
+      "Synapsis occurs",
+      "يحدث التشابك"
+     ],
+     [
+      "DNA replicates",
+      "يتضاعف DNA"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "During interkinesis:",
+    "ar": "أثناء الطور البيني الثاني:",
+    "options": [
+     [
+      "DNA replicates",
+      "يتضاعف DNA"
+     ],
+     [
+      "No DNA replication occurs",
+      "لا يحدث تضاعف DNA"
+     ],
+     [
+      "Crossing over occurs",
+      "يحدث العبور"
+     ],
+     [
+      "Four cells form",
+      "تتكوّن أربع خلايا"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In metaphase II, the structures that line up are:",
+    "ar": "في الاستوائي II يصطفّ:",
+    "options": [
+     [
+      "Tetrads",
+      "الرباعيات"
+     ],
+     [
+      "Bivalents",
+      "الثنائيات"
+     ],
+     [
+      "Sister chromatids",
+      "الكروماتيدات الشقيقة"
+     ],
+     [
+      "Polar bodies",
+      "الأجسام القطبية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Telophase II ends with:",
+    "ar": "ينتهي النهائي II بـ:",
+    "options": [
+     [
+      "One ovum only",
+      "بيضة واحدة فقط"
+     ],
+     [
+      "Two diploid cells",
+      "خليتين ثنائيتين"
+     ],
+     [
+      "Four haploid daughter cells",
+      "أربع خلايا بنوية أحادية"
+     ],
+     [
+      "A zygote",
+      "زايكوت"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Sex differences",
+    "topic_ar": "الفروق بين الجنسين"
+   },
+   {
+    "en": "Each diploid spermatogonium gives:",
+    "ar": "تعطي كل أمّ نطفة ثنائية:",
+    "options": [
+     [
+      "One sperm",
+      "نطفة واحدة"
+     ],
+     [
+      "Four haploid sperm",
+      "أربع نطف أحادية"
+     ],
+     [
+      "Two sperm",
+      "نطفتين"
+     ],
+     [
+      "One ovum",
+      "بيضة واحدة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Oligospermia is a sperm count less than:",
+    "ar": "قلّة النطف عدد أقل من:",
+    "options": [
+     [
+      "20 million after 72 hour abstinence",
+      "20 مليونًا بعد امتناع 72 ساعة"
+     ],
+     [
+      "100 million",
+      "100 مليون"
+     ],
+     [
+      "1 million",
+      "مليون"
+     ],
+     [
+      "600 million",
+      "600 مليون"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Azoospermia is due to:",
+    "ar": "ينتج انعدام النطف عن:",
+    "options": [
+     [
+      "Lack of motility",
+      "فقدان الحركة"
+     ],
+     [
+      "Extra chromosome 21",
+      "كروموسوم 21 إضافي"
+     ],
+     [
+      "Low hormone",
+      "هرمون منخفض"
+     ],
+     [
+      "Blockage of duct network",
+      "انسداد شبكة القنوات"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Polar bodies:",
+    "ar": "الأجسام القطبية:",
+    "options": [
+     [
+      "Become the embryo",
+      "تصبح الجنين"
+     ],
+     [
+      "Have little cytoplasm and degenerate",
+      "فيها سايتوبلازم قليل وتتحلّل"
+     ],
+     [
+      "Are fertilized",
+      "تُخصَّب"
+     ],
+     [
+      "Are made in the testis",
+      "تُصنع في الخصية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Oogenesis begins:",
+    "ar": "يبدأ تكوين البيوض:",
+    "options": [
+     [
+      "At puberty",
+      "عند البلوغ"
+     ],
+     [
+      "After fertilization only",
+      "بعد الإخصاب فقط"
+     ],
+     [
+      "At menopause",
+      "عند سن اليأس"
+     ],
+     [
+      "During fetal development",
+      "أثناء التطوّر الجنيني"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The number of mature eggs in a lifetime is about:",
+    "ar": "عدد البيوض الناضجة طوال العمر نحو:",
+    "options": [
+     [
+      "~ 400",
+      "نحو 400"
+     ],
+     [
+      "4",
+      "4"
+     ],
+     [
+      "Millions",
+      "ملايين"
+     ],
+     [
+      "100-600 million",
+      "100–600 مليون"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Abnormalities",
+    "topic_ar": "الشذوذات"
+   },
+   {
+    "en": "Meiotic nondisjunction occurs when:",
+    "ar": "يحدث عدم الانفصال الاختزالي حين:",
+    "options": [
+     [
+      "Crossing over fails",
+      "يفشل العبور"
+     ],
+     [
+      "DNA does not replicate",
+      "لا يتضاعف DNA"
+     ],
+     [
+      "Homologues fail to separate",
+      "تفشل المتماثلات في الانفصال"
+     ],
+     [
+      "The sperm is immotile",
+      "تكون النطفة غير متحرّكة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Down syndrome is:",
+    "ar": "متلازمة داون هي:",
+    "options": [
+     [
+      "47 XXY",
+      "47 XXY"
+     ],
+     [
+      "Trisomy 18",
+      "التثلّث 18"
+     ],
+     [
+      "Monosomy X",
+      "أحادية X"
+     ],
+     [
+      "Trisomy 21",
+      "التثلّث 21"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The Philadelphia chromosome results from exchange between chromosomes:",
+    "ar": "ينتج كروموسوم فيلادلفيا عن تبادل بين الكروموسومين:",
+    "options": [
+     [
+      "13 and 18",
+      "13 و18"
+     ],
+     [
+      "X and Y",
+      "X وY"
+     ],
+     [
+      "9 and 22",
+      "9 و22"
+     ],
+     [
+      "21 and 21",
+      "21 و21"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Klinefelter's syndrome is:",
+    "ar": "متلازمة كلاينفلتر هي:",
+    "options": [
+     [
+      "Monosomy X",
+      "أحادية X"
+     ],
+     [
+      "47 XXY",
+      "47 XXY"
+     ],
+     [
+      "Trisomy 13",
+      "التثلّث 13"
+     ],
+     [
+      "Trisomy X",
+      "التثلّث X"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Edwards syndrome is:",
+    "ar": "متلازمة إدواردز هي:",
+    "options": [
+     [
+      "Trisomy 18",
+      "التثلّث 18"
+     ],
+     [
+      "Trisomy 13",
+      "التثلّث 13"
+     ],
+     [
+      "Monosomy X",
+      "أحادية X"
+     ],
+     [
+      "Trisomy 21",
+      "التثلّث 21"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The potential for genetic abnormalities increases with:",
+    "ar": "يزداد احتمال الشذوذات الوراثية مع:",
+    "options": [
+     [
+      "Paternal height",
+      "طول الأب"
+     ],
+     [
+      "Maternal age",
+      "عمر الأم"
+     ],
+     [
+      "Blood group",
+      "فصيلة الدم"
+     ],
+     [
+      "Diet",
+      "الغذاء"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Mitosis vs meiosis",
+    "topic_ar": "الخيطي مقابل الاختزالي"
+   },
+   {
+    "en": "Meiosis differs from mitosis in that meiosis:",
+    "ar": "يختلف الاختزالي عن الخيطي بأن الاختزالي:",
+    "options": [
+     [
+      "Has 2 divisions and gives 4 haploid cells",
+      "فيه انقسامان ويعطي 4 خلايا أحادية"
+     ],
+     [
+      "Gives 2 diploid cells",
+      "يعطي خليتين ثنائيتين"
+     ],
+     [
+      "Has no crossing over",
+      "بلا عبور"
+     ],
+     [
+      "Occurs in all organisms",
+      "يحدث في كل الكائنات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In meiosis, the centromeres split during:",
+    "ar": "في الاختزالي تنشطر السنتروميرات في:",
+    "options": [
+     [
+      "Anaphase I",
+      "الانفصالي I"
+     ],
+     [
+      "Prophase I",
+      "التمهيدي I"
+     ],
+     [
+      "Interkinesis",
+      "الطور البيني الثاني"
+     ],
+     [
+      "Anaphase II",
+      "الانفصالي II"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Meiosis was discovered by:",
+    "ar": "اكتشف الانقسام الاختزالي:",
+    "options": [
+     [
+      "Walther Flemming",
+      "فالتر فليمنغ"
+     ],
+     [
+      "Mendel",
+      "مندل"
+     ],
+     [
+      "Oscar Hertwig",
+      "أوسكار هيرتفيغ"
+     ],
+     [
+      "Watson",
+      "واطسون"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "This figure shows nondisjunction producing gametes that are:",
+    "ar": "يوضّح الشكل عدم انفصال ينتج أمشاجًا:",
+    "options": [
+     [
+      "All n",
+      "كلها n"
+     ],
+     [
+      "n+1 and n−1",
+      "n+1 وn−1"
+     ],
+     [
+      "All 2n",
+      "كلها 2n"
+     ],
+     [
+      "Diploid",
+      "ثنائية"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/nondisjunction.png",
+    "img_h": "42mm"
+   },
+   {
+    "en": "This figure compares oogenesis and spermatogenesis; one primary oocyte gives:",
+    "ar": "يقارن هذا الشكل تكوين البيوض والنطف؛ تعطي الخلية البيضية الأولية:",
+    "options": [
+     [
+      "Four ova",
+      "أربع بيوض"
+     ],
+     [
+      "Two zygotes",
+      "زايكوتين"
+     ],
+     [
+      "Four sperm",
+      "أربع نطف"
+     ],
+     [
+      "One ovum and polar bodies",
+      "بيضة واحدة وأجسامًا قطبية"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/oogenesis-vs-spermatogenesis.png",
+    "img_h": "50mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Meiosis occurs in sexually reproducing organisms.",
+    "ar": "يحدث الانقسام الاختزالي في الكائنات التي تتكاثر جنسيًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Chromosomes start to condense in leptotene.",
+    "ar": "تبدأ الكروموسومات بالتكثّف في اللبتوتين.",
+    "answer": "T"
+   },
+   {
+    "en": "After crossing over, chromosomes are entirely maternal or paternal.",
+    "ar": "بعد العبور تكون الكروموسومات أمّية أو أبوية كليًا.",
+    "answer": "F"
+   },
+   {
+    "en": "DNA replicates during interkinesis.",
+    "ar": "يتضاعف DNA في الطور البيني الثاني.",
+    "answer": "F"
+   },
+   {
+    "en": "Meiosis II is analogous to a mitotic division.",
+    "ar": "يشبه الاختزالي الثاني الانقسام الخيطي.",
+    "answer": "T"
+   },
+   {
+    "en": "Spermatogenesis begins at puberty.",
+    "ar": "يبدأ تكوين النطف عند البلوغ.",
+    "answer": "T"
+   },
+   {
+    "en": "Polar bodies contribute to the genetic complement of the zygote.",
+    "ar": "تسهم الأجسام القطبية في المكوّن الوراثي للزايكوت.",
+    "answer": "F"
+   },
+   {
+    "en": "Immotile cilia syndrome is a lack of sperm motility.",
+    "ar": "متلازمة الأهداب غير المتحرّكة فقدان حركة النطف.",
+    "answer": "T"
+   },
+   {
+    "en": "Most aneuploidies are embryonic lethal.",
+    "ar": "معظم حالات اختلال الصيغة مميتة للجنين.",
+    "answer": "T"
+   },
+   {
+    "en": "Turner syndrome is trisomy X.",
+    "ar": "متلازمة تيرنر هي التثلّث X.",
+    "answer": "F"
+   },
+   {
+    "en": "Mitosis produces genetically identical cells.",
+    "ar": "ينتج الانقسام الخيطي خلايا متطابقة وراثيًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Pairing of homologs occurs in mitosis.",
+    "ar": "يحدث اقتران المتماثلات في الانقسام الخيطي.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Anaphase I vs anaphase II",
+    "ar": "الانفصالي I مقابل II",
+    "answer_en": "Anaphase I: homologues separate, sister chromatids stay attached. Anaphase II: centromeres break and sister chromatids separate.",
+    "answer_ar": "الانفصالي I: تنفصل المتماثلات وتبقى الشقيقة مرتبطة. الانفصالي II: تنكسر السنتروميرات وتنفصل الشقيقة."
+   },
+   {
+    "en": "Interkinesis",
+    "ar": "الطور البيني الثاني",
+    "answer_en": "A rest between meiosis I and II — NO DNA replication; each chromosome still has two chromatids.",
+    "answer_ar": "راحة بين الاختزالي الأول والثاني — بلا تضاعف DNA؛ ويبقى لكل كروموسوم كروماتيدان."
+   },
+   {
+    "en": "4 sperm vs 1 egg",
+    "ar": "4 نطف مقابل بيضة واحدة",
+    "answer_en": "Each spermatogonium → 4 sperm; each primary oocyte → 1 ovum + 2–3 polar bodies.",
+    "answer_ar": "كل أمّ نطفة ← 4 نطف؛ وكل خلية بيضية أولية ← بيضة واحدة + 2–3 أجسام قطبية."
+   },
+   {
+    "en": "Autosomal vs sex aneuploidy",
+    "ar": "اختلال جسمي مقابل جنسي",
+    "answer_en": "Autosomal: 21 Down, 18 Edwards, 13 Patau. Sex: XO Turner, XXX triple-X, XXY Klinefelter.",
+    "answer_ar": "الجسمي: 21 داون، 18 إدواردز، 13 باتو. الجنسي: XO تيرنر، XXX الثلاثي، XXY كلاينفلتر."
+   },
+   {
+    "en": "Who discovered what?",
+    "ar": "من اكتشف ماذا؟",
+    "answer_en": "Meiosis: Oscar Hertwig. Mitosis: Walther Flemming.",
+    "answer_ar": "الاختزالي: أوسكار هيرتفيغ. الخيطي: فالتر فليمنغ."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define meiosis and give its stages.",
+    "ar": "عرّف الانقسام الاختزالي واذكر مراحله.",
+    "answer_en": "Division of a diploid germ cell with two nuclear fissions giving four haploid gametes with half the chromosomes. Meiosis I: prophase I, metaphase I, anaphase I, telophase I; meiosis II: prophase II, metaphase II, anaphase II, telophase II.",
+    "answer_ar": "انقسام خلية جرثومية ثنائية بانشطارين نوويين يعطي أربعة أمشاج أحادية بنصف الكروموسومات. الأول: التمهيدي I والاستوائي I والانفصالي I والنهائي I؛ الثاني: التمهيدي II والاستوائي II والانفصالي II والنهائي II."
+   },
+   {
+    "en": "Describe the substages of prophase I.",
+    "ar": "صف المراحل الفرعية للتمهيدي I.",
+    "answer_en": "Leptotene: condensation; zygotene: synapsis → bivalents/tetrads; pachytene: crossing over → chiasmata; diplotene: homologues start to separate, held by chiasmata; diakinesis: separation continues, chiasmata move to the ends.",
+    "answer_ar": "اللبتوتين: تكثّف؛ الزايكوتين: تشابك ← ثنائيات/رباعيات؛ الباكيتين: عبور ← تصالبات؛ الدبلوتين: يبدأ الانفصال مع بقاء التصالبات؛ الدايكاينيسس: يستمر الانفصال وتتحرّك التصالبات للنهايات."
+   },
+   {
+    "en": "Define synapsis and crossing over and give their results.",
+    "ar": "عرّف التشابك والعبور واذكر نتائجهما.",
+    "answer_en": "Synapsis: the replicated homologous pair comes together in prophase I. Crossing over: reciprocal exchange between nonsister chromatids, giving chromosomes with genes from both parents. Results: random swapping, four unique chromatids, increased genetic diversity of gametes.",
+    "answer_ar": "التشابك: اجتماع زوج المتماثلات في التمهيدي I. العبور: تبادل متقابل بين الكروماتيدات غير الشقيقة فتحمل الكروموسومات جينات الأبوين. النتائج: تبادل عشوائي، وأربعة كروماتيدات فريدة، وزيادة التنوّع الوراثي."
+   },
+   {
+    "en": "Compare spermatogenesis and oogenesis.",
+    "ar": "قارن بين تكوين النطف وتكوين البيوض.",
+    "answer_en": "Testis vs ovary; millions life long vs ~400 mature; four vs one gamete per germ cell; starts at puberty vs fetal life; continuous vs monthly; fertility reduces vs stops at menopause; uninterrupted vs arrested meiosis.",
+    "answer_ar": "الخصية مقابل المبيض؛ ملايين مدى الحياة مقابل نحو 400؛ أربعة مقابل واحد لكل خلية؛ يبدأ بالبلوغ مقابل الحياة الجنينية؛ مستمر مقابل شهري؛ تقل الخصوبة مقابل تتوقّف بسن اليأس؛ انقسام غير متوقّف مقابل متوقّف."
+   },
+   {
+    "en": "What is meiotic nondisjunction? Give examples of the resulting aneuploidies.",
+    "ar": "ما عدم الانفصال الاختزالي؟ أعطِ أمثلة على حالات اختلال الصيغة الناتجة.",
+    "answer_en": "Failure of homologues to separate in meiosis I or II. Autosomal: trisomy 21 Down, 18 Edwards, 13 Patau; sex: monosomy X Turner, trisomy X triple-X, 47 XXY Klinefelter. Most are embryonic lethal and risk rises with maternal age.",
+    "answer_ar": "فشل انفصال المتماثلات في الاختزالي I أو II. الجسمية: 21 داون، 18 إدواردز، 13 باتو؛ والجنسية: أحادية X تيرنر، التثلّث X، و47 XXY كلاينفلتر. ومعظمها مميت للجنين ويزداد الخطر مع عمر الأم."
+   },
+   {
+    "en": "Give five differences between mitosis and meiosis.",
+    "ar": "اذكر خمسة فروق بين الانقسام الخيطي والاختزالي.",
+    "answer_en": "Meiosis: sexual, different cells, crossing over, homolog pairing, 2 divisions, 4 haploid cells, chromosome number halved, makes sex cells only. Mitosis: asexual, identical, no crossing over, no pairing, 1 division, 2 diploid cells, number unchanged, makes body cells.",
+    "answer_ar": "الاختزالي: جنسي، وخلايا مختلفة، وعبور، واقتران المتماثلات، وانقسامان، و4 أحادية، واختزال العدد، ويصنع الخلايا الجنسية فقط. الخيطي: لاجنسي، ومتطابقة، وبلا عبور، وبلا اقتران، وانقسام واحد، وخليتان ثنائيتان، والعدد ثابت، ويصنع خلايا الجسم."
+   }
+  ]
+ }
+}
