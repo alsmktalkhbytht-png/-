@@ -1138,6 +1138,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 
 | المجلد | المادة | المحاضرة |
 |---|---|---|
+| `advtech-lec4-plasma-urine-proteins` | تقنيات متقدمة | نظري 4 — البروتينات في البلازما والإدرار (أسلوب جديد) |
 | `immunology-lab3-antigen-preparation` | مناعة | عملي 3 — تحضير المستضدات (أسلوب جديد، الأسئلة داخل الملزمة) |
 | `immunology-lab1-serology` | مناعة | عملي 1 |
 | `advtech-lec1-elisa` | تقنيات متقدمة | نظري 1 |

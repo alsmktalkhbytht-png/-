@@ -1,0 +1,1568 @@
+{
+ "meta": {
+  "subject_en": "Advanced Techniques",
+  "subject_ar": "التقنيات المتقدمة",
+  "short_ar": "تقنيات متقدمة",
+  "instructor": "د. مصطفى محمود مصطفى",
+  "unit_en": "Lecture 4",
+  "unit_ar": "المحاضرة 4",
+  "unit_label": "LEC",
+  "unit_no": "4",
+  "title_en": "Proteins in Plasma and Urine",
+  "title_ar": "البروتينات في البلازما والإدرار",
+  "kind": "Theory — نظري",
+  "stage": "The third stage — الثالثة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Introduction",
+   "ar": "المقدّمة"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Proteins are fundamental biomolecules that perform diverse functions within the human body.",
+    "They serve as **enzymes, hormones, transporters, antibodies, and structural components**.",
+    "In biological fluids such as **plasma and urine**, the **concentration and composition** of proteins provide crucial **diagnostic information** about physiological and pathological states."
+   ],
+   "ar": [
+    "البروتينات جزيئات حيوية أساسية تؤدّي وظائف متنوّعة داخل جسم الإنسان.",
+    "فهي تعمل **إنزيمات وهرمونات ونواقل وأضدادًا ومكوّنات بنائية**.",
+    "وفي السوائل الحيوية مثل **البلازما والإدرار** يقدّم **تركيز البروتينات وتركيبها** **معلومات تشخيصية** حاسمة عن الحالات الفسيولوجية والمرضية."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Proteins = enzymes, hormones, transporters, antibodies, structure.",
+    "Their **amount and type in plasma and urine** help diagnosis."
+   ],
+   "ar": [
+    "البروتينات = إنزيمات، هرمونات، نواقل، أضداد، بناء.",
+    "**كمّيتها ونوعها في البلازما والإدرار** تساعد في التشخيص."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Proteins in Plasma",
+   "ar": "البروتينات في البلازما"
+  },
+  {
+   "t": "h2",
+   "en": "2.1 Overview",
+   "ar": "2.1 نظرة عامة"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Plasma proteins constitute approximately **6–8 g/dL** of plasma.",
+    "They are synthesized mainly in the **liver** (e.g., albumin, clotting factors) and in the **immune system** (e.g., immunoglobulins)."
+   ],
+   "ar": [
+    "تشكّل بروتينات البلازما نحو **6–8 غ/دل** من البلازما.",
+    "وتُصنَّع بصورة رئيسية في **الكبد** (مثل الألبومين وعوامل التخثّر) وفي **الجهاز المناعي** (مثل الغلوبيولينات المناعية)."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Major classes:**",
+   "ar": "**الأصناف الرئيسية:**"
+  },
+  {
+   "t": "card",
+   "en": "1. **Albumin (~60% of total plasma protein)**",
+   "ar": "1. **الألبومين (نحو 60% من بروتين البلازما الكلّي)**",
+   "list_en": [
+    "Maintains **colloid osmotic pressure (oncotic pressure)**",
+    "Serves as a **carrier protein** for hormones, fatty acids, bilirubin, and drugs",
+    "Acts as an **antioxidant**"
+   ],
+   "list_ar": [
+    "يحافظ على **الضغط التناضحي الغرواني (الضغط الورمي)**",
+    "يعمل **بروتينًا ناقلًا** للهرمونات والأحماض الدهنية والبيليروبين والأدوية",
+    "يعمل **مضادًا للأكسدة**"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "2. **Globulins (~35%)**",
+   "ar": "2. **الغلوبيولينات (نحو 35%)**",
+   "list_en": [
+    "**α1-Globulins:** α1-antitrypsin, α1-acid glycoprotein",
+    "**α2-Globulins:** Haptoglobin, ceruloplasmin, α2-macroglobulin",
+    "**β-Globulins:** Transferrin, complement proteins, lipoproteins",
+    "**γ-Globulins:** Immunoglobulins (antibodies)"
+   ],
+   "list_ar": [
+    "**غلوبيولينات ألفا 1:** مضاد التربسين ألفا 1، والبروتين السكري الحامضي ألفا 1",
+    "**غلوبيولينات ألفا 2:** الهابتوغلوبين، والسيرولوبلازمين، والغلوبيولين الكبروي ألفا 2",
+    "**غلوبيولينات بيتا:** الترانسفيرين، وبروتينات المتمّم، والبروتينات الدهنية",
+    "**غلوبيولينات غاما:** الغلوبيولينات المناعية (الأضداد)"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "3. **Fibrinogen (~4%)**",
+   "ar": "3. **الفايبرينوجين (نحو 4%)**",
+   "list_en": [
+    "A key **clotting factor** converted to **fibrin** during coagulation."
+   ],
+   "list_ar": [
+    "عامل **تخثّر** أساسي يتحوّل إلى **الفايبرين** أثناء التخثّر."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Class",
+     "الصنف"
+    ],
+    [
+     "Share",
+     "النسبة"
+    ],
+    [
+     "Main points",
+     "أهم النقاط"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Albumin**",
+      "**الألبومين**"
+     ],
+     [
+      "~60%",
+      "نحو 60%"
+     ],
+     [
+      "oncotic pressure; carrier (hormones, fatty acids, bilirubin, drugs); antioxidant",
+      "الضغط الورمي؛ ناقل (هرمونات، أحماض دهنية، بيليروبين، أدوية)؛ مضاد للأكسدة"
+     ]
+    ],
+    [
+     [
+      "**Globulins**",
+      "**الغلوبيولينات**"
+     ],
+     [
+      "~35%",
+      "نحو 35%"
+     ],
+     [
+      "α1, α2, β, γ (γ = immunoglobulins)",
+      "ألفا 1، ألفا 2، بيتا، غاما (غاما = الغلوبيولينات المناعية)"
+     ]
+    ],
+    [
+     [
+      "**Fibrinogen**",
+      "**الفايبرينوجين**"
+     ],
+     [
+      "~4%",
+      "نحو 4%"
+     ],
+     [
+      "clotting factor → fibrin",
+      "عامل تخثّر ← فايبرين"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    16,
+    62
+   ],
+   "style": "summary",
+   "label_en": "Plasma protein classes",
+   "label_ar": "أصناف بروتينات البلازما"
+  },
+  {
+   "t": "h2",
+   "en": "2.2 Functions of Plasma Proteins",
+   "ar": "2.2 وظائف بروتينات البلازما"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Maintenance of **osmotic balance**",
+    "**Transport** (e.g., albumin and transferrin)",
+    "**Buffering capacity** (regulating blood pH)",
+    "**Immune defense** (immunoglobulins, complement)",
+    "**Coagulation** (clotting factors)",
+    "**Nutrient reservoir**"
+   ],
+   "list_ar": [
+    "الحفاظ على **التوازن التناضحي**",
+    "**النقل** (مثل الألبومين والترانسفيرين)",
+    "**القدرة التنظيمية (الدارئة)** (تنظيم الأس الهيدروجيني للدم)",
+    "**الدفاع المناعي** (الغلوبيولينات المناعية، المتمّم)",
+    "**التخثّر** (عوامل التخثّر)",
+    "**مخزون غذائي**"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "2.3 Clinical Significance",
+   "ar": "2.3 الأهمية السريرية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Hypoproteinemia:** Due to **liver disease, malnutrition, nephrotic syndrome, or protein-losing enteropathy**",
+    "**Hyperproteinemia:** Often caused by **dehydration** or **monoclonal gammopathies** (e.g., multiple myeloma)"
+   ],
+   "list_ar": [
+    "**نقص بروتينات الدم:** بسبب **أمراض الكبد، أو سوء التغذية، أو المتلازمة الكلوية، أو اعتلال الأمعاء المفقد للبروتين**",
+    "**زيادة بروتينات الدم:** غالبًا بسبب **الجفاف** أو **اعتلالات الغاما وحيدة النسيلة** (مثل الورم النقوي المتعدّد)"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Diagnostic tool:**",
+   "ar": "**أداة التشخيص:**",
+   "list_en": [
+    "**Serum protein electrophoresis (SPEP)** separates plasma proteins into characteristic bands (**albumin, α1, α2, β, γ**)."
+   ],
+   "list_ar": [
+    "**الترحيل الكهربائي لبروتينات المصل (SPEP)** يفصل بروتينات البلازما إلى حزم مميّزة (**الألبومين، ألفا 1، ألفا 2، بيتا، غاما**)."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Abnormal patterns help diagnose diseases like **multiple myeloma** or **liver cirrhosis**.",
+   "ar": "تساعد الأنماط غير الطبيعية في تشخيص أمراض مثل **الورم النقوي المتعدّد** أو **تشمّع الكبد**."
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Albumin",
+     "ar": "الألبومين"
+    },
+    {
+     "en": "α1",
+     "ar": "ألفا 1"
+    },
+    {
+     "en": "α2",
+     "ar": "ألفا 2"
+    },
+    {
+     "en": "β",
+     "ar": "بيتا"
+    },
+    {
+     "en": "γ",
+     "ar": "غاما"
+    }
+   ],
+   "en": "SPEP bands",
+   "ar": "حزم SPEP"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Plasma protein **6–8 g/dL**: albumin **~60%**, globulins **~35%**, fibrinogen **~4%**; made in **liver** and **immune system**.",
+    "Albumin = **oncotic pressure + carrier + antioxidant**; γ-globulins = **antibodies**.",
+    "**Low** protein: liver disease, malnutrition, nephrotic syndrome, protein-losing enteropathy; **high**: dehydration, myeloma → **SPEP**."
+   ],
+   "ar": [
+    "بروتين البلازما **6–8 غ/دل**: ألبومين **نحو 60%**، غلوبيولينات **نحو 35%**، فايبرينوجين **نحو 4%**؛ يُصنع في **الكبد** و**الجهاز المناعي**.",
+    "الألبومين = **ضغط ورمي + ناقل + مضاد أكسدة**؛ وغلوبيولينات غاما = **الأضداد**.",
+    "**نقص** البروتين: أمراض الكبد، سوء التغذية، المتلازمة الكلوية، اعتلال الأمعاء؛ **زيادته**: الجفاف، الورم النقوي ← **SPEP**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Proteins in Urine",
+   "ar": "البروتينات في الإدرار"
+  },
+  {
+   "t": "h2",
+   "en": "3.1 Normal Protein Excretion",
+   "ar": "3.1 الإطراح الطبيعي للبروتين"
+  },
+  {
+   "t": "card",
+   "en": "In healthy individuals, **<150 mg/day** of protein is excreted in urine.",
+   "ar": "في الأشخاص الأصحّاء يُطرح **أقل من 150 ملغم/يوم** من البروتين في الإدرار."
+  },
+  {
+   "t": "card",
+   "en": "**Origin:**",
+   "ar": "**المنشأ:**",
+   "list_en": [
+    "**Filtered plasma proteins** (mainly albumin, small peptides)",
+    "**Secreted proteins from the renal tubules** (e.g., Tamm-Horsfall protein or uromodulin)"
+   ],
+   "list_ar": [
+    "**بروتينات البلازما المرشّحة** (غالبًا الألبومين والببتيدات الصغيرة)",
+    "**بروتينات تفرزها النبيبات الكلوية** (مثل بروتين تام-هورسفول أو اليوروموديولين)"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Tamm-Horsfall protein (uromodulin):**",
+   "ar": "**بروتين تام-هورسفول (اليوروموديولين):**",
+   "list_en": [
+    "Produced by tubular cells of the **thick ascending limb of Henle’s loop**",
+    "The **most abundant protein in normal urine**",
+    "Plays roles in **defense against urinary tract infections** and **prevention of kidney stones.**"
+   ],
+   "list_ar": [
+    "تنتجه الخلايا النبيبية في **الطرف الصاعد السميك لعروة هنلي**",
+    "**أكثر البروتينات وفرةً في الإدرار الطبيعي**",
+    "له دور في **الدفاع ضد التهابات المسالك البولية** و**منع حصى الكلى.**"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "3.2 Mechanisms Controlling Protein Filtration",
+   "ar": "3.2 الآليات التي تتحكّم بترشيح البروتين"
+  },
+  {
+   "t": "rule",
+   "en": "**Glomerular barrier:** Prevents passage of **large or negatively charged** proteins like albumin.",
+   "ar": "**الحاجز الكبيبي:** يمنع مرور البروتينات **الكبيرة أو السالبة الشحنة** مثل الألبومين."
+  },
+  {
+   "t": "rule",
+   "en": "**Tubular reabsorption:** **Low molecular weight** proteins filtered at the glomerulus are **reabsorbed by proximal tubules**.",
+   "ar": "**إعادة الامتصاص النبيبي:** البروتينات **منخفضة الوزن الجزيئي** المرشّحة في الكبيبة **تعيد امتصاصها النبيبات القريبة**."
+  },
+  {
+   "t": "rule",
+   "en": "**Tubular secretion:** Adds specific proteins into urine (e.g., **uromodulin**).",
+   "ar": "**الإفراز النبيبي:** يضيف بروتينات معيّنة إلى الإدرار (مثل **اليوروموديولين**)."
+  },
+  {
+   "t": "h2",
+   "en": "3.3 Proteinuria (Abnormal Urinary Proteins)",
+   "ar": "3.3 البيلة البروتينية (بروتينات الإدرار غير الطبيعية)"
+  },
+  {
+   "t": "card",
+   "en": "Excessive urinary protein loss (**>150 mg/day**) indicates **renal or systemic disease**.",
+   "ar": "فقدان البروتين المفرط في الإدرار (**أكثر من 150 ملغم/يوم**) يدلّ على **مرض كلوي أو جهازي**."
+  },
+  {
+   "t": "card",
+   "en": "**Types of Proteinuria:**",
+   "ar": "**أنواع البيلة البروتينية:**"
+  },
+  {
+   "t": "group",
+   "title_en": "1. Glomerular Proteinuria",
+   "title_ar": "1. البيلة البروتينية الكبيبية",
+   "en": [
+    "Increased **glomerular permeability** (e.g., nephrotic syndrome, glomerulonephritis)",
+    "Predominantly **albumin**"
+   ],
+   "ar": [
+    "زيادة **نفاذية الكبيبة** (مثل المتلازمة الكلوية، والتهاب كبيبات الكلى)",
+    "غالبًا **الألبومين**"
+   ]
+  },
+  {
+   "t": "group",
+   "title_en": "2. Tubular Proteinuria",
+   "title_ar": "2. البيلة البروتينية النبيبية",
+   "en": [
+    "**Defective tubular reabsorption** (e.g., interstitial nephritis)",
+    "Presence of **low molecular weight** proteins (**β2-microglobulin**)"
+   ],
+   "ar": [
+    "**خلل إعادة الامتصاص النبيبي** (مثل التهاب الكلية الخلالي)",
+    "وجود بروتينات **منخفضة الوزن الجزيئي** (**الغلوبيولين الصغير بيتا 2**)"
+   ]
+  },
+  {
+   "t": "group",
+   "title_en": "3. Overflow Proteinuria",
+   "title_ar": "3. البيلة البروتينية الفائضة",
+   "en": [
+    "Excess plasma protein load **exceeds reabsorptive capacity**",
+    "Example: **Bence Jones proteins (light chains)** in **multiple myeloma**"
+   ],
+   "ar": [
+    "حمل بروتين البلازما الزائد **يتجاوز قدرة إعادة الامتصاص**",
+    "مثال: **بروتينات بنس جونز (السلاسل الخفيفة)** في **الورم النقوي المتعدّد**"
+   ]
+  },
+  {
+   "t": "group",
+   "title_en": "4. Postrenal Proteinuria",
+   "title_ar": "4. البيلة البروتينية بعد الكلوية",
+   "en": "Originates from **urinary tract** (infection, bleeding)",
+   "ar": "تنشأ من **المسالك البولية** (التهاب، نزف)"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Type",
+     "النوع"
+    ],
+    [
+     "Cause",
+     "السبب"
+    ],
+    [
+     "Protein / example",
+     "البروتين / مثال"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Glomerular**",
+      "**كبيبية**"
+     ],
+     [
+      "increased glomerular permeability",
+      "زيادة نفاذية الكبيبة"
+     ],
+     [
+      "mainly albumin — nephrotic syndrome, glomerulonephritis",
+      "ألبومين غالبًا — المتلازمة الكلوية، التهاب الكبيبات"
+     ]
+    ],
+    [
+     [
+      "**Tubular**",
+      "**نبيبية**"
+     ],
+     [
+      "defective tubular reabsorption",
+      "خلل إعادة الامتصاص النبيبي"
+     ],
+     [
+      "β2-microglobulin — interstitial nephritis",
+      "بيتا 2 مايكروغلوبيولين — التهاب الكلية الخلالي"
+     ]
+    ],
+    [
+     [
+      "**Overflow**",
+      "**فائضة**"
+     ],
+     [
+      "load exceeds reabsorptive capacity",
+      "الحمل يتجاوز قدرة إعادة الامتصاص"
+     ],
+     [
+      "Bence Jones light chains — multiple myeloma",
+      "سلاسل بنس جونز الخفيفة — الورم النقوي"
+     ]
+    ],
+    [
+     [
+      "**Postrenal**",
+      "**بعد كلوية**"
+     ],
+     [
+      "urinary tract",
+      "المسالك البولية"
+     ],
+     [
+      "infection, bleeding",
+      "التهاب، نزف"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    18,
+    38,
+    44
+   ],
+   "style": "summary",
+   "label_en": "Types of proteinuria",
+   "label_ar": "أنواع البيلة البروتينية"
+  },
+  {
+   "t": "h2",
+   "en": "3.4 Diagnostic Assessment",
+   "ar": "3.4 التقييم التشخيصي"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Dipstick test:** Detects **mainly albumin** (semi-quantitative)",
+    "**24-hour urine protein estimation:** **Gold standard**",
+    "**Spot urine protein-to-creatinine ratio:** Convenient alternative",
+    "**Electrophoresis & Immunofixation:** Identify specific proteins (e.g., **monoclonal light chains**)"
+   ],
+   "list_ar": [
+    "**فحص الشريط:** يكشف **الألبومين غالبًا** (شبه كمّي)",
+    "**تقدير بروتين إدرار 24 ساعة:** **المعيار الذهبي**",
+    "**نسبة البروتين إلى الكرياتينين في عيّنة إدرار عشوائية:** بديل مريح",
+    "**الترحيل الكهربائي والتثبيت المناعي:** تحديد بروتينات معيّنة (مثل **السلاسل الخفيفة وحيدة النسيلة**)"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Normal urine protein **< 150 mg/day**; most abundant = **Tamm-Horsfall (uromodulin)** from the thick ascending limb of Henle.",
+    "Glomerular → **albumin**; tubular → **β2-microglobulin**; overflow → **Bence Jones** (myeloma); postrenal → infection, bleeding.",
+    "**24-hour urine = gold standard**; dipstick = mainly albumin; protein/creatinine ratio = convenient."
+   ],
+   "ar": [
+    "بروتين الإدرار الطبيعي **أقل من 150 ملغم/يوم**؛ وأكثره وفرةً = **تام-هورسفول (اليوروموديولين)** من الطرف الصاعد السميك لعروة هنلي.",
+    "الكبيبية ← **ألبومين**؛ النبيبية ← **بيتا 2 مايكروغلوبيولين**؛ الفائضة ← **بنس جونز** (الورم النقوي)؛ بعد الكلوية ← التهاب، نزف.",
+    "**إدرار 24 ساعة = المعيار الذهبي**؛ الشريط = ألبومين غالبًا؛ نسبة البروتين/الكرياتينين = بديل مريح."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Comparison Summary",
+   "ar": "خلاصة المقارنة"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Parameter",
+     "المعيار"
+    ],
+    [
+     "Plasma Proteins",
+     "بروتينات البلازما"
+    ],
+    [
+     "Urine Proteins",
+     "بروتينات الإدرار"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Normal concentration",
+      "التركيز الطبيعي"
+     ],
+     [
+      "6–8 g/dL",
+      "6–8 غ/دل"
+     ],
+     [
+      "<150 mg/day",
+      "أقل من 150 ملغم/يوم"
+     ]
+    ],
+    [
+     [
+      "Main proteins",
+      "البروتينات الرئيسية"
+     ],
+     [
+      "Albumin, globulins, fibrinogen",
+      "الألبومين، الغلوبيولينات، الفايبرينوجين"
+     ],
+     [
+      "Uromodulin, trace albumin",
+      "اليوروموديولين، آثار من الألبومين"
+     ]
+    ],
+    [
+     [
+      "Origin",
+      "المنشأ"
+     ],
+     [
+      "Liver, immune cells",
+      "الكبد، الخلايا المناعية"
+     ],
+     [
+      "Plasma filtration, tubular secretion",
+      "ترشيح البلازما، الإفراز النبيبي"
+     ]
+    ],
+    [
+     [
+      "Clinical value",
+      "القيمة السريرية"
+     ],
+     [
+      "Nutritional, hepatic, and immune status",
+      "الحالة الغذائية والكبدية والمناعية"
+     ],
+     [
+      "Renal function assessment",
+      "تقييم وظيفة الكلى"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    26,
+    37,
+    37
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Conclusion",
+   "ar": "الخاتمة"
+  },
+  {
+   "t": "card",
+   "en": "Proteins in plasma and urine provide essential insights into **body homeostasis and disease**.",
+   "ar": "تقدّم البروتينات في البلازما والإدرار رؤى أساسية عن **توازن الجسم والمرض**."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Plasma proteins reflect **liver function, nutritional state, and immune activity**.",
+    "Urinary proteins serve as sensitive indicators of **kidney health and systemic disorders**."
+   ],
+   "list_ar": [
+    "تعكس بروتينات البلازما **وظيفة الكبد والحالة الغذائية والنشاط المناعي**.",
+    "وتعمل بروتينات الإدرار مؤشّرات حسّاسة على **صحّة الكلى والاضطرابات الجهازية**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Modern diagnostic techniques, including **electrophoresis and immunoassays**, continue to enhance our ability to detect and monitor protein abnormalities for **early disease intervention**.",
+   "ar": "تواصل تقنيات التشخيص الحديثة، ومنها **الترحيل الكهربائي والمقايسات المناعية**، تعزيز قدرتنا على كشف اضطرابات البروتين ومتابعتها **للتدخّل المبكر في المرض**."
+  },
+  {
+   "t": "note",
+   "en": [
+    "Plasma proteins → **liver, nutrition, immunity**; urine proteins → **kidney** and systemic disease.",
+    "Tools: **electrophoresis and immunoassays**."
+   ],
+   "ar": [
+    "بروتينات البلازما ← **الكبد والتغذية والمناعة**؛ وبروتينات الإدرار ← **الكلى** والأمراض الجهازية.",
+    "الأدوات: **الترحيل الكهربائي والمقايسات المناعية**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Plasma proteins**",
+     "بروتينات البلازما / بروتينات الدم"
+    ],
+    [
+     "**Albumin**",
+     "الألبومين / الزلال"
+    ],
+    [
+     "**Globulins**",
+     "الغلوبيولينات / الكريّنات"
+    ],
+    [
+     "**Fibrinogen / Fibrin**",
+     "مولّد الليفين (الفايبرينوجين) / الليفين (الفايبرين)"
+    ],
+    [
+     "**Oncotic (colloid osmotic) pressure**",
+     "الضغط الورمي / الضغط التناضحي الغرواني"
+    ],
+    [
+     "**Haptoglobin**",
+     "الهابتوغلوبين / رابط الهيموغلوبين"
+    ],
+    [
+     "**Ceruloplasmin**",
+     "السيرولوبلازمين / حامل النحاس"
+    ],
+    [
+     "**Transferrin**",
+     "الترانسفيرين / ناقل الحديد"
+    ],
+    [
+     "**Immunoglobulins**",
+     "الغلوبيولينات المناعية / الأضداد"
+    ],
+    [
+     "**Hypoproteinemia / Hyperproteinemia**",
+     "نقص / زيادة بروتينات الدم"
+    ],
+    [
+     "**Nephrotic syndrome**",
+     "المتلازمة الكلوية / المتلازمة النفروزية"
+    ],
+    [
+     "**Protein-losing enteropathy**",
+     "اعتلال الأمعاء المفقد للبروتين"
+    ],
+    [
+     "**Monoclonal gammopathy**",
+     "اعتلال الغاما وحيد النسيلة"
+    ],
+    [
+     "**Multiple myeloma**",
+     "الورم النقوي المتعدّد / المايلوما"
+    ],
+    [
+     "**Serum protein electrophoresis (SPEP)**",
+     "الترحيل الكهربائي لبروتينات المصل"
+    ],
+    [
+     "**Tamm-Horsfall protein (uromodulin)**",
+     "بروتين تام-هورسفول / اليوروموديولين"
+    ],
+    [
+     "**Proteinuria**",
+     "البيلة البروتينية / بروتين في الإدرار"
+    ],
+    [
+     "**Glomerular barrier**",
+     "الحاجز الكبيبي / حاجز الترشيح"
+    ],
+    [
+     "**β2-microglobulin**",
+     "الغلوبيولين الصغير بيتا 2 / بيتا 2 مايكروغلوبيولين"
+    ],
+    [
+     "**Bence Jones proteins**",
+     "بروتينات بنس جونز / السلاسل الخفيفة الحرّة"
+    ],
+    [
+     "**Dipstick**",
+     "الشريط / شريط الغمس"
+    ],
+    [
+     "**Protein-to-creatinine ratio**",
+     "نسبة البروتين إلى الكرياتينين"
+    ],
+    [
+     "**Immunofixation**",
+     "التثبيت المناعي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Plasma proteins",
+    "topic_ar": "بروتينات البلازما"
+   },
+   {
+    "en": "Total plasma protein is approximately:",
+    "ar": "يبلغ بروتين البلازما الكلّي نحو:",
+    "options": [
+     [
+      "< 150 mg/dL",
+      "أقل من 150 ملغم/دل"
+     ],
+     [
+      "1–2 g/dL",
+      "1–2 غ/دل"
+     ],
+     [
+      "15–20 g/dL",
+      "15–20 غ/دل"
+     ],
+     [
+      "6–8 g/dL",
+      "6–8 غ/دل"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Most plasma proteins such as albumin and clotting factors are synthesized in the:",
+    "ar": "تُصنَّع معظم بروتينات البلازما مثل الألبومين وعوامل التخثّر في:",
+    "options": [
+     [
+      "Kidney",
+      "الكلية"
+     ],
+     [
+      "Spleen",
+      "الطحال"
+     ],
+     [
+      "Liver",
+      "الكبد"
+     ],
+     [
+      "Bone marrow",
+      "نقي العظم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Albumin makes up about ___ of total plasma protein:",
+    "ar": "يشكّل الألبومين نحو ___ من بروتين البلازما الكلّي:",
+    "options": [
+     [
+      "4%",
+      "4%"
+     ],
+     [
+      "60%",
+      "60%"
+     ],
+     [
+      "35%",
+      "35%"
+     ],
+     [
+      "90%",
+      "90%"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The main protein maintaining oncotic pressure is:",
+    "ar": "البروتين الرئيسي الذي يحافظ على الضغط الورمي:",
+    "options": [
+     [
+      "Albumin",
+      "الألبومين"
+     ],
+     [
+      "Transferrin",
+      "الترانسفيرين"
+     ],
+     [
+      "Immunoglobulin",
+      "الغلوبيولين المناعي"
+     ],
+     [
+      "Fibrinogen",
+      "الفايبرينوجين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Haptoglobin and ceruloplasmin belong to:",
+    "ar": "ينتمي الهابتوغلوبين والسيرولوبلازمين إلى:",
+    "options": [
+     [
+      "γ-Globulins",
+      "غلوبيولينات غاما"
+     ],
+     [
+      "α1-Globulins",
+      "غلوبيولينات ألفا 1"
+     ],
+     [
+      "β-Globulins",
+      "غلوبيولينات بيتا"
+     ],
+     [
+      "α2-Globulins",
+      "غلوبيولينات ألفا 2"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "α1-antitrypsin is an:",
+    "ar": "مضاد التربسين ألفا 1 هو:",
+    "options": [
+     [
+      "α2-Globulin",
+      "غلوبيولين ألفا 2"
+     ],
+     [
+      "α1-Globulin",
+      "غلوبيولين ألفا 1"
+     ],
+     [
+      "β-Globulin",
+      "غلوبيولين بيتا"
+     ],
+     [
+      "γ-Globulin",
+      "غلوبيولين غاما"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Transferrin, complement proteins and lipoproteins are:",
+    "ar": "الترانسفيرين وبروتينات المتمّم والبروتينات الدهنية هي:",
+    "options": [
+     [
+      "α1-Globulins",
+      "غلوبيولينات ألفا 1"
+     ],
+     [
+      "γ-Globulins",
+      "غلوبيولينات غاما"
+     ],
+     [
+      "β-Globulins",
+      "غلوبيولينات بيتا"
+     ],
+     [
+      "Albumins",
+      "ألبومينات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Immunoglobulins (antibodies) are:",
+    "ar": "الغلوبيولينات المناعية (الأضداد) هي:",
+    "options": [
+     [
+      "γ-Globulins",
+      "غلوبيولينات غاما"
+     ],
+     [
+      "α2-Globulins",
+      "غلوبيولينات ألفا 2"
+     ],
+     [
+      "β-Globulins",
+      "غلوبيولينات بيتا"
+     ],
+     [
+      "α1-Globulins",
+      "غلوبيولينات ألفا 1"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Fibrinogen forms about ___ of plasma protein:",
+    "ar": "يشكّل الفايبرينوجين نحو ___ من بروتين البلازما:",
+    "options": [
+     [
+      "60%",
+      "60%"
+     ],
+     [
+      "35%",
+      "35%"
+     ],
+     [
+      "4%",
+      "4%"
+     ],
+     [
+      "20%",
+      "20%"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which is NOT a function of plasma proteins?",
+    "ar": "أيّ مما يأتي ليس من وظائف بروتينات البلازما؟",
+    "options": [
+     [
+      "Oxygen production",
+      "إنتاج الأكسجين"
+     ],
+     [
+      "Buffering capacity",
+      "القدرة الدارئة"
+     ],
+     [
+      "Coagulation",
+      "التخثّر"
+     ],
+     [
+      "Nutrient reservoir",
+      "مخزون غذائي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Hypoproteinemia may be caused by all EXCEPT:",
+    "ar": "قد ينتج نقص بروتينات الدم عن كل ما يأتي ما عدا:",
+    "options": [
+     [
+      "Liver disease",
+      "أمراض الكبد"
+     ],
+     [
+      "Dehydration",
+      "الجفاف"
+     ],
+     [
+      "Nephrotic syndrome",
+      "المتلازمة الكلوية"
+     ],
+     [
+      "Malnutrition",
+      "سوء التغذية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Hyperproteinemia is often caused by:",
+    "ar": "زيادة بروتينات الدم سببها غالبًا:",
+    "options": [
+     [
+      "Protein-losing enteropathy",
+      "اعتلال الأمعاء المفقد للبروتين"
+     ],
+     [
+      "Liver cirrhosis",
+      "تشمّع الكبد"
+     ],
+     [
+      "Malnutrition",
+      "سوء التغذية"
+     ],
+     [
+      "Dehydration or multiple myeloma",
+      "الجفاف أو الورم النقوي المتعدّد"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "SPEP separates plasma proteins into the bands:",
+    "ar": "يفصل SPEP بروتينات البلازما إلى الحزم:",
+    "options": [
+     [
+      "IgA, IgG, IgM only",
+      "IgA، IgG، IgM فقط"
+     ],
+     [
+      "A, B, AB, O",
+      "A، B، AB، O"
+     ],
+     [
+      "Albumin, α1, α2, β, γ",
+      "الألبومين، ألفا 1، ألفا 2، بيتا، غاما"
+     ],
+     [
+      "Fibrin and plasmin",
+      "الفايبرين والبلازمين"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Urine proteins and proteinuria",
+    "topic_ar": "بروتينات الإدرار والبيلة البروتينية"
+   },
+   {
+    "en": "Normal daily urinary protein excretion is:",
+    "ar": "الإطراح اليومي الطبيعي لبروتين الإدرار:",
+    "options": [
+     [
+      "> 3 g/day",
+      "أكثر من 3 غ/يوم"
+     ],
+     [
+      "< 150 mg/day",
+      "أقل من 150 ملغم/يوم"
+     ],
+     [
+      "6–8 g/dL",
+      "6–8 غ/دل"
+     ],
+     [
+      "Zero",
+      "صفر"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The most abundant protein in normal urine is:",
+    "ar": "أكثر البروتينات وفرةً في الإدرار الطبيعي:",
+    "options": [
+     [
+      "Albumin",
+      "الألبومين"
+     ],
+     [
+      "β2-microglobulin",
+      "بيتا 2 مايكروغلوبيولين"
+     ],
+     [
+      "Bence Jones protein",
+      "بروتين بنس جونز"
+     ],
+     [
+      "Tamm-Horsfall protein (uromodulin)",
+      "بروتين تام-هورسفول (اليوروموديولين)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Uromodulin is produced by tubular cells of the:",
+    "ar": "يُنتج اليوروموديولين من الخلايا النبيبية في:",
+    "options": [
+     [
+      "Thick ascending limb of Henle’s loop",
+      "الطرف الصاعد السميك لعروة هنلي"
+     ],
+     [
+      "Collecting duct",
+      "القناة الجامعة"
+     ],
+     [
+      "Glomerulus",
+      "الكبيبة"
+     ],
+     [
+      "Proximal tubule",
+      "النبيب القريب"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Uromodulin plays a role in:",
+    "ar": "لليوروموديولين دور في:",
+    "options": [
+     [
+      "Oxygen transport",
+      "نقل الأكسجين"
+     ],
+     [
+      "Blood clotting",
+      "تخثّر الدم"
+     ],
+     [
+      "Defense against UTIs and prevention of kidney stones",
+      "الدفاع ضد التهابات المسالك البولية ومنع حصى الكلى"
+     ],
+     [
+      "Iron storage",
+      "خزن الحديد"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The glomerular barrier prevents passage of:",
+    "ar": "يمنع الحاجز الكبيبي مرور:",
+    "options": [
+     [
+      "Large or negatively charged proteins like albumin",
+      "البروتينات الكبيرة أو السالبة الشحنة مثل الألبومين"
+     ],
+     [
+      "Water",
+      "الماء"
+     ],
+     [
+      "Glucose",
+      "الكلوكوز"
+     ],
+     [
+      "Small peptides",
+      "الببتيدات الصغيرة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Low molecular weight filtered proteins are reabsorbed by the:",
+    "ar": "تُعاد امتصاص البروتينات المرشّحة منخفضة الوزن الجزيئي بواسطة:",
+    "options": [
+     [
+      "Bladder",
+      "المثانة"
+     ],
+     [
+      "Glomerulus",
+      "الكبيبة"
+     ],
+     [
+      "Ureter",
+      "الحالب"
+     ],
+     [
+      "Proximal tubules",
+      "النبيبات القريبة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Proteinuria is urinary protein loss of more than:",
+    "ar": "البيلة البروتينية هي فقدان بروتين في الإدرار أكثر من:",
+    "options": [
+     [
+      "15 mg/day",
+      "15 ملغم/يوم"
+     ],
+     [
+      "150 mg/day",
+      "150 ملغم/يوم"
+     ],
+     [
+      "6 g/day",
+      "6 غ/يوم"
+     ],
+     [
+      "1 g/dL",
+      "1 غ/دل"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Glomerular proteinuria is predominantly:",
+    "ar": "البيلة البروتينية الكبيبية غالبًا:",
+    "options": [
+     [
+      "Albumin",
+      "ألبومين"
+     ],
+     [
+      "β2-microglobulin",
+      "بيتا 2 مايكروغلوبيولين"
+     ],
+     [
+      "Bence Jones protein",
+      "بروتين بنس جونز"
+     ],
+     [
+      "Uromodulin",
+      "يوروموديولين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "β2-microglobulin in urine suggests:",
+    "ar": "وجود بيتا 2 مايكروغلوبيولين في الإدرار يوحي بـ:",
+    "options": [
+     [
+      "Glomerular proteinuria",
+      "بيلة بروتينية كبيبية"
+     ],
+     [
+      "Postrenal proteinuria",
+      "بيلة بروتينية بعد كلوية"
+     ],
+     [
+      "Tubular proteinuria",
+      "بيلة بروتينية نبيبية"
+     ],
+     [
+      "Normal urine",
+      "إدرار طبيعي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Bence Jones proteins in multiple myeloma cause:",
+    "ar": "تسبّب بروتينات بنس جونز في الورم النقوي المتعدّد:",
+    "options": [
+     [
+      "Glomerular proteinuria",
+      "بيلة بروتينية كبيبية"
+     ],
+     [
+      "Overflow proteinuria",
+      "بيلة بروتينية فائضة"
+     ],
+     [
+      "Tubular proteinuria",
+      "بيلة بروتينية نبيبية"
+     ],
+     [
+      "Postrenal proteinuria",
+      "بيلة بروتينية بعد كلوية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Proteinuria from urinary tract infection or bleeding is:",
+    "ar": "البيلة البروتينية الناتجة عن التهاب أو نزف في المسالك البولية:",
+    "options": [
+     [
+      "Glomerular",
+      "كبيبية"
+     ],
+     [
+      "Tubular",
+      "نبيبية"
+     ],
+     [
+      "Overflow",
+      "فائضة"
+     ],
+     [
+      "Postrenal",
+      "بعد كلوية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The gold standard for measuring urine protein is:",
+    "ar": "المعيار الذهبي لقياس بروتين الإدرار:",
+    "options": [
+     [
+      "Spot protein/creatinine ratio",
+      "نسبة البروتين/الكرياتينين العشوائية"
+     ],
+     [
+      "Dipstick",
+      "الشريط"
+     ],
+     [
+      "24-hour urine protein estimation",
+      "تقدير بروتين إدرار 24 ساعة"
+     ],
+     [
+      "Microscopy",
+      "الفحص المجهري"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The urine dipstick detects mainly:",
+    "ar": "يكشف شريط الإدرار غالبًا:",
+    "options": [
+     [
+      "Albumin",
+      "الألبومين"
+     ],
+     [
+      "Light chains",
+      "السلاسل الخفيفة"
+     ],
+     [
+      "β2-microglobulin",
+      "بيتا 2 مايكروغلوبيولين"
+     ],
+     [
+      "Uromodulin",
+      "اليوروموديولين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Monoclonal light chains in urine are identified by:",
+    "ar": "تُحدَّد السلاسل الخفيفة وحيدة النسيلة في الإدرار بـ:",
+    "options": [
+     [
+      "Dipstick",
+      "الشريط"
+     ],
+     [
+      "24-hour volume",
+      "حجم 24 ساعة"
+     ],
+     [
+      "Creatinine ratio",
+      "نسبة الكرياتينين"
+     ],
+     [
+      "Electrophoresis & immunofixation",
+      "الترحيل الكهربائي والتثبيت المناعي"
+     ]
+    ],
+    "answer": "d"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Immunoglobulins are synthesized mainly in the liver.",
+    "ar": "تُصنَّع الغلوبيولينات المناعية بصورة رئيسية في الكبد.",
+    "answer": "F"
+   },
+   {
+    "en": "Albumin carries hormones, fatty acids, bilirubin and drugs.",
+    "ar": "ينقل الألبومين الهرمونات والأحماض الدهنية والبيليروبين والأدوية.",
+    "answer": "T"
+   },
+   {
+    "en": "Albumin acts as an antioxidant.",
+    "ar": "يعمل الألبومين مضادًا للأكسدة.",
+    "answer": "T"
+   },
+   {
+    "en": "Fibrinogen is converted to fibrin during coagulation.",
+    "ar": "يتحوّل الفايبرينوجين إلى فايبرين أثناء التخثّر.",
+    "answer": "T"
+   },
+   {
+    "en": "Globulins form about 60% of plasma protein.",
+    "ar": "تشكّل الغلوبيولينات نحو 60% من بروتين البلازما.",
+    "answer": "F"
+   },
+   {
+    "en": "Plasma proteins help regulate blood pH.",
+    "ar": "تساعد بروتينات البلازما في تنظيم الأس الهيدروجيني للدم.",
+    "answer": "T"
+   },
+   {
+    "en": "Abnormal SPEP patterns help diagnose liver cirrhosis.",
+    "ar": "تساعد أنماط SPEP غير الطبيعية في تشخيص تشمّع الكبد.",
+    "answer": "T"
+   },
+   {
+    "en": "Normal urine contains no protein at all.",
+    "ar": "لا يحتوي الإدرار الطبيعي على أي بروتين.",
+    "answer": "F"
+   },
+   {
+    "en": "Tubular secretion adds uromodulin to urine.",
+    "ar": "يضيف الإفراز النبيبي اليوروموديولين إلى الإدرار.",
+    "answer": "T"
+   },
+   {
+    "en": "Tubular proteinuria is caused by increased glomerular permeability.",
+    "ar": "تنتج البيلة البروتينية النبيبية عن زيادة نفاذية الكبيبة.",
+    "answer": "F"
+   },
+   {
+    "en": "In overflow proteinuria the protein load exceeds the reabsorptive capacity.",
+    "ar": "في البيلة البروتينية الفائضة يتجاوز حمل البروتين قدرة إعادة الامتصاص.",
+    "answer": "T"
+   },
+   {
+    "en": "The dipstick test is fully quantitative.",
+    "ar": "فحص الشريط كمّي بالكامل.",
+    "answer": "F"
+   },
+   {
+    "en": "Plasma proteins reflect liver function, nutritional state and immune activity.",
+    "ar": "تعكس بروتينات البلازما وظيفة الكبد والحالة الغذائية والنشاط المناعي.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Units: g/dL vs mg/day",
+    "ar": "الوحدات: غ/دل مقابل ملغم/يوم",
+    "answer_en": "Plasma protein is a concentration (6–8 g/dL); urine protein is a daily amount (< 150 mg/day).",
+    "answer_ar": "بروتين البلازما تركيز (6–8 غ/دل)؛ وبروتين الإدرار كمية يومية (أقل من 150 ملغم/يوم)."
+   },
+   {
+    "en": "Most abundant protein — plasma vs urine",
+    "ar": "أكثر البروتينات وفرةً — البلازما مقابل الإدرار",
+    "answer_en": "Plasma: albumin (~60%). Normal urine: Tamm-Horsfall protein (uromodulin), with only trace albumin.",
+    "answer_ar": "البلازما: الألبومين (نحو 60%). الإدرار الطبيعي: بروتين تام-هورسفول (اليوروموديولين) مع آثار فقط من الألبومين."
+   },
+   {
+    "en": "Which globulin?",
+    "ar": "أي غلوبيولين؟",
+    "answer_en": "α1: α1-antitrypsin, α1-acid glycoprotein. α2: haptoglobin, ceruloplasmin, α2-macroglobulin. β: transferrin, complement, lipoproteins. γ: immunoglobulins.",
+    "answer_ar": "ألفا 1: مضاد التربسين ألفا 1، البروتين السكري الحامضي. ألفا 2: الهابتوغلوبين، السيرولوبلازمين، الغلوبيولين الكبروي. بيتا: الترانسفيرين، المتمّم، البروتينات الدهنية. غاما: الغلوبيولينات المناعية."
+   },
+   {
+    "en": "Nephrotic syndrome appears twice",
+    "ar": "المتلازمة الكلوية تظهر مرّتين",
+    "answer_en": "It causes hypoproteinemia in plasma and glomerular proteinuria (albumin) in urine — the same protein lost.",
+    "answer_ar": "تسبّب نقص بروتينات البلازما وبيلة بروتينية كبيبية (ألبومين) في الإدرار — البروتين نفسه يُفقد."
+   },
+   {
+    "en": "Multiple myeloma appears twice",
+    "ar": "الورم النقوي يظهر مرّتين",
+    "answer_en": "Plasma: hyperproteinemia (monoclonal gammopathy). Urine: overflow proteinuria with Bence Jones light chains.",
+    "answer_ar": "البلازما: زيادة البروتين (اعتلال غاما وحيد النسيلة). الإدرار: بيلة بروتينية فائضة بسلاسل بنس جونز الخفيفة."
+   },
+   {
+    "en": "Gold standard vs convenient",
+    "ar": "المعيار الذهبي مقابل البديل المريح",
+    "answer_en": "24-hour urine protein = gold standard; spot protein-to-creatinine ratio = convenient alternative; dipstick = mainly albumin, semi-quantitative.",
+    "answer_ar": "إدرار 24 ساعة = المعيار الذهبي؛ نسبة البروتين/الكرياتينين العشوائية = بديل مريح؛ الشريط = ألبومين غالبًا، شبه كمّي."
+   }
+  ],
+  "important": [
+   {
+    "en": "List the major classes of plasma proteins with their percentages and examples.",
+    "ar": "عدّد الأصناف الرئيسية لبروتينات البلازما مع نسبها وأمثلتها.",
+    "answer_en": "Albumin (~60%): oncotic pressure, carrier, antioxidant. Globulins (~35%): α1 (α1-antitrypsin, α1-acid glycoprotein), α2 (haptoglobin, ceruloplasmin, α2-macroglobulin), β (transferrin, complement, lipoproteins), γ (immunoglobulins). Fibrinogen (~4%): clotting factor converted to fibrin.",
+    "answer_ar": "الألبومين (نحو 60%): ضغط ورمي، ناقل، مضاد أكسدة. الغلوبيولينات (نحو 35%): ألفا 1 (مضاد التربسين، البروتين السكري الحامضي)، ألفا 2 (الهابتوغلوبين، السيرولوبلازمين، الغلوبيولين الكبروي)، بيتا (الترانسفيرين، المتمّم، البروتينات الدهنية)، غاما (الغلوبيولينات المناعية). الفايبرينوجين (نحو 4%): عامل تخثّر يتحوّل إلى فايبرين."
+   },
+   {
+    "en": "What are the functions of plasma proteins?",
+    "ar": "ما وظائف بروتينات البلازما؟",
+    "answer_en": "Maintenance of osmotic balance; transport (albumin, transferrin); buffering (blood pH); immune defense (immunoglobulins, complement); coagulation (clotting factors); nutrient reservoir.",
+    "answer_ar": "الحفاظ على التوازن التناضحي؛ النقل (الألبومين، الترانسفيرين)؛ الدارئة (الأس الهيدروجيني للدم)؛ الدفاع المناعي (الغلوبيولينات المناعية، المتمّم)؛ التخثّر (عوامل التخثّر)؛ مخزون غذائي."
+   },
+   {
+    "en": "Give the causes of hypo- and hyperproteinemia and the diagnostic tool.",
+    "ar": "اذكر أسباب نقص وزيادة بروتينات الدم وأداة التشخيص.",
+    "answer_en": "Hypoproteinemia: liver disease, malnutrition, nephrotic syndrome, protein-losing enteropathy. Hyperproteinemia: dehydration, monoclonal gammopathies (multiple myeloma). Tool: serum protein electrophoresis (albumin, α1, α2, β, γ bands); abnormal patterns help diagnose multiple myeloma or liver cirrhosis.",
+    "answer_ar": "النقص: أمراض الكبد، سوء التغذية، المتلازمة الكلوية، اعتلال الأمعاء المفقد للبروتين. الزيادة: الجفاف، اعتلالات الغاما وحيدة النسيلة (الورم النقوي). الأداة: الترحيل الكهربائي لبروتينات المصل (حزم الألبومين وألفا 1 وألفا 2 وبيتا وغاما)؛ والأنماط غير الطبيعية تساعد في تشخيص الورم النقوي أو تشمّع الكبد."
+   },
+   {
+    "en": "Write short notes on Tamm-Horsfall protein.",
+    "ar": "اكتب ملاحظات قصيرة عن بروتين تام-هورسفول.",
+    "answer_en": "Also called uromodulin; secreted by tubular cells of the thick ascending limb of Henle’s loop; the most abundant protein in normal urine; defends against urinary tract infections and prevents kidney stones.",
+    "answer_ar": "يُسمّى أيضًا اليوروموديولين؛ تفرزه الخلايا النبيبية في الطرف الصاعد السميك لعروة هنلي؛ أكثر البروتينات وفرةً في الإدرار الطبيعي؛ يدافع ضد التهابات المسالك البولية ويمنع حصى الكلى."
+   },
+   {
+    "en": "Explain the mechanisms controlling protein filtration in the kidney.",
+    "ar": "اشرح الآليات التي تتحكّم بترشيح البروتين في الكلية.",
+    "answer_en": "Glomerular barrier: blocks large or negatively charged proteins like albumin. Tubular reabsorption: proximal tubules reabsorb filtered low molecular weight proteins. Tubular secretion: adds specific proteins such as uromodulin.",
+    "answer_ar": "الحاجز الكبيبي: يمنع البروتينات الكبيرة أو السالبة الشحنة مثل الألبومين. إعادة الامتصاص النبيبي: تعيد النبيبات القريبة امتصاص البروتينات المرشّحة منخفضة الوزن الجزيئي. الإفراز النبيبي: يضيف بروتينات معيّنة مثل اليوروموديولين."
+   },
+   {
+    "en": "Classify proteinuria and describe how it is assessed.",
+    "ar": "صنّف البيلة البروتينية وصف كيف تُقيَّم.",
+    "answer_en": "Glomerular (increased permeability, mainly albumin — nephrotic syndrome, glomerulonephritis); tubular (defective reabsorption, β2-microglobulin — interstitial nephritis); overflow (load exceeds reabsorption — Bence Jones light chains in multiple myeloma); postrenal (urinary tract infection, bleeding). Assessment: dipstick (mainly albumin, semi-quantitative), 24-hour urine protein (gold standard), spot protein-to-creatinine ratio (convenient), electrophoresis and immunofixation (specific proteins such as monoclonal light chains).",
+    "answer_ar": "كبيبية (زيادة النفاذية، ألبومين غالبًا — المتلازمة الكلوية، التهاب الكبيبات)؛ نبيبية (خلل إعادة الامتصاص، بيتا 2 مايكروغلوبيولين — التهاب الكلية الخلالي)؛ فائضة (الحمل يتجاوز إعادة الامتصاص — سلاسل بنس جونز في الورم النقوي)؛ بعد كلوية (التهاب أو نزف في المسالك). التقييم: الشريط (ألبومين غالبًا، شبه كمّي)، بروتين إدرار 24 ساعة (المعيار الذهبي)، نسبة البروتين/الكرياتينين العشوائية (بديل مريح)، الترحيل الكهربائي والتثبيت المناعي (بروتينات معيّنة مثل السلاسل الخفيفة وحيدة النسيلة)."
+   }
+  ]
+ }
+}
