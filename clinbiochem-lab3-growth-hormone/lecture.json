@@ -1,0 +1,2127 @@
+{
+ "meta": {
+  "subject_en": "Clinical Biochemistry",
+  "subject_ar": "الكيمياء السريرية",
+  "short_ar": "كيمياء سريرية",
+  "instructor": "م.م. نور إبراهيم جليل",
+  "unit_en": "Lab 3",
+  "unit_ar": "العملي 3",
+  "unit_label": "LAB",
+  "unit_no": "3",
+  "title_en": "Growth hormone",
+  "title_ar": "هرمون النمو",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Growth hormone",
+   "ar": "هرمون النمو"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Growth hormone (GH), **peptide hormone** comprising **191 amino acids** synthesized and secreted by the **anterior** lobe of the pituitary gland by cells called **somatotrophs**.",
+    "It stimulates the growth of essentially **all tissues** of the body, including **bone**."
+   ],
+   "ar": [
+    "هرمون النمو (GH) **هرمون ببتيدي** يتكوّن من **191 حمضًا أمينيًا**، يُصنَّع ويُفرَز من الفصّ **الأمامي** للغدّة النخامية بواسطة خلايا تُسمّى **الخلايا المولّدة للنمو (somatotrophs)**.",
+    "وهو يحفّز نموّ **كل أنسجة الجسم** تقريبًا، ومنها **العظم**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/gh-regulation-1.jpg",
+   "en": "Regulation and actions of GH",
+   "ar": "تنظيم هرمون النمو وأفعاله",
+   "h": "40mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**GHRH** (+)",
+      "الهرمون المحرّر لهرمون النمو (+)"
+     ],
+     [
+      "**Somatostatin** (−)",
+      "السوماتوستاتين (−)"
+     ]
+    ],
+    [
+     [
+      "**Hypothalamus / Anterior pituitary**",
+      "الوطاء (تحت المهاد) / النخامية الأمامية"
+     ],
+     [
+      "**Ghrelin** (+)",
+      "الغريلين (+)"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Liver → IGF-1** (− feedback)",
+      "الكبد ← IGF-1 (تغذية راجعة سالبة)"
+     ],
+     [
+      "**Increased:** Protein synthesis, Lipolysis, Hepatic glucose production, Growth",
+      "يزداد: تصنيع البروتين، تحلّل الدهون، إنتاج الكبد للكلوكوز، النمو"
+     ]
+    ],
+    [
+     [
+      "**Decreased:** Glucose uptake",
+      "يقلّ: امتصاص الخلايا للكلوكوز"
+     ],
+     [
+      "",
+      ""
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure (cont.)",
+   "label_ar": "كتابات الشكل (تكملة)"
+  },
+  {
+   "t": "h2",
+   "en": "Stimulation of Growth Hormone secretion",
+   "ar": "تحفيز إفراز هرمون النمو"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**exercise**,",
+    "onset of **deep sleep**,",
+    "in response to the **falling plasma glucose** concentration about an hour after meals."
+   ],
+   "list_ar": [
+    "**التمارين الرياضية**،",
+    "بداية **النوم العميق**،",
+    "استجابةً **لانخفاض تركيز الكلوكوز في البلازما** بعد نحو ساعة من الوجبات."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "At other times, plasma concentrations are usually **very low or undetectable**, especially in children.",
+   "ar": "وفي الأوقات الأخرى تكون التراكيز في البلازما عادةً **منخفضة جدًا أو غير قابلة للكشف**، خصوصًا عند الأطفال."
+  },
+  {
+   "t": "figure",
+   "src": "assets/gh-regulation-2.jpg",
+   "en": "Fig. 2 The normal regulation of GH secretion",
+   "ar": "الشكل 2: التنظيم الطبيعي لإفراز هرمون النمو",
+   "h": "48mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Sleep, Amino acids, Excercise, Stress** (+)",
+      "النوم، الأحماض الأمينية، التمارين، الإجهاد (+)"
+     ],
+     [
+      "**Glucose** (−)",
+      "الكلوكوز (−)"
+     ]
+    ],
+    [
+     [
+      "**Somatostatin / GHRH**",
+      "السوماتوستاتين / الهرمون المحرّر لهرمون النمو"
+     ],
+     [
+      "**Hypothalamus / Anterior pituitary**",
+      "الوطاء / النخامية الأمامية"
+     ]
+    ],
+    [
+     [
+      "**Growth hormone → Liver**",
+      "هرمون النمو ← الكبد"
+     ],
+     [
+      "**Insulin-like growth factor 1** (− feedback)",
+      "عامل النمو الشبيه بالأنسولين 1 (تغذية راجعة سالبة)"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "note",
+   "en": [
+    "GH = **peptide, 191 aa**, from **somatotrophs** of the **anterior pituitary**; grows all tissues incl. bone.",
+    "↑ by **exercise, deep sleep, falling glucose** (~1 h after meals); otherwise very low.",
+    "Control: **GHRH (+), somatostatin (−)**; GH → liver → **IGF-1** (negative feedback)."
+   ],
+   "ar": [
+    "GH = **ببتيد من 191 حمضًا أمينيًا** من **الخلايا المولّدة للنمو** في **النخامية الأمامية**؛ ينمّي كل الأنسجة ومنها العظم.",
+    "يزداد **بالتمارين، والنوم العميق، وانخفاض الكلوكوز** (نحو ساعة بعد الوجبات)؛ وفي غير ذلك منخفض جدًا.",
+    "التحكّم: **GHRH (+)، السوماتوستاتين (−)**؛ GH ← الكبد ← **IGF-1** (تغذية راجعة سالبة)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Disorders Associated with Growth Hormone",
+   "ar": "الاضطرابات المرتبطة بهرمون النمو"
+  },
+  {
+   "t": "h2",
+   "en": "Excess GH",
+   "ar": "زيادة هرمون النمو"
+  },
+  {
+   "t": "card",
+   "en": "**Gigantism** (in children): Abnormal growth due to excess GH **before epiphyseal plate closure**.",
+   "ar": "**العملقة** (عند الأطفال): نموّ غير طبيعي بسبب زيادة GH **قبل انغلاق صفيحة المشاش (صفيحة النمو)**."
+  },
+  {
+   "t": "card",
+   "en": "**Acromegaly** (in adults): Enlargement of **hands, feet, and facial features** due to GH excess **after growth plates have closed**.",
+   "ar": "**ضخامة الأطراف** (عند البالغين): تضخّم **اليدين والقدمين وملامح الوجه** بسبب زيادة GH **بعد انغلاق صفائح النمو**."
+  },
+  {
+   "t": "card",
+   "en": "**Causes:** Typically, due to **pituitary adenomas**.",
+   "ar": "**الأسباب:** عادةً **أورام غدّية في النخامية**."
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/acromegaly-face.jpg",
+     "en": "Acromegaly — facial features",
+     "ar": "ضخامة الأطراف — ملامح الوجه",
+     "h": "34mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/acromegaly-hands.jpg",
+     "en": "Acromegaly — enlarged hands",
+     "ar": "ضخامة الأطراف — تضخّم اليدين",
+     "h": "34mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/bone-epiphysis-1.jpg",
+     "en": "Long bone — labels: epiphysis",
+     "ar": "عظم طويل — الكتابة: epiphysis = المشاش (رأس العظم)",
+     "h": "34mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/bone-epiphysis-2.jpg",
+     "en": "Epiphyseal plate",
+     "ar": "صفيحة المشاش (صفيحة النمو)",
+     "h": "34mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Deficiency of GH",
+   "ar": "نقص هرمون النمو"
+  },
+  {
+   "t": "card",
+   "en": "In **children**, it causes **growth retardation or dwarfism**.",
+   "ar": "عند **الأطفال** يسبّب **تأخّر النمو أو القزامة**."
+  },
+  {
+   "t": "card",
+   "en": "In **adults**, it may lead to **reduced muscle mass, increased fat deposition**, and poor quality of life.",
+   "ar": "وعند **البالغين** قد يؤدّي إلى **نقص الكتلة العضلية وزيادة ترسّب الدهون** وتدنّي جودة الحياة."
+  },
+  {
+   "t": "card",
+   "en": "**Causes:** Genetic mutations, pituitary damage, or hypothalamic dysfunction.",
+   "ar": "**الأسباب:** طفرات وراثية، أو تلف النخامية، أو خلل وظيفة الوطاء."
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "Excess GH",
+     "زيادة GH"
+    ],
+    [
+     "Deficiency of GH",
+     "نقص GH"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Children**",
+      "**الأطفال**"
+     ],
+     [
+      "gigantism (before epiphyseal closure)",
+      "العملقة (قبل انغلاق المشاش)"
+     ],
+     [
+      "growth retardation / dwarfism",
+      "تأخّر النمو / القزامة"
+     ]
+    ],
+    [
+     [
+      "**Adults**",
+      "**البالغون**"
+     ],
+     [
+      "acromegaly (hands, feet, face)",
+      "ضخامة الأطراف (اليدان، القدمان، الوجه)"
+     ],
+     [
+      "↓ muscle, ↑ fat, poor quality of life",
+      "↓ العضلات، ↑ الدهون، تدنّي جودة الحياة"
+     ]
+    ],
+    [
+     [
+      "**Cause**",
+      "**السبب**"
+     ],
+     [
+      "pituitary adenoma",
+      "ورم غدّي نخامي"
+     ],
+     [
+      "genetic, pituitary damage, hypothalamic dysfunction",
+      "وراثي، تلف النخامية، خلل الوطاء"
+     ]
+    ],
+    [
+     [
+      "**Test**",
+      "**الفحص**"
+     ],
+     [
+      "suppression test (OGTT)",
+      "فحص الكبت (تحمّل الكلوكوز)"
+     ],
+     [
+      "stimulation tests (ITT…)",
+      "فحوص التحفيز (تحمّل الأنسولين…)"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    18,
+    41,
+    41
+   ],
+   "style": "summary",
+   "label_en": "Excess vs deficiency",
+   "label_ar": "الزيادة مقابل النقص"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Excess: **gigantism** (children, before plate closure) / **acromegaly** (adults, after closure) — usually **pituitary adenoma**.",
+    "Deficiency: **dwarfism** in children; ↓ muscle, ↑ fat in adults."
+   ],
+   "ar": [
+    "الزيادة: **العملقة** (أطفال، قبل انغلاق الصفيحة) / **ضخامة الأطراف** (بالغون، بعد الانغلاق) — غالبًا **ورم غدّي نخامي**.",
+    "النقص: **القزامة** عند الأطفال؛ ↓ العضلات و↑ الدهون عند البالغين."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Diagnostic Approaches",
+   "ar": "طرق التشخيص"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**GH Stimulation Tests:** Used to assess **GH deficiency** (e.g., insulin tolerance test).",
+    "**GH Suppression Tests:** Used to diagnose **GH excess** (e.g., oral glucose tolerance test).",
+    "**Measurement of IGF-1 Levels:** Reflects **average GH activity**."
+   ],
+   "list_ar": [
+    "**فحوص تحفيز GH:** تُستعمل لتقييم **نقص GH** (مثل فحص تحمّل الأنسولين).",
+    "**فحوص كبت GH:** تُستعمل لتشخيص **زيادة GH** (مثل فحص تحمّل الكلوكوز الفموي).",
+    "**قياس مستويات IGF-1:** يعكس **متوسط نشاط GH**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Common GH Stimulation Tests",
+   "ar": "فحوص تحفيز GH الشائعة"
+  },
+  {
+   "t": "h2",
+   "en": "1-Insulin Tolerance Test (ITT)",
+   "ar": "1- فحص تحمّل الأنسولين (ITT)"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Purpose:** Evaluates the pituitary gland's GH release in response to **hypoglycemia**."
+   ],
+   "ar": [
+    "**الغرض:** يقيّم إفراز الغدّة النخامية لهرمون النمو استجابةً **لنقص سكر الدم**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Procedure:** Patient fasts overnight.",
+    "Baseline blood samples are taken to measure glucose and GH levels.",
+    "**Insulin** is administered **intravenously** to induce hypoglycemia (target blood glucose **< 40 mg/dL**).",
+    "Blood samples are collected at intervals (**0, 30, 60, 90and 120 minutes**).",
+    "GH levels are measured in the samples."
+   ],
+   "ar": [
+    "**الطريقة:** يصوم المريض ليلة كاملة.",
+    "تؤخذ عيّنات دم أساسية لقياس الكلوكوز وGH.",
+    "يُعطى **الأنسولين** **وريديًا** لإحداث نقص سكر الدم (الهدف كلوكوز الدم **أقل من 40 ملغم/دل**).",
+    "وتُجمع عيّنات الدم على فترات (**0 و30 و60 و90 و120 دقيقة**).",
+    "ويُقاس GH في العيّنات."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Interpretation:** A peak GH level **> 10 ng/mL in children** or **> 5 ng/mL in adults** is normal."
+   ],
+   "ar": [
+    "**التفسير:** ذروة GH **أكثر من 10 نانوغرام/مل عند الأطفال** أو **أكثر من 5 نانوغرام/مل عند البالغين** طبيعية."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Precautions:** Requires close monitoring to prevent **severe hypoglycemia**; **contraindicated** in patients with **seizures or cardiovascular conditions**."
+   ],
+   "ar": [
+    "**الاحتياطات:** يحتاج مراقبة دقيقة لمنع **نقص السكر الشديد**؛ و**ممنوع** في مرضى **الصرع أو أمراض القلب والأوعية**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "2-Arginine Infusion Test",
+   "ar": "2- فحص تسريب الأرجنين"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Purpose:** Assesses GH secretion using **arginine**."
+   ],
+   "ar": [
+    "**الغرض:** يقيّم إفراز GH باستعمال **الأرجنين**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Procedure:** 1. Patient fasts overnight.",
+    "2. **0.5g/kg body weigth** to maximum of **30g** is infused **intravenously** .",
+    "3.Blood samples are collected at **0,30,60,90 and 120min.**",
+    "4.GH levels are measured in the samples."
+   ],
+   "ar": [
+    "**الطريقة:** 1. يصوم المريض ليلة كاملة.",
+    "2. يُسرَّب **0.5 غ/كغم من وزن الجسم** بحدّ أقصى **30 غ** **وريديًا**.",
+    "3. تُجمع عيّنات الدم عند **0 و30 و60 و90 و120 دقيقة**.",
+    "4. ويُقاس GH في العيّنات."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Interpretation:** A peak GH level **> 10 ng/mL in children** or **> 5 ng/mL in adults** indicates normal function."
+   ],
+   "ar": [
+    "**التفسير:** ذروة GH **أكثر من 10 نانوغرام/مل عند الأطفال** أو **أكثر من 5 نانوغرام/مل عند البالغين** تدلّ على وظيفة طبيعية."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Note :**Arginine shoud **not** be given to patients with **rena,hepatic or acid-base disorders or DM**."
+   ],
+   "ar": [
+    "**ملاحظة:** يجب **ألّا** يُعطى الأرجنين لمرضى **اضطرابات الكلى أو الكبد أو التوازن الحامضي القاعدي أو السكري**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "3.Clonidine Stimulation Test",
+   "ar": "3. فحص التحفيز بالكلونيدين"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Purpose:** Uses **clonidine** to stimulate GH secretion via the **hypothalamus**."
+   ],
+   "ar": [
+    "**الغرض:** يستعمل **الكلونيدين** لتحفيز إفراز GH عبر **الوطاء**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Procedure:** 1. Patient fasts overnight.",
+    "2. Clonidine is administered **orally** (**0.15 mg/m² body surface area**).",
+    "3. Blood samples are taken at baseline and at **30, 60, 90, and 120 minutes**.",
+    "4. GH levels are measured in the samples."
+   ],
+   "ar": [
+    "**الطريقة:** 1. يصوم المريض ليلة كاملة.",
+    "2. يُعطى الكلونيدين **فمويًا** (**0.15 ملغم/م² من مساحة سطح الجسم**).",
+    "3. تؤخذ عيّنات الدم في البداية وعند **30 و60 و90 و120 دقيقة**.",
+    "4. ويُقاس GH في العيّنات."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Interpretation:** Peak GH levels **> 10 ng/mL in children** suggest normal response."
+   ],
+   "ar": [
+    "**التفسير:** ذروة GH **أكثر من 10 نانوغرام/مل عند الأطفال** توحي باستجابة طبيعية."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Side Effects:** **Drowsiness and hypotension**; patients should remain under observation."
+   ],
+   "ar": [
+    "**الآثار الجانبية:** **النعاس وانخفاض ضغط الدم**؛ ويجب أن يبقى المرضى تحت المراقبة."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "4.Glucagon Stimulation Test",
+   "ar": "4. فحص التحفيز بالغلوكاغون"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Purpose:** Assesses GH release by stimulating the **hypothalamus-pituitary axis** through **glucagon** administration."
+   ],
+   "ar": [
+    "**الغرض:** يقيّم إطلاق GH بتحفيز **محور الوطاء-النخامية** بإعطاء **الغلوكاغون**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Procedure:** 1. Patient fasts overnight.",
+    "2. Baseline blood samples are collected.",
+    "3. Glucagon is administered **intramuscularly** (**1 mg for children** or **1-1.5 mg for adults**).",
+    "4. Blood samples are taken at **0,30, 60, 90, 120, 150, and 180 minutes**.",
+    "5. GH levels are measured in the samples."
+   ],
+   "ar": [
+    "**الطريقة:** 1. يصوم المريض ليلة كاملة.",
+    "2. تُجمع عيّنات دم أساسية.",
+    "3. يُعطى الغلوكاغون **في العضل** (**1 ملغم للأطفال** أو **1-1.5 ملغم للبالغين**).",
+    "4. تؤخذ عيّنات الدم عند **0 و30 و60 و90 و120 و150 و180 دقيقة**.",
+    "5. ويُقاس GH في العيّنات."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Interpretation:** A peak GH level **> 10 ng/mL in children** or **> 3 ng/mL in adults** is considered normal."
+   ],
+   "ar": [
+    "**التفسير:** ذروة GH **أكثر من 10 نانوغرام/مل عند الأطفال** أو **أكثر من 3 نانوغرام/مل عند البالغين** تُعدّ طبيعية."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Precautions:** Monitor for **nausea, vomiting, or hypoglycemia**."
+   ],
+   "ar": [
+    "**الاحتياطات:** راقب **الغثيان والتقيّؤ ونقص السكر**."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Typing slips kept as written: “weigth” = weight, “shoud” = should, “rena” = renal.",
+    "DM = diabetes mellitus."
+   ],
+   "ar": [
+    "أُبقيت الأخطاء الطباعية كما كُتبت: “weigth” = weight أي الوزن، و“shoud” = should، و“rena” = renal أي الكلوي.",
+    "وDM = داء السكري."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Test",
+     "الفحص"
+    ],
+    [
+     "Dose / route",
+     "الجرعة / الطريق"
+    ],
+    [
+     "Samples (min)",
+     "العيّنات (دقيقة)"
+    ],
+    [
+     "Normal peak GH",
+     "ذروة GH الطبيعية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Insulin (ITT)**",
+      "**الأنسولين**"
+     ],
+     [
+      "IV, glucose < 40 mg/dL",
+      "وريدي، كلوكوز < 40 ملغم/دل"
+     ],
+     "0, 30, 60, 90, 120",
+     [
+      "> 10 children, > 5 adults",
+      "> 10 أطفال، > 5 بالغون"
+     ]
+    ],
+    [
+     [
+      "**Arginine**",
+      "**الأرجنين**"
+     ],
+     [
+      "0.5 g/kg IV, max 30 g",
+      "0.5 غ/كغم وريدي، أقصى 30 غ"
+     ],
+     "0, 30, 60, 90, 120",
+     [
+      "> 10 children, > 5 adults",
+      "> 10 أطفال، > 5 بالغون"
+     ]
+    ],
+    [
+     [
+      "**Clonidine**",
+      "**الكلونيدين**"
+     ],
+     [
+      "0.15 mg/m² orally",
+      "0.15 ملغم/م² فمويًا"
+     ],
+     "0, 30, 60, 90, 120",
+     [
+      "> 10 children",
+      "> 10 أطفال"
+     ]
+    ],
+    [
+     [
+      "**Glucagon**",
+      "**الغلوكاغون**"
+     ],
+     [
+      "IM 1 mg children, 1-1.5 mg adults",
+      "عضلي 1 ملغم أطفال، 1-1.5 ملغم بالغون"
+     ],
+     "0 … 180",
+     [
+      "> 10 children, > 3 adults",
+      "> 10 أطفال، > 3 بالغون"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    20,
+    32,
+    22,
+    26
+   ],
+   "style": "summary",
+   "label_en": "Stimulation tests (ng/mL)",
+   "label_ar": "فحوص التحفيز (نانوغرام/مل)"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Deficiency → **stimulation** tests; excess → **suppression** (OGTT); **IGF-1** = average GH activity.",
+    "All four: **overnight fast**, samples to 120 min (glucagon to **180 min**).",
+    "Watch: ITT → severe hypoglycemia; arginine → not in renal/hepatic/acid-base/DM; clonidine → drowsiness, hypotension; glucagon → nausea, vomiting."
+   ],
+   "ar": [
+    "النقص ← فحوص **التحفيز**؛ والزيادة ← **الكبت** (OGTT)؛ و**IGF-1** = متوسط نشاط GH.",
+    "الأربعة: **صيام ليلة**، عيّنات حتى 120 دقيقة (الغلوكاغون حتى **180 دقيقة**).",
+    "انتبه: ITT ← نقص سكر شديد؛ الأرجنين ← ليس لمرضى الكلى/الكبد/الحامضية/السكري؛ الكلونيدين ← نعاس وهبوط ضغط؛ الغلوكاغون ← غثيان وتقيّؤ."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Reference Values for Growth Hormone (GH)",
+   "ar": "القيم المرجعية لهرمون النمو"
+  },
+  {
+   "t": "h2",
+   "en": "Basal (Fasting) GH Levels",
+   "ar": "مستويات GH الأساسية (الصيامية)"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Adults:** < 1 ng/mL (often **undetectable during daytime** due to **pulsatile secretion**) .",
+    "**Children:** 0-5 ng/mL",
+    "**Newborns:** Higher values, up to **10-20 ng/mL**, are common due to **stress during birth**."
+   ],
+   "list_ar": [
+    "**البالغون:** أقل من 1 نانوغرام/مل (غالبًا **غير قابل للكشف نهارًا** بسبب **الإفراز النبضي**).",
+    "**الأطفال:** 0-5 نانوغرام/مل",
+    "**حديثو الولادة:** قيم أعلى، حتى **10-20 نانوغرام/مل**، شائعة بسبب **إجهاد الولادة**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "After Stimulation (e.g., GH Stimulation Test)",
+   "ar": "بعد التحفيز (مثل فحص تحفيز GH)"
+  },
+  {
+   "t": "card",
+   "en": "**Peak GH Levels (Post-Stimulation):**",
+   "ar": "**ذروة مستويات GH (بعد التحفيز):**",
+   "list_en": [
+    "**Children:** > 10 ng/mL is considered a normal response.",
+    "**Adults:** > 5 ng/mL (some labs use **4.1-10 ng/mL** as the cutoff for normal).",
+    "Levels **below these cutoffs** suggest **GH deficiency**."
+   ],
+   "list_ar": [
+    "**الأطفال:** أكثر من 10 نانوغرام/مل تُعدّ استجابة طبيعية.",
+    "**البالغون:** أكثر من 5 نانوغرام/مل (بعض المختبرات تستعمل **4.1-10 نانوغرام/مل** حدًّا فاصلًا للطبيعي).",
+    "والمستويات **تحت هذه الحدود** توحي **بنقص GH**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Suppressed GH Levels:**",
+   "ar": "**مستويات GH المكبوتة:**",
+   "list_en": [
+    "**Normal:** < 1 ng/mL (ideally **< 0.4 ng/mL** in some protocols)."
+   ],
+   "list_ar": [
+    "**الطبيعي:** أقل من 1 نانوغرام/مل (ومثاليًا **أقل من 0.4 نانوغرام/مل** في بعض البروتوكولات)."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Elevated levels** indicate possible **GH hypersecretion**, often due to conditions like.",
+    "[[cut]]"
+   ],
+   "ar": [
+    "**المستويات المرتفعة** تدلّ على احتمال **فرط إفراز GH**، غالبًا بسبب حالات مثل.",
+    "[[قطع]]"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "State",
+     "الحالة"
+    ],
+    [
+     "GH (ng/mL)",
+     "GH (نانوغرام/مل)"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Basal — adults**",
+      "**أساسي — بالغون**"
+     ],
+     "< 1"
+    ],
+    [
+     [
+      "**Basal — children**",
+      "**أساسي — أطفال**"
+     ],
+     "0-5"
+    ],
+    [
+     [
+      "**Basal — newborns**",
+      "**أساسي — حديثو الولادة**"
+     ],
+     "up to 10-20"
+    ],
+    [
+     [
+      "**Peak after stimulation — children**",
+      "**ذروة بعد التحفيز — أطفال**"
+     ],
+     "> 10"
+    ],
+    [
+     [
+      "**Peak after stimulation — adults**",
+      "**ذروة بعد التحفيز — بالغون**"
+     ],
+     "> 5 (4.1-10)"
+    ],
+    [
+     [
+      "**Suppressed (normal)**",
+      "**مكبوت (طبيعي)**"
+     ],
+     "< 1 (ideally < 0.4)"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    62,
+    38
+   ],
+   "style": "summary",
+   "label_en": "Reference values at a glance",
+   "label_ar": "القيم المرجعية بنظرة"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Basal: adults **< 1**, children **0-5**, newborns **up to 10-20** ng/mL (birth stress).",
+    "Post-stimulation normal: children **> 10**, adults **> 5**; suppressed normal **< 1** (ideally < 0.4)."
+   ],
+   "ar": [
+    "الأساسي: البالغون **< 1**، الأطفال **0-5**، حديثو الولادة **حتى 10-20** نانوغرام/مل (إجهاد الولادة).",
+    "بعد التحفيز الطبيعي: الأطفال **> 10**، البالغون **> 5**؛ والمكبوت الطبيعي **< 1** (مثاليًا < 0.4)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Diagnosis of GH excess",
+   "ar": "تشخيص زيادة هرمون النمو"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The diagnosis of GH excess is suggested by the **clinical presentation, biochemical tests** and **radiological findings of the pituitary**.",
+    "**CT or MRI** body scanning may help to find an **ectopic source** of GH or GHRH.",
+    "**(MRI) is more sensitive than (CT)** scanning.",
+    "Diagnosis requires the measurement of **GH and IGF‐1**.",
+    [
+     "Random basal plasma GH is often **very high** in these patients, but the concentrations are **too variable** for accurate diagnosis and **overlap** with the normal reference range of GH,."
+    ],
+    "Random GH measurements are often **not diagnostic** owing to **episodic secretion** and a **short half-life**.",
+    "However, a random GH **below 0.5 μg/L essentially excludes** a diagnosis of acromegaly if **IGF‐1 is within the reference range**, whereas an **elevated IGF‐1** should prompt further investigation with a **glucose tolerance test** .",
+    "Reference ranges for IGF‐1 are **age and method specific**.",
+    [
+     "The diagnosis is **confirmed** by demonstrating a **raised plasma GH** concentration that is **not suppressed by a rise in plasma glucose** concentration.",
+     "(**Glucose suppression test** )."
+    ]
+   ],
+   "list_ar": [
+    "يُشتبه بتشخيص زيادة GH من **الصورة السريرية، والفحوص الكيموحيوية**، و**الموجودات الشعاعية للنخامية**.",
+    "وقد يساعد التصوير **المقطعي (CT) أو بالرنين المغناطيسي (MRI)** للجسم في إيجاد **مصدر هاجر (خارج النخامية)** لـ GH أو GHRH.",
+    "و**الرنين المغناطيسي أكثر حساسية من التصوير المقطعي**.",
+    "ويتطلّب التشخيص قياس **GH وIGF‐1**.",
+    [
+     "يكون GH العشوائي الأساسي في البلازما غالبًا **مرتفعًا جدًا** عند هؤلاء المرضى، لكن التراكيز **متباينة جدًا** للتشخيص الدقيق و**تتداخل** مع المدى المرجعي الطبيعي لـ GH."
+    ],
+    "وقياسات GH العشوائية غالبًا **غير تشخيصية** بسبب **الإفراز النوبي** و**قصر عمر النصف**.",
+    "لكن GH عشوائي **أقل من 0.5 مايكروغرام/لتر يستبعد عمليًا** تشخيص ضخامة الأطراف إذا كان **IGF‐1 ضمن المدى المرجعي**، بينما **ارتفاع IGF‐1** يستدعي استقصاءً إضافيًا **بفحص تحمّل الكلوكوز**.",
+    "والمديات المرجعية لـ IGF‐1 **خاصّة بالعمر والطريقة**.",
+    [
+     "ويُؤكَّد التشخيص بإثبات **ارتفاع GH في البلازما** الذي **لا يُكبت بارتفاع تركيز الكلوكوز في البلازما**.",
+     "(**فحص الكبت بالكلوكوز**)."
+    ]
+   ]
+  },
+  {
+   "t": "note",
+   "en": "μg/L and ng/mL are the same unit (1 μg/L = 1 ng/mL), so 0.5 μg/L = 0.5 ng/mL.",
+   "ar": "μg/L وng/mL الوحدة نفسها (1 مايكروغرام/لتر = 1 نانوغرام/مل)، فـ 0.5 μg/L = 0.5 ng/mL.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Glucose suppression test for suspected acromegaly",
+   "ar": "فحص الكبت بالكلوكوز عند الاشتباه بضخامة الأطراف"
+  },
+  {
+   "t": "card",
+   "en": "The response of plasma GH to a glucose suppression test (glucose tolerance test) is the **‘gold standard’** for the diagnosis of **acromegaly**.",
+   "ar": "استجابة GH في البلازما لفحص الكبت بالكلوكوز (فحص تحمّل الكلوكوز) هي **‘المعيار الذهبي’** لتشخيص **ضخامة الأطراف**."
+  },
+  {
+   "t": "h2",
+   "en": "Procedure",
+   "ar": "الطريقة"
+  },
+  {
+   "t": "rule",
+   "en": "After an **overnight fast**, insert an **indwelling intravenous cannula**.",
+   "ar": "بعد **صيام ليلة كاملة**، أدخل **قنية وريدية مقيمة (كانيولا)**."
+  },
+  {
+   "t": "rule",
+   "en": "After **at least 30 min**, take **basal samples** for plasma glucose and GH estimation.",
+   "ar": "بعد **30 دقيقة على الأقل**، خذ **عيّنات أساسية** لتقدير كلوكوز البلازما وGH."
+  },
+  {
+   "t": "rule",
+   "en": "The patient should drink **75 g of glucose** dissolved in about **300 mL of water**, or an equivalent glucose load.",
+   "ar": "يشرب المريض **75 غ من الكلوكوز** مذابة في نحو **300 مل من الماء**، أو حملًا مكافئًا من الكلوكوز."
+  },
+  {
+   "t": "rule",
+   "en": "Take samples for glucose and GH assays at **30, 60, 90 and 120 min** after the glucose load has been taken.",
+   "ar": "خذ عيّنات لقياس الكلوكوز وGH عند **30 و60 و90 و120 دقيقة** بعد تناول حمل الكلوكوز."
+  },
+  {
+   "t": "h2",
+   "en": "Interpretation",
+   "ar": "التفسير"
+  },
+  {
+   "t": "card",
+   "en": [
+    "1.In **normal subjects**, plasma GH **falls to less than 0.5 μg/L**.",
+    "However, in patients with **acromegaly or gigantism**, GH **does not fall** in response to the stimulus of hyperglycaemia, and **may even increase in about 30%** of patients."
+   ],
+   "ar": [
+    "1. في **الأشخاص الطبيعيين** **ينخفض** GH في البلازما **إلى أقل من 0.5 مايكروغرام/لتر**.",
+    "أمّا في مرضى **ضخامة الأطراف أو العملقة** فلا **ينخفض** GH استجابةً لمحفّز ارتفاع السكر، و**قد يرتفع أيضًا في نحو 30%** من المرضى."
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Overnight fast + IV cannula",
+     "ar": "صيام ليلة + كانيولا"
+    },
+    {
+     "en": "≥ 30 min → basal glucose + GH",
+     "ar": "≥ 30 دقيقة ← كلوكوز وGH أساسيان"
+    },
+    {
+     "en": "75 g glucose in ~300 mL water",
+     "ar": "75 غ كلوكوز في ~300 مل ماء"
+    },
+    {
+     "en": "Samples at 30, 60, 90, 120 min",
+     "ar": "عيّنات عند 30 و60 و90 و120 دقيقة"
+    },
+    {
+     "en": "Normal: GH < 0.5 μg/L; acromegaly: no fall",
+     "ar": "طبيعي: GH < 0.5؛ ضخامة: لا ينخفض"
+    }
+   ],
+   "en": "Glucose suppression test in steps",
+   "ar": "فحص الكبت بالخطوات"
+  },
+  {
+   "t": "note",
+   "en": [
+    "GH excess: measure **GH + IGF‐1**; random GH not diagnostic (**episodic, short half-life**); **MRI > CT**.",
+    "Random GH **< 0.5** + normal IGF‐1 **excludes** acromegaly; ↑ IGF‐1 → **glucose test**.",
+    "**Gold standard**: 75 g glucose → normal GH **< 0.5 μg/L**; acromegaly → **no fall** (↑ in ~30%)."
+   ],
+   "ar": [
+    "زيادة GH: قِس **GH + IGF‐1**؛ GH العشوائي غير تشخيصي (**نوبي، عمر نصف قصير**)؛ **الرنين > المقطعي**.",
+    "GH عشوائي **< 0.5** + IGF‐1 طبيعي **يستبعد** ضخامة الأطراف؛ وارتفاع IGF‐1 ← **فحص الكلوكوز**.",
+    "**المعيار الذهبي**: 75 غ كلوكوز ← GH الطبيعي **< 0.5**؛ وضخامة الأطراف ← **لا ينخفض** (يرتفع في نحو 30%)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Growth hormone (GH)**",
+     "هرمون النمو / السوماتوتروبين"
+    ],
+    [
+     "**Somatotrophs**",
+     "الخلايا المولّدة لهرمون النمو"
+    ],
+    [
+     "**Anterior pituitary**",
+     "الفصّ الأمامي للنخامية / النخامية الأمامية"
+    ],
+    [
+     "**GHRH**",
+     "الهرمون المحرّر لهرمون النمو"
+    ],
+    [
+     "**Somatostatin**",
+     "السوماتوستاتين / الهرمون المثبّط لهرمون النمو"
+    ],
+    [
+     "**Ghrelin**",
+     "الغريلين / هرمون الجوع"
+    ],
+    [
+     "**IGF-1**",
+     "عامل النمو الشبيه بالأنسولين 1 / السوماتوميدين C"
+    ],
+    [
+     "**Pulsatile (episodic) secretion**",
+     "الإفراز النبضي / النوبي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Gigantism**",
+     "العملقة / الضخامة"
+    ],
+    [
+     "**Acromegaly**",
+     "ضخامة الأطراف / العملقة الطرفية"
+    ],
+    [
+     "**Epiphyseal plate**",
+     "صفيحة المشاش / صفيحة النمو / غضروف النمو"
+    ],
+    [
+     "**Pituitary adenoma**",
+     "ورم غدّي نخامي"
+    ],
+    [
+     "**Dwarfism**",
+     "القزامة"
+    ],
+    [
+     "**Stimulation test**",
+     "فحص التحفيز / الإثارة"
+    ],
+    [
+     "**Suppression test**",
+     "فحص الكبت / التثبيط"
+    ],
+    [
+     "**Insulin tolerance test (ITT)**",
+     "فحص تحمّل الأنسولين"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Hypoglycemia**",
+     "نقص سكر الدم / هبوط السكر"
+    ],
+    [
+     "**Arginine**",
+     "الأرجنين"
+    ],
+    [
+     "**Clonidine**",
+     "الكلونيدين"
+    ],
+    [
+     "**Glucagon**",
+     "الغلوكاغون"
+    ],
+    [
+     "**Body surface area**",
+     "مساحة سطح الجسم"
+    ],
+    [
+     "**Oral glucose tolerance test (OGTT)**",
+     "فحص تحمّل الكلوكوز الفموي"
+    ],
+    [
+     "**Indwelling cannula**",
+     "قنية مقيمة / كانيولا"
+    ],
+    [
+     "**Ectopic source**",
+     "مصدر هاجر / خارج موضعه"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Growth hormone",
+    "topic_ar": "هرمون النمو"
+   },
+   {
+    "en": "Growth hormone is a peptide hormone of:",
+    "ar": "هرمون النمو هرمون ببتيدي من:",
+    "options": [
+     [
+      "51 amino acids",
+      "51 حمضًا أمينيًا"
+     ],
+     [
+      "191 amino acids",
+      "191 حمضًا أمينيًا"
+     ],
+     [
+      "9 amino acids",
+      "9 أحماض أمينية"
+     ],
+     [
+      "500 amino acids",
+      "500 حمض أميني"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "GH is secreted by somatotrophs of the:",
+    "ar": "يُفرَز GH من الخلايا المولّدة للنمو في:",
+    "options": [
+     [
+      "Posterior pituitary",
+      "النخامية الخلفية"
+     ],
+     [
+      "Hypothalamus",
+      "الوطاء"
+     ],
+     [
+      "Anterior pituitary",
+      "النخامية الأمامية"
+     ],
+     [
+      "Liver",
+      "الكبد"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "GH secretion is stimulated by all EXCEPT:",
+    "ar": "يُحفَّز إفراز GH بكل ما يأتي ما عدا:",
+    "options": [
+     [
+      "High plasma glucose",
+      "ارتفاع كلوكوز البلازما"
+     ],
+     [
+      "Onset of deep sleep",
+      "بداية النوم العميق"
+     ],
+     [
+      "Exercise",
+      "التمارين"
+     ],
+     [
+      "Falling plasma glucose after meals",
+      "انخفاض الكلوكوز بعد الوجبات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In the figure, the hypothalamic hormone that inhibits GH is:",
+    "ar": "في الشكل، الهرمون الوطائي الذي يثبّط GH هو:",
+    "options": [
+     [
+      "GHRH",
+      "GHRH"
+     ],
+     [
+      "Ghrelin",
+      "الغريلين"
+     ],
+     [
+      "IGF-1 stimulation",
+      "تحفيز IGF-1"
+     ],
+     [
+      "Somatostatin",
+      "السوماتوستاتين"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "GH acts on the liver to produce:",
+    "ar": "يعمل GH على الكبد لإنتاج:",
+    "options": [
+     [
+      "IGF-1",
+      "IGF-1"
+     ],
+     [
+      "Insulin",
+      "الأنسولين"
+     ],
+     [
+      "Glucagon",
+      "الغلوكاغون"
+     ],
+     [
+      "Cortisol",
+      "الكورتيزول"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Disorders",
+    "topic_ar": "الاضطرابات"
+   },
+   {
+    "en": "Excess GH before epiphyseal plate closure causes:",
+    "ar": "زيادة GH قبل انغلاق صفيحة المشاش تسبّب:",
+    "options": [
+     [
+      "Acromegaly",
+      "ضخامة الأطراف"
+     ],
+     [
+      "Diabetes insipidus",
+      "السكري الكاذب"
+     ],
+     [
+      "Dwarfism",
+      "القزامة"
+     ],
+     [
+      "Gigantism",
+      "العملقة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Acromegaly is excess GH:",
+    "ar": "ضخامة الأطراف هي زيادة GH:",
+    "options": [
+     [
+      "In infancy",
+      "في الرضاعة"
+     ],
+     [
+      "After growth plates have closed",
+      "بعد انغلاق صفائح النمو"
+     ],
+     [
+      "Before puberty",
+      "قبل البلوغ"
+     ],
+     [
+      "With low IGF-1",
+      "مع IGF-1 منخفض"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The usual cause of GH excess is:",
+    "ar": "السبب المعتاد لزيادة GH:",
+    "options": [
+     [
+      "Liver failure",
+      "فشل الكبد"
+     ],
+     [
+      "Hypothalamic dysfunction",
+      "خلل الوطاء"
+     ],
+     [
+      "Pituitary adenoma",
+      "ورم غدّي نخامي"
+     ],
+     [
+      "Genetic mutation",
+      "طفرة وراثية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In children, GH deficiency causes:",
+    "ar": "عند الأطفال يسبّب نقص GH:",
+    "options": [
+     [
+      "Obesity only",
+      "سمنة فقط"
+     ],
+     [
+      "Gigantism",
+      "العملقة"
+     ],
+     [
+      "Acromegaly",
+      "ضخامة الأطراف"
+     ],
+     [
+      "Growth retardation or dwarfism",
+      "تأخّر النمو أو القزامة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In adults, GH deficiency may lead to:",
+    "ar": "عند البالغين قد يؤدّي نقص GH إلى:",
+    "options": [
+     [
+      "Increased muscle mass",
+      "زيادة الكتلة العضلية"
+     ],
+     [
+      "Enlarged hands",
+      "تضخّم اليدين"
+     ],
+     [
+      "Reduced muscle mass and increased fat deposition",
+      "نقص العضلات وزيادة ترسّب الدهون"
+     ],
+     [
+      "Tall stature",
+      "طول القامة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Diagnostic tests",
+    "topic_ar": "فحوص التشخيص"
+   },
+   {
+    "en": "GH stimulation tests are used to assess:",
+    "ar": "تُستعمل فحوص تحفيز GH لتقييم:",
+    "options": [
+     [
+      "GH excess",
+      "زيادة GH"
+     ],
+     [
+      "GH deficiency",
+      "نقص GH"
+     ],
+     [
+      "Thyroid function",
+      "وظيفة الدرقية"
+     ],
+     [
+      "Liver function",
+      "وظيفة الكبد"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "GH excess is diagnosed with:",
+    "ar": "تُشخَّص زيادة GH بـ:",
+    "options": [
+     [
+      "A suppression test (oral glucose tolerance test)",
+      "فحص كبت (تحمّل الكلوكوز الفموي)"
+     ],
+     [
+      "Arginine test",
+      "فحص الأرجنين"
+     ],
+     [
+      "Clonidine test",
+      "فحص الكلونيدين"
+     ],
+     [
+      "Insulin tolerance test",
+      "فحص تحمّل الأنسولين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "IGF-1 measurement reflects:",
+    "ar": "يعكس قياس IGF-1:",
+    "options": [
+     [
+      "A single GH pulse",
+      "نبضة GH واحدة"
+     ],
+     [
+      "Insulin level",
+      "مستوى الأنسولين"
+     ],
+     [
+      "Blood glucose",
+      "سكر الدم"
+     ],
+     [
+      "Average GH activity",
+      "متوسط نشاط GH"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In the ITT, the target blood glucose is:",
+    "ar": "في فحص تحمّل الأنسولين يكون كلوكوز الدم المستهدف:",
+    "options": [
+     [
+      "> 200 mg/dL",
+      "أكثر من 200 ملغم/دل"
+     ],
+     [
+      "< 40 mg/dL",
+      "أقل من 40 ملغم/دل"
+     ],
+     [
+      "100 mg/dL",
+      "100 ملغم/دل"
+     ],
+     [
+      "< 70 mg/dL",
+      "أقل من 70 ملغم/دل"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The ITT is contraindicated in patients with:",
+    "ar": "يُمنع فحص تحمّل الأنسولين في مرضى:",
+    "options": [
+     [
+      "Seizures or cardiovascular conditions",
+      "الصرع أو أمراض القلب والأوعية"
+     ],
+     [
+      "Anemia",
+      "فقر الدم"
+     ],
+     [
+      "Obesity",
+      "السمنة"
+     ],
+     [
+      "Short stature",
+      "قِصر القامة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In the arginine test, the dose is:",
+    "ar": "في فحص الأرجنين تكون الجرعة:",
+    "options": [
+     [
+      "1 mg IM",
+      "1 ملغم عضليًا"
+     ],
+     [
+      "75 g orally",
+      "75 غ فمويًا"
+     ],
+     [
+      "0.5 g/kg IV, maximum 30 g",
+      "0.5 غ/كغم وريديًا بحدّ أقصى 30 غ"
+     ],
+     [
+      "0.15 mg/m² orally",
+      "0.15 ملغم/م² فمويًا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Arginine should NOT be given to patients with:",
+    "ar": "يجب ألّا يُعطى الأرجنين لمرضى:",
+    "options": [
+     [
+      "Hypertension only",
+      "ارتفاع الضغط فقط"
+     ],
+     [
+      "Short stature",
+      "قِصر القامة"
+     ],
+     [
+      "Renal, hepatic or acid-base disorders or DM",
+      "اضطرابات الكلى أو الكبد أو الحامضية أو السكري"
+     ],
+     [
+      "Anemia",
+      "فقر الدم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Clonidine is given:",
+    "ar": "يُعطى الكلونيدين:",
+    "options": [
+     [
+      "Orally 0.15 mg/m² body surface area",
+      "فمويًا 0.15 ملغم/م² من مساحة سطح الجسم"
+     ],
+     [
+      "Intravenously 0.5 g/kg",
+      "وريديًا 0.5 غ/كغم"
+     ],
+     [
+      "Intramuscularly 1 mg",
+      "عضليًا 1 ملغم"
+     ],
+     [
+      "As 75 g drink",
+      "شرابًا 75 غ"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Side effects of the clonidine test are:",
+    "ar": "الآثار الجانبية لفحص الكلونيدين:",
+    "options": [
+     [
+      "Nausea and vomiting",
+      "غثيان وتقيّؤ"
+     ],
+     [
+      "Drowsiness and hypotension",
+      "النعاس وانخفاض الضغط"
+     ],
+     [
+      "Hyperglycemia",
+      "ارتفاع السكر"
+     ],
+     [
+      "Seizures",
+      "الصرع"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Glucagon in the stimulation test is given:",
+    "ar": "يُعطى الغلوكاغون في فحص التحفيز:",
+    "options": [
+     [
+      "Orally",
+      "فمويًا"
+     ],
+     [
+      "Intravenously as infusion",
+      "وريديًا بالتسريب"
+     ],
+     [
+      "Subcutaneously 75 g",
+      "تحت الجلد 75 غ"
+     ],
+     [
+      "Intramuscularly",
+      "في العضل"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In the glucagon test, a normal peak GH in adults is:",
+    "ar": "في فحص الغلوكاغون تكون ذروة GH الطبيعية عند البالغين:",
+    "options": [
+     [
+      "> 10 ng/mL",
+      "أكثر من 10 نانوغرام/مل"
+     ],
+     [
+      "> 3 ng/mL",
+      "أكثر من 3 نانوغرام/مل"
+     ],
+     [
+      "< 1 ng/mL",
+      "أقل من 1 نانوغرام/مل"
+     ],
+     [
+      "> 50 ng/mL",
+      "أكثر من 50 نانوغرام/مل"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "A normal peak GH in children after stimulation is:",
+    "ar": "ذروة GH الطبيعية عند الأطفال بعد التحفيز:",
+    "options": [
+     [
+      "> 10 ng/mL",
+      "أكثر من 10 نانوغرام/مل"
+     ],
+     [
+      "< 1 ng/mL",
+      "أقل من 1 نانوغرام/مل"
+     ],
+     [
+      "0.4 ng/mL",
+      "0.4 نانوغرام/مل"
+     ],
+     [
+      "2 ng/mL",
+      "2 نانوغرام/مل"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Reference values and GH excess",
+    "topic_ar": "القيم المرجعية وزيادة GH"
+   },
+   {
+    "en": "Basal GH in adults is:",
+    "ar": "GH الأساسي عند البالغين:",
+    "options": [
+     [
+      "0-5 ng/mL",
+      "0-5 نانوغرام/مل"
+     ],
+     [
+      "10-20 ng/mL",
+      "10-20 نانوغرام/مل"
+     ],
+     [
+      "> 10 ng/mL",
+      "أكثر من 10 نانوغرام/مل"
+     ],
+     [
+      "< 1 ng/mL",
+      "أقل من 1 نانوغرام/مل"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Newborns have higher basal GH (up to 10-20 ng/mL) because of:",
+    "ar": "لحديثي الولادة GH أساسي أعلى (حتى 10-20) بسبب:",
+    "options": [
+     [
+      "Acromegaly",
+      "ضخامة الأطراف"
+     ],
+     [
+      "Pituitary adenoma",
+      "ورم نخامي"
+     ],
+     [
+      "Stress during birth",
+      "إجهاد الولادة"
+     ],
+     [
+      "Feeding",
+      "الرضاعة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Random GH measurements are often not diagnostic because of:",
+    "ar": "قياسات GH العشوائية غالبًا غير تشخيصية بسبب:",
+    "options": [
+     [
+      "Long half-life",
+      "طول عمر النصف"
+     ],
+     [
+      "Episodic secretion and a short half-life",
+      "الإفراز النوبي وقصر عمر النصف"
+     ],
+     [
+      "Constant secretion",
+      "الإفراز الثابت"
+     ],
+     [
+      "Binding to albumin",
+      "الارتباط بالألبومين"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The more sensitive imaging for the pituitary is:",
+    "ar": "التصوير الأكثر حساسية للنخامية:",
+    "options": [
+     [
+      "CT",
+      "المقطعي"
+     ],
+     [
+      "Ultrasound",
+      "الأمواج فوق الصوتية"
+     ],
+     [
+      "X-ray",
+      "الأشعة السينية"
+     ],
+     [
+      "MRI",
+      "الرنين المغناطيسي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A random GH below 0.5 μg/L with normal IGF-1:",
+    "ar": "GH عشوائي أقل من 0.5 مايكروغرام/لتر مع IGF-1 طبيعي:",
+    "options": [
+     [
+      "Confirms acromegaly",
+      "يؤكّد ضخامة الأطراف"
+     ],
+     [
+      "Means GH deficiency",
+      "يعني نقص GH"
+     ],
+     [
+      "Essentially excludes acromegaly",
+      "يستبعد عمليًا ضخامة الأطراف"
+     ],
+     [
+      "Needs ITT",
+      "يحتاج فحص الأنسولين"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The ‘gold standard’ for diagnosis of acromegaly is:",
+    "ar": "‘المعيار الذهبي’ لتشخيص ضخامة الأطراف:",
+    "options": [
+     [
+      "Glucose suppression test",
+      "فحص الكبت بالكلوكوز"
+     ],
+     [
+      "Insulin tolerance test",
+      "فحص تحمّل الأنسولين"
+     ],
+     [
+      "CT scan",
+      "التصوير المقطعي"
+     ],
+     [
+      "Random GH",
+      "GH العشوائي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In the glucose suppression test, the glucose load is:",
+    "ar": "في فحص الكبت يكون حمل الكلوكوز:",
+    "options": [
+     [
+      "1 mg/kg",
+      "1 ملغم/كغم"
+     ],
+     [
+      "50 g in 100 mL",
+      "50 غ في 100 مل"
+     ],
+     [
+      "100 g IV",
+      "100 غ وريديًا"
+     ],
+     [
+      "75 g in about 300 mL water",
+      "75 غ في نحو 300 مل ماء"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In normal subjects after the glucose load, plasma GH falls to:",
+    "ar": "في الطبيعيين بعد حمل الكلوكوز ينخفض GH إلى:",
+    "options": [
+     [
+      "> 10 μg/L",
+      "أكثر من 10 مايكروغرام/لتر"
+     ],
+     [
+      "< 0.5 μg/L",
+      "أقل من 0.5 مايكروغرام/لتر"
+     ],
+     [
+      "5 μg/L",
+      "5 مايكروغرام/لتر"
+     ],
+     [
+      "Zero exactly",
+      "صفر بالضبط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In acromegaly after a glucose load, GH:",
+    "ar": "في ضخامة الأطراف بعد حمل الكلوكوز يكون GH:",
+    "options": [
+     [
+      "Does not fall and may increase in about 30%",
+      "لا ينخفض وقد يرتفع في نحو 30%"
+     ],
+     [
+      "Falls to zero",
+      "ينخفض إلى صفر"
+     ],
+     [
+      "Falls below 0.5 μg/L",
+      "ينخفض تحت 0.5"
+     ],
+     [
+      "Doubles in all patients",
+      "يتضاعف في كل المرضى"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this figure, the factor marked (−) that comes from the liver and feeds back on GH is:",
+    "ar": "في هذا الشكل، العامل المؤشَّر (−) الآتي من الكبد والذي يعمل تغذية راجعة على GH:",
+    "options": [
+     [
+      "Ghrelin",
+      "الغريلين"
+     ],
+     [
+      "GHRH",
+      "GHRH"
+     ],
+     [
+      "IGF-1",
+      "IGF-1"
+     ],
+     [
+      "Glucose uptake",
+      "امتصاص الكلوكوز"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/gh-regulation-1.jpg",
+    "img_h": "46mm"
+   },
+   {
+    "en": "These enlarged hands are typical of:",
+    "ar": "هذه اليدان المتضخّمتان نموذجيتان لـ:",
+    "options": [
+     [
+      "GH deficiency in adults",
+      "نقص GH عند البالغين"
+     ],
+     [
+      "Dwarfism",
+      "القزامة"
+     ],
+     [
+      "Acromegaly",
+      "ضخامة الأطراف"
+     ],
+     [
+      "Hypoglycemia",
+      "نقص السكر"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/acromegaly-hands.jpg",
+    "img_h": "34mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "GH stimulates the growth of essentially all tissues including bone.",
+    "ar": "يحفّز GH نموّ كل الأنسجة تقريبًا ومنها العظم.",
+    "answer": "T"
+   },
+   {
+    "en": "Outside stimulation periods, plasma GH is usually high in children.",
+    "ar": "خارج فترات التحفيز يكون GH في البلازما مرتفعًا عادةً عند الأطفال.",
+    "answer": "F"
+   },
+   {
+    "en": "Ghrelin stimulates GH secretion.",
+    "ar": "يحفّز الغريلين إفراز GH.",
+    "answer": "T"
+   },
+   {
+    "en": "Gigantism occurs after growth plates have closed.",
+    "ar": "تحدث العملقة بعد انغلاق صفائح النمو.",
+    "answer": "F"
+   },
+   {
+    "en": "GH deficiency may be caused by hypothalamic dysfunction.",
+    "ar": "قد ينتج نقص GH عن خلل الوطاء.",
+    "answer": "T"
+   },
+   {
+    "en": "In the ITT insulin is given orally.",
+    "ar": "في فحص تحمّل الأنسولين يُعطى الأنسولين فمويًا.",
+    "answer": "F"
+   },
+   {
+    "en": "The ITT requires close monitoring to prevent severe hypoglycemia.",
+    "ar": "يحتاج فحص تحمّل الأنسولين مراقبة دقيقة لمنع نقص السكر الشديد.",
+    "answer": "T"
+   },
+   {
+    "en": "Clonidine stimulates GH secretion via the hypothalamus.",
+    "ar": "يحفّز الكلونيدين إفراز GH عبر الوطاء.",
+    "answer": "T"
+   },
+   {
+    "en": "In the glucagon test samples are taken up to 180 minutes.",
+    "ar": "في فحص الغلوكاغون تؤخذ العيّنات حتى 180 دقيقة.",
+    "answer": "T"
+   },
+   {
+    "en": "Some labs use 4.1-10 ng/mL as the adult cutoff after stimulation.",
+    "ar": "بعض المختبرات تستعمل 4.1-10 نانوغرام/مل حدًّا للبالغين بعد التحفيز.",
+    "answer": "T"
+   },
+   {
+    "en": "Reference ranges for IGF-1 are the same for all ages.",
+    "ar": "المديات المرجعية لـ IGF-1 واحدة لكل الأعمار.",
+    "answer": "F"
+   },
+   {
+    "en": "CT is more sensitive than MRI for the pituitary.",
+    "ar": "التصوير المقطعي أكثر حساسية من الرنين للنخامية.",
+    "answer": "F"
+   },
+   {
+    "en": "In the glucose suppression test basal samples are taken at least 30 min after inserting the cannula.",
+    "ar": "في فحص الكبت تؤخذ العيّنات الأساسية بعد 30 دقيقة على الأقل من إدخال الكانيولا.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Stimulation or suppression?",
+    "ar": "تحفيز أم كبت؟",
+    "answer_en": "Deficiency → stimulation tests (insulin, arginine, clonidine, glucagon). Excess → suppression test (glucose).",
+    "answer_ar": "النقص ← فحوص التحفيز (الأنسولين، الأرجنين، الكلونيدين، الغلوكاغون). الزيادة ← فحص الكبت (الكلوكوز)."
+   },
+   {
+    "en": "Gigantism vs acromegaly",
+    "ar": "العملقة مقابل ضخامة الأطراف",
+    "answer_en": "Same excess GH: gigantism before epiphyseal closure (children), acromegaly after closure (adults).",
+    "answer_ar": "زيادة GH نفسها: العملقة قبل انغلاق المشاش (الأطفال)، وضخامة الأطراف بعد الانغلاق (البالغون)."
+   },
+   {
+    "en": "Adult cutoffs differ by test",
+    "ar": "حدود البالغين تختلف حسب الفحص",
+    "answer_en": "ITT and arginine: > 5 ng/mL; glucagon: > 3 ng/mL; clonidine: only the child value (> 10) is given.",
+    "answer_ar": "الأنسولين والأرجنين: > 5 نانوغرام/مل؛ الغلوكاغون: > 3؛ الكلونيدين: تُذكر قيمة الأطفال فقط (> 10)."
+   },
+   {
+    "en": "Routes and doses",
+    "ar": "الطرق والجرعات",
+    "answer_en": "Insulin IV; arginine IV 0.5 g/kg (max 30 g); clonidine oral 0.15 mg/m²; glucagon IM 1 mg (children) or 1-1.5 mg (adults); glucose 75 g oral.",
+    "answer_ar": "الأنسولين وريدي؛ الأرجنين وريدي 0.5 غ/كغم (أقصى 30 غ)؛ الكلونيدين فموي 0.15 ملغم/م²؛ الغلوكاغون عضلي 1 ملغم (أطفال) أو 1-1.5 ملغم (بالغون)؛ الكلوكوز 75 غ فمويًا."
+   },
+   {
+    "en": "Which side effects?",
+    "ar": "أي آثار جانبية؟",
+    "answer_en": "ITT: severe hypoglycemia (not with seizures, heart disease). Clonidine: drowsiness, hypotension. Glucagon: nausea, vomiting, hypoglycemia. Arginine: avoid in renal, hepatic, acid-base disorders, DM.",
+    "answer_ar": "الأنسولين: نقص سكر شديد (ليس مع الصرع وأمراض القلب). الكلونيدين: نعاس وهبوط ضغط. الغلوكاغون: غثيان وتقيّؤ ونقص سكر. الأرجنين: يُتجنّب في أمراض الكلى والكبد والحامضية والسكري."
+   },
+   {
+    "en": "< 1, < 0.5 or < 0.4?",
+    "ar": "< 1 أم < 0.5 أم < 0.4؟",
+    "answer_en": "Basal adult and normal suppressed GH: < 1 ng/mL (ideally < 0.4 in some protocols). Random GH < 0.5 μg/L with normal IGF‐1 excludes acromegaly; after glucose load normal GH < 0.5 μg/L.",
+    "answer_ar": "GH الأساسي للبالغ والمكبوت الطبيعي: < 1 نانوغرام/مل (ومثاليًا < 0.4 في بعض البروتوكولات). وGH عشوائي < 0.5 مع IGF‐1 طبيعي يستبعد ضخامة الأطراف؛ وبعد حمل الكلوكوز GH الطبيعي < 0.5."
+   }
+  ],
+  "important": [
+   {
+    "en": "What is growth hormone and what stimulates its secretion?",
+    "ar": "ما هرمون النمو وما الذي يحفّز إفرازه؟",
+    "answer_en": "A peptide hormone of 191 amino acids made and secreted by somatotrophs of the anterior pituitary; it stimulates growth of essentially all tissues including bone. Secretion is stimulated by exercise, onset of deep sleep and falling plasma glucose about an hour after meals; otherwise plasma GH is very low or undetectable, especially in children.",
+    "answer_ar": "هرمون ببتيدي من 191 حمضًا أمينيًا تصنعه وتفرزه الخلايا المولّدة للنمو في النخامية الأمامية، ويحفّز نموّ كل الأنسجة تقريبًا ومنها العظم. ويُحفَّز إفرازه بالتمارين وبداية النوم العميق وانخفاض كلوكوز البلازما بعد نحو ساعة من الوجبات؛ وفي غير ذلك يكون منخفضًا جدًا أو غير قابل للكشف، خصوصًا عند الأطفال."
+   },
+   {
+    "en": "Describe the disorders of GH excess and deficiency.",
+    "ar": "صف اضطرابات زيادة هرمون النمو ونقصه.",
+    "answer_en": "Excess: gigantism in children (before epiphyseal plate closure), acromegaly in adults (enlarged hands, feet, facial features after plate closure), usually due to pituitary adenomas. Deficiency: growth retardation or dwarfism in children; reduced muscle mass, increased fat and poor quality of life in adults; caused by genetic mutations, pituitary damage or hypothalamic dysfunction.",
+    "answer_ar": "الزيادة: العملقة عند الأطفال (قبل انغلاق المشاش)، وضخامة الأطراف عند البالغين (تضخّم اليدين والقدمين وملامح الوجه بعد الانغلاق)، وغالبًا بسبب أورام غدّية نخامية. النقص: تأخّر النمو أو القزامة عند الأطفال؛ ونقص العضلات وزيادة الدهون وتدنّي جودة الحياة عند البالغين؛ وسببه طفرات وراثية أو تلف النخامية أو خلل الوطاء."
+   },
+   {
+    "en": "Describe the insulin tolerance test.",
+    "ar": "صف فحص تحمّل الأنسولين.",
+    "answer_en": "Purpose: GH release in response to hypoglycemia. Overnight fast; baseline glucose and GH; IV insulin to bring glucose below 40 mg/dL; samples at 0, 30, 60, 90 and 120 min for GH. Normal peak GH > 10 ng/mL in children or > 5 ng/mL in adults. Needs close monitoring for severe hypoglycemia; contraindicated in seizures or cardiovascular conditions.",
+    "answer_ar": "الغرض: إفراز GH استجابةً لنقص السكر. صيام ليلة؛ كلوكوز وGH أساسيان؛ أنسولين وريدي لخفض الكلوكوز تحت 40 ملغم/دل؛ عيّنات عند 0 و30 و60 و90 و120 دقيقة لقياس GH. الذروة الطبيعية > 10 نانوغرام/مل للأطفال أو > 5 للبالغين. يحتاج مراقبة دقيقة لنقص السكر الشديد؛ وممنوع مع الصرع وأمراض القلب والأوعية."
+   },
+   {
+    "en": "Compare the arginine, clonidine and glucagon stimulation tests.",
+    "ar": "قارن بين فحوص التحفيز بالأرجنين والكلونيدين والغلوكاغون.",
+    "answer_en": "Arginine: 0.5 g/kg IV (max 30 g), samples 0-120 min, normal > 10 children / > 5 adults; not in renal, hepatic, acid-base disorders or DM. Clonidine: 0.15 mg/m² orally, acts via hypothalamus, samples 0-120 min, normal > 10 in children; drowsiness and hypotension. Glucagon: IM 1 mg children or 1-1.5 mg adults, samples 0-180 min, normal > 10 children / > 3 adults; watch nausea, vomiting, hypoglycemia.",
+    "answer_ar": "الأرجنين: 0.5 غ/كغم وريديًا (أقصى 30 غ)، عيّنات 0-120 دقيقة، الطبيعي > 10 أطفال / > 5 بالغون؛ ليس لمرضى الكلى والكبد والحامضية والسكري. الكلونيدين: 0.15 ملغم/م² فمويًا، يعمل عبر الوطاء، عيّنات 0-120، الطبيعي > 10 للأطفال؛ نعاس وهبوط ضغط. الغلوكاغون: عضلي 1 ملغم أطفال أو 1-1.5 ملغم بالغون، عيّنات 0-180، الطبيعي > 10 أطفال / > 3 بالغون؛ راقب الغثيان والتقيّؤ ونقص السكر."
+   },
+   {
+    "en": "Give the reference values of GH.",
+    "ar": "اذكر القيم المرجعية لهرمون النمو.",
+    "answer_en": "Basal: adults < 1 ng/mL (often undetectable in daytime due to pulsatile secretion), children 0-5 ng/mL, newborns up to 10-20 ng/mL (birth stress). After stimulation: children > 10 ng/mL, adults > 5 ng/mL (some labs 4.1-10); below these suggests deficiency. Suppressed: normal < 1 ng/mL (ideally < 0.4).",
+    "answer_ar": "الأساسي: البالغون < 1 نانوغرام/مل (غالبًا غير قابل للكشف نهارًا بسبب الإفراز النبضي)، الأطفال 0-5، حديثو الولادة حتى 10-20 (إجهاد الولادة). بعد التحفيز: الأطفال > 10، البالغون > 5 (بعض المختبرات 4.1-10)؛ وما دونها يوحي بالنقص. المكبوت: الطبيعي < 1 (مثاليًا < 0.4)."
+   },
+   {
+    "en": "How is GH excess diagnosed? Describe the glucose suppression test.",
+    "ar": "كيف تُشخَّص زيادة هرمون النمو؟ صف فحص الكبت بالكلوكوز.",
+    "answer_en": "Suggested by clinical presentation, biochemical tests and pituitary imaging (MRI more sensitive than CT; CT/MRI may find an ectopic GH or GHRH source). Requires GH and IGF‐1; random GH is variable (episodic, short half-life), but random GH < 0.5 μg/L with normal IGF‐1 essentially excludes acromegaly, while raised IGF‐1 needs a glucose test. Gold standard: overnight fast, IV cannula, after ≥ 30 min basal glucose and GH, drink 75 g glucose in ~300 mL water, sample at 30, 60, 90, 120 min. Normal GH falls below 0.5 μg/L; in acromegaly/gigantism it does not fall and may rise in ~30%.",
+    "answer_ar": "يُشتبه بها من الصورة السريرية والفحوص الكيموحيوية وتصوير النخامية (الرنين أكثر حساسية من المقطعي؛ وقد يكشفان مصدرًا هاجرًا لـ GH أو GHRH). وتتطلّب قياس GH وIGF‐1؛ وGH العشوائي متباين (نوبي، عمر نصف قصير)، لكن GH عشوائي < 0.5 مع IGF‐1 طبيعي يستبعد ضخامة الأطراف، وارتفاع IGF‐1 يحتاج فحص الكلوكوز. المعيار الذهبي: صيام ليلة، كانيولا وريدية، بعد ≥ 30 دقيقة كلوكوز وGH أساسيان، شرب 75 غ كلوكوز في ~300 مل ماء، وعيّنات عند 30 و60 و90 و120 دقيقة. في الطبيعي ينخفض GH تحت 0.5؛ وفي ضخامة الأطراف/العملقة لا ينخفض وقد يرتفع في نحو 30%."
+   }
+  ]
+ }
+}

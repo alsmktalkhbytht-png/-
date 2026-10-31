@@ -44,6 +44,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `histopathology-lec1-acute-inflammation/` — Histopathology theory lecture 1 (د. حامد خليل التميمي) — third stage.
 - `histopathology-lec2-chronic-inflammation/` — Histopathology theory lecture 2 (د. حامد خليل التميمي) — third stage.
 - `histopathology-lec4-healing-regeneration/` — Histopathology theory lecture 4 (د. حامد خليل التميمي) — third stage.
+- `clinbiochem-lab3-growth-hormone/` — Clinical Biochemistry (endocrine practical) lab 3: Growth hormone (م.م. نور إبراهيم جليل) — third stage, new style, questions inside.
 - `virology-lab1-safety/` — Medical Virology practical lab 1: safety and aseptic techniques — third stage.
 - `bacteriology-lab2-specimens/`, `bacteriology-lab3-culture-media/` — Diagnostic Microbiology practical labs 2 and 3 (د. هبة سامي) — fourth stage.
 - `parasitology-week5-theory/` — Diagnostic Parasitology theory week 5: Pathogenic free-living amoebae, E. histolytica vs E. dispar immunoassays, fixatives (أ.د. نزار الخفاجي) — fourth stage, rebuilt in the new style with a separate question file.
