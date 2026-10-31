@@ -1,0 +1,125 @@
+---
+source: BIOS-Obsidian/tools/scripts/par4/p4q.py
+handouts: [parasitology-week4-theory]
+saved: 2026-10-31
+tags: [bios, code]
+---
+# par4/p4q.py
+
+Generator script — writes the handout's `lecture.json`.
+
+Handouts: [[06 فهرس الملازم#parasitology-week4-theory|parasitology-week4-theory]]
+
+```python
+mcq = [
+ {"topic_en": "Entamoeba hartmanni", "topic_ar": "أميبا هارتمان"},
+ Q("E. hartmanni resembles E. histolytica in all life cycle stages except in:", "تشبه أميبا هارتمان الحالّة للنسيج في كل الأطوار إلا في:", O(("Size", "الحجم"), ("Number of nuclei of the mature cyst", "عدد أنوية الكيس الناضج"), ("Habitat", "الموطن"), ("Mode of infection", "طريقة الإصابة")), "a"),
+ Q("The trophozoite of E. hartmanni measures:", "يبلغ الطور المتغذّي لأميبا هارتمان:", O(("15-50 µm", "15-50 مايكرومتر"), ("4-12 µm", "4-12 مايكرومتر"), ("10-60 µm", "10-60 مايكرومتر"), ("20-30 µm", "20-30 مايكرومتر")), "b"),
+ Q("The cyst of E. hartmanni measures:", "يبلغ كيس أميبا هارتمان:", O(("10-30 µm", "10-30 مايكرومتر"), ("15-25 µm", "15-25 مايكرومتر"), ("5-10 µm", "5-10 مايكرومتر"), ("2-4 µm", "2-4 مايكرومتر")), "c"),
+ Q("The trophozoites of E. hartmanni:", "الأطوار المتغذّية لأميبا هارتمان:", O(("Ingest red blood cells", "تبتلع الكريات الحمر"), ("Invade tissues", "تغزو الأنسجة"), ("Move more vigorously than E. histolytica", "تتحرّك أنشط من الحالّة للنسيج"), ("Ingest bacteria but not red blood cells", "تبتلع البكتيريا لا الكريات الحمر")), "d"),
+ Q("The cyst of E. hartmanni resembles that of:", "يشبه كيس أميبا هارتمان كيس:", O(("Endolimax nana", "الإندوليماكس نانا"), ("Iodamoeba buetschlii", "أميبا بوتشلي اليودية"), ("E. gingivalis", "الأميبا اللثوية"), ("E. coli", "الأميبا القولونية")), "a"),
+ Q("E. hartmanni is identified by examining:", "تُشخَّص أميبا هارتمان بفحص:", O(("Blood films", "مسحات الدم"), ("Small amebae in unstained or iodine-stained preparations", "أميبات صغيرة في تحضيرات غير مصبوغة أو مصبوغة باليود"), ("Gum scrapings", "كشط اللثة"), ("Liver aspirate", "رشافة الكبد")), "b"),
+ {"topic_en": "Entamoeba coli", "topic_ar": "الأميبا القولونية"},
+ Q("The trophozoites of E. coli measure:", "تبلغ الأطوار المتغذّية للأميبا القولونية:", O(("4-12 µm", "4-12 مايكرومتر"), ("6-12 µm", "6-12 مايكرومتر"), ("15-50 µm", "15-50 مايكرومتر"), ("5-10 µm", "5-10 مايكرومتر")), "c"),
+ Q("The nuclear structure of E. coli shows:", "يُظهر تركيب نواة الأميبا القولونية:", O(("A large central karyosome", "جسيمًا نوويًا كبيرًا مركزيًا"), ("A bull's eye karyosome", "جسيمًا نوويًا كعين الثور"), ("No chromatin", "بلا كروماتين"), ("Peripheral chromatin and a small, usually eccentric karyosome", "كروماتينًا محيطيًا وجسيمًا نوويًا صغيرًا لا مركزيًا عادةً")), "d"),
+ Q("The mature cyst of E. coli has:", "للكيس الناضج للأميبا القولونية:", O(("Eight nuclei", "ثماني أنوية"), ("Four nuclei", "أربع أنوية"), ("One nucleus", "نواة واحدة"), ("Two nuclei", "نواتان")), "a"),
+ Q("The chromatoid bodies of E. coli are:", "الأجسام الكروماتينية في الأميبا القولونية:", O(("Cigar-shaped", "سيجارية"), ("Splinter-like and irregular", "شظوية وغير منتظمة"), ("Absent always", "غائبة دائمًا"), ("Round and large", "مستديرة وكبيرة")), "b"),
+ Q("The stage that distinguishes E. coli from E. histolytica is:", "الطور الذي يميّز الأميبا القولونية عن الحالّة للنسيج هو:", O(("The trophozoite", "الطور المتغذّي"), ("The pre-cyst", "ما قبل الكيس"), ("The mature cyst with more than four nuclei", "الكيس الناضج بأكثر من أربع أنوية"), ("The metacystic trophozoite", "المتغذّي ما بعد الكيسي")), "c"),
+ Q("Which is NOT a stage in the life cycle of E. coli?", "أيّ مما يأتي ليس طورًا في دورة حياة الأميبا القولونية؟", O(("Metacyst", "ما بعد الكيس"), ("Pre-cyst", "ما قبل الكيس"), ("Metacystic trophozoite", "المتغذّي ما بعد الكيسي"), ("Tissue abscess stage", "طور خرّاج الأنسجة")), "d"),
+ Q("The presence of E. coli in a stool specimen is evidence of:", "وجود الأميبا القولونية في عيّنة البراز دليل على:", O(("Fecal contamination", "التلوّث بالبراز"), ("Liver abscess", "خرّاج الكبد"), ("Invasive disease", "مرض غازٍ"), ("Poor oral hygiene", "سوء النظافة الفموية")), "a"),
+ Q("E. coli is transmitted by:", "تنتقل الأميبا القولونية بـ:", O(("Trophozoites in food", "الأطوار المتغذّية في الطعام"), ("Viable cysts through fecal contamination", "الأكياس الحيّة عبر التلوّث بالبراز"), ("Insect bite", "لدغة الحشرات"), ("Kissing", "التقبيل")), "b"),
+ {"topic_en": "E. polecki, Endolimax nana, E. gingivalis", "topic_ar": "بوليكي والإندوليماكس واللثوية"},
+ Q("Entamoeba polecki is mainly a parasite of:", "أميبا بوليكي طفيلي بصورة رئيسية لـ:", O(("Cattle and sheep", "الأبقار والأغنام"), ("Birds", "الطيور"), ("Dog and monkey", "الكلب والقرد"), ("Fish", "الأسماك")), "c"),
+ Q("In man, E. polecki causes:", "في الإنسان تسبّب أميبا بوليكي:", O(("Liver abscess", "خرّاج الكبد"), ("Meningoencephalitis", "التهاب السحايا والدماغ"), ("Gum disease", "مرض اللثة"), ("Mild, transient diarrhea", "إسهالًا خفيفًا عابرًا")), "d"),
+ Q("Treatment of E. polecki is:", "علاج أميبا بوليكي:", O(("The same as for E. histolytica", "نفسه كما في الحالّة للنسيج"), ("Not needed", "غير مطلوب"), ("Surgery", "جراحة"), ("Better oral hygiene only", "نظافة فموية فقط")), "a"),
+ Q("Endolimax nana lives mainly in the:", "تعيش الإندوليماكس نانا بصورة رئيسية في:", O(("Mouth", "الفم"), ("Large intestine at the cecal level", "الأمعاء الغليظة عند مستوى الأعور"), ("Liver", "الكبد"), ("Stomach", "المعدة")), "b"),
+ Q("The motility of Endolimax nana is:", "حركة الإندوليماكس نانا:", O(("Rapid and progressive", "سريعة وتقدّمية"), ("By flagella", "بالأسواط"), ("Sluggish (slug-like) with blunt hyaline pseudopodia", "بطيئة (كالبزّاقة) بأقدام كاذبة كليلة شفّافة"), ("Absent", "معدومة")), "c"),
+ Q("The confirmatory finding for Endolimax nana is:", "الموجودة المؤكِّدة للإندوليماكس نانا هي:", O(("Round cysts", "الأكياس المستديرة"), ("Living trophozoites", "الأطوار المتغذّية الحيّة"), ("Eight-nucleate cysts", "أكياس ثمانية الأنوية"), ("Typical ovoid cysts", "الأكياس البيضوية النموذجية")), "d"),
+ Q("Entamoeba gingivalis is found:", "توجد الأميبا اللثوية:", O(("As trophozoites only", "بشكل أطوار متغذّية فقط"), ("As cysts only", "بشكل أكياس فقط"), ("In the caecum", "في الأعور"), ("In the liver", "في الكبد")), "a"),
+ Q("E. gingivalis thrives best on:", "تزدهر الأميبا اللثوية أكثر على:", O(("Healthy teeth", "الأسنان السليمة"), ("Unhealthy gums", "اللثة غير السليمة"), ("The tongue", "اللسان"), ("The tonsils", "اللوزتين")), "b"),
+ Q("The trophozoite of E. gingivalis measures:", "يبلغ الطور المتغذّي للأميبا اللثوية:", O(("4-12 µm", "4-12 مايكرومتر"), ("2-4 µm", "2-4 مايكرومتر"), ("5-35 µm", "5-35 مايكرومتر"), ("15-25 µm", "15-25 مايكرومتر")), "c"),
+ Q("The presence of E. gingivalis suggests a need for:", "يشير وجود الأميبا اللثوية إلى الحاجة إلى:", O(("Metronidazole", "الميترونيدازول"), ("Sewage disposal", "التخلّص من الصرف"), ("Stool examination", "فحص البراز"), ("Better oral hygiene", "نظافة فموية أفضل")), "d"),
+ {"topic_en": "Dientamoeba fragilis and Iodamoeba buetschlii", "topic_ar": "ثنائية النواة الهشّة وأميبا بوتشلي"},
+ Q("Dientamoeba fragilis lives in the:", "تعيش الأميبا الهشّة ثنائية النواة في:", O(("Large intestine", "الأمعاء الغليظة"), ("Small intestine", "الأمعاء الدقيقة"), ("Mouth", "الفم"), ("Blood", "الدم")), "a"),
+ Q("Patients with D. fragilis may also be tested for:", "قد يُفحص المصابون بثنائية النواة الهشّة أيضًا عن:", O(("Malaria", "الملاريا"), ("Pinworm eggs", "بيوض الدودة الدبوسية"), ("Hookworm larvae", "يرقات الدودة الشصّية"), ("Occult blood", "الدم الخفي")), "b"),
+ Q("Stool samples for D. fragilis may be needed from more than one day because:", "قد تلزم عيّنات براز لثنائية النواة الهشّة من أكثر من يوم لأن:", O(("It spreads to the liver", "تنتشر إلى الكبد"), ("It forms cysts slowly", "تكوّن الأكياس ببطء"), ("The parasite is not always found in every sample", "الطفيلي لا يوجد دائمًا في كل عيّنة"), ("It needs culture", "تحتاج زرعًا")), "c"),
+ Q("The trophozoite of Iodamoeba buetschlii measures:", "يبلغ الطور المتغذّي لأميبا بوتشلي:", O(("15-50 µm", "15-50 مايكرومتر"), ("5-35 µm", "5-35 مايكرومتر"), ("4-12 µm", "4-12 مايكرومتر"), ("6-12 µm", "6-12 مايكرومتر")), "d"),
+ Q("The karyosome of Iodamoeba buetschlii:", "الجسيم النووي لأميبا بوتشلي:", O(("Is half the size of the nucleus (bull's eye)", "بنصف حجم النواة (عين الثور)"), ("Is eccentric and small", "لا مركزي وصغير"), ("Is absent", "غائب"), ("Is splinter-like", "شظوي")), "a"),
+ Q("The cyst of Iodamoeba buetschlii is:", "كيس أميبا بوتشلي:", O(("Spherical with 4 nuclei", "كروي بأربع أنوية"), ("Oval, uninucleate with an iodophilic glycogen body", "بيضوي أحادي النواة بجسم غلايكوجيني محبّ لليود"), ("Absent", "غير موجود"), ("8-nucleate", "ثماني الأنوية")), "b"),
+ Q("The name Iodamoeba comes from:", "جاء اسم الأميبا اليودية من:", O(("Its iodine-free cyst", "كيسها الخالي من اليود"), ("Its habitat", "موطنها"), ("The glycogen mass that stains with iodine", "كتلة الغلايكوجين التي تتصبّغ باليود"), ("Its discoverer", "مكتشفها")), "c"),
+ {"topic_en": "Wet mount solutions", "topic_ar": "محاليل التحضير الرطب"},
+ Q("In the iodine–eosin combination, eosin stains:", "في الصبغة المركّبة اليود–الأيوسين يصبغ الأيوسين:", O(("The nuclei of cysts", "أنوية الأكياس"), ("Glycogen", "الغلايكوجين"), ("Bacteria only", "البكتيريا فقط"), ("Cell cytoplasm / general background", "سايتوبلازم الخلايا / الخلفية العامة")), "d"),
+ Q("Eosin / saline is useful for detecting:", "الأيوسين / المحلول الملحي مفيد للكشف عن:", O(("Motile trophozoites of Entamoeba species", "الأطوار المتغذّية المتحرّكة لأنواع الأميبا"), ("Helminth eggs only", "بيوض الديدان فقط"), ("Occult blood", "الدم الخفي"), ("Fat droplets", "قطيرات الدهن")), "a"),
+ Q("In eosin / saline the amoebae appear:", "في الأيوسين / الملحي تظهر الأميبات:", O(("Stained pink", "مصبوغة بالوردي"), ("Unstained against a pink background", "غير مصبوغة على خلفية وردية"), ("Brown", "بنّية"), ("Blue", "زرقاء")), "b"),
+ Q("The eosin / saline solution is used at:", "يُستعمل محلول الأيوسين / الملحي بدرجة:", O(("4 °C", "4 °م"), ("Room temperature only", "حرارة الغرفة فقط"), ("37 °C (warm)", "37 °م (دافئ)"), ("100 °C", "100 °م")), "c"),
+ Q("Lugol's solution contains:", "يحتوي محلول لوغول على:", O(("0.85 g NaCl in 100 ml", "0.85 غ NaCl في 100 مل"), ("1 g eosin in 1 liter", "1 غ أيوسين في لتر"), ("25% glacial acetic acid only", "حمض خليك ثلجي 25% فقط"), ("10 g KI + 5 g iodine crystals + 100 ml distilled water", "10 غ KI + 5 غ بلّورات يود + 100 مل ماء مقطّر")), "d"),
+ Q("Lugol's solution is stored in:", "يُحفظ محلول لوغول في:", O(("A brown bottle", "قنينة بنّية"), ("A clear bottle", "قنينة شفّافة"), ("The freezer", "المجمّدة"), ("An open beaker", "دورق مفتوح")), "a"),
+ Q("For use, Lugol's solution is diluted:", "عند الاستعمال يُخفّف محلول لوغول بنسبة:", O(("1:100", "1:100"), ("1:5 or 1:10 with distilled water", "1:5 أو 1:10 بالماء المقطّر"), ("1:2 with saline", "1:2 بالمحلول الملحي"), ("Not diluted", "لا يُخفّف")), "b"),
+ Q("In the Lugol's method, iodine is mixed with an equal volume of:", "في طريقة لوغول يُمزج اليود بحجم مساوٍ من:", O(("Ether", "الإيثر"), ("Eosin", "الأيوسين"), ("25% glacial acetic acid", "حمض الخليك الثلجي 25%"), ("Formalin", "الفورمالين")), "c"),
+]
+mcq = balance(mcq, 41)
+
+tf = [
+ TF("Most of the amoebae in this lecture are commensals.", "معظم الأميبات في هذه المحاضرة متعايشة.", "T"),
+ TF("E. hartmanni ingests red blood cells.", "تبتلع أميبا هارتمان الكريات الحمر.", "F"),
+ TF("Morphologically, E. hartmanni is indistinguishable from E. histolytica / E. dispar.", "شكليًا لا يمكن تمييز أميبا هارتمان عن الحالّة للنسيج / المتباينة.", "T"),
+ TF("The E. coli endosome is usually central.", "الجسيم النووي للأميبا القولونية مركزي عادةً.", "F"),
+ TF("E. coli invades tissues like E. histolytica.", "تغزو الأميبا القولونية الأنسجة مثل الحالّة للنسيج.", "F"),
+ TF("E. coli cysts have a prominent glycogen mass in the early stage.", "لأكياس الأميبا القولونية كتلة غلايكوجين بارزة في الطور المبكر.", "T"),
+ TF("E. polecki is often isolated from humans.", "تُعزل أميبا بوليكي كثيرًا من الإنسان.", "F"),
+ TF("Endolimax nana feeds on bacteria.", "تتغذّى الإندوليماكس نانا على البكتيريا.", "T"),
+ TF("Round cysts of E. nana may be confused with E. hartmanni and E. histolytica.", "قد تُخلط الأكياس المستديرة للإندوليماكس نانا بهارتمان والحالّة للنسيج.", "T"),
+ TF("E. gingivalis forms cysts.", "تكوّن الأميبا اللثوية أكياسًا.", "F"),
+ TF("Food vacuoles of E. gingivalis may contain leucocytes.", "قد تحتوي الفجوات الغذائية للأميبا اللثوية على كريات بيض.", "T"),
+ TF("D. fragilis infection spreads from the intestines to the liver.", "تنتشر إصابة ثنائية النواة الهشّة من الأمعاء إلى الكبد.", "F"),
+ TF("Iodamoeba buetschlii is more common than E. coli.", "أميبا بوتشلي أكثر شيوعًا من الأميبا القولونية.", "F"),
+ TF("Iodamoeba buetschlii is a natural parasite of man and lower primates.", "أميبا بوتشلي طفيلي طبيعي للإنسان والرئيسيات الدنيا.", "T"),
+ TF("Normal saline is 0.85 g NaCl dissolved in 100 ml distilled water.", "المحلول الملحي الطبيعي 0.85 غ NaCl مذابة في 100 مل ماء مقطّر.", "T"),
+ TF("Lugol's iodine is a permanent stain for protozoa.", "يود لوغول صبغة دائمة للأوالي.", "F"),
+]
+
+traps = [
+ TR("Which amoeba has 8 nuclei in the mature cyst?", "أي أميبا لكيسها الناضج 8 أنوية؟", "E. coli (more than four). E. hartmanni and E. histolytica have 4; Iodamoeba has 1; E. gingivalis has no cyst.", "الأميبا القولونية (أكثر من أربع). هارتمان والحالّة للنسيج 4؛ وبوتشلي 1؛ واللثوية بلا كيس."),
+ TR("Central or eccentric karyosome?", "جسيم نووي مركزي أم لا مركزي؟", "E. hartmanni: central. E. coli: usually eccentric (may look central after fixation). E. gingivalis: nearly central. Iodamoeba: big, half the nucleus (bull's eye).", "هارتمان: مركزي. القولونية: لا مركزي عادةً (قد يبدو مركزيًا بعد التثبيت). اللثوية: شبه مركزي. بوتشلي: كبير بنصف النواة (عين الثور)."),
+ TR("E. coli cyst size — 10-30 or 15-25 µm?", "حجم كيس القولونية — 10-30 أم 15-25؟", "The lecture gives both: 10-30 µm (variable, large) and 15-25 µm.", "المحاضرة تذكر الاثنين: 10-30 مايكرومتر (متباين، كبير) و15-25 مايكرومتر."),
+ TR("Small trophozoite sizes", "أحجام الأطوار المتغذّية الصغيرة", "E. hartmanni 4-12 µm; Iodamoeba 6-12 µm; E. gingivalis 5-35 µm; E. coli 15-50 µm.", "هارتمان 4-12؛ بوتشلي 6-12؛ اللثوية 5-35؛ القولونية 15-50 مايكرومتر."),
+ TR("Which of these amoebae is treated?", "أي من هذه الأميبات تُعالج؟", "Only E. polecki — the same as E. histolytica. The others usually need no treatment.", "فقط أميبا بوليكي — مثل الحالّة للنسيج. والباقي عادةً لا يحتاج علاجًا."),
+ TR("Ovoid vs round cysts of E. nana", "أكياس الإندوليماكس البيضوية مقابل المستديرة", "Ovoid cysts confirm E. nana; round cysts and living trophozoites are confused with E. hartmanni and E. histolytica.", "البيضوية تؤكّد الإندوليماكس؛ والمستديرة والأطوار الحيّة تُخلط بهارتمان والحالّة للنسيج."),
+ TR("Eosin vs iodine", "الأيوسين مقابل اليود", "Eosin: cytoplasm and general background (amoebae unstained on pink). Iodine: internal structures of cysts.", "الأيوسين: السايتوبلازم والخلفية العامة (الأميبات غير مصبوغة على وردي). اليود: التراكيب الداخلية للأكياس."),
+ TR("Two KI amounts", "كميتان من يوديد البوتاسيوم", "Iodine–eosin: 5.0 g KI in 100 ml (5%). Lugol's: 10 g KI + 5 g iodine in 100 ml.", "اليود–الأيوسين: 5.0 غ KI في 100 مل (5%). لوغول: 10 غ KI + 5 غ يود في 100 مل."),
+]
+
+important = [
+ IM("Compare E. hartmanni with E. histolytica.", "قارن بين أميبا هارتمان والحالّة للنسيج.",
+    "E. hartmanni resembles E. histolytica in all stages except size (slight overlap): trophozoite 4-12 µm, one small compact nucleus with central karyosome, ingests bacteria but not RBCs, sluggish non-progressive motility; cyst spherical 5-10 µm, mature with 4 nuclei, immature with chromatoidal bars. It is a separate nonpathogenic commensal species; usually no treatment.",
+    "تشبه أميبا هارتمان الحالّة للنسيج في كل الأطوار إلا الحجم (مع تداخل بسيط): المتغذّي 4-12 مايكرومتر، نواة واحدة صغيرة متراصّة بجسيم نووي مركزي، يبتلع البكتيريا لا الكريات الحمر، حركة بطيئة غير تقدّمية؛ الكيس كروي 5-10 مايكرومتر، الناضج بأربع أنوية، وغير الناضج بقضبان كروماتينية. وهي نوع مستقل متعايش غير ممرض؛ وعادةً لا علاج."),
+ IM("How do you differentiate E. coli from E. histolytica?", "كيف تفرّق الأميبا القولونية عن الحالّة للنسيج؟",
+    "E. coli nucleus: peripheral chromatin and small, usually eccentric karyosome (central in E. histolytica); sluggish trophozoite with broad short pseudopodia; mature cyst with eight nuclei (more than four) — the distinctive stage; splinter-like irregular chromatoid bodies; luminal commensal without tissue invasion.",
+    "نواة القولونية: كروماتين محيطي وجسيم نووي صغير لا مركزي عادةً (مركزي في الحالّة للنسيج)؛ متغذّي بطيء بأقدام كاذبة عريضة قصيرة؛ كيس ناضج بثماني أنوية (أكثر من أربع) — وهو الطور المميِّز؛ أجسام كروماتينية شظوية غير منتظمة؛ ومتعايشة تجويفية لا تغزو الأنسجة."),
+ IM("What is the significance of finding E. coli in stool?", "ما أهمية العثور على الأميبا القولونية في البراز؟",
+    "It is nonpathogenic and produces no symptoms, so no treatment is indicated, but its presence is evidence for fecal contamination; prevention is by personal hygiene and sanitary disposal of human excreta.",
+    "غير ممرضة ولا تسبّب أعراضًا فلا يُوصى بعلاج، لكن وجودها دليل على التلوّث بالبراز؛ والوقاية بالنظافة الشخصية والتخلّص الصحي من فضلات الإنسان."),
+ IM("Write short notes on Endolimax nana.", "اكتب ملاحظات قصيرة عن الإندوليماكس نانا.",
+    "Lumen dweller of the large intestine (cecal level) feeding on bacteria; life cycle similar to E. histolytica; sluggish slug-like motility with blunt hyaline pseudopodia; infection by ingesting viable cysts in polluted water or food; typical ovoid cysts are confirmative, round cysts are confused with E. hartmanni and E. histolytica; nonpathogenic, no treatment.",
+    "تعيش في تجويف الأمعاء الغليظة (مستوى الأعور) وتتغذّى على البكتيريا؛ دورتها مشابهة للحالّة للنسيج؛ حركتها بطيئة كالبزّاقة بأقدام كاذبة كليلة شفّافة؛ الإصابة بابتلاع أكياس حيّة في ماء أو طعام ملوّث؛ الأكياس البيضوية النموذجية مؤكِّدة، والمستديرة تُخلط بهارتمان والحالّة للنسيج؛ غير ممرضة ولا علاج."),
+ IM("Describe Entamoeba gingivalis.", "صف الأميبا اللثوية.",
+    "Only trophozoites, no cysts; commensal living on exudate from gum margins, best on unhealthy gums; trophozoite 5-35 µm, transparent, moves quickly by numerous blunt pseudopodia; food vacuoles with cellular debris, bacteria and occasionally leucocytes; nucleus 2-4 µm with small nearly central endosome and chromatin on the inner nuclear membrane; its presence means better oral hygiene is needed.",
+    "أطوار متغذّية فقط بلا أكياس؛ متعايشة تعيش على نضحة حواف اللثة، وأفضل على اللثة غير السليمة؛ المتغذّي 5-35 مايكرومتر، شفّاف، يتحرّك بسرعة بأقدام كاذبة كليلة عديدة؛ فجوات غذائية فيها حطام خلوي وبكتيريا وأحيانًا كريات بيض؛ النواة 2-4 مايكرومتر بجسيم نووي صغير شبه مركزي وكروماتين على السطح الداخلي للغشاء النووي؛ ووجودها يعني الحاجة إلى نظافة فموية أفضل."),
+ IM("Write short notes on Dientamoeba fragilis.", "اكتب ملاحظات قصيرة عن الأميبا الهشّة ثنائية النواة.",
+    "Lives in the large intestine of humans; common worldwide; many infected people have no symptoms; commonest symptoms are diarrhea, stomach pain and cramping, with loss of appetite and weight, nausea and fatigue; does not spread outside the intestine; diagnosed by stool samples, often from more than one day, and pinworm eggs may also be looked for; usually no treatment; prevention by hygiene and sanitation.",
+    "تعيش في الأمعاء الغليظة للإنسان؛ شائعة عالميًا؛ كثير من المصابين بلا أعراض؛ أشيع الأعراض الإسهال وألم المعدة وتقلّصاتها مع فقدان الشهية والوزن والغثيان والتعب؛ لا تنتشر خارج الأمعاء؛ تُشخَّص بعيّنات البراز غالبًا من أكثر من يوم، وقد يُبحث عن بيوض الدودة الدبوسية؛ عادةً لا علاج؛ والوقاية بالنظافة والصحّة العامة."),
+ IM("Describe Iodamoeba buetschlii and explain its name.", "صف أميبا بوتشلي اليودية واشرح اسمها.",
+    "Lumen of the large intestine (caecum), feeds on enteric bacteria, parasite of man and lower primates, non-pathogenic, less common than E. coli and E. nana. Trophozoite 6-12 µm with conspicuous nucleus; karyosome half the nucleus (bull's eye). Cyst oval, uninucleate with a prominent glycogen mass that stains with iodine (iodophilic body) — hence the name Iodamoeba.",
+    "تعيش في تجويف الأمعاء الغليظة (الأعور)، تتغذّى على البكتيريا المعوية، طفيلي للإنسان والرئيسيات الدنيا، غير ممرضة، وأقل شيوعًا من القولونية والإندوليماكس. المتغذّي 6-12 مايكرومتر بنواة واضحة؛ والجسيم النووي بنصف النواة (عين الثور). الكيس بيضوي أحادي النواة فيه كتلة غلايكوجين بارزة تتصبّغ باليود (الجسم المحبّ لليود) — ومن هنا اسم الأميبا اليودية."),
+ IM("How are normal saline, iodine–eosin and Lugol's solutions prepared and used?", "كيف تُحضَّر المحاليل الملحي واليود–الأيوسين ولوغول وكيف تُستعمل؟",
+    "Normal saline: 0.85 g NaCl in 100 ml distilled water. Iodine–eosin: 100 ml DW + 5.0 g KI + 0.8 g NaCl saturated with iodine crystals (above 0.2 g), mixed with an equal volume of saturated aqueous yellow eosin — eosin stains background, iodine stains cysts. Eosin / saline at 37 °C shows motile trophozoites unstained on a pink background. Lugol's: 10 g KI + 5 g iodine + 100 ml DW, stored in a brown bottle, diluted 1:5 or 1:10 — a temporary contrast stain for protozoa.",
+    "الملحي: 0.85 غ NaCl في 100 مل ماء مقطّر. اليود–الأيوسين: 100 مل ماء مقطّر + 5.0 غ KI + 0.8 غ NaCl يُشبّع ببلّورات اليود (أكثر من 0.2 غ) ويُمزج بحجم مساوٍ من الأيوسين المائي الأصفر المشبع — الأيوسين يصبغ الخلفية واليود يصبغ الأكياس. الأيوسين / الملحي بدرجة 37 °م يُظهر الأطوار المتغذّية المتحرّكة غير مصبوغة على خلفية وردية. لوغول: 10 غ KI + 5 غ يود + 100 مل ماء مقطّر، يُحفظ في قنينة بنّية، ويُخفّف 1:5 أو 1:10 — صبغة تباين مؤقّتة للأوالي."),
+]
+
+meta = {"subject_en": "Diagnostic Parasitology", "subject_ar": "الطفيليات التشخيصية", "short_ar": "طفيليات", "instructor": "أ.د. نزار الخفاجي",
+        "unit_en": "Week 4", "unit_ar": "الأسبوع 4", "unit_label": "WEEK", "unit_no": "4",
+        "title_en": "Nonpathogenic Intestinal Amoeba", "title_ar": "الأميبات المعوية غير الممرضة",
+        "department": "قسم التحليلات", "stage": "The fourth stage — الرابعة", "kind": "Theory — نظري"}
+save("parasitology-week4-theory", meta, blocks, mcq, tf, traps, important)
+
+```
