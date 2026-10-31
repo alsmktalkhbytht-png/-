@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/par3/p3q.py
 handouts: [parasitology-week3-theory]
-saved: 2026-10-31
+saved: 2026-11-01
 tags: [bios, code]
 ---
 # par3/p3q.py

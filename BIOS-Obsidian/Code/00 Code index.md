@@ -23,7 +23,7 @@
 - [[Code/bt - make3.py|bt/make3.py]] → bloodbank-lec3-services
 - [[Code/chr - l2.py|chr/l2.py]] → histopathology-lec2-chronic-inflammation
 - [[Code/eth - make.py|eth/make.py]] → ethics-lec1-morals
-- [[Code/gh - ghq.py|gh/ghq.py]] → clinbiochem-lab3-growth-hormone
+- [[Code/gh - ghq.py|gh/ghq.py]] → endocrine-lab3-growth-hormone
 - [[Code/gt2 - gt2.py|gt2/gt2.py]] → genetics-lec2-meiosis
 - [[Code/hb4 - hbq.py|hb4/hbq.py]] → hematology-practical-hb-estimation
 - [[Code/heal - l4.py|heal/l4.py]] → histopathology-lec4-healing-regeneration

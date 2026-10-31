@@ -74,8 +74,8 @@ important = [
  IM("How is GH excess diagnosed? Describe the glucose suppression test.", "كيف تُشخَّص زيادة هرمون النمو؟ صف فحص الكبت بالكلوكوز.", "Suggested by clinical presentation, biochemical tests and pituitary imaging (MRI more sensitive than CT; CT/MRI may find an ectopic GH or GHRH source). Requires GH and IGF‐1; random GH is variable (episodic, short half-life), but random GH < 0.5 μg/L with normal IGF‐1 essentially excludes acromegaly, while raised IGF‐1 needs a glucose test. Gold standard: overnight fast, IV cannula, after ≥ 30 min basal glucose and GH, drink 75 g glucose in ~300 mL water, sample at 30, 60, 90, 120 min. Normal GH falls below 0.5 μg/L; in acromegaly/gigantism it does not fall and may rise in ~30%.", "يُشتبه بها من الصورة السريرية والفحوص الكيموحيوية وتصوير النخامية (الرنين أكثر حساسية من المقطعي؛ وقد يكشفان مصدرًا هاجرًا لـ GH أو GHRH). وتتطلّب قياس GH وIGF‐1؛ وGH العشوائي متباين (نوبي، عمر نصف قصير)، لكن GH عشوائي < 0.5 مع IGF‐1 طبيعي يستبعد ضخامة الأطراف، وارتفاع IGF‐1 يحتاج فحص الكلوكوز. المعيار الذهبي: صيام ليلة، كانيولا وريدية، بعد ≥ 30 دقيقة كلوكوز وGH أساسيان، شرب 75 غ كلوكوز في ~300 مل ماء، وعيّنات عند 30 و60 و90 و120 دقيقة. في الطبيعي ينخفض GH تحت 0.5؛ وفي ضخامة الأطراف/العملقة لا ينخفض وقد يرتفع في نحو 30%."),
 ]
 
-meta = {"subject_en": "Clinical Biochemistry", "subject_ar": "الكيمياء السريرية", "short_ar": "كيمياء سريرية", "instructor": "م.م. نور إبراهيم جليل",
+meta = {"subject_en": "Practical Endocrinology", "subject_ar": "الغدد الصماء العملي", "short_ar": "غدد صماء", "instructor": "م.م. نور إبراهيم جليل",
         "unit_en": "Lab 3", "unit_ar": "العملي 3", "unit_label": "LAB", "unit_no": "3",
         "title_en": "Growth hormone", "title_ar": "هرمون النمو",
         "kind": "Laboratories — عملي", "stage": "The third stage — الثالثة"}
-save("clinbiochem-lab3-growth-hormone", meta, blocks, mcq, tf, traps, important)
+save("endocrine-lab3-growth-hormone", meta, blocks, mcq, tf, traps, important)

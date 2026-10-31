@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/n5/make.py
 handouts: [hematology-lab1-blood-collection]
-saved: 2026-10-31
+saved: 2026-11-01
 tags: [bios, code]
 ---
 # n5/make.py

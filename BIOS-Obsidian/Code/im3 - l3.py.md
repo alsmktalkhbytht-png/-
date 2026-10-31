@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/im3/l3.py
 handouts: [immunology-lec3-antigens]
-saved: 2026-10-31
+saved: 2026-11-01
 tags: [bios, code]
 ---
 # im3/l3.py

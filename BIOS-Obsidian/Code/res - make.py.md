@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/res/make.py
 handouts: [research-lec1-principles]
-saved: 2026-10-31
+saved: 2026-11-01
 tags: [bios, code]
 ---
 # res/make.py

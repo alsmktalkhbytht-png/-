@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/imm456/ci6.py
 handouts: [clinimm-lec6-celiac-pa-t1d]
-saved: 2026-10-31
+saved: 2026-11-01
 tags: [bios, code]
 ---
 # imm456/ci6.py

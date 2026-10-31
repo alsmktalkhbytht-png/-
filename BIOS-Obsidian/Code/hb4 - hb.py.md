@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/hb4/hb.py
 handouts: []
-saved: 2026-10-31
+saved: 2026-11-01
 tags: [bios, code]
 ---
 # hb4/hb.py
