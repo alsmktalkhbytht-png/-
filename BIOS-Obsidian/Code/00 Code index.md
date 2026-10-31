@@ -84,6 +84,7 @@
 - [[Code/ria - l3.py|ria/l3.py]] → advtech-lec3-ria
 - [[Code/sol - l4.py|sol/l4.py]] → parasitology-lab4-solutions
 - [[Code/tb - turb.py|tb/turb.py]] → hematology-practical-turbidimetry
+- [[Code/thy - thyq.py|thy/thyq.py]] → endocrine-lab5-thyroid-hormones
 
 ## Other utilities
 
@@ -113,6 +114,7 @@
 - [[Code/pat - fix1.py|pat/fix1.py]]
 - [[Code/pcv - pcv.py|pcv/pcv.py]]
 - [[Code/restyle.py|restyle.py]]
+- [[Code/thy - thy.py|thy/thy.py]]
 
 ## Engine snapshot
 
