@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/bios_dbg.py
 handouts: []
-saved: 2026-10-30
+saved: 2026-10-31
 tags: [bios, code]
 ---
 # bios_dbg.py

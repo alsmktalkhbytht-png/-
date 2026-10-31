@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/ria/l3.py
 handouts: [advtech-lec3-ria]
-saved: 2026-10-30
+saved: 2026-10-31
 tags: [bios, code]
 ---
 # ria/l3.py

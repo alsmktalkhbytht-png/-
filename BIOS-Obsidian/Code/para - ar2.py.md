@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/para/ar2.py
 handouts: []
-saved: 2026-10-30
+saved: 2026-10-31
 tags: [bios, code]
 ---
 # para/ar2.py

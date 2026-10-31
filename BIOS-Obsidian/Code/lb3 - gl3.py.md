@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/lb3/gl3.py
 handouts: [genetics-lab3-medical-genetics]
-saved: 2026-10-30
+saved: 2026-10-31
 tags: [bios, code]
 ---
 # lb3/gl3.py

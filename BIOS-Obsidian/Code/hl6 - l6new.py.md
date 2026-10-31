@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/hl6/l6new.py
 handouts: [hematology-lec6-iron-deficiency]
-saved: 2026-10-30
+saved: 2026-10-31
 tags: [bios, code]
 ---
 # hl6/l6new.py

@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/covers/make2.py
 handouts: []
-saved: 2026-10-30
+saved: 2026-10-31
 tags: [bios, code]
 ---
 # covers/make2.py

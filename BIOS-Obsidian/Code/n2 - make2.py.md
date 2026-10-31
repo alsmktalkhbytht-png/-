@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/n2/make2.py
 handouts: [enzymology-lec2-kinetics-inhibition]
-saved: 2026-10-30
+saved: 2026-10-31
 tags: [bios, code]
 ---
 # n2/make2.py

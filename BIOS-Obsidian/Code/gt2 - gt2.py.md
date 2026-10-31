@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/gt2/gt2.py
 handouts: [genetics-lec2-meiosis]
-saved: 2026-10-30
+saved: 2026-10-31
 tags: [bios, code]
 ---
 # gt2/gt2.py

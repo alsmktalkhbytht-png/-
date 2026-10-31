@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/bt/make3.py
 handouts: [bloodbank-lec3-services]
-saved: 2026-10-30
+saved: 2026-10-31
 tags: [bios, code]
 ---
 # bt/make3.py

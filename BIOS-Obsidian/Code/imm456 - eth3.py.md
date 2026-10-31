@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/imm456/eth3.py
 handouts: [ethics-lec3-unethical-behavior]
-saved: 2026-10-30
+saved: 2026-10-31
 tags: [bios, code]
 ---
 # imm456/eth3.py
