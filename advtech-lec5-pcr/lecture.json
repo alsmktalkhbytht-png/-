@@ -1,0 +1,1928 @@
+{
+ "meta": {
+  "subject_en": "Advanced Techniques",
+  "subject_ar": "التقنيات المتقدمة",
+  "short_ar": "تقنيات متقدمة",
+  "instructor": "د. مصطفى محمود مصطفى",
+  "unit_en": "Lecture 5",
+  "unit_ar": "المحاضرة 5",
+  "unit_label": "LEC",
+  "unit_no": "5",
+  "title_en": "Polymerase Chain Reaction (PCR)",
+  "title_ar": "تفاعل البلمرة المتسلسل (PCR)",
+  "kind": "Theory — نظري",
+  "stage": "The third stage — الثالثة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Polymerase Chain Reaction",
+   "ar": "تفاعل البلمرة المتسلسل"
+  },
+  {
+   "t": "figure",
+   "src": "assets/dna-helix.png",
+   "en": "DNA double helix",
+   "ar": "اللولب المزدوج للـ DNA",
+   "h": "40mm",
+   "fit": "contain"
+  },
+  {
+   "t": "note",
+   "en": "All the slides of this lecture are pictures of text; the English below is copied word for word from those pictures.",
+   "ar": "كل شرائح هذه المحاضرة صور لنصوص؛ والإنكليزي أدناه منقول حرفيًا من تلك الصور.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "What is PCR?",
+   "ar": "ما هو PCR؟"
+  },
+  {
+   "t": "card",
+   "en": "**Polymerase Chain Reaction** is an *in vitro* technique for the **amplification** of a **specific sequence of DNA** Which is used for further testing.",
+   "ar": "**تفاعل البلمرة المتسلسل** تقنية **خارج الجسم الحي (في المختبر)** **لتضخيم** **تسلسل محدّد من الـ DNA** يُستعمل في فحوص لاحقة."
+  },
+  {
+   "t": "figure",
+   "src": "assets/pcr-machine.png",
+   "en": "PCR machine (thermal cycler)",
+   "ar": "جهاز PCR (المدوّر الحراري)",
+   "h": "44mm",
+   "fit": "contain"
+  },
+  {
+   "t": "card",
+   "en": [
+    "PCR or Polymerase Chain Reaction is a technique used in **molecular biology** to create **several copies of a certain DNA segment**.",
+    "This technique was developed in **1983** by **Kary Mullis**, an American biochemist.",
+    "PCR has made it possible to generate **millions of copies** of a small segment of DNA.",
+    "This tool is commonly used in the molecular biology and biotechnology labs."
+   ],
+   "ar": [
+    "الـ PCR أو تفاعل البلمرة المتسلسل تقنية تُستعمل في **البيولوجيا الجزيئية** لصنع **نسخ عديدة من قطعة DNA معيّنة**.",
+    "طُوّرت هذه التقنية عام **1983** على يد **كاري موليس**، عالم الكيمياء الحيوية الأمريكي.",
+    "وقد جعل الـ PCR من الممكن توليد **ملايين النسخ** من قطعة صغيرة من الـ DNA.",
+    "وتُستعمل هذه الأداة عادةً في مختبرات البيولوجيا الجزيئية والتقانة الحيوية."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "PCR = **in vitro amplification** of a **specific DNA sequence** → millions of copies.",
+    "Developed in **1983** by **Kary Mullis**."
+   ],
+   "ar": [
+    "PCR = **تضخيم في المختبر** **لتسلسل DNA محدّد** ← ملايين النسخ.",
+    "طُوّر عام **1983** على يد **كاري موليس**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Principle of PCR",
+   "ar": "مبدأ PCR"
+  },
+  {
+   "t": "card",
+   "en": [
+    "The principle of PCR is based on the **enzymatic replication of nucleic acids**.",
+    "PCR involves the use of **primer mediated enzymes** for the amplification of DNA."
+   ],
+   "ar": [
+    "يقوم مبدأ PCR على **التضاعف الإنزيمي للأحماض النووية**.",
+    "ويتضمّن PCR استعمال **إنزيمات تعمل بوساطة البادئات** لتضخيم الـ DNA."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**DNA Polymerase** synthesises new strands of DNA **complementary to the template DNA**.",
+    "The DNA polymerase can add a nucleotide to the **pre-existing 3’-OH group only**.",
+    "Therefore, a **primer is required**.",
+    "Thus, more nucleotides are added to the 3’ prime end of the DNA polymerase."
+   ],
+   "ar": [
+    "يصنّع **إنزيم بلمرة الـ DNA** سلاسل DNA جديدة **مكمّلة لـ DNA القالب**.",
+    "ولا يستطيع إنزيم البلمرة إضافة نيوكليوتيد إلا إلى **مجموعة 3’-OH موجودة مسبقًا**.",
+    "لذلك **يلزم وجود بادئ**.",
+    "وهكذا تُضاف نيوكليوتيدات أخرى إلى الطرف 3’ (عبر إنزيم البلمرة)."
+   ]
+  },
+  {
+   "t": "note",
+   "en": "“added to the 3’ prime end of the DNA polymerase” means added to the **3’ end of the primer (the growing strand)** by the DNA polymerase.",
+   "ar": "“added to the 3’ prime end of the DNA polymerase” يُقصد بها تُضاف إلى **الطرف 3’ للبادئ (السلسلة النامية)** بواسطة إنزيم البلمرة.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/primer-extension.png",
+   "en": "DNA polymerase extends primers from their 3’ ends",
+   "ar": "إنزيم البلمرة يمدّ البادئات من أطرافها 3’",
+   "h": "26mm",
+   "fit": "contain"
+  },
+  {
+   "t": "note",
+   "en": "The labels in this figure are only the strand ends 5’ and 3’.",
+   "ar": "كتابات هذا الشكل هي أطراف السلاسل فقط: 5’ و3’.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Enzymatic replication of DNA using **primers**.",
+    "Polymerase adds nucleotides only to a **free 3’-OH** → that is why a **primer is required**."
+   ],
+   "ar": [
+    "تضاعف إنزيمي للـ DNA باستعمال **البادئات**.",
+    "إنزيم البلمرة يضيف النيوكليوتيدات فقط إلى **3’-OH حرّة** ← ولهذا **يلزم البادئ**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Components of the reaction mixture",
+   "ar": "مكوّنات خليط التفاعل"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Template DNA.",
+    "Primers (forward and reverse)",
+    "dNTPs",
+    "*Taq* DNA Polymerase",
+    "Buffer solution",
+    "Divalent cations",
+    "Sterile deionized water"
+   ],
+   "list_ar": [
+    "DNA القالب.",
+    "البادئات (الأمامي والعكسي)",
+    "ثلاثيات فوسفات النيوكليوتيدات منقوصة الأكسجين (dNTPs)",
+    "إنزيم بلمرة الـ DNA من *Taq*",
+    "المحلول المنظِّم",
+    "الأيونات الموجبة ثنائية التكافؤ",
+    "ماء معقّم منزوع الأيونات"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/reaction-tube.png",
+   "en": "Components inside the PCR tube",
+   "ar": "المكوّنات داخل أنبوب PCR",
+   "h": "56mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Primer**",
+      "البادئ"
+     ],
+     [
+      "**Nucleotides**",
+      "النيوكليوتيدات"
+     ]
+    ],
+    [
+     [
+      "**Taq polymerase**",
+      "إنزيم بلمرة Taq"
+     ],
+     [
+      "**DNA**",
+      "الـ DNA"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "card",
+   "en": "**Components of PCR constitutes the following:**",
+   "ar": "**تتكوّن مكوّنات PCR ممّا يأتي:**"
+  },
+  {
+   "t": "group",
+   "title_en": "DNA Template",
+   "title_ar": "DNA القالب",
+   "en": "the DNA of interest from the sample.",
+   "ar": "الـ DNA المطلوب من العيّنة."
+  },
+  {
+   "t": "group",
+   "title_en": "DNA Polymerase",
+   "title_ar": "إنزيم بلمرة الـ DNA",
+   "en": [
+    "**Taq Polymerase** is used.",
+    "It is the rmostable and **does not denature at very high temperatures**."
+   ],
+   "ar": [
+    "يُستعمل **إنزيم بلمرة Taq**.",
+    "وهو مقاوم للحرارة و**لا يتمسّخ عند درجات الحرارة العالية جدًا**."
+   ]
+  },
+  {
+   "t": "group",
+   "title_en": "Oligonucleotide Primers",
+   "title_ar": "البادئات قليلة النيوكليوتيدات",
+   "en": "These are the **short stretches of single-stranded DNA** complementary to the **3’ ends of sense and anti-sense strands**.",
+   "ar": "قطع **قصيرة من DNA أحادي السلسلة** مكمّلة **للأطراف 3’ للسلسلتين المعنوية والمضادة للمعنى**."
+  },
+  {
+   "t": "group",
+   "title_en": "Deoxyribo-nucleotide triphosphate",
+   "title_ar": "ثلاثيات فوسفات النيوكليوتيدات منقوصة الأكسجين",
+   "en": [
+    "These provide **energy for polymerization** and are the **building blocks** for the synthesis of DNA.",
+    "These are single units of bases."
+   ],
+   "ar": [
+    "توفّر **الطاقة للبلمرة** وهي **وحدات البناء** لتصنيع الـ DNA.",
+    "وهي وحدات مفردة من القواعد."
+   ]
+  },
+  {
+   "t": "group",
+   "title_en": "Buffer System",
+   "title_ar": "النظام المنظِّم (الدارئ)",
+   "en": [
+    "**Magnesium and Potassium** provide optimum conditions for DNA denaturation and re-naturation.",
+    "It is also important for **fidelity, polymerase activity, and stability**."
+   ],
+   "ar": [
+    "يوفّر **المغنيسيوم والبوتاسيوم** الظروف المثلى لتمسّخ الـ DNA وإعادة تكوّنه.",
+    "وهو مهم أيضًا **لدقّة النسخ ونشاط إنزيم البلمرة وثباته**."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "“the rmostable” is **thermostable** (heat-stable).",
+    "The divalent cation in the mix is **Mg²⁺** (magnesium)."
+   ],
+   "ar": [
+    "“the rmostable” هي **thermostable** أي مقاوم للحرارة.",
+    "والأيون ثنائي التكافؤ في الخليط هو **Mg²⁺** (المغنيسيوم)."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/dna-replication.png",
+   "en": "DNA REPLICATION",
+   "ar": "تضاعف الـ DNA",
+   "h": "58mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Chromosome**",
+      "الكروموسوم"
+     ],
+     [
+      "**Free nucleotides**",
+      "النيوكليوتيدات الحرّة"
+     ]
+    ],
+    [
+     [
+      "**DNA polymerase**",
+      "إنزيم بلمرة الـ DNA"
+     ],
+     [
+      "**Leading strand**",
+      "السلسلة القائدة"
+     ]
+    ],
+    [
+     [
+      "**Original DNA**",
+      "الـ DNA الأصلي"
+     ],
+     [
+      "**Helicase**",
+      "الهيليكيز (فاكّ اللولب)"
+     ]
+    ],
+    [
+     [
+      "**Lagging strand**",
+      "السلسلة المتأخّرة"
+     ],
+     [
+      "**Replication fork**",
+      "شوكة التضاعف"
+     ]
+    ],
+    [
+     [
+      "**Original DNA strand**",
+      "سلسلة الـ DNA الأصلية"
+     ],
+     [
+      "**Adenine / Thymine / Cytosine / Guanine**",
+      "الأدينين / الثايمين / السايتوسين / الغوانين"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "figure",
+   "src": "assets/initial-mix.png",
+   "en": "Initial Mix (room temperature, + Mg)",
+   "ar": "الخليط الأوّلي (حرارة الغرفة، + مغنيسيوم)",
+   "h": "50mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Initial Mix**",
+      "الخليط الأوّلي"
+     ],
+     [
+      "**Room Temperature**",
+      "حرارة الغرفة"
+     ]
+    ],
+    [
+     [
+      "**+Mg**",
+      "+ مغنيسيوم"
+     ],
+     [
+      "**Forward Primer**",
+      "البادئ الأمامي"
+     ]
+    ],
+    [
+     [
+      "**Reverse Primer**",
+      "البادئ العكسي"
+     ],
+     [
+      "**A G C T Deoxynucleotides**",
+      "النيوكليوتيدات منقوصة الأكسجين A G C T"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Component",
+     "المكوّن"
+    ],
+    [
+     "Role",
+     "الدور"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Template DNA**",
+      "**DNA القالب**"
+     ],
+     [
+      "the DNA of interest from the sample",
+      "الـ DNA المطلوب من العيّنة"
+     ]
+    ],
+    [
+     [
+      "**Primers (forward and reverse)**",
+      "**البادئات (أمامي وعكسي)**"
+     ],
+     [
+      "short single-stranded DNA complementary to the 3’ ends; starting point",
+      "DNA قصير أحادي السلسلة مكمّل للأطراف 3’؛ نقطة البداية"
+     ]
+    ],
+    [
+     [
+      "**dNTPs**",
+      "**dNTPs**"
+     ],
+     [
+      "energy for polymerization + building blocks",
+      "طاقة للبلمرة + وحدات البناء"
+     ]
+    ],
+    [
+     [
+      "**Taq DNA Polymerase**",
+      "**بلمرة Taq**"
+     ],
+     [
+      "thermostable; adds bases to the 3’ end",
+      "مقاوم للحرارة؛ يضيف القواعد إلى الطرف 3’"
+     ]
+    ],
+    [
+     [
+      "**Buffer (Mg, K) / divalent cations**",
+      "**المنظِّم (Mg، K) / أيونات ثنائية التكافؤ**"
+     ],
+     [
+      "optimum conditions; fidelity, activity, stability",
+      "الظروف المثلى؛ الدقّة والنشاط والثبات"
+     ]
+    ],
+    [
+     [
+      "**Sterile deionized water**",
+      "**ماء معقّم منزوع الأيونات**"
+     ],
+     [
+      "makes up the volume (BIOS addition)",
+      "يكمل الحجم (إضافة BIOS)"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    34,
+    66
+   ],
+   "style": "summary",
+   "label_en": "Components at a glance",
+   "label_ar": "المكوّنات بنظرة"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Mix = **template, 2 primers, dNTPs, Taq, buffer, Mg²⁺, water**.",
+    "**Taq** = thermostable polymerase; **dNTPs** = energy + building blocks."
+   ],
+   "ar": [
+    "الخليط = **قالب، بادئان، dNTPs، Taq، منظِّم، Mg²⁺، ماء**.",
+    "**Taq** = إنزيم بلمرة مقاوم للحرارة؛ **dNTPs** = طاقة + وحدات بناء."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "PCR Steps",
+   "ar": "خطوات PCR"
+  },
+  {
+   "t": "card",
+   "en": "The PCR involves **three major cyclic reactions:**",
+   "ar": "يتضمّن PCR **ثلاثة تفاعلات دورية رئيسية:**"
+  },
+  {
+   "t": "h2",
+   "en": "Denaturation",
+   "ar": "التمسّخ (الفصل)"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Denaturation occurs when the reaction mixture is heated to **94°C** for about **15-30 minutes**.",
+    "This **breaks the hydrogen bonds** between the two strands of DNA and converts it into a **single-stranded DNA**."
+   ],
+   "ar": [
+    "يحدث التمسّخ عند تسخين خليط التفاعل إلى **94°م** لمدّة نحو **15-30 دقيقة**.",
+    "وهذا **يكسر الروابط الهيدروجينية** بين سلسلتي الـ DNA ويحوّله إلى **DNA أحادي السلسلة**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "The single strands now act as a **template** for the production of new strands of DNA.",
+    "The temperature should be provided for a longer time to ensure the separation of the two strands."
+   ],
+   "ar": [
+    "تعمل السلاسل المفردة الآن **قالبًا** لإنتاج سلاسل DNA جديدة.",
+    "ويجب توفير الحرارة مدّة أطول لضمان انفصال السلسلتين."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "In each cycle denaturation usually takes **15–30 seconds** (the figure of the cycle says **1 minute at 94 °C**); a longer initial step of a few minutes is used only at the start.",
+    "“15-30 minutes” is kept as written."
+   ],
+   "ar": [
+    "التمسّخ في كل دورة يستغرق عادةً **15–30 ثانية** (وشكل الدورة يذكر **دقيقة واحدة بدرجة 94 °م**)؛ وخطوة أولى أطول ببضع دقائق تُستعمل في البداية فقط.",
+    "وأُبقيت “15-30 minutes” كما كُتبت."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/denaturation.png",
+   "en": "Native (double helix) → Denatured (random coil)",
+   "ar": "الأصلي (لولب مزدوج) ← المتمسّخ (التفاف عشوائي)",
+   "h": "40mm",
+   "fit": "contain"
+  },
+  {
+   "t": "h2",
+   "en": "Annealing",
+   "ar": "الالتحام (التلدين)"
+  },
+  {
+   "t": "card",
+   "en": [
+    "The reaction temperature is lowered to **54-60°C** for around **20-40 seconds**.",
+    "Here, the **primers bind to their complementary sequences** on the template DNA."
+   ],
+   "ar": [
+    "تُخفّض حرارة التفاعل إلى **54-60°م** لمدّة نحو **20-40 ثانية**.",
+    "وهنا **ترتبط البادئات بتسلسلاتها المكمّلة** على DNA القالب."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Primers are **single strand sequences of DNA or RNA** around **20 to 30 bases** in length.",
+   "ar": "البادئات **تسلسلات أحادية السلسلة من DNA أو RNA** طولها نحو **20 إلى 30 قاعدة**."
+  },
+  {
+   "t": "card",
+   "en": "They serve as the **starting point** for the synthesis of DNA.",
+   "ar": "وهي تعمل **نقطة بداية** لتصنيع الـ DNA."
+  },
+  {
+   "t": "card",
+   "en": "The two separated strands run in the **opposite direction** and consequently there are two primers- a **forward primer** and a **reverse primer**.",
+   "ar": "تسير السلسلتان المنفصلتان **باتّجاهين متعاكسين**، ولذلك يوجد بادئان: **بادئ أمامي** و**بادئ عكسي**."
+  },
+  {
+   "t": "figure",
+   "src": "assets/annealing.png",
+   "en": "Primers annealing to the target sequence",
+   "ar": "التحام البادئات بالتسلسل الهدف",
+   "h": "44mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Target Sequence**",
+      "التسلسل الهدف"
+     ],
+     [
+      "**Primer 1 / Primer 2**",
+      "البادئ 1 / البادئ 2"
+     ]
+    ],
+    [
+     [
+      "**Biotin**",
+      "البايوتين"
+     ],
+     [
+      "**5’ / 3’**",
+      "أطراف السلاسل"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "h2",
+   "en": "Elongation",
+   "ar": "الاستطالة (الامتداد)"
+  },
+  {
+   "t": "card",
+   "en": [
+    "At this step, the temperature is raised to **72-80°C**.",
+    "The bases are added to the **3’ end of the primer** by the **Taq polymerase** enzyme."
+   ],
+   "ar": [
+    "في هذه الخطوة تُرفع الحرارة إلى **72-80°م**.",
+    "وتُضاف القواعد إلى **الطرف 3’ للبادئ** بواسطة إنزيم **بلمرة Taq**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "This elongates the DNA in the **5’ to 3’ direction**.",
+    "The DNA polymerase adds about **1000bp/minute** under optimum conditions."
+   ],
+   "ar": [
+    "وهذا يطيل الـ DNA **باتّجاه 5’ إلى 3’**.",
+    "ويضيف إنزيم البلمرة نحو **1000 زوج قاعدي/دقيقة** في الظروف المثلى."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Taq Polymerase can **tolerate very high temperatures**.",
+    "It attaches to the primer and adds DNA bases to the single strand.",
+    "As a result, a **double-stranded DNA** molecule is obtained."
+   ],
+   "ar": [
+    "يتحمّل إنزيم بلمرة Taq **درجات الحرارة العالية جدًا**.",
+    "يرتبط بالبادئ ويضيف قواعد الـ DNA إلى السلسلة المفردة.",
+    "ونتيجةً لذلك نحصل على جزيء **DNA ثنائي السلسلة**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "These three steps are **repeated 20-40 times** in order to obtain a number of sequences of DNA of interest in a very short time period.",
+   "ar": "تُكرَّر هذه الخطوات الثلاث **20-40 مرّة** للحصول على عدد من تسلسلات الـ DNA المطلوبة في مدّة قصيرة جدًا."
+  },
+  {
+   "t": "figure",
+   "src": "assets/elongation.png",
+   "en": "72 °C (extension of the primers)",
+   "ar": "72 °م (امتداد البادئات)",
+   "h": "26mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Step",
+     "الخطوة"
+    ],
+    [
+     "Temperature",
+     "الحرارة"
+    ],
+    [
+     "Time",
+     "الوقت"
+    ],
+    [
+     "What happens",
+     "ماذا يحدث"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**1. Denaturation**",
+      "**1. التمسّخ**"
+     ],
+     [
+      "94°C",
+      "94°م"
+     ],
+     [
+      "15-30 min (text) / 1 min (figure)",
+      "15-30 دقيقة (النص) / دقيقة (الشكل)"
+     ],
+     [
+      "H-bonds break → single strands",
+      "تنكسر الروابط الهيدروجينية ← سلاسل مفردة"
+     ]
+    ],
+    [
+     [
+      "**2. Annealing**",
+      "**2. الالتحام**"
+     ],
+     [
+      "54-60°C",
+      "54-60°م"
+     ],
+     [
+      "20-40 s (figure: 45 s at 54 °C)",
+      "20-40 ثانية (الشكل: 45 ثانية بدرجة 54 °م)"
+     ],
+     [
+      "primers bind complementary sequences",
+      "ترتبط البادئات بالتسلسلات المكمّلة"
+     ]
+    ],
+    [
+     [
+      "**3. Elongation**",
+      "**3. الاستطالة**"
+     ],
+     [
+      "72-80°C",
+      "72-80°م"
+     ],
+     [
+      "figure: 2 min at 72 °C",
+      "الشكل: دقيقتان بدرجة 72 °م"
+     ],
+     [
+      "Taq adds bases to 3’ end, 5’→3’, ~1000 bp/min",
+      "Taq يضيف القواعد للطرف 3’، 5’←3’، نحو 1000 زوج/دقيقة"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    20,
+    16,
+    28,
+    36
+   ],
+   "style": "summary",
+   "label_en": "The three steps",
+   "label_ar": "الخطوات الثلاث"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Denaturation 94°C",
+     "ar": "التمسّخ 94°م"
+    },
+    {
+     "en": "Annealing 54-60°C",
+     "ar": "الالتحام 54-60°م"
+    },
+    {
+     "en": "Elongation 72-80°C",
+     "ar": "الاستطالة 72-80°م"
+    },
+    {
+     "en": "Repeat 20-40 times",
+     "ar": "التكرار 20-40 مرّة"
+    }
+   ],
+   "en": "One PCR cycle",
+   "ar": "دورة PCR واحدة"
+  },
+  {
+   "t": "figure",
+   "src": "assets/pcr-amplification.png",
+   "en": "PCR amplification — exponential amplification",
+   "ar": "تضخيم PCR — تضخيم أسّي",
+   "h": "52mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**wanted gene**",
+      "الجين المطلوب"
+     ],
+     [
+      "**template DNA**",
+      "DNA القالب"
+     ]
+    ],
+    [
+     [
+      "**1st / 2nd / 3th / 4th cycle**",
+      "الدورة الأولى / الثانية / الثالثة / الرابعة"
+     ],
+     [
+      "**Exponential amplification**",
+      "تضخيم أسّي"
+     ]
+    ],
+    [
+     [
+      "**2² = 4 copies, 2³ = 8 copies, 16, 32 copies**",
+      "2² = 4 نسخ، 2³ = 8 نسخ، 16، 32 نسخة"
+     ],
+     [
+      "**35th cycle: 2³⁶ = 68 billion copies**",
+      "الدورة 35: 2³⁶ = 68 مليار نسخة"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "figure",
+   "src": "assets/pcr-cycle.png",
+   "en": "PCR : Polymerase Chain Reaction — 30 - 40 cycles of 3 steps",
+   "ar": "PCR: تفاعل البلمرة المتسلسل — 30 - 40 دورة من 3 خطوات",
+   "h": "72mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Step 1 : denaturation — 1 minut 94 °C**",
+      "الخطوة 1: التمسّخ — دقيقة واحدة 94 °م"
+     ],
+     [
+      "**Step 2 : annealing — 45 seconds 54 °C**",
+      "الخطوة 2: الالتحام — 45 ثانية 54 °م"
+     ]
+    ],
+    [
+     [
+      "**forward and reverse primers !!!**",
+      "البادئان الأمامي والعكسي!!!"
+     ],
+     [
+      "**Step 3 : extension — 2 minutes 72 °C**",
+      "الخطوة 3: الامتداد — دقيقتان 72 °م"
+     ]
+    ],
+    [
+     [
+      "**only dNTP's**",
+      "dNTPs فقط"
+     ],
+     [
+      "**30 - 40 cycles of 3 steps**",
+      "30 - 40 دورة من 3 خطوات"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "note",
+   "en": [
+    "The figures give **30–40** cycles and the text gives **20–40**; both are kept.",
+    "“3th cycle” = 3rd cycle, “1 minut” = 1 minute."
+   ],
+   "ar": [
+    "الأشكال تذكر **30–40** دورة والنص يذكر **20–40**؛ وأُبقي الاثنان.",
+    "و“3th cycle” = الدورة الثالثة، و“1 minut” = دقيقة واحدة."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Denaturation 94°C** → **annealing 54-60°C** (primers 20-30 bases) → **elongation 72-80°C** (Taq, 5’→3’, ~1000 bp/min).",
+    "Repeated **20-40 times**; copies double each cycle (**exponential**): 2ⁿ."
+   ],
+   "ar": [
+    "**التمسّخ 94°م** ← **الالتحام 54-60°م** (بادئات 20-30 قاعدة) ← **الاستطالة 72-80°م** (Taq، 5’←3’، نحو 1000 زوج/دقيقة).",
+    "تُكرَّر **20-40 مرّة**؛ وتتضاعف النسخ كل دورة (**أسّيًا**): 2ⁿ."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Application of PCR",
+   "ar": "تطبيقات PCR"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Cloning a Gene encoding a known protein",
+    "Amplification of old DNA",
+    "Amplifying cloned DNA from Vectors",
+    "Rapid Amplification of cDNA ends",
+    "Detecting Bacterial or Viral Infection"
+   ],
+   "list_ar": [
+    "استنساخ جين يرمّز بروتينًا معروفًا",
+    "تضخيم الـ DNA القديم",
+    "تضخيم الـ DNA المستنسخ من النواقل",
+    "التضخيم السريع لأطراف الـ cDNA",
+    "كشف الإصابات البكتيرية أو الفيروسية"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**AIDS infection**",
+    "**Tuberculosis** (*Mycobacterium tuberculosis*)"
+   ],
+   "list_ar": [
+    "**إصابة الإيدز**",
+    "**التدرّن** (*المتفطّرة السلّية*)"
+   ],
+   "alpha": true
+  },
+  {
+   "t": "card",
+   "en": "**Genetics Diagnosis**",
+   "ar": "**التشخيص الوراثي**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Diagnosing inherited disorders"
+   ],
+   "list_ar": [
+    "تشخيص الاضطرابات الوراثية"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Cystic fibrosis",
+    "Muscular dystrophy",
+    "Haemophilia A and B",
+    "Sickle cell anaemia"
+   ],
+   "list_ar": [
+    "التليّف الكيسي",
+    "الحثل العضلي",
+    "الهيموفيليا A وB",
+    "فقر الدم المنجلي"
+   ],
+   "alpha": true
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Diagnosing cancer",
+    "Blood group typing."
+   ],
+   "list_ar": [
+    "تشخيص السرطان",
+    "تحديد فصائل الدم."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Forensic Science**",
+   "ar": "**علم الأدلّة الجنائية**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Used as a tool in **genetic fingerprinting**.",
+    "Identifying the criminal from millions of people.",
+    "Paternity tests"
+   ],
+   "list_ar": [
+    "يُستعمل أداةً في **البصمة الوراثية**.",
+    "تحديد المجرم من بين ملايين الناس.",
+    "فحوص الأبوّة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Research: cloning, old DNA, vectors, cDNA ends; infection: **AIDS, TB**.",
+    "Genetics: cystic fibrosis, muscular dystrophy, haemophilia A/B, sickle cell, cancer, blood groups; forensic: **fingerprinting, criminals, paternity**."
+   ],
+   "ar": [
+    "البحث: الاستنساخ، الـ DNA القديم، النواقل، أطراف cDNA؛ الإصابات: **الإيدز، التدرّن**.",
+    "الوراثة: التليّف الكيسي، الحثل العضلي، الهيموفيليا، المنجلي، السرطان، فصائل الدم؛ الجنائي: **البصمة الوراثية، المجرمين، الأبوّة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Polymerase Chain Reaction (PCR)**",
+     "تفاعل البلمرة المتسلسل / التفاعل التسلسلي للبوليميريز"
+    ],
+    [
+     "**In vitro**",
+     "خارج الجسم الحي / في المختبر / في الزجاج"
+    ],
+    [
+     "**Amplification**",
+     "التضخيم / المضاعفة"
+    ],
+    [
+     "**Template DNA**",
+     "DNA القالب / الـ DNA الهدف"
+    ],
+    [
+     "**Primer (forward / reverse)**",
+     "البادئ (الأمامي / العكسي) / البرايمر"
+    ],
+    [
+     "**dNTPs**",
+     "ثلاثيات فوسفات النيوكليوتيدات منقوصة الأكسجين / النيوكليوتيدات الحرّة"
+    ],
+    [
+     "**Taq polymerase**",
+     "إنزيم بلمرة Taq / البوليميريز المقاوم للحرارة"
+    ],
+    [
+     "**Thermostable**",
+     "مقاوم للحرارة / ثابت حراريًا"
+    ],
+    [
+     "**Divalent cations**",
+     "أيونات موجبة ثنائية التكافؤ"
+    ],
+    [
+     "**Denaturation**",
+     "التمسّخ / الفصل / فكّ السلسلتين"
+    ],
+    [
+     "**Annealing**",
+     "الالتحام / التلدين / الارتباط"
+    ],
+    [
+     "**Elongation (extension)**",
+     "الاستطالة / الامتداد / التطويل"
+    ],
+    [
+     "**Fidelity**",
+     "الدقّة / أمانة النسخ"
+    ],
+    [
+     "**Exponential amplification**",
+     "التضخيم الأسّي"
+    ],
+    [
+     "**Thermal cycler**",
+     "المدوّر الحراري / جهاز PCR"
+    ],
+    [
+     "**Helicase**",
+     "الهيليكيز / فاكّ اللولب"
+    ],
+    [
+     "**Replication fork**",
+     "شوكة التضاعف"
+    ],
+    [
+     "**Leading / Lagging strand**",
+     "السلسلة القائدة / المتأخّرة"
+    ],
+    [
+     "**cDNA**",
+     "الـ DNA المكمّل / المتمّم"
+    ],
+    [
+     "**Genetic fingerprinting**",
+     "البصمة الوراثية / بصمة الـ DNA"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Definition, principle, components",
+    "topic_ar": "التعريف والمبدأ والمكوّنات"
+   },
+   {
+    "en": "PCR is a technique for:",
+    "ar": "الـ PCR تقنية لـ:",
+    "options": [
+     [
+      "Staining bacteria",
+      "صبغ البكتيريا"
+     ],
+     [
+      "Protein separation",
+      "فصل البروتينات"
+     ],
+     [
+      "In vitro amplification of a specific DNA sequence",
+      "التضخيم المختبري لتسلسل DNA محدّد"
+     ],
+     [
+      "Measuring enzymes",
+      "قياس الإنزيمات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "PCR was developed in 1983 by:",
+    "ar": "طُوّر الـ PCR عام 1983 على يد:",
+    "options": [
+     [
+      "Louis Pasteur",
+      "لويس باستور"
+     ],
+     [
+      "Watson and Crick",
+      "واطسون وكريك"
+     ],
+     [
+      "Robert Koch",
+      "روبرت كوخ"
+     ],
+     [
+      "Kary Mullis",
+      "كاري موليس"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A primer is required in PCR because DNA polymerase:",
+    "ar": "يلزم البادئ في PCR لأن إنزيم البلمرة:",
+    "options": [
+     [
+      "Works only at room temperature",
+      "يعمل فقط بحرارة الغرفة"
+     ],
+     [
+      "Can add nucleotides only to a pre-existing 3’-OH group",
+      "يضيف النيوكليوتيدات فقط إلى مجموعة 3’-OH موجودة"
+     ],
+     [
+      "Cuts DNA",
+      "يقطع الـ DNA"
+     ],
+     [
+      "Needs RNA as template",
+      "يحتاج RNA قالبًا"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which is NOT a component of the PCR reaction mixture?",
+    "ar": "أيّ مما يأتي ليس من مكوّنات خليط PCR؟",
+    "options": [
+     [
+      "Restriction enzyme",
+      "إنزيم التقطيع"
+     ],
+     [
+      "dNTPs",
+      "dNTPs"
+     ],
+     [
+      "Taq DNA polymerase",
+      "بلمرة Taq"
+     ],
+     [
+      "Template DNA",
+      "DNA القالب"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Taq polymerase is used because it is:",
+    "ar": "يُستعمل إنزيم Taq لأنه:",
+    "options": [
+     [
+      "An RNA polymerase",
+      "إنزيم بلمرة RNA"
+     ],
+     [
+      "Cheap only",
+      "رخيص فقط"
+     ],
+     [
+      "Thermostable and does not denature at very high temperatures",
+      "مقاوم للحرارة ولا يتمسّخ عند الحرارة العالية جدًا"
+     ],
+     [
+      "Active only at 4 °C",
+      "نشط فقط بدرجة 4 °م"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Primers are complementary to:",
+    "ar": "البادئات مكمّلة لـ:",
+    "options": [
+     [
+      "The 3’ ends of sense and anti-sense strands",
+      "الأطراف 3’ للسلسلتين المعنوية والمضادة"
+     ],
+     [
+      "The 5’ ends of mRNA",
+      "أطراف 5’ للـ mRNA"
+     ],
+     [
+      "The middle of the gene only",
+      "منتصف الجين فقط"
+     ],
+     [
+      "Proteins",
+      "البروتينات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "dNTPs in PCR provide:",
+    "ar": "توفّر الـ dNTPs في PCR:",
+    "options": [
+     [
+      "Magnesium",
+      "المغنيسيوم"
+     ],
+     [
+      "Energy for polymerization and building blocks of DNA",
+      "الطاقة للبلمرة ووحدات بناء الـ DNA"
+     ],
+     [
+      "The template",
+      "القالب"
+     ],
+     [
+      "The primer",
+      "البادئ"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In the PCR buffer, the ions that provide optimum conditions are:",
+    "ar": "في منظِّم PCR الأيونات التي توفّر الظروف المثلى:",
+    "options": [
+     [
+      "Iron and copper",
+      "الحديد والنحاس"
+     ],
+     [
+      "Calcium and zinc",
+      "الكالسيوم والزنك"
+     ],
+     [
+      "Sodium and chloride only",
+      "الصوديوم والكلوريد فقط"
+     ],
+     [
+      "Magnesium and potassium",
+      "المغنيسيوم والبوتاسيوم"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "PCR steps",
+    "topic_ar": "خطوات PCR"
+   },
+   {
+    "en": "Denaturation is carried out at:",
+    "ar": "يجري التمسّخ بدرجة:",
+    "options": [
+     [
+      "94°C",
+      "94°م"
+     ],
+     [
+      "54°C",
+      "54°م"
+     ],
+     [
+      "72°C",
+      "72°م"
+     ],
+     [
+      "37°C",
+      "37°م"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "During denaturation:",
+    "ar": "أثناء التمسّخ:",
+    "options": [
+     [
+      "Primers bind",
+      "ترتبط البادئات"
+     ],
+     [
+      "Hydrogen bonds between the strands break",
+      "تنكسر الروابط الهيدروجينية بين السلسلتين"
+     ],
+     [
+      "Taq adds bases",
+      "يضيف Taq القواعد"
+     ],
+     [
+      "DNA is ligated",
+      "يُربط الـ DNA"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Annealing temperature is about:",
+    "ar": "حرارة الالتحام نحو:",
+    "options": [
+     [
+      "94°C",
+      "94°م"
+     ],
+     [
+      "72-80°C",
+      "72-80°م"
+     ],
+     [
+      "54-60°C",
+      "54-60°م"
+     ],
+     [
+      "100°C",
+      "100°م"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Primers are about ___ bases long:",
+    "ar": "طول البادئات نحو ___ قاعدة:",
+    "options": [
+     [
+      "2-3",
+      "2-3"
+     ],
+     [
+      "200-300",
+      "200-300"
+     ],
+     [
+      "1000",
+      "1000"
+     ],
+     [
+      "20 to 30",
+      "20 إلى 30"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Two primers (forward and reverse) are needed because:",
+    "ar": "يلزم بادئان (أمامي وعكسي) لأن:",
+    "options": [
+     [
+      "RNA is single-stranded",
+      "الـ RNA أحادي السلسلة"
+     ],
+     [
+      "One primer is always destroyed",
+      "أحد البادئين يُتلف دائمًا"
+     ],
+     [
+      "Taq needs two",
+      "Taq يحتاج اثنين"
+     ],
+     [
+      "The two separated strands run in opposite directions",
+      "السلسلتين المنفصلتين تسيران باتّجاهين متعاكسين"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Elongation is carried out at:",
+    "ar": "تجري الاستطالة بدرجة:",
+    "options": [
+     [
+      "54-60°C",
+      "54-60°م"
+     ],
+     [
+      "72-80°C",
+      "72-80°م"
+     ],
+     [
+      "94°C",
+      "94°م"
+     ],
+     [
+      "4°C",
+      "4°م"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "During elongation, DNA is synthesized in the direction:",
+    "ar": "أثناء الاستطالة يُصنَّع الـ DNA باتّجاه:",
+    "options": [
+     [
+      "3’ to 5’",
+      "3’ إلى 5’"
+     ],
+     [
+      "Both directions",
+      "كلا الاتّجاهين"
+     ],
+     [
+      "5’ to 3’",
+      "5’ إلى 3’"
+     ],
+     [
+      "Random",
+      "عشوائي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Under optimum conditions the polymerase adds about:",
+    "ar": "في الظروف المثلى يضيف إنزيم البلمرة نحو:",
+    "options": [
+     [
+      "1000 bp/minute",
+      "1000 زوج/دقيقة"
+     ],
+     [
+      "1 bp/hour",
+      "زوج واحد/ساعة"
+     ],
+     [
+      "1 million bp/second",
+      "مليون زوج/ثانية"
+     ],
+     [
+      "10 bp/minute",
+      "10 أزواج/دقيقة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "According to the text, the three steps are repeated:",
+    "ar": "حسب النص تُكرَّر الخطوات الثلاث:",
+    "options": [
+     [
+      "20-40 times",
+      "20-40 مرّة"
+     ],
+     [
+      "2-4 times",
+      "2-4 مرّات"
+     ],
+     [
+      "100-200 times",
+      "100-200 مرّة"
+     ],
+     [
+      "Once",
+      "مرّة واحدة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The order of steps in each PCR cycle is:",
+    "ar": "ترتيب الخطوات في كل دورة PCR:",
+    "options": [
+     [
+      "Annealing → denaturation → elongation",
+      "الالتحام ← التمسّخ ← الاستطالة"
+     ],
+     [
+      "Denaturation → annealing → elongation",
+      "التمسّخ ← الالتحام ← الاستطالة"
+     ],
+     [
+      "Elongation → annealing → denaturation",
+      "الاستطالة ← الالتحام ← التمسّخ"
+     ],
+     [
+      "Denaturation → elongation → annealing",
+      "التمسّخ ← الاستطالة ← الالتحام"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Applications",
+    "topic_ar": "التطبيقات"
+   },
+   {
+    "en": "Which infection is listed as detected by PCR?",
+    "ar": "أيّ إصابة مذكورة تُكشف بالـ PCR؟",
+    "options": [
+     [
+      "Scurvy",
+      "الإسقربوط"
+     ],
+     [
+      "Diabetes",
+      "السكري"
+     ],
+     [
+      "Rickets",
+      "الكساح"
+     ],
+     [
+      "AIDS infection",
+      "إصابة الإيدز"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which is listed as an inherited disorder diagnosed by PCR?",
+    "ar": "أيّ مما يأتي اضطراب وراثي مذكور يُشخَّص بالـ PCR؟",
+    "options": [
+     [
+      "Tuberculosis",
+      "التدرّن"
+     ],
+     [
+      "AIDS",
+      "الإيدز"
+     ],
+     [
+      "Cystic fibrosis",
+      "التليّف الكيسي"
+     ],
+     [
+      "Malaria",
+      "الملاريا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In forensic science PCR is used for:",
+    "ar": "يُستعمل الـ PCR في علم الأدلّة الجنائية لـ:",
+    "options": [
+     [
+      "Blood glucose",
+      "سكر الدم"
+     ],
+     [
+      "Genetic fingerprinting and paternity tests",
+      "البصمة الوراثية وفحوص الأبوّة"
+     ],
+     [
+      "Stool analysis",
+      "تحليل البراز"
+     ],
+     [
+      "Liver enzymes",
+      "إنزيمات الكبد"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this figure, after the 4th cycle the number of copies is:",
+    "ar": "في هذا الشكل، بعد الدورة الرابعة يكون عدد النسخ:",
+    "options": [
+     [
+      "4",
+      "4"
+     ],
+     [
+      "8",
+      "8"
+     ],
+     [
+      "32",
+      "32"
+     ],
+     [
+      "68 billion",
+      "68 مليارًا"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/pcr-amplification.png",
+    "img_h": "40mm"
+   },
+   {
+    "en": "In this figure, step 2 (annealing) is at:",
+    "ar": "في هذا الشكل، الخطوة 2 (الالتحام) بدرجة:",
+    "options": [
+     [
+      "54 °C for 45 seconds",
+      "54 °م لـ 45 ثانية"
+     ],
+     [
+      "72 °C for 2 minutes",
+      "72 °م لدقيقتين"
+     ],
+     [
+      "94 °C for 1 minute",
+      "94 °م لدقيقة"
+     ],
+     [
+      "37 °C",
+      "37 °م"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/pcr-cycle.png",
+    "img_h": "50mm"
+   },
+   {
+    "en": "In this tube, the item labelled with an arrow next to the letters A G C T is:",
+    "ar": "في هذا الأنبوب، العنصر المؤشَّر بسهم قرب الحروف A G C T هو:",
+    "options": [
+     [
+      "Primer",
+      "البادئ"
+     ],
+     [
+      "DNA",
+      "الـ DNA"
+     ],
+     [
+      "Taq polymerase",
+      "بلمرة Taq"
+     ],
+     [
+      "Nucleotides",
+      "النيوكليوتيدات"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/reaction-tube.png",
+    "img_h": "44mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "PCR is an in vivo technique.",
+    "ar": "الـ PCR تقنية داخل الجسم الحي.",
+    "answer": "F"
+   },
+   {
+    "en": "PCR can generate millions of copies of a small DNA segment.",
+    "ar": "يمكن للـ PCR توليد ملايين النسخ من قطعة DNA صغيرة.",
+    "answer": "T"
+   },
+   {
+    "en": "DNA polymerase synthesises strands complementary to the template DNA.",
+    "ar": "يصنّع إنزيم البلمرة سلاسل مكمّلة لـ DNA القالب.",
+    "answer": "T"
+   },
+   {
+    "en": "Taq polymerase denatures at very high temperatures.",
+    "ar": "يتمسّخ إنزيم Taq عند الحرارة العالية جدًا.",
+    "answer": "F"
+   },
+   {
+    "en": "Primers are short stretches of single-stranded DNA.",
+    "ar": "البادئات قطع قصيرة من DNA أحادي السلسلة.",
+    "answer": "T"
+   },
+   {
+    "en": "The buffer is important for fidelity, polymerase activity and stability.",
+    "ar": "المنظِّم مهم للدقّة ونشاط إنزيم البلمرة وثباته.",
+    "answer": "T"
+   },
+   {
+    "en": "Denaturation converts DNA into single-stranded DNA.",
+    "ar": "يحوّل التمسّخ الـ DNA إلى DNA أحادي السلسلة.",
+    "answer": "T"
+   },
+   {
+    "en": "During annealing the temperature is raised to 94°C.",
+    "ar": "أثناء الالتحام تُرفع الحرارة إلى 94°م.",
+    "answer": "F"
+   },
+   {
+    "en": "Primers can be DNA or RNA.",
+    "ar": "يمكن أن تكون البادئات DNA أو RNA.",
+    "answer": "T"
+   },
+   {
+    "en": "Bases are added to the 5’ end of the primer.",
+    "ar": "تُضاف القواعد إلى الطرف 5’ للبادئ.",
+    "answer": "F"
+   },
+   {
+    "en": "At the end of elongation a double-stranded DNA molecule is obtained.",
+    "ar": "في نهاية الاستطالة نحصل على جزيء DNA ثنائي السلسلة.",
+    "answer": "T"
+   },
+   {
+    "en": "PCR amplification is exponential.",
+    "ar": "تضخيم PCR أسّي.",
+    "answer": "T"
+   },
+   {
+    "en": "PCR is used for blood group typing.",
+    "ar": "يُستعمل الـ PCR لتحديد فصائل الدم.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Three temperatures",
+    "ar": "ثلاث درجات حرارة",
+    "answer_en": "Denaturation 94°C; annealing 54-60°C (lowest); elongation 72-80°C.",
+    "answer_ar": "التمسّخ 94°م؛ الالتحام 54-60°م (الأقل)؛ الاستطالة 72-80°م."
+   },
+   {
+    "en": "Minutes or seconds?",
+    "ar": "دقائق أم ثوانٍ؟",
+    "answer_en": "Text: denaturation 15-30 minutes, annealing 20-40 seconds. Figure: 1 minute 94 °C, 45 seconds 54 °C, 2 minutes 72 °C. Answer from the part the question quotes.",
+    "answer_ar": "النص: التمسّخ 15-30 دقيقة، الالتحام 20-40 ثانية. الشكل: دقيقة 94 °م، 45 ثانية 54 °م، دقيقتان 72 °م. أجب حسب الجزء الذي يقتبسه السؤال."
+   },
+   {
+    "en": "20-40 or 30-40 cycles?",
+    "ar": "20-40 أم 30-40 دورة؟",
+    "answer_en": "Text says 20-40 times; the figure says 30 - 40 cycles.",
+    "answer_ar": "النص يقول 20-40 مرّة؛ والشكل يقول 30 - 40 دورة."
+   },
+   {
+    "en": "3’ or 5’?",
+    "ar": "3’ أم 5’؟",
+    "answer_en": "Bases are added to the 3’ end of the primer; the new DNA grows 5’ → 3’; primers are complementary to the 3’ ends of the strands.",
+    "answer_ar": "تُضاف القواعد إلى الطرف 3’ للبادئ؛ وينمو الـ DNA الجديد 5’ ← 3’؛ والبادئات مكمّلة للأطراف 3’ للسلاسل."
+   },
+   {
+    "en": "Why Taq?",
+    "ar": "لماذا Taq؟",
+    "answer_en": "Because it is thermostable — it survives the 94°C denaturation of every cycle.",
+    "answer_ar": "لأنه مقاوم للحرارة — يتحمّل تمسّخ 94°م في كل دورة."
+   },
+   {
+    "en": "Copies after n cycles",
+    "ar": "النسخ بعد n دورة",
+    "answer_en": "Copies double each cycle (2ⁿ): the figure shows 4, 8, 16, 32 … and 2³⁶ = 68 billion copies.",
+    "answer_ar": "تتضاعف النسخ كل دورة (2ⁿ): الشكل يُظهر 4، 8، 16، 32 … و2³⁶ = 68 مليار نسخة."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define PCR and state its principle.",
+    "ar": "عرّف الـ PCR واذكر مبدأه.",
+    "answer_en": "An in vitro technique for the amplification of a specific DNA sequence (developed in 1983 by Kary Mullis) that produces millions of copies. Principle: enzymatic replication of nucleic acids using primer-mediated enzymes; DNA polymerase makes strands complementary to the template but can add nucleotides only to a pre-existing 3’-OH, so a primer is required.",
+    "answer_ar": "تقنية مختبرية لتضخيم تسلسل DNA محدّد (طوّرها كاري موليس عام 1983) تنتج ملايين النسخ. المبدأ: تضاعف إنزيمي للأحماض النووية بإنزيمات تعمل بوساطة البادئات؛ يصنع إنزيم البلمرة سلاسل مكمّلة للقالب لكنه لا يضيف النيوكليوتيدات إلا إلى 3’-OH موجودة، فيلزم البادئ."
+   },
+   {
+    "en": "List the components of the PCR reaction mixture and their roles.",
+    "ar": "عدّد مكوّنات خليط PCR وأدوارها.",
+    "answer_en": "Template DNA (the DNA of interest); forward and reverse primers (short single-stranded DNA complementary to the 3’ ends, starting point); dNTPs (energy and building blocks); Taq DNA polymerase (thermostable); buffer with Mg and K / divalent cations (optimum conditions, fidelity, activity, stability); sterile deionized water.",
+    "answer_ar": "DNA القالب (الـ DNA المطلوب)؛ البادئان الأمامي والعكسي (DNA قصير أحادي السلسلة مكمّل للأطراف 3’، نقطة البداية)؛ dNTPs (طاقة ووحدات بناء)؛ إنزيم Taq (مقاوم للحرارة)؛ منظِّم فيه Mg وK / أيونات ثنائية التكافؤ (الظروف المثلى، الدقّة، النشاط، الثبات)؛ ماء معقّم منزوع الأيونات."
+   },
+   {
+    "en": "Describe the three steps of PCR.",
+    "ar": "صف خطوات PCR الثلاث.",
+    "answer_en": "Denaturation: heating to 94°C breaks hydrogen bonds and gives single strands that act as templates. Annealing: cooling to 54-60°C for 20-40 seconds lets the forward and reverse primers (20-30 bases) bind their complementary sequences. Elongation: at 72-80°C Taq polymerase adds bases to the 3’ end of the primer, 5’→3’, about 1000 bp/minute, giving double-stranded DNA. The steps are repeated 20-40 times.",
+    "answer_ar": "التمسّخ: التسخين إلى 94°م يكسر الروابط الهيدروجينية ويعطي سلاسل مفردة تعمل قوالب. الالتحام: التبريد إلى 54-60°م لمدّة 20-40 ثانية يسمح للبادئين الأمامي والعكسي (20-30 قاعدة) بالارتباط بتسلسلاتهما المكمّلة. الاستطالة: بدرجة 72-80°م يضيف Taq القواعد إلى الطرف 3’ للبادئ باتّجاه 5’←3’ بمعدّل نحو 1000 زوج/دقيقة فيتكوّن DNA ثنائي السلسلة. وتُكرَّر الخطوات 20-40 مرّة."
+   },
+   {
+    "en": "Why is PCR amplification called exponential?",
+    "ar": "لماذا يُسمّى تضخيم PCR أسّيًا؟",
+    "answer_en": "Because the number of copies doubles in every cycle (2ⁿ): 4, 8, 16, 32 copies … and after the 35th cycle 2³⁶ = 68 billion copies.",
+    "answer_ar": "لأن عدد النسخ يتضاعف في كل دورة (2ⁿ): 4، 8، 16، 32 نسخة … وبعد الدورة 35 يصبح 2³⁶ = 68 مليار نسخة."
+   },
+   {
+    "en": "Give the applications of PCR.",
+    "ar": "اذكر تطبيقات PCR.",
+    "answer_en": "Cloning a gene encoding a known protein; amplification of old DNA; amplifying cloned DNA from vectors; rapid amplification of cDNA ends; detecting bacterial or viral infection (AIDS, tuberculosis); genetic diagnosis (inherited disorders: cystic fibrosis, muscular dystrophy, haemophilia A and B, sickle cell anaemia; cancer; blood group typing); forensic science (genetic fingerprinting, identifying criminals, paternity tests).",
+    "answer_ar": "استنساخ جين يرمّز بروتينًا معروفًا؛ تضخيم الـ DNA القديم؛ تضخيم الـ DNA المستنسخ من النواقل؛ التضخيم السريع لأطراف cDNA؛ كشف الإصابات البكتيرية أو الفيروسية (الإيدز، التدرّن)؛ التشخيص الوراثي (الاضطرابات الوراثية: التليّف الكيسي، الحثل العضلي، الهيموفيليا A وB، فقر الدم المنجلي؛ السرطان؛ فصائل الدم)؛ علم الأدلّة الجنائية (البصمة الوراثية، تحديد المجرمين، فحوص الأبوّة)."
+   }
+  ]
+ }
+}
