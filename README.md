@@ -8,6 +8,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `immunology-lec2-cells-organs/` — Immunology theory lecture 2: Cells, Organs, and Defense (د. أحمد داود) — third stage.
 - `immunology-lec3-antigens/` — Immunology theory lecture 3: Immunogens or Antigens (د. أحمد داود) — third stage.
 - `immunology-lab1-serology/` — Practical Immunology Lab 1.
+- `immunology-lec4-immunoglobulins/` — Immunology theory lecture 4: Immunoglobulins (د. أحمد داود) — third stage, new style, questions inside, every slide figure with translated labels.
 - `immunology-lab3-antigen-preparation/` — Practical Immunology Lab 3: antigen preparation — bacterial (Salmonella O/H, streptolysin O) and RBC antigens (م.م. جنان خليل) — third stage, new style, questions inside.
 - `parasitology-week1-mcq/` … `parasitology-week5-mcq/` — Diagnostic Parasitology theory MCQ banks, weeks 1–5 (أ.د. نزار الخفاجي): the source's marked answer sits under each question (`answers_inline`), with BIOS notes on doubtful or wrong answers.
 - `parasitology-week2-theory/` … `parasitology-week5-theory/` — Diagnostic Parasitology theory handouts weeks 2–5 (أ.د. نزار الخفاجي): protozoa and stool collection; E. histolytica and stool examination; nonpathogenic intestinal amoebae and wet-mount solutions; free-living amoebae, E. histolytica vs E. dispar and fixatives — fourth stage, no questions.

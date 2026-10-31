@@ -1,0 +1,4593 @@
+{
+ "meta": {
+  "subject_en": "Immunology",
+  "subject_ar": "علم المناعة",
+  "short_ar": "مناعة",
+  "instructor": "د. أحمد داود",
+  "unit_en": "Lecture 4",
+  "unit_ar": "المحاضرة 4",
+  "unit_label": "LEC",
+  "unit_no": "4",
+  "title_en": "Immunoglobulins (Ig)",
+  "title_ar": "الغلوبيولينات المناعية (الأضداد)",
+  "kind": "Theory — نظري",
+  "stage": "The third stage — الثالثة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Immunoglobulins (Ig)",
+   "ar": "الغلوبيولينات المناعية"
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/ig-3d-1.png",
+     "en": "Immunoglobulin — 3-D model",
+     "ar": "الغلوبيولين المناعي — نموذج ثلاثي الأبعاد",
+     "h": "34mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/ig-3d-2.png",
+     "en": "Immunoglobulin — 3-D model",
+     "ar": "الغلوبيولين المناعي — نموذج ثلاثي الأبعاد",
+     "h": "34mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Outline**",
+   "ar": "**المحتويات**",
+   "list_en": [
+    "Definition",
+    "Pathways of antibodies production",
+    "Structure",
+    "Classes and Subclasses",
+    "Antigenic determinants",
+    "General functions"
+   ],
+   "list_ar": [
+    "التعريف",
+    "مسارات إنتاج الأضداد",
+    "التركيب",
+    "الأصناف والأصناف الفرعية",
+    "المحدّدات المستضدية",
+    "الوظائف العامة"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Definition",
+   "ar": "التعريف"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Immunoglobulins are **glycoprotein molecules** produced by the **plasma cells** in response to an **immunogen** and which function as **antibodies**.",
+    "Ig circulates in **blood and other bodily fluids** to **recognize** foreign substances such as **bacteria, viruses, and toxins** and **neutralize** them.",
+    "Immunoglobulins/Antibodies are also known as **Immune protein**"
+   ],
+   "list_ar": [
+    "الغلوبيولينات المناعية **جزيئات بروتينية سكرية** تنتجها **خلايا البلازما** استجابةً **لمستمنِع (مولّد مناعة)**، وتعمل **أضدادًا**.",
+    "يدور الـ Ig في **الدم وسوائل الجسم الأخرى** **ليتعرّف** على المواد الغريبة مثل **البكتيريا والفيروسات والذيفانات** **ويعادلها**.",
+    "وتُعرف الغلوبيولينات المناعية/الأضداد أيضًا **بالبروتين المناعي**"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Ig = **glycoprotein** made by **plasma cells** in response to an immunogen; acts as **antibody** (immune protein).",
+    "Recognizes and **neutralizes** bacteria, viruses, toxins in blood and body fluids."
+   ],
+   "ar": [
+    "Ig = **بروتين سكري** تنتجه **خلايا البلازما** استجابةً لمستمنِع؛ ويعمل **ضدًّا** (بروتين مناعي).",
+    "يتعرّف على البكتيريا والفيروسات والذيفانات **ويعادلها** في الدم وسوائل الجسم."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Pathways of antibodies production",
+   "ar": "مسارات إنتاج الأضداد"
+  },
+  {
+   "t": "card",
+   "en": "There are **two pathways** of antibodies production",
+   "ar": "هناك **مساران** لإنتاج الأضداد",
+   "list_en": [
+    "**T cell independent** activation of B cell",
+    "**T cell dependent** activation of B cell"
+   ],
+   "list_ar": [
+    "تنشيط الخلية البائية **المستقلّ عن الخلايا التائية**",
+    "تنشيط الخلية البائية **المعتمد على الخلايا التائية**"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Activation of B cells **without the cooperation of helper T cells** occurs when BCRs interact with **T-independent antigens**.",
+   "ar": "يحدث تنشيط الخلايا البائية **دون تعاون الخلايا التائية المساعدة** عندما تتفاعل مستقبلات الخلية البائية (BCRs) مع **المستضدات المستقلّة عن التائية**."
+  },
+  {
+   "t": "card",
+   "en": "T-independent antigens e.g. **polysaccharide capsules, lipopolysaccharide (LPS)** have **repetitive epitope units** within their structure.",
+   "ar": "المستضدات المستقلّة عن التائية، مثل **المحافظ عديدة السكريد وعديد السكريد الدهني (LPS)**، لها **وحدات حواتم (إبيتوبات) متكرّرة** في تركيبها."
+  },
+  {
+   "t": "h2",
+   "en": "T cell independent activation",
+   "ar": "التنشيط المستقلّ عن الخلايا التائية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "This repetition allows for the **cross-linkage of multiple BCRs**, providing the **first signal** for activation",
+    "Once a B cell is activated, it undergoes **clonal proliferation** and daughter cells differentiate into **plasma cells**",
+    "The T cell-independent response is **short-lived** and does **not result in the production of memory B cells**.",
+    "Thus it will **not result in a secondary response** to subsequent exposures to T-independent antigens."
+   ],
+   "list_ar": [
+    "يسمح هذا التكرار **بالربط التصالبي لعدّة مستقبلات BCR**، فيوفّر **الإشارة الأولى** للتنشيط",
+    "وما إن تنشط الخلية البائية حتى تمرّ **بتكاثر نسيلي** وتتمايز الخلايا البنوية إلى **خلايا بلازما**",
+    "والاستجابة المستقلّة عن التائية **قصيرة الأمد** و**لا ينتج عنها خلايا بائية ذاكرة**.",
+    "ولذلك **لن تنتج عنها استجابة ثانوية** عند التعرّضات اللاحقة للمستضدات المستقلّة عن التائية."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/t-independent.png",
+   "en": "T cell-independent B cell activation",
+   "ar": "تنشيط الخلية البائية المستقلّ عن الخلايا التائية",
+   "h": "46mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**B cell**",
+      "الخلية البائية"
+     ],
+     [
+      "**polysaccharide antigen with repeating epitopes**",
+      "مستضد عديد السكريد بحواتم متكرّرة"
+     ]
+    ],
+    [
+     [
+      "**pathogenic bacterial cell**",
+      "خلية بكتيرية ممرضة"
+     ],
+     [
+      "**T cell-independent B cell activation**",
+      "تنشيط الخلية البائية المستقلّ عن التائية"
+     ]
+    ],
+    [
+     [
+      "**IgM**",
+      "IgM"
+     ],
+     [
+      "**activation of B cell and secretion of pentameric IgM**",
+      "تنشيط الخلية البائية وإفراز IgM خماسي"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "h2",
+   "en": "B cells-T helper cell interaction and associated Antibody(Ig) production",
+   "ar": "تفاعل الخلايا البائية مع التائية المساعدة وما يرافقه من إنتاج الأضداد"
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Step 1 — Ag binding to Naïve BCR & B cell activation**",
+    "B cell possess the BCR With **single specificity**.",
+    "When **epitope** of the antigen binds to BCR, that particular B cell becomes activated."
+   ],
+   "ar": [
+    "**الخطوة 1 — ارتباط المستضد بمستقبل الخلية البائية الساذجة وتنشيطها**",
+    "تمتلك الخلية البائية مستقبل BCR **بنوعية واحدة**.",
+    "وعندما ترتبط **حاتمة** المستضد بالـ BCR تنشط تلك الخلية البائية بعينها."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Step 2 — B cell antigen presentation (APC)**",
+    "The Ag **processed inside B cell** and is **presented on MHC II to TCR of Th cell**",
+    "MHC II bound antigenic peptides binds to TCR.",
+    "The Th cells secrete **chemokines** which in turn that **activates B cells more effectively**."
+   ],
+   "ar": [
+    "**الخطوة 2 — تقديم المستضد بواسطة الخلية البائية (خلية مقدّمة للمستضد)**",
+    "يُعالَج المستضد **داخل الخلية البائية** ويُقدَّم **على MHC II إلى مستقبل TCR للخلية التائية المساعدة**",
+    "ترتبط الببتيدات المستضدية المرتبطة بـ MHC II بالـ TCR.",
+    "وتفرز الخلايا التائية المساعدة **كيموكينات** **تنشّط الخلايا البائية بفعالية أكبر**."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Step 3 — B cell clonal selection & Differentiation**",
+    "The activated is selected to divide forming **many copies** B cell differentiate into **Plasma cells/effector and Memory cells**",
+    "**Plasma cells produce antibodies** Ig that binds Antigen Ag and ensure its clearance from the system by **agglutination, precipitation or neutralization**.",
+    "**Memory B cells** for immunologic memory."
+   ],
+   "ar": [
+    "**الخطوة 3 — الانتقاء النسيلي للخلية البائية وتمايزها**",
+    "تُنتقى الخلية المنشّطة لتنقسم مكوّنةً **نسخًا كثيرة**، وتتمايز الخلية البائية إلى **خلايا بلازما/مستجيبة وخلايا ذاكرة**",
+    "**تنتج خلايا البلازما الأضداد** Ig التي ترتبط بالمستضد وتضمن إزالته من الجسم **بالتلازن أو الترسيب أو المعادلة**.",
+    "**الخلايا البائية الذاكرة** للذاكرة المناعية."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/b-th-interaction.png",
+   "en": "B cell – helper T cell interaction",
+   "ar": "تفاعل الخلية البائية مع الخلية التائية المساعدة",
+   "h": "86mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**antigen on bacterium**",
+      "مستضد على بكتيريا"
+     ],
+     [
+      "**B cell receptor**",
+      "مستقبل الخلية البائية"
+     ]
+    ],
+    [
+     [
+      "**B cell**",
+      "الخلية البائية"
+     ],
+     [
+      "**activated B cell undergoing clonal selection**",
+      "خلية بائية منشّطة تمرّ بالانتقاء النسيلي"
+     ]
+    ],
+    [
+     [
+      "**MHC II**",
+      "معقّد التوافق النسيجي الثاني"
+     ],
+     [
+      "**CD4**",
+      "CD4"
+     ]
+    ],
+    [
+     [
+      "**helper T cell**",
+      "الخلية التائية المساعدة"
+     ],
+     [
+      "**cytokines**",
+      "السايتوكينات"
+     ]
+    ],
+    [
+     [
+      "**T cell receptor**",
+      "مستقبل الخلية التائية"
+     ],
+     [
+      "**clonal expansion due to cell proliferation**",
+      "التوسّع النسيلي بسبب تكاثر الخلايا"
+     ]
+    ],
+    [
+     [
+      "**memory B cells**",
+      "الخلايا البائية الذاكرة"
+     ],
+     [
+      "**plasma cells**",
+      "خلايا البلازما"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "note",
+   "en": "“The activated is selected” means “the activated **B cell** is selected”.",
+   "ar": "“The activated is selected” يُقصد بها “تُنتقى **الخلية البائية** المنشّطة”.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "T-independent",
+     "المستقلّ عن التائية"
+    ],
+    [
+     "T-dependent",
+     "المعتمد على التائية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Helper T cells**",
+      "**الخلايا التائية المساعدة**"
+     ],
+     [
+      "not needed",
+      "غير مطلوبة"
+     ],
+     [
+      "needed — MHC II → TCR, chemokines",
+      "مطلوبة — MHC II ← TCR، كيموكينات"
+     ]
+    ],
+    [
+     [
+      "**Antigens**",
+      "**المستضدات**"
+     ],
+     [
+      "polysaccharide capsules, LPS (repeating epitopes)",
+      "المحافظ عديدة السكريد، LPS (حواتم متكرّرة)"
+     ],
+     [
+      "protein antigens processed by the B cell",
+      "مستضدات تعالجها الخلية البائية"
+     ]
+    ],
+    [
+     [
+      "**Product**",
+      "**الناتج**"
+     ],
+     [
+      "plasma cells (pentameric IgM)",
+      "خلايا بلازما (IgM خماسي)"
+     ],
+     [
+      "plasma cells + memory B cells",
+      "خلايا بلازما + خلايا بائية ذاكرة"
+     ]
+    ],
+    [
+     [
+      "**Memory / secondary response**",
+      "**الذاكرة / الاستجابة الثانوية**"
+     ],
+     [
+      "no — short-lived",
+      "لا — قصيرة الأمد"
+     ],
+     [
+      "yes",
+      "نعم"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    38,
+    38
+   ],
+   "style": "summary",
+   "label_en": "The two pathways",
+   "label_ar": "المساران"
+  },
+  {
+   "t": "note",
+   "en": [
+    "**T-independent**: repeating epitopes (capsules, LPS) cross-link BCRs → plasma cells; **no memory**, no secondary response.",
+    "**T-dependent**: (1) Ag binds BCR → (2) B cell presents on **MHC II** to Th → (3) clonal selection → **plasma + memory cells**."
+   ],
+   "ar": [
+    "**المستقلّ عن التائية**: حواتم متكرّرة (محافظ، LPS) تربط الـ BCRs تصالبيًا ← خلايا بلازما؛ **بلا ذاكرة** ولا استجابة ثانوية.",
+    "**المعتمد على التائية**: (1) يرتبط المستضد بالـ BCR ← (2) تقدّمه الخلية البائية على **MHC II** للتائية المساعدة ← (3) انتقاء نسيلي ← **خلايا بلازما + ذاكرة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Structure of Immunoglobulin Ig",
+   "ar": "تركيب الغلوبيولين المناعي"
+  },
+  {
+   "t": "figure",
+   "src": "assets/ig-structure-1.png",
+   "en": "Basic structure of an immunoglobulin",
+   "ar": "التركيب الأساسي للغلوبيولين المناعي",
+   "h": "62mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Fab fragments**",
+      "قطع Fab"
+     ],
+     [
+      "**Fc fragment**",
+      "قطعة Fc"
+     ]
+    ],
+    [
+     [
+      "**Amino terminal**",
+      "الطرف الأميني"
+     ],
+     [
+      "**Carboxyl terminal**",
+      "الطرف الكربوكسيلي"
+     ]
+    ],
+    [
+     [
+      "**Light chain**",
+      "السلسلة الخفيفة"
+     ],
+     [
+      "**Heavy chain**",
+      "السلسلة الثقيلة"
+     ]
+    ],
+    [
+     [
+      "**Variable**",
+      "متغيّر"
+     ],
+     [
+      "**Constant**",
+      "ثابت"
+     ]
+    ],
+    [
+     [
+      "**Binds to antigen**",
+      "يرتبط بالمستضد"
+     ],
+     [
+      "**Hinge region**",
+      "منطقة المفصل"
+     ]
+    ],
+    [
+     [
+      "**Carbohydrate**",
+      "كربوهيدرات"
+     ],
+     [
+      "**Activates complement and phagocytes**",
+      "ينشّط المتمّم والبلعميات"
+     ]
+    ],
+    [
+     [
+      "**S–S bonds**",
+      "روابط ثنائية الكبريت"
+     ],
+     [
+      "",
+      ""
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "figure",
+   "src": "assets/ig-structure-2.png",
+   "en": "Immunoglobulin domains, antigen-binding sites and effector region",
+   "ar": "مجالات الغلوبيولين المناعي ومواقع ارتباط المستضد والمنطقة المستجيبة",
+   "h": "70mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**antigen within antigen-binding site**",
+      "مستضد داخل موقع ارتباط المستضد"
+     ],
+     [
+      "**antigen**",
+      "مستضد"
+     ]
+    ],
+    [
+     [
+      "**antigen-binding site**",
+      "موقع ارتباط المستضد"
+     ],
+     [
+      "**hinge region**",
+      "منطقة المفصل"
+     ]
+    ],
+    [
+     [
+      "**light (L) chain**",
+      "السلسلة الخفيفة (L)"
+     ],
+     [
+      "**heavy (H) chain**",
+      "السلسلة الثقيلة (H)"
+     ]
+    ],
+    [
+     [
+      "**carbohydrate**",
+      "كربوهيدرات"
+     ],
+     [
+      "**disulfide bonds**",
+      "روابط ثنائية الكبريت"
+     ]
+    ],
+    [
+     [
+      "**effector region**",
+      "المنطقة المستجيبة (المؤثّرة)"
+     ],
+     [
+      "**VH, VL / CH1, CH2, CH3, CL**",
+      "المجالات المتغيّرة / الثابتة"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "h2",
+   "en": "Disulfide bonds",
+   "ar": "الروابط ثنائية الكبريت"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Inter-chain**—Heavy & light chain & two heavy chains are held together by inter-chain disulfide bond & non covalent interactions",
+    "**Intra-chain**—within each polypeptide chain there also disulfide bonds"
+   ],
+   "list_ar": [
+    "**بين السلاسل**— تُمسك السلسلتان الثقيلة والخفيفة، والسلسلتان الثقيلتان، معًا بروابط ثنائية الكبريت بين السلاسل وبتآثرات غير تساهمية",
+    "**داخل السلسلة**— توجد أيضًا روابط ثنائية الكبريت داخل كل سلسلة ببتيدية"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Variable (V) and constant (C) regions",
+   "ar": "المنطقتان المتغيّرة (V) والثابتة (C)"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Both heavy & light chain can be divided based on **variability of amino acid sequences**",
+    "**Light Chain** - VL (110 aa) and CL (110 aa)",
+    "**Heavy Chain** - VH (110 aa) and CH (330-440 aa)"
+   ],
+   "list_ar": [
+    "يمكن تقسيم السلسلتين الثقيلة والخفيفة على أساس **تغيّر تسلسلات الأحماض الأمينية**",
+    "**السلسلة الخفيفة** - VL (110 حمض أميني) وCL (110 حمض أميني)",
+    "**السلسلة الثقيلة** - VH (110 حمض أميني) وCH (330-440 حمض أميني)"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Hinge Region",
+   "ar": "منطقة المفصل"
+  },
+  {
+   "t": "card",
+   "en": "The region at which the arms of the antibody molecule forms a **Y shape**",
+   "ar": "المنطقة التي تكوّن عندها أذرع جزيء الضد **شكل حرف Y**"
+  },
+  {
+   "t": "figure",
+   "src": "assets/ig-domains.png",
+   "en": "Domains of the heavy and light chains",
+   "ar": "مجالات السلسلتين الثقيلة والخفيفة",
+   "h": "56mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Heavy chain μ,γ,α,δ, or ε**",
+      "السلسلة الثقيلة μ أو γ أو α أو δ أو ε"
+     ],
+     [
+      "**Light chain κ or λ**",
+      "السلسلة الخفيفة κ أو λ"
+     ]
+    ],
+    [
+     [
+      "**Hinge**",
+      "المفصل"
+     ],
+     [
+      "**Antigen binding**",
+      "ارتباط المستضد"
+     ]
+    ],
+    [
+     [
+      "**Biological activity**",
+      "النشاط الحيوي"
+     ],
+     [
+      "**CHO**",
+      "كربوهيدرات"
+     ]
+    ],
+    [
+     [
+      "**NH3+ / COO−**",
+      "الطرف الأميني / الكربوكسيلي"
+     ],
+     [
+      "",
+      ""
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "h2",
+   "en": "Domains",
+   "ar": "المجالات"
+  },
+  {
+   "t": "card",
+   "en": "**G lobular regions** each of which contains an **intra-chain disulfide bond**.",
+   "ar": "**مناطق كروية**، تحتوي كلٌّ منها على **رابطة ثنائية الكبريت داخل السلسلة**."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Light Chain Domains** - VL and CL",
+    "**Heavy Chain Domains** - VH CH1 - CH3"
+   ],
+   "list_ar": [
+    "**مجالات السلسلة الخفيفة** - VL وCL",
+    "**مجالات السلسلة الثقيلة** - VH وCH1 - CH3"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Domain regions are composed of three-dimensionally folded, repeating segments determined using **high-resolution x-ray crystallography**.",
+   "ar": "تتكوّن مناطق المجالات من قطع متكرّرة مطويّة ثلاثيًا تُحدَّد باستعمال **علم بلّورات الأشعة السينية عالي الدقّة**."
+  },
+  {
+   "t": "h2",
+   "en": "Oligosaccharides",
+   "ar": "السكريات قليلة التعدّد"
+  },
+  {
+   "t": "card",
+   "en": "**Carbohydrates are attached to the CH2 domain** in most immunoglobulins.",
+   "ar": "**ترتبط الكربوهيدرات بمجال CH2** في معظم الغلوبيولينات المناعية."
+  },
+  {
+   "t": "note",
+   "en": [
+    "Y shape: **2 heavy + 2 light** chains joined by **inter-chain** S–S bonds; **intra-chain** S–S in each domain.",
+    "Light: **VL + CL (110 aa each)**; heavy: **VH (110) + CH (330-440 aa)** = VH, CH1–CH3.",
+    "**Hinge** = where the Y forms; carbohydrate on **CH2**."
+   ],
+   "ar": [
+    "شكل Y: **سلسلتان ثقيلتان + سلسلتان خفيفتان** تربطها روابط S–S **بين السلاسل**؛ وروابط S–S **داخل السلسلة** في كل مجال.",
+    "الخفيفة: **VL + CL (110 لكلّ منهما)**؛ والثقيلة: **VH (110) + CH (330-440)** = VH وCH1–CH3.",
+    "**المفصل** = مكان تكوّن الـ Y؛ والكربوهيدرات على **CH2**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Structure of the variable region",
+   "ar": "تركيب المنطقة المتغيّرة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Variable regions of both the L and H chains are subregions consisting of extremely variable amino acid sequences, called **hypervariable** that form **antigen-binding site**.",
+    "The hypervariable regions form the area of the Ig molecule complementary in structure to the antigenic determinant (**epitope**) called **CDR**",
+    "**5–10 amino acids** in each hypervariable region constitute the antigen- binding site.",
+    "**Framework region FR** are the regions between the CDRs in the variable region, based on their similarities Ig VL and VH can be divided into groups and subgroups.",
+    "CDRs are responsible for the **specificity (recognition) and affinity**.",
+    "Abs of the exact same specificity have **identical CDRs** while Abs with different specificities have **different CDRs**."
+   ],
+   "list_ar": [
+    "المناطق المتغيّرة في السلسلتين L وH مناطق فرعية تتكوّن من تسلسلات أحماض أمينية شديدة التغيّر، تُسمّى **فائقة التغيّر**، وهي التي تكوّن **موقع ارتباط المستضد**.",
+    "تكوّن المناطق فائقة التغيّر الجزء من جزيء Ig المتمّم تركيبيًا للمحدّد المستضدي (**الحاتمة**)، ويُسمّى **CDR (منطقة تحديد التتامّ)**",
+    "و**5–10 أحماض أمينية** في كل منطقة فائقة التغيّر تكوّن موقع ارتباط المستضد.",
+    "و**مناطق الهيكل FR** هي المناطق الواقعة بين الـ CDRs في المنطقة المتغيّرة، وعلى أساس تشابهها يمكن تقسيم VL وVH إلى مجموعات ومجموعات فرعية.",
+    "والـ CDRs مسؤولة عن **النوعية (التعرّف) والألفة**.",
+    "والأضداد ذات النوعية نفسها تمامًا لها **CDRs متطابقة**، بينما الأضداد مختلفة النوعية لها **CDRs مختلفة**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/ig-variable-constant.png",
+   "en": "Variable and constant regions; Fab and Fc",
+   "ar": "المنطقتان المتغيّرة والثابتة؛ Fab وFc",
+   "h": "60mm",
+   "fit": "contain"
+  },
+  {
+   "t": "note",
+   "en": "This drawing has the same labels as the first structure figure (variable, constant, Fab, Fc, hinge, carbohydrate…).",
+   "ar": "هذا الرسم يحمل الكتابات نفسها التي في شكل التركيب الأول (متغيّر، ثابت، Fab، Fc، المفصل، كربوهيدرات…).",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Hypervariable regions = CDRs** = antigen-binding site (**5–10 aa** each); between them = **framework regions (FR)**.",
+    "CDRs → **specificity and affinity**; same specificity = **identical CDRs**."
+   ],
+   "ar": [
+    "**المناطق فائقة التغيّر = CDRs** = موقع ارتباط المستضد (**5–10 أحماض** لكلٍّ منها)؛ وبينها = **مناطق الهيكل (FR)**.",
+    "الـ CDRs ← **النوعية والألفة**؛ والنوعية نفسها = **CDRs متطابقة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Immunoglobulin fragments",
+   "ar": "قطع الغلوبيولين المناعي"
+  },
+  {
+   "t": "card",
+   "en": "The fragments are produced by **proteolytic digestion** by",
+   "ar": "تُنتج القطع **بالهضم المحلّل للبروتين** بواسطة",
+   "list_en": [
+    "**Papain**, give two fragments; **Fab and Fc**",
+    "**Pepsin**, give rise to **(Fab)2**"
+   ],
+   "list_ar": [
+    "**البابين**، يعطي قطعتين؛ **Fab وFc**",
+    "**الببسين**، ينتج **(Fab)2**"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/ig-fragments-1.png",
+   "en": "Proteolytic fragments of immunoglobulin",
+   "ar": "القطع الناتجة عن الهضم البروتيني للغلوبيولين المناعي",
+   "h": "56mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Disulfide bonds**",
+      "روابط ثنائية الكبريت"
+     ],
+     [
+      "**L chain / H chain**",
+      "السلسلة الخفيفة / الثقيلة"
+     ]
+    ],
+    [
+     [
+      "**Pepsin digestion**",
+      "الهضم بالببسين"
+     ],
+     [
+      "**F(ab')2 + Fc fragments**",
+      "F(ab')2 + قطع Fc"
+     ]
+    ],
+    [
+     [
+      "**Papain digestion**",
+      "الهضم بالبابين"
+     ],
+     [
+      "**Fab / Fc**",
+      "Fab / Fc"
+     ]
+    ],
+    [
+     [
+      "**Mercaptoethanol reduction**",
+      "الاختزال بالمركبتوإيثانول"
+     ],
+     [
+      "**H chains / L chains (SH)**",
+      "سلاسل ثقيلة / خفيفة (SH)"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/papain.png",
+     "en": "Papain → 2 Fab + Fc",
+     "ar": "البابين ← 2 Fab + Fc",
+     "h": "38mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/pepsin.png",
+     "en": "Pepsin → F(ab')2 + Fc peptides",
+     "ar": "الببسين ← F(ab')2 + ببتيدات Fc",
+     "h": "38mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "https://www.microbiologybook.org/mayer/IgStruct2000.htm",
+   "ar": "رابط المصدر (كتاب الأحياء المجهرية — تركيب الغلوبيولين المناعي)"
+  },
+  {
+   "t": "h2",
+   "en": "Fab and Fc regions",
+   "ar": "منطقتا Fab وFc"
+  },
+  {
+   "t": "card",
+   "en": "**Fragment antigen binding (Fab) region**",
+   "ar": "**منطقة القطعة الرابطة للمستضد (Fab)**",
+   "list_en": [
+    "Recognize specific antigens"
+   ],
+   "list_ar": [
+    "تتعرّف على مستضدات محدّدة"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Fragment crystallizable region (Fc)**",
+   "ar": "**منطقة القطعة القابلة للتبلور (Fc)**",
+   "list_en": [
+    "**Modulation of immune cell activity**",
+    "**Binds to various cell receptors** e.g. Fc receptors on phagocytic cells, complement proteins etc.",
+    "Mediates different physiological effect such as"
+   ],
+   "list_ar": [
+    "**تعديل نشاط الخلايا المناعية**",
+    "**ترتبط بمستقبلات خلوية متنوّعة** مثل مستقبلات Fc على الخلايا البلعمية، وبروتينات المتمّم وغيرها",
+    "تتوسّط تأثيرات فسيولوجية مختلفة مثل"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**opsonization**",
+    "**cell lysis**",
+    "**degranulation of mast cells** etc."
+   ],
+   "list_ar": [
+    "**الطهي (الأبسنة)**",
+    "**تحلّل الخلية**",
+    "**تحبّب الخلايا البدينة** وغيرها"
+   ],
+   "alpha": true
+  },
+  {
+   "t": "figure",
+   "src": "assets/ig-structure-function.png",
+   "en": "Immunoglobulin Fragments: Structure/Function Relationships",
+   "ar": "قطع الغلوبيولين المناعي: علاقة التركيب بالوظيفة",
+   "h": "52mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Ag Binding**",
+      "ارتباط المستضد"
+     ],
+     [
+      "**Binding to Fc Receptors**",
+      "الارتباط بمستقبلات Fc"
+     ]
+    ],
+    [
+     [
+      "**Complement Binding Site**",
+      "موقع ارتباط المتمّم"
+     ],
+     [
+      "**Placental Transfer**",
+      "العبور عبر المشيمة"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Agent",
+     "العامل"
+    ],
+    [
+     "Products",
+     "النواتج"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Papain**",
+      "**البابين**"
+     ],
+     [
+      "two Fab + one Fc",
+      "قطعتا Fab + قطعة Fc"
+     ]
+    ],
+    [
+     [
+      "**Pepsin**",
+      "**الببسين**"
+     ],
+     [
+      "one F(ab')2 (+ Fc peptides)",
+      "قطعة F(ab')2 واحدة (+ ببتيدات Fc)"
+     ]
+    ],
+    [
+     [
+      "**Mercaptoethanol (figure)**",
+      "**المركبتوإيثانول (الشكل)**"
+     ],
+     [
+      "separate H and L chains",
+      "سلاسل ثقيلة وخفيفة منفصلة"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    35,
+    65
+   ],
+   "style": "summary",
+   "label_en": "Digestion products",
+   "label_ar": "نواتج الهضم"
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Papain → 2 Fab + Fc**; **pepsin → F(ab')2**.",
+    "**Fab** binds antigen; **Fc** binds Fc receptors and complement → opsonization, cell lysis, mast cell degranulation, placental transfer."
+   ],
+   "ar": [
+    "**البابين ← 2 Fab + Fc**؛ و**الببسين ← F(ab')2**.",
+    "**Fab** يرتبط بالمستضد؛ و**Fc** يرتبط بمستقبلات Fc والمتمّم ← الطهي، تحلّل الخلية، تحبّب البدينة، العبور المشيمي."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Immunoglobulin Genes and Generation of Diversity",
+   "ar": "جينات الغلوبيولين المناعي وتوليد التنوّع"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Small number of genes** are involved in production of **extreme large number** of immunoglobulins through special genetic mechanisms",
+    "This occurs because the immunoglobulin genes undergo **somatic recombination**, which generates an enormous diversity of antibody specificities.",
+    "For each type of immunoglobulin chain, that is, **kappa light chain (κ), lambda light chain (λ)**, and the **five heavy chains (γH, μH, αH, δH, and εH)**, there is a separate pool of gene segments located on different chromosomes",
+    "In humans the multigene families are found on **λ, chromosome 22; κ, chromosome 2;** and the **heavy chain family, chromosome 14**.",
+    "Each of the three gene loci contains a set of different **V gene segments** that are separated from the **C gene segments**.",
+    "During B-cell differentiation, the DNA is **rearranged** to bring the identified gene segments adjacent to each other in the genome."
+   ],
+   "list_ar": [
+    "يشارك **عدد قليل من الجينات** في إنتاج **عدد هائل** من الغلوبيولينات المناعية من خلال آليات وراثية خاصة",
+    "ويحدث ذلك لأن جينات الغلوبيولين المناعي تمرّ **بإعادة الاتحاد الجسدي**، الذي يولّد تنوّعًا هائلًا في نوعيات الأضداد.",
+    "ولكل نوع من سلاسل الغلوبيولين المناعي، أي **السلسلة الخفيفة كابا (κ) والسلسلة الخفيفة لامدا (λ)** و**السلاسل الثقيلة الخمس (γH وμH وαH وδH وεH)**، مجمع منفصل من القطع الجينية يقع على كروموسومات مختلفة",
+    "وفي الإنسان توجد العائلات متعدّدة الجينات على: **λ الكروموسوم 22؛ وκ الكروموسوم 2؛** و**عائلة السلسلة الثقيلة الكروموسوم 14**.",
+    "ويحتوي كل موقع من المواقع الجينية الثلاثة على مجموعة من **قطع جينات V** المختلفة المنفصلة عن **قطع جينات C**.",
+    "وأثناء تمايز الخلية البائية **يُعاد ترتيب** الـ DNA لجعل القطع الجينية المحدّدة متجاورة في الجينوم."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Chain",
+     "السلسلة"
+    ],
+    [
+     "Chromosome",
+     "الكروموسوم"
+    ],
+    [
+     "Gene segments of V region",
+     "قطع جينات المنطقة V"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**λ light chain**",
+      "**الخفيفة لامدا**"
+     ],
+     [
+      "22",
+      "22"
+     ],
+     [
+      "V + J",
+      "V + J"
+     ]
+    ],
+    [
+     [
+      "**κ light chain**",
+      "**الخفيفة كابا**"
+     ],
+     [
+      "2",
+      "2"
+     ],
+     [
+      "V + J",
+      "V + J"
+     ]
+    ],
+    [
+     [
+      "**Heavy chain family**",
+      "**عائلة الثقيلة**"
+     ],
+     [
+      "14",
+      "14"
+     ],
+     [
+      "V + D + J",
+      "V + D + J"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    34,
+    22,
+    44
+   ],
+   "style": "summary",
+   "label_en": "Ig gene families",
+   "label_ar": "عائلات جينات Ig"
+  },
+  {
+   "t": "h2",
+   "en": "Ig gene rearrangement",
+   "ar": "إعادة ترتيب جينات Ig"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Occurs in **Bone marrow before antigenic exposure**.",
+    "The variable region of each **L chain** is encoded by **two gene segments: V and J**.",
+    "The variable region of each **H chain** is encoded by **three gene segments: V, D, and J**.",
+    "The segments are united into one functional V-variable gene by **DNA rearrangement**.",
+    "Each assembled V-variable gene is then **transcribed** with the appropriate C-constant gene to produce a **messenger RNA (mRNA)** that encodes for the complete peptide chain."
+   ],
+   "list_ar": [
+    "تحدث في **نقي العظم قبل التعرّض للمستضد**.",
+    "تُرمَّز المنطقة المتغيّرة لكل **سلسلة خفيفة** **بقطعتين جينيتين: V وJ**.",
+    "وتُرمَّز المنطقة المتغيّرة لكل **سلسلة ثقيلة** **بثلاث قطع جينية: V وD وJ**.",
+    "وتتّحد القطع في جين V متغيّر وظيفي واحد **بإعادة ترتيب الـ DNA**.",
+    "ثم **يُستنسخ** كل جين V متغيّر مجمَّع مع جين C الثابت المناسب لإنتاج **RNA رسول (mRNA)** يرمّز السلسلة الببتيدية الكاملة."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/light-chain-genes.png",
+   "en": "LIGHT CHAIN GENE FAMILIES — Gene rearrangement and expression",
+   "ar": "عائلات جينات السلسلة الخفيفة — إعادة ترتيب الجينات والتعبير عنها",
+   "h": "50mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**DNA Rearrangement**",
+      "إعادة ترتيب الـ DNA"
+     ],
+     [
+      "**Transcription**",
+      "الاستنساخ"
+     ]
+    ],
+    [
+     [
+      "**RNA Processing**",
+      "معالجة الـ RNA"
+     ],
+     [
+      "**Translation**",
+      "الترجمة"
+     ]
+    ],
+    [
+     [
+      "**Transport to ER**",
+      "النقل إلى الشبكة الإندوبلازمية"
+     ],
+     [
+      "**Primary transcript**",
+      "النسخة الأولية"
+     ]
+    ],
+    [
+     [
+      "**L, V, J, C**",
+      "القائد، المتغيّر، الوصل، الثابت"
+     ],
+     [
+      "**DNA / RNA / Protein**",
+      "DNA / RNA / بروتين"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "L and H chains are synthesized separately on **polysomes** and then assembled in the cytoplasm to form **H2L2 chain units**.",
+    "The **carbohydrate** portion of the Ig molecule is then added during passage through the membrane components of the cell (e.g., **Golgi apparatus**), and the immunoglobulin molecule is released from the cell."
+   ],
+   "list_ar": [
+    "تُصنَّع السلاسل L وH منفصلةً على **متعدّدات الرايبوسوم** ثم تتجمّع في السايتوبلازم لتكوين **وحدات H2L2**.",
+    "ثم يُضاف الجزء **الكربوهيدراتي** لجزيء Ig أثناء المرور عبر المكوّنات الغشائية للخلية (مثل **جهاز غولجي**)، ويُطلق جزيء الغلوبيولين المناعي من الخلية."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/heavy-chain-genes-1.png",
+     "en": "HEAVY CHAIN GENE FAMILY — Gene rearrangements and expression (1)",
+     "ar": "عائلة جينات السلسلة الثقيلة — إعادة الترتيب والتعبير (1)",
+     "h": "40mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/heavy-chain-genes-2.png",
+     "en": "HEAVY CHAIN GENE FAMILY — Gene rearrangements and expression (2)",
+     "ar": "عائلة جينات السلسلة الثقيلة — إعادة الترتيب والتعبير (2)",
+     "h": "40mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**DJ rearrangement**",
+      "إعادة ترتيب DJ"
+     ],
+     [
+      "**VDJ rearrangement**",
+      "إعادة ترتيب VDJ"
+     ]
+    ],
+    [
+     [
+      "**Primary transcript**",
+      "النسخة الأولية"
+     ],
+     [
+      "**RNA Processing**",
+      "معالجة الـ RNA"
+     ]
+    ],
+    [
+     [
+      "**mRNA for Cμ / Cδ**",
+      "mRNA لـ Cμ / Cδ"
+     ],
+     [
+      "**Translation**",
+      "الترجمة"
+     ]
+    ],
+    [
+     [
+      "**Transport to ER**",
+      "النقل إلى الشبكة الإندوبلازمية"
+     ],
+     [
+      "**Cμ heavy chain / Cδ heavy chain**",
+      "السلسلة الثقيلة Cμ / Cδ"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Bone marrow, before antigen",
+     "ar": "نقي العظم، قبل المستضد"
+    },
+    {
+     "en": "DNA rearrangement (L: V–J; H: V–D–J)",
+     "ar": "إعادة ترتيب DNA (الخفيفة: V–J؛ الثقيلة: V–D–J)"
+    },
+    {
+     "en": "Transcription with C gene → mRNA",
+     "ar": "الاستنساخ مع جين C ← mRNA"
+    },
+    {
+     "en": "L and H made on polysomes",
+     "ar": "تصنيع L وH على متعدّدات الرايبوسوم"
+    },
+    {
+     "en": "H2L2 in cytoplasm",
+     "ar": "H2L2 في السايتوبلازم"
+    },
+    {
+     "en": "Carbohydrate added (Golgi) → released",
+     "ar": "إضافة الكربوهيدرات (غولجي) ← الإطلاق"
+    }
+   ],
+   "en": "From gene to antibody",
+   "ar": "من الجين إلى الضد"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Diversity by **somatic recombination**; **λ chr 22, κ chr 2, heavy chr 14**.",
+    "Rearrangement in **bone marrow before antigen**: **L = V + J**, **H = V + D + J**.",
+    "Chains made on **polysomes** → **H2L2** → carbohydrate added in **Golgi** → released."
+   ],
+   "ar": [
+    "التنوّع **بإعادة الاتحاد الجسدي**؛ **λ كروموسوم 22، κ كروموسوم 2، الثقيلة كروموسوم 14**.",
+    "إعادة الترتيب في **نقي العظم قبل المستضد**: **الخفيفة = V + J**، و**الثقيلة = V + D + J**.",
+    "تُصنع السلاسل على **متعدّدات الرايبوسوم** ← **H2L2** ← إضافة الكربوهيدرات في **غولجي** ← الإطلاق."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Ig Classes and Subclasses",
+   "ar": "أصناف Ig وأصنافه الفرعية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "There are **five classes** of immunoglobulin based on the difference in the **aa sequences of the CH**",
+    "All Ig within a given class have a **very similar heavy chain constant region**."
+   ],
+   "list_ar": [
+    "هناك **خمسة أصناف** من الغلوبيولين المناعي على أساس الاختلاف في **تسلسل الأحماض الأمينية للمنطقة الثابتة الثقيلة CH**",
+    "وكل Ig ضمن صنف معيّن لها **منطقة ثابتة للسلسلة الثقيلة متشابهة جدًا**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/ig-classes.png",
+   "en": "The five immunoglobulin classes",
+   "ar": "أصناف الغلوبيولين المناعي الخمسة",
+   "h": "48mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**IgG, IgE, IgD, IgM, IgA**",
+      "الأصناف الخمسة"
+     ],
+     [
+      "**Disulfide bond**",
+      "رابطة ثنائية الكبريت"
+     ]
+    ],
+    [
+     [
+      "**Joining chain**",
+      "سلسلة الوصل (J)"
+     ],
+     [
+      "**Secretory protein**",
+      "البروتين الإفرازي"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Class",
+     "الصنف"
+    ],
+    [
+     "Heavy chain",
+     "السلسلة الثقيلة"
+    ],
+    [
+     "Subclasses",
+     "الأصناف الفرعية"
+    ],
+    [
+     "Light chain",
+     "السلسلة الخفيفة"
+    ],
+    [
+     "Molecular formula",
+     "الصيغة الجزيئية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**IgG**",
+      "**IgG**"
+     ],
+     [
+      "γ",
+      "غاما γ"
+     ],
+     [
+      "γ1, γ2, γ3, γ4",
+      "γ1، γ2، γ3، γ4"
+     ],
+     [
+      "κ or λ",
+      "κ أو λ"
+     ],
+     [
+      "γ2κ2 / γ2λ2",
+      "γ2κ2 / γ2λ2"
+     ]
+    ],
+    [
+     [
+      "**IgM**",
+      "**IgM**"
+     ],
+     [
+      "μ",
+      "ميو μ"
+     ],
+     [
+      "None",
+      "لا يوجد"
+     ],
+     [
+      "κ or λ",
+      "κ أو λ"
+     ],
+     [
+      "(μ2κ2)n / (μ2λ2)n, n = 1 or 5",
+      "(μ2κ2)n / (μ2λ2)n، n = 1 أو 5"
+     ]
+    ],
+    [
+     [
+      "**IgA**",
+      "**IgA**"
+     ],
+     [
+      "α",
+      "ألفا α"
+     ],
+     [
+      "α1, α2",
+      "α1، α2"
+     ],
+     [
+      "κ or λ",
+      "κ أو λ"
+     ],
+     [
+      "(α2κ2)n / (α2λ2)n, n = 1, 2, 3, or 4",
+      "(α2κ2)n / (α2λ2)n، n = 1 أو 2 أو 3 أو 4"
+     ]
+    ],
+    [
+     [
+      "**IgE**",
+      "**IgE**"
+     ],
+     [
+      "ε",
+      "إبسلون ε"
+     ],
+     [
+      "None",
+      "لا يوجد"
+     ],
+     [
+      "κ or λ",
+      "κ أو λ"
+     ],
+     [
+      "ε2κ2 / ε2λ2",
+      "ε2κ2 / ε2λ2"
+     ]
+    ],
+    [
+     [
+      "**IgD**",
+      "**IgD**"
+     ],
+     [
+      "δ",
+      "دلتا δ"
+     ],
+     [
+      "None",
+      "لا يوجد"
+     ],
+     [
+      "κ or λ",
+      "κ أو λ"
+     ],
+     [
+      "δ2κ2 / δ2λ2",
+      "δ2κ2 / δ2λ2"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    12,
+    17,
+    20,
+    15,
+    36
+   ],
+   "label_en": "Chain composition of the five Ig in human",
+   "label_ar": "تركيب السلاسل في أصناف Ig الخمسة في الإنسان",
+   "style": "summary"
+  },
+  {
+   "t": "note",
+   "en": "This table was a picture in the slide (“Chain composition of the five Ig in human”); it is rewritten here as a translated table.",
+   "ar": "هذا الجدول كان صورة في الشريحة (“تركيب السلاسل لأصناف Ig الخمسة في الإنسان”)، وأُعيدت كتابته هنا جدولًا مترجمًا.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "IgG",
+   "ar": "IgG"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**75%** of Ig in serum",
+    "All Igs are **monomers**",
+    "Subclasses differ in the **number of disulfide bonds and length of the hinge region**",
+    "**Most versatile** immunoglobulin because it is capable of carrying out all of the functions of immunoglobulin molecules"
+   ],
+   "list_ar": [
+    "**75%** من Ig في المصل",
+    "كل الـ Igs **أحادية**",
+    "تختلف الأصناف الفرعية في **عدد الروابط ثنائية الكبريت وطول منطقة المفصل**",
+    "**أكثر الغلوبيولينات المناعية تنوّعًا في الوظائف** لأنه قادر على أداء كل وظائف جزيئات الغلوبيولين المناعي"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Placental transfer** (except Ig 2)",
+    "**Fix complement** (Except Ig 4)",
+    "**Binding to cells** e.g. Macrophage, Monocytes and PMNs except (Ig2 & Ig4)"
+   ],
+   "list_ar": [
+    "**العبور عبر المشيمة** (ما عدا Ig 2)",
+    "**تثبيت المتمّم** (ما عدا Ig 4)",
+    "**الارتباط بالخلايا** مثل البلاعم والخلايا الوحيدة والعدلات ما عدا (Ig2 وIg4)"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "“All Igs are monomers” here means **all IgG** are monomers, and “Ig 2 / Ig 4” mean **IgG2 / IgG4**.",
+   "ar": "“All Igs are monomers” هنا يُقصد بها أن **كل IgG** أحادية، و“Ig 2 / Ig 4” تعني **IgG2 / IgG4**.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/igg-subclasses.png",
+   "en": "IgG1, IgG2 and IgG4 vs IgG3 (longer hinge)",
+   "ar": "IgG1 وIgG2 وIgG4 مقابل IgG3 (مفصل أطول)",
+   "h": "30mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Name",
+     "الاسم"
+    ],
+    [
+     "Percentage",
+     "النسبة"
+    ],
+    [
+     "Crosses placenta easily",
+     "يعبر المشيمة بسهولة"
+    ],
+    [
+     "Complement activator",
+     "منشّط المتمّم"
+    ],
+    [
+     "Binds to Fc receptor on phagocytic cells",
+     "يرتبط بمستقبل Fc على البلعميات"
+    ],
+    [
+     "Half life",
+     "عمر النصف"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**IgG1**",
+      "**IgG1**"
+     ],
+     [
+      "66%",
+      "66%"
+     ],
+     [
+      "yes",
+      "نعم"
+     ],
+     [
+      "second-highest",
+      "الثاني"
+     ],
+     [
+      "high affinity",
+      "ألفة عالية"
+     ],
+     [
+      "21 days",
+      "21 يومًا"
+     ]
+    ],
+    [
+     [
+      "**IgG2**",
+      "**IgG2**"
+     ],
+     [
+      "23%",
+      "23%"
+     ],
+     [
+      "no",
+      "لا"
+     ],
+     [
+      "third-highest",
+      "الثالث"
+     ],
+     [
+      "extremely low affinity",
+      "ألفة منخفضة جدًا"
+     ],
+     [
+      "21 days",
+      "21 يومًا"
+     ]
+    ],
+    [
+     [
+      "**IgG3**",
+      "**IgG3**"
+     ],
+     [
+      "7%",
+      "7%"
+     ],
+     [
+      "yes",
+      "نعم"
+     ],
+     [
+      "highest",
+      "الأعلى"
+     ],
+     [
+      "high affinity",
+      "ألفة عالية"
+     ],
+     [
+      "7 days",
+      "7 أيام"
+     ]
+    ],
+    [
+     [
+      "**IgG4**",
+      "**IgG4**"
+     ],
+     [
+      "4%",
+      "4%"
+     ],
+     [
+      "yes",
+      "نعم"
+     ],
+     [
+      "no",
+      "لا"
+     ],
+     [
+      "intermediate affinity",
+      "ألفة متوسّطة"
+     ],
+     [
+      "21 days",
+      "21 يومًا"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    11,
+    13,
+    17,
+    18,
+    25,
+    16
+   ],
+   "style": "summary",
+   "label_en": "IgG subclasses (table in the slide)",
+   "label_ar": "أصناف IgG الفرعية (جدول الشريحة)"
+  },
+  {
+   "t": "h2",
+   "en": "IgM",
+   "ar": "IgM"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Pentamer** 10 epitope binding sites",
+    "**3rd most common** (~13% of the Ab in serum)",
+    "All heavy chains are identical & all light chains are identical",
+    "Has an extra domain on the µ chain (**CH4**) and has another protein covalently bound via a S-S bond called the **J chain**.",
+    "**Good complement fixing**",
+    "IgM antibodies are very efficient in leading to the **lysis of microorganisms**",
+    "**Effective agglutinator**",
+    "IgM antibodies are very good in **clumping microorganisms** for eventual elimination from the body.",
+    "Binds to some cells via Fc receptors"
+   ],
+   "list_ar": [
+    "**خماسي** بعشرة مواقع ارتباط بالحواتم",
+    "**ثالث الأصناف شيوعًا** (نحو 13% من أضداد المصل)",
+    "كل السلاسل الثقيلة متطابقة وكل السلاسل الخفيفة متطابقة",
+    "له مجال إضافي على سلسلة µ (**CH4**)، وبروتين آخر مرتبط تساهميًا برابطة S-S يُسمّى **سلسلة J**.",
+    "**مثبّت جيّد للمتمّم**",
+    "أضداد IgM فعّالة جدًا في إحداث **تحلّل الأحياء المجهرية**",
+    "**ملزّن فعّال**",
+    "أضداد IgM جيّدة جدًا في **تكتيل الأحياء المجهرية** تمهيدًا لإزالتها من الجسم.",
+    "يرتبط ببعض الخلايا عبر مستقبلات Fc"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/igm.png",
+   "en": "IgM pentamer — labels: J Chain; Cμ4",
+   "ar": "IgM الخماسي — الكتابات: J Chain = سلسلة J؛ Cμ4 = المجال الإضافي Cμ4",
+   "h": "40mm",
+   "fit": "contain"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**1st Ig to be made by a naïve B cell** when stimulated by Ag.",
+    "Able to activate the **classical complement pathway**",
+    "**Monomeric forms of IgM** are found on the surface of B-cell receptors B-lymphocytes as the **receptor**.",
+    "Has a **half-life of ~ 5 days**",
+    "**1st Ig to be made by the fetus**",
+    "**Does not cross -placenta**",
+    "Very little in milk"
+   ],
+   "list_ar": [
+    "**أول Ig تصنعه الخلية البائية الساذجة** عند تحفيزها بالمستضد.",
+    "قادر على تنشيط **المسار الكلاسيكي للمتمّم**",
+    "توجد **أشكال IgM الأحادية** على سطح الخلايا اللمفية البائية بوصفها **مستقبلًا** (مستقبل الخلية البائية).",
+    "**عمر النصف نحو 5 أيام**",
+    "**أول Ig يصنعه الجنين**",
+    "**لا يعبر المشيمة**",
+    "قليل جدًا في الحليب"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/bcr.png",
+   "en": "B Cell Antigen Receptor (BcR) — monomeric IgM with Ig-α / Ig-β",
+   "ar": "مستقبل المستضد للخلية البائية (BcR) — IgM أحادي مع Ig-α / Ig-β",
+   "h": "36mm",
+   "fit": "contain"
+  },
+  {
+   "t": "h2",
+   "en": "IgA",
+   "ar": "IgA"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**2nd most abundant** (~ 6% of the serum Abs)",
+    "Serum IgA is a **monomer** but in secretions (**sIgA**) is a **dimer**.",
+    "When IgA exits as a dimer a **J- chain** is associated with it.",
+    "In secretions is associated with a protein called **T piece (secretory piece)**",
+    "Transport across mucosa & protection vs degradation",
+    "Protects from **degradation by digestive enzymes** in the secretions.",
+    "sIgA is common in epithelium→ **local(mucosal) immunity**"
+   ],
+   "list_ar": [
+    "**ثاني الأصناف وفرةً** (نحو 6% من أضداد المصل)",
+    "IgA في المصل **أحادي**، لكنه في الإفرازات (**sIgA**) **ثنائي**.",
+    "وعندما يوجد IgA ثنائيًا ترتبط به **سلسلة J**.",
+    "وفي الإفرازات يرتبط ببروتين يُسمّى **القطعة T (القطعة الإفرازية)**",
+    "النقل عبر الغشاء المخاطي والحماية من التحطّم",
+    "تحميه من **التحطّم بإنزيمات الهضم** في الإفرازات.",
+    "الـ sIgA شائع في الظهارة ← **المناعة الموضعية (المخاطية)**"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "The lecture gives **IgM ~13% (3rd)** and **IgA ~6% (2nd)** — the numbers and the order do not match; most textbooks give IgA about **10–15%** (2nd) and IgM about **5–10%** (3rd).",
+    "“exits as a dimer” means **exists** as a dimer."
+   ],
+   "ar": [
+    "المحاضرة تذكر **IgM نحو 13% (الثالث)** و**IgA نحو 6% (الثاني)** — الأرقام والترتيب غير متطابقين؛ ومعظم المراجع تذكر IgA نحو **10–15%** (الثاني) وIgM نحو **5–10%** (الثالث).",
+    "و“exits as a dimer” يُقصد بها **exists** أي يوجد ثنائيًا."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/iga.png",
+   "en": "Secretory IgA dimer — labels: Secretory Piece; J Chain",
+   "ar": "IgA الإفرازي الثنائي — الكتابات: Secretory Piece = القطعة الإفرازية؛ J Chain = سلسلة J",
+   "h": "28mm",
+   "fit": "contain"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Can activate the **alternative complement pathway**",
+    "Normally IgA **does not fix complement, unless aggregated**",
+    "**Major Ig in secretions** i.e. tears, mucus- local immunity, saliva, colostrum.",
+    "Can bind to some cells - PMN's and some lymphocytes",
+    "Half-life of ~ 5 days",
+    "Protects internal organs surfaces exposed to environment by **blocking the attachment of the bacteria &viruses to mucus membrane**."
+   ],
+   "list_ar": [
+    "يمكنه تنشيط **المسار البديل للمتمّم**",
+    "عادةً **لا يثبّت IgA المتمّم إلا إذا تجمّع**",
+    "**الـ Ig الرئيسي في الإفرازات**، أي الدموع والمخاط (المناعة الموضعية) واللعاب واللبأ.",
+    "يمكنه الارتباط ببعض الخلايا - العدلات وبعض اللمفيات",
+    "عمر النصف نحو 5 أيام",
+    "يحمي أسطح الأعضاء الداخلية المعرّضة للبيئة **بمنع التصاق البكتيريا والفيروسات بالغشاء المخاطي**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "IgD",
+   "ar": "IgD"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Monomer** has 2 epitope-binding sites",
+    "**Low levels in serum( about 1%)**",
+    "**Does not fix complement**",
+    "Primarily found on **B cell surfaces**",
+    "Function as a **receptor for antigen**.",
+    "IgD on the surface of B cells has **extra amino acids**",
+    "Its role in serum is **uncertain**."
+   ],
+   "list_ar": [
+    "**أحادي** بموقعَي ارتباط بالحواتم",
+    "**مستويات منخفضة في المصل (نحو 1%)**",
+    "**لا يثبّت المتمّم**",
+    "يوجد بصورة رئيسية **على أسطح الخلايا البائية**",
+    "يعمل **مستقبلًا للمستضد**.",
+    "IgD على سطح الخلايا البائية فيه **أحماض أمينية إضافية**",
+    "ودوره في المصل **غير مؤكّد**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/igd.png",
+   "en": "IgD monomer — label: Tail Piece",
+   "ar": "IgD الأحادي — الكتابة: Tail Piece = القطعة الذيلية",
+   "h": "24mm",
+   "fit": "contain"
+  },
+  {
+   "t": "h2",
+   "en": "IgE",
+   "ar": "IgE"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Exists as a **monomer** and has an extra domain in constant region (**CH4**)",
+    "**Least common** serum Ig",
+    "It **binds tightly to the Fc receptors of basophils & mast cells** even before interacting with the Ag.",
+    "Involved in **allergic reactions**",
+    "Binding of the allergen to the IgE on cells →The release of the **pharmacological mediators** →allergic symptoms.",
+    "**Cross linking** of the cell-bound IgE triggers the release of the **vasodilators** for the inflammatory response.",
+    "Plays a role in **parasitic helminth diseases**.",
+    "Serum IgE levels **rise in parasitic diseases**, measuring IgE levels is helpful in diagnosing parasitic infections.",
+    "**Eosinophils** have Fc receptors for IgE and binding of eosinophils to IgE-coated helminths enables opsonization results in **killing of the parasite**.",
+    "May protect external mucosal surfaces by **promoting inflammation**, enabling IgG, complement proteins &leucocytes to enter the tissues .",
+    "**IgE does not fix complement.**"
+   ],
+   "list_ar": [
+    "يوجد **أحاديًا** وله مجال إضافي في المنطقة الثابتة (**CH4**)",
+    "**أقل** أصناف Ig شيوعًا في المصل",
+    "**يرتبط بقوّة بمستقبلات Fc على الخلايا القاعدية والبدينة** حتى قبل تفاعله مع المستضد.",
+    "يشارك في **تفاعلات الحساسية**",
+    "ارتباط مسبّب الحساسية بالـ IgE على الخلايا ← تحرير **الوسائط الدوائية** ← أعراض الحساسية.",
+    "**الربط التصالبي** للـ IgE المرتبط بالخلايا يحفّز تحرير **موسّعات الأوعية** للاستجابة الالتهابية.",
+    "له دور في **أمراض الديدان الطفيلية**.",
+    "تزداد مستويات IgE في المصل **في الأمراض الطفيلية**، وقياسها مفيد في تشخيص الإصابات الطفيلية.",
+    "لدى **الحمضات** مستقبلات Fc للـ IgE، وارتباطها بالديدان المغطّاة بالـ IgE يتيح الطهي ويؤدّي إلى **قتل الطفيلي**.",
+    "قد يحمي الأسطح المخاطية الخارجية **بتعزيز الالتهاب**، فيسمح للـ IgG وبروتينات المتمّم والكريات البيض بدخول الأنسجة.",
+    "**لا يثبّت IgE المتمّم.**"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/ige.png",
+   "en": "IgE monomer — label: Cε4",
+   "ar": "IgE الأحادي — الكتابة: Cε4 = المجال الإضافي Cε4",
+   "h": "24mm",
+   "fit": "contain"
+  },
+  {
+   "t": "figure",
+   "src": "assets/ige-mediators.png",
+   "en": "Immune mediators — IgE internalization and mast cell degranulation",
+   "ar": "الوسائط المناعية — إدخال IgE وتحبّب الخلية البدينة",
+   "h": "48mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**a Internalization**",
+      "أ — الإدخال"
+     ],
+     [
+      "**b Degranulation and release**",
+      "ب — التحبّب والإطلاق"
+     ]
+    ],
+    [
+     [
+      "**Allergen**",
+      "مسبّب الحساسية"
+     ],
+     [
+      "**IgE**",
+      "IgE"
+     ]
+    ],
+    [
+     [
+      "**FcεRI / FcεRII**",
+      "مستقبلات Fcε من النوع I / II"
+     ],
+     [
+      "**APC**",
+      "الخلية المقدّمة للمستضد"
+     ]
+    ],
+    [
+     [
+      "**MHC class II**",
+      "MHC من الصنف الثاني"
+     ],
+     [
+      "**Mast cell**",
+      "الخلية البدينة"
+     ]
+    ],
+    [
+     [
+      "**Prostaglandins**",
+      "البروستاغلاندينات"
+     ],
+     [
+      "**Leukotrienes**",
+      "اللوكوترينات"
+     ]
+    ],
+    [
+     [
+      "**Cytokines**",
+      "السايتوكينات"
+     ],
+     [
+      "**Histamine**",
+      "الهستامين"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Class",
+     "الصنف"
+    ],
+    [
+     "Form",
+     "الشكل"
+    ],
+    [
+     "Serum %",
+     "النسبة في المصل"
+    ],
+    [
+     "Key points",
+     "أهم النقاط"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**IgG**",
+      "**IgG**"
+     ],
+     [
+      "monomer",
+      "أحادي"
+     ],
+     [
+      "75%",
+      "75%"
+     ],
+     [
+      "most versatile; crosses placenta (not IgG2); fixes complement (not IgG4)",
+      "الأكثر تنوّعًا؛ يعبر المشيمة (عدا IgG2)؛ يثبّت المتمّم (عدا IgG4)"
+     ]
+    ],
+    [
+     [
+      "**IgM**",
+      "**IgM**"
+     ],
+     [
+      "pentamer (J chain, CH4); monomer on B cells",
+      "خماسي (سلسلة J، CH4)؛ أحادي على الخلايا البائية"
+     ],
+     [
+      "~13%",
+      "نحو 13%"
+     ],
+     [
+      "first made; best agglutinator; classical complement; no placenta; t½ ~5 d",
+      "الأول صنعًا؛ أفضل ملزّن؛ المتمّم الكلاسيكي؛ لا يعبر المشيمة؛ عمر النصف نحو 5 أيام"
+     ]
+    ],
+    [
+     [
+      "**IgA**",
+      "**IgA**"
+     ],
+     [
+      "monomer (serum), dimer (sIgA, J chain + secretory piece)",
+      "أحادي (المصل)، ثنائي (sIgA، سلسلة J + قطعة إفرازية)"
+     ],
+     [
+      "~6%",
+      "نحو 6%"
+     ],
+     [
+      "secretions (tears, saliva, colostrum); mucosal immunity; alternative complement",
+      "الإفرازات (الدموع، اللعاب، اللبأ)؛ المناعة المخاطية؛ المتمّم البديل"
+     ]
+    ],
+    [
+     [
+      "**IgD**",
+      "**IgD**"
+     ],
+     [
+      "monomer",
+      "أحادي"
+     ],
+     [
+      "~1%",
+      "نحو 1%"
+     ],
+     [
+      "B cell antigen receptor; no complement",
+      "مستقبل المستضد على الخلية البائية؛ لا يثبّت المتمّم"
+     ]
+    ],
+    [
+     [
+      "**IgE**",
+      "**IgE**"
+     ],
+     [
+      "monomer (CH4)",
+      "أحادي (CH4)"
+     ],
+     [
+      "least",
+      "الأقل"
+     ],
+     [
+      "mast cells/basophils; allergy; helminths; no complement",
+      "البدينة/القاعدية؛ الحساسية؛ الديدان؛ لا يثبّت المتمّم"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    10,
+    30,
+    13,
+    47
+   ],
+   "style": "summary",
+   "label_en": "The five classes at a glance",
+   "label_ar": "الأصناف الخمسة بنظرة"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Five classes by **CH**: IgG, IgM, IgA, IgD, IgE (γ, μ, α, δ, ε); light chain **κ or λ**.",
+    "IgG = **75%**, placenta, 4 subclasses; IgM = **pentamer**, first made, agglutinator; IgA = **sIgA dimer** in secretions.",
+    "IgD = **B cell receptor**; IgE = **allergy + helminths**, binds mast cells; IgD and IgE do **not fix complement**."
+   ],
+   "ar": [
+    "خمسة أصناف حسب **CH**: IgG وIgM وIgA وIgD وIgE (γ، μ، α، δ، ε)؛ والخفيفة **κ أو λ**.",
+    "IgG = **75%**، يعبر المشيمة، 4 أصناف فرعية؛ IgM = **خماسي**، الأول صنعًا، ملزّن؛ IgA = **sIgA ثنائي** في الإفرازات.",
+    "IgD = **مستقبل الخلية البائية**؛ IgE = **الحساسية + الديدان**، يرتبط بالبدينة؛ وIgD وIgE **لا يثبّتان المتمّم**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Antigenic determinant of Antibodies",
+   "ar": "المحدّدات المستضدية للأضداد"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Ab can themselves act as **immunogen** and induce antibody formation against them called **ant Ig antibodies**.",
+    "Whole Ig is not immunogenic to the host system which produces antibodies to them rather **small regions** on Ig molecule act as immunogen"
+   ],
+   "list_ar": [
+    "يمكن للأضداد نفسها أن تعمل **مستمنِعات** وتحفّز تكوين أضداد ضدها تُسمّى **الأضداد المضادة للـ Ig**.",
+    "والـ Ig الكامل ليس مستمنِعًا للجهاز المضيف الذي ينتج أضدادًا ضده، بل **مناطق صغيرة** على جزيء Ig هي التي تعمل مستمنِعًا"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "These regions are called **antigenic determinants**, based on their location are classified as",
+   "ar": "تُسمّى هذه المناطق **المحدّدات المستضدية**، وتُصنَّف حسب موقعها إلى",
+   "list_en": [
+    "**Isotypes**",
+    "**Allotypes**",
+    "**Idiotypes**"
+   ],
+   "list_ar": [
+    "**الأنماط المتماثلة (Isotypes)**",
+    "**الأنماط الأليلية (Allotypes)**",
+    "**الأنماط الذاتية (Idiotypes)**"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "“ant Ig antibodies” means **anti-Ig antibodies**.",
+   "ar": "“ant Ig antibodies” يُقصد بها **anti-Ig antibodies** أي الأضداد المضادة للغلوبيولين المناعي.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Isotypes",
+   "ar": "الأنماط المتماثلة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "It is antigenic determinant that characterizes **classes and subclasses of heavy chain** and type ad subtypes of light chain.",
+    "Formed by unique sequences of aa located in the **constant region** of H and L chain",
+    "Different isotypes differ from each other in their constant region and hence classes and subclasses of Igs are isotype of one another",
+    "Isotypes are **present in all the normal member of the same species** and some members with immunodeficiency may lack isotypes."
+   ],
+   "list_ar": [
+    "محدّد مستضدي يميّز **أصناف السلسلة الثقيلة وأصنافها الفرعية** وأنواع السلسلة الخفيفة وأنواعها الفرعية.",
+    "يتكوّن من تسلسلات أحماض أمينية فريدة تقع في **المنطقة الثابتة** للسلسلتين H وL",
+    "وتختلف الأنماط المتماثلة عن بعضها في منطقتها الثابتة، ولذلك فأصناف الـ Igs وأصنافها الفرعية أنماط متماثلة لبعضها",
+    "والأنماط المتماثلة **موجودة في كل الأفراد الطبيعيين من النوع نفسه**، وقد يفتقر إليها بعض الأفراد المصابين بنقص المناعة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Importance**",
+   "ar": "**الأهمية**",
+   "list_en": [
+    "Quantifying Ig classes and subclasses in various diseases(anti-Isotypes)",
+    "Characterization of **B cell leukemia**",
+    "Diagnosis of various **immunodeficiency diseases**"
+   ],
+   "list_ar": [
+    "قياس كمّيات أصناف Ig وأصنافها الفرعية في أمراض مختلفة (أضداد الأنماط المتماثلة)",
+    "توصيف **ابيضاض الخلايا البائية**",
+    "تشخيص **أمراض نقص المناعة** المختلفة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "“type ad subtypes” means **type and subtypes**.",
+   "ar": "“type ad subtypes” يُقصد بها **type and subtypes** أي الأنواع والأنواع الفرعية.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/isotypes.png",
+   "en": "Isotypes — different heavy chains (γ1 vs μ) with the same light chain (κ)",
+   "ar": "الأنماط المتماثلة — سلاسل ثقيلة مختلفة (γ1 مقابل μ) مع السلسلة الخفيفة نفسها (κ)",
+   "h": "32mm",
+   "fit": "contain"
+  },
+  {
+   "t": "h2",
+   "en": "Immunoglobulin Class switching",
+   "ar": "تبديل صنف الغلوبيولين المناعي"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Characteristic feature of humoral that changes B cell production of Ab from **one class of Ig to another** after 1st Ag exposure e.g. **IgM to IgG**",
+    "The **constant region** of the Ab heavy chain **changes** but **variable region** of the heavy chain **remains the same**",
+    "Isotype switching occurs inactivated B cells and regulated by **Th cells** through physical contact with activated B cells and **Cytokines (IL-4,IL-5, IFN-γ,and TGF-β)**"
+   ],
+   "list_ar": [
+    "سمة مميّزة للمناعة الخلطية تغيّر إنتاج الخلية البائية للأضداد **من صنف Ig إلى آخر** بعد التعرّض الأول للمستضد، مثل **من IgM إلى IgG**",
+    "**تتغيّر المنطقة الثابتة** للسلسلة الثقيلة للضد، لكن **المنطقة المتغيّرة** للسلسلة الثقيلة **تبقى نفسها**",
+    "يحدث تبديل النمط في الخلايا البائية المنشّطة، وتنظّمه **الخلايا التائية المساعدة** بالتماس المباشر مع الخلايا البائية المنشّطة و**السايتوكينات (IL-4 وIL-5 وIFN-γ وTGF-β)**"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Does not affect ag specificity**",
+    "**Retains affinity for the same Ags**"
+   ],
+   "list_ar": [
+    "**لا يؤثّر في نوعية المستضد**",
+    "**يحتفظ بالألفة للمستضدات نفسها**"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Class switching occurs by a mechanism called **class switching recombination (CSR)** binding.",
+    "Gene rearrangement generates antibodies of the **same antigenic specificity** but of **different immunoglobulin classes**"
+   ],
+   "list_ar": [
+    "ويحدث تبديل الصنف بآلية تُسمّى **إعادة اتحاد تبديل الصنف (CSR)**.",
+    "وتولّد إعادة الترتيب الجيني أضدادًا **بالنوعية المستضدية نفسها** لكن **من أصناف غلوبيولين مناعي مختلفة**"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "“occurs inactivated B cells” means occurs **in activated** B cells.",
+   "ar": "“occurs inactivated B cells” يُقصد بها يحدث **في الخلايا البائية المنشّطة** (in activated).",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Allotypes",
+   "ar": "الأنماط الأليلية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Are the antigenic determinants specified by **allelic forms of the Ig genes** located in the constant region of the heavy and light chain",
+    "Represents structural difference in the constant region and **not found in all members of the species** (genetic difference)",
+    "Injection of any specific human allotype into another human could generate Abs directed against the structural feature that define that particular allotype variation."
+   ],
+   "list_ar": [
+    "محدّدات مستضدية تحدّدها **الأشكال الأليلية لجينات Ig** الواقعة في المنطقة الثابتة للسلسلتين الثقيلة والخفيفة",
+    "تمثّل اختلافًا تركيبيًا في المنطقة الثابتة، و**لا توجد في كل أفراد النوع** (اختلاف وراثي)",
+    "وحقن أي نمط أليلي بشري معيّن في إنسان آخر قد يولّد أضدادًا موجّهة ضد الصفة التركيبية التي تحدّد ذلك الاختلاف الأليلي."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Importance**",
+   "ar": "**الأهمية**",
+   "list_en": [
+    "Monitoring of the **bone marrow grafts**",
+    "**Forensic medicine**",
+    "**Paternity testing**"
+   ],
+   "list_ar": [
+    "متابعة **زرع نقي العظم**",
+    "**الطب العدلي**",
+    "**فحص الأبوّة**"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/allotypes.png",
+   "en": "Allotypes — same class (γ1κ) with small allelic differences",
+   "ar": "الأنماط الأليلية — الصنف نفسه (γ1κ) مع اختلافات أليلية صغيرة",
+   "h": "32mm",
+   "fit": "contain"
+  },
+  {
+   "t": "h2",
+   "en": "Idiotypes",
+   "ar": "الأنماط الذاتية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Antigenic determinant created by **hypervariable regions** of the Ig",
+    "Located on **Fab fragment** (near HVR of heavy and light chain)"
+   ],
+   "list_ar": [
+    "محدّد مستضدي تكوّنه **المناطق فائقة التغيّر** في الـ Ig",
+    "يقع على **قطعة Fab** (قرب المناطق فائقة التغيّر للسلسلتين الثقيلة والخفيفة)"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Importance**",
+   "ar": "**الأهمية**",
+   "list_en": [
+    "**Regulation of immune response**",
+    "**Vaccines**(by use of anti-idiotype Ab that stimulate B cells to release Ab used as vaccine)",
+    "**Treatment of B cell tumors** (Use of Ab directed to idiotype on malignant B cell)"
+   ],
+   "list_ar": [
+    "**تنظيم الاستجابة المناعية**",
+    "**اللقاحات** (باستعمال أضداد مضادة للنمط الذاتي تحفّز الخلايا البائية على إطلاق أضداد تُستعمل لقاحًا)",
+    "**علاج أورام الخلايا البائية** (باستعمال أضداد موجّهة ضد النمط الذاتي على الخلية البائية الخبيثة)"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/idiotypes.png",
+   "en": "Idiotypes — in the variable (antigen-binding) region",
+   "ar": "الأنماط الذاتية — في المنطقة المتغيّرة (الرابطة للمستضد)",
+   "h": "34mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Idiotopes**",
+      "الحواتم الذاتية (Idiotopes)"
+     ],
+     [
+      "**γ1 / κ**",
+      "γ1 / κ"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "Isotypes",
+     "الأنماط المتماثلة"
+    ],
+    [
+     "Allotypes",
+     "الأنماط الأليلية"
+    ],
+    [
+     "Idiotypes",
+     "الأنماط الذاتية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Location**",
+      "**الموقع**"
+     ],
+     [
+      "constant region of H and L",
+      "المنطقة الثابتة لـ H وL"
+     ],
+     [
+      "constant region of H and L (allelic forms)",
+      "المنطقة الثابتة لـ H وL (أشكال أليلية)"
+     ],
+     [
+      "hypervariable regions on Fab",
+      "المناطق فائقة التغيّر على Fab"
+     ]
+    ],
+    [
+     [
+      "**In the species**",
+      "**في النوع**"
+     ],
+     [
+      "all normal members",
+      "كل الأفراد الطبيعيين"
+     ],
+     [
+      "not all members (genetic difference)",
+      "ليس كل الأفراد (اختلاف وراثي)"
+     ],
+     [
+      "specific to each antibody",
+      "خاصّ بكل ضد"
+     ]
+    ],
+    [
+     [
+      "**Importance**",
+      "**الأهمية**"
+     ],
+     [
+      "Ig classes, B cell leukemia, immunodeficiency",
+      "أصناف Ig، ابيضاض البائية، نقص المناعة"
+     ],
+     [
+      "bone marrow grafts, forensic, paternity",
+      "زرع النقي، الطب العدلي، الأبوّة"
+     ],
+     [
+      "immune regulation, vaccines, B cell tumors",
+      "تنظيم المناعة، اللقاحات، أورام البائية"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    16,
+    28,
+    28,
+    28
+   ],
+   "style": "summary",
+   "label_en": "Iso-, allo-, idiotypes",
+   "label_ar": "الأنماط الثلاثة"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Anti-Ig antibodies target small regions = **antigenic determinants**: iso-, allo-, idiotypes.",
+    "**Isotype** = class (constant region, all members); **allotype** = allelic (constant, not all); **idiotype** = **hypervariable / Fab**.",
+    "Class switching (IgM → IgG): **constant changes, variable same**; Th + IL-4, IL-5, IFN-γ, TGF-β; by **CSR**."
+   ],
+   "ar": [
+    "الأضداد المضادة للـ Ig تستهدف مناطق صغيرة = **المحدّدات المستضدية**: المتماثلة والأليلية والذاتية.",
+    "**المتماثل** = الصنف (منطقة ثابتة، كل الأفراد)؛ **الأليلي** = أليلي (ثابتة، ليس الكل)؛ **الذاتي** = **فائق التغيّر / Fab**.",
+    "تبديل الصنف (IgM ← IgG): **الثابتة تتغيّر والمتغيّرة نفسها**؛ التائية المساعدة + IL-4 وIL-5 وIFN-γ وTGF-β؛ عبر **CSR**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Ab response to T-dependent Ag",
+   "ar": "الاستجابة الضدية للمستضد المعتمد على التائية"
+  },
+  {
+   "t": "card",
+   "en": "The serum antibody concentration continues to **rise for several weeks** and then **declines**; the antibody level may drop to very low levels.",
+   "ar": "يستمرّ تركيز الأضداد في المصل **بالارتفاع عدّة أسابيع** ثم **ينخفض**؛ وقد يهبط مستوى الأضداد إلى مستويات منخفضة جدًا."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**1° Abs produced are IgM**",
+    "Then, **IgG, IgA**, or both Ig are made.",
+    "**IgM levels tend to decline sooner** than IgG levels."
+   ],
+   "list_ar": [
+    "**الأضداد الأولية المنتجة هي IgM**",
+    "ثم يُصنع **IgG أو IgA** أو كلاهما.",
+    "و**تميل مستويات IgM إلى الانخفاض أبكر** من مستويات IgG."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/primary-response.png",
+   "en": "1° ab response",
+   "ar": "الاستجابة الضدية الأولية",
+   "h": "50mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**LAG-antigen recognition**",
+      "طور التأخّر — التعرّف على المستضد"
+     ],
+     [
+      "**LOG-↑ab conc**",
+      "الطور اللوغاريتمي — ارتفاع تركيز الأضداد"
+     ]
+    ],
+    [
+     [
+      "**PLATEAU-balance in ab synthesis**",
+      "طور الاستقرار — توازن في تصنيع الأضداد"
+     ],
+     [
+      "**DECLINE-Rate of ab degradation exceed synthesis**",
+      "طور الانخفاض — معدّل تحطّم الأضداد يفوق تصنيعها"
+     ]
+    ],
+    [
+     [
+      "**Ab Titer**",
+      "عيار الأضداد"
+     ],
+     [
+      "**Days After Immunization**",
+      "الأيام بعد التمنيع"
+     ]
+    ],
+    [
+     [
+      "**Ag**",
+      "المستضد"
+     ],
+     [
+      "",
+      ""
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "card",
+   "en": "**Second encounter** with the same antigen months or years after the primary response, **2° Ab response is more rapid and generates higher levels** than during the 1° response.",
+   "ar": "عند **المواجهة الثانية** مع المستضد نفسه بعد أشهر أو سنوات من الاستجابة الأولية، تكون **الاستجابة الضدية الثانوية أسرع وتولّد مستويات أعلى** من الاستجابة الأولية."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Amount of **IgM** produced is **qualitatively similar** to first contact with the Ag",
+    "**More IgG** is produced,",
+    "Levels of IgG tends to **persist much longer** than that produced in the primary response."
+   ],
+   "list_ar": [
+    "كمية **IgM** المنتجة **مشابهة نوعيًا** للتماس الأول مع المستضد",
+    "يُنتج **IgG أكثر**،",
+    "وتميل مستويات IgG إلى **البقاء مدّة أطول بكثير** مما في الاستجابة الأولية."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/secondary-response.png",
+   "en": "2° ab response",
+   "ar": "الاستجابة الضدية الثانوية",
+   "h": "50mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**LAG phase is shorter**",
+      "طور التأخّر أقصر"
+     ],
+     [
+      "**LOG phase is higher**",
+      "الطور اللوغاريتمي أعلى"
+     ]
+    ],
+    [
+     [
+      "**Steady state**",
+      "حالة الثبات"
+     ],
+     [
+      "**Decline phase-not rapid**",
+      "طور الانخفاض ليس سريعًا"
+     ]
+    ],
+    [
+     [
+      "**1° Ag / 2° Ag**",
+      "المستضد الأول / الثاني"
+     ],
+     [
+      "**Ab Titer / Days After Immunization**",
+      "عيار الأضداد / الأيام بعد التمنيع"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "1° response",
+     "الاستجابة الأولية"
+    ],
+    [
+     "2° response",
+     "الاستجابة الثانوية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Lag phase**",
+      "**طور التأخّر**"
+     ],
+     [
+      "longer (antigen recognition)",
+      "أطول (التعرّف على المستضد)"
+     ],
+     [
+      "shorter",
+      "أقصر"
+     ]
+    ],
+    [
+     [
+      "**Antibody level**",
+      "**مستوى الأضداد**"
+     ],
+     [
+      "lower",
+      "أقل"
+     ],
+     [
+      "higher, more rapid",
+      "أعلى وأسرع"
+     ]
+    ],
+    [
+     [
+      "**Main antibody**",
+      "**الضد الرئيسي**"
+     ],
+     [
+      "IgM first, then IgG / IgA",
+      "IgM أولًا ثم IgG / IgA"
+     ],
+     [
+      "IgM similar; more IgG",
+      "IgM مشابه؛ IgG أكثر"
+     ]
+    ],
+    [
+     [
+      "**Decline**",
+      "**الانخفاض**"
+     ],
+     [
+      "rate of degradation exceeds synthesis",
+      "التحطّم يفوق التصنيع"
+     ],
+     [
+      "not rapid — IgG persists much longer",
+      "ليس سريعًا — IgG يبقى أطول بكثير"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    39,
+    39
+   ],
+   "style": "summary",
+   "label_en": "1° vs 2° response",
+   "label_ar": "الأولية مقابل الثانوية"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Primary: lag → log → plateau → decline; **IgM first**, then IgG/IgA.",
+    "Secondary: **shorter lag, higher and faster**, more **IgG** that persists longer."
+   ],
+   "ar": [
+    "الأولية: تأخّر ← لوغاريتمي ← استقرار ← انخفاض؛ **IgM أولًا** ثم IgG/IgA.",
+    "الثانوية: **تأخّر أقصر، أعلى وأسرع**، و**IgG** أكثر يبقى أطول."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Protective function of Ig",
+   "ar": "الوظيفة الوقائية للـ Ig"
+  },
+  {
+   "t": "figure",
+   "src": "assets/protective-1.png",
+   "en": "Binding of antibodies to antigens to form antigen–antibody complexes inactivates antigens",
+   "ar": "ارتباط الأضداد بالمستضدات لتكوين معقّدات المستضد-الضد يعطّل المستضدات",
+   "h": "80mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**NEUTRALIZATION (blocks viral binding sites; coats bacterial toxins)**",
+      "المعادلة (تحجب مواقع ارتباط الفيروس؛ تغلّف ذيفانات البكتيريا)"
+     ],
+     [
+      "**AGGLUTINATION OF PARTICULATE ANTIGENS**",
+      "تلازن المستضدات الدقائقية"
+     ]
+    ],
+    [
+     [
+      "**PRECIPITATION OF SOLUBLE ANTIGENS**",
+      "ترسيب المستضدات الذائبة"
+     ],
+     [
+      "**ACTIVATION OF COMPLEMENT**",
+      "تنشيط المتمّم"
+     ]
+    ],
+    [
+     [
+      "**Enhances**",
+      "يعزّز"
+     ],
+     [
+      "**Leads to**",
+      "يؤدّي إلى"
+     ]
+    ],
+    [
+     [
+      "**PHAGOCYTOSIS**",
+      "البلعمة"
+     ],
+     [
+      "**IMFLAMMATION**",
+      "الالتهاب"
+     ]
+    ],
+    [
+     [
+      "**CELL LYSIS**",
+      "تحلّل الخلية"
+     ],
+     [
+      "**Virus / Toxin / Bacteria / Soluble antigens**",
+      "فيروس / ذيفان / بكتيريا / مستضدات ذائبة"
+     ]
+    ],
+    [
+     [
+      "**Complement / Bacterial cell**",
+      "المتمّم / خلية بكتيرية"
+     ],
+     [
+      "**Macrophage / Blood vessel / Infecting cell / Lesion**",
+      "بلعم / وعاء دموي / خلية مُعدية / آفة"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "figure",
+   "src": "assets/protective-2.png",
+   "en": "Antibodies act as adapter molecules for immune effector systems",
+   "ar": "الأضداد تعمل جزيئات وسيطة لأنظمة المناعة المستجيبة",
+   "h": "66mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**1 immune complex → C1q → complement classical pathway**",
+      "1 معقّد مناعي ← C1q ← المسار الكلاسيكي للمتمّم"
+     ],
+     [
+      "**2 immune complex/pathogen → FcR → opsonization phagocytosis**",
+      "2 معقّد مناعي/ممرض ← FcR ← الطهي والبلعمة"
+     ]
+    ],
+    [
+     [
+      "**3 target cell/pathogen → FcR → recognition killing**",
+      "3 خلية هدف/ممرض ← FcR ← التعرّف والقتل"
+     ],
+     [
+      "**4 antigen → FcR → sensitization cell activation**",
+      "4 مستضد ← FcR ← التحسيس وتنشيط الخلية"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Fig. 3.2** Antibodies act as adapter molecules for different immune effector systems, linking antigens to receptor molecules (C1q and FcR) of the immune system.",
+    "(1) Immune complexes can activate the complement classical pathway.",
+    "(2) Antibodies bound to the surface of pathogens opsonize them for phagocytosis.",
+    "(3) Antibodies bound to cells can promote their recognition and killing by NK cells.",
+    "(Similarly recognition of some parasitic worms by eosinophils, mediated by antibodies, targets them for killing.)",
+    "(4) Antibody bound to Fc receptors sensitizes cells so that they can recognize antigen, and the cell becomes activated if antigen binds to the surface antibody."
+   ],
+   "ar": [
+    "**الشكل 3.2** تعمل الأضداد جزيئات وسيطة لأنظمة مناعية مستجيبة مختلفة، فتربط المستضدات بالجزيئات المستقبِلة (C1q وFcR) للجهاز المناعي.",
+    "(1) يمكن للمعقّدات المناعية تنشيط المسار الكلاسيكي للمتمّم.",
+    "(2) الأضداد المرتبطة بسطح الممرضات تطهوها للبلعمة.",
+    "(3) الأضداد المرتبطة بالخلايا يمكن أن تعزّز تعرّف الخلايا القاتلة الطبيعية (NK) عليها وقتلها.",
+    "(وبالمثل فإن تعرّف الحمضات على بعض الديدان الطفيلية، بوساطة الأضداد، يستهدفها للقتل.)",
+    "(4) الضد المرتبط بمستقبلات Fc يحسّس الخلايا فتستطيع التعرّف على المستضد، وتنشط الخلية إذا ارتبط المستضد بالضد السطحي."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "The text of Fig. 3.2 is written inside the picture in the slide; it is copied here so it can be translated sentence by sentence.",
+    "“IMFLAMMATION” in the picture means **INFLAMMATION**."
+   ],
+   "ar": [
+    "نص الشكل 3.2 مكتوب داخل الصورة في الشريحة، ونُقل هنا حتى يُترجم جملة جملة.",
+    "و“IMFLAMMATION” في الصورة تعني **INFLAMMATION** أي الالتهاب."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Ag–Ab complexes inactivate antigens by **neutralization, agglutination, precipitation, complement activation**.",
+    "These lead to **phagocytosis, inflammation, cell lysis**; antibodies link antigen to **C1q and FcR**."
+   ],
+   "ar": [
+    "تعطّل معقّدات المستضد-الضد المستضدات **بالمعادلة والتلازن والترسيب وتنشيط المتمّم**.",
+    "وتؤدّي إلى **البلعمة والالتهاب وتحلّل الخلية**؛ وتربط الأضداد المستضد بـ **C1q وFcR**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Immunoglobulin (Ig)**",
+     "الغلوبيولين المناعي / الضد / الجسم المضاد"
+    ],
+    [
+     "**Glycoprotein**",
+     "بروتين سكري / غلايكوبروتين"
+    ],
+    [
+     "**Plasma cell**",
+     "خلية البلازما / الخلية البلازمية"
+    ],
+    [
+     "**Immunogen**",
+     "المستمنِع / مولّد المناعة"
+    ],
+    [
+     "**T-independent antigen**",
+     "مستضد مستقلّ عن الخلايا التائية"
+    ],
+    [
+     "**Epitope**",
+     "الحاتمة / المحدّد المستضدي / الإبيتوب"
+    ],
+    [
+     "**BCR / TCR**",
+     "مستقبل الخلية البائية / التائية"
+    ],
+    [
+     "**MHC II**",
+     "معقّد التوافق النسيجي الكبير الصنف الثاني"
+    ],
+    [
+     "**Clonal selection / expansion**",
+     "الانتقاء / التوسّع النسيلي"
+    ],
+    [
+     "**Memory B cells**",
+     "الخلايا البائية الذاكرة"
+    ],
+    [
+     "**Heavy / Light chain**",
+     "السلسلة الثقيلة / الخفيفة"
+    ],
+    [
+     "**Disulfide bond**",
+     "رابطة ثنائية الكبريت / جسر كبريتي"
+    ],
+    [
+     "**Hinge region**",
+     "منطقة المفصل"
+    ],
+    [
+     "**Domain**",
+     "المجال / النطاق"
+    ],
+    [
+     "**Hypervariable region / CDR**",
+     "المنطقة فائقة التغيّر / منطقة تحديد التتامّ"
+    ],
+    [
+     "**Framework region (FR)**",
+     "منطقة الهيكل / الإطار"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Affinity**",
+     "الألفة / شدّة الارتباط"
+    ],
+    [
+     "**Fab / Fc**",
+     "القطعة الرابطة للمستضد / القطعة القابلة للتبلور"
+    ],
+    [
+     "**Papain / Pepsin**",
+     "البابين / الببسين"
+    ],
+    [
+     "**Opsonization**",
+     "الطهي / الأبسنة / التهيئة للبلعمة"
+    ],
+    [
+     "**Somatic recombination**",
+     "إعادة الاتحاد الجسدي / التأشيب الجسدي"
+    ],
+    [
+     "**Gene rearrangement**",
+     "إعادة ترتيب الجينات"
+    ],
+    [
+     "**Polysome**",
+     "متعدّد الرايبوسوم / البوليسوم"
+    ],
+    [
+     "**J chain / Secretory piece**",
+     "سلسلة الوصل J / القطعة الإفرازية"
+    ],
+    [
+     "**Pentamer / Dimer / Monomer**",
+     "خماسي / ثنائي / أحادي"
+    ],
+    [
+     "**Agglutinator**",
+     "ملزّن / عامل تلازن"
+    ],
+    [
+     "**Complement fixation**",
+     "تثبيت المتمّم"
+    ],
+    [
+     "**Colostrum**",
+     "اللبأ / حليب السرسوب"
+    ],
+    [
+     "**Mast cell / Basophil / Eosinophil**",
+     "الخلية البدينة / القاعدية / الحمضة"
+    ],
+    [
+     "**Isotype / Allotype / Idiotype**",
+     "النمط المتماثل / الأليلي / الذاتي"
+    ],
+    [
+     "**Class switching (CSR)**",
+     "تبديل الصنف / إعادة اتحاد تبديل الصنف"
+    ],
+    [
+     "**Primary / Secondary response**",
+     "الاستجابة الأولية / الثانوية"
+    ],
+    [
+     "**Neutralization / Agglutination / Precipitation**",
+     "المعادلة / التلازن / الترسيب"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Definition and pathways",
+    "topic_ar": "التعريف والمسارات"
+   },
+   {
+    "en": "Immunoglobulins are produced by:",
+    "ar": "تُنتج الغلوبيولينات المناعية بواسطة:",
+    "options": [
+     [
+      "T helper cells",
+      "الخلايا التائية المساعدة"
+     ],
+     [
+      "Plasma cells",
+      "خلايا البلازما"
+     ],
+     [
+      "Neutrophils",
+      "العدلات"
+     ],
+     [
+      "Hepatocytes",
+      "خلايا الكبد"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Immunoglobulins are chemically:",
+    "ar": "الغلوبيولينات المناعية كيميائيًا:",
+    "options": [
+     [
+      "Lipids",
+      "دهون"
+     ],
+     [
+      "Pure carbohydrates",
+      "كربوهيدرات نقية"
+     ],
+     [
+      "Nucleic acids",
+      "أحماض نووية"
+     ],
+     [
+      "Glycoproteins",
+      "بروتينات سكرية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "An example of a T-independent antigen is:",
+    "ar": "مثال على المستضد المستقلّ عن التائية:",
+    "options": [
+     [
+      "Albumin",
+      "الألبومين"
+     ],
+     [
+      "Insulin",
+      "الأنسولين"
+     ],
+     [
+      "Lipopolysaccharide (LPS)",
+      "عديد السكريد الدهني (LPS)"
+     ],
+     [
+      "Hemoglobin",
+      "الهيموغلوبين"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The T cell-independent response:",
+    "ar": "الاستجابة المستقلّة عن التائية:",
+    "options": [
+     [
+      "Is short-lived without memory B cells",
+      "قصيرة الأمد وبلا خلايا ذاكرة"
+     ],
+     [
+      "Is long-lived",
+      "طويلة الأمد"
+     ],
+     [
+      "Gives a strong secondary response",
+      "تعطي استجابة ثانوية قوية"
+     ],
+     [
+      "Produces many memory B cells",
+      "تنتج خلايا ذاكرة كثيرة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In T-dependent activation, the B cell presents antigen to Th cells on:",
+    "ar": "في التنشيط المعتمد على التائية تقدّم الخلية البائية المستضد للتائية المساعدة على:",
+    "options": [
+     [
+      "CD8",
+      "CD8"
+     ],
+     [
+      "MHC I",
+      "MHC I"
+     ],
+     [
+      "Fc receptor",
+      "مستقبل Fc"
+     ],
+     [
+      "MHC II",
+      "MHC II"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Activated B cells differentiate into:",
+    "ar": "تتمايز الخلايا البائية المنشّطة إلى:",
+    "options": [
+     [
+      "Plasma cells and memory cells",
+      "خلايا بلازما وخلايا ذاكرة"
+     ],
+     [
+      "Macrophages and neutrophils",
+      "بلاعم وعدلات"
+     ],
+     [
+      "T cells",
+      "خلايا تائية"
+     ],
+     [
+      "Mast cells",
+      "خلايا بدينة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Structure",
+    "topic_ar": "التركيب"
+   },
+   {
+    "en": "The heavy and light chains are held together by:",
+    "ar": "تُمسك السلسلتان الثقيلة والخفيفة معًا بـ:",
+    "options": [
+     [
+      "Peptide bonds only",
+      "روابط ببتيدية فقط"
+     ],
+     [
+      "Inter-chain disulfide bonds and non covalent interactions",
+      "روابط ثنائية الكبريت بين السلاسل وتآثرات غير تساهمية"
+     ],
+     [
+      "Hydrogen bonds only",
+      "روابط هيدروجينية فقط"
+     ],
+     [
+      "Ionic bonds with calcium",
+      "روابط أيونية مع الكالسيوم"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The CH region of the heavy chain contains:",
+    "ar": "تحتوي المنطقة CH للسلسلة الثقيلة على:",
+    "options": [
+     [
+      "110 aa",
+      "110 حمض أميني"
+     ],
+     [
+      "50 aa",
+      "50 حمضًا أمينيًا"
+     ],
+     [
+      "330-440 aa",
+      "330-440 حمضًا أمينيًا"
+     ],
+     [
+      "1000 aa",
+      "1000 حمض أميني"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The hinge region is:",
+    "ar": "منطقة المفصل هي:",
+    "options": [
+     [
+      "Where the arms form a Y shape",
+      "حيث تكوّن الأذرع شكل Y"
+     ],
+     [
+      "The antigen-binding site",
+      "موقع ارتباط المستضد"
+     ],
+     [
+      "Where carbohydrate is attached",
+      "حيث ترتبط الكربوهيدرات"
+     ],
+     [
+      "The J chain",
+      "سلسلة J"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In most immunoglobulins carbohydrates are attached to the:",
+    "ar": "في معظم الغلوبيولينات المناعية ترتبط الكربوهيدرات بـ:",
+    "options": [
+     [
+      "VL domain",
+      "مجال VL"
+     ],
+     [
+      "CH2 domain",
+      "مجال CH2"
+     ],
+     [
+      "CL domain",
+      "مجال CL"
+     ],
+     [
+      "VH domain",
+      "مجال VH"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The heavy chain domains are:",
+    "ar": "مجالات السلسلة الثقيلة هي:",
+    "options": [
+     [
+      "VL and CL",
+      "VL وCL"
+     ],
+     [
+      "VH only",
+      "VH فقط"
+     ],
+     [
+      "VH, CH1 – CH3",
+      "VH وCH1 – CH3"
+     ],
+     [
+      "CL and CH1",
+      "CL وCH1"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The antigen-binding site is formed by:",
+    "ar": "يتكوّن موقع ارتباط المستضد من:",
+    "options": [
+     [
+      "The Fc fragment",
+      "قطعة Fc"
+     ],
+     [
+      "The hinge region",
+      "منطقة المفصل"
+     ],
+     [
+      "Framework regions only",
+      "مناطق الهيكل فقط"
+     ],
+     [
+      "Hypervariable regions (CDRs)",
+      "المناطق فائقة التغيّر (CDRs)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Each hypervariable region contributes about ___ amino acids to the antigen-binding site:",
+    "ar": "تساهم كل منطقة فائقة التغيّر بنحو ___ أحماض أمينية في موقع ارتباط المستضد:",
+    "options": [
+     [
+      "5–10",
+      "5–10"
+     ],
+     [
+      "110",
+      "110"
+     ],
+     [
+      "1–2",
+      "1–2"
+     ],
+     [
+      "330",
+      "330"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "CDRs are responsible for:",
+    "ar": "الـ CDRs مسؤولة عن:",
+    "options": [
+     [
+      "Placental transfer",
+      "العبور المشيمي"
+     ],
+     [
+      "Specificity and affinity",
+      "النوعية والألفة"
+     ],
+     [
+      "Complement fixation",
+      "تثبيت المتمّم"
+     ],
+     [
+      "Binding to mast cells",
+      "الارتباط بالخلايا البدينة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Papain digestion of IgG gives:",
+    "ar": "يعطي هضم IgG بالبابين:",
+    "options": [
+     [
+      "One F(ab')2",
+      "قطعة F(ab')2 واحدة"
+     ],
+     [
+      "Separate H and L chains",
+      "سلاسل H وL منفصلة"
+     ],
+     [
+      "Two Fab and one Fc",
+      "قطعتي Fab وقطعة Fc"
+     ],
+     [
+      "Only Fc peptides",
+      "ببتيدات Fc فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Pepsin digestion of IgG gives:",
+    "ar": "يعطي هضم IgG بالببسين:",
+    "options": [
+     [
+      "Two Fab + Fc",
+      "قطعتي Fab + Fc"
+     ],
+     [
+      "Light chains only",
+      "سلاسل خفيفة فقط"
+     ],
+     [
+      "J chain",
+      "سلسلة J"
+     ],
+     [
+      "F(ab')2",
+      "F(ab')2"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The Fc region:",
+    "ar": "منطقة Fc:",
+    "options": [
+     [
+      "Recognizes specific antigens",
+      "تتعرّف على مستضدات محدّدة"
+     ],
+     [
+      "Binds Fc receptors and complement and mediates opsonization",
+      "ترتبط بمستقبلات Fc والمتمّم وتتوسّط الطهي"
+     ],
+     [
+      "Contains the CDRs",
+      "تحتوي الـ CDRs"
+     ],
+     [
+      "Is the variable region",
+      "هي المنطقة المتغيّرة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Genes and diversity",
+    "topic_ar": "الجينات والتنوّع"
+   },
+   {
+    "en": "Antibody diversity is generated mainly by:",
+    "ar": "يتولّد تنوّع الأضداد بصورة رئيسية بـ:",
+    "options": [
+     [
+      "Many separate genes for each antibody",
+      "جينات منفصلة كثيرة لكل ضد"
+     ],
+     [
+      "Antigen exposure in the blood",
+      "التعرّض للمستضد في الدم"
+     ],
+     [
+      "Somatic recombination",
+      "إعادة الاتحاد الجسدي"
+     ],
+     [
+      "Complement",
+      "المتمّم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The heavy chain gene family in humans is on chromosome:",
+    "ar": "تقع عائلة جينات السلسلة الثقيلة في الإنسان على الكروموسوم:",
+    "options": [
+     [
+      "14",
+      "14"
+     ],
+     [
+      "22",
+      "22"
+     ],
+     [
+      "2",
+      "2"
+     ],
+     [
+      "6",
+      "6"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The κ light chain genes are on chromosome:",
+    "ar": "تقع جينات السلسلة الخفيفة κ على الكروموسوم:",
+    "options": [
+     [
+      "14",
+      "14"
+     ],
+     [
+      "22",
+      "22"
+     ],
+     [
+      "6",
+      "6"
+     ],
+     [
+      "2",
+      "2"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The variable region of the heavy chain is encoded by:",
+    "ar": "تُرمَّز المنطقة المتغيّرة للسلسلة الثقيلة بـ:",
+    "options": [
+     [
+      "C only",
+      "C فقط"
+     ],
+     [
+      "V and J only",
+      "V وJ فقط"
+     ],
+     [
+      "V, D and J segments",
+      "القطع V وD وJ"
+     ],
+     [
+      "D only",
+      "D فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Ig gene rearrangement occurs in:",
+    "ar": "تحدث إعادة ترتيب جينات Ig في:",
+    "options": [
+     [
+      "Lymph nodes after antigen exposure",
+      "العقد اللمفية بعد التعرّض للمستضد"
+     ],
+     [
+      "The liver",
+      "الكبد"
+     ],
+     [
+      "The thymus",
+      "الغدّة الزعترية"
+     ],
+     [
+      "Bone marrow before antigenic exposure",
+      "نقي العظم قبل التعرّض للمستضد"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The carbohydrate portion of Ig is added in the:",
+    "ar": "يُضاف الجزء الكربوهيدراتي للـ Ig في:",
+    "options": [
+     [
+      "Nucleus",
+      "النواة"
+     ],
+     [
+      "Golgi apparatus",
+      "جهاز غولجي"
+     ],
+     [
+      "Polysomes",
+      "متعدّدات الرايبوسوم"
+     ],
+     [
+      "Mitochondria",
+      "المايتوكوندريا"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Classes",
+    "topic_ar": "الأصناف"
+   },
+   {
+    "en": "Ig classes are based on differences in:",
+    "ar": "تُبنى أصناف Ig على الاختلاف في:",
+    "options": [
+     [
+      "aa sequences of the CH",
+      "تسلسل الأحماض الأمينية لـ CH"
+     ],
+     [
+      "Variable region",
+      "المنطقة المتغيّرة"
+     ],
+     [
+      "Carbohydrate",
+      "الكربوهيدرات"
+     ],
+     [
+      "Light chain",
+      "السلسلة الخفيفة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The Ig making up 75% of serum Ig is:",
+    "ar": "الـ Ig الذي يشكّل 75% من Ig المصل:",
+    "options": [
+     [
+      "IgG",
+      "IgG"
+     ],
+     [
+      "IgM",
+      "IgM"
+     ],
+     [
+      "IgA",
+      "IgA"
+     ],
+     [
+      "IgE",
+      "IgE"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The IgG subclass that does NOT cross the placenta easily is:",
+    "ar": "صنف IgG الفرعي الذي لا يعبر المشيمة بسهولة:",
+    "options": [
+     [
+      "IgG1",
+      "IgG1"
+     ],
+     [
+      "IgG4",
+      "IgG4"
+     ],
+     [
+      "IgG3",
+      "IgG3"
+     ],
+     [
+      "IgG2",
+      "IgG2"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The IgG subclass that is the highest complement activator with a 7-day half-life is:",
+    "ar": "صنف IgG الفرعي الأعلى تنشيطًا للمتمّم بعمر نصف 7 أيام:",
+    "options": [
+     [
+      "IgG1",
+      "IgG1"
+     ],
+     [
+      "IgG3",
+      "IgG3"
+     ],
+     [
+      "IgG2",
+      "IgG2"
+     ],
+     [
+      "IgG4",
+      "IgG4"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "A pentamer with 10 epitope binding sites and a J chain is:",
+    "ar": "خماسي بعشرة مواقع ارتباط وسلسلة J:",
+    "options": [
+     [
+      "IgA",
+      "IgA"
+     ],
+     [
+      "IgG",
+      "IgG"
+     ],
+     [
+      "IgM",
+      "IgM"
+     ],
+     [
+      "IgD",
+      "IgD"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The first Ig made by a naïve B cell and by the fetus is:",
+    "ar": "أول Ig تصنعه الخلية البائية الساذجة والجنين:",
+    "options": [
+     [
+      "IgG",
+      "IgG"
+     ],
+     [
+      "IgM",
+      "IgM"
+     ],
+     [
+      "IgE",
+      "IgE"
+     ],
+     [
+      "IgA",
+      "IgA"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The major Ig in secretions such as tears, saliva and colostrum is:",
+    "ar": "الـ Ig الرئيسي في الإفرازات مثل الدموع واللعاب واللبأ:",
+    "options": [
+     [
+      "IgA",
+      "IgA"
+     ],
+     [
+      "IgM",
+      "IgM"
+     ],
+     [
+      "IgD",
+      "IgD"
+     ],
+     [
+      "IgG",
+      "IgG"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Secretory IgA is protected from digestive enzymes by the:",
+    "ar": "يُحمى IgA الإفرازي من إنزيمات الهضم بواسطة:",
+    "options": [
+     [
+      "CH4 domain",
+      "مجال CH4"
+     ],
+     [
+      "Hinge region",
+      "منطقة المفصل"
+     ],
+     [
+      "Tail piece",
+      "القطعة الذيلية"
+     ],
+     [
+      "Secretory piece (T piece)",
+      "القطعة الإفرازية (T)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The Ig found mainly on B cell surfaces as an antigen receptor, ~1% of serum, is:",
+    "ar": "الـ Ig الموجود غالبًا على سطح الخلايا البائية مستقبلًا للمستضد، ونحو 1% من المصل:",
+    "options": [
+     [
+      "IgE",
+      "IgE"
+     ],
+     [
+      "IgA",
+      "IgA"
+     ],
+     [
+      "IgD",
+      "IgD"
+     ],
+     [
+      "IgG",
+      "IgG"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The Ig that binds tightly to mast cells and basophils and rises in helminth infections is:",
+    "ar": "الـ Ig الذي يرتبط بقوّة بالخلايا البدينة والقاعدية ويرتفع في إصابات الديدان:",
+    "options": [
+     [
+      "IgE",
+      "IgE"
+     ],
+     [
+      "IgM",
+      "IgM"
+     ],
+     [
+      "IgD",
+      "IgD"
+     ],
+     [
+      "IgA",
+      "IgA"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Antigenic determinants and responses",
+    "topic_ar": "المحدّدات المستضدية والاستجابات"
+   },
+   {
+    "en": "Antigenic determinants found in all normal members of the species, in the constant region, are:",
+    "ar": "المحدّدات المستضدية الموجودة في كل الأفراد الطبيعيين في المنطقة الثابتة هي:",
+    "options": [
+     [
+      "Idiotypes",
+      "الأنماط الذاتية"
+     ],
+     [
+      "Epitopes of bacteria",
+      "حواتم البكتيريا"
+     ],
+     [
+      "Allotypes",
+      "الأنماط الأليلية"
+     ],
+     [
+      "Isotypes",
+      "الأنماط المتماثلة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Allotypes are important in:",
+    "ar": "الأنماط الأليلية مهمة في:",
+    "options": [
+     [
+      "Vaccines",
+      "اللقاحات"
+     ],
+     [
+      "Diagnosis of immunodeficiency",
+      "تشخيص نقص المناعة"
+     ],
+     [
+      "Paternity testing and forensic medicine",
+      "فحص الأبوّة والطب العدلي"
+     ],
+     [
+      "Treating B cell tumors",
+      "علاج أورام الخلايا البائية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Idiotypes are located:",
+    "ar": "تقع الأنماط الذاتية:",
+    "options": [
+     [
+      "In the CH3 domain",
+      "في مجال CH3"
+     ],
+     [
+      "On the Fab fragment near the hypervariable regions",
+      "على قطعة Fab قرب المناطق فائقة التغيّر"
+     ],
+     [
+      "On the J chain",
+      "على سلسلة J"
+     ],
+     [
+      "On the Fc fragment",
+      "على قطعة Fc"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In class switching:",
+    "ar": "في تبديل الصنف:",
+    "options": [
+     [
+      "The variable region changes",
+      "تتغيّر المنطقة المتغيّرة"
+     ],
+     [
+      "The constant region changes but the variable region stays the same",
+      "تتغيّر المنطقة الثابتة وتبقى المتغيّرة نفسها"
+     ],
+     [
+      "Antigen specificity changes",
+      "تتغيّر النوعية المستضدية"
+     ],
+     [
+      "Light chains are lost",
+      "تُفقد السلاسل الخفيفة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The first antibodies produced in the primary response are:",
+    "ar": "أول الأضداد المنتجة في الاستجابة الأولية:",
+    "options": [
+     [
+      "IgG",
+      "IgG"
+     ],
+     [
+      "IgE",
+      "IgE"
+     ],
+     [
+      "IgM",
+      "IgM"
+     ],
+     [
+      "IgD",
+      "IgD"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Compared with the primary response, the secondary response has:",
+    "ar": "مقارنةً بالاستجابة الأولية، للاستجابة الثانوية:",
+    "options": [
+     [
+      "A longer lag phase",
+      "طور تأخّر أطول"
+     ],
+     [
+      "Lower antibody levels",
+      "مستويات أضداد أقل"
+     ],
+     [
+      "Only IgM",
+      "IgM فقط"
+     ],
+     [
+      "A shorter lag and more IgG that persists longer",
+      "تأخّر أقصر وIgG أكثر يبقى أطول"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In the 1° response, the decline phase means:",
+    "ar": "في الاستجابة الأولية يعني طور الانخفاض:",
+    "options": [
+     [
+      "Rate of antibody degradation exceeds synthesis",
+      "معدّل تحطّم الأضداد يفوق تصنيعها"
+     ],
+     [
+      "Balance in antibody synthesis",
+      "توازن في تصنيع الأضداد"
+     ],
+     [
+      "Rising antibody concentration",
+      "ارتفاع تركيز الأضداد"
+     ],
+     [
+      "Antigen recognition",
+      "التعرّف على المستضد"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this figure, the enzyme that gives two separate Fab pieces and one Fc is:",
+    "ar": "في هذا الشكل، الإنزيم الذي يعطي قطعتي Fab منفصلتين وقطعة Fc:",
+    "options": [
+     [
+      "Pepsin",
+      "الببسين"
+     ],
+     [
+      "Papain",
+      "البابين"
+     ],
+     [
+      "Mercaptoethanol",
+      "المركبتوإيثانول"
+     ],
+     [
+      "Trypsin",
+      "التربسين"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/ig-fragments-1.png",
+    "img_h": "44mm"
+   },
+   {
+    "en": "This molecule with a J chain and Cμ4 is:",
+    "ar": "هذا الجزيء بسلسلة J ومجال Cμ4 هو:",
+    "options": [
+     [
+      "IgA dimer",
+      "IgA ثنائي"
+     ],
+     [
+      "IgE",
+      "IgE"
+     ],
+     [
+      "IgG monomer",
+      "IgG أحادي"
+     ],
+     [
+      "IgM pentamer",
+      "IgM خماسي"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/igm.png",
+    "img_h": "40mm"
+   },
+   {
+    "en": "This dimer with a J chain and a secretory piece is:",
+    "ar": "هذا الثنائي بسلسلة J وقطعة إفرازية هو:",
+    "options": [
+     [
+      "Secretory IgA",
+      "IgA الإفرازي"
+     ],
+     [
+      "IgD",
+      "IgD"
+     ],
+     [
+      "IgM",
+      "IgM"
+     ],
+     [
+      "IgE",
+      "IgE"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/iga.png",
+    "img_h": "26mm"
+   },
+   {
+    "en": "In this figure, the curve after the 2° Ag shows that the secondary response is:",
+    "ar": "في هذا الشكل، يُظهر المنحنى بعد المستضد الثاني أن الاستجابة الثانوية:",
+    "options": [
+     [
+      "Slower and lower",
+      "أبطأ وأقل"
+     ],
+     [
+      "Absent",
+      "غائبة"
+     ],
+     [
+      "More rapid and higher",
+      "أسرع وأعلى"
+     ],
+     [
+      "Only IgM",
+      "IgM فقط"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/secondary-response.png",
+    "img_h": "40mm"
+   },
+   {
+    "en": "In this figure, the mast cell releases all of these EXCEPT:",
+    "ar": "في هذا الشكل، تحرّر الخلية البدينة كل ما يأتي ما عدا:",
+    "options": [
+     [
+      "Leukotrienes",
+      "اللوكوترينات"
+     ],
+     [
+      "Histamine",
+      "الهستامين"
+     ],
+     [
+      "Prostaglandins",
+      "البروستاغلاندينات"
+     ],
+     [
+      "Immunoglobulin M",
+      "الغلوبيولين المناعي M"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/ige-mediators.png",
+    "img_h": "40mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Immunoglobulins are also known as immune protein.",
+    "ar": "تُعرف الغلوبيولينات المناعية أيضًا بالبروتين المناعي.",
+    "answer": "T"
+   },
+   {
+    "en": "T-independent antigens have repetitive epitope units.",
+    "ar": "للمستضدات المستقلّة عن التائية وحدات حواتم متكرّرة.",
+    "answer": "T"
+   },
+   {
+    "en": "The T-independent response produces memory B cells.",
+    "ar": "تنتج الاستجابة المستقلّة عن التائية خلايا بائية ذاكرة.",
+    "answer": "F"
+   },
+   {
+    "en": "Both VL and CL contain about 110 amino acids.",
+    "ar": "يحتوي كلٌّ من VL وCL على نحو 110 أحماض أمينية.",
+    "answer": "T"
+   },
+   {
+    "en": "Antibodies with different specificities have identical CDRs.",
+    "ar": "للأضداد مختلفة النوعية CDRs متطابقة.",
+    "answer": "F"
+   },
+   {
+    "en": "The λ light chain genes are on chromosome 22.",
+    "ar": "تقع جينات السلسلة الخفيفة λ على الكروموسوم 22.",
+    "answer": "T"
+   },
+   {
+    "en": "The light chain variable region is encoded by V, D and J segments.",
+    "ar": "تُرمَّز المنطقة المتغيّرة للسلسلة الخفيفة بالقطع V وD وJ.",
+    "answer": "F"
+   },
+   {
+    "en": "IgG4 does not fix complement.",
+    "ar": "لا يثبّت IgG4 المتمّم.",
+    "answer": "T"
+   },
+   {
+    "en": "IgM crosses the placenta.",
+    "ar": "يعبر IgM المشيمة.",
+    "answer": "F"
+   },
+   {
+    "en": "IgM is an effective agglutinator.",
+    "ar": "IgM ملزّن فعّال.",
+    "answer": "T"
+   },
+   {
+    "en": "Serum IgA is a dimer.",
+    "ar": "IgA في المصل ثنائي.",
+    "answer": "F"
+   },
+   {
+    "en": "IgA can activate the alternative complement pathway.",
+    "ar": "يمكن للـ IgA تنشيط المسار البديل للمتمّم.",
+    "answer": "T"
+   },
+   {
+    "en": "IgE fixes complement.",
+    "ar": "يثبّت IgE المتمّم.",
+    "answer": "F"
+   },
+   {
+    "en": "Class switching does not affect antigen specificity.",
+    "ar": "لا يؤثّر تبديل الصنف في النوعية المستضدية.",
+    "answer": "T"
+   },
+   {
+    "en": "Allotypes are found in all members of the species.",
+    "ar": "توجد الأنماط الأليلية في كل أفراد النوع.",
+    "answer": "F"
+   },
+   {
+    "en": "IgM levels decline sooner than IgG levels in the primary response.",
+    "ar": "تنخفض مستويات IgM أبكر من IgG في الاستجابة الأولية.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Papain vs pepsin",
+    "ar": "البابين مقابل الببسين",
+    "answer_en": "Papain → 2 Fab + Fc (separate arms). Pepsin → one F(ab')2 (arms stay joined) + Fc peptides.",
+    "answer_ar": "البابين ← قطعتا Fab + Fc (ذراعان منفصلان). الببسين ← قطعة F(ab')2 واحدة (الذراعان متّصلان) + ببتيدات Fc."
+   },
+   {
+    "en": "Two or three gene segments?",
+    "ar": "قطعتان جينيتان أم ثلاث؟",
+    "answer_en": "Light chain V region = V + J; heavy chain V region = V + D + J.",
+    "answer_ar": "المنطقة المتغيّرة للخفيفة = V + J؛ وللثقيلة = V + D + J."
+   },
+   {
+    "en": "Chromosomes of Ig genes",
+    "ar": "كروموسومات جينات Ig",
+    "answer_en": "λ = 22, κ = 2, heavy = 14.",
+    "answer_ar": "λ = 22، κ = 2، الثقيلة = 14."
+   },
+   {
+    "en": "IgG subclass exceptions",
+    "ar": "استثناءات أصناف IgG الفرعية",
+    "answer_en": "Placenta: all except IgG2. Complement: all except IgG4. Binding phagocytes: except IgG2 and IgG4. IgG3: highest complement activator, half-life 7 days.",
+    "answer_ar": "المشيمة: الكل عدا IgG2. المتمّم: الكل عدا IgG4. الارتباط بالبلعميات: عدا IgG2 وIgG4. IgG3: الأعلى تنشيطًا للمتمّم وعمر نصفه 7 أيام."
+   },
+   {
+    "en": "Which Igs have a J chain and CH4?",
+    "ar": "أيّ Igs لها سلسلة J ومجال CH4؟",
+    "answer_en": "J chain: IgM pentamer and sIgA dimer. Extra CH4 domain: IgM (Cμ4) and IgE (Cε4).",
+    "answer_ar": "سلسلة J: IgM الخماسي وsIgA الثنائي. مجال CH4 الإضافي: IgM (Cμ4) وIgE (Cε4)."
+   },
+   {
+    "en": "Which Igs do not fix complement?",
+    "ar": "أيّ Igs لا تثبّت المتمّم؟",
+    "answer_en": "IgD and IgE do not; IgA only when aggregated (alternative pathway); IgG4 does not.",
+    "answer_ar": "IgD وIgE لا تثبّتان؛ وIgA فقط إذا تجمّع (المسار البديل)؛ وIgG4 لا يثبّت."
+   },
+   {
+    "en": "Isotype vs allotype — both in the constant region",
+    "ar": "المتماثل مقابل الأليلي — كلاهما في المنطقة الثابتة",
+    "answer_en": "Isotype: present in all normal members (class differences). Allotype: allelic, not in all members (genetic). Idiotype: hypervariable region on Fab.",
+    "answer_ar": "المتماثل: موجود في كل الأفراد الطبيعيين (اختلافات الصنف). الأليلي: أليلي، ليس في كل الأفراد (وراثي). الذاتي: المنطقة فائقة التغيّر على Fab."
+   },
+   {
+    "en": "Serum percentages in the lecture",
+    "ar": "النسب في المصل حسب المحاضرة",
+    "answer_en": "IgG 75%, IgM ~13% (called 3rd), IgA ~6% (called 2nd), IgD ~1%, IgE least — memorise as written, but note the order/number mismatch for IgM and IgA.",
+    "answer_ar": "IgG 75%، IgM نحو 13% (سُمّي الثالث)، IgA نحو 6% (سُمّي الثاني)، IgD نحو 1%، IgE الأقل — احفظها كما كُتبت مع ملاحظة عدم تطابق الترتيب والرقم بين IgM وIgA."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define immunoglobulins.",
+    "ar": "عرّف الغلوبيولينات المناعية.",
+    "answer_en": "Glycoprotein molecules produced by plasma cells in response to an immunogen, which function as antibodies; they circulate in blood and body fluids to recognize and neutralize foreign substances such as bacteria, viruses and toxins (also called immune protein).",
+    "answer_ar": "جزيئات بروتينية سكرية تنتجها خلايا البلازما استجابةً لمستمنِع وتعمل أضدادًا؛ تدور في الدم وسوائل الجسم لتتعرّف على المواد الغريبة مثل البكتيريا والفيروسات والذيفانات وتعادلها (وتُسمّى البروتين المناعي)."
+   },
+   {
+    "en": "Compare T-independent and T-dependent B cell activation.",
+    "ar": "قارن بين تنشيط الخلية البائية المستقلّ عن التائية والمعتمد عليها.",
+    "answer_en": "T-independent: no helper T cells; antigens with repetitive epitopes (polysaccharide capsules, LPS) cross-link BCRs; clonal proliferation into plasma cells (pentameric IgM); short-lived, no memory, no secondary response. T-dependent: Ag binds BCR; the B cell processes it and presents it on MHC II to the TCR of Th cells, which secrete chemokines; clonal selection gives plasma cells (antibodies) and memory B cells.",
+    "answer_ar": "المستقلّ: بلا خلايا تائية مساعدة؛ مستضدات بحواتم متكرّرة (محافظ، LPS) تربط الـ BCRs تصالبيًا؛ تكاثر نسيلي إلى خلايا بلازما (IgM خماسي)؛ قصير الأمد، بلا ذاكرة ولا استجابة ثانوية. المعتمد: يرتبط المستضد بالـ BCR، فتعالجه الخلية البائية وتقدّمه على MHC II لمستقبل TCR للتائية المساعدة التي تفرز الكيموكينات؛ والانتقاء النسيلي يعطي خلايا بلازما (أضداد) وخلايا بائية ذاكرة."
+   },
+   {
+    "en": "Describe the basic structure of an immunoglobulin.",
+    "ar": "صف التركيب الأساسي للغلوبيولين المناعي.",
+    "answer_en": "Y-shaped: two heavy and two light chains joined by inter-chain disulfide bonds and non-covalent interactions, with intra-chain disulfide bonds in each domain. Light chain: VL and CL (110 aa each); heavy chain: VH (110 aa) and CH (330-440 aa) = VH, CH1–CH3. Hinge region where the arms form the Y. Carbohydrate on CH2. Hypervariable regions (CDRs, 5–10 aa each) form the antigen-binding site; framework regions lie between them.",
+    "answer_ar": "شكل Y: سلسلتان ثقيلتان وسلسلتان خفيفتان تربطها روابط ثنائية الكبريت بين السلاسل وتآثرات غير تساهمية، مع روابط داخل كل مجال. الخفيفة: VL وCL (110 لكلٍّ منهما)؛ الثقيلة: VH (110) وCH (330-440) = VH وCH1–CH3. منطقة المفصل حيث تكوّن الأذرع الـ Y. الكربوهيدرات على CH2. المناطق فائقة التغيّر (CDRs، 5–10 أحماض لكلٍّ منها) تكوّن موقع ارتباط المستضد، ومناطق الهيكل بينها."
+   },
+   {
+    "en": "What are the Fab and Fc fragments and how are they produced?",
+    "ar": "ما قطعتا Fab وFc وكيف تُنتجان؟",
+    "answer_en": "Produced by proteolytic digestion: papain gives two Fab and one Fc; pepsin gives F(ab')2. Fab recognizes specific antigens. Fc modulates immune cell activity, binds Fc receptors on phagocytes and complement, and mediates opsonization, cell lysis and mast cell degranulation (and placental transfer).",
+    "answer_ar": "تُنتجان بالهضم البروتيني: البابين يعطي قطعتي Fab وقطعة Fc؛ والببسين يعطي F(ab')2. Fab يتعرّف على مستضدات محدّدة. Fc يعدّل نشاط الخلايا المناعية، ويرتبط بمستقبلات Fc على البلعميات وبالمتمّم، ويتوسّط الطهي وتحلّل الخلية وتحبّب الخلايا البدينة (والعبور المشيمي)."
+   },
+   {
+    "en": "Explain Ig gene rearrangement and the generation of diversity.",
+    "ar": "اشرح إعادة ترتيب جينات Ig وتوليد التنوّع.",
+    "answer_en": "A small number of genes make a huge number of antibodies by somatic recombination. Separate gene pools: λ chromosome 22, κ chromosome 2, heavy chromosome 14. In bone marrow before antigen exposure, DNA is rearranged: light chain V region = V + J; heavy chain = V + D + J. The assembled V gene is transcribed with a C gene into mRNA; L and H chains are made on polysomes, assembled into H2L2 in the cytoplasm, carbohydrate is added in the Golgi, and the Ig is released.",
+    "answer_ar": "عدد قليل من الجينات يصنع عددًا هائلًا من الأضداد بإعادة الاتحاد الجسدي. مجامع جينية منفصلة: λ كروموسوم 22، κ كروموسوم 2، الثقيلة كروموسوم 14. في نقي العظم قبل التعرّض للمستضد يُعاد ترتيب الـ DNA: المنطقة المتغيّرة للخفيفة = V + J؛ وللثقيلة = V + D + J. يُستنسخ جين V المجمَّع مع جين C إلى mRNA؛ وتُصنع السلاسل L وH على متعدّدات الرايبوسوم وتتجمّع H2L2 في السايتوبلازم، وتُضاف الكربوهيدرات في غولجي، ثم يُطلق الـ Ig."
+   },
+   {
+    "en": "Compare the five immunoglobulin classes.",
+    "ar": "قارن بين أصناف الغلوبيولين المناعي الخمسة.",
+    "answer_en": "IgG: monomer, 75%, most versatile, 4 subclasses, placenta (not IgG2), complement (not IgG4). IgM: pentamer with J chain and CH4, ~13%, first made, good complement fixer and agglutinator, monomer as BCR, half-life ~5 days, no placenta. IgA: serum monomer, secretory dimer with J chain and secretory piece, ~6%, major Ig in secretions, mucosal immunity, alternative complement. IgD: monomer, ~1%, B cell antigen receptor, no complement. IgE: monomer with CH4, least common, binds mast cells/basophils, allergy and helminths, no complement.",
+    "answer_ar": "IgG: أحادي، 75%، الأكثر تنوّعًا، 4 أصناف فرعية، يعبر المشيمة (عدا IgG2)، يثبّت المتمّم (عدا IgG4). IgM: خماسي بسلسلة J وCH4، نحو 13%، الأول صنعًا، مثبّت جيّد للمتمّم وملزّن، أحادي بوصفه BCR، عمر النصف نحو 5 أيام، لا يعبر المشيمة. IgA: أحادي في المصل وثنائي إفرازي بسلسلة J وقطعة إفرازية، نحو 6%، الرئيسي في الإفرازات، المناعة المخاطية، المتمّم البديل. IgD: أحادي، نحو 1%، مستقبل المستضد على الخلية البائية، لا يثبّت المتمّم. IgE: أحادي بـ CH4، الأقل شيوعًا، يرتبط بالبدينة/القاعدية، الحساسية والديدان، لا يثبّت المتمّم."
+   },
+   {
+    "en": "Compare isotypes, allotypes and idiotypes and give their importance.",
+    "ar": "قارن بين الأنماط المتماثلة والأليلية والذاتية واذكر أهميتها.",
+    "answer_en": "Isotypes: constant region of H and L, characterize classes/subclasses, present in all normal members — used to quantify Ig classes, characterize B cell leukemia, diagnose immunodeficiency. Allotypes: allelic forms in the constant region, not in all members — bone marrow graft monitoring, forensic medicine, paternity testing. Idiotypes: hypervariable regions on Fab — regulation of immune response, anti-idiotype vaccines, treatment of B cell tumors.",
+    "answer_ar": "المتماثلة: المنطقة الثابتة لـ H وL، تميّز الأصناف وأصنافها الفرعية، موجودة في كل الأفراد الطبيعيين — لقياس أصناف Ig وتوصيف ابيضاض البائية وتشخيص نقص المناعة. الأليلية: أشكال أليلية في المنطقة الثابتة، ليست في كل الأفراد — متابعة زرع النقي والطب العدلي وفحص الأبوّة. الذاتية: المناطق فائقة التغيّر على Fab — تنظيم الاستجابة المناعية واللقاحات المضادة للنمط الذاتي وعلاج أورام البائية."
+   },
+   {
+    "en": "Compare the primary and secondary antibody responses.",
+    "ar": "قارن بين الاستجابتين الضديتين الأولية والثانوية.",
+    "answer_en": "Primary: lag (antigen recognition), log (rising antibody), plateau (balance), decline (degradation exceeds synthesis); IgM first then IgG/IgA; IgM declines sooner. Secondary (months or years later): shorter lag, higher and more rapid response, IgM similar, more IgG that persists much longer, decline not rapid.",
+    "answer_ar": "الأولية: تأخّر (التعرّف على المستضد)، لوغاريتمي (ارتفاع الأضداد)، استقرار (توازن)، انخفاض (التحطّم يفوق التصنيع)؛ IgM أولًا ثم IgG/IgA؛ وIgM ينخفض أبكر. الثانوية (بعد أشهر أو سنوات): تأخّر أقصر، استجابة أعلى وأسرع، IgM مشابه، IgG أكثر يبقى أطول بكثير، والانخفاض ليس سريعًا."
+   }
+  ]
+ }
+}
