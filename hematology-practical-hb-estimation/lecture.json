@@ -1,0 +1,1579 @@
+{
+ "meta": {
+  "subject_en": "Hematology",
+  "subject_ar": "أمراض الدم",
+  "short_ar": "امراض الدم",
+  "unit_label": "LAB",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة",
+  "instructor": "ليندا منجد هادي",
+  "unit_en": "Lab 4",
+  "unit_ar": "العملي 4",
+  "unit_no": "4",
+  "title_en": "Estimation of Hemoglobin (Drabkin's and Sahli’s methods)",
+  "title_ar": "تقدير الهيموغلوبين (طريقتا درابكن وسالي)"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Estimation of Hemoglobin with Cyanmethemoglobin method (Drabkin's method)",
+   "ar": "تقدير الهيموغلوبين بطريقة السيانميثيموغلوبين (طريقة درابكن)"
+  },
+  {
+   "t": "card",
+   "en": "Blood is diluted in **Drabkin's solution** which consists of **potassium cyanide** and **potassium ferricyanide**.",
+   "ar": "يُخفَّف الدم في **محلول درابكن** الذي يتكوّن من **سيانيد البوتاسيوم** و**فيريسيانيد البوتاسيوم**."
+  },
+  {
+   "t": "card",
+   "en": "Drabkin's Reagent is used for the **quantitative, colorimetric** determination of hemoglobin concentration in whole blood at **540 nm**; this procedure is based on the **oxidation of hemoglobin to methemoglobin** in the presence of **alkaline potassium ferricyanide**.",
+   "ar": "يُستعمل كاشف درابكن للتحديد **الكمّي اللوني** لتركيز الهيموغلوبين في الدم الكامل عند **540 نانومتر**؛ ويقوم هذا الإجراء على **أكسدة الهيموغلوبين إلى ميثيموغلوبين** بوجود **فيريسيانيد البوتاسيوم القلوي**."
+  },
+  {
+   "t": "h2",
+   "en": "Principle",
+   "ar": "المبدأ"
+  },
+  {
+   "t": "figure",
+   "src": "assets/hicn-principle.png",
+   "en": "Principle: Hemoglobin → Methemoglobin → Cyanmethemoglobin (HiCN)",
+   "ar": "المبدأ: الهيموغلوبين ← الميثيموغلوبين ← السيانميثيموغلوبين (HiCN)",
+   "h": "62mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Hemoglobin**",
+      "الهيموغلوبين"
+     ],
+     [
+      "**Potassium ferricyanide**",
+      "فيريسيانيد البوتاسيوم"
+     ]
+    ],
+    [
+     [
+      "**Methemoglobin**",
+      "الميثيموغلوبين"
+     ],
+     [
+      "**Potassium cyanide**",
+      "سيانيد البوتاسيوم"
+     ]
+    ],
+    [
+     [
+      "**Cyanmethemoglobin (HiCN).**",
+      "السيانميثيموغلوبين (HiCN)."
+     ],
+     [
+      "",
+      ""
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Hemoglobin",
+     "ar": "الهيموغلوبين"
+    },
+    {
+     "en": "+ Potassium ferricyanide → Methemoglobin",
+     "ar": "+ فيريسيانيد البوتاسيوم ← الميثيموغلوبين"
+    },
+    {
+     "en": "+ Potassium cyanide → Cyanmethemoglobin (HiCN)",
+     "ar": "+ سيانيد البوتاسيوم ← السيانميثيموغلوبين (HiCN)"
+    },
+    {
+     "en": "Read at 540 nm",
+     "ar": "القراءة عند 540 نانومتر"
+    }
+   ],
+   "en": "The reaction in one line",
+   "ar": "التفاعل بسطر واحد"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "This method is consider a **photometric method** and the absorbance of the solution is measured in a **spectrophotometer** at a **540nm** wavelength."
+   ],
+   "list_ar": [
+    "تُعدّ هذه الطريقة **طريقة ضوئية**، وتُقاس امتصاصية المحلول في **جهاز المطياف الضوئي** عند طول موجي **540 نانومتر**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Equipment and reagents",
+   "ar": "الأجهزة والكواشف"
+  },
+  {
+   "t": "card",
+   "en": "**1.** Drabkin's solution which consists of",
+   "ar": "**1.** محلول درابكن ويتكوّن من",
+   "list_en": [
+    "Potassium cyanide 50 mg",
+    "Potassium ferricyanide 200 mg",
+    "Potassium dihydrogen phosphate 140 mg",
+    "Nonionic detergent 1 ml",
+    "distilled water 1 L."
+   ],
+   "list_ar": [
+    "سيانيد البوتاسيوم 50 ملغم",
+    "فيريسيانيد البوتاسيوم 200 ملغم",
+    "فوسفات البوتاسيوم ثنائية الهيدروجين 140 ملغم",
+    "منظّف غير أيوني 1 مل",
+    "ماء مقطّر 1 لتر."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**2.** Hb pipette",
+   "ar": "**2.** ماصّة الهيموغلوبين"
+  },
+  {
+   "t": "card",
+   "en": "**3.** Spectrophotometer",
+   "ar": "**3.** جهاز المطياف الضوئي"
+  },
+  {
+   "t": "h2",
+   "en": "Procedure",
+   "ar": "طريقة العمل"
+  },
+  {
+   "t": "rule",
+   "en": "Take **5ml of Drabkin's solution** in a test tube.",
+   "ar": "خذ **5 مل من محلول درابكن** في أنبوب اختبار."
+  },
+  {
+   "t": "rule",
+   "en": [
+    "Collect **venous blood**.",
+    "Mix the blood sample by **gentle inversion** and pour **0.02ml of blood** into the previous solution with the help of a Hb pipette ."
+   ],
+   "ar": [
+    "اجمع **دمًا وريديًا**.",
+    "امزج عيّنة الدم **بالقلب الهادئ** واسكب **0.02 مل من الدم** في المحلول السابق بمساعدة ماصّة الهيموغلوبين."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": "Mix well and wait for **5min.**",
+   "ar": "امزج جيدًا وانتظر **5 دقائق**."
+  },
+  {
+   "t": "rule",
+   "en": "Measure the absorbance of this solution at **540nm** in a spectrophotometer.",
+   "ar": "قِس امتصاصية هذا المحلول عند **540 نانومتر** في جهاز المطياف الضوئي."
+  },
+  {
+   "t": "rule",
+   "en": "Calculate the hemoglobin concentration using a **standard curve**.",
+   "ar": "احسب تركيز الهيموغلوبين باستعمال **المنحنى القياسي**."
+  },
+  {
+   "t": "h2",
+   "en": "Result",
+   "ar": "النتيجة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Standard curve** for Hemoglobin estimation by Cyanmethemoglobin method can be prepared by determining **several samples of known heamoglobin concentration**."
+   ],
+   "list_ar": [
+    "يمكن تحضير **المنحنى القياسي** لتقدير الهيموغلوبين بطريقة السيانميثيموغلوبين بقياس **عدّة عيّنات معلومة تركيز الهيموغلوبين**."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Drabkin's = **K ferricyanide** (Hb → MetHb) + **K cyanide** (MetHb → **HiCN**).",
+    "**5 ml** reagent + **0.02 ml** blood → wait **5 min** → read at **540 nm** → **standard curve**.",
+    "Reagent per **1 L**: KCN **50 mg**, K ferricyanide **200 mg**, KH₂PO₄ **140 mg**, detergent **1 ml**."
+   ],
+   "ar": [
+    "درابكن = **فيريسيانيد البوتاسيوم** (Hb ← MetHb) + **سيانيد البوتاسيوم** (MetHb ← **HiCN**).",
+    "**5 مل** كاشف + **0.02 مل** دم ← انتظر **5 دقائق** ← اقرأ عند **540 نانومتر** ← **المنحنى القياسي**.",
+    "الكاشف لكل **لتر**: KCN **50 ملغم**، فيريسيانيد **200 ملغم**، KH₂PO₄ **140 ملغم**، منظّف **1 مل**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Estimation of hemoglobin by acid hematin method (Sahli’s method)",
+   "ar": "تقدير الهيموغلوبين بطريقة الهيماتين الحامضي (طريقة سالي)"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Principle:** hemoglobin in the blood is converted into **acid hematin**, a **brown colored solution** formed upon the addition of **1/10 N HCL**.",
+    "The colored solution is then measured **colorimetrically by comparing with a standard**."
+   ],
+   "ar": [
+    "**المبدأ:** يتحوّل الهيموغلوبين في الدم إلى **هيماتين حامضي**، وهو **محلول بنّي اللون** يتكوّن عند إضافة **حامض الهيدروكلوريك 1/10 عياري**.",
+    "ثم يُقاس المحلول الملوّن **لونيًا بمقارنته بمعيار قياسي**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/sahli-apparatus.png",
+   "en": "Sahli’s apparatus",
+   "ar": "أدوات طريقة سالي",
+   "h": "66mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Stirrer: Thin glass rod.**",
+      "المحرّك: قضيب زجاجي رفيع."
+     ],
+     [
+      "**hemoglobin pipette**",
+      "ماصّة الهيموغلوبين"
+     ]
+    ],
+    [
+     [
+      "**Sahli’s graduated hemoglobin tube**",
+      "أنبوب سالي المدرّج للهيموغلوبين"
+     ],
+     [
+      "**Comparator with a brown glass standard**",
+      "المقارن مع المعيار الزجاجي البنّي"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "h2",
+   "en": "Sahli’s Apparatus",
+   "ar": "أدوات سالي"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Hemoglobin pipette (**0.02 ml or 20 µl** capacity)",
+    "Sahli’s graduated Hemoglobin tube",
+    "Thin glass rod Stirrer for Hemoglobin Tube",
+    "Sahli’s Comparator box with **brown glass standard**"
+   ],
+   "list_ar": [
+    "ماصّة الهيموغلوبين (سعة **0.02 مل أو 20 مايكرولتر**)",
+    "أنبوب سالي المدرّج للهيموغلوبين",
+    "محرّك من قضيب زجاجي رفيع لأنبوب الهيموغلوبين",
+    "صندوق سالي المقارن مع **المعيار الزجاجي البنّي**"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Procedure of sahli’s method",
+   "ar": "طريقة عمل سالي"
+  },
+  {
+   "t": "rule",
+   "en": "**N/10 Hydrochloric acid** is taken in Hemoglobin tube (has two graduations – one side **gm/dl**, and other side shows the **Hb %age**), up to the **mark 20** – the lowest marking (**yellow marking**).",
+   "ar": "يؤخذ **حامض الهيدروكلوريك N/10** في أنبوب الهيموغلوبين (له تدريجان – جانب **غم/دل**، والجانب الآخر يُظهر **النسبة المئوية للهيموغلوبين**) حتى **العلامة 20** – أدنى علامة (**العلامة الصفراء**)."
+  },
+  {
+   "t": "rule",
+   "en": "Venous or Capillary blood is drawn up to **20µl mark** of hemoglobin pipette exactly.",
+   "ar": "يُسحب دم وريدي أو شعيري حتى **علامة 20 مايكرولتر** في ماصّة الهيموغلوبين بالضبط."
+  },
+  {
+   "t": "rule",
+   "en": [
+    "For capillary blood draw, boldly prick the tip of the **middle or ring finger** with the help of Blood lancet or pricking needle.",
+    "**Wipe out the first drop** of blood and suck the blood from the **second drop** in Hb pipette up to the mark of 20 µl.",
+    "Fill the Hb pipette by **capillary action**."
+   ],
+   "ar": [
+    "لسحب الدم الشعيري، اوخز طرف **الإصبع الوسطى أو البنصر** بجرأة بمساعدة مشرط الدم أو إبرة الوخز.",
+    "**امسح القطرة الأولى** من الدم واسحب الدم من **القطرة الثانية** في ماصّة الهيموغلوبين حتى علامة 20 مايكرولتر.",
+    "واملأ الماصّة **بالخاصية الشعرية**."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": "Dispense the blood into N/10 hydrochloric acid taken in the hemoglobin tube, **rinse the pipette** with the same solution and mix properly with the help of stirrer.",
+   "ar": "أفرغ الدم في حامض الهيدروكلوريك N/10 الموجود في أنبوب الهيموغلوبين، و**اشطف الماصّة** بالمحلول نفسه، وامزج جيدًا بمساعدة المحرّك."
+  },
+  {
+   "t": "rule",
+   "en": "Place the tube at room temperature for **10 minutes** for complete conversion of hemoglobin into acid hematin.",
+   "ar": "ضع الأنبوب بحرارة الغرفة **10 دقائق** لاكتمال تحوّل الهيموغلوبين إلى هيماتين حامضي."
+  },
+  {
+   "t": "rule",
+   "en": "After the reaction completes, place the Hb tube in the column in Sahli’s Comparator box and start **diluting the dark brown coloured compound (Acid Hematin)** formed in the Hb tube using the **distilled water** by adding **drop by drop** of it into the solution and mix with the help of stirrer after each addition.",
+   "ar": "بعد اكتمال التفاعل ضع أنبوب الهيموغلوبين في العمود داخل صندوق سالي المقارن، وابدأ **بتخفيف المركّب البنّي الداكن (الهيماتين الحامضي)** المتكوّن في الأنبوب **بالماء المقطّر** بإضافته **قطرة قطرة** إلى المحلول والمزج بالمحرّك بعد كل إضافة."
+  },
+  {
+   "t": "rule",
+   "en": "This process is done until the endpoint comes **matching the color of standard with the color of the test**.",
+   "ar": "تستمرّ هذه العملية حتى نقطة النهاية عندما **يتطابق لون المعيار مع لون الفحص**."
+  },
+  {
+   "t": "rule",
+   "en": "Once the color is matched with the standard brown glass, lift the stirrer up and note down the reading in Sahli’s Hb tube by taking the **lower meniscus** in consideration.",
+   "ar": "عندما يتطابق اللون مع المعيار الزجاجي البنّي، ارفع المحرّك وسجّل القراءة في أنبوب سالي مع أخذ **الحافّة السفلى للسطح الهلالي** بالحسبان."
+  },
+  {
+   "t": "rule",
+   "en": [
+    "Now add **one more drop** of distilled water and mix it properly with the help of stirrer.",
+    "If color is still matching with the standard add another drop till it matches with the standard and note down the reading and, if it **gets lighter** after adding the first extra drop, it shows **reading taken before dilution was correct**.",
+    "Note down that reading as the **final result**."
+   ],
+   "ar": [
+    "الآن أضف **قطرة إضافية واحدة** من الماء المقطّر وامزجها جيدًا بالمحرّك.",
+    "إذا بقي اللون مطابقًا للمعيار فأضف قطرة أخرى حتى يتطابق مع المعيار وسجّل القراءة، أمّا إذا **أصبح أفتح** بعد القطرة الإضافية الأولى فهذا يدلّ على أن **القراءة المأخوذة قبل التخفيف كانت صحيحة**.",
+    "وسجّل تلك القراءة **نتيجةً نهائية**."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": "Reading of this method is expressed in **Hemoglobin gm/dl (gram/100 ml)** of blood.",
+   "ar": "يُعبَّر عن قراءة هذه الطريقة **بالهيموغلوبين غم/دل (غرام/100 مل)** من الدم."
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "N/10 HCl to mark 20",
+     "ar": "HCl N/10 حتى العلامة 20"
+    },
+    {
+     "en": "+ 20 µl blood, rinse, mix",
+     "ar": "+ 20 مايكرولتر دم، شطف، مزج"
+    },
+    {
+     "en": "10 min → acid hematin",
+     "ar": "10 دقائق ← هيماتين حامضي"
+    },
+    {
+     "en": "Dilute with DW drop by drop",
+     "ar": "تخفيف بالماء المقطّر قطرة قطرة"
+    },
+    {
+     "en": "Match brown glass standard",
+     "ar": "مطابقة المعيار البنّي"
+    },
+    {
+     "en": "Read lower meniscus (gm/dl)",
+     "ar": "قراءة الحافّة السفلى (غم/دل)"
+    }
+   ],
+   "en": "Sahli’s method in steps",
+   "ar": "طريقة سالي بالخطوات"
+  },
+  {
+   "t": "h2",
+   "en": "Normal values of hemoglobin",
+   "ar": "القيم الطبيعية للهيموغلوبين"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Group",
+     "الفئة"
+    ],
+    [
+     "Hemoglobin",
+     "الهيموغلوبين"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Adult Male**",
+      "**الذكر البالغ**"
+     ],
+     [
+      "14-16 gm/dl",
+      "14-16 غم/دل"
+     ]
+    ],
+    [
+     [
+      "**Adult Female**",
+      "**الأنثى البالغة**"
+     ],
+     [
+      "13-15 gm/dl",
+      "13-15 غم/دل"
+     ]
+    ],
+    [
+     [
+      "**Newborn**",
+      "**حديث الولادة**"
+     ],
+     [
+      "16-18 gm/dl",
+      "16-18 غم/دل"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    50,
+    50
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "These normal values are as written in this lab.",
+    "The normal-values lab (lab 3) gives wider adult ranges (male 13.5-17.5, female 11.5-15.5 g/dl)."
+   ],
+   "ar": [
+    "هذه القيم الطبيعية كما كُتبت في هذا العملي.",
+    "وعملي القيم الطبيعية (العملي 3) يذكر مدى أوسع للبالغين (الذكر 13.5-17.5، الأنثى 11.5-15.5 غ/دل)."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "The advantages of sahli’s method",
+   "ar": "مزايا طريقة سالي"
+  },
+  {
+   "t": "card",
+   "en": [
+    "❖ **Cheap** and can be used for hemoglobin estimation where **automated hematology analyser is not available**.",
+    "**No technical expertise** is needed to perform."
+   ],
+   "ar": [
+    "❖ **رخيصة** ويمكن استعمالها لتقدير الهيموغلوبين حيث **لا يتوفّر محلّل الدم الآلي**.",
+    "و**لا تحتاج خبرة فنية** لإجرائها."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "The disadvantages of sahli’s method",
+   "ar": "عيوب طريقة سالي"
+  },
+  {
+   "t": "rule",
+   "en": "The **color of acid hematin fades** with time.",
+   "ar": "**يبهت لون الهيماتين الحامضي** مع الوقت."
+  },
+  {
+   "t": "rule",
+   "en": "**Carboxyhemoglobin, methemoglobin, and sulfhemoglobin** are **not converted** to acid hematin.",
+   "ar": "**الكاربوكسي هيموغلوبين والميثيموغلوبين والسلف هيموغلوبين** **لا تتحوّل** إلى هيماتين حامضي."
+  },
+  {
+   "t": "rule",
+   "en": "Acid hematin solution is **not stable** and **color formation is slow**.",
+   "ar": "محلول الهيماتين الحامضي **غير مستقر** و**تكوّن اللون بطيء**."
+  },
+  {
+   "t": "rule",
+   "en": "**Source of light** will influence the visual comparison of colors.",
+   "ar": "**مصدر الضوء** يؤثّر في المقارنة البصرية للألوان."
+  },
+  {
+   "t": "rule",
+   "en": "Color of **brown glass standard fades** with time.",
+   "ar": "**يبهت لون المعيار الزجاجي البنّي** مع الوقت."
+  },
+  {
+   "t": "rule",
+   "en": "**Individual variation** in matching of color is seen.",
+   "ar": "يُلاحظ **اختلاف فردي** في مطابقة اللون."
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "Drabkin's (HiCN)",
+     "درابكن (HiCN)"
+    ],
+    [
+     "Sahli’s (acid hematin)",
+     "سالي (الهيماتين الحامضي)"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Reagent**",
+      "**الكاشف**"
+     ],
+     [
+      "K ferricyanide + K cyanide (Drabkin's solution), 5 ml",
+      "فيريسيانيد + سيانيد البوتاسيوم (محلول درابكن)، 5 مل"
+     ],
+     [
+      "N/10 HCl to mark 20",
+      "HCl N/10 حتى العلامة 20"
+     ]
+    ],
+    [
+     [
+      "**Blood**",
+      "**الدم**"
+     ],
+     [
+      "0.02 ml venous",
+      "0.02 مل وريدي"
+     ],
+     [
+      "20 µl venous or capillary",
+      "20 مايكرولتر وريدي أو شعيري"
+     ]
+    ],
+    [
+     [
+      "**Product**",
+      "**الناتج**"
+     ],
+     [
+      "cyanmethemoglobin (HiCN)",
+      "السيانميثيموغلوبين (HiCN)"
+     ],
+     [
+      "acid hematin (brown)",
+      "الهيماتين الحامضي (بنّي)"
+     ]
+    ],
+    [
+     [
+      "**Wait**",
+      "**الانتظار**"
+     ],
+     [
+      "5 min",
+      "5 دقائق"
+     ],
+     [
+      "10 min",
+      "10 دقائق"
+     ]
+    ],
+    [
+     [
+      "**Measurement**",
+      "**القياس**"
+     ],
+     [
+      "spectrophotometer at 540 nm + standard curve",
+      "المطياف الضوئي عند 540 نانومتر + منحنى قياسي"
+     ],
+     [
+      "visual: dilute with DW until it matches the brown glass standard",
+      "بصري: التخفيف بالماء حتى يطابق المعيار البنّي"
+     ]
+    ],
+    [
+     [
+      "**Notes**",
+      "**ملاحظات**"
+     ],
+     [
+      "photometric, quantitative",
+      "ضوئية، كمّية"
+     ],
+     [
+      "cheap, no expertise; colour fades, COHb/MetHb/SHb not converted, light and observer errors",
+      "رخيصة، بلا خبرة؛ يبهت اللون، لا تتحوّل COHb/MetHb/SHb، أخطاء الضوء والمشاهد"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    16,
+    40,
+    44
+   ],
+   "style": "summary",
+   "label_en": "Drabkin's vs Sahli’s",
+   "label_ar": "درابكن مقابل سالي"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Sahli = Hb + **N/10 HCl** → brown **acid hematin** (10 min) → dilute with DW → match **brown glass** → read **lower meniscus** in gm/dl.",
+    "Capillary: **middle or ring finger**, wipe the **first drop**, use the **second**.",
+    "Normal (this lab): male **14-16**, female **13-15**, newborn **16-18** gm/dl.",
+    "Main weakness: fading colour and **COHb, MetHb, SHb not converted**."
+   ],
+   "ar": [
+    "سالي = Hb + **HCl N/10** ← **هيماتين حامضي** بنّي (10 دقائق) ← تخفيف بالماء ← مطابقة **الزجاج البنّي** ← قراءة **الحافّة السفلى** بالغم/دل.",
+    "الشعيري: **الوسطى أو البنصر**، امسح **القطرة الأولى** واستعمل **الثانية**.",
+    "الطبيعي (هذا العملي): الذكر **14-16**، الأنثى **13-15**، حديث الولادة **16-18** غم/دل.",
+    "أهم العيوب: بهتان اللون و**عدم تحوّل COHb وMetHb وSHb**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Hemoglobin estimation**",
+     "تقدير الهيموغلوبين / قياس الخضاب"
+    ],
+    [
+     "**Cyanmethemoglobin (HiCN)**",
+     "السيانميثيموغلوبين / الهيموغلوبين السيانيدي"
+    ],
+    [
+     "**Drabkin's solution**",
+     "محلول درابكن / كاشف درابكن"
+    ],
+    [
+     "**Potassium ferricyanide**",
+     "فيريسيانيد البوتاسيوم / سيانيد الحديديك البوتاسي"
+    ],
+    [
+     "**Potassium cyanide**",
+     "سيانيد البوتاسيوم"
+    ],
+    [
+     "**Methemoglobin**",
+     "الميثيموغلوبين / الهيموغلوبين المؤكسد"
+    ],
+    [
+     "**Spectrophotometer**",
+     "المطياف الضوئي / جهاز قياس الطيف"
+    ],
+    [
+     "**Absorbance**",
+     "الامتصاصية / الكثافة الضوئية"
+    ],
+    [
+     "**Standard curve**",
+     "المنحنى القياسي / منحنى المعايرة"
+    ],
+    [
+     "**Acid hematin**",
+     "الهيماتين الحامضي"
+    ],
+    [
+     "**Sahli’s method**",
+     "طريقة سالي / طريقة ساهلي"
+    ],
+    [
+     "**Comparator**",
+     "المقارن / جهاز المقارنة اللونية"
+    ],
+    [
+     "**Meniscus**",
+     "السطح الهلالي / التقعّر"
+    ],
+    [
+     "**Capillary blood**",
+     "الدم الشعيري / دم الوخز"
+    ],
+    [
+     "**Lancet**",
+     "المشرط / إبرة الوخز"
+    ],
+    [
+     "**Carboxyhemoglobin**",
+     "الكاربوكسي هيموغلوبين / هيموغلوبين أول أكسيد الكربون"
+    ],
+    [
+     "**Sulfhemoglobin**",
+     "السلف هيموغلوبين / الهيموغلوبين الكبريتي"
+    ],
+    [
+     "**Automated hematology analyser**",
+     "محلّل الدم الآلي / جهاز CBC"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Drabkin's (cyanmethemoglobin) method",
+    "topic_ar": "طريقة درابكن (السيانميثيموغلوبين)"
+   },
+   {
+    "en": "Drabkin's solution consists mainly of:",
+    "ar": "يتكوّن محلول درابكن بصورة رئيسية من:",
+    "options": [
+     [
+      "Sodium citrate",
+      "سترات الصوديوم"
+     ],
+     [
+      "Hydrochloric acid",
+      "حامض الهيدروكلوريك"
+     ],
+     [
+      "EDTA and saline",
+      "EDTA ومحلول ملحي"
+     ],
+     [
+      "Potassium cyanide and potassium ferricyanide",
+      "سيانيد البوتاسيوم وفيريسيانيد البوتاسيوم"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In Drabkin's method hemoglobin is first oxidized to methemoglobin by:",
+    "ar": "في طريقة درابكن يتأكسد الهيموغلوبين أولًا إلى ميثيموغلوبين بواسطة:",
+    "options": [
+     [
+      "Potassium cyanide",
+      "سيانيد البوتاسيوم"
+     ],
+     [
+      "Potassium ferricyanide",
+      "فيريسيانيد البوتاسيوم"
+     ],
+     [
+      "Nonionic detergent",
+      "المنظّف غير الأيوني"
+     ],
+     [
+      "Distilled water",
+      "الماء المقطّر"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The final colored product measured in Drabkin's method is:",
+    "ar": "الناتج الملوّن النهائي المقاس في طريقة درابكن:",
+    "options": [
+     [
+      "Cyanmethemoglobin (HiCN)",
+      "السيانميثيموغلوبين (HiCN)"
+     ],
+     [
+      "Oxyhemoglobin",
+      "الأوكسي هيموغلوبين"
+     ],
+     [
+      "Acid hematin",
+      "الهيماتين الحامضي"
+     ],
+     [
+      "Sulfhemoglobin",
+      "السلف هيموغلوبين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The absorbance in Drabkin's method is read at:",
+    "ar": "تُقرأ الامتصاصية في طريقة درابكن عند:",
+    "options": [
+     [
+      "420 nm",
+      "420 نانومتر"
+     ],
+     [
+      "600 nm",
+      "600 نانومتر"
+     ],
+     [
+      "540 nm",
+      "540 نانومتر"
+     ],
+     [
+      "340 nm",
+      "340 نانومتر"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The amount of potassium cyanide in 1 L of Drabkin's solution is:",
+    "ar": "كمية سيانيد البوتاسيوم في لتر من محلول درابكن:",
+    "options": [
+     [
+      "50 mg",
+      "50 ملغم"
+     ],
+     [
+      "200 mg",
+      "200 ملغم"
+     ],
+     [
+      "140 mg",
+      "140 ملغم"
+     ],
+     [
+      "1 g",
+      "1 غ"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The amount of potassium ferricyanide in 1 L of Drabkin's solution is:",
+    "ar": "كمية فيريسيانيد البوتاسيوم في لتر من محلول درابكن:",
+    "options": [
+     [
+      "50 mg",
+      "50 ملغم"
+     ],
+     [
+      "200 mg",
+      "200 ملغم"
+     ],
+     [
+      "140 mg",
+      "140 ملغم"
+     ],
+     [
+      "1 ml",
+      "1 مل"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In Drabkin's procedure the volumes used are:",
+    "ar": "الحجوم المستعملة في طريقة درابكن:",
+    "options": [
+     [
+      "1 ml reagent + 1 ml blood",
+      "1 مل كاشف + 1 مل دم"
+     ],
+     [
+      "20 ml reagent + 2 ml blood",
+      "20 مل كاشف + 2 مل دم"
+     ],
+     [
+      "5 ml reagent + 0.02 ml blood",
+      "5 مل كاشف + 0.02 مل دم"
+     ],
+     [
+      "0.5 ml reagent + 0.5 ml blood",
+      "0.5 مل كاشف + 0.5 مل دم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "After adding blood to Drabkin's solution, wait for:",
+    "ar": "بعد إضافة الدم إلى محلول درابكن انتظر:",
+    "options": [
+     [
+      "1 hour",
+      "ساعة"
+     ],
+     [
+      "10 minutes",
+      "10 دقائق"
+     ],
+     [
+      "30 seconds",
+      "30 ثانية"
+     ],
+     [
+      "5 minutes",
+      "5 دقائق"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Hemoglobin concentration in Drabkin's method is calculated using:",
+    "ar": "يُحسب تركيز الهيموغلوبين في طريقة درابكن باستعمال:",
+    "options": [
+     [
+      "A standard curve",
+      "منحنى قياسي"
+     ],
+     [
+      "A brown glass standard",
+      "معيار زجاجي بنّي"
+     ],
+     [
+      "The lower meniscus",
+      "الحافّة السفلى للسطح الهلالي"
+     ],
+     [
+      "A comparator box",
+      "صندوق مقارن"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Drabkin's method is described as:",
+    "ar": "توصف طريقة درابكن بأنها:",
+    "options": [
+     [
+      "Visual comparison",
+      "مقارنة بصرية"
+     ],
+     [
+      "Photometric (spectrophotometer)",
+      "ضوئية (مطياف ضوئي)"
+     ],
+     [
+      "Gravimetric",
+      "وزنية"
+     ],
+     [
+      "Microscopic",
+      "مجهرية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Sahli’s (acid hematin) method",
+    "topic_ar": "طريقة سالي (الهيماتين الحامضي)"
+   },
+   {
+    "en": "In Sahli’s method hemoglobin is converted to acid hematin by:",
+    "ar": "في طريقة سالي يتحوّل الهيموغلوبين إلى هيماتين حامضي بواسطة:",
+    "options": [
+     [
+      "Potassium ferricyanide",
+      "فيريسيانيد البوتاسيوم"
+     ],
+     [
+      "Distilled water",
+      "الماء المقطّر"
+     ],
+     [
+      "Sodium hydroxide",
+      "هيدروكسيد الصوديوم"
+     ],
+     [
+      "1/10 N HCl",
+      "HCl عياري 1/10"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The color of acid hematin is:",
+    "ar": "لون الهيماتين الحامضي:",
+    "options": [
+     [
+      "Red",
+      "أحمر"
+     ],
+     [
+      "Green",
+      "أخضر"
+     ],
+     [
+      "Brown",
+      "بنّي"
+     ],
+     [
+      "Yellow",
+      "أصفر"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The capacity of the hemoglobin pipette is:",
+    "ar": "سعة ماصّة الهيموغلوبين:",
+    "options": [
+     [
+      "0.2 ml",
+      "0.2 مل"
+     ],
+     [
+      "0.02 ml (20 µl)",
+      "0.02 مل (20 مايكرولتر)"
+     ],
+     [
+      "2 ml",
+      "2 مل"
+     ],
+     [
+      "5 ml",
+      "5 مل"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "N/10 HCl is added to the Sahli’s tube up to:",
+    "ar": "يُضاف HCl N/10 إلى أنبوب سالي حتى:",
+    "options": [
+     [
+      "The mark 20 (yellow marking)",
+      "العلامة 20 (العلامة الصفراء)"
+     ],
+     [
+      "The top of the tube",
+      "أعلى الأنبوب"
+     ],
+     [
+      "The mark 100",
+      "العلامة 100"
+     ],
+     [
+      "1 ml",
+      "1 مل"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "For capillary blood in Sahli’s method, the finger pricked is:",
+    "ar": "للدم الشعيري في طريقة سالي يُوخز:",
+    "options": [
+     [
+      "The thumb",
+      "الإبهام"
+     ],
+     [
+      "The little finger",
+      "الخنصر"
+     ],
+     [
+      "The middle or ring finger",
+      "الإصبع الوسطى أو البنصر"
+     ],
+     [
+      "The index finger only",
+      "السبّابة فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "When drawing capillary blood, the first drop is:",
+    "ar": "عند سحب الدم الشعيري تكون القطرة الأولى:",
+    "options": [
+     [
+      "Used for the test",
+      "مستعملة للفحص"
+     ],
+     [
+      "Mixed with HCl",
+      "ممزوجة مع HCl"
+     ],
+     [
+      "Added to the comparator",
+      "مضافة إلى المقارن"
+     ],
+     [
+      "Wiped out",
+      "ممسوحة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The tube is left at room temperature for complete conversion to acid hematin for:",
+    "ar": "يُترك الأنبوب بحرارة الغرفة لاكتمال التحوّل إلى هيماتين حامضي لمدّة:",
+    "options": [
+     [
+      "5 minutes",
+      "5 دقائق"
+     ],
+     [
+      "10 minutes",
+      "10 دقائق"
+     ],
+     [
+      "1 hour",
+      "ساعة"
+     ],
+     [
+      "24 hours",
+      "24 ساعة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The acid hematin is diluted with:",
+    "ar": "يُخفَّف الهيماتين الحامضي بـ:",
+    "options": [
+     [
+      "Distilled water drop by drop",
+      "الماء المقطّر قطرة قطرة"
+     ],
+     [
+      "N/10 HCl",
+      "HCl N/10"
+     ],
+     [
+      "Drabkin's solution",
+      "محلول درابكن"
+     ],
+     [
+      "Saline",
+      "المحلول الملحي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The reading in Sahli’s tube is taken at the:",
+    "ar": "تؤخذ القراءة في أنبوب سالي عند:",
+    "options": [
+     [
+      "Upper meniscus",
+      "الحافّة العليا"
+     ],
+     [
+      "Middle of the tube",
+      "منتصف الأنبوب"
+     ],
+     [
+      "Lower meniscus",
+      "الحافّة السفلى للسطح الهلالي"
+     ],
+     [
+      "Yellow mark",
+      "العلامة الصفراء"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "If the colour gets lighter after the first extra drop, then:",
+    "ar": "إذا أصبح اللون أفتح بعد القطرة الإضافية الأولى فإن:",
+    "options": [
+     [
+      "Add more HCl",
+      "تُضاف كمية أكبر من HCl"
+     ],
+     [
+      "The test is repeated",
+      "يُعاد الفحص"
+     ],
+     [
+      "The standard is faulty",
+      "المعيار خاطئ"
+     ],
+     [
+      "The reading before dilution was correct",
+      "القراءة قبل التخفيف كانت صحيحة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The result of Sahli’s method is expressed in:",
+    "ar": "يُعبَّر عن نتيجة طريقة سالي بـ:",
+    "options": [
+     [
+      "mmol/L only",
+      "ملي مول/لتر فقط"
+     ],
+     [
+      "cells/mm³",
+      "خلية/مم³"
+     ],
+     [
+      "gm/dl (gram/100 ml)",
+      "غم/دل (غرام/100 مل)"
+     ],
+     [
+      "seconds",
+      "ثوانٍ"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "According to this lab, the normal hemoglobin of an adult male is:",
+    "ar": "حسب هذا العملي، الهيموغلوبين الطبيعي للذكر البالغ:",
+    "options": [
+     [
+      "13-15 gm/dl",
+      "13-15 غم/دل"
+     ],
+     [
+      "14-16 gm/dl",
+      "14-16 غم/دل"
+     ],
+     [
+      "16-18 gm/dl",
+      "16-18 غم/دل"
+     ],
+     [
+      "10-12 gm/dl",
+      "10-12 غم/دل"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "According to this lab, the normal hemoglobin of a newborn is:",
+    "ar": "حسب هذا العملي، الهيموغلوبين الطبيعي لحديث الولادة:",
+    "options": [
+     [
+      "13-15 gm/dl",
+      "13-15 غم/دل"
+     ],
+     [
+      "14-16 gm/dl",
+      "14-16 غم/دل"
+     ],
+     [
+      "8-10 gm/dl",
+      "8-10 غم/دل"
+     ],
+     [
+      "16-18 gm/dl",
+      "16-18 غم/دل"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "An advantage of Sahli’s method is that it:",
+    "ar": "من مزايا طريقة سالي أنها:",
+    "options": [
+     [
+      "Is cheap and needs no technical expertise",
+      "رخيصة ولا تحتاج خبرة فنية"
+     ],
+     [
+      "Has a stable colour",
+      "لونها مستقر"
+     ],
+     [
+      "Needs a spectrophotometer",
+      "تحتاج مطيافًا ضوئيًا"
+     ],
+     [
+      "Converts all hemoglobin forms",
+      "تحوّل كل أشكال الهيموغلوبين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which is NOT converted to acid hematin?",
+    "ar": "أيّ مما يأتي لا يتحوّل إلى هيماتين حامضي؟",
+    "options": [
+     [
+      "Oxyhemoglobin",
+      "الأوكسي هيموغلوبين"
+     ],
+     [
+      "Carboxyhemoglobin",
+      "الكاربوكسي هيموغلوبين"
+     ],
+     [
+      "Reduced hemoglobin",
+      "الهيموغلوبين المختزل"
+     ],
+     [
+      "Adult hemoglobin",
+      "هيموغلوبين البالغين"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which is NOT a disadvantage of Sahli’s method?",
+    "ar": "أيّ مما يأتي ليس من عيوب طريقة سالي؟",
+    "options": [
+     [
+      "It is expensive and needs an analyser",
+      "مكلفة وتحتاج محلّلًا آليًا"
+     ],
+     [
+      "Colour of acid hematin fades",
+      "يبهت لون الهيماتين الحامضي"
+     ],
+     [
+      "Light source affects comparison",
+      "مصدر الضوء يؤثّر في المقارنة"
+     ],
+     [
+      "Individual variation in colour matching",
+      "اختلاف فردي في مطابقة اللون"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this diagram, the reagent that converts methemoglobin to cyanmethemoglobin is:",
+    "ar": "في هذا المخطط، الكاشف الذي يحوّل الميثيموغلوبين إلى سيانميثيموغلوبين:",
+    "options": [
+     [
+      "Potassium ferricyanide",
+      "فيريسيانيد البوتاسيوم"
+     ],
+     [
+      "HCl",
+      "HCl"
+     ],
+     [
+      "Potassium cyanide",
+      "سيانيد البوتاسيوم"
+     ],
+     [
+      "Distilled water",
+      "الماء المقطّر"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/hicn-principle.png",
+    "img_h": "44mm"
+   },
+   {
+    "en": "In this picture, the item used to compare the colour of the test is:",
+    "ar": "في هذه الصورة، الأداة المستعملة لمقارنة لون الفحص هي:",
+    "options": [
+     [
+      "Thin glass rod",
+      "القضيب الزجاجي الرفيع"
+     ],
+     [
+      "Hemoglobin pipette",
+      "ماصّة الهيموغلوبين"
+     ],
+     [
+      "Graduated tube",
+      "الأنبوب المدرّج"
+     ],
+     [
+      "Comparator with a brown glass standard",
+      "المقارن مع المعيار الزجاجي البنّي"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/sahli-apparatus.png",
+    "img_h": "44mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Drabkin's reagent gives a quantitative colorimetric determination of hemoglobin.",
+    "ar": "يعطي كاشف درابكن تحديدًا كمّيًا لونيًا للهيموغلوبين.",
+    "answer": "T"
+   },
+   {
+    "en": "In Drabkin's method hemoglobin is oxidized in the presence of alkaline potassium ferricyanide.",
+    "ar": "في طريقة درابكن يتأكسد الهيموغلوبين بوجود فيريسيانيد البوتاسيوم القلوي.",
+    "answer": "T"
+   },
+   {
+    "en": "Drabkin's solution contains hydrochloric acid.",
+    "ar": "يحتوي محلول درابكن على حامض الهيدروكلوريك.",
+    "answer": "F"
+   },
+   {
+    "en": "A standard curve is prepared from samples of known hemoglobin concentration.",
+    "ar": "يُحضَّر المنحنى القياسي من عيّنات معلومة تركيز الهيموغلوبين.",
+    "answer": "T"
+   },
+   {
+    "en": "Capillary blood is used in the Drabkin's procedure of this lab.",
+    "ar": "يُستعمل الدم الشعيري في طريقة درابكن في هذا العملي.",
+    "answer": "F"
+   },
+   {
+    "en": "Sahli’s Hb tube has two graduations: gm/dl and Hb %age.",
+    "ar": "لأنبوب سالي تدريجان: غم/دل والنسبة المئوية للهيموغلوبين.",
+    "answer": "T"
+   },
+   {
+    "en": "In Sahli’s method the pipette is rinsed with the same HCl solution.",
+    "ar": "في طريقة سالي تُشطف الماصّة بمحلول HCl نفسه.",
+    "answer": "T"
+   },
+   {
+    "en": "Acid hematin is diluted with N/10 HCl until it matches the standard.",
+    "ar": "يُخفَّف الهيماتين الحامضي بـ HCl N/10 حتى يطابق المعيار.",
+    "answer": "F"
+   },
+   {
+    "en": "The stirrer is lifted before taking the reading.",
+    "ar": "يُرفع المحرّك قبل أخذ القراءة.",
+    "answer": "T"
+   },
+   {
+    "en": "Acid hematin solution is stable and color forms quickly.",
+    "ar": "محلول الهيماتين الحامضي مستقر ويتكوّن اللون بسرعة.",
+    "answer": "F"
+   },
+   {
+    "en": "The brown glass standard fades with time.",
+    "ar": "يبهت المعيار الزجاجي البنّي مع الوقت.",
+    "answer": "T"
+   },
+   {
+    "en": "Normal hemoglobin of an adult female in this lab is 13-15 gm/dl.",
+    "ar": "الهيموغلوبين الطبيعي للأنثى البالغة في هذا العملي 13-15 غم/دل.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Ferricyanide or cyanide first?",
+    "ar": "الفيريسيانيد أم السيانيد أولًا؟",
+    "answer_en": "Potassium ferricyanide first: Hb → methemoglobin. Then potassium cyanide: methemoglobin → cyanmethemoglobin (HiCN).",
+    "answer_ar": "فيريسيانيد البوتاسيوم أولًا: Hb ← ميثيموغلوبين. ثم سيانيد البوتاسيوم: ميثيموغلوبين ← سيانميثيموغلوبين (HiCN)."
+   },
+   {
+    "en": "50, 200, 140",
+    "ar": "50، 200، 140",
+    "answer_en": "KCN 50 mg, K ferricyanide 200 mg, KH₂PO₄ 140 mg, detergent 1 ml, water 1 L.",
+    "answer_ar": "KCN 50 ملغم، الفيريسيانيد 200 ملغم، KH₂PO₄ 140 ملغم، منظّف 1 مل، ماء لتر."
+   },
+   {
+    "en": "5 min or 10 min?",
+    "ar": "5 دقائق أم 10؟",
+    "answer_en": "Drabkin's: wait 5 min. Sahli’s: 10 minutes for complete conversion to acid hematin.",
+    "answer_ar": "درابكن: انتظر 5 دقائق. سالي: 10 دقائق لاكتمال التحوّل إلى هيماتين حامضي."
+   },
+   {
+    "en": "Same blood volume in both",
+    "ar": "حجم الدم نفسه في الطريقتين",
+    "answer_en": "Both use 0.02 ml = 20 µl of blood (Drabkin's into 5 ml reagent; Sahli’s into N/10 HCl to mark 20).",
+    "answer_ar": "كلتاهما تستعمل 0.02 مل = 20 مايكرولتر من الدم (درابكن في 5 مل كاشف؛ سالي في HCl N/10 حتى العلامة 20)."
+   },
+   {
+    "en": "Dilute with what?",
+    "ar": "التخفيف بماذا؟",
+    "answer_en": "Sahli’s: acid is N/10 HCl, but dilution is with distilled water, drop by drop.",
+    "answer_ar": "سالي: الحامض هو HCl N/10، لكن التخفيف بالماء المقطّر قطرة قطرة."
+   },
+   {
+    "en": "Which meniscus?",
+    "ar": "أي حافّة؟",
+    "answer_en": "Read the lower meniscus, after lifting the stirrer.",
+    "answer_ar": "اقرأ الحافّة السفلى للسطح الهلالي بعد رفع المحرّك."
+   },
+   {
+    "en": "Normal values — two labs",
+    "ar": "القيم الطبيعية — عمليان",
+    "answer_en": "This lab: male 14-16, female 13-15, newborn 16-18 gm/dl. Lab 3 table: male 13.5-17.5, female 11.5-15.5 g/dl. Answer from the lab the question is about.",
+    "answer_ar": "هذا العملي: الذكر 14-16، الأنثى 13-15، حديث الولادة 16-18 غم/دل. جدول العملي 3: الذكر 13.5-17.5، الأنثى 11.5-15.5 غ/دل. أجب حسب العملي المقصود."
+   }
+  ],
+  "important": [
+   {
+    "en": "Explain the principle of the cyanmethemoglobin (Drabkin's) method.",
+    "ar": "اشرح مبدأ طريقة السيانميثيموغلوبين (درابكن).",
+    "answer_en": "Blood is diluted in Drabkin's solution (potassium cyanide + potassium ferricyanide). Potassium ferricyanide (alkaline) oxidizes hemoglobin to methemoglobin, and potassium cyanide converts methemoglobin to cyanmethemoglobin (HiCN). It is a photometric, quantitative method: the absorbance is measured in a spectrophotometer at 540 nm and the concentration is read from a standard curve.",
+    "answer_ar": "يُخفَّف الدم في محلول درابكن (سيانيد البوتاسيوم + فيريسيانيد البوتاسيوم). يؤكسد فيريسيانيد البوتاسيوم (القلوي) الهيموغلوبين إلى ميثيموغلوبين، ويحوّل سيانيد البوتاسيوم الميثيموغلوبين إلى سيانميثيموغلوبين (HiCN). وهي طريقة ضوئية كمّية: تُقاس الامتصاصية في المطياف الضوئي عند 540 نانومتر ويُقرأ التركيز من المنحنى القياسي."
+   },
+   {
+    "en": "Give the composition of Drabkin's solution and the procedure.",
+    "ar": "اذكر تركيب محلول درابكن وطريقة العمل.",
+    "answer_en": "Per 1 L distilled water: potassium cyanide 50 mg, potassium ferricyanide 200 mg, potassium dihydrogen phosphate 140 mg, nonionic detergent 1 ml. Procedure: 5 ml Drabkin's solution in a test tube; add 0.02 ml well-mixed venous blood with an Hb pipette; mix and wait 5 min; read absorbance at 540 nm; calculate Hb from a standard curve.",
+    "answer_ar": "لكل لتر ماء مقطّر: سيانيد البوتاسيوم 50 ملغم، فيريسيانيد البوتاسيوم 200 ملغم، فوسفات البوتاسيوم ثنائية الهيدروجين 140 ملغم، منظّف غير أيوني 1 مل. العمل: 5 مل من المحلول في أنبوب؛ أضف 0.02 مل دم وريدي ممزوج جيدًا بماصّة الهيموغلوبين؛ امزج وانتظر 5 دقائق؛ اقرأ الامتصاصية عند 540 نانومتر؛ واحسب الهيموغلوبين من المنحنى القياسي."
+   },
+   {
+    "en": "What is the principle of Sahli’s method and what apparatus is used?",
+    "ar": "ما مبدأ طريقة سالي وما الأدوات المستعملة؟",
+    "answer_en": "Hemoglobin is converted by 1/10 N HCl into brown acid hematin, which is measured colorimetrically by comparing with a standard. Apparatus: hemoglobin pipette (0.02 ml / 20 µl), Sahli’s graduated hemoglobin tube, thin glass rod stirrer, Sahli’s comparator box with brown glass standard.",
+    "answer_ar": "يتحوّل الهيموغلوبين بحامض HCl عياري 1/10 إلى هيماتين حامضي بنّي يُقاس لونيًا بمقارنته بمعيار. الأدوات: ماصّة الهيموغلوبين (0.02 مل / 20 مايكرولتر)، أنبوب سالي المدرّج، محرّك من قضيب زجاجي رفيع، صندوق سالي المقارن مع المعيار الزجاجي البنّي."
+   },
+   {
+    "en": "Describe the procedure of Sahli’s method.",
+    "ar": "صف طريقة عمل سالي.",
+    "answer_en": "N/10 HCl to mark 20 (yellow) in the tube; draw 20 µl venous or capillary blood (middle or ring finger, wipe the first drop, use the second); dispense into the acid, rinse the pipette, mix; leave 10 minutes at room temperature; place the tube in the comparator and dilute with distilled water drop by drop, mixing after each drop, until the colour matches the brown glass standard; lift the stirrer and read the lower meniscus; add one more drop to confirm — if it gets lighter, the previous reading is the final result; express in gm/dl.",
+    "answer_ar": "HCl N/10 حتى العلامة 20 (الصفراء) في الأنبوب؛ اسحب 20 مايكرولتر دم وريدي أو شعيري (الوسطى أو البنصر، امسح القطرة الأولى واستعمل الثانية)؛ أفرغه في الحامض واشطف الماصّة وامزج؛ اتركه 10 دقائق بحرارة الغرفة؛ ضع الأنبوب في المقارن وخفّف بالماء المقطّر قطرة قطرة مع المزج بعد كل قطرة حتى يطابق اللون المعيار البنّي؛ ارفع المحرّك واقرأ الحافّة السفلى؛ أضف قطرة أخرى للتأكيد — إذا أصبح أفتح فالقراءة السابقة هي النتيجة النهائية؛ وعبّر عنها بالغم/دل."
+   },
+   {
+    "en": "Give the advantages and disadvantages of Sahli’s method.",
+    "ar": "اذكر مزايا طريقة سالي وعيوبها.",
+    "answer_en": "Advantages: cheap, usable where an automated hematology analyser is not available, no technical expertise needed. Disadvantages: acid hematin colour fades; carboxyhemoglobin, methemoglobin and sulfhemoglobin are not converted; solution not stable and colour forms slowly; light source affects visual comparison; brown glass standard fades; individual variation in colour matching.",
+    "answer_ar": "المزايا: رخيصة، تُستعمل حيث لا يتوفّر محلّل دم آلي، ولا تحتاج خبرة فنية. العيوب: يبهت لون الهيماتين الحامضي؛ لا يتحوّل الكاربوكسي هيموغلوبين والميثيموغلوبين والسلف هيموغلوبين؛ المحلول غير مستقر وتكوّن اللون بطيء؛ مصدر الضوء يؤثّر في المقارنة البصرية؛ يبهت المعيار البنّي؛ واختلاف فردي في مطابقة اللون."
+   },
+   {
+    "en": "Compare Drabkin's and Sahli’s methods.",
+    "ar": "قارن بين طريقتي درابكن وسالي.",
+    "answer_en": "Drabkin's: K ferricyanide + K cyanide → HiCN, 5 ml reagent + 0.02 ml venous blood, 5 min, spectrophotometer at 540 nm with a standard curve (photometric). Sahli’s: N/10 HCl → acid hematin, 20 µl venous or capillary blood, 10 min, visual comparison with a brown glass standard after diluting with distilled water; cheap but less accurate.",
+    "answer_ar": "درابكن: فيريسيانيد + سيانيد البوتاسيوم ← HiCN، 5 مل كاشف + 0.02 مل دم وريدي، 5 دقائق، مطياف ضوئي عند 540 نانومتر مع منحنى قياسي (ضوئية). سالي: HCl N/10 ← هيماتين حامضي، 20 مايكرولتر دم وريدي أو شعيري، 10 دقائق، مقارنة بصرية بالمعيار البنّي بعد التخفيف بالماء المقطّر؛ رخيصة لكنها أقل دقّة."
+   }
+  ]
+ }
+}

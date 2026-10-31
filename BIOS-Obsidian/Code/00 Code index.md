@@ -24,6 +24,7 @@
 - [[Code/chr - l2.py|chr/l2.py]] → histopathology-lec2-chronic-inflammation
 - [[Code/eth - make.py|eth/make.py]] → ethics-lec1-morals
 - [[Code/gt2 - gt2.py|gt2/gt2.py]] → genetics-lec2-meiosis
+- [[Code/hb4 - hbq.py|hb4/hbq.py]] → hematology-practical-hb-estimation
 - [[Code/heal - l4.py|heal/l4.py]] → histopathology-lec4-healing-regeneration
 - [[Code/hem - make.py|hem/make.py]] → enzymology-lab1-safety-tubes
 - [[Code/hem3 - l2.py|hem3/l2.py]] → hematology-lec2-blood-cell-formation
@@ -89,6 +90,7 @@
 - [[Code/bios_dbg.py|bios_dbg.py]]
 - [[Code/covers - make.py|covers/make.py]]
 - [[Code/covers - make2.py|covers/make2.py]]
+- [[Code/hb4 - hb.py|hb4/hb.py]]
 - [[Code/im4 - i4.py|im4/i4.py]]
 - [[Code/iml3 - l3.py|iml3/l3.py]]
 - [[Code/imm456 - ci5_blocks.py|imm456/ci5_blocks.py]]
