@@ -12,9 +12,9 @@ blocks = [
     "They serve as **enzymes, hormones, transporters, antibodies, and structural components**.",
     "In biological fluids such as **plasma and urine**, the **concentration and composition** of proteins provide crucial **diagnostic information** about physiological and pathological states."],
    ["البروتينات جزيئات حيوية أساسية تؤدّي وظائف متنوّعة داخل جسم الإنسان.",
-    "فهي تعمل **إنزيمات وهرمونات ونواقل وأضدادًا ومكوّنات بنائية**.",
+    "فهي تعمل **إنزيمات وهرمونات ونواقل وأضدادًا ومكوّنات بنيوية (هيكلية)**.",
     "وفي السوائل الحيوية مثل **البلازما والإدرار** يقدّم **تركيز البروتينات وتركيبها** **معلومات تشخيصية** حاسمة عن الحالات الفسيولوجية والمرضية."]),
- INSHORT([("Proteins = enzymes, hormones, transporters, antibodies, structure.", "البروتينات = إنزيمات، هرمونات، نواقل، أضداد، بناء."),
+ INSHORT([("Proteins = enzymes, hormones, transporters, antibodies, structure.", "البروتينات = إنزيمات، هرمونات، نواقل، أضداد، بنية (تركيب)."),
           ("Their **amount and type in plasma and urine** help diagnosis.", "**كمّيتها ونوعها في البلازما والإدرار** تساعد في التشخيص.")]),
 
  # ───────────────────────── 2
@@ -55,7 +55,7 @@ blocks = [
  FLOW([("Albumin", "الألبومين"), ("α1", "ألفا 1"), ("α2", "ألفا 2"), ("β", "بيتا"), ("γ", "غاما")], en="SPEP bands", ar="حزم SPEP"),
  INSHORT([("Plasma protein **6–8 g/dL**: albumin **~60%**, globulins **~35%**, fibrinogen **~4%**; made in **liver** and **immune system**.", "بروتين البلازما **6–8 غ/دل**: ألبومين **نحو 60%**، غلوبيولينات **نحو 35%**، فايبرينوجين **نحو 4%**؛ يُصنع في **الكبد** و**الجهاز المناعي**."),
           ("Albumin = **oncotic pressure + carrier + antioxidant**; γ-globulins = **antibodies**.", "الألبومين = **ضغط ورمي + ناقل + مضاد أكسدة**؛ وغلوبيولينات غاما = **الأضداد**."),
-          ("**Low** protein: liver disease, malnutrition, nephrotic syndrome, protein-losing enteropathy; **high**: dehydration, myeloma → **SPEP**.", "**نقص** البروتين: أمراض الكبد، سوء التغذية، المتلازمة الكلوية، اعتلال الأمعاء؛ **زيادته**: الجفاف، الورم النقوي ← **SPEP**.")]),
+          ("**Low** protein: liver disease, malnutrition, nephrotic syndrome, protein-losing enteropathy; **high**: dehydration, myeloma → **SPEP**.", "**نقص** البروتين: أمراض الكبد، سوء التغذية، المتلازمة الكلوية، اعتلال الأمعاء؛ **زيادته**: الجفاف، الورم النقوي المتعدّد ← **SPEP**.")]),
 
  # ───────────────────────── 3
  SEC("Proteins in Urine", "البروتينات في الإدرار"),
@@ -88,7 +88,7 @@ blocks = [
  T([B("Type", "النوع"), B("Cause", "السبب"), B("Protein / example", "البروتين / مثال")],
    [[B("**Glomerular**", "**كبيبية**"), B("increased glomerular permeability", "زيادة نفاذية الكبيبة"), B("mainly albumin — nephrotic syndrome, glomerulonephritis", "ألبومين غالبًا — المتلازمة الكلوية، التهاب الكبيبات")],
     [B("**Tubular**", "**نبيبية**"), B("defective tubular reabsorption", "خلل إعادة الامتصاص النبيبي"), B("β2-microglobulin — interstitial nephritis", "بيتا 2 مايكروغلوبيولين — التهاب الكلية الخلالي")],
-    [B("**Overflow**", "**فائضة**"), B("load exceeds reabsorptive capacity", "الحمل يتجاوز قدرة إعادة الامتصاص"), B("Bence Jones light chains — multiple myeloma", "سلاسل بنس جونز الخفيفة — الورم النقوي")],
+    [B("**Overflow**", "**فائضة**"), B("load exceeds reabsorptive capacity", "الحمل يتجاوز قدرة إعادة الامتصاص"), B("Bence Jones light chains — multiple myeloma", "سلاسل بنس جونز الخفيفة — الورم النقوي المتعدّد")],
     [B("**Postrenal**", "**بعد كلوية**"), B("urinary tract", "المسالك البولية"), B("infection, bleeding", "التهاب، نزف")]],
    key_cols=[0], widths=[18, 38, 44], style="summary", label_en="Types of proteinuria", label_ar="أنواع البيلة البروتينية"),
  H2("3.4 Diagnostic Assessment", "3.4 التقييم التشخيصي"),
@@ -97,7 +97,7 @@ blocks = [
    ["**فحص الشريط:** يكشف **الألبومين غالبًا** (شبه كمّي)", "**تقدير بروتين إدرار 24 ساعة:** **المعيار الذهبي**",
     "**نسبة البروتين إلى الكرياتينين في عيّنة إدرار عشوائية:** بديل مريح", "**الترحيل الكهربائي والتثبيت المناعي:** تحديد بروتينات معيّنة (مثل **السلاسل الخفيفة وحيدة النسيلة**)"]),
  INSHORT([("Normal urine protein **< 150 mg/day**; most abundant = **Tamm-Horsfall (uromodulin)** from the thick ascending limb of Henle.", "بروتين الإدرار الطبيعي **أقل من 150 ملغم/يوم**؛ وأكثره وفرةً = **تام-هورسفول (اليوروموديولين)** من الطرف الصاعد السميك لعروة هنلي."),
-          ("Glomerular → **albumin**; tubular → **β2-microglobulin**; overflow → **Bence Jones** (myeloma); postrenal → infection, bleeding.", "الكبيبية ← **ألبومين**؛ النبيبية ← **بيتا 2 مايكروغلوبيولين**؛ الفائضة ← **بنس جونز** (الورم النقوي)؛ بعد الكلوية ← التهاب، نزف."),
+          ("Glomerular → **albumin**; tubular → **β2-microglobulin**; overflow → **Bence Jones** (myeloma); postrenal → infection, bleeding.", "الكبيبية ← **ألبومين**؛ النبيبية ← **بيتا 2 مايكروغلوبيولين**؛ الفائضة ← **بنس جونز** (الورم النقوي المتعدّد)؛ بعد الكلوية ← التهاب، نزف."),
           ("**24-hour urine = gold standard**; dipstick = mainly albumin; protein/creatinine ratio = convenient.", "**إدرار 24 ساعة = المعيار الذهبي**؛ الشريط = ألبومين غالبًا؛ نسبة البروتين/الكرياتينين = بديل مريح.")]),
 
  # ───────────────────────── 4

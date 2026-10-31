@@ -418,11 +418,15 @@ def numbered(i, e, a, lines=False):
     return c[:-len("</div>")] + '<div class="lines" style="margin-top:2mm"></div></div>' if lines else c
 
 
-def model_answer(i, e, a, q=None):
+def model_answer(i, e, a, q=None, q_ar=None):
     head = f'<div style="font-weight:800;color:var(--key);font-size:9.5pt;margin-bottom:.6mm">{md(q)}</div>' if q else ""
     if not e:                                   # Arabic-only answer: question line above the answer
         return put_qnum(card("", a), i).replace('<div class="c-ar q">', f'<div class="c-ar q"><div dir="rtl">{head}</div>', 1)
-    return put_qnum(card("", a, e_extra=head + en(e)), i)
+    html = put_qnum(card("", a, e_extra=head + en(e)), i)
+    if q_ar:                                    # the Arabic question above the Arabic answer
+        head_ar = f'<div dir="rtl" style="font-weight:800;color:var(--key);font-size:11pt;margin-bottom:.6mm">{md(q_ar)}</div>'
+        html = html.replace('<span class="chip chip-ar">AR</span>', '<span class="chip chip-ar">AR</span>' + head_ar, 1)
+    return html
 
 
 def question_items(Q):
@@ -476,11 +480,11 @@ def question_items(Q):
     for i, t in enumerate(Q.get("traps", []), 1):
         if i == 1:
             out.append((h2("Exam Traps Answers", "إجابات المقالب"), True))
-        out.append((model_answer(i, t["answer_en"], t["answer_ar"]), False))
+        out.append((model_answer(i, t["answer_en"], t["answer_ar"], t.get("en"), t.get("ar")), False))
     for i, t in enumerate(Q.get("important", []), 1):
         if i == 1:
             out.append((h2("Important Questions — Model Answers", "أهم الأسئلة — إجابات نموذجية"), True))
-        out.append((model_answer(i, t["answer_en"], t["answer_ar"], t["en"]), False))
+        out.append((model_answer(i, t["answer_en"], t["answer_ar"], t["en"], t.get("ar")), False))
     return out
 
 

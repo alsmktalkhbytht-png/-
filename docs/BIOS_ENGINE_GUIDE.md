@@ -1174,3 +1174,6 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 |---|---|---|
 | `ethics-lec1-morals` | أخلاقيات المهنة | عربية فقط |
 | `ethics-lec3-unethical-behavior` | أخلاقيات المهنة | محاضرة 3 — عربية فقط |
+
+
+> 2026-11-01: `model_answer` يعرض السؤال العربي (`ar`) فوق الجواب العربي في «أهم الأسئلة» و«المقالب».
