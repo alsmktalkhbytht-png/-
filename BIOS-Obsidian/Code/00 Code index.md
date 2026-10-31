@@ -66,6 +66,7 @@
 - [[Code/n7 - norm.py|n7/norm.py]] → hematology-practical-normal-values
 - [[Code/n7 - vir.py|n7/vir.py]] → virology-lab1-safety
 - [[Code/par - make.py|par/make.py]] → parasitology-week1-mcq
+- [[Code/par3 - p3q.py|par3/p3q.py]] → parasitology-week3-theory
 - [[Code/pat - make12.py|pat/make12.py]] → pathology-lec1-2-atelectasis
 - [[Code/pat - make3.py|pat/make3.py]] → pathology-lec3-chronic-bronchitis
 - [[Code/picq.py|picq.py]] → bloodbank-lec1-introduction, immunology-lab1-serology, lab1-biosafety
@@ -86,6 +87,7 @@
 - [[Code/par2 - ps3.py|par2/ps3.py]]
 - [[Code/par2 - ps4.py|par2/ps4.py]]
 - [[Code/par2 - ps5.py|par2/ps5.py]]
+- [[Code/par3 - p3.py|par3/p3.py]]
 - [[Code/para - ar1.py|para/ar1.py]]
 - [[Code/para - ar2.py|para/ar2.py]]
 - [[Code/pat - fix1.py|pat/fix1.py]]

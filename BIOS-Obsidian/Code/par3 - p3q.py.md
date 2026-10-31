@@ -1,0 +1,135 @@
+---
+source: BIOS-Obsidian/tools/scripts/par3/p3q.py
+handouts: [parasitology-week3-theory]
+saved: 2026-10-31
+tags: [bios, code]
+---
+# par3/p3q.py
+
+Generator script — writes the handout's `lecture.json`.
+
+Handouts: [[06 فهرس الملازم#parasitology-week3-theory|parasitology-week3-theory]]
+
+```python
+mcq = [
+ {"topic_en": "Amoeba and E. histolytica", "topic_ar": "الأميبا والأميبا الحالّة للنسيج"},
+ Q("The quiescent, resistant, infective stage of amoebae is the:", "الطور الساكن المقاوم المُعدي للأميبات هو:", O(("Cyst", "الكيس"), ("Trophozoite", "الطور المتغذّي"), ("Pseudopodium", "القدم الكاذبة"), ("Pre-cyst", "ما قبل الكيس")), "a"),
+ Q("Motility of amoebae is accomplished by:", "تتمّ حركة الأميبات بواسطة:", O(("Flagella", "الأسواط"), ("Extension of pseudopodia", "مدّ الأقدام الكاذبة"), ("Cilia", "الأهداب"), ("Undulating membrane", "الغشاء المتموّج")), "b"),
+ Q("Two free-living amoebae of clinical interest are:", "أميبتان حرّتا المعيشة لهما أهمية سريرية هما:", O(("Giardia and Trichomonas", "الجيارديا والمشعّرة"), ("Entamoeba coli and E. histolytica", "الأميبا القولونية والحالّة للنسيج"), ("Naegleria and Acanthamoeba", "النيغلريا والأكانثاميبا"), ("Ascaris and Taenia", "الأسكارس والشريطية")), "c"),
+ Q("Naegleria and Acanthamoeba can cause:", "يمكن أن تسبّب النيغلريا والأكانثاميبا:", O(("Amoebic liver abscess", "خرّاج الكبد الأميبي"), ("Steatorrhea", "الإسهال الدهني"), ("Jaundice", "اليرقان"), ("Eye infections and fatal meningoencephalitis", "التهابات العين والتهاب السحايا والدماغ المميت")), "d"),
+ Q("E. histolytica belongs to Subphylum:", "تنتمي الأميبا الحالّة للنسيج إلى تحت شعبة:", O(("Sarcodina", "اللحميات"), ("Mastigophora", "السوطيات"), ("Ciliophora", "الهدبيات"), ("Sporozoa", "البوغيات")), "a"),
+ Q("E. histolytica is the third leading parasitic cause of mortality after:", "الأميبا الحالّة للنسيج ثالث سبب طفيلي للوفيات بعد:", O(("Giardiasis and ascariasis", "الجيارديا والأسكارس"), ("Malaria and Schistosomiasis", "الملاريا والبلهارزيا"), ("Leishmaniasis and malaria", "الليشمانيا والملاريا"), ("Toxoplasmosis and hookworm", "المقوّسات والديدان الشصّية")), "b"),
+ Q("E. histolytica is found in the human:", "توجد الأميبا الحالّة للنسيج في الإنسان في:", O(("Small intestine", "الأمعاء الدقيقة"), ("Stomach", "المعدة"), ("Colon", "القولون"), ("Mouth only", "الفم فقط")), "c"),
+ {"topic_en": "Morphology", "topic_ar": "الشكل"},
+ Q("The only stage of E. histolytica present in tissues is the:", "الطور الوحيد للأميبا الحالّة للنسيج الموجود في الأنسجة هو:", O(("Mature cyst", "الكيس الناضج"), ("Pre-cyst", "ما قبل الكيس"), ("Early cyst", "الكيس المبكر"), ("Trophozoite", "الطور المتغذّي")), "d"),
+ Q("The average size of the viable trophozoite is:", "متوسط حجم الطور المتغذّي الحيّ:", O(("20 µm", "20 مايكرومتر"), ("60 µm", "60 مايكرومتر"), ("4 µm", "4 مايكرومتر"), ("100 µm", "100 مايكرومتر")), "a"),
+ Q("The nucleus of the trophozoite contains:", "تحتوي نواة الطور المتغذّي على:", O(("An eccentric large karyosome", "جسيم نووي كبير لا مركزي"), ("A small central karyosome surrounded by a clear halo", "جسيم نووي صغير مركزي تحيط به هالة صافية"), ("Two karyosomes", "جسيمين نوويين"), ("No karyosome", "بلا جسيم نووي")), "b"),
+ Q("The nucleus is distinctly demonstrated in preparations stained with:", "تظهر النواة بوضوح في التحضيرات المصبوغة بـ:", O(("Gram stain", "صبغة كرام"), ("India ink", "حبر الهند"), ("Iron-haematoxylin or Gomorri’s trichrome", "الهيماتوكسيلين الحديدي أو ثلاثية الألوان لغوموري"), ("Methylene blue", "أزرق المثيلين")), "c"),
+ Q("The trophozoite divides by binary fission once in about:", "ينقسم الطور المتغذّي بالانشطار الثنائي مرّة كل نحو:", O(("1 hour", "ساعة"), ("24 hours", "24 ساعة"), ("30 minutes", "30 دقيقة"), ("8 hours", "8 ساعات")), "d"),
+ Q("The infection is not transmitted by trophozoites because they:", "لا تنتقل الإصابة بالأطوار المتغذّية لأنها:", O(("Are killed outside the body and destroyed in the stomach", "تُقتل خارج الجسم وتُتلف في المعدة"), ("Are too large to swallow", "كبيرة جدًا للابتلاع"), ("Live only in the liver", "تعيش في الكبد فقط"), ("Have four nuclei", "لها أربع أنوية")), "a"),
+ Q("Encystment of E. histolytica occurs in the:", "يحدث تكيّس الأميبا الحالّة للنسيج في:", O(("Tissues", "الأنسجة"), ("Intestinal lumen", "تجويف الأمعاء"), ("Feces outside the body", "البراز خارج الجسم"), ("Liver", "الكبد")), "b"),
+ Q("The pre-cyst contains:", "يحتوي ما قبل الكيس على:", O(("Four nuclei", "أربع أنوية"), ("Food vacuoles and red cells", "فجوات غذائية وكريات حمر"), ("A large glycogen vacuole and two bars", "فجوة غلايكوجين كبيرة وقضيبين"), ("A flagellum", "سوطًا")), "c"),
+ Q("Chromatoid bodies of the cyst are:", "الأجسام الكروماتينية في الكيس:", O(("Needle-shaped", "إبرية الشكل"), ("Absent in early cysts", "غائبة في الأكياس المبكرة"), ("Stained only by iodine", "تُصبغ باليود فقط"), ("Cigar-shaped, 1-4 in number", "سيجارية الشكل، 1-4 عددًا")), "d"),
+ Q("The mature cyst of E. histolytica has:", "للكيس الناضج للأميبا الحالّة للنسيج:", O(("Four nuclei", "أربع أنوية"), ("One nucleus and glycogen", "نواة واحدة وغلايكوجين"), ("Eight nuclei", "ثماني أنوية"), ("Two nuclei and chromatoid bars", "نواتان وقضبان كروماتينية")), "a"),
+ {"topic_en": "Life cycle", "topic_ar": "دورة الحياة"},
+ Q("The infective stage of E. histolytica is the:", "الطور المُعدي للأميبا الحالّة للنسيج هو:", O(("Trophozoite", "الطور المتغذّي"), ("Mature quadri-nucleate cyst", "الكيس الناضج رباعي الأنوية"), ("Pre-cyst", "ما قبل الكيس"), ("Uninucleate cyst", "الكيس أحادي النواة")), "b"),
+ Q("The cyst passes the stomach unaltered because:", "يمرّ الكيس عبر المعدة دون تغيير لأن:", O(("It is swallowed with milk", "يُبتلع مع الحليب"), ("It has no nucleus", "ليست له نواة"), ("The cyst wall is resistant to gastric juice", "جدار الكيس مقاوم للعصارة المعدية"), ("It moves fast", "يتحرّك بسرعة")), "c"),
+ Q("After excystment each cyst finally yields:", "بعد الانفلات من الكيس يعطي كل كيس في النهاية:", O(("Two amebae", "أميبتين"), ("Four amebae", "أربع أميبات"), ("Sixteen amebae", "ست عشرة أميبة"), ("Eight tiny amebae", "ثماني أميبات صغيرة")), "d"),
+ Q("Encystment apparently occurs in response to:", "يحدث التكيّس على ما يبدو استجابةً لـ:", O(("Desiccation in the colon", "الجفاف في القولون"), ("Gastric acid", "حامض المعدة"), ("Bile", "الصفراء"), ("Iodine", "اليود")), "a"),
+ Q("Number of hosts in the life cycle of E. histolytica:", "عدد المضائف في دورة حياة الأميبا الحالّة للنسيج:", O(("Two (man and dog)", "اثنان (الإنسان والكلب)"), ("One (man)", "واحد (الإنسان)"), ("Three", "ثلاثة"), ("Man and mosquito", "الإنسان والبعوضة")), "b"),
+ {"topic_en": "Pathogenicity, epidemiology, diagnosis, immunity, treatment", "topic_ar": "الإمراضية والوبائيات والتشخيص والمناعة والعلاج"},
+ Q("The name histo – lytic means:", "يعني الاسم هِستو – لايتك:", O(("Blood destroying", "محطِّم الدم"), ("Liver loving", "محبّ الكبد"), ("Tissue destroying", "محطِّم النسيج"), ("Cell building", "باني الخلايا")), "c"),
+ Q("Amoebic liver abscess represents:", "يمثّل خرّاج الكبد الأميبي:", O(("A primary liver infection", "إصابة كبدية أولية"), ("Infection by trophozoites swallowed", "إصابة بأطوار متغذّية مبتلعة"), ("Hepatomegaly without amoebae", "تضخّم كبد بلا أميبات"), ("Metastasis from intestinal infection", "انتقالًا من الإصابة المعوية")), "d"),
+ Q("Jaundice in amoebiasis occurs when the enlarging abscess presses on the:", "يحدث اليرقان في داء الأميبات عندما يضغط الخرّاج المتضخّم على:", O(("Common bile duct", "القناة الصفراوية المشتركة"), ("Portal vein", "الوريد البابي"), ("Spleen", "الطحال"), ("Pancreatic duct", "قناة البنكرياس")), "a"),
+ Q("The percentage of the population of the USA infected is:", "نسبة المصابين من سكان الولايات المتحدة:", O(("20%", "20%"), ("1-3%", "1-3%"), ("50%", "50%"), ("0.1%", "0.1%")), "b"),
+ Q("Definitive diagnosis of E. histolytica depends on:", "يعتمد التشخيص المؤكّد للأميبا الحالّة للنسيج على:", O(("Liver biopsy only", "خزعة الكبد فقط"), ("Blood culture", "زرع الدم"), ("Finding trophozoites or cysts in fresh stool", "العثور على الأطوار المتغذّية أو الأكياس في البراز الطازج"), ("Occult blood test", "فحص الدم الخفي")), "c"),
+ Q("Mucosal IgA antibodies develop in only about:", "تتكوّن أضداد IgA المخاطية في نحو:", O(("100% of patients", "100% من المرضى"), ("50%", "50%"), ("5%", "5%"), ("20%", "20%")), "d"),
+ Q("Invasive amoebiasis is treated with:", "يُعالج داء الأميبات الغازي بـ:", O(("Metronidazole or tinidazole followed by a luminal agent", "الميترونيدازول أو التينيدازول يتبعه عامل تجويفي"), ("Paromomycin alone", "الباروموميسين وحده"), ("Boiling water", "غلي الماء"), ("Iodine", "اليود")), "a"),
+ Q("Asymptomatic cyst passers are treated with:", "يُعالج طارحو الأكياس عديمو الأعراض بـ:", O(("Tinidazole only", "التينيدازول فقط"), ("Paromomycin or diloxanide furoate", "الباروموميسين أو فيوروات الديلوكسانيد"), ("Aspirin", "الأسبرين"), ("Vitamin C", "فيتامين C")), "b"),
+ {"topic_en": "Stool examination", "topic_ar": "فحص البراز"},
+ Q("An adult person excretes about ___ of feces per day:", "يطرح الشخص البالغ نحو ___ من البراز يوميًا:", O(("50-100 gm", "50-100 غرام"), ("500-700 gm", "500-700 غرام"), ("150-250 gm", "150-250 غرام"), ("10-20 gm", "10-20 غرام")), "c"),
+ Q("Cysts are usually found in:", "توجد الأكياس عادةً في:", O(("Watery stool", "البراز المائي"), ("Liquid stool", "البراز السائل"), ("Dysenteric stool", "براز الزحار"), ("Fully formed stool", "البراز المتماسك تمامًا")), "d"),
+ Q("Clay-coloured stool is due to:", "البراز الطيني اللون سببه:", O(("Absence of stercobilinogen in biliary obstruction", "غياب الستيركوبيلينوجين في انسداد القناة الصفراوية"), ("Iron intake", "تناول الحديد"), ("Fresh blood", "الدم الطازج"), ("Red beets", "الشمندر الأحمر")), "a"),
+ Q("Dark tarry stool with acid hematin indicates bleeding in the:", "البراز القطراني الداكن مع الهيماتين الحامضي يدلّ على نزف في:", O(("Rectum", "المستقيم"), ("Small intestines", "الأمعاء الدقيقة"), ("Large intestines", "الأمعاء الغليظة"), ("Anus", "فتحة الشرج")), "b"),
+ Q("The normal fecal odor results from:", "تنتج الرائحة الطبيعية للبراز من:", O(("Bile pigments", "أصباغ الصفراء"), ("Ammonia", "الأمونيا"), ("Indole and Skatole", "الإندول والسكاتول"), ("Stercobilinogen", "الستيركوبيلينوجين")), "c"),
+ Q("Stools are NOT foul smelling in:", "لا يكون البراز كريه الرائحة في:", O(("Intestinal amoebiasis", "داء الأميبات المعوي"), ("Steatorrhea", "الإسهال الدهني"), ("Constipation", "الإمساك"), ("Bacillary dysentery and cholera", "الزحار العصوي والكوليرا")), "d"),
+ Q("The pH of stool in amoebic dysentery is:", "الأس الهيدروجيني للبراز في الزحار الأميبي:", O(("Acidic", "حامضي"), ("Alkaline", "قاعدي"), ("Neutral", "متعادل"), ("Highly alkaline", "قاعدي جدًا")), "a"),
+ Q("A positive orthotolidine test for occult blood gives:", "يعطي فحص الأورثوتوليدين الموجب للدم الخفي:", O(("Blue color", "لونًا أزرق"), ("Green color", "لونًا أخضر"), ("Red color", "لونًا أحمر"), ("Yellow color", "لونًا أصفر")), "b"),
+ Q("A cause of false – negative occult blood test is:", "من أسباب النتيجة السالبة الكاذبة لفحص الدم الخفي:", O(("Red meat", "اللحم الأحمر"), ("Aspirin", "الأسبرين"), ("Large amounts of Vitamin C", "كميات كبيرة من فيتامين C"), ("Horseradish", "الفجل الحار")), "c"),
+ Q("Diet should be free from peroxidase-containing foods before testing for at least:", "يجب أن يكون الغذاء خاليًا من الأطعمة المحتوية على البيروكسيديز قبل الفحص لمدّة لا تقل عن:", O(("1 day", "يوم"), ("1 week", "أسبوع"), ("12 hours", "12 ساعة"), ("3 days", "3 أيام")), "d"),
+ Q("Liquid (diarrheic) specimens should be examined within:", "يجب فحص العيّنات السائلة (الإسهالية) خلال:", O(("30 minutes of passage", "30 دقيقة من الطرح"), ("30 minutes of arrival in the laboratory", "30 دقيقة من الوصول إلى المختبر"), ("One hour of passage", "ساعة من الطرح"), ("One day", "يوم")), "a"),
+ Q("The normal saline used for the wet mount is:", "المحلول الملحي المستعمل في التحضير الرطب تركيزه:", O(("0.9% glucose", "0.9% كلوكوز"), ("0.85%", "0.85%"), ("10%", "10%"), ("5%", "5%")), "b"),
+ Q("The disadvantage of the iodine preparation is that it:", "عيب تحضير اليود أنه:", O(("Does not stain glycogen", "لا يصبغ الغلايكوجين"), ("Cannot show cysts", "لا يُظهر الأكياس"), ("Kills live trophozoites so they cannot be seen", "يقتل الأطوار المتغذّية الحيّة فلا تُرى"), ("Needs 100x lens", "يحتاج العدسة 100x")), "c"),
+ {"topic_en": "Picture questions", "topic_ar": "أسئلة الصور"},
+ Q("In this figure, the structure labelled “chromatoid bar” belongs to the:", "في هذا الشكل، التركيب المكتوب عليه “chromatoid bar” يعود إلى:", O(("Trophozoite", "الطور المتغذّي"), ("Pseudopodium", "القدم الكاذبة"), ("Food vacuole", "الفجوة الغذائية"), ("Cyst", "الكيس")), "d", img="assets/eh-troph-cyst.jpg", img_h="38mm"),
+ Q("In this cycle, the stage “Taken with water or food” is the:", "في هذه الدورة، الطور “يؤخذ مع الماء أو الطعام” هو:", O(("Cyst", "الكيس"), ("Trophozoite", "الطور المتغذّي"), ("Liver abscess", "خرّاج الكبد"), ("Pre-cyst", "ما قبل الكيس")), "a", img="assets/eh-cycle-diagram.jpg", img_h="50mm"),
+ Q("In this cycle, amoebae reach the liver:", "في هذه الدورة تصل الأميبات إلى الكبد:", O(("Via the bile duct", "عبر القناة الصفراوية"), ("Via portal vein", "عبر الوريد البابي"), ("Directly from the mouth", "مباشرةً من الفم"), ("Through the lymph", "عبر اللمف")), "b", img="assets/eh-cycle-diagram.jpg", img_h="50mm"),
+ Q("In this figure, the “Diagnostic stage” is:", "في هذا الشكل، “الطور التشخيصي” هو:", O(("Extraintestinal abscesses", "خرّاجات خارج الأمعاء"), ("The ingested mature cyst only", "الكيس الناضج المبتلع فقط"), ("Trophozoite and cyst in feces", "الطور المتغذّي والكيس في البراز"), ("Trophozoite in the colon wall", "الطور المتغذّي في جدار القولون")), "c", img="assets/eh-life-cycle.jpg", img_h="55mm"),
+ Q("In this figure, the mount on the right is used:", "في هذا الشكل، التحضير على اليمين يُستعمل:", O(("For motile trophozoites", "للأطوار المتغذّية المتحرّكة"), ("For larvae of helminths", "ليرقات الديدان"), ("For occult blood", "للدم الخفي"), ("For identification of protozoal cysts", "لتشخيص أكياس الأوالي")), "d", img="assets/wet-mounts.jpg", img_h="34mm"),
+]
+mcq = balance(mcq, 31)
+
+tf = [
+ TF("Amoebae reproduce by binary fission.", "تتكاثر الأميبات بالانشطار الثنائي.", "T"),
+ TF("E. histolytica is found only in the tropics.", "توجد الأميبا الحالّة للنسيج في المناطق الاستوائية فقط.", "F"),
+ TF("The trophozoite is the only stage present in tissues.", "الطور المتغذّي هو الطور الوحيد الموجود في الأنسجة.", "T"),
+ TF("The nucleus is clearly seen in the living trophozoite.", "تُرى النواة بوضوح في الطور المتغذّي الحيّ.", "F"),
+ TF("Trophozoites are smaller in convalescents and carriers.", "الأطوار المتغذّية أصغر عند الناقهين والحاملين.", "T"),
+ TF("Encystment occurs in the tissues.", "يحدث التكيّس في الأنسجة.", "F"),
+ TF("As the cyst matures, the glycogen mass and chromatoid bars disappear.", "مع نضج الكيس تختفي كتلة الغلايكوجين والقضبان الكروماتينية.", "T"),
+ TF("E. histolytica needs two hosts to complete its life cycle.", "تحتاج الأميبا الحالّة للنسيج مضيفين لإكمال دورة حياتها.", "F"),
+ TF("In hepatomegaly of acute intestinal infection, amoebas are demonstrable in the liver.", "في تضخّم الكبد المصاحب للعدوى المعوية الحادّة، يمكن إظهار الأميبات في الكبد.", "F"),
+ TF("Humans are the principal host of E. histolytica.", "الإنسان هو المضيف الرئيسي للأميبا الحالّة للنسيج.", "T"),
+ TF("Protective immunity to E. histolytica is usually long-lasting.", "المناعة الواقية ضد الأميبا الحالّة للنسيج طويلة الأمد عادةً.", "F"),
+ TF("Boiling water kills E. histolytica cysts.", "يقتل غلي الماء أكياس الأميبا الحالّة للنسيج.", "T"),
+ TF("Benzidine is highly sensitive but false – positive reactions are common.", "البنزيدين عالي الحساسية لكن التفاعلات الموجبة الكاذبة شائعة.", "T"),
+ TF("Formed specimens should be examined within 30 minutes.", "يجب فحص العيّنات المتماسكة خلال 30 دقيقة.", "F"),
+ TF("In the wet mount, the specimen is examined first under the 10x objective, then the 40x.", "في التحضير الرطب تُفحص العيّنة أولًا بالعدسة 10x ثم 40x.", "T"),
+ TF("Iodine stains the glycogen in cysts.", "يصبغ اليود الغلايكوجين في الأكياس.", "T"),
+]
+
+traps = [
+ TR("Trophozoite size vs cyst size", "حجم الطور المتغذّي مقابل حجم الكيس", "Trophozoite 10-60 µm (average 20 µm); pre-cyst and cyst 10-20 µm; nucleus 4-6 µm.", "المتغذّي 10-60 مايكرومتر (المتوسط 20)؛ ما قبل الكيس والكيس 10-20 مايكرومتر؛ والنواة 4-6 مايكرومتر."),
+ TR("4 amebae or 8 amebae?", "4 أميبات أم 8؟", "Excystment gives four amebae, which divide again — each cyst finally yields eight tiny amebae. The mature cyst itself has four nuclei.", "الانفلات يعطي أربع أميبات تنقسم مرّة ثانية — فيعطي كل كيس في النهاية ثماني أميبات صغيرة. أما الكيس الناضج نفسه فله أربع أنوية."),
+ TR("Animals infected — which list?", "الحيوانات المصابة — أي قائمة؟", "History part: natural infection in monkeys, dogs and probably pigs. Epidemiology part: dogs, cats and rodents may be infected. Humans remain the principal host.", "قسم التاريخ: إصابة طبيعية في القرود والكلاب وربما الخنازير. وقسم الوبائيات: قد تُصاب الكلاب والقطط والقوارض. ويبقى الإنسان المضيف الرئيسي."),
+ TR("Examine within 30 minutes of what?", "خلال 30 دقيقة من ماذا؟", "Of passage — not of arrival in the laboratory. Liquid 30 min, soft 1 hour, formed up to 1 day.", "من الطرح — لا من الوصول إلى المختبر. السائلة 30 دقيقة، والطرية ساعة، والمتماسكة حتى يوم."),
+ TR("Black stool vs red stool", "البراز الأسود مقابل الأحمر", "Black/tarry: iron, bismuth or bleeding in the small intestines (acid hematin). Bright red: bleeding in large intestines or rectum (fresh blood) — or red beets.", "أسود/قطراني: حديد أو بزموت أو نزف في الأمعاء الدقيقة (هيماتين حامضي). أحمر فاتح: نزف في الأمعاء الغليظة أو المستقيم (دم طازج) — أو الشمندر الأحمر."),
+ TR("Amoebic vs bacillary dysentery in the stool", "الزحار الأميبي مقابل العصوي في البراز", "Amoebic: acidic pH, offensive odor. Bacillary: alkaline pH, not foul smelling. Mucus is present in both.", "الأميبي: pH حامضي، ورائحة كريهة. العصوي: pH قاعدي، وغير كريه الرائحة. والمخاط موجود في الاثنين."),
+ TR("Benzidine vs orthotolidine colour", "لون البنزيدين مقابل الأورثوتوليدين", "Benzidine → blue; orthotolidine → green.", "البنزيدين ← أزرق؛ والأورثوتوليدين ← أخضر."),
+ TR("Saline vs iodine mount", "التحضير الملحي مقابل اليود", "Saline shows motile trophozoites; iodine shows cysts (stains glycogen) but kills live trophozoites.", "الملحي يُظهر الأطوار المتغذّية المتحرّكة؛ واليود يُظهر الأكياس (يصبغ الغلايكوجين) لكنه يقتل الأطوار المتغذّية الحيّة."),
+]
+
+important = [
+ IM("Compare the trophozoite, pre-cyst and cyst of E. histolytica.", "قارن بين الطور المتغذّي وما قبل الكيس والكيس للأميبا الحالّة للنسيج.",
+    "Trophozoite: irregular, 10-60 µm (average 20), ectoplasm and endoplasm with nucleus, food vacuoles and granules, nucleus 4-6 µm with small central karyosome and clear halo, only stage in tissues, killed outside the body. Pre-cyst: round or oval, 10-20 µm, food vacuoles extruded, large glycogen vacuole and two bars. Cyst: spherical, 10-20 µm, thin transparent wall; early cyst has one nucleus, glycogen mass and 1-4 cigar-shaped chromatoid bars; mature cyst has four nuclei.",
+    "المتغذّي: غير منتظم، 10-60 مايكرومتر (المتوسط 20)، إكتوبلازم وإندوبلازم فيه نواة وفجوات غذائية وحبيبات، النواة 4-6 مايكرومتر بجسيم نووي صغير مركزي وهالة صافية، الطور الوحيد في الأنسجة، ويُقتل خارج الجسم. ما قبل الكيس: مستدير أو بيضوي، 10-20 مايكرومتر، يطرد فجواته الغذائية، وفيه فجوة غلايكوجين كبيرة وقضيبان. الكيس: كروي، 10-20 مايكرومتر، جدار رقيق شفّاف؛ المبكر بنواة واحدة وكتلة غلايكوجين و1-4 قضبان سيجارية؛ والناضج بأربع أنوية."),
+ IM("Describe the life cycle of E. histolytica.", "صف دورة حياة الأميبا الحالّة للنسيج.",
+    "One host (man). Mature quadri-nucleate cysts are ingested with contaminated food or drink or by hand to mouth contact, pass the stomach unaltered (cyst wall resists gastric juice), excyst and divide to give four then eight tiny amebae, which multiply by binary fission. Encystment occurs in the colon in response to desiccation; the nucleus divides twice to give the mature four-nucleate cyst that passes in the stool.",
+    "مضيف واحد (الإنسان). تُبتلع الأكياس الناضجة رباعية الأنوية مع الطعام أو الشراب الملوّث أو بتماس اليد مع الفم، وتمرّ عبر المعدة دون تغيير (جدار الكيس يقاوم العصارة المعدية)، ثم تنفلت وتنقسم فتعطي أربع ثم ثماني أميبات صغيرة تتكاثر بالانشطار الثنائي. ويحدث التكيّس في القولون استجابةً للجفاف؛ وتنقسم النواة مرّتين فيتكوّن الكيس الناضج رباعي الأنوية الذي يُطرح مع البراز."),
+ IM("Why is the infection not transmitted by trophozoites?", "لماذا لا تنتقل الإصابة بالأطوار المتغذّية؟",
+    "Trophozoites are delicate: they are killed by drying, heat and chemical disinfectants and do not survive outside the body; even if live trophozoites are ingested they are rapidly destroyed in the stomach and cannot initiate infection.",
+    "لأن الأطوار المتغذّية رقيقة: تُقتل بالجفاف والحرارة والمطهّرات الكيميائية ولا تعيش خارج الجسم؛ وحتى لو ابتُلعت حيّة تُتلف بسرعة في المعدة ولا تستطيع بدء الإصابة."),
+ IM("Describe the pathogenicity and clinical features of E. histolytica.", "صف إمراضية الأميبا الحالّة للنسيج وأعراضها السريرية.",
+    "Histo-lytic = tissue destroying; it bores into the intestinal wall causing lesions, may reach the blood stream and then the liver (usually), lungs, brain, spleen. It causes amoebic dysentery (fulminating dysentery, bloody diarrhea, weight loss, fatigue, abdominal pain, amoeboma) and amoebic liver abscess (metastasis from intestinal infection, may press on the common bile duct causing jaundice, fatal if untreated).",
+    "هِستو-لايتك = محطِّمة للنسيج؛ تحفر في جدار الأمعاء فتسبّب آفات، وقد تصل إلى مجرى الدم ثم الكبد (غالبًا) والرئتين والدماغ والطحال. تسبّب الزحار الأميبي (زحار خاطف، إسهال دموي، نقص وزن، تعب، ألم بطن، ورم أميبي) وخرّاج الكبد الأميبي (انتقال من الإصابة المعوية، وقد يضغط على القناة الصفراوية المشتركة فيسبّب اليرقان، ومميت إذا لم يُعالج)."),
+ IM("Outline the treatment and prevention of amoebiasis.", "اذكر علاج داء الأميبات والوقاية منه.",
+    "Invasive: metronidazole or tinidazole followed by a luminal agent (paromomycin or iodoquinol). Asymptomatic: luminal agent (paromomycin, diloxanide furoate, iodoquinol). Metronidazole for symptomatic, chronic and extra-intestinal infection. Prevention: boiling water, good sanitation, proper sewage system, avoiding contamination of food and water, health education, personal hygiene.",
+    "الغازي: ميترونيدازول أو تينيدازول يتبعه عامل تجويفي (باروموميسين أو يودوكوينول). عديم الأعراض: عامل تجويفي (باروموميسين، فيوروات الديلوكسانيد، يودوكوينول). والميترونيدازول للإصابة العرضية والمزمنة وخارج المعوية. الوقاية: غلي الماء، والصحّة العامة الجيّدة، ونظام صرف سليم، وتجنّب تلوّث الطعام والماء، والتثقيف الصحي، والنظافة الشخصية."),
+ IM("List the items of the macroscopic examination of stool.", "عدّد بنود الفحص العياني للبراز.",
+    "a. Consistency and form; b. color; c. pathological odor; d. presence of worms (Ascaris, gravid segments of Taenia); e. abnormal composition (mucus, blood, fat, pus, cast, stones).",
+    "أ. القوام والشكل؛ ب. اللون؛ ج. الرائحة المرضية؛ د. وجود الديدان (الأسكارس، والقطع الحاملة للبيوض للشريطية)؛ هـ. التركيب غير الطبيعي (المخاط، الدم، الدهن، القيح، القوالب، الحصى)."),
+ IM("What is occult blood? Give the reagents and causes of false results.", "ما الدم الخفي؟ اذكر الكواشف وأسباب النتائج الكاذبة.",
+    "Blood in feces not apparent on gross inspection, detected only by chemical tests. Benzidine (blue) and orthotolidine (green). False – positive: peroxidase – containing foods (avoid for 3 days), aspirin and anti-inflammatory drugs. False – negative: large amounts of Vitamin C; conversion of all hemoglobin to acid hematin.",
+    "دم في البراز لا يظهر بالفحص العياني ويُكشف بالفحوص الكيميائية فقط. البنزيدين (أزرق) والأورثوتوليدين (أخضر). الموجب الكاذب: أطعمة فيها بيروكسيديز (تُتجنّب 3 أيام)، والأسبرين ومضادات الالتهاب. السالب الكاذب: كميات كبيرة من فيتامين C؛ وتحوّل كل الهيموغلوبين إلى هيماتين حامضي."),
+ IM("Describe the direct wet mount (saline and iodine) examination.", "صف فحص التحضير الرطب المباشر (الملحي واليود).",
+    "About 2 mg of fresh stool is emulsified on a slide with a drop of 0.85% normal saline using a wooden stick, covered with a cover slip, and examined under 10x then 40x with the condenser down and low light; the film should be thin enough to read newsprint. Saline detects motile trophozoites. Iodine follows the same steps, stains glycogen and shows cysts better, but kills live trophozoites.",
+    "يُستحلب نحو 2 ملغم من البراز الطازج على شريحة بقطرة من المحلول الملحي الطبيعي 0.85% بعود خشبي، ويُغطّى بغطاء الشريحة، ويُفحص بالعدسة 10x ثم 40x مع خفض المكثّف وتقليل الضوء؛ ويجب أن يكون الغشاء رقيقًا تُقرأ من خلاله الجريدة. الملحي يكشف الأطوار المتغذّية المتحرّكة. واليود بالخطوات نفسها، يصبغ الغلايكوجين ويُظهر الأكياس أفضل، لكنه يقتل الأطوار المتغذّية الحيّة."),
+]
+
+meta = {"subject_en": "Diagnostic Parasitology", "subject_ar": "الطفيليات التشخيصية", "short_ar": "طفيليات", "instructor": "أ.د. نزار الخفاجي",
+        "unit_en": "Week 3", "unit_ar": "الأسبوع 3", "unit_label": "WEEK", "unit_no": "3",
+        "title_en": "Amoeba: Entamoeba histolytica & Stool Examination", "title_ar": "الأميبا: الأميبا الحالّة للنسيج وفحص البراز",
+        "department": "قسم التحليلات", "stage": "The fourth stage — الرابعة", "kind": "Theory — نظري"}
+save("parasitology-week3-theory", meta, blocks, mcq, tf, traps, important)
+
+```
