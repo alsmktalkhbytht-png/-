@@ -40,6 +40,7 @@
 - [[Code/hl9 - l9.py|hl9/l9.py]] → hematology-lec9-hemolytic
 - [[Code/im2 - l2.py|im2/l2.py]] → immunology-lec2-cells-organs
 - [[Code/im3 - l3.py|im3/l3.py]] → immunology-lec3-antigens
+- [[Code/iml3 - l3q.py|iml3/l3q.py]] → immunology-lab3-antigen-preparation
 - [[Code/imm456 - bb4.py|imm456/bb4.py]] → bloodbank-lec4-screening
 - [[Code/imm456 - bb5.py|imm456/bb5.py]] → bloodbank-lec5-abo-rh
 - [[Code/imm456 - ci2.py|imm456/ci2.py]] → clinimm-lec2-sle
@@ -83,6 +84,7 @@
 - [[Code/bios_dbg.py|bios_dbg.py]]
 - [[Code/covers - make.py|covers/make.py]]
 - [[Code/covers - make2.py|covers/make2.py]]
+- [[Code/iml3 - l3.py|iml3/l3.py]]
 - [[Code/imm456 - ci5_blocks.py|imm456/ci5_blocks.py]]
 - [[Code/imm456 - ci6_ar.py|imm456/ci6_ar.py]]
 - [[Code/par2 - ps2.py|par2/ps2.py]]
