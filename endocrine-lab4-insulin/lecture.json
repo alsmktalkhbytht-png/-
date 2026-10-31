@@ -1,0 +1,1500 @@
+{
+ "meta": {
+  "subject_en": "Practical Endocrinology",
+  "subject_ar": "الغدد الصماء العملي",
+  "short_ar": "غدد صماء",
+  "instructor": "م.م. نور إبراهيم جليل",
+  "unit_en": "Lab 4",
+  "unit_ar": "العملي 4",
+  "unit_label": "LAB",
+  "unit_no": "4",
+  "title_en": "Insulin",
+  "title_ar": "الأنسولين",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "The endocrine system",
+   "ar": "جهاز الغدد الصماء"
+  },
+  {
+   "t": "figure",
+   "src": "assets/endocrine-axis.jpg",
+   "en": "Hormones of the hypothalamus, pituitary and their target glands (1 → 2 → 3)",
+   "ar": "هرمونات الوطاء والنخامية والغدد الهدف (1 ← 2 ← 3)",
+   "h": "92mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Central nervous system / Nerve impulses**",
+      "الجهاز العصبي المركزي / السيالات العصبية"
+     ],
+     [
+      "**Hypothalamus / Hypothalamic hormones**",
+      "الوطاء / هرمونات الوطاء"
+     ]
+    ],
+    [
+     [
+      "**Anterior pituitary**",
+      "النخامية الأمامية"
+     ],
+     [
+      "**Posterior pituitary**",
+      "النخامية الخلفية"
+     ]
+    ],
+    [
+     [
+      "**Corticotropin, Thyrotropin, FSH, LH, Prolactin, Somatotropin**",
+      "الهرمون الموجّه لقشرة الكظر، الموجّه للدرقية، FSH، LH، البرولاكتين، هرمون النمو"
+     ],
+     [
+      "**Vasopressin, Oxytocin**",
+      "الفازوبريسين (المضاد لإدرار البول)، الأوكسيتوسين"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Adrenal cortex → Adrenal cortical steroids**",
+      "قشرة الكظر ← الستيرويدات القشرية"
+     ],
+     [
+      "**Thyroid → Thyroxine, Triiodothyronine**",
+      "الدرقية ← الثايروكسين، ثلاثي يود الثايرونين"
+     ]
+    ],
+    [
+     [
+      "**Testis → Testosterone; Ovary → Progesterone, β-estradiol**",
+      "الخصية ← التستوستيرون؛ المبيض ← البروجستيرون، بيتا-إستراديول"
+     ],
+     [
+      "**Liver and other tissue → Somatomedins**",
+      "الكبد وأنسجة أخرى ← السوماتوميدينات"
+     ]
+    ],
+    [
+     [
+      "**Adrenal medulla → Adrenaline**",
+      "لبّ الكظر ← الأدرينالين"
+     ],
+     [
+      "**Pancreas → Insulin, Glucagon → Liver, Muscles**",
+      "البنكرياس ← الأنسولين، الغلوكاغون ← الكبد، العضلات"
+     ]
+    ],
+    [
+     [
+      "**Many tissues; Muscles, Liver; Reproductive organs; Mammary glands**",
+      "أنسجة كثيرة؛ العضلات، الكبد؛ الأعضاء التناسلية؛ الغدد الثديية"
+     ],
+     [
+      "**Liver, Muscles, Islet cells, Bone; Liver, Muscles, Heart; Arterioles; Smooth muscle, Mammary glands**",
+      "الكبد، العضلات، خلايا الجزر، العظم؛ الكبد، العضلات، القلب؛ الشرينات؛ العضلات الملساء، الغدد الثديية"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure (cont.)",
+   "label_ar": "كتابات الشكل (تكملة)"
+  },
+  {
+   "t": "note",
+   "en": [
+    "1 = hypothalamus → pituitary hormones, 2 = target glands and their hormones, 3 = target tissues.",
+    "Insulin comes from the pancreas (right side of the figure)."
+   ],
+   "ar": [
+    "1 = الوطاء ← هرمونات النخامية، 2 = الغدد الهدف وهرموناتها، 3 = الأنسجة الهدف.",
+    "والأنسولين يأتي من البنكرياس (يمين الشكل)."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Insulin",
+   "ar": "الأنسولين"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "A **peptide hormone** produced by the **beta cells of the pancreas** that **regulates glucose metabolism**.",
+    "Plays a key role in maintaining **blood sugar levels**."
+   ],
+   "list_ar": [
+    "**هرمون ببتيدي** تنتجه **خلايا بيتا في البنكرياس** و**ينظّم أيض الكلوكوز**.",
+    "ويؤدّي دورًا أساسيًا في الحفاظ على **مستويات سكر الدم**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/insulin-function.jpg",
+   "en": "Function of Insulin",
+   "ar": "وظائف الأنسولين",
+   "h": "38mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Inhibits Glucose Production**",
+      "يثبّط إنتاج الكلوكوز"
+     ],
+     [
+      "**Facilitates Glucose Uptake**",
+      "يسهّل امتصاص الخلايا للكلوكوز"
+     ]
+    ],
+    [
+     [
+      "**Enhances Fat Storage**",
+      "يعزّز خزن الدهون"
+     ],
+     [
+      "**Regulates Blood Sugar Levels**",
+      "ينظّم مستويات سكر الدم"
+     ]
+    ],
+    [
+     [
+      "**Supports Amino Acid Absorption**",
+      "يدعم امتصاص الأحماض الأمينية"
+     ],
+     [
+      "**Promotes Glycogen Synthesis**",
+      "يعزّز تصنيع الغلايكوجين"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "h2",
+   "en": "Why Estimate Insulin?",
+   "ar": "لماذا نقدّر الأنسولين؟"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Important in diagnosing **diabetes mellitus (Type 1 and Type 2)** and other metabolic disorders.",
+    "Helps in assessing **insulin resistance, hyperinsulinemia**, and **pancreatic function**."
+   ],
+   "list_ar": [
+    "مهم في تشخيص **داء السكري (النوع الأول والنوع الثاني)** واضطرابات أيضية أخرى.",
+    "ويساعد في تقييم **مقاومة الأنسولين، وفرط أنسولين الدم**، و**وظيفة البنكرياس**."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Insulin = **peptide** from **β cells of the pancreas**; regulates glucose metabolism and blood sugar.",
+    "Actions: ↓ glucose production, ↑ glucose uptake, ↑ glycogen, ↑ fat storage, ↑ amino acid absorption.",
+    "Measured for **diabetes (type 1 and 2)**, **insulin resistance, hyperinsulinemia**, pancreatic function."
+   ],
+   "ar": [
+    "الأنسولين = **ببتيد** من **خلايا بيتا في البنكرياس**؛ ينظّم أيض الكلوكوز وسكر الدم.",
+    "أفعاله: ↓ إنتاج الكلوكوز، ↑ امتصاص الكلوكوز، ↑ الغلايكوجين، ↑ خزن الدهون، ↑ امتصاص الأحماض الأمينية.",
+    "يُقاس **للسكري (النوع 1 و2)**، و**مقاومة الأنسولين وفرط الأنسولين**، ووظيفة البنكرياس."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Insulin deficiency and excess",
+   "ar": "نقص الأنسولين وزيادته"
+  },
+  {
+   "t": "card",
+   "en": "**What are the symptoms of insulin deficiency?**",
+   "ar": "**ما أعراض نقص الأنسولين؟**",
+   "list_en": [
+    "Looking **pale** (pallor)",
+    "**Shakiness**.",
+    "**Dizziness** or lightheadedness.",
+    "**Sweating**.",
+    "**Hunger** or nausea.",
+    "An **irregular or fast heartbeat**.",
+    "Feeling **weak** and having no energy (fatigue)."
+   ],
+   "list_ar": [
+    "**الشحوب** (اصفرار الوجه)",
+    "**الارتجاف**.",
+    "**الدوخة** أو خفّة الرأس.",
+    "**التعرّق**.",
+    "**الجوع** أو الغثيان.",
+    "**ضربات قلب غير منتظمة أو سريعة**.",
+    "الشعور **بالضعف** وفقدان الطاقة (الإعياء)."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "These are the classic symptoms of **low blood sugar**, caused by **too much** insulin; insulin deficiency itself causes **high** blood sugar.",
+    "Kept as written."
+   ],
+   "ar": [
+    "هذه الأعراض النموذجية **لانخفاض سكر الدم** الذي تسبّبه **زيادة** الأنسولين؛ أمّا نقص الأنسولين فيسبّب **ارتفاع** السكر.",
+    "وأُبقيت كما كُتبت."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "What happens when insulin increases?",
+   "ar": "ماذا يحدث عندما يزداد الأنسولين؟"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Increases the risk of **obesity**",
+    "**Type 2 diabetes**",
+    "**Cardiovascular disease** and decreases health span",
+    "**Life expectancy**."
+   ],
+   "list_ar": [
+    "يزيد خطر **السمنة**",
+    "**داء السكري من النوع الثاني**",
+    "**أمراض القلب والأوعية الدموية** ويقلّل مدّة الصحّة (سنوات العمر بصحّة جيدة)",
+    "**متوسّط العمر المتوقّع**."
+   ]
+  },
+  {
+   "t": "note",
+   "en": "The last point continues the one before it: high insulin **decreases** health span and life expectancy.",
+   "ar": "النقطة الأخيرة تكملة لما قبلها: زيادة الأنسولين **تقلّل** مدّة الصحّة ومتوسّط العمر المتوقّع.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Listed symptoms: pallor, shakiness, dizziness, sweating, hunger/nausea, fast heartbeat, fatigue.",
+    "High insulin → **obesity, type 2 diabetes, cardiovascular disease**, ↓ health span and life expectancy."
+   ],
+   "ar": [
+    "الأعراض المذكورة: الشحوب، الارتجاف، الدوخة، التعرّق، الجوع/الغثيان، تسارع القلب، الإعياء.",
+    "زيادة الأنسولين ← **السمنة، والسكري النوع 2، وأمراض القلب والأوعية**، و↓ مدّة الصحّة والعمر المتوقّع."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Types of Insulin Estimation Methods",
+   "ar": "أنواع طرق تقدير الأنسولين"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Enzyme-Linked Immunosorbent Assay **[ELISA]**.",
+    "High-Performance Liquid Chromatography **(HPLC)**.",
+    "**Mass Spectrometry**."
+   ],
+   "list_ar": [
+    "مقايسة الامتصاص المناعي المرتبط بالإنزيم **[الإليزا]**.",
+    "الكروماتوغرافيا السائلة عالية الأداء **(HPLC)**.",
+    "**مطيافية الكتلة**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Enzyme-Linked Immunosorbent Assay (ELISA)",
+   "ar": "مقايسة الامتصاص المناعي المرتبط بالإنزيم (الإليزا)"
+  },
+  {
+   "t": "card",
+   "en": "**Principle:** An **antigen-antibody reaction** is coupled with an **enzyme-catalyzed color change** reaction to detect insulin concentration.",
+   "ar": "**المبدأ:** يُقرن **تفاعل المستضد-الضد** بتفاعل **تغيّر لوني يحفّزه إنزيم** لكشف تركيز الأنسولين."
+  },
+  {
+   "t": "card",
+   "en": "**Procedure:**",
+   "ar": "**الطريقة:**"
+  },
+  {
+   "t": "rule",
+   "en": "**Coat** a microplate with **insulin-specific antibodies**.",
+   "ar": "**غلّف** صفيحة دقيقة **بأضداد خاصّة بالأنسولين**."
+  },
+  {
+   "t": "rule",
+   "en": "Add **serum samples**; insulin will **bind to the antibody**.",
+   "ar": "أضف **عيّنات المصل**؛ فيرتبط الأنسولين **بالضد**."
+  },
+  {
+   "t": "rule",
+   "en": "Add an **enzyme-conjugated secondary antibody** specific to insulin",
+   "ar": "أضف **ضدًّا ثانويًا مقترنًا بإنزيم** خاصًّا بالأنسولين"
+  },
+  {
+   "t": "rule",
+   "en": "Add **substrate** that the enzyme converts into a **colored product**.",
+   "ar": "أضف **المادة الأساس (الركيزة)** التي يحوّلها الإنزيم إلى **ناتج ملوّن**."
+  },
+  {
+   "t": "rule",
+   "en": "Measure the color change using a **spectrophotometer**.",
+   "ar": "قِس تغيّر اللون باستعمال **المطياف الضوئي**."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Advantages:** **No radiation**, safer, widely available.",
+    "**Disadvantages:** **Moderate sensitivity** compared to **RIA**."
+   ],
+   "list_ar": [
+    "**المزايا:** **بلا إشعاع**، أكثر أمانًا، ومتوفّرة على نطاق واسع.",
+    "**العيوب:** **حساسية متوسّطة** مقارنةً **بالمقايسة المناعية الإشعاعية (RIA)**."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Methods: **ELISA, HPLC, mass spectrometry**.",
+    "ELISA = **Ag-Ab + enzyme color**; capture antibody → insulin → enzyme-labeled antibody → substrate → color.",
+    "ELISA: no radiation, safe, available; but **less sensitive than RIA**."
+   ],
+   "ar": [
+    "الطرق: **الإليزا، وHPLC، ومطيافية الكتلة**.",
+    "الإليزا = **مستضد-ضد + لون إنزيمي**؛ ضد ملتقط ← أنسولين ← ضد موسوم بإنزيم ← ركيزة ← لون.",
+    "الإليزا: بلا إشعاع، آمنة، متوفّرة؛ لكنها **أقل حساسية من RIA**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Normal range",
+   "ar": "المدى الطبيعي"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "State",
+     "الحالة"
+    ],
+    [
+     "Insulin",
+     "الأنسولين"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**1. Fasting Insulin Levels — Normal Range**",
+      "**1. مستويات الأنسولين الصيامي — المدى الطبيعي**"
+     ],
+     "2.6 - 24.9 μU/mL (18 - 174 pmol/L)"
+    ],
+    [
+     [
+      "**2. Insulin Resistance and Hyperinsulinemia — Elevated Insulin Levels**",
+      "**2. مقاومة الأنسولين وفرط أنسولين الدم — مستويات مرتفعة**"
+     ],
+     "> 24.9 μU/mL (>174 pmol/L)"
+    ],
+    [
+     [
+      "**3. Low Insulin Levels**",
+      "**3. مستويات الأنسولين المنخفضة**"
+     ],
+     "< 2.6 μU/mL, (<18 pmol/L)"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    60,
+    40
+   ]
+  },
+  {
+   "t": "note",
+   "en": "1 μU/mL ≈ 6.9–7 pmol/L (2.6 × 6.9 ≈ 18; 24.9 × 6.9 ≈ 174).",
+   "ar": "1 مايكرووحدة/مل ≈ 6.9–7 بيكومول/لتر (2.6 × 6.9 ≈ 18؛ 24.9 × 6.9 ≈ 174).",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Fasting normal **2.6 – 24.9 μU/mL** (18 – 174 pmol/L); above → resistance/hyperinsulinemia; below → low insulin."
+   ],
+   "ar": [
+    "الصيامي الطبيعي **2.6 – 24.9 مايكرووحدة/مل** (18 – 174 بيكومول/لتر)؛ فوقه ← مقاومة/فرط أنسولين؛ تحته ← أنسولين منخفض."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Estimating Insulin using ELISA",
+   "ar": "تقدير الأنسولين بالإليزا"
+  },
+  {
+   "t": "card",
+   "en": "**Materials Needed:**",
+   "ar": "**المواد المطلوبة:**",
+   "list_en": [
+    "Insulin **ELISA kit** (pre-packaged)",
+    "**Microplate reader**",
+    "**Serum samples** (patient samples or standard insulin solution)",
+    "Distilled water, pipettes, and tips"
+   ],
+   "list_ar": [
+    "**عدّة إليزا** للأنسولين (جاهزة التعبئة)",
+    "**قارئ الصفائح الدقيقة**",
+    "**عيّنات المصل** (عيّنات المرضى أو محلول الأنسولين القياسي)",
+    "ماء مقطّر، ماصّات، ورؤوس الماصّات"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Steps:**",
+   "ar": "**الخطوات:**"
+  },
+  {
+   "t": "rule",
+   "en": "**Preparation:** Prepare reagents as per the **kit instructions**.",
+   "ar": "**التحضير:** حضّر الكواشف حسب **تعليمات العدّة**."
+  },
+  {
+   "t": "rule",
+   "en": "**Coating the Plate:** Add **insulin-specific antibodies** to the wells.",
+   "ar": "**تغليف الصفيحة:** أضف **أضدادًا خاصّة بالأنسولين** إلى الحفر."
+  },
+  {
+   "t": "rule",
+   "en": "**Sample Addition:** Add patient serum or **insulin standard** solutions to the wells.",
+   "ar": "**إضافة العيّنة:** أضف مصل المريض أو محاليل **الأنسولين القياسية** إلى الحفر."
+  },
+  {
+   "t": "rule",
+   "en": "**Incubation:** Allow the reaction to occur, typically **1 hour at room temperature**.",
+   "ar": "**الحضن:** اسمح للتفاعل بالحدوث، عادةً **ساعة واحدة بحرارة الغرفة**."
+  },
+  {
+   "t": "rule",
+   "en": "**Washing:** Remove **unbound substances** using a **wash buffer**.",
+   "ar": "**الغسل:** أزل **المواد غير المرتبطة** باستعمال **محلول الغسل المنظِّم**."
+  },
+  {
+   "t": "rule",
+   "en": "**Enzyme Conjugate Addition:** Add the **enzyme-labeled secondary antibody**.",
+   "ar": "**إضافة المقترن الإنزيمي:** أضف **الضد الثانوي الموسوم بالإنزيم**."
+  },
+  {
+   "t": "rule",
+   "en": "**Substrate Addition:** Add the substrate to produce a **color change**.",
+   "ar": "**إضافة الركيزة:** أضف الركيزة لإحداث **تغيّر لوني**."
+  },
+  {
+   "t": "rule",
+   "en": "**Measurement:** Measure the **optical density** using a **microplate reader** at a specific wavelength (usually **450 nm**).",
+   "ar": "**القياس:** قِس **الكثافة الضوئية** باستعمال **قارئ الصفائح** عند طول موجي محدّد (عادةً **450 نانومتر**)."
+  },
+  {
+   "t": "rule",
+   "en": "**Calculation:** Use a **standard curve** to calculate the insulin concentration.",
+   "ar": "**الحساب:** استعمل **المنحنى القياسي** لحساب تركيز الأنسولين."
+  },
+  {
+   "t": "h2",
+   "en": "Quality Control and Considerations",
+   "ar": "ضبط الجودة والاعتبارات"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Calibration:** Use **standard insulin solutions** to generate a **standard curve**.",
+    "**Sensitivity:** Check the **lowest detectable concentration** of insulin.",
+    "**Accuracy and Precision:** Perform **replicate tests** to ensure reliable results"
+   ],
+   "list_ar": [
+    "**المعايرة:** استعمل **محاليل الأنسولين القياسية** لإنشاء **منحنى قياسي**.",
+    "**الحساسية:** تحقّق من **أقل تركيز يمكن كشفه** من الأنسولين.",
+    "**الدقّة والضبط:** أجرِ **فحوصًا مكرّرة** لضمان نتائج موثوقة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Kit, **microplate reader**, serum/standards; incubate **1 h at room temperature**; wash; conjugate; substrate.",
+    "Read OD at **450 nm** → **standard curve**; QC: calibration, sensitivity, replicates."
+   ],
+   "ar": [
+    "العدّة، **قارئ الصفائح**، المصل/المعايير؛ حضن **ساعة بحرارة الغرفة**؛ غسل؛ مقترن؛ ركيزة.",
+    "قراءة الكثافة الضوئية عند **450 نانومتر** ← **المنحنى القياسي**؛ ضبط الجودة: المعايرة، الحساسية، التكرار."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Insulin**",
+     "الأنسولين / هرمون السكر"
+    ],
+    [
+     "**Beta cells**",
+     "خلايا بيتا / الخلايا البائية في جزر لانغرهانز"
+    ],
+    [
+     "**Pancreas**",
+     "البنكرياس / المعثكلة"
+    ],
+    [
+     "**Diabetes mellitus**",
+     "داء السكري / السكّري"
+    ],
+    [
+     "**Insulin resistance**",
+     "مقاومة الأنسولين"
+    ],
+    [
+     "**Hyperinsulinemia**",
+     "فرط أنسولين الدم / زيادة الأنسولين في الدم"
+    ],
+    [
+     "**Hypoglycaemia**",
+     "نقص سكر الدم / هبوط السكر"
+    ],
+    [
+     "**Glycogen synthesis**",
+     "تصنيع الغلايكوجين / تكوين النشا الحيواني"
+    ],
+    [
+     "**ELISA**",
+     "مقايسة الامتصاص المناعي المرتبط بالإنزيم / الإليزا"
+    ],
+    [
+     "**HPLC**",
+     "الكروماتوغرافيا السائلة عالية الأداء"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Mass spectrometry**",
+     "مطيافية الكتلة / قياس الطيف الكتلي"
+    ],
+    [
+     "**RIA**",
+     "المقايسة المناعية الإشعاعية"
+    ],
+    [
+     "**Enzyme-conjugated (labeled) antibody**",
+     "ضد مقترن بإنزيم / ضد موسوم بإنزيم"
+    ],
+    [
+     "**Substrate**",
+     "الركيزة / المادة الأساس"
+    ],
+    [
+     "**Microplate reader**",
+     "قارئ الصفائح الدقيقة / قارئ الإليزا"
+    ],
+    [
+     "**Optical density**",
+     "الكثافة الضوئية / الامتصاصية"
+    ],
+    [
+     "**Standard curve**",
+     "المنحنى القياسي / منحنى المعايرة"
+    ],
+    [
+     "**Wash buffer**",
+     "محلول الغسل المنظِّم"
+    ],
+    [
+     "**Calibration**",
+     "المعايرة"
+    ],
+    [
+     "**Accuracy / Precision**",
+     "الدقّة (الصحّة) / الضبط (التكرارية)"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Insulin",
+    "topic_ar": "الأنسولين"
+   },
+   {
+    "en": "Insulin is produced by:",
+    "ar": "يُنتج الأنسولين من:",
+    "options": [
+     [
+      "The anterior pituitary",
+      "النخامية الأمامية"
+     ],
+     [
+      "Alpha cells of the pancreas",
+      "خلايا ألفا في البنكرياس"
+     ],
+     [
+      "Beta cells of the pancreas",
+      "خلايا بيتا في البنكرياس"
+     ],
+     [
+      "The adrenal medulla",
+      "لبّ الكظر"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Chemically, insulin is a:",
+    "ar": "كيميائيًا الأنسولين:",
+    "options": [
+     [
+      "Steroid hormone",
+      "هرمون ستيرويدي"
+     ],
+     [
+      "Peptide hormone",
+      "هرمون ببتيدي"
+     ],
+     [
+      "Amine hormone",
+      "هرمون أميني"
+     ],
+     [
+      "Lipid",
+      "دهن"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which is NOT a function of insulin shown in the figure?",
+    "ar": "أيّ مما يأتي ليس من وظائف الأنسولين في الشكل؟",
+    "options": [
+     [
+      "Facilitates glucose uptake",
+      "يسهّل امتصاص الكلوكوز"
+     ],
+     [
+      "Promotes glycogen synthesis",
+      "يعزّز تصنيع الغلايكوجين"
+     ],
+     [
+      "Enhances fat storage",
+      "يعزّز خزن الدهون"
+     ],
+     [
+      "Stimulates glucose production",
+      "يحفّز إنتاج الكلوكوز"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Insulin estimation is important in diagnosing:",
+    "ar": "تقدير الأنسولين مهم في تشخيص:",
+    "options": [
+     [
+      "Diabetes mellitus type 1 and type 2",
+      "داء السكري النوع 1 والنوع 2"
+     ],
+     [
+      "Hepatitis",
+      "التهاب الكبد"
+     ],
+     [
+      "Gout",
+      "النقرس"
+     ],
+     [
+      "Anemia",
+      "فقر الدم"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Insulin estimation helps in assessing all EXCEPT:",
+    "ar": "يساعد تقدير الأنسولين في تقييم كل ما يأتي ما عدا:",
+    "options": [
+     [
+      "Thyroid function",
+      "وظيفة الدرقية"
+     ],
+     [
+      "Insulin resistance",
+      "مقاومة الأنسولين"
+     ],
+     [
+      "Hyperinsulinemia",
+      "فرط أنسولين الدم"
+     ],
+     [
+      "Pancreatic function",
+      "وظيفة البنكرياس"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which is listed in the lecture as a symptom of insulin deficiency?",
+    "ar": "أيّ مما يأتي مذكور في المحاضرة عرضًا لنقص الأنسولين؟",
+    "options": [
+     [
+      "Weight gain",
+      "زيادة الوزن"
+     ],
+     [
+      "Slow heartbeat",
+      "بطء القلب"
+     ],
+     [
+      "Shakiness",
+      "الارتجاف"
+     ],
+     [
+      "High blood pressure",
+      "ارتفاع الضغط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "When insulin increases, it increases the risk of:",
+    "ar": "عندما يزداد الأنسولين يزيد خطر:",
+    "options": [
+     [
+      "Type 1 diabetes",
+      "السكري النوع 1"
+     ],
+     [
+      "Obesity and type 2 diabetes",
+      "السمنة والسكري النوع 2"
+     ],
+     [
+      "Anemia",
+      "فقر الدم"
+     ],
+     [
+      "Hypothyroidism",
+      "قصور الدرقية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "High insulin also:",
+    "ar": "زيادة الأنسولين أيضًا:",
+    "options": [
+     [
+      "Increases life expectancy",
+      "تزيد العمر المتوقّع"
+     ],
+     [
+      "Prevents cardiovascular disease",
+      "تمنع أمراض القلب"
+     ],
+     [
+      "Lowers fat storage",
+      "تقلّل خزن الدهون"
+     ],
+     [
+      "Decreases health span",
+      "تقلّل مدّة الصحّة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Estimation methods",
+    "topic_ar": "طرق التقدير"
+   },
+   {
+    "en": "Which is NOT one of the insulin estimation methods in the lecture?",
+    "ar": "أيّ مما يأتي ليس من طرق تقدير الأنسولين في المحاضرة؟",
+    "options": [
+     [
+      "Sahli’s method",
+      "طريقة سالي"
+     ],
+     [
+      "ELISA",
+      "الإليزا"
+     ],
+     [
+      "HPLC",
+      "HPLC"
+     ],
+     [
+      "Mass spectrometry",
+      "مطيافية الكتلة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The principle of ELISA couples an antigen-antibody reaction with:",
+    "ar": "يقرن مبدأ الإليزا تفاعل المستضد-الضد بـ:",
+    "options": [
+     [
+      "Radioactive counting",
+      "عدّ إشعاعي"
+     ],
+     [
+      "Agglutination",
+      "التلازن"
+     ],
+     [
+      "An enzyme-catalyzed color change",
+      "تغيّر لوني يحفّزه إنزيم"
+     ],
+     [
+      "Precipitation in gel",
+      "الترسيب في الهلام"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In insulin ELISA, the microplate is first coated with:",
+    "ar": "في إليزا الأنسولين تُغلّف الصفيحة أولًا بـ:",
+    "options": [
+     [
+      "Substrate",
+      "الركيزة"
+     ],
+     [
+      "Insulin-specific antibodies",
+      "أضداد خاصّة بالأنسولين"
+     ],
+     [
+      "Serum",
+      "المصل"
+     ],
+     [
+      "Wash buffer",
+      "محلول الغسل"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The substrate in ELISA is converted by the enzyme into:",
+    "ar": "تتحوّل الركيزة في الإليزا بالإنزيم إلى:",
+    "options": [
+     [
+      "Insulin",
+      "أنسولين"
+     ],
+     [
+      "An antibody",
+      "ضد"
+     ],
+     [
+      "A radioactive label",
+      "وسم إشعاعي"
+     ],
+     [
+      "A colored product",
+      "ناتج ملوّن"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "An advantage of ELISA is:",
+    "ar": "من مزايا الإليزا:",
+    "options": [
+     [
+      "No equipment needed",
+      "لا تحتاج أجهزة"
+     ],
+     [
+      "Higher sensitivity than RIA",
+      "حساسية أعلى من RIA"
+     ],
+     [
+      "No antibodies needed",
+      "لا تحتاج أضدادًا"
+     ],
+     [
+      "No radiation, safer, widely available",
+      "بلا إشعاع، أكثر أمانًا، متوفّرة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A disadvantage of ELISA compared to RIA is:",
+    "ar": "من عيوب الإليزا مقارنةً بـ RIA:",
+    "options": [
+     [
+      "Moderate sensitivity",
+      "حساسية متوسّطة"
+     ],
+     [
+      "Radiation hazard",
+      "خطر الإشعاع"
+     ],
+     [
+      "Not available",
+      "غير متوفّرة"
+     ],
+     [
+      "Needs live cells",
+      "تحتاج خلايا حيّة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Normal range and procedure",
+    "topic_ar": "المدى الطبيعي والطريقة"
+   },
+   {
+    "en": "The normal fasting insulin range is:",
+    "ar": "المدى الطبيعي للأنسولين الصيامي:",
+    "options": [
+     [
+      "10 - 50 μU/mL",
+      "10 - 50 مايكرووحدة/مل"
+     ],
+     [
+      "< 2.6 μU/mL",
+      "أقل من 2.6"
+     ],
+     [
+      "2.6 - 24.9 μU/mL",
+      "2.6 - 24.9 مايكرووحدة/مل"
+     ],
+     [
+      "> 24.9 μU/mL",
+      "أكثر من 24.9"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Fasting insulin of 18 - 174 pmol/L corresponds to:",
+    "ar": "الأنسولين الصيامي 18 - 174 بيكومول/لتر يقابل:",
+    "options": [
+     [
+      "Insulin resistance",
+      "مقاومة الأنسولين"
+     ],
+     [
+      "The normal range",
+      "المدى الطبيعي"
+     ],
+     [
+      "Hyperinsulinemia",
+      "فرط الأنسولين"
+     ],
+     [
+      "Low insulin",
+      "أنسولين منخفض"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Insulin above 24.9 μU/mL indicates:",
+    "ar": "الأنسولين فوق 24.9 مايكرووحدة/مل يدلّ على:",
+    "options": [
+     [
+      "Low insulin",
+      "أنسولين منخفض"
+     ],
+     [
+      "Normal level",
+      "مستوى طبيعي"
+     ],
+     [
+      "Insulin resistance and hyperinsulinemia",
+      "مقاومة الأنسولين وفرط أنسولين الدم"
+     ],
+     [
+      "Lab error only",
+      "خطأ مختبري فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Low insulin level is:",
+    "ar": "مستوى الأنسولين المنخفض:",
+    "options": [
+     [
+      "< 2.6 μU/mL (< 18 pmol/L)",
+      "أقل من 2.6 مايكرووحدة/مل (أقل من 18 بيكومول/لتر)"
+     ],
+     [
+      "> 174 pmol/L",
+      "أكثر من 174 بيكومول/لتر"
+     ],
+     [
+      "2.6 - 24.9 μU/mL",
+      "2.6 - 24.9"
+     ],
+     [
+      "Exactly 18 μU/mL",
+      "18 بالضبط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The incubation in the insulin ELISA lab is typically:",
+    "ar": "الحضن في عملي إليزا الأنسولين عادةً:",
+    "options": [
+     [
+      "10 min at 37 °C",
+      "10 دقائق بدرجة 37"
+     ],
+     [
+      "Overnight at 4 °C",
+      "ليلة بدرجة 4"
+     ],
+     [
+      "5 min boiling",
+      "5 دقائق غليان"
+     ],
+     [
+      "1 hour at room temperature",
+      "ساعة بحرارة الغرفة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Unbound substances are removed using:",
+    "ar": "تُزال المواد غير المرتبطة باستعمال:",
+    "options": [
+     [
+      "Substrate",
+      "الركيزة"
+     ],
+     [
+      "A wash buffer",
+      "محلول الغسل المنظِّم"
+     ],
+     [
+      "Distilled water only",
+      "الماء المقطّر فقط"
+     ],
+     [
+      "Serum",
+      "المصل"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Optical density in insulin ELISA is usually read at:",
+    "ar": "تُقرأ الكثافة الضوئية في إليزا الأنسولين عادةً عند:",
+    "options": [
+     [
+      "340 nm",
+      "340 نانومتر"
+     ],
+     [
+      "540 nm",
+      "540 نانومتر"
+     ],
+     [
+      "450 nm",
+      "450 نانومتر"
+     ],
+     [
+      "620 nm",
+      "620 نانومتر"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The instrument used to read the plate is:",
+    "ar": "الجهاز المستعمل لقراءة الصفيحة:",
+    "options": [
+     [
+      "Microplate reader",
+      "قارئ الصفائح الدقيقة"
+     ],
+     [
+      "Centrifuge",
+      "جهاز الطرد"
+     ],
+     [
+      "Microscope",
+      "المجهر"
+     ],
+     [
+      "pH meter",
+      "مقياس الحموضة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Insulin concentration is calculated using:",
+    "ar": "يُحسب تركيز الأنسولين باستعمال:",
+    "options": [
+     [
+      "A conversion factor only",
+      "معامل تحويل فقط"
+     ],
+     [
+      "The lowest detectable value",
+      "أقل قيمة قابلة للكشف"
+     ],
+     [
+      "Visual comparison",
+      "مقارنة بصرية"
+     ],
+     [
+      "A standard curve",
+      "منحنى قياسي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Replicate tests are done to ensure:",
+    "ar": "تُجرى الفحوص المكرّرة لضمان:",
+    "options": [
+     [
+      "Calibration",
+      "المعايرة"
+     ],
+     [
+      "Accuracy and precision",
+      "الدقّة والضبط"
+     ],
+     [
+      "Color change",
+      "تغيّر اللون"
+     ],
+     [
+      "Sensitivity",
+      "الحساسية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this figure, insulin and glucagon come from the:",
+    "ar": "في هذا الشكل يأتي الأنسولين والغلوكاغون من:",
+    "options": [
+     [
+      "Adrenal medulla",
+      "لبّ الكظر"
+     ],
+     [
+      "Pancreas",
+      "البنكرياس"
+     ],
+     [
+      "Thyroid",
+      "الدرقية"
+     ],
+     [
+      "Posterior pituitary",
+      "النخامية الخلفية"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/endocrine-axis.jpg",
+    "img_h": "58mm"
+   },
+   {
+    "en": "According to this figure, insulin:",
+    "ar": "حسب هذا الشكل، الأنسولين:",
+    "options": [
+     [
+      "Inhibits glycogen synthesis",
+      "يثبّط تصنيع الغلايكوجين"
+     ],
+     [
+      "Decreases fat storage",
+      "يقلّل خزن الدهون"
+     ],
+     [
+      "Blocks amino acid absorption",
+      "يمنع امتصاص الأحماض الأمينية"
+     ],
+     [
+      "Inhibits glucose production",
+      "يثبّط إنتاج الكلوكوز"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/insulin-function.jpg",
+    "img_h": "38mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Insulin regulates glucose metabolism.",
+    "ar": "ينظّم الأنسولين أيض الكلوكوز.",
+    "answer": "T"
+   },
+   {
+    "en": "Insulin is produced by alpha cells of the pancreas.",
+    "ar": "يُنتج الأنسولين من خلايا ألفا في البنكرياس.",
+    "answer": "F"
+   },
+   {
+    "en": "Insulin supports amino acid absorption.",
+    "ar": "يدعم الأنسولين امتصاص الأحماض الأمينية.",
+    "answer": "T"
+   },
+   {
+    "en": "Sweating is listed as a symptom in the lecture.",
+    "ar": "التعرّق مذكور عرضًا في المحاضرة.",
+    "answer": "T"
+   },
+   {
+    "en": "Increased insulin decreases the risk of obesity.",
+    "ar": "زيادة الأنسولين تقلّل خطر السمنة.",
+    "answer": "F"
+   },
+   {
+    "en": "HPLC is one of the insulin estimation methods.",
+    "ar": "HPLC إحدى طرق تقدير الأنسولين.",
+    "answer": "T"
+   },
+   {
+    "en": "ELISA uses radioactive labels.",
+    "ar": "تستعمل الإليزا وسومًا إشعاعية.",
+    "answer": "F"
+   },
+   {
+    "en": "ELISA is more sensitive than RIA.",
+    "ar": "الإليزا أكثر حساسية من RIA.",
+    "answer": "F"
+   },
+   {
+    "en": "In ELISA insulin in the serum binds to the coated antibody.",
+    "ar": "في الإليزا يرتبط أنسولين المصل بالضد المغلِّف.",
+    "answer": "T"
+   },
+   {
+    "en": "Fasting insulin above 24.9 μU/mL is normal.",
+    "ar": "الأنسولين الصيامي فوق 24.9 مايكرووحدة/مل طبيعي.",
+    "answer": "F"
+   },
+   {
+    "en": "Standard insulin solutions are used to generate a standard curve.",
+    "ar": "تُستعمل محاليل الأنسولين القياسية لإنشاء منحنى قياسي.",
+    "answer": "T"
+   },
+   {
+    "en": "Sensitivity means checking the lowest detectable concentration of insulin.",
+    "ar": "الحساسية تعني التحقّق من أقل تركيز قابل للكشف من الأنسولين.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Beta or alpha cells?",
+    "ar": "خلايا بيتا أم ألفا؟",
+    "answer_en": "Insulin = beta cells of the pancreas (glucagon is from alpha cells).",
+    "answer_ar": "الأنسولين = خلايا بيتا في البنكرياس (والغلوكاغون من خلايا ألفا)."
+   },
+   {
+    "en": "“Insulin deficiency” symptoms",
+    "ar": "أعراض “نقص الأنسولين”",
+    "answer_en": "The lecture lists pallor, shakiness, dizziness, sweating, hunger/nausea, fast heartbeat, fatigue under insulin deficiency — answer with this list if asked “according to the lecture”; physiologically they are hypoglycaemia symptoms.",
+    "answer_ar": "المحاضرة تذكر الشحوب والارتجاف والدوخة والتعرّق والجوع/الغثيان وتسارع القلب والإعياء تحت نقص الأنسولين — أجب بهذه القائمة إذا قيل “حسب المحاضرة”؛ وفسيولوجيًا هي أعراض نقص السكر."
+   },
+   {
+    "en": "Two units for the same range",
+    "ar": "وحدتان للمدى نفسه",
+    "answer_en": "2.6 - 24.9 μU/mL = 18 - 174 pmol/L. Do not mix them: > 24.9 μU/mL (> 174 pmol/L) high; < 2.6 μU/mL (< 18 pmol/L) low.",
+    "answer_ar": "2.6 - 24.9 مايكرووحدة/مل = 18 - 174 بيكومول/لتر. لا تخلط بينهما: > 24.9 (> 174) مرتفع؛ < 2.6 (< 18) منخفض."
+   },
+   {
+    "en": "ELISA vs RIA",
+    "ar": "الإليزا مقابل RIA",
+    "answer_en": "ELISA: no radiation, safer, available — but only moderate sensitivity compared to RIA.",
+    "answer_ar": "الإليزا: بلا إشعاع، أكثر أمانًا، متوفّرة — لكن حساسيتها متوسّطة مقارنةً بـ RIA."
+   },
+   {
+    "en": "Which wavelength?",
+    "ar": "أي طول موجي؟",
+    "answer_en": "Insulin ELISA: usually 450 nm on a microplate reader (Drabkin's Hb was 540 nm on a spectrophotometer).",
+    "answer_ar": "إليزا الأنسولين: عادةً 450 نانومتر بقارئ الصفائح (وهيموغلوبين درابكن كان 540 نانومتر بالمطياف)."
+   },
+   {
+    "en": "Calibration vs accuracy",
+    "ar": "المعايرة مقابل الدقّة",
+    "answer_en": "Calibration = standard solutions → standard curve; accuracy and precision = replicate tests; sensitivity = lowest detectable concentration.",
+    "answer_ar": "المعايرة = محاليل قياسية ← منحنى قياسي؛ الدقّة والضبط = فحوص مكرّرة؛ الحساسية = أقل تركيز قابل للكشف."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define insulin and state why it is estimated.",
+    "ar": "عرّف الأنسولين واذكر لماذا يُقدَّر.",
+    "answer_en": "A peptide hormone produced by the beta cells of the pancreas that regulates glucose metabolism and maintains blood sugar levels. It is estimated to diagnose diabetes mellitus (type 1 and type 2) and other metabolic disorders, and to assess insulin resistance, hyperinsulinemia and pancreatic function.",
+    "answer_ar": "هرمون ببتيدي تنتجه خلايا بيتا في البنكرياس، ينظّم أيض الكلوكوز ويحافظ على مستويات سكر الدم. ويُقدَّر لتشخيص داء السكري (النوع 1 و2) واضطرابات أيضية أخرى، ولتقييم مقاومة الأنسولين وفرط أنسولين الدم ووظيفة البنكرياس."
+   },
+   {
+    "en": "List the functions of insulin shown in the figure.",
+    "ar": "عدّد وظائف الأنسولين المبيّنة في الشكل.",
+    "answer_en": "Inhibits glucose production; facilitates glucose uptake; enhances fat storage; regulates blood sugar levels; supports amino acid absorption; promotes glycogen synthesis.",
+    "answer_ar": "يثبّط إنتاج الكلوكوز؛ يسهّل امتصاص الكلوكوز؛ يعزّز خزن الدهون؛ ينظّم مستويات سكر الدم؛ يدعم امتصاص الأحماض الأمينية؛ يعزّز تصنيع الغلايكوجين."
+   },
+   {
+    "en": "What happens when insulin increases?",
+    "ar": "ماذا يحدث عندما يزداد الأنسولين؟",
+    "answer_en": "It increases the risk of obesity, type 2 diabetes and cardiovascular disease, and decreases health span and life expectancy.",
+    "answer_ar": "يزيد خطر السمنة والسكري النوع 2 وأمراض القلب والأوعية، ويقلّل مدّة الصحّة ومتوسّط العمر المتوقّع."
+   },
+   {
+    "en": "Explain the principle and procedure of insulin ELISA.",
+    "ar": "اشرح مبدأ إليزا الأنسولين وطريقتها.",
+    "answer_en": "Principle: an antigen-antibody reaction coupled with an enzyme-catalyzed color change. Procedure: coat microplate with insulin-specific antibodies; add serum (insulin binds); add enzyme-conjugated secondary antibody; add substrate → colored product; measure color with a spectrophotometer. Advantages: no radiation, safer, widely available; disadvantage: moderate sensitivity compared to RIA.",
+    "answer_ar": "المبدأ: تفاعل مستضد-ضد مقرون بتغيّر لوني يحفّزه إنزيم. الطريقة: غلّف الصفيحة بأضداد خاصّة بالأنسولين؛ أضف المصل (يرتبط الأنسولين)؛ أضف ضدًّا ثانويًا مقترنًا بإنزيم؛ أضف الركيزة ← ناتج ملوّن؛ قِس اللون بالمطياف. المزايا: بلا إشعاع، أكثر أمانًا، متوفّرة؛ والعيب: حساسية متوسّطة مقارنةً بـ RIA."
+   },
+   {
+    "en": "Give the normal range of insulin and its interpretation.",
+    "ar": "اذكر المدى الطبيعي للأنسولين وتفسيره.",
+    "answer_en": "Fasting normal: 2.6 - 24.9 μU/mL (18 - 174 pmol/L). Elevated > 24.9 μU/mL (> 174 pmol/L): insulin resistance and hyperinsulinemia. Low < 2.6 μU/mL (< 18 pmol/L).",
+    "answer_ar": "الصيامي الطبيعي: 2.6 - 24.9 مايكرووحدة/مل (18 - 174 بيكومول/لتر). المرتفع > 24.9 (> 174): مقاومة الأنسولين وفرط أنسولين الدم. المنخفض < 2.6 (< 18)."
+   },
+   {
+    "en": "Describe the laboratory steps of estimating insulin by ELISA and its quality control.",
+    "ar": "صف خطوات تقدير الأنسولين بالإليزا في المختبر وضبط جودتها.",
+    "answer_en": "Materials: insulin ELISA kit, microplate reader, serum samples or standards, distilled water, pipettes and tips. Steps: prepare reagents; coat wells with antibodies; add serum or standards; incubate 1 h at room temperature; wash with wash buffer; add enzyme-labeled secondary antibody; add substrate; read optical density at ~450 nm; calculate from a standard curve. QC: calibration with standards, sensitivity (lowest detectable concentration), accuracy and precision by replicate tests.",
+    "answer_ar": "المواد: عدّة إليزا للأنسولين، قارئ الصفائح، عيّنات مصل أو معايير، ماء مقطّر، ماصّات ورؤوسها. الخطوات: حضّر الكواشف؛ غلّف الحفر بالأضداد؛ أضف المصل أو المعايير؛ احضن ساعة بحرارة الغرفة؛ اغسل بمحلول الغسل؛ أضف الضد الثانوي الموسوم بالإنزيم؛ أضف الركيزة؛ اقرأ الكثافة الضوئية عند ~450 نانومتر؛ احسب من المنحنى القياسي. ضبط الجودة: المعايرة بالمعايير، الحساسية (أقل تركيز قابل للكشف)، الدقّة والضبط بالفحوص المكرّرة."
+   }
+  ]
+ }
+}

@@ -57,6 +57,7 @@
 - [[Code/imm456 - rs3.py|imm456/rs3.py]] → research-lec3-research-plan
 - [[Code/imt - l1.py|imt/l1.py]] → immunology-lec1-introduction
 - [[Code/inf - l1.py|inf/l1.py]] → histopathology-lec1-acute-inflammation
+- [[Code/ins - insq.py|ins/insq.py]] → endocrine-lab4-insulin
 - [[Code/lb1 - gl1.py|lb1/gl1.py]] → genetics-lab1-mitosis
 - [[Code/lb2 - gl2.py|lb2/gl2.py]] → genetics-lab2-meiosis
 - [[Code/lb3 - gl3.py|lb3/gl3.py]] → genetics-lab3-medical-genetics
@@ -99,6 +100,7 @@
 - [[Code/iml3 - l3.py|iml3/l3.py]]
 - [[Code/imm456 - ci5_blocks.py|imm456/ci5_blocks.py]]
 - [[Code/imm456 - ci6_ar.py|imm456/ci6_ar.py]]
+- [[Code/ins - ins.py|ins/ins.py]]
 - [[Code/par2 - ps2.py|par2/ps2.py]]
 - [[Code/par2 - ps3.py|par2/ps3.py]]
 - [[Code/par2 - ps4.py|par2/ps4.py]]

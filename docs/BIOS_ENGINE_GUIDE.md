@@ -1140,6 +1140,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 |---|---|---|
 | `advtech-lec5-pcr` | تقنيات متقدمة | نظري 5 — PCR (أسلوب جديد؛ الشرائح صور نصوص نُقلت يدويًا) |
 | `advtech-lec4-plasma-urine-proteins` | تقنيات متقدمة | نظري 4 — البروتينات في البلازما والإدرار (أسلوب جديد) |
+| `endocrine-lab4-insulin` | غدد صماء عملي | عملي 4 — الأنسولين (أسلوب جديد) |
 | `endocrine-lab3-growth-hormone` | غدد صماء عملي | عملي 3 — هرمون النمو (أسلوب جديد) |
 | `hematology-practical-pcv` | امراض الدم | عملي 5 — PCV / الهيماتوكريت (أسلوب جديد) |
 | `hematology-practical-hb-estimation` | امراض الدم | عملي 4 — تقدير الهيموغلوبين (رقم 4 مكرّر مع قياس العكارة — ينتظر جواب المستخدم) |
