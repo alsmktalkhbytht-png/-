@@ -1140,6 +1140,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 |---|---|---|
 | `advtech-lec5-pcr` | تقنيات متقدمة | نظري 5 — PCR (أسلوب جديد؛ الشرائح صور نصوص نُقلت يدويًا) |
 | `advtech-lec4-plasma-urine-proteins` | تقنيات متقدمة | نظري 4 — البروتينات في البلازما والإدرار (أسلوب جديد) |
+| `hematology-practical-pcv` | امراض الدم | عملي 5 — PCV / الهيماتوكريت (أسلوب جديد) |
 | `hematology-practical-hb-estimation` | امراض الدم | عملي 4 — تقدير الهيموغلوبين (رقم 4 مكرّر مع قياس العكارة — ينتظر جواب المستخدم) |
 | `immunology-lec4-immunoglobulins` | مناعة | نظري 4 — الغلوبيولينات المناعية (أسلوب جديد) |
 | `immunology-lab3-antigen-preparation` | مناعة | عملي 3 — تحضير المستضدات (أسلوب جديد، الأسئلة داخل الملزمة) |

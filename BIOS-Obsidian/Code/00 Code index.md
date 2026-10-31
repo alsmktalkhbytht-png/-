@@ -76,6 +76,7 @@
 - [[Code/par5 - p5q.py|par5/p5q.py]] → parasitology-week5-theory
 - [[Code/pat - make12.py|pat/make12.py]] → pathology-lec1-2-atelectasis
 - [[Code/pat - make3.py|pat/make3.py]] → pathology-lec3-chronic-bronchitis
+- [[Code/pcv - pcvq.py|pcv/pcvq.py]] → hematology-practical-pcv
 - [[Code/picq.py|picq.py]] → bloodbank-lec1-introduction, immunology-lab1-serology, lab1-biosafety
 - [[Code/res - make.py|res/make.py]] → research-lec1-principles
 - [[Code/ria - l3.py|ria/l3.py]] → advtech-lec3-ria
@@ -106,6 +107,7 @@
 - [[Code/para - ar1.py|para/ar1.py]]
 - [[Code/para - ar2.py|para/ar2.py]]
 - [[Code/pat - fix1.py|pat/fix1.py]]
+- [[Code/pcv - pcv.py|pcv/pcv.py]]
 - [[Code/restyle.py|restyle.py]]
 
 ## Engine snapshot

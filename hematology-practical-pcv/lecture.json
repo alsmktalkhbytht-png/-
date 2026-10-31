@@ -1,0 +1,1564 @@
+{
+ "meta": {
+  "subject_en": "Hematology",
+  "subject_ar": "أمراض الدم",
+  "short_ar": "امراض الدم",
+  "unit_label": "LAB",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة",
+  "instructor": "ليندا منجد هادي",
+  "unit_en": "Lab 5",
+  "unit_ar": "العملي 5",
+  "unit_no": "5",
+  "title_en": "Determination Of Packed Cell Volume (PCV) or Hematocrit",
+  "title_ar": "تحديد حجم الخلايا المرصوصة (PCV) أو الهيماتوكريت"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Packed Cell Volume (PCV)",
+   "ar": "حجم الخلايا المرصوصة"
+  },
+  {
+   "t": "h2",
+   "en": "INTRODUCTION",
+   "ar": "المقدّمة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Packed Cell Volume (PCV), or **hematocrit**, is the **percentage of whole blood occupied by red blood cells**.",
+    "It can be measured in **capillary, venous, or arterial** blood.",
+    "PCV is commonly used as part of the **complete blood count** to help detect **anemia, polycythemia**, and **changes in plasma volume**."
+   ],
+   "list_ar": [
+    "حجم الخلايا المرصوصة (PCV)، أو **الهيماتوكريت**، هو **النسبة المئوية من الدم الكامل التي تشغلها كريات الدم الحمر**.",
+    "ويمكن قياسه في الدم **الشعيري أو الوريدي أو الشرياني**.",
+    "ويُستعمل PCV عادةً جزءًا من **صورة الدم الكاملة** للمساعدة في كشف **فقر الدم، وكثرة الكريات الحمر**، و**تغيّرات حجم البلازما**."
+   ]
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "**Introduction**",
+     "ar": "**المقدّمة**",
+     "list_en": [
+      "PCV indicates how much of the blood volume is **occupied by cells**.",
+      "A PCV of **50%** means that **50 mL of packed cells** are present in **100 mL of blood**.",
+      "PCV may **rise** when the number of red blood cells **increases** or when **plasma volume decreases**, as in **dehydration**."
+     ],
+     "list_ar": [
+      "يدلّ PCV على مقدار حجم الدم الذي **تشغله الخلايا**.",
+      "وPCV بنسبة **50%** يعني وجود **50 مل من الخلايا المرصوصة** في **100 مل من الدم**.",
+      "وقد **يرتفع** PCV عندما **يزداد** عدد كريات الدم الحمر أو عندما **ينقص حجم البلازما**، كما في **الجفاف**."
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/pcv-tube.jpg",
+    "en": "PCV (Packed Cell Volume) test tube",
+    "ar": "أنبوب فحص PCV (حجم الخلايا المرصوصة)"
+   }
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "PCV is the percentage of **packed red blood cells** in the **total blood column**.",
+    "It is affected mainly by **red blood cell mass** and **plasma volume**.",
+    "Clinically, it helps detect **anemia, polycythemia, hemoconcentration, and hemodilution**.",
+    "**Increased** hematocrit may reflect **hemoconcentration**; **decreased** hematocrit may reflect **hemodilution**.",
+    "**Markedly high** hematocrit may be associated with **increased thrombotic risk**."
+   ],
+   "list_ar": [
+    "PCV هو النسبة المئوية **لكريات الدم الحمر المرصوصة** في **عمود الدم الكلّي**.",
+    "ويتأثّر بصورة رئيسية **بكتلة كريات الدم الحمر** و**حجم البلازما**.",
+    "وسريريًا يساعد في كشف **فقر الدم، وكثرة الكريات الحمر، وتركّز الدم، وتخفّف الدم**.",
+    "**ارتفاع** الهيماتوكريت قد يعكس **تركّز الدم**؛ و**انخفاضه** قد يعكس **تخفّف الدم**.",
+    "و**الارتفاع الشديد** للهيماتوكريت قد يرتبط **بزيادة خطر الخثار (التجلّط)**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/pcv-simple.png",
+   "en": "Normal blood, anemia, polycythemia — labels: PLASMA, BUFFY COAT, HEMATOCRIT",
+   "ar": "دم طبيعي، فقر دم، كثرة كريات حمر — الكتابات: البلازما، الطبقة الشاحبة، الهيماتوكريت",
+   "h": "34mm",
+   "fit": "contain"
+  },
+  {
+   "t": "note",
+   "en": [
+    "PCV (hematocrit) = **% of whole blood occupied by RBCs**; PCV 50% = 50 mL cells / 100 mL blood.",
+    "Depends on **RBC mass + plasma volume**; ↑ = hemoconcentration, ↓ = hemodilution; very high → **thrombotic risk**."
+   ],
+   "ar": [
+    "PCV (الهيماتوكريت) = **نسبة الدم الكامل التي تشغلها الكريات الحمر**؛ PCV 50% = 50 مل خلايا / 100 مل دم.",
+    "يعتمد على **كتلة الكريات + حجم البلازما**؛ الارتفاع = تركّز الدم، والانخفاض = تخفّف الدم؛ والمرتفع جدًا ← **خطر التجلّط**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Principle Of The Test",
+   "ar": "مبدأ الفحص"
+  },
+  {
+   "t": "card",
+   "en": "When **anticoagulated blood** is **centrifuged** at a suitable speed and time, it separates into **three layers:**",
+   "ar": "عند **نبذ الدم المعامل بمانع التخثّر** بسرعة ووقت مناسبين، ينفصل إلى **ثلاث طبقات:**",
+   "list_en": [
+    "**Bottom layer:** packed red blood cells",
+    "**Middle thin layer:** buffy coat (white blood cells and platelets)",
+    "**Top layer:** plasma"
+   ],
+   "list_ar": [
+    "**الطبقة السفلى:** كريات الدم الحمر المرصوصة",
+    "**الطبقة الوسطى الرقيقة:** الطبقة الشاحبة (كريات الدم البيض والصفيحات)",
+    "**الطبقة العليا:** البلازما"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/pcv-layers.jpg",
+   "en": "Layers of centrifuged blood: normal, anemia, polycythemia",
+   "ar": "طبقات الدم المنبوذ: طبيعي، فقر دم، كثرة كريات حمر",
+   "h": "52mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Plasma:** - Water, proteins, nutrients, hormones, etc.",
+      "البلازما: ماء، بروتينات، مغذّيات، هرمونات، إلخ."
+     ],
+     [
+      "**Buffy coat:** - White blood cells, platelets",
+      "الطبقة الشاحبة: كريات بيض، صفيحات"
+     ]
+    ],
+    [
+     [
+      "**Hematocrit:** - Red blood cells",
+      "الهيماتوكريت: كريات حمر"
+     ],
+     [
+      "**Normal Blood:** ♀ 37%–47% hematocrit, ♂ 42%–52% hematocrit",
+      "دم طبيعي: ♀ هيماتوكريت 37%–47%، ♂ 42%–52%"
+     ]
+    ],
+    [
+     [
+      "**Anemia:** Depressed hematocrit %",
+      "فقر الدم: هيماتوكريت منخفض"
+     ],
+     [
+      "**Polycythemia:** Elevated hematocrit %",
+      "كثرة الكريات الحمر: هيماتوكريت مرتفع"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "note",
+   "en": "The figure gives normal values (♀ 37–47%, ♂ 42–52%) slightly different from the lecture’s normal values below; memorise the lecture’s numbers.",
+   "ar": "الشكل يذكر قيمًا طبيعية (♀ 37–47%، ♂ 42–52%) تختلف قليلًا عن القيم الطبيعية للمحاضرة أدناه؛ احفظ أرقام المحاضرة.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Normal value",
+   "ar": "القيمة الطبيعية"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Group",
+     "الفئة"
+    ],
+    [
+     "PCV",
+     "PCV"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Males**",
+      "**الذكور**"
+     ],
+     "40–54%"
+    ],
+    [
+     [
+      "**Females**",
+      "**الإناث**"
+     ],
+     "36–47%"
+    ],
+    [
+     [
+      "**Newborns**",
+      "**حديثو الولادة**"
+     ],
+     "55–68%"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    60,
+    40
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Centrifuged blood → **RBCs (bottom)**, **buffy coat** (WBCs + platelets, middle), **plasma (top)**.",
+    "Normal: males **40–54%**, females **36–47%**, newborns **55–68%**."
+   ],
+   "ar": [
+    "الدم المنبوذ ← **كريات حمر (أسفل)**، **طبقة شاحبة** (كريات بيض + صفيحات، وسط)، **بلازما (أعلى)**.",
+    "الطبيعي: الذكور **40–54%**، الإناث **36–47%**، حديثو الولادة **55–68%**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Methods",
+   "ar": "الطرائق"
+  },
+  {
+   "t": "card",
+   "en": "There are **two main methods** used to determine hematocrit:",
+   "ar": "هناك **طريقتان رئيسيتان** لتحديد الهيماتوكريت:",
+   "list_en": [
+    "Microhematocrit (manual method)",
+    "Electronic method"
+   ],
+   "list_ar": [
+    "الهيماتوكريت الدقيق (الطريقة اليدوية)",
+    "الطريقة الإلكترونية"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Microhaematocrit",
+   "ar": "الهيماتوكريت الدقيق"
+  },
+  {
+   "t": "card",
+   "en": [
+    "The microhematocrit method requires only a **small amount of blood (about 2–3 drops)**.",
+    "Blood may be collected by **finger puncture** and drawn into a **capillary tube by capillary action**."
+   ],
+   "ar": [
+    "تحتاج طريقة الهيماتوكريت الدقيق **كمية قليلة من الدم (نحو 2–3 قطرات)**.",
+    "ويمكن جمع الدم **بوخز الإصبع** وسحبه إلى **أنبوب شعري بالخاصية الشعرية**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "MATERIALS & INSTRUMENTS",
+   "ar": "المواد والأدوات"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Blood specimen",
+    "Capillary tube",
+    "Microhematocrit centrifuge",
+    "Hematocrit reader",
+    "Clay or sealing material"
+   ],
+   "list_ar": [
+    "عيّنة الدم",
+    "الأنبوب الشعري",
+    "جهاز طرد الهيماتوكريت الدقيق",
+    "قارئ الهيماتوكريت",
+    "الطين أو مادة الإغلاق"
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/capillary-tubes.jpg",
+     "en": "Capillary tubes",
+     "ar": "الأنابيب الشعرية",
+     "h": "40mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/hct-reader.jpg",
+     "en": "Hematocrit reader",
+     "ar": "قارئ الهيماتوكريت",
+     "h": "40mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Procedure",
+   "ar": "طريقة العمل"
+  },
+  {
+   "t": "rule",
+   "en": "Fill **two capillary tubes** with blood to about **¾ of their length**.",
+   "ar": "املأ **أنبوبين شعريين** بالدم إلى نحو **¾ طولهما**."
+  },
+  {
+   "t": "rule",
+   "en": "**Seal one end** of each tube with **clay or wax** (about **2 mm** deep).",
+   "ar": "**أغلق أحد طرفي** كل أنبوب **بالطين أو الشمع** (بعمق نحو **2 ملم**)."
+  },
+  {
+   "t": "rule",
+   "en": "Place the tubes **exactly opposite each other** in the microhematocrit centrifuge.",
+   "ar": "ضع الأنبوبين **متقابلين تمامًا** في جهاز طرد الهيماتوكريت الدقيق."
+  },
+  {
+   "t": "rule",
+   "en": "Centrifuge at about **10,000 rpm for 5 minutes**.",
+   "ar": "انبذ بسرعة نحو **10,000 دورة/دقيقة لمدّة 5 دقائق**."
+  },
+  {
+   "t": "rule",
+   "en": "Remove the tubes carefully and read the hematocrit using a **card reader**.",
+   "ar": "أخرج الأنبوبين بحذر واقرأ الهيماتوكريت باستعمال **القارئ البطاقي**."
+  },
+  {
+   "t": "h2",
+   "en": "Card Reader",
+   "ar": "القارئ البطاقي"
+  },
+  {
+   "t": "card",
+   "en": "To read the result:",
+   "ar": "لقراءة النتيجة:",
+   "list_en": [
+    "Place the capillary tube **vertically** on the hematocrit reader.",
+    "Align the **bottom of the packed red cell column** with the **0% line**.",
+    "Align the **top of the plasma column** with the **100% line**.",
+    "Read the hematocrit at the **top of the packed red cell layer**."
+   ],
+   "list_ar": [
+    "ضع الأنبوب الشعري **عموديًا** على قارئ الهيماتوكريت.",
+    "طابق **أسفل عمود الكريات الحمر المرصوصة** مع **خط 0%**.",
+    "وطابق **أعلى عمود البلازما** مع **خط 100%**.",
+    "واقرأ الهيماتوكريت عند **أعلى طبقة الكريات الحمر المرصوصة**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/card-reader.jpg",
+   "en": "Reading the Hematocrit — Fig. 10.1: Card reader",
+   "ar": "قراءة الهيماتوكريت — الشكل 10.1: القارئ البطاقي",
+   "h": "40mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Capillary**",
+      "الأنبوب الشعري"
+     ],
+     [
+      "**Plasma (top line)**",
+      "البلازما (الخط العلوي)"
+     ]
+    ],
+    [
+     [
+      "**Top of RBC column**",
+      "أعلى عمود الكريات الحمر"
+     ],
+     [
+      "**Bottom of RBC column**",
+      "أسفل عمود الكريات الحمر"
+     ]
+    ],
+    [
+     [
+      "**Wax/Clay**",
+      "الشمع/الطين"
+     ],
+     [
+      "**Card reader** (0–100%)",
+      "القارئ البطاقي (0–100%)"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Fill 2 capillaries ¾",
+     "ar": "ملء أنبوبين ¾"
+    },
+    {
+     "en": "Seal with clay (2 mm)",
+     "ar": "إغلاق بالطين (2 ملم)"
+    },
+    {
+     "en": "Opposite in centrifuge",
+     "ar": "متقابلين في الجهاز"
+    },
+    {
+     "en": "10,000 rpm, 5 min",
+     "ar": "10,000 دورة، 5 دقائق"
+    },
+    {
+     "en": "Card reader: 0% bottom, 100% plasma top",
+     "ar": "القارئ: 0% أسفل، 100% أعلى البلازما"
+    }
+   ],
+   "en": "Microhematocrit in steps",
+   "ar": "الهيماتوكريت الدقيق بالخطوات"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Two methods: **microhematocrit (manual)** and **electronic**.",
+    "Microhematocrit: **2–3 drops**, capillary tubes **¾ full**, sealed **2 mm**, **10,000 rpm × 5 min**.",
+    "Reader: bottom of RBCs = **0%**, top of plasma = **100%**, read at **top of RBC layer**."
+   ],
+   "ar": [
+    "طريقتان: **الهيماتوكريت الدقيق (يدوية)** و**الإلكترونية**.",
+    "الهيماتوكريت الدقيق: **2–3 قطرات**، أنابيب شعرية **مملوءة ¾**، مغلقة **2 ملم**، **10,000 دورة × 5 دقائق**.",
+    "القارئ: أسفل الكريات = **0%**، أعلى البلازما = **100%**، والقراءة عند **أعلى طبقة الكريات**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Hemoglobin and hematocrit",
+   "ar": "الهيموغلوبين والهيماتوكريت"
+  },
+  {
+   "t": "card",
+   "en": "Approximate relationship between **hemoglobin and hematocrit:**",
+   "ar": "العلاقة التقريبية بين **الهيموغلوبين والهيماتوكريت:**"
+  },
+  {
+   "t": "card",
+   "en": "**Hemoglobin ≈ (PCV − 2) / 3**",
+   "ar": "**الهيموغلوبين ≈ (PCV − 2) / 3**"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Example: PCV 44% → Hb ≈ (44 − 2) / 3 = 14 g/dl.",
+    "The common rule of thumb is also written as PCV ≈ 3 × Hb."
+   ],
+   "ar": [
+    "مثال: PCV 44% ← Hb ≈ (44 − 2) / 3 = 14 غ/دل.",
+    "والقاعدة الشائعة تُكتب أيضًا PCV ≈ 3 × Hb."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Medical applications",
+   "ar": "التطبيقات الطبية"
+  },
+  {
+   "t": "card",
+   "en": "PCV is influenced by **red blood cell mass, red blood cell shape, and plasma volume**.",
+   "ar": "يتأثّر PCV **بكتلة كريات الدم الحمر، وشكلها، وحجم البلازما**."
+  },
+  {
+   "t": "card",
+   "en": "**PCV may increase in:**",
+   "ar": "**قد يرتفع PCV في:**",
+   "list_en": [
+    "Polycythemia",
+    "Dehydration",
+    "Burns"
+   ],
+   "list_ar": [
+    "كثرة الكريات الحمر",
+    "الجفاف",
+    "الحروق"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**PCV may decrease in:**",
+   "ar": "**قد ينخفض PCV في:**",
+   "list_en": [
+    "Anemia",
+    "Pregnancy",
+    "Kidney or liver disease"
+   ],
+   "list_ar": [
+    "فقر الدم",
+    "الحمل",
+    "أمراض الكلى أو الكبد"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/pcv-conditions.jpg",
+   "en": "Anemia, normal, polycythemia vera — labels: Plasma, Buffy coat (WBCs and platelets), Packed RBCs",
+   "ar": "فقر دم، طبيعي، كثرة الكريات الحمر الحقيقية — الكتابات: البلازما، الطبقة الشاحبة (كريات بيض وصفيحات)، الكريات الحمر المرصوصة",
+   "h": "46mm",
+   "fit": "contain"
+  },
+  {
+   "t": "h2",
+   "en": "Medical Condition",
+   "ar": "الحالة الطبية"
+  },
+  {
+   "t": "card",
+   "en": "**Reduced plasma volume** may occur with **dehydration, diuretic use, or fluid loss**.",
+   "ar": "قد يحدث **نقص حجم البلازما** مع **الجفاف، أو استعمال المدرّات، أو فقدان السوائل**."
+  },
+  {
+   "t": "card",
+   "en": "**Increased red cell mass** may be:",
+   "ar": "**زيادة كتلة الكريات الحمر** قد تكون:",
+   "list_en": [
+    "**Primary:** polycythemia",
+    "**Secondary:** chronic lung disease, smoking, high altitude, or some tumors"
+   ],
+   "list_ar": [
+    "**أولية:** كثرة الكريات الحمر",
+    "**ثانوية:** أمراض الرئة المزمنة، التدخين، المرتفعات العالية، أو بعض الأورام"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "PCV ↑",
+     "ارتفاع PCV"
+    ],
+    [
+     "PCV ↓",
+     "انخفاض PCV"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Polycythemia (primary) / chronic lung disease, smoking, high altitude, tumors (secondary)",
+      "كثرة الكريات الحمر (أولية) / أمراض الرئة المزمنة، التدخين، المرتفعات، الأورام (ثانوية)"
+     ],
+     [
+      "Anemia",
+      "فقر الدم"
+     ]
+    ],
+    [
+     [
+      "Dehydration, diuretics, fluid loss, burns (↓ plasma)",
+      "الجفاف، المدرّات، فقدان السوائل، الحروق (نقص البلازما)"
+     ],
+     [
+      "Pregnancy; kidney or liver disease",
+      "الحمل؛ أمراض الكلى أو الكبد"
+     ]
+    ]
+   ],
+   "widths": [
+    55,
+    45
+   ],
+   "style": "summary",
+   "label_en": "Up or down?",
+   "label_ar": "ارتفاع أم انخفاض؟"
+  },
+  {
+   "t": "note",
+   "en": [
+    "↑ PCV: polycythemia, dehydration, burns; ↓ PCV: anemia, pregnancy, kidney or liver disease.",
+    "Hb ≈ **(PCV − 2) / 3**."
+   ],
+   "ar": [
+    "ارتفاع PCV: كثرة الكريات، الجفاف، الحروق؛ انخفاضه: فقر الدم، الحمل، أمراض الكلى أو الكبد.",
+    "Hb ≈ **(PCV − 2) / 3**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Sources of error",
+   "ar": "مصادر الخطأ"
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "",
+     "ar": "",
+     "list_en": [
+      "**Excess anticoagulant** may **shrink** red blood cells and **lower** the hematocrit reading.",
+      "**Poor sealing** of the capillary tube may cause **blood loss** during centrifugation and a **falsely low** result.",
+      "**Forcing the centrifuge to stop** can disturb the packed red cell layer and give a **falsely high** result."
+     ],
+     "list_ar": [
+      "**زيادة مانع التخثّر** قد **تقلّص** كريات الدم الحمر و**تخفض** قراءة الهيماتوكريت.",
+      "**ضعف إغلاق** الأنبوب الشعري قد يسبّب **فقدان الدم** أثناء النبذ ونتيجة **منخفضة كاذبة**.",
+      "**إيقاف جهاز الطرد بالقوّة** قد يربك طبقة الكريات الحمر المرصوصة ويعطي نتيجة **مرتفعة كاذبة**."
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/error.png",
+    "en": "Sources of error",
+    "ar": "مصادر الخطأ"
+   }
+  },
+  {
+   "t": "note",
+   "en": [
+    "Falsely **low**: excess anticoagulant, poor sealing; falsely **high**: forcing the centrifuge to stop."
+   ],
+   "ar": [
+    "منخفضة **كاذبة**: زيادة مانع التخثّر، ضعف الإغلاق؛ مرتفعة **كاذبة**: إيقاف الجهاز بالقوّة."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Packed Cell Volume (PCV)**",
+     "حجم الخلايا المرصوصة / حجم الكريات المكدّسة"
+    ],
+    [
+     "**Hematocrit (Hct)**",
+     "الهيماتوكريت / نسبة الكريات الحمر"
+    ],
+    [
+     "**Buffy coat**",
+     "الطبقة الشاحبة / طبقة الكريات البيض والصفيحات"
+    ],
+    [
+     "**Polycythemia**",
+     "كثرة الكريات الحمر / احمرار الدم"
+    ],
+    [
+     "**Hemoconcentration**",
+     "تركّز الدم"
+    ],
+    [
+     "**Hemodilution**",
+     "تخفّف الدم / تمدّد الدم"
+    ],
+    [
+     "**Thrombotic risk**",
+     "خطر الخثار / خطر التجلّط"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Microhematocrit**",
+     "الهيماتوكريت الدقيق"
+    ],
+    [
+     "**Capillary tube**",
+     "الأنبوب الشعري"
+    ],
+    [
+     "**Microhematocrit centrifuge**",
+     "جهاز طرد الهيماتوكريت الدقيق"
+    ],
+    [
+     "**Hematocrit (card) reader**",
+     "قارئ الهيماتوكريت / القارئ البطاقي"
+    ],
+    [
+     "**Sealing clay**",
+     "طين الإغلاق / المعجون"
+    ],
+    [
+     "**Diuretic**",
+     "مدرّ البول"
+    ],
+    [
+     "**Anticoagulant**",
+     "مانع التخثّر"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Definition and principle",
+    "topic_ar": "التعريف والمبدأ"
+   },
+   {
+    "en": "PCV (hematocrit) is:",
+    "ar": "الـ PCV (الهيماتوكريت) هو:",
+    "options": [
+     [
+      "Hemoglobin in g/dl",
+      "الهيموغلوبين بالغ/دل"
+     ],
+     [
+      "The number of WBCs per mm³",
+      "عدد الكريات البيض في المم³"
+     ],
+     [
+      "The percentage of whole blood occupied by red blood cells",
+      "النسبة المئوية من الدم الكامل التي تشغلها الكريات الحمر"
+     ],
+     [
+      "Plasma protein",
+      "بروتين البلازما"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "A PCV of 50% means:",
+    "ar": "PCV بنسبة 50% يعني:",
+    "options": [
+     [
+      "50 g of hemoglobin per dl",
+      "50 غ هيموغلوبين لكل دل"
+     ],
+     [
+      "50% plasma loss",
+      "فقدان 50% من البلازما"
+     ],
+     [
+      "50 million RBCs",
+      "50 مليون كرية حمراء"
+     ],
+     [
+      "50 mL of packed cells in 100 mL of blood",
+      "50 مل خلايا مرصوصة في 100 مل دم"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "PCV can be measured in:",
+    "ar": "يمكن قياس PCV في الدم:",
+    "options": [
+     [
+      "Capillary, venous, or arterial blood",
+      "الشعيري أو الوريدي أو الشرياني"
+     ],
+     [
+      "Arterial blood only",
+      "الشرياني فقط"
+     ],
+     [
+      "Venous blood only",
+      "الوريدي فقط"
+     ],
+     [
+      "Serum",
+      "المصل"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "PCV is affected mainly by:",
+    "ar": "يتأثّر PCV بصورة رئيسية بـ:",
+    "options": [
+     [
+      "WBC count",
+      "عدد الكريات البيض"
+     ],
+     [
+      "Red blood cell mass and plasma volume",
+      "كتلة الكريات الحمر وحجم البلازما"
+     ],
+     [
+      "Blood glucose",
+      "سكر الدم"
+     ],
+     [
+      "Platelet count",
+      "عدد الصفيحات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Increased hematocrit may reflect:",
+    "ar": "ارتفاع الهيماتوكريت قد يعكس:",
+    "options": [
+     [
+      "Pregnancy",
+      "الحمل"
+     ],
+     [
+      "Hemodilution",
+      "تخفّف الدم"
+     ],
+     [
+      "Hemoconcentration",
+      "تركّز الدم"
+     ],
+     [
+      "Anemia",
+      "فقر الدم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Markedly high hematocrit may be associated with:",
+    "ar": "الارتفاع الشديد للهيماتوكريت قد يرتبط بـ:",
+    "options": [
+     [
+      "Bleeding tendency",
+      "ميل للنزف"
+     ],
+     [
+      "Increased thrombotic risk",
+      "زيادة خطر التجلّط"
+     ],
+     [
+      "Low blood viscosity",
+      "لزوجة دم منخفضة"
+     ],
+     [
+      "Anemia",
+      "فقر الدم"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "After centrifugation, the bottom layer is:",
+    "ar": "بعد النبذ تكون الطبقة السفلى:",
+    "options": [
+     [
+      "Plasma",
+      "البلازما"
+     ],
+     [
+      "Buffy coat",
+      "الطبقة الشاحبة"
+     ],
+     [
+      "Serum",
+      "المصل"
+     ],
+     [
+      "Packed red blood cells",
+      "الكريات الحمر المرصوصة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The buffy coat contains:",
+    "ar": "تحتوي الطبقة الشاحبة على:",
+    "options": [
+     [
+      "White blood cells and platelets",
+      "كريات بيض وصفيحات"
+     ],
+     [
+      "Plasma proteins",
+      "بروتينات البلازما"
+     ],
+     [
+      "Fibrin",
+      "الفايبرين"
+     ],
+     [
+      "Red cells only",
+      "كريات حمر فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "According to the lecture, normal PCV in males is:",
+    "ar": "حسب المحاضرة، PCV الطبيعي للذكور:",
+    "options": [
+     [
+      "36–47%",
+      "36–47%"
+     ],
+     [
+      "40–54%",
+      "40–54%"
+     ],
+     [
+      "55–68%",
+      "55–68%"
+     ],
+     [
+      "20–30%",
+      "20–30%"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Normal PCV in newborns is:",
+    "ar": "PCV الطبيعي لحديثي الولادة:",
+    "options": [
+     [
+      "36–47%",
+      "36–47%"
+     ],
+     [
+      "10–20%",
+      "10–20%"
+     ],
+     [
+      "40–54%",
+      "40–54%"
+     ],
+     [
+      "55–68%",
+      "55–68%"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Microhematocrit",
+    "topic_ar": "الهيماتوكريت الدقيق"
+   },
+   {
+    "en": "The two main methods for hematocrit are:",
+    "ar": "الطريقتان الرئيسيتان للهيماتوكريت:",
+    "options": [
+     [
+      "Sahli and Drabkin",
+      "سالي ودرابكن"
+     ],
+     [
+      "Westergren and Wintrobe",
+      "ويسترغرين ووينتروب"
+     ],
+     [
+      "Microhematocrit and electronic",
+      "الهيماتوكريت الدقيق والإلكترونية"
+     ],
+     [
+      "Turbidimetry and nephelometry",
+      "قياس العكارة والتعكّر"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The microhematocrit method needs about:",
+    "ar": "تحتاج طريقة الهيماتوكريت الدقيق إلى نحو:",
+    "options": [
+     [
+      "2–3 drops of blood",
+      "2–3 قطرات دم"
+     ],
+     [
+      "1 ml of blood",
+      "1 مل دم"
+     ],
+     [
+      "10 drops",
+      "10 قطرات"
+     ],
+     [
+      "5 ml of blood",
+      "5 مل دم"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Capillary tubes are filled with blood to about:",
+    "ar": "تُملأ الأنابيب الشعرية بالدم إلى نحو:",
+    "options": [
+     [
+      "¾ of their length",
+      "¾ طولها"
+     ],
+     [
+      "¼ of their length",
+      "¼ طولها"
+     ],
+     [
+      "The top",
+      "الأعلى"
+     ],
+     [
+      "Half",
+      "النصف"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "One end of the tube is sealed with clay to a depth of about:",
+    "ar": "يُغلق أحد طرفي الأنبوب بالطين بعمق نحو:",
+    "options": [
+     [
+      "10 mm",
+      "10 ملم"
+     ],
+     [
+      "0.5 mm",
+      "0.5 ملم"
+     ],
+     [
+      "2 mm",
+      "2 ملم"
+     ],
+     [
+      "5 cm",
+      "5 سم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The tubes are placed in the centrifuge:",
+    "ar": "توضع الأنابيب في جهاز الطرد:",
+    "options": [
+     [
+      "Next to each other",
+      "جنبًا إلى جنب"
+     ],
+     [
+      "Exactly opposite each other",
+      "متقابلة تمامًا"
+     ],
+     [
+      "Upside down",
+      "مقلوبة"
+     ],
+     [
+      "In any position",
+      "بأي وضع"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Microhematocrit centrifugation is at about:",
+    "ar": "يكون نبذ الهيماتوكريت الدقيق بنحو:",
+    "options": [
+     [
+      "3000 rpm for 10 min",
+      "3000 دورة لـ 10 دقائق"
+     ],
+     [
+      "1000 rpm for 1 min",
+      "1000 دورة لدقيقة"
+     ],
+     [
+      "500 rpm for 30 min",
+      "500 دورة لـ 30 دقيقة"
+     ],
+     [
+      "10,000 rpm for 5 minutes",
+      "10,000 دورة لـ 5 دقائق"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "On the card reader, the bottom of the packed red cell column is aligned with:",
+    "ar": "في القارئ البطاقي يُطابق أسفل عمود الكريات الحمر مع:",
+    "options": [
+     [
+      "The clay",
+      "الطين"
+     ],
+     [
+      "The 100% line",
+      "خط 100%"
+     ],
+     [
+      "The 50% line",
+      "خط 50%"
+     ],
+     [
+      "The 0% line",
+      "خط 0%"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The hematocrit is read at:",
+    "ar": "يُقرأ الهيماتوكريت عند:",
+    "options": [
+     [
+      "The top of the plasma",
+      "أعلى البلازما"
+     ],
+     [
+      "The top of the packed red cell layer",
+      "أعلى طبقة الكريات الحمر المرصوصة"
+     ],
+     [
+      "The top of the buffy coat",
+      "أعلى الطبقة الشاحبة"
+     ],
+     [
+      "The clay line",
+      "خط الطين"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Applications and errors",
+    "topic_ar": "التطبيقات والأخطاء"
+   },
+   {
+    "en": "According to the lecture, if PCV is 44%, hemoglobin is approximately:",
+    "ar": "حسب المحاضرة، إذا كان PCV 44% فالهيموغلوبين تقريبًا:",
+    "options": [
+     [
+      "14 g/dl",
+      "14 غ/دل"
+     ],
+     [
+      "22 g/dl",
+      "22 غ/دل"
+     ],
+     [
+      "11 g/dl",
+      "11 غ/دل"
+     ],
+     [
+      "8 g/dl",
+      "8 غ/دل"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "PCV may decrease in:",
+    "ar": "قد ينخفض PCV في:",
+    "options": [
+     [
+      "Dehydration",
+      "الجفاف"
+     ],
+     [
+      "Burns",
+      "الحروق"
+     ],
+     [
+      "Pregnancy",
+      "الحمل"
+     ],
+     [
+      "Polycythemia",
+      "كثرة الكريات الحمر"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "PCV may increase in:",
+    "ar": "قد يرتفع PCV في:",
+    "options": [
+     [
+      "Kidney disease",
+      "أمراض الكلى"
+     ],
+     [
+      "Anemia",
+      "فقر الدم"
+     ],
+     [
+      "Liver disease",
+      "أمراض الكبد"
+     ],
+     [
+      "Burns",
+      "الحروق"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A secondary cause of increased red cell mass is:",
+    "ar": "سبب ثانوي لزيادة كتلة الكريات الحمر:",
+    "options": [
+     [
+      "High altitude",
+      "المرتفعات العالية"
+     ],
+     [
+      "Pregnancy",
+      "الحمل"
+     ],
+     [
+      "Anemia",
+      "فقر الدم"
+     ],
+     [
+      "Diuretic use",
+      "استعمال المدرّات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Reduced plasma volume may occur with all EXCEPT:",
+    "ar": "قد يحدث نقص حجم البلازما مع كل ما يأتي ما عدا:",
+    "options": [
+     [
+      "Dehydration",
+      "الجفاف"
+     ],
+     [
+      "Diuretic use",
+      "استعمال المدرّات"
+     ],
+     [
+      "Pregnancy",
+      "الحمل"
+     ],
+     [
+      "Fluid loss",
+      "فقدان السوائل"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Excess anticoagulant gives a hematocrit that is:",
+    "ar": "زيادة مانع التخثّر تعطي هيماتوكريت:",
+    "options": [
+     [
+      "Falsely high",
+      "مرتفعًا كاذبًا"
+     ],
+     [
+      "Lower (cells shrink)",
+      "أقل (تتقلّص الخلايا)"
+     ],
+     [
+      "Doubled",
+      "مضاعفًا"
+     ],
+     [
+      "Unchanged",
+      "دون تغيير"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Forcing the centrifuge to stop gives a result that is:",
+    "ar": "إيقاف جهاز الطرد بالقوّة يعطي نتيجة:",
+    "options": [
+     [
+      "Correct",
+      "صحيحة"
+     ],
+     [
+      "Falsely low",
+      "منخفضة كاذبة"
+     ],
+     [
+      "Falsely high",
+      "مرتفعة كاذبة"
+     ],
+     [
+      "Zero",
+      "صفرًا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this figure, the tube on the right (elevated red layer) represents:",
+    "ar": "في هذا الشكل، الأنبوب على اليمين (طبقة حمراء مرتفعة) يمثّل:",
+    "options": [
+     [
+      "Anemia",
+      "فقر الدم"
+     ],
+     [
+      "Hemodilution",
+      "تخفّف الدم"
+     ],
+     [
+      "Normal blood",
+      "دم طبيعي"
+     ],
+     [
+      "Polycythemia",
+      "كثرة الكريات الحمر"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/pcv-layers.jpg",
+    "img_h": "44mm"
+   },
+   {
+    "en": "This instrument is used to:",
+    "ar": "تُستعمل هذه الأداة لـ:",
+    "options": [
+     [
+      "Count WBCs",
+      "عدّ الكريات البيض"
+     ],
+     [
+      "Read the hematocrit",
+      "قراءة الهيماتوكريت"
+     ],
+     [
+      "Measure hemoglobin",
+      "قياس الهيموغلوبين"
+     ],
+     [
+      "Seal capillary tubes",
+      "إغلاق الأنابيب الشعرية"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/hct-reader.jpg",
+    "img_h": "40mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "PCV is part of the complete blood count.",
+    "ar": "الـ PCV جزء من صورة الدم الكاملة.",
+    "answer": "T"
+   },
+   {
+    "en": "PCV decreases in dehydration.",
+    "ar": "ينخفض PCV في الجفاف.",
+    "answer": "F"
+   },
+   {
+    "en": "Decreased hematocrit may reflect hemodilution.",
+    "ar": "انخفاض الهيماتوكريت قد يعكس تخفّف الدم.",
+    "answer": "T"
+   },
+   {
+    "en": "The top layer after centrifugation is plasma.",
+    "ar": "الطبقة العليا بعد النبذ هي البلازما.",
+    "answer": "T"
+   },
+   {
+    "en": "Normal PCV in females is 40–54%.",
+    "ar": "PCV الطبيعي للإناث 40–54%.",
+    "answer": "F"
+   },
+   {
+    "en": "Microhematocrit is an electronic method.",
+    "ar": "الهيماتوكريت الدقيق طريقة إلكترونية.",
+    "answer": "F"
+   },
+   {
+    "en": "Blood for microhematocrit may be collected by finger puncture.",
+    "ar": "يمكن جمع دم الهيماتوكريت الدقيق بوخز الإصبع.",
+    "answer": "T"
+   },
+   {
+    "en": "Capillary tubes are sealed with clay or wax.",
+    "ar": "تُغلق الأنابيب الشعرية بالطين أو الشمع.",
+    "answer": "T"
+   },
+   {
+    "en": "On the card reader, the top of the plasma column is aligned with the 0% line.",
+    "ar": "في القارئ البطاقي يُطابق أعلى عمود البلازما مع خط 0%.",
+    "answer": "F"
+   },
+   {
+    "en": "PCV is influenced by red blood cell shape.",
+    "ar": "يتأثّر PCV بشكل الكريات الحمر.",
+    "answer": "T"
+   },
+   {
+    "en": "Smoking may cause secondary increase in red cell mass.",
+    "ar": "قد يسبّب التدخين زيادة ثانوية في كتلة الكريات الحمر.",
+    "answer": "T"
+   },
+   {
+    "en": "Poor sealing of the capillary tube gives a falsely high result.",
+    "ar": "ضعف إغلاق الأنبوب الشعري يعطي نتيجة مرتفعة كاذبة.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Two sets of normal values",
+    "ar": "مجموعتان من القيم الطبيعية",
+    "answer_en": "Lecture: males 40–54%, females 36–47%, newborns 55–68%. Figure: ♀ 37–47%, ♂ 42–52%. Answer with the lecture’s numbers unless the question shows the figure.",
+    "answer_ar": "المحاضرة: الذكور 40–54%، الإناث 36–47%، حديثو الولادة 55–68%. الشكل: ♀ 37–47%، ♂ 42–52%. أجب بأرقام المحاضرة إلا إذا عرض السؤال الشكل."
+   },
+   {
+    "en": "0% and 100% lines",
+    "ar": "خطّا 0% و100%",
+    "answer_en": "Bottom of RBC column = 0%; top of plasma = 100%; read at the top of the RBC layer (not the buffy coat).",
+    "answer_ar": "أسفل عمود الكريات = 0%؛ أعلى البلازما = 100%؛ والقراءة عند أعلى طبقة الكريات (لا الطبقة الشاحبة)."
+   },
+   {
+    "en": "Dehydration and burns",
+    "ar": "الجفاف والحروق",
+    "answer_en": "They raise PCV because plasma volume falls (hemoconcentration), not because RBCs increase.",
+    "answer_ar": "ترفع PCV لأن حجم البلازما ينقص (تركّز الدم)، لا لأن الكريات الحمر تزداد."
+   },
+   {
+    "en": "Pregnancy",
+    "ar": "الحمل",
+    "answer_en": "Pregnancy lowers PCV (hemodilution).",
+    "answer_ar": "الحمل يخفض PCV (تخفّف الدم)."
+   },
+   {
+    "en": "Falsely low or high?",
+    "ar": "منخفضة أم مرتفعة كاذبة؟",
+    "answer_en": "Excess anticoagulant and poor sealing → low; forcing the centrifuge to stop → high.",
+    "answer_ar": "زيادة مانع التخثّر وضعف الإغلاق ← منخفضة؛ إيقاف الجهاز بالقوّة ← مرتفعة."
+   },
+   {
+    "en": "Hb from PCV",
+    "ar": "Hb من PCV",
+    "answer_en": "Lecture formula: Hb ≈ (PCV − 2) / 3 — e.g. PCV 44 → Hb 14.",
+    "answer_ar": "معادلة المحاضرة: Hb ≈ (PCV − 2) / 3 — مثلًا PCV 44 ← Hb 14."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define PCV and give its clinical significance.",
+    "ar": "عرّف PCV واذكر أهميته السريرية.",
+    "answer_en": "PCV (hematocrit) is the percentage of whole blood occupied by red blood cells (PCV 50% = 50 mL packed cells per 100 mL blood). It depends on RBC mass and plasma volume and helps detect anemia, polycythemia, hemoconcentration and hemodilution; markedly high values carry thrombotic risk.",
+    "answer_ar": "PCV (الهيماتوكريت) هو النسبة المئوية من الدم الكامل التي تشغلها الكريات الحمر (PCV 50% = 50 مل خلايا مرصوصة لكل 100 مل دم). يعتمد على كتلة الكريات الحمر وحجم البلازما، ويساعد في كشف فقر الدم وكثرة الكريات وتركّز الدم وتخفّفه؛ والقيم المرتفعة جدًا تحمل خطر التجلّط."
+   },
+   {
+    "en": "What is the principle of the PCV test?",
+    "ar": "ما مبدأ فحص PCV؟",
+    "answer_en": "Anticoagulated blood centrifuged at a suitable speed and time separates into three layers: packed RBCs at the bottom, a thin buffy coat (WBCs and platelets) in the middle, and plasma at the top. PCV is the RBC column as a percentage of the total column.",
+    "answer_ar": "الدم المعامل بمانع التخثّر عند نبذه بسرعة ووقت مناسبين ينفصل إلى ثلاث طبقات: كريات حمر مرصوصة في الأسفل، وطبقة شاحبة رقيقة (كريات بيض وصفيحات) في الوسط، وبلازما في الأعلى. والـ PCV هو عمود الكريات الحمر كنسبة مئوية من العمود الكلّي."
+   },
+   {
+    "en": "Describe the microhematocrit procedure and how the result is read.",
+    "ar": "صف طريقة الهيماتوكريت الدقيق وكيف تُقرأ النتيجة.",
+    "answer_en": "Fill two capillary tubes ¾ with blood (2–3 drops, finger puncture); seal one end with clay or wax about 2 mm; place them opposite each other in the microhematocrit centrifuge; spin at about 10,000 rpm for 5 minutes. On the card reader, put the tube vertical, bottom of RBCs on 0%, top of plasma on 100%, and read at the top of the packed RBC layer.",
+    "answer_ar": "املأ أنبوبين شعريين ¾ بالدم (2–3 قطرات، وخز الإصبع)؛ أغلق طرفًا بالطين أو الشمع نحو 2 ملم؛ ضعهما متقابلين في جهاز الطرد؛ وانبذ بنحو 10,000 دورة لـ 5 دقائق. وفي القارئ البطاقي ضع الأنبوب عموديًا، أسفل الكريات على 0% وأعلى البلازما على 100%، واقرأ عند أعلى طبقة الكريات المرصوصة."
+   },
+   {
+    "en": "Give the normal values of PCV and the conditions that change it.",
+    "ar": "اذكر القيم الطبيعية لـ PCV والحالات التي تغيّره.",
+    "answer_en": "Normal: males 40–54%, females 36–47%, newborns 55–68%. Increased: polycythemia (primary; secondary in chronic lung disease, smoking, high altitude, some tumors), dehydration, burns, reduced plasma volume (diuretics, fluid loss). Decreased: anemia, pregnancy, kidney or liver disease.",
+    "answer_ar": "الطبيعي: الذكور 40–54%، الإناث 36–47%، حديثو الولادة 55–68%. يرتفع في: كثرة الكريات الحمر (أولية؛ وثانوية في أمراض الرئة المزمنة والتدخين والمرتفعات وبعض الأورام)، الجفاف، الحروق، نقص حجم البلازما (المدرّات، فقدان السوائل). وينخفض في: فقر الدم، الحمل، أمراض الكلى أو الكبد."
+   },
+   {
+    "en": "List the sources of error in PCV determination.",
+    "ar": "عدّد مصادر الخطأ في تحديد PCV.",
+    "answer_en": "1. Excess anticoagulant shrinks RBCs and lowers the reading. 2. Poor sealing of the capillary tube causes blood loss during centrifugation and a falsely low result. 3. Forcing the centrifuge to stop disturbs the packed red cell layer and gives a falsely high result.",
+    "answer_ar": "1. زيادة مانع التخثّر تقلّص الكريات وتخفض القراءة. 2. ضعف إغلاق الأنبوب يسبّب فقدان الدم أثناء النبذ ونتيجة منخفضة كاذبة. 3. إيقاف الجهاز بالقوّة يربك طبقة الكريات ويعطي نتيجة مرتفعة كاذبة."
+   }
+  ]
+ }
+}
