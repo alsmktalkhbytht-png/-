@@ -42,6 +42,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `histopathology-lec4-healing-regeneration/` — Histopathology theory lecture 4 (د. حامد خليل التميمي) — third stage.
 - `virology-lab1-safety/` — Medical Virology practical lab 1: safety and aseptic techniques — third stage.
 - `bacteriology-lab2-specimens/`, `bacteriology-lab3-culture-media/` — Diagnostic Microbiology practical labs 2 and 3 (د. هبة سامي) — fourth stage.
+- `parasitology-week5-theory/` — Diagnostic Parasitology theory week 5: Pathogenic free-living amoebae, E. histolytica vs E. dispar immunoassays, fixatives (أ.د. نزار الخفاجي) — fourth stage, rebuilt in the new style with a separate question file.
 - `parasitology-week4-theory/` — Diagnostic Parasitology theory week 4: Nonpathogenic intestinal amoebae & wet-mount solutions (أ.د. نزار الخفاجي) — fourth stage, rebuilt in the new style with a separate question file.
 - `parasitology-week3-theory/` — Diagnostic Parasitology theory week 3: Amoeba, Entamoeba histolytica & stool examination (أ.د. نزار الخفاجي) — fourth stage, rebuilt in the new style with a separate question file.
 - `bacteriology-lec7-9-identification/` — Diagnostic Microbiology theory lectures 7–9: microbiological methods for identification of microorganisms (د. عدنان) — fourth stage, merged (دمج), new style.
