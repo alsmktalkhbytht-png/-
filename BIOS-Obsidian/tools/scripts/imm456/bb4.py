@@ -1,7 +1,7 @@
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-claude/ff420988-e3a4-58e4-8344-8f014438cb53/scratchpad/n7")
-sys.path.insert(0, "/tmp/claude-0/-home-claude/ff420988-e3a4-58e4-8344-8f014438cb53/scratchpad/bac")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a0840832-519a-5a9b-84ea-294867ea1189/scratchpad/n7")
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a0840832-519a-5a9b-84ea-294867ea1189/scratchpad/bac")
 from c import *
-sys.path.insert(0, "/tmp/claude-0/-home-claude/ff420988-e3a4-58e4-8344-8f014438cb53/scratchpad/imm456")
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a0840832-519a-5a9b-84ea-294867ea1189/scratchpad/imm456")
 from ci import B, END, save
 from bal import balance
 
