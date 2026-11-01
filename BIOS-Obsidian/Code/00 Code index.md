@@ -86,6 +86,7 @@
 - [[Code/sol - l4.py|sol/l4.py]] → parasitology-lab4-solutions
 - [[Code/tb - turb.py|tb/turb.py]] → hematology-practical-turbidimetry
 - [[Code/thy - thyq.py|thy/thyq.py]] → endocrine-lab5-thyroid-hormones
+- [[Code/vir3 - v3q.py|vir3/v3q.py]] → virology-lab3-direct-examination
 
 ## Other utilities
 
@@ -117,6 +118,7 @@
 - [[Code/pcv - pcv.py|pcv/pcv.py]]
 - [[Code/restyle.py|restyle.py]]
 - [[Code/thy - thy.py|thy/thy.py]]
+- [[Code/vir3 - v3.py|vir3/v3.py]]
 
 ## Engine snapshot
 

@@ -1158,6 +1158,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `genetics-lec1-cell-cycle-mitosis` | وراثة | نظري 1 |
 | `genetics-lec2-meiosis` | وراثة | نظري 2 |
 | `genetics-lec2-mitosis` | وراثة | نظري 2 — الانقسام الخيطي (رأس الملف lec 5) |
+| `virology-lab3-direct-examination` | فايروسات عملي | عملي 3 — الفحص المباشر للفيروسات (أسلوب جديد) |
 | `genetics-lab1-mitosis` | وراثة | عملي 1 |
 | `genetics-lab2-meiosis` | وراثة | عملي 2 |
 | `genetics-lab3-medical-genetics` | وراثة | عملي 3 |
