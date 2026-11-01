@@ -44,7 +44,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `hematology-practical-anticoagulants/` (lab 1), `hematology-practical-normal-values/` (lab 3, rebuilt in the new style: per-sentence translation, bilingual tables, per-topic "In short", key terms at the end), `hematology-practical-turbidimetry/` (lab 4: Turbidimetry, new style), `hematology-practical-hb-estimation/` (also numbered lab 4 by the user: Hb estimation — Drabkin's and Sahli's methods, new style), `hematology-practical-pcv/` (lab 5: Packed cell volume / hematocrit, new style) — Hematology practical (ليندا منجد هادي) — third stage.
 - `histopathology-lec1-acute-inflammation/` — Histopathology theory lecture 1 (د. حامد خليل التميمي) — third stage.
 - `histopathology-lec2-chronic-inflammation/` — Histopathology theory lecture 2 (د. حامد خليل التميمي) — third stage.
-- `histopathology-lec4-healing-regeneration/` — Histopathology theory lecture 4 (د. حامد خليل التميمي) — third stage.
+- `histopathology-lec4-healing-regeneration/` — Histopathology theory lecture 4: Healing and Regeneration (د. حامد خليل التميمي) — third stage, rebuilt in the new style (in-short boxes, key terms, Arabic questions), questions inside.
 - `endocrine-lab3-growth-hormone/` — Practical Endocrinology (غدد صماء عملي) lab 3: Growth hormone (م.م. نور إبراهيم جليل) — third stage, new style, questions inside.
 - `endocrine-lab4-insulin/` — Practical Endocrinology lab 4: Insulin (م.م. نور إبراهيم جليل) — third stage, new style, questions inside.
 - `endocrine-lab5-thyroid-hormones/` — Practical Endocrinology lab 5: Thyroid hormones (م.م. نور إبراهيم جليل) — third stage, new style, questions inside.

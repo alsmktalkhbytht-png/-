@@ -21,13 +21,19 @@
   },
   {
    "t": "card",
-   "en": "Critical to the survival of an organism is the ability to repair the damage caused by toxic insults and inflammation. The inflammatory response to microbes and injured tissues not only serves to eliminate these dangers but also sets into motion the process of repair.",
-   "ar": "من الأمور الحاسمة لبقاء الكائن الحي قدرته على إصلاح الضرر الناتج عن الإهانات السامة والالتهاب. فالاستجابة الالتهابية للميكروبات والأنسجة المصابة لا تقتصر على التخلّص من هذه المخاطر، بل تطلق أيضًا عملية الإصلاح."
+   "en": [
+    "Critical to the survival of an organism is the ability to **repair the damage** caused by toxic insults and inflammation.",
+    "The inflammatory response to microbes and injured tissues not only serves to eliminate these dangers but also **sets into motion the process of repair**."
+   ],
+   "ar": [
+    "من الأمور الحاسمة لبقاء الكائن الحي قدرته على **إصلاح الضرر** الناتج عن الأذيّات السامّة والالتهاب.",
+    "فالاستجابة الالتهابية للميكروبات والأنسجة المصابة لا تقتصر على التخلّص من هذه المخاطر، بل **تُطلق أيضًا عملية الإصلاح**."
+   ]
   },
   {
    "t": "card",
-   "en": "**Repair**, sometimes called **healing**, refers to the restoration of tissue architecture and function after an injury.",
-   "ar": "**الإصلاح**، ويُسمّى أحيانًا **الالتئام**، يعني استعادة بنية النسيج ووظيفته بعد الإصابة."
+   "en": "**Repair**, sometimes called **healing**, refers to the **restoration of tissue architecture and function** after an injury.",
+   "ar": "**الإصلاح**، ويُسمّى أحيانًا **الالتئام**، يعني **استعادة بنية النسيج ووظيفته** بعد الإصابة."
   },
   {
    "t": "card",
@@ -45,10 +51,24 @@
   {
    "t": "figure",
    "src": "assets/regeneration-vs-scar.jpg",
-   "en": "Regeneration vs scar formation (Fig. 2–24)",
-   "ar": "التجدّد مقابل تكوّن الندبة",
-   "h": "54mm",
-   "fit": "contain"
+   "en": "Regeneration vs scar formation (Fig. 2–24): NORMAL → Mild, superficial injury → REGENERATION; Severe injury → SCAR FORMATION",
+   "ar": "التجدّد مقابل تكوّن الندبة (الشكل 2–24): طبيعي ← إصابة خفيفة سطحية ← تجدّد؛ إصابة شديدة ← تكوّن ندبة",
+   "h": "36mm"
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Repair = healing** = restoring tissue **architecture and function**.",
+    "Two ways: **regeneration** (mild injury) or **scar formation** (severe injury)."
+   ],
+   "ar": [
+    "**الإصلاح = الالتئام** = استعادة **بنية النسيج ووظيفته**.",
+    "طريقتان: **التجدّد** (إصابة خفيفة) أو **تكوّن الندبة** (إصابة شديدة)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
   },
   {
    "t": "section",
@@ -57,8 +77,15 @@
   },
   {
    "t": "card",
-   "en": "Some tissues are able to replace the damaged cells and essentially return to a normal state; this process is called **regeneration**.",
-   "ar": "بعض الأنسجة قادرة على تعويض الخلايا التالفة والعودة أساسًا إلى حالتها الطبيعية؛ وتُسمّى هذه العملية **التجدّد**."
+   "en": "Some tissues are able to **replace the damaged cells** and essentially **return to a normal state**; this process is called **regeneration**.",
+   "ar": "بعض الأنسجة قادرة على **تعويض الخلايا التالفة** و**العودة أساسًا إلى حالتها الطبيعية**؛ وتُسمّى هذه العملية **التجدّد**."
+  },
+  {
+   "t": "figure",
+   "src": "assets/mucosal-repair.jpg",
+   "en": "Phases of mucosal injury and repair — Phase 1: epithelium, submucosa, cytokines, local tissue damage, increased cellularity; Phase 2: atrophy and reduced epithelial renewal, oral basal epithelium; Phase 3: mucosal breakdown, microbial colonization; Phase 4: tissue repair",
+   "ar": "مراحل إصابة الغشاء المخاطي وإصلاحه — المرحلة 1: الظهارة، تحت المخاطية، السايتوكاينات، تلف نسيجي موضعي، زيادة الخلوية؛ المرحلة 2: ضمور وقلّة تجدّد الظهارة، الظهارة القاعدية الفموية؛ المرحلة 3: تهتّك المخاطية، استعمار ميكروبي؛ المرحلة 4: إصلاح النسيج",
+   "h": "66mm"
   },
   {
    "t": "card",
@@ -72,12 +99,19 @@
    ]
   },
   {
-   "t": "figure",
-   "src": "assets/mucosal-repair.jpg",
-   "en": "Phases of mucosal injury and repair",
-   "ar": "مراحل إصابة الغشاء المخاطي وإصلاحه",
-   "h": "70mm",
-   "fit": "contain"
+   "t": "note",
+   "en": [
+    "Regeneration = **residual cells proliferate** + **tissue stem cells** replace → normal tissue.",
+    "Typical in **skin, intestines, liver**."
+   ],
+   "ar": [
+    "التجدّد = **تكاثر الخلايا المتبقية** + تعويض من **الخلايا الجذعية النسيجية** ← نسيج طبيعي.",
+    "نموذجي في **الجلد والأمعاء والكبد**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
   },
   {
    "t": "section",
@@ -86,13 +120,13 @@
   },
   {
    "t": "card",
-   "en": "If the injured tissues are incapable of regeneration, or if the supporting structures of the tissue are severely damaged, repair occurs by the laying down of **connective (fibrous) tissue**, a process that results in **scar formation**.",
-   "ar": "إذا كانت الأنسجة المصابة عاجزة عن التجدّد، أو تضرّرت البنى الداعمة للنسيج بشدة، يحدث الإصلاح بترسيب **نسيج ضام (ليفي)**، وهي عملية تنتهي بـ**تكوّن الندبة**."
+   "en": "If the injured tissues are **incapable of regeneration**, or if the **supporting structures** of the tissue are severely damaged, repair occurs by the laying down of **connective (fibrous) tissue**, a process that results in **scar formation**.",
+   "ar": "إذا كانت الأنسجة المصابة **عاجزة عن التجدّد**، أو تضرّرت **البنى الداعمة** للنسيج بشدّة، يحدث الإصلاح بترسيب **نسيج ضام (ليفي)**، وهي عملية تنتهي بـ**تكوّن الندبة**."
   },
   {
    "t": "card",
-   "en": "Although the fibrous scar cannot perform the function of lost parenchymal cells, it provides enough **structural stability** that the injured tissue is usually able to function.",
-   "ar": "مع أن الندبة الليفية لا تستطيع أداء وظيفة الخلايا المتنية المفقودة، فإنها توفّر **ثباتًا بنيويًا** كافيًا يجعل النسيج المصاب قادرًا على العمل عادةً."
+   "en": "Although the fibrous scar **cannot perform the function** of lost parenchymal cells, it provides enough **structural stability** that the injured tissue is usually able to function.",
+   "ar": "مع أن الندبة الليفية **لا تستطيع أداء وظيفة** الخلايا المتنية المفقودة، فإنها توفّر **ثباتًا بنيويًا** كافيًا يجعل النسيج المصاب قادرًا على العمل عادةً."
   },
   {
    "t": "card",
@@ -102,7 +136,22 @@
   {
    "t": "card",
    "en": "Under these conditions, repair occurs by replacement of the non regenerated cells with connective tissue, leading to the formation of a scar, or by a **combination of regeneration of some cells and scar formation**.",
-   "ar": "وفي هذه الظروف يحدث الإصلاح بتعويض الخلايا غير المتجدّدة بنسيج ضام مما يؤدي إلى تكوّن ندبة، أو بـ**الجمع بين تجدّد بعض الخلايا وتكوّن الندبة**."
+   "ar": "وفي هذه الظروف يحدث الإصلاح بتعويض الخلايا غير المتجدّدة بنسيج ضام ممّا يؤدّي إلى تكوّن ندبة، أو بـ**الجمع بين تجدّد بعض الخلايا وتكوّن الندبة**."
+  },
+  {
+   "t": "note",
+   "en": [
+    "Scar when tissue **cannot regenerate**, supporting structures are badly damaged, injury is **severe/chronic**, or **non-dividing cells** are hit.",
+    "Scar gives **stability**, not function; often **regeneration + scar** together."
+   ],
+   "ar": [
+    "ندبة عندما **لا يتجدّد** النسيج، أو تتضرّر البنى الداعمة بشدّة، أو تكون الإصابة **شديدة/مزمنة**، أو تُصاب **خلايا غير منقسمة**.",
+    "الندبة تعطي **ثباتًا** لا وظيفة؛ وكثيرًا ما يجتمع **التجدّد والندبة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
   },
   {
    "t": "section",
@@ -111,45 +160,84 @@
   },
   {
    "t": "card",
-   "en": "Repair by connective tissue deposition consists of sequential processes that follow the inflammatory response;",
-   "ar": "يتكوّن الإصلاح بترسيب النسيج الضام من عمليات متتابعة تلي الاستجابة الالتهابية؛"
+   "en": "Repair by connective tissue deposition consists of **sequential processes** that follow the inflammatory response;",
+   "ar": "يتكوّن الإصلاح بترسيب النسيج الضام من **عمليات متتابعة** تلي الاستجابة الالتهابية؛"
+  },
+  {
+   "t": "rule",
+   "en": "Formation of new blood vessels (**angiogenesis**)",
+   "ar": "تكوّن أوعية دموية جديدة (**تكوّن الأوعية**)"
+  },
+  {
+   "t": "rule",
+   "en": "Migration and proliferation of **fibroblasts** and deposition of connective tissue, which, together with abundant vessels and interspersed leukocytes, has a **pink, granular appearance** and hence is called **granulation tissue**.",
+   "ar": "هجرة **الخلايا الليفية** وتكاثرها وترسيب النسيج الضام، الذي يبدو مع الأوعية الوفيرة والكريات البيض المتناثرة **بمظهر وردي حبيبي**، ولذلك يُسمّى **النسيج الحبيبي**."
+  },
+  {
+   "t": "rule",
+   "en": "Maturation and reorganization of the fibrous tissue (**remodeling**) to produce the stable fibrous scar",
+   "ar": "نضج النسيج الليفي وإعادة تنظيمه (**إعادة التشكيل**) لإنتاج الندبة الليفية المستقرة"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Repair begins **within 24 hours** of injury by the emigration of fibroblasts and the induction of fibroblast and endothelial cell proliferation.",
+    "By **3 to 5 days**, the specialized granulation tissue that is characteristic of healing is apparent."
+   ],
+   "ar": [
+    "يبدأ الإصلاح **خلال 24 ساعة** من الإصابة بهجرة الخلايا الليفية وتحفيز تكاثر الخلايا الليفية والخلايا البطانية.",
+    "وبحلول **3 إلى 5 أيام** يظهر النسيج الحبيبي المتخصّص المميّز للالتئام."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/scar-steps.jpg",
+   "en": "Figure 2–29 Steps in repair by scar formation. Injury to a tissue that has limited regenerative capacity first induces inflammation, which clears dead cells and microbes, if any. This is followed by formation of vascularized granulation tissue and then deposition of ECM to form the scar. ECM, extracellular matrix. (Labels: NORMAL → infection or injury → TISSUE INJURY, area of injury → INFLAMMATION → FORMATION OF GRANULATION TISSUE → SCAR FORMATION)",
+   "ar": "الشكل 2–29 خطوات الإصلاح بتكوّن الندبة. إصابة نسيج محدود القدرة على التجدّد تُحدث أولًا التهابًا يزيل الخلايا الميتة والميكروبات إن وُجدت. يلي ذلك تكوّن نسيج حبيبي غني بالأوعية، ثم ترسيب المادة خارج الخلوية (ECM) لتكوين الندبة. (التسميات: طبيعي ← عدوى أو إصابة ← إصابة النسيج، منطقة الإصابة ← الالتهاب ← تكوّن النسيج الحبيبي ← تكوّن الندبة)",
+   "h": "64mm"
   },
   {
    "t": "flow",
    "steps": [
     {
-     "en": "Formation of new blood vessels (**angiogenesis**)",
-     "ar": "تكوّن أوعية دموية جديدة (**تكوّن الأوعية**)"
+     "en": "Angiogenesis",
+     "ar": "تكوّن الأوعية"
     },
     {
-     "en": "Migration and proliferation of fibroblasts and deposition of connective tissue, which, together with abundant vessels and interspersed leukocytes, has a pink, granular appearance and hence is called **granulation tissue**.",
-     "ar": "هجرة الخلايا الليفية وتكاثرها وترسيب النسيج الضام، الذي يبدو مع الأوعية الوفيرة والكريات البيض المتناثرة بمظهر وردي حبيبي، ولذلك يُسمّى **النسيج الحبيبي**."
+     "en": "Granulation tissue",
+     "ar": "النسيج الحبيبي"
     },
     {
-     "en": "Maturation and reorganization of the fibrous tissue (**remodeling**) to produce the stable fibrous scar",
-     "ar": "نضج النسيج الليفي وإعادة تنظيمه (**إعادة التشكيل**) لإنتاج الندبة الليفية المستقرة"
+     "en": "Remodeling → scar",
+     "ar": "إعادة التشكيل ← ندبة"
     }
+   ],
+   "en": "Three steps",
+   "ar": "ثلاث خطوات"
+  },
+  {
+   "t": "note",
+   "en": "In the sheet, step 3 and the sentence \"Repair begins within 24 hours...\" run on in one paragraph without a full stop after \"scar\"; they are shown here as two parts.",
+   "ar": "في الورقة تتّصل الخطوة 3 بجملة \"يبدأ الإصلاح خلال 24 ساعة...\" في فقرة واحدة دون نقطة بعد كلمة \"scar\"؛ وعُرضتا هنا جزأين.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
    ]
   },
   {
-   "t": "card",
-   "en": "Repair begins **within 24 hours** of injury by the emigration of fibroblasts and the induction of fibroblast and endothelial cell proliferation. By **3 to 5 days**, the specialized granulation tissue that is characteristic of healing is apparent.",
-   "ar": "يبدأ الإصلاح **خلال 24 ساعة** من الإصابة بهجرة الخلايا الليفية وتحفيز تكاثر الخلايا الليفية والخلايا البطانية. وبحلول **3 إلى 5 أيام** يظهر النسيج الحبيبي المتخصص المميّز للالتئام."
-  },
-  {
-   "t": "side",
-   "blocks": [
-    {
-     "t": "card",
-     "en": "**Figure 2–29** Steps in repair by scar formation. Injury to a tissue that has limited regenerative capacity first induces inflammation, which clears dead cells and microbes, if any. This is followed by formation of vascularized granulation tissue and then deposition of ECM to form the scar. ECM, extracellular matrix.",
-     "ar": "**الشكل 2–29** خطوات الإصلاح بتكوّن الندبة. إصابة نسيج محدود القدرة على التجدّد تُحدث أولًا التهابًا يزيل الخلايا الميتة والميكروبات إن وُجدت. يلي ذلك تكوّن نسيج حبيبي غني بالأوعية، ثم ترسيب المادة خارج الخلوية (`ECM`) لتكوين الندبة."
-    }
+   "t": "note",
+   "en": [
+    "**Angiogenesis → granulation tissue → remodeling** into a stable scar.",
+    "Starts **within 24 h**; granulation tissue seen by **3–5 days**."
    ],
-   "figure": {
-    "src": "assets/scar-steps.jpg",
-    "en": "Steps in repair by scar formation",
-    "ar": "خطوات الإصلاح بالندبة"
-   }
+   "ar": [
+    "**تكوّن الأوعية ← النسيج الحبيبي ← إعادة التشكيل** إلى ندبة مستقرة.",
+    "يبدأ **خلال 24 ساعة**؛ والنسيج الحبيبي يظهر بحلول **3–5 أيام**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
   },
   {
    "t": "section",
@@ -158,46 +246,88 @@
   },
   {
    "t": "card",
-   "en": "The term granulation tissue derives from the **gross appearance**, such as that beneath the scab of a skin wound.",
-   "ar": "اشتُقّ مصطلح النسيج الحبيبي من **المظهر العياني**، مثل ما يظهر تحت قشرة جرح الجلد."
+   "en": "The term granulation tissue derives from the **gross appearance**, such as that beneath the **scab** of a skin wound.",
+   "ar": "اشتُقّ مصطلح النسيج الحبيبي من **المظهر العياني**، مثل ما يظهر تحت **قشرة** جرح الجلد."
   },
   {
    "t": "card",
-   "en": "Its histologic appearance is characterized by proliferation of **fibroblasts** and new thin-walled, delicate **capillaries (angiogenesis)** in a loose **ECM**, often with admixed inflammatory cells, mainly **macrophages**. Granulation tissue progressively accumulates more fibroblasts, which lay down **collagen**, eventually resulting in the formation of a scar .",
-   "ar": "يتميّز مظهره النسيجي بتكاثر **الخلايا الليفية** و**شعيرات** جديدة رقيقة الجدار وهشّة (**تكوّن الأوعية**) في **مادة خارج خلوية** رخوة، تختلط بها غالبًا خلايا التهابية أهمها **البلاعم**. ويتراكم في النسيج الحبيبي تدريجيًا مزيد من الخلايا الليفية التي ترسّب **الكولاجين**، مما ينتهي بتكوّن الندبة."
+   "en": [
+    "Its histologic appearance is characterized by proliferation of **fibroblasts** and new thin-walled, delicate **capillaries (angiogenesis)** in a loose **ECM**, often with admixed inflammatory cells, mainly **macrophages**.",
+    "Granulation tissue progressively accumulates more fibroblasts, which lay down **collagen**, eventually resulting in the formation of a scar ."
+   ],
+   "ar": [
+    "يتميّز مظهره النسيجي بتكاثر **الخلايا الليفية** و**شعيرات** جديدة رقيقة الجدار وهشّة (**تكوّن الأوعية**) في **مادة خارج خلوية** رخوة، تختلط بها غالبًا خلايا التهابية أهمّها **البلاعم**.",
+    "ويتراكم في النسيج الحبيبي تدريجيًا مزيد من الخلايا الليفية التي ترسّب **الكولاجين**، ممّا ينتهي بتكوّن الندبة."
+   ]
   },
   {
    "t": "figure",
    "src": "assets/granulation-tissue.jpg",
-   "en": "Granulation tissue (ulcer, new blood vessels, inflammatory cells)",
-   "ar": "النسيج الحبيبي (قرحة، أوعية دموية جديدة، خلايا التهابية)",
-   "h": "48mm",
-   "fit": "contain"
+   "en": "Granulation tissue: ulcer, new blood vessels, inflammatory cells",
+   "ar": "النسيج الحبيبي: قرحة، أوعية دموية جديدة، خلايا التهابية",
+   "h": "46mm"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Name from its **gross** look under a scab; histology: **fibroblasts + new capillaries + loose ECM + macrophages**.",
+    "Fibroblasts lay down **collagen** → scar."
+   ],
+   "ar": [
+    "الاسم من مظهره **العياني** تحت القشرة؛ ونسيجيًا: **خلايا ليفية + شعيرات جديدة + مادة خارج خلوية رخوة + بلاعم**.",
+    "الخلايا الليفية ترسّب **الكولاجين** ← ندبة."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
   },
   {
    "t": "section",
-   "en": "The control of cell proliferation",
+   "en": "Control of cell proliferation",
+   "ar": "السيطرة على تكاثر الخلايا"
+  },
+  {
+   "t": "h2",
+   "en": "THE CONTROL OF CELL PROLIFERATION",
    "ar": "السيطرة على تكاثر الخلايا"
   },
   {
    "t": "card",
-   "en": "Several cell types proliferate during tissue repair. These include",
-   "ar": "تتكاثر عدة أنواع من الخلايا أثناء إصلاح النسيج، منها:",
-   "list_en": [
-    "The **remnants of the injured tissue** (which attempt to restore normal structure).",
-    "**Vascular endothelial cells** (to create new vessels that provide the nutrients needed for the repair process).",
-    "**Fibroblasts** (the source of the fibrous tissue that forms the scar to fill defects that cannot be corrected by regeneration)."
+   "en": [
+    "Several cell types proliferate during tissue repair.",
+    "These include"
    ],
-   "list_ar": [
-    "**بقايا النسيج المصاب** (التي تحاول استعادة البنية الطبيعية).",
-    "**الخلايا البطانية الوعائية** (لتكوين أوعية جديدة توفّر المغذّيات اللازمة لعملية الإصلاح).",
-    "**الخلايا الليفية** (مصدر النسيج الليفي الذي يكوّن الندبة لملء العيوب التي لا يصلحها التجدّد)."
+   "ar": [
+    "تتكاثر عدّة أنواع من الخلايا أثناء إصلاح النسيج.",
+    "وتشمل"
    ]
   },
   {
+   "t": "rule",
+   "en": "The **remnants of the injured tissue** (which attempt to restore normal structure).",
+   "ar": "**بقايا النسيج المصاب** (التي تحاول استعادة البنية الطبيعية)."
+  },
+  {
+   "t": "rule",
+   "en": "**Vascular endothelial cells** (to create new vessels that provide the nutrients needed for the repair process).",
+   "ar": "**الخلايا البطانية الوعائية** (لتكوين أوعية جديدة توفّر المغذّيات اللازمة لعملية الإصلاح)."
+  },
+  {
+   "t": "rule",
+   "en": "**Fibroblasts** (the source of the fibrous tissue that forms the scar to fill defects that cannot be corrected by regeneration).",
+   "ar": "**الخلايا الليفية** (مصدر النسيج الليفي الذي يكوّن الندبة لملء العيوب التي لا يصلحها التجدّد)."
+  },
+  {
    "t": "card",
-   "en": "The proliferation of these cell types is driven by proteins called **growth factors**. The production of polypeptide growth factors and the ability of cells to divide in response to these factors are important determinants of the adequacy of the repair process.",
-   "ar": "يُحفَّز تكاثر هذه الخلايا ببروتينات تُسمّى **عوامل النمو**. وإنتاج عوامل النمو متعددة الببتيد وقدرة الخلايا على الانقسام استجابةً لها من المحدِّدات المهمة لكفاءة عملية الإصلاح."
+   "en": [
+    "The proliferation of these cell types is driven by proteins called **growth factors**.",
+    "The production of polypeptide growth factors and the ability of cells to divide in response to these factors are important determinants of the adequacy of the repair process."
+   ],
+   "ar": [
+    "يُحفَّز تكاثر هذه الخلايا ببروتينات تُسمّى **عوامل النمو**.",
+    "وإنتاج عوامل النمو متعدّدة الببتيد وقدرة الخلايا على الانقسام استجابةً لها من المحدِّدات المهمّة لكفاءة عملية الإصلاح."
+   ]
   },
   {
    "t": "card",
@@ -206,114 +336,257 @@
   },
   {
    "t": "card",
-   "en": "The key processes in the proliferation of cells are **DNA replication** and **mitosis**. The sequence of events that control these two processes is known as the **cell cycle**.",
-   "ar": "العمليتان الأساسيتان في تكاثر الخلايا هما **تضاعف الـDNA** و**الانقسام الخيطي**. وتُعرف سلسلة الأحداث التي تتحكّم بهاتين العمليتين بـ**دورة الخلية**."
+   "en": [
+    "The key processes in the proliferation of cells are **DNA replication** and **mitosis**.",
+    "The sequence of events that control these two processes is known as the **cell cycle**."
+   ],
+   "ar": [
+    "العمليتان الأساسيتان في تكاثر الخلايا هما **تضاعف DNA** و**الانقسام الخيطي**.",
+    "وتُعرف سلسلة الأحداث التي تتحكّم بهاتين العمليتين بـ**دورة الخلية**."
+   ]
   },
   {
    "t": "figure",
    "src": "assets/cell-cycle.jpg",
-   "en": "The cell cycle",
-   "ar": "دورة الخلية",
-   "h": "50mm",
-   "fit": "contain"
+   "en": "The cell cycle: G1 - Growth; S - DNA synthesis; G2 - Growth and preparation for mitosis; M - Mitosis (cell division)",
+   "ar": "دورة الخلية: G1 - النمو؛ S - تخليق DNA؛ G2 - النمو والتحضير للانقسام؛ M - الانقسام الخيطي (انقسام الخلية)",
+   "h": "44mm"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Proliferating cells in repair: **remnant tissue cells, endothelial cells, fibroblasts** — driven by **growth factors**.",
+    "Cell number = **proliferation – apoptosis + new cells from stem cells**; proliferation = **DNA replication + mitosis** (cell cycle)."
+   ],
+   "ar": [
+    "الخلايا المتكاثرة في الإصلاح: **بقايا النسيج، الخلايا البطانية، الخلايا الليفية** — بتحفيز **عوامل النمو**.",
+    "عدد الخلايا = **التكاثر – الاستماتة + خلايا جديدة من الجذعية**؛ والتكاثر = **تضاعف DNA + الانقسام** (دورة الخلية)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
   },
   {
    "t": "section",
-   "en": "Proliferative capacities of tissues",
+   "en": "Proliferative capacities",
+   "ar": "القدرات التكاثرية للأنسجة"
+  },
+  {
+   "t": "h2",
+   "en": "PROLIFERATIVE CAPACITIES OF TISSUES",
    "ar": "القدرات التكاثرية للأنسجة"
   },
   {
    "t": "card",
-   "en": "The ability of tissues to repair themselves is critically influenced by their **intrinsic proliferative capacity**. On the basis of this criterion, the tissues of the body are divided into three groups.",
-   "ar": "تتأثّر قدرة الأنسجة على إصلاح نفسها تأثّرًا حاسمًا بـ**قدرتها التكاثرية الذاتية**. وعلى أساس هذا المعيار تُقسم أنسجة الجسم إلى ثلاث مجموعات."
+   "en": [
+    "The ability of tissues to repair themselves is critically influenced by their **intrinsic proliferative capacity**.",
+    "On the basis of this criterion, the tissues of the body are divided into **three groups**."
+   ],
+   "ar": [
+    "تتأثّر قدرة الأنسجة على إصلاح نفسها تأثّرًا حاسمًا بـ**قدرتها التكاثرية الذاتية**.",
+    "وعلى أساس هذا المعيار تُقسم أنسجة الجسم إلى **ثلاث مجموعات**."
+   ]
   },
   {
    "t": "rule",
-   "en": "**1- Labile (continuously dividing) tissues .** Cells of these tissues are continuously being lost and replaced by maturation from stem cells and by proliferation of mature cells. Labile cells include **hematopoietic cells in the bone marrow** and the majority of **surface epithelia**, such as the stratified squamous surfaces of the skin, oral cavity and other . These tissues can readily regenerate after injury as long as the **pool of stem cells is preserved**.",
-   "ar": "**1- الأنسجة المتقلّبة (دائمة الانقسام).** تُفقد خلايا هذه الأنسجة باستمرار وتُعوَّض بالنضج من الخلايا الجذعية وبتكاثر الخلايا الناضجة. وتشمل **الخلايا المكوّنة للدم في نقي العظم** ومعظم **الظهارات السطحية** مثل السطوح الحرشفية المطبّقة للجلد وتجويف الفم وغيرها. ويمكن لهذه الأنسجة التجدّد بسهولة بعد الإصابة ما دام **مخزون الخلايا الجذعية محفوظًا**."
+   "en": [
+    "**Labile (continuously dividing) tissues .**",
+    "Cells of these tissues are continuously being lost and replaced by maturation from stem cells and by proliferation of mature cells."
+   ],
+   "ar": [
+    "**الأنسجة المتقلّبة (دائمة الانقسام).**",
+    "تُفقد خلايا هذه الأنسجة باستمرار وتُعوَّض بالنضج من الخلايا الجذعية وبتكاثر الخلايا الناضجة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Labile cells include **hematopoietic cells in the bone marrow** and the majority of **surface epithelia**, such as the stratified squamous surfaces of the skin, oral cavity and other .",
+    "These tissues can readily regenerate after injury as long as the **pool of stem cells is preserved**."
+   ],
+   "ar": [
+    "وتشمل الخلايا المتقلّبة **الخلايا المكوّنة للدم في نقي العظم** ومعظم **الظهارات السطحية**، مثل السطوح الحرشفية المطبّقة للجلد وتجويف الفم وغيرها.",
+    "ويمكن لهذه الأنسجة التجدّد بسهولة بعد الإصابة ما دام **مخزون الخلايا الجذعية محفوظًا**."
+   ]
   },
   {
    "t": "rule",
-   "en": "**2- Stable tissues.** Cells of these tissues are **quiescent** and have only minimal replicative activity in their normal state. However, these cells are capable of proliferating in response to injury or loss of tissue mass. Stable cells constitute the parenchyma of most solid tissues, such as **liver, kidney, and pancreas**.",
-   "ar": "**2- الأنسجة المستقرة.** خلايا هذه الأنسجة **ساكنة** ولها نشاط تضاعفي ضئيل في حالتها الطبيعية، لكنها قادرة على التكاثر استجابةً للإصابة أو فقدان كتلة النسيج. وتكوّن الخلايا المستقرة متن معظم الأنسجة الصلبة مثل **الكبد والكلية والبنكرياس**."
+   "en": "**Stable tissues.** Cells of these tissues are **quiescent** and have only minimal replicative activity in their normal state.",
+   "ar": "**الأنسجة المستقرّة.** خلايا هذه الأنسجة **ساكنة** ولها نشاط تضاعفي ضئيل في حالتها الطبيعية."
+  },
+  {
+   "t": "card",
+   "en": [
+    "However, these cells are capable of proliferating in response to injury or loss of tissue mass.",
+    "Stable cells constitute the parenchyma of most solid tissues, such as **liver, kidney, and pancreas**."
+   ],
+   "ar": [
+    "لكنها قادرة على التكاثر استجابةً للإصابة أو فقدان كتلة النسيج.",
+    "وتكوّن الخلايا المستقرّة متن معظم الأنسجة الصلبة، مثل **الكبد والكلية والبنكرياس**."
+   ]
   },
   {
    "t": "rule",
-   "en": "**3- Permanent tissues .** The cells of these tissues are considered to be **terminally differentiated and non-proliferative** in postnatal life. Most **neurons** and **cardiac muscle cells** belong to this category. Thus, injury to brain or heart is **irreversible and results in a scar**, because neurons and cardiac myocytes cannot regenerate.In permanent tissues, repair is typically dominated by scar formation.",
-   "ar": "**3- الأنسجة الدائمة.** تُعدّ خلايا هذه الأنسجة **متمايزة نهائيًا وغير متكاثرة** في الحياة بعد الولادة. وينتمي إليها معظم **الخلايا العصبية** و**خلايا عضلة القلب**. لذا فإن إصابة الدماغ أو القلب **غير عكوسة وتنتهي بندبة**، لأن الخلايا العصبية والعضلية القلبية لا تتجدّد. وفي الأنسجة الدائمة يغلب على الإصلاح عادةً تكوّن الندبة."
+   "en": "**Permanent tissues .** The cells of these tissues are considered to be **terminally differentiated and non-proliferative** in postnatal life.",
+   "ar": "**الأنسجة الدائمة.** تُعدّ خلايا هذه الأنسجة **متمايزة نهائيًا وغير متكاثرة** في الحياة بعد الولادة."
+  },
+  {
+   "t": "card",
+   "en": [
+    "Most **neurons** and **cardiac muscle cells** belong to this category.",
+    "Thus, injury to brain or heart is **irreversible and results in a scar**, because neurons and cardiac myocytes cannot regenerate.In permanent tissues, repair is typically dominated by scar formation."
+   ],
+   "ar": [
+    "وينتمي إلى هذه الفئة معظم **الخلايا العصبية** و**خلايا عضلة القلب**.",
+    "لذا فإن إصابة الدماغ أو القلب **غير عكوسة وتنتهي بندبة**، لأن الخلايا العصبية والعضلية القلبية لا تتجدّد. وفي الأنسجة الدائمة يغلب على الإصلاح عادةً تكوّن الندبة."
+   ]
   },
   {
    "t": "table",
    "head": [
-    "Tissue",
-    "Proliferation",
-    "Examples",
-    "الترجمة"
+    [
+     "Tissue",
+     "النسيج"
+    ],
+    [
+     "Proliferation",
+     "التكاثر"
+    ],
+    [
+     "Examples",
+     "الأمثلة"
+    ]
    ],
    "rows": [
     [
-     "Labile",
-     "Continuously dividing",
-     "Bone marrow, surface epithelia (skin, oral cavity)",
-     "**المتقلّبة**: دائمة الانقسام — نقي العظم، الظهارات السطحية"
+     [
+      "**Labile**",
+      "**المتقلّبة**"
+     ],
+     [
+      "continuously dividing",
+      "دائمة الانقسام"
+     ],
+     [
+      "bone marrow, surface epithelia (skin, oral cavity)",
+      "نقي العظم، الظهارات السطحية (الجلد، تجويف الفم)"
+     ]
     ],
     [
-     "Stable",
-     "Quiescent; divide after injury",
-     "Liver, kidney, pancreas",
-     "**المستقرة**: ساكنة وتنقسم بعد الإصابة — الكبد، الكلية، البنكرياس"
+     [
+      "**Stable**",
+      "**المستقرّة**"
+     ],
+     [
+      "quiescent; divide after injury",
+      "ساكنة؛ تنقسم بعد الإصابة"
+     ],
+     [
+      "liver, kidney, pancreas",
+      "الكبد، الكلية، البنكرياس"
+     ]
     ],
     [
-     "Permanent",
-     "Non-proliferative",
-     "Neurons, cardiac muscle → scar",
-     "**الدائمة**: غير متكاثرة — الخلايا العصبية، عضلة القلب ← ندبة"
+     [
+      "**Permanent**",
+      "**الدائمة**"
+     ],
+     [
+      "non-proliferative",
+      "غير متكاثرة"
+     ],
+     [
+      "neurons, cardiac muscle → scar",
+      "الخلايا العصبية، عضلة القلب ← ندبة"
+     ]
     ]
-   ],
-   "ar_cols": [
-    3
    ],
    "key_cols": [
     0
    ],
+   "widths": [
+    20,
+    32,
+    48
+   ],
    "style": "summary",
-   "label_en": "At a glance",
-   "label_ar": "باختصار"
+   "label_en": "Three groups",
+   "label_ar": "المجموعات الثلاث"
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Labile** regenerate easily (if stem cells kept); **stable** divide only after injury; **permanent** heal by **scar**."
+   ],
+   "ar": [
+    "**المتقلّبة** تتجدّد بسهولة (إذا بقيت الخلايا الجذعية)؛ **المستقرّة** تنقسم بعد الإصابة فقط؛ **الدائمة** تلتئم **بندبة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
   },
   {
    "t": "section",
-   "en": "Factors that influence tissue repair",
+   "en": "Factors in tissue repair",
+   "ar": "العوامل المؤثّرة في الإصلاح"
+  },
+  {
+   "t": "h2",
+   "en": "FACTORS THAT INFLUENCE TISSUE REPAIR",
    "ar": "العوامل المؤثّرة في إصلاح النسيج"
   },
   {
    "t": "card",
-   "en": "Tissue repair may be altered by a variety of influences, frequently reducing the quality or adequacy of the reparative process. Variables that modify healing may be **extrinsic** (e.g., infection) or **intrinsic** to the injured tissue.",
-   "ar": "قد يتغيّر إصلاح النسيج بتأثيرات متنوعة تقلّل غالبًا جودة عملية الإصلاح أو كفاءتها. والمتغيّرات المعدِّلة للالتئام قد تكون **خارجية** (مثل العدوى) أو **داخلية** في النسيج المصاب."
+   "en": [
+    "Tissue repair may be altered by a variety of influences, frequently **reducing the quality or adequacy** of the reparative process.",
+    "Variables that modify healing may be **extrinsic** (e.g., infection) or **intrinsic** to the injured tissue."
+   ],
+   "ar": [
+    "قد يتغيّر إصلاح النسيج بتأثيرات متنوّعة **تقلّل غالبًا جودة** عملية الإصلاح أو كفاءتها.",
+    "والمتغيّرات المعدِّلة للالتئام قد تكون **خارجية** (مثل العدوى) أو **داخلية** في النسيج المصاب."
+   ]
   },
   {
    "t": "rule",
-   "en": "**1- Infection** is clinically the **most important cause of delay in healing**; it prolongs inflammation and potentially increases the local tissue injury.",
-   "ar": "**1- العدوى** هي سريريًا **أهم سبب لتأخّر الالتئام**؛ إذ تطيل الالتهاب وقد تزيد إصابة النسيج الموضعية."
+   "en": "**Infection** is clinically the **most important cause of delay in healing**; it prolongs inflammation and potentially increases the local tissue injury.",
+   "ar": "**العدوى** هي سريريًا **أهمّ سبب لتأخّر الالتئام**؛ إذ تطيل الالتهاب وقد تزيد إصابة النسيج الموضعية."
   },
   {
    "t": "rule",
-   "en": "**2- Nutrition** has profound effects on repair; **protein deficiency**, for example, and especially **vitamin C deficiency** inhibit collagen synthesis and retard healing.",
-   "ar": "**2- التغذية** لها آثار عميقة في الإصلاح؛ فـ**نقص البروتين** مثلًا، ولا سيما **نقص فيتامين C**، يثبّطان تخليق الكولاجين ويؤخّران الالتئام."
+   "en": "**Nutrition** has profound effects on repair; **protein deficiency**, for example, and especially **vitamin C deficiency** inhibit collagen synthesis and retard healing.",
+   "ar": "**التغذية** لها آثار عميقة في الإصلاح؛ فـ**نقص البروتين** مثلًا، ولا سيّما **نقص فيتامين C**، يثبّطان تخليق الكولاجين ويؤخّران الالتئام."
   },
   {
    "t": "rule",
-   "en": "**3- Glucocorticoids(steroids)** have well-documented anti-inflammatory effects, and their administration may result in **weakness of the scar** because of inhibition of **TGF-β** production and diminished fibrosis.",
-   "ar": "**3- القشرانيات السكرية (الستيرويدات)** لها تأثيرات مضادة للالتهاب موثّقة جيدًا، وقد يؤدي إعطاؤها إلى **ضعف الندبة** بسبب تثبيط إنتاج **`TGF-β`** وقلّة التليّف."
+   "en": "**Glucocorticoids(steroids)** have well-documented anti-inflammatory effects, and their administration may result in **weakness of the scar** because of inhibition of **TGF-β** production and diminished fibrosis.",
+   "ar": "**القشرانيات السكّرية (الستيرويدات)** لها تأثيرات مضادّة للالتهاب موثّقة جيدًا، وقد يؤدّي إعطاؤها إلى **ضعف الندبة** بسبب تثبيط إنتاج **TGF-β** وقلّة التليّف."
   },
   {
    "t": "rule",
-   "en": "**4- Poor perfusion** , due either to **arteriosclerosis and diabetes** or to obstructed venous drainage (e.g., in **varicose veins**), also impairs healing.",
-   "ar": "**4- ضعف التروية** الناتج إما عن **تصلّب الشرايين والسكري** أو عن انسداد التصريف الوريدي (مثل **دوالي الأوردة**) يعيق الالتئام أيضًا."
+   "en": "**Poor perfusion** , due either to **arteriosclerosis and diabetes** or to obstructed venous drainage (e.g., in **varicose veins**), also impairs healing.",
+   "ar": "**ضعف التروية**، الناتج إمّا عن **تصلّب الشرايين والسكّري** أو عن انسداد التصريف الوريدي (مثل **دوالي الأوردة**)، يعيق الالتئام أيضًا."
   },
   {
    "t": "rule",
-   "en": "**5- Foreign bodies** such as fragments of steel, glass, or even bone impede healing.",
-   "ar": "**5- الأجسام الغريبة** مثل شظايا الفولاذ أو الزجاج أو حتى العظم تعيق الالتئام."
+   "en": "**Foreign bodies** such as fragments of steel, glass, or even bone impede healing.",
+   "ar": "**الأجسام الغريبة** مثل شظايا الفولاذ أو الزجاج أو حتى العظم تعيق الالتئام."
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Infection** = #1 cause of delayed healing.",
+    "Also: **protein / vitamin C deficiency**, **steroids** (↓ TGF-β → weak scar), **poor perfusion**, **foreign bodies**."
+   ],
+   "ar": [
+    "**العدوى** = السبب الأول لتأخّر الالتئام.",
+    "وأيضًا: **نقص البروتين / فيتامين C**، **الستيرويدات** (↓ TGF-β ← ندبة ضعيفة)، **ضعف التروية**، **الأجسام الغريبة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
   },
   {
    "t": "section",
@@ -322,17 +595,35 @@
   },
   {
    "t": "card",
-   "en": "In most dividing tissues the mature cells are **terminally differentiated and short-lived**. As mature cells die, the tissue is replenished by the differentiation of cells generated from stem cells.",
-   "ar": "في معظم الأنسجة المنقسمة تكون الخلايا الناضجة **متمايزة نهائيًا وقصيرة العمر**. وعندما تموت الخلايا الناضجة يُعاد تزويد النسيج بتمايز خلايا ناشئة من الخلايا الجذعية."
+   "en": [
+    "In most dividing tissues the mature cells are **terminally differentiated and short-lived**.",
+    "As mature cells die, the tissue is replenished by the differentiation of cells generated from stem cells."
+   ],
+   "ar": [
+    "في معظم الأنسجة المنقسمة تكون الخلايا الناضجة **متمايزة نهائيًا وقصيرة العمر**.",
+    "وعندما تموت الخلايا الناضجة يُعاد تزويد النسيج بتمايز خلايا ناشئة من الخلايا الجذعية."
+   ]
   },
   {
    "t": "card",
-   "en": "Thus, in these tissues there is a **homeostatic equilibrium** between the replication, self-renewal, and differentiation of stem cells and the death of the mature, fully differentiated cells. Such relationships are particularly evident in the continuously dividing epithelium of the **skin** and the **gastrointestinal tract**, in which stem cells live near the **basal layer** of the epithelium, and cells differentiate as they migrate to the upper layers of the epithelium before they die and are shed from the surface.",
-   "ar": "لذا يوجد في هذه الأنسجة **توازن استتبابي** بين تضاعف الخلايا الجذعية وتجدّدها الذاتي وتمايزها وبين موت الخلايا الناضجة تامة التمايز. وتتّضح هذه العلاقة خاصةً في ظهارة **الجلد** و**القناة الهضمية** دائمة الانقسام، حيث تعيش الخلايا الجذعية قرب **الطبقة القاعدية** للظهارة، وتتمايز الخلايا أثناء هجرتها إلى الطبقات العليا قبل أن تموت وتتساقط من السطح."
+   "en": "Thus, in these tissues there is a **homeostatic equilibrium** between the replication, self-renewal, and differentiation of stem cells and the death of the mature, fully differentiated cells.",
+   "ar": "لذا يوجد في هذه الأنسجة **توازن استتبابي** بين تضاعف الخلايا الجذعية وتجدّدها الذاتي وتمايزها وبين موت الخلايا الناضجة تامّة التمايز."
+  },
+  {
+   "t": "card",
+   "en": "Such relationships are particularly evident in the continuously dividing epithelium of the **skin** and the **gastrointestinal tract**, in which stem cells live near the **basal layer** of the epithelium, and cells differentiate as they migrate to the upper layers of the epithelium before they die and are shed from the surface.",
+   "ar": "وتتّضح هذه العلاقة خاصّةً في ظهارة **الجلد** و**القناة الهضمية** دائمة الانقسام، حيث تعيش الخلايا الجذعية قرب **الطبقة القاعدية** للظهارة، وتتمايز الخلايا أثناء هجرتها إلى الطبقات العليا قبل أن تموت وتتساقط من السطح."
+  },
+  {
+   "t": "figure",
+   "src": "assets/stem-cells-illustration.png",
+   "en": "Stem cells (illustration)",
+   "ar": "الخلايا الجذعية (رسم توضيحي)",
+   "h": "40mm"
   },
   {
    "t": "h2",
-   "en": "Stem cells properties",
+   "en": "STEM CELLS PROPERTIES",
    "ar": "خصائص الخلايا الجذعية"
   },
   {
@@ -341,27 +632,27 @@
     {
      "t": "card",
      "en": "Stem cells are characterized by two important properties:",
-     "ar": "تتميّز الخلايا الجذعية بخاصيتين مهمتين:",
+     "ar": "تتميّز الخلايا الجذعية بخاصّيتين مهمّتين:",
      "list_en": [
-      "Self-renewal capacity",
-      "Asymmetric replication."
+      "**Self-renewal capacity**",
+      "**Asymmetric replication.**"
      ],
      "list_ar": [
-      "القدرة على التجدّد الذاتي",
-      "التضاعف غير المتناظر."
+      "**القدرة على التجدّد الذاتي**",
+      "**التضاعف غير المتناظر.**"
      ]
     }
    ],
    "figure": {
     "src": "assets/stem-cell-division.png",
-    "en": "Self-renewal and differentiation",
-    "ar": "التجدّد الذاتي والتمايز"
+    "en": "Stem cell → Self-renewal (stem cell) and Differentiation (specialized cell)",
+    "ar": "خلية جذعية ← تجدّد ذاتي (خلية جذعية) وتمايز (خلية متخصّصة)"
    }
   },
   {
    "t": "card",
-   "en": "**Asymmetric replication** means that when a stem cell divides, one daughter cell enters a differentiation pathway and gives rise to mature cells, while the other remains an undifferentiated stem cell that retains its self-renewal capacity.",
-   "ar": "**التضاعف غير المتناظر** يعني أنه عند انقسام الخلية الجذعية تدخل إحدى الخليتين البنتين مسار التمايز وتعطي خلايا ناضجة، بينما تبقى الأخرى خلية جذعية غير متمايزة تحتفظ بقدرتها على التجدّد الذاتي."
+   "en": "**Asymmetric replication** means that when a stem cell divides, **one daughter cell enters a differentiation pathway** and gives rise to mature cells, while **the other remains an undifferentiated stem cell** that retains its self-renewal capacity.",
+   "ar": "**التضاعف غير المتناظر** يعني أنه عند انقسام الخلية الجذعية **تدخل إحدى الخليتين البنويتين مسار التمايز** وتعطي خلايا ناضجة، بينما **تبقى الأخرى خلية جذعية غير متمايزة** تحتفظ بقدرتها على التجدّد الذاتي."
   },
   {
    "t": "card",
@@ -369,14 +660,29 @@
    "ar": "**التجدّد الذاتي** يمكّن الخلايا الجذعية من المحافظة على مجموعة فعّالة من الأسلاف لفترات طويلة."
   },
   {
-   "t": "h2",
+   "t": "note",
+   "en": [
+    "Stem cells: **self-renewal** + **asymmetric replication** (one daughter differentiates, one stays a stem cell).",
+    "In skin and GI tract they sit near the **basal layer**."
+   ],
+   "ar": [
+    "الخلايا الجذعية: **تجدّد ذاتي** + **تضاعف غير متناظر** (بنوية تتمايز وأخرى تبقى جذعية).",
+    "في الجلد والقناة الهضمية تقع قرب **الطبقة القاعدية**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
    "en": "Types of stem cells",
    "ar": "أنواع الخلايا الجذعية"
   },
   {
    "t": "card",
    "en": "**1- Embryonic stem cells (ES cells)**are",
-   "ar": "**1- الخلايا الجذعية الجنينية (`ES cells`)** هي:",
+   "ar": "**1- الخلايا الجذعية الجنينية (ES cells)** هي:",
    "list_en": [
     "the **most undifferentiated** stem cells.",
     "They are present in the **inner cell mass of the blastocyst** and have extensive cell renewal capacity.",
@@ -384,10 +690,10 @@
     "ES cells can be induced to form specialized cells of **all three germ cell layers**, including neurons, cardiac muscle, liver cells, and pancreatic islet cells."
    ],
    "list_ar": [
-    "**أقل** الخلايا الجذعية **تمايزًا**.",
-    "توجد في **كتلة الخلايا الداخلية للكيسة الأريمية** ولها قدرة واسعة على التجدّد.",
+    "**أقلّ** الخلايا الجذعية **تمايزًا**.",
+    "توجد في **كتلة الخلايا الداخلية للكيسة الأريمية** ولها قدرة واسعة على التجدّد الخلوي.",
     "يمكن إبقاؤها في المزرعة **أكثر من سنة** دون أن تتمايز.",
-    "يمكن تحفيزها لتكوين خلايا متخصصة من **الطبقات الجرثومية الثلاث**، ومنها الخلايا العصبية وعضلة القلب وخلايا الكبد وخلايا جزر البنكرياس."
+    "يمكن تحفيز الخلايا الجذعية الجنينية لتكوين خلايا متخصّصة من **الطبقات الجرثومية الثلاث**، ومنها الخلايا العصبية وعضلة القلب وخلايا الكبد وخلايا جزر البنكرياس."
    ],
    "alpha": true
   },
@@ -402,56 +708,271 @@
     "In addition, their **lineage potential** (ability to give rise to specialized cells) is **restricted** to some or all of the differentiated cells of the tissue or organ in which they are found."
    ],
    "list_ar": [
-    "**أقل عدم تمايز** من الخلايا الجنينية (أي أكثر تمايزًا منها).",
+    "**أقلّ عدم تمايز** من الخلايا الجذعية الجنينية (أي أكثر تمايزًا منها).",
     "توجد بين الخلايا المتمايزة داخل العضو أو النسيج.",
-    "مع أن لها، مثل الخلايا الجنينية، قدرة على التجدّد الذاتي، فإن هذه الخاصية **محدودة أكثر بكثير**.",
-    "إضافةً إلى ذلك فإن **قدرتها السلالية** (قدرتها على إعطاء خلايا متخصصة) **مقتصرة** على بعض أو كل الخلايا المتمايزة في النسيج أو العضو الذي توجد فيه."
+    "مع أن لها، مثل الخلايا الجنينية، قدرة على التجدّد الذاتي، فإن هذه الخاصّية **محدودة أكثر بكثير**.",
+    "إضافةً إلى ذلك فإن **قدرتها السلالية** (قدرتها على إعطاء خلايا متخصّصة) **مقتصرة** على بعض أو كل الخلايا المتمايزة في النسيج أو العضو الذي توجد فيه."
    ],
    "alpha": true
   },
   {
    "t": "table",
    "head": [
-    "",
-    "Embryonic (ES)",
-    "Adult (tissue)",
-    "الترجمة"
+    [
+     "",
+     ""
+    ],
+    [
+     "Embryonic (ES)",
+     "الجنينية (ES)"
+    ],
+    [
+     "Adult (tissue)",
+     "البالغة (النسيجية)"
+    ]
    ],
    "rows": [
     [
-     "Differentiation",
-     "Most undifferentiated",
-     "Less undifferentiated",
-     "**التمايز**: الأقل تمايزًا — أكثر تمايزًا"
+     [
+      "**Differentiation**",
+      "**التمايز**"
+     ],
+     [
+      "most undifferentiated",
+      "الأقلّ تمايزًا"
+     ],
+     [
+      "less undifferentiated",
+      "أكثر تمايزًا"
+     ]
     ],
     [
-     "Location",
-     "Inner cell mass of blastocyst",
-     "Among differentiated cells of an organ",
-     "**الموقع**: كتلة الخلايا الداخلية للكيسة الأريمية — بين خلايا العضو المتمايزة"
+     [
+      "**Location**",
+      "**الموقع**"
+     ],
+     [
+      "inner cell mass of blastocyst",
+      "كتلة الخلايا الداخلية للكيسة الأريمية"
+     ],
+     [
+      "among differentiated cells of an organ",
+      "بين الخلايا المتمايزة في العضو"
+     ]
     ],
     [
-     "Self-renewal",
-     "Extensive",
-     "Much more limited",
-     "**التجدّد الذاتي**: واسع — محدود أكثر بكثير"
+     [
+      "**Self-renewal**",
+      "**التجدّد الذاتي**"
+     ],
+     [
+      "extensive",
+      "واسع"
+     ],
+     [
+      "much more limited",
+      "محدود أكثر بكثير"
+     ]
     ],
     [
-     "Lineage potential",
-     "All three germ layers",
-     "Restricted to cells of its tissue",
-     "**القدرة السلالية**: الطبقات الثلاث — مقتصرة على خلايا نسيجها"
+     [
+      "**Lineage potential**",
+      "**القدرة السلالية**"
+     ],
+     [
+      "all three germ layers",
+      "الطبقات الجرثومية الثلاث"
+     ],
+     [
+      "restricted to cells of its tissue",
+      "مقتصرة على خلايا نسيجها"
+     ]
     ]
-   ],
-   "ar_cols": [
-    3
    ],
    "key_cols": [
     0
    ],
+   "widths": [
+    24,
+    38,
+    38
+   ],
    "style": "summary",
    "label_en": "ES vs adult stem cells",
    "label_ar": "الجنينية مقابل البالغة"
+  },
+  {
+   "t": "note",
+   "en": [
+    "**ES cells**: most undifferentiated, blastocyst inner cell mass, culture > 1 year, **all 3 germ layers**.",
+    "**Adult (tissue) stem cells**: within organs, **limited** self-renewal, **restricted** lineage."
+   ],
+   "ar": [
+    "**الجنينية**: الأقلّ تمايزًا، كتلة الكيسة الأريمية الداخلية، المزرعة > سنة، **الطبقات الثلاث**.",
+    "**البالغة (النسيجية)**: داخل الأعضاء، تجدّد ذاتي **محدود**، قدرة سلالية **مقتصرة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Repair / Healing**",
+     "الإصلاح / الالتئام"
+    ],
+    [
+     "**Regeneration**",
+     "التجدّد / التخلّق من جديد"
+    ],
+    [
+     "**Scar formation**",
+     "تكوّن الندبة / التندّب"
+    ],
+    [
+     "**Parenchymal cells**",
+     "الخلايا المتنية / البرنشيمية"
+    ],
+    [
+     "**Angiogenesis**",
+     "تكوّن الأوعية الدموية الجديدة"
+    ],
+    [
+     "**Fibroblast**",
+     "الخلية الليفية / الأرومة الليفية"
+    ],
+    [
+     "**Granulation tissue**",
+     "النسيج الحبيبي / النسيج المحبّب"
+    ],
+    [
+     "**Remodeling**",
+     "إعادة التشكيل / إعادة التنظيم"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**ECM (extracellular matrix)**",
+     "المادة (القالب) خارج الخلوية"
+    ],
+    [
+     "**Macrophages**",
+     "البلاعم / الخلايا البلعمية الكبيرة"
+    ],
+    [
+     "**Growth factors**",
+     "عوامل النمو"
+    ],
+    [
+     "**Apoptosis**",
+     "الاستماتة / الموت الخلوي المبرمج"
+    ],
+    [
+     "**Labile tissues**",
+     "الأنسجة المتقلّبة / دائمة الانقسام"
+    ],
+    [
+     "**Stable tissues**",
+     "الأنسجة المستقرّة / الساكنة"
+    ],
+    [
+     "**Permanent tissues**",
+     "الأنسجة الدائمة / غير المنقسمة"
+    ],
+    [
+     "**Hematopoietic cells**",
+     "الخلايا المكوّنة للدم"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Glucocorticoids**",
+     "القشرانيات السكّرية / الستيرويدات"
+    ],
+    [
+     "**TGF-β**",
+     "عامل النمو المحوِّل بيتا"
+    ],
+    [
+     "**Stem cells**",
+     "الخلايا الجذعية"
+    ],
+    [
+     "**Self-renewal**",
+     "التجدّد الذاتي"
+    ],
+    [
+     "**Asymmetric replication**",
+     "التضاعف غير المتناظر"
+    ],
+    [
+     "**Blastocyst**",
+     "الكيسة الأريمية / البلاستوسيست"
+    ],
+    [
+     "**Germ layers**",
+     "الطبقات الجرثومية / الوريقات الجنينية"
+    ],
+    [
+     "**Lineage potential**",
+     "القدرة السلالية"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
   }
  ],
  "questions": {
@@ -1460,7 +1981,7 @@
     "en": "Why do steroids weaken the scar?",
     "ar": "لماذا تُضعف الستيرويدات الندبة؟",
     "answer_en": "They inhibit TGF-β production and diminish fibrosis.",
-    "answer_ar": "لأنها تثبّط إنتاج `TGF-β` وتقلّل التليّف."
+    "answer_ar": "لأنها تثبّط إنتاج TGF-β وتقلّل التليّف."
    },
    {
     "en": "ES or adult stem cells — which is more limited?",
