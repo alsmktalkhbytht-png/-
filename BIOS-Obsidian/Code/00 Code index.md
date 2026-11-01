@@ -22,6 +22,7 @@
 - [[Code/bt - make2.py|bt/make2.py]] → bloodbank-lec2-donation-criteria
 - [[Code/bt - make3.py|bt/make3.py]] → bloodbank-lec3-services
 - [[Code/chr - l2.py|chr/l2.py]] → histopathology-lec2-chronic-inflammation
+- [[Code/elab3 - el3q.py|elab3/el3q.py]] → enzymology-lab3-alkaline-phosphatase
 - [[Code/enz3 - e3q.py|enz3/e3q.py]] → enzymology-lec3-michaelis-menten-questions
 - [[Code/enz4 - e4q.py|enz4/e4q.py]] → enzymology-lec4-bioenergetics
 - [[Code/eth - make.py|eth/make.py]] → ethics-lec1-morals
@@ -104,6 +105,7 @@
 - [[Code/bios_dbg.py|bios_dbg.py]]
 - [[Code/covers - make.py|covers/make.py]]
 - [[Code/covers - make2.py|covers/make2.py]]
+- [[Code/elab3 - el3.py|elab3/el3.py]]
 - [[Code/enz3 - e3.py|enz3/e3.py]]
 - [[Code/enz4 - e4.py|enz4/e4.py]]
 - [[Code/fill.py|fill.py]]
