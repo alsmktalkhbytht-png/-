@@ -1124,6 +1124,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `parasitology-week1-mcq` … `parasitology-week5-mcq` | طفيليات | بنوك أسئلة الأسابيع 1–5 — الحل تحت كل سؤال |
 | `parasitology-lab4-solutions` | طفيليات | عملي 4 |
 | `parasitology-lab4-nonpathogenic-amoebae` | طفيليات | عملي 4 — الأميبات غير الممرضة والنيغلرية (م.م. نريمان حسن، أسلوب جديد، ملف أسئلة منفصل) |
+| `parasitology-lab5-flagellates-giardia` | طفيليات | عملي 5 — السوطيات والجيارديا اللمبلية (م.م. نريمان حسن، أسلوب جديد، ملف أسئلة منفصل) |
 | `parasitology-week2-theory` | طفيليات | نظري الأسبوع 2 — بدون أسئلة |
 | `parasitology-week5-theory` | طفيليات | نظري الأسبوع 5 — أُعيد بالأسلوب الجديد (2026-10-31) + ملف أسئلة منفصل |
 | `parasitology-week4-theory` | طفيليات | نظري الأسبوع 4 — أُعيد بالأسلوب الجديد (2026-10-31) + ملف أسئلة منفصل |
