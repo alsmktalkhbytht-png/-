@@ -1135,6 +1135,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `enzymology-lab1-safety-tubes` | إنزيمات سريرية | عملي 1 |
 | `enzymology-lec1-introduction` | إنزيمات سريرية | نظري 1 |
 | `enzymology-lec2-kinetics-inhibition` | إنزيمات سريرية | نظري 2 |
+| `enzymology-lec3-michaelis-menten-questions` | إنزيمات سريرية | نظري 3 — أسئلة معادلة ميكالس-منتن (د. وليد مجيد، أسلوب جديد) |
 | `pathology-lec1-2-atelectasis` | علم الأمراض | 1+2 |
 | `pathology-lec3-chronic-bronchitis` | علم الأمراض | 3 |
 
