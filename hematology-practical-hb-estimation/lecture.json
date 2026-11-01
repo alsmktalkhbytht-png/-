@@ -247,7 +247,7 @@
    "list_ar": [
     "ماصّة الهيموغلوبين (سعة **0.02 مل أو 20 مايكرولتر**)",
     "أنبوب سالي المدرّج للهيموغلوبين",
-    "محرّك من قضيب زجاجي رفيع لأنبوب الهيموغلوبين",
+    "أداة تحريك من قضيب زجاجي رفيع لأنبوب الهيموغلوبين",
     "صندوق سالي المقارن مع **المعيار الزجاجي البنّي**"
    ]
   },
@@ -255,7 +255,7 @@
    "t": "figure",
    "src": "assets/sahli-apparatus.png",
    "en": "Sahli’s apparatus — labels: Stirrer: Thin glass rod. / hemoglobin pipette / Sahli’s graduated hemoglobin tube / Comparator with a brown glass standard",
-   "ar": "أدوات سالي — الكتابات: المحرّك: قضيب زجاجي رفيع / ماصّة الهيموغلوبين / أنبوب سالي المدرّج للهيموغلوبين / المقارن مع المعيار الزجاجي البنّي",
+   "ar": "أدوات سالي — الكتابات: أداة التحريك: قضيب زجاجي رفيع / ماصّة الهيموغلوبين / أنبوب سالي المدرّج للهيموغلوبين / المقارن مع المعيار الزجاجي البنّي",
    "h": "46mm",
    "fit": "contain"
   },
@@ -293,7 +293,7 @@
   {
    "t": "rule",
    "en": "Dispense the blood into N/10 hydrochloric acid taken in the hemoglobin tube, **rinse the pipette** with the same solution and mix properly with the help of stirrer.",
-   "ar": "أفرغ الدم في حامض الهيدروكلوريك N/10 الموجود في أنبوب الهيموغلوبين، و**اشطف الماصّة** بالمحلول نفسه، وامزج جيدًا بمساعدة المحرّك."
+   "ar": "أفرغ الدم في حامض الهيدروكلوريك N/10 الموجود في أنبوب الهيموغلوبين، و**اشطف الماصّة** بالمحلول نفسه، وامزج جيدًا بمساعدة أداة التحريك."
   },
   {
    "t": "rule",
@@ -303,7 +303,7 @@
   {
    "t": "rule",
    "en": "After the reaction completes, place the Hb tube in the column in Sahli’s Comparator box and start **diluting the dark brown coloured compound (Acid Hematin)** formed in the Hb tube using the **distilled water** by adding **drop by drop** of it into the solution and mix with the help of stirrer after each addition.",
-   "ar": "بعد اكتمال التفاعل ضع أنبوب الهيموغلوبين في العمود داخل صندوق سالي المقارن، وابدأ **بتخفيف المركّب البنّي الداكن (الهيماتين الحامضي)** المتكوّن في الأنبوب **بالماء المقطّر** بإضافته **قطرة قطرة** إلى المحلول والمزج بالمحرّك بعد كل إضافة."
+   "ar": "بعد اكتمال التفاعل ضع أنبوب الهيموغلوبين في العمود داخل صندوق سالي المقارن، وابدأ **بتخفيف المركّب البنّي الداكن (الهيماتين الحامضي)** المتكوّن في الأنبوب **بالماء المقطّر** بإضافته **قطرة قطرة** إلى المحلول والمزج بأداة التحريك بعد كل إضافة."
   },
   {
    "t": "rule",
@@ -313,7 +313,7 @@
   {
    "t": "rule",
    "en": "Once the color is matched with the standard brown glass, lift the stirrer up and note down the reading in Sahli’s Hb tube by taking the **lower meniscus** in consideration.",
-   "ar": "عندما يتطابق اللون مع المعيار الزجاجي البنّي، ارفع المحرّك وسجّل القراءة في أنبوب سالي مع أخذ **الحافّة السفلى للسطح الهلالي** بالحسبان."
+   "ar": "عندما يتطابق اللون مع المعيار الزجاجي البنّي، ارفع أداة التحريك وسجّل القراءة في أنبوب سالي مع أخذ **الحافّة السفلى للسطح الهلالي** بالحسبان."
   },
   {
    "t": "rule",
@@ -323,7 +323,7 @@
     "Note down that reading as the **final result**."
    ],
    "ar": [
-    "الآن أضف **قطرة إضافية واحدة** من الماء المقطّر وامزجها جيدًا بالمحرّك.",
+    "الآن أضف **قطرة إضافية واحدة** من الماء المقطّر وامزجها جيدًا بأداة التحريك.",
     "إذا بقي اللون مطابقًا للمعيار فأضف قطرة أخرى حتى يتطابق مع المعيار وسجّل القراءة، أمّا إذا **أصبح أفتح** بعد القطرة الإضافية الأولى فهذا يدلّ على أن **القراءة المأخوذة قبل التخفيف كانت صحيحة**.",
     "وسجّل تلك القراءة **نتيجةً نهائية**."
    ]
@@ -1406,7 +1406,7 @@
    },
    {
     "en": "The stirrer is lifted before taking the reading.",
-    "ar": "يُرفع المحرّك قبل أخذ القراءة.",
+    "ar": "تُرفع أداة التحريك قبل أخذ القراءة.",
     "answer": "T"
    },
    {
@@ -1460,7 +1460,7 @@
     "en": "Which meniscus?",
     "ar": "أي حافّة؟",
     "answer_en": "Read the lower meniscus, after lifting the stirrer.",
-    "answer_ar": "اقرأ الحافّة السفلى للسطح الهلالي بعد رفع المحرّك."
+    "answer_ar": "اقرأ الحافّة السفلى للسطح الهلالي بعد رفع أداة التحريك."
    },
    {
     "en": "Normal values — two labs",
@@ -1486,7 +1486,7 @@
     "en": "What is the principle of Sahli’s method and what apparatus is used?",
     "ar": "ما مبدأ طريقة سالي وما الأدوات المستعملة؟",
     "answer_en": "Hemoglobin is converted by 1/10 N HCl into brown acid hematin, which is measured colorimetrically by comparing with a standard. Apparatus: hemoglobin pipette (0.02 ml / 20 µl), Sahli’s graduated hemoglobin tube, thin glass rod stirrer, Sahli’s comparator box with brown glass standard.",
-    "answer_ar": "يتحوّل الهيموغلوبين بحامض HCl عياري 1/10 إلى هيماتين حامضي بنّي يُقاس لونيًا بمقارنته بمعيار. الأدوات: ماصّة الهيموغلوبين (0.02 مل / 20 مايكرولتر)، أنبوب سالي المدرّج، محرّك من قضيب زجاجي رفيع، صندوق سالي المقارن مع المعيار الزجاجي البنّي."
+    "answer_ar": "يتحوّل الهيموغلوبين بحامض HCl عياري 1/10 إلى هيماتين حامضي بنّي يُقاس لونيًا بمقارنته بمعيار. الأدوات: ماصّة الهيموغلوبين (0.02 مل / 20 مايكرولتر)، أنبوب سالي المدرّج، أداة تحريك من قضيب زجاجي رفيع، صندوق سالي المقارن مع المعيار الزجاجي البنّي."
    },
    {
     "en": "Describe the procedure of Sahli’s method.",
