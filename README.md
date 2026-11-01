@@ -33,6 +33,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `enzymology-lec1-introduction/` — Clinical Enzymology lecture 1: introduction, classification, properties, units, factors.
 - `enzymology-lec2-kinetics-inhibition/` — Clinical Enzymology lecture 2: Michaelis-Menten, Lineweaver-Burke, inhibition.
 - `enzymology-lec3-michaelis-menten-questions/` — Clinical Enzymology lecture 3: Michaelis-Menten equation — worked questions (د. وليد مجيد) — fourth stage, new style, separate question file; the two unsolved problems are solved as "BIOS solution" and the exercise plot is drawn by BIOS.
+- `enzymology-lec4-bioenergetics/` — Clinical Enzymology lecture 4: Enzyme Bioenergetics (د. وليد مجيد) — fourth stage, new style, separate question file.
 - `advtech-lec1-elisa/` — Advanced Techniques (التقنيات المتقدمة) lecture 1: ELISA — third stage (pink, questions inside).
 - `advtech-lec3-ria/` — Advanced Techniques lecture 3: Radioimmunoassay (RIA) — third stage.
 - `advtech-lec5-pcr/` — Advanced Techniques lecture 5: Polymerase Chain Reaction (د. مصطفى محمود مصطفى) — third stage, new style, questions inside (slides were pictures of text, transcribed).

@@ -1,0 +1,2569 @@
+{
+ "meta": {
+  "subject_en": "Clinical Enzymology",
+  "subject_ar": "الإنزيمات السريرية",
+  "short_ar": "انزيمات سريرية",
+  "instructor": "د. وليد مجيد",
+  "unit_en": "Lecture 4",
+  "unit_ar": "المحاضرة 4",
+  "unit_label": "LEC",
+  "unit_no": "4",
+  "title_en": "Enzyme Bioenergetics",
+  "title_ar": "الطاقة الحيوية للإنزيمات",
+  "department": "قسم التحليلات",
+  "stage": "The fourth stage — الرابعة",
+  "kind": "Theory — نظري"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "INTRODUCTION",
+   "ar": "مقدمة"
+  },
+  {
+   "t": "card",
+   "en": "**A. Metabolism:** Are the collective of different pathways can also intersect, forming an integrated and purposeful network of chemical reactions, which is represent the sum of all the chemical changes occurring in a cell, a tissue, or the body.",
+   "ar": "**أ. الأيض (Metabolism):** هو مجموع المسارات المختلفة التي يمكن أن تتقاطع أيضًا، مكوّنةً **شبكة متكاملة وهادفة من التفاعلات الكيميائية**، تمثّل **مجموع كل التغيّرات الكيميائية** التي تحدث في الخلية أو النسيج أو الجسم."
+  },
+  {
+   "t": "card",
+   "en": "**B. Pathways:** Are multistep sequences of enzymatic reaction occurs in the cells that the product of one reaction serves as the substrate of the subsequent reaction.",
+   "ar": "**ب. المسارات (Pathways):** هي **سلاسل متعدّدة الخطوات من التفاعلات الإنزيمية** تحدث في الخلايا، يكون فيها **ناتج التفاعل مادةً أساسًا للتفاعل الذي يليه**."
+  },
+  {
+   "t": "card",
+   "en": "Multi enzyme systems (metabolic pathways) cooperate to:",
+   "ar": "تتعاون الأنظمة متعدّدة الإنزيمات (المسارات الأيضية) من أجل:",
+   "list_en": [
+    "Obtain chemical energy.",
+    "Convert nutrient molecules into precursors of macromolecules.",
+    "Polymerize monomeric precursors into macromolecules.",
+    "Synthesize and degrade biomolecules required for specialized cellular functions, such as membrane lipids, intracellular messengers, and pigments."
+   ],
+   "list_ar": [
+    "الحصول على **الطاقة الكيميائية**.",
+    "تحويل جزيئات الغذاء إلى **سلائف للجزيئات الكبيرة**.",
+    "**بلمرة** السلائف الأحادية إلى جزيئات كبيرة.",
+    "بناء وهدم الجزيئات الحيوية اللازمة لوظائف خلوية متخصّصة، مثل دهون الأغشية والمراسيل داخل الخلية والصبغات."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**C. Metabolites:** The precursor is converted into a product through a series of metabolic intermediates.",
+   "ar": "**ج. المستقلبات (Metabolites):** تتحوّل السليفة إلى ناتج عبر سلسلة من **المركّبات الأيضية الوسطية**."
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Metabolism** = sum of all chemical changes; **pathway** = product of one step is the substrate of the next.",
+    "Pathways: get energy, make precursors, polymerize, build/break special biomolecules.",
+    "**Metabolites** = the intermediates between precursor and product."
+   ],
+   "ar": [
+    "**الأيض** = مجموع كل التغيّرات الكيميائية؛ **المسار** = ناتج خطوة هو مادة أساس للخطوة التالية.",
+    "المسارات: تحصيل الطاقة، صنع السلائف، البلمرة، بناء/هدم جزيئات خاصة.",
+    "**المستقلبات** = المركّبات الوسطية بين السليفة والناتج."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Metabolism Classification",
+   "ar": "تصنيف الأيض"
+  },
+  {
+   "t": "card",
+   "en": "**2. Metabolism Classification:** can be classified depending on the pathways as either:",
+   "ar": "**2. تصنيف الأيض:** يمكن تصنيفه حسب المسارات إلى:"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**A. Catabolism (degradative):** Catabolic reactions or pathways also are termed exergonic reactions, break down complex molecules, such as polysaccharides, lipids, and proteins, to a few simple molecules, for example, CO2, NH3 (ammonia), and water."
+   ],
+   "ar": [
+    "**أ. الهدم (Catabolism):** تسمّى تفاعلات أو مسارات الهدم أيضًا **التفاعلات الطاردة للطاقة (exergonic)**، وهي **تكسّر الجزيئات المعقّدة** مثل السكريات المتعدّدة والدهون والبروتينات إلى جزيئات بسيطة قليلة، مثل CO2 وNH3 (الأمونيا) والماء."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**B. Anabolism (synthetic):** Anabolic reactions or pathways also are termed endergonic reactions, forming complex end products from simple precursors, for example, the synthesis of the polysaccharide and glycogen, from glucose.",
+   "ar": "**ب. البناء (Anabolism):** تسمّى تفاعلات أو مسارات البناء أيضًا **التفاعلات الماصّة للطاقة (endergonic)**، وهي **تكوّن نواتج نهائية معقّدة من سلائف بسيطة**، مثل بناء السكر المتعدّد والغلايكوجين من الغلوكوز."
+  },
+  {
+   "t": "card",
+   "en": "**C. Amphibolic pathways,** which occur at the \"crossroads\" of metabolism, acting as links between the anabolic and catabolic pathways, eg, the citric acid cycle.",
+   "ar": "**ج. المسارات المزدوجة (Amphibolic):** تحدث عند **\"مفترق طرق\" الأيض**، وتعمل كروابط بين مسارات البناء والهدم، مثل **دورة حامض الستريك**."
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Type",
+     "النوع"
+    ],
+    [
+     "Energy",
+     "الطاقة"
+    ],
+    [
+     "Does",
+     "يقوم بـ"
+    ],
+    [
+     "Example",
+     "مثال"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Catabolism**",
+      "**الهدم**"
+     ],
+     [
+      "exergonic",
+      "طارد للطاقة"
+     ],
+     [
+      "complex → simple",
+      "معقّد ← بسيط"
+     ],
+     [
+      "CO2, NH3, water",
+      "CO2، NH3، ماء"
+     ]
+    ],
+    [
+     [
+      "**Anabolism**",
+      "**البناء**"
+     ],
+     [
+      "endergonic",
+      "ماصّ للطاقة"
+     ],
+     [
+      "simple → complex",
+      "بسيط ← معقّد"
+     ],
+     [
+      "glycogen from glucose",
+      "الغلايكوجين من الغلوكوز"
+     ]
+    ],
+    [
+     [
+      "**Amphibolic**",
+      "**المزدوج**"
+     ],
+     [
+      "link between both",
+      "رابط بين الاثنين"
+     ],
+     [
+      "crossroads of metabolism",
+      "مفترق طرق الأيض"
+     ],
+     [
+      "citric acid cycle",
+      "دورة حامض الستريك"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    20,
+    22,
+    28,
+    30
+   ],
+   "style": "summary",
+   "label_en": "Classification at a glance",
+   "label_ar": "التصنيف بنظرة"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Catabolism = **breaking down**, exergonic; anabolism = **building**, endergonic.",
+    "Amphibolic = **crossroads**, e.g. the **citric acid cycle**."
+   ],
+   "ar": [
+    "الهدم = **تكسير**، طارد للطاقة؛ البناء = **تركيب**، ماصّ للطاقة.",
+    "المزدوج = **مفترق الطرق**، مثل **دورة حامض الستريك**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Energy Generation",
+   "ar": "توليد الطاقة"
+  },
+  {
+   "t": "card",
+   "en": "**3. Energy Generation:** Energy generation in the form of ATP from degradation of complex molecules which occurs in three stages as shown in figure below:",
+   "ar": "**3. توليد الطاقة:** يتولّد **ATP** من تكسير الجزيئات المعقّدة، ويحدث ذلك في **ثلاث مراحل** كما في الشكل أدناه:"
+  },
+  {
+   "t": "figure",
+   "src": "assets/energy-stages.png",
+   "en": "The three stages of catabolism",
+   "ar": "مراحل الهدم الثلاث",
+   "h": "96mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Stage",
+     "المرحلة"
+    ],
+    [
+     "Text in the figure",
+     "النص في الشكل"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Stage I**",
+      "**المرحلة الأولى**"
+     ],
+     [
+      "The various kinds of proteins, polysaccharides, and fats are broken down into their component building blocks, which are relatively few in number.",
+      "تتكسّر الأنواع المختلفة من البروتينات والسكريات المتعدّدة والدهون إلى وحداتها البنائية، وهي قليلة العدد نسبيًا."
+     ]
+    ],
+    [
+     [
+      "**Stage II**",
+      "**المرحلة الثانية**"
+     ],
+     [
+      "The various building blocks are degraded into a common product, the acetyl groups of acetyl-CoA.",
+      "تتحلّل الوحدات البنائية المختلفة إلى ناتج مشترك هو مجاميع الأسيتيل في الأسيتيل-CoA."
+     ]
+    ],
+    [
+     [
+      "**Stage III**",
+      "**المرحلة الثالثة**"
+     ],
+     [
+      "Catabolism converges via the citric acid cycle to three principal end products: water, carbon dioxide, and ammonia.",
+      "يلتقي الهدم عبر دورة حامض الستريك في ثلاثة نواتج نهائية رئيسية: الماء وثاني أوكسيد الكاربون والأمونيا."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    20,
+    80
+   ],
+   "style": "summary",
+   "label_en": "Stages in the figure",
+   "label_ar": "مراحل الشكل"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Large biomolecules: Proteins, Polysaccharides, Lipids**",
+      "جزيئات حيوية كبيرة: بروتينات، سكريات متعدّدة، دهون"
+     ],
+     [
+      "**Building block molecules: Amino acids, Glucose (pentoses, hexoses), Glycerol, fatty acids**",
+      "وحدات بنائية: أحماض أمينية، غلوكوز (خماسية، سداسية)، غليسرول، أحماض دهنية"
+     ]
+    ],
+    [
+     [
+      "**Glycolysis → Glyceraldehyde 3-phosphate → Pyruvate**",
+      "تحلّل السكر ← غليسرألديهايد 3-فوسفات ← البايروفيت"
+     ],
+     [
+      "**Common degradation product: Acetyl-CoA**",
+      "الناتج المشترك للتحلّل: الأسيتيل-CoA"
+     ]
+    ],
+    [
+     [
+      "**Citric acid cycle → Oxidative phosphorylation**",
+      "دورة حامض الستريك ← الفسفرة التأكسدية"
+     ],
+     [
+      "**End products (simple, small end products of catabolism): NH3, H2O, CO2**",
+      "النواتج النهائية (نواتج هدم بسيطة صغيرة): NH3، H2O، CO2"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Stage I: big molecules → **building blocks**; stage II → **acetyl-CoA**; stage III: **citric acid cycle** → CO2, H2O, NH3 (+ ATP)."
+   ],
+   "ar": [
+    "المرحلة 1: الجزيئات الكبيرة ← **وحدات بنائية**؛ المرحلة 2 ← **الأسيتيل-CoA**؛ المرحلة 3: **دورة حامض الستريك** ← CO2 وH2O وNH3 (+ ATP)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "PRINCIPLES OF BIOENERGETICS",
+   "ar": "مبادئ الطاقة الحيوية"
+  },
+  {
+   "t": "card",
+   "en": "**1. Introduction:** Bioenergetics, or biochemical thermodynamics, is the study of the energy changes accompanying biochemical reactions.",
+   "ar": "**1. مقدمة:** **الطاقة الحيوية**، أو الديناميكا الحرارية الكيموحيوية، هي دراسة **تغيّرات الطاقة المرافقة للتفاعلات الكيموحيوية**."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Some non-biologic systems can use the heating energy to do the work.",
+    "Biologic systems are essentially iso-thermic and use chemical energy to power living processes.",
+    "Animal obtains suitable fuel (energy) from its food, so starvation cause death.",
+    "Malnutrition is associated with energy imbalance (marasmus)."
+   ],
+   "list_ar": [
+    "بعض الأنظمة غير الحيوية يمكنها استعمال **الطاقة الحرارية** لإنجاز الشغل.",
+    "الأنظمة الحيوية **متساوية الحرارة** أساسًا وتستعمل **الطاقة الكيميائية** لتشغيل العمليات الحيوية.",
+    "يحصل الحيوان على الوقود (الطاقة) المناسب من غذائه، لذا **فالتجويع يسبّب الموت**.",
+    "يرتبط **سوء التغذية** باختلال توازن الطاقة (**السَّغَل / الهزال: marasmus**)."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Thyroid hormones control the rate of energy release (metabolic rate), and disease results when they malfunction.",
+    "Excess storage of surplus energy causes obesity, one of the most common diseases of Western society.",
+    "Gibbs change in free energy (∆G) is that portion of the total energy change in a system that is available for doing work— ie, the useful energy, also known as the chemical potential."
+   ],
+   "list_ar": [
+    "**هرمونات الدرقية** تتحكّم في معدّل تحرّر الطاقة (**معدّل الأيض**)، ويحدث المرض عند خللها.",
+    "**الخزن الزائد** للطاقة الفائضة يسبّب **السمنة**، وهي من أشيع أمراض المجتمع الغربي.",
+    "**تغيّر جبس في الطاقة الحرّة (∆G)** هو ذلك الجزء من التغيّر الكلي للطاقة في النظام **المتاح لإنجاز الشغل** — أي الطاقة المفيدة، وتعرف أيضًا بـ**الجهد الكيميائي**."
+   ],
+   "start": 5
+  },
+  {
+   "t": "note",
+   "en": [
+    "Bioenergetics = study of **energy changes** in biochemical reactions; living systems are **isothermic** and use **chemical** energy.",
+    "Starvation → death; malnutrition → **marasmus**; thyroid → metabolic rate; excess storage → **obesity**.",
+    "**∆G** = the useful energy available for work (chemical potential)."
+   ],
+   "ar": [
+    "الطاقة الحيوية = دراسة **تغيّرات الطاقة** في التفاعلات الكيموحيوية؛ الأنظمة الحية **متساوية الحرارة** وتستعمل الطاقة **الكيميائية**.",
+    "التجويع ← الموت؛ سوء التغذية ← **الهزال**؛ الدرقية ← معدّل الأيض؛ الخزن الزائد ← **السمنة**.",
+    "**∆G** = الطاقة المفيدة المتاحة للشغل (الجهد الكيميائي)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Thermodynamic Laws",
+   "ar": "قوانين الديناميكا الحرارية"
+  },
+  {
+   "t": "card",
+   "en": "Biologic systems conform to the general laws of thermodynamics.",
+   "ar": "تخضع الأنظمة الحيوية للقوانين العامة للديناميكا الحرارية."
+  },
+  {
+   "t": "card",
+   "en": [
+    "**A. The first law of thermodynamics:** The total energy of a system, including its surroundings, remains constant.",
+    "That is mean; the energy is neither lost nor gained during any change."
+   ],
+   "ar": [
+    "**أ. القانون الأول للديناميكا الحرارية:** **الطاقة الكلية** للنظام مع محيطه **تبقى ثابتة**.",
+    "أي أن الطاقة **لا تُفقد ولا تُكتسب** خلال أي تغيّر."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**B. The second law of thermodynamics:** The total entropy of a system must increase if a process is to occur spontaneously.",
+   "ar": "**ب. القانون الثاني للديناميكا الحرارية:** يجب أن **تزداد الإنتروبيا الكلية** للنظام إذا كانت العملية ستحدث **تلقائيًا**."
+  },
+  {
+   "t": "card",
+   "en": "**Entropy:** is the extent of disorder or randomness of the system and becomes maximum as equilibrium is approached.",
+   "ar": "**الإنتروبيا (Entropy):** هي **درجة الفوضى أو العشوائية** في النظام، وتصل إلى **أقصاها عند الاقتراب من التوازن**."
+  },
+  {
+   "t": "h2",
+   "en": "Gibbs Equation",
+   "ar": "معادلة جبس"
+  },
+  {
+   "t": "card",
+   "en": "**3. Gibbs Equation:** The relationship between ∆G and the change in entropy ∆S is expressed by the following equation, which combines the two laws of thermodynamics:",
+   "ar": "**3. معادلة جبس:** يُعبَّر عن العلاقة بين ∆G والتغيّر في الإنتروبيا ∆S بالمعادلة الآتية، التي **تجمع قانوني الديناميكا الحرارية**:"
+  },
+  {
+   "t": "note",
+   "en": "The equation itself is missing in the file (blank space on the slide); the Gibbs equation is **∆G = ∆H − T∆S**.",
+   "ar": "المعادلة نفسها غير موجودة في الملف (مكانها فارغ)؛ ومعادلة جبس هي `∆G = ∆H − T∆S`.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Where ∆H is the change in enthalpy (heat content) and T is the absolute temperature (Co+273).",
+   "ar": "حيث **∆H** هو التغيّر في **الإنثالبي (المحتوى الحراري)**، و**T** هي **درجة الحرارة المطلقة** (°م + 273)."
+  },
+  {
+   "t": "card",
+   "en": "The direction of a chemical reaction proceed are determined by the degree to which two factors ΔH & ΔS change during the reaction.",
+   "ar": "يتحدّد **اتجاه سير التفاعل الكيميائي** بمقدار تغيّر العاملين **ΔH وΔS** خلال التفاعل."
+  },
+  {
+   "t": "card",
+   "en": "In biochemical reactions, because ∆H is approximately equal to ∆E, the total change in internal energy of the reaction, the above relationship may be expressed in the following way:",
+   "ar": "في **التفاعلات الكيموحيوية**، ولأن ∆H يساوي تقريبًا **∆E** (التغيّر الكلي في الطاقة الداخلية للتفاعل)، يمكن التعبير عن العلاقة السابقة بالشكل الآتي:"
+  },
+  {
+   "t": "card",
+   "en": "**∆G =∆E − T∆S**",
+   "ar": "**`∆G = ∆E − T∆S`**"
+  },
+  {
+   "t": "note",
+   "en": [
+    "1st law: total energy is **constant** (not lost, not gained); 2nd law: **entropy increases** in spontaneous processes.",
+    "Entropy = **disorder**, maximal at equilibrium.",
+    "Gibbs: **∆G = ∆H − T∆S**; in biochemistry **∆G = ∆E − T∆S** (∆H ≈ ∆E); T = °C + 273."
+   ],
+   "ar": [
+    "القانون الأول: الطاقة الكلية **ثابتة** (لا تُفقد ولا تُكتسب)؛ القانون الثاني: **الإنتروبيا تزداد** في العمليات التلقائية.",
+    "الإنتروبيا = **الفوضى**، وأقصاها عند التوازن.",
+    "جبس: `∆G = ∆H − T∆S`؛ وفي الكيمياء الحيوية `∆G = ∆E − T∆S` (`∆H ≈ ∆E`)؛ `T = °C + 273`."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Free Energy Change ( ΔG)",
+   "ar": "تغيّر الطاقة الحرّة ΔG"
+  },
+  {
+   "t": "card",
+   "en": "**A. Sign of ΔG predicts the direction of a reaction:** The change in free energy, ΔG, can be used to predict the direction of a reaction at constant temperature and pressure.",
+   "ar": "**أ. إشارة ΔG تتنبّأ باتجاه التفاعل:** يمكن استعمال التغيّر في الطاقة الحرّة ΔG للتنبّؤ **باتجاه التفاعل** عند ثبات درجة الحرارة والضغط."
+  },
+  {
+   "t": "card",
+   "en": "Consider the reaction: **A ⇌ B**",
+   "ar": "لنأخذ التفاعل: **`A ⇌ B`**"
+  },
+  {
+   "t": "figure",
+   "src": "assets/dg-panels.png",
+   "en": "Free energy during a reaction: (A) ΔG is negative, (B) ΔG is positive, (C) ΔG is zero",
+   "ar": "الطاقة الحرّة أثناء التفاعل: (A) ΔG سالبة، (B) ΔG موجبة، (C) ΔG صفر",
+   "h": "50mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Reactant / Product**",
+      "المادة المتفاعلة / الناتج"
+     ],
+     [
+      "**Transition state**",
+      "الحالة الانتقالية"
+     ]
+    ],
+    [
+     [
+      "**Initial state / Final state**",
+      "الحالة الابتدائية / الحالة النهائية"
+     ],
+     [
+      "**Change in free energy of reaction**",
+      "تغيّر الطاقة الحرّة للتفاعل"
+     ]
+    ],
+    [
+     [
+      "**Free energy (G)**",
+      "الطاقة الحرّة (G)"
+     ],
+     [
+      "**Progress of reaction**",
+      "تقدّم التفاعل"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "card",
+   "en": "**1. Negative ΔG:**",
+   "ar": "**1. ΔG سالبة:**",
+   "list_en": [
+    [
+     "If ΔG is a negative number, there is a net loss of energy, and the reaction goes spontaneously as written—that is, A is converted into B.",
+     "The reaction is said to be exergonic."
+    ]
+   ],
+   "list_ar": [
+    [
+     "إذا كانت ΔG **سالبة** فهناك **فقدان صافٍ للطاقة**، ويسير التفاعل **تلقائيًا** كما هو مكتوب — أي تتحوّل A إلى B.",
+     "ويقال إن التفاعل **طارد للطاقة (exergonic)**."
+    ]
+   ],
+   "alpha": true
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "In addition, if ∆G is of great magnitude, the reaction goes virtually to completion and is essentially irreversible."
+   ],
+   "list_ar": [
+    "وإذا كانت ∆G **كبيرة المقدار**، يسير التفاعل **إلى الاكتمال تقريبًا** ويكون **غير عكوس** أساسًا."
+   ],
+   "alpha": true,
+   "start": 2
+  },
+  {
+   "t": "card",
+   "en": "**2. Positive ΔG:**",
+   "ar": "**2. ΔG موجبة:**",
+   "list_en": [
+    [
+     "If ΔG is a positive number, there is a net gain of energy, and the reaction does not go spontaneously from B to A.",
+     "The reaction is said to be endergonic, and energy must be added to the system to make the reaction go from B to A."
+    ]
+   ],
+   "list_ar": [
+    [
+     "إذا كانت ΔG **موجبة** فهناك **اكتساب صافٍ للطاقة**، و**لا يسير التفاعل تلقائيًا** من B إلى A.",
+     "ويقال إن التفاعل **ماصّ للطاقة (endergonic)**، ويجب **إضافة طاقة** للنظام ليسير التفاعل من B إلى A."
+    ]
+   ],
+   "alpha": true
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "In addition, if the magnitude of ∆G is great, the system is stable, with little or no tendency for a reaction to occur."
+   ],
+   "list_ar": [
+    "وإذا كان مقدار ∆G **كبيرًا**، يكون النظام **مستقرًا** مع ميل قليل أو معدوم لحدوث التفاعل."
+   ],
+   "alpha": true,
+   "start": 2
+  },
+  {
+   "t": "card",
+   "en": "**3. ΔG is zero:** If ∆G is zero, the system is at equilibrium and no net change takes place.",
+   "ar": "**3. ΔG صفر:** إذا كانت ∆G صفرًا يكون النظام **في حالة توازن** ولا يحدث **تغيّر صافٍ**."
+  },
+  {
+   "t": "card",
+   "en": "**In a biochemical system,** an enzyme only speeds up the attainment of equilibrium; it never alters the final concentrations of the reactants at equilibrium.",
+   "ar": "**في النظام الكيموحيوي** يقتصر دور الإنزيم على **تسريع الوصول إلى التوازن**؛ و**لا يغيّر أبدًا التراكيز النهائية** للمواد المتفاعلة عند التوازن."
+  },
+  {
+   "t": "figure",
+   "src": "assets/activation-barrier.png",
+   "en": "Activation barrier: the enzyme lowers ΔG‡ (cat) compared with ΔG‡ (uncat), but ΔG of the reaction stays the same",
+   "ar": "حاجز التنشيط: الإنزيم يخفض ΔG‡ (المحفَّز) مقارنةً بـ ΔG‡ (غير المحفَّز)، لكن ΔG للتفاعل تبقى نفسها",
+   "h": "74mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Activation barrier (transition state, ‡)**",
+      "حاجز التنشيط (الحالة الانتقالية ‡)"
+     ],
+     [
+      "**Reactants (A) / Products (B)**",
+      "المتفاعلات (A) / النواتج (B)"
+     ]
+    ],
+    [
+     [
+      "**ΔG‡cat / ΔG‡uncat**",
+      "طاقة التنشيط المحفَّزة / غير المحفَّزة"
+     ],
+     [
+      "**Reaction coordinate (A → B)**",
+      "إحداثي التفاعل (`A → B`)"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "ΔG",
+     "ΔG"
+    ],
+    [
+     "Energy",
+     "الطاقة"
+    ],
+    [
+     "Reaction",
+     "التفاعل"
+    ],
+    [
+     "Name",
+     "الاسم"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Negative**",
+      "**سالبة**"
+     ],
+     [
+      "net loss",
+      "فقدان صافٍ"
+     ],
+     [
+      "spontaneous A → B; large ∆G → irreversible",
+      "تلقائي `A → B`؛ ∆G كبيرة ← غير عكوس"
+     ],
+     [
+      "exergonic",
+      "طارد للطاقة"
+     ]
+    ],
+    [
+     [
+      "**Positive**",
+      "**موجبة**"
+     ],
+     [
+      "net gain",
+      "اكتساب صافٍ"
+     ],
+     [
+      "not spontaneous; energy must be added",
+      "غير تلقائي؛ يلزم إضافة طاقة"
+     ],
+     [
+      "endergonic",
+      "ماصّ للطاقة"
+     ]
+    ],
+    [
+     [
+      "**Zero**",
+      "**صفر**"
+     ],
+     [
+      "—",
+      "—"
+     ],
+     [
+      "equilibrium, no net change",
+      "توازن، لا تغيّر صافٍ"
+     ],
+     [
+      "equilibrium",
+      "توازن"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    16,
+    18,
+    44,
+    22
+   ],
+   "style": "summary",
+   "label_en": "Sign of ΔG",
+   "label_ar": "إشارة ΔG"
+  },
+  {
+   "t": "note",
+   "en": [
+    "**−ΔG** → spontaneous, **exergonic**; **+ΔG** → not spontaneous, **endergonic**; **ΔG = 0** → equilibrium.",
+    "An enzyme **speeds up reaching equilibrium** but **never changes** the final equilibrium concentrations (it lowers the activation barrier, not ΔG)."
+   ],
+   "ar": [
+    "**ΔG سالبة** ← تلقائي، **طارد للطاقة**؛ **موجبة** ← غير تلقائي، **ماصّ للطاقة**؛ **صفر** ← توازن.",
+    "الإنزيم **يسرّع الوصول للتوازن** لكنه **لا يغيّر** تراكيز التوازن النهائية (يخفض حاجز التنشيط لا ΔG)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Energy Coupling Links Reactions in Biology",
+   "ar": "اقتران الطاقة يربط التفاعلات الحيوية"
+  },
+  {
+   "t": "card",
+   "en": "**A. Endergonic processes proceed by coupling to exergonic processes:**",
+   "ar": "**أ. العمليات الماصّة للطاقة تسير باقترانها بالعمليات الطاردة للطاقة:**",
+   "list_en": [
+    "The vital processes obtain energy by chemical linkage, or coupling, to oxidative reactions.",
+    "This type of coupling may be represented as shown in figure below."
+   ],
+   "list_ar": [
+    "تحصل العمليات الحيوية على الطاقة **بالارتباط الكيميائي أو الاقتران** مع **تفاعلات الأكسدة**.",
+    "ويمكن تمثيل هذا النوع من الاقتران كما في الشكل أدناه."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/coupling.png",
+   "en": "Coupling of an exergonic reaction (A → B) to an endergonic reaction (C → D): A + C → B + D + Heat",
+   "ar": "اقتران تفاعل طارد للطاقة (`A → B`) بتفاعل ماصّ للطاقة (`C → D`): `A + C → B + D + Heat`",
+   "h": "66mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Exergonic / Endergonic**",
+      "طارد للطاقة / ماصّ للطاقة"
+     ],
+     [
+      "**Heat**",
+      "حرارة"
+     ]
+    ],
+    [
+     [
+      "**Chemical energy**",
+      "طاقة كيميائية"
+     ],
+     [
+      "**Free energy**",
+      "الطاقة الحرّة"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    [
+     "The conversion of metabolite A to metabolite B occurs with release of free energy.",
+     "It is coupled to another reaction, in which free energy is required to convert metabolite C to metabolite D."
+    ],
+    "The terms exergonic and endergonic rather than the normal chemical terms “exothermic” and “endothermic” are used to indicate that a process is accompanied by loss or gain, respectively, of free energy in any form, not necessarily as heat."
+   ],
+   "list_ar": [
+    [
+     "يحدث تحويل المستقلب A إلى المستقلب B مع **تحرّر طاقة حرّة**.",
+     "ويقترن بتفاعل آخر **تلزمه طاقة حرّة** لتحويل المستقلب C إلى المستقلب D."
+    ],
+    "يُستعمل مصطلحا **exergonic وendergonic** بدل المصطلحين الكيميائيين المعتادين “**exothermic**” و“**endothermic**” للدلالة على أن العملية يرافقها **فقدان أو اكتساب للطاقة الحرّة بأي شكل**، وليس بالضرورة على شكل حرارة."
+   ],
+   "start": 3
+  },
+  {
+   "t": "card",
+   "en": [
+    "**B. The coupled exergonic-endergonic system where the overall net change is exergonic:** If the reaction shown in Figure above is to go from left to right, then the overall process must be accompanied by loss of free energy as heat."
+   ],
+   "ar": [
+    "**ب. النظام المقترن الطارد-الماصّ الذي يكون صافي تغيّره الكلي طاردًا للطاقة:** إذا كان التفاعل في الشكل أعلاه سيسير من اليسار إلى اليمين، فيجب أن ترافق العملية الكلية **خسارة طاقة حرّة على شكل حرارة**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "C. Coupling biologic system mechanisms:",
+   "ar": "ج. آليات الاقتران في الأنظمة الحيوية:"
+  },
+  {
+   "t": "card",
+   "en": "**1. Common obligatory intermediate (I):** One possible mechanism of coupling biologic systems could be envisaged if a common obligatory intermediate (I) took part in both reactions, ie, **A + C → I → B + D**",
+   "ar": "**1. المركّب الوسطي الإلزامي المشترك (I):** يمكن تصوّر آلية لاقتران الأنظمة الحيوية إذا اشترك **مركّب وسطي إلزامي مشترك (I)** في التفاعلين، أي: **`A + C → I → B + D`**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "This type of system used for biologic control on the rate of oxidative processes since (I) allows the rate of production (D) to determine by mass action the rate at which A is oxidized.",
+    "These relationships supply a basis for the concept of respiratory control, the process that prevents an organism from burning out of control.",
+    "**For example:** dehydrogenation reactions, which are coupled to hydrogenations by an intermediate carrier."
+   ],
+   "list_ar": [
+    "يُستعمل هذا النظام **للتحكّم الحيوي بسرعة عمليات الأكسدة**، لأن (I) يسمح لمعدّل إنتاج (D) بأن يحدّد بفعل الكتلة المعدّل الذي تتأكسد به A.",
+    "وتوفّر هذه العلاقات أساسًا لمفهوم **التحكّم التنفّسي**، وهي العملية التي **تمنع الكائن من الاحتراق خارج السيطرة**.",
+    "**مثال:** تفاعلات **نزع الهيدروجين** التي تقترن بتفاعلات **الهدرجة** بواسطة **ناقل وسطي**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/carrier.png",
+   "en": "Dehydrogenation coupled to hydrogenation by an intermediate carrier — AH2 → A, Carrier ⇄ Carrier-H2, B → BH2",
+   "ar": "نزع الهيدروجين مقترنًا بالهدرجة بواسطة ناقل وسطي — `AH2 → A`، `Carrier ⇄ Carrier-H2`، `B → BH2`",
+   "h": "28mm",
+   "fit": "contain"
+  },
+  {
+   "t": "card",
+   "en": "**2. Synthesize and incorporate of high-energy compounds:** An alternative method of coupling process is to synthesize a compound of high-energy potential in the exergonic reaction and to incorporate this new compound into the endergonic reaction.",
+   "ar": "**2. بناء المركّبات عالية الطاقة وإدخالها:** طريقة بديلة للاقتران هي **بناء مركّب عالي الطاقة في التفاعل الطارد للطاقة**، ثم **إدخال هذا المركّب الجديد في التفاعل الماصّ للطاقة**."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The biologic advantage of this mechanism is that the compound of high potential energy, ∼ E , unlike I in the previous system, need not be structurally related to A, B, C, or D, allowing ∼E to serve as a transducer of energy from a wide range of exergonic reactions to an equally wide range of endergonic reactions or processes."
+   ],
+   "list_ar": [
+    "الميزة الحيوية لهذه الآلية أن المركّب عالي الطاقة **∼E**، بخلاف I في النظام السابق، **لا يلزم أن يرتبط تركيبيًا** بـ A أو B أو C أو D، مما يسمح لـ ∼E بأن يكون **ناقلًا للطاقة** من طيف واسع من التفاعلات الطاردة للطاقة إلى طيف واسع مماثل من التفاعلات أو العمليات الماصّة للطاقة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Such as biosyntheses, muscular contraction, nervous excitation, and active transport.",
+    "**In the living cell,** the principal high-energy intermediate or carrier compound (designated ∼ E in figure above) is adenosine triphosphate (ATP)."
+   ],
+   "list_ar": [
+    "مثل **البناء الحيوي، وتقلّص العضلات، والتهيّج العصبي، والنقل الفعّال**.",
+    "**في الخلية الحية** يكون المركّب الوسطي أو الناقل الرئيسي عالي الطاقة (المشار إليه بـ ∼E في الشكل أعلاه) هو **الأدينوسين ثلاثي الفوسفات (ATP)**."
+   ],
+   "start": 2
+  },
+  {
+   "t": "note",
+   "en": "The figure with “∼E” mentioned in the text is not in the file.",
+   "ar": "الشكل الذي فيه “∼E” والمذكور في النص غير موجود في الملف.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Example:** the phosphorylation of glucose to glucose 6 phosphate, the first reaction of glycolysis, is highly endergonic and cannot proceed under physiologic conditions.",
+   "ar": "**مثال:** **فسفرة الغلوكوز** إلى غلوكوز 6-فوسفات، وهو **أول تفاعل في تحلّل السكر**، تفاعل **ماصّ للطاقة بشدّة** ولا يمكن أن يسير في الظروف الفسيولوجية."
+  },
+  {
+   "t": "card",
+   "en": "**(1)** Glucose + Pi → Glucose 6-phosphate+H2O (∆G0′ = +13.8 kJ / mol)",
+   "ar": "**(1)** `Glucose + Pi → Glucose 6-phosphate + H2O (∆G0′ = +13.8 kJ/mol)`"
+  },
+  {
+   "t": "card",
+   "en": "To take place, the reaction must be coupled with another—more exergonic—reaction such as the hydrolysis of the terminal phosphate of ATP.",
+   "ar": "ولكي يحدث، يجب أن يقترن التفاعل بتفاعل آخر **أكثر طردًا للطاقة** مثل **تحلّل الفوسفات الطرفي لـ ATP**."
+  },
+  {
+   "t": "card",
+   "en": "**(2)** ATP → ADP + Pi (∆G0′ =−30.5 kJ/mol)",
+   "ar": "**(2)** `ATP → ADP + Pi (∆G0′ = −30.5 kJ/mol)`"
+  },
+  {
+   "t": "card",
+   "en": "When (1) and (2) are coupled in a reaction catalyzed by hexokinase, phosphorylation of glucose readily proceeds in a highly exergonic reaction that under physiologic conditions is irreversible.",
+   "ar": "عندما يقترن (1) و(2) في تفاعل يحفّزه **الهكسوكاينيز**، تسير فسفرة الغلوكوز بسهولة في تفاعل **طارد للطاقة بشدّة** يكون **غير عكوس** في الظروف الفسيولوجية."
+  },
+  {
+   "t": "note",
+   "en": "Net ∆G0′ of the coupled reaction = +13.8 + (−30.5) = **−16.7 kJ/mol** (negative → it goes).",
+   "ar": "صافي ∆G0′ للتفاعل المقترن: `+13.8 + (−30.5) = −16.7 kJ/mol` (سالبة ← يسير التفاعل).",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Endergonic reactions run by **coupling** to exergonic ones; overall must be exergonic (heat is lost).",
+    "Mechanism 1: **common intermediate (I)** → basis of **respiratory control**; e.g. dehydrogenation + hydrogenation via a carrier.",
+    "Mechanism 2: **high-energy compound ∼E = ATP**, not related to the reactants → a universal energy transducer.",
+    "Glucose → G6P (+13.8) + ATP hydrolysis (−30.5) by **hexokinase** → irreversible."
+   ],
+   "ar": [
+    "التفاعلات الماصّة للطاقة تسير **بالاقتران** بالطاردة؛ ويجب أن يكون المجموع طاردًا (تُفقد حرارة).",
+    "الآلية 1: **مركّب وسطي مشترك (I)** ← أساس **التحكّم التنفّسي**؛ مثل نزع الهيدروجين + الهدرجة عبر ناقل.",
+    "الآلية 2: **مركّب عالي الطاقة ∼E = ATP**، غير مرتبط بالمتفاعلات ← ناقل طاقة عام.",
+    "الغلوكوز ← غلوكوز 6-فوسفات (`+13.8`) مع تحلّل ATP (`−30.5`) بواسطة **الهكسوكاينيز** ← غير عكوس."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "High-Energy Phosphates",
+   "ar": "الفوسفات عالية الطاقة"
+  },
+  {
+   "t": "card",
+   "en": "**8. High-Energy Phosphates Play a Central Role in Energy Capture and Transfer:**",
+   "ar": "**8. الفوسفات عالية الطاقة تؤدّي دورًا مركزيًا في التقاط الطاقة ونقلها:**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Autotrophic organisms:** organisms utilize simple exergonic processes; eg, the energy of sunlight (green plants), the reaction Fe2+ → Fe3+ (some bacteria).",
+    "**Heterotrophic organisms:** organisms obtain free energy by coupling their metabolism to the breakdown of complex organic molecules in their environment."
+   ],
+   "list_ar": [
+    "**الكائنات ذاتية التغذية:** تستعمل عمليات طاردة للطاقة بسيطة؛ مثل **طاقة ضوء الشمس** (النباتات الخضراء)، والتفاعل `Fe²⁺ → Fe³⁺` (بعض البكتيريا).",
+    "**الكائنات غيرية التغذية:** تحصل على الطاقة الحرّة **باقتران أيضها بتكسير الجزيئات العضوية المعقّدة** في بيئتها."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "A. Adenosine triphosphate (ATP):",
+   "ar": "أ. الأدينوسين ثلاثي الفوسفات (ATP):"
+  },
+  {
+   "t": "card",
+   "en": "**1. The central role of ATP:**",
+   "ar": "**1. الدور المركزي لـ ATP:**",
+   "list_en": [
+    "Cells need energy for their biological actions.",
+    [
+     "The energy is obtains either from the sun (photosynthesis) or nutrient molecules oxidation.",
+     "Some of these energy was converted to ATP and can be used when needed energy."
+    ],
+    "The standard free energy of hydrolysis of a number of biochemically important phosphates is shown in table below;"
+   ],
+   "list_ar": [
+    "تحتاج الخلايا إلى الطاقة لأفعالها الحيوية.",
+    [
+     "تُستمدّ الطاقة إمّا من **الشمس (البناء الضوئي)** أو من **أكسدة جزيئات الغذاء**.",
+     "ويتحوّل جزء من هذه الطاقة إلى **ATP** يمكن استعماله عند الحاجة."
+    ],
+    "الطاقة الحرّة القياسية لتحلّل عدد من الفوسفات المهمة كيموحيويًا مبيّنة في الجدول أدناه؛"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Compound",
+     "المركّب"
+    ],
+    [
+     "ΔG0′ kJ/mol",
+     "kJ/mol"
+    ],
+    [
+     "ΔG0′ kcal/mol",
+     "kcal/mol"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Phosphoenolpyruvate",
+      "فوسفو إينول بايروفيت"
+     ],
+     "−61.9",
+     "−14.8"
+    ],
+    [
+     [
+      "Carbamoyl phosphate",
+      "كاربامويل فوسفات"
+     ],
+     "−51.4",
+     "−12.3"
+    ],
+    [
+     [
+      "1,3-Bisphosphoglycerate (to 3-phosphoglycerate)",
+      "1،3-ثنائي فوسفوغليسيرات (إلى 3-فوسفوغليسيرات)"
+     ],
+     "−49.3",
+     "−11.8"
+    ],
+    [
+     [
+      "Creatine phosphate",
+      "كرياتين فوسفات"
+     ],
+     "−43.1",
+     "−10.3"
+    ],
+    [
+     [
+      "**ATP → ADP + Pi**",
+      "**ATP → ADP + Pi**"
+     ],
+     "**−30.5**",
+     "**−7.3**"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    56,
+    22,
+    22
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Compound",
+     "المركّب"
+    ],
+    [
+     "ΔG0′ kJ/mol",
+     "kJ/mol"
+    ],
+    [
+     "ΔG0′ kcal/mol",
+     "kcal/mol"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "ADP → AMP + Pi",
+      "ADP → AMP + Pi"
+     ],
+     "−27.6",
+     "−6.6"
+    ],
+    [
+     [
+      "Pyrophosphate",
+      "البايروفوسفات"
+     ],
+     "−27.6",
+     "−6.6"
+    ],
+    [
+     [
+      "Glucose 1-phosphate",
+      "غلوكوز 1-فوسفات"
+     ],
+     "−20.9",
+     "−5.0"
+    ],
+    [
+     [
+      "Fructose 6-phosphate",
+      "فركتوز 6-فوسفات"
+     ],
+     "−15.9",
+     "−3.8"
+    ],
+    [
+     [
+      "AMP",
+      "AMP"
+     ],
+     "−14.2",
+     "−3.4"
+    ],
+    [
+     [
+      "Glucose 6-phosphate",
+      "غلوكوز 6-فوسفات"
+     ],
+     "−13.8",
+     "−3.3"
+    ],
+    [
+     [
+      "Glycerol 3-phosphate",
+      "غليسرول 3-فوسفات"
+     ],
+     "−9.2",
+     "−2.2"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    56,
+    22,
+    22
+   ]
+  },
+  {
+   "t": "card",
+   "en": "The intermediate position of ATP allows it to play an important role in energy transfer.",
+   "ar": "يتيح **الموقع الوسطي لـ ATP** في الجدول أن يؤدّي دورًا مهمًا في **نقل الطاقة**."
+  },
+  {
+   "t": "card",
+   "en": [
+    "**2. Composition:** ATP is a nucleoside triphosphate containing adenine, ribose, and three phosphate groups.",
+    "In its reactions in the cell, it functions as the Mg²⁺ complex."
+   ],
+   "ar": [
+    "**2. التركيب:** ATP **نيوكليوسيد ثلاثي الفوسفات** يحتوي **الأدينين والرايبوز وثلاث مجاميع فوسفات**.",
+    "وفي تفاعلاته داخل الخلية يعمل على شكل **معقّد مع Mg²⁺**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/atp-structure.png",
+   "en": "ATP as the Mg²⁺ complex — MgATP²⁻ (Rib = ribose)",
+   "ar": "ATP على شكل معقّد مع Mg²⁺ — MgATP²⁻ (Rib = الرايبوز)",
+   "h": "26mm",
+   "fit": "contain"
+  },
+  {
+   "t": "card",
+   "en": "**3. The high free energy of ATP:** The high free energy change on hydrolysis of ATP is due to relief of charge repulsion of adjacent negatively charged oxygen atoms and to stabilization of the reaction products, especially phosphate, as resonance hybrids.",
+   "ar": "**3. الطاقة الحرّة العالية لـ ATP:** يعود التغيّر العالي في الطاقة الحرّة عند تحلّل ATP إلى **زوال تنافر الشحنات** بين ذرّات الأوكسجين المتجاورة السالبة الشحنة، وإلى **استقرار نواتج التفاعل**، خاصةً الفوسفات، **كهجائن رنينية**."
+  },
+  {
+   "t": "card",
+   "en": "**4. ATP/ADP cycle:** ATP is able to act as a donor of high-energy phosphate to form those compounds below it in table above.",
+   "ar": "**4. دورة ATP/ADP:** يستطيع ATP أن يكون **مانحًا للفوسفات عالية الطاقة** لتكوين المركّبات **التي تحته** في الجدول أعلاه."
+  },
+  {
+   "t": "card",
+   "en": [
+    "Likewise, with the necessary enzymes, ADP can accept high-energy phosphate to form ATP from those compounds above ATP in the table above.",
+    "The ATP/ADP cycle can be shown according to the following scheme."
+   ],
+   "ar": [
+    "وبالمثل، ومع وجود الإنزيمات اللازمة، يستطيع ADP **استقبال الفوسفات عالية الطاقة** لتكوين ATP من المركّبات **التي فوق ATP** في الجدول.",
+    "ويمكن تمثيل دورة ATP/ADP بالمخطط الآتي."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/atp-adp-cycle.png",
+   "en": "The ATP/ADP cycle",
+   "ar": "دورة ATP/ADP",
+   "h": "26mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**nutrient molecules oxidation or photosynthesis**",
+      "أكسدة جزيئات الغذاء أو البناء الضوئي"
+     ],
+     [
+      "**ADP + Pi → ATP**",
+      "`ADP + Pi → ATP`"
+     ]
+    ],
+    [
+     [
+      "**Synthesis (Chemical work)**",
+      "البناء (شغل كيميائي)"
+     ],
+     [
+      "**Active transport (Osmotic work)**",
+      "النقل الفعّال (شغل أوزموزي)"
+     ]
+    ],
+    [
+     [
+      "**Muscle contract (Mechanical work)**",
+      "تقلّص العضلة (شغل ميكانيكي)"
+     ],
+     [
+      "",
+      ""
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "card",
+   "en": "This occurs at a very rapid rate, since the total ATP/ADP pool is extremely small and sufficient to maintain an active tissue for only a few seconds.",
+   "ar": "يحدث ذلك **بسرعة كبيرة جدًا**، لأن مخزون ATP/ADP الكلي **صغير جدًا** ويكفي لإدامة نسيج نشط **لبضع ثوانٍ فقط**."
+  },
+  {
+   "t": "card",
+   "en": "**5. Phosphate cycles and interchange of adenine nucleotides:**",
+   "ar": "**5. دورات الفوسفات وتبادل نيوكليوتيدات الأدينين:**"
+  },
+  {
+   "t": "figure",
+   "src": "assets/phosphate-cycles.png",
+   "en": "Phosphate cycles and interchange of adenine nucleotides",
+   "ar": "دورات الفوسفات وتبادل نيوكليوتيدات الأدينين",
+   "h": "62mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Inorganic pyrophosphatase: PPi → 2Pi**",
+      "البايروفوسفاتيز غير العضوي: `PPi → 2Pi`"
+     ],
+     [
+      "**Acyl-CoA synthetase, etc: ATP → AMP + PPi**",
+      "أسيل-CoA سنثيتيز وغيره: `ATP → AMP + PPi`"
+     ]
+    ],
+    [
+     [
+      "**Adenylyl kinase: AMP + ATP ⇄ 2 ADP (x2)**",
+      "أدينيليل كاينيز: `AMP + ATP ⇄ 2 ADP`"
+     ],
+     [
+      "**ATP, ADP, AMP, Pi, PPi**",
+      "ATP، ADP، AMP، فوسفات، بايروفوسفات"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Autotrophs** use simple exergonic processes (sunlight, Fe²⁺ → Fe³⁺); **heterotrophs** break down complex organic molecules.",
+    "ATP hydrolysis **−30.5 kJ/mol (−7.3 kcal)** — an **intermediate** position: donates phosphate to compounds below it, receives from those above (e.g. PEP −61.9, creatine phosphate −43.1)."
+   ],
+   "ar": [
+    "**ذاتية التغذية** تستعمل عمليات طاردة بسيطة (الشمس، `Fe²⁺ → Fe³⁺`)؛ و**غيرية التغذية** تكسّر الجزيئات العضوية المعقّدة.",
+    "تحلّل ATP **−30.5 kJ/mol (−7.3 kcal)** — **موقع وسطي**: يمنح الفوسفات لما تحته ويستقبل ممّا فوقه (مثل PEP −61.9 وكرياتين فوسفات −43.1)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "ATP = **adenine + ribose + 3 phosphates**, works as **Mg²⁺ complex**; high energy from **charge repulsion relief + resonance** of products.",
+    "ATP/ADP pool is tiny — lasts **only a few seconds** → turned over very fast."
+   ],
+   "ar": [
+    "ATP = **أدينين + رايبوز + 3 فوسفات**، يعمل **كمعقّد مع Mg²⁺**؛ طاقته العالية من **زوال تنافر الشحنات + رنين** النواتج.",
+    "مخزون ATP/ADP صغير — يكفي **لثوانٍ فقط** ← يتجدّد بسرعة كبيرة."
+   ],
+   "label": [
+    "In short (cont.)",
+    "باختصار (تكملة)"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Metabolism**",
+     "الأيض / الاستقلاب"
+    ],
+    [
+     "**Metabolic pathway**",
+     "المسار الأيضي"
+    ],
+    [
+     "**Metabolites**",
+     "المستقلبات / نواتج الأيض الوسطية"
+    ],
+    [
+     "**Catabolism**",
+     "الهدم / التقويض"
+    ],
+    [
+     "**Anabolism**",
+     "البناء / الابتناء"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Amphibolic pathway**",
+     "المسار المزدوج / المسار البرمائي"
+    ],
+    [
+     "**Exergonic**",
+     "طارد للطاقة / مُطلِق للطاقة الحرّة"
+    ],
+    [
+     "**Endergonic**",
+     "ماصّ للطاقة / مستهلك للطاقة الحرّة"
+    ],
+    [
+     "**Bioenergetics**",
+     "الطاقة الحيوية / الديناميكا الحرارية الكيموحيوية"
+    ],
+    [
+     "**Free energy (∆G)**",
+     "الطاقة الحرّة / طاقة جبس الحرّة"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Entropy (∆S)**",
+     "الإنتروبيا / العشوائية / الفوضى"
+    ],
+    [
+     "**Enthalpy (∆H)**",
+     "الإنثالبي / المحتوى الحراري"
+    ],
+    [
+     "**Equilibrium**",
+     "التوازن / الاتزان"
+    ],
+    [
+     "**Spontaneous**",
+     "تلقائي"
+    ],
+    [
+     "**Irreversible**",
+     "غير عكوس / لا رجعي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Energy coupling**",
+     "اقتران الطاقة / ربط الطاقة"
+    ],
+    [
+     "**Obligatory intermediate**",
+     "مركّب وسطي إلزامي"
+    ],
+    [
+     "**Respiratory control**",
+     "التحكّم التنفّسي"
+    ],
+    [
+     "**High-energy phosphate**",
+     "الفوسفات عالية الطاقة / الرابطة الفوسفاتية الغنية بالطاقة"
+    ],
+    [
+     "**Adenosine triphosphate (ATP)**",
+     "الأدينوسين ثلاثي الفوسفات"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Hexokinase**",
+     "الهكسوكاينيز / إنزيم فسفرة السكر السداسي"
+    ],
+    [
+     "**Autotrophic**",
+     "ذاتي التغذية"
+    ],
+    [
+     "**Heterotrophic**",
+     "غيري التغذية"
+    ],
+    [
+     "**Resonance hybrid**",
+     "هجين رنيني"
+    ],
+    [
+     "**Marasmus**",
+     "السَّغَل / الهزال / الضمور الغذائي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Metabolism",
+    "topic_ar": "الأيض"
+   },
+   {
+    "en": "Metabolism represents:",
+    "ar": "يمثّل الأيض:",
+    "options": [
+     [
+      "The sum of all the chemical changes occurring in a cell, a tissue, or the body",
+      "مجموع كل التغيّرات الكيميائية في الخلية أو النسيج أو الجسم"
+     ],
+     [
+      "Only the breakdown of glucose",
+      "تكسير الغلوكوز فقط"
+     ],
+     [
+      "Only protein synthesis",
+      "بناء البروتين فقط"
+     ],
+     [
+      "The energy of sunlight",
+      "طاقة ضوء الشمس"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In a metabolic pathway:",
+    "ar": "في المسار الأيضي:",
+    "options": [
+     [
+      "Each reaction is independent",
+      "كل تفاعل مستقل"
+     ],
+     [
+      "The product of one reaction serves as the substrate of the next",
+      "ناتج التفاعل مادة أساس للتفاعل التالي"
+     ],
+     [
+      "No enzymes are needed",
+      "لا حاجة للإنزيمات"
+     ],
+     [
+      "Only one step occurs",
+      "تحدث خطوة واحدة فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Catabolic pathways are:",
+    "ar": "مسارات الهدم:",
+    "options": [
+     [
+      "Endergonic and synthetic",
+      "ماصّة للطاقة وبنائية"
+     ],
+     [
+      "Links between pathways",
+      "روابط بين المسارات"
+     ],
+     [
+      "Exergonic and degradative",
+      "طاردة للطاقة وتكسيرية"
+     ],
+     [
+      "Always reversible",
+      "عكوسة دائمًا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The synthesis of glycogen from glucose is an example of:",
+    "ar": "بناء الغلايكوجين من الغلوكوز مثال على:",
+    "options": [
+     [
+      "Catabolism",
+      "الهدم"
+     ],
+     [
+      "An amphibolic pathway",
+      "مسار مزدوج"
+     ],
+     [
+      "Oxidative phosphorylation",
+      "الفسفرة التأكسدية"
+     ],
+     [
+      "Anabolism",
+      "البناء"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The citric acid cycle is an example of:",
+    "ar": "دورة حامض الستريك مثال على:",
+    "options": [
+     [
+      "Pure anabolism",
+      "بناء فقط"
+     ],
+     [
+      "Amphibolic pathway",
+      "مسار مزدوج"
+     ],
+     [
+      "Pure catabolism",
+      "هدم فقط"
+     ],
+     [
+      "Photosynthesis",
+      "البناء الضوئي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In stage II of energy generation, building blocks are degraded to:",
+    "ar": "في المرحلة الثانية من توليد الطاقة تتحلّل الوحدات البنائية إلى:",
+    "options": [
+     [
+      "CO2 and water",
+      "CO2 والماء"
+     ],
+     [
+      "Amino acids",
+      "الأحماض الأمينية"
+     ],
+     [
+      "Glycogen",
+      "الغلايكوجين"
+     ],
+     [
+      "Acetyl-CoA",
+      "الأسيتيل-CoA"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Bioenergetics and thermodynamics",
+    "topic_ar": "الطاقة الحيوية والديناميكا الحرارية"
+   },
+   {
+    "en": "Bioenergetics is the study of:",
+    "ar": "الطاقة الحيوية هي دراسة:",
+    "options": [
+     [
+      "The energy changes accompanying biochemical reactions",
+      "تغيّرات الطاقة المرافقة للتفاعلات الكيموحيوية"
+     ],
+     [
+      "Cell division",
+      "انقسام الخلية"
+     ],
+     [
+      "Enzyme structure",
+      "تركيب الإنزيمات"
+     ],
+     [
+      "Blood groups",
+      "فصائل الدم"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Biologic systems are essentially:",
+    "ar": "الأنظمة الحيوية أساسًا:",
+    "options": [
+     [
+      "Using heat to do work",
+      "تستعمل الحرارة لإنجاز الشغل"
+     ],
+     [
+      "Without energy",
+      "بلا طاقة"
+     ],
+     [
+      "Iso-thermic, using chemical energy",
+      "متساوية الحرارة وتستعمل الطاقة الكيميائية"
+     ],
+     [
+      "Always at 100 °C",
+      "دائمًا بدرجة 100 °م"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Malnutrition with energy imbalance is called:",
+    "ar": "سوء التغذية مع اختلال توازن الطاقة يسمّى:",
+    "options": [
+     [
+      "Diabetes",
+      "السكري"
+     ],
+     [
+      "Obesity",
+      "السمنة"
+     ],
+     [
+      "Hyperthyroidism",
+      "فرط الدرقية"
+     ],
+     [
+      "Marasmus",
+      "الهزال (marasmus)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The rate of energy release (metabolic rate) is controlled by:",
+    "ar": "يتحكّم بمعدّل تحرّر الطاقة (معدّل الأيض):",
+    "options": [
+     [
+      "Insulin only",
+      "الأنسولين فقط"
+     ],
+     [
+      "Vitamin C",
+      "فيتامين C"
+     ],
+     [
+      "Thyroid hormones",
+      "هرمونات الدرقية"
+     ],
+     [
+      "Hemoglobin",
+      "الهيموغلوبين"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The first law of thermodynamics states that:",
+    "ar": "ينصّ القانون الأول للديناميكا الحرارية على أن:",
+    "options": [
+     [
+      "Entropy always decreases",
+      "الإنتروبيا تتناقص دائمًا"
+     ],
+     [
+      "The total energy of a system and its surroundings remains constant",
+      "الطاقة الكلية للنظام ومحيطه تبقى ثابتة"
+     ],
+     [
+      "Energy is lost in every change",
+      "الطاقة تُفقد في كل تغيّر"
+     ],
+     [
+      "ΔG is always zero",
+      "ΔG دائمًا صفر"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "For a process to occur spontaneously, the total entropy must:",
+    "ar": "لكي تحدث عملية تلقائيًا يجب أن تكون الإنتروبيا الكلية:",
+    "options": [
+     [
+      "Increase",
+      "تزداد"
+     ],
+     [
+      "Stay zero",
+      "تبقى صفرًا"
+     ],
+     [
+      "Be negative",
+      "سالبة"
+     ],
+     [
+      "Decrease",
+      "تتناقص"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Entropy is:",
+    "ar": "الإنتروبيا هي:",
+    "options": [
+     [
+      "The useful energy",
+      "الطاقة المفيدة"
+     ],
+     [
+      "The heat content",
+      "المحتوى الحراري"
+     ],
+     [
+      "The extent of disorder or randomness of a system",
+      "درجة الفوضى أو العشوائية في النظام"
+     ],
+     [
+      "The absolute temperature",
+      "درجة الحرارة المطلقة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "∆H in the Gibbs equation is:",
+    "ar": "∆H في معادلة جبس هو:",
+    "options": [
+     [
+      "Entropy change",
+      "تغيّر الإنتروبيا"
+     ],
+     [
+      "Temperature",
+      "درجة الحرارة"
+     ],
+     [
+      "Free energy change",
+      "تغيّر الطاقة الحرّة"
+     ],
+     [
+      "Change in enthalpy (heat content)",
+      "التغيّر في الإنثالبي (المحتوى الحراري)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In biochemical reactions, the Gibbs relationship is written as:",
+    "ar": "في التفاعلات الكيموحيوية تُكتب علاقة جبس:",
+    "options": [
+     [
+      "∆G = ∆S − T∆E",
+      "`∆G = ∆S − T∆E`"
+     ],
+     [
+      "∆G = ∆E − T∆S",
+      "`∆G = ∆E − T∆S`"
+     ],
+     [
+      "∆G = T∆S",
+      "`∆G = T∆S`"
+     ],
+     [
+      "∆G = ∆H + ∆S",
+      "`∆G = ∆H + ∆S`"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Free energy change",
+    "topic_ar": "تغيّر الطاقة الحرّة"
+   },
+   {
+    "en": "If ΔG is negative, the reaction is:",
+    "ar": "إذا كانت ΔG سالبة فالتفاعل:",
+    "options": [
+     [
+      "Exergonic and spontaneous",
+      "طارد للطاقة وتلقائي"
+     ],
+     [
+      "At equilibrium",
+      "في حالة توازن"
+     ],
+     [
+      "Impossible",
+      "مستحيل"
+     ],
+     [
+      "Endergonic, not spontaneous",
+      "ماصّ للطاقة، غير تلقائي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "If ΔG is positive:",
+    "ar": "إذا كانت ΔG موجبة:",
+    "options": [
+     [
+      "The system is at equilibrium",
+      "النظام في توازن"
+     ],
+     [
+      "The reaction is spontaneous",
+      "التفاعل تلقائي"
+     ],
+     [
+      "Energy must be added for the reaction to go",
+      "يجب إضافة طاقة لسير التفاعل"
+     ],
+     [
+      "Heat is released",
+      "تتحرّر حرارة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "If ΔG is zero, the system is:",
+    "ar": "إذا كانت ΔG صفرًا فالنظام:",
+    "options": [
+     [
+      "Exergonic",
+      "طارد للطاقة"
+     ],
+     [
+      "At equilibrium with no net change",
+      "في توازن بلا تغيّر صافٍ"
+     ],
+     [
+      "Endergonic",
+      "ماصّ للطاقة"
+     ],
+     [
+      "Irreversible",
+      "غير عكوس"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "A large negative ∆G means the reaction is:",
+    "ar": "∆G سالبة كبيرة تعني أن التفاعل:",
+    "options": [
+     [
+      "Virtually complete and essentially irreversible",
+      "يكتمل تقريبًا وغير عكوس أساسًا"
+     ],
+     [
+      "Stable with no tendency to react",
+      "مستقر بلا ميل للتفاعل"
+     ],
+     [
+      "At equilibrium",
+      "في توازن"
+     ],
+     [
+      "Endergonic",
+      "ماصّ للطاقة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "An enzyme:",
+    "ar": "الإنزيم:",
+    "options": [
+     [
+      "Changes the final equilibrium concentrations",
+      "يغيّر تراكيز التوازن النهائية"
+     ],
+     [
+      "Changes ΔG of the reaction",
+      "يغيّر ΔG للتفاعل"
+     ],
+     [
+      "Makes endergonic reactions exergonic",
+      "يجعل التفاعل الماصّ طاردًا"
+     ],
+     [
+      "Only speeds up the attainment of equilibrium",
+      "يسرّع الوصول إلى التوازن فقط"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Energy coupling and ATP",
+    "topic_ar": "اقتران الطاقة وATP"
+   },
+   {
+    "en": "Exergonic and endergonic refer to loss or gain of:",
+    "ar": "يشير طارد وماصّ للطاقة إلى فقدان أو اكتساب:",
+    "options": [
+     [
+      "Heat only",
+      "الحرارة فقط"
+     ],
+     [
+      "Free energy in any form",
+      "الطاقة الحرّة بأي شكل"
+     ],
+     [
+      "Water",
+      "الماء"
+     ],
+     [
+      "Electrons only",
+      "الإلكترونات فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "A common obligatory intermediate (I) provides the basis for:",
+    "ar": "يوفّر المركّب الوسطي الإلزامي المشترك (I) أساسًا لـ:",
+    "options": [
+     [
+      "Photosynthesis",
+      "البناء الضوئي"
+     ],
+     [
+      "Muscle contraction",
+      "تقلّص العضلات"
+     ],
+     [
+      "Respiratory control",
+      "التحكّم التنفّسي"
+     ],
+     [
+      "Glycogen storage",
+      "خزن الغلايكوجين"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The principal high-energy carrier compound (∼E) in the living cell is:",
+    "ar": "المركّب الناقل الرئيسي عالي الطاقة (∼E) في الخلية الحية:",
+    "options": [
+     [
+      "ATP",
+      "ATP"
+     ],
+     [
+      "NADH only",
+      "NADH فقط"
+     ],
+     [
+      "Glucose",
+      "الغلوكوز"
+     ],
+     [
+      "AMP",
+      "AMP"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Glucose + Pi → Glucose 6-phosphate has ∆G0′ of:",
+    "ar": "التفاعل ``Glucose + Pi → Glucose 6`-phosphate` له ∆G0′:",
+    "options": [
+     [
+      "−30.5 kJ/mol",
+      "−30.5"
+     ],
+     [
+      "−13.8 kJ/mol",
+      "−13.8"
+     ],
+     [
+      "−61.9 kJ/mol",
+      "−61.9"
+     ],
+     [
+      "+13.8 kJ/mol",
+      "+13.8"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The enzyme coupling glucose phosphorylation with ATP hydrolysis is:",
+    "ar": "الإنزيم الذي يقرن فسفرة الغلوكوز بتحلّل ATP:",
+    "options": [
+     [
+      "Acyl-CoA synthetase",
+      "أسيل-CoA سنثيتيز"
+     ],
+     [
+      "Adenylyl kinase",
+      "الأدينيليل كاينيز"
+     ],
+     [
+      "Pyrophosphatase",
+      "البايروفوسفاتيز"
+     ],
+     [
+      "Hexokinase",
+      "الهكسوكاينيز"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The ∆G0′ of hydrolysis of ATP → ADP + Pi is:",
+    "ar": "∆G0′ لتحلّل `ATP → ADP + Pi`:",
+    "options": [
+     [
+      "−61.9 kJ/mol",
+      "−61.9"
+     ],
+     [
+      "−13.8 kJ/mol",
+      "−13.8"
+     ],
+     [
+      "−30.5 kJ/mol",
+      "−30.5"
+     ],
+     [
+      "+30.5 kJ/mol",
+      "+30.5"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The compound with the highest free energy of hydrolysis in the table is:",
+    "ar": "المركّب ذو أعلى طاقة حرّة للتحلّل في الجدول:",
+    "options": [
+     [
+      "Phosphoenolpyruvate",
+      "فوسفو إينول بايروفيت"
+     ],
+     [
+      "ATP",
+      "ATP"
+     ],
+     [
+      "Creatine phosphate",
+      "كرياتين فوسفات"
+     ],
+     [
+      "Glucose 6-phosphate",
+      "غلوكوز 6-فوسفات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "ATP contains:",
+    "ar": "يحتوي ATP:",
+    "options": [
+     [
+      "Guanine, deoxyribose and two phosphates",
+      "غوانين ورايبوز منقوص الأوكسجين وفوسفاتين"
+     ],
+     [
+      "Adenine, ribose and three phosphate groups",
+      "أدينين ورايبوز وثلاث مجاميع فوسفات"
+     ],
+     [
+      "Cytosine and ribose",
+      "سايتوسين ورايبوز"
+     ],
+     [
+      "Adenine, glucose and one phosphate",
+      "أدينين وغلوكوز وفوسفات واحدة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In the cell, ATP functions as a complex with:",
+    "ar": "في الخلية يعمل ATP على شكل معقّد مع:",
+    "options": [
+     [
+      "Cl⁻",
+      "Cl⁻"
+     ],
+     [
+      "Fe²⁺",
+      "Fe²⁺"
+     ],
+     [
+      "Na⁺",
+      "Na⁺"
+     ],
+     [
+      "Mg²⁺",
+      "Mg²⁺"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The total ATP/ADP pool can maintain an active tissue for:",
+    "ar": "يكفي مخزون ATP/ADP الكلي لإدامة نسيج نشط:",
+    "options": [
+     [
+      "Only a few seconds",
+      "بضع ثوانٍ فقط"
+     ],
+     [
+      "Several days",
+      "عدّة أيام"
+     ],
+     [
+      "One hour",
+      "ساعة واحدة"
+     ],
+     [
+      "A week",
+      "أسبوعًا"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Organisms that obtain energy from sunlight or Fe²⁺ → Fe³⁺ are:",
+    "ar": "الكائنات التي تحصل على الطاقة من الشمس أو `Fe²⁺ → Fe³⁺` هي:",
+    "options": [
+     [
+      "Heterotrophic",
+      "غيرية التغذية"
+     ],
+     [
+      "Parasitic",
+      "متطفّلة"
+     ],
+     [
+      "Autotrophic",
+      "ذاتية التغذية"
+     ],
+     [
+      "Anaerobic only",
+      "لاهوائية فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In panel A of this figure, ΔG is:",
+    "ar": "في اللوحة A من هذا الشكل، ΔG:",
+    "options": [
+     [
+      "Positive",
+      "موجبة"
+     ],
+     [
+      "Negative",
+      "سالبة"
+     ],
+     [
+      "Not shown",
+      "غير موضّحة"
+     ],
+     [
+      "Zero",
+      "صفر"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/dg-panels.png",
+    "img_h": "34mm"
+   },
+   {
+    "en": "This figure (A + C → B + D + Heat) shows:",
+    "ar": "يُظهر هذا الشكل `(A + C → B + D` + حرارة):",
+    "options": [
+     [
+      "Enzyme inhibition",
+      "تثبيط الإنزيم"
+     ],
+     [
+      "Coupling of an exergonic to an endergonic reaction",
+      "اقتران تفاعل طارد بتفاعل ماصّ للطاقة"
+     ],
+     [
+      "Michaelis-Menten kinetics",
+      "حركيات ميكالس-منتن"
+     ],
+     [
+      "ATP structure",
+      "تركيب ATP"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/coupling.png",
+    "img_h": "44mm"
+   },
+   {
+    "en": "In this figure, the enzyme (catalysed reaction) lowers:",
+    "ar": "في هذا الشكل، الإنزيم (التفاعل المحفَّز) يخفض:",
+    "options": [
+     [
+      "The activation barrier (ΔG‡)",
+      "حاجز التنشيط (ΔG‡)"
+     ],
+     [
+      "ΔG of the reaction",
+      "ΔG للتفاعل"
+     ],
+     [
+      "The energy of the products",
+      "طاقة النواتج"
+     ],
+     [
+      "The equilibrium concentration",
+      "تركيز التوازن"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/activation-barrier.png",
+    "img_h": "40mm"
+   },
+   {
+    "en": "This structure is:",
+    "ar": "هذا التركيب هو:",
+    "options": [
+     [
+      "ADP",
+      "ADP"
+     ],
+     [
+      "AMP",
+      "AMP"
+     ],
+     [
+      "MgATP²⁻",
+      "MgATP²⁻"
+     ],
+     [
+      "Creatine phosphate",
+      "كرياتين فوسفات"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/atp-structure.png",
+    "img_h": "22mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Anabolic reactions are endergonic.",
+    "ar": "تفاعلات البناء ماصّة للطاقة.",
+    "answer": "T"
+   },
+   {
+    "en": "Catabolism forms complex end products from simple precursors.",
+    "ar": "الهدم يكوّن نواتج معقّدة من سلائف بسيطة.",
+    "answer": "F"
+   },
+   {
+    "en": "Starvation causes death because animals obtain fuel from their food.",
+    "ar": "التجويع يسبّب الموت لأن الحيوان يحصل على وقوده من غذائه.",
+    "answer": "T"
+   },
+   {
+    "en": "Excess storage of surplus energy causes obesity.",
+    "ar": "الخزن الزائد للطاقة الفائضة يسبّب السمنة.",
+    "answer": "T"
+   },
+   {
+    "en": "According to the first law, energy is lost during chemical changes.",
+    "ar": "حسب القانون الأول تُفقد الطاقة أثناء التغيّرات الكيميائية.",
+    "answer": "F"
+   },
+   {
+    "en": "Entropy becomes maximum as equilibrium is approached.",
+    "ar": "تصل الإنتروبيا أقصاها عند الاقتراب من التوازن.",
+    "answer": "T"
+   },
+   {
+    "en": "T in the Gibbs equation is the temperature in °C.",
+    "ar": "T في معادلة جبس هي درجة الحرارة بالمئوي.",
+    "answer": "F"
+   },
+   {
+    "en": "A positive ΔG reaction of great magnitude is stable with little tendency to react.",
+    "ar": "التفاعل ذو ΔG موجبة كبيرة مستقر وميله للتفاعل قليل.",
+    "answer": "T"
+   },
+   {
+    "en": "An enzyme alters the final concentrations at equilibrium.",
+    "ar": "الإنزيم يغيّر التراكيز النهائية عند التوازن.",
+    "answer": "F"
+   },
+   {
+    "en": "The ∼E compound must be structurally related to A, B, C or D.",
+    "ar": "يجب أن يرتبط المركّب ∼E تركيبيًا بـ A أو B أو C أو D.",
+    "answer": "F"
+   },
+   {
+    "en": "Phosphorylation of glucose alone is highly endergonic.",
+    "ar": "فسفرة الغلوكوز وحدها ماصّة للطاقة بشدّة.",
+    "answer": "T"
+   },
+   {
+    "en": "ATP can donate high-energy phosphate to compounds below it in the table.",
+    "ar": "يستطيع ATP منح الفوسفات عالية الطاقة للمركّبات التي تحته في الجدول.",
+    "answer": "T"
+   },
+   {
+    "en": "The high free energy of ATP hydrolysis is partly due to relief of charge repulsion.",
+    "ar": "الطاقة الحرّة العالية لتحلّل ATP تعود جزئيًا لزوال تنافر الشحنات.",
+    "answer": "T"
+   },
+   {
+    "en": "Heterotrophic organisms use sunlight directly.",
+    "ar": "الكائنات غيرية التغذية تستعمل ضوء الشمس مباشرةً.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Exergonic vs exothermic — same thing?",
+    "ar": "طارد للطاقة مقابل طارد للحرارة — نفس الشيء؟",
+    "answer_en": "No — exergonic/endergonic refer to free energy in any form, not necessarily heat.",
+    "answer_ar": "لا — exergonic/endergonic تعني الطاقة الحرّة بأي شكل، وليس بالضرورة حرارة."
+   },
+   {
+    "en": "Does an enzyme change ΔG?",
+    "ar": "هل يغيّر الإنزيم ΔG؟",
+    "answer_en": "No — it lowers the activation barrier and speeds reaching equilibrium; ΔG and the equilibrium concentrations stay the same.",
+    "answer_ar": "لا — يخفض حاجز التنشيط ويسرّع الوصول للتوازن؛ وتبقى ΔG وتراكيز التوازن نفسها."
+   },
+   {
+    "en": "Negative ΔG large vs positive ΔG large?",
+    "ar": "ΔG سالبة كبيرة مقابل موجبة كبيرة؟",
+    "answer_en": "Large negative → goes to completion, irreversible; large positive → stable, little or no tendency to react.",
+    "answer_ar": "سالبة كبيرة ← يكتمل وغير عكوس؛ موجبة كبيرة ← مستقر وميله قليل أو معدوم."
+   },
+   {
+    "en": "Is ATP the compound with the highest energy of hydrolysis?",
+    "ar": "هل ATP صاحب أعلى طاقة تحلّل؟",
+    "answer_en": "No — it is intermediate (−30.5 kJ/mol); PEP (−61.9) and creatine phosphate (−43.1) are higher.",
+    "answer_ar": "لا — هو وسطي (−30.5)؛ وPEP (−61.9) وكرياتين فوسفات (−43.1) أعلى منه."
+   },
+   {
+    "en": "Common intermediate (I) vs ∼E?",
+    "ar": "المركّب الوسطي (I) مقابل ∼E؟",
+    "answer_en": "I takes part in both reactions (respiratory control); ∼E (ATP) need not be structurally related to the reactants, so it links many reactions.",
+    "answer_ar": "I يشترك في التفاعلين (التحكّم التنفّسي)؛ و∼E (ATP) لا يلزم أن يرتبط تركيبيًا بالمتفاعلات فيربط تفاعلات كثيرة."
+   },
+   {
+    "en": "Catabolism and anabolism — which is exergonic?",
+    "ar": "الهدم والبناء — أيّهما طارد للطاقة؟",
+    "answer_en": "Catabolism is exergonic (degradative); anabolism is endergonic (synthetic).",
+    "answer_ar": "الهدم طارد للطاقة (تكسيري)؛ والبناء ماصّ للطاقة (تركيبي)."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define metabolism, pathways and metabolites.",
+    "ar": "عرّف الأيض والمسارات والمستقلبات.",
+    "answer_en": "Metabolism: the collective of different intersecting pathways forming an integrated network of chemical reactions — the sum of all chemical changes in a cell, tissue or body. Pathways: multistep sequences of enzymatic reactions in which the product of one reaction is the substrate of the next. Metabolites: the series of intermediates through which a precursor is converted into a product.",
+    "answer_ar": "الأيض: مجموع المسارات المتقاطعة المكوّنة لشبكة متكاملة من التفاعلات الكيميائية — مجموع كل التغيّرات الكيميائية في الخلية أو النسيج أو الجسم. المسارات: سلاسل متعدّدة الخطوات من التفاعلات الإنزيمية يكون فيها ناتج التفاعل مادة أساس للتالي. المستقلبات: سلسلة المركّبات الوسطية التي تتحوّل عبرها السليفة إلى ناتج."
+   },
+   {
+    "en": "Classify metabolism with examples.",
+    "ar": "صنّف الأيض مع الأمثلة.",
+    "answer_en": "Catabolism (degradative, exergonic): breaks complex molecules (polysaccharides, lipids, proteins) to CO2, NH3 and water. Anabolism (synthetic, endergonic): forms complex products from simple precursors, e.g. glycogen from glucose. Amphibolic pathways: at the crossroads, linking both, e.g. the citric acid cycle.",
+    "answer_ar": "الهدم (تكسيري، طارد للطاقة): يكسّر الجزيئات المعقّدة إلى CO2 وNH3 والماء. البناء (تركيبي، ماصّ للطاقة): يكوّن نواتج معقّدة من سلائف بسيطة، مثل الغلايكوجين من الغلوكوز. المسارات المزدوجة: عند مفترق الطرق وتربط الاثنين، مثل دورة حامض الستريك."
+   },
+   {
+    "en": "State the two laws of thermodynamics and the Gibbs equation.",
+    "ar": "اذكر قانوني الديناميكا الحرارية ومعادلة جبس.",
+    "answer_en": "First law: the total energy of a system and its surroundings remains constant (not lost or gained). Second law: total entropy must increase for a spontaneous process; entropy = disorder, maximal at equilibrium. Gibbs: ∆G = ∆H − T∆S (∆H enthalpy, T absolute temperature = °C + 273); in biochemistry ∆G = ∆E − T∆S.",
+    "answer_ar": "القانون الأول: الطاقة الكلية للنظام ومحيطه ثابتة (لا تُفقد ولا تُكتسب). القانون الثاني: يجب أن تزداد الإنتروبيا الكلية لكي تحدث العملية تلقائيًا؛ والإنتروبيا = الفوضى وأقصاها عند التوازن. جبس: `∆G = ∆H − T∆S (∆H` الإنثالبي، T الحرارة المطلقة = °م + 273)؛ وفي الكيمياء الحيوية `∆G = ∆E − T∆S`."
+   },
+   {
+    "en": "How does the sign of ΔG predict the direction of a reaction?",
+    "ar": "كيف تتنبّأ إشارة ΔG باتجاه التفاعل؟",
+    "answer_en": "Negative ΔG: net loss of energy, spontaneous A → B, exergonic; if large, goes to completion and irreversible. Positive ΔG: net gain, not spontaneous, endergonic, energy must be added; if large, the system is stable. ΔG = 0: equilibrium, no net change. An enzyme only speeds reaching equilibrium.",
+    "answer_ar": "ΔG سالبة: فقدان صافٍ للطاقة، تفاعل تلقائي ``A → B`` طارد للطاقة؛ وإذا كانت كبيرة يكتمل ويكون غير عكوس. ΔG موجبة: اكتساب صافٍ، غير تلقائي، ماصّ للطاقة، يلزم إضافة طاقة؛ وإذا كانت كبيرة يكون النظام مستقرًا. `ΔG = 0`: توازن بلا تغيّر صافٍ. والإنزيم يسرّع الوصول للتوازن فقط."
+   },
+   {
+    "en": "Explain the two mechanisms of energy coupling with examples.",
+    "ar": "اشرح آليتي اقتران الطاقة مع الأمثلة.",
+    "answer_en": "1. Common obligatory intermediate (I): A + C → I → B + D; controls the rate of oxidation (respiratory control); e.g. dehydrogenation coupled to hydrogenation by a carrier. 2. A high-energy compound (∼E = ATP) made in the exergonic reaction and used in the endergonic one; not structurally related to the reactants, so it links many reactions (biosynthesis, muscle contraction, nerve excitation, active transport). Example: glucose + Pi → G6P (+13.8 kJ/mol) coupled with ATP → ADP + Pi (−30.5) by hexokinase → irreversible.",
+    "answer_ar": "1. المركّب الوسطي الإلزامي المشترك (I): `A + C → I → B + D`؛ يتحكّم بسرعة الأكسدة (التحكّم التنفّسي)؛ مثل نزع الهيدروجين المقترن بالهدرجة عبر ناقل. 2. مركّب عالي الطاقة `(∼E = ATP)` يُصنع في التفاعل الطارد ويُستعمل في الماصّ؛ لا يرتبط تركيبيًا بالمتفاعلات فيربط تفاعلات كثيرة (البناء الحيوي، تقلّص العضلات، التهيّج العصبي، النقل الفعّال). مثال: ``Glucose + Pi → G6P (+13.8)`` مقترنًا بتحلّل ``ATP → ADP + Pi (−30.5)`` بواسطة الهكسوكاينيز ← غير عكوس."
+   },
+   {
+    "en": "Write about ATP: its role, composition and high free energy.",
+    "ar": "اكتب عن ATP: دوره وتركيبه وطاقته الحرّة العالية.",
+    "answer_en": "ATP is the principal high-energy carrier; energy from the sun or nutrient oxidation is converted to ATP. Its hydrolysis (−30.5 kJ/mol) is intermediate in the table, so it donates phosphate to compounds below it and receives from those above (ATP/ADP cycle). It is a nucleoside triphosphate (adenine, ribose, three phosphates) acting as the Mg²⁺ complex. Its high free energy comes from relief of charge repulsion and resonance stabilization of the products. The ATP/ADP pool lasts only a few seconds, so it turns over very rapidly.",
+    "answer_ar": "ATP هو الناقل الرئيسي عالي الطاقة؛ وتتحوّل طاقة الشمس أو أكسدة الغذاء إلى ATP. تحلّله (−30.5) وسطي في الجدول، فيمنح الفوسفات لما تحته ويستقبل ممّا فوقه (دورة ATP/ADP). وهو نيوكليوسيد ثلاثي الفوسفات (أدينين، رايبوز، ثلاث فوسفات) يعمل كمعقّد مع Mg²⁺. وطاقته العالية من زوال تنافر الشحنات واستقرار النواتج بالرنين. ومخزون ATP/ADP يكفي ثوانٍ فقط فيتجدّد بسرعة كبيرة."
+   }
+  ]
+ }
+}
