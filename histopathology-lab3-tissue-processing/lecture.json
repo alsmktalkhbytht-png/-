@@ -1,0 +1,1327 @@
+{
+ "meta": {
+  "subject_en": "Histopathology",
+  "subject_ar": "علم الأمراض النسيجية",
+  "short_ar": "انسجة",
+  "instructor": "م.م. آية وسمي",
+  "unit_en": "Lab 3",
+  "unit_ar": "العملي 3",
+  "unit_label": "LAB",
+  "unit_no": "3",
+  "title_en": "Tissue processing",
+  "title_ar": "تحضير (معالجة) النسيج",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Tissue processing",
+   "ar": "تحضير (معالجة) النسيج"
+  },
+  {
+   "t": "card",
+   "en": "Tissue processing describes the steps required to take animal or human tissue **from fixation** to the state where it is **completely infiltrated with a suitable histological wax** and can be **embedded** ready for section cutting on the **microtome**.",
+   "ar": "تحضير النسيج يصف الخطوات اللازمة لنقل النسيج الحيواني أو البشري **من التثبيت** إلى الحالة التي يكون فيها **مُشرَّبًا بالكامل بشمع نسيجي مناسب** ويمكن **طمره** جاهزًا لقطع المقاطع على **المشراح (المايكروتوم)**."
+  },
+  {
+   "t": "card",
+   "en": "types : **manually** or **automated**",
+   "ar": "أنواعه: **يدوي** أو **آلي**"
+  },
+  {
+   "t": "h2",
+   "en": "Tissue processing steps",
+   "ar": "خطوات تحضير النسيج"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Fixation.**",
+    "**Sectioning**",
+    "**Dehydration.**",
+    "**Clearing** (or de-alcohlisation).",
+    "**Impregnation in wax** ( Wax infiltration).",
+    "**Embedding in paraffin block.**",
+    "**sectioning and slide preparation**",
+    "**staining**",
+    "**mounting**"
+   ],
+   "list_ar": [
+    "**التثبيت.**",
+    "**التقطيع (فتح العيّنة)**",
+    "**نزع الماء (التجفيف).**",
+    "**الترويق** (أو إزالة الكحول).",
+    "**التشريب بالشمع** (تخلّل الشمع).",
+    "**الطمر في قالب برافين.**",
+    "**التقطيع وتحضير الشريحة**",
+    "**الصبغ**",
+    "**التحميل (التغطية)**"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Step 2 \"Sectioning\" here means cutting (grossing) the received specimen into pieces before processing; step 7 is cutting thin sections on the microtome.",
+    "The sheet writes \"de-alcohlisation\" (de-alcoholisation)."
+   ],
+   "ar": [
+    "الخطوة 2 \"Sectioning\" هنا تعني تقطيع العيّنة المستلمة (الفحص العياني والتقطيع) قبل التحضير؛ أمّا الخطوة 7 فهي قطع مقاطع رقيقة بالمايكروتوم.",
+    "والورقة تكتب \"de-alcohlisation\" والصحيح \"de-alcoholisation\"."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Fixation",
+     "ar": "التثبيت"
+    },
+    {
+     "en": "Sectioning",
+     "ar": "التقطيع"
+    },
+    {
+     "en": "Dehydration",
+     "ar": "نزع الماء"
+    },
+    {
+     "en": "Clearing",
+     "ar": "الترويق"
+    },
+    {
+     "en": "Wax impregnation",
+     "ar": "التشريب بالشمع"
+    },
+    {
+     "en": "Embedding",
+     "ar": "الطمر"
+    },
+    {
+     "en": "Microtomy",
+     "ar": "التقطيع الدقيق"
+    },
+    {
+     "en": "Staining",
+     "ar": "الصبغ"
+    },
+    {
+     "en": "Mounting",
+     "ar": "التحميل"
+    }
+   ],
+   "en": "Nine steps",
+   "ar": "تسع خطوات"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Tissue processing: from **fixation** → tissue fully **infiltrated with wax** → **embedded** for the **microtome**.",
+    "Done **manually** or **automated**; nine steps from fixation to mounting."
+   ],
+   "ar": [
+    "تحضير النسيج: من **التثبيت** ← نسيج **مُشرَّب بالشمع** بالكامل ← **مطمور** للمايكروتوم.",
+    "يتم **يدويًا** أو **آليًا**؛ وتسع خطوات من التثبيت إلى التحميل."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Fixation",
+   "ar": "التثبيت"
+  },
+  {
+   "t": "card",
+   "en": "Aiming to **preserve** a sample of biological materials ( tissues or cells) **as close to its natural state as possible** in the process of preparing tissue for examination.",
+   "ar": "يهدف إلى **حفظ** عيّنة المواد الحيوية (الأنسجة أو الخلايا) **أقرب ما يمكن إلى حالتها الطبيعية** أثناء تحضير النسيج للفحص."
+  },
+  {
+   "t": "card",
+   "en": "**Factors affecting fixation:** PH , temperature, volume ,Time interval",
+   "ar": "**العوامل المؤثّرة في التثبيت:** الأس الهيدروجيني (pH)، ودرجة الحرارة، والحجم، والفترة الزمنية"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Fixation preserves tissue **close to its natural state**.",
+    "Factors: **pH, temperature, volume, time**."
+   ],
+   "ar": [
+    "التثبيت يحفظ النسيج **قريبًا من حالته الطبيعية**.",
+    "العوامل: **pH، الحرارة، الحجم، الوقت**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Sectioning",
+   "ar": "التقطيع (فتح العيّنة)"
+  },
+  {
+   "t": "rule",
+   "en": "Each organ or tissue has a **special procedure** in sectioning.",
+   "ar": "لكل عضو أو نسيج **إجراء خاص** في التقطيع."
+  },
+  {
+   "t": "figure",
+   "src": "assets/grossing.png",
+   "en": "Sectioning a received specimen",
+   "ar": "تقطيع عيّنة مستلمة",
+   "h": "44mm"
+  },
+  {
+   "t": "rule",
+   "en": "The details are **recorded in a register** including patient information and sample type and all the accompanying documents are carefully checked.",
+   "ar": "تُسجَّل التفاصيل **في سجلّ** تشمل معلومات المريض ونوع العيّنة، وتُفحص كل الوثائق المرافقة بعناية."
+  },
+  {
+   "t": "figure",
+   "src": "assets/register.png",
+   "en": "Recording the details in the register",
+   "ar": "تسجيل التفاصيل في السجلّ",
+   "h": "44mm"
+  },
+  {
+   "t": "rule",
+   "en": "The sample and request form are **labeled**",
+   "ar": "تُوسَم (تُلصق عليها البطاقة) العيّنة واستمارة الطلب"
+  },
+  {
+   "t": "rule",
+   "en": "Specimens are usually **received in fixative**",
+   "ar": "تُستلم العيّنات عادةً **في مادة مثبّتة**"
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/labelling.png",
+     "en": "The sample and request form are labeled",
+     "ar": "وسم العيّنة واستمارة الطلب",
+     "h": "40mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/fixative-received.png",
+     "en": "Specimen received in fixative",
+     "ar": "عيّنة مستلمة في مادة مثبّتة",
+     "h": "40mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Each tissue has its **own procedure**; details go in a **register**; sample and form are **labeled**; specimens arrive **in fixative**."
+   ],
+   "ar": [
+    "لكل نسيج **إجراؤه**؛ وتُسجَّل التفاصيل في **سجلّ**؛ وتُوسَم العيّنة والاستمارة؛ وتصل العيّنات **في مثبّت**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Dehydration",
+   "ar": "نزع الماء (التجفيف)"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "This process must be carried out so that the **embedding medium can infiltrate properly**.",
+    "**Alcohol in various dilutions** is usually used.",
+    "water from the tissues should be removed because **water is not miscible with wax**",
+    "prevent tissue shrinking."
+   ],
+   "list_ar": [
+    "يجب إجراء هذه العملية حتى **يتخلّل وسط الطمر النسيج بشكل صحيح**.",
+    "يُستعمل عادةً **الكحول بتخافيف مختلفة (تراكيز متدرّجة)**.",
+    "يجب إزالة الماء من الأنسجة لأن **الماء لا يمتزج بالشمع**",
+    "منع انكماش النسيج."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/dehydration.png",
+   "en": "Dehydration: 30% (3 min) → 50% (3 min) → 70% (3 min) → 70% (overnight) → 90% → Ab Alcohol (1 hr in each grade). Remove fixative and water from the tissues and replacing with dehydrating fluid.",
+   "ar": "نزع الماء: 30% (3 دقائق) ← 50% (3 دقائق) ← 70% (3 دقائق) ← 70% (طوال الليل) ← 90% ← الكحول المطلق (ساعة في كل درجة). إزالة المثبّت والماء من الأنسجة واستبدالهما بسائل نازع للماء.",
+   "h": "56mm"
+  },
+  {
+   "t": "h2",
+   "en": "Automatic sample preparation system",
+   "ar": "نظام تحضير العيّنات الآلي"
+  },
+  {
+   "t": "figure",
+   "src": "assets/auto-processor.png",
+   "en": "Automatic sample (tissue) preparation system",
+   "ar": "نظام تحضير العيّنات (الأنسجة) الآلي",
+   "h": "48mm"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Dehydration = removing water with **graded alcohols**, because **water does not mix with wax**.",
+    "Lets the embedding medium infiltrate; prevents shrinking."
+   ],
+   "ar": [
+    "نزع الماء = إزالة الماء **بكحولات متدرّجة**، لأن **الماء لا يمتزج بالشمع**.",
+    "يسمح بتخلّل وسط الطمر؛ ويمنع الانكماش."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Clearing",
+   "ar": "الترويق"
+  },
+  {
+   "t": "card",
+   "en": "As **paraffin wax is insoluble in alcohol**, it must be replaced by a fluid that is **miscible with or is a solvent of paraffin wax**, to get rid of alcohol & make the tissue **more translucent**.",
+   "ar": "لأن **شمع البرافين لا يذوب في الكحول**، يجب استبدال الكحول بسائل **يمتزج بشمع البرافين أو يذيبه**، للتخلّص من الكحول وجعل النسيج **أكثر شفافية**."
+  },
+  {
+   "t": "card",
+   "en": "**Xylol:** cheap and rapid in action, though tends to **harden tissue on prolonged application**",
+   "ar": "**الزايلول (الزايلين):** رخيص وسريع المفعول، لكنه يميل إلى **تقسية النسيج عند الاستعمال المطوّل**"
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/xylene-bottle.png",
+     "en": "p-Xylene",
+     "ar": "الزايلين (بارا-زايلين)",
+     "h": "46mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/xylene-clearing.png",
+     "en": "Clearing the tissue in xylene",
+     "ar": "ترويق النسيج في الزايلين",
+     "h": "46mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Clearing replaces **alcohol** with a **wax solvent** → tissue becomes **translucent**.",
+    "**Xylol**: cheap, fast, but **hardens** tissue if left long."
+   ],
+   "ar": [
+    "الترويق يستبدل **الكحول** بـ**مذيب للشمع** ← يصبح النسيج **شفّافًا**.",
+    "**الزايلول**: رخيص وسريع، لكنه **يقسّي** النسيج إذا طال."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Impregnation (Wax infiltration)",
+   "ar": "التشريب (تخلّل الشمع)"
+  },
+  {
+   "t": "card",
+   "en": "Tissues are impregnated in wax for **two reasons**:",
+   "ar": "تُشرَّب الأنسجة بالشمع **لسببين**:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "To surround tissue with some plastic substances to **support it on all sides without injury**.",
+    "To enable **natural cavities** of tissue to be filled with wax, thus **preserving their relationship** to each other."
+   ],
+   "list_ar": [
+    "لإحاطة النسيج بمادة لدنة **تدعمه من كل الجهات دون أذى**.",
+    "لتمكين **التجاويف الطبيعية** للنسيج من الامتلاء بالشمع، فـ**يُحفظ ترابطها** بعضها مع بعض."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Paraffin wax** used for routine work",
+   "ar": "يُستعمل **شمع البرافين** في العمل الروتيني"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Tissue may be impregnated with paraffin wax using: ▪ **56 C° oven** or ▪ **Vacuum embedding**.",
+    "Paraffin for impregnation must be **clean**. (i.e. filtered)."
+   ],
+   "ar": [
+    "يمكن تشريب النسيج بشمع البرافين باستعمال: ▪ **فرن بحرارة 56°م** أو ▪ **الطمر بالتفريغ (الفراغ الهوائي)**.",
+    "ويجب أن يكون البرافين المستعمل للتشريب **نظيفًا** (أي مُرشَّحًا)."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Tissues which benefits most from **vacuum embedding** are:- **Lung, bone, fatty tissue, all tissues from CNS and lymph nodes**.",
+   "ar": "الأنسجة الأكثر استفادة من **الطمر بالتفريغ** هي: **الرئة، والعظم، والنسيج الدهني، وكل أنسجة الجهاز العصبي المركزي، والعقد اللمفاوية**."
+  },
+  {
+   "t": "figure",
+   "src": "assets/wax-impregnation.png",
+   "en": "Tissue in molten paraffin wax for impregnation",
+   "ar": "نسيج في شمع برافين منصهر للتشريب",
+   "h": "52mm"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Wax **supports** tissue on all sides and **fills natural cavities**.",
+    "Paraffin (clean, filtered) in a **56°C oven** or by **vacuum** — vacuum best for lung, bone, fat, CNS, lymph nodes."
+   ],
+   "ar": [
+    "الشمع **يدعم** النسيج من كل الجهات و**يملأ التجاويف الطبيعية**.",
+    "برافين (نظيف مُرشَّح) في **فرن 56°م** أو **بالتفريغ** — والتفريغ الأفضل للرئة والعظم والدهن والجهاز العصبي المركزي والعقد اللمفاوية."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Embedding",
+   "ar": "الطمر"
+  },
+  {
+   "t": "card",
+   "en": "Process by which tissues are surrounded by a **medium wax** which when solidifies will provide **sufficient external support during sectioning**.",
+   "ar": "عملية تُحاط فيها الأنسجة **بوسط من الشمع** يوفّر عند تصلّبه **دعمًا خارجيًا كافيًا أثناء التقطيع**."
+  },
+  {
+   "t": "card",
+   "en": "Impregnated tissue transferred from **wax bath** to a **mould filled with molten wax** to get a block of wax with the tissue specimen **at the center** with the **cutting surface facing the base** of the block",
+   "ar": "يُنقل النسيج المُشرَّب من **حمّام الشمع** إلى **قالب مملوء بشمع منصهر** للحصول على قالب شمعي فيه العيّنة النسيجية **في المركز** و**سطح القطع مواجه لقاعدة** القالب"
+  },
+  {
+   "t": "card",
+   "en": "This may be done using :",
+   "ar": "ويمكن إجراء ذلك باستعمال:",
+   "list_en": [
+    "**L-shaped brass boxes.**",
+    "**Embedding cassette**"
+   ],
+   "list_ar": [
+    "**صناديق نحاسية على شكل حرف L.**",
+    "**كاسيت (شريط) الطمر**"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/embedding.png",
+   "en": "Embedding (panels A–D): A. embedding centre; B. placing the tissue in the mould; C. labelled cassette; D. the finished paraffin block",
+   "ar": "الطمر (اللوحات أ–د): أ. جهاز الطمر؛ ب. وضع النسيج في القالب؛ ج. كاسيت موسوم؛ د. قالب البرافين الجاهز",
+   "h": "84mm"
+  },
+  {
+   "t": "note",
+   "en": "The A–D panels of the embedding figure have no labels in the sheet; the short descriptions in the caption are BIOS's reading of the pictures.",
+   "ar": "لوحات شكل الطمر (أ–د) بلا تسميات في الورقة؛ والوصف المختصر في التعليق قراءة BIOS للصور.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Embedding: tissue moved from **wax bath** to a **mould of molten wax** → block with tissue **centred**, cutting surface toward the **base**.",
+    "Tools: **L-shaped brass boxes** or **embedding cassettes**."
+   ],
+   "ar": [
+    "الطمر: يُنقل النسيج من **حمّام الشمع** إلى **قالب شمع منصهر** ← قالب فيه النسيج **في المركز** وسطح القطع نحو **القاعدة**.",
+    "الأدوات: **صناديق نحاسية L** أو **كاسيتات الطمر**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Tissue processing**",
+     "تحضير (معالجة) النسيج"
+    ],
+    [
+     "**Fixation**",
+     "التثبيت"
+    ],
+    [
+     "**Sectioning**",
+     "التقطيع / عمل المقاطع"
+    ],
+    [
+     "**Dehydration**",
+     "نزع الماء / التجفيف"
+    ],
+    [
+     "**Clearing**",
+     "الترويق / التنقية"
+    ],
+    [
+     "**De-alcoholisation**",
+     "إزالة الكحول"
+    ],
+    [
+     "**Impregnation (infiltration)**",
+     "التشريب / التخلّل"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Embedding**",
+     "الطمر / القولبة"
+    ],
+    [
+     "**Paraffin wax**",
+     "شمع البرافين"
+    ],
+    [
+     "**Microtome**",
+     "المايكروتوم / المشراح"
+    ],
+    [
+     "**Staining**",
+     "الصبغ / التلوين"
+    ],
+    [
+     "**Mounting**",
+     "التحميل / التغطية / التثبيت على الشريحة"
+    ],
+    [
+     "**Fixative**",
+     "المثبّت / المادة المثبّتة"
+    ],
+    [
+     "**Miscible**",
+     "قابل للامتزاج"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Translucent**",
+     "شفّاف / نصف شفّاف"
+    ],
+    [
+     "**Xylol (xylene)**",
+     "الزايلول / الزايلين"
+    ],
+    [
+     "**Vacuum embedding**",
+     "الطمر بالتفريغ (بالفراغ الهوائي)"
+    ],
+    [
+     "**Mould**",
+     "القالب"
+    ],
+    [
+     "**Embedding cassette**",
+     "كاسيت الطمر"
+    ],
+    [
+     "**Register**",
+     "السجلّ"
+    ],
+    [
+     "**Shrinking**",
+     "الانكماش"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Tissue processing and its steps",
+    "topic_ar": "تحضير النسيج وخطواته"
+   },
+   {
+    "en": "Tissue processing takes tissue from fixation to the state where it is:",
+    "ar": "ينقل تحضير النسيج النسيج من التثبيت إلى حالة يكون فيها:",
+    "options": [
+     [
+      "Stained and mounted",
+      "مصبوغًا ومحمّلًا"
+     ],
+     [
+      "Completely infiltrated with wax and ready for embedding",
+      "مُشرَّبًا بالشمع بالكامل وجاهزًا للطمر"
+     ],
+     [
+      "Frozen",
+      "مجمّدًا"
+     ],
+     [
+      "Dissolved in alcohol",
+      "مذابًا في الكحول"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Tissue processing can be done:",
+    "ar": "يمكن إجراء تحضير النسيج:",
+    "options": [
+     [
+      "Only manually",
+      "يدويًا فقط"
+     ],
+     [
+      "Only automated",
+      "آليًا فقط"
+     ],
+     [
+      "Manually or automated",
+      "يدويًا أو آليًا"
+     ],
+     [
+      "Only by freezing",
+      "بالتجميد فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The first step of tissue processing is:",
+    "ar": "الخطوة الأولى في تحضير النسيج:",
+    "options": [
+     [
+      "Fixation",
+      "التثبيت"
+     ],
+     [
+      "Dehydration",
+      "نزع الماء"
+     ],
+     [
+      "Clearing",
+      "الترويق"
+     ],
+     [
+      "Embedding",
+      "الطمر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The step that comes directly after dehydration is:",
+    "ar": "الخطوة التي تلي نزع الماء مباشرةً:",
+    "options": [
+     [
+      "Fixation",
+      "التثبيت"
+     ],
+     [
+      "Embedding",
+      "الطمر"
+     ],
+     [
+      "Staining",
+      "الصبغ"
+     ],
+     [
+      "Clearing",
+      "الترويق"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The last step of tissue processing listed in the lab is:",
+    "ar": "آخر خطوة في تحضير النسيج حسب العملي:",
+    "options": [
+     [
+      "Mounting",
+      "التحميل"
+     ],
+     [
+      "Staining",
+      "الصبغ"
+     ],
+     [
+      "Embedding",
+      "الطمر"
+     ],
+     [
+      "Clearing",
+      "الترويق"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Fixation and sectioning",
+    "topic_ar": "التثبيت والتقطيع"
+   },
+   {
+    "en": "Fixation aims to:",
+    "ar": "يهدف التثبيت إلى:",
+    "options": [
+     [
+      "Remove water",
+      "إزالة الماء"
+     ],
+     [
+      "Fill cavities with wax",
+      "ملء التجاويف بالشمع"
+     ],
+     [
+      "Make tissue translucent",
+      "جعل النسيج شفّافًا"
+     ],
+     [
+      "Preserve the sample as close to its natural state as possible",
+      "حفظ العيّنة أقرب ما يمكن إلى حالتها الطبيعية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A factor affecting fixation is:",
+    "ar": "من العوامل المؤثّرة في التثبيت:",
+    "options": [
+     [
+      "Colour of the tissue",
+      "لون النسيج"
+     ],
+     [
+      "pH",
+      "الأس الهيدروجيني"
+     ],
+     [
+      "Patient name",
+      "اسم المريض"
+     ],
+     [
+      "Type of microscope",
+      "نوع المجهر"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "During sectioning (receiving the specimen), details are recorded in:",
+    "ar": "أثناء التقطيع (استلام العيّنة) تُسجَّل التفاصيل في:",
+    "options": [
+     [
+      "The cassette",
+      "الكاسيت"
+     ],
+     [
+      "The wax bath",
+      "حمّام الشمع"
+     ],
+     [
+      "A register",
+      "سجلّ"
+     ],
+     [
+      "The slide",
+      "الشريحة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Specimens are usually received in:",
+    "ar": "تُستلم العيّنات عادةً في:",
+    "options": [
+     [
+      "Distilled water",
+      "ماء مقطّر"
+     ],
+     [
+      "Xylol",
+      "الزايلول"
+     ],
+     [
+      "Paraffin wax",
+      "شمع البرافين"
+     ],
+     [
+      "Fixative",
+      "مادة مثبّتة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Dehydration and clearing",
+    "topic_ar": "نزع الماء والترويق"
+   },
+   {
+    "en": "Water must be removed from tissue because:",
+    "ar": "يجب إزالة الماء من النسيج لأن:",
+    "options": [
+     [
+      "Water hardens tissue",
+      "الماء يقسّي النسيج"
+     ],
+     [
+      "Water stains tissue",
+      "الماء يصبغ النسيج"
+     ],
+     [
+      "Water is not miscible with wax",
+      "الماء لا يمتزج بالشمع"
+     ],
+     [
+      "Water is a fixative",
+      "الماء مثبّت"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Dehydration is usually done using:",
+    "ar": "يتم نزع الماء عادةً باستعمال:",
+    "options": [
+     [
+      "Xylol",
+      "الزايلول"
+     ],
+     [
+      "Alcohol in various dilutions",
+      "الكحول بتخافيف مختلفة"
+     ],
+     [
+      "Paraffin wax",
+      "شمع البرافين"
+     ],
+     [
+      "Formalin only",
+      "الفورمالين فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Dehydration also helps to:",
+    "ar": "يساعد نزع الماء أيضًا على:",
+    "options": [
+     [
+      "Prevent tissue shrinking",
+      "منع انكماش النسيج"
+     ],
+     [
+      "Harden tissue",
+      "تقسية النسيج"
+     ],
+     [
+      "Label the sample",
+      "وسم العيّنة"
+     ],
+     [
+      "Stain nuclei",
+      "صبغ الأنوية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Clearing is needed because paraffin wax is:",
+    "ar": "يلزم الترويق لأن شمع البرافين:",
+    "options": [
+     [
+      "Toxic",
+      "سامّ"
+     ],
+     [
+      "Soluble in water",
+      "يذوب في الماء"
+     ],
+     [
+      "A fixative",
+      "مثبّت"
+     ],
+     [
+      "Insoluble in alcohol",
+      "لا يذوب في الكحول"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Clearing makes the tissue:",
+    "ar": "يجعل الترويق النسيج:",
+    "options": [
+     [
+      "Opaque",
+      "معتمًا"
+     ],
+     [
+      "More translucent",
+      "أكثر شفافية"
+     ],
+     [
+      "Darker",
+      "أغمق"
+     ],
+     [
+      "Wet",
+      "رطبًا"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "A disadvantage of xylol is that it:",
+    "ar": "من عيوب الزايلول أنه:",
+    "options": [
+     [
+      "Hardens tissue on prolonged application",
+      "يقسّي النسيج عند الاستعمال المطوّل"
+     ],
+     [
+      "Is slow",
+      "بطيء"
+     ],
+     [
+      "Is expensive",
+      "غالٍ"
+     ],
+     [
+      "Is miscible with water",
+      "يمتزج بالماء"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "This figure shows dehydration through graded alcohols ending in:",
+    "ar": "يوضّح هذا الشكل نزع الماء بكحولات متدرّجة تنتهي بـ:",
+    "options": [
+     [
+      "Xylol",
+      "الزايلول"
+     ],
+     [
+      "Formalin",
+      "الفورمالين"
+     ],
+     [
+      "Absolute alcohol",
+      "الكحول المطلق"
+     ],
+     [
+      "Wax",
+      "الشمع"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/dehydration.png",
+    "img_h": "40mm"
+   },
+   {
+    "topic_en": "Impregnation and embedding",
+    "topic_ar": "التشريب والطمر"
+   },
+   {
+    "en": "One reason for wax impregnation is to:",
+    "ar": "من أسباب التشريب بالشمع:",
+    "options": [
+     [
+      "Fix the tissue",
+      "تثبيت النسيج"
+     ],
+     [
+      "Remove water",
+      "إزالة الماء"
+     ],
+     [
+      "Support the tissue on all sides without injury",
+      "دعم النسيج من كل الجهات دون أذى"
+     ],
+     [
+      "Stain the tissue",
+      "صبغ النسيج"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The wax used for routine work is:",
+    "ar": "الشمع المستعمل في العمل الروتيني:",
+    "options": [
+     [
+      "Paraffin wax",
+      "شمع البرافين"
+     ],
+     [
+      "Bees wax",
+      "شمع العسل"
+     ],
+     [
+      "Carnauba wax",
+      "شمع الكارنوبا"
+     ],
+     [
+      "Gelatin",
+      "الجيلاتين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The oven temperature for wax impregnation in the lab is:",
+    "ar": "درجة حرارة الفرن لتشريب الشمع في العملي:",
+    "options": [
+     [
+      "37 °C",
+      "37°م"
+     ],
+     [
+      "56 °C",
+      "56°م"
+     ],
+     [
+      "100 °C",
+      "100°م"
+     ],
+     [
+      "4 °C",
+      "4°م"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Paraffin used for impregnation must be:",
+    "ar": "يجب أن يكون البرافين المستعمل للتشريب:",
+    "options": [
+     [
+      "Coloured",
+      "ملوّنًا"
+     ],
+     [
+      "Mixed with water",
+      "ممزوجًا بالماء"
+     ],
+     [
+      "Reused many times",
+      "معاد الاستعمال مرّات كثيرة"
+     ],
+     [
+      "Clean (filtered)",
+      "نظيفًا (مُرشَّحًا)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which tissue benefits most from vacuum embedding?",
+    "ar": "أي نسيج يستفيد أكثر من الطمر بالتفريغ؟",
+    "options": [
+     [
+      "Skin",
+      "الجلد"
+     ],
+     [
+      "Lung",
+      "الرئة"
+     ],
+     [
+      "Muscle",
+      "العضلة"
+     ],
+     [
+      "Kidney",
+      "الكلية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In embedding, the tissue in the block is placed:",
+    "ar": "في الطمر يوضع النسيج في القالب:",
+    "options": [
+     [
+      "At the center with the cutting surface facing the base",
+      "في المركز وسطح القطع مواجه للقاعدة"
+     ],
+     [
+      "At the edge with the cutting surface up",
+      "عند الحافة وسطح القطع للأعلى"
+     ],
+     [
+      "Outside the wax",
+      "خارج الشمع"
+     ],
+     [
+      "Anywhere",
+      "في أي مكان"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Embedding may be done using:",
+    "ar": "يمكن إجراء الطمر باستعمال:",
+    "options": [
+     [
+      "Petri dishes",
+      "أطباق بتري"
+     ],
+     [
+      "Test tubes",
+      "أنابيب اختبار"
+     ],
+     [
+      "Microscope slides",
+      "شرائح مجهرية"
+     ],
+     [
+      "L-shaped brass boxes or embedding cassettes",
+      "صناديق نحاسية L أو كاسيتات الطمر"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The purpose of embedding is to provide:",
+    "ar": "غرض الطمر توفير:",
+    "options": [
+     [
+      "Colour",
+      "لون"
+     ],
+     [
+      "Fixation",
+      "تثبيت"
+     ],
+     [
+      "Sufficient external support during sectioning",
+      "دعم خارجي كافٍ أثناء التقطيع"
+     ],
+     [
+      "Dehydration",
+      "نزع ماء"
+     ]
+    ],
+    "answer": "c"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Tissue processing can be manual or automated.",
+    "ar": "يمكن أن يكون تحضير النسيج يدويًا أو آليًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Clearing comes before dehydration.",
+    "ar": "الترويق يسبق نزع الماء.",
+    "answer": "F"
+   },
+   {
+    "en": "Fixation preserves tissue as close to its natural state as possible.",
+    "ar": "التثبيت يحفظ النسيج أقرب ما يمكن إلى حالته الطبيعية.",
+    "answer": "T"
+   },
+   {
+    "en": "Every organ is sectioned by the same procedure.",
+    "ar": "كل الأعضاء تُقطَّع بالإجراء نفسه.",
+    "answer": "F"
+   },
+   {
+    "en": "Water is miscible with paraffin wax.",
+    "ar": "الماء يمتزج بشمع البرافين.",
+    "answer": "F"
+   },
+   {
+    "en": "Alcohol in various dilutions is used for dehydration.",
+    "ar": "يُستعمل الكحول بتخافيف مختلفة لنزع الماء.",
+    "answer": "T"
+   },
+   {
+    "en": "Paraffin wax is insoluble in alcohol.",
+    "ar": "شمع البرافين لا يذوب في الكحول.",
+    "answer": "T"
+   },
+   {
+    "en": "Xylol is expensive and slow.",
+    "ar": "الزايلول غالٍ وبطيء.",
+    "answer": "F"
+   },
+   {
+    "en": "Wax impregnation fills natural cavities of tissue.",
+    "ar": "التشريب بالشمع يملأ التجاويف الطبيعية للنسيج.",
+    "answer": "T"
+   },
+   {
+    "en": "Vacuum embedding benefits lung, bone and fatty tissue.",
+    "ar": "يفيد الطمر بالتفريغ الرئة والعظم والنسيج الدهني.",
+    "answer": "T"
+   },
+   {
+    "en": "In the block, the cutting surface faces the top.",
+    "ar": "في القالب يواجه سطح القطع الأعلى.",
+    "answer": "F"
+   },
+   {
+    "en": "Embedding cassettes can be used for embedding.",
+    "ar": "يمكن استعمال كاسيتات الطمر للطمر.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Two kinds of \"sectioning\"",
+    "ar": "نوعان من \"التقطيع\"",
+    "answer_en": "Step 2 = cutting the received specimen (grossing, with register and labels); step 7 = thin sections on the microtome for slides.",
+    "answer_ar": "الخطوة 2 = تقطيع العيّنة المستلمة (مع السجلّ والوسم)؛ والخطوة 7 = مقاطع رقيقة بالمايكروتوم للشرائح."
+   },
+   {
+    "en": "Order of the middle steps",
+    "ar": "ترتيب الخطوات الوسطى",
+    "answer_en": "Dehydration (alcohol) → clearing (xylol) → impregnation (wax) → embedding. Remember: water out, alcohol out, wax in.",
+    "answer_ar": "نزع الماء (كحول) ← الترويق (زايلول) ← التشريب (شمع) ← الطمر. تذكّر: يطلع الماء، يطلع الكحول، يدخل الشمع."
+   },
+   {
+    "en": "Why clearing?",
+    "ar": "لماذا الترويق؟",
+    "answer_en": "Because wax does not dissolve in ALCOHOL (not water) — so alcohol is replaced by a wax solvent such as xylol.",
+    "answer_ar": "لأن الشمع لا يذوب في الكحول (لا الماء) — فيُستبدل الكحول بمذيب للشمع مثل الزايلول."
+   },
+   {
+    "en": "Why dehydration?",
+    "ar": "لماذا نزع الماء؟",
+    "answer_en": "Because WATER is not miscible with wax — and it also prevents shrinking.",
+    "answer_ar": "لأن الماء لا يمتزج بالشمع — ويمنع أيضًا الانكماش."
+   },
+   {
+    "en": "Impregnation vs embedding",
+    "ar": "التشريب مقابل الطمر",
+    "answer_en": "Impregnation = wax enters the tissue (56 °C oven or vacuum); embedding = tissue is set in a mould of wax to make a block.",
+    "answer_ar": "التشريب = يدخل الشمع النسيج (فرن 56°م أو تفريغ)؛ والطمر = يوضع النسيج في قالب شمع لعمل كتلة."
+   },
+   {
+    "en": "Vacuum embedding list",
+    "ar": "قائمة الطمر بالتفريغ",
+    "answer_en": "Lung, bone, fatty tissue, all CNS tissues and lymph nodes.",
+    "answer_ar": "الرئة، العظم، النسيج الدهني، كل أنسجة الجهاز العصبي المركزي، والعقد اللمفاوية."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define tissue processing and list its steps.",
+    "ar": "عرّف تحضير النسيج وعدّد خطواته.",
+    "answer_en": "The steps that take animal or human tissue from fixation to complete infiltration with histological wax, ready for embedding and microtome sectioning; manual or automated. Steps: 1. fixation, 2. sectioning, 3. dehydration, 4. clearing, 5. wax impregnation, 6. embedding in paraffin block, 7. sectioning and slide preparation, 8. staining, 9. mounting.",
+    "answer_ar": "الخطوات التي تنقل النسيج الحيواني أو البشري من التثبيت إلى التشريب الكامل بالشمع النسيجي، جاهزًا للطمر والتقطيع بالمايكروتوم؛ يدويًا أو آليًا. الخطوات: 1. التثبيت، 2. التقطيع، 3. نزع الماء، 4. الترويق، 5. التشريب بالشمع، 6. الطمر في قالب برافين، 7. التقطيع وتحضير الشريحة، 8. الصبغ، 9. التحميل."
+   },
+   {
+    "en": "What is fixation and what factors affect it?",
+    "ar": "ما التثبيت وما العوامل المؤثّرة فيه؟",
+    "answer_en": "Preserving a sample of tissues or cells as close to its natural state as possible during preparation for examination. Factors: pH, temperature, volume and time interval.",
+    "answer_ar": "حفظ عيّنة الأنسجة أو الخلايا أقرب ما يمكن إلى حالتها الطبيعية أثناء تحضيرها للفحص. العوامل: الأس الهيدروجيني، والحرارة، والحجم، والفترة الزمنية."
+   },
+   {
+    "en": "Describe the sectioning step on receiving the specimen.",
+    "ar": "صف خطوة التقطيع عند استلام العيّنة.",
+    "answer_en": "1. Each organ or tissue has a special procedure. 2. Details are recorded in a register (patient information, sample type) and the accompanying documents are checked. 3. The sample and request form are labeled. 4. Specimens are usually received in fixative.",
+    "answer_ar": "1. لكل عضو أو نسيج إجراء خاص. 2. تُسجَّل التفاصيل في سجلّ (معلومات المريض ونوع العيّنة) وتُفحص الوثائق المرافقة. 3. تُوسَم العيّنة واستمارة الطلب. 4. تُستلم العيّنات عادةً في مادة مثبّتة."
+   },
+   {
+    "en": "Explain dehydration and clearing.",
+    "ar": "اشرح نزع الماء والترويق.",
+    "answer_en": "Dehydration removes water with alcohol of various dilutions so the embedding medium can infiltrate, because water is not miscible with wax; it also prevents shrinking. Clearing replaces alcohol (in which wax is insoluble) with a wax solvent such as xylol, making tissue translucent; xylol is cheap and rapid but hardens tissue on prolonged use.",
+    "answer_ar": "نزع الماء يزيل الماء بالكحول بتخافيف مختلفة ليتخلّل وسط الطمر، لأن الماء لا يمتزج بالشمع؛ ويمنع الانكماش أيضًا. والترويق يستبدل الكحول (الذي لا يذوب فيه الشمع) بمذيب للشمع مثل الزايلول فيصبح النسيج شفّافًا؛ والزايلول رخيص وسريع لكنه يقسّي النسيج عند الاستعمال المطوّل."
+   },
+   {
+    "en": "Why are tissues impregnated in wax, and how?",
+    "ar": "لماذا تُشرَّب الأنسجة بالشمع، وكيف؟",
+    "answer_en": "1. To surround and support the tissue on all sides without injury. 2. To fill natural cavities with wax and preserve their relationships. Routine paraffin wax, clean and filtered, in a 56 °C oven or by vacuum embedding (best for lung, bone, fatty tissue, CNS tissues and lymph nodes).",
+    "answer_ar": "1. لإحاطة النسيج ودعمه من كل الجهات دون أذى. 2. لملء التجاويف الطبيعية بالشمع وحفظ ترابطها. ويُستعمل شمع البرافين الروتيني نظيفًا مُرشَّحًا في فرن 56°م أو بالطمر بالتفريغ (الأفضل للرئة والعظم والدهن وأنسجة الجهاز العصبي المركزي والعقد اللمفاوية)."
+   },
+   {
+    "en": "Describe embedding.",
+    "ar": "صف الطمر.",
+    "answer_en": "Tissues are surrounded by wax that solidifies to give external support during sectioning. The impregnated tissue is moved from the wax bath to a mould of molten wax so the specimen is at the center with its cutting surface facing the base of the block, using L-shaped brass boxes or embedding cassettes.",
+    "answer_ar": "تُحاط الأنسجة بشمع يتصلّب ليعطي دعمًا خارجيًا أثناء التقطيع. ويُنقل النسيج المُشرَّب من حمّام الشمع إلى قالب شمع منصهر بحيث تكون العيّنة في المركز وسطح القطع مواجهًا لقاعدة القالب، باستعمال صناديق نحاسية L أو كاسيتات الطمر."
+   }
+  ]
+ }
+}

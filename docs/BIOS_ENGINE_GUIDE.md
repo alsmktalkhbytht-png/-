@@ -1169,6 +1169,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `immunology-lec3-antigens` | مناعة | نظري 3 |
 | `histopathology-lab1-lab-safety` | أنسجة | عملي 1 |
 | `histopathology-lab2-samples` | أنسجة | عملي 2 |
+| `histopathology-lab3-tissue-processing` | أنسجة | عملي 3 — تحضير النسيج (أسلوب جديد) |
 | `histopathology-lec1-acute-inflammation` | أنسجة | نظري 1 |
 | `histopathology-lec2-chronic-inflammation` | أنسجة | نظري 2 |
 | `histopathology-lec4-healing-regeneration` | أنسجة | نظري 4 — الالتئام والتجدّد (أُعيد بالأسلوب الجديد 2026-11-01) |

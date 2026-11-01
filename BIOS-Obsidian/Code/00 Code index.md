@@ -40,6 +40,7 @@
 - [[Code/his - l2.py|his/l2.py]] → histopathology-lab2-samples
 - [[Code/hl10 - l10.py|hl10/l10.py]] → hematology-lec10-membrane-defects
 - [[Code/hl3 - norm3.py|hl3/norm3.py]] → hematology-practical-normal-values
+- [[Code/hl3x - t3q.py|hl3x/t3q.py]] → histopathology-lab3-tissue-processing
 - [[Code/hl6 - l6new.py|hl6/l6new.py]] → hematology-lec6-iron-deficiency
 - [[Code/hl7 - l7new.py|hl7/l7new.py]] → hematology-lec7-chronic-sideroblastic
 - [[Code/hl8 - l8.py|hl8/l8.py]] → hematology-lec8-macrocytic
@@ -104,6 +105,7 @@
 - [[Code/gh - gh.py|gh/gh.py]]
 - [[Code/hb4 - hb.py|hb4/hb.py]]
 - [[Code/heal2 - h4.py|heal2/h4.py]]
+- [[Code/hl3x - t3.py|hl3x/t3.py]]
 - [[Code/im4 - i4.py|im4/i4.py]]
 - [[Code/iml3 - l3.py|iml3/l3.py]]
 - [[Code/imm456 - ci5_blocks.py|imm456/ci5_blocks.py]]
