@@ -1157,6 +1157,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `hematology-lec2…lec10-*` | أمراض الدم | نظري 2–10 |
 | `genetics-lec1-cell-cycle-mitosis` | وراثة | نظري 1 |
 | `genetics-lec2-meiosis` | وراثة | نظري 2 |
+| `genetics-lec2-mitosis` | وراثة | نظري 2 — الانقسام الخيطي (رأس الملف lec 5) |
 | `genetics-lab1-mitosis` | وراثة | عملي 1 |
 | `genetics-lab2-meiosis` | وراثة | عملي 2 |
 | `genetics-lab3-medical-genetics` | وراثة | عملي 3 |

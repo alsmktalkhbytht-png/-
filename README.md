@@ -37,6 +37,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `hematology-lab1-blood-collection/` — Hematology (أمراض الدم) practical lab 1: blood collection — third stage.
 - `genetics-lec1-cell-cycle-mitosis/` — Genetics (علم الوراثة) lecture 1: cell cycle and mitosis — third stage.
 - `genetics-lec2-meiosis/` — Genetics theory lecture 2: Meiosis (د. عبد سلطان) — third stage, new style.
+- `genetics-lec2-mitosis/` — Genetics theory lecture 2: Mitosis (د. عبد سلطان; sheet header says lec 5) — third stage, new style, questions inside.
 - `genetics-lab1-mitosis/`, `genetics-lab2-meiosis/`, `genetics-lab3-medical-genetics/` — Human Genetics practical labs 1–3: Mitosis, Meiosis, Medical genetics (م.م. نور م. فاضل) — third stage, new style.
 - `hematology-lec2…lec10-*/` — Hematology theory (د. مازن اللهيبي) lectures 2–10: blood cell formation, blood elements, hemoglobin, anaemia, iron deficiency, chronic/sideroblastic, macrocytic, hemolytic, membrane defects — third stage (6–10 in the new style).
 - `histopathology-lab1-lab-safety/`, `histopathology-lab2-samples/` — Histopathology (علم الأمراض النسيجية) practical labs 1–2 — third stage.
