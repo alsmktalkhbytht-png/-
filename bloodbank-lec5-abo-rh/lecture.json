@@ -50,6 +50,19 @@
    ]
   },
   {
+   "t": "note",
+   "en": [
+    "> **400** red cell antigens in **> 25 systems**; the most important: **ABO and Rh**."
+   ],
+   "ar": [
+    "أكثر من **400** مستضد في **أكثر من 25 نظامًا**؛ وأهمها: **ABO وRh**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
    "t": "section",
    "en": "ABO Blood group system",
    "ar": "نظام فصائل الدم ABO"
@@ -198,6 +211,21 @@
    ]
   },
   {
+   "t": "note",
+   "en": [
+    "A → anti-B · B → anti-A · AB → no antibodies · O → anti-A + anti-B; ABO antibodies are **IgM** (intravascular hemolysis).",
+    "ABO antibodies start at birth, detectable at **3–6 months**, peak **5–10 years**, low in the elderly → newborns: **forward grouping only**."
+   ],
+   "ar": [
+    "A ← ضد B · B ← ضد A · AB ← بلا أضداد · O ← ضد A وضد B؛ وأضداد ABO من نوع **IgM** (انحلال داخل الأوعية).",
+    "تبدأ أضداد ABO عند الولادة، وتُكشف بعمر **3–6 أشهر**، وذروتها **5–10 سنوات**، وتقل عند المسنّين ← حديثو الولادة: **تصنيف مباشر فقط**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
    "t": "section",
    "en": "Other Blood group antigens",
    "ar": "مستضدات فصائل الدم الأخرى"
@@ -310,6 +338,19 @@
    "label_ar": "أضداد أنظمة فصائل الدم إما:"
   },
   {
+   "t": "note",
+   "en": [
+    "**IgG** systems: Rh, Kidd, Kell, Lutheran, Ss · **IgM** systems: ABO, Lewis, MN, P1."
+   ],
+   "ar": [
+    "أنظمة **IgG**: Rh وكيد وكيل ولوثران وSs · أنظمة **IgM**: ABO ولويس وMN وP1."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
    "t": "section",
    "en": "Rh Blood group system",
    "ar": "نظام فصائل الدم Rh"
@@ -357,25 +398,23 @@
    ]
   },
   {
-   "t": "side",
-   "blocks": [
-    {
-     "t": "card",
-     "en": [
-      "**Inheritance of Rh system:** Rh system antigens : More than **50 related antigens** including (**D, C, E, c, e**).",
-      "The **D antigen is the most immunogenic antigen** in the Rh blood group system"
-     ],
-     "ar": [
-      "**وراثة نظام Rh:** لمستضدات نظام Rh أكثر من **50 مستضدًا مرتبطًا** منها (**D وC وE وc وe**).",
-      "و**مستضد D هو الأكثر استمناعية** في نظام Rh."
-     ]
-    }
+   "t": "card",
+   "en": [
+    "**Inheritance of Rh system:** Rh system antigens : More than **50 related antigens** including (**D, C, E, c, e**).",
+    "The **D antigen is the most immunogenic antigen** in the Rh blood group system"
    ],
-   "figure": {
-    "src": "assets/rh-inheritance.jpg",
-    "en": "Two Rh+ (Dd) parents: DD, Dd, Dd (Rh+), dd (Rh−)",
-    "ar": "أبوان Rh+ (Dd): ‏DD وDd وDd (Rh+) وdd (Rh−)"
-   }
+   "ar": [
+    "**وراثة نظام Rh:** لمستضدات نظام Rh أكثر من **50 مستضدًا مرتبطًا** منها (**D وC وE وc وe**).",
+    "و**مستضد D هو الأكثر استمناعية** في نظام Rh."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/rh-inheritance.jpg",
+   "en": "Two Rh+ (Dd) parents: DD, Dd, Dd (Rh+), dd (Rh−)",
+   "ar": "أبوان Rh+ (Dd): ‏DD وDd وDd (Rh+) وdd (Rh−)",
+   "h": "44mm",
+   "fit": "contain"
   },
   {
    "t": "h2",
@@ -408,7 +447,7 @@
    "src": "assets/rh-hdn.jpg",
    "en": "How Rh hemolytic disease develops",
    "ar": "كيف يتطوّر داء انحلال الدم Rh",
-   "h": "62mm",
+   "h": "80mm",
    "fit": "contain"
   },
   {
@@ -493,15 +532,25 @@
    "en": "",
    "ar": "",
    "list_en": [
-    "When Rh-positive RBC samples are typed for the D antigen, they are expected to show **strong positive reactivity** with anti-D reagents (**+4, +3**).",
+    "When Rh-positive RBC samples are typed for the D antigen, they are expected to show **strong positive reactivity** with anti-D reagents (**+4, +3**)."
+   ],
+   "list_ar": [
+    "عند تصنيف عيّنات كريات Rh الموجبة لمستضد D يُتوقّع أن تُظهر **تفاعلًا موجبًا قويًا** مع كواشف ضد D (**+4، +3**)."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     "However, some individuals have RBCs that possess **Weak D antigen** that requires an **antiglobulin reagent or monoclonal anti-D** reagent to detect the presence of D antigen.",
     "RBCs carrying weaker D antigen because **fewer D antigen sites** have historically been referred to as having the **Du antigen**."
    ],
    "list_ar": [
-    "عند تصنيف عيّنات كريات Rh الموجبة لمستضد D يُتوقّع أن تُظهر **تفاعلًا موجبًا قويًا** مع كواشف ضد D (**+4، +3**).",
     "لكن بعض الأفراد لديهم كريات تحمل **مستضد D ضعيفًا** يحتاج كشفه إلى **كاشف مضاد الغلوبيولين أو ضد D وحيد النسيلة**.",
     "والكريات التي تحمل مستضد D أضعف بسبب **قلّة مواقع مستضد D** كان يُقال تاريخيًا إنها تحمل **مستضد Du**."
-   ]
+   ],
+   "start": 2
   },
   {
    "t": "card",
@@ -557,6 +606,21 @@
    ]
   },
   {
+   "t": "note",
+   "en": [
+    "Rh antibodies are **immune IgG** (transfusion or pregnancy); **D is the most immunogenic** (> 80% after one unit, 17% after one pregnancy).",
+    "Rh-negative recipients get **Rh-negative** cells; weak D (**Du**) needs AHG or monoclonal anti-D."
+   ],
+   "ar": [
+    "أضداد Rh **مناعية IgG** (نقل أو حمل)؛ و**D الأكثر استمناعية** (أكثر من 80% بعد وحدة واحدة، 17% بعد حمل واحد).",
+    "متلقّي Rh السالب يأخذ كريات **Rh سالبة**؛ وD الضعيف (**Du**) يحتاج AHG أو ضد D وحيد النسيلة."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
    "t": "section",
    "en": "Practical Blood Transfusion 5 — ABO Blood and Rh grouping (Part 1)",
    "ar": "نقل الدم العملي 5 — تحديد فصائل ABO وRh (الجزء 1)"
@@ -601,6 +665,14 @@
    "en": "Forward Grouping Testing: patient RBC + anti sera → agglutination",
    "ar": "التصنيف المباشر: كريات المريض + الأمصال المضادة ← تلازن",
    "h": "40mm",
+   "fit": "contain"
+  },
+  {
+   "t": "figure",
+   "src": "assets/tubes-anti-abd.jpg",
+   "en": "Tubes labelled Anti-A, Anti-B and Anti-D (forward grouping by tube)",
+   "ar": "أنابيب مُعلَّمة ضد A وضد B وضد D (التصنيف المباشر بالأنبوب)",
+   "h": "46mm",
    "fit": "contain"
   },
   {
@@ -800,12 +872,20 @@
    "ar": "**الطريقة:** تتوفّر تقنيات عدة لتصنيف ABO وD الروتيني، منها **فحوص الأنبوب والشريحة اليدوية** و**الصفائح الدقيقة والأعمدة بالطور السائل والصلب** التي تُستخدم يدويًا أو آليًا."
   },
   {
+   "t": "figure",
+   "src": "assets/slide-method-collage.jpg",
+   "en": "Slide Method — BLOOD GROUP DETERMINATION (Anti-A, Anti-B, Anti-D drops on a slide; reactions of A, B, AB)",
+   "ar": "طريقة الشريحة — تحديد فصيلة الدم (قطرات ضد A وضد B وضد D على شريحة؛ تفاعلات A وB وAB)",
+   "h": "44mm",
+   "fit": "contain"
+  },
+  {
    "t": "figures",
    "items": [
     {
      "src": "assets/slide-method.jpg",
-     "en": "Slide method (B negative blood group)",
-     "ar": "طريقة الشريحة (فصيلة B سالبة)",
+     "en": "B Negative (-ve) Blood Group — slide method (A, B, D)",
+     "ar": "فصيلة B سالبة — طريقة الشريحة (A وB وD)",
      "h": "48mm",
      "fit": "contain"
     },
@@ -819,53 +899,24 @@
    ]
   },
   {
-   "t": "section",
-   "en": "Quick summary & key terms",
-   "ar": "الخلاصة السريعة وأهم المصطلحات"
-  },
-  {
-   "t": "h2",
-   "en": "In short",
-   "ar": "باختصار"
-  },
-  {
-   "t": "card",
-   "en": "",
-   "ar": "",
-   "list_en": [
-    "> **400** red cell antigens in **> 25 systems**; the most important: **ABO and Rh**.",
-    "A → anti-B · B → anti-A · AB → no antibodies · O → anti-A + anti-B; ABO antibodies are **IgM** (intravascular hemolysis).",
-    "ABO antibodies start at birth, detectable at **3–6 months**, peak **5–10 years**, low in the elderly → newborns: **forward grouping only**.",
-    "**IgG** systems: Rh, Kidd, Kell, Lutheran, Ss · **IgM** systems: ABO, Lewis, MN, P1."
-   ],
-   "list_ar": [
-    "أكثر من **400** مستضد في **أكثر من 25 نظامًا**؛ وأهمها: **ABO وRh**.",
-    "A ← ضد B · B ← ضد A · AB ← بلا أضداد · O ← ضد A وضد B؛ وأضداد ABO من نوع **IgM** (انحلال داخل الأوعية).",
-    "تبدأ أضداد ABO عند الولادة، وتُكشف بعمر **3–6 أشهر**، وذروتها **5–10 سنوات**، وتقل عند المسنّين ← حديثو الولادة: **تصنيف مباشر فقط**.",
-    "أنظمة **IgG**: Rh وكيد وكيل ولوثران وSs · أنظمة **IgM**: ABO ولويس وMN وP1."
-   ]
-  },
-  {
-   "t": "card",
-   "en": "",
-   "ar": "",
-   "list_en": [
-    "Rh antibodies are **immune IgG** (transfusion or pregnancy); **D is the most immunogenic** (> 80% after one unit, 17% after one pregnancy).",
-    "Rh-negative recipients get **Rh-negative** cells; weak D (**Du**) needs AHG or monoclonal anti-D.",
+   "t": "note",
+   "en": [
     "**Forward** = known antisera + patient cells; **reverse** = known A₁/B cells + patient serum (confirms ABO).",
     "D typing is done **in duplicate** (no reverse check); **O− universal donor**, **AB+ universal receiver**."
    ],
-   "list_ar": [
-    "أضداد Rh **مناعية IgG** (نقل أو حمل)؛ و**D الأكثر استمناعية** (أكثر من 80% بعد وحدة واحدة، 17% بعد حمل واحد).",
-    "متلقّي Rh السالب يأخذ كريات **Rh سالبة**؛ وD الضعيف (**Du**) يحتاج AHG أو ضد D وحيد النسيلة.",
+   "ar": [
     "**المباشر** = أمصال معروفة + كريات المريض؛ **العكسي** = كريات A₁/B معروفة + مصل المريض (يؤكّد ABO).",
     "تصنيف D يُجرى **بنسختين** (لا تحقّق عكسي له)؛ **O− متبرّع عام**، **AB+ متلقٍّ عام**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
    ]
   },
   {
-   "t": "h2",
-   "en": "Key terms — more than one translation",
-   "ar": "أهم المصطلحات — بأكثر من ترجمة"
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
   },
   {
    "t": "table",
@@ -900,7 +951,26 @@
     [
      "**Immunogenic**",
      "مستمنع / مولّد للاستجابة المناعية / مُمنِّع"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
     ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
     [
      "**Titer**",
      "عيار / تركيز الضد"
@@ -924,7 +994,26 @@
     [
      "**Erythroblastosis fetalis**",
      "الحمرة الأرومية الجنينية / داء انحلال الدم عند الوليد"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
     ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
     [
      "**Monoclonal**",
      "وحيد النسيلة / أحادي النسيلة"

@@ -22,6 +22,7 @@
 - [[Code/bb - make.py|bb/make.py]] → bloodbank-lec1-introduction
 - [[Code/bb4 - bb4n.py|bb4/bb4n.py]] → bloodbank-lec4-screening
 - [[Code/bb4n - bb4n.py|bb4n/bb4n.py]] → bloodbank-lec4-screening
+- [[Code/bb5n - bb5n.py|bb5n/bb5n.py]] → bloodbank-lec5-abo-rh
 - [[Code/bt - make2.py|bt/make2.py]] → bloodbank-lec2-donation-criteria
 - [[Code/bt - make3.py|bt/make3.py]] → bloodbank-lec3-services
 - [[Code/chr - l2.py|chr/l2.py]] → histopathology-lec2-chronic-inflammation
