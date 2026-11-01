@@ -1,4 +1,4 @@
-import sys, re; sys.path.insert(0, "/tmp/claude-0/-home-claude/ff420988-e3a4-58e4-8344-8f014438cb53/scratchpad/imm456")
+import sys, re; sys.path.insert(0, "/tmp/claude-0/-home-user/a0840832-519a-5a9b-84ea-294867ea1189/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
 
 BN = lambda en, ar: N(en, ar, label=["BIOS note", "ملاحظة BIOS"])
@@ -26,7 +26,7 @@ blocks = [
    ["الـ PCR أو تفاعل البلمرة المتسلسل تقنية تُستعمل في **البيولوجيا الجزيئية** لصنع **نسخ عديدة من قطعة DNA معيّنة**.",
     "طُوّرت هذه التقنية عام **1983** على يد **كاري موليس**، عالم الكيمياء الحيوية الأمريكي.",
     "وقد جعل الـ PCR من الممكن توليد **ملايين النسخ** من قطعة صغيرة من الـ DNA.",
-    "وتُستعمل هذه الأداة عادةً في مختبرات البيولوجيا الجزيئية والتقنيات الحيوية."]),
+    "وتُستعمل هذه الأداة عادةً في مختبرات البيولوجيا الجزيئية والتقانة الحيوية."]),
  INSHORT([("PCR = **in vitro amplification** of a **specific DNA sequence** → millions of copies.", "PCR = **تضخيم في المختبر** **لتسلسل DNA محدّد** ← ملايين النسخ."),
           ("Developed in **1983** by **Kary Mullis**.", "طُوّر عام **1983** على يد **كاري موليس**.")]),
 
@@ -136,13 +136,13 @@ blocks += [
  L(["**AIDS infection**", "**Tuberculosis** (*Mycobacterium tuberculosis*)"], ["**إصابة الإيدز**", "**التدرّن** (*المتفطّرة السلّية*)"], alpha=True),
  C("**Genetics Diagnosis**", "**التشخيص الوراثي**"),
  L(["Diagnosing inherited disorders"], ["تشخيص الاضطرابات الوراثية"]),
- L(["Cystic fibrosis", "Muscular dystrophy", "Haemophilia A and B", "Sickle cell anaemia"], ["التليّف الكيسي", "الحثل العضلي", "مرض الناعور (الهيموفيليا) A وB", "فقر الدم المنجلي"], alpha=True),
+ L(["Cystic fibrosis", "Muscular dystrophy", "Haemophilia A and B", "Sickle cell anaemia"], ["التليّف الكيسي", "الحثل العضلي", "الهيموفيليا A وB", "فقر الدم المنجلي"], alpha=True),
  L(["Diagnosing cancer", "Blood group typing."], ["تشخيص السرطان", "تحديد فصائل الدم."]),
  C("**Forensic Science**", "**علم الأدلّة الجنائية**"),
  L(["Used as a tool in **genetic fingerprinting**.", "Identifying the criminal from millions of people.", "Paternity tests"],
    ["يُستعمل أداةً في **البصمة الوراثية**.", "تحديد المجرم من بين ملايين الناس.", "فحوص الأبوّة"]),
  INSHORT([("Research: cloning, old DNA, vectors, cDNA ends; infection: **AIDS, TB**.", "البحث: الاستنساخ، الـ DNA القديم، النواقل، أطراف cDNA؛ الإصابات: **الإيدز، التدرّن**."),
-          ("Genetics: cystic fibrosis, muscular dystrophy, haemophilia A/B, sickle cell, cancer, blood groups; forensic: **fingerprinting, criminals, paternity**.", "الوراثة: التليّف الكيسي، الحثل العضلي، مرض الناعور (الهيموفيليا)، المنجلي، السرطان، فصائل الدم؛ الجنائي: **البصمة الوراثية، المجرمين، الأبوّة**.")]),
+          ("Genetics: cystic fibrosis, muscular dystrophy, haemophilia A/B, sickle cell, cancer, blood groups; forensic: **fingerprinting, criminals, paternity**.", "الوراثة: التليّف الكيسي، الحثل العضلي، الهيموفيليا، المنجلي، السرطان، فصائل الدم؛ الجنائي: **البصمة الوراثية، المجرمين، الأبوّة**.")]),
 
  *TERMS([("Polymerase Chain Reaction (PCR)", "تفاعل البلمرة المتسلسل / التفاعل التسلسلي للبوليميريز"),
          ("In vitro", "خارج الجسم الحي / في المختبر / في الزجاج"),

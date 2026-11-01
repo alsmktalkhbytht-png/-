@@ -163,7 +163,7 @@ For a theory lecture use `"unit_en": "Lecture 3"`, `"unit_ar": "المحاضرة
 |---|---|---|
 | `section` | `en`, `ar` | slide title → numbered sage bar (auto 1, 2, 3…) |
 | `h2` | `en`, `ar` | sub-heading inside a section |
-| `card` | `en`, `ar` (string, or list of sentences), optional `alpha: true` (A, B, C badges), `list_en`, `list_ar` (same length); leave `en` and `ar` empty for a list-only card | paragraph, definition, or an intro line followed by numbered points; point *n* of `list_en` is paired with point *n* of `list_ar` |
+| `card` | `en`, `ar` (string, or list of sentences), optional `alpha: true` (A, B, C badges), optional `start` (first number, e.g. `4` for a list continued from the card before), `list_en`, `list_ar` (same length); leave `en` and `ar` empty for a list-only card | paragraph, definition, or an intro line followed by numbered points; point *n* of `list_en` is paired with point *n* of `list_ar` |
 | `rule` | `en`, `ar` | numbered instruction/step; numbering restarts at each section |
 | `group` | `title_en`, `title_ar`, optional `sub_en`, `sub_ar`, `en`, `ar`, optional `style: "light"` | a classified item with a dark header bar (risk groups, types, stages); `light` gives a Star White bar |
 | `figure` | `src` (relative to the lecture folder), `en`, `ar`, optional `h` + `fit` ("cover"/"contain") or `width` | one figure |

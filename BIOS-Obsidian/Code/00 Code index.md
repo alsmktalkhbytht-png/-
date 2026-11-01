@@ -83,6 +83,7 @@
 - [[Code/pat - make3.py|pat/make3.py]] → pathology-lec3-chronic-bronchitis
 - [[Code/pcv - pcvq.py|pcv/pcvq.py]] → hematology-practical-pcv
 - [[Code/picq.py|picq.py]] → bloodbank-lec1-introduction, immunology-lab1-serology, lab1-biosafety
+- [[Code/pl4 - pl4q.py|pl4/pl4q.py]] → parasitology-lab4-nonpathogenic-amoebae
 - [[Code/res - make.py|res/make.py]] → research-lec1-principles
 - [[Code/ria - l3.py|ria/l3.py]] → advtech-lec3-ria
 - [[Code/sol - l4.py|sol/l4.py]] → parasitology-lab4-solutions
@@ -123,6 +124,7 @@
 - [[Code/para - ar2.py|para/ar2.py]]
 - [[Code/pat - fix1.py|pat/fix1.py]]
 - [[Code/pcv - pcv.py|pcv/pcv.py]]
+- [[Code/pl4 - pl4.py|pl4/pl4.py]]
 - [[Code/restyle.py|restyle.py]]
 - [[Code/thy - thy.py|thy/thy.py]]
 - [[Code/vir3 - v3.py|vir3/v3.py]]

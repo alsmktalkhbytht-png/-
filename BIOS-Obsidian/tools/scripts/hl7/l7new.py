@@ -1,4 +1,4 @@
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a0840832-519a-5a9b-84ea-294867ea1189/scratchpad/imm456")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user/a0840832-519a-5a9b-84ea-294867ea1189/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS save(split.fix)
 
 HT = dict(subject_en="Hematology", subject_ar="أمراض الدم", short_ar="امراض الدم", unit_label="LEC",

@@ -90,10 +90,11 @@ def pairs(e, a):
     return '<div class="prs">' + "".join(pair(se, sa) for se, sa in sentences(e, a)) + "</div>"
 
 
-def plist(items_en, items_ar, alpha=False):
-    """Numbered (or lettered) points, each followed immediately by its own translation."""
+def plist(items_en, items_ar, alpha=False, start=1):
+    """Numbered (or lettered) points, each followed immediately by its own translation.
+    start: first number, so a long list split over two cards keeps counting (4, 5, 6…)."""
     rows = "".join(f'<li><span class="nb">{"ABCDEFGHIJ"[i - 1] if alpha else i}</span>{pairs(e, a)}</li>'
-                   for i, (e, a) in enumerate(zip(items_en, items_ar), 1))
+                   for i, (e, a) in enumerate(zip(items_en, items_ar), start))
     return f'<ol class="pl">{rows}</ol>'
 
 
@@ -209,10 +210,10 @@ def render_block(b, st, base):
         return h2(b["en"], b["ar"]), True
     if t == "card":
         if not b.get("en") and not b.get("ar"):     # list-only card
-            return f'<div class="card"><div class="c-list" style="border-top:0">{plist(b["list_en"], b.get("list_ar", []), b.get("alpha"))}</div></div>', False
+            return f'<div class="card"><div class="c-list" style="border-top:0">{plist(b["list_en"], b.get("list_ar", []), b.get("alpha"), b.get("start", 1))}</div></div>', False
         c = card(b["en"], b["ar"])
         if b.get("list_en"):
-            c = c[:-len("</div>")] + f'<div class="c-list">{plist(b["list_en"], b.get("list_ar", []), b.get("alpha"))}</div></div>'
+            c = c[:-len("</div>")] + f'<div class="c-list">{plist(b["list_en"], b.get("list_ar", []), b.get("alpha"), b.get("start", 1))}</div></div>'
         return c, False
     if t == "flow":
         return flow(b), False

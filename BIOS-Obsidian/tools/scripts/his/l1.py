@@ -1,4 +1,4 @@
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a0840832-519a-5a9b-84ea-294867ea1189/scratchpad/hem3")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user/a0840832-519a-5a9b-84ea-294867ea1189/scratchpad/hem3")
 from common import C, R, SEC, H2, L, N, FLOW, T, Q, TF, TR
 import json, os
 from collections import Counter
