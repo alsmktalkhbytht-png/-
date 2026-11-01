@@ -114,7 +114,7 @@
   {
    "t": "card",
    "en": "When **anticoagulated blood** is **centrifuged** at a suitable speed and time, it separates into **three layers:**",
-   "ar": "عند **نبذ الدم المعامل بمانع التخثّر** بسرعة ووقت مناسبين، ينفصل إلى **ثلاث طبقات:**",
+   "ar": "عند **طرد الدم المحتوي على مانع تخثّر مركزيًا** بسرعة ومدّة مناسبتين، فإنه ينفصل إلى **ثلاث طبقات:**",
    "list_en": [
     "**Bottom layer:** packed red blood cells",
     "**Middle thin layer:** buffy coat (white blood cells and platelets)",
@@ -130,7 +130,7 @@
    "t": "figure",
    "src": "assets/pcv-layers.jpg",
    "en": "Layers of centrifuged blood: normal, anemia, polycythemia",
-   "ar": "طبقات الدم المنبوذ: طبيعي، فقر دم، كثرة كريات حمر",
+   "ar": "طبقات الدم بعد الطرد المركزي: طبيعي، فقر دم، كثرة كريات حمر",
    "h": "52mm",
    "fit": "contain"
   },
@@ -246,7 +246,7 @@
     "Normal: males **40–54%**, females **36–47%**, newborns **55–68%**."
    ],
    "ar": [
-    "الدم المنبوذ ← **كريات حمر (أسفل)**، **طبقة شاحبة** (كريات بيض + صفيحات، وسط)، **بلازما (أعلى)**.",
+    "الدم بعد الطرد المركزي ← **كريات حمر (أسفل)**، **طبقة شاحبة** (كريات بيض + صفيحات، وسط)، **بلازما (أعلى)**.",
     "الطبيعي: الذكور **40–54%**، الإناث **36–47%**، حديثو الولادة **55–68%**."
    ],
    "label": [
@@ -289,6 +289,13 @@
    ]
   },
   {
+   "t": "figure",
+   "src": "assets/finger-puncture.jpg",
+   "en": "Blood collected by finger puncture into a capillary tube",
+   "ar": "جمع الدم بوخز الإصبع في أنبوب شعري",
+   "h": "40mm"
+  },
+  {
    "t": "h2",
    "en": "MATERIALS & INSTRUMENTS",
    "ar": "المواد والأدوات"
@@ -319,14 +326,33 @@
      "src": "assets/capillary-tubes.jpg",
      "en": "Capillary tubes",
      "ar": "الأنابيب الشعرية",
-     "h": "40mm",
+     "h": "34mm",
      "fit": "contain"
     },
+    {
+     "src": "assets/microhematocrit-centrifuge.jpg",
+     "en": "Microhematocrit centrifuge",
+     "ar": "جهاز طرد الهيماتوكريت الدقيق",
+     "h": "34mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
     {
      "src": "assets/hct-reader.jpg",
      "en": "Hematocrit reader",
      "ar": "قارئ الهيماتوكريت",
-     "h": "40mm",
+     "h": "30mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/hct-reader-plate.jpg",
+     "en": "Hematocrit reader (plate)",
+     "ar": "قارئ الهيماتوكريت (لوحة)",
+     "h": "30mm",
      "fit": "contain"
     }
    ]
@@ -335,6 +361,13 @@
    "t": "h2",
    "en": "Procedure",
    "ar": "طريقة العمل"
+  },
+  {
+   "t": "figure",
+   "src": "assets/pcv-procedure.jpg",
+   "en": "(a) Withdraw blood into hematocrit tube → Centrifuge blood in the hematocrit tube; (b) Hematocrit scale (0–100): Hematocrit tube — Plasma; White blood cells and platelets form the buffy coat; Red blood cells",
+   "ar": "(أ) اسحب الدم إلى أنبوب الهيماتوكريت ← اطرد الدم مركزيًا في أنبوب الهيماتوكريت؛ (ب) مقياس الهيماتوكريت (0–100): أنبوب الهيماتوكريت — البلازما؛ الكريات البيض والصفيحات تكوّن الطبقة الشاحبة؛ الكريات الحمر",
+   "h": "48mm"
   },
   {
    "t": "rule",
@@ -354,7 +387,7 @@
   {
    "t": "rule",
    "en": "Centrifuge at about **10,000 rpm for 5 minutes**.",
-   "ar": "انبذ بسرعة نحو **10,000 دورة/دقيقة لمدّة 5 دقائق**."
+   "ar": "اجرِ طردًا مركزيًا بسرعة نحو **10,000 دورة/دقيقة لمدّة 5 دقائق**."
   },
   {
    "t": "rule",
@@ -382,6 +415,13 @@
     "وطابق **أعلى عمود البلازما** مع **خط 100%**.",
     "واقرأ الهيماتوكريت عند **أعلى طبقة الكريات الحمر المرصوصة**."
    ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/vin-card-reader.jpg",
+   "en": "Micro-Hematocrit Capillary Tube Reader (card reader)",
+   "ar": "قارئ الأنابيب الشعرية للهيماتوكريت الدقيق (القارئ البطاقي)",
+   "h": "46mm"
   },
   {
    "t": "figure",
@@ -660,7 +700,7 @@
      ],
      "list_ar": [
       "**زيادة مانع التخثّر** قد **تقلّص** كريات الدم الحمر و**تخفض** قراءة الهيماتوكريت.",
-      "**ضعف إغلاق** الأنبوب الشعري قد يسبّب **فقدان الدم** أثناء النبذ ونتيجة **منخفضة كاذبة**.",
+      "**ضعف إغلاق** الأنبوب الشعري قد يسبّب **فقدان الدم** أثناء الطرد المركزي ونتيجة **منخفضة كاذبة**.",
       "**إيقاف جهاز الطرد بالقوّة** قد يربك طبقة الكريات الحمر المرصوصة ويعطي نتيجة **مرتفعة كاذبة**."
      ]
     }
@@ -930,7 +970,7 @@
    },
    {
     "en": "After centrifugation, the bottom layer is:",
-    "ar": "بعد النبذ تكون الطبقة السفلى:",
+    "ar": "بعد الطرد المركزي تكون الطبقة السفلى:",
     "options": [
      [
       "Plasma",
@@ -1141,7 +1181,7 @@
    },
    {
     "en": "Microhematocrit centrifugation is at about:",
-    "ar": "يكون نبذ الهيماتوكريت الدقيق بنحو:",
+    "ar": "يكون الطرد المركزي للهيماتوكريت الدقيق بنحو:",
     "options": [
      [
       "3000 rpm for 10 min",
@@ -1446,7 +1486,7 @@
    },
    {
     "en": "The top layer after centrifugation is plasma.",
-    "ar": "الطبقة العليا بعد النبذ هي البلازما.",
+    "ar": "الطبقة العليا بعد الطرد المركزي هي البلازما.",
     "answer": "T"
    },
    {
@@ -1539,13 +1579,13 @@
     "en": "What is the principle of the PCV test?",
     "ar": "ما مبدأ فحص PCV؟",
     "answer_en": "Anticoagulated blood centrifuged at a suitable speed and time separates into three layers: packed RBCs at the bottom, a thin buffy coat (WBCs and platelets) in the middle, and plasma at the top. PCV is the RBC column as a percentage of the total column.",
-    "answer_ar": "الدم المعامل بمانع التخثّر عند نبذه بسرعة ووقت مناسبين ينفصل إلى ثلاث طبقات: كريات حمر مرصوصة في الأسفل، وطبقة شاحبة رقيقة (كريات بيض وصفيحات) في الوسط، وبلازما في الأعلى. والـ PCV هو عمود الكريات الحمر كنسبة مئوية من العمود الكلّي."
+    "answer_ar": "الدم المعامل بمانع التخثّر عند طرده مركزيًا بسرعة ومدّة مناسبتين ينفصل إلى ثلاث طبقات: كريات حمر مرصوصة في الأسفل، وطبقة شاحبة رقيقة (كريات بيض وصفيحات) في الوسط، وبلازما في الأعلى. والـ PCV هو عمود الكريات الحمر كنسبة مئوية من العمود الكلّي."
    },
    {
     "en": "Describe the microhematocrit procedure and how the result is read.",
     "ar": "صف طريقة الهيماتوكريت الدقيق وكيف تُقرأ النتيجة.",
     "answer_en": "Fill two capillary tubes ¾ with blood (2–3 drops, finger puncture); seal one end with clay or wax about 2 mm; place them opposite each other in the microhematocrit centrifuge; spin at about 10,000 rpm for 5 minutes. On the card reader, put the tube vertical, bottom of RBCs on 0%, top of plasma on 100%, and read at the top of the packed RBC layer.",
-    "answer_ar": "املأ أنبوبين شعريين ¾ بالدم (2–3 قطرات، وخز الإصبع)؛ أغلق طرفًا بالطين أو الشمع نحو 2 ملم؛ ضعهما متقابلين في جهاز الطرد؛ وانبذ بنحو 10,000 دورة لـ 5 دقائق. وفي القارئ البطاقي ضع الأنبوب عموديًا، أسفل الكريات على 0% وأعلى البلازما على 100%، واقرأ عند أعلى طبقة الكريات المرصوصة."
+    "answer_ar": "املأ أنبوبين شعريين ¾ بالدم (2–3 قطرات، وخز الإصبع)؛ أغلق طرفًا بالطين أو الشمع نحو 2 ملم؛ ضعهما متقابلين في جهاز الطرد؛ واجرِ طردًا مركزيًا بنحو 10,000 دورة لـ 5 دقائق. وفي القارئ البطاقي ضع الأنبوب عموديًا، أسفل الكريات على 0% وأعلى البلازما على 100%، واقرأ عند أعلى طبقة الكريات المرصوصة."
    },
    {
     "en": "Give the normal values of PCV and the conditions that change it.",
@@ -1557,7 +1597,7 @@
     "en": "List the sources of error in PCV determination.",
     "ar": "عدّد مصادر الخطأ في تحديد PCV.",
     "answer_en": "1. Excess anticoagulant shrinks RBCs and lowers the reading. 2. Poor sealing of the capillary tube causes blood loss during centrifugation and a falsely low result. 3. Forcing the centrifuge to stop disturbs the packed red cell layer and gives a falsely high result.",
-    "answer_ar": "1. زيادة مانع التخثّر تقلّص الكريات وتخفض القراءة. 2. ضعف إغلاق الأنبوب يسبّب فقدان الدم أثناء النبذ ونتيجة منخفضة كاذبة. 3. إيقاف الجهاز بالقوّة يربك طبقة الكريات ويعطي نتيجة مرتفعة كاذبة."
+    "answer_ar": "1. زيادة مانع التخثّر تقلّص الكريات وتخفض القراءة. 2. ضعف إغلاق الأنبوب يسبّب فقدان الدم أثناء الطرد المركزي ونتيجة منخفضة كاذبة. 3. إيقاف الجهاز بالقوّة يربك طبقة الكريات ويعطي نتيجة مرتفعة كاذبة."
    }
   ]
  }
