@@ -87,6 +87,7 @@
 - [[Code/tb - turb.py|tb/turb.py]] → hematology-practical-turbidimetry
 - [[Code/thy - thyq.py|thy/thyq.py]] → endocrine-lab5-thyroid-hormones
 - [[Code/vir3 - v3q.py|vir3/v3q.py]] → virology-lab3-direct-examination
+- [[Code/vir4 - v4q.py|vir4/v4q.py]] → virology-lab4-isolation-cultivation
 
 ## Other utilities
 
@@ -119,6 +120,7 @@
 - [[Code/restyle.py|restyle.py]]
 - [[Code/thy - thy.py|thy/thy.py]]
 - [[Code/vir3 - v3.py|vir3/v3.py]]
+- [[Code/vir4 - v4.py|vir4/v4.py]]
 
 ## Engine snapshot
 

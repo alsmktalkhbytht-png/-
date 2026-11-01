@@ -1,0 +1,1744 @@
+{
+ "meta": {
+  "subject_en": "Medical Virology",
+  "subject_ar": "الفيروسات الطبية",
+  "short_ar": "فايروسات",
+  "instructor": "د. آية وسمي",
+  "unit_en": "Lab 4",
+  "unit_ar": "العملي 4",
+  "unit_label": "LAB",
+  "unit_no": "4",
+  "title_en": "Isolation and Cultivation of Viruses",
+  "title_ar": "عزل الفيروسات وزرعها",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Introduction",
+   "ar": "المقدمة"
+  },
+  {
+   "t": "h2",
+   "en": "Isolation and Cultivation of Viruses",
+   "ar": "عزل الفيروسات وزرعها"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Viruses are **obligate intracellular parasites**, meaning they **require living host cells to replicate**.",
+    "To study viruses, it is essential to **isolate and cultivate** them in the laboratory.",
+    "This involves providing them with **suitable host cells and conditions** for replication."
+   ],
+   "ar": [
+    "الفيروسات **طفيليات إجبارية داخل الخلايا**، أي أنها **تحتاج إلى خلايا مضيفة حية لتتضاعف**.",
+    "ولدراسة الفيروسات لا بدّ من **عزلها وزرعها** في المختبر.",
+    "ويتضمّن ذلك تزويدها **بخلايا مضيفة وظروف مناسبة** للتضاعف."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Methods of Viral Cultivation",
+   "ar": "طرق زرع الفيروسات"
+  },
+  {
+   "t": "rule",
+   "en": "**Cell Culture:** The **most common method**, involving growing viruses in cultured cells derived from various animal tissues.",
+   "ar": "**المزرعة الخلوية:** **الطريقة الأكثر شيوعًا**، وتتضمّن تنمية الفيروسات في خلايا مزروعة مشتقّة من أنسجة حيوانية مختلفة."
+  },
+  {
+   "t": "rule",
+   "en": "**Primary cell cultures:** Derived **directly from tissues**, have **limited lifespan**.",
+   "ar": "**المزارع الخلوية الأولية:** مشتقّة **مباشرةً من الأنسجة**، ولها **عمر محدود**."
+  },
+  {
+   "t": "rule",
+   "en": "**Continuous cell lines:** **Immortalized (not dying)** cells that can be **propagated indefinitely**.",
+   "ar": "**الخطوط الخلوية المستمرة:** خلايا **خالدة (لا تموت)** يمكن **إكثارها إلى ما لا نهاية**."
+  },
+  {
+   "t": "rule",
+   "en": "**Embryonated Eggs:** Used for cultivating some viruses, such as **influenza and herpes simplex viruses**.",
+   "ar": "**البيض المُخصَّب (الحاوي على جنين):** يُستعمل لزرع بعض الفيروسات، مثل **فيروسات الإنفلونزا والحلأ البسيط (الهربس البسيط)**."
+  },
+  {
+   "t": "rule",
+   "en": "**Animal Inoculation:** Used for viruses that **cannot be grown in cell culture or eggs**, such as **rabies and poliovirus**.",
+   "ar": "**حقن الحيوانات:** يُستعمل للفيروسات التي **لا يمكن تنميتها في المزرعة الخلوية أو البيض**، مثل **داء الكلب وفيروس شلل الأطفال**."
+  },
+  {
+   "t": "note",
+   "en": "Items 2 and 3 (primary cultures and continuous lines) are the two kinds of item 1 (cell culture), although the sheet numbers them separately.",
+   "ar": "البندان 2 و3 (المزارع الأولية والخطوط المستمرة) هما نوعا البند 1 (المزرعة الخلوية)، مع أن الورقة رقّمتهما بشكل مستقل.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Viruses need **living cells** → must be isolated and cultivated in the lab.",
+    "Methods: **cell culture** (primary / continuous), **embryonated eggs** (influenza, HSV), **animal inoculation** (rabies, polio)."
+   ],
+   "ar": [
+    "الفيروسات تحتاج **خلايا حية** ← لا بدّ من عزلها وزرعها في المختبر.",
+    "الطرق: **المزرعة الخلوية** (أولية / مستمرة)، **البيض المخصّب** (الإنفلونزا، الهربس)، **حقن الحيوانات** (الكلب، شلل الأطفال)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Steps in Viral Isolation",
+   "ar": "خطوات العزل والزرع"
+  },
+  {
+   "t": "h2",
+   "en": "Steps in Viral Isolation and Cultivation",
+   "ar": "خطوات عزل الفيروسات وزرعها"
+  },
+  {
+   "t": "rule",
+   "en": "**Sample Collection:** Obtain clinical specimens (e.g., **blood, respiratory secretions, stool**) from infected individuals.",
+   "ar": "**جمع العيّنة:** الحصول على عيّنات سريرية (مثل **الدم والإفرازات التنفسية والبراز**) من الأشخاص المصابين."
+  },
+  {
+   "t": "rule",
+   "en": "**Sample Preparation:** Inactivate or remove interfering substances, such as **antibiotics or bacteria**.",
+   "ar": "**تحضير العيّنة:** تثبيط المواد المتداخلة أو إزالتها، مثل **المضادّات الحيوية أو البكتيريا**."
+  },
+  {
+   "t": "rule",
+   "en": "**Inoculation:** Introduce the prepared sample into the chosen host system (**cell culture, embryonated eggs, or animals**).",
+   "ar": "**التلقيح:** إدخال العيّنة المحضّرة في النظام المضيف المختار (**المزرعة الخلوية، أو البيض المخصّب، أو الحيوانات**)."
+  },
+  {
+   "t": "rule",
+   "en": "**Incubation:** Provide appropriate conditions for viral replication (**temperature, humidity**, etc.).",
+   "ar": "**الحضن:** توفير الظروف المناسبة لتضاعف الفيروس (**الحرارة، الرطوبة**، وغيرها)."
+  },
+  {
+   "t": "rule",
+   "en": "**Observation:** Monitor for signs of viral infection, such as **cytopathic effects (CPE)** in cell cultures or **disease symptoms** in animals.",
+   "ar": "**المراقبة:** متابعة علامات الإصابة الفيروسية، مثل **التأثيرات المرضية الخلوية (CPE)** في المزارع الخلوية أو **أعراض المرض** في الحيوانات."
+  },
+  {
+   "t": "rule",
+   "en": "**Virus Identification:** Use various techniques to identify the isolated virus, such as:",
+   "ar": "**تشخيص الفيروس:** استعمال تقنيات مختلفة لتحديد الفيروس المعزول، مثل:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Electron microscopy:** Visualize viral particles directly.",
+    "**Serological tests:** Detect virus-specific antibodies.",
+    "**Nucleic acid amplification tests (NAATs):** Amplify and detect viral DNA or RNA."
+   ],
+   "list_ar": [
+    "**المجهر الإلكتروني:** رؤية الجسيمات الفيروسية مباشرةً.",
+    "**الفحوص المصلية:** كشف الأضداد الخاصّة بالفيروس.",
+    "**فحوص تضخيم الحامض النووي (NAATs):** تضخيم DNA أو RNA الفيروسي وكشفه."
+   ],
+   "alpha": true
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Collection",
+     "ar": "الجمع"
+    },
+    {
+     "en": "Preparation",
+     "ar": "التحضير"
+    },
+    {
+     "en": "Inoculation",
+     "ar": "التلقيح"
+    },
+    {
+     "en": "Incubation",
+     "ar": "الحضن"
+    },
+    {
+     "en": "Observation",
+     "ar": "المراقبة"
+    },
+    {
+     "en": "Identification",
+     "ar": "التشخيص"
+    }
+   ],
+   "en": "Six steps",
+   "ar": "الخطوات الست"
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Collect → prepare → inoculate → incubate → observe (CPE) → identify**.",
+    "Identification: **EM** (particles), **serology** (antibodies), **NAATs** (DNA/RNA)."
+   ],
+   "ar": [
+    "**الجمع ← التحضير ← التلقيح ← الحضن ← المراقبة (CPE) ← التشخيص**.",
+    "التشخيص: **المجهر الإلكتروني** (الجسيمات)، **المصلية** (الأضداد)، **NAATs** (DNA/RNA)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Isolation of Viruses",
+   "ar": "عزل الفيروسات"
+  },
+  {
+   "t": "rule",
+   "en": "Viruses **cannot be grown on an artificial nutrient medium**, viruses require a **living host cell** for replication.",
+   "ar": "**لا يمكن تنمية الفيروسات على وسط غذائي اصطناعي**، فالفيروسات تحتاج إلى **خلية مضيفة حية** لتتضاعف."
+  },
+  {
+   "t": "rule",
+   "en": "Infected host cells (eukaryotic or prokaryotic) can be cultured and grown, and then the **growth medium can be harvested** as a source of virus.",
+   "ar": "يمكن زرع الخلايا المضيفة المصابة (حقيقية النواة أو بدائية النواة) وتنميتها، ثم **يُحصد وسط النمو** مصدرًا للفيروس."
+  },
+  {
+   "t": "rule",
+   "en": "**Virions** (virus particles) in the liquid medium can be separated from the host cells by either **centrifugation or filtration**.",
+   "ar": "يمكن فصل **الفيريونات** (الجسيمات الفيروسية) في الوسط السائل عن الخلايا المضيفة إمّا **بالطرد المركزي أو بالترشيح**."
+  },
+  {
+   "t": "rule",
+   "en": "Filters can physically remove anything present in the solution that is **larger than the virions**; the viruses can then be **collected in the filtrate** (Figure 1).",
+   "ar": "تستطيع المرشّحات أن تزيل فيزيائيًا كل ما في المحلول **أكبر من الفيريونات**؛ ثم **تُجمع الفيروسات في الراشح** (الشكل 1)."
+  },
+  {
+   "t": "figure",
+   "src": "assets/filter-isolation.png",
+   "en": "Figure 6.3.1. Isolation of virus from other cells by Bacterial filter: Membrane filters can be used to remove cells or viruses from a solution. (a) This scanning electron micrograph shows rod-shaped bacterial cells captured on the surface of a membrane filter. Note differences in the comparative size of the membrane pores and bacteria. Viruses will pass through this filter. (b) The size of the pores in the filter determines what is captured on the surface of the filter (animal [red] and bacteria [blue]) and removed from liquid passing through. Note the viruses (green) pass through the finer filter. (credit a: modification of work by U.S. Department of Energy)",
+   "ar": "الشكل 6.3.1. عزل الفيروس عن الخلايا الأخرى بالمرشّح البكتيري: يمكن استعمال المرشّحات الغشائية لإزالة الخلايا أو الفيروسات من المحلول. (أ) صورة بالمجهر الإلكتروني الماسح تُظهر خلايا بكتيرية عصوية (Bacteria) عالقة على سطح مرشّح غشائي؛ لاحظ الفرق في الحجم بين ثقوب الغشاء (Pore) والبكتيريا، والفيروسات ستمرّ خلال هذا المرشّح. (ب) حجم ثقوب المرشّح (5 مايكرومتر، و200 نانومتر = 0.2 مايكرومتر) يحدّد ما يُحتجز على سطحه (الخلايا الحيوانية [أحمر] والبكتيريا [أزرق]) ويُزال من السائل المارّ؛ لاحظ أن الفيروسات (أخضر) تمرّ خلال المرشّح الأدقّ. (مصدر أ: تعديل عن عمل وزارة الطاقة الأمريكية)",
+   "h": "64mm"
+  },
+  {
+   "t": "note",
+   "en": "The sheet calls this figure \"Figure 1\" in the text but \"Figure 6.3.1\" in the caption — they are the same figure.",
+   "ar": "الورقة تسمّي هذا الشكل \"Figure 1\" في النص و\"Figure 6.3.1\" في التعليق — وهما الشكل نفسه.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "No artificial media — viruses need **living host cells**; harvest the **growth medium**.",
+    "Separate virions by **centrifugation or filtration**; viruses pass into the **filtrate**."
+   ],
+   "ar": [
+    "لا أوساط اصطناعية — الفيروسات تحتاج **خلايا مضيفة حية**؛ ويُحصد **وسط النمو**.",
+    "تُفصل الفيريونات **بالطرد المركزي أو الترشيح**؛ والفيروسات تمرّ إلى **الراشح**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Cultivation of Viruses",
+   "ar": "زرع الفيروسات"
+  },
+  {
+   "t": "rule",
+   "en": "Viruses can be grown **in vivo** (within a whole living organism, plant, or animal) or **in vitro** (outside a living organism in cells in an artificial environment, such as a test tube, cell culture flask, or agar plate).",
+   "ar": "يمكن تنمية الفيروسات **داخل الكائن الحي (in vivo)** (ضمن كائن حي كامل، نبات أو حيوان) أو **خارج الكائن الحي (in vitro)** (في خلايا ضمن بيئة اصطناعية، مثل أنبوب اختبار أو قنينة مزرعة خلوية أو طبق آكار)."
+  },
+  {
+   "t": "rule",
+   "en": "**Bacteriophages** can be grown in the presence of a dense layer of bacteria (also called a **bacterial lawn**) grown in a **0.7 % soft agar** in a Petri dish or flat (horizontal) flask (Figure 2 a).",
+   "ar": "يمكن تنمية **العاثيات البكتيرية** بوجود طبقة كثيفة من البكتيريا (تُسمّى أيضًا **المرجة أو البساط البكتيري**) منماة في **آكار طري بتركيز 0.7%** في طبق بتري أو قنينة مسطّحة (أفقية) (الشكل 2 أ)."
+  },
+  {
+   "t": "card",
+   "en": "The agar concentration is decreased from the **1.5%** usually used in culturing bacteria.",
+   "ar": "ويُخفَّض تركيز الآكار عن **1.5%** المستعمل عادةً في زرع البكتيريا."
+  },
+  {
+   "t": "card",
+   "en": "The soft 0.7% agar allows the bacteriophages to **easily diffuse** through the medium.",
+   "ar": "ويسمح الآكار الطري 0.7% للعاثيات **بالانتشار بسهولة** خلال الوسط."
+  },
+  {
+   "t": "card",
+   "en": "For **lytic bacteriophages**, lysing of the bacterial hosts can then be readily observed when a **clear zone called a plaque** is detected (Figure 2b).",
+   "ar": "وفي **العاثيات المحلِّلة**، يمكن ملاحظة تحلّل البكتيريا المضيفة بسهولة عند ظهور **منطقة صافية تُسمّى اللويحة (البلاك)** (الشكل 2 ب)."
+  },
+  {
+   "t": "card",
+   "en": "As the phage kills the bacteria, many plaques are observed among the **cloudy bacterial lawn**.",
+   "ar": "ومع قتل العاثي للبكتيريا تُلاحظ لويحات كثيرة وسط **المرجة البكتيرية العكرة**."
+  },
+  {
+   "t": "figure",
+   "src": "assets/flask-plaques.png",
+   "en": "Figure 2. (a) Flasks like this may be used to culture human or animal cells for viral culturing. (b) These plates contain bacteriophage T4 grown on an Escherichia coli lawn. Clear plaques are visible where host bacterial cells have been lysed. Viral titers increase on the plates to the left.",
+   "ar": "الشكل 2. (أ) قد تُستعمل قناني مثل هذه لزرع الخلايا البشرية أو الحيوانية لزرع الفيروسات. (ب) تحتوي هذه الأطباق على العاثي T4 منمًّى على مرجة من الإشريكية القولونية؛ وتظهر لويحات صافية حيث تحلّلت الخلايا البكتيرية المضيفة. ويزداد العيار الفيروسي في الأطباق باتجاه اليسار.",
+   "h": "44mm"
+  },
+  {
+   "t": "rule",
+   "en": "**Animal viruses** require cells within a **host animal** or **tissue-culture cells** derived from an animal.",
+   "ar": "تحتاج **الفيروسات الحيوانية** إلى خلايا داخل **حيوان مضيف** أو إلى **خلايا مزرعة نسيجية** مشتقّة من حيوان."
+  },
+  {
+   "t": "card",
+   "en": "Animal virus cultivation is important for:",
+   "ar": "زرع الفيروسات الحيوانية مهمّ لـ:",
+   "list_en": [
+    "**identification and diagnosis** of pathogenic viruses in clinical specimens.",
+    "**production of vaccines**.",
+    "**basic research** studies."
+   ],
+   "list_ar": [
+    "**تحديد وتشخيص** الفيروسات الممرضة في العيّنات السريرية.",
+    "**إنتاج اللقاحات**.",
+    "**دراسات البحث الأساسي**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "A. In vivo",
+   "ar": "أ. داخل الكائن الحي"
+  },
+  {
+   "t": "card",
+   "en": "**In vivo** host sources can be a developing embryo in an **embryonated bird’s egg** (e.g., chicken, turkey) or a **whole animal**.",
+   "ar": "يمكن أن تكون مصادر المضيف **داخل الكائن الحي** جنينًا نامِيًا في **بيضة طائر مخصّبة** (مثل الدجاج والديك الرومي) أو **حيوانًا كاملًا**."
+  },
+  {
+   "t": "card",
+   "en": "For example, most of the **influenza vaccine** manufactured for annual flu vaccination programs is cultured in **hens’ eggs**.",
+   "ar": "فمثلًا يُزرع معظم **لقاح الإنفلونزا** المصنَّع لبرامج التلقيح السنوية في **بيض الدجاج**."
+  },
+  {
+   "t": "card",
+   "en": "The embryo or host animal serves as an **incubator** for viral replication (Figure 3).",
+   "ar": "ويعمل الجنين أو الحيوان المضيف **حاضنةً** لتضاعف الفيروس (الشكل 3)."
+  },
+  {
+   "t": "figure",
+   "src": "assets/egg-cultivation.png",
+   "en": "Figure 3. (a) The cells within chicken eggs are used to culture different types of viruses. (b) Viruses can be replicated in various locations within the egg, including the chorioallantoic membrane, the amniotic cavity, and the yolk sac. (Labels: chorioallantoic membrane, amniotic cavity, embryo, albumin, yolk sac, shell)",
+   "ar": "الشكل 3. (أ) تُستعمل الخلايا داخل بيض الدجاج لزرع أنواع مختلفة من الفيروسات. (ب) يمكن أن تتضاعف الفيروسات في مواقع مختلفة داخل البيضة، منها الغشاء المشيمي السقائي، والجوف الأمنيوسي (السلوي)، وكيس المحّ. (التسميات: الغشاء المشيمي السقائي، الجوف الأمنيوسي، الجنين، الزلال (بياض البيض)، كيس المحّ (الصفار)، القشرة)",
+   "h": "50mm"
+  },
+  {
+   "t": "h2",
+   "en": "B. In vitro",
+   "ar": "ب. خارج الكائن الحي"
+  },
+  {
+   "t": "card",
+   "en": "For **in vitro** studies, various types of cells can be used to support the growth of viruses.",
+   "ar": "في الدراسات **خارج الكائن الحي** يمكن استعمال أنواع مختلفة من الخلايا لدعم نموّ الفيروسات."
+  },
+  {
+   "t": "card",
+   "en": "A **primary cell culture** is freshly prepared from animal organs or tissues.",
+   "ar": "و**المزرعة الخلوية الأولية** تُحضَّر حديثًا من أعضاء الحيوان أو أنسجته."
+  },
+  {
+   "t": "card",
+   "en": "Cells are extracted from tissues by **mechanical scraping or mincing** to release cells or by an **enzymatic method using trypsin or Collagenase** to break up tissue and release single cells into suspension.",
+   "ar": "وتُستخلص الخلايا من الأنسجة **بالكشط الميكانيكي أو الفرم** لتحرير الخلايا، أو **بطريقة إنزيمية باستعمال التربسين أو الكولاجينيز** لتفكيك النسيج وتحرير خلايا مفردة في معلّق."
+  },
+  {
+   "t": "card",
+   "en": [
+    "In contrast to primary cell cultures, **continuous cell lines**, usually derived from **transformed cells or tumors**, are often able to be subcultured many times or even grown indefinitely (in which case they are called **immortal**).",
+    "(Figure 4)."
+   ],
+   "ar": [
+    "وعلى خلاف المزارع الأولية، فإن **الخطوط الخلوية المستمرة**، المشتقّة عادةً من **خلايا متحوّلة أو أورام**، يمكن غالبًا زرعها ثانويًا مرّات كثيرة أو حتى تنميتها إلى ما لا نهاية (وتُسمّى عندئذٍ **خالدة**).",
+    "(الشكل 4)."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/cell-cultures.png",
+   "en": "Figure 4. Cells for culture are prepared by separating them from their tissue matrix. (a) Primary cell cultures grow attached to the surface of the culture container. Contact inhibition slows the growth of the cells once they become too dense and begin touching each other. At this point, growth can only be sustained by making a secondary culture. (b) Continuous cell cultures are not affected by contact inhibition. They continue to grow regardless of cell density.",
+   "ar": "الشكل 4. تُحضَّر الخلايا للزرع بفصلها عن قالبها النسيجي. (أ) المزارع الخلوية الأولية تنمو ملتصقة بسطح وعاء الزرع (نسيج الرئة ← خلايا مفردة معزولة من النسيج ← مزرعة خلوية أولية ← تثبيط التماس ← نقل بعض الخلايا إلى وسط جديد ← مزرعة خلوية ثانوية). ويبطّئ تثبيط التماس نموّ الخلايا عندما تصبح كثيفة جدًا وتبدأ بلمس بعضها؛ وعندها لا يستمر النمو إلا بعمل مزرعة ثانوية. (ب) المزارع الخلوية المستمرة لا تتأثّر بتثبيط التماس (خلايا متحوّلة أو خلايا مفردة معزولة من ورم ← خط خلوي مستمر)، وتستمر بالنمو بغضّ النظر عن كثافة الخلايا.",
+   "h": "56mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "Primary cell culture",
+     "المزرعة الأولية"
+    ],
+    [
+     "Continuous cell line",
+     "الخط المستمر"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Source**",
+      "**المصدر**"
+     ],
+     [
+      "freshly from animal organs or tissues",
+      "حديثًا من أعضاء الحيوان أو أنسجته"
+     ],
+     [
+      "transformed cells or tumors",
+      "خلايا متحوّلة أو أورام"
+     ]
+    ],
+    [
+     [
+      "**Lifespan**",
+      "**العمر**"
+     ],
+     [
+      "limited",
+      "محدود"
+     ],
+     [
+      "indefinite (immortal)",
+      "غير محدود (خالدة)"
+     ]
+    ],
+    [
+     [
+      "**Contact inhibition**",
+      "**تثبيط التماس**"
+     ],
+     [
+      "yes → secondary culture needed",
+      "نعم ← تحتاج مزرعة ثانوية"
+     ],
+     [
+      "not affected",
+      "لا تتأثّر"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    38,
+    38
+   ],
+   "style": "summary",
+   "label_en": "Primary vs continuous",
+   "label_ar": "الأولية مقابل المستمرة"
+  },
+  {
+   "t": "note",
+   "en": [
+    "**In vivo** (whole organism, embryonated egg) vs **in vitro** (cells in flasks, plates).",
+    "Phages: **bacterial lawn** in **0.7% soft agar** (not 1.5%) → **plaques** = clear zones of lysis.",
+    "Eggs: chorioallantoic membrane, amniotic cavity, yolk sac; flu vaccine in **hens’ eggs**."
+   ],
+   "ar": [
+    "**داخل الكائن** (كائن كامل، بيض مخصّب) مقابل **خارجه** (خلايا في قناني وأطباق).",
+    "العاثيات: **مرجة بكتيرية** في **آكار طري 0.7%** (لا 1.5%) ← **لويحات** = مناطق تحلّل صافية.",
+    "البيض: الغشاء المشيمي السقائي، الجوف الأمنيوسي، كيس المحّ؛ ولقاح الإنفلونزا في **بيض الدجاج**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Detection of a Virus",
+   "ar": "الكشف عن الفيروس"
+  },
+  {
+   "t": "card",
+   "en": "Regardless of the method of cultivation, once a virus has been introduced into a whole host organism, embryo, or tissue-culture cell, a sample can be prepared from the infected host, embryo, or cell line for further analysis under a **brightfield, electron, or fluorescent microscope**.",
+   "ar": "بغضّ النظر عن طريقة الزرع، بمجرّد إدخال الفيروس في كائن مضيف كامل أو جنين أو خلية مزرعة نسيجية، يمكن تحضير عيّنة من المضيف أو الجنين أو الخط الخلوي المصاب لتحليلها أكثر تحت **المجهر الضوئي ذي الحقل الساطع أو الإلكتروني أو الفلوري**."
+  },
+  {
+   "t": "card",
+   "en": "**Cytopathic effects (CPEs)** are distinct observable cell abnormalities due to viral infection.",
+   "ar": "**التأثيرات المرضية الخلوية (CPEs)** شذوذات خلوية مميّزة يمكن ملاحظتها بسبب الإصابة الفيروسية."
+  },
+  {
+   "t": "card",
+   "en": "CPEs can include **loss of adherence** to the surface of the container, changes in cell shape from **flat to round**, **shrinkage of the nucleus**, **vacuoles in the cytoplasm**, **fusion of cytoplasmic membranes** and the formation of **multinucleated syncytia**, **inclusion bodies** in the nucleus or cytoplasm, and **complete cell lysis** (Figure 5).",
+   "ar": "وقد تشمل CPEs: **فقدان الالتصاق** بسطح الوعاء، وتغيّر شكل الخلية من **مسطّح إلى كروي**، و**انكماش النواة**، و**فجوات في السايتوبلازم**، و**اندماج الأغشية السايتوبلازمية** وتكوين **مخلوّات متعدّدة النوى**، و**أجسام اشتمالية** في النواة أو السايتوبلازم، و**التحلّل الكامل للخلية** (الشكل 5)."
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Virus",
+     "الفيروس"
+    ],
+    [
+     "Cytopathic Effect",
+     "التأثير المرضي الخلوي"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "*Paramyxovirus*",
+      "*الفيروس المخاطاني نظير*"
+     ],
+     [
+      "Syncytium and faint basophilic cytoplasmic inclusion bodies",
+      "مخلوّ وأجسام اشتمالية سايتوبلازمية قاعدية الصبغ باهتة"
+     ]
+    ],
+    [
+     [
+      "*Poxvirus*",
+      "*الفيروس الجدري*"
+     ],
+     [
+      "Pink eosinophilic cytoplasmic inclusion bodies (arrows) and cell swelling",
+      "أجسام اشتمالية سايتوبلازمية وردية حمضية الصبغ (الأسهم) وانتفاخ الخلية"
+     ]
+    ],
+    [
+     [
+      "*Herpesvirus*",
+      "*الفيروس الحلئي (الهربس)*"
+     ],
+     [
+      "Cytoplasmic stranding (arrow) and nuclear inclusion bodies (dashed arrow)",
+      "تخيّط (خيوط) سايتوبلازمي (السهم) وأجسام اشتمالية نووية (السهم المتقطّع)"
+     ]
+    ],
+    [
+     [
+      "*Adenovirus*",
+      "*الفيروس الغدّي*"
+     ],
+     [
+      "Cell enlargement, rounding, and distinctive “grape-like” clusters",
+      "تضخّم الخلية وتكوّرها وعناقيد مميّزة \"شبيهة بالعنب\""
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    70
+   ],
+   "label_en": "Cytopathic Effects of Specific Viruses",
+   "label_ar": "التأثيرات المرضية الخلوية لفيروسات معيّنة"
+  },
+  {
+   "t": "figure",
+   "src": "assets/cpe-examples.png",
+   "en": "Figure 5. Cytopathic effects induced by virus infections — Example column, left to right: Paramyxovirus, Poxvirus, Herpesvirus, Adenovirus (ASM MicrobeLibrary.org © Suchman and Blair)",
+   "ar": "الشكل 5. التأثيرات المرضية الخلوية الناتجة عن الإصابات الفيروسية — عمود الأمثلة من اليسار إلى اليمين: الفيروس المخاطاني نظير، الفيروس الجدري، الفيروس الحلئي، الفيروس الغدّي",
+   "h": "40mm"
+  },
+  {
+   "t": "note",
+   "en": "Figure 5 in the sheet is a table picture; its text is written above as a bilingual table and its four example photos are shown in one row.",
+   "ar": "الشكل 5 في الورقة صورة جدول؛ فكُتب نصّه أعلاه جدولًا ثنائي اللغة، وعُرضت صوره الأربع بصفّ واحد.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Detect under **brightfield, electron, or fluorescent** microscope.",
+    "**CPEs**: loss of adherence, round cells, nuclear shrinkage, vacuoles, **syncytia**, inclusion bodies, **lysis**.",
+    "Paramyxo → syncytium; pox → pink cytoplasmic inclusions; herpes → stranding + nuclear inclusions; adeno → grape-like clusters."
+   ],
+   "ar": [
+    "الكشف تحت المجهر **الضوئي الساطع أو الإلكتروني أو الفلوري**.",
+    "**CPEs**: فقدان الالتصاق، تكوّر الخلايا، انكماش النواة، فجوات، **مخلوّات**، أجسام اشتمالية، **تحلّل**.",
+    "المخاطاني نظير ← مخلوّ؛ الجدري ← أجسام سايتوبلازمية وردية؛ الهربس ← تخيّط + أجسام نووية؛ الغدّي ← عناقيد عنبية."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Isolation**",
+     "العزل"
+    ],
+    [
+     "**Cultivation**",
+     "الزرع / الاستنبات"
+    ],
+    [
+     "**Cell culture**",
+     "المزرعة الخلوية / زرع الخلايا"
+    ],
+    [
+     "**Primary cell culture**",
+     "المزرعة الخلوية الأولية"
+    ],
+    [
+     "**Continuous cell line**",
+     "الخط الخلوي المستمر"
+    ],
+    [
+     "**Immortalized / immortal**",
+     "خالدة / مُخلَّدة"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Embryonated egg**",
+     "البيض المخصّب / الحاوي على جنين"
+    ],
+    [
+     "**Animal inoculation**",
+     "حقن (تلقيح) الحيوانات"
+    ],
+    [
+     "**Inoculation**",
+     "التلقيح / الحقن"
+    ],
+    [
+     "**Incubation**",
+     "الحضن"
+    ],
+    [
+     "**Filtrate**",
+     "الراشح"
+    ],
+    [
+     "**Centrifugation**",
+     "الطرد المركزي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**In vivo / in vitro**",
+     "داخل الكائن الحي / خارج الكائن الحي (في الزجاج)"
+    ],
+    [
+     "**Bacterial lawn**",
+     "المرجة البكتيرية / البساط البكتيري"
+    ],
+    [
+     "**Soft agar**",
+     "الآكار الطري"
+    ],
+    [
+     "**Lytic bacteriophage**",
+     "العاثي المحلِّل"
+    ],
+    [
+     "**Plaque**",
+     "اللويحة / البلاك / البقعة الصافية"
+    ],
+    [
+     "**Viral titer**",
+     "العيار الفيروسي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Chorioallantoic membrane**",
+     "الغشاء المشيمي السقائي"
+    ],
+    [
+     "**Amniotic cavity**",
+     "الجوف الأمنيوسي / السلوي"
+    ],
+    [
+     "**Yolk sac**",
+     "كيس المحّ / كيس الصفار"
+    ],
+    [
+     "**Trypsin / Collagenase**",
+     "التربسين / الكولاجينيز"
+    ],
+    [
+     "**Contact inhibition**",
+     "تثبيط التماس"
+    ],
+    [
+     "**Cytopathic effect (CPE)**",
+     "التأثير المرضي الخلوي / الاعتلال الخلوي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Syncytium**",
+     "المخلوّ / الخلية المندمجة متعدّدة النوى"
+    ],
+    [
+     "**Inclusion bodies**",
+     "الأجسام الاشتمالية / المحتواة"
+    ],
+    [
+     "**Cell lysis**",
+     "تحلّل الخلية"
+    ],
+    [
+     "**Virion**",
+     "الفيريون / الجسيم الفيروسي"
+    ],
+    [
+     "**Serological tests**",
+     "الفحوص المصلية"
+    ],
+    [
+     "**NAATs**",
+     "فحوص تضخيم الحامض النووي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Vaccine**",
+     "اللقاح"
+    ],
+    [
+     "**Transformed cells**",
+     "الخلايا المتحوّلة"
+    ],
+    [
+     "**Secondary culture**",
+     "المزرعة الثانوية"
+    ],
+    [
+     "**Fluorescent microscope**",
+     "المجهر الفلوري / مجهر التألّق"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "MCQs Lab Four (from the lab sheet)",
+    "topic_ar": "أسئلة العملي الرابع (من ورقة العملي)"
+   },
+   {
+    "en": "Why must viruses be cultivated in living cells:",
+    "ar": "لماذا يجب زرع الفيروسات في خلايا حية:",
+    "options": [
+     [
+      "They synthesize their own proteins",
+      "تصنّع بروتيناتها بنفسها"
+     ],
+     [
+      "They require host cells to replicate",
+      "تحتاج خلايا مضيفة لتتضاعف"
+     ],
+     [
+      "They grow on artificial nutrient media",
+      "تنمو على أوساط غذائية اصطناعية"
+     ],
+     [
+      "They divide by binary fission",
+      "تنقسم بالانشطار الثنائي"
+     ],
+     [
+      "They produce ATP independently",
+      "تنتج ATP بشكل مستقل"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which method uses immortalized cells that can be propagated indefinitely:",
+    "ar": "أي طريقة تستعمل خلايا خالدة يمكن إكثارها إلى ما لا نهاية:",
+    "options": [
+     [
+      "Primary cell culture",
+      "المزرعة الخلوية الأولية"
+     ],
+     [
+      "Embryonated egg culture",
+      "الزرع في البيض المخصّب"
+     ],
+     [
+      "Continuous cell line",
+      "الخط الخلوي المستمر"
+     ],
+     [
+      "Animal inoculation",
+      "حقن الحيوانات"
+     ],
+     [
+      "Bacterial lawn culture",
+      "زرع المرجة البكتيرية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which is an example of a clinical specimen collected for viral isolation:",
+    "ar": "أيّها مثال على عيّنة سريرية تُجمع لعزل الفيروس:",
+    "options": [
+     [
+      "Distilled water",
+      "الماء المقطّر"
+     ],
+     [
+      "Blood",
+      "الدم"
+     ],
+     [
+      "Agar powder",
+      "مسحوق الآكار"
+     ],
+     [
+      "Culture flask",
+      "قنينة الزرع"
+     ],
+     [
+      "Filter paper",
+      "ورق الترشيح"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "During viral isolation, virions can be separated from host cells by:",
+    "ar": "أثناء عزل الفيروس يمكن فصل الفيريونات عن الخلايا المضيفة بـ:",
+    "options": [
+     [
+      "Gram staining",
+      "صبغة گرام"
+     ],
+     [
+      "Autoclaving",
+      "التعقيم بالموصدة"
+     ],
+     [
+      "Centrifugation or filtration",
+      "الطرد المركزي أو الترشيح"
+     ],
+     [
+      "Freezing only",
+      "التجميد فقط"
+     ],
+     [
+      "Incubation in nutrient broth",
+      "الحضن في مرق مغذٍّ"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "What happens to most viruses when a suitable membrane filter removes larger cells and bacteria:",
+    "ar": "ماذا يحدث لمعظم الفيروسات عندما يزيل مرشّح غشائي مناسب الخلايا الأكبر والبكتيريا:",
+    "options": [
+     [
+      "They are retained on the filter surface",
+      "تُحتجز على سطح المرشّح"
+     ],
+     [
+      "They pass into the filtrate",
+      "تمرّ إلى الراشح"
+     ],
+     [
+      "They are destroyed immediately",
+      "تتحطّم فورًا"
+     ],
+     [
+      "They become bacteria",
+      "تصبح بكتيريا"
+     ],
+     [
+      "They form spores",
+      "تكوّن أبواغًا"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In bacteriophage cultivation, a clear zone in a bacterial lawn is called a:",
+    "ar": "في زرع العاثيات تُسمّى المنطقة الصافية في المرجة البكتيرية:",
+    "options": [
+     [
+      "Colony",
+      "مستعمرة"
+     ],
+     [
+      "Capsule",
+      "محفظة"
+     ],
+     [
+      "Spore",
+      "بوغ"
+     ],
+     [
+      "Plaque",
+      "لويحة (بلاك)"
+     ],
+     [
+      "Biofilm",
+      "غشاء حيوي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Why is 0.7% soft agar used for growing bacteriophages:",
+    "ar": "لماذا يُستعمل الآكار الطري 0.7% لتنمية العاثيات:",
+    "options": [
+     [
+      "It kills host bacteria",
+      "يقتل البكتيريا المضيفة"
+     ],
+     [
+      "It allows bacteriophages to diffuse easily",
+      "يسمح للعاثيات بالانتشار بسهولة"
+     ],
+     [
+      "It prevents plaque formation",
+      "يمنع تكوّن اللويحات"
+     ],
+     [
+      "It replaces the bacterial lawn",
+      "يحلّ محلّ المرجة البكتيرية"
+     ],
+     [
+      "It inactivates viral particles",
+      "يثبّط الجسيمات الفيروسية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which of the following is an important purpose of animal-virus cultivation:",
+    "ar": "أيّ ممّا يلي غرض مهمّ لزرع الفيروسات الحيوانية:",
+    "options": [
+     [
+      "Production of antibiotics",
+      "إنتاج المضادّات الحيوية"
+     ],
+     [
+      "Identification and diagnosis of pathogenic viruses",
+      "تحديد وتشخيص الفيروسات الممرضة"
+     ],
+     [
+      "Detection of fungal spores",
+      "كشف الأبواغ الفطرية"
+     ],
+     [
+      "Preparation of bacterial stains",
+      "تحضير الصبغات البكتيرية"
+     ],
+     [
+      "Production of artificial nutrient media",
+      "إنتاج أوساط غذائية اصطناعية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which method can directly visualize viral particles:",
+    "ar": "أي طريقة تستطيع رؤية الجسيمات الفيروسية مباشرةً:",
+    "options": [
+     [
+      "Electron microscopy",
+      "المجهر الإلكتروني"
+     ],
+     [
+      "Serological testing",
+      "الفحص المصلي"
+     ],
+     [
+      "Gram staining",
+      "صبغة گرام"
+     ],
+     [
+      "Bacterial culture",
+      "الزرع البكتيري"
+     ],
+     [
+      "Antibiotic sensitivity testing",
+      "فحص الحساسية للمضادّات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which finding is considered a cytopathic effect of viral infection:",
+    "ar": "أيّ نتيجة تُعدّ تأثيرًا مرضيًا خلويًا للإصابة الفيروسية:",
+    "options": [
+     [
+      "Formation of multinucleated syncytia",
+      "تكوين مخلوّات متعدّدة النوى"
+     ],
+     [
+      "Production of bacterial endospores",
+      "إنتاج أبواغ بكتيرية داخلية"
+     ],
+     [
+      "Increased cell adherence",
+      "زيادة التصاق الخلايا"
+     ],
+     [
+      "Normal cell division",
+      "انقسام خلوي طبيعي"
+     ],
+     [
+      "Formation of fungal hyphae",
+      "تكوين خيوط فطرية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "BIOS questions — methods and steps",
+    "topic_ar": "أسئلة BIOS — الطرق والخطوات"
+   },
+   {
+    "en": "The most common method of viral cultivation is:",
+    "ar": "أكثر طرق زرع الفيروسات شيوعًا:",
+    "options": [
+     [
+      "Embryonated eggs",
+      "البيض المخصّب"
+     ],
+     [
+      "Animal inoculation",
+      "حقن الحيوانات"
+     ],
+     [
+      "Cell culture",
+      "المزرعة الخلوية"
+     ],
+     [
+      "Artificial media",
+      "الأوساط الاصطناعية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Primary cell cultures:",
+    "ar": "المزارع الخلوية الأولية:",
+    "options": [
+     [
+      "Have a limited lifespan",
+      "لها عمر محدود"
+     ],
+     [
+      "Are immortal",
+      "خالدة"
+     ],
+     [
+      "Come from tumors",
+      "تأتي من الأورام"
+     ],
+     [
+      "Are not affected by contact inhibition",
+      "لا تتأثّر بتثبيط التماس"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Rabies and poliovirus are cultivated by:",
+    "ar": "يُزرع داء الكلب وفيروس شلل الأطفال بـ:",
+    "options": [
+     [
+      "Embryonated eggs",
+      "البيض المخصّب"
+     ],
+     [
+      "Animal inoculation",
+      "حقن الحيوانات"
+     ],
+     [
+      "Bacterial lawn",
+      "المرجة البكتيرية"
+     ],
+     [
+      "Soft agar",
+      "الآكار الطري"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Influenza and herpes simplex viruses can be cultivated in:",
+    "ar": "يمكن زرع فيروسات الإنفلونزا والهربس البسيط في:",
+    "options": [
+     [
+      "Artificial media",
+      "الأوساط الاصطناعية"
+     ],
+     [
+      "1.5% agar",
+      "آكار 1.5%"
+     ],
+     [
+      "Filter paper",
+      "ورق الترشيح"
+     ],
+     [
+      "Embryonated eggs",
+      "البيض المخصّب"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Removing antibiotics or bacteria from a specimen is the step of:",
+    "ar": "إزالة المضادّات الحيوية أو البكتيريا من العيّنة هي خطوة:",
+    "options": [
+     [
+      "Sample preparation",
+      "تحضير العيّنة"
+     ],
+     [
+      "Inoculation",
+      "التلقيح"
+     ],
+     [
+      "Incubation",
+      "الحضن"
+     ],
+     [
+      "Identification",
+      "التشخيص"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Detecting virus-specific antibodies is done by:",
+    "ar": "يتم كشف الأضداد الخاصّة بالفيروس بـ:",
+    "options": [
+     [
+      "Electron microscopy",
+      "المجهر الإلكتروني"
+     ],
+     [
+      "NAATs",
+      "NAATs"
+     ],
+     [
+      "Serological tests",
+      "الفحوص المصلية"
+     ],
+     [
+      "Filtration",
+      "الترشيح"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "BIOS questions — isolation and cultivation",
+    "topic_ar": "أسئلة BIOS — العزل والزرع"
+   },
+   {
+    "en": "Growing viruses in a test tube or cell culture flask is:",
+    "ar": "تنمية الفيروسات في أنبوب اختبار أو قنينة مزرعة خلوية هي:",
+    "options": [
+     [
+      "In vivo",
+      "داخل الكائن الحي"
+     ],
+     [
+      "Animal inoculation",
+      "حقن الحيوانات"
+     ],
+     [
+      "Egg culture",
+      "زرع البيض"
+     ],
+     [
+      "In vitro",
+      "خارج الكائن الحي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The agar concentration usually used in culturing bacteria is:",
+    "ar": "تركيز الآكار المستعمل عادةً في زرع البكتيريا:",
+    "options": [
+     [
+      "0.7%",
+      "0.7%"
+     ],
+     [
+      "1.5%",
+      "1.5%"
+     ],
+     [
+      "5%",
+      "5%"
+     ],
+     [
+      "0.2%",
+      "0.2%"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In this figure, the clear spots on the E. coli lawn are:",
+    "ar": "في هذا الشكل، البقع الصافية على مرجة الإشريكية القولونية هي:",
+    "options": [
+     [
+      "Air bubbles",
+      "فقاعات هواء"
+     ],
+     [
+      "Bacterial colonies",
+      "مستعمرات بكتيرية"
+     ],
+     [
+      "Fungal spores",
+      "أبواغ فطرية"
+     ],
+     [
+      "Plaques where host bacteria were lysed",
+      "لويحات حيث تحلّلت البكتيريا المضيفة"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/flask-plaques.png",
+    "img_h": "34mm"
+   },
+   {
+    "en": "Most of the annual influenza vaccine is cultured in:",
+    "ar": "يُزرع معظم لقاح الإنفلونزا السنوي في:",
+    "options": [
+     [
+      "Hens’ eggs",
+      "بيض الدجاج"
+     ],
+     [
+      "Tumour cell lines",
+      "خطوط خلايا الأورام"
+     ],
+     [
+      "Bacterial lawns",
+      "المرجات البكتيرية"
+     ],
+     [
+      "Soft agar",
+      "الآكار الطري"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "This figure shows sites in the egg where viruses can replicate; they include:",
+    "ar": "يوضّح الشكل مواقع في البيضة يمكن أن تتضاعف فيها الفيروسات؛ منها:",
+    "options": [
+     [
+      "The shell only",
+      "القشرة فقط"
+     ],
+     [
+      "The chorioallantoic membrane, amniotic cavity and yolk sac",
+      "الغشاء المشيمي السقائي والجوف الأمنيوسي وكيس المحّ"
+     ],
+     [
+      "The albumin only",
+      "الزلال فقط"
+     ],
+     [
+      "The air cell only",
+      "الحجيرة الهوائية فقط"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/egg-cultivation.png",
+    "img_h": "34mm"
+   },
+   {
+    "en": "Cells are released from tissue enzymatically using:",
+    "ar": "تُحرَّر الخلايا من النسيج إنزيميًا باستعمال:",
+    "options": [
+     [
+      "Lysozyme",
+      "اللايسوزايم"
+     ],
+     [
+      "Amylase",
+      "الأميليز"
+     ],
+     [
+      "Trypsin or collagenase",
+      "التربسين أو الكولاجينيز"
+     ],
+     [
+      "Lipase",
+      "اللايبيز"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Continuous cell lines are usually derived from:",
+    "ar": "تُشتقّ الخطوط الخلوية المستمرة عادةً من:",
+    "options": [
+     [
+      "Egg albumin",
+      "زلال البيض"
+     ],
+     [
+      "Red blood cells",
+      "كريات الدم الحمر"
+     ],
+     [
+      "Bacteria",
+      "البكتيريا"
+     ],
+     [
+      "Transformed cells or tumors",
+      "خلايا متحوّلة أو أورام"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Growth of primary cultures slows when cells touch each other because of:",
+    "ar": "يتباطأ نموّ المزارع الأولية عند تلامس الخلايا بسبب:",
+    "options": [
+     [
+      "Contact inhibition",
+      "تثبيط التماس"
+     ],
+     [
+      "Lysis",
+      "التحلّل"
+     ],
+     [
+      "Plaque formation",
+      "تكوّن اللويحات"
+     ],
+     [
+      "Filtration",
+      "الترشيح"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "BIOS questions — detection",
+    "topic_ar": "أسئلة BIOS — الكشف"
+   },
+   {
+    "en": "Virus-infected samples can be examined under:",
+    "ar": "يمكن فحص العيّنات المصابة تحت:",
+    "options": [
+     [
+      "Brightfield microscope only",
+      "المجهر الضوئي الساطع فقط"
+     ],
+     [
+      "Hand lens",
+      "العدسة اليدوية"
+     ],
+     [
+      "Brightfield, electron, or fluorescent microscope",
+      "المجهر الضوئي الساطع أو الإلكتروني أو الفلوري"
+     ],
+     [
+      "No microscope",
+      "دون مجهر"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "A change of cell shape in CPE is from:",
+    "ar": "تغيّر شكل الخلية في CPE يكون من:",
+    "options": [
+     [
+      "Round to flat",
+      "كروي إلى مسطّح"
+     ],
+     [
+      "Flat to round",
+      "مسطّح إلى كروي"
+     ],
+     [
+      "Round to spiral",
+      "كروي إلى حلزوني"
+     ],
+     [
+      "Rod to coccus",
+      "عصوي إلى كروي بكتيري"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Pink eosinophilic cytoplasmic inclusion bodies and cell swelling are the CPE of:",
+    "ar": "الأجسام الاشتمالية السايتوبلازمية الوردية الحمضية وانتفاخ الخلية هي CPE لـ:",
+    "options": [
+     [
+      "Adenovirus",
+      "الفيروس الغدّي"
+     ],
+     [
+      "Poxvirus",
+      "الفيروس الجدري"
+     ],
+     [
+      "Paramyxovirus",
+      "المخاطاني نظير"
+     ],
+     [
+      "Herpesvirus",
+      "الهربس"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Cytoplasmic stranding with nuclear inclusion bodies is the CPE of:",
+    "ar": "التخيّط السايتوبلازمي مع أجسام اشتمالية نووية هو CPE لـ:",
+    "options": [
+     [
+      "Poxvirus",
+      "الفيروس الجدري"
+     ],
+     [
+      "Adenovirus",
+      "الفيروس الغدّي"
+     ],
+     [
+      "Herpesvirus",
+      "الفيروس الحلئي"
+     ],
+     [
+      "Paramyxovirus",
+      "المخاطاني نظير"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Distinctive “grape-like” clusters are the CPE of:",
+    "ar": "العناقيد المميّزة \"الشبيهة بالعنب\" هي CPE لـ:",
+    "options": [
+     [
+      "Adenovirus",
+      "الفيروس الغدّي"
+     ],
+     [
+      "Poxvirus",
+      "الجدري"
+     ],
+     [
+      "Herpesvirus",
+      "الهربس"
+     ],
+     [
+      "Paramyxovirus",
+      "المخاطاني نظير"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Syncytium with faint basophilic cytoplasmic inclusions is the CPE of:",
+    "ar": "المخلوّ مع أجسام اشتمالية سايتوبلازمية قاعدية باهتة هو CPE لـ:",
+    "options": [
+     [
+      "Adenovirus",
+      "الفيروس الغدّي"
+     ],
+     [
+      "Poxvirus",
+      "الجدري"
+     ],
+     [
+      "Herpesvirus",
+      "الهربس"
+     ],
+     [
+      "Paramyxovirus",
+      "المخاطاني نظير"
+     ]
+    ],
+    "answer": "d"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Viruses are obligate intracellular parasites that require living host cells for replication.",
+    "ar": "الفيروسات طفيليات إجبارية داخل الخلايا تحتاج خلايا مضيفة حية للتضاعف.",
+    "answer": "T"
+   },
+   {
+    "en": "Viruses can be grown on artificial nutrient media without host cells.",
+    "ar": "يمكن تنمية الفيروسات على أوساط غذائية اصطناعية دون خلايا مضيفة.",
+    "answer": "F"
+   },
+   {
+    "en": "Continuous cell lines can be propagated indefinitely.",
+    "ar": "يمكن إكثار الخطوط الخلوية المستمرة إلى ما لا نهاية.",
+    "answer": "T"
+   },
+   {
+    "en": "Embryonated eggs can be used to cultivate influenza viruses.",
+    "ar": "يمكن استعمال البيض المخصّب لزرع فيروسات الإنفلونزا.",
+    "answer": "T"
+   },
+   {
+    "en": "Virions can be separated from host cells by centrifugation or filtration.",
+    "ar": "يمكن فصل الفيريونات عن الخلايا المضيفة بالطرد المركزي أو الترشيح.",
+    "answer": "T"
+   },
+   {
+    "en": "During filtration, viruses are usually collected in the filtrate after larger cells are removed.",
+    "ar": "أثناء الترشيح تُجمع الفيروسات عادةً في الراشح بعد إزالة الخلايا الأكبر.",
+    "answer": "T"
+   },
+   {
+    "en": "A clear zone produced by lytic bacteriophages in a bacterial lawn is called a plaque.",
+    "ar": "تُسمّى المنطقة الصافية التي تنتجها العاثيات المحلِّلة في المرجة البكتيرية لويحة.",
+    "answer": "T"
+   },
+   {
+    "en": "Bacteriophages are grown in 1.5% hard agar to allow easy diffusion.",
+    "ar": "تُنمّى العاثيات في آكار صلب 1.5% للسماح بالانتشار السهل.",
+    "answer": "F"
+   },
+   {
+    "en": "Electron microscopy can be used to visualize viral particles directly.",
+    "ar": "يمكن استعمال المجهر الإلكتروني لرؤية الجسيمات الفيروسية مباشرةً.",
+    "answer": "T"
+   },
+   {
+    "en": "Formation of multinucleated syncytia is a cytopathic effect of viral infection.",
+    "ar": "تكوين مخلوّات متعدّدة النوى تأثير مرضي خلوي للإصابة الفيروسية.",
+    "answer": "T"
+   },
+   {
+    "en": "Continuous cell cultures stop growing because of contact inhibition.",
+    "ar": "تتوقّف المزارع الخلوية المستمرة عن النمو بسبب تثبيط التماس.",
+    "answer": "F"
+   },
+   {
+    "en": "Animal virus cultivation is important for vaccine production.",
+    "ar": "زرع الفيروسات الحيوانية مهمّ لإنتاج اللقاحات.",
+    "answer": "T"
+   },
+   {
+    "en": "Viral titers in Figure 2b increase on the plates to the right.",
+    "ar": "في الشكل 2 ب يزداد العيار الفيروسي في الأطباق باتجاه اليمين.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "0.7% vs 1.5% agar",
+    "ar": "آكار 0.7% مقابل 1.5%",
+    "answer_en": "Phages use 0.7% SOFT agar so they diffuse easily; 1.5% is the usual concentration for culturing bacteria.",
+    "answer_ar": "العاثيات تستعمل آكارًا طريًا 0.7% لتنتشر بسهولة؛ و1.5% هو التركيز المعتاد لزرع البكتيريا."
+   },
+   {
+    "en": "Filtrate or filter?",
+    "ar": "الراشح أم المرشّح؟",
+    "answer_en": "Cells and bacteria stay ON the filter; viruses pass THROUGH into the filtrate.",
+    "answer_ar": "الخلايا والبكتيريا تبقى على المرشّح؛ والفيروسات تمرّ خلاله إلى الراشح."
+   },
+   {
+    "en": "Primary vs continuous",
+    "ar": "الأولية مقابل المستمرة",
+    "answer_en": "Primary: fresh from tissue, limited lifespan, contact inhibition. Continuous: from transformed cells/tumours, immortal, no contact inhibition.",
+    "answer_ar": "الأولية: حديثة من النسيج، عمر محدود، تثبيط التماس. المستمرة: من خلايا متحوّلة/أورام، خالدة، بلا تثبيط تماس."
+   },
+   {
+    "en": "Eggs vs animals",
+    "ar": "البيض مقابل الحيوانات",
+    "answer_en": "Eggs: influenza, herpes simplex. Animal inoculation: viruses that cannot grow in cell culture or eggs — rabies, poliovirus.",
+    "answer_ar": "البيض: الإنفلونزا والهربس البسيط. حقن الحيوانات: الفيروسات التي لا تنمو في المزرعة أو البيض — داء الكلب وشلل الأطفال."
+   },
+   {
+    "en": "In vivo vs in vitro",
+    "ar": "داخل الكائن مقابل خارجه",
+    "answer_en": "In vivo = whole organism or embryonated egg; in vitro = cells in a test tube, flask, or agar plate.",
+    "answer_ar": "داخل الكائن = كائن كامل أو بيضة مخصّبة؛ خارجه = خلايا في أنبوب أو قنينة أو طبق آكار."
+   },
+   {
+    "en": "Which virus, which CPE?",
+    "ar": "أي فيروس، أي CPE؟",
+    "answer_en": "Paramyxo = syncytium; pox = pink cytoplasmic inclusions + swelling; herpes = stranding + NUCLEAR inclusions; adeno = grape-like clusters.",
+    "answer_ar": "المخاطاني نظير = مخلوّ؛ الجدري = أجسام سايتوبلازمية وردية + انتفاخ؛ الهربس = تخيّط + أجسام نووية؛ الغدّي = عناقيد عنبية."
+   },
+   {
+    "en": "Identification methods",
+    "ar": "طرق التشخيص",
+    "answer_en": "EM sees particles; serology detects ANTIBODIES; NAATs amplify DNA/RNA.",
+    "answer_ar": "المجهر الإلكتروني يرى الجسيمات؛ والمصلية تكشف الأضداد؛ وNAATs تضخّم DNA/RNA."
+   }
+  ],
+  "important": [
+   {
+    "en": "List the methods of viral cultivation.",
+    "ar": "عدّد طرق زرع الفيروسات.",
+    "answer_en": "1. Cell culture (most common): viruses grown in cultured animal cells — primary cell cultures (directly from tissues, limited lifespan) and continuous cell lines (immortalized, propagated indefinitely). 2. Embryonated eggs: e.g. influenza and herpes simplex viruses. 3. Animal inoculation: for viruses that cannot grow in cell culture or eggs, e.g. rabies and poliovirus.",
+    "answer_ar": "1. المزرعة الخلوية (الأكثر شيوعًا): تنمية الفيروسات في خلايا حيوانية مزروعة — المزارع الأولية (مباشرةً من الأنسجة، عمر محدود) والخطوط المستمرة (خالدة، تُكثَّر بلا نهاية). 2. البيض المخصّب: مثل الإنفلونزا والهربس البسيط. 3. حقن الحيوانات: للفيروسات التي لا تنمو في المزرعة أو البيض، مثل داء الكلب وشلل الأطفال."
+   },
+   {
+    "en": "Describe the steps in viral isolation and cultivation.",
+    "ar": "صف خطوات عزل الفيروسات وزرعها.",
+    "answer_en": "1. Sample collection (blood, respiratory secretions, stool). 2. Sample preparation: remove or inactivate antibiotics or bacteria. 3. Inoculation into cell culture, eggs or animals. 4. Incubation (temperature, humidity). 5. Observation for CPE or disease symptoms. 6. Virus identification by electron microscopy, serological tests or NAATs.",
+    "answer_ar": "1. جمع العيّنة (دم، إفرازات تنفسية، براز). 2. تحضير العيّنة: إزالة المضادّات أو البكتيريا أو تثبيطها. 3. التلقيح في المزرعة أو البيض أو الحيوانات. 4. الحضن (حرارة، رطوبة). 5. مراقبة CPE أو أعراض المرض. 6. تشخيص الفيروس بالمجهر الإلكتروني أو الفحوص المصلية أو NAATs."
+   },
+   {
+    "en": "How are viruses isolated from host cells?",
+    "ar": "كيف تُعزل الفيروسات عن الخلايا المضيفة؟",
+    "answer_en": "Viruses cannot grow on artificial media, so infected host cells are cultured and the growth medium is harvested. Virions are separated from cells by centrifugation or filtration; membrane filters retain cells and bacteria (larger than virions) while viruses pass into the filtrate.",
+    "answer_ar": "لا تنمو الفيروسات على أوساط اصطناعية، فتُزرع الخلايا المضيفة المصابة ويُحصد وسط النمو. وتُفصل الفيريونات عن الخلايا بالطرد المركزي أو الترشيح؛ إذ تحتجز المرشّحات الغشائية الخلايا والبكتيريا (الأكبر من الفيريونات) وتمرّ الفيروسات إلى الراشح."
+   },
+   {
+    "en": "How are bacteriophages cultivated and detected?",
+    "ar": "كيف تُزرع العاثيات البكتيرية وتُكشف؟",
+    "answer_en": "They are grown on a dense bacterial lawn in 0.7% soft agar (lower than the usual 1.5%) in a Petri dish or flat flask, so phages diffuse easily. Lytic phages lyse the bacteria, producing clear zones called plaques among the cloudy lawn.",
+    "answer_ar": "تُنمّى على مرجة بكتيرية كثيفة في آكار طري 0.7% (أقل من 1.5% المعتاد) في طبق بتري أو قنينة مسطّحة لتنتشر العاثيات بسهولة. والعاثيات المحلِّلة تحلّل البكتيريا فتنتج مناطق صافية تُسمّى اللويحات وسط المرجة العكرة."
+   },
+   {
+    "en": "Compare in vivo and in vitro cultivation of animal viruses.",
+    "ar": "قارن بين زرع الفيروسات الحيوانية داخل الكائن الحي وخارجه.",
+    "answer_en": "In vivo: a developing embryo in an embryonated bird's egg (chorioallantoic membrane, amniotic cavity, yolk sac) or a whole animal acts as an incubator; e.g. influenza vaccine in hens' eggs. In vitro: primary cell cultures freshly prepared from tissues (by scraping/mincing or trypsin/collagenase), limited by contact inhibition; continuous cell lines from transformed cells or tumours that grow indefinitely (immortal).",
+    "answer_ar": "داخل الكائن: جنين نامٍ في بيضة طائر مخصّبة (الغشاء المشيمي السقائي، الجوف الأمنيوسي، كيس المحّ) أو حيوان كامل يعمل حاضنة؛ مثل لقاح الإنفلونزا في بيض الدجاج. خارج الكائن: مزارع أولية تُحضّر حديثًا من الأنسجة (بالكشط/الفرم أو التربسين/الكولاجينيز) ويحدّها تثبيط التماس؛ وخطوط مستمرة من خلايا متحوّلة أو أورام تنمو بلا نهاية (خالدة)."
+   },
+   {
+    "en": "What are cytopathic effects? Give examples.",
+    "ar": "ما التأثيرات المرضية الخلوية؟ أعطِ أمثلة.",
+    "answer_en": "Distinct observable cell abnormalities due to viral infection: loss of adherence, flat-to-round shape change, nuclear shrinkage, cytoplasmic vacuoles, membrane fusion with multinucleated syncytia, nuclear or cytoplasmic inclusion bodies, and complete lysis. Paramyxovirus: syncytium; poxvirus: pink cytoplasmic inclusions and swelling; herpesvirus: cytoplasmic stranding and nuclear inclusions; adenovirus: enlargement, rounding, grape-like clusters.",
+    "answer_ar": "شذوذات خلوية مميّزة تُلاحظ بسبب الإصابة الفيروسية: فقدان الالتصاق، تغيّر الشكل من مسطّح إلى كروي، انكماش النواة، فجوات سايتوبلازمية، اندماج الأغشية مع مخلوّات متعدّدة النوى، أجسام اشتمالية نووية أو سايتوبلازمية، والتحلّل الكامل. المخاطاني نظير: مخلوّ؛ الجدري: أجسام سايتوبلازمية وردية وانتفاخ؛ الهربس: تخيّط سايتوبلازمي وأجسام نووية؛ الغدّي: تضخّم وتكوّر وعناقيد عنبية."
+   }
+  ]
+ }
+}
