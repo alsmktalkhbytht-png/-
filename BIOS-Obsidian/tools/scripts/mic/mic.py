@@ -362,5 +362,5 @@ meta = {"subject_en": "Diagnostic Microbiology", "subject_ar": "الأحياء �
         "department": "قسم التحليلات", "kind": "Theory — نظري", "stage": "The fourth stage — الرابعة", "instructor": "د. عدنان",
         "unit_en": "Lectures 7, 8, 9", "unit_ar": "المحاضرات 7 و8 و9", "unit_no": "7–9",
         "title_en": "Microbiological methods for identification of microorganisms", "title_ar": "الطرق الميكروبيولوجية لتشخيص الأحياء المجهرية",
-        "merge_questions": True, "file_name": "BIOS - بكتريا نظري المحاضرات 7 و8 و9 - الطرق الميكروبيولوجية لتشخيص الأحياء المجهرية - دمج"}
+        "file_name": "BIOS - بكتريا نظري المحاضرات 7 و8 و9"}
 save("bacteriology-lec7-9-identification", meta, blocks, mcq, tf, traps, important)
