@@ -51,6 +51,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `virology-lab1-safety/` — Medical Virology practical lab 1: safety and aseptic techniques — third stage.
 - `virology-lab3-direct-examination/` — Medical Virology practical lab 3: Direct viral examination (light and electron microscopy) (د. آية وسمي) — third stage, new style, questions inside (the lab sheet's own MCQs/TF come first in the bank).
 - `virology-lab4-isolation-cultivation/` — Medical Virology practical lab 4: Isolation and Cultivation of Viruses (د. آية وسمي) — third stage, new style, questions inside (lab sheet MCQs/TF first).
+- `virology-lab5-complement-fixation/` — Medical Virology practical lab 5: Complement Fixation Test (د. آية وسمي) — third stage, new style, questions inside (lab sheet MCQs/TF first; sheet TF 10 key corrected to T).
 - `bacteriology-lab2-specimens/`, `bacteriology-lab3-culture-media/` — Diagnostic Microbiology practical labs 2 and 3 (د. هبة سامي) — fourth stage.
 - `parasitology-week5-theory/` — Diagnostic Parasitology theory week 5: Pathogenic free-living amoebae, E. histolytica vs E. dispar immunoassays, fixatives (أ.د. نزار الخفاجي) — fourth stage, rebuilt in the new style with a separate question file.
 - `parasitology-week4-theory/` — Diagnostic Parasitology theory week 4: Nonpathogenic intestinal amoebae & wet-mount solutions (أ.د. نزار الخفاجي) — fourth stage, rebuilt in the new style with a separate question file.
