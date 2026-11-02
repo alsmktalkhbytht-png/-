@@ -1142,6 +1142,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `enzymology-lec4-bioenergetics` | إنزيمات سريرية | نظري 4 — الطاقة الحيوية للإنزيمات (د. وليد مجيد، أسلوب جديد) |
 | `pathology-lec1-2-atelectasis` | علم الأمراض | 1+2 |
 | `pathology-lec3-chronic-bronchitis` | علم الأمراض | 3 |
+| `pathology-lec4-lung-cancer` | أمراض | نظري 4 — سرطان الرئة (أسلوب جديد) |
 
 ### المرحلة الثالثة (ألوان `blush`، الأسئلة داخل الملزمة)
 

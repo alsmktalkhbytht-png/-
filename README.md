@@ -32,6 +32,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `ethics-lec3-unethical-behavior/` — Professional Ethics lecture 3: unethical behaviour — Arabic-only handout.
 - `pathology-lec1-2-atelectasis/` — Pathology (علم الأمراض) lectures 1+2: atelectasis, acute lung injury/ARDS, emphysema.
 - `pathology-lec3-chronic-bronchitis/` — Pathology lecture 3: chronic bronchitis and asthma.
+- `pathology-lec4-lung-cancer/` — Pathology lecture 4: Lung Cancer (د. حامد خليل التميمي) — fourth stage, new style, separate question file.
 - `enzymology-lec1-introduction/` — Clinical Enzymology lecture 1: introduction, classification, properties, units, factors.
 - `enzymology-lec2-kinetics-inhibition/` — Clinical Enzymology lecture 2: Michaelis-Menten, Lineweaver-Burke, inhibition.
 - `enzymology-lec3-michaelis-menten-questions/` — Clinical Enzymology lecture 3: Michaelis-Menten equation — worked questions (د. وليد مجيد) — fourth stage, new style, separate question file; the two unsolved problems are solved as "BIOS solution" and the exercise plot is drawn by BIOS.

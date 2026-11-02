@@ -89,6 +89,7 @@
 - [[Code/par5 - p5q.py|par5/p5q.py]] → parasitology-week5-theory
 - [[Code/pat - make12.py|pat/make12.py]] → pathology-lec1-2-atelectasis
 - [[Code/pat - make3.py|pat/make3.py]] → pathology-lec3-chronic-bronchitis
+- [[Code/pat4 - p4q.py|pat4/p4q.py]] → pathology-lec4-lung-cancer
 - [[Code/pcv - pcvq.py|pcv/pcvq.py]] → hematology-practical-pcv
 - [[Code/picq.py|picq.py]] → bloodbank-lec1-introduction, immunology-lab1-serology, lab1-biosafety
 - [[Code/pl4 - pl4q.py|pl4/pl4q.py]] → parasitology-lab4-nonpathogenic-amoebae
@@ -137,6 +138,7 @@
 - [[Code/para - ar1.py|para/ar1.py]]
 - [[Code/para - ar2.py|para/ar2.py]]
 - [[Code/pat - fix1.py|pat/fix1.py]]
+- [[Code/pat4 - p4.py|pat4/p4.py]]
 - [[Code/pcv - pcv.py|pcv/pcv.py]]
 - [[Code/pl4 - pl4.py|pl4/pl4.py]]
 - [[Code/pl5 - pl5.py|pl5/pl5.py]]
