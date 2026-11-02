@@ -1,0 +1,1742 @@
+{
+ "meta": {
+  "subject_en": "Pathology",
+  "subject_ar": "علم الأمراض",
+  "short_ar": "أمراض",
+  "unit_en": "Lecture 5",
+  "unit_ar": "المحاضرة 5",
+  "unit_label": "LEC",
+  "unit_no": "5",
+  "title_en": "Glomerular Diseases",
+  "title_ar": "أمراض الكبيبات",
+  "kind": "Theory — نظري",
+  "stage": "The fourth stage — الرابعة",
+  "instructor": "د. حامد خليل التميمي"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "FUNCTIONS OF KIDNEYS",
+   "ar": "وظائف الكليتين"
+  },
+  {
+   "t": "card",
+   "en": "The kidney has an intricate structure that underlies its diverse roles of",
+   "ar": "للكلية **تركيب معقّد** يقوم عليه دورها المتنوّع في:",
+   "list_en": [
+    "excreting waste products,",
+    "regulating body fluid and solute balance,"
+   ],
+   "list_ar": [
+    "**إخراج الفضلات**،",
+    "**تنظيم توازن سوائل الجسم والمذابات**،"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "regulating blood pressure,",
+    "secreting hormones."
+   ],
+   "list_ar": [
+    "**تنظيم ضغط الدم**،",
+    "**إفراز الهرمونات**."
+   ],
+   "start": 3
+  },
+  {
+   "t": "figure",
+   "src": "assets/kidney.jpg",
+   "en": "Kidney — Cortex, Medulla, Renal Pelvis, Renal Artery, Renal Vein, Ureter",
+   "ar": "الكلية — القشرة، اللبّ، الحوض الكلوي، الشريان الكلوي، الوريد الكلوي، الحالب",
+   "h": "56mm",
+   "fit": "contain"
+  },
+  {
+   "t": "card",
+   "en": "**The functional renal unit is the nephron,** which is composed of the following:",
+   "ar": "**الوحدة الوظيفية للكلية هي النفرون (الكليون)**، ويتكوّن مما يأتي:",
+   "list_en": [
+    "The renal corpuscle: glomerulus and Bowman capsule",
+    "Proximal convoluted tubules (PCT, located in the renal cortex)"
+   ],
+   "list_ar": [
+    "**الجسيم الكلوي**: الكبيبة ومحفظة بومان",
+    "**النبيبات الملتفّة القريبة** (PCT، في قشرة الكلية)"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Descending loop of Henle (LOH)",
+    "Ascending convoluted tubule limb (which resides in the renal medulla, leading to the thick ascending limb)"
+   ],
+   "list_ar": [
+    "**الطرف النازل لعروة هنلي** (LOH)",
+    "**الطرف الصاعد** (يقع في لبّ الكلية، ويؤدّي إلى الطرف الصاعد الثخين)"
+   ],
+   "start": 3
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Thick ascending limb",
+    "Distal convoluted tubule"
+   ],
+   "list_ar": [
+    "**الطرف الصاعد الثخين**",
+    "**النبيب الملتفّ البعيد**"
+   ],
+   "start": 5
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Collecting duct (which opens into the renal papilla)"
+   ],
+   "list_ar": [
+    "**القناة الجامعة** (تنفتح في الحليمة الكلوية)"
+   ],
+   "start": 7
+  },
+  {
+   "t": "note",
+   "en": "“Ascending convoluted tubule limb” on the slide is the **thin ascending limb** of the loop of Henle.",
+   "ar": "“Ascending convoluted tubule limb” في الشريحة يقصد بها **الطرف الصاعد الرقيق** لعروة هنلي.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/nephron.jpg",
+     "en": "Nephron — Bowman’s Capsule, Glomerulus, Proximal and Distal Convoluted Tubule, Loop of Henle, Vasa Recta, Collecting Duct",
+     "ar": "النفرون — محفظة بومان، الكبيبة، النبيب الملتفّ القريب والبعيد، عروة هنلي، الأوعية المستقيمة، القناة الجامعة",
+     "h": "62mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/renal-corpuscle.jpg",
+     "en": "Renal corpuscle — Bowman’s capsule, Afferent and Efferent arteriole, Proximal tubule",
+     "ar": "الجسيم الكلوي — محفظة بومان، الشُرَيّن الوارد والصادر، النبيب القريب",
+     "h": "62mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Kidney functions: **excretion, fluid/solute balance, blood pressure, hormones**.",
+    "Nephron: **renal corpuscle (glomerulus + Bowman capsule) → PCT → loop of Henle → thick ascending limb → DCT → collecting duct**."
+   ],
+   "ar": [
+    "وظائف الكلية: **الإخراج، توازن السوائل/المذابات، ضغط الدم، الهرمونات**.",
+    "النفرون: **الجسيم الكلوي (كبيبة + محفظة بومان) ← PCT ← عروة هنلي ← الطرف الصاعد الثخين ← DCT ← القناة الجامعة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "GLOMERULAR DISEASES",
+   "ar": "أمراض الكبيبات"
+  },
+  {
+   "t": "card",
+   "en": "Glomerular diseases are typically caused by disturbances of structure.",
+   "ar": "تنتج أمراض الكبيبات عادةً عن **اضطرابات في التركيب**."
+  },
+  {
+   "t": "card",
+   "en": "**Four significant components of the glomerulus may be damaged:**",
+   "ar": "**أربعة مكوّنات مهمة للكبيبة قد تتضرّر:**",
+   "list_en": [
+    "Endothelial cells lining the capillary",
+    "Glomerular basement membrane"
+   ],
+   "list_ar": [
+    "**الخلايا البطانية** المبطّنة للشعيرة",
+    "**الغشاء القاعدي الكبيبي**"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Mesangium.",
+    [
+     "Epithelial cells or podocytes, which form an outer coating to the capillary.",
+     "These cells are in contact with the outer surface of the basement membrane via a series of foot processes."
+    ]
+   ],
+   "list_ar": [
+    "**المسراق (Mesangium)**.",
+    [
+     "**الخلايا الظهارية أو الخلايا القدمية (podocytes)** التي تكوّن غطاءً خارجيًا للشعيرة.",
+     "وتتّصل هذه الخلايا بالسطح الخارجي للغشاء القاعدي عبر سلسلة من **الزوائد القدمية**."
+    ]
+   ],
+   "start": 3
+  },
+  {
+   "t": "h2",
+   "en": "AETIOLOGY OF GLOMERULAR DISEASES",
+   "ar": "سببيات أمراض الكبيبات"
+  },
+  {
+   "t": "card",
+   "en": "**Glomerular diseases may be classified as :**",
+   "ar": "**يمكن تصنيف أمراض الكبيبات إلى:**",
+   "list_en": [
+    "Primary (majority)—idiopathic",
+    "Secondary—disease process is secondary to systemic disease",
+    "Hereditary—Alport’s syndrome, Fabry’s syndrome and congenital nephrotic syndrome."
+   ],
+   "list_ar": [
+    "**أولية (الأغلبية)** — مجهولة السبب",
+    "**ثانوية** — العملية المرضية ثانوية لمرض جهازي",
+    "**وراثية** — متلازمة ألبورت، ومتلازمة فابري، والمتلازمة الكلائية الخلقية."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Glomerular diseases encompass a large and clinically significant group of renal diseases.",
+    "Glomerulonephritis (GN) or Bright’s disease is the term used for diseases that primarily involve the renal glomeruli."
+   ],
+   "ar": [
+    "تشمل أمراض الكبيبات **مجموعة كبيرة ومهمة سريريًا** من أمراض الكلية.",
+    "**التهاب الكبيبات والكلية (GN)** أو **داء برايت** هو المصطلح المستعمل للأمراض التي تصيب **كبيبات الكلية أساسًا**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "It is convenient to classify glomerular diseases into 3 broad groups:",
+   "ar": "من الملائم تصنيف أمراض الكبيبات إلى **3 مجموعات واسعة**:",
+   "list_en": [
+    "Primary glomerular diseases",
+    "Secondary glomerular diseases",
+    "inherited glomerular diseases"
+   ],
+   "list_ar": [
+    "أمراض الكبيبات **الأولية**",
+    "أمراض الكبيبات **الثانوية**",
+    "أمراض الكبيبات **الموروثة**"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Glomerular diseases = disturbances of **structure** of 4 components: **endothelium, GBM, mesangium, podocytes**.",
+    "Causes: **primary (majority, idiopathic)**, secondary (systemic), hereditary (Alport, Fabry, congenital nephrotic).",
+    "GN = **Bright’s disease**."
+   ],
+   "ar": [
+    "أمراض الكبيبات = اضطرابات **تركيب** 4 مكوّنات: **البطانة، الغشاء القاعدي، المسراق، الخلايا القدمية**.",
+    "الأسباب: **أولية (الأغلبية، مجهولة)**، ثانوية (جهازية)، وراثية (ألبورت، فابري، الكلائية الخلقية).",
+    "التهاب الكبيبات = **داء برايت**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Classification of glomerular diseases",
+   "ar": "تصنيف أمراض الكبيبات"
+  },
+  {
+   "t": "card",
+   "en": "**I. PRIMARY GLOMERULONEPHRITIS**",
+   "ar": "**I. التهاب الكبيبات والكلية الأولي**",
+   "list_en": [
+    "Acute GN — i) Post-streptococcal, ii) Non-streptococcal",
+    "Rapidly progressive GN"
+   ],
+   "list_ar": [
+    "التهاب الكبيبات الحاد — i) تالٍ للمكوّرات العقدية، ii) غير عقدي",
+    "التهاب الكبيبات **سريع التقدّم**"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Minimal change disease",
+    "Membranous GN"
+   ],
+   "list_ar": [
+    "**داء التغيّر الأدنى**",
+    "التهاب الكبيبات **الغشائي**"
+   ],
+   "start": 3
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Membrano-proliferative GN",
+    "Focal and diffuse proliferative GN"
+   ],
+   "list_ar": [
+    "التهاب الكبيبات **الغشائي التكاثري**",
+    "التهاب الكبيبات **التكاثري البؤري والمنتشر**"
+   ],
+   "start": 5
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Focal segmental glomerulosclerosis (FSGS)",
+    "IgA nephropathy"
+   ],
+   "list_ar": [
+    "**التصلّب الكبيبي البؤري القطعي (FSGS)**",
+    "**اعتلال الكلية بـ IgA**"
+   ],
+   "start": 7
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Chronic glomerulonephritis"
+   ],
+   "list_ar": [
+    "التهاب الكبيبات **المزمن**"
+   ],
+   "start": 9
+  },
+  {
+   "t": "card",
+   "en": "**II. SECONDARY SYSTEMIC GLOMERULAR DISEASES**",
+   "ar": "**II. أمراض الكبيبات الجهازية الثانوية**",
+   "list_en": [
+    "Lupus nephritis (SLE)",
+    "Diabetic nephropathy"
+   ],
+   "list_ar": [
+    "**التهاب الكلية الذئبي** (الذئبة الحمامية الجهازية)",
+    "**اعتلال الكلية السكري**"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Amyloidosis",
+    "Polyarteritis nodosa"
+   ],
+   "list_ar": [
+    "**الداء النشواني**",
+    "**التهاب الشرايين العقدي المتعدّد**"
+   ],
+   "start": 3
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Wegener’s granulomatosis(inflammation of the blood vessels in kidneys).",
+    "Goodpasture’s syndrome(antibodies that attack the kidneys)."
+   ],
+   "list_ar": [
+    "**ورام فيغنر الحبيبي** (التهاب الأوعية الدموية في الكلية).",
+    "**متلازمة غودباستشر** (أضداد تهاجم الكلية)."
+   ],
+   "start": 5
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Henoch-Schönlein purpura (also known as IgA vasculitis)",
+    "Systemic infectious diseases (bacterial e.g. bacterial endocarditis, syphilis, leprosy; viral e.g. HBV, HCV, HIV; parasitic e.g. falciparum malaria, filariasis)"
+   ],
+   "list_ar": [
+    "**فرفرية هينوخ-شونلاين** (وتعرف أيضًا بالتهاب الأوعية بـ IgA)",
+    "**الأمراض المعدية الجهازية** (بكتيرية مثل التهاب الشغاف البكتيري والزهري والجذام؛ فيروسية مثل HBV وHCV وHIV؛ طفيلية مثل الملاريا المنجلية وداء الخيطيات)"
+   ],
+   "start": 7
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Idiopathic mixed cryoglobulinaemia"
+   ],
+   "list_ar": [
+    "**الغلوبيولين البردي المختلط مجهول السبب**"
+   ],
+   "start": 9
+  },
+  {
+   "t": "card",
+   "en": "**III. HEREDITARY NEPHRITIS**",
+   "ar": "**III. التهاب الكلية الوراثي**",
+   "list_en": [
+    "Alport’s syndrome",
+    "Fabry’s disease",
+    "Nail-patella syndrome"
+   ],
+   "list_ar": [
+    "**متلازمة ألبورت**",
+    "**داء فابري**",
+    "**متلازمة الظفر-الرضفة**"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Primary GN: **9** types (acute post-/non-streptococcal, RPGN, minimal change, membranous, MPGN, proliferative, FSGS, **IgA**, chronic).",
+    "Secondary: **SLE, diabetes, amyloidosis**, PAN, Wegener, Goodpasture, HSP, infections, cryoglobulinaemia.",
+    "Hereditary: **Alport, Fabry, nail-patella**."
+   ],
+   "ar": [
+    "الأولي: **9** أنواع (الحاد التالي/غير العقدي، سريع التقدّم، التغيّر الأدنى، الغشائي، الغشائي التكاثري، التكاثري، FSGS، **IgA**، المزمن).",
+    "الثانوي: **الذئبة، السكري، النشواني**، PAN، فيغنر، غودباستشر، HSP، العدوى، الغلوبيولين البردي.",
+    "الوراثي: **ألبورت، فابري، الظفر-الرضفة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "CLINICAL MANIFESTATIONS",
+   "ar": "المظاهر السريرية"
+  },
+  {
+   "t": "card",
+   "en": "The clinical presentation of glomerular disease is quite variable but in general four features are present in varying combinations depending upon the underlying condition.",
+   "ar": "يتباين العرض السريري لأمراض الكبيبات كثيرًا، لكن عمومًا توجد **أربع صفات** بتراكيب مختلفة حسب الحالة الأساسية.",
+   "list_en": [
+    "Proteinuria,",
+    "Haematuria,"
+   ],
+   "list_ar": [
+    "**البيلة البروتينية**،",
+    "**البيلة الدموية**،"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Hypertension",
+    "Disturbed excretory function."
+   ],
+   "list_ar": [
+    "**ارتفاع ضغط الدم**",
+    "**اضطراب الوظيفة الإخراجية**."
+   ],
+   "start": 3
+  },
+  {
+   "t": "card",
+   "en": "A firm diagnosis, however, can be established by examination of renal biopsy under light, electron and immunofluorescence microscopy.",
+   "ar": "ومع ذلك، يمكن تأكيد التشخيص **بفحص خزعة الكلية** تحت المجهر **الضوئي والإلكتروني والتألّق المناعي**."
+  },
+  {
+   "t": "h2",
+   "en": "IGA NEPHROPATHY (BERGER DISEASE)",
+   "ar": "اعتلال الكلية بـ IgA (داء بيرجر)"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Pathogenesis:** The mechanism is unknown.",
+    "There is a possible entrapment of circulating immune complexes with activation of the alternate complement pathway.",
+    "There is also a possible genetic predisposition.",
+    "Most common cause of glomerulonephritis in the world"
+   ],
+   "ar": [
+    "**الإمراضية:** الآلية **غير معروفة**.",
+    "هناك احتمال **احتباس معقّدات مناعية دائرة** مع **تنشيط المسار البديل للمتمّمة**.",
+    "وهناك أيضًا احتمال **استعداد وراثي**.",
+    "**أشيع سبب لالتهاب الكبيبات في العالم**"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/iga-nephropathy.jpg",
+   "en": "IgA NEPHROPATHY — abnormal IgA1 + anti-glycan auto-antibody → immune complex deposits in the glomerulus; most common nephropathy; nephritic syndrome",
+   "ar": "اعتلال الكلية بـ IgA — IgA1 شاذ + ضد ذاتي مضاد للغليكان ← ترسّب المعقّد المناعي في الكبيبة؛ أشيع اعتلال كلوي؛ متلازمة التهاب الكلية",
+   "h": "56mm",
+   "fit": "contain"
+  },
+  {
+   "t": "note",
+   "en": [
+    "4 features: **proteinuria, haematuria, hypertension, disturbed excretion**; firm diagnosis by **renal biopsy** (light, EM, IF).",
+    "**IgA nephropathy (Berger)**: immune complexes + **alternate complement pathway**, genetic; **most common GN in the world**."
+   ],
+   "ar": [
+    "4 صفات: **بيلة بروتينية، بيلة دموية، ارتفاع الضغط، اضطراب الإخراج**؛ التأكيد **بخزعة الكلية** (ضوئي، إلكتروني، تألّق مناعي).",
+    "**اعتلال IgA (بيرجر)**: معقّدات مناعية + **المسار البديل للمتمّمة**، وراثي؛ **أشيع التهاب كبيبات في العالم**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "MAJOR GLOMERULAR SYNDROMES",
+   "ar": "المتلازمات الكبيبية الرئيسية"
+  },
+  {
+   "t": "card",
+   "en": "Following six are commonly found in different glomerular diseases:",
+   "ar": "الست الآتية شائعة في أمراض الكبيبات المختلفة:"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**I. Acute Nephritic Syndrome** This is the acute onset of microscopic haematuria, mild proteinuria, hypertension, oedema and oliguria .",
+    "The underlying causes of acute nephritic syndrome may be primary glomerulonephritic diseases (classically acute glomerulonephritis and rapidly progressive glomerulonephritis) or certain systemic diseases."
+   ],
+   "ar": [
+    "**I. متلازمة التهاب الكلية الحادة** وهي البدء الحاد لـ**بيلة دموية مجهرية، وبيلة بروتينية خفيفة، وارتفاع ضغط، ووذمة، وقلّة بول**.",
+    "وقد تكون أسبابها **أمراض التهاب الكبيبات الأولية** (تقليديًا **التهاب الكبيبات الحاد** و**سريع التقدّم**) أو أمراض جهازية معيّنة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**II. NEPHROTIC SYNDROME** — Nephrotic syndrome is a constellation of features in different diseases having varying pathogenesis; it is characterised by findings of;",
+   "ar": "**II. المتلازمة الكلائية** — مجموعة صفات في أمراض مختلفة ذات إمراضية متباينة؛ وتتميّز بـ:",
+   "list_en": [
+    "Massive proteinuria,",
+    "Hypoalbuminaemia,"
+   ],
+   "list_ar": [
+    "**بيلة بروتينية هائلة**،",
+    "**نقص ألبومين الدم**،"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Oedema,",
+    "Hyperlipidaemia,"
+   ],
+   "list_ar": [
+    "**الوذمة**،",
+    "**فرط شحوم الدم**،"
+   ],
+   "start": 3
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Lipiduria ,",
+    "Hypercoagulability."
+   ],
+   "list_ar": [
+    "**البيلة الدهنية**،",
+    "**فرط التخثّر**."
+   ],
+   "start": 5
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "In children, primary glomerulonephritis is the cause in majority of cases of the nephrotic syndrome; most frequent being lipoid nephrosis (65%) .",
+    "In adults, on the other hand, systemic diseases (diabetes, amyloidosis and SLE)are more frequent causes of nephrotic syndrome .",
+    "The most common primary glomerular disease in adults is membranous glomerulonephritis (40%)."
+   ],
+   "list_ar": [
+    "في **الأطفال** يكون التهاب الكبيبات الأولي سبب أغلب حالات المتلازمة الكلائية؛ وأشيعها **الكلاء الشحمي (lipoid nephrosis) (65%)**.",
+    "أما في **البالغين** فالأمراض الجهازية (**السكري والنشواني والذئبة**) أكثر أسبابها شيوعًا.",
+    "وأشيع مرض كبيبي أولي في البالغين هو **التهاب الكبيبات الغشائي (40%)**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/membranous.png",
+   "en": "Normal → Membranous glomerulopathy: antibody + antigen → immune complexes along the basement membrane (endothelial cell, basement membrane, epithelial cell)",
+   "ar": "الطبيعي ← الاعتلال الكبيبي الغشائي: ضد + مستضد ← معقّدات مناعية على الغشاء القاعدي (خلية بطانية، غشاء قاعدي، خلية ظهارية)",
+   "h": "56mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Feature",
+     "الصفة"
+    ],
+    [
+     "Nephritic",
+     "التهاب الكلية"
+    ],
+    [
+     "Nephrotic",
+     "الكلائية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Proteinuria**",
+      "**البيلة البروتينية**"
+     ],
+     [
+      "mild",
+      "خفيفة"
+     ],
+     [
+      "massive",
+      "هائلة"
+     ]
+    ],
+    [
+     [
+      "**Haematuria**",
+      "**البيلة الدموية**"
+     ],
+     [
+      "microscopic",
+      "مجهرية"
+     ],
+     [
+      "—",
+      "—"
+     ]
+    ],
+    [
+     [
+      "**Other**",
+      "**أخرى**"
+     ],
+     [
+      "hypertension, oedema, oliguria",
+      "ارتفاع ضغط، وذمة، قلّة بول"
+     ],
+     [
+      "hypoalbuminaemia, oedema, hyperlipidaemia, lipiduria, hypercoagulability",
+      "نقص ألبومين، وذمة، فرط شحوم، بيلة دهنية، فرط تخثّر"
+     ]
+    ],
+    [
+     [
+      "**Typical cause**",
+      "**السبب النموذجي**"
+     ],
+     [
+      "acute GN, RPGN",
+      "التهاب الكبيبات الحاد، سريع التقدّم"
+     ],
+     [
+      "children: lipoid nephrosis 65%; adults: membranous 40% / systemic",
+      "الأطفال: الكلاء الشحمي 65%؛ البالغون: الغشائي 40% / جهازية"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    36,
+    42
+   ],
+   "style": "summary",
+   "label_en": "Nephritic vs nephrotic",
+   "label_ar": "التهاب الكلية مقابل الكلائية"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**III. ACUTE RENAL FAILURE** Acute renal failure (ARF) is characterised by rapid decline in renal function.",
+    "ARF has many causes including glomerular disease, principally rapidly progressive GN and acute diffuse proliferative GN."
+   ],
+   "ar": [
+    "**III. الفشل الكلوي الحاد** يتميّز الفشل الكلوي الحاد (ARF) **بتدهور سريع في وظيفة الكلية**.",
+    "وله أسباب كثيرة منها أمراض الكبيبات، وأهمها **التهاب الكبيبات سريع التقدّم** و**التهاب الكبيبات التكاثري المنتشر الحاد**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**IV. CHRONIC RENAL FAILURE** These cases have advanced renal impairment progressing over years and is detected by significant proteinuria, haematuria, hypertension and azotaemia.",
+    "Such patients generally have small contracted kidneys due to chronic glomerulonephritis."
+   ],
+   "ar": [
+    "**IV. الفشل الكلوي المزمن** لهذه الحالات **قصور كلوي متقدّم يتطوّر عبر سنوات**، ويُكشف ببيلة بروتينية واضحة وبيلة دموية وارتفاع ضغط و**آزوتيميا (ارتفاع نواتج النتروجين في الدم)**.",
+    "ولدى هؤلاء المرضى عمومًا **كلى صغيرة متقلّصة** بسبب التهاب الكبيبات المزمن."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/normal-diseased-kidney.jpg",
+   "en": "Normal kidney (glomerulus, collecting tubules) vs Diseased kidney (scar tissue, damaged glomerulus, damaged tubules)",
+   "ar": "كلية طبيعية (كبيبة، نبيبات جامعة) مقابل كلية مريضة (نسيج ندبي، كبيبة متضرّرة، نبيبات متضرّرة)",
+   "h": "58mm",
+   "fit": "contain"
+  },
+  {
+   "t": "card",
+   "en": "**V. ASYMPTOMATIC PROTEINURIA** Presence of proteinuria unexpectedly in a patient may be unrelated to renal disease (e.g. exercise - induced, extreme lordosis and orthostatic proteinuria), or may indicate an underlying mild glomerulonephritis.",
+   "ar": "**V. البيلة البروتينية اللاعرضية** وجود بيلة بروتينية بشكل غير متوقّع قد يكون **غير متعلّق بمرض كلوي** (مثل الناتجة عن **الجهد**، و**التقعّر القطني الشديد**، و**البيلة البروتينية الانتصابية**)، أو قد يدلّ على **التهاب كبيبات خفيف**."
+  },
+  {
+   "t": "card",
+   "en": "**VI. ASYMPTOMATIC HAEMATURIA** Asymptomatic microscopic haematuria is common in children and young adolescents and has many diverse causes such as",
+   "ar": "**VI. البيلة الدموية اللاعرضية** البيلة الدموية المجهرية اللاعرضية **شائعة في الأطفال واليافعين** ولها أسباب متنوّعة مثل",
+   "list_en": [
+    "Diseases of the glomerulus, Renal interstitium, Calyceal system, Ureter, bladder, prostate, urethra, and underlying bleeding disorder.",
+    "Congenital abnormalities of the kidneys",
+    "Neoplasia."
+   ],
+   "list_ar": [
+    "أمراض **الكبيبة**، و**النسيج الخلالي الكلوي**، و**الجهاز الكأسي**، و**الحالب** و**المثانة** و**البروستات** و**الإحليل**، و**اضطراب نزفي** أساسي.",
+    "**التشوّهات الخلقية** للكليتين",
+    "**الأورام**."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Nephritic**: microscopic haematuria, mild proteinuria, hypertension, oedema, oliguria.",
+    "**Nephrotic**: massive proteinuria, hypoalbuminaemia, oedema, hyperlipidaemia, lipiduria, hypercoagulability; children → **lipoid nephrosis 65%**; adults → **membranous 40%** (primary) / systemic.",
+    "ARF: rapid decline (RPGN, acute diffuse proliferative GN); CRF: years, azotaemia, **small contracted kidneys**.",
+    "Asymptomatic proteinuria (exercise, lordosis, orthostatic) and haematuria (common in children; many causes)."
+   ],
+   "ar": [
+    "**التهاب الكلية**: بيلة دموية مجهرية، بروتينية خفيفة، ارتفاع ضغط، وذمة، قلّة بول.",
+    "**الكلائية**: بروتينية هائلة، نقص ألبومين، وذمة، فرط شحوم، بيلة دهنية، فرط تخثّر؛ الأطفال ← **الكلاء الشحمي 65%**؛ البالغون ← **الغشائي 40%** (أولي) / جهازية.",
+    "الحاد: تدهور سريع (سريع التقدّم، التكاثري المنتشر الحاد)؛ المزمن: سنوات، آزوتيميا، **كلى صغيرة متقلّصة**.",
+    "البيلة البروتينية اللاعرضية (جهد، تقعّر، انتصابية) والدموية (شائعة في الأطفال؛ أسباب كثيرة)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Nephron**",
+     "النفرون / الكليون / الوحدة الكلوية"
+    ],
+    [
+     "**Glomerulus**",
+     "الكبيبة"
+    ],
+    [
+     "**Bowman capsule**",
+     "محفظة بومان"
+    ],
+    [
+     "**Loop of Henle**",
+     "عروة هنلي"
+    ],
+    [
+     "**Podocyte**",
+     "الخلية القدمية / الخلية الظهارية الحشوية"
+    ],
+    [
+     "**Mesangium**",
+     "المسراق / النسيج بين الشعيرات"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Glomerular basement membrane**",
+     "الغشاء القاعدي الكبيبي"
+    ],
+    [
+     "**Glomerulonephritis (GN)**",
+     "التهاب الكبيبات والكلية / داء برايت"
+    ],
+    [
+     "**Idiopathic**",
+     "مجهول السبب"
+    ],
+    [
+     "**Minimal change disease**",
+     "داء التغيّر الأدنى / الكلاء الشحمي"
+    ],
+    [
+     "**FSGS**",
+     "التصلّب الكبيبي البؤري القطعي"
+    ],
+    [
+     "**IgA nephropathy (Berger)**",
+     "اعتلال الكلية بـ IgA / داء بيرجر"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Alternate complement pathway**",
+     "المسار البديل للمتمّمة"
+    ],
+    [
+     "**Nephritic syndrome**",
+     "متلازمة التهاب الكلية"
+    ],
+    [
+     "**Nephrotic syndrome**",
+     "المتلازمة الكلائية / المتلازمة النفروزية"
+    ],
+    [
+     "**Proteinuria**",
+     "البيلة البروتينية / البروتين في البول"
+    ],
+    [
+     "**Haematuria**",
+     "البيلة الدموية / الدم في البول"
+    ],
+    [
+     "**Oliguria**",
+     "قلّة البول"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Hypoalbuminaemia**",
+     "نقص ألبومين الدم"
+    ],
+    [
+     "**Lipiduria**",
+     "البيلة الدهنية"
+    ],
+    [
+     "**Azotaemia**",
+     "الآزوتيميا / ارتفاع اليوريا في الدم"
+    ],
+    [
+     "**Orthostatic proteinuria**",
+     "البيلة البروتينية الانتصابية / الوضعية"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Kidney and glomerulus",
+    "topic_ar": "الكلية والكبيبة"
+   },
+   {
+    "en": "The functional renal unit is the:",
+    "ar": "الوحدة الوظيفية للكلية هي:",
+    "options": [
+     [
+      "Ureter",
+      "الحالب"
+     ],
+     [
+      "Nephron",
+      "النفرون"
+     ],
+     [
+      "Renal pelvis",
+      "الحوض الكلوي"
+     ],
+     [
+      "Medulla",
+      "اللبّ"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The renal corpuscle consists of:",
+    "ar": "يتكوّن الجسيم الكلوي من:",
+    "options": [
+     [
+      "Loop of Henle and collecting duct",
+      "عروة هنلي والقناة الجامعة"
+     ],
+     [
+      "Cortex and medulla",
+      "القشرة واللبّ"
+     ],
+     [
+      "PCT and DCT",
+      "النبيب القريب والبعيد"
+     ],
+     [
+      "Glomerulus and Bowman capsule",
+      "الكبيبة ومحفظة بومان"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The collecting duct opens into the:",
+    "ar": "تنفتح القناة الجامعة في:",
+    "options": [
+     [
+      "Renal papilla",
+      "الحليمة الكلوية"
+     ],
+     [
+      "Renal cortex",
+      "قشرة الكلية"
+     ],
+     [
+      "Bowman capsule",
+      "محفظة بومان"
+     ],
+     [
+      "Renal artery",
+      "الشريان الكلوي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which is NOT one of the four glomerular components that may be damaged?",
+    "ar": "أيّ مما يأتي ليس من مكوّنات الكبيبة الأربعة؟",
+    "options": [
+     [
+      "Endothelial cells",
+      "الخلايا البطانية"
+     ],
+     [
+      "Basement membrane",
+      "الغشاء القاعدي"
+     ],
+     [
+      "Collecting duct",
+      "القناة الجامعة"
+     ],
+     [
+      "Mesangium",
+      "المسراق"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Podocytes contact the basement membrane via:",
+    "ar": "تتّصل الخلايا القدمية بالغشاء القاعدي عبر:",
+    "options": [
+     [
+      "Foot processes",
+      "الزوائد القدمية"
+     ],
+     [
+      "Cilia",
+      "الأهداب"
+     ],
+     [
+      "Microvilli",
+      "الزغيبات"
+     ],
+     [
+      "Tight junctions only",
+      "الوصلات المحكمة فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The majority of glomerular diseases are:",
+    "ar": "أغلب أمراض الكبيبات:",
+    "options": [
+     [
+      "Hereditary",
+      "وراثية"
+     ],
+     [
+      "Drug-induced",
+      "دوائية"
+     ],
+     [
+      "Secondary to infection",
+      "ثانوية للعدوى"
+     ],
+     [
+      "Primary (idiopathic)",
+      "أولية (مجهولة السبب)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Bright’s disease is another name for:",
+    "ar": "داء برايت اسم آخر لـ:",
+    "options": [
+     [
+      "Renal stones",
+      "حصى الكلية"
+     ],
+     [
+      "Glomerulonephritis",
+      "التهاب الكبيبات والكلية"
+     ],
+     [
+      "Pyelonephritis",
+      "التهاب الحويضة والكلية"
+     ],
+     [
+      "Polycystic kidney",
+      "الكلية متعدّدة الأكياس"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Classification",
+    "topic_ar": "التصنيف"
+   },
+   {
+    "en": "Which is a hereditary nephritis?",
+    "ar": "أيّ مما يأتي التهاب كلية وراثي؟",
+    "options": [
+     [
+      "Lupus nephritis",
+      "التهاب الكلية الذئبي"
+     ],
+     [
+      "Diabetic nephropathy",
+      "اعتلال الكلية السكري"
+     ],
+     [
+      "Alport’s syndrome",
+      "متلازمة ألبورت"
+     ],
+     [
+      "Amyloidosis",
+      "الداء النشواني"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Diabetic nephropathy is classified as:",
+    "ar": "يُصنَّف اعتلال الكلية السكري كـ:",
+    "options": [
+     [
+      "Primary GN",
+      "التهاب كبيبات أولي"
+     ],
+     [
+      "Secondary systemic glomerular disease",
+      "مرض كبيبي جهازي ثانوي"
+     ],
+     [
+      "Hereditary nephritis",
+      "التهاب كلية وراثي"
+     ],
+     [
+      "Normal variant",
+      "تغيّر طبيعي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Goodpasture’s syndrome involves:",
+    "ar": "تتضمّن متلازمة غودباستشر:",
+    "options": [
+     [
+      "Kidney stones",
+      "حصى الكلية"
+     ],
+     [
+      "Congenital absence of kidney",
+      "غياب خلقي للكلية"
+     ],
+     [
+      "Bacterial infection only",
+      "عدوى بكتيرية فقط"
+     ],
+     [
+      "Antibodies that attack the kidneys",
+      "أضدادًا تهاجم الكلية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Henoch-Schönlein purpura is also known as:",
+    "ar": "تعرف فرفرية هينوخ-شونلاين أيضًا بـ:",
+    "options": [
+     [
+      "IgA vasculitis",
+      "التهاب الأوعية بـ IgA"
+     ],
+     [
+      "Fabry’s disease",
+      "داء فابري"
+     ],
+     [
+      "Wegener’s granulomatosis",
+      "ورام فيغنر"
+     ],
+     [
+      "Lupus",
+      "الذئبة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "FSGS stands for:",
+    "ar": "FSGS تعني:",
+    "options": [
+     [
+      "Fast streptococcal GN syndrome",
+      "متلازمة التهاب الكبيبات العقدي السريع"
+     ],
+     [
+      "Familial secondary GN",
+      "التهاب كبيبات ثانوي عائلي"
+     ],
+     [
+      "Focal segmental glomerulosclerosis",
+      "التصلّب الكبيبي البؤري القطعي"
+     ],
+     [
+      "Fibrous systemic glomerular scar",
+      "ندبة كبيبية جهازية ليفية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Clinical features and IgA nephropathy",
+    "topic_ar": "المظاهر السريرية واعتلال IgA"
+   },
+   {
+    "en": "A firm diagnosis of glomerular disease is established by:",
+    "ar": "يُؤكَّد تشخيص أمراض الكبيبات بـ:",
+    "options": [
+     [
+      "Blood glucose",
+      "سكر الدم"
+     ],
+     [
+      "Urine culture",
+      "زرع البول"
+     ],
+     [
+      "Chest X-ray",
+      "أشعة الصدر"
+     ],
+     [
+      "Renal biopsy under light, electron and immunofluorescence microscopy",
+      "خزعة الكلية بالمجهر الضوئي والإلكتروني والتألّق المناعي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The most common cause of glomerulonephritis in the world is:",
+    "ar": "أشيع سبب لالتهاب الكبيبات في العالم:",
+    "options": [
+     [
+      "IgA nephropathy",
+      "اعتلال IgA"
+     ],
+     [
+      "Membranous GN",
+      "الغشائي"
+     ],
+     [
+      "Lupus nephritis",
+      "الذئبي"
+     ],
+     [
+      "Alport’s syndrome",
+      "ألبورت"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "IgA nephropathy is also called:",
+    "ar": "يُسمّى اعتلال IgA أيضًا:",
+    "options": [
+     [
+      "Bright’s disease",
+      "داء برايت"
+     ],
+     [
+      "Berger disease",
+      "داء بيرجر"
+     ],
+     [
+      "Fabry disease",
+      "داء فابري"
+     ],
+     [
+      "Lipoid nephrosis",
+      "الكلاء الشحمي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In IgA nephropathy, immune complexes activate:",
+    "ar": "في اعتلال IgA تنشّط المعقّدات المناعية:",
+    "options": [
+     [
+      "Coagulation cascade",
+      "سلسلة التخثّر"
+     ],
+     [
+      "Classical pathway only",
+      "المسار الكلاسيكي فقط"
+     ],
+     [
+      "Alternate complement pathway",
+      "المسار البديل للمتمّمة"
+     ],
+     [
+      "Lectin pathway only",
+      "مسار اللكتين فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Major glomerular syndromes",
+    "topic_ar": "المتلازمات الكبيبية الرئيسية"
+   },
+   {
+    "en": "Acute nephritic syndrome includes:",
+    "ar": "تشمل متلازمة التهاب الكلية الحادة:",
+    "options": [
+     [
+      "Microscopic haematuria, mild proteinuria, hypertension, oedema and oliguria",
+      "بيلة دموية مجهرية، بروتينية خفيفة، ارتفاع ضغط، وذمة، قلّة بول"
+     ],
+     [
+      "Massive proteinuria only",
+      "بروتينية هائلة فقط"
+     ],
+     [
+      "Lipiduria and hypercoagulability",
+      "بيلة دهنية وفرط تخثّر"
+     ],
+     [
+      "No urinary findings",
+      "لا موجودات بولية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which is a feature of nephrotic syndrome?",
+    "ar": "أيّ مما يأتي صفة للمتلازمة الكلائية؟",
+    "options": [
+     [
+      "Mild proteinuria",
+      "بروتينية خفيفة"
+     ],
+     [
+      "Hypolipidaemia",
+      "نقص الشحوم"
+     ],
+     [
+      "Hypocoagulability",
+      "نقص التخثّر"
+     ],
+     [
+      "Hypoalbuminaemia",
+      "نقص ألبومين الدم"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The most frequent cause of nephrotic syndrome in children is:",
+    "ar": "أشيع سبب للمتلازمة الكلائية في الأطفال:",
+    "options": [
+     [
+      "Diabetes",
+      "السكري"
+     ],
+     [
+      "Membranous GN",
+      "الغشائي"
+     ],
+     [
+      "Lipoid nephrosis (65%)",
+      "الكلاء الشحمي (65%)"
+     ],
+     [
+      "Amyloidosis",
+      "النشواني"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The most common primary glomerular disease causing nephrotic syndrome in adults is:",
+    "ar": "أشيع مرض كبيبي أولي في البالغين:",
+    "options": [
+     [
+      "IgA nephropathy",
+      "اعتلال IgA"
+     ],
+     [
+      "Membranous glomerulonephritis (40%)",
+      "التهاب الكبيبات الغشائي (40%)"
+     ],
+     [
+      "Alport",
+      "ألبورت"
+     ],
+     [
+      "Minimal change",
+      "التغيّر الأدنى"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In adults, the more frequent causes of nephrotic syndrome are:",
+    "ar": "في البالغين الأسباب الأكثر شيوعًا للمتلازمة الكلائية:",
+    "options": [
+     [
+      "Lipoid nephrosis",
+      "الكلاء الشحمي"
+     ],
+     [
+      "Systemic diseases (diabetes, amyloidosis, SLE)",
+      "الأمراض الجهازية (السكري، النشواني، الذئبة)"
+     ],
+     [
+      "Exercise",
+      "الجهد"
+     ],
+     [
+      "Lordosis",
+      "التقعّر القطني"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Glomerular causes of acute renal failure are principally:",
+    "ar": "الأسباب الكبيبية للفشل الكلوي الحاد أساسًا:",
+    "options": [
+     [
+      "IgA nephropathy and Alport",
+      "اعتلال IgA وألبورت"
+     ],
+     [
+      "Minimal change and FSGS",
+      "التغيّر الأدنى وFSGS"
+     ],
+     [
+      "Rapidly progressive GN and acute diffuse proliferative GN",
+      "سريع التقدّم والتكاثري المنتشر الحاد"
+     ],
+     [
+      "Membranous GN only",
+      "الغشائي فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Chronic renal failure patients generally have:",
+    "ar": "لدى مرضى الفشل الكلوي المزمن عمومًا:",
+    "options": [
+     [
+      "Enlarged kidneys",
+      "كلى متضخّمة"
+     ],
+     [
+      "Normal kidneys",
+      "كلى طبيعية"
+     ],
+     [
+      "Polycystic kidneys",
+      "كلى متعدّدة الأكياس"
+     ],
+     [
+      "Small contracted kidneys",
+      "كلى صغيرة متقلّصة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which proteinuria may be unrelated to renal disease?",
+    "ar": "أيّ بيلة بروتينية قد لا تتعلّق بمرض كلوي؟",
+    "options": [
+     [
+      "Orthostatic",
+      "الانتصابية"
+     ],
+     [
+      "Diabetic",
+      "السكرية"
+     ],
+     [
+      "Lupus",
+      "الذئبية"
+     ],
+     [
+      "Massive nephrotic",
+      "الكلائية الهائلة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Asymptomatic microscopic haematuria is common in:",
+    "ar": "البيلة الدموية المجهرية اللاعرضية شائعة في:",
+    "options": [
+     [
+      "Pregnant women only",
+      "الحوامل فقط"
+     ],
+     [
+      "The elderly only",
+      "كبار السن فقط"
+     ],
+     [
+      "Children and young adolescents",
+      "الأطفال واليافعين"
+     ],
+     [
+      "Newborns only",
+      "حديثي الولادة فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this figure, the glomerulus is enclosed by:",
+    "ar": "في هذا الشكل، الكبيبة محاطة بـ:",
+    "options": [
+     [
+      "Bowman’s capsule",
+      "محفظة بومان"
+     ],
+     [
+      "Collecting duct",
+      "القناة الجامعة"
+     ],
+     [
+      "Vasa recta",
+      "الأوعية المستقيمة"
+     ],
+     [
+      "Ureter",
+      "الحالب"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/renal-corpuscle.jpg",
+    "img_h": "34mm"
+   },
+   {
+    "en": "This figure shows the deposition of immune complexes in:",
+    "ar": "يُظهر هذا الشكل ترسّب المعقّدات المناعية في:",
+    "options": [
+     [
+      "IgA nephropathy",
+      "اعتلال IgA"
+     ],
+     [
+      "Membranous glomerulopathy",
+      "الاعتلال الكبيبي الغشائي"
+     ],
+     [
+      "Alport’s syndrome",
+      "ألبورت"
+     ],
+     [
+      "Normal kidney",
+      "الكلية الطبيعية"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/membranous.png",
+    "img_h": "40mm"
+   },
+   {
+    "en": "The diseased kidney in this figure shows:",
+    "ar": "الكلية المريضة في هذا الشكل تُظهر:",
+    "options": [
+     [
+      "Normal glomeruli",
+      "كبيبات طبيعية"
+     ],
+     [
+      "Enlarged smooth surface",
+      "سطحًا أملس متضخّمًا"
+     ],
+     [
+      "Stones only",
+      "حصى فقط"
+     ],
+     [
+      "Scar tissue, damaged glomerulus and tubules",
+      "نسيجًا ندبيًا وكبيبة ونبيبات متضرّرة"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/normal-diseased-kidney.jpg",
+    "img_h": "42mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "The kidney secretes hormones.",
+    "ar": "تفرز الكلية الهرمونات.",
+    "answer": "T"
+   },
+   {
+    "en": "The proximal convoluted tubule is located in the renal medulla.",
+    "ar": "يقع النبيب الملتفّ القريب في لبّ الكلية.",
+    "answer": "F"
+   },
+   {
+    "en": "Glomerular diseases are typically caused by disturbances of structure.",
+    "ar": "تنتج أمراض الكبيبات عادةً عن اضطرابات التركيب.",
+    "answer": "T"
+   },
+   {
+    "en": "Fabry’s disease is a secondary systemic glomerular disease.",
+    "ar": "داء فابري مرض كبيبي جهازي ثانوي.",
+    "answer": "F"
+   },
+   {
+    "en": "Systemic infections such as HBV, HCV and HIV can cause secondary glomerular disease.",
+    "ar": "قد تسبّب العدوى الجهازية مثل HBV وHCV وHIV مرضًا كبيبيًا ثانويًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Haematuria is one of the four clinical features of glomerular disease.",
+    "ar": "البيلة الدموية من الصفات السريرية الأربع لأمراض الكبيبات.",
+    "answer": "T"
+   },
+   {
+    "en": "The mechanism of IgA nephropathy is fully known.",
+    "ar": "آلية اعتلال IgA معروفة بالكامل.",
+    "answer": "F"
+   },
+   {
+    "en": "Nephrotic syndrome includes hyperlipidaemia and lipiduria.",
+    "ar": "تشمل المتلازمة الكلائية فرط شحوم الدم والبيلة الدهنية.",
+    "answer": "T"
+   },
+   {
+    "en": "Massive proteinuria is a feature of acute nephritic syndrome.",
+    "ar": "البيلة البروتينية الهائلة صفة لمتلازمة التهاب الكلية الحادة.",
+    "answer": "F"
+   },
+   {
+    "en": "In children, primary GN causes most cases of nephrotic syndrome.",
+    "ar": "في الأطفال يسبّب التهاب الكبيبات الأولي أغلب حالات المتلازمة الكلائية.",
+    "answer": "T"
+   },
+   {
+    "en": "Chronic renal failure develops over days.",
+    "ar": "يتطوّر الفشل الكلوي المزمن خلال أيام.",
+    "answer": "F"
+   },
+   {
+    "en": "Azotaemia is a finding in chronic renal failure.",
+    "ar": "الآزوتيميا من موجودات الفشل الكلوي المزمن.",
+    "answer": "T"
+   },
+   {
+    "en": "Neoplasia can cause asymptomatic haematuria.",
+    "ar": "قد تسبّب الأورام بيلة دموية لاعرضية.",
+    "answer": "T"
+   },
+   {
+    "en": "Exercise-induced proteinuria always indicates glomerulonephritis.",
+    "ar": "البيلة البروتينية الناتجة عن الجهد تدلّ دائمًا على التهاب الكبيبات.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Nephritic or nephrotic — which has massive proteinuria?",
+    "ar": "التهاب الكلية أم الكلائية — أيّهما ببروتينية هائلة؟",
+    "answer_en": "Nephrotic (massive proteinuria, hypoalbuminaemia, oedema, hyperlipidaemia); nephritic has mild proteinuria with haematuria, hypertension and oliguria.",
+    "answer_ar": "الكلائية (بروتينية هائلة، نقص ألبومين، وذمة، فرط شحوم)؛ أما التهاب الكلية فبروتينية خفيفة مع بيلة دموية وارتفاع ضغط وقلّة بول."
+   },
+   {
+    "en": "65% or 40%?",
+    "ar": "65% أم 40%؟",
+    "answer_en": "65% = lipoid nephrosis in children; 40% = membranous GN in adults (most common primary).",
+    "answer_ar": "65% = الكلاء الشحمي في الأطفال؛ 40% = التهاب الكبيبات الغشائي في البالغين (أشيع أولي)."
+   },
+   {
+    "en": "Most common GN in the world vs most common primary nephrotic cause in adults?",
+    "ar": "أشيع التهاب كبيبات في العالم مقابل أشيع سبب أولي للكلائية في البالغين؟",
+    "answer_en": "World: IgA nephropathy (Berger); adults' nephrotic (primary): membranous GN.",
+    "answer_ar": "العالم: اعتلال IgA (بيرجر)؛ الكلائية الأولية في البالغين: الغشائي."
+   },
+   {
+    "en": "Alport and Fabry — secondary or hereditary?",
+    "ar": "ألبورت وفابري — ثانوي أم وراثي؟",
+    "answer_en": "Hereditary (with nail-patella syndrome and congenital nephrotic syndrome).",
+    "answer_ar": "وراثي (مع متلازمة الظفر-الرضفة والكلائية الخلقية)."
+   },
+   {
+    "en": "ARF vs CRF?",
+    "ar": "الحاد مقابل المزمن؟",
+    "answer_en": "ARF: rapid decline (RPGN, acute diffuse proliferative GN); CRF: over years, azotaemia, small contracted kidneys.",
+    "answer_ar": "الحاد: تدهور سريع (سريع التقدّم، التكاثري المنتشر الحاد)؛ المزمن: عبر سنوات، آزوتيميا، كلى صغيرة متقلّصة."
+   },
+   {
+    "en": "Is all proteinuria renal disease?",
+    "ar": "هل كل بيلة بروتينية مرض كلوي؟",
+    "answer_en": "No — exercise-induced, extreme lordosis and orthostatic proteinuria may be unrelated to renal disease.",
+    "answer_ar": "لا — الناتجة عن الجهد والتقعّر الشديد والانتصابية قد لا تتعلّق بمرض كلوي."
+   }
+  ],
+  "important": [
+   {
+    "en": "List the functions of the kidney and the parts of the nephron.",
+    "ar": "عدّد وظائف الكلية وأجزاء النفرون.",
+    "answer_en": "Functions: excreting waste products, regulating body fluid and solute balance, regulating blood pressure, secreting hormones. Nephron: renal corpuscle (glomerulus and Bowman capsule), PCT, descending loop of Henle, ascending limb, thick ascending limb, DCT, collecting duct.",
+    "answer_ar": "الوظائف: إخراج الفضلات، تنظيم توازن السوائل والمذابات، تنظيم ضغط الدم، إفراز الهرمونات. النفرون: الجسيم الكلوي (الكبيبة ومحفظة بومان)، PCT، الطرف النازل لعروة هنلي، الطرف الصاعد، الطرف الصاعد الثخين، DCT، القناة الجامعة."
+   },
+   {
+    "en": "What are the glomerular components that may be damaged, and the aetiology of glomerular diseases?",
+    "ar": "ما مكوّنات الكبيبة التي قد تتضرّر، وما سببيات أمراض الكبيبات؟",
+    "answer_en": "Components: endothelial cells, glomerular basement membrane, mesangium, epithelial cells (podocytes with foot processes). Aetiology: primary (majority, idiopathic), secondary to systemic disease, hereditary (Alport, Fabry, congenital nephrotic syndrome).",
+    "answer_ar": "المكوّنات: الخلايا البطانية، الغشاء القاعدي الكبيبي، المسراق، الخلايا الظهارية (الخلايا القدمية بزوائدها). السببيات: أولية (الأغلبية، مجهولة)، ثانوية لمرض جهازي، وراثية (ألبورت، فابري، الكلائية الخلقية)."
+   },
+   {
+    "en": "Classify glomerular diseases with examples.",
+    "ar": "صنّف أمراض الكبيبات مع الأمثلة.",
+    "answer_en": "I. Primary GN: acute (post-/non-streptococcal), RPGN, minimal change, membranous, membrano-proliferative, focal and diffuse proliferative, FSGS, IgA nephropathy, chronic GN. II. Secondary: lupus nephritis, diabetic nephropathy, amyloidosis, PAN, Wegener’s, Goodpasture’s, HSP, systemic infections, mixed cryoglobulinaemia. III. Hereditary: Alport’s, Fabry’s, nail-patella.",
+    "answer_ar": "I. الأولي: الحاد (التالي/غير العقدي)، سريع التقدّم، التغيّر الأدنى، الغشائي، الغشائي التكاثري، التكاثري البؤري والمنتشر، FSGS، اعتلال IgA، المزمن. II. الثانوي: الذئبي، السكري، النشواني، PAN، فيغنر، غودباستشر، HSP، العدوى الجهازية، الغلوبيولين البردي. III. الوراثي: ألبورت، فابري، الظفر-الرضفة."
+   },
+   {
+    "en": "Write about IgA nephropathy.",
+    "ar": "اكتب عن اعتلال الكلية بـ IgA.",
+    "answer_en": "Berger disease; mechanism unknown — possible entrapment of circulating immune complexes (abnormal IgA1 + anti-glycan autoantibody) with activation of the alternate complement pathway, and possible genetic predisposition; the most common cause of glomerulonephritis in the world (nephritic syndrome).",
+    "answer_ar": "داء بيرجر؛ الآلية غير معروفة — احتمال احتباس معقّدات مناعية دائرة (IgA1 شاذ + ضد ذاتي مضاد للغليكان) مع تنشيط المسار البديل للمتمّمة، واحتمال استعداد وراثي؛ وهو أشيع سبب لالتهاب الكبيبات في العالم (متلازمة التهاب الكلية)."
+   },
+   {
+    "en": "Compare the acute nephritic syndrome and the nephrotic syndrome.",
+    "ar": "قارن بين متلازمة التهاب الكلية الحادة والمتلازمة الكلائية.",
+    "answer_en": "Nephritic: acute microscopic haematuria, mild proteinuria, hypertension, oedema, oliguria; causes acute GN, RPGN or systemic disease. Nephrotic: massive proteinuria, hypoalbuminaemia, oedema, hyperlipidaemia, lipiduria, hypercoagulability; children — primary GN, lipoid nephrosis 65%; adults — systemic diseases (diabetes, amyloidosis, SLE), primary membranous GN 40%.",
+    "answer_ar": "التهاب الكلية: بيلة دموية مجهرية حادة، بروتينية خفيفة، ارتفاع ضغط، وذمة، قلّة بول؛ أسبابه التهاب الكبيبات الحاد وسريع التقدّم أو مرض جهازي. الكلائية: بروتينية هائلة، نقص ألبومين، وذمة، فرط شحوم، بيلة دهنية، فرط تخثّر؛ الأطفال — أولي، الكلاء الشحمي 65%؛ البالغون — جهازية (سكري، نشواني، ذئبة)، الغشائي الأولي 40%."
+   },
+   {
+    "en": "Describe acute and chronic renal failure, asymptomatic proteinuria and asymptomatic haematuria.",
+    "ar": "صف الفشل الكلوي الحاد والمزمن، والبيلة البروتينية والدموية اللاعرضيتين.",
+    "answer_en": "ARF: rapid decline in renal function (glomerular causes: RPGN, acute diffuse proliferative GN). CRF: advanced impairment over years with proteinuria, haematuria, hypertension and azotaemia; small contracted kidneys from chronic GN. Asymptomatic proteinuria: may be unrelated (exercise, extreme lordosis, orthostatic) or mild GN. Asymptomatic microscopic haematuria: common in children and adolescents; causes — glomerulus, interstitium, calyces, ureter, bladder, prostate, urethra, bleeding disorders, congenital abnormalities, neoplasia.",
+    "answer_ar": "الحاد: تدهور سريع في وظيفة الكلية (أسباب كبيبية: سريع التقدّم، التكاثري المنتشر الحاد). المزمن: قصور متقدّم عبر سنوات مع بروتينية ودموية وارتفاع ضغط وآزوتيميا؛ كلى صغيرة متقلّصة من التهاب الكبيبات المزمن. البروتينية اللاعرضية: قد لا تتعلّق بمرض (جهد، تقعّر، انتصابية) أو التهاب كبيبات خفيف. الدموية المجهرية اللاعرضية: شائعة في الأطفال واليافعين؛ أسبابها الكبيبة والنسيج الخلالي والكؤوس والحالب والمثانة والبروستات والإحليل واضطرابات النزف والتشوّهات الخلقية والأورام."
+   }
+  ]
+ }
+}
