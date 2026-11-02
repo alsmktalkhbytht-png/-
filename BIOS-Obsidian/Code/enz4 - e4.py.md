@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/enz4/e4.py
 handouts: []
-saved: 2026-11-01
+saved: 2026-11-02
 tags: [bios, code]
 ---
 # enz4/e4.py

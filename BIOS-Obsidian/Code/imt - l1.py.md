@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/imt/l1.py
 handouts: [immunology-lec1-introduction]
-saved: 2026-11-01
+saved: 2026-11-02
 tags: [bios, code]
 ---
 # imt/l1.py

@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/par5/p5.py
 handouts: []
-saved: 2026-11-01
+saved: 2026-11-02
 tags: [bios, code]
 ---
 # par5/p5.py

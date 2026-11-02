@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/gh/ghq.py
 handouts: [endocrine-lab3-growth-hormone]
-saved: 2026-11-01
+saved: 2026-11-02
 tags: [bios, code]
 ---
 # gh/ghq.py

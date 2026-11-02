@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/pl4/pl4.py
 handouts: []
-saved: 2026-11-01
+saved: 2026-11-02
 tags: [bios, code]
 ---
 # pl4/pl4.py

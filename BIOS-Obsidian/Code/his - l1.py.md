@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/his/l1.py
 handouts: [histopathology-lab1-lab-safety]
-saved: 2026-11-01
+saved: 2026-11-02
 tags: [bios, code]
 ---
 # his/l1.py

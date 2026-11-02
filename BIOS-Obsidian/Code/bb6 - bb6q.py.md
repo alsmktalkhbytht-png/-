@@ -1,0 +1,112 @@
+---
+source: BIOS-Obsidian/tools/scripts/bb6/bb6q.py
+handouts: [bloodbank-lec6-abo-discrepancies]
+saved: 2026-11-02
+tags: [bios, code]
+---
+# bb6/bb6q.py
+
+Generator script — writes the handout's `lecture.json`.
+
+Handouts: [[06 فهرس الملازم#bloodbank-lec6-abo-discrepancies|bloodbank-lec6-abo-discrepancies]]
+
+```python
+A = lambda f: "assets/" + f
+mcq = [
+ {"topic_en": "ABO discrepancies and technical errors", "topic_ar": "اختلافات ABO والأخطاء الفنية"},
+ Q("An ABO discrepancy is:", "اختلاف ABO هو:", O(("A mismatch between forward and reverse grouping results", "عدم تطابق بين نتائج التصنيف المباشر والعكسي"), ("A positive antibody screen", "تحرّي أضداد موجب"), ("An Rh-negative result", "نتيجة Rh سالبة"), ("A hemolysed sample only", "عيّنة منحلّة فقط")), "a"),
+ Q("Forward grouping tests the patient’s:", "التصنيف المباشر يفحص لدى المريض:", O(("Serum", "المصل"), ("Red cells", "الكريات الحمر"), ("Plasma proteins", "بروتينات البلازما"), ("White cells", "الكريات البيض")), "b"),
+ Q("ABO discrepancies must be resolved:", "يجب حلّ اختلافات ABO:", O(("After transfusion", "بعد النقل"), ("Only in donors", "في المتبرّعين فقط"), ("Prior to reporting the ABO group", "قبل إصدار فصيلة ABO"), ("Only if the patient asks", "فقط إذا طلب المريض")), "c"),
+ Q("One of the most common causes of apparent ABO discrepancies is:", "من أشيع أسباب اختلافات ABO الظاهرية:", O(("Acquired B", "B المكتسب"), ("Chimerism", "الخيمرية"), ("Multiple myeloma", "الورم النقوي المتعدّد"), ("Technical errors", "الأخطاء الفنية")), "d"),
+ Q("Mislabeling of tubes is an example of:", "التعليم الخاطئ للأنابيب مثال على:", O(("Clerical or labeling errors", "الأخطاء الكتابية أو أخطاء التعليم"), ("Sample collection errors", "أخطاء جمع العيّنة"), ("Group III discrepancy", "اختلاف المجموعة الثالثة"), ("Group II discrepancy", "اختلاف المجموعة الثانية")), "a"),
+ Q("To avoid transcription errors, results must be:", "لتجنّب أخطاء النقل يجب أن تكون النتائج:", O(("Recorded at the end of the day", "مسجّلة نهاية اليوم"), ("Recorded immediately after obtaining them", "مسجّلة فور الحصول عليها"), ("Memorized", "محفوظة بالذاكرة"), ("Sent by phone", "مرسلة بالهاتف")), "b"),
+ {"topic_en": "The four groups", "topic_ar": "المجاميع الأربع"},
+ Q("Group I discrepancies are due to:", "اختلافات المجموعة الأولى سببها:", O(("Weak or missing antigens", "مستضدات ضعيفة أو مفقودة"), ("Rouleaux", "الرصّات"), ("Weak or missing antibodies", "أضداد ضعيفة أو مفقودة"), ("Mixed-field agglutination", "تلازن مختلط الحقل")), "c"),
+ Q("Normally, RBC and serum grouping reactions are:", "طبيعيًا تكون تفاعلات تصنيف الكريات والمصل:", O(("Weak (1+)", "ضعيفة (1+)"), ("Negative", "سالبة"), ("Mixed-field", "مختلطة الحقل"), ("Very strong (4+)", "قوية جدًا (4+)")), "d"),
+ Q("A newborn shows a group I discrepancy because:", "يُظهر الرضيع اختلاف المجموعة الأولى لأن:", O(("ABO antibodies are not detectable until 3–6 months", "أضداد ABO لا تُكشف حتى 3–6 أشهر"), ("Newborns have no antigens", "الرضّع بلا مستضدات"), ("Newborns have rouleaux", "لدى الرضّع رصّات"), ("Of acquired B", "بسبب B المكتسب")), "a"),
+ Q("Group I discrepancy is resolved by incubating serum with A1 and B cells at:", "يُحلّ اختلاف المجموعة الأولى بحضن المصل مع كريات A1 وB بدرجة:", O(("56°C", "56°م"), ("Room temperature, then 4°C", "حرارة الغرفة ثم 4°م"), ("37°C only", "37°م فقط"), ("100°C", "100°م")), "b"),
+ Q("Group II discrepancies are a problem of:", "اختلافات المجموعة الثانية مشكلة في:", O(("Reverse grouping", "التصنيف العكسي"), ("Plasma proteins", "بروتينات البلازما"), ("Forward grouping (weak or missing antigens)", "التصنيف المباشر (مستضدات ضعيفة أو مفقودة)"), ("Labeling", "التعليم")), "c"),
+ Q("The least frequently encountered group of discrepancies is:", "أقل مجاميع الاختلافات مصادفةً:", O(("Group I", "الأولى"), ("Group III", "الثالثة"), ("Group IV", "الرابعة"), ("Group II", "الثانية")), "d"),
+ Q("The “acquired B” phenomenon is most often associated with:", "ترتبط ظاهرة “B المكتسب” غالبًا بـ:", O(("Diseases of the digestive tract (cancer of the colon)", "أمراض القناة الهضمية (سرطان القولون)"), ("Pregnancy", "الحمل"), ("Dextran", "الدكستران"), ("Newborns", "الرضّع")), "a"),
+ Q("A3, Ax and Am are:", "A3 وAx وAm هي:", O(("Antibodies", "أضداد"), ("Subgroups of A", "تحت مجاميع A"), ("Enhancement reagents", "كواشف معزّزة"), ("Plasma expanders", "موسّعات بلازما")), "b"),
+ Q("RBCs pretreated with enzymes are used to resolve:", "تُستعمل الكريات المعاملة بالإنزيمات لحلّ:", O(("Group I", "المجموعة الأولى"), ("Group III", "المجموعة الثالثة"), ("Group II", "المجموعة الثانية"), ("Technical errors", "الأخطاء الفنية")), "c"),
+ Q("Group III discrepancies are caused by:", "سبب اختلافات المجموعة الثالثة:", O(("Weak antigens", "مستضدات ضعيفة"), ("Missing antibodies", "أضداد مفقودة"), ("Chimerism", "الخيمرية"), ("Protein or plasma abnormalities (rouleaux)", "شذوذات البروتين أو البلازما (الرصّات)")), "d"),
+ Q("Multiple myeloma causes an ABO discrepancy of:", "يسبّب الورم النقوي المتعدّد اختلاف ABO من:", O(("Group III", "المجموعة الثالثة"), ("Group I", "المجموعة الأولى"), ("Group II", "المجموعة الثانية"), ("Group IV", "المجموعة الرابعة")), "a"),
+ Q("In the saline replacement technique:", "في تقنية الاستبدال بالمحلول الملحي:", O(("Cells are replaced by serum", "تُستبدل الكريات بالمصل"), ("Serum is removed and replaced by an equal volume of saline", "يُزال المصل ويُستبدل بحجم مساوٍ من الملحي"), ("AHG is added", "يُضاف AHG"), ("The sample is heated", "تُسخَّن العيّنة")), "b"),
+ Q("Chimerism in twin pregnancy is a cause of:", "الخيمرية في الحمل التوأمي سبب لـ:", O(("Group I", "المجموعة الأولى"), ("Group III", "المجموعة الثالثة"), ("Group IV", "المجموعة الرابعة"), ("Group II", "المجموعة الثانية")), "c"),
+ Q("Which is a resolution step for Group IV discrepancies?", "أيّ مما يأتي خطوة لحلّ اختلافات المجموعة الرابعة؟", O(("Add dextran", "إضافة الدكستران"), ("Incubate at 56°C", "الحضن بدرجة 56°م"), ("Use group A cells", "استعمال كريات A"), ("Run DAT and auto control", "إجراء DAT والشاهد الذاتي")), "d"),
+ {"topic_en": "Antibody screening (practical)", "topic_ar": "تحرّي الأضداد (عملي)"},
+ Q("Antibody screening focuses on:", "يركّز تحرّي الأضداد على:", O(("Clinically significant, unexpected antibodies", "الأضداد غير المتوقّعة المهمة سريريًا"), ("Expected anti-A and anti-B", "ضد A وضد B المتوقّعين"), ("IgE antibodies", "أضداد IgE"), ("Bacterial antigens", "مستضدات بكتيرية")), "a"),
+ Q("Clinically significant antibodies are typically:", "الأضداد المهمة سريريًا عادةً:", O(("IgM reacting at 4°C", "IgM تتفاعل بدرجة 4°م"), ("IgG reacting at 37°C or in the AHG phase", "IgG تتفاعل بدرجة 37°م أو في طور AHG"), ("IgA", "IgA"), ("Naturally occurring", "طبيعية النشوء")), "b"),
+ Q("The main significance of the antibody screen in blood banking is:", "الأهمية الرئيسية لتحرّي الأضداد في بنك الدم:", O(("Paternity testing", "فحص الأبوّة"), ("Blood donation criteria", "معايير التبرّع"), ("Pre-transfusion testing", "فحوص ما قبل النقل"), ("Platelet counting", "عدّ الصفائح")), "c"),
+ Q("The traditional antibody screen method is:", "الطريقة التقليدية لتحرّي الأضداد:", O(("Gel card", "بطاقة الهلام"), ("Solid phase adherence", "الالتصاق بالطور الصلب"), ("ELISA", "الإليزا"), ("Indirect antiglobulin test in a tube", "اختبار مضاد الغلوبيولين غير المباشر بالأنبوب")), "d"),
+ Q("Screen RBC reagents come from group O individuals so that:", "تأتي كواشف كريات التحرّي من فصيلة O حتى:", O(("Anti-A and anti-B will not interfere", "لا يتداخل ضد A وضد B"), ("They are cheaper", "تكون أرخص"), ("They have no Rh antigen", "لا تحمل مستضد Rh"), ("They do not need washing", "لا تحتاج غسلًا")), "a"),
+ Q("LISS and PEG are:", "LISS وPEG هما:", O(("AHG reagents", "كواشف AHG"), ("Enhancement reagents", "كواشف معزّزة"), ("Anticoagulants", "مانعات تخثّر"), ("Screen cells", "كريات تحرٍّ")), "b"),
+ Q("In the AHG phase of the tube screen, the cells are first:", "في طور AHG من فحص الأنبوب تُغسل الكريات أولًا:", O(("Not washed", "لا تُغسل"), ("Washed once", "مرّة واحدة"), ("Washed 3 to 4 times with normal saline", "3 إلى 4 مرات بالملحي الفسيولوجي"), ("Washed with water", "بالماء")), "c"),
+ Q("Negative reactions in the tube screen are confirmed with:", "تُؤكَّد التفاعلات السالبة في فحص الأنبوب بـ:", O(("Group A cells", "كريات A"), ("Dextran", "الدكستران"), ("LISS", "LISS"), ("Coombs control cells", "كريات شاهد كومبس")), "d"),
+ Q("Which is NOT listed as a limitation of the antibody screen?", "أيّ مما يأتي ليس من محدّدات تحرّي الأضداد المذكورة؟", O(("Blood group of the technician", "فصيلة دم الفنّي"), ("Cell-to-serum ratio", "نسبة الكريات إلى المصل"), ("Temperature", "درجة الحرارة"), ("Length of incubation", "مدّة الحضن")), "a"),
+ {"topic_en": "Picture questions", "topic_ar": "أسئلة الصور"},
+ Q("This figure shows the steps of:", "يُظهر هذا الشكل خطوات:", O(("ABO slide grouping", "التصنيف بالشريحة"), ("The tube antibody screen test", "فحص تحرّي الأضداد بالأنبوب"), ("Saline replacement", "الاستبدال الملحي"), ("Gel card method", "طريقة بطاقة الهلام")), "b", img=A("antibody-screen-tube.png"), img_h="44mm"),
+ Q("In this figure, the step after the 37°C phase and before AHG is:", "في هذا الشكل، الخطوة بعد طور 37°م وقبل AHG:", O(("Add dextran", "إضافة الدكستران"), ("Incubate at 4°C", "الحضن بدرجة 4°م"), ("Wash 3 to 4 times with normal saline", "الغسل 3 إلى 4 مرات بالملحي"), ("Add anti-A", "إضافة ضد A")), "c", img=A("antibody-screen-tube.png"), img_h="44mm"),
+]
+
+tf = [
+ TF("ABO discrepancies may be due to problems with both serum and red cells.", "قد تكون اختلافات ABO بسبب مشاكل في المصل والكريات معًا.", "T"),
+ TF("Hemolysis of the sample is a sample collection error.", "انحلال العيّنة من أخطاء جمع العيّنة.", "T"),
+ TF("Over-centrifugation cannot cause errors.", "زيادة النبذ لا يمكن أن تسبّب أخطاء.", "F"),
+ TF("Group I discrepancy is a forward grouping problem.", "اختلاف المجموعة الأولى مشكلة في التصنيف المباشر.", "F"),
+ TF("Elderly patients may have weak ABO antibodies.", "قد تكون أضداد ABO ضعيفة لدى كبار السن.", "T"),
+ TF("Leukemia may weaken A or B antigens.", "قد يُضعف ابيضاض الدم مستضدات A أو B.", "T"),
+ TF("Elevated fibrinogen is a cause of group II discrepancy.", "ارتفاع الفايبرينوجين سبب لاختلاف المجموعة الثانية.", "F"),
+ TF("In true agglutination, RBC clumping remains after saline washing.", "في التلازن الحقيقي يبقى تكتّل الكريات بعد الغسل بالملحي.", "T"),
+ TF("Cold reactive autoantibodies may make RBCs agglutinate spontaneously.", "قد تجعل الأضداد الذاتية الباردة الكريات تتلازن تلقائيًا.", "T"),
+ TF("Unexpected immune alloantibodies are produced after transfusion, transplantation or pregnancy.", "تُنتج الأضداد الخيفية المناعية غير المتوقّعة بعد النقل أو الزرع أو الحمل.", "T"),
+ TF("Gel card and solid phase methods are alternatives to tube testing.", "طريقتا بطاقة الهلام والطور الصلب بديلتان لفحص الأنبوب.", "T"),
+ TF("Enhancement reagents are added after the AHG phase.", "تُضاف الكواشف المعزّزة بعد طور AHG.", "F"),
+ TF("After an antibody is identified, it should be titered.", "بعد تحديد الضد يجب معايرته.", "T"),
+ TF("pH does not affect the sensitivity of the antibody screen.", "لا يؤثّر الأس الهيدروجيني في حساسية تحرّي الأضداد.", "F"),
+]
+
+traps = [
+ TR("Group I vs Group II — which grouping is wrong?", "المجموعة الأولى مقابل الثانية — أيّ تصنيف خاطئ؟",
+    "Group I: weak/missing antibodies → reverse (serum) grouping; Group II: weak/missing antigens → forward (cell) grouping.", "الأولى: أضداد ضعيفة/مفقودة ← التصنيف العكسي (المصل)؛ الثانية: مستضدات ضعيفة/مفقودة ← التصنيف المباشر (الكريات)."),
+ TR("Multiple myeloma — Group II or III?", "الورم النقوي المتعدّد — المجموعة الثانية أم الثالثة؟",
+    "Group III (protein/plasma abnormality → rouleaux); leukemia and Hodgkin's weaken antigens → Group II.", "الثالثة (شذوذ بروتين/بلازما ← رصّات)؛ أما الابيضاض وهودجكن فيُضعفان المستضدات ← الثانية."),
+ TR("Rouleaux or true agglutination?", "رصّات أم تلازن حقيقي؟",
+    "After saline replacement/washing, true agglutination remains; rouleaux disperse.", "بعد الاستبدال/الغسل بالملحي يبقى التلازن الحقيقي، وتتفرّق الرصّات."),
+ TR("Resolution temperatures?", "درجات حرارة الحل؟",
+    "Groups I and II: room temperature (15–30 min) then 4°C (15–30 min); Group IV: wash with warm saline.", "المجموعتان الأولى والثانية: حرارة الغرفة (15–30 دقيقة) ثم 4°م (15–30 دقيقة)؛ الرابعة: غسل بملحي دافئ."),
+ TR("Why group O screen cells?", "لماذا كريات التحرّي من فصيلة O؟",
+    "So that anti-A and anti-B do not interfere with detecting antibodies to other blood group systems.", "حتى لا يتداخل ضد A وضد B مع كشف أضداد أنظمة الفصائل الأخرى."),
+ TR("Expected or unexpected antibodies in the screen?", "أضداد متوقّعة أم غير متوقّعة في التحرّي؟",
+    "Unexpected, clinically significant ones (usually IgG at 37°C/AHG); expected ones are detected by easier methods.", "غير المتوقّعة المهمة سريريًا (عادةً IgG بدرجة 37°م/AHG)؛ والمتوقّعة تُكشف بطرق أسهل."),
+]
+
+important = [
+ IM("Define ABO discrepancy and its sources.", "عرّف اختلاف ABO ومصادره.",
+    "A mismatch between forward (cell) and reverse (serum) grouping results, or unexpected/weaker results. Due to problems with the patient's RBCs (forward), serum (reverse), or both; an extra positive or a weak/missing reaction. All must be resolved before reporting the ABO group.",
+    "عدم تطابق بين نتائج التصنيف المباشر (الكريات) والعكسي (المصل)، أو نتائج غير متوقّعة/أضعف. سببه مشاكل في كريات المريض (المباشر) أو مصله (العكسي) أو كليهما؛ تفاعل موجب إضافي أو ضعيف/مفقود. ويجب حلّها كلها قبل إصدار الفصيلة."),
+ IM("What are the technical errors that cause ABO discrepancies?", "ما الأخطاء الفنية المسبّبة لاختلافات ABO؟",
+    "Sample collection errors (wrong patient sample, incorrect anticoagulant, hemolysis, contaminated specimen); clerical or labeling errors (mislabeling of tubes or slides, transcription error); sample mix-up; reagent contamination; over- or under-centrifugation. Record results immediately and check reagent vials.",
+    "أخطاء جمع العيّنة (عيّنة مريض خاطئ، مانع تخثّر غير صحيح، انحلال، عيّنة ملوّثة)؛ الأخطاء الكتابية أو التعليم (تعليم خاطئ للأنابيب أو الشرائح، خطأ النقل)؛ خلط العيّنات؛ تلوّث الكواشف؛ زيادة أو نقص النبذ. سجّل النتائج فورًا وافحص قناني الكواشف."),
+ IM("Describe Group I discrepancies: causes and resolution.", "صف اختلافات المجموعة الأولى: الأسباب والحل.",
+    "Weak or missing antibodies (reverse grouping problem). Causes: newborns (< 3–6 months), elderly, immunodeficiency or hypogammaglobulinemia, bone marrow transplant or leukemia, dilution by plasma or exchange transfusion. Resolution: incubate serum with A1 and B cells at room temperature 15–30 min, then at 4°C 15–30 min.",
+    "أضداد ضعيفة أو مفقودة (مشكلة التصنيف العكسي). الأسباب: الرضّع (< 3–6 أشهر)، كبار السن، نقص المناعة أو نقص غاما غلوبيولين الدم، زرع النخاع أو الابيضاض، التخفيف بنقل البلازما أو النقل التبادلي. الحل: حضن المصل مع كريات A1 وB بحرارة الغرفة 15–30 دقيقة ثم 4°م 15–30 دقيقة."),
+ IM("Describe Group II discrepancies: causes and resolution.", "صف اختلافات المجموعة الثانية: الأسباب والحل.",
+    "Weak or missing antigens (forward grouping problem), the least frequent. Causes: A subgroups (A3, Ax, Am) or B subgroups; leukemia, Hodgkin's disease, carcinoma; acquired B (digestive tract diseases, colon cancer). Resolution: incubate at room temperature up to 30 min, then 4°C 15–30 min; or pretreat RBCs with enzymes.",
+    "مستضدات ضعيفة أو مفقودة (مشكلة التصنيف المباشر)، وهي الأقل مصادفة. الأسباب: تحت مجاميع A (A3، Ax، Am) أو B؛ الابيضاض، داء هودجكن، السرطان؛ B المكتسب (أمراض القناة الهضمية، سرطان القولون). الحل: الحضن بحرارة الغرفة حتى 30 دقيقة ثم 4°م 15–30 دقيقة؛ أو معاملة الكريات بالإنزيمات."),
+ IM("Describe Group III and Group IV discrepancies and their resolution.", "صف اختلافات المجموعتين الثالثة والرابعة وحلّها.",
+    "Group III: protein/plasma abnormalities → rouleaux (multiple myeloma, elevated fibrinogen, dextran); resolved by washing RBCs with saline and saline replacement. Group IV: miscellaneous/mixed-field (mixed cell populations after transfusion or transplant, chimerism, cold autoantibodies, non-ABO alloantibodies); resolved by reviewing history, antibody screen, DAT and auto control, fresh sample, washing with warm saline.",
+    "الثالثة: شذوذات البروتين/البلازما ← رصّات (الورم النقوي المتعدّد، ارتفاع الفايبرينوجين، الدكستران)؛ تُحلّ بغسل الكريات بالملحي والاستبدال الملحي. الرابعة: متفرّقة/مختلط الحقل (كريات مختلطة بعد نقل أو زرع، خيمرية، أضداد ذاتية باردة، أضداد خيفية غير ABO)؛ تُحلّ بمراجعة التاريخ وتحرّي الأضداد وDAT والشاهد الذاتي وعيّنة طازجة والغسل بملحي دافئ."),
+ IM("Describe the antibody screen: purpose, uses and tube method.", "صف تحرّي الأضداد: الغرض والاستعمالات وطريقة الأنبوب.",
+    "Detects unexpected, clinically significant antibodies (usually IgG reacting at 37°C or AHG phase). Uses: pre-transfusion testing of donor and recipient (main), HPC/bone marrow transplant, prenatal testing (HDFN risk, RhIG). Tube IAT: 2 drops plasma + 1 drop group O screen cells (immediate spin optional) → enhancement reagent (LISS/PEG) and 37°C incubation → wash 3–4 times → 2 drops AHG, centrifuge, read → confirm negatives with Coombs control cells; graded 4+ to weak +. Limitations: cell-to-serum ratio, temperature, incubation time, pH.",
+    "يكشف الأضداد غير المتوقّعة المهمة سريريًا (عادةً IgG بدرجة 37°م أو طور AHG). الاستعمالات: فحوص ما قبل النقل للمتبرّع والمتلقّي (الرئيسي)، زرع HPC/النخاع، فحوص ما قبل الولادة (خطر HDFN، RhIG). طريقة الأنبوب: قطرتان بلازما + قطرة كريات تحرٍّ O (نبذ فوري اختياري) ← كاشف معزّز (LISS/PEG) وحضن 37°م ← غسل 3–4 مرات ← قطرتان AHG ونبذ وقراءة ← تأكيد السالب بكريات شاهد كومبس؛ التدريج 4+ إلى + ضعيف. المحدّدات: نسبة الكريات إلى المصل، الحرارة، مدّة الحضن، الأس الهيدروجيني."),
+]
+
+meta = dict(subject_en="Blood Transfusion", subject_ar="نقل الدم", short_ar="نقل الدم",
+            unit_en="Lecture 6", unit_ar="المحاضرة 6", unit_label="LEC", unit_no="6",
+            title_en="ABO Typing Discrepancies & Antibody Screening", title_ar="اختلافات تحديد فصيلة ABO وتحرّي الأضداد",
+            kind="Theory & Practical — نظري وعملي", stage="The fourth stage — الرابعة", instructor="د. مازن اللهيبي")
+save("bloodbank-lec6-abo-discrepancies", meta, blocks, balance(mcq, 61), tf, traps, important)
+
+```

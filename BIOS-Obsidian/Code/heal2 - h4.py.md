@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/heal2/h4.py
 handouts: []
-saved: 2026-11-01
+saved: 2026-11-02
 tags: [bios, code]
 ---
 # heal2/h4.py

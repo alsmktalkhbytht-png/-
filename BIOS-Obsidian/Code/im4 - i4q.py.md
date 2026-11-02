@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/im4/i4q.py
 handouts: [immunology-lec4-immunoglobulins]
-saved: 2026-11-01
+saved: 2026-11-02
 tags: [bios, code]
 ---
 # im4/i4q.py

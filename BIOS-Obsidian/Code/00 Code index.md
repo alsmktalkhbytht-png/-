@@ -23,6 +23,7 @@
 - [[Code/bb4 - bb4n.py|bb4/bb4n.py]] → bloodbank-lec4-screening
 - [[Code/bb4n - bb4n.py|bb4n/bb4n.py]] → bloodbank-lec4-screening
 - [[Code/bb5n - bb5n.py|bb5n/bb5n.py]] → bloodbank-lec5-abo-rh
+- [[Code/bb6 - bb6q.py|bb6/bb6q.py]] → bloodbank-lec6-abo-discrepancies
 - [[Code/bt - make2.py|bt/make2.py]] → bloodbank-lec2-donation-criteria
 - [[Code/bt - make3.py|bt/make3.py]] → bloodbank-lec3-services
 - [[Code/chr - l2.py|chr/l2.py]] → histopathology-lec2-chronic-inflammation
@@ -107,6 +108,7 @@
 - [[Code/at5 - a5.py|at5/a5.py]]
 - [[Code/bac - sheet.py|bac/sheet.py]]
 - [[Code/bac6 - b6.py|bac6/b6.py]]
+- [[Code/bb6 - bb6.py|bb6/bb6.py]]
 - [[Code/bios_dbg.py|bios_dbg.py]]
 - [[Code/covers - make.py|covers/make.py]]
 - [[Code/covers - make2.py|covers/make2.py]]

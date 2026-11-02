@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/pl5/pl5q.py
 handouts: [parasitology-lab5-flagellates-giardia]
-saved: 2026-11-01
+saved: 2026-11-02
 tags: [bios, code]
 ---
 # pl5/pl5q.py

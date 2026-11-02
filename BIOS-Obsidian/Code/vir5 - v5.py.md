@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/vir5/v5.py
 handouts: []
-saved: 2026-11-01
+saved: 2026-11-02
 tags: [bios, code]
 ---
 # vir5/v5.py

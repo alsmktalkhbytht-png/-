@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/par3/p3.py
 handouts: []
-saved: 2026-11-01
+saved: 2026-11-02
 tags: [bios, code]
 ---
 # par3/p3.py

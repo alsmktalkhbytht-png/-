@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/pat/make12.py
 handouts: [pathology-lec1-2-atelectasis]
-saved: 2026-11-01
+saved: 2026-11-02
 tags: [bios, code]
 ---
 # pat/make12.py

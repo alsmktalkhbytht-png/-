@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/par2/pz.py
 handouts: []
-saved: 2026-11-01
+saved: 2026-11-02
 tags: [bios, code]
 ---
 # par2/pz.py

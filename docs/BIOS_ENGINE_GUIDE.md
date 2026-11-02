@@ -1117,6 +1117,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `bloodbank-lec3-services` | نقل الدم | 3 |
 | `bloodbank-lec4-screening` | نقل الدم | 4 |
 | `bloodbank-lec5-abo-rh` | نقل الدم | 5 |
+| `bloodbank-lec6-abo-discrepancies` | نقل الدم | نظري وعملي 6 — اختلافات تحديد فصيلة ABO وتحرّي الأضداد (أسلوب جديد) |
 | `clinimm-lec2-sle` | مناعة سريرية | نظري 2 — مدموجة مع الأسئلة |
 | `clinimm-lec3-as-psa` | مناعة سريرية | نظري 3 — مدموجة مع الأسئلة |
 | `clinimm-lec4-sjogren` | مناعة سريرية | نظري 4 |
