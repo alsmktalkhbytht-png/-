@@ -1144,6 +1144,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `pathology-lec3-chronic-bronchitis` | علم الأمراض | 3 |
 | `pathology-lec4-lung-cancer` | أمراض | نظري 4 — سرطان الرئة (أسلوب جديد) |
 | `pathology-lec5-glomerular-diseases` | أمراض | نظري 5 — أمراض الكبيبات (أسلوب جديد) |
+| `pathology-lec6-nephrotic-renal-tumors` | أمراض | نظري 6 — المتلازمة الكلائية وأورام الكلية (أسلوب جديد) |
 
 ### المرحلة الثالثة (ألوان `blush`، الأسئلة داخل الملزمة)
 

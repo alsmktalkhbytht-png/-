@@ -34,6 +34,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `pathology-lec3-chronic-bronchitis/` — Pathology lecture 3: chronic bronchitis and asthma.
 - `pathology-lec4-lung-cancer/` — Pathology lecture 4: Lung Cancer (د. حامد خليل التميمي) — fourth stage, new style, separate question file.
 - `pathology-lec5-glomerular-diseases/` — Pathology lecture 5: Glomerular Diseases (د. حامد خليل التميمي) — fourth stage, new style, separate question file.
+- `pathology-lec6-nephrotic-renal-tumors/` — Pathology lecture 6: Nephrotic Syndrome + Renal Tumors (د. حامد خليل التميمي) — fourth stage, new style, separate question file.
 - `enzymology-lec1-introduction/` — Clinical Enzymology lecture 1: introduction, classification, properties, units, factors.
 - `enzymology-lec2-kinetics-inhibition/` — Clinical Enzymology lecture 2: Michaelis-Menten, Lineweaver-Burke, inhibition.
 - `enzymology-lec3-michaelis-menten-questions/` — Clinical Enzymology lecture 3: Michaelis-Menten equation — worked questions (د. وليد مجيد) — fourth stage, new style, separate question file; the two unsolved problems are solved as "BIOS solution" and the exercise plot is drawn by BIOS.
