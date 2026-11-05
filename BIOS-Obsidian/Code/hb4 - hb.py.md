@@ -1,0 +1,146 @@
+---
+source: BIOS-Obsidian/tools/scripts/hb4/hb.py
+handouts: []
+saved: 2026-11-05
+tags: [bios, code]
+---
+# hb4/hb.py
+
+Utility script.
+
+```python
+import sys, re; sys.path.insert(0, "/tmp/claude-0/-home-user/a0840832-519a-5a9b-84ea-294867ea1189/scratchpad/imm456")
+from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
+import split
+split.ABBR = split.ABBR + ("5min.",)
+
+BN = lambda en, ar: N(en, ar, label=["BIOS note", "ملاحظة BIOS"])
+O = P
+def LAB(*pairs, en="Labels in the figure", ar="كتابات الشكل"):
+    cells = [B(f"**{e}**", a) for e, a in pairs]
+    if len(cells) % 2: cells.append(B("", ""))
+    return T([B("Label", "الكتابة"), B("Label", "الكتابة")], [cells[i:i + 2] for i in range(0, len(cells), 2)],
+             style="summary", label_en=en, label_ar=ar)
+
+blocks = [
+ # ───────────────────────── Drabkin
+ SEC("Drabkin's method", "طريقة درابكن"),
+ H2("Estimation of Hemoglobin with Cyanmethemoglobin method (Drabkin's method)", "تقدير الهيموغلوبين بطريقة السيانميثيموغلوبين (طريقة درابكن)"),
+ C("Blood is diluted in **Drabkin's solution** which consists of **potassium cyanide** and **potassium ferricyanide**.",
+   "يُخفَّف الدم في **محلول درابكن** الذي يتكوّن من **سيانيد البوتاسيوم** و**فيريسيانيد البوتاسيوم**."),
+ C("Drabkin's Reagent is used for the **quantitative, colorimetric** determination of hemoglobin concentration in whole blood at **540 nm**; this procedure is based on the **oxidation of hemoglobin to methemoglobin** in the presence of **alkaline potassium ferricyanide**.",
+   "يُستعمل كاشف درابكن للتحديد **الكمّي اللوني** لتركيز الهيموغلوبين في الدم الكامل عند **540 نانومتر**؛ ويقوم هذا الإجراء على **أكسدة الهيموغلوبين إلى ميثيموغلوبين** بوجود **فيريسيانيد البوتاسيوم القلوي**."),
+ H2("Principle", "المبدأ"),
+ F("hicn-principle.png", "Principle — labels: Hemoglobin → (Potassium ferricyanide) → Methemoglobin → (Potassium cyanide) → Cyanmethemoglobin (HiCN).",
+   "المبدأ — الكتابات: الهيموغلوبين ← (فيريسيانيد البوتاسيوم) ← الميثيموغلوبين ← (سيانيد البوتاسيوم) ← السيانميثيموغلوبين (HiCN).", h="52mm", fit="contain"),
+ C("This method is consider a **photometric method** and the absorbance of the solution is measured in a **spectrophotometer** at a **540nm** wavelength.",
+   "تُعدّ هذه الطريقة **طريقة ضوئية**، وتُقاس امتصاصية المحلول في **جهاز المطياف الضوئي** عند طول موجي **540 نانومتر**."),
+ H2("Equipment and reagents", "الأجهزة والكواشف"),
+ C("**1.** Drabkin's solution which consists of", "**1.** محلول درابكن ويتكوّن من"),
+ T([B("Drabkin's solution", "محلول درابكن"), B("Amount", "الكمية")],
+   [[B("Potassium cyanide", "سيانيد البوتاسيوم"), B("50 mg", "50 ملغم")],
+    [B("Potassium ferricyanide", "فيريسيانيد البوتاسيوم"), B("200 mg", "200 ملغم")],
+    [B("Potassium dihydrogen phosphate", "فوسفات البوتاسيوم ثنائية الهيدروجين"), B("140 mg", "140 ملغم")],
+    [B("Nonionic detergent", "منظّف غير أيوني"), B("1 ml", "1 مل")],
+    [B("distilled water", "ماء مقطّر"), B("1 L.", "1 لتر.")]],
+   key_cols=[0], widths=[65, 35]),
+ C(["**2.** Hb pipette", "**3.** Spectrophotometer"], ["**2.** ماصّة الهيموغلوبين", "**3.** جهاز المطياف الضوئي"]),
+ H2("Procedure", "طريقة العمل"),
+ R("Take **5ml of Drabkin's solution** in a test tube.", "خذ **5 مل من محلول درابكن** في أنبوب اختبار."),
+ R(["Collect **venous blood**.", "Mix the blood sample by **gentle inversion** and pour **0.02ml of blood** into the previous solution with the help of a Hb pipette ."],
+   ["اجمع **دمًا وريديًا**.", "امزج عيّنة الدم **بالقلب الهادئ** واسكب **0.02 مل من الدم** في المحلول السابق بمساعدة ماصّة الهيموغلوبين."]),
+ R("Mix well and wait for **5min.**", "امزج جيدًا وانتظر **5 دقائق**."),
+ R("Measure the absorbance of this solution at **540nm** in a spectrophotometer.", "قِس امتصاصية هذا المحلول عند **540 نانومتر** في جهاز المطياف الضوئي."),
+ R("Calculate the hemoglobin concentration using a **standard curve**.", "احسب تركيز الهيموغلوبين باستعمال **المنحنى القياسي**."),
+ H2("Result", "النتيجة"),
+ C("**Standard curve** for Hemoglobin estimation by Cyanmethemoglobin method can be prepared by determining **several samples of known heamoglobin concentration**.",
+   "يمكن تحضير **المنحنى القياسي** لتقدير الهيموغلوبين بطريقة السيانميثيموغلوبين بقياس **عدّة عيّنات معلومة تركيز الهيموغلوبين**."),
+ INSHORT([("Drabkin's = **K ferricyanide** (Hb → MetHb) + **K cyanide** (MetHb → **HiCN**).", "درابكن = **فيريسيانيد البوتاسيوم** (Hb ← MetHb) + **سيانيد البوتاسيوم** (MetHb ← **HiCN**)."),
+          ("**5 ml** reagent + **0.02 ml** blood → wait **5 min** → read at **540 nm** → **standard curve**.", "**5 مل** كاشف + **0.02 مل** دم ← انتظر **5 دقائق** ← اقرأ عند **540 نانومتر** ← **المنحنى القياسي**."),
+          ("Reagent per **1 L**: KCN **50 mg**, K ferricyanide **200 mg**, KH₂PO₄ **140 mg**, detergent **1 ml**.", "الكاشف لكل **لتر**: KCN **50 ملغم**، فيريسيانيد **200 ملغم**، KH₂PO₄ **140 ملغم**، منظّف **1 مل**.")]),
+
+ # ───────────────────────── Sahli
+ SEC("Sahli’s method", "طريقة سالي"),
+ H2("Estimation of hemoglobin by acid hematin method (Sahli’s method)", "تقدير الهيموغلوبين بطريقة الهيماتين الحامضي (طريقة سالي)"),
+ C(["**Principle:** hemoglobin in the blood is converted into **acid hematin**, a **brown colored solution** formed upon the addition of **1/10 N HCL**.", "The colored solution is then measured **colorimetrically by comparing with a standard**."],
+   ["**المبدأ:** يتحوّل الهيموغلوبين في الدم إلى **هيماتين حامضي**، وهو **محلول بنّي اللون** يتكوّن عند إضافة **حامض الهيدروكلوريك 1/10 عياري**.", "ثم يُقاس المحلول الملوّن **لونيًا بمقارنته بمعيار قياسي**."]),
+ H2("Sahli’s Apparatus", "أدوات سالي"),
+ L(["Hemoglobin pipette (**0.02 ml or 20 µl** capacity)", "Sahli’s graduated Hemoglobin tube", "Thin glass rod Stirrer for Hemoglobin Tube", "Sahli’s Comparator box with **brown glass standard**"],
+   ["ماصّة الهيموغلوبين (سعة **0.02 مل أو 20 مايكرولتر**)", "أنبوب سالي المدرّج للهيموغلوبين", "محرّك من قضيب زجاجي رفيع لأنبوب الهيموغلوبين", "صندوق سالي المقارن مع **المعيار الزجاجي البنّي**"]),
+ F("sahli-apparatus.png", "Sahli’s apparatus — labels: Stirrer: Thin glass rod. / hemoglobin pipette / Sahli’s graduated hemoglobin tube / Comparator with a brown glass standard",
+   "أدوات سالي — الكتابات: المحرّك: قضيب زجاجي رفيع / ماصّة الهيموغلوبين / أنبوب سالي المدرّج للهيموغلوبين / المقارن مع المعيار الزجاجي البنّي", h="46mm", fit="contain"),
+ H2("Procedure of sahli’s method", "طريقة عمل سالي"),
+ R("**N/10 Hydrochloric acid** is taken in Hemoglobin tube (has two graduations – one side **gm/dl**, and other side shows the **Hb %age**), up to the **mark 20** – the lowest marking (**yellow marking**).",
+   "يؤخذ **حامض الهيدروكلوريك N/10** في أنبوب الهيموغلوبين (له تدريجان – جانب **غم/دل**، والجانب الآخر يُظهر **النسبة المئوية للهيموغلوبين**) حتى **العلامة 20** – أدنى علامة (**العلامة الصفراء**)."),
+ R("Venous or Capillary blood is drawn up to **20µl mark** of hemoglobin pipette exactly.", "يُسحب دم وريدي أو شعيري حتى **علامة 20 مايكرولتر** في ماصّة الهيموغلوبين بالضبط."),
+ R("For capillary blood draw, boldly prick the tip of the **middle or ring finger** with the help of Blood lancet or pricking needle.",
+   "لسحب الدم الشعيري، اوخز طرف **الإصبع الوسطى أو البنصر** بجرأة بمساعدة مشرط الدم أو إبرة الوخز."),
+ C(["**Wipe out the first drop** of blood and suck the blood from the **second drop** in Hb pipette up to the mark of 20 µl.", "Fill the Hb pipette by **capillary action**."],
+   ["**امسح القطرة الأولى** من الدم واسحب الدم من **القطرة الثانية** في ماصّة الهيموغلوبين حتى علامة 20 مايكرولتر.", "واملأ الماصّة **بالخاصية الشعرية**."]),
+ R("Dispense the blood into N/10 hydrochloric acid taken in the hemoglobin tube, **rinse the pipette** with the same solution and mix properly with the help of stirrer.",
+   "أفرغ الدم في حامض الهيدروكلوريك N/10 الموجود في أنبوب الهيموغلوبين، و**اشطف الماصّة** بالمحلول نفسه، وامزج جيدًا بمساعدة المحرّك."),
+ R("Place the tube at room temperature for **10 minutes** for complete conversion of hemoglobin into acid hematin.", "ضع الأنبوب بحرارة الغرفة **10 دقائق** لاكتمال تحوّل الهيموغلوبين إلى هيماتين حامضي."),
+ R("After the reaction completes, place the Hb tube in the column in Sahli’s Comparator box and start **diluting the dark brown coloured compound (Acid Hematin)** formed in the Hb tube using the **distilled water** by adding **drop by drop** of it into the solution and mix with the help of stirrer after each addition.",
+   "بعد اكتمال التفاعل ضع أنبوب الهيموغلوبين في العمود داخل صندوق سالي المقارن، وابدأ **بتخفيف المركّب البنّي الداكن (الهيماتين الحامضي)** المتكوّن في الأنبوب **بالماء المقطّر** بإضافته **قطرة قطرة** إلى المحلول والمزج بالمحرّك بعد كل إضافة."),
+ R("This process is done until the endpoint comes **matching the color of standard with the color of the test**.", "تستمرّ هذه العملية حتى نقطة النهاية عندما **يتطابق لون المعيار مع لون الفحص**."),
+ R("Once the color is matched with the standard brown glass, lift the stirrer up and note down the reading in Sahli’s Hb tube by taking the **lower meniscus** in consideration.",
+   "عندما يتطابق اللون مع المعيار الزجاجي البنّي، ارفع المحرّك وسجّل القراءة في أنبوب سالي مع أخذ **الحافّة السفلى للسطح الهلالي** بالحسبان."),
+ R(["Now add **one more drop** of distilled water and mix it properly with the help of stirrer.", "If color is still matching with the standard add another drop till it matches with the standard and note down the reading and, if it **gets lighter** after adding the first extra drop, it shows **reading taken before dilution was correct**.", "Note down that reading as the **final result**."],
+   ["الآن أضف **قطرة إضافية واحدة** من الماء المقطّر وامزجها جيدًا بالمحرّك.", "إذا بقي اللون مطابقًا للمعيار فأضف قطرة أخرى حتى يتطابق مع المعيار وسجّل القراءة، أمّا إذا **أصبح أفتح** بعد القطرة الإضافية الأولى فهذا يدلّ على أن **القراءة المأخوذة قبل التخفيف كانت صحيحة**.", "وسجّل تلك القراءة **نتيجةً نهائية**."]),
+ R("Reading of this method is expressed in **Hemoglobin gm/dl (gram/100 ml)** of blood.", "يُعبَّر عن قراءة هذه الطريقة **بالهيموغلوبين غم/دل (غرام/100 مل)** من الدم."),
+ H2("Normal values of hemoglobin", "القيم الطبيعية للهيموغلوبين"),
+ T([B("Group", "الفئة"), B("Hemoglobin", "الهيموغلوبين")],
+   [[B("**Adult Male**", "**الذكر البالغ**"), "14-16 gm/dl"],
+    [B("**Adult Female**", "**الأنثى البالغة**"), "13-15 gm/dl"],
+    [B("**Newborn**", "**حديث الولادة**"), "16-18 gm/dl"]],
+   key_cols=[0], widths=[60, 40]),
+ BN("Values as written in this lab; lab 3 gives male 13.5-17.5 and female 11.5-15.5 g/dl.",
+    "القيم كما كُتبت في هذا العملي؛ والعملي 3 يذكر الذكر 13.5-17.5 والأنثى 11.5-15.5 غ/دل."),
+ H2("The advantages of sahli’s method", "مزايا طريقة سالي"),
+ C(["❖ **Cheap** and can be used for hemoglobin estimation where **automated hematology analyser is not available**.", "**No technical expertise** is needed to perform."],
+   ["❖ **رخيصة** ويمكن استعمالها لتقدير الهيموغلوبين حيث **لا يتوفّر محلّل الدم الآلي**.", "و**لا تحتاج خبرة فنية** لإجرائها."]),
+ H2("The disadvantages of sahli’s method", "عيوب طريقة سالي"),
+ L(["The **color of acid hematin fades** with time.", "**Carboxyhemoglobin, methemoglobin, and sulfhemoglobin** are **not converted** to acid hematin.",
+    "Acid hematin solution is **not stable** and **color formation is slow**.", "**Source of light** will influence the visual comparison of colors.",
+    "Color of **brown glass standard fades** with time.", "**Individual variation** in matching of color is seen."],
+   ["**يبهت لون الهيماتين الحامضي** مع الوقت.", "**الكاربوكسي هيموغلوبين والميثيموغلوبين والسلف هيموغلوبين** **لا تتحوّل** إلى هيماتين حامضي.",
+    "محلول الهيماتين الحامضي **غير مستقر** و**تكوّن اللون بطيء**.", "**مصدر الضوء** يؤثّر في المقارنة البصرية للألوان.",
+    "**يبهت لون المعيار الزجاجي البنّي** مع الوقت.", "يُلاحظ **اختلاف فردي** في مطابقة اللون."]),
+ INSHORT([("Sahli = Hb + **N/10 HCl** → brown **acid hematin** (10 min) → dilute with DW → match **brown glass** → read **lower meniscus** in gm/dl.", "سالي = Hb + **HCl N/10** ← **هيماتين حامضي** بنّي (10 دقائق) ← تخفيف بالماء ← مطابقة **الزجاج البنّي** ← قراءة **الحافّة السفلى** بالغم/دل."),
+          ("Capillary: **middle or ring finger**, wipe the **first drop**, use the **second**.", "الشعيري: **الوسطى أو البنصر**، امسح **القطرة الأولى** واستعمل **الثانية**."),
+          ("Normal (this lab): male **14-16**, female **13-15**, newborn **16-18** gm/dl.", "الطبيعي (هذا العملي): الذكر **14-16**، الأنثى **13-15**، حديث الولادة **16-18** غم/دل."),
+          ("Main weakness: fading colour and **COHb, MetHb, SHb not converted**.", "أهم العيوب: بهتان اللون و**عدم تحوّل COHb وMetHb وSHb**.")]),
+
+ T([B("", ""), B("Drabkin's (HiCN)", "درابكن (HiCN)"), B("Sahli’s (acid hematin)", "سالي (الهيماتين الحامضي)")],
+   [[B("**Reagent**", "**الكاشف**"), B("K ferricyanide + K cyanide (Drabkin's solution), 5 ml", "فيريسيانيد + سيانيد البوتاسيوم (محلول درابكن)، 5 مل"), B("N/10 HCl to mark 20", "HCl N/10 حتى العلامة 20")],
+    [B("**Blood**", "**الدم**"), B("0.02 ml venous", "0.02 مل وريدي"), B("20 µl venous or capillary", "20 مايكرولتر وريدي أو شعيري")],
+    [B("**Product**", "**الناتج**"), B("cyanmethemoglobin (HiCN)", "السيانميثيموغلوبين (HiCN)"), B("acid hematin (brown)", "الهيماتين الحامضي (بنّي)")],
+    [B("**Wait**", "**الانتظار**"), B("5 min", "5 دقائق"), B("10 min", "10 دقائق")],
+    [B("**Measurement**", "**القياس**"), B("spectrophotometer at 540 nm + standard curve", "المطياف الضوئي عند 540 نانومتر + منحنى قياسي"), B("visual: dilute with DW until it matches the brown glass standard", "بصري: التخفيف بالماء حتى يطابق المعيار البنّي")],
+    [B("**Notes**", "**ملاحظات**"), B("photometric, quantitative", "ضوئية، كمّية"), B("cheap, no expertise; colour fades, COHb/MetHb/SHb not converted, light and observer errors", "رخيصة، بلا خبرة؛ يبهت اللون، لا تتحوّل COHb/MetHb/SHb، أخطاء الضوء والمشاهد")]],
+   key_cols=[0], widths=[16, 40, 44], style="summary", label_en="Drabkin's vs Sahli’s", label_ar="درابكن مقابل سالي"),
+ *TERMS([("Hemoglobin estimation", "تقدير الهيموغلوبين / قياس الخضاب"),
+         ("Cyanmethemoglobin (HiCN)", "السيانميثيموغلوبين / الهيموغلوبين السيانيدي"),
+         ("Drabkin's solution", "محلول درابكن / كاشف درابكن"),
+         ("Potassium ferricyanide", "فيريسيانيد البوتاسيوم / سيانيد الحديديك البوتاسي"),
+         ("Potassium cyanide", "سيانيد البوتاسيوم"),
+         ("Methemoglobin", "الميثيموغلوبين / الهيموغلوبين المؤكسد"),
+         ("Spectrophotometer", "المطياف الضوئي / جهاز قياس الطيف"),
+         ("Absorbance", "الامتصاصية / الكثافة الضوئية"),
+         ("Standard curve", "المنحنى القياسي / منحنى المعايرة"),
+         ("Acid hematin", "الهيماتين الحامضي"),
+         ("Sahli’s method", "طريقة سالي / طريقة ساهلي"),
+         ("Comparator", "المقارن / جهاز المقارنة اللونية"),
+         ("Meniscus", "السطح الهلالي / التقعّر"),
+         ("Capillary blood", "الدم الشعيري / دم الوخز"),
+         ("Lancet", "المشرط / إبرة الوخز"),
+         ("Carboxyhemoglobin", "الكاربوكسي هيموغلوبين / هيموغلوبين أول أكسيد الكربون"),
+         ("Sulfhemoglobin", "السلف هيموغلوبين / الهيموغلوبين الكبريتي"),
+         ("Automated hematology analyser", "محلّل الدم الآلي / جهاز CBC")]),
+]
+
+_t = blocks[-1]; _r = _t["rows"]
+blocks[-1:] = [dict(_t, rows=_r[i:i + 6]) for i in range(0, len(_r), 6)]
+exec(open(__file__.replace("hb.py", "hbq.py")).read())
+
+```

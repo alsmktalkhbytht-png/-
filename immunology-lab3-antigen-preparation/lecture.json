@@ -1,0 +1,1908 @@
+{
+ "meta": {
+  "subject_en": "Practical Immunology",
+  "subject_ar": "علم المناعة العملي",
+  "short_ar": "مناعة",
+  "instructor": "م.م. جنان خليل",
+  "unit_en": "Lab 3",
+  "unit_ar": "العملي 3",
+  "unit_label": "LAB",
+  "unit_no": "3",
+  "title_en": "Antigen preparation, bacterial Ag, R.B.Cs Ag, protein Ag",
+  "title_ar": "تحضير المستضدات: المستضد البكتيري، مستضد الكريات الحمر، المستضد البروتيني",
+  "department": "تقنيات المختبرات الطبية",
+  "stage": "The third stage — الثالثة",
+  "kind": "Laboratories — عملي"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Antigen (Ag)",
+   "ar": "المستضد"
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "**Antigen (Ag):** is **macromolecule** that induced to **formation of antibody (Ab)**, which **react specifically** with the Ag",
+     "ar": "**المستضد (`Antigen`):** **جزيء كبير** يحفّز **تكوين الضد (`Antibody`)** الذي **يتفاعل نوعيًا** مع المستضد"
+    }
+   ],
+   "figure": {
+    "src": "assets/antigen-antibody.png",
+    "en": "Antigens and an antibody (antigen-binding site)",
+    "ar": "مستضدات وضد (موقع ارتباط المستضد)"
+   }
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Antigens**",
+      "المستضدات"
+     ],
+     [
+      "**Antigen**",
+      "المستضد"
+     ]
+    ],
+    [
+     [
+      "**Antigen-binding site**",
+      "موقع ارتباط المستضد"
+     ],
+     [
+      "**Antibody**",
+      "الضد"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "card",
+   "en": "Main characteristics of the antigen:",
+   "ar": "الصفات الرئيسية للمستضد:",
+   "list_en": [
+    "**High molecular weight** > **10000 Dalton** .",
+    "**Foreignness**",
+    "**Chemical complexity**"
+   ],
+   "list_ar": [
+    "**وزن جزيئي عالٍ** > **10000 دالتون**.",
+    "**الغرابة (أن يكون غريبًا عن الجسم)**",
+    "**التعقيد الكيميائي**"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Types of antigens prepared commercially**",
+   "ar": "**أنواع المستضدات المحضّرة تجاريًا**",
+   "list_en": [
+    "Whole culture extract",
+    "Native protein antigen",
+    "Specific carbohydrate antigen",
+    "Synthetic peptides",
+    "Recombinant proteins"
+   ],
+   "list_ar": [
+    "مستخلص المزرعة الكاملة",
+    "المستضد البروتيني الطبيعي",
+    "المستضد الكربوهيدراتي النوعي",
+    "الببتيدات المصنّعة",
+    "البروتينات المؤشبة (المعاد تركيبها)"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Vaccine**: any substance when introduce **artificially** to human or animal body produces an immune resulting **Ab**",
+   "ar": "**اللقاح**: أي مادة إذا أُدخلت **اصطناعيًا** إلى جسم الإنسان أو الحيوان أنتجت استجابة مناعية ينتج عنها **أضداد**"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Antigen = macromolecule → **antibody** that reacts **specifically** with it.",
+    "Characteristics: **MW > 10000 Da**, **foreignness**, **chemical complexity**.",
+    "Commercial antigens: whole culture extract, native protein, specific carbohydrate, synthetic peptides, recombinant proteins."
+   ],
+   "ar": [
+    "المستضد = جزيء كبير ← **ضد** يتفاعل معه **نوعيًا**.",
+    "الصفات: **وزن جزيئي > 10000 دالتون**، **الغرابة**، **التعقيد الكيميائي**.",
+    "المستضدات التجارية: مستخلص مزرعة كاملة، بروتين طبيعي، كربوهيدرات نوعي، ببتيدات مصنّعة، بروتينات مؤشبة."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Classification on basis of Source/Origin",
+   "ar": "التصنيف حسب المصدر/المنشأ"
+  },
+  {
+   "t": "card",
+   "en": "**The Antigens classification on basis of Source/Origin**",
+   "ar": "**تصنيف المستضدات على أساس المصدر/المنشأ**"
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Exogenous antigens**: These are antigens which are **foreign to host body** hence are also called **foreign antigens**.",
+    "These are antigens that enters the body of the organism **from the outside**, e.g. through **inhalation, ingestion, or injection**.",
+    "The uptakes of these exogenous antigens by **APCs** are mainly mediated by the **phagocytosis**.",
+    "E.g. **Bacteria, Fungi, Viruses** etc."
+   ],
+   "ar": [
+    "**المستضدات الخارجية (`Exogenous`)**: مستضدات **غريبة عن جسم المضيف**، ولذلك تُسمّى أيضًا **المستضدات الغريبة**.",
+    "وهي مستضدات تدخل جسم الكائن **من الخارج**، مثلًا عن طريق **الاستنشاق أو الابتلاع أو الحقن**.",
+    "ويتمّ التقاط هذه المستضدات الخارجية بواسطة **الخلايا المقدّمة للمستضد (`APCs`)** بصورة رئيسية **بالبلعمة**.",
+    "مثل **البكتيريا والفطريات والفيروسات** وغيرها."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Endogenous antigens**: These are antigens which **originate from own body** of host organisms.",
+    "The endogenous antigens are processed by the **macrophages** which are later accepted by the **cytotoxic T – cells**.",
+    "E.g. **Blood group antigens, HLA** (Histocompatibility Leukocyte antigens) etc."
+   ],
+   "ar": [
+    "**المستضدات الداخلية (`Endogenous`)**: مستضدات **تنشأ من جسم الكائن المضيف نفسه**.",
+    "وتُعالَج المستضدات الداخلية بواسطة **البلاعم**، ثم تستقبلها لاحقًا **الخلايا التائية السامّة للخلايا**.",
+    "مثل **مستضدات فصائل الدم، ومستضدات HLA** (مستضدات توافق النسيج الكريّات البيض) وغيرها."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Auto antigens**: These are usually a **normal protein or protein complex** (and sometimes DNA or RNA) that is recognized by the immune system of patients suffering from a specific **autoimmune disease**.",
+    "These are **not immunogenic under normal condition** however due to genetic and environmental changes or factors **immunological tolerance is lost** and immune response is generated.",
+    "E.g. **Nucleoproteins, Nucleic acids**, etc."
+   ],
+   "ar": [
+    "**المستضدات الذاتية (`Auto antigens`)**: عادةً **بروتين طبيعي أو معقّد بروتيني** (وأحيانًا DNA أو RNA) يتعرّف عليه الجهاز المناعي لمرضى مصابين **بمرض مناعي ذاتي** معيّن.",
+    "وهي **غير مولّدة للمناعة في الظروف الطبيعية**، لكن بسبب تغيّرات أو عوامل وراثية وبيئية **يُفقد التحمّل المناعي** وتتولّد استجابة مناعية.",
+    "مثل **البروتينات النووية والأحماض النووية** وغيرها."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Type",
+     "النوع"
+    ],
+    [
+     "Origin",
+     "المنشأ"
+    ],
+    [
+     "Examples",
+     "أمثلة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Exogenous**",
+      "**خارجية**"
+     ],
+     [
+      "from outside (inhalation, ingestion, injection); taken by APCs by phagocytosis",
+      "من الخارج (استنشاق، ابتلاع، حقن)؛ تلتقطها APCs بالبلعمة"
+     ],
+     [
+      "bacteria, fungi, viruses",
+      "البكتيريا، الفطريات، الفيروسات"
+     ]
+    ],
+    [
+     [
+      "**Endogenous**",
+      "**داخلية**"
+     ],
+     [
+      "own body; processed by macrophages → cytotoxic T – cells",
+      "جسم المضيف؛ تعالجها البلاعم ← الخلايا التائية السامّة"
+     ],
+     [
+      "blood group antigens, HLA",
+      "مستضدات فصائل الدم، HLA"
+     ]
+    ],
+    [
+     [
+      "**Auto antigens**",
+      "**ذاتية**"
+     ],
+     [
+      "normal self proteins; tolerance lost in autoimmune disease",
+      "بروتينات ذاتية طبيعية؛ يُفقد التحمّل في المرض المناعي الذاتي"
+     ],
+     [
+      "nucleoproteins, nucleic acids",
+      "البروتينات النووية، الأحماض النووية"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    20,
+    48,
+    32
+   ],
+   "style": "summary",
+   "label_en": "Antigens by origin",
+   "label_ar": "المستضدات حسب المنشأ"
+  },
+  {
+   "t": "card",
+   "en": "The properties of **formal-saline** (formaldehyde + saline) :",
+   "ar": "خصائص **الفورمال-سلاين** (فورمالديهايد + محلول ملحي):",
+   "list_en": [
+    "**Kill** microorganisms .",
+    "**Fix the flagella** on the cell wall .",
+    "**Keep it for a long time** without deterioration .",
+    "**Mask** the body bacterial cell"
+   ],
+   "list_ar": [
+    "**يقتل** الأحياء المجهرية.",
+    "**يثبّت الأسواط** على جدار الخلية.",
+    "**يحفظه مدّة طويلة** دون تلف.",
+    "**يحجب (يغطّي)** جسم الخلية البكتيرية"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Exogenous** = from outside (bacteria, fungi, viruses); **endogenous** = own body (blood group, HLA); **auto** = self proteins in autoimmune disease.",
+    "Formal-saline: **kills**, **fixes flagella**, **keeps long**, **masks** the body cell."
+   ],
+   "ar": [
+    "**الخارجية** = من الخارج (بكتيريا، فطريات، فيروسات)؛ **الداخلية** = من الجسم (فصائل الدم، HLA)؛ **الذاتية** = بروتينات ذاتية في المرض المناعي الذاتي.",
+    "الفورمال-سلاين: **يقتل**، **يثبّت الأسواط**، **يحفظ طويلًا**، **يحجب** جسم الخلية."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Bacterial antigens",
+   "ar": "المستضدات البكتيرية"
+  },
+  {
+   "t": "card",
+   "en": "Different types of antigens are located onto bacterial surfaces which are includes:",
+   "ar": "توجد أنواع مختلفة من المستضدات على أسطح البكتيريا، وتشمل:",
+   "list_en": [
+    "Whole bacterial cells.",
+    "Appendixes (e.g., **flagella, cilia, and fimbria**).",
+    "Cell membrane (CM) which include:"
+   ],
+   "list_ar": [
+    "الخلايا البكتيرية الكاملة.",
+    "الزوائد (مثل **الأسواط والأهداب والخمل**).",
+    "غشاء الخلية (CM) ويشمل:"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Lipopolysaccharides (LPS).**",
+    "**Peptidoglycan (PGN).**",
+    "**Exo-polysaccharides (EPS).**",
+    "**Capsule (Vi).**"
+   ],
+   "list_ar": [
+    "**عديدات السكريد الدهنية (LPS).**",
+    "**الببتيدوغلايكان (PGN).**",
+    "**عديدات السكريد الخارجية (EPS).**",
+    "**المحفظة (Vi).**"
+   ],
+   "alpha": true
+  },
+  {
+   "t": "card",
+   "en": "4. **Toxin.**",
+   "ar": "4. **الذيفان (السم).**"
+  },
+  {
+   "t": "card",
+   "en": "Example of bacterial Ag (Salmonella Ags)",
+   "ar": "مثال على المستضد البكتيري (مستضدات السالمونيلا)",
+   "list_en": [
+    "**Flagellar (H) antigen:**",
+    "**somatic (O) antigen**"
+   ],
+   "list_ar": [
+    "**المستضد السوطي (H):**",
+    "**المستضد الجسمي (O)**"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Salmonella antigen",
+   "ar": "مستضد السالمونيلا"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Somatic (O) antigen",
+     "المستضد الجسمي (O)"
+    ],
+    [
+     "Somatic ( H) antigen",
+     "المستضد (H)"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "1- Found on the surface of the cell",
+      "1- يوجد على سطح الخلية"
+     ],
+     [
+      "1 -Flagella",
+      "1- الأسواط"
+     ]
+    ],
+    [
+     [
+      "2 -Lipid complex (it is polysaccharide)",
+      "2- معقّد دهني (وهو عديد سكريد)"
+     ],
+     [
+      "2 -Protein",
+      "2- بروتين"
+     ]
+    ],
+    [
+     [
+      "3- -Stable at 100 °C and in alcohol",
+      "3- ثابت عند 100 °م وفي الكحول"
+     ],
+     [
+      "3 -Inactivated at more than 60 °C",
+      "3- يتعطّل عند أكثر من 60 °م"
+     ]
+    ]
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "The second column is the **Flagellar (H)** antigen (the header says “Somatic ( H)”).",
+    "The degree signs (°) did not show in the lecture file (“100 C”, “37 C”)."
+   ],
+   "ar": [
+    "العمود الثاني هو المستضد **السوطي (H)** (العنوان مكتوب “Somatic ( H)”).",
+    "وعلامات الدرجة (°) ما ظهرت بملف المحاضرة (“100 C”، “37 C”)."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Bacterial surface antigens: whole cells, appendixes (flagella, cilia, fimbria), cell membrane (**LPS, PGN, EPS, capsule Vi**), toxin.",
+    "Salmonella **O** = cell surface, lipid-polysaccharide, **stable at 100 °C** and alcohol; **H** = flagella, protein, **inactivated > 60 °C**."
+   ],
+   "ar": [
+    "مستضدات سطح البكتيريا: الخلايا الكاملة، الزوائد (أسواط، أهداب، خمل)، غشاء الخلية (**LPS، PGN، EPS، المحفظة Vi**)، الذيفان.",
+    "السالمونيلا **O** = سطح الخلية، دهني-سكريد، **ثابت عند 100 °م** والكحول؛ و**H** = الأسواط، بروتين، **يتعطّل فوق 60 °م**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Method",
+   "ar": "الطريقة"
+  },
+  {
+   "t": "h2",
+   "en": "Somatic (O) antigen preparation",
+   "ar": "تحضير المستضد الجسمي (O)"
+  },
+  {
+   "t": "rule",
+   "en": "Streaking a few typical **Salmonella colonies** from the **Salmonella-Shigella agar (S.S agar)** plate onto **brain heart infusion agar** plates using a sterile cotton swab",
+   "ar": "تخطيط بضع مستعمرات **سالمونيلا** نموذجية من طبق **آجار السالمونيلا-الشيكلا (S.S agar)** على أطباق **آجار نقيع الدماغ والقلب** باستعمال مسحة قطنية معقّمة"
+  },
+  {
+   "t": "rule",
+   "en": "Plates were incubated **overnight at 37 °C**.",
+   "ar": "حُضنت الأطباق **ليلة كاملة بدرجة 37 °م**."
+  },
+  {
+   "t": "rule",
+   "en": "Sterile normal saline was used to **harvest the lawns** and a bottle containing **250 ml** of bacterial suspension was immersed in a **boiling water bath for 3.5 hr**.",
+   "ar": "استُعمل محلول ملحي طبيعي معقّم **لحصاد النمو** وغُمرت قنينة فيها **250 مل** من العالق البكتيري في **حمّام ماء مغلي لمدّة 3.5 ساعة**."
+  },
+  {
+   "t": "rule",
+   "en": "It was left to stand at room temperature overnight and again immersed in boiling water for an **additional 1.5 hr.** on the next day.",
+   "ar": "تُرك بحرارة الغرفة ليلة كاملة، ثم غُمر مرّة ثانية في الماء المغلي **لمدّة 1.5 ساعة إضافية** في اليوم التالي."
+  },
+  {
+   "t": "rule",
+   "en": "The now killed bacteria were **washed 3 times** with normal saline.",
+   "ar": "غُسلت البكتيريا المقتولة **3 مرّات** بالمحلول الملحي الطبيعي."
+  },
+  {
+   "t": "rule",
+   "en": "The resulting product had the appearance of **skim milk**.",
+   "ar": "كان مظهر الناتج مثل **الحليب منزوع الدسم**."
+  },
+  {
+   "t": "rule",
+   "en": "It was judged **sterile** by its failure to cause **turbidity in brain heart infusion broth** tubes after prolonged incubation at 37 °C, and its failure to produce **growth on S.S agar** plates.",
+   "ar": "عُدّ **معقّمًا** لعدم إحداثه **عكارة في أنابيب مرق نقيع الدماغ والقلب** بعد حضن طويل بدرجة 37 °م، ولعدم إعطائه **نموًّا على أطباق آجار S.S**."
+  },
+  {
+   "t": "rule",
+   "en": "Storage was in **0.3% formal saline at 4 °C**",
+   "ar": "كان الحفظ في **فورمال-سلاين 0.3% بدرجة 4 °م**"
+  },
+  {
+   "t": "h2",
+   "en": "Flagellar (H) antigen preparation",
+   "ar": "تحضير المستضد السوطي (H)"
+  },
+  {
+   "t": "rule",
+   "en": "Inoculated a few typical Salmonella colonies from the (S.S agar) plate onto a **250 ml brain heart infusion broth**.",
+   "ar": "لُقّحت بضع مستعمرات سالمونيلا نموذجية من طبق (S.S agar) في **250 مل من مرق نقيع الدماغ والقلب**."
+  },
+  {
+   "t": "rule",
+   "en": "Broth was incubated **overnight at 37 °C**.",
+   "ar": "حُضن المرق **ليلة كاملة بدرجة 37 °م**."
+  },
+  {
+   "t": "rule",
+   "en": "Then, **250 ml of 0.6% formal saline** was added and the mixture was allowed to stand at room temperature for **5 d.** sterility test were performed.",
+   "ar": "ثم أُضيف **250 مل من فورمال-سلاين 0.6%**، وتُرك الخليط بحرارة الغرفة **5 أيام**، وأُجري فحص العقامة."
+  },
+  {
+   "t": "rule",
+   "en": "Washing killed bacteria and **discard the supernatant**.",
+   "ar": "غسل البكتيريا المقتولة **والتخلّص من الطافي**."
+  },
+  {
+   "t": "rule",
+   "en": "Re-suspend the precipitate with **0.3% formal saline** and storage at **4 °C**.",
+   "ar": "إعادة تعليق الراسب **بفورمال-سلاين 0.3%** والحفظ بدرجة **4 °م**."
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Step",
+     "الخطوة"
+    ],
+    [
+     "Somatic (O)",
+     "الجسمي (O)"
+    ],
+    [
+     "Flagellar (H)",
+     "السوطي (H)"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Growth**",
+      "**التنمية**"
+     ],
+     [
+      "brain heart infusion agar plates, overnight 37 °C",
+      "أطباق آجار نقيع الدماغ والقلب، ليلة 37 °م"
+     ],
+     [
+      "250 ml brain heart infusion broth, overnight 37 °C",
+      "250 مل مرق نقيع الدماغ والقلب، ليلة 37 °م"
+     ]
+    ],
+    [
+     [
+      "**Killing**",
+      "**القتل**"
+     ],
+     [
+      "boiling water bath 3.5 hr + 1.5 hr next day",
+      "حمّام ماء مغلي 3.5 ساعة + 1.5 ساعة اليوم التالي"
+     ],
+     [
+      "250 ml of 0.6% formal saline, 5 days at room temperature",
+      "250 مل فورمال-سلاين 0.6%، 5 أيام بحرارة الغرفة"
+     ]
+    ],
+    [
+     [
+      "**Washing**",
+      "**الغسل**"
+     ],
+     [
+      "3 times with normal saline (looks like skim milk)",
+      "3 مرّات بالمحلول الملحي (يشبه الحليب منزوع الدسم)"
+     ],
+     [
+      "wash, discard supernatant",
+      "غسل والتخلّص من الطافي"
+     ]
+    ],
+    [
+     [
+      "**Storage**",
+      "**الحفظ**"
+     ],
+     [
+      "0.3% formal saline at 4 °C",
+      "فورمال-سلاين 0.3% بدرجة 4 °م"
+     ],
+     [
+      "0.3% formal saline at 4 °C",
+      "فورمال-سلاين 0.3% بدرجة 4 °م"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    16,
+    42,
+    42
+   ],
+   "style": "summary",
+   "label_en": "O vs H preparation",
+   "label_ar": "تحضير O مقابل H"
+  },
+  {
+   "t": "note",
+   "en": [
+    "**O antigen**: killed by **boiling** (3.5 h + 1.5 h) — fits a heat-stable antigen.",
+    "**H antigen**: killed by **0.6% formal saline** for 5 days (flagella kept, not boiled).",
+    "Both stored in **0.3% formal saline at 4 °C**; sterility checked before use."
+   ],
+   "ar": [
+    "**مستضد O**: يُقتل **بالغلي** (3.5 ساعة + 1.5 ساعة) — يناسب مستضدًا ثابتًا بالحرارة.",
+    "**مستضد H**: يُقتل **بفورمال-سلاين 0.6%** لمدّة 5 أيام (تبقى الأسواط، دون غلي).",
+    "كلاهما يُحفظ في **فورمال-سلاين 0.3% بدرجة 4 °م**؛ ويُفحص العقامة قبل الاستعمال."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Streptolysin O antigen Preparation",
+   "ar": "تحضير مستضد الستربتوليسين O"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Family of lysine a **protein of 67 k Da** mol. Wt formed by **pyogenic streptococci**.",
+    "**Activated by sulfhydro compound** and **inhibited by cholesterol** and related sterols.",
+    "For better production, thus organisms should be grown in the **fat free and reducing agent containing medium (kalbak broth).**"
+   ],
+   "list_ar": [
+    "من عائلة الحالّات (lysine)، وهو **بروتين وزنه الجزيئي 67 كيلو دالتون** تكوّنه **المكوّرات السبحية المقيّحة**.",
+    "**ينشّطه مركّب السلفهيدريل** و**يثبّطه الكوليسترول** والستيرولات المشابهة.",
+    "ولإنتاج أفضل، يجب تنمية هذه الأحياء في **وسط خالٍ من الدهون ويحتوي عاملًا مختزلًا (مرق كالباك).**"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Procedure",
+   "ar": "الإجراء"
+  },
+  {
+   "t": "rule",
+   "en": "Grow organisms in **Todd-Hewitt broth**.",
+   "ar": "نمِّ الأحياء في **مرق تود-هيويت**."
+  },
+  {
+   "t": "rule",
+   "en": "Transfer **50 ml** culture broth to **1000 ml of kalbak's broth**.",
+   "ar": "انقل **50 مل** من مرق المزرعة إلى **1000 مل من مرق كالباك**."
+  },
+  {
+   "t": "rule",
+   "en": "Incubate for **15 hrs at 37 degree C**.",
+   "ar": "احضن **15 ساعة بدرجة 37 °م**."
+  },
+  {
+   "t": "rule",
+   "en": "Check the culture for **haemolysin**.",
+   "ar": "افحص المزرعة عن **الهيمولايسين (الحالّ للدم)**."
+  },
+  {
+   "t": "rule",
+   "en": "Separate microbial cell by **filtration**.",
+   "ar": "افصل الخلايا المجهرية **بالترشيح**."
+  },
+  {
+   "t": "rule",
+   "en": "Preserve the filtrate by adding **methiolate**.",
+   "ar": "احفظ الراشح بإضافة **الميثيولات (الميرثيولات)**."
+  },
+  {
+   "t": "rule",
+   "en": "Store at **4 degree C**.",
+   "ar": "احفظه بدرجة **4 °م**."
+  },
+  {
+   "t": "rule",
+   "en": "Streptolysin O present in filtrate got **inactivated after 1 month** of preparation.",
+   "ar": "الستربتوليسين O الموجود في الراشح **يتعطّل بعد شهر واحد** من التحضير."
+  },
+  {
+   "t": "rule",
+   "en": "Thus prepared SLO retains **constant potency for many years** if properly stored",
+   "ar": "والـ SLO المحضّر بهذه الطريقة **يحتفظ بفعالية ثابتة لسنوات كثيرة** إذا حُفظ جيدًا"
+  },
+  {
+   "t": "note",
+   "en": "“Family of lysine” means a family of **lysins** (cell-lysing toxins), “sulfhydro” is **sulfhydryl (–SH)**, and “methiolate” is **merthiolate (thiomersal)**.",
+   "ar": "“Family of lysine” يُقصد بها عائلة **الحالّات (lysins)** أي الذيفانات المحلّلة للخلايا، و“sulfhydro” هي **السلفهيدريل (–SH)**، و“methiolate” هي **الميرثيولات (الثايومرسال)**.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Todd-Hewitt broth",
+     "ar": "مرق تود-هيويت"
+    },
+    {
+     "en": "50 ml → 1000 ml kalbak's broth",
+     "ar": "50 مل ← 1000 مل مرق كالباك"
+    },
+    {
+     "en": "15 hrs at 37 °C",
+     "ar": "15 ساعة بدرجة 37 °م"
+    },
+    {
+     "en": "Check haemolysin",
+     "ar": "فحص الحالّ للدم"
+    },
+    {
+     "en": "Filtration",
+     "ar": "الترشيح"
+    },
+    {
+     "en": "Filtrate + methiolate, 4 °C",
+     "ar": "الراشح + ميثيولات، 4 °م"
+    }
+   ],
+   "en": "SLO in steps",
+   "ar": "الستربتوليسين O بالخطوات"
+  },
+  {
+   "t": "note",
+   "en": [
+    "SLO = **67 kDa protein** of **pyogenic streptococci**; **activated by sulfhydryl**, **inhibited by cholesterol**.",
+    "Grown in **fat-free reducing medium** (kalbak broth) **15 h at 37 °C**; SLO is in the **filtrate**, preserved with methiolate at 4 °C."
+   ],
+   "ar": [
+    "SLO = **بروتين 67 كيلو دالتون** من **المكوّرات السبحية المقيّحة**؛ **ينشّطه السلفهيدريل** و**يثبّطه الكوليسترول**.",
+    "يُنمّى في **وسط خالٍ من الدهون ومختزل** (مرق كالباك) **15 ساعة بدرجة 37 °م**؛ والـ SLO في **الراشح** ويُحفظ بالميثيولات بدرجة 4 °م."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Red blood cell antigens",
+   "ar": "مستضدات كريات الدم الحمر"
+  },
+  {
+   "t": "card",
+   "en": "**Methods of the preparation of antigens:**",
+   "ar": "**طرق تحضير المستضدات:**"
+  },
+  {
+   "t": "card",
+   "en": "Red blood cell antigens:",
+   "ar": "مستضدات كريات الدم الحمر:"
+  },
+  {
+   "t": "card",
+   "en": "❖ **Blood group antigens** are one of RBCs components and composed either **sugars** (e.g., **ABO** blood group Ags) or **proteins** (e. g. **Rh** antigen groups).",
+   "ar": "❖ **مستضدات فصائل الدم** أحد مكوّنات كريات الدم الحمر، وتتكوّن إمّا من **سكريات** (مثل مستضدات فصائل **ABO**) أو **بروتينات** (مثل مجموعات مستضد **Rh**)."
+  },
+  {
+   "t": "card",
+   "en": "Function of RBCs Ags:",
+   "ar": "وظيفة مستضدات كريات الدم الحمر:",
+   "list_en": [
+    "Determine of an **individual's blood group**.",
+    "Ensure of **immune compatibility** (typed and cross matched) through **blood transfusion** from donate to recipient patients.",
+    "In **pregnancy**, the risk of the mother's immune system attacking the foreign antigens present on her fetus' RBCs and forming antibodies to cover fetal RBCs antigens."
+   ],
+   "list_ar": [
+    "تحديد **فصيلة دم الفرد**.",
+    "ضمان **التوافق المناعي** (التحديد والمطابقة التصالبية) عند **نقل الدم** من المتبرّع إلى المرضى المستلمين.",
+    "في **الحمل**، خطر مهاجمة الجهاز المناعي للأم المستضدات الغريبة الموجودة على كريات الجنين الحمر وتكوين أضداد تغطّي مستضدات كريات الجنين الحمر."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Preparation of Red Blood Cell (RBCs)",
+   "ar": "تحضير كريات الدم الحمر"
+  },
+  {
+   "t": "card",
+   "en": "**Purpose:** To prepare **RBCs suspensions** used for **serologic testing**",
+   "ar": "**الغرض:** تحضير **عوالق كريات الدم الحمر** المستعملة في **الفحوص المصلية**"
+  },
+  {
+   "t": "card",
+   "en": "**Principle:** A **proper ratio of plasma to red cells** is important for accuracy in antigen antibody reactions.",
+   "ar": "**المبدأ:** **النسبة الصحيحة بين البلازما والكريات الحمر** مهمة لدقّة تفاعلات المستضد والضد."
+  },
+  {
+   "t": "card",
+   "en": "**Specimen:** Blood sample and RBCs can be obtained by **\"defibrinating\" (mashing)** clotted specimens.",
+   "ar": "**العيّنة:** عيّنة دم، ويمكن الحصول على الكريات الحمر **بنزع الفايبرين \"defibrinating\" (الهرس)** من العيّنات المتخثّرة."
+  },
+  {
+   "t": "card",
+   "en": "**Procedure to prepare RBCs Ag:**",
+   "ar": "**إجراء تحضير مستضد كريات الدم الحمر:**"
+  },
+  {
+   "t": "rule",
+   "en": "Collected blood by **vein puncture** method.",
+   "ar": "اجمع الدم بطريقة **البزل الوريدي**."
+  },
+  {
+   "t": "rule",
+   "en": "Added blood into **anticoagulant tube (EDTA-tube)** and then mixed.",
+   "ar": "أضف الدم إلى **أنبوب مانع التخثّر (أنبوب EDTA)** ثم امزجه."
+  },
+  {
+   "t": "rule",
+   "en": "Added **isotonic solution such as normal saline** to the mixture.",
+   "ar": "أضف **محلولًا متساوي التوتّر مثل المحلول الملحي الطبيعي** إلى الخليط."
+  },
+  {
+   "t": "rule",
+   "en": "centrifugation the RBCs suspension for **5min. at 3000 RPM**.",
+   "ar": "انبذ عالق الكريات الحمر **5 دقائق بسرعة 3000 دورة/دقيقة**."
+  },
+  {
+   "t": "rule",
+   "en": "**Discard the supernatant** and again add saline to precipitate.",
+   "ar": "**تخلّص من الطافي** وأضف المحلول الملحي مرّة ثانية إلى الراسب."
+  },
+  {
+   "t": "rule",
+   "en": "Mixed the precipitate and **repeat steps 4 and 5**.",
+   "ar": "امزج الراسب **وكرّر الخطوتين 4 و5**."
+  },
+  {
+   "t": "rule",
+   "en": "Re-suspended the precipitate again with saline **standardized** it.",
+   "ar": "أعد تعليق الراسب بالمحلول الملحي **ووحّد تركيزه**."
+  },
+  {
+   "t": "rule",
+   "en": "Preserve the blood in **saline for short time**, and in **AL severs solution for long time**.",
+   "ar": "احفظ الدم في **المحلول الملحي لمدّة قصيرة**، وفي **محلول ألسيفر لمدّة طويلة**."
+  },
+  {
+   "t": "note",
+   "en": "“AL severs solution” is **Alsever's solution**, used to store red cells for a long time.",
+   "ar": "“AL severs solution” هو **محلول ألسيفر (Alsever's)** المستعمل لحفظ الكريات الحمر مدّة طويلة.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Vein puncture",
+     "ar": "البزل الوريدي"
+    },
+    {
+     "en": "EDTA tube",
+     "ar": "أنبوب EDTA"
+    },
+    {
+     "en": "+ normal saline",
+     "ar": "+ محلول ملحي"
+    },
+    {
+     "en": "Centrifuge 5 min, 3000 RPM",
+     "ar": "نبذ 5 دقائق، 3000 دورة"
+    },
+    {
+     "en": "Discard supernatant, wash again",
+     "ar": "التخلّص من الطافي، غسل ثانٍ"
+    },
+    {
+     "en": "Resuspend & standardize",
+     "ar": "إعادة التعليق والتوحيد"
+    }
+   ],
+   "en": "RBC antigen in steps",
+   "ar": "مستضد الكريات الحمر بالخطوات"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Blood group antigens: **sugars (ABO)** or **proteins (Rh)**.",
+    "Functions: **blood group**, **transfusion compatibility**, **pregnancy** (mother vs fetal RBCs).",
+    "RBC suspension: EDTA → saline washes (**5 min, 3000 RPM**) → standardize; store in saline (short) or **Alsever's** (long)."
+   ],
+   "ar": [
+    "مستضدات فصائل الدم: **سكريات (ABO)** أو **بروتينات (Rh)**.",
+    "الوظائف: **فصيلة الدم**، **توافق نقل الدم**، **الحمل** (الأم مقابل كريات الجنين).",
+    "عالق الكريات: EDTA ← غسل بالمحلول الملحي (**5 دقائق، 3000 دورة**) ← توحيد؛ ويُحفظ بالمحلول الملحي (قصيرًا) أو **ألسيفر** (طويلًا)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Antigen (Ag)**",
+     "المستضد / مولّد الضد / الأنتجين"
+    ],
+    [
+     "**Antibody (Ab)**",
+     "الضد / الجسم المضاد / الأنتيبودي"
+    ],
+    [
+     "**Macromolecule**",
+     "جزيء كبير / جزيء ضخم"
+    ],
+    [
+     "**Foreignness**",
+     "الغرابة / كونه غريبًا عن الجسم"
+    ],
+    [
+     "**Recombinant proteins**",
+     "البروتينات المؤشبة / المعاد تركيبها وراثيًا"
+    ],
+    [
+     "**Vaccine**",
+     "اللقاح / المطعوم"
+    ],
+    [
+     "**Exogenous / Endogenous antigens**",
+     "المستضدات الخارجية / الداخلية"
+    ],
+    [
+     "**Auto antigens**",
+     "المستضدات الذاتية"
+    ],
+    [
+     "**Antigen-presenting cells (APCs)**",
+     "الخلايا المقدّمة للمستضد / العارضة للمستضد"
+    ],
+    [
+     "**Immunological tolerance**",
+     "التحمّل المناعي / التسامح المناعي"
+    ],
+    [
+     "**Formal-saline**",
+     "الفورمال-سلاين / المحلول الملحي الفورماليني"
+    ],
+    [
+     "**Lipopolysaccharide (LPS)**",
+     "عديد السكريد الدهني / السكريات الدهنية المتعدّدة"
+    ],
+    [
+     "**Peptidoglycan**",
+     "الببتيدوغلايكان / الغلايكان الببتيدي"
+    ],
+    [
+     "**Somatic (O) antigen**",
+     "المستضد الجسمي O"
+    ],
+    [
+     "**Flagellar (H) antigen**",
+     "المستضد السوطي H"
+    ],
+    [
+     "**Brain heart infusion**",
+     "نقيع الدماغ والقلب"
+    ],
+    [
+     "**Supernatant / Precipitate**",
+     "الطافي / الراسب"
+    ],
+    [
+     "**Streptolysin O (SLO)**",
+     "الستربتوليسين O / الحالّ السبحي O"
+    ],
+    [
+     "**Haemolysin**",
+     "الحالّ للدم / الهيمولايسين"
+    ],
+    [
+     "**Filtrate**",
+     "الراشح / الناتج المرشّح"
+    ],
+    [
+     "**Cross matching**",
+     "المطابقة التصالبية / فحص التوافق"
+    ],
+    [
+     "**Defibrination**",
+     "نزع الفايبرين / إزالة الليفين"
+    ],
+    [
+     "**Isotonic solution**",
+     "محلول متساوي التوتّر / محلول متعادل الضغط"
+    ],
+    [
+     "**Alsever's solution**",
+     "محلول ألسيفر"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Antigens",
+    "topic_ar": "المستضدات"
+   },
+   {
+    "en": "An antigen is a macromolecule that:",
+    "ar": "المستضد جزيء كبير:",
+    "options": [
+     [
+      "Kills bacteria directly",
+      "يقتل البكتيريا مباشرةً"
+     ],
+     [
+      "Induces formation of antibody that reacts specifically with it",
+      "يحفّز تكوين ضد يتفاعل معه نوعيًا"
+     ],
+     [
+      "Is always a lipid",
+      "يكون دائمًا دهنًا"
+     ],
+     [
+      "Is produced by B cells",
+      "تنتجه الخلايا البائية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The molecular weight of a good antigen is:",
+    "ar": "الوزن الجزيئي للمستضد الجيّد:",
+    "options": [
+     [
+      "< 1000 Dalton",
+      "أقل من 1000 دالتون"
+     ],
+     [
+      "Not important",
+      "غير مهم"
+     ],
+     [
+      "Exactly 500 Dalton",
+      "500 دالتون بالضبط"
+     ],
+     [
+      "> 10000 Dalton",
+      "أكبر من 10000 دالتون"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which is NOT a main characteristic of an antigen?",
+    "ar": "أيّ مما يأتي ليس من الصفات الرئيسية للمستضد؟",
+    "options": [
+     [
+      "Low molecular weight",
+      "الوزن الجزيئي المنخفض"
+     ],
+     [
+      "Chemical complexity",
+      "التعقيد الكيميائي"
+     ],
+     [
+      "Foreignness",
+      "الغرابة"
+     ],
+     [
+      "High molecular weight",
+      "الوزن الجزيئي العالي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which is a type of antigen prepared commercially?",
+    "ar": "أيّ مما يأتي من أنواع المستضدات المحضّرة تجاريًا؟",
+    "options": [
+     [
+      "Antibody",
+      "الضد"
+     ],
+     [
+      "Complement",
+      "المتمّم"
+     ],
+     [
+      "Recombinant proteins",
+      "البروتينات المؤشبة"
+     ],
+     [
+      "Formal-saline",
+      "الفورمال-سلاين"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "A vaccine is introduced into the body:",
+    "ar": "يُدخل اللقاح إلى الجسم:",
+    "options": [
+     [
+      "Artificially, to produce antibodies",
+      "اصطناعيًا لإنتاج الأضداد"
+     ],
+     [
+      "Naturally by infection",
+      "طبيعيًا بالإصابة"
+     ],
+     [
+      "To kill the antigen",
+      "لقتل المستضد"
+     ],
+     [
+      "Only in animals",
+      "في الحيوانات فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Antigens entering from outside by inhalation, ingestion or injection are:",
+    "ar": "المستضدات التي تدخل من الخارج بالاستنشاق أو الابتلاع أو الحقن هي:",
+    "options": [
+     [
+      "Endogenous",
+      "داخلية"
+     ],
+     [
+      "Haptens",
+      "ناقصة"
+     ],
+     [
+      "Auto antigens",
+      "ذاتية"
+     ],
+     [
+      "Exogenous",
+      "خارجية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Uptake of exogenous antigens by APCs is mainly by:",
+    "ar": "التقاط الخلايا المقدّمة للمستضدات الخارجية يكون غالبًا بـ:",
+    "options": [
+     [
+      "Diffusion",
+      "الانتشار"
+     ],
+     [
+      "Phagocytosis",
+      "البلعمة"
+     ],
+     [
+      "Active transport",
+      "النقل الفعّال"
+     ],
+     [
+      "Filtration",
+      "الترشيح"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "An example of an endogenous antigen is:",
+    "ar": "مثال على المستضد الداخلي:",
+    "options": [
+     [
+      "Bacteria",
+      "البكتيريا"
+     ],
+     [
+      "Viruses",
+      "الفيروسات"
+     ],
+     [
+      "Blood group antigens and HLA",
+      "مستضدات فصائل الدم وHLA"
+     ],
+     [
+      "Fungi",
+      "الفطريات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Endogenous antigens are processed by macrophages and later accepted by:",
+    "ar": "تعالج البلاعم المستضدات الداخلية ثم تستقبلها:",
+    "options": [
+     [
+      "Neutrophils",
+      "العدلات"
+     ],
+     [
+      "Cytotoxic T – cells",
+      "الخلايا التائية السامّة للخلايا"
+     ],
+     [
+      "Red cells",
+      "الكريات الحمر"
+     ],
+     [
+      "Platelets",
+      "الصفيحات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Auto antigens become immunogenic when:",
+    "ar": "تصبح المستضدات الذاتية مولّدة للمناعة عندما:",
+    "options": [
+     [
+      "They are injected",
+      "تُحقن"
+     ],
+     [
+      "They enter by inhalation",
+      "تدخل بالاستنشاق"
+     ],
+     [
+      "They are boiled",
+      "تُغلى"
+     ],
+     [
+      "Immunological tolerance is lost",
+      "يُفقد التحمّل المناعي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which is NOT a property of formal-saline?",
+    "ar": "أيّ مما يأتي ليس من خصائص الفورمال-سلاين؟",
+    "options": [
+     [
+      "Helps bacteria grow",
+      "يساعد البكتيريا على النمو"
+     ],
+     [
+      "Fixes the flagella on the cell wall",
+      "يثبّت الأسواط على جدار الخلية"
+     ],
+     [
+      "Kills microorganisms",
+      "يقتل الأحياء المجهرية"
+     ],
+     [
+      "Keeps it for a long time",
+      "يحفظه مدّة طويلة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Bacterial antigens",
+    "topic_ar": "المستضدات البكتيرية"
+   },
+   {
+    "en": "The capsule antigen is written as:",
+    "ar": "يُكتب مستضد المحفظة:",
+    "options": [
+     [
+      "LPS",
+      "LPS"
+     ],
+     [
+      "PGN",
+      "PGN"
+     ],
+     [
+      "Vi",
+      "Vi"
+     ],
+     [
+      "EPS",
+      "EPS"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The Salmonella somatic (O) antigen is:",
+    "ar": "المستضد الجسمي (O) للسالمونيلا:",
+    "options": [
+     [
+      "Found on the flagella",
+      "يوجد على الأسواط"
+     ],
+     [
+      "A flagellar protein",
+      "بروتين سوطي"
+     ],
+     [
+      "Inactivated above 60 °C",
+      "يتعطّل فوق 60 °م"
+     ],
+     [
+      "Stable at 100 °C and in alcohol",
+      "ثابت عند 100 °م وفي الكحول"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The Salmonella H antigen is:",
+    "ar": "المستضد H للسالمونيلا:",
+    "options": [
+     [
+      "A flagellar protein inactivated above 60 °C",
+      "بروتين سوطي يتعطّل فوق 60 °م"
+     ],
+     [
+      "A lipid complex",
+      "معقّد دهني"
+     ],
+     [
+      "Stable at 100 °C",
+      "ثابت عند 100 °م"
+     ],
+     [
+      "On the capsule",
+      "على المحفظة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "For O antigen preparation, Salmonella colonies are taken from:",
+    "ar": "لتحضير مستضد O تؤخذ مستعمرات السالمونيلا من:",
+    "options": [
+     [
+      "Blood agar",
+      "آجار الدم"
+     ],
+     [
+      "S.S agar",
+      "آجار S.S"
+     ],
+     [
+      "MacConkey broth",
+      "مرق ماكونكي"
+     ],
+     [
+      "Todd-Hewitt broth",
+      "مرق تود-هيويت"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In O antigen preparation the bacteria are killed by:",
+    "ar": "في تحضير مستضد O تُقتل البكتيريا بـ:",
+    "options": [
+     [
+      "0.6% formal saline for 5 days",
+      "فورمال-سلاين 0.6% لمدّة 5 أيام"
+     ],
+     [
+      "Methiolate",
+      "الميثيولات"
+     ],
+     [
+      "Boiling water bath for 3.5 hr then 1.5 hr",
+      "حمّام ماء مغلي 3.5 ساعة ثم 1.5 ساعة"
+     ],
+     [
+      "Freezing",
+      "التجميد"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The washed O antigen product has the appearance of:",
+    "ar": "مظهر ناتج مستضد O المغسول يشبه:",
+    "options": [
+     [
+      "Skim milk",
+      "الحليب منزوع الدسم"
+     ],
+     [
+      "Clear water",
+      "الماء الصافي"
+     ],
+     [
+      "Blood",
+      "الدم"
+     ],
+     [
+      "Jelly",
+      "الهلام"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "O antigen is stored in:",
+    "ar": "يُحفظ مستضد O في:",
+    "options": [
+     [
+      "0.6% formal saline at room temperature",
+      "فورمال-سلاين 0.6% بحرارة الغرفة"
+     ],
+     [
+      "Methiolate at 37 °C",
+      "ميثيولات بدرجة 37 °م"
+     ],
+     [
+      "Alsever's solution",
+      "محلول ألسيفر"
+     ],
+     [
+      "0.3% formal saline at 4 °C",
+      "فورمال-سلاين 0.3% بدرجة 4 °م"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "For H antigen preparation, the broth culture is treated with:",
+    "ar": "لتحضير مستضد H يُعالج مرق المزرعة بـ:",
+    "options": [
+     [
+      "Boiling for 3.5 hr",
+      "الغلي 3.5 ساعة"
+     ],
+     [
+      "Alcohol",
+      "الكحول"
+     ],
+     [
+      "250 ml of 0.6% formal saline for 5 days",
+      "250 مل فورمال-سلاين 0.6% لمدّة 5 أيام"
+     ],
+     [
+      "Cholesterol",
+      "الكوليسترول"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Streptolysin O",
+    "topic_ar": "الستربتوليسين O"
+   },
+   {
+    "en": "Streptolysin O is a protein of:",
+    "ar": "الستربتوليسين O بروتين وزنه:",
+    "options": [
+     [
+      "10 kDa",
+      "10 كيلو دالتون"
+     ],
+     [
+      "67 kDa",
+      "67 كيلو دالتون"
+     ],
+     [
+      "1000 kDa",
+      "1000 كيلو دالتون"
+     ],
+     [
+      "150 kDa",
+      "150 كيلو دالتون"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Streptolysin O is inhibited by:",
+    "ar": "يُثبَّط الستربتوليسين O بـ:",
+    "options": [
+     [
+      "Sulfhydryl compounds",
+      "مركّبات السلفهيدريل"
+     ],
+     [
+      "Cholesterol and related sterols",
+      "الكوليسترول والستيرولات المشابهة"
+     ],
+     [
+      "Reducing agents",
+      "العوامل المختزلة"
+     ],
+     [
+      "Saline",
+      "المحلول الملحي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "For better SLO production the organisms are grown in:",
+    "ar": "لإنتاج أفضل للـ SLO تُنمّى الأحياء في:",
+    "options": [
+     [
+      "A fat-rich medium",
+      "وسط غني بالدهون"
+     ],
+     [
+      "S.S agar",
+      "آجار S.S"
+     ],
+     [
+      "A fat free, reducing agent containing medium (kalbak broth)",
+      "وسط خالٍ من الدهون ويحتوي عاملًا مختزلًا (مرق كالباك)"
+     ],
+     [
+      "Blood agar",
+      "آجار الدم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "SLO culture is incubated for:",
+    "ar": "تُحضن مزرعة SLO لمدّة:",
+    "options": [
+     [
+      "5 days at room temperature",
+      "5 أيام بحرارة الغرفة"
+     ],
+     [
+      "3.5 hours in boiling water",
+      "3.5 ساعة في الماء المغلي"
+     ],
+     [
+      "1 month at 4 °C",
+      "شهر بدرجة 4 °م"
+     ],
+     [
+      "15 hrs at 37 °C",
+      "15 ساعة بدرجة 37 °م"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "SLO is collected from the:",
+    "ar": "يُجمع SLO من:",
+    "options": [
+     [
+      "Filtrate after filtration",
+      "الراشح بعد الترشيح"
+     ],
+     [
+      "Precipitate",
+      "الراسب"
+     ],
+     [
+      "Colonies on agar",
+      "المستعمرات على الآجار"
+     ],
+     [
+      "Bacterial cells",
+      "الخلايا البكتيرية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "RBC antigens",
+    "topic_ar": "مستضدات الكريات الحمر"
+   },
+   {
+    "en": "ABO blood group antigens are composed of:",
+    "ar": "تتكوّن مستضدات فصائل ABO من:",
+    "options": [
+     [
+      "Lipids only",
+      "دهون فقط"
+     ],
+     [
+      "Proteins",
+      "بروتينات"
+     ],
+     [
+      "Sugars",
+      "سكريات"
+     ],
+     [
+      "Nucleic acids",
+      "أحماض نووية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Rh antigens are composed of:",
+    "ar": "تتكوّن مستضدات Rh من:",
+    "options": [
+     [
+      "Proteins",
+      "بروتينات"
+     ],
+     [
+      "Sugars",
+      "سكريات"
+     ],
+     [
+      "Cholesterol",
+      "كوليسترول"
+     ],
+     [
+      "DNA",
+      "DNA"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The purpose of RBC preparation is:",
+    "ar": "الغرض من تحضير الكريات الحمر:",
+    "options": [
+     [
+      "To make a vaccine",
+      "صنع لقاح"
+     ],
+     [
+      "To prepare RBCs suspensions for serologic testing",
+      "تحضير عوالق الكريات الحمر للفحوص المصلية"
+     ],
+     [
+      "To grow bacteria",
+      "تنمية البكتيريا"
+     ],
+     [
+      "To measure hemoglobin",
+      "قياس الهيموغلوبين"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The RBC suspension is centrifuged for:",
+    "ar": "يُنبذ عالق الكريات الحمر لمدّة:",
+    "options": [
+     [
+      "15 min at 1000 RPM",
+      "15 دقيقة بسرعة 1000"
+     ],
+     [
+      "1 hr at 500 RPM",
+      "ساعة بسرعة 500"
+     ],
+     [
+      "30 s at 10000 RPM",
+      "30 ثانية بسرعة 10000"
+     ],
+     [
+      "5 min at 3000 RPM",
+      "5 دقائق بسرعة 3000"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "For long storage, red cells are kept in:",
+    "ar": "للحفظ الطويل تُحفظ الكريات الحمر في:",
+    "options": [
+     [
+      "Formal-saline 0.6%",
+      "فورمال-سلاين 0.6%"
+     ],
+     [
+      "Normal saline",
+      "المحلول الملحي الطبيعي"
+     ],
+     [
+      "Alsever's solution",
+      "محلول ألسيفر"
+     ],
+     [
+      "Distilled water",
+      "الماء المقطّر"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The anticoagulant tube used for RBC antigen preparation is:",
+    "ar": "أنبوب مانع التخثّر المستعمل لتحضير مستضد الكريات الحمر:",
+    "options": [
+     [
+      "EDTA",
+      "EDTA"
+     ],
+     [
+      "Citrate",
+      "السترات"
+     ],
+     [
+      "Heparin",
+      "الهيبارين"
+     ],
+     [
+      "Plain tube",
+      "أنبوب بلا مانع"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Picture question",
+    "topic_ar": "سؤال صورة"
+   },
+   {
+    "en": "In this figure, the coloured shapes that fit on the tips of the Y-shaped molecule are:",
+    "ar": "في هذا الشكل، الأشكال الملوّنة التي تركب على أطراف الجزيء الذي يشبه حرف Y هي:",
+    "options": [
+     [
+      "Antibodies",
+      "أضداد"
+     ],
+     [
+      "Antigens",
+      "مستضدات"
+     ],
+     [
+      "Red cells",
+      "كريات حمر"
+     ],
+     [
+      "Flagella",
+      "أسواط"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/antigen-antibody.png",
+    "img_h": "42mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "An antigen must be foreign to the body.",
+    "ar": "يجب أن يكون المستضد غريبًا عن الجسم.",
+    "answer": "T"
+   },
+   {
+    "en": "Synthetic peptides are a type of commercially prepared antigen.",
+    "ar": "الببتيدات المصنّعة نوع من المستضدات المحضّرة تجاريًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Exogenous antigens originate from the host's own body.",
+    "ar": "المستضدات الخارجية تنشأ من جسم المضيف نفسه.",
+    "answer": "F"
+   },
+   {
+    "en": "Auto antigens are immunogenic under normal conditions.",
+    "ar": "المستضدات الذاتية مولّدة للمناعة في الظروف الطبيعية.",
+    "answer": "F"
+   },
+   {
+    "en": "Formal-saline fixes the flagella on the cell wall.",
+    "ar": "يثبّت الفورمال-سلاين الأسواط على جدار الخلية.",
+    "answer": "T"
+   },
+   {
+    "en": "Peptidoglycan is one of the cell membrane antigens of bacteria.",
+    "ar": "الببتيدوغلايكان أحد مستضدات غشاء الخلية البكتيرية.",
+    "answer": "T"
+   },
+   {
+    "en": "The Salmonella H antigen is stable at 100 °C.",
+    "ar": "المستضد H للسالمونيلا ثابت عند 100 °م.",
+    "answer": "F"
+   },
+   {
+    "en": "O antigen sterility is shown by no turbidity in brain heart infusion broth and no growth on S.S agar.",
+    "ar": "تُثبت عقامة مستضد O بعدم العكارة في مرق نقيع الدماغ والقلب وعدم النمو على آجار S.S.",
+    "answer": "T"
+   },
+   {
+    "en": "In H antigen preparation the supernatant is kept and the precipitate discarded.",
+    "ar": "في تحضير مستضد H يُحتفظ بالطافي ويُرمى الراسب.",
+    "answer": "F"
+   },
+   {
+    "en": "Streptolysin O is formed by pyogenic streptococci.",
+    "ar": "يتكوّن الستربتوليسين O بواسطة المكوّرات السبحية المقيّحة.",
+    "answer": "T"
+   },
+   {
+    "en": "Streptolysin O is activated by sulfhydryl compounds.",
+    "ar": "ينشّط الستربتوليسين O بمركّبات السلفهيدريل.",
+    "answer": "T"
+   },
+   {
+    "en": "Properly stored SLO loses its potency after one week.",
+    "ar": "يفقد SLO المحفوظ جيدًا فعاليته بعد أسبوع.",
+    "answer": "F"
+   },
+   {
+    "en": "A proper ratio of plasma to red cells is important for antigen-antibody reactions.",
+    "ar": "النسبة الصحيحة بين البلازما والكريات الحمر مهمة لتفاعلات المستضد والضد.",
+    "answer": "T"
+   },
+   {
+    "en": "RBCs can be obtained by defibrinating clotted specimens.",
+    "ar": "يمكن الحصول على الكريات الحمر بنزع الفايبرين من العيّنات المتخثّرة.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "O vs H — which survives boiling?",
+    "ar": "O مقابل H — أيّهما يتحمّل الغلي؟",
+    "answer_en": "O (somatic) is stable at 100 °C and in alcohol, so it is prepared by boiling. H (flagellar) is a protein inactivated above 60 °C, so it is killed with formal saline instead.",
+    "answer_ar": "O (الجسمي) ثابت عند 100 °م وفي الكحول، لذلك يُحضَّر بالغلي. أما H (السوطي) فبروتين يتعطّل فوق 60 °م، لذلك يُقتل بالفورمال-سلاين بدل الغلي."
+   },
+   {
+    "en": "0.6% or 0.3% formal saline?",
+    "ar": "فورمال-سلاين 0.6% أم 0.3%؟",
+    "answer_en": "0.6% is added to kill the H culture (5 days); 0.3% is the storage solution for both O and H at 4 °C.",
+    "answer_ar": "0.6% يُضاف لقتل مزرعة H (5 أيام)؛ و0.3% هو محلول الحفظ لكلا O وH بدرجة 4 °م."
+   },
+   {
+    "en": "SLO: activated vs inhibited",
+    "ar": "SLO: ما ينشّطه مقابل ما يثبّطه",
+    "answer_en": "Activated by sulfhydryl compounds; inhibited by cholesterol and related sterols — so it is grown in a fat-free, reducing medium.",
+    "answer_ar": "ينشّطه السلفهيدريل؛ ويثبّطه الكوليسترول والستيرولات — لذلك يُنمّى في وسط خالٍ من الدهون ومختزل."
+   },
+   {
+    "en": "1 month or many years?",
+    "ar": "شهر أم سنوات؟",
+    "answer_en": "SLO in the filtrate got inactivated after 1 month; but SLO prepared and properly stored keeps constant potency for many years (as the lecture states both).",
+    "answer_ar": "الـ SLO في الراشح يتعطّل بعد شهر؛ لكن الـ SLO المحضّر والمحفوظ جيدًا يبقى بفعالية ثابتة لسنوات (المحاضرة تذكر الاثنين)."
+   },
+   {
+    "en": "ABO vs Rh antigens",
+    "ar": "مستضدات ABO مقابل Rh",
+    "answer_en": "ABO = sugars; Rh = proteins.",
+    "answer_ar": "ABO = سكريات؛ وRh = بروتينات."
+   },
+   {
+    "en": "Saline or Alsever's?",
+    "ar": "المحلول الملحي أم ألسيفر؟",
+    "answer_en": "Saline for short time; Alsever's solution for long time.",
+    "answer_ar": "المحلول الملحي لمدّة قصيرة؛ ومحلول ألسيفر لمدّة طويلة."
+   },
+   {
+    "en": "Two broths for SLO",
+    "ar": "مرقان للـ SLO",
+    "answer_en": "Grow first in Todd-Hewitt broth, then transfer 50 ml to 1000 ml of kalbak's broth.",
+    "answer_ar": "يُنمّى أولًا في مرق تود-هيويت، ثم يُنقل 50 مل إلى 1000 مل من مرق كالباك."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define antigen and list its main characteristics.",
+    "ar": "عرّف المستضد واذكر صفاته الرئيسية.",
+    "answer_en": "A macromolecule that induces formation of antibody which reacts specifically with it. Characteristics: high molecular weight > 10000 Dalton, foreignness, chemical complexity.",
+    "answer_ar": "جزيء كبير يحفّز تكوين ضد يتفاعل معه نوعيًا. الصفات: وزن جزيئي عالٍ > 10000 دالتون، والغرابة، والتعقيد الكيميائي."
+   },
+   {
+    "en": "Classify antigens on the basis of source with examples.",
+    "ar": "صنّف المستضدات حسب المصدر مع الأمثلة.",
+    "answer_en": "Exogenous: foreign, enter from outside by inhalation, ingestion or injection, taken by APCs by phagocytosis (bacteria, fungi, viruses). Endogenous: from the host's own body, processed by macrophages and accepted by cytotoxic T cells (blood group antigens, HLA). Auto antigens: normal self proteins recognized in autoimmune disease after loss of tolerance (nucleoproteins, nucleic acids).",
+    "answer_ar": "الخارجية: غريبة تدخل من الخارج بالاستنشاق أو الابتلاع أو الحقن وتلتقطها APCs بالبلعمة (البكتيريا، الفطريات، الفيروسات). الداخلية: من جسم المضيف، تعالجها البلاعم وتستقبلها الخلايا التائية السامّة (مستضدات فصائل الدم، HLA). الذاتية: بروتينات ذاتية طبيعية يتعرّف عليها الجهاز المناعي في المرض المناعي الذاتي بعد فقدان التحمّل (البروتينات النووية، الأحماض النووية)."
+   },
+   {
+    "en": "What are the properties of formal-saline?",
+    "ar": "ما خصائص الفورمال-سلاين؟",
+    "answer_en": "1. Kills microorganisms; 2. fixes the flagella on the cell wall; 3. keeps the antigen for a long time without deterioration; 4. masks the body of the bacterial cell.",
+    "answer_ar": "1. يقتل الأحياء المجهرية؛ 2. يثبّت الأسواط على جدار الخلية؛ 3. يحفظ المستضد مدّة طويلة دون تلف؛ 4. يحجب جسم الخلية البكتيرية."
+   },
+   {
+    "en": "Compare the Salmonella O and H antigens.",
+    "ar": "قارن بين مستضدي O وH للسالمونيلا.",
+    "answer_en": "O (somatic): on the cell surface, lipid complex (polysaccharide), stable at 100 °C and in alcohol. H (flagellar): on the flagella, protein, inactivated above 60 °C.",
+    "answer_ar": "O (الجسمي): على سطح الخلية، معقّد دهني (عديد سكريد)، ثابت عند 100 °م وفي الكحول. H (السوطي): على الأسواط، بروتين، يتعطّل فوق 60 °م."
+   },
+   {
+    "en": "Describe the preparation of the Salmonella somatic (O) antigen.",
+    "ar": "صف تحضير المستضد الجسمي (O) للسالمونيلا.",
+    "answer_en": "Streak Salmonella colonies from S.S agar onto brain heart infusion agar; incubate overnight at 37 °C; harvest with sterile saline; boil 250 ml suspension 3.5 hr, leave overnight, boil again 1.5 hr; wash 3 times with saline (skim-milk look); check sterility (no turbidity in BHI broth, no growth on S.S agar); store in 0.3% formal saline at 4 °C.",
+    "answer_ar": "خطّط مستعمرات السالمونيلا من آجار S.S على آجار نقيع الدماغ والقلب؛ احضن ليلة بدرجة 37 °م؛ احصد بمحلول ملحي معقّم؛ اغلِ 250 مل من العالق 3.5 ساعة، واتركه ليلة، ثم اغلِه 1.5 ساعة؛ اغسله 3 مرّات بالمحلول الملحي (مظهر الحليب منزوع الدسم)؛ افحص العقامة (لا عكارة في مرق BHI ولا نمو على S.S)؛ واحفظه في فورمال-سلاين 0.3% بدرجة 4 °م."
+   },
+   {
+    "en": "Describe the preparation of streptolysin O antigen.",
+    "ar": "صف تحضير مستضد الستربتوليسين O.",
+    "answer_en": "Grow pyogenic streptococci in Todd-Hewitt broth; transfer 50 ml to 1000 ml kalbak's broth (fat free, reducing); incubate 15 hrs at 37 °C; check for haemolysin; filter off the cells; preserve the filtrate with methiolate; store at 4 °C. Properly stored SLO keeps constant potency for many years.",
+    "answer_ar": "نمِّ المكوّرات السبحية المقيّحة في مرق تود-هيويت؛ انقل 50 مل إلى 1000 مل من مرق كالباك (خالٍ من الدهون ومختزل)؛ احضن 15 ساعة بدرجة 37 °م؛ افحص الحالّ للدم؛ افصل الخلايا بالترشيح؛ احفظ الراشح بالميثيولات؛ وخزّنه بدرجة 4 °م. والـ SLO المحفوظ جيدًا يبقى بفعالية ثابتة لسنوات."
+   },
+   {
+    "en": "Give the functions of RBC antigens and the procedure to prepare an RBC antigen.",
+    "ar": "اذكر وظائف مستضدات الكريات الحمر وإجراء تحضير مستضد الكريات الحمر.",
+    "answer_en": "Functions: determine blood group; ensure compatibility in transfusion (typing and cross matching); in pregnancy, the mother may form antibodies against fetal RBC antigens. Procedure: venepuncture → EDTA tube → add normal saline → centrifuge 5 min at 3000 RPM → discard supernatant, add saline → repeat → resuspend and standardize → store in saline (short) or Alsever's solution (long).",
+    "answer_ar": "الوظائف: تحديد فصيلة الدم؛ ضمان التوافق في نقل الدم (التحديد والمطابقة التصالبية)؛ وفي الحمل قد تكوّن الأم أضدادًا ضد مستضدات كريات الجنين. الإجراء: بزل وريدي ← أنبوب EDTA ← إضافة محلول ملحي ← نبذ 5 دقائق بسرعة 3000 ← التخلّص من الطافي وإضافة محلول ملحي ← التكرار ← إعادة التعليق والتوحيد ← الحفظ في المحلول الملحي (قصيرًا) أو محلول ألسيفر (طويلًا)."
+   }
+  ]
+ }
+}

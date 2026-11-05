@@ -1,0 +1,1119 @@
+{
+ "meta": {
+  "subject_en": "Medical Virology",
+  "subject_ar": "الفيروسات الطبية",
+  "short_ar": "فايروسات",
+  "instructor": "د. آية وسمي",
+  "unit_en": "Lab 5",
+  "unit_ar": "العملي 5",
+  "unit_label": "LAB",
+  "unit_no": "5",
+  "title_en": "Complement Fixation Test",
+  "title_ar": "اختبار تثبيت المتمّم",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Complement Fixation Test",
+   "ar": "اختبار تثبيت المتمّم"
+  },
+  {
+   "t": "card",
+   "en": "The **complement fixation test (CFT)** is a **serological test** used to detect the presence of **specific antibodies or antigens** in a patient's serum.",
+   "ar": "**اختبار تثبيت المتمّم (CFT)** **فحص مصلي** يُستعمل للكشف عن وجود **أضداد أو مستضدّات نوعية** في مصل المريض."
+  },
+  {
+   "t": "card",
+   "en": "It is based on the principle of **complement fixation**, where complement proteins are **consumed in an antigen-antibody reaction**.",
+   "ar": "ويعتمد على مبدأ **تثبيت المتمّم**، حيث **تُستهلك** بروتينات المتمّم **في تفاعل المستضدّ-الضدّ**."
+  },
+  {
+   "t": "card",
+   "en": "This test has been widely used in the diagnosis of various viral infections, particularly those where **viral culture is difficult or unavailable**.",
+   "ar": "وقد استُعمل هذا الاختبار على نطاق واسع في تشخيص إصابات فيروسية مختلفة، ولا سيّما تلك التي يكون فيها **الزرع الفيروسي صعبًا أو غير متاح**."
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Complement** is a **protein (Globulin)** present in the **normal serum** and found in many types.",
+    "When **Ag is complexed with Ab on the surface of cell**, complement causes **lysis of cell**."
+   ],
+   "ar": [
+    "**المتمّم** **بروتين (غلوبيولين)** موجود في **المصل الطبيعي** ويوجد بأنواع كثيرة.",
+    "وعندما **يرتبط المستضدّ (Ag) بالضدّ (Ab) على سطح الخلية** يسبّب المتمّم **تحلّل الخلية**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "The CFT has been used in the diagnosis of various viral infections, including: **Influenza, Measles, Mumps, Rubella, Herpes simplex virus, Cytomegalovirus**.",
+   "ar": "استُعمل CFT في تشخيص إصابات فيروسية مختلفة، منها: **الإنفلونزا، والحصبة، والنكاف (أبو كعب)، والحصبة الألمانية، وفيروس الحلأ البسيط (الهربس البسيط)، والفيروس المضخّم للخلايا**."
+  },
+  {
+   "t": "note",
+   "en": [
+    "**CFT** = serological test for **antibodies or antigens** in serum; complement is **consumed** by Ag–Ab reaction.",
+    "**Complement** = serum **globulin** protein → lyses cells carrying Ag–Ab complexes.",
+    "Used for influenza, measles, mumps, rubella, HSV, CMV."
+   ],
+   "ar": [
+    "**CFT** = فحص مصلي **للأضداد أو المستضدّات** في المصل؛ والمتمّم **يُستهلك** بتفاعل المستضدّ-الضدّ.",
+    "**المتمّم** = بروتين **غلوبيولين** مصلي ← يحلّل الخلايا الحاملة لمعقّدات المستضدّ-الضدّ.",
+    "يُستعمل للإنفلونزا والحصبة والنكاف والحصبة الألمانية والهربس البسيط وCMV."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Procedure",
+   "ar": "طريقة العمل"
+  },
+  {
+   "t": "rule",
+   "en": "**Serum Preparation:**",
+   "ar": "**تحضير المصل:**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Heat inactivate** the patient’s serum at **56°C for 30 minutes** to **destroy endogenous complement**."
+   ],
+   "list_ar": [
+    "**ثبّط** مصل المريض **بالحرارة** عند **56°م لمدة 30 دقيقة** **لتحطيم المتمّم الداخلي (الموجود أصلًا في المصل)**."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": "**Primary Incubation:**",
+   "ar": "**الحضن الأولي:**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Mix patient serum with **known viral antigen**.",
+    "Add a **measured amount of complement**.",
+    "Incubate the mixture at **37°C for 30 minutes** to allow antigen-antibody interaction and complement fixation."
+   ],
+   "list_ar": [
+    "امزج مصل المريض مع **مستضدّ فيروسي معروف**.",
+    "أضف **كمية مقيسة من المتمّم**.",
+    "احضن المزيج عند **37°م لمدة 30 دقيقة** للسماح بتفاعل المستضدّ-الضدّ وتثبيت المتمّم."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": "**Indicator System Addition:**",
+   "ar": "**إضافة النظام الدالّ (الكاشف):**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Add **sheep RBCs (SRBCs) sensitized with hemolysin**.",
+    "Incubate at **37°C for another 30 minutes**."
+   ],
+   "list_ar": [
+    "أضف **كريات دم حمر للأغنام (SRBCs) مُحسَّسة بالهيمولايسين (الحالّ الدموي)**.",
+    "احضن عند **37°م لمدة 30 دقيقة أخرى**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/cft.png",
+   "en": "Complement fixation test. Complement-fixation stage: Antigen + Complement + Serum with antibody against antigen → Complement fixation (left); Antigen + Complement + Serum without antibody → No complement fixation (right). Indicator stage: Sheep RBC + Antibody to sheep RBC → (a) No hemolysis (complement tied up in antigen–antibody reaction); (b) Hemolysis (uncombined complement available). (a) Positive test. All available complement is fixed by the antigen–antibody reaction; no hemolysis occurs, so the test is positive for the presence of antibodies. (b) Negative test. No antigen–antibody reaction occurs. The complement remains, and the red blood cells are lysed in the indicator stage, so the test is negative.",
+   "ar": "اختبار تثبيت المتمّم. مرحلة تثبيت المتمّم: مستضدّ + متمّم + مصل فيه ضدّ للمستضدّ ← تثبيت المتمّم (يسار)؛ مستضدّ + متمّم + مصل بلا ضدّ ← لا تثبيت للمتمّم (يمين). المرحلة الدالّة: كرية حمراء للأغنام + ضدّ لكريات الأغنام الحمر ← (أ) لا تحلّل دم (المتمّم مقيّد في تفاعل المستضدّ-الضدّ)؛ (ب) تحلّل دم (متمّم غير مرتبط متاح). (أ) اختبار موجب: كل المتمّم المتاح يُثبَّت بتفاعل المستضدّ-الضدّ؛ فلا يحدث تحلّل، والاختبار موجب لوجود الأضداد. (ب) اختبار سالب: لا يحدث تفاعل مستضدّ-ضدّ؛ فيبقى المتمّم وتتحلّل الكريات الحمر في المرحلة الدالّة، والاختبار سالب.",
+   "h": "118mm"
+  },
+  {
+   "t": "rule",
+   "en": "**Result Interpretation:**",
+   "ar": "**تفسير النتيجة:**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Positive Test:** **No hemolysis** observed, indicating complement fixation due to antigen-antibody complex formation.",
+    [
+     "**Negative Test:** **Hemolysis** observed, indicating **free complement**, hence no antigen-antibody reaction.",
+     "See figure above."
+    ]
+   ],
+   "list_ar": [
+    "**الاختبار الموجب:** **لا يُلاحظ تحلّل دم**، ممّا يدلّ على تثبيت المتمّم بسبب تكوّن معقّد المستضدّ-الضدّ.",
+    [
+     "**الاختبار السالب:** **يُلاحظ تحلّل دم**، ممّا يدلّ على **متمّم حرّ**، وبالتالي لا تفاعل بين المستضدّ والضدّ.",
+     "انظر الشكل أعلاه."
+    ]
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Result",
+     "النتيجة"
+    ],
+    [
+     "Hemolysis",
+     "تحلّل الدم"
+    ],
+    [
+     "Complement",
+     "المتمّم"
+    ],
+    [
+     "Meaning",
+     "المعنى"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Positive**",
+      "**موجب**"
+     ],
+     [
+      "No",
+      "لا"
+     ],
+     [
+      "fixed",
+      "مُثبَّت"
+     ],
+     [
+      "Ag–Ab complex formed (antibody present)",
+      "تكوّن معقّد مستضدّ-ضدّ (الضدّ موجود)"
+     ]
+    ],
+    [
+     [
+      "**Negative**",
+      "**سالب**"
+     ],
+     [
+      "Yes",
+      "نعم"
+     ],
+     [
+      "free",
+      "حرّ"
+     ],
+     [
+      "no Ag–Ab reaction",
+      "لا تفاعل مستضدّ-ضدّ"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    18,
+    18,
+    20,
+    44
+   ],
+   "style": "summary",
+   "label_en": "Reading the result",
+   "label_ar": "قراءة النتيجة"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Heat serum 56°C, 30 min",
+     "ar": "تسخين المصل 56°م، 30 د"
+    },
+    {
+     "en": "+ Ag + complement, 37°C 30 min",
+     "ar": "+ مستضدّ + متمّم، 37°م 30 د"
+    },
+    {
+     "en": "+ sensitized SRBCs, 37°C 30 min",
+     "ar": "+ كريات أغنام محسّسة، 37°م 30 د"
+    },
+    {
+     "en": "Read hemolysis",
+     "ar": "قراءة التحلّل"
+    }
+   ],
+   "en": "CFT in steps",
+   "ar": "CFT بالخطوات"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Serum **56°C / 30 min** destroys endogenous complement.",
+    "Serum + **known antigen** + **measured complement** → 37°C; then **sensitized sheep RBCs** → 37°C.",
+    "**No hemolysis = positive**; **hemolysis = negative** (free complement)."
+   ],
+   "ar": [
+    "المصل **56°م / 30 دقيقة** يحطّم المتمّم الداخلي.",
+    "المصل + **مستضدّ معروف** + **متمّم مقيس** ← 37°م؛ ثم **كريات أغنام محسّسة** ← 37°م.",
+    "**لا تحلّل = موجب**؛ **تحلّل = سالب** (متمّم حرّ)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Advantages and Disadvantages",
+   "ar": "المزايا والعيوب"
+  },
+  {
+   "t": "h2",
+   "en": "Advantages of CFT",
+   "ar": "مزايا CFT"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Ability to **screen against a large number of viral and bacterial infections at the same time**.",
+    "**Economical**."
+   ],
+   "list_ar": [
+    "القدرة على **الكشف عن عدد كبير من الإصابات الفيروسية والبكتيرية في الوقت نفسه**.",
+    "**اقتصادي**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Disadvantages of CFT",
+   "ar": "عيوب CFT"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Not sensitive** - cannot be used for immunity screening",
+    "**Time consuming** and **labor intensive**",
+    "Often **non-specific** e.g. **cross-reactivity**"
+   ],
+   "list_ar": [
+    "**غير حسّاس** - لا يمكن استعماله لمسح المناعة",
+    "**يستهلك الوقت** و**يحتاج جهدًا كبيرًا**",
+    "غالبًا **غير نوعي** مثل **التفاعل المتصالب**"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "Cross-reactivity is listed here as a disadvantage, so the answer of True/False question 10 at the end of the lab sheet (cross-reactivity as a disadvantage of CFT) should be **T**, not F; the question bank uses T.",
+   "ar": "التفاعل المتصالب مذكور هنا من العيوب، لذلك سؤال الصح والخطأ رقم 10 في آخر ورقة العملي (التفاعل المتصالب من عيوب CFT) جوابه الصحيح **صح (T)**؛ واعتمدنا صح في بنك الأسئلة.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Pros: **many infections at once**, **economical**.",
+    "Cons: **not sensitive** (no immunity screening), **slow and laborious**, **cross-reactivity**."
+   ],
+   "ar": [
+    "المزايا: **إصابات كثيرة دفعة واحدة**، **اقتصادي**.",
+    "العيوب: **غير حسّاس** (لا لمسح المناعة)، **بطيء ومُتعِب**، **تفاعل متصالب**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Complement fixation test (CFT)**",
+     "اختبار تثبيت المتمّم"
+    ],
+    [
+     "**Complement**",
+     "المتمّم / المُكمِّل"
+    ],
+    [
+     "**Serological test**",
+     "فحص مصلي"
+    ],
+    [
+     "**Antigen (Ag)**",
+     "المستضدّ / الأنتيجين"
+    ],
+    [
+     "**Antibody (Ab)**",
+     "الضدّ / الجسم المضاد"
+    ],
+    [
+     "**Globulin**",
+     "الغلوبيولين"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Lysis**",
+     "التحلّل / الانحلال"
+    ],
+    [
+     "**Heat inactivation**",
+     "التثبيط بالحرارة / التعطيل الحراري"
+    ],
+    [
+     "**Endogenous complement**",
+     "المتمّم الداخلي (الذاتي)"
+    ],
+    [
+     "**Indicator system**",
+     "النظام الدالّ / الكاشف"
+    ],
+    [
+     "**Sheep RBCs (SRBCs)**",
+     "كريات الدم الحمر للأغنام"
+    ],
+    [
+     "**Sensitized**",
+     "مُحسَّس / مُهيَّأ"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Hemolysin**",
+     "الهيمولايسين / الحالّ الدموي"
+    ],
+    [
+     "**Hemolysis**",
+     "تحلّل الدم / انحلال الكريات الحمر"
+    ],
+    [
+     "**Measles / Mumps / Rubella**",
+     "الحصبة / النكاف (أبو كعب) / الحصبة الألمانية"
+    ],
+    [
+     "**Cytomegalovirus (CMV)**",
+     "الفيروس المضخّم للخلايا"
+    ],
+    [
+     "**Immunity screening**",
+     "مسح (تحرّي) المناعة"
+    ],
+    [
+     "**Cross-reactivity**",
+     "التفاعل المتصالب"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "MCQs Lab Five (from the lab sheet)",
+    "topic_ar": "أسئلة العملي الخامس (من ورقة العملي)"
+   },
+   {
+    "en": "The complement fixation test (CFT) is mainly used to detect:",
+    "ar": "يُستعمل اختبار تثبيت المتمّم (CFT) أساسًا للكشف عن:",
+    "options": [
+     [
+      "Bacterial spores",
+      "الأبواغ البكتيرية"
+     ],
+     [
+      "Specific antibodies or antigens in serum",
+      "أضداد أو مستضدّات نوعية في المصل"
+     ],
+     [
+      "Blood glucose",
+      "سكر الدم"
+     ],
+     [
+      "Fungal hyphae",
+      "الخيوط الفطرية"
+     ],
+     [
+      "Antibiotic resistance",
+      "مقاومة المضادّات الحيوية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Complement is a:",
+    "ar": "المتمّم:",
+    "options": [
+     [
+      "Lipid",
+      "دهن"
+     ],
+     [
+      "Carbohydrate",
+      "كربوهيدرات"
+     ],
+     [
+      "Protein globulin",
+      "بروتين غلوبيولين"
+     ],
+     [
+      "Viral enzyme",
+      "إنزيم فيروسي"
+     ],
+     [
+      "Nucleic acid",
+      "حامض نووي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "When antigen is complexed with antibody on a cell surface, complement may cause:",
+    "ar": "عندما يرتبط المستضدّ بالضدّ على سطح الخلية قد يسبّب المتمّم:",
+    "options": [
+     [
+      "Cell lysis",
+      "تحلّل الخلية"
+     ],
+     [
+      "Spore formation",
+      "تكوّن الأبواغ"
+     ],
+     [
+      "Cell division",
+      "انقسام الخلية"
+     ],
+     [
+      "Antibody destruction",
+      "تحطيم الضدّ"
+     ],
+     [
+      "Viral mutation",
+      "طفرة فيروسية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Before performing CFT, patient serum is heat-inactivated at:",
+    "ar": "قبل إجراء CFT يُثبَّط مصل المريض بالحرارة عند:",
+    "options": [
+     [
+      "25°C for 10 minutes",
+      "25°م لمدة 10 دقائق"
+     ],
+     [
+      "37°C for 30 minutes",
+      "37°م لمدة 30 دقيقة"
+     ],
+     [
+      "56°C for 30 minutes",
+      "56°م لمدة 30 دقيقة"
+     ],
+     [
+      "70°C for 5 minutes",
+      "70°م لمدة 5 دقائق"
+     ],
+     [
+      "100°C for 30 minutes",
+      "100°م لمدة 30 دقيقة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Why is the patient’s serum heat-inactivated before the test:",
+    "ar": "لماذا يُثبَّط مصل المريض بالحرارة قبل الاختبار:",
+    "options": [
+     [
+      "To activate antibodies",
+      "لتنشيط الأضداد"
+     ],
+     [
+      "To destroy endogenous (already present in serum) complement",
+      "لتحطيم المتمّم الداخلي (الموجود أصلًا في المصل)"
+     ],
+     [
+      "To lyse red blood cells",
+      "لتحليل الكريات الحمر"
+     ],
+     [
+      "To produce viral antigen",
+      "لإنتاج مستضدّ فيروسي"
+     ],
+     [
+      "To increase hemolysin concentration",
+      "لزيادة تركيز الهيمولايسين"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "During primary incubation, patient serum is mixed with:",
+    "ar": "أثناء الحضن الأولي يُمزج مصل المريض مع:",
+    "options": [
+     [
+      "Known viral antigen and complement",
+      "مستضدّ فيروسي معروف ومتمّم"
+     ],
+     [
+      "Sheep RBCs only",
+      "كريات أغنام حمر فقط"
+     ],
+     [
+      "Bacterial culture and agar",
+      "مزرعة بكتيرية وآكار"
+     ],
+     [
+      "Antibiotics and distilled water",
+      "مضادّات حيوية وماء مقطّر"
+     ],
+     [
+      "Fungal antigen only",
+      "مستضدّ فطري فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which cells are used in the CFT indicator system:",
+    "ar": "أي خلايا تُستعمل في النظام الدالّ لـ CFT:",
+    "options": [
+     [
+      "Human white blood cells",
+      "كريات الدم البيض البشرية"
+     ],
+     [
+      "Chicken embryonic cells",
+      "خلايا جنين الدجاج"
+     ],
+     [
+      "Sheep red blood cells sensitized with hemolysin",
+      "كريات أغنام حمر محسّسة بالهيمولايسين"
+     ],
+     [
+      "Epithelial cells",
+      "خلايا ظهارية"
+     ],
+     [
+      "Platelets",
+      "الصفيحات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "A positive complement fixation test is indicated by:",
+    "ar": "يُستدلّ على الاختبار الموجب بـ:",
+    "options": [
+     [
+      "Complete hemolysis",
+      "تحلّل دم كامل"
+     ],
+     [
+      "No hemolysis",
+      "عدم تحلّل الدم"
+     ],
+     [
+      "Bacterial growth",
+      "نموّ بكتيري"
+     ],
+     [
+      "Plaque formation",
+      "تكوّن لويحات"
+     ],
+     [
+      "Agglutination only",
+      "تلازن فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Hemolysis in the indicator system indicates that:",
+    "ar": "تحلّل الدم في النظام الدالّ يدلّ على أن:",
+    "options": [
+     [
+      "Complement was fixed by antigen-antibody complexes",
+      "المتمّم ثُبّت بمعقّدات المستضدّ-الضدّ"
+     ],
+     [
+      "Free complement is present and no antigen-antibody reaction occurred",
+      "متمّمًا حرًّا موجود ولم يحدث تفاعل مستضدّ-ضدّ"
+     ],
+     [
+      "The patient has antibodies to the virus",
+      "لدى المريض أضداد للفيروس"
+     ],
+     [
+      "The test is always positive",
+      "الاختبار موجب دائمًا"
+     ],
+     [
+      "The serum was contaminated with bacteria",
+      "المصل ملوّث بالبكتيريا"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which is a disadvantage of the complement fixation test:",
+    "ar": "أيّها من عيوب اختبار تثبيت المتمّم:",
+    "options": [
+     [
+      "It is highly sensitive for immunity screening",
+      "عالي الحساسية لمسح المناعة"
+     ],
+     [
+      "It is rapid and easy to perform",
+      "سريع وسهل الإجراء"
+     ],
+     [
+      "It may show cross-reactivity",
+      "قد يُظهر تفاعلًا متصالبًا"
+     ],
+     [
+      "It requires no laboratory equipment",
+      "لا يحتاج أجهزة مختبرية"
+     ],
+     [
+      "It can detect only bacterial infections",
+      "يكشف الإصابات البكتيرية فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "BIOS questions",
+    "topic_ar": "أسئلة BIOS"
+   },
+   {
+    "en": "The principle of CFT is that complement is:",
+    "ar": "مبدأ CFT أن المتمّم:",
+    "options": [
+     [
+      "Consumed in an antigen-antibody reaction",
+      "يُستهلك في تفاعل المستضدّ-الضدّ"
+     ],
+     [
+      "Produced by the virus",
+      "يُنتجه الفيروس"
+     ],
+     [
+      "Destroyed at 37°C",
+      "يتحطّم عند 37°م"
+     ],
+     [
+      "Found only in infected serum",
+      "يوجد في المصل المصاب فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "CFT is particularly useful for viral infections where:",
+    "ar": "يفيد CFT خصوصًا في الإصابات الفيروسية التي:",
+    "options": [
+     [
+      "Antibodies are absent",
+      "تغيب فيها الأضداد"
+     ],
+     [
+      "Hemolysis is impossible",
+      "يستحيل فيها التحلّل"
+     ],
+     [
+      "Viral culture is difficult or unavailable",
+      "يصعب فيها الزرع الفيروسي أو لا يتوفّر"
+     ],
+     [
+      "Only bacteria are present",
+      "توجد فيها بكتيريا فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which of the following is diagnosed by CFT according to the lab sheet?",
+    "ar": "أيّ ممّا يلي يُشخَّص بـ CFT حسب ورقة العملي؟",
+    "options": [
+     [
+      "Rabies",
+      "داء الكلب"
+     ],
+     [
+      "Poliovirus",
+      "شلل الأطفال"
+     ],
+     [
+      "Ebola",
+      "إيبولا"
+     ],
+     [
+      "Cytomegalovirus",
+      "الفيروس المضخّم للخلايا"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The amount of complement added in primary incubation is:",
+    "ar": "كمية المتمّم المضافة في الحضن الأولي:",
+    "options": [
+     [
+      "Unlimited",
+      "غير محدودة"
+     ],
+     [
+      "A measured amount",
+      "كمية مقيسة"
+     ],
+     [
+      "Doubled every 5 min",
+      "تُضاعف كل 5 دقائق"
+     ],
+     [
+      "None",
+      "لا شيء"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The incubation temperature in CFT after serum preparation is:",
+    "ar": "درجة الحضن في CFT بعد تحضير المصل:",
+    "options": [
+     [
+      "37°C",
+      "37°م"
+     ],
+     [
+      "56°C",
+      "56°م"
+     ],
+     [
+      "4°C",
+      "4°م"
+     ],
+     [
+      "100°C",
+      "100°م"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Sheep RBCs in CFT are sensitized with:",
+    "ar": "تُحسَّس كريات الأغنام في CFT بـ:",
+    "options": [
+     [
+      "Complement",
+      "المتمّم"
+     ],
+     [
+      "Hemolysin",
+      "الهيمولايسين"
+     ],
+     [
+      "Viral antigen",
+      "مستضدّ فيروسي"
+     ],
+     [
+      "Heparin",
+      "الهيبارين"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In this figure, the tube with serum without antibody ends with:",
+    "ar": "في هذا الشكل، أنبوب المصل الخالي من الضدّ ينتهي بـ:",
+    "options": [
+     [
+      "No hemolysis — positive test",
+      "لا تحلّل — اختبار موجب"
+     ],
+     [
+      "Complement fixation",
+      "تثبيت المتمّم"
+     ],
+     [
+      "Agglutination",
+      "تلازن"
+     ],
+     [
+      "Hemolysis — negative test",
+      "تحلّل — اختبار سالب"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/cft.png",
+    "img_h": "60mm"
+   },
+   {
+    "en": "A negative CFT means:",
+    "ar": "CFT السالب يعني:",
+    "options": [
+     [
+      "Antibody present",
+      "الضدّ موجود"
+     ],
+     [
+      "Complement fixed",
+      "المتمّم مثبّت"
+     ],
+     [
+      "Free complement lysed the sheep RBCs",
+      "المتمّم الحرّ حلّل كريات الأغنام"
+     ],
+     [
+      "No hemolysis",
+      "لا تحلّل"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "An advantage of CFT is that it is:",
+    "ar": "من مزايا CFT أنه:",
+    "options": [
+     [
+      "Highly sensitive",
+      "عالي الحساسية"
+     ],
+     [
+      "Economical",
+      "اقتصادي"
+     ],
+     [
+      "Rapid",
+      "سريع"
+     ],
+     [
+      "Highly specific",
+      "عالي النوعية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "CFT cannot be used for immunity screening because it is:",
+    "ar": "لا يُستعمل CFT لمسح المناعة لأنه:",
+    "options": [
+     [
+      "Too expensive",
+      "مكلف جدًا"
+     ],
+     [
+      "Too fast",
+      "سريع جدًا"
+     ],
+     [
+      "Not sensitive",
+      "غير حسّاس"
+     ],
+     [
+      "Only for bacteria",
+      "للبكتيريا فقط"
+     ]
+    ],
+    "answer": "c"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Complement fixation test is a serological test used to detect specific antibodies or antigens in serum.",
+    "ar": "اختبار تثبيت المتمّم فحص مصلي يكشف أضدادًا أو مستضدّات نوعية في المصل.",
+    "answer": "T"
+   },
+   {
+    "en": "Complement is a carbohydrate found only in infected serum.",
+    "ar": "المتمّم كربوهيدرات يوجد في المصل المصاب فقط.",
+    "answer": "F"
+   },
+   {
+    "en": "Patient serum is heat-inactivated at 56°C for 30 minutes before CFT.",
+    "ar": "يُثبَّط مصل المريض بالحرارة عند 56°م لمدة 30 دقيقة قبل CFT.",
+    "answer": "T"
+   },
+   {
+    "en": "Heat inactivation destroys endogenous complement in the patient’s serum.",
+    "ar": "التثبيط الحراري يحطّم المتمّم الداخلي في مصل المريض.",
+    "answer": "T"
+   },
+   {
+    "en": "During primary incubation, patient serum is mixed with known viral antigen and complement.",
+    "ar": "أثناء الحضن الأولي يُمزج مصل المريض مع مستضدّ فيروسي معروف ومتمّم.",
+    "answer": "T"
+   },
+   {
+    "en": "Sheep red blood cells sensitized with hemolysin are used as the indicator system.",
+    "ar": "تُستعمل كريات أغنام حمر محسّسة بالهيمولايسين نظامًا دالًّا.",
+    "answer": "T"
+   },
+   {
+    "en": "A positive CFT result is indicated by hemolysis.",
+    "ar": "يُستدلّ على نتيجة CFT الموجبة بتحلّل الدم.",
+    "answer": "F"
+   },
+   {
+    "en": "Hemolysis indicates that free complement is present.",
+    "ar": "تحلّل الدم يدلّ على وجود متمّم حرّ.",
+    "answer": "T"
+   },
+   {
+    "en": "CFT is highly sensitive and is ideal for immunity screening.",
+    "ar": "CFT عالي الحساسية ومثالي لمسح المناعة.",
+    "answer": "F"
+   },
+   {
+    "en": "Cross-reactivity is a disadvantage of CFT.",
+    "ar": "التفاعل المتصالب من عيوب CFT.",
+    "answer": "T"
+   },
+   {
+    "en": "CFT can screen for many viral and bacterial infections at the same time.",
+    "ar": "يستطيع CFT الكشف عن إصابات فيروسية وبكتيرية كثيرة في الوقت نفسه.",
+    "answer": "T"
+   },
+   {
+    "en": "The indicator system is incubated at 56°C.",
+    "ar": "يُحضن النظام الدالّ عند 56°م.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Positive = no hemolysis",
+    "ar": "الموجب = لا تحلّل",
+    "answer_en": "In CFT the result is the opposite of what students expect: NO hemolysis = POSITIVE (complement used up by Ag–Ab); hemolysis = NEGATIVE.",
+    "answer_ar": "في CFT النتيجة عكس المتوقّع: لا تحلّل = موجب (المتمّم استُهلك بالمستضدّ-الضدّ)؛ والتحلّل = سالب."
+   },
+   {
+    "en": "56°C vs 37°C",
+    "ar": "56°م مقابل 37°م",
+    "answer_en": "56°C for 30 min = heat-inactivating the serum (destroy its own complement); 37°C for 30 min = both incubations.",
+    "answer_ar": "56°م لمدة 30 دقيقة = تثبيط المصل حراريًا (تحطيم متمّمه)؛ و37°م لمدة 30 دقيقة = الحضنان كلاهما."
+   },
+   {
+    "en": "Why heat the serum?",
+    "ar": "لماذا يُسخَّن المصل؟",
+    "answer_en": "To destroy ENDOGENOUS complement, so only the measured amount we add takes part — not to activate antibodies.",
+    "answer_ar": "لتحطيم المتمّم الداخلي حتى تشترك فقط الكمية المقيسة التي نضيفها — لا لتنشيط الأضداد."
+   },
+   {
+    "en": "What is sensitized?",
+    "ar": "ما المحسَّس؟",
+    "answer_en": "The SHEEP RBCs are sensitized with hemolysin (antibody to sheep RBC); the patient serum is not.",
+    "answer_ar": "كريات الأغنام الحمر هي المحسَّسة بالهيمولايسين (ضدّ لكريات الأغنام)؛ لا مصل المريض."
+   },
+   {
+    "en": "Complement nature",
+    "ar": "طبيعة المتمّم",
+    "answer_en": "Complement is a protein (globulin) present in NORMAL serum — not a carbohydrate and not only in infected serum.",
+    "answer_ar": "المتمّم بروتين (غلوبيولين) موجود في المصل الطبيعي — ليس كربوهيدرات ولا يوجد في المصل المصاب فقط."
+   },
+   {
+    "en": "TF 10 in the lab sheet",
+    "ar": "سؤال صح وخطأ 10 في الورقة",
+    "answer_en": "\"Cross-reactivity is a disadvantage of CFT\" is TRUE — the lab text lists it under disadvantages (the sheet's key shows F by mistake).",
+    "answer_ar": "\"التفاعل المتصالب من عيوب CFT\" صحيحة — فالنص يذكره ضمن العيوب (ومفتاح الورقة كتب F سهوًا)."
+   }
+  ],
+  "important": [
+   {
+    "en": "What is the complement fixation test and what is its principle?",
+    "ar": "ما اختبار تثبيت المتمّم وما مبدؤه؟",
+    "answer_en": "A serological test that detects specific antibodies or antigens in a patient's serum. Principle: complement proteins are consumed (fixed) in an antigen-antibody reaction. Complement is a globulin protein of normal serum that lyses cells when Ag is complexed with Ab on their surface. Used for influenza, measles, mumps, rubella, HSV and CMV, especially when viral culture is difficult.",
+    "answer_ar": "فحص مصلي يكشف أضدادًا أو مستضدّات نوعية في مصل المريض. مبدؤه: تُستهلك (تُثبَّت) بروتينات المتمّم في تفاعل المستضدّ-الضدّ. والمتمّم بروتين غلوبيولين في المصل الطبيعي يحلّل الخلايا عند ارتباط المستضدّ بالضدّ على سطحها. ويُستعمل للإنفلونزا والحصبة والنكاف والحصبة الألمانية والهربس البسيط وCMV، خصوصًا عند صعوبة الزرع الفيروسي."
+   },
+   {
+    "en": "Describe the procedure of CFT.",
+    "ar": "صف طريقة عمل CFT.",
+    "answer_en": "1. Serum preparation: heat-inactivate at 56°C for 30 min to destroy endogenous complement. 2. Primary incubation: mix serum with known viral antigen, add a measured amount of complement, incubate at 37°C for 30 min. 3. Indicator system: add sheep RBCs sensitized with hemolysin, incubate at 37°C for another 30 min. 4. Read the result.",
+    "answer_ar": "1. تحضير المصل: تثبيط حراري عند 56°م لمدة 30 دقيقة لتحطيم المتمّم الداخلي. 2. الحضن الأولي: مزج المصل مع مستضدّ فيروسي معروف وإضافة كمية مقيسة من المتمّم والحضن عند 37°م لمدة 30 دقيقة. 3. النظام الدالّ: إضافة كريات أغنام حمر محسّسة بالهيمولايسين والحضن عند 37°م لمدة 30 دقيقة أخرى. 4. قراءة النتيجة."
+   },
+   {
+    "en": "How do you interpret CFT results?",
+    "ar": "كيف تفسّر نتائج CFT؟",
+    "answer_en": "Positive: no hemolysis — complement was fixed by the antigen-antibody complex, so antibody is present. Negative: hemolysis — free complement remained and lysed the sensitized sheep RBCs, so no antigen-antibody reaction occurred.",
+    "answer_ar": "موجب: لا تحلّل — ثُبّت المتمّم بمعقّد المستضدّ-الضدّ، فالضدّ موجود. سالب: تحلّل — بقي متمّم حرّ فحلّل كريات الأغنام المحسّسة، فلم يحدث تفاعل مستضدّ-ضدّ."
+   },
+   {
+    "en": "Give the advantages and disadvantages of CFT.",
+    "ar": "اذكر مزايا CFT وعيوبه.",
+    "answer_en": "Advantages: screens a large number of viral and bacterial infections at the same time; economical. Disadvantages: not sensitive (cannot be used for immunity screening); time consuming and labor intensive; often non-specific, e.g. cross-reactivity.",
+    "answer_ar": "المزايا: يكشف عددًا كبيرًا من الإصابات الفيروسية والبكتيرية في الوقت نفسه؛ اقتصادي. العيوب: غير حسّاس (لا يُستعمل لمسح المناعة)؛ يستهلك الوقت والجهد؛ غالبًا غير نوعي مثل التفاعل المتصالب."
+   },
+   {
+    "en": "Why is the patient's serum heat-inactivated, and why are sheep RBCs used?",
+    "ar": "لماذا يُثبَّط مصل المريض حراريًا، ولماذا تُستعمل كريات الأغنام؟",
+    "answer_en": "Heating at 56°C for 30 min destroys the serum's own (endogenous) complement so that only the measured complement added takes part. Hemolysin-sensitized sheep RBCs form the indicator system: they are lysed only if free complement remains.",
+    "answer_ar": "التسخين عند 56°م لمدة 30 دقيقة يحطّم المتمّم الذاتي للمصل حتى يشترك فقط المتمّم المقيس المضاف. وكريات الأغنام المحسّسة بالهيمولايسين تكوّن النظام الدالّ: فهي لا تتحلّل إلا إذا بقي متمّم حرّ."
+   }
+  ]
+ }
+}

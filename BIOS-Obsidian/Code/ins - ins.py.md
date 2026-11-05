@@ -1,0 +1,151 @@
+---
+source: BIOS-Obsidian/tools/scripts/ins/ins.py
+handouts: []
+saved: 2026-11-05
+tags: [bios, code]
+---
+# ins/ins.py
+
+Utility script.
+
+```python
+import sys, re; sys.path.insert(0, "/tmp/claude-0/-home-user/a0840832-519a-5a9b-84ea-294867ea1189/scratchpad/imm456")
+from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
+
+BN = lambda en, ar: N(en, ar, label=["BIOS note", "ملاحظة BIOS"])
+O = P
+def FG(src, en, ar, h, **k): return F(src, en, ar, h=h, fit="contain", **k)
+
+blocks = [
+ # ───────────────────────── endocrine overview figure
+ SEC("The endocrine system", "جهاز الغدد الصماء"),
+ FG("endocrine-axis.jpg", "Hormones of the hypothalamus, pituitary and their target glands (1 → 2 → 3)", "هرمونات الوطاء والنخامية والغدد الهدف (1 ← 2 ← 3)", "92mm"),
+ T([B("Label", "الكتابة"), B("Label", "الكتابة")],
+   [[B("**Central nervous system / Nerve impulses**", "الجهاز العصبي المركزي / السيالات العصبية"), B("**Hypothalamus / Hypothalamic hormones**", "الوطاء / هرمونات الوطاء")],
+    [B("**Anterior pituitary**", "النخامية الأمامية"), B("**Posterior pituitary**", "النخامية الخلفية")],
+    [B("**Corticotropin, Thyrotropin, FSH, LH, Prolactin, Somatotropin**", "الهرمون الموجّه لقشرة الكظر، الموجّه للدرقية، FSH، LH، البرولاكتين، هرمون النمو"), B("**Vasopressin, Oxytocin**", "الفازوبريسين (المضاد لإدرار البول)، الأوكسيتوسين")],
+   ], style="summary", label_en="Labels in the figure", label_ar="كتابات الشكل"),
+ T([B("Label", "الكتابة"), B("Label", "الكتابة")],
+   [[B("**Adrenal cortex → Adrenal cortical steroids**", "قشرة الكظر ← الستيرويدات القشرية"), B("**Thyroid → Thyroxine, Triiodothyronine**", "الدرقية ← الثايروكسين، ثلاثي يود الثايرونين")],
+    [B("**Testis → Testosterone; Ovary → Progesterone, β-estradiol**", "الخصية ← التستوستيرون؛ المبيض ← البروجستيرون، بيتا-إستراديول"), B("**Liver and other tissue → Somatomedins**", "الكبد وأنسجة أخرى ← السوماتوميدينات")],
+    [B("**Adrenal medulla → Adrenaline**", "لبّ الكظر ← الأدرينالين"), B("**Pancreas → Insulin, Glucagon → Liver, Muscles**", "البنكرياس ← الأنسولين، الغلوكاغون ← الكبد، العضلات")],
+    [B("**Many tissues; Muscles, Liver; Reproductive organs; Mammary glands**", "أنسجة كثيرة؛ العضلات، الكبد؛ الأعضاء التناسلية؛ الغدد الثديية"), B("**Liver, Muscles, Islet cells, Bone; Liver, Muscles, Heart; Arterioles; Smooth muscle, Mammary glands**", "الكبد، العضلات، خلايا الجزر، العظم؛ الكبد، العضلات، القلب؛ الشرينات؛ العضلات الملساء، الغدد الثديية")]],
+   style="summary", label_en="Labels in the figure (cont.)", label_ar="كتابات الشكل (تكملة)"),
+ BN("1 = hypothalamus → pituitary hormones, 2 = target glands and their hormones, 3 = target tissues. Insulin comes from the pancreas (right side of the figure).",
+    "1 = الوطاء ← هرمونات النخامية، 2 = الغدد الهدف وهرموناتها، 3 = الأنسجة الهدف. والأنسولين يأتي من البنكرياس (يمين الشكل)."),
+
+ # ───────────────────────── insulin
+ SEC("Insulin", "الأنسولين"),
+ L(["A **peptide hormone** produced by the **beta cells of the pancreas** that **regulates glucose metabolism**.",
+    "Plays a key role in maintaining **blood sugar levels**."],
+   ["**هرمون ببتيدي** تنتجه **خلايا بيتا في البنكرياس** و**ينظّم أيض الكلوكوز**.",
+    "ويؤدّي دورًا أساسيًا في الحفاظ على **مستويات سكر الدم**."]),
+ FG("insulin-function.jpg", "Function of Insulin", "وظائف الأنسولين", "38mm"),
+ T([B("Label", "الكتابة"), B("Label", "الكتابة")],
+   [[B("**Inhibits Glucose Production**", "يثبّط إنتاج الكلوكوز"), B("**Facilitates Glucose Uptake**", "يسهّل امتصاص الخلايا للكلوكوز")],
+    [B("**Enhances Fat Storage**", "يعزّز خزن الدهون"), B("**Regulates Blood Sugar Levels**", "ينظّم مستويات سكر الدم")],
+    [B("**Supports Amino Acid Absorption**", "يدعم امتصاص الأحماض الأمينية"), B("**Promotes Glycogen Synthesis**", "يعزّز تصنيع الغلايكوجين")]],
+   style="summary", label_en="Labels in the figure", label_ar="كتابات الشكل"),
+ H2("Why Estimate Insulin?", "لماذا نقدّر الأنسولين؟"),
+ L(["Important in diagnosing **diabetes mellitus (Type 1 and Type 2)** and other metabolic disorders.",
+    "Helps in assessing **insulin resistance, hyperinsulinemia**, and **pancreatic function**."],
+   ["مهم في تشخيص **داء السكري (النوع الأول والنوع الثاني)** واضطرابات أيضية أخرى.",
+    "ويساعد في تقييم **مقاومة الأنسولين، وفرط أنسولين الدم**، و**وظيفة البنكرياس**."]),
+ INSHORT([("Insulin = **peptide** from **β cells of the pancreas**; regulates glucose metabolism and blood sugar.", "الأنسولين = **ببتيد** من **خلايا بيتا في البنكرياس**؛ ينظّم أيض الكلوكوز وسكر الدم."),
+          ("Actions: ↓ glucose production, ↑ glucose uptake, ↑ glycogen, ↑ fat storage, ↑ amino acid absorption.", "أفعاله: ↓ إنتاج الكلوكوز، ↑ امتصاص الكلوكوز، ↑ الغلايكوجين، ↑ خزن الدهون، ↑ امتصاص الأحماض الأمينية."),
+          ("Measured for **diabetes (type 1 and 2)**, **insulin resistance, hyperinsulinemia**, pancreatic function.", "يُقاس **للسكري (النوع 1 و2)**، و**مقاومة الأنسولين وفرط الأنسولين**، ووظيفة البنكرياس.")]),
+
+ # ───────────────────────── deficiency / excess
+ SEC("Insulin deficiency and excess", "نقص الأنسولين وزيادته"),
+ L(["Looking **pale** (pallor)", "**Shakiness**.", "**Dizziness** or lightheadedness.", "**Sweating**.", "**Hunger** or nausea.",
+    "An **irregular or fast heartbeat**.", "Feeling **weak** and having no energy (fatigue)."],
+   ["**الشحوب** (اصفرار الوجه)", "**الارتجاف**.", "**الدوخة** أو خفّة الرأس.", "**التعرّق**.", "**الجوع** أو الغثيان.",
+    "**ضربات قلب غير منتظمة أو سريعة**.", "الشعور **بالضعف** وفقدان الطاقة (الإعياء)."],
+   en="**What are the symptoms of insulin deficiency?**", ar="**ما أعراض نقص الأنسولين؟**"),
+ BN("These are the classic symptoms of **low blood sugar**, caused by **too much** insulin; insulin deficiency itself causes **high** blood sugar. Kept as written.",
+    "هذه الأعراض النموذجية **لانخفاض سكر الدم** الذي تسبّبه **زيادة** الأنسولين؛ أمّا نقص الأنسولين فيسبّب **ارتفاع** السكر. وأُبقيت كما كُتبت."),
+ H2("What happens when insulin increases?", "ماذا يحدث عندما يزداد الأنسولين؟"),
+ L(["Increases the risk of **obesity**", "**Type 2 diabetes**", "**Cardiovascular disease** and decreases health span", "**Life expectancy**."],
+   ["يزيد خطر **السمنة**", "**داء السكري من النوع الثاني**", "**أمراض القلب والأوعية الدموية** ويقلّل مدّة الصحّة (سنوات العمر بصحّة جيدة)", "**متوسّط العمر المتوقّع**."],
+   ),
+ BN("The last point continues the one before it: high insulin **decreases** health span and life expectancy.", "النقطة الأخيرة تكملة لما قبلها: زيادة الأنسولين **تقلّل** مدّة الصحّة ومتوسّط العمر المتوقّع."),
+ INSHORT([("Listed symptoms: pallor, shakiness, dizziness, sweating, hunger/nausea, fast heartbeat, fatigue.", "الأعراض المذكورة: الشحوب، الارتجاف، الدوخة، التعرّق، الجوع/الغثيان، تسارع القلب، الإعياء."),
+          ("High insulin → **obesity, type 2 diabetes, cardiovascular disease**, ↓ health span and life expectancy.", "زيادة الأنسولين ← **السمنة، والسكري النوع 2، وأمراض القلب والأوعية**، و↓ مدّة الصحّة والعمر المتوقّع.")]),
+
+ # ───────────────────────── methods
+ SEC("Types of Insulin Estimation Methods", "أنواع طرق تقدير الأنسولين"),
+ L(["Enzyme-Linked Immunosorbent Assay **[ELISA]**.", "High-Performance Liquid Chromatography **(HPLC)**.", "**Mass Spectrometry**."],
+   ["مقايسة الامتصاص المناعي المرتبط بالإنزيم **[الإليزا]**.", "الكروماتوغرافيا السائلة عالية الأداء **(HPLC)**.", "**مطيافية الكتلة**."]),
+ H2("Enzyme-Linked Immunosorbent Assay (ELISA)", "مقايسة الامتصاص المناعي المرتبط بالإنزيم (الإليزا)"),
+ C("**Principle:** An **antigen-antibody reaction** is coupled with an **enzyme-catalyzed color change** reaction to detect insulin concentration.",
+   "**المبدأ:** يُقرن **تفاعل المستضد-الضد** بتفاعل **تغيّر لوني يحفّزه إنزيم** لكشف تركيز الأنسولين."),
+ C("**Procedure:**", "**الطريقة:**"),
+ R("**Coat** a microplate with **insulin-specific antibodies**.", "**غلّف** صفيحة دقيقة **بأضداد خاصّة بالأنسولين**."),
+ R("Add **serum samples**; insulin will **bind to the antibody**.", "أضف **عيّنات المصل**؛ فيرتبط الأنسولين **بالضد**."),
+ R("Add an **enzyme-conjugated secondary antibody** specific to insulin", "أضف **ضدًّا ثانويًا مقترنًا بإنزيم** خاصًّا بالأنسولين"),
+ R("Add **substrate** that the enzyme converts into a **colored product**.", "أضف **المادة الأساس (الركيزة)** التي يحوّلها الإنزيم إلى **ناتج ملوّن**."),
+ R("Measure the color change using a **spectrophotometer**.", "قِس تغيّر اللون باستعمال **المطياف الضوئي**."),
+ L(["**Advantages:** **No radiation**, safer, widely available.", "**Disadvantages:** **Moderate sensitivity** compared to **RIA**."],
+   ["**المزايا:** **بلا إشعاع**، أكثر أمانًا، ومتوفّرة على نطاق واسع.", "**العيوب:** **حساسية متوسّطة** مقارنةً **بالمقايسة المناعية الإشعاعية (RIA)**."]),
+ INSHORT([("Methods: **ELISA, HPLC, mass spectrometry**.", "الطرق: **الإليزا، وHPLC، ومطيافية الكتلة**."),
+          ("ELISA = **Ag-Ab + enzyme color**; capture antibody → insulin → enzyme-labeled antibody → substrate → color.", "الإليزا = **مستضد-ضد + لون إنزيمي**؛ ضد ملتقط ← أنسولين ← ضد موسوم بإنزيم ← ركيزة ← لون."),
+          ("ELISA: no radiation, safe, available; but **less sensitive than RIA**.", "الإليزا: بلا إشعاع، آمنة، متوفّرة؛ لكنها **أقل حساسية من RIA**.")]),
+
+ # ───────────────────────── normal range
+ SEC("Normal range", "المدى الطبيعي"),
+ T([B("State", "الحالة"), B("Insulin", "الأنسولين")],
+   [[B("**1. Fasting Insulin Levels — Normal Range**", "**1. مستويات الأنسولين الصيامي — المدى الطبيعي**"), "2.6 - 24.9 μU/mL (18 - 174 pmol/L)"],
+    [B("**2. Insulin Resistance and Hyperinsulinemia — Elevated Insulin Levels**", "**2. مقاومة الأنسولين وفرط أنسولين الدم — مستويات مرتفعة**"), "> 24.9 μU/mL (>174 pmol/L)"],
+    [B("**3. Low Insulin Levels**", "**3. مستويات الأنسولين المنخفضة**"), "< 2.6 μU/mL, (<18 pmol/L)"]],
+   key_cols=[0], widths=[60, 40]),
+ BN("1 μU/mL ≈ 6.9–7 pmol/L (2.6 × 6.9 ≈ 18; 24.9 × 6.9 ≈ 174).", "1 مايكرووحدة/مل ≈ 6.9–7 بيكومول/لتر (2.6 × 6.9 ≈ 18؛ 24.9 × 6.9 ≈ 174)."),
+ INSHORT([("Fasting normal **2.6 – 24.9 μU/mL** (18 – 174 pmol/L); above → resistance/hyperinsulinemia; below → low insulin.", "الصيامي الطبيعي **2.6 – 24.9 مايكرووحدة/مل** (18 – 174 بيكومول/لتر)؛ فوقه ← مقاومة/فرط أنسولين؛ تحته ← أنسولين منخفض.")]),
+
+ # ───────────────────────── lab ELISA
+ SEC("Estimating Insulin using ELISA", "تقدير الأنسولين بالإليزا"),
+ L(["Insulin **ELISA kit** (pre-packaged)", "**Microplate reader**", "**Serum samples** (patient samples or standard insulin solution)", "Distilled water, pipettes, and tips"],
+   ["**عدّة إليزا** للأنسولين (جاهزة التعبئة)", "**قارئ الصفائح الدقيقة**", "**عيّنات المصل** (عيّنات المرضى أو محلول الأنسولين القياسي)", "ماء مقطّر، ماصّات، ورؤوس الماصّات"],
+   en="**Materials Needed:**", ar="**المواد المطلوبة:**"),
+ C("**Steps:**", "**الخطوات:**"),
+ R("**Preparation:** Prepare reagents as per the **kit instructions**.", "**التحضير:** حضّر الكواشف حسب **تعليمات العدّة**."),
+ R("**Coating the Plate:** Add **insulin-specific antibodies** to the wells.", "**تغليف الصفيحة:** أضف **أضدادًا خاصّة بالأنسولين** إلى الحفر."),
+ R("**Sample Addition:** Add patient serum or **insulin standard** solutions to the wells.", "**إضافة العيّنة:** أضف مصل المريض أو محاليل **الأنسولين القياسية** إلى الحفر."),
+ R("**Incubation:** Allow the reaction to occur, typically **1 hour at room temperature**.", "**الحضن:** اسمح للتفاعل بالحدوث، عادةً **ساعة واحدة بحرارة الغرفة**."),
+ R("**Washing:** Remove **unbound substances** using a **wash buffer**.", "**الغسل:** أزل **المواد غير المرتبطة** باستعمال **محلول الغسل المنظِّم**."),
+ R("**Enzyme Conjugate Addition:** Add the **enzyme-labeled secondary antibody**.", "**إضافة المقترن الإنزيمي:** أضف **الضد الثانوي الموسوم بالإنزيم**."),
+ R("**Substrate Addition:** Add the substrate to produce a **color change**.", "**إضافة الركيزة:** أضف الركيزة لإحداث **تغيّر لوني**."),
+ R("**Measurement:** Measure the **optical density** using a **microplate reader** at a specific wavelength (usually **450 nm**).", "**القياس:** قِس **الكثافة الضوئية** باستعمال **قارئ الصفائح** عند طول موجي محدّد (عادةً **450 نانومتر**)."),
+ R("**Calculation:** Use a **standard curve** to calculate the insulin concentration.", "**الحساب:** استعمل **المنحنى القياسي** لحساب تركيز الأنسولين."),
+ H2("Quality Control and Considerations", "ضبط الجودة والاعتبارات"),
+ L(["**Calibration:** Use **standard insulin solutions** to generate a **standard curve**.", "**Sensitivity:** Check the **lowest detectable concentration** of insulin.", "**Accuracy and Precision:** Perform **replicate tests** to ensure reliable results"],
+   ["**المعايرة:** استعمل **محاليل الأنسولين القياسية** لإنشاء **منحنى قياسي**.", "**الحساسية:** تحقّق من **أقل تركيز يمكن كشفه** من الأنسولين.", "**الدقّة والضبط:** أجرِ **فحوصًا مكرّرة** لضمان نتائج موثوقة"]),
+ INSHORT([("Kit, **microplate reader**, serum/standards; incubate **1 h at room temperature**; wash; conjugate; substrate.", "العدّة، **قارئ الصفائح**، المصل/المعايير؛ حضن **ساعة بحرارة الغرفة**؛ غسل؛ مقترن؛ ركيزة."),
+          ("Read OD at **450 nm** → **standard curve**; QC: calibration, sensitivity, replicates.", "قراءة الكثافة الضوئية عند **450 نانومتر** ← **المنحنى القياسي**؛ ضبط الجودة: المعايرة، الحساسية، التكرار.")]),
+
+ *TERMS([("Insulin", "الأنسولين / هرمون السكر"),
+         ("Beta cells", "خلايا بيتا / الخلايا البائية في جزر لانغرهانز"),
+         ("Pancreas", "البنكرياس / المعثكلة"),
+         ("Diabetes mellitus", "داء السكري / السكّري"),
+         ("Insulin resistance", "مقاومة الأنسولين"),
+         ("Hyperinsulinemia", "فرط أنسولين الدم / زيادة الأنسولين في الدم"),
+         ("Hypoglycaemia", "نقص سكر الدم / هبوط السكر"),
+         ("Glycogen synthesis", "تصنيع الغلايكوجين / تكوين النشا الحيواني"),
+         ("ELISA", "مقايسة الامتصاص المناعي المرتبط بالإنزيم / الإليزا"),
+         ("HPLC", "الكروماتوغرافيا السائلة عالية الأداء"),
+         ("Mass spectrometry", "مطيافية الكتلة / قياس الطيف الكتلي"),
+         ("RIA", "المقايسة المناعية الإشعاعية"),
+         ("Enzyme-conjugated (labeled) antibody", "ضد مقترن بإنزيم / ضد موسوم بإنزيم"),
+         ("Substrate", "الركيزة / المادة الأساس"),
+         ("Microplate reader", "قارئ الصفائح الدقيقة / قارئ الإليزا"),
+         ("Optical density", "الكثافة الضوئية / الامتصاصية"),
+         ("Standard curve", "المنحنى القياسي / منحنى المعايرة"),
+         ("Wash buffer", "محلول الغسل المنظِّم"),
+         ("Calibration", "المعايرة"),
+         ("Accuracy / Precision", "الدقّة (الصحّة) / الضبط (التكرارية)")]),
+]
+_t = blocks[-1]; _r = _t["rows"]
+blocks[-1:] = [dict(_t, rows=_r[i:i + 10]) for i in range(0, len(_r), 10)]
+
+exec(open(__file__.replace("ins.py", "insq.py")).read())
+
+```

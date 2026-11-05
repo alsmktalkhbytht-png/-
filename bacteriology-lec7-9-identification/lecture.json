@@ -13,8 +13,7 @@
   "unit_no": "7–9",
   "title_en": "Microbiological methods for identification of microorganisms",
   "title_ar": "الطرق الميكروبيولوجية لتشخيص الأحياء المجهرية",
-  "merge_questions": true,
-  "file_name": "BIOS - بكتريا نظري المحاضرات 7 و8 و9 - الطرق الميكروبيولوجية لتشخيص الأحياء المجهرية - دمج"
+  "file_name": "BIOS - بكتريا نظري المحاضرات 7 و8 و9"
  },
  "blocks": [
   {
@@ -394,7 +393,7 @@
    "src": "assets/microscopy-types.png",
    "en": "(A) Phase contrast: cells (dark) against lighter dots (spores). (B) Dark field: unstained cells against a dark background. (C) Fluorescence: cells glow due to a fluorescent antibody.",
    "ar": "(أ) تباين الطور: خلايا داكنة مقابل نقاط أفتح (أبواغ). (ب) الحقل المظلم: خلايا غير مصبوغة على خلفية مظلمة. (ج) الفلوري: تتوهّج الخلايا بسبب ضد فلوري يرتبط بها.",
-   "h": "50mm"
+   "h": "70mm"
   },
   {
    "t": "table",
@@ -454,7 +453,37 @@
       "Treponema pallidum (< 0.2 μm)",
       "اللولبية الشاحبة (< 0.2 مايكرومتر)"
      ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    42,
+    34
+   ],
+   "style": "summary",
+   "label_en": "Microscopes at a glance",
+   "label_ar": "المجاهر بنظرة"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Microscope",
+     "المجهر"
     ],
+    [
+     "Key point",
+     "الفكرة الأساسية"
+    ],
+    [
+     "Best for",
+     "الأنسب لـ"
+    ]
+   ],
+   "rows": [
     [
      [
       "**Fluorescence**",
@@ -521,8 +550,8 @@
     34
    ],
    "style": "summary",
-   "label_en": "Microscopes at a glance",
-   "label_ar": "المجاهر بنظرة"
+   "label_en": "Microscopes (cont.)",
+   "label_ar": "المجاهر (تكملة)"
   },
   {
    "t": "h2",
@@ -785,13 +814,20 @@
    "t": "rule",
    "en": [
     "**Chemical fixation:** It can be done using **ethanol, acetic acid, mercuric chloride, formaldehyde, methanol and glutaraldehyde**.",
-    "They are used to **protect the fine internal structure** of the cells.",
+    "They are used to **protect the fine internal structure** of the cells."
+   ],
+   "ar": [
+    "**التثبيت الكيميائي:** يمكن إجراؤه باستعمال **الإيثانول، وحمض الخليك، وكلوريد الزئبق، والفورمالديهايد، والميثانول، والغلوتارالديهايد**.",
+    "وتُستعمل هذه المواد **لحماية التركيب الداخلي الدقيق** للخلايا."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
     "This is useful for examination of **blood smears**.",
     "The fixed smear is stained by appropriate staining technique."
    ],
    "ar": [
-    "**التثبيت الكيميائي:** يمكن إجراؤه باستعمال **الإيثانول، وحمض الخليك، وكلوريد الزئبق، والفورمالديهايد، والميثانول، والغلوتارالديهايد**.",
-    "وتُستعمل هذه المواد **لحماية التركيب الداخلي الدقيق** للخلايا.",
     "وهذا مفيد لفحص **مسحات الدم**.",
     "ثم تُصبغ المسحة المثبّتة بتقنية التصبيغ المناسبة."
    ]
@@ -956,7 +992,37 @@
       "color contrast, but the **same color to all the bacteria**",
       "تباين لوني، لكن **اللون نفسه لكل البكتيريا**"
      ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    38,
+    40
+   ],
+   "style": "summary",
+   "label_en": "Staining — summary",
+   "label_ar": "التصبيغ — خلاصة"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Technique",
+     "التقنية"
     ],
+    [
+     "Dye / method",
+     "الصبغ / الطريقة"
+    ],
+    [
+     "Result / use",
+     "النتيجة / الاستعمال"
+    ]
+   ],
+   "rows": [
     [
      [
       "**Negative staining**",
@@ -1009,8 +1075,8 @@
     40
    ],
    "style": "summary",
-   "label_en": "Staining — summary",
-   "label_ar": "التصبيغ — خلاصة"
+   "label_en": "Staining — summary (cont.)",
+   "label_ar": "التصبيغ — خلاصة (تكملة)"
   },
   {
    "t": "note",
@@ -1184,7 +1250,47 @@
       "**بنفسجي**"
      ],
      "—"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    14,
+    22,
+    24,
+    20,
+    20
+   ],
+   "style": "summary",
+   "label_en": "Single enzyme tests",
+   "label_ar": "فحوص الإنزيم المفرد"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Test",
+     "الفحص"
     ],
+    [
+     "Enzyme → reaction",
+     "الإنزيم ← التفاعل"
+    ],
+    [
+     "Reagent / medium",
+     "الكاشف / الوسط"
+    ],
+    [
+     "Positive result",
+     "النتيجة الموجبة"
+    ],
+    [
+     "Example",
+     "مثال"
+    ]
+   ],
+   "rows": [
     [
      [
       "**Indole**",
@@ -1238,8 +1344,8 @@
     20
    ],
    "style": "summary",
-   "label_en": "Single enzyme tests",
-   "label_ar": "فحوص الإنزيم المفرد"
+   "label_en": "Single enzyme tests (cont.)",
+   "label_ar": "فحوص الإنزيم المفرد (تكملة)"
   },
   {
    "t": "note",
@@ -1664,7 +1770,26 @@
     [
      "**DIC microscope**",
      "مجهر التباين التداخلي التفاضلي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
     ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
     [
      "**TEM / SEM**",
      "المجهر الإلكتروني النافذ / الماسح"
@@ -1688,7 +1813,26 @@
     [
      "**Impregnation (silver)**",
      "التشريب (بأملاح الفضة)"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
     ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
     [
      "**Acid-fast stain**",
      "صبغة الصمود للحامض / زيل-نيلسن"
@@ -1712,7 +1856,26 @@
     [
      "**Decarboxylase**",
      "إنزيم نزع الكربوكسيل / نازعة الكربوكسيل"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
     ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
     [
      "**Cadaverine / Putrescine**",
      "الكادافيرين / البوتريسين"

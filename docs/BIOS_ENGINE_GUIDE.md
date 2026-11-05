@@ -338,6 +338,8 @@ DEFAULTS = {"brand": "BIOS", "telegram": "BIOS0t", "translation": "بايوس",
 
 قائمة بأحرف `A, B, C` بدل الأرقام: أضف `"alpha": true`.
 
+قائمة طويلة مقسّمة على بطاقتين (حتى ما يبقى فراغ بالصفحة): أضف للبطاقة الثانية `"start": 4` حتى يكمل الترقيم من 4 بدل 1.
+
 قائمة فقط بلا مقدّمة: اترك `en` و`ar` فارغين `""`.
 
 > **مهم:** طول `en` و`ar` يجب أن يكون متساويًا إذا كانا قائمتين، وكذلك `list_en` و`list_ar`.
@@ -1108,12 +1110,14 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `lab1-biosafety` | بكتريا تشخيصية | عملي 1 |
 | `bacteriology-lab2-specimens` | بكتريا تشخيصية | عملي 2 |
 | `bacteriology-lab3-culture-media` | بكتريا تشخيصية | عملي 3 |
+| `bacteriology-lec6-culture-media` | بكتريا | نظري 6 — زرع الممرضات وعزلها / الأوساط الزرعية (د. عدنان، أسلوب جديد) |
 | `bacteriology-lec7-9-identification` | بكتريا | نظري 7–9 (دمج) |
 | `bloodbank-lec1-introduction` | نقل الدم | 1 |
 | `bloodbank-lec2-donation-criteria` | نقل الدم | 2 |
 | `bloodbank-lec3-services` | نقل الدم | 3 |
 | `bloodbank-lec4-screening` | نقل الدم | 4 |
 | `bloodbank-lec5-abo-rh` | نقل الدم | 5 |
+| `bloodbank-lec6-abo-discrepancies` | نقل الدم | نظري وعملي 6 — اختلافات تحديد فصيلة ABO وتحرّي الأضداد (أسلوب جديد) |
 | `clinimm-lec2-sle` | مناعة سريرية | نظري 2 — مدموجة مع الأسئلة |
 | `clinimm-lec3-as-psa` | مناعة سريرية | نظري 3 — مدموجة مع الأسئلة |
 | `clinimm-lec4-sjogren` | مناعة سريرية | نظري 4 |
@@ -1121,20 +1125,41 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `clinimm-lec6-celiac-pa-t1d` | مناعة سريرية | نظري 6 |
 | `parasitology-week1-mcq` … `parasitology-week5-mcq` | طفيليات | بنوك أسئلة الأسابيع 1–5 — الحل تحت كل سؤال |
 | `parasitology-lab4-solutions` | طفيليات | عملي 4 |
-| `parasitology-week2-theory` … `parasitology-week5-theory` | طفيليات | نظري الأسابيع 2–5 — بدون أسئلة |
+| `parasitology-lab4-nonpathogenic-amoebae` | طفيليات | عملي 4 — الأميبات غير الممرضة والنيغلرية (م.م. نريمان حسن، أسلوب جديد، ملف أسئلة منفصل) |
+| `parasitology-lab5-flagellates-giardia` | طفيليات | عملي 5 — السوطيات والجيارديا اللمبلية (م.م. نريمان حسن، أسلوب جديد، ملف أسئلة منفصل) |
+| `parasitology-week2-theory` | طفيليات | نظري الأسبوع 2 — بدون أسئلة |
+| `parasitology-week5-theory` | طفيليات | نظري الأسبوع 5 — أُعيد بالأسلوب الجديد (2026-10-31) + ملف أسئلة منفصل |
+| `parasitology-week4-theory` | طفيليات | نظري الأسبوع 4 — أُعيد بالأسلوب الجديد (2026-10-31) + ملف أسئلة منفصل |
+| `parasitology-week3-theory` | طفيليات | نظري الأسبوع 3 — أُعيد بالأسلوب الجديد (2026-10-31) + ملف أسئلة منفصل |
 | `research-lec1-principles` | مبادئ البحث | 1 |
 | `research-lec2-scientific-method` | مبادئ البحث | 2 |
 | `research-lec3-research-plan` | مبادئ البحث | 3 — مدموجة مع الأسئلة |
 | `enzymology-lab1-safety-tubes` | إنزيمات سريرية | عملي 1 |
+| `enzymology-lab3-alkaline-phosphatase` | إنزيمات سريرية | عملي 3 — الفوسفاتيز القاعدي (د. بارق و د. هشام، أسلوب جديد) |
 | `enzymology-lec1-introduction` | إنزيمات سريرية | نظري 1 |
 | `enzymology-lec2-kinetics-inhibition` | إنزيمات سريرية | نظري 2 |
+| `enzymology-lec3-michaelis-menten-questions` | إنزيمات سريرية | نظري 3 — أسئلة معادلة ميكالس-منتن (د. وليد مجيد، أسلوب جديد) |
+| `enzymology-lec4-bioenergetics` | إنزيمات سريرية | نظري 4 — الطاقة الحيوية للإنزيمات (د. وليد مجيد، أسلوب جديد) |
 | `pathology-lec1-2-atelectasis` | علم الأمراض | 1+2 |
 | `pathology-lec3-chronic-bronchitis` | علم الأمراض | 3 |
+| `pathology-lec4-lung-cancer` | أمراض | نظري 4 — سرطان الرئة (أسلوب جديد) |
+| `pathology-lec5-glomerular-diseases` | أمراض | نظري 5 — أمراض الكبيبات (أسلوب جديد) |
+| `pathology-lec6-nephrotic-renal-tumors` | أمراض | نظري 6 — المتلازمة الكلائية وأورام الكلية (أسلوب جديد) |
+| `pathology-lec7-oral-tumors` | أمراض | نظري 7 — أورام التجويف الفموي + التهاب المريء الارتجاعي (أسلوب جديد) |
 
 ### المرحلة الثالثة (ألوان `blush`، الأسئلة داخل الملزمة)
 
 | المجلد | المادة | المحاضرة |
 |---|---|---|
+| `advtech-lec5-pcr` | تقنيات متقدمة | نظري 5 — PCR (أسلوب جديد؛ الشرائح صور نصوص نُقلت يدويًا) |
+| `advtech-lec4-plasma-urine-proteins` | تقنيات متقدمة | نظري 4 — البروتينات في البلازما والإدرار (أسلوب جديد) |
+| `endocrine-lab4-insulin` | غدد صماء عملي | عملي 4 — الأنسولين (أسلوب جديد) |
+| `endocrine-lab5-thyroid-hormones` | غدد صماء عملي | عملي 5 — هرمونات الدرقية (أسلوب جديد) |
+| `endocrine-lab3-growth-hormone` | غدد صماء عملي | عملي 3 — هرمون النمو (أسلوب جديد) |
+| `hematology-practical-pcv` | امراض الدم | عملي 5 — PCV / الهيماتوكريت (أسلوب جديد) |
+| `hematology-practical-hb-estimation` | امراض الدم | عملي 4 — تقدير الهيموغلوبين (رقم 4 مكرّر مع قياس العكارة — ينتظر جواب المستخدم) |
+| `immunology-lec4-immunoglobulins` | مناعة | نظري 4 — الغلوبيولينات المناعية (أسلوب جديد) |
+| `immunology-lab3-antigen-preparation` | مناعة | عملي 3 — تحضير المستضدات (أسلوب جديد، الأسئلة داخل الملزمة) |
 | `immunology-lab1-serology` | مناعة | عملي 1 |
 | `advtech-lec1-elisa` | تقنيات متقدمة | نظري 1 |
 | `advtech-lec3-ria` | تقنيات متقدمة | نظري 3 |
@@ -1145,6 +1170,10 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `hematology-lec2…lec10-*` | أمراض الدم | نظري 2–10 |
 | `genetics-lec1-cell-cycle-mitosis` | وراثة | نظري 1 |
 | `genetics-lec2-meiosis` | وراثة | نظري 2 |
+| `genetics-lec2-mitosis` | وراثة | نظري 2 — الانقسام الخيطي (رأس الملف lec 5) |
+| `virology-lab3-direct-examination` | فايروسات عملي | عملي 3 — الفحص المباشر للفيروسات (أسلوب جديد) |
+| `virology-lab4-isolation-cultivation` | فايروسات عملي | عملي 4 — عزل الفيروسات وزرعها (أسلوب جديد) |
+| `virology-lab5-complement-fixation` | فايروسات عملي | عملي 5 — اختبار تثبيت المتمّم (أسلوب جديد) |
 | `genetics-lab1-mitosis` | وراثة | عملي 1 |
 | `genetics-lab2-meiosis` | وراثة | عملي 2 |
 | `genetics-lab3-medical-genetics` | وراثة | عملي 3 |
@@ -1153,9 +1182,10 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `immunology-lec3-antigens` | مناعة | نظري 3 |
 | `histopathology-lab1-lab-safety` | أنسجة | عملي 1 |
 | `histopathology-lab2-samples` | أنسجة | عملي 2 |
+| `histopathology-lab3-tissue-processing` | أنسجة | عملي 3 — تحضير النسيج (أسلوب جديد) |
 | `histopathology-lec1-acute-inflammation` | أنسجة | نظري 1 |
 | `histopathology-lec2-chronic-inflammation` | أنسجة | نظري 2 |
-| `histopathology-lec4-healing-regeneration` | أنسجة | نظري 4 |
+| `histopathology-lec4-healing-regeneration` | أنسجة | نظري 4 — الالتئام والتجدّد (أُعيد بالأسلوب الجديد 2026-11-01) |
 | `virology-lab1-safety` | فايروسات | عملي 1 |
 
 ### بلا مرحلة
@@ -1164,3 +1194,6 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 |---|---|---|
 | `ethics-lec1-morals` | أخلاقيات المهنة | عربية فقط |
 | `ethics-lec3-unethical-behavior` | أخلاقيات المهنة | محاضرة 3 — عربية فقط |
+
+
+> 2026-11-01: `model_answer` يعرض السؤال العربي (`ar`) فوق الجواب العربي في «أهم الأسئلة» و«المقالب».

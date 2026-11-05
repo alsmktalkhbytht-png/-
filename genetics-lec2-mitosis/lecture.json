@@ -1,0 +1,1985 @@
+{
+ "meta": {
+  "subject_en": "Genetics",
+  "subject_ar": "علم الوراثة",
+  "short_ar": "وراثة",
+  "unit_label": "LEC",
+  "kind": "Theory — نظري",
+  "stage": "The third stage — الثالثة",
+  "instructor": "د. عبد سلطان",
+  "unit_en": "Lecture 2",
+  "unit_ar": "المحاضرة 2",
+  "unit_no": "2",
+  "title_en": "Mitosis",
+  "title_ar": "الانقسام الخيطي"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Mitosis — Basic definitions",
+   "ar": "الانقسام الخيطي — تعاريف أساسية"
+  },
+  {
+   "t": "card",
+   "en": "Eukaryotic cell divide and reproduce in two ways: **mitosis** and **meiosis**.",
+   "ar": "تنقسم الخلية حقيقية النواة وتتكاثر بطريقتين: **الانقسام الخيطي (المايتوزي)** و**الانقسام الاختزالي (المايوزي)**."
+  },
+  {
+   "t": "note",
+   "en": "The lecture sheet header says \"lec 5\"; this handout follows the user's numbering (lecture 2).",
+   "ar": "رأس صفحات المحاضرة مكتوب عليه \"lec 5\"؛ واعتمدنا ترقيم المستخدم (المحاضرة 2).",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "basic definitions",
+   "ar": "تعاريف أساسية"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    [
+     "Definition",
+     "التعريف"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**gene**",
+      "**الجين (المورّثة)**"
+     ],
+     [
+      "basic unit of heredity; codes for a specific trait",
+      "الوحدة الأساسية للوراثة؛ يشفّر لصفة معيّنة"
+     ]
+    ],
+    [
+     [
+      "**genome**",
+      "**الجينوم (المجين)**"
+     ],
+     [
+      "the total hereditary endowment of DNA of a cell or organism",
+      "مجموع الموروث الوراثي من DNA لخلية أو كائن حي"
+     ]
+    ],
+    [
+     [
+      "**somatic cell**",
+      "**الخلية الجسمية**"
+     ],
+     [
+      "all body cells except reproductive cells",
+      "جميع خلايا الجسم عدا الخلايا التكاثرية"
+     ]
+    ],
+    [
+     [
+      "**gamete**",
+      "**المشيج (الگاميت)**"
+     ],
+     [
+      "reproductive cells (i.e. sperm & eggs)",
+      "الخلايا التكاثرية (أي النطف والبيوض)"
+     ]
+    ],
+    [
+     [
+      "**chromosome**",
+      "**الكروموسوم (الصبغي)**"
+     ],
+     [
+      "elongate cellular structure composed of DNA and protein - they are the vehicles which carry DNA in cells",
+      "تركيب خلوي متطاول مكوّن من DNA وبروتين - وهي الحوامل التي تنقل DNA في الخلايا"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    26,
+    74
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    [
+     "Definition",
+     "التعريف"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**diploid (2n)**",
+      "**ثنائي المجموعة الكروموسومية (2n)**"
+     ],
+     [
+      "cellular condition where each chromosome type is represented by two homologous chromosomes",
+      "حالة خلوية يُمثَّل فيها كل نوع من الكروموسومات بكروموسومين متماثلين"
+     ]
+    ],
+    [
+     [
+      "**haploid (n)**",
+      "**أحادي المجموعة الكروموسومية (n)**"
+     ],
+     [
+      "cellular condition where each chromosome type is represented by only one chromosome",
+      "حالة خلوية يُمثَّل فيها كل نوع من الكروموسومات بكروموسوم واحد فقط"
+     ]
+    ],
+    [
+     [
+      "**homologous chromosome**",
+      "**الكروموسوم المتماثل**"
+     ],
+     [
+      "chromosome of the same size and shape which carry the same type of genes",
+      "كروموسومات بالحجم والشكل نفسيهما تحمل النوع نفسه من الجينات"
+     ]
+    ],
+    [
+     [
+      "**chromatid**",
+      "**الكروماتيد**"
+     ],
+     [
+      "one of two duplicated chromosomes connected at the centromere",
+      "واحد من كروموسومين مضاعَفين متّصلين عند السنترومير"
+     ]
+    ],
+    [
+     [
+      "**centromere**",
+      "**السنترومير (القسيم المركزي)**"
+     ],
+     [
+      "region of chromosome where microtubules attach during mitosis and meiosis",
+      "منطقة في الكروموسوم ترتبط بها الأنيبيبات الدقيقة أثناء الانقسامين الخيطي والاختزالي"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    26,
+    74
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Chromosome structure",
+   "ar": "تركيب (بنية) الكروموسوم"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Composed of **DNA and protein (histones)** all tightly wrapped up in one package",
+    "Duplicated chromosomes are connected by a **centromere**."
+   ],
+   "list_ar": [
+    "يتكوّن من **DNA وبروتين (الهستونات)** ملفوفة كلها بإحكام في حزمة واحدة",
+    "ترتبط الكروموسومات المضاعَفة بواسطة **السنترومير**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/chromosome-structure.png",
+   "en": "Duplicated chromosome: centromere; one chromatid; its sister chromatid",
+   "ar": "كروموسوم مضاعَف: centromere = السنترومير؛ one chromatid = كروماتيد واحد؛ its sister chromatid = الكروماتيد الشقيق له",
+   "h": "46mm"
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "*Example* - an organism is **2n = 4**.",
+     "ar": "*مثال* - كائن حي فيه **2n = 4**."
+    },
+    {
+     "t": "card",
+     "en": "",
+     "ar": "",
+     "list_en": [
+      "Chromosomes 1 & 2 are homologous chromosomes",
+      "Chromosomes 3 & 4 are homologous chromosomes",
+      "Chromosomes 1 & 3 came from the mother",
+      "Chromosomes 2 & 4 came from the father"
+     ],
+     "list_ar": [
+      "الكروموسومان 1 و2 كروموسومان متماثلان",
+      "الكروموسومان 3 و4 كروموسومان متماثلان",
+      "الكروموسومان 1 و3 جاءا من الأم",
+      "الكروموسومان 2 و4 جاءا من الأب"
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/homologous-2n4.png",
+    "en": "2n = 4: chromosomes 1-4 (red and blue)",
+    "ar": "2n = 4: الكروموسومات 1–4 (الأحمر والأزرق)"
+   }
+  },
+  {
+   "t": "note",
+   "en": "In the figure, chromosomes 1 & 3 (from the mother) and 2 & 4 (from the father) are drawn in two colours; the lecture does not say which colour is which parent.",
+   "ar": "في الشكل رُسمت الكروموسومات 1 و3 (من الأم) و2 و4 (من الأب) بلونين؛ ولم تحدّد المحاضرة أيّ لون لأيّ أبوين.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Cells divide by **mitosis** or **meiosis**.",
+    "**Diploid 2n** = two homologues per type; **haploid n** = one.",
+    "Chromosome = **DNA + histones**; sister chromatids joined at the **centromere**."
+   ],
+   "ar": [
+    "الخلايا تنقسم **خيطيًا** أو **اختزاليًا**.",
+    "**الثنائي 2n** = متماثلان لكل نوع؛ **الأحادي n** = واحد.",
+    "الكروموسوم = **DNA + هستونات**؛ والكروماتيدان الشقيقان يرتبطان عند **السنترومير**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "The cell cycle",
+   "ar": "دورة الخلية"
+  },
+  {
+   "t": "card",
+   "en": "Actively dividing eukaryote cells pass through a series of stages known collectively as the **cell cycle**: two gap phases (**G1 and G2**); an **S (for synthesis)** phase, in which the genetic material is duplicated; and an **M phase**, in which mitosis partitions the genetic material and the cell divides.",
+   "ar": "تمرّ الخلايا حقيقية النواة النشطة الانقسام بسلسلة من المراحل تُعرف مجتمعةً بـ**دورة الخلية**: طوران فاصلان (**G1 وG2**)؛ وطور **S (للتصنيع)** تتضاعف فيه المادة الوراثية؛ و**طور M** يوزّع فيه الانقسام الخيطي المادة الوراثية وتنقسم الخلية."
+  },
+  {
+   "t": "rule",
+   "en": "**G1 phase.** Metabolic changes prepare the cell for division",
+   "ar": "**طور G1.** تهيّئ التغيّرات الأيضية الخلية للانقسام"
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**S phase.** DNA synthesis replicates the genetic material.",
+    "Each chromosome now consists of **two sister chromatids**."
+   ],
+   "ar": [
+    "**طور S.** يضاعف تصنيع DNA المادة الوراثية.",
+    "ويتكوّن كل كروموسوم الآن من **كروماتيدين شقيقين**."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": "**G2 phase.** Metabolic changes assemble the cytoplasmic materials necessary for mitosis and cytokinesis.",
+   "ar": "**طور G2.** تجمع التغيّرات الأيضية المواد السايتوبلازمية اللازمة للانقسام الخيطي وانقسام السايتوبلازم."
+  },
+  {
+   "t": "rule",
+   "en": "**M phase.** A nuclear division (**mitosis**) followed by a cell division (**cytokinesis**).",
+   "ar": "**طور M.** انقسام نووي (**الانقسام الخيطي**) يتبعه انقسام خلوي (**انقسام السايتوبلازم**)."
+  },
+  {
+   "t": "card",
+   "en": "The period between mitotic divisions - that is, G1, S and G2 - is known as **interphase**.",
+   "ar": "تُعرف الفترة بين الانقسامات الخيطية - أي G1 وS وG2 - بـ**الطور البيني**."
+  },
+  {
+   "t": "figure",
+   "src": "assets/cell-cycle.png",
+   "en": "The cell cycle: G1 - cellular contents, excluding the chromosomes, are duplicated; S - each of the 46 chromosomes is duplicated by the cell; G2 - the cell \"double checks\" the duplicated chromosomes for error, making any needed repairs; Mitosis; Cytokinesis; Interphase (centre); G0 - cell cycle arrest",
+   "ar": "دورة الخلية: G1 - تتضاعف محتويات الخلية عدا الكروموسومات؛ S - تضاعف الخلية كلًّا من الكروموسومات الـ46؛ G2 - \"تتحقّق\" الخلية مرّتين من الكروموسومات المضاعَفة بحثًا عن الأخطاء وتُجري أي إصلاح لازم؛ Mitosis = الانقسام الخيطي؛ Cytokinesis = انقسام السايتوبلازم؛ Interphase = الطور البيني (في المركز)؛ G0 - توقّف دورة الخلية",
+   "h": "70mm"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "G1",
+     "ar": "G1"
+    },
+    {
+     "en": "S",
+     "ar": "S"
+    },
+    {
+     "en": "G2",
+     "ar": "G2"
+    },
+    {
+     "en": "M (mitosis + cytokinesis)",
+     "ar": "M (خيطي + سايتوبلازم)"
+    }
+   ],
+   "en": "Cell cycle order",
+   "ar": "ترتيب دورة الخلية"
+  },
+  {
+   "t": "note",
+   "en": [
+    "**G1 → S → G2 → M**; G1 + S + G2 = **interphase**.",
+    "**S** = DNA replication → two sister chromatids; **M** = mitosis + cytokinesis; **G0** = arrest."
+   ],
+   "ar": [
+    "**G1 ← S ← G2 ← M** (بالترتيب)؛ وG1 + S + G2 = **الطور البيني**.",
+    "**S** = تضاعف DNA ← كروماتيدان شقيقان؛ **M** = خيطي + انقسام السايتوبلازم؛ **G0** = توقّف."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Mitosis",
+   "ar": "الانقسام الخيطي"
+  },
+  {
+   "t": "card",
+   "en": "**Mitosis** is a process of cell division that results in **two genetically identical daughter cells** developing from a single parent cell.",
+   "ar": "**الانقسام الخيطي** عملية انقسام خلوي ينتج عنها **خليتان بنويتان متطابقتان وراثيًا** تنشآن من خلية أم واحدة."
+  },
+  {
+   "t": "card",
+   "en": "Mitosis is used by **single-celled organisms to reproduce**.",
+   "ar": "تستعمل **الكائنات وحيدة الخلية** الانقسام الخيطي **للتكاثر**."
+  },
+  {
+   "t": "card",
+   "en": "The replicated chromosomes are attached to a **'mitotic apparatus'** that aligns them and then separates the sister chromatids to produce an **even partitioning** of the genetic material.",
+   "ar": "ترتبط الكروموسومات المتضاعفة بـ**'الجهاز الانقسامي'** الذي يصفّها ثم يفصل الكروماتيدات الشقيقة لإنتاج **توزيع متساوٍ** للمادة الوراثية."
+  },
+  {
+   "t": "card",
+   "en": "This separation of the genetic material in a mitotic nuclear division (or **karyokinesis**) is followed by a separation of the cell cytoplasm in a cellular division (or **cytokinesis**) to produce two daughter cells.",
+   "ar": "ويتبع هذا الفصلَ للمادة الوراثية في الانقسام النووي الخيطي (أو **انقسام النواة**) فصلٌ لسايتوبلازم الخلية في انقسام خلوي (أو **انقسام السايتوبلازم**) لإنتاج خليتين بنويتين."
+  },
+  {
+   "t": "card",
+   "en": "Mitosis, although a continuous process, is conventionally divided into **five stages**: **prophase, prometaphase, metaphase, anaphase and telophase**.",
+   "ar": "ومع أن الانقسام الخيطي عملية مستمرة، فإنه يُقسَّم اصطلاحًا إلى **خمس مراحل**: **الطور التمهيدي، وما قبل الاستوائي، والاستوائي، والانفصالي، والنهائي**."
+  },
+  {
+   "t": "figure",
+   "src": "assets/mitosis-phases.png",
+   "en": "Mitosis after G2: prophase → prometaphase → metaphase → anaphase → telophase → cytokinesis (labels in the table below)",
+   "ar": "الانقسام الخيطي بعد G2: التمهيدي ← ما قبل الاستوائي ← الاستوائي ← الانفصالي ← النهائي ← انقسام السايتوبلازم (التسميات في الجدول أدناه)",
+   "h": "82mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Stage",
+     "المرحلة"
+    ],
+    [
+     "Figure labels",
+     "تسميات الشكل"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**G2**",
+      "**G2**"
+     ],
+     [
+      "sister chromatids; centromere; loosely coiled replicated chromosomes",
+      "الكروماتيدات الشقيقة؛ السنترومير؛ كروموسومات متضاعفة ملتفّة بشكل رخو"
+     ]
+    ],
+    [
+     [
+      "**Prophase**",
+      "**التمهيدي**"
+     ],
+     [
+      "breakdown of nuclear membrane; spindle fibers appear; chromosomes condense",
+      "تحطّم الغشاء النووي؛ ظهور خيوط المغزل؛ تكثّف الكروموسومات"
+     ]
+    ],
+    [
+     [
+      "**Prometaphase**",
+      "**ما قبل الاستوائي**"
+     ],
+     [
+      "spindle fibers attach to chromosomes; chromosomes condense",
+      "ارتباط خيوط المغزل بالكروموسومات؛ تكثّف الكروموسومات"
+     ]
+    ],
+    [
+     [
+      "**Metaphase**",
+      "**الاستوائي**"
+     ],
+     [
+      "chromosomes align",
+      "اصطفاف الكروموسومات"
+     ]
+    ],
+    [
+     [
+      "**Anaphase**",
+      "**الانفصالي**"
+     ],
+     [
+      "centromeres divide; sister chromatids move to opposite poles",
+      "انقسام السنتروميرات؛ تحرّك الكروماتيدات الشقيقة إلى قطبين متقابلين"
+     ]
+    ],
+    [
+     [
+      "**Telophase**",
+      "**النهائي**"
+     ],
+     [
+      "nuclear membrane reforms; chromosomes decondense; spindle fibers disappear",
+      "إعادة تكوّن الغشاء النووي؛ انفكاك تكثّف الكروموسومات؛ اختفاء خيوط المغزل"
+     ]
+    ],
+    [
+     [
+      "**Cytokinesis**",
+      "**انقسام السايتوبلازم**"
+     ],
+     [
+      "cytoplasm divides; parent cell becomes 2 daughter cells with identical genetic information",
+      "انقسام السايتوبلازم؛ تصبح الخلية الأم خليتين بنويتين بمعلومات وراثية متطابقة"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    76
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Mitosis: **1 parent cell → 2 genetically identical daughter cells**.",
+    "**Karyokinesis** (nucleus) then **cytokinesis** (cytoplasm).",
+    "Five stages: **prophase, prometaphase, metaphase, anaphase, telophase**."
+   ],
+   "ar": [
+    "الخيطي: **خلية أم واحدة ← خليتان بنويتان متطابقتان وراثيًا**.",
+    "**انقسام النواة** ثم **انقسام السايتوبلازم**.",
+    "خمس مراحل: **التمهيدي، ما قبل الاستوائي، الاستوائي، الانفصالي، النهائي**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "The phases of mitosis",
+   "ar": "مراحل الانقسام الخيطي"
+  },
+  {
+   "t": "h2",
+   "en": "Prophase",
+   "ar": "الطور التمهيدي"
+  },
+  {
+   "t": "card",
+   "en": "Prophase occupies **over half of mitosis**.",
+   "ar": "يشغل الطور التمهيدي **أكثر من نصف الانقسام الخيطي**."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Chromosomes **condense and thicken**",
+    "Each duplicated chromosome appear as",
+    "Two identical **sister chromatids**",
+    "The **mitotic spindle** begins to form"
+   ],
+   "list_ar": [
+    "**تتكثّف الكروموسومات وتثخن**",
+    "يظهر كل كروموسوم مضاعَف على هيئة",
+    "كروماتيدين شقيقين متطابقين",
+    "يبدأ **مغزل الانقسام** بالتكوّن"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "Items 2 and 3 are one sentence split over two numbers: \"Each duplicated chromosome appears as two identical sister chromatids\".",
+   "ar": "البندان 2 و3 جملة واحدة مقسومة على رقمين: \"يظهر كل كروموسوم مضاعَف على هيئة كروماتيدين شقيقين متطابقين\".",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Prometaphase",
+   "ar": "الطور ما قبل الاستوائي"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The **nuclear envelope fragments**",
+    "The **spindle fibres** become attached to the Centre of each chromosome = **kinetochore**.",
+    "The chromosomes continue to condense."
+   ],
+   "list_ar": [
+    "**يتفتّت الغلاف النووي**",
+    "ترتبط **خيوط المغزل** بمركز كل كروموسوم = **الكاينيتوكور (الحُرَيكة)**.",
+    "تستمر الكروموسومات بالتكثّف."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Metaphase",
+   "ar": "الطور الاستوائي"
+  },
+  {
+   "t": "card",
+   "en": "The chromosomes **align themselves along the metaphase plate** of the spindle apparatus.",
+   "ar": "**تصطفّ الكروموسومات على امتداد الصفيحة الاستوائية** لجهاز المغزل."
+  },
+  {
+   "t": "h2",
+   "en": "Anaphase",
+   "ar": "الطور الانفصالي"
+  },
+  {
+   "t": "card",
+   "en": "The **shortest stage** of mitosis:",
+   "ar": "**أقصر مرحلة** في الانقسام الخيطي:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The **centromeres divide**,",
+    [
+     "The sister chromatids of each chromosome are disjoined and move to the opposite ends of the cell by spindle fibers that attached to the kinetochore regions.",
+     "The separated sister chromatids are now referred to as **daughter chromosomes**"
+    ]
+   ],
+   "list_ar": [
+    "**تنقسم السنتروميرات**،",
+    [
+     "تنفصل الكروماتيدات الشقيقة لكل كروموسوم وتتحرّك إلى الطرفين المتقابلين للخلية بواسطة خيوط المغزل المرتبطة بمناطق الكاينيتوكور.",
+     "وتُسمّى الكروماتيدات الشقيقة المنفصلة الآن **الكروموسومات البنوية**"
+    ]
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Telophase",
+   "ar": "الطور النهائي"
+  },
+  {
+   "t": "card",
+   "en": "The **final stage** of mitosis and a **reversal** of many of the processes observed during prophase:",
+   "ar": "**المرحلة الأخيرة** من الانقسام الخيطي، و**عكسٌ** لكثير من العمليات الملاحظة أثناء الطور التمهيدي:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The **nuclear membrane reforms** around the chromosomes grouped at either pole of the cell,",
+    "the chromosomes **uncoil and become diffuse**",
+    "The **spindle fibers disappear**."
+   ],
+   "list_ar": [
+    "**يُعاد تكوّن الغشاء النووي** حول الكروموسومات المتجمّعة عند كل قطب من الخلية،",
+    "**تنفكّ الكروموسومات وتصبح منتشرة**",
+    "**تختفي خيوط المغزل**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Cytokinesis",
+   "ar": "انقسام السايتوبلازم"
+  },
+  {
+   "t": "card",
+   "en": [
+    "The final cellular division to form two new cells.",
+    "**In plants** a **cell plate** forms along the line of the metaphase plate; **in animals** there is a **constriction of the cytoplasm**."
+   ],
+   "ar": [
+    "الانقسام الخلوي الأخير لتكوين خليتين جديدتين.",
+    "**في النبات** تتكوّن **صفيحة خلوية** على امتداد خط الصفيحة الاستوائية؛ و**في الحيوان** يحدث **تخصّر (اختناق) في السايتوبلازم**."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Phase",
+     "المرحلة"
+    ],
+    [
+     "Key event",
+     "الحدث الأهم"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Prophase**",
+      "**التمهيدي**"
+     ],
+     [
+      "condensation; spindle starts (> half of mitosis)",
+      "التكثّف؛ بدء المغزل (> نصف الانقسام)"
+     ]
+    ],
+    [
+     [
+      "**Prometaphase**",
+      "**ما قبل الاستوائي**"
+     ],
+     [
+      "nuclear envelope fragments; fibres attach at kinetochore",
+      "تفتّت الغلاف النووي؛ ارتباط الخيوط بالكاينيتوكور"
+     ]
+    ],
+    [
+     [
+      "**Metaphase**",
+      "**الاستوائي**"
+     ],
+     [
+      "alignment on the metaphase plate",
+      "الاصطفاف على الصفيحة الاستوائية"
+     ]
+    ],
+    [
+     [
+      "**Anaphase**",
+      "**الانفصالي**"
+     ],
+     [
+      "centromeres divide; daughter chromosomes to poles (shortest)",
+      "انقسام السنتروميرات؛ كروموسومات بنوية إلى القطبين (الأقصر)"
+     ]
+    ],
+    [
+     [
+      "**Telophase**",
+      "**النهائي**"
+     ],
+     [
+      "reverse of prophase: membrane reforms, uncoiling, spindle disappears",
+      "عكس التمهيدي: عودة الغشاء، الانفكاك، اختفاء المغزل"
+     ]
+    ],
+    [
+     [
+      "**Cytokinesis**",
+      "**انقسام السايتوبلازم**"
+     ],
+     [
+      "plants: cell plate; animals: constriction",
+      "النبات: صفيحة خلوية؛ الحيوان: تخصّر"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    26,
+    74
+   ],
+   "style": "summary",
+   "label_en": "Phases at a glance",
+   "label_ar": "المراحل بنظرة"
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Prophase** is the longest (> half); **anaphase** is the shortest.",
+    "Spindle fibres attach at the **kinetochore** (prometaphase); separated chromatids = **daughter chromosomes**.",
+    "Telophase reverses prophase; cytokinesis: **cell plate** in plants, **constriction** in animals."
+   ],
+   "ar": [
+    "**التمهيدي** الأطول (> النصف)؛ و**الانفصالي** الأقصر.",
+    "خيوط المغزل ترتبط عند **الكاينيتوكور** (ما قبل الاستوائي)؛ والكروماتيدات المنفصلة = **كروموسومات بنوية**.",
+    "النهائي عكس التمهيدي؛ وانقسام السايتوبلازم: **صفيحة خلوية** بالنبات و**تخصّر** بالحيوان."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Where mitosis occurs",
+   "ar": "متى يحدث الانقسام الخيطي"
+  },
+  {
+   "t": "h2",
+   "en": "Mitosis occurs in the following circumstances:",
+   "ar": "يحدث الانقسام الخيطي في الحالات الآتية:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Development and growth** — The number of cells within an organism increases by mitosis.",
+    "**Cell replacement** — In some parts of body, e.g. skin and digestive tract, cells are constantly sloughed off and replaced by new ones",
+    [
+     "**Regeneration** — Some organisms can regenerate body parts.",
+     "For example, starfish regenerate lost arms through mitosis."
+    ],
+    [
+     "**Asexual reproduction** — Some organisms produce genetically similar offspring through asexual reproduction.",
+     "For example asexual reproduction or vegetative propagation in plants."
+    ]
+   ],
+   "list_ar": [
+    "**التطوّر والنمو** — يزداد عدد الخلايا داخل الكائن الحي بالانقسام الخيطي.",
+    "**استبدال الخلايا** — في بعض أجزاء الجسم، مثل الجلد والقناة الهضمية، تتساقط الخلايا باستمرار وتُستبدل بخلايا جديدة",
+    [
+     "**التجدّد** — تستطيع بعض الكائنات تجديد أجزاء من أجسامها.",
+     "فمثلًا يجدّد نجم البحر أذرعه المفقودة بالانقسام الخيطي."
+    ],
+    [
+     "**التكاثر اللاجنسي** — تُنتج بعض الكائنات ذرّية متشابهة وراثيًا بالتكاثر اللاجنسي.",
+     "مثل التكاثر اللاجنسي أو التكاثر الخضري في النبات."
+    ]
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Four uses: **growth, cell replacement, regeneration, asexual reproduction**."
+   ],
+   "ar": [
+    "أربعة استعمالات: **النمو، استبدال الخلايا، التجدّد، التكاثر اللاجنسي**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Errors during the mitotic anaphase",
+   "ar": "أخطاء الطور الانفصالي"
+  },
+  {
+   "t": "h2",
+   "en": "Errors produced during the mitotic anaphase",
+   "ar": "الأخطاء الناتجة أثناء الطور الانفصالي الخيطي"
+  },
+  {
+   "t": "card",
+   "en": "The normal proceeding of events in anaphase may be perturbed because of some **\"anaphase accidents\"**, which cause the **errors in distribution of genetic material**.",
+   "ar": "قد يضطرب السير الطبيعي للأحداث في الطور الانفصالي بسبب بعض **\"حوادث الطور الانفصالي\"**، التي تسبّب **أخطاء في توزيع المادة الوراثية**."
+  },
+  {
+   "t": "h2",
+   "en": "Types of errors: - transversal cleavage of centromere",
+   "ar": "أنواع الأخطاء: - الانشطار المستعرض للسنترومير"
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "",
+     "ar": "",
+     "list_en": [
+      "This error determines the formation of **isochromosomes**, which consist of only the two short arms (**i p**) or two long arms (**i q**).",
+      "each isochromosome presents an one absent arm (**deletion**) and an extra another arm (**duplication**);",
+      [
+       "it determines appearance of the **chromosome mosaics** .When an individual has two or more cell populations with a different chromosomal makeup .",
+       "This condition can affect any type of cell, including :Blood cells ,Egg and sperm cells ,Skin cells"
+      ]
+     ],
+     "list_ar": [
+      "يؤدّي هذا الخطأ إلى تكوين **الكروموسومات متساوية الذراعين (Isochromosomes)**، التي تتكوّن من الذراعين القصيرين فقط (**i p**) أو الذراعين الطويلين (**i q**).",
+      "يُظهر كل كروموسوم متساوي الذراعين ذراعًا غائبة (**حذف**) وذراعًا أخرى زائدة (**تضاعف**)؛",
+      [
+       "ويؤدّي إلى ظهور **الموزاييك الكروموسومي (الفسيفسائية)**: عندما يمتلك الفرد مجموعتين أو أكثر من الخلايا بتركيب كروموسومي مختلف.",
+       "وقد تصيب هذه الحالة أي نوع من الخلايا، ومنها: خلايا الدم، والبيوض والنطف، وخلايا الجلد"
+      ]
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/centromere-transverse.png",
+    "en": "Transversal (crosswise) cleavage of the centromere in anaphase",
+    "ar": "الانشطار المستعرض للسنترومير في الطور الانفصالي"
+   }
+  },
+  {
+   "t": "figure",
+   "src": "assets/mosaic.png",
+   "en": "Chromosome mosaicism: zygote → mitosis → a somatic change in one cell → a mixed cell population → a mosaic individual",
+   "ar": "الموزاييك الكروموسومي: الزايكوت ← الانقسام الخيطي ← تغيّر جسمي في خلية واحدة ← مجموعة خلايا مختلطة ← فرد موزاييكي",
+   "h": "26mm"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Normal division of the centromere is lengthwise, giving each daughter one whole chromatid; the transversal (crosswise) cut gives one daughter both p arms and the other both q arms.",
+    "\"presents an one absent arm\" in the source means \"lacks one arm\"; \"i p / i q\" = isochromosome of the short / long arm."
+   ],
+   "ar": [
+    "الانقسام الطبيعي للسنترومير طولي فتأخذ كل بنوية كروماتيدًا كاملًا؛ أمّا القطع المستعرض فيعطي إحداهما الذراعين p والأخرى الذراعين q.",
+    "وعبارة \"presents an one absent arm\" في الأصل تعني \"تفقد ذراعًا\"؛ و\"i p / i q\" = كروموسوم متساوي الذراعين للذراع القصيرة / الطويلة."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Anaphase accidents** → errors in distributing genetic material.",
+    "Transversal cleavage of centromere → **isochromosomes** (i p or i q) = **deletion** of one arm + **duplication** of the other.",
+    "Leads to **mosaicism**: two or more cell populations with different chromosomal makeup."
+   ],
+   "ar": [
+    "**حوادث الطور الانفصالي** ← أخطاء في توزيع المادة الوراثية.",
+    "الانشطار المستعرض للسنترومير ← **كروموسومات متساوية الذراعين** (i p أو i q) = **حذف** ذراع + **تضاعف** الأخرى.",
+    "يؤدّي إلى **الموزاييك**: مجموعتان أو أكثر من الخلايا بتركيب كروموسومي مختلف."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Mitosis**",
+     "الانقسام الخيطي / المايتوزي / الانقسام غير المباشر"
+    ],
+    [
+     "**Meiosis**",
+     "الانقسام الاختزالي / المايوزي"
+    ],
+    [
+     "**Homologous chromosomes**",
+     "الكروموسومات المتماثلة / المتناظرة"
+    ],
+    [
+     "**Chromatid**",
+     "الكروماتيد / الصبيغي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Centromere**",
+     "السنترومير / القسيم المركزي"
+    ],
+    [
+     "**Interphase**",
+     "الطور البيني / الطور الانتقالي"
+    ],
+    [
+     "**Karyokinesis**",
+     "انقسام النواة"
+    ],
+    [
+     "**Cytokinesis**",
+     "انقسام السايتوبلازم / الانقسام الهيولي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Prophase**",
+     "الطور التمهيدي / الأوّلي"
+    ],
+    [
+     "**Prometaphase**",
+     "الطور ما قبل الاستوائي / الطور التمهيدي المتأخّر"
+    ],
+    [
+     "**Metaphase**",
+     "الطور الاستوائي"
+    ],
+    [
+     "**Anaphase**",
+     "الطور الانفصالي / طور الصعود"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Telophase**",
+     "الطور النهائي / الختامي"
+    ],
+    [
+     "**Mitotic spindle**",
+     "مغزل الانقسام / خيوط المغزل"
+    ],
+    [
+     "**Kinetochore**",
+     "الكاينيتوكور / الحُرَيكة"
+    ],
+    [
+     "**Metaphase plate**",
+     "الصفيحة الاستوائية / المستوى الاستوائي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Daughter chromosomes**",
+     "الكروموسومات البنوية"
+    ],
+    [
+     "**Cell plate**",
+     "الصفيحة الخلوية"
+    ],
+    [
+     "**Regeneration**",
+     "التجدّد / إعادة التكوين"
+    ],
+    [
+     "**Vegetative propagation**",
+     "التكاثر الخضري"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Isochromosome**",
+     "الكروموسوم متساوي الذراعين"
+    ],
+    [
+     "**Deletion / Duplication**",
+     "الحذف / التضاعف"
+    ],
+    [
+     "**Mosaicism**",
+     "الموزاييك / الفسيفسائية الكروموسومية"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Definitions and chromosome structure",
+    "topic_ar": "التعاريف وتركيب الكروموسوم"
+   },
+   {
+    "en": "The basic unit of heredity that codes for a specific trait is the:",
+    "ar": "الوحدة الأساسية للوراثة التي تشفّر لصفة معيّنة هي:",
+    "options": [
+     [
+      "Genome",
+      "الجينوم"
+     ],
+     [
+      "Gene",
+      "الجين"
+     ],
+     [
+      "Chromatid",
+      "الكروماتيد"
+     ],
+     [
+      "Centromere",
+      "السنترومير"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The total hereditary endowment of DNA of a cell or organism is the:",
+    "ar": "مجموع الموروث الوراثي من DNA لخلية أو كائن هو:",
+    "options": [
+     [
+      "Gene",
+      "الجين"
+     ],
+     [
+      "Kinetochore",
+      "الكاينيتوكور"
+     ],
+     [
+      "Gamete",
+      "المشيج"
+     ],
+     [
+      "Genome",
+      "الجينوم"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Somatic cells are:",
+    "ar": "الخلايا الجسمية هي:",
+    "options": [
+     [
+      "All body cells except reproductive cells",
+      "جميع خلايا الجسم عدا التكاثرية"
+     ],
+     [
+      "Haploid cells",
+      "خلايا أحادية"
+     ],
+     [
+      "Sperm and eggs only",
+      "النطف والبيوض فقط"
+     ],
+     [
+      "Zygotes only",
+      "الزايكوتات فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "A diploid (2n) cell has each chromosome type represented by:",
+    "ar": "في الخلية الثنائية (2n) يُمثَّل كل نوع كروموسومي بـ:",
+    "options": [
+     [
+      "One chromosome",
+      "كروموسوم واحد"
+     ],
+     [
+      "Three chromosomes",
+      "ثلاثة كروموسومات"
+     ],
+     [
+      "Two homologous chromosomes",
+      "كروموسومين متماثلين"
+     ],
+     [
+      "Four chromatids only",
+      "أربعة كروماتيدات فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Homologous chromosomes are chromosomes of the same size and shape that carry:",
+    "ar": "الكروموسومات المتماثلة بالحجم والشكل نفسيهما وتحمل:",
+    "options": [
+     [
+      "The same type of genes",
+      "النوع نفسه من الجينات"
+     ],
+     [
+      "Different types of genes",
+      "أنواعًا مختلفة من الجينات"
+     ],
+     [
+      "No genes",
+      "لا جينات"
+     ],
+     [
+      "Only histones",
+      "هستونات فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The region of the chromosome where microtubules attach during mitosis and meiosis is the:",
+    "ar": "منطقة الكروموسوم التي ترتبط بها الأنيبيبات الدقيقة أثناء الانقسامين:",
+    "options": [
+     [
+      "Chromatid",
+      "الكروماتيد"
+     ],
+     [
+      "Cell plate",
+      "الصفيحة الخلوية"
+     ],
+     [
+      "Telomere",
+      "التيلومير"
+     ],
+     [
+      "Centromere",
+      "السنترومير"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A chromosome is composed of:",
+    "ar": "يتكوّن الكروموسوم من:",
+    "options": [
+     [
+      "RNA and lipid",
+      "RNA ودهون"
+     ],
+     [
+      "DNA and protein (histones)",
+      "DNA وبروتين (هستونات)"
+     ],
+     [
+      "DNA only",
+      "DNA فقط"
+     ],
+     [
+      "Protein only",
+      "بروتين فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In an organism with 2n = 4, chromosomes 1 & 3 came from:",
+    "ar": "في كائن 2n = 4، الكروموسومان 1 و3 جاءا من:",
+    "options": [
+     [
+      "The father",
+      "الأب"
+     ],
+     [
+      "Both parents",
+      "الأبوين"
+     ],
+     [
+      "The mother",
+      "الأم"
+     ],
+     [
+      "Mitosis",
+      "الانقسام الخيطي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "This figure shows the two halves of a duplicated chromosome joined at the centromere; each half is a:",
+    "ar": "يوضّح هذا الشكل نصفي كروموسوم مضاعَف متّصلين عند السنترومير؛ كل نصف هو:",
+    "options": [
+     [
+      "Gene",
+      "جين"
+     ],
+     [
+      "Chromatid",
+      "كروماتيد"
+     ],
+     [
+      "Kinetochore",
+      "كاينيتوكور"
+     ],
+     [
+      "Spindle fibre",
+      "خيط مغزل"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/chromosome-structure.png",
+    "img_h": "34mm"
+   },
+   {
+    "topic_en": "Cell cycle",
+    "topic_ar": "دورة الخلية"
+   },
+   {
+    "en": "DNA is replicated during:",
+    "ar": "يتضاعف DNA أثناء:",
+    "options": [
+     [
+      "G1 phase",
+      "طور G1"
+     ],
+     [
+      "M phase",
+      "طور M"
+     ],
+     [
+      "G2 phase",
+      "طور G2"
+     ],
+     [
+      "S phase",
+      "طور S"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Metabolic changes that assemble the cytoplasmic materials for mitosis and cytokinesis occur in:",
+    "ar": "التغيّرات الأيضية التي تجمع المواد السايتوبلازمية للانقسام تحدث في:",
+    "options": [
+     [
+      "G2",
+      "G2"
+     ],
+     [
+      "S",
+      "S"
+     ],
+     [
+      "G1",
+      "G1"
+     ],
+     [
+      "G0",
+      "G0"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Interphase consists of:",
+    "ar": "يتكوّن الطور البيني من:",
+    "options": [
+     [
+      "Prophase and metaphase",
+      "التمهيدي والاستوائي"
+     ],
+     [
+      "M phase only",
+      "طور M فقط"
+     ],
+     [
+      "G1, S and G2",
+      "G1 وS وG2"
+     ],
+     [
+      "Mitosis and cytokinesis",
+      "الخيطي وانقسام السايتوبلازم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The M phase is:",
+    "ar": "طور M هو:",
+    "options": [
+     [
+      "A gap phase",
+      "طور فاصل"
+     ],
+     [
+      "DNA synthesis",
+      "تصنيع DNA"
+     ],
+     [
+      "Cell cycle arrest",
+      "توقّف دورة الخلية"
+     ],
+     [
+      "Nuclear division followed by cell division",
+      "انقسام نووي يتبعه انقسام خلوي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In this figure, the phase labelled G0 means:",
+    "ar": "في هذا الشكل، الطور المؤشّر G0 يعني:",
+    "options": [
+     [
+      "Cell cycle arrest",
+      "توقّف دورة الخلية"
+     ],
+     [
+      "DNA replication",
+      "تضاعف DNA"
+     ],
+     [
+      "Cytokinesis",
+      "انقسام السايتوبلازم"
+     ],
+     [
+      "Double-checking chromosomes",
+      "التحقّق من الكروموسومات"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/cell-cycle.png",
+    "img_h": "46mm"
+   },
+   {
+    "topic_en": "Mitosis and its phases",
+    "topic_ar": "الانقسام الخيطي ومراحله"
+   },
+   {
+    "en": "Mitosis produces:",
+    "ar": "ينتج الانقسام الخيطي:",
+    "options": [
+     [
+      "Four haploid cells",
+      "أربع خلايا أحادية"
+     ],
+     [
+      "Two genetically identical daughter cells",
+      "خليتين بنويتين متطابقتين وراثيًا"
+     ],
+     [
+      "Two genetically different cells",
+      "خليتين مختلفتين وراثيًا"
+     ],
+     [
+      "One zygote",
+      "زايكوتًا واحدًا"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The division of the nucleus is called:",
+    "ar": "يُسمّى انقسام النواة:",
+    "options": [
+     [
+      "Cytokinesis",
+      "انقسام السايتوبلازم"
+     ],
+     [
+      "Interphase",
+      "الطور البيني"
+     ],
+     [
+      "Karyokinesis",
+      "انقسام النواة"
+     ],
+     [
+      "Regeneration",
+      "التجدّد"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Mitosis is conventionally divided into how many stages?",
+    "ar": "يُقسَّم الانقسام الخيطي اصطلاحًا إلى كم مرحلة؟",
+    "options": [
+     [
+      "Five",
+      "خمس"
+     ],
+     [
+      "Four",
+      "أربع"
+     ],
+     [
+      "Three",
+      "ثلاث"
+     ],
+     [
+      "Six",
+      "ست"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The stage that occupies over half of mitosis is:",
+    "ar": "المرحلة التي تشغل أكثر من نصف الانقسام الخيطي:",
+    "options": [
+     [
+      "Anaphase",
+      "الانفصالي"
+     ],
+     [
+      "Telophase",
+      "النهائي"
+     ],
+     [
+      "Metaphase",
+      "الاستوائي"
+     ],
+     [
+      "Prophase",
+      "التمهيدي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The nuclear envelope fragments during:",
+    "ar": "يتفتّت الغلاف النووي أثناء:",
+    "options": [
+     [
+      "Telophase",
+      "النهائي"
+     ],
+     [
+      "Anaphase",
+      "الانفصالي"
+     ],
+     [
+      "Prometaphase",
+      "ما قبل الاستوائي"
+     ],
+     [
+      "Interphase",
+      "الطور البيني"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Spindle fibres attach to the centre of each chromosome at the:",
+    "ar": "ترتبط خيوط المغزل بمركز كل كروموسوم عند:",
+    "options": [
+     [
+      "Telomere",
+      "التيلومير"
+     ],
+     [
+      "Kinetochore",
+      "الكاينيتوكور"
+     ],
+     [
+      "Histone",
+      "الهستون"
+     ],
+     [
+      "Cell plate",
+      "الصفيحة الخلوية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Chromosomes align along the metaphase plate during:",
+    "ar": "تصطفّ الكروموسومات على الصفيحة الاستوائية أثناء:",
+    "options": [
+     [
+      "Prophase",
+      "التمهيدي"
+     ],
+     [
+      "Metaphase",
+      "الاستوائي"
+     ],
+     [
+      "Telophase",
+      "النهائي"
+     ],
+     [
+      "G2",
+      "G2"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The shortest stage of mitosis is:",
+    "ar": "أقصر مرحلة في الانقسام الخيطي:",
+    "options": [
+     [
+      "Prophase",
+      "التمهيدي"
+     ],
+     [
+      "Prometaphase",
+      "ما قبل الاستوائي"
+     ],
+     [
+      "Anaphase",
+      "الانفصالي"
+     ],
+     [
+      "Metaphase",
+      "الاستوائي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The separated sister chromatids are referred to as:",
+    "ar": "تُسمّى الكروماتيدات الشقيقة المنفصلة:",
+    "options": [
+     [
+      "Homologous chromosomes",
+      "كروموسومات متماثلة"
+     ],
+     [
+      "Isochromosomes",
+      "كروموسومات متساوية الذراعين"
+     ],
+     [
+      "Bivalents",
+      "ثنائيات"
+     ],
+     [
+      "Daughter chromosomes",
+      "كروموسومات بنوية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The stage that is a reversal of many processes of prophase is:",
+    "ar": "المرحلة التي تعكس كثيرًا من عمليات التمهيدي:",
+    "options": [
+     [
+      "Telophase",
+      "النهائي"
+     ],
+     [
+      "Anaphase",
+      "الانفصالي"
+     ],
+     [
+      "Prometaphase",
+      "ما قبل الاستوائي"
+     ],
+     [
+      "Metaphase",
+      "الاستوائي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In plants, cytokinesis occurs by:",
+    "ar": "في النبات يحدث انقسام السايتوبلازم بـ:",
+    "options": [
+     [
+      "Crossing over",
+      "العبور"
+     ],
+     [
+      "Constriction of the cytoplasm",
+      "تخصّر السايتوبلازم"
+     ],
+     [
+      "Formation of a cell plate",
+      "تكوين صفيحة خلوية"
+     ],
+     [
+      "Budding",
+      "التبرعم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In this figure, \"centromeres divide; sister chromatids move to opposite poles\" labels:",
+    "ar": "في هذا الشكل، \"انقسام السنتروميرات؛ تحرّك الكروماتيدات إلى القطبين\" يؤشّر:",
+    "options": [
+     [
+      "Anaphase",
+      "الانفصالي"
+     ],
+     [
+      "Metaphase",
+      "الاستوائي"
+     ],
+     [
+      "Telophase",
+      "النهائي"
+     ],
+     [
+      "Prophase",
+      "التمهيدي"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/mitosis-phases.png",
+    "img_h": "52mm"
+   },
+   {
+    "topic_en": "Uses and errors",
+    "topic_ar": "الاستعمالات والأخطاء"
+   },
+   {
+    "en": "Starfish regenerate lost arms through:",
+    "ar": "يجدّد نجم البحر أذرعه المفقودة بـ:",
+    "options": [
+     [
+      "Meiosis",
+      "الانقسام الاختزالي"
+     ],
+     [
+      "Mitosis",
+      "الانقسام الخيطي"
+     ],
+     [
+      "Fertilization",
+      "الإخصاب"
+     ],
+     [
+      "Crossing over",
+      "العبور"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Skin and digestive tract cells are constantly sloughed off and replaced; this use of mitosis is:",
+    "ar": "خلايا الجلد والقناة الهضمية تتساقط وتُستبدل باستمرار؛ هذا الاستعمال هو:",
+    "options": [
+     [
+      "Regeneration",
+      "التجدّد"
+     ],
+     [
+      "Asexual reproduction",
+      "التكاثر اللاجنسي"
+     ],
+     [
+      "Development",
+      "التطوّر"
+     ],
+     [
+      "Cell replacement",
+      "استبدال الخلايا"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Transversal cleavage of the centromere forms:",
+    "ar": "الانشطار المستعرض للسنترومير يكوّن:",
+    "options": [
+     [
+      "Bivalents",
+      "ثنائيات"
+     ],
+     [
+      "Normal daughter chromosomes",
+      "كروموسومات بنوية طبيعية"
+     ],
+     [
+      "Isochromosomes",
+      "كروموسومات متساوية الذراعين"
+     ],
+     [
+      "Polar bodies",
+      "أجسامًا قطبية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "An isochromosome shows:",
+    "ar": "يُظهر الكروموسوم متساوي الذراعين:",
+    "options": [
+     [
+      "Deletion of one arm and duplication of the other",
+      "حذف ذراع وتضاعف الأخرى"
+     ],
+     [
+      "Two normal arms",
+      "ذراعين طبيعيتين"
+     ],
+     [
+      "Loss of the centromere only",
+      "فقد السنترومير فقط"
+     ],
+     [
+      "Four chromatids",
+      "أربعة كروماتيدات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "An individual with two or more cell populations with different chromosomal makeup shows:",
+    "ar": "فرد لديه مجموعتان أو أكثر من الخلايا بتركيب كروموسومي مختلف يُظهر:",
+    "options": [
+     [
+      "Isochromosome",
+      "كروموسومًا متساوي الذراعين"
+     ],
+     [
+      "Chromosome mosaics",
+      "موزاييكًا كروموسوميًا"
+     ],
+     [
+      "Haploidy",
+      "أحادية"
+     ],
+     [
+      "Homology",
+      "تماثلًا"
+     ]
+    ],
+    "answer": "b"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Eukaryotic cells divide in two ways: mitosis and meiosis.",
+    "ar": "تنقسم الخلايا حقيقية النواة بطريقتين: الخيطي والاختزالي.",
+    "answer": "T"
+   },
+   {
+    "en": "Gametes are somatic cells.",
+    "ar": "الأمشاج خلايا جسمية.",
+    "answer": "F"
+   },
+   {
+    "en": "A haploid cell has one chromosome of each type.",
+    "ar": "الخلية الأحادية فيها كروموسوم واحد من كل نوع.",
+    "answer": "T"
+   },
+   {
+    "en": "Duplicated chromosomes are connected by a centromere.",
+    "ar": "ترتبط الكروموسومات المضاعَفة بالسنترومير.",
+    "answer": "T"
+   },
+   {
+    "en": "After S phase each chromosome consists of two sister chromatids.",
+    "ar": "بعد طور S يتكوّن كل كروموسوم من كروماتيدين شقيقين.",
+    "answer": "T"
+   },
+   {
+    "en": "Interphase includes the M phase.",
+    "ar": "يشمل الطور البيني طور M.",
+    "answer": "F"
+   },
+   {
+    "en": "Mitosis is used by single-celled organisms to reproduce.",
+    "ar": "تستعمل الكائنات وحيدة الخلية الانقسام الخيطي للتكاثر.",
+    "answer": "T"
+   },
+   {
+    "en": "Mitosis is a series of separate, non-continuous steps.",
+    "ar": "الانقسام الخيطي خطوات منفصلة غير مستمرة.",
+    "answer": "F"
+   },
+   {
+    "en": "The mitotic spindle begins to form in prophase.",
+    "ar": "يبدأ مغزل الانقسام بالتكوّن في التمهيدي.",
+    "answer": "T"
+   },
+   {
+    "en": "Anaphase is the longest stage of mitosis.",
+    "ar": "الانفصالي أطول مراحل الانقسام الخيطي.",
+    "answer": "F"
+   },
+   {
+    "en": "In telophase the spindle fibers disappear.",
+    "ar": "في النهائي تختفي خيوط المغزل.",
+    "answer": "T"
+   },
+   {
+    "en": "In animals cytokinesis is by a cell plate.",
+    "ar": "في الحيوان يتم انقسام السايتوبلازم بصفيحة خلوية.",
+    "answer": "F"
+   },
+   {
+    "en": "Chromosome mosaics can affect blood, egg and sperm, and skin cells.",
+    "ar": "قد يصيب الموزاييك الكروموسومي خلايا الدم والبيوض والنطف والجلد.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Chromatid vs chromosome",
+    "ar": "الكروماتيد مقابل الكروموسوم",
+    "answer_en": "A chromatid is one of the two duplicated copies joined at the centromere; after they separate in anaphase each one is called a daughter chromosome.",
+    "answer_ar": "الكروماتيد نسخة من النسختين المضاعفتين المتّصلتين عند السنترومير؛ وبعد انفصالهما في الانفصالي تُسمّى كل واحدة كروموسومًا بنويًا."
+   },
+   {
+    "en": "Centromere vs kinetochore",
+    "ar": "السنترومير مقابل الكاينيتوكور",
+    "answer_en": "The centromere is the region joining sister chromatids; the kinetochore is where spindle fibres attach at the centre of each chromosome (prometaphase).",
+    "answer_ar": "السنترومير منطقة ربط الكروماتيدين الشقيقين؛ والكاينيتوكور مكان ارتباط خيوط المغزل بمركز كل كروموسوم (ما قبل الاستوائي)."
+   },
+   {
+    "en": "Longest vs shortest stage",
+    "ar": "أطول وأقصر مرحلة",
+    "answer_en": "Prophase is the longest (over half of mitosis); anaphase is the shortest.",
+    "answer_ar": "التمهيدي الأطول (أكثر من نصف الانقسام)؛ والانفصالي الأقصر."
+   },
+   {
+    "en": "Where does the nuclear envelope break?",
+    "ar": "متى يتفتّت الغلاف النووي؟",
+    "answer_en": "In this lecture the nuclear envelope fragments in prometaphase (the figure shows its breakdown starting in prophase); it reforms in telophase.",
+    "answer_ar": "في هذه المحاضرة يتفتّت الغلاف النووي في ما قبل الاستوائي (والشكل يُظهر بدء تحطّمه في التمهيدي)؛ ويعود في النهائي."
+   },
+   {
+    "en": "Interphase is not a phase of mitosis",
+    "ar": "الطور البيني ليس من مراحل الخيطي",
+    "answer_en": "Interphase = G1 + S + G2, between divisions; the five mitotic stages are prophase, prometaphase, metaphase, anaphase, telophase.",
+    "answer_ar": "الطور البيني = G1 + S + G2 بين الانقسامات؛ ومراحل الخيطي الخمس: التمهيدي، ما قبل الاستوائي، الاستوائي، الانفصالي، النهائي."
+   },
+   {
+    "en": "Cytokinesis in plants vs animals",
+    "ar": "انقسام السايتوبلازم في النبات مقابل الحيوان",
+    "answer_en": "Plants: cell plate along the metaphase plate line; animals: constriction of the cytoplasm.",
+    "answer_ar": "النبات: صفيحة خلوية على خط الصفيحة الاستوائية؛ الحيوان: تخصّر السايتوبلازم."
+   },
+   {
+    "en": "i p and i q",
+    "ar": "i p وi q",
+    "answer_en": "Isochromosome i p = two short arms (q lost); i q = two long arms (p lost); each is a deletion of one arm plus duplication of the other.",
+    "answer_ar": "i p = ذراعان قصيرتان (فُقدت q)؛ i q = ذراعان طويلتان (فُقدت p)؛ وكل منهما حذف ذراع مع تضاعف الأخرى."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define: gene, genome, somatic cell, gamete, diploid, haploid, homologous chromosome, chromatid, centromere.",
+    "ar": "عرّف: الجين، الجينوم، الخلية الجسمية، المشيج، الثنائي، الأحادي، الكروموسوم المتماثل، الكروماتيد، السنترومير.",
+    "answer_en": "Gene: basic unit of heredity coding for a trait. Genome: total hereditary DNA of a cell or organism. Somatic cell: all body cells except reproductive cells. Gamete: reproductive cell (sperm, egg). Diploid (2n): each chromosome type represented by two homologues. Haploid (n): by only one. Homologous chromosomes: same size and shape, same type of genes. Chromatid: one of two duplicated chromosomes joined at the centromere. Centromere: region where microtubules attach during mitosis and meiosis.",
+    "answer_ar": "الجين: الوحدة الأساسية للوراثة يشفّر لصفة. الجينوم: مجموع DNA الوراثي للخلية أو الكائن. الخلية الجسمية: كل خلايا الجسم عدا التكاثرية. المشيج: خلية تكاثرية (نطفة، بيضة). الثنائي (2n): كل نوع ممثَّل بمتماثلين. الأحادي (n): بواحد فقط. المتماثلة: بالحجم والشكل نفسيهما وتحمل النوع نفسه من الجينات. الكروماتيد: أحد كروموسومين مضاعفين متّصلين بالسنترومير. السنترومير: منطقة ارتباط الأنيبيبات الدقيقة أثناء الانقسامين."
+   },
+   {
+    "en": "Describe the phases of the cell cycle.",
+    "ar": "صف أطوار دورة الخلية.",
+    "answer_en": "G1: metabolic changes prepare the cell for division. S: DNA synthesis replicates the genetic material, so each chromosome has two sister chromatids. G2: metabolic changes assemble the cytoplasmic materials for mitosis and cytokinesis. M: nuclear division (mitosis) followed by cell division (cytokinesis). G1, S and G2 together = interphase.",
+    "answer_ar": "G1: تغيّرات أيضية تهيّئ الخلية للانقسام. S: تصنيع DNA يضاعف المادة الوراثية فيصبح لكل كروموسوم كروماتيدان شقيقان. G2: تغيّرات أيضية تجمع المواد السايتوبلازمية للانقسام. M: انقسام نووي (خيطي) يتبعه انقسام خلوي (السايتوبلازم). وG1 وS وG2 معًا = الطور البيني."
+   },
+   {
+    "en": "Describe the phases of mitosis.",
+    "ar": "صف مراحل الانقسام الخيطي.",
+    "answer_en": "Prophase (over half of mitosis): chromosomes condense and thicken, each appears as two sister chromatids, spindle begins to form. Prometaphase: nuclear envelope fragments, spindle fibres attach at the kinetochore, condensation continues. Metaphase: chromosomes align on the metaphase plate. Anaphase (shortest): centromeres divide, sister chromatids move to opposite poles as daughter chromosomes. Telophase: nuclear membrane reforms, chromosomes uncoil, spindle disappears.",
+    "answer_ar": "التمهيدي (أكثر من النصف): تتكثّف الكروموسومات وتثخن ويظهر كل منها كروماتيدين، ويبدأ المغزل. ما قبل الاستوائي: يتفتّت الغلاف النووي وترتبط الخيوط بالكاينيتوكور ويستمر التكثّف. الاستوائي: الاصطفاف على الصفيحة الاستوائية. الانفصالي (الأقصر): تنقسم السنتروميرات وتتحرّك الكروماتيدات إلى القطبين كروموسومات بنوية. النهائي: يعود الغشاء النووي وتنفكّ الكروموسومات ويختفي المغزل."
+   },
+   {
+    "en": "Compare cytokinesis in plant and animal cells.",
+    "ar": "قارن انقسام السايتوبلازم في الخلايا النباتية والحيوانية.",
+    "answer_en": "Cytokinesis is the final cellular division forming two new cells. In plants a cell plate forms along the line of the metaphase plate; in animals there is a constriction of the cytoplasm.",
+    "answer_ar": "انقسام السايتوبلازم هو الانقسام الخلوي الأخير الذي يكوّن خليتين جديدتين. في النبات تتكوّن صفيحة خلوية على خط الصفيحة الاستوائية؛ وفي الحيوان يحدث تخصّر في السايتوبلازم."
+   },
+   {
+    "en": "In which circumstances does mitosis occur?",
+    "ar": "في أي الحالات يحدث الانقسام الخيطي؟",
+    "answer_en": "1. Development and growth: cell number increases. 2. Cell replacement: e.g. skin and digestive tract. 3. Regeneration: e.g. starfish regrow lost arms. 4. Asexual reproduction: e.g. vegetative propagation in plants.",
+    "answer_ar": "1. التطوّر والنمو: يزداد عدد الخلايا. 2. استبدال الخلايا: مثل الجلد والقناة الهضمية. 3. التجدّد: مثل نجم البحر يجدّد أذرعه. 4. التكاثر اللاجنسي: مثل التكاثر الخضري في النبات."
+   },
+   {
+    "en": "Explain transversal cleavage of the centromere and its results.",
+    "ar": "اشرح الانشطار المستعرض للسنترومير ونتائجه.",
+    "answer_en": "It is an anaphase accident that disturbs distribution of genetic material. It forms isochromosomes made of only the two short arms (i p) or the two long arms (i q), so each has a deletion of one arm and a duplication of the other. It leads to chromosome mosaics: two or more cell populations with different chromosomal makeup, which can affect blood cells, egg and sperm cells, and skin cells.",
+    "answer_ar": "هو حادث في الطور الانفصالي يخلّ بتوزيع المادة الوراثية. يكوّن كروموسومات متساوية الذراعين من الذراعين القصيرين فقط (i p) أو الطويلين (i q)، فيكون في كل منها حذف ذراع وتضاعف الأخرى. ويؤدّي إلى الموزاييك الكروموسومي: مجموعتان أو أكثر من الخلايا بتركيب كروموسومي مختلف، وقد يصيب خلايا الدم والبيوض والنطف والجلد."
+   }
+  ]
+ }
+}

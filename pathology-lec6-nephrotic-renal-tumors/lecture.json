@@ -1,0 +1,1878 @@
+{
+ "meta": {
+  "subject_en": "Pathology",
+  "subject_ar": "علم الأمراض",
+  "short_ar": "أمراض",
+  "unit_en": "Lecture 6",
+  "unit_ar": "المحاضرة 6",
+  "unit_label": "LEC",
+  "unit_no": "6",
+  "title_en": "Nephrotic Syndrome + Renal Tumors",
+  "title_ar": "المتلازمة الكلائية وأورام الكلية",
+  "kind": "Theory — نظري",
+  "stage": "The fourth stage — الرابعة",
+  "instructor": "د. حامد خليل التميمي"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "NEPHROTIC SYNDROME",
+   "ar": "المتلازمة الكلائية"
+  },
+  {
+   "t": "card",
+   "en": "Nephrotic syndrome includes a group of conditions characterized by increased basement membrane permeability, permitting the urinary loss of plasma proteins, particularly low weight proteins, such as albumin and edema may be present but usually are mild.",
+   "ar": "تشمل المتلازمة الكلائية مجموعة حالات تتميّز **بزيادة نفاذية الغشاء القاعدي**، مما يسمح **بفقدان بروتينات البلازما في البول**، خاصةً **البروتينات منخفضة الوزن مثل الألبومين**، وقد توجد **وذمة** لكنها عادةً **خفيفة**."
+  },
+  {
+   "t": "figure",
+   "src": "assets/nephrotic-diagram.jpg",
+   "en": "Normal vs Nephrotic syndrome — Kidney, Ureter, Bladder, Glomerulus (filter), Blood & waste, Filtered blood, Low levels of protein, Protein leaks into urine",
+   "ar": "الطبيعي مقابل المتلازمة الكلائية — الكلية، الحالب، المثانة، الكبيبة (المرشّح)، دم وفضلات، دم مُرشَّح، مستوى بروتين منخفض، تسرّب البروتين إلى البول",
+   "h": "96mm",
+   "fit": "contain"
+  },
+  {
+   "t": "h2",
+   "en": "CAUSES OF NEPHROTIC SYNDROME",
+   "ar": "أسباب المتلازمة الكلائية"
+  },
+  {
+   "t": "card",
+   "en": [
+    "The nephrotic syndrome has diverse causes that share a common pathophysiology.",
+    "In all there is a derangement in the capillary walls of the glomeruli that results in increased permeability to plasma proteins."
+   ],
+   "ar": [
+    "للمتلازمة الكلائية **أسباب متنوّعة** تشترك في **فسلجة مرضية واحدة**.",
+    "ففيها كلها **خلل في جدران شعيرات الكبيبات** ينتج عنه **زيادة النفاذية لبروتينات البلازما**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Any increased permeability resulting from either structural or physicochemical alterations in the GBM allows protein to escape from the plasma into the glomerular filtrate.",
+    "With long-standing or extremely heavy proteinuria, serum albumin is decreased, resulting in hypoalbuminemia and a drop in plasma colloid osmotic pressure."
+   ],
+   "ar": [
+    "وأي زيادة في النفاذية ناتجة عن **تغيّرات تركيبية أو فيزيوكيميائية في الغشاء القاعدي الكبيبي (GBM)** تسمح للبروتين بالتسرّب من البلازما إلى **الراشح الكبيبي**.",
+    "ومع البيلة البروتينية **الطويلة الأمد أو الشديدة جدًا** ينخفض ألبومين المصل، فيحدث **نقص ألبومين الدم** و**انخفاض الضغط التناضحي الغرواني للبلازما**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/glomerulus-histology.jpg",
+   "en": "Glomerulus (histology, arrows)",
+   "ar": "كبيبة (مقطع نسيجي، الأسهم)",
+   "h": "46mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Cause",
+     "السبب"
+    ],
+    [
+     "Children %",
+     "الأطفال %"
+    ],
+    [
+     "Adults %",
+     "البالغون %"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Membranous nephropathy**",
+      "**اعتلال الكلية الغشائي**"
+     ],
+     "5",
+     "30"
+    ],
+    [
+     [
+      "**Minimal-change disease**",
+      "**داء التغيّر الأدنى**"
+     ],
+     "65",
+     "10"
+    ],
+    [
+     [
+      "**Focal segmental glomerulosclerosis**",
+      "**التصلّب الكبيبي البؤري القطعي**"
+     ],
+     "10",
+     "35"
+    ],
+    [
+     [
+      "**Membranoproliferative glomerulonephritis**",
+      "**التهاب الكبيبات الغشائي التكاثري**"
+     ],
+     "10",
+     "10"
+    ],
+    [
+     [
+      "**IgA nephropathy and others**",
+      "**اعتلال IgA وغيره**"
+     ],
+     "10",
+     "15"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    60,
+    20,
+    20
+   ],
+   "style": "summary",
+   "label_en": "Table 13–2 Causes of Nephrotic Syndrome — Primary Glomerular Disease (prevalence %)",
+   "label_ar": "جدول 13–2 أسباب المتلازمة الكلائية — مرض كبيبي أولي (النسبة %)"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Systemic Diseases with Renal Manifestations",
+     "أمراض جهازية بمظاهر كلوية"
+    ],
+    [
+     "Systemic Diseases with Renal Manifestations",
+     "أمراض جهازية بمظاهر كلوية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Diabetes mellitus",
+      "داء السكري"
+     ],
+     [
+      "Amyloidosis",
+      "الداء النشواني"
+     ]
+    ],
+    [
+     [
+      "Systemic lupus erythematosus",
+      "الذئبة الحمامية الجهازية"
+     ],
+     [
+      "Ingestion of drugs (gold, penicillamine, “street heroin”)",
+      "تناول أدوية (الذهب، البنسيلامين، “هيروين الشارع”)"
+     ]
+    ],
+    [
+     [
+      "Infections (malaria, syphilis, hepatitis B, HIV infection)",
+      "العدوى (الملاريا، الزهري، التهاب الكبد B، عدوى HIV)"
+     ],
+     [
+      "Malignancy (carcinoma, melanoma)",
+      "الخباثة (الكارسينوما، الورم الميلانيني)"
+     ]
+    ],
+    [
+     [
+      "Miscellaneous (bee sting allergy, hereditary nephritis)",
+      "متفرّقة (حساسية لسعة النحل، التهاب الكلية الوراثي)"
+     ],
+     [
+      "",
+      ""
+     ]
+    ]
+   ],
+   "widths": [
+    50,
+    50
+   ],
+   "style": "summary",
+   "label_en": "Table 13–2 (cont.) — Systemic Diseases with Renal Manifestations",
+   "label_ar": "جدول 13–2 (تكملة) — أمراض جهازية بمظاهر كلوية"
+  },
+  {
+   "t": "card",
+   "en": [
+    "*Approximate prevalence of primary disease is 95% of the cases in children, 60% in adults.",
+    "Approximate prevalence of systemic disease is 5% of the cases in children, 40% in adults.",
+    "HIV, human immunodeficiency virus."
+   ],
+   "ar": [
+    "*النسبة التقريبية للمرض الأولي **95%** من الحالات في الأطفال، و**60%** في البالغين.",
+    "والنسبة التقريبية للمرض الجهازي **5%** في الأطفال، و**40%** في البالغين.",
+    "HIV: فيروس العوز المناعي البشري."
+   ]
+  },
+  {
+   "t": "note",
+   "en": "These percentages (from the table on the slide) differ from lecture 5 (membranous 40% in adults); here FSGS is 35% and membranous 30%.",
+   "ar": "هذه النسب (من جدول الشريحة) تختلف عن المحاضرة 5 (الغشائي 40% في البالغين)؛ فهنا FSGS 35% والغشائي 30%.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "CLINICAL MANIFESTATIONS",
+   "ar": "المظاهر السريرية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    [
+     "**Massive proteinuria** is generally characterized by excretion of more than 4 grams of protein per day.",
+     "proteinuria in the nephrotic syndrome is unaccompanied by increased urinary red cells or white cells."
+    ],
+    "**Hypoalbuminemia** results from proteinuria and is oftenmarked by a serum concentration of less than 3 g/100 mL."
+   ],
+   "list_ar": [
+    [
+     "**البيلة البروتينية الهائلة** تتميّز عمومًا **بإخراج أكثر من 4 غرامات بروتين يوميًا**.",
+     "والبيلة البروتينية في المتلازمة الكلائية **لا يرافقها زيادة الكريات الحمر أو البيض في البول**."
+    ],
+    "**نقص ألبومين الدم** ينتج عن البيلة البروتينية، ويتميّز غالبًا **بتركيز مصلي أقل من 3 غ/100 مل**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Generalized edema** results from decreased plasma colloidoncotic pressure.",
+    "**Hyperlipidemia and hypercholesterolemia** are caused by increased hepatic lipoprotein synthesis"
+   ],
+   "list_ar": [
+    "**الوذمة المعمّمة** تنتج عن **انخفاض الضغط الغرواني الجاذب للبلازما**.",
+    "**فرط شحوم الدم وفرط كوليسترول الدم** سببهما **زيادة تخليق البروتينات الدهنية في الكبد**"
+   ],
+   "start": 3
+  },
+  {
+   "t": "note",
+   "en": [
+    "Nephrotic = ↑ **GBM permeability** → loss of plasma proteins (mainly **albumin**); edema usually mild.",
+    "**> 4 g protein/day**, no RBCs/WBCs in urine; albumin **< 3 g/100 mL**; edema from ↓ oncotic pressure; ↑ lipids from liver.",
+    "Children: **minimal change 65%**, primary 95%; adults: **FSGS 35%, membranous 30%**, systemic 40%."
+   ],
+   "ar": [
+    "الكلائية = ↑ **نفاذية الغشاء القاعدي** ← فقد بروتينات البلازما (خاصةً **الألبومين**)؛ الوذمة عادةً خفيفة.",
+    "**> 4 غ بروتين/يوم** بلا كريات في البول؛ ألبومين **< 3 غ/100 مل**؛ وذمة من ↓ الضغط الغرواني؛ ↑ الشحوم من الكبد.",
+    "الأطفال: **التغيّر الأدنى 65%**، الأولي 95%؛ البالغون: **FSGS 35%، الغشائي 30%**، الجهازي 40%."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "IGA NEPHROPATHY (BERGER DISEASE)",
+   "ar": "اعتلال الكلية بـ IgA (داء بيرجر)"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**IgA nephropathy (Berger disease) :-** is an extremely common entity defined by deposition of IgA in the mesangium.",
+    "IgA nephropathy is one of the most common causes of recurrent microscopic or gross hematuria and is the most common glomerular disease revealed by renal biopsy worldwide."
+   ],
+   "ar": [
+    "**اعتلال الكلية بـ IgA (داء بيرجر):** كيان **شائع جدًا** يُعرَّف **بترسّب IgA في المسراق**.",
+    "وهو من **أشيع أسباب البيلة الدموية المتكرّرة المجهرية أو العيانية**، و**أشيع مرض كبيبي تكشفه خزعة الكلية في العالم**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "This condition usually affects children and young adults and begins as an episode of gross hematuria that occurs within 1 or 2 days of a nonspecific upper respiratory tract infection.",
+   "ar": "تصيب هذه الحالة عادةً **الأطفال والشباب**، وتبدأ **بنوبة بيلة دموية عيانية** تحدث **خلال يوم أو يومين** من **عدوى غير نوعية في الجهاز التنفسي العلوي**."
+  },
+  {
+   "t": "card",
+   "en": [
+    "Some workers have considered IgA nephropathy to be a localized variant of Henoch-Schönlein purpura, also characterized by IgA deposition in the mesangium .",
+    "In contrast with IgA nephropathy, which is purely a renal disorder, Henoch-Schönlein purpura is a systemic syndrome involving the skin (purpuric rash), gastrointestinal tract (abdominal pain), joints (arthritis), and kidneys."
+   ],
+   "ar": [
+    "عدّ بعض الباحثين اعتلال IgA **نوعًا موضعيًا من فرفرية هينوخ-شونلاين** التي تتميّز أيضًا بترسّب IgA في المسراق.",
+    "وبخلاف اعتلال IgA الذي هو **اضطراب كلوي بحت**، فإن فرفرية هينوخ-شونلاين **متلازمة جهازية** تصيب **الجلد (طفح فرفري)** و**القناة الهضمية (ألم البطن)** و**المفاصل (التهاب المفاصل)** و**الكليتين**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/hsp-rash.jpg",
+   "en": "Purpuric rash (Henoch-Schönlein purpura)",
+   "ar": "طفح فرفري (فرفرية هينوخ-شونلاين)",
+   "h": "54mm",
+   "fit": "contain"
+  },
+  {
+   "t": "h2",
+   "en": "CLINICAL COURSE",
+   "ar": "السير السريري"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The disease most often affects children and young adults.",
+    "More than half of those with IgA nephropathy present with gross haematuria after an infection of the respiratory or, less commonly, gastrointestinal or urinary tract;"
+   ],
+   "list_ar": [
+    "يصيب المرض **غالبًا الأطفال والشباب**.",
+    "**أكثر من نصف** المصابين يأتون **ببيلة دموية عيانية بعد عدوى تنفسية**، أو بشكل أقل عدوى هضمية أو بولية؛"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    [
+     "Many patients maintain normal renal function for decades.",
+     "Slow progression to chronic renal failure occurs in 25% to 50% of cases over a period of 20 years."
+    ],
+    "Renal biopsy findings may help identify those with worse prognosis, as indicated by diffuse mesangial proliferation, segmental sclerosis, endocapillary proliferation, or tubulointerstitial fibrosis."
+   ],
+   "list_ar": [
+    [
+     "كثير من المرضى **يحتفظون بوظيفة كلوية طبيعية لعقود**.",
+     "ويحدث **تطوّر بطيء إلى الفشل الكلوي المزمن** في **25% إلى 50%** من الحالات **خلال 20 سنة**."
+    ],
+    "قد تساعد **خزعة الكلية** في تحديد ذوي **الإنذار الأسوأ**، كما يدل عليه **التكاثر المسراقي المنتشر**، و**التصلّب القطعي**، و**التكاثر داخل الشعيرات**، أو **التليّف الخلالي النبيبي**."
+   ],
+   "start": 3
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Feature",
+     "الصفة"
+    ],
+    [
+     "IgA nephropathy",
+     "اعتلال IgA"
+    ],
+    [
+     "Henoch-Schönlein purpura",
+     "فرفرية هينوخ-شونلاين"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**IgA in mesangium**",
+      "**IgA في المسراق**"
+     ],
+     [
+      "yes",
+      "نعم"
+     ],
+     [
+      "yes",
+      "نعم"
+     ]
+    ],
+    [
+     [
+      "**Extent**",
+      "**الامتداد**"
+     ],
+     [
+      "purely renal",
+      "كلوي بحت"
+     ],
+     [
+      "systemic: skin, GIT, joints, kidneys",
+      "جهازي: جلد، هضم، مفاصل، كلى"
+     ]
+    ],
+    [
+     [
+      "**Presentation**",
+      "**العرض**"
+     ],
+     [
+      "gross haematuria 1–2 days after URTI",
+      "بيلة دموية عيانية بعد 1–2 يوم من عدوى تنفسية علوية"
+     ],
+     [
+      "purpuric rash, abdominal pain, arthritis",
+      "طفح فرفري، ألم بطن، التهاب مفاصل"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    36,
+    40
+   ],
+   "style": "summary",
+   "label_en": "IgA nephropathy vs HSP",
+   "label_ar": "اعتلال IgA مقابل HSP"
+  },
+  {
+   "t": "note",
+   "en": [
+    "IgA nephropathy = **IgA in mesangium**; commonest GN on **renal biopsy** worldwide; recurrent haematuria.",
+    "Children/young adults; **gross haematuria 1–2 days after URTI**; HSP = its systemic counterpart.",
+    "Course: normal function for decades; **25–50% → CRF over 20 years**; worse prognosis on biopsy: diffuse mesangial proliferation, sclerosis, endocapillary proliferation, fibrosis."
+   ],
+   "ar": [
+    "اعتلال IgA = **IgA في المسراق**؛ أشيع التهاب كبيبات **بخزعة الكلية** عالميًا؛ بيلة دموية متكرّرة.",
+    "الأطفال/الشباب؛ **بيلة دموية عيانية بعد 1–2 يوم من عدوى تنفسية علوية**؛ وHSP نظيره الجهازي.",
+    "السير: وظيفة طبيعية لعقود؛ **25–50% ← فشل مزمن خلال 20 سنة**؛ الإنذار الأسوأ بالخزعة: تكاثر مسراقي منتشر، تصلّب، تكاثر داخل الشعيرات، تليّف."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "TUMORS OF THE KIDNEY",
+   "ar": "أورام الكلية"
+  },
+  {
+   "t": "figure",
+   "src": "assets/kidney-cancer.jpg",
+   "en": "Kidney Cancer — healthy kidneys vs kidneys with tumors",
+   "ar": "سرطان الكلية — كلى سليمة مقابل كلى بأورام",
+   "h": "38mm",
+   "fit": "contain"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Both benign and malignant tumors occur in the kidney.",
+    "These may arise from renal tubules (adenoma, adenocarcinoma), embryonic tissue (mesoblastic nephroma, Wilms’ tumor), mesenchymal tissue (angiomyolipoma, medullary interstitial tumor) and from the epithelium of the renal pelvis (urothelial carcinoma)."
+   ],
+   "ar": [
+    "تحدث في الكلية **أورام حميدة وخبيثة**.",
+    "وقد تنشأ من **النبيبات الكلوية** (الورم الغدّي، الكارسينوما الغدّية)، أو **النسيج الجنيني** (الورم الكلوي الأرومي المتوسط، ورم ويلمز)، أو **النسيج المتوسطي** (الورم الوعائي العضلي الشحمي، الورم الخلالي اللبّي)، أو من **ظهارة الحوض الكلوي** (الكارسينوما الظهارية البولية)."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Origin",
+     "المنشأ"
+    ],
+    [
+     "Tumors",
+     "الأورام"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Renal tubules**",
+      "**النبيبات الكلوية**"
+     ],
+     [
+      "adenoma, adenocarcinoma",
+      "الورم الغدّي، الكارسينوما الغدّية"
+     ]
+    ],
+    [
+     [
+      "**Embryonic tissue**",
+      "**النسيج الجنيني**"
+     ],
+     [
+      "mesoblastic nephroma, Wilms’ tumor",
+      "الورم الكلوي الأرومي المتوسط، ورم ويلمز"
+     ]
+    ],
+    [
+     [
+      "**Mesenchymal tissue**",
+      "**النسيج المتوسطي**"
+     ],
+     [
+      "angiomyolipoma, medullary interstitial tumor",
+      "الورم الوعائي العضلي الشحمي، الورم الخلالي اللبّي"
+     ]
+    ],
+    [
+     [
+      "**Renal pelvis epithelium**",
+      "**ظهارة الحوض الكلوي**"
+     ],
+     [
+      "urothelial carcinoma",
+      "الكارسينوما الظهارية البولية"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    34,
+    66
+   ],
+   "style": "summary",
+   "label_en": "Origin of kidney tumors",
+   "label_ar": "منشأ أورام الكلية"
+  },
+  {
+   "t": "h2",
+   "en": "A. BENIGN TUMORS OF THE KIDNEY",
+   "ar": "أ. أورام الكلية الحميدة"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**1. Adenoma** This tumor is most often small and asymptomatic.",
+    "It is derived from renal tubules."
+   ],
+   "ar": [
+    "**1. الورم الغدّي** غالبًا **صغير ولا عرضي**.",
+    "وهو **مشتق من النبيبات الكلوية**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/adenoma.jpg",
+   "en": "Adenoma (histology)",
+   "ar": "الورم الغدّي (مقطع نسيجي)",
+   "h": "44mm",
+   "fit": "contain"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**2. Angiomyolipoma** This tumor is a hamartoma consisting of fat, smooth muscle, and blood vessels.",
+    "It is often associated with the tuberous sclerosis syndrome."
+   ],
+   "ar": [
+    "**2. الورم الوعائي العضلي الشحمي** ورم **عابي** يتكوّن من **الدهن والعضل الأملس والأوعية الدموية**.",
+    "ويرتبط غالبًا **بمتلازمة التصلّب الحدبي**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/angiomyolipoma.jpg",
+   "en": "Angiomyolipoma (B) — Vessels, Fat, Spindle cells, Thick hyalinized vessels with eccentric lumen",
+   "ar": "الورم الوعائي العضلي الشحمي (B) — أوعية، دهن، خلايا مغزلية، أوعية سميكة متزجّجة ذات تجويف لا مركزي",
+   "h": "54mm",
+   "fit": "contain"
+  },
+  {
+   "t": "card",
+   "en": "**3. ONCOCYTOMA** This tumor is comprised of cells with abundant granular acidophilic cytoplasm replete with mitochondria, as is the case in oncocytomas elsewhere in the body.",
+   "ar": "**3. الورم الخلوي الحمضي (Oncocytoma)** يتكوّن من خلايا ذات **سايتوبلازم حبيبي حمضي وفير مملوء بالمتقدّرات (المايتوكوندريا)**، كما في الأورام الخلوية الحمضية في أماكن أخرى من الجسم."
+  },
+  {
+   "t": "figure",
+   "src": "assets/oncocytoma.jpg",
+   "en": "Oncocytoma (histology)",
+   "ar": "الورم الخلوي الحمضي (مقطع نسيجي)",
+   "h": "50mm",
+   "fit": "contain"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Kidney tumors arise from **tubules, embryonic tissue, mesenchyme, renal pelvis epithelium**.",
+    "Benign: **adenoma** (small, tubules), **angiomyolipoma** (hamartoma: fat + smooth muscle + vessels; **tuberous sclerosis**), **oncocytoma** (granular acidophilic cytoplasm full of **mitochondria**)."
+   ],
+   "ar": [
+    "تنشأ أورام الكلية من **النبيبات، النسيج الجنيني، المتوسطي، ظهارة الحوض**.",
+    "الحميدة: **الورم الغدّي** (صغير، نبيبات)، **الوعائي العضلي الشحمي** (عابي: دهن + عضل أملس + أوعية؛ **التصلّب الحدبي**)، **الخلوي الحمضي** (سايتوبلازم حبيبي حمضي مملوء **بالمايتوكوندريا**)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "B. MALIGNANT TUMORS OF THE KIDNEY",
+   "ar": "ب. أورام الكلية الخبيثة"
+  },
+  {
+   "t": "card",
+   "en": "**1. Renal cell carcinoma (RCC)**",
+   "ar": "**1. كارسينوما الخلايا الكلوية (RCC)**",
+   "list_en": [
+    "This cancer is the most common renal malignancy.",
+    "It is more common in men, occurs most often from 50 to 70years of age, and has a higher incidence in cigarette smokers.",
+    [
+     "In some instances, it is associated with gene deletions in chromosome 3; renal cell carcinoma can also be associated with von Hippel-Lindau disease, which is caused by alterations in a gene localized to chromosome 3."
+    ]
+   ],
+   "list_ar": [
+    "هذا السرطان هو **أشيع خباثة كلوية**.",
+    "وهو **أشيع في الرجال**، ويحدث غالبًا **بين 50 و70 سنة**، وإصابته **أعلى في مدخّني السجائر**.",
+    [
+     "وفي بعض الحالات يرتبط **بحذف جينات في الكروموسوم 3**؛ ويمكن أن ترتبط كارسينوما الخلايا الكلوية أيضًا **بداء فون هيبل-لينداو** الذي ينتج عن تغيّرات في جين يقع على **الكروموسوم 3**."
+    ]
+   ],
+   "alpha": true
+  },
+  {
+   "t": "card",
+   "en": "**ETIOLOGY FACTORS.** Various etiologic factors implicated in the etiology of RCC are as follows:",
+   "ar": "**العوامل المسبّبة.** العوامل المسبّبة المتّهمة في نشوء RCC هي:",
+   "list_en": [
+    "Tobacco.",
+    "Genetic factors.",
+    "Cystic diseases of the kidneys."
+   ],
+   "list_ar": [
+    "**التبغ**.",
+    "**العوامل الوراثية**.",
+    "**الأمراض الكيسية** للكليتين."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**4. Other risk factors.** Besides above, following other factors are associated with higher incidence of RCC:",
+   "ar": "**4. عوامل خطورة أخرى.** إضافةً لما سبق، ترتبط العوامل الآتية بزيادة الإصابة بـ RCC:",
+   "list_en": [
+    "Exposure to asbestos, heavy metals and petrochemical products.",
+    "In women, obesity and oestrogen therapy."
+   ],
+   "list_ar": [
+    "التعرّض **للأسبستوس والمعادن الثقيلة والمنتجات البتروكيميائية**.",
+    "في النساء، **السمنة والعلاج بالإستروجين**."
+   ],
+   "alpha": true
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Analgesic nephropathy.",
+    "Tuberous sclerosis."
+   ],
+   "list_ar": [
+    "**اعتلال الكلية بالمسكّنات**.",
+    "**التصلّب الحدبي**."
+   ],
+   "alpha": true,
+   "start": 3
+  },
+  {
+   "t": "h2",
+   "en": "2. WILMS TUMOR (NEPHROBLASTOMA)",
+   "ar": "2. ورم ويلمز (الورم الأرومي الكلوي)"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "This cancer is the most common renal malignancy of early childhood.",
+    "Incidence peaks in children 2 to 4 years of age."
+   ],
+   "list_ar": [
+    "هذا السرطان هو **أشيع خباثة كلوية في الطفولة المبكرة**.",
+    "تبلغ الإصابة **ذروتها في الأطفال بعمر 2 إلى 4 سنوات**."
+   ],
+   "alpha": true
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Wilms tumor originates from primitive metanephric tissue.",
+    "Most often, the presenting feature is a palpable flank mass (often huge)."
+   ],
+   "list_ar": [
+    "ينشأ ورم ويلمز من **النسيج الكلوي التالي البدائي (metanephric)**.",
+    "غالبًا تكون العلامة الأولى **كتلة خاصرة محسوسة** (غالبًا **ضخمة**)."
+   ],
+   "alpha": true,
+   "start": 3
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Wilms tumor is often associated with deletions of the short arm of chromosome11."
+   ],
+   "list_ar": [
+    "ويرتبط ورم ويلمز غالبًا **بحذف الذراع القصير للكروموسوم 11**."
+   ],
+   "alpha": true,
+   "start": 5
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/wilms-baby.jpg",
+     "en": "Right kidney with Wilms’ tumor",
+     "ar": "الكلية اليمنى مع ورم ويلمز",
+     "h": "48mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/karyotype-del11p.jpg",
+     "en": "Karyotype: normal 11 and del(11)(p11.2p13)",
+     "ar": "النمط النووي: الكروموسوم 11 الطبيعي وحذف del(11)(p11.2p13)",
+     "h": "48mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Feature",
+     "الصفة"
+    ],
+    [
+     "Renal cell carcinoma",
+     "كارسينوما الخلايا الكلوية"
+    ],
+    [
+     "Wilms tumor",
+     "ورم ويلمز"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Who**",
+      "**من**"
+     ],
+     [
+      "men, 50–70 years; smokers",
+      "الرجال، 50–70 سنة؛ المدخّنون"
+     ],
+     [
+      "children 2–4 years",
+      "الأطفال 2–4 سنوات"
+     ]
+    ],
+    [
+     [
+      "**Rank**",
+      "**المرتبة**"
+     ],
+     [
+      "most common renal malignancy",
+      "أشيع خباثة كلوية"
+     ],
+     [
+      "most common renal malignancy of early childhood",
+      "أشيع خباثة كلوية في الطفولة المبكرة"
+     ]
+    ],
+    [
+     [
+      "**Chromosome**",
+      "**الكروموسوم**"
+     ],
+     [
+      "3 (deletions; von Hippel-Lindau)",
+      "3 (حذف؛ فون هيبل-لينداو)"
+     ],
+     [
+      "11 short arm deletion",
+      "حذف الذراع القصير لـ 11"
+     ]
+    ],
+    [
+     [
+      "**Origin / sign**",
+      "**المنشأ / العلامة**"
+     ],
+     [
+      "—",
+      "—"
+     ],
+     [
+      "primitive metanephric tissue; huge flank mass",
+      "نسيج تالي بدائي؛ كتلة خاصرة ضخمة"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    38,
+    40
+   ],
+   "style": "summary",
+   "label_en": "RCC vs Wilms tumor",
+   "label_ar": "RCC مقابل ورم ويلمز"
+  },
+  {
+   "t": "note",
+   "en": [
+    "**RCC**: most common renal malignancy; men **50–70**, smokers; **chromosome 3**, **von Hippel-Lindau**.",
+    "RCC risk: tobacco, genetics, cystic disease, asbestos / heavy metals / petrochemicals, obesity + oestrogen (women), analgesic nephropathy, tuberous sclerosis.",
+    "**Wilms**: early childhood (**2–4 y**), metanephric tissue, **huge flank mass**, **11p deletion**."
+   ],
+   "ar": [
+    "**RCC**: أشيع خباثة كلوية؛ رجال **50–70**، مدخّنون؛ **الكروموسوم 3**، **فون هيبل-لينداو**.",
+    "خطورة RCC: التبغ، الوراثة، الأمراض الكيسية، الأسبستوس / المعادن الثقيلة / البتروكيميائيات، السمنة + الإستروجين (النساء)، اعتلال المسكّنات، التصلّب الحدبي.",
+    "**ويلمز**: الطفولة المبكرة (**2–4 سنوات**)، نسيج تالي، **كتلة خاصرة ضخمة**، **حذف 11p**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Nephrotic syndrome**",
+     "المتلازمة الكلائية / المتلازمة النفروزية"
+    ],
+    [
+     "**Permeability**",
+     "النفاذية"
+    ],
+    [
+     "**Glomerular filtrate**",
+     "الراشح الكبيبي"
+    ],
+    [
+     "**Colloid osmotic (oncotic) pressure**",
+     "الضغط التناضحي الغرواني / الضغط الجاذب"
+    ],
+    [
+     "**Hypoalbuminemia**",
+     "نقص ألبومين الدم"
+    ],
+    [
+     "**Hypercholesterolemia**",
+     "فرط كوليسترول الدم"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Minimal-change disease**",
+     "داء التغيّر الأدنى"
+    ],
+    [
+     "**Mesangium**",
+     "المسراق"
+    ],
+    [
+     "**IgA nephropathy (Berger)**",
+     "اعتلال الكلية بـ IgA / داء بيرجر"
+    ],
+    [
+     "**Henoch-Schönlein purpura**",
+     "فرفرية هينوخ-شونلاين / التهاب الأوعية بـ IgA"
+    ],
+    [
+     "**Gross haematuria**",
+     "بيلة دموية عيانية"
+    ],
+    [
+     "**Prognosis**",
+     "الإنذار / مآل المرض"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Adenoma**",
+     "الورم الغدّي"
+    ],
+    [
+     "**Angiomyolipoma**",
+     "الورم الوعائي العضلي الشحمي"
+    ],
+    [
+     "**Tuberous sclerosis**",
+     "التصلّب الحدبي / التصلّب الدرني"
+    ],
+    [
+     "**Oncocytoma**",
+     "الورم الخلوي الحمضي / الورم الأونكوسيتي"
+    ],
+    [
+     "**Renal cell carcinoma (RCC)**",
+     "كارسينوما الخلايا الكلوية"
+    ],
+    [
+     "**von Hippel-Lindau disease**",
+     "داء فون هيبل-لينداو"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Wilms tumor (nephroblastoma)**",
+     "ورم ويلمز / الورم الأرومي الكلوي"
+    ],
+    [
+     "**Metanephric tissue**",
+     "النسيج الكلوي التالي / ما بعد الكلوي"
+    ],
+    [
+     "**Flank mass**",
+     "كتلة الخاصرة"
+    ],
+    [
+     "**Urothelial carcinoma**",
+     "الكارسينوما الظهارية البولية"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Nephrotic syndrome",
+    "topic_ar": "المتلازمة الكلائية"
+   },
+   {
+    "en": "Nephrotic syndrome is characterized by increased permeability of the:",
+    "ar": "تتميّز المتلازمة الكلائية بزيادة نفاذية:",
+    "options": [
+     [
+      "Renal capsule",
+      "محفظة الكلية"
+     ],
+     [
+      "Collecting duct",
+      "القناة الجامعة"
+     ],
+     [
+      "Ureter",
+      "الحالب"
+     ],
+     [
+      "Basement membrane",
+      "الغشاء القاعدي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The protein mainly lost in nephrotic syndrome is:",
+    "ar": "البروتين المفقود أساسًا في المتلازمة الكلائية:",
+    "options": [
+     [
+      "Fibrinogen",
+      "الفايبرينوجين"
+     ],
+     [
+      "IgM",
+      "IgM"
+     ],
+     [
+      "Albumin",
+      "الألبومين"
+     ],
+     [
+      "Haemoglobin",
+      "الهيموغلوبين"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Massive proteinuria in nephrotic syndrome is excretion of more than:",
+    "ar": "البيلة البروتينية الهائلة في المتلازمة الكلائية إخراج أكثر من:",
+    "options": [
+     [
+      "150 mg/day",
+      "150 ملغ/يوم"
+     ],
+     [
+      "4 g/day",
+      "4 غ/يوم"
+     ],
+     [
+      "1 g/day",
+      "1 غ/يوم"
+     ],
+     [
+      "40 g/day",
+      "40 غ/يوم"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In nephrotic syndrome, serum albumin is often less than:",
+    "ar": "في المتلازمة الكلائية يكون ألبومين المصل غالبًا أقل من:",
+    "options": [
+     [
+      "3 g/100 mL",
+      "3 غ/100 مل"
+     ],
+     [
+      "6 g/100 mL",
+      "6 غ/100 مل"
+     ],
+     [
+      "5 g/100 mL",
+      "5 غ/100 مل"
+     ],
+     [
+      "10 g/100 mL",
+      "10 غ/100 مل"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Generalized edema in nephrotic syndrome results from:",
+    "ar": "تنتج الوذمة المعمّمة في المتلازمة الكلائية عن:",
+    "options": [
+     [
+      "Haematuria",
+      "البيلة الدموية"
+     ],
+     [
+      "Heart failure",
+      "عجز القلب"
+     ],
+     [
+      "Increased albumin",
+      "زيادة الألبومين"
+     ],
+     [
+      "Decreased plasma colloid oncotic pressure",
+      "انخفاض الضغط الغرواني للبلازما"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Hyperlipidemia in nephrotic syndrome is caused by:",
+    "ar": "سبب فرط شحوم الدم في المتلازمة الكلائية:",
+    "options": [
+     [
+      "Fatty diet only",
+      "الغذاء الدسم فقط"
+     ],
+     [
+      "Increased hepatic lipoprotein synthesis",
+      "زيادة تخليق البروتينات الدهنية في الكبد"
+     ],
+     [
+      "Renal fat production",
+      "إنتاج الكلية للدهن"
+     ],
+     [
+      "Lipiduria",
+      "البيلة الدهنية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Proteinuria in nephrotic syndrome is:",
+    "ar": "البيلة البروتينية في المتلازمة الكلائية:",
+    "options": [
+     [
+      "Accompanied by many red cells",
+      "يرافقها كريات حمر كثيرة"
+     ],
+     [
+      "Accompanied by many white cells",
+      "يرافقها كريات بيض كثيرة"
+     ],
+     [
+      "Unaccompanied by increased urinary red or white cells",
+      "لا يرافقها زيادة الكريات الحمر أو البيض"
+     ],
+     [
+      "Always bloody",
+      "دموية دائمًا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "According to Table 13–2, the most common cause of nephrotic syndrome in children is:",
+    "ar": "حسب جدول 13–2، أشيع سبب للمتلازمة الكلائية في الأطفال:",
+    "options": [
+     [
+      "Minimal-change disease (65%)",
+      "داء التغيّر الأدنى (65%)"
+     ],
+     [
+      "FSGS",
+      "FSGS"
+     ],
+     [
+      "IgA nephropathy",
+      "اعتلال IgA"
+     ],
+     [
+      "Membranous nephropathy",
+      "الاعتلال الغشائي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "According to Table 13–2, the most common primary cause in adults is:",
+    "ar": "حسب جدول 13–2، أشيع سبب أولي في البالغين:",
+    "options": [
+     [
+      "MPGN (10%)",
+      "الغشائي التكاثري (10%)"
+     ],
+     [
+      "Minimal change (10%)",
+      "التغيّر الأدنى (10%)"
+     ],
+     [
+      "Focal segmental glomerulosclerosis (35%)",
+      "التصلّب الكبيبي البؤري القطعي (35%)"
+     ],
+     [
+      "IgA (15%)",
+      "IgA (15%)"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Systemic disease causes about what percentage of nephrotic syndrome in adults?",
+    "ar": "تسبّب الأمراض الجهازية حوالي كم نسبة من المتلازمة الكلائية في البالغين؟",
+    "options": [
+     [
+      "40%",
+      "40%"
+     ],
+     [
+      "5%",
+      "5%"
+     ],
+     [
+      "95%",
+      "95%"
+     ],
+     [
+      "60%",
+      "60%"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "IgA nephropathy",
+    "topic_ar": "اعتلال IgA"
+   },
+   {
+    "en": "IgA nephropathy is defined by deposition of IgA in the:",
+    "ar": "يُعرَّف اعتلال IgA بترسّب IgA في:",
+    "options": [
+     [
+      "Tubules",
+      "النبيبات"
+     ],
+     [
+      "Mesangium",
+      "المسراق"
+     ],
+     [
+      "Bowman capsule",
+      "محفظة بومان"
+     ],
+     [
+      "Renal pelvis",
+      "الحوض الكلوي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The most common glomerular disease revealed by renal biopsy worldwide is:",
+    "ar": "أشيع مرض كبيبي تكشفه خزعة الكلية عالميًا:",
+    "options": [
+     [
+      "Lupus nephritis",
+      "الذئبي"
+     ],
+     [
+      "Amyloidosis",
+      "النشواني"
+     ],
+     [
+      "Minimal change",
+      "التغيّر الأدنى"
+     ],
+     [
+      "IgA nephropathy",
+      "اعتلال IgA"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "IgA nephropathy begins with gross hematuria within 1–2 days of:",
+    "ar": "يبدأ اعتلال IgA ببيلة دموية عيانية خلال 1–2 يوم من:",
+    "options": [
+     [
+      "Trauma",
+      "إصابة"
+     ],
+     [
+      "A fatty meal",
+      "وجبة دسمة"
+     ],
+     [
+      "A nonspecific upper respiratory tract infection",
+      "عدوى غير نوعية في الجهاز التنفسي العلوي"
+     ],
+     [
+      "Bee sting",
+      "لسعة نحلة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Henoch-Schönlein purpura differs from IgA nephropathy in that it is:",
+    "ar": "تختلف فرفرية هينوخ-شونلاين عن اعتلال IgA بأنها:",
+    "options": [
+     [
+      "Purely renal",
+      "كلوية بحتة"
+     ],
+     [
+      "A systemic syndrome (skin, GIT, joints, kidneys)",
+      "متلازمة جهازية (جلد، هضم، مفاصل، كلى)"
+     ],
+     [
+      "Without IgA deposits",
+      "بلا ترسّبات IgA"
+     ],
+     [
+      "Only in adults",
+      "في البالغين فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Slow progression of IgA nephropathy to chronic renal failure occurs in:",
+    "ar": "يحدث تطوّر اعتلال IgA البطيء للفشل المزمن في:",
+    "options": [
+     [
+      "100% within 1 year",
+      "100% خلال سنة"
+     ],
+     [
+      "5% over 5 years",
+      "5% خلال 5 سنوات"
+     ],
+     [
+      "None",
+      "لا أحد"
+     ],
+     [
+      "25% to 50% over 20 years",
+      "25% إلى 50% خلال 20 سنة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A biopsy finding that indicates worse prognosis in IgA nephropathy is:",
+    "ar": "من موجودات الخزعة الدالّة على إنذار أسوأ في اعتلال IgA:",
+    "options": [
+     [
+      "Tubulointerstitial fibrosis",
+      "التليّف الخلالي النبيبي"
+     ],
+     [
+      "Minimal change",
+      "تغيّر أدنى"
+     ],
+     [
+      "No deposits",
+      "لا ترسّبات"
+     ],
+     [
+      "Normal glomeruli",
+      "كبيبات طبيعية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Kidney tumors",
+    "topic_ar": "أورام الكلية"
+   },
+   {
+    "en": "Urothelial carcinoma arises from:",
+    "ar": "تنشأ الكارسينوما الظهارية البولية من:",
+    "options": [
+     [
+      "Embryonic tissue",
+      "النسيج الجنيني"
+     ],
+     [
+      "Renal tubules",
+      "النبيبات الكلوية"
+     ],
+     [
+      "The epithelium of the renal pelvis",
+      "ظهارة الحوض الكلوي"
+     ],
+     [
+      "Mesenchymal tissue",
+      "النسيج المتوسطي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Wilms’ tumor arises from:",
+    "ar": "ينشأ ورم ويلمز من:",
+    "options": [
+     [
+      "Embryonic (primitive metanephric) tissue",
+      "النسيج الجنيني (التالي البدائي)"
+     ],
+     [
+      "Renal pelvis",
+      "الحوض الكلوي"
+     ],
+     [
+      "Mature tubules",
+      "النبيبات الناضجة"
+     ],
+     [
+      "Fat",
+      "الدهن"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "A renal adenoma is:",
+    "ar": "الورم الغدّي الكلوي:",
+    "options": [
+     [
+      "Large and painful",
+      "كبير ومؤلم"
+     ],
+     [
+      "Derived from the renal pelvis",
+      "مشتق من الحوض الكلوي"
+     ],
+     [
+      "Malignant",
+      "خبيث"
+     ],
+     [
+      "Small, asymptomatic, from renal tubules",
+      "صغير لا عرضي من النبيبات"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Angiomyolipoma consists of:",
+    "ar": "يتكوّن الورم الوعائي العضلي الشحمي من:",
+    "options": [
+     [
+      "Cartilage and bone",
+      "غضروف وعظم"
+     ],
+     [
+      "Fat, smooth muscle, and blood vessels",
+      "دهن وعضل أملس وأوعية دموية"
+     ],
+     [
+      "Lymphocytes",
+      "خلايا لمفية"
+     ],
+     [
+      "Epithelial cells only",
+      "خلايا ظهارية فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Angiomyolipoma is often associated with:",
+    "ar": "يرتبط الورم الوعائي العضلي الشحمي غالبًا بـ:",
+    "options": [
+     [
+      "Tuberous sclerosis",
+      "التصلّب الحدبي"
+     ],
+     [
+      "Von Hippel-Lindau",
+      "فون هيبل-لينداو"
+     ],
+     [
+      "Smoking",
+      "التدخين"
+     ],
+     [
+      "IgA nephropathy",
+      "اعتلال IgA"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Oncocytoma cells have cytoplasm replete with:",
+    "ar": "سايتوبلازم خلايا الورم الخلوي الحمضي مملوء بـ:",
+    "options": [
+     [
+      "Glycogen",
+      "الغلايكوجين"
+     ],
+     [
+      "Fat",
+      "الدهن"
+     ],
+     [
+      "Mitochondria",
+      "المايتوكوندريا"
+     ],
+     [
+      "Mucin",
+      "المخاط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The most common renal malignancy is:",
+    "ar": "أشيع خباثة كلوية:",
+    "options": [
+     [
+      "Wilms tumor",
+      "ورم ويلمز"
+     ],
+     [
+      "Renal cell carcinoma",
+      "كارسينوما الخلايا الكلوية"
+     ],
+     [
+      "Oncocytoma",
+      "الورم الخلوي الحمضي"
+     ],
+     [
+      "Adenoma",
+      "الورم الغدّي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Renal cell carcinoma is associated with deletions in chromosome:",
+    "ar": "ترتبط كارسينوما الخلايا الكلوية بحذف في الكروموسوم:",
+    "options": [
+     [
+      "11",
+      "11"
+     ],
+     [
+      "21",
+      "21"
+     ],
+     [
+      "X",
+      "X"
+     ],
+     [
+      "3",
+      "3"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which is an etiological factor of RCC in women?",
+    "ar": "أيّ مما يأتي عامل مسبّب لـ RCC في النساء؟",
+    "options": [
+     [
+      "Pregnancy",
+      "الحمل"
+     ],
+     [
+      "Bee sting",
+      "لسعة النحل"
+     ],
+     [
+      "Obesity and oestrogen therapy",
+      "السمنة والعلاج بالإستروجين"
+     ],
+     [
+      "Breastfeeding",
+      "الرضاعة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Wilms tumor incidence peaks at:",
+    "ar": "تبلغ ذروة ورم ويلمز بعمر:",
+    "options": [
+     [
+      "2–4 years",
+      "2–4 سنوات"
+     ],
+     [
+      "50–70 years",
+      "50–70 سنة"
+     ],
+     [
+      "Newborn only",
+      "حديث الولادة فقط"
+     ],
+     [
+      "20–30 years",
+      "20–30 سنة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The most common presenting feature of Wilms tumor is:",
+    "ar": "أشيع علامة أولى لورم ويلمز:",
+    "options": [
+     [
+      "Purpuric rash",
+      "طفح فرفري"
+     ],
+     [
+      "Hypertension only",
+      "ارتفاع الضغط فقط"
+     ],
+     [
+      "Jaundice",
+      "اليرقان"
+     ],
+     [
+      "Palpable flank mass (often huge)",
+      "كتلة خاصرة محسوسة (غالبًا ضخمة)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "This rash is typical of:",
+    "ar": "هذا الطفح نموذجي لـ:",
+    "options": [
+     [
+      "Wilms tumor",
+      "ورم ويلمز"
+     ],
+     [
+      "Henoch-Schönlein purpura",
+      "فرفرية هينوخ-شونلاين"
+     ],
+     [
+      "Oncocytoma",
+      "الورم الخلوي الحمضي"
+     ],
+     [
+      "Nephrotic syndrome",
+      "المتلازمة الكلائية"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/hsp-rash.jpg",
+    "img_h": "36mm"
+   },
+   {
+    "en": "This tumor with vessels, fat and spindle cells is:",
+    "ar": "هذا الورم ذو الأوعية والدهن والخلايا المغزلية هو:",
+    "options": [
+     [
+      "Angiomyolipoma",
+      "الورم الوعائي العضلي الشحمي"
+     ],
+     [
+      "Adenoma",
+      "الورم الغدّي"
+     ],
+     [
+      "Oncocytoma",
+      "الورم الخلوي الحمضي"
+     ],
+     [
+      "Urothelial carcinoma",
+      "الكارسينوما الظهارية البولية"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/angiomyolipoma.jpg",
+    "img_h": "40mm"
+   },
+   {
+    "en": "This karyotype shows the deletion associated with:",
+    "ar": "يُظهر هذا النمط النووي الحذف المرتبط بـ:",
+    "options": [
+     [
+      "Renal cell carcinoma (chromosome 3)",
+      "كارسينوما الخلايا الكلوية (الكروموسوم 3)"
+     ],
+     [
+      "Down syndrome",
+      "متلازمة داون"
+     ],
+     [
+      "Wilms tumor (short arm of chromosome 11)",
+      "ورم ويلمز (الذراع القصير للكروموسوم 11)"
+     ],
+     [
+      "IgA nephropathy",
+      "اعتلال IgA"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/karyotype-del11p.jpg",
+    "img_h": "32mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "In nephrotic syndrome, edema is usually severe according to the definition slide.",
+    "ar": "حسب شريحة التعريف، الوذمة في المتلازمة الكلائية عادةً شديدة.",
+    "answer": "F"
+   },
+   {
+    "en": "All causes of nephrotic syndrome share a derangement in the glomerular capillary walls.",
+    "ar": "تشترك كل أسباب المتلازمة الكلائية في خلل جدران الشعيرات الكبيبية.",
+    "answer": "T"
+   },
+   {
+    "en": "Long-standing heavy proteinuria causes a drop in plasma colloid osmotic pressure.",
+    "ar": "البيلة البروتينية الشديدة الطويلة تسبّب انخفاض الضغط التناضحي الغرواني للبلازما.",
+    "answer": "T"
+   },
+   {
+    "en": "Primary glomerular disease causes about 95% of nephrotic syndrome in children.",
+    "ar": "يسبّب المرض الكبيبي الأولي حوالي 95% من المتلازمة الكلائية في الأطفال.",
+    "answer": "T"
+   },
+   {
+    "en": "Bee sting allergy is listed as a miscellaneous cause of nephrotic syndrome.",
+    "ar": "حساسية لسعة النحل مذكورة سببًا متفرّقًا للمتلازمة الكلائية.",
+    "answer": "T"
+   },
+   {
+    "en": "IgA nephropathy usually affects the elderly.",
+    "ar": "يصيب اعتلال IgA عادةً كبار السن.",
+    "answer": "F"
+   },
+   {
+    "en": "Many patients with IgA nephropathy maintain normal renal function for decades.",
+    "ar": "كثير من مرضى اعتلال IgA يحتفظون بوظيفة كلوية طبيعية لعقود.",
+    "answer": "T"
+   },
+   {
+    "en": "Henoch-Schönlein purpura is characterized by IgA deposition in the mesangium.",
+    "ar": "تتميّز فرفرية هينوخ-شونلاين بترسّب IgA في المسراق.",
+    "answer": "T"
+   },
+   {
+    "en": "Angiomyolipoma is a malignant epithelial tumor.",
+    "ar": "الورم الوعائي العضلي الشحمي ورم ظهاري خبيث.",
+    "answer": "F"
+   },
+   {
+    "en": "Renal cell carcinoma is more common in women.",
+    "ar": "كارسينوما الخلايا الكلوية أشيع في النساء.",
+    "answer": "F"
+   },
+   {
+    "en": "RCC has a higher incidence in cigarette smokers.",
+    "ar": "إصابة RCC أعلى في مدخّني السجائر.",
+    "answer": "T"
+   },
+   {
+    "en": "Von Hippel-Lindau disease is caused by alterations in a gene on chromosome 3.",
+    "ar": "ينتج داء فون هيبل-لينداو عن تغيّرات في جين على الكروموسوم 3.",
+    "answer": "T"
+   },
+   {
+    "en": "Analgesic nephropathy is a risk factor for RCC.",
+    "ar": "اعتلال الكلية بالمسكّنات عامل خطورة لـ RCC.",
+    "answer": "T"
+   },
+   {
+    "en": "Wilms tumor is the most common renal malignancy of adults.",
+    "ar": "ورم ويلمز أشيع خباثة كلوية في البالغين.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Minimal change or membranous — which leads in children?",
+    "ar": "التغيّر الأدنى أم الغشائي — أيّهما الأول في الأطفال؟",
+    "answer_en": "Children: minimal-change disease 65% (membranous only 5%); adults: FSGS 35%, membranous 30%.",
+    "answer_ar": "الأطفال: التغيّر الأدنى 65% (الغشائي 5% فقط)؛ البالغون: FSGS 35%، الغشائي 30%."
+   },
+   {
+    "en": "Nephrotic urine — red cells or not?",
+    "ar": "بول المتلازمة الكلائية — فيه كريات حمر أم لا؟",
+    "answer_en": "No — the proteinuria is unaccompanied by increased red or white cells.",
+    "answer_ar": "لا — البيلة البروتينية لا يرافقها زيادة الكريات الحمر أو البيض."
+   },
+   {
+    "en": "IgA nephropathy vs HSP?",
+    "ar": "اعتلال IgA مقابل HSP؟",
+    "answer_en": "Both have mesangial IgA; IgA nephropathy is purely renal, HSP is systemic (skin rash, abdominal pain, arthritis, kidneys).",
+    "answer_ar": "كلاهما فيه IgA مسراقي؛ اعتلال IgA كلوي بحت، وHSP جهازي (طفح، ألم بطن، التهاب مفاصل، كلى)."
+   },
+   {
+    "en": "Chromosome 3 or 11?",
+    "ar": "الكروموسوم 3 أم 11؟",
+    "answer_en": "Chromosome 3 → RCC and von Hippel-Lindau; short arm of chromosome 11 → Wilms tumor.",
+    "answer_ar": "الكروموسوم 3 ← RCC وفون هيبل-لينداو؛ الذراع القصير للكروموسوم 11 ← ورم ويلمز."
+   },
+   {
+    "en": "Tuberous sclerosis — which tumors?",
+    "ar": "التصلّب الحدبي — أيّ الأورام؟",
+    "answer_en": "Angiomyolipoma (benign hamartoma) and it is also a risk factor for RCC.",
+    "answer_ar": "الورم الوعائي العضلي الشحمي (عابي حميد)، وهو أيضًا عامل خطورة لـ RCC."
+   },
+   {
+    "en": "Which renal malignancy in a 3-year-old with a huge flank mass?",
+    "ar": "أيّ خباثة كلوية في طفل عمره 3 سنوات بكتلة خاصرة ضخمة؟",
+    "answer_en": "Wilms tumor (nephroblastoma), peak 2–4 years; RCC is in men aged 50–70.",
+    "answer_ar": "ورم ويلمز (الورم الأرومي الكلوي)، الذروة 2–4 سنوات؛ أما RCC ففي الرجال 50–70 سنة."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define nephrotic syndrome and explain its pathophysiology.",
+    "ar": "عرّف المتلازمة الكلائية واشرح فسلجتها المرضية.",
+    "answer_en": "A group of conditions with increased basement membrane permeability allowing urinary loss of plasma proteins, particularly low-weight proteins like albumin; edema usually mild. All causes share a derangement of glomerular capillary walls; structural or physicochemical GBM changes let protein escape into the filtrate; long-standing heavy proteinuria lowers serum albumin → hypoalbuminemia and a drop in plasma colloid osmotic pressure.",
+    "answer_ar": "مجموعة حالات بزيادة نفاذية الغشاء القاعدي تسمح بفقد بروتينات البلازما في البول، خاصةً منخفضة الوزن كالألبومين؛ والوذمة عادةً خفيفة. تشترك كل الأسباب في خلل جدران الشعيرات الكبيبية؛ والتغيّرات التركيبية أو الفيزيوكيميائية في الغشاء القاعدي تسمح بتسرّب البروتين للراشح؛ والبيلة البروتينية الشديدة الطويلة تخفض الألبومين ← نقص ألبومين الدم وانخفاض الضغط الغرواني."
+   },
+   {
+    "en": "List the clinical manifestations of nephrotic syndrome.",
+    "ar": "عدّد المظاهر السريرية للمتلازمة الكلائية.",
+    "answer_en": "1. Massive proteinuria (> 4 g/day) without increased urinary red or white cells. 2. Hypoalbuminemia (< 3 g/100 mL). 3. Generalized edema from decreased plasma colloid oncotic pressure. 4. Hyperlipidemia and hypercholesterolemia from increased hepatic lipoprotein synthesis.",
+    "answer_ar": "1. بيلة بروتينية هائلة (> 4 غ/يوم) بلا زيادة كريات حمر أو بيض. 2. نقص ألبومين الدم (< 3 غ/100 مل). 3. وذمة معمّمة من انخفاض الضغط الغرواني. 4. فرط شحوم وكوليسترول الدم من زيادة تخليق البروتينات الدهنية في الكبد."
+   },
+   {
+    "en": "Write the causes of nephrotic syndrome (Table 13–2).",
+    "ar": "اكتب أسباب المتلازمة الكلائية (جدول 13–2).",
+    "answer_en": "Primary (children/adults %): membranous 5/30, minimal change 65/10, FSGS 10/35, MPGN 10/10, IgA and others 10/15. Systemic: diabetes, amyloidosis, SLE, drugs (gold, penicillamine, street heroin), infections (malaria, syphilis, hepatitis B, HIV), malignancy (carcinoma, melanoma), miscellaneous (bee sting allergy, hereditary nephritis). Primary disease ≈ 95% in children, 60% in adults; systemic ≈ 5% and 40%.",
+    "answer_ar": "الأولية (أطفال/بالغون %): الغشائي 5/30، التغيّر الأدنى 65/10، FSGS 10/35، الغشائي التكاثري 10/10، IgA وغيره 10/15. الجهازية: السكري، النشواني، الذئبة، الأدوية (الذهب، البنسيلامين، هيروين الشارع)، العدوى (الملاريا، الزهري، التهاب الكبد B، HIV)، الخباثة (الكارسينوما، الميلانوما)، متفرّقة (لسعة النحل، التهاب الكلية الوراثي). الأولي ≈ 95% في الأطفال و60% في البالغين؛ الجهازي ≈ 5% و40%."
+   },
+   {
+    "en": "Write about IgA nephropathy and its clinical course.",
+    "ar": "اكتب عن اعتلال IgA وسيره السريري.",
+    "answer_en": "Berger disease: IgA deposition in the mesangium; common cause of recurrent microscopic or gross hematuria and the commonest glomerular disease on renal biopsy worldwide; affects children and young adults; gross hematuria 1–2 days after a nonspecific URTI; possibly a localized variant of HSP (which is systemic). Course: > half present with gross haematuria after infection; many keep normal function for decades; 25–50% progress to CRF over 20 years; worse prognosis with diffuse mesangial proliferation, segmental sclerosis, endocapillary proliferation or tubulointerstitial fibrosis.",
+    "answer_ar": "داء بيرجر: ترسّب IgA في المسراق؛ سبب شائع للبيلة الدموية المتكرّرة وأشيع مرض كبيبي بالخزعة عالميًا؛ يصيب الأطفال والشباب؛ بيلة دموية عيانية بعد 1–2 يوم من عدوى تنفسية علوية؛ وربما نوع موضعي من HSP (الجهازية). السير: أكثر من النصف ببيلة عيانية بعد عدوى؛ كثيرون بوظيفة طبيعية لعقود؛ 25–50% يتطوّرون لفشل مزمن خلال 20 سنة؛ والإنذار أسوأ مع التكاثر المسراقي المنتشر والتصلّب القطعي والتكاثر داخل الشعيرات والتليّف الخلالي."
+   },
+   {
+    "en": "Classify kidney tumors by origin and describe the benign tumors.",
+    "ar": "صنّف أورام الكلية حسب المنشأ وصف الأورام الحميدة.",
+    "answer_en": "Origin: renal tubules (adenoma, adenocarcinoma), embryonic tissue (mesoblastic nephroma, Wilms’ tumor), mesenchymal tissue (angiomyolipoma, medullary interstitial tumor), renal pelvis epithelium (urothelial carcinoma). Benign: adenoma — small, asymptomatic, from tubules; angiomyolipoma — hamartoma of fat, smooth muscle and vessels, with tuberous sclerosis; oncocytoma — cells with abundant granular acidophilic cytoplasm full of mitochondria.",
+    "answer_ar": "المنشأ: النبيبات (الورم الغدّي، الكارسينوما الغدّية)، النسيج الجنيني (الورم الكلوي الأرومي المتوسط، ويلمز)، المتوسطي (الوعائي العضلي الشحمي، الخلالي اللبّي)، ظهارة الحوض (الظهارية البولية). الحميدة: الغدّي — صغير لا عرضي من النبيبات؛ الوعائي العضلي الشحمي — عابي من دهن وعضل أملس وأوعية، مع التصلّب الحدبي؛ الخلوي الحمضي — خلايا بسايتوبلازم حبيبي حمضي مملوء بالمايتوكوندريا."
+   },
+   {
+    "en": "Compare renal cell carcinoma and Wilms tumor.",
+    "ar": "قارن بين كارسينوما الخلايا الكلوية وورم ويلمز.",
+    "answer_en": "RCC: most common renal malignancy; men, 50–70 years, smokers; chromosome 3 deletions, von Hippel-Lindau; etiology: tobacco, genetic factors, cystic kidney disease, asbestos/heavy metals/petrochemicals, obesity and oestrogen in women, analgesic nephropathy, tuberous sclerosis. Wilms (nephroblastoma): most common renal malignancy of early childhood; peak 2–4 years; from primitive metanephric tissue; palpable (often huge) flank mass; deletion of short arm of chromosome 11.",
+    "answer_ar": "RCC: أشيع خباثة كلوية؛ الرجال 50–70 سنة، المدخّنون؛ حذف في الكروموسوم 3، فون هيبل-لينداو؛ الأسباب: التبغ، الوراثة، الأمراض الكيسية، الأسبستوس/المعادن الثقيلة/البتروكيميائيات، السمنة والإستروجين في النساء، اعتلال المسكّنات، التصلّب الحدبي. ويلمز: أشيع خباثة كلوية في الطفولة المبكرة؛ الذروة 2–4 سنوات؛ من نسيج كلوي تالي بدائي؛ كتلة خاصرة محسوسة (غالبًا ضخمة)؛ حذف الذراع القصير للكروموسوم 11."
+   }
+  ]
+ }
+}

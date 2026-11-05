@@ -1,0 +1,2566 @@
+{
+ "meta": {
+  "subject_en": "Medical Parasitology",
+  "subject_ar": "الطفيليات الطبية",
+  "short_ar": "طفيليات",
+  "instructor": "م.م. نريمان حسن",
+  "unit_en": "Lab 4",
+  "unit_ar": "العملي 4",
+  "unit_label": "LAB",
+  "unit_no": "4",
+  "title_en": "Non-pathogenic Amoebae & Naegleria fowleri",
+  "title_ar": "الأميبات غير الممرضة والنيغلرية الفاولرية",
+  "department": "قسم التحليلات",
+  "stage": "The fourth stage — الرابعة",
+  "kind": "Laboratories — عملي"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Non- pathogenic amoebae",
+   "ar": "الأميبات غير الممرضة"
+  },
+  {
+   "t": "card",
+   "en": "**Non- pathogenic amoebae:**",
+   "ar": "**الأميبات غير الممرضة:**",
+   "list_en": [
+    "__E. dispar__.",
+    "__E. hartmanni__.",
+    "__E. coli__.",
+    "__E. gingivalis__.",
+    "__E. nana__.",
+    "__I. butschlii__."
+   ],
+   "list_ar": [
+    "الأميبا المتباينة.",
+    "أميبا هارتمان.",
+    "الأميبا القولونية.",
+    "الأميبا اللثوية.",
+    "الأميبا القزمة (إندوليماكس نانا).",
+    "أميبا بوتشلي اليودية."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Entamoeba coli",
+   "ar": "الأميبا القولونية"
+  },
+  {
+   "t": "h2",
+   "en": "INTRODUCTION",
+   "ar": "مقدمة"
+  },
+  {
+   "t": "card",
+   "en": [
+    "__Entamoeba coli__ is a non-pathogenic amoeba with world wide distribution.",
+    "Its life cycle is similar to that of __E. histolytica__ but it does not have an invasive stage and do not ingest [[cut]]"
+   ],
+   "ar": [
+    "الأميبا القولونية أميبا غير ممرضة ذات انتشار عالمي.",
+    "دورة حياتها مشابهة لدورة الأميبا الحالّة للنسيج لكنها لا تملك طورًا غازيًا ولا تبتلع [[قطع]]"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "The end of this sentence is hidden behind the picture on the slide; from the comparison table below, __E. coli__ does not ingest **red blood cells**.",
+   "ar": "نهاية هذه الجملة مغطّاة بالصورة في الشريحة؛ ومن جدول المقارنة أدناه: الأميبا القولونية لا تبتلع **كريات الدم الحمر**.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/ecoli-diagram.jpg",
+   "en": "__Entamoeba coli__ trophozoite (drawing) — Pseudopod; Vacuole Containing Bacteria; Eccentric Karyosome; Uneven Peripheral Chromatin; Cytoplasm",
+   "ar": "الطور المتغذّي للأميبا القولونية (رسم) — القدم الكاذبة؛ فجوة تحتوي بكتيريا؛ جسيم نووي لا مركزي؛ كروماتين محيطي غير منتظم؛ السايتوبلازم",
+   "h": "44mm",
+   "fit": "contain"
+  },
+  {
+   "t": "h2",
+   "en": "Trophozoite:",
+   "ar": "الطور المتغذّي:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The trophozoite is 15- 50 µm, sluggish in movement.",
+    "It has a more granular endoplasm containing food vacuoles, ingested bacteria, depress, a narrow ectoplasm and a large karyosome.",
+    "Nuclear membrane is thick and is lined by coarse chromatin granules."
+   ],
+   "list_ar": [
+    "يبلغ الطور المتغذّي **15- 50 مايكرومتر**، وهو بطيء الحركة.",
+    "له إندوبلازم أكثر تحبّبًا يحتوي فجوات غذائية وبكتيريا مبتلعة وحطامًا، وإكتوبلازم ضيّق، وجسيم نووي كبير.",
+    "الغشاء النووي سميك ومبطّن بحبيبات كروماتين خشنة."
+   ]
+  },
+  {
+   "t": "note",
+   "en": "“depress” in the slide is most likely **debris** (حطام).",
+   "ar": "كلمة “depress” في الشريحة الأرجح أنها **debris** أي الحطام.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/ecoli-troph-stains.jpg",
+     "en": "Entamoeba coli trophozoite: Iron hematoxylin stain (left), Trichrome stain (right)",
+     "ar": "الطور المتغذّي للأميبا القولونية: صبغة الهيماتوكسيلين الحديدي (يسار)، الصبغة الثلاثية (يمين)",
+     "h": "46mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/ecoli-troph-wet.jpg",
+     "en": "E. coli trophozoite in a wet preparation",
+     "ar": "الطور المتغذّي للأميبا القولونية في تحضير رطب",
+     "h": "46mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Cyst:",
+   "ar": "الكيس:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    [
+     "The cyst is spherical and usually larger than that of __E. histolytica__.",
+     "Its size is 10-31 µm and has 8 nuclei"
+    ],
+    "Chromatoid body is filamentous.",
+    "Pre-cyst resemble in shape with that of __E. histolytica__."
+   ],
+   "list_ar": [
+    [
+     "الكيس كروي وعادةً أكبر من كيس الأميبا الحالّة للنسيج.",
+     "حجمه **10-31 مايكرومتر** وله **8 أنوية**"
+    ],
+    "الجسم الكروماتيني خيطي.",
+    "ما قبل الكيس يشبه في شكله ما قبل كيس الأميبا الحالّة للنسيج."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/ecoli-cyst-row.jpg",
+   "en": "__E. coli__ cysts (two photographs) and drawing — cyst wall; 8-nuclei",
+   "ar": "أكياس الأميبا القولونية (صورتان) ورسم — جدار الكيس؛ 8 أنوية",
+   "h": "46mm",
+   "fit": "contain"
+  },
+  {
+   "t": "h2",
+   "en": "General information",
+   "ar": "معلومات عامة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Definitive Host:** Humans",
+    "**Intermediate Host:** None",
+    "**Mode of transmission:** Ingestion of contaminated food and water.",
+    "**Location in Definitive host:** Cecum and large intestine.",
+    "**Pathology and Treatment:** None"
+   ],
+   "list_ar": [
+    "**المضيف النهائي:** الإنسان",
+    "**المضيف الوسطي:** لا يوجد",
+    "**طريقة الانتقال:** ابتلاع طعام وماء ملوّثين.",
+    "**الموقع في المضيف النهائي:** الأعور والأمعاء الغليظة.",
+    "**الإمراضية والعلاج:** لا يوجد"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Harmless commensal",
+    "Feeds on bacteria, yeast, and wastes in intestines"
+   ],
+   "list_ar": [
+    "متعايش غير ضار",
+    "يتغذّى على البكتيريا والخمائر والفضلات في الأمعاء"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Diagnosis:** Important to distinguish between it and __E. histolytica__",
+   "ar": "**التشخيص:** من المهم التمييز بينها وبين الأميبا الحالّة للنسيج"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "8 nuclei in cyst vs. 4 in __E. histolytica__",
+    "Different shape nuclei."
+   ],
+   "list_ar": [
+    "8 أنوية في الكيس مقابل 4 في الأميبا الحالّة للنسيج",
+    "أنوية مختلفة الشكل."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Life cycle",
+   "ar": "دورة الحياة"
+  },
+  {
+   "t": "card",
+   "en": "The life cycle is similar to that of __E. histolytica__ except that the trophozoite in this example doesn’t attack the mucosa of the intestine, so that it is described non-pathogenic (commensal) amoeba.",
+   "ar": "دورة الحياة مشابهة لدورة الأميبا الحالّة للنسيج إلا أن الطور المتغذّي هنا **لا يهاجم الغشاء المخاطي للأمعاء**، ولذلك توصف بأنها أميبا **غير ممرضة (متعايشة)**."
+  },
+  {
+   "t": "card",
+   "en": "Its presence is evidence that the host has ingested fecal material.",
+   "ar": "ووجودها **دليل على أن المضيف ابتلع مادة برازية**."
+  },
+  {
+   "t": "h2",
+   "en": "Laboratory Diagnosis",
+   "ar": "التشخيص المختبري"
+  },
+  {
+   "t": "card",
+   "en": "Laboratory diagnosis is made by finding the characteristic cysts in an iodine stained, formol-ether concentration method or by detecting the characteristic trophozoites in a wet preparation or a permanent stained preparation.",
+   "ar": "يتم التشخيص المختبري بإيجاد **الأكياس المميّزة** في تحضير مصبوغ باليود أو بطريقة **التركيز بالفورمول-إيثر**، أو بالكشف عن **الأطوار المتغذّية المميّزة** في تحضير رطب أو تحضير مصبوغ دائم."
+  },
+  {
+   "t": "figure",
+   "src": "assets/ecoli-drawings.jpg",
+   "en": "__E. coli__ trophozoite and cyst (drawings)",
+   "ar": "الطور المتغذّي والكيس للأميبا القولونية (رسوم)",
+   "h": "30mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "figure",
+   "src": "assets/ecoli-photos.jpg",
+   "en": "__Entamoeba coli__: trophozoite (left) and cyst (right); scale bar 10 µm",
+   "ar": "الأميبا القولونية: الطور المتغذّي (يسار) والكيس (يمين)؛ مقياس الرسم 10 مايكرومتر",
+   "h": "44mm",
+   "fit": "contain"
+  },
+  {
+   "t": "h2",
+   "en": "__E. histolytica__ vs __E. coli__",
+   "ar": "الحالّة للنسيج مقابل القولونية"
+  },
+  {
+   "t": "card",
+   "en": "It is similar to __E. histolytica__ with exception of the following differences :-",
+   "ar": "وهي تشبه الأميبا الحالّة للنسيج باستثناء الاختلافات الآتية :-"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Trophozoite",
+     "الطور المتغذّي"
+    ],
+    [
+     "E. histolytica",
+     "الحالّة للنسيج"
+    ],
+    [
+     "E. coli",
+     "القولونية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Disease**",
+      "**المرض**"
+     ],
+     [
+      "Amoebiasis(Amoebic dysentery or Amoebic liver abscess)",
+      "داء الأميبات (الزحار الأميبي أو خرّاج الكبد الأميبي)"
+     ],
+     [
+      "Non pathogenic",
+      "غير ممرضة"
+     ]
+    ],
+    [
+     [
+      "**Motility**",
+      "**الحركة**"
+     ],
+     [
+      "Active",
+      "نشطة"
+     ],
+     [
+      "Sluggish",
+      "بطيئة"
+     ]
+    ],
+    [
+     [
+      "**Size**",
+      "**الحجم**"
+     ],
+     [
+      "10-40 mµ",
+      "10-40 مايكرومتر"
+     ],
+     [
+      "20-50 mµ",
+      "20-50 مايكرومتر"
+     ]
+    ],
+    [
+     [
+      "**Cytoplasm**",
+      "**السايتوبلازم**"
+     ],
+     [
+      "Ectoplasm clearly differentiation from endoplasm",
+      "الإكتوبلازم متميّز بوضوح عن الإندوبلازم"
+     ],
+     [
+      "Not clearly differentiation from endoplasm",
+      "غير متميّز بوضوح عن الإندوبلازم"
+     ]
+    ],
+    [
+     [
+      "**Food vacuole**",
+      "**الفجوة الغذائية**"
+     ],
+     [
+      "Contain R.B.C in acute case",
+      "تحتوي كريات حمر في الحالة الحادّة"
+     ],
+     [
+      "Contain bacteria,yeast & other particles without RBC",
+      "تحتوي بكتيريا وخمائر ودقائق أخرى بلا كريات حمر"
+     ]
+    ],
+    [
+     [
+      "**Karyosome**",
+      "**الجسيم النووي**"
+     ],
+     [
+      "Small &central in the nucleus",
+      "صغير ومركزي في النواة"
+     ],
+     [
+      "Large & not central eccentric",
+      "كبير وغير مركزي (لا مركزي)"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    39,
+    39
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Cyst",
+     "الكيس"
+    ],
+    [
+     "E. histolytica",
+     "الحالّة للنسيج"
+    ],
+    [
+     "E. coli",
+     "القولونية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Cyst**",
+      "**الكيس**"
+     ],
+     [
+      "Have cyst stage",
+      "لها طور كيس"
+     ],
+     [
+      "Have cyst stage",
+      "لها طور كيس"
+     ]
+    ],
+    [
+     [
+      "**Diameter**",
+      "**القطر**"
+     ],
+     [
+      "10-15 mµ",
+      "10-15 مايكرومتر"
+     ],
+     [
+      "10-30 mµ",
+      "10-30 مايكرومتر"
+     ]
+    ],
+    [
+     [
+      "**Nuclei in mature cyst**",
+      "**أنوية الكيس الناضج**"
+     ],
+     [
+      "4 Nuclei",
+      "4 أنوية"
+     ],
+     [
+      "8 Nuclei",
+      "8 أنوية"
+     ]
+    ],
+    [
+     [
+      "**Chromatin**",
+      "**الكروماتين**"
+     ],
+     [
+      "Chromatin bodies from 1-4 &cigar-shape",
+      "أجسام كروماتينية من 1-4 وسيجارية الشكل"
+     ],
+     [
+      "Chromatin bodies from 10-15 &splinter shape",
+      "أجسام كروماتينية من 10-15 وشظوية الشكل"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    39,
+    39
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "“mµ” in the table means **µm** (micrometre).",
+    "The slides give two sizes for __E. coli__: trophozoite **15- 50 µm** (text) and **20-50 mµ** (table); cyst **10-31 µm** (text) and **10-30 mµ** (table) — both are kept as written."
+   ],
+   "ar": [
+    "“mµ” في الجدول تعني **مايكرومتر**.",
+    "تذكر الشرائح حجمين للأميبا القولونية: المتغذّي **15- 50** (النص) و**20-50** (الجدول)؛ والكيس **10-31** (النص) و**10-30** (الجدول) — وأُبقي الاثنان كما كُتبا."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Non-pathogenic, worldwide; lives in the **cecum and large intestine**; host: **humans**; no intermediate host.",
+    "Trophozoite **15-50 µm**, sluggish, **large eccentric karyosome**, eats bacteria/yeast — **no RBCs**.",
+    "Cyst **10-31 µm** with **8 nuclei** and **splinter / filamentous** chromatoid bodies (__E. histolytica__: 4 nuclei, cigar-shaped).",
+    "Its presence = the host **ingested fecal material**; diagnosis: cysts in iodine / formol-ether, trophozoites in wet or permanent stain."
+   ],
+   "ar": [
+    "غير ممرضة وعالمية؛ تعيش في **الأعور والأمعاء الغليظة**؛ المضيف: **الإنسان**؛ بلا مضيف وسطي.",
+    "المتغذّي **15-50 مايكرومتر**، بطيء، **جسيم نووي كبير لا مركزي**، يأكل البكتيريا/الخمائر — **بلا كريات حمر**.",
+    "الكيس **10-31 مايكرومتر** بـ**8 أنوية** وأجسام كروماتينية **شظوية / خيطية** (الحالّة للنسيج: 4 أنوية وسيجارية).",
+    "وجودها = المضيف **ابتلع مادة برازية**؛ التشخيص: الأكياس باليود / الفورمول-إيثر، والمتغذّيات بالتحضير الرطب أو الصبغة الدائمة."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Entamoeba gingivalis",
+   "ar": "الأميبا اللثوية"
+  },
+  {
+   "t": "card",
+   "en": "**E. gingivalis:**",
+   "ar": "**الأميبا اللثوية:**",
+   "list_en": [
+    "The first amoeba of man to described (Gros in 1849).",
+    "Only trophozoite stage have been found.",
+    "It live in gingival tissue between teeth and gum."
+   ],
+   "list_ar": [
+    "**أول أميبا** وُصفت في الإنسان (**Gros** عام **1849**).",
+    "لم يُعثر إلا على **الطور المتغذّي** فقط.",
+    "تعيش في **النسيج اللثوي** بين الأسنان واللثة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "It transmitted by oral contact (closely contact like kissing and from contaminated utensils.",
+    "Its prevalence rate rang between 10% in person with healthy mouth to 95% in those with diseased teeth and gum.",
+    "Also found in the diseased tonsils and in the vaginal and cervical smear from women using intrauterine devices."
+   ],
+   "list_ar": [
+    "تنتقل **بالتماس الفموي** (التماس القريب مثل **التقبيل** ومن **الأواني الملوّثة**.",
+    "يتراوح معدّل انتشارها بين **10%** في الأشخاص ذوي الفم السليم إلى **95%** في المصابين بأمراض الأسنان واللثة.",
+    "وتوجد أيضًا في **اللوزتين المريضتين** وفي المسحات المهبلية وعنق الرحم لدى النساء المستعملات **لوسائل منع الحمل داخل الرحم**."
+   ],
+   "start": 4
+  },
+  {
+   "t": "h2",
+   "en": "General information",
+   "ar": "معلومات عامة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    [
+     "**Definitive Host:** Humans.",
+     "Also other primates, dogs, and cats."
+    ],
+    "**Intermediate Host:** None",
+    "**Mode of transmission:** Direct oral contact (kissing)."
+   ],
+   "list_ar": [
+    [
+     "**المضيف النهائي:** الإنسان.",
+     "وأيضًا الرئيسيات الأخرى والكلاب والقطط."
+    ],
+    "**المضيف الوسطي:** لا يوجد",
+    "**طريقة الانتقال:** التماس الفموي المباشر (التقبيل)."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Trophozoite:",
+   "ar": "الطور المتغذّي:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Measure 5- 25 µm.",
+    "Actively motile by multiple pseudopodia.",
+    "The food vacuole contain leukocyte, epithelial cell and red blood cells.",
+    "Nucleus spherical, central karyosome.",
+    "Chromatin granules are closely packed."
+   ],
+   "list_ar": [
+    "يبلغ **5- 25 مايكرومتر**.",
+    "**نشط الحركة** بأقدام كاذبة متعدّدة.",
+    "تحتوي الفجوة الغذائية **كريات بيض وخلايا ظهارية وكريات دم حمر**.",
+    "النواة كروية، والجسيم النووي **مركزي**.",
+    "حبيبات الكروماتين متراصّة."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/eging-troph.jpg",
+   "en": "__E. gingivalis__ trophozoite — Host leukocytes; Nucleus; Phagocytosed and partly digested host leukocytes",
+   "ar": "الطور المتغذّي للأميبا اللثوية — كريات بيض المضيف؛ النواة؛ كريات بيض للمضيف مبلعمة ومهضومة جزئيًا",
+   "h": "42mm",
+   "fit": "contain"
+  },
+  {
+   "t": "h2",
+   "en": "Life Cycle",
+   "ar": "دورة الحياة"
+  },
+  {
+   "t": "card",
+   "en": [
+    "No cyst stage.",
+    "Never goes out to external environment."
+   ],
+   "ar": [
+    "لا يوجد طور كيس.",
+    "لا تخرج أبدًا إلى البيئة الخارجية."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/eging-cycle.jpg",
+   "en": "Life cycle of __E. gingivalis__ — Trophozoites in mouth ⇄ Binary Fission; Direct oral contact passes it to next host",
+   "ar": "دورة حياة الأميبا اللثوية — أطوار متغذّية في الفم ⇄ الانشطار الثنائي؛ التماس الفموي المباشر ينقلها إلى المضيف التالي",
+   "h": "34mm",
+   "fit": "contain"
+  },
+  {
+   "t": "h2",
+   "en": "Laboratory Diagnosis",
+   "ar": "التشخيص المختبري"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Identification of __E. gingivalis__ is usually made by the finding of trophozoites in scrapings of the gums and teeth;",
+    "trophozoites may be seen ingesting white cells and epithelial cell nuclei"
+   ],
+   "ar": [
+    "يتم تشخيص الأميبا اللثوية عادةً بإيجاد **الأطوار المتغذّية في كشط اللثة والأسنان**؛",
+    "وقد تُشاهد الأطوار المتغذّية وهي **تبتلع كريات بيضًا وأنوية خلايا ظهارية**"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**First amoeba** described in man (Gros, 1849); **trophozoite only — no cyst**; never leaves the host.",
+    "Lives between **teeth and gum**; spread by **kissing / utensils**; 10% healthy mouth → 95% diseased gums.",
+    "Troph **5-25 µm**, active, **central karyosome**; eats **leukocytes, epithelial cells and RBCs**.",
+    "Diagnosis: trophozoites in **scrapings of gums and teeth**."
+   ],
+   "ar": [
+    "**أول أميبا** وُصفت في الإنسان (Gros، 1849)؛ **طور متغذّي فقط — بلا كيس**؛ لا تغادر المضيف.",
+    "تعيش بين **الأسنان واللثة**؛ تنتقل **بالتقبيل / الأواني**؛ 10% بالفم السليم ← 95% باللثة المريضة.",
+    "المتغذّي **5-25 مايكرومتر**، نشط، **جسيم نووي مركزي**؛ يأكل **كريات بيض وخلايا ظهارية وكريات حمر**.",
+    "التشخيص: أطوار متغذّية في **كشط اللثة والأسنان**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Endolimax nana",
+   "ar": "الأميبا القزمة (إندوليماكس نانا)"
+  },
+  {
+   "t": "card",
+   "en": "**Endolimax. nana:**",
+   "ar": "**الأميبا القزمة:**",
+   "list_en": [
+    [
+     "Firstly described by Wenyon and O’Connor.",
+     "It has a prevalence of 10 - 20% throughout the world."
+    ],
+    "Habitat lumen of large intestine of man, primates and pigs.",
+    "It has 3 stages trophozoite, pre-cyst and cyst."
+   ],
+   "list_ar": [
+    [
+     "وصفها أولًا **Wenyon** و**O’Connor**.",
+     "ونسبة انتشارها **10 - 20%** في أنحاء العالم."
+    ],
+    "موطنها **تجويف الأمعاء الغليظة** للإنسان والرئيسيات والخنازير.",
+    "لها **3 أطوار**: الطور المتغذّي، وما قبل الكيس، والكيس."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Trophozoite is small in size 6- 15µm in diameter, with a granular, vacuolated cytoplasm , central nucleus and a sluggish movement.",
+    "Chromidial pars and glycogen vacuole are absent.",
+    "The cyst is oval in shape, ranging from 5- 14 µm in diameter, with 4 indistinct nuclei and no chromatoid bars."
+   ],
+   "list_ar": [
+    "الطور المتغذّي **صغير الحجم 6- 15 مايكرومتر** في القطر، بسايتوبلازم محبّب مفجّى، ونواة مركزية، و**حركة بطيئة**.",
+    "**القضبان الكروماتينية وفجوة الغلايكوجين غائبة**.",
+    "الكيس **بيضوي** الشكل، قطره **5- 14 مايكرومتر**، بـ**4 أنوية غير واضحة** وبلا قضبان كروماتينية."
+   ],
+   "start": 4
+  },
+  {
+   "t": "note",
+   "en": "“Chromidial pars” in the slide means **chromatoidal bars**.",
+   "ar": "عبارة “Chromidial pars” في الشريحة يُقصد بها **القضبان الكروماتينية**.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/enana-row1.jpg",
+   "en": "__Endolimax nana__: Trophozoite (left) and Cyst (iodine, then stained)",
+   "ar": "الأميبا القزمة: الطور المتغذّي (يسار) والكيس (باليود، ثم مصبوغ)",
+   "h": "42mm",
+   "fit": "contain"
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/enana-photo.jpg",
+     "en": "Endolimax nana trophozoite (trichrome stain)",
+     "ar": "الطور المتغذّي للأميبا القزمة (الصبغة الثلاثية)",
+     "h": "62mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/enana-diagram.jpg",
+     "en": "Endolimax nana: cyst 6 to 8 µm (range 5 to 10 µm), trophozoite 8 to 10 µm (range 6 to 12 µm)",
+     "ar": "الأميبا القزمة: الكيس 6 إلى 8 مايكرومتر (المدى 5 إلى 10)، والمتغذّي 8 إلى 10 مايكرومتر (المدى 6 إلى 12)",
+     "h": "62mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "en": "The drawing gives other size ranges (cyst **5 to 10 µm**, trophozoite **6 to 12 µm**) than the text (**5- 14** and **6- 15 µm**); the text is kept as written.",
+   "ar": "الرسم يعطي أحجامًا أخرى (الكيس **5 إلى 10**، والمتغذّي **6 إلى 12 مايكرومتر**) غير النص (**5- 14** و**6- 15**)؛ وأُبقي النص كما كُتب.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/enana-row2.jpg",
+   "en": "__Endolimax nanus__ cysts and __Endolimax nanus__ trophozoite (drawings); cysts in iodine; unstained wet mount",
+   "ar": "أكياس الأميبا القزمة وطورها المتغذّي (رسوم)؛ أكياس باليود؛ تحضير رطب غير مصبوغ",
+   "h": "38mm",
+   "fit": "contain"
+  },
+  {
+   "t": "figure",
+   "src": "assets/enana-fig-ab.jpg",
+   "en": "__Endolimax nana__; A. Vegetative form; B. Quadrinucleate cyst — Food vacuole containing bacteria; Nucleus",
+   "ar": "الأميبا القزمة؛ A. الطور الخضري؛ B. الكيس رباعي الأنوية — فجوة غذائية تحتوي بكتيريا؛ النواة",
+   "h": "44mm",
+   "fit": "contain"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Lumen of the **large intestine** of man, primates and pigs; prevalence **10-20%**; 3 stages: troph, pre-cyst, cyst.",
+    "Troph **6-15 µm**, central nucleus, sluggish; **no chromatoid bars and no glycogen vacuole**.",
+    "Cyst **oval, 5-14 µm, 4 indistinct nuclei**."
+   ],
+   "ar": [
+    "تجويف **الأمعاء الغليظة** للإنسان والرئيسيات والخنازير؛ الانتشار **10-20%**؛ 3 أطوار: متغذّي، ما قبل الكيس، كيس.",
+    "المتغذّي **6-15 مايكرومتر**، نواة مركزية، بطيء؛ **بلا قضبان كروماتينية وبلا فجوة غلايكوجين**.",
+    "الكيس **بيضوي، 5-14 مايكرومتر، 4 أنوية غير واضحة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Iodamoeba Buetschlii",
+   "ar": "أميبا بوتشلي اليودية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "This is widely distributed, though less common than __E. coli__ and __E. nana__."
+   ],
+   "list_ar": [
+    "وهي واسعة الانتشار، لكنها أقل شيوعًا من الأميبا القولونية والقزمة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The trophozoite is small, 6–12 µm, with clear nucleus.",
+    [
+     "The cyst is oval, uninucleate, and has a prominent iodine staining glycogen mass (**iodophilic body**).",
+     "Hence, the name ‘Iodamoeba’."
+    ]
+   ],
+   "list_ar": [
+    "الطور المتغذّي **صغير، 6–12 مايكرومتر**، بنواة واضحة.",
+    [
+     "الكيس **بيضوي أحادي النواة**، وفيه كتلة غلايكوجين بارزة تتصبّغ باليود (**الجسم المحبّ لليود**).",
+     "ومن هنا جاء اسم ‘الأميبا اليودية’."
+    ]
+   ],
+   "start": 2
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/iod-figure.jpg",
+     "en": "Iodamoeba buetschlii: trophozoite (left; Size 6-20 µ, Average 12µ) and cyst (right; Size 5-18µ, Average 10µ) — Food Vacuole; Nucleus; Glycogen Vacuole",
+     "ar": "أميبا بوتشلي اليودية: الطور المتغذّي (يسار؛ الحجم 6-20، المتوسط 12) والكيس (يمين؛ الحجم 5-18، المتوسط 10 مايكرومتر) — فجوة غذائية؛ النواة؛ فجوة الغلايكوجين",
+     "h": "58mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/iod-cyst.jpg",
+     "en": "Iodamoeba butschlii cyst",
+     "ar": "كيس أميبا بوتشلي اليودية",
+     "h": "58mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Widely distributed but **less common than E. coli and E. nana**.",
+    "Troph **6-12 µm**, clear nucleus; cyst **oval, uninucleate** with a big **glycogen mass** that stains with iodine.",
+    "**Iodophilic body** → the name **Iodamoeba**."
+   ],
+   "ar": [
+    "واسعة الانتشار لكنها **أقل شيوعًا من القولونية والقزمة**.",
+    "المتغذّي **6-12 مايكرومتر** بنواة واضحة؛ الكيس **بيضوي أحادي النواة** فيه **كتلة غلايكوجين** كبيرة تتصبّغ باليود.",
+    "**الجسم المحبّ لليود** ← اسم **الأميبا اليودية**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "The four amoebae at a glance",
+   "ar": "الأميبات الأربع بنظرة واحدة"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Amoeba",
+     "الأميبا"
+    ],
+    [
+     "Trophozoite",
+     "الطور المتغذّي"
+    ],
+    [
+     "Cyst",
+     "الكيس"
+    ],
+    [
+     "Key point",
+     "النقطة المميّزة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**E. coli**",
+      "القولونية"
+     ],
+     [
+      "15- 50 µm, sluggish, large eccentric karyosome",
+      "15-50، بطيء، جسيم نووي كبير لا مركزي"
+     ],
+     [
+      "10-31 µm, 8 nuclei",
+      "10-31، 8 أنوية"
+     ],
+     [
+      "evidence of fecal ingestion",
+      "دليل ابتلاع مادة برازية"
+     ]
+    ],
+    [
+     [
+      "**E. gingivalis**",
+      "اللثوية"
+     ],
+     [
+      "5- 25 µm, active, central karyosome",
+      "5-25، نشط، جسيم نووي مركزي"
+     ],
+     [
+      "No cyst stage",
+      "لا يوجد كيس"
+     ],
+     [
+      "gums and teeth; kissing",
+      "اللثة والأسنان؛ التقبيل"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    19,
+    30,
+    27,
+    24
+   ],
+   "style": "summary",
+   "label_en": "Sizes in µm",
+   "label_ar": "الأحجام بالمايكرومتر"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Amoeba",
+     "الأميبا"
+    ],
+    [
+     "Trophozoite",
+     "الطور المتغذّي"
+    ],
+    [
+     "Cyst",
+     "الكيس"
+    ],
+    [
+     "Key point",
+     "النقطة المميّزة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Endolimax nana**",
+      "القزمة"
+     ],
+     [
+      "6- 15µm, sluggish",
+      "6-15، بطيء"
+     ],
+     [
+      "5- 14 µm, oval, 4 indistinct nuclei",
+      "5-14، بيضوي، 4 أنوية غير واضحة"
+     ],
+     [
+      "no chromatoid bars",
+      "بلا قضبان كروماتينية"
+     ]
+    ],
+    [
+     [
+      "**Iodamoeba Buetschlii**",
+      "بوتشلي اليودية"
+     ],
+     [
+      "6–12 µm, clear nucleus",
+      "6–12، نواة واضحة"
+     ],
+     [
+      "oval, uninucleate",
+      "بيضوي، أحادي النواة"
+     ],
+     [
+      "iodophilic body",
+      "الجسم المحبّ لليود"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    19,
+    30,
+    27,
+    24
+   ],
+   "style": "summary",
+   "label_en": "Sizes in µm (cont.)",
+   "label_ar": "الأحجام بالمايكرومتر (تكملة)"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Nuclei in the cyst: **E. coli 8**, **E. nana 4**, **Iodamoeba 1**, **E. gingivalis — no cyst**.",
+    "Only **E. gingivalis** lives in the **mouth**; the others live in the **large intestine**."
+   ],
+   "ar": [
+    "أنوية الكيس: **القولونية 8**، **القزمة 4**، **اليودية 1**، **اللثوية — بلا كيس**.",
+    "فقط **اللثوية** تعيش في **الفم**؛ والبقية في **الأمعاء الغليظة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Naegleria fowleri",
+   "ar": "النيغلرية الفاولرية"
+  },
+  {
+   "t": "card",
+   "en": "__Naegleria__ is a freeliving amoeba, typically found in warm fresh water, such as ponds, lakes, rivers and hot springs.",
+   "ar": "النيغلرية أميبا **حرّة المعيشة**، توجد عادةً في **المياه العذبة الدافئة** مثل البرك والبحيرات والأنهار و**الينابيع الحارّة**."
+  },
+  {
+   "t": "card",
+   "en": "It is also found in soil, near warmwater discharges of industrial plants and swimming pools.",
+   "ar": "وتوجد أيضًا في **التربة**، وقرب تصريفات المياه الدافئة للمنشآت الصناعية، وفي **أحواض السباحة**."
+  },
+  {
+   "t": "card",
+   "en": [
+    "Only one species, __N. fowleri__, is known to cause infection, although two other species, __N. australiensis__ and __N. italica__, can cause infection in mice __N. fowleri__ (also known as “the braineating amoeba”) is first described by physicians M. Fowler (hence named as fowleri) and R.F. Carter in Australia in 1965."
+   ],
+   "ar": [
+    "نوع واحد فقط هو **النيغلرية الفاولرية** معروف بأنه يسبّب الإصابة، مع أن نوعين آخرين هما **النيغلرية الأسترالية** و**النيغلرية الإيطالية** يمكن أن يسبّبا الإصابة في **الفئران**؛ و**النيغلرية الفاولرية** (المعروفة أيضًا بـ“**الأميبا آكلة الدماغ**”) وصفها أول مرة الطبيبان **فاولر** (ومنه جاء اسم `fowleri`) و**كارتر** في **أستراليا عام 1965**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Morphology",
+   "ar": "الشكل"
+  },
+  {
+   "t": "card",
+   "en": "__Naegleria fowleri__ exists in nature as cyst and trophozoite forms",
+   "ar": "توجد النيغلرية الفاولرية في الطبيعة بشكلَي **الكيس والطور المتغذّي**"
+  },
+  {
+   "t": "figure",
+   "src": "assets/naeg-forms.jpg",
+   "en": "__Naegleria fowleri__: amoeboid trophozoite (Lobopodia; Nucleolus; Nucleus; Karyosome; Food vacuole; Contractile vacuole), flagellated trophozoite (Flagella) and cyst (Thick smooth double layered cyst wall)",
+   "ar": "النيغلرية الفاولرية: الطور المتغذّي الأميبي (أقدام فصّية؛ النوية؛ النواة؛ الجسيم النووي؛ فجوة غذائية؛ فجوة متقلّصة)، والطور المسوط (الأسواط)، والكيس (جدار كيس سميك أملس ثنائي الطبقة)",
+   "h": "38mm",
+   "fit": "contain"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Trophozoite Stage:** The trophozoites occur in two forms, amoeboid and flagellated form.",
+    "Both measure 8–15 µm."
+   ],
+   "ar": [
+    "**طور المتغذّي:** تظهر الأطوار المتغذّية بشكلين، **أميبي ومسوط**.",
+    "وكلاهما يبلغ **8–15 مايكرومتر**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Amoeboid form:** It is the only recognizable form in humans.",
+    "It possesses lobate pseudopodia (called as **lobopodia**).",
+    "Cyto plasm is granular with food vacuoles; nucleus shows central karyosome and no peripheral chromatin.",
+    "It is the only replicating form and it divides by binary fission (Fig. 3.15 A)"
+   ],
+   "ar": [
+    "**الشكل الأميبي:** هو **الشكل الوحيد الذي يُعرف في الإنسان**.",
+    "ويملك أقدامًا كاذبة مفصّصة (تسمّى **الأقدام الفصّية**).",
+    "السايتوبلازم محبّب فيه فجوات غذائية؛ والنواة تُظهر **جسيمًا نوويًا مركزيًا ولا كروماتين محيطي**.",
+    "وهو **الشكل الوحيد المتكاثر** وينقسم **بالانشطار الثنائي** (الشكل 3.15 A)"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Flagellated form:** When the amoeboid forms are exposed to a change in ionic concentration such as placement in distilled water at 27–37°C, they transform [[cut]]",
+   "ar": "**الشكل المسوط:** عندما تتعرّض الأشكال الأميبية لتغيّر في التركيز الأيوني مثل وضعها في **الماء المقطّر بدرجة 27–37°م**، فإنها تتحوّل [[قطع]]"
+  },
+  {
+   "t": "note",
+   "en": "The slide stops at “they transform”; the next words are missing in the file.",
+   "ar": "تتوقّف الشريحة عند “they transform”؛ وبقية الكلام غير موجودة في الملف.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Life cycle of __Naegleria fowleri__",
+   "ar": "دورة حياة النيغلرية الفاولرية"
+  },
+  {
+   "t": "figure",
+   "src": "assets/naeg-cycle.jpg",
+   "en": "Life cycle of __Naegleria fowleri__",
+   "ar": "دورة حياة النيغلرية الفاولرية",
+   "h": "48mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Step",
+     "الخطوة"
+    ],
+    [
+     "Step",
+     "الخطوة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**1. Free living amoeboid trophozoites in water**",
+      "1. أطوار متغذّية أميبية حرّة المعيشة في الماء"
+     ],
+     [
+      "**2. Human infection by inhalation (during swimming)**",
+      "2. إصابة الإنسان بالاستنشاق (أثناء السباحة)"
+     ]
+    ],
+    [
+     [
+      "**3. Penetration of nasal mucosa**",
+      "3. اختراق الغشاء المخاطي للأنف"
+     ],
+     [
+      "**4. Olfactory nerve infection**",
+      "4. إصابة العصب الشمّي"
+     ]
+    ],
+    [
+     [
+      "**5. Brain**",
+      "5. الدماغ"
+     ],
+     [
+      "**6. Primary amoebic meningoencephalitis**",
+      "6. التهاب السحايا والدماغ الأميبي الأولي"
+     ]
+    ],
+    [
+     [
+      "**7. Death**",
+      "7. الوفاة"
+     ],
+     [
+      "",
+      ""
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure (in order)",
+   "label_ar": "كتابات الشكل (بالترتيب)"
+  },
+  {
+   "t": "h2",
+   "en": "Laboratory Diagnosis",
+   "ar": "التشخيص المختبري"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "***Cerebrospinal fl uid analysis***",
+    "CSF is thick purulent, with polymorphonuclear cells more than 20,000/µl, elevated protein and reduced sugar level (mimic bacterial menin gitis)."
+   ],
+   "list_ar": [
+    "***تحليل السائل الدماغي الشوكي***",
+    "يكون السائل الدماغي الشوكي **سميكًا قيحيًا**، فيه خلايا متعدّدة أشكال النواة **أكثر من 20,000/مايكرولتر**، و**بروتين مرتفع وسكر منخفض** (يحاكي **التهاب السحايا البكتيري**)."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "***Microscopy***",
+    "**Direct microscopy: Motile amoeboid** trophozoites can be demonstrated in wet mount preparation of CSF made with cover slip (counting chamber is not used as trophozites in CSF mimic leucocytes) Other forms are not seen in CSF"
+   ],
+   "list_ar": [
+    "***الفحص المجهري***",
+    "**الفحص المجهري المباشر:** يمكن إظهار **الأطوار المتغذّية الأميبية المتحرّكة** في تحضير رطب للسائل الدماغي الشوكي مغطّى بغطاء شريحة (لا تُستعمل **حجرة العدّ** لأن الأطوار المتغذّية في السائل **تحاكي كريات البيض**) ولا تُشاهد الأشكال الأخرى في السائل الدماغي الشوكي"
+   ],
+   "start": 3
+  },
+  {
+   "t": "card",
+   "en": "Conti…..",
+   "ar": "تكملة…..",
+   "list_en": [
+    [
+     "Care should be taken to diff erentiate the trophozoites from leukocytes.",
+     "Motile trophozoite containing a spherical nucleus with large karyosome is the clue for identifi cation"
+    ],
+    [
+     "**Phase contrast microscope yields better** result than light microscope.",
+     "(Fig. A)"
+    ],
+    "**Histopathological staining (Wright’s or** Giemsa) of CSF or brain biopsied tissue may demonstrate trophozoites with sky blue cytoplasm with a pink nucleus (Fig. B)"
+   ],
+   "list_ar": [
+    [
+     "يجب الحرص على **تمييز الأطوار المتغذّية عن كريات البيض**.",
+     "و**الطور المتغذّي المتحرّك ذو النواة الكروية والجسيم النووي الكبير** هو مفتاح التشخيص"
+    ],
+    [
+     "**مجهر التباين الطوري يعطي نتيجة أفضل** من المجهر الضوئي.",
+     "(الشكل A)"
+    ],
+    "**الصبغ النسيجي المرضي (رايت أو** كيمزا) للسائل الدماغي الشوكي أو لنسيج خزعة الدماغ قد يُظهر أطوارًا متغذّية **بسايتوبلازم أزرق سماوي ونواة وردية** (الشكل B)"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Conti……",
+   "ar": "تكملة……",
+   "list_en": [
+    [
+     "Refrigeration is not recommended if there is a delay in examining the CSF  If the parasite load is low then CSF can be centrifuged at low speed (150 rpm for 5 minutes).",
+     "Trophozoites are not damaged, they only lose their pseudopodia  Trophozoites can also be demonst rated by direct fluorescence anti body staining of centrifuged CSF using monoclonal antibody."
+    ]
+   ],
+   "list_ar": [
+    [
+     "**لا يُنصح بالتبريد** إذا تأخّر فحص السائل الدماغي الشوكي؛ وإذا كان حمل الطفيلي قليلًا يمكن **نبذ السائل بسرعة منخفضة (150 دورة/دقيقة لمدة 5 دقائق)**.",
+     "لا تتضرّر الأطوار المتغذّية، بل تفقد أقدامها الكاذبة فقط؛ ويمكن أيضًا إظهار الأطوار المتغذّية **بصبغة الأضداد المتألّقة المباشرة** للسائل المنبوذ باستعمال **ضدّ وحيد النسيلة**."
+    ]
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/naeg-fig-ab.jpg",
+   "en": "Figs A and B: __Naegleria fowleri__ (A) saline mount (phase contrast microscopy) top—flagellated trophozoite, below—amoeboid trophozoite; (B) arrow shows amoeboid rophozoite (hematoxylin and eosin stain)",
+   "ar": "الشكلان A وB: النيغلرية الفاولرية (A) تحضير ملحي (مجهر التباين الطوري) في الأعلى طور متغذّي مسوط وفي الأسفل طور متغذّي أميبي؛ (B) يشير السهم إلى طور متغذّي أميبي (صبغة الهيماتوكسيلين والأيوسين)",
+   "h": "49mm",
+   "fit": "contain"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    [
+     "***Culture:*** CSF sample can be cultivated on **nonnutrient agar (Page’s saline and 1.5% agar), lawn** cultured with bacterial supplement like __E. coli__.",
+     "__Naegleria__ feeds on bacteria and crawls over the lawn culture of __E. coli__ to produce trails (**Trail sign).**"
+    ]
+   ],
+   "list_ar": [
+    [
+     "***الزرع:*** يمكن زرع عيّنة السائل الدماغي الشوكي على **أكار غير مغذٍّ (محلول بيج الملحي و1.5% أكار)، مفروش** بمزرعة بكتيرية مضافة مثل **الإشريكية القولونية**.",
+     "تتغذّى النيغلرية على البكتيريا وتزحف فوق المزرعة المفروشة من الإشريكية القولونية فتترك مسارات (**علامة المسار).**"
+    ]
+   ],
+   "start": 2
+  },
+  {
+   "t": "note",
+   "en": [
+    "Words split by spaces such as “fl uid”, “menin gitis”, “diff erentiate”, “identifi cation”, “demonst rated” and “anti body” are copied as they appear in the slides (fluid, meningitis, differentiate, identification, demonstrated, antibody).",
+    "Here **E. coli** in the culture is the bacterium **Escherichia coli**, not the amoeba __Entamoeba coli__."
+   ],
+   "ar": [
+    "الكلمات المقطّعة بفراغات مثل “fl uid” و“menin gitis” و“diff erentiate” و“identifi cation” و“demonst rated” و“anti body” منقولة كما في الشرائح (أي: سائل، التهاب السحايا، يميّز، التشخيص، أُظهر، ضدّ).",
+    "و**E. coli** هنا في الزرع هي بكتيريا **الإشريكية القولونية** وليست الأميبا القولونية."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Free-living** amoeba of **warm fresh water**, soil and swimming pools; “the **brain-eating amoeba**”; described by **Fowler and Carter, Australia 1965**.",
+    "Forms: **cyst + trophozoite** (amoeboid and flagellated, **8-15 µm**); only the **amoeboid** form is seen in humans and replicates (binary fission)."
+   ],
+   "ar": [
+    "أميبا **حرّة المعيشة** في **المياه العذبة الدافئة** والتربة وأحواض السباحة؛ “**الأميبا آكلة الدماغ**”؛ وصفها **Fowler وCarter في أستراليا 1965**.",
+    "الأشكال: **كيس + متغذّي** (أميبي ومسوط، **8-15 مايكرومتر**)؛ والشكل **الأميبي** وحده يُرى في الإنسان ويتكاثر (انشطار ثنائي)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Infection: **inhalation while swimming** → nasal mucosa → **olfactory nerve** → brain → **PAM** → death.",
+    "CSF: purulent, PMN **> 20,000/µl**, ↑ protein, ↓ sugar; wet mount with cover slip (**no counting chamber**); phase contrast is better.",
+    "**No refrigeration**; centrifuge at **150 rpm / 5 min**; culture on **nonnutrient agar + E. coli lawn → Trail sign**."
+   ],
+   "ar": [
+    "الإصابة: **الاستنشاق أثناء السباحة** ← المخاطية الأنفية ← **العصب الشمّي** ← الدماغ ← **التهاب السحايا والدماغ الأميبي الأولي** ← الوفاة.",
+    "السائل الدماغي الشوكي: قيحي، متعدّدة النوى **> 20,000/مايكرولتر**، ↑ البروتين، ↓ السكر؛ تحضير رطب بغطاء شريحة (**بلا حجرة عدّ**)؛ والتباين الطوري أفضل.",
+    "**لا تبريد**؛ نبذ **150 دورة/دقيقة لمدة 5 دقائق**؛ الزرع على **أكار غير مغذٍّ + مزرعة إشريكية ← علامة المسار**."
+   ],
+   "label": [
+    "In short (cont.)",
+    "باختصار (تكملة)"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Non-pathogenic / Commensal**",
+     "غير ممرض / متعايش / مُعايش غير ضار"
+    ],
+    [
+     "**Trophozoite**",
+     "الطور المتغذّي / الطور الخضري / الطور النشط"
+    ],
+    [
+     "**Cyst / Pre-cyst**",
+     "الكيس / ما قبل الكيس / الطور المتكيّس"
+    ],
+    [
+     "**Karyosome**",
+     "الجسيم النووي / الكاريوسوم / النُّوَيّة الكاذبة"
+    ],
+    [
+     "**Eccentric**",
+     "لا مركزي / منحرف عن المركز"
+    ],
+    [
+     "**Peripheral chromatin**",
+     "الكروماتين المحيطي / كروماتين الحافة"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Chromatoid body**",
+     "الجسم الكروماتيني / القضيب الكروماتيني"
+    ],
+    [
+     "**Splinter shape**",
+     "شظوي الشكل / يشبه الشظايا"
+    ],
+    [
+     "**Iodophilic body**",
+     "الجسم المحبّ لليود / كتلة الغلايكوجين المتصبّغة باليود"
+    ],
+    [
+     "**Definitive host**",
+     "المضيف النهائي / المضيف الأساسي"
+    ],
+    [
+     "**Intermediate host**",
+     "المضيف الوسطي / المضيف الثانوي"
+    ],
+    [
+     "**Formol-ether concentration**",
+     "التركيز بالفورمول-إيثر / طريقة الفورمالين-إيثر"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Permanent stained preparation**",
+     "تحضير مصبوغ دائم / مسحة مصبوغة دائمة"
+    ],
+    [
+     "**Gingival tissue**",
+     "النسيج اللثوي / نسيج اللثة"
+    ],
+    [
+     "**Intrauterine device**",
+     "اللولب / وسيلة منع الحمل داخل الرحم"
+    ],
+    [
+     "**Free-living amoeba**",
+     "أميبا حرّة المعيشة / أميبا غير متطفّلة"
+    ],
+    [
+     "**Lobopodia**",
+     "الأقدام الفصّية / الأقدام الكاذبة المفصّصة"
+    ],
+    [
+     "**Flagellated form**",
+     "الشكل المسوط / الطور السوطي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Primary amoebic meningoencephalitis (PAM)**",
+     "التهاب السحايا والدماغ الأميبي الأولي"
+    ],
+    [
+     "**Olfactory nerve**",
+     "العصب الشمّي"
+    ],
+    [
+     "**Purulent CSF**",
+     "سائل دماغي شوكي قيحي / صديدي"
+    ],
+    [
+     "**Phase contrast microscope**",
+     "مجهر التباين الطوري / المجهر متباين الأطوار"
+    ],
+    [
+     "**Nonnutrient agar**",
+     "أكار غير مغذٍّ / وسط أكار فقير"
+    ],
+    [
+     "**Trail sign**",
+     "علامة المسار / علامة الأثر"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Entamoeba coli",
+    "topic_ar": "الأميبا القولونية"
+   },
+   {
+    "en": "Which of the following is a non-pathogenic amoeba?",
+    "ar": "أيّ مما يأتي أميبا غير ممرضة؟",
+    "options": [
+     [
+      "E. coli",
+      "الأميبا القولونية"
+     ],
+     [
+      "E. histolytica",
+      "الأميبا الحالّة للنسيج"
+     ],
+     [
+      "Naegleria fowleri",
+      "النيغلرية الفاولرية"
+     ],
+     [
+      "None of them",
+      "لا شيء منها"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The trophozoite of E. coli measures:",
+    "ar": "يبلغ الطور المتغذّي للأميبا القولونية:",
+    "options": [
+     [
+      "5- 25 µm",
+      "5- 25 مايكرومتر"
+     ],
+     [
+      "15- 50 µm",
+      "15- 50 مايكرومتر"
+     ],
+     [
+      "6–12 µm",
+      "6–12 مايكرومتر"
+     ],
+     [
+      "8–15 µm",
+      "8–15 مايكرومتر"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The karyosome of the E. coli trophozoite is:",
+    "ar": "الجسيم النووي للطور المتغذّي للأميبا القولونية:",
+    "options": [
+     [
+      "Small & central",
+      "صغير ومركزي"
+     ],
+     [
+      "Absent",
+      "غائب"
+     ],
+     [
+      "Large & eccentric",
+      "كبير ولا مركزي"
+     ],
+     [
+      "Half the nucleus (bull's eye)",
+      "بنصف النواة (عين الثور)"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The mature cyst of E. coli has:",
+    "ar": "للكيس الناضج للأميبا القولونية:",
+    "options": [
+     [
+      "1 nucleus",
+      "نواة واحدة"
+     ],
+     [
+      "2 nuclei",
+      "نواتان"
+     ],
+     [
+      "4 nuclei",
+      "4 أنوية"
+     ],
+     [
+      "8 nuclei",
+      "8 أنوية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The chromatoid body of E. coli is:",
+    "ar": "الجسم الكروماتيني للأميبا القولونية:",
+    "options": [
+     [
+      "Cigar-shaped",
+      "سيجاري"
+     ],
+     [
+      "Filamentous / splinter shape",
+      "خيطي / شظوي"
+     ],
+     [
+      "Absent",
+      "غائب"
+     ],
+     [
+      "Iodophilic",
+      "محبّ لليود"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The location of E. coli in the definitive host is:",
+    "ar": "موقع الأميبا القولونية في المضيف النهائي:",
+    "options": [
+     [
+      "Cecum and large intestine",
+      "الأعور والأمعاء الغليظة"
+     ],
+     [
+      "The liver",
+      "الكبد"
+     ],
+     [
+      "The mouth",
+      "الفم"
+     ],
+     [
+      "The brain",
+      "الدماغ"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The food vacuoles of E. coli contain:",
+    "ar": "تحتوي الفجوات الغذائية للأميبا القولونية:",
+    "options": [
+     [
+      "RBCs in acute cases",
+      "كريات حمر في الحالات الحادّة"
+     ],
+     [
+      "Leukocytes and epithelial cells",
+      "كريات بيض وخلايا ظهارية"
+     ],
+     [
+      "Bacteria, yeast & other particles without RBC",
+      "بكتيريا وخمائر ودقائق أخرى بلا كريات حمر"
+     ],
+     [
+      "Nothing",
+      "لا شيء"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The presence of E. coli in stool is evidence that the host:",
+    "ar": "وجود الأميبا القولونية في البراز دليل على أن المضيف:",
+    "options": [
+     [
+      "Has amoebic dysentery",
+      "مصاب بالزحار الأميبي"
+     ],
+     [
+      "Has a liver abscess",
+      "مصاب بخرّاج الكبد"
+     ],
+     [
+      "Swam in warm water",
+      "سبح في ماء دافئ"
+     ],
+     [
+      "Has ingested fecal material",
+      "ابتلع مادة برازية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "E. coli cysts are found in the laboratory by:",
+    "ar": "يُعثر على أكياس الأميبا القولونية في المختبر بـ:",
+    "options": [
+     [
+      "Iodine stained, formol-ether concentration method",
+      "التحضير المصبوغ باليود وطريقة التركيز بالفورمول-إيثر"
+     ],
+     [
+      "CSF wet mount",
+      "تحضير رطب للسائل الدماغي الشوكي"
+     ],
+     [
+      "Gum scrapings",
+      "كشط اللثة"
+     ],
+     [
+      "Culture on nonnutrient agar",
+      "الزرع على أكار غير مغذٍّ"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In the comparison table, the cyst diameter of E. histolytica is:",
+    "ar": "في جدول المقارنة، قطر كيس الأميبا الحالّة للنسيج:",
+    "options": [
+     [
+      "10-30 mµ",
+      "10-30"
+     ],
+     [
+      "5- 14 µm",
+      "5- 14"
+     ],
+     [
+      "20-50 mµ",
+      "20-50"
+     ],
+     [
+      "10-15 mµ",
+      "10-15"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Ectoplasm clearly differentiated from endoplasm is a feature of:",
+    "ar": "الإكتوبلازم المتميّز بوضوح عن الإندوبلازم صفة لـ:",
+    "options": [
+     [
+      "E. coli",
+      "الأميبا القولونية"
+     ],
+     [
+      "Endolimax nana",
+      "الأميبا القزمة"
+     ],
+     [
+      "E. histolytica",
+      "الأميبا الحالّة للنسيج"
+     ],
+     [
+      "Iodamoeba",
+      "الأميبا اليودية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Entamoeba gingivalis",
+    "topic_ar": "الأميبا اللثوية"
+   },
+   {
+    "en": "The first amoeba of man to be described was:",
+    "ar": "أول أميبا وُصفت في الإنسان هي:",
+    "options": [
+     [
+      "E. coli",
+      "الأميبا القولونية"
+     ],
+     [
+      "E. gingivalis",
+      "الأميبا اللثوية"
+     ],
+     [
+      "Naegleria fowleri",
+      "النيغلرية الفاولرية"
+     ],
+     [
+      "Endolimax nana",
+      "الأميبا القزمة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which stage of E. gingivalis has been found?",
+    "ar": "أيّ طور من الأميبا اللثوية عُثر عليه؟",
+    "options": [
+     [
+      "Trophozoite and cyst",
+      "المتغذّي والكيس"
+     ],
+     [
+      "Only the cyst",
+      "الكيس فقط"
+     ],
+     [
+      "Only the trophozoite",
+      "الطور المتغذّي فقط"
+     ],
+     [
+      "Pre-cyst and cyst",
+      "ما قبل الكيس والكيس"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "E. gingivalis is transmitted by:",
+    "ar": "تنتقل الأميبا اللثوية بـ:",
+    "options": [
+     [
+      "Contaminated water",
+      "الماء الملوّث"
+     ],
+     [
+      "Insect bite",
+      "لدغة حشرة"
+     ],
+     [
+      "Inhalation during swimming",
+      "الاستنشاق أثناء السباحة"
+     ],
+     [
+      "Direct oral contact (kissing)",
+      "التماس الفموي المباشر (التقبيل)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The prevalence of E. gingivalis in those with diseased teeth and gum reaches:",
+    "ar": "تصل نسبة انتشار الأميبا اللثوية في المصابين بأمراض الأسنان واللثة إلى:",
+    "options": [
+     [
+      "95%",
+      "95%"
+     ],
+     [
+      "20%",
+      "20%"
+     ],
+     [
+      "10%",
+      "10%"
+     ],
+     [
+      "50%",
+      "50%"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The food vacuoles of E. gingivalis contain:",
+    "ar": "تحتوي الفجوات الغذائية للأميبا اللثوية:",
+    "options": [
+     [
+      "Bacteria only",
+      "بكتيريا فقط"
+     ],
+     [
+      "Leukocytes, epithelial cells and red blood cells",
+      "كريات بيض وخلايا ظهارية وكريات حمر"
+     ],
+     [
+      "Yeast only",
+      "خمائر فقط"
+     ],
+     [
+      "Glycogen",
+      "غلايكوجين"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "E. gingivalis is diagnosed by finding trophozoites in:",
+    "ar": "تُشخَّص الأميبا اللثوية بإيجاد الأطوار المتغذّية في:",
+    "options": [
+     [
+      "Stool concentration",
+      "تركيز البراز"
+     ],
+     [
+      "Scrapings of the gums and teeth",
+      "كشط اللثة والأسنان"
+     ],
+     [
+      "CSF",
+      "السائل الدماغي الشوكي"
+     ],
+     [
+      "Blood film",
+      "مسحة الدم"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Endolimax nana and Iodamoeba",
+    "topic_ar": "الأميبا القزمة والأميبا اليودية"
+   },
+   {
+    "en": "The habitat of Endolimax nana is:",
+    "ar": "موطن الأميبا القزمة:",
+    "options": [
+     [
+      "Gingival tissue",
+      "النسيج اللثوي"
+     ],
+     [
+      "Liver",
+      "الكبد"
+     ],
+     [
+      "Brain",
+      "الدماغ"
+     ],
+     [
+      "Lumen of large intestine",
+      "تجويف الأمعاء الغليظة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The cyst of Endolimax nana is:",
+    "ar": "كيس الأميبا القزمة:",
+    "options": [
+     [
+      "Oval, 5- 14 µm, with 4 indistinct nuclei",
+      "بيضوي، 5- 14 مايكرومتر، بـ4 أنوية غير واضحة"
+     ],
+     [
+      "Oval with 1 nucleus",
+      "بيضوي بنواة واحدة"
+     ],
+     [
+      "Spherical with 8 nuclei",
+      "كروي بـ8 أنوية"
+     ],
+     [
+      "Absent",
+      "غائب"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In Endolimax nana, which are absent?",
+    "ar": "في الأميبا القزمة، أيّها غائب؟",
+    "options": [
+     [
+      "Nucleus",
+      "النواة"
+     ],
+     [
+      "Cytoplasm",
+      "السايتوبلازم"
+     ],
+     [
+      "Chromatoid bars and glycogen vacuole",
+      "القضبان الكروماتينية وفجوة الغلايكوجين"
+     ],
+     [
+      "Pseudopodia",
+      "الأقدام الكاذبة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Endolimax nana has how many stages?",
+    "ar": "كم طورًا للأميبا القزمة؟",
+    "options": [
+     [
+      "4",
+      "4"
+     ],
+     [
+      "1: trophozoite only",
+      "1: المتغذّي فقط"
+     ],
+     [
+      "2: amoeboid and flagellated",
+      "2: الأميبي والمسوط"
+     ],
+     [
+      "3: trophozoite, pre-cyst and cyst",
+      "3: المتغذّي وما قبل الكيس والكيس"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The name ‘Iodamoeba’ comes from:",
+    "ar": "اسم ‘الأميبا اليودية’ جاء من:",
+    "options": [
+     [
+      "Its iodine requirement",
+      "حاجتها لليود"
+     ],
+     [
+      "A glycogen mass that stains with iodine (iodophilic body)",
+      "كتلة غلايكوجين تتصبّغ باليود (الجسم المحبّ لليود)"
+     ],
+     [
+      "Its discoverer",
+      "مكتشفها"
+     ],
+     [
+      "Its 8 nuclei",
+      "أنويتها الثماني"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The cyst of Iodamoeba buetschlii is:",
+    "ar": "كيس أميبا بوتشلي اليودية:",
+    "options": [
+     [
+      "Spherical with 8 nuclei",
+      "كروي بـ8 أنوية"
+     ],
+     [
+      "Oval with 4 indistinct nuclei",
+      "بيضوي بـ4 أنوية غير واضحة"
+     ],
+     [
+      "Oval and uninucleate",
+      "بيضوي أحادي النواة"
+     ],
+     [
+      "Absent",
+      "غائب"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Naegleria fowleri",
+    "topic_ar": "النيغلرية الفاولرية"
+   },
+   {
+    "en": "Naegleria fowleri is typically found in:",
+    "ar": "توجد النيغلرية الفاولرية عادةً في:",
+    "options": [
+     [
+      "Warm fresh water",
+      "المياه العذبة الدافئة"
+     ],
+     [
+      "The human mouth",
+      "فم الإنسان"
+     ],
+     [
+      "Cold water only",
+      "الماء البارد فقط"
+     ],
+     [
+      "Sea water",
+      "ماء البحر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "N. fowleri is also known as:",
+    "ar": "تُعرف النيغلرية الفاولرية أيضًا بـ:",
+    "options": [
+     [
+      "The gum amoeba",
+      "أميبا اللثة"
+     ],
+     [
+      "The brain-eating amoeba",
+      "الأميبا آكلة الدماغ"
+     ],
+     [
+      "The iodine amoeba",
+      "الأميبا اليودية"
+     ],
+     [
+      "The dwarf amoeba",
+      "الأميبا القزمة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The only recognizable form of N. fowleri in humans is:",
+    "ar": "الشكل الوحيد المعروف للنيغلرية الفاولرية في الإنسان:",
+    "options": [
+     [
+      "The amoeboid form",
+      "الشكل الأميبي"
+     ],
+     [
+      "The cyst",
+      "الكيس"
+     ],
+     [
+      "The flagellated form",
+      "الشكل المسوط"
+     ],
+     [
+      "The pre-cyst",
+      "ما قبل الكيس"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The amoeboid and flagellated trophozoites of N. fowleri measure:",
+    "ar": "تبلغ الأطوار المتغذّية الأميبية والمسوطة للنيغلرية:",
+    "options": [
+     [
+      "15- 50 µm",
+      "15- 50 مايكرومتر"
+     ],
+     [
+      "5- 14 µm",
+      "5- 14 مايكرومتر"
+     ],
+     [
+      "8–15 µm",
+      "8–15 مايكرومتر"
+     ],
+     [
+      "20-50 µm",
+      "20-50 مايكرومتر"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Humans are infected with N. fowleri by:",
+    "ar": "يُصاب الإنسان بالنيغلرية الفاولرية عن طريق:",
+    "options": [
+     [
+      "Eating contaminated food",
+      "أكل طعام ملوّث"
+     ],
+     [
+      "Kissing",
+      "التقبيل"
+     ],
+     [
+      "Mosquito bite",
+      "لدغة البعوض"
+     ],
+     [
+      "Inhalation during swimming",
+      "الاستنشاق أثناء السباحة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The CSF in N. fowleri infection shows:",
+    "ar": "يُظهر السائل الدماغي الشوكي في إصابة النيغلرية:",
+    "options": [
+     [
+      "Clear CSF with normal sugar",
+      "سائل صافٍ وسكر طبيعي"
+     ],
+     [
+      "Thick purulent CSF, PMN > 20,000/µl, ↑ protein, ↓ sugar",
+      "سائل قيحي سميك، متعدّدة النوى > 20,000، ↑ البروتين، ↓ السكر"
+     ],
+     [
+      "Lymphocytes only",
+      "خلايا لمفية فقط"
+     ],
+     [
+      "Blood only",
+      "دم فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "A counting chamber is not used for N. fowleri in CSF because:",
+    "ar": "لا تُستعمل حجرة العدّ للنيغلرية في السائل الدماغي الشوكي لأن:",
+    "options": [
+     [
+      "They are too large",
+      "حجمها كبير جدًا"
+     ],
+     [
+      "They are flagellated",
+      "مسوطة"
+     ],
+     [
+      "They die in the chamber",
+      "تموت في الحجرة"
+     ],
+     [
+      "Trophozoites in CSF mimic leucocytes",
+      "الأطوار المتغذّية في السائل تحاكي كريات البيض"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "If the parasite load in CSF is low, the CSF is:",
+    "ar": "إذا كان حمل الطفيلي في السائل قليلًا فإن السائل:",
+    "options": [
+     [
+      "Refrigerated",
+      "يُبرَّد"
+     ],
+     [
+      "Discarded",
+      "يُهمل"
+     ],
+     [
+      "Centrifuged at low speed (150 rpm for 5 minutes)",
+      "يُنبذ بسرعة منخفضة (150 دورة/دقيقة لمدة 5 دقائق)"
+     ],
+     [
+      "Frozen",
+      "يُجمَّد"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The culture of N. fowleri on nonnutrient agar with an E. coli lawn gives:",
+    "ar": "زرع النيغلرية على أكار غير مغذٍّ مع مزرعة إشريكية مفروشة يعطي:",
+    "options": [
+     [
+      "Trail sign",
+      "علامة المسار"
+     ],
+     [
+      "Colonies with metallic sheen",
+      "مستعمرات ببريق معدني"
+     ],
+     [
+      "No growth",
+      "لا نمو"
+     ],
+     [
+      "Bull's eye sign",
+      "علامة عين الثور"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "This cyst with 8 nuclei belongs to:",
+    "ar": "هذا الكيس ذو الأنوية الثماني يعود إلى:",
+    "options": [
+     [
+      "Endolimax nana",
+      "الأميبا القزمة"
+     ],
+     [
+      "Entamoeba coli",
+      "الأميبا القولونية"
+     ],
+     [
+      "Iodamoeba buetschlii",
+      "أميبا بوتشلي اليودية"
+     ],
+     [
+      "E. histolytica",
+      "الأميبا الحالّة للنسيج"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/ecoli-cyst-diagram.jpg",
+    "img_h": "36mm"
+   },
+   {
+    "en": "This trophozoite with phagocytosed host leukocytes, from the mouth, is:",
+    "ar": "هذا الطور المتغذّي المبتلع لكريات بيض المضيف، من الفم، هو:",
+    "options": [
+     [
+      "E. coli",
+      "الأميبا القولونية"
+     ],
+     [
+      "Naegleria fowleri",
+      "النيغلرية الفاولرية"
+     ],
+     [
+      "E. gingivalis",
+      "الأميبا اللثوية"
+     ],
+     [
+      "Endolimax nana",
+      "الأميبا القزمة"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/eging-troph.jpg",
+    "img_h": "38mm"
+   },
+   {
+    "en": "The large glycogen vacuole in this uninucleate cyst identifies:",
+    "ar": "فجوة الغلايكوجين الكبيرة في هذا الكيس أحادي النواة تدلّ على:",
+    "options": [
+     [
+      "E. coli",
+      "الأميبا القولونية"
+     ],
+     [
+      "Endolimax nana",
+      "الأميبا القزمة"
+     ],
+     [
+      "E. gingivalis",
+      "الأميبا اللثوية"
+     ],
+     [
+      "Iodamoeba buetschlii",
+      "أميبا بوتشلي اليودية"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/iod-figure.jpg",
+    "img_h": "40mm"
+   },
+   {
+    "en": "This figure shows (A) the vegetative form and (B) the quadrinucleate cyst of:",
+    "ar": "يُظهر الشكل (A) الطور الخضري و(B) الكيس رباعي الأنوية لـ:",
+    "options": [
+     [
+      "Endolimax nana",
+      "الأميبا القزمة"
+     ],
+     [
+      "Iodamoeba",
+      "الأميبا اليودية"
+     ],
+     [
+      "E. gingivalis",
+      "الأميبا اللثوية"
+     ],
+     [
+      "E. coli",
+      "الأميبا القولونية"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/enana-fig-ab.jpg",
+    "img_h": "36mm"
+   },
+   {
+    "en": "This diagram shows the life cycle of:",
+    "ar": "يُظهر هذا المخطط دورة حياة:",
+    "options": [
+     [
+      "Endolimax nana",
+      "الأميبا القزمة"
+     ],
+     [
+      "E. coli",
+      "الأميبا القولونية"
+     ],
+     [
+      "E. gingivalis",
+      "الأميبا اللثوية"
+     ],
+     [
+      "Naegleria fowleri",
+      "النيغلرية الفاولرية"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/naeg-cycle.jpg",
+    "img_h": "48mm"
+   },
+   {
+    "en": "The three forms in this figure (amoeboid, flagellated, cyst) belong to:",
+    "ar": "الأشكال الثلاثة في هذا الشكل (أميبي، مسوط، كيس) تعود إلى:",
+    "options": [
+     [
+      "Naegleria fowleri",
+      "النيغلرية الفاولرية"
+     ],
+     [
+      "Iodamoeba",
+      "الأميبا اليودية"
+     ],
+     [
+      "E. coli",
+      "الأميبا القولونية"
+     ],
+     [
+      "E. gingivalis",
+      "الأميبا اللثوية"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/naeg-forms.jpg",
+    "img_h": "30mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "E. coli has an invasive stage.",
+    "ar": "للأميبا القولونية طور غازٍ.",
+    "answer": "F"
+   },
+   {
+    "en": "The cyst of E. coli is usually larger than that of E. histolytica.",
+    "ar": "كيس الأميبا القولونية عادةً أكبر من كيس الأميبا الحالّة للنسيج.",
+    "answer": "T"
+   },
+   {
+    "en": "E. coli has an intermediate host.",
+    "ar": "للأميبا القولونية مضيف وسطي.",
+    "answer": "F"
+   },
+   {
+    "en": "The trophozoite of E. coli does not attack the intestinal mucosa.",
+    "ar": "الطور المتغذّي للأميبا القولونية لا يهاجم الغشاء المخاطي للأمعاء.",
+    "answer": "T"
+   },
+   {
+    "en": "The chromatin bodies of E. histolytica are splinter shaped.",
+    "ar": "الأجسام الكروماتينية للأميبا الحالّة للنسيج شظوية الشكل.",
+    "answer": "F"
+   },
+   {
+    "en": "E. gingivalis never goes out to the external environment.",
+    "ar": "الأميبا اللثوية لا تخرج أبدًا إلى البيئة الخارجية.",
+    "answer": "T"
+   },
+   {
+    "en": "E. gingivalis has a central karyosome.",
+    "ar": "للأميبا اللثوية جسيم نووي مركزي.",
+    "answer": "T"
+   },
+   {
+    "en": "E. gingivalis may be found in cervical smears from women using intrauterine devices.",
+    "ar": "قد توجد الأميبا اللثوية في مسحات عنق الرحم للنساء المستعملات لوسائل منع الحمل داخل الرحم.",
+    "answer": "T"
+   },
+   {
+    "en": "Endolimax nana has chromatoid bars in its cyst.",
+    "ar": "لكيس الأميبا القزمة قضبان كروماتينية.",
+    "answer": "F"
+   },
+   {
+    "en": "Iodamoeba buetschlii is more common than E. coli.",
+    "ar": "أميبا بوتشلي اليودية أكثر شيوعًا من الأميبا القولونية.",
+    "answer": "F"
+   },
+   {
+    "en": "The cyst of Iodamoeba is uninucleate.",
+    "ar": "كيس الأميبا اليودية أحادي النواة.",
+    "answer": "T"
+   },
+   {
+    "en": "Only N. fowleri among Naegleria species is known to cause infection in man.",
+    "ar": "النيغلرية الفاولرية وحدها من أنواع النيغلرية معروفة بأنها تسبّب الإصابة في الإنسان.",
+    "answer": "T"
+   },
+   {
+    "en": "The flagellated form of N. fowleri is the only replicating form.",
+    "ar": "الشكل المسوط للنيغلرية هو الشكل الوحيد المتكاثر.",
+    "answer": "F"
+   },
+   {
+    "en": "Refrigeration of CSF is recommended if examination is delayed.",
+    "ar": "يُنصح بتبريد السائل الدماغي الشوكي إذا تأخّر فحصه.",
+    "answer": "F"
+   },
+   {
+    "en": "Phase contrast microscope gives better results than light microscope for N. fowleri.",
+    "ar": "مجهر التباين الطوري يعطي نتائج أفضل من المجهر الضوئي للنيغلرية.",
+    "answer": "T"
+   },
+   {
+    "en": "In Wright's or Giemsa stain, N. fowleri trophozoites show sky blue cytoplasm with a pink nucleus.",
+    "ar": "في صبغة رايت أو كيمزا تُظهر أطوار النيغلرية سايتوبلازم أزرق سماوي ونواة وردية.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "E. coli cyst vs E. histolytica cyst — how many nuclei?",
+    "ar": "كيس القولونية مقابل كيس الحالّة للنسيج — كم نواة؟",
+    "answer_en": "E. coli: 8 nuclei; E. histolytica: 4 nuclei.",
+    "answer_ar": "القولونية: 8 أنوية؛ الحالّة للنسيج: 4 أنوية."
+   },
+   {
+    "en": "Chromatoid bodies: cigar or splinter?",
+    "ar": "الأجسام الكروماتينية: سيجارية أم شظوية؟",
+    "answer_en": "E. histolytica: 1-4, cigar-shape; E. coli: 10-15, splinter shape (filamentous).",
+    "answer_ar": "الحالّة للنسيج: 1-4 سيجارية؛ القولونية: 10-15 شظوية (خيطية)."
+   },
+   {
+    "en": "Karyosome: E. coli vs E. gingivalis?",
+    "ar": "الجسيم النووي: القولونية مقابل اللثوية؟",
+    "answer_en": "E. coli: large & eccentric; E. gingivalis: central.",
+    "answer_ar": "القولونية: كبير ولا مركزي؛ اللثوية: مركزي."
+   },
+   {
+    "en": "Which amoeba eats RBCs besides E. histolytica in this lab?",
+    "ar": "أيّ أميبا تأكل كريات حمرًا غير الحالّة للنسيج في هذا العملي؟",
+    "answer_en": "E. gingivalis (leukocytes, epithelial cells and red blood cells); E. coli does not ingest RBCs.",
+    "answer_ar": "الأميبا اللثوية (كريات بيض وخلايا ظهارية وكريات حمر)؛ أما القولونية فلا تبتلع الكريات الحمر."
+   },
+   {
+    "en": "Endolimax nana cyst vs Iodamoeba cyst?",
+    "ar": "كيس القزمة مقابل كيس اليودية؟",
+    "answer_en": "E. nana: oval, 4 indistinct nuclei, no glycogen vacuole; Iodamoeba: oval, 1 nucleus, big iodophilic glycogen mass.",
+    "answer_ar": "القزمة: بيضوي، 4 أنوية غير واضحة، بلا فجوة غلايكوجين؛ اليودية: بيضوي، نواة واحدة، كتلة غلايكوجين كبيرة محبّة لليود."
+   },
+   {
+    "en": "E. coli in the Naegleria culture — the amoeba?",
+    "ar": "الـ E. coli في زرع النيغلرية — هل هي الأميبا؟",
+    "answer_en": "No — it is the bacterium (Escherichia coli) used as a lawn for Naegleria to feed on.",
+    "answer_ar": "لا — هي البكتيريا (الإشريكية القولونية) المفروشة لتتغذّى عليها النيغلرية."
+   },
+   {
+    "en": "Which form of N. fowleri is seen in CSF?",
+    "ar": "أيّ شكل من النيغلرية يُرى في السائل الدماغي الشوكي؟",
+    "answer_en": "Only the motile amoeboid trophozoite; other forms are not seen in CSF.",
+    "answer_ar": "الطور المتغذّي الأميبي المتحرّك فقط؛ والأشكال الأخرى لا تُرى في السائل."
+   }
+  ],
+  "important": [
+   {
+    "en": "Compare E. histolytica and E. coli.",
+    "ar": "قارن بين الأميبا الحالّة للنسيج والأميبا القولونية.",
+    "answer_en": "Disease: amoebiasis vs non pathogenic. Motility: active vs sluggish. Size: 10-40 vs 20-50 µm. Cytoplasm: ectoplasm clearly vs not clearly differentiated. Food vacuole: RBCs in acute cases vs bacteria, yeast without RBCs. Karyosome: small & central vs large & eccentric. Cyst: 10-15 vs 10-30 µm; 4 vs 8 nuclei; chromatin bodies 1-4 cigar-shape vs 10-15 splinter shape.",
+    "answer_ar": "المرض: داء الأميبات مقابل غير ممرضة. الحركة: نشطة مقابل بطيئة. الحجم: 10-40 مقابل 20-50 مايكرومتر. السايتوبلازم: الإكتوبلازم متميّز بوضوح مقابل غير متميّز. الفجوة الغذائية: كريات حمر في الحالات الحادّة مقابل بكتيريا وخمائر بلا كريات حمر. الجسيم النووي: صغير مركزي مقابل كبير لا مركزي. الكيس: 10-15 مقابل 10-30 مايكرومتر؛ 4 مقابل 8 أنوية؛ أجسام كروماتينية 1-4 سيجارية مقابل 10-15 شظوية."
+   },
+   {
+    "en": "Write the general information of Entamoeba coli.",
+    "ar": "اكتب المعلومات العامة عن الأميبا القولونية.",
+    "answer_en": "Definitive host: humans; intermediate host: none; transmission: ingestion of contaminated food and water; location: cecum and large intestine; pathology and treatment: none — harmless commensal feeding on bacteria, yeast and wastes; diagnosis: distinguish it from E. histolytica (8 nuclei in cyst vs 4, different shape nuclei).",
+    "answer_ar": "المضيف النهائي: الإنسان؛ المضيف الوسطي: لا يوجد؛ الانتقال: ابتلاع طعام وماء ملوّثين؛ الموقع: الأعور والأمعاء الغليظة؛ الإمراضية والعلاج: لا يوجد — متعايش غير ضار يتغذّى على البكتيريا والخمائر والفضلات؛ التشخيص: تمييزها عن الحالّة للنسيج (8 أنوية في الكيس مقابل 4، وأنوية مختلفة الشكل)."
+   },
+   {
+    "en": "How is E. coli diagnosed in the laboratory?",
+    "ar": "كيف تُشخَّص الأميبا القولونية في المختبر؟",
+    "answer_en": "By finding the characteristic cysts in an iodine stained, formol-ether concentration method, or by detecting the characteristic trophozoites in a wet preparation or a permanent stained preparation.",
+    "answer_ar": "بإيجاد الأكياس المميّزة في تحضير مصبوغ باليود أو بطريقة التركيز بالفورمول-إيثر، أو بالكشف عن الأطوار المتغذّية المميّزة في تحضير رطب أو تحضير مصبوغ دائم."
+   },
+   {
+    "en": "Write short notes on Entamoeba gingivalis.",
+    "ar": "اكتب ملاحظات قصيرة عن الأميبا اللثوية.",
+    "answer_en": "First amoeba of man described (Gros, 1849); only the trophozoite (5-25 µm, actively motile, central karyosome, food vacuoles with leukocytes, epithelial cells and RBCs); lives in gingival tissue between teeth and gum; transmitted by direct oral contact (kissing) and contaminated utensils; prevalence 10% in healthy mouths to 95% with diseased teeth and gum; also in diseased tonsils and vaginal/cervical smears of IUD users; diagnosis: trophozoites in scrapings of gums and teeth.",
+    "answer_ar": "أول أميبا وُصفت في الإنسان (Gros، 1849)؛ طور متغذّي فقط (5-25 مايكرومتر، نشط الحركة، جسيم نووي مركزي، فجوات غذائية فيها كريات بيض وخلايا ظهارية وكريات حمر)؛ تعيش في النسيج اللثوي بين الأسنان واللثة؛ تنتقل بالتماس الفموي المباشر (التقبيل) والأواني الملوّثة؛ الانتشار 10% بالفم السليم إلى 95% مع أمراض الأسنان واللثة؛ وأيضًا في اللوزتين المريضتين ومسحات المهبل وعنق الرحم لمستعملات اللولب؛ التشخيص: أطوار متغذّية في كشط اللثة والأسنان."
+   },
+   {
+    "en": "Describe Endolimax nana and Iodamoeba buetschlii.",
+    "ar": "صف الأميبا القزمة وأميبا بوتشلي اليودية.",
+    "answer_en": "Endolimax nana: lumen of large intestine of man, primates and pigs; prevalence 10-20%; 3 stages; trophozoite 6-15 µm, granular vacuolated cytoplasm, central nucleus, sluggish; no chromatoid bars or glycogen vacuole; cyst oval 5-14 µm with 4 indistinct nuclei. Iodamoeba: widely distributed but less common; trophozoite 6-12 µm with clear nucleus; cyst oval, uninucleate with an iodine-staining glycogen mass (iodophilic body) — hence the name.",
+    "answer_ar": "الأميبا القزمة: تجويف الأمعاء الغليظة للإنسان والرئيسيات والخنازير؛ الانتشار 10-20%؛ 3 أطوار؛ المتغذّي 6-15 مايكرومتر بسايتوبلازم محبّب مفجّى ونواة مركزية وحركة بطيئة؛ بلا قضبان كروماتينية ولا فجوة غلايكوجين؛ الكيس بيضوي 5-14 مايكرومتر بـ4 أنوية غير واضحة. اليودية: واسعة الانتشار لكنها أقل شيوعًا؛ المتغذّي 6-12 مايكرومتر بنواة واضحة؛ الكيس بيضوي أحادي النواة فيه كتلة غلايكوجين تتصبّغ باليود (الجسم المحبّ لليود) — ومنه الاسم."
+   },
+   {
+    "en": "Describe the forms and life cycle of Naegleria fowleri.",
+    "ar": "صف أشكال النيغلرية الفاولرية ودورة حياتها.",
+    "answer_en": "Exists as cyst and trophozoite; trophozoites are amoeboid and flagellated (8-15 µm). The amoeboid form has lobopodia, granular cytoplasm with food vacuoles, central karyosome and no peripheral chromatin; it is the only form recognized in humans and the only replicating form (binary fission). The amoeboid form transforms into the flagellated form in distilled water at 27-37 °C. Cycle: free-living trophozoites in water → inhalation while swimming → nasal mucosa → olfactory nerve → brain → primary amoebic meningoencephalitis → death.",
+    "answer_ar": "توجد بشكل كيس وطور متغذّي؛ والأطوار المتغذّية أميبية ومسوطة (8-15 مايكرومتر). للشكل الأميبي أقدام فصّية وسايتوبلازم محبّب فيه فجوات غذائية وجسيم نووي مركزي بلا كروماتين محيطي؛ وهو الشكل الوحيد المعروف في الإنسان والوحيد المتكاثر (انشطار ثنائي). ويتحوّل الشكل الأميبي إلى المسوط في الماء المقطّر بدرجة 27-37 °م. الدورة: أطوار حرّة في الماء ← استنشاق أثناء السباحة ← المخاطية الأنفية ← العصب الشمّي ← الدماغ ← التهاب السحايا والدماغ الأميبي الأولي ← الوفاة."
+   },
+   {
+    "en": "Describe the laboratory diagnosis of Naegleria fowleri.",
+    "ar": "صف التشخيص المختبري للنيغلرية الفاولرية.",
+    "answer_en": "CSF analysis: thick purulent, PMN > 20,000/µl, elevated protein, reduced sugar (mimics bacterial meningitis). Direct microscopy: motile amoeboid trophozoites in a wet mount with cover slip (no counting chamber — they mimic leucocytes); spherical nucleus with large karyosome is the clue; phase contrast is better. Wright's or Giemsa stain: sky blue cytoplasm, pink nucleus. No refrigeration; low parasite load → centrifuge at 150 rpm for 5 min; direct fluorescent antibody with monoclonal antibody. Culture on nonnutrient agar with E. coli lawn → trail sign.",
+    "answer_ar": "تحليل السائل الدماغي الشوكي: قيحي سميك، متعدّدة النوى > 20,000/مايكرولتر، بروتين مرتفع، سكر منخفض (يحاكي التهاب السحايا البكتيري). الفحص المباشر: أطوار متغذّية أميبية متحرّكة في تحضير رطب بغطاء شريحة (بلا حجرة عدّ لأنها تحاكي كريات البيض)؛ النواة الكروية بجسيم نووي كبير هي المفتاح؛ والتباين الطوري أفضل. صبغة رايت أو كيمزا: سايتوبلازم أزرق سماوي ونواة وردية. لا تبريد؛ الحمل القليل ← نبذ 150 دورة/دقيقة لمدة 5 دقائق؛ أضداد متألّقة مباشرة بضدّ وحيد النسيلة. الزرع على أكار غير مغذٍّ مع مزرعة إشريكية ← علامة المسار."
+   }
+  ]
+ }
+}

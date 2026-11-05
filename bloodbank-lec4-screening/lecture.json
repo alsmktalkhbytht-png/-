@@ -20,6 +20,14 @@
    "ar": "إجراءات الفحص لحماية المتلقّين"
   },
   {
+   "t": "figure",
+   "src": "assets/blood-bags.jpg",
+   "en": "Lec. 4 Screening Measures to protect recipients — blood bags",
+   "ar": "المحاضرة 4: إجراءات الفحص لحماية المتلقّين — أكياس الدم",
+   "h": "46mm",
+   "fit": "contain"
+  },
+  {
    "t": "card",
    "en": "**Screening Measures to protect recipients includes :**",
    "ar": "**تشمل إجراءات الفحص لحماية المتلقّين:**",
@@ -39,48 +47,63 @@
    ]
   },
   {
-   "t": "rule",
-   "en": [
-    "**6. Laboratory testing of donated blood** which includes :",
-    "- **Microbiological testing** ( HIV, HBsAg, HCV Ab, syphilis)",
-    "- **Immunohematological testing** of donations."
+   "t": "card",
+   "en": "**6. Laboratory testing of donated blood** which includes :",
+   "ar": "**6. الفحص المختبري للدم المتبرَّع به** ويشمل:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Microbiological testing** ( HIV, HBsAg, HCV Ab, syphilis)",
+    "**Immunohematological testing** of donations."
    ],
-   "ar": [
-    "**6. الفحص المختبري للدم المتبرَّع به** ويشمل:",
-    "- **الفحوص الميكروبيولوجية** (HIV، HBsAg، أضداد HCV، الزهري)",
-    "- **الفحوص المناعية الدموية** للتبرّعات."
+   "list_ar": [
+    "**الفحوص الميكروبيولوجية** (HIV، HBsAg، أضداد HCV، الزهري)",
+    "**الفحوص المناعية الدموية** للتبرّعات."
    ]
   },
   {
-   "t": "rule",
-   "en": [
-    "**7. Post collection Blood component processing** which includes :",
-    "- **Leukodepletion** of cellular products by removing white blood cells to reduced risk of **alloimmunization and CMV Transmission**.",
-    "- **Pathogen inactivation technologies** used for **platelets and plasma** like **UV light, photosensitization** to inactivate virus and bacteria."
+   "t": "card",
+   "en": "**7. Post collection Blood component processing** which includes :",
+   "ar": "**7. معالجة مكوّنات الدم بعد الجمع** وتشمل:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Leukodepletion** of cellular products by removing white blood cells to reduced risk of **alloimmunization and CMV Transmission**.",
+    "**Pathogen inactivation technologies** used for **platelets and plasma** like **UV light, photosensitization** to inactivate virus and bacteria."
    ],
-   "ar": [
-    "**7. معالجة مكوّنات الدم بعد الجمع** وتشمل:",
-    "- **إزالة الكريات البيض** من المنتجات الخلوية لتقليل خطر **التمنيع الخيفي (التحسّس المناعي) ونقل فيروس CMV**.",
-    "- **تقنيات تعطيل الممرضات** للـ**صفائح والبلازما** مثل **الأشعة فوق البنفسجية والتحسيس الضوئي** لتعطيل الفيروسات والبكتيريا."
+   "list_ar": [
+    "**إزالة الكريات البيض** من المنتجات الخلوية لتقليل خطر **التمنيع الخيفي (التحسّس المناعي) ونقل فيروس CMV**.",
+    "**تقنيات تعطيل الممرضات** للـ**صفائح والبلازما** مثل **الأشعة فوق البنفسجية والتحسيس الضوئي** لتعطيل الفيروسات والبكتيريا."
    ]
   },
   {
-   "t": "rule",
-   "en": [
-    "**8. Blood typing and cross-matching** by doing :",
-    "- **ABO & Rh typing** to prevent hemolytic reactions",
-    "- **Antibody screening** detects unexpected antibodies that may cause reaction",
-    "- **Cross matching** : test the compatibility between donor & recipient blood."
+   "t": "card",
+   "en": "**8. Blood typing and cross-matching** by doing :",
+   "ar": "**8. تحديد فصيلة الدم والمطابقة التصالبية** بإجراء:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**ABO & Rh typing** to prevent hemolytic reactions",
+    "**Antibody screening** detects unexpected antibodies that may cause reaction",
+    "**Cross matching** : test the compatibility between donor & recipient blood."
    ],
-   "ar": [
-    "**8. تحديد فصيلة الدم والمطابقة التصالبية** بإجراء:",
-    "- **تحديد فصيلة ABO وRh** لمنع التفاعلات الانحلالية",
-    "- **تحرّي الأضداد** يكشف الأضداد غير المتوقّعة التي قد تسبّب تفاعلًا",
-    "- **المطابقة التصالبية:** فحص التوافق بين دم المتبرّع ودم المتلقّي."
+   "list_ar": [
+    "**تحديد فصيلة ABO وRh** لمنع التفاعلات الانحلالية",
+    "**تحرّي الأضداد** يكشف الأضداد غير المتوقّعة التي قد تسبّب تفاعلًا",
+    "**المطابقة التصالبية:** فحص التوافق بين دم المتبرّع ودم المتلقّي."
    ]
   },
   {
-   "t": "rule",
+   "t": "card",
    "en": "**9. Monitoring and testing for bacterial contamination**",
    "ar": "**9. مراقبة التلوّث البكتيري وفحصه**"
   },
@@ -115,6 +138,23 @@
    ]
   },
   {
+   "t": "note",
+   "en": [
+    "Recipient protection: donor selection, deferral, safest sources, arm cleaning, **diversion of first 20–30 ml**, lab testing, processing, typing & cross match, bacterial monitoring.",
+    "Microbiology: **HIV, HBsAg, HCV Ab, syphilis**; **paid donors are risky**.",
+    "**Leukodepletion** ↓ alloimmunization and CMV; viral inactivation: **heat 60 °C/10 h**, solvent/detergent, methylene blue, UV."
+   ],
+   "ar": [
+    "حماية المتلقّي: اختيار المتبرّع، التأجيل، أأمن المصادر، تنظيف الذراع، **تحويل أول 20–30 مل**، الفحص المختبري، المعالجة، الفصيلة والمطابقة، مراقبة التلوّث.",
+    "الفحوص الميكروبيولوجية: **HIV وHBsAg وأضداد HCV والزهري**؛ **المتبرّع المدفوع خطِر**.",
+    "**إزالة البيض** تقلّل التمنيع الخيفي وCMV؛ تعطيل الفيروسات: **حرارة 60 مْ/10 ساعات**، المذيب/المنظّف، أزرق المثيلين، الأشعة فوق البنفسجية."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
    "t": "section",
    "en": "Risk of long incubation period viruses",
    "ar": "خطر الفيروسات ذات فترة الحضانة الطويلة"
@@ -141,6 +181,19 @@
    "t": "card",
    "en": "**Bacteria**, especially **skin contaminants** and **blood-borne parasites**, are also potentially transmissible by blood transfusion.",
    "ar": "و**البكتيريا**، ولا سيما **ملوّثات الجلد**، و**الطفيليات المنقولة بالدم** قابلة أيضًا للانتقال بنقل الدم."
+  },
+  {
+   "t": "note",
+   "en": [
+    "Greatest risk: viruses with **long incubation**; acute ones only in **pre-symptomatic viremia** (parvovirus B19, hepatitis A)."
+   ],
+   "ar": [
+    "أكبر خطر: فيروسات **الحضانة الطويلة**؛ والحادة فقط في **طور التفيرس قبل الأعراض** (B19، التهاب الكبد A)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
   },
   {
    "t": "section",
@@ -222,14 +275,87 @@
    }
   },
   {
+   "t": "note",
+   "en": [
+    "ID wristband: **two unique identifiers** (name + date of birth or record number)."
+   ],
+   "ar": [
+    "سوار التعريف: **مُعرِّفان فريدان** (الاسم + تاريخ الميلاد أو رقم السجل)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
    "t": "section",
    "en": "What to be expected if incompatibility occur to recipient ??",
    "ar": "ماذا نتوقّع إذا حدث عدم توافق للمتلقّي؟"
   },
   {
+   "t": "h2",
+   "en": "What to be expected if : ABO incompatibility occur to recipient ??",
+   "ar": "ماذا نتوقّع إذا حدث عدم توافق ABO للمتلقّي؟"
+  },
+  {
    "t": "card",
    "en": "**Recipient antibodies attack the donor RBC**",
-   "ar": "**تهاجم أضداد المتلقّي كريات المتبرّع الحمر**"
+   "ar": "**تهاجم أضداد المتلقّي كريات المتبرّع الحمر**",
+   "list_en": [
+    "Cause: ABO incompatibility",
+    "Occur inside the circulation ( Intravascular hemolysis)",
+    "It is usually sever ."
+   ],
+   "list_ar": [
+    "السبب: **عدم توافق ABO**",
+    "يحدث **داخل الدوران** (**انحلال داخل الأوعية**)",
+    "وهو عادةً **شديد**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "The antibodies of the recipient (**IgM**) are very strong and call the complements to complete the reaction (Massive activation of complement can cause shock) with signs of hemolysis which manifested by:",
+   "ar": "أضداد المتلقّي (**IgM**) قوية جدًا وتستدعي **المتمّمة** لإكمال التفاعل (و**التنشيط الهائل للمتمّمة قد يسبّب صدمة**) مع علامات انحلال تظهر بـ:",
+   "list_en": [
+    "Low Hb, High Reticulocytes count .",
+    "Hemoglobinuria, Hemoglobinemia .",
+    "Increase bilirubin, Low Haptoglobin"
+   ],
+   "list_ar": [
+    "انخفاض Hb، وارتفاع عدد **الخلايا الشبكية**.",
+    "**بيلة هيموغلوبينية**، و**تدمّي هيموغلوبيني** (هيموغلوبين في الدم).",
+    "ارتفاع **البيليروبين**، وانخفاض **الهابتوغلوبين**"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "What to be expected if : Rh incompatibility occur to recipient ??",
+   "ar": "ماذا نتوقّع إذا حدث عدم توافق Rh للمتلقّي؟"
+  },
+  {
+   "t": "card",
+   "en": "**Recipient antibodies attack the donor RBC**",
+   "ar": "**تهاجم أضداد المتلقّي كريات المتبرّع الحمر**",
+   "list_en": [
+    "Cause: Rh incompatibility",
+    [
+     "Occur outside the circulation ( Extravascular hemolysis) in the liver and spleen (the donor RBCs are removed from the circulation by macrophages in the spleen and liver.",
+     "The macrophages destroy the red blood cells inside these organs.)"
+    ],
+    "It is not sever case",
+    "The recipient antibodies are weak (IgG)",
+    "No signs of hemolysis"
+   ],
+   "list_ar": [
+    "السبب: **عدم توافق Rh**",
+    [
+     "يحدث **خارج الدوران** (**انحلال خارج الأوعية**) في **الكبد والطحال** (تُزال كريات المتبرّع من الدوران بواسطة **البلاعم في الطحال والكبد**.",
+     "وتدمّر البلاعم الكريات الحمر داخل هذين العضوين.)"
+    ],
+    "**ليست حالة شديدة**",
+    "أضداد المتلقّي **ضعيفة (IgG)**",
+    "**لا علامات انحلال**"
+   ]
   },
   {
    "t": "table",
@@ -318,14 +444,16 @@
    "label_ar": "عدم توافق ABO مقابل Rh"
   },
   {
-   "t": "card",
+   "t": "note",
    "en": [
-    "In Rh incompatibility, the donor RBCs are removed from the circulation by **macrophages in the spleen and liver**.",
-    "The macrophages destroy the red blood cells inside these organs."
+    "**ABO** incompatibility: intravascular, severe, **IgM** + complement; **Rh**: extravascular (liver, spleen), mild, **IgG**."
    ],
    "ar": [
-    "في عدم توافق Rh تُزال كريات المتبرّع من الدوران بواسطة **البلاعم في الطحال والكبد**.",
-    "وتدمّر البلاعم الكريات الحمر داخل هذين العضوين."
+    "عدم توافق **ABO**: داخل الأوعية، شديد، **IgM** + متمّمة؛ و**Rh**: خارج الأوعية (الكبد والطحال)، خفيف، **IgG**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
    ]
   },
   {
@@ -351,8 +479,8 @@
   },
   {
    "t": "h2",
-   "en": "STEPS IN PRETRANSFUSION TESTING",
-   "ar": "خطوات فحوص ما قبل النقل"
+   "en": "STEPS IN PRETRANSFUSION TESTING RELEVANT STANDARD(S)",
+   "ar": "خطوات فحوص ما قبل النقل والمعايير ذات الصلة"
   },
   {
    "t": "flow",
@@ -780,53 +908,24 @@
    "label_ar": "المطابقة الكبرى مقابل الصغرى"
   },
   {
-   "t": "section",
-   "en": "Quick summary & key terms",
-   "ar": "الخلاصة السريعة وأهم المصطلحات"
-  },
-  {
-   "t": "h2",
-   "en": "In short",
-   "ar": "باختصار"
-  },
-  {
-   "t": "card",
-   "en": "",
-   "ar": "",
-   "list_en": [
-    "Recipient protection: donor selection, deferral, safest sources, arm cleaning, **diversion of first 20–30 ml**, lab testing, processing, typing & cross match, bacterial monitoring.",
-    "Microbiology: **HIV, HBsAg, HCV Ab, syphilis**; **paid donors are risky**.",
-    "**Leukodepletion** ↓ alloimmunization and CMV; viral inactivation: **heat 60 °C/10 h**, solvent/detergent, methylene blue, UV.",
-    "Greatest risk: viruses with **long incubation**; acute ones only in **pre-symptomatic viremia** (parvovirus B19, hepatitis A)."
-   ],
-   "list_ar": [
-    "حماية المتلقّي: اختيار المتبرّع، التأجيل، أأمن المصادر، تنظيف الذراع، **تحويل أول 20–30 مل**، الفحص المختبري، المعالجة، الفصيلة والمطابقة، مراقبة التلوّث.",
-    "الفحوص الميكروبيولوجية: **HIV وHBsAg وأضداد HCV والزهري**؛ **المتبرّع المدفوع خطِر**.",
-    "**إزالة البيض** تقلّل التمنيع الخيفي وCMV؛ تعطيل الفيروسات: **حرارة 60 مْ/10 ساعات**، المذيب/المنظّف، أزرق المثيلين، الأشعة فوق البنفسجية.",
-    "أكبر خطر: فيروسات **الحضانة الطويلة**؛ والحادة فقط في **طور التفيرس قبل الأعراض** (B19، التهاب الكبد A)."
-   ]
-  },
-  {
-   "t": "card",
-   "en": "",
-   "ar": "",
-   "list_en": [
-    "ID wristband: **two unique identifiers** (name + date of birth or record number).",
-    "**ABO** incompatibility: intravascular, severe, **IgM** + complement; **Rh**: extravascular (liver, spleen), mild, **IgG**.",
+   "t": "note",
+   "en": [
     "Cross match within **48 hours**; **major** = recipient serum + donor cells (more important); **minor** = donor serum + recipient cells.",
     "3 phases: **RT 30 min** (I, III) → **37 °C + albumin 30 min** (II, VI) → **wash ×3 + AHG**; all negative = compatible."
    ],
-   "list_ar": [
-    "سوار التعريف: **مُعرِّفان فريدان** (الاسم + تاريخ الميلاد أو رقم السجل).",
-    "عدم توافق **ABO**: داخل الأوعية، شديد، **IgM** + متمّمة؛ و**Rh**: خارج الأوعية (الكبد والطحال)، خفيف، **IgG**.",
+   "ar": [
     "المطابقة خلال **48 ساعة**؛ **الكبرى** = مصل المتلقّي + كريات المتبرّع (الأهم)؛ **الصغرى** = مصل المتبرّع + كريات المتلقّي.",
     "3 أطوار: **حرارة الغرفة 30 دقيقة** (I وIII) ← **37 مْ + ألبومين 30 دقيقة** (II وVI) ← **غسل 3 مرات + AHG**؛ كلها سالبة = متوافق."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
    ]
   },
   {
-   "t": "h2",
-   "en": "Key terms — more than one translation",
-   "ar": "أهم المصطلحات — بأكثر من ترجمة"
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
   },
   {
    "t": "table",
@@ -861,7 +960,26 @@
     [
      "**Alloimmunization**",
      "التمنيع الخيفي / التحسّس المناعي الخيفي / التمنيع المغاير"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
     ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
     [
      "**Pathogen inactivation**",
      "تعطيل الممرضات / إبطال الممرضات"
@@ -885,7 +1003,26 @@
     [
      "**Haptoglobin**",
      "الهابتوغلوبين / الغلوبين الرابط للهيموغلوبين"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
     ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
     [
      "**Hemoglobinuria**",
      "بيلة هيموغلوبينية / الهيموغلوبين في البول"

@@ -90,10 +90,11 @@ def pairs(e, a):
     return '<div class="prs">' + "".join(pair(se, sa) for se, sa in sentences(e, a)) + "</div>"
 
 
-def plist(items_en, items_ar, alpha=False):
-    """Numbered (or lettered) points, each followed immediately by its own translation."""
+def plist(items_en, items_ar, alpha=False, start=1):
+    """Numbered (or lettered) points, each followed immediately by its own translation.
+    start: first number, so a long list split over two cards keeps counting (4, 5, 6…)."""
     rows = "".join(f'<li><span class="nb">{"ABCDEFGHIJ"[i - 1] if alpha else i}</span>{pairs(e, a)}</li>'
-                   for i, (e, a) in enumerate(zip(items_en, items_ar), 1))
+                   for i, (e, a) in enumerate(zip(items_en, items_ar), start))
     return f'<ol class="pl">{rows}</ol>'
 
 
@@ -209,10 +210,10 @@ def render_block(b, st, base):
         return h2(b["en"], b["ar"]), True
     if t == "card":
         if not b.get("en") and not b.get("ar"):     # list-only card
-            return f'<div class="card"><div class="c-list" style="border-top:0">{plist(b["list_en"], b.get("list_ar", []), b.get("alpha"))}</div></div>', False
+            return f'<div class="card"><div class="c-list" style="border-top:0">{plist(b["list_en"], b.get("list_ar", []), b.get("alpha"), b.get("start", 1))}</div></div>', False
         c = card(b["en"], b["ar"])
         if b.get("list_en"):
-            c = c[:-len("</div>")] + f'<div class="c-list">{plist(b["list_en"], b.get("list_ar", []), b.get("alpha"))}</div></div>'
+            c = c[:-len("</div>")] + f'<div class="c-list">{plist(b["list_en"], b.get("list_ar", []), b.get("alpha"), b.get("start", 1))}</div></div>'
         return c, False
     if t == "flow":
         return flow(b), False
@@ -408,11 +409,15 @@ def numbered(i, e, a, lines=False):
     return c[:-len("</div>")] + '<div class="lines" style="margin-top:2mm"></div></div>' if lines else c
 
 
-def model_answer(i, e, a, q=None):
+def model_answer(i, e, a, q=None, q_ar=None):
     head = f'<div style="font-weight:800;color:var(--key);font-size:9.5pt;margin-bottom:.6mm">{md(q)}</div>' if q else ""
     if not e:                                   # Arabic-only answer: question line above the answer
         return put_qnum(card("", a), i).replace('<div class="c-ar q">', f'<div class="c-ar q"><div dir="rtl">{head}</div>', 1)
-    return put_qnum(card("", a, e_extra=head + en(e)), i)
+    html = put_qnum(card("", a, e_extra=head + en(e)), i)
+    if q_ar:                                    # the Arabic question above the Arabic answer
+        head_ar = f'<div dir="rtl" style="font-weight:800;color:var(--key);font-size:11pt;margin-bottom:.6mm">{md(q_ar)}</div>'
+        html = html.replace('<span class="chip chip-ar">AR</span>', '<span class="chip chip-ar">AR</span>' + head_ar, 1)
+    return html
 
 
 def question_items(Q):
@@ -466,11 +471,11 @@ def question_items(Q):
     for i, t in enumerate(Q.get("traps", []), 1):
         if i == 1:
             out.append((h2("Exam Traps Answers", "إجابات المقالب"), True))
-        out.append((model_answer(i, t["answer_en"], t["answer_ar"]), False))
+        out.append((model_answer(i, t["answer_en"], t["answer_ar"], t.get("en"), t.get("ar")), False))
     for i, t in enumerate(Q.get("important", []), 1):
         if i == 1:
             out.append((h2("Important Questions — Model Answers", "أهم الأسئلة — إجابات نموذجية"), True))
-        out.append((model_answer(i, t["answer_en"], t["answer_ar"], t["en"]), False))
+        out.append((model_answer(i, t["answer_en"], t["answer_ar"], t["en"], t.get("ar")), False))
     return out
 
 

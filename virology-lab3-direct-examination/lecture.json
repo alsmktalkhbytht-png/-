@@ -1,0 +1,1628 @@
+{
+ "meta": {
+  "subject_en": "Medical Virology",
+  "subject_ar": "الفيروسات الطبية",
+  "short_ar": "فايروسات",
+  "instructor": "د. آية وسمي",
+  "unit_en": "Lab 3",
+  "unit_ar": "العملي 3",
+  "unit_label": "LAB",
+  "unit_no": "3",
+  "title_en": "Direct viral examination (Light Microscopy, Electron Microscopy Examination)",
+  "title_ar": "الفحص المباشر للفيروسات (المجهر الضوئي والمجهر الإلكتروني)",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "What Are Viruses",
+   "ar": "ما الفيروسات"
+  },
+  {
+   "t": "h2",
+   "en": "Direct viral examination (Light Microscopy, Electron Microscopy Examination)",
+   "ar": "الفحص المباشر للفيروسات (المجهر الضوئي، الفحص بالمجهر الإلكتروني)"
+  },
+  {
+   "t": "card",
+   "en": "Viruses are **distinct from living organisms**.",
+   "ar": "الفيروسات **متميّزة عن الكائنات الحية**."
+  },
+  {
+   "t": "card",
+   "en": "Viruses are **living form (not living organisms)**, **submicroscopic, obligate intracellular parasites**; they can only be seen with a special, very powerful microscope called an **\"electron microscope,\"**",
+   "ar": "الفيروسات **شكل من أشكال الحياة (وليست كائنات حية)**، **دون مجهرية، طفيليات إجبارية داخل الخلايا**؛ ولا يمكن رؤيتها إلا بمجهر خاص قوي جدًا يُسمّى **\"المجهر الإلكتروني\"**"
+  },
+  {
+   "t": "card",
+   "en": "Viruses differ from other microorganisms in a number of characteristics:",
+   "ar": "تختلف الفيروسات عن الأحياء المجهرية الأخرى في عدد من الخصائص:"
+  },
+  {
+   "t": "rule",
+   "en": "They have **no cellular structure**, consisting only of **proteins and nucleic acid (DNA or RNA)**.",
+   "ar": "ليس لها **تركيب خلوي**، فهي تتكوّن فقط من **بروتينات وحامض نووي (DNA أو RNA)**."
+  },
+  {
+   "t": "rule",
+   "en": "They have **no metabolic systems of their own**, but rather depend on the synthetic mechanism of a **living host cell**.",
+   "ar": "ليس لها **أنظمة أيضية خاصّة بها**، بل تعتمد على آلية التصنيع في **خلية مضيفة حية**."
+  },
+  {
+   "t": "card",
+   "en": "Viruses exploit normal cellular metabolism by delivering their own genetic information (DNA or RNA).",
+   "ar": "وتستغلّ الفيروسات الأيض الخلوي الطبيعي بإيصال معلوماتها الوراثية الخاصّة (DNA أو RNA)."
+  },
+  {
+   "t": "rule",
+   "en": "Viruses infect other organism: **bacteria (so-called bacteriophages)**, protozoa, algae, fungi, plants, animals, and humans.",
+   "ar": "تُصيب الفيروسات كائنات أخرى: **البكتيريا (وتُسمّى العاثيات أو البكتريوفاج)**، والأوالي، والطحالب، والفطريات، والنباتات، والحيوانات، والإنسان."
+  },
+  {
+   "t": "rule",
+   "en": "**Virus definition** Viruses are particles produced from the **assembly of pre-formed components** produced by infected cell.",
+   "ar": "**تعريف الفيروس:** الفيروسات جسيمات تنتج من **تجميع مكوّنات مُصنَّعة مسبقًا** تُنتجها الخلية المصابة."
+  },
+  {
+   "t": "rule",
+   "en": [
+    "Virus particles (**virions**) themselves **do not grow or undergo division**.",
+    "Viruses lack the genetic information which encodes apparatus necessary for the generation of metabolic energy or for protein synthesis (**ribosomes**)."
+   ],
+   "ar": [
+    "جسيمات الفيروس (**الفيريونات**) نفسها **لا تنمو ولا تنقسم**.",
+    "وتفتقر الفيروسات إلى المعلومات الوراثية التي تشفّر الأجهزة اللازمة لتوليد الطاقة الأيضية أو لتصنيع البروتين (**الرايبوسومات**)."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": "**Viruses are energy parasites** No known virus has the biochemical or genetic potential to generate the energy necessary to drive all biological processes (e.g. macromolecular synthesis).",
+   "ar": "**الفيروسات طفيليات طاقة:** لا يمتلك أي فيروس معروف القدرة الكيموحيوية أو الوراثية على توليد الطاقة اللازمة لتشغيل جميع العمليات الحيوية (مثل تصنيع الجزيئات الكبيرة)."
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Is virus alive?**",
+    "It is a **form of life** but **not** living organism."
+   ],
+   "ar": [
+    "**هل الفيروس حي؟**",
+    "هو **شكل من أشكال الحياة** لكنه **ليس** كائنًا حيًا."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Viruses: **acellular, submicroscopic, obligate intracellular parasites** — seen only by **electron microscope**.",
+    "**DNA or RNA** + protein; no metabolism, no ribosomes, no growth or division → **energy parasites**.",
+    "A **form of life**, not a living organism."
+   ],
+   "ar": [
+    "الفيروسات: **لا خلوية، دون مجهرية، طفيليات إجبارية داخل الخلايا** — تُرى فقط **بالمجهر الإلكتروني**.",
+    "**DNA أو RNA** + بروتين؛ بلا أيض ولا رايبوسومات ولا نمو أو انقسام ← **طفيليات طاقة**.",
+    "**شكل من أشكال الحياة**، لا كائن حي."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Composition of virus particle",
+   "ar": "تركيب الجسيم الفيروسي"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Virus particle composed of a **genome** which is either **DNA or RNA** encased by a protein coat called **Capsid**.",
+    "This type of virus is called **Naked virus**."
+   ],
+   "ar": [
+    "يتكوّن الجسيم الفيروسي من **جينوم** إمّا **DNA أو RNA** مغلّف بغطاء بروتيني يُسمّى **الكابسيد (المحفظة)**.",
+    "ويُسمّى هذا النوع **الفيروس العاري**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Some viruses have in addition to capsid an **envelope** which composed of **lipid taken from infected cell and some virus proteins**.",
+    "The virus that has envelope is called **Enveloped virus**."
+   ],
+   "ar": [
+    "لبعض الفيروسات إضافةً إلى الكابسيد **غلاف** يتكوّن من **دهون مأخوذة من الخلية المصابة وبعض البروتينات الفيروسية**.",
+    "ويُسمّى الفيروس ذو الغلاف **الفيروس المغلَّف**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/naked-enveloped.png",
+   "en": "Fig. Naked virus (left) and Enveloped virus (right) — Non-enveloped virus (Adenovirus): Genome, Capsid (protein shell); Enveloped virus (lentivirus): Capsid (protein shell), Genome, Envelope",
+   "ar": "شكل: الفيروس العاري (يسار) والفيروس المغلَّف (يمين) — فيروس غير مغلَّف (الفيروس الغدّي): الجينوم، الكابسيد (القشرة البروتينية)؛ فيروس مغلَّف (الفيروس البطيء): الكابسيد (القشرة البروتينية)، الجينوم، الغلاف",
+   "h": "60mm"
+  },
+  {
+   "t": "figure",
+   "src": "assets/icosahedral-row.png",
+   "en": "Icosahedral models (left) and an icosahedral virus by EM (right)",
+   "ar": "نماذج عشرينية الأوجه (يسار) وفيروس عشريني الأوجه بالمجهر الإلكتروني (يمين)",
+   "h": "32mm"
+  },
+  {
+   "t": "card",
+   "en": "Fig. **Icosahedral symmetry** (shape)",
+   "ar": "شكل: **التناظر العشريني الأوجه** (الشكل)"
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/complex-phage.png",
+     "en": "Complex symmetry (bacteriophage): Head – Capsid, DNA, Collar; Tail – Sheath, Tail fiber, Base plate, Spike",
+     "ar": "التناظر المعقّد (العاثي): الرأس – الكابسيد، DNA، الطوق؛ الذيل – الغمد، ليف الذيل، الصفيحة القاعدية، الشوكة",
+     "h": "54mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/helical.png",
+     "en": "Helical symmetry: RNA, Capsid, Capsomere",
+     "ar": "التناظر الحلزوني: RNA، الكابسيد، الكابسومير (الوحدة البروتينية)",
+     "h": "40mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Fig. **Helical symmetry** (right) and **complex symmetry** (left) of viruses",
+   "ar": "شكل: **التناظر الحلزوني** (يمين) و**التناظر المعقّد** (يسار) للفيروسات"
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Naked virus** = genome (DNA or RNA) + **capsid**.",
+    "**Enveloped virus** = capsid + **envelope** (host-cell lipid + viral proteins).",
+    "Symmetry: **icosahedral, helical, complex**."
+   ],
+   "ar": [
+    "**الفيروس العاري** = جينوم (DNA أو RNA) + **كابسيد**.",
+    "**الفيروس المغلَّف** = كابسيد + **غلاف** (دهون الخلية المضيفة + بروتينات فيروسية).",
+    "التناظر: **عشريني الأوجه، حلزوني، معقّد**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Direct Examination — Light Microscopy",
+   "ar": "الفحص المباشر — المجهر الضوئي"
+  },
+  {
+   "t": "h2",
+   "en": "Direct Examination of Viruses",
+   "ar": "الفحص المباشر للفيروسات"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Direct viral examination using **light and electron microscopy** is a crucial tool in medical virology.",
+    "It allows for the **direct visualization of viruses**, providing valuable insights into their **morphology, presence, and potential role in disease**."
+   ],
+   "ar": [
+    "الفحص المباشر للفيروسات باستعمال **المجهرين الضوئي والإلكتروني** أداة حاسمة في علم الفيروسات الطبية.",
+    "فهو يتيح **رؤية الفيروسات مباشرةً**، ويقدّم معلومات قيّمة عن **شكلها ووجودها ودورها المحتمل في المرض**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Light Microscopy:",
+   "ar": "المجهر الضوئي:"
+  },
+  {
+   "t": "card",
+   "en": [
+    "While viruses are generally **too small to be seen with a standard light microscope**, certain viral infections can induce **characteristic changes in infected cells** that can be observed.",
+    "These changes include the formation of:"
+   ],
+   "ar": [
+    "مع أن الفيروسات عمومًا **أصغر من أن تُرى بالمجهر الضوئي الاعتيادي**، فإن بعض الإصابات الفيروسية قد تُحدث **تغيّرات مميّزة في الخلايا المصابة** يمكن ملاحظتها.",
+    "وتشمل هذه التغيّرات تكوين:"
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Inclusion bodies:** These are **aggregates of viral proteins or nucleic acids** within the **nucleus or cytoplasm** of infected cells.",
+    "Their presence and appearance can be indicative of specific viral infections."
+   ],
+   "ar": [
+    "**الأجسام الاشتمالية (المحتواة):** وهي **تجمّعات من البروتينات أو الأحماض النووية الفيروسية** داخل **النواة أو السايتوبلازم** للخلايا المصابة.",
+    "ووجودها ومظهرها قد يدلّان على إصابات فيروسية معيّنة."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/guarnieri-smallpox.png",
+     "en": "...eri Bodies - Smallpox (arrows)",
+     "ar": "أجسام غوارنيري - الجدري (الأسهم)",
+     "h": "56mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/negri-bodies.png",
+     "en": "Negri bodies (arrows)",
+     "ar": "أجسام نيغري (الأسهم)",
+     "h": "56mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "The first figure's title is cut in the source; it reads \"Guarnieri Bodies - Smallpox\" (cytoplasmic inclusions of poxviruses).",
+    "Negri bodies are the cytoplasmic inclusions of rabies virus in nerve cells."
+   ],
+   "ar": [
+    "عنوان الشكل الأول مقطوع في الأصل؛ وهو \"أجسام غوارنيري - الجدري\" (أجسام اشتمالية سايتوبلازمية للفيروسات الجدرية).",
+    "وأجسام نيغري هي الأجسام الاشتمالية السايتوبلازمية لفيروس داء الكلب في الخلايا العصبية."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Cytopathogenic effects (CPE):** These are **morphological changes in infected cells**, such as **rounding, swelling, or the formation of syncytia (fused cells)**.",
+    "CPE can be observed in **cell cultures** infected with certain viruses."
+   ],
+   "ar": [
+    "**التأثيرات المرضية الخلوية (CPE):** وهي **تغيّرات شكلية في الخلايا المصابة**، مثل **التكوّر، والانتفاخ، أو تكوين المخلوّات (خلايا مندمجة)**.",
+    "ويمكن ملاحظة CPE في **المزارع الخلوية** المصابة ببعض الفيروسات."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/syncytium-cpe.png",
+   "en": "Syncytium formation: Host-cell receptor, Viral fusion protein, Viral genome → Syncytium",
+   "ar": "تكوين المخلوّ: مستقبل الخلية المضيفة، البروتين الفيروسي الدامج، الجينوم الفيروسي ← المخلوّ (Syncytium)",
+   "h": "44mm"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Viruses are too small for the light microscope, but their **effects on cells** can be seen.",
+    "**Inclusion bodies** (nucleus or cytoplasm) and **CPE** (rounding, swelling, syncytia)."
+   ],
+   "ar": [
+    "الفيروسات أصغر من المجهر الضوئي، لكن **تأثيراتها في الخلايا** تُرى.",
+    "**الأجسام الاشتمالية** (النواة أو السايتوبلازم) و**CPE** (التكوّر، الانتفاخ، المخلوّات)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Electron Microscopy",
+   "ar": "المجهر الإلكتروني"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Electron microscopy (EM) offers **significantly higher resolution** than light microscopy, allowing for the **direct visualization of viruses**.",
+    "**Two main types** of EM are used in virology:"
+   ],
+   "ar": [
+    "يوفّر المجهر الإلكتروني (EM) **قدرة تمييز أعلى بكثير** من المجهر الضوئي، ممّا يتيح **رؤية الفيروسات مباشرةً**.",
+    "ويُستعمل **نوعان رئيسيان** منه في علم الفيروسات:"
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Transmission electron microscopy (TEM):** In TEM, a beam of electrons is **transmitted through a thin section** of the sample.",
+    "This technique is useful for examining the **internal structure** of viruses and infected cells."
+   ],
+   "ar": [
+    "**المجهر الإلكتروني النافذ (TEM):** في TEM تُمرَّر حزمة من الإلكترونات **خلال مقطع رقيق** من العيّنة.",
+    "وهذه التقنية مفيدة لفحص **التركيب الداخلي** للفيروسات والخلايا المصابة."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/tem-row.png",
+   "en": "Influenza Virus TEM (left), HIV Virus TEM (middle), Bacteriophage TEM (right)",
+   "ar": "فيروس الإنفلونزا (يسار)، فيروس HIV (وسط)، العاثي البكتيري (يمين) — بالمجهر الإلكتروني النافذ TEM",
+   "h": "38mm"
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Scanning electron microscopy (SEM):** In SEM, a beam of electrons is **scanned across the surface** of the sample, producing a **3D image**.",
+    "This technique is useful for visualizing the **external morphology** of viruses and their interactions with cells."
+   ],
+   "ar": [
+    "**المجهر الإلكتروني الماسح (SEM):** في SEM **تمسح** حزمة من الإلكترونات **سطح** العيّنة، فتنتج **صورة ثلاثية الأبعاد**.",
+    "وهذه التقنية مفيدة لرؤية **الشكل الخارجي** للفيروسات وتفاعلاتها مع الخلايا."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/sem-row.png",
+   "en": "Coronavirus SEM (left), Ebola Virus SEM (middle), Adenovirus SEM (right)",
+   "ar": "فيروس كورونا (يسار)، فيروس إيبولا (وسط)، الفيروس الغدّي (يمين) — بالمجهر الإلكتروني الماسح SEM",
+   "h": "38mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "TEM",
+     "TEM"
+    ],
+    [
+     "SEM",
+     "SEM"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Electron beam**",
+      "**حزمة الإلكترونات**"
+     ],
+     [
+      "transmitted through a thin section",
+      "تنفذ خلال مقطع رقيق"
+     ],
+     [
+      "scanned across the surface",
+      "تمسح السطح"
+     ]
+    ],
+    [
+     [
+      "**Image**",
+      "**الصورة**"
+     ],
+     [
+      "internal structure",
+      "التركيب الداخلي"
+     ],
+     [
+      "3D, external morphology",
+      "ثلاثية الأبعاد، الشكل الخارجي"
+     ]
+    ],
+    [
+     [
+      "**Examples here**",
+      "**الأمثلة هنا**"
+     ],
+     [
+      "Influenza, HIV, bacteriophage",
+      "الإنفلونزا، HIV، العاثي"
+     ],
+     [
+      "Coronavirus, Ebola, adenovirus",
+      "كورونا، إيبولا، الفيروس الغدّي"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    39,
+    39
+   ],
+   "style": "summary",
+   "label_en": "TEM vs SEM",
+   "label_ar": "النافذ مقابل الماسح"
+  },
+  {
+   "t": "note",
+   "en": [
+    "EM has **much higher resolution** → sees viruses directly.",
+    "**TEM** = through a thin section → **inside**; **SEM** = across the surface → **3D outside**."
+   ],
+   "ar": [
+    "EM **قدرة تمييز أعلى بكثير** ← يرى الفيروسات مباشرةً.",
+    "**TEM** = خلال مقطع رقيق ← **الداخل**؛ **SEM** = عبر السطح ← **الخارج ثلاثي الأبعاد**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Applications and Limitations",
+   "ar": "التطبيقات والقيود"
+  },
+  {
+   "t": "h2",
+   "en": "Applications of Direct Viral Examination:",
+   "ar": "تطبيقات الفحص المباشر للفيروسات:"
+  },
+  {
+   "t": "rule",
+   "en": "**Diagnosis of viral infections:** Direct examination can help identify the presence of viruses in clinical specimens, such as respiratory secretions, stool, or blood.",
+   "ar": "**تشخيص الإصابات الفيروسية:** يساعد الفحص المباشر في كشف وجود الفيروسات في العيّنات السريرية، مثل الإفرازات التنفسية أو البراز أو الدم."
+  },
+  {
+   "t": "rule",
+   "en": "**Characterization of new viruses:** EM can be used to visualize the morphology of newly discovered viruses, aiding in their classification and characterization.",
+   "ar": "**توصيف الفيروسات الجديدة:** يمكن استعمال EM لرؤية شكل الفيروسات المكتشفة حديثًا، ممّا يساعد في تصنيفها وتوصيفها."
+  },
+  {
+   "t": "rule",
+   "en": "**Monitoring viral replication:** Direct examination can be used to study the replication cycle of viruses in infected cells.",
+   "ar": "**متابعة تضاعف الفيروس:** يمكن استعمال الفحص المباشر لدراسة دورة تضاعف الفيروسات في الخلايا المصابة."
+  },
+  {
+   "t": "rule",
+   "en": "**Evaluation of antiviral therapies:** Direct examination can be used to assess the efficacy of antiviral drugs in inhibiting viral replication.",
+   "ar": "**تقييم العلاجات المضادّة للفيروسات:** يمكن استعمال الفحص المباشر لتقييم فعالية الأدوية المضادّة للفيروسات في تثبيط تضاعف الفيروس."
+  },
+  {
+   "t": "h2",
+   "en": "Limitations:",
+   "ar": "القيود:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Sensitivity:** Direct examination may not be sensitive enough to detect low levels of virus.",
+    "**Specificity:** The morphology of some viruses may be similar, making it difficult to distinguish between closely related viruses.",
+    "**Technical expertise:** Both light and electron microscopy require specialized equipment and trained personnel."
+   ],
+   "list_ar": [
+    "**الحساسية:** قد لا يكون الفحص المباشر حسّاسًا بما يكفي لكشف المستويات المنخفضة من الفيروس.",
+    "**النوعية:** قد يتشابه شكل بعض الفيروسات، ممّا يصعّب التمييز بين الفيروسات المتقاربة.",
+    "**الخبرة التقنية:** يتطلّب كلا المجهرين الضوئي والإلكتروني أجهزة متخصّصة وكوادر مدرّبة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Despite these limitations, direct viral examination remains an **important tool** in medical virology, providing valuable insights into the nature and behavior of viruses.",
+    "It is often used **in conjunction with other diagnostic techniques**, such as **nucleic acid amplification tests (NAATs)** and **serological tests**, to provide a comprehensive picture of viral infections."
+   ],
+   "ar": [
+    "ورغم هذه القيود يبقى الفحص المباشر للفيروسات **أداة مهمّة** في علم الفيروسات الطبية، إذ يقدّم معلومات قيّمة عن طبيعة الفيروسات وسلوكها.",
+    "وكثيرًا ما يُستعمل **مع تقنيات تشخيصية أخرى**، مثل **فحوص تضخيم الحامض النووي (NAATs)** و**الفحوص المصلية**، لتقديم صورة شاملة عن الإصابات الفيروسية."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Uses: **diagnosis, new viruses, replication, antiviral drugs**.",
+    "Limits: **sensitivity, specificity, technical expertise** → combine with **NAATs and serology**."
+   ],
+   "ar": [
+    "الاستعمالات: **التشخيص، الفيروسات الجديدة، التضاعف، الأدوية المضادّة**.",
+    "القيود: **الحساسية، النوعية، الخبرة التقنية** ← يُدمج مع **NAATs والفحوص المصلية**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Virus**",
+     "الفيروس / الحُمَة"
+    ],
+    [
+     "**Submicroscopic**",
+     "دون مجهري / لا يُرى بالمجهر الضوئي"
+    ],
+    [
+     "**Obligate intracellular parasite**",
+     "طفيلي إجباري داخل الخلايا"
+    ],
+    [
+     "**Bacteriophage**",
+     "العاثي البكتيري / البكتريوفاج / آكل البكتيريا"
+    ],
+    [
+     "**Virion**",
+     "الفيريون / الجسيم الفيروسي الكامل"
+    ],
+    [
+     "**Energy parasite**",
+     "طفيلي طاقة"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Genome**",
+     "الجينوم / المجين"
+    ],
+    [
+     "**Capsid**",
+     "الكابسيد / المحفظة / القفيصة"
+    ],
+    [
+     "**Capsomere**",
+     "الكابسومير / الوحدة البنائية للمحفظة"
+    ],
+    [
+     "**Naked virus**",
+     "الفيروس العاري / غير المغلَّف"
+    ],
+    [
+     "**Enveloped virus**",
+     "الفيروس المغلَّف / ذو الغلاف"
+    ],
+    [
+     "**Icosahedral symmetry**",
+     "التناظر العشريني الأوجه"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Helical symmetry**",
+     "التناظر الحلزوني"
+    ],
+    [
+     "**Complex symmetry**",
+     "التناظر المعقّد"
+    ],
+    [
+     "**Inclusion bodies**",
+     "الأجسام الاشتمالية / المحتواة / الضمنية"
+    ],
+    [
+     "**Cytopathogenic effect (CPE)**",
+     "التأثير المرضي الخلوي / الأثر الممرض للخلايا"
+    ],
+    [
+     "**Syncytium (pl. syncytia)**",
+     "المخلوّ / الخلية المندمجة متعدّدة النوى"
+    ],
+    [
+     "**Resolution**",
+     "قدرة التمييز / الدقّة"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Electron microscope**",
+     "المجهر الإلكتروني"
+    ],
+    [
+     "**TEM**",
+     "المجهر الإلكتروني النافذ"
+    ],
+    [
+     "**SEM**",
+     "المجهر الإلكتروني الماسح"
+    ],
+    [
+     "**Cell culture**",
+     "المزرعة الخلوية / زرع الخلايا"
+    ],
+    [
+     "**NAATs**",
+     "فحوص تضخيم الحامض النووي"
+    ],
+    [
+     "**Serological tests**",
+     "الفحوص المصلية"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "MCQs Lab Three (from the lab sheet)",
+    "topic_ar": "أسئلة العملي الثالث (من ورقة العملي)"
+   },
+   {
+    "en": "What are viruses:",
+    "ar": "ما الفيروسات:",
+    "options": [
+     [
+      "They are free-living cellular organisms",
+      "كائنات خلوية حرّة المعيشة"
+     ],
+     [
+      "They are acellular, submicroscopic obligate intracellular parasites",
+      "طفيليات لا خلوية دون مجهرية إجبارية داخل الخلايا"
+     ],
+     [
+      "They contain both DNA and RNA",
+      "تحتوي DNA وRNA معًا"
+     ],
+     [
+      "They reproduce by binary fission",
+      "تتكاثر بالانشطار الثنائي"
+     ],
+     [
+      "They synthesize their own proteins",
+      "تصنّع بروتيناتها بنفسها"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "A viral particle genome contains:",
+    "ar": "يحتوي جينوم الجسيم الفيروسي:",
+    "options": [
+     [
+      "Both DNA and RNA",
+      "DNA وRNA معًا"
+     ],
+     [
+      "Only proteins",
+      "بروتينات فقط"
+     ],
+     [
+      "Either DNA or RNA",
+      "إمّا DNA أو RNA"
+     ],
+     [
+      "Lipids only",
+      "دهونًا فقط"
+     ],
+     [
+      "Ribosomes and enzymes",
+      "رايبوسومات وإنزيمات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The protein coat surrounding a viral genome is called the:",
+    "ar": "يُسمّى الغطاء البروتيني المحيط بالجينوم الفيروسي:",
+    "options": [
+     [
+      "Capsid",
+      "الكابسيد"
+     ],
+     [
+      "Envelope",
+      "الغلاف"
+     ],
+     [
+      "Cell wall",
+      "الجدار الخلوي"
+     ],
+     [
+      "Nucleolus",
+      "النوية"
+     ],
+     [
+      "Matrix",
+      "المطرس (الماتركس)"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "An envelope of an enveloped virus is mainly composed of:",
+    "ar": "يتكوّن غلاف الفيروس المغلَّف أساسًا من:",
+    "options": [
+     [
+      "Peptidoglycan",
+      "الببتيدوگلايكان"
+     ],
+     [
+      "Cellulose",
+      "السليلوز"
+     ],
+     [
+      "Lipid from the infected cell and viral proteins",
+      "دهون من الخلية المصابة وبروتينات فيروسية"
+     ],
+     [
+      "Ribosomes and DNA",
+      "رايبوسومات وDNA"
+     ],
+     [
+      "Only viral nucleic acid",
+      "حامض نووي فيروسي فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Viruses are considered parasites because they:",
+    "ar": "تُعدّ الفيروسات طفيليات لأنها:",
+    "options": [
+     [
+      "Produce excessive ATP",
+      "تنتج ATP بإفراط"
+     ],
+     [
+      "Use binary fission for replication",
+      "تستعمل الانشطار الثنائي للتضاعف"
+     ],
+     [
+      "Contain mitochondria",
+      "تحتوي مايتوكوندريا"
+     ],
+     [
+      "Carry out photosynthesis",
+      "تقوم بالبناء الضوئي"
+     ],
+     [
+      "Depend on host cells for energy and metabolic processes",
+      "تعتمد على الخلايا المضيفة في الطاقة والعمليات الأيضية"
+     ]
+    ],
+    "answer": "e"
+   },
+   {
+    "en": "Which cellular change may be observed by light microscopy in viral infections:",
+    "ar": "أي تغيّر خلوي قد يُلاحظ بالمجهر الضوئي في الإصابات الفيروسية:",
+    "options": [
+     [
+      "Formation of inclusion bodies",
+      "تكوين الأجسام الاشتمالية"
+     ],
+     [
+      "Direct visualization of all virions",
+      "رؤية جميع الفيريونات مباشرةً"
+     ],
+     [
+      "Bacterial endospore formation",
+      "تكوين الأبواغ البكتيرية الداخلية"
+     ],
+     [
+      "Production of fungal hyphae",
+      "إنتاج خيوط فطرية"
+     ],
+     [
+      "Formation of erythrocytes",
+      "تكوين كريات الدم الحمر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Cytopathogenic effects may include:",
+    "ar": "قد تشمل التأثيرات المرضية الخلوية:",
+    "options": [
+     [
+      "Production of antibodies",
+      "إنتاج الأضداد"
+     ],
+     [
+      "Formation of bacterial capsules",
+      "تكوين محافظ بكتيرية"
+     ],
+     [
+      "Cell rounding, swelling, and syncytium formation",
+      "تكوّر الخلية وانتفاخها وتكوين المخلوّ"
+     ],
+     [
+      "Cell division into daughter cells",
+      "انقسام الخلية إلى خلايا بنوية"
+     ],
+     [
+      "Destruction of viral nucleic acid by ribosomes",
+      "تحطيم الحامض النووي الفيروسي بالرايبوسومات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Transmission electron microscopy is especially useful for examining:",
+    "ar": "المجهر الإلكتروني النافذ مفيد خصوصًا لفحص:",
+    "options": [
+     [
+      "The external surface only",
+      "السطح الخارجي فقط"
+     ],
+     [
+      "The internal structure of viruses and infected cells",
+      "التركيب الداخلي للفيروسات والخلايا المصابة"
+     ],
+     [
+      "Antibody concentration in serum",
+      "تركيز الأضداد في المصل"
+     ],
+     [
+      "Viral genome sequencing",
+      "تسلسل الجينوم الفيروسي"
+     ],
+     [
+      "Cell culture nutrient composition",
+      "تركيب مغذّيات المزرعة الخلوية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Scanning electron microscopy produces images that are useful for studying:",
+    "ar": "ينتج المجهر الإلكتروني الماسح صورًا مفيدة لدراسة:",
+    "options": [
+     [
+      "Internal viral nucleic acid",
+      "الحامض النووي الفيروسي الداخلي"
+     ],
+     [
+      "Viral external morphology and interactions with cells",
+      "الشكل الخارجي للفيروس وتفاعلاته مع الخلايا"
+     ],
+     [
+      "Antiviral antibody production",
+      "إنتاج الأضداد المضادّة للفيروس"
+     ],
+     [
+      "Viral protein synthesis in ribosomes",
+      "تصنيع البروتين الفيروسي في الرايبوسومات"
+     ],
+     [
+      "Host-cell DNA replication",
+      "تضاعف DNA الخلية المضيفة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "One limitation of direct viral examination is that:",
+    "ar": "من قيود الفحص المباشر للفيروسات أنه:",
+    "options": [
+     [
+      "It always identifies every virus species precisely",
+      "يحدّد دائمًا كل نوع فيروسي بدقّة"
+     ],
+     [
+      "It does not require specialized equipment",
+      "لا يحتاج أجهزة متخصّصة"
+     ],
+     [
+      "It may fail to detect the type of virus",
+      "قد يفشل في كشف نوع الفيروس"
+     ],
+     [
+      "It cannot be used with clinical specimens",
+      "لا يمكن استعماله مع العيّنات السريرية"
+     ],
+     [
+      "It eliminates the need for other diagnostic tests",
+      "يلغي الحاجة إلى فحوص تشخيصية أخرى"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "BIOS questions — viruses and their structure",
+    "topic_ar": "أسئلة BIOS — الفيروسات وتركيبها"
+   },
+   {
+    "en": "Viruses can only be seen with:",
+    "ar": "لا تُرى الفيروسات إلا بـ:",
+    "options": [
+     [
+      "A hand lens",
+      "عدسة يدوية"
+     ],
+     [
+      "A standard light microscope",
+      "مجهر ضوئي اعتيادي"
+     ],
+     [
+      "An electron microscope",
+      "مجهر إلكتروني"
+     ],
+     [
+      "The naked eye",
+      "العين المجرّدة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Viruses that infect bacteria are called:",
+    "ar": "الفيروسات التي تصيب البكتيريا تُسمّى:",
+    "options": [
+     [
+      "Syncytia",
+      "المخلوّات"
+     ],
+     [
+      "Virions",
+      "الفيريونات"
+     ],
+     [
+      "Capsomeres",
+      "الكابسوميرات"
+     ],
+     [
+      "Bacteriophages",
+      "العاثيات (البكتريوفاج)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A complete virus particle is called a:",
+    "ar": "يُسمّى الجسيم الفيروسي الكامل:",
+    "options": [
+     [
+      "Capsomere",
+      "كابسومير"
+     ],
+     [
+      "Virion",
+      "فيريون"
+     ],
+     [
+      "Syncytium",
+      "مخلوّ"
+     ],
+     [
+      "Inclusion body",
+      "جسم اشتمالي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Viruses are described as energy parasites because:",
+    "ar": "توصف الفيروسات بأنها طفيليات طاقة لأنه:",
+    "options": [
+     [
+      "No known virus can generate the energy for all biological processes",
+      "لا يستطيع أي فيروس معروف توليد الطاقة لكل العمليات الحيوية"
+     ],
+     [
+      "They photosynthesize",
+      "تقوم بالبناء الضوئي"
+     ],
+     [
+      "They have mitochondria",
+      "لها مايتوكوندريا"
+     ],
+     [
+      "They store ATP",
+      "تخزّن ATP"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "A virus made of a genome and a capsid only is a:",
+    "ar": "الفيروس المكوّن من جينوم وكابسيد فقط هو:",
+    "options": [
+     [
+      "Enveloped virus",
+      "فيروس مغلَّف"
+     ],
+     [
+      "Naked virus",
+      "فيروس عاري"
+     ],
+     [
+      "Bacterium",
+      "بكتيريا"
+     ],
+     [
+      "Syncytium",
+      "مخلوّ"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The lipid of a viral envelope is taken from:",
+    "ar": "تُؤخذ دهون الغلاف الفيروسي من:",
+    "options": [
+     [
+      "The capsid",
+      "الكابسيد"
+     ],
+     [
+      "The viral genome",
+      "الجينوم الفيروسي"
+     ],
+     [
+      "The infected cell",
+      "الخلية المصابة"
+     ],
+     [
+      "Ribosomes",
+      "الرايبوسومات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The bacteriophage (head and tail) is an example of:",
+    "ar": "العاثي (رأس وذيل) مثال على:",
+    "options": [
+     [
+      "Complex symmetry",
+      "تناظر معقّد"
+     ],
+     [
+      "Helical symmetry",
+      "تناظر حلزوني"
+     ],
+     [
+      "Icosahedral symmetry only",
+      "تناظر عشريني فقط"
+     ],
+     [
+      "No symmetry",
+      "لا تناظر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Viruses lack the genetic information for:",
+    "ar": "تفتقر الفيروسات إلى المعلومات الوراثية لـ:",
+    "options": [
+     [
+      "Their capsid proteins",
+      "بروتينات الكابسيد"
+     ],
+     [
+      "Their genome",
+      "جينومها"
+     ],
+     [
+      "Infecting cells",
+      "إصابة الخلايا"
+     ],
+     [
+      "Metabolic energy generation and ribosomes",
+      "توليد الطاقة الأيضية والرايبوسومات"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "This figure shows a virus with an outer envelope; it is:",
+    "ar": "يُظهر هذا الشكل فيروسًا بغلاف خارجي؛ وهو:",
+    "options": [
+     [
+      "A helical plant virus",
+      "فيروس نباتي حلزوني"
+     ],
+     [
+      "A naked adenovirus",
+      "فيروس غدّي عاري"
+     ],
+     [
+      "A bacteriophage",
+      "عاثي"
+     ],
+     [
+      "An enveloped virus (lentivirus)",
+      "فيروس مغلَّف (فيروس بطيء)"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/naked-enveloped.png",
+    "img_h": "40mm"
+   },
+   {
+    "topic_en": "BIOS questions — microscopy",
+    "topic_ar": "أسئلة BIOS — الفحص المجهري"
+   },
+   {
+    "en": "Inclusion bodies are aggregates of:",
+    "ar": "الأجسام الاشتمالية تجمّعات من:",
+    "options": [
+     [
+      "Lipids and sugars",
+      "دهون وسكريات"
+     ],
+     [
+      "Bacterial spores",
+      "أبواغ بكتيرية"
+     ],
+     [
+      "Viral proteins or nucleic acids",
+      "بروتينات أو أحماض نووية فيروسية"
+     ],
+     [
+      "Red blood cells",
+      "كريات حمر"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "A syncytium is:",
+    "ar": "المخلوّ هو:",
+    "options": [
+     [
+      "Fused cells",
+      "خلايا مندمجة"
+     ],
+     [
+      "A capsid unit",
+      "وحدة كابسيد"
+     ],
+     [
+      "A single virion",
+      "فيريون واحد"
+     ],
+     [
+      "An antibody",
+      "ضد"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "CPE can be observed in:",
+    "ar": "يمكن ملاحظة CPE في:",
+    "options": [
+     [
+      "Serum",
+      "المصل"
+     ],
+     [
+      "Cell cultures infected with certain viruses",
+      "المزارع الخلوية المصابة ببعض الفيروسات"
+     ],
+     [
+      "Culture media without cells",
+      "أوساط زرع بلا خلايا"
+     ],
+     [
+      "Purified DNA",
+      "DNA منقّى"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The main advantage of electron microscopy over light microscopy is:",
+    "ar": "الميزة الرئيسية للمجهر الإلكتروني على الضوئي:",
+    "options": [
+     [
+      "Colour images",
+      "صور ملوّنة"
+     ],
+     [
+      "Lower cost",
+      "كلفة أقل"
+     ],
+     [
+      "No need for trained staff",
+      "لا يحتاج كوادر مدرّبة"
+     ],
+     [
+      "Significantly higher resolution",
+      "قدرة تمييز أعلى بكثير"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In TEM the electron beam:",
+    "ar": "في TEM حزمة الإلكترونات:",
+    "options": [
+     [
+      "Is scanned across the surface",
+      "تمسح السطح"
+     ],
+     [
+      "Is reflected by a mirror",
+      "تنعكس بمرآة"
+     ],
+     [
+      "Is transmitted through a thin section",
+      "تنفذ خلال مقطع رقيق"
+     ],
+     [
+      "Is replaced by light",
+      "تُستبدل بالضوء"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "A 3D image of the viral surface is produced by:",
+    "ar": "تُنتَج صورة ثلاثية الأبعاد لسطح الفيروس بـ:",
+    "options": [
+     [
+      "SEM",
+      "SEM"
+     ],
+     [
+      "Light microscopy",
+      "المجهر الضوئي"
+     ],
+     [
+      "TEM",
+      "TEM"
+     ],
+     [
+      "NAAT",
+      "NAAT"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "This figure shows inclusion bodies seen by light microscopy in rabies-infected nerve cells; they are:",
+    "ar": "يُظهر هذا الشكل أجسامًا اشتمالية بالمجهر الضوئي في خلايا عصبية مصابة بداء الكلب؛ وهي:",
+    "options": [
+     [
+      "Guarnieri bodies",
+      "أجسام غوارنيري"
+     ],
+     [
+      "Negri bodies",
+      "أجسام نيغري"
+     ],
+     [
+      "Capsomeres",
+      "كابسوميرات"
+     ],
+     [
+      "Syncytia",
+      "مخلوّات"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/negri-bodies.png",
+    "img_h": "36mm"
+   },
+   {
+    "en": "This image of a bacteriophage was obtained by:",
+    "ar": "صورة العاثي هذه أُخذت بـ:",
+    "options": [
+     [
+      "SEM",
+      "المجهر الإلكتروني الماسح"
+     ],
+     [
+      "TEM",
+      "المجهر الإلكتروني النافذ"
+     ],
+     [
+      "Light microscopy",
+      "المجهر الضوئي"
+     ],
+     [
+      "Fluorescence",
+      "التألّق"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/phage-tem.png",
+    "img_h": "34mm"
+   },
+   {
+    "topic_en": "BIOS questions — applications and limitations",
+    "topic_ar": "أسئلة BIOS — التطبيقات والقيود"
+   },
+   {
+    "en": "Clinical specimens for direct viral examination include:",
+    "ar": "تشمل العيّنات السريرية للفحص المباشر:",
+    "options": [
+     [
+      "Teeth",
+      "الأسنان"
+     ],
+     [
+      "Hair only",
+      "الشعر فقط"
+     ],
+     [
+      "Respiratory secretions, stool, or blood",
+      "الإفرازات التنفسية أو البراز أو الدم"
+     ],
+     [
+      "Bone only",
+      "العظم فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Similar morphology of related viruses is a problem of:",
+    "ar": "تشابه شكل الفيروسات المتقاربة مشكلة في:",
+    "options": [
+     [
+      "Sensitivity",
+      "الحساسية"
+     ],
+     [
+      "Speed",
+      "السرعة"
+     ],
+     [
+      "Cost",
+      "الكلفة"
+     ],
+     [
+      "Specificity",
+      "النوعية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Failure to detect low levels of virus is a problem of:",
+    "ar": "الفشل في كشف المستويات المنخفضة من الفيروس مشكلة في:",
+    "options": [
+     [
+      "Sensitivity",
+      "الحساسية"
+     ],
+     [
+      "Technical expertise",
+      "الخبرة التقنية"
+     ],
+     [
+      "Specificity",
+      "النوعية"
+     ],
+     [
+      "Resolution",
+      "قدرة التمييز"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Direct examination is often combined with:",
+    "ar": "كثيرًا ما يُدمج الفحص المباشر مع:",
+    "options": [
+     [
+      "NAATs and serological tests",
+      "NAATs والفحوص المصلية"
+     ],
+     [
+      "Blood culture only",
+      "زرع الدم فقط"
+     ],
+     [
+      "Urine dipstick",
+      "شريط الإدرار"
+     ],
+     [
+      "Gram stain only",
+      "صبغة گرام فقط"
+     ]
+    ],
+    "answer": "a"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Viruses are submicroscopic obligate intracellular parasites.",
+    "ar": "الفيروسات طفيليات دون مجهرية إجبارية داخل الخلايا.",
+    "answer": "T"
+   },
+   {
+    "en": "Viruses have a complete cellular structure with ribosomes.",
+    "ar": "للفيروسات تركيب خلوي كامل مع رايبوسومات.",
+    "answer": "F"
+   },
+   {
+    "en": "A viral genome contains either DNA or RNA.",
+    "ar": "يحتوي الجينوم الفيروسي إمّا DNA أو RNA.",
+    "answer": "T"
+   },
+   {
+    "en": "The protein coat surrounding the viral genome is called the capsid.",
+    "ar": "يُسمّى الغطاء البروتيني المحيط بالجينوم الفيروسي الكابسيد.",
+    "answer": "T"
+   },
+   {
+    "en": "Enveloped viruses contain a lipid envelope derived from the infected host cell.",
+    "ar": "تحتوي الفيروسات المغلَّفة غلافًا دهنيًا مشتقًّا من الخلية المضيفة المصابة.",
+    "answer": "T"
+   },
+   {
+    "en": "Virions grow and divide by binary fission.",
+    "ar": "تنمو الفيريونات وتنقسم بالانشطار الثنائي.",
+    "answer": "F"
+   },
+   {
+    "en": "Inclusion bodies may be observed in the nucleus or cytoplasm of infected cells.",
+    "ar": "قد تُلاحظ الأجسام الاشتمالية في نواة الخلايا المصابة أو سايتوبلازمها.",
+    "answer": "T"
+   },
+   {
+    "en": "Light microscopy can directly visualize all viruses clearly.",
+    "ar": "يستطيع المجهر الضوئي رؤية جميع الفيروسات بوضوح مباشرةً.",
+    "answer": "F"
+   },
+   {
+    "en": "Transmission electron microscopy is useful for examining internal viral structures.",
+    "ar": "المجهر الإلكتروني النافذ مفيد لفحص التراكيب الفيروسية الداخلية.",
+    "answer": "T"
+   },
+   {
+    "en": "Scanning electron microscopy can produce three-dimensional images of viral surfaces.",
+    "ar": "يستطيع المجهر الإلكتروني الماسح إنتاج صور ثلاثية الأبعاد لأسطح الفيروسات.",
+    "answer": "T"
+   },
+   {
+    "en": "A virus is a form of life but not a living organism.",
+    "ar": "الفيروس شكل من أشكال الحياة لكنه ليس كائنًا حيًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Viruses infect only humans and animals.",
+    "ar": "تصيب الفيروسات الإنسان والحيوان فقط.",
+    "answer": "F"
+   },
+   {
+    "en": "Direct examination can be used to evaluate antiviral drugs.",
+    "ar": "يمكن استعمال الفحص المباشر لتقييم الأدوية المضادّة للفيروسات.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Living form vs living organism",
+    "ar": "شكل حياة مقابل كائن حي",
+    "answer_en": "The sheet says a virus is a form of life (living form) but NOT a living organism.",
+    "answer_ar": "تقول الورقة إن الفيروس شكل من أشكال الحياة لكنه ليس كائنًا حيًا."
+   },
+   {
+    "en": "DNA and RNA?",
+    "ar": "DNA وRNA؟",
+    "answer_en": "A virus has either DNA OR RNA — never both (the option \"both DNA and RNA\" is wrong).",
+    "answer_ar": "للفيروس إمّا DNA أو RNA — وليس الاثنين (خيار \"DNA وRNA معًا\" خطأ)."
+   },
+   {
+    "en": "Where does the envelope come from?",
+    "ar": "من أين يأتي الغلاف؟",
+    "answer_en": "Envelope = lipid from the infected (host) cell + some virus proteins; the capsid is protein made by the virus.",
+    "answer_ar": "الغلاف = دهون من الخلية المصابة (المضيفة) + بعض البروتينات الفيروسية؛ والكابسيد بروتين يصنعه الفيروس."
+   },
+   {
+    "en": "Light microscope sees the virus?",
+    "ar": "المجهر الضوئي يرى الفيروس؟",
+    "answer_en": "No — it sees the virus's effects on cells: inclusion bodies and CPE. Only EM shows virions directly.",
+    "answer_ar": "لا — يرى تأثيرات الفيروس في الخلايا: الأجسام الاشتمالية وCPE. والمجهر الإلكتروني وحده يُظهر الفيريونات مباشرةً."
+   },
+   {
+    "en": "TEM vs SEM",
+    "ar": "النافذ مقابل الماسح",
+    "answer_en": "TEM = Transmitted through a thin section → internal structure. SEM = Scanned across the Surface → 3D external morphology.",
+    "answer_ar": "TEM = تنفذ خلال مقطع رقيق ← التركيب الداخلي. SEM = تمسح السطح ← الشكل الخارجي ثلاثي الأبعاد."
+   },
+   {
+    "en": "Sensitivity vs specificity limit",
+    "ar": "قيد الحساسية مقابل النوعية",
+    "answer_en": "Sensitivity = may miss low levels of virus; specificity = similar morphology makes related viruses hard to tell apart.",
+    "answer_ar": "الحساسية = قد يفوت المستويات المنخفضة من الفيروس؛ النوعية = الشكل المتشابه يصعّب تمييز الفيروسات المتقاربة."
+   }
+  ],
+  "important": [
+   {
+    "en": "How do viruses differ from other microorganisms?",
+    "ar": "كيف تختلف الفيروسات عن الأحياء المجهرية الأخرى؟",
+    "answer_en": "1. No cellular structure: only proteins and nucleic acid (DNA or RNA). 2. No metabolic systems of their own; they use the host cell's synthetic mechanism. 3. They infect bacteria (bacteriophages), protozoa, algae, fungi, plants, animals and humans. 4. They are assembled from pre-formed components made by the infected cell. 5. Virions do not grow or divide and lack ribosomes and energy-generating apparatus. 6. They are energy parasites. 7. A form of life but not a living organism.",
+    "answer_ar": "1. لا تركيب خلوي: بروتينات وحامض نووي (DNA أو RNA) فقط. 2. لا أنظمة أيضية خاصّة؛ تستعمل آلية التصنيع في الخلية المضيفة. 3. تصيب البكتيريا (العاثيات) والأوالي والطحالب والفطريات والنباتات والحيوانات والإنسان. 4. تُجمَّع من مكوّنات مصنّعة مسبقًا في الخلية المصابة. 5. الفيريونات لا تنمو ولا تنقسم وتفتقر إلى الرايبوسومات وأجهزة توليد الطاقة. 6. طفيليات طاقة. 7. شكل من أشكال الحياة لا كائن حي."
+   },
+   {
+    "en": "Describe the composition of a virus particle.",
+    "ar": "صف تركيب الجسيم الفيروسي.",
+    "answer_en": "A genome of DNA or RNA encased by a protein coat (capsid) = naked virus. Some viruses also have an envelope of lipid from the infected cell plus some viral proteins = enveloped virus. Capsid symmetry may be icosahedral, helical or complex.",
+    "answer_ar": "جينوم من DNA أو RNA مغلّف بغطاء بروتيني (الكابسيد) = فيروس عاري. ولبعض الفيروسات أيضًا غلاف من دهون الخلية المصابة مع بعض البروتينات الفيروسية = فيروس مغلَّف. وقد يكون تناظر الكابسيد عشريني الأوجه أو حلزونيًا أو معقّدًا."
+   },
+   {
+    "en": "What can light microscopy show in viral infections?",
+    "ar": "ماذا يُظهر المجهر الضوئي في الإصابات الفيروسية؟",
+    "answer_en": "Viruses are too small for the light microscope, but it shows characteristic changes in infected cells: 1. inclusion bodies — aggregates of viral proteins or nucleic acids in the nucleus or cytoplasm, indicating specific infections; 2. cytopathogenic effects — rounding, swelling or syncytia (fused cells), seen in infected cell cultures.",
+    "answer_ar": "الفيروسات أصغر من المجهر الضوئي، لكنه يُظهر تغيّرات مميّزة في الخلايا المصابة: 1. الأجسام الاشتمالية — تجمّعات بروتينات أو أحماض نووية فيروسية في النواة أو السايتوبلازم تدلّ على إصابات معيّنة؛ 2. التأثيرات المرضية الخلوية — التكوّر أو الانتفاخ أو المخلوّات (خلايا مندمجة)، وتُرى في المزارع الخلوية المصابة."
+   },
+   {
+    "en": "Compare TEM and SEM.",
+    "ar": "قارن بين TEM وSEM.",
+    "answer_en": "TEM: electrons are transmitted through a thin section of the sample; useful for the internal structure of viruses and infected cells (e.g. influenza, HIV, bacteriophage). SEM: electrons are scanned across the surface, producing a 3D image; useful for external morphology and virus–cell interactions (e.g. coronavirus, Ebola, adenovirus).",
+    "answer_ar": "TEM: تنفذ الإلكترونات خلال مقطع رقيق من العيّنة؛ مفيد للتركيب الداخلي للفيروسات والخلايا المصابة (مثل الإنفلونزا وHIV والعاثي). SEM: تمسح الإلكترونات السطح فتنتج صورة ثلاثية الأبعاد؛ مفيد للشكل الخارجي وتفاعل الفيروس مع الخلية (مثل كورونا وإيبولا والفيروس الغدّي)."
+   },
+   {
+    "en": "List the applications of direct viral examination.",
+    "ar": "عدّد تطبيقات الفحص المباشر للفيروسات.",
+    "answer_en": "1. Diagnosis of viral infections in clinical specimens (respiratory secretions, stool, blood). 2. Characterization of new viruses by EM morphology. 3. Monitoring viral replication in infected cells. 4. Evaluation of antiviral therapies.",
+    "answer_ar": "1. تشخيص الإصابات الفيروسية في العيّنات السريرية (الإفرازات التنفسية، البراز، الدم). 2. توصيف الفيروسات الجديدة بشكلها في المجهر الإلكتروني. 3. متابعة تضاعف الفيروس في الخلايا المصابة. 4. تقييم العلاجات المضادّة للفيروسات."
+   },
+   {
+    "en": "What are the limitations of direct viral examination?",
+    "ar": "ما قيود الفحص المباشر للفيروسات؟",
+    "answer_en": "1. Sensitivity: may not detect low levels of virus. 2. Specificity: similar morphology of related viruses. 3. Technical expertise: specialized equipment and trained personnel. It is therefore often combined with NAATs and serological tests.",
+    "answer_ar": "1. الحساسية: قد لا يكشف المستويات المنخفضة. 2. النوعية: تشابه شكل الفيروسات المتقاربة. 3. الخبرة التقنية: أجهزة متخصّصة وكوادر مدرّبة. ولذلك كثيرًا ما يُدمج مع NAATs والفحوص المصلية."
+   }
+  ]
+ }
+}

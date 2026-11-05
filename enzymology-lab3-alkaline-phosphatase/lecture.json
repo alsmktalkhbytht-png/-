@@ -1,0 +1,1452 @@
+{
+ "meta": {
+  "subject_en": "Clinical Enzymology",
+  "subject_ar": "الإنزيمات السريرية",
+  "short_ar": "انزيمات سريرية",
+  "instructor": "د. بارق و د. هشام",
+  "unit_en": "Lab 3",
+  "unit_ar": "العملي 3",
+  "unit_label": "LAB",
+  "unit_no": "3",
+  "title_en": "Serum Alkaline Phosphatase (ALP)",
+  "title_ar": "الفوسفاتيز القاعدي في المصل",
+  "kind": "Laboratories — عملي",
+  "stage": "The fourth stage — الرابعة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Serum Alkaline Phosphatase ALP",
+   "ar": "الفوسفاتيز القاعدي في المصل"
+  },
+  {
+   "t": "card",
+   "en": "**Alkaline Phosphatase (ALP)** is an enzyme originating mainly in: The bone, Liver, Placenta With some activity in the kidney and Intestines.",
+   "ar": "**الفوسفاتيز القاعدي (ALP)** إنزيم يأتي أساسًا من: **العظم، والكبد، والمشيمة**، مع بعض الفعالية في **الكلية والأمعاء**."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "It is called alkaline because it functions best at a pH of 9.",
+    "ALP levels are age and gender dependent.",
+    "Alkaline Phosphatase is used as an index of liver and bone disease when correlated with other clinical findings."
+   ],
+   "list_ar": [
+    "سُمّي **قاعديًا** لأنه يعمل بأفضل شكل عند **pH = 9**.",
+    "مستويات ALP **تعتمد على العمر والجنس**.",
+    "يُستعمل الفوسفاتيز القاعدي **مؤشّرًا لأمراض الكبد والعظم** عند ربطه بالنتائج السريرية الأخرى."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "In bone disease, the enzyme level rises in proportion to new bone cell production resulting from osteoplastic activity and the deposit of calcium in the bones.",
+    [
+     "In liver disease, the blood level rises when excretion of this enzyme is impaired as a result of obstruction in the biliary tract.",
+     "Used alone, alkaline Phosphatase may be misleading."
+    ]
+   ],
+   "list_ar": [
+    "في **أمراض العظم** يرتفع مستوى الإنزيم **بالتناسب مع إنتاج خلايا عظمية جديدة** الناتج عن **نشاط بانيات العظم** وترسّب الكالسيوم في العظام.",
+    [
+     "في **أمراض الكبد** يرتفع مستواه في الدم عندما **يتعطّل إخراج هذا الإنزيم** نتيجة **انسداد القناة الصفراوية**.",
+     "وإذا استُعمل الفوسفاتيز القاعدي **وحده** فقد يكون **مضلّلًا**."
+    ]
+   ],
+   "start": 4
+  },
+  {
+   "t": "note",
+   "en": "“osteoplastic” in the sheet means **osteoblastic** (bone-forming cells).",
+   "ar": "“osteoplastic” في الورقة يقصد بها **osteoblastic** أي نشاط **بانيات العظم**.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Sources: **bone, liver, placenta** (+ some kidney and intestine).",
+    "Works best at **pH 9** → “alkaline”; levels depend on **age and sex**.",
+    "Bone: rises with **new bone formation**; liver: rises with **biliary obstruction**; alone it may mislead."
+   ],
+   "ar": [
+    "المصادر: **العظم، الكبد، المشيمة** (+ قليل من الكلية والأمعاء).",
+    "يعمل أفضل عند **pH 9** ← “قاعدي”؛ ومستوياته تعتمد على **العمر والجنس**.",
+    "العظم: يرتفع مع **تكوين عظم جديد**؛ الكبد: يرتفع مع **انسداد القناة الصفراوية**؛ ووحده قد يضلّل."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Normal Value",
+   "ar": "القيم الطبيعية"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Sex",
+     "الجنس"
+    ],
+    [
+     "Age",
+     "العمر"
+    ],
+    [
+     "Normal Value",
+     "القيمة الطبيعية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Females**",
+      "**الإناث**"
+     ],
+     [
+      "1–12 years",
+      "1–12 سنة"
+     ],
+     [
+      "<350 U/L",
+      "أقل من 350 وحدة/لتر"
+     ]
+    ],
+    [
+     [
+      "",
+      ""
+     ],
+     [
+      ">15 years",
+      "أكثر من 15 سنة"
+     ],
+     [
+      "25–100 U/L",
+      "25–100 وحدة/لتر"
+     ]
+    ],
+    [
+     [
+      "**Males**",
+      "**الذكور**"
+     ],
+     [
+      "1–12 years",
+      "1–12 سنة"
+     ],
+     [
+      "<350 U/L",
+      "أقل من 350 وحدة/لتر"
+     ]
+    ],
+    [
+     [
+      "",
+      ""
+     ],
+     [
+      "12–14 years",
+      "12–14 سنة"
+     ],
+     [
+      "<500 U/L",
+      "أقل من 500 وحدة/لتر"
+     ]
+    ],
+    [
+     [
+      "",
+      ""
+     ],
+     [
+      ">20 years",
+      "أكثر من 20 سنة"
+     ],
+     [
+      "25–100 U/L",
+      "25–100 وحدة/لتر"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    34,
+    42
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Adults: **25–100 U/L**; children: **< 350 U/L** (growing bones); boys 12–14 y: **< 500 U/L** (growth spurt)."
+   ],
+   "ar": [
+    "البالغون: **25–100 وحدة/لتر**؛ الأطفال: **أقل من 350** (عظام تنمو)؛ الذكور 12–14 سنة: **أقل من 500** (طفرة النمو)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Clinical significance",
+   "ar": "الأهمية السريرية"
+  },
+  {
+   "t": "card",
+   "en": "**Increased levels of ALP in:**",
+   "ar": "**يرتفع ALP في:**",
+   "list_en": [
+    "Liver disease (obstructive jaundice, hepatic carcinoma, Hepatocellular cirrhosis, Hepatitis, infectious mononucleosis)",
+    "Diabetes mellitus and diabetic hepatic lipidosis.",
+    "Chronic alcohol ingestion.",
+    "Bone disease (Metastatic bone tumor, osteogenic sarcoma, and osteomalacia)"
+   ],
+   "list_ar": [
+    "**أمراض الكبد** (اليرقان الانسدادي، سرطان الكبد، تليّف الكبد الخلوي، التهاب الكبد، داء كثرة الوحيدات العدوائي)",
+    "**داء السكري** والتشحّم الكبدي السكري.",
+    "**تناول الكحول المزمن**.",
+    "**أمراض العظم** (ورم العظم النقيلي، الساركوما العظمية، تليّن العظام)"
+   ],
+   "alpha": true
+  },
+  {
+   "t": "card",
+   "en": "**Decreased levels of ALP in:**",
+   "ar": "**ينخفض ALP في:**",
+   "list_en": [
+    "Hyperparathyroidism and hyperthyroidism.",
+    "Pulmonary and myocardial infarctions.",
+    "Cancer of lung or pancreas."
+   ],
+   "list_ar": [
+    "فرط نشاط جارات الدرقية وفرط نشاط الدرقية.",
+    "احتشاء الرئة واحتشاء عضلة القلب.",
+    "سرطان الرئة أو البنكرياس."
+   ],
+   "alpha": true
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Ulcerative colitis, peptic ulcer.",
+    "Chronic renal failure.",
+    "Magnesium and zinc deficiency (nutritional) and etc."
+   ],
+   "list_ar": [
+    "التهاب القولون التقرّحي، القرحة الهضمية.",
+    "الفشل الكلوي المزمن.",
+    "نقص المغنيسيوم والزنك (غذائي) وغيرها."
+   ],
+   "alpha": true,
+   "start": 4
+  },
+  {
+   "t": "note",
+   "en": "Many textbooks list **hyperparathyroidism and hyperthyroidism** among the causes of **increased** ALP (high bone turnover), and **hypo**thyroidism / **hypo**parathyroidism among the decreased ones — the sheet is copied as written; follow your instructor in the exam.",
+   "ar": "كثير من الكتب تذكر **فرط جارات الدرقية وفرط الدرقية** ضمن أسباب **ارتفاع** ALP (زيادة تجدّد العظم)، و**قصور** الدرقية / جارات الدرقية ضمن أسباب الانخفاض — نقلنا الورقة كما هي؛ واتّبع أستاذك في الامتحان.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "↑ ALP",
+     "ارتفاع ALP"
+    ],
+    [
+     "↓ ALP",
+     "انخفاض ALP"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "liver disease (obstructive jaundice…)",
+      "أمراض الكبد (اليرقان الانسدادي…)"
+     ],
+     [
+      "hyperparathyroidism, hyperthyroidism (sheet)",
+      "فرط جارات الدرقية وفرط الدرقية (الورقة)"
+     ]
+    ],
+    [
+     [
+      "diabetes mellitus, hepatic lipidosis",
+      "السكري، التشحّم الكبدي"
+     ],
+     [
+      "pulmonary / myocardial infarction",
+      "احتشاء الرئة / القلب"
+     ]
+    ],
+    [
+     [
+      "chronic alcohol",
+      "الكحول المزمن"
+     ],
+     [
+      "cancer of lung or pancreas",
+      "سرطان الرئة أو البنكرياس"
+     ]
+    ],
+    [
+     [
+      "bone disease (metastases, osteogenic sarcoma, osteomalacia)",
+      "أمراض العظم (النقائل، الساركوما العظمية، تليّن العظام)"
+     ],
+     [
+      "ulcerative colitis, peptic ulcer, chronic renal failure, Mg & Zn deficiency",
+      "التهاب القولون التقرّحي، القرحة، الفشل الكلوي المزمن، نقص Mg وZn"
+     ]
+    ]
+   ],
+   "widths": [
+    50,
+    50
+   ],
+   "style": "summary",
+   "label_en": "Up or down",
+   "label_ar": "ارتفاع أم انخفاض"
+  },
+  {
+   "t": "note",
+   "en": [
+    "**↑** mainly in **liver (obstructive jaundice)** and **bone** disease, also diabetes and chronic alcohol.",
+    "**↓** in the sheet: hyperpara- / hyperthyroidism, infarctions, lung/pancreas cancer, ulcerative colitis, renal failure, **Mg and Zn deficiency**."
+   ],
+   "ar": [
+    "**يرتفع** أساسًا في أمراض **الكبد (اليرقان الانسدادي)** و**العظم**، وأيضًا السكري والكحول المزمن.",
+    "**ينخفض** حسب الورقة: فرط جارات الدرقية/الدرقية، الاحتشاءات، سرطان الرئة/البنكرياس، التهاب القولون التقرّحي، الفشل الكلوي، **نقص Mg وZn**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Sample",
+   "ar": "العيّنة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    [
+     "ALP levels increase at room temperature and in refrigerated storage.",
+     "Testing should be done the same day."
+    ],
+    "ALP levels decrease if blood is anticoagulated.",
+    "ALP levels increase after fatty meals."
+   ],
+   "list_ar": [
+    [
+     "ترتفع مستويات ALP **بدرجة حرارة الغرفة وفي الخزن المبرّد**.",
+     "لذا يجب إجراء الفحص **في اليوم نفسه**."
+    ],
+    "تنخفض مستويات ALP إذا **أُضيف مانع تخثّر للدم**.",
+    "ترتفع مستويات ALP **بعد الوجبات الدسمة**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Sample:** serum or plasma",
+   "ar": "**العيّنة:** مصل أو بلازما"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Test **the same day**; storage (room or fridge) **raises** ALP; anticoagulant **lowers** it; fatty meal **raises** it.",
+    "Sample: **serum or plasma**."
+   ],
+   "ar": [
+    "افحص **في نفس اليوم**؛ الخزن (غرفة أو ثلاجة) **يرفع** ALP؛ مانع التخثّر **يخفضه**؛ الوجبة الدسمة **ترفعه**.",
+    "العيّنة: **مصل أو بلازما**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "The principle",
+   "ar": "مبدأ الفحص"
+  },
+  {
+   "t": "card",
+   "en": "**The principle:** p-Nitrophenylphosphate + H2O → phosphate + p-Nitrophenol",
+   "ar": "**المبدأ:** `p-Nitrophenylphosphate + H2O → phosphate + p-Nitrophenol`"
+  },
+  {
+   "t": "note",
+   "en": [
+    "ALP splits the colourless substrate **p-nitrophenylphosphate** into phosphate and **p-nitrophenol**, which is **yellow** in alkaline buffer.",
+    "The rate of increase in absorbance per minute is proportional to the ALP activity."
+   ],
+   "ar": [
+    "يحلّل ALP المادة الأساس عديمة اللون **بارا-نايتروفينيل فوسفات** إلى فوسفات و**بارا-نايتروفينول** الذي يكون **أصفر** في المحلول القاعدي.",
+    "ومعدّل زيادة الامتصاص في الدقيقة يتناسب مع فعالية ALP."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Procedure: with starter reagent",
+   "ar": "طريقة العمل: باستعمال كاشف البدء"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Step",
+     "الخطوة"
+    ],
+    [
+     "Volume",
+     "الحجم"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**sample**",
+      "**العيّنة**"
+     ],
+     [
+      "20 microL",
+      "20 مايكرولتر"
+     ]
+    ],
+    [
+     [
+      "**BUF**",
+      "**المحلول المنظّم (BUF)**"
+     ],
+     [
+      "1000 microL",
+      "1000 مايكرولتر"
+     ]
+    ],
+    [
+     [
+      "Mix, incubate for 1 min",
+      "امزج، وحضّن لمدة دقيقة"
+     ],
+     [
+      "—",
+      "—"
+     ]
+    ],
+    [
+     [
+      "**SUB**",
+      "**المادة الأساس (SUB)**"
+     ],
+     [
+      "250 microL",
+      "250 مايكرولتر"
+     ]
+    ],
+    [
+     [
+      "Mix, read the Abs after 1 min, and the same time read the Abs again after 1,2 and 3 min",
+      "امزج، واقرأ الامتصاص بعد دقيقة، ثم اقرأه مرّة أخرى بعد 1 و2 و3 دقائق"
+     ],
+     [
+      "—",
+      "—"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    70,
+    30
+   ]
+  },
+  {
+   "t": "note",
+   "en": "BUF = **buffer**, SUB = **substrate** (p-nitrophenylphosphate); the substrate is the **starter reagent** — it is added last to start the reaction.",
+   "ar": "BUF = **المحلول المنظّم**، وSUB = **المادة الأساس** (بارا-نايتروفينيل فوسفات)؛ والمادة الأساس هي **كاشف البدء** — تُضاف أخيرًا لتبدأ التفاعل.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "sample 20 µL",
+     "ar": "العيّنة 20"
+    },
+    {
+     "en": "+ BUF 1000 µL",
+     "ar": "+ المنظّم 1000"
+    },
+    {
+     "en": "mix, 1 min",
+     "ar": "مزج، دقيقة"
+    },
+    {
+     "en": "+ SUB 250 µL",
+     "ar": "+ المادة الأساس 250"
+    },
+    {
+     "en": "read Abs at 1, 2, 3 min",
+     "ar": "اقرأ عند 1، 2، 3 دقائق"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "CALCULATION",
+   "ar": "الحساب"
+  },
+  {
+   "t": "card",
+   "en": "**U\\I = A\\min x 3433**",
+   "ar": "**`U/L = ΔA/min × 3433`**"
+  },
+  {
+   "t": "note",
+   "en": [
+    "“U\\I” means **U/L** and “A\\min” means the **mean change in absorbance per minute (ΔA/min)**.",
+    "Example: ΔA/min = 0.030 → 0.030 × 3433 ≈ **103 U/L** (just above the adult range 25–100)."
+   ],
+   "ar": [
+    "“U\\I” يقصد بها **U/L** و“A\\min” تعني **متوسّط التغيّر في الامتصاص لكل دقيقة (ΔA/min)**.",
+    "مثال: `ΔA/min = 0.030 → 0.030 × 3433 ≈ 103 U/L` (أعلى بقليل من مدى البالغين 25–100)."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**pNPP + H2O → phosphate + p-nitrophenol** (yellow); kinetic reading of absorbance.",
+    "**20 µL sample + 1000 µL BUF**, 1 min, then **250 µL SUB** (starter); read at 1, 2, 3 min.",
+    "Activity: **U/L = ΔA/min × 3433**."
+   ],
+   "ar": [
+    "**pNPP + H2O → فوسفات + بارا-نايتروفينول** (أصفر)؛ قراءة حركية للامتصاص.",
+    "**20 مايكرولتر عيّنة + 1000 منظّم**، دقيقة، ثم **250 مادة أساس** (كاشف البدء)؛ اقرأ عند 1 و2 و3 دقائق.",
+    "الفعالية: **U/L = ΔA/min × 3433**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Alkaline phosphatase (ALP)**",
+     "الفوسفاتيز القاعدي / الفوسفاتاز القلوي"
+    ],
+    [
+     "**Osteoblastic activity**",
+     "نشاط بانيات العظم / النشاط العظمي البنّاء"
+    ],
+    [
+     "**Biliary obstruction**",
+     "انسداد القناة الصفراوية / انسداد مجرى الصفراء"
+    ],
+    [
+     "**Obstructive jaundice**",
+     "اليرقان الانسدادي / الصفار الانسدادي"
+    ],
+    [
+     "**Infectious mononucleosis**",
+     "داء كثرة الوحيدات العدوائي / حمّى الغدد"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Osteogenic sarcoma**",
+     "الساركوما العظمية / ورم العظم الخبيث"
+    ],
+    [
+     "**Osteomalacia**",
+     "تليّن العظام"
+    ],
+    [
+     "**Hepatic lipidosis**",
+     "التشحّم الكبدي / الكبد الدهني"
+    ],
+    [
+     "**Myocardial infarction**",
+     "احتشاء عضلة القلب / الجلطة القلبية"
+    ],
+    [
+     "**Ulcerative colitis**",
+     "التهاب القولون التقرّحي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Anticoagulated blood**",
+     "دم مضاف إليه مانع تخثّر"
+    ],
+    [
+     "**p-Nitrophenylphosphate (pNPP)**",
+     "بارا-نايتروفينيل فوسفات"
+    ],
+    [
+     "**p-Nitrophenol**",
+     "بارا-نايتروفينول"
+    ],
+    [
+     "**Buffer (BUF)**",
+     "المحلول المنظّم / الدارئ"
+    ],
+    [
+     "**Substrate (SUB) / starter reagent**",
+     "المادة الأساس / كاشف البدء"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Absorbance (Abs)**",
+     "الامتصاص / الامتصاصية"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "The enzyme",
+    "topic_ar": "الإنزيم"
+   },
+   {
+    "en": "ALP originates mainly from:",
+    "ar": "يأتي ALP أساسًا من:",
+    "options": [
+     [
+      "Red blood cells",
+      "كريات الدم الحمر"
+     ],
+     [
+      "Heart and skeletal muscle",
+      "القلب والعضلات الهيكلية"
+     ],
+     [
+      "Pancreas only",
+      "البنكرياس فقط"
+     ],
+     [
+      "Bone, liver and placenta",
+      "العظم والكبد والمشيمة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "ALP is called alkaline because it works best at pH:",
+    "ar": "سُمّي ALP قاعديًا لأنه يعمل أفضل عند pH:",
+    "options": [
+     [
+      "9",
+      "9"
+     ],
+     [
+      "5",
+      "5"
+     ],
+     [
+      "7.4",
+      "7.4"
+     ],
+     [
+      "2",
+      "2"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "ALP levels depend on:",
+    "ar": "تعتمد مستويات ALP على:",
+    "options": [
+     [
+      "Blood group",
+      "فصيلة الدم"
+     ],
+     [
+      "Age and gender",
+      "العمر والجنس"
+     ],
+     [
+      "Time of day only",
+      "وقت اليوم فقط"
+     ],
+     [
+      "Height",
+      "الطول"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "ALP is used as an index of:",
+    "ar": "يُستعمل ALP مؤشّرًا لـ:",
+    "options": [
+     [
+      "Heart and kidney disease",
+      "أمراض القلب والكلية"
+     ],
+     [
+      "Muscle disease",
+      "أمراض العضلات"
+     ],
+     [
+      "Liver and bone disease",
+      "أمراض الكبد والعظم"
+     ],
+     [
+      "Lung disease",
+      "أمراض الرئة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In bone disease, ALP rises in proportion to:",
+    "ar": "في أمراض العظم يرتفع ALP بالتناسب مع:",
+    "options": [
+     [
+      "Red cell destruction",
+      "تكسّر الكريات الحمر"
+     ],
+     [
+      "Bone marrow failure",
+      "فشل نخاع العظم"
+     ],
+     [
+      "Muscle mass",
+      "كتلة العضلات"
+     ],
+     [
+      "New bone cell production (osteoblastic activity)",
+      "إنتاج خلايا عظمية جديدة (نشاط بانيات العظم)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In liver disease, ALP rises because of:",
+    "ar": "في أمراض الكبد يرتفع ALP بسبب:",
+    "options": [
+     [
+      "Obstruction in the biliary tract",
+      "انسداد القناة الصفراوية"
+     ],
+     [
+      "Increased bone formation",
+      "زيادة تكوين العظم"
+     ],
+     [
+      "Kidney failure",
+      "الفشل الكلوي"
+     ],
+     [
+      "Low pH",
+      "انخفاض pH"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Normal values",
+    "topic_ar": "القيم الطبيعية"
+   },
+   {
+    "en": "The normal ALP of an adult (female > 15 y or male > 20 y) is:",
+    "ar": "القيمة الطبيعية لـ ALP للبالغ (أنثى > 15 أو ذكر > 20 سنة):",
+    "options": [
+     [
+      "< 350 U/L",
+      "أقل من 350"
+     ],
+     [
+      "< 500 U/L",
+      "أقل من 500"
+     ],
+     [
+      "25–100 U/L",
+      "25–100"
+     ],
+     [
+      "0–10 U/L",
+      "0–10"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The normal ALP for children 1–12 years is:",
+    "ar": "القيمة الطبيعية لـ ALP للأطفال 1–12 سنة:",
+    "options": [
+     [
+      "25–100 U/L",
+      "25–100"
+     ],
+     [
+      "< 350 U/L",
+      "أقل من 350"
+     ],
+     [
+      "> 1000 U/L",
+      "أكثر من 1000"
+     ],
+     [
+      "< 500 U/L",
+      "أقل من 500"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The highest upper limit (< 500 U/L) is for:",
+    "ar": "أعلى حدّ أعلى (أقل من 500) يكون لـ:",
+    "options": [
+     [
+      "Females 1–12 years",
+      "الإناث 1–12 سنة"
+     ],
+     [
+      "Females > 15 years",
+      "الإناث > 15 سنة"
+     ],
+     [
+      "Males > 20 years",
+      "الذكور > 20 سنة"
+     ],
+     [
+      "Males 12–14 years",
+      "الذكور 12–14 سنة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Clinical significance",
+    "topic_ar": "الأهمية السريرية"
+   },
+   {
+    "en": "ALP is increased in:",
+    "ar": "يرتفع ALP في:",
+    "options": [
+     [
+      "Obstructive jaundice",
+      "اليرقان الانسدادي"
+     ],
+     [
+      "Magnesium deficiency",
+      "نقص المغنيسيوم"
+     ],
+     [
+      "Chronic renal failure",
+      "الفشل الكلوي المزمن"
+     ],
+     [
+      "Peptic ulcer",
+      "القرحة الهضمية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which bone disease increases ALP?",
+    "ar": "أيّ مرض عظمي يرفع ALP؟",
+    "options": [
+     [
+      "Peptic ulcer",
+      "القرحة الهضمية"
+     ],
+     [
+      "Myocardial infarction",
+      "احتشاء القلب"
+     ],
+     [
+      "Osteomalacia",
+      "تليّن العظام"
+     ],
+     [
+      "Zinc deficiency",
+      "نقص الزنك"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "According to the sheet, ALP is decreased in:",
+    "ar": "حسب الورقة، ينخفض ALP في:",
+    "options": [
+     [
+      "Hepatitis",
+      "التهاب الكبد"
+     ],
+     [
+      "Chronic renal failure",
+      "الفشل الكلوي المزمن"
+     ],
+     [
+      "Chronic alcohol ingestion",
+      "تناول الكحول المزمن"
+     ],
+     [
+      "Osteogenic sarcoma",
+      "الساركوما العظمية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Nutritional deficiency that decreases ALP:",
+    "ar": "النقص الغذائي الذي يخفض ALP:",
+    "options": [
+     [
+      "Sodium",
+      "الصوديوم"
+     ],
+     [
+      "Iron",
+      "الحديد"
+     ],
+     [
+      "Vitamin C",
+      "فيتامين C"
+     ],
+     [
+      "Magnesium and zinc",
+      "المغنيسيوم والزنك"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which of the following increases ALP?",
+    "ar": "أيّ مما يأتي يرفع ALP؟",
+    "options": [
+     [
+      "Ulcerative colitis",
+      "التهاب القولون التقرّحي"
+     ],
+     [
+      "Cancer of the pancreas",
+      "سرطان البنكرياس"
+     ],
+     [
+      "Diabetes mellitus",
+      "داء السكري"
+     ],
+     [
+      "Pulmonary infarction",
+      "احتشاء الرئة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Infectious mononucleosis affects ALP as a:",
+    "ar": "داء كثرة الوحيدات العدوائي يؤثّر على ALP كـ:",
+    "options": [
+     [
+      "Liver disease that increases it",
+      "مرض كبدي يرفعه"
+     ],
+     [
+      "Nutritional cause of decrease",
+      "سبب غذائي للانخفاض"
+     ],
+     [
+      "Bone disease that decreases it",
+      "مرض عظمي يخفضه"
+     ],
+     [
+      "No effect",
+      "لا تأثير"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Sample and interference",
+    "topic_ar": "العيّنة والتداخلات"
+   },
+   {
+    "en": "The sample for ALP is:",
+    "ar": "عيّنة ALP هي:",
+    "options": [
+     [
+      "Urine",
+      "الإدرار"
+     ],
+     [
+      "Serum or plasma",
+      "مصل أو بلازما"
+     ],
+     [
+      "Whole blood only",
+      "دم كامل فقط"
+     ],
+     [
+      "CSF",
+      "السائل الدماغي الشوكي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "ALP should be tested the same day because:",
+    "ar": "يجب فحص ALP في اليوم نفسه لأن:",
+    "options": [
+     [
+      "It turns yellow",
+      "يصفرّ"
+     ],
+     [
+      "It disappears in 1 hour",
+      "يختفي خلال ساعة"
+     ],
+     [
+      "It clots",
+      "يتخثّر"
+     ],
+     [
+      "It increases at room temperature and in refrigerated storage",
+      "يرتفع بدرجة الغرفة وفي الخزن المبرّد"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Anticoagulated blood causes ALP to:",
+    "ar": "الدم المضاف إليه مانع تخثّر يجعل ALP:",
+    "options": [
+     [
+      "Increase",
+      "يرتفع"
+     ],
+     [
+      "Decrease",
+      "ينخفض"
+     ],
+     [
+      "Stay the same",
+      "يبقى نفسه"
+     ],
+     [
+      "Double",
+      "يتضاعف"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "A fatty meal before sampling:",
+    "ar": "الوجبة الدسمة قبل سحب العيّنة:",
+    "options": [
+     [
+      "Increases ALP",
+      "ترفع ALP"
+     ],
+     [
+      "Has no effect",
+      "لا تأثير لها"
+     ],
+     [
+      "Decreases ALP",
+      "تخفض ALP"
+     ],
+     [
+      "Stops the reaction",
+      "توقف التفاعل"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Principle, procedure and calculation",
+    "topic_ar": "المبدأ وطريقة العمل والحساب"
+   },
+   {
+    "en": "The substrate used in the ALP method is:",
+    "ar": "المادة الأساس في طريقة ALP:",
+    "options": [
+     [
+      "Glucose",
+      "الغلوكوز"
+     ],
+     [
+      "Urea",
+      "اليوريا"
+     ],
+     [
+      "p-Nitrophenylphosphate",
+      "بارا-نايتروفينيل فوسفات"
+     ],
+     [
+      "ATP",
+      "ATP"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The coloured product measured is:",
+    "ar": "الناتج الملوّن الذي يُقاس:",
+    "options": [
+     [
+      "NADH",
+      "NADH"
+     ],
+     [
+      "Phosphate",
+      "الفوسفات"
+     ],
+     [
+      "Water",
+      "الماء"
+     ],
+     [
+      "p-Nitrophenol",
+      "بارا-نايتروفينول"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The volume of sample in the procedure is:",
+    "ar": "حجم العيّنة في طريقة العمل:",
+    "options": [
+     [
+      "20 microL",
+      "20 مايكرولتر"
+     ],
+     [
+      "250 microL",
+      "250 مايكرولتر"
+     ],
+     [
+      "1000 microL",
+      "1000 مايكرولتر"
+     ],
+     [
+      "100 microL",
+      "100 مايكرولتر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The starter reagent (added last) is:",
+    "ar": "كاشف البدء (يُضاف أخيرًا) هو:",
+    "options": [
+     [
+      "The buffer (BUF)",
+      "المحلول المنظّم"
+     ],
+     [
+      "The sample",
+      "العيّنة"
+     ],
+     [
+      "The substrate (SUB)",
+      "المادة الأساس"
+     ],
+     [
+      "Water",
+      "الماء"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "ALP activity is calculated as:",
+    "ar": "تُحسب فعالية ALP:",
+    "options": [
+     [
+      "U/L = ΔA/min ÷ 3433",
+      "`U/L = ΔA/min ÷ 3433`"
+     ],
+     [
+      "U/L = ΔA/min × 3433",
+      "`U/L = ΔA/min × 3433`"
+     ],
+     [
+      "U/L = 3433 ÷ ΔA",
+      "`U/L = 3433 ÷ ΔA`"
+     ],
+     [
+      "U/L = A × 100",
+      "`U/L = A × 100`"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "If ΔA/min = 0.020, ALP activity is about:",
+    "ar": "إذا كانت `ΔA/min = 0.020` فإن فعالية ALP تقريبًا:",
+    "options": [
+     [
+      "172 U/L",
+      "172 وحدة/لتر"
+     ],
+     [
+      "69 U/L",
+      "69 وحدة/لتر"
+     ],
+     [
+      "343 U/L",
+      "343 وحدة/لتر"
+     ],
+     [
+      "20 U/L",
+      "20 وحدة/لتر"
+     ]
+    ],
+    "answer": "b"
+   }
+  ],
+  "tf": [
+   {
+    "en": "ALP has some activity in the kidney and intestines.",
+    "ar": "لـ ALP بعض الفعالية في الكلية والأمعاء.",
+    "answer": "T"
+   },
+   {
+    "en": "ALP functions best at pH 7.",
+    "ar": "يعمل ALP أفضل عند pH 7.",
+    "answer": "F"
+   },
+   {
+    "en": "Used alone, alkaline phosphatase may be misleading.",
+    "ar": "إذا استُعمل ALP وحده فقد يكون مضلّلًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Children have lower ALP than adults.",
+    "ar": "ALP عند الأطفال أقل من البالغين.",
+    "answer": "F"
+   },
+   {
+    "en": "Hepatic carcinoma increases ALP.",
+    "ar": "سرطان الكبد يرفع ALP.",
+    "answer": "T"
+   },
+   {
+    "en": "Chronic alcohol ingestion decreases ALP.",
+    "ar": "تناول الكحول المزمن يخفض ALP.",
+    "answer": "F"
+   },
+   {
+    "en": "Peptic ulcer is listed among the causes of decreased ALP.",
+    "ar": "القرحة الهضمية مذكورة ضمن أسباب انخفاض ALP.",
+    "answer": "T"
+   },
+   {
+    "en": "Refrigerated storage keeps ALP unchanged for days.",
+    "ar": "الخزن المبرّد يبقي ALP دون تغيير لأيام.",
+    "answer": "F"
+   },
+   {
+    "en": "ALP can be measured in serum or plasma.",
+    "ar": "يمكن قياس ALP في المصل أو البلازما.",
+    "answer": "T"
+   },
+   {
+    "en": "In the procedure, the sample is incubated with the buffer for 1 min before adding the substrate.",
+    "ar": "في طريقة العمل تُحضَّن العيّنة مع المنظّم دقيقة قبل إضافة المادة الأساس.",
+    "answer": "T"
+   },
+   {
+    "en": "The absorbance is read only once.",
+    "ar": "يُقرأ الامتصاص مرّة واحدة فقط.",
+    "answer": "F"
+   },
+   {
+    "en": "The factor in the calculation is 3433.",
+    "ar": "المعامل في الحساب هو 3433.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Bone vs liver — why does ALP rise in each?",
+    "ar": "العظم مقابل الكبد — لماذا يرتفع ALP في كلٍّ منهما؟",
+    "answer_en": "Bone: more new bone cell production (osteoblastic activity); liver: impaired excretion due to biliary obstruction.",
+    "answer_ar": "العظم: زيادة إنتاج خلايا عظمية جديدة (بانيات العظم)؛ الكبد: تعطّل الإخراج بسبب انسداد القناة الصفراوية."
+   },
+   {
+    "en": "High ALP in a 13-year-old boy — disease?",
+    "ar": "ALP مرتفع عند ولد عمره 13 سنة — مرض؟",
+    "answer_en": "Not necessarily — males 12–14 years have normal values up to < 500 U/L (growth).",
+    "answer_ar": "ليس بالضرورة — الطبيعي للذكور 12–14 سنة حتى أقل من 500 وحدة/لتر (النمو)."
+   },
+   {
+    "en": "Storage: up or down?",
+    "ar": "الخزن: يرفع أم يخفض؟",
+    "answer_en": "Up — ALP increases at room temperature and in the fridge; test the same day.",
+    "answer_ar": "يرفع — يزداد ALP بدرجة الغرفة وفي الثلاجة؛ افحص في نفس اليوم."
+   },
+   {
+    "en": "Anticoagulant vs fatty meal?",
+    "ar": "مانع التخثّر مقابل الوجبة الدسمة؟",
+    "answer_en": "Anticoagulated blood decreases ALP; a fatty meal increases it.",
+    "answer_ar": "الدم مع مانع التخثّر يخفض ALP؛ والوجبة الدسمة ترفعه."
+   },
+   {
+    "en": "BUF or SUB — which starts the reaction?",
+    "ar": "BUF أم SUB — أيّهما يبدأ التفاعل؟",
+    "answer_en": "SUB (substrate, p-nitrophenylphosphate) — the starter reagent, added after 1 min incubation of sample + buffer.",
+    "answer_ar": "SUB (المادة الأساس، بارا-نايتروفينيل فوسفات) — كاشف البدء، يُضاف بعد تحضين العيّنة مع المنظّم دقيقة."
+   },
+   {
+    "en": "Multiply or divide by 3433?",
+    "ar": "نضرب أم نقسم على 3433؟",
+    "answer_en": "Multiply: U/L = ΔA/min × 3433.",
+    "answer_ar": "نضرب: `U/L = ΔA/min × 3433`."
+   }
+  ],
+  "important": [
+   {
+    "en": "What is ALP and why is it called alkaline?",
+    "ar": "ما هو ALP ولماذا سُمّي قاعديًا؟",
+    "answer_en": "An enzyme originating mainly in bone, liver and placenta, with some activity in kidney and intestines; called alkaline because it works best at pH 9; its levels depend on age and gender; it is an index of liver and bone disease when correlated with other clinical findings.",
+    "answer_ar": "إنزيم يأتي أساسًا من العظم والكبد والمشيمة مع بعض الفعالية في الكلية والأمعاء؛ سُمّي قاعديًا لأنه يعمل أفضل عند pH 9؛ مستوياته تعتمد على العمر والجنس؛ وهو مؤشّر لأمراض الكبد والعظم عند ربطه بالنتائج السريرية الأخرى."
+   },
+   {
+    "en": "Write the normal values of ALP.",
+    "ar": "اكتب القيم الطبيعية لـ ALP.",
+    "answer_en": "Females: 1–12 y < 350 U/L, > 15 y 25–100 U/L. Males: 1–12 y < 350 U/L, 12–14 y < 500 U/L, > 20 y 25–100 U/L.",
+    "answer_ar": "الإناث: 1–12 سنة أقل من 350، وأكثر من 15 سنة 25–100 وحدة/لتر. الذكور: 1–12 سنة أقل من 350، و12–14 سنة أقل من 500، وأكثر من 20 سنة 25–100 وحدة/لتر."
+   },
+   {
+    "en": "List the causes of increased ALP.",
+    "ar": "عدّد أسباب ارتفاع ALP.",
+    "answer_en": "Liver disease (obstructive jaundice, hepatic carcinoma, hepatocellular cirrhosis, hepatitis, infectious mononucleosis); diabetes mellitus and diabetic hepatic lipidosis; chronic alcohol ingestion; bone disease (metastatic bone tumor, osteogenic sarcoma, osteomalacia).",
+    "answer_ar": "أمراض الكبد (اليرقان الانسدادي، سرطان الكبد، تليّف الكبد، التهاب الكبد، داء كثرة الوحيدات العدوائي)؛ السكري والتشحّم الكبدي السكري؛ الكحول المزمن؛ أمراض العظم (ورم العظم النقيلي، الساركوما العظمية، تليّن العظام)."
+   },
+   {
+    "en": "List the causes of decreased ALP (as in the sheet).",
+    "ar": "عدّد أسباب انخفاض ALP (كما في الورقة).",
+    "answer_en": "Hyperparathyroidism and hyperthyroidism; pulmonary and myocardial infarctions; cancer of lung or pancreas; ulcerative colitis, peptic ulcer; chronic renal failure; magnesium and zinc deficiency (nutritional).",
+    "answer_ar": "فرط جارات الدرقية وفرط الدرقية؛ احتشاء الرئة والقلب؛ سرطان الرئة أو البنكرياس؛ التهاب القولون التقرّحي والقرحة الهضمية؛ الفشل الكلوي المزمن؛ نقص المغنيسيوم والزنك (غذائي)."
+   },
+   {
+    "en": "What factors affect the ALP result?",
+    "ar": "ما العوامل المؤثّرة في نتيجة ALP؟",
+    "answer_en": "ALP increases at room temperature and in refrigerated storage (test the same day), decreases if blood is anticoagulated, and increases after fatty meals. Sample: serum or plasma.",
+    "answer_ar": "يرتفع ALP بدرجة الغرفة وفي الخزن المبرّد (افحص في نفس اليوم)، وينخفض إذا أُضيف مانع تخثّر، ويرتفع بعد الوجبات الدسمة. العيّنة: مصل أو بلازما."
+   },
+   {
+    "en": "Write the principle, procedure and calculation of ALP.",
+    "ar": "اكتب مبدأ فحص ALP وطريقته وحسابه.",
+    "answer_en": "Principle: p-nitrophenylphosphate + H2O → phosphate + p-nitrophenol (yellow). Procedure: 20 µL sample + 1000 µL BUF, mix and incubate 1 min, add 250 µL SUB, mix and read Abs after 1 min then again after 1, 2 and 3 min. Calculation: U/L = ΔA/min × 3433.",
+    "answer_ar": "المبدأ: بارا-نايتروفينيل فوسفات + ماء ← فوسفات + بارا-نايتروفينول (أصفر). الطريقة: 20 مايكرولتر عيّنة + 1000 منظّم، امزج وحضّن دقيقة، أضف 250 مادة أساس، امزج واقرأ الامتصاص بعد دقيقة ثم بعد 1 و2 و3 دقائق. الحساب: `U/L = ΔA/min × 3433`."
+   }
+  ]
+ }
+}

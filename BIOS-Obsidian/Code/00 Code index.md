@@ -14,15 +14,29 @@
 
 ## Generators (one per handout)
 
+- [[Code/at4 - a4q.py|at4/a4q.py]] → advtech-lec4-plasma-urine-proteins
+- [[Code/at5 - a5q.py|at5/a5q.py]] → advtech-lec5-pcr
 - [[Code/bac - lab2.py|bac/lab2.py]] → bacteriology-lab2-specimens
 - [[Code/bac - lab3.py|bac/lab3.py]] → bacteriology-lab3-culture-media
+- [[Code/bac6 - b6q.py|bac6/b6q.py]] → bacteriology-lec6-culture-media
 - [[Code/bb - make.py|bb/make.py]] → bloodbank-lec1-introduction
+- [[Code/bb4 - bb4n.py|bb4/bb4n.py]] → bloodbank-lec4-screening
+- [[Code/bb4n - bb4n.py|bb4n/bb4n.py]] → bloodbank-lec4-screening
+- [[Code/bb5n - bb5n.py|bb5n/bb5n.py]] → bloodbank-lec5-abo-rh
+- [[Code/bb6 - bb6q.py|bb6/bb6q.py]] → bloodbank-lec6-abo-discrepancies
 - [[Code/bt - make2.py|bt/make2.py]] → bloodbank-lec2-donation-criteria
 - [[Code/bt - make3.py|bt/make3.py]] → bloodbank-lec3-services
 - [[Code/chr - l2.py|chr/l2.py]] → histopathology-lec2-chronic-inflammation
+- [[Code/elab3 - el3q.py|elab3/el3q.py]] → enzymology-lab3-alkaline-phosphatase
+- [[Code/enz3 - e3q.py|enz3/e3q.py]] → enzymology-lec3-michaelis-menten-questions
+- [[Code/enz4 - e4q.py|enz4/e4q.py]] → enzymology-lec4-bioenergetics
 - [[Code/eth - make.py|eth/make.py]] → ethics-lec1-morals
+- [[Code/gen2 - g2q.py|gen2/g2q.py]] → genetics-lec2-mitosis
+- [[Code/gh - ghq.py|gh/ghq.py]] → endocrine-lab3-growth-hormone
 - [[Code/gt2 - gt2.py|gt2/gt2.py]] → genetics-lec2-meiosis
+- [[Code/hb4 - hbq.py|hb4/hbq.py]] → hematology-practical-hb-estimation
 - [[Code/heal - l4.py|heal/l4.py]] → histopathology-lec4-healing-regeneration
+- [[Code/heal2 - h4q.py|heal2/h4q.py]] → histopathology-lec4-healing-regeneration
 - [[Code/hem - make.py|hem/make.py]] → enzymology-lab1-safety-tubes
 - [[Code/hem3 - l2.py|hem3/l2.py]] → hematology-lec2-blood-cell-formation
 - [[Code/hem3 - l3.py|hem3/l3.py]] → hematology-lec3-blood-elements
@@ -34,12 +48,15 @@
 - [[Code/his - l2.py|his/l2.py]] → histopathology-lab2-samples
 - [[Code/hl10 - l10.py|hl10/l10.py]] → hematology-lec10-membrane-defects
 - [[Code/hl3 - norm3.py|hl3/norm3.py]] → hematology-practical-normal-values
+- [[Code/hl3x - t3q.py|hl3x/t3q.py]] → histopathology-lab3-tissue-processing
 - [[Code/hl6 - l6new.py|hl6/l6new.py]] → hematology-lec6-iron-deficiency
 - [[Code/hl7 - l7new.py|hl7/l7new.py]] → hematology-lec7-chronic-sideroblastic
 - [[Code/hl8 - l8.py|hl8/l8.py]] → hematology-lec8-macrocytic
 - [[Code/hl9 - l9.py|hl9/l9.py]] → hematology-lec9-hemolytic
 - [[Code/im2 - l2.py|im2/l2.py]] → immunology-lec2-cells-organs
 - [[Code/im3 - l3.py|im3/l3.py]] → immunology-lec3-antigens
+- [[Code/im4 - i4q.py|im4/i4q.py]] → immunology-lec4-immunoglobulins
+- [[Code/iml3 - l3q.py|iml3/l3q.py]] → immunology-lab3-antigen-preparation
 - [[Code/imm456 - bb4.py|imm456/bb4.py]] → bloodbank-lec4-screening
 - [[Code/imm456 - bb5.py|imm456/bb5.py]] → bloodbank-lec5-abo-rh
 - [[Code/imm456 - ci2.py|imm456/ci2.py]] → clinimm-lec2-sle
@@ -51,6 +68,7 @@
 - [[Code/imm456 - rs3.py|imm456/rs3.py]] → research-lec3-research-plan
 - [[Code/imt - l1.py|imt/l1.py]] → immunology-lec1-introduction
 - [[Code/inf - l1.py|inf/l1.py]] → histopathology-lec1-acute-inflammation
+- [[Code/ins - insq.py|ins/insq.py]] → endocrine-lab4-insulin
 - [[Code/lb1 - gl1.py|lb1/gl1.py]] → genetics-lab1-mitosis
 - [[Code/lb2 - gl2.py|lb2/gl2.py]] → genetics-lab2-meiosis
 - [[Code/lb3 - gl3.py|lb3/gl3.py]] → genetics-lab3-medical-genetics
@@ -66,31 +84,76 @@
 - [[Code/n7 - norm.py|n7/norm.py]] → hematology-practical-normal-values
 - [[Code/n7 - vir.py|n7/vir.py]] → virology-lab1-safety
 - [[Code/par - make.py|par/make.py]] → parasitology-week1-mcq
+- [[Code/par3 - p3q.py|par3/p3q.py]] → parasitology-week3-theory
+- [[Code/par4 - p4q.py|par4/p4q.py]] → parasitology-week4-theory
+- [[Code/par5 - p5q.py|par5/p5q.py]] → parasitology-week5-theory
 - [[Code/pat - make12.py|pat/make12.py]] → pathology-lec1-2-atelectasis
 - [[Code/pat - make3.py|pat/make3.py]] → pathology-lec3-chronic-bronchitis
+- [[Code/pat4 - p4q.py|pat4/p4q.py]] → pathology-lec4-lung-cancer
+- [[Code/pat5 - p5q.py|pat5/p5q.py]] → pathology-lec5-glomerular-diseases
+- [[Code/pat6 - p6q.py|pat6/p6q.py]] → pathology-lec6-nephrotic-renal-tumors
+- [[Code/pat7 - p7q.py|pat7/p7q.py]] → pathology-lec7-oral-tumors
+- [[Code/pcv - pcvq.py|pcv/pcvq.py]] → hematology-practical-pcv
 - [[Code/picq.py|picq.py]] → bloodbank-lec1-introduction, immunology-lab1-serology, lab1-biosafety
+- [[Code/pl4 - pl4q.py|pl4/pl4q.py]] → parasitology-lab4-nonpathogenic-amoebae
+- [[Code/pl5 - pl5q.py|pl5/pl5q.py]] → parasitology-lab5-flagellates-giardia
 - [[Code/res - make.py|res/make.py]] → research-lec1-principles
 - [[Code/ria - l3.py|ria/l3.py]] → advtech-lec3-ria
 - [[Code/sol - l4.py|sol/l4.py]] → parasitology-lab4-solutions
 - [[Code/tb - turb.py|tb/turb.py]] → hematology-practical-turbidimetry
+- [[Code/thy - thyq.py|thy/thyq.py]] → endocrine-lab5-thyroid-hormones
+- [[Code/vir3 - v3q.py|vir3/v3q.py]] → virology-lab3-direct-examination
+- [[Code/vir4 - v4q.py|vir4/v4q.py]] → virology-lab4-isolation-cultivation
+- [[Code/vir5 - v5q.py|vir5/v5q.py]] → virology-lab5-complement-fixation
 
 ## Other utilities
 
+- [[Code/at4 - a4.py|at4/a4.py]]
+- [[Code/at5 - a5.py|at5/a5.py]]
 - [[Code/bac - sheet.py|bac/sheet.py]]
+- [[Code/bac6 - b6.py|bac6/b6.py]]
+- [[Code/bb6 - bb6.py|bb6/bb6.py]]
 - [[Code/bios_dbg.py|bios_dbg.py]]
 - [[Code/covers - make.py|covers/make.py]]
 - [[Code/covers - make2.py|covers/make2.py]]
+- [[Code/elab3 - el3.py|elab3/el3.py]]
+- [[Code/enz3 - e3.py|enz3/e3.py]]
+- [[Code/enz4 - e4.py|enz4/e4.py]]
+- [[Code/fill.py|fill.py]]
+- [[Code/fill2.py|fill2.py]]
+- [[Code/gen2 - g2.py|gen2/g2.py]]
+- [[Code/gh - gh.py|gh/gh.py]]
+- [[Code/hb4 - hb.py|hb4/hb.py]]
+- [[Code/heal2 - h4.py|heal2/h4.py]]
+- [[Code/hl3x - t3.py|hl3x/t3.py]]
+- [[Code/im4 - i4.py|im4/i4.py]]
+- [[Code/iml3 - l3.py|iml3/l3.py]]
 - [[Code/imm456 - ci5_blocks.py|imm456/ci5_blocks.py]]
 - [[Code/imm456 - ci6_ar.py|imm456/ci6_ar.py]]
+- [[Code/ins - ins.py|ins/ins.py]]
 - [[Code/par2 - ps2.py|par2/ps2.py]]
 - [[Code/par2 - ps3.py|par2/ps3.py]]
 - [[Code/par2 - ps4.py|par2/ps4.py]]
 - [[Code/par2 - ps5.py|par2/ps5.py]]
+- [[Code/par3 - p3.py|par3/p3.py]]
+- [[Code/par4 - p4.py|par4/p4.py]]
+- [[Code/par5 - p5.py|par5/p5.py]]
 - [[Code/para - ar1.py|para/ar1.py]]
 - [[Code/para - ar2.py|para/ar2.py]]
 - [[Code/pat - fix1.py|pat/fix1.py]]
+- [[Code/pat4 - p4.py|pat4/p4.py]]
+- [[Code/pat5 - p5.py|pat5/p5.py]]
+- [[Code/pat6 - p6.py|pat6/p6.py]]
+- [[Code/pat7 - p7.py|pat7/p7.py]]
+- [[Code/pcv - pcv.py|pcv/pcv.py]]
+- [[Code/pl4 - pl4.py|pl4/pl4.py]]
+- [[Code/pl5 - pl5.py|pl5/pl5.py]]
 - [[Code/q3 - his_mcq.py|q3/his_mcq.py]]
 - [[Code/restyle.py|restyle.py]]
+- [[Code/thy - thy.py|thy/thy.py]]
+- [[Code/vir3 - v3.py|vir3/v3.py]]
+- [[Code/vir4 - v4.py|vir4/v4.py]]
+- [[Code/vir5 - v5.py|vir5/v5.py]]
 
 ## Engine snapshot
 

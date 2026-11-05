@@ -1,0 +1,1507 @@
+{
+ "meta": {
+  "subject_en": "Diagnostic Microbiology",
+  "subject_ar": "الأحياء المجهرية التشخيصية",
+  "short_ar": "بكتريا",
+  "instructor": "د. عدنان",
+  "unit_en": "Lecture 6",
+  "unit_ar": "المحاضرة 6",
+  "unit_label": "LEC",
+  "unit_no": "6",
+  "title_en": "Cultivation and Isolation of Viable Pathogen",
+  "title_ar": "زرع الممرضات الحيّة وعزلها",
+  "department": "قسم التحليلات",
+  "kind": "Theory — نظري",
+  "stage": "The fourth stage — الرابعة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Laboratory media",
+   "ar": "الأوساط المختبرية"
+  },
+  {
+   "t": "card",
+   "en": "Culture media are required to isolate the bacteria from the clinical specimens; following which the appropriate biochemical tests can be performed to identify the causative agent.",
+   "ar": "**الأوساط الزرعية** مطلوبة **لعزل البكتيريا من العيّنات السريرية**؛ وبعدها يمكن إجراء **الفحوص الكيموحيوية** المناسبة لتشخيص **العامل المسبّب**."
+  },
+  {
+   "t": "h2",
+   "en": "Constituents of culture media:",
+   "ar": "مكوّنات الأوساط الزرعية:"
+  },
+  {
+   "t": "card",
+   "en": "The basic constituents of culture media are:",
+   "ar": "المكوّنات الأساسية للأوساط الزرعية هي:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Water:** Distilled water or potable water with low mineral content is suitable for culture media preparation.",
+    "**Electrolyte:** Sodium chloride or other electrolytes."
+   ],
+   "list_ar": [
+    "**الماء:** الماء المقطّر أو ماء الشرب **قليل المعادن** مناسب لتحضير الأوساط الزرعية.",
+    "**الإلكتروليت:** كلوريد الصوديوم أو إلكتروليتات أخرى."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Peptone:** It is a complex mixture of partially digested proteins."
+   ],
+   "list_ar": [
+    "**الببتون:** خليط معقّد من **بروتينات مهضومة جزئيًا**."
+   ],
+   "start": 3
+  },
+  {
+   "t": "card",
+   "en": "**Peptone —**",
+   "ar": "**الببتون —**",
+   "list_en": [
+    "**Source:** It is obtained from lean meat or other protein material, such as heart muscle, casein or fibrin, or soya flour usually by digestion with proteolytic enzymes, such as pepsin"
+   ],
+   "list_ar": [
+    "**المصدر:** يُحصل عليه من **اللحم الأحمر الخالي من الدهن** أو مواد بروتينية أخرى مثل عضلة القلب أو الكازين أو الفايبرين أو طحين الصويا، عادةً **بالهضم بإنزيمات محلّلة للبروتين** مثل **البيبسين**"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Constituents:** 1t contains proteoses, aminoacids, inorganic salts (phosphates, potassium and magnesium), accessory growth factors like nicotinic acid and riboflavin."
+   ],
+   "list_ar": [
+    "**المكوّنات:** يحتوي البروتيوزات والأحماض الأمينية والأملاح غير العضوية (الفوسفات والبوتاسيوم والمغنيسيوم) و**عوامل النمو المساعدة** مثل حامض النيكوتينيك والرايبوفلافين."
+   ],
+   "start": 2
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Agar:** It is used for solidifying the culture media.",
+    "It is commercially available in powder form; melts in water after boiling and jellifies after cooling also called 'agar-agar' is prepared from the cell wall of variety of seaweeds (red algae of species __Gelidium__ and __Gracilaria__)"
+   ],
+   "ar": [
+    "**الأكار:** يُستعمل **لتصليب الأوساط الزرعية**.",
+    "يتوفّر تجاريًا بشكل مسحوق؛ **يذوب في الماء بعد الغليان ويتهلّم بعد التبريد**، ويسمّى أيضًا 'أكار-أكار'، ويُحضَّر من **جدار خلايا أنواع من الأعشاب البحرية** (الطحالب الحمراء من نوعي `Gelidium` و`Gracilaria`)"
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Preparation of agar media:** The appropriate amount of agar powder is added to water and the mixture is dissolved and then sterilized by placing it in an autoclave.",
+    "When the temperature of the molten agar comes down to 45°C, it is poured to the Petri dishes and then allowed to set for 20 minutes."
+   ],
+   "ar": [
+    "**تحضير أوساط الأكار:** تُضاف الكمية المناسبة من مسحوق الأكار إلى الماء ويُذاب الخليط، ثم يُعقَّم **بوضعه في المؤصدة (autoclave)**.",
+    "وعندما تنخفض درجة حرارة الأكار المنصهر إلى **45°م** يُصبّ في **أطباق بتري** ثم يُترك **ليتصلّب 20 دقيقة**."
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "agar powder + water",
+     "ar": "مسحوق أكار + ماء"
+    },
+    {
+     "en": "dissolve",
+     "ar": "إذابة"
+    },
+    {
+     "en": "autoclave",
+     "ar": "المؤصدة"
+    },
+    {
+     "en": "cool to 45°C",
+     "ar": "تبريد إلى 45°م"
+    },
+    {
+     "en": "pour into Petri dishes",
+     "ar": "صبّ في أطباق بتري"
+    },
+    {
+     "en": "set 20 min",
+     "ar": "تصلّب 20 دقيقة"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Meat extract:** It is a commercial preparation of highly concentrated meat stock, usually made from beef.",
+    "It contains protein degradation products, inorganic salts, carbohydrates and growth factors."
+   ],
+   "ar": [
+    "**مستخلص اللحم:** مستحضر تجاري من **مرق لحم عالي التركيز**، عادةً من **لحم البقر**.",
+    "ويحتوي نواتج تحلّل البروتين والأملاح غير العضوية والكاربوهيدرات وعوامل النمو."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Yeast extract:** Itis prepared commercially from washed cells of Baker's yeast.",
+    "It contains amino acids, inorgani c salts (potassium and phosphates) and carbohydrates.",
+    "(Figure-1)"
+   ],
+   "ar": [
+    "**مستخلص الخميرة:** يُحضَّر تجاريًا من **خلايا خميرة الخبّاز المغسولة**.",
+    "ويحتوي الأحماض الأمينية والأملاح غير العضوية (البوتاسيوم والفوسفات) والكاربوهيدرات.",
+    "(الشكل 1)"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/media-fig1.png",
+   "en": "Figure (1): A. Peptone water; B. Nutrient agar; C. Blood agar; D. Chocolate agar.",
+   "ar": "الشكل (1): A. ماء الببتون؛ B. الأكار المغذّي؛ C. أكار الدم؛ D. أكار الشوكولاتة.",
+   "h": "46mm",
+   "fit": "contain"
+  },
+  {
+   "t": "card",
+   "en": "**Malt extract:** It consists of maltose (about 50%), starch, dextrin, glucose and 5% protein products.",
+   "ar": "**مستخلص الشعير (المولت):** يتكوّن من **المالتوز (حوالي 50%)** والنشا والدكسترين والغلوكوز و**5% منتجات بروتينية**."
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Blood and serum:** They are important components of enriched media and provide extra nutrition to fastidious bacteria.",
+    "Usually 5- % of sheep blood is used.",
+    "Horse, ox or human blood can also be used."
+   ],
+   "ar": [
+    "**الدم والمصل:** مكوّنان مهمّان في **الأوساط المُغناة** ويوفّران **تغذية إضافية للبكتيريا صعبة النمو**.",
+    "عادةً يُستعمل **5- % من دم الأغنام**.",
+    "ويمكن استعمال دم الحصان أو الثور أو الإنسان أيضًا."
+   ]
+  },
+  {
+   "t": "note",
+   "en": "“5- %” — the second number is missing in the sheet (usually **5–10%** sheep blood); “1t” = It, “Itis” = It is, “inorgani c” = inorganic.",
+   "ar": "“5- %” — الرقم الثاني ناقص في الورقة (عادةً **5–10%** من دم الأغنام)؛ و“1t” أي It، و“Itis” أي It is، و“inorgani c” أي inorganic.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Constituent",
+     "المكوّن"
+    ],
+    [
+     "Role / what it is",
+     "الدور / ما هو"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Water**",
+      "**الماء**"
+     ],
+     [
+      "distilled / low-mineral water",
+      "مقطّر / قليل المعادن"
+     ]
+    ],
+    [
+     [
+      "**Electrolyte**",
+      "**الإلكتروليت**"
+     ],
+     [
+      "NaCl",
+      "كلوريد الصوديوم"
+     ]
+    ],
+    [
+     [
+      "**Peptone**",
+      "**الببتون**"
+     ],
+     [
+      "partially digested proteins (pepsin)",
+      "بروتينات مهضومة جزئيًا (بيبسين)"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    34,
+    66
+   ],
+   "style": "summary",
+   "label_en": "Constituents at a glance",
+   "label_ar": "المكوّنات بنظرة"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Constituent",
+     "المكوّن"
+    ],
+    [
+     "Role / what it is",
+     "الدور / ما هو"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Agar**",
+      "**الأكار**"
+     ],
+     [
+      "solidifying agent from red algae",
+      "عامل تصليب من الطحالب الحمراء"
+     ]
+    ],
+    [
+     [
+      "**Meat / yeast / malt extract**",
+      "**مستخلص اللحم / الخميرة / الشعير**"
+     ],
+     [
+      "nutrients and growth factors",
+      "مغذّيات وعوامل نمو"
+     ]
+    ],
+    [
+     [
+      "**Blood and serum**",
+      "**الدم والمصل**"
+     ],
+     [
+      "enrichment for fastidious bacteria",
+      "إغناء للبكتيريا صعبة النمو"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    34,
+    66
+   ],
+   "style": "summary",
+   "label_en": "Constituents (cont.)",
+   "label_ar": "المكوّنات (تكملة)"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Media isolate bacteria from specimens → then **biochemical tests** identify them.",
+    "Peptone = **partially digested proteins** (pepsin); agar from **red algae**, melts on boiling, gels on cooling.",
+    "Agar plates: autoclave → cool to **45°C** → pour → set **20 min**.",
+    "Malt extract ≈ **50% maltose**; blood (usually **sheep**) for **fastidious** bacteria."
+   ],
+   "ar": [
+    "الأوساط تعزل البكتيريا من العيّنات ← ثم **الفحوص الكيموحيوية** تشخّصها.",
+    "الببتون = **بروتينات مهضومة جزئيًا** (بيبسين)؛ الأكار من **الطحالب الحمراء**، يذوب بالغليان ويتهلّم بالتبريد.",
+    "أطباق الأكار: المؤصدة ← تبريد إلى **45°م** ← صبّ ← تصلّب **20 دقيقة**.",
+    "مستخلص الشعير ≈ **50% مالتوز**؛ الدم (عادةً **أغنام**) للبكتيريا **صعبة النمو**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Types of culture media",
+   "ar": "أنواع الأوساط الزرعية"
+  },
+  {
+   "t": "card",
+   "en": "Bacteriological culture media can be classified in two ways: **A. Based on consistency,** culture media are grouped into:",
+   "ar": "يمكن تصنيف الأوساط الزرعية البكتيرية بطريقتين: **أ. حسب القوام** تُجمع الأوساط في:",
+   "list_en": [
+    "Liquid media (or broth)",
+    "Semisolid media",
+    "Solid media"
+   ],
+   "list_ar": [
+    "أوساط سائلة (أو مرق)",
+    "أوساط شبه صلبة",
+    "أوساط صلبة"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**B. Based on the growth requirements,** culture media are classified as:",
+   "ar": "**ب. حسب متطلّبات النمو** تُصنَّف الأوساط إلى:",
+   "list_en": [
+    "**Routine laboratory media:** They are prepared from nutrients, such as aqueous extract of meat, peptone, etc. They can further be classified into various types based on functional use or application, as Simple/basal media; Enriched media; Enrichment broth; Selective media; Differential media; Transport media; Anaerobic media.",
+    "**Defined or synthetic media:** They are prepared from pure chemical substances and the exact composition of the media is known, Simple synthetic media and Complex synthetic media."
+   ],
+   "list_ar": [
+    "**الأوساط المختبرية الروتينية:** تُحضَّر من مغذّيات مثل **المستخلص المائي للحم** والببتون وغيرها. ويمكن تصنيفها أيضًا حسب الاستعمال إلى: الأوساط البسيطة/الأساسية؛ والمُغناة؛ ومرق الإغناء؛ والانتقائية؛ والتفريقية؛ وأوساط النقل؛ والأوساط اللاهوائية.",
+    "**الأوساط المحدّدة أو الصناعية:** تُحضَّر من **مواد كيميائية نقية** ويكون **تركيبها الدقيق معروفًا**، وهي أوساط صناعية بسيطة وأوساط صناعية معقّدة."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Simple media",
+   "ar": "الأوساط البسيطة"
+  },
+  {
+   "t": "card",
+   "en": "Many bacteria will grow in or on simple media such as nutrient broth/nutrient agar that contains ‘peptone’ (polypeptides and amino acids from the enzymatic digestion of meat) and ‘meat extract’(water-soluble components of meat containing mineral salts and vitamins).",
+   "ar": "تنمو بكتيريا كثيرة في أو على **الأوساط البسيطة** مثل **المرق المغذّي/الأكار المغذّي** الذي يحتوي ‘الببتون’ (متعدّدات ببتيد وأحماض أمينية من **الهضم الإنزيمي للحم**) و‘مستخلص اللحم’ (المكوّنات الذائبة في الماء من اللحم وفيها أملاح معدنية وفيتامينات)."
+  },
+  {
+   "t": "h2",
+   "en": "Enriched media",
+   "ar": "الأوساط المُغناة"
+  },
+  {
+   "t": "card",
+   "en": "These contain additional nutrients for the isolation of more fastidious bacteria that require special conditions for growth like agar containing whole blood (blood agar) or agar containing lysed blood (chocolate agar). (Figure-2)",
+   "ar": "تحتوي **مغذّيات إضافية** لعزل **البكتيريا الأكثر صعوبة في النمو** التي تتطلّب ظروفًا خاصة، مثل الأكار الذي يحتوي **دمًا كاملًا (أكار الدم)** أو الأكار الذي يحتوي **دمًا متحلّلًا (أكار الشوكولاتة)** (الشكل 2)."
+  },
+  {
+   "t": "figure",
+   "src": "assets/media-fig2.png",
+   "en": "Figure (2): A. Brain-heart infusion broth; B. Biphasic medium (Brain-heart infusion broth/agar); C. Robertson's cooked meat medium; D. Thioglycollate broth — labels in the picture: Monophasic medium (A), Biphasic medium (B)",
+   "ar": "الشكل (2): A. مرق منقوع الدماغ والقلب؛ B. وسط ثنائي الطور (مرق/أكار منقوع الدماغ والقلب)؛ C. وسط روبرتسون للحم المطبوخ؛ D. مرق الثايوغلايكوليت — كتابات الصورة: وسط أحادي الطور (A)، وسط ثنائي الطور (B)",
+   "h": "96mm",
+   "fit": "contain"
+  },
+  {
+   "t": "note",
+   "en": [
+    "By **consistency**: liquid (broth), semisolid, solid.",
+    "By **growth requirements**: routine media (simple, enriched, enrichment broth, selective, differential, transport, anaerobic) and **defined/synthetic** media (pure chemicals, exact composition).",
+    "Simple = **nutrient broth/agar**; enriched = **blood agar** (whole blood) and **chocolate agar** (lysed blood)."
+   ],
+   "ar": [
+    "حسب **القوام**: سائل (مرق)، شبه صلب، صلب.",
+    "حسب **متطلّبات النمو**: أوساط روتينية (بسيطة، مُغناة، مرق إغناء، انتقائية، تفريقية، نقل، لاهوائية) وأوساط **محدّدة/صناعية** (مواد نقية وتركيب دقيق).",
+    "البسيط = **المرق/الأكار المغذّي**؛ المُغنى = **أكار الدم** (دم كامل) و**أكار الشوكولاتة** (دم متحلّل)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Selective media",
+   "ar": "الأوساط الانتقائية"
+  },
+  {
+   "t": "card",
+   "en": "These are designed to facilitate growth of some bacteria, while suppressing the growth of others, and include:",
+   "ar": "صُمّمت **لتسهيل نمو بعض البكتيريا مع تثبيط نمو غيرها**، وتشمل:",
+   "list_en": [
+    "**Mannitol salt agar** which contains increased NaCl (salt) concentration for the recovery of staphylococci;",
+    "**MacConkey agar,** which contains bile salts and allows the growth of bile-tolerant bacteria only; and",
+    "**Antibiotics,** which are frequently added to media to allow only certain bacteria to grow while suppressing or killing others."
+   ],
+   "list_ar": [
+    "**أكار الملح والمانيتول** الذي يحتوي **تركيزًا عاليًا من NaCl (الملح)** لاستعادة **المكوّرات العنقودية**؛",
+    "**أكار ماكونكي** الذي يحتوي **أملاح الصفراء** ويسمح بنمو **البكتيريا المتحمّلة للصفراء** فقط؛ و",
+    "**المضادات الحيوية** التي تُضاف كثيرًا للأوساط للسماح لبكتيريا معيّنة فقط بالنمو مع تثبيط الأخرى أو قتلها."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Indicator media",
+   "ar": "الأوساط الدالّة"
+  },
+  {
+   "t": "card",
+   "en": [
+    "These are designed to aid the detection and recognition of particular pathogens.",
+    "They are often based on sugar fermentation reactions that result in production of acid and the subsequent colour change of a pH indicator, such as MacConkey agar contains lactose and a pH indicator (neutral red); lactose-fermenting bacteria (__Escherichia coli__) produce acid and form pink colonies, whereas non-lactose fermenting bacteria (__Salmonella spp.__) do not produce acid and form pale yellow colonies."
+   ],
+   "ar": [
+    "صُمّمت للمساعدة في **كشف وتمييز ممرضات معيّنة**.",
+    "وغالبًا تعتمد على **تفاعلات تخمّر السكر** التي تنتج **حامضًا** يتبعه **تغيّر لون دليل pH**؛ مثل أكار ماكونكي الذي يحتوي **اللاكتوز** ودليل pH (**الأحمر المتعادل**)؛ فالبكتيريا **المخمّرة للاكتوز** (`Escherichia coli`) تنتج حامضًا وتكوّن **مستعمرات وردية**، بينما البكتيريا **غير المخمّرة للاكتوز** (`Salmonella spp.`) لا تنتج حامضًا وتكوّن **مستعمرات صفراء شاحبة**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "This property facilitates the recognition of possible Salmonella colonies among normal bowel flora.",
+    "Note that indicator media may also contain selective agents including antibiotics or substances such as bile salts and crystal violet to suppress growth of most Gram- positive microorganisms.",
+    "MacConkey agar is therefore both a selective medium and an indicator medium."
+   ],
+   "ar": [
+    "وتسهّل هذه الخاصية **تمييز مستعمرات السالمونيلا المحتملة** بين **فلورا الأمعاء الطبيعية**.",
+    "ولاحظ أن الأوساط الدالّة قد تحتوي أيضًا **عوامل انتقائية** منها المضادات الحيوية أو مواد مثل **أملاح الصفراء والبنفسجي البلّوري** **لتثبيط نمو معظم الأحياء الموجبة لغرام**.",
+    "لذا فإن **أكار ماكونكي وسط انتقائي ودالّ معًا**."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Feature",
+     "الصفة"
+    ],
+    [
+     "Lactose fermenter",
+     "مخمّر اللاكتوز"
+    ],
+    [
+     "Non-lactose fermenter",
+     "غير مخمّر اللاكتوز"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Example**",
+      "**مثال**"
+     ],
+     [
+      "__Escherichia coli__",
+      "الإشريكية القولونية"
+     ],
+     [
+      "__Salmonella spp.__",
+      "أنواع السالمونيلا"
+     ]
+    ],
+    [
+     [
+      "**Acid**",
+      "**الحامض**"
+     ],
+     [
+      "produced",
+      "يُنتج"
+     ],
+     [
+      "not produced",
+      "لا يُنتج"
+     ]
+    ],
+    [
+     [
+      "**Colonies on MacConkey**",
+      "**المستعمرات على ماكونكي**"
+     ],
+     [
+      "pink",
+      "وردية"
+     ],
+     [
+      "pale yellow",
+      "صفراء شاحبة"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    35,
+    35
+   ],
+   "style": "summary",
+   "label_en": "MacConkey agar",
+   "label_ar": "أكار ماكونكي"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Selective: **mannitol salt agar** (high NaCl → staphylococci), **MacConkey** (bile salts → bile-tolerant), **antibiotics**."
+   ],
+   "ar": [
+    "الانتقائية: **أكار الملح والمانيتول** (ملح عالٍ ← العنقودية)، **ماكونكي** (أملاح صفراء ← المتحمّلة للصفراء)، **المضادات الحيوية**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Indicator: sugar fermentation → acid → **pH indicator colour change**; MacConkey: lactose + **neutral red**.",
+    "**E. coli → pink**, **Salmonella → pale yellow**; MacConkey is **selective + indicator**."
+   ],
+   "ar": [
+    "الدالّة: تخمّر السكر ← حامض ← **تغيّر لون دليل pH**؛ ماكونكي: لاكتوز + **الأحمر المتعادل**.",
+    "**الإشريكية ← وردية**، **السالمونيلا ← صفراء شاحبة**؛ وماكونكي **انتقائي + دالّ**."
+   ],
+   "label": [
+    "In short (cont.)",
+    "باختصار (تكملة)"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Pretest and posttest",
+   "ar": "الاختبار القبلي والبعدي"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Pretest: -How u can cultivate the bacteria in Lab. ?",
+    "Posttest 1- Constituents of culture media are ---------,-----------",
+    "Posttest 2- Which are common pathogenic bacteria isolated form urinary tract?"
+   ],
+   "list_ar": [
+    "الاختبار القبلي: كيف يمكنك زرع البكتيريا في المختبر؟",
+    "الاختبار البعدي 1- مكوّنات الأوساط الزرعية هي ---------، -----------",
+    "الاختبار البعدي 2- ما البكتيريا الممرضة الشائعة المعزولة من المجاري البولية؟"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "The scientific content listed in the sheet: Laboratory media; Constituents of culture media; Types of culture media.",
+    "The model answers of these questions are in the question file (important questions)."
+   ],
+   "ar": [
+    "المحتوى العلمي المذكور في الورقة: الأوساط المختبرية؛ مكوّنات الأوساط الزرعية؛ أنواع الأوساط الزرعية.",
+    "والإجابات النموذجية لهذه الأسئلة في ملف الأسئلة (الأسئلة المهمة)."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Culture medium**",
+     "الوسط الزرعي / المزرعة / البيئة الزرعية"
+    ],
+    [
+     "**Peptone**",
+     "الببتون / البروتين المهضوم جزئيًا"
+    ],
+    [
+     "**Agar**",
+     "الأكار / الآجار"
+    ],
+    [
+     "**Autoclave**",
+     "المؤصدة / جهاز التعقيم بالبخار المضغوط"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Petri dish**",
+     "طبق بتري"
+    ],
+    [
+     "**Fastidious bacteria**",
+     "البكتيريا صعبة النمو / المتطلّبة"
+    ],
+    [
+     "**Broth**",
+     "المرق / الوسط السائل"
+    ],
+    [
+     "**Enriched medium**",
+     "الوسط المُغنى / الوسط المدعَّم"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Selective medium**",
+     "الوسط الانتقائي"
+    ],
+    [
+     "**Indicator (differential) medium**",
+     "الوسط الدالّ / الوسط التفريقي"
+    ],
+    [
+     "**Blood agar**",
+     "أكار الدم"
+    ],
+    [
+     "**Chocolate agar**",
+     "أكار الشوكولاتة / أكار الدم المسخّن"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**MacConkey agar**",
+     "أكار ماكونكي"
+    ],
+    [
+     "**Mannitol salt agar**",
+     "أكار الملح والمانيتول"
+    ],
+    [
+     "**Lactose fermenter**",
+     "مخمّر اللاكتوز"
+    ],
+    [
+     "**Neutral red**",
+     "الأحمر المتعادل"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Bile salts**",
+     "أملاح الصفراء"
+    ],
+    [
+     "**Biphasic medium**",
+     "الوسط ثنائي الطور"
+    ],
+    [
+     "**Robertson's cooked meat medium**",
+     "وسط روبرتسون للحم المطبوخ"
+    ],
+    [
+     "**Thioglycollate broth**",
+     "مرق الثايوغلايكوليت"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Constituents of culture media",
+    "topic_ar": "مكوّنات الأوساط الزرعية"
+   },
+   {
+    "en": "Culture media are required to:",
+    "ar": "الأوساط الزرعية مطلوبة لـ:",
+    "options": [
+     [
+      "Count red blood cells",
+      "عدّ الكريات الحمر"
+     ],
+     [
+      "Stain the bacteria",
+      "صبغ البكتيريا"
+     ],
+     [
+      "Kill the bacteria",
+      "قتل البكتيريا"
+     ],
+     [
+      "Isolate the bacteria from the clinical specimens",
+      "عزل البكتيريا من العيّنات السريرية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Peptone is:",
+    "ar": "الببتون هو:",
+    "options": [
+     [
+      "A solidifying agent",
+      "عامل تصليب"
+     ],
+     [
+      "A pH indicator",
+      "دليل pH"
+     ],
+     [
+      "A complex mixture of partially digested proteins",
+      "خليط معقّد من بروتينات مهضومة جزئيًا"
+     ],
+     [
+      "An antibiotic",
+      "مضاد حيوي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Peptone is usually prepared by digestion with:",
+    "ar": "يُحضَّر الببتون عادةً بالهضم بواسطة:",
+    "options": [
+     [
+      "Amylase",
+      "الأميليز"
+     ],
+     [
+      "Pepsin",
+      "البيبسين"
+     ],
+     [
+      "Lipase",
+      "الليبيز"
+     ],
+     [
+      "DNase",
+      "الدي إن إيز"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Agar is used for:",
+    "ar": "يُستعمل الأكار لـ:",
+    "options": [
+     [
+      "Solidifying the culture media",
+      "تصليب الأوساط الزرعية"
+     ],
+     [
+      "Killing contaminants",
+      "قتل الملوّثات"
+     ],
+     [
+      "Changing colour",
+      "تغيير اللون"
+     ],
+     [
+      "Providing nitrogen",
+      "توفير النتروجين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Agar is prepared from:",
+    "ar": "يُحضَّر الأكار من:",
+    "options": [
+     [
+      "Beef",
+      "لحم البقر"
+     ],
+     [
+      "Red algae (Gelidium and Gracilaria)",
+      "الطحالب الحمراء (Gelidium وGracilaria)"
+     ],
+     [
+      "Baker's yeast",
+      "خميرة الخبّاز"
+     ],
+     [
+      "Sheep blood",
+      "دم الأغنام"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Molten agar is poured into Petri dishes when its temperature comes down to:",
+    "ar": "يُصبّ الأكار المنصهر في أطباق بتري عندما تنخفض حرارته إلى:",
+    "options": [
+     [
+      "100°C",
+      "100°م"
+     ],
+     [
+      "4°C",
+      "4°م"
+     ],
+     [
+      "45°C",
+      "45°م"
+     ],
+     [
+      "121°C",
+      "121°م"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "After pouring, agar plates are allowed to set for:",
+    "ar": "بعد الصبّ تُترك أطباق الأكار لتتصلّب:",
+    "options": [
+     [
+      "2 minutes",
+      "دقيقتين"
+     ],
+     [
+      "24 hours",
+      "24 ساعة"
+     ],
+     [
+      "1 week",
+      "أسبوعًا"
+     ],
+     [
+      "20 minutes",
+      "20 دقيقة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Malt extract consists of about 50%:",
+    "ar": "يتكوّن مستخلص الشعير من حوالي 50%:",
+    "options": [
+     [
+      "Maltose",
+      "مالتوز"
+     ],
+     [
+      "Protein",
+      "بروتين"
+     ],
+     [
+      "Starch",
+      "نشا"
+     ],
+     [
+      "Glucose",
+      "غلوكوز"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The blood most commonly used in enriched media is:",
+    "ar": "الدم الأكثر استعمالًا في الأوساط المُغناة:",
+    "options": [
+     [
+      "Sheep blood",
+      "دم الأغنام"
+     ],
+     [
+      "Fish blood",
+      "دم الأسماك"
+     ],
+     [
+      "Chicken blood",
+      "دم الدجاج"
+     ],
+     [
+      "Snake blood",
+      "دم الأفاعي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Yeast extract is prepared from:",
+    "ar": "يُحضَّر مستخلص الخميرة من:",
+    "options": [
+     [
+      "Red algae",
+      "الطحالب الحمراء"
+     ],
+     [
+      "Washed cells of Baker's yeast",
+      "خلايا خميرة الخبّاز المغسولة"
+     ],
+     [
+      "Beef",
+      "لحم البقر"
+     ],
+     [
+      "Soya flour",
+      "طحين الصويا"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Types of culture media",
+    "topic_ar": "أنواع الأوساط الزرعية"
+   },
+   {
+    "en": "Based on consistency, culture media are:",
+    "ar": "حسب القوام تكون الأوساط الزرعية:",
+    "options": [
+     [
+      "Selective and differential",
+      "انتقائية وتفريقية"
+     ],
+     [
+      "Simple and complex",
+      "بسيطة ومعقّدة"
+     ],
+     [
+      "Liquid, semisolid and solid",
+      "سائلة وشبه صلبة وصلبة"
+     ],
+     [
+      "Aerobic and anaerobic",
+      "هوائية ولاهوائية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Media prepared from pure chemical substances with exact known composition are:",
+    "ar": "الأوساط المحضّرة من مواد كيميائية نقية بتركيب معروف بدقّة هي:",
+    "options": [
+     [
+      "Enriched media",
+      "المُغناة"
+     ],
+     [
+      "Transport media",
+      "أوساط النقل"
+     ],
+     [
+      "Routine media",
+      "الروتينية"
+     ],
+     [
+      "Defined or synthetic media",
+      "المحدّدة أو الصناعية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Nutrient broth / nutrient agar is an example of:",
+    "ar": "المرق / الأكار المغذّي مثال على:",
+    "options": [
+     [
+      "Synthetic media",
+      "الأوساط الصناعية"
+     ],
+     [
+      "Selective media",
+      "الأوساط الانتقائية"
+     ],
+     [
+      "Indicator media",
+      "الأوساط الدالّة"
+     ],
+     [
+      "Simple media",
+      "الأوساط البسيطة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Chocolate agar contains:",
+    "ar": "يحتوي أكار الشوكولاتة:",
+    "options": [
+     [
+      "Whole blood",
+      "دمًا كاملًا"
+     ],
+     [
+      "Lysed blood",
+      "دمًا متحلّلًا"
+     ],
+     [
+      "Bile salts",
+      "أملاح الصفراء"
+     ],
+     [
+      "High salt",
+      "ملحًا عاليًا"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Enriched media are used for:",
+    "ar": "تُستعمل الأوساط المُغناة لـ:",
+    "options": [
+     [
+      "Isolation of fastidious bacteria",
+      "عزل البكتيريا صعبة النمو"
+     ],
+     [
+      "Transporting specimens",
+      "نقل العيّنات"
+     ],
+     [
+      "Suppressing all bacteria",
+      "تثبيط كل البكتيريا"
+     ],
+     [
+      "Staining",
+      "الصبغ"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Selective and indicator media",
+    "topic_ar": "الأوساط الانتقائية والدالّة"
+   },
+   {
+    "en": "Mannitol salt agar is used for the recovery of:",
+    "ar": "يُستعمل أكار الملح والمانيتول لاستعادة:",
+    "options": [
+     [
+      "Salmonella",
+      "السالمونيلا"
+     ],
+     [
+      "E. coli",
+      "الإشريكية القولونية"
+     ],
+     [
+      "Staphylococci",
+      "المكوّرات العنقودية"
+     ],
+     [
+      "Streptococci",
+      "المكوّرات العقدية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "MacConkey agar contains bile salts to allow growth of:",
+    "ar": "يحتوي أكار ماكونكي أملاح الصفراء للسماح بنمو:",
+    "options": [
+     [
+      "Fungi",
+      "الفطريات"
+     ],
+     [
+      "Gram-positive cocci",
+      "المكوّرات الموجبة لغرام"
+     ],
+     [
+      "Bile-tolerant bacteria only",
+      "البكتيريا المتحمّلة للصفراء فقط"
+     ],
+     [
+      "All bacteria",
+      "كل البكتيريا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The pH indicator in MacConkey agar is:",
+    "ar": "دليل pH في أكار ماكونكي هو:",
+    "options": [
+     [
+      "Phenol red",
+      "الأحمر الفينولي"
+     ],
+     [
+      "Neutral red",
+      "الأحمر المتعادل"
+     ],
+     [
+      "Bromothymol blue",
+      "أزرق البروموثايمول"
+     ],
+     [
+      "Crystal violet",
+      "البنفسجي البلّوري"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "On MacConkey agar, E. coli forms:",
+    "ar": "على أكار ماكونكي تكوّن الإشريكية القولونية:",
+    "options": [
+     [
+      "Pink colonies",
+      "مستعمرات وردية"
+     ],
+     [
+      "Black colonies",
+      "مستعمرات سوداء"
+     ],
+     [
+      "Pale yellow colonies",
+      "مستعمرات صفراء شاحبة"
+     ],
+     [
+      "No colonies",
+      "لا مستعمرات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Non-lactose fermenting Salmonella on MacConkey forms:",
+    "ar": "السالمونيلا غير المخمّرة للاكتوز على ماكونكي تكوّن:",
+    "options": [
+     [
+      "Pink colonies",
+      "مستعمرات وردية"
+     ],
+     [
+      "Green colonies",
+      "مستعمرات خضراء"
+     ],
+     [
+      "Red colonies with halo",
+      "مستعمرات حمراء بهالة"
+     ],
+     [
+      "Pale yellow colonies",
+      "مستعمرات صفراء شاحبة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "MacConkey agar is:",
+    "ar": "أكار ماكونكي:",
+    "options": [
+     [
+      "A transport medium",
+      "وسط نقل"
+     ],
+     [
+      "A simple medium only",
+      "وسط بسيط فقط"
+     ],
+     [
+      "Both a selective medium and an indicator medium",
+      "وسط انتقائي ودالّ معًا"
+     ],
+     [
+      "An enriched medium for fastidious bacteria",
+      "وسط مُغنى للبكتيريا صعبة النمو"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Bile salts and crystal violet in indicator media suppress:",
+    "ar": "أملاح الصفراء والبنفسجي البلّوري في الأوساط الدالّة تثبّط:",
+    "options": [
+     [
+      "Gram-negative bacilli",
+      "العصيات السالبة لغرام"
+     ],
+     [
+      "Most Gram-positive microorganisms",
+      "معظم الأحياء الموجبة لغرام"
+     ],
+     [
+      "Salmonella",
+      "السالمونيلا"
+     ],
+     [
+      "Lactose fermenters",
+      "مخمّرات اللاكتوز"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this figure, plate C (red) is:",
+    "ar": "في هذا الشكل، الطبق C (الأحمر) هو:",
+    "options": [
+     [
+      "Nutrient agar",
+      "الأكار المغذّي"
+     ],
+     [
+      "Chocolate agar",
+      "أكار الشوكولاتة"
+     ],
+     [
+      "Peptone water",
+      "ماء الببتون"
+     ],
+     [
+      "Blood agar",
+      "أكار الدم"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/media-fig1.png",
+    "img_h": "30mm"
+   },
+   {
+    "en": "In this figure, D (brown plate) is:",
+    "ar": "في هذا الشكل، D (الطبق البنّي) هو:",
+    "options": [
+     [
+      "Chocolate agar",
+      "أكار الشوكولاتة"
+     ],
+     [
+      "Nutrient agar",
+      "الأكار المغذّي"
+     ],
+     [
+      "MacConkey agar",
+      "أكار ماكونكي"
+     ],
+     [
+      "Blood agar",
+      "أكار الدم"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/media-fig1.png",
+    "img_h": "30mm"
+   },
+   {
+    "en": "Bottle B in this figure (broth over agar) is a:",
+    "ar": "القنينة B في هذا الشكل (مرق فوق أكار) هي:",
+    "options": [
+     [
+      "Robertson's cooked meat medium",
+      "وسط روبرتسون للحم المطبوخ"
+     ],
+     [
+      "Monophasic medium",
+      "وسط أحادي الطور"
+     ],
+     [
+      "Thioglycollate broth",
+      "مرق الثايوغلايكوليت"
+     ],
+     [
+      "Biphasic medium",
+      "وسط ثنائي الطور"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/media-fig2.png",
+    "img_h": "36mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Distilled water or low-mineral potable water is suitable for media preparation.",
+    "ar": "الماء المقطّر أو ماء الشرب قليل المعادن مناسب لتحضير الأوساط.",
+    "answer": "T"
+   },
+   {
+    "en": "Agar provides the main nutrition for bacteria.",
+    "ar": "الأكار يوفّر التغذية الرئيسية للبكتيريا.",
+    "answer": "F"
+   },
+   {
+    "en": "Agar melts after boiling and jellifies after cooling.",
+    "ar": "يذوب الأكار بعد الغليان ويتهلّم بعد التبريد.",
+    "answer": "T"
+   },
+   {
+    "en": "Agar media are sterilized in an autoclave.",
+    "ar": "تُعقَّم أوساط الأكار في المؤصدة.",
+    "answer": "T"
+   },
+   {
+    "en": "Meat extract is usually made from beef.",
+    "ar": "يُصنع مستخلص اللحم عادةً من لحم البقر.",
+    "answer": "T"
+   },
+   {
+    "en": "Horse, ox or human blood can also be used in enriched media.",
+    "ar": "يمكن استعمال دم الحصان أو الثور أو الإنسان أيضًا في الأوساط المُغناة.",
+    "answer": "T"
+   },
+   {
+    "en": "Blood agar contains lysed blood.",
+    "ar": "يحتوي أكار الدم دمًا متحلّلًا.",
+    "answer": "F"
+   },
+   {
+    "en": "Transport media and anaerobic media are types of routine laboratory media.",
+    "ar": "أوساط النقل والأوساط اللاهوائية من أنواع الأوساط المختبرية الروتينية.",
+    "answer": "T"
+   },
+   {
+    "en": "Selective media facilitate growth of all bacteria equally.",
+    "ar": "الأوساط الانتقائية تسهّل نمو كل البكتيريا بالتساوي.",
+    "answer": "F"
+   },
+   {
+    "en": "Mannitol salt agar contains a high NaCl concentration.",
+    "ar": "يحتوي أكار الملح والمانيتول تركيزًا عاليًا من NaCl.",
+    "answer": "T"
+   },
+   {
+    "en": "Lactose-fermenting bacteria produce acid on MacConkey agar.",
+    "ar": "البكتيريا المخمّرة للاكتوز تنتج حامضًا على أكار ماكونكي.",
+    "answer": "T"
+   },
+   {
+    "en": "Salmonella forms pink colonies on MacConkey agar.",
+    "ar": "تكوّن السالمونيلا مستعمرات وردية على أكار ماكونكي.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Blood agar vs chocolate agar?",
+    "ar": "أكار الدم مقابل أكار الشوكولاتة؟",
+    "answer_en": "Blood agar contains whole blood; chocolate agar contains lysed blood — both are enriched media.",
+    "answer_ar": "أكار الدم فيه دم كامل؛ وأكار الشوكولاتة فيه دم متحلّل — وكلاهما وسط مُغنى."
+   },
+   {
+    "en": "Is MacConkey only selective?",
+    "ar": "هل ماكونكي انتقائي فقط؟",
+    "answer_en": "No — bile salts make it selective and lactose + neutral red make it an indicator; it is both.",
+    "answer_ar": "لا — أملاح الصفراء تجعله انتقائيًا واللاكتوز مع الأحمر المتعادل يجعله دالًّا؛ فهو الاثنان."
+   },
+   {
+    "en": "Pink or pale colonies — which is E. coli?",
+    "ar": "مستعمرات وردية أم شاحبة — أيّها الإشريكية؟",
+    "answer_en": "E. coli (lactose fermenter) → pink; Salmonella (non-lactose fermenter) → pale yellow.",
+    "answer_ar": "الإشريكية (مخمّرة للاكتوز) ← وردية؛ السالمونيلا (غير مخمّرة) ← صفراء شاحبة."
+   },
+   {
+    "en": "Agar: nutrient or solidifier?",
+    "ar": "الأكار: مغذٍّ أم مصلِّب؟",
+    "answer_en": "Solidifier — nutrients come from peptone, extracts, blood and serum.",
+    "answer_ar": "مصلِّب — والمغذّيات تأتي من الببتون والمستخلصات والدم والمصل."
+   },
+   {
+    "en": "Pour molten agar at boiling point?",
+    "ar": "هل يُصبّ الأكار المنصهر وهو يغلي؟",
+    "answer_en": "No — wait until it cools to 45°C, then pour and let it set 20 minutes.",
+    "answer_ar": "لا — انتظر حتى يبرد إلى 45°م ثم اصبب واتركه يتصلّب 20 دقيقة."
+   },
+   {
+    "en": "Routine media vs synthetic media?",
+    "ar": "الأوساط الروتينية مقابل الصناعية؟",
+    "answer_en": "Routine: from nutrients such as meat extract and peptone; synthetic: from pure chemicals with exactly known composition.",
+    "answer_ar": "الروتينية: من مغذّيات مثل مستخلص اللحم والببتون؛ الصناعية: من مواد كيميائية نقية بتركيب معروف بدقّة."
+   }
+  ],
+  "important": [
+   {
+    "en": "Pretest: How can you cultivate the bacteria in the lab?",
+    "ar": "الاختبار القبلي: كيف تزرع البكتيريا في المختبر؟",
+    "answer_en": "By inoculating the clinical specimen onto suitable culture media (prepared from water, electrolytes, peptone, agar, extracts and blood or serum and sterilized in an autoclave), choosing simple, enriched, selective or indicator media according to the expected pathogen; the isolated colonies are then identified by biochemical tests.",
+    "answer_ar": "بزرع العيّنة السريرية على أوساط زرعية مناسبة (محضّرة من الماء والإلكتروليتات والببتون والأكار والمستخلصات والدم أو المصل ومعقّمة بالمؤصدة)، واختيار وسط بسيط أو مُغنى أو انتقائي أو دالّ حسب الممرض المتوقّع؛ ثم تُشخَّص المستعمرات المعزولة بالفحوص الكيموحيوية."
+   },
+   {
+    "en": "Posttest 1: What are the constituents of culture media?",
+    "ar": "الاختبار البعدي 1: ما مكوّنات الأوساط الزرعية؟",
+    "answer_en": "Water, electrolyte (NaCl), peptone, agar, meat extract, yeast extract, malt extract, and blood and serum.",
+    "answer_ar": "الماء، الإلكتروليت (NaCl)، الببتون، الأكار، مستخلص اللحم، مستخلص الخميرة، مستخلص الشعير، والدم والمصل."
+   },
+   {
+    "en": "Posttest 2: Which are the common pathogenic bacteria isolated from the urinary tract?",
+    "ar": "الاختبار البعدي 2: ما البكتيريا الممرضة الشائعة المعزولة من المجاري البولية؟",
+    "answer_en": "BIOS answer (not in the sheet): mostly Gram-negative bacilli — Escherichia coli (the commonest), Klebsiella, Proteus, Pseudomonas aeruginosa — and Gram-positive cocci such as Enterococcus faecalis, Staphylococcus saprophyticus and Staphylococcus aureus. They are cultured on blood agar and MacConkey agar.",
+    "answer_ar": "جواب BIOS (غير موجود في الورقة): أغلبها عصيات سالبة لغرام — الإشريكية القولونية (الأشيع)، الكليبسيلا، المتقلّبة، الزائفة الزنجارية — ومكوّرات موجبة لغرام مثل المكوّرات المعوية البرازية والعنقودية الرمّية والعنقودية الذهبية. وتُزرع على أكار الدم وأكار ماكونكي."
+   },
+   {
+    "en": "Describe agar and how agar media are prepared.",
+    "ar": "صف الأكار وكيف تُحضَّر أوساط الأكار.",
+    "answer_en": "Agar solidifies culture media; it is a powder that melts in water after boiling and jellifies after cooling, prepared from the cell wall of red algae (Gelidium, Gracilaria). Preparation: add agar powder to water, dissolve, sterilize in an autoclave, cool to 45°C, pour into Petri dishes and let it set for 20 minutes.",
+    "answer_ar": "الأكار يصلّب الأوساط الزرعية؛ مسحوق يذوب في الماء بعد الغليان ويتهلّم بعد التبريد، يُحضَّر من جدار خلايا الطحالب الحمراء (Gelidium وGracilaria). التحضير: أضف المسحوق للماء وأذبه، وعقّمه بالمؤصدة، وبرّده إلى 45°م، واصببه في أطباق بتري واتركه يتصلّب 20 دقيقة."
+   },
+   {
+    "en": "Classify culture media.",
+    "ar": "صنّف الأوساط الزرعية.",
+    "answer_en": "A. By consistency: liquid (broth), semisolid, solid. B. By growth requirements: 1. routine laboratory media (simple/basal, enriched, enrichment broth, selective, differential, transport, anaerobic); 2. defined or synthetic media (simple and complex synthetic) from pure chemicals with exact composition.",
+    "answer_ar": "أ. حسب القوام: سائلة (مرق)، شبه صلبة، صلبة. ب. حسب متطلّبات النمو: 1. أوساط مختبرية روتينية (بسيطة/أساسية، مُغناة، مرق إغناء، انتقائية، تفريقية، نقل، لاهوائية)؛ 2. أوساط محدّدة أو صناعية (بسيطة ومعقّدة) من مواد نقية بتركيب دقيق."
+   },
+   {
+    "en": "Explain selective and indicator media with MacConkey agar as an example.",
+    "ar": "اشرح الأوساط الانتقائية والدالّة مع أكار ماكونكي مثالًا.",
+    "answer_en": "Selective media favour some bacteria and suppress others (mannitol salt agar for staphylococci, MacConkey with bile salts for bile-tolerant bacteria, antibiotics). Indicator media detect pathogens by sugar fermentation → acid → pH indicator colour change: MacConkey has lactose and neutral red; E. coli ferments lactose → pink colonies, Salmonella does not → pale yellow. Bile salts and crystal violet suppress Gram-positives, so MacConkey is both selective and indicator.",
+    "answer_ar": "الأوساط الانتقائية تسهّل نمو بعض البكتيريا وتثبّط غيرها (أكار الملح والمانيتول للعنقودية، ماكونكي بأملاح الصفراء للمتحمّلة للصفراء، المضادات الحيوية). والأوساط الدالّة تكشف الممرضات بتخمّر السكر ← حامض ← تغيّر لون دليل pH: ماكونكي فيه لاكتوز وأحمر متعادل؛ الإشريكية تخمّر اللاكتوز ← مستعمرات وردية، والسالمونيلا لا تخمّره ← صفراء شاحبة. وأملاح الصفراء والبنفسجي البلّوري تثبّط الموجبة لغرام، فماكونكي انتقائي ودالّ معًا."
+   }
+  ]
+ }
+}

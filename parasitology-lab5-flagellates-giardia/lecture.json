@@ -1,0 +1,3001 @@
+{
+ "meta": {
+  "subject_en": "Medical Parasitology",
+  "subject_ar": "الطفيليات الطبية",
+  "short_ar": "طفيليات",
+  "instructor": "م.م. نريمان حسن",
+  "unit_en": "Lab 5",
+  "unit_ar": "العملي 5",
+  "unit_label": "LAB",
+  "unit_no": "5",
+  "title_en": "Flagellates — Giardia lamblia",
+  "title_ar": "السوطيات — الجيارديا اللمبلية",
+  "department": "قسم التحليلات",
+  "stage": "The fourth stage — الرابعة",
+  "kind": "Laboratories — عملي"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Flagellates",
+   "ar": "السوطيات"
+  },
+  {
+   "t": "h2",
+   "en": "Introduction:",
+   "ar": "مقدمة:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    [
+     "Theflagellates belong to the Magistophora and possess more than one flagellum.",
+     "Beating these flagella enable them to move.",
+     "A cytosome may be present which helps in the identification of the species.",
+     "Intestinal parasites are parasites that can infect the gastro-intestinal tract (GIT) of humans and other animals."
+    ],
+    [
+     "They can live throughout the body, but most prefer the intestinal wall.",
+     "Means of exposure include ingestion of undercooked meat, drinking infected water, and skin absorption."
+    ],
+    [
+     "There are pathogenic and commensal species of flagellates.",
+     "The flagellates which are encountered in the intestinal tract are: __Giardia lamblia__, __Dientamoeba fragilis__, __Chilomastix mesnili__, __Trichomonas hominis__, __Retortamonas intestinalis__ and __Enteromonas hominis__ (the latter 2 being less common)."
+    ]
+   ],
+   "list_ar": [
+    [
+     "تنتمي السوطيات إلى **السوطيات (Mastigophora)** وتملك **أكثر من سوط واحد**.",
+     "وضرب هذه الأسواط يمكّنها من الحركة.",
+     "وقد يوجد **فم خلوي (cytosome)** يساعد في تشخيص النوع.",
+     "الطفيليات المعوية هي طفيليات يمكن أن تصيب **القناة الهضمية** للإنسان والحيوانات الأخرى."
+    ],
+    [
+     "يمكنها العيش في كل أنحاء الجسم، لكن معظمها يفضّل **جدار الأمعاء**.",
+     "وطرق التعرّض تشمل تناول **اللحم غير المطبوخ جيدًا**، وشرب **الماء الملوّث**، و**الامتصاص عبر الجلد**."
+    ],
+    [
+     "توجد أنواع **ممرضة** وأنواع **متعايشة** من السوطيات.",
+     "والسوطيات التي تُصادف في القناة المعوية هي: **الجيارديا اللمبلية**، والأميبا الهشّة ثنائية النواة، والكيلوماستكس المسنيلية، والمشعّرة البشرية، والريتورتاموناس المعوية، والإنتيروموناس البشرية (والأخيرتان أقل شيوعًا)."
+    ]
+   ]
+  },
+  {
+   "t": "note",
+   "en": "“Theflagellates” = The flagellates, and “Magistophora” = **Mastigophora** (the flagellates) — written as in the slide.",
+   "ar": "“Theflagellates” أي The flagellates، و“Magistophora” صحيحها **Mastigophora** (السوطيات) — كُتبت كما في الشريحة.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Classification",
+   "ar": "التصنيف"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Rank",
+     "المرتبة"
+    ],
+    [
+     "Name",
+     "الاسم"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Kingdom**",
+      "**المملكة**"
+     ],
+     [
+      "Anemalia",
+      "الحيوانية"
+     ]
+    ],
+    [
+     [
+      "**Subkingdom**",
+      "**تحت المملكة**"
+     ],
+     [
+      "Protozoa",
+      "الأوالي (الحيوانات الأولية)"
+     ]
+    ],
+    [
+     [
+      "**Phylum**",
+      "**الشعبة**"
+     ],
+     [
+      "Sarcomastigophora",
+      "اللحميات السوطية"
+     ]
+    ],
+    [
+     [
+      "**Class**",
+      "**الصف**"
+     ],
+     [
+      "Mastigophora (flagellates)",
+      "السوطيات"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    70
+   ]
+  },
+  {
+   "t": "card",
+   "en": "There are three group of flagellates according to there habitat",
+   "ar": "توجد ثلاث مجاميع من السوطيات حسب موطنها",
+   "list_en": [
+    "**Luminal Flagellates** — __Giardia lambelia__,__Chilomastic mesnili__",
+    "**Hem flagellates** — __Trypanosoma__ Spp. , __Leishmania__ Spp.",
+    "**Genital flagellates** — Trichomonas Spp."
+   ],
+   "list_ar": [
+    "**سوطيات التجويف (المعوية)** — الجيارديا اللمبلية، والكيلوماستكس المسنيلية",
+    "**السوطيات الدموية** — أنواع المثقبيات، وأنواع الليشمانيا",
+    "**السوطيات التناسلية** — أنواع المشعّرات"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "Spelling in the slide: “Anemalia” = Animalia, “Hem flagellates” = haemoflagellates, “lambelia” = lamblia, “Chilomastic” = Chilomastix.",
+   "ar": "إملاء الشريحة: “Anemalia” أي Animalia، و“Hem flagellates” أي السوطيات الدموية، و“lambelia” أي lamblia، و“Chilomastic” أي Chilomastix.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "__Giardia Lambelia__",
+   "ar": "الجيارديا اللمبلية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Disease :** Giardiasis, __G. intestinalis__,__G.doudenalis__)",
+    "**Habitat :** Small intestine (Doudenum,Jejunum)",
+    "**Morphology :** __G. lambelia__ have two stages, Trophozoite,Cyst"
+   ],
+   "list_ar": [
+    "**المرض:** داء الجيارديات (وتسمّى أيضًا الجيارديا المعوية والجيارديا الاثني عشرية)",
+    "**الموطن:** الأمعاء الدقيقة (الاثنا عشري، الصائم)",
+    "**الشكل:** للجيارديا اللمبلية طوران، الطور المتغذّي والكيس"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Flagellates move by **more than one flagellum**; class **Mastigophora**, phylum **Sarcomastigophora**.",
+    "3 groups by habitat: **luminal** (__Giardia__, Chilomastix), **blood** (__Trypanosoma__, __Leishmania__), **genital** (Trichomonas).",
+    "__Giardia__ → **giardiasis**; small intestine; **two stages**: trophozoite and cyst."
+   ],
+   "ar": [
+    "السوطيات تتحرّك **بأكثر من سوط**؛ الصف **السوطيات**، والشعبة **اللحميات السوطية**.",
+    "3 مجاميع حسب الموطن: **التجويف** (الجيارديا، الكيلوماستكس)، **الدم** (المثقبيات، الليشمانيا)، **التناسلية** (المشعّرات).",
+    "الجيارديا ← **داء الجيارديات**؛ الأمعاء الدقيقة؛ **طوران**: المتغذّي والكيس."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "LUMEN-DEWLLING FLAGELLATES",
+   "ar": "السوطيات المستوطنة للتجويف"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "GENUS",
+     "الجنس"
+    ],
+    [
+     "PARASITE",
+     "الطفيلي"
+    ],
+    [
+     "HABITAT",
+     "الموطن"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "__Giardia__",
+      "الجيارديا"
+     ],
+     [
+      "__G. lamblia__",
+      "الجيارديا اللمبلية"
+     ],
+     [
+      "Duodenum",
+      "الاثنا عشري"
+     ]
+    ],
+    [
+     [
+      "Chilomastix",
+      "الكيلوماستكس"
+     ],
+     [
+      "__G. mesnili__",
+      "المسنيلية"
+     ],
+     [
+      "Caecum",
+      "الأعور"
+     ]
+    ],
+    [
+     [
+      "Enteromonas",
+      "الإنتيروموناس"
+     ],
+     [
+      "__E. hominis__",
+      "البشرية"
+     ],
+     [
+      "Colon",
+      "القولون"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    28,
+    32,
+    40
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "GENUS",
+     "الجنس"
+    ],
+    [
+     "PARASITE",
+     "الطفيلي"
+    ],
+    [
+     "HABITAT",
+     "الموطن"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Retromonas",
+      "الريتورتاموناس"
+     ],
+     [
+      "__R. intestinalis__",
+      "المعوية"
+     ],
+     [
+      "Colon",
+      "القولون"
+     ]
+    ],
+    [
+     [
+      "Pentatrichomonas",
+      "خماسية المشعّرات"
+     ],
+     [
+      "__P. hominis__",
+      "البشرية"
+     ],
+     [
+      "Ileocaecal region",
+      "المنطقة اللفائفية الأعورية"
+     ]
+    ],
+    [
+     [
+      "Trichomonas",
+      "المشعّرات"
+     ],
+     [
+      "__T. Vaginalis__ / __T. tenax__",
+      "المهبلية / الفموية"
+     ],
+     [
+      "Vagina &Urethra / Teeth & Gums",
+      "المهبل والإحليل / الأسنان واللثة"
+     ]
+    ],
+    [
+     [
+      "Dientamoeba",
+      "الأميبا ثنائية النواة"
+     ],
+     [
+      "__D. fragilis__",
+      "الهشّة"
+     ],
+     [
+      "Colonic mucosal crypts",
+      "خبايا مخاطية القولون"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    28,
+    32,
+    40
+   ]
+  },
+  {
+   "t": "note",
+   "en": "In the table “__G. mesnili__” is **Chilomastix (C.) mesnili**, “Retromonas” is **Retortamonas**, and “DEWLLING” = DWELLING.",
+   "ar": "في الجدول “G. mesnili” هي **Chilomastix (C.) mesnili**، و“Retromonas” هي **Retortamonas**، و“DEWLLING” أي DWELLING.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Only **Giardia** lives in the **duodenum**; Chilomastix → caecum; Enteromonas and Retortamonas → colon.",
+    "T. vaginalis → **vagina & urethra**; __T. tenax__ → **teeth & gums**; __D. fragilis__ → colonic crypts."
+   ],
+   "ar": [
+    "**الجيارديا** وحدها تعيش في **الاثني عشري**؛ الكيلوماستكس ← الأعور؛ الإنتيروموناس والريتورتاموناس ← القولون.",
+    "المشعّرة المهبلية ← **المهبل والإحليل**؛ المشعّرة الفموية ← **الأسنان واللثة**؛ الهشّة ← خبايا القولون."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Giardia lamblia",
+   "ar": "الجيارديا اللمبلية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Also known as – __G. intestinalis__ / __Lamblia intestinalis__.",
+    "**HISTORY** :",
+    "First seen by Antonie Von Leeuwenhoek by examining his own stool."
+   ],
+   "list_ar": [
+    "تُعرف أيضًا بـ – **الجيارديا المعوية / اللمبلية المعوية**.",
+    "**التاريخ** :",
+    "شوهدت أول مرة من قِبَل **أنطوني فان ليفينهوك** بفحص برازه هو."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/giardia-name.jpg",
+   "en": "__Giardia lamblia__ — Prof. Giard of Paris (__Giardia__) and Prof. Lamble of Prague (lamblia)",
+   "ar": "الجيارديا اللمبلية — البروفيسور جيارد من باريس (Giardia) والبروفيسور لامبل من براغ (lamblia)",
+   "h": "34mm",
+   "fit": "contain"
+  },
+  {
+   "t": "h2",
+   "en": "GEOGRAPHICAL SPREAD & EPIDEMICS",
+   "ar": "الانتشار الجغرافي والأوبئة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**GEOGRAPHICAL DISTRIBUTION :** m/c protozoan pathogen, worldwide distributed.",
+    "**EPIDEMIOLOGY :** Areas with poor sanitation , especially tropics & subtropics.",
+    "Common in younger age group.",
+    "Traveller’s diarrhea is common among visitors caused by giardiasis through contaminated water."
+   ],
+   "list_ar": [
+    "**التوزيع الجغرافي:** أشيع (m/c = most common) ممرض أوالي، منتشر عالميًا.",
+    "**الوبائيات:** المناطق ذات **الصرف الصحي الرديء**، خاصةً المناطق **الاستوائية وشبه الاستوائية**.",
+    "شائع في **الفئات العمرية الأصغر**.",
+    "**إسهال المسافرين** شائع بين الزائرين، ويسبّبه داء الجيارديات عن طريق **الماء الملوّث**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "HABITAT",
+   "ar": "الموطن"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Duodenum & the upper part of the jejunum.",
+    "THE ONLY PROTOZOAN PARASITE FOUND IN THE LUMEN OF HUMAN SMALL INTESTINE."
+   ],
+   "list_ar": [
+    "**الاثنا عشري والجزء العلوي من الصائم**.",
+    "**الطفيلي الأوالي الوحيد** الموجود في **تجويف الأمعاء الدقيقة** للإنسان."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/habitat.jpg",
+   "en": "Habitat of __Giardia__ — Duodenum; Jejunum",
+   "ar": "موطن الجيارديا — الاثنا عشري؛ الصائم",
+   "h": "46mm",
+   "fit": "contain"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Also called **G. intestinalis / Lamblia intestinalis**; first seen by **Leeuwenhoek** in his own stool.",
+    "Named after **Prof. Giard (Paris)** and **Prof. Lamble (Prague)**.",
+    "Most common protozoan pathogen, worldwide; poor sanitation; young age; **traveller’s diarrhea**.",
+    "Habitat: **duodenum + upper jejunum** — the only protozoan in the lumen of the small intestine."
+   ],
+   "ar": [
+    "وتسمّى **الجيارديا المعوية / اللمبلية المعوية**؛ رآها أول مرة **ليفينهوك** في برازه.",
+    "سمّيت نسبةً إلى **البروفيسور جيارد (باريس)** و**البروفيسور لامبل (براغ)**.",
+    "أشيع ممرض أوالي، عالمي؛ الصرف الرديء؛ الأعمار الصغيرة؛ **إسهال المسافرين**.",
+    "الموطن: **الاثنا عشري + أعلى الصائم** — الأوالي الوحيد في تجويف الأمعاء الدقيقة."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "MORPHOLOGY",
+   "ar": "الشكل"
+  },
+  {
+   "t": "card",
+   "en": "It exists in two forms –",
+   "ar": "توجد بشكلين –",
+   "list_en": [
+    "Trophozoit (Vegetative form)",
+    "Cyst (Infective form)"
+   ],
+   "list_ar": [
+    "الطور المتغذّي (الشكل الخضري)",
+    "الكيس (الشكل المُعدي)"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "TROPHOZOITE",
+   "ar": "الطور المتغذّي"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Tennis racket or heart shaped or pyriform shaped.",
+    "Dorsal surface – convex",
+    "Ventral surface – concave & having sucking disk (for attachment)",
+    "14 µm x 7µm x 4µm",
+    "Anterior end – broad & rounded",
+    "Posterior end – tappers to a sharp point"
+   ],
+   "list_ar": [
+    "يشبه **مضرب التنس** أو **القلب** أو **الكمثرى**.",
+    "السطح الظهري – **محدّب**",
+    "السطح البطني – **مقعّر** وفيه **قرص ماصّ** (للالتصاق)",
+    "**14 × 7 × 4 مايكرومتر**",
+    "النهاية الأمامية – عريضة ومستديرة",
+    "النهاية الخلفية – تستدقّ إلى نقطة حادّة"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Bilaterally symmetrical :",
+   "ar": "متناظر ثنائيًا :",
+   "list_en": [
+    "Nuclei – 1 pair",
+    "Flagella with blepharoblast – 4 pair",
+    "Axostyle – 1 pair (along the midline)",
+    "Parabasal / Median body – 1 pair ( transverse & posterior to sucking disc)"
+   ],
+   "list_ar": [
+    "الأنوية – **زوج واحد**",
+    "الأسواط مع الجسيمات القاعدية – **4 أزواج**",
+    "القضيب المحوري – **زوج واحد** (على طول الخط الوسطي)",
+    "الجسم جار القاعدي / الوسطي – **زوج واحد** (مستعرض وخلف القرص الماصّ)"
+   ]
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "Falling leaf motility around its long axis.",
+     "ar": "حركة **الورقة المتساقطة** حول محوره الطويل."
+    }
+   ],
+   "figure": {
+    "src": "assets/falling-leaf.jpg",
+    "en": "Falling leaves (slide picture)",
+    "ar": "أوراق متساقطة (صورة الشريحة)"
+   }
+  },
+  {
+   "t": "figure",
+   "src": "assets/troph-diagram.jpg",
+   "en": "Trophozoite of __Giardia__ (drawing)",
+   "ar": "الطور المتغذّي للجيارديا (رسم)",
+   "h": "70mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Nucleus**",
+      "النواة"
+     ],
+     [
+      "**Basal bodies**",
+      "الأجسام القاعدية"
+     ]
+    ],
+    [
+     [
+      "**Lateral crest**",
+      "العرف الجانبي"
+     ],
+     [
+      "**Ventrolateral flagella**",
+      "الأسواط البطنية الجانبية"
+     ]
+    ],
+    [
+     [
+      "**Anterolateral flagella**",
+      "الأسواط الأمامية الجانبية"
+     ],
+     [
+      "**Ventral disc**",
+      "القرص البطني"
+     ]
+    ],
+    [
+     [
+      "**Median bodies**",
+      "الأجسام الوسطية"
+     ],
+     [
+      "**Posterolateral flagella**",
+      "الأسواط الخلفية الجانبية"
+     ]
+    ],
+    [
+     [
+      "**Ventral flagella**",
+      "الأسواط البطنية"
+     ],
+     [
+      "**Caudal flagella**",
+      "الأسواط الذيلية"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "figure",
+   "src": "assets/troph-photos.jpg",
+   "en": "__Giardia__ trophozoites — Sucking disc; Axostyle; Parapasal body",
+   "ar": "أطوار الجيارديا المتغذّية — القرص الماصّ؛ القضيب المحوري؛ الجسم جار القاعدي",
+   "h": "80mm",
+   "fit": "contain"
+  },
+  {
+   "t": "figure",
+   "src": "assets/troph-stains.jpg",
+   "en": "Fig : A, B, C: three trophozoites of __Giardia intestinalis__. Stained with trichrome (A) and stained with iron hematoxyline (B and C) each cell has two nuclei with a large, central karyosome. ( duodenal aspiration smear )",
+   "ar": "الشكل: A وB وC: ثلاثة أطوار متغذّية للجيارديا المعوية، مصبوغة بالصبغة الثلاثية (A) وبالهيماتوكسيلين الحديدي (B وC)، ولكل خلية نواتان بجسيم نووي كبير مركزي. (مسحة رشافة الاثني عشري)",
+   "h": "46mm",
+   "fit": "contain"
+  },
+  {
+   "t": "note",
+   "en": "“Parapasal body” in the figure = **parabasal body**.",
+   "ar": "“Parapasal body” في الشكل أي **الجسم جار القاعدي (parabasal body)**.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "CYST",
+   "ar": "الكيس"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Round or oval in shape.",
+    "Surrounded by hyaline cyst wall.",
+    "12µm x 7µm.",
+    "Axostyle – diagonally placed, form a deviding line within cyst.",
+    "4 nuclei – clustered at one end or at opposite poles (each pairs).",
+    "Remnants of flagella and margins of the sucking disc may be seen inside the cytoplasm of a young cyst.",
+    "An acid environment often causes the parasite to encyst."
+   ],
+   "list_ar": [
+    "**مستدير أو بيضوي** الشكل.",
+    "محاط بجدار كيس **شفّاف (زجاجي)**.",
+    "**12 × 7 مايكرومتر**.",
+    "القضيب المحوري – **موضوع قطريًا**، ويكوّن خطًا فاصلًا داخل الكيس.",
+    "**4 أنوية** – متجمّعة في نهاية واحدة أو عند قطبين متقابلين (كل زوج).",
+    "قد تُشاهد **بقايا الأسواط وحواف القرص الماصّ** داخل سايتوبلازم الكيس الفتي.",
+    "**البيئة الحامضية** غالبًا تجعل الطفيلي يتكيّس."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/cyst-diagram.jpg",
+   "en": "Cyst of __Giardia__ (drawing) — Space; Nucleus; Median bodies; Axostyles",
+   "ar": "كيس الجيارديا (رسم) — فراغ؛ النواة؛ الأجسام الوسطية؛ القضبان المحورية",
+   "h": "44mm",
+   "fit": "contain"
+  },
+  {
+   "t": "h2",
+   "en": "Cyst of __Giardia lamblia__",
+   "ar": "كيس الجيارديا اللمبلية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "oval in shape",
+    "They have smooth well defined wall",
+    "Contains four nuclei",
+    "Contain parabasal bodies and flagellates"
+   ],
+   "list_ar": [
+    "بيضوي الشكل",
+    "له جدار أملس واضح الحدود",
+    "يحتوي **أربع أنوية**",
+    "يحتوي أجسامًا جار قاعدية وأسواطًا"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/cyst-photo.jpg",
+   "en": "Cyst of __Giardia lamblia__",
+   "ar": "كيس الجيارديا اللمبلية",
+   "h": "56mm",
+   "fit": "contain"
+  },
+  {
+   "t": "note",
+   "en": "“flagellates” in point 4 means **flagella**; “deviding” = dividing; “tappers” = tapers.",
+   "ar": "“flagellates” في النقطة 4 يقصد بها **الأسواط**؛ و“deviding” أي dividing؛ و“tappers” أي tapers.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Feature",
+     "الصفة"
+    ],
+    [
+     "Trophozoite",
+     "الطور المتغذّي"
+    ],
+    [
+     "Cyst",
+     "الكيس"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Form**",
+      "**الشكل**"
+     ],
+     [
+      "Vegetative form",
+      "الشكل الخضري"
+     ],
+     [
+      "Infective form",
+      "الشكل المُعدي"
+     ]
+    ],
+    [
+     [
+      "**Shape**",
+      "**الهيئة**"
+     ],
+     [
+      "tennis racket / heart / pyriform",
+      "مضرب تنس / قلب / كمثرى"
+     ],
+     [
+      "round or oval",
+      "مستدير أو بيضوي"
+     ]
+    ],
+    [
+     [
+      "**Size**",
+      "**الحجم**"
+     ],
+     [
+      "14 µm x 7µm x 4µm",
+      "14 × 7 × 4 مايكرومتر"
+     ],
+     [
+      "12µm x 7µm",
+      "12 × 7 مايكرومتر"
+     ]
+    ],
+    [
+     [
+      "**Nuclei**",
+      "**الأنوية**"
+     ],
+     [
+      "1 pair",
+      "زوج واحد"
+     ],
+     [
+      "4",
+      "4"
+     ]
+    ],
+    [
+     [
+      "**Other**",
+      "**أخرى**"
+     ],
+     [
+      "4 pairs flagella, sucking disc, falling leaf motility",
+      "4 أزواج أسواط، قرص ماصّ، حركة الورقة المتساقطة"
+     ],
+     [
+      "axostyle diagonal, remnants of flagella",
+      "قضيب محوري قطري، بقايا أسواط"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    18,
+    42,
+    40
+   ],
+   "style": "summary",
+   "label_en": "Trophozoite vs cyst",
+   "label_ar": "المتغذّي مقابل الكيس"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Two forms: **trophozoite = vegetative**, **cyst = infective**.",
+    "Trophozoite: **pear / tennis racket**, convex back, concave belly with **sucking disc**; 2 nuclei, **4 pairs of flagella**, 1 pair axostyle, 1 pair median bodies.",
+    "Motility: **falling leaf**.",
+    "Cyst: oval, **12 × 7 µm**, **4 nuclei**, diagonal axostyle; acid environment → encystment."
+   ],
+   "ar": [
+    "شكلان: **المتغذّي = خضري**، **الكيس = مُعدي**.",
+    "المتغذّي: **كمثري / مضرب تنس**، ظهر محدّب وبطن مقعّر فيه **قرص ماصّ**؛ نواتان، **4 أزواج أسواط**، زوج قضيب محوري، زوج أجسام وسطية.",
+    "الحركة: **الورقة المتساقطة**.",
+    "الكيس: بيضوي، **12 × 7 مايكرومتر**، **4 أنوية**، قضيب محوري قطري؛ البيئة الحامضية ← التكيّس."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "IMMUNITY & RISK FACTORS",
+   "ar": "المناعة وعوامل الخطورة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Common in younger age & uncommon in adult, suggesting that an efficient immunity has developed."
+   ],
+   "list_ar": [
+    "شائع في الأعمار الصغيرة وغير شائع في البالغين، مما يشير إلى **تكوّن مناعة فعّالة**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Both humoral & cell mediated immunity are important."
+   ],
+   "list_ar": [
+    "المناعتان **الخلطية والخلوية** كلتاهما مهمّتان."
+   ],
+   "start": 2
+  },
+  {
+   "t": "card",
+   "en": "**RISK FACTORS :**",
+   "ar": "**عوامل الخطورة:**",
+   "list_en": [
+    "IgA deficient person (hypo- or agammaglobulinaemia)",
+    "Blood group A",
+    "Achlorhydria",
+    "Malnutrition"
+   ],
+   "list_ar": [
+    "الشخص المصاب **بنقص IgA** (نقص أو انعدام الغلوبيولين المناعي)",
+    "**فصيلة الدم A**",
+    "**انعدام حامض المعدة**",
+    "سوء التغذية"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Use of cannabis",
+    "Chronic pancreatitis",
+    "Immune defects (19A deficiency)"
+   ],
+   "list_ar": [
+    "تعاطي القنّب",
+    "التهاب البنكرياس المزمن",
+    "العيوب المناعية (نقص IgA)"
+   ],
+   "start": 5
+  },
+  {
+   "t": "note",
+   "en": "“19A deficiency” in the slide is **IgA deficiency**.",
+   "ar": "“19A deficiency” في الشريحة يقصد بها **نقص IgA**.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "MODE OF TRANSMISSION",
+   "ar": "طريقة الانتقال"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Infection is occured by ingestion of cyst in contaminated food & water.",
+    "Direct transmission from person to person may occure in children, male homosexuals, mentally ill persons."
+   ],
+   "list_ar": [
+    "تحدث الإصابة **بابتلاع الكيس** في الطعام والماء الملوّثين.",
+    "قد يحدث **انتقال مباشر من شخص لآخر** في الأطفال، والمثليين الذكور، والمرضى العقليين."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "LIFE CYCLE",
+   "ar": "دورة الحياة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "__Giardia__ passes its life cycle through **one host**.",
+    "Infective form – mature cyst (10 to 100 cysts are enough to infection)."
+   ],
+   "list_ar": [
+    "تُكمل الجيارديا دورة حياتها في **مضيف واحد**.",
+    "الشكل المُعدي – **الكيس الناضج** (**10 إلى 100 كيس** تكفي للإصابة)."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Ingestion of the cyst via food or drink.",
+    "Within 30 min of ingestion, the cyst hatches out into two trophozoites.",
+    "They multiply in enormous numbers by binary fission & colonise in duodenum.",
+    "They live in the duodenum & upper part of the jejunum, feeding by pinocytosis.",
+    [
+     "During unfavourable condition, encystment occurs usually in the colon.",
+     "A thick resistant wall is secreted by the parasite."
+    ],
+    "The cystic cell is then divided into two within the cyst wall.",
+    "Cysts are passed in stool (may be 200,000) & remain viable in soil & water for several weeks."
+   ],
+   "list_ar": [
+    "ابتلاع الكيس مع الطعام أو الشراب.",
+    "خلال **30 دقيقة** من الابتلاع يفقس الكيس إلى **طورين متغذّيين**.",
+    "تتكاثر بأعداد هائلة **بالانشطار الثنائي** وتستعمر الاثني عشري.",
+    "تعيش في الاثني عشري والجزء العلوي من الصائم، وتتغذّى **بالاحتساء الخلوي (pinocytosis)**.",
+    [
+     "في الظروف غير الملائمة يحدث **التكيّس عادةً في القولون**.",
+     "ويفرز الطفيلي جدارًا سميكًا مقاومًا."
+    ],
+    "ثم تنقسم الخلية الكيسية إلى اثنتين داخل جدار الكيس.",
+    "تخرج الأكياس مع البراز (قد تصل إلى **200,000**) وتبقى **حيّة في التربة والماء لعدّة أسابيع**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/cdc-cycle.jpg",
+   "en": "Life cycle of __Giardia__ (CDC)",
+   "ar": "دورة حياة الجيارديا (CDC)",
+   "h": "54mm",
+   "fit": "contain"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Contamination of water, food, or hands/fomites with infective cysts.**",
+      "تلوّث الماء أو الطعام أو الأيدي/الأدوات بالأكياس المُعدية."
+     ],
+     [
+      "**Trophozoites are also passed in stool but they do not survive in the environment.**",
+      "تخرج الأطوار المتغذّية أيضًا مع البراز لكنها لا تعيش في البيئة."
+     ]
+    ],
+    [
+     [
+      "**i = Infective Stage**",
+      "i = الطور المُعدي"
+     ],
+     [
+      "**d = Diagnostic Stage**",
+      "d = الطور التشخيصي"
+     ]
+    ],
+    [
+     [
+      "**Cyst**",
+      "الكيس"
+     ],
+     [
+      "**Trophozoites**",
+      "الأطوار المتغذّية"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Risk: **IgA deficiency**, **blood group A**, achlorhydria, malnutrition, cannabis, chronic pancreatitis.",
+    "Transmission: **cysts in food & water**; person to person in children, male homosexuals, mentally ill.",
+    "**One host**; **10-100 cysts** infect; cyst hatches in **30 min** → 2 trophozoites → binary fission in duodenum.",
+    "Encystment in the **colon**; up to **200,000 cysts** in stool, viable for weeks."
+   ],
+   "ar": [
+    "الخطورة: **نقص IgA**، **فصيلة الدم A**، انعدام حامض المعدة، سوء التغذية، القنّب، التهاب البنكرياس المزمن.",
+    "الانتقال: **الأكياس في الطعام والماء**؛ ومن شخص لآخر في الأطفال والمثليين الذكور والمرضى العقليين.",
+    "**مضيف واحد**؛ **10-100 كيس** تكفي؛ يفقس الكيس خلال **30 دقيقة** ← طوران متغذّيان ← انشطار ثنائي في الاثني عشري.",
+    "التكيّس في **القولون**؛ حتى **200,000 كيس** في البراز، تبقى حيّة أسابيع."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "PATHOGENESIS",
+   "ar": "الإمراضية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "With the help of sucking disc they adhere to the convex surface of epithelial cells & crypts of intestinal mucosa.",
+    "It doesn’t invade the tissues."
+   ],
+   "list_ar": [
+    "بمساعدة **القرص الماصّ** تلتصق بالسطح المحدّب للخلايا الظهارية وخبايا الغشاء المخاطي المعوي.",
+    "**لا تغزو الأنسجة**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "May cause abnormalities of villous architecture by apoptosis.",
+    "Capable of producing harm by the toxic effect (VSSP- Variant Specific Surface Proteins), irritative effect & spoliative action (by diverting the nutriments).",
+    "To avoid the high acidity of proximal duodenum, __Giardia__ often localizes in the biliary tract (gall bladder)."
+   ],
+   "list_ar": [
+    "قد تسبّب **تشوّهات في بنية الزغابات** عن طريق **الموت الخلوي المبرمج**.",
+    "قادرة على إحداث الضرر **بالتأثير السمّي** (**بروتينات السطح المتغيّرة النوعية VSSP**)، و**التأثير المهيّج**، و**الفعل السالب** (بتحويل المغذّيات).",
+    "لتجنّب **الحموضة العالية** للاثني عشري القريب، غالبًا ما تتمركز الجيارديا في **القناة الصفراوية (المرارة)**."
+   ],
+   "start": 3
+  },
+  {
+   "t": "h2",
+   "en": "CLINICAL FEATURES",
+   "ar": "المظاهر السريرية"
+  },
+  {
+   "t": "card",
+   "en": "**1.** Silent cases without any symptoms.",
+   "ar": "**1.** حالات صامتة **بلا أي أعراض**."
+  },
+  {
+   "t": "card",
+   "en": "**2.** Intestinal :",
+   "ar": "**2.** معوية :",
+   "list_en": [
+    "Malabsorption syndrome (Steatorrhoea)",
+    "Mucus diarrhea",
+    "Dull epigastric pain"
+   ],
+   "list_ar": [
+    "متلازمة **سوء الامتصاص** (**الإسهال الدهني**)",
+    "إسهال مخاطي",
+    "ألم شرسوفي كليل"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Flatulence",
+    "Chronic enteritis",
+    "Acute enterocolitis"
+   ],
+   "list_ar": [
+    "انتفاخ (غازات)",
+    "التهاب الأمعاء المزمن",
+    "التهاب الأمعاء والقولون الحاد"
+   ],
+   "start": 4
+  },
+  {
+   "t": "card",
+   "en": "**3.** General :",
+   "ar": "**3.** عامة :",
+   "list_en": [
+    "Fever",
+    "Anaemia",
+    "Weight loss",
+    "Allergic manifestations."
+   ],
+   "list_ar": [
+    "حمّى",
+    "فقر الدم",
+    "نقص الوزن",
+    "مظاهر تحسّسية."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**4.** Chronic cholecystopathy.",
+    "**Incubation period : about 2 weeks**"
+   ],
+   "ar": [
+    "**4.** اعتلال المرارة المزمن.",
+    "**فترة الحضانة: حوالي أسبوعين**"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Attaches by the **sucking disc**; **does not invade** tissues; villous damage by apoptosis.",
+    "Harm: toxic (**VSSP**), irritative, spoliative (steals nutrients); may hide in the **gall bladder**.",
+    "Clinical: silent cases; **malabsorption / steatorrhoea**, mucus diarrhea, epigastric pain; fever, anaemia, weight loss; incubation **≈ 2 weeks**."
+   ],
+   "ar": [
+    "تلتصق **بالقرص الماصّ**؛ **لا تغزو** الأنسجة؛ تلف الزغابات بالموت المبرمج.",
+    "الضرر: سمّي (**VSSP**)، مهيّج، سالب (يسرق المغذّيات)؛ وقد تختبئ في **المرارة**.",
+    "سريريًا: حالات صامتة؛ **سوء امتصاص / إسهال دهني**، إسهال مخاطي، ألم شرسوفي؛ حمّى، فقر دم، نقص وزن؛ الحضانة **≈ أسبوعان**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "LABORATORY DIAGNOSIS",
+   "ar": "التشخيص المختبري"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Method",
+     "الطريقة"
+    ],
+    [
+     "Method",
+     "الطريقة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Stool examination** — Macroscopic / Microscopic",
+      "**فحص البراز** — العياني / المجهري"
+     ],
+     [
+      "**Enterotest (String test)**",
+      "**الاختبار المعوي (اختبار الخيط)**"
+     ]
+    ],
+    [
+     [
+      "**Serological test** — Antigen detection / Antibody detection",
+      "**الاختبار المصلي** — كشف المستضد / كشف الضد"
+     ],
+     [
+      "**Molecular diagnosis** — DNA probe / PCR",
+      "**التشخيص الجزيئي** — مسبار الدنا / تفاعل البلمرة المتسلسل"
+     ]
+    ]
+   ],
+   "widths": [
+    50,
+    50
+   ],
+   "style": "summary",
+   "label_en": "Chart in the slide",
+   "label_ar": "مخطط الشريحة"
+  },
+  {
+   "t": "h2",
+   "en": "STOOL EXAMINATION",
+   "ar": "فحص البراز"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Identification of cysts in formed stool and trophozoites & cysts in diarrhoeic stool or after a purgative.",
+    "In asymptomatic carriers only cysts are seen."
+   ],
+   "list_ar": [
+    "تشخيص **الأكياس في البراز المتماسك**، و**الأطوار المتغذّية والأكياس في البراز الإسهالي** أو بعد مسهّل.",
+    "في **الحاملين بلا أعراض** تُرى **الأكياس فقط**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Macroscopy : offensive odour, pale coloured & fatty stool.",
+    "Microscopy : salaine & iodine wet preparations.",
+    "Multiple specimens need to be examined.",
+    "Concentration techniques like formal ether or zinc acetate are used."
+   ],
+   "list_ar": [
+    "الفحص العياني: براز **كريه الرائحة، شاحب اللون ودهني**.",
+    "الفحص المجهري: تحضيرات رطبة **بالمحلول الملحي واليود**.",
+    "يجب فحص **عيّنات متعدّدة**.",
+    "تُستعمل **تقنيات التركيز** مثل الفورمول-إيثر أو أسيتات الزنك."
+   ],
+   "start": 3
+  },
+  {
+   "t": "h2",
+   "en": "ENTEROTEST (STRING TEST)",
+   "ar": "الاختبار المعوي (اختبار الخيط)"
+  },
+  {
+   "t": "card",
+   "en": "Method for obtaining duodenal specimen (upper part of small intestine)",
+   "ar": "طريقة للحصول على **عيّنة من الاثني عشري** (الجزء العلوي من الأمعاء الدقيقة)"
+  },
+  {
+   "t": "card",
+   "en": "Procedure :",
+   "ar": "الطريقة :",
+   "list_en": [
+    "A coiled string with a small weighted gelatin capsule is swallowed by the patient & the free end of the string is attached to the side of the patient’s face.",
+    "The capsule dissolves in the stomach & the string which is weighted at its distal end, passes into the duodenum."
+   ],
+   "list_ar": [
+    "يبلع المريض **خيطًا ملفوفًا داخل كبسولة جيلاتينية صغيرة مثقّلة**، ويُثبّت الطرف الحرّ من الخيط على جانب وجه المريض.",
+    "تذوب الكبسولة في المعدة، ويمرّ الخيط المثقّل في نهايته البعيدة إلى **الاثني عشري**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "After 2-4 hrs the string is withdrawn & placed in a saline with mechanical shaking.",
+    "The centrifuged deposit of saline is examined by wet mount technique to detect the presence of motility of the organism or specific morphological forms of trophozoites of __Giardia__ (and larvae of __Strongyloides stercoralis__)."
+   ],
+   "list_ar": [
+    "بعد **2-4 ساعات** يُسحب الخيط ويوضع في محلول ملحي مع **رجّ ميكانيكي**.",
+    "يُفحص راسب المحلول الملحي المنبوذ **بطريقة التحضير الرطب** للكشف عن حركة الكائن أو الأشكال المميّزة للأطوار المتغذّية للجيارديا (ويرقات **الأسطوانية البرازية**)."
+   ],
+   "start": 3
+  },
+  {
+   "t": "h2",
+   "en": "When the test should performed",
+   "ar": "متى يُجرى الاختبار"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Entero-test is performed when a physician suspects a parasitic infection, but no parasites were found in stool sample.",
+    "As its sensitivity is comparable to duodenal aspirate, it eliminates the need of duodenal intubation."
+   ],
+   "list_ar": [
+    "يُجرى الاختبار المعوي عندما **يشكّ الطبيب بإصابة طفيلية ولكن لم يُعثر على طفيليات في عيّنة البراز**.",
+    "ولأن حساسيته **مماثلة لرشافة الاثني عشري**، فإنه يُغني عن **التنبيب الاثني عشري**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/string-test.jpg",
+   "en": "Enterotest (string test): the capsule with the coiled string, and the string being withdrawn",
+   "ar": "الاختبار المعوي (اختبار الخيط): الكبسولة مع الخيط الملفوف، وسحب الخيط",
+   "h": "60mm",
+   "fit": "contain"
+  },
+  {
+   "t": "h2",
+   "en": "SERODIAGNOSIS",
+   "ar": "التشخيص المصلي"
+  },
+  {
+   "t": "card",
+   "en": "**Antigen detection in feces –**",
+   "ar": "**كشف المستضد في البراز –**",
+   "list_en": [
+    "ELISA",
+    "IIF (Indirect immunofluroscent tests)",
+    "Immuno-chromatographic strip test"
+   ],
+   "list_ar": [
+    "الإليزا",
+    "الفلورة المناعية غير المباشرة",
+    "اختبار الشريط الكروماتوغرافي المناعي"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Antigen present – active infection.",
+    "__Giardia__ specific Ag 65 (GSA 65) detection by ELISA kits.",
+    "Sensitivity - 95%",
+    "Specificity – 100% compared to microscopy.",
+    "Tests are not for routine purpose.",
+    "It is for epidemiological & control purposes."
+   ],
+   "list_ar": [
+    "وجود المستضد – **إصابة فعّالة**.",
+    "كشف **المستضد النوعي للجيارديا 65 (GSA 65)** بعُدد الإليزا.",
+    "الحساسية - **95%**",
+    "النوعية – **100%** مقارنةً بالفحص المجهري.",
+    "الاختبارات **ليست للاستعمال الروتيني**.",
+    "إنها لأغراض **وبائية ورقابية**."
+   ],
+   "start": 4
+  },
+  {
+   "t": "card",
+   "en": "**Antibody detection –**",
+   "ar": "**كشف الضد –**",
+   "list_en": [
+    "IIF",
+    "ELISA"
+   ],
+   "list_ar": [
+    "الفلورة المناعية غير المباشرة",
+    "الإليزا"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Tests can’t differentiates between recent & past infection.",
+    "Lack sensitivity & specificity.",
+    "Antibody detection (anti __Giardia__ IgG Ab) is useful for epidemiological & pathophysiological studies.",
+    "The presence of anti __Giardia__ secretory IgA Ab in breast milk protects breast fed infants from giardiasis."
+   ],
+   "list_ar": [
+    "الاختبارات **لا تميّز بين الإصابة الحديثة والسابقة**.",
+    "تفتقر إلى الحساسية والنوعية.",
+    "كشف الضد (**ضدّ IgG المضاد للجيارديا**) مفيد للدراسات الوبائية والفسلجية المرضية.",
+    "وجود **ضدّ IgA الإفرازي المضاد للجيارديا في حليب الأم** يحمي الرضّع من داء الجيارديات."
+   ],
+   "start": 3
+  },
+  {
+   "t": "h2",
+   "en": "MOLECULAR METHOD",
+   "ar": "الطريقة الجزيئية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "DNA based techniques are available now.",
+    "They are used to demonstrate the genome of the parasite.",
+    "PCR",
+    "DNA probe"
+   ],
+   "list_ar": [
+    "التقنيات المعتمدة على الدنا متوفّرة الآن.",
+    "تُستعمل لإظهار **جينوم الطفيلي**.",
+    "تفاعل البلمرة المتسلسل",
+    "مسبار الدنا"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Stool: cysts in formed stool; trophozoites + cysts in diarrhoea; carriers → **cysts only**; stool **offensive, pale, fatty**.",
+    "Saline & iodine wet mounts; **multiple specimens**; concentration: formol-ether / zinc acetate.",
+    "**String test**: swallowed capsule → duodenum → withdrawn after **2-4 h** → saline → centrifuge → wet mount; used when stool is negative.",
+    "Antigen (GSA 65, ELISA): sensitivity **95%**, specificity **100%** = active infection; antibodies can’t tell recent from past."
+   ],
+   "ar": [
+    "البراز: الأكياس في المتماسك؛ المتغذّيات + الأكياس في الإسهالي؛ الحاملون ← **أكياس فقط**؛ البراز **كريه، شاحب، دهني**.",
+    "تحضيرات رطبة ملحية ويودية؛ **عيّنات متعدّدة**؛ التركيز: فورمول-إيثر / أسيتات الزنك.",
+    "**اختبار الخيط**: كبسولة تُبلع ← الاثني عشري ← تُسحب بعد **2-4 ساعات** ← ملحي ← نبذ ← تحضير رطب؛ يُستعمل عندما يكون البراز سالبًا.",
+    "المستضد (GSA 65، إليزا): الحساسية **95%**، النوعية **100%** = إصابة فعّالة؛ والأضداد لا تميّز الحديثة من السابقة."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "TREATMENT",
+   "ar": "العلاج"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Drug",
+     "الدواء"
+    ],
+    [
+     "Dose / use",
+     "الجرعة / الاستعمال"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Metronidazole**",
+      "**الميترونيدازول**"
+     ],
+     [
+      "250mg x 3 times daily x 5 days. **(Cure rate -95%)**",
+      "250 ملغ × 3 مرات يوميًا × 5 أيام. **(نسبة الشفاء 95%)**"
+     ]
+    ],
+    [
+     [
+      "**Tinidazole**",
+      "**التينيدازول**"
+     ],
+     [
+      "2 gm single dose. **(More effective)**",
+      "2 غم جرعة واحدة. **(أكثر فعالية)**"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    32,
+    68
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Drug",
+     "الدواء"
+    ],
+    [
+     "Dose / use",
+     "الجرعة / الاستعمال"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Furazolidone**",
+      "**الفيورازوليدون**"
+     ],
+     [
+      "Children (less adverse effects)",
+      "الأطفال (آثار جانبية أقل)"
+     ]
+    ],
+    [
+     [
+      "**Nitazoxamide**",
+      "**النيتازوكسانيد**"
+     ],
+     [
+      "Children (less adverse effects)",
+      "الأطفال (آثار جانبية أقل)"
+     ]
+    ],
+    [
+     [
+      "**Parmomycin**",
+      "**الباروموميسين**"
+     ],
+     [
+      "Pregnant female",
+      "المرأة الحامل"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    32,
+    68
+   ]
+  },
+  {
+   "t": "note",
+   "en": "“Nitazoxamide” = **Nitazoxanide** and “Parmomycin” = **Paromomycin** (spelling in the slide).",
+   "ar": "“Nitazoxamide” أي **Nitazoxanide**، و“Parmomycin” أي **Paromomycin** (إملاء الشريحة).",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "PROPHYLAXIS",
+   "ar": "الوقاية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Proper disposal of the waste water & feces.",
+    "Maintain personal hygiene like hand washing before eating & proper disposal of diapers.",
+    "Prevention of food & water contamination.",
+    "Boiling of water and filtration by membrane filters are required.",
+    "Chlorination of water is not effective against cysts."
+   ],
+   "list_ar": [
+    "التخلّص السليم من **مياه الصرف والبراز**.",
+    "الحفاظ على النظافة الشخصية مثل **غسل اليدين قبل الأكل** والتخلّص السليم من الحفّاظات.",
+    "منع تلوّث الطعام والماء.",
+    "**غلي الماء والترشيح بالمرشّحات الغشائية** مطلوبان.",
+    "**تعقيم الماء بالكلور غير فعّال ضد الأكياس**."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Metronidazole** 250 mg × 3 daily × 5 days (cure 95%); **Tinidazole** 2 g single dose (more effective).",
+    "Children → **Furazolidone / Nitazoxanide**; pregnant → **Paromomycin**.",
+    "Prevention: boil and filter water — **chlorine does not kill the cysts**."
+   ],
+   "ar": [
+    "**الميترونيدازول** 250 ملغ × 3 يوميًا × 5 أيام (شفاء 95%)؛ **التينيدازول** 2 غم جرعة واحدة (أكثر فعالية).",
+    "الأطفال ← **الفيورازوليدون / النيتازوكسانيد**؛ الحامل ← **الباروموميسين**.",
+    "الوقاية: اغلِ الماء ورشّحه — **الكلور لا يقتل الأكياس**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Flagellates (Mastigophora)**",
+     "السوطيات / الأوالي السوطية"
+    ],
+    [
+     "**Flagellum**",
+     "السوط / الهدب السوطي"
+    ],
+    [
+     "**Cytosome**",
+     "الفم الخلوي / الثغر الخلوي"
+    ],
+    [
+     "**Giardiasis**",
+     "داء الجيارديات / الجيارديا / اللمبليا"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Trophozoite (vegetative form)**",
+     "الطور المتغذّي / الشكل الخضري"
+    ],
+    [
+     "**Cyst (infective form)**",
+     "الكيس / الشكل المُعدي / الطور المتكيّس"
+    ],
+    [
+     "**Sucking disc (ventral disc)**",
+     "القرص الماصّ / القرص البطني / قرص الالتصاق"
+    ],
+    [
+     "**Axostyle**",
+     "القضيب المحوري / الخيط المحوري"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Median / parabasal body**",
+     "الجسم الوسطي / الجسم جار القاعدي"
+    ],
+    [
+     "**Blepharoblast (basal body)**",
+     "الجسيم القاعدي / الحُبيبة القاعدية"
+    ],
+    [
+     "**Pyriform**",
+     "كمثري الشكل / إجاصي"
+    ],
+    [
+     "**Falling leaf motility**",
+     "حركة الورقة المتساقطة"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Encystment**",
+     "التكيّس / تكوين الكيس"
+    ],
+    [
+     "**Binary fission**",
+     "الانشطار الثنائي"
+    ],
+    [
+     "**Pinocytosis**",
+     "الاحتساء الخلوي / الشرب الخلوي"
+    ],
+    [
+     "**Achlorhydria**",
+     "انعدام حامض المعدة / فقد الحامض المعدي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Malabsorption syndrome**",
+     "متلازمة سوء الامتصاص"
+    ],
+    [
+     "**Steatorrhoea**",
+     "الإسهال الدهني / البراز الدهني"
+    ],
+    [
+     "**Apoptosis**",
+     "الموت الخلوي المبرمج / الاستماتة"
+    ],
+    [
+     "**Enterotest (string test)**",
+     "الاختبار المعوي / اختبار الخيط"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Duodenal aspirate**",
+     "رشافة الاثني عشري / شفط الاثني عشري"
+    ],
+    [
+     "**Purgative**",
+     "مسهّل / مليّن"
+    ],
+    [
+     "**Traveller’s diarrhea**",
+     "إسهال المسافرين"
+    ],
+    [
+     "**Prophylaxis**",
+     "الوقاية / الاتقاء"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Flagellates",
+    "topic_ar": "السوطيات"
+   },
+   {
+    "en": "Flagellates move by:",
+    "ar": "تتحرّك السوطيات بواسطة:",
+    "options": [
+     [
+      "Beating more than one flagellum",
+      "ضرب أكثر من سوط"
+     ],
+     [
+      "Pseudopodia",
+      "الأقدام الكاذبة"
+     ],
+     [
+      "Cilia",
+      "الأهداب"
+     ],
+     [
+      "Gliding only",
+      "الانزلاق فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The structure that may help in identifying flagellate species is the:",
+    "ar": "التركيب الذي قد يساعد في تشخيص أنواع السوطيات:",
+    "options": [
+     [
+      "Karyosome",
+      "الجسيم النووي"
+     ],
+     [
+      "Cytosome",
+      "الفم الخلوي"
+     ],
+     [
+      "Glycogen vacuole",
+      "فجوة الغلايكوجين"
+     ],
+     [
+      "Chromatoid bar",
+      "القضيب الكروماتيني"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Flagellates belong to the class:",
+    "ar": "تنتمي السوطيات إلى الصف:",
+    "options": [
+     [
+      "Sarcodina",
+      "اللحميات"
+     ],
+     [
+      "Sporozoa",
+      "البوغيات"
+     ],
+     [
+      "Ciliata",
+      "الهدبيات"
+     ],
+     [
+      "Mastigophora",
+      "السوطيات"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Trypanosoma and Leishmania are:",
+    "ar": "المثقبيات والليشمانيا هي:",
+    "options": [
+     [
+      "Luminal flagellates",
+      "سوطيات تجويف"
+     ],
+     [
+      "Genital flagellates",
+      "سوطيات تناسلية"
+     ],
+     [
+      "Hem (blood) flagellates",
+      "سوطيات دموية"
+     ],
+     [
+      "Amoebae",
+      "أميبات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Trichomonas spp. belong to the group of:",
+    "ar": "تنتمي أنواع المشعّرات إلى مجموعة:",
+    "options": [
+     [
+      "Free-living amoebae",
+      "الأميبات حرّة المعيشة"
+     ],
+     [
+      "Hem flagellates",
+      "السوطيات الدموية"
+     ],
+     [
+      "Genital flagellates",
+      "السوطيات التناسلية"
+     ],
+     [
+      "Coccidia",
+      "الأكريات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "According to the table, the habitat of Chilomastix mesnili is the:",
+    "ar": "حسب الجدول، موطن الكيلوماستكس المسنيلية:",
+    "options": [
+     [
+      "Duodenum",
+      "الاثنا عشري"
+     ],
+     [
+      "Teeth & gums",
+      "الأسنان واللثة"
+     ],
+     [
+      "Vagina",
+      "المهبل"
+     ],
+     [
+      "Caecum",
+      "الأعور"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The habitat of Trichomonas tenax is:",
+    "ar": "موطن المشعّرة الفموية (T. tenax):",
+    "options": [
+     [
+      "Colon",
+      "القولون"
+     ],
+     [
+      "Teeth & gums",
+      "الأسنان واللثة"
+     ],
+     [
+      "Vagina & urethra",
+      "المهبل والإحليل"
+     ],
+     [
+      "Ileocaecal region",
+      "المنطقة اللفائفية الأعورية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Giardia lamblia — general",
+    "topic_ar": "الجيارديا اللمبلية — عام"
+   },
+   {
+    "en": "Giardia lamblia was first seen by:",
+    "ar": "شوهدت الجيارديا اللمبلية أول مرة من قِبَل:",
+    "options": [
+     [
+      "Antonie Von Leeuwenhoek",
+      "أنطوني فان ليفينهوك"
+     ],
+     [
+      "Prof. Lamble",
+      "البروفيسور لامبل"
+     ],
+     [
+      "Fowler and Carter",
+      "فاولر وكارتر"
+     ],
+     [
+      "Prof. Giard",
+      "البروفيسور جيارد"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Another name of Giardia lamblia is:",
+    "ar": "اسم آخر للجيارديا اللمبلية:",
+    "options": [
+     [
+      "Chilomastix mesnili",
+      "الكيلوماستكس المسنيلية"
+     ],
+     [
+      "G. intestinalis",
+      "الجيارديا المعوية"
+     ],
+     [
+      "Enteromonas hominis",
+      "الإنتيروموناس البشرية"
+     ],
+     [
+      "Trichomonas hominis",
+      "المشعّرة البشرية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The habitat of Giardia lamblia is:",
+    "ar": "موطن الجيارديا اللمبلية:",
+    "options": [
+     [
+      "Colon",
+      "القولون"
+     ],
+     [
+      "Caecum",
+      "الأعور"
+     ],
+     [
+      "Duodenum & upper part of the jejunum",
+      "الاثنا عشري والجزء العلوي من الصائم"
+     ],
+     [
+      "Liver",
+      "الكبد"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The only protozoan parasite found in the lumen of human small intestine is:",
+    "ar": "الطفيلي الأوالي الوحيد الموجود في تجويف الأمعاء الدقيقة للإنسان:",
+    "options": [
+     [
+      "Entamoeba coli",
+      "الأميبا القولونية"
+     ],
+     [
+      "Trichomonas vaginalis",
+      "المشعّرة المهبلية"
+     ],
+     [
+      "Dientamoeba fragilis",
+      "الأميبا الهشّة"
+     ],
+     [
+      "Giardia lamblia",
+      "الجيارديا اللمبلية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Traveller’s diarrhea caused by giardiasis is transmitted through:",
+    "ar": "إسهال المسافرين الذي يسبّبه داء الجيارديات ينتقل عبر:",
+    "options": [
+     [
+      "Contaminated water",
+      "الماء الملوّث"
+     ],
+     [
+      "Blood transfusion",
+      "نقل الدم"
+     ],
+     [
+      "Inhalation",
+      "الاستنشاق"
+     ],
+     [
+      "Mosquito bite",
+      "لدغة البعوض"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Morphology",
+    "topic_ar": "الشكل"
+   },
+   {
+    "en": "The infective form of Giardia is:",
+    "ar": "الشكل المُعدي للجيارديا:",
+    "options": [
+     [
+      "The larva",
+      "اليرقة"
+     ],
+     [
+      "The trophozoite",
+      "الطور المتغذّي"
+     ],
+     [
+      "The flagellated form",
+      "الشكل المسوط"
+     ],
+     [
+      "The mature cyst",
+      "الكيس الناضج"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The shape of the Giardia trophozoite is:",
+    "ar": "شكل الطور المتغذّي للجيارديا:",
+    "options": [
+     [
+      "Tennis racket / heart / pyriform",
+      "مضرب تنس / قلب / كمثري"
+     ],
+     [
+      "Spherical",
+      "كروي"
+     ],
+     [
+      "Oval with 8 nuclei",
+      "بيضوي بـ8 أنوية"
+     ],
+     [
+      "Elongated worm-like",
+      "مستطيل يشبه الدودة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The size of the Giardia trophozoite is:",
+    "ar": "حجم الطور المتغذّي للجيارديا:",
+    "options": [
+     [
+      "12 µm x 7 µm",
+      "12 × 7 مايكرومتر"
+     ],
+     [
+      "14 µm x 7 µm x 4 µm",
+      "14 × 7 × 4 مايكرومتر"
+     ],
+     [
+      "5-25 µm",
+      "5-25 مايكرومتر"
+     ],
+     [
+      "20-50 µm",
+      "20-50 مايكرومتر"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The ventral surface of the trophozoite is:",
+    "ar": "السطح البطني للطور المتغذّي:",
+    "options": [
+     [
+      "Convex",
+      "محدّب"
+     ],
+     [
+      "Flat without disc",
+      "مسطّح بلا قرص"
+     ],
+     [
+      "Concave with a sucking disc",
+      "مقعّر فيه قرص ماصّ"
+     ],
+     [
+      "Covered with cilia",
+      "مغطّى بالأهداب"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The number of flagella (with blepharoblast) in the trophozoite is:",
+    "ar": "عدد الأسواط (مع الجسيمات القاعدية) في الطور المتغذّي:",
+    "options": [
+     [
+      "1 pair",
+      "زوج واحد"
+     ],
+     [
+      "4 pairs",
+      "4 أزواج"
+     ],
+     [
+      "2 pairs",
+      "زوجان"
+     ],
+     [
+      "One flagellum",
+      "سوط واحد"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The motility of the Giardia trophozoite is:",
+    "ar": "حركة الطور المتغذّي للجيارديا:",
+    "options": [
+     [
+      "Falling leaf",
+      "الورقة المتساقطة"
+     ],
+     [
+      "Sluggish amoeboid",
+      "أميبية بطيئة"
+     ],
+     [
+      "Jerky",
+      "متقطّعة"
+     ],
+     [
+      "Absent",
+      "معدومة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The mature cyst of Giardia contains:",
+    "ar": "يحتوي الكيس الناضج للجيارديا:",
+    "options": [
+     [
+      "1 nucleus",
+      "نواة واحدة"
+     ],
+     [
+      "2 nuclei",
+      "نواتين"
+     ],
+     [
+      "4 nuclei",
+      "4 أنوية"
+     ],
+     [
+      "8 nuclei",
+      "8 أنوية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The size of the Giardia cyst is:",
+    "ar": "حجم كيس الجيارديا:",
+    "options": [
+     [
+      "14 µm x 7µm x 4µm",
+      "14 × 7 × 4 مايكرومتر"
+     ],
+     [
+      "10-31 µm",
+      "10-31 مايكرومتر"
+     ],
+     [
+      "5-14 µm",
+      "5-14 مايكرومتر"
+     ],
+     [
+      "12µm x 7µm",
+      "12 × 7 مايكرومتر"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Encystment of Giardia is often caused by:",
+    "ar": "يحدث تكيّس الجيارديا غالبًا بسبب:",
+    "options": [
+     [
+      "Oxygen",
+      "الأوكسجين"
+     ],
+     [
+      "An alkaline environment",
+      "البيئة القاعدية"
+     ],
+     [
+      "High temperature",
+      "الحرارة العالية"
+     ],
+     [
+      "An acid environment",
+      "البيئة الحامضية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Transmission, life cycle and pathogenesis",
+    "topic_ar": "الانتقال ودورة الحياة والإمراضية"
+   },
+   {
+    "en": "The number of cysts enough to cause infection is:",
+    "ar": "عدد الأكياس الكافي لإحداث الإصابة:",
+    "options": [
+     [
+      "1-5",
+      "1-5"
+     ],
+     [
+      "1000-5000",
+      "1000-5000"
+     ],
+     [
+      "10 to 100",
+      "10 إلى 100"
+     ],
+     [
+      "200,000",
+      "200,000"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "After ingestion, the cyst hatches into two trophozoites within:",
+    "ar": "بعد الابتلاع يفقس الكيس إلى طورين متغذّيين خلال:",
+    "options": [
+     [
+      "30 min",
+      "30 دقيقة"
+     ],
+     [
+      "24 hours",
+      "24 ساعة"
+     ],
+     [
+      "2 weeks",
+      "أسبوعين"
+     ],
+     [
+      "5 days",
+      "5 أيام"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Giardia trophozoites feed by:",
+    "ar": "تتغذّى الأطوار المتغذّية للجيارديا بـ:",
+    "options": [
+     [
+      "Ingesting RBCs",
+      "ابتلاع الكريات الحمر"
+     ],
+     [
+      "Pinocytosis",
+      "الاحتساء الخلوي"
+     ],
+     [
+      "Photosynthesis",
+      "التركيب الضوئي"
+     ],
+     [
+      "Phagocytosis of bacteria",
+      "بلعمة البكتيريا"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Encystment of Giardia occurs usually in the:",
+    "ar": "يحدث تكيّس الجيارديا عادةً في:",
+    "options": [
+     [
+      "Duodenum",
+      "الاثني عشري"
+     ],
+     [
+      "Stomach",
+      "المعدة"
+     ],
+     [
+      "Colon",
+      "القولون"
+     ],
+     [
+      "Gall bladder",
+      "المرارة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which is a risk factor for giardiasis?",
+    "ar": "أيّ مما يأتي عامل خطورة لداء الجيارديات؟",
+    "options": [
+     [
+      "IgA deficiency",
+      "نقص IgA"
+     ],
+     [
+      "Blood group O",
+      "فصيلة الدم O"
+     ],
+     [
+      "High gastric acidity",
+      "حموضة المعدة العالية"
+     ],
+     [
+      "Old age only",
+      "الشيخوخة فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Giardia attaches to the intestinal epithelium by:",
+    "ar": "تلتصق الجيارديا بظهارة الأمعاء بواسطة:",
+    "options": [
+     [
+      "Flagella",
+      "الأسواط"
+     ],
+     [
+      "The sucking disc",
+      "القرص الماصّ"
+     ],
+     [
+      "Hooks",
+      "الخطاطيف"
+     ],
+     [
+      "Pseudopodia",
+      "الأقدام الكاذبة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "To avoid the acidity of proximal duodenum, Giardia often localizes in the:",
+    "ar": "لتجنّب حموضة الاثني عشري القريب، تتمركز الجيارديا غالبًا في:",
+    "options": [
+     [
+      "Liver",
+      "الكبد"
+     ],
+     [
+      "Brain",
+      "الدماغ"
+     ],
+     [
+      "Lungs",
+      "الرئتين"
+     ],
+     [
+      "Biliary tract (gall bladder)",
+      "القناة الصفراوية (المرارة)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The incubation period of giardiasis is about:",
+    "ar": "فترة حضانة داء الجيارديات حوالي:",
+    "options": [
+     [
+      "2 days",
+      "يومين"
+     ],
+     [
+      "2 weeks",
+      "أسبوعين"
+     ],
+     [
+      "6 months",
+      "6 أشهر"
+     ],
+     [
+      "24 hours",
+      "24 ساعة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Diagnosis and treatment",
+    "topic_ar": "التشخيص والعلاج"
+   },
+   {
+    "en": "In asymptomatic carriers, the stool shows:",
+    "ar": "في الحاملين بلا أعراض يُظهر البراز:",
+    "options": [
+     [
+      "Trophozoites only",
+      "أطوارًا متغذّية فقط"
+     ],
+     [
+      "Blood and mucus",
+      "دمًا ومخاطًا"
+     ],
+     [
+      "Cysts only",
+      "أكياسًا فقط"
+     ],
+     [
+      "Larvae",
+      "يرقات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The stool in giardiasis is macroscopically:",
+    "ar": "البراز في داء الجيارديات عيانيًا:",
+    "options": [
+     [
+      "Offensive odour, pale coloured & fatty",
+      "كريه الرائحة، شاحب اللون ودهني"
+     ],
+     [
+      "Rice-water",
+      "كماء الرز"
+     ],
+     [
+      "Bloody",
+      "دموي"
+     ],
+     [
+      "Black tarry",
+      "أسود قطراني"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The enterotest (string test) obtains a specimen from the:",
+    "ar": "يحصل الاختبار المعوي (اختبار الخيط) على عيّنة من:",
+    "options": [
+     [
+      "Stomach",
+      "المعدة"
+     ],
+     [
+      "Colon",
+      "القولون"
+     ],
+     [
+      "Rectum",
+      "المستقيم"
+     ],
+     [
+      "Duodenum",
+      "الاثني عشري"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In the string test, the string is withdrawn after:",
+    "ar": "في اختبار الخيط يُسحب الخيط بعد:",
+    "options": [
+     [
+      "2-4 hrs",
+      "2-4 ساعات"
+     ],
+     [
+      "30 min",
+      "30 دقيقة"
+     ],
+     [
+      "24 hrs",
+      "24 ساعة"
+     ],
+     [
+      "5 days",
+      "5 أيام"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The specificity of Giardia antigen detection (GSA 65) compared to microscopy is:",
+    "ar": "نوعية كشف مستضد الجيارديا (GSA 65) مقارنةً بالفحص المجهري:",
+    "options": [
+     [
+      "50%",
+      "50%"
+     ],
+     [
+      "95%",
+      "95%"
+     ],
+     [
+      "75%",
+      "75%"
+     ],
+     [
+      "100%",
+      "100%"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Antibody detection tests for Giardia:",
+    "ar": "اختبارات كشف الضد للجيارديا:",
+    "options": [
+     [
+      "Show active infection",
+      "تُظهر الإصابة الفعّالة"
+     ],
+     [
+      "Are used routinely",
+      "تُستعمل روتينيًا"
+     ],
+     [
+      "Can’t differentiate recent from past infection",
+      "لا تميّز الحديثة من السابقة"
+     ],
+     [
+      "Have 100% sensitivity",
+      "حساسيتها 100%"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The more effective single-dose drug for giardiasis is:",
+    "ar": "الدواء الأكثر فعالية بجرعة واحدة لداء الجيارديات:",
+    "options": [
+     [
+      "Metronidazole",
+      "الميترونيدازول"
+     ],
+     [
+      "Tinidazole",
+      "التينيدازول"
+     ],
+     [
+      "Paromomycin",
+      "الباروموميسين"
+     ],
+     [
+      "Furazolidone",
+      "الفيورازوليدون"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The drug used for a pregnant female is:",
+    "ar": "الدواء المستعمل للمرأة الحامل:",
+    "options": [
+     [
+      "Nitazoxanide",
+      "النيتازوكسانيد"
+     ],
+     [
+      "Tinidazole",
+      "التينيدازول"
+     ],
+     [
+      "Metronidazole",
+      "الميترونيدازول"
+     ],
+     [
+      "Parmomycin (paromomycin)",
+      "الباروموميسين"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which measure is NOT effective against Giardia cysts?",
+    "ar": "أيّ إجراء غير فعّال ضد أكياس الجيارديا؟",
+    "options": [
+     [
+      "Boiling of water",
+      "غلي الماء"
+     ],
+     [
+      "Membrane filtration",
+      "الترشيح الغشائي"
+     ],
+     [
+      "Chlorination of water",
+      "تعقيم الماء بالكلور"
+     ],
+     [
+      "Proper disposal of feces",
+      "التخلّص السليم من البراز"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "The structure labelled “Ventral disc” in this drawing is used for:",
+    "ar": "التركيب المؤشّر “القرص البطني” في هذا الرسم يُستعمل لـ:",
+    "options": [
+     [
+      "Attachment",
+      "الالتصاق"
+     ],
+     [
+      "Feeding by phagocytosis",
+      "التغذّي بالبلعمة"
+     ],
+     [
+      "Movement",
+      "الحركة"
+     ],
+     [
+      "Encystment",
+      "التكيّس"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/troph-diagram.jpg",
+    "img_h": "48mm"
+   },
+   {
+    "en": "This cyst (oval, smooth wall, four nuclei) belongs to:",
+    "ar": "هذا الكيس (بيضوي، جدار أملس، أربع أنوية) يعود إلى:",
+    "options": [
+     [
+      "Entamoeba coli",
+      "الأميبا القولونية"
+     ],
+     [
+      "Giardia lamblia",
+      "الجيارديا اللمبلية"
+     ],
+     [
+      "Naegleria",
+      "النيغلرية"
+     ],
+     [
+      "Iodamoeba",
+      "الأميبا اليودية"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/cyst-photo.jpg",
+    "img_h": "40mm"
+   },
+   {
+    "en": "The diagnostic test shown in this picture is:",
+    "ar": "الاختبار التشخيصي في هذه الصورة:",
+    "options": [
+     [
+      "Duodenal intubation",
+      "التنبيب الاثني عشري"
+     ],
+     [
+      "Enterotest (string test)",
+      "الاختبار المعوي (اختبار الخيط)"
+     ],
+     [
+      "ELISA",
+      "الإليزا"
+     ],
+     [
+      "PCR",
+      "تفاعل البلمرة المتسلسل"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/string-test.jpg",
+    "img_h": "32mm"
+   },
+   {
+    "en": "In this life cycle, the stage marked “i” (infective stage) is the:",
+    "ar": "في دورة الحياة هذه، الطور المؤشّر “i” (الطور المُعدي) هو:",
+    "options": [
+     [
+      "Trophozoite",
+      "الطور المتغذّي"
+     ],
+     [
+      "Larva",
+      "اليرقة"
+     ],
+     [
+      "Cyst",
+      "الكيس"
+     ],
+     [
+      "Egg",
+      "البيضة"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/cdc-cycle.jpg",
+    "img_h": "56mm"
+   },
+   {
+    "en": "The stained trophozoites in this figure each have:",
+    "ar": "الأطوار المتغذّية المصبوغة في هذا الشكل لكلٍّ منها:",
+    "options": [
+     [
+      "One nucleus",
+      "نواة واحدة"
+     ],
+     [
+      "Four nuclei",
+      "أربع أنوية"
+     ],
+     [
+      "No nucleus",
+      "بلا نواة"
+     ],
+     [
+      "Two nuclei with a large, central karyosome",
+      "نواتان بجسيم نووي كبير مركزي"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/troph-stains.jpg",
+    "img_h": "44mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Flagellates possess more than one flagellum.",
+    "ar": "تملك السوطيات أكثر من سوط واحد.",
+    "answer": "T"
+   },
+   {
+    "en": "Giardia is a hem flagellate.",
+    "ar": "الجيارديا من السوطيات الدموية.",
+    "answer": "F"
+   },
+   {
+    "en": "Giardia lamblia was named after Prof. Giard of Paris and Prof. Lamble of Prague.",
+    "ar": "سمّيت الجيارديا اللمبلية نسبةً إلى البروفيسور جيارد من باريس والبروفيسور لامبل من براغ.",
+    "answer": "T"
+   },
+   {
+    "en": "Giardiasis is uncommon in the younger age group.",
+    "ar": "داء الجيارديات غير شائع في الفئات العمرية الأصغر.",
+    "answer": "F"
+   },
+   {
+    "en": "The dorsal surface of the trophozoite is convex.",
+    "ar": "السطح الظهري للطور المتغذّي محدّب.",
+    "answer": "T"
+   },
+   {
+    "en": "The Giardia trophozoite is bilaterally symmetrical.",
+    "ar": "الطور المتغذّي للجيارديا متناظر ثنائيًا.",
+    "answer": "T"
+   },
+   {
+    "en": "The axostyle in the cyst is diagonally placed.",
+    "ar": "القضيب المحوري في الكيس موضوع قطريًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Giardia completes its life cycle in two hosts.",
+    "ar": "تُكمل الجيارديا دورة حياتها في مضيفين.",
+    "answer": "F"
+   },
+   {
+    "en": "Trophozoites passed in stool survive in the environment.",
+    "ar": "الأطوار المتغذّية الخارجة مع البراز تعيش في البيئة.",
+    "answer": "F"
+   },
+   {
+    "en": "Giardia invades the intestinal tissues.",
+    "ar": "تغزو الجيارديا الأنسجة المعوية.",
+    "answer": "F"
+   },
+   {
+    "en": "Both humoral and cell mediated immunity are important in giardiasis.",
+    "ar": "المناعتان الخلطية والخلوية كلتاهما مهمّتان في داء الجيارديات.",
+    "answer": "T"
+   },
+   {
+    "en": "Multiple stool specimens need to be examined.",
+    "ar": "يجب فحص عيّنات براز متعدّدة.",
+    "answer": "T"
+   },
+   {
+    "en": "The string test is performed when parasites are found in the stool sample.",
+    "ar": "يُجرى اختبار الخيط عندما يُعثر على طفيليات في عيّنة البراز.",
+    "answer": "F"
+   },
+   {
+    "en": "Anti-Giardia secretory IgA in breast milk protects breast fed infants.",
+    "ar": "ضدّ IgA الإفرازي المضاد للجيارديا في حليب الأم يحمي الرضّع.",
+    "answer": "T"
+   },
+   {
+    "en": "Giardia antigen detection tests are used for routine purposes.",
+    "ar": "اختبارات كشف مستضد الجيارديا تُستعمل لأغراض روتينية.",
+    "answer": "F"
+   },
+   {
+    "en": "Furazolidone and nitazoxanide are used for children.",
+    "ar": "يُستعمل الفيورازوليدون والنيتازوكسانيد للأطفال.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Which form of Giardia is infective and which is vegetative?",
+    "ar": "أيّ شكل للجيارديا مُعدٍ وأيّها خضري؟",
+    "answer_en": "Cyst = infective form; trophozoite = vegetative form.",
+    "answer_ar": "الكيس = الشكل المُعدي؛ المتغذّي = الشكل الخضري."
+   },
+   {
+    "en": "Trophozoite nuclei vs cyst nuclei?",
+    "ar": "أنوية المتغذّي مقابل أنوية الكيس؟",
+    "answer_en": "Trophozoite: 1 pair (2 nuclei); mature cyst: 4 nuclei.",
+    "answer_ar": "المتغذّي: زوج واحد (نواتان)؛ الكيس الناضج: 4 أنوية."
+   },
+   {
+    "en": "Trophozoite size vs cyst size?",
+    "ar": "حجم المتغذّي مقابل حجم الكيس؟",
+    "answer_en": "Trophozoite 14 × 7 × 4 µm; cyst 12 × 7 µm.",
+    "answer_ar": "المتغذّي 14 × 7 × 4 مايكرومتر؛ الكيس 12 × 7 مايكرومتر."
+   },
+   {
+    "en": "Where does the cyst hatch and where does encystment happen?",
+    "ar": "أين يفقس الكيس وأين يحدث التكيّس؟",
+    "answer_en": "Hatching after ingestion (within 30 min) → duodenum; encystment usually in the colon.",
+    "answer_ar": "الفقس بعد الابتلاع (خلال 30 دقيقة) ← الاثنا عشري؛ والتكيّس عادةً في القولون."
+   },
+   {
+    "en": "Does chlorination kill Giardia cysts?",
+    "ar": "هل يقتل الكلور أكياس الجيارديا؟",
+    "answer_en": "No — chlorination is not effective; boiling and membrane filtration are required.",
+    "answer_ar": "لا — الكلور غير فعّال؛ يلزم الغلي والترشيح الغشائي."
+   },
+   {
+    "en": "Antigen detection or antibody detection for active infection?",
+    "ar": "كشف المستضد أم كشف الضد للإصابة الفعّالة؟",
+    "answer_en": "Antigen present = active infection; antibodies can’t differentiate recent from past infection.",
+    "answer_ar": "وجود المستضد = إصابة فعّالة؛ الأضداد لا تميّز الحديثة من السابقة."
+   },
+   {
+    "en": "Metronidazole or tinidazole — which is a single dose?",
+    "ar": "الميترونيدازول أم التينيدازول — أيّهما جرعة واحدة؟",
+    "answer_en": "Tinidazole 2 gm single dose (more effective); metronidazole 250 mg × 3 daily × 5 days.",
+    "answer_ar": "التينيدازول 2 غم جرعة واحدة (أكثر فعالية)؛ الميترونيدازول 250 ملغ × 3 يوميًا × 5 أيام."
+   }
+  ],
+  "important": [
+   {
+    "en": "Describe the trophozoite of Giardia lamblia.",
+    "ar": "صف الطور المتغذّي للجيارديا اللمبلية.",
+    "answer_en": "Tennis racket / heart / pyriform shaped; dorsal surface convex, ventral surface concave with a sucking disk for attachment; 14 × 7 × 4 µm; anterior end broad and rounded, posterior end tapers to a sharp point; bilaterally symmetrical: nuclei 1 pair, flagella with blepharoblast 4 pairs, axostyle 1 pair along the midline, parabasal / median body 1 pair; falling leaf motility around its long axis.",
+    "answer_ar": "يشبه مضرب التنس / القلب / الكمثرى؛ السطح الظهري محدّب والبطني مقعّر فيه قرص ماصّ للالتصاق؛ 14 × 7 × 4 مايكرومتر؛ النهاية الأمامية عريضة مستديرة والخلفية مستدقّة؛ متناظر ثنائيًا: زوج أنوية، 4 أزواج أسواط مع جسيمات قاعدية، زوج قضيب محوري على الخط الوسطي، زوج أجسام جار قاعدية / وسطية؛ حركة الورقة المتساقطة حول محوره الطويل."
+   },
+   {
+    "en": "Describe the cyst of Giardia lamblia.",
+    "ar": "صف كيس الجيارديا اللمبلية.",
+    "answer_en": "Round or oval; hyaline (smooth, well defined) cyst wall; 12 × 7 µm; axostyle diagonally placed forming a dividing line; 4 nuclei clustered at one end or at opposite poles; remnants of flagella and margins of the sucking disc in a young cyst; contains parabasal bodies; an acid environment causes encystment.",
+    "answer_ar": "مستدير أو بيضوي؛ جدار كيس شفّاف (أملس واضح)؛ 12 × 7 مايكرومتر؛ قضيب محوري قطري يكوّن خطًا فاصلًا؛ 4 أنوية متجمّعة في نهاية أو عند قطبين متقابلين؛ بقايا الأسواط وحواف القرص الماصّ في الكيس الفتي؛ يحتوي أجسامًا جار قاعدية؛ والبيئة الحامضية تسبّب التكيّس."
+   },
+   {
+    "en": "Describe the life cycle of Giardia lamblia.",
+    "ar": "صف دورة حياة الجيارديا اللمبلية.",
+    "answer_en": "One host; infective form is the mature cyst (10-100 cysts enough). Cyst ingested with food or drink → within 30 min hatches into two trophozoites → multiply by binary fission and colonise the duodenum and upper jejunum, feeding by pinocytosis → in unfavourable conditions encystment in the colon with a thick resistant wall → the cystic cell divides into two → cysts passed in stool (up to 200,000), viable in soil and water for weeks.",
+    "answer_ar": "مضيف واحد؛ الشكل المُعدي الكيس الناضج (10-100 كيس تكفي). يُبتلع الكيس مع الطعام أو الشراب ← خلال 30 دقيقة يفقس إلى طورين متغذّيين ← تتكاثر بالانشطار الثنائي وتستعمر الاثني عشري وأعلى الصائم وتتغذّى بالاحتساء ← في الظروف غير الملائمة يحدث التكيّس في القولون بجدار سميك مقاوم ← تنقسم الخلية الكيسية إلى اثنتين ← تخرج الأكياس مع البراز (حتى 200,000) وتبقى حيّة في التربة والماء أسابيع."
+   },
+   {
+    "en": "Explain the pathogenesis of giardiasis.",
+    "ar": "اشرح إمراضية داء الجيارديات.",
+    "answer_en": "Adherence by the sucking disc to epithelial cells and crypts; no tissue invasion; abnormalities of villous architecture by apoptosis; harm by toxic effect (VSSP), irritative effect and spoliative action (diverting nutriments); localizes in the gall bladder to avoid duodenal acidity.",
+    "answer_ar": "الالتصاق بالقرص الماصّ بالخلايا الظهارية والخبايا؛ بلا غزو للأنسجة؛ تشوّه بنية الزغابات بالموت المبرمج؛ الضرر بالتأثير السمّي (VSSP) والمهيّج والسالب (تحويل المغذّيات)؛ وتتمركز في المرارة لتجنّب حموضة الاثني عشري."
+   },
+   {
+    "en": "List the clinical features of giardiasis.",
+    "ar": "عدّد المظاهر السريرية لداء الجيارديات.",
+    "answer_en": "Silent cases; intestinal: malabsorption syndrome (steatorrhoea), mucus diarrhea, dull epigastric pain, flatulence, chronic enteritis, acute enterocolitis; general: fever, anaemia, weight loss, allergic manifestations; chronic cholecystopathy. Incubation period about 2 weeks.",
+    "answer_ar": "حالات صامتة؛ معوية: متلازمة سوء الامتصاص (إسهال دهني)، إسهال مخاطي، ألم شرسوفي كليل، انتفاخ، التهاب أمعاء مزمن، التهاب أمعاء وقولون حاد؛ عامة: حمّى، فقر دم، نقص وزن، مظاهر تحسّسية؛ اعتلال المرارة المزمن. الحضانة حوالي أسبوعين."
+   },
+   {
+    "en": "Describe the enterotest (string test) and when it is used.",
+    "ar": "صف الاختبار المعوي (اختبار الخيط) ومتى يُستعمل.",
+    "answer_en": "A method for obtaining a duodenal specimen: a coiled string in a small weighted gelatin capsule is swallowed, its free end attached to the face; the capsule dissolves in the stomach and the weighted string passes into the duodenum; after 2-4 hrs it is withdrawn into saline with mechanical shaking; the centrifuged deposit is examined by wet mount for motile Giardia trophozoites (and Strongyloides larvae). Used when a parasitic infection is suspected but stool is negative; its sensitivity is comparable to duodenal aspirate, so no duodenal intubation is needed.",
+    "answer_ar": "طريقة للحصول على عيّنة من الاثني عشري: يُبلع خيط ملفوف في كبسولة جيلاتينية مثقّلة ويُثبّت طرفه على الوجه؛ تذوب الكبسولة في المعدة ويمرّ الخيط إلى الاثني عشري؛ بعد 2-4 ساعات يُسحب ويوضع في محلول ملحي مع رجّ؛ ويُفحص الراسب المنبوذ بتحضير رطب للأطوار المتغذّية المتحرّكة (ويرقات الأسطوانية). يُستعمل عند الشك بإصابة طفيلية مع براز سالب؛ وحساسيته مماثلة لرشافة الاثني عشري فلا حاجة للتنبيب."
+   },
+   {
+    "en": "Write the treatment and prophylaxis of giardiasis.",
+    "ar": "اكتب علاج داء الجيارديات والوقاية منه.",
+    "answer_en": "Metronidazole 250 mg × 3 daily × 5 days (cure 95%); tinidazole 2 gm single dose (more effective); furazolidone and nitazoxanide for children (less adverse effects); paromomycin for pregnant females. Prophylaxis: proper disposal of waste water and feces, personal hygiene (hand washing, diapers), prevent food and water contamination, boiling and membrane filtration of water — chlorination is not effective against cysts.",
+    "answer_ar": "الميترونيدازول 250 ملغ × 3 يوميًا × 5 أيام (شفاء 95%)؛ التينيدازول 2 غم جرعة واحدة (أكثر فعالية)؛ الفيورازوليدون والنيتازوكسانيد للأطفال (آثار جانبية أقل)؛ الباروموميسين للحامل. الوقاية: التخلّص السليم من مياه الصرف والبراز، النظافة الشخصية (غسل اليدين، الحفّاظات)، منع تلوّث الطعام والماء، غلي الماء وترشيحه غشائيًا — والكلور غير فعّال ضد الأكياس."
+   }
+  ]
+ }
+}

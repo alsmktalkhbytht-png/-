@@ -1,7 +1,12 @@
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user--/8f878068-bae9-502b-96f7-788f221c7cb0/scratchpad/imm456")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user/a0840832-519a-5a9b-84ea-294867ea1189/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
 
 BN = lambda en, ar: N(en, ar, label=["BIOS note", "ملاحظة BIOS"])
+
+def TERMS6(terms, n=6):
+    head = [B("Term", "المصطلح"), "الترجمات العربية المستعملة"]
+    return [SEC("Key terms", "أهم المصطلحات")] + [T(head, [[f"**{e}**", a] for e, a in terms[i:i + n]], ar_cols=[1], widths=[36, 64])
+                                                  for i in range(0, len(terms), n)]
 
 blocks = [
  SEC("Introduction", "المقدّمة"),
@@ -65,16 +70,18 @@ blocks = [
    "**مجاهر المسبار الماسح**: صنف جديد من المجاهر يقيس **معالم السطح** بتحريك **مسبار حادّ** فوق سطح الجسم."),
  BN("The scanning probe paragraph is cut short in the lecture sheet (it ends with \"The\").", "فقرة مجهر المسبار الماسح مقطوعة في المحاضرة (تنتهي بكلمة \"The\")."),
  F("microscopy-types.png", "(A) Phase contrast: cells (dark) against lighter dots (spores). (B) Dark field: unstained cells against a dark background. (C) Fluorescence: cells glow due to a fluorescent antibody.",
-   "(أ) تباين الطور: خلايا داكنة مقابل نقاط أفتح (أبواغ). (ب) الحقل المظلم: خلايا غير مصبوغة على خلفية مظلمة. (ج) الفلوري: تتوهّج الخلايا بسبب ضد فلوري يرتبط بها.", h="50mm"),
+   "(أ) تباين الطور: خلايا داكنة مقابل نقاط أفتح (أبواغ). (ب) الحقل المظلم: خلايا غير مصبوغة على خلفية مظلمة. (ج) الفلوري: تتوهّج الخلايا بسبب ضد فلوري يرتبط بها.", h="70mm"),
  T([B("Microscope", "المجهر"), B("Key point", "الفكرة الأساسية"), B("Best for", "الأنسب لـ")],
    [[B("**Bright-field (light)**", "**الحقل الساطع (الضوئي)**"), B("Needs stains for contrast; killed and stained preparations", "يحتاج أصباغًا للتباين؛ تحضيرات مقتولة ومصبوغة"), B("Routine stained smears", "المسحات المصبوغة الروتينية")],
     [B("**Phase-contrast**", "**تباين الطور**"), B("Improves contrast without stain", "يحسّن التباين بدون صبغ"), B("Living unstained cells", "الخلايا الحيّة غير المصبوغة")],
-    [B("**Dark-field**", "**الحقل المظلم**"), B("Bright cells on a dark background", "خلايا لامعة على خلفية مظلمة"), B("Treponema pallidum (< 0.2 μm)", "اللولبية الشاحبة (< 0.2 مايكرومتر)")],
-    [B("**Fluorescence**", "**الفلوري**"), B("Auramine O glows yellow under UV", "أورامين O يتوهّج أصفر تحت UV"), B("Mycobacterium tuberculosis", "المتفطّرة السلّية")],
+    [B("**Dark-field**", "**الحقل المظلم**"), B("Bright cells on a dark background", "خلايا لامعة على خلفية مظلمة"), B("Treponema pallidum (< 0.2 μm)", "اللولبية الشاحبة (< 0.2 مايكرومتر)")]],
+   key_cols=[0], widths=[24, 42, 34], style="summary", label_en="Microscopes at a glance", label_ar="المجاهر بنظرة"),
+ T([B("Microscope", "المجهر"), B("Key point", "الفكرة الأساسية"), B("Best for", "الأنسب لـ")],
+   [[B("**Fluorescence**", "**الفلوري**"), B("Auramine O glows yellow under UV", "أورامين O يتوهّج أصفر تحت UV"), B("Mycobacterium tuberculosis", "المتفطّرة السلّية")],
     [B("**DIC**", "**التباين التداخلي التفاضلي**"), B("3-D look of spores, vacuoles, granules", "مظهر ثلاثي الأبعاد للأبواغ والفجوات والحبيبات"), B("Internal structures of unstained cells", "التراكيب الداخلية للخلايا غير المصبوغة")],
     [B("**TEM / SEM**", "**النافذ / الماسح**"), B("TEM like light microscope; SEM 3-D surface", "TEM يشبه الضوئي؛ SEM سطح ثلاثي الأبعاد"), B("Ultrastructure / surface", "التركيب الدقيق / السطح")],
     [B("**Scanning probe**", "**المسبار الماسح**"), B("Sharp probe moves over the surface", "مسبار حادّ يتحرّك فوق السطح"), B("Surface features", "معالم السطح")]],
-   key_cols=[0], widths=[24, 42, 34], style="summary", label_en="Microscopes at a glance", label_ar="المجاهر بنظرة"),
+   key_cols=[0], widths=[24, 42, 34], style="summary", label_en="Microscopes (cont.)", label_ar="المجاهر (تكملة)"),
  H2("Direct and Indirect Smears", "المسحات المباشرة وغير المباشرة"),
  L(["A **direct smear** is a preparation of the **primary clinical sample** received in the laboratory for processing.",
     "A direct smear provides a mechanism to identify the **number and type of cells** present in a specimen, including **white blood cells, epithelial cells, and predominant organism type**."],
@@ -133,14 +140,8 @@ blocks = [
     "This adequately preserves **overall morphology but not structures within the cells**."],
    ["**التثبيت الحراري:** يُجرى عادةً للمسحات البكتيرية **بتسخين غشاء بكتيري مجفّف بالهواء تسخينًا لطيفًا باللهب**.",
     "وهذا يحفظ **الشكل العام جيدًا لكن ليس التراكيب داخل الخلايا**."]),
- R(["**Chemical fixation:** It can be done using **ethanol, acetic acid, mercuric chloride, formaldehyde, methanol and glutaraldehyde**.",
-    "They are used to **protect the fine internal structure** of the cells.",
-    "This is useful for examination of **blood smears**.",
-    "The fixed smear is stained by appropriate staining technique."],
-   ["**التثبيت الكيميائي:** يمكن إجراؤه باستعمال **الإيثانول، وحمض الخليك، وكلوريد الزئبق، والفورمالديهايد، والميثانول، والغلوتارالديهايد**.",
-    "وتُستعمل هذه المواد **لحماية التركيب الداخلي الدقيق** للخلايا.",
-    "وهذا مفيد لفحص **مسحات الدم**.",
-    "ثم تُصبغ المسحة المثبّتة بتقنية التصبيغ المناسبة."]),
+ R(['**Chemical fixation:** It can be done using **ethanol, acetic acid, mercuric chloride, formaldehyde, methanol and glutaraldehyde**.', 'They are used to **protect the fine internal structure** of the cells.'], ['**التثبيت الكيميائي:** يمكن إجراؤه باستعمال **الإيثانول، وحمض الخليك، وكلوريد الزئبق، والفورمالديهايد، والميثانول، والغلوتارالديهايد**.', 'وتُستعمل هذه المواد **لحماية التركيب الداخلي الدقيق** للخلايا.']),
+ C(['This is useful for examination of **blood smears**.', 'The fixed smear is stained by appropriate staining technique.'], ['وهذا مفيد لفحص **مسحات الدم**.', 'ثم تُصبغ المسحة المثبّتة بتقنية التصبيغ المناسبة.']),
  T([B("Fixation", "التثبيت"), B("How", "كيف"), B("Preserves", "يحفظ")],
    [[B("**1. Heat fixation**", "**1. التثبيت الحراري**"), B("gently flame heating an air-dried film of bacteria (bacterial smears)", "تسخين لطيف باللهب لغشاء بكتيري مجفّف بالهواء (المسحات البكتيرية)"), B("overall morphology **but not structures within the cells**", "الشكل العام **لكن ليس التراكيب داخل الخلايا**")],
     [B("**2. Chemical fixation**", "**2. التثبيت الكيميائي**"), B("ethanol, acetic acid, mercuric chloride, formaldehyde, methanol and glutaraldehyde", "الإيثانول، وحمض الخليك، وكلوريد الزئبق، والفورمالديهايد، والميثانول، والغلوتارالديهايد"), B("the fine internal structure; useful for **blood smears**", "التركيب الداخلي الدقيق؛ مفيد لـ**مسحات الدم**")]],
@@ -160,11 +161,13 @@ blocks = [
  R("**Acid-fast stain:** It differentiates bacteria into **acid fast and nonacid fast** groups", "**صبغة الصمود للحامض:** تفرّق البكتيريا إلى مجموعتي **الصامدة للحامض وغير الصامدة**"),
  R("**Chromatic granules** from other bacteria that do not have them.", "**الحبيبات الملوّنة** عن البكتيريا الأخرى التي لا تملكها."),
  T([B("Technique", "التقنية"), B("Dye / method", "الصبغ / الطريقة"), B("Result / use", "النتيجة / الاستعمال")],
-   [[B("**Simple stain**", "**الصبغ البسيط**"), B("Basic dyes, such as methylene blue or basic fuchsin", "أصباغ قاعدية مثل أزرق المثيلين أو الفوكسين القاعدي"), B("color contrast, but the **same color to all the bacteria**", "تباين لوني، لكن **اللون نفسه لكل البكتيريا**")],
-    [B("**Negative staining**", "**الصبغ السلبي**"), B("bacterial suspension mixed with India ink or nigrosin", "يُمزج المعلّق البكتيري مع حبر الهند أو النيغروسين"), B("background **black**, unstained **capsule** stands out; for capsules that do not take simple stains", "الخلفية **سوداء** والمحفظة غير المصبوغة تبرز؛ للمحافظ التي لا تأخذ الأصباغ البسيطة")],
+   [[B("**Simple stain**", "**الصبغ البسيط**"), B("Basic dyes, such as methylene blue or basic fuchsin", "أصباغ قاعدية مثل أزرق المثيلين أو الفوكسين القاعدي"), B("color contrast, but the **same color to all the bacteria**", "تباين لوني، لكن **اللون نفسه لكل البكتيريا**")]],
+   key_cols=[0], widths=[22, 38, 40], style="summary", label_en="Staining — summary", label_ar="التصبيغ — خلاصة"),
+ T([B("Technique", "التقنية"), B("Dye / method", "الصبغ / الطريقة"), B("Result / use", "النتيجة / الاستعمال")],
+   [[B("**Negative staining**", "**الصبغ السلبي**"), B("bacterial suspension mixed with India ink or nigrosin", "يُمزج المعلّق البكتيري مع حبر الهند أو النيغروسين"), B("background **black**, unstained **capsule** stands out; for capsules that do not take simple stains", "الخلفية **سوداء** والمحفظة غير المصبوغة تبرز؛ للمحافظ التي لا تأخذ الأصباغ البسيطة")],
     [B("**Impregnation methods**", "**طرق التشريب**"), B("silver salts on the surface thicken thin cells and structures", "أملاح الفضة على السطح تُثخّن الخلايا والتراكيب الرقيقة"), B("bacterial **flagella and spirochetes**", "**الأسواط والملتويات** البكتيرية")],
     [B("**Differential stain**", "**الصبغ التفريقي**"), B("two stains give different colors", "صبغان يعطيان ألوانًا مختلفة"), B("1. **Gram** (G+ / G−); 2. **Acid-fast** (acid fast / non-acid fast); 3. **Chromatic granules**", "1. **كرام** (موجبة/سالبة)؛ 2. **الصامد للحامض**؛ 3. **الحبيبات الملوّنة**")]],
-   key_cols=[0], widths=[22, 38, 40], style="summary", label_en="Staining — summary", label_ar="التصبيغ — خلاصة"),
+   key_cols=[0], widths=[22, 38, 40], style="summary", label_en="Staining — summary (cont.)", label_ar="التصبيغ — خلاصة (تكملة)"),
  BN("Point 3 is cut in the lecture (\"Chromatic granules from other bacteria that do not have them\"): it means a stain that separates bacteria **with metachromatic (volutin) granules**, e.g. Corynebacterium (Albert stain), from those without.",
     "النقطة 3 مقطوعة في المحاضرة: والمقصود صبغ يميّز البكتيريا **ذات الحبيبات المتبدّلة اللون (الفولوتين)** مثل الوتدية (صبغة ألبرت) عن غيرها."),
  INSHORT([("See organisms on a smear only at **≥ 10⁵/mL**; growth on plates from **10²–10³/mL**.", "تُرى الأحياء في المسحة فقط عند **≥ 10⁵/مل**؛ والنمو على الأطباق من **10²–10³/مل**."),
@@ -198,10 +201,12 @@ blocks = [
     "وتغيّر الأس الهيدروجيني مؤشّر شائع على العملية الأيضية لأن الأدلّة تغيّر لونها مع الزيادة (القلوية)؛ ويساعد فحص اليورياز في تشخيص **أنواع المتقلّبة** وبكتيريا مهمة أخرى مثل **الوتدية المحلّلة لليوريا والملوية البوابية**."]),
  T([B("Test", "الفحص"), B("Enzyme → reaction", "الإنزيم ← التفاعل"), B("Reagent / medium", "الكاشف / الوسط"), B("Positive result", "النتيجة الموجبة"), B("Example", "مثال")],
    [[B("**Catalase**", "**الكاتاليز**"), B("H2O2 → H2O + O2", "H2O2 ← ماء + أكسجين"), B("Hydrogen peroxide", "بيروكسيد الهيدروجين"), B("**Bubbles**", "**فقاعات**"), "—"],
-    [B("**Oxidase**", "**الأوكسيديز**"), B("Cytochrome oxidase (electron transport)", "السايتوكروم أوكسيديز (نقل الإلكترونات)"), B("1% tetramethyl-p-phenylenediamine (flood or filter paper)", "1% تترامثيل بارا فينيلين ثنائي الأمين (غمر أو ورق ترشيح)"), B("**Purple**", "**بنفسجي**"), "—"],
-    [B("**Indole**", "**الإندول**"), B("Tryptophanase: tryptophan → indole", "التربتوفانيز: تربتوفان ← إندول"), B("Kovac’s reagent", "كاشف كوفاكس"), B("**Pink to red**", "**وردي إلى أحمر**"), "—"],
-    [B("**Urease**", "**اليورياز**"), B("Urea → ammonia (pH ↑)", "يوريا ← أمونيا (↑ pH)"), B("Stuart’s broth / Christensen’s agar", "مرق ستيوارت / آجار كريستنسن"), B("**pH indicator colour change (alkaline)**", "**تغيّر لون الدليل (قلوي)**"), B("Proteus, C. urealyticum, H. pylori", "المتقلّبة، والوتدية المحلّلة، والملوية البوابية")]],
+    [B("**Oxidase**", "**الأوكسيديز**"), B("Cytochrome oxidase (electron transport)", "السايتوكروم أوكسيديز (نقل الإلكترونات)"), B("1% tetramethyl-p-phenylenediamine (flood or filter paper)", "1% تترامثيل بارا فينيلين ثنائي الأمين (غمر أو ورق ترشيح)"), B("**Purple**", "**بنفسجي**"), "—"]],
    key_cols=[0], widths=[14, 22, 24, 20, 20], style="summary", label_en="Single enzyme tests", label_ar="فحوص الإنزيم المفرد"),
+ T([B("Test", "الفحص"), B("Enzyme → reaction", "الإنزيم ← التفاعل"), B("Reagent / medium", "الكاشف / الوسط"), B("Positive result", "النتيجة الموجبة"), B("Example", "مثال")],
+   [[B("**Indole**", "**الإندول**"), B("Tryptophanase: tryptophan → indole", "التربتوفانيز: تربتوفان ← إندول"), B("Kovac’s reagent", "كاشف كوفاكس"), B("**Pink to red**", "**وردي إلى أحمر**"), "—"],
+    [B("**Urease**", "**اليورياز**"), B("Urea → ammonia (pH ↑)", "يوريا ← أمونيا (↑ pH)"), B("Stuart’s broth / Christensen’s agar", "مرق ستيوارت / آجار كريستنسن"), B("**pH indicator colour change (alkaline)**", "**تغيّر لون الدليل (قلوي)**"), B("Proteus, C. urealyticum, H. pylori", "المتقلّبة، والوتدية المحلّلة، والملوية البوابية")]],
+   key_cols=[0], widths=[14, 22, 24, 20, 20], style="summary", label_en="Single enzyme tests (cont.)", label_ar="فحوص الإنزيم المفرد (تكملة)"),
  BN("The catalase equation in the lecture lost its symbols; it is **2H2O2 → 2H2O + O2**.", "معادلة الكاتاليز في المحاضرة ضاعت رموزها؛ وهي **2H2O2 ← 2H2O + O2**."),
  INSHORT([("**Catalase = bubbles**; **oxidase = purple**; **indole = pink-red (Kovac’s)**; **urease = alkaline colour change**.", "**الكاتاليز = فقاعات**؛ و**الأوكسيديز = بنفسجي**؛ و**الإندول = وردي-أحمر (كوفاكس)**؛ و**اليورياز = تغيّر لون قلوي**."),
           ("Urease-positive: **Proteus, C. urealyticum, H. pylori**.", "موجبة اليورياز: **المتقلّبة، والوتدية المحلّلة، والملوية البوابية**.")]),
@@ -262,7 +267,7 @@ blocks = [
     ["Cynthia Nau Cornelissen — Lippincott Illustrated Reviews Flash Cards MICROBIOLOGY", "2015 — Third Edition"],
     ["Prof.Dr.Mohammed Shammkhi Jeber — Notes of Diagnosis Microbiology", "2019"]],
    widths=[72, 28], label_en="As listed in the lecture", label_ar="كما في المحاضرة"),
-] + TERMS([
+] + TERMS6([
  ("Macroscopic / Microscopic observation", "الملاحظة العيانية / المجهرية"),
  ("Bright-field microscope", "المجهر ذو الحقل الساطع / المجهر الضوئي"),
  ("Phase-contrast microscope", "مجهر تباين الطور"),
@@ -357,5 +362,5 @@ meta = {"subject_en": "Diagnostic Microbiology", "subject_ar": "الأحياء �
         "department": "قسم التحليلات", "kind": "Theory — نظري", "stage": "The fourth stage — الرابعة", "instructor": "د. عدنان",
         "unit_en": "Lectures 7, 8, 9", "unit_ar": "المحاضرات 7 و8 و9", "unit_no": "7–9",
         "title_en": "Microbiological methods for identification of microorganisms", "title_ar": "الطرق الميكروبيولوجية لتشخيص الأحياء المجهرية",
-        "merge_questions": True, "file_name": "BIOS - بكتريا نظري المحاضرات 7 و8 و9 - الطرق الميكروبيولوجية لتشخيص الأحياء المجهرية - دمج"}
+        "file_name": "BIOS - بكتريا نظري المحاضرات 7 و8 و9"}
 save("bacteriology-lec7-9-identification", meta, blocks, mcq, tf, traps, important)

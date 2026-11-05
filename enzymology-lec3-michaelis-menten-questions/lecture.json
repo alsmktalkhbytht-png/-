@@ -1,0 +1,1601 @@
+{
+ "meta": {
+  "subject_en": "Clinical Enzymology",
+  "subject_ar": "الإنزيمات السريرية",
+  "short_ar": "انزيمات سريرية",
+  "instructor": "د. وليد مجيد",
+  "unit_en": "Lecture 3",
+  "unit_ar": "المحاضرة 3",
+  "unit_label": "LEC",
+  "unit_no": "3",
+  "title_en": "Michaelis-Menten equation — Questions",
+  "title_ar": "معادلة ميكالس-منتن — أسئلة",
+  "department": "قسم التحليلات",
+  "stage": "The fourth stage — الرابعة",
+  "kind": "Theory — نظري"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Michaelis-Menten equation",
+   "ar": "معادلة ميكالس-منتن"
+  },
+  {
+   "t": "card",
+   "en": "**Michaelis-Menten equation** — Lecture : QUESTIONS (2025 - 2026)",
+   "ar": "**معادلة ميكالس-منتن** — المحاضرة: أسئلة (2025 - 2026)"
+  },
+  {
+   "t": "eq",
+   "src": "assets/mm-equation.png",
+   "h": "15mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Symbol",
+     "الرمز"
+    ],
+    [
+     "Meaning",
+     "المعنى"
+    ],
+    [
+     "Unit in this lecture",
+     "الوحدة في هذه المحاضرة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**v₀**",
+      "v₀"
+     ],
+     [
+      "initial velocity of the reaction",
+      "السرعة الابتدائية للتفاعل"
+     ],
+     [
+      "mmol/L.min⁻¹",
+      "ملي مول/لتر.دقيقة"
+     ]
+    ],
+    [
+     [
+      "**Vmax**",
+      "Vmax"
+     ],
+     [
+      "maximum velocity",
+      "السرعة القصوى"
+     ],
+     [
+      "mmol/L.min⁻¹",
+      "ملي مول/لتر.دقيقة"
+     ]
+    ],
+    [
+     [
+      "**[S]**",
+      "[S]"
+     ],
+     [
+      "substrate concentration",
+      "تركيز المادة الأساس"
+     ],
+     [
+      "mmol/L",
+      "ملي مول/لتر"
+     ]
+    ],
+    [
+     [
+      "**Km**",
+      "Km"
+     ],
+     [
+      "Michaelis constant = [S] that gives v₀ = Vmax/2",
+      "ثابت ميكالس = تركيز المادة الأساس الذي يعطي نصف السرعة القصوى"
+     ],
+     [
+      "mmol/L",
+      "ملي مول/لتر"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    16,
+    50,
+    34
+   ],
+   "style": "summary",
+   "label_en": "What the letters mean (BIOS)",
+   "label_ar": "معنى الرموز (BIOS)"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "To find",
+     "المطلوب"
+    ],
+    [
+     "Rearranged equation",
+     "المعادلة بعد الترتيب"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Km**",
+      "Km"
+     ],
+     [
+      "`Km = (Vmax × [S] / v₀) − [S]`",
+      "`Km = (Vmax × [S] / v₀) − [S]`"
+     ]
+    ],
+    [
+     [
+      "**Vmax**",
+      "Vmax"
+     ],
+     [
+      "`Vmax = v₀ × (Km + [S]) / [S]`",
+      "`Vmax = v₀ × (Km + [S]) / [S]`"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    18,
+    82
+   ],
+   "style": "summary",
+   "label_en": "One equation, four forms (BIOS)",
+   "label_ar": "معادلة واحدة بأربع صيغ (BIOS)"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "To find",
+     "المطلوب"
+    ],
+    [
+     "Rearranged equation",
+     "المعادلة بعد الترتيب"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**[S]**",
+      "[S]"
+     ],
+     [
+      "`[S] = v₀ × Km / (Vmax − v₀)`",
+      "`[S] = v₀ × Km / (Vmax − v₀)`"
+     ]
+    ],
+    [
+     [
+      "**v₀**",
+      "v₀"
+     ],
+     [
+      "`v₀ = Vmax × [S] / (Km + [S])`",
+      "`v₀ = Vmax × [S] / (Km + [S])`"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    18,
+    82
+   ],
+   "style": "summary",
+   "label_en": "One equation, four forms (cont.)",
+   "label_ar": "معادلة واحدة بأربع صيغ (تكملة)"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Write the **given** values first (S1, v₀₁, Vmax, Km…), then put them in **v₀ = Vmax[S] / (Km + [S])**.",
+    "Keep the units the same: [S] and Km in **mmol/L**, velocities in **mmol/L.min⁻¹**.",
+    "If **v₀ = Vmax/2** then **[S] = Km**."
+   ],
+   "ar": [
+    "اكتب **المعطيات** أولًا (S1، v₀₁، Vmax، Km…)، ثم عوّضها في `v₀ = Vmax[S] / (Km + [S])`.",
+    "وحّد الوحدات: [S] وKm بـ**ملي مول/لتر**، والسرع بـ**ملي مول/لتر.دقيقة**.",
+    "إذا كانت `v₀ = Vmax/2` فإن `[S] = Km`."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Q1 — Km",
+   "ar": "س1 — حساب Km"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Q1-** An enzyme hydrolyzed a substrate concentration of 0.03 mmol/L ,the initial velocity was 1.5x10⁻³ mmol/L.min-1 and the maximum velocity was 4.5x10⁻³ mmol/L.min⁻¹ .",
+    "Calculate the km value."
+   ],
+   "ar": [
+    "**س1-** حلمأ إنزيم مادة أساس تركيزها **0.03 ملي مول/لتر**، وكانت السرعة الابتدائية **1.5×10⁻³** ملي مول/لتر.دقيقة، والسرعة القصوى **4.5×10⁻³** ملي مول/لتر.دقيقة.",
+    "احسب قيمة **Km**."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Given (from the slide)",
+     "المعطيات (من الشريحة)"
+    ],
+    [
+     "Given",
+     "المعطيات"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**`S1= 0.03`** — substrate concentration (mmol/L)",
+      "`S1 = 0.03` — تركيز المادة الأساس (ملي مول/لتر)"
+     ],
+     [
+      "**`Vo1= 1.5×10-3`** — initial velocity",
+      "`Vo1 = 1.5×10⁻³` — السرعة الابتدائية"
+     ]
+    ],
+    [
+     [
+      "**`Vmax= 4.5×10-3`** — maximum velocity",
+      "`Vmax = 4.5×10⁻³` — السرعة القصوى"
+     ],
+     [
+      "**`Km =?`** — required",
+      "`Km = ؟` — المطلوب"
+     ]
+    ]
+   ],
+   "widths": [
+    50,
+    50
+   ],
+   "style": "summary",
+   "label_en": "Given",
+   "label_ar": "المعطيات"
+  },
+  {
+   "t": "card",
+   "en": "**Solution**",
+   "ar": "**الحل**",
+   "list_en": [
+    "`1.5×10⁻³ = 4.5×10⁻³ × 0.03 / (Km + 0.03)`",
+    "`Km + 0.03 = 4.5×10⁻³ × 0.03 / 1.5×10⁻³`",
+    "`Km + 0.03 = 0.135×10⁻³ / 1.5×10⁻³`",
+    "`Km + 0.03 = 0.09`",
+    "`Km = 0.06`"
+   ],
+   "list_ar": [
+    "نعوّض في المعادلة: `1.5×10⁻³ = 4.5×10⁻³ × 0.03 / (Km + 0.03)`",
+    "نبادل الطرفين (ضرب تبادلي): `Km + 0.03 = 4.5×10⁻³ × 0.03 / 1.5×10⁻³`",
+    "نضرب البسط: `Km + 0.03 = 0.135×10⁻³ / 1.5×10⁻³`",
+    "نقسم: `Km + 0.03 = 0.09`",
+    "نطرح 0.03: **`Km = 0.06`** ملي مول/لتر"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Answer: **Km = 0.06 mmol/L**.",
+    "Quick check: v₀ / Vmax = 1.5 / 4.5 = **1/3** → [S] / (Km + [S]) = 1/3 → Km = **2 × [S]**."
+   ],
+   "ar": [
+    "الجواب: **Km = 0.06 ملي مول/لتر**.",
+    "تحقّق سريع: `v₀ / Vmax = 1.5 / 4.5 = 1/3 → [S] / (Km + [S]) = 1/3 → Km = 2 × [S]`."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Q2 — Vmax",
+   "ar": "س2 — حساب Vmax"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Q2-** Urease enzyme hydrolyzed urea at [S]= 0.03 mmol/L with a Km value of around 0.06 mmol/L.",
+    "The initial velocity observed was 1.5x10⁻³mmol/L.min⁻¹ .",
+    "Calculate the maximum velocity of the enzymatic reaction"
+   ],
+   "ar": [
+    "**س2-** حلمأ إنزيم **اليورييز** اليوريا عند **[S] = 0.03 ملي مول/لتر** بقيمة Km حوالي **0.06 ملي مول/لتر**.",
+    "وكانت السرعة الابتدائية الملاحظة **1.5×10⁻³** ملي مول/لتر.دقيقة.",
+    "احسب **السرعة القصوى** للتفاعل الإنزيمي"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Given (from the slide)",
+     "المعطيات (من الشريحة)"
+    ],
+    [
+     "Given",
+     "المعطيات"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**`S1= 0.03`** — substrate concentration (mmol/L)",
+      "`S1 = 0.03` — تركيز المادة الأساس (ملي مول/لتر)"
+     ],
+     [
+      "**`Km= 0.06`** — Michaelis constant (mmol/L)",
+      "`Km = 0.06` — ثابت ميكالس (ملي مول/لتر)"
+     ]
+    ],
+    [
+     [
+      "**`Vo1= 1.5×10-3`** — initial velocity",
+      "`Vo1 = 1.5×10⁻³` — السرعة الابتدائية"
+     ],
+     [
+      "**`Vmax=?`** — required",
+      "`Vmax = ؟` — المطلوب"
+     ]
+    ]
+   ],
+   "widths": [
+    50,
+    50
+   ],
+   "style": "summary",
+   "label_en": "Given",
+   "label_ar": "المعطيات"
+  },
+  {
+   "t": "card",
+   "en": "**Solution**",
+   "ar": "**الحل**",
+   "list_en": [
+    "`1.5×10⁻³ = Vmax × 0.03 / (0.06 + 0.03)`",
+    "`Vmax = 1.5×10⁻³ × 3`",
+    "`= 4.5×10⁻³`"
+   ],
+   "list_ar": [
+    "نعوّض في المعادلة: `1.5×10⁻³ = Vmax × 0.03 / (0.06 + 0.03)`",
+    "لأن `0.09 / 0.03 = 3`: `Vmax = 1.5×10⁻³ × 3`",
+    "**`Vmax = 4.5×10⁻³`** ملي مول/لتر.دقيقة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Answer: **Vmax = 4.5×10⁻³ mmol/L.min⁻¹** — the same enzyme numbers as Q1, asked the other way round."
+   ],
+   "ar": [
+    "الجواب: **Vmax = 4.5×10⁻³ ملي مول/لتر.دقيقة** — نفس أرقام س1 لكن بالعكس."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Q3 — [S] for a new velocity",
+   "ar": "س3 — تركيز المادة لسرعة جديدة"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Q3-** An enzyme with a Km of 0.06 mmol/L hydrolyzed a substrate of a concentration 0.03 mmol/L.",
+    "The initial velocity of the reaction was 0.0015 mmol/L.min⁻¹ .",
+    "Calculate the substrate concentration which gives an initial velocity of 0.003 mmol/L.min⁻¹."
+   ],
+   "ar": [
+    "**س3-** حلمأ إنزيم قيمة Km له **0.06 ملي مول/لتر** مادة أساس تركيزها **0.03 ملي مول/لتر**.",
+    "وكانت السرعة الابتدائية للتفاعل **0.0015** ملي مول/لتر.دقيقة.",
+    "احسب **تركيز المادة الأساس** الذي يعطي سرعة ابتدائية مقدارها **0.003** ملي مول/لتر.دقيقة."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Given (from the slide)",
+     "المعطيات (من الشريحة)"
+    ],
+    [
+     "Given",
+     "المعطيات"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**`S1= 0.03`** — first substrate concentration",
+      "`S1 = 0.03` — التركيز الأول للمادة الأساس"
+     ],
+     [
+      "**`Km= 0.06`** — Michaelis constant",
+      "`Km = 0.06` — ثابت ميكالس"
+     ]
+    ],
+    [
+     [
+      "**`Vo1= 1.5×10-3`** — first initial velocity",
+      "`Vo1 = 1.5×10⁻³` — السرعة الابتدائية الأولى"
+     ],
+     [
+      "**`Vo2= 3 ×10-3`** — second (new) velocity",
+      "`Vo2 = 3×10⁻³` — السرعة الثانية (الجديدة)"
+     ]
+    ],
+    [
+     [
+      "**`S2 =?`** — required",
+      "`S2 = ؟` — المطلوب"
+     ],
+     [
+      "",
+      ""
+     ]
+    ]
+   ],
+   "widths": [
+    50,
+    50
+   ],
+   "style": "summary",
+   "label_en": "Given",
+   "label_ar": "المعطيات"
+  },
+  {
+   "t": "card",
+   "en": "**Solution**",
+   "ar": "**الحل**",
+   "list_en": [
+    "`1.5×10⁻³ = Vmax × 0.03 / (0.06 + 0.03)`",
+    "`Vmax = 1.5×10⁻³ × 3 = 4.5×10⁻³`",
+    "`3×10⁻³ = 4.5×10⁻³ × S2 / (0.06 + S2)`",
+    "`S2 = 0.12 mmol/L`"
+   ],
+   "list_ar": [
+    "أولًا نحسب Vmax: `1.5×10⁻³ = Vmax × 0.03 / (0.06 + 0.03)`",
+    "`Vmax = 1.5×10⁻³ × 3 = 4.5×10⁻³`",
+    "ثم نعوّض السرعة الجديدة: `3×10⁻³ = 4.5×10⁻³ × S2 / (0.06 + S2)`",
+    "**`S2 = 0.12`** ملي مول/لتر"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "Between the last two lines: 3 (0.06 + S2) = 4.5 S2 → 0.18 = 1.5 S2 → S2 = 0.12.",
+   "ar": "بين السطرين الأخيرين: `3 (0.06 + S2) = 4.5 S2 → 0.18 = 1.5 S2 → S2 = 0.12`.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Two steps: **find Vmax first**, then use the new v₀ to find **S2 = 0.12 mmol/L**."
+   ],
+   "ar": [
+    "خطوتان: **احسب Vmax أولًا**، ثم استعمل السرعة الجديدة لتجد **S2 = 0.12 ملي مول/لتر**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Q4 — v₀ at a new [S]",
+   "ar": "س4 — السرعة عند تركيز جديد"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Q4-** Urease enzyme hydrolyzed urea at [S]= 0.03 mmol/L with a Km value of around 0.06 mmol/L.",
+    "The initial velocity observed was 1.5x10⁻³ mmol/L.min⁻¹ .",
+    "Calculate the initial velocity of the enzymatic reaction when using [S]= 0.12 mmol/L."
+   ],
+   "ar": [
+    "**س4-** حلمأ إنزيم **اليورييز** اليوريا عند **[S] = 0.03 ملي مول/لتر** بقيمة Km حوالي **0.06 ملي مول/لتر**.",
+    "وكانت السرعة الابتدائية الملاحظة **1.5×10⁻³** ملي مول/لتر.دقيقة.",
+    "احسب **السرعة الابتدائية** للتفاعل الإنزيمي عند استعمال **[S] = 0.12 ملي مول/لتر**."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Given (from the slide)",
+     "المعطيات (من الشريحة)"
+    ],
+    [
+     "Given",
+     "المعطيات"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**`S1= 0.03`** — first substrate concentration",
+      "`S1 = 0.03` — التركيز الأول للمادة الأساس"
+     ],
+     [
+      "**`Km= 0.06`** — Michaelis constant",
+      "`Km = 0.06` — ثابت ميكالس"
+     ]
+    ],
+    [
+     [
+      "**`Vo1= 1.5×10-3`** — first initial velocity",
+      "`Vo1 = 1.5×10⁻³` — السرعة الابتدائية الأولى"
+     ],
+     [
+      "**`S2=0.12`** — new substrate concentration",
+      "`S2 = 0.12` — التركيز الجديد"
+     ]
+    ],
+    [
+     [
+      "**`Vo2=?`** — required",
+      "`Vo2 = ؟` — المطلوب"
+     ],
+     [
+      "",
+      ""
+     ]
+    ]
+   ],
+   "widths": [
+    50,
+    50
+   ],
+   "style": "summary",
+   "label_en": "Given",
+   "label_ar": "المعطيات"
+  },
+  {
+   "t": "card",
+   "en": "**Solution**",
+   "ar": "**الحل**",
+   "list_en": [
+    "`1.5×10⁻³ = Vmax × 0.03 / (0.06 + 0.03)`",
+    "`Vmax = 1.5×10⁻³ × 3 = 4.5×10⁻³`",
+    "`Vo2 = 4.5×10⁻³ × 0.12 / (0.06 + 0.12)`",
+    "`Vo2 = 3×10⁻³`"
+   ],
+   "list_ar": [
+    "أولًا نحسب Vmax: `1.5×10⁻³ = Vmax × 0.03 / (0.06 + 0.03)`",
+    "`Vmax = 1.5×10⁻³ × 3 = 4.5×10⁻³`",
+    "نعوّض التركيز الجديد: `Vo2 = 4.5×10⁻³ × 0.12 / (0.06 + 0.12)`",
+    "**`Vo2 = 3×10⁻³`** ملي مول/لتر.دقيقة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Q4 is **Q3 reversed**: [S] = 0.12 mmol/L gives **v₀ = 3×10⁻³** (2/3 of Vmax)."
+   ],
+   "ar": [
+    "س4 هو **س3 بالعكس**: [S] = 0.12 ملي مول/لتر يعطي **v₀ = 3×10⁻³** (ثلثا Vmax)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Q3 (second slide) — [S]",
+   "ar": "س3 (الشريحة الثانية) — التركيز"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Q3** An enzyme hydrolyzed a substrate concentration of 0.03 mmol/L ,the initial velocity was 1.5x10⁻³ mmol/L.min⁻¹ and the maximum velocity was 4.5x10-3 mmol/L.min⁻¹ .",
+    "Calculate the substrate concentration that gives a velocity of 3x10⁻³ mmol/L.min-1 ."
+   ],
+   "ar": [
+    "**س3** حلمأ إنزيم مادة أساس تركيزها **0.03 ملي مول/لتر**، وكانت السرعة الابتدائية **1.5×10⁻³** والسرعة القصوى **4.5×10⁻³** ملي مول/لتر.دقيقة.",
+    "احسب تركيز المادة الأساس الذي يعطي سرعة **3×10⁻³** ملي مول/لتر.دقيقة."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Given (from the slide)",
+     "المعطيات (من الشريحة)"
+    ],
+    [
+     "Given",
+     "المعطيات"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**`S1= 0.03`** — first substrate concentration",
+      "`S1 = 0.03` — التركيز الأول للمادة الأساس"
+     ],
+     [
+      "**`Vo1= 1.5×10-3`** — first initial velocity",
+      "`Vo1 = 1.5×10⁻³` — السرعة الابتدائية الأولى"
+     ]
+    ],
+    [
+     [
+      "**`Vmax= 4.5×10-3`** — maximum velocity",
+      "`Vmax = 4.5×10⁻³` — السرعة القصوى"
+     ],
+     [
+      "**`Vo2= 3 ×10-3`** — new velocity",
+      "`Vo2 = 3×10⁻³` — السرعة الجديدة"
+     ]
+    ],
+    [
+     [
+      "**`S2 =?`** — required",
+      "`S2 = ؟` — المطلوب"
+     ],
+     [
+      "",
+      ""
+     ]
+    ]
+   ],
+   "widths": [
+    50,
+    50
+   ],
+   "style": "summary",
+   "label_en": "Given",
+   "label_ar": "المعطيات"
+  },
+  {
+   "t": "note",
+   "en": [
+    "The slide leaves this one unsolved; here Km is unknown, so find **Km first** (as in Q1): 1.5×10⁻³ = 4.5×10⁻³ × 0.03 / (Km + 0.03) → **Km = 0.06**.",
+    "Then: 3×10⁻³ = 4.5×10⁻³ × S2 / (0.06 + S2) → 3 (0.06 + S2) = 4.5 S2 → 0.18 = 1.5 S2 → **S2 = 0.12 mmol/L**."
+   ],
+   "ar": [
+    "الشريحة تركت هذا السؤال بلا حل؛ وهنا Km مجهول فنحسب **Km أولًا** (مثل س1): `1.5×10⁻³ = 4.5×10⁻³ × 0.03 / (Km + 0.03) → Km = 0.06`.",
+    "ثم: `3×10⁻³ = 4.5×10⁻³ × S2 / (0.06 + S2) → 0.18 = 1.5 S2 → S2 = 0.12 mmol/L`."
+   ],
+   "label": [
+    "BIOS solution",
+    "حل BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Same answer as the first Q3: **S2 = 0.12 mmol/L** — but here you find **Km** first, not Vmax."
+   ],
+   "ar": [
+    "نفس جواب س3 الأول: **S2 = 0.12 ملي مول/لتر** — لكن هنا تحسب **Km** أولًا لا Vmax."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Exercise — missing [S] values",
+   "ar": "تمرين — قيم [S] المفقودة"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**1.** Use the Michaelis-Menton Equation to calculate the missing values of [S] given below if Vmax = 5 mmol/min.",
+    "Plot [S] versus V .",
+    "Draw line parallel to the x-axis at Vmax and extend your plotted line to show its approach to Vmax."
+   ],
+   "ar": [
+    "**1.** استعمل معادلة ميكالس-منتن لحساب قيم [S] المفقودة أدناه إذا كانت **Vmax = 5 ملي مول/دقيقة**.",
+    "ارسم [S] مقابل V .",
+    "ارسم خطًا موازيًا للمحور السيني عند Vmax ومدّ الخط المرسوم ليُظهر اقترابه من Vmax."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "[S] (mM)",
+     "[S] (ملي مولار)"
+    ],
+    [
+     "V (mmol/min)",
+     "V (ملي مول/دقيقة)"
+    ],
+    [
+     "BIOS answer",
+     "جواب BIOS"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "10",
+      "10"
+     ],
+     [
+      "1.2",
+      "1.2"
+     ],
+     [
+      "given → Km = 31.67 mM",
+      "معطى ← Km = 31.67"
+     ]
+    ],
+    [
+     [
+      "[S]₁",
+      "[S]₁"
+     ],
+     [
+      "1.7",
+      "1.7"
+     ],
+     [
+      "**16.31 mM**",
+      "**16.31**"
+     ]
+    ],
+    [
+     [
+      "[S]₂",
+      "[S]₂"
+     ],
+     [
+      "2.1",
+      "2.1"
+     ],
+     [
+      "**22.93 mM**",
+      "**22.93**"
+     ]
+    ],
+    [
+     [
+      "[S]₃",
+      "[S]₃"
+     ],
+     [
+      "2.2",
+      "2.2"
+     ],
+     [
+      "**24.88 mM**",
+      "**24.88**"
+     ]
+    ],
+    [
+     [
+      "[S]₄",
+      "[S]₄"
+     ],
+     [
+      "2.5",
+      "2.5"
+     ],
+     [
+      "**31.67 mM** (= Km, because V = Vmax/2)",
+      "**31.67** (= Km لأن V = Vmax/2)"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    26,
+    52
+   ]
+  },
+  {
+   "t": "note",
+   "en": "The file gives no answer; first find Km from the known row: 1.2 = 5 × 10 / (Km + 10) → Km + 10 = 41.67 → **Km = 31.67 mM**.",
+   "ar": "الملف لا يعطي جوابًا؛ نحسب Km أولًا من الصف المعلوم: `1.2 = 5 × 10 / (Km + 10) → Km + 10 = 41.67 → Km = 31.67 mM`.",
+   "label": [
+    "BIOS solution",
+    "حل BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "Then for every V: **[S] = V × Km / (Vmax − V)**, e.g. [S]₁ = 1.7 × 31.67 / 3.3 = **16.31 mM**.",
+   "ar": "ثم لكل V: `[S] = V × Km / (Vmax − V)`، مثلًا `[S]₁ = 1.7 × 31.67 / 3.3 = 16.31 mM`.",
+   "label": [
+    "BIOS solution",
+    "حل BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "“Michaelis-Menton” in the slide = **Michaelis-Menten**.",
+   "ar": "“Michaelis-Menton” في الشريحة أي **Michaelis-Menten**.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/mm-plot.png",
+   "en": "BIOS plot of the exercise: V against [S] with the dashed line at Vmax = 5 mmol/min; the curve approaches Vmax but never reaches it; at V = Vmax/2 = 2.5, [S] = Km ≈ 31.7 mM",
+   "ar": "رسم BIOS للتمرين: V مقابل [S] مع الخط المتقطّع عند Vmax = 5 ملي مول/دقيقة؛ المنحني يقترب من Vmax ولا يصلها؛ وعند V = Vmax/2 = 2.5 يكون [S] = Km ≈ 31.7 ملي مولار",
+   "h": "70mm",
+   "fit": "contain"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Use the **known row** to get Km, then **[S] = V·Km / (Vmax − V)** for the rest.",
+    "The curve is a **hyperbola**: it rises fast, then flattens and **approaches Vmax** without reaching it.",
+    "**V = Vmax/2 ↔ [S] = Km** — the last row of the table proves it."
+   ],
+   "ar": [
+    "استعمل **الصف المعلوم** لإيجاد Km، ثم `[S] = V·Km / (Vmax − V)` للبقية.",
+    "المنحني **قطع زائد**: يرتفع بسرعة ثم يتسطّح و**يقترب من Vmax** دون أن يصلها.",
+    "`V = Vmax/2 ↔ [S] = Km` — والصف الأخير من الجدول يثبت ذلك."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Michaelis-Menten equation**",
+     "معادلة ميكالس-منتن / معادلة ميكايلس-مينتن"
+    ],
+    [
+     "**Initial velocity (v₀)**",
+     "السرعة الابتدائية / سرعة التفاعل الأولية"
+    ],
+    [
+     "**Maximum velocity (Vmax)**",
+     "السرعة القصوى / أقصى سرعة للتفاعل"
+    ],
+    [
+     "**Michaelis constant (Km)**",
+     "ثابت ميكالس / ثابت ميكايلس"
+    ],
+    [
+     "**Substrate concentration [S]**",
+     "تركيز المادة الأساس / تركيز الركيزة"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Hydrolyze**",
+     "يحلمئ / يحلّل مائيًا"
+    ],
+    [
+     "**Urease**",
+     "اليورييز / إنزيم تحليل اليوريا"
+    ],
+    [
+     "**mmol/L.min⁻¹**",
+     "ملي مول لكل لتر في الدقيقة"
+    ],
+    [
+     "**Hyperbola**",
+     "القطع الزائد / منحني زائدي"
+    ],
+    [
+     "**Enzymatic reaction**",
+     "التفاعل الإنزيمي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "The equation",
+    "topic_ar": "المعادلة"
+   },
+   {
+    "en": "In the Michaelis-Menten equation, v₀ =",
+    "ar": "في معادلة ميكالس-منتن، `v₀ =`",
+    "options": [
+     [
+      "(Km + [S]) / Vmax[S]",
+      "`(Km + [S]) / Vmax[S]`"
+     ],
+     [
+      "Km[S] / (Vmax + [S])",
+      "`Km[S] / (Vmax + [S])`"
+     ],
+     [
+      "Vmax / [S]",
+      "`Vmax / [S]`"
+     ],
+     [
+      "Vmax[S] / (Km + [S])",
+      "`Vmax[S] / (Km + [S])`"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Km is the substrate concentration that gives:",
+    "ar": "`Km` هو تركيز المادة الأساس الذي يعطي:",
+    "options": [
+     [
+      "Half of Vmax",
+      "نصف `Vmax`"
+     ],
+     [
+      "Vmax",
+      "`Vmax`"
+     ],
+     [
+      "Zero velocity",
+      "سرعة صفر"
+     ],
+     [
+      "Twice Vmax",
+      "ضعف `Vmax`"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Km is expressed in units of:",
+    "ar": "يُعبّر عن `Km` بوحدات:",
+    "options": [
+     [
+      "mmol/L.min⁻¹",
+      "ملي مول/لتر.دقيقة"
+     ],
+     [
+      "min",
+      "دقيقة"
+     ],
+     [
+      "mmol/L (concentration)",
+      "ملي مول/لتر (تركيز)"
+     ],
+     [
+      "No units",
+      "بلا وحدات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "To calculate [S] when v₀, Vmax and Km are known:",
+    "ar": "لحساب `[S]` عند معرفة `v₀` و`Vmax` و`Km`:",
+    "options": [
+     [
+      "[S] = Vmax × Km / v₀",
+      "`[S] = Vmax × Km / v₀`"
+     ],
+     [
+      "[S] = v₀ × Km / (Vmax − v₀)",
+      "`[S] = v₀ × Km / (Vmax − v₀)`"
+     ],
+     [
+      "[S] = Km / v₀",
+      "`[S] = Km / v₀`"
+     ],
+     [
+      "[S] = v₀ × Vmax / Km",
+      "`[S] = v₀ × Vmax / Km`"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "When [S] is much higher than Km, v₀ approaches:",
+    "ar": "عندما يكون `[S]` أكبر بكثير من `Km` تقترب `v₀` من:",
+    "options": [
+     [
+      "Vmax",
+      "`Vmax`"
+     ],
+     [
+      "Zero",
+      "الصفر"
+     ],
+     [
+      "Km",
+      "`Km`"
+     ],
+     [
+      "Vmax/2",
+      "`Vmax/2`"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The Michaelis-Menten plot of v₀ against [S] is a:",
+    "ar": "منحني ميكالس-منتن لـ `v₀` مقابل `[S]` هو:",
+    "options": [
+     [
+      "Straight line",
+      "خط مستقيم"
+     ],
+     [
+      "Hyperbola approaching Vmax",
+      "قطع زائد يقترب من `Vmax`"
+     ],
+     [
+      "Bell-shaped curve",
+      "منحني جرسي"
+     ],
+     [
+      "Horizontal line",
+      "خط أفقي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Q1 – Q4 of the lecture",
+    "topic_ar": "أسئلة المحاضرة 1 – 4"
+   },
+   {
+    "en": "Q1: [S] = 0.03 mmol/L, v₀ = 1.5×10⁻³, Vmax = 4.5×10⁻³. Km =",
+    "ar": "س1: `[S] = 0.03`، `v₀ = 1.5×10⁻³`، `Vmax = 4.5×10⁻³. Km =`",
+    "options": [
+     [
+      "0.03 mmol/L",
+      "0.03"
+     ],
+     [
+      "0.09 mmol/L",
+      "0.09"
+     ],
+     [
+      "0.12 mmol/L",
+      "0.12"
+     ],
+     [
+      "0.06 mmol/L",
+      "0.06"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In Q1, the step “Km + 0.03 = 0.09” comes from:",
+    "ar": "في س1، الخطوة “`Km + 0.03 = 0.09`” تأتي من:",
+    "options": [
+     [
+      "1.5×10⁻³ / 0.03",
+      "1.5×10⁻³ / 0.03"
+     ],
+     [
+      "4.5×10⁻³ − 1.5×10⁻³",
+      "4.5×10⁻³ − 1.5×10⁻³"
+     ],
+     [
+      "0.135×10⁻³ / 1.5×10⁻³",
+      "0.135×10⁻³ / 1.5×10⁻³"
+     ],
+     [
+      "0.03 × 3",
+      "0.03 × 3 فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Q2: urease, [S] = 0.03, Km = 0.06, v₀ = 1.5×10⁻³. Vmax =",
+    "ar": "س2: اليورييز، `[S] = 0.03`، `Km = 0.06`، `v₀ = 1.5×10⁻³. Vmax =`",
+    "options": [
+     [
+      "3×10⁻³ mmol/L.min⁻¹",
+      "3×10⁻³"
+     ],
+     [
+      "4.5×10⁻³ mmol/L.min⁻¹",
+      "4.5×10⁻³"
+     ],
+     [
+      "1.5×10⁻³ mmol/L.min⁻¹",
+      "1.5×10⁻³"
+     ],
+     [
+      "9×10⁻³ mmol/L.min⁻¹",
+      "9×10⁻³"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In Q2, Vmax = v₀ × 3 because:",
+    "ar": "في س2، `Vmax = v₀ × 3` لأن:",
+    "options": [
+     [
+      "Km = 3[S]",
+      "`Km = 3[S]`"
+     ],
+     [
+      "[S] = 3 Km",
+      "`[S] = 3 Km`"
+     ],
+     [
+      "Vmax is always 3 v₀",
+      "`Vmax` دائمًا 3 أضعاف `v₀`"
+     ],
+     [
+      "(Km + [S]) / [S] = 0.09 / 0.03 = 3",
+      "`(Km + [S]) / [S] = 0.09 / 0.03 = 3`"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Q3: Km = 0.06, [S] = 0.03, v₀ = 0.0015. The [S] that gives v₀ = 0.003 is:",
+    "ar": "س3: `Km = 0.06`، `[S] = 0.03`، `v₀ = 0.0015`. التركيز الذي يعطي `v₀ = 0.003`:",
+    "options": [
+     [
+      "0.06 mmol/L",
+      "0.06"
+     ],
+     [
+      "0.09 mmol/L",
+      "0.09"
+     ],
+     [
+      "0.12 mmol/L",
+      "0.12"
+     ],
+     [
+      "0.24 mmol/L",
+      "0.24"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In Q3, the first thing to calculate is:",
+    "ar": "في س3، أول ما يُحسب هو:",
+    "options": [
+     [
+      "Vmax",
+      "`Vmax`"
+     ],
+     [
+      "Km",
+      "`Km`"
+     ],
+     [
+      "v₀₂",
+      "`v₀₂`"
+     ],
+     [
+      "S2",
+      "`S2`"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Q4: same urease data, [S] = 0.12 mmol/L. v₀ =",
+    "ar": "س4: نفس معطيات اليورييز، `[S] = 0.12. v₀ =`",
+    "options": [
+     [
+      "1.5×10⁻³ mmol/L.min⁻¹",
+      "1.5×10⁻³"
+     ],
+     [
+      "4.5×10⁻³ mmol/L.min⁻¹",
+      "4.5×10⁻³"
+     ],
+     [
+      "3×10⁻³ mmol/L.min⁻¹",
+      "3×10⁻³"
+     ],
+     [
+      "6×10⁻³ mmol/L.min⁻¹",
+      "6×10⁻³"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In Q4, v₀ at [S] = 0.12 is what fraction of Vmax?",
+    "ar": "في س4، السرعة عند `[S] = 0.12` كم جزءًا من `Vmax`؟",
+    "options": [
+     [
+      "2/3",
+      "الثلثان"
+     ],
+     [
+      "1/3",
+      "الثلث"
+     ],
+     [
+      "1/2",
+      "النصف"
+     ],
+     [
+      "All of it",
+      "كلها"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In the second Q3 (Km not given), Km is first found to be:",
+    "ar": "في س3 الثاني `(Km` غير معطى)، نجد `Km` أولًا ويساوي:",
+    "options": [
+     [
+      "0.03 mmol/L",
+      "0.03"
+     ],
+     [
+      "0.06 mmol/L",
+      "0.06"
+     ],
+     [
+      "0.12 mmol/L",
+      "0.12"
+     ],
+     [
+      "0.09 mmol/L",
+      "0.09"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "The table exercise",
+    "topic_ar": "تمرين الجدول"
+   },
+   {
+    "en": "Exercise: Vmax = 5 mmol/min and [S] = 10 mM gives V = 1.2. Km is about:",
+    "ar": "التمرين: `Vmax = 5` و`[S] = 10` يعطي `V = 1.2`. قيمة `Km` تقريبًا:",
+    "options": [
+     [
+      "10 mM",
+      "10"
+     ],
+     [
+      "41.7 mM",
+      "41.7"
+     ],
+     [
+      "2.5 mM",
+      "2.5"
+     ],
+     [
+      "31.7 mM",
+      "31.7"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In the exercise, [S] for V = 2.5 mmol/min equals:",
+    "ar": "في التمرين، `[S]` عند `V = 2.5` يساوي:",
+    "options": [
+     [
+      "Km (≈ 31.7 mM)",
+      "`Km` (≈ 31.7)"
+     ],
+     [
+      "10 mM",
+      "10"
+     ],
+     [
+      "Vmax",
+      "`Vmax`"
+     ],
+     [
+      "Zero",
+      "صفر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In the exercise, [S]₁ for V = 1.7 mmol/min is about:",
+    "ar": "في التمرين، `[S]₁` عند `V = 1.7` تقريبًا:",
+    "options": [
+     [
+      "10 mM",
+      "10"
+     ],
+     [
+      "31.7 mM",
+      "31.7"
+     ],
+     [
+      "22.9 mM",
+      "22.9"
+     ],
+     [
+      "16.3 mM",
+      "16.3"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The line drawn parallel to the x-axis in the exercise is at:",
+    "ar": "الخط الموازي للمحور السيني في التمرين يكون عند:",
+    "options": [
+     [
+      "Km",
+      "`Km`"
+     ],
+     [
+      "Vmax/2",
+      "`Vmax/2`"
+     ],
+     [
+      "Vmax",
+      "`Vmax`"
+     ],
+     [
+      "[S] = 10",
+      "`[S] = 10`"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this equation, Km stands for:",
+    "ar": "في هذه المعادلة، `Km` يعني:",
+    "options": [
+     [
+      "Maximum velocity",
+      "السرعة القصوى"
+     ],
+     [
+      "The Michaelis constant",
+      "ثابت ميكالس"
+     ],
+     [
+      "Substrate concentration",
+      "تركيز المادة الأساس"
+     ],
+     [
+      "Initial velocity",
+      "السرعة الابتدائية"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/mm-equation.png",
+    "img_h": "16mm"
+   },
+   {
+    "en": "In this plot, the dashed horizontal line represents:",
+    "ar": "في هذا الرسم، الخط الأفقي المتقطّع يمثّل:",
+    "options": [
+     [
+      "Vmax/2",
+      "`Vmax/2`"
+     ],
+     [
+      "Km",
+      "`Km`"
+     ],
+     [
+      "Vmax = 5 mmol/min",
+      "`Vmax = 5` ملي مول/دقيقة"
+     ],
+     [
+      "[S] = 10 mM",
+      "`[S] = 10`"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/mm-plot.png",
+    "img_h": "44mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "In Q1 the answer is Km = 0.06 mmol/L.",
+    "ar": "في س1 الجواب `Km = 0.06` ملي مول/لتر.",
+    "answer": "T"
+   },
+   {
+    "en": "When v₀ = Vmax/2, [S] = Km.",
+    "ar": "عندما `v₀ = Vmax/2` يكون `[S] = Km`.",
+    "answer": "T"
+   },
+   {
+    "en": "Km has the units of velocity (mmol/L.min⁻¹).",
+    "ar": "وحدات `Km` هي وحدات السرعة (ملي مول/لتر.دقيقة).",
+    "answer": "F"
+   },
+   {
+    "en": "In Q2, Vmax = 4.5×10⁻³ mmol/L.min⁻¹.",
+    "ar": "في س2، `Vmax = 4.5×10⁻³` ملي مول/لتر.دقيقة.",
+    "answer": "T"
+   },
+   {
+    "en": "In Q3, Vmax must be found before S2.",
+    "ar": "في س3 يجب حساب `Vmax` قبل `S2`.",
+    "answer": "T"
+   },
+   {
+    "en": "In Q4, the answer is v₀ = 4.5×10⁻³ mmol/L.min⁻¹.",
+    "ar": "في س4، الجواب `v₀ = 4.5×10⁻³` ملي مول/لتر.دقيقة.",
+    "answer": "F"
+   },
+   {
+    "en": "Increasing [S] from 0.03 to 0.12 mmol/L doubles v₀ in Q4.",
+    "ar": "زيادة `[S]` من 0.03 إلى 0.12 في س4 تضاعف `v₀`.",
+    "answer": "T"
+   },
+   {
+    "en": "The Michaelis-Menten curve reaches Vmax at a finite [S].",
+    "ar": "منحني ميكالس-منتن يصل `Vmax` عند تركيز محدود.",
+    "answer": "F"
+   },
+   {
+    "en": "In the exercise, Km is about 31.7 mM.",
+    "ar": "في التمرين، `Km` حوالي 31.7 ملي مولار.",
+    "answer": "T"
+   },
+   {
+    "en": "In the exercise, the [S] values increase as V increases.",
+    "ar": "في التمرين، قيم `[S]` تزداد بزيادة V.",
+    "answer": "T"
+   },
+   {
+    "en": "[S] = v₀ × Km / (Vmax − v₀) is a rearranged form of the Michaelis-Menten equation.",
+    "ar": "`[S] = v₀ × Km / (Vmax − v₀)` صيغة مرتّبة من معادلة ميكالس-منتن.",
+    "answer": "T"
+   },
+   {
+    "en": "Q1 and Q2 use different enzyme numbers.",
+    "ar": "س1 وس2 يستعملان أرقامًا مختلفة للإنزيم.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Km or Vmax — which is a concentration?",
+    "ar": "`Km` أم `Vmax` — أيّهما تركيز؟",
+    "answer_en": "Km is a concentration (mmol/L); Vmax is a velocity (mmol/L.min⁻¹).",
+    "answer_ar": "Km تركيز (ملي مول/لتر)؛ وVmax سرعة (ملي مول/لتر.دقيقة)."
+   },
+   {
+    "en": "In Q1, is “Km + 0.03 = 0.09” the answer?",
+    "ar": "في س1، هل “`Km + 0.03 = 0.09`” هو الجواب؟",
+    "answer_en": "No — subtract [S]: Km = 0.09 − 0.03 = 0.06 mmol/L.",
+    "answer_ar": "لا — اطرح [S]: Km = 0.09 − 0.03 = 0.06 ملي مول/لتر."
+   },
+   {
+    "en": "Q3 and the second Q3 — same first step?",
+    "ar": "س3 وس3 الثاني — هل الخطوة الأولى نفسها؟",
+    "answer_en": "No — in Q3 Km is given so you find Vmax first; in the second Q3 Vmax is given so you find Km first. Both give S2 = 0.12 mmol/L.",
+    "answer_ar": "لا — في س3 Km معطى فتحسب Vmax أولًا؛ وفي س3 الثاني Vmax معطى فتحسب Km أولًا. وكلاهما يعطي S2 = 0.12."
+   },
+   {
+    "en": "Doubling v₀ from 1.5 to 3 (×10⁻³) — does [S] double?",
+    "ar": "مضاعفة `v₀` من 1.5 إلى 3 (×10⁻³) — هل يتضاعف `[S]`؟",
+    "answer_en": "No — [S] goes from 0.03 to 0.12 (four times), because the curve is not a straight line.",
+    "answer_ar": "لا — [S] يزيد من 0.03 إلى 0.12 (أربعة أضعاف)، لأن المنحني ليس خطًا مستقيمًا."
+   },
+   {
+    "en": "Exercise: is 10 mM the Km because it is the first [S]?",
+    "ar": "التمرين: هل 10 ملي مولار هو `Km` لأنه أول `[S]`؟",
+    "answer_en": "No — Km = 31.67 mM, the [S] at V = Vmax/2 = 2.5 (the last row).",
+    "answer_ar": "لا — Km = 31.67 ملي مولار، وهو [S] عند V = Vmax/2 = 2.5 (الصف الأخير)."
+   }
+  ],
+  "important": [
+   {
+    "en": "An enzyme hydrolyzed a substrate concentration of 0.03 mmol/L, the initial velocity was 1.5×10⁻³ and the maximum velocity was 4.5×10⁻³ mmol/L.min⁻¹. Calculate Km.",
+    "ar": "حلمأ إنزيم مادة أساس تركيزها 0.03، والسرعة الابتدائية 1.5×10⁻³ والقصوى 4.5×10⁻³. احسب Km.",
+    "answer_en": "1.5×10⁻³ = 4.5×10⁻³ × 0.03 / (Km + 0.03) → Km + 0.03 = 0.135×10⁻³ / 1.5×10⁻³ = 0.09 → Km = 0.06 mmol/L.",
+    "answer_ar": "`1.5×10⁻³ = 4.5×10⁻³ × 0.03 / (Km + 0.03) → Km + 0.03 = 0.135×10⁻³ / 1.5×10⁻³ = 0.09 → Km = 0.06 mmol/L`."
+   },
+   {
+    "en": "Urease hydrolyzed urea at [S] = 0.03 mmol/L, Km = 0.06 mmol/L, v₀ = 1.5×10⁻³. Calculate Vmax.",
+    "ar": "حلمأ اليورييز اليوريا عند [S] = 0.03، Km = 0.06، v₀ = 1.5×10⁻³. احسب Vmax.",
+    "answer_en": "1.5×10⁻³ = Vmax × 0.03 / (0.06 + 0.03) → Vmax = 1.5×10⁻³ × 3 = 4.5×10⁻³ mmol/L.min⁻¹.",
+    "answer_ar": "`1.5×10⁻³ = Vmax × 0.03 / (0.06 + 0.03) → Vmax = 1.5×10⁻³ × 3 = 4.5×10⁻³ mmol/L.min⁻¹`."
+   },
+   {
+    "en": "Km = 0.06, [S] = 0.03 mmol/L, v₀ = 0.0015. Calculate the [S] which gives v₀ = 0.003 mmol/L.min⁻¹.",
+    "ar": "Km = 0.06، [S] = 0.03، v₀ = 0.0015. احسب [S] الذي يعطي v₀ = 0.003.",
+    "answer_en": "Vmax = 1.5×10⁻³ × 3 = 4.5×10⁻³; 3×10⁻³ = 4.5×10⁻³ × S2 / (0.06 + S2) → 0.18 = 1.5 S2 → S2 = 0.12 mmol/L.",
+    "answer_ar": "أولًا `Vmax = 1.5×10⁻³ × 3 = 4.5×10⁻³`؛ ثم `3×10⁻³ = 4.5×10⁻³ × S2 / (0.06 + S2) → 0.18 = 1.5 S2 → S2 = 0.12 mmol/L`."
+   },
+   {
+    "en": "Same urease data. Calculate v₀ when [S] = 0.12 mmol/L.",
+    "ar": "نفس معطيات اليورييز. احسب v₀ عند [S] = 0.12.",
+    "answer_en": "Vmax = 4.5×10⁻³; v₀ = 4.5×10⁻³ × 0.12 / (0.06 + 0.12) = 3×10⁻³ mmol/L.min⁻¹.",
+    "answer_ar": "أولًا `Vmax = 4.5×10⁻³`؛ ثم `v₀ = 4.5×10⁻³ × 0.12 / (0.06 + 0.12) = 3×10⁻³ mmol/L.min⁻¹`."
+   },
+   {
+    "en": "Vmax = 5 mmol/min; [S] = 10 mM gives V = 1.2. Find Km and the [S] values for V = 1.7, 2.1, 2.2 and 2.5.",
+    "ar": "Vmax = 5؛ [S] = 10 يعطي V = 1.2. أوجد Km وقيم [S] عند V = 1.7 و2.1 و2.2 و2.5.",
+    "answer_en": "Km = 10 × (5 − 1.2) / 1.2 = 31.67 mM. [S] = V × Km / (Vmax − V): 16.31, 22.93, 24.88 and 31.67 mM (the last equals Km because V = Vmax/2).",
+    "answer_ar": "`Km = 10 × (5 − 1.2) / 1.2 = 31.67 mM`؛ ثم `[S] = V × Km / (Vmax − V)`: 16.31 و22.93 و24.88 و31.67 ملي مولار (الأخير يساوي Km لأن `V = Vmax/2`)."
+   },
+   {
+    "en": "Prove that [S] = Km when v₀ = Vmax/2.",
+    "ar": "أثبت أن [S] = Km عندما v₀ = Vmax/2.",
+    "answer_en": "Vmax/2 = Vmax[S] / (Km + [S]) → Km + [S] = 2[S] → Km = [S].",
+    "answer_ar": "`Vmax/2 = Vmax[S] / (Km + [S]) → Km + [S] = 2[S] → Km = [S]`."
+   }
+  ]
+ }
+}
