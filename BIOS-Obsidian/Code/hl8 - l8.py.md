@@ -11,7 +11,7 @@ Generator script — writes the handout's `lecture.json`.
 Handouts: [[06 فهرس الملازم#hematology-lec8-macrocytic|hematology-lec8-macrocytic]]
 
 ```python
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user/a0840832-519a-5a9b-84ea-294867ea1189/scratchpad/imm456")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user--/8f878068-bae9-502b-96f7-788f221c7cb0/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
 
 HT = dict(subject_en="Hematology", subject_ar="أمراض الدم", short_ar="امراض الدم", unit_label="LEC",
@@ -173,12 +173,12 @@ blocks = [
    [[B("1. **Alcohol.**", "1. **الكحول.**"), B("7. **Pregnancy.**", "7. **الحمل.**")],
     [B("2. **Liver disease.**", "2. **مرض الكبد.**"), B("8. **Smoking.**", "8. **التدخين.**")],
     [B("3. **Myxedema.**", "3. **الوذمة المخاطية (قصور الدرقية).**"), B("9. **Reticulocytosis.**", "9. **كثرة الخلايا الشبكية.**")],
-    [B("4. **Myelodysplastic syndromes.**", "4. **متلازمات خلل التنسّج النقوي.**"), B("10. **Myeloma.**", "10. **الورم النقوي المتعدّد.**")],
+    [B("4. **Myelodysplastic syndromes.**", "4. **متلازمات خلل التنسّج النقوي.**"), B("10. **Myeloma.**", "10. **الورم النقوي.**")],
     [B("5. **Cytotoxic drugs.**", "5. **الأدوية السامّة للخلايا.**"), B("11. **Neonatal.**", "11. **حديثو الولادة.**")],
     [B("6. **Aplastic anaemia.**", "6. **فقر الدم اللاتنسّجي.**"), ""]],
    widths=[50, 50], style="summary", label_en="11 causes", label_ar="11 سببًا"),
  INSHORT([("Large red cells **without megaloblasts**; mechanism unclear (lipid on membrane, maturation time).", "كريات كبيرة **بدون أرومات ضخمة**؛ والآلية غير واضحة (دهون على الغشاء، وزمن النضج)."),
-          ("Remember: **alcohol, liver, myxedema, MDS, drugs, aplastic, pregnancy, smoking, reticulocytosis, myeloma, neonatal**.", "تذكّر: **الكحول، والكبد، والوذمة المخاطية، وخلل التنسّج، والأدوية، واللاتنسّجي، والحمل، والتدخين، وكثرة الشبكيات، والورم النقوي المتعدّد، وحديثو الولادة**.")]),
+          ("Remember: **alcohol, liver, myxedema, MDS, drugs, aplastic, pregnancy, smoking, reticulocytosis, myeloma, neonatal**.", "تذكّر: **الكحول، والكبد، والوذمة المخاطية، وخلل التنسّج، والأدوية، واللاتنسّجي، والحمل، والتدخين، وكثرة الشبكيات، والورم النقوي، وحديثو الولادة**.")]),
 
  SEC("Pernicious anemia", "فقر الدم الخبيث"),
  C("Its type of megaloblastic anemia in which there is **atrophy of stomach mucosa** which will results in **lack of intrinsic factors** which will lead to **defect in vitamin B12 absorption**.",

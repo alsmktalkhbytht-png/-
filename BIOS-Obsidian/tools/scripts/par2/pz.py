@@ -1,5 +1,5 @@
 import sys, json, os
-sys.path.insert(0, "/tmp/claude-0/-home-user/a0840832-519a-5a9b-84ea-294867ea1189/scratchpad/imm456")
+sys.path.insert(0, "/tmp/claude-0/-home-user--/8f878068-bae9-502b-96f7-788f221c7cb0/scratchpad/imm456")
 from ci import C, R, SEC, H2, L, N, FLOW, T, F, FF, B, END, split
 ORD = {2: "الثاني", 3: "الثالث", 4: "الرابع", 5: "الخامس"}
 def META(w, title_en, title_ar):
