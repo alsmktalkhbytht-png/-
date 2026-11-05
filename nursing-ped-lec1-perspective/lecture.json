@@ -1,0 +1,3480 @@
+{
+ "meta": {
+  "subject_en": "Pediatric Nursing",
+  "subject_ar": "تمريض الأطفال",
+  "short_ar": "تمريض أطفال",
+  "unit_label": "LEC",
+  "kind": "Theory — نظري",
+  "stage": "The third stage — الثالثة",
+  "department": "كلية التمريض",
+  "unit_en": "Lecture 1",
+  "unit_ar": "المحاضرة 1",
+  "unit_no": "1",
+  "title_en": "Perspective in Pediatric Nursing",
+  "title_ar": "منظور في تمريض الأطفال"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Statistical terms",
+   "ar": "المصطلحات الإحصائية"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    [
+     "Definition",
+     "التعريف"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Birth rate**",
+      "**معدّل الولادات**"
+     ],
+     [
+      "The number of live births per 1000 population per year.",
+      "عدد الولادات الحيّة لكل 1000 من السكان في السنة."
+     ]
+    ],
+    [
+     [
+      "**Infant mortality rate**",
+      "**معدّل وفيات الرضّع**"
+     ],
+     [
+      "The no. of deaths per 1000 live births occurring on the first 12 months of extra uterine life.",
+      "عدد الوفيات لكل 1000 ولادة حيّة خلال أول 12 شهرًا من الحياة خارج الرحم."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    70
+   ],
+   "style": "summary",
+   "label_en": "Two rates",
+   "label_ar": "معدّلان"
+  },
+  {
+   "t": "card",
+   "en": "**Factors affect the infant mortality rate:**",
+   "ar": "**العوامل المؤثّرة في معدّل وفيات الرضّع:**",
+   "list_en": [
+    "Birth weight.",
+    "Gestational age.",
+    "Maternal age.",
+    "Low level of maternal education."
+   ],
+   "list_ar": [
+    "وزن الولادة.",
+    "عمر الحمل.",
+    "عمر الأم.",
+    "انخفاض مستوى تعليم الأم."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Why information on mortality and morbidity is important for nurses?",
+   "ar": "لماذا تهمّ معلومات الوفيات والمراضة الممرّضين؟"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Health during childhood:** Health is traditionally assessed by observing mortality \"death\" and morbidity \"illness\".",
+    "Information concerning mortality and morbidity is important for nurses because this knowledge provides a **rationale for planning and delivering care**."
+   ],
+   "list_ar": [
+    "**الصحة في الطفولة:** تُقيَّم الصحة تقليديًا بملاحظة الوفيات \"الموت\" والمراضة \"المرض\".",
+    "ومعلومات الوفيات والمراضة مهمّة للممرّضين لأن هذه المعرفة تقدّم **أساسًا منطقيًا لتخطيط الرعاية وتقديمها**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Such data provide information about:**",
+   "ar": "**توفّر هذه البيانات معلومات عن:**",
+   "list_en": [
+    "the causes of death and illness",
+    "high - risk age groups for disorders or hazards",
+    "advances in treatment and prevention",
+    "specific areas of health counseling"
+   ],
+   "list_ar": [
+    "أسباب الوفاة والمرض",
+    "الفئات العمرية الأكثر خطورة للاضطرابات أو المخاطر",
+    "التطوّرات في العلاج والوقاية",
+    "مجالات محدّدة من الإرشاد الصحي"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Birth rate = live births / **1000 population / year**.",
+    "Infant mortality = deaths / **1000 live births in the first 12 months**.",
+    "4 factors: **birth weight, gestational age, maternal age, maternal education**."
+   ],
+   "ar": [
+    "معدّل الولادات = الولادات الحيّة / **1000 من السكان / سنة**.",
+    "وفيات الرضّع = الوفيات / **1000 ولادة حيّة في أول 12 شهرًا**.",
+    "4 عوامل: **وزن الولادة، وعمر الحمل، وعمر الأم، وتعليم الأم**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Causes of mortality and morbidity",
+   "ar": "أسباب الوفيات والمراضة"
+  },
+  {
+   "t": "card",
+   "en": "**leading causes of infant mortality in developed countries:**",
+   "ar": "**الأسباب الرئيسة لوفيات الرضّع في الدول المتقدّمة:**",
+   "list_en": [
+    "Congenital anomalies.",
+    "Disorders related to short gestation.",
+    "Sudden infant death syndrome.",
+    "Respiratory Distress Syndrome (RDS).",
+    "Accidents",
+    "Bacterial sepsis of newborn.",
+    "Diseases of circulatory disorders.",
+    "Intrauterine hypoxia and birth asphyxia.",
+    "Acute lower respiratory infections",
+    "Diarrheal diseases",
+    "Malnutrition diseases",
+    "Congenital heart diseases"
+   ],
+   "list_ar": [
+    "التشوّهات الخلقية.",
+    "الاضطرابات المرتبطة بقِصَر مدّة الحمل.",
+    "متلازمة موت الرضيع المفاجئ.",
+    "متلازمة الضائقة التنفسية (RDS).",
+    "الحوادث",
+    "الإنتان الجرثومي عند حديث الولادة.",
+    "أمراض اضطرابات الدوران.",
+    "نقص الأكسجة داخل الرحم واختناق الولادة.",
+    "التهابات الجهاز التنفسي السفلي الحادّة",
+    "أمراض الإسهال",
+    "أمراض سوء التغذية",
+    "أمراض القلب الخلقية"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "\"Accidents\" is written twice in the lecture list; it is shown once here.",
+   "ar": "كلمة \"Accidents\" مكرّرة مرّتين في قائمة المحاضرة؛ وذُكرت هنا مرّة واحدة.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Leading causes of death among infant",
+     "الأسباب الرئيسة لوفاة الرضّع"
+    ],
+    [
+     "%",
+     "النسبة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "1. Pneumonia & other respiratory disorders",
+      "1. ذات الرئة واضطرابات تنفسية أخرى"
+     ],
+     "39.7%"
+    ],
+    [
+     [
+      "2. Prematurity and low birth weight",
+      "2. الخداج وانخفاض وزن الولادة"
+     ],
+     "16.2%"
+    ],
+    [
+     [
+      "3. Congenital malformation",
+      "3. التشوّهات الخلقية"
+     ],
+     "15.9%"
+    ],
+    [
+     [
+      "4. Infectious disease (a. Septicemia 15.2% — b. Diarrhea 0.1%)",
+      "4. الأمراض المعدية (أ. تسمّم الدم 15.2% — ب. الإسهال 0.1%)"
+     ],
+     "15.3%"
+    ],
+    [
+     [
+      "5. Sudden infant death",
+      "5. موت الرضيع المفاجئ"
+     ],
+     "4.6%"
+    ]
+   ],
+   "widths": [
+    78,
+    22
+   ],
+   "style": "summary",
+   "label_en": "Infants",
+   "label_ar": "الرضّع"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Leading causes of death among age group 1-4 years",
+     "الأسباب الرئيسة للوفاة بعمر 1–4 سنوات"
+    ],
+    [
+     "%",
+     "النسبة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Pneumonia & other respiratory disorders",
+      "ذات الرئة واضطرابات تنفسية أخرى"
+     ],
+     "20.1%"
+    ],
+    [
+     [
+      "Transport accidents",
+      "حوادث النقل"
+     ],
+     "13.2%"
+    ],
+    [
+     [
+      "Congenital malformation",
+      "التشوّهات الخلقية"
+     ],
+     "12.5%"
+    ],
+    [
+     [
+      "Infectious disease",
+      "الأمراض المعدية"
+     ],
+     "7.6%"
+    ],
+    [
+     [
+      "Malnutrition and metabolic disorders",
+      "سوء التغذية والاضطرابات الأيضية"
+     ],
+     "5.6%"
+    ]
+   ],
+   "widths": [
+    78,
+    22
+   ],
+   "style": "summary",
+   "label_en": "1–4 years",
+   "label_ar": "1–4 سنوات"
+  },
+  {
+   "t": "card",
+   "en": "**Infant morbidity:** prevalence of a specific illness in a population at a particular time — **Acute illness**, **Chronic disease**, **Disability**",
+   "ar": "**المراضة عند الرضّع:** انتشار مرض معيّن في مجتمع ما في وقت محدّد — **مرض حادّ**، و**مرض مزمن**، و**إعاقة**"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "Acute illness",
+     "المرض الحادّ"
+    ],
+    [
+     "Chronic illness",
+     "المرض المزمن"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Defined**",
+      "**التعريف**"
+     ],
+     [
+      "\"disease with an abrupt onset and usually a short course\"; \"illness of short duration, rapidly progressive, and in need of urgent care\"",
+      "\"مرض ببداية مفاجئة ومسار قصير عادةً\"؛ \"مرض قصير المدّة، سريع التقدّم، ويحتاج رعاية عاجلة\""
+     ],
+     [
+      "\"illnesses that are prolonged, do not resolve spontaneously, and are rarely cured completely\"; \"a disease or disorder developing slowly and persisting for a long period of time, often for the remainder of the lifetime of the individual\"",
+      "\"أمراض طويلة الأمد لا تزول تلقائيًا ونادرًا ما تُشفى تمامًا\"؛ \"مرض أو اضطراب يتطوّر ببطء ويستمر مدّة طويلة، غالبًا بقيّة حياة الفرد\""
+     ]
+    ],
+    [
+     [
+      "**Defining characteristics**",
+      "**الصفات المميّزة**"
+     ],
+     [
+      "Starts suddenly and are short lived; \"Runs its course\" regardless of drug intervention",
+      "يبدأ فجأة وقصير الأمد؛ \"يأخذ مساره\" بغضّ النظر عن التدخّل الدوائي"
+     ],
+     "—"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    18,
+    41,
+    41
+   ],
+   "style": "summary",
+   "label_en": "Acute vs chronic",
+   "label_ar": "الحادّ مقابل المزمن"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Infants die most from **pneumonia (39.7%)**, then prematurity and malformations.",
+    "Age 1–4: pneumonia (20.1%) then **transport accidents (13.2%)**.",
+    "Acute = sudden, short; chronic = slow, long, rarely cured."
+   ],
+   "ar": [
+    "يموت الرضّع أكثر من **ذات الرئة (39.7%)**، ثم الخداج والتشوّهات.",
+    "عمر 1–4: ذات الرئة (20.1%) ثم **حوادث النقل (13.2%)**.",
+    "الحادّ = مفاجئ وقصير؛ والمزمن = بطيء وطويل ونادرًا ما يُشفى."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Pediatric Nursing",
+   "ar": "تمريض الأطفال"
+  },
+  {
+   "t": "card",
+   "en": "**Introduction:**",
+   "ar": "**المقدّمة:**",
+   "list_en": [
+    "**Nurse** is one of the important components of the health team in caring for children.",
+    "**The pediatric nurse** given direct bedside care to sick children, guide families in their care for their children during health and illness, in hospitals and at homes."
+   ],
+   "list_ar": [
+    "**الممرّض** أحد المكوّنات المهمة للفريق الصحي في رعاية الأطفال.",
+    "ويقدّم **ممرّض الأطفال** رعاية مباشرة بجانب السرير للأطفال المرضى، ويرشد العائلات في رعاية أطفالها في الصحة والمرض، في المستشفيات والبيوت."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Pediatric Nursing:** It is the **art and science** of giving nursing care to children from **birth through adolescent** with emphasis on the physical growth, mental, emotional, and psychosocial development.",
+   "ar": "**تمريض الأطفال:** هو **فنّ وعلم** تقديم الرعاية التمريضية للأطفال من **الولادة حتى المراهقة**، مع التركيز على النمو الجسدي والتطوّر العقلي والعاطفي والنفسي الاجتماعي."
+  },
+  {
+   "t": "h2",
+   "en": "Scope of pediatric nursing practices",
+   "ar": "نطاق ممارسات تمريض الأطفال"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Nurses have the responsibility in providing nursing interventions either in **ambulatory or institution setting**.",
+    "**Ambulatory setting** such as home, school, and or physician's clinic where children and their parents have health or counseling needs.",
+    "While **institutional settings** are mainly hospitals (general or specialized hospitals) where care is provided to sick children and their parents."
+   ],
+   "list_ar": [
+    "يتحمّل الممرّضون مسؤولية تقديم التدخّلات التمريضية إمّا في **البيئة الخارجية (الإسعافية) أو المؤسّسية**.",
+    "**البيئة الخارجية** مثل البيت والمدرسة وعيادة الطبيب، حيث تكون للأطفال وآبائهم احتياجات صحية أو إرشادية.",
+    "بينما **البيئات المؤسّسية** هي أساسًا المستشفيات (العامّة أو التخصّصية) حيث تُقدَّم الرعاية للأطفال المرضى وآبائهم."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Role of a Pediatric Nurse",
+     "دور ممرّض الأطفال"
+    ],
+    [
+     "The good pediatric nurse must be (Qualified):",
+     "يجب أن يكون ممرّض الأطفال الجيد (مؤهّلًا):"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Direct",
+      "مقدّم رعاية مباشرة"
+     ],
+     [
+      "1. Good observer.",
+      "1. ملاحظ جيد."
+     ]
+    ],
+    [
+     [
+      "Educator",
+      "مثقِّف"
+     ],
+     [
+      "2. Honest and truthful",
+      "2. أمين وصادق"
+     ]
+    ],
+    [
+     [
+      "Counselor",
+      "مرشد"
+     ],
+     [
+      "3. Sympathetic, kind, patient and cheerful",
+      "3. متعاطف ولطيف وصبور ومبتهج"
+     ]
+    ],
+    [
+     [
+      "Consultant",
+      "مستشار"
+     ],
+     [
+      "4. Love to work with children.",
+      "4. يحبّ العمل مع الأطفال."
+     ]
+    ],
+    [
+     [
+      "Advocate",
+      "مدافع عن حقوق الطفل"
+     ],
+     [
+      "5. Interested in family care",
+      "5. مهتمّ برعاية العائلة"
+     ]
+    ],
+    [
+     [
+      "Care Coordinator, or health systems manager",
+      "منسّق رعاية أو مدير أنظمة صحية"
+     ],
+     [
+      "6. Able to provide teaching to children and their families",
+      "6. قادر على تعليم الأطفال وعائلاتهم"
+     ]
+    ],
+    [
+     [
+      "Researcher",
+      "باحث"
+     ],
+     ""
+    ]
+   ],
+   "widths": [
+    45,
+    55
+   ],
+   "style": "summary",
+   "label_en": "Roles and qualities",
+   "label_ar": "الأدوار والصفات"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Pediatric nursing = **art and science**, birth → adolescence.",
+    "Settings: **ambulatory** (home, school, clinic) vs **institutional** (hospitals).",
+    "7 roles and 6 qualities — first quality: **good observer**."
+   ],
+   "ar": [
+    "تمريض الأطفال = **فنّ وعلم**، من الولادة ← المراهقة.",
+    "البيئات: **خارجية** (البيت والمدرسة والعيادة) مقابل **مؤسّسية** (المستشفيات).",
+    "7 أدوار و6 صفات — أوّل صفة: **ملاحظ جيد**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Goals and role at the three levels",
+   "ar": "الأهداف والدور في المستويات الثلاثة"
+  },
+  {
+   "t": "card",
+   "en": "**The goals of nursing care of children** Based on primary health care are :",
+   "ar": "**أهداف الرعاية التمريضية للأطفال** المبنية على الرعاية الصحية الأولية:"
+  },
+  {
+   "t": "rule",
+   "en": "Promote the healthy maturation of the child as a physical, intellectual, and emotional being within the context of his family and communities (**primary level**)",
+   "ar": "تعزيز النضج الصحي للطفل جسديًا وفكريًا وعاطفيًا ضمن عائلته ومجتمعه (**المستوى الأولي**)"
+  },
+  {
+   "t": "rule",
+   "en": "Provide health care for the child who requires treatment from diseases (**secondary Level**).",
+   "ar": "تقديم الرعاية الصحية للطفل الذي يحتاج علاجًا من الأمراض (**المستوى الثانوي**)."
+  },
+  {
+   "t": "rule",
+   "en": "Dealing with the child's disabilities (**tertiary level**).",
+   "ar": "التعامل مع إعاقات الطفل (**المستوى الثالثي**)."
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Level",
+     "المستوى"
+    ],
+    [
+     "The Role of the Pediatric Nursing includes:",
+     "يشمل دور تمريض الأطفال:"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**In primary level**",
+      "**المستوى الأولي**"
+     ],
+     [
+      "Though health education to child and his parents and providing child's basic needs and immunization. It can: a) Maintain child's health. b) Help the child achieves his optimal growth and development. c) Prevent diseases and their complications.",
+      "عبر التثقيف الصحي للطفل ووالديه وتوفير احتياجات الطفل الأساسية والتلقيح. ويمكنه: أ) الحفاظ على صحة الطفل. ب) مساعدة الطفل على بلوغ أمثل نمو وتطوّر. ج) الوقاية من الأمراض ومضاعفاتها."
+     ]
+    ],
+    [
+     [
+      "**In secondary level**",
+      "**المستوى الثانوي**"
+     ],
+     [
+      "a) Assessing their needs. b) Nursing diagnosis. c) Planning for their care. d) Implementing the plan. e) Evaluation children's condition. f) Providing health teaching to children and their parents.",
+      "أ) تقييم احتياجاتهم. ب) التشخيص التمريضي. ج) التخطيط لرعايتهم. د) تنفيذ الخطّة. هـ) تقييم حالة الأطفال. و) تقديم التثقيف الصحي للأطفال وآبائهم."
+     ]
+    ],
+    [
+     [
+      "**In tertiary level**",
+      "**المستوى الثالثي**"
+     ],
+     [
+      "a) Assist children to return to their maximal level of functioning following illness and/ or disabilities.",
+      "أ) مساعدة الأطفال على العودة إلى أقصى مستوى من الأداء بعد المرض و/أو الإعاقة."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    78
+   ],
+   "style": "summary",
+   "label_en": "Three levels",
+   "label_ar": "ثلاثة مستويات"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Primary = **prevention** (education, basic needs, immunization).",
+    "Secondary = **treatment** through the nursing process (assess → diagnose → plan → implement → evaluate).",
+    "Tertiary = **rehabilitation** of disabilities."
+   ],
+   "ar": [
+    "الأولي = **الوقاية** (التثقيف، والاحتياجات الأساسية، والتلقيح).",
+    "الثانوي = **العلاج** عبر العملية التمريضية (تقييم ← تشخيص ← تخطيط ← تنفيذ ← تقويم).",
+    "الثالثي = **تأهيل** الإعاقات."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Current trends in pediatric nursing",
+   "ar": "الاتجاهات الحالية في تمريض الأطفال"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Family centered care",
+    "High technology care",
+    "Primary nursing",
+    "Case management",
+    "Cost containment",
+    "A traumatic care",
+    "Nursing process application"
+   ],
+   "list_ar": [
+    "الرعاية المتمركزة حول العائلة",
+    "الرعاية عالية التقنية",
+    "التمريض الأولي",
+    "إدارة الحالة",
+    "احتواء التكاليف",
+    "الرعاية غير المؤلمة (اللاصدمية)",
+    "تطبيق العملية التمريضية"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Factors influencing trends**",
+   "ar": "**العوامل المؤثّرة في الاتجاهات**",
+   "list_en": [
+    "Changing needs of society .",
+    "Medical and technological advances .",
+    "Political interests .",
+    "Increased public awareness ."
+   ],
+   "list_ar": [
+    "تغيّر احتياجات المجتمع.",
+    "التقدّم الطبي والتقني.",
+    "المصالح السياسية.",
+    "زيادة الوعي العام."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Family centered care :** It based on philosophy that quality care can be provided in an environment that support **family integrity** and promote psychological and physiological health of the family",
+   "ar": "**الرعاية المتمركزة حول العائلة:** تقوم على فلسفة أن الرعاية الجيدة يمكن تقديمها في بيئة تدعم **تماسك العائلة** وتعزّز صحتها النفسية والجسدية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Health team should be flexible and creative in caring for the child within his family as their intervention are based on the needs of parent and child and on their coping resources.",
+    [
+     "Although the family is the **ultimate coordinator of its own care**, the nurse can help establish a positive environment for family members and help them accept and utilize the care provided.",
+     "He\\She can guide family members through the unknown of new experiences in seeking holistic health."
+    ]
+   ],
+   "list_ar": [
+    "يجب أن يكون الفريق الصحي مرنًا ومبدعًا في رعاية الطفل ضمن عائلته، لأن تدخّلاته تُبنى على احتياجات الوالدين والطفل وموارد تكيّفهم.",
+    [
+     "ومع أن العائلة هي **المنسّق النهائي لرعايتها**، يستطيع الممرّض المساعدة في تهيئة بيئة إيجابية لأفراد العائلة ومساعدتهم على تقبّل الرعاية واستعمالها.",
+     "ويستطيع إرشادهم خلال المجهول من التجارب الجديدة سعيًا إلى صحة شاملة."
+    ]
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Trend",
+     "الاتجاه"
+    ],
+    [
+     "Meaning",
+     "المعنى"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Primary Nursing**",
+      "**التمريض الأولي**"
+     ],
+     [
+      "It is system for the distribution of nursing care in which care of one child is managed for the entire 24 hour day by one nurse who directs and coordinates nurses and other personnel, schedules all tests ,proced ures and daily activities for that patient.",
+      "نظام لتوزيع الرعاية التمريضية تُدار فيه رعاية طفل واحد طوال 24 ساعة بممرّض واحد يوجّه وينسّق الممرّضين والعاملين الآخرين، ويجدول كل الفحوص والإجراءات والأنشطة اليومية لذلك المريض."
+     ]
+    ],
+    [
+     [
+      "**Case management**",
+      "**إدارة الحالة**"
+     ],
+     [
+      "Process of coordinating the delivery of health care services in manner that focuses on both quality and cost out come .",
+      "عملية تنسيق تقديم الخدمات الصحية بطريقة تركّز على الجودة والكلفة معًا."
+     ]
+    ],
+    [
+     [
+      "**Cost containment**",
+      "**احتواء التكاليف**"
+     ],
+     [
+      "Is management technique can achieved in many ways in hospital either by cutting nursing position or by improving the process of care and tightening non labour resources .",
+      "أسلوب إداري يتحقّق في المستشفى بطرق عدّة، إمّا بتقليص الوظائف التمريضية أو بتحسين عملية الرعاية وضبط الموارد غير البشرية."
+     ]
+    ],
+    [
+     [
+      "**A traumatic care**",
+      "**الرعاية اللاصدمية**"
+     ],
+     [
+      "Is intended to reduce mental and physical harm and to provide an environment with minimum physical and mental trauma.",
+      "تهدف إلى تقليل الأذى النفسي والجسدي وتوفير بيئة بأقل صدمة جسدية ونفسية."
+     ]
+    ],
+    [
+     [
+      "**Nursing process application**",
+      "**تطبيق العملية التمريضية**"
+     ],
+     [
+      "Assessment , diagnosis , planning , intervention and evaluation",
+      "التقييم، والتشخيص، والتخطيط، والتدخّل، والتقويم"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    26,
+    74
+   ],
+   "style": "summary",
+   "label_en": "Trends explained",
+   "label_ar": "شرح الاتجاهات"
+  },
+  {
+   "t": "note",
+   "en": "\"A traumatic care\" in the lecture is **atraumatic care** (care without trauma).",
+   "ar": "\"A traumatic care\" في المحاضرة تعني **atraumatic care** (الرعاية بلا صدمة).",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Assessment",
+     "ar": "التقييم"
+    },
+    {
+     "en": "Diagnosis",
+     "ar": "التشخيص"
+    },
+    {
+     "en": "Planning",
+     "ar": "التخطيط"
+    },
+    {
+     "en": "Intervention",
+     "ar": "التدخّل"
+    },
+    {
+     "en": "Evaluation",
+     "ar": "التقويم"
+    }
+   ],
+   "en": "Nursing process",
+   "ar": "العملية التمريضية"
+  },
+  {
+   "t": "note",
+   "en": [
+    "7 trends — remember **family centered** first, **atraumatic** for less harm.",
+    "Primary nursing = **one nurse, one child, 24 h**.",
+    "Case management = **quality + cost**."
+   ],
+   "ar": [
+    "7 اتجاهات — تذكّر **المتمركزة حول العائلة** أولًا، و**اللاصدمية** لتقليل الأذى.",
+    "التمريض الأولي = **ممرّض واحد لطفل واحد، 24 ساعة**.",
+    "إدارة الحالة = **الجودة + الكلفة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Parent education and pediatric ethics",
+   "ar": "تثقيف الوالدين وأخلاقيات طب الأطفال"
+  },
+  {
+   "t": "card",
+   "en": "**Parent education**",
+   "ar": "**تثقيف الوالدين**",
+   "list_en": [
+    "One of the major roles of the nurses is **teaching both the child** (according to his age) **and his family members** especially his parent.",
+    "The nurse has many opportunities in providing health education to parents' daily either for child's parent alone or in group (group teaching of parents and children).",
+    "Many **teaching aids** such as charts, audio-visual materials and equipment for demonstration can be used in educating both parents and their children."
+   ],
+   "list_ar": [
+    "من الأدوار الرئيسة للممرّضين **تعليم الطفل** (حسب عمره) **وأفراد عائلته**، ولا سيما والديه.",
+    "وللممرّض فرص كثيرة لتقديم التثقيف الصحي للوالدين يوميًا، إمّا لوالدي الطفل وحدهما أو ضمن مجموعة (تعليم جماعي للوالدين والأطفال).",
+    "ويمكن استعمال **وسائل تعليمية** كثيرة مثل المخطّطات والمواد السمعية البصرية والأجهزة للعرض العملي في تثقيف الوالدين وأطفالهم."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Their education may be specific to information on:**",
+   "ar": "**قد يتناول تثقيفهم معلومات محدّدة عن:**",
+   "list_en": [
+    "Growth and development needs .",
+    "Child's health promotion and maintenance as nutritional need and hygienic care.",
+    "Preventive aspects, such as accident prevention, immunization, periodic examination.",
+    "Child's illness (nature of illness and care needs).",
+    "Plan for child's discharge such as child's medication, follow up nutrition …ect."
+   ],
+   "list_ar": [
+    "احتياجات النمو والتطوّر.",
+    "تعزيز صحة الطفل والحفاظ عليها مثل الاحتياجات الغذائية والعناية بالنظافة.",
+    "الجوانب الوقائية مثل الوقاية من الحوادث والتلقيح والفحص الدوري.",
+    "مرض الطفل (طبيعة المرض واحتياجات الرعاية).",
+    "خطّة خروج الطفل مثل أدويته ومتابعة تغذيته... إلخ."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Pediatric Ethics:** is a branch of **bioethics** that analyzes aspect of decision make relating to health care of children Culture child is born as a member of family and society as well as of a certain culture children are affected by culture",
+   "ar": "**أخلاقيات طب الأطفال:** فرع من **أخلاقيات علم الأحياء** يحلّل جوانب اتّخاذ القرار المتعلّقة بالرعاية الصحية للأطفال؛ فالطفل يولد عضوًا في عائلة ومجتمع وثقافة معيّنة، ويتأثّر الأطفال بالثقافة"
+  },
+  {
+   "t": "card",
+   "en": "**General Ethical Principle :**",
+   "ar": "**المبادئ الأخلاقية العامة:**",
+   "list_en": [
+    "Respect of the individual autonomy",
+    "Respect of the individual competence",
+    "Respect beneficence",
+    "Respect of the truth",
+    "Respect of patient confidentiality",
+    "Respect the limitation of medical care"
+   ],
+   "list_ar": [
+    "احترام استقلالية الفرد",
+    "احترام كفاءة الفرد",
+    "احترام مبدأ الإحسان (فعل الخير)",
+    "احترام الحقيقة",
+    "احترام سرّية المريض",
+    "احترام حدود الرعاية الطبية"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Teach **child + parents**; use teaching aids.",
+    "5 topics: **growth, health promotion, prevention, illness, discharge plan**.",
+    "6 ethical principles: **autonomy, competence, beneficence, truth, confidentiality, limits of care**."
+   ],
+   "ar": [
+    "علّم **الطفل + الوالدين**؛ واستعمل الوسائل التعليمية.",
+    "5 مواضيع: **النمو، وتعزيز الصحة، والوقاية، والمرض، وخطّة الخروج**.",
+    "6 مبادئ أخلاقية: **الاستقلالية، والكفاءة، والإحسان، والحقيقة، والسرّية، وحدود الرعاية**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Communication skills (With Children and Their Families)",
+   "ar": "مهارات التواصل (مع الأطفال وعائلاتهم)"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Communication :** is a **two-way process** by which information exchanged between individuals with use of language, behaviors, or symbols.",
+    "**Or** it's a complex process that including the perception and judgments of all individuals involved.",
+    "Communication may be, **verbal** and **nonverbal**."
+   ],
+   "list_ar": [
+    "**التواصل:** **عملية ذات اتّجاهين** تُتبادل فيها المعلومات بين الأفراد باستعمال اللغة أو السلوك أو الرموز.",
+    "**أو** هو عملية معقّدة تشمل إدراك وأحكام كل الأفراد المشاركين.",
+    "وقد يكون التواصل **لفظيًا** و**غير لفظي**."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Type",
+     "النوع"
+    ],
+    [
+     "Includes",
+     "يشمل"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Verbal communication**",
+      "**التواصل اللفظي**"
+     ],
+     [
+      "may involve language and its expression: vocalization in the form of laughs, moans, and squalls",
+      "قد يشمل اللغة والتعبير عنها: الأصوات بشكل ضحك وأنين وصراخ"
+     ]
+    ],
+    [
+     [
+      "**Nonverbal communication**",
+      "**التواصل غير اللفظي**"
+     ],
+     [
+      "often called \"body language\" includes gestures, movements, facial expressions, postures, and reactions.",
+      "يُسمّى غالبًا \"لغة الجسد\"، ويشمل الإيماءات والحركات وتعابير الوجه والوضعيات وردود الفعل."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    70
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Developmental stage",
+     "مرحلة التطوّر"
+    ],
+    [
+     "Communication according developmental stage",
+     "التواصل بحسب مرحلة التطوّر"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Infancy**",
+      "**الرضاعة**"
+     ],
+     [
+      "Because they are unable to use words, primarily use and understand nonverbal communication.",
+      "لأنهم لا يستطيعون استعمال الكلمات، يستعملون ويفهمون أساسًا التواصل غير اللفظي."
+     ]
+    ],
+    [
+     [
+      "**Early Childhood**",
+      "**الطفولة المبكرة**"
+     ],
+     [
+      "Children younger than 5 years old are egocentric. They see things only in relation to themselves and from their point of view. Although they have not yet acquired sufficient language skills to express their feelings and wants, toddlers can effectively use their hands to communicate ideas without words.",
+      "الأطفال دون 5 سنوات متمركزون حول ذواتهم، يرون الأشياء فقط من علاقتها بهم ومن وجهة نظرهم؛ ومع أنهم لم يكتسبوا بعد مهارات لغوية كافية للتعبير عن مشاعرهم ورغباتهم، يستطيع الدارجون استعمال أيديهم بفعالية لإيصال الأفكار بلا كلمات."
+     ]
+    ],
+    [
+     [
+      "**School-Age Years**",
+      "**سنّ المدرسة**"
+     ],
+     [
+      "They want explanations and reasons for everything but require no verification beyond that.",
+      "يريدون تفسيرات وأسبابًا لكل شيء، لكنهم لا يحتاجون تحقّقًا أبعد من ذلك."
+     ]
+    ],
+    [
+     [
+      "**Adolescence**",
+      "**المراهقة**"
+     ],
+     [
+      "The Art of Listening",
+      "فنّ الإصغاء"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    76
+   ],
+   "style": "summary",
+   "label_en": "By age",
+   "label_ar": "حسب العمر"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Communicate Effectively",
+     "التواصل الفعّال"
+    ],
+    [
+     "Barriers to communication",
+     "معوّقات التواصل"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "1. Give individual attention.",
+      "1. أعطِ اهتمامًا فرديًا."
+     ],
+     [
+      "1. Language . 2. Values and beliefs .",
+      "1. اللغة. 2. القيم والمعتقدات."
+     ]
+    ],
+    [
+     [
+      "2. Listen, listen, listen.",
+      "2. أصغِ، أصغِ، أصغِ."
+     ],
+     [
+      "3. Child age. 4. Economic status for family .",
+      "3. عمر الطفل. 4. الوضع الاقتصادي للعائلة."
+     ]
+    ],
+    [
+     [
+      "3. Be courteous, calm, and open minded",
+      "3. كن مهذّبًا وهادئًا ومنفتحًا"
+     ],
+     [
+      "5. Child Educational level . 6. Physical barriers (mental disorder, learning disorder.(",
+      "5. المستوى التعليمي للطفل. 6. الحواجز الجسدية (الاضطراب العقلي، واضطراب التعلّم)"
+     ]
+    ],
+    [
+     [
+      "4. Try to not overreact",
+      "4. حاول ألّا تبالغ في ردّ الفعل"
+     ],
+     [
+      "7. Attitude. 8. Timing..",
+      "7. الموقف. 8. التوقيت."
+     ]
+    ],
+    [
+     [
+      "5. Avoid judging or criticizing",
+      "5. تجنّب الحكم أو الانتقاد"
+     ],
+     [
+      "9. Understanding of message . 10.Trust.",
+      "9. فهم الرسالة. 10. الثقة."
+     ]
+    ]
+   ],
+   "widths": [
+    45,
+    55
+   ],
+   "style": "summary",
+   "label_en": "Do's and barriers",
+   "label_ar": "الواجبات والمعوّقات"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Communication = **two-way**: verbal + nonverbal (body language).",
+    "Infant: **nonverbal**; under 5: **egocentric**; school age: **wants reasons**; adolescent: **listen**.",
+    "10 barriers, starting with **language** and ending with **trust**."
+   ],
+   "ar": [
+    "التواصل = **باتّجاهين**: لفظي + غير لفظي (لغة الجسد).",
+    "الرضيع: **غير لفظي**؛ دون 5: **متمركز حول ذاته**؛ سنّ المدرسة: **يريد أسبابًا**؛ المراهق: **الإصغاء**.",
+    "10 معوّقات، أوّلها **اللغة** وآخرها **الثقة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Communicating with Children",
+   "ar": "التواصل مع الأطفال"
+  },
+  {
+   "t": "note",
+   "en": "**Effective listening is the key to successful communication.**",
+   "ar": "**الإصغاء الفعّال هو مفتاح التواصل الناجح.**",
+   "label": [
+    "Key",
+    "المفتاح"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Allow children time to feel comfortable.",
+    "Avoid sudden or rapid advances, broad smiles, extended eye contact, or other gestures.",
+    "Talk to the parent if child is initially shy.",
+    "Communicate through transition objects such as dolls, and stuffed animals.",
+    "Give older children the opportunity to talk without the parents present.",
+    "Assume a position that is at eye level with child.",
+    "Speak in a quiet, unhurried, and confident voice.",
+    "Speak clearly, be specific, and use simple words and short sentences.",
+    "State directions and suggestions positively.",
+    "Offer a choice only when one exists.",
+    "Be honest with children.",
+    "Allow them to express their concerns and fears.",
+    "Use a variety of communication techniques"
+   ],
+   "list_ar": [
+    "امنح الأطفال وقتًا ليشعروا بالراحة.",
+    "تجنّب الاقتراب المفاجئ أو السريع، والابتسامات العريضة، والتحديق الطويل، أو الإيماءات الأخرى.",
+    "تحدّث إلى الوالد إذا كان الطفل خجولًا في البداية.",
+    "تواصل عبر أشياء انتقالية مثل الدمى والحيوانات المحشوّة.",
+    "امنح الأطفال الأكبر فرصة الكلام دون حضور الوالدين.",
+    "اتّخذ وضعية بمستوى عين الطفل.",
+    "تكلّم بصوت هادئ غير مستعجل وواثق.",
+    "تكلّم بوضوح وكن محدّدًا واستعمل كلمات بسيطة وجملًا قصيرة.",
+    "صِغ التوجيهات والاقتراحات بشكل إيجابي.",
+    "قدّم خيارًا فقط عندما يكون موجودًا فعلًا.",
+    "كن صادقًا مع الأطفال.",
+    "اسمح لهم بالتعبير عن مخاوفهم وقلقهم.",
+    "استعمل تقنيات تواصل متنوّعة"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Communication techniques for children**",
+   "ar": "**تقنيات التواصل مع الأطفال**",
+   "list_en": [
+    "Play.",
+    "Draw, paint, and sculpt.",
+    "games. word Storytelling,",
+    "videos. movies, watch books; Read",
+    "Write."
+   ],
+   "list_ar": [
+    "اللعب.",
+    "الرسم والتلوين والنحت.",
+    "الألعاب، ورواية القصص بالكلمات،",
+    "الفيديوهات والأفلام ومشاهدة الكتب؛ القراءة",
+    "الكتابة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    [
+     "**Play is a universal language of children.**",
+     "It is one of the most important forms of communication and can be an effective technique in relating to them."
+    ],
+    "The nurse can often pick up on clues about physical, intellectual, and social developmental progress from the form and complexity of child's play behaviors.",
+    "Through play, children reveal their perceptions of interpersonal relationships with their family, friends, or hospital personnel.",
+    "Children may also reveal the wide scope of knowledge they have acquired from listening to others around them."
+   ],
+   "list_ar": [
+    [
+     "**اللعب لغة الأطفال العالمية.**",
+     "وهو من أهم أشكال التواصل، ويمكن أن يكون تقنية فعّالة للتواصل معهم."
+    ],
+    "وكثيرًا ما يلتقط الممرّض مؤشّرات عن التقدّم الجسدي والفكري والاجتماعي من شكل سلوك لعب الطفل وتعقيده.",
+    "ومن خلال اللعب يكشف الأطفال تصوّراتهم عن علاقاتهم بعائلاتهم وأصدقائهم أو العاملين في المستشفى.",
+    "وقد يكشفون أيضًا سعة المعرفة التي اكتسبوها من الإصغاء لمن حولهم."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Basic for Nursing communicating with children",
+     "أساسيات تواصل الممرّض مع الأطفال"
+    ],
+    ""
+   ],
+   "rows": [
+    [
+     [
+      "1. Introduce yourself and explain your role",
+      "1. عرّف بنفسك واشرح دورك"
+     ],
+     [
+      "7. Use family terms",
+      "7. استعمل مصطلحات العائلة"
+     ]
+    ],
+    [
+     [
+      "2. Position should be at level of child",
+      "2. تكون وضعيتك بمستوى الطفل"
+     ],
+     [
+      "8. Speak calm ,quit and confident",
+      "8. تكلّم بهدوء وسكون وثقة"
+     ]
+    ],
+    [
+     [
+      "3. Allow to parents stay with child if need",
+      "3. اسمح للوالدين بالبقاء مع الطفل عند الحاجة"
+     ],
+     [
+      "9. Use positive statement",
+      "9. استعمل عبارات إيجابية"
+     ]
+    ],
+    [
+     [
+      "4. Smile and eye contact with child",
+      "4. ابتسم وتواصل بالعين مع الطفل"
+     ],
+     [
+      "10.Encourage child to express his feeling.",
+      "10. شجّع الطفل على التعبير عن مشاعره."
+     ]
+    ],
+    [
+     [
+      "5. All question direct and explanation if need",
+      "5. اجعل كل الأسئلة مباشرة مع الشرح عند الحاجة"
+     ],
+     [
+      "11.Observe nonverbal cues",
+      "11. لاحظ الإشارات غير اللفظية"
+     ]
+    ],
+    [
+     [
+      "6. Good listening and pause",
+      "6. إصغاء جيد مع التوقّف"
+     ],
+     [
+      "12.Older children need privacy",
+      "12. الأطفال الأكبر يحتاجون خصوصية"
+     ]
+    ]
+   ],
+   "widths": [
+    50,
+    50
+   ],
+   "style": "summary",
+   "label_en": "12 basics",
+   "label_ar": "12 أساسًا"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Listening is the **key**; get down to **eye level**; be **honest**.",
+    "**Play** = the universal language of children.",
+    "Shy child → talk to the **parent** first; older child → **privacy**."
+   ],
+   "ar": [
+    "الإصغاء هو **المفتاح**؛ انزل إلى **مستوى العين**؛ وكن **صادقًا**.",
+    "**اللعب** = لغة الأطفال العالمية.",
+    "الطفل الخجول ← كلّم **الوالد** أولًا؛ والطفل الأكبر ← **الخصوصية**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Immunity and immunization for children",
+   "ar": "المناعة والتلقيح للأطفال"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Infants and children are susceptible to infectious diseases because their **immune systems are immature**.",
+    "As children mature and grow, their exposure to infectious agents increases and they develop antibodies naturally."
+   ],
+   "list_ar": [
+    "الرضّع والأطفال معرّضون للأمراض المعدية لأن **أجهزتهم المناعية غير ناضجة**.",
+    "ومع نضج الأطفال ونموّهم يزداد تعرّضهم للعوامل المعدية فيكوّنون الأضداد بشكل طبيعي."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Immunization:** The process of inducing or providing active or passive immunity artificially by administering an immunobiologic.",
+    [
+     "**Immunity:** is the ability of the body to protect against all types of foreign bodies that enter the body.",
+     "Immunity also called **disease resistance**."
+    ],
+    "**Immune protection:** Children receive protection from infectious diseases naturally and artificially."
+   ],
+   "list_ar": [
+    "**التلقيح (التمنيع):** عملية إحداث أو توفير مناعة فاعلة أو منفعلة صناعيًا بإعطاء مادة مناعية حيوية.",
+    [
+     "**المناعة:** قدرة الجسم على الحماية من كل أنواع الأجسام الغريبة التي تدخله.",
+     "وتُسمّى المناعة أيضًا **مقاومة المرض**."
+    ],
+    "**الحماية المناعية:** يحصل الأطفال على الحماية من الأمراض المعدية طبيعيًا وصناعيًا."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Immunization is the **key disease prevention**.",
+    "The development of effective vaccines, beginning in the 1940s, revolutionized children's health care .",
+    "Immunization shift care from **disease treatment to disease prevention** .",
+    "The nurse needs to understand the principles of immunizations, the proper use of vaccines, and barriers to immunization."
+   ],
+   "list_ar": [
+    "التلقيح هو **مفتاح الوقاية من الأمراض**.",
+    "وقد أحدث تطوير لقاحات فعّالة، منذ أربعينيات القرن العشرين، ثورة في الرعاية الصحية للأطفال.",
+    "ونقل التلقيحُ الرعايةَ من **علاج المرض إلى الوقاية منه**.",
+    "ويحتاج الممرّض إلى فهم مبادئ التلقيح والاستعمال الصحيح للقاحات ومعوّقات التلقيح."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Methods of obtaining immune protection",
+   "ar": "طرق الحصول على الحماية المناعية"
+  },
+  {
+   "t": "card",
+   "en": "Immune protection can obtained in **five different methods:**",
+   "ar": "يمكن الحصول على الحماية المناعية بـ**خمس طرق مختلفة:**"
+  },
+  {
+   "t": "rule",
+   "en": "**Natural (innate) immunity:** Innate immunity is a combination of natural and nonspecific immunity that can protect the human body from pathogens and foreign agents (For example, the phagocytic action of white blood cells (macrophages)",
+   "ar": "**المناعة الطبيعية (الفطرية):** مزيج من المناعة الطبيعية وغير النوعية يحمي جسم الإنسان من الممرضات والعوامل الغريبة (مثل الفعل البلعمي للكريات البيض (البلاعم))"
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Naturally acquired active immunity:** is obtained when the body's immune system responds to a specific pathogen.",
+    "Antibodies and memory cells prevent or reduce the severity of infection with that specific pathogen.",
+    "It **persists for many years**."
+   ],
+   "ar": [
+    "**المناعة الفاعلة المكتسبة طبيعيًا:** تُكتسب حين يستجيب الجهاز المناعي لممرض معيّن.",
+    "فتمنع الأضداد وخلايا الذاكرة العدوى بذلك الممرض أو تخفّف شدّتها.",
+    "و**تدوم سنوات كثيرة**."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Naturally acquired passive immunity:** involves **mother-to-fetus** transmission of maternal antibodies (**immunoglobulin G crosses the placenta**).",
+    "After birth, the infant can receive passive immunity through maternal antibodies in **breast milk**.",
+    "It lasts only as long as the antibodies remain in the blood (usually from a few weeks to about 2 months).",
+    "Some antibodies remain up to age 1 year, such measles."
+   ],
+   "ar": [
+    "**المناعة المنفعلة المكتسبة طبيعيًا:** تنتقل فيها أضداد الأم **من الأم إلى الجنين** (**الغلوبولين المناعي G يعبر المشيمة**).",
+    "وبعد الولادة يمكن أن يحصل الرضيع على مناعة منفعلة عبر أضداد الأم في **حليب الثدي**.",
+    "وتدوم فقط ما دامت الأضداد في الدم (عادةً من بضعة أسابيع إلى نحو شهرين).",
+    "وتبقى بعض الأضداد حتى عمر سنة، مثل أضداد الحصبة."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Artificially acquired active immunity:** is achieved by administration of a **vaccine or toxoid**.",
+    "The vaccine or toxoid stimulates the immune system's production of antibodies against a specific antigen, but symptoms of the disease aren't produced."
+   ],
+   "ar": [
+    "**المناعة الفاعلة المكتسبة صناعيًا:** تتحقّق بإعطاء **لقاح أو ذوفان**.",
+    "فيحفّز اللقاح أو الذوفان الجهاز المناعي على إنتاج أضداد ضد مستضد معيّن، لكن دون ظهور أعراض المرض."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": "**Artificially acquired passive immunity:** administration of a specific **immunoglobulin** (when antibodies developed in another person or animal donor are injected into an individual usually intravenous)",
+   "ar": "**المناعة المنفعلة المكتسبة صناعيًا:** إعطاء **غلوبولين مناعي** نوعي (حين تُحقن في الفرد أضداد تكوّنت في شخص آخر أو حيوان متبرّع، عادةً في الوريد)"
+  },
+  {
+   "t": "figure",
+   "src": "assets/types-of-immunity.png",
+   "en": "Types of Immunity: active (natural: infection; artificial: vaccination) and passive (natural: maternal antibodies; artificial: monoclonal antibodies)",
+   "ar": "أنواع المناعة: الفاعلة (الطبيعية: العدوى؛ الصناعية: التلقيح) والمنفعلة (الطبيعية: أضداد الأم؛ الصناعية: الأضداد وحيدة النسيلة)",
+   "h": "40mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "Active (body makes antibodies)",
+     "فاعلة (الجسم يصنع الأضداد)"
+    ],
+    [
+     "Passive (ready antibodies)",
+     "منفعلة (أضداد جاهزة)"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Natural**",
+      "**طبيعية**"
+     ],
+     [
+      "Infection — lasts many years",
+      "العدوى — تدوم سنوات"
+     ],
+     [
+      "Mother → fetus (IgG) + breast milk — weeks to 2 months",
+      "الأم ← الجنين (IgG) + الحليب — أسابيع إلى شهرين"
+     ]
+    ],
+    [
+     [
+      "**Artificial**",
+      "**صناعية**"
+     ],
+     [
+      "Vaccine or toxoid",
+      "لقاح أو ذوفان"
+     ],
+     [
+      "Immunoglobulin / monoclonal antibodies",
+      "غلوبولين مناعي / أضداد وحيدة النسيلة"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    18,
+    41,
+    41
+   ],
+   "style": "summary",
+   "label_en": "4 acquired types",
+   "label_ar": "4 أنواع مكتسبة"
+  },
+  {
+   "t": "note",
+   "en": [
+    "5 methods: **innate** + natural/artificial × active/passive.",
+    "**IgG crosses the placenta**; breast milk gives passive immunity.",
+    "Vaccine = artificial **active**; immunoglobulin = artificial **passive**."
+   ],
+   "ar": [
+    "5 طرق: **الفطرية** + طبيعية/صناعية × فاعلة/منفعلة.",
+    "**IgG يعبر المشيمة**؛ وحليب الثدي يعطي مناعة منفعلة.",
+    "اللقاح = صناعية **فاعلة**؛ والغلوبولين المناعي = صناعية **منفعلة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Terms",
+   "ar": "المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    [
+     "Definition",
+     "التعريف"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Immunity**",
+      "**المناعة**"
+     ],
+     [
+      "An inherited or acquired state, in which the individual resistant to the infectious agent",
+      "حالة موروثة أو مكتسبة يقاوم فيها الفرد العامل المعدي"
+     ]
+    ],
+    [
+     [
+      "**Antibody**",
+      "**الضد (الجسم المضاد)**"
+     ],
+     [
+      "A protein, found mostly in serum, formed in response to antigen exposure",
+      "بروتين يوجد غالبًا في المصل، يتكوّن استجابةً للتعرّض لمستضد"
+     ]
+    ],
+    [
+     [
+      "**Antigen**",
+      "**المستضد**"
+     ],
+     [
+      "A variety of foreign substances, including bacteria, viruses, toxins, and foreign proteins, that stimulate the formation of antibodies.",
+      "مجموعة من المواد الغريبة، منها البكتيريا والفيروسات والسموم والبروتينات الغريبة، تحفّز تكوين الأضداد."
+     ]
+    ],
+    [
+     [
+      "**Immunization**",
+      "**التمنيع**"
+     ],
+     [
+      "process of inducing (active or passive immunity) artificially (response of vaccination)",
+      "عملية إحداث مناعة (فاعلة أو منفعلة) صناعيًا (استجابة التلقيح)"
+     ]
+    ],
+    [
+     [
+      "**Vaccination**",
+      "**التلقيح**"
+     ],
+     [
+      "administer of vaccine to individual",
+      "إعطاء اللقاح للفرد"
+     ]
+    ],
+    [
+     [
+      "**Vaccine**",
+      "**اللقاح**"
+     ],
+     [
+      "A suspension of (attenuated or inactivated microorganisms or fractions of microorganism) administered to stimulate immunity",
+      "معلّق من (أحياء مجهرية موهَنة أو معطّلة أو أجزاء منها) يُعطى لتحفيز المناعة"
+     ]
+    ],
+    [
+     [
+      "**Attenuate**",
+      "**الإيهان (التوهين)**"
+     ],
+     [
+      "Reduce the virulence of microorganism by heat or chemicals",
+      "تقليل ضراوة الحي المجهري بالحرارة أو المواد الكيميائية"
+     ]
+    ],
+    [
+     [
+      "**Immunobiologic**",
+      "**المادة المناعية الحيوية**"
+     ],
+     [
+      "antigenic substance (e.g., vaccines and toxoids) or antibody containing preparations (e.g., globulins and antitoxins) from human or animal donors, used for active or passive immunization or therapy.",
+      "مادة مستضدية (مثل اللقاحات والذوفانات) أو مستحضرات تحتوي أضدادًا (مثل الغلوبولينات ومضادات السموم) من متبرّعين بشر أو حيوانات، تُستعمل للتمنيع الفاعل أو المنفعل أو العلاج."
+     ]
+    ],
+    [
+     [
+      "**Toxoids**",
+      "**الذوفانات**"
+     ],
+     [
+      "a modified bacterial toxin that has been made nontoxic but retains the ability to stimulate the formation of antitoxin.",
+      "سمّ بكتيري معدّل جُعل غير سام لكنه يحتفظ بقدرته على تحفيز تكوين مضاد السم."
+     ]
+    ],
+    [
+     [
+      "**Antitoxin**",
+      "**مضاد السم (الترياق)**"
+     ],
+     [
+      "a solution of antibodies (e.g., diphtheria antitoxin and botulinum antitoxin) derived from the serum of animals immunized with specific antigens and used to confer passive immunity and for treatment.",
+      "محلول أضداد (مثل مضاد سم الخناق ومضاد سم البوتولينوم) مشتقّ من مصل حيوانات مُنّعت بمستضدات معيّنة، يُستعمل لإعطاء مناعة منفعلة وللعلاج."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    76
+   ],
+   "style": "summary",
+   "label_en": "Terms 1",
+   "label_ar": "المصطلحات 1"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    [
+     "Definition",
+     "التعريف"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Immune globulin (IG): or intravenous immune globulin (IVIG)**",
+      "**الغلوبولين المناعي (IG) أو الغلوبولين المناعي الوريدي (IVIG)**"
+     ],
+     [
+      "a sterile solution containing antibodies from large pools of human blood plasma; primarily indicated for routine maintenance of immunity of certain immunodeficient persons and for passive immunization against measles and hepatitis A.",
+      "محلول معقّم يحتوي أضدادًا من مجمّعات كبيرة من بلازما الدم البشرية؛ يُستطبّ أساسًا للحفاظ الروتيني على مناعة بعض ناقصي المناعة وللتمنيع المنفعل ضد الحصبة والتهاب الكبد A."
+     ]
+    ],
+    [
+     [
+      "**Specific immune globulins**",
+      "**الغلوبولينات المناعية النوعية**"
+     ],
+     [
+      "special preparations obtained from blood plasma from donor pools preselected for a high antibody content against a specific antigen (e.g., hepatitis B immune globulin, varicella zoster immune globulin, rabies immune globulin, tetanus immune globulin, vaccinia immune globulin, and cytomegalovirus immune globulin); as with IG and IVIG, do not transmit hepatitis B virus, human immunodeficiency virus (HIV) or other infectious disease.",
+      "مستحضرات خاصّة من بلازما متبرّعين مختارين مسبقًا لاحتوائها نسبة أضداد عالية ضد مستضد معيّن (مثل غلوبولين التهاب الكبد B، وغلوبولين الحماق النطاقي، وغلوبولين داء الكلب، وغلوبولين الكزاز، وغلوبولين الوقس، وغلوبولين الفيروس المضخّم للخلايا)؛ ومثل IG وIVIG لا تنقل فيروس التهاب الكبد B ولا فيروس نقص المناعة البشري ولا أمراضًا معدية أخرى."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    26,
+    74
+   ],
+   "style": "summary",
+   "label_en": "Terms 2",
+   "label_ar": "المصطلحات 2"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Vaccine → **active**; antitoxin and immune globulins → **passive**.",
+    "Toxoid = toxin made **nontoxic** but still makes antitoxin.",
+    "IG/IVIG used for **measles and hepatitis A**."
+   ],
+   "ar": [
+    "اللقاح ← **فاعلة**؛ ومضاد السم والغلوبولينات المناعية ← **منفعلة**.",
+    "الذوفان = سمّ جُعل **غير سام** لكنه ما زال يكوّن مضاد السم.",
+    "IG/IVIG يُستعمل لـ**الحصبة والتهاب الكبد A**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Types and indications of vaccines",
+   "ar": "أنواع اللقاحات ودواعي التلقيح"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Type of vaccine",
+     "نوع اللقاح"
+    ],
+    [
+     "Description and example",
+     "الوصف والمثال"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Attenuated (weakened)**",
+      "**الموهَن (المضعَّف)**"
+     ],
+     [
+      "live viruses are used in some vaccines such as in the measles, mumps, and rubella (MMR) vaccine.",
+      "تُستعمل فيروسات حيّة في بعض اللقاحات مثل لقاح الحصبة والنكاف والحصبة الألمانية (MMR)."
+     ]
+    ],
+    [
+     [
+      "**Killed (inactivated)**",
+      "**المقتول (المعطّل)**"
+     ],
+     [
+      "viruses or bacteria are used in some vaccines, such as in IPV.",
+      "تُستعمل فيروسات أو بكتيريا مقتولة في بعض اللقاحات مثل IPV."
+     ]
+    ],
+    [
+     [
+      "**Toxoid vaccines**",
+      "**لقاحات الذوفان**"
+     ],
+     [
+      "contain an inactivated toxin produced by the bacterium. For example, the diphtheria and tetanus vaccines.",
+      "تحتوي سمًّا معطّلًا تنتجه البكتيريا. مثل لقاحي الخناق والكزاز."
+     ]
+    ],
+    [
+     [
+      "**Conjugate vaccines**",
+      "**اللقاحات المقترنة**"
+     ],
+     [
+      "(such as Haemophilus influenza type B HIB) contain parts of bacteria combined with proteins.",
+      "(مثل المستدمية النزلية نوع B ‏HIB) تحتوي أجزاء من البكتيريا مقترنة ببروتينات."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    26,
+    74
+   ],
+   "style": "summary",
+   "label_en": "4 vaccine types",
+   "label_ar": "4 أنواع لقاحات"
+  },
+  {
+   "t": "card",
+   "en": "**Indication of Immunization**",
+   "ar": "**دواعي التلقيح**",
+   "list_en": [
+    "Immunizations **protect you or your child** from dangerous diseases.",
+    "Immunizations help **reduce the spread** of disease to others.",
+    "Vaccines protect not only yourself but also **others around you**",
+    "Getting immunized **costs less** than getting treated for the diseases that the shots protect you from."
+   ],
+   "list_ar": [
+    "يحميك التلقيح **أنت أو طفلك** من الأمراض الخطيرة.",
+    "ويساعد التلقيح في **تقليل انتشار** المرض للآخرين.",
+    "واللقاحات لا تحميك وحدك بل **تحمي من حولك** أيضًا",
+    "والتلقيح **أقلّ كلفة** من علاج الأمراض التي تحميك منها الحقن."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Live attenuated = **MMR**; killed = **IPV**; toxoid = **diphtheria, tetanus**; conjugate = **HIB**."
+   ],
+   "ar": [
+    "الحي الموهَن = **MMR**؛ والمقتول = **IPV**؛ والذوفان = **الخناق والكزاز**؛ والمقترن = **HIB**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Summary of immunization by dose, route, and age",
+   "ar": "جدول التلقيح بحسب الجرعة والطريق والعمر"
+  },
+  {
+   "t": "card",
+   "en": "Iraqi immunization schedule according to the child's age",
+   "ar": "جدول التلقيح في العراق بحسب عمر الطفل"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Age",
+     "العمر"
+    ],
+    [
+     "Vaccines",
+     "اللقاحات"
+    ],
+    [
+     "Route",
+     "الطريق"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**First 24 hr**",
+      "**أول 24 ساعة**"
+     ],
+     [
+      "Hepatitis B virus HBV.",
+      "التهاب الكبد B ‏(HBV)."
+     ],
+     "IM"
+    ],
+    [
+     [
+      "**1 W – 1 M**",
+      "**أسبوع – شهر**"
+     ],
+     [
+      "Oral Polio vaccine OPV-0. / BCG (Bacillus Calmette Guerin vaccine).",
+      "شلل الأطفال الفموي OPV-0. / لقاح BCG (عصيّة كالميت-غيران)."
+     ],
+     "Oral / I.D"
+    ],
+    [
+     [
+      "**2 months**",
+      "**شهران**"
+     ],
+     [
+      "Oral Polio vaccine OPV-1. / Pentavalent vaccine 1st dose DPT (Diphtheria + Tetanus + Pertussis + Hemophilus + Influenza b virus + Hepatitis B virus). / Rota virus 1st dose. / Pneumococcal conjugate vaccine",
+      "شلل الأطفال الفموي OPV-1. / اللقاح الخماسي الجرعة 1 DPT (الخناق + الكزاز + السعال الديكي + المستدمية النزلية b + التهاب الكبد B). / الروتا الجرعة 1. / لقاح المكوّرات الرئوية المقترن"
+     ],
+     "Oral / IM / Oral / IM"
+    ],
+    [
+     [
+      "**4 months**",
+      "**4 أشهر**"
+     ],
+     [
+      "Oral Polio vaccine OPV-2. / Pentavalent vaccine DPT 2nd dose. / Rota virus 2nd dose. / Pneumococcal conjugate vaccine. / Injectable Polio vaccine IPV.",
+      "شلل الأطفال الفموي OPV-2. / الخماسي الجرعة 2. / الروتا الجرعة 2. / المكوّرات الرئوية المقترن. / شلل الأطفال المحقون IPV."
+     ],
+     "Oral / IM / Oral / IM / IM"
+    ],
+    [
+     [
+      "**6 months**",
+      "**6 أشهر**"
+     ],
+     [
+      "Oral Polio vaccine OPV-3 / Pentavalent vaccine DPT 3rd dose. / Rota virus 3rd dose. / Pneumococcal conjugate vaccine. / Injectable Polio vaccine IPV.",
+      "شلل الأطفال الفموي OPV-3 / الخماسي الجرعة 3. / الروتا الجرعة 3. / المكوّرات الرئوية المقترن. / شلل الأطفال المحقون IPV."
+     ],
+     "Oral / IM / Oral / IM / IM"
+    ],
+    [
+     [
+      "**9 months**",
+      "**9 أشهر**"
+     ],
+     [
+      "Measles. / Vitamin A (100,000 IU)",
+      "الحصبة. / فيتامين A ‏(100,000 وحدة دولية)"
+     ],
+     "S.C / Oral"
+    ],
+    [
+     [
+      "**12 to 15 mo**",
+      "**12–15 شهرًا**"
+     ],
+     [
+      "MMR 1st dose (measles, mumps, rubella).",
+      "MMR الجرعة 1 (الحصبة والنكاف والحصبة الألمانية)."
+     ],
+     "S.C"
+    ],
+    [
+     [
+      "**18 months**",
+      "**18 شهرًا**"
+     ],
+     [
+      "Oral Polio vaccine (OPV) 1st booster dose. / First booster dose (Diphtheria + Tetanus + Pertussis DTP). / MMR (measles, mumps, rubella) 2nd dose. / Vitamin A (200, 000 IU).",
+      "الجرعة المنشّطة الأولى لشلل الأطفال الفموي. / الجرعة المنشّطة الأولى (الخناق + الكزاز + السعال الديكي DTP). / MMR الجرعة 2. / فيتامين A ‏(200,000 وحدة)."
+     ],
+     "Oral / IM / S.C / Oral"
+    ],
+    [
+     [
+      "**4–6 years**",
+      "**4–6 سنوات**"
+     ],
+     [
+      "Oral Polio vaccine OPV 2nd booster dose. / Second booster dose (Diphtheria + Tetanus Pertussis DTP). / Vitamin A (200, 000 IU).",
+      "الجرعة المنشّطة الثانية لشلل الأطفال الفموي. / الجرعة المنشّطة الثانية (DTP). / فيتامين A ‏(200,000 وحدة)."
+     ],
+     "Oral / IM / Oral"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    16,
+    66,
+    18
+   ],
+   "style": "summary",
+   "label_en": "Iraq schedule",
+   "label_ar": "جدول العراق"
+  },
+  {
+   "t": "note",
+   "en": "Routes: **IM** = intramuscular (عضلي)، **I.D** = intradermal (داخل الأدمة)، **S.C** = subcutaneous (تحت الجلد)، **Oral** = by mouth (فموي).",
+   "ar": "الطرق: **IM** عضلي، و**I.D** داخل الأدمة، و**S.C** تحت الجلد، و**Oral** فموي.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Birth: **HBV**; first month: **OPV-0 + BCG (I.D)**.",
+    "2, 4, 6 months: **OPV + pentavalent + rota + pneumococcal** (+ IPV at 4 and 6).",
+    "9 m: **measles + vit A**; 12–15 m: **MMR 1**; 18 m and 4–6 y: **boosters**."
+   ],
+   "ar": [
+    "الولادة: **HBV**؛ والشهر الأول: **OPV-0 + BCG (داخل الأدمة)**.",
+    "2 و4 و6 أشهر: **OPV + الخماسي + الروتا + المكوّرات الرئوية** (+ IPV في 4 و6).",
+    "9 أشهر: **الحصبة + فيتامين A**؛ و12–15 شهرًا: **MMR 1**؛ و18 شهرًا و4–6 سنوات: **الجرعات المنشّطة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Contraindications, side effects and nursing care",
+   "ar": "موانع التلقيح وأعراضه الجانبية والرعاية التمريضية"
+  },
+  {
+   "t": "card",
+   "en": "**Contraindications to vaccine administration**",
+   "ar": "**موانع إعطاء اللقاح**",
+   "list_en": [
+    "Mild illnesses and low-grade fevers that are common in children are **not contraindications** .",
+    "However, there are several reasons to withhold or delay vaccine administration :",
+    "Child with moderate to severe illness or a history of allergic response or anaphylaxis to vaccine .",
+    "Vaccination with containing live or attenuated viruses not given to child with immunodeficiency disease (leukemic), or receiving immunosuppressive therapy .",
+    [
+     "The DTAP vaccine not given to a child who has a progressive and active central nervous system (CNS) problem.",
+     "However, a child with cerebral palsy can receive immunizations ."
+    ],
+    "Feverish child",
+    "past history of intussusceptions"
+   ],
+   "list_ar": [
+    "الأمراض الخفيفة والحمّى البسيطة الشائعة عند الأطفال **ليست موانع**.",
+    "لكن هناك أسبابًا عدّة لحجب اللقاح أو تأجيله:",
+    "طفل بمرض متوسط إلى شديد أو بتاريخ تحسّس أو صدمة تأقية من لقاح.",
+    "اللقاحات الحاوية على فيروسات حيّة أو موهَنة لا تُعطى لطفل بمرض نقص المناعة (ابيضاض الدم) أو يتلقّى علاجًا مثبّطًا للمناعة.",
+    [
+     "لقاح DTaP لا يُعطى لطفل لديه مشكلة متقدّمة ونشطة في الجهاز العصبي المركزي.",
+     "لكن الطفل المصاب بالشلل الدماغي يمكنه تلقّي اللقاحات."
+    ],
+    "طفل محموم",
+    "تاريخ سابق من الانغلاف المعوي"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Side Effects of Vaccines",
+     "الأعراض الجانبية للقاحات"
+    ],
+    [
+     "Nursing observation before giving the Vaccines",
+     "ملاحظات الممرّض قبل إعطاء اللقاح"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "1. Fever",
+      "1. الحمّى"
+     ],
+     [
+      "1. Is the child sick today?",
+      "1. هل الطفل مريض اليوم؟"
+     ]
+    ],
+    [
+     [
+      "2. Soreness",
+      "2. الألم"
+     ],
+     [
+      "2. Does the child have allergies reaction before or after a vaccination?",
+      "2. هل لدى الطفل تفاعل تحسّسي قبل اللقاح أو بعده؟"
+     ]
+    ],
+    [
+     [
+      "3. Lump under the skin where the shot was given.",
+      "3. كتلة تحت الجلد مكان الحقنة."
+     ],
+     [
+      "3. Does the child have problem with immune system due to disease or medication?",
+      "3. هل لدى الطفل مشكلة في المناعة بسبب مرض أو دواء؟"
+     ]
+    ],
+    [
+     [
+      "4. Redness at the injection site",
+      "4. احمرار مكان الحقن"
+     ],
+     [
+      "4. If the child gotten a transfusion, or any other blood product, recently?",
+      "4. هل تلقّى الطفل مؤخرًا نقل دم أو أي منتج دموي آخر؟"
+     ]
+    ],
+    [
+     "",
+     [
+      "5. Does the child have problem with nervous system such as convulsions?",
+      "5. هل لدى الطفل مشكلة في الجهاز العصبي مثل التشنّجات؟"
+     ]
+    ]
+   ],
+   "widths": [
+    40,
+    60
+   ],
+   "style": "summary",
+   "label_en": "Side effects and checks",
+   "label_ar": "الأعراض والفحوص"
+  },
+  {
+   "t": "card",
+   "en": "**Nursing care before giving immunization**",
+   "ar": "**الرعاية التمريضية قبل إعطاء التلقيح**",
+   "list_en": [
+    "Hand washing.",
+    "Check vital signs",
+    "Address Gloves.",
+    [
+     "Proper equipment and 1means of needle disposal.",
+     "1or 3 mL syringe with 22-25 g needle."
+    ],
+    "Needle safety device.",
+    "Check expiration date.",
+    "Document lot number on chart nursing consideration during immunization asks about previous reaction to immunization.",
+    "Use caution in pregnancy.",
+    "Defer administration in case of acute infection."
+   ],
+   "list_ar": [
+    "غسل اليدين.",
+    "فحص العلامات الحيوية",
+    "ارتداء القفّازات.",
+    [
+     "أدوات مناسبة ووسيلة للتخلّص من الإبر.",
+     "محقنة 1 أو 3 مل بإبرة قياس 22–25."
+    ],
+    "أداة أمان الإبرة.",
+    "فحص تاريخ الانتهاء.",
+    "توثيق رقم التشغيلة في الملف؛ ومن الاعتبارات التمريضية أثناء التلقيح السؤال عن تفاعل سابق للقاح.",
+    "الحذر في الحمل.",
+    "تأجيل الإعطاء عند وجود عدوى حادّة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Nursing care before giving immunization (continued)**",
+   "ar": "**الرعاية التمريضية قبل إعطاء التلقيح (تكملة)**",
+   "list_en": [
+    "Provide comfort measures to help the patient cope with the discomforts of the injection: analgesics.",
+    "Provide patient with written record of immunization and timing for booster immunization",
+    "Following administration of vaccines, nurses should strongly consider observing patients for **syncope and other immediate allergic reactions for a period of 15-20 minutes**.",
+    [
+     "Another key aspect of safety is proper storage, handling, and administration of vaccines.",
+     "Storage temperatures and expiration dates."
+    ],
+    "Screening all vaccine recipients for contraindications and precautions prior to administering immunizations."
+   ],
+   "list_ar": [
+    "توفير وسائل الراحة لمساعدة المريض على تحمّل انزعاج الحقنة: المسكّنات.",
+    "إعطاء المريض سجلًّا مكتوبًا بالتلقيح وموعد الجرعة المنشّطة",
+    "بعد إعطاء اللقاح يجب على الممرّضين بقوّة مراقبة المرضى لـ**الإغماء والتفاعلات التحسّسية الفورية مدّة 15–20 دقيقة**.",
+    [
+     "ومن جوانب السلامة المهمّة أيضًا الخزن والتداول والإعطاء الصحيح للقاحات.",
+     "ودرجات حرارة الخزن وتواريخ الانتهاء."
+    ],
+    "وفحص كل متلقّي اللقاح للموانع والاحتياطات قبل إعطاء اللقاح."
+   ],
+   "start": 10
+  },
+  {
+   "t": "figure",
+   "src": "assets/nursing-responsibilities.png",
+   "en": "Nursing Responsibilities: review the schedule, storage and handling, action, routes/doses/sites/technique, aspirate with each injection, multiple injections in separate sites",
+   "ar": "مسؤوليات الممرّض: مراجعة الجدول، والخزن والتداول، وعمل اللقاح، والطرق والجرعات والمواقع والتقنية، والسحب مع كل حقنة، والحقن المتعدّدة في مواقع منفصلة",
+   "h": "52mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label in the figure",
+     "التسمية في الشكل"
+    ],
+    [
+     "Arabic",
+     "بالعربي"
+    ]
+   ],
+   "rows": [
+    [
+     "Review immunization schedule for updates",
+     "راجع جدول التلقيح للتحديثات"
+    ],
+    [
+     "Know storing and handling requirements for all vaccines",
+     "اعرف متطلّبات خزن كل اللقاحات وتداولها"
+    ],
+    [
+     "Know the action of the vaccine",
+     "اعرف عمل اللقاح"
+    ],
+    [
+     "Know administration routes, dosages, sites and technique",
+     "اعرف طرق الإعطاء والجرعات والمواقع والتقنية"
+    ],
+    [
+     "Aspirate with each injection",
+     "اسحب (تأكّد من عدم دخول وعاء) مع كل حقنة"
+    ],
+    [
+     "May have multiple injections on same day, just be sure to give in separate sites",
+     "قد تُعطى حقن متعدّدة في اليوم نفسه، بشرط إعطائها في مواقع منفصلة"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    50,
+    50
+   ],
+   "label_en": "Figure labels",
+   "label_ar": "تسميات الشكل"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Mild illness/low fever is **not** a contraindication; moderate–severe illness, anaphylaxis, immunodeficiency (no live vaccines) are.",
+    "Side effects: **fever, soreness, lump, redness**.",
+    "Watch **15–20 min** after the vaccine for syncope/allergy."
+   ],
+   "ar": [
+    "المرض الخفيف/الحمّى البسيطة **ليست** مانعًا؛ أمّا المرض المتوسط–الشديد والصدمة التأقية ونقص المناعة (لا لقاحات حيّة) فموانع.",
+    "الأعراض: **الحمّى، والألم، والكتلة، والاحمرار**.",
+    "راقب **15–20 دقيقة** بعد اللقاح للإغماء/التحسّس."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Polio, BCG and hepatitis B vaccines",
+   "ar": "لقاحات شلل الأطفال وBCG والتهاب الكبد B"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Disease",
+     "المرض"
+    ],
+    [
+     "Vaccine facts",
+     "معلومات اللقاح"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Poliomyelitis** (Virus)",
+      "**شلل الأطفال** (فيروس)"
+     ],
+     [
+      "Polio vaccine (oral, injectable) • Orally 2 drops (special technique) • Keep in temperature (2–8 ) c",
+      "لقاح شلل الأطفال (فموي، محقون) • قطرتان بالفم (تقنية خاصّة) • يُحفظ بدرجة (2–8) مئوية"
+     ]
+    ],
+    [
+     [
+      "**Tuberculosis** (Bacteria)",
+      "**التدرّن** (بكتيريا)"
+     ],
+     [
+      "BCG vaccine (Bacillus–Calmette–Guirine) • Intradermal (0.05 cc) in left upper arm • Used the soluble vaccine until 6 hr • develop a raised bubble at the site of the injection; About 2 to 6 weeks a small spot may appear, then turn into a blister, which sometimes oozes before becoming a crusty scab • If no (red swollen) after (8–12 weeks) revaccination • keep in temperature (2–8) c",
+      "لقاح BCG • داخل الأدمة (0.05 سم³) في أعلى الذراع الأيسر • يُستعمل اللقاح المحلول خلال 6 ساعات • تتكوّن فقاعة مرتفعة مكان الحقن، وبعد 2–6 أسابيع قد تظهر بقعة صغيرة تتحوّل إلى بثرة تنزّ أحيانًا ثم تصبح قشرة • إذا لم يظهر (احمرار وانتفاخ) بعد 8–12 أسبوعًا يُعاد اللقاح • يُحفظ بدرجة (2–8) مئوية"
+     ]
+    ],
+    [
+     [
+      "**Hepatitis B virus** (Virus)",
+      "**التهاب الكبد B** (فيروس)"
+     ],
+     [
+      "Intramuscular in right upper thigh deeply (0.5 cc) • Given after 24 hr of delivery • Delay vaccine if newborn less (2 kg) or premature given after 1 month • Keep at (2–8) c",
+      "عضليًا عميقًا في أعلى الفخذ الأيمن (0.5 سم³) • يُعطى خلال 24 ساعة من الولادة • يؤجَّل إذا كان الوليد أقل من 2 كغم أو خديجًا ويُعطى بعد شهر • يُحفظ بدرجة (2–8) مئوية"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    78
+   ],
+   "style": "summary",
+   "label_en": "Three vaccines",
+   "label_ar": "ثلاثة لقاحات"
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/polio-vaccine.png",
+     "en": "Oral polio vaccine: 2 drops",
+     "ar": "لقاح شلل الأطفال الفموي: قطرتان",
+     "h": "34mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/hbv-vaccine.png",
+     "en": "Hepatitis B vaccine: IM, right upper thigh",
+     "ar": "لقاح التهاب الكبد B: عضلي في أعلى الفخذ الأيمن",
+     "h": "34mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/bcg-vaccine.png",
+   "en": "BCG vaccine: intradermal in the left upper arm and the site reaction",
+   "ar": "لقاح BCG: داخل الأدمة في أعلى الذراع الأيسر وتفاعل مكان الحقن",
+   "h": "40mm"
+  },
+  {
+   "t": "note",
+   "en": "\"Guirine\" is **Guérin** (Bacillus Calmette–Guérin); \"Given after 24 hr\" means within the first 24 hours, as in the schedule.",
+   "ar": "\"Guirine\" هي **Guérin** (عصيّة كالميت–غيران)؛ و\"Given after 24 hr\" المقصود خلال أول 24 ساعة كما في الجدول.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "All three are kept at **2–8 °C**.",
+    "Polio: **2 oral drops**; BCG: **0.05 cc intradermal, left arm**; HBV: **0.5 cc IM, right thigh**.",
+    "No BCG reaction after **8–12 weeks** → revaccinate."
+   ],
+   "ar": [
+    "الثلاثة تُحفظ بدرجة **2–8 مئوية**.",
+    "شلل الأطفال: **قطرتان بالفم**؛ وBCG: **0.05 سم³ داخل الأدمة بالذراع الأيسر**؛ وHBV: **0.5 سم³ عضلي بالفخذ الأيمن**.",
+    "لا تفاعل لـBCG بعد **8–12 أسبوعًا** ← يُعاد اللقاح."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Infant mortality rate**",
+     "معدّل وفيات الرضّع"
+    ],
+    [
+     "**Morbidity**",
+     "المراضة / معدّل الإصابة بالمرض"
+    ],
+    [
+     "**Gestational age**",
+     "عمر الحمل"
+    ],
+    [
+     "**Sudden infant death syndrome**",
+     "متلازمة موت الرضيع المفاجئ / موت المهد"
+    ],
+    [
+     "**Respiratory Distress Syndrome**",
+     "متلازمة الضائقة التنفسية"
+    ],
+    [
+     "**Ambulatory setting**",
+     "البيئة الخارجية / الرعاية الإسعافية غير المقيمة"
+    ],
+    [
+     "**Advocate**",
+     "مدافع / مناصر"
+    ],
+    [
+     "**Family centered care**",
+     "الرعاية المتمركزة حول العائلة"
+    ],
+    [
+     "**Atraumatic care**",
+     "الرعاية اللاصدمية / الرعاية بلا ألم"
+    ],
+    [
+     "**Case management**",
+     "إدارة الحالة"
+    ],
+    [
+     "**Cost containment**",
+     "احتواء التكاليف"
+    ],
+    [
+     "**Bioethics**",
+     "أخلاقيات علم الأحياء / الأخلاقيات الحيوية"
+    ],
+    [
+     "**Beneficence**",
+     "الإحسان / فعل الخير"
+    ],
+    [
+     "**Egocentric**",
+     "متمركز حول الذات"
+    ],
+    [
+     "**Immunization / Vaccination**",
+     "التمنيع / التلقيح"
+    ],
+    [
+     "**Attenuated**",
+     "موهَن / مضعَّف"
+    ],
+    [
+     "**Toxoid**",
+     "ذوفان / سمّ معطّل"
+    ],
+    [
+     "**Antitoxin**",
+     "مضاد السم / الترياق"
+    ],
+    [
+     "**Immune globulin (IG / IVIG)**",
+     "الغلوبولين المناعي (الوريدي)"
+    ],
+    [
+     "**Conjugate vaccine**",
+     "لقاح مقترن"
+    ],
+    [
+     "**Pentavalent vaccine**",
+     "اللقاح الخماسي"
+    ],
+    [
+     "**Intussusception**",
+     "الانغلاف المعوي / انغلاف الأمعاء"
+    ],
+    [
+     "**Anaphylaxis**",
+     "الصدمة التأقية / التحسّس المفرط"
+    ],
+    [
+     "**Syncope**",
+     "الإغماء"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Statistics and causes",
+    "topic_ar": "الإحصاءات والأسباب"
+   },
+   {
+    "en": "Birth rate is the number of live births per:",
+    "ar": "معدّل الولادات هو عدد الولادات الحيّة لكل:",
+    "options": [
+     [
+      "100 population per year",
+      "100 من السكان سنويًا"
+     ],
+     [
+      "1000 live births",
+      "1000 ولادة حيّة"
+     ],
+     [
+      "1000 population per year",
+      "1000 من السكان سنويًا"
+     ],
+     [
+      "10,000 women",
+      "10,000 امرأة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Infant mortality rate counts deaths during:",
+    "ar": "يحسب معدّل وفيات الرضّع الوفيات خلال:",
+    "options": [
+     [
+      "Pregnancy",
+      "الحمل"
+     ],
+     [
+      "The first week",
+      "الأسبوع الأول"
+     ],
+     [
+      "The first 5 years",
+      "أول 5 سنوات"
+     ],
+     [
+      "The first 12 months of extra uterine life",
+      "أول 12 شهرًا من الحياة خارج الرحم"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which is NOT a factor affecting infant mortality rate in the lecture?",
+    "ar": "أي مما يأتي ليس من العوامل المؤثّرة في وفيات الرضّع في المحاضرة؟",
+    "options": [
+     [
+      "Birth weight",
+      "وزن الولادة"
+     ],
+     [
+      "Father's height",
+      "طول الأب"
+     ],
+     [
+      "Maternal age",
+      "عمر الأم"
+     ],
+     [
+      "Low maternal education",
+      "انخفاض تعليم الأم"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The leading cause of death among infants is:",
+    "ar": "السبب الأول لوفاة الرضّع:",
+    "options": [
+     [
+      "Pneumonia & other respiratory disorders (39.7%)",
+      "ذات الرئة واضطرابات تنفسية أخرى (39.7%)"
+     ],
+     [
+      "Sudden infant death",
+      "موت الرضيع المفاجئ"
+     ],
+     [
+      "Diarrhea",
+      "الإسهال"
+     ],
+     [
+      "Congenital malformation",
+      "التشوّهات الخلقية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The second leading cause of death in children 1-4 years is:",
+    "ar": "السبب الثاني لوفاة الأطفال بعمر 1–4 سنوات:",
+    "options": [
+     [
+      "Malnutrition",
+      "سوء التغذية"
+     ],
+     [
+      "Transport accidents",
+      "حوادث النقل"
+     ],
+     [
+      "Infectious disease",
+      "الأمراض المعدية"
+     ],
+     [
+      "Prematurity",
+      "الخداج"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "An illness that runs its course regardless of drug intervention is:",
+    "ar": "المرض الذي يأخذ مساره بغضّ النظر عن التدخّل الدوائي:",
+    "options": [
+     [
+      "Chronic",
+      "مزمن"
+     ],
+     [
+      "Disability",
+      "إعاقة"
+     ],
+     [
+      "Acute",
+      "حادّ"
+     ],
+     [
+      "Congenital",
+      "خلقي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Pediatric nursing, roles and trends",
+    "topic_ar": "تمريض الأطفال والأدوار والاتجاهات"
+   },
+   {
+    "en": "Pediatric nursing covers children from:",
+    "ar": "يشمل تمريض الأطفال الأطفال من:",
+    "options": [
+     [
+      "Birth through adolescent",
+      "الولادة حتى المراهقة"
+     ],
+     [
+      "1 to 12 years",
+      "1 إلى 12 سنة"
+     ],
+     [
+      "Birth to 5 years",
+      "الولادة إلى 5 سنوات"
+     ],
+     [
+      "School age only",
+      "سنّ المدرسة فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "A school or physician's clinic is an example of:",
+    "ar": "المدرسة أو عيادة الطبيب مثال على:",
+    "options": [
+     [
+      "Institutional setting",
+      "بيئة مؤسّسية"
+     ],
+     [
+      "Tertiary hospital",
+      "مستشفى ثالثي"
+     ],
+     [
+      "Intensive care",
+      "عناية مركّزة"
+     ],
+     [
+      "Ambulatory setting",
+      "بيئة خارجية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The first quality of a good pediatric nurse in the lecture is:",
+    "ar": "أوّل صفة لممرّض الأطفال الجيد في المحاضرة:",
+    "options": [
+     [
+      "Fast",
+      "سريع"
+     ],
+     [
+      "Researcher",
+      "باحث"
+     ],
+     [
+      "Strict",
+      "صارم"
+     ],
+     [
+      "Good observer",
+      "ملاحظ جيد"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Dealing with the child's disabilities belongs to the:",
+    "ar": "التعامل مع إعاقات الطفل يتبع:",
+    "options": [
+     [
+      "Primary level",
+      "المستوى الأولي"
+     ],
+     [
+      "Secondary level",
+      "المستوى الثانوي"
+     ],
+     [
+      "Tertiary level",
+      "المستوى الثالثي"
+     ],
+     [
+      "No level",
+      "لا مستوى"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Health education and immunization belong to the:",
+    "ar": "التثقيف الصحي والتلقيح يتبعان:",
+    "options": [
+     [
+      "Primary level",
+      "المستوى الأولي"
+     ],
+     [
+      "Secondary level",
+      "المستوى الثانوي"
+     ],
+     [
+      "Tertiary level",
+      "المستوى الثالثي"
+     ],
+     [
+      "Rehabilitation",
+      "التأهيل"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "A system in which one nurse manages the care of one child for 24 hours is:",
+    "ar": "النظام الذي يدير فيه ممرّض واحد رعاية طفل واحد 24 ساعة:",
+    "options": [
+     [
+      "Case management",
+      "إدارة الحالة"
+     ],
+     [
+      "Primary nursing",
+      "التمريض الأولي"
+     ],
+     [
+      "Family centered care",
+      "الرعاية المتمركزة حول العائلة"
+     ],
+     [
+      "Cost containment",
+      "احتواء التكاليف"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Atraumatic care aims to:",
+    "ar": "تهدف الرعاية اللاصدمية إلى:",
+    "options": [
+     [
+      "Replace the family",
+      "استبدال العائلة"
+     ],
+     [
+      "Cut nursing positions",
+      "تقليص الوظائف التمريضية"
+     ],
+     [
+      "Increase cost",
+      "زيادة الكلفة"
+     ],
+     [
+      "Reduce mental and physical harm",
+      "تقليل الأذى النفسي والجسدي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Case management focuses on:",
+    "ar": "تركّز إدارة الحالة على:",
+    "options": [
+     [
+      "Only cost",
+      "الكلفة فقط"
+     ],
+     [
+      "Only research",
+      "البحث فقط"
+     ],
+     [
+      "Both quality and cost outcome",
+      "الجودة والكلفة معًا"
+     ],
+     [
+      "Only education",
+      "التثقيف فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which is NOT a general ethical principle in the lecture?",
+    "ar": "أي مما يأتي ليس من المبادئ الأخلاقية العامة في المحاضرة؟",
+    "options": [
+     [
+      "Profit",
+      "الربح"
+     ],
+     [
+      "Confidentiality",
+      "السرّية"
+     ],
+     [
+      "Autonomy",
+      "الاستقلالية"
+     ],
+     [
+      "Beneficence",
+      "الإحسان"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Communication",
+    "topic_ar": "التواصل"
+   },
+   {
+    "en": "Communication is described as a:",
+    "ar": "يوصف التواصل بأنه:",
+    "options": [
+     [
+      "One-way process",
+      "عملية باتّجاه واحد"
+     ],
+     [
+      "Two-way process",
+      "عملية باتّجاهين"
+     ],
+     [
+      "Verbal process only",
+      "عملية لفظية فقط"
+     ],
+     [
+      "Written process only",
+      "عملية مكتوبة فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "\"Body language\" is:",
+    "ar": "\"لغة الجسد\" هي:",
+    "options": [
+     [
+      "Verbal communication",
+      "التواصل اللفظي"
+     ],
+     [
+      "Nonverbal communication",
+      "التواصل غير اللفظي"
+     ],
+     [
+      "Written communication",
+      "التواصل المكتوب"
+     ],
+     [
+      "A barrier",
+      "معوّق"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Infants primarily communicate:",
+    "ar": "يتواصل الرضّع أساسًا:",
+    "options": [
+     [
+      "With words",
+      "بالكلمات"
+     ],
+     [
+      "In writing",
+      "بالكتابة"
+     ],
+     [
+      "Nonverbally",
+      "بشكل غير لفظي"
+     ],
+     [
+      "By reasoning",
+      "بالتفسير"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Children younger than 5 years are described as:",
+    "ar": "يوصف الأطفال دون 5 سنوات بأنهم:",
+    "options": [
+     [
+      "Logical",
+      "منطقيون"
+     ],
+     [
+      "Independent",
+      "مستقلّون"
+     ],
+     [
+      "Private",
+      "يحتاجون خصوصية"
+     ],
+     [
+      "Egocentric",
+      "متمركزون حول ذواتهم"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "With adolescents, the key communication skill is:",
+    "ar": "مع المراهقين، مهارة التواصل الأساسية:",
+    "options": [
+     [
+      "The art of listening",
+      "فنّ الإصغاء"
+     ],
+     [
+      "Drawing",
+      "الرسم"
+     ],
+     [
+      "Dolls",
+      "الدمى"
+     ],
+     [
+      "Play",
+      "اللعب"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The key to successful communication is:",
+    "ar": "مفتاح التواصل الناجح:",
+    "options": [
+     [
+      "Effective listening",
+      "الإصغاء الفعّال"
+     ],
+     [
+      "Talking fast",
+      "الكلام السريع"
+     ],
+     [
+      "Broad smiles",
+      "الابتسامات العريضة"
+     ],
+     [
+      "Extended eye contact",
+      "التحديق الطويل"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The universal language of children is:",
+    "ar": "اللغة العالمية للأطفال:",
+    "options": [
+     [
+      "Writing",
+      "الكتابة"
+     ],
+     [
+      "Play",
+      "اللعب"
+     ],
+     [
+      "Reading",
+      "القراءة"
+     ],
+     [
+      "Silence",
+      "الصمت"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "When communicating with a child, the nurse should:",
+    "ar": "عند التواصل مع الطفل يجب على الممرّض:",
+    "options": [
+     [
+      "Stand above the child",
+      "الوقوف فوق الطفل"
+     ],
+     [
+      "Offer a choice even when none exists",
+      "تقديم خيار حتى إن لم يوجد"
+     ],
+     [
+      "Assume a position at eye level with the child",
+      "اتّخاذ وضعية بمستوى عين الطفل"
+     ],
+     [
+      "Avoid the parents",
+      "تجنّب الوالدين"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Immunity and vaccines",
+    "topic_ar": "المناعة واللقاحات"
+   },
+   {
+    "en": "Infants are susceptible to infections because their immune systems are:",
+    "ar": "الرضّع معرّضون للعدوى لأن أجهزتهم المناعية:",
+    "options": [
+     [
+      "Overactive",
+      "مفرطة النشاط"
+     ],
+     [
+      "Absent",
+      "غائبة"
+     ],
+     [
+      "Mature",
+      "ناضجة"
+     ],
+     [
+      "Immature",
+      "غير ناضجة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The antibody that crosses the placenta is:",
+    "ar": "الضد الذي يعبر المشيمة:",
+    "options": [
+     [
+      "IgE",
+      "IgE"
+     ],
+     [
+      "IgM",
+      "IgM"
+     ],
+     [
+      "IgA",
+      "IgA"
+     ],
+     [
+      "Immunoglobulin G",
+      "الغلوبولين المناعي G"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Vaccination produces which type of immunity?",
+    "ar": "ينتج التلقيح أي نوع من المناعة؟",
+    "options": [
+     [
+      "Artificially acquired active",
+      "فاعلة مكتسبة صناعيًا"
+     ],
+     [
+      "Naturally acquired passive",
+      "منفعلة مكتسبة طبيعيًا"
+     ],
+     [
+      "Artificially acquired passive",
+      "منفعلة مكتسبة صناعيًا"
+     ],
+     [
+      "Innate",
+      "فطرية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Injection of a specific immunoglobulin gives:",
+    "ar": "حقن غلوبولين مناعي نوعي يعطي:",
+    "options": [
+     [
+      "Naturally acquired active immunity",
+      "مناعة فاعلة مكتسبة طبيعيًا"
+     ],
+     [
+      "Innate immunity",
+      "مناعة فطرية"
+     ],
+     [
+      "Artificially acquired passive immunity",
+      "مناعة منفعلة مكتسبة صناعيًا"
+     ],
+     [
+      "Artificially acquired active immunity",
+      "مناعة فاعلة مكتسبة صناعيًا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "A toxoid is:",
+    "ar": "الذوفان هو:",
+    "options": [
+     [
+      "A live virus",
+      "فيروس حي"
+     ],
+     [
+      "A bacterial toxin made nontoxic that still stimulates antitoxin",
+      "سمّ بكتيري جُعل غير سام ويحفّز مضاد السم"
+     ],
+     [
+      "A blood product",
+      "منتج دموي"
+     ],
+     [
+      "An antibody",
+      "ضد"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "MMR is an example of a:",
+    "ar": "لقاح MMR مثال على لقاح:",
+    "options": [
+     [
+      "Toxoid",
+      "ذوفان"
+     ],
+     [
+      "Killed vaccine",
+      "مقتول"
+     ],
+     [
+      "Live attenuated vaccine",
+      "حي موهَن"
+     ],
+     [
+      "Conjugate vaccine",
+      "مقترن"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "HIB is an example of a:",
+    "ar": "HIB مثال على لقاح:",
+    "options": [
+     [
+      "Toxoid vaccine",
+      "ذوفان"
+     ],
+     [
+      "Conjugate vaccine",
+      "مقترن"
+     ],
+     [
+      "Live attenuated vaccine",
+      "حي موهَن"
+     ],
+     [
+      "Killed vaccine",
+      "مقتول"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In the Iraqi schedule, the vaccine given in the first 24 hours is:",
+    "ar": "في جدول العراق، اللقاح الذي يُعطى في أول 24 ساعة:",
+    "options": [
+     [
+      "BCG",
+      "BCG"
+     ],
+     [
+      "MMR",
+      "MMR"
+     ],
+     [
+      "Measles",
+      "الحصبة"
+     ],
+     [
+      "Hepatitis B (HBV)",
+      "التهاب الكبد B ‏(HBV)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "BCG is given by the route:",
+    "ar": "يُعطى لقاح BCG بطريق:",
+    "options": [
+     [
+      "Intradermal",
+      "داخل الأدمة"
+     ],
+     [
+      "IM",
+      "عضلي"
+     ],
+     [
+      "S.C",
+      "تحت الجلد"
+     ],
+     [
+      "Oral",
+      "فموي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Measles vaccine is given at the age of:",
+    "ar": "يُعطى لقاح الحصبة بعمر:",
+    "options": [
+     [
+      "2 months",
+      "شهرين"
+     ],
+     [
+      "9 months",
+      "9 أشهر"
+     ],
+     [
+      "Birth",
+      "الولادة"
+     ],
+     [
+      "6 months",
+      "6 أشهر"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which is NOT a contraindication to vaccination?",
+    "ar": "أي مما يأتي ليس مانعًا للتلقيح؟",
+    "options": [
+     [
+      "History of anaphylaxis to the vaccine",
+      "تاريخ صدمة تأقية من اللقاح"
+     ],
+     [
+      "Past history of intussusception",
+      "تاريخ انغلاف معوي"
+     ],
+     [
+      "Immunodeficiency for live vaccines",
+      "نقص المناعة للقاحات الحيّة"
+     ],
+     [
+      "Mild illness with low-grade fever",
+      "مرض خفيف بحمّى بسيطة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "After vaccination, patients should be observed for allergic reactions for:",
+    "ar": "بعد التلقيح يُراقب المرضى للتفاعلات التحسّسية مدّة:",
+    "options": [
+     [
+      "15-20 minutes",
+      "15–20 دقيقة"
+     ],
+     [
+      "2 hours",
+      "ساعتين"
+     ],
+     [
+      "1-2 minutes",
+      "1–2 دقيقة"
+     ],
+     [
+      "24 hours",
+      "24 ساعة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Hepatitis B vaccine for the newborn is given:",
+    "ar": "يُعطى لقاح التهاب الكبد B للوليد:",
+    "options": [
+     [
+      "Orally 2 drops",
+      "قطرتين بالفم"
+     ],
+     [
+      "Intradermal in the left arm",
+      "داخل الأدمة بالذراع الأيسر"
+     ],
+     [
+      "IM deeply in the right upper thigh (0.5 cc)",
+      "عضليًا عميقًا في أعلى الفخذ الأيمن (0.5 سم³)"
+     ],
+     [
+      "Subcutaneous in the abdomen",
+      "تحت الجلد في البطن"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Vaccines in the lecture are stored at:",
+    "ar": "تُخزن اللقاحات في المحاضرة بدرجة:",
+    "options": [
+     [
+      "2–8 °C",
+      "2–8 مئوية"
+     ],
+     [
+      "−20 °C",
+      "−20 مئوية"
+     ],
+     [
+      "Room temperature",
+      "حرارة الغرفة"
+     ],
+     [
+      "37 °C",
+      "37 مئوية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this figure, maternal antibodies are an example of:",
+    "ar": "في هذا الشكل، أضداد الأم مثال على:",
+    "options": [
+     [
+      "Natural active immunity",
+      "مناعة فاعلة طبيعية"
+     ],
+     [
+      "Artificial passive immunity",
+      "مناعة منفعلة صناعية"
+     ],
+     [
+      "Artificial active immunity",
+      "مناعة فاعلة صناعية"
+     ],
+     [
+      "Natural passive immunity",
+      "مناعة منفعلة طبيعية"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/types-of-immunity.png",
+    "img_h": "26mm"
+   },
+   {
+    "en": "This vaccine given as 2 oral drops protects against:",
+    "ar": "هذا اللقاح الذي يُعطى قطرتين بالفم يحمي من:",
+    "options": [
+     [
+      "Tuberculosis",
+      "التدرّن"
+     ],
+     [
+      "Poliomyelitis",
+      "شلل الأطفال"
+     ],
+     [
+      "Hepatitis B",
+      "التهاب الكبد B"
+     ],
+     [
+      "Measles",
+      "الحصبة"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/polio-vaccine.png",
+    "img_h": "26mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Infant mortality rate is the number of deaths per 1000 live births in the first 12 months.",
+    "ar": "معدّل وفيات الرضّع هو عدد الوفيات لكل 1000 ولادة حيّة في أول 12 شهرًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Chronic illnesses usually resolve spontaneously.",
+    "ar": "الأمراض المزمنة تزول عادةً تلقائيًا.",
+    "answer": "F"
+   },
+   {
+    "en": "Hospitals are ambulatory settings.",
+    "ar": "المستشفيات بيئات خارجية.",
+    "answer": "F"
+   },
+   {
+    "en": "The family is the ultimate coordinator of its own care.",
+    "ar": "العائلة هي المنسّق النهائي لرعايتها.",
+    "answer": "T"
+   },
+   {
+    "en": "Infants primarily use nonverbal communication.",
+    "ar": "يستعمل الرضّع أساسًا التواصل غير اللفظي.",
+    "answer": "T"
+   },
+   {
+    "en": "Older children need privacy.",
+    "ar": "الأطفال الأكبر يحتاجون خصوصية.",
+    "answer": "T"
+   },
+   {
+    "en": "Naturally acquired passive immunity lasts many years.",
+    "ar": "المناعة المنفعلة المكتسبة طبيعيًا تدوم سنوات كثيرة.",
+    "answer": "F"
+   },
+   {
+    "en": "An antitoxin confers passive immunity.",
+    "ar": "يعطي مضاد السم مناعة منفعلة.",
+    "answer": "T"
+   },
+   {
+    "en": "IPV is a live attenuated vaccine.",
+    "ar": "IPV لقاح حي موهَن.",
+    "answer": "F"
+   },
+   {
+    "en": "Live vaccines should not be given to children receiving immunosuppressive therapy.",
+    "ar": "لا تُعطى اللقاحات الحيّة لأطفال يتلقّون علاجًا مثبّطًا للمناعة.",
+    "answer": "T"
+   },
+   {
+    "en": "A child with cerebral palsy cannot receive immunizations.",
+    "ar": "لا يمكن للطفل المصاب بالشلل الدماغي تلقّي اللقاحات.",
+    "answer": "F"
+   },
+   {
+    "en": "BCG is given intradermally in the left upper arm.",
+    "ar": "يُعطى BCG داخل الأدمة في أعلى الذراع الأيسر.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Active vs passive immunity",
+    "ar": "الفاعلة مقابل المنفعلة",
+    "answer_en": "Active: the body makes its own antibodies (infection, vaccine) and lasts long. Passive: ready antibodies (maternal IgG, breast milk, immune globulin) and lasts weeks to months.",
+    "answer_ar": "الفاعلة: الجسم يصنع أضداده (عدوى، لقاح) وتدوم طويلًا. المنفعلة: أضداد جاهزة (IgG الأم، الحليب، الغلوبولين المناعي) وتدوم أسابيع إلى أشهر."
+   },
+   {
+    "en": "Three levels of care",
+    "ar": "مستويات الرعاية الثلاثة",
+    "answer_en": "Primary = prevention/education; secondary = treatment by the nursing process; tertiary = disabilities.",
+    "answer_ar": "الأولي = الوقاية/التثقيف؛ الثانوي = العلاج بالعملية التمريضية؛ الثالثي = الإعاقات."
+   },
+   {
+    "en": "Primary nursing vs primary level",
+    "ar": "التمريض الأولي مقابل المستوى الأولي",
+    "answer_en": "Primary nursing = one nurse manages one child 24 h (a trend). Primary level = prevention (a goal).",
+    "answer_ar": "التمريض الأولي = ممرّض واحد يدير طفلًا 24 ساعة (اتجاه). المستوى الأولي = الوقاية (هدف)."
+   },
+   {
+    "en": "Routes of the vaccines",
+    "ar": "طرق إعطاء اللقاحات",
+    "answer_en": "HBV, pentavalent, pneumococcal, IPV: IM; BCG: intradermal; measles, MMR: S.C; OPV, rota, vit A: oral.",
+    "answer_ar": "HBV والخماسي والمكوّرات الرئوية وIPV: عضلي؛ BCG: داخل الأدمة؛ الحصبة وMMR: تحت الجلد؛ OPV والروتا وفيتامين A: فموي."
+   },
+   {
+    "en": "Mild fever is not a contraindication",
+    "ar": "الحمّى البسيطة ليست مانعًا",
+    "answer_en": "Mild illness/low-grade fever: give the vaccine. Moderate–severe illness, anaphylaxis history, immunodeficiency (live vaccines), active CNS problem (DTaP): withhold or delay.",
+    "answer_ar": "المرض الخفيف/الحمّى البسيطة: يُعطى اللقاح. المرض المتوسط–الشديد، وتاريخ الصدمة التأقية، ونقص المناعة (اللقاحات الحيّة)، ومشكلة الجهاز العصبي النشطة (DTaP): يُحجب أو يؤجَّل."
+   }
+  ],
+  "important": [
+   {
+    "en": "Why is information on mortality and morbidity important for nurses?",
+    "ar": "لماذا تهمّ معلومات الوفيات والمراضة الممرّضين؟",
+    "answer_en": "It provides a rationale for planning and delivering care, and gives information about the causes of death and illness, high-risk age groups, advances in treatment and prevention, and specific areas of health counseling.",
+    "answer_ar": "لأنها تقدّم أساسًا لتخطيط الرعاية وتقديمها، وتعطي معلومات عن أسباب الوفاة والمرض، والفئات العمرية الأكثر خطورة، والتطوّرات في العلاج والوقاية، ومجالات الإرشاد الصحي."
+   },
+   {
+    "en": "List the roles and the qualities of a good pediatric nurse.",
+    "ar": "عدّد أدوار ممرّض الأطفال وصفاته الجيدة.",
+    "answer_en": "Roles: direct care, educator, counselor, consultant, advocate, care coordinator/health systems manager, researcher. Qualities: good observer, honest, sympathetic/kind/patient/cheerful, loves children, interested in family care, able to teach children and families.",
+    "answer_ar": "الأدوار: الرعاية المباشرة، والتثقيف، والإرشاد، والاستشارة، والدفاع، والتنسيق/إدارة الأنظمة الصحية، والبحث. الصفات: ملاحظ جيد، وصادق، ومتعاطف ولطيف وصبور ومبتهج، ويحبّ الأطفال، ومهتمّ برعاية العائلة، وقادر على التعليم."
+   },
+   {
+    "en": "List the current trends in pediatric nursing and the factors influencing them.",
+    "ar": "عدّد الاتجاهات الحالية في تمريض الأطفال والعوامل المؤثّرة فيها.",
+    "answer_en": "Family centered care, high technology care, primary nursing, case management, cost containment, atraumatic care, nursing process application. Factors: changing needs of society, medical and technological advances, political interests, increased public awareness.",
+    "answer_ar": "الرعاية المتمركزة حول العائلة، والرعاية عالية التقنية، والتمريض الأولي، وإدارة الحالة، واحتواء التكاليف، والرعاية اللاصدمية، وتطبيق العملية التمريضية. العوامل: تغيّر احتياجات المجتمع، والتقدّم الطبي والتقني، والمصالح السياسية، وزيادة الوعي العام."
+   },
+   {
+    "en": "Explain communication according to the developmental stage.",
+    "ar": "اشرح التواصل بحسب مرحلة التطوّر.",
+    "answer_en": "Infancy: nonverbal. Early childhood (<5 y): egocentric, use their hands to communicate. School age: want explanations and reasons. Adolescence: the art of listening.",
+    "answer_ar": "الرضاعة: غير لفظي. الطفولة المبكرة (دون 5 سنوات): متمركزون حول ذواتهم ويستعملون أيديهم. سنّ المدرسة: يريدون تفسيرات وأسبابًا. المراهقة: فنّ الإصغاء."
+   },
+   {
+    "en": "Describe the five methods of obtaining immune protection.",
+    "ar": "صف الطرق الخمس للحصول على الحماية المناعية.",
+    "answer_en": "Innate (nonspecific, e.g. phagocytosis); naturally acquired active (infection, lasts years); naturally acquired passive (maternal IgG across the placenta and breast milk, weeks to 2 months); artificially acquired active (vaccine or toxoid); artificially acquired passive (specific immunoglobulin).",
+    "answer_ar": "الفطرية (غير نوعية، مثل البلعمة)؛ الفاعلة المكتسبة طبيعيًا (العدوى، تدوم سنوات)؛ المنفعلة المكتسبة طبيعيًا (IgG الأم عبر المشيمة والحليب، أسابيع إلى شهرين)؛ الفاعلة المكتسبة صناعيًا (لقاح أو ذوفان)؛ المنفعلة المكتسبة صناعيًا (غلوبولين مناعي نوعي)."
+   },
+   {
+    "en": "List the contraindications of vaccines and the nursing observations before giving them.",
+    "ar": "عدّد موانع اللقاحات وملاحظات الممرّض قبل إعطائها.",
+    "answer_en": "Moderate–severe illness or anaphylaxis to a vaccine; live vaccines in immunodeficiency/immunosuppression; DTaP with active CNS problem; feverish child; past intussusception. Ask: is the child sick today, any allergy to vaccines, immune problems, recent blood products, nervous system problems such as convulsions.",
+    "answer_ar": "المرض المتوسط–الشديد أو الصدمة التأقية من لقاح؛ اللقاحات الحيّة في نقص المناعة أو تثبيطها؛ DTaP مع مشكلة نشطة في الجهاز العصبي؛ الطفل المحموم؛ تاريخ الانغلاف. واسأل: هل الطفل مريض اليوم، وهل لديه تحسّس من اللقاحات، أو مشكلة مناعية، أو نقل دم حديث، أو مشكلة عصبية كالتشنّجات."
+   }
+  ]
+ }
+}
