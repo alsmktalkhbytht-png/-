@@ -89,6 +89,7 @@
 - [[Code/para - ar1.py|para/ar1.py]]
 - [[Code/para - ar2.py|para/ar2.py]]
 - [[Code/pat - fix1.py|pat/fix1.py]]
+- [[Code/q3 - his_mcq.py|q3/his_mcq.py]]
 - [[Code/restyle.py|restyle.py]]
 
 ## Engine snapshot

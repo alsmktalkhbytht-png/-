@@ -1,0 +1,839 @@
+{
+ "meta": {
+  "subject_en": "Histology",
+  "subject_ar": "علم الأنسجة",
+  "short_ar": "أنسجة",
+  "unit_label": "LAB",
+  "unit_en": "Lab 3",
+  "unit_ar": "العملي 3",
+  "unit_no": "3",
+  "title_en": "Glandular Epithelial Tissue",
+  "title_ar": "النسيج الظهاري الغدّي",
+  "kind": "Laboratories — عملي",
+  "stage": "The second stage — الثانية",
+  "instructor": "م.م. جنان خليل",
+  "department": "قسم التحليلات",
+  "questions_kind": "MCQ — أسئلة اختيار",
+  "file_name": "BIOS - أنسجة عملي المحاضرة الثالثة - الأسئلة"
+ },
+ "questions": {
+  "title_en": "Glandular Epithelial Tissue",
+  "title_ar": "النسيج الظهاري الغدّي",
+  "sub": "MCQ",
+  "answers_inline": true,
+  "mcq_en": "Comprehensive MCQs — Lab 3",
+  "mcq_ar": "أسئلة اختيار شاملة — العملي 3",
+  "intro_en": [
+   "Choose the correct answer.",
+   "The answer is in the box under each question."
+  ],
+  "intro_ar": [
+   "اختر الإجابة الصحيحة.",
+   "الحل في المربع تحت كل سؤال."
+  ],
+  "mcq": [
+   {
+    "topic_en": "Glands: general",
+    "topic_ar": "الغدد: عام"
+   },
+   {
+    "en": "Glandular epithelium is formed by cells specialized to:",
+    "ar": "تتكوّن الظهارة الغدّية من خلايا متخصّصة لـ:",
+    "options": [
+     [
+      "Contract",
+      "الانقباض"
+     ],
+     [
+      "Store fat",
+      "خزن الدهون"
+     ],
+     [
+      "Conduct impulses",
+      "توصيل السيالات"
+     ],
+     [
+      "Produce secretion",
+      "إنتاج الإفراز"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "Glands arise in the embryo from:",
+    "ar": "تنشأ الغدد في الجنين من:",
+    "options": [
+     [
+      "Nerve cells",
+      "الخلايا العصبية"
+     ],
+     [
+      "Muscle cells",
+      "الخلايا العضلية"
+     ],
+     [
+      "Invaginations of epithelium into connective tissue",
+      "انغمادات الظهارة في النسيج الضام"
+     ],
+     [
+      "Blood vessels",
+      "الأوعية الدموية"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "Glandular secretions include all EXCEPT:",
+    "ar": "تشمل الإفرازات الغدّية كل ما يأتي ما عدا:",
+    "options": [
+     [
+      "Collagen fibers",
+      "ألياف الكولاجين"
+     ],
+     [
+      "Hormones",
+      "الهرمونات"
+     ],
+     [
+      "Enzymes",
+      "الإنزيمات"
+     ],
+     [
+      "Mucin",
+      "الميوسين"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "Glands are classified as endocrine or exocrine depending on:",
+    "ar": "تُصنَّف الغدد إلى صمّاء وخارجية الإفراز بحسب:",
+    "options": [
+     [
+      "Their size",
+      "حجمها"
+     ],
+     [
+      "Whether they have a duct",
+      "وجود قناة"
+     ],
+     [
+      "Their color",
+      "لونها"
+     ],
+     [
+      "Number of cells",
+      "عدد الخلايا"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "en": "Endocrine glands:",
+    "ar": "الغدد الصمّاء:",
+    "options": [
+     [
+      "Have long ducts",
+      "لها قنوات طويلة"
+     ],
+     [
+      "Lack ducts and secrete into interstitial fluid and blood",
+      "تفتقد القنوات وتفرز في السائل الخلالي والدم"
+     ],
+     [
+      "Secrete onto the skin",
+      "تفرز على الجلد"
+     ],
+     [
+      "Are always unicellular",
+      "أحادية الخلية دائمًا"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "en": "The secretions of endocrine glands are called:",
+    "ar": "تُسمّى إفرازات الغدد الصمّاء:",
+    "options": [
+     [
+      "Enzymes",
+      "الإنزيمات"
+     ],
+     [
+      "Mucins",
+      "الميوسينات"
+     ],
+     [
+      "Hormones",
+      "الهرمونات"
+     ],
+     [
+      "Sebum",
+      "الزهم"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "topic_en": "Exocrine glands",
+    "topic_ar": "الغدد خارجية الإفراز"
+   },
+   {
+    "en": "Exocrine glands maintain contact with the epithelial surface by:",
+    "ar": "تحافظ الغدد خارجية الإفراز على صلتها بالسطح الظهاري بواسطة:",
+    "options": [
+     [
+      "A duct",
+      "قناة"
+     ],
+     [
+      "Nerves",
+      "الأعصاب"
+     ],
+     [
+      "Hormones",
+      "الهرمونات"
+     ],
+     [
+      "Blood vessels",
+      "الأوعية الدموية"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "A duct is:",
+    "ar": "القناة هي:",
+    "options": [
+     [
+      "A muscle",
+      "عضلة"
+     ],
+     [
+      "A blood vessel",
+      "وعاء دموي"
+     ],
+     [
+      "A nerve",
+      "عصب"
+     ],
+     [
+      "An epithelium-lined tube that discharges secretions onto the epithelial surface",
+      "أنبوب مبطّن بالظهارة يصبّ الإفرازات على السطح الظهاري"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "Enzymes from the pancreas into the small intestine is an example of secretion onto:",
+    "ar": "الإنزيمات من البنكرياس إلى الأمعاء الدقيقة مثال على الإفراز على:",
+    "options": [
+     [
+      "The skin surface",
+      "سطح الجلد"
+     ],
+     [
+      "An epithelial surface lining an internal passageway",
+      "سطح ظهاري يبطّن ممرًا داخليًا"
+     ],
+     [
+      "The blood",
+      "الدم"
+     ],
+     [
+      "The interstitial fluid",
+      "السائل الخلالي"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "en": "A unicellular exocrine gland:",
+    "ar": "الغدة خارجية الإفراز أحادية الخلية:",
+    "options": [
+     [
+      "Has a long duct",
+      "لها قناة طويلة"
+     ],
+     [
+      "Is deep in connective tissue",
+      "عميقة في النسيج الضام"
+     ],
+     [
+      "Secretes hormones",
+      "تفرز الهرمونات"
+     ],
+     [
+      "Usually has no duct and lies close to the epithelial surface",
+      "عادةً بلا قناة وقريبة من السطح الظهاري"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "The most common unicellular exocrine gland is the:",
+    "ar": "أكثر الغدد خارجية الإفراز أحادية الخلية شيوعًا:",
+    "options": [
+     [
+      "Goblet cell",
+      "الخلية الكأسية"
+     ],
+     [
+      "Sweat gland",
+      "الغدة العرقية"
+     ],
+     [
+      "Mammary gland",
+      "الغدة الثديية"
+     ],
+     [
+      "Sebaceous gland",
+      "الغدة الدهنية"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "Goblet cells are found in the:",
+    "ar": "توجد الخلايا الكأسية في:",
+    "options": [
+     [
+      "Bone",
+      "العظم"
+     ],
+     [
+      "Skin",
+      "الجلد"
+     ],
+     [
+      "Respiratory tract and intestine",
+      "الجهاز التنفسي والأمعاء"
+     ],
+     [
+      "Blood vessels",
+      "الأوعية الدموية"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "Multicellular exocrine glands are classified according to how many criteria?",
+    "ar": "تُصنَّف الغدد خارجية الإفراز متعدّدة الخلايا وفق كم معيارًا؟",
+    "options": [
+     [
+      "Two",
+      "اثنين"
+     ],
+     [
+      "Five",
+      "خمسة"
+     ],
+     [
+      "Four",
+      "أربعة"
+     ],
+     [
+      "Three",
+      "ثلاثة"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "Classification by form and structure (morphology) is considered:",
+    "ar": "التصنيف بحسب الشكل والتركيب يُعدّ تصنيفًا:",
+    "options": [
+     [
+      "Physiologic",
+      "وظيفيًا"
+     ],
+     [
+      "Anatomic",
+      "تشريحيًا"
+     ],
+     [
+      "Chemical",
+      "كيميائيًا"
+     ],
+     [
+      "Genetic",
+      "وراثيًا"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "en": "Classification by type and method of secretion is considered:",
+    "ar": "التصنيف بحسب نوع الإفراز وطريقته يُعدّ تصنيفًا:",
+    "options": [
+     [
+      "Physiologic",
+      "وظيفيًا"
+     ],
+     [
+      "Embryologic",
+      "جنينيًا"
+     ],
+     [
+      "Morphologic",
+      "شكليًا"
+     ],
+     [
+      "Anatomic",
+      "تشريحيًا"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "topic_en": "Form and structure",
+    "topic_ar": "الشكل والتركيب"
+   },
+   {
+    "en": "Simple glands have:",
+    "ar": "الغدد البسيطة لها:",
+    "options": [
+     [
+      "No duct",
+      "بلا قناة"
+     ],
+     [
+      "Ducts that branch repeatedly",
+      "قنوات تتفرّع مرارًا"
+     ],
+     [
+      "A single, unbranched duct",
+      "قناة واحدة غير متفرّعة"
+     ],
+     [
+      "Two ducts",
+      "قناتان"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "Compound glands have:",
+    "ar": "الغدد المركّبة لها:",
+    "options": [
+     [
+      "Ducts that branch repeatedly",
+      "قنوات تتفرّع مرارًا"
+     ],
+     [
+      "A single duct",
+      "قناة واحدة"
+     ],
+     [
+      "No secretory portion",
+      "بلا جزء إفرازي"
+     ],
+     [
+      "No duct",
+      "بلا قناة"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "If the secretory portion and duct have uniform diameter, the gland is:",
+    "ar": "إذا كان قطر الجزء الإفرازي والقناة متساويًا فالغدة:",
+    "options": [
+     [
+      "Acinar",
+      "عنبية"
+     ],
+     [
+      "Alveolar",
+      "سنخية"
+     ],
+     [
+      "Tubuloacinar",
+      "أنبوبية عنبية"
+     ],
+     [
+      "Tubular",
+      "أنبوبية"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "Which is NOT a subtype of simple tubular glands?",
+    "ar": "أي مما يأتي ليس من أنواع الغدد الأنبوبية البسيطة؟",
+    "options": [
+     [
+      "Simple tubular",
+      "أنبوبية بسيطة"
+     ],
+     [
+      "Simple coiled tubular",
+      "أنبوبية ملتفّة بسيطة"
+     ],
+     [
+      "Compound tubuloacinar",
+      "أنبوبية عنبية مركّبة"
+     ],
+     [
+      "Simple branched tubular",
+      "أنبوبية متفرّعة بسيطة"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "If the secretory cells form an expanded sac, the gland is:",
+    "ar": "إذا كوّنت الخلايا الإفرازية كيسًا متّسعًا فالغدة:",
+    "options": [
+     [
+      "Tubular",
+      "أنبوبية"
+     ],
+     [
+      "Acinar (alveolar)",
+      "عنبية (سنخية)"
+     ],
+     [
+      "Coiled",
+      "ملتفّة"
+     ],
+     [
+      "Endocrine",
+      "صمّاء"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "en": "Compound glands consist of:",
+    "ar": "تتكوّن الغدد المركّبة من:",
+    "options": [
+     [
+      "One cell",
+      "خلية واحدة"
+     ],
+     [
+      "Simple glands whose small ducts join into progressively larger ducts",
+      "غدد بسيطة تتّحد قنواتها الصغيرة في قنوات أكبر فأكبر"
+     ],
+     [
+      "A single sac",
+      "كيس واحد"
+     ],
+     [
+      "Only tubules",
+      "أنابيب فقط"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "en": "A compound gland having both secretory tubules and secretory acini is:",
+    "ar": "الغدة المركّبة التي فيها أنابيب إفرازية وعنيبات إفرازية معًا:",
+    "options": [
+     [
+      "Compound tubular",
+      "أنبوبية مركّبة"
+     ],
+     [
+      "Compound acinar",
+      "عنبية مركّبة"
+     ],
+     [
+      "Simple branched acinar",
+      "عنبية متفرّعة بسيطة"
+     ],
+     [
+      "Compound tubuloacinar",
+      "أنبوبية عنبية مركّبة"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "topic_en": "Types of secretion",
+    "topic_ar": "أنواع الإفراز"
+   },
+   {
+    "en": "Serous glands secrete:",
+    "ar": "تفرز الغدد المصلية:",
+    "options": [
+     [
+      "Thick mucus",
+      "مخاطًا ثخينًا"
+     ],
+     [
+      "Oily sebum",
+      "زهمًا زيتيًا"
+     ],
+     [
+      "A non-viscous watery fluid",
+      "سائلًا مائيًا غير لزج"
+     ],
+     [
+      "Cell fragments",
+      "شظايا خلوية"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "Which is a serous secretion?",
+    "ar": "أي مما يأتي إفراز مصلي؟",
+    "options": [
+     [
+      "Sweat, milk, tears or digestive juices",
+      "العرق أو الحليب أو الدموع أو العصارات الهضمية"
+     ],
+     [
+      "Mucus",
+      "المخاط"
+     ],
+     [
+      "Sebum",
+      "الزهم"
+     ],
+     [
+      "Cerumen only",
+      "الصملاخ فقط"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "Mucous glands secrete mucins which form mucus when mixed with:",
+    "ar": "تفرز الغدد المخاطية ميوسينات تكوّن المخاط عند مزجها بـ:",
+    "options": [
+     [
+      "Water",
+      "الماء"
+     ],
+     [
+      "Blood",
+      "الدم"
+     ],
+     [
+      "Fat",
+      "الدهن"
+     ],
+     [
+      "Air",
+      "الهواء"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "Mucous glands are found in the:",
+    "ar": "توجد الغدد المخاطية في:",
+    "options": [
+     [
+      "Skin",
+      "الجلد"
+     ],
+     [
+      "Mammary gland",
+      "الغدة الثديية"
+     ],
+     [
+      "Pancreas",
+      "البنكرياس"
+     ],
+     [
+      "Roof of the oral cavity and surface of the tongue",
+      "سقف تجويف الفم وسطح اللسان"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "Mixed (seromucous) glands, such as the salivary glands inferior to the oral cavity, contain:",
+    "ar": "الغدد المختلطة (المصلية المخاطية) مثل الغدد اللعابية أسفل تجويف الفم تحتوي:",
+    "options": [
+     [
+      "Serous cells only",
+      "خلايا مصلية فقط"
+     ],
+     [
+      "Both serous and mucous cells",
+      "خلايا مصلية ومخاطية معًا"
+     ],
+     [
+      "Goblet cells only",
+      "خلايا كأسية فقط"
+     ],
+     [
+      "Mucous cells only",
+      "خلايا مخاطية فقط"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "topic_en": "Methods of secretion",
+    "topic_ar": "طرق الإفراز"
+   },
+   {
+    "en": "Merocrine glands release secretion by:",
+    "ar": "تطلق الغدد الميروكرينية الإفراز بـ:",
+    "options": [
+     [
+      "Pinching off the apical cytoplasm",
+      "انقراص السايتوبلازم القمّي"
+     ],
+     [
+      "Disintegration of the whole cell",
+      "تفكّك الخلية كلها"
+     ],
+     [
+      "Exocytosis with no loss of cellular material",
+      "الإخراج الخلوي دون فقدان مادة خلوية"
+     ],
+     [
+      "Diffusion through a duct wall",
+      "الانتشار عبر جدار القناة"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "Which is a merocrine gland?",
+    "ar": "أي مما يأتي غدة ميروكرينية؟",
+    "options": [
+     [
+      "Sebaceous gland",
+      "الغدة الدهنية"
+     ],
+     [
+      "Ceruminous gland",
+      "الغدة الصملاخية"
+     ],
+     [
+      "Mammary gland",
+      "الغدة الثديية"
+     ],
+     [
+      "Salivary gland",
+      "الغدة اللعابية"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "In holocrine glands, the secretion is:",
+    "ar": "في الغدد الهولوكرينية يكون الإفراز:",
+    "options": [
+     [
+      "Packaged in vesicles",
+      "معبّأ في حويصلات"
+     ],
+     [
+      "Only the apical portion",
+      "الجزء القمّي فقط"
+     ],
+     [
+      "A mixture of cell fragments and product after the whole cell disintegrates",
+      "خليطًا من شظايا الخلية والمنتج بعد تفكّك الخلية كلها"
+     ],
+     [
+      "A hormone",
+      "هرمونًا"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "The example of holocrine glands is:",
+    "ar": "مثال الغدد الهولوكرينية:",
+    "options": [
+     [
+      "Sebaceous glands",
+      "الغدد الدهنية"
+     ],
+     [
+      "Pancreas",
+      "البنكرياس"
+     ],
+     [
+      "Gastric glands",
+      "الغدد المعدية"
+     ],
+     [
+      "Lacrimal gland",
+      "الغدة الدمعية"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "In holocrine glands, the ruptured dead cells are replaced by:",
+    "ar": "في الغدد الهولوكرينية تُعوَّض الخلايا الميّتة بـ:",
+    "options": [
+     [
+      "Fibroblasts",
+      "أرومات ليفية"
+     ],
+     [
+      "Epithelial cells undergoing mitosis",
+      "خلايا ظهارية تنقسم خيطيًا"
+     ],
+     [
+      "Blood cells",
+      "خلايا الدم"
+     ],
+     [
+      "Nothing",
+      "لا شيء"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "en": "The mode of secretion of apocrine glands is:",
+    "ar": "طريقة إفراز الغدد الأبوكرينية:",
+    "options": [
+     [
+      "Exocytosis",
+      "الإخراج الخلوي"
+     ],
+     [
+      "Diffusion",
+      "الانتشار"
+     ],
+     [
+      "Whole cell disintegration",
+      "تفكّك الخلية كلها"
+     ],
+     [
+      "Decapitation of the apical portion",
+      "قطع الجزء القمّي"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "Which are apocrine glands?",
+    "ar": "أي مما يأتي غدد أبوكرينية؟",
+    "options": [
+     [
+      "Sebaceous glands",
+      "الغدد الدهنية"
+     ],
+     [
+      "Mammary and ceruminous glands",
+      "الغدد الثديية والصملاخية"
+     ],
+     [
+      "Gastric glands",
+      "الغدد المعدية"
+     ],
+     [
+      "Lacrimal glands",
+      "الغدد الدمعية"
+     ]
+    ],
+    "answer": "B"
+   }
+  ]
+ }
+}

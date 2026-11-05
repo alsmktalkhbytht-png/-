@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/picq.py
 handouts: [bloodbank-lec1-introduction, immunology-lab1-serology, lab1-biosafety]
-saved: 2026-10-31
+saved: 2026-11-05
 tags: [bios, code]
 ---
 # picq.py

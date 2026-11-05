@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/mic/mic.py
 handouts: [bacteriology-lec7-9-identification]
-saved: 2026-10-31
+saved: 2026-11-05
 tags: [bios, code]
 ---
 # mic/mic.py

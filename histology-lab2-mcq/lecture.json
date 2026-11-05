@@ -1,0 +1,946 @@
+{
+ "meta": {
+  "subject_en": "Histology",
+  "subject_ar": "علم الأنسجة",
+  "short_ar": "أنسجة",
+  "unit_label": "LAB",
+  "unit_en": "Lab 2",
+  "unit_ar": "العملي 2",
+  "unit_no": "2",
+  "title_en": "Classification of Epithelial Tissue",
+  "title_ar": "تصنيف النسيج الظهاري",
+  "kind": "Laboratories — عملي",
+  "stage": "The second stage — الثانية",
+  "instructor": "م.م. جنان خليل",
+  "department": "قسم التحليلات",
+  "questions_kind": "MCQ — أسئلة اختيار",
+  "file_name": "BIOS - أنسجة عملي المحاضرة الثانية - الأسئلة"
+ },
+ "questions": {
+  "title_en": "Classification of Epithelial Tissue",
+  "title_ar": "تصنيف النسيج الظهاري",
+  "sub": "MCQ",
+  "answers_inline": true,
+  "mcq_en": "Comprehensive MCQs — Lab 2",
+  "mcq_ar": "أسئلة اختيار شاملة — العملي 2",
+  "intro_en": [
+   "Choose the correct answer.",
+   "The answer is in the box under each question."
+  ],
+  "intro_ar": [
+   "اختر الإجابة الصحيحة.",
+   "الحل في المربع تحت كل سؤال."
+  ],
+  "mcq": [
+   {
+    "topic_en": "Groups of epithelia and number of layers",
+    "topic_ar": "مجموعات الظهارة وعدد الطبقات"
+   },
+   {
+    "en": "Epithelia are divided into two main groups according to their:",
+    "ar": "تُقسَّم الظهارة إلى مجموعتين رئيستين بحسب:",
+    "options": [
+     [
+      "Structure and function",
+      "التركيب والوظيفة"
+     ],
+     [
+      "Color and size",
+      "اللون والحجم"
+     ],
+     [
+      "Blood supply",
+      "التجهيز الدموي"
+     ],
+     [
+      "Nerve supply",
+      "التجهيز العصبي"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "The two main groups of epithelia are:",
+    "ar": "المجموعتان الرئيستان للظهارة:",
+    "options": [
+     [
+      "Simple and stratified",
+      "البسيطة والمطبّقة"
+     ],
+     [
+      "Squamous and cuboidal",
+      "الحرشفية والمكعّبة"
+     ],
+     [
+      "Covering & lining and glandular",
+      "المغطّية والمبطّنة، والغدّية"
+     ],
+     [
+      "Ciliated and non-ciliated",
+      "المهدّبة وغير المهدّبة"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "Glandular epithelia:",
+    "ar": "الظهارة الغدّية:",
+    "options": [
+     [
+      "Line the blood vessels",
+      "تبطّن الأوعية الدموية"
+     ],
+     [
+      "Form the outer layer of the skin",
+      "تكوّن الطبقة الخارجية للجلد"
+     ],
+     [
+      "Cover the ventral body cavity",
+      "تغطّي التجويف البطني"
+     ],
+     [
+      "Form the glands within the body",
+      "تكوّن الغدد داخل الجسم"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "Covering and lining epithelia are classified according to the number of cellular layers into all EXCEPT:",
+    "ar": "تُصنَّف الظهارة المغطّية والمبطّنة بحسب عدد الطبقات إلى كل ما يأتي ما عدا:",
+    "options": [
+     [
+      "Simple",
+      "بسيطة"
+     ],
+     [
+      "Glandular",
+      "غدّية"
+     ],
+     [
+      "Pseudostratified",
+      "مطبّقة كاذبة"
+     ],
+     [
+      "Stratified",
+      "مطبّقة"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "en": "A simple epithelium is:",
+    "ar": "الظهارة البسيطة:",
+    "options": [
+     [
+      "Always keratinized",
+      "متقرّنة دائمًا"
+     ],
+     [
+      "Two or more layers",
+      "طبقتان أو أكثر"
+     ],
+     [
+      "Only the basal cells touch the basement membrane",
+      "الخلايا القاعدية فقط تلامس الغشاء القاعدي"
+     ],
+     [
+      "One cell layer thick, all cells touch the basement membrane",
+      "طبقة خلوية واحدة وكل الخلايا تلامس الغشاء القاعدي"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "A simple epithelium is found where the primary function is:",
+    "ar": "توجد الظهارة البسيطة حيث الوظيفة الأساسية:",
+    "options": [
+     [
+      "Filtration, absorption or secretion",
+      "الترشيح أو الامتصاص أو الإفراز"
+     ],
+     [
+      "Protection against abrasion",
+      "الحماية من الاحتكاك"
+     ],
+     [
+      "Mechanical stress",
+      "تحمّل الإجهاد الميكانيكي"
+     ],
+     [
+      "Stretching",
+      "التمدّد"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "Which is an example location of simple epithelium?",
+    "ar": "أي مما يأتي موقع للظهارة البسيطة؟",
+    "options": [
+     [
+      "Skin",
+      "الجلد"
+     ],
+     [
+      "Air sacs of the lung",
+      "الأكياس الهوائية للرئة"
+     ],
+     [
+      "Esophagus",
+      "المريء"
+     ],
+     [
+      "Pharynx",
+      "البلعوم"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "en": "In a stratified epithelium, the cells in direct contact with the basement membrane are:",
+    "ar": "في الظهارة المطبّقة، الخلايا الملامسة مباشرة للغشاء القاعدي هي:",
+    "options": [
+     [
+      "All the cells",
+      "كل الخلايا"
+     ],
+     [
+      "The apical cells",
+      "الخلايا القمّية"
+     ],
+     [
+      "Only the basal (deepest) layer",
+      "الطبقة القاعدية (الأعمق) فقط"
+     ],
+     [
+      "The middle cells",
+      "الخلايا الوسطى"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "A stratified epithelium is found in areas subjected to:",
+    "ar": "توجد الظهارة المطبّقة في مناطق معرّضة لـ:",
+    "options": [
+     [
+      "Filtration",
+      "الترشيح"
+     ],
+     [
+      "Abrasive activities or mechanical stress",
+      "الاحتكاك أو الإجهاد الميكانيكي"
+     ],
+     [
+      "Gas exchange",
+      "تبادل الغازات"
+     ],
+     [
+      "Absorption only",
+      "الامتصاص فقط"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "en": "The stratified epithelium is compared to:",
+    "ar": "تُشبَّه الظهارة المطبّقة بـ:",
+    "options": [
+     [
+      "A brick wall",
+      "جدار من الطابوق"
+     ],
+     [
+      "A honeycomb",
+      "قرص العسل"
+     ],
+     [
+      "A fishing net",
+      "شبكة صيد"
+     ],
+     [
+      "A ladder",
+      "سُلّم"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "In stratified epithelium, lost apical cells are replaced by:",
+    "ar": "في الظهارة المطبّقة تُعوَّض الخلايا القمّية المفقودة بـ:",
+    "options": [
+     [
+      "Goblet cells",
+      "الخلايا الكأسية"
+     ],
+     [
+      "Blood cells",
+      "خلايا الدم"
+     ],
+     [
+      "Continuous regeneration of basal cells",
+      "التجدّد المستمر للخلايا القاعدية"
+     ],
+     [
+      "Fibroblasts",
+      "الأرومات الليفية"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "Pseudostratified epithelium looks layered because:",
+    "ar": "تبدو الظهارة المطبّقة الكاذبة طبقات لأن:",
+    "options": [
+     [
+      "It has many layers",
+      "فيها طبقات كثيرة"
+     ],
+     [
+      "Cells are keratinized",
+      "الخلايا متقرّنة"
+     ],
+     [
+      "Cells are binucleated",
+      "الخلايا ثنائية النواة"
+     ],
+     [
+      "Nuclei lie at different levels",
+      "الأنوية في مستويات مختلفة"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "Pseudostratified epithelium is classified as a type of simple epithelium because:",
+    "ar": "تُصنَّف الظهارة المطبّقة الكاذبة نوعًا من البسيطة لأن:",
+    "options": [
+     [
+      "It lacks cilia",
+      "تفتقد الأهداب"
+     ],
+     [
+      "All cells reach the apical surface",
+      "كل الخلايا تصل السطح القمّي"
+     ],
+     [
+      "It has one nucleus level",
+      "أنويتها في مستوى واحد"
+     ],
+     [
+      "All cells are attached to the basement membrane",
+      "كل الخلايا مرتبطة بالغشاء القاعدي"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "topic_en": "Simple epithelia by cell shape",
+    "topic_ar": "الظهارة البسيطة بحسب شكل الخلية"
+   },
+   {
+    "en": "Simple squamous cells are:",
+    "ar": "خلايا الظهارة الحرشفية البسيطة:",
+    "options": [
+     [
+      "Tall with oval basal nuclei",
+      "طويلة بأنوية بيضوية قاعدية"
+     ],
+     [
+      "Square with round central nuclei",
+      "مربّعة بأنوية مستديرة مركزية"
+     ],
+     [
+      "Flat (scales) with a disk-shaped flattened nucleus",
+      "مسطّحة (حراشف) بنواة قرصية مسطّحة"
+     ],
+     [
+      "Binucleated",
+      "ثنائية النواة"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "Simple squamous epithelium is thin enough to allow:",
+    "ar": "الظهارة الحرشفية البسيطة رقيقة بما يكفي لـ:",
+    "options": [
+     [
+      "Passive diffusion",
+      "الانتشار المنفعل"
+     ],
+     [
+      "Mucus secretion",
+      "إفراز المخاط"
+     ],
+     [
+      "Keratin production",
+      "إنتاج الكيراتين"
+     ],
+     [
+      "Stretching",
+      "التمدّد"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "The endothelium lining blood vessels is:",
+    "ar": "البطانة التي تبطّن الأوعية الدموية:",
+    "options": [
+     [
+      "Simple cuboidal",
+      "مكعّبة بسيطة"
+     ],
+     [
+      "Simple squamous",
+      "حرشفية بسيطة"
+     ],
+     [
+      "Transitional",
+      "انتقالية"
+     ],
+     [
+      "Stratified squamous",
+      "حرشفية مطبّقة"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "en": "The mesothelium gets its name from the germ layer:",
+    "ar": "يأخذ الميزوثيليوم اسمه من الطبقة الجرثومية:",
+    "options": [
+     [
+      "Mesoderm",
+      "الأديم المتوسط"
+     ],
+     [
+      "Ectoderm",
+      "الأديم الظاهر"
+     ],
+     [
+      "Endoderm",
+      "الأديم الباطن"
+     ],
+     [
+      "Neural crest",
+      "العُرف العصبي"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "Simple cuboidal cells are:",
+    "ar": "خلايا الظهارة المكعّبة البسيطة:",
+    "options": [
+     [
+      "Taller than wide",
+      "أطول من عرضها"
+     ],
+     [
+      "As tall as they are wide, with large round central nuclei",
+      "طولها يساوي عرضها، بأنوية كبيرة مستديرة مركزية"
+     ],
+     [
+      "Flat",
+      "مسطّحة"
+     ],
+     [
+      "Without nuclei",
+      "بلا أنوية"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "en": "Simple cuboidal epithelium is found in:",
+    "ar": "توجد الظهارة المكعّبة البسيطة في:",
+    "options": [
+     [
+      "Epidermis",
+      "البشرة"
+     ],
+     [
+      "Urinary bladder",
+      "المثانة"
+     ],
+     [
+      "Air sacs",
+      "الأكياس الهوائية"
+     ],
+     [
+      "Small collecting ducts of kidney, pancreas and salivary glands",
+      "القنوات الجامعة الصغيرة للكلية والبنكرياس والغدد اللعابية"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "The important functions of simple cuboidal epithelium are:",
+    "ar": "الوظائف المهمة للظهارة المكعّبة البسيطة:",
+    "options": [
+     [
+      "Protection",
+      "الحماية"
+     ],
+     [
+      "Stretching",
+      "التمدّد"
+     ],
+     [
+      "Secretion and absorption",
+      "الإفراز والامتصاص"
+     ],
+     [
+      "Diffusion only",
+      "الانتشار فقط"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "In simple columnar epithelium, the nucleus is:",
+    "ar": "في الظهارة العمودية البسيطة تكون النواة:",
+    "options": [
+     [
+      "Disk-shaped, flattened",
+      "قرصية مسطّحة"
+     ],
+     [
+      "Oval, close to the basal region",
+      "بيضوية قريبة من المنطقة القاعدية"
+     ],
+     [
+      "Absent",
+      "غائبة"
+     ],
+     [
+      "Round, central",
+      "مستديرة مركزية"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "en": "Simple columnar epithelium lines the:",
+    "ar": "تبطّن الظهارة العمودية البسيطة:",
+    "options": [
+     [
+      "Esophagus",
+      "المريء"
+     ],
+     [
+      "Blood vessels",
+      "الأوعية الدموية"
+     ],
+     [
+      "Stomach and uterine cervix",
+      "المعدة وعنق الرحم"
+     ],
+     [
+      "Urinary bladder",
+      "المثانة"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "Non-ciliated columnar epithelium of the small intestine contains:",
+    "ar": "تحتوي الظهارة العمودية غير المهدّبة في الأمعاء الدقيقة على:",
+    "options": [
+     [
+      "Keratin",
+      "الكيراتين"
+     ],
+     [
+      "Binucleated cells",
+      "خلايا ثنائية النواة"
+     ],
+     [
+      "Stem cells only",
+      "خلايا جذعية فقط"
+     ],
+     [
+      "Microvilli and goblet cells",
+      "زغيبات وخلايا كأسية"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "In pseudostratified columnar epithelium, the shorter cells are:",
+    "ar": "في الظهارة العمودية المطبّقة الكاذبة، الخلايا الأقصر هي:",
+    "options": [
+     [
+      "Stem cells",
+      "خلايا جذعية"
+     ],
+     [
+      "Dead cells",
+      "خلايا ميّتة"
+     ],
+     [
+      "Keratinocytes",
+      "خلايا متقرّنة"
+     ],
+     [
+      "Goblet cells",
+      "خلايا كأسية"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "EM shows that pseudostratified columnar epithelium is 'simple' because:",
+    "ar": "يُظهر المجهر الإلكتروني أن الظهارة العمودية المطبّقة الكاذبة 'بسيطة' لأن:",
+    "options": [
+     [
+      "It lacks goblet cells",
+      "تفتقد الخلايا الكأسية"
+     ],
+     [
+      "It has one layer of nuclei",
+      "فيها طبقة أنوية واحدة"
+     ],
+     [
+      "All cells reach the surface",
+      "كل الخلايا تصل السطح"
+     ],
+     [
+      "All its cells contact the basement membrane",
+      "كل خلاياها تلامس الغشاء القاعدي"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "Pseudostratified ciliated columnar epithelium is found in:",
+    "ar": "توجد الظهارة العمودية المطبّقة الكاذبة المهدّبة في:",
+    "options": [
+     [
+      "Larger air passageways of the respiratory system",
+      "المجاري الهوائية الكبيرة للجهاز التنفسي"
+     ],
+     [
+      "Male urethra",
+      "الإحليل الذكري"
+     ],
+     [
+      "Skin",
+      "الجلد"
+     ],
+     [
+      "Kidney tubules",
+      "نبيبات الكلية"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "Pseudostratified non-ciliated columnar epithelium occurs in:",
+    "ar": "توجد الظهارة العمودية المطبّقة الكاذبة غير المهدّبة في:",
+    "options": [
+     [
+      "Trachea",
+      "الرغامى"
+     ],
+     [
+      "Stomach",
+      "المعدة"
+     ],
+     [
+      "Part of the male urethra and epididymis",
+      "جزء من الإحليل الذكري والبربخ"
+     ],
+     [
+      "Esophagus",
+      "المريء"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "topic_en": "Stratified epithelia",
+    "topic_ar": "الظهارة المطبّقة"
+   },
+   {
+    "en": "Stratified epithelia are classified according to the shape of the cells of the:",
+    "ar": "تُصنَّف الظهارة المطبّقة بحسب شكل خلايا:",
+    "options": [
+     [
+      "Basal layer",
+      "الطبقة القاعدية"
+     ],
+     [
+      "Superficial layer",
+      "الطبقة السطحية"
+     ],
+     [
+      "Basement membrane",
+      "الغشاء القاعدي"
+     ],
+     [
+      "Middle layer",
+      "الطبقة الوسطى"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "en": "In stratified squamous epithelium, the basal cells are:",
+    "ar": "في الظهارة الحرشفية المطبّقة تكون الخلايا القاعدية:",
+    "options": [
+     [
+      "Cuboidal or polyhedral",
+      "مكعّبة أو متعدّدة الأوجه"
+     ],
+     [
+      "Flat",
+      "مسطّحة"
+     ],
+     [
+      "Ciliated",
+      "مهدّبة"
+     ],
+     [
+      "Dead",
+      "ميّتة"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "Non-keratinized stratified squamous epithelium:",
+    "ar": "الظهارة الحرشفية المطبّقة غير المتقرّنة:",
+    "options": [
+     [
+      "Has dead superficial cells",
+      "خلاياها السطحية ميّتة"
+     ],
+     [
+      "Has living cells up to the surface, kept moist",
+      "خلاياها حيّة حتى السطح ومرطّبة"
+     ],
+     [
+      "Is filled with keratin",
+      "مملوءة بالكيراتين"
+     ],
+     [
+      "Forms the epidermis",
+      "تكوّن البشرة"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "en": "Non-keratinized stratified squamous epithelium lines all EXCEPT:",
+    "ar": "تبطّن الظهارة الحرشفية المطبّقة غير المتقرّنة كل ما يأتي ما عدا:",
+    "options": [
+     [
+      "Oral cavity",
+      "تجويف الفم"
+     ],
+     [
+      "Esophagus",
+      "المريء"
+     ],
+     [
+      "Epidermis of the skin",
+      "بشرة الجلد"
+     ],
+     [
+      "Vagina",
+      "المهبل"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "Keratinized stratified squamous epithelium has superficial cells that are:",
+    "ar": "خلايا الظهارة الحرشفية المطبّقة المتقرّنة السطحية:",
+    "options": [
+     [
+      "Alive and nucleated",
+      "حيّة ومنوّاة"
+     ],
+     [
+      "Ciliated",
+      "مهدّبة"
+     ],
+     [
+      "Binucleated",
+      "ثنائية النواة"
+     ],
+     [
+      "Dead, without nuclei, filled with keratin",
+      "ميّتة بلا أنوية ومملوءة بالكيراتين"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "The epidermis of the skin consists of:",
+    "ar": "تتكوّن بشرة الجلد من:",
+    "options": [
+     [
+      "Transitional",
+      "انتقالية"
+     ],
+     [
+      "Non-keratinized stratified squamous",
+      "حرشفية مطبّقة غير متقرّنة"
+     ],
+     [
+      "Keratinized stratified squamous epithelium",
+      "ظهارة حرشفية مطبّقة متقرّنة"
+     ],
+     [
+      "Simple columnar",
+      "عمودية بسيطة"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "Stratified cuboidal epithelium forms the walls of:",
+    "ar": "تكوّن الظهارة المكعّبة المطبّقة جدران:",
+    "options": [
+     [
+      "Air sacs",
+      "الأكياس الهوائية"
+     ],
+     [
+      "Large ducts of exocrine glands such as sweat gland ducts",
+      "القنوات الكبيرة للغدد خارجية الإفراز مثل قنوات الغدد العرقية"
+     ],
+     [
+      "Blood vessels",
+      "الأوعية الدموية"
+     ],
+     [
+      "Urinary bladder",
+      "المثانة"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "en": "Stratified columnar epithelium is:",
+    "ar": "الظهارة العمودية المطبّقة:",
+    "options": [
+     [
+      "Relatively rare; in large ducts of salivary glands and membranous male urethra",
+      "نادرة نسبيًا؛ في القنوات الكبيرة للغدد اللعابية والجزء الغشائي للإحليل الذكري"
+     ],
+     [
+      "Found in the skin",
+      "موجودة في الجلد"
+     ],
+     [
+      "The most common epithelium",
+      "أكثر الظهارات شيوعًا"
+     ],
+     [
+      "Columnar in all layers",
+      "عمودية في كل الطبقات"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "Transitional epithelium is limited to the:",
+    "ar": "تقتصر الظهارة الانتقالية على:",
+    "options": [
+     [
+      "Respiratory tract",
+      "الجهاز التنفسي"
+     ],
+     [
+      "Digestive tract",
+      "الجهاز الهضمي"
+     ],
+     [
+      "Skin",
+      "الجلد"
+     ],
+     [
+      "Urinary tract",
+      "الجهاز البولي"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "In a relaxed state, the apical cells of transitional epithelium are:",
+    "ar": "في حالة الارتخاء تكون الخلايا القمّية للظهارة الانتقالية:",
+    "options": [
+     [
+      "Flat",
+      "مسطّحة"
+     ],
+     [
+      "Large and rounded",
+      "كبيرة ومستديرة"
+     ],
+     [
+      "Columnar",
+      "عمودية"
+     ],
+     [
+      "Dead",
+      "ميّتة"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "en": "A distinguishing feature of transitional epithelium is:",
+    "ar": "من الصفات المميّزة للظهارة الانتقالية:",
+    "options": [
+     [
+      "Some binucleated cells",
+      "وجود بعض الخلايا ثنائية النواة"
+     ],
+     [
+      "Keratin",
+      "الكيراتين"
+     ],
+     [
+      "Cilia",
+      "الأهداب"
+     ],
+     [
+      "Goblet cells",
+      "الخلايا الكأسية"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "When stretched, transitional epithelium may be confused with:",
+    "ar": "عند التمدّد قد تختلط الظهارة الانتقالية بـ:",
+    "options": [
+     [
+      "Simple cuboidal",
+      "المكعّبة البسيطة"
+     ],
+     [
+      "Pseudostratified columnar",
+      "العمودية المطبّقة الكاذبة"
+     ],
+     [
+      "Non-keratinized stratified squamous epithelium",
+      "الظهارة الحرشفية المطبّقة غير المتقرّنة"
+     ],
+     [
+      "Simple columnar",
+      "العمودية البسيطة"
+     ]
+    ],
+    "answer": "C"
+   }
+  ]
+ }
+}
