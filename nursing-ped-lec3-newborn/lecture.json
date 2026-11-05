@@ -1,0 +1,3170 @@
+{
+ "meta": {
+  "subject_en": "Pediatric Nursing",
+  "subject_ar": "تمريض الأطفال",
+  "short_ar": "تمريض أطفال",
+  "unit_label": "LEC",
+  "kind": "Theory — نظري",
+  "stage": "The third stage — الثالثة",
+  "department": "كلية التمريض",
+  "unit_en": "Lecture 3",
+  "unit_ar": "المحاضرة 3",
+  "unit_no": "3",
+  "title_en": "Nursing Care of the Newborn",
+  "title_ar": "الرعاية التمريضية للمولود الجديد"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Nursing Care of the Newborn",
+   "ar": "الرعاية التمريضية للمولود الجديد"
+  },
+  {
+   "t": "card",
+   "en": [
+    "The newborn requires **skilled observation** to ensure adjustment to **extrauterine life**.",
+    "Nurse role includes:"
+   ],
+   "ar": [
+    "يحتاج المولود الجديد إلى **مراقبة ماهرة** لضمان تكيّفه مع **الحياة خارج الرحم**.",
+    "ويشمل دور الممرّض:"
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Assessment",
+     "ar": "التقييم"
+    },
+    {
+     "en": "Maintain a patent airway",
+     "ar": "الحفاظ على مجرى هوائي مفتوح"
+    },
+    {
+     "en": "Maintain a stable body temperature",
+     "ar": "الحفاظ على حرارة جسم مستقرة"
+    },
+    {
+     "en": "Provide optimum nutrition",
+     "ar": "توفير التغذية المثلى"
+    },
+    {
+     "en": "Protect from infection and injury",
+     "ar": "الحماية من العدوى والإصابة"
+    },
+    {
+     "en": "Promote parent-infant bonding",
+     "ar": "تعزيز ترابط الوالدين بالرضيع"
+    },
+    {
+     "en": "Prepare for discharge and home care",
+     "ar": "الاستعداد للخروج والرعاية المنزلية"
+    }
+   ],
+   "en": "Nursing Care",
+   "ar": "الرعاية التمريضية"
+  },
+  {
+   "t": "card",
+   "en": "**1) Assessment include:**",
+   "ar": "**1) يشمل التقييم:**",
+   "list_en": [
+    "Initial assessment, by Apgar score",
+    "Assessment of gestational age",
+    "Physical examination."
+   ],
+   "list_ar": [
+    "التقييم الأولي بدرجة أبغار",
+    "تقييم عمر الحمل",
+    "الفحص البدني."
+   ],
+   "alpha": true
+  },
+  {
+   "t": "h2",
+   "en": "a) Initial Assessment",
+   "ar": "أ) التقييم الأولي"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Apgar Scoring** is a method used to assess the newborn's immediate adjustment to extrauterine.",
+    "It reflects the infant's general condition.",
+    "Evaluations during **first 1 - 5 minutes** and are repeated **every 5 minutes** until the infant's condition stabilizes.",
+    "The score is based on observation of **heart rate, respiratory effort, muscle tone, reflex irritability, and color**.",
+    "Each item is given a score of **0, 1, or 2**.",
+    "Total scores of **0 to 3** represent **severe distress**, scores of **4 to 6** signify **moderate difficulty**, and scores of **7 to 10** indicate **absence of difficulty** in adjusting to extrauterine life.",
+    "Many healthy newborns do not achieve a score of 10 because the body is **not completely pink**"
+   ],
+   "list_ar": [
+    "**درجة أبغار** طريقة لتقييم تكيّف المولود الفوري مع الحياة خارج الرحم.",
+    "وهي تعكس الحالة العامة للرضيع.",
+    "يُجرى التقييم خلال **أول 1–5 دقائق** ويُعاد **كل 5 دقائق** حتى تستقر حالة الرضيع.",
+    "وتعتمد الدرجة على ملاحظة **معدّل القلب، والجهد التنفّسي، وتوتّر العضلات، وتهيّج المنعكسات، واللون**.",
+    "ويُعطى كل عنصر درجة **0 أو 1 أو 2**.",
+    "تمثّل الدرجات **0–3** **ضائقة شديدة**، و**4–6** **صعوبة متوسطة**، و**7–10** **عدم وجود صعوبة** في التكيّف مع الحياة خارج الرحم.",
+    "ولا يحصل كثير من المواليد الأصحّاء على 10 لأن الجسم **ليس ورديًا بالكامل**"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Sign",
+     "العلامة"
+    ],
+    [
+     "0 Points",
+     "0 نقطة"
+    ],
+    [
+     "1 Point",
+     "نقطة واحدة"
+    ],
+    [
+     "2 Points",
+     "نقطتان"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Activity** (muscle tone)",
+      "**النشاط** (توتّر العضلات)"
+     ],
+     [
+      "Absent",
+      "غائب"
+     ],
+     [
+      "Arms and legs flexed",
+      "الذراعان والساقان مثنية"
+     ],
+     [
+      "Active movement",
+      "حركة نشطة"
+     ]
+    ],
+    [
+     [
+      "**Pulse**",
+      "**النبض**"
+     ],
+     [
+      "Absent",
+      "غائب"
+     ],
+     [
+      "Below 100 bpm",
+      "أقل من 100 نبضة/د"
+     ],
+     [
+      "Over 100 bpm",
+      "أكثر من 100 نبضة/د"
+     ]
+    ],
+    [
+     [
+      "**Grimace** (reflex irritability)",
+      "**التكشير** (تهيّج المنعكسات)"
+     ],
+     [
+      "Flaccid",
+      "رخو"
+     ],
+     [
+      "Some flexion of Extremities",
+      "بعض ثني الأطراف"
+     ],
+     [
+      "Active motion (sneeze, cough, pull away)",
+      "حركة نشطة (عطاس، سعال، ابتعاد)"
+     ]
+    ],
+    [
+     [
+      "**Appearance** (skin color)",
+      "**المظهر** (لون الجلد)"
+     ],
+     [
+      "Blue, pale",
+      "أزرق، شاحب"
+     ],
+     [
+      "Body pink, Extremities blue",
+      "الجسم وردي والأطراف زرقاء"
+     ],
+     [
+      "Completely pink",
+      "وردي بالكامل"
+     ]
+    ],
+    [
+     [
+      "**Respiration**",
+      "**التنفّس**"
+     ],
+     [
+      "Absent",
+      "غائب"
+     ],
+     [
+      "Slow, irregular",
+      "بطيء، غير منتظم"
+     ],
+     [
+      "Vigorous cry",
+      "صراخ قوي"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    25,
+    20,
+    27,
+    28
+   ],
+   "style": "summary",
+   "label_en": "APGAR SCORING SYSTEM",
+   "label_ar": "نظام أبغار"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Total",
+     "المجموع"
+    ],
+    [
+     "Meaning",
+     "المعنى"
+    ]
+   ],
+   "rows": [
+    [
+     "0-3",
+     [
+      "Severely depressed",
+      "اكتئاب (ضائقة) شديد"
+     ]
+    ],
+    [
+     "4-6",
+     [
+      "Moderately depressed",
+      "اكتئاب متوسط"
+     ]
+    ],
+    [
+     "7-10",
+     [
+      "Excellent condition",
+      "حالة ممتازة"
+     ]
+    ]
+   ],
+   "widths": [
+    30,
+    70
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/apgar-pictures.jpg",
+   "en": "Apgar signs with scores 0, 1 and 2",
+   "ar": "علامات أبغار بالدرجات 0 و1 و2",
+   "h": "56mm"
+  },
+  {
+   "t": "note",
+   "en": "The picture labels the columns \"Score 0, 1, 3\"; Apgar items score **0, 1, 2**.",
+   "ar": "الصورة تسمّي الأعمدة \"Score 0, 1, 3\"؛ وعناصر أبغار تُعطى **0 و1 و2**.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "APGAR = **Appearance, Pulse, Grimace, Activity, Respiration**, each 0–2.",
+    "Done at **1 and 5 minutes**, then every 5 minutes.",
+    "**0–3 severe, 4–6 moderate, 7–10 excellent**."
+   ],
+   "ar": [
+    "APGAR = **المظهر، والنبض، والتكشير، والنشاط، والتنفّس**، لكل منها 0–2.",
+    "يُجرى في **الدقيقة 1 و5**، ثم كل 5 دقائق.",
+    "**0–3 شديد، 4–6 متوسط، 7–10 ممتاز**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Gestational age and physical examination",
+   "ar": "عمر الحمل والفحص البدني"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**b) Assessment of Gestational Age:** Newborns` morbidity and mortality related to gestational age and birth weight.",
+    "GA assessed by:"
+   ],
+   "ar": [
+    "**ب) تقييم عمر الحمل:** ترتبط مراضة المواليد ووفياتهم بعمر الحمل ووزن الولادة.",
+    "ويُقيَّم عمر الحمل بـ:"
+   ],
+   "list_en": [
+    "Last menstrual period",
+    "Ultrasound",
+    [
+     "**New Ballard Scale (NBS)** is a method used to assess GA (**six external physical and six neuromuscular signs**).",
+     "Each sign has a number score, and the cumulative score correlates with a maturity rating of **20 to 44 weeks** of gestation."
+    ]
+   ],
+   "list_ar": [
+    "آخر دورة شهرية",
+    "السونار (الأمواج فوق الصوتية)",
+    [
+     "**مقياس بالارد الجديد (NBS)** طريقة لتقييم عمر الحمل (**ست علامات جسدية خارجية وست علامات عصبية عضلية**).",
+     "ولكل علامة درجة رقمية، ويرتبط مجموع الدرجات بتقدير نضج من **20 إلى 44 أسبوعًا** من الحمل."
+    ]
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/ballard-physical.jpg",
+     "en": "New Ballard Scale: physical maturity and maturity rating",
+     "ar": "مقياس بالارد: النضج الجسدي وتقدير النضج",
+     "h": "50mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/ballard-neuromuscular.jpg",
+     "en": "New Ballard Scale: neuromuscular maturity",
+     "ar": "مقياس بالارد: النضج العصبي العضلي",
+     "h": "50mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "c) Physical exam",
+   "ar": "ج) الفحص البدني"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Area",
+     "المنطقة"
+    ],
+    [
+     "Normal findings",
+     "الموجودات الطبيعية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**General Measurements**",
+      "**القياسات العامة**"
+     ],
+     [
+      "Head circumference—33-35 cm (13-14 inches); Crown-to-rump length—31-35 cm (12.2-14 inches); Head-to-heel length—48-53 cm (19-21 inches); Birth weight—2700-4000 g (6-9 lb)",
+      "محيط الرأس 33–35 سم؛ وطول التاج–الإلية 31–35 سم؛ وطول الرأس–الكعب 48–53 سم؛ ووزن الولادة 2700–4000 غم"
+     ]
+    ],
+    [
+     [
+      "**Vital Signs**",
+      "**العلامات الحيوية**"
+     ],
+     [
+      "Temperature, axillary—36.5°-37°C (97.7°-98°F); Heart rate, apical—120-140 beats/ min; Respirations—30-60 breaths/min; Blood pressure (BP): 65/41 mm Hg",
+      "الحرارة الإبطية 36.5–37 مئوية؛ ومعدّل القلب القمّي 120–140 نبضة/د؛ والتنفّس 30–60 نفسًا/د؛ وضغط الدم 65/41 ملم زئبق"
+     ]
+    ],
+    [
+     [
+      "**General Appearance**",
+      "**المظهر العام**"
+     ],
+     [
+      "Posture—Flexion of head and extremities",
+      "الوضعية: ثني الرأس والأطراف"
+     ]
+    ],
+    [
+     [
+      "**Skin**",
+      "**الجلد**"
+     ],
+     [
+      "At birth, bright red, puffy, smooth 2nd-3rd day, pink, flaky, dry; Vernix caseosa, Lanugo; Edema around eyes, face, legs, dorsa of hands, feet; Acrocyanosis—Cyanosis of hands and feet",
+      "عند الولادة أحمر زاهٍ منتفخ أملس، وفي اليوم 2–3 وردي متقشّر جاف؛ والطلاء الدهني والزغب؛ ووذمة حول العينين والوجه والساقين وظهر اليدين والقدمين؛ وزرقة الأطراف (زرقة اليدين والقدمين)"
+     ]
+    ],
+    [
+     [
+      "**Head**",
+      "**الرأس**"
+     ],
+     [
+      "Anterior fontanel—Diamond shaped; size 4-5 cm (0.5-2 inches); Posterior fontanel—Triangular, 0.5-1 cm (0.2-0.4 inches) Fontanels flat, soft, and firm",
+      "اليافوخ الأمامي معيّني بحجم 4–5 سم؛ والخلفي مثلّثي 0.5–1 سم؛ واليوافيخ مسطّحة وطرية وثابتة"
+     ]
+    ],
+    [
+     [
+      "**Eyes**",
+      "**العيون**"
+     ],
+     [
+      "Lids usually edematous; Color—Slate gray, dark blue, brown; Absence of tears, Corneal reflex in response to touch, Pupillary reflex in response to light, Blink reflex in response to light or touch",
+      "الجفون متوذّمة عادةً؛ واللون رمادي داكن أو أزرق غامق أو بني؛ وغياب الدموع، ومنعكس القرنية للمس، ومنعكس الحدقة للضوء، ومنعكس الرمش للضوء أو اللمس"
+     ]
+    ],
+    [
+     [
+      "**Ears**",
+      "**الأذنان**"
+     ],
+     [
+      "Position—Top of pinna on horizontal line with outer canthus of eye, Startle (Moro) reflex elicited by loud, sudden noise Pinna flexible, cartilage present",
+      "الموضع: أعلى الصيوان على خط أفقي مع الزاوية الخارجية للعين؛ ومنعكس الإجفال (مورو) يُستثار بصوت عالٍ مفاجئ؛ والصيوان مرن وفيه غضروف"
+     ]
+    ],
+    [
+     [
+      "**Nose**",
+      "**الأنف**"
+     ],
+     [
+      "Nasal patency - Sneezing",
+      "انفتاح الأنف – العطاس"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    20,
+    80
+   ],
+   "style": "summary",
+   "label_en": "Physical exam 1",
+   "label_ar": "الفحص البدني 1"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Area",
+     "المنطقة"
+    ],
+    [
+     "Normal findings",
+     "الموجودات الطبيعية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Mouth and Throat**",
+      "**الفم والحلق**"
+     ],
+     [
+      "Intact palate; Uvula in midline; Sucking reflex—Strong Rooting reflex Gag reflex Extrusion reflex; Absent or minimum salivation Vigorous cry",
+      "حنك سليم؛ واللهاة في الوسط؛ ومنعكس مصّ قوي ومنعكس البحث والتهوّع والدفع؛ وغياب اللعاب أو قلّته؛ وصراخ قوي"
+     ]
+    ],
+    [
+     [
+      "**Neck**",
+      "**الرقبة**"
+     ],
+     [
+      "Short, thick, usually surrounded by skinfolds Tonic neck reflex",
+      "قصيرة وسميكة، محاطة عادةً بطيّات جلدية؛ ومنعكس الرقبة التوتّري"
+     ]
+    ],
+    [
+     [
+      "**Chest**",
+      "**الصدر**"
+     ],
+     [
+      "Anteroposterior and lateral diameters equal; Slight sternal retractions evident during inspiration Xiphoid process evident, Breast enlargement",
+      "القطران الأمامي الخلفي والجانبي متساويان؛ وانسحاب قصّي خفيف مع الشهيق؛ والناتئ الخنجري ظاهر؛ وتضخّم الثدي"
+     ]
+    ],
+    [
+     [
+      "**Lungs**",
+      "**الرئتان**"
+     ],
+     [
+      "Respirations chiefly abdominal; Cough reflex absent at birth, present by 1-2 days",
+      "التنفّس بطني أساسًا؛ ومنعكس السعال غائب عند الولادة ويظهر بعد 1–2 يوم"
+     ]
+    ],
+    [
+     [
+      "**Heart**",
+      "**القلب**"
+     ],
+     [
+      "Apex—4th-5th intercostal space",
+      "القمّة في المسافة الوربية الرابعة–الخامسة"
+     ]
+    ],
+    [
+     [
+      "**Abdomen**",
+      "**البطن**"
+     ],
+     [
+      "Cylindric in shape; Liver—Palpable 2-3 cm below right costal margin; Spleen—Tip palpable at end of 1st week of age; Kidneys—Palpable 1-2 cm above umbilicus; Umbilical cord—Bluish white at birth with 2 arteries and 1 vein; Femoral pulses—Equal bilaterally",
+      "أسطواني الشكل؛ والكبد يُجسّ 2–3 سم تحت الحافة الضلعية اليمنى؛ ورأس الطحال يُجسّ بنهاية الأسبوع الأول؛ والكليتان تُجسّان 1–2 سم فوق السرّة؛ والحبل السري أبيض مزرق عند الولادة فيه شريانان ووريد واحد؛ والنبض الفخذي متساوٍ في الجانبين"
+     ]
+    ],
+    [
+     [
+      "**Back and Rectum**",
+      "**الظهر والمستقيم**"
+     ],
+     [
+      "Spine intact; no openings, masses, or prominent curves; Patent anal opening, Passage of meconium within 48 hours",
+      "العمود الفقري سليم بلا فتحات أو كتل أو انحناءات بارزة؛ وفتحة شرج سالكة، ونزول العقي خلال 48 ساعة"
+     ]
+    ],
+    [
+     [
+      "**Extremities**",
+      "**الأطراف**"
+     ],
+     [
+      "10 fingers and toes, Full range of motion; Nail beds pink, with transient cyanosis immediately after birth; Creases on anterior 2/3 of sole; Symmetry of extremities, Equal muscle tone",
+      "10 أصابع في اليدين والقدمين، ومدى حركة كامل؛ وأسرّة الأظافر وردية مع زرقة عابرة بعد الولادة مباشرة؛ وتجاعيد على الثلثين الأماميين من باطن القدم؛ وتناظر الأطراف وتساوي التوتّر العضلي"
+     ]
+    ],
+    [
+     [
+      "**Neuromuscular System**",
+      "**الجهاز العصبي العضلي**"
+     ],
+     [
+      "Extremities usually in some degree of flexion; Extension of extremity followed by previous position of flexion; Head lag while sitting, but momentary ability to hold head erect; Ability to turn head from side to side when prone; Ability to hold head in horizontal line with back when held prone",
+      "الأطراف عادةً مثنية بدرجة ما؛ وبسط الطرف يتبعه رجوعه للثني؛ وتأخّر الرأس عند الجلوس مع قدرة لحظية على رفعه؛ والقدرة على تدوير الرأس من جانب لآخر وهو منبطح؛ والقدرة على إبقاء الرأس على خط أفقي مع الظهر عند حمله منبطحًا"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    20,
+    80
+   ],
+   "style": "summary",
+   "label_en": "Physical exam 2",
+   "label_ar": "الفحص البدني 2"
+  },
+  {
+   "t": "note",
+   "en": [
+    "GA by **LMP, ultrasound, New Ballard Scale** (6 physical + 6 neuromuscular signs, 20–44 weeks).",
+    "Normal newborn: HC **33–35 cm**, weight **2700–4000 g**, HR **120–140**, RR **30–60**.",
+    "Cord: **2 arteries + 1 vein**; meconium within **48 hours**."
+   ],
+   "ar": [
+    "عمر الحمل بـ**آخر دورة، والسونار، ومقياس بالارد** (6 جسدية + 6 عصبية عضلية، 20–44 أسبوعًا).",
+    "المولود الطبيعي: محيط الرأس **33–35 سم**، والوزن **2700–4000 غم**، والقلب **120–140**، والتنفّس **30–60**.",
+    "الحبل السري: **شريانان + وريد**؛ والعقي خلال **48 ساعة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Airway, temperature and protection",
+   "ar": "المجرى الهوائي والحرارة والحماية"
+  },
+  {
+   "t": "card",
+   "en": "**2) Maintain a Patent Airway**",
+   "ar": "**2) الحفاظ على مجرى هوائي مفتوح**",
+   "list_en": [
+    "Newborn is **supine**, a **neutral neck position** (avoiding neck flexion or hyperextension) to maintaining a patent airway.",
+    "After feeding, position the infant to facilitate drainage of secretions.",
+    "Recommends the **supine position during sleep** for all newborns.",
+    [
+     "Suctioning of secretions, or by bulb syringe.",
+     "Mechanical suction is used.",
+     "Use of the proper-sized catheter and correct suctioning technique"
+    ],
+    "Gentle suctioning for Oropharyngeal suctioning is performed for **up to 5 seconds** with sufficient time between each attempt to allow the infant to re oxygenate.",
+    "Closely monitor vital signs, and report immediately any indication of respiratory distress."
+   ],
+   "list_ar": [
+    "يكون المولود **مستلقيًا على ظهره** مع **وضع محايد للرقبة** (بلا ثني أو فرط بسط) للحفاظ على مجرى هوائي مفتوح.",
+    "وبعد الرضاعة يُوضع الرضيع بوضعية تسهّل تصريف الإفرازات.",
+    "ويُوصى **بالاستلقاء على الظهر أثناء النوم** لكل المواليد.",
+    [
+     "شفط الإفرازات أو بالمحقنة البصلية.",
+     "ويُستعمل الشفط الآلي.",
+     "باستعمال قثطرة بحجم مناسب وتقنية شفط صحيحة"
+    ],
+    "ويُجرى الشفط الفموي البلعومي بلطف **حتى 5 ثوانٍ** مع وقت كافٍ بين المحاولات ليعيد الرضيع أكسجته.",
+    "راقب العلامات الحيوية عن كثب، وأبلغ فورًا عن أي علامة ضائقة تنفسية."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**3) Maintain a Stable Body Temperature**",
+   "ar": "**3) الحفاظ على حرارة جسم مستقرة**",
+   "list_en": [
+    "Conserving the newborn's body heat is an essential nursing goal.",
+    "Rapidly drying the skin and hair with a warmed towel and placing the infant in skin-to-skin contact with his mother, covered by a blanket, will minimize heat loss through **evaporation**.",
+    "**Radiant** heat loss may occur, place cribs or incubators as far away as possible from cool walls, windows, or ventilating units.",
+    "Placing the infant on a padded, covered surface rather than directly on a cool hard table and by providing insulation with clothes and blankets.",
+    "Placing the newborn nestled close to the mother, such as in her arms or on her abdomen or chest immediately after delivery in skin-to-skin (**kangaroo care**) contact, is beneficial in terms of conserving newborn heat and fostering maternal attachment and breastfeeding."
+   ],
+   "list_ar": [
+    "الحفاظ على حرارة جسم المولود هدف تمريضي أساسي.",
+    "والتجفيف السريع للجلد والشعر بمنشفة دافئة ووضع الرضيع بتماسّ الجلد مع أمّه مغطّى ببطانية يقلّل فقدان الحرارة بـ**التبخّر**.",
+    "وقد يحدث فقدان الحرارة **بالإشعاع**، فتوضع الأسرّة أو الحاضنات بعيدًا قدر الإمكان عن الجدران والنوافذ الباردة ووحدات التهوية.",
+    "ويُوضع الرضيع على سطح مبطّن مغطّى بدل وضعه مباشرة على طاولة صلبة باردة، مع العزل بالملابس والبطانيات.",
+    "ووضع المولود قريبًا من أمّه، كأن يكون في ذراعيها أو على بطنها أو صدرها مباشرة بعد الولادة بتماسّ الجلد (**رعاية الكنغر**)، مفيد في حفظ حرارته وتعزيز ارتباط الأم والرضاعة الطبيعية."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**4) Protect From Infection And Injury**",
+   "ar": "**4) الحماية من العدوى والإصابة**",
+   "list_en": [
+    "Identification",
+    "Eye Care",
+    "Vitamin K Administration",
+    "Hepatitis B Vaccine Administration",
+    "Newborn Screening",
+    "Universal Newborn Hearing Screening",
+    "Bathing",
+    "Care of the Umbilicus",
+    "Circumcision"
+   ],
+   "list_ar": [
+    "التعريف (سوار الهوية)",
+    "العناية بالعين",
+    "إعطاء فيتامين K",
+    "إعطاء لقاح التهاب الكبد B",
+    "فحص المولود (المسح)",
+    "فحص السمع الشامل للمولود",
+    "الاستحمام",
+    "العناية بالسرّة",
+    "الختان"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Airway: **supine, neutral neck**, suction ≤ **5 seconds**.",
+    "Heat: dry quickly, **skin-to-skin (kangaroo)**, away from cold walls.",
+    "Protection: ID, eyes, **vitamin K, HBV vaccine**, screening, cord care."
+   ],
+   "ar": [
+    "المجرى الهوائي: **استلقاء على الظهر ورقبة محايدة**، والشفط ≤ **5 ثوانٍ**.",
+    "الحرارة: جفّف بسرعة، و**تماسّ الجلد (الكنغر)**، وبعيدًا عن الجدران الباردة.",
+    "الحماية: الهوية والعيون و**فيتامين K ولقاح HBV** والمسح والعناية بالسرّة."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "BIRTH INJURIES",
+   "ar": "إصابات الولادة"
+  },
+  {
+   "t": "card",
+   "en": "**Injuries of newborn that result from several factors:**",
+   "ar": "**إصابات المولود تنتج عن عوامل عدّة:**",
+   "list_en": [
+    "**Maternal factors** include uterine dysfunction that leads to prolonged labor, preterm or postterm labor, and **cephalopelvic disproportion**.",
+    "Injury may result from **dystocia** caused by fetal macrosomia, multifetal gestation, abnormal presentation, and congenital anomalies.",
+    [
+     "**Obstetric birth techniques** can cause injury.",
+     "Forceps birth, vacuum extraction and cesarean birth."
+    ],
+    "Many injuries are minor and resolve spontaneously in a few days; others require some degree of intervention."
+   ],
+   "list_ar": [
+    "تشمل **عوامل الأم** خلل الرحم المؤدي إلى ولادة متطاولة، أو ولادة مبكرة أو متأخرة، و**عدم التناسب الرأسي الحوضي**.",
+    "وقد تنتج الإصابة عن **عسر الولادة** بسبب ضخامة الجنين، أو الحمل المتعدّد، أو المجيء غير الطبيعي، أو التشوّهات الخلقية.",
+    [
+     "وقد تسبّب **تقنيات الولادة التوليدية** الإصابة.",
+     "الولادة بالملقط، والشفط، والقيصرية."
+    ],
+    "وكثير من الإصابات بسيطة وتزول تلقائيًا خلال أيام؛ وبعضها يحتاج تدخّلًا بدرجة ما."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Part of the nurse's responsibility is to **identify such injuries** so that appropriate interventions can be initiated as soon as possible.",
+    "Birth injuries are classified according to the type of body structure involved:"
+   ],
+   "ar": [
+    "ومن مسؤوليات الممرّض **التعرّف على هذه الإصابات** ليبدأ التدخّل المناسب بأسرع وقت.",
+    "وتُصنَّف إصابات الولادة بحسب نوع التركيب الجسمي المصاب:"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Soft Tissue Injury:** usually occurs when there is some degree of disproportion between the presenting part and the maternal pelvis (cephalopelvic disproportion).",
+    "These traumatic lesions generally fade spontaneously and without treatment within a few days, types (Erythema, Abrasion, Petechiae, Ecchymoses, Subcutaneous fat necrosis, Retinal hemorrhage, Scalp laceration)",
+    "**Nursing Care Management:** Primarily assessing the injury, maintaining asepsis of the area to prevent additional skin breakdown and infection.",
+    "The nurse should record an accurate description of the injury via photographs."
+   ],
+   "list_ar": [
+    "**إصابة الأنسجة الرخوة:** تحدث عادةً عند وجود عدم تناسب بين الجزء المتقدّم وحوض الأم (عدم التناسب الرأسي الحوضي).",
+    "وتختفي هذه الآفات عادةً تلقائيًا وبلا علاج خلال أيام، وأنواعها (الحمامى، والسحجة، والنمشات، والكدمات، ونخر الدهن تحت الجلد، ونزف الشبكية، وتمزّق فروة الرأس)",
+    "**الرعاية التمريضية:** تقييم الإصابة أساسًا، والحفاظ على تعقيم المنطقة لمنع تضرّر الجلد والعدوى.",
+    "ويسجّل الممرّض وصفًا دقيقًا للإصابة بالصور."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Head Injury",
+     "إصابة الرأس"
+    ],
+    [
+     "Definition",
+     "التعريف"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Caput succedaneum**",
+      "**الحدبة المصلية (ورم الرأس)**"
+     ],
+     [
+      "edematous tissue (consists of serum and/or blood) situated over the portion of the scalp above the bone.",
+      "نسيج متوذّم (من مصل و/أو دم) يقع على جزء فروة الرأس فوق العظم."
+     ]
+    ],
+    [
+     [
+      "**Subgaleal hemorrhage**",
+      "**النزف تحت السفاق**"
+     ],
+     [
+      "bleeding into the subgaleal compartment (space that contains loosely arranged connective tissue)",
+      "نزف في الحيّز تحت السفاق (حيّز فيه نسيج ضام مرتخٍ)"
+     ]
+    ],
+    [
+     [
+      "**Cephalhematoma**",
+      "**الورم الدموي الرأسي**"
+     ],
+     [
+      "blood vessels rupture during labor or delivery and produce bleeding into the area between the bone and its periosteum.",
+      "تتمزّق الأوعية أثناء المخاض أو الولادة فيحدث نزف بين العظم وسمحاقه."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    28,
+    72
+   ],
+   "style": "summary",
+   "label_en": "Head Injury: it more serious injury, most common types",
+   "label_ar": "إصابة الرأس: أخطر، وأشيع أنواعها"
+  },
+  {
+   "t": "figure",
+   "src": "assets/scalp-injuries.jpg",
+   "en": "(A) Caput succedaneum, (B) subgaleal hemorrhage, (C) cephalhematoma",
+   "ar": "(أ) الحدبة المصلية، (ب) النزف تحت السفاق، (ج) الورم الدموي الرأسي",
+   "h": "66mm"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Nursing care:** assessment, observation, and accurate documentation of the common scalp injuries.",
+    "Observing for complications, infection, hemorrhage, hypovolemia. cephalhematoma usually resolve spontaneously."
+   ],
+   "ar": [
+    "**الرعاية التمريضية:** تقييم إصابات فروة الرأس الشائعة وملاحظتها وتوثيقها بدقّة.",
+    "ومراقبة المضاعفات والعدوى والنزف ونقص حجم الدم، والورم الدموي الرأسي يزول عادةً تلقائيًا."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Fracture (depressed or linear):** Fracture of the **clavicle**, or collarbone, is the **most common birth injury**.",
+    "Intracranial hemorrhage",
+    "Subdural or epidural hematoma"
+   ],
+   "list_ar": [
+    "**الكسر (المنخسف أو الخطّي):** كسر **الترقوة** هو **أشيع إصابات الولادة**.",
+    "النزف داخل القحف",
+    "الورم الدموي تحت الجافية أو فوقها"
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Nursing Care Management:** no intervention is prescribed other than proper body alignment, careful dressing and undressing of the infant, and handling and carrying techniques.",
+    "Observed for signs of neurologic complications, an asymmetric Moro reflex, swelling or tenderness or cries when the arm moved."
+   ],
+   "ar": [
+    "**الرعاية التمريضية:** لا تدخّل سوى المحاذاة الصحيحة للجسم، والحذر في إلباس الرضيع وخلع ملابسه، وتقنيات الحمل والتداول.",
+    "ويُراقب لعلامات المضاعفات العصبية، وعدم تناظر منعكس مورو، والتورّم أو الإيلام أو البكاء عند تحريك الذراع."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Nerve Injury",
+   "ar": "إصابة الأعصاب"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Facial paralysis:** Pressure on the facial nerve (**7 cranial nerve**) during delivery.",
+    "Signed by loss of movement on the affected side (inability to close the eye completely, drooping of the corner of the mouth, and absence of wrinkling of the forehead and nasolabial fold).",
+    "The paralysis usually disappears spontaneously in a few days or several months.",
+    "Nursing care involves aiding the infant in suckling and helping the mother with feeding techniques (gavage feeding).",
+    "Breastfeeding recommended.",
+    "Use **artificial tears** to prevent drying of the eye."
+   ],
+   "list_ar": [
+    "**شلل الوجه:** ضغط على العصب الوجهي (**العصب القحفي السابع**) أثناء الولادة.",
+    "وعلامته فقدان الحركة في الجهة المصابة (عدم القدرة على إغلاق العين تمامًا، وتدلّي زاوية الفم، وغياب تجاعيد الجبهة والطيّة الأنفية الشفوية).",
+    "ويزول الشلل عادةً تلقائيًا خلال أيام أو بضعة أشهر.",
+    "وتشمل الرعاية التمريضية مساعدة الرضيع على المصّ ومساعدة الأم في تقنيات الإرضاع (التغذية بالأنبوب).",
+    "ويُوصى بالرضاعة الطبيعية.",
+    "واستعمل **الدموع الصناعية** لمنع جفاف العين."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Brachial palsy:** brachial plexus injury results from forces alter position of the arm, shoulder, and neck.",
+    "**Erb palsy** is caused by damage to the **upper plexus**, results from pulling away of the shoulder from the head (occur with big baby & breech presentation)",
+    "Signed with arm hangs alongside the body, shoulder and arm adducted and internally rotated, the **Moro reflex is absent** & **Torticollis** (tilting of the head to one side with rotation of the head to the opposite side due to contracture of the sternocleidomastoid muscle)",
+    "Nursing care: by proper positioning of the affected arm immobilized on the upper abdomen, passive range-of-motion exercises of the shoulder & elbow at **7 - 10 days**.",
+    "Wrist flexion contractures prevented by supportive splints or braces.",
+    "In dressing **start with affected arm**, use \"football\" position when holding.",
+    "Complete recovery takes **3 to 6 months**."
+   ],
+   "list_ar": [
+    "**شلل الضفيرة العضدية:** تنتج إصابة الضفيرة عن قوى تغيّر وضع الذراع والكتف والرقبة.",
+    "و**شلل إرب** سببه تضرّر **الضفيرة العلوية**، وينتج عن سحب الكتف بعيدًا عن الرأس (مع الطفل الكبير والمجيء المقعدي)",
+    "وعلامته تدلّي الذراع بجانب الجسم، والكتف والذراع مقرّبان ومدوّران للداخل، و**غياب منعكس مورو**، و**الصعر** (ميل الرأس لجانب مع دورانه للجانب المقابل بسبب تقلّص العضلة القصّية الترقوية الخشائية)",
+    "الرعاية التمريضية: وضع الذراع المصابة بشكل صحيح مثبّتة على أعلى البطن، وتمارين المدى الحركي المنفعلة للكتف والمرفق بعمر **7–10 أيام**.",
+    "وتُمنع تقلّصات ثني الرسغ بالجبائر أو الدعامات.",
+    "وعند الإلباس **ابدأ بالذراع المصابة**، واستعمل وضعية \"كرة القدم\" عند الحمل.",
+    "ويستغرق الشفاء التام **3–6 أشهر**."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/facial-paralysis.jpg",
+     "en": "Facial paralysis: right side of face after forceps delivery",
+     "ar": "شلل الوجه: الجهة اليمنى بعد الولادة بالملقط",
+     "h": "44mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/erb-palsy.jpg",
+     "en": "Left-sided brachial plexus (Erb-Duchenne) palsy",
+     "ar": "شلل الضفيرة العضدية اليسرى (إرب–دوشين)",
+     "h": "44mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Most common birth injury: **clavicle fracture**.",
+    "Caput = edema **over** the bone; cephalhematoma = blood **between bone and periosteum**.",
+    "Facial palsy = **CN VII** → artificial tears; Erb palsy = **upper plexus**, absent Moro, recovery 3–6 months."
+   ],
+   "ar": [
+    "أشيع إصابة ولادة: **كسر الترقوة**.",
+    "الحدبة المصلية = وذمة **فوق** العظم؛ والورم الدموي = دم **بين العظم والسمحاق**.",
+    "شلل الوجه = **العصب السابع** ← دموع صناعية؛ وشلل إرب = **الضفيرة العلوية**، وغياب مورو، والشفاء 3–6 أشهر."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "The High-Risk Neonate",
+   "ar": "حديث الولادة عالي الخطورة"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Newborns (up to 28 days) with high morbidity or mortality rate related to adjustment to extrauterine life, regardless their gestational age or birth weight.",
+    "During the prenatal, perinatal, and postnatal periods."
+   ],
+   "ar": [
+    "المواليد (حتى 28 يومًا) ذوو معدّل مراضة أو وفيات عالٍ يرتبط بالتكيّف مع الحياة خارج الرحم، بغضّ النظر عن عمر الحمل أو وزن الولادة.",
+    "خلال فترات ما قبل الولادة وحولها وبعدها."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Classification of High-Risk Newborns:** Classified according to birth weight, gestational age, and main pathophysiologic problems.",
+   "ar": "**تصنيف المواليد عالي الخطورة:** يُصنَّفون بحسب وزن الولادة، وعمر الحمل، والمشكلات المرضية الرئيسة."
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Classification According to Size",
+     "التصنيف بحسب الحجم"
+    ],
+    [
+     "Definition",
+     "التعريف"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Low-birth-weight (LBW)**",
+      "**ناقص وزن الولادة**"
+     ],
+     [
+      "birth weight is less than 2500 g (5.5 lb), regardless of gestational age",
+      "وزن الولادة أقل من 2500 غم بغضّ النظر عن عمر الحمل"
+     ]
+    ],
+    [
+     [
+      "**Very-low-birth-weight (VLBW)**",
+      "**ناقص الوزن جدًا**"
+     ],
+     [
+      "birth weight is less than 1500 g (3.3 lb)",
+      "وزن الولادة أقل من 1500 غم"
+     ]
+    ],
+    [
+     [
+      "**Extremely low-birth-weight (ELBW)**",
+      "**ناقص الوزن بشدّة**"
+     ],
+     [
+      "birth weight is less than 1000 g (2.2 lb)",
+      "وزن الولادة أقل من 1000 غم"
+     ]
+    ],
+    [
+     [
+      "**Appropriate-for-gestational-age (AGA)**",
+      "**مناسب لعمر الحمل**"
+     ],
+     [
+      "weight falls between the 10th and 90th percentiles on intrauterine growth curves",
+      "وزنه بين المئين 10 و90 على منحنيات النمو داخل الرحم"
+     ]
+    ],
+    [
+     [
+      "**Small-for-date (SFD) or small-for-gestational-age (SGA)**",
+      "**صغير لعمر الحمل**"
+     ],
+     [
+      "rate of intrauterine growth was slowed and birth weight falls below the 10th percentile",
+      "تباطأ نموّه داخل الرحم ووزنه تحت المئين 10"
+     ]
+    ],
+    [
+     [
+      "**Intrauterine growth restriction (IUGR)**",
+      "**تقييد النمو داخل الرحم**"
+     ],
+     [
+      "intrauterine growth is restricted (sometimes used as a more descriptive term for the SGA infant)",
+      "نموّه داخل الرحم مقيّد (ويُستعمل أحيانًا وصفًا أدقّ للصغير لعمر الحمل)"
+     ]
+    ],
+    [
+     [
+      "**Large-for-gestational-age (LGA)**",
+      "**كبير لعمر الحمل**"
+     ],
+     [
+      "birth weight falls above the 90th percentile",
+      "وزنه فوق المئين 90"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    38,
+    62
+   ],
+   "style": "summary",
+   "label_en": "By size",
+   "label_ar": "بالحجم"
+  },
+  {
+   "t": "figure",
+   "src": "assets/growth-classes.jpg",
+   "en": "Weight by gestational age: LBW, VLBW, ELBW; SGA, AGA, LGA; preterm, term, postterm",
+   "ar": "الوزن حسب عمر الحمل: الفئات بالوزن والنمو والعمر",
+   "h": "60mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Classification According to Gestational Age",
+     "التصنيف بحسب عمر الحمل"
+    ],
+    [
+     "Definition",
+     "التعريف"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Preterm (premature)**",
+      "**الخديج (المبتسر)**"
+     ],
+     [
+      "born before completion of 37 weeks of gestation, regardless of birth weight",
+      "يولد قبل إتمام 37 أسبوعًا بغضّ النظر عن الوزن"
+     ]
+    ],
+    [
+     [
+      "**Full-term**",
+      "**تام الحمل**"
+     ],
+     [
+      "born between the beginning of 38 weeks and the completion of 42 weeks of gestation",
+      "يولد بين بداية الأسبوع 38 ونهاية الأسبوع 42"
+     ]
+    ],
+    [
+     [
+      "**Postterm (postmature)**",
+      "**متأخّر الولادة**"
+     ],
+     [
+      "born after 42 weeks of gestational age, regardless of birth weight",
+      "يولد بعد 42 أسبوعًا بغضّ النظر عن الوزن"
+     ]
+    ],
+    [
+     [
+      "**Late-preterm**",
+      "**الخديج المتأخّر**"
+     ],
+     [
+      "born between 34 0/7 and 36 6/7 weeks of gestation",
+      "يولد بين 34 و0/7 و36 و6/7 أسبوعًا"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    70
+   ],
+   "style": "summary",
+   "label_en": "By gestational age",
+   "label_ar": "بعمر الحمل"
+  },
+  {
+   "t": "card",
+   "en": "**NURSING CARE OF HIGH-RISK NEWBORNS**",
+   "ar": "**الرعاية التمريضية للمواليد عالي الخطورة**",
+   "list_en": [
+    "Assessment",
+    "Monitoring physiologic data",
+    "Safety Measures",
+    "Respiratory Support",
+    "Thermoregulation",
+    "Protection from Infection",
+    "Hydration",
+    "Nutrition"
+   ],
+   "list_ar": [
+    "التقييم",
+    "مراقبة البيانات الفسيولوجية",
+    "إجراءات السلامة",
+    "الدعم التنفّسي",
+    "تنظيم الحرارة",
+    "الحماية من العدوى",
+    "الإماهة",
+    "التغذية"
+   ],
+   "start": 1
+  },
+  {
+   "t": "card",
+   "en": "**NURSING CARE OF HIGH-RISK NEWBORNS (continued)**",
+   "ar": "**الرعاية التمريضية للمواليد عالي الخطورة (تكملة)**",
+   "list_en": [
+    "Skin Care",
+    "Administration of Medications",
+    "Facilitating Parent-Infant Relationships",
+    "Discharge Planning and Home Care"
+   ],
+   "list_ar": [
+    "العناية بالجلد",
+    "إعطاء الأدوية",
+    "تسهيل علاقة الوالدين بالرضيع",
+    "التخطيط للخروج والرعاية المنزلية"
+   ],
+   "start": 9
+  },
+  {
+   "t": "note",
+   "en": [
+    "LBW **< 2500 g**, VLBW **< 1500 g**, ELBW **< 1000 g**.",
+    "SGA **< 10th**, AGA **10th–90th**, LGA **> 90th** percentile.",
+    "Preterm **< 37 w**, term **38–42 w**, postterm **> 42 w**, late preterm **34–36 6/7 w**."
+   ],
+   "ar": [
+    "ناقص الوزن **< 2500 غم**، وجدًا **< 1500 غم**، وبشدّة **< 1000 غم**.",
+    "الصغير **< المئين 10**، والمناسب **10–90**، والكبير **> 90**.",
+    "الخديج **< 37 أسبوعًا**، والتام **38–42**، والمتأخّر **> 42**، والخديج المتأخّر **34–36 و6/7**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Preterm and postterm infants",
+   "ar": "الخدّج والمتأخّرون"
+  },
+  {
+   "t": "card",
+   "en": "**PRETERM INFANTS**",
+   "ar": "**الأطفال الخدّج**",
+   "list_en": [
+    "Prematurity of infants accounts for the **largest number of admissions to the NICU**.",
+    "Immaturity not only places infants at risk for neonatal complications (e.g., hyperbilirubinemia and RDS), but other problems that persist into adulthood (e.g., learning disabilities, growth deficiencies, asthma)"
+   ],
+   "list_ar": [
+    "الخداج يمثّل **أكبر عدد من حالات الدخول إلى وحدة العناية المركّزة لحديثي الولادة**.",
+    "ولا يعرّض عدم النضج الرضّعَ لمضاعفات حديثي الولادة فقط (مثل فرط البيليروبين وRDS)، بل لمشكلات تستمر حتى البلوغ (مثل صعوبات التعلّم، وقصور النمو، والربو)"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Etiology:**",
+   "ar": "**الأسباب:**",
+   "list_en": [
+    "Unknown",
+    "Lower socioeconomic classes",
+    "Multiple pregnancies",
+    "Gestational hypertension",
+    "Placental problems"
+   ],
+   "list_ar": [
+    "غير معروف",
+    "الطبقات الاجتماعية الاقتصادية الأدنى",
+    "الحمل المتعدّد",
+    "ارتفاع ضغط الحمل",
+    "مشكلات المشيمة"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Characteristics Preterm infants:**",
+   "ar": "**صفات الأطفال الخدّج:**",
+   "list_en": [
+    "Preterm infants are very small and appear scrawny because they have little to no subcutaneous fat deposits.",
+    "They have **large head** in relation to the body.",
+    "The skin is **bright pink (translucent)**, smooth, and shiny (may be edematous), with small blood vessels clearly visible.",
+    "The fine **lanugo is abundant** over the body, sparse, fine, and fuzzy on the head.",
+    "The ear cartilage is **soft and pliable**",
+    "The soles and palms have **minimum creases**.",
+    "The bones of the skull and the ribs feel soft",
+    "Before 26 weeks, the eyes may be fused."
+   ],
+   "list_ar": [
+    "الخدّج صغار جدًا ويبدون نحيلين لأن لديهم قليلًا من الدهن تحت الجلد أو لا شيء.",
+    "ولديهم **رأس كبير** نسبةً إلى الجسم.",
+    "والجلد **وردي زاهٍ (شفّاف)** أملس لامع (وقد يكون متوذّمًا)، والأوعية الدموية الصغيرة ظاهرة بوضوح.",
+    "و**الزغب الناعم وفير** على الجسم، وقليل ناعم زغبي على الرأس.",
+    "وغضروف الأذن **طري ولين**",
+    "وباطن القدمين والكفّين **قليل التجاعيد**.",
+    "وعظام الجمجمة والأضلاع طرية الملمس",
+    "وقبل الأسبوع 26 قد تكون العينان ملتحمتين."
+   ],
+   "start": 1
+  },
+  {
+   "t": "card",
+   "en": "**Characteristics Preterm infants (continued)**",
+   "ar": "**صفات الأطفال الخدّج (تكملة)**",
+   "list_en": [
+    "Male infants have few scrotal rugae, and the testes are undescended; the labia minora and clitoris are prominent in females.",
+    "Preterm infants are inactive and listless.",
+    "The extremities are extension and remain in any position in which they are placed.",
+    "Physiologically immature; unable to maintain body temperature, limited ability to excrete solutes in the urine, and have increased susceptibility to infection.",
+    "A pliable thorax, immature lung tissue, and an immature regulatory center lead to periodic breathing, hypoventilation, and frequent periods of **apnea**.",
+    "These infants are risk to biochemical alterations such as hyperbilirubinemia and hypoglycemia, and vulnerable to fluid and electrolyte imbalance."
+   ],
+   "list_ar": [
+    "وعند الذكور قليل من تجاعيد الصفن والخصيتان غير نازلتين؛ وعند الإناث الشفران الصغيران والبظر بارزان.",
+    "والخدّج قليلو النشاط وخاملون.",
+    "والأطراف مبسوطة وتبقى بأي وضع توضع فيه.",
+    "وهم غير ناضجين فسيولوجيًا؛ لا يستطيعون الحفاظ على حرارتهم، وقدرتهم محدودة على إخراج المذابات في البول، وقابليتهم للعدوى أعلى.",
+    "والصدر اللين والنسيج الرئوي غير الناضج ومركز التنظيم غير الناضج تؤدي إلى تنفّس دوري، ونقص التهوية، ونوبات **انقطاع نفس** متكرّرة.",
+    "وهؤلاء معرّضون لتغيّرات كيموحيوية مثل فرط البيليروبين ونقص السكر، ولاختلال السوائل والأملاح."
+   ],
+   "start": 9
+  },
+  {
+   "t": "figure",
+   "src": "assets/preterm-term.jpg",
+   "en": "Preterm vs term: posture, sole creases and ear",
+   "ar": "الخديج مقابل تام الحمل: الوضعية وتجاعيد باطن القدم والأذن",
+   "h": "60mm"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Therapeutic Management:** The neonatologist or a neonatal nurse practitioner, a staff nurse, and a respiratory therapist are present for the delivery.",
+    "Infants who do not require resuscitation are immediately transferred in a heated incubator to the NICU, where they are weighed and where IV access, oxygen therapy, and other therapeutic interventions are initiated as needed.",
+    "Resuscitation is conducted in the delivery area until infants can be safely transported to the NICU."
+   ],
+   "ar": [
+    "**المعالجة:** يحضر الولادةَ طبيبُ حديثي الولادة أو ممرّض ممارس لحديثي الولادة، وممرّض، ومعالج تنفّسي.",
+    "والرضّع الذين لا يحتاجون إنعاشًا يُنقلون فورًا بحاضنة مدفّأة إلى وحدة العناية، حيث يُوزنون وتُبدأ الخطوط الوريدية والأكسجين والتدخّلات الأخرى حسب الحاجة.",
+    "ويُجرى الإنعاش في منطقة الولادة حتى يمكن نقلهم بأمان إلى الوحدة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**POSTTERM INFANTS**",
+   "ar": "**متأخّرو الولادة**",
+   "list_en": [
+    "Infants born after **42 weeks** as calculated from the mother's last menstrual period (or by gestational age assessment) are postterm, or postmature, regardless of birth weight.",
+    "This constitutes 3.5% to 15% of all pregnancies.",
+    "The cause of delayed birth is unknown."
+   ],
+   "list_ar": [
+    "الرضّع المولودون بعد **42 أسبوعًا** محسوبة من آخر دورة للأم (أو بتقييم عمر الحمل) متأخّرو الولادة بغضّ النظر عن الوزن.",
+    "ويمثّلون 3.5% إلى 15% من كل حالات الحمل.",
+    "وسبب تأخّر الولادة غير معروف."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Postterm infants display the characteristics of infants who are 1 to 3 weeks of age, such as:**",
+   "ar": "**يُظهر متأخّرو الولادة صفات رضّع بعمر 1–3 أسابيع، مثل:**",
+   "list_en": [
+    "absence of lanugo,",
+    "little if any vernix caseosa, abundant scalp hair, long fingernails.",
+    "The skin is often cracked, parchmentlike, and peeling.",
+    [
+     "wasted physical appearance that reflects intrauterine nutritional deprivation.",
+     "Depletion of subcutaneous fat gives them a thin, elongated appearance."
+    ],
+    "The little vernix caseosa that remains in the skin folds may be stained a deep yellow or green, which is usually an indication of **meconium in the amniotic fluid**."
+   ],
+   "list_ar": [
+    "غياب الزغب،",
+    "وقليل من الطلاء الدهني أو لا شيء، وشعر رأس غزير، وأظافر طويلة.",
+    "والجلد غالبًا متشقّق كالرَّق ومتقشّر.",
+    [
+     "ومظهر هزيل يعكس الحرمان الغذائي داخل الرحم.",
+     "ونفاد الدهن تحت الجلد يعطيهم مظهرًا نحيلًا متطاولًا."
+    ],
+    "وقد يتلوّن ما تبقّى من الطلاء الدهني في طيّات الجلد بالأصفر الغامق أو الأخضر، وهو عادةً دليل على **العقي في السائل الأمنيوسي**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Fetal and neonatal mortality rates increase significantly in postterm infants compared with those born at term.",
+    "They are especially prone to fetal distress associated with the decreasing efficiency of the placenta, macrosomia, and **meconium aspiration syndrome (MAS)**.",
+    "The greatest risk occurs during labor and delivery, particularly in infants of primigravidas, or women delivering their first child.",
+    "**Induction of labor** is usually recommended when infants are significantly overdue."
+   ],
+   "list_ar": [
+    "تزداد معدّلات وفيات الأجنّة والمواليد كثيرًا عند متأخّري الولادة مقارنة بتامّي الحمل.",
+    "وهم معرّضون خصوصًا للضائقة الجنينية المرتبطة بتراجع كفاءة المشيمة، والضخامة، و**متلازمة استنشاق العقي (MAS)**.",
+    "وأكبر خطر يكون أثناء المخاض والولادة، ولا سيما عند البكريات (النساء اللواتي يلدن أول طفل).",
+    "ويُوصى عادةً **بتحريض المخاض** عندما يتأخّر الرضيع كثيرًا."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Feature",
+     "الصفة"
+    ],
+    [
+     "Preterm",
+     "الخديج"
+    ],
+    [
+     "Postterm",
+     "متأخّر الولادة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Lanugo**",
+      "**الزغب**"
+     ],
+     [
+      "Abundant",
+      "وفير"
+     ],
+     [
+      "Absent",
+      "غائب"
+     ]
+    ],
+    [
+     [
+      "**Vernix caseosa**",
+      "**الطلاء الدهني**"
+     ],
+     [
+      "—",
+      "—"
+     ],
+     [
+      "Little; may be stained yellow/green",
+      "قليل؛ وقد يتلوّن أصفر/أخضر"
+     ]
+    ],
+    [
+     [
+      "**Skin**",
+      "**الجلد**"
+     ],
+     [
+      "Bright pink, translucent, shiny",
+      "وردي زاهٍ شفّاف لامع"
+     ],
+     [
+      "Cracked, parchmentlike, peeling",
+      "متشقّق كالرَّق ومتقشّر"
+     ]
+    ],
+    [
+     [
+      "**Sole creases**",
+      "**تجاعيد باطن القدم**"
+     ],
+     [
+      "Minimum",
+      "قليلة"
+     ],
+     "—"
+    ],
+    [
+     [
+      "**Main risks**",
+      "**أهم المخاطر**"
+     ],
+     [
+      "RDS, apnea, hypothermia, hypoglycemia, hyperbilirubinemia, infection",
+      "RDS، وانقطاع النفس، وانخفاض الحرارة، ونقص السكر، وفرط البيليروبين، والعدوى"
+     ],
+     [
+      "Fetal distress, macrosomia, MAS",
+      "الضائقة الجنينية، والضخامة، واستنشاق العقي"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    39,
+    39
+   ],
+   "style": "summary",
+   "label_en": "Preterm vs postterm",
+   "label_ar": "الخديج مقابل المتأخّر"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Prematurity = **largest NICU admissions**; little fat, big head, lanugo, few creases, apnea.",
+    "Postterm (> 42 w): no lanugo, peeling skin, long nails, **meconium staining** → MAS risk."
+   ],
+   "ar": [
+    "الخداج = **أكثر دخول للعناية**؛ دهن قليل ورأس كبير وزغب وتجاعيد قليلة وانقطاع نفس.",
+    "المتأخّر (> 42 أسبوعًا): بلا زغب وجلد متقشّر وأظافر طويلة و**تلوّن بالعقي** ← خطر استنشاقه."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Respiratory Distress Syndrome (RDS)",
+   "ar": "متلازمة الضائقة التنفسية"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**RESPIRATORY DISTRESS SYNDROME RDS:** (**hyaline membrane disease**) is severe lung disorder.",
+    "It refers to a condition of **surfactant deficiency** and physiologic immaturity of the thorax.",
+    "Mostly associated with preterm infants, multifetal pregnancies, and infants of diabetic mothers, cesarean section delivery, cold stress, asphyxia, and a family history of RDS.",
+    "RDS may cause by sepsis, cardiac defects, exposure to cold, airway obstruction, hypoglycemia."
+   ],
+   "ar": [
+    "**متلازمة الضائقة التنفسية:** (**داء الغشاء الزجاجي**) اضطراب رئوي شديد.",
+    "ويشير إلى حالة **نقص السورفاكتانت (عامل التوتّر السطحي)** وعدم النضج الفسيولوجي للصدر.",
+    "ويرتبط غالبًا بالخدّج، والحمل المتعدّد، ورضّع الأمهات السكّريات، والولادة القيصرية، وإجهاد البرد، والاختناق، والتاريخ العائلي.",
+    "وقد تسبّبه الإنتان، وعيوب القلب، والتعرّض للبرد، وانسداد المجرى الهوائي، ونقص السكر."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Clinical Manifestations:**",
+   "ar": "**المظاهر السريرية:**",
+   "list_en": [
+    "Breathing gradually becomes more rapid (**>60 breaths/min**).",
+    "The respiratory rate continues to increase (to 80 to 120 breaths/min), and breathing becomes more labored.",
+    "Infants increase the **rate rather than the depth** of respiration.",
+    [
+     "Abnormally elastic rib cage, resulting in indrawing, or **retraction**, of the skin between the ribs.",
+     "Substernal retractions become more pronounced."
+    ],
+    "Fine inspiratory crackles can be heard over both lungs, and there is an audible **expiratory grunt** (grunting is observed in the earlier stages of RDS) Flaring of the nares observed.",
+    "**Central cyanosis** (bluish discoloration of oral mucous membranes and generalized body cyanosis) is a **late and serious sign** of RDS.",
+    "Severe RDS associated with a shocklike state, with diminished cardiac inflow and low arterial blood pressure."
+   ],
+   "list_ar": [
+    "يصبح التنفّس تدريجيًا أسرع (**> 60 نفسًا/د**).",
+    "ويستمر المعدّل بالزيادة (إلى 80–120 نفسًا/د) ويصبح التنفّس أكثر جهدًا.",
+    "ويزيد الرضيع **المعدّل لا العمق**.",
+    [
+     "والقفص الضلعي مرن بشكل غير طبيعي، فيحدث **انسحاب** الجلد بين الأضلاع.",
+     "ويصبح الانسحاب تحت القصّ أوضح."
+    ],
+    "وتُسمع خراخر شهيقية دقيقة على الرئتين، و**أنين زفيري** مسموع (يُلاحظ الأنين في المراحل المبكرة)، ورفرفة فتحتي الأنف.",
+    "و**الزرقة المركزية** (ازرقاق أغشية الفم وزرقة الجسم العامّة) **علامة متأخّرة وخطيرة**.",
+    "وترتبط RDS الشديدة بحالة شبيهة بالصدمة، مع نقص الدفق القلبي وانخفاض ضغط الدم الشرياني."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/rds-cycle.jpg",
+   "en": "RDS cycle: surfactant deficiency → atelectasis → hypoxia and hypercapnia → acidemia → pulmonary vasoconstriction → hypoperfusion → hyaline membrane",
+   "ar": "دورة RDS: نقص السورفاكتانت ← الانخماص ← نقص الأكسجة وفرط ثاني أكسيد الكربون ← الحماض ← تضيّق الأوعية الرئوية ← نقص التروية ← الغشاء الزجاجي",
+   "h": "60mm"
+  },
+  {
+   "t": "card",
+   "en": "**Therapeutic Management:** The treatment of RDS includes:",
+   "ar": "**المعالجة:** يشمل علاج RDS:",
+   "list_en": [
+    "Maintain adequate ventilation and oxygenation with **CPAP**, high-flow nasal cannula, or mechanical ventilation",
+    "Maintain acid-base balance",
+    "Maintain a neutral thermal environment",
+    "maintain adequate tissue perfusion and oxygenation",
+    "Prevent hypotension",
+    "Maintain adequate hydration and electrolyte status."
+   ],
+   "list_ar": [
+    "الحفاظ على تهوية وأكسجة كافية بـ**الضغط الهوائي الإيجابي المستمر (CPAP)**، أو القنية الأنفية عالية التدفّق، أو التنفّس الاصطناعي",
+    "الحفاظ على التوازن الحمضي القاعدي",
+    "الحفاظ على بيئة حرارية محايدة",
+    "الحفاظ على تروية وأكسجة كافية للأنسجة",
+    "منع انخفاض الضغط",
+    "الحفاظ على الإماهة والأملاح."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Nursing Care Management:**",
+   "ar": "**الرعاية التمريضية:**",
+   "list_en": [
+    "Observe and assess the infant's response to therapy.",
+    "close observation of oxygen concentration by **pulse oximetry** readings and ventilation parameters",
+    "Capillary samples collected from the **heel**, for blood gases monitor.",
+    "Umbilical arterial catheter (UAC) may used to draw arterial blood for monitoring oxygenation and medication administration.",
+    "Suctioning only when necessary and based on infant assessment.",
+    "Skin assessment, position changes and use of gel mattresses to prevent skin breakdown.",
+    [
+     "Mouth care, especially for nothing by mouth.",
+     "Prevent drying by sterile water."
+    ],
+    "Using water-soluble ointment to prevent irritation of nares or mouth that occurs from administer oxygen."
+   ],
+   "list_ar": [
+    "لاحظ استجابة الرضيع للعلاج وقيّمها.",
+    "مراقبة دقيقة لتركيز الأكسجين بقراءات **مقياس التأكسج النبضي** ومعايير التهوية",
+    "تُجمع عيّنات شعرية من **الكعب** لمراقبة غازات الدم.",
+    "وقد تُستعمل قثطرة الشريان السرّي لسحب دم شرياني لمراقبة الأكسجة وإعطاء الأدوية.",
+    "الشفط فقط عند الضرورة وبناءً على تقييم الرضيع.",
+    "تقييم الجلد وتغيير الوضعية واستعمال الفرش الهلامية لمنع تضرّر الجلد.",
+    [
+     "العناية بالفم، خصوصًا للممنوع عن الفم.",
+     "ومنع الجفاف بالماء المعقّم."
+    ],
+    "استعمال مرهم ذائب في الماء لمنع تهيّج فتحتي الأنف أو الفم الناتج عن إعطاء الأكسجين."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "RDS = **hyaline membrane disease** = **surfactant deficiency**, mostly preterm.",
+    "Signs: RR **> 60**, retractions, **expiratory grunt** (early), nasal flaring; **central cyanosis = late**.",
+    "Treat with **CPAP**/ventilation, neutral thermal environment, fluids."
+   ],
+   "ar": [
+    "RDS = **داء الغشاء الزجاجي** = **نقص السورفاكتانت**، غالبًا عند الخدّج.",
+    "العلامات: التنفّس **> 60**، والانسحاب، و**الأنين الزفيري** (مبكر)، ورفرفة الأنف؛ و**الزرقة المركزية = متأخّرة**.",
+    "العلاج بـ**CPAP**/التنفّس الاصطناعي، وبيئة حرارية محايدة، والسوائل."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Infants of diabetic mothers",
+   "ar": "رضّع الأمهات السكّريات"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The morbidity and mortality rates of infants of diabetic mothers (IDMs) reduced because of effective control of maternal DM and understanding of fetal disorders.",
+    "High maternal blood glucose levels during fetal life provide a continuous stimulus to the fetal islet cells for insulin production.",
+    "This hyperglycemia promotes fetal insulin secretion that leads to excessive growth and deposition of fat, which probably accounts for the infants who are large for gestational age, or **macrosomic**.",
+    "When the neonate's glucose supply is removed abruptly at the time of birth, the continued production of insulin soon depletes the blood of circulating glucose, creating a state of hyperinsulinism and **hypoglycemia within 1.5 to 4 hours**."
+   ],
+   "list_ar": [
+    "انخفضت معدّلات مراضة رضّع الأمهات السكّريات ووفياتهم بفضل ضبط سكّري الأم بفعالية وفهم اضطرابات الجنين.",
+    "فارتفاع سكّر دم الأم أثناء الحياة الجنينية يحفّز خلايا الجزر الجنينية باستمرار على إنتاج الإنسولين.",
+    "وفرط السكّر هذا يعزّز إفراز الإنسولين الجنيني، فيؤدي إلى نمو مفرط وترسّب دهني، وهذا يفسّر غالبًا الرضّع الكبار لعمر الحمل أو **ضخام الجسم**.",
+    "وعند انقطاع إمداد الغلوكوز فجأة عند الولادة، يستنفد إنتاج الإنسولين المستمر غلوكوز الدم سريعًا، فتحدث حالة فرط إنسولين و**نقص سكّر خلال 1.5–4 ساعات**."
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Maternal hyperglycemia",
+     "ar": "فرط سكّر الأم"
+    },
+    {
+     "en": "Fetal insulin ↑",
+     "ar": "↑ إنسولين الجنين"
+    },
+    {
+     "en": "Macrosomia",
+     "ar": "ضخامة الجسم"
+    },
+    {
+     "en": "Birth: glucose supply stops",
+     "ar": "الولادة: انقطاع الغلوكوز"
+    },
+    {
+     "en": "Hypoglycemia in 1.5–4 h",
+     "ar": "نقص السكّر خلال 1.5–4 ساعات"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Clinical Manifestations:**",
+   "ar": "**المظاهر السريرية:**",
+   "list_en": [
+    "Infants usually **macrosomic**, very plump and full faced, liberally coated with vernix caseosa, and plethoric.",
+    "The placenta and umbilical cord are also larger than average.",
+    "Infants of mothers with advanced diabetes may be **small for gestational age, IUGR** because placental involvement.",
+    "IDMs have an increased incidence of **hypoglycemia, hypocalcemia, hyperbilirubinemia, hypomagnesemia, and RDS**.",
+    "Morbidities in IDMs may result of elevated glucose and ketone levels, placental insufficiency, and prematurity."
+   ],
+   "list_ar": [
+    "الرضّع عادةً **ضخام الجسم**، ممتلئون جدًا بوجه مدوّر، ومغطّون بكثرة بالطلاء الدهني، ومحمرّون.",
+    "والمشيمة والحبل السري أكبر من المعتاد أيضًا.",
+    "ورضّع الأمهات بسكّري متقدّم قد يكونون **صغارًا لعمر الحمل مع تقييد النمو** بسبب إصابة المشيمة.",
+    "ويزداد عند رضّع السكّريات حدوث **نقص السكّر، ونقص الكالسيوم، وفرط البيليروبين، ونقص المغنيسيوم، وRDS**.",
+    "وقد تنتج مراضتهم عن ارتفاع الغلوكوز والكيتونات، وقصور المشيمة، والخداج."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Nursing Care Management:**",
+   "ar": "**الرعاية التمريضية:**",
+   "list_en": [
+    "Monitoring of the infant for associated problems (e.g., RDS, polycythemia, hypocalcemia, poor feeding, and hyperbilirubinemia).",
+    "maintenance of adequate thermoregulation",
+    [
+     "IV glucose infusion requires careful monitoring neonate's reaction to therapy.",
+     "High glucose concentrations (**>12.5%**) should be infused via a **central line** instead of a peripheral one."
+    ],
+    "Macrocosmic infants are at risk for difficult delivery (birth injuries)."
+   ],
+   "list_ar": [
+    "مراقبة الرضيع للمشكلات المرافقة (مثل RDS وكثرة الحمر ونقص الكالسيوم وضعف الرضاعة وفرط البيليروبين).",
+    "الحفاظ على تنظيم حراري كافٍ",
+    [
+     "تسريب الغلوكوز الوريدي يحتاج مراقبة دقيقة لاستجابة الرضيع.",
+     "والتراكيز العالية (**> 12.5%**) تُعطى عبر **خط مركزي** لا طرفي."
+    ],
+    "والرضّع ضخام الجسم معرّضون لولادة عسرة (إصابات الولادة)."
+   ]
+  },
+  {
+   "t": "note",
+   "en": "\"Macrocosmic\" in the lecture is **macrosomic** (big baby).",
+   "ar": "\"Macrocosmic\" في المحاضرة تعني **macrosomic** (ضخم الجسم).",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "IDM: maternal glucose → fetal insulin → **macrosomia** → **hypoglycemia 1.5–4 h** after birth.",
+    "Watch **hypoglycemia, hypocalcemia, hypomagnesemia, jaundice, RDS**; glucose > 12.5% via **central line**."
+   ],
+   "ar": [
+    "رضيع السكّرية: سكّر الأم ← إنسولين الجنين ← **ضخامة** ← **نقص سكّر 1.5–4 ساعات** بعد الولادة.",
+    "راقب **نقص السكّر والكالسيوم والمغنيسيوم واليرقان وRDS**؛ والغلوكوز > 12.5% عبر **خط مركزي**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Hyperbilirubinemia",
+   "ar": "فرط البيليروبين"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The term hyperbilirubinemia refers to an excessive level of accumulated bilirubin in the blood and is characterized by **jaundice, or icterus**, a yellowish discoloration of the skin and other organs.",
+    "Most common hyperbilirubinemia is mild and selflimited **physiologic jaundice**, or icterus neonatorum.",
+    "Bilirubin levels gradually increase to approximately **5 to 6 mg/ dl by 2 to 5 days** of life, then decrease to less than 3 mg/ dl by the fifth day.",
+    "Bilirubin levels maintain a steady until approximately 12 to 14 days, at which time levels decrease to the normal value of **1 mg/dl**."
+   ],
+   "list_ar": [
+    "يشير فرط البيليروبين إلى مستوى مفرط من البيليروبين المتراكم في الدم، ويتميّز بـ**اليرقان**، أي اصفرار الجلد والأعضاء الأخرى.",
+    "وأشيع أنواعه **اليرقان الفسيولوجي** الخفيف المحدود ذاتيًا، أو يرقان الولدان.",
+    "ويرتفع البيليروبين تدريجيًا إلى نحو **5–6 ملغم/دل بين اليوم 2 و5**، ثم ينخفض إلى أقل من 3 ملغم/دل بحلول اليوم الخامس.",
+    "ويبقى ثابتًا حتى نحو اليوم 12–14، ثم ينخفض إلى القيمة الطبيعية **1 ملغم/دل**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/bilirubin.jpg",
+   "en": "Formation and excretion of bilirubin: red blood cell → hemoglobin → heme → unconjugated bilirubin → (liver glucuronyl transferase) → conjugated bilirubin → feces and urine",
+   "ar": "تكوّن البيليروبين وإخراجه: الكرية الحمراء ← الهيموغلوبين ← الهيم ← البيليروبين غير المقترن ← (إنزيم الكبد) ← المقترن ← البراز والبول",
+   "h": "70mm"
+  },
+  {
+   "t": "card",
+   "en": "**Nursing Care Management**",
+   "ar": "**الرعاية التمريضية**",
+   "list_en": [
+    "Jaundice is most reliably assessed by observing the infant's skin color from head to toe and the color of the sclerae and mucous membranes.",
+    "Applying direct pressure to the skin, especially over bony prominences ( tip of the nose or the sternum), causes **blanching** and allows the yellow stain to be more pronounced.",
+    "Assess the method and frequency of feeding, as well as the infant's apparent hydration status.",
+    "In general, healthy term newborns under 1 week of age will have a number of voidings equal to the number of days, at which time adequate voiding is considered to be 6 to 10 times per day (e.g., day 2 = 2 voids, day 3 = 3 voids, etc.).",
+    "The infant who receives **phototherapy** is placed under the light source, exposing as much skin surface as possible, and repositioned frequently to expose all body surface areas to the light."
+   ],
+   "list_ar": [
+    "يُقيَّم اليرقان بأوثق طريقة بملاحظة لون جلد الرضيع من الرأس للقدم ولون الصلبة والأغشية المخاطية.",
+    "والضغط المباشر على الجلد، خصوصًا فوق البروزات العظمية (طرف الأنف أو القصّ)، يسبّب **ابيضاضه** فيظهر الاصفرار أوضح.",
+    "قيّم طريقة الرضاعة وتكرارها، وحالة إماهة الرضيع الظاهرة.",
+    "وعمومًا، يتبوّل المولود السليم دون أسبوع بعدد مساوٍ لعدد أيامه، ثم يُعدّ التبوّل الكافي 6–10 مرّات يوميًا (مثلًا اليوم 2 = مرّتان، واليوم 3 = 3 مرّات... إلخ).",
+    "ويُوضع الرضيع الذي يتلقّى **العلاج الضوئي** تحت مصدر الضوء مع كشف أكبر مساحة ممكنة من الجلد، ويُغيَّر وضعه كثيرًا لتعريض كل سطح الجسم للضوء."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    [
+     "protect the infant during phototherapy.",
+     "An **opaque mask shields the infant's eyes** to prevent exposure to the light."
+    ],
+    "The eye shield should be properly sized and positioned to cover the eyes completely but prevent any occlusion of the nares.",
+    "The nurse checks the newborn's eyes at least **every 4 to 6 hours** for evidence of discharge, excessive pressure on the lids, or corneal irritation.",
+    "Remove eye shields during feedings, which provide the opportunity for visual and sensory stimulation.",
+    "Monitor infants for temperature instability because phototherapy may cause an increase in the body temperature.",
+    "The distance between the phototherapy light source and the infant must be maintained as outlined by the manufacturer's guidelines; halogen lights placed too close to the infant's skin may cause burns.",
+    "Maintaining the infant in a flexed position with rolled blankets along the sides of the body helps maintain heat and provides comfort.",
+    "To prevent or minimize these effects, the nurse monitors the temperature to detect early signs of hypothermia or hyperthermia and observes the skin for evidence of dehydration and drying, which can lead to excoriation and breakdown."
+   ],
+   "list_ar": [
+    [
+     "احمِ الرضيع أثناء العلاج الضوئي.",
+     "فـ**قناع معتم يغطّي عينيه** لمنع تعرّضهما للضوء."
+    ],
+    "ويجب أن يكون واقي العين بالحجم والموضع المناسبين ليغطّي العينين تمامًا دون أن يسدّ فتحتي الأنف.",
+    "ويفحص الممرّض عيني المولود **كل 4–6 ساعات** على الأقل للإفرازات أو الضغط الزائد على الجفنين أو تهيّج القرنية.",
+    "وأزل واقيات العين أثناء الرضاعة، فهي فرصة للتحفيز البصري والحسّي.",
+    "وراقب عدم استقرار الحرارة لأن العلاج الضوئي قد يرفعها.",
+    "ويجب الالتزام بالمسافة بين مصدر الضوء والرضيع حسب تعليمات المصنّع؛ فمصابيح الهالوجين القريبة جدًا من الجلد قد تسبّب حروقًا.",
+    "وإبقاء الرضيع مثنيًا ببطانيات ملفوفة على جانبيه يساعد في حفظ الحرارة ويوفّر الراحة.",
+    "ولمنع هذه التأثيرات أو تقليلها يراقب الممرّض الحرارة لاكتشاف علامات انخفاضها أو ارتفاعها مبكرًا، ويلاحظ الجلد لعلامات الجفاف واليبس التي قد تؤدي إلى السحج والتقرّح."
+   ],
+   "start": 1
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Oily lubricants or lotions are not used** on the skin to prevent increased tanning.",
+    "Because phototherapy enhances the excretion of unconjugated bilirubin through the bowel, **loose stools** may indicate accelerated bilirubin excretion.",
+    "Frequent stooling can cause perianal irritation; therefore meticulous skin care, especially keeping the skin clean and dry, is essential.",
+    "Another reaction to phototherapy is the **bronze-baby syndrome**, in which the serum, urine, and skin turn grayish-brown several hours after the infant is placed under the light.",
+    "This reaction is probably caused by retention of a bilirubin breakdown product of phototherapy, possibly copper porphyrin.",
+    "The browning generally resolves after discontinuation of phototherapy."
+   ],
+   "list_ar": [
+    "و**لا تُستعمل المزلّقات الزيتية أو المستحضرات** على الجلد لمنع زيادة الاسمرار.",
+    "ولأن العلاج الضوئي يعزّز إخراج البيليروبين غير المقترن عبر الأمعاء، فقد يدلّ **البراز الرخو** على تسارع إخراجه.",
+    "وكثرة التبرّز قد تسبّب تهيّجًا حول الشرج، لذا العناية الدقيقة بالجلد، خصوصًا إبقاؤه نظيفًا جافًا، ضرورية.",
+    "ومن تفاعلات العلاج الضوئي أيضًا **متلازمة الطفل البرونزي**، حيث يتحوّل المصل والبول والجلد إلى رمادي بني بعد ساعات من وضع الرضيع تحت الضوء.",
+    "ويُرجَّح أن سببها احتباس ناتج تكسّر البيليروبين بالعلاج الضوئي، ربما بورفيرين النحاس.",
+    "ويزول الاسمرار عمومًا بعد إيقاف العلاج الضوئي."
+   ],
+   "start": 9
+  },
+  {
+   "t": "figure",
+   "src": "assets/phototherapy.jpg",
+   "en": "Infant receiving phototherapy with eye protection",
+   "ar": "رضيع يتلقّى العلاج الضوئي مع حماية العينين",
+   "h": "44mm"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Physiologic jaundice: peaks **5–6 mg/dl at day 2–5**, normal **1 mg/dl** by 12–14 days.",
+    "Assess by **blanching** the skin over the nose or sternum.",
+    "Phototherapy: **eye mask** (check every 4–6 h), turn often, watch temperature, **no oily lotions**, loose stools, **bronze-baby syndrome**."
+   ],
+   "ar": [
+    "اليرقان الفسيولوجي: يبلغ **5–6 ملغم/دل باليوم 2–5**، ويعود **1 ملغم/دل** باليوم 12–14.",
+    "قيّمه بـ**ضغط** الجلد فوق الأنف أو القصّ.",
+    "العلاج الضوئي: **قناع العين** (فحص كل 4–6 ساعات)، وتقليب متكرّر، ومراقبة الحرارة، و**بلا مستحضرات زيتية**، وبراز رخو، و**متلازمة الطفل البرونزي**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Neonatal sepsis",
+   "ar": "إنتان حديثي الولادة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**NEONATAL SEPSIS:** or septicemia refers to a generalized bacterial infection in the bloodstream.",
+    "Neonates are highly susceptible to infection because of **diminished immunity**.",
+    "Other risk factors are prematurity, congenital anomalies or acquired injuries that disrupt the skin or mucous membranes, invasive procedures such as placement of IV lines and ET tubes, administration of total parenteral nutrition, and nosocomial exposure to pathogens in the NICU.",
+    "Because of the infant's poor response to pathogenic agents, there is usually **no local inflammatory reaction** at the portal of entry to signal an infection, and the resulting symptoms tend to be **vague and nonspecific**."
+   ],
+   "list_ar": [
+    "**إنتان حديثي الولادة:** أو تسمّم الدم، عدوى بكتيرية عامّة في مجرى الدم.",
+    "وحديثو الولادة معرّضون جدًا للعدوى بسبب **ضعف المناعة**.",
+    "ومن عوامل الخطر الأخرى الخداج، والتشوّهات الخلقية أو الإصابات المكتسبة التي تخلّ بالجلد أو الأغشية المخاطية، والإجراءات الباضعة مثل الخطوط الوريدية وأنابيب الرغامى، والتغذية الوريدية الكاملة، والتعرّض للممرضات داخل وحدة العناية.",
+    "ولضعف استجابة الرضيع للعوامل الممرضة، **لا يوجد عادةً تفاعل التهابي موضعي** عند مدخل العدوى، فتكون الأعراض **مبهمة وغير نوعية**."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "System",
+     "الجهاز"
+    ],
+    [
+     "Manifestations of Neonatal Sepsis",
+     "مظاهر إنتان حديثي الولادة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**General Signs**",
+      "**العلامات العامّة**"
+     ],
+     [
+      "generally “not doing well”, Poor temperature control (hypothermia, hyperthermia)",
+      "\"ليس على ما يرام\" عمومًا، وضعف ضبط الحرارة (انخفاضها أو ارتفاعها)"
+     ]
+    ],
+    [
+     [
+      "**Circulatory System**",
+      "**جهاز الدوران**"
+     ],
+     [
+      "Pallor, cyanosis, or mottling Cold, clammy skin, Hypotension, Edema, Irregular heartbeat (bradycardia, tachycardia)",
+      "شحوب أو زرقة أو تبقّع، وجلد بارد رطب، وانخفاض الضغط، ووذمة، ونبض غير منتظم (بطء أو تسرّع)"
+     ]
+    ],
+    [
+     [
+      "**Respiratory System**",
+      "**الجهاز التنفّسي**"
+     ],
+     [
+      "Irregular respirations, apnea, or tachypnea, Cyanosis, Grunting, Dyspnea, Retractions",
+      "تنفّس غير منتظم، أو انقطاع نفس، أو تسرّع، وزرقة، وأنين، وضيق نفس، وانسحابات"
+     ]
+    ],
+    [
+     [
+      "**Central Nervous System**",
+      "**الجهاز العصبي المركزي**"
+     ],
+     [
+      "Diminished activity (lethargy, hyporeflexia, coma), Increased activity (irritability, tremors, seizures), Full fontanel, Abnormal eye movements",
+      "نشاط ناقص (خمول، ونقص المنعكسات، وغيبوبة)، أو زائد (تهيّج، ورجفان، ونوبات)، ويافوخ ممتلئ، وحركات عين غير طبيعية"
+     ]
+    ],
+    [
+     [
+      "**Gastrointestinal System**",
+      "**الجهاز الهضمي**"
+     ],
+     [
+      "Poor feeding, Vomiting, Diarrhea or decreased stooling, Abdominal distention, Hepatomegaly, Hemoccult-positive stools",
+      "ضعف الرضاعة، والقيء، والإسهال أو قلّة التبرّز، وانتفاخ البطن، وتضخّم الكبد، ودم خفي في البراز"
+     ]
+    ],
+    [
+     [
+      "**Hematopoietic System**",
+      "**الجهاز المكوّن للدم**"
+     ],
+     [
+      "Jaundice, Pallor, Petechiae, ecchymosis, Splenomegaly",
+      "يرقان، وشحوب، ونمشات، وكدمات، وتضخّم الطحال"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    26,
+    74
+   ],
+   "style": "summary",
+   "label_en": "By system",
+   "label_ar": "حسب الجهاز"
+  },
+  {
+   "t": "card",
+   "en": "**Nursing Care Management:**",
+   "ar": "**الرعاية التمريضية:**",
+   "list_en": [
+    "Proper **hand washing**, the use of disposable equipment, disposal of secretions, and adequate housekeeping of the environment and equipment are essential.",
+    "Nurse responsibility to ensure that everyone maintains contact isolation or Standard Precautions.",
+    "Precautions are implemented to prevent the spread of infection to other newborns.",
+    "Observation for signs of complications, including meningitis and septic shock.",
+    "**Encourage breastfeeding:** Colostrum contains agglutinins that are effective against gram-negative bacteria.",
+    "Human milk contains large quantities of IgA and ironbinding protein that exert a bacteriostatic effect on Escherichia coli.",
+    "Human milk also contains macrophages and lymphocytes that promote a local inflammatory reaction.",
+    "Knowledge of the side effects of the specific antibiotic and proper regulation and administration of the drug."
+   ],
+   "list_ar": [
+    "**غسل اليدين** الصحيح، واستعمال الأدوات أحادية الاستعمال، والتخلّص من الإفرازات، والتنظيف الكافي للبيئة والأدوات أمور أساسية.",
+    "ومن مسؤولية الممرّض ضمان التزام الجميع بعزل التماس أو الاحتياطات القياسية.",
+    "وتُطبَّق الاحتياطات لمنع انتقال العدوى إلى مواليد آخرين.",
+    "ومراقبة علامات المضاعفات، ومنها التهاب السحايا والصدمة الإنتانية.",
+    "**شجّع الرضاعة الطبيعية:** يحتوي اللبأ على راصّات فعّالة ضد البكتيريا السالبة لكرام.",
+    "ويحتوي حليب الأم على كمّيات كبيرة من IgA وبروتين رابط للحديد له تأثير مثبّط لنمو الإشريكية القولونية.",
+    "ويحتوي الحليب أيضًا على بلاعم ولمفاويات تعزّز التفاعل الالتهابي الموضعي.",
+    "ومعرفة الآثار الجانبية للمضاد الحيوي المحدّد وضبط إعطائه بشكل صحيح."
+   ],
+   "start": 1
+  },
+  {
+   "t": "card",
+   "en": "**Nursing Care Management (continued)**",
+   "ar": "**الرعاية التمريضية (تكملة)**",
+   "list_en": [
+    "Provide vitamin K, Nystatin oral administered for prophylaxis oral candidiasis.",
+    "Providing an optimum thermo regulated environment and anticipating potential problems such as dehydration or hypoxia."
+   ],
+   "list_ar": [
+    "وإعطاء فيتامين K، والنيستاتين فمويًا للوقاية من داء المبيضّات الفموي.",
+    "وتوفير بيئة حرارية مثلى وتوقّع المشكلات المحتملة مثل الجفاف أو نقص الأكسجة."
+   ],
+   "start": 9
+  },
+  {
+   "t": "note",
+   "en": [
+    "Sepsis = generalized bacterial infection; signs are **vague**, no local inflammation.",
+    "First sign often: **\"not doing well\"** + poor temperature control.",
+    "Prevention: **hand washing**, isolation, **breastfeeding** (colostrum, IgA)."
+   ],
+   "ar": [
+    "الإنتان = عدوى بكتيرية عامّة؛ والعلامات **مبهمة** بلا التهاب موضعي.",
+    "أوّل علامة غالبًا: **\"ليس على ما يرام\"** + ضعف ضبط الحرارة.",
+    "الوقاية: **غسل اليدين**، والعزل، و**الرضاعة الطبيعية** (اللبأ وIgA)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Extrauterine life**",
+     "الحياة خارج الرحم"
+    ],
+    [
+     "**Apgar score**",
+     "درجة أبغار / مقياس أبغار"
+    ],
+    [
+     "**Gestational age**",
+     "عمر الحمل"
+    ],
+    [
+     "**New Ballard Scale**",
+     "مقياس بالارد الجديد"
+    ],
+    [
+     "**Vernix caseosa**",
+     "الطلاء الدهني / الطلاء الجبني"
+    ],
+    [
+     "**Lanugo**",
+     "الزغب الجنيني"
+    ],
+    [
+     "**Acrocyanosis**",
+     "زرقة الأطراف"
+    ],
+    [
+     "**Meconium**",
+     "العقي"
+    ],
+    [
+     "**Kangaroo care**",
+     "رعاية الكنغر / التماسّ الجلدي"
+    ],
+    [
+     "**Cephalopelvic disproportion**",
+     "عدم التناسب الرأسي الحوضي"
+    ],
+    [
+     "**Dystocia**",
+     "عسر الولادة"
+    ],
+    [
+     "**Caput succedaneum**",
+     "الحدبة المصلية / ورم الرأس الولادي"
+    ],
+    [
+     "**Cephalhematoma**",
+     "الورم الدموي الرأسي"
+    ],
+    [
+     "**Erb palsy**",
+     "شلل إرب / شلل الضفيرة العضدية العلوية"
+    ],
+    [
+     "**Torticollis**",
+     "الصعر / الرقبة الملتوية"
+    ],
+    [
+     "**SGA / AGA / LGA**",
+     "صغير / مناسب / كبير لعمر الحمل"
+    ],
+    [
+     "**IUGR**",
+     "تقييد النمو داخل الرحم"
+    ],
+    [
+     "**Preterm / Postterm**",
+     "خديج / متأخّر الولادة"
+    ],
+    [
+     "**NICU**",
+     "وحدة العناية المركّزة لحديثي الولادة"
+    ],
+    [
+     "**Meconium aspiration syndrome**",
+     "متلازمة استنشاق العقي"
+    ],
+    [
+     "**Surfactant**",
+     "السورفاكتانت / عامل التوتّر السطحي"
+    ],
+    [
+     "**Hyaline membrane disease**",
+     "داء الغشاء الزجاجي"
+    ],
+    [
+     "**CPAP**",
+     "الضغط الهوائي الإيجابي المستمر"
+    ],
+    [
+     "**Macrosomia**",
+     "ضخامة الجسم / العملقة الجنينية"
+    ],
+    [
+     "**Hyperbilirubinemia**",
+     "فرط البيليروبين"
+    ],
+    [
+     "**Phototherapy**",
+     "العلاج الضوئي"
+    ],
+    [
+     "**Bronze-baby syndrome**",
+     "متلازمة الطفل البرونزي"
+    ],
+    [
+     "**Neonatal sepsis**",
+     "إنتان حديثي الولادة / تسمّم الدم الوليدي"
+    ],
+    [
+     "**Colostrum**",
+     "اللبأ / حليب السرسوب"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Newborn assessment",
+    "topic_ar": "تقييم المولود"
+   },
+   {
+    "en": "The Apgar score is first evaluated during:",
+    "ar": "يُقيَّم أبغار أولًا خلال:",
+    "options": [
+     [
+      "The first week",
+      "الأسبوع الأول"
+     ],
+     [
+      "The first hour",
+      "الساعة الأولى"
+     ],
+     [
+      "The first day",
+      "اليوم الأول"
+     ],
+     [
+      "The first 1–5 minutes",
+      "أول 1–5 دقائق"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Each Apgar item is scored:",
+    "ar": "يُعطى كل عنصر في أبغار:",
+    "options": [
+     [
+      "0, 1 or 2",
+      "0 أو 1 أو 2"
+     ],
+     [
+      "0–5",
+      "0–5"
+     ],
+     [
+      "1–10",
+      "1–10"
+     ],
+     [
+      "0 or 1",
+      "0 أو 1"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "An Apgar total of 4–6 indicates:",
+    "ar": "مجموع أبغار 4–6 يدلّ على:",
+    "options": [
+     [
+      "Severe distress",
+      "ضائقة شديدة"
+     ],
+     [
+      "Excellent condition",
+      "حالة ممتازة"
+     ],
+     [
+      "Moderate difficulty",
+      "صعوبة متوسطة"
+     ],
+     [
+      "Death",
+      "وفاة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Many healthy newborns do not score 10 because:",
+    "ar": "لا يحصل كثير من المواليد الأصحّاء على 10 لأن:",
+    "options": [
+     [
+      "Their pulse is low",
+      "نبضهم منخفض"
+     ],
+     [
+      "The body is not completely pink",
+      "الجسم ليس ورديًا بالكامل"
+     ],
+     [
+      "They are flaccid",
+      "رخوون"
+     ],
+     [
+      "They do not cry",
+      "لا يبكون"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The New Ballard Scale assesses:",
+    "ar": "يقيّم مقياس بالارد الجديد:",
+    "options": [
+     [
+      "Hearing",
+      "السمع"
+     ],
+     [
+      "Apgar",
+      "أبغار"
+     ],
+     [
+      "Bilirubin",
+      "البيليروبين"
+     ],
+     [
+      "Gestational age",
+      "عمر الحمل"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The normal newborn apical heart rate is:",
+    "ar": "معدّل القلب القمّي الطبيعي للمولود:",
+    "options": [
+     [
+      "120–140",
+      "120–140"
+     ],
+     [
+      "60–80",
+      "60–80"
+     ],
+     [
+      "180–200",
+      "180–200"
+     ],
+     [
+      "90–100",
+      "90–100"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Normal newborn respirations are:",
+    "ar": "التنفّس الطبيعي للمولود:",
+    "options": [
+     [
+      "10–20/min",
+      "10–20/د"
+     ],
+     [
+      "30–60/min",
+      "30–60/د"
+     ],
+     [
+      "70–90/min",
+      "70–90/د"
+     ],
+     [
+      "15–25/min",
+      "15–25/د"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The umbilical cord normally contains:",
+    "ar": "يحتوي الحبل السري طبيعيًا على:",
+    "options": [
+     [
+      "1 artery and 2 veins",
+      "شريان ووريدان"
+     ],
+     [
+      "1 artery and 1 vein",
+      "شريان ووريد"
+     ],
+     [
+      "2 arteries and 1 vein",
+      "شريانين ووريد"
+     ],
+     [
+      "3 arteries",
+      "3 شرايين"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Meconium should pass within:",
+    "ar": "يجب أن ينزل العقي خلال:",
+    "options": [
+     [
+      "48 hours",
+      "48 ساعة"
+     ],
+     [
+      "1 week",
+      "أسبوع"
+     ],
+     [
+      "6 hours",
+      "6 ساعات"
+     ],
+     [
+      "2 weeks",
+      "أسبوعين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Care, airway and temperature",
+    "topic_ar": "الرعاية والمجرى الهوائي والحرارة"
+   },
+   {
+    "en": "The recommended sleeping position for all newborns is:",
+    "ar": "وضعية النوم الموصى بها لكل المواليد:",
+    "options": [
+     [
+      "Prone",
+      "منبطح"
+     ],
+     [
+      "Supine",
+      "مستلقٍ على الظهر"
+     ],
+     [
+      "Sitting",
+      "جالس"
+     ],
+     [
+      "Head down",
+      "الرأس للأسفل"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Oropharyngeal suctioning should last up to:",
+    "ar": "يجب ألّا يتجاوز الشفط الفموي البلعومي:",
+    "options": [
+     [
+      "30 seconds",
+      "30 ثانية"
+     ],
+     [
+      "1 minute",
+      "دقيقة"
+     ],
+     [
+      "15 seconds",
+      "15 ثانية"
+     ],
+     [
+      "5 seconds",
+      "5 ثوانٍ"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Drying the newborn quickly reduces heat loss by:",
+    "ar": "يقلّل التجفيف السريع للمولود فقدان الحرارة بـ:",
+    "options": [
+     [
+      "Radiation",
+      "الإشعاع"
+     ],
+     [
+      "Conduction",
+      "التوصيل"
+     ],
+     [
+      "Evaporation",
+      "التبخّر"
+     ],
+     [
+      "Convection",
+      "الحمل"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Skin-to-skin contact with the mother is called:",
+    "ar": "يُسمّى تماسّ الجلد مع الأم:",
+    "options": [
+     [
+      "Gavage",
+      "التغذية بالأنبوب"
+     ],
+     [
+      "Phototherapy",
+      "العلاج الضوئي"
+     ],
+     [
+      "Kangaroo care",
+      "رعاية الكنغر"
+     ],
+     [
+      "Isolation",
+      "العزل"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Birth injuries",
+    "topic_ar": "إصابات الولادة"
+   },
+   {
+    "en": "The most common birth injury is fracture of the:",
+    "ar": "أشيع إصابة ولادة كسر:",
+    "options": [
+     [
+      "Clavicle",
+      "الترقوة"
+     ],
+     [
+      "Femur",
+      "عظم الفخذ"
+     ],
+     [
+      "Skull",
+      "الجمجمة"
+     ],
+     [
+      "Humerus",
+      "العضد"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Bleeding between the skull bone and its periosteum is:",
+    "ar": "النزف بين عظم الجمجمة وسمحاقه:",
+    "options": [
+     [
+      "Caput succedaneum",
+      "الحدبة المصلية"
+     ],
+     [
+      "Cephalhematoma",
+      "الورم الدموي الرأسي"
+     ],
+     [
+      "Subgaleal hemorrhage",
+      "النزف تحت السفاق"
+     ],
+     [
+      "Petechiae",
+      "النمشات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Edematous tissue over the scalp above the bone is:",
+    "ar": "النسيج المتوذّم على فروة الرأس فوق العظم:",
+    "options": [
+     [
+      "Cephalhematoma",
+      "الورم الدموي الرأسي"
+     ],
+     [
+      "Epidural hematoma",
+      "الورم فوق الجافية"
+     ],
+     [
+      "Fracture",
+      "الكسر"
+     ],
+     [
+      "Caput succedaneum",
+      "الحدبة المصلية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Facial paralysis results from pressure on cranial nerve:",
+    "ar": "ينتج شلل الوجه عن ضغط على العصب القحفي:",
+    "options": [
+     [
+      "VII",
+      "السابع"
+     ],
+     [
+      "V",
+      "الخامس"
+     ],
+     [
+      "X",
+      "العاشر"
+     ],
+     [
+      "III",
+      "الثالث"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "To prevent drying of the eye in facial paralysis, use:",
+    "ar": "لمنع جفاف العين في شلل الوجه يُستعمل:",
+    "options": [
+     [
+      "Antibiotic drops",
+      "قطرة مضاد حيوي"
+     ],
+     [
+      "Phototherapy",
+      "العلاج الضوئي"
+     ],
+     [
+      "Eye patch only",
+      "رقعة عين فقط"
+     ],
+     [
+      "Artificial tears",
+      "الدموع الصناعية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Erb palsy is caused by damage to the:",
+    "ar": "يحدث شلل إرب بسبب تضرّر:",
+    "options": [
+     [
+      "Facial nerve",
+      "العصب الوجهي"
+     ],
+     [
+      "Upper brachial plexus",
+      "الضفيرة العضدية العلوية"
+     ],
+     [
+      "Lower plexus",
+      "الضفيرة السفلية"
+     ],
+     [
+      "Spinal cord",
+      "الحبل الشوكي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In Erb palsy, the Moro reflex on the affected side is:",
+    "ar": "في شلل إرب يكون منعكس مورو في الجهة المصابة:",
+    "options": [
+     [
+      "Exaggerated",
+      "مبالغًا فيه"
+     ],
+     [
+      "Normal",
+      "طبيعيًا"
+     ],
+     [
+      "Absent",
+      "غائبًا"
+     ],
+     [
+      "Delayed",
+      "متأخّرًا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "High-risk newborn",
+    "topic_ar": "حديث الولادة عالي الخطورة"
+   },
+   {
+    "en": "A low-birth-weight infant weighs less than:",
+    "ar": "الرضيع ناقص الوزن يزن أقل من:",
+    "options": [
+     [
+      "1000 g",
+      "1000 غم"
+     ],
+     [
+      "1500 g",
+      "1500 غم"
+     ],
+     [
+      "2500 g",
+      "2500 غم"
+     ],
+     [
+      "3000 g",
+      "3000 غم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "An SGA infant's weight falls:",
+    "ar": "وزن الرضيع الصغير لعمر الحمل:",
+    "options": [
+     [
+      "Above the 90th percentile",
+      "فوق المئين 90"
+     ],
+     [
+      "Below the 10th percentile",
+      "تحت المئين 10"
+     ],
+     [
+      "Between 10th and 90th",
+      "بين 10 و90"
+     ],
+     [
+      "At the 50th",
+      "عند المئين 50"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "A preterm infant is born before completion of:",
+    "ar": "يولد الخديج قبل إتمام:",
+    "options": [
+     [
+      "37 weeks",
+      "37 أسبوعًا"
+     ],
+     [
+      "42 weeks",
+      "42 أسبوعًا"
+     ],
+     [
+      "40 weeks",
+      "40 أسبوعًا"
+     ],
+     [
+      "34 weeks",
+      "34 أسبوعًا"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which is a characteristic of the preterm infant?",
+    "ar": "أي مما يأتي من صفات الخديج؟",
+    "options": [
+     [
+      "Absent lanugo",
+      "غياب الزغب"
+     ],
+     [
+      "Long fingernails",
+      "أظافر طويلة"
+     ],
+     [
+      "Many sole creases",
+      "تجاعيد كثيرة في باطن القدم"
+     ],
+     [
+      "Abundant lanugo and soft ear cartilage",
+      "زغب وفير وغضروف أذن طري"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A postterm infant typically shows:",
+    "ar": "يُظهر متأخّر الولادة عادةً:",
+    "options": [
+     [
+      "Fused eyes",
+      "عيونًا ملتحمة"
+     ],
+     [
+      "Abundant lanugo",
+      "زغبًا وفيرًا"
+     ],
+     [
+      "Translucent skin",
+      "جلدًا شفّافًا"
+     ],
+     [
+      "Cracked, peeling skin and long nails",
+      "جلدًا متشقّقًا متقشّرًا وأظافر طويلة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Yellow or green stained vernix in a postterm infant indicates:",
+    "ar": "الطلاء الدهني المصبوغ أصفر أو أخضر عند المتأخّر يدلّ على:",
+    "options": [
+     [
+      "Meconium in the amniotic fluid",
+      "العقي في السائل الأمنيوسي"
+     ],
+     [
+      "Jaundice",
+      "اليرقان"
+     ],
+     [
+      "Infection",
+      "العدوى"
+     ],
+     [
+      "Hypoglycemia",
+      "نقص السكّر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "RDS, IDM, jaundice, sepsis",
+    "topic_ar": "RDS ورضيع السكّرية واليرقان والإنتان"
+   },
+   {
+    "en": "RDS is mainly caused by deficiency of:",
+    "ar": "سبب RDS الرئيسي نقص:",
+    "options": [
+     [
+      "Vitamin K",
+      "فيتامين K"
+     ],
+     [
+      "Surfactant",
+      "السورفاكتانت"
+     ],
+     [
+      "Insulin",
+      "الإنسولين"
+     ],
+     [
+      "Bilirubin",
+      "البيليروبين"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "A late and serious sign of RDS is:",
+    "ar": "علامة متأخّرة وخطيرة لـRDS:",
+    "options": [
+     [
+      "Expiratory grunt",
+      "الأنين الزفيري"
+     ],
+     [
+      "Nasal flaring",
+      "رفرفة الأنف"
+     ],
+     [
+      "Central cyanosis",
+      "الزرقة المركزية"
+     ],
+     [
+      "Tachypnea > 60",
+      "تسرّع التنفّس > 60"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Infants of diabetic mothers develop hypoglycemia within:",
+    "ar": "يُصاب رضّع الأمهات السكّريات بنقص السكّر خلال:",
+    "options": [
+     [
+      "1 week",
+      "أسبوع"
+     ],
+     [
+      "24 hours",
+      "24 ساعة"
+     ],
+     [
+      "1.5 to 4 hours",
+      "1.5–4 ساعات"
+     ],
+     [
+      "10 minutes",
+      "10 دقائق"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Glucose concentrations above 12.5% should be infused via:",
+    "ar": "تُعطى تراكيز الغلوكوز فوق 12.5% عبر:",
+    "options": [
+     [
+      "A peripheral line",
+      "خط طرفي"
+     ],
+     [
+      "A central line",
+      "خط مركزي"
+     ],
+     [
+      "Oral route",
+      "الفم"
+     ],
+     [
+      "Intramuscular",
+      "العضل"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Physiologic jaundice bilirubin peaks at about:",
+    "ar": "يبلغ البيليروبين في اليرقان الفسيولوجي نحو:",
+    "options": [
+     [
+      "20 mg/dl",
+      "20 ملغم/دل"
+     ],
+     [
+      "1 mg/dl",
+      "1 ملغم/دل"
+     ],
+     [
+      "15 mg/dl at birth",
+      "15 ملغم/دل عند الولادة"
+     ],
+     [
+      "5–6 mg/dl by day 2–5",
+      "5–6 ملغم/دل باليوم 2–5"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "During phototherapy the infant's eyes are checked at least every:",
+    "ar": "أثناء العلاج الضوئي تُفحص العينان على الأقل كل:",
+    "options": [
+     [
+      "4–6 hours",
+      "4–6 ساعات"
+     ],
+     [
+      "30 minutes",
+      "30 دقيقة"
+     ],
+     [
+      "12 hours",
+      "12 ساعة"
+     ],
+     [
+      "24 hours",
+      "24 ساعة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Grayish-brown skin, serum and urine after phototherapy is:",
+    "ar": "تحوّل الجلد والمصل والبول إلى رمادي بني بعد العلاج الضوئي:",
+    "options": [
+     [
+      "Kernicterus",
+      "اليرقان النووي"
+     ],
+     [
+      "Bronze-baby syndrome",
+      "متلازمة الطفل البرونزي"
+     ],
+     [
+      "Cyanosis",
+      "الزرقة"
+     ],
+     [
+      "Meconium staining",
+      "تلوّن العقي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "During phototherapy, oily lotions are avoided to prevent:",
+    "ar": "تُتجنّب المستحضرات الزيتية أثناء العلاج الضوئي لمنع:",
+    "options": [
+     [
+      "Infection",
+      "العدوى"
+     ],
+     [
+      "Apnea",
+      "انقطاع النفس"
+     ],
+     [
+      "Hypoglycemia",
+      "نقص السكّر"
+     ],
+     [
+      "Increased tanning (burns)",
+      "زيادة الاسمرار (الحروق)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Symptoms of neonatal sepsis tend to be:",
+    "ar": "تكون أعراض إنتان حديثي الولادة:",
+    "options": [
+     [
+      "Vague and nonspecific",
+      "مبهمة وغير نوعية"
+     ],
+     [
+      "Always fever",
+      "حمّى دائمًا"
+     ],
+     [
+      "Localized and clear",
+      "موضعية وواضحة"
+     ],
+     [
+      "Only respiratory",
+      "تنفّسية فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Colostrum is protective because it contains agglutinins effective against:",
+    "ar": "اللبأ واقٍ لأنه يحتوي راصّات فعّالة ضد:",
+    "options": [
+     [
+      "Viruses only",
+      "الفيروسات فقط"
+     ],
+     [
+      "Fungi",
+      "الفطريات"
+     ],
+     [
+      "Gram-negative bacteria",
+      "البكتيريا السالبة لكرام"
+     ],
+     [
+      "Gram-positive bacteria",
+      "البكتيريا الموجبة لكرام"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this Apgar picture, a strong cry scores:",
+    "ar": "في صورة أبغار هذه، الصراخ القوي يعطي:",
+    "options": [
+     [
+      "3 points",
+      "3 نقاط"
+     ],
+     [
+      "0 points",
+      "صفرًا"
+     ],
+     [
+      "1 point",
+      "نقطة"
+     ],
+     [
+      "2 points",
+      "نقطتين"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/apgar-pictures.jpg",
+    "img_h": "40mm"
+   },
+   {
+    "en": "The infant in this picture shows:",
+    "ar": "يُظهر الرضيع في هذه الصورة:",
+    "options": [
+     [
+      "Facial paralysis",
+      "شلل الوجه"
+     ],
+     [
+      "Erb (brachial plexus) palsy",
+      "شلل إرب (الضفيرة العضدية)"
+     ],
+     [
+      "Clavicle fracture only",
+      "كسر الترقوة فقط"
+     ],
+     [
+      "Normal posture",
+      "وضعية طبيعية"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/erb-palsy.jpg",
+    "img_h": "40mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Apgar is repeated every 5 minutes until the infant stabilizes.",
+    "ar": "يُعاد أبغار كل 5 دقائق حتى تستقر حالة الرضيع.",
+    "answer": "T"
+   },
+   {
+    "en": "The New Ballard Scale uses six physical and six neuromuscular signs.",
+    "ar": "يستعمل مقياس بالارد ست علامات جسدية وست عصبية عضلية.",
+    "answer": "T"
+   },
+   {
+    "en": "Tears are present at birth.",
+    "ar": "الدموع موجودة عند الولادة.",
+    "answer": "F"
+   },
+   {
+    "en": "The cough reflex is present immediately at birth.",
+    "ar": "منعكس السعال موجود فورًا عند الولادة.",
+    "answer": "F"
+   },
+   {
+    "en": "Cephalhematoma usually resolves spontaneously.",
+    "ar": "يزول الورم الدموي الرأسي عادةً تلقائيًا.",
+    "answer": "T"
+   },
+   {
+    "en": "In Erb palsy, dressing starts with the unaffected arm.",
+    "ar": "في شلل إرب يبدأ الإلباس بالذراع السليمة.",
+    "answer": "F"
+   },
+   {
+    "en": "LGA infants weigh above the 90th percentile.",
+    "ar": "يزن الرضيع الكبير لعمر الحمل فوق المئين 90.",
+    "answer": "T"
+   },
+   {
+    "en": "Preterm infants have increased susceptibility to infection.",
+    "ar": "قابلية الخدّج للعدوى أعلى.",
+    "answer": "T"
+   },
+   {
+    "en": "In RDS, infants increase the depth rather than the rate of respiration.",
+    "ar": "في RDS يزيد الرضيع العمق لا المعدّل.",
+    "answer": "F"
+   },
+   {
+    "en": "Infants of mothers with advanced diabetes may be SGA.",
+    "ar": "قد يكون رضّع الأمهات بسكّري متقدّم صغارًا لعمر الحمل.",
+    "answer": "T"
+   },
+   {
+    "en": "Eye shields should remain on during feedings.",
+    "ar": "تبقى واقيات العين أثناء الرضاعة.",
+    "answer": "F"
+   },
+   {
+    "en": "Loose stools during phototherapy may indicate accelerated bilirubin excretion.",
+    "ar": "قد يدلّ البراز الرخو أثناء العلاج الضوئي على تسارع إخراج البيليروبين.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Caput vs cephalhematoma",
+    "ar": "الحدبة المصلية مقابل الورم الدموي الرأسي",
+    "answer_en": "Caput: edema (serum/blood) over the scalp above the bone. Cephalhematoma: blood between the bone and its periosteum.",
+    "answer_ar": "الحدبة: وذمة (مصل/دم) على فروة الرأس فوق العظم. الورم الدموي: دم بين العظم وسمحاقه."
+   },
+   {
+    "en": "Weight vs age classification",
+    "ar": "التصنيف بالوزن مقابل العمر",
+    "answer_en": "LBW/VLBW/ELBW and SGA/AGA/LGA are by weight; preterm/term/postterm by gestational age.",
+    "answer_ar": "ناقص الوزن وفئاته والصغير/المناسب/الكبير بالوزن؛ والخديج/التام/المتأخّر بعمر الحمل."
+   },
+   {
+    "en": "Preterm vs postterm skin and lanugo",
+    "ar": "جلد وزغب الخديج مقابل المتأخّر",
+    "answer_en": "Preterm: abundant lanugo, translucent skin. Postterm: no lanugo, cracked peeling skin.",
+    "answer_ar": "الخديج: زغب وفير وجلد شفّاف. المتأخّر: بلا زغب وجلد متشقّق متقشّر."
+   },
+   {
+    "en": "RDS grunting vs cyanosis",
+    "ar": "الأنين مقابل الزرقة في RDS",
+    "answer_en": "Grunting appears early; central cyanosis is a late, serious sign.",
+    "answer_ar": "الأنين يظهر مبكرًا؛ والزرقة المركزية علامة متأخّرة وخطيرة."
+   },
+   {
+    "en": "IDM: big or small?",
+    "ar": "رضيع السكّرية: كبير أم صغير؟",
+    "answer_en": "Usually macrosomic (LGA); with advanced maternal diabetes may be SGA/IUGR from placental involvement.",
+    "answer_ar": "عادةً ضخم (كبير لعمر الحمل)؛ ومع سكّري الأم المتقدّم قد يكون صغيرًا بسبب إصابة المشيمة."
+   }
+  ],
+  "important": [
+   {
+    "en": "Describe the Apgar score.",
+    "ar": "صف درجة أبغار.",
+    "answer_en": "A method to assess immediate adjustment to extrauterine life at 1–5 minutes, repeated every 5 minutes; heart rate, respiratory effort, muscle tone, reflex irritability and color, each 0–2; 0–3 severe distress, 4–6 moderate difficulty, 7–10 no difficulty.",
+    "answer_ar": "طريقة لتقييم التكيّف الفوري خارج الرحم في الدقيقة 1–5 وتُعاد كل 5 دقائق؛ القلب والتنفّس والتوتّر وتهيّج المنعكسات واللون، لكل منها 0–2؛ 0–3 ضائقة شديدة، و4–6 صعوبة متوسطة، و7–10 بلا صعوبة."
+   },
+   {
+    "en": "How is a stable body temperature maintained in the newborn?",
+    "ar": "كيف يُحافَظ على حرارة جسم المولود مستقرة؟",
+    "answer_en": "Dry skin and hair quickly with a warm towel; skin-to-skin contact covered with a blanket (kangaroo care); keep cribs away from cold walls/windows; padded covered surfaces; clothes and blankets.",
+    "answer_ar": "تجفيف الجلد والشعر سريعًا بمنشفة دافئة؛ وتماسّ الجلد مع الأم مغطّى ببطانية (رعاية الكنغر)؛ وإبعاد الأسرّة عن الجدران والنوافذ الباردة؛ وأسطح مبطّنة مغطّاة؛ والملابس والبطانيات."
+   },
+   {
+    "en": "Compare caput succedaneum, subgaleal hemorrhage and cephalhematoma.",
+    "ar": "قارن بين الحدبة المصلية والنزف تحت السفاق والورم الدموي الرأسي.",
+    "answer_en": "Caput: edema of serum/blood over the scalp above the bone. Subgaleal: bleeding into the subgaleal loose connective tissue space. Cephalhematoma: bleeding between the bone and its periosteum, usually resolves spontaneously.",
+    "answer_ar": "الحدبة: وذمة مصل/دم على فروة الرأس فوق العظم. تحت السفاق: نزف في حيّز النسيج الضام المرتخي تحت السفاق. الورم الدموي: نزف بين العظم والسمحاق ويزول عادةً تلقائيًا."
+   },
+   {
+    "en": "Classify high-risk newborns by size and gestational age.",
+    "ar": "صنّف المواليد عالي الخطورة بالحجم وعمر الحمل.",
+    "answer_en": "Size: LBW < 2500 g, VLBW < 1500 g, ELBW < 1000 g, AGA 10th–90th, SGA < 10th, IUGR, LGA > 90th percentile. Age: preterm < 37 weeks, term 38–42, postterm > 42, late preterm 34 0/7–36 6/7.",
+    "answer_ar": "بالحجم: ناقص الوزن < 2500، وجدًا < 1500، وبشدّة < 1000 غم، والمناسب 10–90، والصغير < 10، وتقييد النمو، والكبير > 90. بالعمر: الخديج < 37 أسبوعًا، والتام 38–42، والمتأخّر > 42، والخديج المتأخّر 34–36 و6/7."
+   },
+   {
+    "en": "Give the clinical manifestations and treatment of RDS.",
+    "ar": "اذكر مظاهر RDS وعلاجها.",
+    "answer_en": "RR > 60 rising to 80–120, rate not depth, retractions, fine crackles, expiratory grunt, nasal flaring, central cyanosis (late), shock-like state. Treatment: CPAP/ventilation, acid-base balance, neutral thermal environment, perfusion, prevent hypotension, fluids and electrolytes.",
+    "answer_ar": "تنفّس > 60 يرتفع إلى 80–120، والمعدّل لا العمق، وانسحابات، وخراخر دقيقة، وأنين زفيري، ورفرفة الأنف، وزرقة مركزية (متأخّرة)، وحالة شبيهة بالصدمة. العلاج: CPAP/التنفّس الاصطناعي، والتوازن الحمضي القاعدي، والبيئة الحرارية المحايدة، والتروية، ومنع انخفاض الضغط، والسوائل والأملاح."
+   },
+   {
+    "en": "List the nursing care of the infant under phototherapy.",
+    "ar": "عدّد الرعاية التمريضية للرضيع تحت العلاج الضوئي.",
+    "answer_en": "Expose maximum skin and reposition often; opaque eye mask (not covering nares), check eyes every 4–6 h, remove during feeds; monitor temperature; keep the light distance; flexed position with rolled blankets; no oily lotions; watch loose stools and perianal skin; recognize bronze-baby syndrome.",
+    "answer_ar": "كشف أكبر مساحة جلد وتقليب متكرّر؛ وقناع عين معتم لا يسدّ الأنف، وفحص العينين كل 4–6 ساعات وإزالته أثناء الرضاعة؛ ومراقبة الحرارة؛ والالتزام بمسافة الضوء؛ ووضعية مثنية ببطانيات ملفوفة؛ وبلا مستحضرات زيتية؛ ومراقبة البراز الرخو وجلد ما حول الشرج؛ ومعرفة متلازمة الطفل البرونزي."
+   }
+  ]
+ }
+}
