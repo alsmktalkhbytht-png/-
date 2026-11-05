@@ -1,0 +1,3270 @@
+{
+ "meta": {
+  "subject_en": "Pediatric Nursing",
+  "subject_ar": "تمريض الأطفال",
+  "short_ar": "تمريض أطفال",
+  "unit_label": "LEC",
+  "kind": "Theory — نظري",
+  "stage": "The third stage — الثالثة",
+  "department": "كلية التمريض",
+  "unit_en": "Lecture 2",
+  "unit_ar": "المحاضرة 2",
+  "unit_no": "2",
+  "title_en": "Pediatric Physical Assessment",
+  "title_ar": "التقييم البدني للأطفال",
+  "instructor": "م.م. عقيل سعد نايف"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Objectives and pediatric stages",
+   "ar": "الأهداف والمراحل العمرية للأطفال"
+  },
+  {
+   "t": "card",
+   "en": "**OBJECTIVES**",
+   "ar": "**الأهداف**",
+   "list_en": [
+    "Identify pediatric stages",
+    "Principles of child communication",
+    "Data type",
+    "Systematic assessment"
+   ],
+   "list_ar": [
+    "تحديد المراحل العمرية للأطفال",
+    "مبادئ التواصل مع الأطفال",
+    "نوع البيانات",
+    "التقييم المنتظم"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Stage",
+     "المرحلة"
+    ],
+    [
+     "Age",
+     "العمر"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Infancy period:** Neonatal Stage",
+      "**فترة الرضاعة:** مرحلة حديث الولادة"
+     ],
+     [
+      "birth-28 days",
+      "من الولادة حتى 28 يومًا"
+     ]
+    ],
+    [
+     [
+      "**Infancy period:** Infancy Stage",
+      "**فترة الرضاعة:** مرحلة الرضيع"
+     ],
+     [
+      "1-12 months",
+      "1–12 شهرًا"
+     ]
+    ],
+    [
+     [
+      "**Early childhood:** Toddler",
+      "**الطفولة المبكرة:** الدارج"
+     ],
+     [
+      "1 - 3 years.",
+      "1–3 سنوات."
+     ]
+    ],
+    [
+     [
+      "**Early childhood:** Preschool",
+      "**الطفولة المبكرة:** ما قبل المدرسة"
+     ],
+     [
+      "3 - 6 years.",
+      "3–6 سنوات."
+     ]
+    ],
+    [
+     [
+      "**Middle childhood** (School age)",
+      "**الطفولة المتوسطة** (سنّ المدرسة)"
+     ],
+     [
+      "6-12 years",
+      "6–12 سنة"
+     ]
+    ],
+    [
+     [
+      "**Late childhood:** Pre pubertal",
+      "**الطفولة المتأخرة:** ما قبل البلوغ"
+     ],
+     [
+      "10 – 13 years.",
+      "10–13 سنة."
+     ]
+    ],
+    [
+     [
+      "**Late childhood:** Adolescence",
+      "**الطفولة المتأخرة:** المراهقة"
+     ],
+     [
+      "13 - 19 years",
+      "13–19 سنة"
+     ]
+    ],
+    [
+     [
+      "Young adulthood",
+      "الرشد المبكر"
+     ],
+     [
+      "20-40 years",
+      "20–40 سنة"
+     ]
+    ],
+    [
+     [
+      "Middle adulthood",
+      "الرشد المتوسط"
+     ],
+     [
+      "40-65years",
+      "40–65 سنة"
+     ]
+    ],
+    [
+     [
+      "Late adulthood",
+      "الرشد المتأخر"
+     ],
+     [
+      "65 and more",
+      "65 فأكثر"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    55,
+    45
+   ],
+   "style": "summary",
+   "label_en": "STAGES OF AGE",
+   "label_ar": "مراحل العمر"
+  },
+  {
+   "t": "card",
+   "en": "**Early childhood Stage:** It's refers to two integrated stages of development",
+   "ar": "**مرحلة الطفولة المبكرة:** تشير إلى مرحلتين متكاملتين من التطوّر"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Neonate **0–28 days**; infant **1–12 months**.",
+    "Toddler **1–3**, preschool **3–6**, school age **6–12**, adolescence **13–19** years."
+   ],
+   "ar": [
+    "حديث الولادة **0–28 يومًا**؛ والرضيع **1–12 شهرًا**.",
+    "الدارج **1–3**، وما قبل المدرسة **3–6**، وسنّ المدرسة **6–12**، والمراهقة **13–19** سنة."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Pediatric physical examination — data and history",
+   "ar": "الفحص البدني للأطفال — البيانات والتاريخ"
+  },
+  {
+   "t": "card",
+   "en": "Any assessment involves collecting **two kinds of data:**",
+   "ar": "يتضمّن أي تقييم جمع **نوعين من البيانات:**"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Data",
+     "البيانات"
+    ],
+    [
+     "Definition",
+     "التعريف"
+    ],
+    [
+     "Example",
+     "مثال"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Objective data**",
+      "**البيانات الموضوعية**"
+     ],
+     [
+      "are obtained through observation and are verifiable.",
+      "تُجمع بالملاحظة ويمكن التحقّق منها."
+     ],
+     [
+      "a red, swollen arm",
+      "ذراع محمرّة متورّمة"
+     ]
+    ],
+    [
+     [
+      "**Subjective data**",
+      "**البيانات الذاتية**"
+     ],
+     [
+      "can't be verified by anyone other than the patient; they're gathered solely from the patient's own account",
+      "لا يتحقّق منها أحد غير المريض؛ وتُجمع فقط من رواية المريض نفسه"
+     ],
+     [
+      "“my head hurts”",
+      "\"رأسي يؤلمني\""
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    50,
+    26
+   ],
+   "style": "summary",
+   "label_en": "Two kinds of data",
+   "label_ar": "نوعا البيانات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "HISTORY — socio demographic data",
+     "التاريخ — البيانات الاجتماعية الديموغرافية"
+    ],
+    [
+     "Past Medical History",
+     "التاريخ الطبي السابق"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Name, Date of Birth, Age",
+      "الاسم، وتاريخ الميلاد، والعمر"
+     ],
+     [
+      "Birth history",
+      "تاريخ الولادة"
+     ]
+    ],
+    [
+     [
+      "Parents & siblings info",
+      "معلومات الوالدين والإخوة"
+     ],
+     [
+      "Past illness / hospitalizations",
+      "الأمراض السابقة / الرقود في المستشفى"
+     ]
+    ],
+    [
+     [
+      "Cultural practices",
+      "الممارسات الثقافية"
+     ],
+     [
+      "Nutritional History (Feeding)",
+      "التاريخ الغذائي (الرضاعة/التغذية)"
+     ]
+    ],
+    [
+     [
+      "Religious practices",
+      "الممارسات الدينية"
+     ],
+     [
+      "Surgeries / Allergies",
+      "العمليات / الحساسية"
+     ]
+    ],
+    [
+     [
+      "Parents' occupations",
+      "مهن الوالدين"
+     ],
+     [
+      "Development & Growth History",
+      "تاريخ النمو والتطوّر"
+     ]
+    ],
+    [
+     [
+      "Address; Socioeconomic status",
+      "العنوان؛ والوضع الاجتماعي الاقتصادي"
+     ],
+     [
+      "Family Medical/Genetics",
+      "التاريخ الطبي/الوراثي للعائلة"
+     ]
+    ]
+   ],
+   "widths": [
+    50,
+    50
+   ],
+   "style": "summary",
+   "label_en": "History",
+   "label_ar": "التاريخ"
+  },
+  {
+   "t": "card",
+   "en": "**Chief complaint and present history**",
+   "ar": "**الشكوى الرئيسة والتاريخ الحالي**",
+   "list_en": [
+    "It could be symptoms, signs, or abnormal laboratory test",
+    [
+     "Type of onset (sudden, gradual), Duration and timing.",
+     "Predisposing factors, Pain site and radiation"
+    ]
+   ],
+   "list_ar": [
+    "قد تكون أعراضًا أو علامات أو فحصًا مختبريًا غير طبيعي",
+    [
+     "نوع البداية (مفاجئة، تدريجية)، والمدّة والتوقيت.",
+     "والعوامل المهيّئة، وموقع الألم وانتشاره"
+    ]
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Objective** = observed, verifiable; **subjective** = what the patient says.",
+    "History = **socio-demographic + past medical + chief complaint**."
+   ],
+   "ar": [
+    "**الموضوعية** = تُلاحظ ويُتحقّق منها؛ و**الذاتية** = ما يقوله المريض.",
+    "التاريخ = **اجتماعي ديموغرافي + طبي سابق + الشكوى الرئيسة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Growth measurements",
+   "ar": "قياسات النمو"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Measurement of physical growth in children is a **key element** in evaluating their health status.",
+    "Physical growth parameters include **weight, height (length), skinfold thickness, arm circumference, and head circumference**."
+   ],
+   "list_ar": [
+    "قياس النمو الجسدي عند الأطفال **عنصر أساسي** في تقييم حالتهم الصحية.",
+    "وتشمل معايير النمو الجسدي **الوزن، والطول، وسُمك ثنية الجلد، ومحيط الذراع، ومحيط الرأس**."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Measurement",
+     "القياس"
+    ],
+    [
+     "How",
+     "الطريقة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Length (recumbent)**",
+      "**الطول (مستلقيًا)**"
+     ],
+     [
+      "Until 2 years, by using a length board",
+      "حتى عمر سنتين، باستعمال لوح قياس الطول"
+     ]
+    ],
+    [
+     [
+      "**Height (stature)**",
+      "**الطول (واقفًا)**"
+     ],
+     [
+      "when a child is standing upright. Wall charts used",
+      "عندما يقف الطفل منتصبًا. تُستعمل مخطّطات الجدار"
+     ]
+    ],
+    [
+     [
+      "**Body Mass Index (BMI)**",
+      "**مؤشّر كتلة الجسم**"
+     ],
+     "BMI = Wt. (kilograms) / Height (meters)²"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    70
+   ],
+   "style": "summary",
+   "label_en": "LENGTH OR STATURE",
+   "label_ar": "الطول"
+  },
+  {
+   "t": "side",
+   "blocks": [
+    {
+     "t": "card",
+     "en": "**Weight Measurement**",
+     "ar": "**قياس الوزن**",
+     "list_en": [
+      "Normal newborn weight **2.5- 4 kg**.",
+      "Newborn may lose up to **10%** of birth weight in **3-4 days**.",
+      "Reaching **double** birth weight by **5-6 months**.",
+      "**Triple** birth weight by **1 year**.",
+      "Gains about **400 g monthly** during 6 months"
+     ],
+     "list_ar": [
+      "الوزن الطبيعي لحديث الولادة **2.5–4 كغم**.",
+      "قد يفقد حديث الولادة حتى **10%** من وزن ولادته خلال **3–4 أيام**.",
+      "يصل إلى **ضعف** وزن الولادة بعمر **5–6 أشهر**.",
+      "و**ثلاثة أضعاف** وزن الولادة بعمر **سنة**.",
+      "ويزداد نحو **400 غم شهريًا** خلال 6 أشهر"
+     ]
+    }
+   ],
+   "figure": {
+    "src": "assets/weight.jpg",
+    "en": "Weighing an infant",
+    "ar": "وزن الرضيع"
+   }
+  },
+  {
+   "t": "note",
+   "en": "The lecture writes \"High (meters)\"; BMI uses **height**.",
+   "ar": "تكتب المحاضرة \"High (meters)\"؛ ومؤشّر كتلة الجسم يستعمل **الطول**.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Head and Chest Circumference",
+   "ar": "محيط الرأس والصدر"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    [
+     "Measure the head at around the forehead across the occiput bone, above the eyebrows and pinna of the ears.",
+     "By tape measure"
+    ],
+    [
+     "HC. at birth **(33-35 cm)**.",
+     "It more than CC about **2-3 cm**.",
+     "(measured up to 36 months)."
+    ],
+    [
+     "**CC** :Measure around the **nipple line**.",
+     "As the child gets older, chest circumference exceeds head circumference."
+    ],
+    "Generally, head and chest circumferences are **equal at about 6 months to 2 years**."
+   ],
+   "list_ar": [
+    [
+     "يُقاس الرأس حول الجبهة مرورًا بعظم القذال، فوق الحاجبين وصيوان الأذنين.",
+     "بشريط القياس"
+    ],
+    [
+     "محيط الرأس عند الولادة **(33–35 سم)**.",
+     "ويزيد على محيط الصدر بنحو **2–3 سم**.",
+     "(يُقاس حتى 36 شهرًا)."
+    ],
+    [
+     "**محيط الصدر**: يُقاس حول **خط الحلمتين**.",
+     "ومع كبر الطفل يتجاوز محيط الصدر محيط الرأس."
+    ],
+    "وعمومًا يتساوى محيطا الرأس والصدر **بعمر 6 أشهر إلى سنتين تقريبًا**."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/head-circ.jpg",
+     "en": "Measuring head circumference with a tape",
+     "ar": "قياس محيط الرأس بالشريط",
+     "h": "44mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/circumferences.jpg",
+     "en": "Head, chest and abdominal circumference",
+     "ar": "محيط الرأس والصدر والبطن",
+     "h": "44mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Weight: **2.5–4 kg**, lose ≤10% in 3–4 days, **×2 at 5–6 months, ×3 at 1 year**.",
+    "HC at birth **33–35 cm**, 2–3 cm > CC; equal at **6 months–2 years**.",
+    "Length lying down **until 2 years**."
+   ],
+   "ar": [
+    "الوزن: **2.5–4 كغم**، ويفقد حتى 10% خلال 3–4 أيام، و**يتضاعف بعمر 5–6 أشهر ويتضاعف ثلاثًا بعمر سنة**.",
+    "محيط الرأس عند الولادة **33–35 سم** ويزيد 2–3 سم على الصدر؛ ويتساويان **بعمر 6 أشهر–سنتين**.",
+    "الطول مستلقيًا **حتى سنتين**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Vital signs",
+   "ar": "العلامات الحيوية"
+  },
+  {
+   "t": "card",
+   "en": "**TEMPERATURE MEASUREMENT**",
+   "ar": "**قياس الحرارة**",
+   "list_en": [
+    "**Axillary temperature** measurement is appropriate for the newborn.",
+    "Range of normal is **97.7° F to 98.6° F (36.5° C to 37° C)**.",
+    "Both elevated and decreased temperatures can signal infection."
+   ],
+   "list_ar": [
+    "قياس **الحرارة الإبطية** مناسب لحديث الولادة.",
+    "والمدى الطبيعي **97.7–98.6 فهرنهايت (36.5–37 مئوية)**.",
+    "وارتفاع الحرارة وانخفاضها كلاهما قد يدلّان على عدوى."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Pulse rates (apical, radial)**",
+   "ar": "**معدّلات النبض (القمّي، الكعبري)**",
+   "list_en": [
+    "**apical pulse for child under 2 years** (count for 1 full minute)",
+    "put the stethoscope in children **younger than 7 years** laterally at the **midclavicular line at the 4th intercostal space** (ICS), in children **older than 7 years** to the left to the **5th ICS**."
+   ],
+   "list_ar": [
+    "**النبض القمّي للطفل دون سنتين** (يُعدّ دقيقة كاملة)",
+    "توضع السمّاعة عند الأطفال **دون 7 سنوات** جانبيًا على **خط منتصف الترقوة عند المسافة الوربية الرابعة**، وعند الأطفال **فوق 7 سنوات** إلى اليسار عند **المسافة الوربية الخامسة**."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/apical-infant.jpg",
+     "en": "Apical pulse: left MCL at the 4th ICS (<7 years), 5th ICS (>7 years)",
+     "ar": "النبض القمّي: خط منتصف الترقوة الأيسر عند المسافة الرابعة (<7 سنوات) والخامسة (>7 سنوات)",
+     "h": "44mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/apical-sites.jpg",
+     "en": "Apical pulse sites: before age 4, at age 4 to 6, in adult",
+     "ar": "مواقع النبض القمّي: قبل 4 سنوات، وبعمر 4–6، وعند البالغ",
+     "h": "44mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**RESPIRATORY**",
+   "ar": "**التنفّس**",
+   "list_en": [
+    "**Respiratory (thoracic, diaphragmatic until 7 years,)** Count for one full minute",
+    "Assess respiratory rate, rhythm (regular or irregular), depth (normal, shallow, deep), abnormal breathing sound, nasal flaring, coughing, difficulty."
+   ],
+   "list_ar": [
+    "**التنفّس (صدري؛ وحجابي حتى 7 سنوات)**: يُعدّ دقيقة كاملة",
+    "قيّم معدّل التنفّس، والإيقاع (منتظم أو غير منتظم)، والعمق (طبيعي، سطحي، عميق)، وأصوات التنفّس غير الطبيعية، ورفرفة الأنف، والسعال، والصعوبة."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Age",
+     "العمر"
+    ],
+    "Birth",
+    "6mo",
+    "1yr",
+    "2yr",
+    "6yr",
+    "8yr",
+    "10yr"
+   ],
+   "rows": [
+    [
+     [
+      "**Pulse**",
+      "**النبض**"
+     ],
+     "140",
+     "130",
+     "115",
+     "110",
+     "103",
+     "100",
+     "95"
+    ],
+    [
+     [
+      "**Systolic BP**",
+      "**الضغط الانقباضي**"
+     ],
+     "70",
+     "90",
+     "90",
+     "92",
+     "95",
+     "100",
+     "105"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    12
+   ],
+   "style": "summary",
+   "label_en": "Average Pulse and Blood Pressure in Normal Children",
+   "label_ar": "متوسط النبض وضغط الدم عند الأطفال الطبيعيين"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Newborn temperature: **axillary, 36.5–37 °C**.",
+    "Apical pulse under **2 years**, a **full minute**; 4th ICS (<7 y), 5th ICS (>7 y).",
+    "Breathing is **diaphragmatic until 7 years**; pulse falls 140 → 95, BP rises 70 → 105."
+   ],
+   "ar": [
+    "حرارة حديث الولادة: **إبطية، 36.5–37 مئوية**.",
+    "النبض القمّي دون **سنتين** و**دقيقة كاملة**؛ المسافة الرابعة (<7 سنوات) والخامسة (>7 سنوات).",
+    "التنفّس **حجابي حتى 7 سنوات**؛ والنبض ينخفض 140 ← 95، والضغط يرتفع 70 ← 105."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Physical assessment: general, head, skin",
+   "ar": "التقييم البدني: العام والرأس والجلد"
+  },
+  {
+   "t": "card",
+   "en": "**General appearance & behavior**",
+   "ar": "**المظهر العام والسلوك**",
+   "list_en": [
+    "Facial expression (Sadness, signs of abuse)",
+    "Posture / movement",
+    "Hygiene",
+    "Behavior",
+    "Development: grossly fits guidelines for age"
+   ],
+   "list_ar": [
+    "تعبير الوجه (الحزن، علامات الإساءة)",
+    "الوضعية / الحركة",
+    "النظافة",
+    "السلوك",
+    "التطوّر: يناسب عمومًا الإرشادات حسب العمر"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**HEAD**",
+   "ar": "**الرأس**",
+   "list_en": [
+    "Observation of the head size, shape, and symmetry. molding, circumference, palpate anterior & posterior fontanels.",
+    [
+     "**anterior fontanel:** is **diamond shaped**, located at juncture of the two parietal & two frontal bones, **closes between 9 & 18 months** of age.",
+     "It should be soft, flat & pustule."
+    ],
+    [
+     "**Posterior fontanel:** is **triangular** & located between the occipital & parietal bones.",
+     "It is much smaller than the anterior & **close at the end of 2-3 months**, should feel flat & firm."
+    ]
+   ],
+   "list_ar": [
+    "ملاحظة حجم الرأس وشكله وتناظره، والقولبة، والمحيط، وجسّ اليافوخ الأمامي والخلفي.",
+    [
+     "**اليافوخ الأمامي:** **معيّني الشكل**، يقع عند ملتقى العظمين الجداريين والعظمين الجبهيين، و**يُغلق بين 9 و18 شهرًا**.",
+     "ويجب أن يكون طريًا ومسطّحًا ونابضًا."
+    ],
+    [
+     "**اليافوخ الخلفي:** **مثلّثي** ويقع بين العظم القذالي والعظمين الجداريين.",
+     "وهو أصغر بكثير من الأمامي و**يُغلق في نهاية 2–3 أشهر**، ويجب أن يكون مسطّحًا وصلبًا."
+    ]
+   ]
+  },
+  {
+   "t": "note",
+   "en": "\"pustule\" in the lecture is **pulsatile** (نابض).",
+   "ar": "كلمة \"pustule\" في المحاضرة هي **pulsatile** (نابض).",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Fontanel",
+     "اليافوخ"
+    ],
+    [
+     "Shape",
+     "الشكل"
+    ],
+    [
+     "Closes",
+     "يُغلق"
+    ],
+    [
+     "Feels",
+     "الملمس"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Anterior**",
+      "**الأمامي**"
+     ],
+     [
+      "Diamond",
+      "معيّني"
+     ],
+     [
+      "9–18 months",
+      "9–18 شهرًا"
+     ],
+     [
+      "soft, flat, pulsatile",
+      "طري ومسطّح ونابض"
+     ]
+    ],
+    [
+     [
+      "**Posterior**",
+      "**الخلفي**"
+     ],
+     [
+      "Triangular",
+      "مثلّثي"
+     ],
+     [
+      "2–3 months",
+      "2–3 أشهر"
+     ],
+     [
+      "flat and firm",
+      "مسطّح وصلب"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    22,
+    26,
+    30
+   ],
+   "style": "summary",
+   "label_en": "Fontanels",
+   "label_ar": "اليوافيخ"
+  },
+  {
+   "t": "card",
+   "en": "**SKIN, HAIR, NAILS**",
+   "ar": "**الجلد والشعر والأظافر**",
+   "list_en": [
+    "Healthy infant's skin is soft, not dry and supple.",
+    "It is free of rashes, lesions, bruising, edema.",
+    "Note if any rashes or lesions, petechial..",
+    "Poor elasticity and **tenting of the skin** when lightly pinched are associated with **dehydration**.",
+    "**Pallor** or pale mucous membranes may indicate **anemia**.",
+    "**Yellow, jaundiced** skin tones caused by elevated **bilirubin** levels.",
+    "Hair is soft and shiny, no abnormal discoloration, distribution.",
+    "Nails are soft, appropriate length, and not growing inward.."
+   ],
+   "list_ar": [
+    "جلد الرضيع السليم طري وغير جاف ومرن.",
+    "وخالٍ من الطفح والآفات والكدمات والوذمة.",
+    "لاحظ أي طفح أو آفات أو نمشات.",
+    "ترتبط ضعف المرونة و**تخيّم الجلد** عند قرصه بلطف بـ**الجفاف**.",
+    "وقد يدلّ **الشحوب** أو شحوب الأغشية المخاطية على **فقر الدم**.",
+    "وينتج اللون **الأصفر اليرقاني** عن ارتفاع **البيليروبين**.",
+    "الشعر طري ولامع، بلا تغيّر لون أو توزيع غير طبيعي.",
+    "الأظافر طرية وبطول مناسب ولا تنمو للداخل."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Anterior fontanel: **diamond, closes 9–18 m**; posterior: **triangle, 2–3 m**.",
+    "Skin tenting = **dehydration**; pallor = **anemia**; yellow = **bilirubin**."
+   ],
+   "ar": [
+    "اليافوخ الأمامي: **معيّني ويُغلق 9–18 شهرًا**؛ والخلفي: **مثلّثي و2–3 أشهر**.",
+    "تخيّم الجلد = **جفاف**؛ والشحوب = **فقر دم**؛ والاصفرار = **البيليروبين**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Eyes, mouth, nose, ears, neck",
+   "ar": "العيون والفم والأنف والأذنان والرقبة"
+  },
+  {
+   "t": "card",
+   "en": "**EYES**",
+   "ar": "**العيون**",
+   "list_en": [
+    [
+     "Eyes.",
+     "Look for **symmetry**.",
+     "Eyes are parallel and cantered.",
+     "Assess spacing."
+    ],
+    [
+     "Inspect the lids for proper placement.",
+     "Inspect the inside lining of lids (conjunctiva) red colour."
+    ],
+    [
+     "Sclera are clear and white.",
+     "(**Exophthalmos** may indicate **thyrotoxicosis**, ptosis)."
+    ],
+    [
+     "Assess pupils for shape, size, and movement.",
+     "They are round, equal, and clear."
+    ],
+    [
+     "Test their reaction to light.",
+     "The pupils are **equal and reactive to light**.",
+     "Assess any **strabismus**."
+    ]
+   ],
+   "list_ar": [
+    [
+     "العيون.",
+     "ابحث عن **التناظر**.",
+     "العينان متوازيتان ومتمركزتان.",
+     "قيّم المسافة بينهما."
+    ],
+    [
+     "افحص الجفنين لموضعهما الصحيح.",
+     "وافحص البطانة الداخلية للجفنين (الملتحمة) ولونها الأحمر."
+    ],
+    [
+     "الصلبة صافية وبيضاء.",
+     "(قد يدلّ **جحوظ العين** على **التسمّم الدرقي**، وتدلّي الجفن)."
+    ],
+    [
+     "قيّم الحدقتين لشكلهما وحجمهما وحركتهما.",
+     "فهما مستديرتان ومتساويتان وصافيتان."
+    ],
+    [
+     "اختبر تفاعلهما مع الضوء.",
+     "فالحدقتان **متساويتان ومتفاعلتان مع الضوء**.",
+     "وقيّم أي **حَوَل**."
+    ]
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**MOUTH**",
+   "ar": "**الفم**",
+   "list_en": [
+    "Mouth: Inspect the lips for symmetrical, colour, moisture, swelling, fissures.",
+    "The mucous membranes of the mouth, nose, and throat are moist and pink.",
+    [
+     "Inspect the tonsils .",
+     "Inspect the oral mucosa, gums & tongue for colour, moisture, & bleeding.",
+     "Noted any deviation of uvula or **cleft palate**, inflamed tonsils."
+    ],
+    [
+     "Condition of teeth, number, condition, occlusion & loosen.",
+     "(teeth eruption **6-8 months** called **deciduous or temporary teeth**), while teeth falling at (**5-6 years** called **permanent**) ."
+    ]
+   ],
+   "list_ar": [
+    "الفم: افحص الشفتين للتناظر واللون والرطوبة والتورّم والتشقّقات.",
+    "الأغشية المخاطية للفم والأنف والحلق رطبة ووردية.",
+    [
+     "افحص اللوزتين.",
+     "وافحص مخاطية الفم واللثة واللسان للّون والرطوبة والنزف.",
+     "ولاحظ أي انحراف في اللهاة أو **شقّ الحنك** أو التهاب اللوزتين."
+    ],
+    [
+     "حالة الأسنان وعددها وإطباقها وارتخاؤها.",
+     "(بزوغ الأسنان بعمر **6–8 أشهر** ويُسمّى **الأسنان اللبنية أو المؤقّتة**)، بينما سقوطها بعمر (**5–6 سنوات**، وتُسمّى بعدها **الدائمة**)."
+    ]
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/cleft-palate.jpg",
+   "en": "Cleft palate",
+   "ar": "شقّ الحنك",
+   "h": "40mm"
+  },
+  {
+   "t": "card",
+   "en": "**NOSE**",
+   "ar": "**الأنف**",
+   "list_en": [
+    [
+     "Inspect the nose.",
+     "It is fully formed, in the midline of the face, symmetrical nares and nasolabial folds."
+    ],
+    "**Nasal flaring** is a sign of **respiratory distress**.",
+    "A **flattened nasal bridge** associated with **chromosomal abnormalities**.",
+    "Sinuses: Palpate for tenderness in older children"
+   ],
+   "list_ar": [
+    [
+     "افحص الأنف.",
+     "فهو مكتمل التكوين، في خط منتصف الوجه، بفتحتين متناظرتين وطيّتين أنفيتين شفويتين متناظرتين."
+    ],
+    "**رفرفة الأنف** علامة على **الضائقة التنفسية**.",
+    "و**تسطّح جسر الأنف** يرتبط بـ**الشذوذات الكروموسومية**.",
+    "الجيوب: تُجسّ للإيلام عند الأطفال الأكبر"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**EARS**",
+   "ar": "**الأذنان**",
+   "list_en": [
+    "Assess ear placement, size, symmetry, hygiene, discharge & exam hearing acuity.",
+    "Use the pneumatic otoscope to visualize the tympanic membranes and to check the eardrums by **pulling the pinna up and back** for children under 3 years.",
+    "The top of the pinna lies just above an imaginary line from the inner canthus of the eye through the outer canthus and continuing past the ear.",
+    "Ears below the imaginary line are **low-set** and may indicate **chromosomal abnormalities**."
+   ],
+   "list_ar": [
+    "قيّم موضع الأذن وحجمها وتناظرها ونظافتها والإفرازات، وافحص حدّة السمع.",
+    "استعمل منظار الأذن الهوائي لرؤية غشاء الطبل وفحصه، مع **سحب الصيوان للأعلى والخلف** للأطفال دون 3 سنوات.",
+    "ويقع أعلى الصيوان فوق خط وهمي يمتدّ من الزاوية الداخلية للعين مرورًا بالزاوية الخارجية ويستمر خلف الأذن.",
+    "والأذنان تحت هذا الخط **منخفضتا الموضع** وقد تدلّان على **شذوذات كروموسومية**."
+   ]
+  },
+  {
+   "t": "note",
+   "en": "For children **over 3 years** the pinna is usually pulled up and back, and for **under 3 years down and back**; the lecture writes \"up and back for under 3\" — keep the lecturer's wording for her exam.",
+   "ar": "عند الأطفال **فوق 3 سنوات** يُسحب الصيوان عادةً للأعلى والخلف، و**دون 3 سنوات للأسفل والخلف**؛ والمحاضرة تكتب \"للأعلى والخلف لدون 3\" — احفظ صياغة المحاضرة لامتحانها.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/ear-line.jpg",
+   "en": "Ear position: the line from the eye to the ear (line to eyebrow, eye, nose)",
+   "ar": "موضع الأذن: الخط من العين إلى الأذن (خط الحاجب والعين والأنف)",
+   "h": "46mm"
+  },
+  {
+   "t": "card",
+   "en": "**NECK**",
+   "ar": "**الرقبة**",
+   "list_en": [
+    "Short in infancy. inspect for swelling, webbing, extra folds of skin, & vein distension.",
+    "neck has full ROM.",
+    "Persistence of **head lag beyond the 4th month** is a sign of **developmental delay**.",
+    "Limited ROM of the neck is associated with **meningeal irritation**.",
+    [
+     "Checked for any enlargement of thyroid gland.",
+     "Inspect and palpate the trachea (midline with no swelling or masses)."
+    ],
+    "palpable lymph nodes are small, mobile, and non tender."
+   ],
+   "list_ar": [
+    "قصيرة في الرضاعة. افحص للتورّم والوترة والطيّات الجلدية الزائدة وانتفاخ الأوردة.",
+    "للرقبة مدى حركة كامل.",
+    "استمرار **تأخّر الرأس بعد الشهر الرابع** علامة على **تأخّر التطوّر**.",
+    "ومحدودية حركة الرقبة ترتبط بـ**تهيّج السحايا**.",
+    [
+     "افحص أي تضخّم في الغدة الدرقية.",
+     "وافحص الرغامى وجسّها (في الخط الأوسط بلا تورّم أو كتل)."
+    ],
+    "والعقد اللمفية المجسوسة صغيرة ومتحرّكة وغير مؤلمة."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/neck-nodes.jpg",
+   "en": "Lymph nodes of the neck",
+   "ar": "العقد اللمفية في الرقبة",
+   "h": "44mm"
+  },
+  {
+   "t": "note",
+   "en": "\"cantered\" is **centered**; ROM = range of motion (مدى الحركة).",
+   "ar": "كلمة \"cantered\" هي **centered**؛ وROM = مدى الحركة.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Nasal flaring = **respiratory distress**; flat nasal bridge and low-set ears = **chromosomal**.",
+    "Teeth erupt **6–8 months** (deciduous); fall at **5–6 years**.",
+    "Head lag after **4 months** = developmental delay; stiff neck = **meningeal irritation**."
+   ],
+   "ar": [
+    "رفرفة الأنف = **ضائقة تنفسية**؛ وتسطّح جسر الأنف وانخفاض الأذنين = **كروموسومي**.",
+    "تبزغ الأسنان **6–8 أشهر** (لبنية)؛ وتسقط **5–6 سنوات**.",
+    "تأخّر الرأس بعد **4 أشهر** = تأخّر التطوّر؛ وتيبّس الرقبة = **تهيّج السحايا**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Chest, abdomen and percussion",
+   "ar": "الصدر والبطن والقرع"
+  },
+  {
+   "t": "card",
+   "en": "**CHEST**",
+   "ar": "**الصدر**",
+   "list_en": [
+    [
+     "Observe thorax symmetry, size, circumference.",
+     "Chest expansion is equal bilaterally."
+    ],
+    "An equal in anterior-posterior diameter (**pigeon chest**), or depressed sternum (**funnel shape**).",
+    [
+     "Auscultate all lung lobes from the front, back, and under both arms.",
+     "Breath sounds are equal bilaterally (louder and more bronchial than in adults)."
+    ],
+    [
+     "Note abnormal sound (**Wheezes** is lower airway e.g. asthma.",
+     "**Stridor** is upper airway e.g. inflammation of upper airway) crackles, and grunting"
+    ],
+    "Assessment for muscles **retractions** site: (Subcostal, Intercostal, Sub-sternal, supra sternal, Supra-clavicular), are a sign of **respiratory distress**.",
+    [
+     "Observe the nipples.",
+     "Both male and female newborns may have **swollen breasts** (maternal hormones)."
+    ]
+   ],
+   "list_ar": [
+    [
+     "لاحظ تناظر القفص الصدري وحجمه ومحيطه.",
+     "وتمدّد الصدر متساوٍ في الجانبين."
+    ],
+    "تساوي القطر الأمامي الخلفي (**الصدر الحمامي**)، أو انخفاض القصّ (**الصدر القمعي**).",
+    [
+     "استمع إلى كل فصوص الرئة من الأمام والخلف وتحت الإبطين.",
+     "وأصوات التنفّس متساوية في الجانبين (أعلى وأكثر قصبية منها عند البالغين)."
+    ],
+    [
+     "لاحظ الأصوات غير الطبيعية (**الأزيز** للمجرى الهوائي السفلي مثل الربو.",
+     "و**الصرير** للمجرى العلوي مثل التهابه)، والخراخر، والأنين"
+    ],
+    "قيّم مواقع **انسحاب** العضلات: (تحت الأضلاع، وبين الأضلاع، وتحت القصّ، وفوق القصّ، وفوق الترقوة)، وهي علامة على **الضائقة التنفسية**.",
+    [
+     "لاحظ الحلمتين.",
+     "فقد يكون لحديثي الولادة الذكور والإناث **ثدي متورّم** (بسبب هرمونات الأم)."
+    ]
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/chest-shape.jpg",
+     "en": "Chest shape: infant vs adult",
+     "ar": "شكل الصدر: الرضيع مقابل البالغ",
+     "h": "44mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/retractions.jpg",
+     "en": "Sites of retractions",
+     "ar": "مواقع الانسحاب",
+     "h": "44mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label in the figure",
+     "التسمية في الشكل"
+    ],
+    [
+     "Arabic",
+     "بالعربي"
+    ]
+   ],
+   "rows": [
+    [
+     "**Supraclavicular Retractions**",
+     "انسحاب فوق الترقوة"
+    ],
+    [
+     "**Intercostal Retractions**",
+     "انسحاب بين الأضلاع"
+    ],
+    [
+     "**Suprasternal Retractions**",
+     "انسحاب فوق القصّ"
+    ],
+    [
+     "**Substernal Retractions**",
+     "انسحاب تحت القصّ"
+    ],
+    [
+     "**Subcostal Retractions**",
+     "انسحاب تحت الأضلاع"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    50,
+    50
+   ],
+   "label_en": "Figure labels",
+   "label_ar": "تسميات الشكل"
+  },
+  {
+   "t": "card",
+   "en": "**ABDOMEN**",
+   "ar": "**البطن**",
+   "list_en": [
+    [
+     "By inspection it is cylindrical, protrudes slightly, and moves with the diaphragm.",
+     "By palpation it is soft, without rigidity, tenderness, or masses."
+    ],
+    "The umbilicus is clean with no discharge, bulging, or scarring.",
+    "Auscultate bowel sounds in all four quadrants.",
+    "**Absence** of bowel sounds may indicate **peritonitis or a paralytic ileus**.",
+    "**Hyperactive** bowel sounds may indicate **gastroenteritis or a bowel obstruction**.",
+    "percuss the abdomen (**Dullness** in the right upper quadrant over the **liver**), (**Tympany** hear over **stomach and bowel**)."
+   ],
+   "list_ar": [
+    [
+     "بالنظر: البطن أسطواني، بارز قليلًا، ويتحرّك مع الحجاب الحاجز.",
+     "وبالجسّ: طري بلا تصلّب أو إيلام أو كتل."
+    ],
+    "والسرّة نظيفة بلا إفرازات أو بروز أو ندب.",
+    "استمع إلى أصوات الأمعاء في الأرباع الأربعة.",
+    "قد يدلّ **غياب** أصوات الأمعاء على **التهاب الصفاق أو العلوص الشللي**.",
+    "وقد تدلّ أصوات الأمعاء **المفرطة** على **التهاب المعدة والأمعاء أو انسداد الأمعاء**.",
+    "اقرع البطن (**أصمية** في الربع العلوي الأيمن فوق **الكبد**)، و(**طبلية** تُسمع فوق **المعدة والأمعاء**)."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Sound",
+     "الصوت"
+    ],
+    [
+     "Intensity",
+     "الشدّة"
+    ],
+    [
+     "Pitch",
+     "الحدّة"
+    ],
+    [
+     "Duration",
+     "المدّة"
+    ],
+    [
+     "Quality",
+     "النوعية"
+    ],
+    [
+     "Example",
+     "مثال"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Tympany** (heard over air)",
+      "**طبلي** (فوق الهواء)"
+     ],
+     [
+      "Loud",
+      "عالٍ"
+     ],
+     [
+      "High",
+      "عالية"
+     ],
+     [
+      "Moderate",
+      "متوسطة"
+     ],
+     [
+      "Drum like",
+      "مثل الطبل"
+     ],
+     [
+      "Large pneumothorax",
+      "استرواح صدري كبير"
+     ]
+    ],
+    [
+     [
+      "**Resonance** (part air and part solid)",
+      "**رنين** (هواء وصلب)"
+     ],
+     [
+      "Moderate to loud",
+      "متوسط إلى عالٍ"
+     ],
+     [
+      "Low",
+      "منخفضة"
+     ],
+     [
+      "Long",
+      "طويلة"
+     ],
+     [
+      "hollow",
+      "أجوف"
+     ],
+     [
+      "Normal lung",
+      "الرئة الطبيعية"
+     ]
+    ],
+    [
+     [
+      "**Hyper-resonance** (mostly air)",
+      "**فرط الرنين** (هواء غالبًا)"
+     ],
+     [
+      "Very loud",
+      "عالٍ جدًا"
+     ],
+     [
+      "Very low",
+      "منخفضة جدًا"
+     ],
+     [
+      "Longer than resonance",
+      "أطول من الرنين"
+     ],
+     [
+      "Booming",
+      "مدوٍّ"
+     ],
+     [
+      "Emphysematous lung",
+      "رئة نفاخية"
+     ]
+    ],
+    [
+     [
+      "**Dullness** (more solid tissue)",
+      "**أصمية** (نسيج صلب أكثر)"
+     ],
+     [
+      "Soft to moderate",
+      "خافت إلى متوسط"
+     ],
+     [
+      "High",
+      "عالية"
+     ],
+     [
+      "Moderate",
+      "متوسطة"
+     ],
+     [
+      "Thud like",
+      "مثل الضربة المكتومة"
+     ],
+     [
+      "Liver",
+      "الكبد"
+     ]
+    ],
+    [
+     [
+      "**Flatness** (very dense tissue)",
+      "**سطحية/تسطّح** (نسيج كثيف جدًا)"
+     ],
+     [
+      "Soft",
+      "خافت"
+     ],
+     [
+      "High",
+      "عالية"
+     ],
+     [
+      "Short",
+      "قصيرة"
+     ],
+     [
+      "Flat",
+      "مسطّح"
+     ],
+     [
+      "Muscle",
+      "العضلة"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    15,
+    13,
+    15,
+    15,
+    20
+   ],
+   "style": "summary",
+   "label_en": "Sounds produced by percussion",
+   "label_ar": "الأصوات الناتجة عن القرع"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Wheeze = **lower airway** (asthma); stridor = **upper airway**.",
+    "Retractions (5 sites) = **respiratory distress**.",
+    "No bowel sounds = peritonitis/paralytic ileus; hyperactive = gastroenteritis/obstruction.",
+    "Percussion: **dull = liver**, **tympany = stomach/bowel**, resonance = normal lung."
+   ],
+   "ar": [
+    "الأزيز = **المجرى السفلي** (الربو)؛ والصرير = **المجرى العلوي**.",
+    "الانسحابات (5 مواقع) = **ضائقة تنفسية**.",
+    "غياب أصوات الأمعاء = التهاب الصفاق/العلوص؛ والمفرطة = التهاب المعدة والأمعاء/الانسداد.",
+    "القرع: **الأصمية = الكبد**، و**الطبلية = المعدة/الأمعاء**، والرنين = الرئة الطبيعية."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Genitalia and musculoskeletal",
+   "ar": "الأعضاء التناسلية والجهاز العضلي الهيكلي"
+  },
+  {
+   "t": "card",
+   "en": "**GENITALIA:**",
+   "ar": "**الأعضاء التناسلية:**",
+   "list_en": [
+    [
+     "**Female Genitalia.** observe the structures of the vestibule.",
+     "Visualize the vaginal opening.",
+     "The genital area is clean and free of foul odors.",
+     "(redness, swelling, bleeding, or torn tissue may indicate **sexual abuse**)."
+    ],
+    [
+     "**Male Genitalia.** Inspect the penis.",
+     "Note cleanliness and placement of the urethral meatus.",
+     "It is at the top of the glans penis and midline.",
+     "Evaluate the scrotum for size, colour, and symmetry.",
+     "Testes are descended bilaterally (**undescended testes**), the area is free of edema, masses, and lesions."
+    ],
+    "**Anus and Rectum.** Inspect the anus opening for normal position, no redness or bleeding."
+   ],
+   "list_ar": [
+    [
+     "**الأعضاء التناسلية الأنثوية:** لاحظ تراكيب الدهليز.",
+     "وانظر إلى فتحة المهبل.",
+     "فالمنطقة التناسلية نظيفة وخالية من الروائح الكريهة.",
+     "(قد يدلّ الاحمرار أو التورّم أو النزف أو تمزّق النسيج على **إساءة جنسية**)."
+    ],
+    [
+     "**الأعضاء التناسلية الذكرية:** افحص القضيب.",
+     "لاحظ النظافة وموضع الصماخ البولي.",
+     "فهو في أعلى الحشفة وفي الخط الأوسط.",
+     "وقيّم الصفن لحجمه ولونه وتناظره.",
+     "والخصيتان نازلتان في الجانبين (**الخصية المعلّقة**)، والمنطقة خالية من الوذمة والكتل والآفات."
+    ],
+    "**الشرج والمستقيم:** افحص فتحة الشرج لموضعها الطبيعي، بلا احمرار أو نزف."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**MUSCULOSKELETAL**",
+   "ar": "**الجهاز العضلي الهيكلي**",
+   "list_en": [
+    [
+     "Note shape and symmetry, appearance of the hands, palms, fingers, feet, and toes.",
+     "Gait & Muscle Strength."
+    ],
+    [
+     "Ankles have full ROM.",
+     "Feet return to a neutral position without assistance.",
+     "Crepitus with joint movement or any limitation of movement is abnormal."
+    ],
+    [
+     "note any asymmetrical movements.",
+     "(**club foot**), one or both feet are plantar-flexed and turn abnormally inward."
+    ],
+    "Check for signs of **congenital hip dislocation, scoliosis**"
+   ],
+   "list_ar": [
+    [
+     "لاحظ شكل وتناظر ومظهر اليدين والراحتين والأصابع والقدمين وأصابعهما.",
+     "والمشية وقوّة العضلات."
+    ],
+    [
+     "للكاحلين مدى حركة كامل.",
+     "وتعود القدمان إلى الوضع المحايد بلا مساعدة.",
+     "والطقطقة مع حركة المفصل أو أي تحديد للحركة غير طبيعي."
+    ],
+    [
+     "لاحظ أي حركات غير متناظرة.",
+     "(**القدم الحنفاء**): قدم واحدة أو الاثنتان مثنيتان أخمصيًا ومنحرفتان للداخل بشكل غير طبيعي."
+    ],
+    "افحص علامات **خلع الورك الخلقي، والجنف**"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/scoliosis.jpg",
+   "en": "Scoliosis (curvature of the spine)",
+   "ar": "الجنف (انحناء العمود الفقري)",
+   "h": "44mm"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Female genital trauma may mean **sexual abuse**; check **undescended testes** in males.",
+    "Look for **club foot, hip dislocation, scoliosis**."
+   ],
+   "ar": [
+    "إصابات الأعضاء الأنثوية قد تعني **إساءة جنسية**؛ وافحص **الخصية المعلّقة** عند الذكور.",
+    "ابحث عن **القدم الحنفاء، وخلع الورك، والجنف**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Neurological assessments",
+   "ar": "التقييمات العصبية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    [
+     "Assess orientation (older children).",
+     "Ensure active movement and full strength in all extremities.",
+     "Movements are symmetrical."
+    ],
+    "Any noted asymmetry of gait, facial features, or movement needs further evaluation."
+   ],
+   "list_ar": [
+    [
+     "قيّم الإدراك والتوجّه (للأطفال الأكبر).",
+     "وتأكّد من الحركة النشطة والقوّة الكاملة في كل الأطراف.",
+     "فالحركات متناظرة."
+    ],
+    "وأي عدم تناظر ملاحظ في المشية أو ملامح الوجه أو الحركة يحتاج تقييمًا إضافيًا."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**check for:**",
+   "ar": "**افحص:**",
+   "list_en": [
+    "Reflexes",
+    "Behavioral (orientation to visual & auditory stimuli, activity & smiles response).",
+    "Sensory System",
+    "Neurological & Neuromuscular Maturity",
+    "Cranial Nerve ( older children ).",
+    "Mental status – cognitive appropriate."
+   ],
+   "list_ar": [
+    "المنعكسات",
+    "السلوك (التوجّه للمثيرات البصرية والسمعية، والنشاط، والاستجابة بالابتسام).",
+    "الجهاز الحسّي",
+    "النضج العصبي والعصبي العضلي",
+    "الأعصاب القحفية (للأطفال الأكبر).",
+    "الحالة العقلية – إدراك مناسب."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/muscle-tone.jpg",
+   "en": "Normal tone, generalised hypotonia and abnormal tone pattern",
+   "ar": "التوتّر الطبيعي ونقص التوتّر المعمّم ونمط التوتّر غير الطبيعي",
+   "h": "46mm"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Reflexes:** is involuntary reaction to a certain type of stimulation, certain sensations or movements are known to produce specific muscular responses (protective, feeding, movement).",
+    "Most of them **disappear 4-6 months**."
+   ],
+   "ar": [
+    "**المنعكسات:** استجابة لاإرادية لنوع معيّن من التحفيز؛ إذ يُعرف أن إحساسات أو حركات معيّنة تُنتج استجابات عضلية محدّدة (وقائية، وتغذوية، وحركية).",
+    "ومعظمها **يختفي بعمر 4–6 أشهر**."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "1. Protective Reflexes ( persist into adulthood)",
+     "1. المنعكسات الوقائية (تستمر حتى البلوغ)"
+    ],
+    [
+     "Response",
+     "الاستجابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Blinking reflex**",
+      "**منعكس الرمش**"
+     ],
+     [
+      "blinking eyes when touched or sudden bright appears",
+      "رمش العينين عند لمسهما أو ظهور ضوء ساطع مفاجئ"
+     ]
+    ],
+    [
+     [
+      "**Cough reflex**",
+      "**منعكس السعال**"
+     ],
+     [
+      "coughs when airway is stimulated",
+      "يسعل عند تحفيز المجرى الهوائي"
+     ]
+    ],
+    [
+     [
+      "**Gag reflex**",
+      "**منعكس التهوّع**"
+     ],
+     [
+      "gag when the throat or back of moth is stimulated .",
+      "يتهوّع عند تحفيز الحلق أو مؤخّرة الفم."
+     ]
+    ],
+    [
+     [
+      "**Sneeze reflex**",
+      "**منعكس العطاس**"
+     ],
+     [
+      "sneeze when nasal passage irritated .",
+      "يعطس عند تهيّج الممرّ الأنفي."
+     ]
+    ],
+    [
+     [
+      "**Yawn reflex**",
+      "**منعكس التثاؤب**"
+     ],
+     [
+      "yawn when the body needs additional oxygen .",
+      "يتثاءب عندما يحتاج الجسم أكسجينًا إضافيًا."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "style": "summary",
+   "label_en": "Protective",
+   "label_ar": "وقائية"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "2. Feeding Reflexes",
+     "2. منعكسات التغذية"
+    ],
+    [
+     "Response",
+     "الاستجابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Sucking reflex**",
+      "**منعكس المصّ**"
+     ],
+     [
+      "sucks when area around mouth stimulated",
+      "يمصّ عند تحفيز المنطقة حول الفم"
+     ]
+    ],
+    [
+     [
+      "**Rooting reflex**",
+      "**منعكس البحث (التلمّس)**"
+     ],
+     [
+      "is elicited by stroking the cheek the infant will turn toward the side that was stroked and begin to make sucking motions with is mouth.",
+      "يُستثار بمسح الخدّ، فيلتفت الرضيع نحو الجهة الممسوحة ويبدأ حركات المصّ بفمه."
+     ]
+    ],
+    [
+     [
+      "**Swallowing R.**",
+      "**منعكس البلع**"
+     ],
+     [
+      "This reflex is present at birth and persist throughout life",
+      "موجود عند الولادة ويستمر طوال الحياة"
+     ]
+    ],
+    [
+     [
+      "**Extrusion R.**",
+      "**منعكس الدفع (البثق)**"
+     ],
+     [
+      "When tongue is touched or depressed infant responds by foreign it outward disappears",
+      "عند لمس اللسان أو الضغط عليه يستجيب الرضيع بدفعه للخارج، ثم يختفي"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "style": "summary",
+   "label_en": "Feeding",
+   "label_ar": "التغذية"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "3. Movement Reflexes",
+     "3. المنعكسات الحركية"
+    ],
+    [
+     "Response",
+     "الاستجابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Grasp R**",
+      "**منعكس القبض**"
+     ],
+     [
+      "is elicited by placing a finger on the infant's open palm, hand will close around the finger.",
+      "يُستثار بوضع إصبع على راحة الرضيع المفتوحة، فتنغلق اليد حول الإصبع."
+     ]
+    ],
+    [
+     [
+      "**Tonic neck R**",
+      "**منعكس الرقبة التوتّري**"
+     ],
+     [
+      "is elicited when the head of a relaxed child , lying on his back is rotated to the side .The arm & leg toward which the infant is facing extends straight & the opposite arm & leg are flexed (disappear by 4 month ).",
+      "يُستثار بتدوير رأس طفل مسترخٍ مستلقٍ على ظهره إلى جانب، فيمتدّ الذراع والساق في جهة الوجه وتنثني الذراع والساق المقابلتان (يختفي بعمر 4 أشهر)."
+     ]
+    ],
+    [
+     [
+      "**Dance or step R.**",
+      "**منعكس الرقص أو الخطو**"
+     ],
+     [
+      "this reflex causes newborn to stop with one foot & then the other in walking motion when they are held upright with their feet touching a surface (disappears within 4 months ).",
+      "يجعل حديث الولادة يخطو بقدم ثم الأخرى بحركة مشي عند حمله منتصبًا وقدماه تلمسان سطحًا (يختفي خلال 4 أشهر)."
+     ]
+    ],
+    [
+     [
+      "**Crawl R.**",
+      "**منعكس الزحف**"
+     ],
+     [
+      "When placed on abdomen, infant make crawling movement , with arms and legs .",
+      "عند وضعه على بطنه يقوم الرضيع بحركة زحف بذراعيه وساقيه."
+     ]
+    ],
+    [
+     [
+      "**Startle R**",
+      "**منعكس الإجفال**"
+     ],
+     [
+      "pulling arms and legs inward after loud noise.",
+      "سحب الذراعين والساقين للداخل بعد صوت عالٍ."
+     ]
+    ],
+    [
+     [
+      "**Babinski R**",
+      "**منعكس بابنسكي**"
+     ],
+     [
+      "stroking outer sole of foot up ward from head and across ball of foot causes toes to hyperextend .",
+      "مسح الحافة الخارجية لباطن القدم نحو الأعلى وعبر مقدّمها يجعل الأصابع تنبسط بشدّة."
+     ]
+    ],
+    [
+     [
+      "**More R**",
+      "**منعكس مورو**"
+     ],
+     [
+      "sudden jarring or change in abduction of extremities and fanning of fingers , with index finger and thumb forming C shape of extremities .",
+      "الاهتزاز المفاجئ أو التغيّر يسبّب تبعيد الأطراف وانفراج الأصابع، مع تشكيل السبّابة والإبهام حرف C."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    70
+   ],
+   "style": "summary",
+   "label_en": "Movement",
+   "label_ar": "حركية"
+  },
+  {
+   "t": "note",
+   "en": "\"More R\" is the **Moro reflex**; \"stop with one foot\" means **step**; \"foreign it outward\" means **forcing it outward**.",
+   "ar": "\"More R\" هو **منعكس مورو**؛ و\"stop with one foot\" تعني **يخطو**؛ و\"foreign it outward\" تعني **يدفعه للخارج**.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Most reflexes **disappear at 4–6 months**; protective reflexes **persist into adulthood**.",
+    "Feeding: **sucking, rooting, swallowing (lifelong), extrusion**.",
+    "Tonic neck and stepping disappear by **4 months**."
+   ],
+   "ar": [
+    "معظم المنعكسات **تختفي بعمر 4–6 أشهر**؛ والوقائية **تستمر حتى البلوغ**.",
+    "التغذية: **المصّ، والبحث، والبلع (مدى الحياة)، والدفع**.",
+    "الرقبة التوتّري والخطو يختفيان بعمر **4 أشهر**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Cranial nerves",
+   "ar": "الأعصاب القحفية"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "No.",
+     "الرقم"
+    ],
+    [
+     "Crania nerve",
+     "العصب القحفي"
+    ],
+    [
+     "function and assessment",
+     "الوظيفة والتقييم"
+    ]
+   ],
+   "rows": [
+    [
+     "1",
+     [
+      "**Olfactory**",
+      "**الشمّي**"
+     ],
+     [
+      "Identify odors , blocking one nostril at time .",
+      "تمييز الروائح، بسدّ فتحة أنف واحدة في كل مرة."
+     ]
+    ],
+    [
+     "2",
+     [
+      "**Optic**",
+      "**البصري**"
+     ],
+     [
+      "Visual acuity perception of light and color , peripheral vision .",
+      "حدّة البصر وإدراك الضوء واللون، والرؤية المحيطية."
+     ]
+    ],
+    [
+     "3",
+     [
+      "**Coulometer** (Oculomotor)",
+      "**المحرّك للعين**"
+     ],
+     [
+      "Pupil size and reactivity follow object through six cardinal position of gaze .",
+      "حجم الحدقة وتفاعلها، وتتبّع جسم عبر اتجاهات النظر الستّة الأساسية."
+     ]
+    ],
+    [
+     "4",
+     [
+      "**Trochlear**",
+      "**البكري**"
+     ],
+     [
+      "Eye movement down ward and in ward .",
+      "حركة العين للأسفل والداخل."
+     ]
+    ],
+    [
+     "5",
+     [
+      "**Trigeminal**",
+      "**مثلّث التوائم**"
+     ],
+     [
+      "Bite strength .",
+      "قوّة العضّ."
+     ]
+    ],
+    [
+     "6",
+     [
+      "**Abducens**",
+      "**المبعِّد**"
+     ],
+     [
+      "Lateral eye movement .",
+      "حركة العين الجانبية."
+     ]
+    ],
+    [
+     "7",
+     [
+      "**Facial**",
+      "**الوجهي**"
+     ],
+     [
+      "Identify tastes , sweet , sour and bitter with anterior tongue , smile , puff out cheeks , or show teeth.",
+      "تمييز الطعوم الحلو والحامض والمرّ بمقدّمة اللسان، والابتسام، ونفخ الخدّين، أو إظهار الأسنان."
+     ]
+    ],
+    [
+     "8",
+     [
+      "**Acoustic**",
+      "**السمعي**"
+     ],
+     [
+      "Hearing test .",
+      "اختبار السمع."
+     ]
+    ],
+    [
+     "9",
+     [
+      "**Glossogharyngeal**",
+      "**اللساني البلعومي**"
+     ],
+     [
+      "Taste on posterior of tongue ( say aah ) uvula should move up ward and remain midline .",
+      "الطعم بمؤخّرة اللسان (قل آآه)، فتتحرّك اللهاة للأعلى وتبقى في الوسط."
+     ]
+    ],
+    [
+     "10",
+     [
+      "**Vasgus** (Vagus)",
+      "**المبهم**"
+     ],
+     [
+      "Ability swallow .",
+      "القدرة على البلع."
+     ]
+    ],
+    [
+     "11",
+     [
+      "**Accessory**",
+      "**الإضافي**"
+     ],
+     [
+      "Turn head against resistance, shrug shoulders against down ward pressure .",
+      "تدوير الرأس ضد مقاومة، ورفع الكتفين ضد ضغط للأسفل."
+     ]
+    ],
+    [
+     "12",
+     [
+      "**Hypoglossal**",
+      "**تحت اللسان**"
+     ],
+     [
+      "Tongue strength . stick out tongue ( inspect for midline deviation).",
+      "قوّة اللسان؛ أخرج اللسان (افحص انحرافه عن الوسط)."
+     ]
+    ]
+   ],
+   "key_cols": [
+    1
+   ],
+   "widths": [
+    8,
+    26,
+    66
+   ],
+   "style": "summary",
+   "label_en": "12 cranial nerves",
+   "label_ar": "12 عصبًا قحفيًا"
+  },
+  {
+   "t": "note",
+   "en": "Cranial nerves III , IV and VI are often checked together .",
+   "ar": "غالبًا ما تُفحص الأعصاب القحفية الثالث والرابع والسادس معًا.",
+   "label": [
+    "Note",
+    "ملاحظة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "The lecture numbers Olfactory as \"3\"; it is cranial nerve **1**.",
+    "\"Coulometer\", \"Glossogharyngeal\" and \"Vasgus\" are **Oculomotor, Glossopharyngeal and Vagus**."
+   ],
+   "ar": [
+    "ترقّم المحاضرة الشمّي \"3\"؛ وهو العصب **الأول**.",
+    "و\"Coulometer\" و\"Glossogharyngeal\" و\"Vasgus\" هي **المحرّك للعين، واللساني البلعومي، والمبهم**."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Eye movement = **III, IV, VI** (checked together).",
+    "Taste front = **VII**, back = **IX**; swallowing = **X**; shrug = **XI**; tongue = **XII**."
+   ],
+   "ar": [
+    "حركة العين = **الثالث والرابع والسادس** (تُفحص معًا).",
+    "طعم مقدّمة اللسان = **السابع**، ومؤخّرته = **التاسع**؛ والبلع = **العاشر**؛ ورفع الكتفين = **الحادي عشر**؛ واللسان = **الثاني عشر**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Neonate / Infant**",
+     "حديث الولادة (الوليد) / الرضيع"
+    ],
+    [
+     "**Toddler / Preschool**",
+     "الدارج / ما قبل المدرسة"
+    ],
+    [
+     "**Adolescence**",
+     "المراهقة"
+    ],
+    [
+     "**Objective / Subjective data**",
+     "بيانات موضوعية / ذاتية"
+    ],
+    [
+     "**Chief complaint**",
+     "الشكوى الرئيسة"
+    ],
+    [
+     "**Head circumference**",
+     "محيط الرأس"
+    ],
+    [
+     "**Recumbent length**",
+     "الطول مستلقيًا"
+    ],
+    [
+     "**Body Mass Index**",
+     "مؤشّر كتلة الجسم"
+    ],
+    [
+     "**Apical pulse**",
+     "النبض القمّي"
+    ],
+    [
+     "**Intercostal space (ICS)**",
+     "المسافة الوربية (بين الأضلاع)"
+    ],
+    [
+     "**Fontanel**",
+     "اليافوخ / النافوخ"
+    ],
+    [
+     "**Skin tenting**",
+     "تخيّم الجلد (بطء رجوع الجلد)"
+    ],
+    [
+     "**Jaundice**",
+     "اليرقان / الصفار"
+    ],
+    [
+     "**Exophthalmos**",
+     "جحوظ العين"
+    ],
+    [
+     "**Strabismus**",
+     "الحَوَل"
+    ],
+    [
+     "**Cleft palate**",
+     "شقّ الحنك / الحلق المشقوق"
+    ],
+    [
+     "**Nasal flaring**",
+     "رفرفة الأنف / اتّساع فتحتي الأنف"
+    ],
+    [
+     "**Low-set ears**",
+     "انخفاض موضع الأذنين"
+    ],
+    [
+     "**Head lag**",
+     "تأخّر الرأس / تدلّي الرأس"
+    ],
+    [
+     "**Wheeze / Stridor**",
+     "أزيز / صرير"
+    ],
+    [
+     "**Retractions**",
+     "انسحابات / سحب العضلات"
+    ],
+    [
+     "**Pigeon chest / Funnel chest**",
+     "الصدر الحمامي / الصدر القمعي"
+    ],
+    [
+     "**Paralytic ileus**",
+     "العلوص الشللي / شلل الأمعاء"
+    ],
+    [
+     "**Tympany / Dullness**",
+     "صوت طبلي / أصمية"
+    ],
+    [
+     "**Undescended testes**",
+     "الخصية المعلّقة / غير النازلة"
+    ],
+    [
+     "**Club foot**",
+     "القدم الحنفاء"
+    ],
+    [
+     "**Scoliosis**",
+     "الجنف / انحناء العمود الفقري"
+    ],
+    [
+     "**Moro / Babinski reflex**",
+     "منعكس مورو / منعكس بابنسكي"
+    ],
+    [
+     "**Rooting reflex**",
+     "منعكس البحث / التلمّس"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Stages and data",
+    "topic_ar": "المراحل والبيانات"
+   },
+   {
+    "en": "The neonatal stage is from:",
+    "ar": "مرحلة حديث الولادة من:",
+    "options": [
+     [
+      "1 to 12 months",
+      "1 إلى 12 شهرًا"
+     ],
+     [
+      "Birth to 28 days",
+      "الولادة حتى 28 يومًا"
+     ],
+     [
+      "1 to 3 years",
+      "1 إلى 3 سنوات"
+     ],
+     [
+      "Birth to 6 months",
+      "الولادة حتى 6 أشهر"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The toddler stage is:",
+    "ar": "مرحلة الدارج:",
+    "options": [
+     [
+      "3–6 years",
+      "3–6 سنوات"
+     ],
+     [
+      "6–12 years",
+      "6–12 سنة"
+     ],
+     [
+      "1–3 years",
+      "1–3 سنوات"
+     ],
+     [
+      "1–12 months",
+      "1–12 شهرًا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "School age is:",
+    "ar": "سنّ المدرسة:",
+    "options": [
+     [
+      "1–3 years",
+      "1–3 سنوات"
+     ],
+     [
+      "13–19 years",
+      "13–19 سنة"
+     ],
+     [
+      "3–6 years",
+      "3–6 سنوات"
+     ],
+     [
+      "6–12 years",
+      "6–12 سنة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "\"My head hurts\" is an example of:",
+    "ar": "\"رأسي يؤلمني\" مثال على:",
+    "options": [
+     [
+      "Subjective data",
+      "بيانات ذاتية"
+     ],
+     [
+      "Laboratory data",
+      "بيانات مختبرية"
+     ],
+     [
+      "Growth data",
+      "بيانات النمو"
+     ],
+     [
+      "Objective data",
+      "بيانات موضوعية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "A red, swollen arm is:",
+    "ar": "الذراع المحمرّة المتورّمة:",
+    "options": [
+     [
+      "Subjective data",
+      "بيانات ذاتية"
+     ],
+     [
+      "Objective data",
+      "بيانات موضوعية"
+     ],
+     [
+      "Family history",
+      "تاريخ عائلي"
+     ],
+     [
+      "Chief complaint only",
+      "شكوى رئيسة فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Growth and vital signs",
+    "topic_ar": "النمو والعلامات الحيوية"
+   },
+   {
+    "en": "Recumbent length is measured until:",
+    "ar": "يُقاس الطول مستلقيًا حتى:",
+    "options": [
+     [
+      "2 years",
+      "سنتين"
+     ],
+     [
+      "6 months",
+      "6 أشهر"
+     ],
+     [
+      "5 years",
+      "5 سنوات"
+     ],
+     [
+      "1 year",
+      "سنة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Normal newborn weight is:",
+    "ar": "الوزن الطبيعي لحديث الولادة:",
+    "options": [
+     [
+      "1–2 kg",
+      "1–2 كغم"
+     ],
+     [
+      "4–6 kg",
+      "4–6 كغم"
+     ],
+     [
+      "5–7 kg",
+      "5–7 كغم"
+     ],
+     [
+      "2.5–4 kg",
+      "2.5–4 كغم"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A newborn may lose up to what percent of birth weight in 3–4 days?",
+    "ar": "قد يفقد حديث الولادة نسبة من وزنه خلال 3–4 أيام تصل إلى:",
+    "options": [
+     [
+      "2%",
+      "2%"
+     ],
+     [
+      "25%",
+      "25%"
+     ],
+     [
+      "10%",
+      "10%"
+     ],
+     [
+      "50%",
+      "50%"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The infant triples birth weight by:",
+    "ar": "يتضاعف وزن الرضيع ثلاث مرّات بعمر:",
+    "options": [
+     [
+      "6 months",
+      "6 أشهر"
+     ],
+     [
+      "1 year",
+      "سنة"
+     ],
+     [
+      "2 years",
+      "سنتين"
+     ],
+     [
+      "3 months",
+      "3 أشهر"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Head circumference at birth is:",
+    "ar": "محيط الرأس عند الولادة:",
+    "options": [
+     [
+      "25–28 cm",
+      "25–28 سم"
+     ],
+     [
+      "40–42 cm",
+      "40–42 سم"
+     ],
+     [
+      "33–35 cm",
+      "33–35 سم"
+     ],
+     [
+      "45–48 cm",
+      "45–48 سم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Head and chest circumferences are equal at about:",
+    "ar": "يتساوى محيطا الرأس والصدر بعمر:",
+    "options": [
+     [
+      "6 months to 2 years",
+      "6 أشهر إلى سنتين"
+     ],
+     [
+      "5 years",
+      "5 سنوات"
+     ],
+     [
+      "Birth",
+      "الولادة"
+     ],
+     [
+      "10 years",
+      "10 سنوات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Chest circumference is measured around the:",
+    "ar": "يُقاس محيط الصدر حول:",
+    "options": [
+     [
+      "Umbilicus",
+      "السرّة"
+     ],
+     [
+      "Axilla",
+      "الإبط"
+     ],
+     [
+      "Clavicles",
+      "الترقوتين"
+     ],
+     [
+      "Nipple line",
+      "خط الحلمتين"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The appropriate temperature site for the newborn is:",
+    "ar": "الموضع المناسب لقياس حرارة حديث الولادة:",
+    "options": [
+     [
+      "Rectal only",
+      "المستقيم فقط"
+     ],
+     [
+      "Oral",
+      "الفم"
+     ],
+     [
+      "Tympanic",
+      "الأذن"
+     ],
+     [
+      "Axillary",
+      "الإبط"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Apical pulse is taken for children under:",
+    "ar": "يُؤخذ النبض القمّي للأطفال دون:",
+    "options": [
+     [
+      "6 months",
+      "6 أشهر"
+     ],
+     [
+      "7 years",
+      "7 سنوات"
+     ],
+     [
+      "2 years",
+      "سنتين"
+     ],
+     [
+      "12 years",
+      "12 سنة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In children younger than 7 years, the stethoscope is placed at the MCL in the:",
+    "ar": "عند الأطفال دون 7 سنوات توضع السمّاعة على خط منتصف الترقوة عند:",
+    "options": [
+     [
+      "2nd ICS",
+      "المسافة الثانية"
+     ],
+     [
+      "4th ICS",
+      "المسافة الرابعة"
+     ],
+     [
+      "6th ICS",
+      "المسافة السادسة"
+     ],
+     [
+      "5th ICS",
+      "المسافة الخامسة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Respiration is diaphragmatic until the age of:",
+    "ar": "يكون التنفّس حجابيًا حتى عمر:",
+    "options": [
+     [
+      "7 years",
+      "7 سنوات"
+     ],
+     [
+      "3 years",
+      "3 سنوات"
+     ],
+     [
+      "12 years",
+      "12 سنة"
+     ],
+     [
+      "1 year",
+      "سنة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The average pulse at birth in the lecture table is:",
+    "ar": "متوسط النبض عند الولادة في جدول المحاضرة:",
+    "options": [
+     [
+      "70",
+      "70"
+     ],
+     [
+      "95",
+      "95"
+     ],
+     [
+      "115",
+      "115"
+     ],
+     [
+      "140",
+      "140"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Physical assessment",
+    "topic_ar": "التقييم البدني"
+   },
+   {
+    "en": "The anterior fontanel closes between:",
+    "ar": "يُغلق اليافوخ الأمامي بين:",
+    "options": [
+     [
+      "2–3 months",
+      "2–3 أشهر"
+     ],
+     [
+      "9–18 months",
+      "9–18 شهرًا"
+     ],
+     [
+      "3–4 years",
+      "3–4 سنوات"
+     ],
+     [
+      "1–2 weeks",
+      "1–2 أسبوع"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The posterior fontanel is:",
+    "ar": "اليافوخ الخلفي:",
+    "options": [
+     [
+      "Diamond shaped",
+      "معيّني الشكل"
+     ],
+     [
+      "Closes at 18 months",
+      "يُغلق بعمر 18 شهرًا"
+     ],
+     [
+      "Triangular, closes at 2–3 months",
+      "مثلّثي ويُغلق بعمر 2–3 أشهر"
+     ],
+     [
+      "Larger than the anterior",
+      "أكبر من الأمامي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Tenting of the skin is associated with:",
+    "ar": "يرتبط تخيّم الجلد بـ:",
+    "options": [
+     [
+      "Dehydration",
+      "الجفاف"
+     ],
+     [
+      "Jaundice",
+      "اليرقان"
+     ],
+     [
+      "Infection",
+      "العدوى"
+     ],
+     [
+      "Anemia",
+      "فقر الدم"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Exophthalmos may indicate:",
+    "ar": "قد يدلّ جحوظ العين على:",
+    "options": [
+     [
+      "Anemia",
+      "فقر الدم"
+     ],
+     [
+      "Thyrotoxicosis",
+      "التسمّم الدرقي"
+     ],
+     [
+      "Dehydration",
+      "الجفاف"
+     ],
+     [
+      "Asthma",
+      "الربو"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Deciduous (temporary) teeth erupt at:",
+    "ar": "تبزغ الأسنان اللبنية بعمر:",
+    "options": [
+     [
+      "6–8 months",
+      "6–8 أشهر"
+     ],
+     [
+      "1–2 months",
+      "1–2 شهر"
+     ],
+     [
+      "2–3 years",
+      "2–3 سنوات"
+     ],
+     [
+      "5–6 years",
+      "5–6 سنوات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Nasal flaring is a sign of:",
+    "ar": "رفرفة الأنف علامة على:",
+    "options": [
+     [
+      "Dehydration",
+      "الجفاف"
+     ],
+     [
+      "Anemia",
+      "فقر الدم"
+     ],
+     [
+      "Meningitis",
+      "التهاب السحايا"
+     ],
+     [
+      "Respiratory distress",
+      "الضائقة التنفسية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Low-set ears may indicate:",
+    "ar": "قد يدلّ انخفاض موضع الأذنين على:",
+    "options": [
+     [
+      "Otitis media",
+      "التهاب الأذن الوسطى"
+     ],
+     [
+      "Hearing loss only",
+      "فقدان السمع فقط"
+     ],
+     [
+      "Chromosomal abnormalities",
+      "شذوذات كروموسومية"
+     ],
+     [
+      "Dehydration",
+      "الجفاف"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Persistence of head lag beyond the 4th month indicates:",
+    "ar": "استمرار تأخّر الرأس بعد الشهر الرابع يدلّ على:",
+    "options": [
+     [
+      "Infection",
+      "العدوى"
+     ],
+     [
+      "Normal growth",
+      "نمو طبيعي"
+     ],
+     [
+      "Dehydration",
+      "الجفاف"
+     ],
+     [
+      "Developmental delay",
+      "تأخّر التطوّر"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Stridor is a sound of the:",
+    "ar": "الصرير صوت:",
+    "options": [
+     [
+      "Upper airway",
+      "المجرى الهوائي العلوي"
+     ],
+     [
+      "Lower airway",
+      "المجرى الهوائي السفلي"
+     ],
+     [
+      "Bowel",
+      "الأمعاء"
+     ],
+     [
+      "Heart",
+      "القلب"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Retractions of chest muscles are a sign of:",
+    "ar": "انسحاب عضلات الصدر علامة على:",
+    "options": [
+     [
+      "Normal breathing",
+      "تنفّس طبيعي"
+     ],
+     [
+      "Anemia",
+      "فقر الدم"
+     ],
+     [
+      "Respiratory distress",
+      "الضائقة التنفسية"
+     ],
+     [
+      "Dehydration",
+      "الجفاف"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Absence of bowel sounds may indicate:",
+    "ar": "قد يدلّ غياب أصوات الأمعاء على:",
+    "options": [
+     [
+      "Gastroenteritis",
+      "التهاب المعدة والأمعاء"
+     ],
+     [
+      "Peritonitis or paralytic ileus",
+      "التهاب الصفاق أو العلوص الشللي"
+     ],
+     [
+      "Hunger",
+      "الجوع"
+     ],
+     [
+      "Normal digestion",
+      "هضم طبيعي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Percussion over the liver gives:",
+    "ar": "يعطي القرع فوق الكبد:",
+    "options": [
+     [
+      "Tympany",
+      "صوتًا طبليًا"
+     ],
+     [
+      "Dullness",
+      "أصمية"
+     ],
+     [
+      "Hyper-resonance",
+      "فرط رنين"
+     ],
+     [
+      "Resonance",
+      "رنينًا"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Hyper-resonance is heard over:",
+    "ar": "يُسمع فرط الرنين فوق:",
+    "options": [
+     [
+      "Emphysematous lung",
+      "الرئة النفاخية"
+     ],
+     [
+      "Muscle",
+      "العضلة"
+     ],
+     [
+      "Liver",
+      "الكبد"
+     ],
+     [
+      "Normal lung",
+      "الرئة الطبيعية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "A foot that is plantar-flexed and turned abnormally inward is:",
+    "ar": "القدم المثنية أخمصيًا والمنحرفة للداخل:",
+    "options": [
+     [
+      "Flat foot",
+      "القدم المسطّحة"
+     ],
+     [
+      "Hip dislocation",
+      "خلع الورك"
+     ],
+     [
+      "Club foot",
+      "القدم الحنفاء"
+     ],
+     [
+      "Scoliosis",
+      "الجنف"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Reflexes and cranial nerves",
+    "topic_ar": "المنعكسات والأعصاب القحفية"
+   },
+   {
+    "en": "Most newborn reflexes disappear by:",
+    "ar": "تختفي معظم منعكسات حديث الولادة بعمر:",
+    "options": [
+     [
+      "1 month",
+      "شهر"
+     ],
+     [
+      "2 years",
+      "سنتين"
+     ],
+     [
+      "12 months",
+      "12 شهرًا"
+     ],
+     [
+      "4–6 months",
+      "4–6 أشهر"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which reflex persists into adulthood?",
+    "ar": "أي منعكس يستمر حتى البلوغ؟",
+    "options": [
+     [
+      "Step reflex",
+      "منعكس الخطو"
+     ],
+     [
+      "Rooting reflex",
+      "منعكس البحث"
+     ],
+     [
+      "Tonic neck reflex",
+      "منعكس الرقبة التوتّري"
+     ],
+     [
+      "Gag reflex",
+      "منعكس التهوّع"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Stroking the cheek and the infant turns toward it is the:",
+    "ar": "مسح الخدّ فيلتفت الرضيع نحوه هو منعكس:",
+    "options": [
+     [
+      "Grasp",
+      "القبض"
+     ],
+     [
+      "Rooting",
+      "البحث"
+     ],
+     [
+      "Babinski",
+      "بابنسكي"
+     ],
+     [
+      "Moro",
+      "مورو"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Toes hyperextend when the sole is stroked in the:",
+    "ar": "تنبسط الأصابع عند مسح باطن القدم في منعكس:",
+    "options": [
+     [
+      "Babinski reflex",
+      "بابنسكي"
+     ],
+     [
+      "Startle reflex",
+      "الإجفال"
+     ],
+     [
+      "Grasp reflex",
+      "القبض"
+     ],
+     [
+      "Crawl reflex",
+      "الزحف"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The tonic neck reflex disappears by:",
+    "ar": "يختفي منعكس الرقبة التوتّري بعمر:",
+    "options": [
+     [
+      "1 year",
+      "سنة"
+     ],
+     [
+      "2 months",
+      "شهرين"
+     ],
+     [
+      "4 months",
+      "4 أشهر"
+     ],
+     [
+      "Never",
+      "لا يختفي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The cranial nerve tested by bite strength is:",
+    "ar": "العصب القحفي الذي يُختبر بقوّة العضّ:",
+    "options": [
+     [
+      "Vagus (X)",
+      "المبهم (العاشر)"
+     ],
+     [
+      "Facial (VII)",
+      "الوجهي (السابع)"
+     ],
+     [
+      "Trigeminal (V)",
+      "مثلّث التوائم (الخامس)"
+     ],
+     [
+      "Hypoglossal (XII)",
+      "تحت اللسان (الثاني عشر)"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Taste on the posterior tongue tests the:",
+    "ar": "الطعم بمؤخّرة اللسان يختبر:",
+    "options": [
+     [
+      "Facial nerve",
+      "العصب الوجهي"
+     ],
+     [
+      "Accessory nerve",
+      "العصب الإضافي"
+     ],
+     [
+      "Optic nerve",
+      "العصب البصري"
+     ],
+     [
+      "Glossopharyngeal nerve",
+      "العصب اللساني البلعومي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this figure, the retractions shown are a sign of:",
+    "ar": "في هذا الشكل، الانسحابات علامة على:",
+    "options": [
+     [
+      "Dehydration",
+      "الجفاف"
+     ],
+     [
+      "Respiratory distress",
+      "الضائقة التنفسية"
+     ],
+     [
+      "Normal crying",
+      "البكاء الطبيعي"
+     ],
+     [
+      "Fever",
+      "الحمّى"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/retractions.jpg",
+    "img_h": "40mm"
+   },
+   {
+    "en": "This picture shows:",
+    "ar": "تُظهر هذه الصورة:",
+    "options": [
+     [
+      "Scoliosis",
+      "الجنف"
+     ],
+     [
+      "Hip dislocation",
+      "خلع الورك"
+     ],
+     [
+      "Funnel chest",
+      "الصدر القمعي"
+     ],
+     [
+      "Club foot",
+      "القدم الحنفاء"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/scoliosis.jpg",
+    "img_h": "36mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Middle childhood is 6–12 years.",
+    "ar": "الطفولة المتوسطة 6–12 سنة.",
+    "answer": "T"
+   },
+   {
+    "en": "Subjective data can be verified by the nurse.",
+    "ar": "يمكن للممرّض التحقّق من البيانات الذاتية.",
+    "answer": "F"
+   },
+   {
+    "en": "The infant doubles birth weight by 5–6 months.",
+    "ar": "يتضاعف وزن الرضيع بعمر 5–6 أشهر.",
+    "answer": "T"
+   },
+   {
+    "en": "At birth chest circumference is larger than head circumference.",
+    "ar": "عند الولادة يكون محيط الصدر أكبر من محيط الرأس.",
+    "answer": "F"
+   },
+   {
+    "en": "Apical pulse should be counted for one full minute.",
+    "ar": "يجب عدّ النبض القمّي دقيقة كاملة.",
+    "answer": "T"
+   },
+   {
+    "en": "Both high and low temperatures can signal infection in the newborn.",
+    "ar": "قد يدلّ ارتفاع الحرارة وانخفاضها كلاهما على عدوى عند حديث الولادة.",
+    "answer": "T"
+   },
+   {
+    "en": "The anterior fontanel is triangular.",
+    "ar": "اليافوخ الأمامي مثلّثي.",
+    "answer": "F"
+   },
+   {
+    "en": "A flattened nasal bridge may be associated with chromosomal abnormalities.",
+    "ar": "قد يرتبط تسطّح جسر الأنف بشذوذات كروموسومية.",
+    "answer": "T"
+   },
+   {
+    "en": "Wheezes come from the upper airway.",
+    "ar": "يأتي الأزيز من المجرى الهوائي العلوي.",
+    "answer": "F"
+   },
+   {
+    "en": "Newborns of both sexes may have swollen breasts from maternal hormones.",
+    "ar": "قد يكون لحديثي الولادة من الجنسين ثدي متورّم بسبب هرمونات الأم.",
+    "answer": "T"
+   },
+   {
+    "en": "The swallowing reflex disappears at 4 months.",
+    "ar": "يختفي منعكس البلع بعمر 4 أشهر.",
+    "answer": "F"
+   },
+   {
+    "en": "Cranial nerves III, IV and VI are often checked together.",
+    "ar": "غالبًا ما تُفحص الأعصاب الثالث والرابع والسادس معًا.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Anterior vs posterior fontanel",
+    "ar": "اليافوخ الأمامي مقابل الخلفي",
+    "answer_en": "Anterior: diamond, closes 9–18 months, soft and pulsatile. Posterior: triangle, closes 2–3 months, flat and firm.",
+    "answer_ar": "الأمامي: معيّني ويُغلق 9–18 شهرًا وطري ونابض. الخلفي: مثلّثي ويُغلق 2–3 أشهر ومسطّح وصلب."
+   },
+   {
+    "en": "Wheeze vs stridor",
+    "ar": "الأزيز مقابل الصرير",
+    "answer_en": "Wheeze = lower airway (asthma). Stridor = upper airway (upper airway inflammation).",
+    "answer_ar": "الأزيز = المجرى السفلي (الربو). الصرير = المجرى العلوي (التهابه)."
+   },
+   {
+    "en": "HC vs CC",
+    "ar": "محيط الرأس مقابل الصدر",
+    "answer_en": "At birth HC > CC by 2–3 cm; equal at 6 months–2 years; later CC > HC.",
+    "answer_ar": "عند الولادة الرأس أكبر من الصدر بـ2–3 سم؛ ويتساويان بعمر 6 أشهر–سنتين؛ ثم يتجاوز الصدر الرأس."
+   },
+   {
+    "en": "Absent vs hyperactive bowel sounds",
+    "ar": "غياب أصوات الأمعاء مقابل فرطها",
+    "answer_en": "Absent: peritonitis or paralytic ileus. Hyperactive: gastroenteritis or bowel obstruction.",
+    "answer_ar": "الغياب: التهاب الصفاق أو العلوص الشللي. الفرط: التهاب المعدة والأمعاء أو الانسداد."
+   },
+   {
+    "en": "Which reflexes stay?",
+    "ar": "أي المنعكسات تبقى؟",
+    "answer_en": "Protective reflexes (blink, cough, gag, sneeze, yawn) and swallowing persist for life; most others disappear at 4–6 months.",
+    "answer_ar": "المنعكسات الوقائية (الرمش والسعال والتهوّع والعطاس والتثاؤب) والبلع تبقى مدى الحياة؛ ومعظم الأخرى تختفي بعمر 4–6 أشهر."
+   }
+  ],
+  "important": [
+   {
+    "en": "List the pediatric stages with their ages.",
+    "ar": "عدّد المراحل العمرية للأطفال وأعمارها.",
+    "answer_en": "Neonatal birth–28 days; infancy 1–12 months; toddler 1–3 years; preschool 3–6 years; school age 6–12 years; pre-pubertal 10–13 years; adolescence 13–19 years.",
+    "answer_ar": "حديث الولادة 0–28 يومًا؛ والرضيع 1–12 شهرًا؛ والدارج 1–3 سنوات؛ وما قبل المدرسة 3–6 سنوات؛ وسنّ المدرسة 6–12 سنة؛ وما قبل البلوغ 10–13 سنة؛ والمراهقة 13–19 سنة."
+   },
+   {
+    "en": "Compare objective and subjective data with examples.",
+    "ar": "قارن بين البيانات الموضوعية والذاتية مع أمثلة.",
+    "answer_en": "Objective: obtained by observation and verifiable (a red, swollen arm). Subjective: only from the patient's own account and cannot be verified (\"my head hurts\").",
+    "answer_ar": "الموضوعية: بالملاحظة ويمكن التحقّق منها (ذراع محمرّة متورّمة). الذاتية: من رواية المريض فقط ولا يمكن التحقّق منها (\"رأسي يؤلمني\")."
+   },
+   {
+    "en": "Give the normal weight changes of the infant.",
+    "ar": "اذكر تغيّرات الوزن الطبيعية للرضيع.",
+    "answer_en": "Birth weight 2.5–4 kg; may lose up to 10% in 3–4 days; doubles by 5–6 months; triples by 1 year; gains about 400 g monthly during 6 months.",
+    "answer_ar": "وزن الولادة 2.5–4 كغم؛ وقد يفقد حتى 10% خلال 3–4 أيام؛ ويتضاعف بعمر 5–6 أشهر؛ وثلاث مرّات بعمر سنة؛ ويزداد نحو 400 غم شهريًا خلال 6 أشهر."
+   },
+   {
+    "en": "How is the apical pulse measured in children?",
+    "ar": "كيف يُقاس النبض القمّي عند الأطفال؟",
+    "answer_en": "For children under 2 years, count for one full minute; place the stethoscope at the left midclavicular line at the 4th ICS in children under 7 years and at the 5th ICS in children over 7 years.",
+    "answer_ar": "للأطفال دون سنتين يُعدّ دقيقة كاملة؛ وتوضع السمّاعة على خط منتصف الترقوة الأيسر عند المسافة الرابعة دون 7 سنوات، والخامسة فوق 7 سنوات."
+   },
+   {
+    "en": "Describe the anterior and posterior fontanels.",
+    "ar": "صف اليافوخ الأمامي والخلفي.",
+    "answer_en": "Anterior: diamond-shaped at the junction of the two parietal and two frontal bones, closes at 9–18 months, soft, flat and pulsatile. Posterior: triangular between the occipital and parietal bones, much smaller, closes at 2–3 months, flat and firm.",
+    "answer_ar": "الأمامي: معيّني عند ملتقى العظمين الجداريين والجبهيين، ويُغلق بعمر 9–18 شهرًا، وطري ومسطّح ونابض. الخلفي: مثلّثي بين القذالي والجداريين، أصغر بكثير، ويُغلق بعمر 2–3 أشهر، ومسطّح وصلب."
+   },
+   {
+    "en": "Classify newborn reflexes with examples.",
+    "ar": "صنّف منعكسات حديث الولادة مع أمثلة.",
+    "answer_en": "Protective (persist into adulthood): blinking, cough, gag, sneeze, yawn. Feeding: sucking, rooting, swallowing, extrusion. Movement: grasp, tonic neck, dance/step, crawl, startle, Babinski, Moro.",
+    "answer_ar": "الوقائية (تستمر حتى البلوغ): الرمش والسعال والتهوّع والعطاس والتثاؤب. التغذية: المصّ والبحث والبلع والدفع. الحركية: القبض والرقبة التوتّري والخطو والزحف والإجفال وبابنسكي ومورو."
+   }
+  ]
+ }
+}
