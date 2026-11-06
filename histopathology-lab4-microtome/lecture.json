@@ -1,0 +1,1542 @@
+{
+ "meta": {
+  "subject_en": "Histopathology",
+  "subject_ar": "علم الأمراض النسيجية",
+  "short_ar": "انسجة",
+  "instructor": "م.م. آية وسمي",
+  "unit_en": "Lab 4",
+  "unit_ar": "العملي 4",
+  "unit_label": "LAB",
+  "unit_no": "4",
+  "title_en": "Microtome for paraffin and frozen sections",
+  "title_ar": "المِشراح للمقاطع البرافينية والمجمّدة",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "What is Microtomy?",
+   "ar": "ما هي المقطعية (القطع الدقيق)؟"
+  },
+  {
+   "t": "note",
+   "en": "By: M.S.C AYA WESMII",
+   "ar": "إعداد: م.م. آية وسمي",
+   "label": [
+    "Lab sheet",
+    "ورقة العملي"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "The title slide of this file says **\"LAB 3\"**, but lab 3 is *Tissue processing*; this lab (microtome) is numbered **4** as the lab sequence follows.",
+   "ar": "شريحة العنوان في هذا الملف مكتوب فيها **\"`LAB 3`\"**، لكن العملي 3 هو *تحضير النسيج*؛ لذلك رُقّم هذا العملي (المشراح) **4** حسب تسلسل العمليات.",
+   "label": [
+    "BIOS note",
+    "ملاحظة `BIOS`"
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Microtomy** is the technique of preparing **extremely thin sections** of biological tissues, plants, or materials using a specialized instrument called a **microtome**.",
+    "These thin sections, typically only **a few micrometers thick** (1 µm = 1/1000 of a millimeter), are then mounted on glass slides and stained to be examined under a light or electron microscope."
+   ],
+   "ar": [
+    "**المقطعية (القطع الدقيق)** تقنية تحضير **مقاطع رقيقة جدًا** من الأنسجة الحيوية أو النباتات أو المواد باستعمال جهاز متخصّص يُسمّى **المِشراح (المايكروتوم)**.",
+    "وهذه المقاطع الرقيقة، التي يبلغ سمكها عادةً **بضعة مايكرومترات** (`1 µm = 1/1000` من المليمتر)، تُحمَّل بعد ذلك على شرائح زجاجية وتُصبغ لتُفحص تحت المجهر الضوئي أو الإلكتروني."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "The **primary goal** of microtomy is to **allow light or electrons to pass through the specimen**, making its internal structures visible and enabling detailed histological, pathological, or cytological analysis.",
+   "ar": "و**الهدف الرئيس** من المقطعية **السماح للضوء أو الإلكترونات بالمرور عبر العيّنة**، فتصبح تراكيبها الداخلية مرئية ويمكن تحليلها نسيجيًا أو مرضيًا أو خلويًا بالتفصيل."
+  },
+  {
+   "t": "card",
+   "en": [
+    "A microtome is a **precision cutting tool**.",
+    "While designs vary, all microtomes consist of a few **key components**:"
+   ],
+   "ar": [
+    "المِشراح **أداة قطع دقيقة**.",
+    "ومع اختلاف تصاميمه، تتكوّن كل المشاريح من بضعة **مكوّنات أساسية**:"
+   ],
+   "list_en": [
+    "**Base & Clamp**: A heavy, stable base to **prevent vibration**, and a clamp to **hold the specimen block** firmly in place.",
+    "**Knife Holder**: A mount for the cutting blade (**steel, glass, or diamond**).",
+    [
+     "**Specimen Feed Mechanism**: An extremely precise mechanism (manual or automatic) that **advances the specimen block** a specific distance (e.g., 4 µm, 5 µm) towards the knife after each cutting stroke.",
+     "This determines the **thickness of the section**."
+    ],
+    "**Cutting Window/Arm**: The part that the user moves to perform the cutting stroke."
+   ],
+   "list_ar": [
+    "**القاعدة والمِلزمة**: قاعدة ثقيلة ثابتة **لمنع الاهتزاز**، ومِلزمة **لتثبيت قالب العيّنة** بإحكام.",
+    "**حامل السكّين**: مثبّت لشفرة القطع (**فولاذ أو زجاج أو ماس**).",
+    [
+     "**آلية تغذية العيّنة**: آلية دقيقة جدًا (يدوية أو آلية) **تُقدّم قالب العيّنة** مسافة محدّدة (مثل 4 أو 5 مايكرومتر) نحو السكّين بعد كل ضربة قطع.",
+     "وهي التي تحدّد **سُمك المقطع**."
+    ],
+    "**نافذة/ذراع القطع**: الجزء الذي يحرّكه المستعمل لإجراء ضربة القطع."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/microtome-labels.png",
+   "en": "Microtome parts: Block holder, Blade, Stage, Automated microtome setting",
+   "ar": "أجزاء المِشراح: حامل القالب، والشفرة، والمنصّة، وضبط المِشراح الآلي",
+   "h": "48mm"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Microtomy = **very thin sections** (few µm) with a **microtome** → light passes → structures visible."
+   ],
+   "ar": [
+    "المقطعية = **مقاطع رقيقة جدًا** (بضعة مايكرومترات) بالمِشراح ← يمرّ الضوء ← تظهر التراكيب."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "note",
+   "en": [
+    "4 parts: **base & clamp, knife holder, specimen feed (sets thickness), cutting arm**."
+   ],
+   "ar": [
+    "4 أجزاء: **القاعدة والمِلزمة، وحامل السكّين، وآلية التغذية (تحدّد السُمك)، وذراع القطع**."
+   ],
+   "label": [
+    "In short (continued)",
+    "باختصار (تكملة)"
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "section",
+   "en": "Types of Microtomes",
+   "ar": "أنواع المشاريح"
+  },
+  {
+   "t": "card",
+   "en": "Different microtomes are used for different types of specimens and embedding media:",
+   "ar": "تُستعمل مشاريح مختلفة لأنواع مختلفة من العيّنات وأوساط الطمر:"
+  },
+  {
+   "t": "h2",
+   "en": "1. Rotary Microtome",
+   "ar": "1. المِشراح الدوّار"
+  },
+  {
+   "t": "card",
+   "en": "The **most common type** in histology and pathology labs.",
+   "ar": "**النوع الأكثر شيوعًا** في مختبرات الأنسجة والأمراض."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**How it works**: The specimen block is **moved vertically past a stationary knife** in a rotary motion of a **handwheel**.",
+    "**Best for**: Producing **large numbers of thin, serial sections (2-10 µm)** from **paraffin-embedded** tissues."
+   ],
+   "list_ar": [
+    "**كيف يعمل**: يتحرّك قالب العيّنة **عموديًا أمام سكّين ثابتة** بحركة دوّارة من **عجلة اليد**.",
+    "**الأنسب لـ**: إنتاج **أعداد كبيرة من المقاطع الرقيقة المتسلسلة (2–10 مايكرومتر)** من الأنسجة **المطمورة بالبرافين**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/rotary.png",
+   "en": "Rotary Microtome",
+   "ar": "المِشراح الدوّار",
+   "h": "40mm"
+  },
+  {
+   "t": "h2",
+   "en": "2- Cryostat (Freezing Microtome)",
+   "ar": "2. الكرايوستات (المِشراح التجميدي)"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**How it works**: A **rotary microtome housed in a refrigerated chamber** (typically **-15°C to -30°C**).",
+    [
+     "**Best for**: Cutting **frozen tissue sections**.",
+     "Tissues are frozen and embedded in a **freezing medium, not paraffin**.",
+     "This is essential for:"
+    ]
+   ],
+   "list_ar": [
+    "**كيف يعمل**: **مِشراح دوّار داخل حجرة مبرّدة** (عادةً **من -15 إلى -30 °م**).",
+    [
+     "**الأنسب لـ**: قطع **مقاطع الأنسجة المجمّدة**.",
+     "تُجمّد الأنسجة وتُطمر في **وسط تجميد لا في البرافين**.",
+     "وهذا أساسي لـ:"
+    ]
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Rapid intra-operative diagnosis** (e.g., during surgery to determine if a tumor is cancerous).",
+    "Demonstrating **lipids or enzymes** that would be **destroyed by hot paraffin** processing.",
+    "**Immunohistochemistry** on sensitive antigens."
+   ],
+   "list_ar": [
+    "**التشخيص السريع أثناء العملية** (مثل تحديد هل الورم سرطاني أثناء الجراحة).",
+    "إظهار **الدهون أو الإنزيمات** التي **يُتلفها البرافين الساخن** أثناء التحضير.",
+    "**الكيمياء النسيجية المناعية** على المستضدّات الحسّاسة."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/cryostat.png",
+     "en": "Cryostat (Freezing Microtome)",
+     "ar": "الكرايوستات (المِشراح التجميدي)",
+     "h": "42mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/cryostat-chamber.png",
+     "en": "Inside the refrigerated chamber of a cryostat",
+     "ar": "داخل الحجرة المبرّدة للكرايوستات",
+     "h": "42mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "3- Sledge Microtome",
+   "ar": "3. المِشراح المنزلق"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**How it works**: The specimen block is mounted on a **\"sledge\"** that **slides past a long, stationary knife**."
+   ],
+   "list_ar": [
+    "**كيف يعمل**: يُثبّت قالب العيّنة على **\"زلّاجة\"** **تنزلق أمام سكّين طويلة ثابتة**."
+   ],
+   "_ff": 2
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Best for**: Cutting **very large blocks or hard materials**, including **celloidin-embedded** tissues and some rigid plastics."
+   ],
+   "list_ar": [
+    "**الأنسب لـ**: قطع **القوالب الكبيرة جدًا أو المواد الصلبة**، ومنها الأنسجة **المطمورة بالسيلويدين** وبعض البلاستيك الصلب."
+   ],
+   "start": 2,
+   "_ff": 2
+  },
+  {
+   "t": "figure",
+   "src": "assets/sledge.png",
+   "en": "Sledge Microtome",
+   "ar": "المِشراح المنزلق",
+   "h": "40mm"
+  },
+  {
+   "t": "h2",
+   "en": "4- Ultramicrotome",
+   "ar": "4. المِشراح الفائق الدقّة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**How it works**: An extremely precise microtome that uses a **glass or diamond knife** to cut sections in a **fluid-filled trough (a \"boat\")**.",
+    [
+     "**Best for**: Preparing **ultra-thin sections (50-100 nanometers)** for **Transmission Electron Microscopy (TEM)**.",
+     "The sections are so thin they must be collected on small **copper grids**."
+    ]
+   ],
+   "list_ar": [
+    "**كيف يعمل**: مِشراح دقيق جدًا يستعمل **سكّينًا زجاجية أو ماسية** لقطع المقاطع في **حوض مملوء بسائل (\"قارب\")**.",
+    [
+     "**الأنسب لـ**: تحضير **مقاطع فائقة الرقّة (50–100 نانومتر)** لـ**المجهر الإلكتروني النافذ (`TEM`)**.",
+     "والمقاطع رقيقة جدًا لدرجة أنها تُجمع على **شبكات نحاسية** صغيرة."
+    ]
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/ultramicrotome.png",
+   "en": "Ultramicrotome",
+   "ar": "المِشراح الفائق الدقّة",
+   "h": "40mm"
+  },
+  {
+   "t": "h2",
+   "en": "5- Vibratome (Vibrating Microtome)",
+   "ar": "5. الفايبراتوم (المِشراح الاهتزازي)"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    [
+     "**How it works**: Uses a **vibrating blade** to cut through tissue.",
+     "The tissue is **not frozen or embedded in paraffin**; it is simply **submerged in a buffer solution**."
+    ],
+    [
+     "**Best for**: Cutting **fresh, unfixed, or lightly fixed** tissues.",
+     "It **preserves cell viability and antigenicity** better than other methods but produces **thicker sections (30-500 µm)**."
+    ]
+   ],
+   "list_ar": [
+    [
+     "**كيف يعمل**: يستعمل **شفرة مهتزّة** لقطع النسيج.",
+     "والنسيج **غير مجمّد ولا مطمور بالبرافين**؛ بل **مغمور في محلول دارئ** فقط."
+    ],
+    [
+     "**الأنسب لـ**: قطع الأنسجة **الطازجة أو غير المثبّتة أو المثبّتة تثبيتًا خفيفًا**.",
+     "وهو **يحافظ على حيوية الخلايا ومستضدّيتها** أفضل من الطرائق الأخرى لكنه يعطي **مقاطع أسمك (30–500 مايكرومتر)**."
+    ]
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/vibratome.png",
+   "en": "Vibratome (Vibrating Microtome)",
+   "ar": "الفايبراتوم (المِشراح الاهتزازي)",
+   "h": "40mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Microtome",
+     "المِشراح"
+    ],
+    [
+     "How it cuts",
+     "كيف يقطع"
+    ],
+    [
+     "Section thickness",
+     "سُمك المقطع"
+    ],
+    [
+     "Best for",
+     "الأنسب لـ"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Rotary**",
+      "**الدوّار**"
+     ],
+     [
+      "block moves vertically past a stationary knife (handwheel)",
+      "القالب يتحرّك عموديًا أمام سكّين ثابتة (عجلة يد)"
+     ],
+     [
+      "2–10 µm",
+      "2–10 مايكرومتر"
+     ],
+     [
+      "paraffin, serial sections",
+      "البرافين، مقاطع متسلسلة"
+     ]
+    ],
+    [
+     [
+      "**Cryostat**",
+      "**الكرايوستات**"
+     ],
+     [
+      "rotary microtome in a cold chamber (-15 to -30 °C)",
+      "مِشراح دوّار في حجرة باردة (-15 إلى -30 °م)"
+     ],
+     [
+      "frozen sections",
+      "مقاطع مجمّدة"
+     ],
+     [
+      "intra-operative diagnosis, lipids, enzymes, IHC",
+      "التشخيص أثناء العملية، والدهون، والإنزيمات، والكيمياء المناعية"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    18,
+    34,
+    18,
+    30
+   ],
+   "style": "summary",
+   "label_en": "BIOS: the 5 microtomes",
+   "label_ar": "`BIOS`: المشاريح الخمسة",
+   "_ff": 3
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Microtome",
+     "المِشراح"
+    ],
+    [
+     "How it cuts",
+     "كيف يقطع"
+    ],
+    [
+     "Section thickness",
+     "سُمك المقطع"
+    ],
+    [
+     "Best for",
+     "الأنسب لـ"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Sledge**",
+      "**المنزلق**"
+     ],
+     [
+      "block on a sledge slides past a long stationary knife",
+      "قالب على زلّاجة ينزلق أمام سكّين طويلة ثابتة"
+     ],
+     [
+      "—",
+      "—"
+     ],
+     [
+      "very large / hard blocks, celloidin",
+      "قوالب كبيرة جدًا / صلبة، السيلويدين"
+     ]
+    ],
+    [
+     [
+      "**Ultramicrotome**",
+      "**الفائق الدقّة**"
+     ],
+     [
+      "glass or diamond knife, fluid-filled boat",
+      "سكّين زجاجية أو ماسية، قارب سائل"
+     ],
+     [
+      "50–100 nm",
+      "50–100 نانومتر"
+     ],
+     [
+      "TEM (copper grids)",
+      "المجهر الإلكتروني النافذ (شبكات نحاسية)"
+     ]
+    ],
+    [
+     [
+      "**Vibratome**",
+      "**الاهتزازي**"
+     ],
+     [
+      "vibrating blade, tissue in buffer",
+      "شفرة مهتزّة، النسيج في دارئ"
+     ],
+     [
+      "30–500 µm",
+      "30–500 مايكرومتر"
+     ],
+     [
+      "fresh / unfixed tissue, viability, antigenicity",
+      "نسيج طازج / غير مثبّت، الحيوية والمستضدّية"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    18,
+    34,
+    18,
+    30
+   ],
+   "style": "summary",
+   "label_en": "BIOS: the 5 microtomes (continued)",
+   "label_ar": "`BIOS`: المشاريح الخمسة (تكملة)",
+   "_ff": 3
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Rotary** = most common, paraffin, 2–10 µm; **cryostat** = frozen, -15 to -30 °C.",
+    "**Sledge** = large/hard blocks; **ultramicrotome** = 50–100 nm for TEM; **vibratome** = fresh tissue, 30–500 µm."
+   ],
+   "ar": [
+    "**الدوّار** = الأشيع، برافين، 2–10 مايكرومتر؛ و**الكرايوستات** = مجمّد، -15 إلى -30 °م.",
+    "**المنزلق** = قوالب كبيرة/صلبة؛ و**الفائق الدقّة** = 50–100 نانومتر للمجهر الإلكتروني؛ و**الاهتزازي** = نسيج طازج، 30–500 مايكرومتر."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Cutting the sections",
+   "ar": "قطع المقاطع"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The **block is secured** in the microtome.",
+    "A **sharp microtome knife or disposable blade** is installed.",
+    "The **thickness is set** (e.g., **4-5 µm**).",
+    "The user **rotates the handwheel** in a smooth, rhythmic motion."
+   ],
+   "list_ar": [
+    "**يُثبّت القالب** في المِشراح.",
+    "تُركّب **سكّين مِشراح حادّة أو شفرة تُستعمل مرّة واحدة**.",
+    "**يُضبط السُمك** (مثل **4–5 مايكرومتر**).",
+    "يُدير المستعمل **عجلة اليد** بحركة سلسة منتظمة."
+   ],
+   "_ff": 4
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "As sections are cut, the **static electricity** causes them to adhere to each other, forming a continuous **\"ribbon\" of serial sections**."
+   ],
+   "list_ar": [
+    "ومع قطع المقاطع تجعلها **الكهرباء الساكنة** تلتصق بعضها ببعض فتكوّن **\"شريطًا\" متصلًا من المقاطع المتسلسلة**."
+   ],
+   "start": 5,
+   "_ff": 4
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/block-clamp.png",
+     "en": "The block secured in the clamp, facing the blade",
+     "ar": "القالب مثبّت في المِلزمة مقابل الشفرة",
+     "h": "40mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/handwheel.png",
+     "en": "The handwheel",
+     "ar": "عجلة اليد",
+     "h": "40mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/ribbon.png",
+   "en": "A ribbon of serial sections on the blade",
+   "ar": "شريط من المقاطع المتسلسلة على الشفرة",
+   "h": "42mm"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Secure block → install blade → set **4–5 µm** → turn the handwheel → **ribbon** (static electricity)."
+   ],
+   "ar": [
+    "تثبيت القالب ← تركيب الشفرة ← ضبط **4–5 مايكرومتر** ← إدارة العجلة ← **شريط** (كهرباء ساكنة)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Float-out, mounting and staining",
+   "ar": "التعويم والتحميل والتصبيغ"
+  },
+  {
+   "t": "h2",
+   "en": "Float-Out Bath:",
+   "ar": "حمّام التعويم:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The ribbon is carefully manipulated with a **brush or forceps** and floated on a **warm water bath** (usually **5-10°C below the melting point of the paraffin**)."
+   ],
+   "list_ar": [
+    "يُحرَّك الشريط بعناية بـ**فرشاة أو ملقط** ويُعوَّم على **حمّام ماء دافئ** (عادةً **أقل من درجة انصهار البرافين بـ 5–10 °م**)."
+   ],
+   "_ff": 5
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The **warmth relaxes the sections**, removing **wrinkles and folds**."
+   ],
+   "list_ar": [
+    "و**الدفء يُرخي المقاطع** فيزيل **التجاعيد والطيّات**."
+   ],
+   "start": 2,
+   "_ff": 5
+  },
+  {
+   "t": "figure",
+   "src": "assets/float-bath.png",
+   "en": "Float-out water bath",
+   "ar": "حمّام التعويم المائي",
+   "h": "40mm"
+  },
+  {
+   "t": "h2",
+   "en": "Mounting:",
+   "ar": "التحميل:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "A glass microscope slide is **submerged under the floating section**.",
+    "The section is carefully **\"fished\" out onto the slide** and positioned.",
+    "The slide is **drained and dried in an oven** to firmly adhere the section to the glass."
+   ],
+   "list_ar": [
+    "تُغمر شريحة مجهرية زجاجية **تحت المقطع العائم**.",
+    "يُ**\"صاد\" المقطع** بعناية على الشريحة ويُعدّل موضعه.",
+    "تُصفّى الشريحة **وتُجفّف في الفرن** ليلتصق المقطع بالزجاج بإحكام."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/fishing.png",
+     "en": "Fishing the section onto the slide",
+     "ar": "صيد المقطع على الشريحة",
+     "h": "40mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/slide-sections.png",
+     "en": "Sections mounted on the slide",
+     "ar": "مقاطع محمّلة على الشريحة",
+     "h": "40mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Staining**: The slide is then processed through stains (like **Hematoxylin and Eosin - H&E**) to visualize cellular components.",
+   "ar": "**التصبيغ**: ثم تُمرَّر الشريحة عبر الصبغات (مثل **الهيماتوكسلين والإيوسين – `H&E`**) لإظهار مكوّنات الخلايا."
+  },
+  {
+   "t": "figure",
+   "src": "assets/he-section.png",
+   "en": "H&E-stained section",
+   "ar": "مقطع مصبوغ بـ `H&E`",
+   "h": "40mm"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Ribbon",
+     "ar": "الشريط"
+    },
+    {
+     "en": "Warm water bath",
+     "ar": "حمّام ماء دافئ"
+    },
+    {
+     "en": "Fish onto slide",
+     "ar": "صيد على الشريحة"
+    },
+    {
+     "en": "Drain & oven-dry",
+     "ar": "تصفية وتجفيف بالفرن"
+    },
+    {
+     "en": "Stain (H&E)",
+     "ar": "تصبيغ (`H`&`E`)"
+    }
+   ],
+   "en": "After cutting",
+   "ar": "بعد القطع"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Float-out: **warm water 5–10 °C below paraffin melting point** → removes wrinkles.",
+    "Mounting: slide **under** the section → fish out → **drain and oven-dry** → stain (H&E)."
+   ],
+   "ar": [
+    "التعويم: **ماء دافئ أقل من انصهار البرافين بـ 5–10 °م** ← يزيل التجاعيد.",
+    "التحميل: الشريحة **تحت** المقطع ← صيده ← **تصفية وتجفيف بالفرن** ← تصبيغ (`H&E`)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Microtomy / microtome**",
+     "المقطعية (القطع الدقيق) / المِشراح (المايكروتوم)"
+    ],
+    [
+     "**Section**",
+     "المقطع"
+    ],
+    [
+     "**Micrometer (µm) / nanometer (nm)**",
+     "مايكرومتر / نانومتر"
+    ],
+    [
+     "**Clamp / knife holder**",
+     "المِلزمة / حامل السكّين"
+    ],
+    [
+     "**Specimen feed mechanism**",
+     "آلية تغذية (تقديم) العيّنة"
+    ],
+    [
+     "**Rotary microtome**",
+     "المِشراح الدوّار"
+    ],
+    [
+     "**Handwheel**",
+     "عجلة اليد"
+    ],
+    [
+     "**Serial sections / ribbon**",
+     "مقاطع متسلسلة / شريط"
+    ],
+    [
+     "**Cryostat (freezing microtome)**",
+     "الكرايوستات / المِشراح التجميدي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 6
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Intra-operative diagnosis**",
+     "التشخيص أثناء العملية الجراحية"
+    ],
+    [
+     "**Immunohistochemistry**",
+     "الكيمياء النسيجية المناعية"
+    ],
+    [
+     "**Sledge microtome**",
+     "المِشراح المنزلق"
+    ],
+    [
+     "**Celloidin**",
+     "السيلويدين"
+    ],
+    [
+     "**Ultramicrotome**",
+     "المِشراح الفائق الدقّة"
+    ],
+    [
+     "**Transmission electron microscopy (TEM)**",
+     "المجهر الإلكتروني النافذ"
+    ],
+    [
+     "**Copper grid**",
+     "شبكة نحاسية"
+    ],
+    [
+     "**Vibratome**",
+     "الفايبراتوم / المِشراح الاهتزازي"
+    ],
+    [
+     "**Float-out bath**",
+     "حمّام التعويم"
+    ],
+    [
+     "**Mounting**",
+     "التحميل"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 6
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Microtomy and microtome parts",
+    "topic_ar": "المقطعية وأجزاء المِشراح"
+   },
+   {
+    "en": "Microtomy is the technique of preparing:",
+    "ar": "المقطعية تقنية تحضير:",
+    "options": [
+     [
+      "Blood films",
+      "مسحات دموية"
+     ],
+     [
+      "Thick smears",
+      "مسحات سميكة"
+     ],
+     [
+      "Culture media",
+      "أوساط زرعية"
+     ],
+     [
+      "Extremely thin sections with a microtome",
+      "مقاطع رقيقة جدًا بالمِشراح"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "1 µm equals:",
+    "ar": "المايكرومتر الواحد يساوي:",
+    "options": [
+     [
+      "1/1000 of a millimeter",
+      "`1/1000` من المليمتر"
+     ],
+     [
+      "1/10 mm",
+      "`1/10` ملم"
+     ],
+     [
+      "1 mm",
+      "1 ملم"
+     ],
+     [
+      "1/100 mm",
+      "`1/100` ملم"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The primary goal of microtomy is to:",
+    "ar": "الهدف الرئيس من المقطعية:",
+    "options": [
+     [
+      "Kill bacteria",
+      "قتل البكتيريا"
+     ],
+     [
+      "Allow light or electrons to pass through the specimen",
+      "السماح للضوء أو الإلكترونات بالمرور عبر العيّنة"
+     ],
+     [
+      "Freeze tissue",
+      "تجميد النسيج"
+     ],
+     [
+      "Stain the block",
+      "تصبيغ القالب"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The heavy base of the microtome is to:",
+    "ar": "القاعدة الثقيلة للمِشراح من أجل:",
+    "options": [
+     [
+      "Heat the block",
+      "تسخين القالب"
+     ],
+     [
+      "Cool the knife",
+      "تبريد السكّين"
+     ],
+     [
+      "Prevent vibration",
+      "منع الاهتزاز"
+     ],
+     [
+      "Cut faster",
+      "القطع أسرع"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The section thickness is determined by the:",
+    "ar": "يحدّد سُمك المقطع:",
+    "options": [
+     [
+      "Oven",
+      "الفرن"
+     ],
+     [
+      "Base",
+      "القاعدة"
+     ],
+     [
+      "Water bath",
+      "حمّام الماء"
+     ],
+     [
+      "Specimen feed mechanism",
+      "آلية تغذية العيّنة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Microtome blades may be made of:",
+    "ar": "قد تُصنع شفرات المِشراح من:",
+    "options": [
+     [
+      "Wood",
+      "خشب"
+     ],
+     [
+      "Plastic only",
+      "بلاستيك فقط"
+     ],
+     [
+      "Steel, glass or diamond",
+      "فولاذ أو زجاج أو ماس"
+     ],
+     [
+      "Copper",
+      "نحاس"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Types of microtomes",
+    "topic_ar": "أنواع المشاريح"
+   },
+   {
+    "en": "The most common microtome in histology labs is the:",
+    "ar": "المِشراح الأكثر شيوعًا في مختبرات الأنسجة:",
+    "options": [
+     [
+      "Rotary microtome",
+      "الدوّار"
+     ],
+     [
+      "Ultramicrotome",
+      "الفائق الدقّة"
+     ],
+     [
+      "Sledge",
+      "المنزلق"
+     ],
+     [
+      "Vibratome",
+      "الاهتزازي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The rotary microtome produces serial sections of:",
+    "ar": "يعطي المِشراح الدوّار مقاطع متسلسلة بسُمك:",
+    "options": [
+     [
+      "50–100 nm",
+      "50–100 نانومتر"
+     ],
+     [
+      "2–10 µm",
+      "2–10 مايكرومتر"
+     ],
+     [
+      "1 mm",
+      "1 ملم"
+     ],
+     [
+      "30–500 µm",
+      "30–500 مايكرومتر"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "A cryostat is a rotary microtome in a refrigerated chamber at:",
+    "ar": "الكرايوستات مِشراح دوّار في حجرة مبرّدة بدرجة:",
+    "options": [
+     [
+      "-80 °C",
+      "-80 °م"
+     ],
+     [
+      "0 to 4 °C",
+      "0 إلى 4 °م"
+     ],
+     [
+      "37 °C",
+      "37 °م"
+     ],
+     [
+      "-15 to -30 °C",
+      "-15 إلى -30 °م"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Rapid intra-operative diagnosis uses:",
+    "ar": "التشخيص السريع أثناء العملية يستعمل:",
+    "options": [
+     [
+      "Cryostat",
+      "الكرايوستات"
+     ],
+     [
+      "Ultramicrotome",
+      "الفائق الدقّة"
+     ],
+     [
+      "Sledge microtome",
+      "المنزلق"
+     ],
+     [
+      "Paraffin processing",
+      "التحضير بالبرافين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Frozen sections are needed to demonstrate lipids and enzymes because:",
+    "ar": "تُحتاج المقاطع المجمّدة لإظهار الدهون والإنزيمات لأن:",
+    "options": [
+     [
+      "They are cheaper",
+      "أرخص"
+     ],
+     [
+      "Hot paraffin processing would destroy them",
+      "التحضير بالبرافين الساخن يُتلفها"
+     ],
+     [
+      "They are thicker",
+      "أسمك"
+     ],
+     [
+      "They need TEM",
+      "تحتاج المجهر الإلكتروني"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Celloidin-embedded tissues and very large hard blocks are cut with the:",
+    "ar": "تُقطع الأنسجة المطمورة بالسيلويدين والقوالب الكبيرة الصلبة بـ:",
+    "options": [
+     [
+      "Vibratome",
+      "الاهتزازي"
+     ],
+     [
+      "Cryostat",
+      "الكرايوستات"
+     ],
+     [
+      "Sledge microtome",
+      "المنزلق"
+     ],
+     [
+      "Ultramicrotome",
+      "الفائق الدقّة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Ultra-thin sections for TEM (50–100 nm) are cut with the:",
+    "ar": "المقاطع فائقة الرقّة للمجهر الإلكتروني (50–100 نانومتر) تُقطع بـ:",
+    "options": [
+     [
+      "Vibratome",
+      "الاهتزازي"
+     ],
+     [
+      "Rotary microtome",
+      "الدوّار"
+     ],
+     [
+      "Sledge microtome",
+      "المنزلق"
+     ],
+     [
+      "Ultramicrotome",
+      "الفائق الدقّة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Ultramicrotome sections are collected on:",
+    "ar": "تُجمع مقاطع المِشراح الفائق الدقّة على:",
+    "options": [
+     [
+      "Copper grids",
+      "شبكات نحاسية"
+     ],
+     [
+      "Glass slides",
+      "شرائح زجاجية"
+     ],
+     [
+      "Filter paper",
+      "ورق ترشيح"
+     ],
+     [
+      "Agar",
+      "آغار"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The vibratome cuts tissue that is:",
+    "ar": "يقطع الفايبراتوم نسيجًا:",
+    "options": [
+     [
+      "Embedded in paraffin",
+      "مطمورًا بالبرافين"
+     ],
+     [
+      "Frozen",
+      "مجمّدًا"
+     ],
+     [
+      "Fresh, submerged in buffer",
+      "طازجًا مغمورًا في دارئ"
+     ],
+     [
+      "Embedded in plastic",
+      "مطمورًا بالبلاستيك"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Vibratome sections are:",
+    "ar": "مقاطع الفايبراتوم:",
+    "options": [
+     [
+      "50–100 nm",
+      "50–100 نانومتر"
+     ],
+     [
+      "30–500 µm (thicker)",
+      "30–500 مايكرومتر (أسمك)"
+     ],
+     [
+      "4–5 µm",
+      "4–5 مايكرومتر"
+     ],
+     [
+      "2–10 µm",
+      "2–10 مايكرومتر"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Cutting, float-out and mounting",
+    "topic_ar": "القطع والتعويم والتحميل"
+   },
+   {
+    "en": "The usual section thickness set in the lab is:",
+    "ar": "السُمك المعتاد المضبوط في العملي:",
+    "options": [
+     [
+      "100 nm",
+      "100 نانومتر"
+     ],
+     [
+      "50 µm",
+      "50 مايكرومتر"
+     ],
+     [
+      "1 mm",
+      "1 ملم"
+     ],
+     [
+      "4–5 µm",
+      "4–5 مايكرومتر"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Sections stick together into a ribbon because of:",
+    "ar": "تلتصق المقاطع ببعضها في شريط بسبب:",
+    "options": [
+     [
+      "Glue",
+      "الصمغ"
+     ],
+     [
+      "Static electricity",
+      "الكهرباء الساكنة"
+     ],
+     [
+      "Water",
+      "الماء"
+     ],
+     [
+      "Heat",
+      "الحرارة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The float-out water bath temperature is usually:",
+    "ar": "درجة حرارة حمّام التعويم عادةً:",
+    "options": [
+     [
+      "5–10 °C below the paraffin melting point",
+      "أقل من انصهار البرافين بـ 5–10 °م"
+     ],
+     [
+      "Ice-cold",
+      "مثلّج"
+     ],
+     [
+      "Boiling",
+      "غليان"
+     ],
+     [
+      "Room temperature only",
+      "حرارة الغرفة فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The warm water bath:",
+    "ar": "حمّام الماء الدافئ:",
+    "options": [
+     [
+      "Stains the section",
+      "يصبغ المقطع"
+     ],
+     [
+      "Freezes the section",
+      "يجمّد المقطع"
+     ],
+     [
+      "Relaxes the sections, removing wrinkles and folds",
+      "يُرخي المقاطع ويزيل التجاعيد والطيّات"
+     ],
+     [
+      "Fixes the tissue",
+      "يثبّت النسيج"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "To mount a section, the slide is:",
+    "ar": "لتحميل المقطع تُ:",
+    "options": [
+     [
+      "Heated before cutting",
+      "تسخين الشريحة قبل القطع"
+     ],
+     [
+      "Placed on top of the block",
+      "وضع الشريحة فوق القالب"
+     ],
+     [
+      "Submerged under the floating section and the section fished out",
+      "غمر الشريحة تحت المقطع العائم ويُصاد المقطع"
+     ],
+     [
+      "Dipped in eosin",
+      "غمس الشريحة في الإيوسين"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "After fishing, the slide is drained and:",
+    "ar": "بعد الصيد تُصفّى الشريحة و:",
+    "options": [
+     [
+      "Frozen",
+      "تُجمّد"
+     ],
+     [
+      "Cut again",
+      "تُقطع ثانية"
+     ],
+     [
+      "Washed with acid",
+      "تُغسل بالحامض"
+     ],
+     [
+      "Dried in an oven",
+      "تُجفّف في الفرن"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "This instrument is a:",
+    "ar": "هذا الجهاز:",
+    "options": [
+     [
+      "Cryostat (freezing microtome)",
+      "كرايوستات (مِشراح تجميدي)"
+     ],
+     [
+      "Water bath",
+      "حمّام ماء"
+     ],
+     [
+      "Sledge microtome",
+      "مِشراح منزلق"
+     ],
+     [
+      "Oven",
+      "فرن"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/cryostat.png",
+    "img_h": "34mm"
+   },
+   {
+    "en": "This picture shows:",
+    "ar": "تُظهر هذه الصورة:",
+    "options": [
+     [
+      "A float-out bath",
+      "حمّام تعويم"
+     ],
+     [
+      "A ribbon of serial sections on the blade",
+      "شريطًا من المقاطع المتسلسلة على الشفرة"
+     ],
+     [
+      "An H&E section",
+      "مقطعًا مصبوغًا بـ `H`&`E`"
+     ],
+     [
+      "A handwheel",
+      "عجلة يد"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/ribbon.png",
+    "img_h": "34mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Microtomy sections are typically a few micrometers thick.",
+    "ar": "يبلغ سمك مقاطع المقطعية عادةً بضعة مايكرومترات.",
+    "answer": "T"
+   },
+   {
+    "en": "The specimen feed mechanism determines the thickness of the section.",
+    "ar": "تحدّد آلية تغذية العيّنة سُمك المقطع.",
+    "answer": "T"
+   },
+   {
+    "en": "The rotary microtome moves the knife past a stationary block.",
+    "ar": "يحرّك المِشراح الدوّار السكّين أمام قالب ثابت.",
+    "answer": "F"
+   },
+   {
+    "en": "The cryostat cuts paraffin-embedded tissues.",
+    "ar": "يقطع الكرايوستات الأنسجة المطمورة بالبرافين.",
+    "answer": "F"
+   },
+   {
+    "en": "Frozen sections are used for rapid intra-operative diagnosis.",
+    "ar": "تُستعمل المقاطع المجمّدة للتشخيص السريع أثناء العملية.",
+    "answer": "T"
+   },
+   {
+    "en": "The sledge microtome is best for very large or hard blocks.",
+    "ar": "المِشراح المنزلق الأنسب للقوالب الكبيرة جدًا أو الصلبة.",
+    "answer": "T"
+   },
+   {
+    "en": "The ultramicrotome uses a glass or diamond knife.",
+    "ar": "يستعمل المِشراح الفائق الدقّة سكّينًا زجاجية أو ماسية.",
+    "answer": "T"
+   },
+   {
+    "en": "Ultramicrotome sections are 30–500 µm thick.",
+    "ar": "سُمك مقاطع المِشراح الفائق الدقّة 30–500 مايكرومتر.",
+    "answer": "F"
+   },
+   {
+    "en": "The vibratome preserves cell viability and antigenicity.",
+    "ar": "يحافظ الفايبراتوم على حيوية الخلايا ومستضدّيتها.",
+    "answer": "T"
+   },
+   {
+    "en": "A ribbon of serial sections forms because of static electricity.",
+    "ar": "يتكوّن شريط المقاطع المتسلسلة بسبب الكهرباء الساكنة.",
+    "answer": "T"
+   },
+   {
+    "en": "The float-out bath is kept above the melting point of paraffin.",
+    "ar": "يُحفظ حمّام التعويم فوق درجة انصهار البرافين.",
+    "answer": "F"
+   },
+   {
+    "en": "After mounting, the slide is dried in an oven.",
+    "ar": "بعد التحميل تُجفّف الشريحة في الفرن.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Thickness of each microtome",
+    "ar": "سُمك كل مِشراح",
+    "answer_en": "Rotary 2–10 µm (set 4–5 µm); ultramicrotome 50–100 NANOmeters; vibratome 30–500 µm (thickest).",
+    "answer_ar": "الدوّار 2–10 مايكرومتر (يُضبط 4–5)؛ والفائق الدقّة 50–100 نانومتر؛ والاهتزازي 30–500 مايكرومتر (الأسمك)."
+   },
+   {
+    "en": "Rotary: what moves?",
+    "ar": "الدوّار: ماذا يتحرّك؟",
+    "answer_en": "The BLOCK moves vertically past a STATIONARY knife (handwheel).",
+    "answer_ar": "القالب يتحرّك عموديًا أمام سكّين ثابتة (عجلة اليد)."
+   },
+   {
+    "en": "Sledge: what moves?",
+    "ar": "المنزلق: ماذا يتحرّك؟",
+    "answer_en": "The block on the SLEDGE slides past a long stationary knife.",
+    "answer_ar": "القالب على الزلّاجة ينزلق أمام سكّين طويلة ثابتة."
+   },
+   {
+    "en": "Cryostat vs vibratome",
+    "ar": "الكرايوستات مقابل الاهتزازي",
+    "answer_en": "Cryostat: FROZEN tissue in freezing medium. Vibratome: FRESH tissue NOT frozen, NOT paraffin — in buffer.",
+    "answer_ar": "الكرايوستات: نسيج مجمّد في وسط تجميد. الاهتزازي: نسيج طازج غير مجمّد ولا برافين — في دارئ."
+   },
+   {
+    "en": "Water bath temperature",
+    "ar": "حرارة حمّام الماء",
+    "answer_en": "5–10 °C BELOW the paraffin melting point — not above (the wax would melt).",
+    "answer_ar": "أقل من انصهار البرافين بـ 5–10 °م — لا أعلى (وإلا يذوب الشمع)."
+   },
+   {
+    "en": "Slide position when mounting",
+    "ar": "موضع الشريحة عند التحميل",
+    "answer_en": "The slide goes UNDER the floating section, then the section is fished out.",
+    "answer_ar": "الشريحة توضع تحت المقطع العائم ثم يُصاد المقطع."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define microtomy and state its primary goal.",
+    "ar": "عرّف المقطعية واذكر هدفها الرئيس.",
+    "answer_en": "The technique of preparing extremely thin sections (a few µm) with a microtome, which are mounted on slides and stained for light or electron microscopy. Goal: allow light or electrons to pass through the specimen so internal structures become visible.",
+    "answer_ar": "تقنية تحضير مقاطع رقيقة جدًا (بضعة مايكرومترات) بالمِشراح، تُحمّل على شرائح وتُصبغ للفحص بالمجهر الضوئي أو الإلكتروني. هدفها: السماح للضوء أو الإلكترونات بالمرور عبر العيّنة لتظهر تراكيبها الداخلية."
+   },
+   {
+    "en": "List the key components of a microtome.",
+    "ar": "عدّد المكوّنات الأساسية للمِشراح.",
+    "answer_en": "1. Base & clamp (prevents vibration, holds the block). 2. Knife holder (steel, glass or diamond blade). 3. Specimen feed mechanism (advances the block e.g. 4–5 µm; determines thickness). 4. Cutting window/arm.",
+    "answer_ar": "1. القاعدة والمِلزمة (تمنع الاهتزاز وتثبّت القالب). 2. حامل السكّين (شفرة فولاذ أو زجاج أو ماس). 3. آلية تغذية العيّنة (تُقدّم القالب مثل 4–5 مايكرومتر؛ وتحدّد السُمك). 4. نافذة/ذراع القطع."
+   },
+   {
+    "en": "Compare the five types of microtomes.",
+    "ar": "قارن بين أنواع المشاريح الخمسة.",
+    "answer_en": "Rotary: block moves past a stationary knife; 2–10 µm paraffin serial sections; most common. Cryostat: rotary in a -15 to -30 °C chamber; frozen sections (intra-operative diagnosis, lipids, enzymes, IHC). Sledge: block on a sledge past a long knife; large/hard, celloidin. Ultramicrotome: glass/diamond knife in a boat; 50–100 nm for TEM on copper grids. Vibratome: vibrating blade, fresh tissue in buffer; 30–500 µm.",
+    "answer_ar": "الدوّار: القالب يتحرّك أمام سكّين ثابتة؛ مقاطع برافين متسلسلة 2–10 مايكرومتر؛ الأشيع. الكرايوستات: دوّار في حجرة -15 إلى -30 °م؛ مقاطع مجمّدة (تشخيص أثناء العملية، دهون، إنزيمات، كيمياء مناعية). المنزلق: قالب على زلّاجة أمام سكّين طويلة؛ كبير/صلب، سيلويدين. الفائق الدقّة: سكّين زجاجية/ماسية في قارب؛ 50–100 نانومتر للمجهر الإلكتروني على شبكات نحاسية. الاهتزازي: شفرة مهتزّة، نسيج طازج في دارئ؛ 30–500 مايكرومتر."
+   },
+   {
+    "en": "Why is the cryostat essential? Give three uses.",
+    "ar": "لماذا الكرايوستات أساسي؟ اذكر ثلاثة استعمالات.",
+    "answer_en": "It cuts frozen sections (tissue in freezing medium, not paraffin): 1. rapid intra-operative diagnosis (is the tumor cancerous?), 2. demonstrating lipids or enzymes destroyed by hot paraffin, 3. immunohistochemistry on sensitive antigens.",
+    "answer_ar": "يقطع مقاطع مجمّدة (نسيج في وسط تجميد لا برافين): 1. التشخيص السريع أثناء العملية (هل الورم سرطاني؟)، 2. إظهار الدهون أو الإنزيمات التي يُتلفها البرافين الساخن، 3. الكيمياء النسيجية المناعية على المستضدّات الحسّاسة."
+   },
+   {
+    "en": "Describe the steps from cutting to staining.",
+    "ar": "صف الخطوات من القطع إلى التصبيغ.",
+    "answer_en": "Secure the block; install a sharp knife/disposable blade; set thickness (4–5 µm); turn the handwheel smoothly → ribbon of serial sections (static electricity). Float the ribbon on a warm water bath (5–10 °C below paraffin melting point) to remove wrinkles; submerge a slide under the section, fish it out, drain and dry in an oven; stain (e.g. H&E).",
+    "answer_ar": "تثبيت القالب؛ تركيب سكّين حادّة/شفرة لمرّة واحدة؛ ضبط السُمك (4–5 مايكرومتر)؛ إدارة العجلة بسلاسة ← شريط مقاطع متسلسلة (كهرباء ساكنة). تعويم الشريط على حمّام ماء دافئ (أقل من انصهار البرافين بـ 5–10 °م) لإزالة التجاعيد؛ غمر شريحة تحت المقطع وصيده وتصفيته وتجفيفه بالفرن؛ ثم التصبيغ (مثل `H`&`E`)."
+   }
+  ]
+ }
+}

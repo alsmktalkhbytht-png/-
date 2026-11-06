@@ -70,6 +70,7 @@
 - [[Code/hl7 - l7new.py|hl7/l7new.py]] → hematology-lec7-chronic-sideroblastic
 - [[Code/hl8 - l8.py|hl8/l8.py]] → hematology-lec8-macrocytic
 - [[Code/hl9 - l9.py|hl9/l9.py]] → hematology-lec9-hemolytic
+- [[Code/hp4 - h4.py|hp4/h4.py]] → histopathology-lab4-microtome
 - [[Code/hp5 - h5.py|hp5/h5.py]] → histopathology-lab5-staining-theory
 - [[Code/hp6 - h6.py|hp6/h6.py]] → histopathology-lab6-he-stain
 - [[Code/im2 - l2.py|im2/l2.py]] → immunology-lec2-cells-organs
