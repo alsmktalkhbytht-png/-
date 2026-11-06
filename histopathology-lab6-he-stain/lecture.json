@@ -1,0 +1,1436 @@
+{
+ "meta": {
+  "subject_en": "Histopathology",
+  "subject_ar": "علم الأمراض النسيجية",
+  "short_ar": "انسجة",
+  "instructor": "م.م. آية وسمي",
+  "unit_en": "Lab 6",
+  "unit_ar": "العملي 6",
+  "unit_label": "LAB",
+  "unit_no": "6",
+  "title_en": "The hematoxylins and eosin",
+  "title_ar": "الهيماتوكسلين والإيوسين",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "H&E staining",
+   "ar": "التصبيغ بالهيماتوكسلين والإيوسين"
+  },
+  {
+   "t": "note",
+   "en": "By: M.S.C AYA WESMII",
+   "ar": "إعداد: م.م. آية وسمي",
+   "label": [
+    "Lab sheet",
+    "ورقة العملي"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Why We Stain?",
+   "ar": "لماذا نصبغ؟"
+  },
+  {
+   "t": "card",
+   "en": [
+    "The full term is **Hematoxylin and Eosin (H&E) staining**.",
+    "It is the **gold standard** for histological examination, used to visualize tissue structure under a microscope.",
+    "**Over 80%** of all tissue diagnostics start with an H&E stain."
+   ],
+   "ar": [
+    "الاسم الكامل هو **التصبيغ بالهيماتوكسلين والإيوسين (`H&E`)**.",
+    "وهو **المعيار الذهبي** للفحص النسيجي، ويُستعمل لإظهار بنية النسيج تحت المجهر.",
+    "و**أكثر من 80%** من كل التشخيصات النسيجية تبدأ بصبغة `H&E`."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/stain-collage.png",
+   "en": "Tissues stained with H&E",
+   "ar": "أنسجة مصبوغة بـ `H&E`",
+   "h": "38mm"
+  },
+  {
+   "t": "section",
+   "en": "A. Hematoxylin",
+   "ar": "أ. الهيماتوكسلين"
+  },
+  {
+   "t": "card",
+   "en": [
+    "A **basic dye** derived from the **logwood tree** (__Haematoxylum campechianum__).",
+    "**What it stains**: Acidic (acidophilic) structures.",
+    "**Color**: Stains them a **bluish-purple or dark blue**."
+   ],
+   "ar": [
+    "**صبغة قاعدية** مستخلصة من **شجرة البقّم (خشب الكامبيش)** (`__Haematoxylum campechianum__`).",
+    "**ماذا تصبغ**: التراكيب الحامضية (المحبّة للحامض).",
+    "**اللون**: تصبغها **بنفسجيًا مزرقًّا أو أزرق داكنًا**."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/hematoxylin-bottle.png",
+     "en": "Hematoxylin stain bottle",
+     "ar": "قنينة صبغة الهيماتوكسلين",
+     "h": "40mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/hematoxylin-section.png",
+     "en": "Nuclei stained blue-purple by hematoxylin",
+     "ar": "أنوية مصبوغة بنفسجيًا مزرقًّا بالهيماتوكسلين",
+     "h": "40mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Targets:**",
+   "ar": "**الأهداف:**",
+   "list_en": [
+    "**Cell Nucleus** (because DNA/RNA is acidic)",
+    "**Rough Endoplasmic Reticulum**",
+    "**Cartilage**"
+   ],
+   "list_ar": [
+    "**نواة الخلية** (لأن `DNA/RNA` حامضي)",
+    "**الشبكة الإندوبلازمية الخشنة**",
+    "**الغضروف**"
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/rer.png",
+     "en": "Rough Endoplasmic Reticulum with ribosomes",
+     "ar": "الشبكة الإندوبلازمية الخشنة مع الرايبوسومات",
+     "h": "36mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/knee-cartilage.png",
+     "en": "KNEE JOINT — Articular Cartilage",
+     "ar": "مفصل الركبة — الغضروف المفصلي",
+     "h": "36mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Hematoxylin stains **acidic** structures, but these are called **basophilic** (they love the **basic** dye) — not \"acidophilic\" as written on the slide.",
+    "Likewise eosin stains **basic** structures, which are called **acidophilic / eosinophilic** — not \"basophilic\"."
+   ],
+   "ar": [
+    "الهيماتوكسلين يصبغ التراكيب **الحامضية**، لكنها تُسمّى **محبّة للقاعدة `(basophilic)`** (لأنها تحبّ الصبغة **القاعدية**) — لا \"`acidophilic`\" كما كُتب في الشريحة.",
+    "وبالمثل الإيوسين يصبغ التراكيب **القاعدية** التي تُسمّى **محبّة للحامض/للإيوسين `(acidophilic / eosinophilic)`** — لا \"`basophilic`\"."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة `BIOS`"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Hematoxylin = **basic dye** from the **logwood tree**; colour **blue-purple / dark blue**.",
+    "Targets: **nucleus** (acidic DNA/RNA), **RER**, **cartilage**."
+   ],
+   "ar": [
+    "الهيماتوكسلين = **صبغة قاعدية** من **شجرة البقّم**؛ لونها **بنفسجي مزرق / أزرق داكن**.",
+    "أهدافه: **النواة** (`DNA/RNA` حامضي)، و**الشبكة الإندوبلازمية الخشنة**، و**الغضروف**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "2. Eosin",
+   "ar": "2. الإيوسين"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**What it stains**: Basic (basophilic) structures.",
+    "**Color**: Stains them shades of **pink, red, or orange**."
+   ],
+   "ar": [
+    "**ماذا يصبغ**: التراكيب القاعدية (المحبّة للقاعدة).",
+    "**اللون**: يصبغها بدرجات من **الوردي أو الأحمر أو البرتقالي**."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/eosin-bottle.png",
+     "en": "Eosin Y stain bottle",
+     "ar": "قنينة صبغة الإيوسين `Y`",
+     "h": "40mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/eosin-section.png",
+     "en": "Cytoplasm stained pink by eosin",
+     "ar": "سايتوبلازم مصبوغ بالوردي بالإيوسين",
+     "h": "40mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Targets:**",
+   "ar": "**الأهداف:**",
+   "list_en": [
+    "**Cytoplasm**",
+    "**Muscle fibers**",
+    "**Collagen**",
+    "**Red blood cells**",
+    "**Keratin**"
+   ],
+   "list_ar": [
+    "**السايتوبلازم**",
+    "**الألياف العضلية**",
+    "**الكولاجين**",
+    "**كريات الدم الحمر**",
+    "**الكيراتين**"
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/cytoplasm-cells.png",
+     "en": "Cytoplasm — Plant Cell and Animal Cell",
+     "ar": "السايتوبلازم — خلية نباتية وخلية حيوانية",
+     "h": "34mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/muscle-bundle.png",
+     "en": "Muscle fibers",
+     "ar": "الألياف العضلية",
+     "h": "34mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/collagen.png",
+     "en": "Collagen (triple helix and fibrils)",
+     "ar": "الكولاجين (اللولب الثلاثي والليفات)",
+     "h": "34mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/rbc.png",
+     "en": "Red blood cells",
+     "ar": "كريات الدم الحمر",
+     "h": "34mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/keratin-hair.png",
+   "en": "Keratin (hair)",
+   "ar": "الكيراتين (الشعر)",
+   "h": "34mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Point",
+     "وجه المقارنة"
+    ],
+    [
+     "Hematoxylin",
+     "الهيماتوكسلين"
+    ],
+    [
+     "Eosin",
+     "الإيوسين"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Dye type**",
+      "**نوع الصبغة**"
+     ],
+     [
+      "basic (from logwood tree)",
+      "قاعدية (من شجرة البقّم)"
+     ],
+     [
+      "acidic",
+      "حامضية"
+     ]
+    ],
+    [
+     [
+      "**Stains**",
+      "**تصبغ**"
+     ],
+     [
+      "acidic structures (basophilic)",
+      "التراكيب الحامضية (محبّة للقاعدة)"
+     ],
+     [
+      "basic structures (acidophilic)",
+      "التراكيب القاعدية (محبّة للحامض)"
+     ]
+    ],
+    [
+     [
+      "**Colour**",
+      "**اللون**"
+     ],
+     [
+      "bluish-purple / dark blue",
+      "بنفسجي مزرق / أزرق داكن"
+     ],
+     [
+      "pink / red / orange",
+      "وردي / أحمر / برتقالي"
+     ]
+    ],
+    [
+     [
+      "**Targets**",
+      "**الأهداف**"
+     ],
+     [
+      "nucleus, RER, cartilage",
+      "النواة، والشبكة الإندوبلازمية الخشنة، والغضروف"
+     ],
+     [
+      "cytoplasm, muscle, collagen, RBCs, keratin",
+      "السايتوبلازم، والعضلات، والكولاجين، وكريات الدم الحمر، والكيراتين"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    39,
+    39
+   ],
+   "style": "summary",
+   "label_en": "BIOS: hematoxylin vs eosin",
+   "label_ar": "`BIOS`: الهيماتوكسلين مقابل الإيوسين"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Eosin colours **pink, red or orange**.",
+    "Targets: **cytoplasm, muscle fibers, collagen, RBCs, keratin**."
+   ],
+   "ar": [
+    "الإيوسين يلوّن **وردي أو أحمر أو برتقالي**.",
+    "أهدافه: **السايتوبلازم، والألياف العضلية، والكولاجين، وكريات الدم الحمر، والكيراتين**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "The Staining Process",
+   "ar": "خطوات التصبيغ"
+  },
+  {
+   "t": "card",
+   "en": "**1- Tissue Preparation**: A thin slice of tissue (a \"section\") is mounted on a glass slide.",
+   "ar": "**1. تحضير النسيج**: توضع شريحة رقيقة من النسيج (\"مقطع\") على شريحة زجاجية."
+  },
+  {
+   "t": "figure",
+   "src": "assets/section-on-slide.png",
+   "en": "A tissue section is placed on the glass slide",
+   "ar": "وضع المقطع النسيجي على الشريحة الزجاجية",
+   "h": "38mm"
+  },
+  {
+   "t": "card",
+   "en": "**2- Hematoxylin**: The slide is immersed in hematoxylin, which stains the **nuclei dark blue**.",
+   "ar": "**2. الهيماتوكسلين**: تُغمر الشريحة في الهيماتوكسلين الذي يصبغ **الأنوية بالأزرق الداكن**."
+  },
+  {
+   "t": "figure",
+   "src": "assets/hematoxylin-immersion.png",
+   "en": "Slides immersed in the staining dish",
+   "ar": "غمر الشرائح في وعاء الصبغة",
+   "h": "40mm"
+  },
+  {
+   "t": "card",
+   "en": "**3- Rinsing**: Excess dye is washed off.",
+   "ar": "**3. الشطف**: تُغسل الصبغة الزائدة."
+  },
+  {
+   "t": "figure",
+   "src": "assets/rinsing-scheme.png",
+   "en": "Scheme of picking up sections, staining and washing with distilled water",
+   "ar": "مخطّط التقاط المقاطع وتصبيغها وغسلها بالماء المقطّر",
+   "h": "50mm"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**4- \"Bluing\"**: The section is placed in a **weak alkaline solution** (like **ammonia water** or **Scott's tap water**) to turn the hematoxylin a **permanent, crisp blue** color."
+   ],
+   "ar": [
+    "**4. \"التزريق\" (الإزراق)**: يوضع المقطع في **محلول قاعدي ضعيف** (مثل **ماء الأمونيا** أو **ماء سكوت**) لتحويل الهيماتوكسلين إلى لون **أزرق واضح ودائم**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/nuclei-blue.png",
+   "en": "After bluing: nuclei crisp blue (arrow)",
+   "ar": "بعد الإزراق: الأنوية زرقاء واضحة (السهم)",
+   "h": "40mm"
+  },
+  {
+   "t": "card",
+   "en": "**B. Eosin**: The slide is then immersed in **eosin**, which stains the **cytoplasmic and extracellular components pink**.",
+   "ar": "**ب. الإيوسين**: ثم تُغمر الشريحة في **الإيوسين** الذي يصبغ **المكوّنات السايتوبلازمية وخارج الخلوية بالوردي**."
+  },
+  {
+   "t": "figure",
+   "src": "assets/eosin-glomerulus.png",
+   "en": "After eosin: cytoplasm and connective tissue pink (kidney glomerulus)",
+   "ar": "بعد الإيوسين: السايتوبلازم والنسيج الضامّ وردي (كبيبة الكلية)",
+   "h": "40mm"
+  },
+  {
+   "t": "card",
+   "en": "**Dehydration & Mounting**: The slide is **dehydrated through alcohols**, **cleared**, and **sealed with a coverslip** for preservation.",
+   "ar": "**نزع الماء والتحميل**: تُنزع المياه من الشريحة **بسلسلة من الكحولات**، ثم **تُروَّق**، و**تُغطّى بساترة** للحفظ."
+  },
+  {
+   "t": "figure",
+   "src": "assets/coverslip.png",
+   "en": "Mounting with a coverslip",
+   "ar": "التحميل بالساترة",
+   "h": "36mm"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Section on slide",
+     "ar": "مقطع على الشريحة"
+    },
+    {
+     "en": "Hematoxylin",
+     "ar": "الهيماتوكسلين"
+    },
+    {
+     "en": "Rinse",
+     "ar": "شطف"
+    },
+    {
+     "en": "Bluing (alkaline)",
+     "ar": "إزراق (قاعدي)"
+    },
+    {
+     "en": "Eosin",
+     "ar": "الإيوسين"
+    },
+    {
+     "en": "Dehydrate, clear, mount",
+     "ar": "نزع الماء، ترويق، تحميل"
+    }
+   ],
+   "en": "H&E in order",
+   "ar": "`H`&`E` بالترتيب"
+  },
+  {
+   "t": "note",
+   "en": "Clearing is usually done with **xylene**, and the coverslip is fixed with a mounting medium (e.g. DPX); in many labs a quick **acid-alcohol differentiation** removes excess hematoxylin before bluing.",
+   "ar": "يُجرى الترويق عادةً بـ**الزايلين**، وتُثبّت الساترة بوسط تحميل (مثل `DPX`)؛ وفي مختبرات كثيرة يُستعمل **تمييز سريع بالكحول الحامضي** لإزالة الهيماتوكسلين الزائد قبل الإزراق.",
+   "label": [
+    "BIOS note",
+    "ملاحظة `BIOS`"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Order: **section → hematoxylin → rinse → bluing → eosin → dehydrate, clear, mount**.",
+    "**Bluing** = weak alkali (**ammonia water / Scott's tap water**) → permanent crisp blue."
+   ],
+   "ar": [
+    "الترتيب: **مقطع ← هيماتوكسلين ← شطف ← إزراق ← إيوسين ← نزع الماء والترويق والتحميل**.",
+    "**الإزراق** = قاعدي ضعيف (**ماء الأمونيا / ماء سكوت**) ← أزرق دائم واضح."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "The Final Result",
+   "ar": "النتيجة النهائية"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**The Final Result: A Diagnostic Picture**"
+   ],
+   "ar": [
+    "**النتيجة النهائية: صورة تشخيصية**"
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "card",
+   "en": [
+    "Under the microscope, an H&E-stained slide provides a classic and highly informative **color contrast**:"
+   ],
+   "ar": [
+    "تحت المجهر تعطي الشريحة المصبوغة بـ `H&E` **تباينًا لونيًا** تقليديًا وغنيًا بالمعلومات:"
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Nuclei**: Dark Blue/Purple",
+    "**Cytoplasm & Connective Tissue**: Pink",
+    "**Muscle Fibers**: Deeper Pink",
+    "**Red Blood Cells**: Bright Orange/Red"
+   ],
+   "list_ar": [
+    "**الأنوية**: أزرق داكن/بنفسجي",
+    "**السايتوبلازم والنسيج الضامّ**: وردي",
+    "**الألياف العضلية**: وردي أغمق",
+    "**كريات الدم الحمر**: برتقالي/أحمر لامع"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/muscle-pink.png",
+   "en": "Muscle Fibers: Deeper Pink",
+   "ar": "الألياف العضلية: وردي أغمق",
+   "h": "40mm"
+  },
+  {
+   "t": "note",
+   "en": "The pictures on the result slides are the same ones shown above: nuclei (after bluing), cytoplasm & connective tissue (kidney glomerulus), and red blood cells.",
+   "ar": "صور شرائح النتيجة هي نفسها المعروضة أعلاه: الأنوية (بعد الإزراق)، والسايتوبلازم والنسيج الضامّ (كبيبة الكلية)، وكريات الدم الحمر.",
+   "label": [
+    "BIOS note",
+    "ملاحظة `BIOS`"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Structure",
+     "التركيب"
+    ],
+    [
+     "H&E colour",
+     "اللون في `H`&`E`"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Nuclei**",
+      "**الأنوية**"
+     ],
+     [
+      "dark blue / purple",
+      "أزرق داكن / بنفسجي"
+     ]
+    ],
+    [
+     [
+      "**Cytoplasm & connective tissue**",
+      "**السايتوبلازم والنسيج الضامّ**"
+     ],
+     [
+      "pink",
+      "وردي"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    50,
+    50
+   ],
+   "style": "summary",
+   "label_en": "Colours to remember",
+   "label_ar": "ألوان للحفظ",
+   "_ff": 2
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Structure",
+     "التركيب"
+    ],
+    [
+     "H&E colour",
+     "اللون في `H`&`E`"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Muscle fibers**",
+      "**الألياف العضلية**"
+     ],
+     [
+      "deeper pink",
+      "وردي أغمق"
+     ]
+    ],
+    [
+     [
+      "**Red blood cells**",
+      "**كريات الدم الحمر**"
+     ],
+     [
+      "bright orange / red",
+      "برتقالي / أحمر لامع"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    50,
+    50
+   ],
+   "style": "summary",
+   "label_en": "Colours to remember (continued)",
+   "label_ar": "ألوان للحفظ (تكملة)",
+   "_ff": 2
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Hematoxylin and eosin (H&E)**",
+     "الهيماتوكسلين والإيوسين"
+    ],
+    [
+     "**Gold standard**",
+     "المعيار الذهبي"
+    ],
+    [
+     "**Logwood tree (Haematoxylum campechianum)**",
+     "شجرة البقّم / خشب الكامبيش"
+    ],
+    [
+     "**Basic dye / acidic dye**",
+     "صبغة قاعدية / صبغة حامضية"
+    ],
+    [
+     "**Basophilic / acidophilic (eosinophilic)**",
+     "محبّ للقاعدة / محبّ للحامض (للإيوسين)"
+    ],
+    [
+     "**Rough endoplasmic reticulum**",
+     "الشبكة الإندوبلازمية الخشنة"
+    ],
+    [
+     "**Cartilage**",
+     "الغضروف"
+    ],
+    [
+     "**Keratin**",
+     "الكيراتين"
+    ],
+    [
+     "**Section**",
+     "المقطع النسيجي"
+    ],
+    [
+     "**Rinsing**",
+     "الشطف / الغسل"
+    ],
+    [
+     "**Bluing**",
+     "الإزراق / التزريق"
+    ],
+    [
+     "**Scott's tap water**",
+     "ماء سكوت (محلول الإزراق)"
+    ],
+    [
+     "**Dehydration**",
+     "نزع الماء"
+    ],
+    [
+     "**Clearing**",
+     "الترويق"
+    ],
+    [
+     "**Mounting / coverslip**",
+     "التحميل / الساترة (غطاء الشريحة)"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "H&E, hematoxylin and eosin",
+    "topic_ar": "H&E والهيماتوكسلين والإيوسين"
+   },
+   {
+    "en": "H&E staining is described as:",
+    "ar": "يُوصف التصبيغ بـ `H`&`E` بأنه:",
+    "options": [
+     [
+      "A rarely used stain",
+      "صبغة نادرة الاستعمال"
+     ],
+     [
+      "A special stain for fat",
+      "صبغة خاصة للدهون"
+     ],
+     [
+      "A stain for bacteria only",
+      "صبغة للبكتيريا فقط"
+     ],
+     [
+      "The gold standard for histological examination",
+      "المعيار الذهبي للفحص النسيجي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "What percentage of tissue diagnostics start with an H&E stain?",
+    "ar": "ما نسبة التشخيصات النسيجية التي تبدأ بـ `H`&`E`؟",
+    "options": [
+     [
+      "Under 20%",
+      "أقل من 20%"
+     ],
+     [
+      "About 50%",
+      "نحو 50%"
+     ],
+     [
+      "Over 80%",
+      "أكثر من 80%"
+     ],
+     [
+      "10%",
+      "10%"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Hematoxylin is derived from:",
+    "ar": "يُستخلص الهيماتوكسلين من:",
+    "options": [
+     [
+      "Sea water",
+      "ماء البحر"
+     ],
+     [
+      "The logwood tree",
+      "شجرة البقّم"
+     ],
+     [
+      "Bacteria",
+      "البكتيريا"
+     ],
+     [
+      "Petroleum",
+      "النفط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Hematoxylin is a:",
+    "ar": "الهيماتوكسلين:",
+    "options": [
+     [
+      "Basic dye",
+      "صبغة قاعدية"
+     ],
+     [
+      "Metal salt",
+      "ملح معدني"
+     ],
+     [
+      "Fixative",
+      "مثبّت نسيجي"
+     ],
+     [
+      "Acidic dye",
+      "صبغة حامضية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Hematoxylin colours its targets:",
+    "ar": "يلوّن الهيماتوكسلين أهدافه بـ:",
+    "options": [
+     [
+      "Bluish-purple or dark blue",
+      "بنفسجي مزرق أو أزرق داكن"
+     ],
+     [
+      "Pink",
+      "وردي"
+     ],
+     [
+      "Orange",
+      "برتقالي"
+     ],
+     [
+      "Yellow",
+      "أصفر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which is a target of hematoxylin?",
+    "ar": "أيّها من أهداف الهيماتوكسلين؟",
+    "options": [
+     [
+      "Keratin",
+      "الكيراتين"
+     ],
+     [
+      "Collagen",
+      "الكولاجين"
+     ],
+     [
+      "Cartilage",
+      "الغضروف"
+     ],
+     [
+      "Red blood cells",
+      "كريات الدم الحمر"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The nucleus takes hematoxylin because:",
+    "ar": "تأخذ النواة الهيماتوكسلين لأن:",
+    "options": [
+     [
+      "It has keratin",
+      "فيها كيراتين"
+     ],
+     [
+      "It is basic",
+      "قاعدية"
+     ],
+     [
+      "It has collagen",
+      "فيها كولاجين"
+     ],
+     [
+      "DNA/RNA is acidic",
+      "`DNA/RNA` حامضي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Eosin colours its targets:",
+    "ar": "يلوّن الإيوسين أهدافه بـ:",
+    "options": [
+     [
+      "Dark blue",
+      "أزرق داكن"
+     ],
+     [
+      "Pink, red or orange",
+      "وردي أو أحمر أو برتقالي"
+     ],
+     [
+      "Green",
+      "أخضر"
+     ],
+     [
+      "Black",
+      "أسود"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which is NOT a target of eosin?",
+    "ar": "أيّها ليس من أهداف الإيوسين؟",
+    "options": [
+     [
+      "Cytoplasm",
+      "السايتوبلازم"
+     ],
+     [
+      "Cell nucleus",
+      "نواة الخلية"
+     ],
+     [
+      "Collagen",
+      "الكولاجين"
+     ],
+     [
+      "Keratin",
+      "الكيراتين"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Structures that take the basic dye hematoxylin are correctly called:",
+    "ar": "التراكيب التي تأخذ الصبغة القاعدية (الهيماتوكسلين) تُسمّى صحيحًا:",
+    "options": [
+     [
+      "Basophilic",
+      "محبّة للقاعدة"
+     ],
+     [
+      "Acidophilic",
+      "محبّة للحامض"
+     ],
+     [
+      "Eosinophilic",
+      "محبّة للإيوسين"
+     ],
+     [
+      "Neutrophilic",
+      "متعادلة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "The staining process",
+    "topic_ar": "خطوات التصبيغ"
+   },
+   {
+    "en": "The first step of the H&E process is:",
+    "ar": "الخطوة الأولى في `H`&`E`:",
+    "options": [
+     [
+      "Eosin",
+      "الإيوسين"
+     ],
+     [
+      "Bluing",
+      "الإزراق"
+     ],
+     [
+      "Mounting",
+      "التحميل"
+     ],
+     [
+      "Tissue preparation (section on a glass slide)",
+      "تحضير النسيج (مقطع على شريحة)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "After hematoxylin, excess dye is removed by:",
+    "ar": "بعد الهيماتوكسلين تُزال الصبغة الزائدة بـ:",
+    "options": [
+     [
+      "Eosin",
+      "الإيوسين"
+     ],
+     [
+      "Bluing",
+      "الإزراق"
+     ],
+     [
+      "Rinsing",
+      "الشطف"
+     ],
+     [
+      "Mounting",
+      "التحميل"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Bluing uses:",
+    "ar": "يستعمل الإزراق:",
+    "options": [
+     [
+      "Eosin",
+      "الإيوسين"
+     ],
+     [
+      "A strong acid",
+      "حامضًا قويًا"
+     ],
+     [
+      "A weak alkaline solution",
+      "محلولًا قاعديًا ضعيفًا"
+     ],
+     [
+      "Xylene only",
+      "الزايلين فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "An example of a bluing solution is:",
+    "ar": "مثال على محلول الإزراق:",
+    "options": [
+     [
+      "Picric acid",
+      "حامض البكريك"
+     ],
+     [
+      "Scott's tap water",
+      "ماء سكوت"
+     ],
+     [
+      "Formalin",
+      "الفورمالين"
+     ],
+     [
+      "Eosin Y",
+      "الإيوسين `Y`"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Bluing turns hematoxylin:",
+    "ar": "يحوّل الإزراق الهيماتوكسلين إلى:",
+    "options": [
+     [
+      "A permanent, crisp blue",
+      "أزرق دائم واضح"
+     ],
+     [
+      "Colorless",
+      "عديم اللون"
+     ],
+     [
+      "Pink",
+      "وردي"
+     ],
+     [
+      "Red",
+      "أحمر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Eosin stains the cytoplasmic and extracellular components:",
+    "ar": "يصبغ الإيوسين المكوّنات السايتوبلازمية وخارج الخلوية بالـ:",
+    "options": [
+     [
+      "Blue",
+      "أزرق"
+     ],
+     [
+      "Black",
+      "أسود"
+     ],
+     [
+      "Purple",
+      "بنفسجي"
+     ],
+     [
+      "Pink",
+      "وردي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Before sealing with a coverslip, the slide is:",
+    "ar": "قبل تغطيتها بالساترة تُ:",
+    "options": [
+     [
+      "Stained with Gram",
+      "تُصبغ بغرام"
+     ],
+     [
+      "Boiled",
+      "تُغلى"
+     ],
+     [
+      "Frozen",
+      "تُجمّد"
+     ],
+     [
+      "Dehydrated through alcohols and cleared",
+      "نُزع منها الماء بالكحولات وتُروَّق"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The correct order is:",
+    "ar": "الترتيب الصحيح:",
+    "options": [
+     [
+      "Hematoxylin → rinse → bluing → eosin",
+      "هيماتوكسلين ← شطف ← إزراق ← إيوسين"
+     ],
+     [
+      "Eosin → hematoxylin → bluing",
+      "إيوسين ← هيماتوكسلين ← إزراق"
+     ],
+     [
+      "Bluing → hematoxylin → eosin",
+      "إزراق ← هيماتوكسلين ← إيوسين"
+     ],
+     [
+      "Mounting → hematoxylin → eosin",
+      "تحميل ← هيماتوكسلين ← إيوسين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "The final result",
+    "topic_ar": "النتيجة النهائية"
+   },
+   {
+    "en": "In H&E, nuclei appear:",
+    "ar": "في `H`&`E` تظهر الأنوية:",
+    "options": [
+     [
+      "Pink",
+      "وردية"
+     ],
+     [
+      "Orange",
+      "برتقالية"
+     ],
+     [
+      "Dark blue/purple",
+      "زرقاء داكنة/بنفسجية"
+     ],
+     [
+      "Yellow",
+      "صفراء"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In H&E, muscle fibers appear:",
+    "ar": "في `H`&`E` تظهر الألياف العضلية:",
+    "options": [
+     [
+      "Dark blue",
+      "زرقاء داكنة"
+     ],
+     [
+      "Deeper pink",
+      "وردية أغمق"
+     ],
+     [
+      "Black",
+      "سوداء"
+     ],
+     [
+      "Colorless",
+      "عديمة اللون"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In H&E, red blood cells appear:",
+    "ar": "في `H`&`E` تظهر كريات الدم الحمر:",
+    "options": [
+     [
+      "Blue",
+      "زرقاء"
+     ],
+     [
+      "Bright orange/red",
+      "برتقالية/حمراء لامعة"
+     ],
+     [
+      "Purple",
+      "بنفسجية"
+     ],
+     [
+      "Green",
+      "خضراء"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Cytoplasm and connective tissue in H&E are:",
+    "ar": "السايتوبلازم والنسيج الضامّ في `H`&`E`:",
+    "options": [
+     [
+      "Pink",
+      "وردي"
+     ],
+     [
+      "Dark blue",
+      "أزرق داكن"
+     ],
+     [
+      "Black",
+      "أسود"
+     ],
+     [
+      "Magenta",
+      "أرجواني"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "This picture shows which hematoxylin target?",
+    "ar": "تُظهر هذه الصورة أيّ هدف للهيماتوكسلين؟",
+    "options": [
+     [
+      "Keratin",
+      "الكيراتين"
+     ],
+     [
+      "Red blood cells",
+      "كريات الدم الحمر"
+     ],
+     [
+      "Collagen",
+      "الكولاجين"
+     ],
+     [
+      "Articular cartilage",
+      "الغضروف المفصلي"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/knee-cartilage.png",
+    "img_h": "34mm"
+   },
+   {
+    "en": "The pink colour of this kidney section is given by:",
+    "ar": "اللون الوردي في مقطع الكلية هذا تعطيه:",
+    "options": [
+     [
+      "Hematoxylin",
+      "الهيماتوكسلين"
+     ],
+     [
+      "Scott's tap water",
+      "ماء سكوت"
+     ],
+     [
+      "Eosin",
+      "الإيوسين"
+     ],
+     [
+      "Silver",
+      "الفضّة"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/eosin-glomerulus.png",
+    "img_h": "34mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "H&E is the gold standard for histological examination.",
+    "ar": "`H`&`E` هي المعيار الذهبي للفحص النسيجي.",
+    "answer": "T"
+   },
+   {
+    "en": "Hematoxylin is an acidic dye.",
+    "ar": "الهيماتوكسلين صبغة حامضية.",
+    "answer": "F"
+   },
+   {
+    "en": "Hematoxylin is derived from the logwood tree.",
+    "ar": "يُستخلص الهيماتوكسلين من شجرة البقّم.",
+    "answer": "T"
+   },
+   {
+    "en": "Rough endoplasmic reticulum is a target of hematoxylin.",
+    "ar": "الشبكة الإندوبلازمية الخشنة من أهداف الهيماتوكسلين.",
+    "answer": "T"
+   },
+   {
+    "en": "Eosin stains the nucleus dark blue.",
+    "ar": "يصبغ الإيوسين النواة بالأزرق الداكن.",
+    "answer": "F"
+   },
+   {
+    "en": "Keratin is a target of eosin.",
+    "ar": "الكيراتين من أهداف الإيوسين.",
+    "answer": "T"
+   },
+   {
+    "en": "Bluing uses a weak alkaline solution such as ammonia water.",
+    "ar": "يستعمل الإزراق محلولًا قاعديًا ضعيفًا مثل ماء الأمونيا.",
+    "answer": "T"
+   },
+   {
+    "en": "Bluing is done after eosin.",
+    "ar": "يُجرى الإزراق بعد الإيوسين.",
+    "answer": "F"
+   },
+   {
+    "en": "Rinsing washes off excess dye.",
+    "ar": "يغسل الشطف الصبغة الزائدة.",
+    "answer": "T"
+   },
+   {
+    "en": "The slide is dehydrated through alcohols, cleared and sealed with a coverslip.",
+    "ar": "تُنزع المياه من الشريحة بالكحولات وتُروَّق وتُغطّى بساترة.",
+    "answer": "T"
+   },
+   {
+    "en": "In H&E, red blood cells appear dark blue.",
+    "ar": "في `H`&`E` تظهر كريات الدم الحمر زرقاء داكنة.",
+    "answer": "F"
+   },
+   {
+    "en": "Muscle fibers appear deeper pink than cytoplasm.",
+    "ar": "تظهر الألياف العضلية وردية أغمق من السايتوبلازم.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Basophilic vs acidophilic (the slide's wording)",
+    "ar": "محبّ للقاعدة مقابل محبّ للحامض (صياغة الشريحة)",
+    "answer_en": "Hematoxylin (basic) stains ACIDIC structures → called BASOPHILIC; eosin (acidic) stains BASIC structures → called ACIDOPHILIC/eosinophilic. The slides write the opposite words in brackets.",
+    "answer_ar": "الهيماتوكسلين (قاعدي) يصبغ التراكيب الحامضية ← تُسمّى محبّة للقاعدة؛ والإيوسين (حامضي) يصبغ التراكيب القاعدية ← تُسمّى محبّة للحامض/للإيوسين. والشرائح كتبت الكلمتين بالعكس بين القوسين."
+   },
+   {
+    "en": "Bluing comes before eosin",
+    "ar": "الإزراق قبل الإيوسين",
+    "answer_en": "Order: hematoxylin → rinse → BLUING → eosin → dehydrate/clear/mount.",
+    "answer_ar": "الترتيب: هيماتوكسلين ← شطف ← إزراق ← إيوسين ← نزع الماء/ترويق/تحميل."
+   },
+   {
+    "en": "Bluing solution is alkaline",
+    "ar": "محلول الإزراق قاعدي",
+    "answer_en": "Bluing = WEAK ALKALINE (ammonia water, Scott's tap water) — not acid.",
+    "answer_ar": "الإزراق = قاعدي ضعيف (ماء الأمونيا، ماء سكوت) — لا حامض."
+   },
+   {
+    "en": "Cartilage colour",
+    "ar": "لون الغضروف",
+    "answer_en": "Cartilage matrix is a HEMATOXYLIN target (blue), while collagen is an EOSIN target (pink).",
+    "answer_ar": "حشوة الغضروف من أهداف الهيماتوكسلين (أزرق)، بينما الكولاجين من أهداف الإيوسين (وردي)."
+   },
+   {
+    "en": "Two shades of pink",
+    "ar": "درجتان من الوردي",
+    "answer_en": "Cytoplasm & connective tissue = pink; muscle fibers = DEEPER pink; RBCs = bright orange/red.",
+    "answer_ar": "السايتوبلازم والنسيج الضامّ = وردي؛ والألياف العضلية = وردي أغمق؛ وكريات الدم الحمر = برتقالي/أحمر لامع."
+   },
+   {
+    "en": "RER is blue",
+    "ar": "الشبكة الإندوبلازمية الخشنة زرقاء",
+    "answer_en": "RER (ribosomes, RNA) is a hematoxylin target, even though it is in the cytoplasm.",
+    "answer_ar": "الشبكة الإندوبلازمية الخشنة (رايبوسومات، `RNA`) من أهداف الهيماتوكسلين مع أنها في السايتوبلازم."
+   }
+  ],
+  "important": [
+   {
+    "en": "What is H&E staining and why is it important?",
+    "ar": "ما التصبيغ بـ `H`&`E` ولماذا هو مهم؟",
+    "answer_en": "Hematoxylin and Eosin staining — the gold standard for histological examination, used to visualize tissue structure under a microscope; over 80% of all tissue diagnostics start with an H&E stain.",
+    "answer_ar": "التصبيغ بالهيماتوكسلين والإيوسين — المعيار الذهبي للفحص النسيجي، ويُستعمل لإظهار بنية النسيج تحت المجهر؛ وأكثر من 80% من التشخيصات النسيجية تبدأ به."
+   },
+   {
+    "en": "Compare hematoxylin and eosin (type, what they stain, colour, targets).",
+    "ar": "قارن بين الهيماتوكسلين والإيوسين (النوع، وما تصبغ، واللون، والأهداف).",
+    "answer_en": "Hematoxylin: basic dye from the logwood tree; stains acidic structures bluish-purple/dark blue; targets nucleus (acidic DNA/RNA), RER, cartilage. Eosin: acidic dye; stains basic structures pink/red/orange; targets cytoplasm, muscle fibers, collagen, RBCs, keratin.",
+    "answer_ar": "الهيماتوكسلين: صبغة قاعدية من شجرة البقّم؛ تصبغ التراكيب الحامضية بنفسجيًا مزرقًّا/أزرق داكنًا؛ أهدافها النواة (`DNA/RNA` حامضي) والشبكة الإندوبلازمية الخشنة والغضروف. الإيوسين: صبغة حامضية؛ تصبغ التراكيب القاعدية وردي/أحمر/برتقالي؛ أهدافها السايتوبلازم والألياف العضلية والكولاجين وكريات الدم الحمر والكيراتين."
+   },
+   {
+    "en": "Describe the H&E staining process.",
+    "ar": "صف خطوات التصبيغ بـ `H`&`E`.",
+    "answer_en": "1. Tissue preparation: thin section mounted on a glass slide. 2. Hematoxylin: nuclei dark blue. 3. Rinsing: excess dye washed off. 4. Bluing: weak alkaline solution (ammonia water or Scott's tap water) → permanent crisp blue. Eosin: cytoplasmic and extracellular components pink. Dehydration through alcohols, clearing and mounting with a coverslip.",
+    "answer_ar": "1. تحضير النسيج: مقطع رقيق على شريحة زجاجية. 2. الهيماتوكسلين: الأنوية زرقاء داكنة. 3. الشطف: غسل الصبغة الزائدة. 4. الإزراق: محلول قاعدي ضعيف (ماء الأمونيا أو ماء سكوت) ← أزرق دائم واضح. الإيوسين: المكوّنات السايتوبلازمية وخارج الخلوية وردية. نزع الماء بالكحولات والترويق والتحميل بالساترة."
+   },
+   {
+    "en": "What is bluing and why is it done?",
+    "ar": "ما الإزراق ولماذا يُجرى؟",
+    "answer_en": "Placing the section in a weak alkaline solution (ammonia water or Scott's tap water) after hematoxylin and rinsing, to turn the hematoxylin a permanent, crisp blue colour.",
+    "answer_ar": "وضع المقطع في محلول قاعدي ضعيف (ماء الأمونيا أو ماء سكوت) بعد الهيماتوكسلين والشطف، لتحويل الهيماتوكسلين إلى لون أزرق دائم واضح."
+   },
+   {
+    "en": "Give the colour of each structure in an H&E-stained slide.",
+    "ar": "اذكر لون كل تركيب في شريحة مصبوغة بـ `H`&`E`.",
+    "answer_en": "Nuclei: dark blue/purple. Cytoplasm & connective tissue: pink. Muscle fibers: deeper pink. Red blood cells: bright orange/red.",
+    "answer_ar": "الأنوية: أزرق داكن/بنفسجي. السايتوبلازم والنسيج الضامّ: وردي. الألياف العضلية: وردي أغمق. كريات الدم الحمر: برتقالي/أحمر لامع."
+   }
+  ]
+ }
+}
