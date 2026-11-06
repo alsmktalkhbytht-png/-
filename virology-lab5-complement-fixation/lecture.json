@@ -22,7 +22,7 @@
   {
    "t": "card",
    "en": "The **complement fixation test (CFT)** is a **serological test** used to detect the presence of **specific antibodies or antigens** in a patient's serum.",
-   "ar": "**اختبار تثبيت المتمّم (CFT)** **فحص مصلي** يُستعمل للكشف عن وجود **أضداد أو مستضدّات نوعية** في مصل المريض."
+   "ar": "**اختبار تثبيت المتمّم `(CFT)`** **فحص مصلي** يُستعمل للكشف عن وجود **أضداد أو مستضدّات نوعية** في مصل المريض."
   },
   {
    "t": "card",
@@ -42,13 +42,13 @@
    ],
    "ar": [
     "**المتمّم** **بروتين (غلوبيولين)** موجود في **المصل الطبيعي** ويوجد بأنواع كثيرة.",
-    "وعندما **يرتبط المستضدّ (Ag) بالضدّ (Ab) على سطح الخلية** يسبّب المتمّم **تحلّل الخلية**."
+    "وعندما **يرتبط المستضدّ `(Ag)` بالضدّ `(Ab)` على سطح الخلية** يسبّب المتمّم **تحلّل الخلية**."
    ]
   },
   {
    "t": "card",
    "en": "The CFT has been used in the diagnosis of various viral infections, including: **Influenza, Measles, Mumps, Rubella, Herpes simplex virus, Cytomegalovirus**.",
-   "ar": "استُعمل CFT في تشخيص إصابات فيروسية مختلفة، منها: **الإنفلونزا، والحصبة، والنكاف (أبو كعب)، والحصبة الألمانية، وفيروس الحلأ البسيط (الهربس البسيط)، والفيروس المضخّم للخلايا**."
+   "ar": "استُعمل `CFT` في تشخيص إصابات فيروسية مختلفة، منها: **الإنفلونزا، والحصبة، والنكاف (أبو كعب)، والحصبة الألمانية، وفيروس الحلأ البسيط (الهربس البسيط)، والفيروس المضخّم للخلايا**."
   },
   {
    "t": "note",
@@ -58,9 +58,9 @@
     "Used for influenza, measles, mumps, rubella, HSV, CMV."
    ],
    "ar": [
-    "**CFT** = فحص مصلي **للأضداد أو المستضدّات** في المصل؛ والمتمّم **يُستهلك** بتفاعل المستضدّ-الضدّ.",
+    "**`CFT`** = فحص مصلي **للأضداد أو المستضدّات** في المصل؛ والمتمّم **يُستهلك** بتفاعل المستضدّ-الضدّ.",
     "**المتمّم** = بروتين **غلوبيولين** مصلي ← يحلّل الخلايا الحاملة لمعقّدات المستضدّ-الضدّ.",
-    "يُستعمل للإنفلونزا والحصبة والنكاف والحصبة الألمانية والهربس البسيط وCMV."
+    "يُستعمل للإنفلونزا والحصبة والنكاف والحصبة الألمانية والهربس البسيط و`CMV`."
    ],
    "label": [
     "In short",
@@ -122,7 +122,7 @@
     "Incubate at **37°C for another 30 minutes**."
    ],
    "list_ar": [
-    "أضف **كريات دم حمر للأغنام (SRBCs) مُحسَّسة بالهيمولايسين (الحالّ الدموي)**.",
+    "أضف **كريات دم حمر للأغنام `(SRBCs)` مُحسَّسة بالهيمولايسين (الحالّ الدموي)**.",
     "احضن عند **37°م لمدة 30 دقيقة أخرى**."
    ]
   },
@@ -249,7 +249,7 @@
     }
    ],
    "en": "CFT in steps",
-   "ar": "CFT بالخطوات"
+   "ar": "`CFT` بالخطوات"
   },
   {
    "t": "note",
@@ -276,7 +276,7 @@
   {
    "t": "h2",
    "en": "Advantages of CFT",
-   "ar": "مزايا CFT"
+   "ar": "مزايا `CFT`"
   },
   {
    "t": "card",
@@ -294,7 +294,7 @@
   {
    "t": "h2",
    "en": "Disadvantages of CFT",
-   "ar": "عيوب CFT"
+   "ar": "عيوب `CFT`"
   },
   {
    "t": "card",
@@ -314,10 +314,10 @@
   {
    "t": "note",
    "en": "Cross-reactivity is listed here as a disadvantage, so the answer of True/False question 10 at the end of the lab sheet (cross-reactivity as a disadvantage of CFT) should be **T**, not F; the question bank uses T.",
-   "ar": "التفاعل المتصالب مذكور هنا من العيوب، لذلك سؤال الصح والخطأ رقم 10 في آخر ورقة العملي (التفاعل المتصالب من عيوب CFT) جوابه الصحيح **صح (T)**؛ واعتمدنا صح في بنك الأسئلة.",
+   "ar": "التفاعل المتصالب مذكور هنا من العيوب، لذلك سؤال الصح والخطأ رقم 10 في آخر ورقة العملي (التفاعل المتصالب من عيوب `CFT`) جوابه الصحيح **صح `(T)`**؛ واعتمدنا صح في بنك الأسئلة.",
    "label": [
     "BIOS note",
-    "ملاحظة BIOS"
+    "ملاحظة `BIOS`"
    ]
   },
   {
@@ -357,7 +357,27 @@
     [
      "**Complement**",
      "المتمّم / المُكمِّل"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
     ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
     [
      "**Serological test**",
      "فحص مصلي"
@@ -381,7 +401,8 @@
    "widths": [
     36,
     64
-   ]
+   ],
+   "_ff": 1
   },
   {
    "t": "table",
@@ -478,7 +499,7 @@
    },
    {
     "en": "The complement fixation test (CFT) is mainly used to detect:",
-    "ar": "يُستعمل اختبار تثبيت المتمّم (CFT) أساسًا للكشف عن:",
+    "ar": "يُستعمل اختبار تثبيت المتمّم `(CFT)` أساسًا للكشف عن:",
     "options": [
      [
       "Bacterial spores",
@@ -559,7 +580,7 @@
    },
    {
     "en": "Before performing CFT, patient serum is heat-inactivated at:",
-    "ar": "قبل إجراء CFT يُثبَّط مصل المريض بالحرارة عند:",
+    "ar": "قبل إجراء `CFT` يُثبَّط مصل المريض بالحرارة عند:",
     "options": [
      [
       "25°C for 10 minutes",
@@ -640,7 +661,7 @@
    },
    {
     "en": "Which cells are used in the CFT indicator system:",
-    "ar": "أي خلايا تُستعمل في النظام الدالّ لـ CFT:",
+    "ar": "أي خلايا تُستعمل في النظام الدالّ لـ `CFT`:",
     "options": [
      [
       "Human white blood cells",
@@ -752,7 +773,7 @@
    },
    {
     "en": "The principle of CFT is that complement is:",
-    "ar": "مبدأ CFT أن المتمّم:",
+    "ar": "مبدأ `CFT` أن المتمّم:",
     "options": [
      [
       "Consumed in an antigen-antibody reaction",
@@ -775,7 +796,7 @@
    },
    {
     "en": "CFT is particularly useful for viral infections where:",
-    "ar": "يفيد CFT خصوصًا في الإصابات الفيروسية التي:",
+    "ar": "يفيد `CFT` خصوصًا في الإصابات الفيروسية التي:",
     "options": [
      [
       "Antibodies are absent",
@@ -798,7 +819,7 @@
    },
    {
     "en": "Which of the following is diagnosed by CFT according to the lab sheet?",
-    "ar": "أيّ ممّا يلي يُشخَّص بـ CFT حسب ورقة العملي؟",
+    "ar": "أيّ ممّا يلي يُشخَّص بـ `CFT` حسب ورقة العملي؟",
     "options": [
      [
       "Rabies",
@@ -844,7 +865,7 @@
    },
    {
     "en": "The incubation temperature in CFT after serum preparation is:",
-    "ar": "درجة الحضن في CFT بعد تحضير المصل:",
+    "ar": "درجة الحضن في `CFT` بعد تحضير المصل:",
     "options": [
      [
       "37°C",
@@ -867,7 +888,7 @@
    },
    {
     "en": "Sheep RBCs in CFT are sensitized with:",
-    "ar": "تُحسَّس كريات الأغنام في CFT بـ:",
+    "ar": "تُحسَّس كريات الأغنام في `CFT` بـ:",
     "options": [
      [
       "Complement",
@@ -915,7 +936,7 @@
    },
    {
     "en": "A negative CFT means:",
-    "ar": "CFT السالب يعني:",
+    "ar": "`CFT` السالب يعني:",
     "options": [
      [
       "Antibody present",
@@ -938,7 +959,7 @@
    },
    {
     "en": "An advantage of CFT is that it is:",
-    "ar": "من مزايا CFT أنه:",
+    "ar": "من مزايا `CFT` أنه:",
     "options": [
      [
       "Highly sensitive",
@@ -961,7 +982,7 @@
    },
    {
     "en": "CFT cannot be used for immunity screening because it is:",
-    "ar": "لا يُستعمل CFT لمسح المناعة لأنه:",
+    "ar": "لا يُستعمل `CFT` لمسح المناعة لأنه:",
     "options": [
      [
       "Too expensive",
@@ -996,7 +1017,7 @@
    },
    {
     "en": "Patient serum is heat-inactivated at 56°C for 30 minutes before CFT.",
-    "ar": "يُثبَّط مصل المريض بالحرارة عند 56°م لمدة 30 دقيقة قبل CFT.",
+    "ar": "يُثبَّط مصل المريض بالحرارة عند 56°م لمدة 30 دقيقة قبل `CFT`.",
     "answer": "T"
    },
    {
@@ -1016,7 +1037,7 @@
    },
    {
     "en": "A positive CFT result is indicated by hemolysis.",
-    "ar": "يُستدلّ على نتيجة CFT الموجبة بتحلّل الدم.",
+    "ar": "يُستدلّ على نتيجة `CFT` الموجبة بتحلّل الدم.",
     "answer": "F"
    },
    {
@@ -1026,17 +1047,17 @@
    },
    {
     "en": "CFT is highly sensitive and is ideal for immunity screening.",
-    "ar": "CFT عالي الحساسية ومثالي لمسح المناعة.",
+    "ar": "`CFT` عالي الحساسية ومثالي لمسح المناعة.",
     "answer": "F"
    },
    {
     "en": "Cross-reactivity is a disadvantage of CFT.",
-    "ar": "التفاعل المتصالب من عيوب CFT.",
+    "ar": "التفاعل المتصالب من عيوب `CFT`.",
     "answer": "T"
    },
    {
     "en": "CFT can screen for many viral and bacterial infections at the same time.",
-    "ar": "يستطيع CFT الكشف عن إصابات فيروسية وبكتيرية كثيرة في الوقت نفسه.",
+    "ar": "يستطيع `CFT` الكشف عن إصابات فيروسية وبكتيرية كثيرة في الوقت نفسه.",
     "answer": "T"
    },
    {
@@ -1050,7 +1071,7 @@
     "en": "Positive = no hemolysis",
     "ar": "الموجب = لا تحلّل",
     "answer_en": "In CFT the result is the opposite of what students expect: NO hemolysis = POSITIVE (complement used up by Ag–Ab); hemolysis = NEGATIVE.",
-    "answer_ar": "في CFT النتيجة عكس المتوقّع: لا تحلّل = موجب (المتمّم استُهلك بالمستضدّ-الضدّ)؛ والتحلّل = سالب."
+    "answer_ar": "في `CFT` النتيجة عكس المتوقّع: لا تحلّل = موجب (المتمّم استُهلك بالمستضدّ-الضدّ)؛ والتحلّل = سالب."
    },
    {
     "en": "56°C vs 37°C",
@@ -1080,7 +1101,7 @@
     "en": "TF 10 in the lab sheet",
     "ar": "سؤال صح وخطأ 10 في الورقة",
     "answer_en": "\"Cross-reactivity is a disadvantage of CFT\" is TRUE — the lab text lists it under disadvantages (the sheet's key shows F by mistake).",
-    "answer_ar": "\"التفاعل المتصالب من عيوب CFT\" صحيحة — فالنص يذكره ضمن العيوب (ومفتاح الورقة كتب F سهوًا)."
+    "answer_ar": "\"التفاعل المتصالب من عيوب `CFT`\" صحيحة — فالنص يذكره ضمن العيوب (ومفتاح الورقة كتب `F` سهوًا)."
    }
   ],
   "important": [
@@ -1088,23 +1109,23 @@
     "en": "What is the complement fixation test and what is its principle?",
     "ar": "ما اختبار تثبيت المتمّم وما مبدؤه؟",
     "answer_en": "A serological test that detects specific antibodies or antigens in a patient's serum. Principle: complement proteins are consumed (fixed) in an antigen-antibody reaction. Complement is a globulin protein of normal serum that lyses cells when Ag is complexed with Ab on their surface. Used for influenza, measles, mumps, rubella, HSV and CMV, especially when viral culture is difficult.",
-    "answer_ar": "فحص مصلي يكشف أضدادًا أو مستضدّات نوعية في مصل المريض. مبدؤه: تُستهلك (تُثبَّت) بروتينات المتمّم في تفاعل المستضدّ-الضدّ. والمتمّم بروتين غلوبيولين في المصل الطبيعي يحلّل الخلايا عند ارتباط المستضدّ بالضدّ على سطحها. ويُستعمل للإنفلونزا والحصبة والنكاف والحصبة الألمانية والهربس البسيط وCMV، خصوصًا عند صعوبة الزرع الفيروسي."
+    "answer_ar": "فحص مصلي يكشف أضدادًا أو مستضدّات نوعية في مصل المريض. مبدؤه: تُستهلك (تُثبَّت) بروتينات المتمّم في تفاعل المستضدّ-الضدّ. والمتمّم بروتين غلوبيولين في المصل الطبيعي يحلّل الخلايا عند ارتباط المستضدّ بالضدّ على سطحها. ويُستعمل للإنفلونزا والحصبة والنكاف والحصبة الألمانية والهربس البسيط و`CMV`، خصوصًا عند صعوبة الزرع الفيروسي."
    },
    {
     "en": "Describe the procedure of CFT.",
-    "ar": "صف طريقة عمل CFT.",
+    "ar": "صف طريقة عمل `CFT`.",
     "answer_en": "1. Serum preparation: heat-inactivate at 56°C for 30 min to destroy endogenous complement. 2. Primary incubation: mix serum with known viral antigen, add a measured amount of complement, incubate at 37°C for 30 min. 3. Indicator system: add sheep RBCs sensitized with hemolysin, incubate at 37°C for another 30 min. 4. Read the result.",
     "answer_ar": "1. تحضير المصل: تثبيط حراري عند 56°م لمدة 30 دقيقة لتحطيم المتمّم الداخلي. 2. الحضن الأولي: مزج المصل مع مستضدّ فيروسي معروف وإضافة كمية مقيسة من المتمّم والحضن عند 37°م لمدة 30 دقيقة. 3. النظام الدالّ: إضافة كريات أغنام حمر محسّسة بالهيمولايسين والحضن عند 37°م لمدة 30 دقيقة أخرى. 4. قراءة النتيجة."
    },
    {
     "en": "How do you interpret CFT results?",
-    "ar": "كيف تفسّر نتائج CFT؟",
+    "ar": "كيف تفسّر نتائج `CFT`؟",
     "answer_en": "Positive: no hemolysis — complement was fixed by the antigen-antibody complex, so antibody is present. Negative: hemolysis — free complement remained and lysed the sensitized sheep RBCs, so no antigen-antibody reaction occurred.",
     "answer_ar": "موجب: لا تحلّل — ثُبّت المتمّم بمعقّد المستضدّ-الضدّ، فالضدّ موجود. سالب: تحلّل — بقي متمّم حرّ فحلّل كريات الأغنام المحسّسة، فلم يحدث تفاعل مستضدّ-ضدّ."
    },
    {
     "en": "Give the advantages and disadvantages of CFT.",
-    "ar": "اذكر مزايا CFT وعيوبه.",
+    "ar": "اذكر مزايا `CFT` وعيوبه.",
     "answer_en": "Advantages: screens a large number of viral and bacterial infections at the same time; economical. Disadvantages: not sensitive (cannot be used for immunity screening); time consuming and labor intensive; often non-specific, e.g. cross-reactivity.",
     "answer_ar": "المزايا: يكشف عددًا كبيرًا من الإصابات الفيروسية والبكتيرية في الوقت نفسه؛ اقتصادي. العيوب: غير حسّاس (لا يُستعمل لمسح المناعة)؛ يستهلك الوقت والجهد؛ غالبًا غير نوعي مثل التفاعل المتصالب."
    },

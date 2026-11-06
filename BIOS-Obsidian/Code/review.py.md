@@ -78,15 +78,32 @@ def _cells(x, keys, out):
             for y in x: _cells(y, keys, out)
 
 
-EN = norm(" \n ".join(strings(data.get("blocks") or [], ("en",))))
+EN = norm(" \n ".join(strings(data.get("blocks") or [], ("en",)) + strings(data.get("questions") or {}, ("en",))))
 src = open(src_path).read()
 
-# 1 coverage, line by line, then sentence by sentence
+# 1 coverage: rejoin wrapped lines into paragraphs, then check sentence by sentence and option by option
+def paragraphs(text):
+    text = text.replace("**", "").replace("\f", "\n")
+    text = re.sub(r"-\n\s*", "-", text)                                   # "antigen-\nantibody"
+    out, cur = [], []
+    for line in text.splitlines():
+        t = re.sub(r"[\ue000-\uf8ff]", " ", line).strip()
+        starts = re.match(r"^(\d{1,2}[.)-]|[•oO▪§]\s|[A-Z][a-z]+( [a-z]+)*:$)", t)
+        short_prev = cur and len(cur[-1].split()) <= 5 and not re.search(r"[.,;:?]$", cur[-1])   # a title line
+        if not t or re.fullmatch(r"\d{1,3}", t) or (starts and cur) or short_prev:
+            if cur: out.append(" ".join(cur)); cur = []
+            if not t or re.fullmatch(r"\d{1,3}", t): continue
+        cur.append(re.sub(r"^[•oO▪§]\s+", "", t))
+    if cur: out.append(" ".join(cur))
+    return out
 miss = []
-for line in src.splitlines():
-    for sent in re.split(r"(?<=[.?!])\s*(?=[A-Z(])", line.replace("**", "")):
+for para in paragraphs(src):
+    for sent in re.split(r"(?<=[.?!:])\s+(?=[A-Z(])|(?<=[a-z] [.?!])(?=[A-Z][a-z])|(?<=[a-z][.?!])(?=[A-Z][a-z])|\s+(?=[A-E]\.\s)|\s+(?=\(\d{1,2}\)\s)", para):
+        sent = re.sub(r"^([A-E]\.|\(\d{1,2}\))\s+", "", sent)
         n = norm(sent)
-        if len(n.split()) >= 4 and n not in EN:
+        n2 = re.sub(r"\s+[tf]$", "", n)                                   # TF key letter after the statement
+        heading = len(n.split()) <= 6 and not re.search(r"[.?]", n)          # titles are rewritten as section bars
+        if len(n.split()) >= 4 and not heading and n not in EN and n2 not in EN:
             miss.append(sent.strip())
 if miss:
     issues.append(("source sentences not found verbatim", miss))
@@ -139,7 +156,8 @@ for i, q in enumerate(mcq, 1):
     if q.get("answer") not in "abcde"[:n] or not q.get("answer"): qi.append(f"MCQ {i}: answer {q.get('answer')!r}")
     if len({norm(o[0], lower=False) for o in q["options"]}) < n: qi.append(f"MCQ {i}: duplicate options")
 cnt = Counter(q.get("answer") for q in mcq)
-if mcq and max(cnt.values()) - min(cnt.values()) > 2: qi.append(f"MCQ letters unbalanced {dict(cnt)}")
+if mcq and max(cnt.values()) - min(cnt.values()) > 2:
+    qi.append(f"MCQ letters unbalanced {dict(cnt)} — OK only if the professor's own questions keep their keys")
 for i, q in enumerate(Q.get("tf", []), 1):
     if q.get("answer") not in ("T", "F"): qi.append(f"TF {i}: answer {q.get('answer')!r}")
 for k in ("traps", "important"):
