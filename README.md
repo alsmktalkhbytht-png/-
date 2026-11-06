@@ -27,6 +27,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `research-lec2-scientific-method/` — Principles of Research lecture 2: the scientific method.
 - `research-lec3-research-plan/` — Principles of Research lecture 3: designing the research plan — questions merged.
 - `research-methods-lec4-process/` — Research Methods (طرائق البحث العلمي) lecture 4: Research process, د. فياض, fourth stage (wineoat, separate question file). The lecture's 25 MCQs keep their bold answers; BIOS notes on the step-list names and the sheet's spelling. 14 + 21 pages + covers.
+- `research-methods-lec5-classification/` — Research Methods lecture 5: Classification of Researches (11 types), د. فياض, fourth stage, separate question file. The lecture's 24 MCQs keep their bold answers. 16 + 20 pages + covers.
 - `enzymology-lab1-safety-tubes/` — Clinical Enzymology (الإنزيمات السريرية) Lab 1: lab safety and blood collecting tubes.
 - `enzymology-lab3-alkaline-phosphatase/` — Clinical Enzymology practical lab 3: Serum Alkaline Phosphatase (د. بارق و د. هشام) — fourth stage, new style, separate question file.
 - `ethics-lec1-morals/` — Professional Ethics (أخلاقيات المهنة) lecture 1 — Arabic-only handout.

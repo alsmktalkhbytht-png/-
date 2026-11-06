@@ -115,6 +115,7 @@
 - [[Code/pl5 - pl5q.py|pl5/pl5q.py]] → parasitology-lab5-flagellates-giardia
 - [[Code/res - make.py|res/make.py]] → research-lec1-principles
 - [[Code/res4 - r4.py|res4/r4.py]] → research-methods-lec4-process
+- [[Code/res5 - r5.py|res5/r5.py]] → research-methods-lec5-classification
 - [[Code/ria - l3.py|ria/l3.py]] → advtech-lec3-ria
 - [[Code/sol - l4.py|sol/l4.py]] → parasitology-lab4-solutions
 - [[Code/tb - turb.py|tb/turb.py]] → hematology-practical-turbidimetry
