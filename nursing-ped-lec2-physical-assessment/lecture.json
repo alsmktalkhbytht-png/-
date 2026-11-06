@@ -119,7 +119,33 @@
       "13 - 19 years",
       "13–19 سنة"
      ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    55,
+    45
+   ],
+   "style": "summary",
+   "label_en": "STAGES OF AGE",
+   "label_ar": "مراحل العمر",
+   "_ff": 1
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Stage",
+     "المرحلة"
     ],
+    [
+     "Age",
+     "العمر"
+    ]
+   ],
+   "rows": [
     [
      [
       "Young adulthood",
@@ -159,8 +185,9 @@
     45
    ],
    "style": "summary",
-   "label_en": "STAGES OF AGE",
-   "label_ar": "مراحل العمر"
+   "label_en": "STAGES OF AGE (continued)",
+   "label_ar": "مراحل العمر (تكملة)",
+   "_ff": 1
   },
   {
    "t": "card",
@@ -222,7 +249,38 @@
       "a red, swollen arm",
       "ذراع محمرّة متورّمة"
      ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    50,
+    26
+   ],
+   "style": "summary",
+   "label_en": "Two kinds of data",
+   "label_ar": "نوعا البيانات",
+   "_ff": 2
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Data",
+     "البيانات"
     ],
+    [
+     "Definition",
+     "التعريف"
+    ],
+    [
+     "Example",
+     "مثال"
+    ]
+   ],
+   "rows": [
     [
      [
       "**Subjective data**",
@@ -247,8 +305,9 @@
     26
    ],
    "style": "summary",
-   "label_en": "Two kinds of data",
-   "label_ar": "نوعا البيانات"
+   "label_en": "Two kinds of data (continued)",
+   "label_ar": "نوعا البيانات (تكملة)",
+   "_ff": 2
   },
   {
    "t": "table",
@@ -337,19 +396,31 @@
    "en": "**Chief complaint and present history**",
    "ar": "**الشكوى الرئيسة والتاريخ الحالي**",
    "list_en": [
-    "It could be symptoms, signs, or abnormal laboratory test",
+    "It could be symptoms, signs, or abnormal laboratory test"
+   ],
+   "list_ar": [
+    "قد تكون أعراضًا أو علامات أو فحصًا مختبريًا غير طبيعي"
+   ],
+   "_ff": 3
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     [
      "Type of onset (sudden, gradual), Duration and timing.",
      "Predisposing factors, Pain site and radiation"
     ]
    ],
    "list_ar": [
-    "قد تكون أعراضًا أو علامات أو فحصًا مختبريًا غير طبيعي",
     [
      "نوع البداية (مفاجئة، تدريجية)، والمدّة والتوقيت.",
      "والعوامل المهيّئة، وموقع الألم وانتشاره"
     ]
-   ]
+   ],
+   "start": 2,
+   "_ff": 3
   },
   {
    "t": "note",
@@ -496,8 +567,7 @@
     [
      "**CC** :Measure around the **nipple line**.",
      "As the child gets older, chest circumference exceeds head circumference."
-    ],
-    "Generally, head and chest circumferences are **equal at about 6 months to 2 years**."
+    ]
    ],
    "list_ar": [
     [
@@ -512,9 +582,22 @@
     [
      "**محيط الصدر**: يُقاس حول **خط الحلمتين**.",
      "ومع كبر الطفل يتجاوز محيط الصدر محيط الرأس."
-    ],
+    ]
+   ],
+   "_ff": 4
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Generally, head and chest circumferences are **equal at about 6 months to 2 years**."
+   ],
+   "list_ar": [
     "وعمومًا يتساوى محيطا الرأس والصدر **بعمر 6 أشهر إلى سنتين تقريبًا**."
-   ]
+   ],
+   "start": 4,
+   "_ff": 4
   },
   {
    "t": "figures",
@@ -930,7 +1013,18 @@
    "en": "**MOUTH**",
    "ar": "**الفم**",
    "list_en": [
-    "Mouth: Inspect the lips for symmetrical, colour, moisture, swelling, fissures.",
+    "Mouth: Inspect the lips for symmetrical, colour, moisture, swelling, fissures."
+   ],
+   "list_ar": [
+    "الفم: افحص الشفتين للتناظر واللون والرطوبة والتورّم والتشقّقات."
+   ],
+   "_ff": 5
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     "The mucous membranes of the mouth, nose, and throat are moist and pink.",
     [
      "Inspect the tonsils .",
@@ -943,7 +1037,6 @@
     ]
    ],
    "list_ar": [
-    "الفم: افحص الشفتين للتناظر واللون والرطوبة والتورّم والتشقّقات.",
     "الأغشية المخاطية للفم والأنف والحلق رطبة ووردية.",
     [
      "افحص اللوزتين.",
@@ -954,7 +1047,9 @@
      "حالة الأسنان وعددها وإطباقها وارتخاؤها.",
      "(بزوغ الأسنان بعمر **6–8 أشهر** ويُسمّى **الأسنان اللبنية أو المؤقّتة**)، بينما سقوطها بعمر (**5–6 سنوات**، وتُسمّى بعدها **الدائمة**)."
     ]
-   ]
+   ],
+   "start": 2,
+   "_ff": 5
   },
   {
    "t": "figure",
@@ -973,8 +1068,7 @@
      "It is fully formed, in the midline of the face, symmetrical nares and nasolabial folds."
     ],
     "**Nasal flaring** is a sign of **respiratory distress**.",
-    "A **flattened nasal bridge** associated with **chromosomal abnormalities**.",
-    "Sinuses: Palpate for tenderness in older children"
+    "A **flattened nasal bridge** associated with **chromosomal abnormalities**."
    ],
    "list_ar": [
     [
@@ -982,9 +1076,22 @@
      "فهو مكتمل التكوين، في خط منتصف الوجه، بفتحتين متناظرتين وطيّتين أنفيتين شفويتين متناظرتين."
     ],
     "**رفرفة الأنف** علامة على **الضائقة التنفسية**.",
-    "و**تسطّح جسر الأنف** يرتبط بـ**الشذوذات الكروموسومية**.",
+    "و**تسطّح جسر الأنف** يرتبط بـ**الشذوذات الكروموسومية**."
+   ],
+   "_ff": 6
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Sinuses: Palpate for tenderness in older children"
+   ],
+   "list_ar": [
     "الجيوب: تُجسّ للإيلام عند الأطفال الأكبر"
-   ]
+   ],
+   "start": 4,
+   "_ff": 6
   },
   {
    "t": "card",
@@ -1065,19 +1172,32 @@
   {
    "t": "note",
    "en": [
-    "Nasal flaring = **respiratory distress**; flat nasal bridge and low-set ears = **chromosomal**.",
-    "Teeth erupt **6–8 months** (deciduous); fall at **5–6 years**.",
-    "Head lag after **4 months** = developmental delay; stiff neck = **meningeal irritation**."
+    "Nasal flaring = **respiratory distress**; flat nasal bridge and low-set ears = **chromosomal**."
    ],
    "ar": [
-    "رفرفة الأنف = **ضائقة تنفسية**؛ وتسطّح جسر الأنف وانخفاض الأذنين = **كروموسومي**.",
-    "تبزغ الأسنان **6–8 أشهر** (لبنية)؛ وتسقط **5–6 سنوات**.",
-    "تأخّر الرأس بعد **4 أشهر** = تأخّر التطوّر؛ وتيبّس الرقبة = **تهيّج السحايا**."
+    "رفرفة الأنف = **ضائقة تنفسية**؛ وتسطّح جسر الأنف وانخفاض الأذنين = **كروموسومي**."
    ],
    "label": [
     "In short",
     "باختصار"
-   ]
+   ],
+   "_ff": 7
+  },
+  {
+   "t": "note",
+   "en": [
+    "Teeth erupt **6–8 months** (deciduous); fall at **5–6 years**.",
+    "Head lag after **4 months** = developmental delay; stiff neck = **meningeal irritation**."
+   ],
+   "ar": [
+    "تبزغ الأسنان **6–8 أشهر** (لبنية)؛ وتسقط **5–6 سنوات**.",
+    "تأخّر الرأس بعد **4 أشهر** = تأخّر التطوّر؛ وتيبّس الرقبة = **تهيّج السحايا**."
+   ],
+   "label": [
+    "In short (continued)",
+    "باختصار (تكملة)"
+   ],
+   "_ff": 7
   },
   {
    "t": "section",
@@ -1204,8 +1324,7 @@
     "The umbilicus is clean with no discharge, bulging, or scarring.",
     "Auscultate bowel sounds in all four quadrants.",
     "**Absence** of bowel sounds may indicate **peritonitis or a paralytic ileus**.",
-    "**Hyperactive** bowel sounds may indicate **gastroenteritis or a bowel obstruction**.",
-    "percuss the abdomen (**Dullness** in the right upper quadrant over the **liver**), (**Tympany** hear over **stomach and bowel**)."
+    "**Hyperactive** bowel sounds may indicate **gastroenteritis or a bowel obstruction**."
    ],
    "list_ar": [
     [
@@ -1215,9 +1334,22 @@
     "والسرّة نظيفة بلا إفرازات أو بروز أو ندب.",
     "استمع إلى أصوات الأمعاء في الأرباع الأربعة.",
     "قد يدلّ **غياب** أصوات الأمعاء على **التهاب الصفاق أو العلوص الشللي**.",
-    "وقد تدلّ أصوات الأمعاء **المفرطة** على **التهاب المعدة والأمعاء أو انسداد الأمعاء**.",
+    "وقد تدلّ أصوات الأمعاء **المفرطة** على **التهاب المعدة والأمعاء أو انسداد الأمعاء**."
+   ],
+   "_ff": 8
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "percuss the abdomen (**Dullness** in the right upper quadrant over the **liver**), (**Tympany** hear over **stomach and bowel**)."
+   ],
+   "list_ar": [
     "اقرع البطن (**أصمية** في الربع العلوي الأيمن فوق **الكبد**)، و(**طبلية** تُسمع فوق **المعدة والأمعاء**)."
-   ]
+   ],
+   "start": 6,
+   "_ff": 8
   },
   {
    "t": "table",
@@ -1399,19 +1531,32 @@
    "en": [
     "Wheeze = **lower airway** (asthma); stridor = **upper airway**.",
     "Retractions (5 sites) = **respiratory distress**.",
-    "No bowel sounds = peritonitis/paralytic ileus; hyperactive = gastroenteritis/obstruction.",
-    "Percussion: **dull = liver**, **tympany = stomach/bowel**, resonance = normal lung."
+    "No bowel sounds = peritonitis/paralytic ileus; hyperactive = gastroenteritis/obstruction."
    ],
    "ar": [
     "الأزيز = **المجرى السفلي** (الربو)؛ والصرير = **المجرى العلوي**.",
     "الانسحابات (5 مواقع) = **ضائقة تنفسية**.",
-    "غياب أصوات الأمعاء = التهاب الصفاق/العلوص؛ والمفرطة = التهاب المعدة والأمعاء/الانسداد.",
-    "القرع: **الأصمية = الكبد**، و**الطبلية = المعدة/الأمعاء**، والرنين = الرئة الطبيعية."
+    "غياب أصوات الأمعاء = التهاب الصفاق/العلوص؛ والمفرطة = التهاب المعدة والأمعاء/الانسداد."
    ],
    "label": [
     "In short",
     "باختصار"
-   ]
+   ],
+   "_ff": 9
+  },
+  {
+   "t": "note",
+   "en": [
+    "Percussion: **dull = liver**, **tympany = stomach/bowel**, resonance = normal lung."
+   ],
+   "ar": [
+    "القرع: **الأصمية = الكبد**، و**الطبلية = المعدة/الأمعاء**، والرنين = الرئة الطبيعية."
+   ],
+   "label": [
+    "In short (continued)",
+    "باختصار (تكملة)"
+   ],
+   "_ff": 9
   },
   {
    "t": "section",
@@ -1676,7 +1821,33 @@
       "sucks when area around mouth stimulated",
       "يمصّ عند تحفيز المنطقة حول الفم"
      ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "style": "summary",
+   "label_en": "Feeding",
+   "label_ar": "التغذية",
+   "_ff": 10
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "2. Feeding Reflexes",
+     "2. منعكسات التغذية"
     ],
+    [
+     "Response",
+     "الاستجابة"
+    ]
+   ],
+   "rows": [
     [
      [
       "**Rooting reflex**",
@@ -1716,8 +1887,9 @@
     64
    ],
    "style": "summary",
-   "label_en": "Feeding",
-   "label_ar": "التغذية"
+   "label_en": "Feeding (continued)",
+   "label_ar": "التغذية (تكملة)",
+   "_ff": 10
   },
   {
    "t": "table",
@@ -1781,7 +1953,33 @@
       "pulling arms and legs inward after loud noise.",
       "سحب الذراعين والساقين للداخل بعد صوت عالٍ."
      ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    70
+   ],
+   "style": "summary",
+   "label_en": "Movement",
+   "label_ar": "حركية",
+   "_ff": 11
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "3. Movement Reflexes",
+     "3. المنعكسات الحركية"
     ],
+    [
+     "Response",
+     "الاستجابة"
+    ]
+   ],
+   "rows": [
     [
      [
       "**Babinski R**",
@@ -1811,8 +2009,9 @@
     70
    ],
    "style": "summary",
-   "label_en": "Movement",
-   "label_ar": "حركية"
+   "label_en": "Movement (continued)",
+   "label_ar": "حركية (تكملة)",
+   "_ff": 11
   },
   {
    "t": "note",
@@ -2108,7 +2307,27 @@
     [
      "**Skin tenting**",
      "تخيّم الجلد (بطء رجوع الجلد)"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 12
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
     ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
     [
      "**Jaundice**",
      "اليرقان / الصفار"
@@ -2184,7 +2403,8 @@
    "widths": [
     36,
     64
-   ]
+   ],
+   "_ff": 12
   }
  ],
  "questions": {

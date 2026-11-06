@@ -30,7 +30,7 @@ SCRIPTS = {}   # script rel path -> handout folders
 for f in sorted(glob.glob(SCR + "/**/*.py", recursive=True)):
     rel = os.path.relpath(f, SCR)
     src = open(f).read()
-    folders = sorted(set(re.findall(r"\b((?:[a-z]+-(?:lec|lab|week|practical)[a-z0-9-]*)|lab1-biosafety)\b", src)))
+    folders = sorted(set(re.findall(r"\b((?:(?:[a-z]+-)+(?:lec|lab|week|practical)[a-z0-9-]*)|lab1-biosafety)\b", src)))
     folders = [x for x in folders if os.path.isdir(os.path.join(REPO, x))]
     SCRIPTS[rel] = folders
 HELPERS = {"n7/c.py": "Short block builders (C, R, SEC, H2, L, N, FLOW, T, Q, TF, TR, IM, F, FF, SIDE) and save().",
@@ -41,7 +41,11 @@ HELPERS = {"n7/c.py": "Short block builders (C, R, SEC, H2, L, N, FLOW, T, Q, TF
            "par2/pz.py": "Parasitology theory meta + SAVE() for handouts without questions.",
            "para/parse.py": "PDF → paragraphs with ⟦bold⟧ and __italic__ markers (pdfplumber).",
            "para/qparse.py": "Paragraphs → MCQs (stem, options A–E, bold = answer).",
-           "para/build.py": "MCQ banks: cleaning, translation tables, BIOS flags, inline answers."}
+           "para/build.py": "MCQ banks: cleaning, translation tables, BIOS flags, inline answers.",
+           "flowfit.py": "Page filler: cuts tall cards/notes/tables at the best piece boundary (measured by the engine) so no page keeps a big gap. fit(folder) after save().",
+           "gapdbg.py": "Debug: for each booklet page under 80% shows the block that jumped to the next page and its height.",
+           "sheet.py": "Side-by-side image of chosen booklet pages: sheet.py <folder> out.png 3,4,5.",
+           "nur/common_nur.py": "Pediatric nursing meta NUR(), BN() BIOS note, chunk_lists() (old; replaced by flowfit)."}
 code_links = []
 for rel, folders in SCRIPTS.items():
     name = rel.replace("/", " - ")

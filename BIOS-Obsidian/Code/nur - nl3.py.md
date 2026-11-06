@@ -1,15 +1,17 @@
 ---
 source: BIOS-Obsidian/tools/scripts/nur/nl3.py
-handouts: []
-saved: 2026-11-05
+handouts: [nursing-ped-lec3-newborn]
+saved: 2026-11-06
 tags: [bios, code]
 ---
 # nur/nl3.py
 
-Utility script.
+Generator script — writes the handout's `lecture.json`.
+
+Handouts: [[06 فهرس الملازم#nursing-ped-lec3-newborn|nursing-ped-lec3-newborn]]
 
 ```python
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user--/8f878068-bae9-502b-96f7-788f221c7cb0/scratchpad/nur")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/61936e68-b1f5-523f-9c76-ea02be11c0c4/scratchpad/nur")
 from common_nur import *
 
 blocks = [
@@ -498,6 +500,8 @@ important = [
  IM("List the nursing care of the infant under phototherapy.", "عدّد الرعاية التمريضية للرضيع تحت العلاج الضوئي.", "Expose maximum skin and reposition often; opaque eye mask (not covering nares), check eyes every 4–6 h, remove during feeds; monitor temperature; keep the light distance; flexed position with rolled blankets; no oily lotions; watch loose stools and perianal skin; recognize bronze-baby syndrome.", "كشف أكبر مساحة جلد وتقليب متكرّر؛ وقناع عين معتم لا يسدّ الأنف، وفحص العينين كل 4–6 ساعات وإزالته أثناء الرضاعة؛ ومراقبة الحرارة؛ والالتزام بمسافة الضوء؛ ووضعية مثنية ببطانيات ملفوفة؛ وبلا مستحضرات زيتية؛ ومراقبة البراز الرخو وجلد ما حول الشرج؛ ومعرفة متلازمة الطفل البرونزي."),
 ]
 meta = NUR(3, "Nursing Care of the Newborn", "الرعاية التمريضية للمولود الجديد")
-save("nursing-ped-lec3-newborn", meta, chunk_lists(blocks), mcq, tf, traps, important)
+save("nursing-ped-lec3-newborn", meta, blocks, mcq, tf, traps, important)
+
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/61936e68-b1f5-523f-9c76-ea02be11c0c4/scratchpad"); from flowfit import fit; fit("nursing-ped-lec3-newborn")   # no big gaps (fill2 >= 80%)
 
 ```

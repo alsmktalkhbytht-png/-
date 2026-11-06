@@ -1,4 +1,4 @@
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user--/8f878068-bae9-502b-96f7-788f221c7cb0/scratchpad/nur")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/61936e68-b1f5-523f-9c76-ea02be11c0c4/scratchpad/nur")
 from common_nur import *
 
 blocks = [
@@ -23,8 +23,8 @@ blocks = [
     "وقناتا أوستاكي **أقصر وأكثر أفقية** عند الأطفال منها عند البالغين.", "ولوزتا الطفل وأنسجته اللمفية أكبر من البالغ.",
     "والقطر الأمامي الخلفي للصدر متساوٍ عند الولادة ويقلّ مع العمر."],
    en="**Developmental Differences in Respiratory System**", ar="**الفروق التطوّرية في الجهاز التنفسي**"),
- FF(("airway-infant-adult.jpg", "Airway of infant vs adult (Eustachian tube)", "المجرى الهوائي عند الرضيع مقابل البالغ (قناة أوستاكي)", "40mm"),
-    ("eustachian.jpg", "Eustachian tube: shorter, wider and more horizontal in the child", "قناة أوستاكي: أقصر وأعرض وأكثر أفقية عند الطفل", "40mm")),
+ FF(("airway-infant-adult.jpg", "Airway of infant vs adult (Eustachian tube)", "المجرى الهوائي عند الرضيع مقابل البالغ (قناة أوستاكي)", "34mm"),
+    ("eustachian.jpg", "Eustachian tube: shorter, wider and more horizontal in the child", "قناة أوستاكي: أقصر وأعرض وأكثر أفقية عند الطفل", "34mm")),
  INSHORT([("Child airway is **short and narrow** (4 mm vs 20 mm); newborn **nose breather to 4 weeks**.", "مجرى الطفل **قصير وضيّق** (4 ملم مقابل 20 ملم)؛ وحديث الولادة **يتنفّس من الأنف حتى 4 أسابيع**."),
           ("**Abdominal breathing to 6 years**; apnea ≤ **15 s** normal in newborns.", "**تنفّس بطني حتى 6 سنوات**؛ وانقطاع النفس ≤ **15 ثانية** طبيعي عند حديثي الولادة."),
           ("Short, horizontal **Eustachian tube** → otitis media.", "**قناة أوستاكي** قصيرة وأفقية ← التهاب الأذن الوسطى.")]),
@@ -214,7 +214,7 @@ blocks = [
     [B("**Bronchopneumonia**", "**ذات القصبات والرئة**"), B("Begins in the terminal bronchioles, clogged with mucopurulent exudate to form consolidated patches called lobular pneumonia.", "تبدأ في القصيبات الانتهائية التي تنسدّ بنضحة مخاطية قيحية فتتكوّن بقع متصلّدة تُسمّى ذات الرئة الفصيصية.")],
     [B("**Interstitial pneumonia**", "**ذات الرئة الخلالية**"), B("inflammatory process within the alveolar walls (interstitium) and the peribronchial and interlobular tissues.", "عملية التهابية في جدران الأسناخ (الخلال) والأنسجة حول القصبات وبين الفصيصات.")]],
    key_cols=[0], widths=[28, 72], style="summary", label_en="Morphology", label_ar="الشكل"),
- F("pneumonia-types.jpg", "Types of pneumonia: inflammation of the upper, middle and lower lobe", "أنواع ذات الرئة: التهاب الفصّ العلوي والأوسط والسفلي", h="40mm"),
+ F("pneumonia-types.jpg", "Types of pneumonia: inflammation of the upper, middle and lower lobe", "أنواع ذات الرئة: التهاب الفصّ العلوي والأوسط والسفلي", h="37mm"),
  C("Classification based on the etiologic agent (viral, bacterial, fungi, mycoplasmal, or aspiration of foreign substances) The clinical manifestations of pneumonia vary depending on the etiologic agent, the child's age, the child's systemic reaction to the infection, the extent of the lesions, any underlying conditions, and the degree of bronchial and bronchiolar obstruction.",
    "والتصنيف بحسب العامل المسبّب (فيروسي، أو بكتيري، أو فطري، أو مايكوبلازمي، أو باستنشاق مواد غريبة). وتختلف المظاهر السريرية بحسب العامل، وعمر الطفل، واستجابته الجهازية، ومدى الآفات، والحالات الكامنة، ودرجة انسداد القصبات والقصيبات."),
  T([B("General Signs of Pneumonia", "العلامات العامّة لذات الرئة"), B("Details", "التفاصيل")],
@@ -324,7 +324,7 @@ blocks = [
     "وقد يتكلّم الطفل بعبارات قصيرة لاهثة متقطّعة.", "والرضّع والصغار متململون ومتهيّجون ولا يهدؤون.",
     "وقد يُظهر الرضّع انسحابات فوق الترقوة وبين الأضلاع وفوق القصّ وتحت الأضلاع والقصّ.", "ويكشف فحص الصدر **فرط رنين** بالقرع.",
     "ومع تكرار النوبات يثبت التجويف الصدري في حالة فرط التهوية (**الصدر البرميلي**)، مع انخفاض الحجاب الحاجز وارتفاع الكتفين وزيادة استعمال العضلات المساعدة."]),
- SIDE([L(["Pulmonary function tests (PFTs)", "Spirometry testing (children 5 or 6 years)", "Bronchoprovocation testing (i.e., direct exposure of the mucous membranes to a suspected antigen in increasing concentrations)",
+ L(["Pulmonary function tests (PFTs)", "Spirometry testing (children 5 or 6 years)", "Bronchoprovocation testing (i.e., direct exposure of the mucous membranes to a suspected antigen in increasing concentrations)",
           "Exercise challenges may be used to identify children with exercise-induced bronchospasm (EIB)",
           "The **peak expiratory flow meter PEFM** (maximum flow of air that can be forcefully exhaled in 1 second and is measured in liters per minute).", "Skin testing is useful in identifying specific allergens,",
           "laboratory tests (elevation in the white blood cell count during acute asthma, elevations to more than 12,000/mm3 of band cells (immature neutrophils) may indicate respiratory tract infection. Eosinophilia greater than 500/mm3 suggest an allergic or inflammatory disorder) and chest radiographs."],
@@ -332,8 +332,8 @@ blocks = [
           "وقد تُستعمل اختبارات الجهد لتحديد الأطفال المصابين بتشنّج القصبات الناجم عن الرياضة",
           "و**مقياس ذروة التدفّق الزفيري** (أقصى تدفّق هواء يمكن زفره بقوّة في ثانية، ويُقاس باللتر في الدقيقة).", "واختبار الجلد مفيد لتحديد المؤرّجات النوعية،",
           "والفحوص المختبرية (ارتفاع الكريات البيض في الربو الحادّ؛ وارتفاع الخلايا الشريطية (العدلات غير الناضجة) فوق 12,000/ملم³ قد يدلّ على عدوى تنفسية. وكثرة الحمضات فوق 500/ملم³ توحي باضطراب تحسّسي أو التهابي) وأشعّة الصدر."],
-         en="**Diagnostic Evaluation:**", ar="**التقييم التشخيصي:**")],
-      "peak-flow.jpg", "Peak expiratory flow meter", "مقياس ذروة التدفّق الزفيري"),
+         en="**Diagnostic Evaluation:**", ar="**التقييم التشخيصي:**"),
+ F("peak-flow.jpg", "Peak expiratory flow meter", "مقياس ذروة التدفّق الزفيري", h="48mm"),   # was SIDE: a 206 mm block that cannot split
  F("tripod.jpg", "Tripod position", "وضعية الحامل الثلاثي", h="48mm"),
  INSHORT([("Asthma = chronic airway inflammation + **hyperresponsiveness**; most common chronic childhood disease.", "الربو = التهاب مزمن + **فرط استجابة**؛ وأشيع مرض مزمن في الطفولة."),
           ("4 classes by symptoms and **PEF** (<60%, 60–80%, ≥80%).", "4 فئات بالأعراض و**ذروة التدفّق** (<60%، و60–80%، و≥80%)."),
@@ -469,4 +469,6 @@ important = [
  IM("Outline the therapeutic management of asthma.", "لخّص معالجة الربو.", "General care (history, assessment, action plan every 6 months, pulse oximetry, oxygen, IV fluids, intubation ready); avoid allergens (environment, cold, smoke, foods, aspirin); relieve bronchospasm (recognize prodrome ~6 h, use inhalers correctly, avoid β2-agonist overuse); prevent complications (flu vaccine > 6 months, pneumococcal, clean nebulizers, breathing exercises); self-care; child and family support.", "الرعاية العامّة (التاريخ والتقييم وخطّة كل 6 أشهر والتأكسج النبضي والأكسجين والسوائل الوريدية وجاهزية التنبيب)؛ وتجنّب المؤرّجات (البيئة والبرد والدخان والأطعمة والأسبرين)؛ وتخفيف التشنّج (معرفة البادرة ~6 ساعات واستعمال البخاخات بشكل صحيح وتجنّب الإفراط في بيتا 2)؛ ومنع المضاعفات (لقاح الإنفلونزا فوق 6 أشهر والمكوّرات الرئوية وتنظيف البخاخات وتمارين التنفّس)؛ والرعاية الذاتية؛ ودعم الطفل والعائلة."),
 ]
 meta = NUR(4, "Common Respiratory diseases among children", "أمراض الجهاز التنفسي الشائعة عند الأطفال")
-save("nursing-ped-lec4-respiratory", meta, chunk_lists(blocks), mcq, tf, traps, important)
+save("nursing-ped-lec4-respiratory", meta, blocks, mcq, tf, traps, important)
+
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/61936e68-b1f5-523f-9c76-ea02be11c0c4/scratchpad"); from flowfit import fit; fit("nursing-ped-lec4-respiratory")   # no big gaps (fill2 >= 80%)

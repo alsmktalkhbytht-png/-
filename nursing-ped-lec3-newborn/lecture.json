@@ -92,7 +92,19 @@
    "ar": "",
    "list_en": [
     "**Apgar Scoring** is a method used to assess the newborn's immediate adjustment to extrauterine.",
-    "It reflects the infant's general condition.",
+    "It reflects the infant's general condition."
+   ],
+   "list_ar": [
+    "**درجة أبغار** طريقة لتقييم تكيّف المولود الفوري مع الحياة خارج الرحم.",
+    "وهي تعكس الحالة العامة للرضيع."
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     "Evaluations during **first 1 - 5 minutes** and are repeated **every 5 minutes** until the infant's condition stabilizes.",
     "The score is based on observation of **heart rate, respiratory effort, muscle tone, reflex irritability, and color**.",
     "Each item is given a score of **0, 1, or 2**.",
@@ -100,14 +112,14 @@
     "Many healthy newborns do not achieve a score of 10 because the body is **not completely pink**"
    ],
    "list_ar": [
-    "**درجة أبغار** طريقة لتقييم تكيّف المولود الفوري مع الحياة خارج الرحم.",
-    "وهي تعكس الحالة العامة للرضيع.",
     "يُجرى التقييم خلال **أول 1–5 دقائق** ويُعاد **كل 5 دقائق** حتى تستقر حالة الرضيع.",
     "وتعتمد الدرجة على ملاحظة **معدّل القلب، والجهد التنفّسي، وتوتّر العضلات، وتهيّج المنعكسات، واللون**.",
     "ويُعطى كل عنصر درجة **0 أو 1 أو 2**.",
     "تمثّل الدرجات **0–3** **ضائقة شديدة**، و**4–6** **صعوبة متوسطة**، و**7–10** **عدم وجود صعوبة** في التكيّف مع الحياة خارج الرحم.",
     "ولا يحصل كثير من المواليد الأصحّاء على 10 لأن الجسم **ليس ورديًا بالكامل**"
-   ]
+   ],
+   "start": 3,
+   "_ff": 1
   },
   {
    "t": "table",
@@ -661,35 +673,36 @@
     "Identification",
     "Eye Care",
     "Vitamin K Administration",
-    "Hepatitis B Vaccine Administration",
-    "Newborn Screening",
-    "Universal Newborn Hearing Screening",
-    "Bathing",
-    "Care of the Umbilicus"
+    "Hepatitis B Vaccine Administration"
    ],
    "list_ar": [
     "التعريف (سوار الهوية)",
     "العناية بالعين",
     "إعطاء فيتامين K",
-    "إعطاء لقاح التهاب الكبد B",
-    "فحص المولود (المسح)",
-    "فحص السمع الشامل للمولود",
-    "الاستحمام",
-    "العناية بالسرّة"
+    "إعطاء لقاح التهاب الكبد B"
    ],
-   "start": 1
+   "_ff": 2
   },
   {
    "t": "card",
-   "en": "**4) Protect From Infection And Injury (continued)**",
-   "ar": "**4) الحماية من العدوى والإصابة (تكملة)**",
+   "en": "",
+   "ar": "",
    "list_en": [
+    "Newborn Screening",
+    "Universal Newborn Hearing Screening",
+    "Bathing",
+    "Care of the Umbilicus",
     "Circumcision"
    ],
    "list_ar": [
+    "فحص المولود (المسح)",
+    "فحص السمع الشامل للمولود",
+    "الاستحمام",
+    "العناية بالسرّة",
     "الختان"
    ],
-   "start": 9
+   "start": 5,
+   "_ff": 2
   },
   {
    "t": "note",
@@ -723,8 +736,7 @@
     [
      "**Obstetric birth techniques** can cause injury.",
      "Forceps birth, vacuum extraction and cesarean birth."
-    ],
-    "Many injuries are minor and resolve spontaneously in a few days; others require some degree of intervention."
+    ]
    ],
    "list_ar": [
     "تشمل **عوامل الأم** خلل الرحم المؤدي إلى ولادة متطاولة، أو ولادة مبكرة أو متأخرة، و**عدم التناسب الرأسي الحوضي**.",
@@ -732,9 +744,22 @@
     [
      "وقد تسبّب **تقنيات الولادة التوليدية** الإصابة.",
      "الولادة بالملقط، والشفط، والقيصرية."
-    ],
+    ]
+   ],
+   "_ff": 3
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Many injuries are minor and resolve spontaneously in a few days; others require some degree of intervention."
+   ],
+   "list_ar": [
     "وكثير من الإصابات بسيطة وتزول تلقائيًا خلال أيام؛ وبعضها يحتاج تدخّلًا بدرجة ما."
-   ]
+   ],
+   "start": 4,
+   "_ff": 3
   },
   {
    "t": "card",
@@ -877,17 +902,29 @@
     "Signed by loss of movement on the affected side (inability to close the eye completely, drooping of the corner of the mouth, and absence of wrinkling of the forehead and nasolabial fold).",
     "The paralysis usually disappears spontaneously in a few days or several months.",
     "Nursing care involves aiding the infant in suckling and helping the mother with feeding techniques (gavage feeding).",
-    "Breastfeeding recommended.",
-    "Use **artificial tears** to prevent drying of the eye."
+    "Breastfeeding recommended."
    ],
    "list_ar": [
     "**شلل الوجه:** ضغط على العصب الوجهي (**العصب القحفي السابع**) أثناء الولادة.",
     "وعلامته فقدان الحركة في الجهة المصابة (عدم القدرة على إغلاق العين تمامًا، وتدلّي زاوية الفم، وغياب تجاعيد الجبهة والطيّة الأنفية الشفوية).",
     "ويزول الشلل عادةً تلقائيًا خلال أيام أو بضعة أشهر.",
     "وتشمل الرعاية التمريضية مساعدة الرضيع على المصّ ومساعدة الأم في تقنيات الإرضاع (التغذية بالأنبوب).",
-    "ويُوصى بالرضاعة الطبيعية.",
+    "ويُوصى بالرضاعة الطبيعية."
+   ],
+   "_ff": 4
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Use **artificial tears** to prevent drying of the eye."
+   ],
+   "list_ar": [
     "واستعمل **الدموع الصناعية** لمنع جفاف العين."
-   ]
+   ],
+   "start": 6,
+   "_ff": 4
   },
   {
    "t": "card",
@@ -1148,7 +1185,10 @@
     "Thermoregulation",
     "Protection from Infection",
     "Hydration",
-    "Nutrition"
+    "Nutrition",
+    "Skin Care",
+    "Administration of Medications",
+    "Facilitating Parent-Infant Relationships"
    ],
    "list_ar": [
     "التقييم",
@@ -1158,27 +1198,25 @@
     "تنظيم الحرارة",
     "الحماية من العدوى",
     "الإماهة",
-    "التغذية"
+    "التغذية",
+    "العناية بالجلد",
+    "إعطاء الأدوية",
+    "تسهيل علاقة الوالدين بالرضيع"
    ],
-   "start": 1
+   "_ff": 5
   },
   {
    "t": "card",
-   "en": "**NURSING CARE OF HIGH-RISK NEWBORNS (continued)**",
-   "ar": "**الرعاية التمريضية للمواليد عالي الخطورة (تكملة)**",
+   "en": "",
+   "ar": "",
    "list_en": [
-    "Skin Care",
-    "Administration of Medications",
-    "Facilitating Parent-Infant Relationships",
     "Discharge Planning and Home Care"
    ],
    "list_ar": [
-    "العناية بالجلد",
-    "إعطاء الأدوية",
-    "تسهيل علاقة الوالدين بالرضيع",
     "التخطيط للخروج والرعاية المنزلية"
    ],
-   "start": 9
+   "start": 12,
+   "_ff": 5
   },
   {
    "t": "note",
@@ -1223,16 +1261,28 @@
     "Unknown",
     "Lower socioeconomic classes",
     "Multiple pregnancies",
-    "Gestational hypertension",
-    "Placental problems"
+    "Gestational hypertension"
    ],
    "list_ar": [
     "غير معروف",
     "الطبقات الاجتماعية الاقتصادية الأدنى",
     "الحمل المتعدّد",
-    "ارتفاع ضغط الحمل",
+    "ارتفاع ضغط الحمل"
+   ],
+   "_ff": 6
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Placental problems"
+   ],
+   "list_ar": [
     "مشكلات المشيمة"
-   ]
+   ],
+   "start": 5,
+   "_ff": 6
   },
   {
    "t": "card",
@@ -1246,7 +1296,10 @@
     "The ear cartilage is **soft and pliable**",
     "The soles and palms have **minimum creases**.",
     "The bones of the skull and the ribs feel soft",
-    "Before 26 weeks, the eyes may be fused."
+    "Before 26 weeks, the eyes may be fused.",
+    "Male infants have few scrotal rugae, and the testes are undescended; the labia minora and clitoris are prominent in females.",
+    "Preterm infants are inactive and listless.",
+    "The extremities are extension and remain in any position in which they are placed."
    ],
    "list_ar": [
     "الخدّج صغار جدًا ويبدون نحيلين لأن لديهم قليلًا من الدهن تحت الجلد أو لا شيء.",
@@ -1256,31 +1309,29 @@
     "وغضروف الأذن **طري ولين**",
     "وباطن القدمين والكفّين **قليل التجاعيد**.",
     "وعظام الجمجمة والأضلاع طرية الملمس",
-    "وقبل الأسبوع 26 قد تكون العينان ملتحمتين."
+    "وقبل الأسبوع 26 قد تكون العينان ملتحمتين.",
+    "وعند الذكور قليل من تجاعيد الصفن والخصيتان غير نازلتين؛ وعند الإناث الشفران الصغيران والبظر بارزان.",
+    "والخدّج قليلو النشاط وخاملون.",
+    "والأطراف مبسوطة وتبقى بأي وضع توضع فيه."
    ],
-   "start": 1
+   "_ff": 7
   },
   {
    "t": "card",
-   "en": "**Characteristics Preterm infants (continued)**",
-   "ar": "**صفات الأطفال الخدّج (تكملة)**",
+   "en": "",
+   "ar": "",
    "list_en": [
-    "Male infants have few scrotal rugae, and the testes are undescended; the labia minora and clitoris are prominent in females.",
-    "Preterm infants are inactive and listless.",
-    "The extremities are extension and remain in any position in which they are placed.",
     "Physiologically immature; unable to maintain body temperature, limited ability to excrete solutes in the urine, and have increased susceptibility to infection.",
     "A pliable thorax, immature lung tissue, and an immature regulatory center lead to periodic breathing, hypoventilation, and frequent periods of **apnea**.",
     "These infants are risk to biochemical alterations such as hyperbilirubinemia and hypoglycemia, and vulnerable to fluid and electrolyte imbalance."
    ],
    "list_ar": [
-    "وعند الذكور قليل من تجاعيد الصفن والخصيتان غير نازلتين؛ وعند الإناث الشفران الصغيران والبظر بارزان.",
-    "والخدّج قليلو النشاط وخاملون.",
-    "والأطراف مبسوطة وتبقى بأي وضع توضع فيه.",
     "وهم غير ناضجين فسيولوجيًا؛ لا يستطيعون الحفاظ على حرارتهم، وقدرتهم محدودة على إخراج المذابات في البول، وقابليتهم للعدوى أعلى.",
     "والصدر اللين والنسيج الرئوي غير الناضج ومركز التنظيم غير الناضج تؤدي إلى تنفّس دوري، ونقص التهوية، ونوبات **انقطاع نفس** متكرّرة.",
     "وهؤلاء معرّضون لتغيّرات كيموحيوية مثل فرط البيليروبين ونقص السكر، ولاختلال السوائل والأملاح."
    ],
-   "start": 9
+   "start": 12,
+   "_ff": 7
   },
   {
    "t": "figure",
@@ -1293,14 +1344,23 @@
    "t": "card",
    "en": [
     "**Therapeutic Management:** The neonatologist or a neonatal nurse practitioner, a staff nurse, and a respiratory therapist are present for the delivery.",
-    "Infants who do not require resuscitation are immediately transferred in a heated incubator to the NICU, where they are weighed and where IV access, oxygen therapy, and other therapeutic interventions are initiated as needed.",
-    "Resuscitation is conducted in the delivery area until infants can be safely transported to the NICU."
+    "Infants who do not require resuscitation are immediately transferred in a heated incubator to the NICU, where they are weighed and where IV access, oxygen therapy, and other therapeutic interventions are initiated as needed."
    ],
    "ar": [
     "**المعالجة:** يحضر الولادةَ طبيبُ حديثي الولادة أو ممرّض ممارس لحديثي الولادة، وممرّض، ومعالج تنفّسي.",
-    "والرضّع الذين لا يحتاجون إنعاشًا يُنقلون فورًا بحاضنة مدفّأة إلى وحدة العناية، حيث يُوزنون وتُبدأ الخطوط الوريدية والأكسجين والتدخّلات الأخرى حسب الحاجة.",
+    "والرضّع الذين لا يحتاجون إنعاشًا يُنقلون فورًا بحاضنة مدفّأة إلى وحدة العناية، حيث يُوزنون وتُبدأ الخطوط الوريدية والأكسجين والتدخّلات الأخرى حسب الحاجة."
+   ],
+   "_ff": 8
+  },
+  {
+   "t": "card",
+   "en": [
+    "Resuscitation is conducted in the delivery area until infants can be safely transported to the NICU."
+   ],
+   "ar": [
     "ويُجرى الإنعاش في منطقة الولادة حتى يمكن نقلهم بأمان إلى الوحدة."
-   ]
+   ],
+   "_ff": 8
   },
   {
    "t": "card",
@@ -1328,8 +1388,7 @@
     [
      "wasted physical appearance that reflects intrauterine nutritional deprivation.",
      "Depletion of subcutaneous fat gives them a thin, elongated appearance."
-    ],
-    "The little vernix caseosa that remains in the skin folds may be stained a deep yellow or green, which is usually an indication of **meconium in the amniotic fluid**."
+    ]
    ],
    "list_ar": [
     "غياب الزغب،",
@@ -1338,9 +1397,22 @@
     [
      "ومظهر هزيل يعكس الحرمان الغذائي داخل الرحم.",
      "ونفاد الدهن تحت الجلد يعطيهم مظهرًا نحيلًا متطاولًا."
-    ],
+    ]
+   ],
+   "_ff": 9
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The little vernix caseosa that remains in the skin folds may be stained a deep yellow or green, which is usually an indication of **meconium in the amniotic fluid**."
+   ],
+   "list_ar": [
     "وقد يتلوّن ما تبقّى من الطلاء الدهني في طيّات الجلد بالأصفر الغامق أو الأخضر، وهو عادةً دليل على **العقي في السائل الأمنيوسي**."
-   ]
+   ],
+   "start": 5,
+   "_ff": 9
   },
   {
    "t": "card",
@@ -1428,7 +1500,38 @@
       "قليلة"
      ],
      "—"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    39,
+    39
+   ],
+   "style": "summary",
+   "label_en": "Preterm vs postterm",
+   "label_ar": "الخديج مقابل المتأخّر",
+   "_ff": 10
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Feature",
+     "الصفة"
     ],
+    [
+     "Preterm",
+     "الخديج"
+    ],
+    [
+     "Postterm",
+     "متأخّر الولادة"
+    ]
+   ],
+   "rows": [
     [
      [
       "**Main risks**",
@@ -1453,8 +1556,9 @@
     39
    ],
    "style": "summary",
-   "label_en": "Preterm vs postterm",
-   "label_ar": "الخديج مقابل المتأخّر"
+   "label_en": "Preterm vs postterm (continued)",
+   "label_ar": "الخديج مقابل المتأخّر (تكملة)",
+   "_ff": 10
   },
   {
    "t": "note",
@@ -1649,18 +1753,30 @@
    "ar": "**المظاهر السريرية:**",
    "list_en": [
     "Infants usually **macrosomic**, very plump and full faced, liberally coated with vernix caseosa, and plethoric.",
-    "The placenta and umbilical cord are also larger than average.",
+    "The placenta and umbilical cord are also larger than average."
+   ],
+   "list_ar": [
+    "الرضّع عادةً **ضخام الجسم**، ممتلئون جدًا بوجه مدوّر، ومغطّون بكثرة بالطلاء الدهني، ومحمرّون.",
+    "والمشيمة والحبل السري أكبر من المعتاد أيضًا."
+   ],
+   "_ff": 11
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     "Infants of mothers with advanced diabetes may be **small for gestational age, IUGR** because placental involvement.",
     "IDMs have an increased incidence of **hypoglycemia, hypocalcemia, hyperbilirubinemia, hypomagnesemia, and RDS**.",
     "Morbidities in IDMs may result of elevated glucose and ketone levels, placental insufficiency, and prematurity."
    ],
    "list_ar": [
-    "الرضّع عادةً **ضخام الجسم**، ممتلئون جدًا بوجه مدوّر، ومغطّون بكثرة بالطلاء الدهني، ومحمرّون.",
-    "والمشيمة والحبل السري أكبر من المعتاد أيضًا.",
     "ورضّع الأمهات بسكّري متقدّم قد يكونون **صغارًا لعمر الحمل مع تقييد النمو** بسبب إصابة المشيمة.",
     "ويزداد عند رضّع السكّريات حدوث **نقص السكّر، ونقص الكالسيوم، وفرط البيليروبين، ونقص المغنيسيوم، وRDS**.",
     "وقد تنتج مراضتهم عن ارتفاع الغلوكوز والكيتونات، وقصور المشيمة، والخداج."
-   ]
+   ],
+   "start": 3,
+   "_ff": 11
   },
   {
    "t": "card",
@@ -1746,16 +1862,28 @@
     "Jaundice is most reliably assessed by observing the infant's skin color from head to toe and the color of the sclerae and mucous membranes.",
     "Applying direct pressure to the skin, especially over bony prominences ( tip of the nose or the sternum), causes **blanching** and allows the yellow stain to be more pronounced.",
     "Assess the method and frequency of feeding, as well as the infant's apparent hydration status.",
-    "In general, healthy term newborns under 1 week of age will have a number of voidings equal to the number of days, at which time adequate voiding is considered to be 6 to 10 times per day (e.g., day 2 = 2 voids, day 3 = 3 voids, etc.).",
-    "The infant who receives **phototherapy** is placed under the light source, exposing as much skin surface as possible, and repositioned frequently to expose all body surface areas to the light."
+    "In general, healthy term newborns under 1 week of age will have a number of voidings equal to the number of days, at which time adequate voiding is considered to be 6 to 10 times per day (e.g., day 2 = 2 voids, day 3 = 3 voids, etc.)."
    ],
    "list_ar": [
     "يُقيَّم اليرقان بأوثق طريقة بملاحظة لون جلد الرضيع من الرأس للقدم ولون الصلبة والأغشية المخاطية.",
     "والضغط المباشر على الجلد، خصوصًا فوق البروزات العظمية (طرف الأنف أو القصّ)، يسبّب **ابيضاضه** فيظهر الاصفرار أوضح.",
     "قيّم طريقة الرضاعة وتكرارها، وحالة إماهة الرضيع الظاهرة.",
-    "وعمومًا، يتبوّل المولود السليم دون أسبوع بعدد مساوٍ لعدد أيامه، ثم يُعدّ التبوّل الكافي 6–10 مرّات يوميًا (مثلًا اليوم 2 = مرّتان، واليوم 3 = 3 مرّات... إلخ).",
+    "وعمومًا، يتبوّل المولود السليم دون أسبوع بعدد مساوٍ لعدد أيامه، ثم يُعدّ التبوّل الكافي 6–10 مرّات يوميًا (مثلًا اليوم 2 = مرّتان، واليوم 3 = 3 مرّات... إلخ)."
+   ],
+   "_ff": 12
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The infant who receives **phototherapy** is placed under the light source, exposing as much skin surface as possible, and repositioned frequently to expose all body surface areas to the light."
+   ],
+   "list_ar": [
     "ويُوضع الرضيع الذي يتلقّى **العلاج الضوئي** تحت مصدر الضوء مع كشف أكبر مساحة ممكنة من الجلد، ويُغيَّر وضعه كثيرًا لتعريض كل سطح الجسم للضوء."
-   ]
+   ],
+   "start": 5,
+   "_ff": 12
   },
   {
    "t": "card",
@@ -1771,8 +1899,7 @@
     "Remove eye shields during feedings, which provide the opportunity for visual and sensory stimulation.",
     "Monitor infants for temperature instability because phototherapy may cause an increase in the body temperature.",
     "The distance between the phototherapy light source and the infant must be maintained as outlined by the manufacturer's guidelines; halogen lights placed too close to the infant's skin may cause burns.",
-    "Maintaining the infant in a flexed position with rolled blankets along the sides of the body helps maintain heat and provides comfort.",
-    "To prevent or minimize these effects, the nurse monitors the temperature to detect early signs of hypothermia or hyperthermia and observes the skin for evidence of dehydration and drying, which can lead to excoriation and breakdown."
+    "Maintaining the infant in a flexed position with rolled blankets along the sides of the body helps maintain heat and provides comfort."
    ],
    "list_ar": [
     [
@@ -1784,16 +1911,16 @@
     "وأزل واقيات العين أثناء الرضاعة، فهي فرصة للتحفيز البصري والحسّي.",
     "وراقب عدم استقرار الحرارة لأن العلاج الضوئي قد يرفعها.",
     "ويجب الالتزام بالمسافة بين مصدر الضوء والرضيع حسب تعليمات المصنّع؛ فمصابيح الهالوجين القريبة جدًا من الجلد قد تسبّب حروقًا.",
-    "وإبقاء الرضيع مثنيًا ببطانيات ملفوفة على جانبيه يساعد في حفظ الحرارة ويوفّر الراحة.",
-    "ولمنع هذه التأثيرات أو تقليلها يراقب الممرّض الحرارة لاكتشاف علامات انخفاضها أو ارتفاعها مبكرًا، ويلاحظ الجلد لعلامات الجفاف واليبس التي قد تؤدي إلى السحج والتقرّح."
+    "وإبقاء الرضيع مثنيًا ببطانيات ملفوفة على جانبيه يساعد في حفظ الحرارة ويوفّر الراحة."
    ],
-   "start": 1
+   "_ff": 13
   },
   {
    "t": "card",
    "en": "",
    "ar": "",
    "list_en": [
+    "To prevent or minimize these effects, the nurse monitors the temperature to detect early signs of hypothermia or hyperthermia and observes the skin for evidence of dehydration and drying, which can lead to excoriation and breakdown.",
     "**Oily lubricants or lotions are not used** on the skin to prevent increased tanning.",
     "Because phototherapy enhances the excretion of unconjugated bilirubin through the bowel, **loose stools** may indicate accelerated bilirubin excretion.",
     "Frequent stooling can cause perianal irritation; therefore meticulous skin care, especially keeping the skin clean and dry, is essential.",
@@ -1802,6 +1929,7 @@
     "The browning generally resolves after discontinuation of phototherapy."
    ],
    "list_ar": [
+    "ولمنع هذه التأثيرات أو تقليلها يراقب الممرّض الحرارة لاكتشاف علامات انخفاضها أو ارتفاعها مبكرًا، ويلاحظ الجلد لعلامات الجفاف واليبس التي قد تؤدي إلى السحج والتقرّح.",
     "و**لا تُستعمل المزلّقات الزيتية أو المستحضرات** على الجلد لمنع زيادة الاسمرار.",
     "ولأن العلاج الضوئي يعزّز إخراج البيليروبين غير المقترن عبر الأمعاء، فقد يدلّ **البراز الرخو** على تسارع إخراجه.",
     "وكثرة التبرّز قد تسبّب تهيّجًا حول الشرج، لذا العناية الدقيقة بالجلد، خصوصًا إبقاؤه نظيفًا جافًا، ضرورية.",
@@ -1809,7 +1937,8 @@
     "ويُرجَّح أن سببها احتباس ناتج تكسّر البيليروبين بالعلاج الضوئي، ربما بورفيرين النحاس.",
     "ويزول الاسمرار عمومًا بعد إيقاف العلاج الضوئي."
    ],
-   "start": 9
+   "start": 8,
+   "_ff": 13
   },
   {
    "t": "figure",
@@ -1949,38 +2078,39 @@
    "list_en": [
     "Proper **hand washing**, the use of disposable equipment, disposal of secretions, and adequate housekeeping of the environment and equipment are essential.",
     "Nurse responsibility to ensure that everyone maintains contact isolation or Standard Precautions.",
-    "Precautions are implemented to prevent the spread of infection to other newborns.",
-    "Observation for signs of complications, including meningitis and septic shock.",
-    "**Encourage breastfeeding:** Colostrum contains agglutinins that are effective against gram-negative bacteria.",
-    "Human milk contains large quantities of IgA and ironbinding protein that exert a bacteriostatic effect on Escherichia coli.",
-    "Human milk also contains macrophages and lymphocytes that promote a local inflammatory reaction.",
-    "Knowledge of the side effects of the specific antibiotic and proper regulation and administration of the drug."
+    "Precautions are implemented to prevent the spread of infection to other newborns."
    ],
    "list_ar": [
     "**غسل اليدين** الصحيح، واستعمال الأدوات أحادية الاستعمال، والتخلّص من الإفرازات، والتنظيف الكافي للبيئة والأدوات أمور أساسية.",
     "ومن مسؤولية الممرّض ضمان التزام الجميع بعزل التماس أو الاحتياطات القياسية.",
-    "وتُطبَّق الاحتياطات لمنع انتقال العدوى إلى مواليد آخرين.",
-    "ومراقبة علامات المضاعفات، ومنها التهاب السحايا والصدمة الإنتانية.",
-    "**شجّع الرضاعة الطبيعية:** يحتوي اللبأ على راصّات فعّالة ضد البكتيريا السالبة لكرام.",
-    "ويحتوي حليب الأم على كمّيات كبيرة من IgA وبروتين رابط للحديد له تأثير مثبّط لنمو الإشريكية القولونية.",
-    "ويحتوي الحليب أيضًا على بلاعم ولمفاويات تعزّز التفاعل الالتهابي الموضعي.",
-    "ومعرفة الآثار الجانبية للمضاد الحيوي المحدّد وضبط إعطائه بشكل صحيح."
+    "وتُطبَّق الاحتياطات لمنع انتقال العدوى إلى مواليد آخرين."
    ],
-   "start": 1
+   "_ff": 14
   },
   {
    "t": "card",
-   "en": "**Nursing Care Management (continued)**",
-   "ar": "**الرعاية التمريضية (تكملة)**",
+   "en": "",
+   "ar": "",
    "list_en": [
+    "Observation for signs of complications, including meningitis and septic shock.",
+    "**Encourage breastfeeding:** Colostrum contains agglutinins that are effective against gram-negative bacteria.",
+    "Human milk contains large quantities of IgA and ironbinding protein that exert a bacteriostatic effect on Escherichia coli.",
+    "Human milk also contains macrophages and lymphocytes that promote a local inflammatory reaction.",
+    "Knowledge of the side effects of the specific antibiotic and proper regulation and administration of the drug.",
     "Provide vitamin K, Nystatin oral administered for prophylaxis oral candidiasis.",
     "Providing an optimum thermo regulated environment and anticipating potential problems such as dehydration or hypoxia."
    ],
    "list_ar": [
+    "ومراقبة علامات المضاعفات، ومنها التهاب السحايا والصدمة الإنتانية.",
+    "**شجّع الرضاعة الطبيعية:** يحتوي اللبأ على راصّات فعّالة ضد البكتيريا السالبة لكرام.",
+    "ويحتوي حليب الأم على كمّيات كبيرة من IgA وبروتين رابط للحديد له تأثير مثبّط لنمو الإشريكية القولونية.",
+    "ويحتوي الحليب أيضًا على بلاعم ولمفاويات تعزّز التفاعل الالتهابي الموضعي.",
+    "ومعرفة الآثار الجانبية للمضاد الحيوي المحدّد وضبط إعطائه بشكل صحيح.",
     "وإعطاء فيتامين K، والنيستاتين فمويًا للوقاية من داء المبيضّات الفموي.",
     "وتوفير بيئة حرارية مثلى وتوقّع المشكلات المحتملة مثل الجفاف أو نقص الأكسجة."
    ],
-   "start": 9
+   "start": 4,
+   "_ff": 14
   },
   {
    "t": "note",
@@ -2017,7 +2147,27 @@
     [
      "**Extrauterine life**",
      "الحياة خارج الرحم"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 15
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
     ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
     [
      "**Apgar score**",
      "درجة أبغار / مقياس أبغار"
@@ -2137,7 +2287,8 @@
    "widths": [
     36,
     64
-   ]
+   ],
+   "_ff": 15
   }
  ],
  "questions": {

@@ -3,14 +3,18 @@
 ## Helpers
 
 - [[Code/bac - bal.py|bac/bal.py]] — balance(mcq, seed): spreads MCQ answer letters evenly.
+- [[Code/flowfit.py|flowfit.py]] — Page filler: cuts tall cards/notes/tables at the best piece boundary (measured by the engine) so no page keeps a big gap. fit(folder) after save().
+- [[Code/gapdbg.py|gapdbg.py]] — Debug: for each booklet page under 80% shows the block that jumped to the next page and its height.
 - [[Code/hem3 - common.py|hem3/common.py]] — Base helpers used by c.py.
 - [[Code/imm456 - ci.py|imm456/ci.py]] — Clinical-immunology meta, B() bilingual cell, END() summary+glossary, INSHORT() per-topic box, TERMS() glossary, save() with split.fix.
 - [[Code/imm456 - split.py|imm456/split.py]] — Sentence splitter + checker: every English sentence must get its own Arabic sentence.
 - [[Code/n7 - c.py|n7/c.py]] — Short block builders (C, R, SEC, H2, L, N, FLOW, T, Q, TF, TR, IM, F, FF, SIDE) and save().
+- [[Code/nur - common_nur.py|nur/common_nur.py]] — Pediatric nursing meta NUR(), BN() BIOS note, chunk_lists() (old; replaced by flowfit).
 - [[Code/par2 - pz.py|par2/pz.py]] — Parasitology theory meta + SAVE() for handouts without questions.
 - [[Code/para - build.py|para/build.py]] — MCQ banks: cleaning, translation tables, BIOS flags, inline answers.
 - [[Code/para - parse.py|para/parse.py]] — PDF → paragraphs with ⟦bold⟧ and __italic__ markers (pdfplumber).
 - [[Code/para - qparse.py|para/qparse.py]] — Paragraphs → MCQs (stem, options A–E, bold = answer).
+- [[Code/sheet.py|sheet.py]] — Side-by-side image of chosen booklet pages: sheet.py <folder> out.png 3,4,5.
 
 ## Generators (one per handout)
 
@@ -83,6 +87,10 @@
 - [[Code/n7 - anti.py|n7/anti.py]] → hematology-practical-anticoagulants
 - [[Code/n7 - norm.py|n7/norm.py]] → hematology-practical-normal-values
 - [[Code/n7 - vir.py|n7/vir.py]] → virology-lab1-safety
+- [[Code/nur - nl1.py|nur/nl1.py]] → nursing-ped-lec1-perspective
+- [[Code/nur - nl2.py|nur/nl2.py]] → nursing-ped-lec2-physical-assessment
+- [[Code/nur - nl3.py|nur/nl3.py]] → nursing-ped-lec3-newborn
+- [[Code/nur - nl4.py|nur/nl4.py]] → nursing-ped-lec4-respiratory
 - [[Code/par - make.py|par/make.py]] → parasitology-week1-mcq
 - [[Code/par3 - p3q.py|par3/p3q.py]] → parasitology-week3-theory
 - [[Code/par4 - p4q.py|par4/p4q.py]] → parasitology-week4-theory
@@ -131,11 +139,6 @@
 - [[Code/imm456 - ci5_blocks.py|imm456/ci5_blocks.py]]
 - [[Code/imm456 - ci6_ar.py|imm456/ci6_ar.py]]
 - [[Code/ins - ins.py|ins/ins.py]]
-- [[Code/nur - common_nur.py|nur/common_nur.py]]
-- [[Code/nur - nl1.py|nur/nl1.py]]
-- [[Code/nur - nl2.py|nur/nl2.py]]
-- [[Code/nur - nl3.py|nur/nl3.py]]
-- [[Code/nur - nl4.py|nur/nl4.py]]
 - [[Code/par2 - ps2.py|par2/ps2.py]]
 - [[Code/par2 - ps3.py|par2/ps3.py]]
 - [[Code/par2 - ps4.py|par2/ps4.py]]

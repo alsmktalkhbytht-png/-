@@ -1,15 +1,17 @@
 ---
 source: BIOS-Obsidian/tools/scripts/nur/nl2.py
-handouts: []
-saved: 2026-11-05
+handouts: [nursing-ped-lec2-physical-assessment]
+saved: 2026-11-06
 tags: [bios, code]
 ---
 # nur/nl2.py
 
-Utility script.
+Generator script — writes the handout's `lecture.json`.
+
+Handouts: [[06 فهرس الملازم#nursing-ped-lec2-physical-assessment|nursing-ped-lec2-physical-assessment]]
 
 ```python
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user--/8f878068-bae9-502b-96f7-788f221c7cb0/scratchpad/nur")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/61936e68-b1f5-523f-9c76-ea02be11c0c4/scratchpad/nur")
 from common_nur import *
 
 blocks = [
@@ -384,5 +386,7 @@ important = [
 meta = NUR(2, "Pediatric Physical Assessment", "التقييم البدني للأطفال")
 meta["instructor"] = "م.م. عقيل سعد نايف"
 save("nursing-ped-lec2-physical-assessment", meta, blocks, mcq, tf, traps, important)
+
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/61936e68-b1f5-523f-9c76-ea02be11c0c4/scratchpad"); from flowfit import fit; fit("nursing-ped-lec2-physical-assessment")   # no big gaps (fill2 >= 80%)
 
 ```

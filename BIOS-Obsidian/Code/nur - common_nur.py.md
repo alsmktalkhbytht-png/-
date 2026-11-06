@@ -1,12 +1,12 @@
 ---
 source: BIOS-Obsidian/tools/scripts/nur/common_nur.py
 handouts: []
-saved: 2026-11-05
+saved: 2026-11-06
 tags: [bios, code]
 ---
 # nur/common_nur.py
 
-Utility script.
+Pediatric nursing meta NUR(), BN() BIOS note, chunk_lists() (old; replaced by flowfit).
 
 ```python
 import sys; sys.path.insert(0, "/tmp/claude-0/-home-user--/8f878068-bae9-502b-96f7-788f221c7cb0/scratchpad/imm456")

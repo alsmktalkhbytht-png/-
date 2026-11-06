@@ -44,42 +44,43 @@
    "en": "**Developmental Differences in Respiratory System**",
    "ar": "**الفروق التطوّرية في الجهاز التنفسي**",
    "list_en": [
-    "A child's upper airway is **shorter and more narrow** than adult (newborn's is **4 mm** in diameter; adult's is **20 mm**).",
+    "A child's upper airway is **shorter and more narrow** than adult (newborn's is **4 mm** in diameter; adult's is **20 mm**)."
+   ],
+   "list_ar": [
+    "المجرى الهوائي العلوي للطفل **أقصر وأضيق** من البالغ (قطره عند حديث الولادة **4 ملم**، وعند البالغ **20 ملم**)."
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     "Newborns—**obligatory nose breathers until 4 weeks** of age",
     "The child's larynx is more flexible than an adult's; it is easily stimulated to spasm.",
     "The child's intercostal muscles are not fully developed; pronounced **abdominal wall movement** with respiration is normal **until age 6**.",
     "Brief periods of apnea, the absence of respiration, of **up to 15 seconds** are normal in the newborn period.",
     "A child's metabolic rate is higher than an adult's (newborns have a higher oxygen demand).",
     "At birth, an infant has about **25 million alveoli**, and by age 3, about 200 million, and reach about **300 million** by adulthood.",
-    "A child's cartilage surrounding the trachea is more flexible and can compress the airway if the head is not in the proper position."
+    "A child's cartilage surrounding the trachea is more flexible and can compress the airway if the head is not in the proper position.",
+    "The Eustachian tubes are **shorter and more horizontal** in children than in adults.",
+    "A child's tonsils and lymphoid tissues are larger than an adult's.",
+    "The anterior-to-posterior diameter of the chest is equal at birth, decreasing with age."
    ],
    "list_ar": [
-    "المجرى الهوائي العلوي للطفل **أقصر وأضيق** من البالغ (قطره عند حديث الولادة **4 ملم**، وعند البالغ **20 ملم**).",
     "حديثو الولادة **يتنفّسون إجباريًا من الأنف حتى عمر 4 أسابيع**",
     "وحنجرة الطفل أكثر مرونة من البالغ؛ وتُستثار بسهولة للتشنّج.",
     "وعضلات الطفل الوربية غير مكتملة النمو؛ فـ**حركة جدار البطن** الواضحة مع التنفّس طبيعية **حتى عمر 6 سنوات**.",
     "ونوبات قصيرة من انقطاع النفس **حتى 15 ثانية** طبيعية في فترة حديث الولادة.",
     "ومعدّل الأيض عند الطفل أعلى من البالغ (حاجة حديث الولادة للأكسجين أعلى).",
     "عند الولادة لدى الرضيع نحو **25 مليون سنخ**، وبعمر 3 سنوات نحو 200 مليون، ويصل إلى نحو **300 مليون** في البلوغ.",
-    "وغضروف الطفل المحيط بالرغامى أكثر مرونة وقد يضغط المجرى الهوائي إذا لم يكن الرأس بوضع صحيح."
-   ],
-   "start": 1
-  },
-  {
-   "t": "card",
-   "en": "**Developmental Differences in Respiratory System (continued)**",
-   "ar": "**الفروق التطوّرية في الجهاز التنفسي (تكملة)**",
-   "list_en": [
-    "The Eustachian tubes are **shorter and more horizontal** in children than in adults.",
-    "A child's tonsils and lymphoid tissues are larger than an adult's.",
-    "The anterior-to-posterior diameter of the chest is equal at birth, decreasing with age."
-   ],
-   "list_ar": [
+    "وغضروف الطفل المحيط بالرغامى أكثر مرونة وقد يضغط المجرى الهوائي إذا لم يكن الرأس بوضع صحيح.",
     "وقناتا أوستاكي **أقصر وأكثر أفقية** عند الأطفال منها عند البالغين.",
     "ولوزتا الطفل وأنسجته اللمفية أكبر من البالغ.",
     "والقطر الأمامي الخلفي للصدر متساوٍ عند الولادة ويقلّ مع العمر."
    ],
-   "start": 9
+   "start": 2,
+   "_ff": 1
   },
   {
    "t": "figures",
@@ -88,14 +89,14 @@
      "src": "assets/airway-infant-adult.jpg",
      "en": "Airway of infant vs adult (Eustachian tube)",
      "ar": "المجرى الهوائي عند الرضيع مقابل البالغ (قناة أوستاكي)",
-     "h": "40mm",
+     "h": "34mm",
      "fit": "contain"
     },
     {
      "src": "assets/eustachian.jpg",
      "en": "Eustachian tube: shorter, wider and more horizontal in the child",
      "ar": "قناة أوستاكي: أقصر وأعرض وأكثر أفقية عند الطفل",
-     "h": "40mm",
+     "h": "34mm",
      "fit": "contain"
     }
    ]
@@ -132,7 +133,18 @@
    "en": "**PHYSICAL ASSESSMENT**",
    "ar": "**التقييم البدني**",
    "list_en": [
-    "The nurse should assess the configuration of the chest",
+    "The nurse should assess the configuration of the chest"
+   ],
+   "list_ar": [
+    "يجب أن يقيّم الممرّض شكل الصدر"
+   ],
+   "_ff": 2
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     "Pattern of respiratory movement, including rate, regularity, symmetry of movements, depth, effort in respiration.",
     "Tachypnea (rapid respirations), observing changes in respiratory rate, alterations in the depth of respirations—too deep (**hyperpnea**) or too shallow (**hypopnea**)—.",
     "**Retractions** or a sinking in of soft tissues, indicates a flattened diaphragm because it pulls on the rib cage in response to decrease in intrathoracic pressure.",
@@ -140,13 +152,14 @@
     "**Head bobbing** in a sleeping or exhausted infant is a sign of **dyspnea**."
    ],
    "list_ar": [
-    "يجب أن يقيّم الممرّض شكل الصدر",
     "ونمط الحركة التنفسية، ومنه المعدّل والانتظام وتناظر الحركات والعمق والجهد التنفسي.",
     "وتسرّع التنفّس، وملاحظة تغيّرات المعدّل والعمق — عميق جدًا (**فرط التنفّس**) أو سطحي جدًا (**نقص التنفّس**).",
     "و**الانسحابات** أو غؤور الأنسجة الرخوة تدلّ على تسطّح الحجاب الحاجز لأنه يسحب القفص الضلعي استجابةً لانخفاض الضغط داخل الصدر.",
     "و**رفرفة الأنف** علامة على الضائقة التنفسية.",
     "و**هزّ الرأس** عند الرضيع النائم أو المنهك علامة على **ضيق النفس**."
-   ]
+   ],
+   "start": 2,
+   "_ff": 2
   },
   {
    "t": "table",
@@ -210,7 +223,33 @@
       "mottling, pallor, and cyanosis; Peripheral bluish discoloration (acrocyanosis) resulting from circulatory stasis in the newborn or from a cool environment",
       "التبقّع والشحوب والزرقة؛ والازرقاق المحيطي (زرقة الأطراف) من ركود الدوران عند حديث الولادة أو من بيئة باردة"
      ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    76
+   ],
+   "style": "summary",
+   "label_en": "Signs to note",
+   "label_ar": "علامات تُلاحظ",
+   "_ff": 3
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Sound / sign",
+     "الصوت / العلامة"
     ],
+    [
+     "Meaning",
+     "المعنى"
+    ]
+   ],
+   "rows": [
     [
      [
       "**Chest pain**",
@@ -247,8 +286,9 @@
     76
    ],
    "style": "summary",
-   "label_en": "Signs to note",
-   "label_ar": "علامات تُلاحظ"
+   "label_en": "Signs to note (continued)",
+   "label_ar": "علامات تُلاحظ (تكملة)",
+   "_ff": 3
   },
   {
    "t": "note",
@@ -410,7 +450,33 @@
       "usually short lived or persist during the illness, transient diarrhea Abdominal Pain",
       "قصير عادةً أو يستمر طوال المرض، وإسهال عابر وألم بطني"
      ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    76
+   ],
+   "style": "summary",
+   "label_en": "Signs and Symptoms of RTI in Infants and Small Children",
+   "label_ar": "علامات العدوى التنفسية عند الرضّع والصغار",
+   "_ff": 4
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Sign",
+     "العلامة"
     ],
+    [
+     "Details",
+     "التفاصيل"
+    ]
+   ],
+   "rows": [
     [
      [
       "**Nasal Blockage**",
@@ -470,8 +536,9 @@
     76
    ],
    "style": "summary",
-   "label_en": "Signs and Symptoms of RTI in Infants and Small Children",
-   "label_ar": "علامات العدوى التنفسية عند الرضّع والصغار"
+   "label_en": "Signs and Symptoms of RTI in Infants and Small Children (continued)",
+   "label_ar": "علامات العدوى التنفسية عند الرضّع والصغار (تكملة)",
+   "_ff": 4
   },
   {
    "t": "figure",
@@ -485,38 +552,39 @@
    "en": "**NURSING CARE OF THE CHILD WITH A RESPIRATORY TRACT INFECTION**",
    "ar": "**الرعاية التمريضية للطفل المصاب بعدوى تنفسية**",
    "list_en": [
-    "Assessment",
+    "Assessment"
+   ],
+   "list_ar": [
+    "التقييم"
+   ],
+   "_ff": 5
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     "Ease Respiratory Efforts",
     "Promote Rest",
     "Promote Comfort",
     "Prevent Spread of Infection",
     "Reduce Body Temperature",
     "Promote Hydration",
-    "Provide Nutrition"
+    "Provide Nutrition",
+    "Provide Family Support and Home Care"
    ],
    "list_ar": [
-    "التقييم",
     "تسهيل الجهد التنفسي",
     "تعزيز الراحة",
     "توفير الارتياح",
     "منع انتشار العدوى",
     "خفض حرارة الجسم",
     "تعزيز الإماهة",
-    "توفير التغذية"
-   ],
-   "start": 1
-  },
-  {
-   "t": "card",
-   "en": "**NURSING CARE OF THE CHILD WITH A RESPIRATORY TRACT INFECTION (continued)**",
-   "ar": "**الرعاية التمريضية للطفل المصاب بعدوى تنفسية (تكملة)**",
-   "list_en": [
-    "Provide Family Support and Home Care"
-   ],
-   "list_ar": [
+    "توفير التغذية",
     "دعم العائلة والرعاية المنزلية"
    ],
-   "start": 9
+   "start": 2,
+   "_ff": 5
   },
   {
    "t": "note",
@@ -582,11 +650,6 @@
     [
      "Nose drops for decongestion.",
      "Products containing dextromethorphan or codeine may prescribed for a dry, hacking cough, especially at night (Some preparations contain up to 22% alcohol and can cause confusion, dizziness, nausea)."
-    ],
-    [
-     "(**Antihistamines are largely ineffective** in treatment).",
-     "These drugs have effect that dries secretions, cause drowsiness.",
-     "**Antibiotics and expectorants not indicated**."
     ]
    ],
    "list_ar": [
@@ -599,20 +662,20 @@
     [
      "قطرات أنف لإزالة الاحتقان.",
      "وقد تُوصف مستحضرات فيها ديكستروميثورفان أو كودايين للسعال الجاف المزعج، خصوصًا ليلًا (بعضها يحتوي حتى 22% كحول وقد يسبّب تشوّشًا ودوخة وغثيانًا)."
-    ],
-    [
-     "(**مضادات الهستامين غير فعّالة غالبًا** في العلاج).",
-     "وهي تجفّف الإفرازات وتسبّب النعاس.",
-     "و**المضادات الحيوية والمقشّعات غير مستطبّة**."
     ]
    ],
-   "start": 1
+   "_ff": 6
   },
   {
    "t": "card",
-   "en": "**Nursing and Therapeutic Management (continued)**",
-   "ar": "**الرعاية والمعالجة (تكملة)**",
+   "en": "",
+   "ar": "",
    "list_en": [
+    [
+     "(**Antihistamines are largely ineffective** in treatment).",
+     "These drugs have effect that dries secretions, cause drowsiness.",
+     "**Antibiotics and expectorants not indicated**."
+    ],
     [
      "Elevating the head of the bed or crib mattress assists with drainage of secretions; suctioning and vaporization.",
      "Saline nose drops and gentle suction with a bulb syringe, particularly before feeding.",
@@ -626,6 +689,11 @@
    ],
    "list_ar": [
     [
+     "(**مضادات الهستامين غير فعّالة غالبًا** في العلاج).",
+     "وهي تجفّف الإفرازات وتسبّب النعاس.",
+     "و**المضادات الحيوية والمقشّعات غير مستطبّة**."
+    ],
+    [
      "ورفع رأس السرير أو فرشة المهد يساعد تصريف الإفرازات؛ والشفط والتبخير.",
      "وقطرات الملح والشفط اللطيف بالمحقنة البصلية، خصوصًا قبل الرضاعة.",
      "والحفاظ على السوائل الكافية وتقديم المفضّلة منها لمنع الجفاف."
@@ -636,22 +704,32 @@
      "واستعمال المناديل والتخلّص منها، وتغطية الفم والأنف بها عند السعال أو العطاس، وغسل اليدين جيدًا."
     ]
    ],
-   "start": 4
+   "start": 3,
+   "_ff": 6
   },
   {
    "t": "card",
    "en": [
     "**TONSILLITIS:** Tonsillitis is a common cause of illness in young children.",
     "Tonsillitis is an inflammation of the tonsils.",
-    "(Tonsils are masses of lymphoid tissue located in the pharyngeal cavity, it protect the respiratory from invasion).",
-    "**Etiology:** The causative agent may be viral or bacterial."
+    "(Tonsils are masses of lymphoid tissue located in the pharyngeal cavity, it protect the respiratory from invasion)."
    ],
    "ar": [
     "**التهاب اللوزتين:** سبب شائع لمرض الأطفال الصغار.",
     "وهو التهاب اللوزتين.",
-    "(اللوزتان كتل من نسيج لمفي في تجويف البلعوم تحمي الجهاز التنفسي من الغزو).",
+    "(اللوزتان كتل من نسيج لمفي في تجويف البلعوم تحمي الجهاز التنفسي من الغزو)."
+   ],
+   "_ff": 7
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Etiology:** The causative agent may be viral or bacterial."
+   ],
+   "ar": [
     "**السبب:** قد يكون العامل فيروسيًا أو بكتيريًا."
-   ]
+   ],
+   "_ff": 7
   },
   {
    "t": "figure",
@@ -714,6 +792,12 @@
      "Nursing care involves providing comfort and minimizing activities that precipitate bleeding.",
      "A soft to liquid diet is generally preferred.",
      "Warm saltwater gargles, warm fluids, and analgesic-antipyretic drugs such as acetaminophen are useful to promote comfort."
+    ],
+    [
+     "**After tonsillectomy:** observe any **bleeding** and check vital signs.",
+     "Children positioned to facilitate drainage of secretions and suctioning carefully.",
+     "Discouraged coughing.",
+     "A pain medication such acetaminophen."
     ]
    ],
    "list_ar": [
@@ -729,21 +813,21 @@
      "وتشمل الرعاية التمريضية توفير الراحة وتقليل الأنشطة المسبّبة للنزف.",
      "ويُفضَّل عمومًا غذاء طري إلى سائل.",
      "والغرغرة بماء ملحي دافئ، والسوائل الدافئة، والمسكّنات الخافضة للحرارة مثل الأسيتامينوفين مفيدة للراحة."
+    ],
+    [
+     "**بعد استئصال اللوزتين:** راقب أي **نزف** وافحص العلامات الحيوية.",
+     "ويُوضع الطفل بوضعية تسهّل تصريف الإفرازات ويُشفط بحذر.",
+     "ويُمنع السعال.",
+     "ومسكّن مثل الأسيتامينوفين."
     ]
    ],
-   "start": 1
+   "_ff": 8
   },
   {
    "t": "card",
-   "en": "**Nursing and Therapeutic Management (continued)**",
-   "ar": "**الرعاية والمعالجة (تكملة)**",
+   "en": "",
+   "ar": "",
    "list_en": [
-    [
-     "**After tonsillectomy:** observe any **bleeding** and check vital signs.",
-     "Children positioned to facilitate drainage of secretions and suctioning carefully.",
-     "Discouraged coughing.",
-     "A pain medication such acetaminophen."
-    ],
     [
      "Food and fluid are restricted until children are able to swallow them and are alert with no signs of hemorrhage.",
      "Cool water, crushed ice, or diluted fruit juice is given."
@@ -757,12 +841,6 @@
    ],
    "list_ar": [
     [
-     "**بعد استئصال اللوزتين:** راقب أي **نزف** وافحص العلامات الحيوية.",
-     "ويُوضع الطفل بوضعية تسهّل تصريف الإفرازات ويُشفط بحذر.",
-     "ويُمنع السعال.",
-     "ومسكّن مثل الأسيتامينوفين."
-    ],
-    [
      "ويُقيَّد الطعام والسوائل حتى يستطيع البلع ويكون واعيًا بلا علامات نزف.",
      "ويُعطى ماء بارد أو ثلج مجروش أو عصير مخفّف."
     ],
@@ -773,7 +851,8 @@
     "وقد يحدث انسداد المجرى الهوائي بسبب الوذمة أو تجمّع الإفرازات، فيجب توفّر أدوات الشفط والأكسجين بعد العملية.",
     "ويعود معظم الأطفال إلى نشاطهم الطبيعي خلال **1–2 أسبوع** بعد العملية."
    ],
-   "start": 4
+   "start": 5,
+   "_ff": 8
   },
   {
    "t": "note",
@@ -893,32 +972,27 @@
     "analgesicantipyretic drugs such as acetaminophen or ibuprofen (should not be used in children under 6 months) for fever or discomfort or topical pain relief drops such as benzocaine or lidocaine.",
     "The use of **steroids, decongestants, and antihistamines not recommended**.",
     "**Myringotomy**, performed to drain infected middle ear fluid in the presence of complications (e.g., mastoiditis, labyrinthitis, or facial paralysis) or to allow purulent middle ear fluid to drain into the ear canal for culture.",
-    "Hearing testing is performed in children who have OM for **3 months or more**.",
-    "The application of heat over the affected side may reduce earache.",
-    [
-     "This position also facilitates drainage of the exudate if the eardrum has ruptured or if myringotomy was performed.",
-     "If the ear is draining, the external canal may be cleaned with sterile cotton swabs coupled with topical antibiotic treatment, as directed by the provider."
-    ]
+    "Hearing testing is performed in children who have OM for **3 months or more**."
    ],
    "list_ar": [
     "استعمال المضاد الحيوي (يُوصى بـ**الأموكسيسيلين** الفموي بجرعات عالية (80–90 ملغم/كغم/يوم مقسّمة على جرعتين) مدّة **5–7 أيام** للأطفال بعمر سنتين فأكثر، و**10 أيام** للأصغر؛ والأموكسيسيلين-كلافولانات (أوغمنتين) (يُوصى به إذا رافقه التهاب الملتحمة)؛ والأزيثرومايسين؛ والسيفالوسبورينات مثل سيفدينير وسيفوروكسيم وسيفبودوكسيم)",
     "والمسكّنات الخافضة للحرارة مثل الأسيتامينوفين أو الإيبوبروفين (لا يُستعمل دون 6 أشهر) للحمّى أو الانزعاج، أو قطرات مسكّنة موضعية مثل البنزوكايين أو الليدوكايين.",
     "و**لا يُوصى بالستيرويدات ومزيلات الاحتقان ومضادات الهستامين**.",
     "و**بزل الطبلة** يُجرى لتصريف سائل الأذن الوسطى المصاب عند وجود مضاعفات (مثل التهاب الخشّاء، أو التيه، أو شلل الوجه) أو للسماح بتصريف السائل القيحي للزرع.",
-    "ويُجرى اختبار السمع للأطفال المصابين بالتهاب الأذن الوسطى **3 أشهر أو أكثر**.",
-    "ووضع الحرارة على الجهة المصابة قد يخفّف ألم الأذن.",
-    [
-     "وهذه الوضعية تسهّل أيضًا تصريف النضحة إذا تمزّق غشاء الطبل أو أُجري البزل.",
-     "وإذا كانت الأذن تنزّ، يمكن تنظيف القناة الخارجية بقطن معقّم مع مضاد حيوي موضعي حسب توجيه المعالج."
-    ]
+    "ويُجرى اختبار السمع للأطفال المصابين بالتهاب الأذن الوسطى **3 أشهر أو أكثر**."
    ],
-   "start": 1
+   "_ff": 9
   },
   {
    "t": "card",
-   "en": "**Therapeutic Management (continued)**",
-   "ar": "**المعالجة (تكملة)**",
+   "en": "",
+   "ar": "",
    "list_en": [
+    "The application of heat over the affected side may reduce earache.",
+    [
+     "This position also facilitates drainage of the exudate if the eardrum has ruptured or if myringotomy was performed.",
+     "If the ear is draining, the external canal may be cleaned with sterile cotton swabs coupled with topical antibiotic treatment, as directed by the provider."
+    ],
     [
      "Healthcare providers educating the family for water precautions.",
      "Reducing the chances of OM by **sitting or holding an infant upright for feedings**."
@@ -929,6 +1003,11 @@
     ]
    ],
    "list_ar": [
+    "ووضع الحرارة على الجهة المصابة قد يخفّف ألم الأذن.",
+    [
+     "وهذه الوضعية تسهّل أيضًا تصريف النضحة إذا تمزّق غشاء الطبل أو أُجري البزل.",
+     "وإذا كانت الأذن تنزّ، يمكن تنظيف القناة الخارجية بقطن معقّم مع مضاد حيوي موضعي حسب توجيه المعالج."
+    ],
     [
      "ويثقّف مقدّمو الرعاية العائلة باحتياطات الماء.",
      "ويقلّلون فرص المرض بـ**إجلاس الرضيع أو حمله منتصبًا عند الإرضاع**."
@@ -938,7 +1017,8 @@
      "ويُمنع **التمخّط بقوّة** أثناء عدوى المجرى العلوي لتجنّب دفع الجراثيم صعودًا عبر قناة أوستاكي."
     ]
    ],
-   "start": 8
+   "start": 6,
+   "_ff": 9
   },
   {
    "t": "note",
@@ -1051,7 +1131,18 @@
    "en": "**Nursing Care Management**",
    "ar": "**الرعاية التمريضية**",
    "list_en": [
-    "Most children with bronchiolitis can be **managed at home**. treated symptomatically with adequate fluid intake, airway maintenance, and medications.",
+    "Most children with bronchiolitis can be **managed at home**. treated symptomatically with adequate fluid intake, airway maintenance, and medications."
+   ],
+   "list_ar": [
+    "يمكن علاج أغلب الأطفال المصابين **في البيت**، علاجًا عَرَضيًا بالسوائل الكافية والحفاظ على المجرى الهوائي والأدوية."
+   ],
+   "_ff": 10
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     [
      "Parents should learn how to instill **normal saline drops** into the nares and suction the mucus with a **bulb syringe** before feedings and before bedtime.",
      "Nasal aspiration of the external nares using an aspirator may be sufficient to remove most secretions."
@@ -1067,7 +1158,6 @@
     "Medical therapy (bronchodilators, corticosteroids, Antibiotics) administered as physician ordered."
    ],
    "list_ar": [
-    "يمكن علاج أغلب الأطفال المصابين **في البيت**، علاجًا عَرَضيًا بالسوائل الكافية والحفاظ على المجرى الهوائي والأدوية.",
     [
      "ويتعلّم الوالدان تقطير **قطرات المحلول الملحي** في الأنف وشفط المخاط بـ**المحقنة البصلية** قبل الرضاعة وقبل النوم.",
      "وقد يكفي شفط فتحتي الأنف بشفّاطة لإزالة أغلب الإفرازات."
@@ -1081,7 +1171,9 @@
     "وإذا دخل المستشفى: غرف منفصلة أو تجميع مع المصابين بالعدوى نفسها، واحتياطات التماس والاحتياطات القياسية، وغسل اليدين لتقليل الانتشار.",
     "ومراقبة الأكسجة بمقياس التأكسج النبضي عند الحاجة، ومراقبة السوائل الوريدية أو الأنبوبية، ومراقبة الحمّى وإعطاء خافضاتها، وإعلام الوالدين بحالة الرضيع.",
     "ويُعطى العلاج الطبي (موسّعات القصبات، والكورتيكوستيرويدات، والمضادات الحيوية) حسب أمر الطبيب."
-   ]
+   ],
+   "start": 2,
+   "_ff": 10
   },
   {
    "t": "note",
@@ -1178,7 +1270,7 @@
    "src": "assets/pneumonia-types.jpg",
    "en": "Types of pneumonia: inflammation of the upper, middle and lower lobe",
    "ar": "أنواع ذات الرئة: التهاب الفصّ العلوي والأوسط والسفلي",
-   "h": "40mm"
+   "h": "37mm"
   },
   {
    "t": "card",
@@ -1260,15 +1352,24 @@
   {
    "t": "card",
    "en": [
-    "**VIRAL PNEUMONIA:** Viral pneumonias occur **more frequently** than bacterial pneumonias.",
+    "**VIRAL PNEUMONIA:** Viral pneumonias occur **more frequently** than bacterial pneumonias."
+   ],
+   "ar": [
+    "**ذات الرئة الفيروسية:** أكثر حدوثًا من البكتيرية."
+   ],
+   "_ff": 11
+  },
+  {
+   "t": "card",
+   "en": [
     "**Clinical Manifestations:** (Acute onset, fever, cough unproductive or productive, and fatigue).",
     "**Therapeutic and Nursing Care Management:** Treatment is usually symptomatic (promote oxygenation and comfort, such as oxygen administration, chest percussion and postural drainage, antipyretics for fever, monitoring fluid intake, and family support)"
    ],
    "ar": [
-    "**ذات الرئة الفيروسية:** أكثر حدوثًا من البكتيرية.",
     "**المظاهر:** (بداية حادّة، وحمّى، وسعال غير منتج أو منتج، وتعب).",
     "**المعالجة والرعاية:** العلاج عَرَضي عادةً (تعزيز الأكسجة والراحة مثل إعطاء الأكسجين، وقرع الصدر والتصريف الوضعي، وخافضات الحرارة، ومراقبة السوائل، ودعم العائلة)"
-   ]
+   ],
+   "_ff": 11
   },
   {
    "t": "card",
@@ -1314,7 +1415,12 @@
      "Lying on the **affected side (\"good lung up\")** splints the chest on that side."
     ],
     "Fever controlled by cooling the environment and administering antipyretic drugs as prescribed.",
-    "Vital signs and oxygenation monitored to assess early signs of complications."
+    "Vital signs and oxygenation monitored to assess early signs of complications.",
+    [
+     "Suctioning to maintain a patent airway.",
+     "A simple bulb suction syringe used to clear the nasopharynx."
+    ],
+    "Postural drainage, chest percussion, and nebulized bronchodilator therapy may used depending on the child's condition."
    ],
    "list_ar": [
     "الرعاية داعمة وعَرَضية أساسًا",
@@ -1330,20 +1436,20 @@
      "والاستلقاء على **الجهة المصابة (\"الرئة السليمة للأعلى\")** يثبّت الصدر في تلك الجهة."
     ],
     "وتُضبط الحمّى بتبريد البيئة وإعطاء خافضات الحرارة حسب الوصفة.",
-    "وتُراقب العلامات الحيوية والأكسجة لاكتشاف المضاعفات مبكرًا."
+    "وتُراقب العلامات الحيوية والأكسجة لاكتشاف المضاعفات مبكرًا.",
+    [
+     "والشفط للحفاظ على مجرى هوائي مفتوح.",
+     "وتُستعمل المحقنة البصلية لتنظيف البلعوم الأنفي."
+    ],
+    "وقد يُستعمل التصريف الوضعي وقرع الصدر وموسّعات القصبات بالبخاخ حسب حالة الطفل."
    ],
-   "start": 1
+   "_ff": 12
   },
   {
    "t": "card",
-   "en": "**Nursing Care Management (continued)**",
-   "ar": "**الرعاية التمريضية (تكملة)**",
+   "en": "",
+   "ar": "",
    "list_en": [
-    [
-     "Suctioning to maintain a patent airway.",
-     "A simple bulb suction syringe used to clear the nasopharynx."
-    ],
-    "Postural drainage, chest percussion, and nebulized bronchodilator therapy may used depending on the child's condition.",
     [
      "Educates the family about medication, encouraging oral fluids.",
      "Reducing the child's anxiety leads to decreased respiratory efforts."
@@ -1351,16 +1457,12 @@
    ],
    "list_ar": [
     [
-     "والشفط للحفاظ على مجرى هوائي مفتوح.",
-     "وتُستعمل المحقنة البصلية لتنظيف البلعوم الأنفي."
-    ],
-    "وقد يُستعمل التصريف الوضعي وقرع الصدر وموسّعات القصبات بالبخاخ حسب حالة الطفل.",
-    [
      "وتثقيف العائلة بالأدوية وتشجيع السوائل بالفم.",
      "وتقليل قلق الطفل يقلّل جهده التنفسي."
     ]
    ],
-   "start": 9
+   "start": 11,
+   "_ff": 12
   },
   {
    "t": "card",
@@ -1385,17 +1487,29 @@
    "list_en": [
     "Coughing and vomiting occur immediately after ingestion.",
     "CNS symptoms include agitation, restlessness, confusion, drowsiness, and coma.",
-    "The temperature is elevated (100° to 104°F [37.8° to 40°C]).",
-    "After swallowing, coughing, and choking, the child becomes short of breath, and older children complain of dyspnea.",
-    "There are varying degrees of cyanosis, tachycardia, tachypnea, nasal flaring, and retractions."
+    "The temperature is elevated (100° to 104°F [37.8° to 40°C])."
    ],
    "list_ar": [
     "يحدث السعال والقيء فور البلع.",
     "وتشمل الأعراض العصبية الهياج والتململ والتشوّش والنعاس والغيبوبة.",
-    "وترتفع الحرارة (37.8–40 مئوية).",
+    "وترتفع الحرارة (37.8–40 مئوية)."
+   ],
+   "_ff": 13
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "After swallowing, coughing, and choking, the child becomes short of breath, and older children complain of dyspnea.",
+    "There are varying degrees of cyanosis, tachycardia, tachypnea, nasal flaring, and retractions."
+   ],
+   "list_ar": [
     "وبعد البلع والسعال والاختناق يضيق نفس الطفل، ويشكو الأكبر من ضيق النفس.",
     "وتوجد درجات متفاوتة من الزرقة وتسرّع القلب والتنفّس ورفرفة الأنف والانسحابات."
-   ]
+   ],
+   "start": 4,
+   "_ff": 13
   },
   {
    "t": "card",
@@ -1439,13 +1553,25 @@
    "en": "",
    "ar": "",
    "list_en": [
-    "Asthma is a **chronic inflammatory disorder** of the airways characterized by recurring symptoms, airway obstruction, and **bronchial hyper responsiveness**.",
+    "Asthma is a **chronic inflammatory disorder** of the airways characterized by recurring symptoms, airway obstruction, and **bronchial hyper responsiveness**."
+   ],
+   "list_ar": [
+    "الربو **اضطراب التهابي مزمن** في المجاري الهوائية، يتميّز بأعراض متكرّرة وانسداد المجرى و**فرط استجابة القصبات**."
+   ],
+   "_ff": 14
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     "Asthma is the **most common chronic disease of childhood**, the primary cause of school absences, and the third leading cause of hospitalizations in children."
    ],
    "list_ar": [
-    "الربو **اضطراب التهابي مزمن** في المجاري الهوائية، يتميّز بأعراض متكرّرة وانسداد المجرى و**فرط استجابة القصبات**.",
     "وهو **أشيع مرض مزمن في الطفولة**، والسبب الأول للغياب عن المدرسة، والثالث لدخول الأطفال المستشفى."
-   ]
+   ],
+   "start": 2,
+   "_ff": 14
   },
   {
    "t": "figure",
@@ -1634,7 +1760,33 @@
       "Moving to new home, starting new school",
       "الانتقال لبيت جديد، وبدء مدرسة جديدة"
      ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    34,
+    66
+   ],
+   "style": "summary",
+   "label_en": "Triggers Tending to Precipitate or Aggravate Asthmatic Exacerbations",
+   "label_ar": "محفّزات تثير نوبات الربو أو تزيدها",
+   "_ff": 15
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Trigger",
+     "المحفّز"
     ],
+    [
+     "Examples",
+     "أمثلة"
+    ]
+   ],
+   "rows": [
     [
      [
       "**Colds and infections; Animals**",
@@ -1704,8 +1856,9 @@
     66
    ],
    "style": "summary",
-   "label_en": "Triggers Tending to Precipitate or Aggravate Asthmatic Exacerbations",
-   "label_ar": "محفّزات تثير نوبات الربو أو تزيدها"
+   "label_en": "Triggers Tending to Precipitate or Aggravate Asthmatic Exacerbations (continued)",
+   "label_ar": "محفّزات تثير نوبات الربو أو تزيدها (تكملة)",
+   "_ff": 15
   },
   {
    "t": "card",
@@ -1716,36 +1869,37 @@
     "Bronchial spasm and mucosal edema reduce the size of the bronchial lumen, and the bronchi may be occluded by mucous plugs.",
     "Breath sounds are coarse and loud, with sonorous crackles throughout the lung fields.",
     "**Expiration is prolonged**.",
-    "Coarse rhonchi can be heard, as well as generalized inspiratory and expiratory **wheezing** that becomes more high pitched as obstruction progresses.",
-    "With minimum obstruction, wheezing may be mild (discernible only on auscultation at the end of expiration) or even absent.",
-    "With severe spasm or obstruction, breath sounds and crackles may be **inaudible**.",
-    "Wheezing may be mild or discernible only on auscultation at the end of expiration, or severe enough to be audible."
+    "Coarse rhonchi can be heard, as well as generalized inspiratory and expiratory **wheezing** that becomes more high pitched as obstruction progresses."
    ],
    "list_ar": [
     "تشمل الأعراض التنفسية **سعالًا مزعجًا نوبيًا مهيّجًا غير منتج** سببه وذمة القصبات.",
     "ويقلّل تشنّج القصبات ووذمة المخاطية قطر لمعتها، وقد تنسدّ القصبات بسدادات مخاطية.",
     "وأصوات التنفّس خشنة عالية، مع خراخر رنّانة في كل الرئتين.",
     "و**الزفير متطاول**.",
-    "وتُسمع غطيطات خشنة، و**أزيز** شهيقي وزفيري عام يزداد حدّة مع تقدّم الانسداد.",
-    "ومع الانسداد البسيط قد يكون الأزيز خفيفًا (يُسمع فقط بالسمّاعة في نهاية الزفير) أو غائبًا.",
-    "ومع التشنّج أو الانسداد الشديد قد **لا تُسمع** أصوات التنفّس والخراخر.",
-    "وقد يكون الأزيز خفيفًا أو يُسمع بالسمّاعة فقط في نهاية الزفير، أو شديدًا يُسمع بالأذن."
+    "وتُسمع غطيطات خشنة، و**أزيز** شهيقي وزفيري عام يزداد حدّة مع تقدّم الانسداد."
    ],
-   "start": 1
+   "_ff": 16
   },
   {
    "t": "card",
-   "en": "**Clinical Manifestations (continued)**",
-   "ar": "**المظاهر السريرية (تكملة)**",
+   "en": "",
+   "ar": "",
    "list_en": [
+    "With minimum obstruction, wheezing may be mild (discernible only on auscultation at the end of expiration) or even absent.",
+    "With severe spasm or obstruction, breath sounds and crackles may be **inaudible**.",
+    "Wheezing may be mild or discernible only on auscultation at the end of expiration, or severe enough to be audible.",
     "Older children may complain of chest tightness and an intermittent generalized chest pain.",
     "Children may experience a prodromal itching localized at the front of the neck or over the upper part of the back."
    ],
    "list_ar": [
+    "ومع الانسداد البسيط قد يكون الأزيز خفيفًا (يُسمع فقط بالسمّاعة في نهاية الزفير) أو غائبًا.",
+    "ومع التشنّج أو الانسداد الشديد قد **لا تُسمع** أصوات التنفّس والخراخر.",
+    "وقد يكون الأزيز خفيفًا أو يُسمع بالسمّاعة فقط في نهاية الزفير، أو شديدًا يُسمع بالأذن.",
     "وقد يشكو الأطفال الأكبر من ضيق الصدر وألم صدري عام متقطّع.",
     "وقد يشعر الأطفال بحكّة سابقة للنوبة في مقدّمة الرقبة أو أعلى الظهر."
    ],
-   "start": 9
+   "start": 6,
+   "_ff": 16
   },
   {
    "t": "card",
@@ -1769,43 +1923,40 @@
    ]
   },
   {
-   "t": "side",
-   "blocks": [
-    {
-     "t": "card",
-     "en": "**Diagnostic Evaluation:**",
-     "ar": "**التقييم التشخيصي:**",
-     "list_en": [
-      "Pulmonary function tests (PFTs)",
-      "Spirometry testing (children 5 or 6 years)",
-      "Bronchoprovocation testing (i.e., direct exposure of the mucous membranes to a suspected antigen in increasing concentrations)",
-      "Exercise challenges may be used to identify children with exercise-induced bronchospasm (EIB)",
-      "The **peak expiratory flow meter PEFM** (maximum flow of air that can be forcefully exhaled in 1 second and is measured in liters per minute).",
-      "Skin testing is useful in identifying specific allergens,",
-      [
-       "laboratory tests (elevation in the white blood cell count during acute asthma, elevations to more than 12,000/mm3 of band cells (immature neutrophils) may indicate respiratory tract infection.",
-       "Eosinophilia greater than 500/mm3 suggest an allergic or inflammatory disorder) and chest radiographs."
-      ]
-     ],
-     "list_ar": [
-      "اختبارات وظائف الرئة",
-      "قياس التنفّس (للأطفال بعمر 5 أو 6 سنوات)",
-      "اختبار الاستثارة القصبية (تعريض الأغشية المخاطية مباشرة لمستضد مشتبه بتراكيز متزايدة)",
-      "وقد تُستعمل اختبارات الجهد لتحديد الأطفال المصابين بتشنّج القصبات الناجم عن الرياضة",
-      "و**مقياس ذروة التدفّق الزفيري** (أقصى تدفّق هواء يمكن زفره بقوّة في ثانية، ويُقاس باللتر في الدقيقة).",
-      "واختبار الجلد مفيد لتحديد المؤرّجات النوعية،",
-      [
-       "والفحوص المختبرية (ارتفاع الكريات البيض في الربو الحادّ؛ وارتفاع الخلايا الشريطية (العدلات غير الناضجة) فوق 12,000/ملم³ قد يدلّ على عدوى تنفسية.",
-       "وكثرة الحمضات فوق 500/ملم³ توحي باضطراب تحسّسي أو التهابي) وأشعّة الصدر."
-      ]
-     ]
-    }
+   "t": "card",
+   "en": "**Diagnostic Evaluation:**",
+   "ar": "**التقييم التشخيصي:**",
+   "list_en": [
+    "Pulmonary function tests (PFTs)",
+    "Spirometry testing (children 5 or 6 years)",
+    "Bronchoprovocation testing (i.e., direct exposure of the mucous membranes to a suspected antigen in increasing concentrations)",
+    "Exercise challenges may be used to identify children with exercise-induced bronchospasm (EIB)",
+    "The **peak expiratory flow meter PEFM** (maximum flow of air that can be forcefully exhaled in 1 second and is measured in liters per minute).",
+    "Skin testing is useful in identifying specific allergens,",
+    [
+     "laboratory tests (elevation in the white blood cell count during acute asthma, elevations to more than 12,000/mm3 of band cells (immature neutrophils) may indicate respiratory tract infection.",
+     "Eosinophilia greater than 500/mm3 suggest an allergic or inflammatory disorder) and chest radiographs."
+    ]
    ],
-   "figure": {
-    "src": "assets/peak-flow.jpg",
-    "en": "Peak expiratory flow meter",
-    "ar": "مقياس ذروة التدفّق الزفيري"
-   }
+   "list_ar": [
+    "اختبارات وظائف الرئة",
+    "قياس التنفّس (للأطفال بعمر 5 أو 6 سنوات)",
+    "اختبار الاستثارة القصبية (تعريض الأغشية المخاطية مباشرة لمستضد مشتبه بتراكيز متزايدة)",
+    "وقد تُستعمل اختبارات الجهد لتحديد الأطفال المصابين بتشنّج القصبات الناجم عن الرياضة",
+    "و**مقياس ذروة التدفّق الزفيري** (أقصى تدفّق هواء يمكن زفره بقوّة في ثانية، ويُقاس باللتر في الدقيقة).",
+    "واختبار الجلد مفيد لتحديد المؤرّجات النوعية،",
+    [
+     "والفحوص المختبرية (ارتفاع الكريات البيض في الربو الحادّ؛ وارتفاع الخلايا الشريطية (العدلات غير الناضجة) فوق 12,000/ملم³ قد يدلّ على عدوى تنفسية.",
+     "وكثرة الحمضات فوق 500/ملم³ توحي باضطراب تحسّسي أو التهابي) وأشعّة الصدر."
+    ]
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/peak-flow.jpg",
+   "en": "Peak expiratory flow meter",
+   "ar": "مقياس ذروة التدفّق الزفيري",
+   "h": "48mm"
   },
   {
    "t": "figure",
@@ -1841,7 +1992,18 @@
    "en": "**1. General Care:**",
    "ar": "**1. الرعاية العامّة:**",
    "list_en": [
-    "The nursing care begins with a review of the child's health history; the home, school, environment; history of the current and previous episodes and precipitating factors and physical assessment with focus on the respiratory (notes chest configuration (barrel chest), posturing (tripod), and type of breathing).",
+    "The nursing care begins with a review of the child's health history; the home, school, environment; history of the current and previous episodes and precipitating factors and physical assessment with focus on the respiratory (notes chest configuration (barrel chest), posturing (tripod), and type of breathing)."
+   ],
+   "list_ar": [
+    "تبدأ الرعاية بمراجعة التاريخ الصحي للطفل؛ والبيت والمدرسة والبيئة؛ وتاريخ النوبة الحالية والسابقة والعوامل المثيرة، والتقييم البدني مع التركيز على الجهاز التنفسي (شكل الصدر (البرميلي)، والوضعية (الثلاثية)، ونوع التنفّس)."
+   ],
+   "_ff": 17
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     [
      "Parents are taught how to recognize and respond to symptoms of bronchospasm, maintain health and prevent complications, and promote normal activities.",
      "The child's asthma action plan should be reviewed periodically at least **every 6 months** in children with moderate to severe disease;"
@@ -1852,7 +2014,6 @@
     "Endotracheal intubation equipment should be readily available."
    ],
    "list_ar": [
-    "تبدأ الرعاية بمراجعة التاريخ الصحي للطفل؛ والبيت والمدرسة والبيئة؛ وتاريخ النوبة الحالية والسابقة والعوامل المثيرة، والتقييم البدني مع التركيز على الجهاز التنفسي (شكل الصدر (البرميلي)، والوضعية (الثلاثية)، ونوع التنفّس).",
     [
      "ويُعلَّم الوالدان كيفية التعرّف على أعراض تشنّج القصبات والاستجابة لها، والحفاظ على الصحة ومنع المضاعفات، وتعزيز الأنشطة الطبيعية.",
      "وتُراجع خطّة عمل الربو دوريًا **كل 6 أشهر** على الأقل في المرض المتوسط إلى الشديد؛"
@@ -1861,7 +2022,9 @@
     "والطفل على أكسجين إضافي يحتاج مراقبة أكسجة متقطّعة أو مستمرة حسب شدّة الضعف التنفسي والأكسجة الأولية.",
     "وقد تُقيَّد السوائل بالفم في المرحلة الحادّة، وقد يحتاج سوائل وريدية لإماهة كافية.",
     "ويجب أن تكون أدوات التنبيب الرغامي متوفّرة."
-   ]
+   ],
+   "start": 2,
+   "_ff": 17
   },
   {
    "t": "card",
@@ -1872,17 +2035,29 @@
      "Avoidance of an acute exacerbation.",
      "Modify the environment to reduce contact with the allergen(s)."
     ],
-    "Avoid exposing child to excessive cold, wind; smoke; sprays; and other irritants.",
-    "eliminate from the diet any foods known to provoke symptoms. caution parents to use analgesic, antipyretic drugs contain **aspirin**."
+    "Avoid exposing child to excessive cold, wind; smoke; sprays; and other irritants."
    ],
    "list_ar": [
     [
      "تجنّب النوبة الحادّة.",
      "وعدّل البيئة لتقليل التماس مع المؤرّج."
     ],
-    "وتجنّب تعريض الطفل للبرد الشديد والرياح والدخان والبخاخات والمهيّجات الأخرى.",
+    "وتجنّب تعريض الطفل للبرد الشديد والرياح والدخان والبخاخات والمهيّجات الأخرى."
+   ],
+   "_ff": 18
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "eliminate from the diet any foods known to provoke symptoms. caution parents to use analgesic, antipyretic drugs contain **aspirin**."
+   ],
+   "list_ar": [
     "وأزل من الغذاء أي أطعمة معروف أنها تثير الأعراض. وحذّر الوالدين من استعمال المسكّنات وخافضات الحرارة الحاوية على **الأسبرين**."
-   ]
+   ],
+   "start": 3,
+   "_ff": 18
   },
   {
    "t": "card",
@@ -1906,7 +2081,18 @@
    "en": "**4. Maintain Health and Prevent Complication:**",
    "ar": "**4. الحفاظ على الصحة ومنع المضاعفات:**",
    "list_en": [
-    "protected from a respiratory tract infection that can trigger an attack or aggravate the asthmatic state,",
+    "protected from a respiratory tract infection that can trigger an attack or aggravate the asthmatic state,"
+   ],
+   "list_ar": [
+    "الحماية من العدوى التنفسية التي قد تثير نوبة أو تزيد الحالة،"
+   ],
+   "_ff": 19
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     [
      "Annual **influenza vaccinations** are recommended for all children over **6 months**.",
      "The pneumococcal vaccine is also recommended"
@@ -1918,7 +2104,6 @@
     ]
    ],
    "list_ar": [
-    "الحماية من العدوى التنفسية التي قد تثير نوبة أو تزيد الحالة،",
     [
      "ويُوصى بـ**لقاح الإنفلونزا** السنوي لكل الأطفال فوق **6 أشهر**.",
      "ولقاح المكوّرات الرئوية أيضًا"
@@ -1928,7 +2113,9 @@
      "وعلّم وشجّع تمارين التنفّس والتنفّس المضبوط والأنشطة التي تعزّز التنفّس الحجابي.",
      "ومن تقنيات اللعب **نفخ كرات القطن ونفخ الفقاعات**."
     ]
-   ]
+   ],
+   "start": 2,
+   "_ff": 19
   },
   {
    "t": "card",
@@ -1949,16 +2136,28 @@
    "ar": "**6. دعم الطفل والعائلة:**",
    "list_en": [
     "provide support in a number of ways. need reassurance from the health team that they can learn to control and cope with their asthma and live a normal life.",
-    "Children in disruptive family situations may disregard their daily asthma medication regimen or may be at higher risk as a result of neglect.",
+    "Children in disruptive family situations may disregard their daily asthma medication regimen or may be at higher risk as a result of neglect."
+   ],
+   "list_ar": [
+    "قدّم الدعم بطرق عدّة؛ فهم يحتاجون طمأنة الفريق الصحي بأنهم يستطيعون التحكّم بالربو والتكيّف معه والعيش حياة طبيعية.",
+    "والأطفال في أوضاع عائلية مضطربة قد يهملون نظام أدويتهم اليومي أو يكونون أكثر خطرًا بسبب الإهمال."
+   ],
+   "_ff": 20
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     "Adolescents struggling with a sense of identity and body image and may not recognize the future impact of poor adherence to their treatment regimen.",
     "Referral for counseling and guidance"
    ],
    "list_ar": [
-    "قدّم الدعم بطرق عدّة؛ فهم يحتاجون طمأنة الفريق الصحي بأنهم يستطيعون التحكّم بالربو والتكيّف معه والعيش حياة طبيعية.",
-    "والأطفال في أوضاع عائلية مضطربة قد يهملون نظام أدويتهم اليومي أو يكونون أكثر خطرًا بسبب الإهمال.",
     "والمراهقون الذين يعانون مع الهوية وصورة الجسم قد لا يدركون الأثر المستقبلي لضعف الالتزام بالعلاج.",
     "والإحالة للإرشاد والتوجيه"
-   ]
+   ],
+   "start": 3,
+   "_ff": 20
   },
   {
    "t": "note",
@@ -2055,7 +2254,27 @@
     [
      "**Lobar / Interstitial pneumonia**",
      "ذات الرئة الفصّية / الخلالية"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 21
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
     ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
     [
      "**Bronchopneumonia**",
      "ذات القصبات والرئة"
@@ -2103,7 +2322,8 @@
    "widths": [
     36,
     64
-   ]
+   ],
+   "_ff": 21
   }
  ],
  "questions": {

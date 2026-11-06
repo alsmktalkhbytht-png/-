@@ -148,7 +148,23 @@
     "Sudden infant death syndrome.",
     "Respiratory Distress Syndrome (RDS).",
     "Accidents",
-    "Bacterial sepsis of newborn.",
+    "Bacterial sepsis of newborn."
+   ],
+   "list_ar": [
+    "التشوّهات الخلقية.",
+    "الاضطرابات المرتبطة بقِصَر مدّة الحمل.",
+    "متلازمة موت الرضيع المفاجئ.",
+    "متلازمة الضائقة التنفسية (RDS).",
+    "الحوادث",
+    "الإنتان الجرثومي عند حديث الولادة."
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     "Diseases of circulatory disorders.",
     "Intrauterine hypoxia and birth asphyxia.",
     "Acute lower respiratory infections",
@@ -157,19 +173,15 @@
     "Congenital heart diseases"
    ],
    "list_ar": [
-    "التشوّهات الخلقية.",
-    "الاضطرابات المرتبطة بقِصَر مدّة الحمل.",
-    "متلازمة موت الرضيع المفاجئ.",
-    "متلازمة الضائقة التنفسية (RDS).",
-    "الحوادث",
-    "الإنتان الجرثومي عند حديث الولادة.",
     "أمراض اضطرابات الدوران.",
     "نقص الأكسجة داخل الرحم واختناق الولادة.",
     "التهابات الجهاز التنفسي السفلي الحادّة",
     "أمراض الإسهال",
     "أمراض سوء التغذية",
     "أمراض القلب الخلقية"
-   ]
+   ],
+   "start": 7,
+   "_ff": 1
   },
   {
    "t": "note",
@@ -329,7 +341,38 @@
       "\"illnesses that are prolonged, do not resolve spontaneously, and are rarely cured completely\"; \"a disease or disorder developing slowly and persisting for a long period of time, often for the remainder of the lifetime of the individual\"",
       "\"أمراض طويلة الأمد لا تزول تلقائيًا ونادرًا ما تُشفى تمامًا\"؛ \"مرض أو اضطراب يتطوّر ببطء ويستمر مدّة طويلة، غالبًا بقيّة حياة الفرد\""
      ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    18,
+    41,
+    41
+   ],
+   "style": "summary",
+   "label_en": "Acute vs chronic",
+   "label_ar": "الحادّ مقابل المزمن",
+   "_ff": 2
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
     ],
+    [
+     "Acute illness",
+     "المرض الحادّ"
+    ],
+    [
+     "Chronic illness",
+     "المرض المزمن"
+    ]
+   ],
+   "rows": [
     [
      [
       "**Defining characteristics**",
@@ -351,8 +394,9 @@
     41
    ],
    "style": "summary",
-   "label_en": "Acute vs chronic",
-   "label_ar": "الحادّ مقابل المزمن"
+   "label_en": "Acute vs chronic (continued)",
+   "label_ar": "الحادّ مقابل المزمن (تكملة)",
+   "_ff": 2
   },
   {
    "t": "note",
@@ -476,7 +520,30 @@
       "5. Interested in family care",
       "5. مهتمّ برعاية العائلة"
      ]
+    ]
+   ],
+   "widths": [
+    45,
+    55
+   ],
+   "style": "summary",
+   "label_en": "Roles and qualities",
+   "label_ar": "الأدوار والصفات",
+   "_ff": 3
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Role of a Pediatric Nurse",
+     "دور ممرّض الأطفال"
     ],
+    [
+     "The good pediatric nurse must be (Qualified):",
+     "يجب أن يكون ممرّض الأطفال الجيد (مؤهّلًا):"
+    ]
+   ],
+   "rows": [
     [
      [
       "Care Coordinator, or health systems manager",
@@ -500,8 +567,9 @@
     55
    ],
    "style": "summary",
-   "label_en": "Roles and qualities",
-   "label_ar": "الأدوار والصفات"
+   "label_en": "Roles and qualities (continued)",
+   "label_ar": "الأدوار والصفات (تكملة)",
+   "_ff": 3
   },
   {
    "t": "note",
@@ -628,7 +696,19 @@
    "ar": "",
    "list_en": [
     "Family centered care",
-    "High technology care",
+    "High technology care"
+   ],
+   "list_ar": [
+    "الرعاية المتمركزة حول العائلة",
+    "الرعاية عالية التقنية"
+   ],
+   "_ff": 4
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     "Primary nursing",
     "Case management",
     "Cost containment",
@@ -636,14 +716,14 @@
     "Nursing process application"
    ],
    "list_ar": [
-    "الرعاية المتمركزة حول العائلة",
-    "الرعاية عالية التقنية",
     "التمريض الأولي",
     "إدارة الحالة",
     "احتواء التكاليف",
     "الرعاية غير المؤلمة (اللاصدمية)",
     "تطبيق العملية التمريضية"
-   ]
+   ],
+   "start": 3,
+   "_ff": 4
   },
   {
    "t": "card",
@@ -672,19 +752,31 @@
    "en": "",
    "ar": "",
    "list_en": [
-    "Health team should be flexible and creative in caring for the child within his family as their intervention are based on the needs of parent and child and on their coping resources.",
+    "Health team should be flexible and creative in caring for the child within his family as their intervention are based on the needs of parent and child and on their coping resources."
+   ],
+   "list_ar": [
+    "يجب أن يكون الفريق الصحي مرنًا ومبدعًا في رعاية الطفل ضمن عائلته، لأن تدخّلاته تُبنى على احتياجات الوالدين والطفل وموارد تكيّفهم."
+   ],
+   "_ff": 5
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     [
      "Although the family is the **ultimate coordinator of its own care**, the nurse can help establish a positive environment for family members and help them accept and utilize the care provided.",
      "He\\She can guide family members through the unknown of new experiences in seeking holistic health."
     ]
    ],
    "list_ar": [
-    "يجب أن يكون الفريق الصحي مرنًا ومبدعًا في رعاية الطفل ضمن عائلته، لأن تدخّلاته تُبنى على احتياجات الوالدين والطفل وموارد تكيّفهم.",
     [
      "ومع أن العائلة هي **المنسّق النهائي لرعايتها**، يستطيع الممرّض المساعدة في تهيئة بيئة إيجابية لأفراد العائلة ومساعدتهم على تقبّل الرعاية واستعمالها.",
      "ويستطيع إرشادهم خلال المجهول من التجارب الجديدة سعيًا إلى صحة شاملة."
     ]
-   ]
+   ],
+   "start": 2,
+   "_ff": 5
   },
   {
    "t": "table",
@@ -980,7 +1072,33 @@
       "Because they are unable to use words, primarily use and understand nonverbal communication.",
       "لأنهم لا يستطيعون استعمال الكلمات، يستعملون ويفهمون أساسًا التواصل غير اللفظي."
      ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    76
+   ],
+   "style": "summary",
+   "label_en": "By age",
+   "label_ar": "حسب العمر",
+   "_ff": 6
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Developmental stage",
+     "مرحلة التطوّر"
     ],
+    [
+     "Communication according developmental stage",
+     "التواصل بحسب مرحلة التطوّر"
+    ]
+   ],
+   "rows": [
     [
      [
       "**Early Childhood**",
@@ -1020,8 +1138,9 @@
     76
    ],
    "style": "summary",
-   "label_en": "By age",
-   "label_ar": "حسب العمر"
+   "label_en": "By age (continued)",
+   "label_ar": "حسب العمر (تكملة)",
+   "_ff": 6
   },
   {
    "t": "table",
@@ -1139,11 +1258,7 @@
     "Assume a position that is at eye level with child.",
     "Speak in a quiet, unhurried, and confident voice.",
     "Speak clearly, be specific, and use simple words and short sentences.",
-    "State directions and suggestions positively.",
-    "Offer a choice only when one exists.",
-    "Be honest with children.",
-    "Allow them to express their concerns and fears.",
-    "Use a variety of communication techniques"
+    "State directions and suggestions positively."
    ],
    "list_ar": [
     "امنح الأطفال وقتًا ليشعروا بالراحة.",
@@ -1154,12 +1269,28 @@
     "اتّخذ وضعية بمستوى عين الطفل.",
     "تكلّم بصوت هادئ غير مستعجل وواثق.",
     "تكلّم بوضوح وكن محدّدًا واستعمل كلمات بسيطة وجملًا قصيرة.",
-    "صِغ التوجيهات والاقتراحات بشكل إيجابي.",
+    "صِغ التوجيهات والاقتراحات بشكل إيجابي."
+   ],
+   "_ff": 7
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Offer a choice only when one exists.",
+    "Be honest with children.",
+    "Allow them to express their concerns and fears.",
+    "Use a variety of communication techniques"
+   ],
+   "list_ar": [
     "قدّم خيارًا فقط عندما يكون موجودًا فعلًا.",
     "كن صادقًا مع الأطفال.",
     "اسمح لهم بالتعبير عن مخاوفهم وقلقهم.",
     "استعمل تقنيات تواصل متنوّعة"
-   ]
+   ],
+   "start": 10,
+   "_ff": 7
   },
   {
    "t": "card",
@@ -1190,8 +1321,7 @@
      "It is one of the most important forms of communication and can be an effective technique in relating to them."
     ],
     "The nurse can often pick up on clues about physical, intellectual, and social developmental progress from the form and complexity of child's play behaviors.",
-    "Through play, children reveal their perceptions of interpersonal relationships with their family, friends, or hospital personnel.",
-    "Children may also reveal the wide scope of knowledge they have acquired from listening to others around them."
+    "Through play, children reveal their perceptions of interpersonal relationships with their family, friends, or hospital personnel."
    ],
    "list_ar": [
     [
@@ -1199,9 +1329,22 @@
      "وهو من أهم أشكال التواصل، ويمكن أن يكون تقنية فعّالة للتواصل معهم."
     ],
     "وكثيرًا ما يلتقط الممرّض مؤشّرات عن التقدّم الجسدي والفكري والاجتماعي من شكل سلوك لعب الطفل وتعقيده.",
-    "ومن خلال اللعب يكشف الأطفال تصوّراتهم عن علاقاتهم بعائلاتهم وأصدقائهم أو العاملين في المستشفى.",
+    "ومن خلال اللعب يكشف الأطفال تصوّراتهم عن علاقاتهم بعائلاتهم وأصدقائهم أو العاملين في المستشفى."
+   ],
+   "_ff": 8
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Children may also reveal the wide scope of knowledge they have acquired from listening to others around them."
+   ],
+   "list_ar": [
     "وقد يكشفون أيضًا سعة المعرفة التي اكتسبوها من الإصغاء لمن حولهم."
-   ]
+   ],
+   "start": 4,
+   "_ff": 8
   },
   {
    "t": "table",
@@ -1880,7 +2023,38 @@
       "الحصبة. / فيتامين A ‏(100,000 وحدة دولية)"
      ],
      "S.C / Oral"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    16,
+    66,
+    18
+   ],
+   "style": "summary",
+   "label_en": "Iraq schedule",
+   "label_ar": "جدول العراق",
+   "_ff": 9
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Age",
+     "العمر"
     ],
+    [
+     "Vaccines",
+     "اللقاحات"
+    ],
+    [
+     "Route",
+     "الطريق"
+    ]
+   ],
+   "rows": [
     [
      [
       "**12 to 15 mo**",
@@ -1924,8 +2098,9 @@
     18
    ],
    "style": "summary",
-   "label_en": "Iraq schedule",
-   "label_ar": "جدول العراق"
+   "label_en": "Iraq schedule (continued)",
+   "label_ar": "جدول العراق (تكملة)",
+   "_ff": 9
   },
   {
    "t": "note",
@@ -2019,7 +2194,30 @@
       "2. Does the child have allergies reaction before or after a vaccination?",
       "2. هل لدى الطفل تفاعل تحسّسي قبل اللقاح أو بعده؟"
      ]
+    ]
+   ],
+   "widths": [
+    40,
+    60
+   ],
+   "style": "summary",
+   "label_en": "Side effects and checks",
+   "label_ar": "الأعراض والفحوص",
+   "_ff": 10
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Side Effects of Vaccines",
+     "الأعراض الجانبية للقاحات"
     ],
+    [
+     "Nursing observation before giving the Vaccines",
+     "ملاحظات الممرّض قبل إعطاء اللقاح"
+    ]
+   ],
+   "rows": [
     [
      [
       "3. Lump under the skin where the shot was given.",
@@ -2053,8 +2251,9 @@
     60
    ],
    "style": "summary",
-   "label_en": "Side effects and checks",
-   "label_ar": "الأعراض والفحوص"
+   "label_en": "Side effects and checks (continued)",
+   "label_ar": "الأعراض والفحوص (تكملة)",
+   "_ff": 10
   },
   {
    "t": "card",
@@ -2214,7 +2413,33 @@
       "Polio vaccine (oral, injectable) • Orally 2 drops (special technique) • Keep in temperature (2–8 ) c",
       "لقاح شلل الأطفال (فموي، محقون) • قطرتان بالفم (تقنية خاصّة) • يُحفظ بدرجة (2–8) مئوية"
      ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    78
+   ],
+   "style": "summary",
+   "label_en": "Three vaccines",
+   "label_ar": "ثلاثة لقاحات",
+   "_ff": 11
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Disease",
+     "المرض"
     ],
+    [
+     "Vaccine facts",
+     "معلومات اللقاح"
+    ]
+   ],
+   "rows": [
     [
      [
       "**Tuberculosis** (Bacteria)",
@@ -2244,8 +2469,9 @@
     78
    ],
    "style": "summary",
-   "label_en": "Three vaccines",
-   "label_ar": "ثلاثة لقاحات"
+   "label_en": "Three vaccines (continued)",
+   "label_ar": "ثلاثة لقاحات (تكملة)",
+   "_ff": 11
   },
   {
    "t": "figures",
@@ -2373,7 +2599,27 @@
     [
      "**Immunization / Vaccination**",
      "التمنيع / التلقيح"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 12
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
     ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
     [
      "**Attenuated**",
      "موهَن / مضعَّف"
@@ -2417,7 +2663,8 @@
    "widths": [
     36,
     64
-   ]
+   ],
+   "_ff": 12
   }
  ],
  "questions": {
