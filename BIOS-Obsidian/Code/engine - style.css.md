@@ -1,9 +1,9 @@
 ---
 source: bios-engine/style.css
-saved: 2026-11-05
+saved: 2026-11-06
 tags: [bios, code, engine]
 ---
-# bios-engine/style.css (snapshot 2026-11-05)
+# bios-engine/style.css (snapshot 2026-11-06)
 
 The live file is in the repository; this note is a copy for reading in Obsidian.
 

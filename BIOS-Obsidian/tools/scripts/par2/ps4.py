@@ -1,4 +1,4 @@
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user--/8f878068-bae9-502b-96f7-788f221c7cb0/scratchpad/par2")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-claude/4a281dcf-357b-50ce-b2f4-8802cfcc6472/scratchpad/par2")
 from pz import *
 EH = "الأميبا الحالّة للنسيج"
 blocks = [

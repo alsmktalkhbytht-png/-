@@ -1,0 +1,1515 @@
+{
+ "meta": {
+  "subject_en": "Health Assessment",
+  "subject_ar": "تقييم صحي",
+  "short_ar": "تقييم صحي",
+  "unit_label": "LEC",
+  "kind": "Theory — نظري",
+  "stage": "The second stage — الثانية",
+  "department": "كلية التمريض",
+  "instructor": "د. حسن علي",
+  "unit_en": "Lecture 3",
+  "unit_ar": "المحاضرة 3",
+  "unit_no": "3",
+  "title_en": "Ear Assessment",
+  "title_ar": "تقييم الأذن"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Objectives and preparation",
+   "ar": "الأهداف والتحضير"
+  },
+  {
+   "t": "h2",
+   "en": "Ear Assessment",
+   "ar": "تقييم الأذن"
+  },
+  {
+   "t": "card",
+   "en": "**Objectives: -** At the end of this lab the student will be able to: -",
+   "ar": "**الأهداف:** في نهاية هذا الدرس سيكون الطالب قادرًا على:",
+   "list_en": [
+    "Demonstrate the ability to safely and accurately complete the ear assessment.",
+    "Demonstrate the ability to accurately document ear assessment in organized manner."
+   ],
+   "list_ar": [
+    "إظهار القدرة على إكمال تقييم الأذن بأمان ودقّة.",
+    "إظهار القدرة على توثيق تقييم الأذن بدقّة وبطريقة منظّمة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Equipment needed: -**",
+   "ar": "**الأدوات المطلوبة:**",
+   "list_en": [
+    "Otoscope with bright light.",
+    "Tunning forks."
+   ],
+   "list_ar": [
+    "منظار الأذن بضوء ساطع.",
+    "الشوكات الرنّانة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Preparation: -**",
+   "ar": "**التحضير:**",
+   "list_en": [
+    "Position the adult sitting up straight with his or her head at your eye level.",
+    "If ear canal is obstructed with cerumen, the preferred method for cleaning by softening cerumen with warmed solution of mineral oil hydrogen peroxide."
+   ],
+   "list_ar": [
+    "ضع البالغ جالسًا مستقيمًا ورأسه بمستوى عينيك.",
+    "إذا كانت قناة الأذن مسدودة بالصملاخ (شمع الأذن)، فالطريقة المفضّلة للتنظيف هي تليين الصملاخ بمحلول دافئ من الزيت المعدني بيروكسيد الهيدروجين."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Irrigate the canal with warm water",
+    "Do not irrigate if the history or the examination suggests perforation or infection."
+   ],
+   "list_ar": [
+    "اغسل القناة بماء دافئ",
+    "لا تغسل القناة إذا أشار التاريخ أو الفحص إلى ثقب أو عدوى."
+   ],
+   "start": 3
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Subjective data: -",
+     "البيانات الذاتية:"
+    ],
+    [
+     "",
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "1. Earaches.",
+      "1. ألم الأذن."
+     ],
+     [
+      "2. Hearing loss.",
+      "2. فقدان السمع."
+     ]
+    ],
+    [
+     [
+      "4. Infections.",
+      "4. العدوى (الالتهابات)."
+     ],
+     [
+      "5. Environmental noise.",
+      "5. الضوضاء البيئية."
+     ]
+    ],
+    [
+     [
+      "7. Discharges.",
+      "7. الإفرازات."
+     ],
+     [
+      "8. Tinnitus.",
+      "8. الطنين."
+     ]
+    ]
+   ],
+   "widths": [
+    50,
+    50
+   ]
+  },
+  {
+   "t": "figures",
+   "keep": true,
+   "items": [
+    {
+     "src": "assets/otoscope.jpg",
+     "en": "Examining the ear canal and eardrum with the otoscope",
+     "ar": "فحص قناة الأذن وطبلتها بمنظار الأذن",
+     "h": "40mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/otoscope-exam.jpg",
+     "en": "Otoscopic examination of the ear",
+     "ar": "فحص الأذن بالمنظار",
+     "h": "40mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Ear canal**",
+      "قناة الأذن"
+     ],
+     [
+      "**Eardrum**",
+      "طبلة الأذن"
+     ]
+    ],
+    [
+     [
+      "**Otoscope**",
+      "منظار الأذن"
+     ],
+     [
+      "",
+      ""
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Equipment: **otoscope** with bright light + **tuning forks**.",
+    "Cerumen is softened with a warmed solution, then the canal is irrigated with **warm water** — **not** if perforation or infection is suspected."
+   ],
+   "ar": [
+    "الأدوات: **منظار الأذن** بضوء ساطع + **الشوكات الرنّانة**.",
+    "يُليَّن الصملاخ بمحلول دافئ ثم تُغسل القناة بـ**ماء دافئ** — و**لا** تُغسل عند الشك بثقب أو عدوى."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "External ear and mastoid",
+   "ar": "الأذن الخارجية والناتئ الخشائي"
+  },
+  {
+   "t": "h2",
+   "en": "Inspect external ear for the following:-",
+   "ar": "افحص الأذن الخارجية بالنظر من حيث ما يلي:"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Procedure",
+     "الإجراء"
+    ],
+    [
+     "Normal findings",
+     "النتائج الطبيعية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Size and shape",
+      "الحجم والشكل"
+     ],
+     [
+      "Ears of equal size and similar appearance.",
+      "أذنان متساويتان في الحجم ومتشابهتان في المظهر."
+     ]
+    ],
+    [
+     [
+      "Position",
+      "الموضع"
+     ],
+     [
+      "Alignment of pinna with corner of eye and within 10 degree angle of vertical position.",
+      "يحاذي الصيوان زاوية العين، وضمن زاوية `10` درجات من الوضع العمودي."
+     ]
+    ],
+    [
+     [
+      "Lesions and discoloration",
+      "الآفات وتغيّر اللون"
+     ],
+     [
+      "Skin smooth and without nodules, color pink.",
+      "الجلد أملس وبلا عقيدات، ولونه وردي."
+     ]
+    ],
+    [
+     [
+      "Palpate external ear:-",
+      "جُسّ الأذن الخارجية:"
+     ],
+     [
+      "Non tender auricle, tragus.",
+      "الصيوان والزنمة غير مؤلمين."
+     ]
+    ]
+   ],
+   "widths": [
+    42,
+    58
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Palpate mastoid process for the following:-",
+   "ar": "جُسّ الناتئ الخشائي من حيث ما يلي:"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Procedure",
+     "الإجراء"
+    ],
+    [
+     "Normal findings",
+     "النتائج الطبيعية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Tenderness",
+      "الإيلام"
+     ],
+     [
+      "No tender or pain when palpated.",
+      "لا إيلام ولا ألم عند الجسّ."
+     ]
+    ],
+    [
+     [
+      "Temperature",
+      "الحرارة"
+     ],
+     [
+      "Warm.",
+      "دافئ."
+     ]
+    ],
+    [
+     [
+      "Edema",
+      "الوذمة"
+     ],
+     [
+      "Mastoid process easily palpated.",
+      "يُجسّ الناتئ الخشائي بسهولة."
+     ]
+    ]
+   ],
+   "widths": [
+    42,
+    58
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Ears equal; pinna aligned with the **corner of the eye**, within **10°** of vertical.",
+    "Auricle and tragus **non-tender**; mastoid warm, non-tender, easily palpated."
+   ],
+   "ar": [
+    "الأذنان متساويتان؛ والصيوان يحاذي **زاوية العين** وضمن **`10°`** من العمودي.",
+    "الصيوان والزنمة **غير مؤلمين**؛ والناتئ الخشائي دافئ وغير مؤلم ويُجسّ بسهولة."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Otoscopic examination",
+   "ar": "الفحص بمنظار الأذن"
+  },
+  {
+   "t": "h2",
+   "en": "Inspect auditory canal using otoscope for the following:-",
+   "ar": "افحص القناة السمعية بمنظار الأذن من حيث ما يلي:"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Procedure",
+     "الإجراء"
+    ],
+    [
+     "Normal findings",
+     "النتائج الطبيعية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Cerumen",
+      "الصملاخ"
+     ],
+     [
+      "**Color**: black, dark red, gray, or brown. **Consistency**: waxy, flaky, soft, or hard. **Odor**: non.",
+      "**اللون**: أسود، أو أحمر داكن، أو رمادي، أو بنّي. **القوام**: شمعي، أو متقشّر، أو طري، أو صلب. **الرائحة**: لا توجد."
+     ]
+    ],
+    [
+     [
+      "Appearance",
+      "المظهر"
+     ],
+     [
+      "Canal walls pink and uniform with tympanic membrane visible.",
+      "جدران القناة وردية ومتجانسة والغشاء الطبلي مرئي."
+     ]
+    ],
+    [
+     [
+      "Tenderness",
+      "الإيلام"
+     ],
+     [
+      "Little or no discomfort on manipulation of pinna; inner two third of canal very tender if touched with speculum.",
+      "انزعاج قليل أو معدوم عند تحريك الصيوان؛ والثلثان الداخليان من القناة مؤلمان جدًا إذا لُمسا بالمنظار."
+     ]
+    ]
+   ],
+   "widths": [
+    42,
+    58
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Inspect tympanic membrane using otoscope for following:-",
+   "ar": "افحص الغشاء الطبلي بمنظار الأذن من حيث ما يلي:"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Procedure",
+     "الإجراء"
+    ],
+    [
+     "Normal findings",
+     "النتائج الطبيعية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Color",
+      "اللون"
+     ],
+     [
+      "Pearly gray , shiny, & translucent",
+      "رمادي لؤلؤي، ولامع، وشفّاف"
+     ]
+    ],
+    [
+     [
+      "Consistency",
+      "القوام"
+     ],
+     [
+      "Intact: - may show movement when swallowing.",
+      "سليم: قد يُظهر حركة عند البلع."
+     ]
+    ],
+    [
+     [
+      "Landmark",
+      "المعالم"
+     ],
+     [
+      "Cone of light, umbo, handle of malleus & short process of malleus easily visualized.",
+      "يُرى مخروط الضوء، والسُّرّة، ومقبض المطرقة، والناتئ القصير للمطرقة بسهولة."
+     ]
+    ]
+   ],
+   "widths": [
+    42,
+    58
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Cerumen: black, dark red, gray or brown; **no odor**.",
+    "Tympanic membrane: **pearly gray, shiny, translucent**, intact; landmarks: **cone of light, umbo, handle and short process of malleus**."
+   ],
+   "ar": [
+    "الصملاخ: أسود أو أحمر داكن أو رمادي أو بنّي؛ و**بلا رائحة**.",
+    "الغشاء الطبلي: **رمادي لؤلؤي، لامع، شفّاف**، وسليم؛ ومعالمه: **مخروط الضوء، والسُّرّة، ومقبض المطرقة وناتئها القصير**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Auditory function",
+   "ar": "وظيفة السمع"
+  },
+  {
+   "t": "h2",
+   "en": "Assess auditory function for the following :-",
+   "ar": "قيّم وظيفة السمع من حيث ما يلي:"
+  },
+  {
+   "t": "card",
+   "en": "**a) Voice test**",
+   "ar": "**أ) اختبار الصوت (الهمس)**",
+   "list_en": [
+    "Test one ear at a time while masking hearing in the other ear.",
+    "Shield your lips so the client cannot compensate for hearing loss by lip reading or using the good ear.",
+    "Stand 30 to 60cm (1-2ft) from the client’s ear.",
+    "Exhale & whisper slowly some tow syllable words, such as, armchair, baseball.",
+    "Ask the client to repeat what you said."
+   ],
+   "list_ar": [
+    "افحص أذنًا واحدة في كل مرة مع حجب السمع في الأذن الأخرى.",
+    "احجب شفتيك حتى لا يعوّض المريض فقدان السمع بقراءة الشفاه أو باستعمال الأذن السليمة.",
+    "قف على بُعد `30 to 60cm` (`1-2ft`) من أذن المريض.",
+    "ازفر وهمس ببطء بعض الكلمات ذات المقطعين، مثل `armchair` و`baseball`.",
+    "اطلب من المريض تكرار ما قلته."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Normal findings",
+     "النتائج الطبيعية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "The client is able to hear whispered word from 1-2 ft.",
+      "يستطيع المريض سماع الكلمة المهموسة من `1-2 ft`."
+     ]
+    ]
+   ],
+   "widths": [
+    100
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**b) Lateralization of sound (weber test):-**",
+   "ar": "**ب) تحديد جانب الصوت (اختبار ويبر):**",
+   "list_en": [
+    "Place a vibrating tuning fork in the middle of the client’s skull.",
+    "Ask if the ton sounds the same in both ears or better in one."
+   ],
+   "list_ar": [
+    "ضع شوكة رنّانة مهتزّة في منتصف جمجمة المريض.",
+    "اسأله هل النغمة تُسمع متساوية في الأذنين أم أوضح في إحداهما."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Normal findings",
+     "النتائج الطبيعية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Vibration heard equally in both ears.",
+      "يُسمع الاهتزاز بالتساوي في الأذنين."
+     ]
+    ]
+   ],
+   "widths": [
+    100
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/weber.jpg",
+   "en": "Weber test: vibrating tuning fork in the middle of the skull",
+   "ar": "اختبار ويبر: شوكة رنّانة مهتزّة في منتصف الجمجمة",
+   "h": "48mm",
+   "fit": "contain"
+  },
+  {
+   "t": "card",
+   "en": "**c) Comparison of air conduction (AC) to bone conduction (BC) (Rinne test ):-**",
+   "ar": "**ج) مقارنة التوصيل الهوائي (`AC`) بالتوصيل العظمي (`BC`) (اختبار رينّي):**",
+   "list_en": [
+    "Place the stem of the vibrating tuning fork on the client’s mastoid process.",
+    "Ask him to signal when the sound goes away.",
+    "Quickly invert the fork so the vibrating end is near canal.",
+    "Repeat with the other ear."
+   ],
+   "list_ar": [
+    "ضع ساق الشوكة الرنّانة المهتزّة على الناتئ الخشائي للمريض.",
+    "اطلب منه أن يشير عندما يختفي الصوت.",
+    "اقلب الشوكة بسرعة بحيث يكون الطرف المهتزّ قرب القناة.",
+    "كرّر مع الأذن الأخرى."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Normal findings",
+     "النتائج الطبيعية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "AC >BC (AC is twice as long as BC).",
+      "`AC > BC` (التوصيل الهوائي ضعف مدّة التوصيل العظمي)."
+     ]
+    ]
+   ],
+   "widths": [
+    100
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/bc-ac.jpg",
+   "en": "Rinne test: bone conduction then air conduction",
+   "ar": "اختبار رينّي: التوصيل العظمي ثم الهوائي",
+   "h": "46mm",
+   "fit": "contain",
+   "keep": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
+    ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Bone Conduction (BC)**",
+      "التوصيل العظمي"
+     ],
+     [
+      "**Air Conduction (AC)**",
+      "التوصيل الهوائي"
+     ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Voice test: stand **30–60 cm**, whisper two-syllable words; normal hears at **1–2 ft**.",
+    "**Weber**: fork on the middle of the skull → heard **equally** in both ears.",
+    "**Rinne**: mastoid then canal → **AC > BC** (AC twice as long)."
+   ],
+   "ar": [
+    "اختبار الهمس: قف على **`30–60 cm`** وهمس بكلمات من مقطعين؛ والطبيعي يسمع من **`1–2 ft`**.",
+    "**ويبر**: الشوكة على منتصف الجمجمة ← تُسمع **بالتساوي** في الأذنين.",
+    "**رينّي**: الخشائي ثم القناة ← **`AC > BC`** (الهوائي ضعف المدّة)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Equilibrium",
+   "ar": "التوازن"
+  },
+  {
+   "t": "card",
+   "en": "**Perform (Romberg test) for equilibrium:-**",
+   "ar": "**أجرِ (اختبار رومبرغ) للتوازن:**",
+   "list_en": [
+    "Let the client stand with feet together.",
+    "First, with eye opening.",
+    "Then With eyes closed.",
+    "Put your arms around client to prevent fail."
+   ],
+   "list_ar": [
+    "اجعل المريض يقف وقدماه متلاصقتان.",
+    "أولًا مع فتح العينين.",
+    "ثم مع إغلاق العينين.",
+    "ضع ذراعيك حول المريض لمنع سقوطه."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Normal findings",
+     "النتائج الطبيعية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Client stands straight with minimal swaying.",
+      "يقف المريض مستقيمًا مع تمايل قليل."
+     ]
+    ]
+   ],
+   "widths": [
+    100
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Romberg**: feet together, eyes open then closed → stands straight with **minimal swaying**."
+   ],
+   "ar": [
+    "**رومبرغ**: القدمان متلاصقتان، والعينان مفتوحتان ثم مغلقتان ← يقف مستقيمًا مع **تمايل قليل**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Otoscope**",
+     "منظار الأذن"
+    ],
+    [
+     "**Tuning fork**",
+     "الشوكة الرنّانة"
+    ],
+    [
+     "**Cerumen**",
+     "الصملاخ / شمع الأذن"
+    ],
+    [
+     "**Pinna / auricle**",
+     "الصيوان / صيوان الأذن"
+    ],
+    [
+     "**Tragus**",
+     "الزنمة / الوتدة"
+    ],
+    [
+     "**Mastoid process**",
+     "الناتئ الخشائي / عظم خلف الأذن"
+    ],
+    [
+     "**Tympanic membrane**",
+     "الغشاء الطبلي / طبلة الأذن"
+    ],
+    [
+     "**Umbo**",
+     "السُّرّة (مركز الطبلة)"
+    ],
+    [
+     "**Malleus**",
+     "المطرقة"
+    ],
+    [
+     "**Cone of light**",
+     "مخروط الضوء / المنعكس الضوئي"
+    ],
+    [
+     "**Air conduction (AC)**",
+     "التوصيل الهوائي"
+    ],
+    [
+     "**Bone conduction (BC)**",
+     "التوصيل العظمي"
+    ],
+    [
+     "**Lateralization**",
+     "تحديد الجانب / الانحياز الجانبي للصوت"
+    ],
+    [
+     "**Tinnitus**",
+     "الطنين / رنين الأذن"
+    ],
+    [
+     "**Equilibrium**",
+     "التوازن"
+    ],
+    [
+     "**Perforation**",
+     "الثقب / الانثقاب"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Preparation and external ear",
+    "topic_ar": "التحضير والأذن الخارجية"
+   },
+   {
+    "en": "The equipment needed for ear assessment is:",
+    "ar": "أدوات تقييم الأذن:",
+    "options": [
+     [
+      "Tongue blade and gauze",
+      "خافض لسان وشاش"
+     ],
+     [
+      "Ophthalmoscope and Snellen chart",
+      "منظار العين ولوحة سنلن"
+     ],
+     [
+      "Stethoscope and ruler",
+      "سمّاعة ومسطرة"
+     ],
+     [
+      "Otoscope and tuning forks",
+      "منظار الأذن والشوكات الرنّانة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Cerumen obstructing the canal is cleaned by first:",
+    "ar": "يُنظَّف الصملاخ الساد للقناة أولًا بـ:",
+    "options": [
+     [
+      "Softening it with a warmed solution",
+      "تليينه بمحلول دافئ"
+     ],
+     [
+      "Removing it with forceps",
+      "إزالته بملقط"
+     ],
+     [
+      "Cold water irrigation",
+      "الغسل بماء بارد"
+     ],
+     [
+      "Cotton swabs",
+      "أعواد القطن"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Irrigation of the ear canal is contraindicated when there is:",
+    "ar": "يُمنع غسل قناة الأذن عند وجود:",
+    "options": [
+     [
+      "Cerumen",
+      "صملاخ"
+     ],
+     [
+      "Tinnitus",
+      "طنين"
+     ],
+     [
+      "Perforation or infection",
+      "ثقب أو عدوى"
+     ],
+     [
+      "Hearing loss",
+      "فقدان سمع"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The ear canal is irrigated with:",
+    "ar": "تُغسل قناة الأذن بـ:",
+    "options": [
+     [
+      "Cold water",
+      "ماء بارد"
+     ],
+     [
+      "Warm water",
+      "ماء دافئ"
+     ],
+     [
+      "Hot oil",
+      "زيت ساخن"
+     ],
+     [
+      "Alcohol",
+      "كحول"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The normal pinna is aligned with:",
+    "ar": "يحاذي الصيوان الطبيعي:",
+    "options": [
+     [
+      "The eyebrow",
+      "الحاجب"
+     ],
+     [
+      "The tip of the nose",
+      "طرف الأنف"
+     ],
+     [
+      "The chin",
+      "الذقن"
+     ],
+     [
+      "The corner of the eye",
+      "زاوية العين"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The pinna normally lies within ___ of the vertical position:",
+    "ar": "يقع الصيوان طبيعيًا ضمن ___ من الوضع العمودي:",
+    "options": [
+     [
+      "10 degree",
+      "10 درجات"
+     ],
+     [
+      "45 degree",
+      "45 درجة"
+     ],
+     [
+      "30 degree",
+      "30 درجة"
+     ],
+     [
+      "90 degree",
+      "90 درجة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The normal mastoid process is:",
+    "ar": "الناتئ الخشائي الطبيعي:",
+    "options": [
+     [
+      "Tender and hot",
+      "مؤلم وساخن"
+     ],
+     [
+      "Warm, non-tender, easily palpated",
+      "دافئ وغير مؤلم ويُجسّ بسهولة"
+     ],
+     [
+      "Edematous",
+      "متوذّم"
+     ],
+     [
+      "Not palpable",
+      "لا يُجسّ"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Otoscope",
+    "topic_ar": "منظار الأذن"
+   },
+   {
+    "en": "The normal odor of cerumen is:",
+    "ar": "رائحة الصملاخ الطبيعية:",
+    "options": [
+     [
+      "Foul",
+      "كريهة"
+     ],
+     [
+      "Sweet",
+      "حلوة"
+     ],
+     [
+      "None",
+      "لا توجد"
+     ],
+     [
+      "Sour",
+      "حامضة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which is NOT a normal color of cerumen?",
+    "ar": "أيّها ليس لونًا طبيعيًا للصملاخ؟",
+    "options": [
+     [
+      "Green",
+      "أخضر"
+     ],
+     [
+      "Black",
+      "أسود"
+     ],
+     [
+      "Gray",
+      "رمادي"
+     ],
+     [
+      "Brown",
+      "بنّي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The part of the canal that is very tender if touched with the speculum:",
+    "ar": "جزء القناة المؤلم جدًا إذا لُمس بالمنظار:",
+    "options": [
+     [
+      "Outer one third",
+      "الثلث الخارجي"
+     ],
+     [
+      "Inner two third",
+      "الثلثان الداخليان"
+     ],
+     [
+      "Tragus",
+      "الزنمة"
+     ],
+     [
+      "Pinna",
+      "الصيوان"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The normal tympanic membrane color is:",
+    "ar": "لون الغشاء الطبلي الطبيعي:",
+    "options": [
+     [
+      "Red and bulging",
+      "أحمر ومنتفخ"
+     ],
+     [
+      "Yellow",
+      "أصفر"
+     ],
+     [
+      "White and opaque",
+      "أبيض ومعتم"
+     ],
+     [
+      "Pearly gray, shiny & translucent",
+      "رمادي لؤلؤي لامع وشفّاف"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The landmarks of the tympanic membrane include all EXCEPT:",
+    "ar": "معالم الغشاء الطبلي تشمل كل ما يلي عدا:",
+    "options": [
+     [
+      "Cone of light",
+      "مخروط الضوء"
+     ],
+     [
+      "Umbo",
+      "السُّرّة"
+     ],
+     [
+      "Tragus",
+      "الزنمة"
+     ],
+     [
+      "Handle of malleus",
+      "مقبض المطرقة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The intact tympanic membrane may show movement when:",
+    "ar": "قد يُظهر الغشاء الطبلي السليم حركة عند:",
+    "options": [
+     [
+      "Coughing only",
+      "السعال فقط"
+     ],
+     [
+      "Blinking",
+      "الرمش"
+     ],
+     [
+      "Swallowing",
+      "البلع"
+     ],
+     [
+      "Standing",
+      "الوقوف"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Hearing tests",
+    "topic_ar": "اختبارات السمع"
+   },
+   {
+    "en": "In the voice test, the examiner stands from the client's ear at:",
+    "ar": "في اختبار الصوت يقف الفاحص من أذن المريض على بُعد:",
+    "options": [
+     [
+      "30 to 60 cm (1-2 ft)",
+      "30 إلى 60 سم (1-2 قدم)"
+     ],
+     [
+      "10 cm",
+      "10 سم"
+     ],
+     [
+      "20 feet",
+      "20 قدمًا"
+     ],
+     [
+      "3 m",
+      "3 م"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The examiner shields the lips during the voice test to prevent:",
+    "ar": "يحجب الفاحص شفتيه في اختبار الصوت لمنع:",
+    "options": [
+     [
+      "Infection",
+      "العدوى"
+     ],
+     [
+      "Lip reading",
+      "قراءة الشفاه"
+     ],
+     [
+      "Loud sound",
+      "الصوت العالي"
+     ],
+     [
+      "Swallowing",
+      "البلع"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The words whispered in the voice test are:",
+    "ar": "الكلمات المهموسة في اختبار الصوت:",
+    "options": [
+     [
+      "Numbers only",
+      "أرقام فقط"
+     ],
+     [
+      "One-syllable words",
+      "كلمات من مقطع واحد"
+     ],
+     [
+      "Long sentences",
+      "جمل طويلة"
+     ],
+     [
+      "Two syllable words like armchair, baseball",
+      "كلمات من مقطعين مثل armchair وbaseball"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In the Weber test, the tuning fork is placed:",
+    "ar": "في اختبار ويبر توضع الشوكة الرنّانة:",
+    "options": [
+     [
+      "In the middle of the client's skull",
+      "في منتصف جمجمة المريض"
+     ],
+     [
+      "On the mastoid process",
+      "على الناتئ الخشائي"
+     ],
+     [
+      "Near the canal",
+      "قرب القناة"
+     ],
+     [
+      "On the chest",
+      "على الصدر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The normal Weber test result is:",
+    "ar": "النتيجة الطبيعية لاختبار ويبر:",
+    "options": [
+     [
+      "Heard better in the right ear",
+      "يُسمع أوضح في اليمنى"
+     ],
+     [
+      "BC > AC",
+      "BC > AC"
+     ],
+     [
+      "Not heard",
+      "لا يُسمع"
+     ],
+     [
+      "Vibration heard equally in both ears",
+      "يُسمع الاهتزاز بالتساوي في الأذنين"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The Rinne test compares:",
+    "ar": "يقارن اختبار رينّي بين:",
+    "options": [
+     [
+      "Right and left ears",
+      "الأذن اليمنى واليسرى"
+     ],
+     [
+      "Air conduction and bone conduction",
+      "التوصيل الهوائي والعظمي"
+     ],
+     [
+      "Whisper and voice",
+      "الهمس والصوت"
+     ],
+     [
+      "Balance and hearing",
+      "التوازن والسمع"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The normal Rinne test result is:",
+    "ar": "النتيجة الطبيعية لاختبار رينّي:",
+    "options": [
+     [
+      "BC > AC",
+      "BC > AC"
+     ],
+     [
+      "AC = BC",
+      "AC = BC"
+     ],
+     [
+      "AC > BC (AC twice as long as BC)",
+      "AC > BC (الهوائي ضعف العظمي)"
+     ],
+     [
+      "BC twice AC",
+      "BC ضعف AC"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In the Rinne test, the stem of the fork is first placed on the:",
+    "ar": "في اختبار رينّي يوضع ساق الشوكة أولًا على:",
+    "options": [
+     [
+      "Tragus",
+      "الزنمة"
+     ],
+     [
+      "Forehead",
+      "الجبهة"
+     ],
+     [
+      "Mastoid process",
+      "الناتئ الخشائي"
+     ],
+     [
+      "Middle of the skull",
+      "منتصف الجمجمة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The Romberg test assesses:",
+    "ar": "يقيّم اختبار رومبرغ:",
+    "options": [
+     [
+      "Hearing",
+      "السمع"
+     ],
+     [
+      "Equilibrium",
+      "التوازن"
+     ],
+     [
+      "Cerumen",
+      "الصملاخ"
+     ],
+     [
+      "Tympanic membrane",
+      "الغشاء الطبلي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The normal Romberg result is:",
+    "ar": "النتيجة الطبيعية لاختبار رومبرغ:",
+    "options": [
+     [
+      "Stands straight with minimal swaying",
+      "يقف مستقيمًا مع تمايل قليل"
+     ],
+     [
+      "Cannot stand with eyes closed",
+      "لا يستطيع الوقوف مغمض العينين"
+     ],
+     [
+      "Falls to one side",
+      "يسقط لجانب"
+     ],
+     [
+      "Marked swaying",
+      "تمايل شديد"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Picture: this test is the:",
+    "ar": "صورة: هذا الاختبار هو:",
+    "options": [
+     [
+      "Rinne test",
+      "اختبار رينّي"
+     ],
+     [
+      "Romberg test",
+      "اختبار رومبرغ"
+     ],
+     [
+      "Voice test",
+      "اختبار الصوت"
+     ],
+     [
+      "Weber test",
+      "اختبار ويبر"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/weber.jpg",
+    "img_h": "36mm"
+   },
+   {
+    "en": "Picture: the two positions shown are used in the:",
+    "ar": "صورة: الوضعان الظاهران يُستعملان في:",
+    "options": [
+     [
+      "Otoscopy",
+      "الفحص بالمنظار"
+     ],
+     [
+      "Weber test",
+      "اختبار ويبر"
+     ],
+     [
+      "Romberg test",
+      "اختبار رومبرغ"
+     ],
+     [
+      "Rinne test (BC and AC)",
+      "اختبار رينّي (العظمي والهوائي)"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/bc-ac.jpg",
+    "img_h": "32mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Ears of equal size and similar appearance are normal.",
+    "ar": "الأذنان المتساويتان والمتشابهتان طبيعيتان.",
+    "answer": "T"
+   },
+   {
+    "en": "The ear canal can be irrigated even if perforation is suspected.",
+    "ar": "يمكن غسل قناة الأذن حتى عند الشك بثقب.",
+    "answer": "F"
+   },
+   {
+    "en": "The auricle and tragus are normally non-tender.",
+    "ar": "الصيوان والزنمة غير مؤلمين طبيعيًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Normal cerumen has a foul odor.",
+    "ar": "الصملاخ الطبيعي له رائحة كريهة.",
+    "answer": "F"
+   },
+   {
+    "en": "The tympanic membrane is normally pearly gray, shiny and translucent.",
+    "ar": "الغشاء الطبلي طبيعيًا رمادي لؤلؤي لامع وشفّاف.",
+    "answer": "T"
+   },
+   {
+    "en": "In the voice test, both ears are tested together.",
+    "ar": "في اختبار الصوت تُفحص الأذنان معًا.",
+    "answer": "F"
+   },
+   {
+    "en": "The normal client hears a whispered word from 1-2 ft.",
+    "ar": "يسمع المريض الطبيعي الكلمة المهموسة من 1-2 قدم.",
+    "answer": "T"
+   },
+   {
+    "en": "In the Weber test, the fork is placed on the mastoid process.",
+    "ar": "في اختبار ويبر توضع الشوكة على الناتئ الخشائي.",
+    "answer": "F"
+   },
+   {
+    "en": "In a normal Rinne test, AC is twice as long as BC.",
+    "ar": "في اختبار رينّي الطبيعي يكون الهوائي ضعف مدّة العظمي.",
+    "answer": "T"
+   },
+   {
+    "en": "The Romberg test is done first with eyes open, then with eyes closed.",
+    "ar": "يُجرى اختبار رومبرغ أولًا بعينين مفتوحتين ثم مغلقتين.",
+    "answer": "T"
+   },
+   {
+    "en": "The outer two third of the canal is very tender to the speculum.",
+    "ar": "الثلثان الخارجيان من القناة مؤلمان جدًا للمنظار.",
+    "answer": "F"
+   },
+   {
+    "en": "The examiner puts the arms around the client during the Romberg test to prevent falling.",
+    "ar": "يضع الفاحص ذراعيه حول المريض في اختبار رومبرغ لمنع سقوطه.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Weber vs Rinne",
+    "ar": "ويبر مقابل رينّي",
+    "answer_en": "Weber: fork in the middle of the skull → heard equally in both ears. Rinne: fork on the mastoid then near the canal → AC > BC.",
+    "answer_ar": "ويبر: الشوكة في منتصف الجمجمة ← تُسمع بالتساوي. رينّي: الشوكة على الخشائي ثم قرب القناة ← AC > BC."
+   },
+   {
+    "en": "AC > BC or BC > AC?",
+    "ar": "AC > BC أم BC > AC؟",
+    "answer_en": "Normal is AC > BC; AC is twice as long as BC.",
+    "answer_ar": "الطبيعي AC > BC؛ والهوائي ضعف مدّة العظمي."
+   },
+   {
+    "en": "Which part of the canal is very tender?",
+    "ar": "أي جزء من القناة مؤلم جدًا؟",
+    "answer_en": "The inner two third of the canal when touched with the speculum; pinna manipulation causes little or no discomfort.",
+    "answer_ar": "الثلثان الداخليان عند لمسهما بالمنظار؛ أما تحريك الصيوان فيسبّب انزعاجًا قليلًا أو معدومًا."
+   },
+   {
+    "en": "Hearing test vs balance test",
+    "ar": "اختبار السمع مقابل التوازن",
+    "answer_en": "Voice, Weber and Rinne test hearing; Romberg tests equilibrium.",
+    "answer_ar": "الصوت وويبر ورينّي تفحص السمع؛ ورومبرغ يفحص التوازن."
+   },
+   {
+    "en": "Tympanic membrane landmarks",
+    "ar": "معالم الغشاء الطبلي",
+    "answer_en": "Cone of light, umbo, handle of malleus and short process of malleus — not the tragus (part of the external ear).",
+    "answer_ar": "مخروط الضوء، والسُّرّة، ومقبض المطرقة وناتئها القصير — وليست الزنمة (جزء من الأذن الخارجية)."
+   }
+  ],
+  "important": [
+   {
+    "en": "Describe the preparation for ear assessment.",
+    "ar": "صف التحضير لتقييم الأذن.",
+    "answer_en": "Position the adult sitting up straight with the head at your eye level; if the canal is obstructed with cerumen, soften it with a warmed solution of mineral oil hydrogen peroxide; irrigate with warm water; do not irrigate if history or examination suggests perforation or infection.",
+    "answer_ar": "يجلس البالغ مستقيمًا ورأسه بمستوى عينيك؛ وإذا سدّ الصملاخ القناة يُليَّن بمحلول دافئ من الزيت المعدني بيروكسيد الهيدروجين؛ وتُغسل بماء دافئ؛ ولا تُغسل عند الشك بثقب أو عدوى."
+   },
+   {
+    "en": "Give the normal findings of the tympanic membrane.",
+    "ar": "اذكر النتائج الطبيعية للغشاء الطبلي.",
+    "answer_en": "Color: pearly gray, shiny & translucent. Consistency: intact, may show movement when swallowing. Landmarks: cone of light, umbo, handle of malleus and short process of malleus easily visualized.",
+    "answer_ar": "اللون: رمادي لؤلؤي لامع وشفّاف. القوام: سليم وقد يتحرّك عند البلع. المعالم: مخروط الضوء والسُّرّة ومقبض المطرقة وناتئها القصير تُرى بسهولة."
+   },
+   {
+    "en": "How is the voice test performed?",
+    "ar": "كيف يُجرى اختبار الصوت؟",
+    "answer_en": "Test one ear at a time while masking the other; shield your lips; stand 30 to 60 cm (1-2 ft) from the ear; exhale and whisper slowly two-syllable words such as armchair, baseball; ask the client to repeat them. Normal: hears whispered words from 1-2 ft.",
+    "answer_ar": "تُفحص أذن واحدة مع حجب الأخرى؛ ويحجب الفاحص شفتيه؛ ويقف على بُعد 30 إلى 60 سم؛ ويزفر ويهمس ببطء كلمات من مقطعين مثل armchair وbaseball؛ ويكرّرها المريض. الطبيعي: يسمعها من 1-2 قدم."
+   },
+   {
+    "en": "Compare the Weber and Rinne tests.",
+    "ar": "قارن بين اختباري ويبر ورينّي.",
+    "answer_en": "Weber (lateralization of sound): fork in the middle of the skull; normal = heard equally in both ears. Rinne (AC vs BC): fork on the mastoid until the sound goes away, then near the canal; normal = AC > BC (AC twice as long as BC).",
+    "answer_ar": "ويبر (تحديد جانب الصوت): الشوكة في منتصف الجمجمة؛ والطبيعي تُسمع بالتساوي. رينّي (الهوائي مقابل العظمي): على الخشائي حتى يختفي الصوت ثم قرب القناة؛ والطبيعي AC > BC (الهوائي ضعف العظمي)."
+   },
+   {
+    "en": "Describe the Romberg test.",
+    "ar": "صف اختبار رومبرغ.",
+    "answer_en": "For equilibrium: the client stands with feet together, first with eyes open then with eyes closed; put your arms around the client to prevent falling. Normal: stands straight with minimal swaying.",
+    "answer_ar": "للتوازن: يقف المريض وقدماه متلاصقتان، أولًا بعينين مفتوحتين ثم مغلقتين؛ ويضع الفاحص ذراعيه حوله لمنع السقوط. الطبيعي: يقف مستقيمًا مع تمايل قليل."
+   }
+  ]
+ }
+}

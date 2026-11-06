@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/hem3/l5.py
 handouts: [hematology-lec5-anaemia]
-saved: 2026-11-05
+saved: 2026-11-06
 tags: [bios, code]
 ---
 # hem3/l5.py

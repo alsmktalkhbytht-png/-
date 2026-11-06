@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/n7/vir.py
 handouts: [virology-lab1-safety]
-saved: 2026-11-05
+saved: 2026-11-06
 tags: [bios, code]
 ---
 # n7/vir.py

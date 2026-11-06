@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/bb5n/bb5n.py
 handouts: [bloodbank-lec5-abo-rh]
-saved: 2026-11-05
+saved: 2026-11-06
 tags: [bios, code]
 ---
 # bb5n/bb5n.py
@@ -11,11 +11,11 @@ Generator script — writes the handout's `lecture.json`.
 Handouts: [[06 فهرس الملازم#bloodbank-lec5-abo-rh|bloodbank-lec5-abo-rh]]
 
 ```python
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user/a0840832-519a-5a9b-84ea-294867ea1189/scratchpad/n7")
-sys.path.insert(0, "/tmp/claude-0/-home-user/a0840832-519a-5a9b-84ea-294867ea1189/scratchpad/bac")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-claude/4a281dcf-357b-50ce-b2f4-8802cfcc6472/scratchpad/n7")
+sys.path.insert(0, "/tmp/claude-0/-home-claude/4a281dcf-357b-50ce-b2f4-8802cfcc6472/scratchpad/bac")
 from c import *
 from bal import balance
-sys.path.insert(0, "/tmp/claude-0/-home-user/a0840832-519a-5a9b-84ea-294867ea1189/scratchpad/imm456")
+sys.path.insert(0, "/tmp/claude-0/-home-claude/4a281dcf-357b-50ce-b2f4-8802cfcc6472/scratchpad/imm456")
 from ci import B, INSHORT, save
 def TERMS6(terms, n=6):
     head = [B('Term', 'المصطلح'), 'الترجمات العربية المستعملة']

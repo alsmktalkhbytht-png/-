@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/par5/p5q.py
 handouts: [parasitology-week5-theory]
-saved: 2026-11-05
+saved: 2026-11-06
 tags: [bios, code]
 ---
 # par5/p5q.py

@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/para/qparse.py
 handouts: []
-saved: 2026-11-05
+saved: 2026-11-06
 tags: [bios, code]
 ---
 # para/qparse.py

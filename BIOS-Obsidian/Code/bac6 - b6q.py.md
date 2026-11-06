@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/bac6/b6q.py
 handouts: [bacteriology-lec6-culture-media]
-saved: 2026-11-05
+saved: 2026-11-06
 tags: [bios, code]
 ---
 # bac6/b6q.py

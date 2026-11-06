@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/par2/ps5.py
 handouts: []
-saved: 2026-11-05
+saved: 2026-11-06
 tags: [bios, code]
 ---
 # par2/ps5.py
@@ -9,7 +9,7 @@ tags: [bios, code]
 Utility script.
 
 ```python
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user--/8f878068-bae9-502b-96f7-788f221c7cb0/scratchpad/par2")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-claude/4a281dcf-357b-50ce-b2f4-8802cfcc6472/scratchpad/par2")
 from pz import *
 NF = "النيغلرية الفاولرية"
 blocks = [

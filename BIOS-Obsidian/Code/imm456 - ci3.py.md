@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/imm456/ci3.py
 handouts: [clinimm-lec3-as-psa]
-saved: 2026-11-05
+saved: 2026-11-06
 tags: [bios, code]
 ---
 # imm456/ci3.py
@@ -11,7 +11,7 @@ Generator script — writes the handout's `lecture.json`.
 Handouts: [[06 فهرس الملازم#clinimm-lec3-as-psa|clinimm-lec3-as-psa]]
 
 ```python
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user--/8f878068-bae9-502b-96f7-788f221c7cb0/scratchpad/imm456")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-claude/4a281dcf-357b-50ce-b2f4-8802cfcc6472/scratchpad/imm456")
 from ci import *
 
 blocks = [

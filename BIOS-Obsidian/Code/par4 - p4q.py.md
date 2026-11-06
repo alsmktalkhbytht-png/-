@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/par4/p4q.py
 handouts: [parasitology-week4-theory]
-saved: 2026-11-05
+saved: 2026-11-06
 tags: [bios, code]
 ---
 # par4/p4q.py

@@ -9,7 +9,7 @@ tags: [bios, code]
 Pediatric nursing meta NUR(), BN() BIOS note, chunk_lists() (old; replaced by flowfit).
 
 ```python
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user--/8f878068-bae9-502b-96f7-788f221c7cb0/scratchpad/imm456")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-claude/4a281dcf-357b-50ce-b2f4-8802cfcc6472/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
 
 ORD = {1: "الأولى", 2: "الثانية", 3: "الثالثة", 4: "الرابعة"}

@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/pat5/p5q.py
 handouts: [pathology-lec5-glomerular-diseases]
-saved: 2026-11-05
+saved: 2026-11-06
 tags: [bios, code]
 ---
 # pat5/p5q.py

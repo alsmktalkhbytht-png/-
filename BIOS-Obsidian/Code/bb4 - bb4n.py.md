@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/bb4/bb4n.py
 handouts: [bloodbank-lec4-screening]
-saved: 2026-11-05
+saved: 2026-11-06
 tags: [bios, code]
 ---
 # bb4/bb4n.py
@@ -11,10 +11,10 @@ Generator script — writes the handout's `lecture.json`.
 Handouts: [[06 فهرس الملازم#bloodbank-lec4-screening|bloodbank-lec4-screening]]
 
 ```python
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user/a0840832-519a-5a9b-84ea-294867ea1189/scratchpad/n7")
-sys.path.insert(0, "/tmp/claude-0/-home-user/a0840832-519a-5a9b-84ea-294867ea1189/scratchpad/bac")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-claude/4a281dcf-357b-50ce-b2f4-8802cfcc6472/scratchpad/n7")
+sys.path.insert(0, "/tmp/claude-0/-home-claude/4a281dcf-357b-50ce-b2f4-8802cfcc6472/scratchpad/bac")
 from c import *
-sys.path.insert(0, "/tmp/claude-0/-home-user/a0840832-519a-5a9b-84ea-294867ea1189/scratchpad/imm456")
+sys.path.insert(0, "/tmp/claude-0/-home-claude/4a281dcf-357b-50ce-b2f4-8802cfcc6472/scratchpad/imm456")
 from ci import B, INSHORT, save
 import split
 split.ABBR = split.ABBR + ('allo-or',)

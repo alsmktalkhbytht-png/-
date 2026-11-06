@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/imm456/bb4.py
 handouts: [bloodbank-lec4-screening]
-saved: 2026-11-05
+saved: 2026-11-06
 tags: [bios, code]
 ---
 # imm456/bb4.py
@@ -11,10 +11,10 @@ Generator script — writes the handout's `lecture.json`.
 Handouts: [[06 فهرس الملازم#bloodbank-lec4-screening|bloodbank-lec4-screening]]
 
 ```python
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user--/8f878068-bae9-502b-96f7-788f221c7cb0/scratchpad/n7")
-sys.path.insert(0, "/tmp/claude-0/-home-user--/8f878068-bae9-502b-96f7-788f221c7cb0/scratchpad/bac")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-claude/4a281dcf-357b-50ce-b2f4-8802cfcc6472/scratchpad/n7")
+sys.path.insert(0, "/tmp/claude-0/-home-claude/4a281dcf-357b-50ce-b2f4-8802cfcc6472/scratchpad/bac")
 from c import *
-sys.path.insert(0, "/tmp/claude-0/-home-user--/8f878068-bae9-502b-96f7-788f221c7cb0/scratchpad/imm456")
+sys.path.insert(0, "/tmp/claude-0/-home-claude/4a281dcf-357b-50ce-b2f4-8802cfcc6472/scratchpad/imm456")
 from ci import B, END, save
 from bal import balance
 

@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/pat6/p6q.py
 handouts: [pathology-lec6-nephrotic-renal-tumors]
-saved: 2026-11-05
+saved: 2026-11-06
 tags: [bios, code]
 ---
 # pat6/p6q.py

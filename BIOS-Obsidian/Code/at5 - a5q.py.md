@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/at5/a5q.py
 handouts: [advtech-lec5-pcr]
-saved: 2026-11-05
+saved: 2026-11-06
 tags: [bios, code]
 ---
 # at5/a5q.py
