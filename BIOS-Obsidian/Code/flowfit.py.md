@@ -80,7 +80,7 @@ def join(b, keys, first):
             nb["en"], nb["ar"] = "", ""
         if t == "note" and not first:
             lab = b.get("label", ("Note", "ملاحظة"))
-            nb["label"] = [lab[0] + CONT[0], lab[1] + CONT[1]]
+            nb["label"] = [lab[0] + CONT[0] if lab[0] else "", lab[1] + CONT[1]]   # Arabic-only notes: no English word
     if t == "card":
         nb.pop("start", None)
         if L:
@@ -95,7 +95,7 @@ def join(b, keys, first):
     if t == "table":
         nb["rows"] = [b["rows"][i] for i in R]
         if not first and b.get("style") == "summary":
-            nb["label_en"] = b.get("label_en", "Summary") + CONT[0]
+            nb["label_en"] = b.get("label_en", "Summary") + CONT[0] if b.get("label_en", "Summary") else ""
             nb["label_ar"] = b.get("label_ar", "خلاصة الجدول") + CONT[1]
     return nb
 

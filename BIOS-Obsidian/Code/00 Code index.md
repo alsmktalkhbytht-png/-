@@ -40,6 +40,7 @@
 - [[Code/enz3 - e3q.py|enz3/e3q.py]] → enzymology-lec3-michaelis-menten-questions
 - [[Code/enz4 - e4q.py|enz4/e4q.py]] → enzymology-lec4-bioenergetics
 - [[Code/eth - make.py|eth/make.py]] → ethics-lec1-morals
+- [[Code/eth4 - e4.py|eth4/e4.py]] → ethics-lec4-cheating
 - [[Code/gen2 - g2q.py|gen2/g2q.py]] → genetics-lec2-mitosis
 - [[Code/gen4 - g4.py|gen4/g4.py]] → genetics-lab4-mendelian-genetics
 - [[Code/gh - ghq.py|gh/ghq.py]] → endocrine-lab3-growth-hormone

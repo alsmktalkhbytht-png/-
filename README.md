@@ -32,6 +32,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `enzymology-lab3-alkaline-phosphatase/` — Clinical Enzymology practical lab 3: Serum Alkaline Phosphatase (د. بارق و د. هشام) — fourth stage, new style, separate question file.
 - `ethics-lec1-morals/` — Professional Ethics (أخلاقيات المهنة) lecture 1 — Arabic-only handout.
 - `ethics-lec3-unethical-behavior/` — Professional Ethics lecture 3: unethical behaviour — Arabic-only handout.
+- `ethics-lec4-cheating/` — Professional Ethics (أخلاقيات المهنة) lecture 4: Cheating in laboratory work (الغش في العمل المختبري), د. نور, fourth stage, Arabic only, separate question file. The PDF's text layer is in a legacy font encoding, so the text was read from the page images (`source-transcript.txt`). 5 + 10 pages + covers.
 - `pathology-lec1-2-atelectasis/` — Pathology (علم الأمراض) lectures 1+2: atelectasis, acute lung injury/ARDS, emphysema.
 - `pathology-lec3-chronic-bronchitis/` — Pathology lecture 3: chronic bronchitis and asthma.
 - `pathology-lec4-lung-cancer/` — Pathology lecture 4: Lung Cancer (د. حامد خليل التميمي) — fourth stage, new style, separate question file.
