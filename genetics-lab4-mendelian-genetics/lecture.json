@@ -1,0 +1,2613 @@
+{
+ "meta": {
+  "subject_en": "Human Genetics",
+  "subject_ar": "الوراثة البشرية",
+  "short_ar": "وراثة",
+  "unit_label": "LAB",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة",
+  "instructor": "د. فردوس عثمان",
+  "unit_en": "Lab 4",
+  "unit_ar": "العملي 4",
+  "unit_no": "4",
+  "title_en": "Mendelian Genetics",
+  "title_ar": "الوراثة المندلية"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Basic terms",
+   "ar": "المصطلحات الأساسية"
+  },
+  {
+   "t": "h2",
+   "en": "**Mendelian Genetics**:",
+   "ar": "**الوراثة المندلية:**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Alleles** – two genes that occupy the same position on homologous chromosomes and that cover the same trait (like ‘flavors’ of a trait).",
+    "**Homozygous** – having identical genes (one from each parent) for a particular characteristic.",
+    "**Heterozygous** – having two different genes for a particular characteristic.",
+    "**Dominant** – the allele of a gene that masks or suppresses the expression of an alternate allele; the trait appears in the heterozygous condition.",
+    "**Recessive** – an allele that is masked by a dominant allele; does not appear in the heterozygous condition, only in homozygous."
+   ],
+   "list_ar": [
+    "**الأليلات (`Alleles`)** – جينان يشغلان الموقع نفسه على كروموسومين متماثلين ويخصّان الصفة نفسها (مثل «نكهات» الصفة الواحدة).",
+    "**متماثل الأليلات / نقي (`Homozygous`)** – يحمل جينين متطابقين (واحد من كل أب) لصفة معيّنة.",
+    "**متغاير الأليلات / هجين (`Heterozygous`)** – يحمل جينين مختلفين لصفة معيّنة.",
+    "**السائد (`Dominant`)** – أليل الجين الذي يحجب أو يثبّط ظهور الأليل البديل؛ فتظهر الصفة في الحالة الهجينة.",
+    "**المتنحّي (`Recessive`)** – أليل يحجبه الأليل السائد؛ لا يظهر في الحالة الهجينة، بل في الحالة النقية فقط."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Genotype** – the genetic makeup of an organisms .",
+    "**Phenotype** – the physical appearance of an organism (Genotype + environment).",
+    "**Monohybrid cross**: a genetic cross involving a single pair of genes (one trait); parents differ by a single trait."
+   ],
+   "list_ar": [
+    "**التركيب الوراثي / الطراز الجيني (`Genotype`)** – المكوّنات الوراثية للكائن الحي.",
+    "**المظهر / الطراز المظهري (`Phenotype`)** – الشكل الظاهري للكائن الحي (التركيب الوراثي + البيئة).",
+    "**التهجين الأحادي (`Monohybrid cross`):** تهجين وراثي يخصّ زوجًا واحدًا من الجينات (صفة واحدة)؛ ويختلف الأبوان بصفة واحدة."
+   ],
+   "start": 6
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**P = Parental generation**",
+    "**F1 = First filial generation; offspring from a genetic cross.**",
+    "**F2 = Second filial generation of a genetic cross**"
+   ],
+   "list_ar": [
+    "**`P` = جيل الآباء**",
+    "**`F1` = الجيل الأول من الأبناء؛ النسل الناتج من تهجين وراثي.**",
+    "**`F2` = الجيل الثاني من الأبناء في التهجين الوراثي**"
+   ],
+   "alpha": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Example",
+     "مثال"
+    ],
+    [
+     "Genotype",
+     "التركيب الوراثي"
+    ],
+    [
+     "Phenotype",
+     "المظهر"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Homozygous dominant",
+      "نقي سائد"
+     ],
+     "**TT**",
+     [
+      "tall",
+      "طويل"
+     ]
+    ],
+    [
+     [
+      "Heterozygous",
+      "هجين"
+     ],
+     "**Tt**",
+     [
+      "tall (T masks t)",
+      "طويل (`T` يحجب `t`)"
+     ]
+    ],
+    [
+     [
+      "Homozygous recessive",
+      "نقي متنحٍّ"
+     ],
+     "**tt**",
+     [
+      "dwarf",
+      "قزم"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    36,
+    24,
+    40
+   ],
+   "style": "summary",
+   "label_en": "BIOS example: one gene, three genotypes",
+   "label_ar": "مثال `BIOS`: جين واحد وثلاثة تراكيب"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Alleles = 2 forms of one gene at the **same position** on homologous chromosomes.",
+    "**Homozygous** = identical (TT, tt); **heterozygous** = different (Tt).",
+    "Dominant shows in **Tt**; recessive shows **only in tt**.",
+    "Phenotype = **genotype + environment**.",
+    "**P** parents → **F1** offspring → **F2** second generation."
+   ],
+   "ar": [
+    "الأليلات = شكلان لجين واحد في **الموقع نفسه** على الكروموسومين المتماثلين.",
+    "**النقي** = متطابقان (`TT`، `tt`)؛ و**الهجين** = مختلفان `(Tt)`.",
+    "السائد يظهر في **`Tt`**؛ والمتنحّي يظهر **في `tt` فقط**.",
+    "المظهر = **التركيب الوراثي + البيئة**.",
+    "**`P`** الآباء ← **`F1`** الأبناء ← **`F2`** الجيل الثاني."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Mendel's First Law",
+   "ar": "قانون مندل الأول"
+  },
+  {
+   "t": "h2",
+   "en": "**Mendel's First Law (the law of segregation;)**",
+   "ar": "**قانون مندل الأول (قانون الانعزال)**"
+  },
+  {
+   "t": "card",
+   "en": "during gamete formation each member of the allelic pair separates from the other member to form the genetic constitution of the gamete.",
+   "ar": "أثناء تكوين الأمشاج ينفصل كل فرد من زوج الأليلات عن الفرد الآخر، ليكوّن التركيب الوراثي للمشيج."
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Tt (parent)",
+     "ar": "`Tt` (الأب)"
+    },
+    {
+     "en": "T and t separate",
+     "ar": "ينفصل `T` عن `t`"
+    },
+    {
+     "en": "½ gametes T + ½ gametes t",
+     "ar": "½ أمشاج `T + ½` أمشاج `t`"
+    }
+   ],
+   "en": "Segregation in one picture",
+   "ar": "الانعزال بصورة واحدة"
+  },
+  {
+   "t": "h2",
+   "en": "**Mendel’s peas**",
+   "ar": "**بازلاء مندل**"
+  },
+  {
+   "t": "card",
+   "en": "• Mendel looked at seven traits or characteristics of pea plants:",
+   "ar": "• درس مندل سبع صفات أو خصائص في نبات البازلاء:"
+  },
+  {
+   "t": "figure",
+   "src": "assets/pea-seven-traits.png",
+   "en": "7 Characteristics in Peas",
+   "ar": "الصفات السبع في البازلاء",
+   "h": "62mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Trait",
+     "الصفة"
+    ],
+    [
+     "Characteristic (upper row)",
+     "الخاصية (الصف الأعلى)"
+    ],
+    [
+     "Characteristic (lower row)",
+     "الخاصية (الصف الأسفل)"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Stem length**",
+      "**طول الساق**"
+     ],
+     [
+      "Tall",
+      "طويل"
+     ],
+     [
+      "Dwarf",
+      "قزم"
+     ]
+    ],
+    [
+     [
+      "**Pod shape**",
+      "**شكل القرنة**"
+     ],
+     [
+      "Inflated",
+      "منتفخة"
+     ],
+     [
+      "Constricted",
+      "متخصّرة (مضغوطة)"
+     ]
+    ],
+    [
+     [
+      "**Seed shape**",
+      "**شكل البذرة**"
+     ],
+     [
+      "Smooth",
+      "ملساء"
+     ],
+     [
+      "Wrinkled",
+      "مجعّدة"
+     ]
+    ],
+    [
+     [
+      "**Seed color**",
+      "**لون البذرة**"
+     ],
+     [
+      "Yellow",
+      "صفراء"
+     ],
+     [
+      "Green",
+      "خضراء"
+     ]
+    ],
+    [
+     [
+      "**Flower position**",
+      "**موقع الزهرة**"
+     ],
+     [
+      "Lateral",
+      "جانبي (إبطي)"
+     ],
+     [
+      "Terminal",
+      "طرفي"
+     ]
+    ],
+    [
+     [
+      "**Flower color**",
+      "**لون الزهرة**"
+     ],
+     [
+      "Purple",
+      "بنفسجي"
+     ],
+     [
+      "White",
+      "أبيض"
+     ]
+    ],
+    [
+     [
+      "**Pod color**",
+      "**لون القرنة**"
+     ],
+     [
+      "Green",
+      "خضراء"
+     ],
+     [
+      "Yellow",
+      "صفراء"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    35,
+    35
+   ],
+   "label_en": "Figure text",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "note",
+   "en": "In Mendel's results the **upper row is the dominant form** of each trait (tall, inflated, smooth, yellow seed, lateral/axial, purple, green pod) and the lower row is recessive.",
+   "ar": "في نتائج مندل يكون **الصف الأعلى هو الشكل السائد** لكل صفة (طويل، منتفخة، ملساء، بذرة صفراء، جانبي/إبطي، بنفسجي، قرنة خضراء)، والصف الأسفل متنحٍّ.",
+   "label": [
+    "BIOS note",
+    "ملاحظة `BIOS`"
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**1- Example -** Pure tall plants are homozygous and, therefore/possess genes (factors) TT; similarly dwarf possess genes tt.",
+    "The tallness and dwarf are two independent but contrasting factors or determiners."
+   ],
+   "ar": [
+    "**1. مثال –** النباتات الطويلة النقية متماثلة الأليلات، ولذلك تحمل الجينات (العوامل) `TT`؛ وبالمثل تحمل النباتات القزمة الجينات `tt`.",
+    "والطول والقِصَر عاملان أو محدِّدان مستقلّان لكنهما متضادّان."
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "card",
+   "en": [
+    "Pure tall plants produce gametes all of which possess gene T and dwarf plants t type of gametes ."
+   ],
+   "ar": [
+    "والنباتات الطويلة النقية تنتج أمشاجًا كلها تحمل الجين `T`، والنباتات القزمة تنتج أمشاجًا من نوع `t`."
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "note",
+   "en": [
+    "P: **TT × tt** → gametes T and t → F1 all **Tt (tall)**.",
+    "F1 × F1 (Tt × Tt) gives the F2 below: genotypes **1 TT : 2 Tt : 1 tt**, phenotypes **3 tall : 1 dwarf**."
+   ],
+   "ar": [
+    "الآباء `(P)`: **`TT × tt`** ← أمشاج `T` و`t` ← الجيل `F1` كله **`Tt` (طويل)**.",
+    "وتهجين `F1 × F1 (Tt × Tt)` يعطي الجيل `F2` في الأسفل: التراكيب **`1 TT : 2 Tt : 1 tt`**، والمظاهر **3 طويل : 1 قزم**."
+   ],
+   "label": [
+    "BIOS solution",
+    "حل `BIOS`"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Gametes",
+     "الأمشاج"
+    ],
+    "**T**",
+    "**t**"
+   ],
+   "rows": [
+    [
+     "**T**",
+     "TT",
+     "Tt"
+    ],
+    [
+     "**t**",
+     "Tt",
+     "tt"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    41,
+    29,
+    29
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "2- Explain on the bases of genetic principle , crossing between two pea plants of hybrid smooth seeds .",
+    "knowing that smooth seeds traits ( R) is dominant & wrinkled seeds traits (r) is recessive ."
+   ],
+   "ar": [
+    "2. اشرح على أساس المبدأ الوراثي التهجين بين نباتَي بازلاء هجينَي البذور الملساء.",
+    "علمًا أن صفة البذور الملساء `(R)` سائدة، وصفة البذور المجعّدة `(r)` متنحّية."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Hybrid smooth = **Rr**.",
+    "**Rr × Rr**: each parent gives ½ R and ½ r (segregation).",
+    "Result: genotypes **1 RR : 2 Rr : 1 rr**; phenotypes **3 smooth : 1 wrinkled**."
+   ],
+   "ar": [
+    "الهجين الأملس = **`Rr`**.",
+    "**`Rr × Rr`**: كل أب يعطي `½ R` و`½ r` (الانعزال).",
+    "النتيجة: التراكيب **`1 RR : 2 Rr : 1 rr`**؛ والمظاهر **3 ملساء : 1 مجعّدة**."
+   ],
+   "label": [
+    "BIOS solution",
+    "حل `BIOS`"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Gametes",
+     "الأمشاج"
+    ],
+    "**R**",
+    "**r**"
+   ],
+   "rows": [
+    [
+     "**R**",
+     "RR",
+     "Rr"
+    ],
+    [
+     "**r**",
+     "Rr",
+     "rr"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    41,
+    29,
+    29
+   ]
+  },
+  {
+   "t": "card",
+   "en": "3- What is the probability of  Yy X yy producing green seeds ?",
+   "ar": "3. ما احتمال أن ينتج التهجين `Yy × yy` بذورًا خضراء؟"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Yellow (Y) is dominant, so green = **yy**.",
+    "**Yy × yy** → ½ Yy (yellow) + ½ yy (green).",
+    "Probability of green seeds = **1/2 = 50%**."
+   ],
+   "ar": [
+    "الأصفر `(Y)` سائد، فالأخضر = **`yy`**.",
+    "**`Yy × yy`** ← `½ Yy` (أصفر) + `½ yy` (أخضر).",
+    "احتمال البذور الخضراء = **`1/2 = 50%`**."
+   ],
+   "label": [
+    "BIOS solution",
+    "حل `BIOS`"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Gametes",
+     "الأمشاج"
+    ],
+    "**y**",
+    "**y**"
+   ],
+   "rows": [
+    [
+     "**Y**",
+     "Yy",
+     "Yy"
+    ],
+    [
+     "**y**",
+     "yy",
+     "yy"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    41,
+    29,
+    29
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "First law = **segregation**: the 2 alleles separate into different gametes.",
+    "Mendel studied **7 pea traits**.",
+    "**TT × tt** → F1 all Tt; **Tt × Tt** → 1:2:1 genotypes, **3:1** phenotypes.",
+    "Test-type cross **Yy × yy** → **1:1** (50% green)."
+   ],
+   "ar": [
+    "القانون الأول = **الانعزال**: ينفصل الأليلان إلى أمشاج مختلفة.",
+    "درس مندل **7 صفات** في البازلاء.",
+    "**`TT × tt`** ← `F1` كله `Tt`؛ و**`Tt × Tt`** ← تراكيب `1:2:1` ومظاهر **`3:1`**.",
+    "تهجين من نوع **`Yy × yy`** ← **`1:1`** (50% خضراء)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Mendelian traits in humans",
+   "ar": "الصفات المندلية في الإنسان"
+  },
+  {
+   "t": "h2",
+   "en": "**Mendelian traits in humans**",
+   "ar": "**الصفات المندلية في الإنسان**"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Mendelian traits in humans concerns how, in Mendelian inheritance, a child receiving a dominant allele from either parent will have the dominant form of the phenotypic trait or characteristic.",
+    "Only those that received the recessive allele from both parents, known as zygosity, will have the recessive phenotype.",
+    "Those that receive a dominant allele from one parent and a recessive allele from the other parent will have the dominant form of the trait.",
+    "Purely Mendelian traits are a tiny minority of all traits, since most phenotypic traits exhibit incomplete dominance, codominance, and contributions from many genes."
+   ],
+   "ar": [
+    "تتعلّق الصفات المندلية في الإنسان بكيف أن الطفل الذي يستلم أليلًا سائدًا من أيّ من الأبوين، في الوراثة المندلية، يحمل الشكل السائد للصفة المظهرية أو الخاصية.",
+    "وفقط من استلموا الأليل المتنحّي من كلا الأبوين، وهو ما يُعرف بالتماثل الأليلي (`zygosity`)، يظهر عليهم المظهر المتنحّي.",
+    "ومن يستلمون أليلًا سائدًا من أحد الأبوين وأليلًا متنحّيًا من الآخر يحملون الشكل السائد للصفة.",
+    "والصفات المندلية الصرفة أقلية صغيرة جدًا من بين كل الصفات، لأن أغلب الصفات المظهرية تُظهر السيادة غير التامّة، والسيادة المشتركة، ومساهمة جينات كثيرة."
+   ]
+  },
+  {
+   "t": "note",
+   "en": "\"known as zygosity\": the correct word for receiving the recessive allele from both parents is **homozygosity** (homozygous recessive, e.g. aa).",
+   "ar": "\"`known as zygosity`\": الكلمة الأدقّ لاستلام الأليل المتنحّي من الأبوين هي **`homozygosity` (التماثل الأليلي)**، أي نقي متنحٍّ مثل `aa`.",
+   "label": [
+    "BIOS note",
+    "ملاحظة `BIOS`"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Some example of Mendelian traits in humans:**",
+   "ar": "**بعض أمثلة الصفات المندلية في الإنسان:**",
+   "list_en": [
+    "Wet (dominant) or dry (recessive) earwax – dry is found mostly in Asians and Native American",
+    "Albinism (recessive)",
+    "Blood type",
+    "Cystic fibrosis",
+    "six fingers",
+    "cleft chin",
+    "Dimples",
+    "Sickle-cell diseas"
+   ],
+   "list_ar": [
+    "شمع الأذن الرطب (سائد) أو الجاف (متنحٍّ) – والجاف يوجد غالبًا عند الآسيويين والأمريكيين الأصليين",
+    "المَهَق (متنحٍّ)",
+    "فصيلة الدم",
+    "التليّف الكيسي",
+    "الأصابع الستّ",
+    "الذقن المشقوقة",
+    "الغمّازات",
+    "فقر الدم المنجلي"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Some traits were previously believed to be Mendelian, but their inheritance is more complicated than in those listed above or those which Mendel observed in his garden.",
+   "ar": "كان يُعتقد سابقًا أن بعض الصفات مندلية، لكن وراثتها أعقد من الصفات المذكورة أعلاه أو التي لاحظها مندل في حديقته.",
+   "list_en": [
+    "tens, or even hundreds of genes can play a role in just one trait",
+    "genes can block or exaggerate processes in the cell which change the visible phenotype.",
+    "environmental factors such temperature, light, and nutrient levels influence the development of a phenotype."
+   ],
+   "list_ar": [
+    "عشرات بل مئات الجينات قد تؤدّي دورًا في صفة واحدة فقط",
+    "قد تحجب الجينات أو تضخّم عمليات في الخلية فتغيّر المظهر المرئي.",
+    "العوامل البيئية مثل الحرارة والضوء ومستويات المغذّيات تؤثّر في تكوين المظهر."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Below is a list of traits in humans involving interaction between multiple genes (probably) based on more complex genetic models, possibly involving more than one gene.",
+    "**These include:**"
+   ],
+   "ar": [
+    "فيما يلي قائمة بصفات في الإنسان تتضمّن تداخلًا بين جينات متعدّدة (على الأرجح)، مبنية على نماذج وراثية أعقد، وربما تشمل أكثر من جين واحد.",
+    "**وتشمل:**"
+   ],
+   "list_en": [
+    "Tongue rolling",
+    "Eye color",
+    "Hair color",
+    "Detached (dominant) or attached (recessive) earlobes",
+    "Skin color ."
+   ],
+   "list_ar": [
+    "لفّ اللسان",
+    "لون العين",
+    "لون الشعر",
+    "شحمة الأذن المنفصلة (سائدة) أو الملتصقة (متنحّية)",
+    "لون الجلد."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Mendelian (one gene)",
+     "مندلية (جين واحد)"
+    ],
+    [
+     "More complex (many genes / environment)",
+     "أعقد (جينات متعدّدة / بيئة)"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Wet / dry earwax",
+      "شمع الأذن رطب / جاف"
+     ],
+     [
+      "Tongue rolling",
+      "لفّ اللسان"
+     ]
+    ],
+    [
+     [
+      "Albinism",
+      "المَهَق"
+     ],
+     [
+      "Eye color",
+      "لون العين"
+     ]
+    ],
+    [
+     [
+      "Blood type",
+      "فصيلة الدم"
+     ],
+     [
+      "Hair color",
+      "لون الشعر"
+     ]
+    ],
+    [
+     [
+      "Cystic fibrosis, sickle-cell disease",
+      "التليّف الكيسي، فقر الدم المنجلي"
+     ],
+     [
+      "Detached / attached earlobes",
+      "شحمة الأذن منفصلة / ملتصقة"
+     ]
+    ],
+    [
+     [
+      "Six fingers, cleft chin, dimples",
+      "الأصابع الستّ، الذقن المشقوقة، الغمّازات"
+     ],
+     [
+      "Skin color",
+      "لون الجلد"
+     ]
+    ]
+   ],
+   "widths": [
+    50,
+    50
+   ],
+   "style": "summary",
+   "label_en": "Two lists to memorise",
+   "label_ar": "قائمتان للحفظ"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Dominant allele from **either** parent → dominant phenotype; recessive phenotype only when **both** parents give the recessive allele.",
+    "Pure Mendelian traits are a **tiny minority**.",
+    "Why complex: **many genes**, genes **block/exaggerate** cell processes, **environment**."
+   ],
+   "ar": [
+    "أليل سائد من **أيّ** أب ← مظهر سائد؛ والمتنحّي فقط إذا أعطاه **كلا** الأبوين.",
+    "الصفات المندلية الصرفة **أقلية صغيرة جدًا**.",
+    "سبب التعقيد: **جينات كثيرة**، وجينات **تحجب/تضخّم** عمليات الخلية، و**البيئة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Mendel's second Law",
+   "ar": "قانون مندل الثاني"
+  },
+  {
+   "t": "h2",
+   "en": "**Mendel's second  Law(Law of independent assortment)**",
+   "ar": "**قانون مندل الثاني (قانون التوزيع المستقل)**"
+  },
+  {
+   "t": "card",
+   "en": "Genes for different traits can segregate independently during the formation of gametes.",
+   "ar": "يمكن لجينات الصفات المختلفة أن تنعزل بصورة مستقلة أثناء تكوين الأمشاج."
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Explanation**: The cross was made between plants having yellow and round cotyledons and plants having green and wrinkled cotyledons .",
+    "This law can be illustrated using dihybrid crosses."
+   ],
+   "ar": [
+    "**الشرح:** أُجري التهجين بين نباتات ذات فلقات صفراء ومستديرة ونباتات ذات فلقات خضراء ومجعّدة.",
+    "ويمكن توضيح هذا القانون باستعمال التهجينات الثنائية."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/dihybrid-punnett.png",
+   "en": "Punnett Square of Dihybrid Cross (F1 cross: RrYy × RrYy)",
+   "ar": "مربع بانيت للتهجين الثنائي (تهجين `F1: RrYy × RrYy`)",
+   "h": "60mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Figure text",
+     "كتابات الشكل"
+    ],
+    [
+     "Meaning",
+     "المعنى"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Gametes from RrYy parent**",
+      "**أمشاج الأب `RrYy`**"
+     ],
+     [
+      "RY, Ry, rY, ry — 4 kinds, ¼ each",
+      "`RY`، `Ry`، `rY`، `ry` — 4 أنواع، ربع لكل منها"
+     ]
+    ],
+    [
+     [
+      "**round yellow**",
+      "**مستديرة صفراء**"
+     ],
+     [
+      "9 boxes (R_Y_)",
+      "9 مربعات `(R_Y_)`"
+     ]
+    ],
+    [
+     [
+      "**round green**",
+      "**مستديرة خضراء**"
+     ],
+     [
+      "3 boxes (R_yy)",
+      "3 مربعات `(R_yy)`"
+     ]
+    ],
+    [
+     [
+      "**wrinkled yellow**",
+      "**مجعّدة صفراء**"
+     ],
+     [
+      "3 boxes (rrY_)",
+      "3 مربعات `(rrY_)`"
+     ]
+    ],
+    [
+     [
+      "**wrinkled green**",
+      "**مجعّدة خضراء**"
+     ],
+     [
+      "1 box (rryy)",
+      "مربع واحد `(rryy)`"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    40,
+    60
+   ],
+   "label_en": "Figure text + BIOS count",
+   "label_ar": "كتابات الشكل + عدّ `BIOS`"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "P: RRYY × rryy",
+     "ar": "الآباء: `RRYY × rryy`"
+    },
+    {
+     "en": "F1: all RrYy (round yellow)",
+     "ar": "`F1`: كله `RrYy` (مستدير أصفر)"
+    },
+    {
+     "en": "F2: 9 : 3 : 3 : 1",
+     "ar": "F2: 9 : 3 : 3 : 1"
+    }
+   ],
+   "en": "Dihybrid cross",
+   "ar": "التهجين الثنائي"
+  },
+  {
+   "t": "card",
+   "en": [
+    "2- A right- handed black – haired man married a left – handed blonde – haired woman .. the children were all black – haired right – handed .",
+    "when the chidren reached puberty one of them married a girl genetically similar to him .",
+    "what are the genetic and phenotypic structures of the first generation and the second generation ( the trait of black – haired B , Right – handed recipe R) ."
+   ],
+   "ar": [
+    "2. تزوّج رجل أيمن أسود الشعر من امرأة عسراء شقراء الشعر.. فكان الأبناء جميعًا سود الشعر يمينيين.",
+    "وعندما بلغ الأبناء سنّ البلوغ تزوّج أحدهم من فتاة مشابهة له وراثيًا.",
+    "ما التراكيب الوراثية والمظهرية للجيل الأول والجيل الثاني (صفة الشعر الأسود `B`، وصفة استعمال اليد اليمنى `R`)؟"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "All children are black-haired right-handed, so the man is pure **BBRR** and the woman **bbrr**."
+   ],
+   "ar": [
+    "كل الأبناء سود الشعر يمينيون، إذن الرجل نقي **`BBRR`** والمرأة **`bbrr`**."
+   ],
+   "label": [
+    "BIOS solution",
+    "حل `BIOS`"
+   ],
+   "_ff": 2
+  },
+  {
+   "t": "note",
+   "en": [
+    "F1: all **BbRr** (black-haired, right-handed).",
+    "F2 (BbRr × BbRr, the girl is also BbRr):"
+   ],
+   "ar": [
+    "الجيل `F1`: كله **`BbRr`** (أسود الشعر، أيمن).",
+    "الجيل `F2 (BbRr × BbRr`، فالفتاة أيضًا `BbRr`):"
+   ],
+   "label": [
+    "BIOS solution (continued)",
+    "حل `BIOS` (تكملة)"
+   ],
+   "_ff": 2
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Gametes",
+     "الأمشاج"
+    ],
+    "**BR**",
+    "**Br**",
+    "**bR**",
+    "**br**"
+   ],
+   "rows": [
+    [
+     "**BR**",
+     "BBRR",
+     "BBRr",
+     "BbRR",
+     "BbRr"
+    ],
+    [
+     "**Br**",
+     "BBRr",
+     "BBrr",
+     "BbRr",
+     "Bbrr"
+    ],
+    [
+     "**bR**",
+     "BbRR",
+     "BbRr",
+     "bbRR",
+     "bbRr"
+    ],
+    [
+     "**br**",
+     "BbRr",
+     "Bbrr",
+     "bbRr",
+     "bbrr"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    26,
+    19,
+    19,
+    19,
+    19
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Phenotype",
+     "المظهر"
+    ],
+    [
+     "Genotypes (number of boxes)",
+     "التراكيب الوراثية (عدد المربعات)"
+    ],
+    [
+     "Ratio",
+     "النسبة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**black-haired right-handed**",
+      "**أسود الشعر وأيمن**"
+     ],
+     "4 BbRr, 2 BBRr, 2 BbRR, BBRR",
+     "**9/16**"
+    ],
+    [
+     [
+      "**black-haired left-handed**",
+      "**أسود الشعر وأعسر**"
+     ],
+     "2 Bbrr, BBrr",
+     "**3/16**"
+    ],
+    [
+     [
+      "**blonde-haired right-handed**",
+      "**أشقر الشعر وأيمن**"
+     ],
+     "2 bbRr, bbRR",
+     "**3/16**"
+    ],
+    [
+     [
+      "**blonde-haired left-handed**",
+      "**أشقر الشعر وأعسر**"
+     ],
+     "bbrr",
+     "**1/16**"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    38,
+    42,
+    20
+   ],
+   "style": "summary",
+   "label_en": "F2 phenotypes 9:3:3:1",
+   "label_ar": "مظاهر `F2 9:3:3:1`"
+  },
+  {
+   "t": "note",
+   "en": "\"recipe R\" in the question means the **trait** (character) R = right-handed.",
+   "ar": "\"`recipe R`\" في السؤال تعني **الصفة** `R` = استعمال اليد اليمنى.",
+   "label": [
+    "BIOS note",
+    "ملاحظة `BIOS`"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "3- work out each cross showing the square , the parents genotype .and the ratios .",
+   "ar": "3. حلّ كل تهجين مع رسم المربع، وتراكيب الآباء الوراثية، والنسب."
+  },
+  {
+   "t": "card",
+   "en": [
+    "1- in guinea pigs , smooth coat ( S) is dominant over rough coat (s) and black coat (B) is dominant over white coat .",
+    "cross two parents with the genotypes SsBb X SsBb ."
+   ],
+   "ar": [
+    "1. في خنازير غينيا، الفرو الأملس `(S)` سائد على الفرو الخشن `(s)`، والفرو الأسود `(B)` سائد على الفرو الأبيض.",
+    "هجّن أبوين تركيبهما الوراثي `SsBb × SsBb`."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Parents **SsBb × SsBb**; each gives 4 gametes SB, Sb, sB, sb.",
+    "Genotypes 1:2:1:2:4:2:1:2:1; phenotypes **9 : 3 : 3 : 1**."
+   ],
+   "ar": [
+    "الآباء **`SsBb × SsBb`**؛ كل منهما يعطي 4 أمشاج `SB` و`Sb` و`sB` و`sb`.",
+    "التراكيب `1:2:1:2:4:2:1:2:1`؛ والمظاهر **`9 : 3 : 3 : 1`**."
+   ],
+   "label": [
+    "BIOS solution",
+    "حل `BIOS`"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Gametes",
+     "الأمشاج"
+    ],
+    "**SB**",
+    "**Sb**",
+    "**sB**",
+    "**sb**"
+   ],
+   "rows": [
+    [
+     "**SB**",
+     "SSBB",
+     "SSBb",
+     "SsBB",
+     "SsBb"
+    ],
+    [
+     "**Sb**",
+     "SSBb",
+     "SSbb",
+     "SsBb",
+     "Ssbb"
+    ],
+    [
+     "**sB**",
+     "SsBB",
+     "SsBb",
+     "ssBB",
+     "ssBb"
+    ],
+    [
+     "**sb**",
+     "SsBb",
+     "Ssbb",
+     "ssBb",
+     "ssbb"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    26,
+    19,
+    19,
+    19,
+    19
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Phenotype",
+     "المظهر"
+    ],
+    [
+     "Genotypes (number of boxes)",
+     "التراكيب الوراثية (عدد المربعات)"
+    ],
+    [
+     "Ratio",
+     "النسبة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**smooth black**",
+      "**أملس وأسود**"
+     ],
+     "4 SsBb, 2 SSBb, 2 SsBB, SSBB",
+     "**9/16**"
+    ],
+    [
+     [
+      "**smooth white**",
+      "**أملس وأبيض**"
+     ],
+     "2 Ssbb, SSbb",
+     "**3/16**"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    38,
+    42,
+    20
+   ],
+   "style": "summary",
+   "label_en": "Guinea pigs 9:3:3:1",
+   "label_ar": "خنازير غينيا `9:3:3:1`",
+   "_ff": 3
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Phenotype",
+     "المظهر"
+    ],
+    [
+     "Genotypes (number of boxes)",
+     "التراكيب الوراثية (عدد المربعات)"
+    ],
+    [
+     "Ratio",
+     "النسبة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**rough black**",
+      "**خشن وأسود**"
+     ],
+     "2 ssBb, ssBB",
+     "**3/16**"
+    ],
+    [
+     [
+      "**rough white**",
+      "**خشن وأبيض**"
+     ],
+     "ssbb",
+     "**1/16**"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    38,
+    42,
+    20
+   ],
+   "style": "summary",
+   "label_en": "Guinea pigs 9:3:3:1 (continued)",
+   "label_ar": "خنازير غينيا `9:3:3:1` (تكملة)",
+   "_ff": 3
+  },
+  {
+   "t": "card",
+   "en": [
+    "2- in tomatoes , red fruit (R) is dominat over fruit (r ) and tallness ( T) is domint over shortness ( t) .",
+    "Apant that is RrTT is crossed with a plant that is rrTt ."
+   ],
+   "ar": [
+    "2. في الطماطم، الثمرة الحمراء `(R)` سائدة على الثمرة `(r)`، والطول `(T)` سائد على القِصَر `(t)`.",
+    "يُهجَّن نبات تركيبه `RrTT` مع نبات تركيبه `rrTt`."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Gametes: RrTT → **RT, rT**; rrTt → **rT, rt**.",
+    "Offspring: ¼ RrTT, ¼ RrTt, ¼ rrTT, ¼ rrTt → **all tall**; **1 red : 1 non-red (r) fruit**."
+   ],
+   "ar": [
+    "الأمشاج: `RrTT` ← **`RT` و`rT`**؛ و`rrTt` ← **`rT` و`rt`**.",
+    "النسل: `¼ RrTT` و`¼ RrTt` و`¼ rrTT` و`¼ rrTt` ← **كلها طويلة**؛ و**1 ثمرة حمراء : 1 ثمرة غير حمراء `(r)`**."
+   ],
+   "label": [
+    "BIOS solution",
+    "حل `BIOS`"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Gametes",
+     "الأمشاج"
+    ],
+    "**rT**",
+    "**rt**"
+   ],
+   "rows": [
+    [
+     "**RT**",
+     "RrTT",
+     "RrTt"
+    ],
+    [
+     "**rT**",
+     "rrTT",
+     "rrTt"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    41,
+    29,
+    29
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Phenotype",
+     "المظهر"
+    ],
+    [
+     "Genotypes (number of boxes)",
+     "التراكيب الوراثية (عدد المربعات)"
+    ],
+    [
+     "Ratio",
+     "النسبة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**red tall**",
+      "**حمراء وطويلة**"
+     ],
+     "RrTT, RrTt",
+     "**2/4**"
+    ],
+    [
+     [
+      "**r-colour (yellow) tall**",
+      "**لون `r` (صفراء) وطويلة**"
+     ],
+     "rrTT, rrTt",
+     "**2/4**"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    38,
+    42,
+    20
+   ],
+   "style": "summary",
+   "label_en": "Tomatoes 1:1",
+   "label_ar": "الطماطم `1:1`"
+  },
+  {
+   "t": "note",
+   "en": "The colour of the recessive fruit (r) is missing in the sheet (\"over fruit (r )\"); in tomatoes it is usually **yellow**.",
+   "ar": "لون الثمرة المتنحّية `(r)` ناقص في الملزمة (\"`over fruit (r )`\")؛ وفي الطماطم يكون عادةً **أصفر**.",
+   "label": [
+    "BIOS note",
+    "ملاحظة `BIOS`"
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "3- Suppose you cross a pure – breeding , black- coated dog with curly fur to apure- breeding , yellow – coated dog with straight fur.",
+    "In the F1 generation, all the puppies have straight , black coats .",
+    "next you interbreed the F1 dogs with one anther to get an F2 generation ?"
+   ],
+   "ar": [
+    "3. لنفترض أنك هجّنت كلبًا نقي السلالة أسود الفرو مجعّده مع كلب نقي السلالة أصفر الفرو أملسه (مستقيمه).",
+    "في الجيل `F1` كانت كل الجراء ذات فرو مستقيم أسود.",
+    "ثم هجّنت كلاب `F1` بعضها مع بعض لتحصل على الجيل `F2`؟"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "F1 is all black and straight, so **black (B)** and **straight (S)** are dominant.",
+    "P: **BBss × bbSS** → F1 **BbSs**.",
+    "F2 (BbSs × BbSs) = **9 : 3 : 3 : 1**."
+   ],
+   "ar": [
+    "الجيل `F1` كله أسود ومستقيم، إذن **الأسود `(B)`** و**المستقيم `(S)`** سائدان.",
+    "الآباء `(P)`: **`BBss × bbSS`** ← `F1` **`BbSs`**.",
+    "والجيل `F2 (BbSs × BbSs)` = **`9 : 3 : 3 : 1`**."
+   ],
+   "label": [
+    "BIOS solution",
+    "حل `BIOS`"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Gametes",
+     "الأمشاج"
+    ],
+    "**BS**",
+    "**Bs**",
+    "**bS**",
+    "**bs**"
+   ],
+   "rows": [
+    [
+     "**BS**",
+     "BBSS",
+     "BBSs",
+     "BbSS",
+     "BbSs"
+    ],
+    [
+     "**Bs**",
+     "BBSs",
+     "BBss",
+     "BbSs",
+     "Bbss"
+    ],
+    [
+     "**bS**",
+     "BbSS",
+     "BbSs",
+     "bbSS",
+     "bbSs"
+    ],
+    [
+     "**bs**",
+     "BbSs",
+     "Bbss",
+     "bbSs",
+     "bbss"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    26,
+    19,
+    19,
+    19,
+    19
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Phenotype",
+     "المظهر"
+    ],
+    [
+     "Genotypes (number of boxes)",
+     "التراكيب الوراثية (عدد المربعات)"
+    ],
+    [
+     "Ratio",
+     "النسبة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**black straight**",
+      "**أسود ومستقيم**"
+     ],
+     "4 BbSs, 2 BBSs, 2 BbSS, BBSS",
+     "**9/16**"
+    ],
+    [
+     [
+      "**black curly**",
+      "**أسود ومجعّد**"
+     ],
+     "2 Bbss, BBss",
+     "**3/16**"
+    ],
+    [
+     [
+      "**yellow straight**",
+      "**أصفر ومستقيم**"
+     ],
+     "2 bbSs, bbSS",
+     "**3/16**"
+    ],
+    [
+     [
+      "**yellow curly**",
+      "**أصفر ومجعّد**"
+     ],
+     "bbss",
+     "**1/16**"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    38,
+    42,
+    20
+   ],
+   "style": "summary",
+   "label_en": "Dogs F2 9:3:3:1",
+   "label_ar": "الكلاب `F2 9:3:3:1`"
+  },
+  {
+   "t": "card",
+   "en": [
+    "4- what are the genotype and phenotype ratios in the offspring resulting from a cross between two pea plants that are heterozygous for pod color and pod shape ?",
+    "Pod shape ( smooth   N ) ( constricted   n )",
+    "Pod color (  green   G )  ( Yellow   g ) ?"
+   ],
+   "ar": [
+    "4. ما نسب التراكيب الوراثية والمظاهر في النسل الناتج من تهجين نباتَي بازلاء هجينين للون القرنة وشكلها؟",
+    "شكل القرنة (ملساء `N`) (متخصّرة `n`)",
+    "لون القرنة (خضراء `G`) (صفراء `g`)؟"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Both parents **GgNn**; gametes GN, Gn, gN, gn.",
+    "Genotype ratio **1 : 2 : 1 : 2 : 4 : 2 : 1 : 2 : 1** (9 genotypes); phenotype ratio **9 : 3 : 3 : 1**."
+   ],
+   "ar": [
+    "الأبوان **`GgNn`**؛ والأمشاج `GN` و`Gn` و`gN` و`gn`.",
+    "نسبة التراكيب **`1 : 2 : 1 : 2 : 4 : 2 : 1 : 2 : 1`** (9 تراكيب)؛ ونسبة المظاهر **`9 : 3 : 3 : 1`**."
+   ],
+   "label": [
+    "BIOS solution",
+    "حل `BIOS`"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Gametes",
+     "الأمشاج"
+    ],
+    "**GN**",
+    "**Gn**",
+    "**gN**",
+    "**gn**"
+   ],
+   "rows": [
+    [
+     "**GN**",
+     "GGNN",
+     "GGNn",
+     "GgNN",
+     "GgNn"
+    ],
+    [
+     "**Gn**",
+     "GGNn",
+     "GGnn",
+     "GgNn",
+     "Ggnn"
+    ],
+    [
+     "**gN**",
+     "GgNN",
+     "GgNn",
+     "ggNN",
+     "ggNn"
+    ],
+    [
+     "**gn**",
+     "GgNn",
+     "Ggnn",
+     "ggNn",
+     "ggnn"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    26,
+    19,
+    19,
+    19,
+    19
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Phenotype",
+     "المظهر"
+    ],
+    [
+     "Genotypes (number of boxes)",
+     "التراكيب الوراثية (عدد المربعات)"
+    ],
+    [
+     "Ratio",
+     "النسبة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**green smooth**",
+      "**خضراء وملساء**"
+     ],
+     "4 GgNn, 2 GGNn, 2 GgNN, GGNN",
+     "**9/16**"
+    ],
+    [
+     [
+      "**green constricted**",
+      "**خضراء ومتخصّرة**"
+     ],
+     "2 Ggnn, GGnn",
+     "**3/16**"
+    ],
+    [
+     [
+      "**yellow smooth**",
+      "**صفراء وملساء**"
+     ],
+     "2 ggNn, ggNN",
+     "**3/16**"
+    ],
+    [
+     [
+      "**yellow constricted**",
+      "**صفراء ومتخصّرة**"
+     ],
+     "ggnn",
+     "**1/16**"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    38,
+    42,
+    20
+   ],
+   "style": "summary",
+   "label_en": "Pea pods 9:3:3:1",
+   "label_ar": "قرون البازلاء `9:3:3:1`"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Second law = **independent assortment**: genes of different traits separate independently.",
+    "Dihybrid **AaBb** makes **4 gametes** (¼ each) → 16-box square.",
+    "AaBb × AaBb → phenotypes **9:3:3:1**, genotypes **1:2:1:2:4:2:1:2:1**."
+   ],
+   "ar": [
+    "القانون الثاني = **التوزيع المستقل**: جينات الصفات المختلفة تنعزل باستقلال.",
+    "الهجين الثنائي **`AaBb`** يكوّن **4 أمشاج** (ربع لكل منها) ← مربع من 16 خانة.",
+    "`AaBb × AaBb` ← مظاهر **`9:3:3:1`**، وتراكيب **`1:2:1:2:4:2:1:2:1`**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ],
+   "_ff": 4
+  },
+  {
+   "t": "note",
+   "en": [
+    "All F1 show one form → that form is **dominant** and the parents were **pure**."
+   ],
+   "ar": [
+    "إذا ظهر شكل واحد في كل `F1` ← فهو **السائد** والآباء **نقية**."
+   ],
+   "label": [
+    "In short (continued)",
+    "باختصار (تكملة)"
+   ],
+   "_ff": 4
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Allele**",
+     "أليل / الشكل البديل للجين"
+    ],
+    [
+     "**Homozygous**",
+     "متماثل الأليلات / نقي / أصيل"
+    ],
+    [
+     "**Heterozygous**",
+     "متغاير الأليلات / هجين / خليط"
+    ],
+    [
+     "**Dominant**",
+     "سائد / غالب"
+    ],
+    [
+     "**Recessive**",
+     "متنحٍّ / مُتَنَحٍّ / مغلوب"
+    ],
+    [
+     "**Genotype**",
+     "التركيب الوراثي / الطراز الجيني / النمط الجيني"
+    ],
+    [
+     "**Phenotype**",
+     "المظهر / الطراز المظهري / النمط الظاهري"
+    ],
+    [
+     "**Monohybrid cross**",
+     "تهجين أحادي / تهجين أحادي الصفة"
+    ],
+    [
+     "**Dihybrid cross**",
+     "تهجين ثنائي / تهجين ثنائي الصفة"
+    ],
+    [
+     "**Law of segregation**",
+     "قانون الانعزال / قانون انفصال الصفات"
+    ],
+    [
+     "**Law of independent assortment**",
+     "قانون التوزيع المستقل / قانون التوزيع الحر"
+    ],
+    [
+     "**Gamete**",
+     "مشيج / خلية جنسية"
+    ],
+    [
+     "**Punnett square**",
+     "مربع بانيت / جدول بانيت"
+    ],
+    [
+     "**Filial generation (F1, F2)**",
+     "جيل الأبناء (الأول، الثاني)"
+    ],
+    [
+     "**Cotyledons**",
+     "الفلقات / الأوراق البذرية"
+    ],
+    [
+     "**Albinism**",
+     "المَهَق / البَرَص الوراثي (عدم التصبّغ)"
+    ],
+    [
+     "**Earlobes**",
+     "شحمة الأذن"
+    ],
+    [
+     "**Codominance**",
+     "السيادة المشتركة / المتساوية"
+    ],
+    [
+     "**Incomplete dominance**",
+     "السيادة غير التامّة / الناقصة"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Basic terms",
+    "topic_ar": "المصطلحات الأساسية"
+   },
+   {
+    "en": "Two genes that occupy the same position on homologous chromosomes and cover the same trait are:",
+    "ar": "جينان يشغلان الموقع نفسه على الكروموسومين المتماثلين ويخصّان الصفة نفسها هما:",
+    "options": [
+     [
+      "Chromatids",
+      "كروماتيدات"
+     ],
+     [
+      "Gametes",
+      "أمشاج"
+     ],
+     [
+      "Alleles",
+      "أليلات"
+     ],
+     [
+      "Centromeres",
+      "سنتروميرات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Having identical genes for a particular characteristic is called:",
+    "ar": "حمل جينين متطابقين لصفة معيّنة يُسمّى:",
+    "options": [
+     [
+      "Homozygous",
+      "نقي (متماثل الأليلات)"
+     ],
+     [
+      "Heterozygous",
+      "هجين"
+     ],
+     [
+      "Recessive",
+      "متنحٍّ"
+     ],
+     [
+      "Monohybrid",
+      "أحادي الهجين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Tt is:",
+    "ar": "التركيب `Tt`:",
+    "options": [
+     [
+      "Homozygous dominant",
+      "نقي سائد"
+     ],
+     [
+      "Homozygous recessive",
+      "نقي متنحٍّ"
+     ],
+     [
+      "A gamete",
+      "مشيج"
+     ],
+     [
+      "Heterozygous",
+      "هجين"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The allele that masks the expression of an alternate allele is:",
+    "ar": "الأليل الذي يحجب ظهور الأليل البديل:",
+    "options": [
+     [
+      "Recessive",
+      "المتنحّي"
+     ],
+     [
+      "Dominant",
+      "السائد"
+     ],
+     [
+      "Lethal",
+      "المميت"
+     ],
+     [
+      "Codominant",
+      "المشترك السيادة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "A recessive allele appears in the phenotype:",
+    "ar": "يظهر الأليل المتنحّي في المظهر:",
+    "options": [
+     [
+      "Always",
+      "دائمًا"
+     ],
+     [
+      "In the heterozygous condition",
+      "في الحالة الهجينة"
+     ],
+     [
+      "Only in the homozygous condition",
+      "في الحالة النقية فقط"
+     ],
+     [
+      "Never",
+      "أبدًا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The genetic makeup of an organism is its:",
+    "ar": "المكوّنات الوراثية للكائن هي:",
+    "options": [
+     [
+      "Genotype",
+      "التركيب الوراثي"
+     ],
+     [
+      "Phenotype",
+      "المظهر"
+     ],
+     [
+      "Karyotype",
+      "النمط النووي"
+     ],
+     [
+      "Pedigree",
+      "شجرة العائلة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Phenotype is:",
+    "ar": "المظهر هو:",
+    "options": [
+     [
+      "Genotype only",
+      "التركيب الوراثي فقط"
+     ],
+     [
+      "Genotype + environment",
+      "التركيب الوراثي + البيئة"
+     ],
+     [
+      "Environment only",
+      "البيئة فقط"
+     ],
+     [
+      "The gametes",
+      "الأمشاج"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "A cross involving a single pair of genes (one trait) is a:",
+    "ar": "التهجين الذي يخصّ زوجًا واحدًا من الجينات (صفة واحدة):",
+    "options": [
+     [
+      "Dihybrid cross",
+      "تهجين ثنائي"
+     ],
+     [
+      "Back cross",
+      "تهجين رجعي"
+     ],
+     [
+      "Test cross",
+      "تهجين اختباري"
+     ],
+     [
+      "Monohybrid cross",
+      "تهجين أحادي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "F2 is:",
+    "ar": "الجيل `F2` هو:",
+    "options": [
+     [
+      "Parental generation",
+      "جيل الآباء"
+     ],
+     [
+      "Second filial generation",
+      "الجيل الثاني من الأبناء"
+     ],
+     [
+      "First filial generation",
+      "الجيل الأول من الأبناء"
+     ],
+     [
+      "The gametes of P",
+      "أمشاج الآباء"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Mendel's first law",
+    "topic_ar": "قانون مندل الأول"
+   },
+   {
+    "en": "Mendel's first law is the law of:",
+    "ar": "قانون مندل الأول هو قانون:",
+    "options": [
+     [
+      "Independent assortment",
+      "التوزيع المستقل"
+     ],
+     [
+      "Dominance only",
+      "السيادة فقط"
+     ],
+     [
+      "Segregation",
+      "الانعزال"
+     ],
+     [
+      "Linkage",
+      "الارتباط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "According to the law of segregation, during gamete formation:",
+    "ar": "حسب قانون الانعزال، أثناء تكوين الأمشاج:",
+    "options": [
+     [
+      "Both alleles go to the same gamete",
+      "يذهب الأليلان إلى المشيج نفسه"
+     ],
+     [
+      "Genes of different traits stay together",
+      "تبقى جينات الصفات المختلفة معًا"
+     ],
+     [
+      "No gametes are formed",
+      "لا تتكوّن أمشاج"
+     ],
+     [
+      "Each member of the allelic pair separates from the other",
+      "ينفصل كل فرد من زوج الأليلات عن الآخر"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "How many traits of pea plants did Mendel look at?",
+    "ar": "كم صفة درسها مندل في نبات البازلاء؟",
+    "options": [
+     [
+      "Seven",
+      "سبع"
+     ],
+     [
+      "Four",
+      "أربع"
+     ],
+     [
+      "Five",
+      "خمس"
+     ],
+     [
+      "Two",
+      "اثنتان"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Pure tall plants possess the genes:",
+    "ar": "تحمل النباتات الطويلة النقية الجينات:",
+    "options": [
+     [
+      "TT",
+      "TT"
+     ],
+     [
+      "Tt",
+      "Tt"
+     ],
+     [
+      "tt",
+      "tt"
+     ],
+     [
+      "T only",
+      "`T` فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Pure tall plants (TT) produce gametes:",
+    "ar": "تنتج النباتات الطويلة النقية `(TT)` أمشاجًا:",
+    "options": [
+     [
+      "All t",
+      "كلها `t`"
+     ],
+     [
+      "All T",
+      "كلها `T`"
+     ],
+     [
+      "Half T, half t",
+      "نصفها `T` ونصفها `t`"
+     ],
+     [
+      "TT",
+      "TT"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Crossing two hybrid smooth pea plants (Rr × Rr) gives a phenotype ratio of:",
+    "ar": "تهجين نباتَي بازلاء هجينَي الملمس `(Rr × Rr)` يعطي نسبة مظاهر:",
+    "options": [
+     [
+      "1 : 1",
+      "1 : 1"
+     ],
+     [
+      "1 : 2 : 1",
+      "1 : 2 : 1"
+     ],
+     [
+      "3 smooth : 1 wrinkled",
+      "3 ملساء : 1 مجعّدة"
+     ],
+     [
+      "All smooth",
+      "كلها ملساء"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The genotype ratio of Rr × Rr is:",
+    "ar": "نسبة التراكيب الوراثية في `Rr × Rr`:",
+    "options": [
+     [
+      "3 : 1",
+      "3 : 1"
+     ],
+     [
+      "9 : 3 : 3 : 1",
+      "9 : 3 : 3 : 1"
+     ],
+     [
+      "1 : 1",
+      "1 : 1"
+     ],
+     [
+      "1 RR : 2 Rr : 1 rr",
+      "1 RR : 2 Rr : 1 rr"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The probability of Yy × yy producing green (yy) seeds is:",
+    "ar": "احتمال أن ينتج `Yy × yy` بذورًا خضراء `(yy)`:",
+    "options": [
+     [
+      "3/4",
+      "3/4"
+     ],
+     [
+      "1/4",
+      "1/4"
+     ],
+     [
+      "1/2",
+      "1/2"
+     ],
+     [
+      "0",
+      "0"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Mendelian traits in humans",
+    "topic_ar": "الصفات المندلية في الإنسان"
+   },
+   {
+    "en": "A child with the recessive phenotype received the recessive allele from:",
+    "ar": "الطفل ذو المظهر المتنحّي استلم الأليل المتنحّي من:",
+    "options": [
+     [
+      "The mother only",
+      "الأم فقط"
+     ],
+     [
+      "Both parents",
+      "كلا الأبوين"
+     ],
+     [
+      "The father only",
+      "الأب فقط"
+     ],
+     [
+      "Neither parent",
+      "لا أحد"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which is listed as a Mendelian trait in humans?",
+    "ar": "أيّ مما يلي مذكور صفةً مندلية في الإنسان؟",
+    "options": [
+     [
+      "Eye color",
+      "لون العين"
+     ],
+     [
+      "Skin color",
+      "لون الجلد"
+     ],
+     [
+      "Hair color",
+      "لون الشعر"
+     ],
+     [
+      "Albinism",
+      "المَهَق"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Dry earwax is:",
+    "ar": "شمع الأذن الجاف:",
+    "options": [
+     [
+      "Recessive, found mostly in Asians and Native American",
+      "متنحٍّ، يكثر عند الآسيويين والأمريكيين الأصليين"
+     ],
+     [
+      "Codominant",
+      "مشترك السيادة"
+     ],
+     [
+      "Not inherited",
+      "غير موروث"
+     ],
+     [
+      "Dominant, found mostly in Africans",
+      "سائد، يكثر عند الأفارقة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which trait involves interaction between multiple genes (more complex inheritance)?",
+    "ar": "أيّ صفة تتضمّن تداخل جينات متعدّدة (وراثة أعقد)؟",
+    "options": [
+     [
+      "Cystic fibrosis",
+      "التليّف الكيسي"
+     ],
+     [
+      "Tongue rolling",
+      "لفّ اللسان"
+     ],
+     [
+      "Blood type",
+      "فصيلة الدم"
+     ],
+     [
+      "Sickle-cell disease",
+      "فقر الدم المنجلي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Purely Mendelian traits are:",
+    "ar": "الصفات المندلية الصرفة:",
+    "options": [
+     [
+      "Most human traits",
+      "أغلب صفات الإنسان"
+     ],
+     [
+      "Only in plants",
+      "في النبات فقط"
+     ],
+     [
+      "Half of all traits",
+      "نصف الصفات"
+     ],
+     [
+      "A tiny minority of all traits",
+      "أقلية صغيرة جدًا من الصفات"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Mendel's second law",
+    "topic_ar": "قانون مندل الثاني"
+   },
+   {
+    "en": "Mendel's second law is the law of:",
+    "ar": "قانون مندل الثاني هو قانون:",
+    "options": [
+     [
+      "Independent assortment",
+      "التوزيع المستقل"
+     ],
+     [
+      "Dominance",
+      "السيادة"
+     ],
+     [
+      "Segregation",
+      "الانعزال"
+     ],
+     [
+      "Mutation",
+      "الطفرة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The second law can be illustrated using:",
+    "ar": "يمكن توضيح القانون الثاني باستعمال:",
+    "options": [
+     [
+      "Monohybrid crosses",
+      "التهجينات الأحادية"
+     ],
+     [
+      "Karyotypes",
+      "الأنماط النووية"
+     ],
+     [
+      "Dihybrid crosses",
+      "التهجينات الثنائية"
+     ],
+     [
+      "Test tubes",
+      "أنابيب الاختبار"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "A dihybrid AaBb individual produces how many kinds of gametes?",
+    "ar": "كم نوعًا من الأمشاج ينتج الفرد `AaBb`؟",
+    "options": [
+     [
+      "2",
+      "2"
+     ],
+     [
+      "4",
+      "4"
+     ],
+     [
+      "8",
+      "8"
+     ],
+     [
+      "16",
+      "16"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The F2 phenotype ratio of a dihybrid cross (AaBb × AaBb) is:",
+    "ar": "نسبة المظاهر في `F2` للتهجين الثنائي `(AaBb × AaBb)`:",
+    "options": [
+     [
+      "3 : 1",
+      "3 : 1"
+     ],
+     [
+      "1 : 1 : 1 : 1",
+      "1 : 1 : 1 : 1"
+     ],
+     [
+      "1 : 2 : 1",
+      "1 : 2 : 1"
+     ],
+     [
+      "9 : 3 : 3 : 1",
+      "9 : 3 : 3 : 1"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In RrTT × rrTt (tomatoes), the proportion of tall offspring is:",
+    "ar": "في `RrTT × rrTt` (الطماطم)، نسبة النسل الطويل:",
+    "options": [
+     [
+      "All (100%)",
+      "كله (100%)"
+     ],
+     [
+      "1/2",
+      "1/2"
+     ],
+     [
+      "1/4",
+      "1/4"
+     ],
+     [
+      "3/4",
+      "3/4"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this figure, which stem length is in the upper (dominant) row?",
+    "ar": "في هذا الشكل، أيّ طول ساق في الصف الأعلى (السائد)؟",
+    "options": [
+     [
+      "Dwarf",
+      "قزم"
+     ],
+     [
+      "Medium",
+      "متوسط"
+     ],
+     [
+      "Tall",
+      "طويل"
+     ],
+     [
+      "Constricted",
+      "متخصّر"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/pea-seven-traits.png",
+    "img_h": "34mm"
+   },
+   {
+    "en": "In this Punnett square (RrYy × RrYy), how many boxes are wrinkled green?",
+    "ar": "في مربع بانيت هذا `(RrYy × RrYy)`، كم مربعًا مجعّدًا أخضر؟",
+    "options": [
+     [
+      "4",
+      "4"
+     ],
+     [
+      "3",
+      "3"
+     ],
+     [
+      "9",
+      "9"
+     ],
+     [
+      "1",
+      "1"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/dihybrid-punnett.png",
+    "img_h": "44mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Alleles occupy the same position on homologous chromosomes.",
+    "ar": "تشغل الأليلات الموقع نفسه على الكروموسومين المتماثلين.",
+    "answer": "T"
+   },
+   {
+    "en": "A heterozygous individual has two identical genes for a characteristic.",
+    "ar": "يحمل الفرد الهجين جينين متطابقين لصفة ما.",
+    "answer": "F"
+   },
+   {
+    "en": "A dominant trait appears in the heterozygous condition.",
+    "ar": "تظهر الصفة السائدة في الحالة الهجينة.",
+    "answer": "T"
+   },
+   {
+    "en": "Phenotype depends on genotype only, not on environment.",
+    "ar": "يعتمد المظهر على التركيب الوراثي فقط لا على البيئة.",
+    "answer": "F"
+   },
+   {
+    "en": "F1 is the first filial generation.",
+    "ar": "الجيل `F1` هو الجيل الأول من الأبناء.",
+    "answer": "T"
+   },
+   {
+    "en": "Mendel's first law is the law of independent assortment.",
+    "ar": "قانون مندل الأول هو قانون التوزيع المستقل.",
+    "answer": "F"
+   },
+   {
+    "en": "Dwarf pea plants possess the genes tt.",
+    "ar": "تحمل نباتات البازلاء القزمة الجينات `tt`.",
+    "answer": "T"
+   },
+   {
+    "en": "Crossing TT × tt gives all tall offspring in F1.",
+    "ar": "تهجين `TT × tt` يعطي في `F1` نسلًا كله طويل.",
+    "answer": "T"
+   },
+   {
+    "en": "Yy × yy gives 3/4 green seeds.",
+    "ar": "التهجين `Yy × yy` يعطي `3/4` بذورًا خضراء.",
+    "answer": "F"
+   },
+   {
+    "en": "Albinism is a recessive Mendelian trait.",
+    "ar": "المَهَق صفة مندلية متنحّية.",
+    "answer": "T"
+   },
+   {
+    "en": "Most phenotypic traits are purely Mendelian.",
+    "ar": "أغلب الصفات المظهرية مندلية صرفة.",
+    "answer": "F"
+   },
+   {
+    "en": "Environmental factors such as temperature, light and nutrients can influence the phenotype.",
+    "ar": "قد تؤثّر العوامل البيئية مثل الحرارة والضوء والمغذّيات في المظهر.",
+    "answer": "T"
+   },
+   {
+    "en": "Detached earlobes are recessive.",
+    "ar": "شحمة الأذن المنفصلة صفة متنحّية.",
+    "answer": "F"
+   },
+   {
+    "en": "A dihybrid cross AaBb × AaBb gives a 9:3:3:1 phenotype ratio.",
+    "ar": "التهجين الثنائي `AaBb × AaBb` يعطي نسبة مظاهر `9:3:3:1`.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Genotype vs phenotype",
+    "ar": "التركيب الوراثي مقابل المظهر",
+    "answer_en": "Genotype = the genes (TT, Tt, tt). Phenotype = what you see (tall/dwarf) = genotype + environment.",
+    "answer_ar": "التركيب الوراثي = الجينات (`TT`، `Tt`، `tt`). والمظهر = ما تراه (طويل/قزم) = التركيب + البيئة."
+   },
+   {
+    "en": "Homozygous vs heterozygous",
+    "ar": "النقي مقابل الهجين",
+    "answer_en": "Homozygous = identical (TT or tt); heterozygous = different (Tt). A 'hybrid' plant in a question = heterozygous.",
+    "answer_ar": "النقي = متطابقان (`TT` أو `tt`)؛ والهجين = مختلفان `(Tt)`. وكلمة '`hybrid`' في السؤال = هجين `(Tt)`."
+   },
+   {
+    "en": "First vs second law",
+    "ar": "القانون الأول مقابل الثاني",
+    "answer_en": "First = segregation (one gene, monohybrid, 3:1). Second = independent assortment (two genes, dihybrid, 9:3:3:1).",
+    "answer_ar": "الأول = الانعزال (جين واحد، أحادي، `3:1`). والثاني = التوزيع المستقل (جينان، ثنائي، `9:3:3:1`)."
+   },
+   {
+    "en": "Genotype ratio vs phenotype ratio",
+    "ar": "نسبة التراكيب مقابل نسبة المظاهر",
+    "answer_en": "Tt × Tt: genotypes 1:2:1 but phenotypes 3:1. Dihybrid: genotypes 1:2:1:2:4:2:1:2:1 but phenotypes 9:3:3:1.",
+    "answer_ar": "`Tt × Tt`: التراكيب `1:2:1` لكن المظاهر `3:1`. والثنائي: التراكيب `1:2:1:2:4:2:1:2:1` لكن المظاهر `9:3:3:1`."
+   },
+   {
+    "en": "Yy × yy is not 3:1",
+    "ar": "`Yy × yy` ليس `3:1`",
+    "answer_en": "Only one parent is heterozygous → 1 Yy : 1 yy = 1:1 (50% green).",
+    "answer_ar": "أب واحد فقط هجين ← `1 Yy : 1 yy = 1:1 (50%` خضراء)."
+   },
+   {
+    "en": "Earwax and earlobes",
+    "ar": "شمع الأذن وشحمة الأذن",
+    "answer_en": "Wet earwax dominant / dry recessive (Mendelian). Detached earlobes dominant / attached recessive (listed with the more complex traits).",
+    "answer_ar": "شمع الأذن الرطب سائد / الجاف متنحٍّ (مندلية). وشحمة الأذن المنفصلة سائدة / الملتصقة متنحّية (مذكورة مع الصفات الأعقد)."
+   },
+   {
+    "en": "All F1 look alike",
+    "ar": "كل الجيل `F1` متشابه",
+    "answer_en": "If all F1 show one form, that form is dominant and the parents were pure (homozygous) — e.g. BBRR × bbrr.",
+    "answer_ar": "إذا ظهر شكل واحد في كل `F1` فهو السائد والآباء نقية — مثل `BBRR × bbrr`."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define: alleles, homozygous, heterozygous, dominant, recessive.",
+    "ar": "عرّف: الأليلات، النقي، الهجين، السائد، المتنحّي.",
+    "answer_en": "Alleles: two genes at the same position on homologous chromosomes covering the same trait. Homozygous: identical genes for a characteristic. Heterozygous: two different genes. Dominant: masks the alternate allele and appears in the heterozygous condition. Recessive: masked by the dominant allele, appears only in the homozygous condition.",
+    "answer_ar": "الأليلات: جينان في الموقع نفسه على الكروموسومين المتماثلين يخصّان الصفة نفسها. النقي: جينان متطابقان للصفة. الهجين: جينان مختلفان. السائد: يحجب الأليل البديل ويظهر في الحالة الهجينة. المتنحّي: يحجبه السائد ولا يظهر إلا في الحالة النقية."
+   },
+   {
+    "en": "State Mendel's first and second laws.",
+    "ar": "اذكر قانونَي مندل الأول والثاني.",
+    "answer_en": "First (segregation): during gamete formation each member of the allelic pair separates from the other. Second (independent assortment): genes for different traits segregate independently during gamete formation; shown by dihybrid crosses.",
+    "answer_ar": "الأول (الانعزال): أثناء تكوين الأمشاج ينفصل كل فرد من زوج الأليلات عن الآخر. الثاني (التوزيع المستقل): جينات الصفات المختلفة تنعزل باستقلال أثناء تكوين الأمشاج؛ ويُوضَّح بالتهجين الثنائي."
+   },
+   {
+    "en": "Lab sheet Q1 (law 1): explain the cross between pure tall (TT) and dwarf (tt) pea plants.",
+    "ar": "سؤال الملزمة 1 (القانون الأول): اشرح التهجين بين نبات بازلاء طويل نقي `(TT)` وقزم `(tt)`.",
+    "answer_en": "TT gives only T gametes and tt only t → F1 all Tt (tall). Tt × Tt → F2 1 TT : 2 Tt : 1 tt = 3 tall : 1 dwarf.",
+    "answer_ar": "`TT` يعطي أمشاج `T` فقط و`tt` أمشاج `t` فقط ← `F1` كله `Tt` (طويل). و`Tt × Tt` ← `F2 1 TT : 2 Tt : 1 tt = 3` طويل : 1 قزم."
+   },
+   {
+    "en": "Lab sheet Q2 (law 1): cross two pea plants of hybrid smooth seeds (R smooth dominant, r wrinkled).",
+    "ar": "سؤال الملزمة 2 (القانون الأول): هجّن نباتَي بازلاء هجينَي البذور الملساء (`R` أملس سائد، `r` مجعّد).",
+    "answer_en": "Rr × Rr: gametes R and r from each parent → 1 RR : 2 Rr : 1 rr; 3 smooth : 1 wrinkled.",
+    "answer_ar": "`Rr × Rr`: أمشاج `R` و`r` من كل أب ← `1 RR : 2 Rr : 1 rr`؛ 3 ملساء : 1 مجعّدة."
+   },
+   {
+    "en": "Lab sheet Q3 (law 1): probability of Yy × yy producing green seeds?",
+    "ar": "سؤال الملزمة 3 (القانون الأول): احتمال أن ينتج `Yy × yy` بذورًا خضراء؟",
+    "answer_en": "Green = yy. Yy × yy → ½ Yy yellow : ½ yy green → probability 1/2 (50%).",
+    "answer_ar": "الأخضر = `yy. Yy × yy` ← `½ Yy` أصفر : `½ yy` أخضر ← الاحتمال `1/2 (50%)`."
+   },
+   {
+    "en": "Lab sheet Q2 (law 2): right-handed black-haired man × left-handed blonde woman; all children black-haired right-handed. Give F1 and F2.",
+    "ar": "سؤال الملزمة 2 (القانون الثاني): رجل أيمن أسود الشعر × امرأة عسراء شقراء؛ الأبناء كلهم سود الشعر يمينيون. أعطِ `F1` و`F2`.",
+    "answer_en": "P: BBRR × bbrr → F1 all BbRr (black-haired, right-handed). F2 (BbRr × BbRr): 9 black right-handed : 3 black left-handed : 3 blonde right-handed : 1 blonde left-handed; genotypes 1:2:1:2:4:2:1:2:1.",
+    "answer_ar": "الآباء `(P): BBRR × bbrr` ← `F1` كله `BbRr` (أسود الشعر، أيمن). و`F2 (BbRr × BbRr): 9` أسود أيمن : 3 أسود أعسر : 3 أشقر أيمن : 1 أشقر أعسر؛ والتراكيب `1:2:1:2:4:2:1:2:1`."
+   },
+   {
+    "en": "Lab sheet Q3-1: guinea pigs SsBb × SsBb.",
+    "ar": "سؤال الملزمة 3-1: خنازير غينيا `SsBb × SsBb`.",
+    "answer_en": "Gametes SB, Sb, sB, sb from each → 16 boxes: 9 smooth black : 3 smooth white : 3 rough black : 1 rough white.",
+    "answer_ar": "الأمشاج `SB` و`Sb` و`sB` و`sb` من كل أب ← 16 مربعًا: 9 أملس أسود : 3 أملس أبيض : 3 خشن أسود : 1 خشن أبيض."
+   },
+   {
+    "en": "Lab sheet Q3-2: tomatoes RrTT × rrTt.",
+    "ar": "سؤال الملزمة 3-2: الطماطم `RrTT × rrTt`.",
+    "answer_en": "Gametes RT, rT × rT, rt → RrTT, RrTt, rrTT, rrTt (¼ each): all tall; 1 red : 1 non-red (r) fruit.",
+    "answer_ar": "الأمشاج `RT` و`rT × rT` و`rt` ← `RrTT` و`RrTt` و`rrTT` و`rrTt` (ربع لكل منها): كلها طويلة؛ 1 ثمرة حمراء : 1 غير حمراء `(r)`."
+   },
+   {
+    "en": "Lab sheet Q3-3: pure black curly dog × pure yellow straight dog; F1 all black straight. Give F2.",
+    "ar": "سؤال الملزمة 3-3: كلب أسود مجعّد نقي × كلب أصفر مستقيم نقي؛ `F1` كله أسود مستقيم. أعطِ `F2`.",
+    "answer_en": "Black (B) and straight (S) are dominant. BBss × bbSS → F1 BbSs. F2: 9 black straight : 3 black curly : 3 yellow straight : 1 yellow curly.",
+    "answer_ar": "الأسود `(B)` والمستقيم `(S)` سائدان. `BBss × bbSS` ← `F1 BbSs`. و`F2: 9` أسود مستقيم : 3 أسود مجعّد : 3 أصفر مستقيم : 1 أصفر مجعّد."
+   },
+   {
+    "en": "Lab sheet Q3-4: pea plants heterozygous for pod color (G green) and pod shape (N smooth): genotype and phenotype ratios?",
+    "ar": "سؤال الملزمة 3-4: نباتا بازلاء هجينان للون القرنة (`G` خضراء) وشكلها (`N` ملساء): ما نسب التراكيب والمظاهر؟",
+    "answer_en": "GgNn × GgNn → genotypes 1:2:1:2:4:2:1:2:1; phenotypes 9 green smooth : 3 green constricted : 3 yellow smooth : 1 yellow constricted.",
+    "answer_ar": "`GgNn × GgNn` ← التراكيب `1:2:1:2:4:2:1:2:1`؛ والمظاهر 9 خضراء ملساء : 3 خضراء متخصّرة : 3 صفراء ملساء : 1 صفراء متخصّرة."
+   }
+  ]
+ }
+}

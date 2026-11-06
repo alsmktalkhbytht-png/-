@@ -217,7 +217,9 @@ def _pass(blocks, folder):
     ks = pieces(b)
     cands = [cut(b, k)[0] for k in range(1, len(ks))]
     hs = _measure(cands, folder)
-    best = max((k for k, h in enumerate(hs, 1) if h <= room - 0.5), default=None)
+    n = len(ks)
+    ok = lambda k: b["t"] != "table" or n < 4 or 2 <= k <= n - 2     # no table row left alone on a page
+    best = max((k for k, h in enumerate(hs, 1) if h <= room - 0.5 and ok(k)), default=None)
     if best is None:
         b["_minroom"] = room                            # its first piece needs more room than this
         return blocks

@@ -3,6 +3,7 @@
 ## Helpers
 
 - [[Code/bac - bal.py|bac/bal.py]] — balance(mcq, seed): spreads MCQ answer letters evenly.
+- [[Code/bidi.py|bidi.py]] — ltr_all(obj): wraps Latin runs and formulas (TT × tt, 3 : 1) inside Arabic strings in backticks so they are not reversed.
 - [[Code/flowfit.py|flowfit.py]] — Page filler: cuts tall cards/notes/tables at the best piece boundary (measured by the engine) so no page keeps a big gap. fit(folder) after save().
 - [[Code/gapdbg.py|gapdbg.py]] — Debug: for each booklet page under 80% shows the block that jumped to the next page and its height.
 - [[Code/hem3 - common.py|hem3/common.py]] — Base helpers used by c.py.
@@ -36,6 +37,7 @@
 - [[Code/enz4 - e4q.py|enz4/e4q.py]] → enzymology-lec4-bioenergetics
 - [[Code/eth - make.py|eth/make.py]] → ethics-lec1-morals
 - [[Code/gen2 - g2q.py|gen2/g2q.py]] → genetics-lec2-mitosis
+- [[Code/gen4 - g4.py|gen4/g4.py]] → genetics-lab4-mendelian-genetics
 - [[Code/gh - ghq.py|gh/ghq.py]] → endocrine-lab3-growth-hormone
 - [[Code/gt2 - gt2.py|gt2/gt2.py]] → genetics-lec2-meiosis
 - [[Code/ha - h1.py|ha/h1.py]] → nursing-ha-lec1-head-neck

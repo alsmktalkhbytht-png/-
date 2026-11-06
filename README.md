@@ -49,6 +49,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `genetics-lec2-meiosis/` — Genetics theory lecture 2: Meiosis (د. عبد سلطان) — third stage, new style.
 - `genetics-lec2-mitosis/` — Genetics theory lecture 2: Mitosis (د. عبد سلطان; sheet header says lec 5) — third stage, new style, questions inside.
 - `genetics-lab1-mitosis/`, `genetics-lab2-meiosis/`, `genetics-lab3-medical-genetics/` — Human Genetics practical labs 1–3: Mitosis, Meiosis, Medical genetics (م.م. نور م. فاضل) — third stage, new style.
+- `genetics-lab4-mendelian-genetics/` — Human Genetics practical lab 4: Mendelian Genetics (Mendel's two laws, Mendelian traits in humans), د. فردوس عثمان (as given by the user; the sheet header says Noor M. Fadhil). Source was a .docx; every problem on the sheet has a BIOS solution with a Punnett square. 35 pages + cover, questions merged.
 - `hematology-lec2…lec10-*/` — Hematology theory (د. مازن اللهيبي) lectures 2–10: blood cell formation, blood elements, hemoglobin, anaemia, iron deficiency, chronic/sideroblastic, macrocytic, hemolytic, membrane defects — third stage (6–10 in the new style).
 - `histopathology-lab1-lab-safety/`, `histopathology-lab2-samples/` — Histopathology (علم الأمراض النسيجية) practical labs 1–2 — third stage.
 - `histopathology-lab3-tissue-processing/` — Histopathology practical lab 3: Tissue processing (م.م. آية وسمي) — third stage, new style, questions inside.

@@ -42,6 +42,7 @@ HELPERS = {"n7/c.py": "Short block builders (C, R, SEC, H2, L, N, FLOW, T, Q, TF
            "para/parse.py": "PDF → paragraphs with ⟦bold⟧ and __italic__ markers (pdfplumber).",
            "para/qparse.py": "Paragraphs → MCQs (stem, options A–E, bold = answer).",
            "para/build.py": "MCQ banks: cleaning, translation tables, BIOS flags, inline answers.",
+           "bidi.py": "ltr_all(obj): wraps Latin runs and formulas (TT × tt, 3 : 1) inside Arabic strings in backticks so they are not reversed.",
            "flowfit.py": "Page filler: cuts tall cards/notes/tables at the best piece boundary (measured by the engine) so no page keeps a big gap. fit(folder) after save().",
            "gapdbg.py": "Debug: for each booklet page under 80% shows the block that jumped to the next page and its height.",
            "sheet.py": "Side-by-side image of chosen booklet pages: sheet.py <folder> out.png 3,4,5.",
