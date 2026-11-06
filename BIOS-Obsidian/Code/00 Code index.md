@@ -15,6 +15,7 @@
 - [[Code/para - build.py|para/build.py]] — MCQ banks: cleaning, translation tables, BIOS flags, inline answers.
 - [[Code/para - parse.py|para/parse.py]] — PDF → paragraphs with ⟦bold⟧ and __italic__ markers (pdfplumber).
 - [[Code/para - qparse.py|para/qparse.py]] — Paragraphs → MCQs (stem, options A–E, bold = answer).
+- [[Code/review.py|review.py]] — MANDATORY final check before sending (user rule 2026-11-06): source coverage, missing words, translation, images, answer keys, page gaps → REVIEW OK.
 - [[Code/sheet.py|sheet.py]] — Side-by-side image of chosen booklet pages: sheet.py <folder> out.png 3,4,5.
 
 ## Generators (one per handout)

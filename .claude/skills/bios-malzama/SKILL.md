@@ -109,7 +109,13 @@ automatic pagination, and the question bank. The reference result is `lab1-biosa
    when `questions` exists) and one PNG per page in `<folder>/.build/*-pages/`.
 5. **Look at the page PNGs** (contact sheet with PIL) and fix anything odd: an overflow
    line in the build output, a wrongly cropped figure, a bad line break. Rebuild.
-6. **Send both PDFs** with SendUserFile, then commit the folder (not `.build/`) and push.
+6. **Review before sending — mandatory for every handout (user rule 2026-11-06):** run
+   `python3 BIOS-Obsidian/tools/scripts/review.py <folder> <source.txt>` until it prints `REVIEW OK`
+   (source coverage sentence by sentence, missing words, untranslated fields, unused images, answer keys,
+   page gaps), then read the whole `lecture.json` (EN | AR) and the page images yourself — meaning,
+   numbers, names, every BIOS solution and every MCQ/TF answer. Fix, rebuild, review again.
+7. **Send both PDFs** with SendUserFile (say in one line what the review checked/fixed), then commit the
+   folder (not `.build/`) and push.
 
 ## Content rules (non-negotiable)
 
