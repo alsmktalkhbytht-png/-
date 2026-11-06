@@ -1,0 +1,2047 @@
+{
+ "meta": {
+  "subject_en": "Histopathology",
+  "subject_ar": "علم الأمراض النسيجية",
+  "short_ar": "انسجة",
+  "instructor": "م.م. آية وسمي",
+  "unit_en": "Lab 5",
+  "unit_ar": "العملي 5",
+  "unit_label": "LAB",
+  "unit_no": "5",
+  "title_en": "Theory of histological staining",
+  "title_ar": "نظرية التصبيغ النسيجي",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Why We Stain?",
+   "ar": "لماذا نصبغ؟"
+  },
+  {
+   "t": "note",
+   "en": "By: M.S.C AYA WESMII",
+   "ar": "إعداد: م.م. آية وسمي",
+   "label": [
+    "Lab sheet",
+    "ورقة العملي"
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Fresh, untreated tissue is mostly **transparent and colorless** when sliced thinly.",
+    "Under a microscope, it reveals very little detail because all cellular components have **similar refractive indices**."
+   ],
+   "ar": [
+    "النسيج الطازج غير المعالَج يكون غالبًا **شفّافًا وعديم اللون** عند تقطيعه شرائح رقيقة.",
+    "وتحت المجهر لا يُظهر إلا تفاصيل قليلة جدًا لأن كل مكوّنات الخلية لها **معاملات انكسار متشابهة**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/stain-collage.png",
+   "en": "Different tissues after staining",
+   "ar": "أنسجة مختلفة بعد التصبيغ",
+   "h": "40mm"
+  },
+  {
+   "t": "card",
+   "en": "**Staining** : is the process of applying **colored dyes or metals** to tissue sections to:",
+   "ar": "**التصبيغ**: عملية وضع **صبغات ملوّنة أو معادن** على المقاطع النسيجية من أجل:",
+   "list_en": [
+    "**Impart Contrast**: Make different structures visible.",
+    "**Identify Tissue Components**: Differentiate between nuclei, cytoplasm, connective tissues, etc."
+   ],
+   "list_ar": [
+    "**إعطاء التباين**: جعل التراكيب المختلفة مرئية.",
+    "**تمييز مكوّنات النسيج**: التفريق بين الأنوية والسايتوبلازم والأنسجة الضامّة وغيرها."
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Reveal Chemical Composition**: Indicate the presence of specific molecules (e.g., carbohydrates, proteins).",
+    "**Identify Microorganisms**: Detect bacteria, fungi, and other pathogens.",
+    "**Aid in Diagnosis**: Provide the primary visual basis for pathological diagnosis."
+   ],
+   "list_ar": [
+    "**كشف التركيب الكيميائي**: الدلالة على وجود جزيئات معيّنة (مثل الكربوهيدرات والبروتينات).",
+    "**تمييز الأحياء المجهرية**: كشف البكتيريا والفطريات والمُمْرِضات الأخرى.",
+    "**المساعدة في التشخيص**: توفير الأساس المرئي الأول للتشخيص المرضي."
+   ],
+   "start": 3,
+   "_ff": 1
+  },
+  {
+   "t": "note",
+   "en": [
+    "Unstained tissue is **transparent** — components have **similar refractive indices**.",
+    "Staining = **colored dyes or metals** → contrast, components, chemistry, microorganisms, diagnosis."
+   ],
+   "ar": [
+    "النسيج غير المصبوغ **شفّاف** — لأن مكوّناته **متشابهة في معامل الانكسار**.",
+    "التصبيغ = **صبغات ملوّنة أو معادن** ← تباين، ومكوّنات، وتركيب كيميائي، وأحياء مجهرية، وتشخيص."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "How Dyes Bind to Tissues",
+   "ar": "كيف ترتبط الصبغات بالأنسجة"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**The Chemical Basis of Staining:**",
+    "The interaction between dyes and tissue components is primarily chemical, relying on **affinity**.",
+    "The **two main theories** are:"
+   ],
+   "ar": [
+    "**الأساس الكيميائي للتصبيغ:**",
+    "التفاعل بين الصبغات ومكوّنات النسيج كيميائي أساسًا، ويعتمد على **الألفة**.",
+    "و**النظريتان الرئيستان** هما:"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/four-stains.png",
+   "en": "Examples of stained tissue sections",
+   "ar": "أمثلة لمقاطع نسيجية مصبوغة",
+   "h": "40mm"
+  },
+  {
+   "t": "h2",
+   "en": "A. The Physical Theory",
+   "ar": "أ. النظرية الفيزيائية"
+  },
+  {
+   "t": "card",
+   "en": "This involv es **non-chemical, mechanical forces**.",
+   "ar": "تتضمّن **قوى ميكانيكية غير كيميائية**."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Adsorption**: The dye is **physically attracted and adheres to the surface** of tissue components via weak **Van der Waals forces**.",
+    "**Absorption**: The dye is **taken up by the tissue**, much like **a sponge soaking up water**, and becomes trapped within its pores or matrix.",
+    "**Solubility**: Some dyes are **more soluble in certain tissue lipids** than in the solvent, causing them to precipitate out of solution and into the lipid (e.g., **Sudan stains for fats**)."
+   ],
+   "list_ar": [
+    "**الامتزاز**: تنجذب الصبغة فيزيائيًا **وتلتصق بسطح** مكوّنات النسيج بقوى **فان دير فالس** الضعيفة.",
+    "**الامتصاص**: **يأخذ النسيج الصبغة** إلى داخله **كما تمتصّ الإسفنجة الماء**، فتُحتبس داخل مسامّه أو حشوته.",
+    "**الذوبانية**: بعض الصبغات **أكثر ذوبانًا في دهون معيّنة في النسيج** منها في المذيب، فتخرج من المحلول وتترسّب في الدهن (مثل **صبغات سودان للدهون**)."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/adsorption.png",
+     "en": "Adsorption: adsorbed atom held on the surface (stardust grain) by van der Waals force",
+     "ar": "الامتزاز: ذرّة ممتزّة على السطح (حبيبة غبار نجمي) بقوّة فان دير فالس",
+     "h": "36mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/absorption-sponge.png",
+     "en": "Absorption: sponge + water → swelling & softening; microporous material + adsorbate",
+     "ar": "الامتصاص: إسفنجة + ماء ← انتفاخ وليونة؛ مادة دقيقة المسامّ + مادة ممتزّة",
+     "h": "36mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/lipid-oil-red-sudan.png",
+   "en": "Appearance of lipids in light microscopy: left, Oil Red O; right, Sudan Black IV. These are stained frozen sections.",
+   "ar": "مظهر الدهون بالمجهر الضوئي: يسارًا الزيت الأحمر `O`؛ ويمينًا سودان الأسود `IV`. وهي مقاطع مجمّدة مصبوغة.",
+   "h": "44mm"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Two theories: **physical** and **chemical**.",
+    "Physical: **adsorption** (surface, van der Waals), **absorption** (like a sponge), **solubility** (Sudan dyes in fat)."
+   ],
+   "ar": [
+    "نظريتان: **فيزيائية** و**كيميائية**.",
+    "الفيزيائية: **الامتزاز** (السطح، فان دير فالس)، و**الامتصاص** (كالإسفنجة)، و**الذوبانية** (صبغات سودان في الدهن)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "The Chemical Theory",
+   "ar": "النظرية الكيميائية"
+  },
+  {
+   "t": "h2",
+   "en": "B. The Chemical Theory",
+   "ar": "ب. النظرية الكيميائية"
+  },
+  {
+   "t": "card",
+   "en": [
+    "This is the **most important and widely accepted** theory.",
+    "It proposes that staining results from **chemical reactions or bonds** between the dye and specific tissue components.",
+    "The key players are:"
+   ],
+   "ar": [
+    "وهي النظرية **الأهمّ والأوسع قبولًا**.",
+    "وتفترض أن التصبيغ ينتج عن **تفاعلات أو روابط كيميائية** بين الصبغة ومكوّنات معيّنة في النسيج.",
+    "والعناصر الرئيسة هي:"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "1. Acid-Base Reactions (Ionic Bonding)",
+   "ar": "1. تفاعلات الحامض والقاعدة (الرابطة الأيونية)"
+  },
+  {
+   "t": "card",
+   "en": "This is the **cornerstone of routine staining**.",
+   "ar": "وهي **حجر الأساس في التصبيغ الروتيني**."
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Basic Dyes**: These are **cations (positively charged)**.",
+    "They have an affinity for acidophilic (acid-loving) components, which are **anionic (negatively charged)**.",
+    "**Examples of Basic Dyes**: **Hematoxylin, Methylene Blue, Toluidine Blue**."
+   ],
+   "ar": [
+    "**الصبغات القاعدية**: هي **كاتيونات (موجبة الشحنة)**.",
+    "ولها ألفة للمكوّنات المحبّة للحامض، وهي **أنيونية (سالبة الشحنة)**.",
+    "**أمثلة الصبغات القاعدية**: **الهيماتوكسلين، وأزرق المثيلين، وأزرق التولويدين**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**They Stain**: **Nucleic acids (DNA/RNA)** in the nucleus, **ribosomes**, and **cartilage matrix**.",
+    "These structures are rich in **phosphate and sulfate groups**, which carry a **negative charge**."
+   ],
+   "ar": [
+    "**وتصبغ**: **الأحماض النووية (`DNA/RNA`)** في النواة، و**الرايبوسومات**، و**حشوة الغضروف**.",
+    "وهذه التراكيب غنية بـ**مجاميع الفوسفات والكبريتات** التي تحمل **شحنة سالبة**."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/ion-exchange.png",
+     "en": "Negatively charged analyte (anion) attached to positive surface / Positively charged analyte (cation) attached to negative surface",
+     "ar": "مادة سالبة الشحنة (أنيون) ترتبط بسطح موجب / مادة موجبة الشحنة (كاتيون) ترتبط بسطح سالب",
+     "h": "34mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/rna-dna.png",
+     "en": "RNA (ribonucleic acid) and DNA (deoxyribonucleic acid) — negatively charged phosphate backbone",
+     "ar": "الحامض النووي الرايبوزي `RNA` والحامض النووي الرايبوزي منقوص الأوكسجين `DNA` — هيكل فوسفاتي سالب الشحنة",
+     "h": "34mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Acidic Dyes**: These are **anions (negatively charged)**.",
+    "They have an affinity for basophilic (base-loving) components, which are **cationic (positively charged)**.",
+    "**Examples of Acidic Dyes**: **Eosin, Acid Fuchsin, Picric Acid**."
+   ],
+   "ar": [
+    "**الصبغات الحامضية**: هي **أنيونات (سالبة الشحنة)**.",
+    "ولها ألفة للمكوّنات المحبّة للقاعدة، وهي **كاتيونية (موجبة الشحنة)**.",
+    "**أمثلة الصبغات الحامضية**: **الإيوسين، والفوكسين الحامضي، وحامض البكريك**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**They Stain**: Most **cytoplasmic proteins, collagen, and red blood cells**.",
+    "These structures are rich in **amino groups**, which carry a **positive charge**."
+   ],
+   "ar": [
+    "**وتصبغ**: أغلب **بروتينات السايتوبلازم، والكولاجين، وكريات الدم الحمر**.",
+    "وهذه التراكيب غنية بـ**مجاميع الأمين** التي تحمل **شحنة موجبة**."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Careful with the words: a component that takes up **basic** dyes (nucleus, negative) is called **basophilic**, and one that takes up **acidic** dyes (cytoplasm, positive) is called **acidophilic / eosinophilic**.",
+    "The sheet has the two words swapped in the definitions above, but uses them correctly in the H&E example below."
+   ],
+   "ar": [
+    "انتبه للمصطلحين: المكوّن الذي يأخذ الصبغات **القاعدية** (النواة، سالبة) يُسمّى **محبًّا للقاعدة `(basophilic)`**، والذي يأخذ الصبغات **الحامضية** (السايتوبلازم، موجب) يُسمّى **محبًّا للحامض `(acidophilic / eosinophilic)`**.",
+    "والورقة بدّلت الكلمتين في التعريفين أعلاه، لكنها استعملتهما صحيحًا في مثال `H&E` أدناه."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة `BIOS`"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/afb-kit.png",
+   "en": "Acid-Fast Staining (AFB stain) kit",
+   "ar": "عدّة التصبيغ الصامد للحامض (`AFB`)",
+   "h": "38mm"
+  },
+  {
+   "t": "h2",
+   "en": "1- The Classic Example: Hematoxylin and Eosin (H&E)",
+   "ar": "1. المثال التقليدي: الهيماتوكسلين والإيوسين (`H`&`E`)"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Hematoxylin (basic)** stains the **nuclei blue-purple (basophilic)**.",
+    "**Eosin (acidic)** stains the **cytoplasm and connective tissue pink (acidophilic)**.",
+    "This provides a **fundamental contrast** that allows pathologists to assess **tissue architecture**."
+   ],
+   "list_ar": [
+    "**الهيماتوكسلين (قاعدي)** يصبغ **الأنوية بنفسجيًا مزرقًّا (محبّة للقاعدة)**.",
+    "**الإيوسين (حامضي)** يصبغ **السايتوبلازم والنسيج الضامّ باللون الوردي (محبّة للحامض)**.",
+    "ويوفّر ذلك **تباينًا أساسيًا** يسمح لأطبّاء الأمراض بتقييم **بنية النسيج**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/he-stain.png",
+   "en": "Hematoxylin & Eosin Staining",
+   "ar": "التصبيغ بالهيماتوكسلين والإيوسين",
+   "h": "40mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Point",
+     "وجه المقارنة"
+    ],
+    [
+     "Basic dyes",
+     "الصبغات القاعدية"
+    ],
+    [
+     "Acidic dyes",
+     "الصبغات الحامضية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Charge of dye**",
+      "**شحنة الصبغة**"
+     ],
+     [
+      "cation (+)",
+      "كاتيون (+)"
+     ],
+     [
+      "anion (−)",
+      "أنيون (−)"
+     ]
+    ],
+    [
+     [
+      "**Binds to**",
+      "**ترتبط بـ**"
+     ],
+     [
+      "negative groups: phosphate, sulfate",
+      "مجاميع سالبة: الفوسفات والكبريتات"
+     ],
+     [
+      "positive groups: amino",
+      "مجاميع موجبة: الأمين"
+     ]
+    ],
+    [
+     [
+      "**Stains**",
+      "**تصبغ**"
+     ],
+     [
+      "nucleus (DNA/RNA), ribosomes, cartilage matrix",
+      "النواة (`DNA/RNA`)، والرايبوسومات، وحشوة الغضروف"
+     ],
+     [
+      "cytoplasmic proteins, collagen, RBCs",
+      "بروتينات السايتوبلازم، والكولاجين، وكريات الدم الحمر"
+     ]
+    ],
+    [
+     [
+      "**Tissue is called**",
+      "**يُسمّى النسيج**"
+     ],
+     [
+      "basophilic",
+      "محبًّا للقاعدة"
+     ],
+     [
+      "acidophilic (eosinophilic)",
+      "محبًّا للحامض (للإيوسين)"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    39,
+    39
+   ],
+   "style": "summary",
+   "label_en": "BIOS: basic vs acidic dyes",
+   "label_ar": "`BIOS`: الصبغات القاعدية مقابل الحامضية",
+   "_ff": 2
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Point",
+     "وجه المقارنة"
+    ],
+    [
+     "Basic dyes",
+     "الصبغات القاعدية"
+    ],
+    [
+     "Acidic dyes",
+     "الصبغات الحامضية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Examples**",
+      "**أمثلة**"
+     ],
+     [
+      "hematoxylin, methylene blue, toluidine blue",
+      "الهيماتوكسلين، وأزرق المثيلين، وأزرق التولويدين"
+     ],
+     [
+      "eosin, acid fuchsin, picric acid",
+      "الإيوسين، والفوكسين الحامضي، وحامض البكريك"
+     ]
+    ],
+    [
+     [
+      "**In H&E**",
+      "**في `H&E`**"
+     ],
+     [
+      "hematoxylin → nuclei blue-purple",
+      "الهيماتوكسلين ← أنوية بنفسجية مزرقّة"
+     ],
+     [
+      "eosin → cytoplasm pink",
+      "الإيوسين ← سايتوبلازم وردي"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    39,
+    39
+   ],
+   "style": "summary",
+   "label_en": "BIOS: basic vs acidic dyes (continued)",
+   "label_ar": "`BIOS`: الصبغات القاعدية مقابل الحامضية (تكملة)",
+   "_ff": 2
+  },
+  {
+   "t": "note",
+   "en": [
+    "Chemical theory = **most accepted**; acid–base (ionic) bonding is the **cornerstone of routine staining**.",
+    "**Basic dye (+)** → nucleus (phosphate −); **acidic dye (−)** → cytoplasm (amino +).",
+    "H&E: **nuclei blue-purple**, **cytoplasm pink**."
+   ],
+   "ar": [
+    "النظرية الكيميائية = **الأوسع قبولًا**؛ والرابطة الحامضية–القاعدية (الأيونية) **حجر أساس التصبيغ الروتيني**.",
+    "**الصبغة القاعدية (+)** ← النواة (فوسفات −)؛ و**الحامضية (−)** ← السايتوبلازم (أمين +).",
+    "`H&E`: **الأنوية بنفسجية مزرقّة**، و**السايتوبلازم وردي**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Other chemical mechanisms",
+   "ar": "آليات كيميائية أخرى"
+  },
+  {
+   "t": "h2",
+   "en": "2. Other Chemical Mechanisms:",
+   "ar": "2. آليات كيميائية أخرى:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Mordants**: These are **not dyes themselves** but **\"linker\" substances** that form a complex between the dye and the tissue, creating a strong, insoluble **\"lake.\"** The bond is much more intense and permanent.",
+    [
+     "**Example**: Hematoxylin is a **weak dye on its own**.",
+     "When used with an **alum mordant (usually potassium alum)**, it forms **Hematein-Aluminum Lake**, which is a powerful nuclear stain.",
+     "**Iron** is another common mordant."
+    ]
+   ],
+   "list_ar": [
+    "**المثبّتات (المُرسِّخات)**: **ليست صبغات بحدّ ذاتها** بل **مواد \"رابطة\"** تكوّن معقّدًا بين الصبغة والنسيج، فينشأ **\"لاك\" (معقّد)** قوي غير ذائب. والرابطة أشدّ بكثير وأكثر دوامًا.",
+    [
+     "**مثال**: الهيماتوكسلين **صبغة ضعيفة بمفرده**.",
+     "وعند استعماله مع **مثبّت الشبّ (عادةً شبّ البوتاسيوم)** يكوّن **لاك الهيماتين–الألمنيوم**، وهو صبغة نووية قويّة.",
+     "و**الحديد** مثبّت شائع آخر."
+    ]
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/haematein-haematoxylin.png",
+   "en": "Chemical structures: Haematein and Haematoxylin",
+   "ar": "التركيب الكيميائي: الهيماتين والهيماتوكسلين",
+   "h": "40mm"
+  },
+  {
+   "t": "note",
+   "en": "Hematoxylin itself is not the dye — it is **oxidized (ripened) to haematein**, and haematein + the mordant (aluminium or iron) forms the coloured **lake** that binds the nucleus.",
+   "ar": "الهيماتوكسلين نفسه ليس الصبغة — بل **يُؤكسَد (يُنضَج) إلى هيماتين**، والهيماتين + المثبّت (الألمنيوم أو الحديد) يكوّن **اللاك** الملوّن الذي يرتبط بالنواة.",
+   "label": [
+    "BIOS note",
+    "ملاحظة `BIOS`"
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Reduction**: Some staining methods rely on the tissue component **reducing a metallic salt** to a visible, colored precipitate.",
+    "**Example**: **Silver impregnation** techniques for **reticular fibers** (e.g., Gordon & Sweet's stain).",
+    "The tissue reduces the silver salt to **metallic silver**, which deposits on the fibers, making them **black**."
+   ],
+   "ar": [
+    "**الاختزال**: تعتمد بعض طرائق التصبيغ على أن يقوم مكوّن النسيج **باختزال ملح معدني** إلى راسب ملوّن مرئي.",
+    "**مثال**: تقنيات **التشريب بالفضّة** لـ**الألياف الشبكية** (مثل صبغة غوردون وسويت).",
+    "يختزل النسيج ملح الفضّة إلى **فضّة معدنية** تترسّب على الألياف فتجعلها **سوداء**."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/silver-fibers.png",
+     "en": "Silver impregnation: fibers stained black",
+     "ar": "التشريب بالفضّة: ألياف مصبوغة بالأسود",
+     "h": "40mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/reticulin-labels.png",
+     "en": "Reticulin stain: RETICULIN FIBERS - BLACK, NUCLEI - RED, BACKGROUND - GREY",
+     "ar": "صبغة الألياف الشبكية: الألياف الشبكية – أسود، الأنوية – أحمر، الخلفية – رمادي",
+     "h": "40mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Histochemical Reactions**: These are **specific chemical reactions** that produce a colored product **in situ**.",
+    "**Example**: **Periodic Acid-Schiff (PAS) Stain**.",
+    "Periodic acid **oxidizes sugar groups** in carbohydrates (like in basement membranes, glycogen) to create **aldehydes**.",
+    "These aldehydes then react with **Schiff's reagent** to produce a **magenta** color."
+   ],
+   "ar": [
+    "**التفاعلات الكيميائية النسيجية**: **تفاعلات كيميائية نوعية** تنتج مادة ملوّنة **في مكانها**.",
+    "**مثال**: **صبغة حامض البيريوديك–شيف (`PAS`)**.",
+    "يؤكسد حامض البيريوديك **مجاميع السكّر** في الكربوهيدرات (كما في الأغشية القاعدية والكلايكوجين) فيكوّن **ألدهيدات**.",
+    "ثم تتفاعل هذه الألدهيدات مع **كاشف شيف** لتعطي لونًا **أرجوانيًا (ماجنتا)**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/pas-1.png",
+   "en": "PAS stain: carbohydrates magenta",
+   "ar": "صبغة `PAS`: الكربوهيدرات بلون أرجواني",
+   "h": "40mm"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Periodic acid oxidizes sugars",
+     "ar": "حامض البيريوديك يؤكسد السكّريات"
+    },
+    {
+     "en": "Aldehydes formed",
+     "ar": "تتكوّن ألدهيدات"
+    },
+    {
+     "en": "Schiff's reagent",
+     "ar": "كاشف شيف"
+    },
+    {
+     "en": "Magenta colour",
+     "ar": "لون أرجواني"
+    }
+   ],
+   "en": "PAS in one line",
+   "ar": "`PAS` بسطر واحد"
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Mordant** = linker (not a dye) → insoluble **lake**; hematoxylin + **potassium alum** → hematein-aluminum lake; iron too.",
+    "**Reduction**: silver salt → metallic silver → **reticular fibers black** (Gordon & Sweet).",
+    "**Histochemical**: PAS — oxidize sugars → aldehydes → Schiff → **magenta**."
+   ],
+   "ar": [
+    "**المثبّت** = رابط (ليس صبغة) ← **لاك** غير ذائب؛ هيماتوكسلين + **شبّ البوتاسيوم** ← لاك الهيماتين–الألمنيوم؛ والحديد أيضًا.",
+    "**الاختزال**: ملح الفضّة ← فضّة معدنية ← **ألياف شبكية سوداء** (غوردون وسويت).",
+    "**الكيميائية النسيجية**: `PAS` — أكسدة السكّريات ← ألدهيدات ← شيف ← **أرجواني**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Classification of Stains by Purpose",
+   "ar": "تصنيف الصبغات بحسب الغرض"
+  },
+  {
+   "t": "card",
+   "en": "Stains can be categorized based on what they are designed to demonstrate.",
+   "ar": "يمكن تصنيف الصبغات بحسب ما صُمّمت لإظهاره."
+  },
+  {
+   "t": "card",
+   "en": [
+    "**A. Routine Stains**",
+    "**H&E (Hematoxylin and Eosin)**: The **workhorse** of histology and pathology.",
+    "Used for **general tissue morphology**."
+   ],
+   "ar": [
+    "**أ. الصبغات الروتينية**",
+    "**`H&E` (الهيماتوكسلين والإيوسين)**: **الصبغة الأساسية** في علم الأنسجة والأمراض.",
+    "تُستعمل لـ**الشكل العام للنسيج**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/he-routine.png",
+   "en": "Routine H&E section",
+   "ar": "مقطع روتيني مصبوغ بـ `H&E`",
+   "h": "38mm"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**B. Special Stains**",
+    "These highlight **specific structures** that are **not clearly visible with H&E**."
+   ],
+   "ar": [
+    "**ب. الصبغات الخاصة**",
+    "تُبرز **تراكيب معيّنة** **لا تظهر بوضوح بصبغة `H&E`**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "C- Connective Tissue Stains:",
+   "ar": "ج. صبغات النسيج الضامّ:"
+  },
+  {
+   "t": "card",
+   "en": "**Masson's Trichrome**: Stains **nuclei (black/dark blue)**, **cytoplasm (red)**, and **collagen (blue/green)**.",
+   "ar": "**ثلاثي ماسون**: يصبغ **الأنوية (أسود/أزرق داكن)**، و**السايتوبلازم (أحمر)**، و**الكولاجين (أزرق/أخضر)**."
+  },
+  {
+   "t": "figure",
+   "src": "assets/masson-trichrome.png",
+   "en": "Masson's Trichrome Staining (A, B)",
+   "ar": "التصبيغ بثلاثي ماسون (أ، ب)",
+   "h": "40mm"
+  },
+  {
+   "t": "card",
+   "en": "**Van Gieson's Stain**: Stains **collagen red** and **muscle yellow**.",
+   "ar": "**صبغة فان غيسون**: تصبغ **الكولاجين بالأحمر** و**العضلات بالأصفر**."
+  },
+  {
+   "t": "card",
+   "en": "**Verhoeff-Van Gieson Stain**: Highlights **elastic fibers (black/blue-black)**.",
+   "ar": "**صبغة فيرهوف–فان غيسون**: تُبرز **الألياف المرنة (أسود/أسود مزرق)**."
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/van-gieson.png",
+     "en": "Van Gieson's stain: collagen red, muscle yellow",
+     "ar": "صبغة فان غيسون: الكولاجين أحمر والعضلات صفراء",
+     "h": "38mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/verhoeff.png",
+     "en": "Verhoeff-Van Gieson: elastic fibers black",
+     "ar": "فيرهوف–فان غيسون: الألياف المرنة سوداء",
+     "h": "38mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Carbohydrate Stains:",
+   "ar": "صبغات الكربوهيدرات:"
+  },
+  {
+   "t": "card",
+   "en": "**PAS (Periodic Acid-Schiff)**: Stains carbohydrates (**glycogen, glycoproteins, proteoglycans**) **magenta**.",
+   "ar": "**`PAS` (حامض البيريوديك–شيف)**: تصبغ الكربوهيدرات (**الكلايكوجين، والبروتينات السكرية، والبروتيوغلايكانات**) باللون **الأرجواني**."
+  },
+  {
+   "t": "card",
+   "en": "**Mucicarmine**: Specifically stains **acid mucins** (e.g., in **adenocarcinomas**) **red**.",
+   "ar": "**الميوسيكارمين**: يصبغ **المخاطين الحامضية** تحديدًا (مثل ما في **السرطانات الغدّية**) بالـ**أحمر**."
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/pas-2.png",
+     "en": "PAS: magenta",
+     "ar": "`PAS`: أرجواني",
+     "h": "38mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/mucicarmine.png",
+     "en": "Mucicarmine: acid mucins red",
+     "ar": "الميوسيكارمين: المخاطين الحامضية حمراء",
+     "h": "38mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Ziehl-Neelsen Stain**: For **acid-fast bacilli** like __Mycobacterium tuberculosis__ (**red rods**).",
+   "ar": "**صبغة زيل-نيلسن**: لـ**العصيّات الصامدة للحامض** مثل `__Mycobacterium tuberculosis__` (**عصيّات حمراء**)."
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/zn-1.png",
+     "en": "Ziehl-Neelsen: red acid-fast bacilli on a blue background",
+     "ar": "زيل-نيلسن: عصيّات حمراء صامدة للحامض على خلفية زرقاء",
+     "h": "38mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/zn-2.png",
+     "en": "Ziehl-Neelsen: acid-fast bacilli",
+     "ar": "زيل-نيلسن: عصيّات صامدة للحامض",
+     "h": "38mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Microorganism Stains:",
+   "ar": "صبغات الأحياء المجهرية:"
+  },
+  {
+   "t": "card",
+   "en": "**Gram Stain**: Differentiates **Gram-positive (purple)** and **Gram-negative (pink)** bacteria.",
+   "ar": "**صبغة غرام**: تفرّق بين البكتيريا **الموجبة لغرام (بنفسجية)** و**السالبة لغرام (وردية)**."
+  },
+  {
+   "t": "figure",
+   "src": "assets/gram-vs.png",
+   "en": "Gram-positive (purple) VS Gram-negative (pink)",
+   "ar": "موجبة غرام (بنفسجية) مقابل سالبة غرام (وردية)",
+   "h": "36mm"
+  },
+  {
+   "t": "note",
+   "en": "In the slides Ziehl-Neelsen comes after the carbohydrate stains, but it is a **microorganism stain** (acid-fast bacilli) like the Gram stain; the sheet labels connective-tissue stains \"C-\" although they are part of **B. Special stains**.",
+   "ar": "في الشرائح جاءت زيل-نيلسن بعد صبغات الكربوهيدرات، لكنها **صبغة للأحياء المجهرية** (العصيّات الصامدة للحامض) مثل صبغة غرام؛ وسمّت الورقة صبغات النسيج الضامّ \"`C`-\" مع أنها جزء من **ب. الصبغات الخاصة**.",
+   "label": [
+    "BIOS note",
+    "ملاحظة `BIOS`"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Stain",
+     "الصبغة"
+    ],
+    [
+     "Shows",
+     "تُظهر"
+    ],
+    [
+     "Colour",
+     "اللون"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**H&E** (routine)",
+      "**`H&E`** (روتينية)"
+     ],
+     [
+      "general morphology",
+      "الشكل العام"
+     ],
+     [
+      "nuclei blue-purple, cytoplasm pink",
+      "الأنوية بنفسجية مزرقّة، والسايتوبلازم وردي"
+     ]
+    ],
+    [
+     [
+      "**Masson's trichrome**",
+      "**ثلاثي ماسون**"
+     ],
+     [
+      "nuclei / cytoplasm / collagen",
+      "الأنوية / السايتوبلازم / الكولاجين"
+     ],
+     [
+      "black–dark blue / red / blue–green",
+      "أسود–أزرق داكن / أحمر / أزرق–أخضر"
+     ]
+    ],
+    [
+     [
+      "**Van Gieson**",
+      "**فان غيسون**"
+     ],
+     [
+      "collagen / muscle",
+      "الكولاجين / العضلات"
+     ],
+     [
+      "red / yellow",
+      "أحمر / أصفر"
+     ]
+    ],
+    [
+     [
+      "**Verhoeff-Van Gieson**",
+      "**فيرهوف–فان غيسون**"
+     ],
+     [
+      "elastic fibers",
+      "الألياف المرنة"
+     ],
+     [
+      "black / blue-black",
+      "أسود / أسود مزرق"
+     ]
+    ],
+    [
+     [
+      "**Gordon & Sweet (silver)**",
+      "**غوردون وسويت (فضّة)**"
+     ],
+     [
+      "reticular fibers",
+      "الألياف الشبكية"
+     ],
+     [
+      "black",
+      "أسود"
+     ]
+    ],
+    [
+     [
+      "**PAS**",
+      "**`PAS`**"
+     ],
+     [
+      "glycogen, glycoproteins, proteoglycans",
+      "الكلايكوجين، والبروتينات السكرية، والبروتيوغلايكانات"
+     ],
+     [
+      "magenta",
+      "أرجواني"
+     ]
+    ],
+    [
+     [
+      "**Mucicarmine**",
+      "**الميوسيكارمين**"
+     ],
+     [
+      "acid mucins (adenocarcinoma)",
+      "المخاطين الحامضية (السرطان الغدّي)"
+     ],
+     [
+      "red",
+      "أحمر"
+     ]
+    ],
+    [
+     [
+      "**Sudan / Oil Red O**",
+      "**سودان / الزيت الأحمر `O`**"
+     ],
+     [
+      "fats (frozen sections)",
+      "الدهون (مقاطع مجمّدة)"
+     ],
+     [
+      "red / black",
+      "أحمر / أسود"
+     ]
+    ],
+    [
+     [
+      "**Ziehl-Neelsen**",
+      "**زيل-نيلسن**"
+     ],
+     [
+      "acid-fast bacilli (M. tuberculosis)",
+      "العصيّات الصامدة للحامض (السل)"
+     ],
+     [
+      "red rods",
+      "عصيّات حمراء"
+     ]
+    ],
+    [
+     [
+      "**Gram**",
+      "**غرام**"
+     ],
+     [
+      "bacteria",
+      "البكتيريا"
+     ],
+     [
+      "positive purple, negative pink",
+      "الموجبة بنفسجية، والسالبة وردية"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    28,
+    36,
+    36
+   ],
+   "style": "summary",
+   "label_en": "BIOS: every stain in this lab",
+   "label_ar": "`BIOS`: كل صبغات هذا العملي"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Routine = **H&E** (general morphology); special stains show what **H&E cannot**."
+   ],
+   "ar": [
+    "الروتينية = **`H&E`** (الشكل العام)؛ والخاصة تُظهر ما **لا تُظهره `H&E`**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ],
+   "_ff": 3
+  },
+  {
+   "t": "note",
+   "en": [
+    "Connective tissue: **Masson** (collagen blue/green), **Van Gieson** (collagen red, muscle yellow), **Verhoeff** (elastic black).",
+    "Carbohydrates: **PAS magenta**, **mucicarmine red**; microorganisms: **ZN red rods**, **Gram purple/pink**."
+   ],
+   "ar": [
+    "النسيج الضامّ: **ماسون** (كولاجين أزرق/أخضر)، و**فان غيسون** (كولاجين أحمر وعضلات صفراء)، و**فيرهوف** (ألياف مرنة سوداء).",
+    "الكربوهيدرات: **`PAS` أرجواني**، و**الميوسيكارمين أحمر**؛ والأحياء المجهرية: **`ZN` عصيّات حمراء**، و**غرام بنفسجي/وردي**."
+   ],
+   "label": [
+    "In short (continued)",
+    "باختصار (تكملة)"
+   ],
+   "_ff": 3
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Staining**",
+     "التصبيغ / الصبغ"
+    ],
+    [
+     "**Refractive index**",
+     "معامل الانكسار"
+    ],
+    [
+     "**Affinity**",
+     "الألفة"
+    ],
+    [
+     "**Adsorption / absorption**",
+     "الامتزاز / الامتصاص"
+    ],
+    [
+     "**Van der Waals forces**",
+     "قوى فان دير فالس"
+    ],
+    [
+     "**Basic dye / acidic dye**",
+     "صبغة قاعدية / صبغة حامضية"
+    ],
+    [
+     "**Cation / anion**",
+     "كاتيون (أيون موجب) / أنيون (أيون سالب)"
+    ],
+    [
+     "**Basophilic / acidophilic**",
+     "محبّ للقاعدة / محبّ للحامض (محبّ للإيوسين)"
+    ],
+    [
+     "**Hematoxylin and eosin (H&E)**",
+     "الهيماتوكسلين والإيوسين"
+    ],
+    [
+     "**Mordant**",
+     "المثبّت / المُرسِّخ"
+    ],
+    [
+     "**Lake**",
+     "اللاك / المعقّد الصبغي غير الذائب"
+    ],
+    [
+     "**Potassium alum**",
+     "شبّ البوتاسيوم"
+    ],
+    [
+     "**Silver impregnation**",
+     "التشريب بالفضّة"
+    ],
+    [
+     "**Reticular fibers**",
+     "الألياف الشبكية"
+    ],
+    [
+     "**Histochemical reaction**",
+     "التفاعل الكيميائي النسيجي"
+    ],
+    [
+     "**Periodic acid-Schiff (PAS)**",
+     "حامض البيريوديك–شيف"
+    ],
+    [
+     "**Masson's trichrome**",
+     "ثلاثي ماسون"
+    ],
+    [
+     "**Elastic fibers**",
+     "الألياف المرنة"
+    ],
+    [
+     "**Mucicarmine / acid mucins**",
+     "الميوسيكارمين / المخاطين الحامضية"
+    ],
+    [
+     "**Adenocarcinoma**",
+     "السرطان الغدّي"
+    ],
+    [
+     "**Acid-fast bacilli**",
+     "العصيّات الصامدة للحامض"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Why we stain and the physical theory",
+    "topic_ar": "لماذا نصبغ والنظرية الفيزيائية"
+   },
+   {
+    "en": "Fresh untreated tissue shows little detail because its components have:",
+    "ar": "يُظهر النسيج الطازج تفاصيل قليلة لأن مكوّناته لها:",
+    "options": [
+     [
+      "Different colours",
+      "ألوان مختلفة"
+     ],
+     [
+      "Similar refractive indices",
+      "معاملات انكسار متشابهة"
+     ],
+     [
+      "No water",
+      "لا ماء"
+     ],
+     [
+      "Large size",
+      "حجم كبير"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Staining applies to tissue sections:",
+    "ar": "التصبيغ يضع على المقاطع النسيجية:",
+    "options": [
+     [
+      "Antibiotics",
+      "مضادّات"
+     ],
+     [
+      "Only water",
+      "ماء فقط"
+     ],
+     [
+      "Colored dyes or metals",
+      "صبغات ملوّنة أو معادن"
+     ],
+     [
+      "Enzymes only",
+      "إنزيمات فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which is NOT a purpose of staining in the lab?",
+    "ar": "أيّها ليس من أغراض التصبيغ في العملي؟",
+    "options": [
+     [
+      "Impart contrast",
+      "إعطاء التباين"
+     ],
+     [
+      "Identify microorganisms",
+      "تمييز الأحياء المجهرية"
+     ],
+     [
+      "Aid in diagnosis",
+      "المساعدة في التشخيص"
+     ],
+     [
+      "Sterilize the tissue",
+      "تعقيم النسيج"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The two main theories of staining are:",
+    "ar": "النظريتان الرئيستان للتصبيغ:",
+    "options": [
+     [
+      "Physical and chemical",
+      "الفيزيائية والكيميائية"
+     ],
+     [
+      "Biological and physical",
+      "الحيوية والفيزيائية"
+     ],
+     [
+      "Optical and thermal",
+      "البصرية والحرارية"
+     ],
+     [
+      "Electric and magnetic",
+      "الكهربائية والمغناطيسية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In adsorption, the dye adheres to the tissue surface by:",
+    "ar": "في الامتزاز تلتصق الصبغة بسطح النسيج بـ:",
+    "options": [
+     [
+      "Covalent bonds",
+      "روابط تساهمية"
+     ],
+     [
+      "Weak Van der Waals forces",
+      "قوى فان دير فالس الضعيفة"
+     ],
+     [
+      "Ionic bonds",
+      "روابط أيونية"
+     ],
+     [
+      "Mordants",
+      "المثبّتات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Absorption is compared in the lab to:",
+    "ar": "يُشبَّه الامتصاص في العملي بـ:",
+    "options": [
+     [
+      "A magnet",
+      "المغناطيس"
+     ],
+     [
+      "A filter",
+      "المرشّح"
+     ],
+     [
+      "A key and lock",
+      "القفل والمفتاح"
+     ],
+     [
+      "A sponge soaking up water",
+      "إسفنجة تمتصّ الماء"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Sudan stains for fats work by:",
+    "ar": "تعمل صبغات سودان للدهون بآلية:",
+    "options": [
+     [
+      "Solubility",
+      "الذوبانية"
+     ],
+     [
+      "Reduction",
+      "الاختزال"
+     ],
+     [
+      "Ionic bonding",
+      "الرابطة الأيونية"
+     ],
+     [
+      "Mordanting",
+      "التثبيت"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Chemical theory",
+    "topic_ar": "النظرية الكيميائية"
+   },
+   {
+    "en": "The most important and widely accepted staining theory is:",
+    "ar": "النظرية الأهمّ والأوسع قبولًا في التصبيغ:",
+    "options": [
+     [
+      "Physical theory",
+      "الفيزيائية"
+     ],
+     [
+      "Adsorption theory",
+      "نظرية الامتزاز"
+     ],
+     [
+      "Chemical theory",
+      "الكيميائية"
+     ],
+     [
+      "Solubility theory",
+      "نظرية الذوبانية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Basic dyes are:",
+    "ar": "الصبغات القاعدية:",
+    "options": [
+     [
+      "Anions (negative)",
+      "أنيونات (سالبة)"
+     ],
+     [
+      "Metals",
+      "معادن"
+     ],
+     [
+      "Neutral",
+      "متعادلة"
+     ],
+     [
+      "Cations (positive)",
+      "كاتيونات (موجبة)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which is a basic dye?",
+    "ar": "أيّها صبغة قاعدية؟",
+    "options": [
+     [
+      "Eosin",
+      "الإيوسين"
+     ],
+     [
+      "Hematoxylin",
+      "الهيماتوكسلين"
+     ],
+     [
+      "Picric acid",
+      "حامض البكريك"
+     ],
+     [
+      "Acid fuchsin",
+      "الفوكسين الحامضي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Basic dyes stain:",
+    "ar": "تصبغ الصبغات القاعدية:",
+    "options": [
+     [
+      "Nucleic acids, ribosomes and cartilage matrix",
+      "الأحماض النووية والرايبوسومات وحشوة الغضروف"
+     ],
+     [
+      "Collagen only",
+      "الكولاجين فقط"
+     ],
+     [
+      "Red blood cells",
+      "كريات الدم الحمر"
+     ],
+     [
+      "Fat",
+      "الدهن"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Nuclear structures are negative because they are rich in:",
+    "ar": "التراكيب النووية سالبة لأنها غنية بـ:",
+    "options": [
+     [
+      "Amino groups",
+      "مجاميع الأمين"
+     ],
+     [
+      "Lipids",
+      "الدهون"
+     ],
+     [
+      "Phosphate and sulfate groups",
+      "مجاميع الفوسفات والكبريتات"
+     ],
+     [
+      "Iron",
+      "الحديد"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which is an acidic dye?",
+    "ar": "أيّها صبغة حامضية؟",
+    "options": [
+     [
+      "Eosin",
+      "الإيوسين"
+     ],
+     [
+      "Toluidine blue",
+      "أزرق التولويدين"
+     ],
+     [
+      "Hematoxylin",
+      "الهيماتوكسلين"
+     ],
+     [
+      "Methylene blue",
+      "أزرق المثيلين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Acidic dyes stain structures rich in:",
+    "ar": "تصبغ الصبغات الحامضية التراكيب الغنية بـ:",
+    "options": [
+     [
+      "Phosphate groups",
+      "مجاميع الفوسفات"
+     ],
+     [
+      "Amino groups (positive charge)",
+      "مجاميع الأمين (شحنة موجبة)"
+     ],
+     [
+      "Sulfate groups",
+      "مجاميع الكبريتات"
+     ],
+     [
+      "DNA",
+      "DNA"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In H&E, the nuclei appear:",
+    "ar": "في `H`&`E` تظهر الأنوية:",
+    "options": [
+     [
+      "Pink",
+      "وردية"
+     ],
+     [
+      "Yellow",
+      "صفراء"
+     ],
+     [
+      "Blue-purple",
+      "بنفسجية مزرقّة"
+     ],
+     [
+      "Green",
+      "خضراء"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In H&E, eosin stains the cytoplasm:",
+    "ar": "في `H`&`E` يصبغ الإيوسين السايتوبلازم بالـ:",
+    "options": [
+     [
+      "Blue",
+      "أزرق"
+     ],
+     [
+      "Magenta",
+      "أرجواني"
+     ],
+     [
+      "Black",
+      "أسود"
+     ],
+     [
+      "Pink",
+      "وردي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Mordants, reduction and histochemistry",
+    "topic_ar": "المثبّتات والاختزال والكيمياء النسيجية"
+   },
+   {
+    "en": "A mordant is:",
+    "ar": "المثبّت:",
+    "options": [
+     [
+      "A linker substance forming a complex between dye and tissue",
+      "مادة رابطة تكوّن معقّدًا بين الصبغة والنسيج"
+     ],
+     [
+      "A solvent",
+      "مذيب"
+     ],
+     [
+      "A fixative only",
+      "مثبّت نسيجي فقط"
+     ],
+     [
+      "A strong dye",
+      "صبغة قويّة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Hematoxylin with an alum mordant forms:",
+    "ar": "يكوّن الهيماتوكسلين مع مثبّت الشبّ:",
+    "options": [
+     [
+      "Prussian blue",
+      "أزرق بروسيا"
+     ],
+     [
+      "Hematein-aluminum lake",
+      "لاك الهيماتين–الألمنيوم"
+     ],
+     [
+      "Metallic silver",
+      "فضّة معدنية"
+     ],
+     [
+      "Aldehydes",
+      "ألدهيدات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The usual alum mordant is:",
+    "ar": "مثبّت الشبّ المعتاد:",
+    "options": [
+     [
+      "Sodium chloride",
+      "كلوريد الصوديوم"
+     ],
+     [
+      "Silver nitrate",
+      "نترات الفضّة"
+     ],
+     [
+      "Potassium alum",
+      "شبّ البوتاسيوم"
+     ],
+     [
+      "Picric acid",
+      "حامض البكريك"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Silver impregnation for reticular fibers works by:",
+    "ar": "يعمل التشريب بالفضّة للألياف الشبكية بآلية:",
+    "options": [
+     [
+      "Adsorption",
+      "الامتزاز"
+     ],
+     [
+      "Ionic bonding",
+      "الرابطة الأيونية"
+     ],
+     [
+      "Solubility",
+      "الذوبانية"
+     ],
+     [
+      "Reduction",
+      "الاختزال"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In silver impregnation, reticular fibers appear:",
+    "ar": "في التشريب بالفضّة تظهر الألياف الشبكية:",
+    "options": [
+     [
+      "Black",
+      "سوداء"
+     ],
+     [
+      "Yellow",
+      "صفراء"
+     ],
+     [
+      "Pink",
+      "وردية"
+     ],
+     [
+      "Red",
+      "حمراء"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In PAS, periodic acid oxidizes sugar groups to form:",
+    "ar": "في `PAS` يؤكسد حامض البيريوديك مجاميع السكّر ليكوّن:",
+    "options": [
+     [
+      "Ketones",
+      "كيتونات"
+     ],
+     [
+      "Aldehydes",
+      "ألدهيدات"
+     ],
+     [
+      "Lakes",
+      "لاكات"
+     ],
+     [
+      "Amino groups",
+      "مجاميع أمين"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Routine and special stains",
+    "topic_ar": "الصبغات الروتينية والخاصة"
+   },
+   {
+    "en": "The routine stain (workhorse of histology) is:",
+    "ar": "الصبغة الروتينية (الأساسية في علم الأنسجة):",
+    "options": [
+     [
+      "PAS",
+      "PAS"
+     ],
+     [
+      "Mucicarmine",
+      "الميوسيكارمين"
+     ],
+     [
+      "Gram",
+      "غرام"
+     ],
+     [
+      "H&E",
+      "H&E"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Masson's trichrome stains collagen:",
+    "ar": "يصبغ ثلاثي ماسون الكولاجين:",
+    "options": [
+     [
+      "Red",
+      "أحمر"
+     ],
+     [
+      "Black",
+      "أسود"
+     ],
+     [
+      "Blue/green",
+      "أزرق/أخضر"
+     ],
+     [
+      "Magenta",
+      "أرجواني"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Van Gieson's stain colours muscle:",
+    "ar": "تصبغ فان غيسون العضلات بالـ:",
+    "options": [
+     [
+      "Red",
+      "أحمر"
+     ],
+     [
+      "Blue",
+      "أزرق"
+     ],
+     [
+      "Black",
+      "أسود"
+     ],
+     [
+      "Yellow",
+      "أصفر"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Elastic fibers are highlighted by:",
+    "ar": "تُبرز الألياف المرنة بصبغة:",
+    "options": [
+     [
+      "PAS",
+      "PAS"
+     ],
+     [
+      "Verhoeff-Van Gieson",
+      "فيرهوف–فان غيسون"
+     ],
+     [
+      "Mucicarmine",
+      "الميوسيكارمين"
+     ],
+     [
+      "Gram",
+      "غرام"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Acid mucins in adenocarcinomas are stained red by:",
+    "ar": "تُصبغ المخاطين الحامضية في السرطانات الغدّية بالأحمر بـ:",
+    "options": [
+     [
+      "Van Gieson",
+      "فان غيسون"
+     ],
+     [
+      "H&E",
+      "H&E"
+     ],
+     [
+      "Mucicarmine",
+      "الميوسيكارمين"
+     ],
+     [
+      "Masson",
+      "ماسون"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Ziehl-Neelsen stain shows Mycobacterium tuberculosis as:",
+    "ar": "تُظهر صبغة زيل-نيلسن عصيّات السل كـ:",
+    "options": [
+     [
+      "Red rods",
+      "عصيّات حمراء"
+     ],
+     [
+      "Black fibers",
+      "ألياف سوداء"
+     ],
+     [
+      "Purple cocci",
+      "مكوّرات بنفسجية"
+     ],
+     [
+      "Yellow cells",
+      "خلايا صفراء"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "This picture shows which staining reaction product?",
+    "ar": "تُظهر هذه الصورة ناتج أيّ تفاعل تصبيغ؟",
+    "options": [
+     [
+      "Gram stain",
+      "صبغة غرام"
+     ],
+     [
+      "PAS (magenta)",
+      "`PAS` (أرجواني)"
+     ],
+     [
+      "Van Gieson",
+      "فان غيسون"
+     ],
+     [
+      "Silver impregnation",
+      "التشريب بالفضّة"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/pas-1.png",
+    "img_h": "34mm"
+   },
+   {
+    "en": "In this reticulin stain, the black structures are:",
+    "ar": "في صبغة الألياف الشبكية هذه، التراكيب السوداء هي:",
+    "options": [
+     [
+      "Background",
+      "الخلفية"
+     ],
+     [
+      "Nuclei",
+      "الأنوية"
+     ],
+     [
+      "Reticular fibers",
+      "الألياف الشبكية"
+     ],
+     [
+      "Fat",
+      "الدهن"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/reticulin-labels.png",
+    "img_h": "34mm"
+   },
+   {
+    "en": "This picture compares:",
+    "ar": "تقارن هذه الصورة بين:",
+    "options": [
+     [
+      "Fat stains",
+      "صبغات الدهون"
+     ],
+     [
+      "Nuclei and cytoplasm",
+      "الأنوية والسايتوبلازم"
+     ],
+     [
+      "Collagen and muscle",
+      "الكولاجين والعضلات"
+     ],
+     [
+      "Gram-positive and Gram-negative bacteria",
+      "البكتيريا الموجبة والسالبة لغرام"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/gram-vs.png",
+    "img_h": "34mm"
+   },
+   {
+    "en": "The two lipid stains in this picture are:",
+    "ar": "صبغتا الدهون في هذه الصورة:",
+    "options": [
+     [
+      "Oil Red O and Sudan Black",
+      "الزيت الأحمر `O` وسودان الأسود"
+     ],
+     [
+      "H&E and Gram",
+      "`H`&`E` وغرام"
+     ],
+     [
+      "PAS and mucicarmine",
+      "`PAS` والميوسيكارمين"
+     ],
+     [
+      "Masson and Van Gieson",
+      "ماسون وفان غيسون"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/lipid-oil-red-sudan.png",
+    "img_h": "34mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Fresh, untreated tissue is mostly transparent and colorless when sliced thinly.",
+    "ar": "النسيج الطازج غير المعالَج شفّاف وعديم اللون غالبًا عند تقطيعه رقيقًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Staining can reveal the chemical composition of tissue.",
+    "ar": "يمكن للتصبيغ أن يكشف التركيب الكيميائي للنسيج.",
+    "answer": "T"
+   },
+   {
+    "en": "The physical theory depends on chemical bonds between dye and tissue.",
+    "ar": "تعتمد النظرية الفيزيائية على روابط كيميائية بين الصبغة والنسيج.",
+    "answer": "F"
+   },
+   {
+    "en": "Sudan stains for fats are an example of solubility.",
+    "ar": "صبغات سودان للدهون مثال على الذوبانية.",
+    "answer": "T"
+   },
+   {
+    "en": "Basic dyes are negatively charged anions.",
+    "ar": "الصبغات القاعدية أنيونات سالبة الشحنة.",
+    "answer": "F"
+   },
+   {
+    "en": "Methylene blue and toluidine blue are basic dyes.",
+    "ar": "أزرق المثيلين وأزرق التولويدين صبغتان قاعديتان.",
+    "answer": "T"
+   },
+   {
+    "en": "Acidic dyes stain cytoplasmic proteins, collagen and red blood cells.",
+    "ar": "تصبغ الصبغات الحامضية بروتينات السايتوبلازم والكولاجين وكريات الدم الحمر.",
+    "answer": "T"
+   },
+   {
+    "en": "In H&E, hematoxylin stains the cytoplasm pink.",
+    "ar": "في `H`&`E` يصبغ الهيماتوكسلين السايتوبلازم بالوردي.",
+    "answer": "F"
+   },
+   {
+    "en": "Mordants are strong dyes by themselves.",
+    "ar": "المثبّتات صبغات قويّة بحدّ ذاتها.",
+    "answer": "F"
+   },
+   {
+    "en": "Iron is another common mordant.",
+    "ar": "الحديد مثبّت شائع آخر.",
+    "answer": "T"
+   },
+   {
+    "en": "In PAS, aldehydes react with Schiff's reagent to give a magenta colour.",
+    "ar": "في `PAS` تتفاعل الألدهيدات مع كاشف شيف لتعطي لونًا أرجوانيًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Special stains highlight structures that are clearly visible with H&E.",
+    "ar": "تُبرز الصبغات الخاصة تراكيب تظهر بوضوح بـ `H`&`E`.",
+    "answer": "F"
+   },
+   {
+    "en": "Van Gieson's stain colours collagen red.",
+    "ar": "تصبغ فان غيسون الكولاجين بالأحمر.",
+    "answer": "T"
+   },
+   {
+    "en": "Gram-negative bacteria appear purple.",
+    "ar": "تظهر البكتيريا السالبة لغرام بنفسجية.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Basophilic vs acidophilic",
+    "ar": "محبّ للقاعدة مقابل محبّ للحامض",
+    "answer_en": "BASOPHILIC = takes BASIC dyes (nucleus, negative, blue-purple). ACIDOPHILIC/eosinophilic = takes ACIDIC dyes (cytoplasm, positive, pink). The sheet swaps the words in the definitions but not in the H&E example.",
+    "answer_ar": "المحبّ للقاعدة = يأخذ الصبغات القاعدية (النواة، سالبة، بنفسجية مزرقّة). والمحبّ للحامض = يأخذ الصبغات الحامضية (السايتوبلازم، موجب، وردي). والورقة تبدّل الكلمتين في التعريفين لا في مثال `H`&`E`."
+   },
+   {
+    "en": "Charge of the dye",
+    "ar": "شحنة الصبغة",
+    "answer_en": "Basic dye = CATION (+); acidic dye = ANION (−). Opposite charges attract.",
+    "answer_ar": "الصبغة القاعدية = كاتيون (+)؛ والحامضية = أنيون (−). والشحنات المتعاكسة تتجاذب."
+   },
+   {
+    "en": "Adsorption vs absorption",
+    "ar": "الامتزاز مقابل الامتصاص",
+    "answer_en": "AdSorption = sticks on the SURFACE (van der Waals). AbSorption = taken INTO the tissue like a sponge.",
+    "answer_ar": "الامتزاز = يلتصق على السطح (فان دير فالس). والامتصاص = يدخل إلى النسيج كالإسفنجة."
+   },
+   {
+    "en": "Mordant is not a dye",
+    "ar": "المثبّت ليس صبغة",
+    "answer_en": "A mordant (potassium alum, iron) is a LINKER forming a lake; hematoxylin alone is a weak dye.",
+    "answer_ar": "المثبّت (شبّ البوتاسيوم، الحديد) رابط يكوّن لاكًا؛ والهيماتوكسلين وحده صبغة ضعيفة."
+   },
+   {
+    "en": "Three stains, three colours of collagen",
+    "ar": "ثلاث صبغات وثلاثة ألوان للكولاجين",
+    "answer_en": "Collagen: Masson → BLUE/GREEN; Van Gieson → RED; H&E → pink.",
+    "answer_ar": "الكولاجين: ماسون ← أزرق/أخضر؛ وفان غيسون ← أحمر؛ و`H`&`E` ← وردي."
+   },
+   {
+    "en": "Black structures",
+    "ar": "التراكيب السوداء",
+    "answer_en": "Silver (Gordon & Sweet) → reticular fibers black; Verhoeff → ELASTIC fibers black; Masson → nuclei black/dark blue.",
+    "answer_ar": "الفضّة (غوردون وسويت) ← ألياف شبكية سوداء؛ وفيرهوف ← ألياف مرنة سوداء؛ وماسون ← أنوية سوداء/زرقاء داكنة."
+   },
+   {
+    "en": "Red stains",
+    "ar": "الصبغات الحمراء",
+    "answer_en": "PAS = MAGENTA (carbohydrates); mucicarmine = RED (acid mucins); ZN = RED rods (acid-fast bacilli).",
+    "answer_ar": "`PAS` = أرجواني (كربوهيدرات)؛ والميوسيكارمين = أحمر (مخاطين حامضية)؛ و`ZN` = عصيّات حمراء (صامدة للحامض)."
+   }
+  ],
+  "important": [
+   {
+    "en": "Why do we stain tissues? List the purposes of staining.",
+    "ar": "لماذا نصبغ الأنسجة؟ عدّد أغراض التصبيغ.",
+    "answer_en": "Fresh tissue is transparent and colorless because its components have similar refractive indices. Staining (applying colored dyes or metals) imparts contrast, identifies tissue components, reveals chemical composition, identifies microorganisms and aids in diagnosis.",
+    "answer_ar": "النسيج الطازج شفّاف وعديم اللون لأن مكوّناته متشابهة في معامل الانكسار. والتصبيغ (وضع صبغات ملوّنة أو معادن) يعطي التباين، ويميّز مكوّنات النسيج، ويكشف التركيب الكيميائي، ويميّز الأحياء المجهرية، ويساعد في التشخيص."
+   },
+   {
+    "en": "Explain the physical theory of staining.",
+    "ar": "اشرح النظرية الفيزيائية للتصبيغ.",
+    "answer_en": "Non-chemical mechanical forces: adsorption (dye adheres to the surface by weak van der Waals forces), absorption (dye taken up like a sponge soaking water, trapped in pores), solubility (dye more soluble in tissue lipids than solvent, e.g. Sudan stains for fats).",
+    "answer_ar": "قوى ميكانيكية غير كيميائية: الامتزاز (تلتصق الصبغة بالسطح بقوى فان دير فالس الضعيفة)، والامتصاص (تأخذها الأنسجة كإسفنجة تمتصّ الماء وتُحتبس في المسامّ)، والذوبانية (الصبغة أكثر ذوبانًا في دهون النسيج منها في المذيب، مثل صبغات سودان للدهون)."
+   },
+   {
+    "en": "Compare basic and acidic dyes with examples.",
+    "ar": "قارن بين الصبغات القاعدية والحامضية مع أمثلة.",
+    "answer_en": "Basic dyes: cations (+) binding negative phosphate/sulfate groups — stain nucleic acids, ribosomes, cartilage matrix (hematoxylin, methylene blue, toluidine blue). Acidic dyes: anions (−) binding positive amino groups — stain cytoplasmic proteins, collagen, RBCs (eosin, acid fuchsin, picric acid).",
+    "answer_ar": "القاعدية: كاتيونات (+) ترتبط بمجاميع الفوسفات/الكبريتات السالبة — تصبغ الأحماض النووية والرايبوسومات وحشوة الغضروف (الهيماتوكسلين، وأزرق المثيلين، وأزرق التولويدين). والحامضية: أنيونات (−) ترتبط بمجاميع الأمين الموجبة — تصبغ بروتينات السايتوبلازم والكولاجين وكريات الدم الحمر (الإيوسين، والفوكسين الحامضي، وحامض البكريك)."
+   },
+   {
+    "en": "Explain H&E staining.",
+    "ar": "اشرح التصبيغ بـ `H`&`E`.",
+    "answer_en": "The classic acid–base example: hematoxylin (basic) stains nuclei blue-purple (basophilic); eosin (acidic) stains cytoplasm and connective tissue pink (acidophilic). It gives a fundamental contrast to assess tissue architecture and is the routine 'workhorse' stain.",
+    "answer_ar": "المثال التقليدي للتفاعل الحامضي–القاعدي: الهيماتوكسلين (قاعدي) يصبغ الأنوية بنفسجيًا مزرقًّا (محبّة للقاعدة)؛ والإيوسين (حامضي) يصبغ السايتوبلازم والنسيج الضامّ بالوردي (محبّة للحامض). ويعطي تباينًا أساسيًا لتقييم بنية النسيج، وهو الصبغة الروتينية الأساسية."
+   },
+   {
+    "en": "What are mordants? Give an example.",
+    "ar": "ما المثبّتات؟ أعطِ مثالًا.",
+    "answer_en": "Not dyes but linker substances forming a complex between dye and tissue — a strong insoluble 'lake' with an intense, permanent bond. Hematoxylin (weak alone) + alum mordant (potassium alum) → hematein-aluminum lake, a powerful nuclear stain; iron is another mordant.",
+    "answer_ar": "ليست صبغات بل مواد رابطة تكوّن معقّدًا بين الصبغة والنسيج — 'لاك' قوي غير ذائب برابطة شديدة دائمة. الهيماتوكسلين (ضعيف وحده) + مثبّت الشبّ (شبّ البوتاسيوم) ← لاك الهيماتين–الألمنيوم، صبغة نووية قويّة؛ والحديد مثبّت آخر."
+   },
+   {
+    "en": "Explain reduction and histochemical reactions with examples.",
+    "ar": "اشرح الاختزال والتفاعلات الكيميائية النسيجية مع أمثلة.",
+    "answer_en": "Reduction: tissue reduces a metallic salt to a visible precipitate — silver impregnation (Gordon & Sweet) makes reticular fibers black. Histochemical: specific reaction giving a colored product in situ — PAS: periodic acid oxidizes sugars to aldehydes, which react with Schiff's reagent → magenta.",
+    "answer_ar": "الاختزال: يختزل النسيج ملحًا معدنيًا إلى راسب مرئي — التشريب بالفضّة (غوردون وسويت) يجعل الألياف الشبكية سوداء. والكيميائي النسيجي: تفاعل نوعي يعطي ناتجًا ملوّنًا في مكانه — `PAS`: يؤكسد حامض البيريوديك السكّريات إلى ألدهيدات تتفاعل مع كاشف شيف ← أرجواني."
+   },
+   {
+    "en": "Classify stains by purpose with examples and colours.",
+    "ar": "صنّف الصبغات بحسب الغرض مع الأمثلة والألوان.",
+    "answer_en": "Routine: H&E. Special: connective tissue — Masson's trichrome (nuclei black/dark blue, cytoplasm red, collagen blue/green), Van Gieson (collagen red, muscle yellow), Verhoeff-Van Gieson (elastic fibers black); carbohydrates — PAS (magenta), mucicarmine (acid mucins red); microorganisms — Ziehl-Neelsen (acid-fast red rods), Gram (positive purple, negative pink).",
+    "answer_ar": "الروتينية: `H`&`E`. والخاصة: النسيج الضامّ — ثلاثي ماسون (أنوية سوداء/زرقاء داكنة، وسايتوبلازم أحمر، وكولاجين أزرق/أخضر)، وفان غيسون (كولاجين أحمر وعضلات صفراء)، وفيرهوف–فان غيسون (ألياف مرنة سوداء)؛ والكربوهيدرات — `PAS` (أرجواني)، والميوسيكارمين (مخاطين حامضية حمراء)؛ والأحياء المجهرية — زيل-نيلسن (عصيّات حمراء صامدة للحامض)، وغرام (موجبة بنفسجية وسالبة وردية)."
+   }
+  ]
+ }
+}

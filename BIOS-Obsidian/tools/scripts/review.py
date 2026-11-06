@@ -77,17 +77,18 @@ def paragraphs(text):
     out, cur = [], []
     for line in text.splitlines():
         t = re.sub(r"[\ue000-\uf8ff]", " ", line).strip()
-        starts = re.match(r"^(\d{1,2}\s?[.)-]|[a-z][.)]?\s|[A-Z]-\s|[•oO▪§✓\-–]\s|✓|[A-Z][a-z]+( [a-z]+)*:$)", t)
+        starts = re.match(r"^(\d{1,2}\s?[.)-]|[a-z][.)]?\s|[A-Z]-\s|[•oO▪§✓\-–*]\s|✓|[A-Z][a-z]+( [a-z]+)*:$)", t)
         short_prev = cur and len(cur[-1].split()) <= 5 and not re.search(r"[.,;:?]$", cur[-1])   # a title line
         if not t or re.fullmatch(r"\d{1,3}", t) or (starts and cur) or short_prev:
             if cur: out.append(" ".join(cur)); cur = []
             if not t or re.fullmatch(r"\d{1,3}", t): continue
-        cur.append(re.sub(r"^(?:[•▪§✓\-–]\s*|[oO]\s+|[a-z][.)]\s*|[a-z]\s+|[A-Z]-\s*)", "", t))
+        cur.append(re.sub(r"^(?:[•▪§✓\-–*]\s*|[oO]\s+|[a-z][.)]\s*|[a-z]\s+|[A-Z]-\s*)", "", t))
     if cur: out.append(" ".join(cur))
     return out
 miss = []
 for para in paragraphs(src):
-    for sent in re.split(r"(?<=[.?!:])\s+(?=[A-Z(])|(?<=[a-z] [.?!])(?=[A-Z][a-z])|(?<=[a-z][.?!])(?=[A-Z][a-z])|\s+(?=[A-Ea-e]\.\s)|\s+(?=\(\d{1,2}\)\s)", para):
+    para = re.sub(r"\s\*\s", " \n", para)                                 # inline "* item" bullets
+    for sent in re.split(r"\n|(?<=[.?!:])\s+(?=[A-Z(])|(?<=[a-z] [.?!])(?=[A-Z][a-z])|(?<=[a-z][.?!])(?=[A-Z][a-z])|\s+(?=[A-Ea-e]\.\s)|\s+(?=\(\d{1,2}\)\s)", para):
         sent = re.sub(r"^([A-Ea-e]\.|\(\d{1,2}\)|\d{1,2}\s?[.)-])\s*", "", sent)
         sent = re.sub(r"\s+[a-e]\.?$", "", sent)                         # trailing list letter of the next item
         n = norm(sent)
