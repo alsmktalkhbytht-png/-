@@ -1174,6 +1174,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `immunology-lab1-serology` | مناعة | عملي 1 |
 | `advtech-lec1-elisa` | تقنيات متقدمة | نظري 1 |
 | `advtech-lec3-ria` | تقنيات متقدمة | نظري 3 |
+| `advtech-lab1-elisa` | تقنيات متقدمة | عملي 1 — الإليزا (ليندا منجد هادي، pptx) |
 | `hematology-lab1-blood-collection` | أمراض الدم | عملي (جمع الدم) — رقمها بانتظار تأكيد |
 | `hematology-practical-anticoagulants` | أمراض الدم | عملي 1 |
 | `hematology-practical-normal-values` | أمراض الدم | عملي 3 |

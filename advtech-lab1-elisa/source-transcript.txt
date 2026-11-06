@@ -1,0 +1,456 @@
+
+[Slide 1]
+
+ELISA
+
+Enzyme-Linked Immunosorbent Assay
+
+ELISA
+
+Presented by: Linda Munjed Hadi
+
+[Slide 2]
+
+What Is ELISA?
+
+ELISA is a plate-based immunoassay used to detect or quantify a specific antigen or antibody using specific immune binding and an enzyme-generated measurable signal.
+
+Solid phase: usually a 96-well microplate.
+
+Recognition: specific antigen–antibody interaction.
+
+Detection: enzyme-linked system.
+
+Readout: colour intensity measured as optical density (OD).
+
+96-well microplate
+
+[Slide 3]
+
+1. ELISA in One Idea
+
+Specific binding
+
+Target antigen/antibody binds specifically in the coated well.
+
+Enzyme label
+
+Conjugate provides an enzyme linked to the specific reaction.
+
+Colour → OD
+
+Substrate becomes coloured and the reader measures optical density.
+
+More retained enzyme usually means stronger colour; the exact relationship depends on assay format.
+
+[Slide 4]
+
+Practical Principle of ELISA
+
+Capture / bound antibody
+
+Target antigen
+
+Detection antibody
+
+Enzyme label
+
+COLOUR
+
+More bound enzyme → more substrate conversion → stronger measurable signal
+
+[Slide 5]
+
+2. Qualitative or Quantitative?
+
+QUALITATIVE ELISA
+
+Final result: positive / negative (reactive / non-reactive).
+
+Usually uses positive + negative controls and a kit-defined cut-off or S/CO.
+
+No exact concentration.
+
+QUANTITATIVE ELISA
+
+Final result: concentration.
+
+Uses standards with known concentrations → standard curve → calculate sample concentration.
+
+Example units: pg/mL, ng/mL, IU/mL.
+
+A kit does not have to contain standards + positive/negative controls together.
+
+[Slide 6]
+
+3. Quantitative Plate — Standards
+
+Hospital-style colour sequence; exact concentrations come from the kit.
+
+🔴 Red
+
+First/high standard — example.
+
+🔵 Blue
+
+Another standard level.
+
+🟡 Yellow
+
+Standards / duplicates.
+
+🟢 Green
+
+Low/zero standard or blank — per kit.
+
+[Slide 7]
+
+4. Qualitative Plate — Positive & Negative Controls
+
+Positive control
+
+Confirms the expected positive assay response.
+
+Negative control
+
+Shows baseline/non-reactive response and helps validate the run.
+
+Samples
+
+Compare OD or S/CO with the kit-defined cut-off.
+
+[Slide 8]
+
+Types of ELISA
+
+1. Direct ELISA
+
+A labeled primary antibody binds directly to the antigen.
+
+Antigen
+
+Enzyme-labeled
+
+Primary Ab
+
+Color
+
+How it works
+
+The antigen is attached to the well. An enzyme-labeled primary antibody binds directly to the antigen.
+
+Main use
+
+Detection of antigens.
+
+Key point
+
+Simple and fast because fewer binding steps are required.
+
+[Slide 9]
+
+2. Indirect ELISA
+
+An enzyme-labeled secondary antibody detects the primary antibody.
+
+Antigen
+
+Primary
+
+Antibody
+
+Enzyme-labeled
+
+Secondary Ab
+
+Color
+
+How it works
+
+The antigen is attached to the well. The primary antibody binds to it, then an enzyme-labeled secondary antibody binds to the primary antibody.
+
+Main use
+
+Detection of antibodies such as IgM or IgG.
+
+Key point
+
+Commonly used when the antibody in the sample is the target.
+
+[Slide 10]
+
+3. Sandwich ELISA
+
+The antigen is captured between two antibodies.
+
+Capture
+
+Antibody
+
+Antigen
+
+Detection
+
+Antibody
+
+Color
+
+How it works
+
+A capture antibody is fixed to the well. The antigen binds to it, then a detection antibody binds to another site on the antigen.
+
+Main use
+
+Detection or measurement of antigens, proteins, cytokines, and biomarkers.
+
+Key point
+
+High specificity because two antibodies recognize the target.
+
+[Slide 11]
+
+4. Competitive ELISA
+
+The sample analyte competes for available binding sites.
+
+Sample
+
+Analyte
+
+Competition
+
+Binding
+
+Color
+
+How it works
+
+The analyte in the sample competes for binding. The final signal depends on the amount of competition.
+
+Main use
+
+Useful for some small molecules, hormones, antigens, or antibodies.
+
+Key point
+
+In many competitive assays: more analyte → less color.
+
+[Slide 12]
+
+Direct ELISA is used to detect the presence of antigens in a sample with speed and convenience. The process involves coating an ELISA plate with samples containing potential antigens, then adding a primary antibody that is enzyme-conjugated.
+
+The difference in an Indirect ELISA is that the primary antibody is unlabeled and a secondary labeled antibody is used to bind to the primary antibody.
+
+This antibody will bind directly to the antigen if present. After incubating, any unbound antibodies are washed away, leaving only the antigen-primary antibody complexes. Next, a substrate is added that reacts with the enzyme linked to the antibody, causing a color change. The intensity of this color is measured using a spectrophotometer, which indicates the quantity of antigen in the sample.
+
+This type of assay offers greater flexibility because one set of secondary antibodies can be used to detect multiple primary antibodies. After incubating the plate with samples containing antigens and incubating with the primary antibody, labeled secondary antibodies are then added that bind to any attached primary antibody.
+
+[Slide 13]
+
+A Sandwich ELISA is used to detect specific proteins with high sensitivity and specificity.
+
+First, the ELISA plate is coated with capture antibodies that bind to the target protein.
+
+After introducing a sample, these antibodies grab onto any of the proteins present.
+
+Following this step, detection antibodies are added on top of the bound protein, which are typically linked to an enzyme or have a tag that allows for visualization.
+
+Next, a substrate is added into the mix, which the enzyme-linked antibody will react with to produce a measurable signal.
+
+A Competitive ELISA holds a unique position. It operates on the principle where samples and control antigens compete for binding to a specific amount of capture antibody.
+
+Preparation starts by coating an ELISA plate with these antibodies.
+
+Then, a mixture of unlabeled antigen from the sample and labeled antigen is introduced to each well.
+
+If high amounts of target protein are present in the sample, they will occupy more of the binding sites, leaving fewer sites for the labeled antigen.
+
+During detection, only bound enzymes emit signals—higher target concentration results in weaker signals because fewer enzyme-conjugated antigens remain attached to antibodies.
+
+This inverse relationship provides the ability to quantify amounts accurately.
+
+[Slide 14]
+
+5. Reagents — What Do We Add and Why?
+
+Coated well
+
+Captures the specific target.
+
+Sample / standard / control
+
+Unknown target, known concentration, or validation.
+
+Sample diluent
+
+Correct dilution and reaction conditions.
+
+Enzyme conjugate
+
+Provides enzyme label for signal generation.
+
+Wash buffer
+
+Removes unbound/non-specific material.
+
+TMB substrate
+
+Enzyme converts it to colour.
+
+Stop solution
+
+Stops colour development at the endpoint.
+
+[Slide 15]
+
+[Slide 16]
+
+6. Washing & Incubation — Why They Matter
+
+WASHING
+
+Removes unbound sample, excess conjugate and non-specific material.
+
+Poor washing → high background / falsely high OD.
+
+Harsh washing or dried wells → weak or inconsistent signal.
+
+Follow the exact wash cycles in the kit.
+
+INCUBATION
+
+Gives binding reactions enough controlled time.
+
+Why 37°C? Some assays are validated at 37°C for efficient, reproducible reaction kinetics.
+
+37°C is NOT universal. Use the exact kit time and temperature.
+
+[Slide 17]
+
+7. TMB & Stop Solution
+
+1 • Bound enzyme
+
+Remains where specific binding occurred.
+
+2 • Add TMB
+
+HRP converts TMB → blue colour.
+
+3 • Colour develops
+
+More retained enzyme usually → stronger colour.
+
+4 • Add stop
+
+Stops reaction; colour commonly becomes yellow.
+
+Read promptly at the wavelength specified by the kit.
+
+[Slide 18]
+
+8. Practical Workflow
+
+Prepare reagents + plate map
+
+Add samples / standards / controls
+
+Incubate
+
+Wash
+
+Add conjugate
+
+Incubate + wash
+
+Add TMB
+
+Stop → Read OD
+
+Volumes, timing, washing and sequence are kit-specific.
+
+[Slide 19]
+
+BEFORE STOPE SOLUTION ADDITION
+
+AFTER STOP SOLUTION ADDITION
+
+[Slide 20]
+
+9. Reading & Interpretation
+
+Microplate reader
+
+Measures OD at the kit-specified wavelength.
+
+Avoid bubbles and read within the required time.
+
+Quantitative
+
+Standards → standard curve → convert sample OD to concentration.
+
+Qualitative
+
+Validate controls → calculate cut-off/S/CO → classify positive or negative.
+
+[Slide 21]
+
+10. Common Errors + Quick Checklist
+
+COMMON ERRORS
+
+• Wrong pipetting → wrong OD
+
+• Poor washing → high background
+
+• Unequal incubation → variability
+
+• Wrong temperature → altered kinetics
+
+• Wells dry → irregular signal
+
+• Delay after stop → unreliable reading
+
+BEFORE STARTING
+
+✓ Qualitative or quantitative?
+
+✓ Read kit IFU + plate map
+
+✓ Prepare reagents correctly
+
+✓ Label wells
+
+✓ Set time + temperature
+
+✓ Prepare wash buffer + reader
+
+✓ Never mix instructions from different kits
+
+[Slide 22]
+
+Take-Home Message
+
+Plate map
+
+Standards for quantitative assays; controls for many qualitative assays.
+
+Reagents
+
+Each reagent has a specific job.
+
+Technique
+
+Accurate pipetting, washing and incubation protect result quality.
+
+Interpretation
+
+Quantitative → concentration.
+
+Qualitative → positive/negative.
+
+The kit IFU is the final authority for volumes, time, temperature, cut-off and plate layout.
+
+[Slide 23]
+
+Thank you

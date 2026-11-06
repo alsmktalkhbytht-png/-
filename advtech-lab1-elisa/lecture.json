@@ -1,0 +1,3120 @@
+{
+ "meta": {
+  "subject_en": "Advanced Techniques (Practical)",
+  "subject_ar": "التقنيات المتقدمة العملي",
+  "short_ar": "تقنيات متقدمة",
+  "instructor": "ليندا منجد هادي",
+  "unit_en": "Lab 1",
+  "unit_ar": "العملي 1",
+  "unit_label": "LAB",
+  "unit_no": "1",
+  "title_en": "ELISA — Enzyme-Linked Immunosorbent Assay",
+  "title_ar": "الإليزا — المقايسة المناعية الممتزّة المرتبطة بالإنزيم",
+  "department": "قسم التحليلات",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "What is ELISA?",
+   "ar": "ما هو الإليزا؟"
+  },
+  {
+   "t": "note",
+   "en": "ELISA — Enzyme-Linked Immunosorbent Assay · Presented by: Linda Munjed Hadi",
+   "ar": "`ELISA` — المقايسة المناعية الممتزّة المرتبطة بالإنزيم · تقديم: ليندا منجد هادي",
+   "label": [
+    "Lab sheet",
+    "ورقة العملي"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "**What Is ELISA?**",
+   "ar": "**ما هو الإليزا؟**"
+  },
+  {
+   "t": "card",
+   "en": "**ELISA** is a plate-based immunoassay used to detect or quantify a specific antigen or antibody using specific immune binding and an enzyme-generated measurable signal.",
+   "ar": "**الإليزا (`ELISA`)** مقايسة مناعية تُجرى في صفيحة، تُستعمل للكشف عن مستضدّ أو ضدّ نوعي أو لقياس كمّيته، باستعمال ارتباط مناعي نوعي وإشارة قابلة للقياس يولّدها إنزيم."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Solid phase:** usually a 96-well microplate.",
+    "**Recognition:** specific antigen–antibody interaction.",
+    "**Detection:** enzyme-linked system.",
+    "**Readout:** colour intensity measured as optical density (OD)."
+   ],
+   "list_ar": [
+    "**الطور الصلب:** عادةً صفيحة دقيقة من 96 حفرة.",
+    "**التعرّف:** تفاعل نوعي بين المستضدّ والضدّ.",
+    "**الكشف:** نظام مرتبط بإنزيم.",
+    "**القراءة:** شدّة اللون مقيسةً بالكثافة الضوئية (`OD`)."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/microplate-96.png",
+     "en": "96-well microplate",
+     "ar": "صفيحة دقيقة من 96 حفرة",
+     "h": "40mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/microplate-washer.png",
+     "en": "Microplate washer (slide picture)",
+     "ar": "غاسلة الصفائح الدقيقة (صورة من الشريحة)",
+     "h": "40mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/microplate-reader.png",
+     "en": "Microplate reader (slide picture)",
+     "ar": "قارئ الصفائح الدقيقة (صورة من الشريحة)",
+     "h": "38mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/multichannel-pipette.png",
+     "en": "Multichannel pipette (slide picture)",
+     "ar": "ماصّة متعدّدة القنوات (صورة من الشريحة)",
+     "h": "38mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Only the plate has a caption on the slide; the other three pictures are named by BIOS.",
+    "`A 96-well plate = **8 rows (A–H) × 12 columns (1–12)**.`"
+   ],
+   "ar": [
+    "الصفيحة فقط لها عنوان في الشريحة؛ والصور الثلاث الأخرى سمّتها `BIOS`.",
+    "صفيحة الـ96 حفرة = **8 صفوف (`A`–`H) × 12` عمودًا (1–12)**."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "ELISA = plate-based immunoassay to **detect or quantify** an antigen or antibody.",
+    "`Solid phase **96-well microplate**; recognition **Ag–Ab**; detection **enzyme**; readout **OD**.`"
+   ],
+   "ar": [
+    "`ELISA` = مقايسة مناعية في صفيحة **للكشف أو القياس الكمّي** لمستضدّ أو ضدّ.",
+    "الطور الصلب **صفيحة 96 حفرة**؛ التعرّف **مستضدّ–ضدّ**؛ الكشف **إنزيم**؛ القراءة **`OD`**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "ELISA in one idea and its principle",
+   "ar": "الإليزا بفكرة واحدة ومبدؤها"
+  },
+  {
+   "t": "h2",
+   "en": "**1. ELISA in One Idea**",
+   "ar": "**1. الإليزا بفكرة واحدة**"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Item",
+     "البند"
+    ],
+    [
+     "What the slide says",
+     "ما تقوله الشريحة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Specific binding**",
+      "**الارتباط النوعي**"
+     ],
+     [
+      "Target antigen/antibody binds specifically in the coated well.",
+      "يرتبط المستضدّ/الضدّ الهدف ارتباطًا نوعيًا في الحفرة المغلّفة."
+     ]
+    ],
+    [
+     [
+      "**Enzyme label**",
+      "**الوسم الإنزيمي**"
+     ],
+     [
+      "Conjugate provides an enzyme linked to the specific reaction.",
+      "يوفّر المقترن (`conjugate`) إنزيمًا مرتبطًا بالتفاعل النوعي."
+     ]
+    ],
+    [
+     [
+      "**Colour → OD**",
+      "**اللون ← `OD`**"
+     ],
+     [
+      "Substrate becomes coloured and the reader measures optical density.",
+      "تتلوّن الركيزة ويقيس القارئ الكثافة الضوئية."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    70
+   ],
+   "label_en": "ELISA in One Idea",
+   "label_ar": "الإليزا بفكرة واحدة"
+  },
+  {
+   "t": "card",
+   "en": "More retained enzyme usually means stronger colour; the exact relationship depends on assay format.",
+   "ar": "كلّما زاد الإنزيم المحتجز كان اللون عادةً أقوى؛ والعلاقة الدقيقة تعتمد على شكل المقايسة."
+  },
+  {
+   "t": "h2",
+   "en": "**Practical Principle of ELISA**",
+   "ar": "**المبدأ العملي للإليزا**"
+  },
+  {
+   "t": "figure",
+   "src": "assets/elisa-principle.png",
+   "en": "Practical Principle of ELISA",
+   "ar": "المبدأ العملي للإليزا",
+   "h": "50mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Figure text",
+     "كتابات الشكل"
+    ],
+    [
+     "Arabic",
+     "بالعربي"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Capture / bound antibody**",
+      "**الضدّ الملتقِط / المرتبط**"
+     ],
+     [
+      "fixed to the well",
+      "مثبّت في الحفرة"
+     ]
+    ],
+    [
+     [
+      "**Target antigen**",
+      "**المستضدّ الهدف**"
+     ],
+     [
+      "what we look for in the sample",
+      "ما نبحث عنه في العيّنة"
+     ]
+    ],
+    [
+     [
+      "**Detection antibody**",
+      "**ضدّ الكشف**"
+     ],
+     [
+      "binds the captured antigen",
+      "يرتبط بالمستضدّ الملتقَط"
+     ]
+    ],
+    [
+     [
+      "**Enzyme label**",
+      "**الوسم الإنزيمي**"
+     ],
+     [
+      "linked to the detection antibody",
+      "مرتبط بضدّ الكشف"
+     ]
+    ],
+    [
+     [
+      "**COLOUR**",
+      "**اللون**"
+     ],
+     [
+      "the measurable signal",
+      "الإشارة القابلة للقياس"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    45,
+    55
+   ],
+   "label_en": "Figure text",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "card",
+   "en": "More bound enzyme → more substrate conversion → stronger measurable signal",
+   "ar": "إنزيم مرتبط أكثر ← تحويل أكثر للركيزة ← إشارة قابلة للقياس أقوى"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Three ideas: **specific binding**, **enzyme label**, **colour → OD**.",
+    "`More bound enzyme → **stronger signal** (usually; depends on the format).`"
+   ],
+   "ar": [
+    "ثلاث أفكار: **ارتباط نوعي**، و**وسم إنزيمي**، و**لون ← `OD`**.",
+    "إنزيم مرتبط أكثر ← **إشارة أقوى** (عادةً؛ حسب شكل المقايسة)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Qualitative or quantitative?",
+   "ar": "نوعي أم كمّي؟"
+  },
+  {
+   "t": "h2",
+   "en": "**2. Qualitative or Quantitative?**",
+   "ar": "**2. نوعي أم كمّي؟**"
+  },
+  {
+   "t": "card",
+   "en": "**QUALITATIVE ELISA**",
+   "ar": "**الإليزا النوعي (`QUALITATIVE`)**",
+   "list_en": [
+    "Final result: positive / negative (reactive / non-reactive).",
+    "Usually uses positive + negative controls and a kit-defined cut-off or S/CO.",
+    "No exact concentration."
+   ],
+   "list_ar": [
+    "النتيجة النهائية: موجب / سالب (متفاعل / غير متفاعل).",
+    "يستعمل عادةً ضوابط موجبة + سالبة وحدًّا فاصلًا (`cut-off`) أو `S/CO` يحدّده العُدّة (`kit`).",
+    "لا يعطي تركيزًا دقيقًا."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**QUANTITATIVE ELISA**",
+   "ar": "**الإليزا الكمّي (`QUANTITATIVE`)**",
+   "list_en": [
+    "Final result: concentration.",
+    "Uses standards with known concentrations → standard curve → calculate sample concentration.",
+    "Example units: pg/mL, ng/mL, IU/mL."
+   ],
+   "list_ar": [
+    "النتيجة النهائية: تركيز.",
+    "يستعمل محاليل قياسية (`standards`) معلومة التركيز ← منحنى قياسي ← حساب تركيز العيّنة.",
+    "أمثلة الوحدات: `pg/mL` و`ng/mL` و`IU/mL`."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "A kit does not have to contain standards + positive/negative controls together.",
+   "ar": "ليس شرطًا أن تحتوي العُدّة على المحاليل القياسية والضوابط الموجبة/السالبة معًا."
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "Qualitative",
+     "نوعي"
+    ],
+    [
+     "Quantitative",
+     "كمّي"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Answer**",
+      "**الجواب**"
+     ],
+     [
+      "positive / negative",
+      "موجب / سالب"
+     ],
+     [
+      "concentration",
+      "تركيز"
+     ]
+    ],
+    [
+     [
+      "**Uses**",
+      "**يستعمل**"
+     ],
+     [
+      "positive + negative controls, cut-off or S/CO",
+      "ضوابط موجبة + سالبة، وحدّ فاصل أو `S/CO`"
+     ],
+     [
+      "standards → standard curve",
+      "محاليل قياسية ← منحنى قياسي"
+     ]
+    ],
+    [
+     [
+      "**Units**",
+      "**الوحدات**"
+     ],
+     [
+      "none (no exact concentration)",
+      "لا توجد (لا تركيز دقيق)"
+     ],
+     [
+      "pg/mL, ng/mL, IU/mL",
+      "`pg/mL`، `ng/mL`، `IU/mL`"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    20,
+    40,
+    40
+   ],
+   "style": "summary",
+   "label_en": "BIOS: compare",
+   "label_ar": "`BIOS`: مقارنة"
+  },
+  {
+   "t": "note",
+   "en": "**S/CO** = sample OD ÷ cut-off OD; with most kits a ratio **≥ 1** is reactive (positive) — always follow the kit.",
+   "ar": "**`S/CO`** = `OD` العيّنة ÷ `OD` الحدّ الفاصل؛ وفي أغلب العُدد تكون النسبة **`≥ 1`** متفاعلة (موجبة) — اتّبع العُدّة دائمًا.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Qualitative** → positive/negative using **controls + cut-off (S/CO)**.",
+    "`**Quantitative** → concentration using **standards → standard curve**.`"
+   ],
+   "ar": [
+    "**النوعي** ← موجب/سالب باستعمال **الضوابط + الحدّ الفاصل (`S/CO`)**.",
+    "**الكمّي** ← تركيز باستعمال **المحاليل القياسية ← المنحنى القياسي**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Plate maps: standards and controls",
+   "ar": "خريطة الصفيحة: المحاليل القياسية والضوابط"
+  },
+  {
+   "t": "h2",
+   "en": "**3. Quantitative Plate — Standards**",
+   "ar": "**3. صفيحة الكمّي — المحاليل القياسية**"
+  },
+  {
+   "t": "card",
+   "en": "Hospital-style colour sequence; exact concentrations come from the kit.",
+   "ar": "تسلسل ألوان على طريقة المستشفى؛ والتراكيز الدقيقة تأتي من العُدّة."
+  },
+  {
+   "t": "figure",
+   "src": "assets/plate-quantitative.png",
+   "en": "Quantitative plate — standards in column 1 (A–F)",
+   "ar": "صفيحة الكمّي — المحاليل القياسية في العمود `1 (A`–`F`)",
+   "h": "52mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Colour",
+     "اللون"
+    ],
+    [
+     "Meaning",
+     "المعنى"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Red**",
+      "**الأحمر**"
+     ],
+     [
+      "First/high standard — example.",
+      "المحلول القياسي الأول/العالي — مثال."
+     ]
+    ],
+    [
+     [
+      "**Blue**",
+      "**الأزرق**"
+     ],
+     [
+      "Another standard level.",
+      "مستوى قياسي آخر."
+     ]
+    ],
+    [
+     [
+      "**Yellow**",
+      "**الأصفر**"
+     ],
+     [
+      "Standards / duplicates.",
+      "محاليل قياسية / مكرّرات."
+     ]
+    ],
+    [
+     [
+      "**Green**",
+      "**الأخضر**"
+     ],
+     [
+      "Low/zero standard or blank — per kit.",
+      "محلول قياسي منخفض/صفر أو بلانك (`blank`) — حسب العُدّة."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    76
+   ],
+   "label_en": "Colour key",
+   "label_ar": "مفتاح الألوان"
+  },
+  {
+   "t": "h2",
+   "en": "**4. Qualitative Plate — Positive & Negative Controls**",
+   "ar": "**4. صفيحة النوعي — الضوابط الموجبة والسالبة**"
+  },
+  {
+   "t": "figure",
+   "src": "assets/plate-qualitative.png",
+   "en": "Qualitative plate — positive control (A1) and negative control (B1)",
+   "ar": "صفيحة النوعي — الضابط الموجب `(A1)` والضابط السالب `(B1)`",
+   "h": "52mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Item",
+     "البند"
+    ],
+    [
+     "What the slide says",
+     "ما تقوله الشريحة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Positive control**",
+      "**الضابط الموجب**"
+     ],
+     [
+      "Confirms the expected positive assay response.",
+      "يؤكّد استجابة المقايسة الموجبة المتوقّعة."
+     ]
+    ],
+    [
+     [
+      "**Negative control**",
+      "**الضابط السالب**"
+     ],
+     [
+      "Shows baseline/non-reactive response and helps validate the run.",
+      "يُظهر الاستجابة الأساسية/غير المتفاعلة ويساعد على التحقّق من صحّة التشغيلة."
+     ]
+    ],
+    [
+     [
+      "**Samples**",
+      "**العيّنات**"
+     ],
+     [
+      "Compare OD or S/CO with the kit-defined cut-off.",
+      "قارن `OD` أو `S/CO` بالحدّ الفاصل الذي تحدّده العُدّة."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    26,
+    74
+   ],
+   "label_en": "Controls and samples",
+   "label_ar": "الضوابط والعيّنات"
+  },
+  {
+   "t": "note",
+   "en": "Red A1 and blue B1 in this figure follow the same colour code; the plate positions are an example — the real layout comes from the kit plate map.",
+   "ar": "الأحمر `A1` والأزرق `B1` في هذا الشكل بنفس مفتاح الألوان؛ ومواقع الصفيحة مثال فقط — والترتيب الحقيقي من خريطة صفيحة العُدّة.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Quantitative plate = **standards** (high → low/zero), often in duplicates.",
+    "Qualitative plate = **positive + negative controls** + samples compared with the **cut-off**.",
+    "Negative control **validates the run**."
+   ],
+   "ar": [
+    "صفيحة الكمّي = **محاليل قياسية** (عالٍ ← منخفض/صفر)، وغالبًا بمكرّرات.",
+    "صفيحة النوعي = **ضوابط موجبة + سالبة** + عيّنات تُقارن **بالحدّ الفاصل**.",
+    "الضابط السالب **يتحقّق من صحّة التشغيلة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Types of ELISA",
+   "ar": "أنواع الإليزا"
+  },
+  {
+   "t": "h2",
+   "en": "**1. Direct ELISA**",
+   "ar": "**1. الإليزا المباشر**"
+  },
+  {
+   "t": "card",
+   "en": "A labeled primary antibody binds directly to the antigen.",
+   "ar": "يرتبط ضدّ أوّلي موسوم مباشرةً بالمستضدّ."
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Antigen",
+     "ar": "المستضدّ"
+    },
+    {
+     "en": "Enzyme-labeled Primary Ab",
+     "ar": "ضدّ أوّلي موسوم بالإنزيم"
+    },
+    {
+     "en": "Color",
+     "ar": "اللون"
+    }
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Item",
+     "البند"
+    ],
+    [
+     "What the slide says",
+     "ما تقوله الشريحة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**How it works**",
+      "**طريقة العمل**"
+     ],
+     [
+      "The antigen is attached to the well. An enzyme-labeled primary antibody binds directly to the antigen.",
+      "يُثبَّت المستضدّ في الحفرة. ويرتبط ضدّ أوّلي موسوم بالإنزيم مباشرةً بالمستضدّ."
+     ]
+    ],
+    [
+     [
+      "**Main use**",
+      "**الاستعمال الرئيسي**"
+     ],
+     [
+      "Detection of antigens.",
+      "الكشف عن المستضدّات."
+     ]
+    ],
+    [
+     [
+      "**Key point**",
+      "**النقطة المفتاحية**"
+     ],
+     [
+      "Simple and fast because fewer binding steps are required.",
+      "بسيط وسريع لأنه يحتاج خطوات ارتباط أقلّ."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    76
+   ],
+   "label_en": "Direct ELISA",
+   "label_ar": "الإليزا المباشر"
+  },
+  {
+   "t": "h2",
+   "en": "**2. Indirect ELISA**",
+   "ar": "**2. الإليزا غير المباشر**"
+  },
+  {
+   "t": "card",
+   "en": "An enzyme-labeled secondary antibody detects the primary antibody.",
+   "ar": "يكشف ضدّ ثانوي موسوم بالإنزيم عن الضدّ الأوّلي."
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Antigen",
+     "ar": "المستضدّ"
+    },
+    {
+     "en": "Primary Antibody",
+     "ar": "الضدّ الأوّلي"
+    },
+    {
+     "en": "Enzyme-labeled Secondary Ab",
+     "ar": "ضدّ ثانوي موسوم بالإنزيم"
+    },
+    {
+     "en": "Color",
+     "ar": "اللون"
+    }
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Item",
+     "البند"
+    ],
+    [
+     "What the slide says",
+     "ما تقوله الشريحة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**How it works**",
+      "**طريقة العمل**"
+     ],
+     [
+      "The antigen is attached to the well. The primary antibody binds to it, then an enzyme-labeled secondary antibody binds to the primary antibody.",
+      "يُثبَّت المستضدّ في الحفرة. ويرتبط به الضدّ الأوّلي، ثم يرتبط ضدّ ثانوي موسوم بالإنزيم بالضدّ الأوّلي."
+     ]
+    ],
+    [
+     [
+      "**Main use**",
+      "**الاستعمال الرئيسي**"
+     ],
+     [
+      "Detection of antibodies such as IgM or IgG.",
+      "الكشف عن الأضداد مثل `IgM` أو `IgG`."
+     ]
+    ],
+    [
+     [
+      "**Key point**",
+      "**النقطة المفتاحية**"
+     ],
+     [
+      "Commonly used when the antibody in the sample is the target.",
+      "يُستعمل عادةً عندما يكون الضدّ الموجود في العيّنة هو الهدف."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    76
+   ],
+   "label_en": "Indirect ELISA",
+   "label_ar": "الإليزا غير المباشر"
+  },
+  {
+   "t": "h2",
+   "en": "**3. Sandwich ELISA**",
+   "ar": "**3. الإليزا الساندويتش**"
+  },
+  {
+   "t": "card",
+   "en": "The antigen is captured between two antibodies.",
+   "ar": "يُلتقَط المستضدّ بين ضدّين."
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Capture Antibody",
+     "ar": "الضدّ الملتقِط"
+    },
+    {
+     "en": "Antigen",
+     "ar": "المستضدّ"
+    },
+    {
+     "en": "Detection Antibody",
+     "ar": "ضدّ الكشف"
+    },
+    {
+     "en": "Color",
+     "ar": "اللون"
+    }
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Item",
+     "البند"
+    ],
+    [
+     "What the slide says",
+     "ما تقوله الشريحة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**How it works**",
+      "**طريقة العمل**"
+     ],
+     [
+      "A capture antibody is fixed to the well. The antigen binds to it, then a detection antibody binds to another site on the antigen.",
+      "يُثبَّت ضدّ ملتقِط في الحفرة. ويرتبط به المستضدّ، ثم يرتبط ضدّ الكشف بموقع آخر على المستضدّ."
+     ]
+    ],
+    [
+     [
+      "**Main use**",
+      "**الاستعمال الرئيسي**"
+     ],
+     [
+      "Detection or measurement of antigens, proteins, cytokines, and biomarkers.",
+      "الكشف عن المستضدّات والبروتينات والسيتوكينات والواسمات الحيوية أو قياسها."
+     ]
+    ],
+    [
+     [
+      "**Key point**",
+      "**النقطة المفتاحية**"
+     ],
+     [
+      "High specificity because two antibodies recognize the target.",
+      "نوعية عالية لأن ضدّين يتعرّفان على الهدف."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    76
+   ],
+   "label_en": "Sandwich ELISA",
+   "label_ar": "الإليزا الساندويتش"
+  },
+  {
+   "t": "h2",
+   "en": "**4. Competitive ELISA**",
+   "ar": "**4. الإليزا التنافسي**"
+  },
+  {
+   "t": "card",
+   "en": "The sample analyte competes for available binding sites.",
+   "ar": "تتنافس المادّة المقيسة في العيّنة على مواقع الارتباط المتاحة."
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Sample Analyte",
+     "ar": "المادّة المقيسة في العيّنة"
+    },
+    {
+     "en": "Competition",
+     "ar": "التنافس"
+    },
+    {
+     "en": "Binding",
+     "ar": "الارتباط"
+    },
+    {
+     "en": "Color",
+     "ar": "اللون"
+    }
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Item",
+     "البند"
+    ],
+    [
+     "What the slide says",
+     "ما تقوله الشريحة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**How it works**",
+      "**طريقة العمل**"
+     ],
+     [
+      "The analyte in the sample competes for binding. The final signal depends on the amount of competition.",
+      "تتنافس المادّة المقيسة في العيّنة على الارتباط. وتعتمد الإشارة النهائية على مقدار التنافس."
+     ]
+    ],
+    [
+     [
+      "**Main use**",
+      "**الاستعمال الرئيسي**"
+     ],
+     [
+      "Useful for some small molecules, hormones, antigens, or antibodies.",
+      "مفيد لبعض الجزيئات الصغيرة أو الهرمونات أو المستضدّات أو الأضداد."
+     ]
+    ],
+    [
+     [
+      "**Key point**",
+      "**النقطة المفتاحية**"
+     ],
+     [
+      "In many competitive assays: more analyte → less color.",
+      "في كثير من المقايسات التنافسية: مادّة مقيسة أكثر ← لون أقلّ."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    76
+   ],
+   "label_en": "Competitive ELISA",
+   "label_ar": "الإليزا التنافسي"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Type",
+     "النوع"
+    ],
+    [
+     "Detects mainly",
+     "يكشف أساسًا"
+    ],
+    [
+     "Antibodies used",
+     "الأضداد المستعملة"
+    ],
+    [
+     "Signal vs target",
+     "الإشارة مقابل الهدف"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Direct**",
+      "**المباشر**"
+     ],
+     [
+      "antigens",
+      "مستضدّات"
+     ],
+     [
+      "1 labeled primary",
+      "ضدّ أوّلي موسوم واحد"
+     ],
+     [
+      "more target → more colour",
+      "هدف أكثر ← لون أكثر"
+     ]
+    ],
+    [
+     [
+      "**Indirect**",
+      "**غير المباشر**"
+     ],
+     [
+      "antibodies (IgM, IgG)",
+      "أضداد (`IgM`، `IgG`)"
+     ],
+     [
+      "primary + labeled secondary",
+      "أوّلي + ثانوي موسوم"
+     ],
+     [
+      "more target → more colour",
+      "هدف أكثر ← لون أكثر"
+     ]
+    ],
+    [
+     [
+      "**Sandwich**",
+      "**الساندويتش**"
+     ],
+     [
+      "antigens, proteins, cytokines",
+      "مستضدّات، بروتينات، سيتوكينات"
+     ],
+     [
+      "capture + detection",
+      "ملتقِط + كشف"
+     ],
+     [
+      "more target → more colour",
+      "هدف أكثر ← لون أكثر"
+     ]
+    ],
+    [
+     [
+      "**Competitive**",
+      "**التنافسي**"
+     ],
+     [
+      "small molecules, hormones",
+      "جزيئات صغيرة، هرمونات"
+     ],
+     [
+      "competition for sites",
+      "تنافس على المواقع"
+     ],
+     [
+      "**more target → less colour**",
+      "**هدف أكثر ← لون أقلّ**"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    20,
+    28,
+    26,
+    26
+   ],
+   "style": "summary",
+   "label_en": "BIOS: the four types",
+   "label_ar": "`BIOS`: الأنواع الأربعة"
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Direct**: labeled primary Ab on the antigen — simple, fast.",
+    "**Indirect**: primary + labeled secondary — detects **antibodies** (IgM/IgG).",
+    "**Sandwich**: antigen between capture + detection Ab — **high specificity**.",
+    "**Competitive**: more analyte → **less colour** (inverse)."
+   ],
+   "ar": [
+    "**المباشر**: ضدّ أوّلي موسوم على المستضدّ — بسيط وسريع.",
+    "**غير المباشر**: أوّلي + ثانوي موسوم — يكشف **الأضداد** (`IgM`/`IgG`).",
+    "**الساندويتش**: المستضدّ بين ضدّ ملتقِط وضدّ كشف — **نوعية عالية**.",
+    "**التنافسي**: مادّة مقيسة أكثر ← **لون أقلّ** (علاقة عكسية)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Types of ELISA in detail",
+   "ar": "أنواع الإليزا بالتفصيل"
+  },
+  {
+   "t": "figure",
+   "src": "assets/elisa-types.png",
+   "en": "Types of ELISA",
+   "ar": "أنواع الإليزا",
+   "h": "50mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Figure text",
+     "كتابات الشكل"
+    ],
+    [
+     "Arabic",
+     "بالعربي"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Direct ELISA**: antigen, primary antibody conjugate, enzyme",
+      "**الإليزا المباشر**: مستضدّ، مقترن الضدّ الأوّلي، إنزيم"
+     ],
+     [
+      "one labeled antibody",
+      "ضدّ موسوم واحد"
+     ]
+    ],
+    [
+     [
+      "**Indirect ELISA**: secondary antibody conjugate",
+      "**الإليزا غير المباشر**: مقترن الضدّ الثانوي"
+     ],
+     [
+      "labeled secondary on an unlabeled primary",
+      "ثانوي موسوم على أوّلي غير موسوم"
+     ]
+    ],
+    [
+     [
+      "**Sandwich ELISA**: capture antibody",
+      "**الإليزا الساندويتش**: الضدّ الملتقِط"
+     ],
+     [
+      "antigen held between two antibodies",
+      "المستضدّ محصور بين ضدّين"
+     ]
+    ],
+    [
+     [
+      "**Competitive ELISA**: inhibitor antigen",
+      "**الإليزا التنافسي**: مستضدّ مثبِّط"
+     ],
+     [
+      "sample antigen competes with labeled antigen",
+      "مستضدّ العيّنة ينافس المستضدّ الموسوم"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    55,
+    45
+   ],
+   "label_en": "Figure text",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "note",
+   "en": "The same diagram appears on two slides (cropped differently); it is printed once here.",
+   "ar": "المخطّط نفسه يظهر في شريحتين (بقصّ مختلف)؛ وطُبع هنا مرّة واحدة.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "**1. Direct ELISA**",
+   "ar": "**1. الإليزا المباشر**"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Direct ELISA** is used to detect the presence of antigens in a sample with speed and convenience.",
+    "`The process involves coating an ELISA plate with samples containing potential antigens, then adding a primary antibody that is enzyme-conjugated.`"
+   ],
+   "ar": [
+    "يُستعمل **الإليزا المباشر** للكشف عن وجود المستضدّات في العيّنة بسرعة وسهولة.",
+    "وتتضمّن العملية تغليف صفيحة الإليزا بعيّنات قد تحتوي مستضدّات، ثم إضافة ضدّ أوّلي مقترن بإنزيم."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "This antibody will bind directly to the antigen if present.",
+    "After incubating, any unbound antibodies are washed away, leaving only the antigen-primary antibody complexes."
+   ],
+   "ar": [
+    "يرتبط هذا الضدّ مباشرةً بالمستضدّ إن وُجد.",
+    "وبعد الحضن تُغسل الأضداد غير المرتبطة، فتبقى معقّدات المستضدّ–الضدّ الأوّلي فقط."
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "card",
+   "en": [
+    "Next, a substrate is added that reacts with the enzyme linked to the antibody, causing a color change.",
+    "The intensity of this color is measured using a spectrophotometer, which indicates the quantity of antigen in the sample."
+   ],
+   "ar": [
+    "بعدها تُضاف ركيزة تتفاعل مع الإنزيم المرتبط بالضدّ، فيحدث تغيّر في اللون.",
+    "وتُقاس شدّة هذا اللون بمطياف ضوئي (`spectrophotometer`)، وهي تدلّ على كمّية المستضدّ في العيّنة."
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "h2",
+   "en": "**2. Indirect ELISA**",
+   "ar": "**2. الإليزا غير المباشر**"
+  },
+  {
+   "t": "card",
+   "en": "The difference in an **Indirect ELISA** is that the primary antibody is unlabeled and a secondary labeled antibody is used to bind to the primary antibody.",
+   "ar": "الفرق في **الإليزا غير المباشر** أن الضدّ الأوّلي غير موسوم، ويُستعمل ضدّ ثانوي موسوم ليرتبط بالضدّ الأوّلي."
+  },
+  {
+   "t": "card",
+   "en": [
+    "This type of assay offers greater flexibility because one set of secondary antibodies can be used to detect multiple primary antibodies.",
+    "`After incubating the plate with samples containing antigens and incubating with the primary antibody, labeled secondary antibodies are then added that bind to any attached primary antibody.`"
+   ],
+   "ar": [
+    "يوفّر هذا النوع مرونة أكبر لأن مجموعة واحدة من الأضداد الثانوية يمكن استعمالها للكشف عن أضداد أوّلية متعدّدة.",
+    "وبعد حضن الصفيحة بعيّنات تحتوي مستضدّات ثم الحضن مع الضدّ الأوّلي، تُضاف أضداد ثانوية موسومة ترتبط بأيّ ضدّ أوّلي مرتبط."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "**3. Sandwich ELISA**",
+   "ar": "**3. الإليزا الساندويتش**"
+  },
+  {
+   "t": "card",
+   "en": "A **Sandwich ELISA** is used to detect specific proteins with high sensitivity and specificity.",
+   "ar": "يُستعمل **الإليزا الساندويتش** للكشف عن بروتينات معيّنة بحساسية ونوعية عاليتين."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "First, the ELISA plate is coated with capture antibodies that bind to the target protein.",
+    "After introducing a sample, these antibodies grab onto any of the proteins present.",
+    "Following this step, detection antibodies are added on top of the bound protein, which are typically linked to an enzyme or have a tag that allows for visualization.",
+    "Next, a substrate is added into the mix, which the enzyme-linked antibody will react with to produce a measurable signal."
+   ],
+   "list_ar": [
+    "أولًا تُغلَّف صفيحة الإليزا بأضداد ملتقِطة ترتبط بالبروتين الهدف.",
+    "وبعد إدخال العيّنة تمسك هذه الأضداد بأيّ من البروتينات الموجودة.",
+    "وبعد هذه الخطوة تُضاف أضداد الكشف فوق البروتين المرتبط، وهي عادةً مرتبطة بإنزيم أو تحمل وسمًا يسمح بالرؤية.",
+    "بعدها تُضاف ركيزة إلى الخليط، يتفاعل معها الضدّ المرتبط بالإنزيم لينتج إشارة قابلة للقياس."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "**4. Competitive ELISA**",
+   "ar": "**4. الإليزا التنافسي**"
+  },
+  {
+   "t": "card",
+   "en": [
+    "A **Competitive ELISA** holds a unique position.",
+    "`It operates on the principle where samples and control antigens compete for binding to a specific amount of capture antibody.`"
+   ],
+   "ar": [
+    "يحتلّ **الإليزا التنافسي** مكانة فريدة.",
+    "فهو يعمل على مبدأ تنافس العيّنات والمستضدّات الضابطة على الارتباط بكمّية محدّدة من الضدّ الملتقِط."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Preparation starts by coating an ELISA plate with these antibodies.",
+    "Then, a mixture of unlabeled antigen from the sample and labeled antigen is introduced to each well.",
+    "If high amounts of target protein are present in the sample, they will occupy more of the binding sites, leaving fewer sites for the labeled antigen."
+   ],
+   "list_ar": [
+    "يبدأ التحضير بتغليف صفيحة الإليزا بهذه الأضداد.",
+    "ثم يُضاف إلى كل حفرة خليط من المستضدّ غير الموسوم القادم من العيّنة والمستضدّ الموسوم.",
+    "فإذا وُجدت كمّيات عالية من البروتين الهدف في العيّنة فإنها تشغل مواقع ارتباط أكثر، وتترك مواقع أقلّ للمستضدّ الموسوم."
+   ],
+   "_ff": 2
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "During detection, only bound enzymes emit signals—higher target concentration results in weaker signals because fewer enzyme-conjugated antigens remain attached to antibodies.",
+    "This inverse relationship provides the ability to quantify amounts accurately."
+   ],
+   "list_ar": [
+    "وأثناء الكشف لا تعطي إشارة إلا الإنزيمات المرتبطة — فالتركيز الأعلى للهدف يعطي إشارات أضعف لأن عددًا أقلّ من المستضدّات المقترنة بالإنزيم يبقى مرتبطًا بالأضداد.",
+    "وهذه العلاقة العكسية تمنح القدرة على قياس الكمّيات بدقّة."
+   ],
+   "start": 4,
+   "_ff": 2
+  },
+  {
+   "t": "note",
+   "en": [
+    "Direct: fast; antigen coated, **enzyme-conjugated primary** Ab; colour read by a spectrophotometer.",
+    "Indirect: **unlabeled primary + labeled secondary** → greater flexibility.",
+    "Sandwich: **capture Ab → sample protein → detection Ab → substrate**.",
+    "Competitive: sample antigen vs labeled antigen → **inverse** relationship."
+   ],
+   "ar": [
+    "المباشر: سريع؛ مستضدّ مغلَّف و**ضدّ أوّلي مقترن بإنزيم**؛ واللون يُقرأ بمطياف ضوئي.",
+    "غير المباشر: **أوّلي غير موسوم + ثانوي موسوم** ← مرونة أكبر.",
+    "الساندويتش: **ضدّ ملتقِط ← بروتين العيّنة ← ضدّ كشف ← ركيزة**.",
+    "التنافسي: مستضدّ العيّنة مقابل المستضدّ الموسوم ← علاقة **عكسية**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Reagents",
+   "ar": "الكواشف"
+  },
+  {
+   "t": "h2",
+   "en": "**5. Reagents — What Do We Add and Why?**",
+   "ar": "**5. الكواشف — ماذا نضيف ولماذا؟**"
+  },
+  {
+   "t": "note",
+   "en": "**TMB** = tetramethylbenzidine; **HRP** = horseradish peroxidase (the usual conjugate enzyme); **IFU** = instructions for use (the kit leaflet).",
+   "ar": "**`TMB`** = تترامثيل بنزيدين؛ و**`HRP`** = بيروكسيداز الفجل الحار (إنزيم المقترن المعتاد)؛ و**`IFU`** = تعليمات الاستعمال (نشرة العُدّة).",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Reagent",
+     "الكاشف"
+    ],
+    [
+     "Why",
+     "لماذا"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Coated well**",
+      "**الحفرة المغلّفة**"
+     ],
+     [
+      "Captures the specific target.",
+      "تلتقط الهدف النوعي."
+     ]
+    ],
+    [
+     [
+      "**Sample / standard / control**",
+      "**العيّنة / المحلول القياسي / الضابط**"
+     ],
+     [
+      "Unknown target, known concentration, or validation.",
+      "هدف مجهول، أو تركيز معلوم، أو تحقّق من الصحّة."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    32,
+    68
+   ],
+   "label_en": "Reagents",
+   "label_ar": "الكواشف",
+   "_ff": 3
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Reagent",
+     "الكاشف"
+    ],
+    [
+     "Why",
+     "لماذا"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Sample diluent**",
+      "**مخفّف العيّنة**"
+     ],
+     [
+      "Correct dilution and reaction conditions.",
+      "التخفيف الصحيح وظروف التفاعل."
+     ]
+    ],
+    [
+     [
+      "**Enzyme conjugate**",
+      "**المقترن الإنزيمي**"
+     ],
+     [
+      "Provides enzyme label for signal generation.",
+      "يوفّر الوسم الإنزيمي لتوليد الإشارة."
+     ]
+    ],
+    [
+     [
+      "**Wash buffer**",
+      "**دارئ الغسل**"
+     ],
+     [
+      "Removes unbound/non-specific material.",
+      "يزيل المواد غير المرتبطة/غير النوعية."
+     ]
+    ],
+    [
+     [
+      "**TMB substrate**",
+      "**ركيزة `TMB`**"
+     ],
+     [
+      "Enzyme converts it to colour.",
+      "يحوّلها الإنزيم إلى لون."
+     ]
+    ],
+    [
+     [
+      "**Stop solution**",
+      "**محلول الإيقاف**"
+     ],
+     [
+      "Stops colour development at the endpoint.",
+      "يوقف تكوّن اللون عند نقطة النهاية."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    32,
+    68
+   ],
+   "label_en": "Reagents",
+   "label_ar": "الكواشف",
+   "_ff": 3
+  },
+  {
+   "t": "figure",
+   "src": "assets/elisa-kit-hbsag.png",
+   "en": "An ELISA kit (HBsAg) — plate, reagent bottles and leaflet",
+   "ar": "عُدّة إليزا (`HBsAg`) — الصفيحة وقناني الكواشف والنشرة",
+   "h": "52mm"
+  },
+  {
+   "t": "note",
+   "en": "The kit picture has no caption on the slide; the box reads **HBsAg** (hepatitis B surface antigen).",
+   "ar": "صورة العُدّة بلا عنوان في الشريحة؛ ومكتوب على العلبة **`HBsAg`** (المستضدّ السطحي لالتهاب الكبد `B`).",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Coated well **captures**; conjugate gives the **enzyme**; TMB gives **colour**; stop solution **ends** it.",
+    "`Wash buffer removes **unbound/non-specific** material.`"
+   ],
+   "ar": [
+    "الحفرة المغلّفة **تلتقط**؛ والمقترن يعطي **الإنزيم**؛ و`TMB` يعطي **اللون**؛ ومحلول الإيقاف **ينهيه**.",
+    "دارئ الغسل يزيل المواد **غير المرتبطة/غير النوعية**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Washing and incubation",
+   "ar": "الغسل والحضن"
+  },
+  {
+   "t": "h2",
+   "en": "**6. Washing & Incubation — Why They Matter**",
+   "ar": "**6. الغسل والحضن — لماذا يهمّان**"
+  },
+  {
+   "t": "card",
+   "en": "**WASHING**",
+   "ar": "**الغسل (`WASHING`)**",
+   "list_en": [
+    "Removes unbound sample, excess conjugate and non-specific material.",
+    "Poor washing → high background / falsely high OD.",
+    "Harsh washing or dried wells → weak or inconsistent signal.",
+    "Follow the exact wash cycles in the kit."
+   ],
+   "list_ar": [
+    "يزيل العيّنة غير المرتبطة والمقترن الزائد والمواد غير النوعية.",
+    "الغسل الضعيف ← خلفية عالية / `OD` مرتفع كاذب.",
+    "الغسل العنيف أو جفاف الحُفَر ← إشارة ضعيفة أو غير منتظمة.",
+    "اتّبع دورات الغسل المضبوطة في العُدّة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**INCUBATION**",
+   "ar": "**الحضن (`INCUBATION`)**",
+   "list_en": [
+    "Gives binding reactions enough controlled time.",
+    [
+     "Why 37°C?",
+     "`Some assays are validated at 37°C for efficient, reproducible reaction kinetics.`"
+    ],
+    [
+     "37°C is NOT universal.",
+     "`Use the exact kit time and temperature.`"
+    ]
+   ],
+   "list_ar": [
+    "يعطي تفاعلات الارتباط وقتًا كافيًا ومضبوطًا.",
+    [
+     "لماذا `37°C`؟",
+     "بعض المقايسات مُعتمَدة على `37°C` لحركية تفاعل كفوءة وقابلة للتكرار."
+    ],
+    [
+     "`37°C` ليست قاعدة عامّة.",
+     "استعمل الوقت ودرجة الحرارة المضبوطين في العُدّة."
+    ]
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Poor washing → **falsely high OD**; harsh washing / dry wells → **weak signal**."
+   ],
+   "ar": [
+    "غسل ضعيف ← **`OD` مرتفع كاذب**؛ غسل عنيف / حُفَر جافّة ← **إشارة ضعيفة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ],
+   "_ff": 4
+  },
+  {
+   "t": "note",
+   "en": [
+    "`37°C is **not universal** — use the **kit** time and temperature.`"
+   ],
+   "ar": [
+    "`37°C` **ليست قاعدة عامّة** — استعمل وقت **العُدّة** وحرارتها."
+   ],
+   "label": [
+    "In short (continued)",
+    "باختصار (تكملة)"
+   ],
+   "_ff": 4
+  },
+  {
+   "t": "section",
+   "en": "TMB and stop solution",
+   "ar": "`TMB` ومحلول الإيقاف"
+  },
+  {
+   "t": "h2",
+   "en": "**7. TMB & Stop Solution**",
+   "ar": "**7. `TMB` ومحلول الإيقاف**"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Step",
+     "الخطوة"
+    ],
+    [
+     "What happens",
+     "ماذا يحدث"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**1 • Bound enzyme**",
+      "**1 • الإنزيم المرتبط**"
+     ],
+     [
+      "Remains where specific binding occurred.",
+      "يبقى حيث حدث الارتباط النوعي."
+     ]
+    ],
+    [
+     [
+      "**2 • Add TMB**",
+      "**2 • أضف `TMB`**"
+     ],
+     [
+      "HRP converts TMB → blue colour.",
+      "يحوّل `HRP` الـ`TMB` ← لون أزرق."
+     ]
+    ],
+    [
+     [
+      "**3 • Colour develops**",
+      "**3 • يتكوّن اللون**"
+     ],
+     [
+      "More retained enzyme usually → stronger colour.",
+      "إنزيم محتجز أكثر عادةً ← لون أقوى."
+     ]
+    ],
+    [
+     [
+      "**4 • Add stop**",
+      "**4 • أضف محلول الإيقاف**"
+     ],
+     [
+      "Stops reaction; colour commonly becomes yellow.",
+      "يوقف التفاعل؛ ويصبح اللون عادةً أصفر."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    70
+   ],
+   "label_en": "TMB & Stop Solution",
+   "label_ar": "`TMB` ومحلول الإيقاف"
+  },
+  {
+   "t": "card",
+   "en": "Read promptly at the wavelength specified by the kit.",
+   "ar": "اقرأ فورًا عند الطول الموجي الذي تحدّده العُدّة."
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/plate-before-stop.png",
+     "en": "BEFORE STOPE SOLUTION ADDITION",
+     "ar": "قبل إضافة محلول الإيقاف (أزرق)",
+     "h": "40mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/plate-after-stop.png",
+     "en": "AFTER STOP SOLUTION ADDITION",
+     "ar": "بعد إضافة محلول الإيقاف (أصفر)",
+     "h": "40mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"STOPE\" in the first caption = **STOP**."
+   ],
+   "ar": [
+    "\"`STOPE`\" في العنوان الأول = **`STOP`**."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ],
+   "_ff": 5
+  },
+  {
+   "t": "note",
+   "en": [
+    "`With TMB the stopped (yellow) colour is usually read at **450 nm** — but the kit wavelength is the one to use.`"
+   ],
+   "ar": [
+    "مع `TMB` يُقرأ اللون الأصفر بعد الإيقاف عادةً عند **450 نانومتر** — لكن الطول الموجي المعتمد هو ما تذكره العُدّة."
+   ],
+   "label": [
+    "BIOS note (continued)",
+    "ملاحظة BIOS (تكملة)"
+   ],
+   "_ff": 5
+  },
+  {
+   "t": "note",
+   "en": [
+    "HRP + TMB → **blue**; stop solution → **yellow**.",
+    "`Read **promptly** at the **kit wavelength**.`"
+   ],
+   "ar": [
+    "`HRP` + `TMB` ← **أزرق**؛ ومحلول الإيقاف ← **أصفر**.",
+    "اقرأ **فورًا** عند **الطول الموجي للعُدّة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Practical workflow",
+   "ar": "خطوات العمل"
+  },
+  {
+   "t": "h2",
+   "en": "**8. Practical Workflow**",
+   "ar": "**8. خطوات العمل العملية**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Prepare reagents + plate map",
+    "Add samples / standards / controls",
+    "Incubate",
+    "Wash",
+    "Add conjugate",
+    "Incubate + wash",
+    "Add TMB",
+    "Stop → Read OD"
+   ],
+   "list_ar": [
+    "حضّر الكواشف + خريطة الصفيحة",
+    "أضف العيّنات / المحاليل القياسية / الضوابط",
+    "احضن",
+    "اغسل",
+    "أضف المقترن",
+    "احضن + اغسل",
+    "أضف `TMB`",
+    "أوقف ← اقرأ `OD`"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Volumes, timing, washing and sequence are kit-specific.",
+   "ar": "الحجوم والتوقيت والغسل والتسلسل خاصّة بكل عُدّة."
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Samples",
+     "ar": "العيّنات"
+    },
+    {
+     "en": "Wash",
+     "ar": "غسل"
+    },
+    {
+     "en": "Conjugate",
+     "ar": "المقترن"
+    },
+    {
+     "en": "Wash",
+     "ar": "غسل"
+    },
+    {
+     "en": "TMB",
+     "ar": "TMB"
+    },
+    {
+     "en": "Stop → OD",
+     "ar": "إيقاف ← `OD`"
+    }
+   ],
+   "en": "BIOS: the order to remember",
+   "ar": "`BIOS`: الترتيب للحفظ"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Order: plate map → samples → incubate → wash → conjugate → incubate + wash → TMB → stop → read.",
+    "`Everything (volumes, times, washes) is **kit-specific**.`"
+   ],
+   "ar": [
+    "الترتيب: خريطة الصفيحة ← العيّنات ← حضن ← غسل ← المقترن ← حضن + غسل ← `TMB` ← إيقاف ← قراءة.",
+    "كل شيء (الحجوم، الأوقات، الغسلات) **خاصّ بالعُدّة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Reading and interpretation",
+   "ar": "القراءة والتفسير"
+  },
+  {
+   "t": "h2",
+   "en": "**9. Reading & Interpretation**",
+   "ar": "**9. القراءة والتفسير**"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Item",
+     "البند"
+    ],
+    [
+     "What the slide says",
+     "ما تقوله الشريحة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Microplate reader**",
+      "**قارئ الصفائح الدقيقة**"
+     ],
+     [
+      "Measures OD at the kit-specified wavelength. Avoid bubbles and read within the required time.",
+      "يقيس `OD` عند الطول الموجي الذي تحدّده العُدّة. تجنّب الفقاعات واقرأ ضمن الوقت المطلوب."
+     ]
+    ],
+    [
+     [
+      "**Quantitative**",
+      "**الكمّي**"
+     ],
+     [
+      "Standards → standard curve → convert sample OD to concentration.",
+      "المحاليل القياسية ← المنحنى القياسي ← تحويل `OD` العيّنة إلى تركيز."
+     ]
+    ],
+    [
+     [
+      "**Qualitative**",
+      "**النوعي**"
+     ],
+     [
+      "Validate controls → calculate cut-off/S/CO → classify positive or negative.",
+      "تحقّق من الضوابط ← احسب الحدّ الفاصل/`S/CO` ← صنّف موجبًا أو سالبًا."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    28,
+    72
+   ],
+   "label_en": "Reading & Interpretation",
+   "label_ar": "القراءة والتفسير"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Reader measures **OD** at the kit wavelength — no bubbles, read on time.",
+    "`Quantitative → **standard curve → concentration**; qualitative → **controls → cut-off/S/CO → +/−**.`"
+   ],
+   "ar": [
+    "القارئ يقيس **`OD`** عند طول موجة العُدّة — بلا فقاعات، وفي الوقت.",
+    "الكمّي ← **منحنى قياسي ← تركيز**؛ والنوعي ← **ضوابط ← حدّ فاصل/`S/CO` ← +/−**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Common Errors + Quick Checklist",
+   "ar": "الأخطاء الشائعة + قائمة تحقّق سريعة"
+  },
+  {
+   "t": "card",
+   "en": "**COMMON ERRORS**",
+   "ar": "**الأخطاء الشائعة**",
+   "list_en": [
+    "Wrong pipetting → wrong OD"
+   ],
+   "list_ar": [
+    "سحب خاطئ بالماصّة ← `OD` خاطئ"
+   ],
+   "_ff": 6
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Poor washing → high background",
+    "Unequal incubation → variability",
+    "Wrong temperature → altered kinetics",
+    "Wells dry → irregular signal",
+    "Delay after stop → unreliable reading"
+   ],
+   "list_ar": [
+    "غسل ضعيف ← خلفية عالية",
+    "حضن غير متساوٍ ← تباين في النتائج",
+    "حرارة خاطئة ← حركية تفاعل متغيّرة",
+    "جفاف الحُفَر ← إشارة غير منتظمة",
+    "تأخير بعد الإيقاف ← قراءة غير موثوقة"
+   ],
+   "start": 2,
+   "_ff": 6
+  },
+  {
+   "t": "card",
+   "en": "**BEFORE STARTING** ✓",
+   "ar": "**قبل البدء** ✓",
+   "list_en": [
+    "Qualitative or quantitative?",
+    "Read kit IFU + plate map",
+    "Prepare reagents correctly",
+    "Label wells",
+    "Set time + temperature",
+    "Prepare wash buffer + reader",
+    "Never mix instructions from different kits"
+   ],
+   "list_ar": [
+    "نوعي أم كمّي؟",
+    "اقرأ تعليمات العُدّة (`IFU`) + خريطة الصفيحة",
+    "حضّر الكواشف بصورة صحيحة",
+    "رقّم الحُفَر",
+    "اضبط الوقت + الحرارة",
+    "حضّر دارئ الغسل + القارئ",
+    "لا تخلط أبدًا تعليمات عُدد مختلفة"
+   ],
+   "start": 1
+  },
+  {
+   "t": "note",
+   "en": [
+    "Errors: pipetting → wrong OD; washing → background; drying → irregular; late reading → unreliable.",
+    "`**Never mix** instructions from different kits.`"
+   ],
+   "ar": [
+    "الأخطاء: الماصّة ← `OD` خاطئ؛ الغسل ← خلفية؛ الجفاف ← عدم انتظام؛ القراءة المتأخّرة ← غير موثوقة.",
+    "**لا تخلط أبدًا** تعليمات عُدد مختلفة."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Take-home message",
+   "ar": "الرسالة الختامية"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Item",
+     "البند"
+    ],
+    [
+     "What the slide says",
+     "ما تقوله الشريحة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Plate map**",
+      "**خريطة الصفيحة**"
+     ],
+     [
+      "Standards for quantitative assays; controls for many qualitative assays.",
+      "محاليل قياسية للمقايسات الكمّية؛ وضوابط لكثير من المقايسات النوعية."
+     ]
+    ],
+    [
+     [
+      "**Reagents**",
+      "**الكواشف**"
+     ],
+     [
+      "Each reagent has a specific job.",
+      "لكل كاشف وظيفة محدّدة."
+     ]
+    ],
+    [
+     [
+      "**Technique**",
+      "**التقنية**"
+     ],
+     [
+      "Accurate pipetting, washing and incubation protect result quality.",
+      "السحب الدقيق بالماصّة والغسل والحضن تحمي جودة النتيجة."
+     ]
+    ],
+    [
+     [
+      "**Interpretation**",
+      "**التفسير**"
+     ],
+     [
+      "Quantitative → concentration. Qualitative → positive/negative.",
+      "الكمّي ← تركيز. النوعي ← موجب/سالب."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    26,
+    74
+   ],
+   "label_en": "Take-Home Message",
+   "label_ar": "الرسالة الختامية"
+  },
+  {
+   "t": "card",
+   "en": "The kit IFU is the final authority for volumes, time, temperature, cut-off and plate layout.",
+   "ar": "تعليمات استعمال العُدّة (`IFU`) هي المرجع الأخير للحجوم والوقت والحرارة والحدّ الفاصل وترتيب الصفيحة."
+  },
+  {
+   "t": "note",
+   "en": [
+    "The **kit IFU** is the final authority."
+   ],
+   "ar": [
+    "**تعليمات العُدّة (`IFU`)** هي المرجع الأخير."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**ELISA**",
+     "المقايسة المناعية الممتزّة المرتبطة بالإنزيم / الإليزا"
+    ],
+    [
+     "**Immunoassay**",
+     "مقايسة مناعية / فحص مناعي"
+    ],
+    [
+     "**Microplate (96-well)**",
+     "صفيحة دقيقة / طبق 96 حفرة"
+    ],
+    [
+     "**Optical density (OD)**",
+     "الكثافة الضوئية / الامتصاصية"
+    ],
+    [
+     "**Conjugate**",
+     "المقترن / الضدّ المقترن بالإنزيم"
+    ],
+    [
+     "**Substrate (TMB)**",
+     "الركيزة / المادّة الأساس"
+    ],
+    [
+     "**Stop solution**",
+     "محلول الإيقاف / المحلول الموقف"
+    ],
+    [
+     "**Wash buffer**",
+     "دارئ الغسل / محلول الغسل"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 7
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Standard**",
+     "محلول قياسي / معيار"
+    ],
+    [
+     "**Standard curve**",
+     "المنحنى القياسي / منحنى المعايرة"
+    ],
+    [
+     "**Positive / negative control**",
+     "ضابط موجب / سالب — عيّنة سيطرة"
+    ],
+    [
+     "**Cut-off (S/CO)**",
+     "الحدّ الفاصل / القيمة الحدّية"
+    ],
+    [
+     "**Capture antibody**",
+     "الضدّ الملتقِط / ضدّ الاقتناص"
+    ],
+    [
+     "**Detection antibody**",
+     "ضدّ الكشف / الضدّ الكاشف"
+    ],
+    [
+     "**Primary / secondary antibody**",
+     "الضدّ الأوّلي / الثانوي"
+    ],
+    [
+     "**Analyte**",
+     "المادّة المقيسة / المادّة المحلَّلة"
+    ],
+    [
+     "**Incubation**",
+     "الحضن / التحضين"
+    ],
+    [
+     "**Kit IFU**",
+     "تعليمات استعمال العُدّة / النشرة"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 7
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Basics",
+    "topic_ar": "الأساسيات"
+   },
+   {
+    "en": "ELISA stands for:",
+    "ar": "`ELISA` اختصار لـ:",
+    "options": [
+     [
+      "Enzyme-Linked Immunosorbent Assay",
+      "المقايسة المناعية الممتزّة المرتبطة بالإنزيم"
+     ],
+     [
+      "Electro-Linked Immune Serum Assay",
+      "مقايسة المصل المناعي المرتبط كهربائيًا"
+     ],
+     [
+      "Enzyme-Labelled Immune Separation Analysis",
+      "تحليل الفصل المناعي الموسوم بالإنزيم"
+     ],
+     [
+      "Enzyme-Linked Ion Selective Assay",
+      "مقايسة انتقائية للأيونات مرتبطة بالإنزيم"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The solid phase in ELISA is usually:",
+    "ar": "الطور الصلب في الإليزا عادةً:",
+    "options": [
+     [
+      "Agarose gel",
+      "هلام الآغاروز"
+     ],
+     [
+      "A 96-well microplate",
+      "صفيحة دقيقة من 96 حفرة"
+     ],
+     [
+      "A glass slide",
+      "شريحة زجاجية"
+     ],
+     [
+      "Filter paper",
+      "ورق ترشيح"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The ELISA readout is colour intensity measured as:",
+    "ar": "قراءة الإليزا هي شدّة اللون مقيسةً بـ:",
+    "options": [
+     [
+      "pH",
+      "الأس الهيدروجيني"
+     ],
+     [
+      "Radioactivity",
+      "النشاط الإشعاعي"
+     ],
+     [
+      "Weight",
+      "الوزن"
+     ],
+     [
+      "Optical density (OD)",
+      "الكثافة الضوئية (`OD`)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In ELISA, the conjugate provides:",
+    "ar": "في الإليزا يوفّر المقترن:",
+    "options": [
+     [
+      "The solid phase",
+      "الطور الصلب"
+     ],
+     [
+      "The wash buffer",
+      "دارئ الغسل"
+     ],
+     [
+      "An enzyme label",
+      "وسمًا إنزيميًا"
+     ],
+     [
+      "The standard curve",
+      "المنحنى القياسي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "More bound enzyme usually leads to:",
+    "ar": "الإنزيم المرتبط الأكثر يؤدّي عادةً إلى:",
+    "options": [
+     [
+      "A weaker signal always",
+      "إشارة أضعف دائمًا"
+     ],
+     [
+      "No colour",
+      "عدم ظهور لون"
+     ],
+     [
+      "A stronger measurable signal",
+      "إشارة قابلة للقياس أقوى"
+     ],
+     [
+      "Dry wells",
+      "جفاف الحُفَر"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Qualitative / quantitative and plate maps",
+    "topic_ar": "النوعي / الكمّي وخريطة الصفيحة"
+   },
+   {
+    "en": "The final result of a qualitative ELISA is:",
+    "ar": "النتيجة النهائية للإليزا النوعي:",
+    "options": [
+     [
+      "A concentration",
+      "تركيز"
+     ],
+     [
+      "pg/mL",
+      "`pg/mL`"
+     ],
+     [
+      "A standard curve",
+      "منحنى قياسي"
+     ],
+     [
+      "Positive / negative",
+      "موجب / سالب"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A quantitative ELISA calculates sample concentration from:",
+    "ar": "يحسب الإليزا الكمّي تركيز العيّنة من:",
+    "options": [
+     [
+      "The negative control only",
+      "الضابط السالب فقط"
+     ],
+     [
+      "Standards → standard curve",
+      "المحاليل القياسية ← المنحنى القياسي"
+     ],
+     [
+      "The cut-off",
+      "الحدّ الفاصل"
+     ],
+     [
+      "The colour of the stop solution",
+      "لون محلول الإيقاف"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which is an example unit of a quantitative ELISA?",
+    "ar": "أيّ مما يلي مثال لوحدة الإليزا الكمّي؟",
+    "options": [
+     [
+      "ng/mL",
+      "`ng/mL`"
+     ],
+     [
+      "Reactive",
+      "متفاعل"
+     ],
+     [
+      "S/CO",
+      "`S/CO`"
+     ],
+     [
+      "Positive",
+      "موجب"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "A qualitative ELISA usually uses:",
+    "ar": "يستعمل الإليزا النوعي عادةً:",
+    "options": [
+     [
+      "Only standards",
+      "محاليل قياسية فقط"
+     ],
+     [
+      "Positive + negative controls and a kit-defined cut-off or S/CO",
+      "ضوابط موجبة + سالبة وحدًّا فاصلًا أو `S/CO` تحدّده العُدّة"
+     ],
+     [
+      "No controls",
+      "بلا ضوابط"
+     ],
+     [
+      "A radioactive label",
+      "وسمًا مشعًّا"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "On the quantitative plate, the green wells are:",
+    "ar": "في صفيحة الكمّي، الحُفَر الخضراء هي:",
+    "options": [
+     [
+      "First/high standard",
+      "المحلول القياسي الأول/العالي"
+     ],
+     [
+      "Positive control",
+      "الضابط الموجب"
+     ],
+     [
+      "Low/zero standard or blank — per kit",
+      "محلول قياسي منخفض/صفر أو بلانك — حسب العُدّة"
+     ],
+     [
+      "Patient samples",
+      "عيّنات المرضى"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The negative control:",
+    "ar": "الضابط السالب:",
+    "options": [
+     [
+      "Gives the concentration",
+      "يعطي التركيز"
+     ],
+     [
+      "Stops the reaction",
+      "يوقف التفاعل"
+     ],
+     [
+      "Converts TMB to blue",
+      "يحوّل `TMB` إلى الأزرق"
+     ],
+     [
+      "Shows baseline/non-reactive response and helps validate the run",
+      "يُظهر الاستجابة الأساسية/غير المتفاعلة ويساعد على التحقّق من التشغيلة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Types of ELISA",
+    "topic_ar": "أنواع الإليزا"
+   },
+   {
+    "en": "In direct ELISA:",
+    "ar": "في الإليزا المباشر:",
+    "options": [
+     [
+      "A labeled primary antibody binds directly to the antigen",
+      "يرتبط ضدّ أوّلي موسوم مباشرةً بالمستضدّ"
+     ],
+     [
+      "The antigen is captured between two antibodies",
+      "يُلتقَط المستضدّ بين ضدّين"
+     ],
+     [
+      "The analyte competes",
+      "تتنافس المادّة المقيسة"
+     ],
+     [
+      "A secondary antibody detects the primary",
+      "يكشف ضدّ ثانوي عن الأوّلي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Direct ELISA is simple and fast because:",
+    "ar": "الإليزا المباشر بسيط وسريع لأن:",
+    "options": [
+     [
+      "It is read without a reader",
+      "يُقرأ بدون قارئ"
+     ],
+     [
+      "It uses two antibodies",
+      "يستعمل ضدّين"
+     ],
+     [
+      "It needs no substrate",
+      "لا يحتاج ركيزة"
+     ],
+     [
+      "Fewer binding steps are required",
+      "خطوات الارتباط المطلوبة أقلّ"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The main use of indirect ELISA is detection of:",
+    "ar": "الاستعمال الرئيسي للإليزا غير المباشر هو الكشف عن:",
+    "options": [
+     [
+      "Antibodies such as IgM or IgG",
+      "أضداد مثل `IgM` أو `IgG`"
+     ],
+     [
+      "Small molecules only",
+      "الجزيئات الصغيرة فقط"
+     ],
+     [
+      "Cytokines only",
+      "السيتوكينات فقط"
+     ],
+     [
+      "Enzymes",
+      "الإنزيمات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In indirect ELISA the primary antibody is:",
+    "ar": "في الإليزا غير المباشر يكون الضدّ الأوّلي:",
+    "options": [
+     [
+      "Enzyme-labeled",
+      "موسومًا بالإنزيم"
+     ],
+     [
+      "Unlabeled",
+      "غير موسوم"
+     ],
+     [
+      "Fixed to the well as capture antibody",
+      "مثبّتًا في الحفرة كضدّ ملتقِط"
+     ],
+     [
+      "Absent",
+      "غير موجود"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Indirect ELISA offers greater flexibility because:",
+    "ar": "يوفّر الإليزا غير المباشر مرونة أكبر لأن:",
+    "options": [
+     [
+      "It has no washing",
+      "لا يحتاج غسلًا"
+     ],
+     [
+      "It is read at 37°C",
+      "يُقرأ عند `37°C`"
+     ],
+     [
+      "One set of secondary antibodies can detect multiple primary antibodies",
+      "مجموعة واحدة من الأضداد الثانوية تكشف أضدادًا أوّلية متعدّدة"
+     ],
+     [
+      "It uses labeled antigen",
+      "يستعمل مستضدًّا موسومًا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In sandwich ELISA the antigen is:",
+    "ar": "في الإليزا الساندويتش يكون المستضدّ:",
+    "options": [
+     [
+      "Coated directly on the well",
+      "مغلَّفًا مباشرةً على الحفرة"
+     ],
+     [
+      "Captured between two antibodies",
+      "ملتقَطًا بين ضدّين"
+     ],
+     [
+      "Labeled with the enzyme",
+      "موسومًا بالإنزيم"
+     ],
+     [
+      "Removed by washing",
+      "مُزالًا بالغسل"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Sandwich ELISA has high specificity because:",
+    "ar": "الإليزا الساندويتش عالي النوعية لأن:",
+    "options": [
+     [
+      "Two antibodies recognize the target",
+      "ضدّين يتعرّفان على الهدف"
+     ],
+     [
+      "It uses one antibody",
+      "يستعمل ضدًّا واحدًا"
+     ],
+     [
+      "It has no enzyme",
+      "بلا إنزيم"
+     ],
+     [
+      "It uses radioactivity",
+      "يستعمل الإشعاع"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In many competitive assays, more analyte gives:",
+    "ar": "في كثير من المقايسات التنافسية، المادّة المقيسة الأكثر تعطي:",
+    "options": [
+     [
+      "More colour",
+      "لونًا أكثر"
+     ],
+     [
+      "The same colour",
+      "اللون نفسه"
+     ],
+     [
+      "Less colour",
+      "لونًا أقلّ"
+     ],
+     [
+      "A blue colour after stop",
+      "لونًا أزرق بعد الإيقاف"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In competitive ELISA, a high target concentration in the sample results in:",
+    "ar": "في الإليزا التنافسي، التركيز العالي للهدف في العيّنة يعطي:",
+    "options": [
+     [
+      "Stronger signals",
+      "إشارات أقوى"
+     ],
+     [
+      "No competition",
+      "لا تنافس"
+     ],
+     [
+      "More labeled antigen bound",
+      "ارتباط مستضدّ موسوم أكثر"
+     ],
+     [
+      "Weaker signals",
+      "إشارات أضعف"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Reagents and steps",
+    "topic_ar": "الكواشف والخطوات"
+   },
+   {
+    "en": "The wash buffer:",
+    "ar": "دارئ الغسل:",
+    "options": [
+     [
+      "Captures the target",
+      "يلتقط الهدف"
+     ],
+     [
+      "Provides the enzyme label",
+      "يوفّر الوسم الإنزيمي"
+     ],
+     [
+      "Stops colour development",
+      "يوقف تكوّن اللون"
+     ],
+     [
+      "Removes unbound/non-specific material",
+      "يزيل المواد غير المرتبطة/غير النوعية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "HRP converts TMB to a:",
+    "ar": "يحوّل `HRP` الـ`TMB` إلى لون:",
+    "options": [
+     [
+      "Yellow colour",
+      "أصفر"
+     ],
+     [
+      "Red colour",
+      "أحمر"
+     ],
+     [
+      "Blue colour",
+      "أزرق"
+     ],
+     [
+      "Green colour",
+      "أخضر"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "After adding the stop solution the colour commonly becomes:",
+    "ar": "بعد إضافة محلول الإيقاف يصبح اللون عادةً:",
+    "options": [
+     [
+      "Yellow",
+      "أصفر"
+     ],
+     [
+      "Colourless",
+      "عديم اللون"
+     ],
+     [
+      "Blue",
+      "أزرق"
+     ],
+     [
+      "Purple",
+      "بنفسجي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Poor washing gives:",
+    "ar": "الغسل الضعيف يعطي:",
+    "options": [
+     [
+      "Weak signal",
+      "إشارة ضعيفة"
+     ],
+     [
+      "High background / falsely high OD",
+      "خلفية عالية / `OD` مرتفعًا كاذبًا"
+     ],
+     [
+      "Lower background",
+      "خلفية أقلّ"
+     ],
+     [
+      "Dry wells",
+      "حُفَرًا جافّة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "About incubation at 37°C, the lecture says:",
+    "ar": "عن الحضن عند `37°C` تقول المحاضرة:",
+    "options": [
+     [
+      "Incubation is not needed",
+      "الحضن غير ضروري"
+     ],
+     [
+      "All ELISAs must be at 37°C",
+      "كل الإليزا يجب أن تكون عند `37°C`"
+     ],
+     [
+      "37°C is NOT universal; use the exact kit time and temperature",
+      "`37°C` ليست قاعدة عامّة؛ استعمل وقت العُدّة وحرارتها"
+     ],
+     [
+      "Always incubate at room temperature",
+      "احضن دائمًا بحرارة الغرفة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The step just before \"Stop → Read OD\" in the practical workflow is:",
+    "ar": "الخطوة التي تسبق «أوقف ← اقرأ `OD`» مباشرةً في خطوات العمل:",
+    "options": [
+     [
+      "Add TMB",
+      "أضف `TMB`"
+     ],
+     [
+      "Add conjugate",
+      "أضف المقترن"
+     ],
+     [
+      "Wash",
+      "اغسل"
+     ],
+     [
+      "Add samples",
+      "أضف العيّنات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Delay after adding the stop solution causes:",
+    "ar": "التأخير بعد إضافة محلول الإيقاف يسبّب:",
+    "options": [
+     [
+      "Wrong OD from pipetting",
+      "`OD` خاطئًا بسبب الماصّة"
+     ],
+     [
+      "Unreliable reading",
+      "قراءة غير موثوقة"
+     ],
+     [
+      "Altered kinetics",
+      "حركية متغيّرة"
+     ],
+     [
+      "High background",
+      "خلفية عالية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The final authority for volumes, time, temperature, cut-off and plate layout is:",
+    "ar": "المرجع الأخير للحجوم والوقت والحرارة والحدّ الفاصل وترتيب الصفيحة هو:",
+    "options": [
+     [
+      "The microplate reader",
+      "قارئ الصفائح"
+     ],
+     [
+      "The previous kit",
+      "العُدّة السابقة"
+     ],
+     [
+      "The standard curve",
+      "المنحنى القياسي"
+     ],
+     [
+      "The kit IFU",
+      "تعليمات استعمال العُدّة (`IFU`)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "This instrument measures OD at the kit wavelength. It is a:",
+    "ar": "هذا الجهاز يقيس `OD` عند طول موجة العُدّة. إنه:",
+    "options": [
+     [
+      "Microplate washer",
+      "غاسلة الصفائح"
+     ],
+     [
+      "Microplate reader",
+      "قارئ الصفائح الدقيقة"
+     ],
+     [
+      "Incubator",
+      "حاضنة"
+     ],
+     [
+      "Centrifuge",
+      "جهاز طرد مركزي"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/microplate-reader.png",
+    "img_h": "32mm"
+   },
+   {
+    "en": "The blue colour in this plate means:",
+    "ar": "اللون الأزرق في هذه الصفيحة يعني:",
+    "options": [
+     [
+      "The stop solution was added",
+      "أُضيف محلول الإيقاف"
+     ],
+     [
+      "The wells are dry",
+      "الحُفَر جافّة"
+     ],
+     [
+      "HRP converted TMB before the stop solution",
+      "حوّل `HRP` الـ`TMB` قبل محلول الإيقاف"
+     ],
+     [
+      "Poor washing",
+      "غسل ضعيف"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/plate-before-stop.png",
+    "img_h": "32mm"
+   },
+   {
+    "en": "This plate is yellow because:",
+    "ar": "هذه الصفيحة صفراء لأن:",
+    "options": [
+     [
+      "The stop solution was added",
+      "أُضيف محلول الإيقاف"
+     ],
+     [
+      "The plate is empty",
+      "الصفيحة فارغة"
+     ],
+     [
+      "TMB was not added",
+      "لم يُضف `TMB`"
+     ],
+     [
+      "It is a standard curve",
+      "إنه منحنى قياسي"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/plate-after-stop.png",
+    "img_h": "32mm"
+   },
+   {
+    "en": "In this diagram, the green antibody fixed to the well in the sandwich type is the:",
+    "ar": "في هذا المخطّط، الضدّ الأخضر المثبّت في الحفرة في نوع الساندويتش هو:",
+    "options": [
+     [
+      "Secondary antibody conjugate",
+      "مقترن الضدّ الثانوي"
+     ],
+     [
+      "Inhibitor antigen",
+      "المستضدّ المثبِّط"
+     ],
+     [
+      "Enzyme",
+      "الإنزيم"
+     ],
+     [
+      "Capture antibody",
+      "الضدّ الملتقِط"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/elisa-types.png",
+    "img_h": "38mm"
+   },
+   {
+    "en": "On this qualitative plate, well A1 (red) is the:",
+    "ar": "في صفيحة النوعي هذه، الحفرة `A1` (الحمراء) هي:",
+    "options": [
+     [
+      "Positive control",
+      "الضابط الموجب"
+     ],
+     [
+      "Negative control",
+      "الضابط السالب"
+     ],
+     [
+      "Blank",
+      "البلانك"
+     ],
+     [
+      "Highest standard",
+      "أعلى محلول قياسي"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/plate-qualitative.png",
+    "img_h": "34mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "ELISA can detect or quantify a specific antigen or antibody.",
+    "ar": "يمكن للإليزا الكشف عن مستضدّ أو ضدّ نوعي أو قياس كمّيته.",
+    "answer": "T"
+   },
+   {
+    "en": "A qualitative ELISA gives an exact concentration.",
+    "ar": "يعطي الإليزا النوعي تركيزًا دقيقًا.",
+    "answer": "F"
+   },
+   {
+    "en": "A kit must always contain both standards and positive/negative controls.",
+    "ar": "يجب أن تحتوي العُدّة دائمًا على المحاليل القياسية والضوابط الموجبة/السالبة معًا.",
+    "answer": "F"
+   },
+   {
+    "en": "Quantitative ELISA uses a standard curve.",
+    "ar": "يستعمل الإليزا الكمّي منحنى قياسيًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Direct ELISA uses an enzyme-labeled secondary antibody.",
+    "ar": "يستعمل الإليزا المباشر ضدًّا ثانويًا موسومًا بالإنزيم.",
+    "answer": "F"
+   },
+   {
+    "en": "Indirect ELISA is commonly used when the antibody in the sample is the target.",
+    "ar": "يُستعمل الإليزا غير المباشر عادةً عندما يكون الضدّ في العيّنة هو الهدف.",
+    "answer": "T"
+   },
+   {
+    "en": "In sandwich ELISA, the detection antibody binds to another site on the antigen.",
+    "ar": "في الإليزا الساندويتش يرتبط ضدّ الكشف بموقع آخر على المستضدّ.",
+    "answer": "T"
+   },
+   {
+    "en": "In competitive ELISA, higher target concentration gives stronger signals.",
+    "ar": "في الإليزا التنافسي، التركيز الأعلى للهدف يعطي إشارات أقوى.",
+    "answer": "F"
+   },
+   {
+    "en": "Stop solution stops colour development at the endpoint.",
+    "ar": "يوقف محلول الإيقاف تكوّن اللون عند نقطة النهاية.",
+    "answer": "T"
+   },
+   {
+    "en": "Harsh washing or dried wells give a weak or inconsistent signal.",
+    "ar": "الغسل العنيف أو جفاف الحُفَر يعطيان إشارة ضعيفة أو غير منتظمة.",
+    "answer": "T"
+   },
+   {
+    "en": "37°C is the universal incubation temperature for every ELISA.",
+    "ar": "`37°C` هي درجة حرارة الحضن العامّة لكل الإليزا.",
+    "answer": "F"
+   },
+   {
+    "en": "TMB turns blue with HRP and commonly yellow after the stop solution.",
+    "ar": "يتحوّل `TMB` إلى الأزرق مع `HRP` وعادةً إلى الأصفر بعد محلول الإيقاف.",
+    "answer": "T"
+   },
+   {
+    "en": "Instructions from different kits can be mixed.",
+    "ar": "يمكن خلط تعليمات عُدد مختلفة.",
+    "answer": "F"
+   },
+   {
+    "en": "Bubbles in the wells should be avoided before reading.",
+    "ar": "يجب تجنّب الفقاعات في الحُفَر قبل القراءة.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Qualitative vs quantitative",
+    "ar": "النوعي مقابل الكمّي",
+    "answer_en": "Qualitative → positive/negative with controls + cut-off (S/CO). Quantitative → concentration with standards + standard curve.",
+    "answer_ar": "النوعي ← موجب/سالب بالضوابط + الحدّ الفاصل (`S/CO`). والكمّي ← تركيز بالمحاليل القياسية + المنحنى القياسي."
+   },
+   {
+    "en": "Direct vs indirect",
+    "ar": "المباشر مقابل غير المباشر",
+    "answer_en": "Direct: the primary antibody itself is enzyme-labeled (detects antigens). Indirect: primary unlabeled + labeled secondary (detects antibodies, IgM/IgG).",
+    "answer_ar": "المباشر: الضدّ الأوّلي نفسه موسوم بالإنزيم (يكشف المستضدّات). وغير المباشر: أوّلي غير موسوم + ثانوي موسوم (يكشف الأضداد `IgM`/`IgG`)."
+   },
+   {
+    "en": "Competitive is inverse",
+    "ar": "التنافسي علاقة عكسية",
+    "answer_en": "In competitive ELISA more target → less colour; in direct, indirect and sandwich more target → more colour.",
+    "answer_ar": "في التنافسي هدف أكثر ← لون أقلّ؛ وفي المباشر وغير المباشر والساندويتش هدف أكثر ← لون أكثر."
+   },
+   {
+    "en": "Blue or yellow?",
+    "ar": "أزرق أم أصفر؟",
+    "answer_en": "HRP + TMB → blue while the reaction runs; after the stop solution → yellow, read promptly at the kit wavelength.",
+    "answer_ar": "`HRP` + `TMB` ← أزرق أثناء التفاعل؛ وبعد محلول الإيقاف ← أصفر، ويُقرأ فورًا عند طول موجة العُدّة."
+   },
+   {
+    "en": "Poor vs harsh washing",
+    "ar": "الغسل الضعيف مقابل العنيف",
+    "answer_en": "Poor washing → high background / falsely HIGH OD. Harsh washing or dry wells → WEAK or inconsistent signal.",
+    "answer_ar": "الغسل الضعيف ← خلفية عالية / `OD` مرتفع كاذب. والغسل العنيف أو جفاف الحُفَر ← إشارة ضعيفة أو غير منتظمة."
+   },
+   {
+    "en": "37°C is not a rule",
+    "ar": "`37°C` ليست قاعدة",
+    "answer_en": "Some assays are validated at 37°C, but 37°C is NOT universal — the kit IFU decides time and temperature.",
+    "answer_ar": "بعض المقايسات مُعتمَدة على `37°C`، لكنها ليست قاعدة عامّة — تعليمات العُدّة تحدّد الوقت والحرارة."
+   },
+   {
+    "en": "Standards vs controls",
+    "ar": "المحاليل القياسية مقابل الضوابط",
+    "answer_en": "Standards (known concentrations) are for quantitative assays; positive/negative controls are for many qualitative assays — a kit need not have both.",
+    "answer_ar": "المحاليل القياسية (تراكيز معلومة) للمقايسات الكمّية؛ والضوابط الموجبة/السالبة لكثير من المقايسات النوعية — وليس شرطًا أن تحتوي العُدّة الاثنين."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define ELISA and give its four basic components.",
+    "ar": "عرّف الإليزا واذكر مكوّناته الأساسية الأربعة.",
+    "answer_en": "A plate-based immunoassay to detect or quantify a specific antigen or antibody using specific immune binding and an enzyme-generated measurable signal. Solid phase: 96-well microplate; recognition: antigen–antibody interaction; detection: enzyme-linked system; readout: colour intensity as OD.",
+    "answer_ar": "مقايسة مناعية في صفيحة للكشف عن مستضدّ أو ضدّ نوعي أو قياسه، باستعمال ارتباط مناعي نوعي وإشارة يولّدها إنزيم. الطور الصلب: صفيحة 96 حفرة؛ التعرّف: تفاعل مستضدّ–ضدّ؛ الكشف: نظام مرتبط بإنزيم؛ القراءة: شدّة اللون كـ`OD`."
+   },
+   {
+    "en": "Compare qualitative and quantitative ELISA.",
+    "ar": "قارن بين الإليزا النوعي والكمّي.",
+    "answer_en": "Qualitative: result positive/negative (reactive/non-reactive), uses positive + negative controls and a kit cut-off or S/CO, no exact concentration. Quantitative: result is a concentration, uses standards of known concentration → standard curve → sample concentration (pg/mL, ng/mL, IU/mL).",
+    "answer_ar": "النوعي: النتيجة موجب/سالب (متفاعل/غير متفاعل)، يستعمل ضوابط موجبة + سالبة وحدًّا فاصلًا أو `S/CO`، بلا تركيز دقيق. والكمّي: النتيجة تركيز، يستعمل محاليل قياسية معلومة التركيز ← منحنى قياسي ← تركيز العيّنة (`pg/mL`، `ng/mL`، `IU/mL`)."
+   },
+   {
+    "en": "List the four types of ELISA with the main use of each.",
+    "ar": "عدّد أنواع الإليزا الأربعة مع الاستعمال الرئيسي لكل منها.",
+    "answer_en": "Direct: labeled primary antibody on the antigen — detection of antigens. Indirect: primary + enzyme-labeled secondary — detection of antibodies (IgM, IgG). Sandwich: antigen between capture and detection antibodies — antigens, proteins, cytokines, biomarkers. Competitive: analyte competes for binding sites — small molecules, hormones, antigens or antibodies.",
+    "answer_ar": "المباشر: ضدّ أوّلي موسوم على المستضدّ — كشف المستضدّات. غير المباشر: أوّلي + ثانوي موسوم — كشف الأضداد (`IgM`، `IgG`). الساندويتش: المستضدّ بين ضدّ ملتقِط وضدّ كشف — مستضدّات وبروتينات وسيتوكينات وواسمات حيوية. التنافسي: المادّة المقيسة تتنافس على مواقع الارتباط — جزيئات صغيرة وهرمونات ومستضدّات أو أضداد."
+   },
+   {
+    "en": "Explain the principle of competitive ELISA and why the signal is inverse.",
+    "ar": "اشرح مبدأ الإليزا التنافسي ولماذا الإشارة عكسية.",
+    "answer_en": "The plate is coated with capture antibody; unlabeled sample antigen and labeled antigen are added together and compete for a fixed amount of antibody. More target in the sample occupies more sites, leaving fewer for the labeled antigen, so fewer enzymes stay bound → weaker signal. This inverse relationship allows quantification.",
+    "answer_ar": "تُغلَّف الصفيحة بضدّ ملتقِط؛ ويُضاف مستضدّ العيّنة غير الموسوم والمستضدّ الموسوم معًا فيتنافسان على كمّية ثابتة من الضدّ. الهدف الأكثر في العيّنة يشغل مواقع أكثر ويترك أقلّ للمستضدّ الموسوم، فيبقى إنزيم أقلّ مرتبطًا ← إشارة أضعف. وهذه العلاقة العكسية تسمح بالقياس الكمّي."
+   },
+   {
+    "en": "What is the job of each ELISA reagent?",
+    "ar": "ما وظيفة كل كاشف في الإليزا؟",
+    "answer_en": "Coated well: captures the target. Sample/standard/control: unknown target, known concentration or validation. Sample diluent: correct dilution and conditions. Enzyme conjugate: enzyme label for the signal. Wash buffer: removes unbound/non-specific material. TMB: converted to colour by the enzyme. Stop solution: stops colour development at the endpoint.",
+    "answer_ar": "الحفرة المغلّفة: تلتقط الهدف. العيّنة/المحلول القياسي/الضابط: هدف مجهول، تركيز معلوم، أو تحقّق. مخفّف العيّنة: تخفيف وظروف صحيحة. المقترن الإنزيمي: وسم إنزيمي للإشارة. دارئ الغسل: يزيل غير المرتبط/غير النوعي. `TMB`: يحوّله الإنزيم إلى لون. محلول الإيقاف: يوقف تكوّن اللون عند نقطة النهاية."
+   },
+   {
+    "en": "Give the practical workflow of ELISA in order.",
+    "ar": "اذكر خطوات العمل العملية للإليزا بالترتيب.",
+    "answer_en": "Prepare reagents + plate map → add samples/standards/controls → incubate → wash → add conjugate → incubate + wash → add TMB → stop → read OD. Volumes, timing, washing and sequence are kit-specific.",
+    "answer_ar": "حضّر الكواشف + خريطة الصفيحة ← أضف العيّنات/المحاليل القياسية/الضوابط ← احضن ← اغسل ← أضف المقترن ← احضن + اغسل ← أضف `TMB` ← أوقف ← اقرأ `OD`. والحجوم والتوقيت والغسل والتسلسل خاصّة بالعُدّة."
+   },
+   {
+    "en": "List the common ELISA errors and their effects.",
+    "ar": "عدّد الأخطاء الشائعة في الإليزا وتأثيراتها.",
+    "answer_en": "Wrong pipetting → wrong OD; poor washing → high background; unequal incubation → variability; wrong temperature → altered kinetics; wells dry → irregular signal; delay after stop → unreliable reading.",
+    "answer_ar": "سحب خاطئ بالماصّة ← `OD` خاطئ؛ غسل ضعيف ← خلفية عالية؛ حضن غير متساوٍ ← تباين؛ حرارة خاطئة ← حركية متغيّرة؛ جفاف الحُفَر ← إشارة غير منتظمة؛ تأخير بعد الإيقاف ← قراءة غير موثوقة."
+   }
+  ]
+ }
+}
