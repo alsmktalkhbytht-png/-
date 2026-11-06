@@ -1,0 +1,2467 @@
+{
+ "meta": {
+  "subject_en": "Advanced Techniques (Practical)",
+  "subject_ar": "التقنيات المتقدمة العملي",
+  "short_ar": "تقنيات متقدمة",
+  "instructor": "ليندا منجد هادي",
+  "unit_en": "Lab 2",
+  "unit_ar": "العملي 2",
+  "unit_label": "LAB",
+  "unit_no": "2",
+  "title_en": "Immunochromatographic Assays — Lateral Flow Immunoassays (LFIA)",
+  "title_ar": "المقايسات الكروماتوغرافية المناعية — فحوص التدفّق الجانبي",
+  "department": "قسم التحليلات",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "What is immunochromatography?",
+   "ar": "ما هو الكروماتوغرافيا المناعية؟"
+  },
+  {
+   "t": "note",
+   "en": "Immunochromatographic Assays · Lateral Flow Immunoassays (LFIA) · Practical Laboratory Lecture · Advanced Laboratory Techniques · Presented By: Linda Munjed Hadi",
+   "ar": "المقايسات الكروماتوغرافية المناعية · مقايسات التدفّق الجانبي المناعية (`LFIA`) · محاضرة مختبرية عملية · التقنيات المختبرية المتقدمة · تقديم: ليندا منجد هادي",
+   "label": [
+    "Lab sheet",
+    "ورقة العملي"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "**What Is Immunochromatography?**",
+   "ar": "**ما هي الكروماتوغرافيا المناعية؟**"
+  },
+  {
+   "t": "card",
+   "en": "**Immunochromatography**, also known as **lateral flow immunoassay (LFIA)** or simply **a rapid test**, is a rapid diagnostic technique used to detect the presence or absence of a target analyte (such as a specific antigen or antibody) in a liquid sample without the need for specialized laboratory equipment.",
+   "ar": "**الكروماتوغرافيا المناعية (`Immunochromatography`)**، وتُعرف أيضًا بـ**مقايسة التدفّق الجانبي المناعية (`LFIA`)** أو ببساطة **الفحص السريع**، تقنية تشخيص سريعة تُستعمل للكشف عن وجود أو غياب مادّة هدف (مثل مستضدّ أو ضدّ نوعي) في عيّنة سائلة دون الحاجة إلى أجهزة مختبرية متخصّصة."
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Item",
+     "البند"
+    ],
+    [
+     "What the slide says",
+     "ما تقوله الشريحة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**IMMUNO**",
+      "**المناعي**"
+     ],
+     [
+      "Specific antigen–antibody recognition",
+      "تعرّف نوعي بين المستضدّ والضدّ"
+     ]
+    ],
+    [
+     [
+      "**CHROMATOGRAPHY**",
+      "**الكروماتوغرافي**"
+     ],
+     [
+      "Movement through a membrane by capillary flow",
+      "حركة خلال غشاء بالتدفّق الشعري"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    32,
+    68
+   ],
+   "label_en": "The two halves of the name",
+   "label_ar": "نصفا الاسم"
+  },
+  {
+   "t": "card",
+   "en": "Together → a visible or reader-detected signal at the test region.",
+   "ar": "معًا ← إشارة مرئية أو يكشفها جهاز قارئ عند منطقة الفحص."
+  },
+  {
+   "t": "note",
+   "en": "[1] Koczula & Gallotta, Essays Biochem. 2016; [2] Boehringer & O'Farrell, Clin Chem. 2022",
+   "ar": "المصدران [1] و[2] (انظر جدول المصادر أدناه)",
+   "label": [
+    "Slide footnote",
+    "حاشية الشريحة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "Slide 2 also has an empty template box (\"IMAGE PLACEHOLDER\") with no picture — left out.",
+   "ar": "في الشريحة 2 مربّع قالب فارغ (\"`IMAGE PLACEHOLDER`\") بلا صورة — لم يُنقل.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "No.",
+     "الرقم"
+    ],
+    [
+     "Source on the slides",
+     "المصدر في الشرائح"
+    ]
+   ],
+   "rows": [
+    [
+     "[1]",
+     [
+      "Koczula & Gallotta, Essays Biochem. 2016",
+      "`Koczula & Gallotta, Essays Biochem. 2016`"
+     ]
+    ],
+    [
+     "[2]",
+     [
+      "Boehringer & O'Farrell, Clin Chem. 2022",
+      "`Boehringer & O'Farrell, Clin Chem. 2022`"
+     ]
+    ],
+    [
+     "[3]",
+     [
+      "WHO, 2023",
+      "منظمة الصحة العالمية `WHO`، 2023"
+     ]
+    ],
+    [
+     "[4]",
+     [
+      "Lateral flow immunoassays for antigens, antibodies and haptens detection, 2023",
+      "مقايسات التدفّق الجانبي المناعية للكشف عن المستضدّات والأضداد والهابتينات، 2023"
+     ]
+    ]
+   ],
+   "widths": [
+    12,
+    88
+   ],
+   "label_en": "Core sources: Koczula & Gallotta, 2016; WHO, 2023; Boehringer & O'Farrell, 2022",
+   "label_ar": "المصادر الأساسية المذكورة في تذييل الشرائح"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Immunochromatography = **LFIA** = **rapid test**: detects presence/absence of a target analyte **without special equipment**.",
+    "`**Immuno** = Ag–Ab recognition; **chromatography** = capillary flow through a membrane.`"
+   ],
+   "ar": [
+    "الكروماتوغرافيا المناعية = **`LFIA`** = **الفحص السريع**: يكشف وجود/غياب الهدف **بلا أجهزة متخصّصة**.",
+    "**المناعي** = تعرّف مستضدّ–ضدّ؛ و**الكروماتوغرافي** = تدفّق شعري خلال غشاء."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Basic Principle of Lateral Flow",
+   "ar": "المبدأ الأساسي للتدفّق الجانبي"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Sample",
+     "ar": "العيّنة"
+    },
+    {
+     "en": "Capillary Migration",
+     "ar": "الهجرة الشعرية"
+    },
+    {
+     "en": "Target binds labeled reagent",
+     "ar": "يرتبط الهدف بالكاشف الموسوم"
+    },
+    {
+     "en": "Capture at Test line",
+     "ar": "الالتقاط عند خطّ الفحص"
+    },
+    {
+     "en": "Visible Signal",
+     "ar": "إشارة مرئية"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Key Idea**",
+   "ar": "**الفكرة المفتاحية**",
+   "list_en": [
+    "The sample moves along the strip.",
+    "It carries the target and labeled particles.",
+    "The target is captured at the test line.",
+    "The control line shows that the test worked correctly."
+   ],
+   "list_ar": [
+    "تتحرّك العيّنة على طول الشريط.",
+    "وتحمل معها الهدف والجسيمات الموسومة.",
+    "ويُلتقَط الهدف عند خطّ الفحص.",
+    "ويُظهر خطّ السيطرة أن الفحص عمل بصورة صحيحة."
+   ]
+  },
+  {
+   "t": "note",
+   "en": "[1] Koczula & Gallotta, 2016; [2] Boehringer & O'Farrell, 2022",
+   "ar": "المصدران [1] و[2]",
+   "label": [
+    "Slide footnote",
+    "حاشية الشريحة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Sample → **capillary migration** → binds **labeled reagent** → captured at **T** → visible signal.",
+    "`**Control line** = proof that the test **worked correctly**.`"
+   ],
+   "ar": [
+    "العيّنة ← **هجرة شعرية** ← ترتبط **بالكاشف الموسوم** ← تُلتقَط عند **`T`** ← إشارة مرئية.",
+    "**خطّ السيطرة** = دليل على أن الفحص **عمل بصورة صحيحة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Anatomy of a lateral-flow strip",
+   "ar": "تشريح شريط التدفّق الجانبي"
+  },
+  {
+   "t": "h2",
+   "en": "**Anatomy of a Lateral-Flow Strip**",
+   "ar": "**تشريح شريط التدفّق الجانبي**"
+  },
+  {
+   "t": "figure",
+   "src": "assets/strip-anatomy.png",
+   "en": "Sample Pad → Conjugate Pad → Nitrocellulose Membrane (T, C) → Absorbent Pad",
+   "ar": "وسادة العيّنة ← وسادة المقترن ← غشاء النتروسليلوز (`T`، `C`) ← الوسادة الماصّة",
+   "h": "22mm"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Sample pad:** receives and conditions the specimen.",
+    "**Conjugate pad:** stores dried labeled antibodies or antigens.",
+    "**Nitrocellulose membrane:** contains the Test (T) and Control (C) capture regions.",
+    "**Absorbent pad:** pulls fluid through the strip and collects excess liquid."
+   ],
+   "list_ar": [
+    "**وسادة العيّنة:** تستقبل العيّنة وتهيّئها.",
+    "**وسادة المقترن:** تخزّن أضدادًا أو مستضدّات موسومة مجفّفة.",
+    "**غشاء النتروسليلوز:** يحتوي منطقتَي الالتقاط: الفحص (`T`) والسيطرة (`C`).",
+    "**الوسادة الماصّة:** تسحب السائل عبر الشريط وتجمع السائل الزائد."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/strip-in-hand.png",
+     "en": "A rapid test cassette (SARS-CoV-2 Antigen): sample well S, lines C and T",
+     "ar": "كاسيت فحص سريع (مستضدّ `SARS-CoV-2`): حفرة العيّنة `S` والخطّان `C` و`T`",
+     "h": "44mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/cassettes-photo.png",
+     "en": "Rapid test cassettes from the laboratory (HEV, HAV, TORCH IgM…)",
+     "ar": "كاسيتات فحوص سريعة من المختبر (`HEV`، `HAV`، `TORCH IgM`…)",
+     "h": "44mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/lfa-diagram.png",
+   "en": "How a lateral-flow (sandwich) test works",
+   "ar": "كيف يعمل فحص التدفّق الجانبي (الساندويتش)",
+   "h": "64mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Figure text",
+     "كتابات الشكل"
+    ],
+    [
+     "Arabic",
+     "بالعربي"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Sample well (S)**",
+      "**حفرة العيّنة (`S`)**"
+     ],
+     [
+      "where the sample is dropped",
+      "مكان وضع العيّنة"
+     ]
+    ],
+    [
+     [
+      "**Control line (C)** / **Test line (T)**",
+      "**خطّ السيطرة (`C`)** / **خطّ الفحص (`T`)**"
+     ],
+     [
+      "the two lines read in the window",
+      "الخطّان اللذان يُقرآن في النافذة"
+     ]
+    ],
+    [
+     [
+      "**1. Sample added**",
+      "**1. إضافة العيّنة**"
+     ],
+     [
+      "on the sample pad",
+      "على وسادة العيّنة"
+     ]
+    ],
+    [
+     [
+      "**2. Antigen binds to labelled antibody**",
+      "**2. يرتبط المستضدّ بالضدّ الموسوم**"
+     ],
+     [
+      "in the conjugate pad (gold-labelled antibody)",
+      "في وسادة المقترن (ضدّ موسوم بالذهب)"
+     ]
+    ],
+    [
+     [
+      "**3. Complex moves and is captured at Test line (T)**",
+      "**3. يتحرّك المعقّد ويُلتقَط عند خطّ الفحص (`T`)**"
+     ],
+     [
+      "Test line (T) (capture antibody)",
+      "خطّ الفحص (`T`) (ضدّ ملتقِط)"
+     ]
+    ],
+    [
+     [
+      "**4. Excess label is captured at Control line (C)**",
+      "**4. يُلتقَط الوسم الزائد عند خطّ السيطرة (`C`)**"
+     ],
+     [
+      "Control line (C) (capture antibody)",
+      "خطّ السيطرة (`C`) (ضدّ ملتقِط)"
+     ]
+    ],
+    [
+     [
+      "**Absorbent pad**",
+      "**الوسادة الماصّة**"
+     ],
+     [
+      "end of the strip",
+      "نهاية الشريط"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    55,
+    45
+   ],
+   "label_en": "Figure text",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Slides 5 and 6 are pictures only (no text); their captions here are by BIOS.",
+    "The order along the strip is always **S → T → C** (the control line is the last line)."
+   ],
+   "ar": [
+    "الشريحتان 5 و6 صور فقط (بلا نص)؛ والعناوين هنا من `BIOS`.",
+    "والترتيب على الشريط دائمًا **`S → T → C`** (خطّ السيطرة هو الخطّ الأخير)."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Strip: **sample pad → conjugate pad → nitrocellulose (T, C) → absorbent pad**.",
+    "`Conjugate pad = **dried labeled** antibodies/antigens; absorbent pad **pulls** the fluid.`"
+   ],
+   "ar": [
+    "الشريط: **وسادة العيّنة ← وسادة المقترن ← النتروسليلوز (`T`، `C`) ← الوسادة الماصّة**.",
+    "وسادة المقترن = أضداد/مستضدّات **موسومة مجفّفة**؛ والوسادة الماصّة **تسحب** السائل."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Sample pad and conjugate pad",
+   "ar": "وسادة العيّنة ووسادة المقترن"
+  },
+  {
+   "t": "h2",
+   "en": "**Sample Pad & Conjugate Pad**",
+   "ar": "**وسادة العيّنة ووسادة المقترن**"
+  },
+  {
+   "t": "card",
+   "en": "**Sample Pad**",
+   "ar": "**وسادة العيّنة**",
+   "list_en": [
+    "Receives the specimen",
+    "Helps distribute fluid evenly",
+    "May filter or condition the sample",
+    "Begins capillary migration"
+   ],
+   "list_ar": [
+    "تستقبل العيّنة",
+    "تساعد على توزيع السائل بانتظام",
+    "قد ترشّح العيّنة أو تهيّئها",
+    "تبدأ الهجرة الشعرية"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Conjugate Pad**",
+   "ar": "**وسادة المقترن**",
+   "list_en": [
+    "Contains dried labeled detection reagents",
+    "Labels may include colloidal gold or colored/fluorescent particles",
+    "Rehydrates when the sample reaches it",
+    "Target + labeled reagent form a migrating complex"
+   ],
+   "list_ar": [
+    "تحتوي كواشف كشف موسومة مجفّفة",
+    "قد تشمل الوسوم الذهب الغروي أو جسيمات ملوّنة/متألّقة",
+    "تعود إليها الرطوبة عندما تصلها العيّنة",
+    "يكوّن الهدف + الكاشف الموسوم معقّدًا مهاجرًا"
+   ],
+   "start": 1
+  },
+  {
+   "t": "card",
+   "en": "**Practical point:** incorrect specimen volume or poor sample preparation can disturb flow before the sample ever reaches the test line.",
+   "ar": "**نقطة عملية:** حجم العيّنة الخاطئ أو سوء تحضيرها قد يخلّ بالتدفّق قبل أن تصل العيّنة إلى خطّ الفحص أصلًا."
+  },
+  {
+   "t": "note",
+   "en": "[2] Boehringer & O'Farrell, 2022",
+   "ar": "المصدر [2]",
+   "label": [
+    "Slide footnote",
+    "حاشية الشريحة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Sample pad: receives, distributes, filters, **starts migration**.",
+    "`Conjugate pad: **dried labels** (colloidal gold / coloured / fluorescent) → rehydrate → **migrating complex**.`"
+   ],
+   "ar": [
+    "وسادة العيّنة: تستقبل، توزّع، ترشّح، **تبدأ الهجرة**.",
+    "وسادة المقترن: **وسوم مجفّفة** (ذهب غروي / ملوّنة / متألّقة) ← تترطّب ← **معقّد مهاجر**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Test line, control line and absorbent pad",
+   "ar": "خطّ الفحص وخطّ السيطرة والوسادة الماصّة"
+  },
+  {
+   "t": "h2",
+   "en": "**Test Line, Control Line & Absorbent Pad**",
+   "ar": "**خطّ الفحص وخطّ السيطرة والوسادة الماصّة**"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Item",
+     "البند"
+    ],
+    [
+     "What the slide says",
+     "ما تقوله الشريحة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Test Line (T)**",
+      "**خطّ الفحص (`T`)**"
+     ],
+     [
+      "Captures the target and produces the test signal.",
+      "يلتقط الهدف وينتج إشارة الفحص."
+     ]
+    ],
+    [
+     [
+      "**Control Line (C)**",
+      "**خطّ السيطرة (`C`)**"
+     ],
+     [
+      "Shows that the test worked correctly.",
+      "يُظهر أن الفحص عمل بصورة صحيحة."
+     ]
+    ],
+    [
+     [
+      "**Absorbent Pad**",
+      "**الوسادة الماصّة**"
+     ],
+     [
+      "Helps the sample keep moving and collects excess liquid.",
+      "تساعد العيّنة على الاستمرار بالحركة وتجمع السائل الزائد."
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    70
+   ],
+   "label_en": "Test Line, Control Line & Absorbent Pad",
+   "label_ar": "خطّ الفحص وخطّ السيطرة والوسادة الماصّة"
+  },
+  {
+   "t": "card",
+   "en": "**No control line = Invalid result.**",
+   "ar": "**لا خطّ سيطرة = نتيجة باطلة.**"
+  },
+  {
+   "t": "note",
+   "en": "[1] Koczula & Gallotta, 2016; manufacturer instructions must be followed for each kit",
+   "ar": "المصدر [1]؛ ويجب اتّباع تعليمات الشركة المصنّعة لكل عُدّة",
+   "label": [
+    "Slide footnote",
+    "حاشية الشريحة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**T** captures the target → test signal; **C** proves the test worked."
+   ],
+   "ar": [
+    "**`T`** يلتقط الهدف ← إشارة الفحص؛ و**`C`** يثبت أن الفحص عمل."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "note",
+   "en": [
+    "`**No C line = invalid**, whatever T shows.`"
+   ],
+   "ar": [
+    "**لا خطّ `C` = باطلة**، مهما أظهر `T`."
+   ],
+   "label": [
+    "In short (continued)",
+    "باختصار (تكملة)"
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "section",
+   "en": "Interpreting results",
+   "ar": "تفسير النتائج"
+  },
+  {
+   "t": "h2",
+   "en": "**Interpreting Results**",
+   "ar": "**تفسير النتائج**"
+  },
+  {
+   "t": "card",
+   "en": "For a typical qualitative sandwich-format rapid test",
+   "ar": "لفحص سريع نوعي نموذجي بصيغة الساندويتش"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Result",
+     "النتيجة"
+    ],
+    [
+     "Lines",
+     "الخطوط"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**POSITIVE**",
+      "**موجب**"
+     ],
+     [
+      "Control line appears + Test line appears",
+      "يظهر خطّ السيطرة + يظهر خطّ الفحص"
+     ]
+    ],
+    [
+     [
+      "**NEGATIVE**",
+      "**سالب**"
+     ],
+     [
+      "Control line appears + No Test line",
+      "يظهر خطّ السيطرة + لا يظهر خطّ الفحص"
+     ]
+    ],
+    [
+     [
+      "**INVALID**",
+      "**باطل**"
+     ],
+     [
+      "Control line does not appear",
+      "لا يظهر خطّ السيطرة"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    76
+   ],
+   "label_en": "Interpreting Results",
+   "label_ar": "تفسير النتائج"
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/cassettes-hand.png",
+     "en": "Two cassettes: C + T (positive) and C only (negative)",
+     "ar": "كاسيتان: `C` + `T` (موجب) و`C` فقط (سالب)",
+     "h": "38mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/results-abc.png",
+     "en": "(A) positive · (B) negative · (C) invalid — Control line, Test line, Drop solution, Flow",
+     "ar": "`(A)` موجب · `(B)` سالب · `(C)` باطل — خطّ السيطرة، خطّ الفحص، موضع وضع المحلول، اتّجاه التدفّق",
+     "h": "38mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Always interpret the result according to the specific kit instructions and within the stated reading time.",
+   "ar": "فسّر النتيجة دائمًا وفق تعليمات العُدّة المحدّدة وضمن وقت القراءة المذكور."
+  },
+  {
+   "t": "note",
+   "en": [
+    "The two pictures have no captions on the slide; A/B/C are read by BIOS from the lines (A: C + faint T, B: C only, C: no line).",
+    "On the slide the picture covers part of the sentence above — its full text is from the file."
+   ],
+   "ar": [
+    "الصورتان بلا عناوين في الشريحة؛ وقراءة `A/B/C` من `BIOS` حسب الخطوط (`A`: `C` + `T` خفيف، `B`: `C` فقط، `C`: لا خطّ).",
+    "وفي الشريحة تغطّي الصورة جزءًا من الجملة أعلاه — ونصّها الكامل من الملف."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "WHO guidance emphasizes correct performance and interpretation of RDTs [3]",
+   "ar": "إرشادات منظمة الصحة العالمية تؤكّد الأداء والتفسير الصحيحين للفحوص التشخيصية السريعة (`RDTs`) [3]",
+   "label": [
+    "Slide footnote",
+    "حاشية الشريحة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Positive** = C + T; **negative** = C only; **invalid** = no C.",
+    "`Follow the **kit instructions** and the **reading time**.`"
+   ],
+   "ar": [
+    "**موجب** = `C` + `T`؛ و**سالب** = `C` فقط؛ و**باطل** = لا `C`.",
+    "اتّبع **تعليمات العُدّة** و**وقت القراءة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "A faint test line",
+   "ar": "خطّ الفحص الخفيف"
+  },
+  {
+   "t": "h2",
+   "en": "**What About a Faint Test Line?**",
+   "ar": "**ماذا عن خطّ الفحص الخفيف؟**"
+  },
+  {
+   "t": "card",
+   "en": "A faint line may still represent a reactive/positive result in many qualitative tests — but only if the manufacturer defines it that way and it appears within the permitted reading time.",
+   "ar": "قد يمثّل الخطّ الخفيف نتيجة متفاعلة/موجبة في كثير من الفحوص النوعية — ولكن فقط إذا عرّفته الشركة المصنّعة كذلك وظهر ضمن وقت القراءة المسموح."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Do not compare line darkness between different brands unless the kit supports that interpretation.",
+    "Do not read the cassette after the stated time window."
+   ],
+   "list_ar": [
+    "لا تقارن غمق الخطّ بين ماركات مختلفة إلا إذا كانت العُدّة تدعم هذا التفسير.",
+    "لا تقرأ الكاسيت بعد نافذة الوقت المذكورة."
+   ],
+   "_ff": 2
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Repeat or confirm according to the test algorithm when the result is uncertain."
+   ],
+   "list_ar": [
+    "أعد الفحص أو أكّده حسب خوارزمية الفحص عندما تكون النتيجة غير مؤكّدة."
+   ],
+   "start": 3,
+   "_ff": 2
+  },
+  {
+   "t": "figure",
+   "src": "assets/faint-line.png",
+   "en": "Test line intensity at 0 ng/mL, 1 ng/mL and 2 ng/mL (C, T, S)",
+   "ar": "شدّة خطّ الفحص عند `0 ng/mL` و`1 ng/mL` و`2 ng/mL` (`C`، `T`، `S`)",
+   "h": "56mm"
+  },
+  {
+   "t": "note",
+   "en": "In this picture the T line gets darker as the concentration rises (0 → 1 → 2 ng/mL) while C stays the same — a faint T is still a line.",
+   "ar": "في هذه الصورة يغمق خطّ `T` كلّما زاد التركيز (`0 → 1 → 2 ng/mL`) بينما يبقى `C` كما هو — فالخطّ `T` الخفيف يبقى خطًّا.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "Interpretation is kit-specific; follow manufacturer IFU and local testing algorithm",
+   "ar": "التفسير خاصّ بكل عُدّة؛ اتّبع تعليمات الاستعمال (`IFU`) للشركة وخوارزمية الفحص المحلّية",
+   "label": [
+    "Slide footnote",
+    "حاشية الشريحة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Faint T may be **positive** — only if the **manufacturer** says so and it is **within the reading time**.",
+    "`Don't compare brands; don't read late; **repeat/confirm** when uncertain.`"
+   ],
+   "ar": [
+    "خطّ `T` الخفيف قد يكون **موجبًا** — فقط إذا قالت **الشركة** ذلك وظهر **ضمن وقت القراءة**.",
+    "لا تقارن الماركات؛ لا تقرأ متأخّرًا؛ **أعد/أكّد** عند الشك."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Main assay formats",
+   "ar": "الصيغ الرئيسية للفحص"
+  },
+  {
+   "t": "h2",
+   "en": "**Main Assay Formats**",
+   "ar": "**الصيغ الرئيسية للفحص**"
+  },
+  {
+   "t": "card",
+   "en": "**Sandwich Format** · **Competitive Format**",
+   "ar": "**صيغة الساندويتش** · **الصيغة التنافسية**"
+  },
+  {
+   "t": "card",
+   "en": "Never interpret a rapid test by memory alone — identify the assay format and read the kit instructions.",
+   "ar": "لا تفسّر الفحص السريع من الذاكرة وحدها أبدًا — حدّد صيغة الفحص واقرأ تعليمات العُدّة."
+  },
+  {
+   "t": "note",
+   "en": [
+    "The two format boxes on the slide are empty (titles only).",
+    "The table below is BIOS: it is the reason the slide warns you to identify the format."
+   ],
+   "ar": [
+    "مربّعا الصيغتين في الشريحة فارغان (عنوانان فقط).",
+    "والجدول أدناه من `BIOS`: وهو سبب تحذير الشريحة من ضرورة تحديد الصيغة."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "Sandwich format",
+     "صيغة الساندويتش"
+    ],
+    [
+     "Competitive format",
+     "الصيغة التنافسية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Used for**",
+      "**تُستعمل لـ**"
+     ],
+     [
+      "large analytes (proteins, hCG, antigens)",
+      "مواد كبيرة (بروتينات، `hCG`، مستضدّات)"
+     ],
+     [
+      "small molecules / drugs",
+      "جزيئات صغيرة / أدوية"
+     ]
+    ],
+    [
+     [
+      "**At the T line**",
+      "**عند خطّ `T`**"
+     ],
+     [
+      "target bridges labeled Ab and capture Ab",
+      "الهدف يربط الضدّ الموسوم بالضدّ الملتقِط"
+     ],
+     [
+      "target competes and blocks the labeled reagent",
+      "الهدف ينافس ويمنع ارتباط الكاشف الموسوم"
+     ]
+    ],
+    [
+     [
+      "**Positive result**",
+      "**النتيجة الموجبة**"
+     ],
+     [
+      "**T line appears**",
+      "**يظهر خطّ `T`**"
+     ],
+     [
+      "**T line weaker or absent**",
+      "**خطّ `T` أضعف أو يختفي**"
+     ]
+    ],
+    [
+     [
+      "**Control line**",
+      "**خطّ السيطرة**"
+     ],
+     [
+      "must appear",
+      "يجب أن يظهر"
+     ],
+     [
+      "must appear",
+      "يجب أن يظهر"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    38,
+    38
+   ],
+   "style": "summary",
+   "label_en": "BIOS: sandwich vs competitive",
+   "label_ar": "`BIOS`: الساندويتش مقابل التنافسي"
+  },
+  {
+   "t": "note",
+   "en": "[4] Lateral flow immunoassays for antigens, antibodies and haptens detection, 2023",
+   "ar": "المصدر [4]",
+   "label": [
+    "Slide footnote",
+    "حاشية الشريحة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Two formats: **sandwich** and **competitive**.",
+    "`Sandwich: T line = positive; competitive: **no/weak T = positive** → always check the format and the kit.`"
+   ],
+   "ar": [
+    "صيغتان: **الساندويتش** و**التنافسية**.",
+    "الساندويتش: خطّ `T` = موجب؛ والتنافسية: **غياب/ضعف `T` = موجب** ← تحقّق دائمًا من الصيغة والعُدّة."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Common clinical applications",
+   "ar": "التطبيقات السريرية الشائعة"
+  },
+  {
+   "t": "h2",
+   "en": "**Common Clinical Applications**",
+   "ar": "**التطبيقات السريرية الشائعة**"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Item",
+     "البند"
+    ],
+    [
+     "What the slide says",
+     "ما تقوله الشريحة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Pregnancy**",
+      "**الحمل**"
+     ],
+     [
+      "hCG in urine",
+      "`hCG` في الإدرار"
+     ]
+    ],
+    [
+     [
+      "**Infectious disease**",
+      "**الأمراض المعدية**"
+     ],
+     [
+      "Antigen or antibody detection",
+      "الكشف عن المستضدّ أو الضدّ"
+     ]
+    ],
+    [
+     [
+      "**Cardiac markers**",
+      "**واسمات القلب**"
+     ],
+     [
+      "Selected rapid biomarker tests",
+      "فحوص سريعة مختارة للواسمات الحيوية"
+     ]
+    ],
+    [
+     [
+      "**Drugs / small molecules**",
+      "**الأدوية / الجزيئات الصغيرة**"
+     ],
+     [
+      "Often competitive format",
+      "غالبًا بالصيغة التنافسية"
+     ]
+    ],
+    [
+     [
+      "**Point-of-care testing**",
+      "**الفحص عند نقطة الرعاية**"
+     ],
+     [
+      "Near-patient rapid decisions",
+      "قرارات سريعة قرب المريض"
+     ]
+    ],
+    [
+     [
+      "**Home testing**",
+      "**الفحص المنزلي**"
+     ],
+     [
+      "Some regulated self-tests",
+      "بعض الفحوص الذاتية المنظَّمة"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    34,
+    66
+   ],
+   "label_en": "Common Clinical Applications",
+   "label_ar": "التطبيقات السريرية الشائعة"
+  },
+  {
+   "t": "note",
+   "en": "[2] Boehringer & O'Farrell, 2022; [3] WHO, 2023",
+   "ar": "المصدران [2] و[3]",
+   "label": [
+    "Slide footnote",
+    "حاشية الشريحة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Pregnancy (**hCG in urine**), infections (Ag/Ab), cardiac markers, drugs, point-of-care, home tests.",
+    "`Drugs / small molecules → often **competitive**.`"
+   ],
+   "ar": [
+    "الحمل (**`hCG` في الإدرار**)، الأمراض المعدية (مستضدّ/ضدّ)، واسمات القلب، الأدوية، نقطة الرعاية، الفحص المنزلي.",
+    "الأدوية / الجزيئات الصغيرة ← غالبًا **تنافسي**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Specimen types",
+   "ar": "أنواع العيّنات"
+  },
+  {
+   "t": "h2",
+   "en": "**Specimen Types — Use Only What the Kit Allows**",
+   "ar": "**أنواع العيّنات — استعمل فقط ما تسمح به العُدّة**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Whole blood",
+    "Serum",
+    "Plasma",
+    "Urine",
+    "Saliva / oral fluid",
+    "Nasal or nasopharyngeal swab extract",
+    "Other kit-specific specimens"
+   ],
+   "list_ar": [
+    "الدم الكامل",
+    "المصل",
+    "البلازما",
+    "الإدرار",
+    "اللعاب / سائل الفم",
+    "مستخلص مسحة الأنف أو البلعوم الأنفي",
+    "عيّنات أخرى خاصّة بالعُدّة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "A test validated for one specimen type should not automatically be used with another specimen type.",
+   "ar": "الفحص المُعتمَد لنوع عيّنة واحد لا يجوز استعماله تلقائيًا مع نوع عيّنة آخر.",
+   "label": [
+    "Critical rule",
+    "قاعدة حاسمة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "Follow the manufacturer's Instructions for Use (IFU) for accepted specimen types",
+   "ar": "اتّبع تعليمات الاستعمال (`IFU`) للشركة المصنّعة لأنواع العيّنات المقبولة",
+   "label": [
+    "Slide footnote",
+    "حاشية الشريحة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Blood, serum, plasma, urine, saliva, nasal/nasopharyngeal swab…"
+   ],
+   "ar": [
+    "دم، مصل، بلازما، إدرار، لعاب، مسحة أنف/بلعوم أنفي…"
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ],
+   "_ff": 3
+  },
+  {
+   "t": "note",
+   "en": [
+    "`**Critical rule:** use only the specimen the kit is **validated** for.`"
+   ],
+   "ar": [
+    "**قاعدة حاسمة:** استعمل فقط العيّنة **المُعتمَدة** للعُدّة."
+   ],
+   "label": [
+    "In short (continued)",
+    "باختصار (تكملة)"
+   ],
+   "_ff": 3
+  },
+  {
+   "t": "section",
+   "en": "Materials",
+   "ar": "المواد"
+  },
+  {
+   "t": "h2",
+   "en": "**Materials Needed for the Practical Session**",
+   "ar": "**المواد المطلوبة للجلسة العملية**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Rapid test cassette or strip",
+    "Patient specimen",
+    "Kit buffer or extraction solution",
+    "Dropper, capillary tube, or micropipette as specified",
+    "Timer",
+    "Disposable gloves and laboratory coat",
+    "Biohazard waste container"
+   ],
+   "list_ar": [
+    "كاسيت أو شريط الفحص السريع",
+    "عيّنة المريض",
+    "دارئ العُدّة أو محلول الاستخلاص",
+    "قطّارة أو أنبوب شعري أو ماصّة دقيقة حسب المحدّد",
+    "مؤقّت",
+    "قفّازات للاستعمال مرّة واحدة وصدرية مختبر",
+    "حاوية نفايات الخطر الحيوي"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/kit-contents.png",
+   "en": "Rapid test kit contents (box, cassettes, buffer, swab, instructions for use)",
+   "ar": "محتويات عُدّة الفحص السريع (العلبة، الكاسيتات، الدارئ، المسحة، تعليمات الاستعمال)",
+   "h": "58mm"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Cassette/strip, specimen, **kit buffer**, dropper/capillary/micropipette, **timer**, gloves + coat, **biohazard container**."
+   ],
+   "ar": [
+    "كاسيت/شريط، عيّنة، **دارئ العُدّة**، قطّارة/أنبوب شعري/ماصّة، **مؤقّت**، قفّازات + صدرية، **حاوية خطر حيوي**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Practical procedure",
+   "ar": "الإجراء العملي"
+  },
+  {
+   "t": "h2",
+   "en": "**Practical Procedure — General Workflow**",
+   "ar": "**الإجراء العملي — خطوات العمل العامة**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Check kit & expiry",
+    "Label cassette",
+    "Prepare specimen",
+    "Add exact sample volume",
+    "Add buffer if required",
+    "Start timer",
+    "Read at specified time",
+    "Record result"
+   ],
+   "list_ar": [
+    "افحص العُدّة وتاريخ انتهائها",
+    "رقّم الكاسيت",
+    "حضّر العيّنة",
+    "أضف حجم العيّنة المضبوط",
+    "أضف الدارئ إذا لزم",
+    "شغّل المؤقّت",
+    "اقرأ في الوقت المحدّد",
+    "سجّل النتيجة"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "The exact number of drops, incubation time, and interpretation rules are test-specific.",
+   "ar": "العدد الدقيق للقطرات ووقت الحضن وقواعد التفسير خاصّة بكل فحص."
+  },
+  {
+   "t": "note",
+   "en": "WHO: correct test performance and interpretation are essential for reliable RDT use [3]",
+   "ar": "منظمة الصحة العالمية: الأداء والتفسير الصحيحان ضروريان للاستعمال الموثوق للفحوص السريعة (`RDT`) [3]",
+   "label": [
+    "Slide footnote",
+    "حاشية الشريحة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Check kit/expiry → label → specimen → **exact volume** → buffer → **timer** → read on time → record."
+   ],
+   "ar": [
+    "افحص العُدّة/الانتهاء ← رقّم ← العيّنة ← **الحجم المضبوط** ← الدارئ ← **المؤقّت** ← اقرأ في الوقت ← سجّل."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ],
+   "_ff": 4
+  },
+  {
+   "t": "note",
+   "en": [
+    "`Drops, time and rules are **test-specific**.`"
+   ],
+   "ar": [
+    "القطرات والوقت والقواعد **خاصّة بكل فحص**."
+   ],
+   "label": [
+    "In short (continued)",
+    "باختصار (تكملة)"
+   ],
+   "_ff": 4
+  },
+  {
+   "t": "section",
+   "en": "False or invalid results",
+   "ar": "النتائج الكاذبة أو الباطلة"
+  },
+  {
+   "t": "h2",
+   "en": "**Common Causes of False or Invalid Results**",
+   "ar": "**الأسباب الشائعة للنتائج الكاذبة أو الباطلة**"
+  },
+  {
+   "t": "card",
+   "en": "**Pre-analytical / User Errors**",
+   "ar": "**أخطاء ما قبل التحليل / أخطاء المستخدم**",
+   "list_en": [
+    "Wrong specimen type",
+    "Poor specimen collection",
+    "Incorrect sample volume",
+    "Wrong buffer volume",
+    "Expired or improperly stored kit",
+    "Cross-contamination"
+   ],
+   "list_ar": [
+    "نوع عيّنة خاطئ",
+    "سوء جمع العيّنة",
+    "حجم عيّنة غير صحيح",
+    "حجم دارئ خاطئ",
+    "عُدّة منتهية أو مخزونة بصورة غير صحيحة",
+    "تلوّث متبادل"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Analytical / Interpretation Errors**",
+   "ar": "**أخطاء التحليل / التفسير**",
+   "list_en": [
+    "Incorrect timing",
+    "Cassette placed on an unsuitable surface",
+    "Failure of control line",
+    "Misreading faint lines",
+    "Reading after the allowed time",
+    "Ignoring kit-specific interpretation rules"
+   ],
+   "list_ar": [
+    "توقيت غير صحيح",
+    "وضع الكاسيت على سطح غير مناسب",
+    "فشل خطّ السيطرة",
+    "قراءة خاطئة للخطوط الخفيفة",
+    "القراءة بعد الوقت المسموح",
+    "تجاهل قواعد التفسير الخاصّة بالعُدّة"
+   ],
+   "start": 1
+  },
+  {
+   "t": "note",
+   "en": "WHO notes that incorrect performance or interpretation can compromise RDT utility [3]",
+   "ar": "تشير منظمة الصحة العالمية إلى أن الأداء أو التفسير غير الصحيح قد يُضعف فائدة الفحوص السريعة [3]",
+   "label": [
+    "Slide footnote",
+    "حاشية الشريحة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "User errors: wrong **specimen**, **volume**, **buffer**, expired kit, contamination.",
+    "`Interpretation errors: **timing**, surface, **no control line**, faint lines, **late reading**, ignoring kit rules.`"
+   ],
+   "ar": [
+    "أخطاء المستخدم: **عيّنة** أو **حجم** أو **دارئ** خاطئ، عُدّة منتهية، تلوّث.",
+    "أخطاء التفسير: **التوقيت**، السطح، **غياب خطّ السيطرة**، الخطوط الخفيفة، **القراءة المتأخّرة**، تجاهل قواعد العُدّة."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Advantages and limitations",
+   "ar": "المزايا والقيود"
+  },
+  {
+   "t": "h2",
+   "en": "**Advantages & Limitations**",
+   "ar": "**المزايا والقيود**"
+  },
+  {
+   "t": "card",
+   "en": "**Advantages**",
+   "ar": "**المزايا**",
+   "list_en": [
+    "Fast results",
+    "Easy to use",
+    "Portable",
+    "Needs little equipment",
+    "Useful near the patient",
+    "Can be used outside large laboratories"
+   ],
+   "list_ar": [
+    "نتائج سريعة",
+    "سهل الاستعمال",
+    "قابل للحمل",
+    "يحتاج أجهزة قليلة",
+    "مفيد قرب المريض",
+    "يمكن استعماله خارج المختبرات الكبيرة"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Limitations**",
+   "ar": "**القيود**",
+   "list_en": [
+    "Accuracy may differ between tests",
+    "Usually gives positive/negative results"
+   ],
+   "list_ar": [
+    "قد تختلف الدقّة بين الفحوص",
+    "يعطي عادةً نتائج موجب/سالب"
+   ],
+   "_ff": 5
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Faint lines can be difficult to read",
+    "May be less sensitive than some laboratory methods",
+    "Some results need confirmation by another test"
+   ],
+   "list_ar": [
+    "قد يصعب قراءة الخطوط الخفيفة",
+    "قد يكون أقلّ حساسية من بعض الطرائق المختبرية",
+    "بعض النتائج تحتاج تأكيدًا بفحص آخر"
+   ],
+   "start": 3,
+   "_ff": 5
+  },
+  {
+   "t": "note",
+   "en": "[1] Koczula & Gallotta, 2016; [2] Boehringer & O'Farrell, 2022; [3] WHO, 2023",
+   "ar": "المصادر [1] و[2] و[3]",
+   "label": [
+    "Slide footnote",
+    "حاشية الشريحة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Advantages: **fast, easy, portable**, little equipment, near the patient.",
+    "`Limitations: usually **only +/−**, faint lines, **less sensitive**, may need **confirmation**.`"
+   ],
+   "ar": [
+    "المزايا: **سريع، سهل، قابل للحمل**، أجهزة قليلة، قرب المريض.",
+    "القيود: عادةً **موجب/سالب فقط**، خطوط خفيفة، **أقلّ حساسية**، قد يحتاج **تأكيدًا**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Immunochromatography**",
+     "الكروماتوغرافيا المناعية / الاستشراب المناعي"
+    ],
+    [
+     "**Lateral flow immunoassay (LFIA)**",
+     "مقايسة التدفّق الجانبي المناعية / الفحص السريع"
+    ],
+    [
+     "**Rapid diagnostic test (RDT)**",
+     "الفحص التشخيصي السريع"
+    ],
+    [
+     "**Analyte**",
+     "المادّة الهدف / المادّة المقيسة"
+    ],
+    [
+     "**Capillary flow / migration**",
+     "التدفّق الشعري / الهجرة الشعرية"
+    ],
+    [
+     "**Sample pad**",
+     "وسادة العيّنة"
+    ],
+    [
+     "**Conjugate pad**",
+     "وسادة المقترن / وسادة الاقتران"
+    ],
+    [
+     "**Nitrocellulose membrane**",
+     "غشاء النتروسليلوز"
+    ],
+    [
+     "**Absorbent pad**",
+     "الوسادة الماصّة / وسادة الامتصاص"
+    ],
+    [
+     "**Test line (T)**",
+     "خطّ الفحص / خطّ الاختبار"
+    ],
+    [
+     "**Control line (C)**",
+     "خطّ السيطرة / خطّ الضبط"
+    ],
+    [
+     "**Colloidal gold**",
+     "الذهب الغروي"
+    ],
+    [
+     "**Invalid result**",
+     "نتيجة باطلة / غير صالحة"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 6
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Sandwich format**",
+     "صيغة الساندويتش / الشطيرة"
+    ],
+    [
+     "**Competitive format**",
+     "الصيغة التنافسية"
+    ],
+    [
+     "**Point-of-care testing**",
+     "الفحص عند نقطة الرعاية / بجانب المريض"
+    ],
+    [
+     "**Instructions for Use (IFU)**",
+     "تعليمات الاستعمال / نشرة العُدّة"
+    ],
+    [
+     "**Cassette**",
+     "الكاسيت / الشريحة البلاستيكية للفحص"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 6
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Basics and principle",
+    "topic_ar": "الأساسيات والمبدأ"
+   },
+   {
+    "en": "Immunochromatography is also known as:",
+    "ar": "تُعرف الكروماتوغرافيا المناعية أيضًا بـ:",
+    "options": [
+     [
+      "Radioimmunoassay",
+      "المقايسة المناعية الإشعاعية"
+     ],
+     [
+      "ELISA",
+      "الإليزا"
+     ],
+     [
+      "Gel electrophoresis",
+      "الرحلان الكهربائي الهلامي"
+     ],
+     [
+      "Lateral flow immunoassay (LFIA) or rapid test",
+      "مقايسة التدفّق الجانبي المناعية (`LFIA`) أو الفحص السريع"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A main feature of immunochromatography is that it works:",
+    "ar": "من أهم صفات الكروماتوغرافيا المناعية أنها تعمل:",
+    "options": [
+     [
+      "Only with a microplate reader",
+      "بقارئ صفائح فقط"
+     ],
+     [
+      "Only on solid samples",
+      "على العيّنات الصلبة فقط"
+     ],
+     [
+      "Without the need for specialized laboratory equipment",
+      "دون الحاجة إلى أجهزة مختبرية متخصّصة"
+     ],
+     [
+      "Only in large laboratories",
+      "في المختبرات الكبيرة فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The \"chromatography\" part of the name refers to:",
+    "ar": "جزء «الكروماتوغرافي» من الاسم يشير إلى:",
+    "options": [
+     [
+      "Antigen–antibody recognition",
+      "تعرّف المستضدّ–الضدّ"
+     ],
+     [
+      "Movement through a membrane by capillary flow",
+      "الحركة خلال غشاء بالتدفّق الشعري"
+     ],
+     [
+      "Colour of the label",
+      "لون الوسم"
+     ],
+     [
+      "An electric field",
+      "مجال كهربائي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "What causes the sample to move across the strip?",
+    "ar": "ما الذي يحرّك العيّنة عبر الشريط؟",
+    "options": [
+     [
+      "Capillary flow (pulled by the absorbent pad)",
+      "التدفّق الشعري (تسحبه الوسادة الماصّة)"
+     ],
+     [
+      "An electric current",
+      "تيار كهربائي"
+     ],
+     [
+      "A pump",
+      "مضخّة"
+     ],
+     [
+      "Gravity only",
+      "الجاذبية فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The target is captured at the:",
+    "ar": "يُلتقَط الهدف عند:",
+    "options": [
+     [
+      "Sample pad",
+      "وسادة العيّنة"
+     ],
+     [
+      "Test line",
+      "خطّ الفحص"
+     ],
+     [
+      "Absorbent pad",
+      "الوسادة الماصّة"
+     ],
+     [
+      "Sample well",
+      "حفرة العيّنة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Anatomy of the strip",
+    "topic_ar": "تشريح الشريط"
+   },
+   {
+    "en": "Dried labeled antibodies or antigens are stored in the:",
+    "ar": "تُخزَّن الأضداد أو المستضدّات الموسومة المجفّفة في:",
+    "options": [
+     [
+      "Sample pad",
+      "وسادة العيّنة"
+     ],
+     [
+      "Absorbent pad",
+      "الوسادة الماصّة"
+     ],
+     [
+      "Conjugate pad",
+      "وسادة المقترن"
+     ],
+     [
+      "Plastic cassette",
+      "الكاسيت البلاستيكي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The Test (T) and Control (C) capture regions are on the:",
+    "ar": "منطقتا الالتقاط `T` و`C` موجودتان على:",
+    "options": [
+     [
+      "Sample pad",
+      "وسادة العيّنة"
+     ],
+     [
+      "Conjugate pad",
+      "وسادة المقترن"
+     ],
+     [
+      "Absorbent pad",
+      "الوسادة الماصّة"
+     ],
+     [
+      "Nitrocellulose membrane",
+      "غشاء النتروسليلوز"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The pad that pulls fluid through the strip and collects excess liquid is the:",
+    "ar": "الوسادة التي تسحب السائل عبر الشريط وتجمع الزائد هي:",
+    "options": [
+     [
+      "Absorbent pad",
+      "الوسادة الماصّة"
+     ],
+     [
+      "Conjugate pad",
+      "وسادة المقترن"
+     ],
+     [
+      "Membrane",
+      "الغشاء"
+     ],
+     [
+      "Sample pad",
+      "وسادة العيّنة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Labels in the conjugate pad may include:",
+    "ar": "قد تشمل الوسوم في وسادة المقترن:",
+    "options": [
+     [
+      "Colloidal gold or colored/fluorescent particles",
+      "الذهب الغروي أو جسيمات ملوّنة/متألّقة"
+     ],
+     [
+      "Radioactive iodine only",
+      "اليود المشعّ فقط"
+     ],
+     [
+      "TMB substrate",
+      "ركيزة `TMB`"
+     ],
+     [
+      "Agarose",
+      "الآغاروز"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The correct order along the strip is:",
+    "ar": "الترتيب الصحيح على طول الشريط:",
+    "options": [
+     [
+      "Absorbent pad → membrane → conjugate pad → sample pad",
+      "الوسادة الماصّة ← الغشاء ← وسادة المقترن ← وسادة العيّنة"
+     ],
+     [
+      "Sample pad → conjugate pad → nitrocellulose membrane → absorbent pad",
+      "وسادة العيّنة ← وسادة المقترن ← غشاء النتروسليلوز ← الوسادة الماصّة"
+     ],
+     [
+      "Conjugate pad → sample pad → absorbent pad → membrane",
+      "وسادة المقترن ← وسادة العيّنة ← الوسادة الماصّة ← الغشاء"
+     ],
+     [
+      "Membrane → sample pad → conjugate pad → absorbent pad",
+      "الغشاء ← وسادة العيّنة ← وسادة المقترن ← الوسادة الماصّة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The sample pad:",
+    "ar": "وسادة العيّنة:",
+    "options": [
+     [
+      "Produces the test signal",
+      "تنتج إشارة الفحص"
+     ],
+     [
+      "Stores colloidal gold",
+      "تخزّن الذهب الغروي"
+     ],
+     [
+      "Receives the specimen and begins capillary migration",
+      "تستقبل العيّنة وتبدأ الهجرة الشعرية"
+     ],
+     [
+      "Shows that the test worked",
+      "تُظهر أن الفحص عمل"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Lines and interpretation",
+    "topic_ar": "الخطوط والتفسير"
+   },
+   {
+    "en": "The control line:",
+    "ar": "خطّ السيطرة:",
+    "options": [
+     [
+      "Captures the target",
+      "يلتقط الهدف"
+     ],
+     [
+      "Collects excess liquid",
+      "يجمع السائل الزائد"
+     ],
+     [
+      "Rehydrates the label",
+      "يرطّب الوسم"
+     ],
+     [
+      "Shows that the test worked correctly",
+      "يُظهر أن الفحص عمل بصورة صحيحة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In a sandwich-format rapid test, control line appears + test line appears means:",
+    "ar": "في فحص سريع بصيغة الساندويتش، ظهور خطّ السيطرة + خطّ الفحص يعني:",
+    "options": [
+     [
+      "Repeat with another brand",
+      "أعد بماركة أخرى"
+     ],
+     [
+      "Negative",
+      "سالب"
+     ],
+     [
+      "Invalid",
+      "باطل"
+     ],
+     [
+      "Positive",
+      "موجب"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Control line appears + no test line means:",
+    "ar": "ظهور خطّ السيطرة + عدم ظهور خطّ الفحص يعني:",
+    "options": [
+     [
+      "Positive",
+      "موجب"
+     ],
+     [
+      "Negative",
+      "سالب"
+     ],
+     [
+      "Invalid",
+      "باطل"
+     ],
+     [
+      "Faint positive",
+      "موجب خفيف"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "A rapid test is invalid when:",
+    "ar": "يكون الفحص السريع باطلًا عندما:",
+    "options": [
+     [
+      "The control line does not appear",
+      "لا يظهر خطّ السيطرة"
+     ],
+     [
+      "Both lines appear",
+      "يظهر الخطّان"
+     ],
+     [
+      "Only the control line appears",
+      "يظهر خطّ السيطرة فقط"
+     ],
+     [
+      "The test line is faint",
+      "يكون خطّ الفحص خفيفًا"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "A faint test line may be read as positive only if:",
+    "ar": "يُقرأ خطّ الفحص الخفيف موجبًا فقط إذا:",
+    "options": [
+     [
+      "It is darker than another brand",
+      "كان أغمق من ماركة أخرى"
+     ],
+     [
+      "It appears after the reading time",
+      "ظهر بعد وقت القراءة"
+     ],
+     [
+      "The manufacturer defines it so and it appears within the permitted reading time",
+      "عرّفته الشركة كذلك وظهر ضمن وقت القراءة المسموح"
+     ],
+     [
+      "The control line is absent",
+      "غاب خطّ السيطرة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "When the result is uncertain you should:",
+    "ar": "عندما تكون النتيجة غير مؤكّدة يجب:",
+    "options": [
+     [
+      "Compare it with another brand",
+      "مقارنتها بماركة أخرى"
+     ],
+     [
+      "Read it again the next day",
+      "قراءتها مجدّدًا في اليوم التالي"
+     ],
+     [
+      "Repeat or confirm according to the test algorithm",
+      "الإعادة أو التأكيد حسب خوارزمية الفحص"
+     ],
+     [
+      "Report it as negative",
+      "تسجيلها سالبة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Formats, applications and specimens",
+    "topic_ar": "الصيغ والتطبيقات والعيّنات"
+   },
+   {
+    "en": "The two main assay formats are:",
+    "ar": "الصيغتان الرئيسيتان للفحص:",
+    "options": [
+     [
+      "Direct and indirect",
+      "المباشرة وغير المباشرة"
+     ],
+     [
+      "Sandwich and competitive",
+      "الساندويتش والتنافسية"
+     ],
+     [
+      "Qualitative and quantitative",
+      "النوعية والكمّية"
+     ],
+     [
+      "Wet and dry",
+      "الرطبة والجافّة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Drugs / small molecules are often tested by the:",
+    "ar": "الأدوية / الجزيئات الصغيرة تُفحص غالبًا بالصيغة:",
+    "options": [
+     [
+      "Competitive format",
+      "التنافسية"
+     ],
+     [
+      "Direct format",
+      "المباشرة"
+     ],
+     [
+      "Sandwich format",
+      "الساندويتش"
+     ],
+     [
+      "ELISA format",
+      "الإليزا"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The pregnancy rapid test detects:",
+    "ar": "فحص الحمل السريع يكشف:",
+    "options": [
+     [
+      "Glucose in urine",
+      "السكّر في الإدرار"
+     ],
+     [
+      "Protein in blood",
+      "البروتين في الدم"
+     ],
+     [
+      "Antibodies in saliva",
+      "الأضداد في اللعاب"
+     ],
+     [
+      "hCG in urine",
+      "`hCG` في الإدرار"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A test validated for one specimen type:",
+    "ar": "الفحص المُعتمَد لنوع عيّنة واحد:",
+    "options": [
+     [
+      "Works better with urine",
+      "يعمل أفضل مع الإدرار"
+     ],
+     [
+      "Can be used with any specimen",
+      "يمكن استعماله مع أي عيّنة"
+     ],
+     [
+      "Should not automatically be used with another specimen type",
+      "لا يجوز استعماله تلقائيًا مع نوع عيّنة آخر"
+     ],
+     [
+      "Needs no buffer",
+      "لا يحتاج دارئًا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Procedure and errors",
+    "topic_ar": "الإجراء والأخطاء"
+   },
+   {
+    "en": "The first step of the general workflow is:",
+    "ar": "أوّل خطوة في خطوات العمل العامة:",
+    "options": [
+     [
+      "Start timer",
+      "شغّل المؤقّت"
+     ],
+     [
+      "Check kit & expiry",
+      "افحص العُدّة وتاريخ انتهائها"
+     ],
+     [
+      "Record result",
+      "سجّل النتيجة"
+     ],
+     [
+      "Add buffer",
+      "أضف الدارئ"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which is a pre-analytical / user error?",
+    "ar": "أيّ مما يلي خطأ ما قبل التحليل / خطأ المستخدم؟",
+    "options": [
+     [
+      "Misreading faint lines",
+      "قراءة خاطئة للخطوط الخفيفة"
+     ],
+     [
+      "Reading after the allowed time",
+      "القراءة بعد الوقت المسموح"
+     ],
+     [
+      "Failure of control line",
+      "فشل خطّ السيطرة"
+     ],
+     [
+      "Wrong buffer volume",
+      "حجم دارئ خاطئ"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which is an analytical / interpretation error?",
+    "ar": "أيّ مما يلي خطأ تحليل / تفسير؟",
+    "options": [
+     [
+      "Cassette placed on an unsuitable surface",
+      "وضع الكاسيت على سطح غير مناسب"
+     ],
+     [
+      "Cross-contamination",
+      "تلوّث متبادل"
+     ],
+     [
+      "Expired kit",
+      "عُدّة منتهية"
+     ],
+     [
+      "Wrong specimen type",
+      "نوع عيّنة خاطئ"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Incorrect specimen volume can:",
+    "ar": "حجم العيّنة الخاطئ قد:",
+    "options": [
+     [
+      "Have no effect",
+      "لا يؤثّر"
+     ],
+     [
+      "Make the kit validated for other specimens",
+      "يجعل العُدّة صالحة لعيّنات أخرى"
+     ],
+     [
+      "Change the control line into a test line",
+      "يحوّل خطّ السيطرة إلى خطّ فحص"
+     ],
+     [
+      "Disturb flow before the sample reaches the test line",
+      "يخلّ بالتدفّق قبل أن تصل العيّنة إلى خطّ الفحص"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which is a limitation of lateral-flow tests?",
+    "ar": "أيّ مما يلي من قيود فحوص التدفّق الجانبي؟",
+    "options": [
+     [
+      "Fast results",
+      "نتائج سريعة"
+     ],
+     [
+      "Portable",
+      "قابلة للحمل"
+     ],
+     [
+      "May be less sensitive than some laboratory methods",
+      "قد تكون أقلّ حساسية من بعض الطرائق المختبرية"
+     ],
+     [
+      "Useful near the patient",
+      "مفيدة قرب المريض"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this picture, cassette (C) with no line at all is:",
+    "ar": "في هذه الصورة، الكاسيت `(C)` الذي لا يظهر فيه أيّ خطّ:",
+    "options": [
+     [
+      "Positive",
+      "موجب"
+     ],
+     [
+      "Invalid",
+      "باطل"
+     ],
+     [
+      "Negative",
+      "سالب"
+     ],
+     [
+      "Faint positive",
+      "موجب خفيف"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/results-abc.png",
+    "img_h": "40mm"
+   },
+   {
+    "en": "In this diagram, the gold-labelled antibody is stored in the:",
+    "ar": "في هذا المخطّط، يُخزَّن الضدّ الموسوم بالذهب في:",
+    "options": [
+     [
+      "Conjugate pad",
+      "وسادة المقترن"
+     ],
+     [
+      "Absorbent pad",
+      "الوسادة الماصّة"
+     ],
+     [
+      "Control line",
+      "خطّ السيطرة"
+     ],
+     [
+      "Sample pad",
+      "وسادة العيّنة"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/lfa-diagram.png",
+    "img_h": "40mm"
+   },
+   {
+    "en": "In this picture, what changes as the concentration rises (0 → 2 ng/mL)?",
+    "ar": "في هذه الصورة، ما الذي يتغيّر كلّما زاد التركيز (`0 → 2 ng/mL`)؟",
+    "options": [
+     [
+      "Nothing",
+      "لا شيء"
+     ],
+     [
+      "The control line disappears",
+      "يختفي خطّ السيطرة"
+     ],
+     [
+      "The sample well changes colour",
+      "يتغيّر لون حفرة العيّنة"
+     ],
+     [
+      "The test line gets darker",
+      "يغمق خطّ الفحص"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/faint-line.png",
+    "img_h": "40mm"
+   },
+   {
+    "en": "In this cassette, the letter S marks the:",
+    "ar": "في هذا الكاسيت، الحرف `S` يشير إلى:",
+    "options": [
+     [
+      "Test line",
+      "خطّ الفحص"
+     ],
+     [
+      "Control line",
+      "خطّ السيطرة"
+     ],
+     [
+      "Sample well",
+      "حفرة العيّنة"
+     ],
+     [
+      "Absorbent pad",
+      "الوسادة الماصّة"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/strip-in-hand.png",
+    "img_h": "40mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Immunochromatography needs specialized laboratory equipment.",
+    "ar": "تحتاج الكروماتوغرافيا المناعية أجهزة مختبرية متخصّصة.",
+    "answer": "F"
+   },
+   {
+    "en": "The sample moves along the strip by capillary flow.",
+    "ar": "تتحرّك العيّنة على طول الشريط بالتدفّق الشعري.",
+    "answer": "T"
+   },
+   {
+    "en": "The conjugate pad stores dried labeled antibodies or antigens.",
+    "ar": "تخزّن وسادة المقترن أضدادًا أو مستضدّات موسومة مجفّفة.",
+    "answer": "T"
+   },
+   {
+    "en": "The test line shows that the test worked correctly.",
+    "ar": "يُظهر خطّ الفحص أن الفحص عمل بصورة صحيحة.",
+    "answer": "F"
+   },
+   {
+    "en": "No control line means an invalid result.",
+    "ar": "غياب خطّ السيطرة يعني نتيجة باطلة.",
+    "answer": "T"
+   },
+   {
+    "en": "Control line + no test line in a sandwich test is positive.",
+    "ar": "خطّ السيطرة + عدم وجود خطّ الفحص في فحص الساندويتش نتيجة موجبة.",
+    "answer": "F"
+   },
+   {
+    "en": "A faint test line is always negative.",
+    "ar": "خطّ الفحص الخفيف سالب دائمًا.",
+    "answer": "F"
+   },
+   {
+    "en": "You may read the cassette after the stated time window if the line is clearer.",
+    "ar": "يجوز قراءة الكاسيت بعد نافذة الوقت إذا كان الخطّ أوضح.",
+    "answer": "F"
+   },
+   {
+    "en": "Line darkness should not be compared between different brands unless the kit supports it.",
+    "ar": "لا يجوز مقارنة غمق الخطّ بين ماركات مختلفة إلا إذا دعمت العُدّة ذلك.",
+    "answer": "T"
+   },
+   {
+    "en": "Drugs and small molecules are often tested by the competitive format.",
+    "ar": "الأدوية والجزيئات الصغيرة تُفحص غالبًا بالصيغة التنافسية.",
+    "answer": "T"
+   },
+   {
+    "en": "A test validated for serum can automatically be used with saliva.",
+    "ar": "الفحص المُعتمَد للمصل يمكن استعماله تلقائيًا مع اللعاب.",
+    "answer": "F"
+   },
+   {
+    "en": "The exact number of drops and incubation time are test-specific.",
+    "ar": "عدد القطرات الدقيق ووقت الحضن خاصّان بكل فحص.",
+    "answer": "T"
+   },
+   {
+    "en": "Lateral-flow tests usually give positive/negative results.",
+    "ar": "تعطي فحوص التدفّق الجانبي عادةً نتائج موجب/سالب.",
+    "answer": "T"
+   },
+   {
+    "en": "Lateral-flow results never need confirmation by another test.",
+    "ar": "نتائج التدفّق الجانبي لا تحتاج أبدًا تأكيدًا بفحص آخر.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Test line vs control line",
+    "ar": "خطّ الفحص مقابل خطّ السيطرة",
+    "answer_en": "T captures the target and gives the test signal; C only shows that the test worked. No C = invalid even if T appears.",
+    "answer_ar": "`T` يلتقط الهدف ويعطي إشارة الفحص؛ و`C` يُظهر فقط أن الفحص عمل. لا `C` = باطلة حتى لو ظهر `T`."
+   },
+   {
+    "en": "Negative vs invalid",
+    "ar": "السالب مقابل الباطل",
+    "answer_en": "Negative = C appears, no T. Invalid = C does not appear (repeat the test).",
+    "answer_ar": "السالب = يظهر `C` ولا يظهر `T`. والباطل = لا يظهر `C` (أعد الفحص)."
+   },
+   {
+    "en": "Faint line",
+    "ar": "الخطّ الخفيف",
+    "answer_en": "A faint T may be positive — but only if the manufacturer defines it so AND it appears within the reading time.",
+    "answer_ar": "خطّ `T` الخفيف قد يكون موجبًا — لكن فقط إذا عرّفته الشركة كذلك وظهر ضمن وقت القراءة."
+   },
+   {
+    "en": "Sandwich vs competitive",
+    "ar": "الساندويتش مقابل التنافسي",
+    "answer_en": "Sandwich: T line = positive. Competitive (drugs/small molecules): weaker or absent T = positive. Identify the format before reading.",
+    "answer_ar": "الساندويتش: خطّ `T` = موجب. والتنافسي (الأدوية/الجزيئات الصغيرة): `T` أضعف أو غائب = موجب. حدّد الصيغة قبل القراءة."
+   },
+   {
+    "en": "Conjugate pad vs sample pad",
+    "ar": "وسادة المقترن مقابل وسادة العيّنة",
+    "answer_en": "Sample pad receives/conditions the specimen; conjugate pad stores the dried labeled reagent (colloidal gold…).",
+    "answer_ar": "وسادة العيّنة تستقبل العيّنة وتهيّئها؛ ووسادة المقترن تخزّن الكاشف الموسوم المجفّف (الذهب الغروي…)."
+   },
+   {
+    "en": "Reading time",
+    "ar": "وقت القراءة",
+    "answer_en": "Reading too early or after the allowed time is an interpretation error — always use the timer and the kit time window.",
+    "answer_ar": "القراءة المبكّرة أو بعد الوقت المسموح خطأ تفسير — استعمل المؤقّت ونافذة وقت العُدّة دائمًا."
+   },
+   {
+    "en": "User error or interpretation error?",
+    "ar": "خطأ مستخدم أم خطأ تفسير؟",
+    "answer_en": "Specimen type, collection, sample/buffer volume, expired kit, contamination = pre-analytical/user. Timing, surface, control failure, faint lines, late reading, ignoring rules = analytical/interpretation.",
+    "answer_ar": "نوع العيّنة، الجمع، حجم العيّنة/الدارئ، العُدّة المنتهية، التلوّث = ما قبل التحليل/المستخدم. والتوقيت، السطح، فشل السيطرة، الخطوط الخفيفة، القراءة المتأخّرة، تجاهل القواعد = تحليل/تفسير."
+   }
+  ],
+  "important": [
+   {
+    "en": "Quick Review 1: What causes the sample to move across the strip?",
+    "ar": "سؤال المراجعة 1: ما الذي يحرّك العيّنة عبر الشريط؟",
+    "answer_en": "Capillary flow (capillary migration) through the membrane; the absorbent pad pulls the fluid through the strip.",
+    "answer_ar": "التدفّق الشعري (الهجرة الشعرية) خلال الغشاء؛ والوسادة الماصّة تسحب السائل عبر الشريط."
+   },
+   {
+    "en": "Quick Review 2: What is stored in the conjugate pad?",
+    "ar": "سؤال المراجعة 2: ماذا يُخزَّن في وسادة المقترن؟",
+    "answer_en": "Dried labeled detection reagents (labeled antibodies or antigens); labels may be colloidal gold or colored/fluorescent particles. They rehydrate when the sample arrives and form a migrating complex with the target.",
+    "answer_ar": "كواشف كشف موسومة مجفّفة (أضداد أو مستضدّات موسومة)؛ والوسوم قد تكون ذهبًا غرويًا أو جسيمات ملوّنة/متألّقة. تترطّب عند وصول العيّنة وتكوّن مع الهدف معقّدًا مهاجرًا."
+   },
+   {
+    "en": "Quick Review 3: What is the function of the test line?",
+    "ar": "سؤال المراجعة 3: ما وظيفة خطّ الفحص؟",
+    "answer_en": "It captures the target and produces the test signal.",
+    "answer_ar": "يلتقط الهدف وينتج إشارة الفحص."
+   },
+   {
+    "en": "Quick Review 4: When is a rapid test considered invalid?",
+    "ar": "سؤال المراجعة 4: متى يُعدّ الفحص السريع باطلًا؟",
+    "answer_en": "When the control line does not appear (no control line = invalid result), whatever the test line shows; the test must be repeated.",
+    "answer_ar": "عندما لا يظهر خطّ السيطرة (لا خطّ سيطرة = نتيجة باطلة)، مهما أظهر خطّ الفحص؛ ويجب إعادة الفحص."
+   },
+   {
+    "en": "Quick Review 5: Why must the result be read at the correct time?",
+    "ar": "سؤال المراجعة 5: لماذا يجب قراءة النتيجة في الوقت الصحيح؟",
+    "answer_en": "A line (even faint) counts only if it appears within the permitted reading time; reading too early or after the stated time window gives false or unreliable results.",
+    "answer_ar": "الخطّ (حتى الخفيف) لا يُحتسب إلا إذا ظهر ضمن وقت القراءة المسموح؛ والقراءة المبكّرة أو بعد نافذة الوقت تعطي نتائج كاذبة أو غير موثوقة."
+   },
+   {
+    "en": "Quick Review 6: What is the difference between sandwich and competitive formats?",
+    "ar": "سؤال المراجعة 6: ما الفرق بين صيغتَي الساندويتش والتنافسية؟",
+    "answer_en": "Sandwich: the target is held between the labeled antibody and the capture antibody at the T line, so a T line = positive (large analytes such as hCG). Competitive: the target competes with/blocks the labeled reagent, so a weaker or absent T line = positive (drugs, small molecules).",
+    "answer_ar": "الساندويتش: يُمسَك الهدف بين الضدّ الموسوم والضدّ الملتقِط عند خطّ `T`، فظهور `T` = موجب (مواد كبيرة مثل `hCG`). والتنافسية: الهدف ينافس الكاشف الموسوم أو يمنعه، فضعف أو غياب `T` = موجب (أدوية، جزيئات صغيرة)."
+   },
+   {
+    "en": "Quick Review 7: Why can wrong sample volume affect the result?",
+    "ar": "سؤال المراجعة 7: لماذا يؤثّر حجم العيّنة الخاطئ في النتيجة؟",
+    "answer_en": "Incorrect specimen volume can disturb the flow before the sample reaches the test line (too little → no proper migration; too much → flooding), giving false or invalid results.",
+    "answer_ar": "حجم العيّنة الخاطئ قد يخلّ بالتدفّق قبل أن تصل العيّنة إلى خطّ الفحص (قليل جدًا ← هجرة غير كافية؛ كثير جدًا ← إغراق)، فتنتج نتائج كاذبة أو باطلة."
+   },
+   {
+    "en": "Quick Review 8: Give two advantages of lateral-flow tests.",
+    "ar": "سؤال المراجعة 8: اذكر ميزتين لفحوص التدفّق الجانبي.",
+    "answer_en": "Any two of: fast results, easy to use, portable, needs little equipment, useful near the patient, can be used outside large laboratories.",
+    "answer_ar": "أيّ اثنتين من: نتائج سريعة، سهل الاستعمال، قابل للحمل، يحتاج أجهزة قليلة، مفيد قرب المريض، يمكن استعماله خارج المختبرات الكبيرة."
+   }
+  ]
+ }
+}
