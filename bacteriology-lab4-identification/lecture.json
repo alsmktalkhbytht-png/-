@@ -1,0 +1,2097 @@
+{
+ "meta": {
+  "subject_en": "Diagnostic Microbiology",
+  "subject_ar": "الأحياء المجهرية التشخيصية",
+  "short_ar": "بكتريا",
+  "instructor": "د. هبة سامي",
+  "unit_en": "Lab 4",
+  "unit_ar": "العملي 4",
+  "unit_label": "LAB",
+  "unit_no": "4",
+  "title_en": "Microbiological Methods for Identification",
+  "title_ar": "الطرائق الميكروبية للتشخيص",
+  "department": "قسم التحليلات",
+  "kind": "Laboratories — عملي",
+  "stage": "The fourth stage — الرابعة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Introduction",
+   "ar": "المقدّمة"
+  },
+  {
+   "t": "note",
+   "en": "Prepared by MSc. Ali Thamer kamil · MSc. haba sami",
+   "ar": "إعداد: م. علي ثامر كامل · م. هبة سامي",
+   "label": [
+    "Lab sheet",
+    "ورقة العملي"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Microbiological identification determines the type, **genus**, or **species** of **microorganisms**.",
+    "It is essential for **disease diagnosis**, **antimicrobial selection**, food safety, and **microbial research**.",
+    "Combines **classical** (phenotypic) and **modern** (molecular) methods for accuracy."
+   ],
+   "list_ar": [
+    "يحدّد التشخيص (التعريف) الميكروبي نوع **الأحياء المجهرية** أو **جنسها** أو **نوعها**.",
+    "وهو أساسي لـ**تشخيص المرض**، و**اختيار المضادّ الميكروبي**، وسلامة الغذاء، و**البحث الميكروبي**.",
+    "ويجمع بين الطرائق **التقليدية** (المظهرية) و**الحديثة** (الجزيئية) لتحقيق الدقّة."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Objectives of Microbial Identification",
+   "ar": "أهداف التشخيص الميكروبي"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Determine** etiologic agents of infection",
+    "**Understand** microbial **diversity** and **taxonomy**",
+    "Guide **therapy** and **infection control**",
+    "Trace outbreaks and perform surveillance"
+   ],
+   "list_ar": [
+    "**تحديد** العوامل المسبّبة للعدوى",
+    "**فهم** **التنوّع** الميكروبي و**التصنيف**",
+    "توجيه **العلاج** و**مكافحة العدوى**",
+    "تتبّع الفاشيات (التفشّيات) وإجراء الترصّد"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "General Steps in Identification",
+   "ar": "الخطوات العامة في التشخيص"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Sample Collection** – Aseptic techniques to avoid contamination",
+    "**Microscopic Examination** – Morphology and staining"
+   ],
+   "list_ar": [
+    "**جمع العيّنة** – تقنيات معقّمة لتجنّب التلوّث",
+    "**الفحص المجهري** – الشكل والتصبيغ"
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Cultivation** – Selective and differential media",
+    "**Biochemical Characterization** – Metabolic profiling",
+    "**Serological Testing** – Antigen or antibody detection",
+    "**Molecular Identification** – DNA/RNA based methods"
+   ],
+   "list_ar": [
+    "**الزرع** – أوساط انتقائية وتفريقية",
+    "**التوصيف الكيميائي الحيوي** – التنميط الأيضي",
+    "**الفحص المصلي** – كشف المستضدّ أو الضدّ",
+    "**التشخيص الجزيئي** – طرائق مبنية على `DNA/RNA`"
+   ],
+   "start": 3,
+   "_ff": 1
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Sample",
+     "ar": "العيّنة"
+    },
+    {
+     "en": "Microscopy",
+     "ar": "المجهر"
+    },
+    {
+     "en": "Culture",
+     "ar": "الزرع"
+    },
+    {
+     "en": "Biochemical",
+     "ar": "الكيميائية الحيوية"
+    },
+    {
+     "en": "Serological",
+     "ar": "المصلية"
+    },
+    {
+     "en": "Molecular",
+     "ar": "الجزيئية"
+    }
+   ],
+   "en": "6 general steps",
+   "ar": "الخطوات العامة الست"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Identification = **type, genus or species** of the microorganism.",
+    "Uses: **diagnosis, antimicrobial selection**, food safety, research.",
+    "6 steps: **sample → microscopy → culture → biochemical → serological → molecular**."
+   ],
+   "ar": [
+    "التشخيص = **نوع الميكروب أو جنسه أو نوعه**.",
+    "الاستعمالات: **التشخيص، واختيار المضادّ**، وسلامة الغذاء، والبحث.",
+    "6 خطوات: **عيّنة ← مجهر ← زرع ← كيميائية حيوية ← مصلية ← جزيئية**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Microscopy and culture",
+   "ar": "الفحص المجهري والزرع"
+  },
+  {
+   "t": "h2",
+   "en": "Classical (Phenotypic) Methods: Microscopic Examination",
+   "ar": "الطرائق التقليدية (المظهرية): الفحص المجهري"
+  },
+  {
+   "t": "note",
+   "en": "This slide title is highlighted in the original — microscopic examination is important for the exam.",
+   "ar": "عنوان هذه الشريحة مُظلَّل في الأصل — الفحص المجهري مهم للامتحان.",
+   "label": [
+    "Highlighted in the slides",
+    "مُظلَّل في الشرائح"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Gram Stain**: Differentiates Gram-positive (**purple**) and Gram-negative (**pink**)",
+    "**Acid-Fast Stain**: Detects **Mycobacterium**",
+    "**Special Stains**: Endospore, Capsule, and Flagella for structure identification"
+   ],
+   "list_ar": [
+    "**صبغة غرام**: تفرّق بين موجبة غرام (**بنفسجية**) وسالبة غرام (**وردية**)",
+    "**الصبغة الصامدة للحامض**: تكشف **المتفطّرة (`Mycobacterium`)**",
+    "**الصبغات الخاصة**: للأبواغ الداخلية والمحفظة والأسواط، لتحديد التراكيب"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Cultural Characteristics",
+   "ar": "الصفات الزرعية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Colony morphology**: size, color, texture, elevation",
+    "**Growth conditions**: aerobic, anaerobic, microaerophilic",
+    "**Hemolysis patterns on blood agar**: α, β, γ",
+    "Pigment and odor production"
+   ],
+   "list_ar": [
+    "**شكل المستعمرة**: الحجم واللون والقوام والارتفاع",
+    "**ظروف النموّ**: هوائي، ولاهوائي، ومحبّ للهواء القليل",
+    "**أنماط تحلّل الدم على آغار الدم**: `α` و`β` و`γ`",
+    "إنتاج الصبغة والرائحة"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Hemolysis",
+     "تحلّل الدم"
+    ],
+    [
+     "What is seen on blood agar",
+     "ما يُرى على آغار الدم"
+    ],
+    [
+     "Example",
+     "مثال"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**α (alpha)**",
+      "**ألفا**"
+     ],
+     [
+      "partial — greenish zone",
+      "جزئي — منطقة مخضرّة"
+     ],
+     [
+      "__Streptococcus pneumoniae__",
+      "`__Streptococcus pneumoniae__`"
+     ]
+    ],
+    [
+     [
+      "**β (beta)**",
+      "**بيتا**"
+     ],
+     [
+      "complete — clear zone",
+      "كامل — منطقة شفّافة"
+     ],
+     [
+      "__Streptococcus pyogenes__",
+      "`__Streptococcus pyogenes__`"
+     ]
+    ],
+    [
+     [
+      "**γ (gamma)**",
+      "**غاما**"
+     ],
+     [
+      "none — no change",
+      "لا تحلّل — لا تغيّر"
+     ],
+     [
+      "__Enterococcus__",
+      "`__Enterococcus__`"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    42,
+    36
+   ],
+   "style": "summary",
+   "label_en": "BIOS: the three hemolysis patterns",
+   "label_ar": "`BIOS`: أنماط تحلّل الدم الثلاثة"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Gram: positive **purple**, negative **pink**; acid-fast → **Mycobacterium**."
+   ],
+   "ar": [
+    "غرام: الموجبة **بنفسجية** والسالبة **وردية**؛ والصامدة للحامض ← **المتفطّرة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ],
+   "_ff": 2
+  },
+  {
+   "t": "note",
+   "en": [
+    "Special stains: **endospore, capsule, flagella**.",
+    "Culture: colony morphology, O₂ needs, **α / β / γ hemolysis**, pigment and odor."
+   ],
+   "ar": [
+    "الصبغات الخاصة: **الأبواغ والمحفظة والأسواط**.",
+    "الزرع: شكل المستعمرة، والحاجة للأوكسجين، وتحلّل **`α / β / γ`**، والصبغة والرائحة."
+   ],
+   "label": [
+    "In short (continued)",
+    "باختصار (تكملة)"
+   ],
+   "_ff": 2
+  },
+  {
+   "t": "section",
+   "en": "Biochemical identification",
+   "ar": "التشخيص الكيميائي الحيوي"
+  },
+  {
+   "t": "note",
+   "en": "The whole list of biochemical tests is highlighted in the original slides — learn each test with its example.",
+   "ar": "قائمة الفحوص الكيميائية الحيوية كلها مُظلَّلة في الشرائح الأصلية — احفظ كل فحص مع مثاله.",
+   "label": [
+    "Highlighted in the slides",
+    "مُظلَّل في الشرائح"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Biochemical tests determine **bacterial metabolism**:",
+   "ar": "تحدّد الفحوص الكيميائية الحيوية **أيض البكتيريا**:",
+   "list_en": [
+    "**Catalase**: EX __Staphylococcus__ (+) vs. __Streptococcus__ (–)",
+    "**Oxidase**:EX __Pseudomonas__ (+), __Neisseria__ (+)",
+    "**Indole**: EX __E. coli__ (+)",
+    "**Urease**: __Proteus__ (+)",
+    "**Citrate**:EX __Enterobacter__ (+)",
+    "**TSI Agar**: EX Sugar fermentation and H₂S production",
+    "**Coagulase**:EX __S. aureus__ (+)"
+   ],
+   "list_ar": [
+    "**الكاتاليز**: مثال `__Staphylococcus__` (+) مقابل `__Streptococcus__` (–)",
+    "**الأوكسيديز**: مثال `__Pseudomonas__` (+)، و`__Neisseria__` (+)",
+    "**الإندول**: مثال `__E. coli__` (+)",
+    "**اليوريز**: `__Proteus__` (+)",
+    "**السترات**: مثال `__Enterobacter__` (+)",
+    "**آغار `TSI`**: مثال تخمير السكّر وإنتاج `H₂S`",
+    "**التخثّر (الكواغيوليز)**: مثال `__S. aureus__` (+)"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Common Biochemical Tests",
+   "ar": "الفحوص الكيميائية الحيوية الشائعة"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Test",
+     "الفحص"
+    ],
+    [
+     "Purpose",
+     "الغرض"
+    ],
+    [
+     "Example",
+     "مثال"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Catalase**",
+      "**الكاتاليز**"
+     ],
+     [
+      "Detects catalase enzyme",
+      "يكشف إنزيم الكاتاليز"
+     ],
+     [
+      "__Staphylococcus__ (+)",
+      "`__Staphylococcus__` (+)"
+     ]
+    ],
+    [
+     [
+      "**Oxidase**",
+      "**الأوكسيديز**"
+     ],
+     [
+      "Detects cytochrome oxidase",
+      "يكشف السايتوكروم أوكسيديز"
+     ],
+     [
+      "__Pseudomonas__ (+)",
+      "`__Pseudomonas__` (+)"
+     ]
+    ],
+    [
+     [
+      "**Urease**",
+      "**اليوريز**"
+     ],
+     [
+      "Detects urea hydrolysis",
+      "يكشف تحلّل اليوريا"
+     ],
+     [
+      "__Proteus__ (+)",
+      "`__Proteus__` (+)"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    44,
+    34
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Test",
+     "الفحص"
+    ],
+    [
+     "Positive example",
+     "مثال موجب"
+    ],
+    [
+     "How it reads (BIOS)",
+     "كيف يُقرأ `(BIOS)`"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Catalase**",
+      "**الكاتاليز**"
+     ],
+     [
+      "__Staphylococcus__ (+); __Streptococcus__ (–)",
+      "`__Staphylococcus__` (+)؛ `__Streptococcus__` (–)"
+     ],
+     [
+      "bubbles with H₂O₂",
+      "فقاعات مع `H₂O₂`"
+     ]
+    ],
+    [
+     [
+      "**Oxidase**",
+      "**الأوكسيديز**"
+     ],
+     [
+      "__Pseudomonas__, __Neisseria__",
+      "`__Pseudomonas__`، `__Neisseria__`"
+     ],
+     [
+      "purple colour on the reagent",
+      "لون بنفسجي على الكاشف"
+     ]
+    ],
+    [
+     [
+      "**Indole**",
+      "**الإندول**"
+     ],
+     [
+      "__E. coli__",
+      "`__E. coli__`"
+     ],
+     [
+      "red ring with Kovac's reagent",
+      "حلقة حمراء مع كاشف كوفاكس"
+     ]
+    ],
+    [
+     [
+      "**Urease**",
+      "**اليوريز**"
+     ],
+     [
+      "__Proteus__",
+      "`__Proteus__`"
+     ],
+     [
+      "pink medium (urea → ammonia)",
+      "وسط وردي (يوريا ← أمونيا)"
+     ]
+    ],
+    [
+     [
+      "**Citrate**",
+      "**السترات**"
+     ],
+     [
+      "__Enterobacter__",
+      "`__Enterobacter__`"
+     ],
+     [
+      "green → blue (Simmons citrate)",
+      "أخضر ← أزرق (سترات سيمونز)"
+     ]
+    ],
+    [
+     [
+      "**TSI**",
+      "**`TSI`**"
+     ],
+     [
+      "sugar fermentation, H₂S (e.g. __Salmonella__ H₂S +)",
+      "تخمير السكّر و`H₂S` (مثل `__Salmonella__` موجبة `H₂S`)"
+     ],
+     [
+      "yellow = acid, black = H₂S",
+      "أصفر = حامض، أسود = `H₂S`"
+     ]
+    ],
+    [
+     [
+      "**Coagulase**",
+      "**التخثّر**"
+     ],
+     [
+      "__S. aureus__",
+      "`__S. aureus__`"
+     ],
+     [
+      "plasma clots",
+      "تخثّر البلازما"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    18,
+    44,
+    38
+   ],
+   "style": "summary",
+   "label_en": "BIOS: all 7 tests with the result to look for",
+   "label_ar": "`BIOS`: الفحوص السبعة مع النتيجة المطلوبة"
+  },
+  {
+   "t": "note",
+   "en": "For **TSI** the slide gives \"EX\" without an organism; a common example is __Salmonella__ (H₂S positive, black butt).",
+   "ar": "في **`TSI`** كتبت الشريحة \"`EX`\" بلا كائن؛ ومثال شائع `__Salmonella__` (موجبة `H₂S`، قاع أسود).",
+   "label": [
+    "BIOS note",
+    "ملاحظة `BIOS`"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Catalase**: Staph + / Strep –; **coagulase**: S. aureus +.",
+    "**Oxidase**: Pseudomonas, Neisseria +; **indole**: E. coli +.",
+    "**Urease**: Proteus +; **citrate**: Enterobacter +; **TSI**: sugars + H₂S."
+   ],
+   "ar": [
+    "**الكاتاليز**: العنقودية + / العقدية –؛ و**التخثّر**: `S. aureus` +.",
+    "**الأوكسيديز**: الزائفة والنيسرية +؛ و**الإندول**: `E. coli` +.",
+    "**اليوريز**: المتقلّبة +؛ و**السترات**: الأمعائية +؛ و**`TSI`**: السكّريات + `H₂S`."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Serological and molecular",
+   "ar": "المصلية والجزيئية"
+  },
+  {
+   "t": "h2",
+   "en": "Serological Identification",
+   "ar": "التشخيص المصلي"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Agglutination tests**: __Salmonella__, __Shigella__ typing",
+    "**Latex agglutination**: __Streptococcus__ grouping",
+    "**ELISA**: Detects bacterial toxins/antigens",
+    "**Western Blot**: Confirms microbial proteins"
+   ],
+   "list_ar": [
+    "**فحوص التلازن**: تنميط `__Salmonella__` و`__Shigella__`",
+    "**تلازن اللاتكس**: تصنيف `__Streptococcus__` إلى مجاميع",
+    "**الإليزا**: تكشف السموم/المستضدّات البكتيرية",
+    "**اللطخة الغربية**: تؤكّد البروتينات الميكروبية"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Advantages**: Rapid, specific, sensitive.",
+   "ar": "**المزايا**: سريع ونوعي وحسّاس."
+  },
+  {
+   "t": "h2",
+   "en": "Molecular Identification Methods",
+   "ar": "طرائق التشخيص الجزيئي"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**PCR**: Amplifies specific DNA sequences",
+    "**DNA Hybridization**: Uses complementary DNA probes",
+    "**Microarrays**: Identify multiple pathogens simultaneously"
+   ],
+   "list_ar": [
+    "**`PCR`**: يضاعف تسلسلات `DNA` محدّدة",
+    "**تهجين `DNA`**: يستعمل مجسّات `DNA` متمّمة",
+    "**المصفوفات الدقيقة**: تشخّص مُمْرِضات متعدّدة في آنٍ واحد"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Method",
+     "الطريقة"
+    ],
+    [
+     "What it detects / does",
+     "ماذا يكشف / يعمل"
+    ],
+    [
+     "Example use",
+     "مثال الاستعمال"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Agglutination**",
+      "**التلازن**"
+     ],
+     [
+      "antigen + specific antiserum → clumps",
+      "مستضدّ + مصل مضاد نوعي ← تكتّلات"
+     ],
+     [
+      "__Salmonella__, __Shigella__ typing",
+      "تنميط `__Salmonella__` و`__Shigella__`"
+     ]
+    ],
+    [
+     [
+      "**Latex agglutination**",
+      "**تلازن اللاتكس**"
+     ],
+     [
+      "antibody-coated latex beads",
+      "حبيبات لاتكس مغلّفة بالأضداد"
+     ],
+     [
+      "__Streptococcus__ grouping",
+      "تصنيف `__Streptococcus__`"
+     ]
+    ],
+    [
+     [
+      "**ELISA**",
+      "**الإليزا**"
+     ],
+     [
+      "toxins / antigens (enzyme colour)",
+      "سموم / مستضدّات (لون إنزيمي)"
+     ],
+     [
+      "bacterial toxins",
+      "السموم البكتيرية"
+     ]
+    ],
+    [
+     [
+      "**Western blot**",
+      "**اللطخة الغربية**"
+     ],
+     [
+      "specific proteins",
+      "بروتينات محدّدة"
+     ],
+     [
+      "confirmation",
+      "التأكيد"
+     ]
+    ],
+    [
+     [
+      "**PCR**",
+      "**`PCR`**"
+     ],
+     [
+      "amplifies a DNA sequence",
+      "يضاعف تسلسل `DNA`"
+     ],
+     [
+      "one target",
+      "هدف واحد"
+     ]
+    ],
+    [
+     [
+      "**Microarray**",
+      "**المصفوفة الدقيقة**"
+     ],
+     [
+      "many probes at once",
+      "مجسّات كثيرة دفعة واحدة"
+     ],
+     [
+      "multiple pathogens",
+      "مُمْرِضات متعدّدة"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    42,
+    34
+   ],
+   "style": "summary",
+   "label_en": "Serological vs molecular",
+   "label_ar": "المصلية مقابل الجزيئية"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Serological: **agglutination, latex, ELISA, Western blot** — rapid, specific, sensitive.",
+    "Molecular: **PCR** (amplify), **hybridization** (probes), **microarrays** (many pathogens)."
+   ],
+   "ar": [
+    "المصلية: **التلازن، واللاتكس، والإليزا، واللطخة الغربية** — سريعة ونوعية وحسّاسة.",
+    "الجزيئية: **`PCR`** (مضاعفة)، و**التهجين** (مجسّات)، و**المصفوفات** (مُمْرِضات كثيرة)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Automation and AST",
+   "ar": "الأنظمة الآلية وفحص الحساسية"
+  },
+  {
+   "t": "h2",
+   "en": "Automated Identification Systems",
+   "ar": "أنظمة التشخيص الآلية"
+  },
+  {
+   "t": "card",
+   "en": "Modern systems for rapid identification:",
+   "ar": "أنظمة حديثة للتشخيص السريع:",
+   "list_en": [
+    "VITEK 2",
+    "BD Phoenix"
+   ],
+   "list_ar": [
+    "`VITEK 2`",
+    "`BD Phoenix`"
+   ],
+   "_ff": 3
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "MicroScan WalkAway",
+    "MALDI-TOF MS"
+   ],
+   "list_ar": [
+    "`MicroScan WalkAway`",
+    "`MALDI-TOF MS` (مطيافية الكتلة)"
+   ],
+   "start": 3,
+   "_ff": 3
+  },
+  {
+   "t": "card",
+   "en": "Combine **accuracy, speed**, and **antimicrobial susceptibility testing**.",
+   "ar": "تجمع بين **الدقّة والسرعة** و**فحص الحساسية للمضادّات الميكروبية**."
+  },
+  {
+   "t": "note",
+   "en": "**MALDI-TOF MS** identifies a colony in minutes from its **protein mass spectrum** (a \"fingerprint\" compared with a database).",
+   "ar": "**`MALDI-TOF MS`** يشخّص المستعمرة خلال دقائق من **طيف كتلة بروتيناتها** (\"بصمة\" تُقارن بقاعدة بيانات).",
+   "label": [
+    "BIOS note",
+    "ملاحظة `BIOS`"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Antimicrobial Susceptibility Testing (AST)",
+   "ar": "فحص الحساسية للمضادّات الميكروبية `(AST)`"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Kirby-Bauer Disk Diffusion**",
+    "**Minimum Inhibitory Concentration (MIC)**",
+    "**E-test strips**",
+    "Automated systems (VITEK, Phoenix)"
+   ],
+   "list_ar": [
+    "**الانتشار بالأقراص (كيربي-باور)**",
+    "**أدنى تركيز مثبّط (`MIC`)**",
+    "**شرائط `E-test`**",
+    "الأنظمة الآلية (`VITEK` و`Phoenix`)"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Determine **resistance profiles** for **treatment decisions**.",
+   "ar": "تحدّد **أنماط المقاومة** لاتّخاذ **قرارات العلاج**."
+  },
+  {
+   "t": "note",
+   "en": "**MIC** = the **lowest** concentration of an antibiotic that **inhibits visible growth**; Kirby-Bauer reads the **zone of inhibition** around a disk; the E-test strip reads the MIC where the ellipse meets the strip.",
+   "ar": "**`MIC`** = **أدنى** تركيز من المضادّ الحيوي **يثبّط النموّ المرئي**؛ وكيربي-باور يقرأ **منطقة التثبيط** حول القرص؛ وشريط `E-test` يقرأ `MIC` حيث يلتقي القطع الناقص بالشريط.",
+   "label": [
+    "BIOS note",
+    "ملاحظة `BIOS`"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Automated ID: **VITEK 2, BD Phoenix, MicroScan WalkAway, MALDI-TOF MS**.",
+    "AST: **disk diffusion, MIC, E-test, automated** → resistance profile → treatment."
+   ],
+   "ar": [
+    "التشخيص الآلي: **`VITEK 2` و`BD Phoenix` و`MicroScan WalkAway` و`MALDI-TOF MS`**.",
+    "فحص الحساسية: **الأقراص، و`MIC`، و`E-test`، والآلي** ← نمط المقاومة ← العلاج."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Advantages and limitations",
+   "ar": "المزايا والقيود"
+  },
+  {
+   "t": "note",
+   "en": "This table is highlighted in the original slides.",
+   "ar": "هذا الجدول مُظلَّل في الشرائح الأصلية.",
+   "label": [
+    "Highlighted in the slides",
+    "مُظلَّل في الشرائح"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Method",
+     "الطريقة"
+    ],
+    [
+     "Advantages",
+     "المزايا"
+    ],
+    [
+     "Limitations",
+     "القيود"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Microscopy**",
+      "**الفحص المجهري**"
+     ],
+     [
+      "Rapid, simple",
+      "سريع وبسيط"
+     ],
+     [
+      "Low specificity",
+      "نوعية منخفضة"
+     ]
+    ],
+    [
+     [
+      "**Culture**",
+      "**الزرع**"
+     ],
+     [
+      "Reliable",
+      "موثوق"
+     ],
+     [
+      "Time-consuming",
+      "يستغرق وقتًا"
+     ]
+    ],
+    [
+     [
+      "**Biochemical**",
+      "**الكيميائية الحيوية**"
+     ],
+     [
+      "Cost-effective",
+      "اقتصادي (فعّال الكلفة)"
+     ],
+     [
+      "May misidentify atypical strains",
+      "قد يخطئ تشخيص السلالات غير النمطية"
+     ]
+    ],
+    [
+     [
+      "**Serological**",
+      "**المصلية**"
+     ],
+     [
+      "Specific",
+      "نوعي"
+     ],
+     [
+      "Requires known antigens",
+      "يحتاج مستضدّات معروفة"
+     ]
+    ],
+    [
+     [
+      "**Molecular**",
+      "**الجزيئية**"
+     ],
+     [
+      "Fast, accurate",
+      "سريع ودقيق"
+     ],
+     [
+      "Expensive, needs expertise",
+      "مكلف ويحتاج خبرة"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    26,
+    34,
+    40
+   ],
+   "style": "summary",
+   "label_en": "Method | Advantages | Limitations",
+   "label_ar": "الطريقة | المزايا | القيود"
+  },
+  {
+   "t": "h2",
+   "en": "Conclusion",
+   "ar": "الخلاصة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Microbiological identification **integrates classical and molecular methods**."
+   ],
+   "list_ar": [
+    "يدمج التشخيص الميكروبي **الطرائق التقليدية والجزيئية**."
+   ],
+   "_ff": 4
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Combining phenotypic, biochemical, serological, and molecular techniques ensures **accurate and fast diagnostics**.",
+    "**Automation and sequencing** are the future of microbial identification."
+   ],
+   "list_ar": [
+    "والجمع بين التقنيات المظهرية والكيميائية الحيوية والمصلية والجزيئية يضمن **تشخيصًا دقيقًا وسريعًا**.",
+    "و**الأتمتة والتسلسل (السَّلسَلة الجينية)** هما مستقبل التشخيص الميكروبي."
+   ],
+   "start": 2,
+   "_ff": 4
+  },
+  {
+   "t": "h2",
+   "en": "References",
+   "ar": "المصادر"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Reference",
+     "المصدر"
+    ],
+    [
+     "In Arabic",
+     "بالعربي"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "1. Tille, P. M. (2021). Bailey & Scott’s Diagnostic Microbiology. Elsevier.",
+      "تيل (2021): كتاب بيلي وسكوت للأحياء المجهرية التشخيصية"
+     ]
+    ],
+    [
+     [
+      "2. Murray, P. R. et al. (2021). Manual of Clinical Microbiology. ASM Press.",
+      "موراي وآخرون (2021): دليل الأحياء المجهرية السريرية"
+     ]
+    ],
+    [
+     [
+      "3. Forbes, B. A., Sahm, D. F. & Weissfeld, A. S. (2020). Bailey & Scott’s Diagnostic Microbiology.",
+      "فوربس وساهم ووايسفيلد (2020): كتاب بيلي وسكوت للأحياء المجهرية التشخيصية"
+     ]
+    ],
+    [
+     [
+      "4. Cheesbrough, M. (2019). District Laboratory Practice in Tropical Countries.",
+      "تشيزبرو (2019): الممارسة المختبرية في المناطق الحارّة"
+     ]
+    ]
+   ],
+   "widths": [
+    62,
+    38
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Fastest + most accurate = **molecular** (but expensive); cheapest = **biochemical**; most reliable = **culture** (but slow).",
+    "Future: **automation and sequencing**."
+   ],
+   "ar": [
+    "الأسرع والأدقّ = **الجزيئية** (لكنها مكلفة)؛ والأرخص = **الكيميائية الحيوية**؛ والأوثق = **الزرع** (لكنه بطيء).",
+    "المستقبل: **الأتمتة والسَّلسَلة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Microbiological identification**",
+     "التشخيص الميكروبي / تعريف الأحياء المجهرية"
+    ],
+    [
+     "**Etiologic agent**",
+     "العامل المسبّب / المُسبِّب المرضي"
+    ],
+    [
+     "**Taxonomy**",
+     "علم التصنيف / التصنيف"
+    ],
+    [
+     "**Surveillance / outbreak**",
+     "الترصّد / الفاشية (التفشّي)"
+    ],
+    [
+     "**Phenotypic methods**",
+     "الطرائق المظهرية / النمطية الظاهرية"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 5
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Aseptic technique**",
+     "تقنية معقّمة / عمل لا تلوّثي"
+    ],
+    [
+     "**Selective / differential media**",
+     "أوساط انتقائية / تفريقية"
+    ],
+    [
+     "**Acid-fast stain**",
+     "الصبغة الصامدة للحامض / صبغة زيل-نيلسن"
+    ],
+    [
+     "**Colony morphology**",
+     "شكل المستعمرة / الصفات الشكلية للمستعمرة"
+    ],
+    [
+     "**Microaerophilic**",
+     "محبّ للهواء القليل / قليل الهواء"
+    ],
+    [
+     "**Hemolysis**",
+     "تحلّل الدم / انحلال الدم"
+    ],
+    [
+     "**Catalase / oxidase / urease**",
+     "الكاتاليز / الأوكسيديز / اليوريز"
+    ],
+    [
+     "**Coagulase**",
+     "التخثّر / الكواغيوليز (إنزيم التخثير)"
+    ],
+    [
+     "**Agglutination**",
+     "التلازن / التراصّ"
+    ],
+    [
+     "**Hybridization / probe**",
+     "التهجين / المجسّ"
+    ],
+    [
+     "**Microarray**",
+     "المصفوفة الدقيقة"
+    ],
+    [
+     "**Antimicrobial susceptibility testing (AST)**",
+     "فحص الحساسية للمضادّات / اختبار الحساسية الدوائية"
+    ],
+    [
+     "**Minimum inhibitory concentration (MIC)**",
+     "أدنى تركيز مثبّط"
+    ],
+    [
+     "**Disk diffusion**",
+     "الانتشار بالأقراص"
+    ],
+    [
+     "**Atypical strain**",
+     "سلالة غير نمطية"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 5
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Introduction and general steps",
+    "topic_ar": "المقدّمة والخطوات العامة"
+   },
+   {
+    "en": "Microbiological identification determines the:",
+    "ar": "يحدّد التشخيص الميكروبي:",
+    "options": [
+     [
+      "Blood group",
+      "فصيلة الدم"
+     ],
+     [
+      "Price of antibiotics",
+      "سعر المضادّات"
+     ],
+     [
+      "Type, genus or species of microorganisms",
+      "نوع الأحياء المجهرية أو جنسها أو نوعها"
+     ],
+     [
+      "Patient's age",
+      "عمر المريض"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Microbiological identification combines:",
+    "ar": "يجمع التشخيص الميكروبي بين:",
+    "options": [
+     [
+      "Only microscopy and culture",
+      "المجهر والزرع فقط"
+     ],
+     [
+      "Only automation",
+      "الأتمتة فقط"
+     ],
+     [
+      "Only serology",
+      "المصلية فقط"
+     ],
+     [
+      "Classical (phenotypic) and modern (molecular) methods",
+      "الطرائق التقليدية (المظهرية) والحديثة (الجزيئية)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which is NOT an objective of microbial identification?",
+    "ar": "أيّها ليس من أهداف التشخيص الميكروبي؟",
+    "options": [
+     [
+      "Determine etiologic agents",
+      "تحديد العوامل المسبّبة"
+     ],
+     [
+      "Determine the patient's blood group",
+      "تحديد فصيلة دم المريض"
+     ],
+     [
+      "Trace outbreaks",
+      "تتبّع الفاشيات"
+     ],
+     [
+      "Guide therapy and infection control",
+      "توجيه العلاج ومكافحة العدوى"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The first general step in identification is:",
+    "ar": "الخطوة العامة الأولى في التشخيص:",
+    "options": [
+     [
+      "Sample collection",
+      "جمع العيّنة"
+     ],
+     [
+      "PCR",
+      "PCR"
+     ],
+     [
+      "Serological testing",
+      "الفحص المصلي"
+     ],
+     [
+      "Biochemical tests",
+      "الفحوص الكيميائية الحيوية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Aseptic techniques during sample collection are used to:",
+    "ar": "تُستعمل التقنيات المعقّمة أثناء جمع العيّنة لـ:",
+    "options": [
+     [
+      "Stain the bacteria",
+      "تصبيغ البكتيريا"
+     ],
+     [
+      "Avoid contamination",
+      "تجنّب التلوّث"
+     ],
+     [
+      "Speed up growth",
+      "تسريع النموّ"
+     ],
+     [
+      "Detect antibodies",
+      "كشف الأضداد"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Cultivation in identification uses:",
+    "ar": "يستعمل الزرع في التشخيص:",
+    "options": [
+     [
+      "DNA probes",
+      "مجسّات `DNA`"
+     ],
+     [
+      "Latex beads",
+      "حبيبات اللاتكس"
+     ],
+     [
+      "Antibiotic disks only",
+      "أقراص المضادّات فقط"
+     ],
+     [
+      "Selective and differential media",
+      "أوساطًا انتقائية وتفريقية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Microscopy and culture",
+    "topic_ar": "المجهر والزرع"
+   },
+   {
+    "en": "In the Gram stain, Gram-negative bacteria appear:",
+    "ar": "في صبغة غرام تظهر البكتيريا السالبة:",
+    "options": [
+     [
+      "Pink",
+      "وردية"
+     ],
+     [
+      "Purple",
+      "بنفسجية"
+     ],
+     [
+      "Green",
+      "خضراء"
+     ],
+     [
+      "Black",
+      "سوداء"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The acid-fast stain detects:",
+    "ar": "تكشف الصبغة الصامدة للحامض:",
+    "options": [
+     [
+      "E. coli",
+      "الإشريكية القولونية"
+     ],
+     [
+      "Streptococcus",
+      "العقدية"
+     ],
+     [
+      "Mycobacterium",
+      "المتفطّرة"
+     ],
+     [
+      "Proteus",
+      "المتقلّبة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Special stains are used for:",
+    "ar": "تُستعمل الصبغات الخاصة لـ:",
+    "options": [
+     [
+      "Blood typing",
+      "تحديد فصائل الدم"
+     ],
+     [
+      "DNA amplification",
+      "مضاعفة `DNA`"
+     ],
+     [
+      "Measuring MIC",
+      "قياس `MIC`"
+     ],
+     [
+      "Endospore, capsule and flagella",
+      "الأبواغ الداخلية والمحفظة والأسواط"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Hemolysis patterns are read on:",
+    "ar": "تُقرأ أنماط تحلّل الدم على:",
+    "options": [
+     [
+      "MacConkey agar",
+      "آغار ماكونكي"
+     ],
+     [
+      "Blood agar",
+      "آغار الدم"
+     ],
+     [
+      "TSI agar",
+      "آغار `TSI`"
+     ],
+     [
+      "Simmons citrate",
+      "سترات سيمونز"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which is a cultural characteristic?",
+    "ar": "أيّها من الصفات الزرعية؟",
+    "options": [
+     [
+      "Colony size, color, texture and elevation",
+      "حجم المستعمرة ولونها وقوامها وارتفاعها"
+     ],
+     [
+      "DNA sequence",
+      "تسلسل `DNA`"
+     ],
+     [
+      "Antibody titer",
+      "عيار الأضداد"
+     ],
+     [
+      "Protein band",
+      "شريط بروتيني"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Biochemical tests",
+    "topic_ar": "الفحوص الكيميائية الحيوية"
+   },
+   {
+    "en": "The catalase test differentiates:",
+    "ar": "يفرّق فحص الكاتاليز بين:",
+    "options": [
+     [
+      "E. coli and Proteus",
+      "الإشريكية والمتقلّبة"
+     ],
+     [
+      "Salmonella and Shigella",
+      "السالمونيلا والشيغيلا"
+     ],
+     [
+      "Staphylococcus (+) and Streptococcus (–)",
+      "العنقودية (+) والعقدية (–)"
+     ],
+     [
+      "Neisseria and Pseudomonas",
+      "النيسرية والزائفة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which organisms are oxidase positive in the slides?",
+    "ar": "أيّ الكائنات موجبة الأوكسيديز في الشرائح؟",
+    "options": [
+     [
+      "Pseudomonas and Neisseria",
+      "الزائفة والنيسرية"
+     ],
+     [
+      "S. aureus",
+      "العنقودية الذهبية"
+     ],
+     [
+      "E. coli and Enterobacter",
+      "الإشريكية والأمعائية"
+     ],
+     [
+      "Proteus only",
+      "المتقلّبة فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The indole test example in the slides is:",
+    "ar": "مثال فحص الإندول في الشرائح:",
+    "options": [
+     [
+      "Proteus",
+      "المتقلّبة"
+     ],
+     [
+      "E. coli (+)",
+      "الإشريكية القولونية (+)"
+     ],
+     [
+      "Neisseria",
+      "النيسرية"
+     ],
+     [
+      "Enterobacter",
+      "الأمعائية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Urease positive organism in the slides:",
+    "ar": "الكائن الموجب لليوريز في الشرائح:",
+    "options": [
+     [
+      "E. coli",
+      "الإشريكية القولونية"
+     ],
+     [
+      "Streptococcus",
+      "العقدية"
+     ],
+     [
+      "Proteus",
+      "المتقلّبة"
+     ],
+     [
+      "Mycobacterium",
+      "المتفطّرة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Citrate positive example in the slides:",
+    "ar": "مثال موجب السترات في الشرائح:",
+    "options": [
+     [
+      "Staphylococcus",
+      "العنقودية"
+     ],
+     [
+      "Streptococcus",
+      "العقدية"
+     ],
+     [
+      "Neisseria",
+      "النيسرية"
+     ],
+     [
+      "Enterobacter",
+      "الأمعائية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "TSI agar detects:",
+    "ar": "يكشف آغار `TSI`:",
+    "options": [
+     [
+      "Catalase enzyme",
+      "إنزيم الكاتاليز"
+     ],
+     [
+      "Capsule",
+      "المحفظة"
+     ],
+     [
+      "Sugar fermentation and H₂S production",
+      "تخمير السكّر وإنتاج `H`₂`S`"
+     ],
+     [
+      "DNA sequences",
+      "تسلسلات `DNA`"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The coagulase test example is:",
+    "ar": "مثال فحص التخثّر:",
+    "options": [
+     [
+      "Streptococcus",
+      "العقدية"
+     ],
+     [
+      "S. aureus (+)",
+      "العنقودية الذهبية (+)"
+     ],
+     [
+      "Enterobacter",
+      "الأمعائية"
+     ],
+     [
+      "Proteus",
+      "المتقلّبة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The oxidase test detects:",
+    "ar": "يكشف فحص الأوكسيديز:",
+    "options": [
+     [
+      "Cytochrome oxidase",
+      "السايتوكروم أوكسيديز"
+     ],
+     [
+      "Urea hydrolysis",
+      "تحلّل اليوريا"
+     ],
+     [
+      "Catalase enzyme",
+      "إنزيم الكاتاليز"
+     ],
+     [
+      "Toxins",
+      "السموم"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Biochemical tests determine bacterial:",
+    "ar": "تحدّد الفحوص الكيميائية الحيوية لدى البكتيريا:",
+    "options": [
+     [
+      "Size only",
+      "الحجم فقط"
+     ],
+     [
+      "Antibodies",
+      "الأضداد"
+     ],
+     [
+      "DNA sequence",
+      "تسلسل `DNA`"
+     ],
+     [
+      "Metabolism",
+      "الأيض"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Serological, molecular, automated and AST",
+    "topic_ar": "المصلية والجزيئية والآلية وفحص الحساسية"
+   },
+   {
+    "en": "Latex agglutination is used for:",
+    "ar": "يُستعمل تلازن اللاتكس لـ:",
+    "options": [
+     [
+      "Salmonella typing",
+      "تنميط السالمونيلا"
+     ],
+     [
+      "Streptococcus grouping",
+      "تصنيف العقدية"
+     ],
+     [
+      "Detecting toxins",
+      "كشف السموم"
+     ],
+     [
+      "DNA amplification",
+      "مضاعفة `DNA`"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Salmonella and Shigella typing uses:",
+    "ar": "يستعمل تنميط السالمونيلا والشيغيلا:",
+    "options": [
+     [
+      "Agglutination tests",
+      "فحوص التلازن"
+     ],
+     [
+      "Microarrays",
+      "المصفوفات الدقيقة"
+     ],
+     [
+      "E-test",
+      "E-test"
+     ],
+     [
+      "Western blot",
+      "اللطخة الغربية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "ELISA detects:",
+    "ar": "تكشف الإليزا:",
+    "options": [
+     [
+      "Flagella",
+      "الأسواط"
+     ],
+     [
+      "Colony elevation",
+      "ارتفاع المستعمرة"
+     ],
+     [
+      "Hemolysis",
+      "تحلّل الدم"
+     ],
+     [
+      "Bacterial toxins/antigens",
+      "السموم/المستضدّات البكتيرية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Western blot:",
+    "ar": "اللطخة الغربية:",
+    "options": [
+     [
+      "Amplifies DNA",
+      "تضاعف `DNA`"
+     ],
+     [
+      "Measures MIC",
+      "تقيس `MIC`"
+     ],
+     [
+      "Confirms microbial proteins",
+      "تؤكّد البروتينات الميكروبية"
+     ],
+     [
+      "Stains capsules",
+      "تصبغ المحافظ"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "PCR:",
+    "ar": "تفاعل `PCR`:",
+    "options": [
+     [
+      "Uses latex beads",
+      "يستعمل حبيبات اللاتكس"
+     ],
+     [
+      "Amplifies specific DNA sequences",
+      "يضاعف تسلسلات `DNA` محدّدة"
+     ],
+     [
+      "Detects catalase",
+      "يكشف الكاتاليز"
+     ],
+     [
+      "Reads hemolysis",
+      "يقرأ تحلّل الدم"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Microarrays can:",
+    "ar": "تستطيع المصفوفات الدقيقة:",
+    "options": [
+     [
+      "Identify only one pathogen",
+      "تشخيص مُمْرِض واحد فقط"
+     ],
+     [
+      "Replace sample collection",
+      "الاستغناء عن جمع العيّنة"
+     ],
+     [
+      "Identify multiple pathogens simultaneously",
+      "تشخيص مُمْرِضات متعدّدة في آنٍ واحد"
+     ],
+     [
+      "Stain bacteria",
+      "تصبيغ البكتيريا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which is NOT an automated identification system in the slides?",
+    "ar": "أيّها ليس من أنظمة التشخيص الآلية في الشرائح؟",
+    "options": [
+     [
+      "MALDI-TOF MS",
+      "MALDI-TOF MS"
+     ],
+     [
+      "VITEK 2",
+      "VITEK 2"
+     ],
+     [
+      "BD Phoenix",
+      "BD Phoenix"
+     ],
+     [
+      "Gram stain",
+      "صبغة غرام"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Kirby-Bauer is a method of:",
+    "ar": "كيربي-باور طريقة لـ:",
+    "options": [
+     [
+      "Antimicrobial susceptibility testing (disk diffusion)",
+      "فحص الحساسية للمضادّات (الانتشار بالأقراص)"
+     ],
+     [
+      "Molecular identification",
+      "التشخيص الجزيئي"
+     ],
+     [
+      "Serological typing",
+      "التنميط المصلي"
+     ],
+     [
+      "Staining",
+      "التصبيغ"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The main limitation of molecular methods is that they are:",
+    "ar": "القيد الرئيس للطرائق الجزيئية أنها:",
+    "options": [
+     [
+      "Slow",
+      "بطيئة"
+     ],
+     [
+      "Low specificity",
+      "منخفضة النوعية"
+     ],
+     [
+      "Expensive and need expertise",
+      "مكلفة وتحتاج خبرة"
+     ],
+     [
+      "Need known antigens",
+      "تحتاج مستضدّات معروفة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which method is cost-effective but may misidentify atypical strains?",
+    "ar": "أيّ طريقة اقتصادية لكنها قد تخطئ في السلالات غير النمطية؟",
+    "options": [
+     [
+      "Molecular",
+      "الجزيئية"
+     ],
+     [
+      "Biochemical",
+      "الكيميائية الحيوية"
+     ],
+     [
+      "Microscopy",
+      "المجهرية"
+     ],
+     [
+      "Serological",
+      "المصلية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Serological methods require:",
+    "ar": "تحتاج الطرائق المصلية إلى:",
+    "options": [
+     [
+      "Known antigens",
+      "مستضدّات معروفة"
+     ],
+     [
+      "Sequencing",
+      "سَلسَلة"
+     ],
+     [
+      "Blood agar",
+      "آغار الدم"
+     ],
+     [
+      "Kovac's reagent",
+      "كاشف كوفاكس"
+     ]
+    ],
+    "answer": "a"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Microbiological identification is essential for antimicrobial selection.",
+    "ar": "التشخيص الميكروبي أساسي لاختيار المضادّ الميكروبي.",
+    "answer": "T"
+   },
+   {
+    "en": "Serological testing in identification is based on DNA/RNA.",
+    "ar": "يعتمد الفحص المصلي في التشخيص على `DNA/RNA`.",
+    "answer": "F"
+   },
+   {
+    "en": "Gram-positive bacteria appear purple.",
+    "ar": "تظهر البكتيريا الموجبة لغرام بنفسجية.",
+    "answer": "T"
+   },
+   {
+    "en": "The acid-fast stain is used to detect Mycobacterium.",
+    "ar": "تُستعمل الصبغة الصامدة للحامض لكشف المتفطّرة.",
+    "answer": "T"
+   },
+   {
+    "en": "Streptococcus is catalase positive.",
+    "ar": "العقدية موجبة الكاتاليز.",
+    "answer": "F"
+   },
+   {
+    "en": "Neisseria is oxidase positive.",
+    "ar": "النيسرية موجبة الأوكسيديز.",
+    "answer": "T"
+   },
+   {
+    "en": "Proteus is urease positive.",
+    "ar": "المتقلّبة موجبة اليوريز.",
+    "answer": "T"
+   },
+   {
+    "en": "Coagulase is used to identify S. aureus.",
+    "ar": "يُستعمل التخثّر لتشخيص العنقودية الذهبية.",
+    "answer": "T"
+   },
+   {
+    "en": "ELISA confirms microbial proteins by blotting.",
+    "ar": "تؤكّد الإليزا البروتينات الميكروبية بالتلطيخ.",
+    "answer": "F"
+   },
+   {
+    "en": "Microarrays identify multiple pathogens simultaneously.",
+    "ar": "تشخّص المصفوفات الدقيقة مُمْرِضات متعدّدة في آنٍ واحد.",
+    "answer": "T"
+   },
+   {
+    "en": "MALDI-TOF MS is an automated identification system.",
+    "ar": "`MALDI-TOF MS` نظام تشخيص آلي.",
+    "answer": "T"
+   },
+   {
+    "en": "E-test strips are used for antimicrobial susceptibility testing.",
+    "ar": "تُستعمل شرائط `E-test` لفحص الحساسية للمضادّات.",
+    "answer": "T"
+   },
+   {
+    "en": "Culture is rapid but has low specificity.",
+    "ar": "الزرع سريع لكنه منخفض النوعية.",
+    "answer": "F"
+   },
+   {
+    "en": "Automation and sequencing are described as the future of microbial identification.",
+    "ar": "تُوصف الأتمتة والسَّلسَلة بأنهما مستقبل التشخيص الميكروبي.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Catalase vs coagulase",
+    "ar": "الكاتاليز مقابل التخثّر",
+    "answer_en": "Catalase separates Staphylococcus (+) from Streptococcus (–). Coagulase then identifies S. aureus (+) among staphylococci.",
+    "answer_ar": "الكاتاليز يفصل العنقودية (+) عن العقدية (–). ثم التخثّر يشخّص العنقودية الذهبية (+) بين العنقوديات."
+   },
+   {
+    "en": "Which organism goes with which test",
+    "ar": "أيّ كائن مع أيّ فحص",
+    "answer_en": "Oxidase: Pseudomonas, Neisseria · Indole: E. coli · Urease: Proteus · Citrate: Enterobacter · Coagulase: S. aureus.",
+    "answer_ar": "الأوكسيديز: الزائفة والنيسرية · الإندول: الإشريكية القولونية · اليوريز: المتقلّبة · السترات: الأمعائية · التخثّر: العنقودية الذهبية."
+   },
+   {
+    "en": "Gram colours",
+    "ar": "ألوان غرام",
+    "answer_en": "Positive = PURPLE, negative = PINK — do not swap them.",
+    "answer_ar": "الموجبة = بنفسجية، والسالبة = وردية — لا تقلبها."
+   },
+   {
+    "en": "Agglutination vs latex agglutination",
+    "ar": "التلازن مقابل تلازن اللاتكس",
+    "answer_en": "Agglutination tests → Salmonella, Shigella typing. Latex agglutination → Streptococcus grouping.",
+    "answer_ar": "فحوص التلازن ← تنميط السالمونيلا والشيغيلا. تلازن اللاتكس ← تصنيف العقدية إلى مجاميع."
+   },
+   {
+    "en": "ELISA vs Western blot",
+    "ar": "الإليزا مقابل اللطخة الغربية",
+    "answer_en": "ELISA detects toxins/antigens; Western blot CONFIRMS microbial proteins.",
+    "answer_ar": "الإليزا تكشف السموم/المستضدّات؛ واللطخة الغربية تؤكّد البروتينات الميكروبية."
+   },
+   {
+    "en": "Advantages table",
+    "ar": "جدول المزايا",
+    "answer_en": "Culture = reliable but time-consuming; microscopy = rapid but low specificity; molecular = fast and accurate but expensive.",
+    "answer_ar": "الزرع = موثوق لكن بطيء؛ والمجهر = سريع لكن منخفض النوعية؛ والجزيئي = سريع ودقيق لكن مكلف."
+   },
+   {
+    "en": "Automated systems do two jobs",
+    "ar": "الأنظمة الآلية تعمل عملين",
+    "answer_en": "VITEK and Phoenix appear under identification AND under AST — they combine identification with susceptibility testing.",
+    "answer_ar": "`VITEK` و`Phoenix` مذكوران تحت التشخيص وتحت فحص الحساسية — فهما يجمعان التشخيص مع فحص الحساسية."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define microbiological identification and give its importance.",
+    "ar": "عرّف التشخيص الميكروبي واذكر أهميته.",
+    "answer_en": "It determines the type, genus or species of microorganisms. It is essential for disease diagnosis, antimicrobial selection, food safety and microbial research, and combines classical (phenotypic) and modern (molecular) methods.",
+    "answer_ar": "يحدّد نوع الأحياء المجهرية أو جنسها أو نوعها. وهو أساسي لتشخيص المرض، واختيار المضادّ، وسلامة الغذاء، والبحث الميكروبي، ويجمع بين الطرائق التقليدية (المظهرية) والحديثة (الجزيئية)."
+   },
+   {
+    "en": "List the objectives of microbial identification.",
+    "ar": "عدّد أهداف التشخيص الميكروبي.",
+    "answer_en": "1. Determine etiologic agents of infection 2. Understand microbial diversity and taxonomy 3. Guide therapy and infection control 4. Trace outbreaks and perform surveillance.",
+    "answer_ar": "1. تحديد العوامل المسبّبة للعدوى 2. فهم التنوّع والتصنيف الميكروبي 3. توجيه العلاج ومكافحة العدوى 4. تتبّع الفاشيات وإجراء الترصّد."
+   },
+   {
+    "en": "List the general steps in identification.",
+    "ar": "عدّد الخطوات العامة في التشخيص.",
+    "answer_en": "1. Sample collection (aseptic) 2. Microscopic examination (morphology, staining) 3. Cultivation (selective and differential media) 4. Biochemical characterization (metabolic profiling) 5. Serological testing (antigen/antibody) 6. Molecular identification (DNA/RNA).",
+    "answer_ar": "1. جمع العيّنة (معقّم) 2. الفحص المجهري (الشكل والتصبيغ) 3. الزرع (أوساط انتقائية وتفريقية) 4. التوصيف الكيميائي الحيوي (التنميط الأيضي) 5. الفحص المصلي (مستضدّ/ضدّ) 6. التشخيص الجزيئي `(DNA/RNA)`."
+   },
+   {
+    "en": "Name the biochemical tests in the lab with an example of each.",
+    "ar": "اذكر الفحوص الكيميائية الحيوية في العملي مع مثال لكل منها.",
+    "answer_en": "Catalase: Staphylococcus (+) vs Streptococcus (–); Oxidase: Pseudomonas (+), Neisseria (+); Indole: E. coli (+); Urease: Proteus (+); Citrate: Enterobacter (+); TSI agar: sugar fermentation and H₂S production; Coagulase: S. aureus (+).",
+    "answer_ar": "الكاتاليز: العنقودية (+) مقابل العقدية (–)؛ الأوكسيديز: الزائفة (+) والنيسرية (+)؛ الإندول: الإشريكية القولونية (+)؛ اليوريز: المتقلّبة (+)؛ السترات: الأمعائية (+)؛ آغار `TSI`: تخمير السكّر وإنتاج `H`₂`S`؛ التخثّر: العنقودية الذهبية (+)."
+   },
+   {
+    "en": "What are the cultural characteristics used in identification?",
+    "ar": "ما الصفات الزرعية المستعملة في التشخيص؟",
+    "answer_en": "Colony morphology (size, color, texture, elevation); growth conditions (aerobic, anaerobic, microaerophilic); hemolysis patterns on blood agar (α, β, γ); pigment and odor production.",
+    "answer_ar": "شكل المستعمرة (الحجم واللون والقوام والارتفاع)؛ وظروف النموّ (هوائي، لاهوائي، محبّ للهواء القليل)؛ وأنماط تحلّل الدم على آغار الدم (α وβ وγ)؛ وإنتاج الصبغة والرائحة."
+   },
+   {
+    "en": "Compare serological and molecular identification methods.",
+    "ar": "قارن بين طرائق التشخيص المصلية والجزيئية.",
+    "answer_en": "Serological: agglutination (Salmonella, Shigella typing), latex agglutination (Streptococcus grouping), ELISA (toxins/antigens), Western blot (proteins) — rapid, specific, sensitive but need known antigens. Molecular: PCR (amplifies DNA), DNA hybridization (probes), microarrays (multiple pathogens) — fast, accurate but expensive and need expertise.",
+    "answer_ar": "المصلية: التلازن (تنميط السالمونيلا والشيغيلا)، وتلازن اللاتكس (تصنيف العقدية)، والإليزا (السموم/المستضدّات)، واللطخة الغربية (البروتينات) — سريعة ونوعية وحسّاسة لكنها تحتاج مستضدّات معروفة. الجزيئية: `PCR` (يضاعف `DNA`)، والتهجين (مجسّات)، والمصفوفات (مُمْرِضات متعدّدة) — سريعة ودقيقة لكنها مكلفة وتحتاج خبرة."
+   },
+   {
+    "en": "Name the automated identification systems and the AST methods.",
+    "ar": "اذكر أنظمة التشخيص الآلية وطرائق فحص الحساسية.",
+    "answer_en": "Automated: VITEK 2, BD Phoenix, MicroScan WalkAway, MALDI-TOF MS (accuracy, speed, AST). AST: Kirby-Bauer disk diffusion, minimum inhibitory concentration (MIC), E-test strips, automated systems (VITEK, Phoenix) — they determine resistance profiles for treatment decisions.",
+    "answer_ar": "الآلية: `VITEK 2` و`BD Phoenix` و`MicroScan WalkAway` و`MALDI-TOF MS` (دقّة وسرعة وفحص حساسية). فحص الحساسية: الانتشار بالأقراص (كيربي-باور)، وأدنى تركيز مثبّط `(MIC)`، وشرائط `E-test`، والأنظمة الآلية (`VITEK` و`Phoenix`) — وتحدّد أنماط المقاومة لقرارات العلاج."
+   },
+   {
+    "en": "Give the advantages and limitations of each identification method.",
+    "ar": "اذكر مزايا كل طريقة تشخيص وقيودها.",
+    "answer_en": "Microscopy: rapid, simple / low specificity. Culture: reliable / time-consuming. Biochemical: cost-effective / may misidentify atypical strains. Serological: specific / requires known antigens. Molecular: fast, accurate / expensive, needs expertise.",
+    "answer_ar": "المجهر: سريع وبسيط / نوعية منخفضة. الزرع: موثوق / يستغرق وقتًا. الكيميائية الحيوية: اقتصادية / قد تخطئ في السلالات غير النمطية. المصلية: نوعية / تحتاج مستضدّات معروفة. الجزيئية: سريعة ودقيقة / مكلفة وتحتاج خبرة."
+   }
+  ]
+ }
+}
