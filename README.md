@@ -47,6 +47,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `advtech-lec3-ria/` — Advanced Techniques lecture 3: Radioimmunoassay (RIA) — third stage.
 - `advtech-lec5-pcr/` — Advanced Techniques lecture 5: Polymerase Chain Reaction (د. مصطفى محمود مصطفى) — third stage, new style, questions inside (slides were pictures of text, transcribed).
 - `advtech-lec4-plasma-urine-proteins/` — Advanced Techniques lecture 4: Proteins in plasma and urine (د. مصطفى محمود مصطفى) — third stage, new style, questions inside.
+- `advtech-lab3-cie/` — Advanced Techniques **practical** lab 3: Counter Immunoelectrophoresis (CIE), ليندا منجد هادي (from the pptx title slide), third stage, questions merged. 10 slide pictures = 6 distinct (duplicates used once); the 4 review questions are in the important questions. 25 pages + cover.
 - `hematology-lab1-blood-collection/` — Hematology (أمراض الدم) practical lab 1: blood collection — third stage.
 - `genetics-lec1-cell-cycle-mitosis/` — Genetics (علم الوراثة) lecture 1: cell cycle and mitosis — third stage.
 - `genetics-lec2-meiosis/` — Genetics theory lecture 2: Meiosis (د. عبد سلطان) — third stage, new style.

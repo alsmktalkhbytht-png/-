@@ -1,0 +1,1424 @@
+{
+ "meta": {
+  "subject_en": "Advanced Techniques (Practical)",
+  "subject_ar": "التقنيات المتقدمة العملي",
+  "short_ar": "تقنيات متقدمة",
+  "instructor": "ليندا منجد هادي",
+  "unit_en": "Lab 3",
+  "unit_ar": "العملي 3",
+  "unit_label": "LAB",
+  "unit_no": "3",
+  "title_en": "Counter Immunoelectrophoresis (CIE)",
+  "title_ar": "الرحلان الكهربائي المناعي المعاكس",
+  "department": "قسم التحليلات",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "What is CIE?",
+   "ar": "ما هو `CIE`؟"
+  },
+  {
+   "t": "note",
+   "en": "Practical Laboratory Lecture · Presented By : Linda Munjed Hadi",
+   "ar": "محاضرة مختبرية عملية · تقديم: ليندا منجد هادي",
+   "label": [
+    "Lab sheet",
+    "ورقة العملي"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "CIE is a **rapid immunological test**.",
+    "It detects a **specific antigen or antibody**.",
+    "The test uses an **electric current** to move antigen and antibody **toward each other**.",
+    "A **visible precipitation line** means a reaction occurred."
+   ],
+   "list_ar": [
+    "`CIE` **فحص مناعي سريع**.",
+    "يكشف **مستضدًّا أو ضدًّا نوعيًا**.",
+    "يستعمل الفحص **تيارًا كهربائيًا** لتحريك المستضدّ والضدّ **نحو بعضهما**.",
+    "و**خطّ الترسيب المرئي** يعني حدوث التفاعل."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/cie-scheme.png",
+   "en": "COUNTER IMMUNOELECTROPHORESIS: Ag moves from the CATHODE side and Ab from the ANODE side toward each other",
+   "ar": "الرحلان الكهربائي المناعي المعاكس: يتحرّك المستضدّ `(Ag)` من جهة **المهبط** والضدّ `(Ab)` من جهة **المصعد** نحو بعضهما",
+   "h": "44mm"
+  },
+  {
+   "t": "note",
+   "en": [
+    "CIE = **rapid** immunological test for a **specific antigen or antibody**.",
+    "**Electric current** moves Ag and Ab **toward each other**; a **line** = reaction."
+   ],
+   "ar": [
+    "`CIE` = فحص مناعي **سريع** لـ**مستضدّ أو ضدّ نوعي**.",
+    "**التيار الكهربائي** يحرّك المستضدّ والضدّ **نحو بعضهما**؛ و**الخطّ** = تفاعل."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Basic idea and principle",
+   "ar": "الفكرة الأساسية والمبدأ"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Antigen",
+     "ar": "المستضدّ"
+    },
+    {
+     "en": "Electric field",
+     "ar": "المجال الكهربائي"
+    },
+    {
+     "en": "Antibody",
+     "ar": "الضدّ"
+    },
+    {
+     "en": "Meet in gel",
+     "ar": "يلتقيان في الهلام"
+    },
+    {
+     "en": "Precipitation line",
+     "ar": "خطّ الترسيب"
+    }
+   ],
+   "en": "Basic Idea",
+   "ar": "الفكرة الأساسية"
+  },
+  {
+   "t": "card",
+   "en": "**Key idea:** electricity makes the reaction **faster than simple diffusion**.",
+   "ar": "**الفكرة المفتاحية:** الكهرباء تجعل التفاعل **أسرع من الانتشار البسيط**."
+  },
+  {
+   "t": "h2",
+   "en": "Principle of CIE",
+   "ar": "مبدأ `CIE`"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Antigen and antibody are placed in **separate wells** in an **agarose gel**.",
+    "An **electric field** is applied.",
+    "They **move toward each other**.",
+    "When they meet at the **right proportion**, a **precipitin line** forms."
+   ],
+   "list_ar": [
+    "يوضع المستضدّ والضدّ في **حُفَر منفصلة** في **هلام الآغاروز**.",
+    "يُطبَّق **مجال كهربائي**.",
+    "**يتحرّكان نحو بعضهما**.",
+    "وعندما يلتقيان **بالنسبة الصحيحة** يتكوّن **خطّ الترسيب**."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/cie-principle.png",
+   "en": "Counter immunoelectrophoresis principle: Cathode, Electric current →, Anode; Agarose; Wells containing antigen and antibody; Precipitin line; Slide",
+   "ar": "مبدأ الرحلان الكهربائي المناعي المعاكس: المهبط، التيار الكهربائي ←، المصعد؛ الآغاروز؛ حُفَر فيها المستضدّ والضدّ؛ خطّ الترسيب؛ الشريحة",
+   "h": "44mm"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Why do they move in **opposite** directions?"
+   ],
+   "ar": [
+    "لماذا يتحرّكان باتّجاهين **متعاكسين**؟"
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة `BIOS`"
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "note",
+   "en": [
+    "At the alkaline buffer pH the **antigen** is negatively charged and runs to the **anode**, while the **antibody** (IgG) is carried back toward the **cathode** by electro-endosmosis — so the antigen is put in the **cathode** well and the antibody in the **anode** well."
+   ],
+   "ar": [
+    "عند `pH` الدارئ القاعدي يكون **المستضدّ** سالب الشحنة فيتّجه إلى **المصعد**، بينما يُسحب **الضدّ** (`IgG`) نحو **المهبط** بالتناضح الكهربائي — لذلك يوضع المستضدّ في حفرة **المهبط** والضدّ في حفرة **المصعد**."
+   ],
+   "label": [
+    "BIOS note (continued)",
+    "ملاحظة `BIOS` (تكملة)"
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "note",
+   "en": [
+    "Electricity → reaction **faster than simple diffusion**.",
+    "Separate wells in **agarose** → electric field → they meet → at the **right proportion** a **precipitin line** forms."
+   ],
+   "ar": [
+    "الكهرباء ← تفاعل **أسرع من الانتشار البسيط**.",
+    "حُفَر منفصلة في **الآغاروز** ← مجال كهربائي ← يلتقيان ← وعند **النسبة الصحيحة** يتكوّن **خطّ الترسيب**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Materials and gel set-up",
+   "ar": "المواد وتجهيز الهلام"
+  },
+  {
+   "t": "card",
+   "en": "**Materials Needed**",
+   "ar": "**المواد المطلوبة**",
+   "list_en": [
+    "Agarose gel",
+    "Glass slide or gel plate",
+    "Electrophoresis chamber and power supply",
+    "Buffer solution",
+    "Antigen sample",
+    "Specific antibody",
+    "Micropipette and tips"
+   ],
+   "list_ar": [
+    "هلام الآغاروز",
+    "شريحة زجاجية أو صفيحة هلام",
+    "حجرة الرحلان الكهربائي ومجهّز القدرة",
+    "محلول دارئ",
+    "عيّنة المستضدّ",
+    "الضدّ النوعي",
+    "ماصّة دقيقة ورؤوسها"
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/cie-apparatus.png",
+   "en": "CIE set-up: gel slide with antigen and antiserum wells in an electrophoresis tank connected to a DC power supply",
+   "ar": "تجهيز `CIE`: شريحة هلام فيها حُفَر المستضدّ والمصل المضاد في حوض الرحلان الكهربائي موصولة بمجهّز تيار مستمر",
+   "h": "78mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Figure text",
+     "كتابات الشكل"
+    ],
+    [
+     "Arabic",
+     "بالعربي"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Cathode (–)** / **Anode (+)**",
+      "**المهبط (–)** / **المصعد (+)**"
+     ],
+     [
+      "negative / positive electrode",
+      "القطب السالب / الموجب"
+     ]
+    ],
+    [
+     [
+      "**Antigen wells** / **Antiserum wells**",
+      "**حُفَر المستضدّ** / **حُفَر المصل المضاد**"
+     ],
+     [
+      "antigen near the cathode, antiserum near the anode",
+      "المستضدّ قرب المهبط، والمصل المضاد قرب المصعد"
+     ]
+    ],
+    [
+     [
+      "**Top view of gel slide (well arrangement)**",
+      "**منظر علوي لشريحة الهلام (ترتيب الحُفَر)**"
+     ],
+     [
+      "two rows of wells facing each other",
+      "صفّان من الحُفَر متقابلان"
+     ]
+    ],
+    [
+     [
+      "**Electrode buffer reservoir (running buffer)**",
+      "**خزّان دارئ القطب (دارئ التشغيل)**"
+     ],
+     [
+      "buffer on each side",
+      "دارئ على كل جهة"
+     ]
+    ],
+    [
+     [
+      "**Filter paper wick (moistened with buffer)**",
+      "**فتيل ورق ترشيح (مبلّل بالدارئ)**"
+     ],
+     [
+      "connects the buffer to the gel",
+      "يوصل الدارئ بالهلام"
+     ]
+    ],
+    [
+     [
+      "**Agarose gel (on glass slide)**",
+      "**هلام الآغاروز (على شريحة زجاجية)**"
+     ],
+     [
+      "medium in which Ag and Ab move",
+      "الوسط الذي يتحرّك فيه المستضدّ والضدّ"
+     ]
+    ],
+    [
+     [
+      "**Electrophoresis bridge (slide support)**",
+      "**جسر الرحلان (حامل الشريحة)**"
+     ],
+     [
+      "holds the slide",
+      "يحمل الشريحة"
+     ]
+    ],
+    [
+     [
+      "**DC POWER SUPPLY**",
+      "**مجهّز تيار مستمر**"
+     ],
+     [
+      "gives the electric field",
+      "يعطي المجال الكهربائي"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    55,
+    45
+   ],
+   "label_en": "Figure text",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "figure",
+   "src": "assets/cie-plate.png",
+   "en": "Electrophoresis plate used for CIE: corresponding wells 3 mm in diameter; distance between the two wells 3 mm",
+   "ar": "صفيحة الرحلان المستعملة في `CIE`: حُفَر متقابلة قطرها 3 ملم؛ والمسافة بين الحفرتين 3 ملم",
+   "h": "56mm"
+  },
+  {
+   "t": "card",
+   "en": "Image adapted from the reference slides provided for this lecture.",
+   "ar": "الصورة مقتبسة من الشرائح المرجعية المقدّمة لهذه المحاضرة."
+  },
+  {
+   "t": "h2",
+   "en": "Gel Setup",
+   "ar": "تجهيز الهلام"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Two **small wells** are made in the agarose gel.",
+    "One well receives the **antigen**.",
+    "The other well receives the **antibody**.",
+    "The wells are placed **close enough** for the reaction to occur."
+   ],
+   "list_ar": [
+    "تُعمل **حفرتان صغيرتان** في هلام الآغاروز.",
+    "تستقبل إحدى الحفرتين **المستضدّ**.",
+    "وتستقبل الأخرى **الضدّ**.",
+    "وتوضع الحفرتان **قريبتين بما يكفي** لحدوث التفاعل."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Materials: **agarose, slide/plate, chamber + power supply, buffer, antigen, specific antibody, micropipette**.",
+    "Two small wells, **close enough** (in the plate: wells 3 mm, 3 mm apart)."
+   ],
+   "ar": [
+    "المواد: **آغاروز، شريحة/صفيحة، حجرة + مجهّز قدرة، دارئ، مستضدّ، ضدّ نوعي، ماصّة دقيقة**.",
+    "حفرتان صغيرتان **قريبتان** (في الصفيحة: قطر 3 ملم ومسافة 3 ملم)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Procedure and results",
+   "ar": "خطوات العمل والنتائج"
+  },
+  {
+   "t": "card",
+   "en": "**Practical Procedure**",
+   "ar": "**خطوات العمل**",
+   "list_en": [
+    "Prepare the **agarose gel**.",
+    "Make **two wells** in the gel.",
+    "Add **antigen** to one well and **antibody** to the other.",
+    "Place the gel in the **electrophoresis chamber**.",
+    "Apply the **electric current** for the required time.",
+    "Observe the gel for a **precipitation line**."
+   ],
+   "list_ar": [
+    "حضّر **هلام الآغاروز**.",
+    "اعمل **حفرتين** في الهلام.",
+    "أضف **المستضدّ** إلى إحدى الحفرتين و**الضدّ** إلى الأخرى.",
+    "ضع الهلام في **حجرة الرحلان الكهربائي**.",
+    "طبّق **التيار الكهربائي** للمدّة المطلوبة.",
+    "افحص الهلام بحثًا عن **خطّ الترسيب**."
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Prepare gel",
+     "ar": "تحضير الهلام"
+    },
+    {
+     "en": "2 wells",
+     "ar": "حفرتان"
+    },
+    {
+     "en": "Ag + Ab",
+     "ar": "مستضدّ + ضدّ"
+    },
+    {
+     "en": "Chamber",
+     "ar": "الحجرة"
+    },
+    {
+     "en": "Current",
+     "ar": "التيار"
+    },
+    {
+     "en": "Look for line",
+     "ar": "البحث عن الخطّ"
+    }
+   ],
+   "en": "6 steps",
+   "ar": "6 خطوات"
+  },
+  {
+   "t": "h2",
+   "en": "Positive Result",
+   "ar": "النتيجة الموجبة"
+  },
+  {
+   "t": "card",
+   "en": [
+    "A **visible precipitin line** appears between the wells.",
+    "This means the antigen **reacted with its specific antibody**."
+   ],
+   "ar": [
+    "يظهر **خطّ ترسيب مرئي** بين الحفرتين.",
+    "وهذا يعني أن المستضدّ **تفاعل مع ضدّه النوعي**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Negative Result",
+   "ar": "النتيجة السالبة"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**No precipitin line** appears between the wells.",
+    "This means **no visible antigen–antibody precipitation** was detected."
+   ],
+   "ar": [
+    "**لا يظهر خطّ ترسيب** بين الحفرتين.",
+    "وهذا يعني أنه **لم يُكشف ترسيب مرئي بين المستضدّ والضدّ**."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/precipitin-line.png",
+     "en": "Positive: a precipitin line between the two wells",
+     "ar": "موجب: خطّ ترسيب بين الحفرتين",
+     "h": "38mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/precipitin-examples.png",
+     "en": "Examples of precipitin lines (Dils. A–H; SERA / ANTIGEN)",
+     "ar": "أمثلة لخطوط الترسيب (التخافيف `A`–`H`؛ الأمصال / المستضدّ)",
+     "h": "38mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Procedure: **gel → 2 wells → Ag + Ab → chamber → current → look for a line**.",
+    "**Line = positive** (Ag reacted with its specific Ab); **no line = negative**."
+   ],
+   "ar": [
+    "الخطوات: **هلام ← حفرتان ← مستضدّ + ضدّ ← الحجرة ← التيار ← البحث عن الخطّ**.",
+    "**الخطّ = موجب** (تفاعل المستضدّ مع ضدّه)؛ **لا خطّ = سالب**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Why a line forms and what affects it",
+   "ar": "سبب تكوّن الخطّ وما يؤثّر فيه"
+  },
+  {
+   "t": "card",
+   "en": "**Why Does a Line Form?**",
+   "ar": "**لماذا يتكوّن الخطّ؟**",
+   "list_en": [
+    "Antigen **binds to its specific antibody**.",
+    "Many antigen–antibody **complexes join together**.",
+    "The complexes become **large enough to be seen as a white line**."
+   ],
+   "list_ar": [
+    "يرتبط المستضدّ **بضدّه النوعي**.",
+    "تتّحد **معقّدات** مستضدّ–ضدّ كثيرة معًا.",
+    "وتصبح المعقّدات **كبيرة بما يكفي لتُرى خطًّا أبيض**."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Factors That Affect the Result**",
+   "ar": "**العوامل المؤثّرة في النتيجة**",
+   "list_en": [
+    "Correct **antigen and antibody concentration**",
+    "Correct **well distance**",
+    "Proper **buffer and pH**",
+    "Correct **voltage and running time**",
+    "Good **gel preparation**"
+   ],
+   "list_ar": [
+    "التركيز الصحيح **للمستضدّ والضدّ**",
+    "**المسافة** الصحيحة بين الحُفَر",
+    "**الدارئ والأس الهيدروجيني** المناسبان",
+    "**الفولتية ومدّة التشغيل** الصحيحتان",
+    "**تحضير جيد للهلام**"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "A line needs the **zone of equivalence**: with too much antigen or too much antibody the complexes stay small and soluble, so a false negative can occur — this is why the **right proportion / concentration** matters.",
+   "ar": "يحتاج الخطّ إلى **منطقة التكافؤ**: فمع زيادة المستضدّ أو زيادة الضدّ تبقى المعقّدات صغيرة وذائبة، فقد تظهر نتيجة سالبة كاذبة — ولهذا تهمّ **النسبة / التركيز الصحيح**.",
+   "label": [
+    "BIOS note",
+    "ملاحظة `BIOS`"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Line = **many Ag–Ab complexes** joined → big enough to see (white line).",
+    "5 factors: **concentration, well distance, buffer/pH, voltage/time, gel**."
+   ],
+   "ar": [
+    "الخطّ = **معقّدات مستضدّ–ضدّ كثيرة** متّحدة ← كبيرة بما يكفي لتُرى (خطّ أبيض).",
+    "5 عوامل: **التركيز، والمسافة، والدارئ/الأس الهيدروجيني، والفولتية/الوقت، والهلام**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Advantages, limitations and summary",
+   "ar": "المزايا والقيود والخلاصة"
+  },
+  {
+   "t": "card",
+   "en": "**Advantages**",
+   "ar": "**المزايا**",
+   "list_en": [
+    "Simple technique",
+    "Faster than passive diffusion methods"
+   ],
+   "list_ar": [
+    "تقنية بسيطة",
+    "أسرع من طرائق الانتشار المنفعل"
+   ],
+   "_ff": 2
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Low-cost equipment",
+    "Visible result",
+    "Useful for teaching antigen–antibody reactions"
+   ],
+   "list_ar": [
+    "أجهزة قليلة الكلفة",
+    "نتيجة مرئية",
+    "مفيدة لتعليم تفاعلات المستضدّ–الضدّ"
+   ],
+   "start": 3,
+   "_ff": 2
+  },
+  {
+   "t": "card",
+   "en": "**Limitations**",
+   "ar": "**القيود**",
+   "list_en": [
+    "Less sensitive than many modern immunoassays",
+    "Usually gives a qualitative result",
+    "Needs an electrophoresis setup",
+    "Weak lines may be difficult to see",
+    "Correct test conditions are important"
+   ],
+   "list_ar": [
+    "أقل حساسية من كثير من الفحوص المناعية الحديثة",
+    "تعطي غالبًا نتيجة نوعية (وصفية)",
+    "تحتاج تجهيز رحلان كهربائي",
+    "الخطوط الضعيفة قد يصعب رؤيتها",
+    "ظروف الفحص الصحيحة مهمّة"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Summary**",
+   "ar": "**الخلاصة**",
+   "list_en": [
+    "CIE combines **immunology with electrophoresis**.",
+    "Antigen and antibody **move toward each other** in agarose gel.",
+    "A **precipitin line** indicates a **positive** reaction.",
+    "The method is **simple, fast, and mainly qualitative**."
+   ],
+   "list_ar": [
+    "يجمع `CIE` بين **علم المناعة والرحلان الكهربائي**.",
+    "يتحرّك المستضدّ والضدّ **نحو بعضهما** في هلام الآغاروز.",
+    "و**خطّ الترسيب** يدلّ على تفاعل **موجب**.",
+    "والطريقة **بسيطة وسريعة ونوعية أساسًا**."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Counter immunoelectrophoresis (CIE)**",
+     "الرحلان الكهربائي المناعي المعاكس / الهجرة الكهربائية المناعية المتعاكسة"
+    ],
+    [
+     "**Electrophoresis**",
+     "الرحلان الكهربائي / الهجرة الكهربائية"
+    ],
+    [
+     "**Antigen / antibody**",
+     "المستضدّ / الضدّ (الجسم المضاد)"
+    ],
+    [
+     "**Antiserum**",
+     "المصل المضاد"
+    ],
+    [
+     "**Agarose gel**",
+     "هلام الآغاروز"
+    ],
+    [
+     "**Precipitin (precipitation) line**",
+     "خطّ الترسيب"
+    ],
+    [
+     "**Cathode / anode**",
+     "المهبط (القطب السالب) / المصعد (القطب الموجب)"
+    ],
+    [
+     "**Electric field / current**",
+     "المجال الكهربائي / التيار الكهربائي"
+    ],
+    [
+     "**Simple (passive) diffusion**",
+     "الانتشار البسيط (المنفعل)"
+    ],
+    [
+     "**Buffer**",
+     "المحلول الدارئ / المنظّم"
+    ],
+    [
+     "**Wells**",
+     "الحُفَر / الآبار"
+    ],
+    [
+     "**Qualitative**",
+     "نوعي / وصفي (لا كمّي)"
+    ],
+    [
+     "**Immunoassay**",
+     "فحص مناعي / مقايسة مناعية"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "What is CIE and its principle",
+    "topic_ar": "ما هو CIE ومبدؤه"
+   },
+   {
+    "en": "CIE stands for:",
+    "ar": "اختصار `CIE` يعني:",
+    "options": [
+     [
+      "Capillary immuno-ELISA",
+      "إليزا شعرية"
+     ],
+     [
+      "Cellular immune electrophoresis",
+      "الرحلان المناعي الخلوي"
+     ],
+     [
+      "Complement immune enzyme",
+      "إنزيم المتمّم المناعي"
+     ],
+     [
+      "Counter immunoelectrophoresis",
+      "الرحلان الكهربائي المناعي المعاكس"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "CIE detects:",
+    "ar": "يكشف `CIE`:",
+    "options": [
+     [
+      "A specific antigen or antibody",
+      "مستضدًّا أو ضدًّا نوعيًا"
+     ],
+     [
+      "Glucose",
+      "الكلوكوز"
+     ],
+     [
+      "DNA sequences",
+      "تسلسلات `DNA`"
+     ],
+     [
+      "Blood cells",
+      "خلايا الدم"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In CIE, antigen and antibody are moved toward each other by:",
+    "ar": "في `CIE` يتحرّك المستضدّ والضدّ نحو بعضهما بفعل:",
+    "options": [
+     [
+      "Gravity",
+      "الجاذبية"
+     ],
+     [
+      "Centrifugation",
+      "الطرد المركزي"
+     ],
+     [
+      "An electric current",
+      "تيار كهربائي"
+     ],
+     [
+      "Heating",
+      "التسخين"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "A visible precipitation line in CIE means:",
+    "ar": "خطّ الترسيب المرئي في `CIE` يعني:",
+    "options": [
+     [
+      "The gel is broken",
+      "الهلام مكسور"
+     ],
+     [
+      "A reaction occurred",
+      "حدث تفاعل"
+     ],
+     [
+      "Too much current",
+      "تيار زائد"
+     ],
+     [
+      "No reaction",
+      "لا تفاعل"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Electricity in CIE makes the reaction:",
+    "ar": "الكهرباء في `CIE` تجعل التفاعل:",
+    "options": [
+     [
+      "Invisible",
+      "غير مرئي"
+     ],
+     [
+      "Slower",
+      "أبطأ"
+     ],
+     [
+      "Quantitative",
+      "كمّيًا"
+     ],
+     [
+      "Faster than simple diffusion",
+      "أسرع من الانتشار البسيط"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In CIE, antigen and antibody are placed in:",
+    "ar": "في `CIE` يوضع المستضدّ والضدّ في:",
+    "options": [
+     [
+      "Separate wells in an agarose gel",
+      "حُفَر منفصلة في هلام الآغاروز"
+     ],
+     [
+      "The same well",
+      "الحفرة نفسها"
+     ],
+     [
+      "A test tube",
+      "أنبوب اختبار"
+     ],
+     [
+      "Blood agar",
+      "آغار الدم"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The precipitin line forms when antigen and antibody meet:",
+    "ar": "يتكوّن خطّ الترسيب عندما يلتقي المستضدّ والضدّ:",
+    "options": [
+     [
+      "In any amount",
+      "بأي كمية"
+     ],
+     [
+      "At the right proportion",
+      "بالنسبة الصحيحة"
+     ],
+     [
+      "Without an electric field",
+      "بلا مجال كهربائي"
+     ],
+     [
+      "At the cathode only",
+      "عند المهبط فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Materials, procedure and results",
+    "topic_ar": "المواد والخطوات والنتائج"
+   },
+   {
+    "en": "Which is NOT among the materials needed for CIE?",
+    "ar": "أيّها ليس من المواد المطلوبة لـ `CIE`؟",
+    "options": [
+     [
+      "Agarose gel",
+      "هلام الآغاروز"
+     ],
+     [
+      "Buffer solution",
+      "محلول دارئ"
+     ],
+     [
+      "Blood agar plate",
+      "طبق آغار الدم"
+     ],
+     [
+      "Specific antibody",
+      "ضدّ نوعي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "How many wells are made in the gel?",
+    "ar": "كم حفرة تُعمل في الهلام؟",
+    "options": [
+     [
+      "Two",
+      "اثنتان"
+     ],
+     [
+      "One",
+      "واحدة"
+     ],
+     [
+      "Five",
+      "خمس"
+     ],
+     [
+      "None",
+      "ولا واحدة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The wells must be placed:",
+    "ar": "يجب أن توضع الحُفَر:",
+    "options": [
+     [
+      "At the ends of the gel",
+      "عند طرفي الهلام"
+     ],
+     [
+      "Close enough for the reaction to occur",
+      "قريبة بما يكفي لحدوث التفاعل"
+     ],
+     [
+      "Outside the gel",
+      "خارج الهلام"
+     ],
+     [
+      "In different gels",
+      "في هلامين مختلفين"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The first step of the practical procedure is:",
+    "ar": "الخطوة الأولى في العمل:",
+    "options": [
+     [
+      "Apply the current",
+      "تطبيق التيار"
+     ],
+     [
+      "Observe the line",
+      "ملاحظة الخطّ"
+     ],
+     [
+      "Add the antibody",
+      "إضافة الضدّ"
+     ],
+     [
+      "Prepare the agarose gel",
+      "تحضير هلام الآغاروز"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The last step of the practical procedure is:",
+    "ar": "الخطوة الأخيرة في العمل:",
+    "options": [
+     [
+      "Make two wells",
+      "عمل حفرتين"
+     ],
+     [
+      "Prepare the gel",
+      "تحضير الهلام"
+     ],
+     [
+      "Observe the gel for a precipitation line",
+      "فحص الهلام بحثًا عن خطّ الترسيب"
+     ],
+     [
+      "Add antigen",
+      "إضافة المستضدّ"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "A negative CIE result is:",
+    "ar": "نتيجة `CIE` السالبة:",
+    "options": [
+     [
+      "A red colour",
+      "لون أحمر"
+     ],
+     [
+      "Two lines",
+      "خطّان"
+     ],
+     [
+      "No precipitin line between the wells",
+      "لا خطّ ترسيب بين الحفرتين"
+     ],
+     [
+      "Bubbles",
+      "فقاعات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "A positive CIE result means the antigen:",
+    "ar": "نتيجة `CIE` الموجبة تعني أن المستضدّ:",
+    "options": [
+     [
+      "Reacted with its specific antibody",
+      "تفاعل مع ضدّه النوعي"
+     ],
+     [
+      "Was destroyed",
+      "تحطّم"
+     ],
+     [
+      "Did not move",
+      "لم يتحرّك"
+     ],
+     [
+      "Reached the anode only",
+      "وصل المصعد فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Line formation, factors, advantages and limitations",
+    "topic_ar": "تكوّن الخطّ والعوامل والمزايا والقيود"
+   },
+   {
+    "en": "The line becomes visible because:",
+    "ar": "يصبح الخطّ مرئيًا لأن:",
+    "options": [
+     [
+      "The gel melts",
+      "الهلام يذوب"
+     ],
+     [
+      "Many antigen–antibody complexes join and become large enough to be seen",
+      "معقّدات مستضدّ–ضدّ كثيرة تتّحد وتكبر بما يكفي لتُرى"
+     ],
+     [
+      "The buffer changes colour",
+      "الدارئ يتغيّر لونه"
+     ],
+     [
+      "Electricity burns the gel",
+      "الكهرباء تحرق الهلام"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The precipitin line appears as a:",
+    "ar": "يظهر خطّ الترسيب كخطّ:",
+    "options": [
+     [
+      "Red line",
+      "أحمر"
+     ],
+     [
+      "Blue line",
+      "أزرق"
+     ],
+     [
+      "Black line",
+      "أسود"
+     ],
+     [
+      "White line",
+      "أبيض"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which is NOT a factor affecting the CIE result?",
+    "ar": "أيّها ليس من العوامل المؤثّرة في نتيجة `CIE`؟",
+    "options": [
+     [
+      "Colour of the slide box",
+      "لون علبة الشرائح"
+     ],
+     [
+      "Well distance",
+      "المسافة بين الحُفَر"
+     ],
+     [
+      "Buffer and pH",
+      "الدارئ والأس الهيدروجيني"
+     ],
+     [
+      "Voltage and running time",
+      "الفولتية ومدّة التشغيل"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "An advantage of CIE is that it is:",
+    "ar": "من مزايا `CIE` أنه:",
+    "options": [
+     [
+      "Highly quantitative",
+      "كمّي جدًا"
+     ],
+     [
+      "Without equipment",
+      "بلا أجهزة"
+     ],
+     [
+      "More sensitive than modern immunoassays",
+      "أكثر حساسية من الفحوص الحديثة"
+     ],
+     [
+      "Faster than passive diffusion methods",
+      "أسرع من طرائق الانتشار المنفعل"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A limitation of CIE is that it:",
+    "ar": "من قيود `CIE` أنه:",
+    "options": [
+     [
+      "Gives an invisible result",
+      "يعطي نتيجة غير مرئية"
+     ],
+     [
+      "Usually gives a qualitative result",
+      "يعطي غالبًا نتيجة نوعية"
+     ],
+     [
+      "Is very expensive",
+      "مكلف جدًا"
+     ],
+     [
+      "Needs no electrophoresis setup",
+      "لا يحتاج تجهيز رحلان"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Compared with many modern immunoassays, CIE is:",
+    "ar": "مقارنة بكثير من الفحوص المناعية الحديثة، يكون `CIE`:",
+    "options": [
+     [
+      "More sensitive",
+      "أكثر حساسية"
+     ],
+     [
+      "Fully automated",
+      "مؤتمتًا بالكامل"
+     ],
+     [
+      "Less sensitive",
+      "أقل حساسية"
+     ],
+     [
+      "Quantitative",
+      "كمّيًا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "CIE combines immunology with:",
+    "ar": "يجمع `CIE` بين علم المناعة و:",
+    "options": [
+     [
+      "Culture",
+      "الزرع"
+     ],
+     [
+      "Microscopy",
+      "المجهرية"
+     ],
+     [
+      "Electrophoresis",
+      "الرحلان الكهربائي"
+     ],
+     [
+      "Spectrophotometry",
+      "قياس الطيف الضوئي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this figure, the antigen well is on the side of the:",
+    "ar": "في هذا الشكل، حفرة المستضدّ تقع جهة:",
+    "options": [
+     [
+      "Anode",
+      "المصعد"
+     ],
+     [
+      "Cathode",
+      "المهبط"
+     ],
+     [
+      "Power supply",
+      "مجهّز القدرة"
+     ],
+     [
+      "Buffer only",
+      "الدارئ فقط"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/cie-principle.png",
+    "img_h": "34mm"
+   },
+   {
+    "en": "In this picture, the dark line between the two wells is:",
+    "ar": "في هذه الصورة، الخطّ الداكن بين الحفرتين:",
+    "options": [
+     [
+      "A precipitin line (positive)",
+      "خطّ ترسيب (موجب)"
+     ],
+     [
+      "Dye",
+      "صبغة"
+     ],
+     [
+      "A crack in the gel",
+      "شقّ في الهلام"
+     ],
+     [
+      "The electrode",
+      "القطب"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/precipitin-line.png",
+    "img_h": "28mm"
+   },
+   {
+    "en": "In this plate, the distance between the two wells is:",
+    "ar": "في هذه الصفيحة، المسافة بين الحفرتين:",
+    "options": [
+     [
+      "1 cm",
+      "1 سم"
+     ],
+     [
+      "10 mm",
+      "10 ملم"
+     ],
+     [
+      "30 mm",
+      "30 ملم"
+     ],
+     [
+      "3 mm",
+      "3 ملم"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/cie-plate.png",
+    "img_h": "36mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "CIE is a rapid immunological test.",
+    "ar": "`CIE` فحص مناعي سريع.",
+    "answer": "T"
+   },
+   {
+    "en": "CIE uses gravity to move antigen and antibody.",
+    "ar": "يستعمل `CIE` الجاذبية لتحريك المستضدّ والضدّ.",
+    "answer": "F"
+   },
+   {
+    "en": "In CIE, antigen and antibody move toward each other.",
+    "ar": "في `CIE` يتحرّك المستضدّ والضدّ نحو بعضهما.",
+    "answer": "T"
+   },
+   {
+    "en": "CIE is slower than simple diffusion.",
+    "ar": "`CIE` أبطأ من الانتشار البسيط.",
+    "answer": "F"
+   },
+   {
+    "en": "Antigen and antibody are placed in the same well.",
+    "ar": "يوضع المستضدّ والضدّ في الحفرة نفسها.",
+    "answer": "F"
+   },
+   {
+    "en": "A precipitin line forms when antigen and antibody meet at the right proportion.",
+    "ar": "يتكوّن خطّ الترسيب عندما يلتقي المستضدّ والضدّ بالنسبة الصحيحة.",
+    "answer": "T"
+   },
+   {
+    "en": "A buffer solution is one of the materials needed.",
+    "ar": "المحلول الدارئ من المواد المطلوبة.",
+    "answer": "T"
+   },
+   {
+    "en": "No precipitin line between the wells is a positive result.",
+    "ar": "عدم ظهور خطّ ترسيب بين الحفرتين نتيجة موجبة.",
+    "answer": "F"
+   },
+   {
+    "en": "The line forms when many antigen–antibody complexes join together.",
+    "ar": "يتكوّن الخطّ عندما تتّحد معقّدات مستضدّ–ضدّ كثيرة معًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Well distance does not affect the result.",
+    "ar": "المسافة بين الحُفَر لا تؤثّر في النتيجة.",
+    "answer": "F"
+   },
+   {
+    "en": "CIE needs low-cost equipment.",
+    "ar": "يحتاج `CIE` أجهزة قليلة الكلفة.",
+    "answer": "T"
+   },
+   {
+    "en": "CIE usually gives a quantitative result.",
+    "ar": "يعطي `CIE` غالبًا نتيجة كمّية.",
+    "answer": "F"
+   },
+   {
+    "en": "Weak lines may be difficult to see.",
+    "ar": "قد يصعب رؤية الخطوط الضعيفة.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Faster than what?",
+    "ar": "أسرع من ماذا؟",
+    "answer_en": "CIE is faster than simple (passive) DIFFUSION methods — but it is LESS sensitive than many modern immunoassays.",
+    "answer_ar": "`CIE` أسرع من طرائق الانتشار البسيط (المنفعل) — لكنه أقل حساسية من كثير من الفحوص المناعية الحديثة."
+   },
+   {
+    "en": "Same well or separate wells?",
+    "ar": "حفرة واحدة أم حفرتان؟",
+    "answer_en": "SEPARATE wells: antigen in one, antibody in the other; they move toward each other.",
+    "answer_ar": "حفرتان منفصلتان: المستضدّ في واحدة والضدّ في الأخرى؛ ويتحرّكان نحو بعضهما."
+   },
+   {
+    "en": "Line = positive",
+    "ar": "الخطّ = موجب",
+    "answer_en": "A precipitin line = POSITIVE (Ag reacted with its specific Ab); no line = negative.",
+    "answer_ar": "خطّ الترسيب = موجب (تفاعل المستضدّ مع ضدّه)؛ ولا خطّ = سالب."
+   },
+   {
+    "en": "Any amount gives a line?",
+    "ar": "أي كمية تعطي خطًّا؟",
+    "answer_en": "No — only the RIGHT PROPORTION (correct concentration) forms a visible line.",
+    "answer_ar": "لا — فقط النسبة الصحيحة (التركيز الصحيح) تكوّن خطًّا مرئيًا."
+   },
+   {
+    "en": "Qualitative or quantitative?",
+    "ar": "نوعي أم كمّي؟",
+    "answer_en": "CIE is mainly QUALITATIVE (present / absent), not a measurement of amount.",
+    "answer_ar": "`CIE` نوعي أساسًا (موجود / غير موجود)، لا يقيس الكمية."
+   },
+   {
+    "en": "Colour of the line",
+    "ar": "لون الخطّ",
+    "answer_en": "The precipitin line is seen as a WHITE line in the gel (stained gels may show it dark).",
+    "answer_ar": "يُرى خطّ الترسيب خطًّا أبيض في الهلام (وفي الهلام المصبوغ قد يظهر داكنًا)."
+   }
+  ],
+  "important": [
+   {
+    "en": "What does CIE stand for?",
+    "ar": "ماذا يعني اختصار `CIE`؟",
+    "answer_en": "Counter Immunoelectrophoresis — a rapid immunological test that detects a specific antigen or antibody using an electric current.",
+    "answer_ar": "الرحلان الكهربائي المناعي المعاكس — فحص مناعي سريع يكشف مستضدًّا أو ضدًّا نوعيًا باستعمال تيار كهربائي."
+   },
+   {
+    "en": "What is the role of the electric field?",
+    "ar": "ما دور المجال الكهربائي؟",
+    "answer_en": "It moves the antigen and antibody toward each other in the agarose gel, so they meet and react faster than by simple diffusion.",
+    "answer_ar": "يحرّك المستضدّ والضدّ نحو بعضهما في هلام الآغاروز، فيلتقيان ويتفاعلان أسرع من الانتشار البسيط."
+   },
+   {
+    "en": "Where are antigen and antibody placed?",
+    "ar": "أين يوضع المستضدّ والضدّ؟",
+    "answer_en": "In two separate small wells made in the agarose gel, close enough for the reaction to occur — antigen in one well, antibody in the other.",
+    "answer_ar": "في حفرتين صغيرتين منفصلتين في هلام الآغاروز، قريبتين بما يكفي لحدوث التفاعل — المستضدّ في حفرة والضدّ في الأخرى."
+   },
+   {
+    "en": "What does a precipitin line mean?",
+    "ar": "ماذا يعني خطّ الترسيب؟",
+    "answer_en": "A positive result: the antigen reacted with its specific antibody; many Ag–Ab complexes joined and became large enough to be seen as a white line.",
+    "answer_ar": "نتيجة موجبة: تفاعل المستضدّ مع ضدّه النوعي؛ واتّحدت معقّدات مستضدّ–ضدّ كثيرة وكبرت بما يكفي لتُرى خطًّا أبيض."
+   },
+   {
+    "en": "List the steps of the CIE practical procedure.",
+    "ar": "عدّد خطوات عمل `CIE`.",
+    "answer_en": "1. Prepare the agarose gel. 2. Make two wells. 3. Add antigen to one well and antibody to the other. 4. Place the gel in the electrophoresis chamber. 5. Apply the current for the required time. 6. Observe for a precipitation line.",
+    "answer_ar": "1. تحضير هلام الآغاروز. 2. عمل حفرتين. 3. إضافة المستضدّ إلى حفرة والضدّ إلى الأخرى. 4. وضع الهلام في حجرة الرحلان. 5. تطبيق التيار للمدّة المطلوبة. 6. البحث عن خطّ الترسيب."
+   },
+   {
+    "en": "What factors affect the CIE result? Give its advantages and limitations.",
+    "ar": "ما العوامل المؤثّرة في نتيجة `CIE`؟ واذكر مزاياه وقيوده.",
+    "answer_en": "Factors: antigen/antibody concentration, well distance, buffer and pH, voltage and running time, gel preparation. Advantages: simple, faster than passive diffusion, low-cost, visible result, good for teaching. Limitations: less sensitive than modern immunoassays, qualitative, needs electrophoresis setup, weak lines hard to see, conditions must be correct.",
+    "answer_ar": "العوامل: تركيز المستضدّ/الضدّ، والمسافة بين الحُفَر، والدارئ والأس الهيدروجيني، والفولتية والوقت، وتحضير الهلام. المزايا: بسيط، وأسرع من الانتشار المنفعل، وقليل الكلفة، ونتيجة مرئية، ومفيد للتعليم. القيود: أقل حساسية من الفحوص الحديثة، ونوعي، ويحتاج تجهيز رحلان، والخطوط الضعيفة صعبة الرؤية، والظروف يجب أن تكون صحيحة."
+   }
+  ]
+ }
+}
