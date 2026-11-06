@@ -1,0 +1,1412 @@
+{
+ "meta": {
+  "subject_en": "Medical Virology",
+  "subject_ar": "الفيروسات الطبية",
+  "short_ar": "فايروسات",
+  "instructor": "د. آية وسمي",
+  "unit_en": "Lab 6",
+  "unit_ar": "العملي 6",
+  "unit_label": "LAB",
+  "unit_no": "6",
+  "title_en": "Virus Neutralization Test (VNT)",
+  "title_ar": "اختبار تعادل الفيروس",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Virus Neutralization Test (VNT)",
+   "ar": "اختبار تعادل الفيروس `(VNT)`"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Neutralization of viruses by antibodies** is a phenomenon of fundamental medical and biological importance.",
+    "Importance in virology (e.g., measuring **protective immunity**, **vaccine efficacy**, and **virus identification**)"
+   ],
+   "ar": [
+    "**تعادل (تحييد) الفيروسات بالأضداد** ظاهرة ذات أهمية طبية وحيوية أساسية.",
+    "أهميتها في علم الفيروسات (مثل قياس **المناعة الواقية**، و**كفاءة اللقاح**، و**تشخيص (تحديد هوية) الفيروس**)"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Antibodies can **neutralize (decrease the replication of)** viruses by **blocking attachment to the host cell**, **preventing penetration** of the host cell membrane, or prevent with **uncoating** of the virus within the cell.",
+    "Neutralizing antibodies typically recognize **proteins or glycoproteins on the virion surface**.",
+    [
+     "Some antibodies that bind to virion surface proteins or glycoproteins are **not neutralizing**.",
+     "In some cases, such antibodies may **contribute to immunity**, whereas in others, they may **enhance infection**."
+    ],
+    "The magnitude of neutralization mediated by a given antibody **may vary with the host cell** used for the measurement.",
+    "**Neutralization in vitro** is usually related to **protection in vivo**, but these two properties are **not always perfectly correlated**."
+   ],
+   "list_ar": [
+    "تستطيع الأضداد **تعادل الفيروسات (أي تقليل تضاعفها)** عن طريق **منع الالتصاق بالخلية المضيفة**، أو **منع اختراق** غشاء الخلية المضيفة، أو منع **إزالة غلاف** الفيروس داخل الخلية.",
+    "تتعرّف الأضداد المعادِلة عادةً على **البروتينات أو البروتينات السكرية على سطح الفيريون**.",
+    [
+     "بعض الأضداد التي ترتبط ببروتينات سطح الفيريون أو بروتيناته السكرية **ليست معادِلة**.",
+     "وفي بعض الحالات قد **تُسهم هذه الأضداد في المناعة**، بينما في حالات أخرى قد **تُعزّز العدوى**."
+    ],
+    "مقدار التعادل الذي يحقّقه ضدّ معيّن **قد يختلف باختلاف الخلية المضيفة** المستعملة في القياس.",
+    "**التعادل في المختبر (`in vitro`)** يرتبط عادةً **بالحماية في الجسم الحي (`in vivo`)**، لكن هاتين الخاصيتين **لا تترابطان دائمًا ترابطًا تامًّا**."
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Blocks attachment",
+     "ar": "منع الالتصاق"
+    },
+    {
+     "en": "Prevents penetration",
+     "ar": "منع الاختراق"
+    },
+    {
+     "en": "Prevents uncoating",
+     "ar": "منع إزالة الغلاف"
+    }
+   ],
+   "en": "Three ways antibodies neutralize a virus",
+   "ar": "ثلاث طرق تعادل بها الأضداد الفيروس"
+  },
+  {
+   "t": "note",
+   "en": "\"or prevent with uncoating\" means \"or **interfering with** uncoating\" — the antibody stops the virus from releasing its genome inside the cell.",
+   "ar": "عبارة \"`or prevent with uncoating`\" تعني \"أو **التداخل مع** إزالة الغلاف\" — أي أن الضدّ يمنع الفيروس من تحرير مادّته الوراثية داخل الخلية.",
+   "label": [
+    "BIOS note",
+    "ملاحظة `BIOS`"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Neutralization = antibodies **decrease virus replication**.",
+    "Used to measure **protective immunity, vaccine efficacy** and to **identify viruses**.",
+    "Targets: **surface proteins / glycoproteins** of the virion; not every binding antibody neutralizes.",
+    "In vitro ≈ in vivo, but **not always perfectly**."
+   ],
+   "ar": [
+    "التعادل = الأضداد **تقلّل تضاعف الفيروس**.",
+    "يُستعمل لقياس **المناعة الواقية وكفاءة اللقاح** ولـ**تحديد هوية الفيروسات**.",
+    "الهدف: **بروتينات / بروتينات سكرية سطحية** للفيريون؛ وليس كل ضدّ يرتبط يكون معادِلًا.",
+    "التعادل في المختبر ≈ الحماية في الجسم، لكن **ليس دائمًا تمامًا**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Methodology principles",
+   "ar": "مبادئ الطريقة"
+  },
+  {
+   "t": "card",
+   "en": [
+    "The VNT involves mixing **serial dilutions of the serum sample** with **a known amount of virus**.",
+    "The mixture is then incubated with **susceptible cells**.",
+    "If **neutralizing antibodies** are present, they will bind to the virus and **prevent it from infecting the cells**."
+   ],
+   "ar": [
+    "يتضمّن `VNT` مزج **تخافيف متسلسلة من عيّنة المصل** مع **كمية معروفة من الفيروس**.",
+    "ثم يُحضن المزيج مع **خلايا قابلة للإصابة (حسّاسة للفيروس)**.",
+    "فإذا وُجدت **أضداد معادِلة** فإنها ترتبط بالفيروس و**تمنعه من إصابة الخلايا**."
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "card",
+   "en": [
+    "The **highest dilution** of serum that **completely inhibits viral infection** is considered the **neutralization titer**."
+   ],
+   "ar": [
+    "و**أعلى تخفيف** للمصل **يثبّط الإصابة الفيروسية تثبيطًا كاملًا** يُعدّ **عيار التعادل**."
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Serum serial dilutions",
+     "ar": "تخافيف متسلسلة للمصل"
+    },
+    {
+     "en": "+ known amount of virus",
+     "ar": "+ كمية معروفة من الفيروس"
+    },
+    {
+     "en": "+ susceptible cells",
+     "ar": "+ خلايا حسّاسة"
+    },
+    {
+     "en": "Highest protecting dilution = titer",
+     "ar": "أعلى تخفيف يحمي = العيار"
+    }
+   ],
+   "en": "VNT in one line",
+   "ar": "الاختبار بسطر واحد"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Serum (diluted) + **virus** → + **cells** → look for infection.",
+    "**Titer** = the **highest** dilution that **completely** inhibits infection."
+   ],
+   "ar": [
+    "مصل (مخفّف) + **فيروس** ← + **خلايا** ← نبحث عن الإصابة.",
+    "**العيار** = **أعلى** تخفيف يثبّط الإصابة **تثبيطًا كاملًا**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Methods",
+   "ar": "خطوات العمل"
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Sample Preparation:** The sample, usually **blood serum**, is diluted to create **a series of dilutions**.",
+    "This is done to determine the **highest dilution** at which antibodies can still neutralize the virus"
+   ],
+   "ar": [
+    "**تحضير العيّنة:** تُخفَّف العيّنة، وهي عادةً **مصل الدم**، لعمل **سلسلة من التخافيف**.",
+    "ويُجرى ذلك لتحديد **أعلى تخفيف** تبقى فيه الأضداد قادرة على تعادل الفيروس"
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Virus Incubation:** A **known quantity of the virus** is mixed with **each dilution** of the sample.",
+    "This mixture is incubated, allowing any neutralizing antibodies in the sample to **bind to the virus**."
+   ],
+   "ar": [
+    "**حضن الفيروس:** تُمزج **كمية معروفة من الفيروس** مع **كل تخفيف** من العيّنة.",
+    "ويُحضن هذا المزيج للسماح لأي أضداد معادِلة في العيّنة بـ**الارتباط بالفيروس**."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Cell Culture:** **Cells susceptible to the virus** are added to the virus-antibody mixture.",
+    "If neutralizing antibodies are present, they will **prevent the virus from infecting the cells**."
+   ],
+   "ar": [
+    "**مزرعة الخلايا:** تُضاف **خلايا قابلة للإصابة بالفيروس** إلى مزيج الفيروس والضدّ.",
+    "فإذا وُجدت أضداد معادِلة فإنها **تمنع الفيروس من إصابة الخلايا**."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Observation:** The cell culture is monitored for **signs of viral infection**.",
+    "If the cells **remain healthy**, it indicates that the antibodies in the sample **neutralized the virus** at that dilution."
+   ],
+   "ar": [
+    "**المراقبة:** تُراقَب مزرعة الخلايا بحثًا عن **علامات الإصابة الفيروسية**.",
+    "فإذا **بقيت الخلايا سليمة** دلّ ذلك على أن الأضداد في العيّنة **عادلت الفيروس** عند ذلك التخفيف."
+   ]
+  },
+  {
+   "t": "rule",
+   "en": [
+    "**Titer Determination:** The **highest dilution** of the sample that still **prevents viral infection** is the **antibody titer**.",
+    "This titer indicates the **level of neutralizing antibodies** present in the sample."
+   ],
+   "ar": [
+    "**تحديد العيار:** **أعلى تخفيف** للعيّنة لا يزال **يمنع الإصابة الفيروسية** هو **عيار الأضداد**.",
+    "ويدلّ هذا العيار على **مستوى الأضداد المعادِلة** الموجودة في العيّنة."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Step",
+     "الخطوة"
+    ],
+    [
+     "What is done",
+     "ماذا يُعمل"
+    ],
+    [
+     "Why",
+     "لماذا"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**1. Sample preparation**",
+      "**1. تحضير العيّنة**"
+     ],
+     [
+      "serial dilutions of serum",
+      "تخافيف متسلسلة للمصل"
+     ],
+     [
+      "find the highest neutralizing dilution",
+      "إيجاد أعلى تخفيف معادِل"
+     ]
+    ],
+    [
+     [
+      "**2. Virus incubation**",
+      "**2. حضن الفيروس**"
+     ],
+     [
+      "known quantity of virus + each dilution",
+      "كمية معروفة من الفيروس + كل تخفيف"
+     ],
+     [
+      "antibodies bind the virus",
+      "ترتبط الأضداد بالفيروس"
+     ]
+    ],
+    [
+     [
+      "**3. Cell culture**",
+      "**3. مزرعة الخلايا**"
+     ],
+     [
+      "add susceptible cells",
+      "إضافة خلايا حسّاسة"
+     ],
+     [
+      "unneutralized virus infects them",
+      "الفيروس غير المعادَل يصيبها"
+     ]
+    ],
+    [
+     [
+      "**4. Observation**",
+      "**4. المراقبة**"
+     ],
+     [
+      "look for signs of infection",
+      "البحث عن علامات الإصابة"
+     ],
+     [
+      "healthy cells = neutralized",
+      "خلايا سليمة = تعادل"
+     ]
+    ],
+    [
+     [
+      "**5. Titer**",
+      "**5. العيار**"
+     ],
+     [
+      "highest dilution still protecting",
+      "أعلى تخفيف لا يزال يحمي"
+     ],
+     [
+      "= level of neutralizing antibodies",
+      "= مستوى الأضداد المعادِلة"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    28,
+    38,
+    34
+   ],
+   "style": "summary",
+   "label_en": "5 steps at a glance",
+   "label_ar": "الخطوات الخمس بنظرة"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Order: **dilute → add virus → add cells → observe → titer**.",
+    "**Healthy cells** = virus neutralized at that dilution."
+   ],
+   "ar": [
+    "الترتيب: **تخفيف ← إضافة فيروس ← إضافة خلايا ← مراقبة ← عيار**.",
+    "**خلايا سليمة** = الفيروس تعادل عند ذلك التخفيف."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Applications",
+   "ar": "الاستعمالات"
+  },
+  {
+   "t": "card",
+   "en": "The VNT is used in a variety of applications, including:",
+   "ar": "يُستعمل `VNT` في تطبيقات متنوّعة، منها:",
+   "list_en": [
+    "**Vaccine development:** To assess the **efficacy of vaccines** by measuring the levels of neutralizing antibodies induced by vaccination.",
+    "**Diagnosis of viral infections:** To detect the presence of neutralizing antibodies in patients suspected of having a viral infection."
+   ],
+   "list_ar": [
+    "**تطوير اللقاحات:** لتقييم **كفاءة اللقاحات** بقياس مستويات الأضداد المعادِلة التي يحفّزها التلقيح.",
+    "**تشخيص الإصابات الفيروسية:** للكشف عن وجود أضداد معادِلة لدى المرضى المشتبه بإصابتهم بعدوى فيروسية."
+   ],
+   "_ff": 2
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Epidemiological studies:** To determine the **prevalence** of neutralizing antibodies in a population."
+   ],
+   "list_ar": [
+    "**الدراسات الوبائية:** لتحديد **مدى انتشار** الأضداد المعادِلة في مجتمع ما."
+   ],
+   "start": 3,
+   "_ff": 2
+  },
+  {
+   "t": "figure",
+   "src": "assets/vnt.jpg",
+   "en": "Virus Neutralization Test. (dr. A (Astrid) de Greeff. Virus neutralization tests against SARS-CoV-2 variants)",
+   "ar": "اختبار تعادل الفيروس (المصدر: د. أ. (أسترِد) دي غريف — اختبارات تعادل الفيروس ضدّ متحوّرات `SARS-CoV-2`)",
+   "width": "100%"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Figure text",
+     "كتابات الشكل"
+    ],
+    [
+     "Meaning",
+     "المعنى"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**1. Dilute (neutralizing) antibodies** — serial dilutions →",
+      "**1. خفّف الأضداد (المعادِلة)** — تخافيف متسلسلة ←"
+     ],
+     [
+      "samples 1–6, pos. contr., neg. contr. in a 96-well plate",
+      "العيّنات 1–6 والسيطرة الموجبة والسالبة في صفيحة 96 حفرة"
+     ]
+    ],
+    [
+     [
+      "**2. Add SARS-CoV-2 variant (and incubate 1-2 hr)**",
+      "**2. أضف متحوّر `SARS-CoV-2` (واحضن 1–2 ساعة)**"
+     ],
+     [
+      "virus + antibody",
+      "فيروس + ضدّ"
+     ]
+    ],
+    [
+     [
+      "**3. Add cells (and incubate 3-7d)**",
+      "**3. أضف الخلايا (واحضن 3–7 أيام)**"
+     ],
+     [
+      "susceptible cells",
+      "خلايا حسّاسة"
+     ]
+    ],
+    [
+     [
+      "**4. Detection of virus infected cells** — wash, Detect",
+      "**4. كشف الخلايا المصابة بالفيروس** — غسل، ثم كشف"
+     ],
+     [
+      "read the VNT titer of each sample (e.g. 4, 6, 4, 6, 8, 5; pos. contr. 8; neg. contr. 0)",
+      "قراءة عيار كل عيّنة (مثل 4، 6، 4، 6، 8، 5؛ السيطرة الموجبة 8؛ السالبة 0)"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    52,
+    48
+   ],
+   "label_en": "Figure text",
+   "label_ar": "كتابات الشكل",
+   "_ff": 3
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Figure text",
+     "كتابات الشكل"
+    ],
+    [
+     "Meaning",
+     "المعنى"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Neutralizing antibodies** — e.g. positive control",
+      "**أضداد معادِلة** — مثل السيطرة الموجبة"
+     ],
+     [
+      "**uninfected cells**",
+      "**خلايا غير مصابة**"
+     ]
+    ],
+    [
+     [
+      "**Non-neutralizing antibodies** — e.g. negative control",
+      "**أضداد غير معادِلة** — مثل السيطرة السالبة"
+     ],
+     [
+      "**virus infected cells**",
+      "**خلايا مصابة بالفيروس**"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    52,
+    48
+   ],
+   "label_en": "Figure text",
+   "label_ar": "كتابات الشكل",
+   "_ff": 3
+  },
+  {
+   "t": "note",
+   "en": "https://www.wur.nl/en/research-results/research-institutes/bioveterinary-research/cro/cro-services/virus-neutralization-tests.htm",
+   "ar": "رابط مصدر الشكل كما ورد في ورقة العملي.",
+   "label": [
+    "Figure source",
+    "مصدر الشكل"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Uses: **vaccine efficacy, diagnosis, epidemiology (prevalence)**.",
+    "Figure: neutralizing Ab → **uninfected** cells; non-neutralizing Ab → **infected** cells."
+   ],
+   "ar": [
+    "الاستعمالات: **كفاءة اللقاح، والتشخيص، والوبائيات (الانتشار)**.",
+    "الشكل: ضدّ معادِل ← خلايا **غير مصابة**؛ ضدّ غير معادِل ← خلايا **مصابة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Interpretation and limitations",
+   "ar": "تفسير النتائج والقيود"
+  },
+  {
+   "t": "h2",
+   "en": "Interpretation of Results",
+   "ar": "تفسير النتائج"
+  },
+  {
+   "t": "card",
+   "en": [
+    "The results of the VNT are typically expressed as a **titer**, which is the **highest dilution of serum that completely inhibits viral infection**.",
+    "A **higher titer** indicates a **higher level of neutralizing antibodies**."
+   ],
+   "ar": [
+    "تُعبَّر نتائج `VNT` عادةً بصورة **عيار**، وهو **أعلى تخفيف للمصل يثبّط الإصابة الفيروسية تثبيطًا كاملًا**.",
+    "و**العيار الأعلى** يدلّ على **مستوى أعلى من الأضداد المعادِلة**."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Limitations",
+   "ar": "القيود (السلبيات)"
+  },
+  {
+   "t": "card",
+   "en": [
+    "The VNT is a **complex and time-consuming** assay."
+   ],
+   "ar": [
+    "`VNT` اختبار **معقّد ويستغرق وقتًا طويلًا**."
+   ],
+   "_ff": 4
+  },
+  {
+   "t": "card",
+   "en": [
+    "It requires **specialized equipment and expertise**.",
+    "It can also be **difficult to standardize** the assay across different laboratories."
+   ],
+   "ar": [
+    "ويحتاج **أجهزة متخصّصة وخبرة**.",
+    "ومن **الصعب أيضًا توحيده (تقييسه)** بين المختبرات المختلفة."
+   ],
+   "_ff": 4
+  },
+  {
+   "t": "note",
+   "en": "Example: a serum that still protects the cells at **1:320** but not at 1:640 has a titer of **320** — higher than a serum with titer 40, so it has **more** neutralizing antibodies.",
+   "ar": "مثال: مصل يحمي الخلايا عند **`1:320`** ولا يحميها عند `1:640` عياره **320** — وهو أعلى من مصل عياره 40، أي فيه أضداد معادِلة **أكثر**.",
+   "label": [
+    "BIOS note",
+    "ملاحظة `BIOS`"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Result = **titer**; higher titer = **more** neutralizing antibodies.",
+    "Limits: **complex, slow, needs equipment and expertise, hard to standardize**."
+   ],
+   "ar": [
+    "النتيجة = **عيار**؛ والعيار الأعلى = أضداد معادِلة **أكثر**.",
+    "القيود: **معقّد، وبطيء، ويحتاج أجهزة وخبرة، وصعب التوحيد**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Virus Neutralization Test (VNT)**",
+     "اختبار تعادل الفيروس / اختبار التحييد الفيروسي"
+    ],
+    [
+     "**Neutralization**",
+     "التعادل / التحييد / الإبطال"
+    ],
+    [
+     "**Neutralizing antibodies**",
+     "الأضداد المعادِلة / الأجسام المضادة المحيِّدة"
+    ],
+    [
+     "**Virion**",
+     "الفيريون / الجسيم الفيروسي الكامل"
+    ],
+    [
+     "**Glycoprotein**",
+     "بروتين سكري / غليكوبروتين"
+    ],
+    [
+     "**Attachment / penetration / uncoating**",
+     "الالتصاق / الاختراق / إزالة الغلاف (التعرية)"
+    ],
+    [
+     "**Serial dilutions**",
+     "تخافيف متسلسلة / تخفيف تسلسلي"
+    ],
+    [
+     "**Titer**",
+     "العيار / المعيار"
+    ],
+    [
+     "**Susceptible cells**",
+     "خلايا قابلة للإصابة / حسّاسة"
+    ],
+    [
+     "**In vitro / in vivo**",
+     "في المختبر (خارج الجسم) / في الجسم الحي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 5
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Vaccine efficacy**",
+     "كفاءة اللقاح / فعالية اللقاح"
+    ],
+    [
+     "**Prevalence**",
+     "الانتشار / معدّل الانتشار"
+    ],
+    [
+     "**Epidemiological studies**",
+     "الدراسات الوبائية"
+    ],
+    [
+     "**Positive / negative control**",
+     "السيطرة (الشاهد) الموجبة / السالبة"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 5
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "MCQs Lab Six (from the lab sheet)",
+    "topic_ar": "أسئلة العملي السادس (من ورقة العملي)"
+   },
+   {
+    "en": "The Virus Neutralization Test (VNT) is primarily used to detect:",
+    "ar": "يُستعمل اختبار تعادل الفيروس `(VNT)` أساسًا للكشف عن:",
+    "options": [
+     [
+      "Viral DNA directly",
+      "الدنا الفيروسي مباشرة"
+     ],
+     [
+      "Neutralizing antibodies",
+      "الأضداد المعادِلة"
+     ],
+     [
+      "Bacterial toxins",
+      "السموم البكتيرية"
+     ],
+     [
+      "Red blood cell antigens",
+      "مستضدّات كريات الدم الحمر"
+     ],
+     [
+      "Fungal spores",
+      "الأبواغ الفطرية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Neutralizing antibodies can decrease viral replication by:",
+    "ar": "تستطيع الأضداد المعادِلة تقليل تضاعف الفيروس عن طريق:",
+    "options": [
+     [
+      "Promoting viral attachment to cells",
+      "تعزيز التصاق الفيروس بالخلايا"
+     ],
+     [
+      "Destroying host-cell nuclei",
+      "تحطيم أنوية الخلايا المضيفة"
+     ],
+     [
+      "Increasing viral uncoating",
+      "زيادة إزالة غلاف الفيروس"
+     ],
+     [
+      "Blocking attachment to host cells",
+      "منع الالتصاق بالخلايا المضيفة"
+     ],
+     [
+      "Producing viral enzymes",
+      "إنتاج إنزيمات فيروسية"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "The sheet's \"Answer key\" line (1-B, 2-B, 3-A, 4-B, 5-A, 6-B, 7-B, 8-B, 9-B, 10-C) gives **B** here, but the answer printed in **bold** in the sheet is **D**, which matches the lab text (blocking attachment to the host cell). We use D.",
+    "note_ar": "سطر \"Answer key\" في الورقة (`1-B, 2-B, 3-A, 4-B, 5-A, 6-B, 7-B, 8-B, 9-B, 10-C`) يعطي **B** هنا، لكن الجواب المكتوب **بالخط الغامق** في الورقة **D**، وهو المطابق لنص العملي (منع الالتصاق بالخلية المضيفة). اعتمدنا D."
+   },
+   {
+    "en": "Neutralizing antibodies typically recognize:",
+    "ar": "تتعرّف الأضداد المعادِلة عادةً على:",
+    "options": [
+     [
+      "Proteins or glycoproteins on the virion surface",
+      "البروتينات أو البروتينات السكرية على سطح الفيريون"
+     ],
+     [
+      "Host-cell ribosomes",
+      "رايبوسومات الخلية المضيفة"
+     ],
+     [
+      "Viral nucleic acid only",
+      "الحامض النووي الفيروسي فقط"
+     ],
+     [
+      "Bacterial cell walls",
+      "جدران الخلايا البكتيرية"
+     ],
+     [
+      "Red blood cell membranes only",
+      "أغشية كريات الدم الحمر فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In the VNT, serum samples are prepared as:",
+    "ar": "في `VNT` تُحضَّر عيّنات المصل بصورة:",
+    "options": [
+     [
+      "A single undiluted sample only",
+      "عيّنة واحدة غير مخفّفة فقط"
+     ],
+     [
+      "Heat-fixed bacterial cultures",
+      "مزارع بكتيرية مثبّتة بالحرارة"
+     ],
+     [
+      "Serial dilutions",
+      "تخافيف متسلسلة"
+     ],
+     [
+      "Agar plates",
+      "أطباق آغار"
+     ],
+     [
+      "Stained blood films",
+      "مسحات دم مصبوغة"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "The sheet's \"Answer key\" line (1-B, 2-B, 3-A, 4-B, 5-A, 6-B, 7-B, 8-B, 9-B, 10-C) gives **B** here, but the answer printed in **bold** in the sheet is **C**, which matches the lab text (serial dilutions of the serum sample). We use C.",
+    "note_ar": "سطر \"Answer key\" في الورقة (`1-B, 2-B, 3-A, 4-B, 5-A, 6-B, 7-B, 8-B, 9-B, 10-C`) يعطي **B** هنا، لكن الجواب المكتوب **بالخط الغامق** في الورقة **C**، وهو المطابق لنص العملي (تخافيف متسلسلة لعيّنة المصل). اعتمدنا C."
+   },
+   {
+    "en": "In a VNT, each serum dilution is mixed with:",
+    "ar": "في `VNT` يُمزج كل تخفيف للمصل مع:",
+    "options": [
+     [
+      "Bacterial colonies",
+      "مستعمرات بكتيرية"
+     ],
+     [
+      "Antibiotics only",
+      "مضادّات حيوية فقط"
+     ],
+     [
+      "Sheep red blood cells",
+      "كريات دم حمر للأغنام"
+     ],
+     [
+      "Complement proteins",
+      "بروتينات المتمّم"
+     ],
+     [
+      "A known quantity of virus",
+      "كمية معروفة من الفيروس"
+     ]
+    ],
+    "answer": "e",
+    "note_en": "The sheet's \"Answer key\" line (1-B, 2-B, 3-A, 4-B, 5-A, 6-B, 7-B, 8-B, 9-B, 10-C) gives **A** here, but the answer printed in **bold** in the sheet is **E**, which matches the lab text (a known quantity of the virus is mixed with each dilution). We use E.",
+    "note_ar": "سطر \"Answer key\" في الورقة (`1-B, 2-B, 3-A, 4-B, 5-A, 6-B, 7-B, 8-B, 9-B, 10-C`) يعطي **A** هنا، لكن الجواب المكتوب **بالخط الغامق** في الورقة **E**، وهو المطابق لنص العملي (تُمزج كمية معروفة من الفيروس مع كل تخفيف). اعتمدنا E."
+   },
+   {
+    "en": "After serum and virus are incubated, which cells are added:",
+    "ar": "بعد حضن المصل والفيروس، أيّ خلايا تُضاف:",
+    "options": [
+     [
+      "Nonliving artificial cells",
+      "خلايا صناعية غير حيّة"
+     ],
+     [
+      "Cells susceptible to the virus",
+      "خلايا قابلة للإصابة بالفيروس"
+     ],
+     [
+      "Fungal cells",
+      "خلايا فطرية"
+     ],
+     [
+      "Bacterial spores",
+      "أبواغ بكتيرية"
+     ],
+     [
+      "Platelets",
+      "صفائح دموية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "If cells remain healthy during the VNT, this indicates that:",
+    "ar": "إذا بقيت الخلايا سليمة أثناء `VNT` فهذا يدلّ على أن:",
+    "options": [
+     [
+      "The virus infected the cells",
+      "الفيروس أصاب الخلايا"
+     ],
+     [
+      "No antibodies were present",
+      "لم توجد أضداد"
+     ],
+     [
+      "The serum contained bacteria",
+      "المصل احتوى بكتيريا"
+     ],
+     [
+      "Neutralizing antibodies prevented infection",
+      "الأضداد المعادِلة منعت الإصابة"
+     ],
+     [
+      "Viral replication increased",
+      "تضاعف الفيروس ازداد"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "The sheet's \"Answer key\" line (1-B, 2-B, 3-A, 4-B, 5-A, 6-B, 7-B, 8-B, 9-B, 10-C) gives **B** here, but the answer printed in **bold** in the sheet is **D**, which matches the lab text (healthy cells mean the antibodies neutralized the virus). We use D.",
+    "note_ar": "سطر \"Answer key\" في الورقة (`1-B, 2-B, 3-A, 4-B, 5-A, 6-B, 7-B, 8-B, 9-B, 10-C`) يعطي **B** هنا، لكن الجواب المكتوب **بالخط الغامق** في الورقة **D**، وهو المطابق لنص العملي (الخلايا السليمة تعني أن الأضداد عادلت الفيروس). اعتمدنا D."
+   },
+   {
+    "en": "The neutralization titer is defined as:",
+    "ar": "يُعرَّف عيار التعادل بأنه:",
+    "options": [
+     [
+      "The lowest dilution causing cell death",
+      "أدنى تخفيف يسبّب موت الخلايا"
+     ],
+     [
+      "The highest dilution that completely inhibits viral infection",
+      "أعلى تخفيف يثبّط الإصابة الفيروسية تثبيطًا كاملًا"
+     ],
+     [
+      "The total number of viruses in serum",
+      "العدد الكلي للفيروسات في المصل"
+     ],
+     [
+      "The amount of complement in serum",
+      "كمية المتمّم في المصل"
+     ],
+     [
+      "The number of cells in culture",
+      "عدد الخلايا في المزرعة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "A higher VNT titer generally indicates:",
+    "ar": "العيار الأعلى في `VNT` يدلّ عمومًا على:",
+    "options": [
+     [
+      "A lower level of neutralizing antibodies",
+      "مستوى أقل من الأضداد المعادِلة"
+     ],
+     [
+      "A higher level of neutralizing antibodies",
+      "مستوى أعلى من الأضداد المعادِلة"
+     ],
+     [
+      "Absence of viral exposure",
+      "عدم التعرّض للفيروس"
+     ],
+     [
+      "Increased bacterial infection",
+      "زيادة العدوى البكتيرية"
+     ],
+     [
+      "Failure of the vaccine",
+      "فشل اللقاح"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which is a limitation of the Virus Neutralization Test:",
+    "ar": "أيّها من قيود اختبار تعادل الفيروس:",
+    "options": [
+     [
+      "It requires no specialized equipment",
+      "لا يحتاج أجهزة متخصّصة"
+     ],
+     [
+      "It is rapid and simple to standardize",
+      "سريع وسهل التوحيد"
+     ],
+     [
+      "It is complex and time-consuming",
+      "معقّد ويستغرق وقتًا"
+     ],
+     [
+      "It cannot measure neutralizing antibodies",
+      "لا يستطيع قياس الأضداد المعادِلة"
+     ],
+     [
+      "It does not require susceptible cells",
+      "لا يحتاج خلايا حسّاسة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "BIOS questions",
+    "topic_ar": "أسئلة BIOS"
+   },
+   {
+    "en": "Neutralizing antibodies may prevent the virus from:",
+    "ar": "قد تمنع الأضداد المعادِلة الفيروس من:",
+    "options": [
+     [
+      "Being diluted",
+      "التخفيف"
+     ],
+     [
+      "Uncoating within the cell",
+      "إزالة غلافه داخل الخلية"
+     ],
+     [
+      "Binding complement",
+      "ربط المتمّم"
+     ],
+     [
+      "Agglutinating RBCs",
+      "تلزين كريات الدم الحمر"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Some antibodies that bind virion surface proteins are not neutralizing; in some cases they may:",
+    "ar": "بعض الأضداد التي ترتبط ببروتينات سطح الفيريون ليست معادِلة؛ وفي بعض الحالات قد:",
+    "options": [
+     [
+      "Destroy the host cell nucleus",
+      "تحطّم نواة الخلية المضيفة"
+     ],
+     [
+      "Become complement",
+      "تتحوّل إلى متمّم"
+     ],
+     [
+      "Enhance infection",
+      "تعزّز العدوى"
+     ],
+     [
+      "Replicate the virus",
+      "تضاعف الفيروس"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The magnitude of neutralization by a given antibody may vary with:",
+    "ar": "قد يختلف مقدار التعادل بضدّ معيّن باختلاف:",
+    "options": [
+     [
+      "The host cell used for the measurement",
+      "الخلية المضيفة المستعملة في القياس"
+     ],
+     [
+      "The day of the week",
+      "يوم الأسبوع"
+     ],
+     [
+      "The colour of the serum",
+      "لون المصل"
+     ],
+     [
+      "The size of the plate only",
+      "حجم الصفيحة فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Neutralization in vitro and protection in vivo are:",
+    "ar": "التعادل في المختبر والحماية في الجسم الحي:",
+    "options": [
+     [
+      "Always identical",
+      "متطابقان دائمًا"
+     ],
+     [
+      "Never related",
+      "غير مترابطين أبدًا"
+     ],
+     [
+      "Unrelated to antibodies",
+      "لا علاقة لهما بالأضداد"
+     ],
+     [
+      "Usually related but not always perfectly correlated",
+      "مترابطان عادةً لكن ليس دائمًا تمامًا"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The VNT is important for measuring all of these EXCEPT:",
+    "ar": "يُعدّ `VNT` مهمًا لقياس كل ما يلي عدا:",
+    "options": [
+     [
+      "Blood glucose",
+      "سكر الدم"
+     ],
+     [
+      "Protective immunity",
+      "المناعة الواقية"
+     ],
+     [
+      "Vaccine efficacy",
+      "كفاءة اللقاح"
+     ],
+     [
+      "Virus identification",
+      "تحديد هوية الفيروس"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In the observation step, healthy cells at a dilution mean:",
+    "ar": "في خطوة المراقبة، الخلايا السليمة عند تخفيف معيّن تعني:",
+    "options": [
+     [
+      "The virus was not added",
+      "لم يُضف الفيروس"
+     ],
+     [
+      "The titer is zero",
+      "العيار صفر"
+     ],
+     [
+      "The cells were not susceptible",
+      "الخلايا غير حسّاسة"
+     ],
+     [
+      "Antibodies neutralized the virus at that dilution",
+      "الأضداد عادلت الفيروس عند ذلك التخفيف"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The VNT titer indicates:",
+    "ar": "يدلّ عيار `VNT` على:",
+    "options": [
+     [
+      "The number of cells",
+      "عدد الخلايا"
+     ],
+     [
+      "The level of neutralizing antibodies in the sample",
+      "مستوى الأضداد المعادِلة في العيّنة"
+     ],
+     [
+      "The amount of complement",
+      "كمية المتمّم"
+     ],
+     [
+      "The virus genome size",
+      "حجم جينوم الفيروس"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Measuring neutralizing antibodies induced by vaccination is used in:",
+    "ar": "قياس الأضداد المعادِلة التي يحفّزها التلقيح يُستعمل في:",
+    "options": [
+     [
+      "Epidemiological prevalence only",
+      "انتشار وبائي فقط"
+     ],
+     [
+      "Blood grouping",
+      "تحديد فصائل الدم"
+     ],
+     [
+      "Vaccine development",
+      "تطوير اللقاحات"
+     ],
+     [
+      "Bacterial culture",
+      "الزرع البكتيري"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Determining the prevalence of neutralizing antibodies in a population is a:",
+    "ar": "تحديد انتشار الأضداد المعادِلة في مجتمع ما يُعدّ:",
+    "options": [
+     [
+      "Titer determination step",
+      "خطوة تحديد عيار"
+     ],
+     [
+      "Vaccine failure",
+      "فشل لقاح"
+     ],
+     [
+      "Cell culture step",
+      "خطوة زرع خلايا"
+     ],
+     [
+      "Epidemiological study",
+      "دراسة وبائية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which is NOT a limitation of the VNT?",
+    "ar": "أيّها ليس من قيود `VNT`؟",
+    "options": [
+     [
+      "Complex",
+      "معقّد"
+     ],
+     [
+      "Time-consuming",
+      "يستغرق وقتًا"
+     ],
+     [
+      "It needs susceptible cells and a known amount of virus",
+      "يحتاج خلايا حسّاسة وكمية معروفة من فيروس"
+     ],
+     [
+      "Difficult to standardize across laboratories",
+      "صعب التوحيد بين المختبرات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this figure, the wells with non-neutralizing antibodies (negative control) end with:",
+    "ar": "في هذا الشكل، الحفر التي فيها أضداد غير معادِلة (السيطرة السالبة) تنتهي بـ:",
+    "options": [
+     [
+      "Uninfected cells",
+      "خلايا غير مصابة"
+     ],
+     [
+      "Virus infected cells",
+      "خلايا مصابة بالفيروس"
+     ],
+     [
+      "No cells",
+      "لا خلايا"
+     ],
+     [
+      "Complement fixation",
+      "تثبيت المتمّم"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/vnt.jpg",
+    "img_h": "40mm"
+   },
+   {
+    "en": "In this figure, after adding the cells the plate is incubated for:",
+    "ar": "في هذا الشكل، بعد إضافة الخلايا تُحضن الصفيحة مدّة:",
+    "options": [
+     [
+      "3–7 days",
+      "3–7 أيام"
+     ],
+     [
+      "30 minutes",
+      "30 دقيقة"
+     ],
+     [
+      "1–2 hours",
+      "1–2 ساعة"
+     ],
+     [
+      "24 weeks",
+      "24 أسبوعًا"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/vnt.jpg",
+    "img_h": "40mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Neutralizing antibodies can prevent a virus from attaching to host cells.",
+    "ar": "تستطيع الأضداد المعادِلة منع الفيروس من الالتصاق بالخلايا المضيفة.",
+    "answer": "T"
+   },
+   {
+    "en": "All antibodies that bind to viral surface proteins are neutralizing antibodies.",
+    "ar": "كل الأضداد التي ترتبط ببروتينات سطح الفيروس أضداد معادِلة.",
+    "answer": "F"
+   },
+   {
+    "en": "In VNT, serum is commonly tested using serial dilutions.",
+    "ar": "في `VNT` يُفحص المصل عادةً باستعمال تخافيف متسلسلة.",
+    "answer": "T"
+   },
+   {
+    "en": "The VNT titer is the lowest serum dilution that inhibits viral infection.",
+    "ar": "عيار `VNT` هو أدنى تخفيف للمصل يثبّط الإصابة الفيروسية.",
+    "answer": "F"
+   },
+   {
+    "en": "Healthy cells after incubation may indicate viral neutralization by antibodies.",
+    "ar": "الخلايا السليمة بعد الحضن قد تدلّ على تعادل الفيروس بالأضداد.",
+    "answer": "T"
+   },
+   {
+    "en": "A higher neutralization titer indicates a higher level of neutralizing antibodies.",
+    "ar": "عيار التعادل الأعلى يدلّ على مستوى أعلى من الأضداد المعادِلة.",
+    "answer": "T"
+   },
+   {
+    "en": "VNT may be used to assess vaccine efficacy.",
+    "ar": "قد يُستعمل `VNT` لتقييم كفاءة اللقاح.",
+    "answer": "T"
+   },
+   {
+    "en": "Neutralization measured in vitro is always perfectly correlated with protection in vivo.",
+    "ar": "التعادل المقيس في المختبر يرتبط دائمًا ارتباطًا تامًّا بالحماية في الجسم الحي.",
+    "answer": "F"
+   },
+   {
+    "en": "VNT can be used in epidemiological studies to determine antibody prevalence in a population.",
+    "ar": "يمكن استعمال `VNT` في الدراسات الوبائية لتحديد انتشار الأضداد في مجتمع ما.",
+    "answer": "T"
+   },
+   {
+    "en": "VNT is a simple assay that requires no specialized equipment or expertise.",
+    "ar": "`VNT` اختبار بسيط لا يحتاج أجهزة متخصّصة أو خبرة.",
+    "answer": "F"
+   },
+   {
+    "en": "Neutralizing antibodies typically recognize proteins or glycoproteins on the virion surface.",
+    "ar": "تتعرّف الأضداد المعادِلة عادةً على البروتينات أو البروتينات السكرية على سطح الفيريون.",
+    "answer": "T"
+   },
+   {
+    "en": "In the VNT, susceptible cells are added before the virus is mixed with the serum.",
+    "ar": "في `VNT` تُضاف الخلايا الحسّاسة قبل مزج الفيروس مع المصل.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Highest, not lowest",
+    "ar": "الأعلى لا الأدنى",
+    "answer_en": "The titer is the HIGHEST dilution of serum that COMPLETELY inhibits infection — not the lowest dilution.",
+    "answer_ar": "العيار هو أعلى تخفيف للمصل يثبّط الإصابة تثبيطًا كاملًا — وليس أدنى تخفيف."
+   },
+   {
+    "en": "Higher titer",
+    "ar": "العيار الأعلى",
+    "answer_en": "A higher titer = MORE neutralizing antibodies (the serum still works when diluted more).",
+    "answer_ar": "العيار الأعلى = أضداد معادِلة أكثر (المصل يعمل حتى بعد تخفيف أكبر)."
+   },
+   {
+    "en": "Healthy cells",
+    "ar": "الخلايا السليمة",
+    "answer_en": "Healthy cells = the virus was NEUTRALIZED (antibody present) — not 'no antibodies'.",
+    "answer_ar": "الخلايا السليمة = الفيروس تعادل (الضدّ موجود) — وليس 'لا أضداد'."
+   },
+   {
+    "en": "Binding ≠ neutralizing",
+    "ar": "الارتباط ≠ التعادل",
+    "answer_en": "Some antibodies bind surface proteins but do not neutralize; some may even enhance infection.",
+    "answer_ar": "بعض الأضداد ترتبط بالبروتينات السطحية لكنها لا تعادل؛ وبعضها قد يعزّز العدوى."
+   },
+   {
+    "en": "Order of the steps",
+    "ar": "ترتيب الخطوات",
+    "answer_en": "Serum dilutions + virus FIRST (incubate), THEN add susceptible cells.",
+    "answer_ar": "تخافيف المصل + الفيروس أولًا (حضن)، ثم تُضاف الخلايا الحسّاسة."
+   },
+   {
+    "en": "VNT vs CFT (lab 5)",
+    "ar": "`VNT` مقابل `CFT` (العملي 5)",
+    "answer_en": "VNT uses virus + susceptible cells and reads infection; CFT uses complement + sheep RBCs and reads hemolysis.",
+    "answer_ar": "`VNT` يستعمل فيروسًا + خلايا حسّاسة ويقرأ الإصابة؛ و`CFT` يستعمل المتمّم + كريات أغنام ويقرأ تحلّل الدم."
+   },
+   {
+    "en": "The sheet's answer-key line",
+    "ar": "سطر مفتاح الأجوبة في الورقة",
+    "answer_en": "The line 'Answer key: 1-B, 2-B, 3-A, 4-B, 5-A, 6-B, 7-B, 8-B, 9-B, 10-C' does not match questions 2, 4, 5 and 7 — follow the bold answers (D, C, E, D).",
+    "answer_ar": "سطر '`Answer key`' لا يطابق الأسئلة 2 و4 و5 و7 — اعتمد الأجوبة الغامقة (`D` و`C` و`E` و`D`)."
+   }
+  ],
+  "important": [
+   {
+    "en": "What is virus neutralization and why is it important in virology?",
+    "ar": "ما تعادل الفيروس ولماذا هو مهم في علم الفيروسات؟",
+    "answer_en": "Antibodies decrease the replication of viruses (neutralize them). It is important for measuring protective immunity, vaccine efficacy and virus identification.",
+    "answer_ar": "الأضداد تقلّل تضاعف الفيروسات (تعادلها). وهو مهم لقياس المناعة الواقية وكفاءة اللقاح وتحديد هوية الفيروس."
+   },
+   {
+    "en": "How can antibodies neutralize viruses?",
+    "ar": "كيف تعادل الأضداد الفيروسات؟",
+    "answer_en": "By blocking attachment to the host cell, preventing penetration of the host cell membrane, or interfering with uncoating of the virus within the cell; they usually recognize proteins or glycoproteins on the virion surface.",
+    "answer_ar": "بمنع الالتصاق بالخلية المضيفة، أو منع اختراق غشائها، أو التداخل مع إزالة غلاف الفيروس داخل الخلية؛ وتتعرّف عادةً على البروتينات أو البروتينات السكرية على سطح الفيريون."
+   },
+   {
+    "en": "Explain the principle of the VNT.",
+    "ar": "اشرح مبدأ `VNT`.",
+    "answer_en": "Serial dilutions of serum are mixed with a known amount of virus, then incubated with susceptible cells. Neutralizing antibodies bind the virus and prevent infection of the cells. The highest dilution that completely inhibits infection is the neutralization titer.",
+    "answer_ar": "تُمزج تخافيف متسلسلة من المصل مع كمية معروفة من الفيروس، ثم تُحضن مع خلايا حسّاسة. ترتبط الأضداد المعادِلة بالفيروس وتمنع إصابة الخلايا. وأعلى تخفيف يثبّط الإصابة تثبيطًا كاملًا هو عيار التعادل."
+   },
+   {
+    "en": "List the methods (steps) of the VNT.",
+    "ar": "عدّد خطوات `VNT`.",
+    "answer_en": "1. Sample preparation (serial dilutions of serum). 2. Virus incubation (known quantity of virus + each dilution). 3. Cell culture (add susceptible cells). 4. Observation (signs of infection; healthy cells = neutralized). 5. Titer determination (highest dilution still preventing infection).",
+    "answer_ar": "1. تحضير العيّنة (تخافيف متسلسلة للمصل). 2. حضن الفيروس (كمية معروفة + كل تخفيف). 3. مزرعة الخلايا (إضافة خلايا حسّاسة). 4. المراقبة (علامات الإصابة؛ خلايا سليمة = تعادل). 5. تحديد العيار (أعلى تخفيف لا يزال يمنع الإصابة)."
+   },
+   {
+    "en": "Give the applications and the limitations of the VNT.",
+    "ar": "اذكر استعمالات `VNT` وقيوده.",
+    "answer_en": "Applications: vaccine development (efficacy), diagnosis of viral infections, epidemiological studies (prevalence). Limitations: complex and time-consuming, needs specialized equipment and expertise, difficult to standardize across laboratories.",
+    "answer_ar": "الاستعمالات: تطوير اللقاحات (الكفاءة)، وتشخيص الإصابات الفيروسية، والدراسات الوبائية (الانتشار). القيود: معقّد ويستغرق وقتًا، ويحتاج أجهزة متخصّصة وخبرة، وصعب التوحيد بين المختبرات."
+   },
+   {
+    "en": "How are VNT results interpreted?",
+    "ar": "كيف تُفسَّر نتائج `VNT`؟",
+    "answer_en": "As a titer — the highest dilution of serum that completely inhibits viral infection; a higher titer means a higher level of neutralizing antibodies.",
+    "answer_ar": "بصورة عيار — أعلى تخفيف للمصل يثبّط الإصابة الفيروسية تثبيطًا كاملًا؛ والعيار الأعلى يعني مستوى أعلى من الأضداد المعادِلة."
+   }
+  ]
+ }
+}

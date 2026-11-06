@@ -121,6 +121,7 @@
 - [[Code/vir3 - v3q.py|vir3/v3q.py]] → virology-lab3-direct-examination
 - [[Code/vir4 - v4q.py|vir4/v4q.py]] → virology-lab4-isolation-cultivation
 - [[Code/vir5 - v5q.py|vir5/v5q.py]] → virology-lab5-complement-fixation
+- [[Code/vir6 - v6.py|vir6/v6.py]] → virology-lab6-neutralization
 
 ## Other utilities
 
