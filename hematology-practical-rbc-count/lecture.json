@@ -1,0 +1,2023 @@
+{
+ "meta": {
+  "subject_en": "Hematology",
+  "subject_ar": "أمراض الدم",
+  "short_ar": "امراض الدم",
+  "unit_label": "LAB",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة",
+  "instructor": "ليندا منجد هادي",
+  "unit_en": "Lab 4",
+  "unit_ar": "العملي 4",
+  "unit_no": "4",
+  "title_en": "Red Blood Cell Count",
+  "title_ar": "عدّ كريات الدم الحمر"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Introduction and principle",
+   "ar": "المقدمة والمبدأ"
+  },
+  {
+   "t": "note",
+   "en": "RED BLOOD CELL COUNT · Presented By Linda Munjed Hadi",
+   "ar": "عدّ كريات الدم الحمر · تقديم: ليندا منجد هادي",
+   "label": [
+    "Lab sheet",
+    "ورقة العملي"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Introduction and principle**",
+   "ar": "**المقدمة والمبدأ**",
+   "list_en": [
+    "Red blood cells make up almost 45 % of the blood volume.",
+    "Each RBC is a biconcave disc having a diameter of 7.2 microns and a thickness of 2.2 microns.",
+    "Red blood cells are so packed with hemoglobin that they lack many components, including a nucleus, found in other cells.",
+    "Their primary function is to carry oxygen from the lungs to every cell in the body."
+   ],
+   "list_ar": [
+    "تشكّل كريات الدم الحمر نحو 45% من حجم الدم.",
+    "كل كرية حمراء قرص مقعّر الوجهين قطره 7.2 مايكرون وسُمكه 2.2 مايكرون.",
+    "وكريات الدم الحمر ممتلئة بالهيموغلوبين إلى حدّ أنها تفتقد مكوّنات كثيرة موجودة في الخلايا الأخرى، ومنها النواة.",
+    "ووظيفتها الأساسية نقل الأوكسجين من الرئتين إلى كل خلية في الجسم."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/rbc-dimensions.png",
+   "en": "Fig: Dimension of RBC",
+   "ar": "الشكل: أبعاد الكرية الحمراء",
+   "h": "48mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Figure text",
+     "كتابات الشكل"
+    ],
+    [
+     "Meaning",
+     "المعنى"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**7.2 μ**",
+      "**7.2 مايكرون**"
+     ],
+     [
+      "diameter (A: face view)",
+      "القطر (`A`: منظر أمامي)"
+     ]
+    ],
+    [
+     [
+      "**2.2 μ**",
+      "**2.2 مايكرون**"
+     ],
+     [
+      "thickness at the rim (B: side view)",
+      "السُّمك عند الحافّة (`B`: منظر جانبي)"
+     ]
+    ],
+    [
+     [
+      "**1 μ**",
+      "**1 مايكرون**"
+     ],
+     [
+      "thickness at the thin centre",
+      "السُّمك في المركز الرقيق"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    70
+   ],
+   "label_en": "Figure text",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "note",
+   "en": [
+    "RBCs = **~45 %** of blood volume; **biconcave disc 7.2 μ × 2.2 μ**.",
+    "**No nucleus** (packed with Hb); main job: **carry O2** from the lungs to the cells."
+   ],
+   "ar": [
+    "الكريات الحمر = **~45%** من حجم الدم؛ **قرص مقعّر الوجهين `7.2 × 2.2` مايكرون**.",
+    "**بلا نواة** (ممتلئة بالهيموغلوبين)؛ ووظيفتها: **نقل `O2`** من الرئتين إلى الخلايا."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "RBC count, aim and methods",
+   "ar": "عدّ الكريات الحمر والهدف والطرائق"
+  },
+  {
+   "t": "h2",
+   "en": "**RED BLOOD CELL COUNT**",
+   "ar": "**عدّ كريات الدم الحمر**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The red blood cell count is the number of red blood cells per unit volume of whole blood.",
+    "RBC count is down to determine whether there is an adequate number of RBC in the circulation or not.",
+    "The Average lifespan of Red Blood Cells RBCs) is 100 – 120 days."
+   ],
+   "list_ar": [
+    "عدّ كريات الدم الحمر هو عدد الكريات الحمر في وحدة الحجم من الدم الكامل.",
+    "يُجرى عدّ الكريات الحمر لتحديد ما إذا كان عددها في الدوران كافيًا أم لا.",
+    "ومتوسّط عمر كريات الدم الحمر (`RBCs`) هو 100 – 120 يومًا."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/rbc-shape.png",
+   "en": "Red blood cells (slide picture)",
+   "ar": "كريات الدم الحمر (صورة من الشريحة)",
+   "h": "38mm"
+  },
+  {
+   "t": "note",
+   "en": "\"is down to determine\" = **is done** to determine (as written on the next slide).",
+   "ar": "\"`is down to determine`\" = **`is done`** `to determine` (كما في الشريحة التالية)، أي «يُجرى لتحديد».",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "**Aim of the experiment**",
+   "ar": "**هدف التجربة**"
+  },
+  {
+   "t": "card",
+   "en": "RBC count is done to determine whether there is an adequate number of RBC in circulation or not",
+   "ar": "يُجرى عدّ الكريات الحمر لتحديد ما إذا كان عددها في الدوران كافيًا أم لا"
+  },
+  {
+   "t": "h2",
+   "en": "**Methods**",
+   "ar": "**الطرائق**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Manual Method",
+    "Electronic Cell Counting"
+   ],
+   "list_ar": [
+    "الطريقة اليدوية",
+    "العدّ الإلكتروني للخلايا"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "RBC count = number of RBCs **per unit volume** of whole blood; lifespan **100–120 days**.",
+    "Aim: is the number **adequate** or not; methods: **manual** and **electronic**."
+   ],
+   "ar": [
+    "عدّ الكريات الحمر = عددها **في وحدة الحجم** من الدم الكامل؛ وعمرها **100–120 يومًا**.",
+    "الهدف: هل العدد **كافٍ** أم لا؛ والطرائق: **يدوية** و**إلكترونية**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Manual method: materials and instruments",
+   "ar": "الطريقة اليدوية: المواد والأدوات"
+  },
+  {
+   "t": "h2",
+   "en": "**Manual Method — Materials and instruments**",
+   "ar": "**الطريقة اليدوية — المواد والأدوات**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Anticoagulated whole** (using EDTA or heparin as an anticoagulant) or **capillary blood** can be used.",
+    "**HAYEM’S solution** ( diluting fluid) which is composed of :"
+   ],
+   "list_ar": [
+    "يمكن استعمال **الدم الكامل المانع للتخثّر** (باستعمال `EDTA` أو الهيبارين مانعًا للتخثّر) أو **الدم الشعري**.",
+    "**محلول هايم (`HAYEM’S`)** (السائل المخفّف) ويتكوّن من:"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Component",
+     "المكوّن"
+    ],
+    [
+     "Amount",
+     "الكمّية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "*HgCl2",
+      "كلوريد الزئبق `HgCl2`"
+     ],
+     "0.05 g"
+    ],
+    [
+     [
+      "*Na2SO4",
+      "كبريتات الصوديوم `Na2SO4`"
+     ],
+     "2.5 g"
+    ],
+    [
+     [
+      "* NaCl",
+      "كلوريد الصوديوم `NaCl`"
+     ],
+     "0.5 g"
+    ],
+    [
+     [
+      "* distilled water",
+      "ماء مقطّر"
+     ],
+     "100 ml"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    60,
+    40
+   ],
+   "label_en": "HAYEM’S solution",
+   "label_ar": "محلول هايم"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**RBC pipette** which is composed of stem and mixing chamber with red bead it is function is to mix blood with the substance and for differentiation form the WBC pipette"
+   ],
+   "list_ar": [
+    "**ماصّة الكريات الحمر** وتتكوّن من ساق وحجرة خلط فيها خرزة حمراء، وظيفتها خلط الدم مع المادّة وتمييز الماصّة عن ماصّة الكريات البيض"
+   ],
+   "start": 3
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/rbc-pipette.png",
+     "en": "RBC pipette (red bead) with rubber tube",
+     "ar": "ماصّة الكريات الحمر (خرزة حمراء) مع أنبوب مطّاطي",
+     "h": "36mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/hayem-solution.png",
+     "en": "Diluting fluid bottle",
+     "ar": "قنينة السائل المخفّف",
+     "h": "36mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Haemocytometer** ( Neubeuer) chamber is counting chamber with a cover slip . the same counting chamber is used also for counting total white blood cells",
+    "Microscope",
+    "lancet",
+    "alcohol 70%",
+    "cotton"
+   ],
+   "list_ar": [
+    "**مقياس الكريات (`Haemocytometer`)** (حجرة نيوباور) حجرة عدّ مع غطاء شريحة؛ وحجرة العدّ نفسها تُستعمل أيضًا لعدّ الكريات البيض الكلّي",
+    "المجهر",
+    "المِشرط (`lancet`)",
+    "كحول 70%",
+    "قطن"
+   ],
+   "start": 4
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/pipette-case.png",
+     "en": "Pipettes in their case with the counting chamber",
+     "ar": "الماصّات في علبتها مع حجرة العدّ",
+     "h": "38mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/neubauer-chamber.png",
+     "en": "Neubauer improved bright-line chamber: depth 0.100 mm, 0.0025 mm²",
+     "ar": "حجرة نيوباور المحسّنة: العمق `0.100 mm`، ومساحة المربّع الصغير `0.0025 mm²`",
+     "h": "38mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"Neubeuer\" = **Neubauer**; \"it is function\" = its function; \"form the WBC pipette\" = **from** the WBC pipette.",
+    "HgCl2 (mercuric chloride) is **toxic** — handle Hayem’s solution with gloves and never pipette it by mouth."
+   ],
+   "ar": [
+    "\"`Neubeuer`\" = **`Neubauer` (نيوباور)**؛ و\"`it is function`\" = `its function`؛ و\"`form the WBC pipette`\" = **`from`** `the WBC pipette`.",
+    "`HgCl2` (كلوريد الزئبق) **سامّ** — تعامل مع محلول هايم بالقفّازات ولا تسحبه بالفم أبدًا."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Blood: **EDTA/heparin** whole blood or **capillary** blood.",
+    "Diluent = **Hayem’s** (HgCl2, Na2SO4, NaCl, water); RBC pipette = **red bead**.",
+    "Counting chamber = **Neubauer** (also used for WBC)."
+   ],
+   "ar": [
+    "الدم: دم كامل بـ**`EDTA`/الهيبارين** أو دم **شعري**.",
+    "المخفّف = **محلول هايم** (`HgCl2`، `Na2SO4`، `NaCl`، ماء)؛ وماصّة الكريات الحمر = **خرزة حمراء**.",
+    "حجرة العدّ = **نيوباور** (تُستعمل للكريات البيض أيضًا)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Procedure",
+   "ar": "طريقة العمل"
+  },
+  {
+   "t": "card",
+   "en": "**Procedure**",
+   "ar": "**طريقة العمل**",
+   "list_en": [
+    "Wipe your partner’s finger with cotton soaked with alcohol and allow it to dry ."
+   ],
+   "list_ar": [
+    "امسح إصبع زميلك بقطن مبلّل بالكحول واتركه يجفّ."
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "With a sterile disposable lancet do small prick on the finger tip , when a drop of reasonable size has collected",
+    "Hold the red blood cell pipette slightly tilted from the vertical position ; and apply it’s tip to the drop and aspirate blood to the mark 0.5 .",
+    [
+     "Wipe off any blood adhering to its outer side ; if the blood gets 0.5 marks tap the tip gently till the blood is exactly at the mark.",
+     "never allow the blood to clot inside the pipette ; if the blood clots in the pipette blow the sample out, clean the pipette and begin all over again ."
+    ],
+    "Aspirate diluting Hayem’s solution to the 101 mark thus making 1:200 dilution of blood."
+   ],
+   "list_ar": [
+    "بمِشرط معقّم للاستعمال مرّة واحدة اعمل وخزة صغيرة في رأس الإصبع، حتى تتجمّع قطرة بحجم مناسب",
+    "أمسك ماصّة الكريات الحمر مائلة قليلًا عن الوضع العمودي؛ وضع رأسها على القطرة واسحب الدم إلى العلامة 0.5.",
+    [
+     "امسح أيّ دم عالق بجانبها الخارجي؛ وإذا تجاوز الدم العلامة 0.5 فانقر الرأس بلطف حتى يصبح الدم على العلامة تمامًا.",
+     "ولا تسمح أبدًا بتخثّر الدم داخل الماصّة؛ فإذا تخثّر فانفخ العيّنة خارجًا ونظّف الماصّة وابدأ من جديد."
+    ],
+    "اسحب محلول هايم المخفّف إلى العلامة 101، فيصبح تخفيف الدم `1:200`."
+   ],
+   "start": 2,
+   "_ff": 1
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Hold the pipette horizontally and role it with both hands between finger and thumb",
+    "Brow out a quarter of the contents to remove the pure diluting fluid in the stem.",
+    "Prepare the counting chamber and cover slip , then hold the pipette in 45⁰ and touch it tip gently on the surface of the counting platform where it projects beyond the cover slip and a small amount of solution will be drawn under the cover slip",
+    "Place the Neubauer chamber on the stage of the microscope and allow 2 minutes for the cells to settle .",
+    "Scan the counting area with 10 X objective lens."
+   ],
+   "list_ar": [
+    "أمسك الماصّة أفقيًا ودحرجها بكلتا يديك بين الإصبع والإبهام",
+    "انفخ ربع المحتوى للتخلّص من السائل المخفّف الصافي الموجود في الساق.",
+    "حضّر حجرة العدّ وغطاء الشريحة، ثم أمسك الماصّة بزاوية `45⁰` والمس برأسها بلطف سطح منصّة العدّ حيث تبرز خارج الغطاء، فتُسحب كمّية صغيرة من المحلول تحت الغطاء",
+    "ضع حجرة نيوباور على منصّة المجهر واترك دقيقتين لتستقرّ الخلايا.",
+    "امسح منطقة العدّ بالعدسة الشيئية `10X`."
+   ],
+   "start": 6,
+   "_ff": 2
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Use the 40X objective include all cells lying on the lower and right line of any square omit the cells on the upper and left hand lines",
+    "Count the cells in 5 medium squares of 16 small square i.e. 80 small squares one at each corner and one in the center"
+   ],
+   "list_ar": [
+    "استعمل العدسة الشيئية `40X`، واحسب كل الخلايا الواقعة على الخطّين الأسفل والأيمن لأيّ مربّع، وأهمل الخلايا على الخطّين الأعلى والأيسر",
+    "عُدّ الخلايا في 5 مربّعات متوسّطة كل منها 16 مربّعًا صغيرًا، أي 80 مربّعًا صغيرًا: واحد في كل زاوية وواحد في المركز"
+   ],
+   "start": 11,
+   "_ff": 2
+  },
+  {
+   "t": "figure",
+   "src": "assets/counting-grid.png",
+   "en": "Neubauer grid: red = areas of the grid where RBC are counted; blue = areas of the grid where WBC are counted",
+   "ar": "شبكة نيوباور: الأحمر = مناطق الشبكة التي تُعدّ فيها الكريات الحمر؛ والأزرق = مناطق الشبكة التي تُعدّ فيها الكريات البيض",
+   "h": "54mm"
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"role it\" = **roll** it; \"Brow out\" = **blow** out; \"it tip\" = its tip.",
+    "Why 1:200?",
+    "Blood to 0.5 + diluent to 101: the bulb holds 101 − 1 = 100 parts and the blood is 0.5 → 100 ÷ 0.5 = **200**."
+   ],
+   "ar": [
+    "\"`role it`\" = **`roll`** `it` (دحرجها)؛ و\"`Brow out`\" = **`blow`** `out` (انفخ)؛ و\"`it tip`\" = `its tip`.",
+    "لماذا `1:200`؟",
+    "الدم إلى 0.5 + المخفّف إلى 101: الانتفاخ يحوي `101 − 1 = 100` جزء والدم 0.5 ← `100 ÷ 0.5 = 200`."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Blood to 0.5",
+     "ar": "الدم إلى 0.5"
+    },
+    {
+     "en": "Hayem’s to 101",
+     "ar": "هايم إلى 101"
+    },
+    {
+     "en": "Mix (roll)",
+     "ar": "اخلط (دحرجة)"
+    },
+    {
+     "en": "Discard ¼",
+     "ar": "تخلّص من الربع"
+    },
+    {
+     "en": "Charge chamber",
+     "ar": "املأ الحجرة"
+    },
+    {
+     "en": "Settle 2 min",
+     "ar": "استقرار دقيقتين"
+    },
+    {
+     "en": "Count 80 squares (40X)",
+     "ar": "عُدّ 80 مربّعًا (`40X`)"
+    }
+   ],
+   "en": "BIOS: the procedure in one line",
+   "ar": "`BIOS`: طريقة العمل بسطر واحد"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Blood to **0.5**, Hayem’s to **101** → dilution **1:200**; never let it clot.",
+    "Blow out **¼** first; charge at **45⁰**; wait **2 min**.",
+    "Scan **10X**, count **40X**: **5 medium = 80 small squares** (4 corners + centre)."
+   ],
+   "ar": [
+    "الدم إلى **0.5** وهايم إلى **101** ← تخفيف **`1:200`**؛ ولا تتركه يتخثّر.",
+    "انفخ **الربع** أولًا؛ املأ بزاوية **`45⁰`**؛ وانتظر **دقيقتين**.",
+    "امسح بـ**`10X`** وعُدّ بـ**`40X`**: **5 متوسّطة = 80 صغيرًا** (4 زوايا + المركز)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Calculation",
+   "ar": "الحساب"
+  },
+  {
+   "t": "card",
+   "en": "Count the number (N) of cells on 80 small squares located in 5 middle sizes squares ( four located at the four corner and one in middle ) in which (N) number of cells in 1 mm 3are found is :",
+   "ar": "عُدّ عدد الخلايا `(N)` في 80 مربّعًا صغيرًا موجودة في 5 مربّعات متوسّطة الحجم (أربعة في الزوايا الأربع وواحد في الوسط)، فيكون عدد الخلايا في `1 mm³` هو:"
+  },
+  {
+   "t": "card",
+   "en": "**N x 10000 = TOTAL RBCs**",
+   "ar": "**`N × 10000` = العدد الكلّي للكريات الحمر**"
+  },
+  {
+   "t": "figure",
+   "src": "assets/rbc-in-chamber.png",
+   "en": "RBCs in the counting chamber (slide picture)",
+   "ar": "الكريات الحمر في حجرة العدّ (صورة من الشريحة)",
+   "h": "44mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Step",
+     "الخطوة"
+    ],
+    [
+     "Value",
+     "القيمة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Area of 1 small square**",
+      "**مساحة المربّع الصغير**"
+     ],
+     [
+      "1/20 × 1/20 = 1/400 mm² (0.0025 mm²)",
+      "`1/20 × 1/20 = 1/400 mm²` (`0.0025 mm²`)"
+     ]
+    ],
+    [
+     [
+      "**Area of 80 small squares**",
+      "**مساحة 80 مربّعًا صغيرًا**"
+     ],
+     [
+      "80 × 1/400 = 0.2 mm²",
+      "`80 × 1/400 = 0.2 mm²`"
+     ]
+    ],
+    [
+     [
+      "**Volume counted**",
+      "**الحجم المعدود**"
+     ],
+     [
+      "0.2 mm² × depth 0.1 mm = 0.02 mm³",
+      "`0.2 mm² × 0.1 mm` (العمق) `= 0.02 mm³`"
+     ]
+    ],
+    [
+     [
+      "**Cells per mm³**",
+      "**الخلايا في `mm³`**"
+     ],
+     [
+      "N × 200 (dilution) ÷ 0.02 = **N × 10 000**",
+      "`N × 200` (التخفيف) `÷ 0.02` = **`N × 10 000`**"
+     ]
+    ],
+    [
+     [
+      "**Example**",
+      "**مثال**"
+     ],
+     [
+      "N = 480 → 4 800 000 /mm³ = 4.8 million",
+      "`N = 480` ← `4 800 000 /mm³` = 4.8 مليون"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    34,
+    66
+   ],
+   "style": "summary",
+   "label_en": "BIOS: where 10 000 comes from",
+   "label_ar": "`BIOS`: من أين تأتي 10 000"
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"1 mm 3\" = **1 mm³**.",
+    "The example is BIOS (N = 480 cells counted)."
+   ],
+   "ar": [
+    "\"`1 mm 3`\" = **`1 mm³`**.",
+    "والمثال من `BIOS` (عُدّت `N = 480` خلية)."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "RBCs/mm³ = **N × 10 000** (N = cells in 80 small squares).",
+    "10 000 = dilution **200** ÷ volume **0.02 mm³**."
+   ],
+   "ar": [
+    "الكريات الحمر/`mm³` = **`N × 10 000`** (`N` = الخلايا في 80 مربّعًا صغيرًا).",
+    "`10 000` = التخفيف **200** ÷ الحجم **`0.02 mm³`**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Counting in the chamber — pictures",
+   "ar": "العدّ في الحجرة — صور"
+  },
+  {
+   "t": "note",
+   "en": [
+    "The \"Counting system\" picture below uses **top and left** lines, while step 11 of the procedure says **lower and right**."
+   ],
+   "ar": [
+    "صورة «نظام العدّ» أدناه تعتمد الخطّين **الأعلى والأيسر**، بينما الخطوة 11 من طريقة العمل تقول **الأسفل والأيمن**."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ],
+   "_ff": 3
+  },
+  {
+   "t": "note",
+   "en": [
+    "Both conventions are correct — what matters is to use **one rule** for every square so no cell is counted twice."
+   ],
+   "ar": [
+    "والطريقتان صحيحتان — المهمّ استعمال **قاعدة واحدة** لكل المربّعات حتى لا تُحسب خلية مرّتين."
+   ],
+   "label": [
+    "BIOS note (continued)",
+    "ملاحظة BIOS (تكملة)"
+   ],
+   "_ff": 3
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/chamber-low-power.png",
+     "en": "Counting grid seen under the microscope",
+     "ar": "شبكة العدّ تحت المجهر",
+     "h": "36mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/rbc-in-grid.png",
+     "en": "RBCs on the grid",
+     "ar": "الكريات الحمر على الشبكة",
+     "h": "36mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/grid-w-r.png",
+     "en": "W = WBC squares (4 corners); R = RBC squares (5 in the centre square)",
+     "ar": "`W` = مربّعات الكريات البيض (الزوايا الأربع)؛ `R` = مربّعات الكريات الحمر (5 في المربّع الأوسط)",
+     "h": "36mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/counting-example.png",
+     "en": "Counting example: ✓ counted, ✗ not counted",
+     "ar": "مثال على العدّ: ✓ يُحسب، ✗ لا يُحسب",
+     "h": "36mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/counting-rule.png",
+   "en": "Counting system to ensure accuracy and consistency",
+   "ar": "نظام العدّ لضمان الدقّة والاتّساق",
+   "h": "50mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Figure text",
+     "كتابات الشكل"
+    ],
+    [
+     "Arabic",
+     "بالعربي"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Counting system to ensure accuracy and consistency**",
+      "**نظام العدّ لضمان الدقّة والاتّساق**"
+     ],
+     [
+      "a fixed rule for cells on the lines",
+      "قاعدة ثابتة للخلايا على الخطوط"
+     ]
+    ],
+    [
+     [
+      "**Include cells touching middle line on top and left**",
+      "**احسب الخلايا الملامسة للخطّ الأوسط من الأعلى واليسار**"
+     ],
+     [
+      "✓ green",
+      "✓ أخضر"
+     ]
+    ],
+    [
+     [
+      "**Exclude cells touching middle line on bottom and right**",
+      "**لا تحسب الخلايا الملامسة للخطّ الأوسط من الأسفل واليمين**"
+     ],
+     [
+      "✗ red",
+      "✗ أحمر"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    62,
+    38
+   ],
+   "label_en": "Figure text",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "note",
+   "en": [
+    "RBCs are counted in the **centre** square (R); WBCs in the **4 corner** squares (W).",
+    "Cells on the lines: count **two sides**, omit the **other two** — one rule only."
+   ],
+   "ar": [
+    "الكريات الحمر تُعدّ في المربّع **الأوسط** `(R)`؛ والبيض في المربّعات **الأربعة الطرفية** `(W)`.",
+    "الخلايا على الخطوط: احسب **جهتين** وأهمل **الجهتين الأخريين** — قاعدة واحدة فقط."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Normal values",
+   "ar": "القيم الطبيعية"
+  },
+  {
+   "t": "card",
+   "en": "Normal red blood cells values at various ages are",
+   "ar": "القيم الطبيعية لكريات الدم الحمر في الأعمار المختلفة هي",
+   "list_en": [
+    "**Newborn:** 4.8-7.2 million",
+    "**Adults (males):** 4.9-5.5 million",
+    "**(Females):** 4.4-5.0 million",
+    "**Pregnancy:** slightly lower than normal adult values",
+    "**Children:** 3.8-5.5 million"
+   ],
+   "list_ar": [
+    "**حديث الولادة:** 4.8-7.2 مليون",
+    "**البالغون (الذكور):** 4.9-5.5 مليون",
+    "**(الإناث):** 4.4-5.0 مليون",
+    "**الحمل:** أقلّ قليلًا من القيم الطبيعية للبالغين",
+    "**الأطفال:** 3.8-5.5 مليون"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "The unit (not written on the slide) is **million cells per mm³ (µL)** of blood, e.g. 5 million/mm³ = 5 × 10¹²/L.",
+   "ar": "الوحدة (غير مكتوبة في الشريحة) هي **مليون خلية في `mm³` (`µL`)** من الدم، مثلًا `5 million/mm³ = 5 × 10¹²/L`.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Newborn **highest** (4.8–7.2); males 4.9–5.5 > females 4.4–5.0; children 3.8–5.5.",
+    "Pregnancy: **slightly lower** than adults."
+   ],
+   "ar": [
+    "حديث الولادة **الأعلى** (4.8–7.2)؛ الذكور 4.9–5.5 > الإناث 4.4–5.0؛ الأطفال 3.8–5.5.",
+    "الحمل: **أقلّ قليلًا** من البالغين."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Medical conditions",
+   "ar": "الحالات المرضية"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Polycythemia** is a disease of unknown origin that results in an abnormal increase in red blood cells.",
+    "**Anemia**: is a general term that refers to a decrease in red blood cells.",
+    "Anemia can occur from either a decrease in the number of red blood cells, a decrease in the hemoglobin content, or both."
+   ],
+   "list_ar": [
+    "**كثرة الكريات الحمر (`Polycythemia`)** مرض مجهول المنشأ ينتج عنه زيادة غير طبيعية في كريات الدم الحمر.",
+    "**فقر الدم (`Anemia`)**: مصطلح عام يشير إلى نقص كريات الدم الحمر.",
+    "وقد يحدث فقر الدم إمّا من نقص عدد كريات الدم الحمر، أو نقص محتوى الهيموغلوبين، أو كليهما."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/polycythemia.png",
+     "en": "Polycythemia — crowded red cells",
+     "ar": "كثرة الكريات الحمر — كريات حمر مكتظّة",
+     "h": "40mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/anemia.png",
+     "en": "Anemia: Normal amount of red blood cell / Anemic amount of red blood cell",
+     "ar": "فقر الدم: الكمّية الطبيعية من الكريات الحمر / كمّية فقر الدم",
+     "h": "40mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "en": "\"A disease of unknown origin\" describes **polycythemia vera** (primary); secondary polycythemia has a known cause (hypoxia, high altitude, smoking).",
+   "ar": "«مرض مجهول المنشأ» يصف **كثرة الحمر الحقيقية (`polycythemia vera`)** الأوّلية؛ أمّا الثانوية فلها سبب معروف (نقص الأوكسجين، المرتفعات، التدخين).",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "A lower-than-normal RBC can result from a number of causes, including:",
+   "ar": "قد ينتج انخفاض عدد الكريات الحمر عن الطبيعي عن أسباب عدّة، منها:",
+   "list_en": [
+    "Massive RBC loss, such as acute hemorrhage",
+    "Abnormal destruction of RBC",
+    "Lack of substances needed for RBC production",
+    "Chemotherapy or radiation side effects from treatment of bone marrow malignancies such as leukemia can result in bone marrow suppression."
+   ],
+   "list_ar": [
+    "فقدان كبير للكريات الحمر، مثل النزف الحادّ",
+    "تحطّم غير طبيعي للكريات الحمر",
+    "نقص المواد اللازمة لإنتاج الكريات الحمر",
+    "الآثار الجانبية للعلاج الكيميائي أو الإشعاعي في علاج أورام نقي العظم الخبيثة مثل ابيضاض الدم قد تؤدّي إلى تثبيط نقي العظم."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Polycythemia** = abnormal **increase**; **anemia** = **decrease** (number, Hb, or both).",
+    "Low RBC: **loss** (hemorrhage), **destruction**, **lack of production substances**, **marrow suppression** (chemo/radiation)."
+   ],
+   "ar": [
+    "**كثرة الحمر** = **زيادة** غير طبيعية؛ و**فقر الدم** = **نقص** (العدد أو الهيموغلوبين أو كلاهما).",
+    "انخفاض الكريات: **فقدان** (نزف)، **تحطّم**، **نقص مواد الإنتاج**، **تثبيط النقي** (كيميائي/إشعاعي)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "NORMAL PHYSIOLOGICAL CONDITIONS",
+   "ar": "الحالات الفسيولوجية الطبيعية"
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/rbc-3d.png",
+     "en": "Red blood cells (slide picture)",
+     "ar": "كريات الدم الحمر (صورة من الشريحة)",
+     "h": "28mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/muscle-mass.png",
+     "en": "Large muscle mass needs more O2 (slide picture)",
+     "ar": "الكتلة العضلية الكبيرة تحتاج `O2` أكثر (صورة من الشريحة)",
+     "h": "28mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Males have RBC count more than females due to many factors like the male hormones ( androgen) and also due to large muscle mass in males that need more O2 , another factor is that the female losses an amount of blood during the menstrual cycle .",
+    "A normal physiological increase in the RBC count occurs at high places or after intense exercise.",
+    "smokers have a higher number of RBCs than non-smokers"
+   ],
+   "list_ar": [
+    "عدد الكريات الحمر عند الذكور أعلى من الإناث لعوامل كثيرة مثل الهرمونات الذكرية (الأندروجين)، وأيضًا بسبب الكتلة العضلية الكبيرة عند الذكور التي تحتاج `O2` أكثر، وعامل آخر هو أن الأنثى تفقد كمّية من الدم أثناء الدورة الشهرية.",
+    "تحدث زيادة فسيولوجية طبيعية في عدد الكريات الحمر في المرتفعات أو بعد التمارين الشديدة.",
+    "والمدخّنون لديهم عدد كريات حمر أعلى من غير المدخّنين"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Higher RBC",
+     "عدد أعلى"
+    ],
+    [
+     "Why",
+     "السبب"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Males**",
+      "**الذكور**"
+     ],
+     [
+      "androgen, larger muscle mass, no menstrual loss",
+      "الأندروجين، كتلة عضلية أكبر، لا فقدان دموي شهري"
+     ]
+    ],
+    [
+     [
+      "**High places**",
+      "**المرتفعات**"
+     ],
+     [
+      "less O2 in the air → more RBCs",
+      "أوكسجين أقلّ في الهواء ← كريات أكثر"
+     ]
+    ],
+    [
+     [
+      "**Intense exercise**",
+      "**التمارين الشديدة**"
+     ],
+     [
+      "physiological increase",
+      "زيادة فسيولوجية"
+     ]
+    ],
+    [
+     [
+      "**Smokers**",
+      "**المدخّنون**"
+     ],
+     [
+      "CO lowers O2 delivery → more RBCs",
+      "أوّل أوكسيد الكربون يقلّل إيصال `O2` ← كريات أكثر"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    70
+   ],
+   "style": "summary",
+   "label_en": "BIOS: why higher",
+   "label_ar": "`BIOS`: لماذا أعلى"
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"the female losses\" = the female **loses**.",
+    "The reasons for high places and smokers in the table are BIOS."
+   ],
+   "ar": [
+    "\"`the female losses`\" = `the female` **`loses`**.",
+    "وأسباب المرتفعات والتدخين في الجدول من `BIOS`."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Males > females: **androgen**, **muscle mass**, **menstrual loss** in females.",
+    "Physiological increase: **high places**, **intense exercise**, **smoking**."
+   ],
+   "ar": [
+    "الذكور > الإناث: **الأندروجين**، **الكتلة العضلية**، **الفقدان الشهري** عند الإناث.",
+    "زيادة فسيولوجية: **المرتفعات**، **التمارين الشديدة**، **التدخين**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Red blood cell (RBC)**",
+     "كرية الدم الحمراء / الكرية الحمراء / الخلية الحمراء"
+    ],
+    [
+     "**RBC count**",
+     "عدّ الكريات الحمر / تعداد الكريات الحمر"
+    ],
+    [
+     "**Biconcave disc**",
+     "قرص مقعّر الوجهين"
+    ],
+    [
+     "**Anticoagulant (EDTA, heparin)**",
+     "مانع التخثّر"
+    ],
+    [
+     "**Hayem’s solution**",
+     "محلول هايم / السائل المخفّف للكريات الحمر"
+    ],
+    [
+     "**RBC pipette**",
+     "ماصّة الكريات الحمر / ماصّة التخفيف"
+    ],
+    [
+     "**Haemocytometer (Neubauer chamber)**",
+     "مقياس الكريات / حجرة العدّ / شريحة نيوباور"
+    ],
+    [
+     "**Cover slip**",
+     "غطاء الشريحة"
+    ],
+    [
+     "**Lancet**",
+     "المِشرط / الواخزة"
+    ],
+    [
+     "**Dilution 1:200**",
+     "تخفيف `1:200`"
+    ],
+    [
+     "**Objective lens (10X, 40X)**",
+     "العدسة الشيئية"
+    ],
+    [
+     "**Polycythemia**",
+     "كثرة الكريات الحمر / احمرار الدم"
+    ],
+    [
+     "**Anemia**",
+     "فقر الدم / الأنيميا"
+    ],
+    [
+     "**Hemorrhage**",
+     "النزف"
+    ],
+    [
+     "**Bone marrow suppression**",
+     "تثبيط نقي العظم"
+    ],
+    [
+     "**Androgen**",
+     "الأندروجين / الهرمون الذكري"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Introduction",
+    "topic_ar": "المقدمة"
+   },
+   {
+    "en": "Red blood cells make up almost what percentage of the blood volume?",
+    "ar": "تشكّل كريات الدم الحمر نحو أيّ نسبة من حجم الدم؟",
+    "options": [
+     [
+      "1 %",
+      "1%"
+     ],
+     [
+      "10 %",
+      "10%"
+     ],
+     [
+      "70 %",
+      "70%"
+     ],
+     [
+      "45 %",
+      "45%"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The diameter of an RBC is:",
+    "ar": "قطر الكرية الحمراء:",
+    "options": [
+     [
+      "About 2.2 microns",
+      "نحو 2.2 مايكرون"
+     ],
+     [
+      "About 7.2 microns",
+      "نحو 7.2 مايكرون"
+     ],
+     [
+      "About 12 microns",
+      "نحو 12 مايكرون"
+     ],
+     [
+      "About 1 micron",
+      "نحو 1 مايكرون"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Mature RBCs lack:",
+    "ar": "الكريات الحمر الناضجة تفتقد:",
+    "options": [
+     [
+      "A nucleus",
+      "النواة"
+     ],
+     [
+      "A cell membrane",
+      "غشاء الخلية"
+     ],
+     [
+      "Hemoglobin",
+      "الهيموغلوبين"
+     ],
+     [
+      "Water",
+      "الماء"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The average lifespan of RBCs is:",
+    "ar": "متوسّط عمر الكريات الحمر:",
+    "options": [
+     [
+      "7 days",
+      "7 أيام"
+     ],
+     [
+      "30 days",
+      "30 يومًا"
+     ],
+     [
+      "100 – 120 days",
+      "100 – 120 يومًا"
+     ],
+     [
+      "1 year",
+      "سنة واحدة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The RBC count is:",
+    "ar": "عدّ الكريات الحمر هو:",
+    "options": [
+     [
+      "The volume of packed RBCs",
+      "حجم الكريات الحمر المرصوصة"
+     ],
+     [
+      "The number of RBCs per unit volume of whole blood",
+      "عدد الكريات الحمر في وحدة الحجم من الدم الكامل"
+     ],
+     [
+      "The Hb concentration",
+      "تركيز الهيموغلوبين"
+     ],
+     [
+      "The size of RBCs",
+      "حجم الكرية الحمراء"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Materials",
+    "topic_ar": "المواد"
+   },
+   {
+    "en": "The diluting fluid used for the manual RBC count in this lab is:",
+    "ar": "السائل المخفّف المستعمل لعدّ الكريات الحمر يدويًا في هذا العملي:",
+    "options": [
+     [
+      "Turk’s solution",
+      "محلول تورك"
+     ],
+     [
+      "Drabkin’s solution",
+      "محلول درابكن"
+     ],
+     [
+      "Hayem’s solution",
+      "محلول هايم"
+     ],
+     [
+      "Distilled water only",
+      "ماء مقطّر فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which is a component of Hayem’s solution?",
+    "ar": "أيّ مما يلي من مكوّنات محلول هايم؟",
+    "options": [
+     [
+      "Glacial acetic acid",
+      "حامض الخليك الثلجي"
+     ],
+     [
+      "Potassium cyanide",
+      "سيانيد البوتاسيوم"
+     ],
+     [
+      "Gentian violet",
+      "البنفسج الجنطياني"
+     ],
+     [
+      "HgCl2",
+      "`HgCl2`"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The RBC pipette is identified by its:",
+    "ar": "تُميَّز ماصّة الكريات الحمر بـ:",
+    "options": [
+     [
+      "Red bead",
+      "خرزة حمراء"
+     ],
+     [
+      "Blue tip",
+      "رأس أزرق"
+     ],
+     [
+      "Lack of a mixing chamber",
+      "عدم وجود حجرة خلط"
+     ],
+     [
+      "White bead",
+      "خرزة بيضاء"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The anticoagulant that can be used for the RBC count is:",
+    "ar": "مانع التخثّر الذي يمكن استعماله لعدّ الكريات الحمر:",
+    "options": [
+     [
+      "Sodium fluoride only",
+      "فلوريد الصوديوم فقط"
+     ],
+     [
+      "EDTA or heparin",
+      "`EDTA` أو الهيبارين"
+     ],
+     [
+      "Hayem’s solution",
+      "محلول هايم"
+     ],
+     [
+      "Alcohol 70%",
+      "كحول 70%"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The counting chamber used is the:",
+    "ar": "حجرة العدّ المستعملة هي:",
+    "options": [
+     [
+      "Neubauer haemocytometer",
+      "مقياس الكريات نيوباور"
+     ],
+     [
+      "Sedgwick chamber",
+      "حجرة سيدجويك"
+     ],
+     [
+      "Wintrobe tube",
+      "أنبوب وينتروب"
+     ],
+     [
+      "Petri dish",
+      "طبق بتري"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Procedure and calculation",
+    "topic_ar": "طريقة العمل والحساب"
+   },
+   {
+    "en": "Blood is drawn in the RBC pipette to the mark:",
+    "ar": "يُسحب الدم في ماصّة الكريات الحمر إلى العلامة:",
+    "options": [
+     [
+      "1",
+      "1"
+     ],
+     [
+      "11",
+      "11"
+     ],
+     [
+      "101",
+      "101"
+     ],
+     [
+      "0.5",
+      "0.5"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Hayem’s solution is drawn to the 101 mark, making a dilution of:",
+    "ar": "يُسحب محلول هايم إلى العلامة 101 فيصبح التخفيف:",
+    "options": [
+     [
+      "1:20",
+      "`1:20`"
+     ],
+     [
+      "1:10",
+      "`1:10`"
+     ],
+     [
+      "1:200",
+      "`1:200`"
+     ],
+     [
+      "1:100",
+      "`1:100`"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Before charging the chamber, a quarter of the contents is blown out to:",
+    "ar": "قبل ملء الحجرة يُنفخ ربع المحتوى لـ:",
+    "options": [
+     [
+      "Clean the tip",
+      "تنظيف الرأس"
+     ],
+     [
+      "Remove clots",
+      "إزالة الخثرات"
+     ],
+     [
+      "Increase the dilution",
+      "زيادة التخفيف"
+     ],
+     [
+      "Remove the pure diluting fluid in the stem",
+      "التخلّص من السائل المخفّف الصافي في الساق"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "If the blood clots in the pipette you should:",
+    "ar": "إذا تخثّر الدم في الماصّة يجب:",
+    "options": [
+     [
+      "Continue the count",
+      "إكمال العدّ"
+     ],
+     [
+      "Add more Hayem’s",
+      "إضافة محلول هايم أكثر"
+     ],
+     [
+      "Blow the sample out, clean the pipette and begin again",
+      "نفخ العيّنة وتنظيف الماصّة والبدء من جديد"
+     ],
+     [
+      "Heat the pipette",
+      "تسخين الماصّة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "After charging the chamber, the cells are allowed to settle for:",
+    "ar": "بعد ملء الحجرة تُترك الخلايا لتستقرّ لمدّة:",
+    "options": [
+     [
+      "2 minutes",
+      "دقيقتين"
+     ],
+     [
+      "30 minutes",
+      "30 دقيقة"
+     ],
+     [
+      "10 seconds",
+      "10 ثوانٍ"
+     ],
+     [
+      "1 hour",
+      "ساعة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The RBCs are counted with the:",
+    "ar": "تُعدّ الكريات الحمر بالعدسة:",
+    "options": [
+     [
+      "4X objective",
+      "الشيئية `4X`"
+     ],
+     [
+      "40X objective",
+      "الشيئية `40X`"
+     ],
+     [
+      "100X oil immersion",
+      "الزيتية `100X`"
+     ],
+     [
+      "10X objective only",
+      "الشيئية `10X` فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "How many small squares are counted for RBCs?",
+    "ar": "كم مربّعًا صغيرًا يُعدّ للكريات الحمر؟",
+    "options": [
+     [
+      "25",
+      "25"
+     ],
+     [
+      "16",
+      "16"
+     ],
+     [
+      "80",
+      "80"
+     ],
+     [
+      "400",
+      "400"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "According to the procedure, cells on which lines are included?",
+    "ar": "حسب طريقة العمل، الخلايا على أيّ خطوط تُحسب؟",
+    "options": [
+     [
+      "Lower and right",
+      "الأسفل والأيمن"
+     ],
+     [
+      "Upper and left",
+      "الأعلى والأيسر"
+     ],
+     [
+      "All lines",
+      "كل الخطوط"
+     ],
+     [
+      "No lines",
+      "لا خطوط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The total RBC count per mm³ equals:",
+    "ar": "العدد الكلّي للكريات الحمر في `mm³` يساوي:",
+    "options": [
+     [
+      "N × 50",
+      "`N × 50`"
+     ],
+     [
+      "N × 10000",
+      "`N × 10000`"
+     ],
+     [
+      "N × 200",
+      "`N × 200`"
+     ],
+     [
+      "N ÷ 10000",
+      "`N ÷ 10000`"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "If N = 500 cells, the RBC count is:",
+    "ar": "إذا كان `N = 500` خلية، فعدد الكريات الحمر:",
+    "options": [
+     [
+      "50 000 /mm³",
+      "`50 000 /mm³`"
+     ],
+     [
+      "500 000 /mm³",
+      "`500 000 /mm³`"
+     ],
+     [
+      "50 million /mm³",
+      "`50 million /mm³`"
+     ],
+     [
+      "5 million /mm³",
+      "`5 million /mm³`"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Normal values and conditions",
+    "topic_ar": "القيم الطبيعية والحالات"
+   },
+   {
+    "en": "The normal RBC count of adult males is:",
+    "ar": "العدد الطبيعي للكريات الحمر عند الذكور البالغين:",
+    "options": [
+     [
+      "3.8-5.5 million",
+      "3.8-5.5 مليون"
+     ],
+     [
+      "4.4-5.0 million",
+      "4.4-5.0 مليون"
+     ],
+     [
+      "4.9-5.5 million",
+      "4.9-5.5 مليون"
+     ],
+     [
+      "2-3 million",
+      "2-3 مليون"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The group with the highest normal RBC range is:",
+    "ar": "الفئة ذات المدى الطبيعي الأعلى للكريات الحمر:",
+    "options": [
+     [
+      "Children",
+      "الأطفال"
+     ],
+     [
+      "Adult females",
+      "الإناث البالغات"
+     ],
+     [
+      "Pregnant women",
+      "الحوامل"
+     ],
+     [
+      "Newborn",
+      "حديثو الولادة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "An abnormal increase in red blood cells is:",
+    "ar": "الزيادة غير الطبيعية في كريات الدم الحمر:",
+    "options": [
+     [
+      "Polycythemia",
+      "كثرة الكريات الحمر"
+     ],
+     [
+      "Leukemia",
+      "ابيضاض الدم"
+     ],
+     [
+      "Anemia",
+      "فقر الدم"
+     ],
+     [
+      "Hemorrhage",
+      "النزف"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which is NOT listed as a cause of a lower-than-normal RBC?",
+    "ar": "أيّ مما يلي غير مذكور سببًا لانخفاض الكريات الحمر؟",
+    "options": [
+     [
+      "Acute hemorrhage",
+      "النزف الحادّ"
+     ],
+     [
+      "Living at high places",
+      "العيش في المرتفعات"
+     ],
+     [
+      "Bone marrow suppression",
+      "تثبيط نقي العظم"
+     ],
+     [
+      "Abnormal destruction of RBC",
+      "التحطّم غير الطبيعي للكريات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Males have a higher RBC count than females partly because of:",
+    "ar": "عدد الكريات الحمر عند الذكور أعلى جزئيًا بسبب:",
+    "options": [
+     [
+      "Estrogen",
+      "الإستروجين"
+     ],
+     [
+      "Androgen and larger muscle mass",
+      "الأندروجين والكتلة العضلية الأكبر"
+     ],
+     [
+      "Smaller body size",
+      "حجم الجسم الأصغر"
+     ],
+     [
+      "Less oxygen need",
+      "حاجة أقلّ للأوكسجين"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this grid, the red squares are where we count:",
+    "ar": "في هذه الشبكة، المربّعات الحمراء هي حيث نعدّ:",
+    "options": [
+     [
+      "WBCs",
+      "الكريات البيض"
+     ],
+     [
+      "Nothing",
+      "لا شيء"
+     ],
+     [
+      "Platelets",
+      "الصفائح"
+     ],
+     [
+      "RBCs",
+      "الكريات الحمر"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/counting-grid.png",
+    "img_h": "36mm"
+   },
+   {
+    "en": "This pipette with a red bead is the:",
+    "ar": "هذه الماصّة ذات الخرزة الحمراء هي:",
+    "options": [
+     [
+      "WBC pipette",
+      "ماصّة الكريات البيض"
+     ],
+     [
+      "Pasteur pipette",
+      "ماصّة باستور"
+     ],
+     [
+      "RBC pipette",
+      "ماصّة الكريات الحمر"
+     ],
+     [
+      "Micropipette",
+      "ماصّة دقيقة"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/rbc-pipette.png",
+    "img_h": "30mm"
+   },
+   {
+    "en": "In this figure, 7.2 μ is the RBC:",
+    "ar": "في هذا الشكل، 7.2 مايكرون هي للكرية الحمراء:",
+    "options": [
+     [
+      "Diameter",
+      "القطر"
+     ],
+     [
+      "Lifespan",
+      "العمر"
+     ],
+     [
+      "Volume",
+      "الحجم"
+     ],
+     [
+      "Thickness",
+      "السُّمك"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/rbc-dimensions.png",
+    "img_h": "34mm"
+   },
+   {
+    "en": "This chamber is the:",
+    "ar": "هذه الحجرة هي:",
+    "options": [
+     [
+      "Petri dish",
+      "طبق بتري"
+     ],
+     [
+      "Wintrobe tube",
+      "أنبوب وينتروب"
+     ],
+     [
+      "ESR tube",
+      "أنبوب سرعة الترسيب"
+     ],
+     [
+      "Neubauer improved haemocytometer",
+      "مقياس الكريات نيوباور المحسّن"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/neubauer-chamber.png",
+    "img_h": "30mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Each RBC is a biconcave disc.",
+    "ar": "كل كرية حمراء قرص مقعّر الوجهين.",
+    "answer": "T"
+   },
+   {
+    "en": "Mature RBCs have a nucleus.",
+    "ar": "الكريات الحمر الناضجة لها نواة.",
+    "answer": "F"
+   },
+   {
+    "en": "The primary function of RBCs is to carry oxygen from the lungs to the body cells.",
+    "ar": "الوظيفة الأساسية للكريات الحمر نقل الأوكسجين من الرئتين إلى خلايا الجسم.",
+    "answer": "T"
+   },
+   {
+    "en": "Hayem’s solution is the diluting fluid for the RBC count.",
+    "ar": "محلول هايم هو السائل المخفّف لعدّ الكريات الحمر.",
+    "answer": "T"
+   },
+   {
+    "en": "The RBC pipette contains a white bead.",
+    "ar": "تحتوي ماصّة الكريات الحمر على خرزة بيضاء.",
+    "answer": "F"
+   },
+   {
+    "en": "The Neubauer chamber can also be used for counting total white blood cells.",
+    "ar": "يمكن استعمال حجرة نيوباور لعدّ الكريات البيض الكلّي أيضًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Blood to 0.5 and diluent to 101 gives a 1:200 dilution.",
+    "ar": "الدم إلى 0.5 والمخفّف إلى 101 يعطي تخفيف `1:200`.",
+    "answer": "T"
+   },
+   {
+    "en": "The blood is allowed to clot in the pipette before counting.",
+    "ar": "يُترك الدم ليتخثّر في الماصّة قبل العدّ.",
+    "answer": "F"
+   },
+   {
+    "en": "The counting area is first scanned with the 10X objective.",
+    "ar": "تُمسح منطقة العدّ أولًا بالعدسة الشيئية `10X`.",
+    "answer": "T"
+   },
+   {
+    "en": "RBCs are counted in the four large corner squares.",
+    "ar": "تُعدّ الكريات الحمر في المربّعات الكبيرة الأربعة في الزوايا.",
+    "answer": "F"
+   },
+   {
+    "en": "The total RBC count = N × 10000.",
+    "ar": "العدد الكلّي للكريات الحمر = `N × 10000`.",
+    "answer": "T"
+   },
+   {
+    "en": "Newborns have a lower RBC range than adults.",
+    "ar": "مدى الكريات الحمر عند حديثي الولادة أقلّ من البالغين.",
+    "answer": "F"
+   },
+   {
+    "en": "Anemia can result from a decrease in RBC number, hemoglobin content, or both.",
+    "ar": "قد ينتج فقر الدم عن نقص عدد الكريات أو محتوى الهيموغلوبين أو كليهما.",
+    "answer": "T"
+   },
+   {
+    "en": "Smokers have a lower number of RBCs than non-smokers.",
+    "ar": "المدخّنون لديهم عدد كريات حمر أقلّ من غير المدخّنين.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "RBC vs WBC squares",
+    "ar": "مربّعات الحمر مقابل البيض",
+    "answer_en": "RBCs: 5 medium squares (80 small) in the CENTRE large square (R). WBCs: the 4 large CORNER squares (W).",
+    "answer_ar": "الكريات الحمر: 5 مربّعات متوسّطة (80 صغيرًا) في المربّع الكبير الأوسط `(R)`. والبيض: المربّعات الكبيرة الأربعة في الزوايا `(W)`."
+   },
+   {
+    "en": "0.5 and 101",
+    "ar": "0.5 و101",
+    "answer_en": "Blood to 0.5, Hayem’s to 101 → 1:200 (not 1:101). The 1 part in the stem is blown out.",
+    "answer_ar": "الدم إلى 0.5 وهايم إلى 101 ← `1:200` (وليس `1:101`). والجزء الواحد في الساق يُنفخ خارجًا."
+   },
+   {
+    "en": "Red bead vs white bead",
+    "ar": "الخرزة الحمراء مقابل البيضاء",
+    "answer_en": "Red bead = RBC pipette (dilution 1:200); white bead = WBC pipette.",
+    "answer_ar": "الخرزة الحمراء = ماصّة الكريات الحمر (تخفيف `1:200`)؛ والبيضاء = ماصّة الكريات البيض."
+   },
+   {
+    "en": "Which lines to count?",
+    "ar": "أيّ خطوط تُحسب؟",
+    "answer_en": "The slide procedure: lower and right lines in, upper and left out. The picture uses top and left — any one rule is fine if used for every square.",
+    "answer_ar": "طريقة العمل في الشريحة: الأسفل والأيمن تُحسب، والأعلى والأيسر لا. والصورة تعتمد الأعلى والأيسر — أيّ قاعدة واحدة صحيحة إذا طُبّقت على كل المربّعات."
+   },
+   {
+    "en": "10 000, not 200",
+    "ar": "10 000 وليس 200",
+    "answer_en": "The factor is N × 10 000 = dilution 200 ÷ volume 0.02 mm³ — do not multiply by 200 only.",
+    "answer_ar": "المعامل `N × 10 000` = التخفيف 200 ÷ الحجم `0.02 mm³` — لا تضرب في 200 فقط."
+   },
+   {
+    "en": "Highest normal value",
+    "ar": "أعلى قيمة طبيعية",
+    "answer_en": "Newborn 4.8–7.2 million is the highest; children 3.8–5.5 the lowest; pregnancy slightly lower than adults.",
+    "answer_ar": "حديث الولادة 4.8–7.2 مليون هو الأعلى؛ والأطفال 3.8–5.5 الأدنى؛ والحمل أقلّ قليلًا من البالغين."
+   },
+   {
+    "en": "Polycythemia vs anemia",
+    "ar": "كثرة الحمر مقابل فقر الدم",
+    "answer_en": "Polycythemia = abnormal increase in RBCs; anemia = decrease in RBCs and/or hemoglobin.",
+    "answer_ar": "كثرة الحمر = زيادة غير طبيعية في الكريات؛ وفقر الدم = نقص الكريات و/أو الهيموغلوبين."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define the RBC count and give its aim.",
+    "ar": "عرّف عدّ الكريات الحمر واذكر هدفه.",
+    "answer_en": "The number of red blood cells per unit volume of whole blood; it is done to determine whether there is an adequate number of RBCs in the circulation or not.",
+    "answer_ar": "عدد كريات الدم الحمر في وحدة الحجم من الدم الكامل؛ ويُجرى لتحديد ما إذا كان عددها في الدوران كافيًا أم لا."
+   },
+   {
+    "en": "List the materials of the manual RBC count and the composition of Hayem’s solution.",
+    "ar": "عدّد مواد العدّ اليدوي للكريات الحمر ومكوّنات محلول هايم.",
+    "answer_en": "EDTA/heparin or capillary blood; Hayem’s solution (HgCl2 0.05 g, Na2SO4 2.5 g, NaCl 0.5 g, distilled water 100 ml); RBC pipette (red bead); Neubauer haemocytometer with cover slip; microscope; lancet; alcohol 70%; cotton.",
+    "answer_ar": "دم بـ`EDTA`/الهيبارين أو دم شعري؛ محلول هايم (`HgCl2` 0.05 غم، `Na2SO4` 2.5 غم، `NaCl` 0.5 غم، ماء مقطّر 100 مل)؛ ماصّة الكريات الحمر (خرزة حمراء)؛ مقياس الكريات نيوباور مع الغطاء؛ مجهر؛ مِشرط؛ كحول 70%؛ قطن."
+   },
+   {
+    "en": "Describe the procedure of the manual RBC count.",
+    "ar": "صف طريقة العدّ اليدوي للكريات الحمر.",
+    "answer_en": "Clean and prick the finger; draw blood to 0.5 in the RBC pipette (no clotting); draw Hayem’s to 101 (1:200); roll to mix; blow out a quarter; charge the Neubauer chamber at 45°; leave 2 minutes; scan with 10X, count with 40X the cells in 5 medium squares (80 small squares), including cells on the lower and right lines only.",
+    "answer_ar": "نظّف الإصبع واوخزه؛ اسحب الدم إلى 0.5 في ماصّة الحمر (بلا تخثّر)؛ اسحب محلول هايم إلى 101 (`1:200`)؛ دحرج للخلط؛ انفخ الربع؛ املأ حجرة نيوباور بزاوية 45°؛ اترك دقيقتين؛ امسح بـ`10X` وعُدّ بـ`40X` الخلايا في 5 مربّعات متوسّطة (80 صغيرًا)، مع حساب الخلايا على الخطّين الأسفل والأيمن فقط."
+   },
+   {
+    "en": "Explain why the RBC count = N × 10 000.",
+    "ar": "اشرح لماذا عدد الكريات الحمر = `N × 10 000`.",
+    "answer_en": "80 small squares = 80 × 1/400 = 0.2 mm²; × depth 0.1 mm = 0.02 mm³. Count per mm³ = N ÷ 0.02 × dilution 200 = N × 10 000.",
+    "answer_ar": "80 مربّعًا صغيرًا = `80 × 1/400 = 0.2 mm²`؛ × العمق `0.1 mm` = `0.02 mm³`. العدد في `mm³` = `N ÷ 0.02 × 200` (التخفيف) = `N × 10 000`."
+   },
+   {
+    "en": "Give the normal RBC values at various ages.",
+    "ar": "اذكر القيم الطبيعية للكريات الحمر في الأعمار المختلفة.",
+    "answer_en": "Newborn 4.8–7.2 million; adult males 4.9–5.5 million; females 4.4–5.0 million; pregnancy slightly lower than adults; children 3.8–5.5 million.",
+    "answer_ar": "حديث الولادة 4.8–7.2 مليون؛ الذكور البالغون 4.9–5.5 مليون؛ الإناث 4.4–5.0 مليون؛ الحمل أقلّ قليلًا من البالغين؛ الأطفال 3.8–5.5 مليون."
+   },
+   {
+    "en": "Define polycythemia and anemia, and list causes of a low RBC count.",
+    "ar": "عرّف كثرة الكريات الحمر وفقر الدم، واذكر أسباب انخفاض عدد الكريات الحمر.",
+    "answer_en": "Polycythemia: abnormal increase in RBCs (of unknown origin). Anemia: decrease in RBCs (number, Hb content, or both). Causes of low RBC: massive loss (acute hemorrhage), abnormal destruction, lack of substances for production, bone marrow suppression by chemotherapy/radiation.",
+    "answer_ar": "كثرة الحمر: زيادة غير طبيعية في الكريات (مجهولة المنشأ). فقر الدم: نقص الكريات (العدد أو الهيموغلوبين أو كلاهما). أسباب الانخفاض: فقدان كبير (نزف حادّ)، تحطّم غير طبيعي، نقص مواد الإنتاج، تثبيط نقي العظم بالعلاج الكيميائي/الإشعاعي."
+   },
+   {
+    "en": "Why do males have a higher RBC count than females? Give other physiological increases.",
+    "ar": "لماذا عدد الكريات الحمر عند الذكور أعلى من الإناث؟ واذكر زيادات فسيولوجية أخرى.",
+    "answer_en": "Male hormones (androgen), larger muscle mass needing more O2, and menstrual blood loss in females. Physiological increases: high places, intense exercise, smoking.",
+    "answer_ar": "الهرمونات الذكرية (الأندروجين)، والكتلة العضلية الأكبر التي تحتاج `O2` أكثر، والفقدان الدموي الشهري عند الإناث. والزيادات الفسيولوجية: المرتفعات، التمارين الشديدة، التدخين."
+   }
+  ]
+ }
+}

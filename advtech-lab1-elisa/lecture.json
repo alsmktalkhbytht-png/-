@@ -98,7 +98,7 @@
    "t": "note",
    "en": [
     "Only the plate has a caption on the slide; the other three pictures are named by BIOS.",
-    "`A 96-well plate = **8 rows (A–H) × 12 columns (1–12)**.`"
+    "A 96-well plate = **8 rows (A–H) × 12 columns (1–12)**."
    ],
    "ar": [
     "الصفيحة فقط لها عنوان في الشريحة؛ والصور الثلاث الأخرى سمّتها `BIOS`.",
@@ -113,7 +113,7 @@
    "t": "note",
    "en": [
     "ELISA = plate-based immunoassay to **detect or quantify** an antigen or antibody.",
-    "`Solid phase **96-well microplate**; recognition **Ag–Ab**; detection **enzyme**; readout **OD**.`"
+    "Solid phase **96-well microplate**; recognition **Ag–Ab**; detection **enzyme**; readout **OD**."
    ],
    "ar": [
     "`ELISA` = مقايسة مناعية في صفيحة **للكشف أو القياس الكمّي** لمستضدّ أو ضدّ.",
@@ -288,7 +288,7 @@
    "t": "note",
    "en": [
     "Three ideas: **specific binding**, **enzyme label**, **colour → OD**.",
-    "`More bound enzyme → **stronger signal** (usually; depends on the format).`"
+    "More bound enzyme → **stronger signal** (usually; depends on the format)."
    ],
    "ar": [
     "ثلاث أفكار: **ارتباط نوعي**، و**وسم إنزيمي**، و**لون ← `OD`**.",
@@ -429,7 +429,7 @@
    "t": "note",
    "en": [
     "**Qualitative** → positive/negative using **controls + cut-off (S/CO)**.",
-    "`**Quantitative** → concentration using **standards → standard curve**.`"
+    "**Quantitative** → concentration using **standards → standard curve**."
    ],
    "ar": [
     "**النوعي** ← موجب/سالب باستعمال **الضوابط + الحدّ الفاصل (`S/CO`)**.",
@@ -1179,7 +1179,7 @@
    "t": "card",
    "en": [
     "**Direct ELISA** is used to detect the presence of antigens in a sample with speed and convenience.",
-    "`The process involves coating an ELISA plate with samples containing potential antigens, then adding a primary antibody that is enzyme-conjugated.`"
+    "The process involves coating an ELISA plate with samples containing potential antigens, then adding a primary antibody that is enzyme-conjugated."
    ],
    "ar": [
     "يُستعمل **الإليزا المباشر** للكشف عن وجود المستضدّات في العيّنة بسرعة وسهولة.",
@@ -1224,7 +1224,7 @@
    "t": "card",
    "en": [
     "This type of assay offers greater flexibility because one set of secondary antibodies can be used to detect multiple primary antibodies.",
-    "`After incubating the plate with samples containing antigens and incubating with the primary antibody, labeled secondary antibodies are then added that bind to any attached primary antibody.`"
+    "After incubating the plate with samples containing antigens and incubating with the primary antibody, labeled secondary antibodies are then added that bind to any attached primary antibody."
    ],
    "ar": [
     "يوفّر هذا النوع مرونة أكبر لأن مجموعة واحدة من الأضداد الثانوية يمكن استعمالها للكشف عن أضداد أوّلية متعدّدة.",
@@ -1267,7 +1267,7 @@
    "t": "card",
    "en": [
     "A **Competitive ELISA** holds a unique position.",
-    "`It operates on the principle where samples and control antigens compete for binding to a specific amount of capture antibody.`"
+    "It operates on the principle where samples and control antigens compete for binding to a specific amount of capture antibody."
    ],
    "ar": [
     "يحتلّ **الإليزا التنافسي** مكانة فريدة.",
@@ -1483,7 +1483,7 @@
    "t": "note",
    "en": [
     "Coated well **captures**; conjugate gives the **enzyme**; TMB gives **colour**; stop solution **ends** it.",
-    "`Wash buffer removes **unbound/non-specific** material.`"
+    "Wash buffer removes **unbound/non-specific** material."
    ],
    "ar": [
     "الحفرة المغلّفة **تلتقط**؛ والمقترن يعطي **الإنزيم**؛ و`TMB` يعطي **اللون**؛ ومحلول الإيقاف **ينهيه**.",
@@ -1529,11 +1529,11 @@
     "Gives binding reactions enough controlled time.",
     [
      "Why 37°C?",
-     "`Some assays are validated at 37°C for efficient, reproducible reaction kinetics.`"
+     "Some assays are validated at 37°C for efficient, reproducible reaction kinetics."
     ],
     [
      "37°C is NOT universal.",
-     "`Use the exact kit time and temperature.`"
+     "Use the exact kit time and temperature."
     ]
    ],
    "list_ar": [
@@ -1565,7 +1565,7 @@
   {
    "t": "note",
    "en": [
-    "`37°C is **not universal** — use the **kit** time and temperature.`"
+    "37°C is **not universal** — use the **kit** time and temperature."
    ],
    "ar": [
     "`37°C` **ليست قاعدة عامّة** — استعمل وقت **العُدّة** وحرارتها."
@@ -1691,7 +1691,7 @@
   {
    "t": "note",
    "en": [
-    "`With TMB the stopped (yellow) colour is usually read at **450 nm** — but the kit wavelength is the one to use.`"
+    "With TMB the stopped (yellow) colour is usually read at **450 nm** — but the kit wavelength is the one to use."
    ],
    "ar": [
     "مع `TMB` يُقرأ اللون الأصفر بعد الإيقاف عادةً عند **450 نانومتر** — لكن الطول الموجي المعتمد هو ما تذكره العُدّة."
@@ -1706,7 +1706,7 @@
    "t": "note",
    "en": [
     "HRP + TMB → **blue**; stop solution → **yellow**.",
-    "`Read **promptly** at the **kit wavelength**.`"
+    "Read **promptly** at the **kit wavelength**."
    ],
    "ar": [
     "`HRP` + `TMB` ← **أزرق**؛ ومحلول الإيقاف ← **أصفر**.",
@@ -1792,7 +1792,7 @@
    "t": "note",
    "en": [
     "Order: plate map → samples → incubate → wash → conjugate → incubate + wash → TMB → stop → read.",
-    "`Everything (volumes, times, washes) is **kit-specific**.`"
+    "Everything (volumes, times, washes) is **kit-specific**."
    ],
    "ar": [
     "الترتيب: خريطة الصفيحة ← العيّنات ← حضن ← غسل ← المقترن ← حضن + غسل ← `TMB` ← إيقاف ← قراءة.",
@@ -1871,7 +1871,7 @@
    "t": "note",
    "en": [
     "Reader measures **OD** at the kit wavelength — no bubbles, read on time.",
-    "`Quantitative → **standard curve → concentration**; qualitative → **controls → cut-off/S/CO → +/−**.`"
+    "Quantitative → **standard curve → concentration**; qualitative → **controls → cut-off/S/CO → +/−**."
    ],
    "ar": [
     "القارئ يقيس **`OD`** عند طول موجة العُدّة — بلا فقاعات، وفي الوقت.",
@@ -1948,7 +1948,7 @@
    "t": "note",
    "en": [
     "Errors: pipetting → wrong OD; washing → background; drying → irregular; late reading → unreliable.",
-    "`**Never mix** instructions from different kits.`"
+    "**Never mix** instructions from different kits."
    ],
    "ar": [
     "الأخطاء: الماصّة ← `OD` خاطئ؛ الغسل ← خلفية؛ الجفاف ← عدم انتظام؛ القراءة المتأخّرة ← غير موثوقة.",

@@ -1180,6 +1180,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `hematology-practical-anticoagulants` | أمراض الدم | عملي 1 |
 | `hematology-practical-normal-values` | أمراض الدم | عملي 3 |
 | `hematology-practical-turbidimetry` | أمراض الدم | عملي 4 |
+| `hematology-practical-rbc-count` | أمراض الدم | عملي 4 — عدّ الكريات الحمر (المستخدم قال 4) |
 | `hematology-lec2…lec10-*` | أمراض الدم | نظري 2–10 |
 | `genetics-lec1-cell-cycle-mitosis` | وراثة | نظري 1 |
 | `genetics-lec2-meiosis` | وراثة | نظري 2 |

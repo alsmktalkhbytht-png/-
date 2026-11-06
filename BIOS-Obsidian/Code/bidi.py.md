@@ -61,8 +61,8 @@ def ltr_all(obj):
     if isinstance(obj, dict):
         out = {}
         for k, v in obj.items():
-            if k == "label":                            # note label pill is plain text (no markup) — never wrap
-                out[k] = v
+            if k == "label" or k.endswith("en"):         # labels and English fields are never wrapped
+                out[k] = v                               # (a 2-sentence English list is not an [en, ar] pair)
             elif k in ("ar", "answer_ar", "title_ar", "label_ar", "text_ar", "tail_ar", "sub_ar"):
                 out[k] = [ltr(x) for x in v] if isinstance(v, list) else ltr(v)
             elif k == "list_ar":
