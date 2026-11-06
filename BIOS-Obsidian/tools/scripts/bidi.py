@@ -28,7 +28,11 @@ def _wrap(seg):
 
 
 def ltr(s):
-    if not isinstance(s, str) or not re.search(r"[؀-ۿ]", s):
+    if not isinstance(s, str):
+        return s
+    if not re.search(r"[؀-ۿ]", s):                    # Arabic side with no Arabic letters ("1 TT : 2 Tt", "½ T + ½ t", "3 : 1"):
+        if "`" not in s and re.search(r"\S\s+\S|[×=:/+½¼¾]", s):   # an RTL paragraph would move the leading number to the end
+            return f"`{s}`"
         return s
     parts = s.split("`")
     return "`".join(p if i % 2 else _wrap(p) for i, p in enumerate(parts))
@@ -46,7 +50,9 @@ def ltr_all(obj):
     if isinstance(obj, dict):
         out = {}
         for k, v in obj.items():
-            if k in ("ar", "answer_ar", "title_ar", "label_ar", "text_ar", "tail_ar", "sub_ar"):
+            if k == "label":                            # note label pill is plain text (no markup) — never wrap
+                out[k] = v
+            elif k in ("ar", "answer_ar", "title_ar", "label_ar", "text_ar", "tail_ar", "sub_ar"):
                 out[k] = [ltr(x) for x in v] if isinstance(v, list) else ltr(v)
             elif k == "list_ar":
                 out[k] = [[ltr(y) for y in x] if isinstance(x, list) else ltr(x) for x in v]

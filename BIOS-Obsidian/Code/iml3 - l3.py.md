@@ -9,7 +9,7 @@ tags: [bios, code]
 Utility script.
 
 ```python
-import sys, re; sys.path.insert(0, "/tmp/claude-0/-home-claude/4a281dcf-357b-50ce-b2f4-8802cfcc6472/scratchpad/imm456")
+import sys, re; sys.path.insert(0, "/tmp/claude-0/-home-user/ebd718de-5339-5b98-9782-8a5888247f2a/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
 import split
 split.ABBR = split.ABBR + ("E.g.", "e. g.", "5min.", "mol.")   # not sentence ends

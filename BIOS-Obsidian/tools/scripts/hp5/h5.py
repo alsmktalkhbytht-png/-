@@ -1,6 +1,6 @@
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user/61936e68-b1f5-523f-9c76-ea02be11c0c4/scratchpad/imm456")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user/ebd718de-5339-5b98-9782-8a5888247f2a/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
-sys.path.insert(0, "/tmp/claude-0/-home-user/61936e68-b1f5-523f-9c76-ea02be11c0c4/scratchpad"); from bidi import ltr_all; from flowfit import fit
+sys.path.insert(0, "/tmp/claude-0/-home-user/ebd718de-5339-5b98-9782-8a5888247f2a/scratchpad"); from bidi import ltr_all; from flowfit import fit
 
 # Histopathology practical, lab 5 — "Theory of histological staining" (23 slides, 22 pictures, no questions; "By: M.S.C AYA WESMII").
 # Third stage → blush, questions merged. Same subject naming as labs 1–3 (short_ar "انسجة", م.م. آية وسمي).

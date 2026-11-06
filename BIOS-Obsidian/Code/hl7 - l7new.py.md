@@ -11,7 +11,7 @@ Generator script — writes the handout's `lecture.json`.
 Handouts: [[06 فهرس الملازم#hematology-lec7-chronic-sideroblastic|hematology-lec7-chronic-sideroblastic]]
 
 ```python
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-claude/4a281dcf-357b-50ce-b2f4-8802cfcc6472/scratchpad/imm456")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user/ebd718de-5339-5b98-9782-8a5888247f2a/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS save(split.fix)
 
 HT = dict(subject_en="Hematology", subject_ar="أمراض الدم", short_ar="امراض الدم", unit_label="LEC",

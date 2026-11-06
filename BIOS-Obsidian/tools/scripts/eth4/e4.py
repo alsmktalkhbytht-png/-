@@ -1,6 +1,6 @@
 import json, os, random, sys
 from collections import Counter
-sys.path.insert(0, "/tmp/claude-0/-home-user/61936e68-b1f5-523f-9c76-ea02be11c0c4/scratchpad"); from flowfit import fit
+sys.path.insert(0, "/tmp/claude-0/-home-user/ebd718de-5339-5b98-9782-8a5888247f2a/scratchpad"); from flowfit import fit
 
 # Professional Ethics, lecture 4 — Arabic-only Word PDF (2 pages). Its text layer is in a legacy font encoding (garbled),
 # so the text was read from the page images into eth4/l.txt. Stage 4, د. نور (as the user gave them).

@@ -43,6 +43,7 @@
 - [[Code/eth - make.py|eth/make.py]] → ethics-lec1-morals
 - [[Code/eth4 - e4.py|eth4/e4.py]] → ethics-lec4-cheating
 - [[Code/gen2 - g2q.py|gen2/g2q.py]] → genetics-lec2-mitosis
+- [[Code/gen3 - g3.py|gen3/g3.py]] → genetics-lec3-mendelian-inheritance
 - [[Code/gen4 - g4.py|gen4/g4.py]] → genetics-lab4-mendelian-genetics
 - [[Code/gh - ghq.py|gh/ghq.py]] → endocrine-lab3-growth-hormone
 - [[Code/gt2 - gt2.py|gt2/gt2.py]] → genetics-lec2-meiosis

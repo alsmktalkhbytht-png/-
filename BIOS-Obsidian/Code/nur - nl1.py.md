@@ -11,7 +11,7 @@ Generator script — writes the handout's `lecture.json`.
 Handouts: [[06 فهرس الملازم#nursing-ped-lec1-perspective|nursing-ped-lec1-perspective]]
 
 ```python
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/61936e68-b1f5-523f-9c76-ea02be11c0c4/scratchpad/nur")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user/ebd718de-5339-5b98-9782-8a5888247f2a/scratchpad/nur")
 from common_nur import *
 
 blocks = [
@@ -463,6 +463,6 @@ important = [
 meta = NUR(1, "Perspective in Pediatric Nursing", "منظور في تمريض الأطفال")
 save("nursing-ped-lec1-perspective", meta, blocks, mcq, tf, traps, important)
 
-sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/61936e68-b1f5-523f-9c76-ea02be11c0c4/scratchpad"); from flowfit import fit; fit("nursing-ped-lec1-perspective")   # no big gaps (fill2 >= 80%)
+sys.path.insert(0, "/tmp/claude-0/-home-user/ebd718de-5339-5b98-9782-8a5888247f2a/scratchpad"); from flowfit import fit; fit("nursing-ped-lec1-perspective")   # no big gaps (fill2 >= 80%)
 
 ```

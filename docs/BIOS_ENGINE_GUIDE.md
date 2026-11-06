@@ -1182,6 +1182,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `genetics-lec1-cell-cycle-mitosis` | وراثة | نظري 1 |
 | `genetics-lec2-meiosis` | وراثة | نظري 2 |
 | `genetics-lec2-mitosis` | وراثة | نظري 2 — الانقسام الخيطي (رأس الملف lec 5) |
+| `genetics-lec3-mendelian-inheritance` | وراثة | نظري 3 — الوراثة المندلية (pptx صور + تسجيلات صوتية، النص منقول بالقراءة) |
 | `virology-lab3-direct-examination` | فايروسات عملي | عملي 3 — الفحص المباشر للفيروسات (أسلوب جديد) |
 | `virology-lab4-isolation-cultivation` | فايروسات عملي | عملي 4 — عزل الفيروسات وزرعها (أسلوب جديد) |
 | `virology-lab5-complement-fixation` | فايروسات عملي | عملي 5 — اختبار تثبيت المتمّم (أسلوب جديد) |

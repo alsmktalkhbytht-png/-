@@ -9,7 +9,7 @@ tags: [bios, code]
 Short block builders (C, R, SEC, H2, L, N, FLOW, T, Q, TF, TR, IM, F, FF, SIDE) and save().
 
 ```python
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-claude/4a281dcf-357b-50ce-b2f4-8802cfcc6472/scratchpad/hem3")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user/ebd718de-5339-5b98-9782-8a5888247f2a/scratchpad/hem3")
 from common import C, R, SEC, H2, L, N, FLOW, T, Q, TF, TR
 import json, os
 from collections import Counter
