@@ -77,12 +77,12 @@ def paragraphs(text):
     out, cur = [], []
     for line in text.splitlines():
         t = re.sub(r"[\ue000-\uf8ff]", " ", line).strip()
-        starts = re.match(r"^(\d{1,2}\s?[.)-]|[a-z][.)]?\s|[•oO▪§\-–]\s|[A-Z][a-z]+( [a-z]+)*:$)", t)
+        starts = re.match(r"^(\d{1,2}\s?[.)-]|[a-z][.)]?\s|[A-Z]-\s|[•oO▪§✓\-–]\s|✓|[A-Z][a-z]+( [a-z]+)*:$)", t)
         short_prev = cur and len(cur[-1].split()) <= 5 and not re.search(r"[.,;:?]$", cur[-1])   # a title line
         if not t or re.fullmatch(r"\d{1,3}", t) or (starts and cur) or short_prev:
             if cur: out.append(" ".join(cur)); cur = []
             if not t or re.fullmatch(r"\d{1,3}", t): continue
-        cur.append(re.sub(r"^([•oO▪§\-–]|[a-z][.)]?)\s+", "", t))
+        cur.append(re.sub(r"^(?:[•▪§✓\-–]\s*|[oO]\s+|[a-z][.)]\s*|[a-z]\s+|[A-Z]-\s*)", "", t))
     if cur: out.append(" ".join(cur))
     return out
 miss = []

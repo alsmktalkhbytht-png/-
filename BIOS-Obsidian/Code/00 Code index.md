@@ -32,6 +32,7 @@
 - [[Code/bb6 - bb6q.py|bb6/bb6q.py]] → bloodbank-lec6-abo-discrepancies
 - [[Code/bl4 - b4.py|bl4/b4.py]] → bacteriology-lab4-identification
 - [[Code/bl5 - b5.py|bl5/b5.py]] → bacteriology-lab5-staining
+- [[Code/bl6 - b6.py|bl6/b6.py]] → bacteriology-lab6-biochemical-tests
 - [[Code/bt - make2.py|bt/make2.py]] → bloodbank-lec2-donation-criteria
 - [[Code/bt - make3.py|bt/make3.py]] → bloodbank-lec3-services
 - [[Code/chr - l2.py|chr/l2.py]] → histopathology-lec2-chronic-inflammation
