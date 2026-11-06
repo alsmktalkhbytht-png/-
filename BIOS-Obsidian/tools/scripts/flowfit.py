@@ -240,7 +240,12 @@ def _measure_html(h, folder):
     return _TH[h]
 
 
-def fit(folder):
+def fit(folder, min_gap=None):
+    """min_gap: share of the page a gap must exceed before a block is cut (default MIN_GAP = 0.12;
+    0.08 also fills the small gaps left before a section heading)."""
+    global MIN_GAP
+    if min_gap is not None:
+        MIN_GAP = min_gap
     if not os.path.isdir(folder):
         folder = os.path.join("/home/user/-", folder)
     folder = folder.rstrip("/")

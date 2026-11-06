@@ -1,0 +1,2188 @@
+{
+ "meta": {
+  "subject_en": "Research Methods",
+  "subject_ar": "طرائق البحث العلمي",
+  "short_ar": "طرائق البحث",
+  "instructor": "د. فياض",
+  "unit_en": "Lecture 4",
+  "unit_ar": "المحاضرة 4",
+  "unit_label": "LEC",
+  "unit_no": "4",
+  "title_en": "Research process",
+  "title_ar": "عملية البحث",
+  "kind": "Theory — نظري",
+  "stage": "The fourth stage — الرابعة"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Research process",
+   "ar": "عملية البحث"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Research process** consists of **series of actions or steps** necessary to effectively carry out research.",
+    "These actions or steps are;"
+   ],
+   "ar": [
+    "تتكوّن **عملية البحث** من **سلسلة من الإجراءات أو الخطوات** اللازمة لتنفيذ البحث بفاعلية.",
+    "وهذه الإجراءات أو الخطوات هي:"
+   ],
+   "list_en": [
+    "Formulating the Research Problem",
+    "Extensive Literature Survey",
+    "Developing the Research Hypothesis",
+    "Preparing the Research Design",
+    "Determining the Research Design",
+    "Collecting the Research Data",
+    "Execution of the Project",
+    "Analysis of Data",
+    "Hypothesis Testing",
+    "Generalization and Interpretation",
+    "Preparing of the Report or Presentation of the Result"
+   ],
+   "list_ar": [
+    "صياغة مشكلة البحث",
+    "المسح (الاستعراض) الواسع للأدبيات",
+    "وضع فرضية البحث",
+    "إعداد تصميم البحث",
+    "تحديد تصميم البحث",
+    "جمع بيانات البحث",
+    "تنفيذ المشروع",
+    "تحليل البيانات",
+    "اختبار الفرضية",
+    "التعميم والتفسير",
+    "إعداد التقرير أو عرض النتيجة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "In this list step 5 is written \"Determining the Research **Design**\", but its own heading below is \"Determining **Experimental** Design\" — step 4 plans the whole study, step 5 is the experimental (controlled) design.",
+   "ar": "في هذه القائمة كُتبت الخطوة 5 \"`Determining the Research Design`\"، لكن عنوانها في الأسفل \"`Determining Experimental Design`\" — فالخطوة 4 تخطّط للدراسة كلها، والخطوة 5 هي **التصميم التجريبي** (المضبوط).",
+   "label": [
+    "BIOS note",
+    "ملاحظة `BIOS`"
+   ]
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Problem",
+     "ar": "المشكلة"
+    },
+    {
+     "en": "Literature",
+     "ar": "الأدبيات"
+    },
+    {
+     "en": "Hypothesis",
+     "ar": "الفرضية"
+    },
+    {
+     "en": "Research design",
+     "ar": "تصميم البحث"
+    },
+    {
+     "en": "Experimental design",
+     "ar": "التصميم التجريبي"
+    },
+    {
+     "en": "Data collection",
+     "ar": "جمع البيانات"
+    }
+   ],
+   "en": "Steps 1–6",
+   "ar": "الخطوات 1–6"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Execution",
+     "ar": "التنفيذ"
+    },
+    {
+     "en": "Analysis",
+     "ar": "التحليل"
+    },
+    {
+     "en": "Hypothesis testing",
+     "ar": "اختبار الفرضية"
+    },
+    {
+     "en": "Generalization / interpretation",
+     "ar": "التعميم / التفسير"
+    },
+    {
+     "en": "Report",
+     "ar": "التقرير"
+    }
+   ],
+   "en": "Steps 7–11",
+   "ar": "الخطوات 7–11"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Research process = **11 ordered steps**.",
+    "It starts with the **problem** and ends with the **report**.",
+    "Hypothesis is **written in step 3** and **tested in step 9**."
+   ],
+   "ar": [
+    "عملية البحث = **11 خطوة مرتّبة**.",
+    "تبدأ بـ**المشكلة** وتنتهي بـ**التقرير**.",
+    "الفرضية **تُكتب في الخطوة 3** و**تُختبر في الخطوة 9**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Problem and literature survey",
+   "ar": "المشكلة واستعراض الأدبيات"
+  },
+  {
+   "t": "h2",
+   "en": "1. Formulating the Research Problem",
+   "ar": "1. صياغة مشكلة البحث"
+  },
+  {
+   "t": "card",
+   "en": "A **research problem** is a **specific issue within the field that you can investigate**.",
+   "ar": "**مشكلة البحث** هي **قضية محدّدة ضمن المجال يمكنك دراستها (التحقّق منها)**."
+  },
+  {
+   "t": "card",
+   "en": "Examples:",
+   "ar": "أمثلة:",
+   "list_en": [
+    [
+     "**Antibiotic resistance patterns:** Local bacterial isolates may show changing resistance patterns.",
+     "A study could describe resistance findings in approved laboratory records over a defined period"
+    ],
+    [
+     "**Urine specimen handling:** Delays between collection and processing may affect some urine test findings.",
+     "A study could examine whether processing time is associated with selected results."
+    ]
+   ],
+   "list_ar": [
+    [
+     "**أنماط مقاومة المضادّات الحيوية:** قد تُظهر العزلات البكتيرية المحلية أنماط مقاومة متغيّرة.",
+     "ويمكن لدراسة أن تصف نتائج المقاومة في سجلّات مختبرية معتمدة خلال مدّة محدّدة"
+    ],
+    [
+     "**التعامل مع عيّنات الإدرار:** قد يؤثّر التأخير بين الجمع والمعالجة في بعض نتائج فحص الإدرار.",
+     "ويمكن لدراسة أن تبحث هل يرتبط وقت المعالجة بنتائج مختارة."
+    ]
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "2. Extensive Literature Survey:",
+   "ar": "2. المسح الواسع للأدبيات:"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Once the problem is formulated the researcher should undertake **extensive literature survey** connected with the problem.",
+    "Literature of interest could be obtained from: **Academic journals; Conference proceedings; Scientific reports and Books**, depending on the nature of the research problem."
+   ],
+   "ar": [
+    "بعد صياغة المشكلة ينبغي للباحث أن يُجري **مسحًا واسعًا للأدبيات** المتعلّقة بالمشكلة.",
+    "ويمكن الحصول على الأدبيات المطلوبة من: **المجلات الأكاديمية؛ ووقائع (أعمال) المؤتمرات؛ والتقارير العلمية والكتب**، بحسب طبيعة مشكلة البحث."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Source of literature",
+     "مصدر الأدبيات"
+    ],
+    [
+     "Arabic",
+     "بالعربي"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Academic journals**",
+      "**المجلات الأكاديمية**"
+     ],
+     [
+      "peer-reviewed research articles",
+      "مقالات بحثية محكّمة"
+     ]
+    ],
+    [
+     [
+      "**Conference proceedings**",
+      "**وقائع المؤتمرات**"
+     ],
+     [
+      "papers presented at conferences",
+      "بحوث قُدّمت في المؤتمرات"
+     ]
+    ],
+    [
+     [
+      "**Scientific reports**",
+      "**التقارير العلمية**"
+     ],
+     [
+      "reports of institutions and agencies",
+      "تقارير المؤسّسات والجهات"
+     ]
+    ],
+    [
+     [
+      "**Books**",
+      "**الكتب**"
+     ],
+     [
+      "textbooks and reference books",
+      "الكتب المنهجية والمرجعية"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    40,
+    60
+   ],
+   "style": "summary",
+   "label_en": "4 sources",
+   "label_ar": "4 مصادر"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Research problem = a **specific, investigable issue** in the field.",
+    "Literature survey comes **after** formulating the problem.",
+    "Sources: **journals, conference proceedings, scientific reports, books**."
+   ],
+   "ar": [
+    "مشكلة البحث = **قضية محدّدة قابلة للدراسة** في المجال.",
+    "مسح الأدبيات يأتي **بعد** صياغة المشكلة.",
+    "المصادر: **المجلات، ووقائع المؤتمرات، والتقارير العلمية، والكتب**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Working hypothesis",
+   "ar": "الفرضية العاملة"
+  },
+  {
+   "t": "h2",
+   "en": "3. Development of Working Hypothesis",
+   "ar": "3. وضع الفرضية العاملة"
+  },
+  {
+   "t": "card",
+   "en": [
+    "After extensive literature survey, researcher should state in clear terms the **working hypothesis or hypotheses**.",
+    "**Working hypothesis** is **tentative assumption** made in order to draw out and test its **logical or empirical consequences**."
+   ],
+   "ar": [
+    "بعد المسح الواسع للأدبيات ينبغي للباحث أن يصوغ بعبارات واضحة **الفرضية (أو الفرضيات) العاملة**.",
+    "**الفرضية العاملة** هي **افتراض مؤقّت** يُوضع من أجل استخلاص **نتائجه المنطقية أو التجريبية** واختبارها."
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "card",
+   "en": [
+    "It’s very important and provides the **focal point for research**."
+   ],
+   "ar": [
+    "وهي مهمّة جدًا وتوفّر **النقطة المحورية (البؤرة) للبحث**."
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "card",
+   "en": "Example:",
+   "ar": "مثال:",
+   "list_en": [
+    "Role of minerals on growth of the bacterium __Pseudomonas aeruginosa__.",
+    "Effect of fructose on blood sugar."
+   ],
+   "list_ar": [
+    "دور المعادن في نموّ بكتيريا `__Pseudomonas aeruginosa__` (الزائفة الزنجارية).",
+    "تأثير الفركتوز في سكر الدم."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "In the list of steps this step is called \"Developing the Research Hypothesis\"; here it is \"Development of Working Hypothesis\" — the same step.",
+    "The two examples are research **topics**; written as hypotheses they would be, e.g., \"Fructose raises blood sugar.\""
+   ],
+   "ar": [
+    "في قائمة الخطوات اسم هذه الخطوة \"`Developing the Research Hypothesis`\" وهنا \"`Development of Working Hypothesis`\" — وهي الخطوة نفسها.",
+    "والمثالان **عنوانا بحث**؛ ولو كُتبا فرضيةً لكانا مثلًا: \"الفركتوز يرفع سكر الدم.\""
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة `BIOS`"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Working hypothesis = **tentative assumption** to be tested.",
+    "Written **after** the literature survey; it is the **focal point** of the research."
+   ],
+   "ar": [
+    "الفرضية العاملة = **افتراض مؤقّت** يُختبر.",
+    "تُكتب **بعد** مسح الأدبيات؛ وهي **النقطة المحورية** للبحث."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Research design",
+   "ar": "تصميم البحث"
+  },
+  {
+   "t": "h2",
+   "en": "4. Preparing the Research Design",
+   "ar": "4. إعداد تصميم البحث"
+  },
+  {
+   "t": "card",
+   "en": "Preparing a research design means creating a **clear plan for how you will answer your research question**.",
+   "ar": "إعداد تصميم البحث يعني وضع **خطّة واضحة لكيفية الإجابة عن سؤال بحثك**."
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "First, choose the appropriate approach—**quantitative, qualitative, or mixed methods**.",
+    "Then decide what **samples, records, or participants** you will study; how you will **collect and analyze the data**; and how you will protect **privacy, safety, and research quality**."
+   ],
+   "list_ar": [
+    "أولًا، اختر المنهج المناسب — **الكمّي أو النوعي أو المختلط**.",
+    "ثم حدّد ما ستدرسه من **عيّنات أو سجلّات أو مشاركين**؛ وكيف **ستجمع البيانات وتحلّلها**؛ وكيف ستحمي **الخصوصية والسلامة وجودة البحث**."
+   ],
+   "alpha": true
+  },
+  {
+   "t": "card",
+   "en": "**Example:** To investigate common reasons for specimen rejection, you could review approved laboratory records from a defined period, categorize the rejection reasons, and summarize them using **counts and percentages**.",
+   "ar": "**مثال:** لدراسة الأسباب الشائعة لرفض العيّنات، يمكنك مراجعة سجلّات مختبرية معتمدة من مدّة محدّدة، وتصنيف أسباب الرفض، وتلخيصها باستعمال **الأعداد والنسب المئوية**."
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Approach",
+     "المنهج"
+    ],
+    [
+     "Data",
+     "البيانات"
+    ],
+    [
+     "Example",
+     "مثال"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Quantitative**",
+      "**كمّي**"
+     ],
+     [
+      "numbers, counts, measurements",
+      "أرقام وأعداد وقياسات"
+     ],
+     [
+      "% of rejected specimens",
+      "نسبة العيّنات المرفوضة"
+     ]
+    ],
+    [
+     [
+      "**Qualitative**",
+      "**نوعي**"
+     ],
+     [
+      "descriptions, opinions, words",
+      "أوصاف وآراء وكلمات"
+     ],
+     [
+      "staff views on rejection reasons",
+      "آراء الكادر في أسباب الرفض"
+     ]
+    ],
+    [
+     [
+      "**Mixed methods**",
+      "**مختلط**"
+     ],
+     [
+      "both",
+      "كلاهما"
+     ],
+     [
+      "counts + interviews",
+      "أعداد + مقابلات"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    38,
+    38
+   ],
+   "style": "summary",
+   "label_en": "BIOS: the three approaches",
+   "label_ar": "`BIOS`: المناهج الثلاثة"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Research design = **clear plan** to answer the research question.",
+    "Approach: **quantitative, qualitative or mixed**; then samples, data collection/analysis, privacy and safety."
+   ],
+   "ar": [
+    "تصميم البحث = **خطّة واضحة** للإجابة عن سؤال البحث.",
+    "المنهج: **كمّي أو نوعي أو مختلط**؛ ثم العيّنات وجمع البيانات وتحليلها والخصوصية والسلامة."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Experimental design",
+   "ar": "التصميم التجريبي"
+  },
+  {
+   "t": "h2",
+   "en": "5. Determining Experimental Design",
+   "ar": "5. تحديد التصميم التجريبي"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Determining the experimental design means deciding how to **test a research question under controlled conditions**.",
+    "The researcher identifies the **groups or conditions to compare**, the **outcome to measure**, and how to **reduce bias** and keep procedures consistent."
+   ],
+   "ar": [
+    "تحديد التصميم التجريبي يعني تقرير كيفية **اختبار سؤال البحث في ظروف مضبوطة**.",
+    "فيحدّد الباحث **المجموعات أو الظروف التي سيقارن بينها**، و**النتيجة التي سيقيسها**، وكيف **يقلّل التحيّز** ويحافظ على ثبات الإجراءات."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Example:** To compare two laboratory testing methods, use the same suitable samples with both methods, follow consistent procedures, and compare the results.",
+    "Any required **approvals** and laboratory **safety procedures** must be followed."
+   ],
+   "ar": [
+    "**مثال:** لمقارنة طريقتين للفحص المختبري، استعمل العيّنات المناسبة نفسها مع الطريقتين، واتّبع إجراءات ثابتة، وقارن النتائج.",
+    "ويجب الالتزام بأي **موافقات** مطلوبة وبـ**إجراءات السلامة** المختبرية."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "1. Key Principles of Experimental Design",
+   "ar": "1. المبادئ الأساسية للتصميم التجريبي"
+  },
+  {
+   "t": "card",
+   "en": "To ensure rigorous and reliable results, a robust experimental design relies on **four core principles**:",
+   "ar": "لضمان نتائج دقيقة وموثوقة، يعتمد التصميم التجريبي المتين على **أربعة مبادئ أساسية**:",
+   "list_en": [
+    "**Control:** Keeping all **extraneous variables constant** (or accounting for them) so that any change in the dependent variable can be confidently attributed to the manipulation of the independent variable.",
+    "**Randomization:** **Randomly assigning** participants or subjects to experimental and control groups to **eliminate selection bias** and distribute confounding variables evenly.",
+    "**Replication:** **Repeating** the experiment across multiple subjects or trials to ensure that findings are **reliable, reproducible, and not due to random chance**.",
+    "**Grouping:** **Grouping similar experimental units** (e.g., by age, skill level, or baseline health) to **reduce the impact of known confounding variables**."
+   ],
+   "list_ar": [
+    "**الضبط (`Control`):** **تثبيت كل المتغيّرات الدخيلة** (أو أخذها بالحسبان) حتى يمكن أن يُنسب أي تغيّر في المتغيّر التابع بثقة إلى التلاعب بالمتغيّر المستقل.",
+    "**العشوائية (`Randomization`):** **التوزيع العشوائي** للمشاركين أو الأفراد على المجموعتين التجريبية والضابطة **لإزالة تحيّز الاختيار** وتوزيع المتغيّرات المُربِكة بالتساوي.",
+    "**التكرار (`Replication`):** **إعادة** التجربة على أفراد أو محاولات متعدّدة للتأكّد من أن النتائج **موثوقة وقابلة للتكرار وليست بسبب الصدفة**.",
+    "**التجميع (`Grouping`):** **تجميع الوحدات التجريبية المتشابهة** (مثل العمر أو مستوى المهارة أو الحالة الصحية الأساسية) **لتقليل أثر المتغيّرات المُربِكة المعروفة**."
+   ],
+   "alpha": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Principle",
+     "المبدأ"
+    ],
+    [
+     "What it does",
+     "ماذا يعمل"
+    ],
+    [
+     "Protects against",
+     "يحمي من"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Control**",
+      "**الضبط**"
+     ],
+     [
+      "keeps extraneous variables constant",
+      "يثبّت المتغيّرات الدخيلة"
+     ],
+     [
+      "wrong cause-effect conclusion",
+      "استنتاج خاطئ للسبب والنتيجة"
+     ]
+    ],
+    [
+     [
+      "**Randomization**",
+      "**العشوائية**"
+     ],
+     [
+      "random assignment to groups",
+      "توزيع عشوائي على المجموعات"
+     ],
+     [
+      "selection bias",
+      "تحيّز الاختيار"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    40,
+    36
+   ],
+   "style": "summary",
+   "label_en": "4 principles",
+   "label_ar": "4 مبادئ",
+   "_ff": 2
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Principle",
+     "المبدأ"
+    ],
+    [
+     "What it does",
+     "ماذا يعمل"
+    ],
+    [
+     "Protects against",
+     "يحمي من"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Replication**",
+      "**التكرار**"
+     ],
+     [
+      "repeats across subjects / trials",
+      "إعادة على أفراد / محاولات"
+     ],
+     [
+      "random chance",
+      "الصدفة"
+     ]
+    ],
+    [
+     [
+      "**Grouping**",
+      "**التجميع**"
+     ],
+     [
+      "groups similar units",
+      "يجمع الوحدات المتشابهة"
+     ],
+     [
+      "known confounding variables",
+      "المتغيّرات المُربِكة المعروفة"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    40,
+    36
+   ],
+   "style": "summary",
+   "label_en": "4 principles (continued)",
+   "label_ar": "4 مبادئ (تكملة)",
+   "_ff": 2
+  },
+  {
+   "t": "note",
+   "en": "In most textbooks the fourth principle (grouping similar units) is called **blocking** (الحَجْب / التكتيل).",
+   "ar": "في أغلب الكتب يُسمّى المبدأ الرابع (تجميع الوحدات المتشابهة) **`blocking` (التكتيل / الحَجْب)**.",
+   "label": [
+    "BIOS note",
+    "ملاحظة `BIOS`"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "2. Pilot and refine the plan.",
+   "ar": "2. جرّب الخطّة تجريبًا أوليًا وحسّنها."
+  },
+  {
+   "t": "card",
+   "en": "Try the procedure on a **small scale** to find **practical problems** before the main study.",
+   "ar": "جرّب الإجراء على **نطاق صغير** لاكتشاف **المشكلات العملية** قبل الدراسة الرئيسية."
+  },
+  {
+   "t": "note",
+   "en": [
+    "Experimental design = test the question under **controlled conditions** (groups, outcome, less bias).",
+    "4 principles: **control, randomization, replication, grouping**.",
+    "**Pilot** = small trial to find practical problems first."
+   ],
+   "ar": [
+    "التصميم التجريبي = اختبار السؤال في **ظروف مضبوطة** (مجموعات، ونتيجة، وتحيّز أقل).",
+    "4 مبادئ: **الضبط، والعشوائية، والتكرار، والتجميع**.",
+    "**التجربة الأولية** = تجربة صغيرة لكشف المشكلات العملية أولًا."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Data collection and execution",
+   "ar": "جمع البيانات والتنفيذ"
+  },
+  {
+   "t": "h2",
+   "en": "6. Collecting the Research Data:",
+   "ar": "6. جمع بيانات البحث:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "There are several ways of collecting the appropriate data which differ considerably in context of **cost, time and other resources** at the disposal of the researcher.",
+    "**Primary data** can be collected either through **experiment or through survey**."
+   ],
+   "list_ar": [
+    "توجد طرق عدّة لجمع البيانات المناسبة، وتختلف كثيرًا من حيث **الكلفة والوقت والموارد الأخرى** المتاحة للباحث.",
+    "ويمكن جمع **البيانات الأولية** إمّا **بالتجربة أو بالمسح (الاستبيان)**."
+   ],
+   "alpha": true
+  },
+  {
+   "t": "h2",
+   "en": "7. Execution of the Project:",
+   "ar": "7. تنفيذ المشروع:"
+  },
+  {
+   "t": "card",
+   "en": "Execution of project is a **very important step** in the research process.",
+   "ar": "تنفيذ المشروع **خطوة مهمّة جدًا** في عملية البحث.",
+   "list_en": [
+    "If the execution of the project proceeds on correct lines, the data to be collected would be **adequate and dependable**.",
+    "A careful watch should be kept for **unanticipated factors** in order to keep the survey realistic as much as possible."
+   ],
+   "list_ar": [
+    "إذا سار تنفيذ المشروع على النحو الصحيح، كانت البيانات المجموعة **كافية ويُعتمد عليها**.",
+    "وينبغي مراقبة **العوامل غير المتوقّعة** بعناية للحفاظ على واقعية المسح قدر الإمكان."
+   ],
+   "alpha": true
+  },
+  {
+   "t": "note",
+   "en": [
+    "Data collection methods differ in **cost, time and resources**; primary data = **experiment or survey**.",
+    "Correct execution → **adequate, dependable** data; watch for **unanticipated factors**."
+   ],
+   "ar": [
+    "طرق جمع البيانات تختلف في **الكلفة والوقت والموارد**؛ والبيانات الأولية = **تجربة أو مسح**.",
+    "التنفيذ الصحيح ← بيانات **كافية وموثوقة**؛ وراقب **العوامل غير المتوقّعة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Analysis and hypothesis testing",
+   "ar": "التحليل واختبار الفرضية"
+  },
+  {
+   "t": "h2",
+   "en": "8. Analysis of Data",
+   "ar": "8. تحليل البيانات"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The analysis of data requires a number of closely related operations such as **establishment of categories**, the application of these categories to raw data through **coding, tabulation** and then drawing **statistical inference**.",
+    "In the process of analysis, relationships of differences supporting or conflicting with original or new hypothesis should be subjected to **tests of significance** to determine with what validity data can be said to indicate any conclusions."
+   ],
+   "list_ar": [
+    "يتطلّب تحليل البيانات عمليات عدّة مترابطة مثل **إنشاء الفئات**، وتطبيق هذه الفئات على البيانات الخام عبر **الترميز والجدولة**، ثم استخلاص **الاستدلال الإحصائي**.",
+    "وفي أثناء التحليل، ينبغي إخضاع العلاقات أو الفروق المؤيّدة للفرضية الأصلية أو الجديدة أو المعارضة لها إلى **اختبارات الدلالة (المعنوية)**، لتحديد مدى صحّة القول بأن البيانات تدلّ على أي استنتاجات."
+   ],
+   "alpha": true
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Categories",
+     "ar": "الفئات"
+    },
+    {
+     "en": "Coding",
+     "ar": "الترميز"
+    },
+    {
+     "en": "Tabulation",
+     "ar": "الجدولة"
+    },
+    {
+     "en": "Statistical inference",
+     "ar": "الاستدلال الإحصائي"
+    }
+   ],
+   "en": "Analysis in order",
+   "ar": "التحليل بالترتيب"
+  },
+  {
+   "t": "h2",
+   "en": "9. Hypothesis Testing:",
+   "ar": "9. اختبار الفرضية:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    [
+     "After analyzing the data, the researcher is in a position to **test the hypothesis**, if any, had formulated earlier.",
+     "Do the facts support the hypothesis or they happen to be contrary?"
+    ],
+    "Hypothesis testing will result in either **accepting** the hypothesis or in **rejecting** it.",
+    "If the researcher had **no hypothesis** to start with, **generalizations** established on the basis of data may be stated."
+   ],
+   "list_ar": [
+    [
+     "بعد تحليل البيانات يكون الباحث في موقع يسمح له بـ**اختبار الفرضية** التي صاغها سابقًا، إن وُجدت.",
+     "هل تؤيّد الحقائق الفرضية أم تخالفها؟"
+    ],
+    "وينتهي اختبار الفرضية إمّا بـ**قبولها** أو **رفضها**.",
+    "وإذا لم تكن لدى الباحث **فرضية** في البداية، يمكن ذكر **تعميمات** مبنية على البيانات."
+   ],
+   "alpha": true
+  },
+  {
+   "t": "note",
+   "en": [
+    "Analysis: **categories → coding → tabulation → statistical inference**; then **tests of significance**.",
+    "Testing comes **after analysis** → hypothesis **accepted or rejected**.",
+    "No hypothesis → state **generalizations** from the data."
+   ],
+   "ar": [
+    "التحليل: **فئات ← ترميز ← جدولة ← استدلال إحصائي**؛ ثم **اختبارات الدلالة**.",
+    "الاختبار يأتي **بعد التحليل** ← الفرضية **تُقبل أو تُرفض**.",
+    "لا فرضية ← تُذكر **تعميمات** من البيانات."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Generalization and the report",
+   "ar": "التعميم والتقرير"
+  },
+  {
+   "t": "h2",
+   "en": "10. Generalizations and Interpretation:",
+   "ar": "10. التعميمات والتفسير:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "If a hypothesis is tested and **upheld several times**, it may be possible for the researcher to arrive at **generalization** i.e. to **build a theory**.",
+    "As a matter of fact, the **real value of research** lies in its ability to arrive at certain **generalizations**.",
+    [
+     "If the researcher had **no hypothesis** to start with, he might seek to explain his findings on the basis of some theory.",
+     "It is known as **interpretation**."
+    ]
+   ],
+   "list_ar": [
+    "إذا اختُبرت الفرضية و**تأكّدت مرّات عدّة**، قد يتمكّن الباحث من الوصول إلى **تعميم**، أي **بناء نظرية**.",
+    "وفي الواقع، تكمن **القيمة الحقيقية للبحث** في قدرته على الوصول إلى **تعميمات** معيّنة.",
+    [
+     "وإذا لم تكن لدى الباحث **فرضية** في البداية، فقد يسعى إلى تفسير نتائجه على أساس نظرية ما.",
+     "ويُعرف ذلك بـ**التفسير**."
+    ]
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "11. Preparation of the Report (Paper) or the Thesis:",
+   "ar": "11. إعداد التقرير (البحث) أو الأطروحة:"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Finally, the researcher has to **prepare the report** of what has been done by him/her.",
+    [
+     "The **preliminary pages** carry title, acknowledgements and forward and then index.",
+     "The **main text** of the report should have **Title, Name of author(s), Adress, Abstract, Introduction, Review of literature, Methodology (Materials and Methods), Results, Discussion and References**."
+    ]
+   ],
+   "list_ar": [
+    "وأخيرًا، على الباحث أن **يُعدّ تقريرًا** بما أنجزه.",
+    [
+     "تحمل **الصفحات التمهيدية** العنوان، والشكر والتقدير، والتمهيد (المقدّمة الافتتاحية)، ثم الفهرس.",
+     "وينبغي أن يتضمّن **متن التقرير**: **العنوان، واسم المؤلّف (المؤلّفين)، والعنوان البريدي (الجهة)، والخلاصة، والمقدّمة، ومراجعة الأدبيات، والمنهجية (المواد وطرائق العمل)، والنتائج، والمناقشة، والمصادر**."
+    ]
+   ],
+   "alpha": true
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Preliminary pages",
+     "الصفحات التمهيدية"
+    ],
+    [
+     "Main text (in order)",
+     "متن التقرير (بالترتيب)"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "Title",
+      "العنوان"
+     ],
+     [
+      "Title → Name of author(s) → Address",
+      "العنوان ← اسم المؤلّف ← العنوان البريدي"
+     ]
+    ],
+    [
+     [
+      "Acknowledgements",
+      "الشكر والتقدير"
+     ],
+     [
+      "Abstract → Introduction",
+      "الخلاصة ← المقدّمة"
+     ]
+    ],
+    [
+     [
+      "Foreword",
+      "التمهيد"
+     ],
+     [
+      "Review of literature → Methodology (Materials and Methods)",
+      "مراجعة الأدبيات ← المنهجية (المواد وطرائق العمل)"
+     ]
+    ],
+    [
+     [
+      "Index",
+      "الفهرس"
+     ],
+     [
+      "Results → Discussion → References",
+      "النتائج ← المناقشة ← المصادر"
+     ]
+    ]
+   ],
+   "widths": [
+    34,
+    66
+   ],
+   "style": "summary",
+   "label_en": "Report parts",
+   "label_ar": "أجزاء التقرير"
+  },
+  {
+   "t": "note",
+   "en": "Spelling in the sheet: \"forward\" means **foreword** (تمهيد) and \"Adress\" means **Address**; \"Preparing of the Report or Presentation of the Result\" in the step list is this same step 11.",
+   "ar": "إملاء الورقة: \"`forward`\" المقصود بها **`foreword` (التمهيد)**، و\"`Adress`\" المقصود **`Address` (العنوان)**؛ و\"`Preparing of the Report or Presentation of the Result`\" في قائمة الخطوات هي الخطوة 11 نفسها.",
+   "label": [
+    "BIOS note",
+    "ملاحظة `BIOS`"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Hypothesis upheld **several times** → **generalization / theory**; the real value of research.",
+    "No hypothesis → explain findings by a theory = **interpretation**.",
+    "Report: **preliminary pages** (title, acknowledgements, foreword, index) + **main text** (title … references)."
+   ],
+   "ar": [
+    "فرضية تأكّدت **مرّات عدّة** ← **تعميم / نظرية**؛ وهي القيمة الحقيقية للبحث.",
+    "لا فرضية ← تفسير النتائج بنظرية = **التفسير**.",
+    "التقرير: **صفحات تمهيدية** (العنوان، والشكر، والتمهيد، والفهرس) + **متن** (العنوان … المصادر)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Research process**",
+     "عملية البحث / مراحل البحث العلمي"
+    ],
+    [
+     "**Research problem**",
+     "مشكلة البحث / إشكالية البحث"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 3
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Literature survey (review)**",
+     "مسح الأدبيات / استعراض الدراسات السابقة / مراجعة المراجع"
+    ],
+    [
+     "**Working hypothesis**",
+     "الفرضية العاملة / الفرضية المؤقّتة / فرضية العمل"
+    ],
+    [
+     "**Research design**",
+     "تصميم البحث / خطّة البحث"
+    ],
+    [
+     "**Experimental design**",
+     "التصميم التجريبي / تصميم التجربة"
+    ],
+    [
+     "**Quantitative / qualitative / mixed methods**",
+     "كمّي / نوعي (كيفي) / مختلط"
+    ],
+    [
+     "**Extraneous variable**",
+     "متغيّر دخيل / متغيّر خارجي"
+    ],
+    [
+     "**Dependent / independent variable**",
+     "المتغيّر التابع / المتغيّر المستقل"
+    ],
+    [
+     "**Selection bias**",
+     "تحيّز الاختيار / انحياز الانتقاء"
+    ],
+    [
+     "**Confounding variable**",
+     "متغيّر مُربِك / متغيّر مُشوِّش / عامل مُداخِل"
+    ],
+    [
+     "**Replication**",
+     "التكرار / الإعادة"
+    ],
+    [
+     "**Pilot study**",
+     "دراسة تجريبية أولية / دراسة استطلاعية"
+    ],
+    [
+     "**Primary data**",
+     "البيانات الأولية / البيانات الأصلية"
+    ],
+    [
+     "**Coding / tabulation**",
+     "الترميز / الجدولة (التبويب)"
+    ],
+    [
+     "**Statistical inference**",
+     "الاستدلال الإحصائي"
+    ],
+    [
+     "**Tests of significance**",
+     "اختبارات الدلالة / اختبارات المعنوية"
+    ],
+    [
+     "**Generalization**",
+     "التعميم"
+    ],
+    [
+     "**Interpretation**",
+     "التفسير"
+    ],
+    [
+     "**Abstract**",
+     "الخلاصة / الملخّص"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 3
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "MCQs Lecture 4 (from the lecture file)",
+    "topic_ar": "أسئلة المحاضرة الرابعة (من ملف المحاضرة)"
+   },
+   {
+    "en": "What does the research process consist of:",
+    "ar": "ممّ تتكوّن عملية البحث:",
+    "options": [
+     [
+      "A collection of unrelated opinions",
+      "مجموعة آراء غير مترابطة"
+     ],
+     [
+      "A series of steps used to carry out research effectively",
+      "سلسلة خطوات تُستعمل لتنفيذ البحث بفاعلية"
+     ],
+     [
+      "A report written only after data collection",
+      "تقرير يُكتب بعد جمع البيانات فقط"
+     ],
+     [
+      "A method for avoiding literature review",
+      "طريقة لتجنّب مراجعة الأدبيات"
+     ],
+     [
+      "A set of statistical tests",
+      "مجموعة اختبارات إحصائية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "What is a research problem:",
+    "ar": "ما مشكلة البحث:",
+    "options": [
+     [
+      "A general topic that cannot be investigated",
+      "موضوع عام لا يمكن دراسته"
+     ],
+     [
+      "A result that the researcher hopes to prove",
+      "نتيجة يأمل الباحث إثباتها"
+     ],
+     [
+      "A specific issue in a field that can be investigated",
+      "قضية محدّدة في مجال يمكن دراستها"
+     ],
+     [
+      "A list of references",
+      "قائمة مصادر"
+     ],
+     [
+      "A summary of the final findings",
+      "خلاصة النتائج النهائية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "When should a researcher conduct an extensive literature survey:",
+    "ar": "متى ينبغي للباحث إجراء مسح واسع للأدبيات:",
+    "options": [
+     [
+      "After formulating the research problem",
+      "بعد صياغة مشكلة البحث"
+     ],
+     [
+      "After writing the final report",
+      "بعد كتابة التقرير النهائي"
+     ],
+     [
+      "Before identifying any research problem",
+      "قبل تحديد أي مشكلة بحث"
+     ],
+     [
+      "Only after testing the hypothesis",
+      "بعد اختبار الفرضية فقط"
+     ],
+     [
+      "Only if the study uses an experiment",
+      "فقط إذا استعملت الدراسة تجربة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which is a source of literature for a research study:",
+    "ar": "أيّها مصدر للأدبيات في دراسة بحثية:",
+    "options": [
+     [
+      "Personal knowledge",
+      "المعرفة الشخصية"
+     ],
+     [
+      "Advertisements only",
+      "الإعلانات فقط"
+     ],
+     [
+      "Unverified reports",
+      "تقارير غير موثّقة"
+     ],
+     [
+      "Academic journals",
+      "المجلات الأكاديمية"
+     ],
+     [
+      "Unrecorded conversations",
+      "محادثات غير مسجّلة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "What is a working hypothesis:",
+    "ar": "ما الفرضية العاملة:",
+    "options": [
+     [
+      "A final conclusion that cannot be changed",
+      "استنتاج نهائي لا يمكن تغييره"
+     ],
+     [
+      "A research method for collecting samples",
+      "طريقة بحث لجمع العيّنات"
+     ],
+     [
+      "A developed assumption whose logical or empirical consequences can be tested",
+      "افتراض موضوع يمكن اختبار نتائجه المنطقية أو التجريبية"
+     ],
+     [
+      "A summary of previous research",
+      "خلاصة البحوث السابقة"
+     ],
+     [
+      "A list of study participants",
+      "قائمة المشاركين في الدراسة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Why is a working hypothesis important:",
+    "ar": "لماذا الفرضية العاملة مهمّة:",
+    "options": [
+     [
+      "It replaces the need to collect data",
+      "تُغني عن جمع البيانات"
+     ],
+     [
+      "It provides a focal point for the research",
+      "توفّر نقطة محورية للبحث"
+     ],
+     [
+      "It guarantees the hypothesis will be accepted",
+      "تضمن قبول الفرضية"
+     ],
+     [
+      "It determines the report’s page count",
+      "تحدّد عدد صفحات التقرير"
+     ],
+     [
+      "It prevents the researcher from reviewing literature",
+      "تمنع الباحث من مراجعة الأدبيات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Preparing a research design involve:",
+    "ar": "يتضمّن إعداد تصميم البحث:",
+    "options": [
+     [
+      "Writing the discussion before collecting data",
+      "كتابة المناقشة قبل جمع البيانات"
+     ],
+     [
+      "Selecting a conclusion in advance",
+      "اختيار استنتاج مسبقًا"
+     ],
+     [
+      "Planning how to answer the research question",
+      "التخطيط لكيفية الإجابة عن سؤال البحث"
+     ],
+     [
+      "Avoiding decisions about samples and methods",
+      "تجنّب القرارات بشأن العيّنات والطرائق"
+     ],
+     [
+      "Choosing only statistical tests",
+      "اختيار الاختبارات الإحصائية فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The approach used in preparing a research design includes:",
+    "ar": "المنهج المستعمل في إعداد تصميم البحث يشمل:",
+    "options": [
+     [
+      "Historical, fictional, or theoretical",
+      "تاريخي أو خيالي أو نظري"
+     ],
+     [
+      "Pilot, report, or conclusion",
+      "تجربة أولية أو تقرير أو استنتاج"
+     ],
+     [
+      "Randomized, biased, or uncontrolled",
+      "عشوائي أو متحيّز أو غير مضبوط"
+     ],
+     [
+      "Primary, secondary, or final",
+      "أولي أو ثانوي أو نهائي"
+     ],
+     [
+      "Quantitative, qualitative, or mixed methods",
+      "كمّي أو نوعي أو مختلط"
+     ]
+    ],
+    "answer": "e"
+   },
+   {
+    "en": "What is the purpose of determining an experimental design:",
+    "ar": "ما الغرض من تحديد التصميم التجريبي:",
+    "options": [
+     [
+      "To choose a report title",
+      "اختيار عنوان التقرير"
+     ],
+     [
+      "To decide how to test a research question under controlled conditions",
+      "تقرير كيفية اختبار سؤال البحث في ظروف مضبوطة"
+     ],
+     [
+      "To summarize published literature",
+      "تلخيص الأدبيات المنشورة"
+     ],
+     [
+      "To interpret results before the study",
+      "تفسير النتائج قبل الدراسة"
+     ],
+     [
+      "To avoid comparing groups",
+      "تجنّب مقارنة المجموعات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In experimental design, what is the role of control:",
+    "ar": "في التصميم التجريبي، ما دور الضبط:",
+    "options": [
+     [
+      "Increase the number of hypotheses",
+      "زيادة عدد الفرضيات"
+     ],
+     [
+      "Ensure that all results support the researcher’s prediction",
+      "ضمان أن كل النتائج تؤيّد توقّع الباحث"
+     ],
+     [
+      "Keep external variables constant or account for them",
+      "تثبيت المتغيّرات الخارجية أو أخذها بالحسبان"
+     ],
+     [
+      "Replace replication",
+      "الاستغناء عن التكرار"
+     ],
+     [
+      "Prevent the measurement of outcomes",
+      "منع قياس النتائج"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "What is randomization in experimental design:",
+    "ar": "ما العشوائية في التصميم التجريبي:",
+    "options": [
+     [
+      "Choosing participants based on the expected result",
+      "اختيار المشاركين بحسب النتيجة المتوقّعة"
+     ],
+     [
+      "Assigning all participants to the same group",
+      "وضع كل المشاركين في مجموعة واحدة"
+     ],
+     [
+      "Repeating a study with the same participants only",
+      "إعادة الدراسة على المشاركين أنفسهم فقط"
+     ],
+     [
+      "Randomly assigning subjects to groups to reduce selection bias",
+      "توزيع الأفراد عشوائيًا على المجموعات لتقليل تحيّز الاختيار"
+     ],
+     [
+      "Changing procedures during the study",
+      "تغيير الإجراءات أثناء الدراسة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Why is replication used:",
+    "ar": "لماذا يُستعمل التكرار:",
+    "options": [
+     [
+      "To check that findings are reliable and not due to chance",
+      "للتحقّق من أن النتائج موثوقة وليست بالصدفة"
+     ],
+     [
+      "To reduce the amount of data collected",
+      "لتقليل كمية البيانات المجموعة"
+     ],
+     [
+      "To make the hypothesis impossible to reject",
+      "لجعل رفض الفرضية مستحيلًا"
+     ],
+     [
+      "To replace data analysis",
+      "للاستغناء عن تحليل البيانات"
+     ],
+     [
+      "To eliminate the need for controls",
+      "لإلغاء الحاجة إلى الضبط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "What is the purpose of grouping similar experimental units:",
+    "ar": "ما الغرض من تجميع الوحدات التجريبية المتشابهة:",
+    "options": [
+     [
+      "To increase selection bias",
+      "زيادة تحيّز الاختيار"
+     ],
+     [
+      "To reduce the effects of known confounding variables",
+      "تقليل آثار المتغيّرات المُربِكة المعروفة"
+     ],
+     [
+      "To avoid measuring outcomes",
+      "تجنّب قياس النتائج"
+     ],
+     [
+      "To remove the control group",
+      "إلغاء المجموعة الضابطة"
+     ],
+     [
+      "To ensure every unit receives a different procedure",
+      "ضمان أن كل وحدة تتلقّى إجراءً مختلفًا"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Why should a researcher pilot and refine a plan:",
+    "ar": "لماذا ينبغي للباحث تجريب الخطّة أوليًا وتحسينها:",
+    "options": [
+     [
+      "To produce the final results before the main study",
+      "لإنتاج النتائج النهائية قبل الدراسة الرئيسية"
+     ],
+     [
+      "To avoid following consistent procedures",
+      "لتجنّب اتّباع إجراءات ثابتة"
+     ],
+     [
+      "To replace the literature review",
+      "للاستغناء عن مراجعة الأدبيات"
+     ],
+     [
+      "To identify practical problems on a small scale",
+      "لكشف المشكلات العملية على نطاق صغير"
+     ],
+     [
+      "To guarantee that the hypothesis is correct",
+      "لضمان صحّة الفرضية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Pprimary data can be collected through:",
+    "ar": "يمكن جمع البيانات الأولية عبر:",
+    "options": [
+     [
+      "Books or conference proceedings only",
+      "الكتب أو وقائع المؤتمرات فقط"
+     ],
+     [
+      "Experiments or surveys",
+      "التجارب أو المسوح"
+     ],
+     [
+      "Statistical inference only",
+      "الاستدلال الإحصائي فقط"
+     ],
+     [
+      "The final report",
+      "التقرير النهائي"
+     ],
+     [
+      "Generalizations and interpretation",
+      "التعميمات والتفسير"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Why is careful execution of a research project important:",
+    "ar": "لماذا التنفيذ الدقيق لمشروع البحث مهم:",
+    "options": [
+     [
+      "It removes the need for a research design",
+      "يُغني عن تصميم البحث"
+     ],
+     [
+      "It guarantees that no unexpected factors occur",
+      "يضمن عدم حدوث عوامل غير متوقّعة"
+     ],
+     [
+      "It helps ensure the collected data are adequate and dependable",
+      "يساعد على أن تكون البيانات المجموعة كافية وموثوقة"
+     ],
+     [
+      "It replaces hypothesis testing",
+      "يُغني عن اختبار الفرضية"
+     ],
+     [
+      "It eliminates the need for analysis",
+      "يُلغي الحاجة إلى التحليل"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "During project execution, the researcher should watch for:",
+    "ar": "أثناء تنفيذ المشروع ينبغي للباحث مراقبة:",
+    "options": [
+     [
+      "Only factors that support the hypothesis",
+      "العوامل المؤيّدة للفرضية فقط"
+     ],
+     [
+      "Unexpected factors that may affect the study",
+      "العوامل غير المتوقّعة التي قد تؤثّر في الدراسة"
+     ],
+     [
+      "Ways to remove all data that conflict with expectations",
+      "طرق حذف كل البيانات المخالفة للتوقّعات"
+     ],
+     [
+      "Opportunities to skip planned procedures",
+      "فرص تخطّي الإجراءات المخطّطة"
+     ],
+     [
+      "Changes to the report’s title",
+      "تغييرات عنوان التقرير"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "What is data analysis:",
+    "ar": "ما تحليل البيانات:",
+    "options": [
+     [
+      "Randomly assigning participants",
+      "توزيع المشاركين عشوائيًا"
+     ],
+     [
+      "Developing the initial research problem",
+      "وضع مشكلة البحث الأولية"
+     ],
+     [
+      "Writing acknowledgements",
+      "كتابة الشكر والتقدير"
+     ],
+     [
+      "Coding raw data and organizing it into categories",
+      "ترميز البيانات الخام وتنظيمها في فئات"
+     ],
+     [
+      "Selecting a working hypothesis after reporting results",
+      "اختيار فرضية عاملة بعد نشر النتائج"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "What may follow the coding of data during analysis:",
+    "ar": "ما الذي قد يلي ترميز البيانات أثناء التحليل:",
+    "options": [
+     [
+      "Formulating the research problem",
+      "صياغة مشكلة البحث"
+     ],
+     [
+      "Tabulation and statistical inference",
+      "الجدولة والاستدلال الإحصائي"
+     ],
+     [
+      "Collecting primary data",
+      "جمع البيانات الأولية"
+     ],
+     [
+      "Preparing the preliminary pages",
+      "إعداد الصفحات التمهيدية"
+     ],
+     [
+      "Conducting the literature survey",
+      "إجراء مسح الأدبيات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "When does hypothesis testing generally take place:",
+    "ar": "متى يجري اختبار الفرضية عادةً:",
+    "options": [
+     [
+      "Before formulating a research problem",
+      "قبل صياغة مشكلة البحث"
+     ],
+     [
+      "Before collecting any data",
+      "قبل جمع أي بيانات"
+     ],
+     [
+      "After analyzing the data",
+      "بعد تحليل البيانات"
+     ],
+     [
+      "After publishing the report",
+      "بعد نشر التقرير"
+     ],
+     [
+      "Instead of interpreting results",
+      "بدلًا من تفسير النتائج"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "What may happen when a researcher tests a hypothesis:",
+    "ar": "ما الذي قد يحدث حين يختبر الباحث فرضية:",
+    "options": [
+     [
+      "The hypothesis must always be accepted",
+      "يجب قبول الفرضية دائمًا"
+     ],
+     [
+      "The hypothesis must always be revised",
+      "يجب تعديل الفرضية دائمًا"
+     ],
+     [
+      "The researcher no longer needs to interpret findings",
+      "لا يعود الباحث بحاجة إلى تفسير النتائج"
+     ],
+     [
+      "The research problem is automatically removed",
+      "تُحذف مشكلة البحث تلقائيًا"
+     ],
+     [
+      "The evidence may support or contradict the hypothesis",
+      "قد تؤيّد الأدلّة الفرضية أو تخالفها"
+     ]
+    ],
+    "answer": "e"
+   },
+   {
+    "en": "Successful tested hypothesis may lead to:",
+    "ar": "الفرضية التي اختُبرت بنجاح قد تؤدّي إلى:",
+    "options": [
+     [
+      "A survey instrument",
+      "أداة مسح"
+     ],
+     [
+      "A literature review",
+      "مراجعة أدبيات"
+     ],
+     [
+      "A generalization or theory",
+      "تعميم أو نظرية"
+     ],
+     [
+      "A control group",
+      "مجموعة ضابطة"
+     ],
+     [
+      "A report index",
+      "فهرس تقرير"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "If a researcher began without a hypothesis, what might they do after analyzing the data:",
+    "ar": "إذا بدأ الباحث بلا فرضية، ماذا قد يفعل بعد تحليل البيانات:",
+    "options": [
+     [
+      "Discard the findings",
+      "يتخلّص من النتائج"
+     ],
+     [
+      "State generalizations based on the data",
+      "يذكر تعميمات مبنية على البيانات"
+     ],
+     [
+      "Randomize the literature sources",
+      "يجعل مصادر الأدبيات عشوائية"
+     ],
+     [
+      "Repeat the research design step only",
+      "يعيد خطوة تصميم البحث فقط"
+     ],
+     [
+      "Skip the report",
+      "يتخطّى التقرير"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "What is interpretation in the research process:",
+    "ar": "ما التفسير في عملية البحث:",
+    "options": [
+     [
+      "Explaining findings on the basis of a theory",
+      "تفسير النتائج على أساس نظرية"
+     ],
+     [
+      "A way to collect primary data",
+      "طريقة لجمع البيانات الأولية"
+     ],
+     [
+      "A method for assigning participants to groups",
+      "طريقة لتوزيع المشاركين على المجموعات"
+     ],
+     [
+      "A type of literature source",
+      "نوع من مصادر الأدبيات"
+     ],
+     [
+      "A preliminary report page",
+      "صفحة تمهيدية في التقرير"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which section is listed as part of the main text of a research report:",
+    "ar": "أيّ قسم مذكور ضمن متن تقرير البحث:",
+    "options": [
+     [
+      "Acknowledgements",
+      "الشكر والتقدير"
+     ],
+     [
+      "Index",
+      "الفهرس"
+     ],
+     [
+      "Forward",
+      "التمهيد"
+     ],
+     [
+      "Methodology (Materials and Methods)",
+      "المنهجية (المواد وطرائق العمل)"
+     ],
+     [
+      "Pictures only",
+      "الصور فقط"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "BIOS questions",
+    "topic_ar": "أسئلة BIOS"
+   },
+   {
+    "en": "How many steps are listed in the research process in this lecture?",
+    "ar": "كم خطوة مذكورة لعملية البحث في هذه المحاضرة؟",
+    "options": [
+     [
+      "5",
+      "5"
+     ],
+     [
+      "11",
+      "11"
+     ],
+     [
+      "7",
+      "7"
+     ],
+     [
+      "9",
+      "9"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The last step of the research process is:",
+    "ar": "الخطوة الأخيرة في عملية البحث:",
+    "options": [
+     [
+      "Preparing the report",
+      "إعداد التقرير"
+     ],
+     [
+      "Hypothesis testing",
+      "اختبار الفرضية"
+     ],
+     [
+      "Analysis of data",
+      "تحليل البيانات"
+     ],
+     [
+      "Literature survey",
+      "مسح الأدبيات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "A working hypothesis is stated:",
+    "ar": "تُصاغ الفرضية العاملة:",
+    "options": [
+     [
+      "Before formulating the problem",
+      "قبل صياغة المشكلة"
+     ],
+     [
+      "After data analysis",
+      "بعد تحليل البيانات"
+     ],
+     [
+      "After the extensive literature survey",
+      "بعد المسح الواسع للأدبيات"
+     ],
+     [
+      "After the report",
+      "بعد التقرير"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Reviewing laboratory records, categorizing rejection reasons and summarizing them with counts and percentages is an example of:",
+    "ar": "مراجعة السجلّات المختبرية وتصنيف أسباب الرفض وتلخيصها بالأعداد والنسب مثال على:",
+    "options": [
+     [
+      "Hypothesis testing",
+      "اختبار الفرضية"
+     ],
+     [
+      "Generalization",
+      "التعميم"
+     ],
+     [
+      "Literature survey",
+      "مسح الأدبيات"
+     ],
+     [
+      "Preparing a research design",
+      "إعداد تصميم البحث"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Repeating the experiment across multiple subjects or trials is:",
+    "ar": "إعادة التجربة على أفراد أو محاولات متعدّدة:",
+    "options": [
+     [
+      "Control",
+      "الضبط"
+     ],
+     [
+      "Randomization",
+      "العشوائية"
+     ],
+     [
+      "Replication",
+      "التكرار"
+     ],
+     [
+      "Grouping",
+      "التجميع"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Data collection methods differ considerably in:",
+    "ar": "تختلف طرق جمع البيانات كثيرًا في:",
+    "options": [
+     [
+      "Cost, time and other resources",
+      "الكلفة والوقت والموارد الأخرى"
+     ],
+     [
+      "Hypothesis wording",
+      "صياغة الفرضية"
+     ],
+     [
+      "Report title",
+      "عنوان التقرير"
+     ],
+     [
+      "Number of references",
+      "عدد المصادر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Relationships supporting or conflicting with the hypothesis should be subjected to:",
+    "ar": "العلاقات المؤيّدة للفرضية أو المعارضة لها ينبغي إخضاعها لـ:",
+    "options": [
+     [
+      "A literature survey",
+      "مسح أدبيات"
+     ],
+     [
+      "A pilot study",
+      "دراسة أولية"
+     ],
+     [
+      "Randomization",
+      "العشوائية"
+     ],
+     [
+      "Tests of significance",
+      "اختبارات الدلالة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The real value of research lies in its ability to arrive at:",
+    "ar": "تكمن القيمة الحقيقية للبحث في قدرته على الوصول إلى:",
+    "options": [
+     [
+      "A long report",
+      "تقرير طويل"
+     ],
+     [
+      "Certain generalizations",
+      "تعميمات معيّنة"
+     ],
+     [
+      "Expensive equipment",
+      "أجهزة غالية"
+     ],
+     [
+      "More hypotheses",
+      "فرضيات أكثر"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which belongs to the preliminary pages of a report?",
+    "ar": "أيّها من الصفحات التمهيدية للتقرير؟",
+    "options": [
+     [
+      "Results",
+      "النتائج"
+     ],
+     [
+      "Acknowledgements",
+      "الشكر والتقدير"
+     ],
+     [
+      "Discussion",
+      "المناقشة"
+     ],
+     [
+      "Abstract",
+      "الخلاصة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Comparing two laboratory testing methods on the same samples with consistent procedures is an example of:",
+    "ar": "مقارنة طريقتين للفحص المختبري على العيّنات نفسها بإجراءات ثابتة مثال على:",
+    "options": [
+     [
+      "Interpretation",
+      "التفسير"
+     ],
+     [
+      "Report writing",
+      "كتابة التقرير"
+     ],
+     [
+      "Literature survey",
+      "مسح الأدبيات"
+     ],
+     [
+      "Determining experimental design",
+      "تحديد التصميم التجريبي"
+     ]
+    ],
+    "answer": "d"
+   }
+  ],
+  "tf": [
+   {
+    "en": "The research process consists of a series of steps necessary to carry out research effectively.",
+    "ar": "تتكوّن عملية البحث من سلسلة خطوات لازمة لتنفيذ البحث بفاعلية.",
+    "answer": "T"
+   },
+   {
+    "en": "The extensive literature survey is done before formulating the research problem.",
+    "ar": "يُجرى المسح الواسع للأدبيات قبل صياغة مشكلة البحث.",
+    "answer": "F"
+   },
+   {
+    "en": "Conference proceedings are a source of literature.",
+    "ar": "وقائع المؤتمرات مصدر من مصادر الأدبيات.",
+    "answer": "T"
+   },
+   {
+    "en": "A working hypothesis is a final conclusion that cannot be changed.",
+    "ar": "الفرضية العاملة استنتاج نهائي لا يمكن تغييره.",
+    "answer": "F"
+   },
+   {
+    "en": "A research design may use quantitative, qualitative or mixed methods.",
+    "ar": "قد يستعمل تصميم البحث منهجًا كمّيًا أو نوعيًا أو مختلطًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Randomization is used to eliminate selection bias.",
+    "ar": "تُستعمل العشوائية لإزالة تحيّز الاختيار.",
+    "answer": "T"
+   },
+   {
+    "en": "Replication makes findings depend on random chance.",
+    "ar": "التكرار يجعل النتائج معتمدة على الصدفة.",
+    "answer": "F"
+   },
+   {
+    "en": "A pilot study tries the procedure on a small scale before the main study.",
+    "ar": "الدراسة الأولية تجرّب الإجراء على نطاق صغير قبل الدراسة الرئيسية.",
+    "answer": "T"
+   },
+   {
+    "en": "Primary data can be collected through experiment or survey.",
+    "ar": "يمكن جمع البيانات الأولية بالتجربة أو بالمسح.",
+    "answer": "T"
+   },
+   {
+    "en": "Hypothesis testing takes place before data analysis.",
+    "ar": "يجري اختبار الفرضية قبل تحليل البيانات.",
+    "answer": "F"
+   },
+   {
+    "en": "Hypothesis testing results in either accepting or rejecting the hypothesis.",
+    "ar": "ينتهي اختبار الفرضية إمّا بقبولها أو رفضها.",
+    "answer": "T"
+   },
+   {
+    "en": "Explaining findings on the basis of a theory is called interpretation.",
+    "ar": "تفسير النتائج على أساس نظرية يُسمّى التفسير.",
+    "answer": "T"
+   },
+   {
+    "en": "Index is part of the main text of the report.",
+    "ar": "الفهرس جزء من متن التقرير.",
+    "answer": "F"
+   },
+   {
+    "en": "Grouping similar experimental units reduces the impact of known confounding variables.",
+    "ar": "تجميع الوحدات التجريبية المتشابهة يقلّل أثر المتغيّرات المُربِكة المعروفة.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Steps 4 and 5",
+    "ar": "الخطوتان 4 و5",
+    "answer_en": "Step 4 = research design (the whole plan: approach, samples, data, privacy). Step 5 = experimental design (controlled test: groups, outcome, bias).",
+    "answer_ar": "الخطوة 4 = تصميم البحث (الخطّة كلها: المنهج والعيّنات والبيانات والخصوصية). الخطوة 5 = التصميم التجريبي (اختبار مضبوط: مجموعات ونتيجة وتحيّز)."
+   },
+   {
+    "en": "When is the hypothesis written and tested?",
+    "ar": "متى تُكتب الفرضية ومتى تُختبر؟",
+    "answer_en": "Written in step 3 (after the literature survey); tested in step 9 (after data analysis).",
+    "answer_ar": "تُكتب في الخطوة 3 (بعد مسح الأدبيات)؛ وتُختبر في الخطوة 9 (بعد تحليل البيانات)."
+   },
+   {
+    "en": "Randomization vs replication",
+    "ar": "العشوائية مقابل التكرار",
+    "answer_en": "Randomization = random assignment → removes selection bias. Replication = repeating → findings reliable, not by chance.",
+    "answer_ar": "العشوائية = توزيع عشوائي ← يزيل تحيّز الاختيار. التكرار = الإعادة ← نتائج موثوقة لا بالصدفة."
+   },
+   {
+    "en": "Control vs grouping",
+    "ar": "الضبط مقابل التجميع",
+    "answer_en": "Control keeps extraneous variables constant; grouping puts similar units together to reduce KNOWN confounders.",
+    "answer_ar": "الضبط يثبّت المتغيّرات الدخيلة؛ والتجميع يجمع الوحدات المتشابهة لتقليل المتغيّرات المُربِكة المعروفة."
+   },
+   {
+    "en": "Generalization vs interpretation",
+    "ar": "التعميم مقابل التفسير",
+    "answer_en": "Generalization: hypothesis upheld several times → theory. Interpretation: NO hypothesis → explain findings by a theory.",
+    "answer_ar": "التعميم: فرضية تأكّدت مرّات عدّة ← نظرية. التفسير: لا فرضية ← تفسير النتائج بنظرية."
+   },
+   {
+    "en": "Preliminary pages vs main text",
+    "ar": "الصفحات التمهيدية مقابل المتن",
+    "answer_en": "Acknowledgements, foreword and index are PRELIMINARY pages — not the main text (which has abstract, methodology, results…).",
+    "answer_ar": "الشكر والتمهيد والفهرس صفحات تمهيدية — وليست من المتن (الذي فيه الخلاصة والمنهجية والنتائج…)."
+   },
+   {
+    "en": "No hypothesis",
+    "ar": "بلا فرضية",
+    "answer_en": "Without a hypothesis the researcher states generalizations from the data / explains findings by a theory — he does not discard the findings.",
+    "answer_ar": "بلا فرضية يذكر الباحث تعميمات من البيانات / يفسّر النتائج بنظرية — ولا يتخلّص من النتائج."
+   }
+  ],
+  "important": [
+   {
+    "en": "List the steps of the research process.",
+    "ar": "عدّد خطوات عملية البحث.",
+    "answer_en": "1. Formulating the research problem 2. Extensive literature survey 3. Developing the hypothesis 4. Preparing the research design 5. Determining the (experimental) design 6. Collecting the data 7. Execution of the project 8. Analysis of data 9. Hypothesis testing 10. Generalization and interpretation 11. Preparing the report.",
+    "answer_ar": "1. صياغة المشكلة 2. المسح الواسع للأدبيات 3. وضع الفرضية 4. إعداد تصميم البحث 5. تحديد التصميم (التجريبي) 6. جمع البيانات 7. تنفيذ المشروع 8. تحليل البيانات 9. اختبار الفرضية 10. التعميم والتفسير 11. إعداد التقرير."
+   },
+   {
+    "en": "Define research problem and working hypothesis.",
+    "ar": "عرّف مشكلة البحث والفرضية العاملة.",
+    "answer_en": "Research problem: a specific issue within the field that you can investigate. Working hypothesis: a tentative assumption made to draw out and test its logical or empirical consequences; it provides the focal point for research.",
+    "answer_ar": "مشكلة البحث: قضية محدّدة في المجال يمكن دراستها. الفرضية العاملة: افتراض مؤقّت يُوضع لاستخلاص نتائجه المنطقية أو التجريبية واختبارها؛ وتوفّر النقطة المحورية للبحث."
+   },
+   {
+    "en": "Where can literature of interest be obtained?",
+    "ar": "من أين تُحصل الأدبيات المطلوبة؟",
+    "answer_en": "Academic journals, conference proceedings, scientific reports and books, depending on the nature of the research problem.",
+    "answer_ar": "من المجلات الأكاديمية، ووقائع المؤتمرات، والتقارير العلمية، والكتب، بحسب طبيعة مشكلة البحث."
+   },
+   {
+    "en": "What does preparing a research design involve?",
+    "ar": "ماذا يتضمّن إعداد تصميم البحث؟",
+    "answer_en": "A clear plan to answer the research question: choose the approach (quantitative, qualitative or mixed), then decide the samples/records/participants, how data will be collected and analyzed, and how privacy, safety and research quality are protected.",
+    "answer_ar": "خطّة واضحة للإجابة عن سؤال البحث: اختيار المنهج (كمّي أو نوعي أو مختلط)، ثم تحديد العيّنات/السجلّات/المشاركين، وطريقة جمع البيانات وتحليلها، وحماية الخصوصية والسلامة وجودة البحث."
+   },
+   {
+    "en": "Explain the four key principles of experimental design.",
+    "ar": "اشرح المبادئ الأربعة الأساسية للتصميم التجريبي.",
+    "answer_en": "Control: keep extraneous variables constant. Randomization: random assignment to groups to eliminate selection bias. Replication: repeat across subjects/trials so findings are reliable and not by chance. Grouping: group similar units to reduce known confounding variables.",
+    "answer_ar": "الضبط: تثبيت المتغيّرات الدخيلة. العشوائية: توزيع عشوائي على المجموعات لإزالة تحيّز الاختيار. التكرار: الإعادة على أفراد/محاولات لتكون النتائج موثوقة لا بالصدفة. التجميع: جمع الوحدات المتشابهة لتقليل المتغيّرات المُربِكة المعروفة."
+   },
+   {
+    "en": "What operations does the analysis of data require?",
+    "ar": "ما العمليات التي يتطلّبها تحليل البيانات؟",
+    "answer_en": "Establishment of categories, applying them to raw data through coding and tabulation, then drawing statistical inference; relationships are subjected to tests of significance.",
+    "answer_ar": "إنشاء الفئات، وتطبيقها على البيانات الخام بالترميز والجدولة، ثم الاستدلال الإحصائي؛ وتُخضع العلاقات لاختبارات الدلالة."
+   },
+   {
+    "en": "Differentiate between generalization and interpretation.",
+    "ar": "فرّق بين التعميم والتفسير.",
+    "answer_en": "Generalization: when a hypothesis is tested and upheld several times the researcher may build a theory. Interpretation: when there was no hypothesis, findings are explained on the basis of some theory.",
+    "answer_ar": "التعميم: حين تُختبر الفرضية وتتأكّد مرّات عدّة قد يبني الباحث نظرية. التفسير: حين لا توجد فرضية تُفسَّر النتائج على أساس نظرية ما."
+   },
+   {
+    "en": "What are the parts of a research report?",
+    "ar": "ما أجزاء تقرير البحث؟",
+    "answer_en": "Preliminary pages: title, acknowledgements, foreword, index. Main text: title, name of author(s), address, abstract, introduction, review of literature, methodology (materials and methods), results, discussion and references.",
+    "answer_ar": "الصفحات التمهيدية: العنوان، والشكر والتقدير، والتمهيد، والفهرس. المتن: العنوان، واسم المؤلّف، والعنوان البريدي، والخلاصة، والمقدّمة، ومراجعة الأدبيات، والمنهجية (المواد وطرائق العمل)، والنتائج، والمناقشة، والمصادر."
+   }
+  ]
+ }
+}

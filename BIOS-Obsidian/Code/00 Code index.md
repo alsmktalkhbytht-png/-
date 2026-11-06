@@ -114,6 +114,7 @@
 - [[Code/pl4 - pl4q.py|pl4/pl4q.py]] → parasitology-lab4-nonpathogenic-amoebae
 - [[Code/pl5 - pl5q.py|pl5/pl5q.py]] → parasitology-lab5-flagellates-giardia
 - [[Code/res - make.py|res/make.py]] → research-lec1-principles
+- [[Code/res4 - r4.py|res4/r4.py]] → research-methods-lec4-process
 - [[Code/ria - l3.py|ria/l3.py]] → advtech-lec3-ria
 - [[Code/sol - l4.py|sol/l4.py]] → parasitology-lab4-solutions
 - [[Code/tb - turb.py|tb/turb.py]] → hematology-practical-turbidimetry

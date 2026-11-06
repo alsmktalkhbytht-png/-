@@ -77,18 +77,19 @@ def paragraphs(text):
     out, cur = [], []
     for line in text.splitlines():
         t = re.sub(r"[\ue000-\uf8ff]", " ", line).strip()
-        starts = re.match(r"^(\d{1,2}[.)-]|[•oO▪§]\s|[A-Z][a-z]+( [a-z]+)*:$)", t)
+        starts = re.match(r"^(\d{1,2}[.)-]|[a-z][.)]?\s|[•oO▪§\-–]\s|[A-Z][a-z]+( [a-z]+)*:$)", t)
         short_prev = cur and len(cur[-1].split()) <= 5 and not re.search(r"[.,;:?]$", cur[-1])   # a title line
         if not t or re.fullmatch(r"\d{1,3}", t) or (starts and cur) or short_prev:
             if cur: out.append(" ".join(cur)); cur = []
             if not t or re.fullmatch(r"\d{1,3}", t): continue
-        cur.append(re.sub(r"^[•oO▪§]\s+", "", t))
+        cur.append(re.sub(r"^([•oO▪§\-–]|[a-z][.)]?)\s+", "", t))
     if cur: out.append(" ".join(cur))
     return out
 miss = []
 for para in paragraphs(src):
-    for sent in re.split(r"(?<=[.?!:])\s+(?=[A-Z(])|(?<=[a-z] [.?!])(?=[A-Z][a-z])|(?<=[a-z][.?!])(?=[A-Z][a-z])|\s+(?=[A-E]\.\s)|\s+(?=\(\d{1,2}\)\s)", para):
-        sent = re.sub(r"^([A-E]\.|\(\d{1,2}\))\s+", "", sent)
+    for sent in re.split(r"(?<=[.?!:])\s+(?=[A-Z(])|(?<=[a-z] [.?!])(?=[A-Z][a-z])|(?<=[a-z][.?!])(?=[A-Z][a-z])|\s+(?=[A-Ea-e]\.\s)|\s+(?=\(\d{1,2}\)\s)", para):
+        sent = re.sub(r"^([A-Ea-e]\.|\(\d{1,2}\))\s+", "", sent)
+        sent = re.sub(r"\s+[a-e]\.?$", "", sent)                         # trailing list letter of the next item
         n = norm(sent)
         n2 = re.sub(r"\s+[tf]$", "", n)                                   # TF key letter after the statement
         heading = len(n.split()) <= 6 and not re.search(r"[.?]", n)          # titles are rewritten as section bars
