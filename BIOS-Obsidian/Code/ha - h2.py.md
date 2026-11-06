@@ -1,12 +1,14 @@
 ---
 source: BIOS-Obsidian/tools/scripts/ha/h2.py
-handouts: []
+handouts: [nursing-ha-lec2-eye]
 saved: 2026-11-06
 tags: [bios, code]
 ---
 # ha/h2.py
 
-Utility script.
+Generator script — writes the handout's `lecture.json`.
+
+Handouts: [[06 فهرس الملازم#nursing-ha-lec2-eye|nursing-ha-lec2-eye]]
 
 ```python
 import sys; sys.path.insert(0, "/tmp/claude-0/-home-claude/4a281dcf-357b-50ce-b2f4-8802cfcc6472/scratchpad/ha")

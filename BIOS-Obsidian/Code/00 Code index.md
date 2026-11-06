@@ -38,6 +38,11 @@
 - [[Code/gen2 - g2q.py|gen2/g2q.py]] → genetics-lec2-mitosis
 - [[Code/gh - ghq.py|gh/ghq.py]] → endocrine-lab3-growth-hormone
 - [[Code/gt2 - gt2.py|gt2/gt2.py]] → genetics-lec2-meiosis
+- [[Code/ha - h1.py|ha/h1.py]] → nursing-ha-lec1-head-neck
+- [[Code/ha - h2.py|ha/h2.py]] → nursing-ha-lec2-eye
+- [[Code/ha - h3.py|ha/h3.py]] → nursing-ha-lec3-ear
+- [[Code/ha - h4.py|ha/h4.py]] → nursing-ha-lec4-lung-thorax
+- [[Code/ha - h5.py|ha/h5.py]] → nursing-ha-lec5-heart
 - [[Code/hb4 - hbq.py|hb4/hbq.py]] → hematology-practical-hb-estimation
 - [[Code/heal - l4.py|heal/l4.py]] → histopathology-lec4-healing-regeneration
 - [[Code/heal2 - h4q.py|heal2/h4q.py]] → histopathology-lec4-healing-regeneration
@@ -133,11 +138,6 @@
 - [[Code/gh - gh.py|gh/gh.py]]
 - [[Code/ha - common_ha.py|ha/common_ha.py]]
 - [[Code/ha - cs.py|ha/cs.py]]
-- [[Code/ha - h1.py|ha/h1.py]]
-- [[Code/ha - h2.py|ha/h2.py]]
-- [[Code/ha - h3.py|ha/h3.py]]
-- [[Code/ha - h4.py|ha/h4.py]]
-- [[Code/ha - h5.py|ha/h5.py]]
 - [[Code/ha - src - dump.py|ha/src/dump.py]]
 - [[Code/hb4 - hb.py|hb4/hb.py]]
 - [[Code/heal2 - h4.py|heal2/h4.py]]
