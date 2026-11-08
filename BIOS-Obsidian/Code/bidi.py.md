@@ -21,8 +21,9 @@ Runs already inside backticks are left alone. Plain single numbers are not wrapp
 """
 import re
 
-_RUN = re.compile(r"[A-Za-z0-9½¼¾(][A-Za-z0-9½¼¾ ×:/=+_.()%,'-]*[A-Za-z0-9½¼¾)%]|[A-Za-z]")
-_NEEDS = re.compile(r"[A-Za-z×=:/]")
+_SUP = "⁰¹²³⁴⁵⁶⁷⁸⁹⁻"                                 # powers of ten: 10⁵, 10⁻³ must stay LTR too
+_RUN = re.compile(r"[A-Za-z0-9½¼¾(][A-Za-z0-9½¼¾%s ×:/=+_.()%%,'-]*[A-Za-z0-9½¼¾%s)%%]|[A-Za-z]" % (_SUP, _SUP))
+_NEEDS = re.compile(r"[A-Za-z×=:/%s]" % _SUP)
 
 
 def _wrap(seg):
