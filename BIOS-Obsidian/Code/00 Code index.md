@@ -81,6 +81,7 @@
 - [[Code/im2 - l2.py|im2/l2.py]] → immunology-lec2-cells-organs
 - [[Code/im3 - l3.py|im3/l3.py]] → immunology-lec3-antigens
 - [[Code/im4 - i4q.py|im4/i4q.py]] → immunology-lec4-immunoglobulins
+- [[Code/im4b - qb.py|im4b/qb.py]] → immunology-lec4-immunoglobulins, immunology-lec4-mcq
 - [[Code/iml3 - l3q.py|iml3/l3q.py]] → immunology-lab3-antigen-preparation
 - [[Code/iml4 - l4.py|iml4/l4.py]] → immunology-lab4-immunization-heart-puncture
 - [[Code/iml5 - l5.py|iml5/l5.py]] → immunology-lab5-natural-antibodies
@@ -170,6 +171,7 @@
 - [[Code/imm456 - ci5_blocks.py|imm456/ci5_blocks.py]]
 - [[Code/imm456 - ci6_ar.py|imm456/ci6_ar.py]]
 - [[Code/ins - ins.py|ins/ins.py]]
+- [[Code/merge - merge.py|merge/merge.py]]
 - [[Code/par2 - ps2.py|par2/ps2.py]]
 - [[Code/par2 - ps3.py|par2/ps3.py]]
 - [[Code/par2 - ps4.py|par2/ps4.py]]
