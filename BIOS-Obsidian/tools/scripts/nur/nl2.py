@@ -1,4 +1,4 @@
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user/ebd718de-5339-5b98-9782-8a5888247f2a/scratchpad/nur")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user--/67d83c9a-7b0e-5ae5-b52b-cd659ab074ab/scratchpad/nur")
 from common_nur import *
 
 blocks = [
@@ -374,4 +374,4 @@ meta = NUR(2, "Pediatric Physical Assessment", "التقييم البدني لل
 meta["instructor"] = "م.م. عقيل سعد نايف"
 save("nursing-ped-lec2-physical-assessment", meta, blocks, mcq, tf, traps, important)
 
-sys.path.insert(0, "/tmp/claude-0/-home-user/ebd718de-5339-5b98-9782-8a5888247f2a/scratchpad"); from flowfit import fit; fit("nursing-ped-lec2-physical-assessment")   # no big gaps (fill2 >= 80%)
+sys.path.insert(0, "/tmp/claude-0/-home-user--/67d83c9a-7b0e-5ae5-b52b-cd659ab074ab/scratchpad"); from flowfit import fit; fit("nursing-ped-lec2-physical-assessment")   # no big gaps (fill2 >= 80%)

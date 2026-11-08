@@ -12,9 +12,9 @@ Handouts: [[06 فهرس الملازم#immunology-lec4-immunoglobulins|immunolog
 
 ```python
 import sys, json, os, shutil, copy
-sys.path.insert(0, "/tmp/claude-0/-home-user/ebd718de-5339-5b98-9782-8a5888247f2a/scratchpad/imm456")
+sys.path.insert(0, "/tmp/claude-0/-home-user--/67d83c9a-7b0e-5ae5-b52b-cd659ab074ab/scratchpad/imm456")
 from ci import *            # Q TF TR IM P balance
-sys.path.insert(0, "/tmp/claude-0/-home-user/ebd718de-5339-5b98-9782-8a5888247f2a/scratchpad"); from bidi import ltr_all
+sys.path.insert(0, "/tmp/claude-0/-home-user--/67d83c9a-7b0e-5ae5-b52b-cd659ab074ab/scratchpad"); from bidi import ltr_all
 
 # Immunology theory lecture 4 (stage 3, د. أحمد داود) — QUESTIONS ONLY, comprehensive bank (user 2026-11-08).
 # The user re-sent Lec._4_immunogloblin.pptx: every word of it is already in immunology-lec4-immunoglobulins/lecture.json

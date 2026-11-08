@@ -10,7 +10,7 @@ Parasitology theory meta + SAVE() for handouts without questions.
 
 ```python
 import sys, json, os
-sys.path.insert(0, "/tmp/claude-0/-home-user/ebd718de-5339-5b98-9782-8a5888247f2a/scratchpad/imm456")
+sys.path.insert(0, "/tmp/claude-0/-home-user--/67d83c9a-7b0e-5ae5-b52b-cd659ab074ab/scratchpad/imm456")
 from ci import C, R, SEC, H2, L, N, FLOW, T, F, FF, B, END, split
 ORD = {2: "الثاني", 3: "الثالث", 4: "الرابع", 5: "الخامس"}
 def META(w, title_en, title_ar):

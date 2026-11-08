@@ -80,7 +80,7 @@ meta = {"subject_en": "Histopathology", "subject_ar": "علم الأمراض ا�
         "unit_en": "Lab 3", "unit_ar": "العملي 3", "unit_label": "LAB", "unit_no": "3",
         "title_en": "Tissue processing", "title_ar": "تحضير (معالجة) النسيج",
         "kind": "Laboratories — عملي", "stage": "The third stage — الثالثة"}
-sys.path.insert(0, "/tmp/claude-0/-home-user/ebd718de-5339-5b98-9782-8a5888247f2a/scratchpad"); from bidi import ltr_all; from flowfit import fit
+sys.path.insert(0, "/tmp/claude-0/-home-user--/67d83c9a-7b0e-5ae5-b52b-cd659ab074ab/scratchpad"); from bidi import ltr_all; from flowfit import fit
 blocks, mcq, tf, traps, important = ltr_all(blocks), ltr_all(mcq), ltr_all(tf), ltr_all(traps), ltr_all(important)   # formulas inside Arabic stay LTR
 save("histopathology-lab3-tissue-processing", meta, blocks, mcq, tf, traps, important)
 fit("histopathology-lab3-tissue-processing", min_gap=0.08)   # no big gaps (2026-11-06 rebuild)

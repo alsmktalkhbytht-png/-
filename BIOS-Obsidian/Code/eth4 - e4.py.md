@@ -13,7 +13,7 @@ Handouts: [[06 فهرس الملازم#ethics-lec4-cheating|ethics-lec4-cheating
 ```python
 import json, os, random, sys
 from collections import Counter
-sys.path.insert(0, "/tmp/claude-0/-home-user/ebd718de-5339-5b98-9782-8a5888247f2a/scratchpad"); from flowfit import fit
+sys.path.insert(0, "/tmp/claude-0/-home-user--/67d83c9a-7b0e-5ae5-b52b-cd659ab074ab/scratchpad"); from flowfit import fit
 
 # Professional Ethics, lecture 4 — Arabic-only Word PDF (2 pages). Its text layer is in a legacy font encoding (garbled),
 # so the text was read from the page images into eth4/l.txt. Stage 4, د. نور (as the user gave them).

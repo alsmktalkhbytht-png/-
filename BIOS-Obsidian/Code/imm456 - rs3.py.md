@@ -11,7 +11,7 @@ Generator script — writes the handout's `lecture.json`.
 Handouts: [[06 فهرس الملازم#research-lec3-research-plan|research-lec3-research-plan]]
 
 ```python
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user/ebd718de-5339-5b98-9782-8a5888247f2a/scratchpad/imm456")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user--/67d83c9a-7b0e-5ae5-b52b-cd659ab074ab/scratchpad/imm456")
 from ci import *
 
 KEY = lambda en, ar: N(en, ar, label=("Key idea", "الفكرة الأساسية"))

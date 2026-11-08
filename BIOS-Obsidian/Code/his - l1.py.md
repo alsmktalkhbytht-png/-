@@ -11,7 +11,7 @@ Generator script — writes the handout's `lecture.json`.
 Handouts: [[06 فهرس الملازم#histopathology-lab1-lab-safety|histopathology-lab1-lab-safety]]
 
 ```python
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user/ebd718de-5339-5b98-9782-8a5888247f2a/scratchpad/hem3")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user--/67d83c9a-7b0e-5ae5-b52b-cd659ab074ab/scratchpad/hem3")
 from common import C, R, SEC, H2, L, N, FLOW, T, Q, TF, TR
 import json, os
 from collections import Counter

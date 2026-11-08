@@ -120,6 +120,7 @@
 - [[Code/par3 - p3q.py|par3/p3q.py]] → parasitology-week3-theory
 - [[Code/par4 - p4q.py|par4/p4q.py]] → parasitology-week4-theory
 - [[Code/par5 - p5q.py|par5/p5q.py]] → parasitology-week5-theory
+- [[Code/par67 - p67.py|par67/p67.py]] → parasitology-week6-7-theory
 - [[Code/pat - make12.py|pat/make12.py]] → pathology-lec1-2-atelectasis
 - [[Code/pat - make3.py|pat/make3.py]] → pathology-lec3-chronic-bronchitis
 - [[Code/pat4 - p4q.py|pat4/p4q.py]] → pathology-lec4-lung-cancer
