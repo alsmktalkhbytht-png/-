@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/pat7/p7q.py
 handouts: [pathology-lec7-oral-tumors]
-saved: 2026-11-06
+saved: 2026-11-08
 tags: [bios, code]
 ---
 # pat7/p7q.py

@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/thy/thyq.py
 handouts: [endocrine-lab5-thyroid-hormones]
-saved: 2026-11-06
+saved: 2026-11-08
 tags: [bios, code]
 ---
 # thy/thyq.py

@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/hp4/h4.py
 handouts: [histopathology-lab4-microtome]
-saved: 2026-11-06
+saved: 2026-11-08
 tags: [bios, code]
 ---
 # hp4/h4.py

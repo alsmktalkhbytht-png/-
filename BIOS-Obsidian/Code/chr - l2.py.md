@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/chr/l2.py
 handouts: [histopathology-lec2-chronic-inflammation]
-saved: 2026-11-06
+saved: 2026-11-08
 tags: [bios, code]
 ---
 # chr/l2.py

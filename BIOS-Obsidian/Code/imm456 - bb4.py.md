@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/imm456/bb4.py
 handouts: [bloodbank-lec4-screening]
-saved: 2026-11-06
+saved: 2026-11-08
 tags: [bios, code]
 ---
 # imm456/bb4.py

@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/tb/turb.py
 handouts: [hematology-practical-turbidimetry]
-saved: 2026-11-06
+saved: 2026-11-08
 tags: [bios, code]
 ---
 # tb/turb.py

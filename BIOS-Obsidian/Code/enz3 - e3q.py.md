@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/enz3/e3q.py
 handouts: [enzymology-lec3-michaelis-menten-questions]
-saved: 2026-11-06
+saved: 2026-11-08
 tags: [bios, code]
 ---
 # enz3/e3q.py

@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/bac6/b6.py
 handouts: []
-saved: 2026-11-06
+saved: 2026-11-08
 tags: [bios, code]
 ---
 # bac6/b6.py

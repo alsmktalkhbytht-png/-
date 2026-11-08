@@ -1,0 +1,1523 @@
+{
+ "meta": {
+  "subject_en": "Practical Immunology",
+  "subject_ar": "علم المناعة العملي",
+  "short_ar": "مناعة",
+  "instructor": "م.م. جنان خليل",
+  "unit_en": "Lab 4",
+  "unit_ar": "العملي 4",
+  "unit_label": "LAB",
+  "unit_no": "4",
+  "title_en": "Immunization of laboratory animals, Animal heart puncture",
+  "title_ar": "تمنيع حيوانات المختبر وبزل القلب",
+  "department": "تقنيات المختبرات الطبية",
+  "stage": "The third stage — الثالثة",
+  "kind": "Laboratories — عملي"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Animal inoculation",
+   "ar": "تلقيح الحيوانات"
+  },
+  {
+   "t": "note",
+   "en": "Medical Lab. Techniques · Practical Immunology \\3rd stage · Assistant Lecturer \\ Jinan Khaleel · Lab. No.(4)",
+   "ar": "تقنيات المختبرات الطبية · علم المناعة العملي \\ المرحلة الثالثة · المدرّس المساعد \\ جنان خليل · العملي رقم (4)",
+   "label": [
+    "Lab sheet",
+    "ورقة العملي"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "**Immunization of laboratory, Animal heart puncture**",
+   "ar": "**تمنيع حيوانات المختبر، وبزل قلب الحيوان**"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Animal inoculation** : Selection of an animal model is one of the most important step in any of the experimental studies.",
+    "Animal model preferred for the study must be producing similar disease profile as in the human."
+   ],
+   "ar": [
+    "**تلقيح الحيوانات (`Animal inoculation`):** اختيار النموذج الحيواني من أهمّ الخطوات في أيّ دراسة تجريبية.",
+    "والنموذج الحيواني المفضّل للدراسة يجب أن ينتج صورة مرضية مشابهة لما في الإنسان."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Animal model selected should follow three main objectives:**",
+   "ar": "**النموذج الحيواني المختار يجب أن يحقّق ثلاثة أهداف رئيسية:**",
+   "list_en": [
+    "Use of an animal phylogenetically closer to man.",
+    "Use of an animal in which the process under investigation is as close as possible to that in man.",
+    "The Anatomy, Physiology and Biochemistry are considered to be similar."
+   ],
+   "list_ar": [
+    "استعمال حيوان أقرب إلى الإنسان من ناحية النشوء والتطوّر.",
+    "استعمال حيوان تكون فيه العملية قيد الدراسة أقرب ما يمكن إلى ما في الإنسان.",
+    "أن يكون التشريح ووظائف الأعضاء والكيمياء الحيوية متشابهة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Classification of experimental animals:**",
+   "ar": "**تصنيف حيوانات التجارب:**",
+   "list_en": [
+    "**Rodents** (Mice, Rats, Guinea pigs, Hamster… etc.).",
+    "**Non-rodents** (Rabbit, Dog, Cat, Monkey…. etc.)."
+   ],
+   "list_ar": [
+    "**القوارض** (الفئران، الجرذان، خنازير غينيا، الهامستر… إلخ).",
+    "**غير القوارض** (الأرنب، الكلب، القطّ، القرد…. إلخ)."
+   ],
+   "start": 1
+  },
+  {
+   "t": "note",
+   "en": "The rabbit is NOT a rodent (it is a lagomorph) — that is why the sheet lists it with the non-rodents.",
+   "ar": "الأرنب ليس من القوارض (هو من الأرنبيات) — ولذلك وضعته الورقة مع غير القوارض.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Animal model = gives a disease profile **similar to man**.",
+    "3 objectives: **phylogenetically close**, **similar process**, **similar anatomy/physiology/biochemistry**.",
+    "Rodents: mice, rats, guinea pigs, hamster; non-rodents: **rabbit**, dog, cat, monkey."
+   ],
+   "ar": [
+    "النموذج الحيواني = يعطي صورة مرضية **مشابهة للإنسان**.",
+    "3 أهداف: **قريب تطوّريًا**، **عملية مشابهة**، **تشريح/وظائف/كيمياء حيوية متشابهة**.",
+    "القوارض: الفئران، الجرذان، خنازير غينيا، الهامستر؛ وغير القوارض: **الأرنب**، الكلب، القطّ، القرد."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Animal handling",
+   "ar": "التعامل مع الحيوان"
+  },
+  {
+   "t": "card",
+   "en": "Before restrain, first pet or sooth the animal by slow deliberate movements in the body, overcrowding near the animal cage should be, noise should be kept as minimum, don’t hold animal too hard, never agitate the animal, it may become violent for self-protection.",
+   "ar": "قبل تقييد الحيوان، داعبه أو هدّئه أولًا بحركات بطيئة متأنّية على جسمه، ويجب [تجنّب] الازدحام قرب قفص الحيوان، وإبقاء الضوضاء في حدّها الأدنى، ولا تمسك الحيوان بقوّة شديدة، ولا تهيّجه أبدًا، فقد يصبح عنيفًا دفاعًا عن نفسه."
+  },
+  {
+   "t": "note",
+   "en": "\"overcrowding near the animal cage should be,\" — a word is missing: overcrowding should be **avoided**.",
+   "ar": "\"`overcrowding near the animal cage should be`,\" — توجد كلمة ناقصة: يجب **تجنّب (`avoided`)** الازدحام.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Calm the animal first (slow movements), **no crowding, little noise**, don't hold too hard, **never agitate** it."
+   ],
+   "ar": [
+    "هدّئ الحيوان أولًا (حركات بطيئة)، **بلا ازدحام وبضوضاء قليلة**، لا تمسكه بقوّة، و**لا تهيّجه أبدًا**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Route of injection: intravenous",
+   "ar": "طرق الحقن: الحقن الوريدي"
+  },
+  {
+   "t": "card",
+   "en": "**1- Intravenous:** This procedure involves direct injection into blood stream of the animal.",
+   "ar": "**1- الحقن الوريدي (`Intravenous`):** يتضمّن هذا الإجراء الحقن مباشرةً في مجرى دم الحيوان."
+  },
+  {
+   "t": "card",
+   "en": [
+    "The ear vein is the most accessible and visible vein in the rabbit.",
+    "Take the rabbit then:"
+   ],
+   "ar": [
+    "وريد الأذن هو أسهل الأوردة وصولًا وأوضحها في الأرنب.",
+    "خذ الأرنب ثم:"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "See the vein on the dorsal edge of either ear.",
+    "Shave the hair away from the area.",
+    "Clean the area with disinfectant (70% ethanol).",
+    "For the ease injection, the diameter of the vein may be enlarged before injection by heating and by applying pressure over the vein at the base of ear.",
+    "Hold the ear with one hand while supporting the ear from below with finger of the same hand."
+   ],
+   "list_ar": [
+    "حدّد الوريد على الحافّة الظهرية لأيّ من الأذنين.",
+    "احلق الشعر عن المنطقة.",
+    "نظّف المنطقة بمطهّر (إيثانول 70%).",
+    "لتسهيل الحقن، يمكن توسيع قطر الوريد قبل الحقن بالتدفئة وبالضغط على الوريد عند قاعدة الأذن.",
+    "أمسك الأذن بيد واحدة مع إسنادها من الأسفل بإصبع من اليد نفسها."
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    [
+     "With vein clearly visible, insert the needle in the direction of the blood flow (toward the head of the rabbit).",
+     "Slowly inject the inoculums (Ag) while watching for signs for dilution of the blood in the vein indicating that the injected material is passing into the vein.",
+     "The blunder of the syringe should move down easily and no raised area in the surrounding tissue should be visible."
+    ],
+    "When injection is complete with draw the needle and made pressure by finger to the injection site to stop bleeding and disinfectant with ethanol 70% the area by place a piece of cotton on site of injection."
+   ],
+   "list_ar": [
+    [
+     "والوريد ظاهر بوضوح، أدخل الإبرة باتّجاه جريان الدم (نحو رأس الأرنب).",
+     "واحقن اللقاح (المستضد `Ag`) ببطء مع مراقبة علامات تخفّف الدم في الوريد، التي تدلّ على أن المادة المحقونة تمرّ إلى الوريد.",
+     "ويجب أن يتحرّك مكبس المحقنة إلى الأسفل بسهولة، وألّا تظهر منطقة منتفخة في النسيج المحيط."
+    ],
+    "عند انتهاء الحقن اسحب الإبرة واضغط بالإصبع على موضع الحقن لإيقاف النزف، وطهّر المنطقة بإيثانول 70% بوضع قطعة قطن على موضع الحقن."
+   ],
+   "start": 6,
+   "_ff": 1
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/ear-marginal-vein.png",
+     "en": "Rabbit ear: Marginal vein and Auricular artery",
+     "ar": "أذن الأرنب: الوريد الحافّي والشريان الأذيني",
+     "h": "46mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/iv-ear-injection.png",
+     "en": "Intravenous injection into the ear vein",
+     "ar": "الحقن الوريدي في وريد الأذن",
+     "h": "46mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"blunder of the syringe\" = the **plunger**; \"with draw\" = **withdraw**; \"made pressure\" = **make** pressure.",
+    "In the picture the **marginal vein** runs along the edge of the ear and the **auricular artery** runs in the middle — inject into the vein, not the artery."
+   ],
+   "ar": [
+    "\"`blunder of the syringe`\" = **المكبس (`plunger`)**؛ و\"`with draw`\" = **اسحب (`withdraw`)**؛ و\"`made pressure`\" = **اضغط (`make pressure`)**.",
+    "في الصورة **الوريد الحافّي** يمتدّ على حافّة الأذن، و**الشريان الأذيني** في الوسط — الحقن يكون في الوريد لا الشريان."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "IV = **directly into the blood stream**; in the rabbit: the **ear vein** (dorsal edge).",
+    "Shave → 70% ethanol → enlarge the vein (heat, pressure) → needle **toward the head** → inject slowly.",
+    "Correct injection: blood **dilutes**, plunger moves **easily**, **no raised area**."
+   ],
+   "ar": [
+    "الوريدي = **مباشرةً في مجرى الدم**؛ وفي الأرنب: **وريد الأذن** (الحافّة الظهرية).",
+    "احلق ← إيثانول 70% ← وسّع الوريد (تدفئة، ضغط) ← الإبرة **نحو الرأس** ← احقن ببطء.",
+    "الحقن الصحيح: الدم **يتخفّف**، والمكبس يتحرّك **بسهولة**، و**لا انتفاخ**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Intraperitoneal injection",
+   "ar": "الحقن داخل الصفاق"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**2- Intraperitoneal (Mouse):** The injection of material into the peritoneal of abdominal cavity of the animal.",
+    "The animal (Rabbit or mouse) should be place on its back ."
+   ],
+   "ar": [
+    "**2- الحقن داخل الصفاق (`Intraperitoneal`) (الفأر):** حقن المادة في الصفاق (البريتون) للتجويف البطني للحيوان.",
+    "ويجب وضع الحيوان (الأرنب أو الفأر) على ظهره."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Anesthesia may be used for this injection .",
+    "Clip the hair away from the injection site and disinfect the site with 70% ethanol.",
+    "Grasp the skin and peritoneum with finger.",
+    [
+     "Insert the needle through the skin and peritoneum.",
+     "The needle should be empty from the bubbles."
+    ],
+    "Inject inoculums (Ag) carefully so as to prevent injection into the animal organs with practice, the procedure is relatively easy.",
+    "Remove the needle with disinfect the area once again with alcohol."
+   ],
+   "list_ar": [
+    "قد يُستعمل التخدير في هذا الحقن.",
+    "قصّ الشعر عن موضع الحقن وطهّره بإيثانول 70%.",
+    "أمسك الجلد والصفاق بالإصبع.",
+    [
+     "أدخل الإبرة عبر الجلد والصفاق.",
+     "ويجب أن تكون الإبرة خالية من الفقاعات."
+    ],
+    "احقن اللقاح (المستضد `Ag`) بحذر لتجنّب الحقن في أعضاء الحيوان؛ ومع التمرين يصبح الإجراء سهلًا نسبيًا.",
+    "أخرج الإبرة وطهّر المنطقة مرّة أخرى بالكحول."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/ip-injection-1.png",
+     "en": "Intraperitoneal injection in a mouse",
+     "ar": "الحقن داخل الصفاق في فأر",
+     "h": "40mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/ip-injection-2.png",
+     "en": "Holding the mouse on its back for intraperitoneal injection",
+     "ar": "إمساك الفأر على ظهره للحقن داخل الصفاق",
+     "h": "40mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "IP = into the **peritoneal (abdominal) cavity**; animal **on its back**; anesthesia may be used.",
+    "Needle **without bubbles**; inject carefully to **avoid the organs**."
+   ],
+   "ar": [
+    "داخل الصفاق = في **التجويف البطني (الصفاقي)**؛ الحيوان **على ظهره**؛ وقد يُستعمل التخدير.",
+    "إبرة **بلا فقاعات**؛ واحقن بحذر **لتجنّب الأعضاء**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Subcutaneous injection",
+   "ar": "الحقن تحت الجلد"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**3- Subcutaneous:** This method involves the injection of material under the skin.",
+    "Choose a site (usually the back)."
+   ],
+   "ar": [
+    "**3- الحقن تحت الجلد (`Subcutaneous`):** تتضمّن هذه الطريقة حقن المادة تحت الجلد.",
+    "اختر موضعًا (عادةً الظهر)."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Cline and shave the hair and disinfect the injection site with 70% ethanol.",
+    "Load tuberculin syringe and insert the needle almost horizontal to the animal to a depth.",
+    "Slowly inject the inoculums and observed the formation of a slightly raised area under the skin.",
+    "Remove needle and disinfect the injection site once again with alcohol."
+   ],
+   "list_ar": [
+    "نظّف واحلق الشعر وطهّر موضع الحقن بإيثانول 70%.",
+    "املأ محقنة التوبركلين وأدخل الإبرة بوضع شبه أفقي على الحيوان إلى عمق [مناسب].",
+    "احقن اللقاح ببطء ولاحظ تكوّن منطقة مرتفعة قليلًا تحت الجلد.",
+    "أخرج الإبرة وطهّر موضع الحقن مرّة أخرى بالكحول."
+   ]
+  },
+  {
+   "t": "figures",
+   "items": [
+    {
+     "src": "assets/sc-injection-1.png",
+     "en": "Subcutaneous injection in the back of a rabbit",
+     "ar": "الحقن تحت الجلد في ظهر الأرنب",
+     "h": "40mm",
+     "fit": "contain"
+    },
+    {
+     "src": "assets/sc-injection-2.png",
+     "en": "Subcutaneous injection — skin lifted, needle almost horizontal",
+     "ar": "الحقن تحت الجلد — الجلد مرفوع والإبرة شبه أفقية",
+     "h": "40mm",
+     "fit": "contain"
+    }
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"Cline\" = **clean**.",
+    "Note the difference: in IV injection **no raised area** should appear, while in SC injection a **slightly raised area** is the sign of a correct injection."
+   ],
+   "ar": [
+    "\"`Cline`\" = **نظّف (`clean`)**.",
+    "ولاحظ الفرق: في الحقن الوريدي **لا يجب** أن تظهر منطقة منتفخة، بينما في الحقن تحت الجلد **المنطقة المرتفعة قليلًا** هي علامة الحقن الصحيح."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Route",
+     "الطريق"
+    ],
+    [
+     "Where",
+     "أين"
+    ],
+    [
+     "Animal / site",
+     "الحيوان / الموضع"
+    ],
+    [
+     "Sign of correct injection",
+     "علامة الحقن الصحيح"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Intravenous**",
+      "**وريدي**"
+     ],
+     [
+      "blood stream",
+      "مجرى الدم"
+     ],
+     [
+      "rabbit — ear vein",
+      "الأرنب — وريد الأذن"
+     ],
+     [
+      "blood dilutes, no raised area",
+      "يتخفّف الدم، بلا انتفاخ"
+     ]
+    ],
+    [
+     [
+      "**Intraperitoneal**",
+      "**داخل الصفاق**"
+     ],
+     [
+      "peritoneal cavity",
+      "التجويف الصفاقي"
+     ],
+     [
+      "mouse/rabbit — on its back",
+      "الفأر/الأرنب — على ظهره"
+     ],
+     [
+      "no bubbles, organs avoided",
+      "بلا فقاعات، تجنّب الأعضاء"
+     ]
+    ],
+    [
+     [
+      "**Subcutaneous**",
+      "**تحت الجلد**"
+     ],
+     [
+      "under the skin",
+      "تحت الجلد"
+     ],
+     [
+      "usually the back",
+      "عادةً الظهر"
+     ],
+     [
+      "slightly raised area",
+      "منطقة مرتفعة قليلًا"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    22,
+    26,
+    30
+   ],
+   "style": "summary",
+   "label_en": "BIOS: the three routes",
+   "label_ar": "`BIOS`: طرق الحقن الثلاث"
+  },
+  {
+   "t": "note",
+   "en": [
+    "SC = **under the skin**, usually **the back**; **tuberculin syringe**, needle almost **horizontal**.",
+    "Sign: a **slightly raised area** under the skin."
+   ],
+   "ar": [
+    "تحت الجلد = **تحت الجلد**، عادةً **الظهر**؛ **محقنة التوبركلين**، والإبرة **شبه أفقية**.",
+    "العلامة: **منطقة مرتفعة قليلًا** تحت الجلد."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Blood harvesting",
+   "ar": "جمع الدم"
+  },
+  {
+   "t": "card",
+   "en": [
+    "The blood should collected to detect antibody formation against the antigen had been injected (R.B.Cs and Serum of human and rabbit).",
+    "There are two main sites to collect blood in rabbit, they are auricular artery (marginal ear vein) and cardiac puncture (heart puncture)."
+   ],
+   "ar": [
+    "يجب جمع الدم للكشف عن تكوّن الأضداد ضدّ المستضد الذي حُقن (كريات الدم الحمر ومصل الإنسان والأرنب).",
+    "وهناك موضعان رئيسيان لجمع الدم في الأرنب، هما: الشريان الأذيني (وريد الأذن الحافّي) وبزل القلب."
+   ]
+  },
+  {
+   "t": "note",
+   "en": "The **auricular artery** and the **marginal ear vein** are two different vessels (see the ear picture); both can be used to bleed a rabbit.",
+   "ar": "**الشريان الأذيني** و**وريد الأذن الحافّي** وعاءان مختلفان (انظر صورة الأذن)؛ ويمكن سحب دم الأرنب من كليهما.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "**Heart puncture (Cardiac puncture)**",
+   "ar": "**بزل القلب (`Cardiac puncture`)**"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Cardiac puncture is a suitable technique to obtain a single, large, good quality sample from a euthanized animal or a animal under deep terminal anesthesia if coagulation parameters, a separate arterial or venous sample or cardiac histology are not required.",
+    "It is appropriate for all strains of rat."
+   ],
+   "ar": [
+    "بزل القلب تقنية مناسبة للحصول على عيّنة واحدة كبيرة وجيّدة النوعية من حيوان قُتل رحيمًا أو حيوان تحت تخدير عميق نهائي، إذا لم تكن مطلوبة معاملات التخثّر أو عيّنة شريانية أو وريدية منفصلة أو نسيج القلب.",
+    "وهي مناسبة لكل سلالات الجرذان."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "A sample of blood (10 - 15 ml from rat, or 20-60 ml from rabbit) can be obtained depending on the size of the animal and whether the heart is beating.",
+    "Blood samples are taken from the heart, preferably the ventricle, which can be accessed either via the left side of the chest, through the diaphragm, or from the top of the sternum.",
+    "Blood should be withdrawn slowly to prevent the heart collapsing."
+   ],
+   "ar": [
+    "يمكن الحصول على عيّنة دم (10 - 15 مل من الجرذ، أو 20-60 مل من الأرنب) حسب حجم الحيوان وما إذا كان القلب ينبض.",
+    "وتُؤخذ عيّنات الدم من القلب، ويُفضّل البطين، الذي يمكن الوصول إليه إمّا عن طريق الجانب الأيسر من الصدر، أو عبر الحجاب الحاجز، أو من أعلى عظم القصّ.",
+    "ويجب سحب الدم ببطء لمنع انخماص القلب."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/heart-puncture-steps.png",
+   "en": "Heart puncture in a rat — steps 1 to 5",
+   "ar": "بزل القلب في جرذ — الخطوات 1 إلى 5",
+   "h": "70mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "Rat",
+     "الجرذ"
+    ],
+    [
+     "Rabbit",
+     "الأرنب"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Blood volume** (preferably from the ventricle)",
+      "**حجم الدم** (ويُفضّل من البطين)"
+     ],
+     [
+      "10 - 15 ml",
+      "10 - 15 مل"
+     ],
+     [
+      "20-60 ml",
+      "20-60 مل"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    30,
+    35,
+    35
+   ],
+   "style": "summary",
+   "label_en": "BIOS: cardiac puncture numbers",
+   "label_ar": "`BIOS`: أرقام بزل القلب"
+  },
+  {
+   "t": "note",
+   "en": "The 5 pictures have no captions in the sheet; they show the rat on its back and the needle entering the chest towards the heart.",
+   "ar": "الصور الخمس بلا عناوين في الورقة؛ وتُظهر الجرذ على ظهره والإبرة تدخل الصدر باتّجاه القلب.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Blood is collected to detect **antibody formation** against the injected antigen.",
+    "Rabbit bleeding sites: **ear (auricular artery / marginal vein)** and **cardiac puncture**.",
+    "Cardiac puncture: **single, large sample**, euthanized/deeply anesthetized animal; rat **10–15 ml**, rabbit **20–60 ml**; withdraw **slowly**."
+   ],
+   "ar": [
+    "يُجمع الدم للكشف عن **تكوّن الأضداد** ضدّ المستضد المحقون.",
+    "مواضع سحب دم الأرنب: **الأذن (الشريان الأذيني / الوريد الحافّي)** و**بزل القلب**.",
+    "بزل القلب: **عيّنة واحدة كبيرة**، حيوان مقتول رحيمًا/تحت تخدير عميق؛ الجرذ **10–15 مل**، الأرنب **20–60 مل**؛ اسحب **ببطء**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Immunization**",
+     "التمنيع / التحصين"
+    ],
+    [
+     "**Animal inoculation**",
+     "تلقيح الحيوان / حقن الحيوان"
+    ],
+    [
+     "**Animal model**",
+     "النموذج الحيواني"
+    ],
+    [
+     "**Rodents**",
+     "القوارض"
+    ],
+    [
+     "**Inoculum**",
+     "اللقاح / المادة المحقونة"
+    ],
+    [
+     "**Intravenous (IV)**",
+     "وريدي / في الوريد"
+    ],
+    [
+     "**Intraperitoneal (IP)**",
+     "داخل الصفاق / داخل البريتون"
+    ],
+    [
+     "**Subcutaneous (SC)**",
+     "تحت الجلد"
+    ],
+    [
+     "**Marginal ear vein**",
+     "وريد الأذن الحافّي"
+    ],
+    [
+     "**Auricular artery**",
+     "الشريان الأذيني"
+    ],
+    [
+     "**Tuberculin syringe**",
+     "محقنة التوبركلين / محقنة 1 مل"
+    ],
+    [
+     "**Plunger**",
+     "مكبس المحقنة"
+    ],
+    [
+     "**Anesthesia**",
+     "التخدير"
+    ],
+    [
+     "**Cardiac (heart) puncture**",
+     "بزل القلب / ثقب القلب"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 2
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Euthanized**",
+     "مقتول رحيمًا"
+    ],
+    [
+     "**Ventricle**",
+     "البطين"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 2
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Animal models and handling",
+    "topic_ar": "النماذج الحيوانية والتعامل"
+   },
+   {
+    "en": "The animal model preferred for a study must:",
+    "ar": "النموذج الحيواني المفضّل للدراسة يجب أن:",
+    "options": [
+     [
+      "Produce a disease profile similar to that in man",
+      "ينتج صورة مرضية مشابهة للإنسان"
+     ],
+     [
+      "Be the cheapest animal",
+      "يكون أرخص حيوان"
+     ],
+     [
+      "Be the largest animal",
+      "يكون أكبر حيوان"
+     ],
+     [
+      "Never get the disease",
+      "لا يصاب بالمرض أبدًا"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which is one of the three main objectives of animal model selection?",
+    "ar": "أيّ مما يلي من الأهداف الثلاثة لاختيار النموذج الحيواني؟",
+    "options": [
+     [
+      "Use of a wild animal",
+      "استعمال حيوان برّي"
+     ],
+     [
+      "Use of a very young animal only",
+      "استعمال حيوان صغير جدًا فقط"
+     ],
+     [
+      "Use of an animal phylogenetically closer to man",
+      "استعمال حيوان أقرب تطوّريًا إلى الإنسان"
+     ],
+     [
+      "Use of an animal with no immune system",
+      "استعمال حيوان بلا جهاز مناعي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which of the following is a rodent?",
+    "ar": "أيّ مما يلي من القوارض؟",
+    "options": [
+     [
+      "Rabbit",
+      "الأرنب"
+     ],
+     [
+      "Dog",
+      "الكلب"
+     ],
+     [
+      "Monkey",
+      "القرد"
+     ],
+     [
+      "Guinea pig",
+      "خنزير غينيا"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In the sheet, the rabbit is classified as a:",
+    "ar": "في الورقة، صُنّف الأرنب ضمن:",
+    "options": [
+     [
+      "Rodent",
+      "القوارض"
+     ],
+     [
+      "Non-rodent",
+      "غير القوارض"
+     ],
+     [
+      "Bird",
+      "الطيور"
+     ],
+     [
+      "Primate",
+      "الرئيسيات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "When handling an animal you should:",
+    "ar": "عند التعامل مع الحيوان يجب:",
+    "options": [
+     [
+      "Crowd around the cage",
+      "الازدحام حول القفص"
+     ],
+     [
+      "Hold it as hard as possible",
+      "إمساكه بأقصى قوّة"
+     ],
+     [
+      "Agitate it to keep it awake",
+      "تهييجه ليبقى يقظًا"
+     ],
+     [
+      "Calm it with slow deliberate movements and keep noise minimum",
+      "تهدئته بحركات بطيئة متأنّية وإبقاء الضوضاء بالحدّ الأدنى"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Routes of injection",
+    "topic_ar": "طرق الحقن"
+   },
+   {
+    "en": "The most accessible and visible vein in the rabbit is the:",
+    "ar": "أسهل الأوردة وصولًا وأوضحها في الأرنب:",
+    "options": [
+     [
+      "Jugular vein",
+      "الوريد الوداجي"
+     ],
+     [
+      "Tail vein",
+      "وريد الذيل"
+     ],
+     [
+      "Ear vein",
+      "وريد الأذن"
+     ],
+     [
+      "Femoral vein",
+      "الوريد الفخذي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The ear vein is seen on the:",
+    "ar": "يُرى وريد الأذن على:",
+    "options": [
+     [
+      "Dorsal edge of either ear",
+      "الحافّة الظهرية لأيّ من الأذنين"
+     ],
+     [
+      "Tip of the ear only",
+      "رأس الأذن فقط"
+     ],
+     [
+      "Ventral surface of the ear",
+      "السطح البطني للأذن"
+     ],
+     [
+      "Base of the tail",
+      "قاعدة الذيل"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The ear vein may be enlarged before injection by:",
+    "ar": "يمكن توسيع وريد الأذن قبل الحقن بـ:",
+    "options": [
+     [
+      "Cooling with ice",
+      "التبريد بالثلج"
+     ],
+     [
+      "Heating and pressure over the vein at the base of the ear",
+      "التدفئة والضغط على الوريد عند قاعدة الأذن"
+     ],
+     [
+      "Shaking the rabbit",
+      "هزّ الأرنب"
+     ],
+     [
+      "Applying alcohol only",
+      "وضع الكحول فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In IV injection the needle is inserted:",
+    "ar": "في الحقن الوريدي تُدخل الإبرة:",
+    "options": [
+     [
+      "Against the blood flow",
+      "عكس جريان الدم"
+     ],
+     [
+      "In the direction of the blood flow (toward the head)",
+      "باتّجاه جريان الدم (نحو الرأس)"
+     ],
+     [
+      "Vertically into the cartilage",
+      "عموديًا في الغضروف"
+     ],
+     [
+      "Into the artery",
+      "في الشريان"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "A sign of correct intravenous injection is:",
+    "ar": "من علامات الحقن الوريدي الصحيح:",
+    "options": [
+     [
+      "A raised area in the tissue",
+      "منطقة منتفخة في النسيج"
+     ],
+     [
+      "Bleeding before injection",
+      "النزف قبل الحقن"
+     ],
+     [
+      "Dilution of the blood in the vein and an easily moving plunger",
+      "تخفّف الدم في الوريد وسهولة حركة المكبس"
+     ],
+     [
+      "Bubbles in the syringe",
+      "فقاعات في المحقنة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Intraperitoneal injection is the injection of material into the:",
+    "ar": "الحقن داخل الصفاق هو حقن المادة في:",
+    "options": [
+     [
+      "Blood stream",
+      "مجرى الدم"
+     ],
+     [
+      "Muscle",
+      "العضلة"
+     ],
+     [
+      "Skin layers",
+      "طبقات الجلد"
+     ],
+     [
+      "Peritoneal (abdominal) cavity",
+      "التجويف الصفاقي (البطني)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "For intraperitoneal injection the animal is placed:",
+    "ar": "في الحقن داخل الصفاق يوضع الحيوان:",
+    "options": [
+     [
+      "On its back",
+      "على ظهره"
+     ],
+     [
+      "Standing",
+      "واقفًا"
+     ],
+     [
+      "Upside down by the tail",
+      "مقلوبًا من الذيل"
+     ],
+     [
+      "On its side",
+      "على جانبه"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In IP injection the inoculum is injected carefully to:",
+    "ar": "في الحقن داخل الصفاق يُحقن اللقاح بحذر لـ:",
+    "options": [
+     [
+      "Reach the heart",
+      "الوصول إلى القلب"
+     ],
+     [
+      "Make a raised area",
+      "تكوين منطقة منتفخة"
+     ],
+     [
+      "Prevent injection into the animal organs",
+      "منع الحقن في أعضاء الحيوان"
+     ],
+     [
+      "Dilute the blood",
+      "تخفيف الدم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Subcutaneous injection is usually given in the:",
+    "ar": "الحقن تحت الجلد يُعطى عادةً في:",
+    "options": [
+     [
+      "Back",
+      "الظهر"
+     ],
+     [
+      "Ear",
+      "الأذن"
+     ],
+     [
+      "Heart",
+      "القلب"
+     ],
+     [
+      "Tail vein",
+      "وريد الذيل"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The syringe used for subcutaneous injection in the sheet is the:",
+    "ar": "المحقنة المستعملة للحقن تحت الجلد في الورقة:",
+    "options": [
+     [
+      "Insulin pen",
+      "قلم الإنسولين"
+     ],
+     [
+      "50 ml syringe",
+      "محقنة 50 مل"
+     ],
+     [
+      "Glass pipette",
+      "ماصّة زجاجية"
+     ],
+     [
+      "Tuberculin syringe",
+      "محقنة التوبركلين"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The sign of a correct subcutaneous injection is:",
+    "ar": "علامة الحقن الصحيح تحت الجلد:",
+    "options": [
+     [
+      "No change in the skin",
+      "لا تغيّر في الجلد"
+     ],
+     [
+      "A slightly raised area under the skin",
+      "منطقة مرتفعة قليلًا تحت الجلد"
+     ],
+     [
+      "Dilution of blood in a vein",
+      "تخفّف الدم في الوريد"
+     ],
+     [
+      "Blood in the syringe",
+      "دم في المحقنة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The disinfectant used before and after injection is:",
+    "ar": "المطهّر المستعمل قبل الحقن وبعده:",
+    "options": [
+     [
+      "70% ethanol",
+      "إيثانول 70%"
+     ],
+     [
+      "Formalin",
+      "الفورمالين"
+     ],
+     [
+      "Hayem’s solution",
+      "محلول هايم"
+     ],
+     [
+      "Distilled water",
+      "الماء المقطّر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Blood harvesting",
+    "topic_ar": "جمع الدم"
+   },
+   {
+    "en": "Blood is collected after immunization to:",
+    "ar": "يُجمع الدم بعد التمنيع لـ:",
+    "options": [
+     [
+      "Count platelets",
+      "عدّ الصفائح"
+     ],
+     [
+      "Measure glucose",
+      "قياس السكّر"
+     ],
+     [
+      "Detect antibody formation against the injected antigen",
+      "الكشف عن تكوّن الأضداد ضدّ المستضد المحقون"
+     ],
+     [
+      "Grow bacteria",
+      "زرع البكتيريا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The two main sites to collect blood in the rabbit are:",
+    "ar": "الموضعان الرئيسيان لجمع دم الأرنب:",
+    "options": [
+     [
+      "Tail vein and jugular vein",
+      "وريد الذيل والوريد الوداجي"
+     ],
+     [
+      "Auricular artery (marginal ear vein) and cardiac puncture",
+      "الشريان الأذيني (وريد الأذن الحافّي) وبزل القلب"
+     ],
+     [
+      "Femoral artery and liver",
+      "الشريان الفخذي والكبد"
+     ],
+     [
+      "Skin and muscle",
+      "الجلد والعضلة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Cardiac puncture gives:",
+    "ar": "بزل القلب يعطي:",
+    "options": [
+     [
+      "Many small samples over days",
+      "عيّنات صغيرة كثيرة على مدى أيام"
+     ],
+     [
+      "A sample for cardiac histology",
+      "عيّنة لنسيج القلب"
+     ],
+     [
+      "A separate arterial sample",
+      "عيّنة شريانية منفصلة"
+     ],
+     [
+      "A single, large, good quality sample",
+      "عيّنة واحدة كبيرة جيّدة النوعية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "By cardiac puncture, the blood obtained from a rabbit is about:",
+    "ar": "بزل القلب في الأرنب يعطي نحو:",
+    "options": [
+     [
+      "10-15 ml",
+      "10-15 مل"
+     ],
+     [
+      "1-2 ml",
+      "1-2 مل"
+     ],
+     [
+      "20-60 ml",
+      "20-60 مل"
+     ],
+     [
+      "200 ml",
+      "200 مل"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In cardiac puncture, blood is preferably taken from the:",
+    "ar": "في بزل القلب يُفضّل أخذ الدم من:",
+    "options": [
+     [
+      "Ventricle",
+      "البطين"
+     ],
+     [
+      "Atrium",
+      "الأذين"
+     ],
+     [
+      "Aorta",
+      "الأبهر"
+     ],
+     [
+      "Pericardium",
+      "التامور"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Blood is withdrawn slowly in cardiac puncture to:",
+    "ar": "يُسحب الدم ببطء في بزل القلب لـ:",
+    "options": [
+     [
+      "Increase the volume",
+      "زيادة الحجم"
+     ],
+     [
+      "Prevent the heart collapsing",
+      "منع انخماص القلب"
+     ],
+     [
+      "Allow clotting",
+      "السماح بالتخثّر"
+     ],
+     [
+      "Wake the animal",
+      "إيقاظ الحيوان"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this picture, the vessel running along the edge of the rabbit ear is the:",
+    "ar": "في هذه الصورة، الوعاء الممتدّ على حافّة أذن الأرنب هو:",
+    "options": [
+     [
+      "Auricular artery",
+      "الشريان الأذيني"
+     ],
+     [
+      "Jugular vein",
+      "الوريد الوداجي"
+     ],
+     [
+      "Carotid artery",
+      "الشريان السباتي"
+     ],
+     [
+      "Marginal vein",
+      "الوريد الحافّي"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/ear-marginal-vein.png",
+    "img_h": "34mm"
+   },
+   {
+    "en": "This picture shows which route of injection?",
+    "ar": "هذه الصورة تُظهر أيّ طريق للحقن؟",
+    "options": [
+     [
+      "Subcutaneous",
+      "تحت الجلد"
+     ],
+     [
+      "Intravenous (ear)",
+      "وريدي (الأذن)"
+     ],
+     [
+      "Intraperitoneal",
+      "داخل الصفاق"
+     ],
+     [
+      "Cardiac",
+      "قلبي"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/ip-injection-1.png",
+    "img_h": "32mm"
+   },
+   {
+    "en": "These pictures show:",
+    "ar": "هذه الصور تُظهر:",
+    "options": [
+     [
+      "Subcutaneous injection",
+      "الحقن تحت الجلد"
+     ],
+     [
+      "Heart puncture in a rat",
+      "بزل القلب في جرذ"
+     ],
+     [
+      "Ear vein injection",
+      "الحقن في وريد الأذن"
+     ],
+     [
+      "Intraperitoneal injection in a rabbit",
+      "الحقن داخل الصفاق في أرنب"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/heart-puncture-steps.png",
+    "img_h": "40mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Selection of an animal model is one of the most important steps in experimental studies.",
+    "ar": "اختيار النموذج الحيواني من أهمّ الخطوات في الدراسات التجريبية.",
+    "answer": "T"
+   },
+   {
+    "en": "Hamsters are non-rodents.",
+    "ar": "الهامستر من غير القوارض.",
+    "answer": "F"
+   },
+   {
+    "en": "An agitated animal may become violent for self-protection.",
+    "ar": "الحيوان المُهيَّج قد يصبح عنيفًا دفاعًا عن نفسه.",
+    "answer": "T"
+   },
+   {
+    "en": "Intravenous injection is a direct injection into the blood stream.",
+    "ar": "الحقن الوريدي حقن مباشر في مجرى الدم.",
+    "answer": "T"
+   },
+   {
+    "en": "In ear vein injection the needle is inserted away from the head of the rabbit.",
+    "ar": "في الحقن بوريد الأذن تُدخل الإبرة بعيدًا عن رأس الأرنب.",
+    "answer": "F"
+   },
+   {
+    "en": "A raised area around the vein means the IV injection was correct.",
+    "ar": "ظهور منطقة منتفخة حول الوريد يعني أن الحقن الوريدي صحيح.",
+    "answer": "F"
+   },
+   {
+    "en": "After IV injection, pressure is applied to the site to stop bleeding.",
+    "ar": "بعد الحقن الوريدي يُضغط على الموضع لإيقاف النزف.",
+    "answer": "T"
+   },
+   {
+    "en": "Anesthesia may be used for intraperitoneal injection.",
+    "ar": "قد يُستعمل التخدير في الحقن داخل الصفاق.",
+    "answer": "T"
+   },
+   {
+    "en": "The needle for IP injection may contain bubbles.",
+    "ar": "يجوز أن تحتوي إبرة الحقن داخل الصفاق على فقاعات.",
+    "answer": "F"
+   },
+   {
+    "en": "In subcutaneous injection the needle is inserted almost horizontal.",
+    "ar": "في الحقن تحت الجلد تُدخل الإبرة بوضع شبه أفقي.",
+    "answer": "T"
+   },
+   {
+    "en": "Cardiac puncture is done on a fully awake, unanesthetized animal.",
+    "ar": "يُجرى بزل القلب على حيوان يقظ تمامًا وغير مخدّر.",
+    "answer": "F"
+   },
+   {
+    "en": "Cardiac puncture is appropriate for all strains of rat.",
+    "ar": "بزل القلب مناسب لكل سلالات الجرذان.",
+    "answer": "T"
+   },
+   {
+    "en": "10 - 15 ml of blood can be obtained from a rat by cardiac puncture.",
+    "ar": "يمكن الحصول على 10 - 15 مل دم من الجرذ ببزل القلب.",
+    "answer": "T"
+   },
+   {
+    "en": "Blood should be withdrawn quickly in cardiac puncture.",
+    "ar": "يجب سحب الدم بسرعة في بزل القلب.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Raised area: good or bad?",
+    "ar": "المنطقة المنتفخة: جيّدة أم سيّئة؟",
+    "answer_en": "IV: NO raised area should appear (a bump = the needle is outside the vein). SC: a slightly raised area IS the sign of correct injection.",
+    "answer_ar": "الوريدي: لا يجب أن تظهر منطقة منتفخة (الانتفاخ = الإبرة خارج الوريد). وتحت الجلد: المنطقة المرتفعة قليلًا هي علامة الحقن الصحيح."
+   },
+   {
+    "en": "Rabbit is not a rodent",
+    "ar": "الأرنب ليس من القوارض",
+    "answer_en": "Rodents: mice, rats, guinea pigs, hamster. The rabbit is listed with non-rodents (dog, cat, monkey).",
+    "answer_ar": "القوارض: الفئران، الجرذان، خنازير غينيا، الهامستر. والأرنب مذكور مع غير القوارض (الكلب، القطّ، القرد)."
+   },
+   {
+    "en": "Direction of the needle",
+    "ar": "اتّجاه الإبرة",
+    "answer_en": "Ear vein: insert the needle in the direction of the blood flow — toward the HEAD of the rabbit.",
+    "answer_ar": "وريد الأذن: أدخل الإبرة باتّجاه جريان الدم — نحو رأس الأرنب."
+   },
+   {
+    "en": "Vein vs artery in the ear",
+    "ar": "الوريد مقابل الشريان في الأذن",
+    "answer_en": "Marginal vein = along the edge (used for IV injection); auricular artery = in the middle of the ear.",
+    "answer_ar": "الوريد الحافّي = على الحافّة (يُستعمل للحقن الوريدي)؛ والشريان الأذيني = في وسط الأذن."
+   },
+   {
+    "en": "Rat vs rabbit volumes",
+    "ar": "حجوم الجرذ مقابل الأرنب",
+    "answer_en": "Cardiac puncture: rat 10–15 ml, rabbit 20–60 ml — depending on size and whether the heart is beating.",
+    "answer_ar": "بزل القلب: الجرذ 10–15 مل، والأرنب 20–60 مل — حسب الحجم وما إذا كان القلب ينبض."
+   },
+   {
+    "en": "Which syringe?",
+    "ar": "أيّ محقنة؟",
+    "answer_en": "Subcutaneous injection uses a tuberculin syringe, needle almost horizontal, usually in the back.",
+    "answer_ar": "الحقن تحت الجلد يستعمل محقنة التوبركلين، والإبرة شبه أفقية، وعادةً في الظهر."
+   },
+   {
+    "en": "Slow, not fast",
+    "ar": "ببطء لا بسرعة",
+    "answer_en": "Inject the inoculum slowly (IV, SC) and withdraw heart blood slowly to prevent the heart collapsing.",
+    "answer_ar": "احقن اللقاح ببطء (الوريدي وتحت الجلد) واسحب دم القلب ببطء لمنع انخماص القلب."
+   }
+  ],
+  "important": [
+   {
+    "en": "What are the three main objectives in selecting an animal model?",
+    "ar": "ما الأهداف الثلاثة الرئيسية لاختيار النموذج الحيواني؟",
+    "answer_en": "1) An animal phylogenetically closer to man. 2) An animal in which the process under investigation is as close as possible to that in man. 3) Similar anatomy, physiology and biochemistry.",
+    "answer_ar": "1) حيوان أقرب تطوّريًا إلى الإنسان. 2) حيوان تكون فيه العملية قيد الدراسة أقرب ما يمكن إلى ما في الإنسان. 3) تشريح ووظائف أعضاء وكيمياء حيوية متشابهة."
+   },
+   {
+    "en": "Classify experimental animals with examples.",
+    "ar": "صنّف حيوانات التجارب مع أمثلة.",
+    "answer_en": "Rodents: mice, rats, guinea pigs, hamster. Non-rodents: rabbit, dog, cat, monkey.",
+    "answer_ar": "القوارض: الفئران، الجرذان، خنازير غينيا، الهامستر. وغير القوارض: الأرنب، الكلب، القطّ، القرد."
+   },
+   {
+    "en": "Describe intravenous injection in the rabbit ear vein.",
+    "ar": "صف الحقن الوريدي في وريد أذن الأرنب.",
+    "answer_en": "Find the vein on the dorsal edge of the ear; shave; disinfect with 70% ethanol; enlarge the vein by heating and pressure at the base of the ear; hold the ear; insert the needle toward the head; inject slowly watching for dilution of blood (plunger moves easily, no raised area); withdraw, press to stop bleeding, disinfect and put cotton.",
+    "answer_ar": "حدّد الوريد على الحافّة الظهرية للأذن؛ احلق؛ طهّر بإيثانول 70%؛ وسّع الوريد بالتدفئة والضغط عند قاعدة الأذن؛ أمسك الأذن؛ أدخل الإبرة نحو الرأس؛ احقن ببطء مع مراقبة تخفّف الدم (المكبس يتحرّك بسهولة، بلا انتفاخ)؛ اسحب واضغط لإيقاف النزف وطهّر وضع قطنة."
+   },
+   {
+    "en": "Describe intraperitoneal injection.",
+    "ar": "صف الحقن داخل الصفاق.",
+    "answer_en": "Injection into the peritoneal cavity; animal (rabbit or mouse) on its back, anesthesia may be used; clip hair and disinfect with 70% ethanol; grasp skin and peritoneum; insert a bubble-free needle through skin and peritoneum; inject carefully avoiding the organs; remove needle and disinfect again.",
+    "answer_ar": "حقن في التجويف الصفاقي؛ الحيوان (أرنب أو فأر) على ظهره، وقد يُستعمل التخدير؛ قصّ الشعر وطهّر بإيثانول 70%؛ أمسك الجلد والصفاق؛ أدخل إبرة خالية من الفقاعات عبر الجلد والصفاق؛ احقن بحذر متجنّبًا الأعضاء؛ أخرج الإبرة وطهّر مجدّدًا."
+   },
+   {
+    "en": "Describe subcutaneous injection.",
+    "ar": "صف الحقن تحت الجلد.",
+    "answer_en": "Injection under the skin, usually in the back: clean, shave and disinfect with 70% ethanol; load a tuberculin syringe; insert the needle almost horizontal; inject slowly and observe a slightly raised area under the skin; remove needle and disinfect again.",
+    "answer_ar": "حقن تحت الجلد، عادةً في الظهر: نظّف واحلق وطهّر بإيثانول 70%؛ املأ محقنة التوبركلين؛ أدخل الإبرة شبه أفقية؛ احقن ببطء ولاحظ منطقة مرتفعة قليلًا تحت الجلد؛ أخرج الإبرة وطهّر مجدّدًا."
+   },
+   {
+    "en": "Why is blood harvested after immunization, and from which sites in the rabbit?",
+    "ar": "لماذا يُجمع الدم بعد التمنيع، ومن أيّ مواضع في الأرنب؟",
+    "answer_en": "To detect antibody formation against the injected antigen (e.g. RBCs and serum of human and rabbit). Sites: the ear (auricular artery / marginal ear vein) and cardiac (heart) puncture.",
+    "answer_ar": "للكشف عن تكوّن الأضداد ضدّ المستضد المحقون (مثل كريات الدم الحمر ومصل الإنسان والأرنب). والمواضع: الأذن (الشريان الأذيني / وريد الأذن الحافّي) وبزل القلب."
+   },
+   {
+    "en": "Describe cardiac puncture.",
+    "ar": "صف بزل القلب.",
+    "answer_en": "A technique to get a single, large, good quality blood sample from a euthanized or deeply anesthetized animal (when coagulation tests, separate arterial/venous samples or cardiac histology are not needed). Rat 10–15 ml, rabbit 20–60 ml. Blood is taken from the heart, preferably the ventricle, via the left chest, through the diaphragm or from the top of the sternum, and withdrawn slowly to prevent the heart collapsing.",
+    "answer_ar": "تقنية للحصول على عيّنة دم واحدة كبيرة جيّدة النوعية من حيوان مقتول رحيمًا أو تحت تخدير عميق (عند عدم الحاجة إلى فحوص التخثّر أو عيّنات شريانية/وريدية منفصلة أو نسيج القلب). الجرذ 10–15 مل، والأرنب 20–60 مل. يُؤخذ الدم من القلب، ويُفضّل البطين، عن طريق الجانب الأيسر للصدر أو عبر الحجاب الحاجز أو من أعلى القصّ، ويُسحب ببطء لمنع انخماص القلب."
+   }
+  ]
+ }
+}

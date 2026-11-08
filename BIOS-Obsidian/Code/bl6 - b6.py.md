@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/bl6/b6.py
 handouts: [bacteriology-lab6-biochemical-tests]
-saved: 2026-11-06
+saved: 2026-11-08
 tags: [bios, code]
 ---
 # bl6/b6.py
