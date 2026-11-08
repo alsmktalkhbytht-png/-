@@ -127,6 +127,7 @@
 - [[Code/picq.py|picq.py]] → bloodbank-lec1-introduction, immunology-lab1-serology, lab1-biosafety
 - [[Code/pl4 - pl4q.py|pl4/pl4q.py]] → parasitology-lab4-nonpathogenic-amoebae
 - [[Code/pl5 - pl5q.py|pl5/pl5q.py]] → parasitology-lab5-flagellates-giardia
+- [[Code/pl6 - pl6.py|pl6/pl6.py]] → parasitology-lab6-trichomonads
 - [[Code/rbc - rbc.py|rbc/rbc.py]] → hematology-practical-rbc-count
 - [[Code/res - make.py|res/make.py]] → research-lec1-principles
 - [[Code/res4 - r4.py|res4/r4.py]] → research-methods-lec4-process

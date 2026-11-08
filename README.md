@@ -17,6 +17,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `parasitology-lab4-solutions/` — Practical Parasitology lab 4: Preparation of Solutions — fourth stage.
 - `parasitology-lab4-nonpathogenic-amoebae/` — Medical Parasitology lab 4: Non-pathogenic amoebae (E. coli, E. gingivalis, Endolimax nana, Iodamoeba) & Naegleria fowleri (م.م. نريمان حسن) — fourth stage, new style, separate question file. Source was phone screenshots (text read from the images).
 - `parasitology-lab5-flagellates-giardia/` — Medical Parasitology lab 5: Flagellates — Giardia lamblia (م.م. نريمان حسن) — fourth stage, new style, separate question file. Most slides were pictures (text read from the images).
+- `parasitology-lab6-trichomonads/` — Medical Parasitology practical lab 6: Trichomonads (T. vaginalis, T. tenax, Pentatrichomonas hominis; morphology, life cycle, diagnosis, comparison, pitfalls), م.م. نريمان حسن, fourth stage, separate question file. PDF export of 29 slides; 12 embedded pictures. 24 pages + cover; questions 18 pages + cover.
 - `bloodbank-lec1-introduction/` — Blood Transfusion (نقل الدم) lecture 1: Introduction to blood banking + Practical 1.
 - `bloodbank-lec2-donation-criteria/` — Blood Transfusion lecture 2: Criteria of blood donation.
 - `bloodbank-lec3-services/` — Blood Transfusion lecture 3: Blood bank services.

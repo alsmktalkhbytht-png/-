@@ -1,0 +1,2661 @@
+{
+ "meta": {
+  "subject_en": "Medical Parasitology",
+  "subject_ar": "الطفيليات الطبية",
+  "short_ar": "طفيليات",
+  "instructor": "م.م. نريمان حسن",
+  "unit_en": "Lab 6",
+  "unit_ar": "العملي 6",
+  "unit_label": "LAB",
+  "unit_no": "6",
+  "title_en": "Trichomonads",
+  "title_ar": "المشعّرات",
+  "department": "قسم التحليلات",
+  "stage": "The fourth stage — الرابعة",
+  "kind": "Laboratories — عملي"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Introduction: What Are Trichomonads?",
+   "ar": "مقدمة: ما هي المشعّرات؟"
+  },
+  {
+   "t": "note",
+   "en": "TRICHOMONADS · Lab. 6 · Asst. lec. Nariman Hassan · Prepared for Medical Laboratory Technology Students",
+   "ar": "المشعّرات · العملي 6 · المدرّس المساعد نريمان حسن · مُعَدّ لطلبة تقنيات المختبرات الطبية",
+   "label": [
+    "Lab sheet",
+    "ورقة العملي"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Trichomonads** are unicellular eukaryotic protozoa belonging to the group Parabasalia.",
+    "They typically move using flagella; some possess an undulating membrane that assists motility.",
+    "The recognized human-associated species are known primarily as trophozoites; no true cyst stage is known for the main human species discussed here.",
+    "Clinical relevance depends on the species and its site: the urogenital tract, oral cavity, or intestine.",
+    "The genus name __Trichomonas__ has been used broadly in older literature, so current taxonomic names should be checked."
+   ],
+   "list_ar": [
+    "**المشعّرات (`Trichomonads`)** أوالٍ حقيقية النواة وحيدة الخلية تنتمي إلى مجموعة نظيرات القاعديات (`Parabasalia`).",
+    "وهي تتحرّك عادةً بالأسواط؛ ولبعضها غشاء متموّج يساعد على الحركة.",
+    "والأنواع المعروفة المرتبطة بالإنسان تُعرف أساسًا بطور المتغذّي (`trophozoite`)؛ ولا يُعرف طور كيس حقيقي للأنواع البشرية الرئيسية المذكورة هنا.",
+    "وتعتمد الأهمية السريرية على النوع وموضعه: الجهاز البولي التناسلي، أو تجويف الفم، أو الأمعاء.",
+    "واسم الجنس `__Trichomonas__` استُعمل بصورة واسعة في المراجع القديمة، لذا يجب التحقّق من الأسماء التصنيفية الحالية."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "**Species Covered in This Presentation**",
+   "ar": "**الأنواع المشمولة في هذا العرض**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "__Trichomonas vaginalis__: a sexually transmitted urogenital pathogen."
+   ],
+   "list_ar": [
+    "`__Trichomonas vaginalis__` (المشعّرة المهبلية): ممرض بولي تناسلي ينتقل جنسيًا."
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "__Trichomonas tenax__: primarily an oral trichomonad associated with poor oral health and periodontal disease; its causal role is not fully established.",
+    "__Pentatrichomonas hominis__ (historically called __Trichomonas hominis__): an intestinal trichomonad generally considered nonpathogenic or of uncertain clinical significance.",
+    "__Trichomonas gallinae__: an important parasite of birds, included for taxonomic comparison rather than as a routine human parasite.",
+    "The main clinical focus is on the three species associated with humans."
+   ],
+   "list_ar": [
+    "`__Trichomonas tenax__` (المشعّرة الفموية): مشعّرة فموية أساسًا ترتبط بسوء صحّة الفم وأمراض اللثة وما حول السنّ؛ ودورها المسبّب غير مُثبت تمامًا.",
+    "`__Pentatrichomonas hominis__` (المشعّرة الخماسية البشرية، وكانت تُسمّى تاريخيًا `__Trichomonas hominis__`): مشعّرة معوية تُعدّ عمومًا غير ممرضة أو غير مؤكّدة الأهمية السريرية.",
+    "`__Trichomonas gallinae__` (مشعّرة الطيور): طفيلي مهمّ في الطيور، أُدرج للمقارنة التصنيفية لا بوصفه طفيليًا بشريًا معتادًا.",
+    "والتركيز السريري الرئيسي على الأنواع الثلاثة المرتبطة بالإنسان."
+   ],
+   "start": 2,
+   "_ff": 1
+  },
+  {
+   "t": "h2",
+   "en": "**General Characteristics**",
+   "ar": "**الصفات العامة**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Unicellular organisms; the trophozoite is the recognized form in the main human-associated species.",
+    "Reproduction occurs by longitudinal binary fission.",
+    "Flagella are used for motility; the number of flagella and extent of the undulating membrane vary by species.",
+    "No resistant cyst stage is known for the main human species; transmission generally occurs through direct contact or suitable moist secretions.",
+    "Motility in wet preparations is affected by specimen freshness, transport conditions, and temperature."
+   ],
+   "list_ar": [
+    "كائنات وحيدة الخلية؛ والمتغذّي هو الطور المعروف في الأنواع الرئيسية المرتبطة بالإنسان.",
+    "ويحدث التكاثر بالانشطار الثنائي الطولي.",
+    "وتُستعمل الأسواط للحركة؛ ويختلف عدد الأسواط وامتداد الغشاء المتموّج باختلاف النوع.",
+    "ولا يُعرف طور كيس مقاوم للأنواع البشرية الرئيسية؛ ويحدث الانتقال عمومًا بالتماسّ المباشر أو بالإفرازات الرطبة المناسبة.",
+    "وتتأثّر الحركة في التحضيرات الرطبة بطزاجة العيّنة وظروف نقلها ودرجة الحرارة."
+   ]
+  },
+  {
+   "t": "note",
+   "en": "In the slide, the __T. gallinae__ line is written in **red** — it is a bird parasite, not one of the three human species.",
+   "ar": "في الشريحة سطر `__T. gallinae__` مكتوب **بالأحمر** — وهو طفيلي طيور، وليس من الأنواع البشرية الثلاثة.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Trichomonads = unicellular **Parabasalia**, move by **flagella** ± **undulating membrane**.",
+    "**Trophozoite only — no cyst**; **longitudinal binary fission**.",
+    "3 human species: **vaginalis** (urogenital), **tenax** (oral), **P. hominis** (intestinal); __T. gallinae__ = birds."
+   ],
+   "ar": [
+    "المشعّرات = أوالٍ وحيدة الخلية من **`Parabasalia`**، تتحرّك **بالأسواط** ± **غشاء متموّج**.",
+    "**متغذّي فقط — بلا كيس**؛ **انشطار ثنائي طولي**.",
+    "3 أنواع بشرية: **المهبلية** (بولي تناسلي)، **الفموية** (فم)، **الخماسية البشرية** (أمعاء)؛ و`__T. gallinae__` = طيور."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Trichomonas vaginalis",
+   "ar": "المشعّرة المهبلية"
+  },
+  {
+   "t": "h2",
+   "en": "**1. __Trichomonas vaginalis__ — Introduction and Medical Importance**",
+   "ar": "**1. المشعّرة المهبلية — المقدمة والأهمية الطبية**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "__T. vaginalis__ is the most clinically important human trichomonad and causes **trichomoniasis**.",
+    "It infects the urogenital tract: the vagina, cervix, and urethra in women, and the urethra and sometimes prostate in men.",
+    "Transmission occurs mainly through sexual contact, and infection may remain asymptomatic.",
+    "The World Health Organization estimated approximately 156 million new infections worldwide in 2020 among people aged 15–49 years.",
+    "Trichomoniasis is treatable, but reinfection is common if sexual partners are not treated."
+   ],
+   "list_ar": [
+    "المشعّرة المهبلية أهمّ المشعّرات البشرية سريريًا، وتسبّب **داء المشعّرات (`trichomoniasis`)**.",
+    "وتصيب الجهاز البولي التناسلي: المهبل وعنق الرحم والإحليل عند النساء، والإحليل وأحيانًا البروستاتا عند الرجال.",
+    "ويحدث الانتقال أساسًا بالاتصال الجنسي، وقد تبقى العدوى بلا أعراض.",
+    "وقدّرت منظمة الصحة العالمية نحو 156 مليون إصابة جديدة في العالم سنة 2020 بين الأشخاص بعمر 15–49 سنة.",
+    "وداء المشعّرات قابل للعلاج، لكن إعادة العدوى شائعة إذا لم يُعالَج الشركاء الجنسيون."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/tv-clinical-diagram.png",
+   "en": "__Trichomonas vaginalis__ — effects in the male and female, and opportunities",
+   "ar": "المشعّرة المهبلية — تأثيراتها في الذكر والأنثى، والفرص",
+   "h": "50mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Figure text",
+     "كتابات الشكل"
+    ],
+    [
+     "Arabic",
+     "بالعربي"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Male**: Urethritis, Prostatitis, Reduced fertility, Inflammation, Impaired sperm function",
+      "**الذكر**: التهاب الإحليل، التهاب البروستاتا، انخفاض الخصوبة، الالتهاب، ضعف وظيفة النطف"
+     ],
+     [
+      "effects in men",
+      "التأثيرات عند الرجال"
+     ]
+    ],
+    [
+     [
+      "**Female**: Vaginitis, Cervicitis, Reduced fertility, Pelvic Inflammation, Preterm birth",
+      "**الأنثى**: التهاب المهبل، التهاب عنق الرحم، انخفاض الخصوبة، التهاب الحوض، الولادة المبكرة"
+     ],
+     [
+      "effects in women",
+      "التأثيرات عند النساء"
+     ]
+    ],
+    [
+     [
+      "**OPPORTUNITIES**: Vaccine development, Drug development, Preventive Measures, Social Awareness",
+      "**الفرص**: تطوير اللقاح، تطوير الأدوية، الإجراءات الوقائية، التوعية المجتمعية"
+     ],
+     [
+      "ways to control the infection",
+      "سبل السيطرة على العدوى"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    70,
+    30
+   ],
+   "label_en": "Figure text",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "h2",
+   "en": "**__T. vaginalis__ — Morphology and General Features**",
+   "ar": "**المشعّرة المهبلية — الشكل والصفات العامة**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The trophozoite is pear-shaped or oval and is approximately 7–30 µm long.",
+    "It has one anterior nucleus, four anterior flagella, and a fifth flagellum associated with the undulating membrane.",
+    "An axostyle extends toward the posterior end and may project beyond it.",
+    "Motility is rapid and jerky or tumbling; this can be a helpful feature in a fresh wet mount.",
+    "No true cyst stage is known, and the organism does not survive well in the external environment."
+   ],
+   "list_ar": [
+    "المتغذّي كمّثري الشكل أو بيضوي، وطوله نحو 7–30 مايكرومتر.",
+    "له نواة أمامية واحدة، وأربعة أسواط أمامية، وسوط خامس مرتبط بالغشاء المتموّج.",
+    "ويمتدّ المحور الدعامي (`axostyle`) نحو النهاية الخلفية وقد يبرز خارجها.",
+    "وحركته سريعة متقطّعة أو متدحرجة؛ وهذه صفة مفيدة في التحضير الرطب الطازج.",
+    "ولا يُعرف له طور كيس حقيقي، ولا يعيش جيدًا في البيئة الخارجية."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/tv-stained-trophozoites.png",
+   "en": "__T. vaginalis__ trophozoites (stained) — pear shape, anterior nucleus, flagella",
+   "ar": "متغذّيات المشعّرة المهبلية (مصبوغة) — الشكل الكمّثري والنواة الأمامية والأسواط",
+   "h": "40mm"
+  },
+  {
+   "t": "figure",
+   "src": "assets/tv-morphology-diagram.png",
+   "en": "__T. vaginalis__ — Morphology: trophozoite diagram and \"Trichomonas trophozoite\" photo",
+   "ar": "المشعّرة المهبلية — الشكل: رسم المتغذّي وصورة «متغذّي المشعّرة»",
+   "h": "70mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Figure text",
+     "كتابات الشكل"
+    ],
+    [
+     "Arabic",
+     "بالعربي"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**4 free flagellae anteriorly**",
+      "**4 أسواط حرّة في الأمام**"
+     ],
+     [
+      "anterior flagella",
+      "الأسواط الأمامية"
+     ]
+    ],
+    [
+     [
+      "**One flagellum attached by undulating membrane**",
+      "**سوط واحد مرتبط بالغشاء المتموّج**"
+     ],
+     [
+      "the 5th flagellum",
+      "السوط الخامس"
+     ]
+    ],
+    [
+     [
+      "**Blepharoplast (mass or granules)**",
+      "**الجسيم القاعدي (`Blepharoplast`) (كتلة أو حبيبات)**"
+     ],
+     [
+      "base of the flagella",
+      "قاعدة الأسواط"
+     ]
+    ],
+    [
+     [
+      "**Single nucleus** –delicate nuclear membrane –central karyosome",
+      "**نواة واحدة** – غشاء نووي رقيق – جسيم نووي مركزي"
+     ],
+     [
+      "anterior nucleus",
+      "النواة الأمامية"
+     ]
+    ],
+    [
+     [
+      "**Cytostome**",
+      "**الفم الخلوي (`Cytostome`)**"
+     ],
+     [
+      "feeding groove",
+      "أخدود التغذية"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    64,
+    36
+   ],
+   "label_en": "Figure text",
+   "label_ar": "كتابات الشكل",
+   "_ff": 2
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Figure text",
+     "كتابات الشكل"
+    ],
+    [
+     "Arabic",
+     "بالعربي"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Vacuole with bacteria, rarely RBC**",
+      "**فجوة فيها بكتيريا، ونادرًا كريات حمر**"
+     ],
+     [
+      "food vacuoles",
+      "فجوات غذائية"
+     ]
+    ],
+    [
+     [
+      "**Axostyle**",
+      "**المحور الدعامي (`Axostyle`)**"
+     ],
+     [
+      "rod to the posterior end",
+      "عصا حتى النهاية الخلفية"
+     ]
+    ],
+    [
+     [
+      "**15 µm** · **No cystic form is known**",
+      "**15 مايكرومتر** · **لا يُعرف طور كيسي**"
+     ],
+     [
+      "size and no cyst",
+      "الحجم وعدم وجود الكيس"
+     ]
+    ],
+    [
+     [
+      "**Unstained** –colourless –nucleus generally invisible –axostyle as hyaline spike",
+      "**غير مصبوغ** – عديم اللون – النواة عادةً غير مرئية – المحور الدعامي كشوكة شفّافة"
+     ],
+     [
+      "how it looks in a wet mount",
+      "شكله في التحضير الرطب"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    64,
+    36
+   ],
+   "label_en": "Figure text",
+   "label_ar": "كتابات الشكل",
+   "_ff": 2
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"flagellae\" = **flagella**.",
+    "The slide gives 7–30 µm while the drawing shows 15 µm — 15 µm is a typical length within that range."
+   ],
+   "ar": [
+    "\"`flagellae`\" = **`flagella`** (أسواط).",
+    "والشريحة تذكر 7–30 مايكرومتر بينما الرسم يُظهر 15 مايكرومتر — و15 طول نموذجي ضمن هذا المدى."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "__T. vaginalis__ → **trichomoniasis** (STI); women: vagina, cervix, urethra; men: urethra ± prostate.",
+    "WHO: ~**156 million** new infections (2020, age 15–49); reinfection if partners untreated.",
+    "Pear-shaped, **7–30 µm**, **1 nucleus, 4 anterior flagella + 1 on the undulating membrane**, axostyle; **jerky** motility; **no cyst**."
+   ],
+   "ar": [
+    "المشعّرة المهبلية ← **داء المشعّرات** (عدوى جنسية)؛ النساء: المهبل وعنق الرحم والإحليل؛ الرجال: الإحليل ± البروستاتا.",
+    "منظمة الصحة العالمية: نحو **156 مليون** إصابة جديدة (2020، عمر 15–49)؛ وإعادة العدوى إذا لم يُعالَج الشركاء.",
+    "كمّثري، **7–30 مايكرومتر**، **نواة واحدة، 4 أسواط أمامية + 1 على الغشاء المتموّج**، محور دعامي؛ حركة **متقطّعة**؛ **بلا كيس**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "T. vaginalis — Epidemiology and Risk Factors",
+   "ar": "المشعّرة المهبلية — الوبائيات وعوامل الخطورة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Infection occurs worldwide, with prevalence varying by population, age group, and diagnostic method."
+   ],
+   "list_ar": [
+    "تحدث العدوى في كل أنحاء العالم، ويختلف انتشارها باختلاف السكّان والفئة العمرية وطريقة التشخيص."
+   ],
+   "_ff": 3
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Risk is increased by factors such as multiple sexual partners and other sexually transmitted infections.",
+    "Many infected women and men have no symptoms; absence of symptoms does not exclude infection.",
+    "Transmission through swimming pools or toilet seats is not considered the usual or epidemiologically established route.",
+    "Assessment for other sexually transmitted infections may be appropriate according to the clinical context."
+   ],
+   "list_ar": [
+    "ويزداد الخطر بعوامل مثل تعدّد الشركاء الجنسيين والعدوى الأخرى المنقولة جنسيًا.",
+    "وكثير من النساء والرجال المصابين بلا أعراض؛ وغياب الأعراض لا ينفي العدوى.",
+    "والانتقال عبر أحواض السباحة أو مقاعد المرافق الصحية لا يُعدّ الطريق المعتاد أو المُثبت وبائيًا.",
+    "وقد يكون من المناسب فحص العدوى الأخرى المنقولة جنسيًا حسب السياق السريري."
+   ],
+   "start": 2,
+   "_ff": 3
+  },
+  {
+   "t": "h2",
+   "en": "**__T. vaginalis__ — Pathogenesis and Clinical Features**",
+   "ar": "**المشعّرة المهبلية — الإمراضية والصفات السريرية**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The parasite adheres to urogenital epithelial cells and can cause cellular injury and local inflammation.",
+    "In women, symptoms may include vaginal discharge, itching, erythema, dysuria, or pain during intercourse; infection may also be asymptomatic.",
+    "Vaginal pH may be above 4.5, but this finding is nonspecific and cannot establish the diagnosis.",
+    "In men, infection is often asymptomatic; urethritis, discharge, dysuria, and occasionally prostatitis may occur.",
+    "Trichomoniasis is associated with increased risk of HIV acquisition and some adverse reproductive outcomes; these associations do not mean every infection causes such outcomes."
+   ],
+   "list_ar": [
+    "يلتصق الطفيلي بالخلايا الظهارية البولية التناسلية، وقد يسبّب أذى خلويًا والتهابًا موضعيًا.",
+    "وعند النساء قد تشمل الأعراض الإفرازات المهبلية، والحكّة، والاحمرار، وعسر التبوّل، أو الألم أثناء الجماع؛ وقد تكون العدوى بلا أعراض.",
+    "وقد يكون `pH` المهبل أعلى من 4.5، لكن هذه العلامة غير نوعية ولا تكفي لإثبات التشخيص.",
+    "وعند الرجال تكون العدوى غالبًا بلا أعراض؛ وقد يحدث التهاب الإحليل والإفرازات وعسر التبوّل، وأحيانًا التهاب البروستاتا.",
+    "ويرتبط داء المشعّرات بزيادة خطر اكتساب فيروس العوز المناعي (`HIV`) وببعض النتائج التناسلية الضارّة؛ ولا تعني هذه الارتباطات أن كل عدوى تسبّب هذه النتائج."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "**__T. vaginalis__ — Life Cycle**",
+   "ar": "**المشعّرة المهبلية — دورة الحياة**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The trophozoite is the recognized form in humans; no cyst stage is known.",
+    "The parasite is transmitted mainly during sexual contact through infected genital secretions.",
+    "It colonizes the urogenital tract and multiplies by longitudinal binary fission.",
+    "Trophozoites may be present in genital secretions or urine and can be passed to a sexual partner during contact.",
+    "Both the infective and diagnostic forms are trophozoites; cysts are not expected in specimens."
+   ],
+   "list_ar": [
+    "المتغذّي هو الطور المعروف في الإنسان؛ ولا يُعرف طور كيس.",
+    "وينتقل الطفيلي أساسًا أثناء الاتصال الجنسي عبر الإفرازات التناسلية المصابة.",
+    "ويستعمر الجهاز البولي التناسلي ويتكاثر بالانشطار الثنائي الطولي.",
+    "وقد توجد المتغذّيات في الإفرازات التناسلية أو الإدرار، ويمكن أن تنتقل إلى الشريك الجنسي أثناء الاتصال.",
+    "والطور المُعدي والطور التشخيصي كلاهما متغذّي؛ ولا يُتوقّع وجود أكياس في العيّنات."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/tv-life-cycle.png",
+   "en": "__Trichomonas vaginalis__ life cycle",
+   "ar": "دورة حياة المشعّرة المهبلية",
+   "h": "64mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Figure text",
+     "كتابات الشكل"
+    ],
+    [
+     "Arabic",
+     "بالعربي"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Female · Male · Sexual intercourse**",
+      "**الأنثى · الذكر · الاتصال الجنسي**"
+     ],
+     [
+      "route of transmission",
+      "طريق الانتقال"
+     ]
+    ],
+    [
+     [
+      "**i = Infective stage · d = Diagnostic stage**",
+      "**`i` = الطور المُعدي · `d` = الطور التشخيصي**"
+     ],
+     [
+      "both are the trophozoite",
+      "كلاهما المتغذّي"
+     ]
+    ],
+    [
+     [
+      "**1** Trophozoite in vaginal and prostatic secretions and urine",
+      "**1** المتغذّي في الإفرازات المهبلية والبروستاتية والإدرار"
+     ],
+     [
+      "diagnostic stage (d)",
+      "الطور التشخيصي (`d`)"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    66,
+    34
+   ],
+   "label_en": "Figure text",
+   "label_ar": "كتابات الشكل",
+   "_ff": 4
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Figure text",
+     "كتابات الشكل"
+    ],
+    [
+     "Arabic",
+     "بالعربي"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**2** Multiplies by longitudinal binary fission",
+      "**2** يتكاثر بالانشطار الثنائي الطولي"
+     ],
+     [
+      "in the urogenital tract",
+      "في الجهاز البولي التناسلي"
+     ]
+    ],
+    [
+     [
+      "**3** Trophozoite in vaginal or orifice of urethra",
+      "**3** المتغذّي في المهبل أو فتحة الإحليل"
+     ],
+     [
+      "infective stage (i)",
+      "الطور المُعدي (`i`)"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    66,
+    34
+   ],
+   "label_en": "Figure text",
+   "label_ar": "كتابات الشكل",
+   "_ff": 4
+  },
+  {
+   "t": "note",
+   "en": [
+    "Risk: **multiple partners**, other STIs; many cases **asymptomatic**; pools/toilet seats **not** the usual route.",
+    "Women: discharge, itching, dysuria; **pH > 4.5** (nonspecific); men: urethritis, ± prostatitis; ↑ **HIV** risk.",
+    "Life cycle: **trophozoite = infective = diagnostic**; binary fission; **no cyst**."
+   ],
+   "ar": [
+    "الخطر: **تعدّد الشركاء**، وعدوى جنسية أخرى؛ وكثير من الحالات **بلا أعراض**؛ والمسابح/المقاعد **ليست** الطريق المعتاد.",
+    "النساء: إفرازات، حكّة، عسر تبوّل؛ **`pH > 4.5`** (غير نوعي)؛ الرجال: التهاب الإحليل ± البروستاتا؛ ↑ خطر **`HIV`**.",
+    "دورة الحياة: **المتغذّي = المُعدي = التشخيصي**؛ انشطار ثنائي؛ **بلا كيس**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "T. vaginalis: laboratory diagnosis and treatment",
+   "ar": "المشعّرة المهبلية: التشخيص المختبري والعلاج"
+  },
+  {
+   "t": "h2",
+   "en": "**__T. vaginalis__ — Laboratory Diagnosis: Specimens**",
+   "ar": "**المشعّرة المهبلية — التشخيص المختبري: العيّنات**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "For women, a vaginal swab or vaginal discharge is a preferred specimen; other specimens may be used according to the validated test.",
+    "For men, urine or a urethral swab may be used; specimen choice depends on the test platform.",
+    "**Wet mount**: a fresh specimen is mixed with saline and examined promptly for motile trophozoites.",
+    "Examination should be performed quickly because wet-mount sensitivity decreases substantially as motility is lost.",
+    "Collect and transport specimens according to laboratory and assay instructions, while maintaining privacy and informed consent."
+   ],
+   "list_ar": [
+    "عند النساء تُفضَّل مسحة مهبلية أو الإفرازات المهبلية؛ ويمكن استعمال عيّنات أخرى حسب الفحص المُعتمَد.",
+    "وعند الرجال يمكن استعمال الإدرار أو مسحة الإحليل؛ ويعتمد اختيار العيّنة على منصّة الفحص.",
+    "**التحضير الرطب (`Wet mount`)**: تُخلط عيّنة طازجة بالمحلول الملحي وتُفحص فورًا بحثًا عن متغذّيات متحرّكة.",
+    "ويجب إجراء الفحص بسرعة لأن حساسية التحضير الرطب تنخفض كثيرًا مع فقدان الحركة.",
+    "واجمع العيّنات وانقلها وفق تعليمات المختبر والفحص، مع الحفاظ على الخصوصية والموافقة المستنيرة."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/tv-wet-mount.png",
+   "en": "Wet mount — motile __T. vaginalis__ trophozoite (unstained)",
+   "ar": "تحضير رطب — متغذّي المشعّرة المهبلية متحرّك (غير مصبوغ)",
+   "h": "46mm"
+  },
+  {
+   "t": "h2",
+   "en": "**__T. vaginalis__ — Laboratory Diagnosis: Methods and Interpretation**",
+   "ar": "**المشعّرة المهبلية — التشخيص المختبري: الطرائق والتفسير**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**NAAT/PCR** methods are among the most sensitive options and are preferred when a validated test is available for the specimen type.",
+    "Wet mount is rapid and inexpensive, but its sensitivity is limited; a negative result does not rule out infection.",
+    "Culture in a specialized medium may be used in selected situations, including persistent infection or drug-susceptibility assessment.",
+    "Rapid antigen tests are available for certain specimens and populations; follow the approved indications of the specific test.",
+    [
+     "A Pap smear is not a definitive diagnostic test.",
+     "If organisms are incidentally observed, confirmation with an appropriate sensitive test is recommended."
+    ]
+   ],
+   "list_ar": [
+    "طرائق **تضخيم الحمض النووي (`NAAT/PCR`)** من أكثر الخيارات حساسية، وتُفضَّل عند توفّر فحص مُعتمَد لنوع العيّنة.",
+    "والتحضير الرطب سريع ورخيص لكن حساسيته محدودة؛ والنتيجة السالبة لا تنفي العدوى.",
+    "ويمكن استعمال الزرع في وسط خاصّ في حالات مختارة، منها العدوى المستمرّة أو تقييم الحساسية للأدوية.",
+    "وتتوفّر فحوص المستضد السريعة لبعض العيّنات والفئات؛ اتّبع الاستطبابات المعتمدة لكل فحص.",
+    [
+     "ومسحة بابانيكولاو (`Pap smear`) ليست فحصًا تشخيصيًا حاسمًا.",
+     "وإذا شوهدت الكائنات عَرَضًا فيُنصح بالتأكيد بفحص حسّاس مناسب."
+    ]
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Method",
+     "الطريقة"
+    ],
+    [
+     "Sensitivity",
+     "الحساسية"
+    ],
+    [
+     "Note",
+     "ملاحظة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**NAAT / PCR**",
+      "**`NAAT / PCR`**"
+     ],
+     [
+      "highest",
+      "الأعلى"
+     ],
+     [
+      "preferred when validated",
+      "المفضّلة عند الاعتماد"
+     ]
+    ],
+    [
+     [
+      "**Wet mount**",
+      "**التحضير الرطب**"
+     ],
+     [
+      "limited",
+      "محدودة"
+     ],
+     [
+      "rapid, cheap; negative ≠ no infection; examine at once",
+      "سريع ورخيص؛ السالب لا ينفي؛ افحص فورًا"
+     ]
+    ],
+    [
+     [
+      "**Culture**",
+      "**الزرع**"
+     ],
+     [
+      "good",
+      "جيّدة"
+     ],
+     [
+      "persistent infection, drug susceptibility",
+      "العدوى المستمرّة، حساسية الأدوية"
+     ]
+    ],
+    [
+     [
+      "**Rapid antigen test**",
+      "**فحص المستضد السريع**"
+     ],
+     [
+      "variable",
+      "متفاوتة"
+     ],
+     [
+      "only for approved specimens",
+      "للعيّنات المعتمدة فقط"
+     ]
+    ],
+    [
+     [
+      "**Pap smear**",
+      "**مسحة بابانيكولاو**"
+     ],
+     [
+      "not definitive",
+      "غير حاسمة"
+     ],
+     [
+      "confirm incidental findings",
+      "أكّد ما يُشاهد عرضًا"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    28,
+    22,
+    50
+   ],
+   "style": "summary",
+   "label_en": "BIOS: diagnostic methods",
+   "label_ar": "`BIOS`: طرائق التشخيص"
+  },
+  {
+   "t": "h2",
+   "en": "**__T. vaginalis__ — Prevention and Treatment Overview**",
+   "ar": "**المشعّرة المهبلية — الوقاية والعلاج باختصار**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Effective treatment generally uses nitroimidazoles such as metronidazole or tinidazole, according to clinical guidelines.",
+    "Sexual partners should be treated, and sexual contact should be avoided until treatment is completed and symptoms have resolved as advised.",
+    "Retesting women at approximately 3 months is recommended because reinfection is common.",
+    "Self-medication or unsupervised topical treatment is not recommended; regimen selection belongs to a qualified healthcare professional.",
+    "This slide is educational and is not an individualized prescription."
+   ],
+   "list_ar": [
+    "يستعمل العلاج الفعّال عمومًا مركّبات النيتروإيميدازول مثل الميترونيدازول أو التينيدازول، وفق الإرشادات السريرية.",
+    "ويجب علاج الشركاء الجنسيين، وتجنّب الاتصال الجنسي حتى اكتمال العلاج وزوال الأعراض حسب النصيحة.",
+    "ويُنصح بإعادة فحص النساء بعد نحو 3 أشهر لأن إعادة العدوى شائعة.",
+    "ولا يُنصح بالعلاج الذاتي أو العلاج الموضعي دون إشراف؛ واختيار النظام العلاجي من اختصاص مختصّ صحّي مؤهّل.",
+    "وهذه الشريحة تعليمية وليست وصفة علاجية فردية."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Specimens: women **vaginal swab/discharge**; men **urine/urethral swab**.",
+    "**Wet mount**: fresh + saline + **examine at once** (sensitivity falls as motility is lost); **NAAT/PCR** = most sensitive.",
+    "Treatment: **metronidazole / tinidazole**; **treat partners**; retest women at **~3 months**."
+   ],
+   "ar": [
+    "العيّنات: النساء **مسحة/إفرازات مهبلية**؛ الرجال **إدرار/مسحة إحليل**.",
+    "**التحضير الرطب**: طازج + محلول ملحي + **افحص فورًا** (تقلّ الحساسية مع فقدان الحركة)؛ **`NAAT/PCR`** = الأكثر حساسية.",
+    "العلاج: **الميترونيدازول / التينيدازول**؛ **عالج الشركاء**؛ وأعد فحص النساء بعد **~3 أشهر**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Trichomonas tenax",
+   "ar": "المشعّرة الفموية"
+  },
+  {
+   "t": "figure",
+   "src": "assets/tt-illustration.png",
+   "en": "__Trichomonas tenax__ (slide illustration)",
+   "ar": "المشعّرة الفموية (رسم توضيحي من الشريحة)",
+   "h": "40mm"
+  },
+  {
+   "t": "h2",
+   "en": "**2. __Trichomonas tenax__ — Introduction and Habitat**",
+   "ar": "**2. المشعّرة الفموية — المقدمة والموطن**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "__T. tenax__ is a trichomonad found mainly in the oral cavity, especially dental plaque and periodontal pockets.",
+    "Its presence is often associated with poor oral hygiene, gingivitis, and periodontal disease.",
+    "Detection alone does not prove that the organism caused the disease; it may colonize an already diseased oral environment.",
+    "Rare reports describe it at extraoral sites, but these are not the typical presentation and do not establish causality in every case."
+   ],
+   "list_ar": [
+    "المشعّرة الفموية مشعّرة توجد أساسًا في تجويف الفم، ولا سيّما اللويحة السنّية وجيوب ما حول السنّ.",
+    "ووجودها يرتبط غالبًا بسوء نظافة الفم والتهاب اللثة وأمراض ما حول السنّ.",
+    "والكشف عنها وحده لا يثبت أنها سبّبت المرض؛ فقد تستعمر بيئة فموية مريضة أصلًا.",
+    "وتصف تقارير نادرة وجودها في مواضع خارج الفم، لكنها ليست الصورة المعتادة ولا تثبت السببية في كل حالة."
+   ],
+   "_ff": 5
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "It is not considered a sexually transmitted infection",
+    "Transmission through saliva or shared items contaminated with oral secretions is plausible, but the importance of each route is not precisely defined.",
+    "The moist oral environment, dental plaque, and periodontal pockets may support its persistence."
+   ],
+   "list_ar": [
+    "ولا تُعدّ عدوى منقولة جنسيًا",
+    "والانتقال عبر اللعاب أو الأدوات المشتركة الملوّثة بإفرازات الفم محتمل، لكن أهمية كل طريق غير محدّدة بدقّة.",
+    "وقد تساعد البيئة الفموية الرطبة واللويحة السنّية وجيوب ما حول السنّ على بقائها."
+   ],
+   "start": 5,
+   "_ff": 5
+  },
+  {
+   "t": "figure",
+   "src": "assets/tt-oral-cavity.png",
+   "en": "Oral cavity with poor oral health (habitat of __T. tenax__)",
+   "ar": "تجويف فم بصحّة فموية سيّئة (موطن المشعّرة الفموية)",
+   "h": "40mm"
+  },
+  {
+   "t": "h2",
+   "en": "**__T. tenax__ — Morphology and General Features**",
+   "ar": "**المشعّرة الفموية — الشكل والصفات العامة**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "It exists as a motile trophozoite; no cyst stage is known.",
+    "It has anterior flagella and an undulating membrane, but morphology may overlap with that of other trichomonads.",
+    "Species identification based on morphology alone may be difficult, particularly in suboptimal specimens.",
+    "It inhabits moist oral environments and may be detected in plaque or periodontal-pocket specimens using suitable methods.",
+    "Molecular testing may be needed for precise identification in research or selected cases."
+   ],
+   "list_ar": [
+    "توجد بطور متغذّي متحرّك؛ ولا يُعرف طور كيس.",
+    "لها أسواط أمامية وغشاء متموّج، لكن شكلها قد يتداخل مع شكل المشعّرات الأخرى.",
+    "وقد يصعب تحديد النوع اعتمادًا على الشكل وحده، ولا سيّما في العيّنات غير الجيّدة.",
+    "وتعيش في البيئات الفموية الرطبة، ويمكن كشفها في عيّنات اللويحة أو جيوب ما حول السنّ بطرائق مناسبة.",
+    "وقد يلزم الفحص الجزيئي للتحديد الدقيق في البحوث أو حالات مختارة."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/tt-drawing.png",
+   "en": "__T. tenax__ trophozoite (drawing)",
+   "ar": "متغذّي المشعّرة الفموية (رسم)",
+   "h": "56mm"
+  },
+  {
+   "t": "h2",
+   "en": "**__T. tenax__ — Epidemiology and Pathogenicity**",
+   "ar": "**المشعّرة الفموية — الوبائيات والإمراضية**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Detection rates vary with oral health, the population studied, specimen collection, and diagnostic method.",
+    "It may be found more often in people with periodontal disease or poor oral hygiene.",
+    "Its direct causal role in gingival inflammation or tissue destruction has not been fully established.",
+    "Rare reports describe detection in respiratory specimens or abscesses; these findings should be interpreted cautiously.",
+    "There are no symptoms specific to __T. tenax__ alone; clinical findings are usually related to the underlying oral condition."
+   ],
+   "list_ar": [
+    "تختلف معدّلات الكشف باختلاف صحّة الفم والفئة المدروسة وجمع العيّنة وطريقة التشخيص.",
+    "وقد توجد أكثر عند المصابين بأمراض ما حول السنّ أو بسوء نظافة الفم.",
+    "ودورها المسبّب المباشر في التهاب اللثة أو تحطّم الأنسجة لم يُثبت تمامًا.",
+    "وتصف تقارير نادرة كشفها في عيّنات تنفّسية أو خراجات؛ ويجب تفسير هذه النتائج بحذر.",
+    "ولا توجد أعراض خاصّة بـالمشعّرة الفموية وحدها؛ والعلامات السريرية تتعلّق عادةً بحالة الفم الأساسية."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "**__T. tenax__ — Laboratory Diagnosis**",
+   "ar": "**المشعّرة الفموية — التشخيص المختبري**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Specimens may include dental plaque, periodontal-pocket material, or other appropriate oral samples, depending on the purpose of testing."
+   ],
+   "list_ar": [
+    "قد تشمل العيّنات اللويحة السنّية، أو مادّة جيوب ما حول السنّ، أو عيّنات فموية مناسبة أخرى، حسب غرض الفحص."
+   ],
+   "_ff": 6
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Direct microscopy of a fresh sample may reveal motile trophozoites, but morphology may not reliably establish the species.",
+    "Culture or molecular testing may be used in research laboratories or when species confirmation is required.",
+    "Detection must be distinguished from proof of causation: finding the organism does not by itself establish that it caused periodontal disease.",
+    "Clinical management focuses on assessment and treatment of oral disease and dental hygiene by an appropriate professional."
+   ],
+   "list_ar": [
+    "وقد يكشف الفحص المجهري المباشر لعيّنة طازجة متغذّيات متحرّكة، لكن الشكل قد لا يحدّد النوع بصورة موثوقة.",
+    "ويمكن استعمال الزرع أو الفحص الجزيئي في مختبرات البحث أو عند الحاجة لتأكيد النوع.",
+    "ويجب التمييز بين الكشف وإثبات السببية: فالعثور على الكائن لا يثبت وحده أنه سبّب مرض ما حول السنّ.",
+    "ويركّز العلاج السريري على تقييم أمراض الفم ونظافة الأسنان وعلاجها من قبل المختصّ المناسب."
+   ],
+   "start": 2,
+   "_ff": 6
+  },
+  {
+   "t": "note",
+   "en": [
+    "__T. tenax__: **oral cavity** — dental plaque, periodontal pockets; linked to **poor oral hygiene / periodontitis**.",
+    "**Not an STI**; via saliva / shared items (plausible); **no cyst**.",
+    "**Detection ≠ causation**; species ID by morphology is hard → culture / molecular tests."
+   ],
+   "ar": [
+    "المشعّرة الفموية: **تجويف الفم** — اللويحة السنّية وجيوب ما حول السنّ؛ ترتبط **بسوء نظافة الفم / التهاب ما حول السنّ**.",
+    "**ليست عدوى جنسية**؛ عبر اللعاب / الأدوات المشتركة (محتمل)؛ **بلا كيس**.",
+    "**الكشف ≠ السببية**؛ وتحديد النوع بالشكل صعب ← الزرع / الفحص الجزيئي."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Pentatrichomonas hominis",
+   "ar": "المشعّرة الخماسية البشرية"
+  },
+  {
+   "t": "figure",
+   "src": "assets/ph-drawing.png",
+   "en": "TRICHOMONAS HOMINIS (intestinal)",
+   "ar": "المشعّرة البشرية (المعوية)",
+   "h": "48mm"
+  },
+  {
+   "t": "h2",
+   "en": "**3. __Pentatrichomonas hominis__ — Name and Significance**",
+   "ar": "**3. المشعّرة الخماسية البشرية — الاسم والأهمية**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The organism is commonly called __Pentatrichomonas hominis__; older literature may refer to it as __Trichomonas hominis__.",
+    "It is an intestinal trichomonad found in the colon and passed in feces.",
+    "It is generally considered nonpathogenic, although a possible role in diarrhea remains debated and other pathogens may be present at the same time.",
+    "Diarrhea should not automatically be attributed to this organism without investigating other causes of intestinal infection.",
+    "When teaching or reviewing literature, provide both the current name and the historical name when useful."
+   ],
+   "list_ar": [
+    "يُسمّى هذا الكائن عادةً `__Pentatrichomonas hominis__` (المشعّرة الخماسية البشرية)؛ وقد تسمّيه المراجع القديمة `__Trichomonas hominis__`.",
+    "وهو مشعّرة معوية توجد في القولون وتخرج مع البراز.",
+    "ويُعدّ عمومًا غير ممرض، مع أن دوره المحتمل في الإسهال ما زال موضع جدل، وقد توجد ممرضات أخرى في الوقت نفسه.",
+    "ولا يجوز نسبة الإسهال إلى هذا الكائن تلقائيًا دون البحث عن أسباب أخرى للعدوى المعوية.",
+    "وعند التدريس أو مراجعة المراجع، اذكر الاسم الحالي والاسم التاريخي عند الفائدة."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"**Penta**\" = five: __P. hominis__ has **five anterior flagella** (see figure B in the comparison drawing), while __T. vaginalis__ and __T. tenax__ have four.",
+    "The drawing above carries the stock-photo mark \"iStock\" from the slide."
+   ],
+   "ar": [
+    "\"**`Penta`**\" = خمسة: للمشعّرة الخماسية البشرية **خمسة أسواط أمامية** (انظر الشكل `B` في رسم المقارنة)، بينما للمهبلية والفموية أربعة.",
+    "والرسم أعلاه يحمل علامة \"`iStock`\" كما في الشريحة."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "**__P. hominis__ — Morphology and General Features**",
+   "ar": "**المشعّرة الخماسية البشرية — الشكل والصفات العامة**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The trophozoite is elongated or pear-shaped and moves using flagella."
+   ],
+   "list_ar": [
+    "المتغذّي مستطيل أو كمّثري الشكل ويتحرّك بالأسواط."
+   ],
+   "_ff": 7
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "It has anterior flagella and an undulating membrane; detailed morphology should be checked against the diagnostic reference used.",
+    "No cyst stage is known; the form observed in stool is the trophozoite.",
+    "It may resemble other trichomonads, so morphology must be interpreted alongside specimen origin and other microscopic features.",
+    "Trophozoites are relatively fragile; fresh stool is preferred when motility is being assessed."
+   ],
+   "list_ar": [
+    "له أسواط أمامية وغشاء متموّج؛ ويجب التحقّق من تفاصيل الشكل وفق المرجع التشخيصي المستعمل.",
+    "ولا يُعرف طور كيس؛ والطور الذي يُشاهد في البراز هو المتغذّي.",
+    "وقد يشبه المشعّرات الأخرى، لذا يجب تفسير الشكل مع مصدر العيّنة والصفات المجهرية الأخرى.",
+    "والمتغذّيات هشّة نسبيًا؛ ويُفضَّل البراز الطازج عند تقييم الحركة."
+   ],
+   "start": 2,
+   "_ff": 7
+  },
+  {
+   "t": "figure",
+   "src": "assets/ph-trophozoites.png",
+   "en": "__P. hominis__ trophozoites (slide illustration)",
+   "ar": "متغذّيات المشعّرة الخماسية البشرية (رسم من الشريحة)",
+   "h": "52mm"
+  },
+  {
+   "t": "h2",
+   "en": "**__P. hominis__ — Epidemiology and Pathogenicity**",
+   "ar": "**المشعّرة الخماسية البشرية — الوبائيات والإمراضية**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "It is reported worldwide, with detection rates varying by sanitation, hygiene, and diagnostic methods.",
+    "Transmission is presumed to occur mainly by the fecal–oral route through contaminated hands, food, or water.",
+    "Most references consider it a commensal or an organism of uncertain/low pathogenicity; a consistent causal relationship with diarrhea has not been established."
+   ],
+   "list_ar": [
+    "سُجّل في كل أنحاء العالم، وتختلف معدّلات كشفه باختلاف الصرف الصحّي والنظافة وطرائق التشخيص.",
+    "ويُفترض أن الانتقال يحدث أساسًا بالطريق البرازي–الفموي عبر الأيدي أو الطعام أو الماء الملوّث.",
+    "ومعظم المراجع تعدّه متعايشًا أو كائنًا غير مؤكّد/منخفض الإمراضية؛ ولم تُثبت علاقة سببية ثابتة بينه وبين الإسهال."
+   ],
+   "_ff": 8
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "When gastrointestinal symptoms are present, evaluate for better-established causes such as __Giardia__, __Entamoeba histolytica__, and relevant bacterial or viral pathogens.",
+    "It is not usually regarded as an invasive pathogen and does not require a complex life cycle or intermediate host."
+   ],
+   "list_ar": [
+    "وعند وجود أعراض هضمية، ابحث عن أسباب أكثر ثبوتًا مثل `__Giardia__` (الجيارديا) و`__Entamoeba histolytica__` (المتحوّلة الحالّة للنسج) والممرضات البكتيرية أو الفيروسية ذات العلاقة.",
+    "ولا يُعدّ عادةً ممرضًا غازيًا، ولا يحتاج دورة حياة معقّدة أو مضيفًا وسطيًا."
+   ],
+   "start": 4,
+   "_ff": 8
+  },
+  {
+   "t": "h2",
+   "en": "**__P. hominis__ — Life Cycle**",
+   "ar": "**المشعّرة الخماسية البشرية — دورة الحياة**"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Trophozoites passed in feces",
+     "ar": "متغذّيات تخرج مع البراز"
+    },
+    {
+     "en": "Fecally contaminated material ingested",
+     "ar": "ابتلاع مادّة ملوّثة بالبراز"
+    },
+    {
+     "en": "Lumen of the large intestine",
+     "ar": "تجويف الأمعاء الغليظة"
+    },
+    {
+     "en": "Longitudinal binary fission",
+     "ar": "انشطار ثنائي طولي"
+    }
+   ],
+   "en": "BIOS: the cycle in one line",
+   "ar": "`BIOS`: الدورة بسطر واحد"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Trophozoites are passed in the feces of colonized individuals.",
+    "Transmission is presumed to occur when fecally contaminated material is ingested.",
+    "The organism reaches and inhabits the lumen of the large intestine.",
+    "It reproduces by longitudinal binary fission, and trophozoites are passed again in stool.",
+    "No resistant cyst stage is known, which likely limits environmental survival compared with parasites that form resistant cysts."
+   ],
+   "list_ar": [
+    "تخرج المتغذّيات مع براز الأفراد المستعمَرين.",
+    "ويُفترض حدوث الانتقال عند ابتلاع مادّة ملوّثة بالبراز.",
+    "ويصل الكائن إلى تجويف الأمعاء الغليظة ويعيش فيه.",
+    "ويتكاثر بالانشطار الثنائي الطولي، وتخرج المتغذّيات مجدّدًا مع البراز.",
+    "ولا يُعرف طور كيس مقاوم، وهذا على الأرجح يحدّ من بقائه في البيئة مقارنةً بالطفيليات التي تكوّن أكياسًا مقاومة."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "**__P. hominis__ — Laboratory Diagnosis**",
+   "ar": "**المشعّرة الخماسية البشرية — التشخيص المختبري**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Specimen: fresh stool; prompt examination is preferred when motility is being assessed."
+   ],
+   "list_ar": [
+    "العيّنة: براز طازج؛ ويُفضَّل الفحص الفوري عند تقييم الحركة."
+   ],
+   "_ff": 9
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Direct wet-mount microscopy may reveal motile trophozoites, but sensitivity depends on timing and specimen quality.",
+    "Concentration methods or permanent stains may help clarify morphology according to the laboratory protocol.",
+    "Species-level identification can be difficult by microscopy alone; molecular tests may help in research or unclear cases.",
+    "Detection in stool does not prove that __P. hominis__ caused symptoms; correlate with the clinical picture and investigate other pathogens."
+   ],
+   "list_ar": [
+    "وقد يكشف الفحص المجهري المباشر بالتحضير الرطب متغذّيات متحرّكة، لكن الحساسية تعتمد على التوقيت وجودة العيّنة.",
+    "وقد تساعد طرائق التركيز أو الصبغات الدائمة على توضيح الشكل وفق بروتوكول المختبر.",
+    "وقد يصعب تحديد النوع بالمجهر وحده؛ وقد تساعد الفحوص الجزيئية في البحوث أو الحالات غير الواضحة.",
+    "والكشف في البراز لا يثبت أن المشعّرة الخماسية البشرية سبّبت الأعراض؛ اربط النتيجة بالصورة السريرية وابحث عن ممرضات أخرى."
+   ],
+   "start": 2,
+   "_ff": 9
+  },
+  {
+   "t": "figure",
+   "src": "assets/ph-stained.png",
+   "en": "Trichomonas hominis (stained trophozoite)",
+   "ar": "المشعّرة البشرية (متغذّي مصبوغ)",
+   "h": "46mm"
+  },
+  {
+   "t": "note",
+   "en": [
+    "__P. hominis__ = old **Trichomonas hominis**; **colon**; passed in **feces**; **5 anterior flagella**.",
+    "Generally **nonpathogenic** / uncertain; **fecal–oral**; look for Giardia, E. histolytica before blaming it for diarrhea.",
+    "Specimen: **fresh stool**, prompt wet mount; **no cyst**."
+   ],
+   "ar": [
+    "المشعّرة الخماسية البشرية = **`Trichomonas hominis`** قديمًا؛ **القولون**؛ تخرج مع **البراز**؛ **5 أسواط أمامية**.",
+    "عمومًا **غير ممرضة** / غير مؤكّدة؛ **برازي–فموي**؛ وابحث عن الجيارديا والمتحوّلة الحالّة للنسج قبل نسبة الإسهال إليها.",
+    "العيّنة: **براز طازج**، وتحضير رطب فوري؛ **بلا كيس**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Comparison of the main species",
+   "ar": "مقارنة الأنواع الرئيسية"
+  },
+  {
+   "t": "h2",
+   "en": "**Laboratory Comparison of the Main Species**",
+   "ar": "**المقارنة المختبرية للأنواع الرئيسية**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "__T. vaginalis__: urogenital tract; specimens include vaginal secretions/swabs or suitable urine and genital specimens; NAAT is often the preferred confirmatory method.",
+    "__T. tenax__: oral cavity and periodontal pockets; specimens include dental plaque or gingival material; microscopy or molecular testing may be used depending on purpose.",
+    "__P. hominis__: colon; specimen is fresh stool; direct microscopy may be used, with cautious interpretation of clinical significance.",
+    "Specimen source is essential for differentiation; motility or the name alone is insufficient."
+   ],
+   "list_ar": [
+    "المشعّرة المهبلية: الجهاز البولي التناسلي؛ والعيّنات تشمل الإفرازات/المسحات المهبلية أو عيّنات الإدرار والعيّنات التناسلية المناسبة؛ و`NAAT` غالبًا طريقة التأكيد المفضّلة.",
+    "المشعّرة الفموية: تجويف الفم وجيوب ما حول السنّ؛ والعيّنات تشمل اللويحة السنّية أو مادّة اللثة؛ ويمكن استعمال المجهر أو الفحص الجزيئي حسب الغرض.",
+    "المشعّرة الخماسية البشرية: القولون؛ والعيّنة براز طازج؛ ويمكن استعمال الفحص المجهري المباشر مع تفسير حذر لأهميتها السريرية.",
+    "ومصدر العيّنة أساسي للتمييز؛ والحركة أو الاسم وحده غير كافٍ."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/three-species-drawing.png",
+   "en": "Fig. 4.4: Trichomonas species. A. T. vaginalis; B. T. hominis; C. T. tenax",
+   "ar": "الشكل 4.4: أنواع المشعّرات. `A`. المشعّرة المهبلية؛ `B`. المشعّرة البشرية؛ `C`. المشعّرة الفموية",
+   "h": "48mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Figure text",
+     "كتابات الشكل"
+    ],
+    [
+     "Arabic",
+     "بالعربي"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Flagella**",
+      "**الأسواط**"
+     ],
+     [
+      "anterior flagella",
+      "الأسواط الأمامية"
+     ]
+    ],
+    [
+     [
+      "**Undulating membrane**",
+      "**الغشاء المتموّج**"
+     ],
+     [
+      "wave-like fin along one side",
+      "زعنفة متموّجة على جانب واحد"
+     ]
+    ],
+    [
+     [
+      "**Costa**",
+      "**الضلع (`Costa`)**"
+     ],
+     [
+      "rod at the base of the undulating membrane",
+      "عصا عند قاعدة الغشاء المتموّج"
+     ]
+    ],
+    [
+     [
+      "**Nucleus**",
+      "**النواة**"
+     ],
+     [
+      "anterior",
+      "أمامية"
+     ]
+    ],
+    [
+     [
+      "**Axostyle**",
+      "**المحور الدعامي**"
+     ],
+     [
+      "central supporting rod",
+      "عصا دعامية مركزية"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    40,
+    60
+   ],
+   "label_en": "Figure text",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "h2",
+   "en": "**Key Differences in Life Cycle and Transmission**",
+   "ar": "**الفروق الرئيسية في دورة الحياة والانتقال**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "__T. vaginalis__: primarily sexual transmission; urogenital colonization; no known cyst stage.",
+    "__T. tenax__: associated with the oral cavity; transmission through saliva or oral secretions is plausible; no known cyst stage.",
+    "__P. hominis__: intestinal habitat; presumed fecal–oral transmission; no known cyst stage.",
+    "All species discussed reproduce by binary fission, but their habitats and transmission routes differ."
+   ],
+   "list_ar": [
+    "المشعّرة المهبلية: انتقال جنسي أساسًا؛ استعمار بولي تناسلي؛ ولا يُعرف طور كيس.",
+    "المشعّرة الفموية: ترتبط بتجويف الفم؛ والانتقال عبر اللعاب أو إفرازات الفم محتمل؛ ولا يُعرف طور كيس.",
+    "المشعّرة الخماسية البشرية: موطن معوي؛ وانتقال برازي–فموي مفترض؛ ولا يُعرف طور كيس.",
+    "وكل الأنواع المذكورة تتكاثر بالانشطار الثنائي، لكن مواطنها وطرق انتقالها تختلف."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "T. vaginalis",
+     "المهبلية"
+    ],
+    [
+     "T. tenax",
+     "الفموية"
+    ],
+    [
+     "P. hominis",
+     "الخماسية البشرية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Site**",
+      "**الموضع**"
+     ],
+     [
+      "urogenital tract",
+      "الجهاز البولي التناسلي"
+     ],
+     [
+      "mouth, periodontal pockets",
+      "الفم، جيوب ما حول السنّ"
+     ],
+     [
+      "colon",
+      "القولون"
+     ]
+    ],
+    [
+     [
+      "**Transmission**",
+      "**الانتقال**"
+     ],
+     [
+      "sexual",
+      "جنسي"
+     ],
+     [
+      "saliva (plausible)",
+      "اللعاب (محتمل)"
+     ],
+     [
+      "fecal–oral (presumed)",
+      "برازي–فموي (مفترض)"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    19,
+    27,
+    27,
+    27
+   ],
+   "style": "summary",
+   "label_en": "BIOS: the three species at a glance",
+   "label_ar": "`BIOS`: الأنواع الثلاثة بنظرة واحدة",
+   "_ff": 10
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "T. vaginalis",
+     "المهبلية"
+    ],
+    [
+     "T. tenax",
+     "الفموية"
+    ],
+    [
+     "P. hominis",
+     "الخماسية البشرية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Specimen**",
+      "**العيّنة**"
+     ],
+     [
+      "vaginal swab, urine",
+      "مسحة مهبلية، إدرار"
+     ],
+     [
+      "dental plaque",
+      "اللويحة السنّية"
+     ],
+     [
+      "fresh stool",
+      "براز طازج"
+     ]
+    ],
+    [
+     [
+      "**Pathogenicity**",
+      "**الإمراضية**"
+     ],
+     [
+      "**pathogenic** (trichomoniasis)",
+      "**ممرضة** (داء المشعّرات)"
+     ],
+     [
+      "causal role not established",
+      "دورها المسبّب غير مثبت"
+     ],
+     [
+      "generally nonpathogenic",
+      "غير ممرضة عمومًا"
+     ]
+    ],
+    [
+     [
+      "**Anterior flagella**",
+      "**الأسواط الأمامية**"
+     ],
+     [
+      "4",
+      "4"
+     ],
+     [
+      "4",
+      "4"
+     ],
+     [
+      "5",
+      "5"
+     ]
+    ],
+    [
+     [
+      "**Cyst**",
+      "**الكيس**"
+     ],
+     [
+      "none",
+      "لا يوجد"
+     ],
+     [
+      "none",
+      "لا يوجد"
+     ],
+     [
+      "none",
+      "لا يوجد"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    19,
+    27,
+    27,
+    27
+   ],
+   "style": "summary",
+   "label_en": "BIOS: the three species at a glance (continued)",
+   "label_ar": "`BIOS`: الأنواع الثلاثة بنظرة واحدة (تكملة)",
+   "_ff": 10
+  },
+  {
+   "t": "note",
+   "en": [
+    "In the figure caption the intestinal species is called by its historical name \"T. hominis\" (= __Pentatrichomonas hominis__).",
+    "The number of flagella (4/4/5) is a BIOS addition from standard references."
+   ],
+   "ar": [
+    "في عنوان الشكل سُمّي النوع المعوي باسمه التاريخي «`Trichomonas hominis`» (= المشعّرة الخماسية البشرية).",
+    "وعدد الأسواط `(4/4/5)` إضافة من `BIOS` من المراجع المعتمدة."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Site decides the species: **urogenital** → vaginalis, **mouth** → tenax, **colon** → P. hominis.",
+    "All: **trophozoite only, binary fission, no cyst**."
+   ],
+   "ar": [
+    "الموضع يحدّد النوع: **بولي تناسلي** ← المهبلية، **الفم** ← الفموية، **القولون** ← الخماسية البشرية.",
+    "كلها: **متغذّي فقط، انشطار ثنائي، بلا كيس**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Common Diagnostic Pitfalls",
+   "ar": "أخطاء التشخيص الشائعة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Do not treat a negative wet mount as definitive exclusion of __T. vaginalis__; sensitivity is lower than that of molecular tests.",
+    "Do not delay wet-mount examination and then rely on absent motility to exclude the organism."
+   ],
+   "list_ar": [
+    "لا تعدّ التحضير الرطب السالب نفيًا قاطعًا لـالمشعّرة المهبلية؛ فحساسيته أقلّ من الفحوص الجزيئية.",
+    "لا تؤخّر فحص التحضير الرطب ثم تعتمد على غياب الحركة لنفي الكائن."
+   ],
+   "_ff": 11
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Detection of __T. tenax__ does not prove that it caused periodontal disease.",
+    "Do not attribute diarrhea to __P. hominis__ without considering other intestinal pathogens.",
+    "Do not confuse the historical name __Trichomonas hominis__ with the current name __Pentatrichomonas hominis__."
+   ],
+   "list_ar": [
+    "كشف المشعّرة الفموية لا يثبت أنها سبّبت مرض ما حول السنّ.",
+    "لا تنسب الإسهال إلى المشعّرة الخماسية البشرية دون التفكير في ممرضات معوية أخرى.",
+    "لا تخلط بين الاسم التاريخي `__Trichomonas hominis__` والاسم الحالي `__Pentatrichomonas hominis__`."
+   ],
+   "start": 3,
+   "_ff": 11
+  },
+  {
+   "t": "h2",
+   "en": "**Conclusion**",
+   "ar": "**الخلاصة**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "__T. vaginalis__ is the most clinically important species and causes a treatable sexually transmitted urogenital infection.",
+    "__T. tenax__ is associated with the oral cavity and periodontal disease, but its causal role is not established in every case.",
+    "__P. hominis__ is an intestinal trichomonad generally considered nonpathogenic or of uncertain pathogenicity.",
+    "The main human-associated species discussed have no known cyst stage and reproduce by binary fission.",
+    "Appropriate specimen selection, prompt examination, and NAAT when available are important for reliable diagnosis."
+   ],
+   "list_ar": [
+    "المشعّرة المهبلية أهمّ الأنواع سريريًا، وتسبّب عدوى بولية تناسلية منقولة جنسيًا قابلة للعلاج.",
+    "المشعّرة الفموية ترتبط بتجويف الفم وأمراض ما حول السنّ، لكن دورها المسبّب غير مثبت في كل حالة.",
+    "المشعّرة الخماسية البشرية مشعّرة معوية تُعدّ عمومًا غير ممرضة أو غير مؤكّدة الإمراضية.",
+    "والأنواع البشرية الرئيسية المذكورة لا يُعرف لها طور كيس، وتتكاثر بالانشطار الثنائي.",
+    "واختيار العيّنة المناسبة والفحص الفوري و`NAAT` عند توفّره أمور مهمّة لتشخيص موثوق."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Negative wet mount ≠ no __T. vaginalis__; **don't delay** the wet mount.",
+    "Detection ≠ causation (tenax, P. hominis); **T. hominis = P. hominis**."
+   ],
+   "ar": [
+    "التحضير الرطب السالب ≠ غياب المشعّرة المهبلية؛ و**لا تؤخّر** التحضير الرطب.",
+    "الكشف ≠ السببية (الفموية، الخماسية البشرية)؛ و**`T. hominis` = `P. hominis`**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Trichomonads**",
+     "المشعّرات / المشعرات"
+    ],
+    [
+     "**Trophozoite**",
+     "المتغذّي / الطور الخضري / الطور النشط"
+    ],
+    [
+     "**Flagellum (pl. flagella)**",
+     "السوط (أسواط)"
+    ],
+    [
+     "**Undulating membrane**",
+     "الغشاء المتموّج"
+    ],
+    [
+     "**Axostyle**",
+     "المحور الدعامي / العمود المحوري"
+    ],
+    [
+     "**Longitudinal binary fission**",
+     "الانشطار الثنائي الطولي"
+    ],
+    [
+     "**Trichomoniasis**",
+     "داء المشعّرات"
+    ],
+    [
+     "**Wet mount**",
+     "التحضير الرطب / المسحة الرطبة"
+    ],
+    [
+     "**NAAT**",
+     "فحص تضخيم الحمض النووي"
+    ],
+    [
+     "**Periodontal pocket**",
+     "جيب ما حول السنّ / الجيب اللثوي"
+    ],
+    [
+     "**Dental plaque**",
+     "اللويحة السنّية / البلاك"
+    ],
+    [
+     "**Commensal**",
+     "متعايش / متطاعم"
+    ],
+    [
+     "**Fecal–oral route**",
+     "الطريق البرازي–الفموي"
+    ],
+    [
+     "**Metronidazole**",
+     "الميترونيدازول (فلاجيل)"
+    ],
+    [
+     "**Cytostome**",
+     "الفم الخلوي"
+    ],
+    [
+     "**Costa**",
+     "الضلع / القضيب القاعدي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "General",
+    "topic_ar": "عام"
+   },
+   {
+    "en": "Trichomonads belong to the group:",
+    "ar": "تنتمي المشعّرات إلى مجموعة:",
+    "options": [
+     [
+      "Ciliophora",
+      "`Ciliophora`"
+     ],
+     [
+      "Apicomplexa",
+      "`Apicomplexa`"
+     ],
+     [
+      "Sarcodina",
+      "`Sarcodina`"
+     ],
+     [
+      "Parabasalia",
+      "`Parabasalia`"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The recognized form of the main human trichomonads is the:",
+    "ar": "الطور المعروف للمشعّرات البشرية الرئيسية هو:",
+    "options": [
+     [
+      "Cyst",
+      "الكيس"
+     ],
+     [
+      "Oocyst",
+      "الكيس البيضي"
+     ],
+     [
+      "Trophozoite",
+      "المتغذّي"
+     ],
+     [
+      "Larva",
+      "اليرقة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Trichomonads reproduce by:",
+    "ar": "تتكاثر المشعّرات بـ:",
+    "options": [
+     [
+      "Longitudinal binary fission",
+      "الانشطار الثنائي الطولي"
+     ],
+     [
+      "Budding",
+      "التبرعم"
+     ],
+     [
+      "Sexual reproduction only",
+      "التكاثر الجنسي فقط"
+     ],
+     [
+      "Schizogony",
+      "التكاثر المتعدّد"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which species is included only for taxonomic comparison (a bird parasite)?",
+    "ar": "أيّ نوع أُدرج للمقارنة التصنيفية فقط (طفيلي طيور)؟",
+    "options": [
+     [
+      "T. vaginalis",
+      "`T. vaginalis`"
+     ],
+     [
+      "T. gallinae",
+      "`T. gallinae`"
+     ],
+     [
+      "P. hominis",
+      "`P. hominis`"
+     ],
+     [
+      "T. tenax",
+      "`T. tenax`"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Motility of trichomonads in wet preparations is affected by:",
+    "ar": "تتأثّر حركة المشعّرات في التحضيرات الرطبة بـ:",
+    "options": [
+     [
+      "Nothing",
+      "لا شيء"
+     ],
+     [
+      "The patient's blood group",
+      "فصيلة دم المريض"
+     ],
+     [
+      "The colour of the slide",
+      "لون الشريحة"
+     ],
+     [
+      "Specimen freshness, transport conditions and temperature",
+      "طزاجة العيّنة وظروف النقل والحرارة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Trichomonas vaginalis",
+    "topic_ar": "المشعّرة المهبلية"
+   },
+   {
+    "en": "T. vaginalis causes:",
+    "ar": "تسبّب المشعّرة المهبلية:",
+    "options": [
+     [
+      "Giardiasis",
+      "داء الجيارديا"
+     ],
+     [
+      "Amoebiasis",
+      "داء الأميبات"
+     ],
+     [
+      "Trichomoniasis",
+      "داء المشعّرات"
+     ],
+     [
+      "Periodontitis",
+      "التهاب ما حول السنّ"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The WHO estimated new T. vaginalis infections in 2020 at about:",
+    "ar": "قدّرت منظمة الصحة العالمية الإصابات الجديدة سنة 2020 بنحو:",
+    "options": [
+     [
+      "156 million",
+      "156 مليونًا"
+     ],
+     [
+      "1.5 million",
+      "1.5 مليون"
+     ],
+     [
+      "15 million",
+      "15 مليونًا"
+     ],
+     [
+      "1 billion",
+      "مليار"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The T. vaginalis trophozoite is about:",
+    "ar": "طول متغذّي المشعّرة المهبلية نحو:",
+    "options": [
+     [
+      "1–2 µm",
+      "1–2 مايكرومتر"
+     ],
+     [
+      "7–30 µm",
+      "7–30 مايكرومتر"
+     ],
+     [
+      "2–5 mm",
+      "2–5 ملم"
+     ],
+     [
+      "100–200 µm",
+      "100–200 مايكرومتر"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "T. vaginalis has:",
+    "ar": "للمشعّرة المهبلية:",
+    "options": [
+     [
+      "Eight flagella and two nuclei",
+      "ثمانية أسواط ونواتان"
+     ],
+     [
+      "Four anterior flagella and a fifth on the undulating membrane",
+      "أربعة أسواط أمامية وسوط خامس على الغشاء المتموّج"
+     ],
+     [
+      "No flagella",
+      "لا أسواط"
+     ],
+     [
+      "Cilia over the whole body",
+      "أهداب على كامل الجسم"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The motility of T. vaginalis in a fresh wet mount is:",
+    "ar": "حركة المشعّرة المهبلية في التحضير الرطب الطازج:",
+    "options": [
+     [
+      "Slow and gliding",
+      "بطيئة انزلاقية"
+     ],
+     [
+      "Falling-leaf",
+      "كسقوط الورقة"
+     ],
+     [
+      "Absent",
+      "غائبة"
+     ],
+     [
+      "Rapid and jerky or tumbling",
+      "سريعة متقطّعة أو متدحرجة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which is NOT an established usual route of T. vaginalis transmission?",
+    "ar": "أيّ مما يلي ليس طريق انتقال معتادًا مثبتًا للمشعّرة المهبلية؟",
+    "options": [
+     [
+      "Sexual contact",
+      "الاتصال الجنسي"
+     ],
+     [
+      "Infected genital secretions",
+      "الإفرازات التناسلية المصابة"
+     ],
+     [
+      "Toilet seats and swimming pools",
+      "مقاعد المرافق وأحواض السباحة"
+     ],
+     [
+      "Contact with a sexual partner",
+      "الاتصال بالشريك الجنسي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "A vaginal pH above 4.5 in trichomoniasis is:",
+    "ar": "`pH` مهبلي أعلى من 4.5 في داء المشعّرات:",
+    "options": [
+     [
+      "Nonspecific and cannot establish the diagnosis",
+      "غير نوعي ولا يثبت التشخيص"
+     ],
+     [
+      "Always present",
+      "موجود دائمًا"
+     ],
+     [
+      "Specific for T. vaginalis",
+      "نوعي للمشعّرة المهبلية"
+     ],
+     [
+      "Diagnostic",
+      "تشخيصي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Trichomoniasis is associated with increased risk of acquiring:",
+    "ar": "يرتبط داء المشعّرات بزيادة خطر اكتساب:",
+    "options": [
+     [
+      "Malaria",
+      "الملاريا"
+     ],
+     [
+      "HIV",
+      "`HIV`"
+     ],
+     [
+      "Tuberculosis",
+      "السلّ"
+     ],
+     [
+      "Hepatitis A",
+      "التهاب الكبد `A`"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The infective and diagnostic stage of T. vaginalis is the:",
+    "ar": "الطور المُعدي والتشخيصي للمشعّرة المهبلية هو:",
+    "options": [
+     [
+      "Cyst",
+      "الكيس"
+     ],
+     [
+      "Sporozoite",
+      "البويغة"
+     ],
+     [
+      "Egg",
+      "البيضة"
+     ],
+     [
+      "Trophozoite",
+      "المتغذّي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The preferred specimen for T. vaginalis in women is:",
+    "ar": "العيّنة المفضّلة للمشعّرة المهبلية عند النساء:",
+    "options": [
+     [
+      "Vaginal swab or discharge",
+      "مسحة أو إفرازات مهبلية"
+     ],
+     [
+      "Blood",
+      "الدم"
+     ],
+     [
+      "Stool",
+      "البراز"
+     ],
+     [
+      "Sputum",
+      "القشع"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The wet mount must be examined promptly because:",
+    "ar": "يجب فحص التحضير الرطب فورًا لأن:",
+    "options": [
+     [
+      "The stain fades",
+      "الصبغة تبهت"
+     ],
+     [
+      "Cysts form quickly",
+      "الأكياس تتكوّن بسرعة"
+     ],
+     [
+      "Sensitivity decreases as motility is lost",
+      "الحساسية تنخفض مع فقدان الحركة"
+     ],
+     [
+      "Saline evaporates in seconds",
+      "المحلول الملحي يتبخّر بثوانٍ"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The most sensitive diagnostic method for T. vaginalis is:",
+    "ar": "أكثر طرائق تشخيص المشعّرة المهبلية حساسية:",
+    "options": [
+     [
+      "NAAT/PCR",
+      "`NAAT/PCR`"
+     ],
+     [
+      "Wet mount",
+      "التحضير الرطب"
+     ],
+     [
+      "Pap smear",
+      "مسحة بابانيكولاو"
+     ],
+     [
+      "Vaginal pH",
+      "`pH` المهبل"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Treatment of trichomoniasis generally uses:",
+    "ar": "يستعمل علاج داء المشعّرات عمومًا:",
+    "options": [
+     [
+      "Penicillin",
+      "البنسلين"
+     ],
+     [
+      "Antihistamines",
+      "مضادّات الهستامين"
+     ],
+     [
+      "Antifungal cream",
+      "كريم مضادّ للفطريات"
+     ],
+     [
+      "Metronidazole or tinidazole",
+      "الميترونيدازول أو التينيدازول"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Women are retested after treatment at about:",
+    "ar": "يُعاد فحص النساء بعد العلاج بنحو:",
+    "options": [
+     [
+      "1 week",
+      "أسبوع"
+     ],
+     [
+      "3 months",
+      "3 أشهر"
+     ],
+     [
+      "1 year",
+      "سنة"
+     ],
+     [
+      "Never",
+      "لا يُعاد"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "T. tenax and P. hominis",
+    "topic_ar": "المشعّرة الفموية والخماسية البشرية"
+   },
+   {
+    "en": "T. tenax lives mainly in the:",
+    "ar": "تعيش المشعّرة الفموية أساسًا في:",
+    "options": [
+     [
+      "Colon",
+      "القولون"
+     ],
+     [
+      "Vagina",
+      "المهبل"
+     ],
+     [
+      "Oral cavity (dental plaque, periodontal pockets)",
+      "تجويف الفم (اللويحة السنّية، جيوب ما حول السنّ)"
+     ],
+     [
+      "Blood",
+      "الدم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Regarding T. tenax and periodontal disease:",
+    "ar": "بخصوص المشعّرة الفموية وأمراض ما حول السنّ:",
+    "options": [
+     [
+      "Detection alone does not prove causation",
+      "الكشف وحده لا يثبت السببية"
+     ],
+     [
+      "It is the proven cause",
+      "هي السبب المثبت"
+     ],
+     [
+      "It never occurs in periodontal disease",
+      "لا توجد أبدًا في أمراض ما حول السنّ"
+     ],
+     [
+      "It is sexually transmitted",
+      "تنتقل جنسيًا"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "T. tenax is:",
+    "ar": "المشعّرة الفموية:",
+    "options": [
+     [
+      "A sexually transmitted infection",
+      "عدوى منقولة جنسيًا"
+     ],
+     [
+      "A cyst-forming parasite",
+      "طفيلي مكوّن للأكياس"
+     ],
+     [
+      "A blood parasite",
+      "طفيلي دموي"
+     ],
+     [
+      "Not considered a sexually transmitted infection",
+      "لا تُعدّ عدوى منقولة جنسيًا"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The historical name of Pentatrichomonas hominis is:",
+    "ar": "الاسم التاريخي لـ`Pentatrichomonas hominis`:",
+    "options": [
+     [
+      "Trichomonas tenax",
+      "`Trichomonas tenax`"
+     ],
+     [
+      "Trichomonas hominis",
+      "`Trichomonas hominis`"
+     ],
+     [
+      "Giardia lamblia",
+      "`Giardia lamblia`"
+     ],
+     [
+      "Trichomonas gallinae",
+      "`Trichomonas gallinae`"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "P. hominis is found in the:",
+    "ar": "توجد المشعّرة الخماسية البشرية في:",
+    "options": [
+     [
+      "Urethra",
+      "الإحليل"
+     ],
+     [
+      "Mouth",
+      "الفم"
+     ],
+     [
+      "Colon",
+      "القولون"
+     ],
+     [
+      "Lungs",
+      "الرئتين"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The specimen for P. hominis is:",
+    "ar": "عيّنة المشعّرة الخماسية البشرية:",
+    "options": [
+     [
+      "Urine",
+      "إدرار"
+     ],
+     [
+      "Fresh stool",
+      "براز طازج"
+     ],
+     [
+      "Dental plaque",
+      "لويحة سنّية"
+     ],
+     [
+      "Vaginal swab",
+      "مسحة مهبلية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "When diarrhea is present and P. hominis is found, you should:",
+    "ar": "عند وجود إسهال والعثور على المشعّرة الخماسية البشرية يجب:",
+    "options": [
+     [
+      "Blame P. hominis immediately",
+      "نسبته إليها فورًا"
+     ],
+     [
+      "Look for cysts of P. hominis",
+      "البحث عن أكياس المشعّرة الخماسية"
+     ],
+     [
+      "Stop all tests",
+      "إيقاف كل الفحوص"
+     ],
+     [
+      "Investigate other pathogens such as Giardia and E. histolytica",
+      "البحث عن ممرضات أخرى مثل الجيارديا والمتحوّلة الحالّة للنسج"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The transmission of P. hominis is presumed to be:",
+    "ar": "انتقال المشعّرة الخماسية البشرية يُفترض أنه:",
+    "options": [
+     [
+      "Fecal–oral",
+      "برازي–فموي"
+     ],
+     [
+      "By insect bite",
+      "بلدغة حشرة"
+     ],
+     [
+      "Sexual",
+      "جنسي"
+     ],
+     [
+      "Airborne",
+      "عبر الهواء"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this life cycle, the stage marked i (infective) is the:",
+    "ar": "في دورة الحياة هذه، الطور المعلَّم `i` (المُعدي) هو:",
+    "options": [
+     [
+      "Cyst",
+      "الكيس"
+     ],
+     [
+      "Egg",
+      "البيضة"
+     ],
+     [
+      "Trophozoite",
+      "المتغذّي"
+     ],
+     [
+      "Larva",
+      "اليرقة"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/tv-life-cycle.png",
+    "img_h": "44mm"
+   },
+   {
+    "en": "In this diagram, the rod running to the posterior end is the:",
+    "ar": "في هذا الرسم، العصا الممتدّة إلى النهاية الخلفية هي:",
+    "options": [
+     [
+      "Nucleus",
+      "النواة"
+     ],
+     [
+      "Cytostome",
+      "الفم الخلوي"
+     ],
+     [
+      "Blepharoplast",
+      "الجسيم القاعدي"
+     ],
+     [
+      "Axostyle",
+      "المحور الدعامي"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/tv-morphology-diagram.png",
+    "img_h": "44mm"
+   },
+   {
+    "en": "In this figure, drawing B (with five anterior flagella) is:",
+    "ar": "في هذا الشكل، الرسم `B` (بخمسة أسواط أمامية) هو:",
+    "options": [
+     [
+      "T. hominis (P. hominis)",
+      "`T. hominis` (`P. hominis`)"
+     ],
+     [
+      "T. vaginalis",
+      "`T. vaginalis`"
+     ],
+     [
+      "T. tenax",
+      "`T. tenax`"
+     ],
+     [
+      "Giardia",
+      "الجيارديا"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/three-species-drawing.png",
+    "img_h": "34mm"
+   },
+   {
+    "en": "This specimen site (oral cavity) points to:",
+    "ar": "موضع العيّنة هذا (تجويف الفم) يشير إلى:",
+    "options": [
+     [
+      "T. vaginalis",
+      "`T. vaginalis`"
+     ],
+     [
+      "T. tenax",
+      "`T. tenax`"
+     ],
+     [
+      "P. hominis",
+      "`P. hominis`"
+     ],
+     [
+      "T. gallinae",
+      "`T. gallinae`"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/tt-oral-cavity.png",
+    "img_h": "32mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "A true cyst stage is known for T. vaginalis.",
+    "ar": "يُعرف طور كيس حقيقي للمشعّرة المهبلية.",
+    "answer": "F"
+   },
+   {
+    "en": "Trichomonads move by flagella, and some have an undulating membrane.",
+    "ar": "تتحرّك المشعّرات بالأسواط، ولبعضها غشاء متموّج.",
+    "answer": "T"
+   },
+   {
+    "en": "In men, T. vaginalis infection is often asymptomatic.",
+    "ar": "عند الرجال تكون عدوى المشعّرة المهبلية غالبًا بلا أعراض.",
+    "answer": "T"
+   },
+   {
+    "en": "Absence of symptoms excludes T. vaginalis infection.",
+    "ar": "غياب الأعراض ينفي عدوى المشعّرة المهبلية.",
+    "answer": "F"
+   },
+   {
+    "en": "A negative wet mount rules out trichomoniasis.",
+    "ar": "التحضير الرطب السالب ينفي داء المشعّرات.",
+    "answer": "F"
+   },
+   {
+    "en": "Culture may be used for persistent infection or drug-susceptibility assessment.",
+    "ar": "قد يُستعمل الزرع للعدوى المستمرّة أو لتقييم الحساسية للأدوية.",
+    "answer": "T"
+   },
+   {
+    "en": "A Pap smear is a definitive diagnostic test for T. vaginalis.",
+    "ar": "مسحة بابانيكولاو فحص تشخيصي حاسم للمشعّرة المهبلية.",
+    "answer": "F"
+   },
+   {
+    "en": "Sexual partners of a patient with trichomoniasis should be treated.",
+    "ar": "يجب علاج الشركاء الجنسيين لمريض داء المشعّرات.",
+    "answer": "T"
+   },
+   {
+    "en": "T. tenax is commonly found in dental plaque and periodontal pockets.",
+    "ar": "توجد المشعّرة الفموية عادةً في اللويحة السنّية وجيوب ما حول السنّ.",
+    "answer": "T"
+   },
+   {
+    "en": "Species identification of T. tenax by morphology alone is always easy.",
+    "ar": "تحديد نوع المشعّرة الفموية بالشكل وحده سهل دائمًا.",
+    "answer": "F"
+   },
+   {
+    "en": "P. hominis is generally considered nonpathogenic.",
+    "ar": "تُعدّ المشعّرة الخماسية البشرية عمومًا غير ممرضة.",
+    "answer": "T"
+   },
+   {
+    "en": "P. hominis needs an intermediate host.",
+    "ar": "تحتاج المشعّرة الخماسية البشرية إلى مضيف وسطي.",
+    "answer": "F"
+   },
+   {
+    "en": "All trichomonads discussed reproduce by binary fission.",
+    "ar": "كل المشعّرات المذكورة تتكاثر بالانشطار الثنائي.",
+    "answer": "T"
+   },
+   {
+    "en": "Specimen source is essential to differentiate the trichomonad species.",
+    "ar": "مصدر العيّنة أساسي للتمييز بين أنواع المشعّرات.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "No cyst in any of them",
+    "ar": "لا كيس في أيّ منها",
+    "answer_en": "T. vaginalis, T. tenax and P. hominis exist only as trophozoites — the infective AND diagnostic form is the trophozoite.",
+    "answer_ar": "المهبلية والفموية والخماسية البشرية توجد فقط بطور المتغذّي — فالطور المُعدي والتشخيصي هو المتغذّي."
+   },
+   {
+    "en": "Site → species",
+    "ar": "الموضع ← النوع",
+    "answer_en": "Urogenital = T. vaginalis; mouth = T. tenax; colon/stool = P. hominis. Motility or name alone is not enough.",
+    "answer_ar": "البولي التناسلي = المهبلية؛ الفم = الفموية؛ القولون/البراز = الخماسية البشرية. والحركة أو الاسم وحده لا يكفي."
+   },
+   {
+    "en": "Negative wet mount",
+    "ar": "التحضير الرطب السالب",
+    "answer_en": "A negative wet mount does NOT rule out T. vaginalis; NAAT/PCR is more sensitive, and a delayed wet mount loses motility.",
+    "answer_ar": "التحضير الرطب السالب لا ينفي المشعّرة المهبلية؛ فـ`NAAT/PCR` أكثر حساسية، والتحضير المتأخّر يفقد الحركة."
+   },
+   {
+    "en": "T. hominis = P. hominis",
+    "ar": "`T. hominis` = `P. hominis`",
+    "answer_en": "Trichomonas hominis is the historical name of Pentatrichomonas hominis (five anterior flagella) — same organism, intestinal.",
+    "answer_ar": "`Trichomonas hominis` هو الاسم التاريخي لـ`Pentatrichomonas hominis` (خمسة أسواط أمامية) — الكائن نفسه، معوي."
+   },
+   {
+    "en": "Detection is not causation",
+    "ar": "الكشف ليس سببية",
+    "answer_en": "Finding T. tenax in periodontitis or P. hominis in diarrhea does not prove they caused the disease.",
+    "answer_ar": "العثور على الفموية في التهاب ما حول السنّ أو الخماسية البشرية في الإسهال لا يثبت أنها سبّبت المرض."
+   },
+   {
+    "en": "pH > 4.5",
+    "ar": "`pH > 4.5`",
+    "answer_en": "A vaginal pH above 4.5 may occur but is nonspecific — it cannot establish the diagnosis of trichomoniasis.",
+    "answer_ar": "قد يرتفع `pH` المهبل فوق 4.5 لكنه غير نوعي — ولا يثبت تشخيص داء المشعّرات."
+   },
+   {
+    "en": "Toilet seats",
+    "ar": "مقاعد المرافق",
+    "answer_en": "Swimming pools and toilet seats are not the usual or established route of T. vaginalis — it is mainly sexual.",
+    "answer_ar": "أحواض السباحة ومقاعد المرافق ليست الطريق المعتاد أو المثبت للمشعّرة المهبلية — فانتقالها جنسي أساسًا."
+   }
+  ],
+  "important": [
+   {
+    "en": "Give the general characteristics of trichomonads.",
+    "ar": "اذكر الصفات العامة للمشعّرات.",
+    "answer_en": "Unicellular eukaryotic protozoa (Parabasalia); move by flagella, some with an undulating membrane; the trophozoite is the recognized form; reproduce by longitudinal binary fission; no resistant cyst stage; transmission by direct contact or moist secretions; motility in wet preparations depends on freshness, transport and temperature.",
+    "answer_ar": "أوالٍ حقيقية النواة وحيدة الخلية (`Parabasalia`)؛ تتحرّك بالأسواط ولبعضها غشاء متموّج؛ والمتغذّي هو الطور المعروف؛ تتكاثر بالانشطار الثنائي الطولي؛ بلا طور كيس مقاوم؛ تنتقل بالتماسّ المباشر أو الإفرازات الرطبة؛ وتتأثّر حركتها في التحضير الرطب بالطزاجة والنقل والحرارة."
+   },
+   {
+    "en": "Describe the morphology of the T. vaginalis trophozoite.",
+    "ar": "صف شكل متغذّي المشعّرة المهبلية.",
+    "answer_en": "Pear-shaped or oval, about 7–30 µm; one anterior nucleus; four anterior flagella and a fifth along the undulating membrane; an axostyle reaching and projecting beyond the posterior end; rapid jerky motility; no cyst stage.",
+    "answer_ar": "كمّثري أو بيضوي، نحو 7–30 مايكرومتر؛ نواة أمامية واحدة؛ أربعة أسواط أمامية وخامس على الغشاء المتموّج؛ محور دعامي يصل النهاية الخلفية ويبرز منها؛ حركة سريعة متقطّعة؛ بلا طور كيس."
+   },
+   {
+    "en": "Describe the life cycle of T. vaginalis.",
+    "ar": "صف دورة حياة المشعّرة المهبلية.",
+    "answer_en": "Only the trophozoite exists. It is transmitted mainly by sexual contact through infected genital secretions, colonizes the urogenital tract and multiplies by longitudinal binary fission; trophozoites in genital secretions or urine pass to the partner. The infective and diagnostic forms are both trophozoites.",
+    "answer_ar": "يوجد المتغذّي فقط. ينتقل أساسًا بالاتصال الجنسي عبر الإفرازات التناسلية المصابة، ويستعمر الجهاز البولي التناسلي ويتكاثر بالانشطار الثنائي الطولي؛ وتنتقل المتغذّيات في الإفرازات أو الإدرار إلى الشريك. والطور المُعدي والتشخيصي كلاهما متغذّي."
+   },
+   {
+    "en": "Discuss the laboratory diagnosis of T. vaginalis.",
+    "ar": "ناقش التشخيص المختبري للمشعّرة المهبلية.",
+    "answer_en": "Specimens: vaginal swab/discharge (women), urine or urethral swab (men). Wet mount with saline examined immediately for motile trophozoites (rapid, cheap, limited sensitivity; negative does not exclude). NAAT/PCR is the most sensitive and preferred. Culture for persistent infection or susceptibility. Rapid antigen tests for approved specimens. Pap smear is not definitive.",
+    "answer_ar": "العيّنات: مسحة/إفرازات مهبلية (النساء)، إدرار أو مسحة إحليل (الرجال). تحضير رطب بالمحلول الملحي يُفحص فورًا بحثًا عن متغذّيات متحرّكة (سريع ورخيص بحساسية محدودة؛ السالب لا ينفي). و`NAAT/PCR` الأكثر حساسية والمفضّل. والزرع للعدوى المستمرّة أو الحساسية. وفحوص المستضد السريعة للعيّنات المعتمدة. ومسحة بابانيكولاو غير حاسمة."
+   },
+   {
+    "en": "Compare T. vaginalis, T. tenax and P. hominis.",
+    "ar": "قارن بين المشعّرة المهبلية والفموية والخماسية البشرية.",
+    "answer_en": "T. vaginalis: urogenital tract, sexual transmission, vaginal swab/urine, pathogenic (trichomoniasis). T. tenax: oral cavity/periodontal pockets, saliva (plausible), dental plaque, causal role not established. P. hominis: colon, fecal–oral, fresh stool, generally nonpathogenic. All: trophozoite only, binary fission, no cyst.",
+    "answer_ar": "المهبلية: الجهاز البولي التناسلي، انتقال جنسي، مسحة مهبلية/إدرار، ممرضة (داء المشعّرات). الفموية: تجويف الفم/جيوب ما حول السنّ، اللعاب (محتمل)، لويحة سنّية، دورها غير مثبت. الخماسية البشرية: القولون، برازي–فموي، براز طازج، غير ممرضة عمومًا. وكلها: متغذّي فقط، انشطار ثنائي، بلا كيس."
+   },
+   {
+    "en": "Outline the treatment and prevention of trichomoniasis.",
+    "ar": "اذكر باختصار علاج داء المشعّرات والوقاية منه.",
+    "answer_en": "Nitroimidazoles (metronidazole or tinidazole) per clinical guidelines; treat sexual partners and avoid sexual contact until treatment is complete; retest women at about 3 months because reinfection is common; no self-medication or unsupervised topical treatment.",
+    "answer_ar": "مركّبات النيتروإيميدازول (الميترونيدازول أو التينيدازول) وفق الإرشادات؛ علاج الشركاء الجنسيين وتجنّب الاتصال حتى اكتمال العلاج؛ إعادة فحص النساء بعد نحو 3 أشهر لشيوع إعادة العدوى؛ ولا علاج ذاتي أو موضعي بلا إشراف."
+   },
+   {
+    "en": "List the common diagnostic pitfalls with trichomonads.",
+    "ar": "عدّد أخطاء التشخيص الشائعة مع المشعّرات.",
+    "answer_en": "Treating a negative wet mount as exclusion of T. vaginalis; delaying the wet mount then relying on absent motility; taking T. tenax detection as proof it caused periodontal disease; blaming diarrhea on P. hominis without looking for other pathogens; confusing Trichomonas hominis with Pentatrichomonas hominis.",
+    "answer_ar": "عدّ التحضير الرطب السالب نفيًا للمشعّرة المهبلية؛ تأخير التحضير الرطب ثم الاعتماد على غياب الحركة؛ عدّ كشف الفموية دليلًا على تسبيبها مرض ما حول السنّ؛ نسبة الإسهال إلى الخماسية البشرية دون البحث عن ممرضات أخرى؛ الخلط بين `Trichomonas hominis` و`Pentatrichomonas hominis`."
+   }
+  ]
+ }
+}
