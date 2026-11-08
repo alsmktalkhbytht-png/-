@@ -1150,6 +1150,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `enzymology-lab4-amylase-lipase` | انزيمات سريرية | عملي 4 — الأميليز واللايبيز |
 | `parasitology-lab6-trichomonads` | طفيليات عملي | عملي 6 — المشعّرات |
 | `parasitology-week6-7-theory` | طفيليات | نظري الأسبوعان 6 و7 — السوطيات (الجيارديا، المشعّرة المهبلية) + التشخيص المختبري للأوالي المعوية؛ ملف أسئلة منفصل (2026-11-08) |
+| `parasitology-week8-theory` | طفيليات | نظري الأسبوع 8 — المثقّبات (مرض النوم، داء شاغاس) + التشخيص والمقايسات المناعية والجزيئية؛ ملف أسئلة منفصل (2026-11-08) |
 | `enzymology-lec5-diagnostic-enzymes` | انزيمات سريرية | نظري 5 — إنزيمات البلازما في التشخيص |
 | `enzymology-lec1-introduction` | إنزيمات سريرية | نظري 1 |
 | `enzymology-lec2-kinetics-inhibition` | إنزيمات سريرية | نظري 2 |
