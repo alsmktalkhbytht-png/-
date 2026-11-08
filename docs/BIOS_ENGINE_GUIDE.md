@@ -1149,6 +1149,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `enzymology-lab3-alkaline-phosphatase` | إنزيمات سريرية | عملي 3 — الفوسفاتيز القاعدي (د. بارق و د. هشام، أسلوب جديد) |
 | `enzymology-lab4-amylase-lipase` | انزيمات سريرية | عملي 4 — الأميليز واللايبيز |
 | `parasitology-lab6-trichomonads` | طفيليات عملي | عملي 6 — المشعّرات |
+| `enzymology-lec5-diagnostic-enzymes` | انزيمات سريرية | نظري 5 — إنزيمات البلازما في التشخيص |
 | `enzymology-lec1-introduction` | إنزيمات سريرية | نظري 1 |
 | `enzymology-lec2-kinetics-inhibition` | إنزيمات سريرية | نظري 2 |
 | `enzymology-lec3-michaelis-menten-questions` | إنزيمات سريرية | نظري 3 — أسئلة معادلة ميكالس-منتن (د. وليد مجيد، أسلوب جديد) |

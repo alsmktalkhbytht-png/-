@@ -43,6 +43,7 @@
 - [[Code/elab4 - el4.py|elab4/el4.py]] → enzymology-lab4-amylase-lipase
 - [[Code/enz3 - e3q.py|enz3/e3q.py]] → enzymology-lec3-michaelis-menten-questions
 - [[Code/enz4 - e4q.py|enz4/e4q.py]] → enzymology-lec4-bioenergetics
+- [[Code/enz5 - e5.py|enz5/e5.py]] → enzymology-lec5-diagnostic-enzymes
 - [[Code/eth - make.py|eth/make.py]] → ethics-lec1-morals
 - [[Code/eth4 - e4.py|eth4/e4.py]] → ethics-lec4-cheating
 - [[Code/gen2 - g2q.py|gen2/g2q.py]] → genetics-lec2-mitosis

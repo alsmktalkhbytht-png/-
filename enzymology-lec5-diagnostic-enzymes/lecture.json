@@ -1,0 +1,3292 @@
+{
+ "meta": {
+  "subject_en": "Clinical Enzymology",
+  "subject_ar": "الإنزيمات السريرية",
+  "short_ar": "انزيمات سريرية",
+  "instructor": "د. وليد مجيد",
+  "unit_en": "Lecture 5",
+  "unit_ar": "المحاضرة 5",
+  "unit_label": "LEC",
+  "unit_no": "5",
+  "title_en": "Plasma Enzymes in the Diagnosis of Disease",
+  "title_ar": "إنزيمات البلازما في تشخيص الأمراض",
+  "department": "قسم التحليلات",
+  "stage": "The fourth stage — الرابعة",
+  "kind": "Theory — نظري"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Introduction",
+   "ar": "المقدمة"
+  },
+  {
+   "t": "note",
+   "en": "Bilad AL-Rafidain University College · Department of Health and Medical Technologies · Clinccal Enzymology · Lecture :5 · 2025 - 2026 · Prepared by : Dr. Hussein Mahmood",
+   "ar": "كلية بلاد الرافدين الجامعة · قسم التقنيات الصحّية والطبّية · الإنزيمات السريرية · المحاضرة 5 · 2025 - 2026 · إعداد: د. حسين محمود",
+   "label": [
+    "Lecture slides",
+    "شرائح المحاضرة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "The title slide says \"Prepared by: Dr. Hussein Mahmood\"; the cover follows the instructor you gave (د. وليد مجيد), as in lectures 1–4.",
+    "\"Clinccal\" = **Clinical**."
+   ],
+   "ar": [
+    "شريحة العنوان تقول «إعداد: د. حسين محمود»؛ والغلاف يتبع التدريسي الذي ذكرته (د. وليد مجيد) مثل المحاضرات 1–4.",
+    "و\"`Clinccal`\" = **`Clinical`**."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**INTRODUCTION**",
+   "ar": "**المقدمة**",
+   "list_en": [
+    "Enzymes are protein catalysts that increase the rate or velocity of physiologic reactions in our body",
+    "In general, most enzymes are present in cells at much higher concentrations than in plasma.",
+    "Measurement of their levels in plasma indicates whether their tissue of origin is damaged leading to the release of intracellular components into the blood"
+   ],
+   "list_ar": [
+    "الإنزيمات عوامل مساعدة بروتينية تزيد معدّل التفاعلات الفسيولوجية أو سرعتها في أجسامنا",
+    "وعمومًا توجد معظم الإنزيمات في الخلايا بتراكيز أعلى بكثير ممّا في البلازما.",
+    "وقياس مستوياتها في البلازما يدلّ على ما إذا كان نسيجها الأصلي متضرّرًا، ممّا يؤدّي إلى تحرّر المكوّنات داخل الخلوية إلى الدم"
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**clinical enzymology** refers to measurement of enzyme activity for the diagnosis and treatment of diseases."
+   ],
+   "list_ar": [
+    "و**الإنزيمات السريرية (`clinical enzymology`)** تعني قياس فعالية الإنزيمات لتشخيص الأمراض وعلاجها."
+   ],
+   "start": 4,
+   "_ff": 1
+  },
+  {
+   "t": "h2",
+   "en": "**Types Of Plasma Enzymes**",
+   "ar": "**أنواع إنزيمات البلازما**"
+  },
+  {
+   "t": "card",
+   "en": "**A. Enzymes that have definite physiological functions in the circulation such as:**",
+   "ar": "**أ. إنزيمات لها وظائف فسيولوجية محدّدة في الدوران، مثل:**",
+   "list_en": [
+    "Lipoprotein lipase",
+    "Proenzymes of blood coagulation"
+   ],
+   "list_ar": [
+    "لايبيز البروتين الدهني",
+    "طلائع إنزيمات تخثّر الدم"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**B. Enzymes that reflect organ pathophysiology**",
+   "ar": "**ب. إنزيمات تعكس الفسيولوجيا المرضية للأعضاء**",
+   "list_en": [
+    "Normally present in extremely low concentrations in plasma as compared with their high concentrations in various tissues.",
+    "In case of tissue damage, they are released in greater amounts causing higher plasma levels which have diagnostic and sometimes prognostic significance."
+   ],
+   "list_ar": [
+    "توجد طبيعيًا في البلازما بتراكيز منخفضة جدًا مقارنةً بتراكيزها العالية في الأنسجة المختلفة.",
+    "وعند تضرّر النسيج تتحرّر بكمّيات أكبر فترفع مستوياتها في البلازما، ولهذا أهمية تشخيصية وأحيانًا إنذارية."
+   ],
+   "start": 1
+  },
+  {
+   "t": "card",
+   "en": "Include:",
+   "ar": "وتشمل:",
+   "list_en": [
+    "Enzymes present in exocrine secretions, which diffuse passively into the circulation e.g. amylase and lipase in pancreatic disorders."
+   ],
+   "list_ar": [
+    "إنزيمات موجودة في الإفرازات الخارجية تنتشر انتشارًا منفعلًا إلى الدوران، مثل الأميليز واللايبيز في اضطرابات البنكرياس."
+   ],
+   "alpha": true,
+   "_ff": 2
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Intracellular enzymes: enzymes used to detect pathological disorders of the various organs of the body e.g. myocardial infarction and hepatitis."
+   ],
+   "list_ar": [
+    "إنزيمات داخل خلوية: تُستعمل لكشف الاضطرابات المرضية في أعضاء الجسم المختلفة، مثل احتشاء العضلة القلبية والتهاب الكبد."
+   ],
+   "alpha": true,
+   "start": 2,
+   "_ff": 2
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "Functional plasma enzymes",
+     "إنزيمات البلازما الوظيفية"
+    ],
+    [
+     "Non-functional plasma enzymes",
+     "إنزيمات البلازما غير الوظيفية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Concentration in plasma**",
+      "**التركيز في البلازما**"
+     ],
+     [
+      "Present in plasma in higher concentrations in comparison to tissues",
+      "موجودة في البلازما بتراكيز أعلى مقارنةً بالأنسجة"
+     ],
+     [
+      "Normally, present in plasma in very low concentrations in comparison to tissues",
+      "موجودة طبيعيًا في البلازما بتراكيز منخفضة جدًا مقارنةً بالأنسجة"
+     ]
+    ],
+    [
+     [
+      "**Function**",
+      "**الوظيفة**"
+     ],
+     [
+      "Have known functions",
+      "لها وظائف معروفة"
+     ],
+     [
+      "No known functions",
+      "لا وظائف معروفة لها"
+     ]
+    ],
+    [
+     [
+      "**The substrates**",
+      "**الركائز**"
+     ],
+     [
+      "Their substrates are always present in the blood",
+      "ركائزها موجودة دائمًا في الدم"
+     ],
+     [
+      "Their substrates are absent from the blood",
+      "ركائزها غائبة عن الدم"
+     ]
+    ],
+    [
+     [
+      "**Site of synthesis**",
+      "**موقع التصنيع**"
+     ],
+     [
+      "Liver",
+      "الكبد"
+     ],
+     [
+      "Different organs e.g. liver, heart, brain and skeletal muscles",
+      "أعضاء مختلفة مثل الكبد والقلب والدماغ والعضلات الهيكلية"
+     ]
+    ],
+    [
+     [
+      "**Effect of diseases**",
+      "**تأثير الأمراض**"
+     ],
+     [
+      "Decrease in liver diseases",
+      "تنخفض في أمراض الكبد"
+     ],
+     [
+      "Different enzymes increase in different organ diseases",
+      "ترتفع إنزيمات مختلفة في أمراض أعضاء مختلفة"
+     ]
+    ],
+    [
+     [
+      "**Examples**",
+      "**أمثلة**"
+     ],
+     [
+      "Clotting factors e.g. prothrombin, Lipoprotein lipase and pseudo-choline esterase",
+      "عوامل التخثّر مثل البروثرومبين، ولايبيز البروتين الدهني، والكولين إستريز الكاذب"
+     ],
+     [
+      "ALT, AST, CK, LDH, alkaline phosphatase, acid phosphatase and amylase",
+      "`ALT` و`AST` و`CK` و`LDH` والفوسفاتيز القاعدي والفوسفاتيز الحامضي والأميليز"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    39,
+    39
+   ],
+   "label_en": "Table on the slide (picture)",
+   "label_ar": "جدول الشريحة (صورة)"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Disorders",
+     "الاضطرابات"
+    ],
+    [
+     "Enzymes",
+     "الإنزيمات"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Liver Function Tests**",
+      "**فحوص وظائف الكبد**"
+     ],
+     [
+      "SGOT, SGPT, ALP, GGT",
+      "`SGOT`، `SGPT`، `ALP`، `GGT`"
+     ]
+    ],
+    [
+     [
+      "**Cardiac Function Tests**",
+      "**فحوص وظائف القلب**"
+     ],
+     [
+      "CK-MB, Troponins",
+      "`CK-MB`، التروبونينات"
+     ]
+    ],
+    [
+     [
+      "**Pancreatic Enzymes**",
+      "**إنزيمات البنكرياس**"
+     ],
+     [
+      "Amylase, Lipase",
+      "الأميليز، اللايبيز"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    40,
+    60
+   ],
+   "label_en": "Detection of Enzymes for diagnosis of disease",
+   "label_ar": "كشف الإنزيمات لتشخيص الأمراض",
+   "_ff": 3
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Disorders",
+     "الاضطرابات"
+    ],
+    [
+     "Enzymes",
+     "الإنزيمات"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Muscle Enzymes**",
+      "**إنزيمات العضلات**"
+     ],
+     [
+      "CK, LDH",
+      "`CK`، `LDH`"
+     ]
+    ],
+    [
+     [
+      "**Bone Enzymes**",
+      "**إنزيمات العظم**"
+     ],
+     [
+      "ALP , ACP",
+      "`ALP`، `ACP`"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    40,
+    60
+   ],
+   "label_en": "Detection of Enzymes for diagnosis of disease",
+   "label_ar": "كشف الإنزيمات لتشخيص الأمراض",
+   "_ff": 3
+  },
+  {
+   "t": "note",
+   "en": "Troponins are proteins, not enzymes — they are listed here because they are the main cardiac markers measured with CK-MB.",
+   "ar": "التروبونينات بروتينات وليست إنزيمات — وذُكرت هنا لأنها أهمّ واسمات القلب التي تُقاس مع `CK-MB`.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Enzymes are much higher **inside cells** than in plasma → a rise in plasma = **tissue damage**.",
+    "**Functional** (clotting factors, lipoprotein lipase; made in liver; ↓ in liver disease) vs **non-functional** (ALT, AST, CK, LDH, ALP, ACP, amylase; ↑ in organ disease).",
+    "Liver: SGOT, SGPT, ALP, GGT · heart: CK-MB, troponins · pancreas: amylase, lipase · muscle: CK, LDH · bone: ALP, ACP."
+   ],
+   "ar": [
+    "الإنزيمات أعلى بكثير **داخل الخلايا** ممّا في البلازما ← ارتفاعها في البلازما = **تضرّر نسيج**.",
+    "**الوظيفية** (عوامل التخثّر، لايبيز البروتين الدهني؛ تُصنع في الكبد؛ ↓ في أمراض الكبد) مقابل **غير الوظيفية** (`ALT`، `AST`، `CK`، `LDH`، `ALP`، `ACP`، الأميليز؛ ↑ في أمراض الأعضاء).",
+    "الكبد: `SGOT`، `SGPT`، `ALP`، `GGT` · القلب: `CK-MB`، التروبونينات · البنكرياس: الأميليز، اللايبيز · العضلات: `CK`، `LDH` · العظم: `ALP`، `ACP`."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Liver enzymes",
+   "ar": "إنزيمات الكبد"
+  },
+  {
+   "t": "h2",
+   "en": "**Enzymes For Diagnosis Liver diseases**",
+   "ar": "**إنزيمات تشخيص أمراض الكبد**"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**1. Markers of hepatocellular damage:**"
+   ],
+   "ar": [
+    "**1. واسمات تضرّر الخلايا الكبدية:**"
+   ],
+   "_ff": 4
+  },
+  {
+   "t": "card",
+   "en": [
+    "Enzymes which are normally present inside the hepatocytes released into the blood when there is a hepatocellular damage"
+   ],
+   "ar": [
+    "إنزيمات موجودة طبيعيًا داخل الخلايا الكبدية تتحرّر إلى الدم عند تضرّر الخلايا الكبدية"
+   ],
+   "_ff": 4
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Alanine aminotransferase (ALT)",
+    "Aspartate aminotransferase (AST)"
+   ],
+   "list_ar": [
+    "ألانين أمينوترانسفيريز (`ALT`)",
+    "أسبارتيت أمينوترانسفيريز (`AST`)"
+   ],
+   "alpha": true
+  },
+  {
+   "t": "card",
+   "en": [
+    "**2. Markers of cholestasis :**",
+    "Enzymes which are primary membrane bound (plasma membraneor side of hepatocytes)"
+   ],
+   "ar": [
+    "**2. واسمات الركود الصفراوي (`cholestasis`):**",
+    "إنزيمات مرتبطة أساسًا بالغشاء (الغشاء البلازمي أو جانب الخلايا الكبدية)"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Alkaline phosphatase,",
+    "Gamma glutamyl transferase (GGT)",
+    "5-nucleotidase"
+   ],
+   "list_ar": [
+    "الفوسفاتيز القاعدي،",
+    "غاما غلوتاميل ترانسفيريز (`GGT`)",
+    "5-نيوكليوتيديز"
+   ],
+   "alpha": true
+  },
+  {
+   "t": "h2",
+   "en": "**1. Markers of hepatocellular damage — Aminotransferases/Transaminases**",
+   "ar": "**1. واسمات تضرّر الخلايا الكبدية — الأمينوترانسفيريزات/الترانساميناسات**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The transaminases are enzymes involved in the transfer of an amino group from a 2- amino acid to a 2- keto acid",
+    "The aminotransferases are used as part of the biochemical",
+    "Aminotransferases are sensitive liver profile indicators of liver cell injury and are most helpful in recognizing acute hepatocellular diseases such as hepatitis."
+   ],
+   "list_ar": [
+    "الترانساميناسات إنزيمات تشارك في نقل مجموعة أمين من حامض 2-أميني إلى حامض 2-كيتوني",
+    "وتُستعمل الأمينوترانسفيريزات جزءًا من [الفحوص] الكيميائية الحيوية",
+    "والأمينوترانسفيريزات مؤشّرات حسّاسة ضمن ملفّ الكبد لإصابة الخلايا الكبدية، وهي الأكثر فائدة في تمييز أمراض الخلايا الكبدية الحادّة مثل التهاب الكبد."
+   ],
+   "_ff": 5
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "These enzymes are released into the blood in greater amounts when there is damage to the liver cell membrane resulting in increased permeability."
+   ],
+   "list_ar": [
+    "وتتحرّر هذه الإنزيمات إلى الدم بكمّيات أكبر عند تضرّر غشاء الخلية الكبدية ممّا يزيد نفاذيته."
+   ],
+   "start": 4,
+   "_ff": 5
+  },
+  {
+   "t": "note",
+   "en": "\"used as part of the biochemical\" — the sentence is cut: … of the biochemical **liver profile** (liver function tests); the words \"liver profile\" slipped into the next line on the slide.",
+   "ar": "\"`used as part of the biochemical`\" — الجملة ناقصة: … من **ملفّ الكبد** الكيميائي الحيوي (فحوص وظائف الكبد)؛ وكلمتا \"`liver profile`\" انزاحتا إلى السطر التالي في الشريحة.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Types of plasma Amino transferases",
+   "ar": "أنواع الأمينوترانسفيريزات في البلازما",
+   "list_en": [
+    "**Aspartate transaminase (AST)** enzyme, it is also called serum glutamic oxalacetic transaminase(SGOT)",
+    "**Alanine transaminase (ALT)** enzyme, it is also called serum glutamic pyruvic transaminase (SGPT)"
+   ],
+   "list_ar": [
+    "إنزيم **أسبارتيت ترانساميناز (`AST`)**، ويُسمّى أيضًا ترانساميناز الغلوتاميك أوكسالوأسيتيك في المصل (`SGOT`)",
+    "إنزيم **ألانين ترانساميناز (`ALT`)**، ويُسمّى أيضًا ترانساميناز الغلوتاميك بايروفيك في المصل (`SGPT`)"
+   ],
+   "alpha": true
+  },
+  {
+   "t": "card",
+   "en": "**Aminotransferases/Transaminases**",
+   "ar": "**الأمينوترانسفيريزات/الترانساميناسات**",
+   "list_en": [
+    "AST and ALT enzymes are more important in assessing and monitoring the degree of liver cell inflammation and necrosis.",
+    "In acute viral hepatitis there is a 100-1000 times increase in both ALT and AST but ALT level is increased more than that of AST",
+    "According to AST/ALT ratio, we can estimate the extent of the liver damage."
+   ],
+   "list_ar": [
+    "إنزيما `AST` و`ALT` أهمّ في تقييم درجة التهاب الخلايا الكبدية وتنخّرها ومتابعتها.",
+    "وفي التهاب الكبد الفيروسي الحادّ يرتفع `ALT` و`AST` كلاهما 100-1000 مرّة، لكن `ALT` يرتفع أكثر من `AST`",
+    "ووفق نسبة `AST/ALT` يمكن تقدير مدى تضرّر الكبد."
+   ],
+   "_ff": 6
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Elevated plasma ALT are considered to be relatively specific for liver disease than AST as AST may be elevated in other forms of tissue damage, such as myocardial infarction, muscle necrosis and renal disorders.",
+    "Aminotransferases levels > 1000 IU/L occur almost exclusively in disorders associated with extensive hepatocellular injury"
+   ],
+   "list_ar": [
+    "ويُعدّ ارتفاع `ALT` في البلازما أكثر نوعية نسبيًا لأمراض الكبد من `AST`، لأن `AST` قد يرتفع في أشكال أخرى من تضرّر الأنسجة مثل احتشاء العضلة القلبية وتنخّر العضلات واضطرابات الكلية.",
+    "ومستويات الأمينوترانسفيريزات > 1000 `IU/L` تحدث بصورة شبه حصرية في الاضطرابات المصحوبة بإصابة واسعة للخلايا الكبدية"
+   ],
+   "start": 4,
+   "_ff": 6
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Clinical Significance",
+     "الأهمية السريرية"
+    ],
+    [
+     "Male",
+     "الذكر"
+    ],
+    [
+     "Female",
+     "الأنثى"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Normal values of AST:**",
+      "**القيم الطبيعية لـ`AST`:**"
+     ],
+     "<35 U/L",
+     "<31 U/L"
+    ],
+    [
+     [
+      "**Normal values of ALT:**",
+      "**القيم الطبيعية لـ`ALT`:**"
+     ],
+     "<45 U/",
+     "<34 U/L"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    40,
+    30,
+    30
+   ],
+   "label_en": "Clinical Significance",
+   "label_ar": "الأهمية السريرية"
+  },
+  {
+   "t": "note",
+   "en": "\"<45 U/\" on the slide = **<45 U/L**.",
+   "ar": "\"<`45 U`/\" في الشريحة = **`<45 U/L`**.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Hepatocellular damage markers: **ALT (SGPT)** and **AST (SGOT)**; cholestasis markers: **ALP, GGT, 5-nucleotidase**.",
+    "Acute viral hepatitis: both ↑ **100–1000×**, **ALT > AST**; ALT is **more specific** for liver (AST also in MI, muscle, kidney).",
+    "> **1000 IU/L** = extensive hepatocellular injury; AST ♂ <35 / ♀ <31; ALT ♂ <45 / ♀ <34 U/L."
+   ],
+   "ar": [
+    "واسمات تضرّر الخلايا الكبدية: **`ALT` (`SGPT`)** و**`AST` (`SGOT`)**؛ وواسمات الركود الصفراوي: **`ALP`، `GGT`، 5-نيوكليوتيديز**.",
+    "التهاب الكبد الفيروسي الحادّ: يرتفعان **100–1000 مرّة**، و**`ALT` > `AST`**؛ و`ALT` **أكثر نوعية** للكبد (`AST` يرتفع أيضًا في الاحتشاء والعضلات والكلية).",
+    "> **1000 `IU/L`** = إصابة واسعة للخلايا الكبدية؛ `AST` ♂ <35 / ♀ <31؛ `ALT` ♂ <45 / ♀ <34 `U/L`."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Markers of cholestasis",
+   "ar": "واسمات الركود الصفراوي"
+  },
+  {
+   "t": "h2",
+   "en": "**A. Alkaline phosphatase (ALP)**",
+   "ar": "**أ. الفوسفاتيز القاعدي (`ALP`)**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The alkaline phosphatases are a group of enzymes that hydrolyse organic phosphates at high pH.",
+    "They are present in most tissues but are in particularly high concentration in the osteoblasts of bone and the cells of the hepatobiliary tract, intestinal wall, renal tubules and placent.",
+    "Normal level-0-45 IU/L",
+    "In adult, plasma ALP is derived mainly from bone and liver in approximately equal proportions: the proportion due to the bone fraction is increased when there is increased osteoblastic activity that may be physiological"
+   ],
+   "list_ar": [
+    "الفوسفاتيزات القاعدية مجموعة إنزيمات تحلّل الفوسفات العضوية مائيًا عند `pH` عالٍ.",
+    "وتوجد في معظم الأنسجة، لكن بتركيز عالٍ خاصّةً في بانيات العظم وفي خلايا القناة الكبدية الصفراوية وجدار الأمعاء والنُّبيبات الكلوية والمشيمة.",
+    "المستوى الطبيعي 0-45 `IU/L`",
+    "وفي البالغ يأتي `ALP` البلازما أساسًا من العظم والكبد بنسب متساوية تقريبًا: وتزداد حصّة جزء العظم عند زيادة نشاط بانيات العظم، وقد تكون هذه الزيادة فسيولوجية"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"placent\" = **placenta**.",
+    "Many labs give a higher adult ALP range (about 40–130 U/L); learn the sheet's value for the exam."
+   ],
+   "ar": [
+    "\"`placent`\" = **`placenta`** (المشيمة).",
+    "وكثير من المختبرات تعطي مدى أعلى لـ`ALP` البالغين (نحو 40–130 `U/L`)؛ احفظ قيمة الورقة للامتحان."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Causes of raised Plasma ALP activity — 1. Physiological:**",
+   "ar": "**أسباب ارتفاع فعالية `ALP` في البلازما — 1. فسيولوجية:**",
+   "list_en": [
+    "**During pregnancy**: the plasma total ALP activity rises due to the contribution of the placental isoenzyme.",
+    "**In infants** : plasma total ALP activity is up to five times than in adults, and consists predominantly of the bone isoenzyme."
+   ],
+   "list_ar": [
+    "**أثناء الحمل**: ترتفع الفعالية الكلّية لـ`ALP` في البلازما بسبب مساهمة النظير المشيمي.",
+    "**عند الرضّع**: تصل الفعالية الكلّية لـ`ALP` إلى خمسة أضعاف ما عند البالغين، وتتكوّن غالبًا من النظير العظمي."
+   ],
+   "_ff": 7
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**In children**: the total activity increases by about 2 to 5 times during the pubertal bone growth"
+   ],
+   "list_ar": [
+    "**عند الأطفال**: تزداد الفعالية الكلّية نحو 2 إلى 5 أضعاف أثناء نموّ العظام في البلوغ"
+   ],
+   "start": 3,
+   "_ff": 7
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "2. Pathological",
+     "2. مرضية"
+    ],
+    [
+     "Causes",
+     "الأسباب"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Liver disease**",
+      "**أمراض الكبد**"
+     ],
+     [
+      "Intrahepatic or extrahepatic cholestasis · Inflammatory bowel disease: the gut ALP isoenzyme can be increased in ulcerative colitis.",
+      "ركود صفراوي داخل الكبد أو خارجه · مرض الأمعاء الالتهابي: قد يرتفع النظير المعوي لـ`ALP` في التهاب القولون التقرّحي."
+     ]
+    ],
+    [
+     [
+      "**Bone disease :**",
+      "**أمراض العظم:**"
+     ],
+     [
+      "Rickets (in child) and osteomalacia. · Paget's disease of bone (may be very high) · osteogenic sarcoma · hyperparathyroidism.",
+      "الكساح (عند الطفل) وتليّن العظام · داء باجيت العظمي (قد يكون عاليًا جدًا) · الساركوما العظمية · فرط نشاط جارات الدرقية."
+     ]
+    ],
+    [
+     [
+      "**Malignancy:**",
+      "**الخباثة:**"
+     ],
+     [
+      "bone or liver involvement or direct tumour production",
+      "إصابة العظم أو الكبد، أو إنتاج مباشر من الورم"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    76
+   ],
+   "label_en": "2. Pathological",
+   "label_ar": "2. مرضية"
+  },
+  {
+   "t": "note",
+   "en": "Inflammatory bowel disease is listed under \"Liver disease\" on the slide; it raises the **intestinal** (gut) isoenzyme, not the liver one.",
+   "ar": "مرض الأمعاء الالتهابي مذكور تحت «أمراض الكبد» في الشريحة؛ وهو يرفع النظير **المعوي** لا الكبدي.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Isozymes Of Alkaline Phosphatase (ALP)**",
+   "ar": "**نظائر الفوسفاتيز القاعدي (`ALP`)**",
+   "list_en": [
+    "**Hepatic Isoenzyme**: Its level rises in extra hepatic biliary obstruction.",
+    "**Bone Isoenzyme**: Increases due to osteoblastic activity and is normally elevated in children during periods of active growth",
+    "**Placental Isoenzyme** : Rises during last 6 weeks of pregnancy."
+   ],
+   "list_ar": [
+    "**النظير الكبدي**: يرتفع مستواه في الانسداد الصفراوي خارج الكبد.",
+    "**النظير العظمي**: يزداد بسبب نشاط بانيات العظم، ويكون مرتفعًا طبيعيًا عند الأطفال في فترات النموّ النشط",
+    "**النظير المشيمي**: يرتفع خلال الأسابيع الستّة الأخيرة من الحمل."
+   ],
+   "_ff": 8
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    [
+     "**Intestinal Isoenzyme**: Rise occurs after a fatty meal.",
+     "May increase during various GI disorders."
+    ]
+   ],
+   "list_ar": [
+    [
+     "**النظير المعوي**: يحدث ارتفاعه بعد وجبة دهنية.",
+     "وقد يزداد في اضطرابات هضمية مختلفة."
+    ]
+   ],
+   "start": 4,
+   "_ff": 8
+  },
+  {
+   "t": "h2",
+   "en": "**B. Gamma-glutamyl-transferase**",
+   "ar": "**ب. غاما غلوتاميل ترانسفيريز (`GGT`)**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Gamma-glutamyl-transferase catalyzes the transfere of the γ–glutamyl group from peptides and compounds that contain it to an acceptor.",
+    "It is involved in amino acid transport across the membranes.",
+    "Gamma-glutamyl-transferase is found mainly in biliary ducts of the liver, kidney and pancreas.",
+    "Y-GGT increased in liver diseases especially in obstructive jaundice."
+   ],
+   "list_ar": [
+    "يحفّز غاما غلوتاميل ترانسفيريز نقل مجموعة `γ`–غلوتاميل من الببتيدات والمركّبات التي تحتويها إلى مستقبِل.",
+    "ويشارك في نقل الأحماض الأمينية عبر الأغشية.",
+    "ويوجد غاما غلوتاميل ترانسفيريز أساسًا في القنوات الصفراوية للكبد والكلية والبنكرياس.",
+    "ويرتفع `γ-GGT` في أمراض الكبد خاصّةً في اليرقان الانسدادي."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Clinical Significance** — Normal values for GGT: Male: <55 U/L · Female: <38 U/L",
+   "ar": "**الأهمية السريرية** — القيم الطبيعية لـ`GGT`: الذكر: `<55 U/L` · الأنثى: `<38 U/L`"
+  },
+  {
+   "t": "card",
+   "en": "**Causes of raised plasma GGT activity**",
+   "ar": "**أسباب ارتفاع فعالية `GGT` في البلازما**",
+   "list_en": [
+    "Induction of enzyme synthesis, without cell damage, by drugs or alcohol.",
+    "Hepatocellular damage, such as that due to infectious hepatitis",
+    "Cholestatic liver disease, elevated GGT activity usually parallel those of ALP activity"
+   ],
+   "list_ar": [
+    "تحفيز تصنيع الإنزيم، دون تضرّر الخلايا، بالأدوية أو الكحول.",
+    "تضرّر الخلايا الكبدية، مثل الناتج عن التهاب الكبد المعدي",
+    "أمراض الكبد الركودية، ويرتفع `GGT` عادةً بالتوازي مع فعالية `ALP`"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"transfere\" = **transfer**; \"Y-GGT\" = **γ-GGT** (gamma).",
+    "Why GGT helps: a high ALP with a **high GGT** points to the **liver**; a high ALP with a **normal GGT** points to **bone**."
+   ],
+   "ar": [
+    "\"`transfere`\" = **`transfer`**؛ و\"`Y-GGT`\" = **`γ-GGT`** (غاما).",
+    "فائدة `GGT`: ارتفاع `ALP` مع **ارتفاع `GGT`** يشير إلى **الكبد**؛ وارتفاع `ALP` مع **`GGT` طبيعي** يشير إلى **العظم**."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "ALP: hydrolyses organic phosphates at **high pH**; mainly **bone + liver** (equal in adults); normal **0–45 IU/L** (sheet).",
+    "Physiological ↑: **pregnancy** (placental), **infants** (×5, bone), **puberty** (×2–5); pathological: cholestasis, rickets, osteomalacia, **Paget (very high)**, sarcoma, hyperparathyroidism.",
+    "GGT: biliary ducts; ↑ in **obstructive jaundice**, **alcohol/drugs** (induction); ♂ <55, ♀ <38 U/L."
+   ],
+   "ar": [
+    "`ALP`: يحلّل الفوسفات العضوية عند **`pH` عالٍ**؛ أساسًا **العظم + الكبد** (بالتساوي عند البالغين)؛ الطبيعي **0–45 `IU/L`** (الورقة).",
+    "ارتفاع فسيولوجي: **الحمل** (مشيمي)، **الرضّع** (`×5`، عظمي)، **البلوغ** (`×2`–5)؛ ومرضي: الركود الصفراوي، الكساح، تليّن العظام، **باجيت (عالٍ جدًا)**، الساركوما، فرط جارات الدرقية.",
+    "`GGT`: القنوات الصفراوية؛ يرتفع في **اليرقان الانسدادي** و**الكحول/الأدوية** (تحفيز)؛ ♂ <55، ♀ <38 `U/L`."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Pancreatic enzymes",
+   "ar": "إنزيمات البنكرياس"
+  },
+  {
+   "t": "h2",
+   "en": "**2.Enzymes For Diagnosis Pancreatic Diseases**",
+   "ar": "**2. إنزيمات تشخيص أمراض البنكرياس**"
+  },
+  {
+   "t": "h2",
+   "en": "**1. Amylase**",
+   "ar": "**1. الأميليز**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "It belongs to hydrolyase class that catalyzes the hydrolysis of 1,4- a-glycosidic linkages in polysaccharides.",
+    [
+     "They are low molecular weight proteins (54 to 62 kDa) that can pass the glomeruli of the kidneys.",
+     "It is the only plasma enzyme physiologically found in urine."
+    ]
+   ],
+   "list_ar": [
+    "ينتمي إلى صنف إنزيمات التحلّل المائي، ويحفّز التحلّل المائي لروابط `α-1,4` الغلايكوسيدية في السكّريات المتعدّدة.",
+    [
+     "وهي بروتينات منخفضة الوزن الجزيئي (54 إلى 62 كيلودالتون) تستطيع المرور عبر كبيبات الكلية.",
+     "وهو إنزيم البلازما الوحيد الذي يوجد في الإدرار فسيولوجيًا."
+    ]
+   ],
+   "_ff": 9
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    [
+     "Plasma amylase is derived from the **pancreas and salivary glands**.",
+     "Thus, pancreatic juice and saliva contain high concentration of amylase"
+    ],
+    "Estimation of plasma amylase activity is mainly use to diagnosis of acute pancreatitis",
+    "Clinical Significance — Normal values of amylase: 28-100 U/L"
+   ],
+   "list_ar": [
+    [
+     "ويأتي أميليز البلازما من **البنكرياس والغدد اللعابية**.",
+     "ولذلك تحتوي العصارة البنكرياسية واللعاب تركيزًا عاليًا من الأميليز"
+    ],
+    "ويُستعمل تقدير فعالية الأميليز في البلازما أساسًا لتشخيص التهاب البنكرياس الحادّ",
+    "الأهمية السريرية — القيم الطبيعية للأميليز: 28-100 `U/L`"
+   ],
+   "start": 3,
+   "_ff": 9
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"hydrolyase\" = **hydrolase**; \"a-glycosidic\" = **α**-glycosidic.",
+    "The amylase range here (28–100 U/L) differs from lab 4 (40–140 U/L) — each lab/kit has its own range."
+   ],
+   "ar": [
+    "\"`hydrolyase`\" = **`hydrolase`**؛ و\"`a-glycosidic`\" = **`α`**-`glycosidic`.",
+    "ومدى الأميليز هنا (28–100 `U/L`) يختلف عن العملي 4 (40–140 `U/L`) — لكل مختبر/عُدّة مداه."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Causes of Raised Plasma Amylase Activity — 1) Marked increase (5 to 10 times the upper reference limit):**",
+   "ar": "**أسباب ارتفاع فعالية الأميليز في البلازما — 1) ارتفاع شديد (5 إلى 10 أضعاف الحدّ الأعلى المرجعي):**",
+   "list_en": [
+    "Acute pancreatitis",
+    "Severe glomerular impairment"
+   ],
+   "list_ar": [
+    "التهاب البنكرياس الحادّ",
+    "قصور كبيبي شديد"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**2) Moderate increase (up to five times the upper reference limit) — Acute abdominal disorders**",
+   "ar": "**2) ارتفاع متوسط (حتى خمسة أضعاف الحدّ الأعلى المرجعي) — الاضطرابات البطنية الحادّة**",
+   "list_en": [
+    "Acute cholecystitis((inflammation of the gall bladder)",
+    "Perforated peptic ulcer",
+    "Intestinal obstruction"
+   ],
+   "list_ar": [
+    "التهاب المرارة الحادّ (التهاب كيس الصفراء)",
+    "القرحة الهضمية المثقوبة",
+    "انسداد الأمعاء"
+   ],
+   "_ff": 10
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Salivary gland disorders** like mumps, salivary calculi"
+   ],
+   "list_ar": [
+    "**اضطرابات الغدد اللعابية** مثل النكاف وحصى اللعاب"
+   ],
+   "start": 4,
+   "_ff": 10
+  },
+  {
+   "t": "h2",
+   "en": "**2. Lipase**",
+   "ar": "**2. اللايبيز**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Lipase is a single chain glycoprotein with molecular weight of 48 kDa.",
+    "Lipase is derived from the pancreas but is more specific for pancreatic pathology than amylase.",
+    "In addition, lipase has a longer half-life than amylase , therefore may be more useful in the diagnosis of acute pancreatitis and carcinoma of the pancreas.",
+    "serum amylase is increased in mumps, pancreatic disease or due to some other cause, whereas lipase is increased only in pancreatitis.",
+    "Therefore, the determination of both amylase and lipase together helps in the diagnosis of acute pancreatitis",
+    "Clinical Significance — Normal values: 40-200 U/L"
+   ],
+   "list_ar": [
+    "اللايبيز بروتين سكّري وحيد السلسلة وزنه الجزيئي 48 كيلودالتون.",
+    "ويأتي اللايبيز من البنكرياس لكنه أكثر نوعية لأمراض البنكرياس من الأميليز.",
+    "وإضافةً إلى ذلك، لللايبيز عمر نصفي أطول من الأميليز، لذا قد يكون أكثر فائدة في تشخيص التهاب البنكرياس الحادّ وسرطان البنكرياس.",
+    "ويرتفع أميليز المصل في النكاف وأمراض البنكرياس أو لأسباب أخرى، بينما يرتفع اللايبيز في التهاب البنكرياس فقط.",
+    "ولذلك فإن قياس الأميليز واللايبيز معًا يساعد في تشخيص التهاب البنكرياس الحادّ",
+    "الأهمية السريرية — القيم الطبيعية: 40-200 `U/L`"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "**3. Trypsin**",
+   "ar": "**3. التربسين**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Trypsin** is a serine proteinase that hydrolyze the peptide bonds formed by the carboxyl groups of lysine arginine with other amino acids.",
+    "Clinical Significance — Normal values of trypsin: 25 ± 5.3 μ g/L"
+   ],
+   "list_ar": [
+    "**التربسين** إنزيم بروتيني سيريني يحلّل مائيًا الروابط الببتيدية التي تكوّنها مجاميع الكاربوكسيل في اللايسين والأرجنين مع الأحماض الأمينية الأخرى.",
+    "الأهمية السريرية — القيم الطبيعية للتربسين: `25 ± 5.3 µg/L`"
+   ],
+   "_ff": 11
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    [
+     "Increased in pancreatic disease.",
+     "But as there is no distinct role of trypsin estimation in the routine management of patients with acute pancreatitis, this test is therefore considered of limited clinical value"
+    ]
+   ],
+   "list_ar": [
+    [
+     "يرتفع في أمراض البنكرياس.",
+     "لكن لعدم وجود دور واضح لتقدير التربسين في التدبير الروتيني لمرضى التهاب البنكرياس الحادّ، يُعدّ هذا الفحص محدود القيمة السريرية"
+    ]
+   ],
+   "start": 3,
+   "_ff": 11
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "Amylase",
+     "الأميليز"
+    ],
+    [
+     "Lipase",
+     "اللايبيز"
+    ],
+    [
+     "Trypsin",
+     "التربسين"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Size**",
+      "**الحجم**"
+     ],
+     [
+      "54–62 kDa (passes glomeruli → urine)",
+      "54–62 كيلودالتون (يمرّ بالكبيبات ← الإدرار)"
+     ],
+     [
+      "48 kDa glycoprotein",
+      "بروتين سكّري 48 كيلودالتون"
+     ],
+     [
+      "serine proteinase",
+      "إنزيم بروتيني سيريني"
+     ]
+    ],
+    [
+     [
+      "**Source**",
+      "**المصدر**"
+     ],
+     [
+      "pancreas + salivary glands",
+      "البنكرياس + الغدد اللعابية"
+     ],
+     [
+      "pancreas",
+      "البنكرياس"
+     ],
+     [
+      "pancreas",
+      "البنكرياس"
+     ]
+    ],
+    [
+     [
+      "**Specificity**",
+      "**النوعية**"
+     ],
+     [
+      "lower (mumps, other causes)",
+      "أقلّ (النكاف وأسباب أخرى)"
+     ],
+     [
+      "**higher**; longer half-life",
+      "**أعلى**؛ عمر نصفي أطول"
+     ],
+     [
+      "limited clinical value",
+      "قيمة سريرية محدودة"
+     ]
+    ],
+    [
+     [
+      "**Normal**",
+      "**الطبيعي**"
+     ],
+     [
+      "28–100 U/L",
+      "28–100 `U/L`"
+     ],
+     [
+      "40–200 U/L",
+      "40–200 `U/L`"
+     ],
+     [
+      "25 ± 5.3 µg/L",
+      "`25 ± 5.3 µg/L`"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    16,
+    30,
+    28,
+    26
+   ],
+   "style": "summary",
+   "label_en": "BIOS: the three pancreatic enzymes",
+   "label_ar": "`BIOS`: إنزيمات البنكرياس الثلاثة"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Amylase: **only enzyme normally in urine**; ↑ marked (5–10×) in **acute pancreatitis**, severe glomerular impairment; moderate (≤5×) in acute abdomen, **mumps**.",
+    "Lipase: **more specific**, **longer half-life**; ↑ only in pancreatitis → measure **both** together.",
+    "Trypsin: ↑ in pancreatic disease but **limited clinical value**."
+   ],
+   "ar": [
+    "الأميليز: **الإنزيم الوحيد الموجود طبيعيًا في الإدرار**؛ ارتفاع شديد (5–10 أضعاف) في **التهاب البنكرياس الحادّ** والقصور الكبيبي الشديد؛ ومتوسط (≤5) في البطن الحادّ و**النكاف**.",
+    "اللايبيز: **أكثر نوعية** و**عمره النصفي أطول**؛ يرتفع في التهاب البنكرياس فقط ← قِس **الاثنين** معًا.",
+    "التربسين: يرتفع في أمراض البنكرياس لكن **قيمته السريرية محدودة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Muscle diseases: creatine kinase",
+   "ar": "أمراض العضلات: الكرياتين كاينيز"
+  },
+  {
+   "t": "card",
+   "en": "**3. Plasma Enzymes For Diagnosis skeletal Muscle Diseases**",
+   "ar": "**3. إنزيمات البلازما لتشخيص أمراض العضلات الهيكلية**",
+   "list_en": [
+    "**Total creatine kinase (CK)** — CK-MM: marked increase · CK-MB: less marked increase",
+    "**Lactate dehydrogenase LDH-5**"
+   ],
+   "list_ar": [
+    "**الكرياتين كاينيز الكلّي (`CK`)** — `CK-MM`: ارتفاع شديد · `CK-MB`: ارتفاع أقلّ",
+    "**لاكتيت ديهيدروجينيز `LDH-5`**"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "**Plasma Enzymes For Diagnosis Muscle Diseases — A. Creatine Kinase (CK)**",
+   "ar": "**إنزيمات البلازما لتشخيص أمراض العضلات — أ. الكرياتين كاينيز (`CK`)**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Creatine phosphokinase (CPK)** It is an enzyme found primarily in the heart and skeletal muscles, and to a lesser extent in the brain but not found at all in liver and kidney.",
+    "Catalyzes the transfer of phosphate between creatine and ATP/ADP Provides rapid regeneration of ATP when ATP is low",
+    "In tissues and cells that consume ATP rapidly, especially skeletal muscle, CPK serves as an energy reservoir for the rapid buffering and regeneration of ATP in situ",
+    "Creatine + ATP → phosphocreatine + ADP",
+    "Clinical significance — Normal range for total CK: Male : 46-171 U/L · Female: 34-145 U/L"
+   ],
+   "list_ar": [
+    "**الكرياتين فوسفوكاينيز (`CPK`)** إنزيم يوجد أساسًا في القلب والعضلات الهيكلية، وبدرجة أقلّ في الدماغ، ولا يوجد إطلاقًا في الكبد والكلية.",
+    "يحفّز نقل الفوسفات بين الكرياتين و`ATP/ADP`، ويوفّر تجديدًا سريعًا لـ`ATP` عندما ينخفض",
+    "وفي الأنسجة والخلايا التي تستهلك `ATP` بسرعة، خاصّةً العضلات الهيكلية، يعمل `CPK` مخزنًا للطاقة للتنظيم السريع لـ`ATP` وتجديده في موضعه",
+    "`Creatine + ATP → phosphocreatine + ADP`",
+    "الأهمية السريرية — المدى الطبيعي لـ`CK` الكلّي: الذكر: 46-171 `U/L` · الأنثى: 34-145 `U/L`"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**1. Physiological** : enzyme activity in serum is highest in infancy and childhood (7-10 years of age)",
+   "ar": "**1. فسيولوجية**: فعالية الإنزيم في المصل أعلى ما تكون في الرضاعة والطفولة (عمر 7-10 سنوات)"
+  },
+  {
+   "t": "card",
+   "en": "**Causes of raised plasma creatine kinase (CK) activities — 2. pathological :**",
+   "ar": "**أسباب ارتفاع فعالية الكرياتين كاينيز (`CK`) في البلازما — 2. مرضية:**",
+   "list_en": [
+    "Clinical significance Elevation of CK is an indication of damage to muscle.",
+    "Clinically, creatine kinase is assayed in blood tests as a marker of damage of CK-rich tissue such as in"
+   ],
+   "list_ar": [
+    "الأهمية السريرية: ارتفاع `CK` دليل على تضرّر العضلات.",
+    "وسريريًا يُقاس الكرياتين كاينيز في فحوص الدم واسمًا لتضرّر الأنسجة الغنية بـ`CK` كما في"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "myocardial infarction (heart attack)",
+    "rhabdomyolysis (severe muscle breakdown)",
+    "muscular dystrophy",
+    "autoimmune myositides",
+    "acute kidney injury"
+   ],
+   "list_ar": [
+    "احتشاء العضلة القلبية (النوبة القلبية)",
+    "انحلال العضلات المخطّطة (تكسّر شديد للعضلات)",
+    "الحثل العضلي",
+    "التهابات العضلات المناعية الذاتية",
+    "الإصابة الكلوية الحادّة"
+   ],
+   "alpha": true
+  },
+  {
+   "t": "h2",
+   "en": "**Isoenzymes of Creatine Kinase CK**",
+   "ar": "**نظائر الكرياتين كاينيز**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Creatine Kinase activity is found greatest in skeletal muscles, brain and heart tissue.",
+    "**Isoenzymes of CK**: CK consists of two protein subunits, M (for muscle) and B (for brain), which combine to form three isoenzymes"
+   ],
+   "list_ar": [
+    "توجد أعلى فعالية للكرياتين كاينيز في العضلات الهيكلية والدماغ ونسيج القلب.",
+    "**نظائر `CK`**: يتكوّن `CK` من وحدتين بروتينيتين، `M` (للعضلة) و`B` (للدماغ)، تتّحدان لتكوين ثلاثة نظائر"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Three isoenzymes:**",
+   "ar": "**النظائر الثلاثة:**",
+   "list_en": [
+    "**CK1 (CK-BB)**: in the brain",
+    "**CK2 (CK-MB)**: mostly in the cardiac muscles"
+   ],
+   "list_ar": [
+    "**`CK1` (`CK-BB`)**: في الدماغ",
+    "**`CK2` (`CK-MB`)**: أغلبه في عضلة القلب"
+   ],
+   "_ff": 12
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**CK3(CK-MM)**: in both the skeletal and the cardiac muscles."
+   ],
+   "list_ar": [
+    "**`CK3` (`CK-MM`)**: في العضلات الهيكلية وعضلة القلب كلتيهما."
+   ],
+   "start": 3,
+   "_ff": 12
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**CK-MB** — is more specific for cardiac muscle, so it is a more sensitive marker of myocardial injury than total CK activity.",
+    "**CK-MB** — It accounts for about 35% of the total CK activity in cardiac muscle and less than 5% in skeletal muscle: its plasma activity is always high after myocardial infarction.",
+    "**CK-BB** — high concentrations in the brain and after brain damage",
+    "**CK-BB** — CK-BB increased plasma activities may occur during parturition (childbirth)."
+   ],
+   "list_ar": [
+    "**`CK-MB`** — أكثر نوعية لعضلة القلب، لذا فهو واسم أكثر حساسية لإصابة العضلة القلبية من فعالية `CK` الكلّية.",
+    "**`CK-MB`** — يشكّل نحو 35% من فعالية `CK` الكلّية في عضلة القلب، وأقلّ من 5% في العضلات الهيكلية: وفعاليته في البلازما مرتفعة دائمًا بعد احتشاء العضلة القلبية.",
+    "**`CK-BB`** — تراكيز عالية في الدماغ وبعد تضرّر الدماغ",
+    "**`CK-BB`** — قد ترتفع فعالية `CK-BB` في البلازما أثناء الولادة."
+   ],
+   "start": 1
+  },
+  {
+   "t": "figure",
+   "src": "assets/ck-isoenzymes-diagram.png",
+   "en": "CPK Isoenzymes (labpedia.net)",
+   "ar": "نظائر الكرياتين فوسفوكاينيز",
+   "h": "52mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Figure text",
+     "كتابات الشكل"
+    ],
+    [
+     "Arabic",
+     "بالعربي"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**CK - BB · CK1** — Found mainly in the brain",
+      "**`CK-BB` · `CK1`** — يوجد أساسًا في الدماغ"
+     ],
+     [
+      "brain type",
+      "النوع الدماغي"
+     ]
+    ],
+    [
+     [
+      "**CK - MB · CK2** — Found in the cardiac and skeletal muscles",
+      "**`CK-MB` · `CK2`** — يوجد في عضلة القلب والعضلات الهيكلية"
+     ],
+     [
+      "cardiac type",
+      "النوع القلبي"
+     ]
+    ],
+    [
+     [
+      "**CK - MM · CK3** — Found in Muscular injury",
+      "**`CK-MM` · `CK3`** — يوجد في إصابة العضلات"
+     ],
+     [
+      "muscle type",
+      "النوع العضلي"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    70,
+    30
+   ],
+   "label_en": "Figure text",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "note",
+   "en": [
+    "CK (CPK): heart + skeletal muscle (less brain), **not liver or kidney**; creatine + ATP ⇄ phosphocreatine + ADP.",
+    "↑ CK: MI, **rhabdomyolysis**, muscular dystrophy, myositis, AKI; physiologically highest in childhood (7–10 y).",
+    "**BB** = brain (CK1), **MB** = heart (CK2, ~35% of heart CK, <5% skeletal), **MM** = skeletal (CK3)."
+   ],
+   "ar": [
+    "`CK` (`CPK`): القلب + العضلات الهيكلية (وأقلّ الدماغ)، **لا الكبد ولا الكلية**؛ `creatine + ATP ⇄ phosphocreatine + ADP`.",
+    "ارتفاع `CK`: الاحتشاء، **انحلال العضلات المخطّطة**، الحثل العضلي، التهاب العضلات، الإصابة الكلوية الحادّة؛ وفسيولوجيًا أعلى في الطفولة (7–10 سنوات).",
+    "**`BB`** = الدماغ (`CK1`)، و**`MB`** = القلب (`CK2`، ~35% من `CK` القلب و<5% في الهيكلية)، و**`MM`** = العضلات الهيكلية (`CK3`)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "B. Lactate Dehydrogenase (LDH)",
+   "ar": "ب. لاكتيت ديهيدروجينيز (`LDH`)"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**LDH (Lactate dehydrogenase)** is an enzyme that produces energy.",
+    "It Catalyses the reversible interconversion of lactate and pyruvate.",
+    "A dehydrogenase is an enzyme that transfers a hydride from one molecule to another.",
+    "LDH is extensively found in body tissues with high concentrations in cells of cardiac and skeletal muscle, liver, kidney, brain and erythrocytes",
+    "Measurement of plasma total LDH activity is therefore a non-specific marker of cell damage",
+    "LDH released during tissue damage, common marker of injuries and diseases such as heart failure."
+   ],
+   "list_ar": [
+    "**`LDH` (لاكتيت ديهيدروجينيز)** إنزيم ينتج الطاقة.",
+    "ويحفّز التحوّل العكسي بين اللاكتيت والبايروفيت.",
+    "والديهيدروجينيز إنزيم ينقل هيدريدًا من جزيء إلى آخر.",
+    "ويوجد `LDH` بكثرة في أنسجة الجسم، بتراكيز عالية في خلايا عضلة القلب والعضلات الهيكلية والكبد والكلية والدماغ وكريات الدم الحمر",
+    "ولذلك فقياس فعالية `LDH` الكلّية في البلازما واسم غير نوعي لتضرّر الخلايا",
+    "ويتحرّر `LDH` أثناء تضرّر الأنسجة، وهو واسم شائع للإصابات والأمراض مثل فشل القلب."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Clinical significance:**",
+   "ar": "**الأهمية السريرية:**",
+   "list_en": [
+    "Normal Values Of LDH: 140u/l to 280 u/l",
+    "It is increased in plasma in Myocardial injury, acute leukemias, generalized carcinomatosis and in acute hepatitis.",
+    "Estimation of its isoenzymes in more useful in clinching diagnosis between hepatic disease and Myocardial injury."
+   ],
+   "list_ar": [
+    "القيم الطبيعية لـ`LDH`: من 140 إلى 280 `U/L`",
+    "ويرتفع في البلازما في إصابة العضلة القلبية، وابيضاض الدم الحادّ، والسرطانية المعمّمة، والتهاب الكبد الحادّ.",
+    "وتقدير نظائره أكثر فائدة في حسم التشخيص بين أمراض الكبد وإصابة العضلة القلبية."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Lactate Dehydrogenase Isoenzymes**",
+   "ar": "**نظائر لاكتيت ديهيدروجينيز**",
+   "list_en": [
+    "LDH enzyme is tetramer with 4 subunits.",
+    "The subunit may be either H(Heart) or M(Muscle) polypeptide chains."
+   ],
+   "list_ar": [
+    "إنزيم `LDH` رباعي يتكوّن من 4 وحدات.",
+    "والوحدة إمّا سلسلة متعدّد ببتيد `H` (القلب) أو `M` (العضلة)."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "The subunit compositions of the five isoenzymes :",
+     "تراكيب الوحدات في النظائر الخمسة:"
+    ],
+    [
+     "Found in",
+     "يوجد في"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**I. LD1 (H4)**",
+      "**I. `LD1` (`H4`)**"
+     ],
+     [
+      "found in heart and in RBC as well as kidney.",
+      "يوجد في القلب وكريات الدم الحمر وكذلك الكلية."
+     ]
+    ],
+    [
+     [
+      "**II. LD2 (H3M)**",
+      "**II. `LD2` (`H3M`)**"
+     ],
+     [
+      "found in the reticuloendothelial system.",
+      "يوجد في الجهاز الشبكي البطاني."
+     ]
+    ],
+    [
+     [
+      "**III. LD3 (H2M2)**",
+      "**III. `LD3` (`H2M2`)**"
+     ],
+     [
+      "found in the lungs.",
+      "يوجد في الرئتين."
+     ]
+    ],
+    [
+     [
+      "**IV. LD4 (HM3)**",
+      "**IV. `LD4` (`HM3`)**"
+     ],
+     [
+      "found in the kidneys, placenta and pancrease.",
+      "يوجد في الكليتين والمشيمة والبنكرياس."
+     ]
+    ],
+    [
+     [
+      "**V. LD5 (M4)**",
+      "**V. `LD5` (`M4`)**"
+     ],
+     [
+      "found in the liver and skeletal muscle",
+      "يوجد في الكبد والعضلات الهيكلية"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    40,
+    60
+   ],
+   "label_en": "LDH isoenzymes",
+   "label_ar": "نظائر `LDH`"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Elevation of LD1 occurs after myocardial infarction, in megaloblastic anaemia and after renal infarction.",
+    "Elevation of LD2 and LD3 occurs in acute leukaemia: LD3 is the main isoenzyme elevated due to malignancy of many tissues",
+    "Elevation of LD5 occurs after damage to the liver or skeletal muscle"
+   ],
+   "list_ar": [
+    "يرتفع `LD1` بعد احتشاء العضلة القلبية، وفي فقر الدم الضخم الأرومات، وبعد احتشاء الكلية.",
+    "ويرتفع `LD2` و`LD3` في ابيضاض الدم الحادّ: و`LD3` هو النظير الرئيسي الذي يرتفع بسبب خباثة أنسجة كثيرة",
+    "ويرتفع `LD5` بعد تضرّر الكبد أو العضلات الهيكلية"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"pancrease\" = **pancreas**; \"in more useful\" = **is** more useful.",
+    "Remember: **H4 = LD1 = heart**, **M4 = LD5 = liver/muscle**."
+   ],
+   "ar": [
+    "\"`pancrease`\" = **`pancreas`**؛ و\"`in more useful`\" = **`is`** `more useful`.",
+    "وللحفظ: **`H4` = `LD1` = القلب**، و**`M4` = `LD5` = الكبد/العضلات**."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Causes of Raised Plasma Total LDH Activity**",
+   "ar": "**أسباب ارتفاع فعالية `LDH` الكلّية في البلازما**",
+   "list_en": [
+    "**Artefactual** : In vitro haemolysis or delayed separation of plasma from whole bloo",
+    "**Marked increase** (may be greater than 5–10 times the URL): Circulatory failure with ‘shock’ and hypoxia · Myocardial infarction. · In some haematological disorders: megaloblastic anaemia, acute leukaemias and lymphomas",
+    "**Moderate increase**.(usually less than five times) viral hepatitis · malignancy of any tissue · skeletal muscle disease · pulmonary embolism: Pulmonary embolism is the sudden blockage of a major blood vessel (artery) in the lung"
+   ],
+   "list_ar": [
+    "**مصطنع (`Artefactual`)**: تحلّل الدم خارج الجسم، أو تأخّر فصل البلازما عن الدم الكامل",
+    "**ارتفاع شديد** (قد يتجاوز 5–10 أضعاف الحدّ الأعلى المرجعي `URL`): فشل الدوران مع «الصدمة» ونقص الأوكسجين · احتشاء العضلة القلبية · وبعض اضطرابات الدم: فقر الدم الضخم الأرومات، وابيضاض الدم الحادّ، والأورام اللمفاوية",
+    "**ارتفاع متوسط** (عادةً أقلّ من خمسة أضعاف): التهاب الكبد الفيروسي · خباثة أيّ نسيج · أمراض العضلات الهيكلية · الانصمام الرئوي: وهو انسداد مفاجئ لوعاء دموي رئيسي (شريان) في الرئة"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"whole bloo\" = whole **blood**.",
+    "Haemolysis raises LDH falsely because RBCs are rich in LDH (LD1) — so a haemolysed sample is rejected for LDH."
+   ],
+   "ar": [
+    "\"`whole bloo`\" = `whole` **`blood`**.",
+    "وتحلّل الدم يرفع `LDH` كاذبًا لأن الكريات الحمر غنية بـ`LDH` (`LD1`) — لذا تُرفض العيّنة المتحلّلة لفحص `LDH`."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "LDH: lactate ⇄ pyruvate; in almost all tissues → **non-specific** marker; normal **140–280 U/L**.",
+    "Tetramer of H and M: **LD1 (H4) heart/RBC**, LD2 RES, **LD3 lungs**, LD4 kidney/placenta/pancreas, **LD5 (M4) liver/muscle**.",
+    "↑ LD1: MI, megaloblastic anaemia; ↑ LD2/LD3: leukaemia; ↑ LD5: liver/muscle; **haemolysis = false ↑**."
+   ],
+   "ar": [
+    "`LDH`: لاكتيت ⇄ بايروفيت؛ في معظم الأنسجة ← واسم **غير نوعي**؛ الطبيعي **140–280 `U/L`**.",
+    "رباعي من `H` و`M`: **`LD1` (`H4`) القلب/الكريات الحمر**، `LD2` الجهاز الشبكي البطاني، **`LD3` الرئتين**، `LD4` الكلية/المشيمة/البنكرياس، **`LD5` (`M4`) الكبد/العضلات**.",
+    "ارتفاع `LD1`: الاحتشاء، فقر الدم الضخم الأرومات؛ و`LD2/LD3`: ابيضاض الدم؛ و`LD5`: الكبد/العضلات؛ و**تحلّل الدم = ارتفاع كاذب**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Myocardial infarction enzymes",
+   "ar": "إنزيمات احتشاء العضلة القلبية"
+  },
+  {
+   "t": "card",
+   "en": "**4. Plasma Enzymes For Diagnosis Of Myocardial Infarction** — Enzyme assays for the diagnosis of Acute Myocardial Infarction are:",
+   "ar": "**4. إنزيمات البلازما لتشخيص احتشاء العضلة القلبية** — فحوص الإنزيمات لتشخيص احتشاء العضلة القلبية الحادّ هي:",
+   "list_en": [
+    "Creatine kinase (CK).",
+    "Creatine kinase-MB (CK-MB) isoenzyme",
+    "Lactate dehydrogenase (LD).",
+    "Aspartate aminotransferase (AST)."
+   ],
+   "list_ar": [
+    "الكرياتين كاينيز (`CK`).",
+    "نظير الكرياتين كاينيز-`MB` (`CK-MB`)",
+    "لاكتيت ديهيدروجينيز (`LD`).",
+    "أسبارتيت أمينوترانسفيريز (`AST`)."
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "**1. Creatine Phosphokinase (CK/ CPK)**",
+   "ar": "**1. الكرياتين فوسفوكاينيز (`CK/CPK`)**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Phosphocreatine serves as energy reserve during muscle contraction",
+    "Mainly useful in detecting damage to myocardial and skeletal muscle tissue",
+    "It is composed of two polypeptide chains designated M (muscle) and B (brain)",
+    "Three isoenzymes are present human tissues."
+   ],
+   "list_ar": [
+    "الفوسفوكرياتين مخزن للطاقة أثناء تقلّص العضلة",
+    "وهو مفيد أساسًا في كشف تضرّر نسيج عضلة القلب والعضلات الهيكلية",
+    "ويتكوّن من سلسلتين متعدّدتَي الببتيد هما `M` (العضلة) و`B` (الدماغ)",
+    "وتوجد ثلاثة نظائر في أنسجة الإنسان."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Isoenzyme",
+     "النظير"
+    ],
+    [
+     "Normal (N)",
+     "الطبيعي (`N`)"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**CK-BB (Brain form)**",
+      "**`CK-BB` (الشكل الدماغي)**"
+     ],
+     [
+      "Absent in blood",
+      "غائب في الدم"
+     ]
+    ],
+    [
+     [
+      "**CK-MB (Cardiac form)**",
+      "**`CK-MB` (الشكل القلبي)**"
+     ],
+     [
+      "< 6% of total CK activity",
+      "< 6% من فعالية `CK` الكلّية"
+     ]
+    ],
+    [
+     [
+      "**CK-MM (Skeletal Ms. form)**",
+      "**`CK-MM` (شكل العضلات الهيكلية)**"
+     ],
+     [
+      "> 95% of total activity",
+      "> 95% من الفعالية الكلّية"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    50,
+    50
+   ],
+   "label_en": "Three isoenzymes",
+   "label_ar": "النظائر الثلاثة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Reference range of total CK activity**: Males: Up to 180 U/L · Females: 25-40%lower than in males",
+    "**↑ total CK activity**: Myocardial damage · Skeletal muscle damage. · Muscular exercise · Drugs e.g. digoxin and lidocaine",
+    "**↑ CK- MB isoenzyme** : myocardial damage"
+   ],
+   "list_ar": [
+    "**المدى المرجعي لفعالية `CK` الكلّية**: الذكور: حتى 180 `U/L` · الإناث: أقلّ من الذكور بنسبة 25-40%",
+    "**ارتفاع `CK` الكلّي**: تضرّر عضلة القلب · تضرّر العضلات الهيكلية · التمارين العضلية · أدوية مثل الديجوكسين والليدوكايين",
+    "**ارتفاع نظير `CK-MB`**: تضرّر عضلة القلب"
+   ],
+   "start": 1
+  },
+  {
+   "t": "h2",
+   "en": "**2. Aspartate Amino Transferase (AST):-**",
+   "ar": "**2. أسبارتيت أمينوترانسفيريز (`AST`):**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "The level is significantly elevated in Acute MI."
+   ],
+   "list_ar": [
+    "يرتفع مستواه بوضوح في احتشاء العضلة القلبية الحادّ."
+   ],
+   "_ff": 13
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Normal Value:- 0-41 IU/L at 37°C",
+    "In acute MI- Serum activity rises sharply within the first 12 hours, with a peak level at 24 hours or over and returns to normal within 3-5 days.",
+    "The rise depends on the extent of infarction — > 350 IU/L are due to massive infarction (Fatal)"
+   ],
+   "list_ar": [
+    "القيمة الطبيعية: 0-41 `IU/L` عند `37°C`",
+    "وفي الاحتشاء الحادّ ترتفع فعاليته في المصل بشدّة خلال أول 12 ساعة، وتبلغ الذروة عند 24 ساعة أو أكثر، وتعود للطبيعي خلال 3-5 أيام.",
+    "ويعتمد الارتفاع على مدى الاحتشاء — > 350 `IU/L` تعني احتشاءً واسعًا (مميتًا)"
+   ],
+   "start": 2,
+   "_ff": 13
+  },
+  {
+   "t": "h2",
+   "en": "**3.Lactate Dehydrogenase (LDH):-**",
+   "ar": "**3. لاكتيت ديهيدروجينيز (`LDH`):**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Present in almost all tissues",
+    "LDH catalyzes the reversible conversion of pyruvate and lactate.",
+    "Most often measured in myocardial infraction.",
+    "Normal level : 55-140 IU/L at 30°C.",
+    "Time sequence of LD after myocardial infarction: ↑ after 12-24 hours · peak after 3-5 days · return to normal after 7-12 days",
+    "The magnitude of rise is proportional to the extent of myocardial infarction."
+   ],
+   "list_ar": [
+    "يوجد في معظم الأنسجة تقريبًا",
+    "ويحفّز `LDH` التحوّل العكسي بين البايروفيت واللاكتيت.",
+    "ويُقاس غالبًا في احتشاء العضلة القلبية.",
+    "المستوى الطبيعي: 55-140 `IU/L` عند `30°C`.",
+    "التسلسل الزمني لـ`LD` بعد الاحتشاء: يرتفع بعد 12-24 ساعة · يبلغ الذروة بعد 3-5 أيام · يعود للطبيعي بعد 7-12 يومًا",
+    "ومقدار الارتفاع يتناسب مع مدى احتشاء العضلة القلبية."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Marker",
+     "الواسم"
+    ],
+    [
+     "Rises",
+     "يرتفع"
+    ],
+    [
+     "Peak",
+     "الذروة"
+    ],
+    [
+     "Normal again",
+     "يعود للطبيعي"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**AST**",
+      "**`AST`**"
+     ],
+     [
+      "within 12 h",
+      "خلال 12 ساعة"
+     ],
+     [
+      "24 h or over",
+      "24 ساعة أو أكثر"
+     ],
+     [
+      "3–5 days",
+      "3–5 أيام"
+     ]
+    ],
+    [
+     [
+      "**LDH**",
+      "**`LDH`**"
+     ],
+     [
+      "12–24 h",
+      "12–24 ساعة"
+     ],
+     [
+      "3–5 days",
+      "3–5 أيام"
+     ],
+     [
+      "7–12 days",
+      "7–12 يومًا"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    16,
+    28,
+    28,
+    28
+   ],
+   "style": "summary",
+   "label_en": "BIOS: time course after MI (from the slides)",
+   "label_ar": "`BIOS`: التسلسل الزمني بعد الاحتشاء (من الشرائح)"
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"infraction\" = **infarction**.",
+    "Note the different LDH ranges in the lecture: 140–280 U/L (LDH slide) and 55–140 IU/L at 30 °C (MI slide) — the value depends on method and temperature.",
+    "CK-MB rises first after MI (in standard references: 4–6 h, peak ~24 h, normal in 2–3 days); this timing is not on the slides."
+   ],
+   "ar": [
+    "\"`infraction`\" = **`infarction`** (احتشاء).",
+    "لاحظ اختلاف مدى `LDH` في المحاضرة: 140–280 `U/L` (شريحة `LDH`) و55–140 `IU/L` عند 30 °م (شريحة الاحتشاء) — والقيمة تعتمد على الطريقة والحرارة.",
+    "و`CK-MB` أوّل ما يرتفع بعد الاحتشاء (في المراجع: 4–6 ساعات، ذروة ~24 ساعة، طبيعي خلال 2–3 أيام)؛ وهذا التوقيت ليس في الشرائح."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "MI enzymes: **CK, CK-MB, LDH (LD), AST**; CK-MB normally **< 6%** of CK, CK-MM **> 95%**, CK-BB absent.",
+    "AST: ↑ within 12 h, peak 24 h, normal 3–5 d; **> 350 IU/L = massive (fatal)** infarction.",
+    "LDH: ↑ 12–24 h, **peak 3–5 d**, normal **7–12 d** (latest marker)."
+   ],
+   "ar": [
+    "إنزيمات الاحتشاء: **`CK`، `CK-MB`، `LDH` (`LD`)، `AST`**؛ و`CK-MB` طبيعيًا **< 6%** من `CK`، و`CK-MM` **> 95%**، و`CK-BB` غائب.",
+    "`AST`: يرتفع خلال 12 ساعة، ذروة 24 ساعة، طبيعي 3–5 أيام؛ **> 350 `IU/L` = احتشاء واسع (مميت)**.",
+    "`LDH`: يرتفع 12–24 ساعة، **ذروة 3–5 أيام**، طبيعي **7–12 يومًا** (آخر واسم)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Prostate and bone enzymes",
+   "ar": "إنزيمات البروستاتا والعظم"
+  },
+  {
+   "t": "h2",
+   "en": "**5.Enzymes For Diagnosis Of Prostate Diseases — Acid Phosphatase(ACP)**",
+   "ar": "**5. إنزيمات تشخيص أمراض البروستاتا — الفوسفاتيز الحامضي (`ACP`)**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Acid Phosphatase(ACP)** :Include all phosphatases that hydrolyze phosphate esters with an optimum pH of less than 7.0."
+   ],
+   "list_ar": [
+    "**الفوسفاتيز الحامضي (`ACP`)**: يشمل كل الفوسفاتيزات التي تحلّل إسترات الفوسفات مائيًا عند `pH` أمثل أقلّ من 7.0."
+   ],
+   "_ff": 14
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    [
+     "It is produced by Primarily in prostate gland.",
+     "It is also found in erythrocytes, platelets, leukocytes, bone marrow, bone, liver, spleen, kidney, and intestine."
+    ],
+    "Normal range of ACP: 1.5-4.5 U/L"
+   ],
+   "list_ar": [
+    [
+     "يُنتَج أساسًا في غدّة البروستاتا.",
+     "ويوجد أيضًا في كريات الدم الحمر والصفائح وكريات الدم البيض ونقي العظم والعظم والكبد والطحال والكلية والأمعاء."
+    ],
+    "المدى الطبيعي لـ`ACP`: 1.5-4.5 `U/L`"
+   ],
+   "start": 2,
+   "_ff": 14
+  },
+  {
+   "t": "card",
+   "en": "**Clinical Implications:**",
+   "ar": "**الدلالات السريرية:**",
+   "list_en": [
+    "Primarily used to diagnose prostate cancer and to monitor its treatment",
+    [
+     "ACP is replaced by the measurement of plasma prostate specific antigen (PSA) a protein derived from the prostate.",
+     "This test is more specific and sensitive for diagnosis and monitoring treatment"
+    ],
+    "In other non prostatic conditions e.g. A. Hemolysis · B. Paget disease · C. Hyperparathyroidism with skeletal involvement · D. Presence of malignant invasion of bones by cancers"
+   ],
+   "list_ar": [
+    "يُستعمل أساسًا لتشخيص سرطان البروستاتا ومتابعة علاجه",
+    [
+     "وقد حلّ محلّ `ACP` قياسُ المستضد النوعي للبروستاتا (`PSA`) في البلازما، وهو بروتين يأتي من البروستاتا.",
+     "وهذا الفحص أكثر نوعية وحساسية للتشخيص ومتابعة العلاج"
+    ],
+    "ويرتفع في حالات غير بروستاتية مثل: أ. تحلّل الدم · ب. داء باجيت · ج. فرط جارات الدرقية مع إصابة العظام · د. وجود غزو خبيث للعظام بالسرطانات"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "**6.Enzymes For Diagnosis Of Bone Diseases**",
+   "ar": "**6. إنزيمات تشخيص أمراض العظم**"
+  },
+  {
+   "t": "card",
+   "en": "**Alkaline Phosphatase(ALP):-**",
+   "ar": "**الفوسفاتيز القاعدي (`ALP`):**",
+   "list_en": [
+    "Rises in Rickets, osteomalacia,",
+    "hyperparathyroidism and in Paget’s disease."
+   ],
+   "list_ar": [
+    "يرتفع في الكساح وتليّن العظام،",
+    "وفرط جارات الدرقية وداء باجيت."
+   ],
+   "_ff": 15
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Also rises in primaryand secondary malignancies of bones."
+   ],
+   "list_ar": [
+    "ويرتفع أيضًا في الخباثات الأوّلية والثانوية للعظام."
+   ],
+   "start": 3,
+   "_ff": 15
+  },
+  {
+   "t": "card",
+   "en": "**Acid Phosphatase(ACP):-** Highly increased in bony metastasis of carcinoma prostate",
+   "ar": "**الفوسفاتيز الحامضي (`ACP`):** يرتفع كثيرًا في النقائل العظمية لسرطان البروستاتا"
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"produced by Primarily in\" = produced **primarily in**; \"primaryand\" = primary **and**.",
+    "ALP works at alkaline pH (bone/liver), ACP at pH < 7 (prostate)."
+   ],
+   "ar": [
+    "\"`produced by Primarily in`\" = يُنتَج **أساسًا في**؛ و\"`primaryand`\" = `primary` **`and`**.",
+    "و`ALP` يعمل عند `pH` قاعدي (العظم/الكبد)، و`ACP` عند `pH < 7` (البروستاتا)."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Enzymes",
+     "الإنزيمات"
+    ],
+    [
+     "Tissues",
+     "الأنسجة"
+    ],
+    [
+     "Clinical applications",
+     "التطبيقات السريرية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Alanineamino transferase**",
+      "**ألانين أمينوترانسفيريز**"
+     ],
+     [
+      "Liver",
+      "الكبد"
+     ],
+     [
+      "Hepato parenchymal diseases",
+      "أمراض حشوة الكبد"
+     ]
+    ],
+    [
+     [
+      "**Alkaline phosphatase**",
+      "**الفوسفاتيز القاعدي**"
+     ],
+     [
+      "Liver, bone, intestinal mucosa, Placenta",
+      "الكبد، العظم، مخاطية الأمعاء، المشيمة"
+     ],
+     [
+      "Liver and bone diseases",
+      "أمراض الكبد والعظم"
+     ]
+    ],
+    [
+     [
+      "**Amylase**",
+      "**الأميليز**"
+     ],
+     [
+      "Salivary glands, Pancreas",
+      "الغدد اللعابية، البنكرياس"
+     ],
+     [
+      "Pancreatic diseases",
+      "أمراض البنكرياس"
+     ]
+    ],
+    [
+     [
+      "**Aspartate amino transferase**",
+      "**أسبارتيت أمينوترانسفيريز**"
+     ],
+     [
+      "Liver, Skeletal muscle, Heart, Erythrocytes",
+      "الكبد، العضلات الهيكلية، القلب، الكريات الحمر"
+     ],
+     [
+      "Hepatic parenchymal disease, Muscle disease",
+      "أمراض حشوة الكبد، أمراض العضلات"
+     ]
+    ],
+    [
+     [
+      "**Cholinesterase**",
+      "**الكولين إستريز**"
+     ],
+     [
+      "Liver",
+      "الكبد"
+     ],
+     [
+      "Organophosphorus insecticide poisoning, Hepatic parenchymal diseases",
+      "التسمّم بالمبيدات الفسفورية العضوية، أمراض حشوة الكبد"
+     ]
+    ],
+    [
+     [
+      "**Creatine kinase**",
+      "**الكرياتين كاينيز**"
+     ],
+     [
+      "Skeletal muscle,Heart",
+      "العضلات الهيكلية، القلب"
+     ],
+     [
+      "Muscle diseases",
+      "أمراض العضلات"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    28,
+    34,
+    38
+   ],
+   "label_en": "Summary table on the last slide (picture)",
+   "label_ar": "جدول الملخّص في الشريحة الأخيرة (صورة)",
+   "_ff": 16
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Enzymes",
+     "الإنزيمات"
+    ],
+    [
+     "Tissues",
+     "الأنسجة"
+    ],
+    [
+     "Clinical applications",
+     "التطبيقات السريرية"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Gamma glutamyl transferase**",
+      "**غاما غلوتاميل ترانسفيريز**"
+     ],
+     [
+      "Liver",
+      "الكبد"
+     ],
+     [
+      "Hepatobiliary diseases, Marker of alcohol abuse",
+      "أمراض الكبد والقنوات الصفراوية، واسم لتعاطي الكحول"
+     ]
+    ],
+    [
+     [
+      "**Lipase**",
+      "**اللايبيز**"
+     ],
+     [
+      "Pancreas",
+      "البنكرياس"
+     ],
+     [
+      "Pancreatic diseases",
+      "أمراض البنكرياس"
+     ]
+    ],
+    [
+     [
+      "**Lactate dehydrogenase**",
+      "**لاكتيت ديهيدروجينيز**"
+     ],
+     [
+      "Heart, liver, skeletal muscle erythrocytes, lymph nodes, Platelets",
+      "القلب، الكبد، العضلات الهيكلية، الكريات الحمر، العقد اللمفاوية، الصفائح"
+     ],
+     [
+      "Hepatic parenchymal diseases, muscle diseases Hemolysis, tumor marker",
+      "أمراض حشوة الكبد، أمراض العضلات، تحلّل الدم، واسم ورمي"
+     ]
+    ],
+    [
+     [
+      "**5’nucleotidase**",
+      "**5-نيوكليوتيديز**"
+     ],
+     [
+      "Liver",
+      "الكبد"
+     ],
+     [
+      "Hepatobiliary diseases",
+      "أمراض الكبد والقنوات الصفراوية"
+     ]
+    ],
+    [
+     [
+      "**Trypsin**",
+      "**التربسين**"
+     ],
+     [
+      "Pancreas",
+      "البنكرياس"
+     ],
+     [
+      "Pancreatic diseases",
+      "أمراض البنكرياس"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    28,
+    34,
+    38
+   ],
+   "label_en": "Summary table on the last slide (picture)",
+   "label_ar": "جدول الملخّص في الشريحة الأخيرة (صورة)",
+   "_ff": 16
+  },
+  {
+   "t": "note",
+   "en": [
+    "ACP: pH < 7; **prostate**; normal **1.5–4.5 U/L**; prostate cancer — now replaced by **PSA**; ↑ also in haemolysis, Paget, bone metastases.",
+    "Bone: **ALP** ↑ in rickets, osteomalacia, hyperparathyroidism, Paget, bone tumours; **ACP** ↑↑ in bony metastasis of prostate cancer.",
+    "GGT = **alcohol abuse** marker; cholinesterase = **organophosphorus poisoning**."
+   ],
+   "ar": [
+    "`ACP`: `pH < 7`؛ **البروستاتا**؛ الطبيعي **1.5–4.5 `U/L`**؛ سرطان البروستاتا — وحلّ محلّه **`PSA`**؛ ويرتفع أيضًا في تحلّل الدم وباجيت ونقائل العظام.",
+    "العظم: **`ALP`** يرتفع في الكساح وتليّن العظام وفرط جارات الدرقية وباجيت وأورام العظم؛ و**`ACP`** يرتفع كثيرًا في النقائل العظمية لسرطان البروستاتا.",
+    "`GGT` = واسم **تعاطي الكحول**؛ والكولين إستريز = **التسمّم بالفسفور العضوي**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Clinical enzymology**",
+     "الإنزيمات السريرية / علم الإنزيمات التشخيصي"
+    ],
+    [
+     "**Functional / non-functional plasma enzymes**",
+     "إنزيمات البلازما الوظيفية / غير الوظيفية"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 17
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Aminotransferase (transaminase)**",
+     "ناقلة الأمين / الترانساميناز"
+    ],
+    [
+     "**Hepatocellular damage**",
+     "تضرّر الخلايا الكبدية"
+    ],
+    [
+     "**Cholestasis**",
+     "الركود الصفراوي / ركود الصفراء"
+    ],
+    [
+     "**Isoenzyme (isozyme)**",
+     "النظير الإنزيمي / المتماثل الإنزيمي"
+    ],
+    [
+     "**Obstructive jaundice**",
+     "اليرقان الانسدادي"
+    ],
+    [
+     "**Acute pancreatitis**",
+     "التهاب البنكرياس الحادّ"
+    ],
+    [
+     "**Half-life**",
+     "العمر النصفي"
+    ],
+    [
+     "**Creatine kinase (CK, CPK)**",
+     "الكرياتين كاينيز / كاينيز الكرياتين"
+    ],
+    [
+     "**Rhabdomyolysis**",
+     "انحلال العضلات المخطّطة / انحلال الربيدات"
+    ],
+    [
+     "**Lactate dehydrogenase (LDH)**",
+     "لاكتيت ديهيدروجينيز / نازعة هيدروجين اللاكتات"
+    ],
+    [
+     "**Myocardial infarction (MI)**",
+     "احتشاء العضلة القلبية / الجلطة القلبية"
+    ],
+    [
+     "**Acid phosphatase (ACP)**",
+     "الفوسفاتيز الحامضي"
+    ],
+    [
+     "**Prostate specific antigen (PSA)**",
+     "المستضد النوعي للبروستاتا"
+    ],
+    [
+     "**Paget's disease**",
+     "داء باجيت (العظمي)"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 17
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Plasma enzymes",
+    "topic_ar": "إنزيمات البلازما"
+   },
+   {
+    "en": "Clinical enzymology refers to:",
+    "ar": "الإنزيمات السريرية تعني:",
+    "options": [
+     [
+      "Measurement of enzyme activity for the diagnosis and treatment of diseases",
+      "قياس فعالية الإنزيمات لتشخيص الأمراض وعلاجها"
+     ],
+     [
+      "Industrial enzyme production",
+      "إنتاج الإنزيمات صناعيًا"
+     ],
+     [
+      "Enzyme structure only",
+      "تركيب الإنزيمات فقط"
+     ],
+     [
+      "Vitamin measurement",
+      "قياس الفيتامينات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which is a functional plasma enzyme?",
+    "ar": "أيّ مما يلي من إنزيمات البلازما الوظيفية؟",
+    "options": [
+     [
+      "ALT",
+      "`ALT`"
+     ],
+     [
+      "Amylase",
+      "الأميليز"
+     ],
+     [
+      "CK",
+      "`CK`"
+     ],
+     [
+      "Lipoprotein lipase",
+      "لايبيز البروتين الدهني"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Functional plasma enzymes are synthesized in the:",
+    "ar": "تُصنع إنزيمات البلازما الوظيفية في:",
+    "options": [
+     [
+      "Heart",
+      "القلب"
+     ],
+     [
+      "Liver",
+      "الكبد"
+     ],
+     [
+      "Brain",
+      "الدماغ"
+     ],
+     [
+      "Skeletal muscle",
+      "العضلات الهيكلية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The substrates of non-functional plasma enzymes are:",
+    "ar": "ركائز إنزيمات البلازما غير الوظيفية:",
+    "options": [
+     [
+      "Always present in blood",
+      "موجودة دائمًا في الدم"
+     ],
+     [
+      "Made in the liver",
+      "تُصنع في الكبد"
+     ],
+     [
+      "Absent from the blood",
+      "غائبة عن الدم"
+     ],
+     [
+      "Clotting factors",
+      "عوامل التخثّر"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Amylase and lipase in pancreatic disorders are examples of:",
+    "ar": "الأميليز واللايبيز في اضطرابات البنكرياس مثال على:",
+    "options": [
+     [
+      "Hormones",
+      "الهرمونات"
+     ],
+     [
+      "Functional plasma enzymes",
+      "إنزيمات البلازما الوظيفية"
+     ],
+     [
+      "Clotting factors",
+      "عوامل التخثّر"
+     ],
+     [
+      "Enzymes of exocrine secretions",
+      "إنزيمات الإفرازات الخارجية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Liver enzymes",
+    "topic_ar": "إنزيمات الكبد"
+   },
+   {
+    "en": "Markers of hepatocellular damage are:",
+    "ar": "واسما تضرّر الخلايا الكبدية:",
+    "options": [
+     [
+      "ALT and AST",
+      "`ALT` و`AST`"
+     ],
+     [
+      "ALP and GGT",
+      "`ALP` و`GGT`"
+     ],
+     [
+      "CK and LDH",
+      "`CK` و`LDH`"
+     ],
+     [
+      "Amylase and lipase",
+      "الأميليز واللايبيز"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "ALT is also called:",
+    "ar": "يُسمّى `ALT` أيضًا:",
+    "options": [
+     [
+      "SGOT",
+      "`SGOT`"
+     ],
+     [
+      "SGPT",
+      "`SGPT`"
+     ],
+     [
+      "GGT",
+      "`GGT`"
+     ],
+     [
+      "CPK",
+      "`CPK`"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In acute viral hepatitis:",
+    "ar": "في التهاب الكبد الفيروسي الحادّ:",
+    "options": [
+     [
+      "Only AST rises",
+      "يرتفع `AST` فقط"
+     ],
+     [
+      "ALT and AST fall",
+      "ينخفض `ALT` و`AST`"
+     ],
+     [
+      "ALT and AST rise 100–1000 times, ALT more than AST",
+      "يرتفع `ALT` و`AST` 100–1000 مرّة، و`ALT` أكثر"
+     ],
+     [
+      "ALP rises 1000 times",
+      "يرتفع `ALP` 1000 مرّة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "ALT is more specific for liver disease than AST because:",
+    "ar": "`ALT` أكثر نوعية لأمراض الكبد من `AST` لأن:",
+    "options": [
+     [
+      "ALT is a functional enzyme",
+      "`ALT` إنزيم وظيفي"
+     ],
+     [
+      "ALT is found only in the heart",
+      "`ALT` يوجد في القلب فقط"
+     ],
+     [
+      "AST may rise in MI, muscle necrosis and renal disorders",
+      "`AST` قد يرتفع في الاحتشاء وتنخّر العضلات واضطرابات الكلية"
+     ],
+     [
+      "AST is absent from the liver",
+      "`AST` غائب عن الكبد"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Aminotransferase levels > 1000 IU/L indicate:",
+    "ar": "مستويات الأمينوترانسفيريز > 1000 `IU/L` تدلّ على:",
+    "options": [
+     [
+      "Normal liver",
+      "كبد طبيعي"
+     ],
+     [
+      "Extensive hepatocellular injury",
+      "إصابة واسعة للخلايا الكبدية"
+     ],
+     [
+      "Bone disease",
+      "مرض عظمي"
+     ],
+     [
+      "Pancreatitis",
+      "التهاب البنكرياس"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "A marker of cholestasis is:",
+    "ar": "من واسمات الركود الصفراوي:",
+    "options": [
+     [
+      "GGT",
+      "`GGT`"
+     ],
+     [
+      "CK-MB",
+      "`CK-MB`"
+     ],
+     [
+      "ALT",
+      "`ALT`"
+     ],
+     [
+      "Trypsin",
+      "التربسين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "In infants, plasma total ALP activity is:",
+    "ar": "عند الرضّع تكون فعالية `ALP` الكلّية:",
+    "options": [
+     [
+      "Absent",
+      "غائبة"
+     ],
+     [
+      "Half of adults",
+      "نصف البالغين"
+     ],
+     [
+      "Mostly placental",
+      "مشيمية غالبًا"
+     ],
+     [
+      "Up to five times that of adults, mainly bone isoenzyme",
+      "حتى خمسة أضعاف البالغين، أغلبها نظير عظمي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The placental ALP isoenzyme rises during:",
+    "ar": "يرتفع النظير المشيمي لـ`ALP` خلال:",
+    "options": [
+     [
+      "The first trimester only",
+      "الثلث الأول فقط"
+     ],
+     [
+      "The last 6 weeks of pregnancy",
+      "الأسابيع الستّة الأخيرة من الحمل"
+     ],
+     [
+      "Puberty",
+      "البلوغ"
+     ],
+     [
+      "A fatty meal",
+      "وجبة دهنية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "ALP may be very high in:",
+    "ar": "قد يكون `ALP` عاليًا جدًا في:",
+    "options": [
+     [
+      "Hepatitis A only",
+      "التهاب الكبد `A` فقط"
+     ],
+     [
+      "Mumps",
+      "النكاف"
+     ],
+     [
+      "Myocardial infarction",
+      "احتشاء العضلة القلبية"
+     ],
+     [
+      "Paget's disease of bone",
+      "داء باجيت العظمي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "A raised GGT without cell damage may be due to:",
+    "ar": "ارتفاع `GGT` دون تضرّر الخلايا قد يكون بسبب:",
+    "options": [
+     [
+      "Enzyme induction by drugs or alcohol",
+      "تحفيز الإنزيم بالأدوية أو الكحول"
+     ],
+     [
+      "Pregnancy",
+      "الحمل"
+     ],
+     [
+      "Bone growth",
+      "نموّ العظم"
+     ],
+     [
+      "Exercise",
+      "التمارين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Pancreatic enzymes",
+    "topic_ar": "إنزيمات البنكرياس"
+   },
+   {
+    "en": "The only plasma enzyme physiologically found in urine is:",
+    "ar": "إنزيم البلازما الوحيد الموجود فسيولوجيًا في الإدرار:",
+    "options": [
+     [
+      "Lipase",
+      "اللايبيز"
+     ],
+     [
+      "Trypsin",
+      "التربسين"
+     ],
+     [
+      "Amylase",
+      "الأميليز"
+     ],
+     [
+      "CK",
+      "`CK`"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "A marked (5–10×) rise in amylase occurs in:",
+    "ar": "يحدث ارتفاع شديد (5–10 أضعاف) في الأميليز في:",
+    "options": [
+     [
+      "Salivary calculi",
+      "حصى اللعاب"
+     ],
+     [
+      "Mumps",
+      "النكاف"
+     ],
+     [
+      "Perforated peptic ulcer",
+      "القرحة المثقوبة"
+     ],
+     [
+      "Acute pancreatitis",
+      "التهاب البنكرياس الحادّ"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Compared with amylase, lipase is:",
+    "ar": "مقارنةً بالأميليز، اللايبيز:",
+    "options": [
+     [
+      "Less specific with a shorter half-life",
+      "أقلّ نوعية وعمره النصفي أقصر"
+     ],
+     [
+      "Found in urine",
+      "يوجد في الإدرار"
+     ],
+     [
+      "More specific for pancreatic pathology with a longer half-life",
+      "أكثر نوعية لأمراض البنكرياس وعمره النصفي أطول"
+     ],
+     [
+      "Raised in mumps",
+      "يرتفع في النكاف"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Trypsin estimation is considered:",
+    "ar": "يُعدّ تقدير التربسين:",
+    "options": [
+     [
+      "The best test for pancreatitis",
+      "أفضل فحص لالتهاب البنكرياس"
+     ],
+     [
+      "Of limited clinical value",
+      "محدود القيمة السريرية"
+     ],
+     [
+      "A liver marker",
+      "واسمًا كبديًا"
+     ],
+     [
+      "A cardiac marker",
+      "واسمًا قلبيًا"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Muscle and heart enzymes",
+    "topic_ar": "إنزيمات العضلات والقلب"
+   },
+   {
+    "en": "Creatine kinase is not found at all in:",
+    "ar": "لا يوجد الكرياتين كاينيز إطلاقًا في:",
+    "options": [
+     [
+      "Liver and kidney",
+      "الكبد والكلية"
+     ],
+     [
+      "Skeletal muscle",
+      "العضلات الهيكلية"
+     ],
+     [
+      "Brain",
+      "الدماغ"
+     ],
+     [
+      "Heart",
+      "القلب"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The CK isoenzyme mostly in cardiac muscle is:",
+    "ar": "نظير `CK` الموجود أغلبه في عضلة القلب:",
+    "options": [
+     [
+      "CK-BB (CK1)",
+      "`CK-BB` (`CK1`)"
+     ],
+     [
+      "CK-MB (CK2)",
+      "`CK-MB` (`CK2`)"
+     ],
+     [
+      "CK-MM (CK3)",
+      "`CK-MM` (`CK3`)"
+     ],
+     [
+      "LD5",
+      "`LD5`"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Normally, CK-MM forms:",
+    "ar": "طبيعيًا يشكّل `CK-MM`:",
+    "options": [
+     [
+      "> 95% of total CK",
+      "> 95% من `CK` الكلّي"
+     ],
+     [
+      "< 6% of total CK",
+      "< 6% من `CK` الكلّي"
+     ],
+     [
+      "0% (absent)",
+      "0% (غائب)"
+     ],
+     [
+      "35% of total CK",
+      "35% من `CK` الكلّي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which drug is listed as raising total CK?",
+    "ar": "أيّ دواء مذكور أنه يرفع `CK` الكلّي؟",
+    "options": [
+     [
+      "Aspirin",
+      "الأسبرين"
+     ],
+     [
+      "Insulin",
+      "الإنسولين"
+     ],
+     [
+      "Heparin",
+      "الهيبارين"
+     ],
+     [
+      "Digoxin",
+      "الديجوكسين"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The LDH isoenzyme LD1 (H4) is found mainly in:",
+    "ar": "يوجد نظير `LD1` (`H4`) أساسًا في:",
+    "options": [
+     [
+      "Liver and skeletal muscle",
+      "الكبد والعضلات الهيكلية"
+     ],
+     [
+      "Lungs",
+      "الرئتين"
+     ],
+     [
+      "Heart, RBC and kidney",
+      "القلب والكريات الحمر والكلية"
+     ],
+     [
+      "Reticuloendothelial system",
+      "الجهاز الشبكي البطاني"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "LD5 (M4) rises after damage to the:",
+    "ar": "يرتفع `LD5` (`M4`) بعد تضرّر:",
+    "options": [
+     [
+      "Heart only",
+      "القلب فقط"
+     ],
+     [
+      "Liver or skeletal muscle",
+      "الكبد أو العضلات الهيكلية"
+     ],
+     [
+      "Prostate",
+      "البروستاتا"
+     ],
+     [
+      "Pancreas",
+      "البنكرياس"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "An artefactual rise of LDH is caused by:",
+    "ar": "يحدث الارتفاع المصطنع لـ`LDH` بسبب:",
+    "options": [
+     [
+      "Fasting",
+      "الصيام"
+     ],
+     [
+      "Pregnancy",
+      "الحمل"
+     ],
+     [
+      "Exercise",
+      "التمارين"
+     ],
+     [
+      "In vitro haemolysis or delayed separation of plasma",
+      "تحلّل الدم خارج الجسم أو تأخّر فصل البلازما"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "After MI, AST returns to normal within:",
+    "ar": "بعد الاحتشاء يعود `AST` للطبيعي خلال:",
+    "options": [
+     [
+      "3–5 days",
+      "3–5 أيام"
+     ],
+     [
+      "1 month",
+      "شهر"
+     ],
+     [
+      "12 hours",
+      "12 ساعة"
+     ],
+     [
+      "7–12 days",
+      "7–12 يومًا"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "After MI, LDH peaks after:",
+    "ar": "بعد الاحتشاء يبلغ `LDH` الذروة بعد:",
+    "options": [
+     [
+      "2 hours",
+      "ساعتين"
+     ],
+     [
+      "12 hours",
+      "12 ساعة"
+     ],
+     [
+      "3–5 days",
+      "3–5 أيام"
+     ],
+     [
+      "24 hours",
+      "24 ساعة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "An AST > 350 IU/L after MI indicates:",
+    "ar": "`AST` > 350 `IU/L` بعد الاحتشاء يدلّ على:",
+    "options": [
+     [
+      "A normal value",
+      "قيمة طبيعية"
+     ],
+     [
+      "Massive (fatal) infarction",
+      "احتشاء واسع (مميت)"
+     ],
+     [
+      "Bone disease",
+      "مرض عظمي"
+     ],
+     [
+      "Hepatitis only",
+      "التهاب الكبد فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Prostate and bone",
+    "topic_ar": "البروستاتا والعظم"
+   },
+   {
+    "en": "Acid phosphatase has an optimum pH:",
+    "ar": "الـ`pH` الأمثل للفوسفاتيز الحامضي:",
+    "options": [
+     [
+      "Above 9",
+      "أعلى من 9"
+     ],
+     [
+      "Around 10",
+      "نحو 10"
+     ],
+     [
+      "Exactly 7.4",
+      "7.4 بالضبط"
+     ],
+     [
+      "Less than 7.0",
+      "أقلّ من 7.0"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "ACP for prostate cancer has been replaced by:",
+    "ar": "حلّ محلّ `ACP` في سرطان البروستاتا:",
+    "options": [
+     [
+      "PSA",
+      "`PSA`"
+     ],
+     [
+      "CK-MB",
+      "`CK-MB`"
+     ],
+     [
+      "ALP",
+      "`ALP`"
+     ],
+     [
+      "GGT",
+      "`GGT`"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "ACP is highly increased in:",
+    "ar": "يرتفع `ACP` كثيرًا في:",
+    "options": [
+     [
+      "Acute pancreatitis",
+      "التهاب البنكرياس الحادّ"
+     ],
+     [
+      "Viral hepatitis",
+      "التهاب الكبد الفيروسي"
+     ],
+     [
+      "Bony metastasis of carcinoma prostate",
+      "النقائل العظمية لسرطان البروستاتا"
+     ],
+     [
+      "Mumps",
+      "النكاف"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "A marker of alcohol abuse in the summary table is:",
+    "ar": "واسم تعاطي الكحول في جدول الملخّص:",
+    "options": [
+     [
+      "Lipase",
+      "اللايبيز"
+     ],
+     [
+      "Trypsin",
+      "التربسين"
+     ],
+     [
+      "Creatine kinase",
+      "الكرياتين كاينيز"
+     ],
+     [
+      "Gamma glutamyl transferase",
+      "غاما غلوتاميل ترانسفيريز"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this diagram, the isoenzyme found mainly in the brain is:",
+    "ar": "في هذا المخطّط، النظير الموجود أساسًا في الدماغ هو:",
+    "options": [
+     [
+      "CK-MM (CK3)",
+      "`CK-MM` (`CK3`)"
+     ],
+     [
+      "CK-MB (CK2)",
+      "`CK-MB` (`CK2`)"
+     ],
+     [
+      "CK-BB (CK1)",
+      "`CK-BB` (`CK1`)"
+     ],
+     [
+      "LD1",
+      "`LD1`"
+     ]
+    ],
+    "answer": "c",
+    "img": "assets/ck-isoenzymes-diagram.png",
+    "img_h": "40mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Most enzymes are present in cells at much higher concentrations than in plasma.",
+    "ar": "توجد معظم الإنزيمات في الخلايا بتراكيز أعلى بكثير ممّا في البلازما.",
+    "answer": "T"
+   },
+   {
+    "en": "Functional plasma enzymes increase in liver diseases.",
+    "ar": "ترتفع إنزيمات البلازما الوظيفية في أمراض الكبد.",
+    "answer": "F"
+   },
+   {
+    "en": "AST is also called serum glutamic oxalacetic transaminase (SGOT).",
+    "ar": "يُسمّى `AST` أيضًا `SGOT`.",
+    "answer": "T"
+   },
+   {
+    "en": "In acute viral hepatitis, AST rises more than ALT.",
+    "ar": "في التهاب الكبد الفيروسي الحادّ يرتفع `AST` أكثر من `ALT`.",
+    "answer": "F"
+   },
+   {
+    "en": "In adults, plasma ALP comes mainly from bone and liver in about equal proportions.",
+    "ar": "في البالغين يأتي `ALP` البلازما أساسًا من العظم والكبد بنسب متساوية تقريبًا.",
+    "answer": "T"
+   },
+   {
+    "en": "The intestinal ALP isoenzyme rises after a fatty meal.",
+    "ar": "يرتفع النظير المعوي لـ`ALP` بعد وجبة دهنية.",
+    "answer": "T"
+   },
+   {
+    "en": "Elevated GGT usually parallels ALP in cholestatic liver disease.",
+    "ar": "يرتفع `GGT` عادةً بالتوازي مع `ALP` في أمراض الكبد الركودية.",
+    "answer": "T"
+   },
+   {
+    "en": "Lipase is increased in mumps.",
+    "ar": "يرتفع اللايبيز في النكاف.",
+    "answer": "F"
+   },
+   {
+    "en": "Measuring both amylase and lipase helps in the diagnosis of acute pancreatitis.",
+    "ar": "قياس الأميليز واللايبيز معًا يساعد في تشخيص التهاب البنكرياس الحادّ.",
+    "answer": "T"
+   },
+   {
+    "en": "CK-BB is normally present in high amounts in blood.",
+    "ar": "يوجد `CK-BB` طبيعيًا بكمّيات عالية في الدم.",
+    "answer": "F"
+   },
+   {
+    "en": "CK-MB accounts for about 35% of the total CK activity in cardiac muscle.",
+    "ar": "يشكّل `CK-MB` نحو 35% من فعالية `CK` الكلّية في عضلة القلب.",
+    "answer": "T"
+   },
+   {
+    "en": "Total LDH is a specific marker of liver damage.",
+    "ar": "`LDH` الكلّي واسم نوعي لتضرّر الكبد.",
+    "answer": "F"
+   },
+   {
+    "en": "LDH is a tetramer of H and M subunits.",
+    "ar": "`LDH` رباعي من وحدات `H` و`M`.",
+    "answer": "T"
+   },
+   {
+    "en": "After MI, LDH returns to normal before AST.",
+    "ar": "بعد الاحتشاء يعود `LDH` للطبيعي قبل `AST`.",
+    "answer": "F"
+   },
+   {
+    "en": "PSA is more specific and sensitive than ACP for prostate cancer.",
+    "ar": "`PSA` أكثر نوعية وحساسية من `ACP` لسرطان البروستاتا.",
+    "answer": "T"
+   },
+   {
+    "en": "Cholinesterase is used in organophosphorus insecticide poisoning.",
+    "ar": "يُستعمل الكولين إستريز في التسمّم بالمبيدات الفسفورية العضوية.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "ALT vs AST",
+    "ar": "`ALT` مقابل `AST`",
+    "answer_en": "ALT (SGPT) = more liver-specific; AST (SGOT) also rises in MI, muscle and kidney damage. In acute viral hepatitis ALT > AST.",
+    "answer_ar": "`ALT` (`SGPT`) = أكثر نوعية للكبد؛ و`AST` (`SGOT`) يرتفع أيضًا في الاحتشاء وتضرّر العضلات والكلية. وفي التهاب الكبد الفيروسي الحادّ `ALT` > `AST`."
+   },
+   {
+    "en": "SGOT or SGPT?",
+    "ar": "`SGOT` أم `SGPT`؟",
+    "answer_en": "SGOT = AST (Oxalacetic); SGPT = ALT (Pyruvic). Think: P for Pyruvic → alanine → ALT.",
+    "answer_ar": "`SGOT` = `AST` (أوكسالوأسيتيك)؛ و`SGPT` = `ALT` (بايروفيك). تذكّر: `P` = بايروفيك ← ألانين ← `ALT`."
+   },
+   {
+    "en": "Amylase vs lipase",
+    "ar": "الأميليز مقابل اللايبيز",
+    "answer_en": "Amylase: pancreas + salivary glands, rises in mumps, the only enzyme in urine. Lipase: more specific, longer half-life, rises only in pancreatitis.",
+    "answer_ar": "الأميليز: البنكرياس + الغدد اللعابية، يرتفع في النكاف، الإنزيم الوحيد في الإدرار. واللايبيز: أكثر نوعية، عمره النصفي أطول، يرتفع في التهاب البنكرياس فقط."
+   },
+   {
+    "en": "CK-MB vs CK-MM",
+    "ar": "`CK-MB` مقابل `CK-MM`",
+    "answer_en": "CK-MB (CK2) = heart (<6% of total CK normally); CK-MM (CK3) = skeletal muscle (>95%); CK-BB (CK1) = brain, absent in blood.",
+    "answer_ar": "`CK-MB` (`CK2`) = القلب (<6% من `CK` الكلّي طبيعيًا)؛ و`CK-MM` (`CK3`) = العضلات الهيكلية (>95%)؛ و`CK-BB` (`CK1`) = الدماغ، غائب في الدم."
+   },
+   {
+    "en": "LD1 vs LD5",
+    "ar": "`LD1` مقابل `LD5`",
+    "answer_en": "LD1 = H4 = heart/RBC/kidney (↑ in MI, megaloblastic anaemia). LD5 = M4 = liver/skeletal muscle.",
+    "answer_ar": "`LD1` = `H4` = القلب/الكريات الحمر/الكلية (يرتفع في الاحتشاء وفقر الدم الضخم الأرومات). و`LD5` = `M4` = الكبد/العضلات الهيكلية."
+   },
+   {
+    "en": "Order after MI",
+    "ar": "الترتيب بعد الاحتشاء",
+    "answer_en": "AST: up within 12 h, peak 24 h, normal 3–5 d. LDH: up 12–24 h, peak 3–5 d, normal 7–12 d — LDH stays longest.",
+    "answer_ar": "`AST`: يرتفع خلال 12 ساعة، ذروة 24 ساعة، طبيعي 3–5 أيام. و`LDH`: يرتفع 12–24 ساعة، ذروة 3–5 أيام، طبيعي 7–12 يومًا — و`LDH` يبقى أطول."
+   },
+   {
+    "en": "ALP vs ACP",
+    "ar": "`ALP` مقابل `ACP`",
+    "answer_en": "ALP: high pH, bone/liver (Paget, rickets, cholestasis). ACP: pH < 7, prostate (cancer, bony metastasis) — replaced by PSA.",
+    "answer_ar": "`ALP`: `pH` عالٍ، العظم/الكبد (باجيت، الكساح، الركود الصفراوي). و`ACP`: `pH < 7`، البروستاتا (السرطان، النقائل العظمية) — وحلّ محلّه `PSA`."
+   }
+  ],
+  "important": [
+   {
+    "en": "Compare functional and non-functional plasma enzymes.",
+    "ar": "قارن بين إنزيمات البلازما الوظيفية وغير الوظيفية.",
+    "answer_en": "Functional: higher concentration in plasma than tissues, known functions, substrates always in blood, made in liver, decrease in liver disease (clotting factors, lipoprotein lipase, pseudocholinesterase). Non-functional: very low in plasma vs tissues, no known functions, substrates absent from blood, made in different organs, increase in organ diseases (ALT, AST, CK, LDH, ALP, ACP, amylase).",
+    "answer_ar": "الوظيفية: تركيزها في البلازما أعلى من الأنسجة، لها وظائف معروفة، ركائزها موجودة دائمًا في الدم، تُصنع في الكبد، تنخفض في أمراض الكبد (عوامل التخثّر، لايبيز البروتين الدهني، الكولين إستريز الكاذب). وغير الوظيفية: منخفضة جدًا في البلازما مقارنةً بالأنسجة، لا وظائف معروفة، ركائزها غائبة عن الدم، تُصنع في أعضاء مختلفة، ترتفع في أمراض الأعضاء (`ALT`، `AST`، `CK`، `LDH`، `ALP`، `ACP`، الأميليز)."
+   },
+   {
+    "en": "Discuss the aminotransferases in liver disease.",
+    "ar": "ناقش الأمينوترانسفيريزات في أمراض الكبد.",
+    "answer_en": "AST (SGOT) and ALT (SGPT) transfer an amino group from an amino acid to a keto acid; they are released when the liver cell membrane is damaged. In acute viral hepatitis both rise 100–1000×, ALT more than AST. ALT is more liver-specific (AST also rises in MI, muscle necrosis, renal disorders). Levels > 1000 IU/L mean extensive hepatocellular injury. Normal AST ♂ <35, ♀ <31; ALT ♂ <45, ♀ <34 U/L.",
+    "answer_ar": "`AST` (`SGOT`) و`ALT` (`SGPT`) ينقلان مجموعة أمين من حامض أميني إلى حامض كيتوني؛ ويتحرّران عند تضرّر غشاء الخلية الكبدية. وفي التهاب الكبد الفيروسي الحادّ يرتفعان 100–1000 مرّة و`ALT` أكثر. و`ALT` أكثر نوعية للكبد (`AST` يرتفع أيضًا في الاحتشاء وتنخّر العضلات واضطرابات الكلية). والمستويات > 1000 `IU/L` تعني إصابة واسعة. الطبيعي: `AST` ♂ <35، ♀ <31؛ `ALT` ♂ <45، ♀ <34 `U/L`."
+   },
+   {
+    "en": "List the causes of raised plasma ALP and its isoenzymes.",
+    "ar": "عدّد أسباب ارتفاع `ALP` في البلازما ونظائره.",
+    "answer_en": "Physiological: pregnancy (placental isoenzyme, last 6 weeks), infants (up to 5×, bone), children at puberty (2–5×). Pathological: liver (intra/extrahepatic cholestasis; gut isoenzyme in ulcerative colitis), bone (rickets, osteomalacia, Paget's — very high, osteogenic sarcoma, hyperparathyroidism), malignancy. Isoenzymes: hepatic (biliary obstruction), bone (osteoblastic activity), placental, intestinal (after fatty meal).",
+    "answer_ar": "فسيولوجية: الحمل (النظير المشيمي، آخر 6 أسابيع)، الرضّع (حتى 5 أضعاف، عظمي)، الأطفال في البلوغ (2–5 أضعاف). ومرضية: الكبد (ركود صفراوي داخل/خارج الكبد؛ النظير المعوي في التهاب القولون التقرّحي)، العظم (الكساح، تليّن العظام، باجيت — عالٍ جدًا، الساركوما العظمية، فرط جارات الدرقية)، الخباثة. والنظائر: الكبدي (الانسداد الصفراوي)، العظمي (نشاط بانيات العظم)، المشيمي، المعوي (بعد وجبة دهنية)."
+   },
+   {
+    "en": "Compare amylase, lipase and trypsin in pancreatic disease.",
+    "ar": "قارن بين الأميليز واللايبيز والتربسين في أمراض البنكرياس.",
+    "answer_en": "Amylase: hydrolyses α-1,4 glycosidic bonds, 54–62 kDa, passes glomeruli (only enzyme in urine), from pancreas and salivary glands; marked rise (5–10×) in acute pancreatitis and severe glomerular impairment, moderate (≤5×) in acute abdomen and salivary disorders; normal 28–100 U/L. Lipase: 48 kDa glycoprotein, more specific, longer half-life, rises only in pancreatitis; normal 40–200 U/L. Trypsin: serine proteinase, rises in pancreatic disease but has limited clinical value (25 ± 5.3 µg/L).",
+    "answer_ar": "الأميليز: يحلّل روابط `α-1,4` الغلايكوسيدية، 54–62 كيلودالتون، يمرّ بالكبيبات (الإنزيم الوحيد في الإدرار)، من البنكرياس والغدد اللعابية؛ ارتفاع شديد (5–10 أضعاف) في التهاب البنكرياس الحادّ والقصور الكبيبي الشديد، ومتوسط (≤5) في البطن الحادّ واضطرابات اللعاب؛ الطبيعي 28–100 `U/L`. واللايبيز: بروتين سكّري 48 كيلودالتون، أكثر نوعية، عمره النصفي أطول، يرتفع في التهاب البنكرياس فقط؛ الطبيعي 40–200 `U/L`. والتربسين: إنزيم بروتيني سيريني، يرتفع في أمراض البنكرياس لكن قيمته السريرية محدودة (`25 ± 5.3 µg/L`)."
+   },
+   {
+    "en": "Describe the isoenzymes of CK and their clinical use.",
+    "ar": "صف نظائر `CK` واستعمالها السريري.",
+    "answer_en": "CK is a dimer of M and B subunits: CK1 (BB) brain — absent in blood, rises after brain damage and in childbirth; CK2 (MB) mostly heart — <6% of total CK normally, ~35% of heart CK, a sensitive marker of MI; CK3 (MM) skeletal and cardiac muscle — >95% of total CK. Total CK rises in myocardial and skeletal muscle damage, exercise, drugs (digoxin, lidocaine), rhabdomyolysis, muscular dystrophy, myositis, AKI.",
+    "answer_ar": "`CK` ثنائي من وحدتَي `M` و`B`: `CK1` (`BB`) الدماغ — غائب في الدم، يرتفع بعد تضرّر الدماغ وفي الولادة؛ و`CK2` (`MB`) أغلبه القلب — <6% من `CK` الكلّي طبيعيًا، ~35% من `CK` القلب، واسم حسّاس للاحتشاء؛ و`CK3` (`MM`) العضلات الهيكلية والقلبية — >95% من `CK` الكلّي. ويرتفع `CK` الكلّي في تضرّر عضلة القلب والعضلات الهيكلية، والتمارين، والأدوية (الديجوكسين، الليدوكايين)، وانحلال العضلات المخطّطة، والحثل العضلي، والتهاب العضلات، والإصابة الكلوية الحادّة."
+   },
+   {
+    "en": "Give the LDH isoenzymes and the causes of raised total LDH.",
+    "ar": "اذكر نظائر `LDH` وأسباب ارتفاع `LDH` الكلّي.",
+    "answer_en": "Tetramer of H and M: LD1 (H4) heart, RBC, kidney; LD2 (H3M) RES; LD3 (H2M2) lungs; LD4 (HM3) kidney, placenta, pancreas; LD5 (M4) liver, skeletal muscle. Raised total LDH: artefactual (in vitro haemolysis, delayed separation); marked (>5–10× URL) in shock/hypoxia, MI, megaloblastic anaemia, acute leukaemias, lymphomas; moderate (<5×) in viral hepatitis, malignancy, skeletal muscle disease, pulmonary embolism.",
+    "answer_ar": "رباعي من `H` و`M`: `LD1` (`H4`) القلب والكريات الحمر والكلية؛ `LD2` (`H3M`) الجهاز الشبكي البطاني؛ `LD3` (`H2M2`) الرئتين؛ `LD4` (`HM3`) الكلية والمشيمة والبنكرياس؛ `LD5` (`M4`) الكبد والعضلات الهيكلية. وارتفاع `LDH` الكلّي: مصطنع (تحلّل الدم خارج الجسم، تأخّر الفصل)؛ شديد (>5–10 أضعاف) في الصدمة/نقص الأوكسجين، الاحتشاء، فقر الدم الضخم الأرومات، ابيضاض الدم الحادّ، الأورام اللمفاوية؛ ومتوسط (<5) في التهاب الكبد الفيروسي، الخباثة، أمراض العضلات الهيكلية، الانصمام الرئوي."
+   },
+   {
+    "en": "Which enzymes are used to diagnose acute MI? Give the time course of AST and LDH.",
+    "ar": "ما الإنزيمات المستعملة لتشخيص الاحتشاء الحادّ؟ واذكر التسلسل الزمني لـ`AST` و`LDH`.",
+    "answer_en": "CK, CK-MB, LDH (LD) and AST. AST (normal 0–41 IU/L at 37 °C) rises sharply within 12 h, peaks at 24 h or over, returns to normal in 3–5 days; > 350 IU/L = massive (fatal) infarction. LDH (55–140 IU/L at 30 °C) rises after 12–24 h, peaks after 3–5 days, returns to normal after 7–12 days; the rise is proportional to the infarct size.",
+    "answer_ar": "`CK` و`CK-MB` و`LDH` (`LD`) و`AST`. و`AST` (الطبيعي 0–41 `IU/L` عند 37 °م) يرتفع بشدّة خلال 12 ساعة، ويبلغ الذروة عند 24 ساعة أو أكثر، ويعود للطبيعي خلال 3–5 أيام؛ و> 350 `IU/L` = احتشاء واسع (مميت). و`LDH` (55–140 `IU/L` عند 30 °م) يرتفع بعد 12–24 ساعة، ويبلغ الذروة بعد 3–5 أيام، ويعود للطبيعي بعد 7–12 يومًا؛ والارتفاع يتناسب مع حجم الاحتشاء."
+   }
+  ]
+ }
+}
