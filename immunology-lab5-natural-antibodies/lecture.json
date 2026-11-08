@@ -1,0 +1,1334 @@
+{
+ "meta": {
+  "subject_en": "Practical Immunology",
+  "subject_ar": "علم المناعة العملي",
+  "short_ar": "مناعة",
+  "instructor": "م.م. جنان خليل",
+  "unit_en": "Lab 5",
+  "unit_ar": "العملي 5",
+  "unit_label": "LAB",
+  "unit_no": "5",
+  "title_en": "Natural Antibodies Study",
+  "title_ar": "دراسة الأضداد الطبيعية",
+  "department": "تقنيات المختبرات الطبية",
+  "stage": "The third stage — الثالثة",
+  "kind": "Laboratories — عملي"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Natural antibodies (NAbs)",
+   "ar": "الأضداد الطبيعية"
+  },
+  {
+   "t": "note",
+   "en": "Medical Lab. Techniques · Practical Immunology \\3rd stage · Assistant Lecturer \\ Jinan Khaleel · Lab. No.(5)",
+   "ar": "تقنيات المختبرات الطبية · علم المناعة العملي \\ المرحلة الثالثة · المدرّس المساعد \\ جنان خليل · العملي رقم (5)",
+   "label": [
+    "Lab sheet",
+    "ورقة العملي"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "**Natural Antibodies Study**",
+   "ar": "**دراسة الأضداد الطبيعية**"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Natural Antibodies** (NAbs) are most commonly defined as immunoglobulins present in the absence of exogenous antigen stimulation.",
+    "They are produced without any previous infection, vaccination, other foreign antigen exposure or passive immunization, contrasted to regular and irregular antibodies."
+   ],
+   "ar": [
+    "تُعرَّف **الأضداد الطبيعية (`Natural Antibodies, NAbs`)** غالبًا بأنها غلوبيولينات مناعية موجودة في غياب أيّ تحفيز بمستضد خارجي.",
+    "فهي تُنتج دون أيّ عدوى سابقة أو تلقيح أو تعرّض لمستضد غريب آخر أو تمنيع منفعل، على خلاف الأضداد المنتظمة وغير المنتظمة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Generation of diverse class of antibodies starts during organism development even before birth.",
+    "These NAbs providing a first line of defense against infection thereby, allowing time for a specific antibody response to be mounted."
+   ],
+   "ar": [
+    "يبدأ توليد أصناف متنوّعة من الأضداد أثناء نموّ الكائن حتى قبل الولادة.",
+    "وتوفّر هذه الأضداد الطبيعية خطّ الدفاع الأول ضدّ العدوى، فتمنح الوقت لتكوين استجابة ضدّية نوعية."
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "card",
+   "en": [
+    "In addition, NAbs provide immediate protection against infection while the adaptive immune system provides a specific and long-lasting response."
+   ],
+   "ar": [
+    "وإضافةً إلى ذلك، توفّر الأضداد الطبيعية حماية فورية من العدوى، بينما يوفّر الجهاز المناعي التكيّفي استجابة نوعية طويلة الأمد."
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "note",
+   "en": "**Regular antibodies** (e.g. anti-A and anti-B of the ABO system) and **irregular antibodies** (formed after transfusion or pregnancy) are the blood-bank terms the sheet compares NAbs with.",
+   "ar": "**الأضداد المنتظمة** (مثل ضدّ-`A` وضدّ-`B` في نظام `ABO`) و**الأضداد غير المنتظمة** (تتكوّن بعد نقل الدم أو الحمل) هي مصطلحات بنك الدم التي تقارن الورقة الأضدادَ الطبيعيةَ بها.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "NAbs = immunoglobulins present **without** exogenous antigen stimulation (no infection, vaccination, exposure or passive immunization).",
+    "Made **before birth**; **first line of defense** / immediate protection → time for the specific (adaptive) response."
+   ],
+   "ar": [
+    "الأضداد الطبيعية = غلوبيولينات مناعية موجودة **دون** تحفيز بمستضد خارجي (بلا عدوى أو تلقيح أو تعرّض أو تمنيع منفعل).",
+    "تُصنع **قبل الولادة**؛ **خطّ الدفاع الأول** / حماية فورية ← وقت للاستجابة النوعية (التكيّفية)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Characteristics of NAbs",
+   "ar": "صفات الأضداد الطبيعية"
+  },
+  {
+   "t": "h2",
+   "en": "**Characteristics of Nabs**",
+   "ar": "**صفات الأضداد الطبيعية**"
+  },
+  {
+   "t": "card",
+   "en": [
+    "NAbs have unique characteristics that also contribute to their functional roles and set them apart from antigen-specific antibodies.",
+    "Such characteristics include germline structure and a restricted repertoire."
+   ],
+   "ar": [
+    "للأضداد الطبيعية صفات فريدة تسهم أيضًا في أدوارها الوظيفية وتميّزها عن الأضداد النوعية للمستضد.",
+    "ومن هذه الصفات البنية الجنينية (`germline`) والذخيرة المحدودة (`restricted repertoire`)."
+   ],
+   "_ff": 2
+  },
+  {
+   "t": "card",
+   "en": [
+    "Functionally antibodies are not restricted to protect host from invading pathogens albeit they are key regulator of waste management in system generated through cell lysis."
+   ],
+   "ar": [
+    "ووظيفيًا لا يقتصر دور الأضداد على حماية المضيف من الممرضات الغازية، بل هي أيضًا منظِّم رئيسي للتخلّص من الفضلات المتولّدة في الجسم عن طريق تحلّل الخلايا."
+   ],
+   "_ff": 2
+  },
+  {
+   "t": "card",
+   "en": [
+    "Natural antibodies are essentially antibodies of the **immunoglobulin M (IgM)** isotype present in the circulation of normal humans and other mammalian species.",
+    "They are detectable in the serum of healthy individuals before deliberate immunization.",
+    "They are often directed against highly conserved epitopes and often bind to ligands of varying chemical composition with low affinity.",
+    "This antibody subset contrasts with immune antibodies, which are produced in response to the introduction of antigens to the immune system."
+   ],
+   "ar": [
+    "الأضداد الطبيعية هي أساسًا أضداد من النمط **الغلوبيولين المناعي `M` (`IgM`)** موجودة في دوران الإنسان الطبيعي والثدييات الأخرى.",
+    "ويمكن كشفها في مصل الأفراد الأصحّاء قبل أيّ تمنيع متعمّد.",
+    "وكثيرًا ما تكون موجّهة ضدّ حواتم (`epitopes`) شديدة الحفظ، وكثيرًا ما ترتبط بربائط مختلفة التركيب الكيميائي بألفة منخفضة.",
+    "وهذه المجموعة من الأضداد تختلف عن الأضداد المناعية، التي تُنتج استجابةً لإدخال المستضدات إلى الجهاز المناعي."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Natural antibodies are frequently directed to intracellular structures, rather than to cell‐surface antigens."
+   ],
+   "ar": [
+    "وكثيرًا ما تُوجَّه الأضداد الطبيعية إلى تراكيب داخل الخلية بدلًا من مستضدات سطح الخلية."
+   ],
+   "_ff": 3
+  },
+  {
+   "t": "card",
+   "en": [
+    "They have been found to play an innate‐like role in protection against infectious agents and to exert homeostatic functions in a variety of experimental models.",
+    "Other investigations suggest that natural antibodies can play a pathogenic role in autoinflammatory diseases.",
+    "In case of autoimmune disease these natural antibodies functions deregulate that hampers the proper functioning of immune machinery either by hyper immune responses or by tissue degeneration."
+   ],
+   "ar": [
+    "وقد وُجد أنها تؤدّي دورًا شبيهًا بالمناعة الفطرية في الحماية من العوامل المعدية، وتمارس وظائف للتوازن الداخلي في نماذج تجريبية متنوّعة.",
+    "وتشير دراسات أخرى إلى أن الأضداد الطبيعية قد تؤدّي دورًا مُمرِضًا في الأمراض الالتهابية الذاتية.",
+    "وفي حالة أمراض المناعة الذاتية يختلّ تنظيم وظائف هذه الأضداد الطبيعية، ممّا يعيق العمل السليم للجهاز المناعي إمّا بفرط الاستجابات المناعية أو بتنكّس الأنسجة."
+   ],
+   "_ff": 3
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "Natural antibodies",
+     "الأضداد الطبيعية"
+    ],
+    [
+     "Immune (antigen-specific) antibodies",
+     "الأضداد المناعية (النوعية للمستضد)"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Produced**",
+      "**تُنتج**"
+     ],
+     [
+      "without antigen stimulation, before birth",
+      "دون تحفيز بمستضد، قبل الولادة"
+     ],
+     [
+      "in response to antigens",
+      "استجابةً للمستضدات"
+     ]
+    ],
+    [
+     [
+      "**Isotype**",
+      "**النمط**"
+     ],
+     [
+      "mainly IgM",
+      "`IgM` أساسًا"
+     ],
+     [
+      "IgG, IgA, IgE … after switching",
+      "`IgG` و`IgA` و`IgE` … بعد التحوّل"
+     ]
+    ],
+    [
+     [
+      "**Affinity**",
+      "**الألفة**"
+     ],
+     [
+      "low, broad (many ligands)",
+      "منخفضة، واسعة (ربائط كثيرة)"
+     ],
+     [
+      "high, specific",
+      "عالية، نوعية"
+     ]
+    ],
+    [
+     [
+      "**Repertoire**",
+      "**الذخيرة**"
+     ],
+     [
+      "germline, restricted",
+      "جنينية، محدودة"
+     ],
+     [
+      "diverse, mutated",
+      "متنوّعة، طافرة"
+     ]
+    ],
+    [
+     [
+      "**Timing**",
+      "**التوقيت**"
+     ],
+     [
+      "immediate",
+      "فورية"
+     ],
+     [
+      "specific and long-lasting",
+      "نوعية وطويلة الأمد"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    20,
+    40,
+    40
+   ],
+   "style": "summary",
+   "label_en": "BIOS: natural vs immune antibodies",
+   "label_ar": "`BIOS`: الطبيعية مقابل المناعية"
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"Nabs\" in the heading = **NAbs**.",
+    "In the table only the rows from the sheet are certain; \"IgG, IgA, IgE after switching\" and \"mutated\" are BIOS additions."
+   ],
+   "ar": [
+    "\"`Nabs`\" في العنوان = **`NAbs`**.",
+    "في الجدول الصفوف المأخوذة من الورقة هي الأساس؛ أمّا «`IgG` و`IgA` و`IgE` بعد التحوّل» و«طافرة» فإضافات من `BIOS`."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Germline structure, **restricted repertoire**, mainly **IgM**, **low affinity**, highly conserved epitopes.",
+    "Often against **intracellular** structures; innate-like protection + homeostasis + **waste (cell lysis) clearance**.",
+    "Deregulated in **autoimmune/autoinflammatory** disease."
+   ],
+   "ar": [
+    "بنية جنينية، **ذخيرة محدودة**، `IgM` **أساسًا**، **ألفة منخفضة**، حواتم شديدة الحفظ.",
+    "غالبًا ضدّ تراكيب **داخل الخلية**؛ حماية شبيهة بالفطرية + توازن داخلي + **التخلّص من فضلات تحلّل الخلايا**.",
+    "يختلّ تنظيمها في أمراض **المناعة الذاتية/الالتهاب الذاتي**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "NAb-producing cells and their History",
+   "ar": "الخلايا المنتجة للأضداد الطبيعية وتاريخها"
+  },
+  {
+   "t": "card",
+   "en": "Determining and subsequently examining the B cells producing NAbs have been began since the early 1980s despite NAbs being studied since the late 1960s.",
+   "ar": "بدأ تحديد الخلايا البائية المنتجة للأضداد الطبيعية ثم فحصها منذ أوائل الثمانينيات، رغم أن الأضداد الطبيعية تُدرس منذ أواخر الستينيات."
+  },
+  {
+   "t": "card",
+   "en": [
+    "**NAb producing B-1a cells** were first identified in mice and characterized by surface expression of CD5+, IgMhigh, IgDlow, CD19high, B220low, CD23−, and CD43+, which contrasts with the surface phenotype of follicular B-2 cells: CD5−, IgMlow, IgDhigh, CD19+, B220+, CD23+, and CD43−."
+   ],
+   "ar": [
+    "وقد حُدّدت **خلايا `B-1a` المنتجة للأضداد الطبيعية** أول مرّة في الفئران، وتتميّز بالتعبير السطحي عن `CD5+` و`IgMhigh` و`IgDlow` و`CD19high` و`B220low` و`CD23−` و`CD43+`، وهذا يخالف النمط السطحي لخلايا `B-2` الجُرَيبية: `CD5−` و`IgMlow` و`IgDhigh` و`CD19+` و`B220+` و`CD23+` و`CD43−`."
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Marker",
+     "الواسم"
+    ],
+    [
+     "B-1a cells (NAb-producing)",
+     "خلايا `B-1a` (منتجة للأضداد الطبيعية)"
+    ],
+    [
+     "Follicular B-2 cells",
+     "خلايا `B-2` الجُرَيبية"
+    ]
+   ],
+   "rows": [
+    [
+     "**CD5**",
+     "+",
+     "−"
+    ],
+    [
+     "**IgM**",
+     "high",
+     "low"
+    ],
+    [
+     "**IgD**",
+     "low",
+     "high"
+    ],
+    [
+     "**CD19**",
+     "high",
+     "+"
+    ],
+    [
+     "**B220**",
+     "low",
+     "+"
+    ],
+    [
+     "**CD23**",
+     "−",
+     "+"
+    ],
+    [
+     "**CD43**",
+     "+",
+     "−"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    38,
+    38
+   ],
+   "style": "summary",
+   "label_en": "BIOS: the two phenotypes side by side",
+   "label_ar": "`BIOS`: النمطان جنبًا إلى جنب"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Studies have demonstrated that B-1a cells are found in the peritoneal cavity, pleural cavity, spleen, bone marrow, lymph nodes, and blood of mice.",
+    "Furthermore, various subsets of B-1a cells have been identified.",
+    "Throughout the many years of B-1a cell investigation, it has been shown that not all subsets of murine B-1a cells secrete NAbs."
+   ],
+   "ar": [
+    "وقد أثبتت الدراسات أن خلايا `B-1a` توجد في التجويف الصفاقي والتجويف الجنبي والطحال ونقي العظم والعقد اللمفاوية ودم الفئران.",
+    "وإضافةً إلى ذلك حُدّدت مجموعات فرعية مختلفة من خلايا `B-1a`.",
+    "وعبر سنوات طويلة من دراسة خلايا `B-1a` تبيّن أن ليست كل المجموعات الفرعية لخلايا `B-1a` في الفئران تفرز أضدادًا طبيعية."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "More recently, focus has been given in determining the subset of B cells in humans capable of producing NAbs."
+   ],
+   "ar": [
+    "وفي الآونة الأخيرة انصبّ الاهتمام على تحديد مجموعة الخلايا البائية في الإنسان القادرة على إنتاج الأضداد الطبيعية."
+   ],
+   "_ff": 4
+  },
+  {
+   "t": "card",
+   "en": [
+    "Early studies in humans focused on CD5+ peripheral B cells.",
+    "Further investigation is still required in the human system to determine whether other subsets of NAb producing B cells exist and the location of such subsets beyond peripheral blood."
+   ],
+   "ar": [
+    "وركّزت الدراسات الأولى في الإنسان على الخلايا البائية المحيطية `CD5+`.",
+    "وما زالت هناك حاجة إلى مزيد من البحث في الإنسان لتحديد ما إذا كانت توجد مجموعات فرعية أخرى من الخلايا البائية المنتجة للأضداد الطبيعية، وأماكن وجودها خارج الدم المحيطي."
+   ],
+   "_ff": 4
+  },
+  {
+   "t": "card",
+   "en": "Many aspects of NAbs and the cells generating them have yet to be studied in great detail:",
+   "ar": "جوانب كثيرة من الأضداد الطبيعية والخلايا المولّدة لها لم تُدرس بالتفصيل بعد:",
+   "list_en": [
+    "the reactivity and function of NAbs in health and different diseases.",
+    "the behavior of the NAb repertoire with increasing age.",
+    "the regulation of NAb production and auto-reactivity."
+   ],
+   "list_ar": [
+    "تفاعلية الأضداد الطبيعية ووظيفتها في الصحّة والأمراض المختلفة.",
+    "سلوك ذخيرة الأضداد الطبيعية مع تقدّم العمر.",
+    "تنظيم إنتاج الأضداد الطبيعية والتفاعلية الذاتية."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"have been began\" = **have begun**.",
+    "\"murine\" = of mice."
+   ],
+   "ar": [
+    "\"`have been began`\" = **`have begun`** (بدأت).",
+    "و\"`murine`\" = خاصّ بالفئران."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "NAbs studied since the **late 1960s**; their B cells since the **early 1980s**."
+   ],
+   "ar": [
+    "تُدرس الأضداد الطبيعية منذ **أواخر الستينيات**؛ وخلاياها البائية منذ **أوائل الثمانينيات**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ],
+   "_ff": 5
+  },
+  {
+   "t": "note",
+   "en": [
+    "Main producers: **B-1a cells** (first in mice): **CD5+**, IgM high, IgD low; B-2 cells are the opposite (CD5−, IgM low, IgD high).",
+    "B-1a sites in mice: peritoneal & pleural cavities, spleen, bone marrow, lymph nodes, blood; in humans: **CD5+ peripheral B cells**."
+   ],
+   "ar": [
+    "المنتج الرئيسي: **خلايا `B-1a`** (أوّلًا في الفئران): **`CD5+`**، `IgM` عالٍ، `IgD` منخفض؛ وخلايا `B-2` عكسها (`CD5−`، `IgM` منخفض، `IgD` عالٍ).",
+    "مواقع `B-1a` في الفئران: التجويفان الصفاقي والجنبي، الطحال، نقي العظم، العقد اللمفاوية، الدم؛ وفي الإنسان: **الخلايا البائية المحيطية `CD5+`**."
+   ],
+   "label": [
+    "In short (continued)",
+    "باختصار (تكملة)"
+   ],
+   "_ff": 5
+  },
+  {
+   "t": "section",
+   "en": "The functions of natural antibodies",
+   "ar": "وظائف الأضداد الطبيعية"
+  },
+  {
+   "t": "card",
+   "en": "Beyond immediate protection from infection, NAbs have been shown to play various functional roles in the immune system, which include:",
+   "ar": "إضافةً إلى الحماية الفورية من العدوى، ثبت أن للأضداد الطبيعية أدوارًا وظيفية متنوّعة في الجهاز المناعي، منها:",
+   "list_en": [
+    "Clearance of apoptotic debris.",
+    "Suppression of allergic responses.",
+    "Regulation of B cell responses.",
+    "Selection of the B cell repertoire.",
+    "Protection from cancer.",
+    "Regulation of B cell development.",
+    "Protection against atherosclerosis.",
+    "Protection from bacteria, viruses and fungi."
+   ],
+   "list_ar": [
+    "التخلّص من بقايا الموت الخلوي المبرمج.",
+    "تثبيط الاستجابات التحسّسية.",
+    "تنظيم استجابات الخلايا البائية.",
+    "انتقاء ذخيرة الخلايا البائية.",
+    "الحماية من السرطان.",
+    "تنظيم تطوّر الخلايا البائية.",
+    "الحماية من تصلّب الشرايين.",
+    "الحماية من البكتيريا والفيروسات والفطريات."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "*These various functions of NAbs are afforded by their broad reactivity.",
+   "ar": "*وتتيح هذه الوظائفَ المتنوّعة للأضداد الطبيعية تفاعليتُها الواسعة."
+  },
+  {
+   "t": "figure",
+   "src": "assets/nabs-functions.png",
+   "en": "Natural antibodies: producing cells, isotypes, targets and functions",
+   "ar": "الأضداد الطبيعية: الخلايا المنتجة والأنماط والأهداف والوظائف",
+   "h": "78mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Ring of the figure",
+     "حلقة الشكل"
+    ],
+    [
+     "Figure text",
+     "كتابات الشكل"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Centre — cells and sites**",
+      "**المركز — الخلايا والمواقع**"
+     ],
+     [
+      "B-1a, B-1b, CD5-PC, MZ; PerC, Spleen, BM",
+      "`B-1a`، `B-1b`، `CD5-PC`، `MZ`؛ التجويف الصفاقي (`PerC`)، الطحال، نقي العظم (`BM`)"
+     ]
+    ],
+    [
+     [
+      "**Red ring — isotypes**",
+      "**الحلقة الحمراء — الأنماط**"
+     ],
+     [
+      "Natural Antibodies: IgA, IgG, IgE, IgM",
+      "الأضداد الطبيعية: `IgA`، `IgG`، `IgE`، `IgM`"
+     ]
+    ],
+    [
+     [
+      "**Yellow ring — targets**",
+      "**الحلقة الصفراء — الأهداف**"
+     ],
+     [
+      "Anti-Phospholipids, Anti-Glycolipids, Anti-dsDNA, Anti-Glycoproteins, Anti-CD90, Anti-Oxidized Lipids",
+      "ضدّ الفوسفوليبيدات، ضدّ الليبيدات السكّرية، ضدّ `dsDNA`، ضدّ البروتينات السكّرية، ضدّ `CD90`، ضدّ الليبيدات المؤكسدة"
+     ]
+    ],
+    [
+     [
+      "**Green ring — functions**",
+      "**الحلقة الخضراء — الوظائف**"
+     ],
+     [
+      "Protection from Bacteria, viruses, fungi · Clearance of Apoptotic debris · Suppress allergic responses · Regulation of B cell responses · Selection of the B cell repertoire · Anti-Tumor Abs · Vascular Homeostasis · B cell Development",
+      "الحماية من البكتيريا والفيروسات والفطريات · التخلّص من بقايا الموت المبرمج · تثبيط الاستجابات التحسّسية · تنظيم استجابات الخلايا البائية · انتقاء ذخيرة الخلايا البائية · أضداد مضادّة للأورام · توازن الأوعية الدموية · تطوّر الخلايا البائية"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    28,
+    72
+   ],
+   "label_en": "Figure text",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Figure abbreviations: **PerC** = peritoneal cavity, **BM** = bone marrow, **MZ** = marginal-zone B cells, **CD5-PC** = CD5+ plasma cells.",
+    "\"Vascular Homeostasis\" in the figure matches \"Protection against atherosclerosis\"."
+   ],
+   "ar": [
+    "اختصارات الشكل: **`PerC`** = التجويف الصفاقي، و**`BM`** = نقي العظم، و**`MZ`** = خلايا المنطقة الهامشية البائية، و**`CD5-PC`** = خلايا بلازمية `CD5+`.",
+    "و«توازن الأوعية الدموية» في الشكل يقابل «الحماية من تصلّب الشرايين»."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "8 functions: apoptotic debris, allergy suppression, B-cell responses, B-cell repertoire, cancer, B-cell development, **atherosclerosis**, bacteria/viruses/fungi.",
+    "All come from their **broad reactivity**."
+   ],
+   "ar": [
+    "8 وظائف: بقايا الموت المبرمج، تثبيط التحسّس، استجابات الخلايا البائية، ذخيرتها، السرطان، تطوّرها، **تصلّب الشرايين**، البكتيريا/الفيروسات/الفطريات.",
+    "وكلّها ناتجة عن **تفاعليتها الواسعة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Natural antibodies (NAbs)**",
+     "الأضداد الطبيعية"
+    ],
+    [
+     "**Immunoglobulin M (IgM)**",
+     "الغلوبيولين المناعي `M`"
+    ],
+    [
+     "**Passive immunization**",
+     "التمنيع المنفعل / السلبي"
+    ],
+    [
+     "**Germline**",
+     "الخط الجنيني / الجرثومي"
+    ],
+    [
+     "**Repertoire**",
+     "الذخيرة / المخزون (من الأضداد)"
+    ],
+    [
+     "**Epitope**",
+     "الحاتمة / المحدّد المستضدي"
+    ],
+    [
+     "**Affinity**",
+     "الألفة"
+    ],
+    [
+     "**Homeostasis**",
+     "التوازن الداخلي / الاستتباب"
+    ],
+    [
+     "**Autoimmune disease**",
+     "مرض المناعة الذاتية"
+    ],
+    [
+     "**B-1a cells**",
+     "خلايا `B-1a` البائية"
+    ],
+    [
+     "**Follicular B-2 cells**",
+     "خلايا `B-2` الجُرَيبية"
+    ],
+    [
+     "**Apoptotic debris**",
+     "بقايا الموت الخلوي المبرمج"
+    ],
+    [
+     "**Atherosclerosis**",
+     "تصلّب الشرايين / التصلّب العصيدي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Definition and characteristics",
+    "topic_ar": "التعريف والصفات"
+   },
+   {
+    "en": "Natural antibodies are immunoglobulins present:",
+    "ar": "الأضداد الطبيعية غلوبيولينات مناعية موجودة:",
+    "options": [
+     [
+      "In the absence of exogenous antigen stimulation",
+      "في غياب التحفيز بمستضد خارجي"
+     ],
+     [
+      "Only after vaccination",
+      "بعد التلقيح فقط"
+     ],
+     [
+      "Only after infection",
+      "بعد العدوى فقط"
+     ],
+     [
+      "Only after passive immunization",
+      "بعد التمنيع المنفعل فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Generation of natural antibodies starts:",
+    "ar": "يبدأ توليد الأضداد الطبيعية:",
+    "options": [
+     [
+      "At puberty",
+      "عند البلوغ"
+     ],
+     [
+      "During organism development, even before birth",
+      "أثناء نموّ الكائن، حتى قبل الولادة"
+     ],
+     [
+      "Only in old age",
+      "في الشيخوخة فقط"
+     ],
+     [
+      "After the first infection",
+      "بعد أول عدوى"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "NAbs provide:",
+    "ar": "توفّر الأضداد الطبيعية:",
+    "options": [
+     [
+      "A specific long-lasting response only",
+      "استجابة نوعية طويلة الأمد فقط"
+     ],
+     [
+      "No protection",
+      "لا حماية"
+     ],
+     [
+      "A first line of defense / immediate protection against infection",
+      "خطّ الدفاع الأول / حماية فورية من العدوى"
+     ],
+     [
+      "Only allergy",
+      "التحسّس فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Natural antibodies are essentially of the isotype:",
+    "ar": "الأضداد الطبيعية أساسًا من النمط:",
+    "options": [
+     [
+      "IgE",
+      "`IgE`"
+     ],
+     [
+      "IgD",
+      "`IgD`"
+     ],
+     [
+      "IgA",
+      "`IgA`"
+     ],
+     [
+      "IgM",
+      "`IgM`"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Natural antibodies bind ligands with:",
+    "ar": "ترتبط الأضداد الطبيعية بالربائط بـ:",
+    "options": [
+     [
+      "Very high affinity",
+      "ألفة عالية جدًا"
+     ],
+     [
+      "Low affinity",
+      "ألفة منخفضة"
+     ],
+     [
+      "No affinity",
+      "بلا ألفة"
+     ],
+     [
+      "Covalent bonds",
+      "روابط تساهمية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Two characteristics of NAbs are:",
+    "ar": "صفتان من صفات الأضداد الطبيعية:",
+    "options": [
+     [
+      "Somatic mutation and high affinity",
+      "طفرة جسدية وألفة عالية"
+     ],
+     [
+      "Directed only to cell-surface antigens",
+      "موجّهة لمستضدات سطح الخلية فقط"
+     ],
+     [
+      "Produced only after vaccination",
+      "تُنتج بعد التلقيح فقط"
+     ],
+     [
+      "Germline structure and a restricted repertoire",
+      "بنية جنينية وذخيرة محدودة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Natural antibodies are frequently directed to:",
+    "ar": "كثيرًا ما تُوجَّه الأضداد الطبيعية إلى:",
+    "options": [
+     [
+      "Intracellular structures",
+      "تراكيب داخل الخلية"
+     ],
+     [
+      "Drugs",
+      "الأدوية"
+     ],
+     [
+      "Cell-surface antigens only",
+      "مستضدات سطح الخلية فقط"
+     ],
+     [
+      "Red cell antigens only",
+      "مستضدات الكريات الحمر فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Functionally, NAbs are also a key regulator of:",
+    "ar": "وظيفيًا، الأضداد الطبيعية أيضًا منظِّم رئيسي لـ:",
+    "options": [
+     [
+      "Blood pressure",
+      "ضغط الدم"
+     ],
+     [
+      "Blood glucose",
+      "سكّر الدم"
+     ],
+     [
+      "Waste management generated through cell lysis",
+      "التخلّص من الفضلات الناتجة عن تحلّل الخلايا"
+     ],
+     [
+      "Body temperature",
+      "حرارة الجسم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In autoimmune disease, natural antibody functions:",
+    "ar": "في أمراض المناعة الذاتية، وظائف الأضداد الطبيعية:",
+    "options": [
+     [
+      "Are not affected",
+      "لا تتأثّر"
+     ],
+     [
+      "Disappear completely",
+      "تختفي كليًا"
+     ],
+     [
+      "Become IgE only",
+      "تصبح `IgE` فقط"
+     ],
+     [
+      "Deregulate (hyper immune responses or tissue degeneration)",
+      "يختلّ تنظيمها (فرط استجابة مناعية أو تنكّس نسيجي)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Producing cells",
+    "topic_ar": "الخلايا المنتجة"
+   },
+   {
+    "en": "B cells producing NAbs have been examined since:",
+    "ar": "تُفحص الخلايا البائية المنتجة للأضداد الطبيعية منذ:",
+    "options": [
+     [
+      "The late 1960s",
+      "أواخر الستينيات"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "The early 1980s",
+      "أوائل الثمانينيات"
+     ],
+     [
+      "The 1900s",
+      "مطلع القرن العشرين"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "NAb producing B-1a cells were first identified in:",
+    "ar": "حُدّدت خلايا `B-1a` المنتجة للأضداد الطبيعية أول مرّة في:",
+    "options": [
+     [
+      "Humans",
+      "الإنسان"
+     ],
+     [
+      "Mice",
+      "الفئران"
+     ],
+     [
+      "Rabbits",
+      "الأرانب"
+     ],
+     [
+      "Birds",
+      "الطيور"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "A surface marker of B-1a cells is:",
+    "ar": "من الواسمات السطحية لخلايا `B-1a`:",
+    "options": [
+     [
+      "CD5+",
+      "`CD5+`"
+     ],
+     [
+      "IgD high",
+      "`IgD` عالٍ"
+     ],
+     [
+      "CD23+",
+      "`CD23+`"
+     ],
+     [
+      "CD5−",
+      "`CD5−`"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Follicular B-2 cells are:",
+    "ar": "خلايا `B-2` الجُرَيبية:",
+    "options": [
+     [
+      "CD43+, CD23−",
+      "`CD43+`، `CD23−`"
+     ],
+     [
+      "CD5+, IgM high, IgD low",
+      "`CD5+`، `IgM` عالٍ، `IgD` منخفض"
+     ],
+     [
+      "CD5−, IgM low, IgD high",
+      "`CD5−`، `IgM` منخفض، `IgD` عالٍ"
+     ],
+     [
+      "B220 low",
+      "`B220` منخفض"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In mice, B-1a cells are found in:",
+    "ar": "في الفئران توجد خلايا `B-1a` في:",
+    "options": [
+     [
+      "The brain only",
+      "الدماغ فقط"
+     ],
+     [
+      "The liver only",
+      "الكبد فقط"
+     ],
+     [
+      "Skin only",
+      "الجلد فقط"
+     ],
+     [
+      "Peritoneal and pleural cavities, spleen, bone marrow, lymph nodes and blood",
+      "التجويفين الصفاقي والجنبي والطحال ونقي العظم والعقد اللمفاوية والدم"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Early studies in humans focused on:",
+    "ar": "ركّزت الدراسات الأولى في الإنسان على:",
+    "options": [
+     [
+      "CD23+ B cells",
+      "الخلايا البائية `CD23+`"
+     ],
+     [
+      "CD5+ peripheral B cells",
+      "الخلايا البائية المحيطية `CD5+`"
+     ],
+     [
+      "T cells",
+      "الخلايا التائية"
+     ],
+     [
+      "Plasma cells in the gut",
+      "الخلايا البلازمية في الأمعاء"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "topic_en": "Functions",
+    "topic_ar": "الوظائف"
+   },
+   {
+    "en": "Which is a function of natural antibodies?",
+    "ar": "أيّ مما يلي من وظائف الأضداد الطبيعية؟",
+    "options": [
+     [
+      "Clearance of apoptotic debris",
+      "التخلّص من بقايا الموت الخلوي المبرمج"
+     ],
+     [
+      "Blood clotting",
+      "تخثّر الدم"
+     ],
+     [
+      "Oxygen transport",
+      "نقل الأوكسجين"
+     ],
+     [
+      "Production of insulin",
+      "إنتاج الإنسولين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Natural antibodies protect against:",
+    "ar": "تحمي الأضداد الطبيعية من:",
+    "options": [
+     [
+      "Dehydration",
+      "الجفاف"
+     ],
+     [
+      "Fractures",
+      "الكسور"
+     ],
+     [
+      "Atherosclerosis",
+      "تصلّب الشرايين"
+     ],
+     [
+      "Anemia",
+      "فقر الدم"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Regarding allergy, NAbs:",
+    "ar": "بالنسبة للتحسّس، الأضداد الطبيعية:",
+    "options": [
+     [
+      "Cause all allergies",
+      "تسبّب كل أنواع التحسّس"
+     ],
+     [
+      "Suppress allergic responses",
+      "تثبّط الاستجابات التحسّسية"
+     ],
+     [
+      "Have no role",
+      "لا دور لها"
+     ],
+     [
+      "Are only IgE",
+      "هي `IgE` فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The various functions of NAbs are afforded by their:",
+    "ar": "تتيح الوظائفَ المتنوّعة للأضداد الطبيعية:",
+    "options": [
+     [
+      "Broad reactivity",
+      "تفاعليتها الواسعة"
+     ],
+     [
+      "Large size",
+      "حجمها الكبير"
+     ],
+     [
+      "High affinity",
+      "ألفتها العالية"
+     ],
+     [
+      "Short half-life",
+      "عمرها النصفي القصير"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this figure, \"PerC\" in the centre means:",
+    "ar": "في هذا الشكل، «`PerC`» في المركز يعني:",
+    "options": [
+     [
+      "Pericardium",
+      "التامور"
+     ],
+     [
+      "Peripheral cells",
+      "الخلايا المحيطية"
+     ],
+     [
+      "Percentage",
+      "النسبة المئوية"
+     ],
+     [
+      "Peritoneal cavity",
+      "التجويف الصفاقي"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/nabs-functions.png",
+    "img_h": "44mm"
+   },
+   {
+    "en": "The outer (green) ring of this figure lists the NAbs':",
+    "ar": "الحلقة الخارجية (الخضراء) في هذا الشكل تعرض للأضداد الطبيعية:",
+    "options": [
+     [
+      "Isotypes",
+      "الأنماط"
+     ],
+     [
+      "Functions",
+      "الوظائف"
+     ],
+     [
+      "Producing cells",
+      "الخلايا المنتجة"
+     ],
+     [
+      "Targets",
+      "الأهداف"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/nabs-functions.png",
+    "img_h": "44mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Natural antibodies are produced only after vaccination.",
+    "ar": "تُنتج الأضداد الطبيعية بعد التلقيح فقط.",
+    "answer": "F"
+   },
+   {
+    "en": "Generation of antibodies starts even before birth.",
+    "ar": "يبدأ توليد الأضداد حتى قبل الولادة.",
+    "answer": "T"
+   },
+   {
+    "en": "NAbs allow time for a specific antibody response to be mounted.",
+    "ar": "تمنح الأضداد الطبيعية الوقت لتكوين استجابة ضدّية نوعية.",
+    "answer": "T"
+   },
+   {
+    "en": "Natural antibodies are mainly of the IgE isotype.",
+    "ar": "الأضداد الطبيعية أساسًا من النمط `IgE`.",
+    "answer": "F"
+   },
+   {
+    "en": "NAbs are detectable in the serum of healthy individuals before deliberate immunization.",
+    "ar": "يمكن كشف الأضداد الطبيعية في مصل الأصحّاء قبل التمنيع المتعمّد.",
+    "answer": "T"
+   },
+   {
+    "en": "NAbs bind their ligands with high affinity.",
+    "ar": "ترتبط الأضداد الطبيعية بربائطها بألفة عالية.",
+    "answer": "F"
+   },
+   {
+    "en": "Natural antibodies are often directed against highly conserved epitopes.",
+    "ar": "كثيرًا ما تُوجَّه الأضداد الطبيعية ضدّ حواتم شديدة الحفظ.",
+    "answer": "T"
+   },
+   {
+    "en": "NAbs can play a pathogenic role in autoinflammatory diseases.",
+    "ar": "قد تؤدّي الأضداد الطبيعية دورًا مُمرِضًا في الأمراض الالتهابية الذاتية.",
+    "answer": "T"
+   },
+   {
+    "en": "B-1a cells are CD5− and IgD high.",
+    "ar": "خلايا `B-1a` هي `CD5−` و`IgD` عالٍ.",
+    "answer": "F"
+   },
+   {
+    "en": "All subsets of murine B-1a cells secrete NAbs.",
+    "ar": "كل المجموعات الفرعية لخلايا `B-1a` في الفئران تفرز أضدادًا طبيعية.",
+    "answer": "F"
+   },
+   {
+    "en": "Natural antibodies protect from bacteria, viruses and fungi.",
+    "ar": "تحمي الأضداد الطبيعية من البكتيريا والفيروسات والفطريات.",
+    "answer": "T"
+   },
+   {
+    "en": "NAbs have no role in B cell development.",
+    "ar": "لا دور للأضداد الطبيعية في تطوّر الخلايا البائية.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Natural vs immune antibodies",
+    "ar": "الطبيعية مقابل المناعية",
+    "answer_en": "Natural: present without antigen stimulation, mainly IgM, low affinity, germline, before birth. Immune: produced in response to introduced antigens.",
+    "answer_ar": "الطبيعية: موجودة دون تحفيز بمستضد، `IgM` أساسًا، ألفة منخفضة، جنينية، قبل الولادة. والمناعية: تُنتج استجابةً لإدخال المستضدات."
+   },
+   {
+    "en": "B-1a vs B-2",
+    "ar": "`B-1a` مقابل `B-2`",
+    "answer_en": "B-1a (NAb producers): CD5+, IgM high, IgD low, CD23−, CD43+. Follicular B-2: CD5−, IgM low, IgD high, CD23+, CD43− — exact opposites.",
+    "answer_ar": "`B-1a` (منتجة الأضداد الطبيعية): `CD5+`، `IgM` عالٍ، `IgD` منخفض، `CD23−`، `CD43+`. و`B-2` الجُرَيبية: `CD5−`، `IgM` منخفض، `IgD` عالٍ، `CD23+`، `CD43−` — عكسها تمامًا."
+   },
+   {
+    "en": "1960s or 1980s?",
+    "ar": "الستينيات أم الثمانينيات؟",
+    "answer_en": "NAbs have been studied since the late 1960s; the B cells producing them since the early 1980s.",
+    "answer_ar": "الأضداد الطبيعية تُدرس منذ أواخر الستينيات؛ والخلايا البائية المنتجة لها منذ أوائل الثمانينيات."
+   },
+   {
+    "en": "Intracellular, not surface",
+    "ar": "داخل الخلية لا على سطحها",
+    "answer_en": "NAbs are frequently directed to intracellular structures rather than to cell-surface antigens.",
+    "answer_ar": "الأضداد الطبيعية كثيرًا ما تُوجَّه إلى تراكيب داخل الخلية بدلًا من مستضدات سطح الخلية."
+   },
+   {
+    "en": "Low affinity, broad reactivity",
+    "ar": "ألفة منخفضة وتفاعلية واسعة",
+    "answer_en": "NAbs bind many different ligands with LOW affinity; this broad reactivity explains their many functions.",
+    "answer_ar": "الأضداد الطبيعية ترتبط بربائط كثيرة مختلفة بألفة منخفضة؛ وهذه التفاعلية الواسعة تفسّر وظائفها الكثيرة."
+   },
+   {
+    "en": "Mice first, humans later",
+    "ar": "الفئران أولًا ثم الإنسان",
+    "answer_en": "B-1a cells were first identified in mice; in humans early studies focused on CD5+ peripheral B cells, and more work is still needed.",
+    "answer_ar": "حُدّدت خلايا `B-1a` أولًا في الفئران؛ وفي الإنسان ركّزت الدراسات الأولى على الخلايا البائية المحيطية `CD5+`، وما زال البحث مطلوبًا."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define natural antibodies.",
+    "ar": "عرّف الأضداد الطبيعية.",
+    "answer_en": "Immunoglobulins present in the absence of exogenous antigen stimulation — produced without previous infection, vaccination, foreign antigen exposure or passive immunization; generated even before birth; mainly IgM.",
+    "answer_ar": "غلوبيولينات مناعية موجودة في غياب التحفيز بمستضد خارجي — تُنتج دون عدوى سابقة أو تلقيح أو تعرّض لمستضد غريب أو تمنيع منفعل؛ وتتولّد حتى قبل الولادة؛ وهي `IgM` أساسًا."
+   },
+   {
+    "en": "List the characteristics of natural antibodies.",
+    "ar": "عدّد صفات الأضداد الطبيعية.",
+    "answer_en": "Germline structure; restricted repertoire; mainly IgM; present in serum of healthy individuals before immunization; directed against highly conserved epitopes; bind varied ligands with low affinity; often against intracellular structures; innate-like protection and homeostatic functions.",
+    "answer_ar": "بنية جنينية؛ ذخيرة محدودة؛ `IgM` أساسًا؛ موجودة في مصل الأصحّاء قبل التمنيع؛ موجّهة ضدّ حواتم شديدة الحفظ؛ ترتبط بربائط متنوّعة بألفة منخفضة؛ غالبًا ضدّ تراكيب داخل الخلية؛ حماية شبيهة بالفطرية ووظائف توازن داخلي."
+   },
+   {
+    "en": "Compare B-1a cells and follicular B-2 cells.",
+    "ar": "قارن بين خلايا `B-1a` وخلايا `B-2` الجُرَيبية.",
+    "answer_en": "B-1a (NAb-producing, first found in mice): CD5+, IgM high, IgD low, CD19 high, B220 low, CD23−, CD43+. Follicular B-2: CD5−, IgM low, IgD high, CD19+, B220+, CD23+, CD43−.",
+    "answer_ar": "`B-1a` (منتجة الأضداد الطبيعية، وُجدت أولًا في الفئران): `CD5+`، `IgM` عالٍ، `IgD` منخفض، `CD19` عالٍ، `B220` منخفض، `CD23−`، `CD43+`. و`B-2` الجُرَيبية: `CD5−`، `IgM` منخفض، `IgD` عالٍ، `CD19+`، `B220+`، `CD23+`، `CD43−`."
+   },
+   {
+    "en": "Where are B-1a cells found in mice, and which cells were studied in humans?",
+    "ar": "أين توجد خلايا `B-1a` في الفئران، وأيّ خلايا دُرست في الإنسان؟",
+    "answer_en": "Peritoneal cavity, pleural cavity, spleen, bone marrow, lymph nodes and blood. In humans, early studies focused on CD5+ peripheral B cells.",
+    "answer_ar": "التجويف الصفاقي، التجويف الجنبي، الطحال، نقي العظم، العقد اللمفاوية والدم. وفي الإنسان ركّزت الدراسات الأولى على الخلايا البائية المحيطية `CD5+`."
+   },
+   {
+    "en": "List the functions of natural antibodies.",
+    "ar": "عدّد وظائف الأضداد الطبيعية.",
+    "answer_en": "Immediate protection from infection, plus: clearance of apoptotic debris; suppression of allergic responses; regulation of B cell responses; selection of the B cell repertoire; protection from cancer; regulation of B cell development; protection against atherosclerosis; protection from bacteria, viruses and fungi — all afforded by their broad reactivity.",
+    "answer_ar": "الحماية الفورية من العدوى، إضافةً إلى: التخلّص من بقايا الموت المبرمج؛ تثبيط الاستجابات التحسّسية؛ تنظيم استجابات الخلايا البائية؛ انتقاء ذخيرتها؛ الحماية من السرطان؛ تنظيم تطوّر الخلايا البائية؛ الحماية من تصلّب الشرايين؛ الحماية من البكتيريا والفيروسات والفطريات — وكلّها بفضل تفاعليتها الواسعة."
+   },
+   {
+    "en": "What aspects of NAbs still need detailed study?",
+    "ar": "ما جوانب الأضداد الطبيعية التي ما زالت تحتاج دراسة مفصّلة؟",
+    "answer_en": "The reactivity and function of NAbs in health and disease; the behavior of the NAb repertoire with increasing age; the regulation of NAb production and auto-reactivity.",
+    "answer_ar": "تفاعلية الأضداد الطبيعية ووظيفتها في الصحّة والمرض؛ سلوك ذخيرتها مع تقدّم العمر؛ تنظيم إنتاجها والتفاعلية الذاتية."
+   }
+  ]
+ }
+}
