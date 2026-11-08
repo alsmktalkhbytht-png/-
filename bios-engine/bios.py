@@ -389,10 +389,15 @@ def inline_answer(q):
 
 def tfq(i, t):
     tf = '<div class="tfrow" dir="ltr"><span>True · صح</span><span>False · خطأ</span></div>'
+    ans = ""
+    if INLINE["on"]:                            # answers_inline: the T/F answer under the statement
+        ok = t["answer"] == "T"
+        ans = (f'<div class="qans"><span dir="ltr">Answer: <b>{"True" if ok else "False"}</b></span>'
+               f'<span dir="rtl">الحل: <b>{"صح" if ok else "خطأ"}</b></span></div>')
     if not t["en"]:
-        return f'<div class="card"><div class="c-ar tfa q" style="border-top:0"><span class="qnum">{i}</span>{tf}{ar(t["ar"])}</div></div>'
+        return f'<div class="card"><div class="c-ar tfa q" style="border-top:0"><span class="qnum">{i}</span>{tf}{ar(t["ar"])}</div>{ans}</div>'
     return (f'<div class="card"><div class="c-en q"><span class="chip">EN</span><span class="qnum">{i}</span>{en(t["en"])}</div>'
-            f'<div class="c-ar tfa"><span class="chip chip-ar">AR</span>{tf}{ar(t["ar"])}</div></div>')
+            f'<div class="c-ar tfa"><span class="chip chip-ar">AR</span>{tf}{ar(t["ar"])}</div>{ans}</div>')
 
 
 def put_qnum(c, label):
@@ -449,11 +454,17 @@ def question_items(Q):
         head("Exam Traps", "المقالب والأسئلة الخادعة")
         out.append((note("Read each statement carefully — every one hides a small but important detail from the lecture.",
                          "اقرأ كل عبارة بعناية — كل واحدة تخفي تفصيلًا صغيرًا لكنه مهم من المحاضرة.", ("Exam Alert", "تنبيه امتحاني")), False))
-        out += [(numbered(i, t["en"], t["ar"]), False) for i, t in enumerate(Q["traps"], 1)]
+        if INLINE["on"]:                        # answers_inline: each trap with its answer right under it
+            out += [(model_answer(i, t["answer_en"], t["answer_ar"], t.get("en"), t.get("ar")), False) for i, t in enumerate(Q["traps"], 1)]
+        else:
+            out += [(numbered(i, t["en"], t["ar"]), False) for i, t in enumerate(Q["traps"], 1)]
     if Q.get("important"):
         head("Important Questions", "أهم الأسئلة للمراجعة")
-        out += [(numbered(i, t["en"], t["ar"], lines=True), False) for i, t in enumerate(Q["important"], 1)]
-    if INLINE["on"] and not (Q.get("tf") or Q.get("traps") or Q.get("important")):
+        if INLINE["on"]:                        # answers_inline: the model answer right under each question
+            out += [(model_answer(i, t["answer_en"], t["answer_ar"], t["en"], t.get("ar")), False) for i, t in enumerate(Q["important"], 1)]
+        else:
+            out += [(numbered(i, t["en"], t["ar"], lines=True), False) for i, t in enumerate(Q["important"], 1)]
+    if INLINE["on"]:                            # every answer is already under its question: no key at the end
         return out
     head("Answer Key", "الحلول")
     if mcqs and not INLINE["on"]:

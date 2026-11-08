@@ -143,6 +143,7 @@ meta = {"subject_en": "Immunology", "subject_ar": "علم المناعة", "shor
         "kind": "Theory — نظري", "stage": "The third stage — الثالثة",
         "file_name": "BIOS - مناعة نظري المحاضرة الرابعة - الأسئلة"}
 Qs = {"title_en": "Immunoglobulins (Ig) — Comprehensive Questions", "title_ar": "الغلوبيولينات المناعية — أسئلة شاملة",
+      "answers_inline": True,   # user 2026-11-08: the answer under each question (like the parasitology banks)
       "mcq": ltr_all(mcq), "tf": ltr_all(tf), "traps": ltr_all(traps), "important": ltr_all(important)}
 json.dump({"meta": meta, "questions": Qs}, open(d + "/lecture.json", "w"), ensure_ascii=False, indent=1)
 from collections import Counter
