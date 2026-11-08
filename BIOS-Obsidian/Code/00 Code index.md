@@ -40,6 +40,7 @@
 - [[Code/bt - make3.py|bt/make3.py]] → bloodbank-lec3-services
 - [[Code/chr - l2.py|chr/l2.py]] → histopathology-lec2-chronic-inflammation
 - [[Code/elab3 - el3q.py|elab3/el3q.py]] → enzymology-lab3-alkaline-phosphatase
+- [[Code/elab4 - el4.py|elab4/el4.py]] → enzymology-lab4-amylase-lipase
 - [[Code/enz3 - e3q.py|enz3/e3q.py]] → enzymology-lec3-michaelis-menten-questions
 - [[Code/enz4 - e4q.py|enz4/e4q.py]] → enzymology-lec4-bioenergetics
 - [[Code/eth - make.py|eth/make.py]] → ethics-lec1-morals

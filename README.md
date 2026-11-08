@@ -32,6 +32,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `research-methods-lec5-classification/` — Research Methods lecture 5: Classification of Researches (11 types), د. فياض, fourth stage, separate question file. The lecture's 24 MCQs keep their bold answers. 16 + 20 pages + covers.
 - `enzymology-lab1-safety-tubes/` — Clinical Enzymology (الإنزيمات السريرية) Lab 1: lab safety and blood collecting tubes.
 - `enzymology-lab3-alkaline-phosphatase/` — Clinical Enzymology practical lab 3: Serum Alkaline Phosphatase (د. بارق و د. هشام) — fourth stage, new style, separate question file.
+- `enzymology-lab4-amylase-lipase/` — Clinical Enzymology practical lab 4: Serum Amylase and Serum Lipase (sources, types, clinical significance, Somogyi unit, lipase method and calculation), د. بارق و د. هشام, fourth stage, separate question file. The sheet's "amylase principle" is the triolein (lipase) reaction — flagged in a BIOS note. 9 pages + cover; questions 14 pages + cover.
 - `ethics-lec1-morals/` — Professional Ethics (أخلاقيات المهنة) lecture 1 — Arabic-only handout.
 - `ethics-lec3-unethical-behavior/` — Professional Ethics lecture 3: unethical behaviour — Arabic-only handout.
 - `ethics-lec4-cheating/` — Professional Ethics (أخلاقيات المهنة) lecture 4: Cheating in laboratory work (الغش في العمل المختبري), د. نور, fourth stage, Arabic only, separate question file. The PDF's text layer is in a legacy font encoding, so the text was read from the page images (`source-transcript.txt`). 5 + 10 pages + covers.
