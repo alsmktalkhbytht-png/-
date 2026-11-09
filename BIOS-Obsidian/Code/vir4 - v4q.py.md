@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/vir4/v4q.py
 handouts: [virology-lab4-isolation-cultivation]
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # vir4/v4q.py

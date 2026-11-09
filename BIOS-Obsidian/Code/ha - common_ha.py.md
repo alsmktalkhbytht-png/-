@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/ha/common_ha.py
 handouts: []
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # ha/common_ha.py

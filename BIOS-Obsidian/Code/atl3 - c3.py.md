@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/atl3/c3.py
 handouts: [advtech-lab3-cie]
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # atl3/c3.py

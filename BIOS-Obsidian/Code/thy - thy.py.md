@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/thy/thy.py
 handouts: []
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # thy/thy.py

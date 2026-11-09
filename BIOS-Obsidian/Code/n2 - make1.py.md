@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/n2/make1.py
 handouts: [enzymology-lec1-introduction]
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # n2/make1.py

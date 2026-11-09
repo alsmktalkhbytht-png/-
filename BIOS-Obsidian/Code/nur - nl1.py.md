@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/nur/nl1.py
 handouts: [nursing-ped-lec1-perspective]
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # nur/nl1.py

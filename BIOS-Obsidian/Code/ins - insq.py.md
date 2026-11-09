@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/ins/insq.py
 handouts: [endocrine-lab4-insulin]
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # ins/insq.py

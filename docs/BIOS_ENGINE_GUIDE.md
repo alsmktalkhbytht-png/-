@@ -1123,6 +1123,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `bacteriology-lab3-culture-media` | بكتريا تشخيصية | عملي 3 |
 | `bacteriology-lec6-culture-media` | بكتريا | نظري 6 — زرع الممرضات وعزلها / الأوساط الزرعية (د. عدنان، أسلوب جديد) |
 | `bacteriology-lec7-9-identification` | بكتريا | نظري 7–9 (دمج) |
+| `bacteriology-lec11-antibiotic-susceptibility` | بكتريا | نظري 11 — فحوص حساسية المضادات الحيوية؛ ملف أسئلة منفصل (2026-11-09) |
 | `bloodbank-lec1-introduction` | نقل الدم | 1 |
 | `bloodbank-lec2-donation-criteria` | نقل الدم | 2 |
 | `bloodbank-lec3-services` | نقل الدم | 3 |

@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/bb4/bb4n.py
 handouts: [bloodbank-lec4-screening]
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # bb4/bb4n.py

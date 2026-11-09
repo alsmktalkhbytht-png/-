@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/pat4/p4q.py
 handouts: [pathology-lec4-lung-cancer]
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # pat4/p4q.py

@@ -94,6 +94,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `parasitology-week3-theory/` — Diagnostic Parasitology theory week 3: Amoeba, Entamoeba histolytica & stool examination (أ.د. نزار الخفاجي) — fourth stage, rebuilt in the new style with a separate question file.
 - `bacteriology-lec6-culture-media/` — Diagnostic Microbiology theory lecture 6: Cultivation and Isolation of Viable Pathogen — culture media (د. عدنان; the sheet says أ.م.د أحمد سالم محمد) — fourth stage, new style, separate question file.
 - `bacteriology-lec7-9-identification/` — Diagnostic Microbiology theory lectures 7–9: microbiological methods for identification of microorganisms (د. عدنان) — fourth stage, new style, separate question file.
+- `bacteriology-lec11-antibiotic-susceptibility/` — Diagnostic Microbiology theory lecture 11: Antibiotic susceptibility tests (mode of action, which bacteria to test, CLSI, Kirby-Bauer disk diffusion, MIC, bacteriostatic vs bactericidal) — د. عدنان (the sheet says أ.م.د أحمد سالم محمد), fourth stage, separate question file. The Word file lost the text for MIC / bacteriostatic / lab strategies (only their figures remain) — BIOS explanation added. 18 pages + cover; questions 15 pages + cover.
 - `docs/BIOS_ENGINE_GUIDE.md` — full documentation (Arabic): design, workflow, code, troubleshooting.
 - `.claude/skills/bios-malzama/SKILL.md` — how to make a new handout and the full `lecture.json` format.
 

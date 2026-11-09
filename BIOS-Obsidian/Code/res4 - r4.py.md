@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/res4/r4.py
 handouts: [research-methods-lec4-process]
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # res4/r4.py

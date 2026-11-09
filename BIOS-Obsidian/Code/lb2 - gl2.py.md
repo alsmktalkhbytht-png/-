@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/lb2/gl2.py
 handouts: [genetics-lab2-meiosis]
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # lb2/gl2.py

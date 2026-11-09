@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/par4/p4.py
 handouts: []
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # par4/p4.py

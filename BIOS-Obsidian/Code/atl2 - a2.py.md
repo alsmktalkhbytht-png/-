@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/atl2/a2.py
 handouts: [advtech-lab2-immunochromatography]
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # atl2/a2.py

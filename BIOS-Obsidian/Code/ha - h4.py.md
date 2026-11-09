@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/ha/h4.py
 handouts: [nursing-ha-lec4-lung-thorax]
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # ha/h4.py

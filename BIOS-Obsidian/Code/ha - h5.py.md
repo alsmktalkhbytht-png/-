@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/ha/h5.py
 handouts: [nursing-ha-lec5-heart]
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # ha/h5.py

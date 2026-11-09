@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/eth4/e4.py
 handouts: [ethics-lec4-cheating]
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # eth4/e4.py

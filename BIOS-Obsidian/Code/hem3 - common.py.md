@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/hem3/common.py
 handouts: []
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # hem3/common.py

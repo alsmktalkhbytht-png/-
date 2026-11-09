@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/rbc/rbc.py
 handouts: [hematology-practical-rbc-count]
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # rbc/rbc.py

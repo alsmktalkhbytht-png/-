@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/bb5n/bb5n.py
 handouts: [bloodbank-lec5-abo-rh]
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # bb5n/bb5n.py

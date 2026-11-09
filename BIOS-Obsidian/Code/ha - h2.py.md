@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/ha/h2.py
 handouts: [nursing-ha-lec2-eye]
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # ha/h2.py

@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/bac/lab2.py
 handouts: [bacteriology-lab2-specimens]
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # bac/lab2.py

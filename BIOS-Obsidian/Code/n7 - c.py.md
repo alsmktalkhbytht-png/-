@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/n7/c.py
 handouts: []
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # n7/c.py

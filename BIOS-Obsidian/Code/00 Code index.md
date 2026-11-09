@@ -98,6 +98,7 @@
 - [[Code/imt - l1.py|imt/l1.py]] → immunology-lec1-introduction
 - [[Code/inf - l1.py|inf/l1.py]] → histopathology-lec1-acute-inflammation
 - [[Code/ins - insq.py|ins/insq.py]] → endocrine-lab4-insulin
+- [[Code/l11 - b11.py|l11/b11.py]] → bacteriology-lec11-antibiotic-susceptibility
 - [[Code/lb1 - gl1.py|lb1/gl1.py]] → genetics-lab1-mitosis
 - [[Code/lb2 - gl2.py|lb2/gl2.py]] → genetics-lab2-meiosis
 - [[Code/lb3 - gl3.py|lb3/gl3.py]] → genetics-lab3-medical-genetics

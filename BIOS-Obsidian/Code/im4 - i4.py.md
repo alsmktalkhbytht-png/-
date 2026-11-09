@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/im4/i4.py
 handouts: []
-saved: 2026-11-08
+saved: 2026-11-09
 tags: [bios, code]
 ---
 # im4/i4.py
