@@ -118,6 +118,7 @@
 - [[Code/nur - nl3.py|nur/nl3.py]] → nursing-ped-lec3-newborn
 - [[Code/nur - nl4.py|nur/nl4.py]] → nursing-ped-lec4-respiratory
 - [[Code/par - make.py|par/make.py]] → parasitology-week1-mcq
+- [[Code/par10 - p10.py|par10/p10.py]] → parasitology-week10-theory
 - [[Code/par3 - p3q.py|par3/p3q.py]] → parasitology-week3-theory
 - [[Code/par4 - p4q.py|par4/p4q.py]] → parasitology-week4-theory
 - [[Code/par5 - p5q.py|par5/p5q.py]] → parasitology-week5-theory

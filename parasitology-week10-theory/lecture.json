@@ -1,0 +1,1731 @@
+{
+ "meta": {
+  "subject_en": "Diagnostic Parasitology",
+  "subject_ar": "الطفيليات التشخيصية",
+  "short_ar": "طفيليات",
+  "instructor": "أ.د. نزار الخفاجي",
+  "unit_en": "Week 10",
+  "unit_ar": "الأسبوع 10",
+  "unit_label": "WEEK",
+  "unit_no": "10",
+  "title_en": "Phylum Apicomplexa: main properties and ultrastructure of the apical complex",
+  "title_ar": "شعبة المعقّدات القمّية: الصفات الرئيسية والبنية الدقيقة للمعقّد القمّي",
+  "department": "قسم التحليلات",
+  "stage": "The fourth stage — الرابعة",
+  "kind": "Theory — نظري"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Contents of the week",
+   "ar": "محتويات الأسبوع"
+  },
+  {
+   "t": "card",
+   "en": "**10th Week**",
+   "ar": "**الأسبوع العاشر**"
+  },
+  {
+   "t": "card",
+   "en": "**Phylum Apicomplexa; Main properties of the group; Ultrastructure of the apical complex**",
+   "ar": "**شعبة المعقّدات القمّية (`Apicomplexa`)؛ الصفات الرئيسية للمجموعة؛ البنية الدقيقة للمعقّد القمّي**"
+  },
+  {
+   "t": "card",
+   "en": "Apicomplexa are characterized by their **distinctive apical complex for host cell invasion**, a **relict non- photosynthetic plastid called an apicoplast for survival**, **complex life cycles involving sexual and asexual reproduction**, and **gliding motility for movement**.",
+   "ar": "تتميّز المعقّدات القمّية **بمعقّدها القمّي المميّز لغزو خلية المضيف**، و**بلاستيدة أثرية غير قادرة على التمثيل الضوئي تُسمّى البلاستيدة القمّية للبقاء**، و**دورات حياة معقّدة فيها تكاثر جنسي ولا جنسي**، و**الحركة الانزلاقية للتنقّل**."
+  },
+  {
+   "t": "card",
+   "en": "Most are **obligate parasites of animals**, **lack external locomotion like flagella or pseudopods**, and include **well- known pathogens like Plasmodium Malaria and Toxoplasma**",
+   "ar": "ومعظمها **طفيليات إجبارية للحيوانات**، و**تفتقر إلى أعضاء حركة خارجية كالأسواط أو الأقدام الكاذبة**، وتضمّ **ممرضات معروفة مثل المتصوّرة (الملاريا) والمقوّسة**"
+  },
+  {
+   "t": "note",
+   "en": "“Plasmodium Malaria” — **Plasmodium** is the genus and **malaria** is the disease it causes: *Plasmodium* spp. (malaria) and *Toxoplasma gondii*.",
+   "ar": "`“Plasmodium Malaria”` — **المتصوّرة (`Plasmodium`)** اسم الجنس و**الملاريا** هي المرض الذي تسبّبه: أنواع المتصوّرة (الملاريا)، والمقوّسة الغوندية (`Toxoplasma gondii`).",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key properties",
+   "ar": "الصفات الرئيسية"
+  },
+  {
+   "t": "group",
+   "title_en": "Apical complex:",
+   "title_ar": "المعقّد القمّي:",
+   "en": "A **specialized structure at the cell's anterior end** that includes **secretory organelles (micronemes, rhoptries)** and **cytoskeletal elements**, which **secrete enzymes needed to penetrate and invade host cells**",
+   "ar": "**تركيب متخصّص في النهاية الأمامية للخلية** يضمّ **عُضيّات إفرازية (الميكرونيمات والروبتريات)** و**عناصر هيكلية خلوية**، **تفرز الإنزيمات اللازمة لاختراق خلايا المضيف وغزوها**",
+   "style": "light"
+  },
+  {
+   "t": "group",
+   "title_en": "Apicoplast:",
+   "title_ar": "البلاستيدة القمّية:",
+   "en": "A **relict, non- photosynthetic organelle derived from a red alga via secondary endosymbiosis**, it is **essential for the apicomplexan's survival**",
+   "ar": "**عُضيّة أثرية غير قادرة على التمثيل الضوئي، مشتقّة من طحلب أحمر بالتعايش الداخلي الثانوي**، وهي **أساسية لبقاء الطفيلي القمّي**",
+   "style": "light"
+  },
+  {
+   "t": "group",
+   "title_en": "Gliding motility:",
+   "title_ar": "الحركة الانزلاقية:",
+   "en": "Apicomplexan use a **unique form of locomotion called gliding motility** to **move across surfaces and locate hosts**, as they **lack flagella or pseudopods in their active stages**",
+   "ar": "تستعمل المعقّدات القمّية **شكلًا فريدًا من الحركة يُسمّى الحركة الانزلاقية** **للتنقّل على الأسطح وإيجاد المضيفات**، لأنها **تفتقر إلى الأسواط أو الأقدام الكاذبة في أطوارها النشطة**",
+   "style": "light"
+  },
+  {
+   "t": "group",
+   "title_en": "Parasitism",
+   "title_ar": "التطفّل",
+   "en": "Most apicomplexans are **obligate endoparasites of animals**, meaning they **must live inside a host to survive**.",
+   "ar": "معظم المعقّدات القمّية **طفيليات داخلية إجبارية للحيوانات**، أي **يجب أن تعيش داخل مضيف لتبقى حيّة**.",
+   "style": "light"
+  },
+  {
+   "t": "group",
+   "title_en": "Complex life cycles",
+   "title_ar": "دورات الحياة المعقّدة",
+   "en": "They often have **intricate life cycles** with different stages of **asexual (e.g., schizogony)** and **sexual reproduction (gametogony)**, as well as **spore formation (Sporogony)**.",
+   "ar": "لها غالبًا **دورات حياة متشابكة** بأطوار مختلفة من **التكاثر اللاجنسي (مثل الانقسام المتعدّد)** و**التكاثر الجنسي (التكوّن العرسي)**، إضافةً إلى **تكوين الأبواغ (التبوّغ)**.",
+   "style": "light"
+  },
+  {
+   "t": "group",
+   "title_en": "Microscopic structure",
+   "title_ar": "البنية المجهرية",
+   "en": "Apicomplexans are **unicellular, eukaryotic organisms**",
+   "ar": "المعقّدات القمّية كائنات **وحيدة الخلية حقيقية النواة**",
+   "style": "light"
+  },
+  {
+   "t": "group",
+   "title_en": "Absence of motile appendages KL:",
+   "title_ar": "غياب الزوائد الحركية:",
+   "en": "In most stages, they **do not possess external structures like cilia, or flagellum** which are **only found in certain gamete stages**",
+   "ar": "في معظم الأطوار **لا تملك تراكيب خارجية مثل الأهداب أو السوط**، وهي **لا توجد إلا في أطوار عرسية معيّنة**",
+   "style": "light"
+  },
+  {
+   "t": "note",
+   "en": [
+    "“**KL**” after “Absence of motile appendages” is a **stray typing slip** in the file — it has no meaning here.",
+    "“Apicomplexan use” = apicomplexan**s** use."
+   ],
+   "ar": [
+    "`“KL”` بعد `“Absence of motile appendages”` **زلّة طباعية** في الملف — لا معنى لها هنا.",
+    "و`“Apicomplexan use”` صحيحها `apicomplexan`**`s`** `use`."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Property",
+     "الصفة"
+    ],
+    [
+     "What it means",
+     "ما المقصود"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Apical complex**",
+      "**المعقّد القمّي**"
+     ],
+     [
+      "organelles at the anterior end; secrete enzymes to invade the host cell",
+      "عُضيّات في النهاية الأمامية؛ تفرز إنزيمات لغزو خلية المضيف"
+     ]
+    ],
+    [
+     [
+      "**Apicoplast**",
+      "**البلاستيدة القمّية**"
+     ],
+     [
+      "relict plastid from a red alga; no photosynthesis; essential for survival",
+      "بلاستيدة أثرية من طحلب أحمر؛ لا تمثيل ضوئي؛ أساسية للبقاء"
+     ]
+    ],
+    [
+     [
+      "**Gliding motility**",
+      "**الحركة الانزلاقية**"
+     ],
+     [
+      "unique locomotion — no flagella or pseudopods in active stages",
+      "حركة فريدة — بلا أسواط ولا أقدام كاذبة في الأطوار النشطة"
+     ]
+    ],
+    [
+     [
+      "**Parasitism**",
+      "**التطفّل**"
+     ],
+     [
+      "obligate endoparasites of animals",
+      "طفيليات داخلية إجبارية للحيوانات"
+     ]
+    ],
+    [
+     [
+      "**Life cycle**",
+      "**دورة الحياة**"
+     ],
+     [
+      "asexual (schizogony) + sexual (gametogony) + spore formation (sporogony)",
+      "لا جنسي (انقسام متعدّد) + جنسي (تكوّن عرسي) + تبوّغ"
+     ]
+    ],
+    [
+     [
+      "**Structure**",
+      "**البنية**"
+     ],
+     [
+      "unicellular eukaryotes; cilia/flagella only in certain gamete stages",
+      "وحيدة الخلية حقيقية النواة؛ الأهداب/الأسواط في أطوار عرسية فقط"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    26,
+    74
+   ],
+   "style": "summary",
+   "label_en": "BIOS — key properties at a glance",
+   "label_ar": "`BIOS` — الصفات الرئيسية بلمحة"
+  },
+  {
+   "t": "note",
+   "en": "The **apicoplast** no longer makes food (it lost photosynthesis) but still carries out **fatty-acid, isoprenoid and haem synthesis** — and because it came from a plant-like ancestor it is a **drug target** absent from human cells.",
+   "ar": "**البلاستيدة القمّية** لم تعد تصنع الغذاء (فقدت التمثيل الضوئي) لكنها ما تزال تقوم **ببناء الأحماض الدهنية والآيزوبرينويدات والهيم** — ولأنها جاءت من سلف نباتي فهي **هدف دوائي** غير موجود في خلايا الإنسان.",
+   "label": [
+    "BIOS explanation",
+    "شرح BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Four marks of the group: **apical complex**, **apicoplast**, **complex life cycles**, **gliding motility**.",
+    "All are **unicellular eukaryotes** and **obligate endoparasites**; **no flagella or pseudopods**.",
+    "Famous members: **Plasmodium** (malaria) and **Toxoplasma**."
+   ],
+   "ar": [
+    "أربع علامات للمجموعة: **المعقّد القمّي**، و**البلاستيدة القمّية**، و**دورات الحياة المعقّدة**، و**الحركة الانزلاقية**.",
+    "كلّها **وحيدة الخلية حقيقية النواة** و**طفيليات داخلية إجبارية**؛ **بلا أسواط ولا أقدام كاذبة**.",
+    "من أشهرها: **المتصوّرة** (الملاريا) و**المقوّسة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "The name Sporozoa",
+   "ar": "اسم البوغيات"
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Formerly the Apicomplexa were part of a group called sporozoa** and this name is **still sometimes used**.",
+    "**Recently there have been some suggestions to revert back to the name sporozoa.**",
+    "Apicomplexa part of a group called sporozoan."
+   ],
+   "ar": [
+    "**كانت المعقّدات القمّية سابقًا جزءًا من مجموعة تُسمّى البوغيات (`Sporozoa`)**، وما زال هذا الاسم **يُستعمل أحيانًا**.",
+    "**وظهرت حديثًا اقتراحات بالعودة إلى اسم البوغيات.**",
+    "والمعقّدات القمّية جزء من مجموعة تُسمّى البوغيات."
+   ]
+  },
+  {
+   "t": "note",
+   "en": "The last line (“Apicomplexa part of a group called sporozoan”) is **incomplete** and repeats the first — it should read: Apicomplexa **were** part of a group called **sporozoa**.",
+   "ar": "السطر الأخير (`“Apicomplexa part of a group called sporozoan”`) **ناقص** ومكرّر للأول — وصوابه: `Apicomplexa` **`were`** `part of a group called` **`sporozoa`**.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "The old name **Sporozoa** came from the **spores (oocysts)** these parasites form; the modern name **Apicomplexa** comes from the **apical complex**.",
+   "ar": "جاء الاسم القديم **البوغيات** من **الأبواغ (الأكياس البيضية)** التي تكوّنها هذه الطفيليات؛ والاسم الحديث **المعقّدات القمّية** مأخوذ من **المعقّد القمّي**.",
+   "label": [
+    "BIOS explanation",
+    "شرح BIOS"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "General characters of Apicomplexa",
+   "ar": "الصفات العامة للمعقّدات القمّية"
+  },
+  {
+   "t": "card",
+   "en": "The Apicomplexa are a **monophyletic group** composed **almost entirely of parasitic ( i. e. no free – living) species**.",
+   "ar": "المعقّدات القمّية **مجموعة وحيدة النشأة (`monophyletic`)** مؤلَّفة **كلّها تقريبًا من أنواع طفيلية (أي لا توجد أنواع حرّة المعيشة)**."
+  },
+  {
+   "t": "card",
+   "en": "The parasite belonging to this group of protozoa **don’t possess any type of locomotion organelles**, they show **slight amoeboid change of form (body flexion)**.",
+   "ar": "الطفيليات التي تنتمي إلى هذه المجموعة من الأوالي **لا تملك أيّ نوع من عُضيّات الحركة**، وتُظهر **تغيّرًا أميبيًا طفيفًا في الشكل (انثناء الجسم)**."
+  },
+  {
+   "t": "note",
+   "en": "“monophyletic” = all the members **descend from one common ancestor**; “The parasite … don’t” = the parasite**s** … don’t.",
+   "ar": "`“monophyletic”` أي أن كل أفراد المجموعة **تنحدر من سلف مشترك واحد**؛ و`“The parasite … don’t”` صحيحها `parasite`**`s`**.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Electron microscopy revealed unique ultrastructural features** among the various sporozoan which were subsequently **used to redefine the groups**.",
+   "ar": "**كشف المجهر الإلكتروني صفات بنيوية دقيقة فريدة** بين البوغيات المختلفة، واستُعملت بعد ذلك **لإعادة تعريف المجموعات**."
+  },
+  {
+   "t": "h2",
+   "en": "Ultrastructure of the apical complex",
+   "ar": "البنية الدقيقة للمعقّد القمّي"
+  },
+  {
+   "t": "card",
+   "en": "**A defining characteristic of the Apicomplexa is a group of organelles found at one end – called the apical end – of the organism.**",
+   "ar": "**الصفة المميّزة للمعقّدات القمّية مجموعة من العُضيّات توجد في طرف واحد من الكائن — يُسمّى الطرف القمّي.**"
+  },
+  {
+   "t": "card",
+   "en": "This **apical complex** includes **secretory organelles known as micronemes and rhoptries**, **polar ring composed of microtubules**, and in some species **a conoid which lies within the polar rings**.",
+   "ar": "ويضمّ هذا **المعقّد القمّي** **عُضيّات إفرازية تُعرف بالميكرونيمات والروبتريات**، و**حلقة قطبية مؤلَّفة من أنيبيبات دقيقة**، وفي بعض الأنواع **مخروطًا (`conoid`) يقع داخل الحلقات القطبية**."
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Structure",
+     "التركيب"
+    ],
+    [
+     "What it is / does",
+     "ما هو ووظيفته"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Micronemes**",
+      "**الميكرونيمات**"
+     ],
+     [
+      "secretory organelles — first secretions: attachment to the host cell and gliding",
+      "عُضيّات إفرازية — أول الإفرازات: الالتصاق بخلية المضيف والانزلاق"
+     ]
+    ],
+    [
+     [
+      "**Rhoptries**",
+      "**الروبتريات**"
+     ],
+     [
+      "secretory organelles — enzymes and proteins for penetration and the parasitophorous vacuole",
+      "عُضيّات إفرازية — إنزيمات وبروتينات للاختراق وتكوين الفجوة الطفيلية"
+     ]
+    ],
+    [
+     [
+      "**Polar ring(s)**",
+      "**الحلقة (الحلقات) القطبية**"
+     ],
+     [
+      "composed of microtubules — the organizing centre of the apical cytoskeleton",
+      "مؤلَّفة من أنيبيبات دقيقة — مركز تنظيم الهيكل الخلوي القمّي"
+     ]
+    ],
+    [
+     [
+      "**Conoid**",
+      "**المخروط**"
+     ],
+     [
+      "in some species only — a cone of spiral fibres lying within the polar rings",
+      "في بعض الأنواع فقط — مخروط من ألياف حلزونية يقع داخل الحلقات القطبية"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    26,
+    74
+   ],
+   "style": "summary",
+   "label_en": "BIOS — the apical complex",
+   "label_ar": "`BIOS` — المعقّد القمّي"
+  },
+  {
+   "t": "note",
+   "en": "The file says “**polar ring** composed of microtubules” (singular) in one paragraph and “**polar rings**” in the other — both describe the same structure; most species have **one or two polar rings**.",
+   "ar": "يقول الملف `“polar ring composed of microtubules”` بالمفرد في فقرة و`“polar rings”` بالجمع في الأخرى — وكلاهما التركيب نفسه؛ ولمعظم الأنواع **حلقة أو حلقتان قطبيتان**.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "**Toxoplasma** and the coccidia **have a conoid** (they are “conoid-bearing”), while **Plasmodium** has no conoid in its invasive blood stages — this is why the file says “**in some species**”.",
+   "ar": "**المقوّسة** والأكريات **لها مخروط** (حاملة للمخروط)، أما **المتصوّرة** فلا مخروط في أطوارها الغازية الدموية — ولهذا يقول الملف “**في بعض الأنواع**”.",
+   "label": [
+    "BIOS explanation",
+    "شرح BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Apicomplexa = **monophyletic**, almost all **parasitic** (no free-living), **no locomotion organelles** — only slight **body flexion**.",
+    "**Electron microscopy** revealed the ultrastructure that redefined the groups."
+   ],
+   "ar": [
+    "المعقّدات القمّية = **وحيدة النشأة**، كلّها تقريبًا **طفيلية** (لا حرّة المعيشة)، **بلا عُضيّات حركة** — فقط **انثناء الجسم** الطفيف.",
+    "**المجهر الإلكتروني** كشف البنية الدقيقة التي أُعيد بها تعريف المجموعات."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "note",
+   "en": [
+    "Apical complex = **micronemes + rhoptries + polar ring(s) of microtubules** (+ a **conoid** in some species)."
+   ],
+   "ar": [
+    "المعقّد القمّي = **ميكرونيمات + روبتريات + حلقة (حلقات) قطبية من أنيبيبات دقيقة** (+ **مخروط** في بعض الأنواع)."
+   ],
+   "label": [
+    "In short (continued)",
+    "باختصار (تكملة)"
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "section",
+   "en": "The life cycle",
+   "ar": "دورة الحياة"
+  },
+  {
+   "t": "card",
+   "en": [
+    "The Apicomplexa have **complex life cycle that are characterized by three distinct processes, sporogony, merogony and gametogony (alternation of generation)**.",
+    "**May be classified into two processes schizogony and gametogony**"
+   ],
+   "ar": [
+    "للمعقّدات القمّية **دورات حياة معقّدة تتميّز بثلاث عمليات متمايزة: التبوّغ (`sporogony`) والتقسّم (`merogony`) والتكوّن العرسي (`gametogony`) (تعاقب الأجيال)**.",
+    "**وقد تُصنَّف إلى عمليتين: الانقسام المتعدّد (`schizogony`) والتكوّن العرسي**"
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Sporogony is an asexual reproduction that culminates in the production of sporozoites.**",
+    "Sporozoites will develop into forms that undergo **another asexual replication known as merogony**.",
+    "**Merogony and the resulting merozoites are known by many different names depending on the species.**"
+   ],
+   "ar": [
+    "**التبوّغ تكاثر لا جنسي ينتهي بإنتاج البويغات (`sporozoites`).**",
+    "وتتطوّر البويغات إلى أشكال تمرّ **بتكاثر لا جنسي آخر يُعرف بالتقسّم**.",
+    "**والتقسّم والأقسومات (`merozoites`) الناتجة عنه تُعرف بأسماء مختلفة كثيرة بحسب النوع.**"
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Similarly, **sporogony and gametogony can involve different hosts or cell types.**"
+   ],
+   "ar": [
+    "وكذلك **قد يشترك في التبوّغ والتكوّن العرسي مضيفات مختلفة أو أنواع خلايا مختلفة.**"
+   ],
+   "_ff": 2
+  },
+  {
+   "t": "card",
+   "en": [
+    "**As an alternative to asexual replication merozoites can become gametes through a process variously called gametogony, or gametogenesis.**"
+   ],
+   "ar": [
+    "**وبدلًا من التكاثر اللاجنسي يمكن أن تتحوّل الأقسومات إلى أعراس (`gametes`) بعملية تُسمّى التكوّن العرسي أو التولّد العرسي.**"
+   ],
+   "_ff": 2
+  },
+  {
+   "t": "card",
+   "en": "**As in other types of sexual reproduction, the gametes fuse to form a zygote which differentiates into a form yielding sporozoites.**",
+   "ar": "**وكما في أنواع التكاثر الجنسي الأخرى، تندمج الأعراس مكوّنةً لاقحة (`zygote`) تتمايز إلى شكل يُنتج البويغات.**"
+  },
+  {
+   "t": "flow",
+   "steps": [
+    {
+     "en": "Sporozoites (from sporogony)",
+     "ar": "البويغات (من التبوّغ)"
+    },
+    {
+     "en": "Merogony → merozoites",
+     "ar": "التقسّم ← أقسومات"
+    },
+    {
+     "en": "Gametogony → gametes",
+     "ar": "التكوّن العرسي ← أعراس"
+    },
+    {
+     "en": "Fusion → zygote",
+     "ar": "الاندماج ← لاقحة"
+    },
+    {
+     "en": "Sporogony → sporozoites again",
+     "ar": "التبوّغ ← بويغات من جديد"
+    }
+   ],
+   "en": "BIOS — the cycle in one line",
+   "ar": "`BIOS` — الدورة بسطر واحد"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Process",
+     "العملية"
+    ],
+    [
+     "Type",
+     "النوع"
+    ],
+    [
+     "Product",
+     "الناتج"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Sporogony**",
+      "**التبوّغ**"
+     ],
+     [
+      "asexual",
+      "لا جنسي"
+     ],
+     [
+      "sporozoites",
+      "البويغات"
+     ]
+    ],
+    [
+     [
+      "**Merogony (schizogony)**",
+      "**التقسّم (الانقسام المتعدّد)**"
+     ],
+     [
+      "asexual",
+      "لا جنسي"
+     ],
+     [
+      "merozoites",
+      "الأقسومات"
+     ]
+    ],
+    [
+     [
+      "**Gametogony (gametogenesis)**",
+      "**التكوّن العرسي**"
+     ],
+     [
+      "sexual",
+      "جنسي"
+     ],
+     [
+      "gametes → zygote",
+      "الأعراس ← اللاقحة"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    36,
+    24,
+    40
+   ],
+   "style": "summary",
+   "label_en": "BIOS — the three processes",
+   "label_ar": "`BIOS` — العمليات الثلاث"
+  },
+  {
+   "t": "note",
+   "en": "**Merogony and schizogony are the same process** under two names (the dividing stage is the **meront** or **schizont**) — that is why the file says the cycle may be described as **three processes** (sporogony, merogony, gametogony) or as **two** (schizogony and gametogony).",
+   "ar": "**التقسّم والانقسام المتعدّد عملية واحدة** باسمين (والطور المنقسم يُسمّى `meront` أو `schizont`) — ولهذا يقول الملف إن الدورة قد تُوصف **بثلاث عمليات** (التبوّغ والتقسّم والتكوّن العرسي) أو **بعمليتين** (الانقسام المتعدّد والتكوّن العرسي).",
+   "label": [
+    "BIOS explanation",
+    "شرح BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "“complex life cycle that are” = complex life **cycles** that are; and the **two-process** classification does not contradict the **three-process** one — see the explanation above.",
+   "ar": "`“complex life cycle that are”` صحيحها `complex life` **`cycles`**؛ وتصنيف **العمليتين** لا يناقض تصنيف **العمليات الثلاث** — انظر الشرح أعلاه.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Sporogony** → sporozoites (asexual) · **merogony/schizogony** → merozoites (asexual) · **gametogony** → gametes (sexual).",
+    "Gametes **fuse → zygote → sporozoites** again (alternation of generation); the processes may involve **different hosts or cell types**."
+   ],
+   "ar": [
+    "**التبوّغ** ← بويغات (لا جنسي) · **التقسّم/الانقسام المتعدّد** ← أقسومات (لا جنسي) · **التكوّن العرسي** ← أعراس (جنسي).",
+    "تندمج الأعراس ← **لاقحة ← بويغات** من جديد (تعاقب الأجيال)؛ وقد تشترك في العمليات **مضيفات أو خلايا مختلفة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Size of the group (repeated section)",
+   "ar": "حجم المجموعة (القسم المكرّر)"
+  },
+  {
+   "t": "card",
+   "en": "The Apicomplexa are an **extremely large and diverse group (> 5000 named species)**",
+   "ar": "المعقّدات القمّية **مجموعة كبيرة جدًا ومتنوّعة (أكثر من 5000 نوع مسمّى)**"
+  },
+  {
+   "t": "note",
+   "en": [
+    "From here to the end, the file **repeats the paragraphs of the general characters and the life cycle** with small wording changes — they are kept as in the file."
+   ],
+   "ar": [
+    "من هنا إلى النهاية **يكرّر الملف فقرات الصفات العامة ودورة الحياة** بتغييرات لفظية بسيطة — وأُبقيت كما في الملف."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ],
+   "_ff": 3
+  },
+  {
+   "t": "note",
+   "en": [
+    "Differences in the repeat: “at one **–** end”, the unclosed quotation mark in “This ‘ apical complex”, “polar **rings**” (plural), “depending **of** the species”, “gametogony, **gametogony** or gametogenesis” (the word twice) and “differentiates into **as** form” (should be **a** form)."
+   ],
+   "ar": [
+    "والفروق في التكرار: `“at one – end”`، وعلامة اقتباس غير مغلقة في `“This ‘ apical complex”`، و`“polar rings”` بالجمع، و`“depending of the species”` (الصواب `on`)، و`“gametogony, gametogony or gametogenesis”` (الكلمة مرّتين)، و`“differentiates into as form”` (الصواب **`a`** `form`)."
+   ],
+   "label": [
+    "BIOS note (continued)",
+    "ملاحظة BIOS (تكملة)"
+   ],
+   "_ff": 3
+  },
+  {
+   "t": "card",
+   "en": [
+    "A defining characteristic of the Apicomplexa is a group of organelles found at one – end – called the apical end – of the organism.",
+    "This ‘ apical complex includes secretory organelles known as micronemes and rhoptries, **polar rings** composed of microtubules, and in some species a conoid which lies within the polar rings."
+   ],
+   "ar": [
+    "الصفة المميّزة للمعقّدات القمّية مجموعة من العُضيّات توجد في طرف واحد من الكائن — يُسمّى الطرف القمّي.",
+    "ويضمّ هذا المعقّد القمّي عُضيّات إفرازية تُعرف بالميكرونيمات والروبتريات، و**حلقات قطبية** مؤلَّفة من أنيبيبات دقيقة، وفي بعض الأنواع مخروطًا يقع داخل الحلقات القطبية."
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "The Apicomplexa have complex life cycles that are characterized by three distinct processes, sporogony, merogony and gametogony (alternation of generation).",
+    "**Also, may be classified into two processes schizogony and gametogony.**"
+   ],
+   "ar": [
+    "للمعقّدات القمّية دورات حياة معقّدة تتميّز بثلاث عمليات متمايزة: التبوّغ والتقسّم والتكوّن العرسي (تعاقب الأجيال).",
+    "**وقد تُصنَّف أيضًا إلى عمليتين: الانقسام المتعدّد والتكوّن العرسي.**"
+   ]
+  },
+  {
+   "t": "card",
+   "en": [
+    "Sporogony is an asexual reproduction that culminates in the production of sporozoites."
+   ],
+   "ar": [
+    "التبوّغ تكاثر لا جنسي ينتهي بإنتاج البويغات."
+   ],
+   "_ff": 4
+  },
+  {
+   "t": "card",
+   "en": [
+    "Sporozoites will develop into forms that undergo another asexual replication known as merogony.",
+    "Merogony and the resulting merozoites are known by many different names **depending of the species**."
+   ],
+   "ar": [
+    "وتتطوّر البويغات إلى أشكال تمرّ بتكاثر لا جنسي آخر يُعرف بالتقسّم.",
+    "والتقسّم والأقسومات الناتجة عنه تُعرف بأسماء مختلفة كثيرة **بحسب النوع**."
+   ],
+   "_ff": 4
+  },
+  {
+   "t": "card",
+   "en": [
+    "Similarly, sporogony and gametogony can involve different hosts or cell types.",
+    "As an alternative to asexual replication merozoites can become gametes through a process variously called **gametogony, gametogony or gametogenesis**.",
+    "As in other types of sexual reproduction, the gametes fuse to form a zygote which differentiates into **as form** yielding sporozoites."
+   ],
+   "ar": [
+    "وكذلك قد يشترك في التبوّغ والتكوّن العرسي مضيفات مختلفة أو أنواع خلايا مختلفة.",
+    "وبدلًا من التكاثر اللاجنسي يمكن أن تتحوّل الأقسومات إلى أعراس بعملية تُسمّى **التكوّن العرسي أو التولّد العرسي**.",
+    "وكما في أنواع التكاثر الجنسي الأخرى، تندمج الأعراس مكوّنةً لاقحة تتمايز إلى **شكل** يُنتج البويغات."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**First term examination**",
+   "ar": "**امتحان الفصل الأول**"
+  },
+  {
+   "t": "note",
+   "en": "The week ends with the line “**First term examination**” — the lecture material of the first term stops here.",
+   "ar": "ينتهي الأسبوع بسطر `“First term examination”` أي **امتحان الفصل الأول** — فمادة الفصل الأول تقف هنا.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "The group has **more than 5000 named species**."
+   ],
+   "ar": [
+    "في المجموعة **أكثر من 5000 نوع مسمّى**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ],
+   "_ff": 5
+  },
+  {
+   "t": "note",
+   "en": [
+    "The last part of the file **repeats** the general characters and the life cycle, then ends with **“First term examination”**."
+   ],
+   "ar": [
+    "الجزء الأخير من الملف **يكرّر** الصفات العامة ودورة الحياة، ثم ينتهي بـ**“امتحان الفصل الأول”**."
+   ],
+   "label": [
+    "In short (continued)",
+    "باختصار (تكملة)"
+   ],
+   "_ff": 5
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Apicomplexa**",
+     "المعقّدات القمّية / القميّات المعقّدة"
+    ],
+    [
+     "**Sporozoa**",
+     "البوغيات / الأوالي البوغية"
+    ],
+    [
+     "**Apical complex**",
+     "المعقّد القمّي"
+    ],
+    [
+     "**Apical end**",
+     "الطرف القمّي / النهاية الأمامية"
+    ],
+    [
+     "**Micronemes**",
+     "الميكرونيمات / الخييطات الدقيقة"
+    ],
+    [
+     "**Rhoptries**",
+     "الروبتريات / الهُرَيّات"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Polar ring**",
+     "الحلقة القطبية"
+    ],
+    [
+     "**Conoid**",
+     "المخروط / الجسم المخروطي"
+    ],
+    [
+     "**Microtubules**",
+     "الأنيبيبات الدقيقة"
+    ],
+    [
+     "**Apicoplast**",
+     "البلاستيدة القمّية"
+    ],
+    [
+     "**Secondary endosymbiosis**",
+     "التعايش الداخلي الثانوي"
+    ],
+    [
+     "**Gliding motility**",
+     "الحركة الانزلاقية"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Obligate endoparasite**",
+     "طفيلي داخلي إجباري"
+    ],
+    [
+     "**Monophyletic group**",
+     "مجموعة وحيدة النشأة / أحادية الأصل"
+    ],
+    [
+     "**Body flexion**",
+     "انثناء الجسم"
+    ],
+    [
+     "**Sporogony**",
+     "التبوّغ / التكاثر البوغي"
+    ],
+    [
+     "**Sporozoite**",
+     "البويغة / الطور البوغي"
+    ],
+    [
+     "**Merogony**",
+     "التقسّم"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Merozoite**",
+     "الأقسومة / القسيم"
+    ],
+    [
+     "**Schizogony**",
+     "الانقسام المتعدّد / التكاثر الانشطاري"
+    ],
+    [
+     "**Gametogony / gametogenesis**",
+     "التكوّن العرسي / التولّد العرسي"
+    ],
+    [
+     "**Gamete**",
+     "العُرس / الخلية الجنسية"
+    ],
+    [
+     "**Zygote**",
+     "اللاقحة / البيضة الملقّحة"
+    ],
+    [
+     "**Alternation of generation**",
+     "تعاقب الأجيال"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Main properties of the group",
+    "topic_ar": "الصفات الرئيسية للمجموعة"
+   },
+   {
+    "en": "The defining characteristic of the phylum Apicomplexa is the:",
+    "ar": "الصفة المميّزة لشعبة المعقّدات القمّية هي:",
+    "options": [
+     [
+      "Adhesive disc",
+      "القرص اللاصق"
+     ],
+     [
+      "Undulating membrane",
+      "الغشاء المتموّج"
+     ],
+     [
+      "Apical complex at one end of the organism",
+      "المعقّد القمّي في طرف الكائن"
+     ],
+     [
+      "Pair of flagella",
+      "زوج الأسواط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The apical complex is found at the:",
+    "ar": "يوجد المعقّد القمّي في:",
+    "options": [
+     [
+      "Posterior end",
+      "النهاية الخلفية"
+     ],
+     [
+      "Anterior (apical) end",
+      "النهاية الأمامية (القمّية)"
+     ],
+     [
+      "Nucleus",
+      "النواة"
+     ],
+     [
+      "Cell membrane all around",
+      "الغشاء الخلوي كلّه"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The secretory organelles of the apical complex are the:",
+    "ar": "العُضيّات الإفرازية في المعقّد القمّي هي:",
+    "options": [
+     [
+      "Micronemes and rhoptries",
+      "الميكرونيمات والروبتريات"
+     ],
+     [
+      "Mitochondria",
+      "المتقدّرات"
+     ],
+     [
+      "Ribosomes and lysosomes",
+      "الرايبوسومات والجسيمات الحالّة"
+     ],
+     [
+      "Golgi bodies",
+      "أجسام غولجي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The polar ring of the apical complex is composed of:",
+    "ar": "تتألّف الحلقة القطبية في المعقّد القمّي من:",
+    "options": [
+     [
+      "Chitin",
+      "الكايتين"
+     ],
+     [
+      "Peptidoglycan",
+      "الببتيدوغلايكان"
+     ],
+     [
+      "Lipid droplets",
+      "قطرات دهنية"
+     ],
+     [
+      "Microtubules",
+      "أنيبيبات دقيقة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The conoid of the apical complex:",
+    "ar": "المخروط في المعقّد القمّي:",
+    "options": [
+     [
+      "Lies in the posterior end",
+      "يقع في النهاية الخلفية"
+     ],
+     [
+      "Is present in all species",
+      "موجود في كل الأنواع"
+     ],
+     [
+      "Is present in some species, within the polar rings",
+      "موجود في بعض الأنواع، داخل الحلقات القطبية"
+     ],
+     [
+      "Is a secretory organelle",
+      "عُضيّة إفرازية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The function of the apical complex is to:",
+    "ar": "وظيفة المعقّد القمّي:",
+    "options": [
+     [
+      "Store food",
+      "خزن الغذاء"
+     ],
+     [
+      "Secrete enzymes to penetrate and invade host cells",
+      "إفراز إنزيمات لاختراق خلايا المضيف وغزوها"
+     ],
+     [
+      "Carry out photosynthesis",
+      "القيام بالتمثيل الضوئي"
+     ],
+     [
+      "Produce flagella",
+      "إنتاج الأسواط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The apicoplast is:",
+    "ar": "البلاستيدة القمّية:",
+    "options": [
+     [
+      "A photosynthetic chloroplast",
+      "بلاستيدة خضراء قادرة على التمثيل الضوئي"
+     ],
+     [
+      "A secretory organelle",
+      "عُضيّة إفرازية"
+     ],
+     [
+      "A type of nucleus",
+      "نوع من النوى"
+     ],
+     [
+      "A relict non-photosynthetic plastid derived from a red alga",
+      "بلاستيدة أثرية غير قادرة على التمثيل الضوئي مشتقّة من طحلب أحمر"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The apicoplast was acquired by:",
+    "ar": "اكتُسبت البلاستيدة القمّية بـ:",
+    "options": [
+     [
+      "Secondary endosymbiosis",
+      "التعايش الداخلي الثانوي"
+     ],
+     [
+      "Conjugation",
+      "الاقتران"
+     ],
+     [
+      "Phagocytosis of bacteria only",
+      "بلعمة البكتيريا فقط"
+     ],
+     [
+      "Binary fission",
+      "الانشطار الثنائي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Apicomplexans move by:",
+    "ar": "تتحرّك المعقّدات القمّية بـ:",
+    "options": [
+     [
+      "Cilia",
+      "الأهداب"
+     ],
+     [
+      "Flagella",
+      "الأسواط"
+     ],
+     [
+      "Pseudopods",
+      "الأقدام الكاذبة"
+     ],
+     [
+      "Gliding motility",
+      "الحركة الانزلاقية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Cilia or flagella in Apicomplexa are found:",
+    "ar": "توجد الأهداب أو الأسواط في المعقّدات القمّية:",
+    "options": [
+     [
+      "Only in certain gamete stages",
+      "في أطوار عرسية معيّنة فقط"
+     ],
+     [
+      "In all stages",
+      "في كل الأطوار"
+     ],
+     [
+      "Only in the sporozoite",
+      "في البويغة فقط"
+     ],
+     [
+      "Never at all",
+      "أبدًا"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Most apicomplexans are:",
+    "ar": "معظم المعقّدات القمّية:",
+    "options": [
+     [
+      "Free-living",
+      "حرّة المعيشة"
+     ],
+     [
+      "Ectoparasites",
+      "طفيليات خارجية"
+     ],
+     [
+      "Obligate endoparasites of animals",
+      "طفيليات داخلية إجبارية للحيوانات"
+     ],
+     [
+      "Plant parasites",
+      "طفيليات نباتية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Apicomplexans are:",
+    "ar": "المعقّدات القمّية:",
+    "options": [
+     [
+      "Multicellular prokaryotes",
+      "متعدّدة الخلايا بدائية النواة"
+     ],
+     [
+      "Unicellular eukaryotes",
+      "وحيدة الخلية حقيقية النواة"
+     ],
+     [
+      "Unicellular prokaryotes",
+      "وحيدة الخلية بدائية النواة"
+     ],
+     [
+      "Multicellular eukaryotes",
+      "متعدّدة الخلايا حقيقية النواة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Well-known pathogens of this phylum include:",
+    "ar": "من ممرضات هذه الشعبة المعروفة:",
+    "options": [
+     [
+      "Entamoeba and Naegleria",
+      "المتحوّلة والنيغلرية"
+     ],
+     [
+      "Giardia and Trichomonas",
+      "الجيارديا والمشعّرة"
+     ],
+     [
+      "Leishmania and Trypanosoma",
+      "الليشمانيا والمثقّبة"
+     ],
+     [
+      "Plasmodium (malaria) and Toxoplasma",
+      "المتصوّرة (الملاريا) والمقوّسة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "General characters and the name",
+    "topic_ar": "الصفات العامة والاسم"
+   },
+   {
+    "en": "The former name of the Apicomplexa was:",
+    "ar": "الاسم السابق للمعقّدات القمّية:",
+    "options": [
+     [
+      "Mastigophora",
+      "السوطيات"
+     ],
+     [
+      "Sarcodina",
+      "اللحميات"
+     ],
+     [
+      "Sporozoa",
+      "البوغيات"
+     ],
+     [
+      "Ciliophora",
+      "الهدبيات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The Apicomplexa are described as a monophyletic group, which means:",
+    "ar": "توصف المعقّدات القمّية بأنها مجموعة وحيدة النشأة، أي:",
+    "options": [
+     [
+      "They have many different ancestors",
+      "لها أسلاف كثيرة مختلفة"
+     ],
+     [
+      "All members descend from one common ancestor",
+      "كل أفرادها تنحدر من سلف مشترك واحد"
+     ],
+     [
+      "They are all free-living",
+      "كلّها حرّة المعيشة"
+     ],
+     [
+      "They reproduce only sexually",
+      "تتكاثر جنسيًا فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The species of this group are:",
+    "ar": "أنواع هذه المجموعة:",
+    "options": [
+     [
+      "Almost entirely parasitic, with no free-living forms",
+      "كلّها تقريبًا طفيلية، بلا أشكال حرّة المعيشة"
+     ],
+     [
+      "Half parasitic, half free-living",
+      "نصفها طفيلي ونصفها حرّ"
+     ],
+     [
+      "All photosynthetic",
+      "كلّها ذاتية التغذية ضوئيًا"
+     ],
+     [
+      "Mostly free-living",
+      "حرّة المعيشة غالبًا"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The only movement shown by the parasites of this group (lacking locomotion organelles) is:",
+    "ar": "الحركة الوحيدة التي تُظهرها طفيليات هذه المجموعة (لافتقارها إلى عُضيّات الحركة):",
+    "options": [
+     [
+      "Swimming by cilia",
+      "السباحة بالأهداب"
+     ],
+     [
+      "Falling-leaf motion",
+      "حركة سقوط الورقة"
+     ],
+     [
+      "Jerky rotatory motility",
+      "حركة متقطّعة دوّارة"
+     ],
+     [
+      "Slight amoeboid change of form (body flexion)",
+      "تغيّر أميبي طفيف في الشكل (انثناء الجسم)"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The unique ultrastructural features used to redefine the groups were revealed by:",
+    "ar": "كُشفت الصفات البنيوية الدقيقة الفريدة التي أُعيد بها تعريف المجموعات بوساطة:",
+    "options": [
+     [
+      "Electron microscopy",
+      "المجهر الإلكتروني"
+     ],
+     [
+      "Light microscopy",
+      "المجهر الضوئي"
+     ],
+     [
+      "Serology",
+      "المصليات"
+     ],
+     [
+      "Culture",
+      "الزرع"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The Apicomplexa include approximately:",
+    "ar": "تضمّ المعقّدات القمّية نحو:",
+    "options": [
+     [
+      "50 named species",
+      "50 نوعًا مسمّى"
+     ],
+     [
+      "500 named species",
+      "500 نوع مسمّى"
+     ],
+     [
+      "More than 5000 named species",
+      "أكثر من 5000 نوع مسمّى"
+     ],
+     [
+      "Exactly 100 species",
+      "100 نوع بالضبط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "The life cycle",
+    "topic_ar": "دورة الحياة"
+   },
+   {
+    "en": "The three distinct processes of the apicomplexan life cycle are:",
+    "ar": "العمليات الثلاث المتمايزة في دورة حياة المعقّدات القمّية:",
+    "options": [
+     [
+      "Mitosis, meiosis and binary fission",
+      "الانقسام الخيطي والاختزالي والانشطار الثنائي"
+     ],
+     [
+      "Sporogony, merogony and gametogony",
+      "التبوّغ والتقسّم والتكوّن العرسي"
+     ],
+     [
+      "Budding, conjugation and sporulation",
+      "التبرعم والاقتران والتبوّغ"
+     ],
+     [
+      "Encystation, excystation and division",
+      "التكيّس والانفلات والانقسام"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Sporogony is an asexual reproduction that culminates in the production of:",
+    "ar": "التبوّغ تكاثر لا جنسي ينتهي بإنتاج:",
+    "options": [
+     [
+      "Gametes",
+      "الأعراس"
+     ],
+     [
+      "Merozoites",
+      "الأقسومات"
+     ],
+     [
+      "Sporozoites",
+      "البويغات"
+     ],
+     [
+      "Zygotes",
+      "اللواقح"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Merogony produces:",
+    "ar": "ينتج عن التقسّم:",
+    "options": [
+     [
+      "Sporozoites",
+      "البويغات"
+     ],
+     [
+      "Gametes",
+      "الأعراس"
+     ],
+     [
+      "Oocysts",
+      "الأكياس البيضية"
+     ],
+     [
+      "Merozoites",
+      "الأقسومات"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The process by which merozoites become gametes is called:",
+    "ar": "العملية التي تتحوّل بها الأقسومات إلى أعراس تُسمّى:",
+    "options": [
+     [
+      "Sporogony",
+      "التبوّغ"
+     ],
+     [
+      "Gametogony (gametogenesis)",
+      "التكوّن العرسي (التولّد العرسي)"
+     ],
+     [
+      "Merogony",
+      "التقسّم"
+     ],
+     [
+      "Schizogony",
+      "الانقسام المتعدّد"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "When the gametes fuse they form a:",
+    "ar": "عندما تندمج الأعراس تكوّن:",
+    "options": [
+     [
+      "Zygote",
+      "لاقحة"
+     ],
+     [
+      "Sporozoite",
+      "بويغة"
+     ],
+     [
+      "Trophozoite",
+      "طورًا متغذّيًا"
+     ],
+     [
+      "Merozoite",
+      "أقسومة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The zygote differentiates into a form yielding:",
+    "ar": "تتمايز اللاقحة إلى شكل يُنتج:",
+    "options": [
+     [
+      "Gametes",
+      "الأعراس"
+     ],
+     [
+      "Sporozoites",
+      "البويغات"
+     ],
+     [
+      "Cysts only",
+      "الأكياس فقط"
+     ],
+     [
+      "Nothing further",
+      "لا شيء بعد ذلك"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "When classified into two processes, the apicomplexan life cycle consists of:",
+    "ar": "عند تصنيفها إلى عمليتين، تتكوّن دورة حياة المعقّدات القمّية من:",
+    "options": [
+     [
+      "Sporogony and merogony",
+      "التبوّغ والتقسّم"
+     ],
+     [
+      "Mitosis and meiosis",
+      "الانقسام الخيطي والاختزالي"
+     ],
+     [
+      "Schizogony and gametogony",
+      "الانقسام المتعدّد والتكوّن العرسي"
+     ],
+     [
+      "Encystation and excystation",
+      "التكيّس والانفلات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Sporogony and gametogony:",
+    "ar": "التبوّغ والتكوّن العرسي:",
+    "options": [
+     [
+      "Always occur in the same cell",
+      "يحدثان دائمًا في الخلية نفسها"
+     ],
+     [
+      "Occur only outside the host",
+      "يحدثان خارج المضيف فقط"
+     ],
+     [
+      "Are both sexual",
+      "كلاهما جنسي"
+     ],
+     [
+      "Can involve different hosts or cell types",
+      "قد يشترك فيهما مضيفات مختلفة أو أنواع خلايا مختلفة"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The alternation of asexual and sexual generations in the apicomplexan cycle is called:",
+    "ar": "تناوب الأجيال اللاجنسية والجنسية في دورة المعقّدات القمّية يُسمّى:",
+    "options": [
+     [
+      "Alternation of generation",
+      "تعاقب الأجيال"
+     ],
+     [
+      "Encystation",
+      "التكيّس"
+     ],
+     [
+      "Conjugation",
+      "الاقتران"
+     ],
+     [
+      "Binary fission",
+      "الانشطار الثنائي"
+     ]
+    ],
+    "answer": "a"
+   }
+  ],
+  "tf": [
+   {
+    "en": "The apical complex is used for host cell invasion.",
+    "ar": "يُستعمل المعقّد القمّي لغزو خلية المضيف.",
+    "answer": "T"
+   },
+   {
+    "en": "The apicoplast carries out photosynthesis in Apicomplexa.",
+    "ar": "تقوم البلاستيدة القمّية بالتمثيل الضوئي في المعقّدات القمّية.",
+    "answer": "F"
+   },
+   {
+    "en": "The apicoplast is essential for the survival of the apicomplexan.",
+    "ar": "البلاستيدة القمّية أساسية لبقاء الطفيلي القمّي.",
+    "answer": "T"
+   },
+   {
+    "en": "Apicomplexans move by pseudopods in their active stages.",
+    "ar": "تتحرّك المعقّدات القمّية بالأقدام الكاذبة في أطوارها النشطة.",
+    "answer": "F"
+   },
+   {
+    "en": "Most apicomplexans must live inside a host to survive.",
+    "ar": "معظم المعقّدات القمّية يجب أن تعيش داخل مضيف لتبقى حيّة.",
+    "answer": "T"
+   },
+   {
+    "en": "A conoid is present in every apicomplexan species.",
+    "ar": "المخروط موجود في كل أنواع المعقّدات القمّية.",
+    "answer": "F"
+   },
+   {
+    "en": "The polar ring is composed of microtubules.",
+    "ar": "تتألّف الحلقة القطبية من أنيبيبات دقيقة.",
+    "answer": "T"
+   },
+   {
+    "en": "Micronemes and rhoptries are secretory organelles.",
+    "ar": "الميكرونيمات والروبتريات عُضيّات إفرازية.",
+    "answer": "T"
+   },
+   {
+    "en": "The name Sporozoa is no longer used by anyone.",
+    "ar": "لم يعد أحد يستعمل اسم البوغيات.",
+    "answer": "F"
+   },
+   {
+    "en": "Electron microscopy revealed the ultrastructural features used to redefine the groups.",
+    "ar": "كشف المجهر الإلكتروني الصفات البنيوية الدقيقة التي أُعيد بها تعريف المجموعات.",
+    "answer": "T"
+   },
+   {
+    "en": "Sporogony is a sexual process.",
+    "ar": "التبوّغ عملية جنسية.",
+    "answer": "F"
+   },
+   {
+    "en": "Merozoites can become gametes as an alternative to asexual replication.",
+    "ar": "يمكن أن تتحوّل الأقسومات إلى أعراس بديلًا عن التكاثر اللاجنسي.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Apicoplast ≠ chloroplast",
+    "ar": "البلاستيدة القمّية ليست خضراء",
+    "answer_en": "The apicoplast came from a red alga and is a PLASTID, but it is a RELICT: it does NOT photosynthesize. It is kept because it is essential for survival (and is a drug target).",
+    "answer_ar": "البلاستيدة القمّية جاءت من طحلب أحمر وهي **بلاستيدة**، لكنها **أثرية**: **لا** تقوم بالتمثيل الضوئي. وتبقى لأنها أساسية للبقاء (وهي هدف دوائي)."
+   },
+   {
+    "en": "No flagella — except gametes",
+    "ar": "بلا أسواط — إلّا الأعراس",
+    "answer_en": "Apicomplexa lack flagella and pseudopods and move by gliding, BUT cilia/flagella are found in certain gamete stages (e.g. the male gamete of Plasmodium).",
+    "answer_ar": "المعقّدات القمّية بلا أسواط ولا أقدام كاذبة وتتحرّك بالانزلاق، **لكن** الأهداب/الأسواط توجد في أطوار عرسية معيّنة (مثل العُرس الذكري للمتصوّرة)."
+   },
+   {
+    "en": "Merogony = schizogony",
+    "ar": "التقسّم = الانقسام المتعدّد",
+    "answer_en": "They are two names for the SAME asexual process — that is why the cycle is described as three processes (sporogony, merogony, gametogony) or as two (schizogony and gametogony).",
+    "answer_ar": "اسمان **للعملية اللاجنسية نفسها** — ولهذا تُوصف الدورة بثلاث عمليات (التبوّغ والتقسّم والتكوّن العرسي) أو بعمليتين (الانقسام المتعدّد والتكوّن العرسي)."
+   },
+   {
+    "en": "Sporozoite vs merozoite",
+    "ar": "البويغة مقابل الأقسومة",
+    "answer_en": "Sporogony → SPOROZOITES; merogony → MEROZOITES. Sporozoites develop into the forms that then undergo merogony — do not swap the two.",
+    "answer_ar": "التبوّغ ← **البويغات**؛ والتقسّم ← **الأقسومات**. والبويغات تتطوّر إلى الأشكال التي تمرّ بعدها بالتقسّم — لا تبدّل بينهما."
+   },
+   {
+    "en": "Apical complex ≠ apicoplast",
+    "ar": "المعقّد القمّي ليس البلاستيدة القمّية",
+    "answer_en": "The apical COMPLEX is the invasion machinery (micronemes, rhoptries, polar rings, conoid); the apicoPLAST is the relict plastid — different structures with similar names.",
+    "answer_ar": "**المعقّد القمّي** جهاز الغزو (ميكرونيمات، روبتريات، حلقات قطبية، مخروط)؛ أما **البلاستيدة القمّية** فهي البلاستيدة الأثرية — تركيبان مختلفان باسمين متشابهين."
+   },
+   {
+    "en": "Plasmodium is not “Malaria”",
+    "ar": "المتصوّرة ليست “الملاريا”",
+    "answer_en": "The file writes “Plasmodium Malaria”: Plasmodium is the genus (P. falciparum, P. vivax …) and malaria is the disease — the genus is not called Malaria.",
+    "answer_ar": "الملف يكتب “`Plasmodium Malaria`”: فالمتصوّرة اسم الجنس (المنجلية، النشيطة…) والملاريا هي المرض — واسم الجنس ليس `Malaria`."
+   }
+  ],
+  "important": [
+   {
+    "en": "What are the main properties that characterize the phylum Apicomplexa?",
+    "ar": "ما الصفات الرئيسية التي تميّز شعبة المعقّدات القمّية؟",
+    "answer_en": "A distinctive apical complex for host cell invasion; a relict non-photosynthetic plastid (the apicoplast) essential for survival; complex life cycles involving sexual and asexual reproduction; and gliding motility. Most are obligate endoparasites of animals, they are unicellular eukaryotes, and they lack external locomotion organelles (flagella or pseudopods), cilia and flagella being found only in certain gamete stages. Well-known members are Plasmodium (malaria) and Toxoplasma.",
+    "answer_ar": "معقّد قمّي مميّز لغزو خلية المضيف؛ وبلاستيدة أثرية غير قادرة على التمثيل الضوئي (البلاستيدة القمّية) أساسية للبقاء؛ ودورات حياة معقّدة فيها تكاثر جنسي ولا جنسي؛ والحركة الانزلاقية. ومعظمها طفيليات داخلية إجبارية للحيوانات، وكائنات وحيدة الخلية حقيقية النواة، وتفتقر إلى عُضيّات الحركة الخارجية (الأسواط أو الأقدام الكاذبة)، ولا توجد الأهداب والأسواط إلّا في أطوار عرسية معيّنة. ومن أشهر أفرادها المتصوّرة (الملاريا) والمقوّسة."
+   },
+   {
+    "en": "Describe the ultrastructure of the apical complex.",
+    "ar": "صف البنية الدقيقة للمعقّد القمّي.",
+    "answer_en": "It is a group of organelles found at one end of the organism — the apical end. It includes the secretory organelles known as micronemes and rhoptries, a polar ring (or rings) composed of microtubules, and in some species a conoid which lies within the polar rings. These structures secrete the enzymes needed to penetrate and invade host cells.",
+    "answer_ar": "هو مجموعة من العُضيّات توجد في طرف واحد من الكائن يُسمّى الطرف القمّي. ويضمّ العُضيّات الإفرازية المعروفة بالميكرونيمات والروبتريات، وحلقة (أو حلقات) قطبية مؤلَّفة من أنيبيبات دقيقة، وفي بعض الأنواع مخروطًا يقع داخل الحلقات القطبية. وهذه التراكيب تفرز الإنزيمات اللازمة لاختراق خلايا المضيف وغزوها."
+   },
+   {
+    "en": "What is the apicoplast and why is it important?",
+    "ar": "ما البلاستيدة القمّية ولماذا هي مهمّة؟",
+    "answer_en": "It is a relict, non-photosynthetic organelle (plastid) derived from a red alga via secondary endosymbiosis. Although it no longer carries out photosynthesis, it is essential for the survival of the apicomplexan — and because it is of plant origin and absent from human cells it is an attractive drug target.",
+    "answer_ar": "عُضيّة (بلاستيدة) أثرية غير قادرة على التمثيل الضوئي، مشتقّة من طحلب أحمر بالتعايش الداخلي الثانوي. ومع أنها لم تعد تقوم بالتمثيل الضوئي فهي أساسية لبقاء الطفيلي القمّي — ولأنها من أصل نباتي وغير موجودة في خلايا الإنسان فهي هدف دوائي مهمّ."
+   },
+   {
+    "en": "Why are Apicomplexa sometimes still called Sporozoa?",
+    "ar": "لماذا ما زالت المعقّدات القمّية تُسمّى أحيانًا البوغيات؟",
+    "answer_en": "Formerly the Apicomplexa were part of a group called Sporozoa, and this name is still sometimes used; recently there have been some suggestions to revert back to the name Sporozoa. The old name came from the spores (oocysts) these parasites form, while Apicomplexa is taken from the apical complex.",
+    "answer_ar": "لأن المعقّدات القمّية كانت سابقًا جزءًا من مجموعة تُسمّى البوغيات، وما زال هذا الاسم يُستعمل أحيانًا؛ وظهرت حديثًا اقتراحات بالعودة إليه. وجاء الاسم القديم من الأبواغ (الأكياس البيضية) التي تكوّنها هذه الطفيليات، أما اسم المعقّدات القمّية فمأخوذ من المعقّد القمّي."
+   },
+   {
+    "en": "Give the general characters of the Apicomplexa.",
+    "ar": "اذكر الصفات العامة للمعقّدات القمّية.",
+    "answer_en": "A monophyletic group composed almost entirely of parasitic species (no free-living forms); an extremely large and diverse group of more than 5000 named species; the parasites possess no locomotion organelles and show only a slight amoeboid change of form (body flexion); electron microscopy revealed their unique ultrastructural features, which were then used to redefine the groups; and their defining characteristic is the apical complex.",
+    "answer_ar": "مجموعة وحيدة النشأة مؤلَّفة كلّها تقريبًا من أنواع طفيلية (بلا أشكال حرّة المعيشة)؛ وهي مجموعة كبيرة جدًا ومتنوّعة فيها أكثر من 5000 نوع مسمّى؛ ولا تملك طفيلياتها عُضيّات حركة، وتُظهر تغيّرًا أميبيًا طفيفًا في الشكل (انثناء الجسم) فقط؛ وكشف المجهر الإلكتروني صفاتها البنيوية الدقيقة الفريدة التي استُعملت بعد ذلك لإعادة تعريف المجموعات؛ وصفتها المميّزة هي المعقّد القمّي."
+   },
+   {
+    "en": "Describe the three processes of the apicomplexan life cycle.",
+    "ar": "صف العمليات الثلاث في دورة حياة المعقّدات القمّية.",
+    "answer_en": "Sporogony: an asexual reproduction that culminates in the production of sporozoites. Merogony: the sporozoites develop into forms that undergo another asexual replication, producing merozoites (merogony and its merozoites are known by many different names depending on the species). Gametogony (gametogenesis): as an alternative to asexual replication, merozoites can become gametes; the gametes fuse to form a zygote which differentiates into a form yielding sporozoites — an alternation of generation. The cycle may also be classified into two processes: schizogony and gametogony.",
+    "answer_ar": "التبوّغ: تكاثر لا جنسي ينتهي بإنتاج البويغات. والتقسّم: تتطوّر البويغات إلى أشكال تمرّ بتكاثر لا جنسي آخر فتنتج الأقسومات (ويُعرف التقسّم وأقسوماته بأسماء مختلفة كثيرة بحسب النوع). والتكوّن العرسي: بدلًا من التكاثر اللاجنسي يمكن أن تتحوّل الأقسومات إلى أعراس؛ فتندمج الأعراس مكوّنةً لاقحة تتمايز إلى شكل يُنتج البويغات — وهذا تعاقب الأجيال. وقد تُصنَّف الدورة أيضًا إلى عمليتين: الانقسام المتعدّد والتكوّن العرسي."
+   }
+  ]
+ }
+}
