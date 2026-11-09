@@ -1,0 +1,1789 @@
+{
+ "meta": {
+  "subject_en": "Diagnostic Parasitology",
+  "subject_ar": "الطفيليات التشخيصية",
+  "short_ar": "طفيليات",
+  "instructor": "أ.د. نزار الخفاجي",
+  "unit_en": "Week 9",
+  "unit_ar": "الأسبوع 9",
+  "unit_label": "WEEK",
+  "unit_no": "9",
+  "title_en": "Genus Leishmania: Properties of ideal vaccines & Leishmania vaccine in trial",
+  "title_ar": "جنس الليشمانيا: صفات اللقاح المثالي ولقاح الليشمانيا قيد التجربة",
+  "department": "قسم التحليلات",
+  "stage": "The fourth stage — الرابعة",
+  "kind": "Theory — نظري"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Contents of the week",
+   "ar": "محتويات الأسبوع"
+  },
+  {
+   "t": "card",
+   "en": "**9th Week**",
+   "ar": "**الأسبوع التاسع**"
+  },
+  {
+   "t": "card",
+   "en": "**Genus Leishmania; Properties of ideal vaccines; Leishmania vaccine in trial**",
+   "ar": "**جنس الليشمانيا؛ صفات اللقاح المثالي؛ لقاح الليشمانيا قيد التجربة**"
+  },
+  {
+   "t": "card",
+   "en": "**Properties of ideal vaccine as Leishmania Vaccine in trial**",
+   "ar": "**صفات اللقاح المثالي ولقاح الليشمانيا قيد التجربة**"
+  },
+  {
+   "t": "note",
+   "en": [
+    "The heading promises **properties of an ideal vaccine**, but the text of the week does not list them — it is all about the **Leishmania vaccine in trial**.",
+    "The properties are therefore given here as a **BIOS explanation** (not the lecturer's text), because the heading asks for them.",
+    "An **ideal vaccine** should be: **safe** (no disease, no serious side effects), **effective** (strong protection in most people), **long-lasting** (memory, few or no boosters), **broadly protective** (covers the species/strains in the area), **stable and cheap** (easy transport and storage, suitable for poor endemic areas), **easy to give** (few doses, simple route) and **easy to distinguish from infection** in the laboratory."
+   ],
+   "ar": [
+    "العنوان يَعِد **بصفات اللقاح المثالي**، لكن نصّ الأسبوع لا يعدّدها — فكلّه عن **لقاح الليشمانيا قيد التجربة**.",
+    "ولذلك كُتبت الصفات هنا **شرحًا من `BIOS`** (لا من نصّ المحاضر)، لأن العنوان يطلبها.",
+    "**اللقاح المثالي** يجب أن يكون: **آمنًا** (لا يسبّب المرض ولا آثارًا جانبية خطيرة)، و**فعّالًا** (حماية قوية لمعظم الناس)، و**طويل الأمد** (ذاكرة مناعية، بجرعات معزّزة قليلة أو بلا)، و**واسع الحماية** (يغطّي الأنواع والسلالات الموجودة في المنطقة)، و**ثابتًا ورخيصًا** (سهل النقل والخزن، مناسبًا للمناطق الفقيرة المتوطّنة)، و**سهل الإعطاء** (جرعات قليلة وطريق بسيط)، و**يسهل تمييزه عن العدوى** في المختبر."
+   ],
+   "label": [
+    "BIOS explanation",
+    "شرح BIOS"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Property",
+     "الصفة"
+    ],
+    [
+     "What it means",
+     "ما المقصود"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Safe**",
+      "**آمن**"
+     ],
+     [
+      "does not cause the disease or serious side effects",
+      "لا يسبّب المرض ولا آثارًا جانبية خطيرة"
+     ]
+    ],
+    [
+     [
+      "**Effective (immunogenic)**",
+      "**فعّال (محفّز للمناعة)**"
+     ],
+     [
+      "gives strong protection in most vaccinated people",
+      "يعطي حماية قوية لمعظم الملقَّحين"
+     ]
+    ],
+    [
+     [
+      "**Long-lasting**",
+      "**طويل الأمد**"
+     ],
+     [
+      "immunological memory; few or no boosters",
+      "ذاكرة مناعية؛ جرعات معزّزة قليلة أو بلا"
+     ]
+    ],
+    [
+     [
+      "**Broadly protective**",
+      "**واسع الحماية**"
+     ],
+     [
+      "covers the species and strains of the area",
+      "يغطّي أنواع المنطقة وسلالاتها"
+     ]
+    ],
+    [
+     [
+      "**Stable and cheap**",
+      "**ثابت ورخيص**"
+     ],
+     [
+      "easy transport and storage in poor endemic areas",
+      "سهل النقل والخزن في المناطق المتوطّنة الفقيرة"
+     ]
+    ],
+    [
+     [
+      "**Easy to give**",
+      "**سهل الإعطاء**"
+     ],
+     [
+      "few doses, simple route of administration",
+      "جرعات قليلة وطريق إعطاء بسيط"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    32,
+    68
+   ],
+   "style": "summary",
+   "label_en": "BIOS — properties of an ideal vaccine",
+   "label_ar": "`BIOS` — صفات اللقاح المثالي"
+  },
+  {
+   "t": "section",
+   "en": "Why a vaccine is feasible",
+   "ar": "لماذا اللقاح ممكن"
+  },
+  {
+   "t": "card",
+   "en": "**Leishmaniasis** is a disease that is **most likely to be controlled by a successful vaccination program**.",
+   "ar": "**داء الليشمانيات** مرض **يُرجَّح جدًا السيطرة عليه ببرنامج تلقيح ناجح**."
+  },
+  {
+   "t": "card",
+   "en": "The relatively **uncomplicated leishmanial life cycle** and the fact that **recovery from a primary infection renders the host resistant to subsequent infections** indicate that **vaccine is feasible**.",
+   "ar": "إن **دورة حياة الليشمانيا غير المعقّدة** نسبيًا، وكون **الشفاء من العدوى الأولية يجعل المضيف مقاومًا للإصابات اللاحقة**، يدلّان على أن **اللقاح ممكن**."
+  },
+  {
+   "t": "card",
+   "en": "Evidence from studies in **animal models, mainly mice**, indicates that **protection can be achieved** upon immunization with various vaccine formulations, however, **to date such vaccines have been disappointing when tested in the field**.",
+   "ar": "تدلّ أدلّة الدراسات في **النماذج الحيوانية، وأساسًا الفئران**، على أنه **يمكن تحقيق الحماية** بالتمنيع بتركيبات لقاحية مختلفة، **لكن هذه اللقاحات كانت حتى الآن مخيّبة للآمال عند اختبارها ميدانيًا**."
+  },
+  {
+   "t": "card",
+   "en": "Leishmania vaccine development has proven to be a **difficult and challenging task**, which is mostly hampered by **inadequate knowledge of parasite pathogenesis** and the **complexity of immune responses needed for protection**.",
+   "ar": "أثبت تطوير لقاح الليشمانيا أنه **مهمّة صعبة ومليئة بالتحدّيات**، يعوقها أساسًا **عدم كفاية المعرفة بإمراضية الطفيلي** و**تعقّد الاستجابات المناعية اللازمة للحماية**."
+  },
+  {
+   "t": "note",
+   "en": "**Why recovery protects:** healing of a cutaneous lesion leaves a strong **cell-mediated (Th1) immunity** — this is also the idea behind the old practice of **leishmanization** (deliberate inoculation of live parasites in a hidden site to produce one controlled lesion and lifelong immunity).",
+   "ar": "**لماذا يحمي الشفاء:** شفاء الآفة الجلدية يترك **مناعة خلوية قوية (`Th1`)** — وهذه أيضًا فكرة الممارسة القديمة **التلقيح بالليشمانيا (`leishmanization`)**: حقن طفيليات حيّة عمدًا في موضع مستور لإحداث آفة واحدة مضبوطة ومناعة مدى الحياة.",
+   "label": [
+    "BIOS explanation",
+    "شرح BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Leishmaniasis is a **good candidate** for a vaccine: **simple life cycle** + **recovery gives resistance** to later infections.",
+    "In **mice** many formulations protect, but **in the field they have been disappointing**.",
+    "Obstacles: poor knowledge of **pathogenesis** + **complex immune responses** needed."
+   ],
+   "ar": [
+    "داء الليشمانيات **مرشّح جيد** للّقاح: **دورة حياة بسيطة** + **الشفاء يعطي مقاومة** للإصابات اللاحقة.",
+    "في **الفئران** تحمي تركيبات كثيرة، لكنها **كانت مخيّبة ميدانيًا**.",
+    "العوائق: ضعف معرفة **الإمراضية** + **تعقّد الاستجابات المناعية** المطلوبة."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Combination vaccines",
+   "ar": "اللقاحات المركّبة"
+  },
+  {
+   "t": "card",
+   "en": "It is **highly unlikely** a successful antileishmanial vaccine will be based on a **single antigen**.",
+   "ar": "**من المستبعد جدًا** أن يقوم لقاح ناجح مضادّ لليشمانيا على **مستضد واحد**."
+  },
+  {
+   "t": "card",
+   "en": "**Combination vaccines** composed of **multiple antigens** and **well- developed adjuvants**, such as **Leish 111f and MPL –SE** , have the **best chances to succussed**.",
+   "ar": "**اللقاحات المركّبة** المؤلَّفة من **مستضدات متعدّدة** و**مواد مساعدة جيدة التطوير**، مثل **`Leish-111f`** و**`MPL–SE`**، لها **أفضل فرص النجاح**."
+  },
+  {
+   "t": "note",
+   "en": [
+    "“succussed” = **succeed**.",
+    "**`MPL–SE`** is the **adjuvant** (monophosphoryl lipid A in a stable emulsion), not a second antigen: `Leish-111f` is the antigen and `MPL–SE` is given with it to strengthen the immune response."
+   ],
+   "ar": [
+    "`“succussed”` صحيحها **`succeed`** أي تنجح.",
+    "**`MPL–SE`** هو **المادة المساعدة** (أحادي فوسفوريل الدهن `A` في مستحلب ثابت)، لا مستضد ثانٍ: فـ`Leish-111f` هو المستضد، و`MPL–SE` يُعطى معه لتقوية الاستجابة المناعية."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": "An **adjuvant** is a substance added to a vaccine to **make the immune response stronger and longer** without being the antigen itself (e.g. alum, `MPL–SE`).",
+   "ar": "**المادة المساعدة (`adjuvant`)** مادة تُضاف إلى اللقاح **لتقوية الاستجابة المناعية وإطالتها** دون أن تكون هي المستضد (مثل الشبّة و`MPL–SE`).",
+   "label": [
+    "BIOS explanation",
+    "شرح BIOS"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Majority of experimental vaccines** were tested against the **cutaneous form** of the disease in the **mouse model**.",
+   "ar": "**اختُبرت أغلب اللقاحات التجريبية** ضدّ **الشكل الجلدي** من المرض في **نموذج الفأر**."
+  },
+  {
+   "t": "card",
+   "en": "Although the demands for a **VL vaccine** are **more complex** than for a **CL vaccine**, it is believed that **human VL trials will follow any successful CL immunization program**.",
+   "ar": "ومع أن متطلّبات **لقاح الليشمانيا الحشوية (`VL`)** **أعقد** من متطلّبات **لقاح الليشمانيا الجلدية (`CL`)**، يُعتقد أن **تجارب الليشمانيا الحشوية في الإنسان ستتبع أيّ برنامج تمنيع ناجح للشكل الجلدي**."
+  },
+  {
+   "t": "note",
+   "en": "The file uses **`CL`** and **`VL`** without defining them: `CL` = **cutaneous leishmaniasis** (the skin form), `VL` = **visceral leishmaniasis** (kala-azar — liver, spleen, bone marrow; fatal if untreated).",
+   "ar": "يستعمل الملف **`CL`** و**`VL`** دون تعريفهما: `CL` = **الليشمانيا الجلدية** (الشكل الجلدي)، و`VL` = **الليشمانيا الحشوية** (الكالا آزار — الكبد والطحال ونقي العظم؛ مميتة إن لم تُعالَج).",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "CL — cutaneous",
+     "الجلدية `CL`"
+    ],
+    [
+     "VL — visceral",
+     "الحشوية `VL`"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Site**",
+      "**الموضع**"
+     ],
+     [
+      "skin (ulcer at the bite site)",
+      "الجلد (قرحة في موضع اللدغة)"
+     ],
+     [
+      "liver, spleen, bone marrow",
+      "الكبد والطحال ونقي العظم"
+     ]
+    ],
+    [
+     [
+      "**Severity**",
+      "**الشدّة**"
+     ],
+     [
+      "usually self-healing, leaves a scar",
+      "تُشفى ذاتيًا غالبًا وتترك ندبة"
+     ],
+     [
+      "fatal if untreated (kala-azar)",
+      "مميتة إن لم تُعالَج (الكالا آزار)"
+     ]
+    ],
+    [
+     [
+      "**Vaccine work**",
+      "**العمل اللقاحي**"
+     ],
+     [
+      "most experimental vaccines, mouse model",
+      "أغلب اللقاحات التجريبية، نموذج الفأر"
+     ],
+     [
+      "demands are more complex; trials follow CL success",
+      "متطلّباتها أعقد؛ وتجاربها تتبع نجاح الجلدية"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    20,
+    40,
+    40
+   ],
+   "style": "summary",
+   "label_en": "BIOS — CL vs VL",
+   "label_ar": "`BIOS` — الجلدية مقابل الحشوية"
+  },
+  {
+   "t": "note",
+   "en": [
+    "A successful vaccine will **not** be based on a **single antigen** — **multiple antigens + good adjuvant** (`Leish-111f` with `MPL–SE`).",
+    "Most experimental vaccines were tested against **CL in mice**; **VL** is more demanding and follows **CL** success."
+   ],
+   "ar": [
+    "اللقاح الناجح **لن** يقوم على **مستضد واحد** — بل **مستضدات متعدّدة + مادة مساعدة جيدة** (`Leish-111f` مع `MPL–SE`).",
+    "أغلب اللقاحات التجريبية اختُبرت ضدّ **الجلدية في الفئران**؛ و**الحشوية** أصعب وتتبع نجاح **الجلدية**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Approaches to the vaccine",
+   "ar": "مناهج تطوير اللقاح"
+  },
+  {
+   "t": "card",
+   "en": "To date, **several different approaches** to antileishmanial vaccine have been tested.",
+   "ar": "جُرّبت حتى الآن **عدّة مناهج مختلفة** للّقاح المضادّ لليشمانيا."
+  },
+  {
+   "t": "h2",
+   "en": "First generation vaccines",
+   "ar": "لقاحات الجيل الأول"
+  },
+  {
+   "t": "card",
+   "en": "**First generation vaccines** composed of **whole killed parasites** have been proposed as both **prophylactic and therapeutic** vaccines.",
+   "ar": "**لقاحات الجيل الأول** المؤلَّفة من **طفيليات كاملة مقتولة** اقتُرحت لقاحات **وقائية وعلاجية** معًا."
+  },
+  {
+   "t": "card",
+   "en": "In general, the **whole – cell, killed vaccines** have been **rather poorly defined and variable in potency**, hence they have **rendered inconclusive results**.",
+   "ar": "وعمومًا كانت **لقاحات الخلايا الكاملة المقتولة** **غير محدّدة التركيب جيدًا ومتفاوتة الفاعلية**، ولذلك **أعطت نتائج غير حاسمة**."
+  },
+  {
+   "t": "note",
+   "en": "**Prophylactic** = given to a healthy person **to prevent** the disease; **therapeutic** = given to a patient **as part of treatment** (immunotherapy, often with the drug).",
+   "ar": "**الوقائي** = يُعطى للشخص السليم **لمنع** المرض؛ و**العلاجي** = يُعطى للمريض **ضمن العلاج** (مناعي علاجي، وغالبًا مع الدواء).",
+   "label": [
+    "BIOS explanation",
+    "شرح BIOS"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "Second generation vaccines",
+   "ar": "لقاحات الجيل الثاني"
+  },
+  {
+   "t": "card",
+   "en": "**Most of the vaccine studies concentrate on the second-generation vaccines** consisting of **recombinant proteins, poly- proteins, DNA vaccines** or **dendritic cells loaded with peptides** derived from leishmanial antigens.",
+   "ar": "**تتركّز معظم دراسات اللقاح على لقاحات الجيل الثاني** المؤلَّفة من **بروتينات مأشوبة، وبروتينات متعدّدة، ولقاحات الدنا**، أو **خلايا تغصّنية محمّلة ببيبتيدات** مشتقّة من مستضدات الليشمانيا."
+  },
+  {
+   "t": "card",
+   "en": "To date, **only one second generation vaccine, Leish -111f, has been assessed in clinical trials**.",
+   "ar": "وحتى الآن **لم يُقيَّم في التجارب السريرية إلا لقاح واحد من الجيل الثاني هو `Leish-111f`**."
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Generation",
+     "الجيل"
+    ],
+    [
+     "What it is made of",
+     "ممّ يتكوّن"
+    ],
+    [
+     "Result",
+     "النتيجة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**First generation**",
+      "**الجيل الأول**"
+     ],
+     [
+      "whole killed parasites (prophylactic + therapeutic)",
+      "طفيليات كاملة مقتولة (وقائي + علاجي)"
+     ],
+     [
+      "poorly defined, variable potency → inconclusive",
+      "غير محدّد جيدًا، فاعلية متفاوتة ← نتائج غير حاسمة"
+     ]
+    ],
+    [
+     [
+      "**Second generation**",
+      "**الجيل الثاني**"
+     ],
+     [
+      "recombinant proteins, poly-proteins, DNA vaccines, dendritic cells with peptides",
+      "بروتينات مأشوبة، بروتينات متعدّدة، لقاحات دنا، خلايا تغصّنية ببيبتيدات"
+     ],
+     [
+      "most studies; only `Leish-111f` reached clinical trials",
+      "معظم الدراسات؛ و`Leish-111f` وحده وصل التجارب السريرية"
+     ]
+    ],
+    [
+     [
+      "**Live attenuated**",
+      "**الحيّ الموهَن**"
+     ],
+     [
+      "avirulent parasites made by a defined genetic alteration",
+      "طفيليات غير ضارية تُنتَج بتغيير وراثي محدّد"
+     ],
+     [
+      "an alternative — mimics the natural infection",
+      "بديل — يحاكي العدوى الطبيعية"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    22,
+    48,
+    30
+   ],
+   "style": "summary",
+   "label_en": "BIOS — the vaccine approaches",
+   "label_ar": "`BIOS` — مناهج اللقاح"
+  },
+  {
+   "t": "note",
+   "en": [
+    "**First generation** = whole **killed** parasites: poorly defined, variable potency → **inconclusive**.",
+    "**Second generation** = recombinant proteins, poly-proteins, **DNA vaccines**, dendritic cells with peptides — most of the studies.",
+    "Only **`Leish-111f`** has been assessed in **clinical trials**."
+   ],
+   "ar": [
+    "**الجيل الأول** = طفيليات **مقتولة** كاملة: غير محدّدة، فاعلية متفاوتة ← **نتائج غير حاسمة**.",
+    "**الجيل الثاني** = بروتينات مأشوبة، بروتينات متعدّدة، **لقاحات دنا**، خلايا تغصّنية ببيبتيدات — وهي معظم الدراسات.",
+    "و**`Leish-111f`** وحده قُيّم في **التجارب السريرية**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Leish-111f",
+   "ar": "لقاح `Leish-111f`"
+  },
+  {
+   "t": "card",
+   "en": "**Leish- 111f** is a **single poly protein** composed of **three molecules fused**; the **L. major homologue of eukaryotic thiol- specific antioxidant (TSA)**, the **L. major stress- inducible protein -1(LmST11)**and the **L. braziliensis elongation and initiation factor (LeIF)**.",
+   "ar": "**`Leish-111f`** **بروتين متعدّد واحد** مؤلَّف من **ثلاثة جزيئات مندمجة**: **نظير الليشمانيا الكبرى لمضادّ الأكسدة النوعي للثايول في حقيقيات النوى (`TSA`)**، و**بروتين الليشمانيا الكبرى المستحثّ بالإجهاد 1 (`LmSTI1`)**، و**عامل الاستطالة والبدء من الليشمانيا البرازيلية (`LeIF`)**."
+  },
+  {
+   "t": "note",
+   "en": [
+    "“**LmST11**” (with two ones) is written in the literature **`LmSTI1`** — Leishmania major **S**tress-**I**nducible protein **1**.",
+    "The name is written three ways in the file (“Leish 111f”, “Leish -111f”, “Leish- 111f”) — all are the same vaccine, **`Leish-111f`**."
+   ],
+   "ar": [
+    "`“LmST11”` (بواحدَين) تُكتب في المراجع **`LmSTI1`** — بروتين الليشمانيا الكبرى المستحثّ بالإجهاد 1.",
+    "والاسم مكتوب بثلاث صور في الملف (`“Leish 111f”`، `“Leish -111f”`، `“Leish- 111f”`) — وكلّها اللقاح نفسه **`Leish-111f`**."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Molecule in the fusion",
+     "الجزيء في الاندماج"
+    ],
+    [
+     "Origin",
+     "المصدر"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**TSA** — thiol-specific antioxidant homologue",
+      "**`TSA`** — نظير مضادّ الأكسدة النوعي للثايول"
+     ],
+     [
+      "L. major",
+      "الليشمانيا الكبرى"
+     ]
+    ],
+    [
+     [
+      "**LmSTI1** — stress-inducible protein 1",
+      "**`LmSTI1`** — البروتين المستحثّ بالإجهاد 1"
+     ],
+     [
+      "L. major",
+      "الليشمانيا الكبرى"
+     ]
+    ],
+    [
+     [
+      "**LeIF** — elongation and initiation factor",
+      "**`LeIF`** — عامل الاستطالة والبدء"
+     ],
+     [
+      "L. braziliensis",
+      "الليشمانيا البرازيلية"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    64,
+    36
+   ],
+   "style": "summary",
+   "label_en": "BIOS — the three fused molecules of Leish-111f",
+   "label_ar": "`BIOS` — جزيئات `Leish-111f` الثلاثة المندمجة"
+  },
+  {
+   "t": "note",
+   "en": "A **poly-protein** is one protein made by **fusing several antigens into a single chain**, so one molecule carries several targets — and `Leish-111f` is given with the adjuvant `MPL–SE`.",
+   "ar": "**البروتين المتعدّد** بروتين واحد يُصنع **بدمج عدّة مستضدات في سلسلة واحدة**، فيحمل الجزيء الواحد عدّة أهداف — ويُعطى `Leish-111f` مع المادة المساعدة `MPL–SE`.",
+   "label": [
+    "BIOS explanation",
+    "شرح BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**`Leish-111f`** = a **single poly-protein** of **three fused molecules**: **`TSA`** and **`LmSTI1`** (L. major) + **`LeIF`** (L. braziliensis).",
+    "It is the **only second-generation vaccine** assessed in clinical trials, given with **`MPL–SE`**."
+   ],
+   "ar": [
+    "**`Leish-111f`** = **بروتين متعدّد واحد** من **ثلاثة جزيئات مندمجة**: **`TSA`** و**`LmSTI1`** (الكبرى) + **`LeIF`** (البرازيلية).",
+    "وهو **اللقاح الوحيد من الجيل الثاني** المقيَّم في التجارب السريرية، ويُعطى مع **`MPL–SE`**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Sand fly saliva",
+   "ar": "لعاب ذبابة الرمل"
+  },
+  {
+   "t": "card",
+   "en": "**Sand fly saliva** contains an **array of molecules able to interfere with the host immune response**, therefore, **immunity against saliva components may indirectly enhance-anti- leishmanial immunity**.",
+   "ar": "يحتوي **لعاب ذبابة الرمل** على **مجموعة من الجزيئات القادرة على التداخل مع استجابة المضيف المناعية**، ولذلك فإن **المناعة ضدّ مكوّنات اللعاب قد تعزّز بصورة غير مباشرة المناعة المضادّة لليشمانيا**."
+  },
+  {
+   "t": "card",
+   "en": "**More recently**, it has been shown that **vector salivary proteins**, in particular **LJM19**, **protect hamster from VL**.",
+   "ar": "و**حديثًا** تبيّن أن **بروتينات لعاب الناقل**، ولا سيّما **`LJM19`**، **تحمي الهامستر من الليشمانيا الحشوية**."
+  },
+  {
+   "t": "note",
+   "en": [
+    "The parasite is injected **together with the saliva**; the saliva's molecules **suppress the local immune response** and help the parasite establish."
+   ],
+   "ar": [
+    "يُحقن الطفيلي **مع اللعاب**؛ وجزيئات اللعاب **تكبح الاستجابة المناعية الموضعية** وتساعد الطفيلي على التوطّن."
+   ],
+   "label": [
+    "BIOS explanation",
+    "شرح BIOS"
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "note",
+   "en": [
+    "If the host is **already immune to the saliva**, an inflammatory reaction at the bite site **makes the environment hostile to the parasite** — this is the idea of a **saliva-based (vector) vaccine**."
+   ],
+   "ar": [
+    "وإذا كان المضيف **ممنّعًا أصلًا ضدّ اللعاب** فإن تفاعلًا التهابيًا في موضع اللدغة **يجعل البيئة معادية للطفيلي** — وهذه فكرة **اللقاح المعتمد على اللعاب (لقاح الناقل)**."
+   ],
+   "label": [
+    "BIOS explanation (continued)",
+    "شرح BIOS (تكملة)"
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "note",
+   "en": "“enhance-anti- leishmanial” is written with stray hyphens in the file — it means **enhance anti-leishmanial immunity**; “protect hamster” = protect **hamsters**.",
+   "ar": "`“enhance-anti- leishmanial”` مكتوبة بشُرَط زائدة في الملف — ومعناها **تعزّز المناعة المضادّة لليشمانيا**؛ و`“protect hamster”` أي تحمي **الهامستر** (الجمع).",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Sand fly **saliva** interferes with the host immune response and helps the parasite.",
+    "Immunity **against the saliva** may indirectly protect; **`LJM19`** protected **hamsters from VL**."
+   ],
+   "ar": [
+    "**لعاب** ذبابة الرمل يتداخل مع مناعة المضيف ويساعد الطفيلي.",
+    "والمناعة **ضدّ اللعاب** قد تحمي بصورة غير مباشرة؛ و**`LJM19`** حمى **الهامستر من الحشوية**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Live attenuated Leishmania",
+   "ar": "الليشمانيا الحيّة الموهَنة"
+  },
+  {
+   "t": "card",
+   "en": "**Live – attenuated Leishmania** as an **alternative for vaccine development**.",
+   "ar": "**الليشمانيا الحيّة الموهَنة** **بديلًا لتطوير اللقاح**."
+  },
+  {
+   "t": "card",
+   "en": "By **mimicking the natural infection**, live – attenuated parasites can **deliver a complete spectrum of antigens to the antigens presenting cells**, in principle leading to a **better immune response** that results in a **better protective outcome** than that observed following immunization with a **subunit vaccine**.",
+   "ar": "إن الطفيليات الحيّة الموهَنة، **بمحاكاتها العدوى الطبيعية**، تستطيع **إيصال طيف كامل من المستضدات إلى الخلايا العارضة للمستضد**، ممّا يؤدّي مبدئيًا إلى **استجابة مناعية أفضل** تُعطي **نتيجة وقائية أفضل** من الملاحَظة بعد التمنيع بـ**لقاح الوحدات الفرعية**."
+  },
+  {
+   "t": "card",
+   "en": "**Avirulent microorganisms** can be generated by a **defined genetic alteration**, **eliminating the risk of parasite reversion to the virulent phenotype**.",
+   "ar": "ويمكن توليد **أحياء مجهرية غير ضارية** **بتغيير وراثي محدّد**، ممّا **يزيل خطر رجوع الطفيلي إلى النمط الظاهري الضاري**."
+  },
+  {
+   "t": "note",
+   "en": "“the antigens presenting cells” = the **antigen-presenting cells (APCs)** — macrophages and dendritic cells.",
+   "ar": "`“the antigens presenting cells”` صحيحها **الخلايا العارضة للمستضد (`APCs`)** — البلاعم والخلايا التغصّنية.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "A **subunit vaccine** contains only **part of the parasite** (one or a few antigens), so it shows the immune system **few targets**; a **live attenuated** parasite shows it **the whole spectrum**, as in a natural infection.",
+    "**Attenuated** = weakened so that it **cannot cause disease** but is still alive.",
+    "The danger of older attenuated strains was **reversion** to a virulent form; a **defined genetic alteration** (deleting a known essential gene) removes that risk."
+   ],
+   "ar": [
+    "**لقاح الوحدات الفرعية** يحتوي **جزءًا من الطفيلي** فقط (مستضدًا أو بضعة مستضدات)، فيعرض على الجهاز المناعي **أهدافًا قليلة**؛ أما الطفيلي **الحيّ الموهَن** فيعرض عليه **الطيف كلّه** كما في العدوى الطبيعية.",
+    "**الموهَن** = مُضعَّف بحيث **لا يستطيع إحداث المرض** لكنه ما يزال حيًّا.",
+    "وخطر السلالات الموهَنة القديمة كان **الرجوع** إلى شكل ضارٍ؛ و**التغيير الوراثي المحدّد** (حذف جين أساسي معروف) يزيل هذا الخطر."
+   ],
+   "label": [
+    "BIOS explanation",
+    "شرح BIOS"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "Subunit vaccine",
+     "لقاح الوحدات الفرعية"
+    ],
+    [
+     "Live attenuated",
+     "الحيّ الموهَن"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Contains**",
+      "**يحتوي**"
+     ],
+     [
+      "one or a few antigens",
+      "مستضدًا أو بضعة مستضدات"
+     ],
+     [
+      "the whole living (weakened) parasite",
+      "الطفيلي الحيّ (المضعَّف) كلّه"
+     ]
+    ],
+    [
+     [
+      "**Antigens shown to APCs**",
+      "**المستضدات المعروضة**"
+     ],
+     [
+      "few",
+      "قليلة"
+     ],
+     [
+      "a complete spectrum",
+      "طيف كامل"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    26,
+    37,
+    37
+   ],
+   "style": "summary",
+   "label_en": "BIOS — subunit vs live attenuated",
+   "label_ar": "`BIOS` — الوحدات الفرعية مقابل الحيّ الموهَن",
+   "_ff": 2
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "",
+     ""
+    ],
+    [
+     "Subunit vaccine",
+     "لقاح الوحدات الفرعية"
+    ],
+    [
+     "Live attenuated",
+     "الحيّ الموهَن"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Immune response**",
+      "**الاستجابة المناعية**"
+     ],
+     [
+      "weaker",
+      "أضعف"
+     ],
+     [
+      "better — mimics natural infection",
+      "أفضل — تحاكي العدوى الطبيعية"
+     ]
+    ],
+    [
+     [
+      "**Main risk**",
+      "**الخطر الرئيسي**"
+     ],
+     [
+      "not enough protection",
+      "حماية غير كافية"
+     ],
+     [
+      "reversion to virulence — removed by a defined genetic alteration",
+      "الرجوع إلى الضراوة — يُزال بتغيير وراثي محدّد"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    26,
+    37,
+    37
+   ],
+   "style": "summary",
+   "label_en": "BIOS — subunit vs live attenuated (continued)",
+   "label_ar": "`BIOS` — الوحدات الفرعية مقابل الحيّ الموهَن (تكملة)",
+   "_ff": 2
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Live attenuated** parasites **mimic the natural infection** and deliver a **complete spectrum of antigens** to the **APCs**.",
+    "Better protection than a **subunit** vaccine; **defined genetic alteration** removes the risk of **reversion to virulence**."
+   ],
+   "ar": [
+    "الطفيليات **الحيّة الموهَنة** **تحاكي العدوى الطبيعية** وتوصل **طيفًا كاملًا من المستضدات** إلى **الخلايا العارضة**.",
+    "حماية أفضل من **لقاح الوحدات الفرعية**؛ و**التغيير الوراثي المحدّد** يزيل خطر **الرجوع إلى الضراوة**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Leishmaniasis**",
+     "داء الليشمانيات / اللشمانيا"
+    ],
+    [
+     "**Cutaneous leishmaniasis (CL)**",
+     "الليشمانيا الجلدية / حبّة بغداد"
+    ],
+    [
+     "**Visceral leishmaniasis (VL)**",
+     "الليشمانيا الحشوية / الكالا آزار"
+    ],
+    [
+     "**Vaccine**",
+     "اللقاح / التطعيم / المطعوم"
+    ],
+    [
+     "**Immunization**",
+     "التمنيع / التلقيح"
+    ],
+    [
+     "**Prophylactic**",
+     "وقائي"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Therapeutic**",
+     "علاجي"
+    ],
+    [
+     "**Antigen**",
+     "المستضد"
+    ],
+    [
+     "**Adjuvant**",
+     "المادة المساعدة / المعزّز المناعي"
+    ],
+    [
+     "**Recombinant protein**",
+     "البروتين المأشوب / المهندَس وراثيًا"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 3
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Poly-protein**",
+     "البروتين المتعدّد / المندمج"
+    ],
+    [
+     "**DNA vaccine**",
+     "لقاح الدنا / اللقاح الجيني"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 3
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Dendritic cell**",
+     "الخلية التغصّنية / المتغصّنة"
+    ],
+    [
+     "**Antigen-presenting cell (APC)**",
+     "الخلية العارضة للمستضد"
+    ],
+    [
+     "**Subunit vaccine**",
+     "لقاح الوحدات الفرعية"
+    ],
+    [
+     "**Live attenuated**",
+     "حيّ موهَن / مضعَّف"
+    ],
+    [
+     "**Avirulent**",
+     "غير ضارٍ / عديم الضراوة"
+    ],
+    [
+     "**Virulent phenotype**",
+     "النمط الظاهري الضاري"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Reversion**",
+     "الرجوع / الارتداد إلى الضراوة"
+    ],
+    [
+     "**Potency**",
+     "الفاعلية / القوّة"
+    ],
+    [
+     "**Pathogenesis**",
+     "الإمراضية / آلية إحداث المرض"
+    ],
+    [
+     "**Sand fly (Phlebotomus)**",
+     "ذبابة الرمل / الفاصدة"
+    ],
+    [
+     "**Salivary protein**",
+     "البروتين اللعابي"
+    ],
+    [
+     "**Clinical trial**",
+     "التجربة السريرية"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Why a vaccine is feasible",
+    "topic_ar": "لماذا اللقاح ممكن"
+   },
+   {
+    "en": "Leishmaniasis is considered a good candidate for a vaccination program because:",
+    "ar": "يُعدّ داء الليشمانيات مرشّحًا جيدًا لبرنامج التلقيح لأن:",
+    "options": [
+     [
+      "It is not transmitted by a vector",
+      "لا ينتقل بناقل"
+     ],
+     [
+      "It has no animal reservoir",
+      "ليس له مستودع حيواني"
+     ],
+     [
+      "Its life cycle is relatively uncomplicated and recovery gives resistance",
+      "دورة حياته غير معقّدة نسبيًا والشفاء يعطي مقاومة"
+     ],
+     [
+      "It is always fatal",
+      "مميت دائمًا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Recovery from a primary leishmanial infection makes the host:",
+    "ar": "الشفاء من العدوى الليشمانية الأولية يجعل المضيف:",
+    "options": [
+     [
+      "More susceptible",
+      "أكثر قابلية للإصابة"
+     ],
+     [
+      "Resistant to subsequent infections",
+      "مقاومًا للإصابات اللاحقة"
+     ],
+     [
+      "A permanent carrier",
+      "حاملًا دائمًا"
+     ],
+     [
+      "Unable to make antibodies",
+      "غير قادر على تكوين الأضداد"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The main animal model used in leishmanial vaccine studies is the:",
+    "ar": "النموذج الحيواني الرئيسي في دراسات لقاح الليشمانيا:",
+    "options": [
+     [
+      "Rabbit",
+      "الأرنب"
+     ],
+     [
+      "Dog",
+      "الكلب"
+     ],
+     [
+      "Monkey",
+      "القرد"
+     ],
+     [
+      "Mouse",
+      "الفأر"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Experimental leishmanial vaccines that protect in animals have, in the field, been:",
+    "ar": "اللقاحات الليشمانية التجريبية التي تحمي في الحيوانات كانت ميدانيًا:",
+    "options": [
+     [
+      "Disappointing",
+      "مخيّبة للآمال"
+     ],
+     [
+      "Never tested",
+      "لم تُختبر أبدًا"
+     ],
+     [
+      "Better than in animals",
+      "أفضل منها في الحيوانات"
+     ],
+     [
+      "Highly successful",
+      "ناجحة جدًا"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Leishmania vaccine development is mostly hampered by:",
+    "ar": "يعوق تطوير لقاح الليشمانيا أساسًا:",
+    "options": [
+     [
+      "Lack of patients",
+      "قلّة المرضى"
+     ],
+     [
+      "The high cost of mice",
+      "ارتفاع كلفة الفئران"
+     ],
+     [
+      "Absence of any antigen",
+      "عدم وجود أيّ مستضد"
+     ],
+     [
+      "Inadequate knowledge of pathogenesis and complex immune responses",
+      "عدم كفاية معرفة الإمراضية وتعقّد الاستجابات المناعية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Combination vaccines, CL and VL",
+    "topic_ar": "اللقاحات المركّبة والجلدية والحشوية"
+   },
+   {
+    "en": "A successful antileishmanial vaccine is highly unlikely to be based on:",
+    "ar": "من المستبعد جدًا أن يقوم اللقاح الناجح المضادّ لليشمانيا على:",
+    "options": [
+     [
+      "Multiple antigens",
+      "مستضدات متعدّدة"
+     ],
+     [
+      "An adjuvant",
+      "مادة مساعدة"
+     ],
+     [
+      "A single antigen",
+      "مستضد واحد"
+     ],
+     [
+      "A poly-protein",
+      "بروتين متعدّد"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In the combination “Leish-111f and MPL–SE”, MPL–SE is the:",
+    "ar": "في التركيب “`Leish-111f` و`MPL–SE`” يكون `MPL–SE`:",
+    "options": [
+     [
+      "Adjuvant",
+      "المادة المساعدة"
+     ],
+     [
+      "Parasite strain",
+      "سلالة الطفيلي"
+     ],
+     [
+      "Second antigen",
+      "المستضد الثاني"
+     ],
+     [
+      "Diluent only",
+      "مجرّد مُذيب"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "An adjuvant is a substance that:",
+    "ar": "المادة المساعدة مادة:",
+    "options": [
+     [
+      "Replaces the antigen",
+      "تحلّ محلّ المستضد"
+     ],
+     [
+      "Strengthens and prolongs the immune response",
+      "تقوّي الاستجابة المناعية وتطيلها"
+     ],
+     [
+      "Preserves the vaccine only",
+      "تحفظ اللقاح فقط"
+     ],
+     [
+      "Kills the parasite in the host",
+      "تقتل الطفيلي في المضيف"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The majority of experimental vaccines were tested against:",
+    "ar": "اختُبرت أغلب اللقاحات التجريبية ضدّ:",
+    "options": [
+     [
+      "The visceral form in dogs",
+      "الشكل الحشوي في الكلاب"
+     ],
+     [
+      "The cutaneous form in the mouse model",
+      "الشكل الجلدي في نموذج الفأر"
+     ],
+     [
+      "Mucocutaneous disease in man",
+      "الداء الجلدي المخاطي في الإنسان"
+     ],
+     [
+      "Trypanosomiasis",
+      "داء المثقّبيات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Compared with a CL vaccine, the demands for a VL vaccine are:",
+    "ar": "مقارنةً بلقاح الجلدية، فإن متطلّبات لقاح الحشوية:",
+    "options": [
+     [
+      "Identical",
+      "متطابقة"
+     ],
+     [
+      "Not studied at all",
+      "غير مدروسة إطلاقًا"
+     ],
+     [
+      "Much simpler",
+      "أبسط بكثير"
+     ],
+     [
+      "More complex",
+      "أعقد"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "It is believed that human VL trials will:",
+    "ar": "يُعتقد أن تجارب الحشوية في الإنسان:",
+    "options": [
+     [
+      "Replace CL studies",
+      "ستحلّ محلّ دراسات الجلدية"
+     ],
+     [
+      "Never be done",
+      "لن تُجرى أبدًا"
+     ],
+     [
+      "Follow any successful CL immunization program",
+      "ستتبع أيّ برنامج تمنيع ناجح للجلدية"
+     ],
+     [
+      "Precede all animal work",
+      "ستسبق كل العمل الحيواني"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Generations of vaccines",
+    "topic_ar": "أجيال اللقاحات"
+   },
+   {
+    "en": "First generation leishmanial vaccines are composed of:",
+    "ar": "تتكوّن لقاحات الجيل الأول لليشمانيا من:",
+    "options": [
+     [
+      "Whole killed parasites",
+      "طفيليات كاملة مقتولة"
+     ],
+     [
+      "DNA plasmids",
+      "بلازميدات دنا"
+     ],
+     [
+      "Dendritic cells",
+      "خلايا تغصّنية"
+     ],
+     [
+      "Recombinant proteins",
+      "بروتينات مأشوبة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "First generation vaccines were proposed as:",
+    "ar": "اقتُرحت لقاحات الجيل الأول بوصفها:",
+    "options": [
+     [
+      "Prophylactic only",
+      "وقائية فقط"
+     ],
+     [
+      "Both prophylactic and therapeutic vaccines",
+      "لقاحات وقائية وعلاجية معًا"
+     ],
+     [
+      "Therapeutic only",
+      "علاجية فقط"
+     ],
+     [
+      "Diagnostic reagents",
+      "كواشف تشخيصية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The results of whole-cell killed vaccines have been:",
+    "ar": "كانت نتائج لقاحات الخلايا الكاملة المقتولة:",
+    "options": [
+     [
+      "Completely protective",
+      "واقية تمامًا"
+     ],
+     [
+      "Better than all others",
+      "أفضل من كل غيرها"
+     ],
+     [
+      "Inconclusive, with variable potency",
+      "غير حاسمة، وفاعليتها متفاوتة"
+     ],
+     [
+      "Never published",
+      "لم تُنشر أبدًا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which is NOT a second generation vaccine component?",
+    "ar": "أيّ مما يأتي ليس من مكوّنات لقاحات الجيل الثاني؟",
+    "options": [
+     [
+      "Whole killed parasites",
+      "الطفيليات الكاملة المقتولة"
+     ],
+     [
+      "DNA vaccines",
+      "لقاحات الدنا"
+     ],
+     [
+      "Recombinant proteins",
+      "البروتينات المأشوبة"
+     ],
+     [
+      "Dendritic cells loaded with peptides",
+      "خلايا تغصّنية محمّلة ببيبتيدات"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The only second generation vaccine assessed in clinical trials is:",
+    "ar": "اللقاح الوحيد من الجيل الثاني المقيَّم في التجارب السريرية:",
+    "options": [
+     [
+      "MPL–SE",
+      "`MPL–SE`"
+     ],
+     [
+      "LJM19",
+      "`LJM19`"
+     ],
+     [
+      "LeIF alone",
+      "`LeIF` وحده"
+     ],
+     [
+      "Leish-111f",
+      "`Leish-111f`"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Leish-111f and sand fly saliva",
+    "topic_ar": "لقاح Leish-111f ولعاب ذبابة الرمل"
+   },
+   {
+    "en": "Leish-111f is:",
+    "ar": "لقاح `Leish-111f`:",
+    "options": [
+     [
+      "A killed whole parasite",
+      "طفيلي كامل مقتول"
+     ],
+     [
+      "A single poly-protein of three fused molecules",
+      "بروتين متعدّد واحد من ثلاثة جزيئات مندمجة"
+     ],
+     [
+      "A live attenuated strain",
+      "سلالة حيّة موهَنة"
+     ],
+     [
+      "A salivary protein",
+      "بروتين لعابي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which molecule of Leish-111f comes from L. braziliensis?",
+    "ar": "أيّ جزيء من `Leish-111f` مصدره الليشمانيا البرازيلية؟",
+    "options": [
+     [
+      "TSA",
+      "`TSA`"
+     ],
+     [
+      "LmSTI1",
+      "`LmSTI1`"
+     ],
+     [
+      "LeIF",
+      "`LeIF`"
+     ],
+     [
+      "LJM19",
+      "`LJM19`"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "TSA in Leish-111f stands for:",
+    "ar": "يرمز `TSA` في `Leish-111f` إلى:",
+    "options": [
+     [
+      "Thiol-specific antibody",
+      "ضدّ نوعي للثايول"
+     ],
+     [
+      "Total soluble antigen",
+      "مستضد ذائب كلّي"
+     ],
+     [
+      "Trypanosoma surface antigen",
+      "مستضد سطحي للمثقّبة"
+     ],
+     [
+      "Thiol-specific antioxidant",
+      "مضادّ أكسدة نوعي للثايول"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Sand fly saliva contains molecules that:",
+    "ar": "يحتوي لعاب ذبابة الرمل جزيئات:",
+    "options": [
+     [
+      "Interfere with the host immune response",
+      "تتداخل مع استجابة المضيف المناعية"
+     ],
+     [
+      "Have no effect on immunity",
+      "لا تؤثّر في المناعة"
+     ],
+     [
+      "Replace the antigen",
+      "تحلّ محلّ المستضد"
+     ],
+     [
+      "Kill the parasite",
+      "تقتل الطفيلي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The salivary protein shown to protect hamsters from visceral leishmaniasis is:",
+    "ar": "البروتين اللعابي الذي ثبت أنه يحمي الهامستر من الليشمانيا الحشوية:",
+    "options": [
+     [
+      "LmSTI1",
+      "`LmSTI1`"
+     ],
+     [
+      "LJM19",
+      "`LJM19`"
+     ],
+     [
+      "TSA",
+      "`TSA`"
+     ],
+     [
+      "MPL–SE",
+      "`MPL–SE`"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Immunity against sand fly saliva components may:",
+    "ar": "المناعة ضدّ مكوّنات لعاب ذبابة الرمل قد:",
+    "options": [
+     [
+      "Prevent the fly from biting",
+      "تمنع الذبابة من اللدغ"
+     ],
+     [
+      "Abolish all immunity",
+      "تلغي كل مناعة"
+     ],
+     [
+      "Cause the disease",
+      "تسبّب المرض"
+     ],
+     [
+      "Indirectly enhance anti-leishmanial immunity",
+      "تعزّز بصورة غير مباشرة المناعة المضادّة لليشمانيا"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Live attenuated vaccines",
+    "topic_ar": "اللقاحات الحيّة الموهَنة"
+   },
+   {
+    "en": "Live attenuated parasites are advantageous because they:",
+    "ar": "تمتاز الطفيليات الحيّة الموهَنة لأنها:",
+    "options": [
+     [
+      "Are cheaper to store",
+      "أرخص في الخزن"
+     ],
+     [
+      "Need no adjuvant at all",
+      "لا تحتاج مادة مساعدة إطلاقًا"
+     ],
+     [
+      "Mimic the natural infection and deliver a complete spectrum of antigens",
+      "تحاكي العدوى الطبيعية وتوصل طيفًا كاملًا من المستضدات"
+     ],
+     [
+      "Contain only one antigen",
+      "تحتوي مستضدًا واحدًا فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Live attenuated parasites deliver antigens to the:",
+    "ar": "توصل الطفيليات الحيّة الموهَنة المستضدات إلى:",
+    "options": [
+     [
+      "Antigen-presenting cells",
+      "الخلايا العارضة للمستضد"
+     ],
+     [
+      "Platelets",
+      "الصفيحات"
+     ],
+     [
+      "Hepatocytes only",
+      "خلايا الكبد فقط"
+     ],
+     [
+      "Red blood cells",
+      "كريات الدم الحمر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Compared with a subunit vaccine, a live attenuated vaccine in principle gives:",
+    "ar": "مقارنةً بلقاح الوحدات الفرعية، يعطي اللقاح الحيّ الموهَن مبدئيًا:",
+    "options": [
+     [
+      "No response",
+      "لا استجابة"
+     ],
+     [
+      "A weaker response",
+      "استجابة أضعف"
+     ],
+     [
+      "A better immune response and better protection",
+      "استجابة مناعية أفضل وحماية أفضل"
+     ],
+     [
+      "Only antibody responses",
+      "استجابات ضدّية فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Avirulent organisms generated by a defined genetic alteration have the advantage of:",
+    "ar": "الأحياء غير الضارية المولَّدة بتغيير وراثي محدّد تمتاز بـ:",
+    "options": [
+     [
+      "Being cheaper",
+      "كونها أرخص"
+     ],
+     [
+      "Eliminating the risk of reversion to the virulent phenotype",
+      "إزالة خطر الرجوع إلى النمط الظاهري الضاري"
+     ],
+     [
+      "Needing no cold chain",
+      "عدم حاجتها إلى سلسلة التبريد"
+     ],
+     [
+      "Working without the immune system",
+      "عملها دون الجهاز المناعي"
+     ]
+    ],
+    "answer": "b"
+   }
+  ],
+  "tf": [
+   {
+    "en": "The leishmanial life cycle is relatively uncomplicated.",
+    "ar": "دورة حياة الليشمانيا غير معقّدة نسبيًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Recovery from a primary leishmanial infection leaves the host more susceptible to later infections.",
+    "ar": "الشفاء من العدوى الليشمانية الأولية يترك المضيف أكثر قابلية للإصابات اللاحقة.",
+    "answer": "F"
+   },
+   {
+    "en": "Vaccines that protected mice have also performed well in field trials.",
+    "ar": "اللقاحات التي حمت الفئران أدّت أداءً جيدًا في التجارب الميدانية أيضًا.",
+    "answer": "F"
+   },
+   {
+    "en": "A successful antileishmanial vaccine is likely to need more than one antigen.",
+    "ar": "يُرجَّح أن يحتاج اللقاح الناجح المضادّ لليشمانيا إلى أكثر من مستضد واحد.",
+    "answer": "T"
+   },
+   {
+    "en": "MPL–SE is an antigen of the Leishmania parasite.",
+    "ar": "`MPL–SE` مستضد من طفيلي الليشمانيا.",
+    "answer": "F"
+   },
+   {
+    "en": "Most experimental vaccines were tested against the cutaneous form in mice.",
+    "ar": "اختُبرت أغلب اللقاحات التجريبية ضدّ الشكل الجلدي في الفئران.",
+    "answer": "T"
+   },
+   {
+    "en": "First generation vaccines are made of whole killed parasites.",
+    "ar": "لقاحات الجيل الأول مصنوعة من طفيليات كاملة مقتولة.",
+    "answer": "T"
+   },
+   {
+    "en": "Whole-cell killed vaccines gave clear and conclusive results.",
+    "ar": "أعطت لقاحات الخلايا الكاملة المقتولة نتائج واضحة وحاسمة.",
+    "answer": "F"
+   },
+   {
+    "en": "Several second generation vaccines have reached clinical trials.",
+    "ar": "وصلت عدّة لقاحات من الجيل الثاني إلى التجارب السريرية.",
+    "answer": "F"
+   },
+   {
+    "en": "Leish-111f contains molecules from both L. major and L. braziliensis.",
+    "ar": "يحتوي `Leish-111f` جزيئات من الليشمانيا الكبرى والبرازيلية معًا.",
+    "answer": "T"
+   },
+   {
+    "en": "Sand fly salivary molecules can interfere with the host immune response.",
+    "ar": "يمكن لجزيئات لعاب ذبابة الرمل أن تتداخل مع استجابة المضيف المناعية.",
+    "answer": "T"
+   },
+   {
+    "en": "A defined genetic alteration increases the risk of reversion to virulence.",
+    "ar": "التغيير الوراثي المحدّد يزيد خطر الرجوع إلى الضراوة.",
+    "answer": "F"
+   }
+  ],
+  "traps": [
+   {
+    "en": "Leish-111f vs MPL–SE",
+    "ar": "`Leish-111f` مقابل `MPL–SE`",
+    "answer_en": "Leish-111f is the ANTIGEN (a poly-protein of three fused molecules); MPL–SE is the ADJUVANT given with it — not a second vaccine or antigen.",
+    "answer_ar": "`Leish-111f` هو **المستضد** (بروتين متعدّد من ثلاثة جزيئات مندمجة)؛ و`MPL–SE` هو **المادة المساعدة** التي تُعطى معه — لا لقاح ثانٍ ولا مستضد."
+   },
+   {
+    "en": "Three molecules, two species",
+    "ar": "ثلاثة جزيئات ونوعان",
+    "answer_en": "In Leish-111f, TSA and LmSTI1 come from L. major, but LeIF comes from L. braziliensis — do not put all three under one species.",
+    "answer_ar": "في `Leish-111f` جاء `TSA` و`LmSTI1` من **الليشمانيا الكبرى**، أما `LeIF` فمن **البرازيلية** — لا تنسب الثلاثة إلى نوع واحد."
+   },
+   {
+    "en": "Killed vs attenuated",
+    "ar": "المقتول مقابل الموهَن",
+    "answer_en": "First generation = whole KILLED parasites (dead). Live attenuated = the parasite is ALIVE but weakened — they are different approaches.",
+    "answer_ar": "الجيل الأول = طفيليات كاملة **مقتولة** (ميتة). والحيّ الموهَن = الطفيلي **حيّ** لكنه مضعَّف — وهما منهجان مختلفان."
+   },
+   {
+    "en": "CL and VL",
+    "ar": "الجلدية والحشوية",
+    "answer_en": "CL = cutaneous (skin); VL = visceral (kala-azar). The VL vaccine is the MORE demanding one, and its human trials follow CL success — not the reverse.",
+    "answer_ar": "`CL` = الجلدية؛ و`VL` = الحشوية (الكالا آزار). ولقاح **الحشوية** هو **الأصعب**، وتجاربه البشرية تتبع نجاح الجلدية — لا العكس."
+   },
+   {
+    "en": "Saliva immunity is indirect",
+    "ar": "مناعة اللعاب غير مباشرة",
+    "answer_en": "Immunity against sand fly saliva does not attack the parasite itself; it INDIRECTLY enhances anti-leishmanial immunity at the bite site.",
+    "answer_ar": "المناعة ضدّ لعاب ذبابة الرمل لا تهاجم الطفيلي نفسه؛ بل تعزّز **بصورة غير مباشرة** المناعة المضادّة لليشمانيا في موضع اللدغة."
+   },
+   {
+    "en": "Subunit ≠ better",
+    "ar": "الوحدات الفرعية ليست الأفضل",
+    "answer_en": "A subunit vaccine shows the immune system FEW antigens; the live attenuated parasite gives a COMPLETE spectrum and, in principle, better protection.",
+    "answer_ar": "لقاح الوحدات الفرعية يعرض على الجهاز المناعي **مستضدات قليلة**؛ أما الطفيلي الحيّ الموهَن فيعطي **طيفًا كاملًا** وحماية أفضل مبدئيًا."
+   }
+  ],
+  "important": [
+   {
+    "en": "Why is leishmaniasis considered a disease that can be controlled by vaccination?",
+    "ar": "لماذا يُعدّ داء الليشمانيات مرضًا يمكن السيطرة عليه بالتلقيح؟",
+    "answer_en": "Because the leishmanial life cycle is relatively uncomplicated, and because recovery from a primary infection renders the host resistant to subsequent infections — both indicate that a vaccine is feasible. Studies in animal models (mainly mice) show that protection can be achieved with various formulations, although field results have so far been disappointing.",
+    "answer_ar": "لأن دورة حياة الليشمانيا غير معقّدة نسبيًا، ولأن الشفاء من العدوى الأولية يجعل المضيف مقاومًا للإصابات اللاحقة — وكلاهما يدلّ على أن اللقاح ممكن. وتُظهر الدراسات في النماذج الحيوانية (وأساسًا الفئران) أنه يمكن تحقيق الحماية بتركيبات مختلفة، مع أن النتائج الميدانية كانت حتى الآن مخيّبة."
+   },
+   {
+    "en": "What hampers the development of a Leishmania vaccine?",
+    "ar": "ما الذي يعوق تطوير لقاح الليشمانيا؟",
+    "answer_en": "Mainly inadequate knowledge of the parasite's pathogenesis and the complexity of the immune responses needed for protection; in addition, a single antigen is highly unlikely to be enough, and the whole-cell killed vaccines were poorly defined and variable in potency.",
+    "answer_ar": "أساسًا عدم كفاية المعرفة بإمراضية الطفيلي وتعقّد الاستجابات المناعية اللازمة للحماية؛ وإضافةً إلى ذلك من المستبعد جدًا أن يكفي مستضد واحد، كما أن لقاحات الخلايا الكاملة المقتولة كانت غير محدّدة التركيب ومتفاوتة الفاعلية."
+   },
+   {
+    "en": "Compare first generation and second generation antileishmanial vaccines.",
+    "ar": "قارن بين لقاحات الجيل الأول والثاني المضادّة لليشمانيا.",
+    "answer_en": "First generation: whole killed parasites, proposed as both prophylactic and therapeutic vaccines; poorly defined and variable in potency, so the results were inconclusive. Second generation: recombinant proteins, poly-proteins, DNA vaccines or dendritic cells loaded with peptides derived from leishmanial antigens; most vaccine studies concentrate on them, but to date only Leish-111f has been assessed in clinical trials.",
+    "answer_ar": "الجيل الأول: طفيليات كاملة مقتولة، اقتُرحت لقاحات وقائية وعلاجية معًا؛ وكانت غير محدّدة التركيب ومتفاوتة الفاعلية فجاءت النتائج غير حاسمة. الجيل الثاني: بروتينات مأشوبة وبروتينات متعدّدة ولقاحات دنا أو خلايا تغصّنية محمّلة ببيبتيدات مشتقّة من مستضدات الليشمانيا؛ وتتركّز عليه معظم الدراسات، لكن `Leish-111f` وحده قُيّم حتى الآن في التجارب السريرية."
+   },
+   {
+    "en": "Describe the composition of Leish-111f.",
+    "ar": "صف تركيب لقاح `Leish-111f`.",
+    "answer_en": "It is a single poly-protein composed of three fused molecules: the L. major homologue of the eukaryotic thiol-specific antioxidant (TSA), the L. major stress-inducible protein 1 (LmSTI1) and the L. braziliensis elongation and initiation factor (LeIF). It is used with a well-developed adjuvant (MPL–SE).",
+    "answer_ar": "هو بروتين متعدّد واحد مؤلَّف من ثلاثة جزيئات مندمجة: نظير الليشمانيا الكبرى لمضادّ الأكسدة النوعي للثايول (`TSA`)، وبروتين الليشمانيا الكبرى المستحثّ بالإجهاد 1 (`LmSTI1`)، وعامل الاستطالة والبدء من الليشمانيا البرازيلية (`LeIF`). ويُستعمل مع مادة مساعدة جيدة التطوير (`MPL–SE`)."
+   },
+   {
+    "en": "What is the role of sand fly saliva in leishmanial vaccination?",
+    "ar": "ما دور لعاب ذبابة الرمل في التلقيح ضدّ الليشمانيا؟",
+    "answer_en": "Sand fly saliva contains an array of molecules able to interfere with the host immune response (helping the parasite establish); therefore immunity against saliva components may indirectly enhance anti-leishmanial immunity. Recently, vector salivary proteins, in particular LJM19, were shown to protect hamsters from visceral leishmaniasis.",
+    "answer_ar": "يحتوي لعاب ذبابة الرمل مجموعة من الجزيئات القادرة على التداخل مع استجابة المضيف المناعية (فتساعد الطفيلي على التوطّن)؛ ولذلك قد تعزّز المناعة ضدّ مكوّنات اللعاب بصورة غير مباشرة المناعة المضادّة لليشمانيا. وحديثًا تبيّن أن بروتينات لعاب الناقل، ولا سيّما `LJM19`، تحمي الهامستر من الليشمانيا الحشوية."
+   },
+   {
+    "en": "Why are live attenuated Leishmania considered an alternative for vaccine development?",
+    "ar": "لماذا تُعدّ الليشمانيا الحيّة الموهَنة بديلًا لتطوير اللقاح؟",
+    "answer_en": "Because by mimicking the natural infection they deliver a complete spectrum of antigens to the antigen-presenting cells, which in principle leads to a better immune response and better protection than a subunit vaccine. Avirulent organisms can be generated by a defined genetic alteration, which eliminates the risk of the parasite reverting to the virulent phenotype.",
+    "answer_ar": "لأنها بمحاكاتها العدوى الطبيعية توصل طيفًا كاملًا من المستضدات إلى الخلايا العارضة للمستضد، ممّا يؤدّي مبدئيًا إلى استجابة مناعية أفضل وحماية أفضل من لقاح الوحدات الفرعية. ويمكن توليد أحياء غير ضارية بتغيير وراثي محدّد يزيل خطر رجوع الطفيلي إلى النمط الظاهري الضاري."
+   },
+   {
+    "en": "List the properties of an ideal vaccine.",
+    "ar": "عدّد صفات اللقاح المثالي.",
+    "answer_en": "BIOS answer (the week's text does not list them): safe — does not cause the disease or serious side effects; effective (immunogenic) — strong protection in most vaccinated people; long-lasting — immunological memory with few or no boosters; broadly protective — covers the species and strains of the area; stable and cheap — easy transport and storage in poor endemic areas; easy to give — few doses and a simple route; and easy to distinguish from natural infection in the laboratory.",
+    "answer_ar": "جواب `BIOS` (نصّ الأسبوع لا يعدّدها): آمن — لا يسبّب المرض ولا آثارًا جانبية خطيرة؛ وفعّال (محفّز للمناعة) — حماية قوية لمعظم الملقَّحين؛ وطويل الأمد — ذاكرة مناعية بجرعات معزّزة قليلة أو بلا؛ وواسع الحماية — يغطّي أنواع المنطقة وسلالاتها؛ وثابت ورخيص — سهل النقل والخزن في المناطق المتوطّنة الفقيرة؛ وسهل الإعطاء — جرعات قليلة وطريق بسيط؛ ويسهل تمييزه عن العدوى الطبيعية في المختبر."
+   }
+  ]
+ }
+}
