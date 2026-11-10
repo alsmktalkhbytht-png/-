@@ -1,0 +1,388 @@
+---
+source: BIOS-Obsidian/tools/scripts/imm2/q2.py
+handouts: [immunology-lec2-mcq]
+saved: 2026-11-10
+tags: [bios, code]
+---
+# imm2/q2.py
+
+Generator script — writes the handout's `lecture.json`.
+
+Handouts: [[06 فهرس الملازم#immunology-lec2-mcq|immunology-lec2-mcq]]
+
+```python
+import sys, json, os
+sys.path.insert(0, "/tmp/claude-0/-home-user--/67d83c9a-7b0e-5ae5-b52b-cd659ab074ab/scratchpad/imm456")
+from ci import *            # Q TF TR IM P balance
+sys.path.insert(0, "/tmp/claude-0/-home-user--/67d83c9a-7b0e-5ae5-b52b-cd659ab074ab/scratchpad"); from bidi import ltr_all
+
+# Immunology theory lecture 2 (stage 3, د. أحمد داود) — The Immune System: Cells, Organs and Defense.
+# Source: Lec._2_The-Immune-System-Cells-Organs-and-Defense.pptx (25 slides). QUESTIONS ONLY — MCQ only, same style
+# as lecture 1 (user, 2026-11-10): answer under the options (answers_inline) + one short line on why that option.
+O = P
+FOLDER = "immunology-lec2-mcq"
+W = lambda q, en, ar: dict(q, note_en=en, note_ar=ar)      # why this option — one short line
+
+mcq = [
+ # ───────────────────────── 1. haematopoiesis
+ {"topic_en": "Haematopoiesis", "topic_ar": "تكوين الدم"},
+ W(Q("All blood and immune cells originate from:", "تنشأ كل خلايا الدم والمناعة من:",
+     O(("Hematopoietic stem cells (HSCs)", "الخلايا الجذعية المكوّنة للدم (`HSCs`)"), ("Mature lymphocytes", "اللمفاويات الناضجة"), ("Epithelial cells", "الخلايا الظهارية"), ("Plasma cells", "الخلايا البلازمية")), "a"),
+   "HSCs are multipotent and give rise to every immune cell type.", "الخلايا الجذعية متعدّدة القدرات وتنشأ منها كل أنواع الخلايا المناعية."),
+ W(Q("Haematopoietic stem cells reside in the:", "توجد الخلايا الجذعية المكوّنة للدم في:",
+     O(("Thymus", "التوتة"), ("Bone marrow", "نقي العظم"), ("Spleen", "الطحال"), ("Lymph nodes", "العقد اللمفية")), "b"),
+   "The bone marrow is the primary site of haematopoiesis.", "نقي العظم هو الموضع الأساسي لتكوين الدم."),
+ W(Q("Which cytokines are named in the lecture as governing haematopoiesis?", "ما السيتوكينات التي تذكرها المحاضرة ضابطةً لتكوين الدم؟",
+     O(("IL-10, TGF-β and IL-35", "`IL-10` و`TGF-β` و`IL-35`"), ("TNF-α and IL-1β only", "`TNF-α` و`IL-1β` فقط"), ("IL-3, SCF and IL-6", "`IL-3` و`SCF` و`IL-6`"), ("Perforin and granzyme", "البرفورين والغرانزيم")), "c"),
+   "They regulate the tightly controlled differentiation of HSCs.", "وهي تضبط تمايز الخلايا الجذعية الدقيق التنظيم."),
+ W(Q("The stage between the HSC and the mature immune cell is the:", "الطور الواقع بين الخلية الجذعية والخلية المناعية الناضجة هو:",
+     O(("Plasma cell", "الخلية البلازمية"), ("Memory cell", "خلية الذاكرة"), ("Germinal centre", "المركز الإنتاشي"), ("Myeloid or lymphoid progenitor", "السليفة النقوية أو اللمفية")), "d"),
+   "This is the step of lineage commitment.", "وهي خطوة الالتزام بالسلالة."),
+ W(Q("A multipotent HSC is best described as a cell that can:", "الخلية الجذعية متعدّدة القدرات يُوصف بأنها خلية تستطيع:",
+     O(("Give rise to every cellular component of the immune system", "أن تنشأ منها كل مكوّنات الجهاز المناعي الخلوية"), ("Produce antibodies only", "إنتاج الأضداد فقط"), ("Form red cells only", "تكوين الكريات الحمر فقط"), ("Present antigen only", "عرض المستضد فقط")), "a"),
+   "Multipotency is what makes one cell the origin of all the lineages.", "تعدّد القدرات هو ما يجعل خلية واحدة أصلًا لكل السلالات."),
+
+ # ───────────────────────── 2. myeloid lineage
+ {"topic_en": "The myeloid lineage", "topic_ar": "السلالة النقوية"},
+ W(Q("Granulocytes include:", "تشمل المحبّبات:",
+     O(("B cells, T cells and NK cells", "الخلايا البائية والتائية والقاتلة"), ("Neutrophils, eosinophils and basophils", "العَدِلات والحمضات والأسسات"), ("Monocytes and macrophages", "الوحيدات والبلاعم"), ("Plasma cells and memory cells", "الخلايا البلازمية وخلايا الذاكرة")), "b"),
+   "They are rapid responders with granule-packed cytoplasm.", "وهي مستجيبات سريعة سيتوبلازمها مكتظّ بالحبيبات."),
+ W(Q("Monocytes are described as circulating precursors that migrate into tissues and differentiate into:", "تُوصف الوحيدات بأنها سلائف دائرة تهاجر إلى الأنسجة وتتمايز إلى:",
+     O(("Plasma cells and memory B cells", "خلايا بلازمية وبائية ذاكرة"), ("Neutrophils and eosinophils", "عَدِلات وحمضات"), ("Macrophages and dendritic cells", "بلاعم وخلايا تغصّنية"), ("T helper and cytotoxic T cells", "خلايا تائية مساعدة وسامّة")), "c"),
+   "The monocyte is the blood form; the macrophage is its tissue form.", "فالوحيدة هي الشكل الدموي، والبلعم شكلها النسيجي."),
+ W(Q("Tissue-resident sentinels that release histamine and cytokines to initiate inflammation are:", "الخفراء المقيمون في الأنسجة الذين يطلقون الهستامين والسيتوكينات لبدء الالتهاب هم:",
+     O(("NK cells", "الخلايا القاتلة الطبيعية"), ("Plasma cells", "الخلايا البلازمية"), ("Dendritic cells", "الخلايا التغصّنية"), ("Mast cells", "الخلايا البدينة")), "d"),
+   "Histamine release is the mast cell's signature.", "فإطلاق الهستامين هو سمة الخلية البدينة."),
+ W(Q("The myeloid lineage is described in the lecture as the:", "تصف المحاضرة السلالة النقوية بأنها:",
+     O(("First responders", "المستجيبون الأوائل"), ("Adaptive core", "النواة التكيّفية"), ("Memory compartment", "حجرة الذاكرة"), ("Training ground", "ميدان التدريب")), "a"),
+   "The adaptive core is the lymphoid lineage.", "أما النواة التكيّفية فهي السلالة اللمفية."),
+
+ # ───────────────────────── 3. lymphoid lineage
+ {"topic_en": "The lymphoid lineage", "topic_ar": "السلالة اللمفية"},
+ W(Q("B cells mediate which type of immunity?", "تتوسّط الخلايا البائية أيّ نوع من المناعة؟",
+     O(("Cell-mediated immunity", "المناعة الخلوية"), ("Humoral immunity", "المناعة الخلطية"), ("Innate immunity only", "المناعة الفطرية فقط"), ("Mucosal barrier immunity only", "مناعة الحاجز المخاطي فقط")), "b"),
+   "They produce antibodies and form plasma cells on activation.", "فهي تنتج الأضداد وتكوّن خلايا بلازمية عند التنشيط."),
+ W(Q("Which cells drive cell-mediated immunity?", "أيّ الخلايا تقود المناعة الخلوية؟",
+     O(("B cells", "الخلايا البائية"), ("Mast cells", "الخلايا البدينة"), ("T cells", "الخلايا التائية"), ("Basophils", "الأسسات")), "c"),
+   "Helper T cells coordinate while cytotoxic T cells eliminate infected cells.", "فالمساعدة تنسّق والسامّة تزيل الخلايا المصابة."),
+ W(Q("NK cells are classified in the lecture as:", "تصنّف المحاضرة الخلايا القاتلة الطبيعية بأنها:",
+     O(("Myeloid granulocytes", "محبّبات نقوية"), ("Plasma cells", "خلايا بلازمية"), ("Antigen-presenting cells", "خلايا عارضة للمستضد"), ("Innate lymphocytes", "لمفاويات فطرية")), "d"),
+   "They are lymphoid in origin but act without prior sensitization.", "فأصلها لمفي لكنها تعمل دون تحسيس مسبق."),
+ W(Q("NK cells destroy:", "تدمّر الخلايا القاتلة الطبيعية:",
+     O(("Virus-infected and tumour cells", "الخلايا المصابة بالفيروسات والخلايا الورمية"), ("Red blood cells only", "كريات الدم الحمر فقط"), ("Only extracellular bacteria", "البكتيريا خارج الخلوية فقط"), ("Plasma cells", "الخلايا البلازمية")), "a"),
+   "They provide rapid surveillance without prior sensitization.", "فهي تؤمّن مراقبة سريعة دون تحسيس مسبق."),
+
+ # ───────────────────────── 4. phagocytosis
+ {"topic_en": "Phagocytosis", "topic_ar": "البلعمة"},
+ W(Q("Phagocytosis is the principal mechanism by which the immune system:", "البلعمة هي الآلية الرئيسية التي بها يقوم الجهاز المناعي بـ:",
+     O(("Produces antibodies", "إنتاج الأضداد"), ("Physically eliminates pathogens, dead cells and debris", "الإزالة الفيزيائية للممرضات والخلايا الميتة والحطام"), ("Stores memory", "خزن الذاكرة"), ("Recirculates lymphocytes", "إعادة تدوير اللمفاويات")), "b"),
+   "It is physical removal, not chemical neutralization.", "فهي إزالة فيزيائية لا تعادل كيميائي."),
+ W(Q("The dominant phagocytes during acute inflammation are:", "البلعميات السائدة أثناء الالتهاب الحادّ هي:",
+     O(("Neutrophils", "العَدِلات"), ("Plasma cells", "الخلايا البلازمية"), ("NK cells", "الخلايا القاتلة"), ("B cells", "الخلايا البائية")), "a"),
+   "Macrophages take over in chronic inflammation.", "أما البلاعم فتتولّى في الالتهاب المزمن."),
+ W(Q("Macrophages bridge innate and adaptive immunity because they act as:", "تربط البلاعم المناعة الفطرية بالتكيّفية لأنها تعمل:",
+     O(("Granulocytes", "محبّبات"), ("Stem cells", "خلايا جذعية"), ("Professional antigen-presenting cells (APCs)", "خلايا عارضة للمستضد محترفة"), ("Memory cells", "خلايا ذاكرة")), "c"),
+   "They phagocytose and then present the antigen to T cells.", "فهي تبلع ثم تعرض المستضد على الخلايا التائية."),
+ W(Q("The correct order of the four steps of phagocytosis is:", "الترتيب الصحيح لخطوات البلعمة الأربع:",
+     O(("Opsonization → recognition → destruction → internalization", "تطهية ← تعرّف ← تدمير ← ابتلاع"), ("Internalization → recognition → opsonization → destruction", "ابتلاع ← تعرّف ← تطهية ← تدمير"), ("Destruction → internalization → opsonization → recognition", "تدمير ← ابتلاع ← تطهية ← تعرّف"), ("Recognition → opsonization → internalization → destruction", "تعرّف ← تطهية ← ابتلاع ← تدمير")), "d"),
+   "The pathogen must be recognized and coated before it can be engulfed and digested.", "فيجب التعرّف على الممرض وتغليفه قبل ابتلاعه وهضمه."),
+ W(Q("In the recognition step, PRRs detect:", "في خطوة التعرّف تكشف مستقبلات الأنماط:",
+     O(("Conserved microbial patterns (PAMPs) on pathogen surfaces", "الأنماط الميكروبية المحفوظة (`PAMPs`) على أسطح الممرضات"), ("Self-MHC molecules", "جزيئات `MHC` الذاتية"), ("Antibody constant regions", "المناطق الثابتة للأضداد"), ("Host DNA", "دنا المضيف")), "a"),
+   "PRRs are the innate system's sensors of microbial structures.", "فهي حسّاسات الجهاز الفطري للتراكيب الميكروبية."),
+ W(Q("Opsonization enhances phagocyte binding by coating the pathogen with:", "تعزّز التطهية ارتباط البلعم بتغليف الممرض بـ:",
+     O(("Lysozyme", "الليزوزيم"), ("Antibodies and complement fragment C3b", "الأضداد وشظيّة المتمّم `C3b`"), ("Histamine", "الهستامين"), ("Perforin", "البرفورين")), "b"),
+   "Opsonins act as handles the phagocyte can grip.", "فالطواهي تعمل مقابض يمسك بها البلعم."),
+ W(Q("The vacuole formed when the membrane engulfs the pathogen is the:", "الفجوة التي تتكوّن عند ابتلاع الغشاء للممرض تُسمّى:",
+     O(("Lysosome", "الجسيم الحالّ"), ("Nucleus", "النواة"), ("Phagosome", "الجسيم البلعمي"), ("Germinal centre", "المركز الإنتاشي")), "c"),
+   "It later fuses with the lysosome to destroy the pathogen.", "ويندمج لاحقًا مع الجسيم الحالّ لتدمير الممرض."),
+ W(Q("Destruction of the ingested pathogen follows fusion with lysosomes, which release:", "يلي تدميرَ الممرض المبتلع اندماجٌ مع الجسيمات الحالّة التي تطلق:",
+     O(("Antibodies", "الأضداد"), ("Interferons", "الإنترفيرونات"), ("Chemokines", "الكيموكينات"), ("Lytic enzymes and reactive oxygen species", "إنزيمات حالّة وأنواع أكسجين فعّالة")), "d"),
+   "This is the killing step inside the phagolysosome.", "وهذه خطوة القتل داخل الجسيم البلعمي الحالّ."),
+
+ # ───────────────────────── 5. B lymphocytes
+ {"topic_en": "B lymphocytes", "topic_ar": "اللمفاويات البائية"},
+ W(Q("The B cell receptor (BCR) on a naïve B cell is:", "مستقبل الخلية البائية على الخلية الساذجة هو:",
+     O(("Membrane-bound immunoglobulin (IgM/IgD)", "غلوبيولين مناعي مرتبط بالغشاء (`IgM/IgD`)"), ("A T cell receptor", "مستقبل خلية تائية"), ("An MHC-II molecule", "جزيء `MHC-II`"), ("A complement receptor", "مستقبل للمتمّم")), "a"),
+   "Naïve B cells display membrane-bound IgM and IgD.", "فالخلايا البائية الساذجة تعرض `IgM` و`IgD` مرتبطين بالغشاء."),
+ W(Q("Full B cell activation requires antigen encounter plus:", "يحتاج التنشيط الكامل للخلية البائية لقاء المستضد مع:",
+     O(("Complement lysis", "تحلّل بالمتمّم"), ("T helper cell co-stimulation", "تنبيه مشارك من الخلية التائية المساعدة"), ("Phagocytosis by neutrophils", "بلعمة بالعَدِلات"), ("NK cell contact", "تماسّ مع الخلية القاتلة")), "b"),
+   "T help is the second signal for B cell activation.", "فمساعدة الخلية التائية هي الإشارة الثانية لتنشيط البائية."),
+ W(Q("Activated B cells proliferate in:", "تتكاثر الخلايا البائية المنشّطة في:",
+     O(("The thymus", "التوتة"), ("The red pulp", "اللبّ الأحمر"), ("Germinal centres", "المراكز الإنتاشية"), ("The bone marrow sinusoids", "جيوب نقي العظم")), "c"),
+   "Germinal centres form inside the B cell follicles.", "وتتكوّن المراكز الإنتاشية داخل حويصلات الخلايا البائية."),
+ W(Q("The prolific antibody-secreting cell derived from an activated B cell is the:", "الخلية الغزيرة الإفراز للأضداد المشتقّة من الخلية البائية المنشّطة هي:",
+     O(("Memory B cell", "الخلية البائية الذاكرة"), ("Naïve B cell", "الخلية البائية الساذجة"), ("Dendritic cell", "الخلية التغصّنية"), ("Plasma cell", "الخلية البلازمية")), "d"),
+   "It can produce thousands of immunoglobulin molecules per second.", "وتستطيع إنتاج آلاف جزيئات الغلوبيولين المناعي في الثانية."),
+ W(Q("Memory B cells are important because they:", "تهمّ الخلايا البائية الذاكرة لأنها:",
+     O(("Persist for a rapid secondary (recall) response", "تبقى من أجل استجابة ثانوية سريعة"), ("Secrete antibodies continuously for life", "تفرز الأضداد باستمرار مدى الحياة"), ("Present antigen on MHC-I only", "تعرض المستضد على `MHC-I` فقط"), ("Kill infected cells directly", "تقتل الخلايا المصابة مباشرةً")), "a"),
+   "They are long-lived and respond faster on re-exposure.", "فهي طويلة العمر وتستجيب أسرع عند التعرّض الثاني."),
+ W(Q("The correct developmental sequence of a B cell after antigen encounter is:", "التسلسل الصحيح لتطوّر الخلية البائية بعد لقاء المستضد:",
+     O(("Plasma cell → activated B → naïve B", "خلية بلازمية ← بائية منشّطة ← بائية ساذجة"), ("Naïve B → activated B → plasma cell / memory B", "بائية ساذجة ← بائية منشّطة ← خلية بلازمية / بائية ذاكرة"), ("Memory B → naïve B → plasma cell", "بائية ذاكرة ← بائية ساذجة ← خلية بلازمية"), ("Activated B → naïve B → memory B", "بائية منشّطة ← بائية ساذجة ← بائية ذاكرة")), "b"),
+   "Activation comes first; plasma and memory cells are the end products.", "فالتنشيط أولًا، والخلايا البلازمية والذاكرة هي النواتج النهائية."),
+
+ # ───────────────────────── 6. T lymphocytes
+ {"topic_en": "T lymphocytes", "topic_ar": "اللمفاويات التائية"},
+ W(Q("All T cells recognize antigen through their:", "تتعرّف كل الخلايا التائية على المستضد عبر:",
+     O(("B cell receptor", "مستقبل الخلية البائية"), ("Fc receptor", "مستقبل `Fc`"), ("T cell receptor (TCR)", "مستقبل الخلية التائية (`TCR`)"), ("Complement receptor", "مستقبل المتمّم")), "c"),
+   "The TCR is specific for processed peptides displayed on MHC.", "و`TCR` نوعي للببتيدات المعالَجة المعروضة على `MHC`."),
+ W(Q("T helper cells are identified by the surface marker:", "تُعرَف الخلايا التائية المساعدة بالواسم السطحي:",
+     O(("CD8", "`CD8`"), ("CD19", "`CD19`"), ("CD16", "`CD16`"), ("CD4", "`CD4`")), "d"),
+   "CD8 instead marks cytotoxic T cells.", "أما `CD8` فيميّز الخلايا التائية السامّة."),
+ W(Q("Cytokines secreted by CD4⁺ T helper cells include:", "من السيتوكينات التي تفرزها الخلايا `CD4⁺` المساعدة:",
+     O(("IL-2, IL-4 and IFN-γ", "`IL-2` و`IL-4` و`IFN-γ`"), ("Perforin and granzyme", "البرفورين والغرانزيم"), ("Histamine and heparin", "الهستامين والهيبارين"), ("C3b and C5a", "`C3b` و`C5a`")), "a"),
+   "Through them the helper cell activates B cells, CTLs and macrophages.", "وبها تنشّط الخلية المساعدة البائية والسامّة والبلاعم."),
+ W(Q("The lecture calls the CD4⁺ T helper cell the:", "تسمّي المحاضرة الخلية التائية المساعدة `CD4⁺`:",
+     O(("Executioner of infected cells", "منفّذة إعدام الخلايا المصابة"), ("Central coordinator of the adaptive response", "المنسّق المركزي للاستجابة التكيّفية"), ("Innate sentinel", "الخفير الفطري"), ("Antibody factory", "مصنع الأضداد")), "b"),
+   "It orchestrates the whole adaptive response.", "فهي التي تنظّم الاستجابة التكيّفية كلّها."),
+ W(Q("Cytotoxic CD8⁺ T cells kill their targets by releasing:", "تقتل الخلايا التائية السامّة `CD8⁺` أهدافها بإطلاق:",
+     O(("Antibodies", "الأضداد"), ("Histamine", "الهستامين"), ("Perforin and granzymes", "البرفورين والغرانزيمات"), ("Lysozyme", "الليزوزيم")), "c"),
+   "Perforin opens the membrane and granzymes trigger apoptosis.", "فالبرفورين يفتح الغشاء والغرانزيمات تُحدث الاستماتة."),
+ W(Q("CD8⁺ T cells recognize antigen presented on:", "تتعرّف الخلايا `CD8⁺` على المستضد المعروض على:",
+     O(("MHC-II on professional APCs only", "`MHC-II` على الخلايا العارضة المحترفة فقط"), ("Antibodies", "الأضداد"), ("Complement proteins", "بروتينات المتمّم"), ("MHC-I on all nucleated cells", "`MHC-I` على كل الخلايا ذات النواة")), "d"),
+   "That is why any infected nucleated cell can be killed.", "ولهذا يمكن قتل أيّ خلية مصابة ذات نواة."),
+ W(Q("The T cell subset that suppresses excessive responses and maintains self-tolerance is the:", "النوع التائي الذي يكبح الاستجابات المفرطة ويحفظ تحمّل الذات هو:",
+     O(("Regulatory T cell (Treg)", "الخلية التائية التنظيمية"), ("Cytotoxic T cell", "الخلية التائية السامّة"), ("Memory T cell", "الخلية التائية الذاكرة"), ("Naïve T cell", "الخلية التائية الساذجة")), "a"),
+   "Loss of this suppression leads to autoimmunity.", "وفقدان هذا الكبح يؤدّي إلى المناعة الذاتية."),
+
+ # ───────────────────────── 7. antigen presentation
+ {"topic_en": "Antigen presentation", "topic_ar": "عرض المستضد"},
+ W(Q("The professional APCs named in the lecture are primarily:", "الخلايا العارضة المحترفة التي تسمّيها المحاضرة أساسًا:",
+     O(("Neutrophils and eosinophils", "العَدِلات والحمضات"), ("Macrophages and dendritic cells", "البلاعم والخلايا التغصّنية"), ("Plasma cells and mast cells", "الخلايا البلازمية والبدينة"), ("NK cells and basophils", "الخلايا القاتلة والأسسات")), "b"),
+   "They internalize pathogens and display their peptides.", "فهما تبتلعان الممرضات وتعرضان ببتيداتها."),
+ W(Q("Professional APCs display processed peptides to CD4⁺ T helper cells on:", "تعرض الخلايا العارضة المحترفة الببتيدات المعالَجة على الخلايا `CD4⁺` بوساطة:",
+     O(("MHC-I molecules", "جزيئات `MHC-I`"), ("Immunoglobulins", "الغلوبيولينات المناعية"), ("MHC-II molecules", "جزيئات `MHC-II`"), ("Complement receptors", "مستقبلات المتمّم")), "c"),
+   "MHC-II is the pathway to helper T cells.", "فـ`MHC-II` هو المسار إلى الخلايا المساعدة."),
+ W(Q("Which cell is uniquely equipped to prime naïve T cells in lymph nodes?", "أيّ خلية مهيّأة على نحو فريد لتهيئة الخلايا التائية الساذجة في العقد اللمفية؟",
+     O(("The mast cell", "الخلية البدينة"), ("The plasma cell", "الخلية البلازمية"), ("The neutrophil", "العَدِلة"), ("The dendritic cell", "الخلية التغصّنية")), "d"),
+   "It forms the critical bridge between innate recognition and adaptive activation.",
+   "فهي الجسر الحاسم بين التعرّف الفطري والتنشيط التكيّفي."),
+ W(Q("Before presentation, the APC must first:", "قبل العرض يجب على الخلية العارضة أولًا أن:",
+     O(("Internalize the pathogen and process it into peptide fragments", "تبتلع الممرض وتعالجه إلى قطع ببتيدية"), ("Secrete antibodies against it", "تفرز أضدادًا ضدّه"), ("Lyse it with complement only", "تحلّه بالمتمّم فقط"), ("Store it unchanged", "تخزنه دون تغيير")), "a"),
+   "T cells only see processed peptides, never whole pathogens.", "فالخلايا التائية لا ترى إلّا ببتيدات معالَجة لا ممرضات كاملة."),
+
+ # ───────────────────────── 8. primary lymphoid organs
+ {"topic_en": "Primary lymphoid organs", "topic_ar": "الأعضاء اللمفية الأولية"},
+ W(Q("Primary lymphoid organs are described in the lecture as the places where immune cells are:", "تصف المحاضرة الأعضاء اللمفية الأولية بأنها حيث:",
+     O(("Activated by antigen", "تُنشَّط الخلايا بالمستضد"), ("Born and trained", "تولد الخلايا المناعية وتُدرَّب"), ("Stored after the response", "تُخزَّن بعد الاستجابة"), ("Destroyed", "تُدمَّر")), "b"),
+   "Secondary organs are where they later meet antigen.", "أما الأعضاء الثانوية ففيها تلتقي المستضد لاحقًا."),
+ W(Q("The primary site of B cell maturation is the:", "الموضع الأساسي لنضج الخلايا البائية:",
+     O(("Thymus", "التوتة"), ("Spleen", "الطحال"), ("Bone marrow", "نقي العظم"), ("Peyer's patches", "لطخات باير")), "c"),
+   "Self-reactive B clones are eliminated there before release.", "وتُستبعد فيه النسائل البائية الذاتية قبل إطلاقها."),
+ W(Q("The thymus is anatomically described as a:", "تُوصف التوتة تشريحيًا بأنها:",
+     O(("Single-lobed organ in the abdomen", "عضو أحادي الفصّ في البطن"), ("Diffuse tissue in the gut wall", "نسيج منتشر في جدار الأمعاء"), ("Capsule around the kidney", "محفظة حول الكلية"), ("Bilobed organ above the heart", "عضو ثنائي الفصّ فوق القلب")), "d"),
+   "T cell precursors (thymocytes) mature there.", "وفيها تنضج سلائف الخلايا التائية (الخلايا التوتية)."),
+ W(Q("Thymocytes undergo positive and negative selection in order to ensure:", "تمرّ الخلايا التوتية بالانتقاء الموجب والسالب لضمان:",
+     O(("Self-tolerance and MHC restriction", "تحمّل الذات والتقييد بـ`MHC`"), ("Antibody class switching", "تبديل صنف الأضداد"), ("Phagocytic capacity", "القدرة البلعمية"), ("Granule formation", "تكوين الحبيبات")), "a"),
+   "Only cells that see self-MHC but not self-peptides are exported.", "فلا تُصدَّر إلّا الخلايا التي ترى `MHC` الذاتي ولا تتفاعل مع ببتيدات الذات."),
+ W(Q("Which pair are both primary lymphoid organs?", "أيّ زوج كلاهما عضو لمفي أوّلي؟",
+     O(("Spleen and lymph nodes", "الطحال والعقد اللمفية"), ("Bone marrow and thymus", "نقي العظم والتوتة"), ("Tonsils and Peyer's patches", "اللوزتان ولطخات باير"), ("MALT and spleen", "`MALT` والطحال")), "b"),
+   "The others are secondary lymphoid organs.", "أما البقية فأعضاء لمفية ثانوية."),
+
+ # ───────────────────────── 9. secondary lymphoid organs
+ {"topic_en": "Secondary lymphoid organs", "topic_ar": "الأعضاء اللمفية الثانوية"},
+ W(Q("Secondary lymphoid organs are strategically positioned to:", "تقع الأعضاء اللمفية الثانوية في مواضع استراتيجية لكي:",
+     O(("Produce stem cells", "تنتج الخلايا الجذعية"), ("Store red blood cells", "تخزن كريات الدم الحمر"), ("Intercept antigens entering from the periphery", "تعترض المستضدات الداخلة من المحيط"), ("Make haemoglobin", "تصنع الهيموغلوبين")), "c"),
+   "They provide the organized microenvironment for lymphocyte activation.", "وتوفّر البيئة الدقيقة المنظّمة لتنشيط اللمفاويات."),
+ W(Q("In secondary lymphoid organs, the T cell zone is the:", "في الأعضاء اللمفية الثانوية تكون منطقة الخلايا التائية:",
+     O(("Paracortex", "القشرة المجاورة (`paracortex`)"), ("B cell follicle", "حويصلة الخلايا البائية"), ("Red pulp", "اللبّ الأحمر"), ("Medullary cord", "الحبل النخاعي")), "a"),
+   "B cells occupy the follicles instead.", "بينما تشغل الخلايا البائية الحويصلات."),
+ W(Q("Antigen trapping in secondary lymphoid organs means capturing antigens from:", "يعني احتجاز المستضد في الأعضاء اللمفية الثانوية التقاطها من:",
+     O(("The bone marrow only", "نقي العظم فقط"), ("Blood, lymph and mucosal surfaces", "الدم واللمف والأسطح المخاطية"), ("The thymus only", "التوتة فقط"), ("Inside host cells only", "داخل خلايا المضيف فقط")), "b"),
+   "Concentrating antigen raises the chance of an immune encounter.", "فتركيز المستضد يرفع فرصة اللقاء المناعي."),
+ W(Q("Which three structures are listed as covering the body's major entry points?", "ما التراكيب الثلاثة المذكورة لتغطية منافذ دخول الجسم الرئيسية؟",
+     O(("Thymus, bone marrow and liver", "التوتة ونقي العظم والكبد"), ("Skin, mucus and complement", "الجلد والمخاط والمتمّم"), ("Lymph nodes, spleen and MALT", "العقد اللمفية والطحال و`MALT`"), ("Neutrophils, macrophages and NK cells", "العَدِلات والبلاعم والخلايا القاتلة")), "c"),
+   "Together they give strategic distribution over the whole body.", "وهي معًا تعطي توزيعًا استراتيجيًا على الجسم كلّه."),
+
+ # ───────────────────────── 10. lymph nodes
+ {"topic_en": "Lymph nodes", "topic_ar": "العقد اللمفية"},
+ W(Q("Afferent lymphatic vessels deliver to the lymph node:", "توصل الأوعية اللمفية الواردة إلى العقدة اللمفية:",
+     O(("Red blood cells from the spleen", "كريات حمر من الطحال"), ("Stem cells from the marrow", "خلايا جذعية من النقي"), ("Antibodies from plasma cells", "أضدادًا من الخلايا البلازمية"), ("Antigen-laden APCs and free antigens", "خلايا عارضة محمّلة بالمستضد ومستضدات حرّة")), "d"),
+   "They arrive from the peripheral tissues.", "وهي تصل من الأنسجة المحيطية."),
+ W(Q("Germinal centres within B cell follicles are sites of:", "المراكز الإنتاشية داخل حويصلات الخلايا البائية مواضع:",
+     O(("Clonal expansion, somatic hypermutation and affinity maturation", "التوسّع النسيلي والطفرة الجسدية الفائقة ونضج الألفة"), ("Negative selection of thymocytes", "الانتقاء السالب للخلايا التوتية"), ("Red cell destruction", "تدمير الكريات الحمر"), ("Platelet storage", "خزن الصفيحات")), "a"),
+   "This is where antibodies become stronger binders.", "وفيها تصبح الأضداد أقوى ارتباطًا."),
+ W(Q("Medullary cords of the lymph node accumulate:", "تتجمّع في الحبال النخاعية للعقدة اللمفية:",
+     O(("Thymocytes", "الخلايا التوتية"), ("Plasma cells releasing antibodies into the efferent lymph", "خلايا بلازمية تطلق الأضداد في اللمف الصادر"), ("Senescent red cells", "كريات حمر هرمة"), ("Stem cells", "خلايا جذعية")), "b"),
+   "The antibodies then leave the node with the efferent lymph.", "ثم تغادر الأضداد العقدة مع اللمف الصادر."),
+ W(Q("The lecture calls lymph nodes the:", "تسمّي المحاضرة العقد اللمفية:",
+     O(("Training grounds", "ميادين التدريب"), ("Antibody factories", "مصانع الأضداد"), ("Surveillance hubs", "مراكز المراقبة"), ("Blood filters", "مرشّحات الدم")), "c"),
+   "The spleen is the blood filter; the marrow and thymus are the training grounds.",
+   "فالطحال هو مرشّح الدم، والنقي والتوتة هما ميدانا التدريب."),
+
+ # ───────────────────────── 11. spleen
+ {"topic_en": "The spleen", "topic_ar": "الطحال"},
+ W(Q("The spleen is unique among secondary lymphoid organs because it filters:", "يتميّز الطحال بين الأعضاء اللمفية الثانوية لأنه يرشّح:",
+     O(("Lymph-borne pathogens", "الممرضات المحمولة باللمف"), ("Cerebrospinal fluid", "السائل الدماغي الشوكي"), ("Intestinal contents", "محتويات الأمعاء"), ("Blood-borne pathogens", "الممرضات المحمولة بالدم")), "d"),
+   "It therefore mounts responses to systemic infections.", "ولذلك يقيم استجابات ضدّ العداوى الجهازية."),
+ W(Q("The spleen is described in the lecture as:", "يُوصف الطحال في المحاضرة بأنه:",
+     O(("The largest secondary lymphoid organ", "أكبر عضو لمفي ثانوي"), ("A primary lymphoid organ", "عضو لمفي أوّلي"), ("The smallest lymphoid organ", "أصغر عضو لمفي"), ("Part of MALT", "جزء من `MALT`")), "a"),
+   "Lymph nodes and MALT are the other secondary organs.", "أما العقد اللمفية و`MALT` فهما بقية الأعضاء الثانوية."),
+ W(Q("The white pulp of the spleen contains:", "يحتوي اللبّ الأبيض في الطحال على:",
+     O(("Senescent red cells", "كريات حمر هرمة"), ("T cell zones (PALS) and B cell follicles around central arterioles", "مناطق تائية (`PALS`) وحويصلات بائية حول الشُّرينات المركزية"), ("Only platelets", "الصفيحات فقط"), ("Thymocytes", "الخلايا التوتية")), "b"),
+   "PALS = periarteriolar lymphoid sheath.", "و`PALS` هي الغمد اللمفي حول الشُّرَين."),
+ W(Q("The marginal zone of the spleen is rich in macrophages and specialized B cells in order to:", "المنطقة الهامشية في الطحال غنيّة بالبلاعم وخلايا بائية متخصّصة لكي:",
+     O(("Produce stem cells", "تنتج الخلايا الجذعية"), ("Store iron", "تخزن الحديد"), ("Rapidly clear blood-borne particulate antigens", "تزيل بسرعة المستضدات الدقائقية المحمولة بالدم"), ("Train T cells", "تدرّب الخلايا التائية")), "c"),
+   "It is the first filter for antigens arriving in the blood.", "وهي المرشّح الأول للمستضدات الواصلة بالدم."),
+ W(Q("The red pulp of the spleen filters senescent red blood cells and also:", "يرشّح اللبّ الأحمر في الطحال الكريات الحمر الهرمة ويقوم أيضًا بـ:",
+     O(("Produces antibodies only", "إنتاج الأضداد فقط"), ("Matures T cells", "إنضاج الخلايا التائية"), ("Forms germinal centres", "تكوين المراكز الإنتاشية"), ("Storing platelets", "خزن الصفيحات")), "d"),
+   "It contains the sinusoids and splenic cords.", "ويحتوي الجيوب والحبال الطحالية."),
+
+ # ───────────────────────── 12. MALT
+ {"topic_en": "MALT", "topic_ar": "النسيج اللمفي المخاطي"},
+ W(Q("MALT lines which tracts?", "يبطّن `MALT` أيّ الجُمُل؟",
+     O(("The respiratory, digestive and urogenital tracts", "الجهاز التنفسي والهضمي والبولي التناسلي"), ("The circulatory system only", "الجهاز الدوري فقط"), ("The nervous system", "الجهاز العصبي"), ("The skeletal system", "الجهاز الهيكلي")), "a"),
+   "These form the body's largest surface exposed to antigens.", "وهي أكبر مساحة سطحية في الجسم معرّضة للمستضدات."),
+ W(Q("Peyer's patches are specialized aggregates of lymphoid follicles located in the:", "لطخات باير تجمّعات متخصّصة من الحويصلات اللمفية تقع في:",
+     O(("Lung", "الرئة"), ("Small intestine", "الأمعاء الدقيقة"), ("Urinary bladder", "المثانة"), ("Nasal cavity", "التجويف الأنفي")), "b"),
+   "They belong to GALT — gut-associated lymphoid tissue.", "وهي من `GALT` أي النسيج اللمفي المرتبط بالأمعاء."),
+ W(Q("Peyer's patches are rich in B cell follicles and germinal centres mainly for the production of:", "لطخات باير غنيّة بالحويصلات البائية والمراكز الإنتاشية أساسًا لإنتاج:",
+     O(("IgE", "`IgE`"), ("IgD", "`IgD`"), ("Mucosal IgA", "`IgA` المخاطي"), ("IgG only", "`IgG` فقط")), "c"),
+   "IgA is the antibody of mucosal surfaces.", "و`IgA` هو ضدّ الأسطح المخاطية."),
+ W(Q("M cells are specialized epithelial cells that:", "الخلايا `M` خلايا ظهارية متخصّصة:",
+     O(("Secrete antibodies", "تفرز الأضداد"), ("Kill infected cells", "تقتل الخلايا المصابة"), ("Form the germinal centre", "تكوّن المركز الإنتاشي"), ("Transcytose luminal antigens to underlying lymphocytes and APCs", "تنقل المستضدات من اللمعة عبرها إلى اللمفاويات والخلايا العارضة تحتها")), "d"),
+   "They overlie the Peyer's patches and sample the gut lumen.", "وهي تغطّي لطخات باير وتأخذ عيّنات من لمعة الأمعاء."),
+
+ # ───────────────────────── 13. innate and adaptive integration
+ {"topic_en": "Innate and adaptive integration", "topic_ar": "تكامل الفطرية والتكيّفية"},
+ W(Q("The cellular interface that translates innate pathogen recognition into adaptive activation is the:", "الواجهة الخلوية التي تترجم التعرّف الفطري على الممرض إلى تنشيط تكيّفي هي:",
+     O(("Antigen-presenting cell", "الخلية العارضة للمستضد"), ("Red blood cell", "كرية الدم الحمراء"), ("Platelet", "الصفيحة"), ("Plasma cell", "الخلية البلازمية")), "a"),
+   "APCs connect the two systems — they are not independent.", "فالخلايا العارضة تربط الجهازين — وهما ليسا مستقلّين."),
+ W(Q("What carries the signals that tune the strength, duration and type of the immune response?", "ما الذي يحمل الإشارات التي تضبط قوّة الاستجابة المناعية ومدّتها ونوعها؟",
+     O(("Red cells", "الكريات الحمر"), ("Cytokines", "السيتوكينات"), ("Complement only", "المتمّم فقط"), ("Reticular fibres", "الألياف الشبكية")), "b"),
+   "Cytokines are the chemical language between immune cells.", "فالسيتوكينات هي اللغة الكيميائية بين الخلايا المناعية."),
+
+ # ───────────────────────── 14. cytokines
+ {"topic_en": "The role of cytokines", "topic_ar": "دور السيتوكينات"},
+ W(Q("Interleukins mediate communication between:", "تتوسّط الإنترلوكينات الاتصال بين:",
+     O(("Red blood cells", "الكريات الحمر"), ("Platelets", "الصفيحات"), ("Leukocytes", "الكريات البيض"), ("Epithelial cells only", "الخلايا الظهارية فقط")), "c"),
+   "The name means 'between leukocytes'.", "فالاسم نفسه يعني “بين الكريات البيض”."),
+ W(Q("Which interleukin drives T cell proliferation?", "أيّ إنترلوكين يقود تكاثر الخلايا التائية؟",
+     O(("IL-13", "`IL-13`"), ("IL-12", "`IL-12`"), ("IL-4", "`IL-4`"), ("IL-2", "`IL-2`")), "d"),
+   "IL-2 is the growth factor of activated T cells.", "فـ`IL-2` عامل نموّ الخلايا التائية المنشّطة."),
+ W(Q("IL-4 and IL-13 promote which type of response?", "يعزّز `IL-4` و`IL-13` أيّ نوع من الاستجابة؟",
+     O(("Th2 responses", "استجابات `Th2`"), ("Th1 responses", "استجابات `Th1`"), ("Cytotoxic killing", "القتل الخلوي السامّ"), ("Complement lysis", "التحلّل بالمتمّم")), "a"),
+   "IL-12 is the one that induces Th1 instead.", "بينما `IL-12` هو الذي يحثّ `Th1`."),
+ W(Q("IL-12 induces:", "يحثّ `IL-12`:",
+     O(("IgE class switching", "التبديل إلى `IgE`"), ("Th1 and NK cell activation", "تنشيط `Th1` والخلايا القاتلة الطبيعية"), ("Treg differentiation", "تمايز الخلايا التنظيمية"), ("Red cell production", "إنتاج الكريات الحمر")), "b"),
+   "It polarizes the response toward cell-mediated immunity.", "فيستقطب الاستجابة نحو المناعة الخلوية."),
+ W(Q("Type I interferons (α/β) act mainly by:", "تعمل إنترفيرونات النمط الأول (`α/β`) أساسًا بـ:",
+     O(("Opsonizing bacteria", "تطهية البكتيريا"), ("Producing antibodies", "إنتاج الأضداد"), ("Establishing an antiviral state in neighbouring cells", "إحداث حالة مضادّة للفيروسات في الخلايا المجاورة"), ("Recruiting eosinophils", "استدعاء الحمضات")), "c"),
+   "They warn the surrounding cells before the virus reaches them.", "فهي تنذر الخلايا المحيطة قبل أن يصلها الفيروس."),
+ W(Q("IFN-γ activates macrophages and also:", "ينشّط الإنترفيرون غاما البلاعم ويقوم أيضًا بـ:",
+     O(("Lowering MHC expression", "خفض التعبير عن `MHC`"), ("Blocking phagocytosis", "تثبيط البلعمة"), ("Killing T cells", "قتل الخلايا التائية"), ("Upregulating MHC expression on APCs", "رفع التعبير عن `MHC` على الخلايا العارضة")), "d"),
+   "More MHC means better antigen presentation.", "وزيادة `MHC` تعني عرضًا أفضل للمستضد."),
+ W(Q("TNF-α drives:", "يقود `TNF-α`:",
+     O(("Inflammation and fever", "الالتهاب والحمّى"), ("Antibody class switching to IgA", "التبديل إلى `IgA`"), ("Red cell maturation", "نضج الكريات الحمر"), ("Thymic selection", "الانتقاء التوتي")), "a"),
+   "It is the classic pro-inflammatory cytokine.", "وهو السيتوكين الالتهابي الكلاسيكي."),
+ W(Q("Chemokines such as CXCL8 work by:", "تعمل الكيموكينات مثل `CXCL8` بـ:",
+     O(("Lysing bacteria directly", "تحليل البكتيريا مباشرةً"), ("Creating concentration gradients that direct leukocyte migration", "تكوين تدرّجات تركيز توجّه هجرة الكريات البيض"), ("Presenting antigen", "عرض المستضد"), ("Storing platelets", "خزن الصفيحات")), "b"),
+   "Leukocytes crawl up the gradient toward the infection.", "فتزحف الكريات البيض صعودًا بالتدرّج نحو العدوى."),
+
+ # ───────────────────────── 15. NK cells
+ {"topic_en": "NK cells and the receptor balance", "topic_ar": "الخلايا القاتلة وتوازن المستقبلات"},
+ W(Q("NK cells decide to kill or spare a cell by integrating signals from:", "تقرّر الخلايا القاتلة الطبيعية القتل أو الإبقاء بدمج إشارات من:",
+     O(("A single receptor type", "نوع واحد من المستقبلات"), ("Antibodies only", "الأضداد فقط"), ("Two opposing receptor classes", "صنفين متعاكسين من المستقبلات"), ("Complement only", "المتمّم فقط")), "c"),
+   "Activating (KAR) and inhibitory (KIR) signals are weighed against each other.", "فتُوازَن إشارات التنشيط (`KAR`) والتثبيط (`KIR`) إحداها بالأخرى."),
+ W(Q("KAR receptors trigger killing when they detect:", "تحفّز مستقبلات `KAR` القتل عندما تكشف:",
+     O(("Self-MHC-I", "`MHC-I` الذاتي"), ("Stress ligands on infected or transformed cells", "روابط الإجهاد على الخلايا المصابة أو المتحوّلة"), ("Antibodies on healthy cells", "أضدادًا على خلايا سليمة"), ("Complement C3b", "المتمّم `C3b`")), "b"),
+   "KAR = killer activating receptor.", "فـ`KAR` هو المستقبل المنشّط للقتل."),
+ W(Q("KIR receptors recognize self-MHC-I and deliver:", "تتعرّف مستقبلات `KIR` على `MHC-I` الذاتي وتوصل:",
+     O(("An activating signal", "إشارة تنشيط"), ("No signal at all", "لا إشارة إطلاقًا"), ("A chemotactic signal", "إشارة انجذاب"), ("An inhibitory signal", "إشارة تثبيط")), "d"),
+   "Healthy cells showing MHC-I are therefore spared.", "ولذلك تُترك الخلايا السليمة التي تعرض `MHC-I`."),
+ W(Q("The 'missing self' principle means that NK cells kill cells which:", "مبدأ “الذات المفقودة” يعني أن الخلايا القاتلة تقتل الخلايا التي:",
+     O(("Lack MHC-I, as on many tumour cells", "تفتقد `MHC-I` كما في كثير من الخلايا الورمية"), ("Express too much MHC-I", "تفرط في التعبير عن `MHC-I`"), ("Are coated with complement", "مغلّفة بالمتمّم"), ("Are phagocytosed", "مبتلَعة")), "a"),
+   "No inhibitory signal reaches the NK cell, so killing proceeds.", "فلا تصل إشارة تثبيط إلى الخلية القاتلة فيمضي القتل."),
+ W(Q("NK cells mediate ADCC by binding IgG-coated targets through:", "تتوسّط الخلايا القاتلة `ADCC` بالارتباط بالأهداف المغلّفة بـ`IgG` عبر:",
+     O(("CD4", "`CD4`"), ("CD19", "`CD19`"), ("FcγRIII (CD16)", "`FcγRIII` (`CD16`)"), ("CD8", "`CD8`")), "c"),
+   "ADCC = antibody-dependent cellular cytotoxicity.", "و`ADCC` هي السمّية الخلوية المعتمدة على الأضداد."),
+ W(Q("A feature that distinguishes NK killing from cytotoxic T cell killing is that NK cells need:", "من الصفات التي تميّز قتل الخلايا القاتلة عن قتل الخلايا التائية السامّة أنها:",
+     O(("MHC restriction", "مقيَّدة بـ`MHC`"), ("Prior sensitization", "تحتاج تحسيسًا مسبقًا"), ("Antibody help always", "تحتاج مساعدة الأضداد دائمًا"), ("No prior sensitization and no MHC restriction", "لا تحتاج تحسيسًا مسبقًا ولا تقييدًا بـ`MHC`")), "d"),
+   "That is what makes their surveillance immediate.", "وهذا ما يجعل مراقبتها فورية."),
+
+ # ───────────────────────── 16. inflammation
+ {"topic_en": "The inflammatory response", "topic_ar": "الاستجابة الالتهابية"},
+ W(Q("The initiation phase of inflammation is characterized by:", "تتميّز مرحلة البدء في الالتهاب بـ:",
+     O(("Neutrophil recruitment to the injury site", "استدعاء العَدِلات إلى موضع الأذى"), ("Tissue repair", "إصلاح النسيج"), ("Antibody secretion", "إفراز الأضداد"), ("Debris clearance", "إزالة الحطام")), "a"),
+   "Repair and clearance belong to the resolution phase.", "أما الإصلاح والإزالة فمن مرحلة الحلّ."),
+ W(Q("The amplification phase of inflammation involves:", "تتضمّن مرحلة التضخيم في الالتهاب:",
+     O(("Platelet storage", "خزن الصفيحات"), ("Macrophage activation and a cytokine surge", "تنشيط البلاعم وطفرة في السيتوكينات"), ("Thymic selection", "الانتقاء التوتي"), ("Red cell lysis", "تحلّل الكريات الحمر")), "b"),
+   "Macrophages take the response further after the neutrophils arrive.", "فالبلاعم تمضي بالاستجابة بعد وصول العَدِلات."),
+ W(Q("Acute inflammation is characterized by pathogen clearance driven mainly by:", "يتميّز الالتهاب الحادّ بإزالة الممرضات التي تقودها أساسًا:",
+     O(("Plasma cells", "الخلايا البلازمية"), ("NK cells", "الخلايا القاتلة"), ("Neutrophils", "العَدِلات"), ("Mast cells", "الخلايا البدينة")), "c"),
+   "Macrophages instead regulate chronic inflammation.", "بينما تنظّم البلاعم الالتهاب المزمن."),
+ W(Q("Macrophage polarization states are described as:", "تُوصف حالات استقطاب البلاعم بأنها:",
+     O(("Th1 and Th2", "`Th1` و`Th2`"), ("KAR and KIR", "`KAR` و`KIR`"), ("CD4 and CD8", "`CD4` و`CD8`"), ("M1 (pro-inflammatory) and M2 (anti-inflammatory)", "`M1` (محرّضة للالتهاب) و`M2` (مضادّة للالتهاب)")), "d"),
+   "They let the same cell either drive or calm inflammation.", "فهي تتيح للخلية نفسها أن تقود الالتهاب أو تهدّئه."),
+ W(Q("The resolution phase of inflammation involves:", "تتضمّن مرحلة الحلّ في الالتهاب:",
+     O(("Tissue repair and debris clearance", "إصلاح النسيج وإزالة الحطام"), ("More neutrophil influx", "مزيدًا من توافد العَدِلات"), ("Increased fever", "زيادة الحمّى"), ("Germinal centre formation", "تكوين المراكز الإنتاشية")), "a"),
+   "Macrophages coordinate the tissue remodelling.", "والبلاعم تنسّق إعادة تشكيل النسيج."),
+
+ # ───────────────────────── 17. histophysiology
+ {"topic_en": "Histophysiology of lymphoid tissue", "topic_ar": "فسلجة أنسجة اللمف النسيجية"},
+ W(Q("The 3D scaffolding that supports lymphocyte migration in lymphoid tissue is formed by:", "السقالة ثلاثية الأبعاد التي تدعم هجرة اللمفاويات في النسيج اللمفي تتكوّن من:",
+     O(("Elastic fibres only", "ألياف مرنة فقط"), ("Reticular fibres and reticular stromal cells", "ألياف شبكية وخلايا سَدَوية شبكية"), ("Smooth muscle", "عضلات ملساء"), ("Bone trabeculae", "عوارض عظمية")), "b"),
+   "It also positions the cells, not just supports them.", "وهي تضع الخلايا في مواضعها لا تدعمها فحسب."),
+ W(Q("Reticular fibres are composed of which collagen?", "تتكوّن الألياف الشبكية من أيّ كولاجين؟",
+     O(("Type I collagen", "الكولاجين نمط I"), ("Type II collagen", "الكولاجين نمط II"), ("Type III collagen", "الكولاجين نمط III"), ("Type IV collagen", "الكولاجين نمط IV")), "c"),
+   "Type III collagen is the reticular type.", "فالنمط III هو الكولاجين الشبكي."),
+ W(Q("Primary follicles contain:", "تحتوي الحويصلات الأولية على:",
+     O(("Plasma cells only", "خلايا بلازمية فقط"), ("Thymocytes", "خلايا توتية"), ("Cytotoxic T cells", "خلايا تائية سامّة"), ("Resting, naïve B cells", "خلايا بائية ساذجة ساكنة")), "d"),
+   "They have not yet met antigen.", "فهي لم تلتقِ المستضد بعد."),
+ W(Q("Upon antigenic challenge, primary follicles transform into:", "عند التحدّي المستضدّي تتحوّل الحويصلات الأولية إلى:",
+     O(("Secondary follicles with germinal centres", "حويصلات ثانوية فيها مراكز إنتاشية"), ("Medullary cords", "حبال نخاعية"), ("Red pulp", "لبّ أحمر"), ("Paracortex", "قشرة مجاورة")), "a"),
+   "The germinal centre is the sign of an active B cell response.", "فالمركز الإنتاشي علامة على استجابة بائية نشطة."),
+ W(Q("The spatially organized microenvironment of lymphoid tissue enables:", "تتيح البيئة الدقيقة المنظّمة مكانيًا في النسيج اللمفي:",
+     O(("Haemoglobin synthesis", "تصنيع الهيموغلوبين"), ("Cell-cell contact, cytokine delivery and clonal selection", "التماسّ بين الخلايا وإيصال السيتوكينات والانتقاء النسيلي"), ("Bone formation", "تكوين العظم"), ("Digestion of food", "هضم الطعام")), "b"),
+   "Organization is what makes rare encounters efficient.", "فالتنظيم هو ما يجعل اللقاءات النادرة ذات كفاءة."),
+
+ # ───────────────────────── 18. homing and recirculation
+ {"topic_en": "Homing and recirculation", "topic_ar": "التوجّه وإعادة الدوران"},
+ W(Q("Lymphocyte homing to specific tissues is directed by:", "يُوجَّه توجّه اللمفاويات إلى أنسجة معيّنة بوساطة:",
+     O(("Complement proteins", "بروتينات المتمّم"), ("Perforin", "البرفورين"), ("Tissue-specific adhesion molecules (addressins and integrins)", "جزيئات التصاق نوعية للنسيج (العناوين والإنتغرينات)"), ("Antibodies only", "الأضداد فقط")), "c"),
+   "They act like postal addresses for each tissue.", "وهي تعمل كعناوين بريدية لكل نسيج."),
+ W(Q("Gut-tropic lymphocytes home to:", "تتوجّه اللمفاويات المحبّة للأمعاء إلى:",
+     O(("MALT", "`MALT`"), ("The thymus", "التوتة"), ("The bone marrow", "نقي العظم"), ("The red pulp", "اللبّ الأحمر")), "a"),
+   "Skin-tropic cells home to peripheral lymph nodes instead.", "بينما تتوجّه الخلايا المحبّة للجلد إلى العقد اللمفية المحيطية."),
+ W(Q("Lymphocytes enter lymphoid organs from the blood through:", "تدخل اللمفاويات الأعضاء اللمفية من الدم عبر:",
+     O(("Afferent lymphatics only", "اللمفيات الواردة فقط"), ("High Endothelial Venules (HEVs)", "الوُرَيدات عالية البطانة (`HEVs`)"), ("Splenic cords only", "الحبال الطحالية فقط"), ("Medullary sinuses", "الجيوب النخاعية")), "b"),
+   "HEVs are the specialized entry gates for recirculating lymphocytes.", "فـ`HEVs` بوّابات الدخول المتخصّصة للّمفاويات المعيدة للدوران."),
+ W(Q("A lymphocyte completes one patrol circuit roughly every:", "تكمل اللمفاوية دورة جولان واحدة كل:",
+     O(("5 minutes", "5 دقائق"), ("1 hour", "ساعة"), ("12–24 hours", "12–24 ساعة"), ("30 days", "30 يومًا")), "c"),
+   "They recirculate continuously between blood and lymphoid organs.", "فهي تعيد الدوران باستمرار بين الدم والأعضاء اللمفية."),
+ W(Q("The strategic significance of recirculation is that it:", "الأهمية الاستراتيجية لإعادة الدوران أنها:",
+     O(("Reduces the number of lymphocytes needed", "تقلّل عدد اللمفاويات المطلوبة"), ("Prevents antibody production", "تمنع إنتاج الأضداد"), ("Destroys self-reactive clones", "تدمّر النسائل الذاتية"), ("Maximizes the chance that a rare antigen-specific lymphocyte meets its antigen", "ترفع إلى أقصى حدّ فرصة لقاء اللمفاوية النادرة النوعية بمستضدّها")), "d"),
+   "A rare cell must be moved to where its antigen is.", "فالخلية النادرة يجب أن تُنقل إلى حيث مستضدّها."),
+
+ # ───────────────────────── 19. the integrated defence
+ {"topic_en": "The integrated defence", "topic_ar": "الدفاع المتكامل"},
+ W(Q("The lecture concludes that the immune system is best understood as:", "تخلص المحاضرة إلى أن الجهاز المناعي يُفهم أفضل ما يكون بوصفه:",
+     O(("A unified, mobile and continuously adapting network", "شبكة موحّدة متنقّلة تتكيّف باستمرار"), ("A collection of isolated organs", "مجموعة أعضاء منعزلة"), ("A single organ in the chest", "عضوًا واحدًا في الصدر"), ("A purely chemical system", "نظامًا كيميائيًا بحتًا")), "a"),
+   "Its organs act together, not separately.", "فأعضاؤه تعمل معًا لا منفردة."),
+ W(Q("Constant surveillance of every tissue is achieved through:", "تتحقّق المراقبة الدائمة لكل نسيج بوساطة:",
+     O(("Complement activation", "تنشيط المتمّم"), ("Recirculation and homing of lymphocytes", "إعادة دوران اللمفاويات وتوجّهها"), ("Red cell transport", "نقل الكريات الحمر"), ("Bone marrow expansion", "توسّع نقي العظم")), "b"),
+   "No site is left unmonitored.", "فلا يبقى موضع بلا مراقبة."),
+ W(Q("Innate speed and adaptive precision are woven together by:", "تُنسَج سرعة الفطرية ودقّة التكيّفية معًا بوساطة:",
+     O(("Reticular fibres", "الألياف الشبكية"), ("Red cells", "الكريات الحمر"), ("Cytokines, APCs and co-stimulatory signals", "السيتوكينات والخلايا العارضة والإشارات المشاركة"), ("Addressins only", "العناوين فقط")), "c"),
+   "These are the links that integrate the two branches.", "فهذه هي الروابط التي تُكامل الفرعين."),
+ W(Q("The hallmark of a resilient, learning defence system is:", "السمة المميّزة لجهاز دفاع مرن يتعلّم هي:",
+     O(("Faster phagocytosis", "بلعمة أسرع"), ("Higher fever", "حمّى أعلى"), ("More complement", "متمّم أكثر"), ("Immunological memory giving lifelong protection", "ذاكرة مناعية تعطي حماية مدى الحياة")), "d"),
+   "Each encounter leaves the host better prepared.", "فكل لقاء يترك المضيف أفضل استعدادًا."),
+]
+mcq = balance(mcq, 202)
+
+meta = {"subject_en": "Immunology", "subject_ar": "علم المناعة", "short_ar": "مناعة", "instructor": "د. أحمد داود",
+        "unit_en": "Lecture 2", "unit_ar": "المحاضرة 2", "unit_label": "LEC", "unit_no": "2",
+        "title_en": "The Immune System: Cells, Organs and Defense", "title_ar": "جهاز المناعة: الخلايا والأعضاء والدفاع",
+        "kind": "Theory — نظري", "stage": "The third stage — الثالثة",
+        "file_name": "BIOS - مناعة نظري المحاضرة الثانية - الأسئلة"}
+Qs = {"title_en": "The Immune System: Cells, Organs and Defense — Comprehensive MCQs",
+      "title_ar": "جهاز المناعة: الخلايا والأعضاء والدفاع — أسئلة اختيار متعدّد شاملة",
+      "answers_inline": True, "mcq": ltr_all(mcq), "tf": [], "traps": [], "important": []}
+d = "/home/user/-/" + FOLDER
+os.makedirs(d, exist_ok=True)
+json.dump({"meta": meta, "questions": Qs}, open(d + "/lecture.json", "w"), ensure_ascii=False, indent=1)
+from collections import Counter
+qs = [m for m in mcq if "answer" in m]
+print(FOLDER, len(qs), "MCQ", dict(Counter(m["answer"] for m in qs)), "| notes:", sum(1 for m in qs if m.get("note_en")))
+
+```
