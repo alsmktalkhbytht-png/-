@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/ha/h3.py
 handouts: [nursing-ha-lec3-ear]
-saved: 2026-11-09
+saved: 2026-11-10
 tags: [bios, code]
 ---
 # ha/h3.py

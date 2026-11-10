@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/bt/make2.py
 handouts: [bloodbank-lec2-donation-criteria]
-saved: 2026-11-09
+saved: 2026-11-10
 tags: [bios, code]
 ---
 # bt/make2.py

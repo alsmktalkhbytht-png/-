@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/enz4/e4q.py
 handouts: [enzymology-lec4-bioenergetics]
-saved: 2026-11-09
+saved: 2026-11-10
 tags: [bios, code]
 ---
 # enz4/e4q.py

@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/bb6/bb6q.py
 handouts: [bloodbank-lec6-abo-discrepancies]
-saved: 2026-11-09
+saved: 2026-11-10
 tags: [bios, code]
 ---
 # bb6/bb6q.py

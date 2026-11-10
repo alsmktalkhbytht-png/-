@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/bac/lab3.py
 handouts: [bacteriology-lab3-culture-media]
-saved: 2026-11-09
+saved: 2026-11-10
 tags: [bios, code]
 ---
 # bac/lab3.py

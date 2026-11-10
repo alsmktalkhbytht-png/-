@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/hem3/l3.py
 handouts: [hematology-lec3-blood-elements]
-saved: 2026-11-09
+saved: 2026-11-10
 tags: [bios, code]
 ---
 # hem3/l3.py

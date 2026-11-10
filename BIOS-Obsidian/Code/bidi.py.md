@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/bidi.py
 handouts: []
-saved: 2026-11-09
+saved: 2026-11-10
 tags: [bios, code]
 ---
 # bidi.py

@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/elab3/el3q.py
 handouts: [enzymology-lab3-alkaline-phosphatase]
-saved: 2026-11-09
+saved: 2026-11-10
 tags: [bios, code]
 ---
 # elab3/el3q.py

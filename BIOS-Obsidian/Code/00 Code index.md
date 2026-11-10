@@ -86,6 +86,7 @@
 - [[Code/iml3 - l3q.py|iml3/l3q.py]] → immunology-lab3-antigen-preparation
 - [[Code/iml4 - l4.py|iml4/l4.py]] → immunology-lab4-immunization-heart-puncture
 - [[Code/iml5 - l5.py|iml5/l5.py]] → immunology-lab5-natural-antibodies
+- [[Code/imm1 - q1.py|imm1/q1.py]] → immunology-lec1-mcq
 - [[Code/imm456 - bb4.py|imm456/bb4.py]] → bloodbank-lec4-screening
 - [[Code/imm456 - bb5.py|imm456/bb5.py]] → bloodbank-lec5-abo-rh
 - [[Code/imm456 - ci2.py|imm456/ci2.py]] → clinimm-lec2-sle

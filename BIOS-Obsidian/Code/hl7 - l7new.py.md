@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/hl7/l7new.py
 handouts: [hematology-lec7-chronic-sideroblastic]
-saved: 2026-11-09
+saved: 2026-11-10
 tags: [bios, code]
 ---
 # hl7/l7new.py

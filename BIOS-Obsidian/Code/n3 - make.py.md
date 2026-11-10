@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/n3/make.py
 handouts: [research-lec2-scientific-method]
-saved: 2026-11-09
+saved: 2026-11-10
 tags: [bios, code]
 ---
 # n3/make.py

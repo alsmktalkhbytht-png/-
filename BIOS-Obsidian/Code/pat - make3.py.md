@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/pat/make3.py
 handouts: [pathology-lec3-chronic-bronchitis]
-saved: 2026-11-09
+saved: 2026-11-10
 tags: [bios, code]
 ---
 # pat/make3.py

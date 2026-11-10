@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/gen4/g4.py
 handouts: [genetics-lab4-mendelian-genetics]
-saved: 2026-11-09
+saved: 2026-11-10
 tags: [bios, code]
 ---
 # gen4/g4.py
