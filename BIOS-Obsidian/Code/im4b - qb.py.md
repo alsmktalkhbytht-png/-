@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/im4b/qb.py
 handouts: [immunology-lec4-immunoglobulins, immunology-lec4-mcq]
-saved: 2026-11-10
+saved: 2026-11-11
 tags: [bios, code]
 ---
 # im4b/qb.py

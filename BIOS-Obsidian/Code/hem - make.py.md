@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/hem/make.py
 handouts: [enzymology-lab1-safety-tubes]
-saved: 2026-11-10
+saved: 2026-11-11
 tags: [bios, code]
 ---
 # hem/make.py

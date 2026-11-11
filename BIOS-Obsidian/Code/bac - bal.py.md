@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/bac/bal.py
 handouts: []
-saved: 2026-11-10
+saved: 2026-11-11
 tags: [bios, code]
 ---
 # bac/bal.py

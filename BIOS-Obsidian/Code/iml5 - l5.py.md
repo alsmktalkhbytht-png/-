@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/iml5/l5.py
 handouts: [immunology-lab5-natural-antibodies]
-saved: 2026-11-10
+saved: 2026-11-11
 tags: [bios, code]
 ---
 # iml5/l5.py

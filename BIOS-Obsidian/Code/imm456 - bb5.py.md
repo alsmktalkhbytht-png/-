@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/imm456/bb5.py
 handouts: [bloodbank-lec5-abo-rh]
-saved: 2026-11-10
+saved: 2026-11-11
 tags: [bios, code]
 ---
 # imm456/bb5.py

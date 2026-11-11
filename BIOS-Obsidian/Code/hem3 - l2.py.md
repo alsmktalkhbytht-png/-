@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/hem3/l2.py
 handouts: [hematology-lec2-blood-cell-formation]
-saved: 2026-11-10
+saved: 2026-11-11
 tags: [bios, code]
 ---
 # hem3/l2.py

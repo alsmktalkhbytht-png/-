@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/bl5/b5.py
 handouts: [bacteriology-lab5-staining]
-saved: 2026-11-10
+saved: 2026-11-11
 tags: [bios, code]
 ---
 # bl5/b5.py

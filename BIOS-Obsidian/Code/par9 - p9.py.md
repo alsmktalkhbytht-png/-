@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/par9/p9.py
 handouts: [parasitology-week9-theory]
-saved: 2026-11-10
+saved: 2026-11-11
 tags: [bios, code]
 ---
 # par9/p9.py

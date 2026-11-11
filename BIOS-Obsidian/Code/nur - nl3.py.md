@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/nur/nl3.py
 handouts: [nursing-ped-lec3-newborn]
-saved: 2026-11-10
+saved: 2026-11-11
 tags: [bios, code]
 ---
 # nur/nl3.py

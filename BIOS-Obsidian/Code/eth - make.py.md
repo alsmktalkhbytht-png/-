@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/eth/make.py
 handouts: [ethics-lec1-morals]
-saved: 2026-11-10
+saved: 2026-11-11
 tags: [bios, code]
 ---
 # eth/make.py

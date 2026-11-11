@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/im5/q5.py
 handouts: [immunology-lec5-mcq]
-saved: 2026-11-10
+saved: 2026-11-11
 tags: [bios, code]
 ---
 # im5/q5.py

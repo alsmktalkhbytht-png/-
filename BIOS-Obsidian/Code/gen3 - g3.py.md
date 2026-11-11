@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/gen3/g3.py
 handouts: [genetics-lec3-mendelian-inheritance]
-saved: 2026-11-10
+saved: 2026-11-11
 tags: [bios, code]
 ---
 # gen3/g3.py

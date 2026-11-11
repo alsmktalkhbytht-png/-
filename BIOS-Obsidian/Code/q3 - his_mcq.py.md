@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/q3/his_mcq.py
 handouts: []
-saved: 2026-11-10
+saved: 2026-11-11
 tags: [bios, code]
 ---
 # q3/his_mcq.py
