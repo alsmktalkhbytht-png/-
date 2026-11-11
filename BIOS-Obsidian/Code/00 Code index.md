@@ -46,6 +46,7 @@
 - [[Code/enz5 - e5.py|enz5/e5.py]] → enzymology-lec5-diagnostic-enzymes
 - [[Code/eth - make.py|eth/make.py]] → ethics-lec1-morals
 - [[Code/eth4 - e4.py|eth4/e4.py]] → ethics-lec4-cheating
+- [[Code/eth5 - e5.py|eth5/e5.py]] → ethics-lec5-instilling-ethics
 - [[Code/gen2 - g2q.py|gen2/g2q.py]] → genetics-lec2-mitosis
 - [[Code/gen3 - g3.py|gen3/g3.py]] → genetics-lec3-mendelian-inheritance
 - [[Code/gen4 - g4.py|gen4/g4.py]] → genetics-lab4-mendelian-genetics
