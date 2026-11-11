@@ -88,7 +88,7 @@ meta = {"subject_en": "Practical Endocrinology", "subject_ar": "الغدد ال�
         "unit_en": "Lab 5", "unit_ar": "العملي 5", "unit_label": "LAB", "unit_no": "5",
         "title_en": "Thyroid hormones", "title_ar": "هرمونات الغدّة الدرقية",
         "kind": "Laboratories — عملي", "stage": "The third stage — الثالثة"}
-sys.path.insert(0, "/tmp/claude-0/-home-user--/67d83c9a-7b0e-5ae5-b52b-cd659ab074ab/scratchpad"); from bidi import ltr_all; from flowfit import fit
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad"); from bidi import ltr_all; from flowfit import fit
 blocks, mcq, tf, traps, important = ltr_all(blocks), ltr_all(mcq), ltr_all(tf), ltr_all(traps), ltr_all(important)   # formulas inside Arabic stay LTR
 save("endocrine-lab5-thyroid-hormones", meta, blocks, mcq, tf, traps, important)
 fit("endocrine-lab5-thyroid-hormones", min_gap=0.08)   # no big gaps (2026-11-06 rebuild)

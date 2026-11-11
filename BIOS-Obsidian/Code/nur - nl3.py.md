@@ -11,7 +11,7 @@ Generator script — writes the handout's `lecture.json`.
 Handouts: [[06 فهرس الملازم#nursing-ped-lec3-newborn|nursing-ped-lec3-newborn]]
 
 ```python
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user--/67d83c9a-7b0e-5ae5-b52b-cd659ab074ab/scratchpad/nur")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/nur")
 from common_nur import *
 
 blocks = [
@@ -502,6 +502,6 @@ important = [
 meta = NUR(3, "Nursing Care of the Newborn", "الرعاية التمريضية للمولود الجديد")
 save("nursing-ped-lec3-newborn", meta, blocks, mcq, tf, traps, important)
 
-sys.path.insert(0, "/tmp/claude-0/-home-user--/67d83c9a-7b0e-5ae5-b52b-cd659ab074ab/scratchpad"); from flowfit import fit; fit("nursing-ped-lec3-newborn")   # no big gaps (fill2 >= 80%)
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad"); from flowfit import fit; fit("nursing-ped-lec3-newborn")   # no big gaps (fill2 >= 80%)
 
 ```

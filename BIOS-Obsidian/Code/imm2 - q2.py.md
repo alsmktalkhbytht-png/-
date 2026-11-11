@@ -12,9 +12,9 @@ Handouts: [[06 فهرس الملازم#immunology-lec2-mcq|immunology-lec2-mcq]]
 
 ```python
 import sys, json, os
-sys.path.insert(0, "/tmp/claude-0/-home-user--/67d83c9a-7b0e-5ae5-b52b-cd659ab074ab/scratchpad/imm456")
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/imm456")
 from ci import *            # Q TF TR IM P balance
-sys.path.insert(0, "/tmp/claude-0/-home-user--/67d83c9a-7b0e-5ae5-b52b-cd659ab074ab/scratchpad"); from bidi import ltr_all
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad"); from bidi import ltr_all
 
 # Immunology theory lecture 2 (stage 3, د. أحمد داود) — The Immune System: Cells, Organs and Defense.
 # Source: Lec._2_The-Immune-System-Cells-Organs-and-Defense.pptx (25 slides). QUESTIONS ONLY — MCQ only, same style

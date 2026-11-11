@@ -11,8 +11,8 @@ Generator script — writes the handout's `lecture.json`.
 Handouts: [[06 فهرس الملازم#immunology-lec2-cells-organs|immunology-lec2-cells-organs]]
 
 ```python
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user--/67d83c9a-7b0e-5ae5-b52b-cd659ab074ab/scratchpad/n7")
-sys.path.insert(0, "/tmp/claude-0/-home-user--/67d83c9a-7b0e-5ae5-b52b-cd659ab074ab/scratchpad/bac")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/n7")
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/bac")
 from c import *
 from bal import balance
 

@@ -9,7 +9,7 @@ tags: [bios, code]
 Utility script.
 
 ```python
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user--/67d83c9a-7b0e-5ae5-b52b-cd659ab074ab/scratchpad/par2")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/par2")
 from pz import *
 NF = "النيغلرية الفاولرية"
 blocks = [
