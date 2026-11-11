@@ -60,7 +60,6 @@
 - [[Code/hb4 - hbq.py|hb4/hbq.py]] → hematology-practical-hb-estimation
 - [[Code/heal - l4.py|heal/l4.py]] → histopathology-lec4-healing-regeneration
 - [[Code/heal2 - h4q.py|heal2/h4q.py]] → histopathology-lec4-healing-regeneration
-- [[Code/hem - make.py|hem/make.py]] → enzymology-lab1-safety-tubes
 - [[Code/hem3 - l2.py|hem3/l2.py]] → hematology-lec2-blood-cell-formation
 - [[Code/hem3 - l3.py|hem3/l3.py]] → hematology-lec3-blood-elements
 - [[Code/hem3 - l4.py|hem3/l4.py]] → hematology-lec4-hemoglobin
@@ -176,6 +175,7 @@
 - [[Code/ha - src - dump.py|ha/src/dump.py]]
 - [[Code/hb4 - hb.py|hb4/hb.py]]
 - [[Code/heal2 - h4.py|heal2/h4.py]]
+- [[Code/hem - make.py|hem/make.py]]
 - [[Code/hl3x - t3.py|hl3x/t3.py]]
 - [[Code/im4 - i4.py|im4/i4.py]]
 - [[Code/iml3 - l3.py|iml3/l3.py]]

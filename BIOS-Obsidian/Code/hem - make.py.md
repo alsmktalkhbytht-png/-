@@ -1,14 +1,12 @@
 ---
 source: BIOS-Obsidian/tools/scripts/hem/make.py
-handouts: [enzymology-lab1-safety-tubes]
+handouts: []
 saved: 2026-11-11
 tags: [bios, code]
 ---
 # hem/make.py
 
-Generator script — writes the handout's `lecture.json`.
-
-Handouts: [[06 فهرس الملازم#enzymology-lab1-safety-tubes|enzymology-lab1-safety-tubes]]
+Utility script.
 
 ```python
 import json, os
