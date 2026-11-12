@@ -1,6 +1,6 @@
 """MCQ-only banks (answer under each question) for Histology practical labs 2, 3, 4 — stage 2, م.م. جنان خليل."""
 import sys, json, os
-sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a7dd109e-db53-5fd3-8234-9dab3a530e24/scratchpad/bac")
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad/bac")
 from bal import balance
 
 def Q(en, ar, opts, ans): return dict(en=en, ar=ar, options=[list(o) for o in opts], answer=ans)

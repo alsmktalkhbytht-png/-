@@ -1,4 +1,4 @@
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a7dd109e-db53-5fd3-8234-9dab3a530e24/scratchpad/imm456")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
 from itertools import product
 from collections import Counter
@@ -357,7 +357,7 @@ important = [
     "GgNn × GgNn ← التراكيب 1:2:1:2:4:2:1:2:1؛ والمظاهر 9 خضراء ملساء : 3 خضراء متخصّرة : 3 صفراء ملساء : 1 صفراء متخصّرة."),
 ]
 meta = dict(GL, unit_en="Lab 4", unit_ar="العملي 4", unit_no="4", title_en="Mendelian Genetics", title_ar="الوراثة المندلية")
-sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a7dd109e-db53-5fd3-8234-9dab3a530e24/scratchpad"); from bidi import ltr_all   # formulas inside Arabic stay LTR
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad"); from bidi import ltr_all   # formulas inside Arabic stay LTR
 blocks, mcq, tf, traps, important = ltr_all(blocks), ltr_all(mcq), ltr_all(tf), ltr_all(traps), ltr_all(important)
 save("genetics-lab4-mendelian-genetics", meta, blocks, mcq, tf, traps, important)
-sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a7dd109e-db53-5fd3-8234-9dab3a530e24/scratchpad"); from flowfit import fit; fit("genetics-lab4-mendelian-genetics")   # no big gaps (fill2 >= 80%)
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad"); from flowfit import fit; fit("genetics-lab4-mendelian-genetics")   # no big gaps (fill2 >= 80%)

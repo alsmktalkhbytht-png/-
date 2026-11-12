@@ -1,6 +1,6 @@
-import sys, os, shutil; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a7dd109e-db53-5fd3-8234-9dab3a530e24/scratchpad/imm456")
+import sys, os, shutil; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
-sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a7dd109e-db53-5fd3-8234-9dab3a530e24/scratchpad"); from bidi import ltr_all; from flowfit import fit
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad"); from bidi import ltr_all; from flowfit import fit
 import split
 
 # Diagnostic Parasitology (theory, stage 4, Prof. Dr. Nizar Al-Khafaji) — weeks 6–7: intestinal, oral and genital flagellates
@@ -16,7 +16,7 @@ def _q(a):   # quoted English inside an Arabic note → one LTR run (no bold ins
 BN = lambda en, ar: N(en, ar, label=["BIOS note", "ملاحظة BIOS"]) if False else N(en, _q(ar), label=["BIOS note", "ملاحظة BIOS"])
 O = P
 FOLDER = "parasitology-week6-7-theory"
-SRC = "/tmp/claude-0/-home-user-kwmdkm/a7dd109e-db53-5fd3-8234-9dab3a530e24/scratchpad/par67"
+SRC = "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad/par67"
 def G(te, ta, en, ar): return dict(t="group", title_en=te, title_ar=ta, en=en, ar=ar, style="light")
 def LB(*pairs):
     cells = [B(f"**{e}**", a) for e, a in pairs]

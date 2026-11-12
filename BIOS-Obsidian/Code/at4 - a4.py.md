@@ -9,7 +9,7 @@ tags: [bios, code]
 Utility script.
 
 ```python
-import sys, re; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a7dd109e-db53-5fd3-8234-9dab3a530e24/scratchpad/imm456")
+import sys, re; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
 
 BN = lambda en, ar: N(en, ar, label=["BIOS note", "ملاحظة BIOS"])

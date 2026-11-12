@@ -13,7 +13,7 @@ Handouts: [[06 فهرس الملازم#ethics-lec5-instilling-ethics|ethics-lec5
 ```python
 import json, os, random, sys
 from collections import Counter
-sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a7dd109e-db53-5fd3-8234-9dab3a530e24/scratchpad"); from flowfit import fit
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad"); from flowfit import fit
 
 # Professional Ethics, lecture 5 — Arabic-only Word PDF (5 pages). Its text layer is in a legacy font encoding (garbled),
 # so the text was read from the page images. Stage 4, د. نور (as the user gave them). عربي فقط مثل 1 و3 و4.

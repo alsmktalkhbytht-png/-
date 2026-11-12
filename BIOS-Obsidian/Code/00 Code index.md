@@ -50,6 +50,7 @@
 - [[Code/gen2 - g2q.py|gen2/g2q.py]] → genetics-lec2-mitosis
 - [[Code/gen3 - g3.py|gen3/g3.py]] → genetics-lec3-mendelian-inheritance
 - [[Code/gen4 - g4.py|gen4/g4.py]] → genetics-lab4-mendelian-genetics
+- [[Code/gen5 - g5.py|gen5/g5.py]] → genetics-lab5-multiple-alleles
 - [[Code/gh - ghq.py|gh/ghq.py]] → endocrine-lab3-growth-hormone
 - [[Code/gt2 - gt2.py|gt2/gt2.py]] → genetics-lec2-meiosis
 - [[Code/ha - h1.py|ha/h1.py]] → nursing-ha-lec1-head-neck

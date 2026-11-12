@@ -1,4 +1,4 @@
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a7dd109e-db53-5fd3-8234-9dab3a530e24/scratchpad/nur")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad/nur")
 from common_nur import *
 
 blocks = [
@@ -450,4 +450,4 @@ important = [
 meta = NUR(1, "Perspective in Pediatric Nursing", "منظور في تمريض الأطفال")
 save("nursing-ped-lec1-perspective", meta, blocks, mcq, tf, traps, important)
 
-sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a7dd109e-db53-5fd3-8234-9dab3a530e24/scratchpad"); from flowfit import fit; fit("nursing-ped-lec1-perspective")   # no big gaps (fill2 >= 80%)
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad"); from flowfit import fit; fit("nursing-ped-lec1-perspective")   # no big gaps (fill2 >= 80%)
