@@ -1,0 +1,1605 @@
+{
+ "meta": {
+  "subject_en": "Hematology",
+  "subject_ar": "أمراض الدم",
+  "short_ar": "امراض الدم",
+  "unit_label": "LAB",
+  "kind": "Laboratories — عملي",
+  "stage": "The third stage — الثالثة",
+  "instructor": "ليندا منجد هادي",
+  "unit_en": "Lab 7",
+  "unit_ar": "العملي 7",
+  "unit_no": "7",
+  "title_en": "Red Blood Cell Indices",
+  "title_ar": "دلائل كريات الدم الحمراء"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Introduction and Principle",
+   "ar": "المقدمة والمبدأ"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Anemia is a reduction in hemoglobin concentration or red blood cell mass that reduces the oxygen-carrying capacity of blood.",
+    "Red blood cell indices describe cell size, hemoglobin amount, hemoglobin concentration, and variation in cell size.",
+    "These indices help classify anemia and guide further investigations."
+   ],
+   "ar": [
+    "فقر الدم (الأنيميا) هو نقص في تركيز الهيموغلوبين أو في كتلة كريات الدم الحمراء، مما يقلّل قدرة الدم على حمل الأكسجين.",
+    "ودلائل كريات الدم الحمراء `(RBC indices)` تصف حجم الخلية، وكمية الهيموغلوبين، وتركيز الهيموغلوبين، والتفاوت في حجم الخلايا.",
+    "وتساعد هذه الدلائل على تصنيف فقر الدم وتوجيه الفحوص الإضافية."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Four Important Red Blood Cell Indices",
+   "ar": "دلائل كريات الدم الحمراء الأربعة المهمّة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**Mean Corpuscular Volume (MCV):** average red blood cell size.",
+    "**Mean Corpuscular Hemoglobin (MCH):** average amount of hemoglobin per cell.",
+    "**Mean Corpuscular Hemoglobin Concentration (MCHC):** hemoglobin concentration in packed red cells.",
+    "**Red Cell Distribution Width (RDW):** variation in red cell size."
+   ],
+   "list_ar": [
+    "**متوسّط حجم الكرية `(MCV)`:** متوسّط حجم كرية الدم الحمراء.",
+    "**متوسّط هيموغلوبين الكرية `(MCH)`:** متوسّط كمية الهيموغلوبين في الكرية الواحدة.",
+    "**متوسّط تركيز هيموغلوبين الكرية `(MCHC)`:** تركيز الهيموغلوبين في الكريات الحمراء المرصوصة.",
+    "**عرض توزّع كريات الدم الحمراء `(RDW)`:** التفاوت في حجم الكرية الحمراء."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/rbc-sizes.png",
+   "en": "Red cells of increasing size: microcytic → normocytic → macrocytic",
+   "ar": "كريات حمراء بأحجام متزايدة: مجهرية ← سويّة الحجم ← كبيرة",
+   "h": "40mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Index",
+     "الدليل"
+    ],
+    [
+     "What it measures",
+     "ما يقيسه"
+    ],
+    [
+     "Unit",
+     "الوحدة"
+    ],
+    [
+     "Adult reference interval",
+     "المدى المرجعي للبالغين"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**MCV**",
+      "**MCV**"
+     ],
+     [
+      "average cell size",
+      "متوسّط حجم الخلية"
+     ],
+     [
+      "fL",
+      "`fL` فمتولتر"
+     ],
+     "`80–100 fL`"
+    ],
+    [
+     [
+      "**MCH**",
+      "**MCH**"
+     ],
+     [
+      "Hb amount per cell",
+      "كمية `Hb` في الخلية"
+     ],
+     [
+      "pg",
+      "`pg` بيكوغرام"
+     ],
+     "`27–33 pg`"
+    ],
+    [
+     [
+      "**MCHC**",
+      "**MCHC**"
+     ],
+     [
+      "Hb concentration in packed cells",
+      "تركيز `Hb` في الخلايا المرصوصة"
+     ],
+     [
+      "g/dL",
+      "`g/dL`"
+     ],
+     "`32–36 g/dL`"
+    ],
+    [
+     [
+      "**RDW-CV**",
+      "**RDW-CV**"
+     ],
+     [
+      "variation in cell size",
+      "التفاوت في حجم الخلية"
+     ],
+     [
+      "%",
+      "%"
+     ],
+     "`≈ 11.5–14.5%`"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    14,
+    34,
+    16,
+    36
+   ],
+   "style": "summary",
+   "label_en": "BIOS reference table",
+   "label_ar": "جدول مرجعي `BIOS`"
+  },
+  {
+   "t": "note",
+   "en": [
+    "**MCV** = size, **MCH** = amount of Hb, **MCHC** = concentration of Hb, **RDW** = variation in size.",
+    "MCV, MCH and MCHC are averages; RDW is a measure of **spread**."
+   ],
+   "ar": [
+    "**`MCV`** = الحجم، **`MCH`** = كمية `Hb`، **`MCHC`** = تركيز `Hb`، **`RDW`** = التفاوت في الحجم.",
+    "`MCV` و `MCH` و `MCHC` متوسّطات؛ أمّا `RDW` فمقياس **تشتّت** (تفاوت)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Mean Corpuscular Volume (MCV)",
+   "ar": "متوسّط حجم الكرية `(MCV)`"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Definition: the average volume of one red blood cell."
+   ],
+   "ar": [
+    "التعريف: متوسّط حجم كرية الدم الحمراء الواحدة."
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "card",
+   "en": [
+    "Typical adult reference interval: 80–100 fL.",
+    "fL = femtoliter (10⁻¹⁵ liter)."
+   ],
+   "ar": [
+    "المدى المرجعي النموذجي للبالغين: `80–100 fL`.",
+    "و `fL` = فمتولتر (أي `10⁻¹⁵` لتر)."
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "card",
+   "en": "Formula: MCV (fL) = Hematocrit (%) × 10 ÷ RBC count (million/µL).",
+   "ar": "القانون: `MCV (fL) = Hct (%) × 10 ÷ RBC (million/µL)`."
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Category",
+     "الصنف"
+    ],
+    [
+     "MCV",
+     "MCV"
+    ],
+    [
+     "Meaning",
+     "المعنى"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Microcytic**",
+      "**مجهري (صغير)**"
+     ],
+     "`< 80 fL`",
+     [
+      "small cells",
+      "خلايا صغيرة"
+     ]
+    ],
+    [
+     [
+      "**Normocytic**",
+      "**سويّ الحجم**"
+     ],
+     "`80–100 fL`",
+     [
+      "normal-sized cells",
+      "خلايا طبيعية الحجم"
+     ]
+    ],
+    [
+     [
+      "**Macrocytic**",
+      "**كبير (عملاق)**"
+     ],
+     "`> 100 fL`",
+     [
+      "large cells",
+      "خلايا كبيرة"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    26,
+    30,
+    44
+   ],
+   "style": "summary"
+  },
+  {
+   "t": "h2",
+   "en": "MCV: Calculation Example",
+   "ar": "مثال على حساب `MCV`"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Given: Hematocrit = 45%; RBC count = 5.5 million/µL.",
+    "MCV = (45 × 10) ÷ 5.5 = 81.8 fL.",
+    "Interpretation: normocytic red blood cells."
+   ],
+   "ar": [
+    "المعطيات: الهيماتوكريت = `45%`؛ وعدد الكريات الحمراء = `5.5 million/µL`.",
+    "`MCV = (45 × 10) ÷ 5.5 = 81.8 fL`.",
+    "التفسير: كريات حمراء سويّة الحجم `(normocytic)`."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**MCV = Hct × 10 ÷ RBC**; it sorts anemia into micro/normo/macrocytic."
+   ],
+   "ar": [
+    "**`MCV = Hct × 10` ÷ `RBC`**؛ وهو يصنّف فقر الدم إلى مجهري/سويّ/كبير."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Mean Corpuscular Hemoglobin (MCH)",
+   "ar": "متوسّط هيموغلوبين الكرية `(MCH)`"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Definition: average amount of hemoglobin in a single red blood cell.",
+    "Typical adult reference interval: 27–33 pg.",
+    "pg = picogram (10⁻¹² gram).",
+    "Low MCH indicates reduced hemoglobin amount per cell."
+   ],
+   "ar": [
+    "التعريف: متوسّط كمية الهيموغلوبين في كرية دم حمراء واحدة.",
+    "المدى المرجعي النموذجي للبالغين: `27–33 pg`.",
+    "و `pg` = بيكوغرام (أي `10⁻¹²` غرام).",
+    "وانخفاض `MCH` يدلّ على نقص كمية الهيموغلوبين في الخلية الواحدة."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Formula: MCH (pg) = Hemoglobin (g/dL) × 10 ÷ RBC count (million/µL).",
+   "ar": "القانون: `MCH (pg) = Hb (g/dL) × 10 ÷ RBC (million/µL)`."
+  },
+  {
+   "t": "h2",
+   "en": "MCH: Calculation Example",
+   "ar": "مثال على حساب `MCH`"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Given: Hemoglobin = 12.5 g/dL; RBC count = 4.1 million/µL.",
+    "MCH = (12.5 × 10) ÷ 4.1 = 30.5 pg."
+   ],
+   "ar": [
+    "المعطيات: الهيموغلوبين = `12.5 g/dL`؛ وعدد الكريات الحمراء = `4.1 million/µL`.",
+    "`MCH = (12.5 × 10) ÷ 4.1 = 30.5 pg`."
+   ],
+   "_ff": 2
+  },
+  {
+   "t": "card",
+   "en": [
+    "Interpretation: within the typical adult reference interval."
+   ],
+   "ar": [
+    "التفسير: ضمن المدى المرجعي النموذجي للبالغين."
+   ],
+   "_ff": 2
+  },
+  {
+   "t": "section",
+   "en": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+   "ar": "متوسّط تركيز هيموغلوبين الكرية `(MCHC)`"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Definition: average concentration of hemoglobin in packed red blood cells.",
+    "Typical adult reference interval: 32–36 g/dL.",
+    "Low MCHC suggests hypochromia.",
+    "High MCHC can occur in hereditary spherocytosis or from analytical interference."
+   ],
+   "ar": [
+    "التعريف: متوسّط تركيز الهيموغلوبين في كريات الدم الحمراء المرصوصة.",
+    "المدى المرجعي النموذجي للبالغين: `32–36 g/dL`.",
+    "وانخفاض `MCHC` يوحي بنقص الصبغة `(hypochromia)`.",
+    "وقد يرتفع `MCHC` في كثرة الكريات الكرويّة الوراثية `(hereditary spherocytosis)` أو بسبب تداخل تحليلي."
+   ]
+  },
+  {
+   "t": "card",
+   "en": "Formula: MCHC (g/dL) = Hemoglobin (g/dL) × 100 ÷ Hematocrit (%).",
+   "ar": "القانون: `MCHC (g/dL) = Hb (g/dL) × 100 ÷ Hct (%)`."
+  },
+  {
+   "t": "h2",
+   "en": "MCHC: Calculation Example",
+   "ar": "مثال على حساب `MCHC`"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Given: Hemoglobin = 12.5 g/dL; Hematocrit = 37%.",
+    "MCHC = (12.5 × 100) ÷ 37 = 33.8 g/dL (approximately 33.7 if truncated)."
+   ],
+   "ar": [
+    "المعطيات: الهيموغلوبين = `12.5 g/dL`؛ والهيماتوكريت = `37%`.",
+    "`MCHC = (12.5 × 100) ÷ 37 = 33.8 g/dL` (نحو `33.7` إذا بُترت الكسور)."
+   ],
+   "_ff": 3
+  },
+  {
+   "t": "card",
+   "en": [
+    "Interpretation: within the typical adult reference interval."
+   ],
+   "ar": [
+    "التفسير: ضمن المدى المرجعي النموذجي للبالغين."
+   ],
+   "_ff": 3
+  },
+  {
+   "t": "note",
+   "en": "MCHC is the only index with an upper limit that matters in practice: a value **above ~36 g/dL** is usually either true spherocytosis or an analytical error (lipemia, cold agglutinins, a clot), not a real result.",
+   "ar": "`MCHC` هو الدليل الوحيد الذي يهمّ فيه الحدّ الأعلى عمليًا: فالقيمة **فوق `36 g/dL` تقريبًا** تكون عادةً إمّا كثرة كريات كرويّة حقيقية أو خطأ تحليلي (شحم الدم، الراصّات الباردة، خثرة)، لا نتيجة حقيقية.",
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "MCH versus MCHC",
+   "ar": "`MCH` مقابل `MCHC`"
+  },
+  {
+   "t": "card",
+   "en": [
+    "MCH measures the amount of hemoglobin in one red blood cell (pg).",
+    "MCHC measures the concentration of hemoglobin within packed red blood cells (g/dL).",
+    "Cells can have a low MCH because they are small, even when MCHC is near normal.",
+    "Use both indices with MCV and the blood smear."
+   ],
+   "ar": [
+    "يقيس `MCH` كمية الهيموغلوبين في كرية حمراء واحدة (بالـ `pg`).",
+    "أمّا `MCHC` فيقيس تركيز الهيموغلوبين داخل الكريات الحمراء المرصوصة (بالـ `g/dL`).",
+    "وقد يكون `MCH` منخفضًا لأنّ الخلايا صغيرة، حتى لو كان `MCHC` قريبًا من الطبيعي.",
+    "استعمل الدليلين معًا مع `MCV` ومع لطاخة الدم `(blood smear)`."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**MCH** = amount per cell; **MCHC** = concentration in packed cells.",
+    "A small cell lowers MCH; MCHC shows the true hemoglobin concentration."
+   ],
+   "ar": [
+    "**`MCH`** = الكمية في الخلية؛ **`MCHC`** = التركيز في الخلايا المرصوصة.",
+    "الخلية الصغيرة تخفض `MCH`؛ أمّا `MCHC` فيُظهر تركيز الهيموغلوبين الحقيقي."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Feature",
+     "الوجه"
+    ],
+    [
+     "MCH",
+     "MCH"
+    ],
+    [
+     "MCHC",
+     "MCHC"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Measures**",
+      "**يقيس**"
+     ],
+     [
+      "Hb amount per cell",
+      "كمية `Hb` في الخلية"
+     ],
+     [
+      "Hb concentration in packed cells",
+      "تركيز `Hb` في الخلايا المرصوصة"
+     ]
+    ],
+    [
+     [
+      "**Unit**",
+      "**الوحدة**"
+     ],
+     "`pg`",
+     "`g/dL`"
+    ],
+    [
+     [
+      "**Formula**",
+      "**القانون**"
+     ],
+     "`Hb × 10 ÷ RBC`",
+     "`Hb × 100 ÷ Hct`"
+    ],
+    [
+     [
+      "**Affected by small cells**",
+      "**يتأثّر بصغر الخلايا**"
+     ],
+     [
+      "yes (falls)",
+      "نعم (ينخفض)"
+     ],
+     [
+      "less (concentration can stay)",
+      "أقل (قد يبقى التركيز)"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    26,
+    32,
+    42
+   ],
+   "style": "summary",
+   "label_en": "BIOS comparison",
+   "label_ar": "مقارنة `BIOS`"
+  },
+  {
+   "t": "section",
+   "en": "Red Cell Distribution Width (RDW)",
+   "ar": "عرض توزّع كريات الدم الحمراء `(RDW)`"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Definition: a measure of variation in red blood cell size (anisocytosis).",
+    "Typical RDW-CV reference interval: approximately 11.5–14.5%.",
+    "High RDW indicates greater variation in cell size.",
+    "Normal RDW indicates relatively uniform cell sizes.",
+    "RDW is most useful when interpreted together with MCV."
+   ],
+   "ar": [
+    "التعريف: مقياس للتفاوت في حجم كريات الدم الحمراء (تفاوت الحجم / `anisocytosis`).",
+    "المدى المرجعي النموذجي لـ `RDW-CV`: نحو `11.5–14.5%`.",
+    "وارتفاع `RDW` يدلّ على تفاوت أكبر في حجم الخلايا.",
+    "و`RDW` الطبيعي يدلّ على أحجام خلايا متجانسة نسبيًا.",
+    "و`RDW` أنفع ما يكون حين يُفسَّر مع `MCV` معًا."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/rdw-anisocytosis.png",
+   "en": "Uniform red cells (normal RDW, left) vs variable sizes (high RDW, anisocytosis, right)",
+   "ar": "كريات متجانسة (`RDW` طبيعي، يسار) مقابل أحجام متفاوتة (`RDW` مرتفع، تفاوت الحجم، يمين)",
+   "h": "42mm"
+  },
+  {
+   "t": "note",
+   "en": [
+    "**RDW = how mixed the sizes are.**",
+    "High RDW = anisocytosis.",
+    "MCV gives the **average** size; RDW gives the **spread** around it."
+   ],
+   "ar": [
+    "**`RDW` = مدى اختلاط الأحجام.**",
+    "وارتفاعه = تفاوت الحجم `(anisocytosis)`.",
+    "`MCV` يعطي الحجم **المتوسّط**؛ و`RDW` يعطي **التشتّت** حوله."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Medical Application: Microcytic Anemia",
+   "ar": "التطبيق الطبّي: فقر الدم المجهري"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Microcytic anemia: small red blood cells, usually MCV <80 fL in adults.",
+    "Cells are often hypochromic, with increased central pallor.",
+    "Iron deficiency is a common cause; thalassemia is another important cause.",
+    "Defective hemoglobin production may involve iron metabolism, heme synthesis, or globin synthesis."
+   ],
+   "ar": [
+    "فقر الدم المجهري: كريات حمراء صغيرة، وعادةً يكون `MCV < 80 fL` عند البالغين.",
+    "وغالبًا تكون الخلايا ناقصة الصبغة `(hypochromic)`، مع زيادة الشحوب المركزي.",
+    "ونقص الحديد سبب شائع؛ وفقر الدم المتوسّطي (الثلاسيميا) سبب مهمّ آخر.",
+    "وقد يشمل الخلل في إنتاج الهيموغلوبين أيض الحديد، أو تصنيع الهيم `(heme)`، أو تصنيع الغلوبين `(globin)`."
+   ],
+   "_ff": 4
+  },
+  {
+   "t": "card",
+   "en": [
+    "RDW is often high in iron deficiency, but patterns vary."
+   ],
+   "ar": [
+    "وغالبًا يرتفع `RDW` في نقص الحديد، لكنّ الأنماط تتفاوت."
+   ],
+   "_ff": 4
+  },
+  {
+   "t": "section",
+   "en": "Medical Application: Normocytic Anemia",
+   "ar": "التطبيق الطبّي: فقر الدم السويّ الحجم"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Normocytic anemia: anemia with a typical adult MCV of 80–100 fL.",
+    "Possible causes include acute blood loss, hemolysis, kidney disease, and some chronic inflammatory diseases.",
+    "Normal MCV does not exclude mixed red blood cell populations.",
+    "Reticulocyte count, blood smear, and clinical history help interpretation."
+   ],
+   "ar": [
+    "فقر الدم السويّ الحجم: فقر دم مع `MCV` نموذجي للبالغين بين `80–100 fL`.",
+    "ومن أسبابه المحتملة: فقد الدم الحادّ، والانحلال الدموي، وأمراض الكلى، وبعض الأمراض الالتهابية المزمنة.",
+    "و`MCV` الطبيعي لا يستبعد وجود مجموعات خلايا حمراء مختلطة.",
+    "ويساعد على التفسير: عدّ الخلايا الشبكية `(reticulocyte)`، ولطاخة الدم، والتاريخ السريري."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Medical Application: Macrocytic Anemia",
+   "ar": "التطبيق الطبّي: فقر الدم الكبير الكريات"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Macrocytosis in adults: MCV >100 fL.",
+    "Megaloblastic causes: vitamin B12 or folate deficiency, with impaired DNA synthesis."
+   ],
+   "ar": [
+    "كبر الكريات عند البالغين: `MCV > 100 fL`.",
+    "الأسباب الضخمة الأرومات `(megaloblastic)`: نقص فيتامين `B12` أو حمض الفوليك، مع خلل في تصنيع الدنا `(DNA)`."
+   ],
+   "_ff": 5
+  },
+  {
+   "t": "card",
+   "en": [
+    "Non-megaloblastic causes include liver disease, alcohol use, and hypothyroidism.",
+    "Myelodysplastic syndromes can also cause macrocytosis.",
+    "Blood smear findings and further tests are required to determine the cause."
+   ],
+   "ar": [
+    "والأسباب غير الضخمة الأرومات تشمل: أمراض الكبد، وتعاطي الكحول، وقصور الدرقية.",
+    "ومتلازمات خلل التنسّج النقوي `(myelodysplastic)` قد تسبّب كبر الكريات أيضًا.",
+    "ويلزم فحص لطاخة الدم وفحوص إضافية لتحديد السبب."
+   ],
+   "_ff": 5
+  },
+  {
+   "t": "section",
+   "en": "Hypochromia and Its Causes",
+   "ar": "نقص الصبغة وأسبابه"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Hypochromia means red blood cells appear paler than normal on a stained blood smear.",
+    "It is often associated with reduced hemoglobin concentration and increased central pallor.",
+    "Possible causes include iron deficiency from inadequate intake, poor absorption, or blood loss.",
+    "Other causes include thalassemia, some chronic diseases, and lead toxicity.",
+    "Low MCHC supports hypochromia, but blood smear assessment remains important."
+   ],
+   "ar": [
+    "نقص الصبغة `(hypochromia)` يعني أنّ كريات الدم الحمراء تبدو أشحب من الطبيعي على لطاخة دم مصبوغة.",
+    "وغالبًا يرتبط بانخفاض تركيز الهيموغلوبين وزيادة الشحوب المركزي.",
+    "ومن أسبابه المحتملة: نقص الحديد بسبب قلّة الوارد، أو سوء الامتصاص، أو فقد الدم.",
+    "ومن الأسباب الأخرى: الثلاسيميا، وبعض الأمراض المزمنة، والتسمّم بالرصاص.",
+    "وانخفاض `MCHC` يدعم نقص الصبغة، لكن يبقى تقييم لطاخة الدم مهمًّا."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/hypochromic-normochromic.png",
+   "en": "Hypochromic cells with wide central pallor (left) vs normochromic cells (right)",
+   "ar": "خلايا ناقصة الصبغة باتّساع الشحوب المركزي (يسار) مقابل خلايا سويّة الصبغة (يمين)",
+   "h": "40mm"
+  },
+  {
+   "t": "section",
+   "en": "Classification of Anemia Using Indices",
+   "ar": "تصنيف فقر الدم بالدلائل"
+  },
+  {
+   "t": "card",
+   "en": [
+    "Microcytic, often hypochromic: low MCV; MCH often low; MCHC may be low.",
+    "Normocytic, normochromic: MCV and MCHC within reference intervals.",
+    "Macrocytic: high MCV; MCH may be increased because cells are larger.",
+    "RDW helps detect variation in red cell sizes; it is not uniformly high in every anemia type."
+   ],
+   "ar": [
+    "مجهري، وغالبًا ناقص الصبغة: `MCV` منخفض؛ و`MCH` غالبًا منخفض؛ و`MCHC` قد يكون منخفضًا.",
+    "سويّ الحجم وسويّ الصبغة: `MCV` و `MCHC` ضمن المديات المرجعية.",
+    "كبير الكريات: `MCV` مرتفع؛ وقد يرتفع `MCH` لأنّ الخلايا أكبر.",
+    "و`RDW` يساعد على كشف التفاوت في أحجام الكريات؛ وهو ليس مرتفعًا بالقدر نفسه في كلّ أنواع فقر الدم."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/smear-classification.png",
+   "en": "Three smears for size/colour classification (labels blank in the slide)",
+   "ar": "ثلاث لطاخات لتصنيف الحجم واللون (المربّعات فارغة في الشريحة)",
+   "h": "44mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Type",
+     "النوع"
+    ],
+    [
+     "MCV",
+     "MCV"
+    ],
+    [
+     "MCH / MCHC",
+     "`MCH / MCHC`"
+    ],
+    [
+     "Example causes",
+     "أمثلة على الأسباب"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Microcytic, hypochromic**",
+      "**مجهري، ناقص الصبغة**"
+     ],
+     [
+      "low (`<80 fL`)",
+      "منخفض (`<80 fL`)"
+     ],
+     [
+      "MCH low; MCHC may be low",
+      "`MCH` منخفض؛ `MCHC` قد ينخفض"
+     ],
+     [
+      "iron deficiency, thalassemia",
+      "نقص الحديد، الثلاسيميا"
+     ]
+    ],
+    [
+     [
+      "**Normocytic, normochromic**",
+      "**سويّ الحجم والصبغة**"
+     ],
+     [
+      "normal (`80–100 fL`)",
+      "طبيعي (`80–100 fL`)"
+     ],
+     [
+      "within reference intervals",
+      "ضمن المديات المرجعية"
+     ],
+     [
+      "blood loss, hemolysis, chronic disease",
+      "فقد الدم، الانحلال، المرض المزمن"
+     ]
+    ],
+    [
+     [
+      "**Macrocytic**",
+      "**كبير الكريات**"
+     ],
+     [
+      "high (`>100 fL`)",
+      "مرتفع (`>100 fL`)"
+     ],
+     [
+      "MCH may be increased",
+      "قد يرتفع `MCH`"
+     ],
+     [
+      "B12/folate deficiency, liver disease",
+      "نقص `B12`/الفولات، أمراض الكبد"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    24,
+    18,
+    28,
+    30
+   ],
+   "style": "summary",
+   "label_en": "BIOS classification table",
+   "label_ar": "جدول التصنيف `BIOS`"
+  },
+  {
+   "t": "note",
+   "en": [
+    "Classify first by **MCV** (size), then add **MCHC/MCH** (colour) and **RDW** (variation).",
+    "Always confirm indices with the **blood smear**."
+   ],
+   "ar": [
+    "صنّف أولًا حسب **`MCV`** (الحجم)، ثم أضف **`MCHC/MCH`** (اللون) و**`RDW`** (التفاوت).",
+    "وأكّد الدلائل دائمًا بـ**لطاخة الدم**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Summary",
+   "ar": "الخلاصة"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "**MCV** → average cell size (fL).",
+    "**MCH** → hemoglobin amount per cell (pg).",
+    "**MCHC** → hemoglobin concentration (g/dL).",
+    "**RDW** → variation in red blood cell size (%).",
+    "Interpret indices with hemoglobin, hematocrit, RBC count, and blood smear."
+   ],
+   "list_ar": [
+    "**`MCV`** ← متوسّط حجم الخلية (`fL`).",
+    "**`MCH`** ← كمية الهيموغلوبين في الخلية (`pg`).",
+    "**`MCHC`** ← تركيز الهيموغلوبين (`g/dL`).",
+    "**`RDW`** ← التفاوت في حجم كرية الدم الحمراء (`%`).",
+    "فسِّر الدلائل مع الهيموغلوبين، والهيماتوكريت، وعدد الكريات الحمراء، ولطاخة الدم."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "References",
+   "ar": "المصادر"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Rodak's Hematology: Clinical Principles and Applications.",
+    "Clinical Laboratory Hematology (McKenzie).",
+    "Reference intervals vary by age, laboratory, analyzer, and population; use local validated intervals when available.",
+    "Teaching content combined from the two supplied lectures; calculation examples retained."
+   ],
+   "list_ar": [
+    "`Rodak's Hematology: Clinical Principles and Applications.`",
+    "`Clinical Laboratory Hematology (McKenzie).`",
+    "المديات المرجعية تتفاوت حسب العمر والمختبر والمحلّل والمجتمع؛ استعمل المديات المحلّية المعتمَدة عند توفّرها.",
+    "المحتوى التعليمي مجموع من المحاضرتين المُرسَلتين؛ مع الإبقاء على أمثلة الحساب."
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Red blood cell indices**",
+     "دلائل كريات الدم الحمراء"
+    ],
+    [
+     "**Anemia**",
+     "فقر الدم / الأنيميا"
+    ],
+    [
+     "**MCV (Mean Corpuscular Volume)**",
+     "متوسّط حجم الكرية"
+    ],
+    [
+     "**MCH (Mean Corpuscular Hemoglobin)**",
+     "متوسّط هيموغلوبين الكرية"
+    ],
+    [
+     "**MCHC (… Hemoglobin Concentration)**",
+     "متوسّط تركيز هيموغلوبين الكرية"
+    ],
+    [
+     "**RDW (Red cell Distribution Width)**",
+     "عرض توزّع كريات الدم الحمراء"
+    ],
+    [
+     "**Hematocrit (packed cell volume)**",
+     "الهيماتوكريت (حجم الخلايا المرصوصة)"
+    ],
+    [
+     "**Microcytic / Normocytic / Macrocytic**",
+     "مجهري / سويّ الحجم / كبير الكريات"
+    ],
+    [
+     "**Hypochromic / Normochromic**",
+     "ناقص الصبغة / سويّ الصبغة"
+    ],
+    [
+     "**Anisocytosis**",
+     "تفاوت حجم الكريات"
+    ],
+    [
+     "**Central pallor**",
+     "الشحوب المركزي"
+    ],
+    [
+     "**Hereditary spherocytosis**",
+     "كثرة الكريات الكرويّة الوراثية"
+    ],
+    [
+     "**Megaloblastic anemia**",
+     "فقر الدم الضخم الأرومات"
+    ],
+    [
+     "**Blood smear**",
+     "لطاخة (مسحة) الدم"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "The four indices",
+    "topic_ar": "الدلائل الأربعة"
+   },
+   {
+    "en": "Which index measures the average size (volume) of a red blood cell?",
+    "ar": "أيّ دليل يقيس متوسّط حجم كرية الدم الحمراء؟",
+    "options": [
+     [
+      "RDW",
+      "RDW"
+     ],
+     [
+      "MCH",
+      "MCH"
+     ],
+     [
+      "MCHC",
+      "MCHC"
+     ],
+     [
+      "MCV",
+      "MCV"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which index measures the average amount of hemoglobin in one red cell?",
+    "ar": "أيّ دليل يقيس متوسّط كمية الهيموغلوبين في كرية واحدة؟",
+    "options": [
+     [
+      "MCV",
+      "MCV"
+     ],
+     [
+      "MCH",
+      "MCH"
+     ],
+     [
+      "MCHC",
+      "MCHC"
+     ],
+     [
+      "RDW",
+      "RDW"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which index measures the variation (spread) in red cell size?",
+    "ar": "أيّ دليل يقيس التفاوت (التشتّت) في حجم الكرية؟",
+    "options": [
+     [
+      "MCH",
+      "MCH"
+     ],
+     [
+      "MCV",
+      "MCV"
+     ],
+     [
+      "RDW",
+      "RDW"
+     ],
+     [
+      "MCHC",
+      "MCHC"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The unit of MCV is:",
+    "ar": "وحدة `MCV` هي:",
+    "options": [
+     [
+      "femtoliter (fL)",
+      "فمتولتر `(fL)`"
+     ],
+     [
+      "picogram (pg)",
+      "بيكوغرام `(pg)`"
+     ],
+     [
+      "g/dL",
+      "`g/dL`"
+     ],
+     [
+      "percent (%)",
+      "نسبة مئوية (%)"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The unit of MCH is:",
+    "ar": "وحدة `MCH` هي:",
+    "options": [
+     [
+      "femtoliter (fL)",
+      "فمتولتر `(fL)`"
+     ],
+     [
+      "picogram (pg)",
+      "بيكوغرام `(pg)`"
+     ],
+     [
+      "g/dL",
+      "`g/dL`"
+     ],
+     [
+      "million/µL",
+      "`million/µL`"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The unit of MCHC is:",
+    "ar": "وحدة `MCHC` هي:",
+    "options": [
+     [
+      "g/dL",
+      "`g/dL`"
+     ],
+     [
+      "fL",
+      "fL"
+     ],
+     [
+      "pg",
+      "pg"
+     ],
+     [
+      "%",
+      "%"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Formulas & values",
+    "topic_ar": "القوانين والقيم"
+   },
+   {
+    "en": "The formula for MCV is:",
+    "ar": "قانون `MCV` هو:",
+    "options": [
+     [
+      "Hb × 100 ÷ Hct",
+      "`Hb × 100 ÷ Hct`"
+     ],
+     [
+      "Hb × 10 ÷ RBC",
+      "`Hb × 10 ÷ RBC`"
+     ],
+     [
+      "Hct × 10 ÷ RBC",
+      "`Hct × 10 ÷ RBC`"
+     ],
+     [
+      "Hct × 100 ÷ Hb",
+      "`Hct × 100 ÷ Hb`"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The formula for MCH is:",
+    "ar": "قانون `MCH` هو:",
+    "options": [
+     [
+      "RBC × 10 ÷ Hb",
+      "`RBC × 10 ÷ Hb`"
+     ],
+     [
+      "Hct × 10 ÷ RBC",
+      "`Hct × 10 ÷ RBC`"
+     ],
+     [
+      "Hb × 100 ÷ Hct",
+      "`Hb × 100 ÷ Hct`"
+     ],
+     [
+      "Hb × 10 ÷ RBC",
+      "`Hb × 10 ÷ RBC`"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The formula for MCHC is:",
+    "ar": "قانون `MCHC` هو:",
+    "options": [
+     [
+      "Hct × 100 ÷ Hb",
+      "`Hct × 100 ÷ Hb`"
+     ],
+     [
+      "Hb × 10 ÷ RBC",
+      "`Hb × 10 ÷ RBC`"
+     ],
+     [
+      "Hct × 10 ÷ RBC",
+      "`Hct × 10 ÷ RBC`"
+     ],
+     [
+      "Hb × 100 ÷ Hct",
+      "`Hb × 100 ÷ Hct`"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The typical adult reference interval for MCV is:",
+    "ar": "المدى المرجعي النموذجي لـ `MCV` عند البالغين هو:",
+    "options": [
+     [
+      "27–33 pg",
+      "`27–33 pg`"
+     ],
+     [
+      "80–100 fL",
+      "`80–100 fL`"
+     ],
+     [
+      "32–36 g/dL",
+      "`32–36 g/dL`"
+     ],
+     [
+      "11.5–14.5%",
+      "11.5–14.5%"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The typical adult reference interval for MCHC is:",
+    "ar": "المدى المرجعي النموذجي لـ `MCHC` عند البالغين هو:",
+    "options": [
+     [
+      "32–36 g/dL",
+      "`32–36 g/dL`"
+     ],
+     [
+      "80–100 fL",
+      "`80–100 fL`"
+     ],
+     [
+      "27–33 pg",
+      "`27–33 pg`"
+     ],
+     [
+      "11.5–14.5%",
+      "11.5–14.5%"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "If hematocrit = 45% and RBC = 5.5 million/µL, MCV equals (and is):",
+    "ar": "إذا كان الهيماتوكريت = 45% وعدد الكريات = `5.5 million`/µ`L`، فإنّ `MCV` يساوي (ويكون):",
+    "options": [
+     [
+      "110 fL, macrocytic",
+      "`110 fL`، كبير"
+     ],
+     [
+      "45 fL, microcytic",
+      "`45 fL`، مجهري"
+     ],
+     [
+      "81.8 fL, normocytic",
+      "`81.8 fL`، سويّ الحجم"
+     ],
+     [
+      "8.2 fL, microcytic",
+      "`8.2 fL`، مجهري"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Interpretation",
+    "topic_ar": "التفسير"
+   },
+   {
+    "en": "A red cell with MCV < 80 fL is described as:",
+    "ar": "تُوصَف الكرية التي `MCV` لها < `80 fL` بأنّها:",
+    "options": [
+     [
+      "macrocytic",
+      "كبيرة"
+     ],
+     [
+      "microcytic",
+      "مجهرية (صغيرة)"
+     ],
+     [
+      "normocytic",
+      "سويّة الحجم"
+     ],
+     [
+      "spherocytic",
+      "كرويّة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "A red cell with MCV > 100 fL is described as:",
+    "ar": "تُوصَف الكرية التي `MCV` لها > `100 fL` بأنّها:",
+    "options": [
+     [
+      "normocytic",
+      "سويّة الحجم"
+     ],
+     [
+      "microcytic",
+      "مجهرية"
+     ],
+     [
+      "macrocytic",
+      "كبيرة"
+     ],
+     [
+      "hypochromic",
+      "ناقصة الصبغة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "A low MCHC on the smear usually appears as:",
+    "ar": "انخفاض `MCHC` يظهر على اللطاخة عادةً على شكل:",
+    "options": [
+     [
+      "hypochromia (pale cells)",
+      "نقص الصبغة (خلايا شاحبة)"
+     ],
+     [
+      "hyperchromia (dark cells)",
+      "فرط الصبغة (خلايا غامقة)"
+     ],
+     [
+      "macrocytosis",
+      "كبر الكريات"
+     ],
+     [
+      "target cells only",
+      "خلايا هدفية فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "A high RDW indicates:",
+    "ar": "ارتفاع `RDW` يدلّ على:",
+    "options": [
+     [
+      "low white cell count",
+      "انخفاض عدد الكريات البيض"
+     ],
+     [
+      "uniform cell size",
+      "حجم خلايا متجانس"
+     ],
+     [
+      "high hemoglobin",
+      "ارتفاع الهيموغلوبين"
+     ],
+     [
+      "greater variation in cell size (anisocytosis)",
+      "تفاوت أكبر في حجم الخلايا `(anisocytosis)`"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Which difference between MCH and MCHC is correct?",
+    "ar": "أيّ فرق بين `MCH` و `MCHC` صحيح؟",
+    "options": [
+     [
+      "both are measured in fL",
+      "كلاهما يُقاس بالـ `fL`"
+     ],
+     [
+      "MCH = concentration; MCHC = amount",
+      "`MCH` = التركيز؛ `MCHC` = الكمية"
+     ],
+     [
+      "both measure cell size",
+      "كلاهما يقيس حجم الخلية"
+     ],
+     [
+      "MCH = amount per cell (pg); MCHC = concentration (g/dL)",
+      "`MCH` = الكمية في الخلية `(pg)`؛ `MCHC` = التركيز `(g/dL)`"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Clinical",
+    "topic_ar": "السريري"
+   },
+   {
+    "en": "Microcytic hypochromic anemia is most commonly caused by:",
+    "ar": "فقر الدم المجهري ناقص الصبغة سببه الأكثر شيوعًا:",
+    "options": [
+     [
+      "iron deficiency",
+      "نقص الحديد"
+     ],
+     [
+      "vitamin B12 deficiency",
+      "نقص فيتامين `B12`"
+     ],
+     [
+      "folate deficiency",
+      "نقص حمض الفوليك"
+     ],
+     [
+      "liver disease",
+      "أمراض الكبد"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "A common cause of macrocytic (megaloblastic) anemia is:",
+    "ar": "من الأسباب الشائعة لفقر الدم الكبير الكريات (الضخم الأرومات):",
+    "options": [
+     [
+      "iron deficiency",
+      "نقص الحديد"
+     ],
+     [
+      "vitamin B12 or folate deficiency",
+      "نقص فيتامين `B12` أو حمض الفوليك"
+     ],
+     [
+      "thalassemia",
+      "الثلاسيميا"
+     ],
+     [
+      "acute blood loss",
+      "فقد الدم الحادّ"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which is a cause of normocytic anemia?",
+    "ar": "أيّ ممّا يلي سبب لفقر الدم السويّ الحجم؟",
+    "options": [
+     [
+      "iron deficiency",
+      "نقص الحديد"
+     ],
+     [
+      "vitamin B12 deficiency",
+      "نقص فيتامين `B12`"
+     ],
+     [
+      "acute blood loss or hemolysis",
+      "فقد الدم الحادّ أو الانحلال الدموي"
+     ],
+     [
+      "folate deficiency",
+      "نقص حمض الفوليك"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "A high MCHC (above ~36 g/dL) most often suggests:",
+    "ar": "ارتفاع `MCHC` (فوق `36 g/dL` تقريبًا) يوحي غالبًا بـ:",
+    "options": [
+     [
+      "spherocytosis or an analytical error",
+      "كثرة الكريات الكرويّة أو خطأ تحليلي"
+     ],
+     [
+      "iron deficiency",
+      "نقص الحديد"
+     ],
+     [
+      "macrocytosis",
+      "كبر الكريات"
+     ],
+     [
+      "normal result",
+      "نتيجة طبيعية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which index is best interpreted together with MCV to assess size variation?",
+    "ar": "أيّ دليل يُفسَّر مع `MCV` لتقييم التفاوت في الحجم؟",
+    "options": [
+     [
+      "MCH",
+      "MCH"
+     ],
+     [
+      "RDW",
+      "RDW"
+     ],
+     [
+      "MCHC",
+      "MCHC"
+     ],
+     [
+      "Hct",
+      "Hct"
+     ]
+    ],
+    "answer": "b"
+   }
+  ],
+  "tf": [
+   {
+    "en": "MCV measures the average size (volume) of a red blood cell.",
+    "ar": "يقيس `MCV` متوسّط حجم كرية الدم الحمراء.",
+    "answer": "T"
+   },
+   {
+    "en": "MCH and MCHC measure the same thing in the same units.",
+    "ar": "يقيس `MCH` و `MCHC` الشيء نفسه بالوحدات نفسها.",
+    "answer": "F"
+   },
+   {
+    "en": "The formula for MCV is Hematocrit × 10 ÷ RBC count.",
+    "ar": "قانون `MCV` هو الهيماتوكريت × 10 ÷ عدد الكريات الحمراء.",
+    "answer": "T"
+   },
+   {
+    "en": "The typical adult MCV reference interval is 80–100 fL.",
+    "ar": "المدى المرجعي النموذجي لـ `MCV` عند البالغين هو 80–`100 fL`.",
+    "answer": "T"
+   },
+   {
+    "en": "An MCV below 80 fL in an adult is called macrocytic.",
+    "ar": "يُسمّى `MCV` الأقلّ من `80 fL` عند البالغ كبير الكريات.",
+    "answer": "F"
+   },
+   {
+    "en": "Low MCHC is associated with hypochromia.",
+    "ar": "يرتبط انخفاض `MCHC` بنقص الصبغة.",
+    "answer": "T"
+   },
+   {
+    "en": "A high RDW means the red cells are uniform in size.",
+    "ar": "ارتفاع `RDW` يعني أنّ الكريات الحمراء متجانسة الحجم.",
+    "answer": "F"
+   },
+   {
+    "en": "Iron deficiency is a common cause of microcytic anemia.",
+    "ar": "نقص الحديد سبب شائع لفقر الدم المجهري.",
+    "answer": "T"
+   },
+   {
+    "en": "Vitamin B12 or folate deficiency causes macrocytic (megaloblastic) anemia.",
+    "ar": "نقص فيتامين `B12` أو حمض الفوليك يسبّب فقر الدم الكبير الكريات (الضخم الأرومات).",
+    "answer": "T"
+   },
+   {
+    "en": "A very high MCHC is usually a true, reliable result.",
+    "ar": "الارتفاع الشديد في `MCHC` يكون عادةً نتيجة حقيقية موثوقة.",
+    "answer": "F"
+   },
+   {
+    "en": "Normocytic anemia can be caused by acute blood loss or hemolysis.",
+    "ar": "فقر الدم السويّ الحجم قد يسببه فقد الدم الحادّ أو الانحلال الدموي.",
+    "answer": "T"
+   },
+   {
+    "en": "Indices should always be interpreted together with the blood smear.",
+    "ar": "ينبغي دائمًا تفسير الدلائل مع لطاخة الدم.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "MCH vs MCHC",
+    "ar": "`MCH` مقابل `MCHC`",
+    "answer_en": "MCH = amount of Hb per cell (pg). MCHC = concentration of Hb in packed cells (g/dL). Different quantity, different unit.",
+    "answer_ar": "`MCH` = كمية `Hb` في الخلية `(pg)`. و`MCHC` = تركيز `Hb` في الخلايا المرصوصة `(g/dL)`. كمية مختلفة ووحدة مختلفة."
+   },
+   {
+    "en": "MCV = size, not amount",
+    "ar": "`MCV` = الحجم لا الكمية",
+    "answer_en": "MCV measures cell SIZE (fL). The amount of hemoglobin per cell is MCH (pg); don't swap them.",
+    "answer_ar": "`MCV` يقيس **حجم** الخلية `(fL)`. أمّا كمية الهيموغلوبين في الخلية فهي `MCH (pg)`؛ لا تبدّل بينهما."
+   },
+   {
+    "en": "RDW is spread, not average",
+    "ar": "`RDW` تشتّت لا متوسّط",
+    "answer_en": "RDW is the VARIATION in size (anisocytosis), not the average. The average size is MCV. High RDW = mixed sizes.",
+    "answer_ar": "`RDW` هو **التفاوت** في الحجم `(anisocytosis)`، لا المتوسّط. فالمتوسّط هو `MCV`. وارتفاع `RDW` = أحجام مختلطة."
+   },
+   {
+    "en": "Low MCH can be a size effect",
+    "ar": "انخفاض `MCH` قد يكون أثر حجم",
+    "answer_en": "A cell can have low MCH simply because it is small, even when the hemoglobin concentration (MCHC) is near normal.",
+    "answer_ar": "قد يكون `MCH` منخفضًا لمجرّد أنّ الخلية صغيرة، حتى لو كان تركيز الهيموغلوبين `(MCHC)` قريبًا من الطبيعي."
+   },
+   {
+    "en": "High MCHC is a red flag",
+    "ar": "ارتفاع `MCHC` علامة تحذير",
+    "answer_en": "A high MCHC (>~36 g/dL) is usually hereditary spherocytosis or an analytical error (lipemia, cold agglutinins, a clot), not a normal finding.",
+    "answer_ar": "ارتفاع `MCHC` (فوق `36 g/dL` تقريبًا) يكون عادةً كثرة كريات كرويّة وراثية أو خطأ تحليلي (شحم الدم، الراصّات الباردة، خثرة)، لا نتيجة طبيعية."
+   },
+   {
+    "en": "Classify by size first",
+    "ar": "صنّف بالحجم أولًا",
+    "answer_en": "Use MCV first (micro/normo/macrocytic), then MCHC/MCH for colour and RDW for variation. One index alone is not enough.",
+    "answer_ar": "استعمل `MCV` أولًا (مجهري/سويّ/كبير)، ثم `MCHC/MCH` للّون و`RDW` للتفاوت. فدليل واحد وحده لا يكفي."
+   }
+  ],
+  "important": [
+   {
+    "en": "Which index measures the average volume of red blood cells?",
+    "ar": "أيّ دليل يقيس متوسّط حجم كريات الدم الحمراء؟",
+    "answer_en": "MCV (Mean Corpuscular Volume), measured in femtoliters (fL).",
+    "answer_ar": "`MCV` (متوسّط حجم الكرية)، ويُقاس بالفمتولتر `(fL)`."
+   },
+   {
+    "en": "Calculate MCV when hematocrit is 45% and RBC count is 5.5 million/µL.",
+    "ar": "احسب `MCV` عندما يكون الهيماتوكريت 45% وعدد الكريات `5.5 million`/µ`L`.",
+    "answer_en": "MCV = (Hct × 10) ÷ RBC = (45 × 10) ÷ 5.5 = 81.8 fL → normocytic.",
+    "answer_ar": "`MCV = (Hct × 10) ÷ RBC = (45 × 10) ÷ 5.5 = 81.8 fL` ← سويّ الحجم."
+   },
+   {
+    "en": "What is the difference between MCH and MCHC?",
+    "ar": "ما الفرق بين `MCH` و `MCHC`؟",
+    "answer_en": "MCH is the average amount of hemoglobin per cell (pg); MCHC is the concentration of hemoglobin in packed cells (g/dL).",
+    "answer_ar": "`MCH` هو متوسّط كمية الهيموغلوبين في الخلية `(pg)`؛ و`MCHC` هو تركيز الهيموغلوبين في الخلايا المرصوصة `(g/dL)`."
+   },
+   {
+    "en": "Name two causes of macrocytic anemia.",
+    "ar": "اذكر سببين لفقر الدم الكبير الكريات.",
+    "answer_en": "Vitamin B12 deficiency and folate deficiency (megaloblastic); others: liver disease, alcohol, hypothyroidism.",
+    "answer_ar": "نقص فيتامين `B12` ونقص حمض الفوليك (ضخم الأرومات)؛ وغيرها: أمراض الكبد، والكحول، وقصور الدرقية."
+   },
+   {
+    "en": "What does a high RDW indicate?",
+    "ar": "على ماذا يدلّ ارتفاع `RDW`؟",
+    "answer_en": "Greater variation in red blood cell size (anisocytosis); it is most useful interpreted with MCV.",
+    "answer_ar": "تفاوت أكبر في حجم كريات الدم الحمراء `(anisocytosis)`؛ وهو أنفع ما يكون مع تفسيره بـ `MCV`."
+   },
+   {
+    "en": "Give the formulas for MCV, MCH and MCHC.",
+    "ar": "اكتب قوانين `MCV` و `MCH` و `MCHC`.",
+    "answer_en": "MCV = Hct × 10 ÷ RBC; MCH = Hb × 10 ÷ RBC; MCHC = Hb × 100 ÷ Hct.",
+    "answer_ar": "`MCV = Hct × 10 ÷ RBC`؛ و`MCH = Hb × 10 ÷ RBC`؛ و`MCHC = Hb × 100 ÷ Hct`."
+   },
+   {
+    "en": "How are the indices used to classify anemia?",
+    "ar": "كيف تُستعمل الدلائل لتصنيف فقر الدم؟",
+    "answer_en": "By MCV: microcytic (<80 fL), normocytic (80–100 fL), macrocytic (>100 fL); then MCH/MCHC give the colour (hypochromic/normochromic) and RDW the size variation.",
+    "answer_ar": "حسب `MCV`: مجهري (`<80 fL`)، سويّ الحجم (`80–100 fL`)، كبير (`>100 fL`)؛ ثم يعطي `MCH/MCHC` اللون (ناقص/سويّ الصبغة) ويعطي `RDW` تفاوت الحجم."
+   }
+  ]
+ }
+}

@@ -73,6 +73,7 @@
 - [[Code/hl3 - norm3.py|hl3/norm3.py]] → hematology-practical-normal-values
 - [[Code/hl3x - t3q.py|hl3x/t3q.py]] → histopathology-lab3-tissue-processing
 - [[Code/hl6 - l6new.py|hl6/l6new.py]] → hematology-lec6-iron-deficiency
+- [[Code/hl7 - h7.py|hl7/h7.py]] → hematology-practical-rbc-indices
 - [[Code/hl7 - l7new.py|hl7/l7new.py]] → hematology-lec7-chronic-sideroblastic
 - [[Code/hl8 - l8.py|hl8/l8.py]] → hematology-lec8-macrocytic
 - [[Code/hl9 - l9.py|hl9/l9.py]] → hematology-lec9-hemolytic
