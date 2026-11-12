@@ -183,8 +183,31 @@ meta = {"subject_en": "Clinical Enzymology", "subject_ar": "الإنزيمات �
         "title_en": "Lab Safety and Blood Collecting Tubes", "title_ar": "السلامة في المختبر وأنابيب جمع الدم",
         "kind": "Laboratories — عملي", "stage": "The fourth stage — الرابعة",
         "file_name": "BIOS - انزيمات سريرية عملي المحاضرة الرابعة - بنك أسئلة شامل"}
-Qs = {"title_en": "Lab Safety and Blood Collecting Tubes — Comprehensive MCQs", "title_ar": "السلامة في المختبر وأنابيب جمع الدم — أسئلة اختيار متعدّد شاملة",
-      "answers_inline": True, "mcq": ltr_all(mcq), "tf": [], "traps": [], "important": []}
+important = [
+ IM("List the personal protective equipment to be used in the laboratory.", "اذكر معدات الحماية الشخصية التي تُستعمل في المختبر.",
+    "Safety goggles, a lab coat, gloves, long pants (trousers) and closed shoes.",
+    "نظارات السلامة، والصدرية (المعطف)، والقفازات، والبنطلون الطويل، والحذاء المغلق."),
+ IM("State the main laboratory safety rules.", "اذكر قواعد سلامة المختبر الرئيسة.",
+    "Proper supervision (no experiment without the instructor); identify hazards (read labels first); know the safety equipment, exits and emergency numbers; no food, drink or tasting chemicals; be attentive and never leave a running experiment; handle and dispose of glassware carefully; clean up and wash hands; authorised persons only; wear a lab coat and closed footwear; report and record all accidents; work according to a risk assessment; dispose of waste properly; no smoking; keep the lab tidy with emergency routes clear.",
+    "الإشراف المناسب (لا تجربة دون المدرّس)؛ التعرّف على المخاطر (اقرأ الملصقات أولًا)؛ معرفة معدات السلامة والمخارج وأرقام الطوارئ؛ لا طعام ولا شراب ولا تذوّق للمواد؛ الانتباه وعدم ترك تجربة شغّالة؛ التعامل مع الزجاجيات والتخلّص منها بحذر؛ التنظيف وغسل اليدين؛ الأشخاص المخوّلون فقط؛ ارتداء الصدرية والحذاء المغلق؛ الإبلاغ عن كل الحوادث وتسجيلها؛ العمل وفق تقييم المخاطر؛ التخلّص الصحيح من النفايات؛ ممنوع التدخين؛ إبقاء المختبر مرتّبًا ومخارج الطوارئ متاحة."),
+ IM("From the student’s notes: explain the four hazard symbols and the extra safety points the student added.", "من ملاحظات الطالب: اشرح رموز الخطر الأربعة والنقاط الإضافية التي أضافها الطالب.",
+    "The four hazard pictograms are: explosive, radioactive, flammable, and toxic (skull). The student also noted: a lab supervisor must always be present; you must know the lab doors/exits (emergency routes); and glassware must NOT be exposed to the flame directly.",
+    "الرموز الأربعة: متفجّرة، ومشعّة، وقابلة للاشتعال، وسامّة (الجمجمة). وأضاف الطالب: يجب دائمًا وجود مسؤول للمختبر؛ ويجب معرفة أبواب/مخارج المختبر (طرق الطوارئ)؛ ولا يجوز تعريض الزجاج للّهب مباشرةً."),
+ IM("Give the order of draw of blood collection tubes (as in the lecture table).", "اذكر ترتيب سحب أنابيب جمع الدم (كما في جدول المحاضرة).",
+    "1) Plain / red top, 2) EDTA / lavender, 3) heparin / green, 4) ESR / black, 5) glucose / grey, 6) PT / blue, 7) serum / yellow, 8) thrombin / orange, 9) serum gel / gel yellow.",
+    "1) السادة/الأحمر، 2) EDTA/البنفسجي، 3) الهيبارين/الأخضر، 4) ESR/الأسود، 5) الغلوكوز/الرمادي، 6) PT/الأزرق، 7) المصل/الأصفر، 8) الثرومبين/البرتقالي، 9) الهلامي/الأصفر الهلامي."),
+ IM("For each tube colour, give its additive and main laboratory use: red, lavender, green, grey, light blue, yellow.", "لكل لون أنبوب اذكر مضافه واستعماله الرئيس: الأحمر، البنفسجي، الأخضر، الرمادي، الأزرق الفاتح، الأصفر.",
+    "Red: no additive (silica clot activator) → serum biochemistry (glucose, lipids, enzymes). Lavender: EDTA → hematology (CBC, HbA1c, blood film). Green: heparin → chemistry, ammonia, insulin. Grey: sodium fluoride → glucose tolerance / alcohol. Light blue: sodium citrate → coagulation (PT, PTT). Yellow: SPS/ACD → cultures and cellular/HLA/paternity studies.",
+    "الأحمر: بلا مضاف (سيليكا منشّط تخثّر) ← كيمياء المصل (السكر، الدهون، الإنزيمات). البنفسجي: EDTA ← أمراض الدم (CBC، HbA1c، الفيلم الدموي). الأخضر: الهيبارين ← الكيمياء، الأمونيا، الأنسولين. الرمادي: فلوريد الصوديوم ← تحمّل الغلوكوز/الكحول. الأزرق: سترات الصوديوم ← التخثّر (PT، PTT). الأصفر: SPS/ACD ← المزارع والدراسات الخلوية/HLA/الأبوّة."),
+ IM("Explain how EDTA, sodium citrate and heparin each prevent clotting, and how the red tube differs.", "اشرح كيف يمنع كلٌّ من EDTA وسترات الصوديوم والهيبارين التخثّر، وكيف يختلف الأنبوب الأحمر.",
+    "EDTA and sodium citrate both bind/remove calcium so no clot forms (citrate is reversible). Heparin instead inhibits the formation of thrombin. The red tube has NO anticoagulant — its silica particles are clot activators, so the blood clots and gives serum.",
+    "يربط كلٌّ من EDTA وسترات الصوديوم الكالسيوم ويزيلانه فلا يتكوّن تخثّر (والسترات عكسية). أما الهيبارين فيثبّط تكوّن الثرومبين. والأنبوب الأحمر بلا مانع تخثّر — جزيئات السيليكا فيه منشّطات تخثّر، فيتخثّر الدم ويعطي المصل."),
+ IM("Student homework: why is EDTA preferred over sodium citrate for a complete blood count (CBC)?", "واجب الطالب: لماذا يُفضَّل EDTA على سترات الصوديوم لتعداد الدم الكامل (CBC)؟",
+    "EDTA best preserves cell morphology and gives accurate cell counts and does not dilute the sample. Sodium citrate is a liquid additive that dilutes the blood (fixed blood-to-additive ratio) and is reserved for coagulation tests, so it is not suitable for a CBC.",
+    "EDTA يحفظ شكل الخلايا جيدًا ويعطي عدًّا دقيقًا للخلايا ولا يخفّف العيّنة. أما سترات الصوديوم فمضاف سائل يخفّف الدم (بنسبة ثابتة دم:مضاف) وتُحفظ لفحوص التخثّر، فلا تصلح لتعداد الدم."),
+]
+Qs = {"title_en": "Lab Safety and Blood Collecting Tubes — Comprehensive Questions (MCQ + SA)", "title_ar": "السلامة في المختبر وأنابيب جمع الدم — أسئلة شاملة (اختيار + مقالية)",
+      "answers_inline": True, "mcq": ltr_all(mcq), "tf": [], "traps": [], "important": ltr_all(important)}
 d = "/home/user/-/" + FOLDER
 os.makedirs(d, exist_ok=True)
 json.dump({"meta": meta, "questions": Qs}, open(d + "/lecture.json", "w"), ensure_ascii=False, indent=1)

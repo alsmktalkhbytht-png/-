@@ -15,8 +15,8 @@
   "file_name": "BIOS - انزيمات سريرية عملي - مقدمة في الإنزيمات - بنك أسئلة شامل"
  },
  "questions": {
-  "title_en": "Introduction of Enzymes — Comprehensive MCQs",
-  "title_ar": "مقدمة في الإنزيمات — أسئلة اختيار متعدّد شاملة",
+  "title_en": "Introduction of Enzymes — Comprehensive Questions (MCQ + SA)",
+  "title_ar": "مقدمة في الإنزيمات — أسئلة شاملة (اختيار + مقالية)",
   "answers_inline": true,
   "mcq": [
    {
@@ -725,6 +725,55 @@
   ],
   "tf": [],
   "traps": [],
-  "important": []
+  "important": [
+   {
+    "en": "Define an enzyme and state its main functions.",
+    "ar": "عرّف الإنزيم واذكر وظائفه الرئيسة.",
+    "answer_en": "An enzyme is a biological (protein) catalyst that brings about chemical reactions in the living cell. Functions: digestion, respiration (breathing), and the synthesis and breakdown of carbohydrates, proteins and fats.",
+    "answer_ar": "الإنزيم محفّز حيوي (بروتيني) يُحدث التفاعلات الكيميائية في الخلية الحيّة. ووظائفه: الهضم، والتنفّس، وبناء وتحليل الكربوهيدرات والبروتينات والدهون."
+   },
+   {
+    "en": "List the general properties of enzymes.",
+    "ar": "عدّد الصفات العامة للإنزيمات.",
+    "answer_en": "1) All enzymes are proteins. 2) They accelerate the reaction but do not alter its equilibrium, are not consumed, and are needed in very small quantities. 3) They are highly specific for their substrate. 4) They possess an active site where interaction with the substrate takes place.",
+    "answer_ar": "1) كل الإنزيمات بروتينات. 2) تُسرّع التفاعل لكنها لا تغيّر اتّزانه، ولا تُستهلك، وتُحتاج بكميات صغيرة جدًا. 3) عالية النوعية تجاه مادتها. 4) لها موقع فعّال يحدث فيه التفاعل مع المادة."
+   },
+   {
+    "en": "Differentiate between endoenzymes and exoenzymes, with an example of each.",
+    "ar": "فرّق بين الإنزيمات الداخلية والخارجية مع مثال لكل منهما.",
+    "answer_en": "Endoenzymes function within the cell (most enzymes), e.g. metabolic oxidase. Exoenzymes are liberated by cells and catalyze reactions outside the cell, e.g. digestive enzymes (amylase, lipase, protease).",
+    "answer_ar": "الإنزيمات الداخلية تعمل داخل الخلية (معظم الإنزيمات)، مثل الأوكسيديز الأيضي. والإنزيمات الخارجية تُطلقها الخلايا وتحفّز تفاعلات خارج الخلية، مثل الإنزيمات الهضمية (الأميليز، اللايبيز، البروتييز)."
+   },
+   {
+    "en": "Classify enzymes according to their chemical composition.",
+    "ar": "صنّف الإنزيمات حسب تركيبها الكيميائي.",
+    "answer_en": "1) Enzymes made of protein only (e.g. pepsin, trypsin — amino acids joined by peptide bonds). 2) Protein (enzyme) + coenzyme = holoenzyme (protein part = apoenzyme). 3) Protein (enzyme) + prosthetic group (cofactor) = holoenzyme.",
+    "answer_ar": "1) إنزيمات من بروتين فقط (مثل البيبسين والتربسين — أحماض أمينية بروابط ببتيدية). 2) بروتين (إنزيم) + مرافق إنزيمي = هولوإنزيم (الجزء البروتيني = أبوإنزيم). 3) بروتين (إنزيم) + مجموعة اصطناعية (عامل مرافق) = هولوإنزيم."
+   },
+   {
+    "en": "Define: holoenzyme, apoenzyme, coenzyme, cofactor, active site, and zymogen.",
+    "ar": "عرّف: الهولوإنزيم، الأبوإنزيم، المرافق الإنزيمي، العامل المرافق، الموقع الفعّال، والزيموجين.",
+    "answer_en": "Holoenzyme = the whole active enzyme (apoenzyme + prosthetic group). Apoenzyme = the protein part (inactive alone). Coenzyme = an organic molecule that helps catalysis. Cofactor = a catalytically essential molecule/ion bound to the enzyme. Active site = the point where the enzyme interacts with the substrate. Zymogen = the INACTIVE precursor of an enzyme (⚠ the source wrongly calls it the “active” form).",
+    "answer_ar": "الهولوإنزيم = الإنزيم الكامل الفعّال (أبوإنزيم + مجموعة اصطناعية). الأبوإنزيم = الجزء البروتيني (خامل وحده). المرافق الإنزيمي = جزيء عضوي يساعد في التحفيز. العامل المرافق = جزيء/أيون ضروري للتحفيز مرتبط بالإنزيم. الموقع الفعّال = النقطة التي يتفاعل فيها الإنزيم مع المادة. الزيموجين = السليفة غير الفعّالة للإنزيم (⚠ الملف يسمّيها خطأً «الصورة الفعّالة»)."
+   },
+   {
+    "en": "List the factors affecting enzyme activity and the effect of each.",
+    "ar": "عدّد العوامل المؤثّرة في نشاط الإنزيم وأثر كلٍّ منها.",
+    "answer_en": "1) Enzyme concentration: doubling the enzyme doubles the reaction rate. 2) Substrate concentration: the rate is directly proportional to the available substrate. 3) Temperature: the rate rises with temperature up to a limit (optimum ≈ 37°C). 4) pH value.",
+    "answer_ar": "1) تركيز الإنزيم: مضاعفة الإنزيم تضاعف معدّل التفاعل. 2) تركيز المادة: المعدّل يتناسب طرديًا مع المادة المتاحة. 3) درجة الحرارة: يرتفع المعدّل مع الحرارة حتى حدٍّ معيّن (المثلى نحو 37°م). 4) قيمة الأس الهيدروجيني."
+   },
+   {
+    "en": "Give examples of enzymes found in blood with their abbreviations.",
+    "ar": "اذكر أمثلة على الإنزيمات الموجودة في الدم مع اختصاراتها.",
+    "answer_en": "AST (aspartate aminotransferase), ALT (alanine aminotransferase), LDH (lactate dehydrogenase), ALP/ALK (alkaline phosphatase), amylase and lipase.",
+    "answer_ar": "`AST` (ناقلة أمين الأسبارتات)، `ALT` (ناقلة أمين الألانين)، `LDH` (نازعة هيدروجين اللاكتات)، `ALP/ALK` (الفوسفاتيز القلوي)، والأميليز واللايبيز."
+   },
+   {
+    "en": "Using the diagram, explain how an inactive apoenzyme becomes an active holoenzyme.",
+    "ar": "باستعمال الشكل، اشرح كيف يصبح الأبوإنزيم الخامل هولوإنزيمًا فعّالًا.",
+    "answer_en": "The apoenzyme is the protein part and is inactive on its own. When it binds its cofactor (the nonprotein part / activator), it becomes the holoenzyme — the whole, active enzyme that can then bind the substrate at its active site.",
+    "answer_ar": "الأبوإنزيم هو الجزء البروتيني وهو خامل وحده. وعندما يرتبط بعامله المرافق (الجزء غير البروتيني/المنشّط) يصبح هولوإنزيمًا — الإنزيم الكامل الفعّال الذي يرتبط بعدها بالمادة في موقعه الفعّال."
+   }
+  ]
  }
 }
