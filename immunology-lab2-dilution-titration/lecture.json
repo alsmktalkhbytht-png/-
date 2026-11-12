@@ -1,0 +1,1734 @@
+{
+ "meta": {
+  "subject_en": "Practical Immunology",
+  "subject_ar": "علم المناعة العملي",
+  "short_ar": "مناعة",
+  "instructor": "م.م. جنان خليل",
+  "unit_en": "Lab 2",
+  "unit_ar": "العملي 2",
+  "unit_label": "LAB",
+  "unit_no": "2",
+  "title_en": "Normality, Dilution & Titration methods",
+  "title_ar": "العيارية والتخفيف وطرائق المعايرة",
+  "department": "تقنيات المختبرات الطبية",
+  "stage": "The third stage — الثالثة",
+  "kind": "Laboratories — عملي"
+ },
+ "blocks": [
+  {
+   "t": "section",
+   "en": "Basic definitions",
+   "ar": "التعاريف الأساسية"
+  },
+  {
+   "t": "note",
+   "en": "Medical Lab. Techniques · Practical Immunology \\3rd stage · Assistant Lecturer \\ Jinan Khaleel · Lab. No.(2)",
+   "ar": "تقنيات المختبرات الطبية · علم المناعة العملي \\ المرحلة الثالثة · المدرّس المساعد \\ جنان خليل · العملي رقم (2)",
+   "label": [
+    "Lab sheet",
+    "ورقة العملي"
+   ]
+  },
+  {
+   "t": "h2",
+   "en": "**Normality, Dilution & Titration methods**",
+   "ar": "**العيارية والتخفيف وطرائق المعايرة (تحديد العيار)**"
+  },
+  {
+   "t": "card",
+   "en": "**Normality N:** Represents the number of equivalents contained in one liter solution or the number of milli equivalents of solute contained in one milliliter of solution .",
+   "ar": "**العيارية (`Normality`) `N`:** تمثّل عدد المكافئات الغرامية (`equivalents`) الموجودة في لتر واحد من المحلول، أو عدد المكافئات الملّية (`milliequivalents`) من المذاب الموجودة في مليلتر واحد من المحلول."
+  },
+  {
+   "t": "note",
+   "en": [
+    "N = number of gram-equivalents of solute ÷ volume of solution in litres (= molarity × number of H⁺, OH⁻ or charges per molecule).",
+    "Examples: 1 N NaOH = 40 g in 1 L (molecular weight 40, one OH⁻); 1 N H₂SO₄ = 49 g in 1 L (98 ÷ 2, two H⁺).",
+    "To dilute a stock of known normality use N₁V₁ = N₂V₂: 10 ml of 1 N HCl + 90 ml water = 100 ml of 0.1 N HCl."
+   ],
+   "ar": [
+    "العيارية = عدد المكافئات الغرامية من المذاب ÷ حجم المحلول باللتر (= المولارية × عدد أيونات `H⁺` أو `OH⁻` أو الشحنات في الجزيئة).",
+    "أمثلة: محلول `NaOH` بعيارية واحد يحتوي 40 غرامًا في اللتر (الوزن الجزيئي 40، وأيون `OH⁻` واحد)؛ ومحلول `H₂SO₄` بعيارية واحد يحتوي 49 غرامًا في اللتر (98 مقسومًا على 2، أيونا `H⁺`).",
+    "ولتخفيف محلول أصلي معروف العيارية استعمل القانون `N₁V₁ = N₂V₂`: فمزج 10 مل من `HCl` بعيارية واحد مع 90 مل ماء يعطي 100 مل من `HCl` بعيارية 0.1."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Dilution:** is the process of making a solution weaker from stronger ones.",
+   "ar": "**التخفيف (`Dilution`):** هو عملية تحضير محلول أضعف (أقلّ تركيزًا) من محاليل أقوى (أكثر تركيزًا)."
+  },
+  {
+   "t": "card",
+   "en": [
+    "**Titer:** is measure the amount of antibody or antigen in the body fluid.",
+    "Or the concentration (maximal dilution) of specimen (antibodies or antigens) that gives visible agglutination."
+   ],
+   "ar": [
+    "**العيار (`Titer`):** هو قياس كمية الضدّ أو المستضد في سائل الجسم.",
+    "أو هو تركيز العيّنة (من الأضداد أو المستضدات) — أي أعلى تخفيف لها — الذي يعطي تلازنًا مرئيًا."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"is measure\" = **is a measure**.",
+    "The titer is written as the **reciprocal of the highest dilution** that still gives a visible reaction: agglutination up to 1:160 and none at 1:320 → titer = **160** (also written 1:160).",
+    "The higher the titer, the more antibody (or antigen) the specimen contains."
+   ],
+   "ar": [
+    "\"`is measure`\" = **`is a measure`** (هو مقياس).",
+    "يُكتب العيار على أنه **مقلوب أعلى تخفيف** ما زال يعطي تفاعلًا مرئيًا: تلازن حتى `1:160` ولا تلازن عند `1:320` ← العيار = **160** (ويُكتب أيضًا `1:160`).",
+    "وكلّما ارتفع العيار زادت كمية الضدّ (أو المستضد) في العيّنة."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "card",
+   "en": "**Serial Dilutions** - A serial dilution is any dilution where the concentration decreases by the same quantity in each successive step by a constant amount = N.",
+   "ar": "**التخفيفات المتسلسلة (`Serial Dilutions`)** - التخفيف المتسلسل هو أيّ تخفيف يقلّ فيه التركيز بالمقدار نفسه في كل خطوة متتالية، أي بمقدار ثابت = `N`."
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"The same quantity … a constant amount\" means the same **factor (fold)** at every step: ×2 in a two-fold series (1:10 → 1:20 → 1:40), ×10 in a ten-fold series.",
+    "So the N here is the dilution factor of each step, not normality."
+   ],
+   "ar": [
+    "عبارة «المقدار نفسه … مقدار ثابت» تعني **المعامل (عدد المرّات) نفسه** في كل خطوة: ×2 في السلسلة الثنائية (`1:10` ← `1:20` ← `1:40`)، و×10 في السلسلة العشرية.",
+    "فالحرف `N` هنا هو معامل التخفيف في كل خطوة، وليس العيارية."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Normality** = equivalents per 1 L of solution (= milliequivalents per 1 ml).",
+    "**Dilution** = making a weaker solution from a stronger one.",
+    "**Titer** = the maximal dilution of the specimen that still gives **visible agglutination**.",
+    "**Serial dilution** = the concentration falls by the **same factor** at every step."
+   ],
+   "ar": [
+    "**العيارية** = المكافئات في لتر واحد من المحلول (= المكافئات الملّية في مليلتر واحد).",
+    "**التخفيف** = تحضير محلول أضعف من محلول أقوى.",
+    "**العيار** = أعلى تخفيف للعيّنة ما زال يعطي **تلازنًا مرئيًا**.",
+    "**التخفيف المتسلسل** = يقلّ التركيز **بالمعامل نفسه** في كل خطوة."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Solute, solvent and solution",
+   "ar": "المذاب والمذيب والمحلول"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    [
+     "**A solute:** is defined as the substance that is dissolved in a solution.",
+     "For solutions of fluids, the solvent is present in greater amount than the [[cut]]"
+    ],
+    [
+     "**A solvent:** is a substance that dissolves a solute, resulting in a solution.",
+     "The relationship between these two is expressed as a equation."
+    ]
+   ],
+   "list_ar": [
+    [
+     "**المذاب (`solute`):** يُعرَّف بأنه المادة التي تُذاب في المحلول.",
+     "وفي محاليل السوائل يكون المذيب موجودًا بكمية أكبر من [[قطع]]"
+    ],
+    [
+     "**المذيب (`solvent`):** هو مادة تُذيب المذاب، فينتج عن ذلك محلول.",
+     "ويُعبَّر عن العلاقة بين هذين الاثنين بمعادلة."
+    ]
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/solvent-solute-solution.png",
+   "en": "Solvent + solute → solution (figure text: solvent, solute, solution)",
+   "ar": "المذيب + المذاب ← المحلول (كتابات الشكل: `solvent` = المذيب، `solute` = المذاب، `solution` = المحلول)",
+   "h": "34mm"
+  },
+  {
+   "t": "note",
+   "en": [
+    "The solute sentence is cut in the sheet; complete: \"…the solvent is present in greater amount than the **solute**.\""
+   ],
+   "ar": [
+    "جملة المذاب مقطوعة في الورقة؛ وتكملتها: «…يكون المذيب موجودًا بكمية أكبر من **المذاب**»."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"a equation\" = **an equation**: solvent + solute → solution (the figure above)."
+   ],
+   "ar": [
+    "\"`a equation`\" = **`an equation`** (معادلة): المذيب + المذاب ← المحلول (الشكل أعلاه)."
+   ],
+   "label": [
+    "BIOS note (continued)",
+    "ملاحظة BIOS (تكملة)"
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "card",
+   "en": "**Types of solvent**",
+   "ar": "**أنواع المذيبات**",
+   "list_en": [
+    "**Water** (tape water, distilled water, deionized distilled water).",
+    "**Normal saline** (0.9%).",
+    "**Buffers.**",
+    "**Alcohols.**",
+    "**Nutrient broth and peptone water.**"
+   ],
+   "list_ar": [
+    "**الماء** (ماء الحنفية، الماء المقطّر، الماء المقطّر منزوع الأيونات).",
+    "**المحلول الملحي الطبيعي** (0.9%).",
+    "**المحاليل المنظّمة (الدارئة).**",
+    "**الكحولات.**",
+    "**المرق المغذّي وماء الببتون.**"
+   ]
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Solvent",
+     "المذيب"
+    ],
+    [
+     "Note / use",
+     "ملاحظة / استعمال"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**Water**",
+      "**الماء**"
+     ],
+     [
+      "tap → washing; distilled; deionized distilled = purest",
+      "الحنفية ← للغسل؛ المقطّر؛ المقطّر منزوع الأيونات = الأنقى"
+     ]
+    ],
+    [
+     [
+      "**Normal saline**",
+      "**المحلول الملحي الطبيعي**"
+     ],
+     [
+      "0.9 g NaCl per 100 ml; isotonic → no red-cell lysis",
+      "0.9 غرام `NaCl` في 100 مل؛ متساوي التوتّر ← لا يحلّل الكريات الحمر"
+     ]
+    ],
+    [
+     [
+      "**Buffers**",
+      "**المحاليل المنظّمة**"
+     ],
+     [
+      "keep the pH constant (e.g. PBS, pH 7.2–7.4)",
+      "تثبّت الأس الهيدروجيني (مثل `PBS`، بين 7.2 و7.4)"
+     ]
+    ],
+    [
+     [
+      "**Alcohols**",
+      "**الكحولات**"
+     ],
+     [
+      "dissolve what water cannot (some stains, lipids)",
+      "تُذيب ما لا يذوب في الماء (بعض الصبغات والدهون)"
+     ]
+    ],
+    [
+     [
+      "**Broth, peptone water**",
+      "**المرق، ماء الببتون**"
+     ],
+     [
+      "keep bacteria alive when diluting for counts",
+      "تُبقي البكتيريا حيّة عند التخفيف لعدّها"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    26,
+    74
+   ],
+   "style": "summary",
+   "label_en": "BIOS: the five solvents",
+   "label_ar": "`BIOS`: المذيبات الخمسة"
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"tape water\" = **tap water** (ماء الحنفية).",
+    "The table is a BIOS addition; the sheet only lists the five solvents."
+   ],
+   "ar": [
+    "\"`tape water`\" = **`tap water`** (ماء الحنفية).",
+    "والجدول إضافة من `BIOS`؛ أمّا الورقة فتذكر المذيبات الخمسة فقط."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Solute** = the substance dissolved; **solvent** = the substance that dissolves it (present in the greater amount).",
+    "Solvent + solute → **solution**.",
+    "5 solvents: **water**, **normal saline 0.9%**, **buffers**, **alcohols**, **nutrient broth & peptone water**."
+   ],
+   "ar": [
+    "**المذاب** = المادة التي تُذاب؛ و**المذيب** = المادة التي تُذيبها (وتكون بالكمية الأكبر).",
+    "المذيب + المذاب ← **المحلول**.",
+    "5 مذيبات: **الماء**، **المحلول الملحي الطبيعي 0.9%**، **المحاليل المنظّمة**، **الكحولات**، **المرق المغذّي وماء الببتون**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Application of Dilution",
+   "ar": "تطبيقات التخفيف"
+  },
+  {
+   "t": "card",
+   "en": "**Application of Dilution**",
+   "ar": "**تطبيقات التخفيف**",
+   "list_en": [
+    "Dilution of Antigens or Antibodies.",
+    "Calculate the Titer.",
+    "For diagnosis of Microorganisms.",
+    "Counting of Bacteria."
+   ],
+   "list_ar": [
+    "تخفيف المستضدات أو الأضداد.",
+    "حساب العيار.",
+    "لتشخيص الأحياء المجهرية.",
+    "عدّ البكتيريا."
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Diagnosis: a **rising titer** (usually a four-fold rise between an early and a later serum) points to a current infection."
+   ],
+   "ar": [
+    "التشخيص: **ارتفاع العيار** (عادةً ارتفاع أربعة أضعاف بين مصل مبكّر ومصل لاحق) يدلّ على عدوى حالية."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ],
+   "_ff": 2
+  },
+  {
+   "t": "note",
+   "en": [
+    "Counting bacteria: a culture is diluted ten-fold step by step and plated; count = colonies × dilution factor ÷ volume plated (e.g. 50 colonies from 0.1 ml of the 10⁻⁵ tube = 5 × 10⁷ bacteria per ml)."
+   ],
+   "ar": [
+    "عدّ البكتيريا: تُخفَّف المزرعة عشرة أضعاف خطوة بعد خطوة وتُزرع؛ العدد = المستعمرات × معامل التخفيف ÷ الحجم المزروع (مثلًا 50 مستعمرة من 0.1 مل من أنبوب التخفيف `10⁻⁵` = `5 × 10⁷` بكتيريا في المليلتر)."
+   ],
+   "label": [
+    "BIOS note (continued)",
+    "ملاحظة BIOS (تكملة)"
+   ],
+   "_ff": 2
+  },
+  {
+   "t": "card",
+   "en": "To prepare a simple dilution of a substance we need:",
+   "ar": "لتحضير تخفيف بسيط لمادة ما نحتاج إلى:",
+   "list_en": [
+    [
+     "**Dilute** (the concentrate), is added to a fixed volume of diluent.",
+     "Frequently, the concentrate consists of a serum specimen."
+    ],
+    "**Diluent**, Distal water, Normal saline or a buffered solution.",
+    "**Sets of tubes.**"
+   ],
+   "list_ar": [
+    [
+     "**المادة المراد تخفيفها (`Dilute`)** (المادة المركّزة) تُضاف إلى حجم ثابت من المخفِّف.",
+     "وكثيرًا ما تكون المادة المركّزة عيّنة مصل."
+    ],
+    "**المخفِّف (`Diluent`)**: الماء المقطّر أو المحلول الملحي الطبيعي أو محلول منظّم.",
+    "**مجموعات من الأنابيب.**"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"Distal water\" = **distilled water**.",
+    "Dilution = volume of sample ÷ (volume of sample + volume of diluent): 0.1 ml serum + 0.9 ml diluent = 0.1 ÷ 1.0 = **1:10**; the dilution factor is the reciprocal (10)."
+   ],
+   "ar": [
+    "\"`Distal water`\" = **`distilled water`** (الماء المقطّر).",
+    "التخفيف = حجم العيّنة ÷ (حجم العيّنة + حجم المخفِّف): 0.1 مل مصل + 0.9 مل مخفِّف = `0.1 ÷ 1.0` = **`1:10`**؛ ومعامل التخفيف هو مقلوبه (10)."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "Uses: dilute antigens/antibodies, calculate the **titer**, diagnose microorganisms, **count bacteria**.",
+    "Simple dilution needs: the **concentrate** (often serum) + a fixed volume of **diluent** + **tubes**.",
+    "0.1 ml + 0.9 ml = **1:10**."
+   ],
+   "ar": [
+    "الاستعمالات: تخفيف المستضدات/الأضداد، حساب **العيار**، تشخيص الأحياء المجهرية، **عدّ البكتيريا**.",
+    "التخفيف البسيط يحتاج: **المادة المركّزة** (غالبًا مصل) + حجمًا ثابتًا من **المخفِّف** + **أنابيب**.",
+    "0.1 مل + 0.9 مل = **`1:10`**."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Serial double dilution",
+   "ar": "التخفيف المتسلسل المضاعف"
+  },
+  {
+   "t": "h2",
+   "en": "**Serial double dilution (Two fold dilution) Procedure**",
+   "ar": "**طريقة التخفيف المتسلسل المضاعف (التخفيف الثنائي)**"
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Preparation of serial doubling dilutions of serum and control.",
+    "Place sets of 10 tubes in a rack; number them Al-Al0.",
+    "Place 0.9 ml of buffered solution or normal saline in the first tube and 0.5 ml in each succeeding tube.",
+    "Place 0.1 ml of test serum in the first tube in row A.",
+    [
+     "Mix thoroughly and transfer 0.5 ml of the mixture to the second tube.",
+     "Mix the contents and transfer 0.5 ml of the mixture to the third tube.",
+     "This process is continued until tube 8, after mixing, 0.5 ml of the serum dilution is discarded."
+    ],
+    [
+     "To each tube is then added 0.5 ml of antigen.",
+     "The contents of the tube are thoroughly mixed, thus giving final serum dilutions of 1:10, 1:20, 1:40 etc."
+    ],
+    "Tube 9 is a positive control (positive serum plus antigen); tube 10 is a negative control, tube containing the diluent and the antigen only."
+   ],
+   "list_ar": [
+    "تحضير تخفيفات مضاعفة متسلسلة من المصل ومن السيطرة.",
+    "ضع مجموعات من 10 أنابيب في حامل؛ ورقّمها من `A1` إلى `A10`.",
+    "ضع 0.9 مل من المحلول المنظّم أو المحلول الملحي الطبيعي في الأنبوب الأول، و0.5 مل في كل أنبوب يليه.",
+    "ضع 0.1 مل من مصل الاختبار في الأنبوب الأول من الصف `A`.",
+    [
+     "امزج جيدًا وانقل 0.5 مل من الخليط إلى الأنبوب الثاني.",
+     "امزج المحتويات وانقل 0.5 مل من الخليط إلى الأنبوب الثالث.",
+     "وتستمرّ هذه العملية حتى الأنبوب 8، وبعد المزج يُهمل 0.5 مل من تخفيف المصل."
+    ],
+    [
+     "ثم يُضاف إلى كل أنبوب 0.5 مل من المستضد.",
+     "وتُمزج محتويات الأنبوب جيدًا، فتعطي تخفيفات نهائية للمصل هي `1:10` و`1:20` و`1:40` وهكذا."
+    ],
+    "الأنبوب 9 سيطرة موجبة (مصل موجب مع المستضد)؛ والأنبوب 10 سيطرة سالبة، وهو أنبوب يحتوي المخفِّف والمستضد فقط."
+   ]
+  },
+  {
+   "t": "figure",
+   "src": "assets/serial-dilution.png",
+   "en": "Serial two-fold dilution of serum in tubes 1A–10A",
+   "ar": "التخفيف الثنائي المتسلسل للمصل في الأنابيب من `1A` إلى `10A`",
+   "h": "88mm"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Figure text",
+     "كتابات الشكل"
+    ],
+    [
+     "Translation",
+     "الترجمة"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**serum** · 0.1ml serum",
+      "**المصل** · 0.1 مل مصل (في الأنبوب `1A`)"
+     ]
+    ],
+    [
+     [
+      "**Diluent buffer** · 0.9ml diluent · 0.5 ml diluent",
+      "**المحلول المنظّم المخفِّف** · 0.9 مل مخفِّف (الأنبوب الأول) · 0.5 مل مخفِّف (باقي الأنابيب)"
+     ]
+    ],
+    [
+     [
+      "**1A … 10A**",
+      "أرقام الأنابيب من 1 إلى 10 في الصف `A`"
+     ]
+    ],
+    [
+     [
+      "**0.5 ml** (red arrows)",
+      "**0.5 مل** (الأسهم الحمراء): يُنقل من كل أنبوب إلى الذي يليه"
+     ]
+    ],
+    [
+     [
+      "**0.5 ml discard**",
+      "**يُهمل 0.5 مل** (من الأنبوب الأخير)"
+     ]
+    ],
+    [
+     [
+      "1/10, 1/20, 1/40, 1/80, 1/160, 1/180, 1/320, 1/640, 1/1280, 1/2560",
+      "تخفيف المصل في كل أنبوب بالترتيب (انظر ملاحظة `BIOS`)"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    42,
+    58
+   ],
+   "label_en": "Figure text",
+   "label_ar": "كتابات الشكل"
+  },
+  {
+   "t": "note",
+   "en": [
+    "\"Al-Al0\" = **A1–A10** (the digit 1 printed as the letter l)."
+   ],
+   "ar": [
+    "\"`Al-Al0`\" = **`A1–A10`** (الرقم 1 مطبوع كحرف `l`)."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ],
+   "_ff": 3
+  },
+  {
+   "t": "note",
+   "en": [
+    "Figure slip: tube 6A reads **1/180**; doubling gives **1/320**, so the correct row is 1/10, 1/20, 1/40, 1/80, 1/160, 1/320, 1/640, 1/1280, 1/2560, 1/5120.",
+    "The figure also carries the serum through all ten tubes; in the sheet's procedure the dilution stops at tube 8 (0.5 ml discarded) because tubes 9 and 10 are the positive and negative controls."
+   ],
+   "ar": [
+    "خطأ في الشكل: الأنبوب `6A` مكتوب عليه **`1/180`**؛ والمضاعفة تعطي **`1/320`**، فبعد `1/160` يكون التسلسل الصحيح `1/320` ثم `1/640` ثم `1/1280` ثم `1/2560` ثم `1/5120`.",
+    "والشكل أيضًا ينقل المصل عبر الأنابيب العشرة كلّها؛ أمّا في طريقة الورقة فيتوقّف التخفيف عند الأنبوب 8 (ويُهمل 0.5 مل) لأن الأنبوبين 9 و10 هما السيطرتان الموجبة والسالبة."
+   ],
+   "label": [
+    "BIOS note (continued)",
+    "ملاحظة BIOS (تكملة)"
+   ],
+   "_ff": 3
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Tube",
+     "الأنبوب"
+    ],
+    [
+     "Contents (ml)",
+     "المحتويات (مل)"
+    ],
+    [
+     "Serum dilution (sheet)",
+     "تخفيف المصل (الورقة)"
+    ],
+    [
+     "After + 0.5 ml antigen",
+     "بعد إضافة 0.5 مل مستضد"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**1**",
+      "**1**"
+     ],
+     [
+      "0.9 diluent + 0.1 serum; 0.5 moved on",
+      "0.9 مخفِّف + 0.1 مصل؛ يُنقل 0.5"
+     ],
+     "1:10",
+     "1:20"
+    ],
+    [
+     [
+      "**2**",
+      "**2**"
+     ],
+     [
+      "0.5 diluent + 0.5 from tube 1",
+      "0.5 مخفِّف + 0.5 من الأنبوب 1"
+     ],
+     "1:20",
+     "1:40"
+    ],
+    [
+     [
+      "**3**",
+      "**3**"
+     ],
+     [
+      "0.5 diluent + 0.5 from tube 2",
+      "0.5 مخفِّف + 0.5 من الأنبوب 2"
+     ],
+     "1:40",
+     "1:80"
+    ],
+    [
+     [
+      "**4**",
+      "**4**"
+     ],
+     [
+      "0.5 diluent + 0.5 from tube 3",
+      "0.5 مخفِّف + 0.5 من الأنبوب 3"
+     ],
+     "1:80",
+     "1:160"
+    ],
+    [
+     [
+      "**5**",
+      "**5**"
+     ],
+     [
+      "0.5 diluent + 0.5 from tube 4",
+      "0.5 مخفِّف + 0.5 من الأنبوب 4"
+     ],
+     "1:160",
+     "1:320"
+    ],
+    [
+     [
+      "**6**",
+      "**6**"
+     ],
+     [
+      "0.5 diluent + 0.5 from tube 5",
+      "0.5 مخفِّف + 0.5 من الأنبوب 5"
+     ],
+     "1:320",
+     "1:640"
+    ],
+    [
+     [
+      "**7**",
+      "**7**"
+     ],
+     [
+      "0.5 diluent + 0.5 from tube 6",
+      "0.5 مخفِّف + 0.5 من الأنبوب 6"
+     ],
+     "1:640",
+     "1:1280"
+    ],
+    [
+     [
+      "**8**",
+      "**8**"
+     ],
+     [
+      "0.5 diluent + 0.5 from tube 7; 0.5 discarded",
+      "0.5 مخفِّف + 0.5 من الأنبوب 7؛ يُهمل 0.5"
+     ],
+     "1:1280",
+     "1:2560"
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    10,
+    44,
+    23,
+    23
+   ],
+   "style": "summary",
+   "label_en": "BIOS: tube by tube",
+   "label_ar": "`BIOS`: أنبوبًا أنبوبًا",
+   "_ff": 4
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Tube",
+     "الأنبوب"
+    ],
+    [
+     "Contents (ml)",
+     "المحتويات (مل)"
+    ],
+    [
+     "Serum dilution (sheet)",
+     "تخفيف المصل (الورقة)"
+    ],
+    [
+     "After + 0.5 ml antigen",
+     "بعد إضافة 0.5 مل مستضد"
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "**9**",
+      "**9**"
+     ],
+     [
+      "positive serum + antigen",
+      "مصل موجب + مستضد"
+     ],
+     [
+      "positive control",
+      "سيطرة موجبة"
+     ],
+     [
+      "must agglutinate",
+      "يجب أن يتلازن"
+     ]
+    ],
+    [
+     [
+      "**10**",
+      "**10**"
+     ],
+     [
+      "diluent + antigen only",
+      "مخفِّف + مستضد فقط"
+     ],
+     [
+      "negative control",
+      "سيطرة سالبة"
+     ],
+     [
+      "no agglutination",
+      "لا تلازن"
+     ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    10,
+    44,
+    23,
+    23
+   ],
+   "style": "summary",
+   "label_en": "BIOS: tube by tube (continued)",
+   "label_ar": "`BIOS`: أنبوبًا أنبوبًا (تكملة)",
+   "_ff": 4
+  },
+  {
+   "t": "note",
+   "en": [
+    "Each of tubes 1–8 keeps 0.5 ml of serum dilution; adding 0.5 ml of antigen doubles the volume, so strictly the serum is diluted once more (1:20, 1:40, 1:80 …).",
+    "The sheet, like many lab manuals, names each tube by the serum dilution made before the antigen is added (1:10, 1:20, 1:40 …) — answer with the sheet's numbers in the exam.",
+    "Reading: the titer is the highest dilution with visible agglutination, and the test is valid only if tube 9 agglutinates and tube 10 does not."
+   ],
+   "ar": [
+    "كلّ أنبوب من 1 إلى 8 يبقى فيه 0.5 مل من تخفيف المصل؛ وإضافة 0.5 مل من المستضد تضاعف الحجم، فيُخفَّف المصل فعليًا مرّة أخرى (`1:20` و`1:40` و`1:80` …).",
+    "والورقة، مثل كثير من أدلّة المختبر، تسمّي كل أنبوب بتخفيف المصل المحضَّر قبل إضافة المستضد (`1:10` و`1:20` و`1:40` …) — أجب بأرقام الورقة في الامتحان.",
+    "القراءة: العيار هو أعلى تخفيف فيه تلازن مرئي، ولا يُعتمد الاختبار إلا إذا تلازن الأنبوب 9 ولم يتلازن الأنبوب 10."
+   ],
+   "label": [
+    "BIOS note",
+    "ملاحظة BIOS"
+   ]
+  },
+  {
+   "t": "note",
+   "en": [
+    "10 tubes A1–A10: **0.9 ml** diluent in tube 1, **0.5 ml** in the others; **0.1 ml** test serum in tube 1 → 1:10.",
+    "Mix and transfer **0.5 ml** tube to tube up to **tube 8**, then **discard 0.5 ml**.",
+    "Add **0.5 ml antigen** to every tube → 1:10, 1:20, 1:40 … (each tube double the one before).",
+    "Tube **9 = positive control** (positive serum + antigen); tube **10 = negative control** (diluent + antigen)."
+   ],
+   "ar": [
+    "10 أنابيب `A1–A10`: **0.9 مل** مخفِّف في الأنبوب 1، و**0.5 مل** في البقية؛ و**0.1 مل** من مصل الاختبار في الأنبوب 1 ← `1:10`.",
+    "امزج وانقل **0.5 مل** من أنبوب إلى آخر حتى **الأنبوب 8**، ثم **أهمل 0.5 مل**.",
+    "أضف **0.5 مل مستضد** إلى كل أنبوب ← `1:10` و`1:20` و`1:40` … (كل أنبوب ضعف الذي قبله).",
+    "الأنبوب **9 = سيطرة موجبة** (مصل موجب + مستضد)؛ والأنبوب **10 = سيطرة سالبة** (مخفِّف + مستضد)."
+   ],
+   "label": [
+    "In short",
+    "باختصار"
+   ]
+  },
+  {
+   "t": "section",
+   "en": "Key terms",
+   "ar": "أهم المصطلحات"
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
+    ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
+    [
+     "**Normality (N)**",
+     "العيارية / النورمالية"
+    ],
+    [
+     "**Equivalent / milliequivalent**",
+     "المكافئ الغرامي / المكافئ الملّي"
+    ],
+    [
+     "**Dilution**",
+     "التخفيف"
+    ],
+    [
+     "**Dilution factor**",
+     "معامل التخفيف / عامل التخفيف"
+    ],
+    [
+     "**Titer (titre)**",
+     "العيار / عيار الضدّ"
+    ],
+    [
+     "**Titration**",
+     "المعايرة / تحديد العيار"
+    ],
+    [
+     "**Serial dilution**",
+     "التخفيف المتسلسل"
+    ],
+    [
+     "**Two-fold (doubling) dilution**",
+     "التخفيف الثنائي / التخفيف المضاعف"
+    ],
+    [
+     "**Solute**",
+     "المذاب / المادة المذابة"
+    ],
+    [
+     "**Solvent**",
+     "المذيب / المادة المذيبة"
+    ],
+    [
+     "**Solution**",
+     "المحلول"
+    ],
+    [
+     "**Concentrate**",
+     "المادة المركّزة / المحلول المركّز"
+    ],
+    [
+     "**Diluent**",
+     "المخفِّف / المادة المخفِّفة"
+    ],
+    [
+     "**Normal saline**",
+     "المحلول الملحي الطبيعي / المحلول الملحي الفسيولوجي"
+    ],
+    [
+     "**Buffer**",
+     "المحلول المنظّم / المحلول الدارئ"
+    ],
+    [
+     "**Deionized distilled water**",
+     "الماء المقطّر منزوع الأيونات"
+    ],
+    [
+     "**Nutrient broth**",
+     "المرق المغذّي"
+    ],
+    [
+     "**Peptone water**",
+     "ماء الببتون"
+    ],
+    [
+     "**Agglutination**",
+     "التلازن / التراصّ"
+    ],
+    [
+     "**Positive / negative control**",
+     "السيطرة الموجبة / السيطرة السالبة"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ]
+  }
+ ],
+ "questions": {
+  "mcq": [
+   {
+    "topic_en": "Definitions",
+    "topic_ar": "التعاريف"
+   },
+   {
+    "en": "Normality represents the number of equivalents contained in:",
+    "ar": "تمثّل العيارية عدد المكافئات الموجودة في:",
+    "options": [
+     [
+      "One liter of solution",
+      "لتر واحد من المحلول"
+     ],
+     [
+      "One kilogram of solvent",
+      "كيلوغرام واحد من المذيب"
+     ],
+     [
+      "100 ml of solution",
+      "100 مل من المحلول"
+     ],
+     [
+      "One milliliter of solvent",
+      "مليلتر واحد من المذيب"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Normality also equals the number of milliequivalents of solute in:",
+    "ar": "تساوي العيارية أيضًا عدد المكافئات الملّية من المذاب في:",
+    "options": [
+     [
+      "One liter of solution",
+      "لتر واحد من المحلول"
+     ],
+     [
+      "One milliliter of solution",
+      "مليلتر واحد من المحلول"
+     ],
+     [
+      "One gram of solute",
+      "غرام واحد من المذاب"
+     ],
+     [
+      "100 ml of water",
+      "100 مل من الماء"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Dilution is the process of:",
+    "ar": "التخفيف هو عملية:",
+    "options": [
+     [
+      "Making a solution stronger",
+      "جعل المحلول أقوى"
+     ],
+     [
+      "Removing the solvent",
+      "إزالة المذيب"
+     ],
+     [
+      "Heating a solution",
+      "تسخين المحلول"
+     ],
+     [
+      "Making a weaker solution from a stronger one",
+      "تحضير محلول أضعف من محلول أقوى"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The titer is the maximal dilution of the specimen that gives:",
+    "ar": "العيار هو أعلى تخفيف للعيّنة يعطي:",
+    "options": [
+     [
+      "A colour change only",
+      "تغيّرًا في اللون فقط"
+     ],
+     [
+      "Haemolysis only",
+      "تحلّلًا دمويًا فقط"
+     ],
+     [
+      "Visible agglutination",
+      "تلازنًا مرئيًا"
+     ],
+     [
+      "No reaction",
+      "لا تفاعل"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "In a serial dilution, at each successive step the concentration:",
+    "ar": "في التخفيف المتسلسل، في كل خطوة متتالية التركيز:",
+    "options": [
+     [
+      "Stays the same",
+      "يبقى ثابتًا"
+     ],
+     [
+      "Increases by the same factor",
+      "يزداد بالمعامل نفسه"
+     ],
+     [
+      "Decreases by the same factor",
+      "يقلّ بالمعامل نفسه"
+     ],
+     [
+      "Changes at random",
+      "يتغيّر عشوائيًا"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "A higher titer means that the specimen contains:",
+    "ar": "العيار الأعلى يعني أن العيّنة تحتوي:",
+    "options": [
+     [
+      "Less antibody",
+      "أضدادًا أقل"
+     ],
+     [
+      "Only antigen",
+      "مستضدًا فقط"
+     ],
+     [
+      "No antibody",
+      "لا أضداد"
+     ],
+     [
+      "More antibody",
+      "أضدادًا أكثر"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Solutions and solvents",
+    "topic_ar": "المحاليل والمذيبات"
+   },
+   {
+    "en": "The substance that is dissolved in a solution is the:",
+    "ar": "المادة التي تُذاب في المحلول هي:",
+    "options": [
+     [
+      "Solvent",
+      "المذيب"
+     ],
+     [
+      "Solute",
+      "المذاب"
+     ],
+     [
+      "Diluent",
+      "المخفِّف"
+     ],
+     [
+      "Buffer",
+      "المحلول المنظّم"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "In solutions of fluids, the component present in the greater amount is the:",
+    "ar": "في محاليل السوائل، المكوّن الموجود بالكمية الأكبر هو:",
+    "options": [
+     [
+      "Solvent",
+      "المذيب"
+     ],
+     [
+      "Antigen",
+      "المستضد"
+     ],
+     [
+      "Serum",
+      "المصل"
+     ],
+     [
+      "Solute",
+      "المذاب"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Solvent + solute gives:",
+    "ar": "المذيب + المذاب يعطيان:",
+    "options": [
+     [
+      "A precipitate only",
+      "راسبًا فقط"
+     ],
+     [
+      "A solution",
+      "محلولًا"
+     ],
+     [
+      "A titer",
+      "عيارًا"
+     ],
+     [
+      "An antibody",
+      "ضدًّا"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The concentration of normal saline listed in the sheet is:",
+    "ar": "تركيز المحلول الملحي الطبيعي المذكور في الورقة هو:",
+    "options": [
+     [
+      "NaCl 9%",
+      "`NaCl` بتركيز 9%"
+     ],
+     [
+      "NaCl 0.09%",
+      "`NaCl` بتركيز 0.09%"
+     ],
+     [
+      "NaCl 0.9%",
+      "`NaCl` بتركيز 0.9%"
+     ],
+     [
+      "NaCl 5%",
+      "`NaCl` بتركيز 5%"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which is NOT one of the types of solvent in the sheet?",
+    "ar": "أيّ مما يلي ليس من أنواع المذيبات في الورقة؟",
+    "options": [
+     [
+      "Buffers",
+      "المحاليل المنظّمة"
+     ],
+     [
+      "Alcohols",
+      "الكحولات"
+     ],
+     [
+      "Peptone water",
+      "ماء الببتون"
+     ],
+     [
+      "Serum",
+      "المصل"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Normal saline is preferred for diluting serum and red cells because it is:",
+    "ar": "يُفضَّل المحلول الملحي الطبيعي لتخفيف المصل والكريات الحمر لأنه:",
+    "options": [
+     [
+      "Isotonic",
+      "متساوي التوتّر"
+     ],
+     [
+      "Hypotonic",
+      "ناقص التوتّر"
+     ],
+     [
+      "Hypertonic",
+      "مفرط التوتّر"
+     ],
+     [
+      "Acidic",
+      "حامضي"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Applications and simple dilution",
+    "topic_ar": "التطبيقات والتخفيف البسيط"
+   },
+   {
+    "en": "Which is an application of dilution in the sheet?",
+    "ar": "أيّ مما يلي من تطبيقات التخفيف في الورقة؟",
+    "options": [
+     [
+      "Blood grouping only",
+      "تحديد زمر الدم فقط"
+     ],
+     [
+      "Measuring blood pressure",
+      "قياس ضغط الدم"
+     ],
+     [
+      "Staining tissue",
+      "صبغ النسيج"
+     ],
+     [
+      "Counting of bacteria",
+      "عدّ البكتيريا"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In a simple dilution, the concentrate frequently consists of:",
+    "ar": "في التخفيف البسيط، كثيرًا ما تكون المادة المركّزة:",
+    "options": [
+     [
+      "A serum specimen",
+      "عيّنة مصل"
+     ],
+     [
+      "Distilled water",
+      "ماءً مقطّرًا"
+     ],
+     [
+      "Alcohol",
+      "كحولًا"
+     ],
+     [
+      "Peptone water",
+      "ماء الببتون"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The concentrate is added to:",
+    "ar": "تُضاف المادة المركّزة إلى:",
+    "options": [
+     [
+      "A variable volume of antigen",
+      "حجم متغيّر من المستضد"
+     ],
+     [
+      "A fixed volume of diluent",
+      "حجم ثابت من المخفِّف"
+     ],
+     [
+      "An empty tube only",
+      "أنبوب فارغ فقط"
+     ],
+     [
+      "Another serum",
+      "مصل آخر"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "0.1 ml of serum + 0.9 ml of diluent gives a dilution of:",
+    "ar": "0.1 مل مصل + 0.9 مل مخفِّف يعطي تخفيفًا مقداره:",
+    "options": [
+     [
+      "1:9",
+      "`1:9`"
+     ],
+     [
+      "1:100",
+      "`1:100`"
+     ],
+     [
+      "1:10",
+      "`1:10`"
+     ],
+     [
+      "1:5",
+      "`1:5`"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "To prepare 100 ml of 0.1 N HCl from 1 N HCl, you need:",
+    "ar": "لتحضير 100 مل من `HCl` بعيارية 0.1 من `HCl` بعيارية 1 تحتاج:",
+    "options": [
+     [
+      "1 ml of 1 N HCl + 99 ml water",
+      "1 مل من الحامض بعيارية 1 + 99 مل ماء"
+     ],
+     [
+      "10 ml of 1 N HCl + 90 ml water",
+      "10 مل من الحامض بعيارية 1 + 90 مل ماء"
+     ],
+     [
+      "50 ml of 1 N HCl + 50 ml water",
+      "50 مل من الحامض بعيارية 1 + 50 مل ماء"
+     ],
+     [
+      "90 ml of 1 N HCl + 10 ml water",
+      "90 مل من الحامض بعيارية 1 + 10 مل ماء"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "N₁V₁ = N₂V₂ → 1 × V₁ = 0.1 × 100 → V₁ = 10 ml.",
+    "note_ar": "`N₁V₁ = N₂V₂` ← `1 × V₁ = 0.1 × 100` ← `V₁` = 10 مل."
+   },
+   {
+    "topic_en": "Serial double dilution",
+    "topic_ar": "التخفيف المتسلسل المضاعف"
+   },
+   {
+    "en": "In the serial double dilution, the first tube receives diluent of:",
+    "ar": "في التخفيف المتسلسل المضاعف، يوضع في الأنبوب الأول من المخفِّف:",
+    "options": [
+     [
+      "0.9 ml",
+      "0.9 مل"
+     ],
+     [
+      "0.5 ml",
+      "0.5 مل"
+     ],
+     [
+      "0.1 ml",
+      "0.1 مل"
+     ],
+     [
+      "1.0 ml",
+      "1.0 مل"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Each succeeding tube receives diluent of:",
+    "ar": "يوضع في كل أنبوب يلي الأول من المخفِّف:",
+    "options": [
+     [
+      "0.9 ml",
+      "0.9 مل"
+     ],
+     [
+      "0.1 ml",
+      "0.1 مل"
+     ],
+     [
+      "0.5 ml",
+      "0.5 مل"
+     ],
+     [
+      "2 ml",
+      "2 مل"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The volume of test serum placed in the first tube is:",
+    "ar": "حجم مصل الاختبار الموضوع في الأنبوب الأول هو:",
+    "options": [
+     [
+      "0.5 ml",
+      "0.5 مل"
+     ],
+     [
+      "0.9 ml",
+      "0.9 مل"
+     ],
+     [
+      "1.0 ml",
+      "1.0 مل"
+     ],
+     [
+      "0.1 ml",
+      "0.1 مل"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The transfer process is continued until tube:",
+    "ar": "تستمرّ عملية النقل حتى الأنبوب:",
+    "options": [
+     [
+      "9",
+      "9"
+     ],
+     [
+      "10",
+      "10"
+     ],
+     [
+      "5",
+      "5"
+     ],
+     [
+      "8",
+      "8"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Tube 10 in this procedure is:",
+    "ar": "الأنبوب 10 في هذه الطريقة هو:",
+    "options": [
+     [
+      "A positive control",
+      "سيطرة موجبة"
+     ],
+     [
+      "The 1:5120 dilution",
+      "تخفيف `1:5120`"
+     ],
+     [
+      "A negative control (diluent + antigen only)",
+      "سيطرة سالبة (مخفِّف + مستضد فقط)"
+     ],
+     [
+      "The test serum tube",
+      "أنبوب مصل الاختبار"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Tube 9 contains:",
+    "ar": "يحتوي الأنبوب 9:",
+    "options": [
+     [
+      "Positive serum plus antigen",
+      "مصلًا موجبًا مع المستضد"
+     ],
+     [
+      "Test serum only",
+      "مصل الاختبار فقط"
+     ],
+     [
+      "Diluent only",
+      "مخفِّفًا فقط"
+     ],
+     [
+      "Antigen only",
+      "مستضدًا فقط"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Starting at 1:10 in a two-fold series, the dilution in tube 5 is:",
+    "ar": "بدءًا من `1:10` في سلسلة ثنائية، التخفيف في الأنبوب 5 هو:",
+    "options": [
+     [
+      "1:50",
+      "`1:50`"
+     ],
+     [
+      "1:160",
+      "`1:160`"
+     ],
+     [
+      "1:320",
+      "`1:320`"
+     ],
+     [
+      "1:80",
+      "`1:80`"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "1:10 → 1:20 → 1:40 → 1:80 → 1:160 (tube 5).",
+    "note_ar": "`1:10` ← `1:20` ← `1:40` ← `1:80` ← `1:160` (الأنبوب 5)."
+   },
+   {
+    "en": "Agglutination is seen up to 1:320 and not at 1:640. The titer is:",
+    "ar": "يُرى التلازن حتى `1:320` ولا يُرى عند `1:640`. العيار هو:",
+    "options": [
+     [
+      "160",
+      "160"
+     ],
+     [
+      "640",
+      "640"
+     ],
+     [
+      "320",
+      "320"
+     ],
+     [
+      "10",
+      "10"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Titer = reciprocal of the highest dilution that still agglutinates.",
+    "note_ar": "العيار = مقلوب أعلى تخفيف ما زال يتلازن."
+   },
+   {
+    "topic_en": "Picture questions",
+    "topic_ar": "أسئلة الصور"
+   },
+   {
+    "en": "In this figure, the red particles added to the solvent are the:",
+    "ar": "في هذا الشكل، الدقائق الحمراء المضافة إلى المذيب هي:",
+    "options": [
+     [
+      "Solute",
+      "المذاب"
+     ],
+     [
+      "Solution",
+      "المحلول"
+     ],
+     [
+      "Diluent",
+      "المخفِّف"
+     ],
+     [
+      "Buffer",
+      "المحلول المنظّم"
+     ]
+    ],
+    "answer": "a",
+    "img": "assets/solvent-solute-solution.png",
+    "img_h": "22mm"
+   },
+   {
+    "en": "In this figure, tube 6A is labelled 1/180. Following the two-fold series, it should read:",
+    "ar": "في هذا الشكل، الأنبوب `6A` مكتوب عليه `1/180`. وحسب السلسلة الثنائية يجب أن يكون:",
+    "options": [
+     [
+      "1/170",
+      "`1/170`"
+     ],
+     [
+      "1/320",
+      "`1/320`"
+     ],
+     [
+      "1/240",
+      "`1/240`"
+     ],
+     [
+      "1/360",
+      "`1/360`"
+     ]
+    ],
+    "answer": "b",
+    "img": "assets/serial-dilution.png",
+    "img_h": "42mm",
+    "note_en": "Tube 5A is 1/160; doubling gives 1/320.",
+    "note_ar": "الأنبوب `5A` هو `1/160`؛ ومضاعفته تعطي `1/320`."
+   },
+   {
+    "en": "In this figure, the volume carried from each tube to the next (red arrows) is:",
+    "ar": "في هذا الشكل، الحجم المنقول من كل أنبوب إلى التالي (الأسهم الحمراء) هو:",
+    "options": [
+     [
+      "0.1 ml",
+      "0.1 مل"
+     ],
+     [
+      "0.9 ml",
+      "0.9 مل"
+     ],
+     [
+      "1.0 ml",
+      "1.0 مل"
+     ],
+     [
+      "0.5 ml",
+      "0.5 مل"
+     ]
+    ],
+    "answer": "d",
+    "img": "assets/serial-dilution.png",
+    "img_h": "42mm"
+   }
+  ],
+  "tf": [
+   {
+    "en": "Normality is the number of equivalents contained in one liter of solution.",
+    "ar": "العيارية هي عدد المكافئات الموجودة في لتر واحد من المحلول.",
+    "answer": "T"
+   },
+   {
+    "en": "Dilution is the process of making a solution stronger from weaker ones.",
+    "ar": "التخفيف هو عملية تحضير محلول أقوى من محاليل أضعف.",
+    "answer": "F"
+   },
+   {
+    "en": "The titer is the maximal dilution of the specimen that gives visible agglutination.",
+    "ar": "العيار هو أعلى تخفيف للعيّنة يعطي تلازنًا مرئيًا.",
+    "answer": "T"
+   },
+   {
+    "en": "In a serial dilution the concentration decreases by a different amount at each step.",
+    "ar": "في التخفيف المتسلسل يقلّ التركيز بمقدار مختلف في كل خطوة.",
+    "answer": "F"
+   },
+   {
+    "en": "The solvent is the substance that dissolves the solute.",
+    "ar": "المذيب هو المادة التي تُذيب المذاب.",
+    "answer": "T"
+   },
+   {
+    "en": "Normal saline used as a solvent is 9% NaCl.",
+    "ar": "المحلول الملحي الطبيعي المستعمل مذيبًا هو `NaCl` بتركيز 9%.",
+    "answer": "F"
+   },
+   {
+    "en": "Nutrient broth and peptone water are among the types of solvent.",
+    "ar": "المرق المغذّي وماء الببتون من أنواع المذيبات.",
+    "answer": "T"
+   },
+   {
+    "en": "Counting of bacteria is an application of dilution.",
+    "ar": "عدّ البكتيريا من تطبيقات التخفيف.",
+    "answer": "T"
+   },
+   {
+    "en": "In the procedure, 0.9 ml of diluent is placed in every tube.",
+    "ar": "في الطريقة يوضع 0.9 مل من المخفِّف في كل أنبوب.",
+    "answer": "F"
+   },
+   {
+    "en": "0.5 ml of the serum dilution is discarded from tube 8.",
+    "ar": "يُهمل 0.5 مل من تخفيف المصل من الأنبوب 8.",
+    "answer": "T"
+   },
+   {
+    "en": "Tube 10 contains positive serum plus antigen.",
+    "ar": "يحتوي الأنبوب 10 مصلًا موجبًا مع المستضد.",
+    "answer": "F"
+   },
+   {
+    "en": "0.5 ml of antigen is added to each tube.",
+    "ar": "يُضاف 0.5 مل من المستضد إلى كل أنبوب.",
+    "answer": "T"
+   }
+  ],
+  "traps": [
+   {
+    "en": "0.9 ml or 0.5 ml?",
+    "ar": "0.9 مل أم 0.5 مل؟",
+    "answer_en": "Only the FIRST tube gets 0.9 ml diluent (+ 0.1 ml serum = 1:10); every other tube gets 0.5 ml.",
+    "answer_ar": "الأنبوب الأول فقط يأخذ 0.9 مل مخفِّف (+ 0.1 مل مصل = `1:10`)؛ وكل أنبوب آخر يأخذ 0.5 مل."
+   },
+   {
+    "en": "Tube 8, not tube 10",
+    "ar": "الأنبوب 8 لا الأنبوب 10",
+    "answer_en": "The serum is carried only up to tube 8, then 0.5 ml is discarded; tubes 9 and 10 are controls (the figure carries it to tube 10 — follow the text).",
+    "answer_ar": "يُنقل المصل حتى الأنبوب 8 فقط ثم يُهمل 0.5 مل؛ والأنبوبان 9 و10 سيطرتان (الشكل ينقله حتى الأنبوب 10 — اتّبع النص)."
+   },
+   {
+    "en": "Which control is which?",
+    "ar": "أيّ سيطرة هي أيّ؟",
+    "answer_en": "Tube 9 = POSITIVE control (positive serum + antigen); tube 10 = NEGATIVE control (diluent + antigen only, no serum).",
+    "answer_ar": "الأنبوب 9 = سيطرة **موجبة** (مصل موجب + مستضد)؛ والأنبوب 10 = سيطرة **سالبة** (مخفِّف + مستضد فقط، بلا مصل)."
+   },
+   {
+    "en": "Titer is a reciprocal",
+    "ar": "العيار مقلوب",
+    "answer_en": "Agglutination up to 1:160 → titer = 160 (not 1/160 as a fraction); the HIGHER the titer, the MORE antibody.",
+    "answer_ar": "تلازن حتى `1:160` ← العيار = 160 (لا الكسر `1/160`)؛ وكلّما **ارتفع** العيار زادت الأضداد."
+   },
+   {
+    "en": "Solute vs solvent",
+    "ar": "المذاب مقابل المذيب",
+    "answer_en": "Solute = what is dissolved; solvent = what dissolves it and is present in the greater amount.",
+    "answer_ar": "المذاب = ما يُذاب؛ والمذيب = ما يُذيبه ويكون بالكمية الأكبر."
+   },
+   {
+    "en": "0.9 %, not 9 %",
+    "ar": "0.9% لا 9%",
+    "answer_en": "Normal saline is 0.9% NaCl (0.9 g per 100 ml) — isotonic.",
+    "answer_ar": "المحلول الملحي الطبيعي هو `NaCl` بتركيز 0.9% (0.9 غرام في 100 مل) — متساوي التوتّر."
+   }
+  ],
+  "important": [
+   {
+    "en": "Define normality, dilution and titer.",
+    "ar": "عرّف العيارية والتخفيف والعيار.",
+    "answer_en": "Normality: the number of equivalents in one liter of solution (or milliequivalents of solute in one ml). Dilution: making a solution weaker from stronger ones. Titer: the amount of antibody or antigen in a body fluid — the maximal dilution of the specimen that gives visible agglutination.",
+    "answer_ar": "العيارية: عدد المكافئات في لتر واحد من المحلول (أو المكافئات الملّية من المذاب في مليلتر واحد). التخفيف: تحضير محلول أضعف من محاليل أقوى. العيار: كمية الضدّ أو المستضد في سائل الجسم — أعلى تخفيف للعيّنة يعطي تلازنًا مرئيًا."
+   },
+   {
+    "en": "What is a serial dilution?",
+    "ar": "ما التخفيف المتسلسل؟",
+    "answer_en": "A dilution where the concentration decreases by the same factor at each successive step (e.g. two-fold: 1:10, 1:20, 1:40 …).",
+    "answer_ar": "تخفيف يقلّ فيه التركيز بالمعامل نفسه في كل خطوة متتالية (مثلًا الثنائي: `1:10` و`1:20` و`1:40` …)."
+   },
+   {
+    "en": "Define solute and solvent, and list the types of solvent.",
+    "ar": "عرّف المذاب والمذيب، وعدّد أنواع المذيبات.",
+    "answer_en": "Solute: the substance dissolved in a solution. Solvent: the substance that dissolves a solute, giving a solution. Types: water (tap, distilled, deionized distilled), normal saline 0.9%, buffers, alcohols, nutrient broth and peptone water.",
+    "answer_ar": "المذاب: المادة التي تُذاب في المحلول. المذيب: المادة التي تُذيب المذاب فينتج محلول. الأنواع: الماء (الحنفية، المقطّر، المقطّر منزوع الأيونات)، المحلول الملحي الطبيعي 0.9%، المحاليل المنظّمة، الكحولات، المرق المغذّي وماء الببتون."
+   },
+   {
+    "en": "List the applications of dilution and what is needed for a simple dilution.",
+    "ar": "عدّد تطبيقات التخفيف وما يلزم للتخفيف البسيط.",
+    "answer_en": "Applications: dilution of antigens or antibodies; calculating the titer; diagnosis of microorganisms; counting bacteria. Needs: the concentrate (often serum) added to a fixed volume of diluent; the diluent (distilled water, normal saline or buffer); sets of tubes.",
+    "answer_ar": "التطبيقات: تخفيف المستضدات أو الأضداد؛ حساب العيار؛ تشخيص الأحياء المجهرية؛ عدّ البكتيريا. ويلزم: المادة المركّزة (غالبًا مصل) تُضاف إلى حجم ثابت من المخفِّف؛ والمخفِّف (ماء مقطّر أو محلول ملحي طبيعي أو محلول منظّم)؛ ومجموعات من الأنابيب."
+   },
+   {
+    "en": "Describe the serial double (two-fold) dilution procedure.",
+    "ar": "صف طريقة التخفيف المتسلسل المضاعف (الثنائي).",
+    "answer_en": "Number 10 tubes A1–A10. Put 0.9 ml buffer/saline in tube 1 and 0.5 ml in each other tube. Add 0.1 ml test serum to tube 1 (1:10). Mix and transfer 0.5 ml to tube 2, then to tube 3, and so on up to tube 8; discard 0.5 ml from tube 8. Add 0.5 ml antigen to each tube and mix (1:10, 1:20, 1:40 …). Tube 9 = positive control (positive serum + antigen); tube 10 = negative control (diluent + antigen).",
+    "answer_ar": "رقّم 10 أنابيب `A1–A10`. ضع 0.9 مل محلول منظّم/ملحي في الأنبوب 1 و0.5 مل في كل أنبوب آخر. أضف 0.1 مل مصل اختبار إلى الأنبوب 1 (`1:10`). امزج وانقل 0.5 مل إلى الأنبوب 2 ثم إلى 3 وهكذا حتى الأنبوب 8؛ وأهمل 0.5 مل من الأنبوب 8. أضف 0.5 مل مستضد إلى كل أنبوب وامزج (`1:10` و`1:20` و`1:40` …). الأنبوب 9 = سيطرة موجبة (مصل موجب + مستضد)؛ والأنبوب 10 = سيطرة سالبة (مخفِّف + مستضد)."
+   },
+   {
+    "en": "In this series the last tube showing agglutination is tube 6. What is the titer?",
+    "ar": "في هذه السلسلة آخر أنبوب يظهر فيه تلازن هو الأنبوب 6. ما العيار؟",
+    "answer_en": "Tube 6 = 1:320 (1:10, 1:20, 1:40, 1:80, 1:160, 1:320), so the titer = 320 — provided tube 9 agglutinates and tube 10 does not.",
+    "answer_ar": "الأنبوب 6 = `1:320` (بعد `1:10` و`1:20` و`1:40` و`1:80` و`1:160`)، إذن العيار = 320 — بشرط أن يتلازن الأنبوب 9 ولا يتلازن الأنبوب 10."
+   }
+  ]
+ }
+}

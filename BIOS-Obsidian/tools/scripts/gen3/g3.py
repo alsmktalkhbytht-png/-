@@ -1,4 +1,4 @@
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/imm456")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a7dd109e-db53-5fd3-8234-9dab3a530e24/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
 
 # Genetics theory, lecture 3 (stage 3, د. عبد سلطان) — source: Mendelian_inheritance.pptx (13 slides).
@@ -410,7 +410,7 @@ important = [
     "السيادة: TT × tt ← 100% Tt طويل. الانعزال: Tt × Tt ← 75% طويل و25% قصير. التوزيع المستقل: RrGg × RrGg ← 9/16 مستديرة وخضراء، 3/16 مستديرة وصفراء، 3/16 مجعّدة وخضراء، 1/16 مجعّدة وصفراء."),
 ]
 meta = dict(GEN, unit_en="Lecture 3", unit_ar="المحاضرة 3", unit_no="3", title_en="Mendelian inheritance", title_ar="الوراثة المندلية")
-sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad"); from bidi import ltr_all   # formulas inside Arabic stay LTR
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a7dd109e-db53-5fd3-8234-9dab3a530e24/scratchpad"); from bidi import ltr_all   # formulas inside Arabic stay LTR
 blocks, mcq, tf, traps, important = ltr_all(blocks), ltr_all(mcq), ltr_all(tf), ltr_all(traps), ltr_all(important)
 save(FOLDER, meta, blocks, mcq, tf, traps, important)
 from flowfit import fit; fit(FOLDER)   # no big gaps (fill2 >= 80%)

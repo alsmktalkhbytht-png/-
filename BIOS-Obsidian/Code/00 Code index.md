@@ -83,6 +83,7 @@
 - [[Code/im4 - i4q.py|im4/i4q.py]] → immunology-lec4-immunoglobulins
 - [[Code/im4b - qb.py|im4b/qb.py]] → immunology-lec4-immunoglobulins, immunology-lec4-mcq
 - [[Code/im5 - q5.py|im5/q5.py]] → immunology-lec5-mcq
+- [[Code/iml2 - l2.py|iml2/l2.py]] → immunology-lab2-dilution-titration
 - [[Code/iml3 - l3q.py|iml3/l3q.py]] → immunology-lab3-antigen-preparation
 - [[Code/iml4 - l4.py|iml4/l4.py]] → immunology-lab4-immunization-heart-puncture
 - [[Code/iml5 - l5.py|iml5/l5.py]] → immunology-lab5-natural-antibodies

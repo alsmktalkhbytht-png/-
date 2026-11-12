@@ -11,7 +11,7 @@ Utility script.
 ```python
 """MCQ-only banks (answer under each question) for Histology practical labs 2, 3, 4 — stage 2, م.م. جنان خليل."""
 import sys, json, os
-sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/bac")
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a7dd109e-db53-5fd3-8234-9dab3a530e24/scratchpad/bac")
 from bal import balance
 
 def Q(en, ar, opts, ans): return dict(en=en, ar=ar, options=[list(o) for o in opts], answer=ans)

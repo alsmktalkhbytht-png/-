@@ -12,9 +12,9 @@ Handouts: [[06 فهرس الملازم#immunology-lec5-mcq|immunology-lec5-mcq]]
 
 ```python
 import sys, json, os
-sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/imm456")
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a7dd109e-db53-5fd3-8234-9dab3a530e24/scratchpad/imm456")
 from ci import *            # Q TF TR IM P balance
-sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad"); from bidi import ltr_all
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a7dd109e-db53-5fd3-8234-9dab3a530e24/scratchpad"); from bidi import ltr_all
 
 # Immunology theory lecture 5 (stage 3) — Generation of antibody diversity. Source: Lec._5_antibodydiversity.ppt
 # (26 slides; "Bilad Al Rafidain University · Immunology · Class 3rd · Lec. Dr. Ahmed D. A. · Lec : 5").

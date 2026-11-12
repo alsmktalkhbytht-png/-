@@ -1207,6 +1207,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `immunology-lec2-cells-organs` | مناعة | نظري 2 |
 | `immunology-lec3-antigens` | مناعة | نظري 3 |
 | `immunology-lab4-immunization-heart-puncture` | مناعة | عملي 4 — تمنيع حيوانات المختبر وبزل القلب |
+| `immunology-lab2-dilution-titration` | مناعة | عملي 2 — العيارية والتخفيف وطرائق المعايرة |
 | `immunology-lab5-natural-antibodies` | مناعة | عملي 5 — دراسة الأضداد الطبيعية |
 | `histopathology-lab1-lab-safety` | أنسجة | عملي 1 |
 | `histopathology-lab2-samples` | أنسجة | عملي 2 |

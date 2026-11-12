@@ -1,6 +1,6 @@
-import sys, os, shutil, re; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/imm456")
+import sys, os, shutil, re; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a7dd109e-db53-5fd3-8234-9dab3a530e24/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
-sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad"); from bidi import ltr_all; from flowfit import fit
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a7dd109e-db53-5fd3-8234-9dab3a530e24/scratchpad"); from bidi import ltr_all; from flowfit import fit
 import split; split.ABBR += ("L.", "spp.")   # "the L. major homologue" is not a sentence end
 
 # Diagnostic Parasitology (theory, stage 4, Prof. Dr. Nizar Al-Khafaji) — week 9: genus Leishmania, properties of ideal
@@ -14,7 +14,7 @@ BN = lambda en, ar: N(en, _q(ar), label=["BIOS note", "ملاحظة BIOS"])
 BX = lambda en, ar: N(en, ar, label=["BIOS explanation", "شرح BIOS"])
 O = P
 FOLDER = "parasitology-week9-theory"
-SRC = "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/par9"
+SRC = "/tmp/claude-0/-home-user-kwmdkm/a7dd109e-db53-5fd3-8234-9dab3a530e24/scratchpad/par9"
 def G(te, ta, en, ar): return dict(t="group", title_en=te, title_ar=ta, en=en, ar=ar, style="light")
 def TERMS6(terms, n=6):
     head = [B("Term", "المصطلح"), "الترجمات العربية المستعملة"]
