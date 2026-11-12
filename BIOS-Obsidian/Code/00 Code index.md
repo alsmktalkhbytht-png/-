@@ -209,6 +209,7 @@
 - [[Code/pl5 - pl5.py|pl5/pl5.py]]
 - [[Code/q3 - his_mcq.py|q3/his_mcq.py]]
 - [[Code/restyle.py|restyle.py]]
+- [[Code/stq - q.py|stq/q.py]]
 - [[Code/thy - thy.py|thy/thy.py]]
 - [[Code/vir3 - v3.py|vir3/v3.py]]
 - [[Code/vir4 - v4.py|vir4/v4.py]]
