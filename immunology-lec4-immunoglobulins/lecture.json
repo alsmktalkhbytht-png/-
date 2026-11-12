@@ -69,15 +69,27 @@
    "en": "",
    "ar": "",
    "list_en": [
-    "Immunoglobulins are **glycoprotein molecules** produced by the **plasma cells** in response to an **immunogen** and which function as **antibodies**.",
+    "Immunoglobulins are **glycoprotein molecules** produced by the **plasma cells** in response to an **immunogen** and which function as **antibodies**."
+   ],
+   "list_ar": [
+    "الغلوبيولينات المناعية **جزيئات بروتينية سكرية** تنتجها **خلايا البلازما** استجابةً **لمستمنِع (مولّد مناعة)**، وتعمل **أضدادًا**."
+   ],
+   "_ff": 1
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     "Ig circulates in **blood and other bodily fluids** to **recognize** foreign substances such as **bacteria, viruses, and toxins** and **neutralize** them.",
     "Immunoglobulins/Antibodies are also known as **Immune protein**"
    ],
    "list_ar": [
-    "الغلوبيولينات المناعية **جزيئات بروتينية سكرية** تنتجها **خلايا البلازما** استجابةً **لمستمنِع (مولّد مناعة)**، وتعمل **أضدادًا**.",
     "يدور الـ Ig في **الدم وسوائل الجسم الأخرى** **ليتعرّف** على المواد الغريبة مثل **البكتيريا والفيروسات والذيفانات** **ويعادلها**.",
     "وتُعرف الغلوبيولينات المناعية/الأضداد أيضًا **بالبروتين المناعي**"
-   ]
+   ],
+   "start": 2,
+   "_ff": 1
   },
   {
    "t": "note",
@@ -150,8 +162,7 @@
    "en": "T cell-independent B cell activation",
    "ar": "تنشيط الخلية البائية المستقلّ عن الخلايا التائية",
    "h": "46mm",
-   "fit": "contain",
-   "keep": true
+   "fit": "contain"
   },
   {
    "t": "table",
@@ -635,13 +646,25 @@
    "en": "",
    "ar": "",
    "list_en": [
-    "**Inter-chain**—Heavy & light chain & two heavy chains are held together by inter-chain disulfide bond & non covalent interactions",
+    "**Inter-chain**—Heavy & light chain & two heavy chains are held together by inter-chain disulfide bond & non covalent interactions"
+   ],
+   "list_ar": [
+    "**بين السلاسل**— تُمسك السلسلتان الثقيلة والخفيفة، والسلسلتان الثقيلتان، معًا بروابط ثنائية الكبريت بين السلاسل وبتآثرات غير تساهمية"
+   ],
+   "_ff": 2
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     "**Intra-chain**—within each polypeptide chain there also disulfide bonds"
    ],
    "list_ar": [
-    "**بين السلاسل**— تُمسك السلسلتان الثقيلة والخفيفة، والسلسلتان الثقيلتان، معًا بروابط ثنائية الكبريت بين السلاسل وبتآثرات غير تساهمية",
     "**داخل السلسلة**— توجد أيضًا روابط ثنائية الكبريت داخل كل سلسلة ببتيدية"
-   ]
+   ],
+   "start": 2,
+   "_ff": 2
   },
   {
    "t": "h2",
@@ -679,8 +702,7 @@
    "en": "Domains of the heavy and light chains",
    "ar": "مجالات السلسلتين الثقيلة والخفيفة",
    "h": "56mm",
-   "fit": "contain",
-   "keep": true
+   "fit": "contain"
   },
   {
    "t": "table",
@@ -1114,17 +1136,30 @@
   {
    "t": "note",
    "en": [
-    "**Papain → 2 Fab + Fc**; **pepsin → F(ab')2**.",
-    "**Fab** binds antigen; **Fc** binds Fc receptors and complement → opsonization, cell lysis, mast cell degranulation, placental transfer."
+    "**Papain → 2 Fab + Fc**; **pepsin → F(ab')2**."
    ],
    "ar": [
-    "**البابين ← 2 Fab + Fc**؛ و**الببسين ← F(ab')2**.",
-    "**Fab** يرتبط بالمستضد؛ و**Fc** يرتبط بمستقبلات Fc والمتمّم ← الطهي، تحلّل الخلية، تحبّب البدينة، العبور المشيمي."
+    "**البابين ← 2 Fab + Fc**؛ و**الببسين ← F(ab')2**."
    ],
    "label": [
     "In short",
     "باختصار"
-   ]
+   ],
+   "_ff": 3
+  },
+  {
+   "t": "note",
+   "en": [
+    "**Fab** binds antigen; **Fc** binds Fc receptors and complement → opsonization, cell lysis, mast cell degranulation, placental transfer."
+   ],
+   "ar": [
+    "**Fab** يرتبط بالمستضد؛ و**Fc** يرتبط بمستقبلات Fc والمتمّم ← الطهي، تحلّل الخلية، تحبّب البدينة، العبور المشيمي."
+   ],
+   "label": [
+    "In short (continued)",
+    "باختصار (تكملة)"
+   ],
+   "_ff": 3
   },
   {
    "t": "section",
@@ -1704,15 +1739,27 @@
    "en": "",
    "ar": "",
    "list_en": [
-    "**Placental transfer** (except Ig 2)",
+    "**Placental transfer** (except Ig 2)"
+   ],
+   "list_ar": [
+    "**العبور عبر المشيمة** (ما عدا Ig 2)"
+   ],
+   "_ff": 4
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     "**Fix complement** (Except Ig 4)",
     "**Binding to cells** e.g. Macrophage, Monocytes and PMNs except (Ig2 & Ig4)"
    ],
    "list_ar": [
-    "**العبور عبر المشيمة** (ما عدا Ig 2)",
     "**تثبيت المتمّم** (ما عدا Ig 4)",
     "**الارتباط بالخلايا** مثل البلاعم والخلايا الوحيدة والعدلات ما عدا (Ig2 وIg4)"
-   ]
+   ],
+   "start": 2,
+   "_ff": 4
   },
   {
    "t": "note",
@@ -1890,7 +1937,18 @@
    "en": "",
    "ar": "",
    "list_en": [
-    "**Pentamer** 10 epitope binding sites",
+    "**Pentamer** 10 epitope binding sites"
+   ],
+   "list_ar": [
+    "**خماسي** بعشرة مواقع ارتباط بالحواتم"
+   ],
+   "_ff": 5
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     "**3rd most common** (~13% of the Ab in serum)",
     "All heavy chains are identical & all light chains are identical",
     "Has an extra domain on the µ chain (**CH4**) and has another protein covalently bound via a S-S bond called the **J chain**.",
@@ -1901,7 +1959,6 @@
     "Binds to some cells via Fc receptors"
    ],
    "list_ar": [
-    "**خماسي** بعشرة مواقع ارتباط بالحواتم",
     "**ثالث الأصناف شيوعًا** (نحو 13% من أضداد المصل)",
     "كل السلاسل الثقيلة متطابقة وكل السلاسل الخفيفة متطابقة",
     "له مجال إضافي على سلسلة µ (**CH4**)، وبروتين آخر مرتبط تساهميًا برابطة S-S يُسمّى **سلسلة J**.",
@@ -1910,7 +1967,9 @@
     "**ملزّن فعّال**",
     "أضداد IgM جيّدة جدًا في **تكتيل الأحياء المجهرية** تمهيدًا لإزالتها من الجسم.",
     "يرتبط ببعض الخلايا عبر مستقبلات Fc"
-   ]
+   ],
+   "start": 2,
+   "_ff": 5
   },
   {
    "t": "figure",
@@ -1927,21 +1986,33 @@
    "list_en": [
     "**1st Ig to be made by a naïve B cell** when stimulated by Ag.",
     "Able to activate the **classical complement pathway**",
-    "**Monomeric forms of IgM** are found on the surface of B-cell receptors B-lymphocytes as the **receptor**.",
+    "**Monomeric forms of IgM** are found on the surface of B-cell receptors B-lymphocytes as the **receptor**."
+   ],
+   "list_ar": [
+    "**أول Ig تصنعه الخلية البائية الساذجة** عند تحفيزها بالمستضد.",
+    "قادر على تنشيط **المسار الكلاسيكي للمتمّم**",
+    "توجد **أشكال IgM الأحادية** على سطح الخلايا اللمفية البائية بوصفها **مستقبلًا** (مستقبل الخلية البائية)."
+   ],
+   "_ff": 6
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     "Has a **half-life of ~ 5 days**",
     "**1st Ig to be made by the fetus**",
     "**Does not cross -placenta**",
     "Very little in milk"
    ],
    "list_ar": [
-    "**أول Ig تصنعه الخلية البائية الساذجة** عند تحفيزها بالمستضد.",
-    "قادر على تنشيط **المسار الكلاسيكي للمتمّم**",
-    "توجد **أشكال IgM الأحادية** على سطح الخلايا اللمفية البائية بوصفها **مستقبلًا** (مستقبل الخلية البائية).",
     "**عمر النصف نحو 5 أيام**",
     "**أول Ig يصنعه الجنين**",
     "**لا يعبر المشيمة**",
     "قليل جدًا في الحليب"
-   ]
+   ],
+   "start": 4,
+   "_ff": 6
   },
   {
    "t": "figure",
@@ -2034,7 +2105,19 @@
    "ar": "",
    "list_en": [
     "**Monomer** has 2 epitope-binding sites",
-    "**Low levels in serum( about 1%)**",
+    "**Low levels in serum( about 1%)**"
+   ],
+   "list_ar": [
+    "**أحادي** بموقعَي ارتباط بالحواتم",
+    "**مستويات منخفضة في المصل (نحو 1%)**"
+   ],
+   "_ff": 7
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     "**Does not fix complement**",
     "Primarily found on **B cell surfaces**",
     "Function as a **receptor for antigen**.",
@@ -2042,14 +2125,14 @@
     "Its role in serum is **uncertain**."
    ],
    "list_ar": [
-    "**أحادي** بموقعَي ارتباط بالحواتم",
-    "**مستويات منخفضة في المصل (نحو 1%)**",
     "**لا يثبّت المتمّم**",
     "يوجد بصورة رئيسية **على أسطح الخلايا البائية**",
     "يعمل **مستقبلًا للمستضد**.",
     "IgD على سطح الخلايا البائية فيه **أحماض أمينية إضافية**",
     "ودوره في المصل **غير مؤكّد**."
-   ]
+   ],
+   "start": 3,
+   "_ff": 7
   },
   {
    "t": "figure",
@@ -2075,11 +2158,7 @@
     "Involved in **allergic reactions**",
     "Binding of the allergen to the IgE on cells →The release of the **pharmacological mediators** →allergic symptoms.",
     "**Cross linking** of the cell-bound IgE triggers the release of the **vasodilators** for the inflammatory response.",
-    "Plays a role in **parasitic helminth diseases**.",
-    "Serum IgE levels **rise in parasitic diseases**, measuring IgE levels is helpful in diagnosing parasitic infections.",
-    "**Eosinophils** have Fc receptors for IgE and binding of eosinophils to IgE-coated helminths enables opsonization results in **killing of the parasite**.",
-    "May protect external mucosal surfaces by **promoting inflammation**, enabling IgG, complement proteins &leucocytes to enter the tissues .",
-    "**IgE does not fix complement.**"
+    "Plays a role in **parasitic helminth diseases**."
    ],
    "list_ar": [
     "يوجد **أحاديًا** وله مجال إضافي في المنطقة الثابتة (**CH4**)",
@@ -2088,12 +2167,28 @@
     "يشارك في **تفاعلات الحساسية**",
     "ارتباط مسبّب الحساسية بالـ IgE على الخلايا ← تحرير **الوسائط الدوائية** ← أعراض الحساسية.",
     "**الربط التصالبي** للـ IgE المرتبط بالخلايا يحفّز تحرير **موسّعات الأوعية** للاستجابة الالتهابية.",
-    "له دور في **أمراض الديدان الطفيلية**.",
+    "له دور في **أمراض الديدان الطفيلية**."
+   ],
+   "_ff": 8
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
+    "Serum IgE levels **rise in parasitic diseases**, measuring IgE levels is helpful in diagnosing parasitic infections.",
+    "**Eosinophils** have Fc receptors for IgE and binding of eosinophils to IgE-coated helminths enables opsonization results in **killing of the parasite**.",
+    "May protect external mucosal surfaces by **promoting inflammation**, enabling IgG, complement proteins &leucocytes to enter the tissues .",
+    "**IgE does not fix complement.**"
+   ],
+   "list_ar": [
     "تزداد مستويات IgE في المصل **في الأمراض الطفيلية**، وقياسها مفيد في تشخيص الإصابات الطفيلية.",
     "لدى **الحمضات** مستقبلات Fc للـ IgE، وارتباطها بالديدان المغطّاة بالـ IgE يتيح الطهي ويؤدّي إلى **قتل الطفيلي**.",
     "قد يحمي الأسطح المخاطية الخارجية **بتعزيز الالتهاب**، فيسمح للـ IgG وبروتينات المتمّم والكريات البيض بدخول الأنسجة.",
     "**لا يثبّت IgE المتمّم.**"
-   ]
+   ],
+   "start": 8,
+   "_ff": 8
   },
   {
    "t": "figure",
@@ -2109,8 +2204,7 @@
    "en": "Immune mediators — IgE internalization and mast cell degranulation",
    "ar": "الوسائط المناعية — إدخال IgE وتحبّب الخلية البدينة",
    "h": "48mm",
-   "fit": "contain",
-   "keep": true
+   "fit": "contain"
   },
   {
    "t": "table",
@@ -2264,7 +2358,43 @@
       "secretions (tears, saliva, colostrum); mucosal immunity; alternative complement",
       "الإفرازات (الدموع، اللعاب، اللبأ)؛ المناعة المخاطية؛ المتمّم البديل"
      ]
+    ]
+   ],
+   "key_cols": [
+    0
+   ],
+   "widths": [
+    10,
+    30,
+    13,
+    47
+   ],
+   "style": "summary",
+   "label_en": "The five classes at a glance",
+   "label_ar": "الأصناف الخمسة بنظرة",
+   "_ff": 9
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Class",
+     "الصنف"
     ],
+    [
+     "Form",
+     "الشكل"
+    ],
+    [
+     "Serum %",
+     "النسبة في المصل"
+    ],
+    [
+     "Key points",
+     "أهم النقاط"
+    ]
+   ],
+   "rows": [
     [
      [
       "**IgD**",
@@ -2312,8 +2442,9 @@
     47
    ],
    "style": "summary",
-   "label_en": "The five classes at a glance",
-   "label_ar": "الأصناف الخمسة بنظرة"
+   "label_en": "The five classes at a glance (continued)",
+   "label_ar": "الأصناف الخمسة بنظرة (تكملة)",
+   "_ff": 9
   },
   {
    "t": "note",
@@ -2401,15 +2532,27 @@
    "en": "**Importance**",
    "ar": "**الأهمية**",
    "list_en": [
-    "Quantifying Ig classes and subclasses in various diseases(anti-Isotypes)",
+    "Quantifying Ig classes and subclasses in various diseases(anti-Isotypes)"
+   ],
+   "list_ar": [
+    "قياس كمّيات أصناف Ig وأصنافها الفرعية في أمراض مختلفة (أضداد الأنماط المتماثلة)"
+   ],
+   "_ff": 10
+  },
+  {
+   "t": "card",
+   "en": "",
+   "ar": "",
+   "list_en": [
     "Characterization of **B cell leukemia**",
     "Diagnosis of various **immunodeficiency diseases**"
    ],
    "list_ar": [
-    "قياس كمّيات أصناف Ig وأصنافها الفرعية في أمراض مختلفة (أضداد الأنماط المتماثلة)",
     "توصيف **ابيضاض الخلايا البائية**",
     "تشخيص **أمراض نقص المناعة** المختلفة"
-   ]
+   ],
+   "start": 2,
+   "_ff": 10
   },
   {
    "t": "note",
@@ -2565,8 +2708,7 @@
    "en": "Idiotypes — in the variable (antigen-binding) region",
    "ar": "الأنماط الذاتية — في المنطقة المتغيّرة (الرابطة للمستضد)",
    "h": "34mm",
-   "fit": "contain",
-   "keep": true
+   "fit": "contain"
   },
   {
    "t": "table",
@@ -2733,8 +2875,7 @@
    "en": "1° ab response",
    "ar": "الاستجابة الضدية الأولية",
    "h": "50mm",
-   "fit": "contain",
-   "keep": true
+   "fit": "contain"
   },
   {
    "t": "table",
@@ -2768,7 +2909,26 @@
       "**DECLINE-Rate of ab degradation exceed synthesis**",
       "طور الانخفاض — معدّل تحطّم الأضداد يفوق تصنيعها"
      ]
+    ]
+   ],
+   "style": "summary",
+   "label_en": "Labels in the figure",
+   "label_ar": "كتابات الشكل",
+   "_ff": 11
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Label",
+     "الكتابة"
     ],
+    [
+     "Label",
+     "الكتابة"
+    ]
+   ],
+   "rows": [
     [
      [
       "**Ab Titer**",
@@ -2791,8 +2951,9 @@
     ]
    ],
    "style": "summary",
-   "label_en": "Labels in the figure",
-   "label_ar": "كتابات الشكل"
+   "label_en": "Labels in the figure (continued)",
+   "label_ar": "كتابات الشكل (تكملة)",
+   "_ff": 11
   },
   {
    "t": "card",
@@ -2820,8 +2981,7 @@
    "en": "2° ab response",
    "ar": "الاستجابة الضدية الثانوية",
    "h": "50mm",
-   "fit": "contain",
-   "keep": true
+   "fit": "contain"
   },
   {
    "t": "table",
@@ -3069,8 +3229,7 @@
    "en": "Antibodies act as adapter molecules for immune effector systems",
    "ar": "الأضداد تعمل جزيئات وسيطة لأنظمة المناعة المستجيبة",
    "h": "66mm",
-   "fit": "contain",
-   "keep": true
+   "fit": "contain"
   },
   {
    "t": "table",
@@ -3115,19 +3274,28 @@
    "en": [
     "**Fig. 3.2** Antibodies act as adapter molecules for different immune effector systems, linking antigens to receptor molecules (C1q and FcR) of the immune system.",
     "(1) Immune complexes can activate the complement classical pathway.",
-    "(2) Antibodies bound to the surface of pathogens opsonize them for phagocytosis.",
+    "(2) Antibodies bound to the surface of pathogens opsonize them for phagocytosis."
+   ],
+   "ar": [
+    "**الشكل 3.2** تعمل الأضداد جزيئات وسيطة لأنظمة مناعية مستجيبة مختلفة، فتربط المستضدات بالجزيئات المستقبِلة (C1q وFcR) للجهاز المناعي.",
+    "(1) يمكن للمعقّدات المناعية تنشيط المسار الكلاسيكي للمتمّم.",
+    "(2) الأضداد المرتبطة بسطح الممرضات تطهوها للبلعمة."
+   ],
+   "_ff": 12
+  },
+  {
+   "t": "card",
+   "en": [
     "(3) Antibodies bound to cells can promote their recognition and killing by NK cells.",
     "(Similarly recognition of some parasitic worms by eosinophils, mediated by antibodies, targets them for killing.)",
     "(4) Antibody bound to Fc receptors sensitizes cells so that they can recognize antigen, and the cell becomes activated if antigen binds to the surface antibody."
    ],
    "ar": [
-    "**الشكل 3.2** تعمل الأضداد جزيئات وسيطة لأنظمة مناعية مستجيبة مختلفة، فتربط المستضدات بالجزيئات المستقبِلة (C1q وFcR) للجهاز المناعي.",
-    "(1) يمكن للمعقّدات المناعية تنشيط المسار الكلاسيكي للمتمّم.",
-    "(2) الأضداد المرتبطة بسطح الممرضات تطهوها للبلعمة.",
     "(3) الأضداد المرتبطة بالخلايا يمكن أن تعزّز تعرّف الخلايا القاتلة الطبيعية (NK) عليها وقتلها.",
     "(وبالمثل فإن تعرّف الحمضات على بعض الديدان الطفيلية، بوساطة الأضداد، يستهدفها للقتل.)",
     "(4) الضد المرتبط بمستقبلات Fc يحسّس الخلايا فتستطيع التعرّف على المستضد، وتنشط الخلية إذا ارتبط المستضد بالضد السطحي."
-   ]
+   ],
+   "_ff": 12
   },
   {
    "t": "note",
@@ -3185,7 +3353,27 @@
     [
      "**Plasma cell**",
      "خلية البلازما / الخلية البلازمية"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 13
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
     ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
     [
      "**Immunogen**",
      "المستمنِع / مولّد المناعة"
@@ -3245,7 +3433,8 @@
    "widths": [
     36,
     64
-   ]
+   ],
+   "_ff": 13
   },
   {
    "t": "table",
@@ -3316,7 +3505,27 @@
     [
      "**Class switching (CSR)**",
      "تبديل الصنف / إعادة اتحاد تبديل الصنف"
+    ]
+   ],
+   "ar_cols": [
+    1
+   ],
+   "widths": [
+    36,
+    64
+   ],
+   "_ff": 14
+  },
+  {
+   "t": "table",
+   "head": [
+    [
+     "Term",
+     "المصطلح"
     ],
+    "الترجمات العربية المستعملة"
+   ],
+   "rows": [
     [
      "**Primary / Secondary response**",
      "الاستجابة الأولية / الثانوية"
@@ -3332,7 +3541,8 @@
    "widths": [
     36,
     64
-   ]
+   ],
+   "_ff": 14
   }
  ],
  "questions": {

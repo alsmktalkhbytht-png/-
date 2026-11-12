@@ -99,3 +99,6 @@ meta = {"subject_en": "Immunology", "subject_ar": "علم المناعة", "shor
         "title_en": "Immunoglobulins (Ig)", "title_ar": "الغلوبيولينات المناعية (الأضداد)",
         "kind": "Theory — نظري", "stage": "The third stage — الثالثة"}
 save("immunology-lec4-immunoglobulins", meta, blocks, mcq, tf, traps, important)
+
+import sys as _s; _s.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/a7dd109e-db53-5fd3-8234-9dab3a530e24/scratchpad"); from flowfit import fit
+fit("immunology-lec4-immunoglobulins", 0.08)   # fill page gaps (user rule: no big gaps)
