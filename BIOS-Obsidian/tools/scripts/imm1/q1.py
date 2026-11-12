@@ -1,7 +1,7 @@
 import sys, json, os
-sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad/imm456")
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/imm456")
 from ci import *            # Q TF TR IM P balance
-sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad"); from bidi import ltr_all
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad"); from bidi import ltr_all
 
 # Immunology theory lecture 1 (stage 3, د. أحمد داود) — Introduction to Human Immunology.
 # Source: Lec._1_Introduction-to-Human-Immunology.pptx (25 slides). QUESTIONS ONLY — MCQ only, by the user's request

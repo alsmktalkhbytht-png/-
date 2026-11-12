@@ -1,4 +1,4 @@
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad/imm456")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
 import split; split.ABBR = split.ABBR + ("**clean**.",)
 

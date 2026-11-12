@@ -11,9 +11,9 @@ Generator script — writes the handout's `lecture.json`.
 Handouts: [[06 فهرس الملازم#bacteriology-lab6-biochemical-tests|bacteriology-lab6-biochemical-tests]]
 
 ```python
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad/imm456")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
-sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad"); from bidi import ltr_all; from flowfit import fit
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad"); from bidi import ltr_all; from flowfit import fit
 
 # Diagnostic Microbiology practical, lab 6 — "Biochemical Testing of Microorganisms" (20 slides, 11 pictures, no questions;
 # prepared by MSc. Hiba sami · MSc. Ali Thamar). Fourth stage → separate question file.

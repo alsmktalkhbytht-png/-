@@ -9,7 +9,7 @@ tags: [bios, code]
 Utility script.
 
 ```python
-import sys, re; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad/imm456")
+import sys, re; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
 
 # Clinical Enzymology — theory lecture 4 (stage 4) — Dr. Waleed Majeed — Enzyme Bioenergetics

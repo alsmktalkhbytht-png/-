@@ -1,0 +1,730 @@
+{
+ "meta": {
+  "subject_en": "Clinical Enzymology",
+  "subject_ar": "الإنزيمات السريرية",
+  "short_ar": "انزيمات سريرية",
+  "instructor": "د. بارق و د. هشام",
+  "unit_en": "Introduction",
+  "unit_ar": "مقدمة",
+  "unit_label": "LAB",
+  "unit_no": "",
+  "title_en": "Introduction of Enzymes",
+  "title_ar": "مقدمة في الإنزيمات",
+  "kind": "Laboratories — عملي",
+  "stage": "The fourth stage — الرابعة",
+  "file_name": "BIOS - انزيمات سريرية عملي - مقدمة في الإنزيمات - بنك أسئلة شامل"
+ },
+ "questions": {
+  "title_en": "Introduction of Enzymes — Comprehensive MCQs",
+  "title_ar": "مقدمة في الإنزيمات — أسئلة اختيار متعدّد شاملة",
+  "answers_inline": true,
+  "mcq": [
+   {
+    "topic_en": "Definition and functions",
+    "topic_ar": "التعريف والوظائف"
+   },
+   {
+    "en": "Enzymes are best defined as:",
+    "ar": "تُعرَّف الإنزيمات بأنها:",
+    "options": [
+     [
+      "Genetic material",
+      "مادة وراثية"
+     ],
+     [
+      "Structural proteins only",
+      "بروتينات بنيوية فقط"
+     ],
+     [
+      "Energy molecules",
+      "جزيئات طاقة"
+     ],
+     [
+      "Biological catalysts that bring about chemical reactions in the living cell",
+      "محفّزات حيوية تُحدث التفاعلات الكيميائية في الخلية الحيّة"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "An enzyme is a biological catalyst that speeds up a reaction in the living cell.",
+    "note_ar": "الإنزيم محفّز حيوي يسرّع التفاعل في الخلية الحيّة."
+   },
+   {
+    "en": "Which is listed as a function of enzymes?",
+    "ar": "أيّها مذكور وظيفةً للإنزيمات؟",
+    "options": [
+     [
+      "Storing genetic information",
+      "خزن المعلومات الوراثية"
+     ],
+     [
+      "Carrying oxygen only",
+      "نقل الأكسجين فقط"
+     ],
+     [
+      "Digestion, respiration, and synthesis/breakdown of carbohydrates, proteins and fats",
+      "الهضم والتنفّس وبناء/تحليل الكربوهيدرات والبروتينات والدهون"
+     ],
+     [
+      "Forming the cell wall",
+      "تكوين جدار الخلية"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "The notes list digestion, breathing, and synthesis/breakdown of CHO, proteins and fats.",
+    "note_ar": "الملاحظات تذكر الهضم والتنفّس وبناء/تحليل الكربوهيدرات والبروتينات والدهون."
+   },
+   {
+    "topic_en": "General properties of enzymes",
+    "topic_ar": "الصفات العامة للإنزيمات"
+   },
+   {
+    "en": "According to the notes, all enzymes are chemically:",
+    "ar": "حسب الملاحظات، كل الإنزيمات كيميائيًا:",
+    "options": [
+     [
+      "Lipids",
+      "دهون"
+     ],
+     [
+      "Proteins",
+      "بروتينات"
+     ],
+     [
+      "Carbohydrates",
+      "كربوهيدرات"
+     ],
+     [
+      "Nucleic acids",
+      "أحماض نووية"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Property 1: all enzymes are proteins.",
+    "note_ar": "الصفة 1: كل الإنزيمات بروتينات."
+   },
+   {
+    "en": "Enzymes accelerate a reaction but do NOT:",
+    "ar": "تُسرّع الإنزيمات التفاعل لكنها لا:",
+    "options": [
+     [
+      "Alter the reaction equilibrium",
+      "تغيّر اتّزان التفاعل"
+     ],
+     [
+      "Speed up the reaction",
+      "تسرّع التفاعل"
+     ],
+     [
+      "Lower activation energy",
+      "تخفض طاقة التنشيط"
+     ],
+     [
+      "Act on substrates",
+      "تؤثّر في المواد"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "They don’t change the equilibrium, aren’t consumed, and are needed in very small amounts.",
+    "note_ar": "لا تغيّر الاتّزان، ولا تُستهلك، وتُحتاج بكميات صغيرة جدًا."
+   },
+   {
+    "en": "Enzymes are required in the reaction in:",
+    "ar": "تُحتاج الإنزيمات في التفاعل بكميات:",
+    "options": [
+     [
+      "Large quantities",
+      "كبيرة"
+     ],
+     [
+      "No quantity",
+      "معدومة"
+     ],
+     [
+      "Equal amounts to the substrate",
+      "مساوية للمادة"
+     ],
+     [
+      "Very small quantities",
+      "صغيرة جدًا"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Enzymes are catalysts, so very small quantities are enough and they aren’t consumed.",
+    "note_ar": "الإنزيمات محفّزات، فكميات صغيرة جدًا تكفي ولا تُستهلك."
+   },
+   {
+    "en": "Enzymes are described as highly ___ for their substrate.",
+    "ar": "تُوصف الإنزيمات بأنها عالية الـ ___ تجاه مادتها.",
+    "options": [
+     [
+      "Random",
+      "عشوائية"
+     ],
+     [
+      "Specific",
+      "نوعية (تخصّصية)"
+     ],
+     [
+      "Unstable",
+      "عدم ثبات"
+     ],
+     [
+      "Soluble",
+      "ذوبان"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Property 3: enzymes are highly specific for their substrate.",
+    "note_ar": "الصفة 3: الإنزيمات عالية النوعية تجاه مادتها."
+   },
+   {
+    "en": "The part of the enzyme where it interacts with the substrate is the:",
+    "ar": "الجزء من الإنزيم الذي يتفاعل فيه مع المادة هو:",
+    "options": [
+     [
+      "Active site",
+      "الموقع الفعّال"
+     ],
+     [
+      "Prosthetic group",
+      "المجموعة الاصطناعية"
+     ],
+     [
+      "Coenzyme",
+      "المرافق الإنزيمي"
+     ],
+     [
+      "Apoenzyme",
+      "الإنزيم الناقص"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Property 4: enzymes possess an active site where interaction with the substrate takes place.",
+    "note_ar": "الصفة 4: للإنزيم موقع فعّال يحدث فيه التفاعل مع المادة."
+   },
+   {
+    "topic_en": "Sources of enzymes",
+    "topic_ar": "مصادر الإنزيمات"
+   },
+   {
+    "en": "Enzymes that function inside the cell are called:",
+    "ar": "الإنزيمات التي تعمل داخل الخلية تُسمّى:",
+    "options": [
+     [
+      "Exoenzymes",
+      "الإنزيمات الخارجية"
+     ],
+     [
+      "Coenzymes",
+      "المرافقات الإنزيمية"
+     ],
+     [
+      "Endoenzymes",
+      "الإنزيمات الداخلية"
+     ],
+     [
+      "Zymogens",
+      "الطلائع (زيموجين)"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Endoenzymes act within cells (most enzymes), e.g. metabolic oxidase.",
+    "note_ar": "الإنزيمات الداخلية تعمل داخل الخلايا (معظم الإنزيمات)، مثل الأوكسيديز الأيضي."
+   },
+   {
+    "en": "Digestive enzymes such as amylase, lipase and protease are examples of:",
+    "ar": "الإنزيمات الهضمية مثل الأميليز واللايبيز والبروتييز أمثلة على:",
+    "options": [
+     [
+      "Endoenzymes",
+      "الإنزيمات الداخلية"
+     ],
+     [
+      "Coenzymes",
+      "المرافقات الإنزيمية"
+     ],
+     [
+      "Exoenzymes",
+      "الإنزيمات الخارجية"
+     ],
+     [
+      "Apoenzymes",
+      "الإنزيمات الناقصة"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Exoenzymes are liberated by cells and catalyze reactions outside the cell (digestive enzymes).",
+    "note_ar": "الإنزيمات الخارجية تُطلقها الخلايا وتحفّز تفاعلات خارج الخلية (الإنزيمات الهضمية)."
+   },
+   {
+    "en": "“Metabolic oxidase” is given as an example of:",
+    "ar": "«الأوكسيديز الأيضي» مذكور مثالًا على:",
+    "options": [
+     [
+      "An endoenzyme",
+      "إنزيم داخلي"
+     ],
+     [
+      "An exoenzyme",
+      "إنزيم خارجي"
+     ],
+     [
+      "A coenzyme",
+      "مرافق إنزيمي"
+     ],
+     [
+      "A prosthetic group",
+      "مجموعة اصطناعية"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Metabolic oxidase works inside the cell → endoenzyme.",
+    "note_ar": "الأوكسيديز الأيضي يعمل داخل الخلية ← إنزيم داخلي."
+   },
+   {
+    "topic_en": "Chemical composition",
+    "topic_ar": "التركيب الكيميائي"
+   },
+   {
+    "en": "Pepsin and trypsin are examples of enzymes that consist of:",
+    "ar": "البيبسين والتربسين أمثلة على إنزيمات تتكوّن من:",
+    "options": [
+     [
+      "Protein + coenzyme",
+      "بروتين + مرافق إنزيمي"
+     ],
+     [
+      "Protein only",
+      "بروتين فقط"
+     ],
+     [
+      "Protein + prosthetic group",
+      "بروتين + مجموعة اصطناعية"
+     ],
+     [
+      "Lipid only",
+      "دهن فقط"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Some enzymes are only protein (amino acids joined by peptide bonds), e.g. pepsin, trypsin.",
+    "note_ar": "بعض الإنزيمات بروتين فقط (أحماض أمينية بروابط ببتيدية)، مثل البيبسين والتربسين."
+   },
+   {
+    "en": "Protein (enzyme) + coenzyme together form a:",
+    "ar": "البروتين (الإنزيم) + المرافق الإنزيمي يكوّنان:",
+    "options": [
+     [
+      "Substrate",
+      "المادة"
+     ],
+     [
+      "Apoenzyme",
+      "الإنزيم الناقص"
+     ],
+     [
+      "Zymogen",
+      "الطليعة (زيموجين)"
+     ],
+     [
+      "Holoenzyme",
+      "الإنزيم الكامل (الهولوإنزيم)"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "The complete, active enzyme = apoenzyme (protein) + its cofactor/coenzyme = holoenzyme.",
+    "note_ar": "الإنزيم الكامل الفعّال = الإنزيم الناقص (البروتين) + مرافقه = الهولوإنزيم."
+   },
+   {
+    "en": "The protein part of an enzyme (inactive alone) is the:",
+    "ar": "الجزء البروتيني من الإنزيم (الخامل وحده) هو:",
+    "options": [
+     [
+      "Apoenzyme",
+      "الإنزيم الناقص (الأبوإنزيم)"
+     ],
+     [
+      "Holoenzyme",
+      "الهولوإنزيم"
+     ],
+     [
+      "Coenzyme",
+      "المرافق الإنزيمي"
+     ],
+     [
+      "Cofactor",
+      "العامل المرافق"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Apoenzyme = the protein part; it is inactive until it binds its cofactor.",
+    "note_ar": "الإنزيم الناقص = الجزء البروتيني؛ وهو خامل حتى يرتبط بعامله المرافق."
+   },
+   {
+    "en": "A holoenzyme is made of:",
+    "ar": "يتكوّن الهولوإنزيم من:",
+    "options": [
+     [
+      "Active site only",
+      "موقع فعّال فقط"
+     ],
+     [
+      "Two substrates",
+      "مادتين"
+     ],
+     [
+      "Protein + lipid",
+      "بروتين + دهن"
+     ],
+     [
+      "Apoenzyme + prosthetic group (cofactor)",
+      "إنزيم ناقص + مجموعة اصطناعية (عامل مرافق)"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Holoenzyme (whole, active) = apoenzyme (protein) + prosthetic group / cofactor.",
+    "note_ar": "الهولوإنزيم (الكامل الفعّال) = الإنزيم الناقص (البروتين) + المجموعة الاصطناعية/العامل المرافق."
+   },
+   {
+    "en": "Coenzymes are typically:",
+    "ar": "المرافقات الإنزيمية عادةً:",
+    "options": [
+     [
+      "Metal ions",
+      "أيونات معدنية"
+     ],
+     [
+      "Parts of the protein chain",
+      "أجزاء من السلسلة البروتينية"
+     ],
+     [
+      "Organic molecules that help enzymes catalyse reactions",
+      "جزيئات عضوية تساعد الإنزيمات على التحفيز"
+     ],
+     [
+      "Substrates",
+      "مواد تفاعل"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Coenzymes are organic molecules with functionalities not found in proteins; they help catalysis.",
+    "note_ar": "المرافقات الإنزيمية جزيئات عضوية فيها خصائص غير موجودة في البروتين؛ وتساعد في التحفيز."
+   },
+   {
+    "en": "Cofactors are described in the notes as catalytically essential molecules or ions that are:",
+    "ar": "تصف الملاحظات العوامل المرافقة بأنها جزيئات أو أيونات ضرورية للتحفيز:",
+    "options": [
+     [
+      "Never bound to the enzyme",
+      "غير مرتبطة بالإنزيم أبدًا"
+     ],
+     [
+      "Covalently bound to the enzyme",
+      "مرتبطة تساهميًا بالإنزيم"
+     ],
+     [
+      "Made of DNA",
+      "مكوّنة من `DNA`"
+     ],
+     [
+      "The same as the substrate",
+      "هي نفسها المادة"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Per the notes, cofactors are catalytically essential and covalently bound to the enzyme.",
+    "note_ar": "حسب الملاحظات، العوامل المرافقة ضرورية للتحفيز ومرتبطة تساهميًا بالإنزيم."
+   },
+   {
+    "en": "In the diagram, the non-protein part that activates the apoenzyme is the:",
+    "ar": "في الشكل، الجزء غير البروتيني الذي ينشّط الإنزيم الناقص هو:",
+    "options": [
+     [
+      "Substrate",
+      "المادة"
+     ],
+     [
+      "Peptide bond",
+      "الرابطة الببتيدية"
+     ],
+     [
+      "Active site",
+      "الموقع الفعّال"
+     ],
+     [
+      "Cofactor/coenzyme",
+      "العامل المرافق/المرافق الإنزيمي"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Diagram: apoenzyme (protein, inactive) + cofactor (nonprotein, activator) → holoenzyme (active).",
+    "note_ar": "الشكل: الإنزيم الناقص (بروتين خامل) + العامل المرافق (غير بروتيني، منشّط) ← الهولوإنزيم (الفعّال)."
+   },
+   {
+    "topic_en": "Active site and zymogen",
+    "topic_ar": "الموقع الفعّال والطليعة"
+   },
+   {
+    "en": "The active site of an enzyme is:",
+    "ar": "الموقع الفعّال للإنزيم هو:",
+    "options": [
+     [
+      "The whole enzyme",
+      "الإنزيم كله"
+     ],
+     [
+      "The non-protein part",
+      "الجزء غير البروتيني"
+     ],
+     [
+      "The point where the enzyme interacts with the substrate",
+      "النقطة التي يتفاعل فيها الإنزيم مع المادة"
+     ],
+     [
+      "A digestive enzyme",
+      "إنزيم هضمي"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "The active site is the point at which interaction with the substrate occurs.",
+    "note_ar": "الموقع الفعّال هو النقطة التي يحدث عندها التفاعل مع المادة."
+   },
+   {
+    "en": "A zymogen (proenzyme) is correctly described as the ___ form of an enzyme.",
+    "ar": "الطليعة الإنزيمية (زيموجين) تُوصف صحيحًا بأنها الصورة ___ للإنزيم.",
+    "options": [
+     [
+      "Active",
+      "الفعّالة"
+     ],
+     [
+      "Inactive (precursor)",
+      "غير الفعّالة (السليفة)"
+     ],
+     [
+      "Digestive",
+      "الهضمية"
+     ],
+     [
+      "Protein-free",
+      "الخالية من البروتين"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "⚠ The notes say zymogen is the “active” form, but a zymogen is the INACTIVE precursor that is later activated.",
+    "note_ar": "⚠ تقول الملاحظات إن الزيموجين «الصورة الفعّالة»، والصحيح أنه السليفة غير الفعّالة التي تُنشَّط لاحقًا."
+   },
+   {
+    "topic_en": "Factors affecting enzyme activity",
+    "topic_ar": "العوامل المؤثّرة في نشاط الإنزيم"
+   },
+   {
+    "en": "If the amount of enzyme is doubled (substrate in excess), the reaction rate:",
+    "ar": "إذا تضاعفت كمية الإنزيم (والمادة بوفرة)، فإن معدّل التفاعل:",
+    "options": [
+     [
+      "Is doubled",
+      "يتضاعف"
+     ],
+     [
+      "Is halved",
+      "ينتصف"
+     ],
+     [
+      "Stops",
+      "يتوقّف"
+     ],
+     [
+      "Does not change",
+      "لا يتغيّر"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Rate is proportional to enzyme concentration — double the enzyme, double the rate.",
+    "note_ar": "المعدّل يتناسب مع تركيز الإنزيم — مضاعفة الإنزيم تضاعف المعدّل."
+   },
+   {
+    "en": "The rate of reaction is directly proportional to:",
+    "ar": "معدّل التفاعل يتناسب طرديًا مع:",
+    "options": [
+     [
+      "The colour of the tube",
+      "لون الأنبوب"
+     ],
+     [
+      "The temperature only",
+      "درجة الحرارة فقط"
+     ],
+     [
+      "The pH only",
+      "الأس الهيدروجيني فقط"
+     ],
+     [
+      "The available substrate concentration",
+      "تركيز المادة المتاح"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "With more available substrate, the reaction rate rises (until the enzyme is saturated).",
+    "note_ar": "بزيادة المادة المتاحة يرتفع المعدّل (حتى يتشبّع الإنزيم)."
+   },
+   {
+    "en": "The optimum temperature for enzyme activity, as given in the notes, is:",
+    "ar": "درجة الحرارة المثلى لنشاط الإنزيم كما في الملاحظات هي:",
+    "options": [
+     [
+      "0°C",
+      "0°م"
+     ],
+     [
+      "37°C",
+      "37°م"
+     ],
+     [
+      "60°C",
+      "60°م"
+     ],
+     [
+      "100°C",
+      "100°م"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Rate rises with temperature up to a limit; the optimum is about 37°C.",
+    "note_ar": "يرتفع المعدّل مع الحرارة حتى حدٍّ معيّن؛ والمثلى نحو 37°م."
+   },
+   {
+    "en": "Which is listed as a factor affecting enzyme activity?",
+    "ar": "أيّها مذكور عاملًا يؤثّر في نشاط الإنزيم؟",
+    "options": [
+     [
+      "pH value",
+      "قيمة الأس الهيدروجيني"
+     ],
+     [
+      "Tube colour",
+      "لون الأنبوب"
+     ],
+     [
+      "Patient age",
+      "عمر المريض"
+     ],
+     [
+      "Light",
+      "الضوء"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "The four factors: enzyme concentration, substrate concentration, temperature and pH value.",
+    "note_ar": "العوامل الأربعة: تركيز الإنزيم، وتركيز المادة، ودرجة الحرارة، وقيمة الأس الهيدروجيني."
+   },
+   {
+    "topic_en": "Examples of enzymes in blood",
+    "topic_ar": "أمثلة إنزيمات الدم"
+   },
+   {
+    "en": "“AST” stands for:",
+    "ar": "«`AST`» تعني:",
+    "options": [
+     [
+      "Alkaline phosphatase",
+      "الفوسفاتيز القلوي"
+     ],
+     [
+      "Alanine aminotransferase",
+      "ناقلة أمين الألانين"
+     ],
+     [
+      "Aspartate aminotransferase",
+      "ناقلة أمين الأسبارتات"
+     ],
+     [
+      "Lactate dehydrogenase",
+      "نازعة هيدروجين اللاكتات"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "AST = aspartate aminotransferase; ALT = alanine aminotransferase.",
+    "note_ar": "AST = ناقلة أمين الأسبارتات؛ وALT = ناقلة أمين الألانين."
+   },
+   {
+    "en": "“LDH” among the blood enzymes stands for:",
+    "ar": "«`LDH`» من إنزيمات الدم تعني:",
+    "options": [
+     [
+      "Lipase",
+      "اللايبيز"
+     ],
+     [
+      "Liver dehydrogenase",
+      "نازعة هيدروجين الكبد"
+     ],
+     [
+      "Lactate dehydrogenase",
+      "نازعة هيدروجين اللاكتات"
+     ],
+     [
+      "Alkaline phosphatase",
+      "الفوسفاتيز القلوي"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "LDH = lactate dehydrogenase (a blood diagnostic enzyme).",
+    "note_ar": "LDH = نازعة هيدروجين اللاكتات (إنزيم تشخيصي بالدم)."
+   },
+   {
+    "en": "Which pair of digestive/pancreatic enzymes is listed among the blood enzyme examples?",
+    "ar": "أيّ زوج من الإنزيمات الهضمية/البنكرياسية مذكور ضمن أمثلة إنزيمات الدم؟",
+    "options": [
+     [
+      "Oxidase and catalase",
+      "الأوكسيديز والكاتاليز"
+     ],
+     [
+      "Pepsin and trypsin",
+      "البيبسين والتربسين"
+     ],
+     [
+      "AST and ALT",
+      "`AST` و`ALT`"
+     ],
+     [
+      "Amylase and lipase",
+      "الأميليز واللايبيز"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "The listed blood enzymes are AST, ALT, LDH, ALP, amylase and lipase.",
+    "note_ar": "إنزيمات الدم المذكورة: AST وALT وLDH وALP والأميليز واللايبيز."
+   },
+   {
+    "en": "“ALP / ALK” in the list refers to:",
+    "ar": "«`ALP / ALK`» في القائمة تشير إلى:",
+    "options": [
+     [
+      "Alanine aminotransferase",
+      "ناقلة أمين الألانين"
+     ],
+     [
+      "Alkaline phosphatase",
+      "الفوسفاتيز القلوي"
+     ],
+     [
+      "Amylase",
+      "الأميليز"
+     ],
+     [
+      "Lactate dehydrogenase",
+      "نازعة هيدروجين اللاكتات"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "ALK/ALP = alkaline phosphatase.",
+    "note_ar": "ALK/ALP = الفوسفاتيز القلوي."
+   }
+  ],
+  "tf": [],
+  "traps": [],
+  "important": []
+ }
+}

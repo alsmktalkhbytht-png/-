@@ -1,6 +1,6 @@
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad/imm456")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
-sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad"); from bidi import ltr_all; from flowfit import fit
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad"); from bidi import ltr_all; from flowfit import fit
 
 # Histopathology practical, lab 4 (user) — "Microtome for paraffin and frozen sections" (23 slides, 14 pictures, no questions).
 # The title slide says "LAB 3" (lab 3 is tissue processing) — numbered 4 as the user said. "By: M.S.C AYA WESMII".

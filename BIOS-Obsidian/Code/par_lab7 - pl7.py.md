@@ -11,9 +11,9 @@ Generator script — writes the handout's `lecture.json`.
 Handouts: [[06 فهرس الملازم#parasitology-lab7-hemoflagellates|parasitology-lab7-hemoflagellates]]
 
 ```python
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad/imm456")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
-sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad"); from bidi import ltr_all; from flowfit import fit
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad"); from bidi import ltr_all; from flowfit import fit
 
 # Medical Parasitology practical, lab 7 — Blood and Tissue Flagellates (Hemoflagellates). Source: Lab_7_Hemoflagellates_Large_Font.pptx
 # (49 slides; "Medical Parasitology · Lab 7 · Fourth Stage · Assist. Lec. Nariman Hassan Altemimi"). 21 embedded pictures (all included).

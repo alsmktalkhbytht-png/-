@@ -1,6 +1,6 @@
-import sys, os, shutil, re; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad/imm456")
+import sys, os, shutil, re; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
-sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad"); from bidi import ltr_all; from flowfit import fit
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad"); from bidi import ltr_all; from flowfit import fit
 import split; split.ABBR += ("N.",)          # "and N. meningitidis"
 
 # Diagnostic Microbiology — theory lecture 11 (stage 4) — Antibiotic susceptibility tests. Instructor on the cover: د. عدنان
@@ -15,7 +15,7 @@ BN = lambda en, ar: N(en, _q(ar), label=["BIOS note", "ملاحظة BIOS"])
 BX = lambda en, ar: N(en, ar, label=["BIOS explanation", "شرح BIOS"])
 O = P
 FOLDER = "bacteriology-lec11-antibiotic-susceptibility"
-SRC = "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad/l11"
+SRC = "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/l11"
 def LB(*pairs):
     cells = [B(f"**{e}**", a) for e, a in pairs]
     if len(cells) % 2: cells.append(B("", ""))

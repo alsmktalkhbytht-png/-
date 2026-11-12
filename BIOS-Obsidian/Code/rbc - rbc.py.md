@@ -11,9 +11,9 @@ Generator script — writes the handout's `lecture.json`.
 Handouts: [[06 فهرس الملازم#hematology-practical-rbc-count|hematology-practical-rbc-count]]
 
 ```python
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad/imm456")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
-sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad"); from bidi import ltr_all; from flowfit import fit
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad"); from bidi import ltr_all; from flowfit import fit
 
 # Hematology practical — Red Blood Cell Count. Source: RBC_1.pptx (17 slides, "Presented By Linda Munjed Hadi").
 # The user called it "lecture 4" (Hb estimation and turbidimetry are already lab 4 — told the user). 18 pictures: 17 used,

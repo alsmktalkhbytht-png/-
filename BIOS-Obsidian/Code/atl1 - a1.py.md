@@ -11,9 +11,9 @@ Generator script — writes the handout's `lecture.json`.
 Handouts: [[06 فهرس الملازم#advtech-lab1-elisa|advtech-lab1-elisa]]
 
 ```python
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad/imm456")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
-sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad"); from bidi import ltr_all; from flowfit import fit
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad"); from bidi import ltr_all; from flowfit import fit
 
 # Advanced Techniques practical, lab 1 — ELISA. Source: ELISA_Merged_Condensed_Final.pptx (23 slides, "Presented by: Linda Munjed Hadi").
 # 9 pictures = 8 distinct (the "Types of ELISA" diagram is used twice, cropped differently on slides 12 and 13 → once here).

@@ -1,4 +1,4 @@
-import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad/nur")
+import sys; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/nur")
 from common_nur import *     # ci helpers + B INSHORT TERMS balance save + chunk_lists
 
 def HA(no, title_en, title_ar):

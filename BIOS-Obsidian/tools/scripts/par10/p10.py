@@ -1,6 +1,6 @@
-import sys, os, shutil, re; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad/imm456")
+import sys, os, shutil, re; sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/imm456")
 from ci import *            # c helpers + B INSHORT TERMS balance save(split.fix)
-sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad"); from bidi import ltr_all; from flowfit import fit
+sys.path.insert(0, "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad"); from bidi import ltr_all; from flowfit import fit
 import split; split.ABBR += ("i. e.", "e.g.,")   # "( i. e. no free – living)" is not a sentence end
 
 # Diagnostic Parasitology (theory, stage 4, Prof. Dr. Nizar Al-Khafaji) — week 10: phylum Apicomplexa, main properties
@@ -14,7 +14,7 @@ BN = lambda en, ar: N(en, _q(ar), label=["BIOS note", "ملاحظة BIOS"])
 BX = lambda en, ar: N(en, ar, label=["BIOS explanation", "شرح BIOS"])
 O = P
 FOLDER = "parasitology-week10-theory"
-SRC = "/tmp/claude-0/-home-user-kwmdkm/ec0a0b14-ce3d-55b6-9a74-ee1458ac6c29/scratchpad/par10"
+SRC = "/tmp/claude-0/-home-user-kwmdkm/44452a28-19bf-5ce8-890a-f6919e775f0b/scratchpad/par10"
 def G(te, ta, en, ar): return dict(t="group", title_en=te, title_ar=ta, en=en, ar=ar, style="light")
 def TERMS6(terms, n=6):
     head = [B("Term", "المصطلح"), "الترجمات العربية المستعملة"]
