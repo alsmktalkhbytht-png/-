@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/atl1/a1.py
 handouts: [advtech-lab1-elisa]
-saved: 2026-11-11
+saved: 2026-11-12
 tags: [bios, code]
 ---
 # atl1/a1.py

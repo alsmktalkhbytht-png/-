@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/nur/nl2.py
 handouts: [nursing-ped-lec2-physical-assessment]
-saved: 2026-11-11
+saved: 2026-11-12
 tags: [bios, code]
 ---
 # nur/nl2.py

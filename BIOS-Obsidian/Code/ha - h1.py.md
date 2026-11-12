@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/ha/h1.py
 handouts: [nursing-ha-lec1-head-neck]
-saved: 2026-11-11
+saved: 2026-11-12
 tags: [bios, code]
 ---
 # ha/h1.py

@@ -1,9 +1,9 @@
 ---
 source: bios-engine/bios.py
-saved: 2026-11-11
+saved: 2026-11-12
 tags: [bios, code, engine]
 ---
-# bios-engine/bios.py (snapshot 2026-11-11)
+# bios-engine/bios.py (snapshot 2026-11-12)
 
 The live file is in the repository; this note is a copy for reading in Obsidian.
 

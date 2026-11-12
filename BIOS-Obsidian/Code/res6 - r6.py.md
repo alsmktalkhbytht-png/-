@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/res6/r6.py
 handouts: [research-methods-lec6-basic-research]
-saved: 2026-11-11
+saved: 2026-11-12
 tags: [bios, code]
 ---
 # res6/r6.py

@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/pat7/p7.py
 handouts: []
-saved: 2026-11-11
+saved: 2026-11-12
 tags: [bios, code]
 ---
 # pat7/p7.py

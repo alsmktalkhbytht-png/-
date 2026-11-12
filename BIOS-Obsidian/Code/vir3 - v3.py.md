@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/vir3/v3.py
 handouts: []
-saved: 2026-11-11
+saved: 2026-11-12
 tags: [bios, code]
 ---
 # vir3/v3.py

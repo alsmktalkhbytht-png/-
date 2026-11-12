@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/bl4/b4.py
 handouts: [bacteriology-lab4-identification]
-saved: 2026-11-11
+saved: 2026-11-12
 tags: [bios, code]
 ---
 # bl4/b4.py

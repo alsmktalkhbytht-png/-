@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/gen2/g2q.py
 handouts: [genetics-lec2-mitosis]
-saved: 2026-11-11
+saved: 2026-11-12
 tags: [bios, code]
 ---
 # gen2/g2q.py

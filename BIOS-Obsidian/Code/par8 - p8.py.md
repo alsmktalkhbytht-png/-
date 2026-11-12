@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/par8/p8.py
 handouts: [parasitology-week8-theory]
-saved: 2026-11-11
+saved: 2026-11-12
 tags: [bios, code]
 ---
 # par8/p8.py

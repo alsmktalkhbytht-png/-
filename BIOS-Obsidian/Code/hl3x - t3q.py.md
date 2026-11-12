@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/hl3x/t3q.py
 handouts: [histopathology-lab3-tissue-processing]
-saved: 2026-11-11
+saved: 2026-11-12
 tags: [bios, code]
 ---
 # hl3x/t3q.py

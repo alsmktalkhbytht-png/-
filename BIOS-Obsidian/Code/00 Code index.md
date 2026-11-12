@@ -128,6 +128,7 @@
 - [[Code/par67 - p67.py|par67/p67.py]] → parasitology-week6-7-theory
 - [[Code/par8 - p8.py|par8/p8.py]] → parasitology-week8-theory
 - [[Code/par9 - p9.py|par9/p9.py]] → parasitology-week9-theory
+- [[Code/par_lab7 - pl7.py|par_lab7/pl7.py]] → parasitology-lab7-hemoflagellates
 - [[Code/pat - make12.py|pat/make12.py]] → pathology-lec1-2-atelectasis
 - [[Code/pat - make3.py|pat/make3.py]] → pathology-lec3-chronic-bronchitis
 - [[Code/pat4 - p4q.py|pat4/p4q.py]] → pathology-lec4-lung-cancer
@@ -139,6 +140,7 @@
 - [[Code/pl4 - pl4q.py|pl4/pl4q.py]] → parasitology-lab4-nonpathogenic-amoebae
 - [[Code/pl5 - pl5q.py|pl5/pl5q.py]] → parasitology-lab5-flagellates-giardia
 - [[Code/pl6 - pl6.py|pl6/pl6.py]] → parasitology-lab6-trichomonads
+- [[Code/pl7 - pl7.py|pl7/pl7.py]] → parasitology-lab7-hemoflagellates
 - [[Code/rbc - rbc.py|rbc/rbc.py]] → hematology-practical-rbc-count
 - [[Code/res - make.py|res/make.py]] → research-lec1-principles
 - [[Code/res4 - r4.py|res4/r4.py]] → research-methods-lec4-process

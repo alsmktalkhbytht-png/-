@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/hp6/h6.py
 handouts: [histopathology-lab6-he-stain]
-saved: 2026-11-11
+saved: 2026-11-12
 tags: [bios, code]
 ---
 # hp6/h6.py

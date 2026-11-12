@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/imm3/q3.py
 handouts: [immunology-lec3-mcq]
-saved: 2026-11-11
+saved: 2026-11-12
 tags: [bios, code]
 ---
 # imm3/q3.py

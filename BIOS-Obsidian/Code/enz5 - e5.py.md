@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/enz5/e5.py
 handouts: [enzymology-lec5-diagnostic-enzymes]
-saved: 2026-11-11
+saved: 2026-11-12
 tags: [bios, code]
 ---
 # enz5/e5.py
