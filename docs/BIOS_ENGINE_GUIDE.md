@@ -1180,6 +1180,7 @@ if 'الثالثة' in (m.get('stage') or ''): print(m['subject_ar'], m['unit_ar
 | `endocrine-lab3-growth-hormone` | غدد صماء عملي | عملي 3 — هرمون النمو (أسلوب جديد) |
 | `hematology-practical-pcv` | امراض الدم | عملي 5 — PCV / الهيماتوكريت (أسلوب جديد) |
 | `hematology-practical-hb-estimation` | امراض الدم | عملي 4 — تقدير الهيموغلوبين (رقم 4 مكرّر مع قياس العكارة — ينتظر جواب المستخدم) |
+| `immunology-lec5-antibody-diversity` | مناعة | نظري 5 — توليد تنوّع الأضداد |
 | `immunology-lec4-immunoglobulins` | مناعة | نظري 4 — الغلوبيولينات المناعية (أسلوب جديد) |
 | `immunology-lab3-antigen-preparation` | مناعة | عملي 3 — تحضير المستضدات (أسلوب جديد، الأسئلة داخل الملزمة) |
 | `immunology-lab1-serology` | مناعة | عملي 1 |

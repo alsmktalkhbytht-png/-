@@ -8,6 +8,7 @@ Bilingual (English + Arabic) handouts in the BIOS style.
 - `immunology-lec2-cells-organs/` — Immunology theory lecture 2: Cells, Organs, and Defense (د. أحمد داود) — third stage.
 - `immunology-lec3-antigens/` — Immunology theory lecture 3: Immunogens or Antigens (د. أحمد داود) — third stage.
 - `immunology-lab1-serology/` — Practical Immunology Lab 1.
+- `immunology-lec5-antibody-diversity/` — Immunology theory lecture 5: Generation of antibody diversity (gene rearrangement, V-(D)-J joining, RSS, combinatorial & junctional diversity, P/N addition, allelic exclusion, somatic hypermutation, class switching) (د. أحمد داود) — third stage, built from the .ppt slides, 11 figures with translated labels, questions inside.
 - `immunology-lec4-immunoglobulins/` — Immunology theory lecture 4: Immunoglobulins (د. أحمد داود) — third stage, new style, questions inside, every slide figure with translated labels.
 - `immunology-lab3-antigen-preparation/` — Practical Immunology Lab 3: antigen preparation — bacterial (Salmonella O/H, streptolysin O) and RBC antigens (م.م. جنان خليل) — third stage, new style, questions inside.
 - `immunology-lab4-immunization-heart-puncture/` — Practical Immunology lab 4: immunization of laboratory animals (animal models, handling, IV / IP / SC injection) and blood harvesting by heart puncture, م.م. جنان خليل, third stage, questions merged. Word PDF, 4 pages, 7 pictures. 28 pages + cover.
