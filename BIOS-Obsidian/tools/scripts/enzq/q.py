@@ -145,6 +145,19 @@ important = [
  IM("Using the diagram, explain how an inactive apoenzyme becomes an active holoenzyme.", "باستعمال الشكل، اشرح كيف يصبح الأبوإنزيم الخامل هولوإنزيمًا فعّالًا.",
     "The apoenzyme is the protein part and is inactive on its own. When it binds its cofactor (the nonprotein part / activator), it becomes the holoenzyme — the whole, active enzyme that can then bind the substrate at its active site.",
     "الأبوإنزيم هو الجزء البروتيني وهو خامل وحده. وعندما يرتبط بعامله المرافق (الجزء غير البروتيني/المنشّط) يصبح هولوإنزيمًا — الإنزيم الكامل الفعّال الذي يرتبط بعدها بالمادة في موقعه الفعّال."),
+ # ───── more SA tied to the student’s highlighted points
+ IM("Marked by the student: what is meant by “enzymes are not consumed and do not alter the equilibrium”?", "مؤشَّر بالطالب: ما المقصود بأن الإنزيمات «لا تُستهلك ولا تغيّر الاتّزان»؟",
+    "As catalysts, enzymes speed up a reaction without being used up, so the same enzyme molecule works repeatedly and only very small amounts are needed. They lower the time to reach equilibrium but do not change the position of the equilibrium itself.",
+    "بوصفها محفّزات، تُسرّع الإنزيمات التفاعل دون أن تُستهلك، فيعمل الجزيء نفسه مرارًا وتكفي كميات صغيرة جدًا. وهي تقصّر زمن بلوغ الاتّزان لكنها لا تغيّر موضع الاتّزان نفسه."),
+ IM("Marked by the student: explain the effect of enzyme concentration and substrate concentration on the reaction rate.", "مؤشَّر بالطالب: اشرح أثر تركيز الإنزيم وتركيز المادة في معدّل التفاعل.",
+    "Enzyme concentration: if the enzyme amount is doubled (substrate in excess), the reaction rate is doubled — the rate is proportional to enzyme concentration. Substrate concentration: the rate is directly proportional to the available substrate (until the enzyme becomes saturated).",
+    "تركيز الإنزيم: إذا تضاعفت كمية الإنزيم (والمادة بوفرة) تضاعف المعدّل — فالمعدّل يتناسب مع تركيز الإنزيم. تركيز المادة: المعدّل يتناسب طرديًا مع المادة المتاحة (حتى يتشبّع الإنزيم)."),
+ IM("Marked by the student: how does temperature affect enzyme activity, and what is the optimum?", "مؤشَّر بالطالب: كيف تؤثّر درجة الحرارة في نشاط الإنزيم، وما الدرجة المثلى؟",
+    "The rate increases as temperature rises, but only up to a certain limit; beyond it the enzyme (a protein) denatures and activity falls. The optimum temperature is about 37°C.",
+    "يزداد المعدّل بارتفاع الحرارة لكن حتى حدٍّ معيّن؛ وبعده يتمسّخ الإنزيم (وهو بروتين) ويقلّ نشاطه. والدرجة المثلى نحو 37°م."),
+ IM("Marked by the student: differentiate between a coenzyme and a cofactor.", "مؤشَّر بالطالب: فرّق بين المرافق الإنزيمي والعامل المرافق.",
+    "A coenzyme is typically an organic molecule that helps the enzyme catalyse the reaction and has functionalities not found in proteins. A cofactor is a catalytically essential molecule or ion that is bound to the enzyme (the notes say covalently bound). Both are the non-protein part that activates the apoenzyme.",
+    "المرافق الإنزيمي عادةً جزيء عضوي يساعد الإنزيم على التحفيز وفيه خصائص غير موجودة في البروتين. والعامل المرافق جزيء أو أيون ضروري للتحفيز مرتبط بالإنزيم (الملاحظات تقول تساهميًا). وكلاهما الجزء غير البروتيني الذي ينشّط الأبوإنزيم."),
 ]
 Qs = {"title_en": "Introduction of Enzymes — Comprehensive Questions (MCQ + SA)", "title_ar": "مقدمة في الإنزيمات — أسئلة شاملة (اختيار + مقالية)",
       "answers_inline": True, "mcq": ltr_all(mcq), "tf": [], "traps": [], "important": ltr_all(important)}

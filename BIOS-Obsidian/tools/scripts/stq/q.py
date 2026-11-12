@@ -194,6 +194,22 @@ important = [
  IM("Student homework: why is EDTA preferred over sodium citrate for a complete blood count (CBC)?", "واجب الطالب: لماذا يُفضَّل EDTA على سترات الصوديوم لتعداد الدم الكامل (CBC)؟",
     "EDTA best preserves cell morphology and gives accurate cell counts and does not dilute the sample. Sodium citrate is a liquid additive that dilutes the blood (fixed blood-to-additive ratio) and is reserved for coagulation tests, so it is not suitable for a CBC.",
     "EDTA يحفظ شكل الخلايا جيدًا ويعطي عدًّا دقيقًا للخلايا ولا يخفّف العيّنة. أما سترات الصوديوم فمضاف سائل يخفّف الدم (بنسبة ثابتة دم:مضاف) وتُحفظ لفحوص التخثّر، فلا تصلح لتعداد الدم."),
+ # ───── more SA tied to the student’s highlighted points
+ IM("Marked by the student — red tube: what sample does it give, what is its additive, and give three of its tests.", "مؤشَّر بالطالب — الأنبوب الأحمر: أيّ عيّنة يعطي، وما مضافه، واذكر ثلاثة من فحوصه.",
+    "It gives serum (the blood is allowed to clot). It has no anticoagulant; it contains silica particles that act as clot activators. Tests: serum glucose, cholesterol/triglycerides/HDL, liver enzymes/CK, antibody screening, blood-bank serology, RPR, ANA, rheumatoid factor.",
+    "يعطي المصل (يُترك الدم ليتخثّر). وبلا مانع تخثّر؛ فيه جزيئات سيليكا تعمل منشّطات تخثّر. الفحوص: سكر المصل، الكوليسترول/الدهون الثلاثية/HDL، إنزيمات الكبد/CK، فحص الأضداد، مصليات بنك الدم، RPR، ANA، العامل الرثوي."),
+ IM("Marked by the student — light blue tube: its use, its additive’s mechanism, and its tests.", "مؤشَّر بالطالب — الأنبوب الأزرق الفاتح: استعماله، وآلية مضافه، وفحوصه.",
+    "Used for hematology coagulation (clotting) tests that need whole blood. Additive: sodium citrate, which binds and removes calcium to prevent clotting. Tests: coagulation, PT, FDP, APTT/PTT, TT and factor assays.",
+    "يُستعمل لفحوص التخثّر (الدم الكامل). المضاف: سترات الصوديوم التي تربط الكالسيوم وتزيله لمنع التخثّر. الفحوص: التخثّر، PT، FDP، APTT/PTT، TT، وفحوص العوامل."),
+ IM("Marked by the student — green tube: why is it the most common, its additive and mechanism, and its uses.", "مؤشَّر بالطالب — الأنبوب الأخضر: لماذا هو الأكثر شيوعًا، ومضافه وآليته، واستعمالاته.",
+    "It is the most common tube, used mainly for biochemistry tests needing whole blood or heparinized plasma. Additive: heparin (sodium/lithium/ammonium), which inhibits the formation of thrombin to prevent clotting. Uses: chemistry testing, ammonia, insulin, chromosome screening, aldosterone and renin.",
+    "هو الأكثر شيوعًا، يُستعمل أساسًا لفحوص الكيمياء الحيوية التي تحتاج دمًا كاملًا أو بلازما مهبّرنة. المضاف: الهيبارين (صوديوم/ليثيوم/أمونيوم) الذي يثبّط تكوّن الثرومبين لمنع التخثّر. الاستعمالات: الفحوص الكيميائية، الأمونيا، الأنسولين، فحص الكروموسومات، الألدوستيرون والرينين."),
+ IM("Marked by the student — lavender and yellow tubes: give the additive and main uses of each.", "مؤشَّر بالطالب — الأنبوبان البنفسجي والأصفر: اذكر مضاف واستعمالات كلٍّ منهما.",
+    "Lavender: additive EDTA (removes calcium) → hematology; blood film for malaria/abnormal cells, red-cell folate, reticulocytes, parathyroid hormone and monospot. Yellow: additive SPS and ACD (prevent clotting and stabilize bacterial growth) → blood/bodily-fluid cultures; ACD tubes for cellular studies, paternity testing and HLA typing.",
+    "البنفسجي: مضافه EDTA (يزيل الكالسيوم) ← أمراض الدم؛ الفيلم الدموي للملاريا/الخلايا الشاذّة، فولات الكريات الحمر، الخلايا الشبكية، هرمون جارات الدرقية، والمونوسبوت. الأصفر: مضافه SPS وACD (يمنعان التخثّر ويثبّتان نموّ البكتيريا) ← مزارع الدم وسوائل الجسم؛ وأنابيب ACD للدراسات الخلوية وفحص الأبوّة وتنميط HLA."),
+ IM("Marked by the student — grey tube: its additive, why it is used, and its main tests.", "مؤشَّر بالطالب — الأنبوب الرمادي: مضافه، وسبب استعماله، وفحوصه الرئيسة.",
+    "Additive: sodium fluoride, which stops glycolysis (antiglycolytic) so glucose stays stable in the sample. Main uses: glucose tolerance testing and blood alcohol level.",
+    "المضاف: فلوريد الصوديوم الذي يوقف تحلّل السكّر (مضادّ لتحلّل السكّر) فيبقى الغلوكوز ثابتًا في العيّنة. الاستعمالات: اختبار تحمّل الغلوكوز ومستوى الكحول في الدم."),
 ]
 Qs = {"title_en": "Lab Safety and Blood Collecting Tubes — Comprehensive Questions (MCQ + SA)", "title_ar": "السلامة في المختبر وأنابيب جمع الدم — أسئلة شاملة (اختيار + مقالية)",
       "answers_inline": True, "mcq": ltr_all(mcq), "tf": [], "traps": [], "important": ltr_all(important)}
