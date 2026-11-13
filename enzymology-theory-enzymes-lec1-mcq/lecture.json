@@ -1,0 +1,1417 @@
+{
+ "meta": {
+  "subject_en": "Clinical Enzymology",
+  "subject_ar": "الإنزيمات السريرية",
+  "short_ar": "انزيمات سريرية",
+  "instructor": "د. وليد مجيد",
+  "unit_en": "Lecture 1",
+  "unit_ar": "المحاضرة 1",
+  "unit_label": "LEC",
+  "unit_no": "1",
+  "title_en": "Enzymes (Introduction)",
+  "title_ar": "الإنزيمات (مقدمة)",
+  "kind": "Theory — نظري",
+  "stage": "The fourth stage — الرابعة",
+  "file_name": "BIOS - انزيمات سريرية نظري - الإنزيمات محاضرة 1 - بنك أسئلة شامل"
+ },
+ "questions": {
+  "title_en": "Enzymes (Lecture 1) — Comprehensive Questions (MCQ + SA)",
+  "title_ar": "الإنزيمات (المحاضرة 1) — أسئلة شاملة (اختيار + مقالية)",
+  "answers_inline": true,
+  "mcq": [
+   {
+    "topic_en": "Definition and general properties",
+    "topic_ar": "التعريف والصفات العامة"
+   },
+   {
+    "en": "Enzymes are chemically defined as:",
+    "ar": "تُعرَّف الإنزيمات كيميائيًا بأنها:",
+    "options": [
+     [
+      "Protein catalysts (and occasionally RNA called ribozymes)",
+      "محفّزات بروتينية (وأحيانًا `RNA` يُسمّى رايبوزيمات)"
+     ],
+     [
+      "Lipids",
+      "دهون"
+     ],
+     [
+      "Carbohydrates",
+      "كربوهيدرات"
+     ],
+     [
+      "Metal ions only",
+      "أيونات معدنية فقط"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Enzymes are protein catalysts (and occasionally RNA, called ribozymes).",
+    "note_ar": "الإنزيمات محفّزات بروتينية (وأحيانًا RNA يُسمّى رايبوزيمات)."
+   },
+   {
+    "en": "Enzymes are similar to a chemical catalyst such as:",
+    "ar": "تشبه الإنزيمات محفّزًا كيميائيًا مثل:",
+    "options": [
+     [
+      "Water",
+      "الماء"
+     ],
+     [
+      "NaCl",
+      "كلوريد الصوديوم"
+     ],
+     [
+      "Glucose",
+      "الغلوكوز"
+     ],
+     [
+      "Pt or Fe²⁺",
+      "البلاتين أو الحديد²⁺"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Enzymes are similar to chemical catalysts such as Pt or Fe²⁺.",
+    "note_ar": "تشبه الإنزيمات المحفّزات الكيميائية مثل البلاتين أو الحديد²⁺."
+   },
+   {
+    "en": "An enzyme increases the rate of a reaction while itself:",
+    "ar": "يزيد الإنزيم معدّل التفاعل بينما هو نفسه:",
+    "options": [
+     [
+      "Becomes the product",
+      "يصبح النّاتج"
+     ],
+     [
+      "Is destroyed",
+      "يُدمَّر"
+     ],
+     [
+      "Is not consumed",
+      "لا يُستهلك"
+     ],
+     [
+      "Is oxidized",
+      "يتأكسد"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "An enzyme increases the reaction rate without itself being consumed.",
+    "note_ar": "يزيد الإنزيم معدّل التفاعل دون أن يُستهلك هو نفسه."
+   },
+   {
+    "en": "The molecular weight of enzymes ranges approximately from:",
+    "ar": "يتراوح الوزن الجزيئي للإنزيمات تقريبًا بين:",
+    "options": [
+     [
+      "100 to 500",
+      "100 إلى 500"
+     ],
+     [
+      "12,000 to 1,000,000",
+      "12,000 إلى 1,000,000"
+     ],
+     [
+      "10 to 100",
+      "10 إلى 100"
+     ],
+     [
+      "2 to 20 million",
+      "2 إلى 20 مليون"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Enzymes have a molecular weight in the range of 12,000 to 1,000,000.",
+    "note_ar": "للإنزيمات وزن جزيئي يتراوح بين 12,000 و1,000,000."
+   },
+   {
+    "en": "The particular substance that an enzyme acts on with high specificity is called the:",
+    "ar": "المادة التي يؤثّر فيها الإنزيم بنوعية عالية تُسمّى:",
+    "options": [
+     [
+      "Product",
+      "النّاتج"
+     ],
+     [
+      "Substrate",
+      "المادة (الركيزة)"
+     ],
+     [
+      "Cofactor",
+      "العامل المرافق"
+     ],
+     [
+      "Inhibitor",
+      "المثبّط"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Enzymes act with high specificity on one or a class of particular substances called substrates.",
+    "note_ar": "تعمل الإنزيمات بنوعية عالية على مادة أو صنف من المواد يُسمّى المادة (الركيزة)."
+   },
+   {
+    "en": "Which is a property by which enzymes DIFFER from chemical catalysts?",
+    "ar": "أيّها صفة تختلف بها الإنزيمات عن المحفّزات الكيميائية؟",
+    "options": [
+     [
+      "They need very high temperature",
+      "تحتاج حرارة عالية جدًا"
+     ],
+     [
+      "They are consumed in the reaction",
+      "تُستهلك في التفاعل"
+     ],
+     [
+      "A high degree of specificity, so no side reaction or wasteful by-products occur",
+      "درجة عالية من النوعية، فلا تحدث تفاعلات جانبية ولا نواتج ضائعة"
+     ],
+     [
+      "They produce many by-products",
+      "تنتج نواتج جانبية كثيرة"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Enzymes have a high degree of specificity (no side reactions/by-products), accelerate reactions tremendously, and function in aqueous solutions under very mild pressure, temperature and pH.",
+    "note_ar": "للإنزيمات درجة عالية من النوعية (بلا تفاعلات جانبية/نواتج ضائعة)، وتُسرّع التفاعلات كثيرًا، وتعمل في محاليل مائية بظروف لطيفة جدًا من الضغط والحرارة والأس الهيدروجيني."
+   },
+   {
+    "en": "Enzymes function in aqueous solutions under very mild conditions of:",
+    "ar": "تعمل الإنزيمات في محاليل مائية بظروف لطيفة جدًا من:",
+    "options": [
+     [
+      "Pressure, temperature and pH",
+      "الضغط والحرارة والأس الهيدروجيني"
+     ],
+     [
+      "High pressure only",
+      "الضغط العالي فقط"
+     ],
+     [
+      "High temperature only",
+      "الحرارة العالية فقط"
+     ],
+     [
+      "Extreme acidity",
+      "الحموضة الشديدة"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "They function in aqueous solutions under very mild conditions of pressure, temperature and pH — rare in non-biological catalysts.",
+    "note_ar": "تعمل في محاليل مائية بظروف لطيفة جدًا من الضغط والحرارة والأس الهيدروجيني — وهذا نادر في المحفّزات غير الحيوية."
+   },
+   {
+    "topic_en": "Nomenclature of enzymes",
+    "topic_ar": "تسمية الإنزيمات"
+   },
+   {
+    "en": "Each enzyme is assigned how many names?",
+    "ar": "كم اسمًا يُعطى لكل إنزيم؟",
+    "options": [
+     [
+      "Four",
+      "أربعة"
+     ],
+     [
+      "One only",
+      "اسم واحد فقط"
+     ],
+     [
+      "Three",
+      "ثلاثة"
+     ],
+     [
+      "Two (recommended name and systematic name)",
+      "اسمان (الاسم الموصى به والاسم المنهجي)"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Each enzyme is assigned two names: a recommended name and a systematic name.",
+    "note_ar": "يُعطى كل إنزيم اسمين: الاسم الموصى به والاسم المنهجي."
+   },
+   {
+    "en": "The recommended name is usually formed by adding which suffix?",
+    "ar": "يُكوَّن الاسم الموصى به عادةً بإضافة اللاحقة:",
+    "options": [
+     [
+      "-ase",
+      "-`ase` (ـيز)"
+     ],
+     [
+      "-ose",
+      "-ose"
+     ],
+     [
+      "-in",
+      "-in"
+     ],
+     [
+      "-ogen",
+      "-ogen"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Recommended name: related to the substrate with the suffix “-ase” (e.g. glucosidase, urease, sucrase), or to the nature of the reaction (e.g. lactate dehydrogenase).",
+    "note_ar": "الاسم الموصى به: مرتبط بالمادة مع اللاحقة «-ase» (مثل غلوكوزيديز، يورييز، سكرييز)، أو بطبيعة التفاعل (مثل لاكتات ديهيدروجينيز)."
+   },
+   {
+    "en": "Why was a systematic name suggested in addition to the recommended name?",
+    "ar": "لماذا اقتُرح الاسم المنهجي إضافةً إلى الاسم الموصى به؟",
+    "options": [
+     [
+      "Because enzymes have no substrate",
+      "لأن الإنزيمات بلا مادة"
+     ],
+     [
+      "Because recommended names are too long",
+      "لأن الأسماء الموصى بها طويلة جدًا"
+     ],
+     [
+      "Because some enzyme names (e.g. trypsin, pepsin) do not indicate their action",
+      "لأن بعض أسماء الإنزيمات (مثل التربسين والبيبسين) لا تدلّ على فعلها"
+     ],
+     [
+      "Because catalysts are not proteins",
+      "لأن المحفّزات ليست بروتينات"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Some enzymes take names that do not indicate their acts (e.g. trypsin, pepsin), so a systematic name is suggested.",
+    "note_ar": "بعض الإنزيمات تأخذ أسماءً لا تدلّ على فعلها (مثل التربسين والبيبسين)، لذا اقتُرح الاسم المنهجي."
+   },
+   {
+    "en": "The systematic naming system was developed by the:",
+    "ar": "وُضع نظام التسمية المنهجي من قِبل:",
+    "options": [
+     [
+      "IUPAC only",
+      "الاتحاد الدولي للكيمياء البحتة فقط"
+     ],
+     [
+      "WHO",
+      "منظمة الصحة العالمية"
+     ],
+     [
+      "FDA",
+      "إدارة الغذاء والدواء"
+     ],
+     [
+      "IUBMB",
+      "الاتحاد الدولي للكيمياء الحيوية والبيولوجيا الجزيئية `(IUBMB)`"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "The systematic name was developed by the International Union of Biochemistry and Molecular Biology (IUBMB).",
+    "note_ar": "وُضع الاسم المنهجي من قِبل الاتحاد الدولي للكيمياء الحيوية والبيولوجيا الجزيئية (IUBMB)."
+   },
+   {
+    "en": "In the systematic name, the two parts refer to:",
+    "ar": "في الاسم المنهجي، يشير الجزآن إلى:",
+    "options": [
+     [
+      "The price and the source",
+      "السعر والمصدر"
+     ],
+     [
+      "The substrate(s) and the nature of the reaction (ending with -ase)",
+      "المادة (المواد) وطبيعة التفاعل (تنتهي بـ -`ase`)"
+     ],
+     [
+      "The color and the weight",
+      "اللون والوزن"
+     ],
+     [
+      "The organ and the patient",
+      "العضو والمريض"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "The systematic name has two parts: the first refers to the substrate(s), the second to the nature of the enzymatic reaction, ending with “-ase”.",
+    "note_ar": "للاسم المنهجي جزآن: الأول يشير إلى المادة (المواد)، والثاني إلى طبيعة التفاعل الإنزيمي، وينتهي بـ «-ase»."
+   },
+   {
+    "en": "The systematic name of the “malic enzyme” is:",
+    "ar": "الاسم المنهجي لـ «الإنزيم الماليكي» هو:",
+    "options": [
+     [
+      "L-Malate: NAD oxidoreductase (decarboxylating)",
+      "`L`-ماليت: `NAD` أوكسيدوريدكتيز (منزوع الكربوكسيل)"
+     ],
+     [
+      "Malate hydrolase",
+      "ماليت هيدروليز"
+     ],
+     [
+      "Malate kinase",
+      "ماليت كينيز"
+     ],
+     [
+      "Malate synthase",
+      "ماليت سينثيز"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Recommended = malic enzyme; systematic = L-Malate: NAD oxidoreductase (decarboxylating) — substrate | reaction nature | (removes the carboxyl group as CO₂).",
+    "note_ar": "الموصى به = الإنزيم الماليكي؛ والمنهجي = L-ماليت: NAD أوكسيدوريدكتيز (منزوع الكربوكسيل) — المادة | طبيعة التفاعل | (ينزع الكربوكسيل كـ CO₂)."
+   },
+   {
+    "topic_en": "The Enzyme Code (E.C.) number",
+    "topic_ar": "الرقم الرمزي للإنزيم (E.C.)"
+   },
+   {
+    "en": "The systematic Enzyme Code (E.C.) number consists of:",
+    "ar": "يتألّف الرقم الرمزي المنهجي للإنزيم `(E.C.)` من:",
+    "options": [
+     [
+      "One number",
+      "رقم واحد"
+     ],
+     [
+      "Two numbers",
+      "رقمين"
+     ],
+     [
+      "Four numbers and the sign E.C.",
+      "أربعة أرقام وعلامة `E.C`."
+     ],
+     [
+      "Six numbers",
+      "ستة أرقام"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "For each enzyme there is a systematic code of four numbers with the sign E.C. (Enzyme Code).",
+    "note_ar": "لكل إنزيم رقم رمزي منهجي من أربعة أرقام مع العلامة E.C. (الرمز الإنزيمي)."
+   },
+   {
+    "en": "In the E.C. number, the FIRST number represents the:",
+    "ar": "في رقم `E.C`.، يمثّل الرقم الأول:",
+    "options": [
+     [
+      "The patient number",
+      "رقم المريض"
+     ],
+     [
+      "Serial listing",
+      "الترتيب التسلسلي"
+     ],
+     [
+      "Sub-subclass",
+      "تحت-التحت صنف"
+     ],
+     [
+      "Major class (clarifies the nature of the reaction)",
+      "الصنف الرئيس (يوضّح طبيعة التفاعل)"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "First number = major class (nature of reaction); second = subclass (group/bond); third = sub-subclass (e.g. electron acceptor); fourth = serial listing (random).",
+    "note_ar": "الأول = الصنف الرئيس (طبيعة التفاعل)؛ والثاني = التحت-صنف (المجموعة/الرابطة)؛ والثالث = تحت-التحت صنف (مثل متقبّل الإلكترونات)؛ والرابع = الترتيب التسلسلي (عشوائي)."
+   },
+   {
+    "en": "The SECOND number of the E.C. code represents the:",
+    "ar": "الرقم الثاني في رمز `E.C`. يمثّل:",
+    "options": [
+     [
+      "Major class",
+      "الصنف الرئيس"
+     ],
+     [
+      "Subclass (group or bond related to catalysis)",
+      "التحت-صنف (المجموعة أو الرابطة المتعلّقة بالتحفيز)"
+     ],
+     [
+      "Serial listing",
+      "الترتيب التسلسلي"
+     ],
+     [
+      "Molecular weight",
+      "الوزن الجزيئي"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "The second number specifies the subclass (the group or bond related to the catalysis).",
+    "note_ar": "الرقم الثاني يحدّد التحت-صنف (المجموعة أو الرابطة المتعلّقة بالتحفيز)."
+   },
+   {
+    "en": "The FOURTH number of the E.C. code represents the:",
+    "ar": "الرقم الرابع في رمز `E.C`. يمثّل:",
+    "options": [
+     [
+      "The subclass",
+      "التحت-صنف"
+     ],
+     [
+      "The major class",
+      "الصنف الرئيس"
+     ],
+     [
+      "Serial listing of the enzyme (given randomly)",
+      "الترتيب التسلسلي للإنزيم (يُعطى عشوائيًا)"
+     ],
+     [
+      "The substrate weight",
+      "وزن المادة"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "The fourth number represents the serial listing of the enzyme in its sub-subclass, which is given randomly.",
+    "note_ar": "الرقم الرابع يمثّل الترتيب التسلسلي للإنزيم في تحت-التحت صنفه، ويُعطى عشوائيًا."
+   },
+   {
+    "topic_en": "The six major classes (memorise in order)",
+    "topic_ar": "الأصناف الستة الرئيسة (احفظها بالترتيب)"
+   },
+   {
+    "en": "Enzymes are divided into how many major classes?",
+    "ar": "تُقسَّم الإنزيمات إلى كم صنفًا رئيسًا؟",
+    "options": [
+     [
+      "Ten",
+      "عشرة"
+     ],
+     [
+      "Four",
+      "أربعة"
+     ],
+     [
+      "Three",
+      "ثلاثة"
+     ],
+     [
+      "Six",
+      "ستة"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Six major classes (in order): 1 Oxidoreductases, 2 Transferases, 3 Hydrolases, 4 Lyases, 5 Isomerases, 6 Ligases.",
+    "note_ar": "ستة أصناف رئيسة (بالترتيب): 1 أوكسيدوريدكتيزات، 2 ترانسفيريزات، 3 هيدروليزات، 4 ليازات، 5 أيزوميريزات، 6 ليغيزات."
+   },
+   {
+    "en": "The reaction pyruvate + NADH + H⁺ → L-lactate + NAD⁺ (lactate dehydrogenase) is catalyzed by a/an:",
+    "ar": "التفاعل بيروفات + `NADH + H`⁺ ← لاكتات-`L + NAD`⁺ (لاكتات ديهيدروجينيز) يحفّزه:",
+    "options": [
+     [
+      "Hydrolase",
+      "هيدروليز"
+     ],
+     [
+      "Oxidoreductase",
+      "أوكسيدوريدكتيز"
+     ],
+     [
+      "Ligase",
+      "ليغيز"
+     ],
+     [
+      "Isomerase",
+      "أيزوميريز"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Class 1 (oxidoreductases) catalyze oxidation–reduction, e.g. lactate dehydrogenase: pyruvate ↔ L-lactate.",
+    "note_ar": "الصنف 1 (الأوكسيدوريدكتيزات) تحفّز الأكسدة–الاختزال، مثل لاكتات ديهيدروجينيز: بيروفات ↔ لاكتات-L."
+   },
+   {
+    "en": "The reaction glucose + ATP → glucose-6-phosphate + ADP (hexokinase) is catalyzed by a:",
+    "ar": "التفاعل غلوكوز + `ATP` ← غلوكوز-6-فوسفات + `ADP` (هكسوكينيز) يحفّزه:",
+    "options": [
+     [
+      "Transferase",
+      "ترانسفيريز"
+     ],
+     [
+      "Lyase",
+      "لياز"
+     ],
+     [
+      "Oxidoreductase",
+      "أوكسيدوريدكتيز"
+     ],
+     [
+      "Isomerase",
+      "أيزوميريز"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Class 2 (transferases) transfer a group between molecules, e.g. hexokinase transfers phosphate from ATP to glucose.",
+    "note_ar": "الصنف 2 (الترانسفيريزات) تنقل مجموعة بين الجزيئات، مثل الهكسوكينيز الذي ينقل الفوسفات من ATP إلى الغلوكوز."
+   },
+   {
+    "en": "The reaction maltose + H₂O → glucose + glucose (maltase) is catalyzed by a:",
+    "ar": "التفاعل مالتوز + `H`₂`O` ← غلوكوز + غلوكوز (مالتيز) يحفّزه:",
+    "options": [
+     [
+      "Transferase",
+      "ترانسفيريز"
+     ],
+     [
+      "Ligase",
+      "ليغيز"
+     ],
+     [
+      "Hydrolase",
+      "هيدروليز"
+     ],
+     [
+      "Oxidoreductase",
+      "أوكسيدوريدكتيز"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Class 3 (hydrolases) cleave bonds by adding water, e.g. maltase hydrolyses maltose to two glucose.",
+    "note_ar": "الصنف 3 (الهيدروليزات) تكسر الروابط بإضافة الماء، مثل المالتيز الذي يحلمه المالتوز إلى غلوكوزين."
+   },
+   {
+    "en": "The reaction fumarate + H₂O → L-malate (fumarase) is catalyzed by a/an:",
+    "ar": "التفاعل فيوماريت + `H`₂`O` ← ماليت-`L` (فيوميريز) يحفّزه:",
+    "options": [
+     [
+      "Transferase",
+      "ترانسفيريز"
+     ],
+     [
+      "Hydrolase",
+      "هيدروليز"
+     ],
+     [
+      "Ligase",
+      "ليغيز"
+     ],
+     [
+      "Lyase (addition to a double bond)",
+      "لياز (إضافة إلى رابطة مزدوجة)"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Class 4 (lyases) add groups to double bonds (or remove them), e.g. fumarase adds water across the double bond of fumarate.",
+    "note_ar": "الصنف 4 (الليازات) تضيف مجموعات إلى الروابط المزدوجة (أو تنزعها)، مثل الفيوميريز الذي يضيف الماء عبر الرابطة المزدوجة للفيوماريت."
+   },
+   {
+    "en": "The reaction 3-phosphoglycerate ⇌ 2-phosphoglycerate (phosphoglyceromutase) is catalyzed by an:",
+    "ar": "التفاعل 3-فوسفوغليسيرات ⇌ 2-فوسفوغليسيرات (فوسفوغليسيروميوتيز) يحفّزه:",
+    "options": [
+     [
+      "Isomerase",
+      "أيزوميريز"
+     ],
+     [
+      "Ligase",
+      "ليغيز"
+     ],
+     [
+      "Hydrolase",
+      "هيدروليز"
+     ],
+     [
+      "Oxidoreductase",
+      "أوكسيدوريدكتيز"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Class 5 (isomerases) catalyze isomerization (intramolecular rearrangement), e.g. phosphoglyceromutase.",
+    "note_ar": "الصنف 5 (الأيزوميريزات) تحفّز الأيزومرة (إعادة ترتيب داخل الجزيء)، مثل الفوسفوغليسيروميوتيز."
+   },
+   {
+    "en": "The reaction pyruvate + CO₂ + ATP → oxaloacetate + ADP + Pᵢ (pyruvate carboxylase) is catalyzed by a:",
+    "ar": "التفاعل بيروفات + `CO`₂ + `ATP` ← أوكسالوأسيتات + `ADP + P`ᵢ (بيروفات كاربوكسيليز) يحفّزه:",
+    "options": [
+     [
+      "Isomerase",
+      "أيزوميريز"
+     ],
+     [
+      "Ligase (ATP-dependent bond formation)",
+      "ليغيز (تكوين رابطة معتمد على `ATP`)"
+     ],
+     [
+      "Hydrolase",
+      "هيدروليز"
+     ],
+     [
+      "Oxidoreductase",
+      "أوكسيدوريدكتيز"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Class 6 (ligases) form bonds using ATP, e.g. pyruvate carboxylase (E.C. 6.4.1.1) forms a C–C bond.",
+    "note_ar": "الصنف 6 (الليغيزات) تكوّن الروابط باستعمال ATP، مثل البيروفات كاربوكسيليز (E.C. 6.4.1.1) الذي يكوّن رابطة C–C."
+   },
+   {
+    "en": "Which class of enzymes forms bonds in an ATP-dependent manner?",
+    "ar": "أيّ صنف من الإنزيمات يكوّن الروابط بطريقة معتمدة على `ATP`؟",
+    "options": [
+     [
+      "Oxidoreductases",
+      "الأوكسيدوريدكتيزات"
+     ],
+     [
+      "Hydrolases",
+      "الهيدروليزات"
+     ],
+     [
+      "Isomerases",
+      "الأيزوميريزات"
+     ],
+     [
+      "Ligases",
+      "الليغيزات"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Ligases (class 6) catalyze ATP-dependent bond formation.",
+    "note_ar": "الليغيزات (الصنف 6) تحفّز تكوين الروابط المعتمد على ATP."
+   },
+   {
+    "en": "Amino transferases (transaminases) belong to which major class?",
+    "ar": "تنتمي ناقلات الأمين (الترانس أميناز) إلى أيّ صنف رئيس؟",
+    "options": [
+     [
+      "Oxidoreductases (class 1)",
+      "الأوكسيدوريدكتيزات (الصنف 1)"
+     ],
+     [
+      "Transferases (class 2)",
+      "الترانسفيريزات (الصنف 2)"
+     ],
+     [
+      "Hydrolases (class 3)",
+      "الهيدروليزات (الصنف 3)"
+     ],
+     [
+      "Ligases (class 6)",
+      "الليغيزات (الصنف 6)"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Amino transferases transfer an amino group → class 2 (transferases), subclass 2.6.1.",
+    "note_ar": "ناقلات الأمين تنقل مجموعة أمين ← الصنف 2 (الترانسفيريزات)، التحت-صنف 2.6.1."
+   },
+   {
+    "topic_en": "Active site and its hypotheses",
+    "topic_ar": "الموقع الفعّال وفرضياته"
+   },
+   {
+    "en": "The active site of an enzyme is:",
+    "ar": "الموقع الفعّال للإنزيم هو:",
+    "options": [
+     [
+      "A specific pocket or cleft of amino acid side chains complementary to the substrate",
+      "جيب أو تجويف نوعي من سلاسل جانبية لأحماض أمينية مكمّل للمادة"
+     ],
+     [
+      "The whole protein chain",
+      "السلسلة البروتينية كلها"
+     ],
+     [
+      "A nonprotein cofactor",
+      "عامل مرافق غير بروتيني"
+     ],
+     [
+      "A metal ion only",
+      "أيون معدني فقط"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "The active site is a specific pocket/cleft of amino acid side chains forming a 3-D surface complementary to the substrate.",
+    "note_ar": "الموقع الفعّال جيب/تجويف نوعي من سلاسل جانبية لأحماض أمينية يكوّن سطحًا ثلاثي الأبعاد مكمّلًا للمادة."
+   },
+   {
+    "en": "The “lock and key” hypothesis of the active site was proposed by:",
+    "ar": "فرضية «القفل والمفتاح» للموقع الفعّال اقترحها:",
+    "options": [
+     [
+      "Michaelis",
+      "ميكايليس"
+     ],
+     [
+      "Koshland",
+      "كوشلاند"
+     ],
+     [
+      "Fischer",
+      "فيشر"
+     ],
+     [
+      "Lineweaver",
+      "لاينويفر"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Lock and key (Fischer): the active site is already complementary in shape to the substrate.",
+    "note_ar": "القفل والمفتاح (فيشر): الموقع الفعّال مكمّل في شكله للمادة أصلًا."
+   },
+   {
+    "en": "The “induced-fit” hypothesis was proposed by:",
+    "ar": "فرضية «التطابق المُستحَث» اقترحها:",
+    "options": [
+     [
+      "Warburg",
+      "واربورغ"
+     ],
+     [
+      "Fischer",
+      "فيشر"
+     ],
+     [
+      "Sumner",
+      "سَمنر"
+     ],
+     [
+      "Koshland",
+      "كوشلاند"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Induced-fit (Koshland): the enzyme changes shape upon binding substrate; the active site becomes complementary only after the substrate is bound.",
+    "note_ar": "التطابق المُستحَث (كوشلاند): يغيّر الإنزيم شكله عند ارتباط المادة؛ ويصبح الموقع الفعّال مكمّلًا فقط بعد ارتباط المادة."
+   },
+   {
+    "en": "According to the induced-fit hypothesis, the enzyme:",
+    "ar": "وفق فرضية التطابق المُستحَث، فإن الإنزيم:",
+    "options": [
+     [
+      "Never changes shape",
+      "لا يغيّر شكله أبدًا"
+     ],
+     [
+      "Changes its shape upon binding the substrate",
+      "يغيّر شكله عند ارتباط المادة"
+     ],
+     [
+      "Is complementary before binding",
+      "مكمّل قبل الارتباط"
+     ],
+     [
+      "Binds no substrate",
+      "لا يرتبط بأي مادة"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Induced-fit: (a) the enzyme changes shape upon binding substrate; (b) the active site is complementary only after the substrate is bound.",
+    "note_ar": "التطابق المُستحَث: (أ) يغيّر الإنزيم شكله عند ارتباط المادة؛ (ب) يصبح الموقع الفعّال مكمّلًا فقط بعد ارتباط المادة."
+   },
+   {
+    "topic_en": "Catalytic efficiency, specificity, regulation",
+    "topic_ar": "كفاءة التحفيز والنوعية والتنظيم"
+   },
+   {
+    "en": "Most enzyme-catalyzed reactions proceed how much faster than uncatalyzed reactions?",
+    "ar": "معظم التفاعلات المحفّزة بالإنزيمات تمضي أسرع من غير المحفّزة بمقدار:",
+    "options": [
+     [
+      "10³ to 10⁸ times",
+      "`10³` إلى `10⁸` مرّة"
+     ],
+     [
+      "2 to 5 times",
+      "2 إلى 5 مرّات"
+     ],
+     [
+      "10 to 50 times",
+      "10 إلى 50 مرّة"
+     ],
+     [
+      "100 to 200 times",
+      "100 إلى 200 مرّة"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Most enzyme-catalyzed reactions are highly efficient, proceeding 10³ to 10⁸ times faster than uncatalyzed reactions.",
+    "note_ar": "معظم التفاعلات المحفّزة بالإنزيمات عالية الكفاءة، وتمضي أسرع بـ 10³ إلى 10⁸ مرّة من غير المحفّزة."
+   },
+   {
+    "en": "Each enzyme molecule is capable of transforming how many substrate molecules into product each second?",
+    "ar": "كل جزيء إنزيم قادر على تحويل كم جزيء مادة إلى ناتج في الثانية؟",
+    "options": [
+     [
+      "10 to 20",
+      "10 إلى 20"
+     ],
+     [
+      "1 to 2",
+      "1 إلى 2"
+     ],
+     [
+      "100 to 1000",
+      "100 إلى 1000"
+     ],
+     [
+      "1 to 5 million",
+      "1 إلى 5 ملايين"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Each enzyme molecule can transform 100 to 1000 substrate molecules into product each second.",
+    "note_ar": "يستطيع كل جزيء إنزيم تحويل 100 إلى 1000 جزيء مادة إلى ناتج في الثانية."
+   },
+   {
+    "en": "Urease, which hydrolyzes urea only, is an example of:",
+    "ar": "اليورييز الذي يحلمه اليوريا فقط، مثال على:",
+    "options": [
+     [
+      "Group specificity",
+      "النوعية الجماعية"
+     ],
+     [
+      "Absolute specificity",
+      "النوعية المطلقة"
+     ],
+     [
+      "No specificity",
+      "انعدام النوعية"
+     ],
+     [
+      "Regulation",
+      "التنظيم"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Interacting with one substrate only (urease → urea only) = absolute specificity.",
+    "note_ar": "التفاعل مع مادة واحدة فقط (اليورييز ← اليوريا فقط) = النوعية المطلقة."
+   },
+   {
+    "en": "Trypsin, which hydrolyzes peptide bonds on the carboxyl side of lysine and arginine only, shows:",
+    "ar": "التربسين الذي يحلمه الروابط الببتيدية عند الجانب الكربوكسيلي للليسين والأرجينين فقط، يُظهر:",
+    "options": [
+     [
+      "No specificity",
+      "انعدام النوعية"
+     ],
+     [
+      "Absolute specificity",
+      "النوعية المطلقة"
+     ],
+     [
+      "Group specificity",
+      "النوعية الجماعية"
+     ],
+     [
+      "Metal activation",
+      "التنشيط المعدني"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Acting on a specified mode of groups or bonds = group specificity (e.g. trypsin at Lys/Arg carboxyl side).",
+    "note_ar": "التأثير في نمط محدّد من المجموعات أو الروابط = النوعية الجماعية (مثل التربسين عند الجانب الكربوكسيلي للليسين/الأرجينين)."
+   },
+   {
+    "en": "“Enzyme activity can be regulated” means that enzymes can be:",
+    "ar": "«يمكن تنظيم نشاط الإنزيم» يعني أن الإنزيمات يمكن:",
+    "options": [
+     [
+      "Activated or inhibited to match the needs of the cell",
+      "تنشيطها أو تثبيطها لتلائم حاجة الخلية"
+     ],
+     [
+      "Only destroyed",
+      "تدميرها فقط"
+     ],
+     [
+      "Turned into substrate",
+      "تحويلها إلى مادة"
+     ],
+     [
+      "Made permanent and unchangeable",
+      "جعلها دائمة لا تتغيّر"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Regulation: enzymes can be activated or inhibited, so the rate of product formation responds to the needs of the cell.",
+    "note_ar": "التنظيم: يمكن تنشيط الإنزيمات أو تثبيطها، فيستجيب معدّل تكوين النّاتج لحاجة الخلية."
+   },
+   {
+    "topic_en": "Cofactors, holoenzyme and apoenzyme",
+    "topic_ar": "العوامل المرافقة والهولوإنزيم والأبوإنزيم"
+   },
+   {
+    "en": "Coenzymes are often derivatives of:",
+    "ar": "المرافقات الإنزيمية غالبًا مشتقّات من:",
+    "options": [
+     [
+      "Lipids",
+      "الدهون"
+     ],
+     [
+      "Metals only",
+      "المعادن فقط"
+     ],
+     [
+      "Nucleic acids",
+      "الأحماض النووية"
+     ],
+     [
+      "Vitamins (weakly bound to the active site)",
+      "الفيتامينات (ترتبط ارتباطًا ضعيفًا بالموقع الفعّال)"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Coenzymes are often derivatives of vitamins that bind weakly to the active site, e.g. NAD⁺ (niacin), FAD (riboflavin), coenzyme A (pantothenic acid).",
+    "note_ar": "المرافقات الإنزيمية غالبًا مشتقّات فيتامينات ترتبط ارتباطًا ضعيفًا بالموقع الفعّال، مثل NAD⁺ (النياسين)، وFAD (الرايبوفلافين)، والمرافق A (حمض البانتوثينيك)."
+   },
+   {
+    "en": "The coenzyme NAD⁺ contains which vitamin?",
+    "ar": "المرافق `NAD`⁺ يحتوي على أيّ فيتامين؟",
+    "options": [
+     [
+      "Niacin",
+      "النياسين"
+     ],
+     [
+      "Riboflavin",
+      "الرايبوفلافين"
+     ],
+     [
+      "Pantothenic acid",
+      "حمض البانتوثينيك"
+     ],
+     [
+      "Biotin",
+      "البيوتين"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "NAD⁺ contains niacin; FAD contains riboflavin; coenzyme A contains pantothenic acid.",
+    "note_ar": "NAD⁺ يحتوي النياسين؛ وFAD يحتوي الرايبوفلافين؛ والمرافق A يحتوي حمض البانتوثينيك."
+   },
+   {
+    "en": "A tightly bound coenzyme that does NOT dissociate from the enzyme (e.g. biotin) is a:",
+    "ar": "مرافق إنزيمي مرتبط بإحكام ولا ينفصل عن الإنزيم (مثل البيوتين) يُسمّى:",
+    "options": [
+     [
+      "Apoenzyme",
+      "الأبوإنزيم"
+     ],
+     [
+      "Loose coenzyme",
+      "مرافق متراخٍ"
+     ],
+     [
+      "Prosthetic group",
+      "المجموعة الاصطناعية"
+     ],
+     [
+      "Substrate",
+      "المادة"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "A prosthetic group is a tightly bound coenzyme that does not dissociate from the enzyme, e.g. biotin.",
+    "note_ar": "المجموعة الاصطناعية مرافق مرتبط بإحكام لا ينفصل عن الإنزيم، مثل البيوتين."
+   },
+   {
+    "en": "The complete, active enzyme together with its cofactor is called the:",
+    "ar": "الإنزيم الكامل الفعّال مع عامله المرافق يُسمّى:",
+    "options": [
+     [
+      "Apoenzyme",
+      "الأبوإنزيم"
+     ],
+     [
+      "Holoenzyme",
+      "الهولوإنزيم"
+     ],
+     [
+      "Zymogen",
+      "الطليعة (زيموجين)"
+     ],
+     [
+      "Isozyme",
+      "الإنزيم المتماثل"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Holoenzyme = apoenzyme + cofactor (the whole, active enzyme).",
+    "note_ar": "الهولوإنزيم = الأبوإنزيم + العامل المرافق (الإنزيم الكامل الفعّال)."
+   },
+   {
+    "en": "The apoenzyme is:",
+    "ar": "الأبوإنزيم هو:",
+    "options": [
+     [
+      "The substrate",
+      "المادة"
+     ],
+     [
+      "The nonprotein cofactor",
+      "العامل المرافق غير البروتيني"
+     ],
+     [
+      "A metal ion",
+      "أيون معدني"
+     ],
+     [
+      "The protein portion of the holoenzyme (inactive without its cofactor)",
+      "الجزء البروتيني من الهولوإنزيم (خامل بلا عامله المرافق)"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Apoenzyme = the protein portion; in the absence of the appropriate cofactor it typically shows no biologic activity.",
+    "note_ar": "الأبوإنزيم = الجزء البروتيني؛ وبغياب العامل المرافق المناسب لا يُظهر عادةً أيّ فعالية حيوية."
+   },
+   {
+    "en": "Which is a role of metal ions (e.g. Zn²⁺, Fe²⁺) as cofactors?",
+    "ar": "أيّها دور للأيونات المعدنية (مثل `Zn²`⁺ و`Fe²`⁺) كعوامل مرافقة؟",
+    "options": [
+     [
+      "Replacing the protein chain",
+      "استبدال السلسلة البروتينية"
+     ],
+     [
+      "Destroying the substrate",
+      "تدمير المادة"
+     ],
+     [
+      "Acting as a bridge that connects the substrate to the enzyme",
+      "العمل كجسر يربط المادة بالإنزيم"
+     ],
+     [
+      "Removing the active site",
+      "إزالة الموقع الفعّال"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Metal ions may be essential components of the active site, act as a bridge connecting substrate to enzyme (coordinate complexes), or stabilize the enzyme conformation.",
+    "note_ar": "قد تكون الأيونات المعدنية مكوّنات أساسية للموقع الفعّال، أو تعمل جسرًا يربط المادة بالإنزيم (معقّدات تناسقية)، أو تثبّت بنية الإنزيم."
+   },
+   {
+    "topic_en": "Enzyme units",
+    "topic_ar": "وحدات الإنزيم"
+   },
+   {
+    "en": "One International Unit (IU) of enzyme is the amount that catalyzes the conversion of:",
+    "ar": "الوحدة الدولية `(IU)` للإنزيم هي الكمية التي تحفّز تحويل:",
+    "options": [
+     [
+      "One liter of substrate per minute",
+      "واحد لتر من المادة في الدقيقة"
+     ],
+     [
+      "One mole of substrate per second",
+      "واحد مول من المادة في الثانية"
+     ],
+     [
+      "One gram of substrate per hour",
+      "واحد غرام من المادة في الساعة"
+     ],
+     [
+      "One micromole of substrate per minute (optimum conditions)",
+      "واحد ميكرومول من المادة في الدقيقة (بالظروف المثلى)"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "International Unit (IU): the amount of enzyme that catalyzes the conversion of one micromole of substrate per minute under optimum conditions.",
+    "note_ar": "الوحدة الدولية (IU): كمية الإنزيم التي تحفّز تحويل واحد ميكرومول من المادة في الدقيقة بالظروف المثلى."
+   },
+   {
+    "en": "The turnover number is defined as the number of substrate molecules converted to product:",
+    "ar": "رقم الدوران هو عدد جزيئات المادة المحوّلة إلى ناتج:",
+    "options": [
+     [
+      "Per second by a single enzyme molecule",
+      "في الثانية بجزيء إنزيم واحد"
+     ],
+     [
+      "Per minute by 1 mg protein",
+      "في الدقيقة بـ 1 ملغم بروتين"
+     ],
+     [
+      "Per hour by all enzymes",
+      "في الساعة بكل الإنزيمات"
+     ],
+     [
+      "Per day in the cell",
+      "في اليوم داخل الخلية"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Turnover number = the number of substrate molecules converted to product per second by a single enzyme molecule.",
+    "note_ar": "رقم الدوران = عدد جزيئات المادة المحوّلة إلى ناتج في الثانية بجزيء إنزيم واحد."
+   },
+   {
+    "en": "Specific activity is the number of international units of enzyme present in:",
+    "ar": "الفعالية النوعية هي عدد الوحدات الدولية للإنزيم الموجودة في:",
+    "options": [
+     [
+      "1 mL of blood",
+      "1 مل من الدم"
+     ],
+     [
+      "1 mg of protein",
+      "1 ملغم من البروتين"
+     ],
+     [
+      "1 mole of substrate",
+      "1 مول من المادة"
+     ],
+     [
+      "1 liter of serum",
+      "1 لتر من المصل"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Specific activity = the number of international units of enzyme present in 1 mg of protein.",
+    "note_ar": "الفعالية النوعية = عدد الوحدات الدولية للإنزيم الموجودة في 1 ملغم من البروتين."
+   },
+   {
+    "en": "One katal (kat) is the amount of enzyme activity that converts one mole of substrate per second; it relates to the enzyme unit (U) by:",
+    "ar": "الكاتال `(kat)` هو كمية الفعالية التي تحوّل واحد مول من المادة في الثانية؛ وعلاقته بوحدة الإنزيم `(U)`:",
+    "options": [
+     [
+      "1 kat = 6 × 10⁷ U",
+      "`1 kat = 6 × 10⁷ U`"
+     ],
+     [
+      "1 kat = 1 U",
+      "`1 kat = 1 U`"
+     ],
+     [
+      "1 kat = 60 U",
+      "`1 kat = 60 U`"
+     ],
+     [
+      "1 kat = 100 U",
+      "`1 kat = 100 U`"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Katal (kat): converts one mole of substrate per second; 1 kat = 6 × 10⁷ U.",
+    "note_ar": "الكاتال (kat): يحوّل واحد مول من المادة في الثانية؛ و1 kat = 6 × 10⁷ U."
+   },
+   {
+    "topic_en": "Enzyme kinetics (factors)",
+    "topic_ar": "حركية الإنزيم (العوامل)"
+   },
+   {
+    "en": "Enzyme kinetics is the branch of enzymology that studies the factors affecting the:",
+    "ar": "حركية الإنزيم هي فرع علم الإنزيمات الذي يدرس العوامل المؤثّرة في:",
+    "options": [
+     [
+      "Price of the reagent",
+      "سعر الكاشف"
+     ],
+     [
+      "Color of the enzyme",
+      "لون الإنزيم"
+     ],
+     [
+      "Weight of the cell",
+      "وزن الخلية"
+     ],
+     [
+      "Enzymatic reaction velocity",
+      "سرعة التفاعل الإنزيمي"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Enzyme kinetics studies the factors affecting the enzymatic reaction velocity: temperature, pH, enzyme concentration and substrate concentration.",
+    "note_ar": "تدرس حركية الإنزيم العوامل المؤثّرة في سرعة التفاعل الإنزيمي: الحرارة والأس الهيدروجيني وتركيز الإنزيم وتركيز المادة."
+   },
+   {
+    "en": "As temperature rises to a limited degree then beyond it, the reaction rate:",
+    "ar": "مع ارتفاع الحرارة إلى حدٍّ معيّن ثم تجاوزه، يكون معدّل التفاعل:",
+    "options": [
+     [
+      "Only decreases",
+      "يقلّ فقط"
+     ],
+     [
+      "Increases (more kinetic energy) then decreases (denaturation)",
+      "يزداد (طاقة حركية أكبر) ثم يقلّ (تمسّخ)"
+     ],
+     [
+      "Stays constant",
+      "يبقى ثابتًا"
+     ],
+     [
+      "Increases without limit",
+      "يزداد بلا حدّ"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Rate rises with temperature to a limited degree (increased kinetic energy), then falls as temperature exceeds it (denaturation).",
+    "note_ar": "يرتفع المعدّل مع الحرارة إلى حدٍّ معيّن (زيادة الطاقة الحركية)، ثم يهبط بتجاوز هذا الحدّ (التمسّخ)."
+   },
+   {
+    "en": "The pH at which an enzyme shows maximal activity is called its:",
+    "ar": "الأس الهيدروجيني الذي يُظهر عنده الإنزيم أقصى فعالية يُسمّى:",
+    "options": [
+     [
+      "Isoelectric pH",
+      "الأس متساوي الكهربية"
+     ],
+     [
+      "Neutral pH",
+      "الأس المتعادل"
+     ],
+     [
+      "Optimum pH",
+      "الأس الهيدروجيني الأمثل"
+     ],
+     [
+      "Alkaline pH",
+      "الأس القاعدي"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Each enzyme has an optimum pH at which its activity reaches maximum (it differs between enzymes, e.g. pepsin, trypsin, alkaline phosphatase).",
+    "note_ar": "لكل إنزيم أس هيدروجيني أمثل تبلغ عنده فعاليته أقصاها (ويختلف بين الإنزيمات، مثل البيبسين والتربسين والفوسفاتيز القاعدي)."
+   },
+   {
+    "en": "Decreasing enzyme activity on both sides of the optimum pH is explained by:",
+    "ar": "يُفسَّر انخفاض فعالية الإنزيم على جانبي الأس الأمثل بـ:",
+    "options": [
+     [
+      "Lower temperature only",
+      "انخفاض الحرارة فقط"
+     ],
+     [
+      "Increased substrate only",
+      "زيادة المادة فقط"
+     ],
+     [
+      "Denaturation and the wrong ionization state of the needed chemical groups",
+      "التمسّخ وحالة التأيّن غير الصحيحة للمجموعات الكيميائية اللازمة"
+     ],
+     [
+      "More cofactor",
+      "زيادة العامل المرافق"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Extreme pH causes denaturation (enzyme structure depends on the ionic character of the side chains) and changes the ionized/non-ionized state needed for enzyme–substrate interaction.",
+    "note_ar": "يسبّب الأس المتطرّف تمسّخًا (بنية الإنزيم تعتمد على الطابع الأيوني للسلاسل الجانبية) ويغيّر حالة التأيّن اللازمة لتفاعل الإنزيم مع المادة."
+   },
+   {
+    "en": "As substrate concentration increases, the reaction rate rises until it reaches a maximal velocity because:",
+    "ar": "مع زيادة تركيز المادة يرتفع معدّل التفاعل حتى يبلغ سرعة قصوى لأن:",
+    "options": [
+     [
+      "All available binding sites on the enzyme become saturated",
+      "كل المواقع الرابطة المتاحة على الإنزيم تتشبّع"
+     ],
+     [
+      "The enzyme is consumed",
+      "الإنزيم يُستهلك"
+     ],
+     [
+      "The temperature falls",
+      "الحرارة تنخفض"
+     ],
+     [
+      "The pH rises",
+      "الأس الهيدروجيني يرتفع"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Beyond a certain point more substrate does not raise the rate — this reflects saturation of all available binding sites on the enzyme molecules (maximal velocity).",
+    "note_ar": "بعد نقطة معيّنة لا تزيد المادة الإضافية المعدّل — وهذا يعكس تشبّع كل المواقع الرابطة المتاحة على جزيئات الإنزيم (السرعة القصوى)."
+   },
+   {
+    "en": "The rate of an enzyme-catalyzed reaction increases with enzyme concentration, but:",
+    "ar": "يزداد معدّل التفاعل المحفّز بالإنزيم مع تركيز الإنزيم، لكن:",
+    "options": [
+     [
+      "Only at 0°C",
+      "فقط عند 0°م"
+     ],
+     [
+      "Without any limit",
+      "بلا أيّ حدّ"
+     ],
+     [
+      "Only if pH is 2",
+      "فقط إذا كان الأس 2"
+     ],
+     [
+      "Not more than the substrate concentration allows",
+      "ليس أكثر مما يسمح به تركيز المادة"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Rate increases with enzyme concentration, but not more than the substrate concentration permits.",
+    "note_ar": "يزداد المعدّل مع تركيز الإنزيم، لكن ليس أكثر مما يسمح به تركيز المادة."
+   }
+  ],
+  "tf": [],
+  "traps": [],
+  "important": [
+   {
+    "en": "Define enzymes and list the properties that distinguish them from chemical catalysts.",
+    "ar": "عرّف الإنزيمات واذكر الصفات التي تميّزها عن المحفّزات الكيميائية.",
+    "answer_en": "Enzymes are protein catalysts (and occasionally RNA, ribozymes), similar to chemical catalysts such as Pt or Fe²⁺, that increase the rate of a reaction without themselves being consumed (MW 12,000–1,000,000) and act with high specificity on substrates. They differ from chemical catalysts in: (a) a high degree of specificity for their substrates, so no side reactions or wasteful by-products occur; (b) they accelerate reactions tremendously; (c) they function in aqueous solutions under very mild conditions of pressure, temperature and pH (rare in non-biological catalysts).",
+    "answer_ar": "الإنزيمات محفّزات بروتينية (وأحيانًا `RNA`، رايبوزيمات)، تشبه المحفّزات الكيميائية مثل البلاتين أو الحديد²⁺، تزيد معدّل التفاعل دون أن تُستهلك (وزنها الجزيئي 12,000–1,000,000) وتعمل بنوعية عالية على المواد. وتختلف عن المحفّزات الكيميائية بـ: (أ) درجة عالية من النوعية تجاه موادها، فلا تفاعلات جانبية ولا نواتج ضائعة؛ (ب) تُسرّع التفاعلات كثيرًا؛ (ج) تعمل في محاليل مائية بظروف لطيفة جدًا من الضغط والحرارة والأس الهيدروجيني (وهذا نادر في المحفّزات غير الحيوية)."
+   },
+   {
+    "en": "Differentiate between the recommended name and the systematic name of an enzyme, with the malic enzyme example.",
+    "ar": "فرّق بين الاسم الموصى به والاسم المنهجي للإنزيم، مع مثال الإنزيم الماليكي.",
+    "answer_en": "Recommended name: related to the substrate with the suffix “-ase” (glucosidase, urease, sucrase) or to the nature of the reaction (lactate dehydrogenase); but some names (trypsin, pepsin) do not indicate the action. Systematic name (IUBMB): two parts — the first refers to the substrate(s), the second to the nature of the reaction ending with “-ase”, with any clarifying information in parentheses. Example: recommended = malic enzyme; systematic = L-Malate: NAD oxidoreductase (decarboxylating).",
+    "answer_ar": "الاسم الموصى به: مرتبط بالمادة مع اللاحقة «-`ase`» (غلوكوزيديز، يورييز، سكرييز) أو بطبيعة التفاعل (لاكتات ديهيدروجينيز)؛ لكن بعض الأسماء (تربسين، بيبسين) لا تدلّ على الفعل. والاسم المنهجي `(IUBMB)`: جزآن — الأول يشير إلى المادة (المواد)، والثاني إلى طبيعة التفاعل وينتهي بـ «-`ase`»، مع وضع أيّ معلومة موضِّحة بين قوسين. مثال: الموصى به = الإنزيم الماليكي؛ والمنهجي = `L`-ماليت: `NAD` أوكسيدوريدكتيز (منزوع الكربوكسيل)."
+   },
+   {
+    "en": "Explain the Enzyme Code (E.C.) number and what each of its four numbers represents.",
+    "ar": "اشرح الرقم الرمزي للإنزيم `(E.C.)` وما يمثّله كلٌّ من أرقامه الأربعة.",
+    "answer_en": "Each enzyme has a systematic code of four numbers with the sign E.C. The first number = the major class (clarifies the nature of the reaction); the second = the subclass (the group or bond related to the catalysis); the third = the sub-subclass (e.g. the compound that accepts the electrons in oxidoreductase reactions); the fourth = the serial listing of the enzyme in its sub-subclass (given randomly).",
+    "answer_ar": "لكل إنزيم رمز منهجي من أربعة أرقام مع العلامة `E.C`. الرقم الأول = الصنف الرئيس (يوضّح طبيعة التفاعل)؛ والثاني = التحت-صنف (المجموعة أو الرابطة المتعلّقة بالتحفيز)؛ والثالث = تحت-التحت صنف (مثل المركّب الذي يتقبّل الإلكترونات في تفاعلات الأكسدة–الاختزال)؛ والرابع = الترتيب التسلسلي للإنزيم في تحت-التحت صنفه (يُعطى عشوائيًا)."
+   },
+   {
+    "en": "Marked by the student (memorise in order): list the six major classes of enzymes in order and state the reaction type of each.",
+    "ar": "مؤشَّر بالطالب (احفظ بالترتيب): عدّد الأصناف الستة الرئيسة للإنزيمات بالترتيب واذكر نوع تفاعل كلٍّ منها.",
+    "answer_en": "1) Oxidoreductases — oxidation–reduction (electron transfer). 2) Transferases — transfer of a group between molecules. 3) Hydrolases — bond cleavage by adding water. 4) Lyases — addition to (or removal from) double bonds. 5) Isomerases — isomerization (intramolecular rearrangement). 6) Ligases — ATP-dependent bond formation.",
+    "answer_ar": "1) الأوكسيدوريدكتيزات — أكسدة–اختزال (نقل إلكترونات). 2) الترانسفيريزات — نقل مجموعة بين الجزيئات. 3) الهيدروليزات — كسر الرابطة بإضافة الماء. 4) الليازات — الإضافة إلى الروابط المزدوجة (أو النزع منها). 5) الأيزوميريزات — الأيزومرة (إعادة ترتيب داخل الجزيء). 6) الليغيزات — تكوين الرابطة المعتمد على `ATP`."
+   },
+   {
+    "en": "Marked by the student (he wants the reaction/drawing): give one example reaction and enzyme for each of the six classes.",
+    "ar": "مؤشَّر بالطالب (يريد الرسم/التفاعل): اذكر تفاعلًا مثالًا وإنزيمًا لكلٍّ من الأصناف الستة.",
+    "answer_en": "1) Oxidoreductase — pyruvate + NADH + H⁺ → L-lactate + NAD⁺ (lactate dehydrogenase). 2) Transferase — glucose + ATP → glucose-6-phosphate + ADP (hexokinase). 3) Hydrolase — maltose + H₂O → glucose + glucose (maltase). 4) Lyase — fumarate + H₂O → L-malate (fumarase). 5) Isomerase — 3-phosphoglycerate ⇌ 2-phosphoglycerate (phosphoglyceromutase). 6) Ligase — pyruvate + CO₂ + ATP → oxaloacetate + ADP + Pᵢ (pyruvate carboxylase, E.C. 6.4.1.1).",
+    "answer_ar": "1) أوكسيدوريدكتيز — بيروفات + `NADH + H`⁺ ← لاكتات-`L + NAD`⁺ (لاكتات ديهيدروجينيز). 2) ترانسفيريز — غلوكوز + `ATP` ← غلوكوز-6-فوسفات + `ADP` (هكسوكينيز). 3) هيدروليز — مالتوز + `H`₂`O` ← غلوكوز + غلوكوز (مالتيز). 4) لياز — فيوماريت + `H`₂`O` ← ماليت-`L` (فيوميريز). 5) أيزوميريز — 3-فوسفوغليسيرات ⇌ 2-فوسفوغليسيرات (فوسفوغليسيروميوتيز). 6) ليغيز — بيروفات + `CO`₂ + `ATP` ← أوكسالوأسيتات + `ADP + P`ᵢ (بيروفات كاربوكسيليز، `E.C. 6.4.1.1`)."
+   },
+   {
+    "en": "Describe the active site and compare the lock-and-key and induced-fit hypotheses.",
+    "ar": "صِف الموقع الفعّال وقارن بين فرضيتي القفل والمفتاح والتطابق المُستحَث.",
+    "answer_en": "The active site is a specific pocket or cleft of amino acid side chains that creates a three-dimensional surface complementary to the substrate. Lock and key (Fischer): the active site is already complementary in shape to the substrate. Induced-fit (Koshland): the enzyme changes shape upon binding the substrate, so the active site becomes complementary to the substrate only after the substrate is bound.",
+    "answer_ar": "الموقع الفعّال جيب أو تجويف نوعي من سلاسل جانبية لأحماض أمينية يكوّن سطحًا ثلاثي الأبعاد مكمّلًا للمادة. القفل والمفتاح (فيشر): الموقع الفعّال مكمّل في شكله للمادة أصلًا. والتطابق المُستحَث (كوشلاند): يغيّر الإنزيم شكله عند ارتباط المادة، فيصبح الموقع الفعّال مكمّلًا للمادة فقط بعد ارتباطها."
+   },
+   {
+    "en": "Marked by the student (T/F & MCQ): state the catalytic efficiency of enzymes.",
+    "ar": "مؤشَّر بالطالب (صح/خطأ واختيار): اذكر كفاءة التحفيز للإنزيمات.",
+    "answer_en": "Most enzyme-catalyzed reactions are highly efficient, proceeding from 10³ to 10⁸ times faster than the corresponding uncatalyzed reactions. Each enzyme molecule is capable of transforming 100 to 1000 substrate molecules into product each second.",
+    "answer_ar": "معظم التفاعلات المحفّزة بالإنزيمات عالية الكفاءة، وتمضي أسرع بـ `10³` إلى `10⁸` مرّة من التفاعلات غير المحفّزة المناظرة. وكل جزيء إنزيم قادر على تحويل 100 إلى 1000 جزيء مادة إلى ناتج في الثانية."
+   },
+   {
+    "en": "Explain enzyme specificity, with an example of absolute specificity and of group specificity.",
+    "ar": "اشرح نوعية الإنزيم، مع مثال على النوعية المطلقة وأخرى على النوعية الجماعية.",
+    "answer_en": "Enzymes are highly specific. Absolute specificity: the enzyme interacts with one substrate only, e.g. urease, which hydrolyses urea only. Group specificity: the enzyme acts on a specified mode of groups or bonds, e.g. trypsin, which catalyses hydrolysis of peptide bonds on the carboxyl side of lysine and arginine residues only.",
+    "answer_ar": "الإنزيمات عالية النوعية. النوعية المطلقة: يتفاعل الإنزيم مع مادة واحدة فقط، مثل اليورييز الذي يحلمه اليوريا فقط. والنوعية الجماعية: يؤثّر الإنزيم في نمط محدّد من المجموعات أو الروابط، مثل التربسين الذي يحفّز حلمهة الروابط الببتيدية عند الجانب الكربوكسيلي للليسين والأرجينين فقط."
+   },
+   {
+    "en": "Classify cofactors, and define coenzyme, prosthetic group, holoenzyme and apoenzyme (with examples).",
+    "ar": "صنّف العوامل المرافقة، وعرّف المرافق الإنزيمي والمجموعة الاصطناعية والهولوإنزيم والأبوإنزيم (مع أمثلة).",
+    "answer_en": "Cofactors are: (1) Organic molecules — (a) coenzymes: often derivatives of vitamins weakly bound to the active site (NAD⁺ = niacin, FAD = riboflavin, coenzyme A = pantothenic acid); (b) prosthetic groups: tightly bound coenzymes that do not dissociate from the enzyme (e.g. biotin). (2) Metal ions (Zn²⁺, Fe²⁺). Holoenzyme = the enzyme with its cofactor; apoenzyme = the protein portion of the holoenzyme, which in the absence of the cofactor shows no biologic activity. Holoenzyme = apoenzyme + cofactor.",
+    "answer_ar": "العوامل المرافقة هي: (1) جزيئات عضوية — (أ) المرافقات الإنزيمية: غالبًا مشتقّات فيتامينات ترتبط ارتباطًا ضعيفًا بالموقع الفعّال (`NAD`⁺ = النياسين، `FAD` = الرايبوفلافين، المرافق `A` = حمض البانتوثينيك)؛ (ب) المجموعات الاصطناعية: مرافقات مرتبطة بإحكام لا تنفصل عن الإنزيم (مثل البيوتين). (2) الأيونات المعدنية (`Zn²`⁺، `Fe²`⁺). والهولوإنزيم = الإنزيم مع عامله المرافق؛ والأبوإنزيم = الجزء البروتيني من الهولوإنزيم، وهو بغياب العامل المرافق لا يُظهر فعالية حيوية. الهولوإنزيم = أبوإنزيم + عامل مرافق."
+   },
+   {
+    "en": "List the roles (mechanisms) of metal ions as cofactors.",
+    "ar": "عدّد أدوار (آليات) الأيونات المعدنية كعوامل مرافقة.",
+    "answer_en": "Metal ions such as Zn²⁺ or Fe²⁺ may: (1) be essential components of the enzyme active site; (2) act as a bridge connecting the substrate to the enzyme to form coordinate complexes; (3) stabilize the enzyme conformation by interacting their charge with the opposite charge of the enzyme.",
+    "answer_ar": "قد تقوم الأيونات المعدنية مثل `Zn²`⁺ أو `Fe²`⁺ بـ: (1) أن تكون مكوّنات أساسية للموقع الفعّال؛ (2) العمل جسرًا يربط المادة بالإنزيم لتكوين معقّدات تناسقية؛ (3) تثبيت بنية الإنزيم بتفاعل شحنتها مع الشحنة المضادّة للإنزيم."
+   },
+   {
+    "en": "Define the enzyme units: International Unit, turnover number, specific activity and katal.",
+    "ar": "عرّف وحدات الإنزيم: الوحدة الدولية، ورقم الدوران، والفعالية النوعية، والكاتال.",
+    "answer_en": "International Unit (IU): the amount of enzyme that catalyses the conversion of one micromole of substrate per minute under optimum conditions. Turnover number: the number of substrate molecules converted to product per second by a single enzyme molecule. Specific activity: the number of international units of enzyme present in 1 mg of protein. Katal (kat): the amount of enzymatic activity that converts one mole of substrate per second; 1 kat = 6 × 10⁷ U.",
+    "answer_ar": "الوحدة الدولية `(IU)`: كمية الإنزيم التي تحفّز تحويل واحد ميكرومول من المادة في الدقيقة بالظروف المثلى. ورقم الدوران: عدد جزيئات المادة المحوّلة إلى ناتج في الثانية بجزيء إنزيم واحد. والفعالية النوعية: عدد الوحدات الدولية للإنزيم في 1 ملغم من البروتين. والكاتال `(kat)`: كمية الفعالية التي تحوّل واحد مول من المادة في الثانية؛ و`1 kat = 6 × 10⁷ U`."
+   },
+   {
+    "en": "List the factors affecting enzyme activity and explain the effect of temperature.",
+    "ar": "عدّد العوامل المؤثّرة في نشاط الإنزيم واشرح أثر درجة الحرارة.",
+    "answer_en": "Factors: temperature, pH, enzyme concentration and substrate concentration. Effect of temperature: the rate increases as temperature rises to a limited degree (because of increasing kinetic energy of the reacting molecules), then decreases when the temperature rises above that degree because of denaturation of the enzyme.",
+    "answer_ar": "العوامل: درجة الحرارة، والأس الهيدروجيني، وتركيز الإنزيم، وتركيز المادة. وأثر درجة الحرارة: يزداد المعدّل بارتفاع الحرارة إلى حدٍّ معيّن (بسبب زيادة الطاقة الحركية لجزيئات التفاعل)، ثم يقلّ عند ارتفاع الحرارة فوق هذا الحدّ بسبب تمسّخ الإنزيم."
+   },
+   {
+    "en": "Explain the effect of pH and of substrate concentration on enzyme activity.",
+    "ar": "اشرح أثر الأس الهيدروجيني وتركيز المادة في نشاط الإنزيم.",
+    "answer_en": "pH: each enzyme has an optimum pH at which activity is maximal (differs between enzymes). Activity falls on both sides of the optimum because of (1) denaturation of the enzyme (its structure depends on the ionic character of the amino acid side chains) and (2) loss of the correct ionized/non-ionized state of the chemical groups that the enzyme and substrate need to interact. Substrate concentration: the rate increases with substrate concentration until a maximal velocity is reached; beyond that, more substrate does not raise the rate, reflecting saturation of all available binding sites on the enzyme molecules.",
+    "answer_ar": "الأس الهيدروجيني: لكل إنزيم أس أمثل تبلغ عنده الفعالية أقصاها (يختلف بين الإنزيمات). وتقلّ الفعالية على جانبي الأمثل بسبب (1) تمسّخ الإنزيم (بنيته تعتمد على الطابع الأيوني للسلاسل الجانبية) و(2) فقدان حالة التأيّن الصحيحة للمجموعات الكيميائية التي يحتاجها الإنزيم والمادة للتفاعل. وتركيز المادة: يرتفع المعدّل مع تركيز المادة حتى بلوغ سرعة قصوى؛ وبعدها لا تزيد المادة الإضافية المعدّل، وهذا يعكس تشبّع كل المواقع الرابطة المتاحة على جزيئات الإنزيم."
+   }
+  ]
+ }
+}
