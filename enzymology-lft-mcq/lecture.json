@@ -1,0 +1,974 @@
+{
+ "meta": {
+  "subject_en": "Clinical Enzymology",
+  "subject_ar": "الإنزيمات السريرية",
+  "short_ar": "انزيمات سريرية",
+  "instructor": "د. بارق و د. هشام",
+  "unit_en": "Lab 4",
+  "unit_ar": "العملي 4",
+  "unit_label": "LAB",
+  "unit_no": "4",
+  "title_en": "Liver Function Tests (LFT)",
+  "title_ar": "فحوصات وظائف الكبد",
+  "kind": "Laboratories — عملي",
+  "stage": "The fourth stage — الرابعة",
+  "file_name": "BIOS - انزيمات سريرية عملي - فحوصات وظائف الكبد - بنك أسئلة شامل"
+ },
+ "questions": {
+  "title_en": "Liver Function Tests (ALT/GPT & AST/GOT) — Comprehensive Questions (MCQ + SA)",
+  "title_ar": "فحوصات وظائف الكبد (ALT/GPT وAST/GOT) — أسئلة شاملة (اختيار + مقالية)",
+  "answers_inline": true,
+  "mcq": [
+   {
+    "topic_en": "Liver function tests & functions of the liver",
+    "topic_ar": "فحوصات وظائف الكبد ووظائف الكبد"
+   },
+   {
+    "en": "Liver function tests (LFT) are used to:",
+    "ar": "تُستعمل فحوصات وظائف الكبد `(LFT)` لـ:",
+    "options": [
+     [
+      "Measure various chemicals in the blood made by the liver",
+      "قياس مواد كيميائية مختلفة في الدم يصنعها الكبد"
+     ],
+     [
+      "Measure urine output",
+      "قياس كمية الإدرار"
+     ],
+     [
+      "Count blood cells",
+      "عدّ خلايا الدم"
+     ],
+     [
+      "Measure blood pressure",
+      "قياس ضغط الدم"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "LFTs measure chemicals in the blood made by the liver; an abnormal result indicates a liver problem and may help identify the cause.",
+    "note_ar": "تقيس فحوصات وظائف الكبد مواد كيميائية في الدم يصنعها الكبد؛ والنتيجة غير الطبيعية تدلّ على مشكلة في الكبد وقد تساعد في معرفة سببها."
+   },
+   {
+    "en": "Which is listed as a major function of the liver?",
+    "ar": "أيّها مذكور وظيفةً رئيسة للكبد؟",
+    "options": [
+     [
+      "Pumping blood",
+      "ضخّ الدم"
+     ],
+     [
+      "Production of red blood cells only",
+      "إنتاج كريات الدم الحمراء فقط"
+     ],
+     [
+      "Filtering urine",
+      "ترشيح البول"
+     ],
+     [
+      "Bile production and excretion",
+      "إنتاج العصارة الصفراء وإفرازها"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Major functions: bile production/excretion; excretion of bilirubin, cholesterol, hormones and drugs; metabolism of fats, proteins and carbohydrates; enzyme activation; storage of glycogen, vitamins and minerals; synthesis of plasma proteins and clotting factors.",
+    "note_ar": "من وظائف الكبد الرئيسة: إنتاج الصفراء وإفرازها؛ وطرح البيليروبين والكوليسترول والهرمونات والأدوية؛ وأيض الدهون والبروتينات والكربوهيدرات؛ وتنشيط الإنزيمات؛ وخزن الغلايكوجين والفيتامينات والمعادن؛ وتصنيع بروتينات البلازما وعوامل التخثّر."
+   },
+   {
+    "en": "The liver synthesizes plasma proteins such as:",
+    "ar": "يصنّع الكبد بروتينات البلازما مثل:",
+    "options": [
+     [
+      "Insulin",
+      "الأنسولين"
+     ],
+     [
+      "Hemoglobin",
+      "الهيموغلوبين"
+     ],
+     [
+      "Albumin and clotting factors",
+      "الألبومين وعوامل التخثّر"
+     ],
+     [
+      "Keratin",
+      "الكيراتين"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Function 6: synthesis of plasma proteins, such as albumin, and clotting factors.",
+    "note_ar": "الوظيفة 6: تصنيع بروتينات البلازما، مثل الألبومين، وعوامل التخثّر."
+   },
+   {
+    "en": "Which is NOT one of the main tests for liver function listed in the notes?",
+    "ar": "أيّها ليس من الفحوصات الرئيسة لوظيفة الكبد المذكورة في الملاحظات؟",
+    "options": [
+     [
+      "Serum bilirubin",
+      "البيليروبين المصلي"
+     ],
+     [
+      "Blood urea",
+      "يوريا الدم"
+     ],
+     [
+      "Alkaline phosphatase (ALP)",
+      "الفوسفاتيز القلوي `(ALP)`"
+     ],
+     [
+      "Albumin and total protein",
+      "الألبومين والبروتين الكلّي"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "The five main LFTs listed: ALT (GPT), AST (GOT), serum bilirubin (total, direct, indirect), alkaline phosphatase (ALP), and albumin/total protein.",
+    "note_ar": "الفحوصات الخمسة الرئيسة المذكورة: ALT (GPT)، وAST (GOT)، والبيليروبين المصلي (الكلّي والمباشر وغير المباشر)، والفوسفاتيز القلوي (ALP)، والألبومين/البروتين الكلّي."
+   },
+   {
+    "en": "Serum bilirubin as a liver function test is measured as:",
+    "ar": "يُقاس البيليروبين المصلي في فحص وظيفة الكبد بصورة:",
+    "options": [
+     [
+      "Direct only",
+      "المباشر فقط"
+     ],
+     [
+      "Total only",
+      "الكلّي فقط"
+     ],
+     [
+      "Total, direct and indirect",
+      "الكلّي والمباشر وغير المباشر"
+     ],
+     [
+      "It is not measured",
+      "لا يُقاس"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "The notes list serum bilirubin as Total, Direct and indirect.",
+    "note_ar": "تذكر الملاحظات البيليروبين المصلي: الكلّي والمباشر وغير المباشر."
+   },
+   {
+    "topic_en": "Alanine aminotransferase (ALT / GPT)",
+    "topic_ar": "ناقلة أمين الألانين (ALT / GPT)"
+   },
+   {
+    "en": "Alanine aminotransferase (ALT) is also called:",
+    "ar": "ناقلة أمين الألانين `(ALT)` تُسمّى أيضًا:",
+    "options": [
+     [
+      "Alkaline phosphatase (ALP)",
+      "الفوسفاتيز القلوي `(ALP)`"
+     ],
+     [
+      "Glutamic-oxaloacetic transaminase (GOT)",
+      "ناقلة أمين الغلوتاميك-أوكسالوأسيتيك `(GOT)`"
+     ],
+     [
+      "Lactate dehydrogenase (LDH)",
+      "نازعة هيدروجين اللاكتات `(LDH)`"
+     ],
+     [
+      "Glutamic-pyruvic transaminase (GPT)",
+      "ناقلة أمين الغلوتاميك-بيروفيك `(GPT)`"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "ALT = alanine aminotransferase, also called glutamic-pyruvic transaminase (GPT).",
+    "note_ar": "ALT = ناقلة أمين الألانين، وتُسمّى أيضًا ناقلة أمين الغلوتاميك-بيروفيك (GPT)."
+   },
+   {
+    "en": "ALT catalyzes the transfer of an amino group from L-alanine to α-ketoglutarate to produce:",
+    "ar": "تحفّز `ALT` نقل مجموعة أمين من الألانين-`L` إلى ألفا-كيتوغلوتارات لإنتاج:",
+    "options": [
+     [
+      "Pyruvate and L-glutamate",
+      "البيروفات والغلوتامات-`L`"
+     ],
+     [
+      "Oxaloacetate and glutamate",
+      "الأوكسالوأسيتات والغلوتامات"
+     ],
+     [
+      "Lactate and NAD",
+      "اللاكتات و`NAD`"
+     ],
+     [
+      "Malate and NAD",
+      "المالات و`NAD`"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "ALT catalyzes a reversible transamination: L-alanine + α-ketoglutarate → pyruvate + L-glutamate.",
+    "note_ar": "تحفّز ALT نقل أمين عكوسًا: الألانين-L + ألفا-كيتوغلوتارات ← البيروفات + الغلوتامات-L."
+   },
+   {
+    "en": "The ALT reaction is described in the notes as a:",
+    "ar": "يوصف تفاعل `ALT` في الملاحظات بأنه:",
+    "options": [
+     [
+      "Irreversible oxidation",
+      "أكسدة غير عكوسة"
+     ],
+     [
+      "Reversible transamination reaction",
+      "تفاعل نقل أمين عكوس"
+     ],
+     [
+      "Hydrolysis reaction",
+      "تفاعل حلمهة"
+     ],
+     [
+      "Precipitation reaction",
+      "تفاعل ترسيب"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "The notes call it a reversible transamination reaction.",
+    "note_ar": "تسمّيه الملاحظات تفاعل نقل أمين عكوسًا."
+   },
+   {
+    "en": "ALT is found primarily in the:",
+    "ar": "توجد `ALT` بصورة رئيسة في:",
+    "options": [
+     [
+      "Liver and kidney",
+      "الكبد والكلية"
+     ],
+     [
+      "Lungs and spleen",
+      "الرئتين والطحال"
+     ],
+     [
+      "Bone and skin",
+      "العظم والجلد"
+     ],
+     [
+      "Brain only",
+      "الدماغ فقط"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "ALT is an enzyme found primarily in the liver and kidney; normally a low level exists in serum.",
+    "note_ar": "ALT إنزيم يوجد بصورة رئيسة في الكبد والكلية؛ وعادةً يوجد مستوى منخفض منه في المصل."
+   },
+   {
+    "en": "ALT is most commonly associated with the liver; high concentrations occur in the liver and relatively low concentrations in the:",
+    "ar": "ترتبط `ALT` غالبًا بالكبد؛ وتوجد تراكيز عالية في الكبد وتراكيز منخفضة نسبيًا في:",
+    "options": [
+     [
+      "Blood only",
+      "الدم فقط"
+     ],
+     [
+      "Liver only",
+      "الكبد فقط"
+     ],
+     [
+      "Heart, muscle, and kidney",
+      "القلب والعضلة والكلية"
+     ],
+     [
+      "Bile ducts",
+      "القنوات الصفراوية"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "ALT occurs in plasma and tissues but is most associated with the liver; high in liver, relatively low in heart, muscle and kidney.",
+    "note_ar": "توجد ALT في البلازما والأنسجة لكنها أكثر ارتباطًا بالكبد؛ عالية في الكبد ومنخفضة نسبيًا في القلب والعضلة والكلية."
+   },
+   {
+    "en": "A normally LOW serum ALT level that rises with liver damage makes ALT useful for:",
+    "ar": "كون مستوى `ALT` في المصل منخفضًا عادةً ويرتفع مع تلف الكبد يجعلها مفيدة لـ:",
+    "options": [
+     [
+      "Measuring blood glucose",
+      "قياس سكّر الدم"
+     ],
+     [
+      "Screening and monitoring liver disease",
+      "فحص ومتابعة أمراض الكبد"
+     ],
+     [
+      "Counting platelets",
+      "عدّ الصفيحات"
+     ],
+     [
+      "Testing kidney filtration",
+      "اختبار ترشيح الكلية"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Normally low ALT exists in serum; the level increases with liver damage and is used for screening and/or monitoring liver disease.",
+    "note_ar": "عادةً يوجد ALT منخفض في المصل؛ ويرتفع مع تلف الكبد ويُستعمل لفحص ومتابعة أمراض الكبد."
+   },
+   {
+    "en": "ALT testing is primarily used to:",
+    "ar": "يُستعمل فحص `ALT` بصورة رئيسة لـ:",
+    "options": [
+     [
+      "Diagnose fractures",
+      "تشخيص الكسور"
+     ],
+     [
+      "Diagnose anemia",
+      "تشخيص فقر الدم"
+     ],
+     [
+      "Diagnose diabetes",
+      "تشخيص السكّري"
+     ],
+     [
+      "Diagnose liver disease and monitor treatment of hepatitis",
+      "تشخيص أمراض الكبد ومتابعة علاج التهاب الكبد"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Primarily used to diagnose liver disease and to monitor the course of treatment for hepatitis, active post-necrotic cirrhosis, and the effects of later drug therapy.",
+    "note_ar": "يُستعمل أساسًا لتشخيص أمراض الكبد ومتابعة سير علاج التهاب الكبد، والتشمّع التالي للتنخّر النشط، وتأثيرات العلاج الدوائي اللاحق."
+   },
+   {
+    "topic_en": "ALT vs AST, jaundice, and reference values",
+    "topic_ar": "ALT مقابل AST، واليرقان، والقيم المرجعية"
+   },
+   {
+    "en": "Which statement about ALT and AST specificity/sensitivity is correct?",
+    "ar": "أيّ عبارة صحيحة عن نوعية/حساسية `ALT` و`AST`؟",
+    "options": [
+     [
+      "AST is more specific for liver disease than ALT",
+      "`AST` أكثر نوعية لمرض الكبد من `ALT`"
+     ],
+     [
+      "ALT is more specific for liver disease, but AST is more sensitive to alcoholic liver disease",
+      "`ALT` أكثر نوعية لمرض الكبد، لكن `AST` أكثر حساسية لمرض الكبد الكحولي"
+     ],
+     [
+      "Both are equally specific",
+      "كلاهما متساويان في النوعية"
+     ],
+     [
+      "Neither is related to the liver",
+      "كلاهما لا علاقة له بالكبد"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "ALT is more specific than AST for liver disease, but AST is more sensitive to alcoholic liver disease.",
+    "note_ar": "ALT أكثر نوعية من AST لمرض الكبد، لكن AST أكثر حساسية لمرض الكبد الكحولي."
+   },
+   {
+    "en": "ALT helps differentiate between:",
+    "ar": "تساعد `ALT` في التفريق بين:",
+    "options": [
+     [
+      "Hemolytic jaundice and jaundice due to liver disease",
+      "اليرقان الانحلالي واليرقان الناتج عن مرض الكبد"
+     ],
+     [
+      "Anemia and leukemia",
+      "فقر الدم وابيضاض الدم"
+     ],
+     [
+      "Diabetes and gout",
+      "السكّري والنقرس"
+     ],
+     [
+      "Two types of fracture",
+      "نوعين من الكسور"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "ALT also differentiates between hemolytic jaundice and jaundice due to liver disease.",
+    "note_ar": "تفرّق ALT أيضًا بين اليرقان الانحلالي واليرقان الناتج عن مرض الكبد."
+   },
+   {
+    "en": "The adult ALT reference value for MALES is:",
+    "ar": "القيمة المرجعية لـ `ALT` عند الذكور البالغين هي:",
+    "options": [
+     [
+      "13–45 U/L",
+      "`13–45 U/L`"
+     ],
+     [
+      "7–35 U/L",
+      "`7–35 U/L`"
+     ],
+     [
+      "10–40 U/L",
+      "`10–40 U/L`"
+     ],
+     [
+      "5–45 U/L",
+      "`5–45 U/L`"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Adults — Males: 10–40 U/L; Females: 7–35 U/L. Newborns: 13–45 U/L.",
+    "note_ar": "البالغون — الذكور: 10–40 U/L؛ الإناث: 7–35 U/L. حديثو الولادة: 13–45 U/L."
+   },
+   {
+    "en": "The adult ALT reference value for FEMALES is:",
+    "ar": "القيمة المرجعية لـ `ALT` عند الإناث البالغات هي:",
+    "options": [
+     [
+      "5–45 U/L",
+      "`5–45 U/L`"
+     ],
+     [
+      "10–40 U/L",
+      "`10–40 U/L`"
+     ],
+     [
+      "13–45 U/L",
+      "`13–45 U/L`"
+     ],
+     [
+      "7–35 U/L",
+      "`7–35 U/L`"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Females: 7–35 U/L (males 10–40 U/L; newborns 13–45 U/L).",
+    "note_ar": "الإناث: 7–35 U/L (الذكور 10–40 U/L؛ حديثو الولادة 13–45 U/L)."
+   },
+   {
+    "en": "The ALT reference value for NEWBORNS is:",
+    "ar": "القيمة المرجعية لـ `ALT` عند حديثي الولادة هي:",
+    "options": [
+     [
+      "5–45 U/L",
+      "`5–45 U/L`"
+     ],
+     [
+      "10–40 U/L",
+      "`10–40 U/L`"
+     ],
+     [
+      "7–35 U/L",
+      "`7–35 U/L`"
+     ],
+     [
+      "13–45 U/L",
+      "`13–45 U/L`"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Newborns: 13–45 U/L.",
+    "note_ar": "حديثو الولادة: 13–45 U/L."
+   },
+   {
+    "en": "Which condition is listed as causing INCREASED ALT levels?",
+    "ar": "أيّ حالة مذكورة سببًا لارتفاع مستوى `ALT`؟",
+    "options": [
+     [
+      "Dehydration only",
+      "الجفاف فقط"
+     ],
+     [
+      "Iron deficiency",
+      "نقص الحديد"
+     ],
+     [
+      "Hepatocellular disease",
+      "مرض خلايا الكبد"
+     ],
+     [
+      "Vitamin C deficiency",
+      "نقص فيتامين `C`"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Increased ALT: hepatocellular disease, alcoholic cirrhosis, obstructive jaundice/biliary obstruction, viral/infectious/toxic hepatitis, myocardial infarction & heart failure, severe burns, and obesity.",
+    "note_ar": "يرتفع ALT في: مرض خلايا الكبد، والتشمّع الكحولي، واليرقان الانسدادي/الانسداد الصفراوي، والتهاب الكبد الفيروسي/الإنتاني/السمّي، واحتشاء العضلة القلبية وفشل القلب، والحروق الشديدة، والسمنة."
+   },
+   {
+    "topic_en": "ALT method: principle, procedure, calculation",
+    "topic_ar": "طريقة ALT: المبدأ والإجراء والحساب"
+   },
+   {
+    "en": "In the kinetic ALT method, the indicator (second) reaction uses the enzyme:",
+    "ar": "في طريقة `ALT` الحركية، يستعمل التفاعل الكاشف (الثاني) الإنزيم:",
+    "options": [
+     [
+      "Malate dehydrogenase (MDH)",
+      "نازعة هيدروجين المالات `(MDH)`"
+     ],
+     [
+      "Lactate dehydrogenase (LDH)",
+      "نازعة هيدروجين اللاكتات `(LDH)`"
+     ],
+     [
+      "Alkaline phosphatase (ALP)",
+      "الفوسفاتيز القلوي `(ALP)`"
+     ],
+     [
+      "Amylase",
+      "الأميليز"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "ALT principle: L-alanine + α-ketoglutarate —ALT→ pyruvate + L-glutamate; then pyruvate + NADH + H⁺ —LDH→ L-lactate + NAD⁺ (LDH = indicator).",
+    "note_ar": "مبدأ ALT: الألانين-L + ألفا-كيتوغلوتارات —ALT← بيروفات + غلوتامات-L؛ ثم بيروفات + NADH + H⁺ —LDH← لاكتات-L + NAD⁺ (LDH = الكاشف)."
+   },
+   {
+    "en": "In the ALT indicator reaction, pyruvate + NADH + H⁺ are converted by LDH to:",
+    "ar": "في تفاعل `ALT` الكاشف، يحوّل `LDH` البيروفات + `NADH + H`⁺ إلى:",
+    "options": [
+     [
+      "L-lactate + NAD⁺",
+      "لاكتات-`L + NAD`⁺"
+     ],
+     [
+      "L-malate + NAD⁺",
+      "مالات-`L + NAD`⁺"
+     ],
+     [
+      "Oxaloacetate + glutamate",
+      "أوكسالوأسيتات + غلوتامات"
+     ],
+     [
+      "Pyruvate + glutamate",
+      "بيروفات + غلوتامات"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "LDH converts pyruvate + NADH + H⁺ → L-lactate + NAD⁺; the fall in NADH is what is measured.",
+    "note_ar": "يحوّل LDH البيروفات + NADH + H⁺ ← لاكتات-L + NAD⁺؛ والمقاس هو انخفاض NADH."
+   },
+   {
+    "en": "In the ALT procedure, the volumes of work reagent and sample are:",
+    "ar": "في إجراء `ALT`، حجما الكاشف العامل والعيّنة هما:",
+    "options": [
+     [
+      "100 µL reagent and 1000 µL sample",
+      "100 µ`L` كاشف و1000 µ`L` عيّنة"
+     ],
+     [
+      "1000 µL reagent and 100 µL sample",
+      "1000 µ`L` كاشف و100 µ`L` عيّنة"
+     ],
+     [
+      "500 µL reagent and 500 µL sample",
+      "500 µ`L` كاشف و500 µ`L` عيّنة"
+     ],
+     [
+      "1000 µL reagent and 1000 µL sample",
+      "1000 µ`L` كاشف و1000 µ`L` عيّنة"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Procedure: work reagent 1000 µL + sample 100 µL; mix and incubate 1 min at 37°C, then read the change in absorbance every 20 sec during 1 min.",
+    "note_ar": "الإجراء: الكاشف العامل 1000 µL + العيّنة 100 µL؛ يُمزج ويُحضَن دقيقة عند 37°م، ثم يُقرأ تغيّر الامتصاص كل 20 ثانية خلال دقيقة."
+   },
+   {
+    "en": "The SGPT (ALT) activity is calculated as:",
+    "ar": "يُحسب نشاط `SGPT (ALT)` بالعلاقة:",
+    "options": [
+     [
+      "ΔA/min × 1745",
+      "`ΔA/min × 1745`"
+     ],
+     [
+      "ΔA/min × 340",
+      "`ΔA/min × 340`"
+     ],
+     [
+      "ΔA/min ÷ 1745",
+      "`ΔA/min ÷ 1745`"
+     ],
+     [
+      "ΔA × min × 100",
+      "`ΔA × min × 100`"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "SGPT activity (U/L) = ΔA/min × 1745.",
+    "note_ar": "نشاط SGPT (U/L) = ΔA/min × 1745."
+   },
+   {
+    "topic_en": "Aspartate aminotransferase (AST / GOT)",
+    "topic_ar": "ناقلة أمين الأسبارتات (AST / GOT)"
+   },
+   {
+    "en": "Aspartate aminotransferase (AST) is also called:",
+    "ar": "ناقلة أمين الأسبارتات `(AST)` تُسمّى أيضًا:",
+    "options": [
+     [
+      "Lactate dehydrogenase (LDH)",
+      "نازعة هيدروجين اللاكتات `(LDH)`"
+     ],
+     [
+      "Glutamic-pyruvic transaminase (GPT)",
+      "ناقلة أمين الغلوتاميك-بيروفيك `(GPT)`"
+     ],
+     [
+      "Glutamic-oxaloacetic transaminase (GOT)",
+      "ناقلة أمين الغلوتاميك-أوكسالوأسيتيك `(GOT)`"
+     ],
+     [
+      "Alkaline phosphatase (ALP)",
+      "الفوسفاتيز القلوي `(ALP)`"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "AST = aspartate aminotransferase, also called glutamic-oxaloacetic transaminase (GOT).",
+    "note_ar": "AST = ناقلة أمين الأسبارتات، وتُسمّى أيضًا ناقلة أمين الغلوتاميك-أوكسالوأسيتيك (GOT)."
+   },
+   {
+    "en": "AST catalyzes the reversible reaction of aspartate and α-ketoglutarate to form:",
+    "ar": "تحفّز `AST` تفاعل الأسبارتات وألفا-كيتوغلوتارات العكوس لتكوين:",
+    "options": [
+     [
+      "Malate and NAD",
+      "المالات و`NAD`"
+     ],
+     [
+      "Pyruvate and L-glutamate",
+      "البيروفات والغلوتامات-`L`"
+     ],
+     [
+      "Lactate and NAD",
+      "اللاكتات و`NAD`"
+     ],
+     [
+      "Oxaloacetate and glutamate",
+      "الأوكسالوأسيتات والغلوتامات"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "AST: aspartate + α-ketoglutarate ⇌ oxaloacetate + glutamate (aspartate donates its amino group → oxaloacetate; α-ketoglutarate accepts it → glutamate).",
+    "note_ar": "AST: الأسبارتات + ألفا-كيتوغلوتارات ⇌ أوكسالوأسيتات + غلوتامات (يتبرّع الأسبارتات بمجموعة الأمين ← أوكسالوأسيتات؛ وتقبلها ألفا-كيتوغلوتارات ← غلوتامات)."
+   },
+   {
+    "en": "The AST reaction requires the coenzyme:",
+    "ar": "يتطلّب تفاعل `AST` المرافق الإنزيمي:",
+    "options": [
+     [
+      "Ascorbic acid (vitamin C)",
+      "حمض الأسكوربيك (فيتامين `C`)"
+     ],
+     [
+      "Thiamine (vitamin B1)",
+      "الثيامين (فيتامين `B1`)"
+     ],
+     [
+      "Pyridoxine phosphate (a vitamin B6 derivative)",
+      "فوسفات البيريدوكسين (مشتقّ من فيتامين `B6`)"
+     ],
+     [
+      "Biotin (vitamin B7)",
+      "البيوتين (فيتامين `B7`)"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "This reaction requires the coenzyme pyridoxine phosphate (a derivative of vitamin B6).",
+    "note_ar": "يتطلّب هذا التفاعل المرافق الإنزيمي فوسفات البيريدوكسين (مشتقّ من فيتامين B6)."
+   },
+   {
+    "en": "GOT is an enzyme present in tissues of:",
+    "ar": "`GOT` إنزيم موجود في أنسجة ذات:",
+    "options": [
+     [
+      "Fat storage only",
+      "خزن دهني فقط"
+     ],
+     [
+      "Low blood supply",
+      "إمداد دموي قليل"
+     ],
+     [
+      "No metabolism",
+      "لا أيض فيها"
+     ],
+     [
+      "High metabolic activity",
+      "نشاط أيضي عالٍ"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "GOT is present in tissues of high metabolic activity (heart, liver, skeletal muscle, kidney, brain, pancreas, spleen, lungs).",
+    "note_ar": "GOT موجود في أنسجة ذات نشاط أيضي عالٍ (القلب، الكبد، العضلة الهيكلية، الكلية، الدماغ، البنكرياس، الطحال، الرئتان)."
+   },
+   {
+    "en": "GOT (AST) is released into the circulation following:",
+    "ar": "يُطلق `GOT (AST)` إلى الدوران عقب:",
+    "options": [
+     [
+      "Injury or death of cells",
+      "إصابة الخلايا أو موتها"
+     ],
+     [
+      "Eating a meal",
+      "تناول وجبة"
+     ],
+     [
+      "Physical rest",
+      "الراحة الجسدية"
+     ],
+     [
+      "Drinking water",
+      "شرب الماء"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "The enzyme is released into the circulation following injury or death of cells; any disease affecting these highly metabolic tissues raises GOT.",
+    "note_ar": "يُطلق الإنزيم إلى الدوران عقب إصابة الخلايا أو موتها؛ وأيّ مرض يصيب هذه الأنسجة عالية الأيض يرفع GOT."
+   },
+   {
+    "en": "AST (GOT) testing is used to evaluate:",
+    "ar": "يُستعمل فحص `AST (GOT)` لتقييم:",
+    "options": [
+     [
+      "Kidney stones",
+      "حصى الكلى"
+     ],
+     [
+      "Liver and heart disease",
+      "أمراض الكبد والقلب"
+     ],
+     [
+      "Lung infection only",
+      "عدوى الرئة فقط"
+     ],
+     [
+      "Bone density",
+      "كثافة العظم"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "AST is used to evaluate liver and heart disease; GOT is usually ordered along with GPT.",
+    "note_ar": "يُستعمل AST لتقييم أمراض الكبد والقلب؛ وعادةً يُطلب GOT مع GPT."
+   },
+   {
+    "topic_en": "AST reference, clinical significance & method",
+    "topic_ar": "القيمة المرجعية والأهمية السريرية وطريقة AST"
+   },
+   {
+    "en": "The reference value for AST (GOT) is:",
+    "ar": "القيمة المرجعية لـ `AST (GOT)` هي:",
+    "options": [
+     [
+      "10–40 U/L",
+      "`10–40 U/L`"
+     ],
+     [
+      "5–45 U/L",
+      "`5–45 U/L`"
+     ],
+     [
+      "7–35 U/L",
+      "`7–35 U/L`"
+     ],
+     [
+      "13–45 U/L",
+      "`13–45 U/L`"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "AST reference value: 5–45 U/L.",
+    "note_ar": "القيمة المرجعية لـ AST: 5–45 U/L."
+   },
+   {
+    "en": "Which is listed as a cause of INCREASED AST levels?",
+    "ar": "أيّها مذكور سببًا لارتفاع مستوى `AST`؟",
+    "options": [
+     [
+      "Vitamin D excess",
+      "زيادة فيتامين `D`"
+     ],
+     [
+      "Iron-deficiency anemia",
+      "فقر الدم بعوز الحديد"
+     ],
+     [
+      "Hyperthyroidism",
+      "فرط نشاط الدرقية"
+     ],
+     [
+      "Myocardial infarction (MI)",
+      "احتشاء العضلة القلبية `(MI)`"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Increased AST: myocardial infarction (MI); liver diseases (acute, chronic, alcoholic hepatitis); hypothyroidism; trauma & irradiation of skeletal muscle; hemolytic anemia, exhaustion and heat stroke.",
+    "note_ar": "يرتفع AST في: احتشاء العضلة القلبية (MI)؛ وأمراض الكبد (التهاب الكبد الحاد والمزمن والكحولي)؛ وقصور الدرقية؛ ورضّ العضلة الهيكلية وتشعيعها؛ وفقر الدم الانحلالي والإنهاك وضربة الحرّ."
+   },
+   {
+    "en": "In the kinetic AST method, the indicator (second) reaction uses the enzyme:",
+    "ar": "في طريقة `AST` الحركية، يستعمل التفاعل الكاشف (الثاني) الإنزيم:",
+    "options": [
+     [
+      "Alkaline phosphatase (ALP)",
+      "الفوسفاتيز القلوي `(ALP)`"
+     ],
+     [
+      "Lactate dehydrogenase (LDH)",
+      "نازعة هيدروجين اللاكتات `(LDH)`"
+     ],
+     [
+      "Malate dehydrogenase (MDH)",
+      "نازعة هيدروجين المالات `(MDH)`"
+     ],
+     [
+      "Lipase",
+      "اللايبيز"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "AST principle: L-aspartate + α-ketoglutarate —AST→ oxaloacetate + L-glutamate; then oxaloacetate + NADH + H⁺ —MDH→ L-malate + NAD⁺ (MDH = indicator).",
+    "note_ar": "مبدأ AST: الأسبارتات-L + ألفا-كيتوغلوتارات —AST← أوكسالوأسيتات + غلوتامات-L؛ ثم أوكسالوأسيتات + NADH + H⁺ —MDH← مالات-L + NAD⁺ (MDH = الكاشف)."
+   },
+   {
+    "en": "In the AST indicator reaction, oxaloacetate + NADH + H⁺ are converted by MDH to:",
+    "ar": "في تفاعل `AST` الكاشف، يحوّل `MDH` الأوكسالوأسيتات + `NADH + H`⁺ إلى:",
+    "options": [
+     [
+      "L-malate + NAD⁺",
+      "مالات-`L + NAD`⁺"
+     ],
+     [
+      "L-lactate + NAD⁺",
+      "لاكتات-`L + NAD`⁺"
+     ],
+     [
+      "Pyruvate + glutamate",
+      "بيروفات + غلوتامات"
+     ],
+     [
+      "Aspartate + glutamate",
+      "أسبارتات + غلوتامات"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "MDH converts oxaloacetate + NADH + H⁺ → L-malate + NAD⁺; the fall in NADH is measured.",
+    "note_ar": "يحوّل MDH الأوكسالوأسيتات + NADH + H⁺ ← مالات-L + NAD⁺؛ والمقاس انخفاض NADH."
+   },
+   {
+    "en": "The SGOT (AST) activity is calculated as:",
+    "ar": "يُحسب نشاط `SGOT (AST)` بالعلاقة:",
+    "options": [
+     [
+      "ΔA/min × 340",
+      "`ΔA/min × 340`"
+     ],
+     [
+      "ΔA/min × 1745",
+      "`ΔA/min × 1745`"
+     ],
+     [
+      "ΔA/min ÷ 1745",
+      "`ΔA/min ÷ 1745`"
+     ],
+     [
+      "ΔA/min × 100",
+      "`ΔA/min × 100`"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "SGOT activity (U/L) = ΔA/min × 1745 (same calculation form as SGPT).",
+    "note_ar": "نشاط SGOT (U/L) = ΔA/min × 1745 (الصيغة نفسها كـ SGPT)."
+   },
+   {
+    "en": "How does the AST reading differ from the ALT reading in the procedure?",
+    "ar": "كيف تختلف قراءة `AST` عن قراءة `ALT` في الإجراء؟",
+    "options": [
+     [
+      "AST uses 10 µL sample",
+      "`AST` تستعمل 10 µ`L` عيّنة"
+     ],
+     [
+      "AST needs no incubation",
+      "`AST` لا تحتاج حضنًا"
+     ],
+     [
+      "AST reads the change in absorbance per minute during 3 min",
+      "تُقرأ `AST` بتغيّر الامتصاص كل دقيقة خلال 3 دقائق"
+     ],
+     [
+      "AST is not read spectrophotometrically",
+      "`AST` لا تُقرأ طيفيًا"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "AST: mix and incubate 1 min at 37°C, then read ΔA per minute during 3 min (ALT reads per 20 sec during 1 min) — “same film, slight difference.”",
+    "note_ar": "AST: يُمزج ويُحضَن دقيقة عند 37°م، ثم يُقرأ ΔA كل دقيقة خلال 3 دقائق (ALT تُقرأ كل 20 ثانية خلال دقيقة) — «نفس الفيلم باختلاف بسيط»."
+   }
+  ],
+  "tf": [],
+  "traps": [],
+  "important": [
+   {
+    "en": "Define liver function tests (LFT) and list the major functions of the liver.",
+    "ar": "عرّف فحوصات وظائف الكبد `(LFT)` واذكر وظائف الكبد الرئيسة.",
+    "answer_en": "LFTs measure various chemicals in the blood made by the liver; an abnormal result indicates a liver problem and may help identify the cause. Major functions: 1) bile production and excretion; 2) excretion of bilirubin, cholesterol, hormones and drugs; 3) metabolism of fats, proteins and carbohydrates; 4) enzyme activation; 5) storage of glycogen, vitamins and minerals; 6) synthesis of plasma proteins (such as albumin) and clotting factors.",
+    "answer_ar": "تقيس فحوصات وظائف الكبد مواد كيميائية مختلفة في الدم يصنعها الكبد؛ والنتيجة غير الطبيعية تدلّ على مشكلة في الكبد وقد تساعد في معرفة السبب. ووظائف الكبد الرئيسة: 1) إنتاج الصفراء وإفرازها؛ 2) طرح البيليروبين والكوليسترول والهرمونات والأدوية؛ 3) أيض الدهون والبروتينات والكربوهيدرات؛ 4) تنشيط الإنزيمات؛ 5) خزن الغلايكوجين والفيتامينات والمعادن؛ 6) تصنيع بروتينات البلازما (مثل الألبومين) وعوامل التخثّر."
+   },
+   {
+    "en": "List the five main tests used for liver function.",
+    "ar": "عدّد الفحوصات الخمسة الرئيسة المستعملة لوظيفة الكبد.",
+    "answer_en": "1) Alanine aminotransferase (ALT), also called glutamic-pyruvic transaminase (GPT). 2) Aspartate aminotransferase (AST), also called glutamic-oxaloacetic transaminase (GOT). 3) Serum bilirubin (total, direct and indirect). 4) Alkaline phosphatase (ALP). 5) Albumin, total protein, and others.",
+    "answer_ar": "1) ناقلة أمين الألانين `(ALT)` وتُسمّى ناقلة أمين الغلوتاميك-بيروفيك (`GPT). 2`) ناقلة أمين الأسبارتات `(AST)` وتُسمّى ناقلة أمين الغلوتاميك-أوكسالوأسيتيك (`GOT). 3`) البيليروبين المصلي (الكلّي والمباشر وغير المباشر). 4) الفوسفاتيز القلوي (`ALP). 5`) الألبومين والبروتين الكلّي وغيرها."
+   },
+   {
+    "en": "Write the reaction catalyzed by ALT and state its other name.",
+    "ar": "اكتب التفاعل الذي تحفّزه `ALT` واذكر اسمها الآخر.",
+    "answer_en": "ALT (also called GPT) catalyzes a reversible transamination: it transfers an amino group from L-alanine to α-ketoglutarate to produce pyruvate and L-glutamate.",
+    "answer_ar": "تحفّز `ALT` (وتُسمّى `GPT`) نقل أمين عكوسًا: تنقل مجموعة أمين من الألانين-`L` إلى ألفا-كيتوغلوتارات لإنتاج البيروفات والغلوتامات-`L`."
+   },
+   {
+    "en": "State the clinical significance (causes of increase) and reference values of ALT.",
+    "ar": "اذكر الأهمية السريرية (أسباب الارتفاع) والقيم المرجعية لـ `ALT`.",
+    "answer_en": "Increased ALT occurs in: hepatocellular disease, alcoholic cirrhosis, obstructive jaundice or biliary obstruction, viral/infectious/toxic hepatitis, myocardial infarction and heart failure, severe burns, and obesity. Reference values — Adults: males 10–40 U/L, females 7–35 U/L; newborns 13–45 U/L.",
+    "answer_ar": "يرتفع `ALT` في: مرض خلايا الكبد، والتشمّع الكحولي، واليرقان الانسدادي أو الانسداد الصفراوي، والتهاب الكبد الفيروسي/الإنتاني/السمّي، واحتشاء العضلة القلبية وفشل القلب، والحروق الشديدة، والسمنة. والقيم المرجعية — البالغون: الذكور 10–`40 U/L`، الإناث 7–`35 U/L`؛ وحديثو الولادة 13–`45 U/L`."
+   },
+   {
+    "en": "Compare ALT and AST in specificity, sensitivity, and jaundice differentiation.",
+    "ar": "قارن بين `ALT` و`AST` في النوعية والحساسية والتفريق بين أنواع اليرقان.",
+    "answer_en": "ALT is more specific than AST for liver disease, but AST is more sensitive to alcoholic liver disease. ALT also helps differentiate between hemolytic jaundice and jaundice due to liver disease.",
+    "answer_ar": "`ALT` أكثر نوعية من `AST` لمرض الكبد، لكن `AST` أكثر حساسية لمرض الكبد الكحولي. وتساعد `ALT` أيضًا في التفريق بين اليرقان الانحلالي واليرقان الناتج عن مرض الكبد."
+   },
+   {
+    "en": "Write the reaction catalyzed by AST, its required coenzyme, and its other name.",
+    "ar": "اكتب التفاعل الذي تحفّزه `AST`، ومرافقها الإنزيمي اللازم، واسمها الآخر.",
+    "answer_en": "AST (also called GOT) catalyzes the reversible conversion of aspartate and α-ketoglutarate to oxaloacetate and glutamate (aspartate donates its amino group to form oxaloacetate; α-ketoglutarate accepts the amino group to form glutamate). The reaction requires the coenzyme pyridoxine phosphate (a derivative of vitamin B6).",
+    "answer_ar": "تحفّز `AST` (وتُسمّى `GOT`) التحويل العكوس للأسبارتات وألفا-كيتوغلوتارات إلى أوكسالوأسيتات وغلوتامات (يتبرّع الأسبارتات بمجموعة الأمين فيتكوّن الأوكسالوأسيتات؛ وتقبلها ألفا-كيتوغلوتارات فيتكوّن الغلوتامات). ويتطلّب التفاعل المرافق الإنزيمي فوسفات البيريدوكسين (مشتقّ من فيتامين `B6`)."
+   },
+   {
+    "en": "State the tissue distribution of GOT, its reference value, and the causes of its increase.",
+    "ar": "اذكر توزيع `GOT` في الأنسجة، وقيمته المرجعية، وأسباب ارتفاعه.",
+    "answer_en": "GOT is present in tissues of high metabolic activity: heart, liver, skeletal muscle, kidney, brain, pancreas, spleen and lungs; it is released into the circulation following injury or death of cells. Reference value: 5–45 U/L. Increased AST occurs in: myocardial infarction, liver diseases (acute, chronic, alcoholic hepatitis), hypothyroidism, trauma and irradiation of skeletal muscle, and hemolytic anemia, exhaustion and heat stroke.",
+    "answer_ar": "`GOT` موجود في أنسجة ذات نشاط أيضي عالٍ: القلب، والكبد، والعضلة الهيكلية، والكلية، والدماغ، والبنكرياس، والطحال، والرئتين؛ ويُطلق إلى الدوران عقب إصابة الخلايا أو موتها. وقيمته المرجعية: 5–`45 U/L`. ويرتفع `AST` في: احتشاء العضلة القلبية، وأمراض الكبد (التهاب الكبد الحاد والمزمن والكحولي)، وقصور الدرقية، ورضّ العضلة الهيكلية وتشعيعها، وفقر الدم الانحلالي والإنهاك وضربة الحرّ."
+   },
+   {
+    "en": "Marked by the student: explain the principle of the kinetic ALT (SGPT) determination (both reactions) and its calculation.",
+    "ar": "مؤشَّر بالطالب: اشرح مبدأ تقدير `ALT (SGPT)` الحركي (التفاعلين) وطريقة حسابه.",
+    "answer_en": "First reaction (ALT): L-alanine + α-ketoglutarate → pyruvate + L-glutamate. Second (indicator) reaction (LDH): pyruvate + NADH + H⁺ → L-lactate + NAD⁺. Procedure: 1000 µL work reagent + 100 µL sample, incubate 1 min at 37°C, then read ΔA every 20 sec for 1 min. Calculation: SGPT activity (U/L) = ΔA/min × 1745.",
+    "answer_ar": "التفاعل الأول `(ALT)`: الألانين-`L` + ألفا-كيتوغلوتارات ← بيروفات + غلوتامات-`L`. والتفاعل الثاني (الكاشف، `LDH`): بيروفات + `NADH + H`⁺ ← لاكتات-`L + NAD`⁺. الإجراء: 1000 µ`L` كاشف عامل + 100 µ`L` عيّنة، يُحضَن دقيقة عند 37°م، ثم يُقرأ Δ`A` كل 20 ثانية لمدة دقيقة. والحساب: نشاط `SGPT (U/L)` = Δ`A/min × 1745`."
+   },
+   {
+    "en": "Marked by the student: why is a second (indicator) reaction used instead of measuring pyruvate directly?",
+    "ar": "مؤشَّر بالطالب: لماذا يُستعمل تفاعل ثانٍ (كاشف) بدلًا من قياس البيروفات مباشرةً؟",
+    "answer_en": "Pyruvate is produced in direct proportion to the amount and activity of ALT, but measuring pyruvate itself is difficult. So a second (indicator) reaction is coupled: LDH consumes the NADH (converting it to NAD⁺) as it reduces pyruvate to lactate. The fall in NADH absorbance is easy to read spectrophotometrically and is proportional to ALT activity.",
+    "answer_ar": "يُنتَج البيروفات بتناسب طردي مع كمية `ALT` ونشاطها، لكن قياس البيروفات نفسه صعب. لذا يُقرَن تفاعل ثانٍ (كاشف): يستهلك `LDH` الـ `NADH` (محوّلًا إيّاه إلى `NAD`⁺) وهو يختزل البيروفات إلى لاكتات. وانخفاض امتصاص `NADH` سهل القراءة طيفيًا ويتناسب مع نشاط `ALT`."
+   },
+   {
+    "en": "Marked by the student: explain the principle of the kinetic AST (SGOT) determination and how it differs from ALT.",
+    "ar": "مؤشَّر بالطالب: اشرح مبدأ تقدير `AST (SGOT)` الحركي وكيف يختلف عن `ALT`.",
+    "answer_en": "First reaction (AST): L-aspartate + α-ketoglutarate → oxaloacetate + L-glutamate. Second (indicator) reaction (MDH): oxaloacetate + NADH + H⁺ → L-malate + NAD⁺. It is essentially the “same film” as ALT with a slight difference: ALT couples to LDH (pyruvate → lactate) while AST couples to MDH (oxaloacetate → malate); and AST reads ΔA per minute during 3 min (ALT per 20 sec during 1 min). Calculation: SGOT activity (U/L) = ΔA/min × 1745.",
+    "answer_ar": "التفاعل الأول `(AST)`: الأسبارتات-`L` + ألفا-كيتوغلوتارات ← أوكسالوأسيتات + غلوتامات-`L`. والتفاعل الثاني (الكاشف، `MDH`): أوكسالوأسيتات + `NADH + H`⁺ ← مالات-`L + NAD`⁺. وهو «نفس الفيلم» كـ `ALT` باختلاف بسيط: `ALT` يقترن بـ `LDH` (بيروفات ← لاكتات) بينما `AST` يقترن بـ `MDH` (أوكسالوأسيتات ← مالات)؛ وتُقرأ `AST` بتغيّر الامتصاص كل دقيقة خلال 3 دقائق (و`ALT` كل 20 ثانية خلال دقيقة). والحساب: نشاط `SGOT (U/L)` = Δ`A/min × 1745`."
+   },
+   {
+    "en": "Marked by the student: what does a low normal serum ALT level, rising with liver damage, make the enzyme useful for?",
+    "ar": "مؤشَّر بالطالب: مستوى `ALT` المصلي المنخفض عادةً والذي يرتفع مع تلف الكبد — لأيّ غرض يجعل الإنزيم مفيدًا؟",
+    "answer_en": "Normally only a low level of ALT exists in the serum. Because the level increases with liver damage, measuring it is used for screening and/or monitoring liver disease, and for monitoring the course of treatment for hepatitis and the effects of later drug therapy.",
+    "answer_ar": "عادةً لا يوجد في المصل إلا مستوى منخفض من `ALT`. ولأن المستوى يرتفع مع تلف الكبد، يُستعمل قياسه لفحص ومتابعة أمراض الكبد، ولمتابعة سير علاج التهاب الكبد وتأثيرات العلاج الدوائي اللاحق."
+   },
+   {
+    "en": "Marked by the student: for which organs/diseases are ALT and AST ordered, and why are they often requested together?",
+    "ar": "مؤشَّر بالطالب: لأيّ أعضاء/أمراض يُطلب `ALT` و`AST`، ولماذا يُطلبان معًا غالبًا؟",
+    "answer_en": "ALT is most associated with the liver (more specific for liver disease), while AST (GOT) evaluates both liver and heart disease and is more sensitive to alcoholic liver disease. GOT is usually ordered along with GPT so that the pattern of the two enzymes helps localize and characterize the damage (e.g. hepatic vs cardiac/muscle).",
+    "answer_ar": "ترتبط `ALT` غالبًا بالكبد (أكثر نوعية لمرض الكبد)، بينما يقيّم `AST (GOT)` أمراض الكبد والقلب معًا وهو أكثر حساسية لمرض الكبد الكحولي. وعادةً يُطلب `GOT` مع `GPT` حتى يساعد نمط الإنزيمين على تحديد موضع الضرر وتوصيفه (كبدي أم قلبي/عضلي)."
+   }
+  ]
+ }
+}
