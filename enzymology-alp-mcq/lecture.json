@@ -1,0 +1,891 @@
+{
+ "meta": {
+  "subject_en": "Clinical Enzymology",
+  "subject_ar": "الإنزيمات السريرية",
+  "short_ar": "انزيمات سريرية",
+  "instructor": "د. بارق و د. هشام",
+  "unit_en": "Lab 3",
+  "unit_ar": "العملي 3",
+  "unit_label": "LAB",
+  "unit_no": "3",
+  "title_en": "Serum Alkaline Phosphatase (ALP)",
+  "title_ar": "الفوسفاتيز القاعدي في المصل",
+  "kind": "Laboratories — عملي",
+  "stage": "The fourth stage — الرابعة",
+  "file_name": "BIOS - انزيمات سريرية عملي - الفوسفاتيز القاعدي - بنك أسئلة شامل"
+ },
+ "questions": {
+  "title_en": "Serum Alkaline Phosphatase (ALP) — Comprehensive Questions (MCQ + SA)",
+  "title_ar": "الفوسفاتيز القاعدي في المصل (ALP) — أسئلة شاملة (اختيار + مقالية)",
+  "answers_inline": true,
+  "mcq": [
+   {
+    "topic_en": "Source and general properties of ALP",
+    "topic_ar": "مصدر الفوسفاتيز القاعدي وصفاته العامة"
+   },
+   {
+    "en": "Alkaline phosphatase (ALP) originates mainly in the:",
+    "ar": "ينشأ الفوسفاتيز القاعدي `(ALP)` أساسًا في:",
+    "options": [
+     [
+      "Brain and skin",
+      "الدماغ والجلد"
+     ],
+     [
+      "Spleen and lungs",
+      "الطحال والرئتين"
+     ],
+     [
+      "Bone, liver and placenta",
+      "العظم والكبد والمشيمة"
+     ],
+     [
+      "Red blood cells",
+      "كريات الدم الحمراء"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "ALP originates mainly in bone, liver and placenta, with some activity in the kidney and intestines.",
+    "note_ar": "ينشأ ALP أساسًا في العظم والكبد والمشيمة، مع بعض الفعالية في الكلية والأمعاء."
+   },
+   {
+    "en": "Besides its main sources, ALP has some activity in the:",
+    "ar": "إضافةً إلى مصادره الرئيسة، للـ `ALP` بعض الفعالية في:",
+    "options": [
+     [
+      "Kidney and intestines",
+      "الكلية والأمعاء"
+     ],
+     [
+      "Heart and brain",
+      "القلب والدماغ"
+     ],
+     [
+      "Skin and hair",
+      "الجلد والشعر"
+     ],
+     [
+      "Thyroid gland",
+      "الغدة الدرقية"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Some activity exists in the kidney and intestines.",
+    "note_ar": "توجد بعض الفعالية في الكلية والأمعاء."
+   },
+   {
+    "en": "ALP is called “alkaline” because it functions best at a pH of:",
+    "ar": "يُسمّى `ALP` «قاعديًا» لأنه يعمل أفضل ما يكون عند أسّ هيدروجيني:",
+    "options": [
+     [
+      "2",
+      "2"
+     ],
+     [
+      "7",
+      "7"
+     ],
+     [
+      "5",
+      "5"
+     ],
+     [
+      "9",
+      "9"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "It is called alkaline because it functions best at a pH of 9.",
+    "note_ar": "يُسمّى قاعديًا لأنه يعمل أفضل ما يكون عند أسّ هيدروجيني 9."
+   },
+   {
+    "en": "ALP levels are dependent on:",
+    "ar": "تعتمد مستويات `ALP` على:",
+    "options": [
+     [
+      "Blood type",
+      "فصيلة الدم"
+     ],
+     [
+      "Age and gender",
+      "العمر والجنس"
+     ],
+     [
+      "Height only",
+      "الطول فقط"
+     ],
+     [
+      "Time of year",
+      "فصل السنة"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "ALP levels are age and gender dependent.",
+    "note_ar": "تعتمد مستويات ALP على العمر والجنس."
+   },
+   {
+    "en": "ALP is used (when correlated with other clinical findings) as an index of:",
+    "ar": "يُستعمل `ALP` (عند ربطه بموجودات سريرية أخرى) كدليل على:",
+    "options": [
+     [
+      "Kidney stones",
+      "حصى الكلى"
+     ],
+     [
+      "Liver and bone disease",
+      "أمراض الكبد والعظم"
+     ],
+     [
+      "Lung infection",
+      "عدوى الرئة"
+     ],
+     [
+      "Anemia",
+      "فقر الدم"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "ALP is used as an index of liver and bone disease when correlated with other clinical findings.",
+    "note_ar": "يُستعمل ALP دليلًا على أمراض الكبد والعظم عند ربطه بالموجودات السريرية الأخرى."
+   },
+   {
+    "topic_en": "ALP in bone disease vs liver disease",
+    "topic_ar": "ALP في مرض العظم مقابل مرض الكبد"
+   },
+   {
+    "en": "In bone disease, the ALP level rises in proportion to:",
+    "ar": "في مرض العظم، يرتفع مستوى `ALP` بتناسب مع:",
+    "options": [
+     [
+      "New bone cell production (osteoplastic activity and calcium deposit)",
+      "إنتاج خلايا عظمية جديدة (الفعالية البانية للعظم وترسيب الكالسيوم)"
+     ],
+     [
+      "Red cell destruction",
+      "تحطّم الكريات الحمراء"
+     ],
+     [
+      "Muscle breakdown",
+      "تحلّل العضلات"
+     ],
+     [
+      "Fat storage",
+      "خزن الدهون"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "In bone disease, ALP rises in proportion to new bone cell production from osteoplastic activity and the deposit of calcium in the bones.",
+    "note_ar": "في مرض العظم يرتفع ALP بتناسب مع إنتاج خلايا عظمية جديدة الناتج عن الفعالية البانية للعظم وترسيب الكالسيوم في العظام."
+   },
+   {
+    "en": "In liver disease, the blood ALP level rises when:",
+    "ar": "في مرض الكبد، يرتفع مستوى `ALP` في الدم عندما:",
+    "options": [
+     [
+      "Blood glucose falls",
+      "ينخفض سكّر الدم"
+     ],
+     [
+      "The liver stops making bile acids",
+      "يتوقّف الكبد عن صنع الأحماض الصفراوية"
+     ],
+     [
+      "Excretion of the enzyme is impaired by obstruction in the biliary tract",
+      "يختلّ طرح الإنزيم بسبب انسداد في القناة الصفراوية"
+     ],
+     [
+      "Red cells increase",
+      "تزداد الكريات الحمراء"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "In liver disease, the blood level rises when excretion of the enzyme is impaired as a result of obstruction in the biliary tract.",
+    "note_ar": "في مرض الكبد يرتفع المستوى في الدم عندما يختلّ طرح الإنزيم نتيجة انسداد في القناة الصفراوية."
+   },
+   {
+    "en": "Used alone, alkaline phosphatase may be:",
+    "ar": "عند استعماله وحده، قد يكون الفوسفاتيز القاعدي:",
+    "options": [
+     [
+      "Specific to the kidney",
+      "نوعيًا للكلية"
+     ],
+     [
+      "Always diagnostic",
+      "تشخيصيًا دائمًا"
+     ],
+     [
+      "Unmeasurable",
+      "غير قابل للقياس"
+     ],
+     [
+      "Misleading",
+      "مضلِّلًا"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Used alone, alkaline phosphatase may be misleading — it is interpreted with other clinical findings.",
+    "note_ar": "عند استعماله وحده قد يكون مضلِّلًا — ويُفسَّر مع الموجودات السريرية الأخرى."
+   },
+   {
+    "topic_en": "Normal reference values",
+    "topic_ar": "القيم المرجعية الطبيعية"
+   },
+   {
+    "en": "The normal ALP value for FEMALES older than 15 years is:",
+    "ar": "القيمة الطبيعية لـ `ALP` عند الإناث فوق 15 سنة هي:",
+    "options": [
+     [
+      "5–45 U/L",
+      "`5–45 U/L`"
+     ],
+     [
+      "<350 U/L",
+      "`<350 U/L`"
+     ],
+     [
+      "<500 U/L",
+      "`<500 U/L`"
+     ],
+     [
+      "25–100 U/L",
+      "`25–100 U/L`"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Females >15 years: 25–100 U/L (1–12 years: <350 U/L).",
+    "note_ar": "الإناث فوق 15 سنة: 25–100 U/L (ومن 1–12 سنة: <350 U/L)."
+   },
+   {
+    "en": "The normal ALP value for FEMALES aged 1–12 years is:",
+    "ar": "القيمة الطبيعية لـ `ALP` عند الإناث بعمر 1–12 سنة هي:",
+    "options": [
+     [
+      "<350 U/L",
+      "`<350 U/L`"
+     ],
+     [
+      "25–100 U/L",
+      "`25–100 U/L`"
+     ],
+     [
+      "<500 U/L",
+      "`<500 U/L`"
+     ],
+     [
+      "13–45 U/L",
+      "`13–45 U/L`"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Females 1–12 years: <350 U/L.",
+    "note_ar": "الإناث 1–12 سنة: <350 U/L."
+   },
+   {
+    "en": "The normal ALP value for MALES aged 12–14 years is:",
+    "ar": "القيمة الطبيعية لـ `ALP` عند الذكور بعمر 12–14 سنة هي:",
+    "options": [
+     [
+      "<350 U/L",
+      "`<350 U/L`"
+     ],
+     [
+      "<500 U/L",
+      "`<500 U/L`"
+     ],
+     [
+      "25–100 U/L",
+      "`25–100 U/L`"
+     ],
+     [
+      "10–40 U/L",
+      "`10–40 U/L`"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Males 12–14 years: <500 U/L (1–12 years: <350 U/L; >20 years: 25–100 U/L).",
+    "note_ar": "الذكور 12–14 سنة: <500 U/L (ومن 1–12 سنة: <350 U/L؛ وفوق 20 سنة: 25–100 U/L)."
+   },
+   {
+    "en": "The normal ALP value for MALES older than 20 years is:",
+    "ar": "القيمة الطبيعية لـ `ALP` عند الذكور فوق 20 سنة هي:",
+    "options": [
+     [
+      "<500 U/L",
+      "`<500 U/L`"
+     ],
+     [
+      "<350 U/L",
+      "`<350 U/L`"
+     ],
+     [
+      "25–100 U/L",
+      "`25–100 U/L`"
+     ],
+     [
+      "7–35 U/L",
+      "`7–35 U/L`"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Males >20 years: 25–100 U/L.",
+    "note_ar": "الذكور فوق 20 سنة: 25–100 U/L."
+   },
+   {
+    "topic_en": "Causes of increased ALP",
+    "topic_ar": "أسباب ارتفاع ALP"
+   },
+   {
+    "en": "Which LIVER condition causes INCREASED ALP?",
+    "ar": "أيّ حالة كبدية تسبّب ارتفاع `ALP`؟",
+    "options": [
+     [
+      "Vitamin C deficiency",
+      "نقص فيتامين `C`"
+     ],
+     [
+      "Iron-deficiency anemia",
+      "فقر الدم بعوز الحديد"
+     ],
+     [
+      "Dehydration",
+      "الجفاف"
+     ],
+     [
+      "Obstructive jaundice / hepatic carcinoma / hepatitis / infectious mononucleosis",
+      "اليرقان الانسدادي / سرطان الكبد / التهاب الكبد / كثرة الوحيدات العدوائية"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Increased ALP in liver disease: obstructive jaundice, hepatic carcinoma, hepatocellular cirrhosis, hepatitis, infectious mononucleosis.",
+    "note_ar": "يرتفع ALP في أمراض الكبد: اليرقان الانسدادي، وسرطان الكبد، وتشمّع خلايا الكبد، والتهاب الكبد، وكثرة الوحيدات العدوائية."
+   },
+   {
+    "en": "Which BONE condition causes INCREASED ALP?",
+    "ar": "أيّ حالة عظمية تسبّب ارتفاع `ALP`؟",
+    "options": [
+     [
+      "Metastatic bone tumor / osteogenic sarcoma / osteomalacia",
+      "ورم العظم النقيلي / الساركومة العظمية المنشأ / تليّن العظام"
+     ],
+     [
+      "Osteoporosis only",
+      "هشاشة العظام فقط"
+     ],
+     [
+      "Bone bruise",
+      "رضّ العظم"
+     ],
+     [
+      "Normal bone growth never",
+      "نمو العظم الطبيعي أبدًا"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Increased ALP in bone disease: metastatic bone tumor, osteogenic sarcoma, and osteomalacia.",
+    "note_ar": "يرتفع ALP في أمراض العظم: ورم العظم النقيلي، والساركومة العظمية المنشأ، وتليّن العظام."
+   },
+   {
+    "en": "Which metabolic condition is listed as INCREASING ALP?",
+    "ar": "أيّ حالة استقلابية مذكورة ترفع `ALP`؟",
+    "options": [
+     [
+      "Hypoglycemia",
+      "نقص سكّر الدم"
+     ],
+     [
+      "Diabetes mellitus and diabetic hepatic lipidosis",
+      "الداء السكّري والشحام الكبدي السكّري"
+     ],
+     [
+      "Dehydration",
+      "الجفاف"
+     ],
+     [
+      "Gout",
+      "النقرس"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Increased ALP: diabetes mellitus and diabetic hepatic lipidosis; also chronic alcohol ingestion.",
+    "note_ar": "يرتفع ALP في: الداء السكّري والشحام الكبدي السكّري؛ وكذلك تناول الكحول المزمن."
+   },
+   {
+    "en": "Chronic ___ ingestion is listed as a cause of increased ALP.",
+    "ar": "تناول ___ المزمن مذكور سببًا لارتفاع `ALP`.",
+    "options": [
+     [
+      "Sugar",
+      "السكّر"
+     ],
+     [
+      "Caffeine",
+      "الكافيين"
+     ],
+     [
+      "Alcohol",
+      "الكحول"
+     ],
+     [
+      "Iron",
+      "الحديد"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Chronic alcohol ingestion increases ALP.",
+    "note_ar": "يرفع تناول الكحول المزمن مستوى ALP."
+   },
+   {
+    "topic_en": "Causes of decreased ALP",
+    "topic_ar": "أسباب انخفاض ALP"
+   },
+   {
+    "en": "Which endocrine condition causes DECREASED ALP?",
+    "ar": "أيّ حالة صمّاوية تسبّب انخفاض `ALP`؟",
+    "options": [
+     [
+      "Addison disease",
+      "داء أديسون"
+     ],
+     [
+      "Hypothyroidism",
+      "قصور الدرقية"
+     ],
+     [
+      "Diabetes mellitus",
+      "الداء السكّري"
+     ],
+     [
+      "Hyperparathyroidism and hyperthyroidism",
+      "فرط نشاط جارات الدرقية وفرط نشاط الدرقية"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Decreased ALP: hyperparathyroidism and hyperthyroidism.",
+    "note_ar": "ينخفض ALP في: فرط نشاط جارات الدرقية وفرط نشاط الدرقية."
+   },
+   {
+    "en": "Which cardiopulmonary condition is listed as DECREASING ALP?",
+    "ar": "أيّ حالة قلبية-رئوية مذكورة تخفض `ALP`؟",
+    "options": [
+     [
+      "Pulmonary and myocardial infarctions",
+      "الاحتشاء الرئوي والاحتشاء القلبي"
+     ],
+     [
+      "Myocardial infarction increases it",
+      "الاحتشاء القلبي يرفعه"
+     ],
+     [
+      "Hypertension",
+      "ارتفاع الضغط"
+     ],
+     [
+      "Anemia",
+      "فقر الدم"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Decreased ALP: pulmonary and myocardial infarctions.",
+    "note_ar": "ينخفض ALP في: الاحتشاء الرئوي والاحتشاء القلبي."
+   },
+   {
+    "en": "A nutritional deficiency of which minerals DECREASES ALP?",
+    "ar": "عوز أيّ المعدنين (تغذويًا) يخفض `ALP`؟",
+    "options": [
+     [
+      "Iron and copper",
+      "الحديد والنحاس"
+     ],
+     [
+      "Sodium and potassium",
+      "الصوديوم والبوتاسيوم"
+     ],
+     [
+      "Magnesium and zinc",
+      "المغنيسيوم والزنك"
+     ],
+     [
+      "Calcium and phosphate",
+      "الكالسيوم والفوسفات"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Decreased ALP: magnesium and zinc deficiency (nutritional).",
+    "note_ar": "ينخفض ALP في: عوز المغنيسيوم والزنك (تغذويًا)."
+   },
+   {
+    "en": "Which gastrointestinal condition is listed as DECREASING ALP?",
+    "ar": "أيّ حالة هضمية مذكورة تخفض `ALP`؟",
+    "options": [
+     [
+      "Appendicitis",
+      "التهاب الزائدة"
+     ],
+     [
+      "Ulcerative colitis and peptic ulcer",
+      "التهاب القولون التقرّحي والقرحة الهضمية"
+     ],
+     [
+      "Gastritis only",
+      "التهاب المعدة فقط"
+     ],
+     [
+      "Hepatitis",
+      "التهاب الكبد"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Decreased ALP: ulcerative colitis, peptic ulcer.",
+    "note_ar": "ينخفض ALP في: التهاب القولون التقرّحي والقرحة الهضمية."
+   },
+   {
+    "en": "Chronic ___ failure is listed as a cause of DECREASED ALP.",
+    "ar": "فشل ___ المزمن مذكور سببًا لانخفاض `ALP`.",
+    "options": [
+     [
+      "Respiratory",
+      "تنفّسي"
+     ],
+     [
+      "Heart",
+      "قلبي"
+     ],
+     [
+      "Renal",
+      "كلوي"
+     ],
+     [
+      "Hepatic",
+      "كبدي"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Decreased ALP: chronic renal failure (also cancer of lung or pancreas).",
+    "note_ar": "ينخفض ALP في: الفشل الكلوي المزمن (وكذلك سرطان الرئة أو البنكرياس)."
+   },
+   {
+    "topic_en": "Sample and stability (exam T/F points)",
+    "topic_ar": "العيّنة والثبات (نقاط صح/خطأ الامتحانية)"
+   },
+   {
+    "en": "The sample used for the ALP test is:",
+    "ar": "العيّنة المستعملة لفحص `ALP` هي:",
+    "options": [
+     [
+      "Serum or plasma",
+      "المصل أو البلازما"
+     ],
+     [
+      "Whole blood only",
+      "الدم الكامل فقط"
+     ],
+     [
+      "Urine",
+      "البول"
+     ],
+     [
+      "CSF",
+      "السائل الدماغي الشوكي"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Sample: serum or plasma.",
+    "note_ar": "العيّنة: المصل أو البلازما."
+   },
+   {
+    "en": "At room temperature and in refrigerated storage, ALP levels:",
+    "ar": "في حرارة الغرفة وفي الحفظ المبرّد، مستويات `ALP`:",
+    "options": [
+     [
+      "Become zero",
+      "تصبح صفرًا"
+     ],
+     [
+      "Decrease",
+      "تنخفض"
+     ],
+     [
+      "Stay exactly the same",
+      "تبقى كما هي تمامًا"
+     ],
+     [
+      "Increase (so testing should be done the same day)",
+      "ترتفع (لذا يجب الفحص في اليوم نفسه)"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "ALP levels increase at room temperature and in refrigerated storage; testing should be done the same day.",
+    "note_ar": "ترتفع مستويات ALP في حرارة الغرفة وفي الحفظ المبرّد؛ لذا يجب إجراء الفحص في اليوم نفسه."
+   },
+   {
+    "en": "If the blood is anticoagulated, the ALP level:",
+    "ar": "إذا مُنع تخثّر الدم (مضاد تخثّر)، فإن مستوى `ALP`:",
+    "options": [
+     [
+      "Increases",
+      "يرتفع"
+     ],
+     [
+      "Decreases",
+      "ينخفض"
+     ],
+     [
+      "Doubles",
+      "يتضاعف"
+     ],
+     [
+      "Is unaffected",
+      "لا يتأثّر"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "ALP levels decrease if blood is anticoagulated.",
+    "note_ar": "ينخفض مستوى ALP إذا مُنع تخثّر الدم بمضاد تخثّر."
+   },
+   {
+    "en": "After fatty meals, the ALP level:",
+    "ar": "بعد الوجبات الدهنية، مستوى `ALP`:",
+    "options": [
+     [
+      "Increases",
+      "يرتفع"
+     ],
+     [
+      "Decreases",
+      "ينخفض"
+     ],
+     [
+      "Is unaffected",
+      "لا يتأثّر"
+     ],
+     [
+      "Falls to zero",
+      "ينزل إلى الصفر"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "ALP levels increase after fatty meals.",
+    "note_ar": "يرتفع مستوى ALP بعد الوجبات الدهنية."
+   },
+   {
+    "topic_en": "Principle, procedure and calculation",
+    "topic_ar": "المبدأ والإجراء والحساب"
+   },
+   {
+    "en": "In the ALP assay principle, the substrate p-nitrophenylphosphate + H₂O is converted to:",
+    "ar": "في مبدأ فحص `ALP`، تتحوّل المادة `p`-نيتروفينيل فوسفات + `H`₂`O` إلى:",
+    "options": [
+     [
+      "Glucose + water",
+      "غلوكوز + ماء"
+     ],
+     [
+      "Pyruvate + lactate",
+      "بيروفات + لاكتات"
+     ],
+     [
+      "Oxaloacetate + malate",
+      "أوكسالوأسيتات + مالات"
+     ],
+     [
+      "Phosphate + p-nitrophenol",
+      "فوسفات + `p`-نيتروفينول"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Principle: p-nitrophenylphosphate + H₂O → phosphate + p-nitrophenol.",
+    "note_ar": "المبدأ: p-نيتروفينيل فوسفات + H₂O ← فوسفات + p-نيتروفينول."
+   },
+   {
+    "en": "The colored product measured in the ALP reaction is:",
+    "ar": "النّاتج المُقاس في تفاعل `ALP` هو:",
+    "options": [
+     [
+      "p-nitrophenylphosphate",
+      "`p`-نيتروفينيل فوسفات"
+     ],
+     [
+      "p-nitrophenol",
+      "`p`-نيتروفينول"
+     ],
+     [
+      "NADH",
+      "NADH"
+     ],
+     [
+      "Oxaloacetate",
+      "أوكسالوأسيتات"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "ALP releases p-nitrophenol (plus phosphate) from p-nitrophenylphosphate; p-nitrophenol is followed.",
+    "note_ar": "يُحرّر ALP الـ p-نيتروفينول (مع الفوسفات) من p-نيتروفينيل فوسفات؛ ويُتابَع p-نيتروفينول."
+   },
+   {
+    "en": "In the ALP procedure, the volume of SAMPLE is:",
+    "ar": "في إجراء `ALP`، حجم العيّنة هو:",
+    "options": [
+     [
+      "250 µL",
+      "`250 µL`"
+     ],
+     [
+      "100 µL",
+      "`100 µL`"
+     ],
+     [
+      "20 µL",
+      "`20 µL`"
+     ],
+     [
+      "1000 µL",
+      "`1000 µL`"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Procedure: sample 20 µL, buffer (BUF) 1000 µL, mix and incubate 1 min, then substrate (SUB) 250 µL.",
+    "note_ar": "الإجراء: العيّنة 20 µL، والمحلول المنظّم (BUF) 1000 µL، يُمزج ويُحضَن دقيقة، ثم المادة (SUB) 250 µL."
+   },
+   {
+    "en": "In the ALP procedure, the volume of BUFFER (BUF) is:",
+    "ar": "في إجراء `ALP`، حجم المحلول المنظّم `(BUF)` هو:",
+    "options": [
+     [
+      "1000 µL",
+      "`1000 µL`"
+     ],
+     [
+      "20 µL",
+      "`20 µL`"
+     ],
+     [
+      "250 µL",
+      "`250 µL`"
+     ],
+     [
+      "100 µL",
+      "`100 µL`"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Buffer (BUF) = 1000 µL.",
+    "note_ar": "المحلول المنظّم (BUF) = 1000 µL."
+   },
+   {
+    "en": "In the ALP procedure, the volume of SUBSTRATE (SUB) is:",
+    "ar": "في إجراء `ALP`، حجم المادة `(SUB)` هو:",
+    "options": [
+     [
+      "20 µL",
+      "`20 µL`"
+     ],
+     [
+      "250 µL",
+      "`250 µL`"
+     ],
+     [
+      "1000 µL",
+      "`1000 µL`"
+     ],
+     [
+      "500 µL",
+      "`500 µL`"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Substrate (SUB) = 250 µL; after adding it, mix and read the absorbance after 1 min, then again after 1, 2 and 3 min.",
+    "note_ar": "المادة (SUB) = 250 µL؛ وبعد إضافتها يُمزج وتُقرأ الامتصاصية بعد دقيقة، ثم تُعاد القراءة بعد 1 و2 و3 دقائق."
+   },
+   {
+    "en": "The ALP activity is calculated as:",
+    "ar": "يُحسب نشاط `ALP` بالعلاقة:",
+    "options": [
+     [
+      "U/L = ΔA/min × 340",
+      "`U/L = ΔA/min × 340`"
+     ],
+     [
+      "U/L = ΔA/min × 1745",
+      "`U/L = ΔA/min × 1745`"
+     ],
+     [
+      "U/L = ΔA/min × 3433",
+      "`U/L = ΔA/min × 3433`"
+     ],
+     [
+      "U/L = ΔA/min ÷ 3433",
+      "`U/L = ΔA/min ÷ 3433`"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "ALP activity: U/L = ΔA/min × 3433 (note: the transaminases ALT/AST use ×1745).",
+    "note_ar": "نشاط ALP: U/L = ΔA/min × 3433 (ملاحظة: ناقلات الأمين ALT/AST تستعمل ×1745)."
+   }
+  ],
+  "tf": [],
+  "traps": [],
+  "important": [
+   {
+    "en": "State the origin of ALP, why it is called “alkaline”, and what it is used to index.",
+    "ar": "اذكر مصدر `ALP`، ولماذا يُسمّى «قاعديًا»، وعلامَ يُستعمل دليلًا.",
+    "answer_en": "Alkaline phosphatase originates mainly in bone, liver and placenta, with some activity in the kidney and intestines. It is called alkaline because it functions best at a pH of 9. Its levels are age and gender dependent, and it is used as an index of liver and bone disease when correlated with other clinical findings.",
+    "answer_ar": "ينشأ الفوسفاتيز القاعدي أساسًا في العظم والكبد والمشيمة، مع بعض الفعالية في الكلية والأمعاء. ويُسمّى قاعديًا لأنه يعمل أفضل ما يكون عند أسّ هيدروجيني 9. ومستوياته تعتمد على العمر والجنس، ويُستعمل دليلًا على أمراض الكبد والعظم عند ربطه بالموجودات السريرية الأخرى."
+   },
+   {
+    "en": "Explain the behaviour of ALP in bone disease versus liver disease.",
+    "ar": "اشرح سلوك `ALP` في مرض العظم مقابل مرض الكبد.",
+    "answer_en": "In bone disease, the enzyme level rises in proportion to new bone cell production resulting from osteoplastic activity and the deposit of calcium in the bones. In liver disease, the blood level rises when excretion of the enzyme is impaired as a result of obstruction in the biliary tract. Used alone, alkaline phosphatase may be misleading.",
+    "answer_ar": "في مرض العظم يرتفع مستوى الإنزيم بتناسب مع إنتاج خلايا عظمية جديدة الناتج عن الفعالية البانية للعظم وترسيب الكالسيوم في العظام. وفي مرض الكبد يرتفع المستوى في الدم عندما يختلّ طرح الإنزيم نتيجة انسداد في القناة الصفراوية. وعند استعماله وحده قد يكون مضلِّلًا."
+   },
+   {
+    "en": "Give the normal ALP reference values for females and males by age.",
+    "ar": "اذكر القيم المرجعية الطبيعية لـ `ALP` للإناث والذكور حسب العمر.",
+    "answer_en": "Females — 1–12 years: <350 U/L; >15 years: 25–100 U/L. Males — 1–12 years: <350 U/L; 12–14 years: <500 U/L; >20 years: 25–100 U/L.",
+    "answer_ar": "الإناث — 1–12 سنة: <`350 U/L`؛ وفوق 15 سنة: 25–`100 U/L`. الذكور — 1–12 سنة: <`350 U/L`؛ و12–14 سنة: <`500 U/L`؛ وفوق 20 سنة: 25–`100 U/L`."
+   },
+   {
+    "en": "Marked by the student (“memorize how many causes for each”): list the causes of INCREASED ALP and group them.",
+    "ar": "مؤشَّر بالطالب («كل وحدة نحفظ كم سبب»): عدّد أسباب ارتفاع `ALP` وصنّفها.",
+    "answer_en": "Increased ALP (4 groups): (a) Liver disease — obstructive jaundice, hepatic carcinoma, hepatocellular cirrhosis, hepatitis, infectious mononucleosis; (b) Diabetes mellitus and diabetic hepatic lipidosis; (c) Chronic alcohol ingestion; (d) Bone disease — metastatic bone tumor, osteogenic sarcoma, and osteomalacia.",
+    "answer_ar": "يرتفع `ALP (4` مجموعات): (أ) أمراض الكبد — اليرقان الانسدادي، وسرطان الكبد، وتشمّع خلايا الكبد، والتهاب الكبد، وكثرة الوحيدات العدوائية؛ (ب) الداء السكّري والشحام الكبدي السكّري؛ (ج) تناول الكحول المزمن؛ (د) أمراض العظم — ورم العظم النقيلي، والساركومة العظمية المنشأ، وتليّن العظام."
+   },
+   {
+    "en": "Marked by the student (“memorize how many causes for each”): list the causes of DECREASED ALP.",
+    "ar": "مؤشَّر بالطالب («كل وحدة نحفظ كم سبب»): عدّد أسباب انخفاض `ALP`.",
+    "answer_en": "Decreased ALP: (a) hyperparathyroidism and hyperthyroidism; (b) pulmonary and myocardial infarctions; (c) cancer of lung or pancreas; (d) ulcerative colitis and peptic ulcer; (e) chronic renal failure; (f) magnesium and zinc deficiency (nutritional), and others.",
+    "answer_ar": "ينخفض `ALP` في: (أ) فرط نشاط جارات الدرقية وفرط نشاط الدرقية؛ (ب) الاحتشاء الرئوي والاحتشاء القلبي؛ (ج) سرطان الرئة أو البنكرياس؛ (د) التهاب القولون التقرّحي والقرحة الهضمية؛ (هـ) الفشل الكلوي المزمن؛ (و) عوز المغنيسيوم والزنك (تغذويًا) وغيرها."
+   },
+   {
+    "en": "Marked by the student (T/F points): how do storage/temperature, anticoagulant, and fatty meals affect ALP, and what does this mean for testing?",
+    "ar": "مؤشَّر بالطالب (نقاط صح/خطأ): كيف تؤثّر الحفظ/الحرارة ومضاد التخثّر والوجبات الدهنية في `ALP`، وماذا يعني ذلك للفحص؟",
+    "answer_en": "ALP levels INCREASE at room temperature and in refrigerated storage, so testing should be done the same day. ALP levels DECREASE if the blood is anticoagulated. ALP levels INCREASE after fatty meals. Therefore use a fresh serum/plasma sample, avoid anticoagulant interference, and consider recent fatty meals when interpreting the result.",
+    "answer_ar": "ترتفع مستويات `ALP` في حرارة الغرفة وفي الحفظ المبرّد، لذا يجب إجراء الفحص في اليوم نفسه. وتنخفض إذا مُنع تخثّر الدم بمضاد تخثّر. وترتفع بعد الوجبات الدهنية. لذا تُستعمل عيّنة مصل/بلازما طازجة، ويُتجنّب تداخل مضاد التخثّر، ويُراعى تناول وجبة دهنية حديثة عند تفسير النتيجة."
+   },
+   {
+    "en": "State the sample used and write the principle reaction of the ALP assay.",
+    "ar": "اذكر العيّنة المستعملة واكتب تفاعل مبدأ فحص `ALP`.",
+    "answer_en": "Sample: serum or plasma. Principle: p-nitrophenylphosphate + H₂O → phosphate + p-nitrophenol (ALP releases p-nitrophenol, which is followed spectrophotometrically).",
+    "answer_ar": "العيّنة: المصل أو البلازما. المبدأ: `p`-نيتروفينيل فوسفات + `H`₂`O` ← فوسفات + `p`-نيتروفينول (يُحرّر `ALP` الـ `p`-نيتروفينول الذي يُتابَع طيفيًا)."
+   },
+   {
+    "en": "Describe the ALP procedure (volumes and reading) and its calculation.",
+    "ar": "صِف إجراء `ALP` (الأحجام والقراءة) وطريقة حسابه.",
+    "answer_en": "Procedure (with starter reagent): sample 20 µL + buffer (BUF) 1000 µL, mix and incubate 1 min; then add substrate (SUB) 250 µL, mix, read the absorbance after 1 min and again after 1, 2 and 3 min. Calculation: ALP activity (U/L) = ΔA/min × 3433.",
+    "answer_ar": "الإجراء (بكاشف بادئ): العيّنة 20 µ`L` + المحلول المنظّم `(BUF) 1000` µ`L`، يُمزج ويُحضَن دقيقة؛ ثم تُضاف المادة `(SUB) 250` µ`L`، يُمزج، وتُقرأ الامتصاصية بعد دقيقة ثم بعد 1 و2 و3 دقائق. والحساب: نشاط `ALP (U/L)` = Δ`A/min × 3433`."
+   },
+   {
+    "en": "Why may alkaline phosphatase be misleading when used alone, and what improves its diagnostic value?",
+    "ar": "لماذا قد يكون الفوسفاتيز القاعدي مضلِّلًا عند استعماله وحده، وما الذي يحسّن قيمته التشخيصية؟",
+    "answer_en": "ALP rises in both liver and bone disease (and in pregnancy/growth because of placental and bone sources), so a high value alone does not localize the problem. It becomes useful when correlated with other clinical findings and tests (e.g. other liver enzymes, bilirubin, calcium/phosphate, clinical picture).",
+    "answer_ar": "يرتفع `ALP` في مرض الكبد ومرض العظم معًا (وفي الحمل/النمو بسبب المصدرين المشيمي والعظمي)، فالقيمة المرتفعة وحدها لا تحدّد موضع المشكلة. ويصبح مفيدًا عند ربطه بالموجودات والفحوص السريرية الأخرى (مثل إنزيمات الكبد الأخرى، والبيليروبين، والكالسيوم/الفوسفات، والصورة السريرية)."
+   },
+   {
+    "en": "Marked by the student: why does the ALP calculation use ×3433 while the transaminases use ×1745?",
+    "ar": "مؤشَّر بالطالب: لماذا يستعمل حساب `ALP ×3433` بينما تستعمل ناقلات الأمين ×1745؟",
+    "answer_en": "The multiplication factor is a method/assay-specific constant that converts the measured change in absorbance per minute (ΔA/min) into enzyme activity in U/L; it depends on the molar absorptivity of the product followed, the wavelength, the light path and the sample/reagent volumes. ALP (following p-nitrophenol) uses ×3433, whereas the NADH-coupled transaminase methods (ALT/AST) use ×1745.",
+    "answer_ar": "معامل الضرب ثابت خاص بالطريقة/الفحص يحوّل التغيّر المقاس في الامتصاصية بالدقيقة (Δ`A/min`) إلى نشاط إنزيمي بوحدة `U/L`؛ ويعتمد على الامتصاصية المولارية للناتج المتابَع، والطول الموجي، ومسار الضوء، وأحجام العيّنة والكاشف. فـ `ALP` (بمتابعة `p`-نيتروفينول) يستعمل ×3433، بينما طرائق ناقلات الأمين المقترنة بـ `NADH (ALT/AST)` تستعمل ×1745."
+   }
+  ]
+ }
+}
