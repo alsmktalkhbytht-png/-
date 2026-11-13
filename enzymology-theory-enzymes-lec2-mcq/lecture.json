@@ -1,0 +1,1213 @@
+{
+ "meta": {
+  "subject_en": "Clinical Enzymology",
+  "subject_ar": "الإنزيمات السريرية",
+  "short_ar": "انزيمات سريرية",
+  "instructor": "د. حسين محمود",
+  "unit_en": "Lecture 2",
+  "unit_ar": "المحاضرة 2",
+  "unit_label": "LEC",
+  "unit_no": "2",
+  "title_en": "Enzymes — Kinetics & Inhibitors",
+  "title_ar": "الإنزيمات — الحركية والمثبّطات",
+  "kind": "Theory — نظري",
+  "stage": "The fourth stage — الرابعة",
+  "file_name": "BIOS - انزيمات سريرية نظري - الإنزيمات محاضرة 2 - بنك أسئلة شامل"
+ },
+ "questions": {
+  "title_en": "Enzymes — Kinetics & Inhibitors (Lecture 2) — Comprehensive Questions (MCQ + SA)",
+  "title_ar": "الإنزيمات — الحركية والمثبّطات (المحاضرة 2) — أسئلة شاملة (اختيار + مقالية)",
+  "answers_inline": true,
+  "mcq": [
+   {
+    "topic_en": "Michaelis-Menten reaction model",
+    "topic_ar": "نموذج تفاعل ميكايليس-منتن"
+   },
+   {
+    "en": "In the Michaelis-Menten model, the enzyme E reversibly combines with the substrate S to form:",
+    "ar": "في نموذج ميكايليس-منتن، يتّحد الإنزيم `E` عكوسًا مع المادة `S` ليكوّن:",
+    "options": [
+     [
+      "An ES complex that breaks down to product P",
+      "معقّد `ES` يتفكّك إلى الناتج `P`"
+     ],
+     [
+      "A permanent EI complex",
+      "معقّد `EI` دائم"
+     ],
+     [
+      "Only product with no complex",
+      "ناتجًا فقط بلا معقّد"
+     ],
+     [
+      "Two substrates",
+      "مادتين"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "E reversibly combines with S to form an ES complex that subsequently breaks down to product P, regenerating the free enzyme.",
+    "note_ar": "يتّحد E عكوسًا مع S ليكوّن معقّد ES يتفكّك بعدها إلى الناتج P، مع تجديد الإنزيم الحر."
+   },
+   {
+    "en": "The Michaelis-Menten reaction model is represented as:",
+    "ar": "يُمثَّل نموذج تفاعل ميكايليس-منتن بـ:",
+    "options": [
+     [
+      "E + P → ES → E + S",
+      "`E + P → ES → E + S`"
+     ],
+     [
+      "E + S ⇌ ES → E + P",
+      "`E + S ⇌ ES → E + P`"
+     ],
+     [
+      "S → P directly",
+      "`S` → `P` مباشرةً"
+     ],
+     [
+      "E → S → P",
+      "`E → S → P`"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Model: E + S ⇌ (k₁/k₋₁) ES → (k₂) E + P.",
+    "note_ar": "النموذج: E + S ⇌ (k₁/k₋₁) ES → (k₂) E + P."
+   },
+   {
+    "en": "In the Michaelis-Menten model, the enzyme is:",
+    "ar": "في نموذج ميكايليس-منتن، يكون الإنزيم:",
+    "options": [
+     [
+      "Converted to product",
+      "يتحوّل إلى ناتج"
+     ],
+     [
+      "Consumed completely",
+      "يُستهلك كليًا"
+     ],
+     [
+      "Recycled (not consumed)",
+      "يُعاد تدويره (لا يُستهلك)"
+     ],
+     [
+      "Turned into substrate",
+      "يتحوّل إلى مادة"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "The free enzyme is regenerated — the enzyme is recycled and not consumed in the reaction.",
+    "note_ar": "يُجدَّد الإنزيم الحر — فالإنزيم يُعاد تدويره ولا يُستهلك في التفاعل."
+   },
+   {
+    "en": "In the model, k₁, k₋₁ and k₂ are:",
+    "ar": "في النموذج، `k`₁ و`k`₋₁ و`k`₂ هي:",
+    "options": [
+     [
+      "Enzyme weights",
+      "أوزان إنزيم"
+     ],
+     [
+      "Concentrations",
+      "تراكيز"
+     ],
+     [
+      "Temperatures",
+      "درجات حرارة"
+     ],
+     [
+      "Rate constants",
+      "ثوابت سرعة"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "k₁, k₋₁ and k₂ are rate constants: k₁ = binding (E+S→ES), k₋₁ = ES→E+S, k₂ = catalysis (ES→E+P).",
+    "note_ar": "k₁ وk₋₁ وk₂ ثوابت سرعة: k₁ = الارتباط (E+S→ES)، وk₋₁ = ES→E+S، وk₂ = التحفيز (ES→E+P)."
+   },
+   {
+    "en": "The rate constant k₂ represents the step of:",
+    "ar": "ثابت السرعة `k`₂ يمثّل خطوة:",
+    "options": [
+     [
+      "Binding of E and S",
+      "ارتباط `E` و`S`"
+     ],
+     [
+      "Catalysis — breakdown of ES to E + P (product formation)",
+      "التحفيز — تفكّك `ES` إلى `E + P` (تكوين الناتج)"
+     ],
+     [
+      "Dissociation of ES back to E + S",
+      "تفكّك `ES` رجوعًا إلى `E + S`"
+     ],
+     [
+      "Enzyme denaturation",
+      "تمسّخ الإنزيم"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "k₂ = catalysis: ES → E + P (product formation); k₁ = binding; k₋₁ = ES returning to E + S.",
+    "note_ar": "k₂ = التحفيز: ES → E + P (تكوين الناتج)؛ وk₁ = الارتباط؛ وk₋₁ = رجوع ES إلى E + S."
+   },
+   {
+    "topic_en": "The Michaelis-Menten equation",
+    "topic_ar": "معادلة ميكايليس-منتن"
+   },
+   {
+    "en": "The Michaelis-Menten equation is:",
+    "ar": "معادلة ميكايليس-منتن هي:",
+    "options": [
+     [
+      "v₀ = Vmax + Km[S]",
+      "`v₀ = Vmax + Km[S]`"
+     ],
+     [
+      "v₀ = Km[S] / (Vmax + [S])",
+      "`v₀ = Km[S] / (Vmax + [S])`"
+     ],
+     [
+      "v₀ = Vmax[S] / (Km + [S])",
+      "`v₀ = Vmax[S] / (Km + [S])`"
+     ],
+     [
+      "v₀ = [S] / (Vmax·Km)",
+      "`v₀ = [S] / (Vmax·Km)`"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "The Michaelis-Menten equation: v₀ = Vmax[S] / (Km + [S]) — it describes how reaction velocity varies with substrate concentration.",
+    "note_ar": "معادلة ميكايليس-منتن: v₀ = Vmax[S] / (Km + [S]) — تصف كيف تتغيّر سرعة التفاعل مع تركيز المادة."
+   },
+   {
+    "en": "In the Michaelis-Menten equation, v₀ is:",
+    "ar": "في معادلة ميكايليس-منتن، `v`₀ هي:",
+    "options": [
+     [
+      "The initial reaction velocity",
+      "سرعة التفاعل الابتدائية"
+     ],
+     [
+      "The maximal velocity",
+      "السرعة القصوى"
+     ],
+     [
+      "The Michaelis constant",
+      "ثابت ميكايليس"
+     ],
+     [
+      "The substrate concentration",
+      "تركيز المادة"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "v₀ = initial reaction velocity; Vmax = maximal velocity; Km = Michaelis constant; [S] = substrate concentration.",
+    "note_ar": "v₀ = سرعة التفاعل الابتدائية؛ وVmax = السرعة القصوى؛ وKm = ثابت ميكايليس؛ و[S] = تركيز المادة."
+   },
+   {
+    "en": "The Michaelis constant (Km) is equal to:",
+    "ar": "ثابت ميكايليس `(Km)` يساوي:",
+    "options": [
+     [
+      "k₂ − k₁",
+      "`k₂ − k₁`"
+     ],
+     [
+      "k₁ / (k₋₁ + k₂)",
+      "`k₁ / (k₋₁ + k₂)`"
+     ],
+     [
+      "k₁ × k₂",
+      "`k₁ × k₂`"
+     ],
+     [
+      "(k₋₁ + k₂) / k₁",
+      "`(k₋₁ + k₂) / k₁`"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Km = (k₋₁ + k₂) / k₁.",
+    "note_ar": "Km = (k₋₁ + k₂) / k₁."
+   },
+   {
+    "en": "When v₀ is plotted against [S] in the Michaelis-Menten equation, the curve obtained is:",
+    "ar": "عند رسم `v`₀ مقابل [`S`] في معادلة ميكايليس-منتن، يكون المنحنى الناتج:",
+    "options": [
+     [
+      "Sigmoidal",
+      "سينيًا `(sigmoidal)`"
+     ],
+     [
+      "A straight line",
+      "خطًا مستقيمًا"
+     ],
+     [
+      "Hyperbolic",
+      "قطعًا زائدًا `(hyperbolic)`"
+     ],
+     [
+      "A circle",
+      "دائرة"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Plotting v₀ against [S] gives a hyperbolic curve.",
+    "note_ar": "يعطي رسم v₀ مقابل [S] منحنى قطع زائد."
+   },
+   {
+    "en": "When the substrate concentration [S] equals Km, the reaction velocity v₀ equals:",
+    "ar": "عندما يساوي تركيز المادة [`S`] قيمة `Km`، تكون سرعة التفاعل `v`₀ مساوية:",
+    "options": [
+     [
+      "Vmax",
+      "Vmax"
+     ],
+     [
+      "½ Vmax",
+      "`½ Vmax`"
+     ],
+     [
+      "2 Vmax",
+      "`2 Vmax`"
+     ],
+     [
+      "Zero",
+      "صفرًا"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "When Km = [S], v₀ = Vmax[S]/([S]+[S]) = ½Vmax; this value is usually involved inside the cell (in vivo).",
+    "note_ar": "عندما Km = [S]، تكون v₀ = Vmax[S]/([S]+[S]) = ½Vmax؛ وهذه القيمة عادةً داخل الخلية (في الجسم الحي)."
+   },
+   {
+    "topic_en": "Assumptions & Km (affinity)",
+    "topic_ar": "الفرضيات وثابت Km (الألفة)"
+   },
+   {
+    "en": "One assumption in deriving the Michaelis-Menten equation about the relative concentrations of E and S is:",
+    "ar": "من فرضيات اشتقاق معادلة ميكايليس-منتن عن تركيزي `E` و`S` النسبيين:",
+    "options": [
+     [
+      "[S] >> [E]",
+      "`[S] >> [E]`"
+     ],
+     [
+      "[E] >> [S]",
+      "`[E] >> [S]`"
+     ],
+     [
+      "[E] = [S]",
+      "`[E] = [S]`"
+     ],
+     [
+      "[S] = 0",
+      "`[S] = 0`"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "[S] >> [E], so the percentage of total substrate bound to enzyme at any one time is small.",
+    "note_ar": "[S] >> [E]، فتكون نسبة المادة الكلية المرتبطة بالإنزيم في أيّ لحظة صغيرة."
+   },
+   {
+    "en": "The steady-state assumption means that:",
+    "ar": "تعني فرضية الحالة المستقرّة أن:",
+    "options": [
+     [
+      "the enzyme is consumed",
+      "الإنزيم يُستهلك"
+     ],
+     [
+      "[ES] always increases",
+      "[`ES`] يزداد دائمًا"
+     ],
+     [
+      "[ES] is zero",
+      "[`ES`] يساوي صفرًا"
+     ],
+     [
+      "[ES] does not change with time (rate of ES formation = rate of ES breakdown)",
+      "[`ES`] لا يتغيّر مع الزمن (معدّل تكوين `ES` = معدّل تفكّكه)"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Steady state: [ES] does not change with time — the rate of formation of ES equals the rate of its breakdown (an intermediate is in steady state when synthesis = degradation).",
+    "note_ar": "الحالة المستقرّة: [ES] لا يتغيّر مع الزمن — معدّل تكوين ES يساوي معدّل تفكّكه (الوسيط في حالة مستقرّة عندما يتساوى بناؤه مع تحلّله)."
+   },
+   {
+    "en": "Initial velocity is used in analyzing enzyme reactions because at that time:",
+    "ar": "تُستعمل السرعة الابتدائية في تحليل تفاعلات الإنزيم لأنه عندها:",
+    "options": [
+     [
+      "The substrate is zero",
+      "المادة معدومة"
+     ],
+     [
+      "The enzyme is denatured",
+      "الإنزيم متمسّخ"
+     ],
+     [
+      "Product is very small, so the back reaction P → S can be ignored",
+      "الناتج قليل جدًا، فيُهمَل التفاعل العكسي `P` → `S`"
+     ],
+     [
+      "Vmax is reached",
+      "بلغت `Vmax`"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Initial velocity: the rate is measured as soon as enzyme and substrate are mixed; product is very small, so the back reaction from P to S can be ignored.",
+    "note_ar": "السرعة الابتدائية: يُقاس المعدّل فور خلط الإنزيم والمادة؛ والناتج قليل جدًا فيُهمَل التفاعل العكسي من P إلى S."
+   },
+   {
+    "en": "The Michaelis constant (Km) reflects the:",
+    "ar": "يعكس ثابت ميكايليس `(Km)`:",
+    "options": [
+     [
+      "Affinity of the enzyme for its substrate",
+      "ألفة الإنزيم لمادته"
+     ],
+     [
+      "Weight of the enzyme",
+      "وزن الإنزيم"
+     ],
+     [
+      "Color of the product",
+      "لون الناتج"
+     ],
+     [
+      "Temperature of the reaction",
+      "حرارة التفاعل"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Km reflects the affinity of the enzyme for its substrate.",
+    "note_ar": "يعكس Km ألفة الإنزيم لمادته."
+   },
+   {
+    "en": "A SMALL Km (k₁ is large) means:",
+    "ar": "`Km` الصغير (و`k`₁ كبير) يعني:",
+    "options": [
+     [
+      "A lower tendency to bind (low affinity)",
+      "ميلًا أقلّ للارتباط (ألفة منخفضة)"
+     ],
+     [
+      "A bigger tendency of the enzyme to bind the substrate (high affinity)",
+      "ميلًا أكبر لارتباط الإنزيم بالمادة (ألفة عالية)"
+     ],
+     [
+      "No binding at all",
+      "لا ارتباط إطلاقًا"
+     ],
+     [
+      "Denaturation",
+      "تمسّخًا"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Whenever Km is small (k₁ large), there is a bigger tendency of the enzyme binding to substrate (high affinity); a large Km means less affinity.",
+    "note_ar": "كلما كان Km صغيرًا (وk₁ كبيرًا) زاد ميل الإنزيم للارتباط بالمادة (ألفة عالية)؛ وKm الكبير يعني ألفة أقلّ."
+   },
+   {
+    "topic_en": "Relationship between V₀, [S] and Km",
+    "topic_ar": "العلاقة بين V₀ و[S] وKm"
+   },
+   {
+    "en": "When Km = [S], the Michaelis-Menten equation shows that the reaction velocity is:",
+    "ar": "عندما `Km` = [`S`]، تُظهر معادلة ميكايليس-منتن أن سرعة التفاعل:",
+    "options": [
+     [
+      "Double Vmax",
+      "ضعف `Vmax`"
+     ],
+     [
+      "Equal to Vmax",
+      "تساوي `Vmax`"
+     ],
+     [
+      "Zero",
+      "صفر"
+     ],
+     [
+      "Half of the maximum velocity (½Vmax), usually in vivo",
+      "نصف السرعة القصوى `(½Vmax)`، عادةً في الجسم الحي"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "When Km = [S]: v₀ = Vmax[S]/([S]+[S]) = ½Vmax — the initial velocity is half the maximum, a value usually involved inside the cell (in vivo).",
+    "note_ar": "عندما Km = [S]: v₀ = Vmax[S]/([S]+[S]) = ½Vmax — فالسرعة الابتدائية نصف القصوى، وهي قيمة عادةً داخل الخلية (في الجسم الحي)."
+   },
+   {
+    "en": "When Km >> [S] (Km ≥ 100[S]), the Michaelis-Menten equation becomes:",
+    "ar": "عندما `Km` >> [`S`] (`Km` ≥ 100[`S`])، تصبح معادلة ميكايليس-منتن:",
+    "options": [
+     [
+      "v₀ = Vmax",
+      "`v₀ = Vmax`"
+     ],
+     [
+      "v₀ = Vmax[S] / Km",
+      "`v₀ = Vmax[S] / Km`"
+     ],
+     [
+      "v₀ = ½Vmax",
+      "`v₀ = ½Vmax`"
+     ],
+     [
+      "v₀ = Km / [S]",
+      "`v₀ = Km / [S]`"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "When Km >> [S], the [S] in the denominator is ignored → v₀ = Vmax[S]/Km.",
+    "note_ar": "عندما Km >> [S]، يُهمَل [S] في المقام ← v₀ = Vmax[S]/Km."
+   },
+   {
+    "en": "When Km >> [S], the rate of the reaction is said to be:",
+    "ar": "عندما `Km` >> [`S`]، يُقال إن معدّل التفاعل:",
+    "options": [
+     [
+      "Independent of substrate",
+      "مستقلّ عن المادة"
+     ],
+     [
+      "Zero order with respect to substrate",
+      "من الرتبة الصفرية بالنسبة للمادة"
+     ],
+     [
+      "Second order",
+      "من الرتبة الثانية"
+     ],
+     [
+      "First order with respect to substrate",
+      "من الرتبة الأولى بالنسبة للمادة"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Since Km and Vmax are constant, v₀ is a function of [S] — the cell is sensitive to any change in [S]; the rate is first order with respect to substrate.",
+    "note_ar": "بما أن Km وVmax ثابتان، فإن v₀ دالّة لـ [S] — فالخلية حسّاسة لأيّ تغيّر في [S]؛ والمعدّل من الرتبة الأولى بالنسبة للمادة."
+   },
+   {
+    "en": "When Km << [S] (100 Km ≤ [S]), the Michaelis-Menten equation becomes:",
+    "ar": "عندما `Km` << [`S`] (`100 Km` ≤ [`S`])، تصبح معادلة ميكايليس-منتن:",
+    "options": [
+     [
+      "v₀ = Vmax",
+      "`v₀ = Vmax`"
+     ],
+     [
+      "v₀ = Vmax[S] / Km",
+      "`v₀ = Vmax[S] / Km`"
+     ],
+     [
+      "v₀ = ½Vmax",
+      "`v₀ = ½Vmax`"
+     ],
+     [
+      "v₀ = 0",
+      "`v₀ = 0`"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "When Km << [S], the Km in the denominator is ignored → v₀ = Vmax[S]/[S] = Vmax.",
+    "note_ar": "عندما Km << [S]، يُهمَل Km في المقام ← v₀ = Vmax[S]/[S] = Vmax."
+   },
+   {
+    "en": "When Km << [S], the rate of the reaction is said to be:",
+    "ar": "عندما `Km` << [`S`]، يُقال إن معدّل التفاعل:",
+    "options": [
+     [
+      "Third order",
+      "من الرتبة الثالثة"
+     ],
+     [
+      "First order with respect to substrate",
+      "من الرتبة الأولى بالنسبة للمادة"
+     ],
+     [
+      "Zero order with respect to substrate (cell not sensitive to [S] changes)",
+      "من الرتبة الصفرية بالنسبة للمادة (الخلية غير حسّاسة لتغيّر [`S`])"
+     ],
+     [
+      "Dependent on [S]",
+      "معتمد على [`S`]"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "When Km << [S], v₀ = Vmax and the cell is not sensitive to any change in [S]; the rate is zero order with respect to substrate.",
+    "note_ar": "عندما Km << [S]، تكون v₀ = Vmax والخلية غير حسّاسة لأيّ تغيّر في [S]؛ والمعدّل من الرتبة الصفرية بالنسبة للمادة."
+   },
+   {
+    "topic_en": "Lineweaver-Burke plot",
+    "topic_ar": "مخطّط لاينويفر-بيرك"
+   },
+   {
+    "en": "The Lineweaver-Burke equation is obtained from the Michaelis-Menten equation by:",
+    "ar": "تُستخرَج معادلة لاينويفر-بيرك من معادلة ميكايليس-منتن عن طريق:",
+    "options": [
+     [
+      "Squaring it",
+      "تربيعها"
+     ],
+     [
+      "Taking its reciprocal (to get a straight linear equation)",
+      "أخذ مقلوبها (للحصول على معادلة خطية مستقيمة)"
+     ],
+     [
+      "Differentiating it twice",
+      "تفاضلها مرّتين"
+     ],
+     [
+      "Adding Vmax",
+      "إضافة `Vmax`"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Because the hyperbolic curve makes Km hard to determine precisely, Lineweaver and Burke took the reciprocal of the M-M equation to obtain a straight line.",
+    "note_ar": "لأن منحنى القطع الزائد يصعّب تحديد Km بدقّة، أخذ لاينويفر وبيرك مقلوب معادلة ميكايليس-منتن للحصول على خط مستقيم."
+   },
+   {
+    "en": "The Lineweaver-Burke equation is:",
+    "ar": "معادلة لاينويفر-بيرك هي:",
+    "options": [
+     [
+      "1/v₀ = (Km/Vmax)(1/[S]) + 1/Vmax",
+      "`1/v₀ = (Km/Vmax)(1/[S]) + 1/Vmax`"
+     ],
+     [
+      "v₀ = Vmax[S] + Km",
+      "`v₀ = Vmax[S] + Km`"
+     ],
+     [
+      "1/v₀ = Vmax/[S]",
+      "`1/v₀ = Vmax/[S]`"
+     ],
+     [
+      "v₀ = 1/(Km[S])",
+      "`v₀ = 1/(Km[S])`"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Lineweaver-Burke: 1/v₀ = (Km/Vmax)(1/[S]) + 1/Vmax — a straight line of 1/v₀ versus 1/[S].",
+    "note_ar": "لاينويفر-بيرك: 1/v₀ = (Km/Vmax)(1/[S]) + 1/Vmax — خط مستقيم لـ 1/v₀ مقابل 1/[S]."
+   },
+   {
+    "en": "The Lineweaver-Burke plot is also called a:",
+    "ar": "يُسمّى مخطّط لاينويفر-بيرك أيضًا:",
+    "options": [
+     [
+      "Scatchard plot",
+      "مخطّط سكاتشارد"
+     ],
+     [
+      "Hyperbolic plot",
+      "مخطّط قطع زائد"
+     ],
+     [
+      "Double-reciprocal plot",
+      "مخطّط المقلوب المزدوج"
+     ],
+     [
+      "Hill plot",
+      "مخطّط هِل"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "The Lineweaver-Burke plot is also called a double-reciprocal plot (1/v₀ versus 1/[S]).",
+    "note_ar": "يُسمّى مخطّط لاينويفر-بيرك أيضًا مخطّط المقلوب المزدوج (1/v₀ مقابل 1/[S])."
+   },
+   {
+    "en": "On the Lineweaver-Burke plot, the y-intercept (where the line meets the 1/v₀ axis) equals:",
+    "ar": "في مخطّط لاينويفر-بيرك، التقاطع مع المحور الصادي (عند محور `1/v`₀) يساوي:",
+    "options": [
+     [
+      "Vmax",
+      "Vmax"
+     ],
+     [
+      "−1/Km",
+      "`−1/Km`"
+     ],
+     [
+      "Km/Vmax",
+      "`Km/Vmax`"
+     ],
+     [
+      "1/Vmax",
+      "`1/Vmax`"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "y-intercept = 1/Vmax; x-intercept = −1/Km; slope = Km/Vmax.",
+    "note_ar": "التقاطع الصادي = 1/Vmax؛ والتقاطع السيني = −1/Km؛ والميل = Km/Vmax."
+   },
+   {
+    "en": "On the Lineweaver-Burke plot, the x-intercept equals:",
+    "ar": "في مخطّط لاينويفر-بيرك، التقاطع مع المحور السيني يساوي:",
+    "options": [
+     [
+      "−1/Km",
+      "`−1/Km`"
+     ],
+     [
+      "1/Vmax",
+      "`1/Vmax`"
+     ],
+     [
+      "Km/Vmax",
+      "`Km/Vmax`"
+     ],
+     [
+      "−Vmax",
+      "−Vmax"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "The x-intercept (on the 1/[S] axis) equals −1/Km.",
+    "note_ar": "التقاطع السيني (على محور 1/[S]) يساوي −1/Km."
+   },
+   {
+    "en": "On the Lineweaver-Burke plot, the slope equals:",
+    "ar": "في مخطّط لاينويفر-بيرك، الميل يساوي:",
+    "options": [
+     [
+      "−1/Km",
+      "`−1/Km`"
+     ],
+     [
+      "1/Vmax",
+      "`1/Vmax`"
+     ],
+     [
+      "Km/Vmax",
+      "`Km/Vmax`"
+     ],
+     [
+      "Vmax/Km",
+      "`Vmax/Km`"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "The slope of the Lineweaver-Burke line equals Km/Vmax.",
+    "note_ar": "ميل خط لاينويفر-بيرك يساوي Km/Vmax."
+   },
+   {
+    "topic_en": "Enzyme inhibitors (general)",
+    "topic_ar": "مثبّطات الإنزيم (عام)"
+   },
+   {
+    "en": "An enzyme inhibitor is best defined as a substance (compound or ion) that:",
+    "ar": "يُعرَّف مثبّط الإنزيم بأنه مادة (مركّب أو أيون):",
+    "options": [
+     [
+      "Speeds up the enzyme",
+      "تُسرّع الإنزيم"
+     ],
+     [
+      "Makes the enzyme inactive by interfering with its ability to react with substrate, slowing the velocity",
+      "تجعل الإنزيم غير فعّال بالتداخل مع قدرته على التفاعل مع المادة، فتبطّئ السرعة"
+     ],
+     [
+      "Is the normal substrate",
+      "هي المادة الطبيعية"
+     ],
+     [
+      "Is a product only",
+      "هي الناتج فقط"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "An inhibitor is a substance (compound or ion) that makes the enzyme inactive by interfering with its ability to react with a substrate, slowing the velocity of the enzyme reaction.",
+    "note_ar": "المثبّط مادة (مركّب أو أيون) تجعل الإنزيم غير فعّال بالتداخل مع قدرته على التفاعل مع المادة، فتبطّئ سرعة تفاعل الإنزيم."
+   },
+   {
+    "en": "Which is an advantage (benefit) of studying enzyme inhibitors?",
+    "ar": "أيّها فائدة من دراسة مثبّطات الإنزيم؟",
+    "options": [
+     [
+      "Raising the temperature",
+      "رفع الحرارة"
+     ],
+     [
+      "Increasing the enzyme weight",
+      "زيادة وزن الإنزيم"
+     ],
+     [
+      "Changing the substrate color",
+      "تغيير لون المادة"
+     ],
+     [
+      "Information about the active site of the enzyme",
+      "معلومات عن الموقع الفعّال للإنزيم"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Studying inhibitors gives: information about the active site, the mechanism of action, and possible regulation of physiological significance.",
+    "note_ar": "تعطي دراسة المثبّطات: معلومات عن الموقع الفعّال، وآلية العمل، وإمكان تنظيم ذي أهمية فسيولوجية."
+   },
+   {
+    "en": "Inhibitors may exert their effect on one or more of the following EXCEPT:",
+    "ar": "قد تؤثّر المثبّطات في واحد أو أكثر مما يلي ما عدا:",
+    "options": [
+     [
+      "The molecular weight of the product",
+      "الوزن الجزيئي للناتج"
+     ],
+     [
+      "The active site of the enzyme",
+      "الموقع الفعّال للإنزيم"
+     ],
+     [
+      "The apoenzyme (protein part)",
+      "الأبوإنزيم (الجزء البروتيني)"
+     ],
+     [
+      "The coenzyme or the prosthetic group",
+      "المرافق الإنزيمي أو المجموعة الاصطناعية"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Inhibitors act on: the active site, the protein part (apoenzyme), the coenzyme, or the prosthetic group.",
+    "note_ar": "تؤثّر المثبّطات في: الموقع الفعّال، والجزء البروتيني (الأبوإنزيم)، والمرافق الإنزيمي، والمجموعة الاصطناعية."
+   },
+   {
+    "en": "Enzyme inhibition is classified into:",
+    "ar": "يُصنَّف تثبيط الإنزيم إلى:",
+    "options": [
+     [
+      "Acidic and basic",
+      "حمضي وقاعدي"
+     ],
+     [
+      "Hot and cold",
+      "حار وبارد"
+     ],
+     [
+      "Reversible and irreversible",
+      "عكوس ولا عكوس"
+     ],
+     [
+      "Fast and slow only",
+      "سريع وبطيء فقط"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Inhibition is classified into reversible inhibition and irreversible inhibition.",
+    "note_ar": "يُصنَّف التثبيط إلى تثبيط عكوس وتثبيط لا عكوس."
+   },
+   {
+    "en": "Reversible inhibition interacts with the enzyme through:",
+    "ar": "يتفاعل التثبيط العكوس مع الإنزيم عبر:",
+    "options": [
+     [
+      "Removing the substrate forever",
+      "إزالة المادة نهائيًا"
+     ],
+     [
+      "Permanent covalent bonds",
+      "روابط تساهمية دائمة"
+     ],
+     [
+      "Destroying the enzyme",
+      "تدمير الإنزيم"
+     ],
+     [
+      "Noncovalent association/dissociation reactions (enzyme regains activity on dissociation)",
+      "تفاعلات ارتباط/تفكّك غير تساهمية (يستعيد الإنزيم فعاليته عند التفكّك)"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Reversible inhibition interacts through noncovalent association/dissociation reactions; the enzyme regains activity when the inhibitor dissociates (with dilution of the ES complex). There are three types.",
+    "note_ar": "يتفاعل التثبيط العكوس عبر تفاعلات ارتباط/تفكّك غير تساهمية؛ ويستعيد الإنزيم فعاليته عند تفكّك المثبّط (مع تخفيف معقّد ES). وله ثلاثة أنواع."
+   },
+   {
+    "topic_en": "Competitive inhibition",
+    "topic_ar": "التثبيط التنافسي"
+   },
+   {
+    "en": "In competitive inhibition, the inhibitor (I) and the substrate (S) compete for:",
+    "ar": "في التثبيط التنافسي، يتنافس المثبّط `(I)` والمادة `(S)` على:",
+    "options": [
+     [
+      "Binding to the ES complex only",
+      "الارتباط بمعقّد `ES` فقط"
+     ],
+     [
+      "Binding to the active site of the enzyme",
+      "الارتباط بالموقع الفعّال للإنزيم"
+     ],
+     [
+      "The product",
+      "الناتج"
+     ],
+     [
+      "The coenzyme only",
+      "المرافق الإنزيمي فقط"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Competitive inhibition: competition between the inhibitor and substrate for binding to the active site of the enzyme.",
+    "note_ar": "التثبيط التنافسي: تنافس بين المثبّط والمادة على الارتباط بالموقع الفعّال للإنزيم."
+   },
+   {
+    "en": "A competitive inhibitor may be:",
+    "ar": "قد يكون المثبّط التنافسي:",
+    "options": [
+     [
+      "Always a metal ion",
+      "أيونًا معدنيًا دائمًا"
+     ],
+     [
+      "A substrate derivative, a substance in the cell, or a reaction product",
+      "مشتقًّا من المادة، أو مادة موجودة في الخلية، أو ناتج تفاعل"
+     ],
+     [
+      "The coenzyme only",
+      "المرافق الإنزيمي فقط"
+     ],
+     [
+      "A vitamin only",
+      "فيتامينًا فقط"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "The competitive inhibitor may be a substrate derivative, or basically exist in the cell, or be another substrate, or a result of the reaction product.",
+    "note_ar": "قد يكون المثبّط التنافسي مشتقًّا من المادة، أو موجودًا أصلًا في الخلية، أو مادة أخرى، أو ناتجًا للتفاعل."
+   },
+   {
+    "en": "In competitive inhibition, compared to the Michaelis-Menten equation, Vmax is:",
+    "ar": "في التثبيط التنافسي، مقارنةً بمعادلة ميكايليس-منتن، تكون `Vmax`:",
+    "options": [
+     [
+      "Zero",
+      "صفرًا"
+     ],
+     [
+      "Decreased",
+      "منخفضة"
+     ],
+     [
+      "Increased",
+      "مرتفعة"
+     ],
+     [
+      "Unchanged (Vmax = Vmax)",
+      "غير متغيّرة `(Vmax = Vmax)`"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Vmax is unaffected by I, because the entire enzyme can still be driven into the complex form (high [S] overcomes the inhibitor).",
+    "note_ar": "لا تتأثّر Vmax بالمثبّط، لأن الإنزيم كله يمكن دفعه إلى صورة المعقّد (تركيز المادة العالي يتغلّب على المثبّط)."
+   },
+   {
+    "en": "In competitive inhibition, the apparent Michaelis constant (Km app) equals:",
+    "ar": "في التثبيط التنافسي، ثابت ميكايليس الظاهري `(Km app)` يساوي:",
+    "options": [
+     [
+      "Km − [I]/KI",
+      "`Km − [I]/KI`"
+     ],
+     [
+      "Km / (1 + [I]/KI)",
+      "`Km / (1 + [I]/KI)`"
+     ],
+     [
+      "Km(1 + [I]/KI)",
+      "`Km(1 + [I]/KI)`"
+     ],
+     [
+      "Km × KI",
+      "`Km × KI`"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Km app = Km(1 + [I]/KI), where KI is the dissociation constant of the enzyme–inhibitor (EI) complex; Km app increases as [I] increases.",
+    "note_ar": "Km app = Km(1 + [I]/KI)، حيث KI ثابت تفكّك معقّد الإنزيم-المثبّط (EI)؛ وتزداد Km app بزيادة [I]."
+   },
+   {
+    "en": "In competitive inhibition, the apparent Km (Km app) is:",
+    "ar": "في التثبيط التنافسي، يكون `Km` الظاهري `(Km app)`:",
+    "options": [
+     [
+      "Increased (Km < Km app)",
+      "مرتفعًا (`Km` < `Km app`)"
+     ],
+     [
+      "Decreased",
+      "منخفضًا"
+     ],
+     [
+      "Unchanged",
+      "غير متغيّر"
+     ],
+     [
+      "Zero",
+      "صفرًا"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Km < Km app, because Km is multiplied by (1 + [I]/KI); the higher Km app means a decreased tendency of the enzyme to bind the substrate.",
+    "note_ar": "Km < Km app، لأن Km يُضرَب في (1 + [I]/KI)؛ وارتفاع Km app يعني نقص ميل الإنزيم للارتباط بالمادة."
+   },
+   {
+    "en": "The classic example of competitive inhibition is succinate dehydrogenase (SDH) inhibited by:",
+    "ar": "المثال الكلاسيكي للتثبيط التنافسي هو نازعة هيدروجين السكسينات `(SDH)` المثبَّطة بـ:",
+    "options": [
+     [
+      "Malonate",
+      "المالونات"
+     ],
+     [
+      "Malate",
+      "المالات"
+     ],
+     [
+      "Fumarate",
+      "الفيوماريت"
+     ],
+     [
+      "Pyruvate",
+      "البيروفات"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Succinate dehydrogenase (which converts succinate ⇌ fumarate) is competitively inhibited by malonate.",
+    "note_ar": "نازعة هيدروجين السكسينات (التي تحوّل السكسينات ⇌ الفيوماريت) تُثبَّط تنافسيًا بالمالونات."
+   },
+   {
+    "en": "Malonate inhibits succinate dehydrogenase competitively because malonate:",
+    "ar": "تُثبّط المالونات نازعة هيدروجين السكسينات تنافسيًا لأنها:",
+    "options": [
+     [
+      "Is the product of the reaction",
+      "هي ناتج التفاعل"
+     ],
+     [
+      "Destroys the enzyme permanently",
+      "تدمّر الإنزيم نهائيًا"
+     ],
+     [
+      "Binds the ES complex only",
+      "ترتبط بمعقّد `ES` فقط"
+     ],
+     [
+      "Resembles succinate in structure (but has one less carbon), so it competes for the active site",
+      "تشبه السكسينات في التركيب (لكنها أنقص كربونًا)، فتنافسها على الموقع الفعّال"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Malonate’s structure resembles that of the natural substrate succinate (with one fewer carbon), so it competes with succinate for and binds the active site in its place.",
+    "note_ar": "تركيب المالونات يشبه المادة الطبيعية السكسينات (بكربون أقلّ)، فتنافس السكسينات على الموقع الفعّال وترتبط به بدلًا منها."
+   },
+   {
+    "topic_en": "Uncompetitive inhibition",
+    "topic_ar": "التثبيط غير التنافسي"
+   },
+   {
+    "en": "In uncompetitive inhibition, the inhibitor I binds reversibly with:",
+    "ar": "في التثبيط غير التنافسي، يرتبط المثبّط `I` عكوسًا بـ:",
+    "options": [
+     [
+      "The free enzyme E only",
+      "الإنزيم الحر `E` فقط"
+     ],
+     [
+      "The enzyme–substrate complex (ES) only, not free enzyme E",
+      "معقّد الإنزيم-المادة `(ES)` فقط، لا الإنزيم الحر `E`"
+     ],
+     [
+      "The product P",
+      "الناتج `P`"
+     ],
+     [
+      "The active site directly",
+      "الموقع الفعّال مباشرةً"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Uncompetitive inhibitor binds reversibly with the enzyme–substrate complex ES only (forming ESI), but not the free enzyme E.",
+    "note_ar": "يرتبط المثبّط غير التنافسي عكوسًا بمعقّد الإنزيم-المادة ES فقط (مكوّنًا ESI)، لا بالإنزيم الحر E."
+   },
+   {
+    "en": "In uncompetitive inhibition, compared to the Michaelis-Menten equation, Vmax is:",
+    "ar": "في التثبيط غير التنافسي، مقارنةً بمعادلة ميكايليس-منتن، تكون `Vmax`:",
+    "options": [
+     [
+      "Increased",
+      "مرتفعة"
+     ],
+     [
+      "Unchanged",
+      "غير متغيّرة"
+     ],
+     [
+      "Decreased (Vmax > Vmax I)",
+      "منخفضة (`Vmax` > `Vmax I`)"
+     ],
+     [
+      "Infinite",
+      "لا نهائية"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Vmax > Vmax I, because Vmax I is divided by (1 + [I]/KI), so the product (velocity) decreases.",
+    "note_ar": "Vmax > Vmax I، لأن Vmax I مقسومة على (1 + [I]/KI)، فتنقص السرعة (الناتج)."
+   },
+   {
+    "en": "In uncompetitive inhibition, the apparent Km (Km app) is:",
+    "ar": "في التثبيط غير التنافسي، يكون `Km` الظاهري `(Km app)`:",
+    "options": [
+     [
+      "Unchanged",
+      "غير متغيّر"
+     ],
+     [
+      "Increased",
+      "مرتفعًا"
+     ],
+     [
+      "Decreased (Km > Km app)",
+      "منخفضًا (`Km` > `Km app`)"
+     ],
+     [
+      "Equal to Vmax",
+      "مساويًا لـ `Vmax`"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Km > Km app, because Km app is divided by (1 + [I]/KI) — both Vmax and Km decrease.",
+    "note_ar": "Km > Km app، لأن Km app مقسومة على (1 + [I]/KI) — فتنقص Vmax وKm معًا."
+   },
+   {
+    "en": "On a Lineweaver-Burke plot, uncompetitive inhibition gives lines that are:",
+    "ar": "في مخطّط لاينويفر-بيرك، يعطي التثبيط غير التنافسي خطوطًا:",
+    "options": [
+     [
+      "Parallel",
+      "متوازية"
+     ],
+     [
+      "Intersecting on the y-axis",
+      "متقاطعة على المحور الصادي"
+     ],
+     [
+      "Perpendicular",
+      "متعامدة"
+     ],
+     [
+      "Identical",
+      "متطابقة"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Uncompetitive inhibition gives parallel lines on the Lineweaver-Burke plot (both slope relations shift so the lines stay parallel).",
+    "note_ar": "يعطي التثبيط غير التنافسي خطوطًا متوازية في مخطّط لاينويفر-بيرك."
+   },
+   {
+    "en": "Which statement correctly contrasts competitive and uncompetitive inhibition?",
+    "ar": "أيّ عبارة تقابل بصحّة بين التثبيط التنافسي وغير التنافسي؟",
+    "options": [
+     [
+      "Both bind free E and raise Vmax",
+      "كلاهما يرتبط بـ `E` الحر ويرفع `Vmax`"
+     ],
+     [
+      "Competitive: binds free E, Vmax constant, Km increases; Uncompetitive: binds ES, Vmax decreases, Km decreases",
+      "التنافسي: يرتبط بـ `E` الحر، `Vmax` ثابتة، `Km` تزيد؛ وغير التنافسي: يرتبط بـ `ES`، `Vmax` تنقص، `Km` تنقص"
+     ],
+     [
+      "Competitive lowers Vmax; uncompetitive raises it",
+      "التنافسي يخفض `Vmax` وغير التنافسي يرفعها"
+     ],
+     [
+      "Both decrease Km equally",
+      "كلاهما يخفض `Km` بالتساوي"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Competitive: inhibitor binds the free enzyme, Vmax is constant, Km increases. Uncompetitive: inhibitor binds the ES complex, Vmax decreases, Km decreases.",
+    "note_ar": "التنافسي: يرتبط المثبّط بالإنزيم الحر، وVmax ثابتة، وKm تزيد. وغير التنافسي: يرتبط بمعقّد ES، وVmax تنقص، وKm تنقص."
+   }
+  ],
+  "tf": [],
+  "traps": [],
+  "important": [
+   {
+    "en": "Describe the Michaelis-Menten reaction model and the meaning of its rate constants.",
+    "ar": "صِف نموذج تفاعل ميكايليس-منتن ومعنى ثوابت سرعته.",
+    "answer_en": "Michaelis and Menten proposed a simple model: the enzyme E reversibly combines with its substrate S to form an ES complex that subsequently breaks down to product P, regenerating the free enzyme (the enzyme is recycled, not consumed). The model is: E + S ⇌ (k₁/k₋₁) ES → (k₂) E + P, where k₁ = the binding (association) of E and S, k₋₁ = dissociation of ES back to E + S, and k₂ = catalysis (breakdown of ES to E + P).",
+    "answer_ar": "اقترح ميكايليس ومنتن نموذجًا بسيطًا: يتّحد الإنزيم `E` عكوسًا مع مادته `S` مكوّنًا معقّد `ES` يتفكّك بعدها إلى الناتج `P` مع تجديد الإنزيم الحر (فالإنزيم يُعاد تدويره ولا يُستهلك). والنموذج: `E + S` ⇌ (`k`₁/`k`₋₁) `ES` → (`k`₂) `E + P`، حيث `k`₁ = ارتباط `E` و`S`، و`k`₋₁ = تفكّك `ES` رجوعًا إلى `E + S`، و`k`₂ = التحفيز (تفكّك `ES` إلى `E + P`)."
+   },
+   {
+    "en": "Write the Michaelis-Menten equation and define each of its terms.",
+    "ar": "اكتب معادلة ميكايليس-منتن وعرّف كل حدٍّ من حدودها.",
+    "answer_en": "v₀ = Vmax[S] / (Km + [S]). v₀ = the initial reaction velocity; Vmax = the maximal velocity; Km = the Michaelis constant = (k₋₁ + k₂)/k₁; [S] = the substrate concentration. A plot of v₀ against [S] is a hyperbolic curve, and when [S] = Km, v₀ = ½Vmax.",
+    "answer_ar": "`v`₀ = `Vmax`[`S`] / (`Km` + [`S`]). حيث `v`₀ = سرعة التفاعل الابتدائية؛ و`Vmax` = السرعة القصوى؛ و`Km` = ثابت ميكايليس = (`k`₋₁ + `k`₂)/`k`₁؛ و[`S`] = تركيز المادة. ورسم `v`₀ مقابل [`S`] منحنى قطع زائد، وعندما [`S`] = `Km` تكون `v`₀ = `½Vmax`."
+   },
+   {
+    "en": "Marked by the student: what does Km represent, and how do a small Km and a large Km relate to affinity?",
+    "ar": "مؤشَّر بالطالب: ماذا يمثّل `Km`، وكيف يرتبط `Km` الصغير و`Km` الكبير بالألفة؟",
+    "answer_en": "Km (the Michaelis constant) reflects the affinity of the enzyme for its substrate. Whenever Km is small (k₁ is large), there is a bigger tendency of the enzyme to bind the substrate — high affinity. Whenever Km is large, there is a lower tendency to bind — less affinity. (Km also equals the [S] that gives half of Vmax.)",
+    "answer_ar": "يعكس `Km` (ثابت ميكايليس) ألفة الإنزيم لمادته. فكلما كان `Km` صغيرًا (و`k`₁ كبيرًا) زاد ميل الإنزيم للارتباط بالمادة — ألفة عالية. وكلما كان `Km` كبيرًا قلّ الميل للارتباط — ألفة أقلّ. (و`Km` يساوي أيضًا [`S`] الذي يعطي نصف `Vmax.`)"
+   },
+   {
+    "en": "List and explain the assumptions made in deriving the Michaelis-Menten equation.",
+    "ar": "عدّد واشرح الفرضيات المتّخذة في اشتقاق معادلة ميكايليس-منتن.",
+    "answer_en": "a) Relative concentrations of E and S: [S] >> [E], so the percentage of total substrate bound to enzyme at any time is small. b) Steady-state assumption: [ES] does not change with time — the rate of formation of ES equals the rate of its breakdown. c) Initial velocity: the rate is measured as soon as enzyme and substrate are mixed, when product is very small so the back reaction P → S can be ignored. d) The Michaelis constant (Km) reflects the affinity of the enzyme for its substrate (small Km = high affinity, and vice versa).",
+    "answer_ar": "أ) تركيزا `E` و`S` النسبيان: [`S`] >> [`E`]، فتكون نسبة المادة المرتبطة بالإنزيم في أيّ لحظة صغيرة. ب) فرضية الحالة المستقرّة: [`ES`] لا يتغيّر مع الزمن — معدّل تكوينه يساوي معدّل تفكّكه. ج) السرعة الابتدائية: يُقاس المعدّل فور خلط الإنزيم والمادة، حين يكون الناتج قليلًا جدًا فيُهمَل التفاعل العكسي `P` → `S`. د) ثابت ميكايليس `(Km)` يعكس ألفة الإنزيم لمادته (`Km` صغير = ألفة عالية، والعكس)."
+   },
+   {
+    "en": "Marked by the student: explain the three relationships between V₀, [S] and Km, and the reaction order in each.",
+    "ar": "مؤشَّر بالطالب: اشرح العلاقات الثلاث بين `V`₀ و[`S`] و`Km`، ورتبة التفاعل في كلٍّ منها.",
+    "answer_en": "1) When Km = [S]: v₀ = ½Vmax — the initial velocity is half the maximum; this value is usually involved in vivo. 2) When Km >> [S] (Km ≥ 100[S]): the [S] in the denominator is ignored → v₀ = Vmax[S]/Km; the cell is sensitive to changes in [S], so the reaction is first order with respect to substrate. 3) When Km << [S] (100 Km ≤ [S]): the Km in the denominator is ignored → v₀ = Vmax; the cell is not sensitive to changes in [S], so the reaction is zero order with respect to substrate.",
+    "answer_ar": "1) عندما `Km` = [`S`]: `v`₀ = `½Vmax` — فالسرعة الابتدائية نصف القصوى؛ وهذه القيمة عادةً في الجسم الحي. 2) عندما `Km` >> [`S`] (`Km` ≥ 100[`S`]): يُهمَل [`S`] في المقام ← `v`₀ = `Vmax`[`S`]/`Km`؛ والخلية حسّاسة لتغيّر [`S`]، فالتفاعل من الرتبة الأولى بالنسبة للمادة. 3) عندما `Km` << [`S`] (`100 Km` ≤ [`S`]): يُهمَل `Km` في المقام ← `v`₀ = `Vmax`؛ والخلية غير حسّاسة لتغيّر [`S`]، فالتفاعل من الرتبة الصفرية بالنسبة للمادة."
+   },
+   {
+    "en": "Explain the Lineweaver-Burke plot: its equation, why it is used, and the meaning of its intercepts and slope.",
+    "ar": "اشرح مخطّط لاينويفر-بيرك: معادلته، ولماذا يُستعمل، ومعنى تقاطعاته وميله.",
+    "answer_en": "Because the Michaelis-Menten plot (v₀ vs [S]) is hyperbolic, Km cannot always be determined precisely; so Lineweaver and Burke took the reciprocal of the equation to obtain a straight line: 1/v₀ = (Km/Vmax)(1/[S]) + 1/Vmax (plotting 1/v₀ versus 1/[S], also called a double-reciprocal plot). On it, the y-intercept = 1/Vmax, the x-intercept = −1/Km, and the slope = Km/Vmax.",
+    "answer_ar": "لأن مخطّط ميكايليس-منتن (`v`₀ مقابل [`S`]) قطع زائد، لا يمكن دائمًا تحديد `Km` بدقّة؛ فأخذ لاينويفر وبيرك مقلوب المعادلة للحصول على خط مستقيم: `1/v`₀ = (`Km/Vmax)(1`/[`S`]) + `1/Vmax` (برسم `1/v`₀ مقابل 1/[`S`]، ويُسمّى مخطّط المقلوب المزدوج). وفيه: التقاطع الصادي = `1/Vmax`، والتقاطع السيني = −`1/Km`، والميل = `Km/Vmax`."
+   },
+   {
+    "en": "Define an enzyme inhibitor, list the advantages of studying inhibitors, and the factors they act on.",
+    "ar": "عرّف مثبّط الإنزيم، وعدّد فوائد دراسة المثبّطات، والعوامل التي تؤثّر فيها.",
+    "answer_en": "An inhibitor is a substance (compound or ion) that makes the enzyme inactive by interfering with its ability to react with a substrate, slowing the velocity of the reaction. Advantages of studying inhibitors: 1) information about the active site, 2) the mechanism of action, 3) possible regulation of physiological significance. Inhibitors act on one or more of: the active site, the protein part (apoenzyme), the coenzyme, and the prosthetic group.",
+    "answer_ar": "المثبّط مادة (مركّب أو أيون) تجعل الإنزيم غير فعّال بالتداخل مع قدرته على التفاعل مع المادة، فتبطّئ سرعة التفاعل. وفوائد دراسة المثبّطات: 1) معلومات عن الموقع الفعّال، 2) آلية العمل، 3) إمكان تنظيم ذي أهمية فسيولوجية. وتؤثّر المثبّطات في واحد أو أكثر من: الموقع الفعّال، والجزء البروتيني (الأبوإنزيم)، والمرافق الإنزيمي، والمجموعة الاصطناعية."
+   },
+   {
+    "en": "What is reversible inhibition, and how is inhibition classified?",
+    "ar": "ما التثبيط العكوس، وكيف يُصنَّف التثبيط؟",
+    "answer_en": "Inhibition is classified into reversible and irreversible. Reversible inhibition interacts with the enzyme through noncovalent association/dissociation reactions; the enzyme regains its activity when the inhibitor dissociates (which occurs with dilution of the ES complex). There are three types of reversible inhibition (the lecture details competitive and uncompetitive).",
+    "answer_ar": "يُصنَّف التثبيط إلى عكوس ولا عكوس. والتثبيط العكوس يتفاعل مع الإنزيم عبر تفاعلات ارتباط/تفكّك غير تساهمية؛ ويستعيد الإنزيم فعاليته عند تفكّك المثبّط (الذي يحدث مع تخفيف معقّد `ES`). وللتثبيط العكوس ثلاثة أنواع (تفصّل المحاضرة التنافسي وغير التنافسي)."
+   },
+   {
+    "en": "Marked by the student: explain competitive inhibition and its effect on Vmax and Km (with the Km app relation).",
+    "ar": "مؤشَّر بالطالب: اشرح التثبيط التنافسي وأثره في `Vmax` و`Km` (مع علاقة `Km app`).",
+    "answer_en": "In competitive inhibition the inhibitor (I) competes with the substrate (S) for binding to the active site; the inhibitor may be a substrate derivative, a substance in the cell, or a reaction product. Effects: Vmax is unchanged (unaffected by I, because the whole enzyme can still be driven to the complex form at high [S]); Km < Km app — the apparent Km increases, because Km app = Km(1 + [I]/KI) (KI = dissociation constant of the EI complex), and a higher Km means a decreased tendency of the enzyme to bind substrate.",
+    "answer_ar": "في التثبيط التنافسي ينافس المثبّط `(I)` المادة `(S)` على الارتباط بالموقع الفعّال؛ وقد يكون المثبّط مشتقًّا من المادة، أو مادة في الخلية، أو ناتج تفاعل. وأثره: `Vmax` غير متغيّرة (لا تتأثّر بالمثبّط، لأن الإنزيم كله يمكن دفعه إلى صورة المعقّد عند ارتفاع [`S`])؛ و`Km` < `Km app` — فيزداد `Km` الظاهري، لأن `Km app = Km(1` + [`I`]/`KI`) (و`KI` ثابت تفكّك معقّد `EI`)، وارتفاع `Km` يعني نقص ميل الإنزيم للارتباط بالمادة."
+   },
+   {
+    "en": "Marked by the student: give the classic example of competitive inhibition and explain why the inhibitor works.",
+    "ar": "مؤشَّر بالطالب: اذكر المثال الكلاسيكي للتثبيط التنافسي واشرح لماذا يعمل المثبّط.",
+    "answer_en": "The classic example is succinate dehydrogenase (SDH), which converts succinate ⇌ fumarate, competitively inhibited by malonate. Malonate’s structure resembles that of the natural substrate succinate (but has one fewer carbon), so it competes with succinate for the active site and binds there in its place, slowing the reaction.",
+    "answer_ar": "المثال الكلاسيكي هو نازعة هيدروجين السكسينات `(SDH)` التي تحوّل السكسينات ⇌ الفيوماريت، وتُثبَّط تنافسيًا بالمالونات. وتركيب المالونات يشبه المادة الطبيعية السكسينات (لكن بكربون أقلّ)، فتنافس السكسينات على الموقع الفعّال وترتبط به بدلًا منها، فتبطّئ التفاعل."
+   },
+   {
+    "en": "Explain uncompetitive inhibition and its effect on Vmax and Km.",
+    "ar": "اشرح التثبيط غير التنافسي وأثره في `Vmax` و`Km`.",
+    "answer_en": "In uncompetitive inhibition the inhibitor I binds reversibly with the enzyme–substrate complex ES only (forming ESI), not the free enzyme E. Effects: Vmax > Vmax I — Vmax decreases, because Vmax I is divided by (1 + [I]/KI); and Km > Km app — Km also decreases, because Km app is divided by (1 + [I]/KI). On a Lineweaver-Burke plot it gives parallel lines.",
+    "answer_ar": "في التثبيط غير التنافسي يرتبط المثبّط `I` عكوسًا بمعقّد الإنزيم-المادة `ES` فقط (مكوّنًا `ESI`)، لا بالإنزيم الحر `E`. وأثره: `Vmax` > `Vmax I` — فتنقص `Vmax`، لأن `Vmax I` مقسومة على (1 + [`I`]/`KI`)؛ و`Km` > `Km app` — فتنقص `Km` أيضًا، لأن `Km app` مقسومة على (1 + [`I`]/`KI`). وفي مخطّط لاينويفر-بيرك يعطي خطوطًا متوازية."
+   },
+   {
+    "en": "Marked by the student: compare competitive and uncompetitive inhibition (binding, Vmax, Km, Lineweaver-Burke lines).",
+    "ar": "مؤشَّر بالطالب: قارن بين التثبيط التنافسي وغير التنافسي (الارتباط، `Vmax`، `Km`، خطوط لاينويفر-بيرك).",
+    "answer_en": "Competitive: the inhibitor binds the free enzyme E (at the active site); Vmax is constant (unchanged); Km increases (Km app = Km(1+[I]/KI)); on the Lineweaver-Burke plot the lines intersect on the y-axis (1/Vmax) with increasing slope. Uncompetitive: the inhibitor binds the ES complex only; Vmax decreases; Km decreases; on the Lineweaver-Burke plot the lines are parallel.",
+    "answer_ar": "التنافسي: يرتبط المثبّط بالإنزيم الحر `E` (عند الموقع الفعّال)؛ و`Vmax` ثابتة (غير متغيّرة)؛ و`Km` تزيد (`Km app = Km(1`+[`I`]/`KI`))؛ وفي مخطّط لاينويفر-بيرك تتقاطع الخطوط على المحور الصادي `(1/Vmax)` مع ازدياد الميل. وغير التنافسي: يرتبط المثبّط بمعقّد `ES` فقط؛ و`Vmax` تنقص؛ و`Km` تنقص؛ وفي مخطّط لاينويفر-بيرك تكون الخطوط متوازية."
+   },
+   {
+    "en": "Write the Lineweaver-Burke equations for competitive and for uncompetitive inhibition.",
+    "ar": "اكتب معادلتي لاينويفر-بيرك للتثبيط التنافسي وللتثبيط غير التنافسي.",
+    "answer_en": "Competitive: 1/v₀ = (Km/Vmax)(1 + [I]/KI)(1/[S]) + 1/Vmax (same y-intercept 1/Vmax, increased slope). Uncompetitive: 1/v₀ = (Km/Vmax)(1/[S]) + (1/Vmax)(1 + [I]/KI) (same slope, raised y-intercept → parallel lines).",
+    "answer_ar": "التنافسي: `1/v`₀ = (`Km/Vmax)(1` + [`I`]/`KI)(1`/[`S`]) + `1/Vmax` (نفس التقاطع الصادي `1/Vmax`، وميل أكبر). وغير التنافسي: `1/v`₀ = (`Km/Vmax)(1`/[`S`]) + (`1/Vmax)(1` + [`I`]/`KI`) (نفس الميل، وتقاطع صادي أعلى ← خطوط متوازية)."
+   }
+  ]
+ }
+}

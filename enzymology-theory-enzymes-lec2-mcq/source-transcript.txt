@@ -1,0 +1,47 @@
+Bilad AL-Rafidain University College — Department of Health and Medical Technologies
+Enzymes — Lecture 2 — 2025-2026 — Prepared by Dr. Hussein Mahmood  (Clinical Enzymology, theory, stage 4)
+
+b. Michaelis-Menten equation:
+1. Reaction model: Michaelis and Menten proposed a simple model that explains most of the features of enzyme-catalyzed reactions. In this model, the enzyme E reversibly combines with its substrate S to form an ES complex that subsequently breaks down to product P, regenerating the free enzyme. The model (one substrate):
+   E + S ⇌(k1/k-1) ES →(k2) E + P.  Where k1, k-1 and k2 are rate constants. (enzyme is recycled — not consumed in the reaction). [student: E=enzyme, S=substrate, k1=binding/association, k-1=ES→E+S, k2=catalysis/product formation]
+
+2. Deriving the Michaelis-Menten equation: describes how reaction velocity varies with substrate concentration:
+   v0 = Vmax[S] / (Km + [S])
+   where: v0 = initial reaction velocity; Vmax = maximal velocity; Km = Michaelis constant = (k-1 + k2)/k1; [S] = substrate concentration.
+   When V0 is plotted against [S], it gives a hyperbolic curve. (At Km, V0 = ½Vmax.)
+
+Assumptions in deriving the Michaelis-Menten rate equation:
+a. Relative concentrations of E and S: [S] >> [E], so the percentage of total substrate bound to enzyme at any one time is small.
+b. Steady-state assumption: [ES] does not change with time; the rate of formation of ES equals that of the breakdown of ES. (An intermediate is said to be in steady-state when its rate of synthesis equals its rate of degradation.)
+c. Initial velocity: used in the analysis of enzyme reactions; the rate is measured as soon as enzyme and substrate are mixed, when the product concentration is very small and therefore the back reaction from P to S can be ignored.
+d. Michaelis constant (Km): reflects the affinity of the enzyme for its substrate; whenever Km is small (k1 is large), the bigger the tendency of enzyme binding to substrate, and vice versa. [student: Km small = high affinity; Km large = less affinity]
+
+e. Relationship between V0, [S] and Km constant:
+1. When Km = [S]: V0 = Vmax[S]/([S]+[S]) = ½Vmax. The initial velocity is half the maximum velocity. Usually this value involved inside the cell (in vivo).
+2. When Km >> [S] (Km ≥ 100[S]): the [S] in the denominator can be ignored → V0 = Vmax[S]/Km. Since Km and Vmax are constant, V0 can be considered a function of substrate; the cell is sensitive to any change in substrate concentration. The rate is first order with respect to substrate.
+3. When Km << [S] (100 Km ≤ [S]): the Km in the denominator can be ignored → V0 = Vmax[S]/[S] = Vmax. The cell is not sensitive to any change in substrate concentration. The rate is zero order with respect to substrate.
+
+C. Lineweaver-Burke plot: When V0 is plotted against [S] it gives a hyperbolic curve, so it is not always possible to determine Km precisely. Because of the important Km constant, Lineweaver and Burke converted the Michaelis-Menten equation by taking the reciprocal to obtain the straight linear equation:
+   1/V0 = (Km/Vmax)(1/[S]) + 1/Vmax
+   Plot: 1/V0 (y) versus 1/[S] (x). y-intercept = 1/Vmax; x-intercept = −1/Km; slope = Km/Vmax. This plot is also called a double-reciprocal plot.
+
+6. Enzyme inhibitors:
+a. Inhibitors: substances (compounds or ions) making the enzyme inactive by interfering with its ability to react with a substrate, slowing the velocity of enzyme reaction.
+b. Enzyme inhibitors advantages (the study of inhibitors is useful to give): 1. Information of the active site of enzyme. 2. Mechanism of action. 3. Possible regulation of physiological significance.
+c. Inhibitors effects (on one or more of the following factors): 1. The active site of enzyme. 2. The protein part of enzyme (apoenzyme). 3. Effect on coenzyme. 4. The prosthetic group.
+d. Classification of Inhibition: 1. Reversible inhibition. 2. Irreversible inhibition.
+   Reversible inhibition: interact with the enzyme through noncovalent association/dissociation reactions. The enzyme regains activity when the inhibitor dissociates (occurs with dilution of ES complex). There are three types of reversible inhibition:
+
+a. Competitive Inhibition: competition between the inhibitor (I) and the substrate (S) for binding to the active site of enzyme. The inhibitor may be a substrate derivative or basically exist in the cell or other substrate or as a result of reaction product.
+   General equation: E + S ⇌ ES → E + P ; E + I ⇌ EI (KI = dissociation constant of enzyme inhibitor). After derivative:
+   v = Vmax[S] / (Km(1 + [I]/KI) + [S])  →  v = Vmax[S] / (Km app + [S]).   Km(app) = Km(1 + [I]/KI).
+   Compared with Michaelis-Menten: 1. Vmax = Vmax (unaffected by I, because the entire enzyme is in complex form). 2. Km < Km app, because Km is multiplied by (1 + [I]/KI); whenever Km increases, the tendency of binding the enzyme to substrate decreases. [Km app increases as inhibitor concentration increases]
+   Succinate Dehydrogenase — classic example of competitive inhibition: SDH is competitively inhibited by malonate. Succinate ⇌ Fumarate (succinate dehydrogenase). Malonate = competitive inhibitor; its structure resembles succinate but lacks a carbon, so it competes with succinate and binds the active site in its place.
+   Lineweaver-Burke: 1/V0 = (Km/Vmax)(1 + [I]/KI)(1/[S]) + 1/Vmax. Lines intersect at 1/Vmax (y-axis); slope increases; x-intercept = −1/(Km(1+[I]/KI)).
+
+b. Uncompetitive inhibition: the inhibitor I binds reversibly with enzyme-substrate complex ES only, but not free enzyme E.
+   General equation: E + S ⇌ ES → E + P ; ES + I ⇌ ESI (KI). After derivative:
+   v = [Vmax/(1+[I]/KI)][S] / (Km/(1+[I]/KI) + [S])  →  v = Vmax I[S] / (Km app + [S]).
+   Compared with Michaelis-Menten: 1. Vmax > Vmax I, because Vmax I is divided by (1 + [I]/KI), then the product decreases. 2. Km > Km app, because Km app is divided by (1 + [I]/KI).
+   Lineweaver-Burke: 1/V0 = (Km/Vmax)(1/[S]) + (1/Vmax)(1 + [I]/KI). Lines are parallel.
+   [student comparison table — competitive vs uncompetitive: binds: free E / ES ; Vmax: constant / decreases ; Km: increases / decreases ; L-B lines: intersect y-axis / parallel]
