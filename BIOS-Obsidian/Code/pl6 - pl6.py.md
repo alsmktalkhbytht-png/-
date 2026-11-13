@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/pl6/pl6.py
 handouts: [parasitology-lab6-trichomonads]
-saved: 2026-11-12
+saved: 2026-11-13
 tags: [bios, code]
 ---
 # pl6/pl6.py

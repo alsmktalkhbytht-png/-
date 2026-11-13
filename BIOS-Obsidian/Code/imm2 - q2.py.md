@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/imm2/q2.py
 handouts: [immunology-lec2-mcq]
-saved: 2026-11-12
+saved: 2026-11-13
 tags: [bios, code]
 ---
 # imm2/q2.py

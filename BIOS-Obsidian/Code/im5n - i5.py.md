@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/im5n/i5.py
 handouts: [immunology-lec5-antibody-diversity]
-saved: 2026-11-12
+saved: 2026-11-13
 tags: [bios, code]
 ---
 # im5n/i5.py

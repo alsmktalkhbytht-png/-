@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/iml2/l2.py
 handouts: [immunology-lab2-dilution-titration]
-saved: 2026-11-12
+saved: 2026-11-13
 tags: [bios, code]
 ---
 # iml2/l2.py

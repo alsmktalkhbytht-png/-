@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/inf/l1.py
 handouts: [histopathology-lec1-acute-inflammation]
-saved: 2026-11-12
+saved: 2026-11-13
 tags: [bios, code]
 ---
 # inf/l1.py

@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/hl7/h7.py
 handouts: [hematology-practical-rbc-indices]
-saved: 2026-11-12
+saved: 2026-11-13
 tags: [bios, code]
 ---
 # hl7/h7.py

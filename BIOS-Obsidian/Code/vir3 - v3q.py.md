@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/vir3/v3q.py
 handouts: [virology-lab3-direct-examination]
-saved: 2026-11-12
+saved: 2026-11-13
 tags: [bios, code]
 ---
 # vir3/v3q.py

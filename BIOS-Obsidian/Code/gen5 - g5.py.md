@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/gen5/g5.py
 handouts: [genetics-lab5-multiple-alleles]
-saved: 2026-11-12
+saved: 2026-11-13
 tags: [bios, code]
 ---
 # gen5/g5.py

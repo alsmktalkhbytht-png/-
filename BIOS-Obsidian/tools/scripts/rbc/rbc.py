@@ -322,7 +322,7 @@ important = [
     "الهرمونات الذكرية (الأندروجين)، والكتلة العضلية الأكبر التي تحتاج `O2` أكثر، والفقدان الدموي الشهري عند الإناث. والزيادات الفسيولوجية: المرتفعات، التمارين الشديدة، التدخين."),
 ]
 meta = dict(subject_en="Hematology", subject_ar="أمراض الدم", short_ar="امراض الدم", unit_label="LAB", kind="Laboratories — عملي",
-            stage="The third stage — الثالثة", instructor="ليندا منجد هادي", unit_en="Lab 4", unit_ar="العملي 4", unit_no="4",
+            stage="The third stage — الثالثة", instructor="ليندا منجد هادي", unit_en="Lab 6", unit_ar="العملي 6", unit_no="6",
             title_en="Red Blood Cell Count", title_ar="عدّ كريات الدم الحمر")
 blocks, mcq, tf, traps, important = ltr_all(blocks), ltr_all(mcq), ltr_all(tf), ltr_all(traps), ltr_all(important)
 save(FOLDER, meta, blocks, mcq, tf, traps, important)

@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/iml4/l4.py
 handouts: [immunology-lab4-immunization-heart-puncture]
-saved: 2026-11-12
+saved: 2026-11-13
 tags: [bios, code]
 ---
 # iml4/l4.py

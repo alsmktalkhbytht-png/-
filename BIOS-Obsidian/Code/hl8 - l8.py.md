@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/hl8/l8.py
 handouts: [hematology-lec8-macrocytic]
-saved: 2026-11-12
+saved: 2026-11-13
 tags: [bios, code]
 ---
 # hl8/l8.py

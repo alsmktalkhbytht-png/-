@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/imm456/ci5.py
 handouts: [clinimm-lec5-behcet]
-saved: 2026-11-12
+saved: 2026-11-13
 tags: [bios, code]
 ---
 # imm456/ci5.py

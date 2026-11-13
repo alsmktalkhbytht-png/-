@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/eth5/e5.py
 handouts: [ethics-lec5-instilling-ethics]
-saved: 2026-11-12
+saved: 2026-11-13
 tags: [bios, code]
 ---
 # eth5/e5.py

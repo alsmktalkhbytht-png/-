@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/ha/src/dump.py
 handouts: []
-saved: 2026-11-12
+saved: 2026-11-13
 tags: [bios, code]
 ---
 # ha/src/dump.py

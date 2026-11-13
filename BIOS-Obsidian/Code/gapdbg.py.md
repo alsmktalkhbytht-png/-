@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/gapdbg.py
 handouts: []
-saved: 2026-11-12
+saved: 2026-11-13
 tags: [bios, code]
 ---
 # gapdbg.py

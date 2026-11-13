@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/sol/l4.py
 handouts: [parasitology-lab4-solutions]
-saved: 2026-11-12
+saved: 2026-11-13
 tags: [bios, code]
 ---
 # sol/l4.py

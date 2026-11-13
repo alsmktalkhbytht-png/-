@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/hp5/h5.py
 handouts: [histopathology-lab5-staining-theory]
-saved: 2026-11-12
+saved: 2026-11-13
 tags: [bios, code]
 ---
 # hp5/h5.py

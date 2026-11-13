@@ -1,7 +1,7 @@
 ---
 source: BIOS-Obsidian/tools/scripts/elab3/el3.py
 handouts: []
-saved: 2026-11-12
+saved: 2026-11-13
 tags: [bios, code]
 ---
 # elab3/el3.py
