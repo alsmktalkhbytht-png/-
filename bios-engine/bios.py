@@ -264,9 +264,9 @@ def footer(n):
             f'<div class="tab">{n}</div>')
 
 
-def page(content, n, sub):
+def page(content, n, sub, cls=""):
     return (f'<section class="page" data-num="{n}">{margin_rule()}{header(sub)}'
-            f'<div class="body"><div class="content">{content}</div></div>{footer(n)}</section>')
+            f'<div class="body{" " + cls if cls else ""}"><div class="content">{content}</div></div>{footer(n)}</section>')
 
 
 def cover_kind(kind):
@@ -427,10 +427,13 @@ def model_answer(i, e, a, q=None, q_ar=None):
 
 
 def question_items(Q):
-    out = [(unit_title(Q.get("title_en", "Exam & Questions"), Q.get("title_ar", "بنك الأسئلة")), True)]
-    n = 0
     INLINE["on"] = bool(Q.get("answers_inline"))
     CMP["on"] = bool(Q.get("compact"))   # questions.compact: denser MCQ cards
+    # compact banks drop the big unit-title box (the cover/running header already name the lecture),
+    # so the first question page fills like the rest instead of leaving a header-sized gap.
+    out = [] if CMP["on"] else [(unit_title(Q.get("title_en", "Exam & Questions"), Q.get("title_ar", "بنك الأسئلة")), True)]
+    n = 0
+    forced = set()                       # indexes that must start a new page (kept for callers that need it)
     forced = set()                       # indexes that must start a new page (kept for callers that need it)
 
     def head(e, a):
@@ -585,7 +588,7 @@ def build(path, html_only=False):
             qsub = f'{M["unit_en"]} · {Q.get("sub", "Exam")}'
             qitems, qforced = question_items(Q)
             qpages = paginate(qitems, os.path.join(out_dir, "questions.html"), qsub, qforced, cap=Q.get("mcq_per_page"))
-            html_pages += [page("".join(p), n_pages + n, qsub) for n, p in enumerate(qpages, 1)]
+            html_pages += [page("".join(p), n_pages + n, qsub, "qj" if (CMP["on"] and n < len(qpages)) else "") for n, p in enumerate(qpages, 1)]
             n_pages += len(qpages)
             stale = os.path.join(base_dir, name + " - الأسئلة.pdf")
             if os.path.exists(stale):
@@ -602,7 +605,7 @@ def build(path, html_only=False):
         qpages = paginate(qitems, tmpq, qsub, qforced, cap=Q.get("mcq_per_page"))
         hp = [cover(html.escape(Q.get("title_en", M["title_en"] + " — Exam & Questions")),
                     Q.get("title_ar", M["title_ar"] + " — بنك الأسئلة"), M["kind"])]
-        hp += [page("".join(p), n, qsub) for n, p in enumerate(qpages, 1)]
+        hp += [page("".join(p), n, qsub, "qj" if (CMP["on"] and n < len(qpages)) else "") for n, p in enumerate(qpages, 1)]
         open(tmpq, "w").write(doc(name + " - Questions", hp))
         qname = name + " - الأسئلة" if data["blocks"] else name
         outputs.append((tmpq, os.path.join(base_dir, qname + ".pdf"), len(qpages)))
