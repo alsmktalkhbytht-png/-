@@ -363,10 +363,11 @@ def mcq(i, q):
     top = (f'<div class="c-en q"><span class="chip">EN</span><span class="qnum">Q{i}</span>{en(q["en"])}</div>'
            f'<div class="c-ar"><span class="chip chip-ar">AR</span>{ar(f"س{i}. " + q["ar"])}</div>') if q["en"] else \
           f'<div class="c-ar q" style="border-top:0"><span class="qnum">س{i}</span>{ar(q["ar"])}</div>'
-    return f'<div class="card qc">{top}{img}<div class="opts">{o}</div>{inline_answer(q) if INLINE["on"] else ""}</div>'
+    return f'<div class="card qc{" cmp" if CMP["on"] else ""}">{top}{img}<div class="opts">{o}</div>{inline_answer(q) if INLINE["on"] else ""}</div>'
 
 
 INLINE = {"on": False}   # questions.answers_inline: the answer sits under each MCQ instead of in the key
+CMP = {"on": False}      # questions.compact: denser MCQ cards (used with mcq_per_page to pack 4 per page)
 
 
 def inline_answer(q):
@@ -429,6 +430,8 @@ def question_items(Q):
     out = [(unit_title(Q.get("title_en", "Exam & Questions"), Q.get("title_ar", "بنك الأسئلة")), True)]
     n = 0
     INLINE["on"] = bool(Q.get("answers_inline"))
+    CMP["on"] = bool(Q.get("compact"))   # questions.compact: denser MCQ cards
+    forced = set()                       # indexes that must start a new page (kept for callers that need it)
 
     def head(e, a):
         nonlocal n
@@ -437,7 +440,8 @@ def question_items(Q):
 
     mcqs = [q for q in Q.get("mcq", []) if "topic_en" not in q]
     if mcqs:
-        head(Q.get("mcq_en", "Comprehensive MCQs"), Q.get("mcq_ar", "أسئلة اختيار من متعدد شاملة"))
+        if not CMP["on"]:            # compact single-section banks skip the section bar (the title already says MCQs)
+            head(Q.get("mcq_en", "Comprehensive MCQs"), Q.get("mcq_ar", "أسئلة اختيار من متعدد شاملة"))
         if Q.get("intro_en"):
             out.append((note(Q["intro_en"], Q["intro_ar"], ("Instructions", "التعليمات")), False))
         i = 0
@@ -465,7 +469,7 @@ def question_items(Q):
         else:
             out += [(numbered(i, t["en"], t["ar"], lines=True), False) for i, t in enumerate(Q["important"], 1)]
     if INLINE["on"]:                            # every answer is already under its question: no key at the end
-        return out
+        return out, forced
     head("Answer Key", "الحلول")
     if mcqs and not INLINE["on"]:
         out.append((h2("MCQ Answers", "إجابات الاختيار من متعدد"), True))
@@ -487,7 +491,7 @@ def question_items(Q):
         if i == 1:
             out.append((h2("Important Questions — Model Answers", "أهم الأسئلة — إجابات نموذجية"), True))
         out.append((model_answer(i, t["answer_en"], t["answer_ar"], t["en"], t.get("ar")), False))
-    return out
+    return out, forced
 
 
 # ------------------------------------------------------------------ pagination
@@ -496,12 +500,14 @@ def node(*args):
     return subprocess.check_output(["node", os.path.join(ENGINE, "render.js"), *args], env=env).decode()
 
 
-def paginate(items, html_path, sub, forced):
-    """items: [(html, keep_with_next)]; forced: indexes that must start a new page."""
+def paginate(items, html_path, sub, forced, cap=None):
+    """items: [(html, keep_with_next)]; forced: indexes that must start a new page.
+    cap: at most this many real (non keep-with-next) blocks per page — a page-relative cap
+    that packs e.g. 4 questions per page without orphaning the ones a heavy first page pushed off."""
     probe = "".join(f'<div data-m="{i}" style="display:flow-root">{h}</div>' for i, (h, _) in enumerate(items))
     open(html_path, "w").write(doc("measure", [page(probe, 1, sub)]))
     H = json.loads(node("measure", html_path))
-    pages, cur, h_cur = [], [], 0.0
+    pages, cur, h_cur, n_cur = [], [], 0.0, 0
     for i, (h, keep) in enumerate(items):
         need = H[str(i)]
         j = i
@@ -510,11 +516,13 @@ def paginate(items, html_path, sub, forced):
             need += H[str(j)]
             if not items[j][1]:
                 break
-        if cur and (i in forced or h_cur + need > BODY_MM):
+        if cur and (i in forced or h_cur + need > BODY_MM or (cap and not keep and n_cur >= cap)):
             pages.append(cur)
-            cur, h_cur = [], 0.0
+            cur, h_cur, n_cur = [], 0.0, 0
         cur.append(h)
         h_cur += H[str(i)]
+        if not keep:
+            n_cur += 1
     if cur:
         pages.append(cur)
     return pages
@@ -575,7 +583,8 @@ def build(path, html_only=False):
         if merge:                                   # one file: lecture, then its questions
             Q = data["questions"]
             qsub = f'{M["unit_en"]} · {Q.get("sub", "Exam")}'
-            qpages = paginate(question_items(Q), os.path.join(out_dir, "questions.html"), qsub, set())
+            qitems, qforced = question_items(Q)
+            qpages = paginate(qitems, os.path.join(out_dir, "questions.html"), qsub, qforced, cap=Q.get("mcq_per_page"))
             html_pages += [page("".join(p), n_pages + n, qsub) for n, p in enumerate(qpages, 1)]
             n_pages += len(qpages)
             stale = os.path.join(base_dir, name + " - الأسئلة.pdf")
@@ -589,7 +598,8 @@ def build(path, html_only=False):
         Q = data["questions"]
         qsub = f'{M["unit_en"]} · {Q.get("sub", "Exam")}'
         tmpq = os.path.join(out_dir, "questions.html")
-        qpages = paginate(question_items(Q), tmpq, qsub, set())
+        qitems, qforced = question_items(Q)
+        qpages = paginate(qitems, tmpq, qsub, qforced, cap=Q.get("mcq_per_page"))
         hp = [cover(html.escape(Q.get("title_en", M["title_en"] + " — Exam & Questions")),
                     Q.get("title_ar", M["title_ar"] + " — بنك الأسئلة"), M["kind"])]
         hp += [page("".join(p), n, qsub) for n, p in enumerate(qpages, 1)]
