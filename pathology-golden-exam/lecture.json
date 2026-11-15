@@ -1,0 +1,899 @@
+{
+ "meta": {
+  "subject_en": "Pathology",
+  "subject_ar": "علم الأمراض",
+  "short_ar": "أمراض",
+  "instructor": "د. حامد خليل التميمي",
+  "unit_en": "Golden Exam",
+  "unit_ar": "الصمونة الذهبية",
+  "unit_label": "PATH",
+  "unit_no": "G",
+  "title_en": "The Golden Loaf — Solved Pathology Exam",
+  "title_ar": "الصمونة الذهبية — امتحان علم الأمراض محلولًا",
+  "kind": "Theory — نظري",
+  "stage": "The fourth stage — الرابعة",
+  "file_name": "BIOS - أمراض نظري - الصمونة الذهبية (امتحان محلول)"
+ },
+ "questions": {
+  "title_en": "The Golden Loaf — Solved Pathology Exam",
+  "title_ar": "الصمونة الذهبية — امتحان علم الأمراض محلولًا",
+  "sub": "Solved",
+  "answers_inline": true,
+  "compact": true,
+  "mcq_per_page": 5,
+  "mcq_en": "Multiple-choice questions (with answers)",
+  "mcq_ar": "أسئلة الاختيار من متعدّد (مع الحلول)",
+  "mcq": [
+   {
+    "topic_en": "Exam 1 — Choose the most suitable answer (Mid-exam)",
+    "topic_ar": "الامتحان الأول — اختر الأنسب (امتحان نصفي)"
+   },
+   {
+    "en": "What is atelectasis also known as?",
+    "ar": "الانخماص يُعرف أيضًا بـ؟",
+    "options": [
+     [
+      "Lung expansion",
+      "تمدّد الرئة"
+     ],
+     [
+      "Lung collapse",
+      "انهيار (انخماص) الرئة"
+     ],
+     [
+      "Alveolar repair",
+      "إصلاح سنخي"
+     ],
+     [
+      "Hypoxemia",
+      "نقص أكسجة الدم"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which type of atelectasis results from airway obstruction?",
+    "ar": "أيّ نوع من الانخماص ينتج عن انسداد المجرى الهوائي؟",
+    "options": [
+     [
+      "Resorption atelectasis",
+      "الانخماص الامتصاصي"
+     ],
+     [
+      "Compression atelectasis",
+      "الانخماص الانضغاطي"
+     ],
+     [
+      "Contraction atelectasis",
+      "الانخماص التقلّصي"
+     ],
+     [
+      "Hypoxic atelectasis",
+      "الانخماص الناقص الأكسجين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which cells primarily produce pulmonary surfactant?",
+    "ar": "أيّ خلايا تنتج الفاعل بالسطح الرئوي بصورة رئيسة؟",
+    "options": [
+     [
+      "Type I pneumocytes",
+      "الخلايا الرئوية النوع الأول"
+     ],
+     [
+      "Type II pneumocytes",
+      "الخلايا الرئوية النوع الثاني"
+     ],
+     [
+      "Alveolar macrophages",
+      "البلاعم السنخية"
+     ],
+     [
+      "Goblet cells",
+      "الخلايا الكأسية"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Type II pneumocytes synthesize surfactant (type I only line the surface for gas exchange).",
+    "note_ar": "الخلايا الرئوية النوع الثاني تصنّع الفاعل بالسطح (النوع الأول مجرّد تبطين للسطح لتبادل الغازات)."
+   },
+   {
+    "en": "Acute Respiratory Distress Syndrome (ARDS) is primarily caused by:",
+    "ar": "متلازمة الضائقة التنفسية الحادة `(ARDS)` سببها الرئيس:",
+    "options": [
+     [
+      "Lung infections",
+      "عدوى الرئة"
+     ],
+     [
+      "Diffuse alveolar damage",
+      "الأذى السنخي المنتشر"
+     ],
+     [
+      "Bronchial obstruction",
+      "انسداد قصبي"
+     ],
+     [
+      "Hypoventilation",
+      "نقص التهوية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The Reid index is used to measure:",
+    "ar": "يُستعمل مشعر ريد `(Reid)` لقياس:",
+    "options": [
+     [
+      "Lung volume",
+      "حجم الرئة"
+     ],
+     [
+      "Mucous gland size in chronic bronchitis",
+      "حجم الغدد المخاطية في التهاب القصبات المزمن"
+     ],
+     [
+      "Airflow rate",
+      "معدّل جريان الهواء"
+     ],
+     [
+      "Bronchial diameter",
+      "قطر القصبة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The main feature of chronic bronchitis is:",
+    "ar": "السمة الرئيسة لالتهاب القصبات المزمن:",
+    "options": [
+     [
+      "Airway dilation",
+      "توسّع المجرى الهوائي"
+     ],
+     [
+      "Mucus hypersecretion",
+      "فرط إفراز المخاط"
+     ],
+     [
+      "Decreased airway resistance",
+      "نقص مقاومة المجرى الهوائي"
+     ],
+     [
+      "Increased surfactant",
+      "زيادة الفاعل بالسطح"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The most common cause of lung cancer is:",
+    "ar": "أشيع سبب لسرطان الرئة:",
+    "options": [
+     [
+      "Genetic factors",
+      "عوامل وراثية"
+     ],
+     [
+      "Air pollution",
+      "تلوّث الهواء"
+     ],
+     [
+      "Cigarette smoking",
+      "تدخين السجائر"
+     ],
+     [
+      "Asbestos exposure",
+      "التعرّض للأسبستوس"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Which of the following is NOT a type of emphysema?",
+    "ar": "أيّها ليس نوعًا من النُّفاخ الرئوي؟",
+    "options": [
+     [
+      "Centriacinar",
+      "مركزي العُنيبة"
+     ],
+     [
+      "Panacinar",
+      "شامل العُنيبة"
+     ],
+     [
+      "Irregular",
+      "غير منتظم"
+     ],
+     [
+      "Bronchoacinar",
+      "قصبي عُنيبي"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "The types are centriacinar, panacinar, paraseptal (distal acinar) and irregular; “bronchoacinar” is not a recognised type.",
+    "note_ar": "الأنواع: مركزي وشامل العنيبة وقُربَ الحاجز (بعيد العنيبة) وغير منتظم؛ و«القصبي العنيبي» ليس نوعًا معروفًا."
+   },
+   {
+    "en": "A characteristic feature of emphysema is:",
+    "ar": "من السمات المميّزة للنُّفاخ الرئوي:",
+    "options": [
+     [
+      "Bronchial obstruction",
+      "انسداد قصبي"
+     ],
+     [
+      "Permanent enlargement of airspaces",
+      "توسّع دائم للحيّز الهوائي"
+     ],
+     [
+      "Increased mucus production",
+      "زيادة إنتاج المخاط"
+     ],
+     [
+      "Reduced alveolar permeability",
+      "نقص نفاذية السنخ"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The histological hallmark of ARDS is:",
+    "ar": "العلامة النسيجية المميّزة لـ `ARDS`:",
+    "options": [
+     [
+      "Alveolar hyperplasia",
+      "فرط تنسّج سنخي"
+     ],
+     [
+      "Diffuse alveolar damage",
+      "الأذى السنخي المنتشر"
+     ],
+     [
+      "Fibrosis of bronchioles",
+      "تليّف القصيبات"
+     ],
+     [
+      "Loss of surfactant",
+      "فقدان الفاعل بالسطح"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Small cell lung cancer (SCLC) is best treated with:",
+    "ar": "سرطان الرئة صغير الخلايا `(SCLC)` يُعالج أفضل بـ:",
+    "options": [
+     [
+      "Surgery",
+      "الجراحة"
+     ],
+     [
+      "Chemotherapy",
+      "العلاج الكيميائي"
+     ],
+     [
+      "Radiation alone",
+      "الإشعاع وحده"
+     ],
+     [
+      "Immunotherapy only",
+      "العلاج المناعي فقط"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "SCLC spreads early and is usually inoperable, so chemotherapy (± radiation) is the mainstay.",
+    "note_ar": "ينتشر SCLC مبكرًا وغالبًا غير قابل للجراحة، فالعلاج الكيميائي (± الإشعاع) هو الأساس."
+   },
+   {
+    "en": "Compression atelectasis is commonly caused by:",
+    "ar": "الانخماص الانضغاطي غالبًا سببه:",
+    "options": [
+     [
+      "Blood or air in the pleural cavity",
+      "دم أو هواء في التجويف الجنبي"
+     ],
+     [
+      "Airway obstruction",
+      "انسداد المجرى الهوائي"
+     ],
+     [
+      "Bronchospasm",
+      "تشنّج قصبي"
+     ],
+     [
+      "Lung infection",
+      "عدوى الرئة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "A typical feature of chronic bronchitis is:",
+    "ar": "من السمات النموذجية لالتهاب القصبات المزمن:",
+    "options": [
+     [
+      "Hyperinflated alveoli",
+      "أسناخ مفرطة الانتفاخ"
+     ],
+     [
+      "Productive cough for at least 3 months for 2 years",
+      "سعال منتج لا يقلّ عن 3 أشهر خلال سنتين"
+     ],
+     [
+      "Alveolar shrinkage",
+      "انكماش سنخي"
+     ],
+     [
+      "Absence of mucus production",
+      "غياب إنتاج المخاط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The main histologic types of lung carcinoma include all EXCEPT:",
+    "ar": "تشمل الأنواع النسيجية الرئيسة لسرطانة الرئة كلّ ما يلي عدا:",
+    "options": [
+     [
+      "Adenocarcinoma",
+      "السرطانة الغدّية"
+     ],
+     [
+      "Squamous cell carcinoma",
+      "السرطانة حرشفية الخلايا"
+     ],
+     [
+      "Large cell carcinoma",
+      "السرطانة كبيرة الخلايا"
+     ],
+     [
+      "Sarcoma",
+      "الساركوما (الورم اللحمي)"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Lung carcinomas are epithelial (adeno, squamous, large cell, small cell); sarcoma is a mesenchymal tumour, not a carcinoma.",
+    "note_ar": "سرطانات الرئة ظهارية (غدّية، حرشفية، كبيرة الخلايا، صغيرة الخلايا)؛ أما الساركوما فورم لُحمي (متوسّطي) لا سرطانة."
+   },
+   {
+    "en": "Emphysema is more commonly associated with:",
+    "ar": "يرتبط النُّفاخ الرئوي أكثر بـ:",
+    "options": [
+     [
+      "Persistent cough",
+      "سعال مستمر"
+     ],
+     [
+      "Alveolar wall destruction",
+      "تدمير جدار السنخ"
+     ],
+     [
+      "Reduced surfactant",
+      "نقص الفاعل بالسطح"
+     ],
+     [
+      "Inflammation of large airways",
+      "التهاب المجاري الهوائية الكبيرة"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "ARDS may lead to multi-organ failure because of:",
+    "ar": "قد يؤدّي `ARDS` إلى فشل أعضاء متعدّد بسبب:",
+    "options": [
+     [
+      "Pulmonary infections",
+      "عدوى رئوية"
+     ],
+     [
+      "Systemic hypoxemia",
+      "نقص أكسجة الدم الجهازي"
+     ],
+     [
+      "Increased surfactant production",
+      "زيادة إنتاج الفاعل بالسطح"
+     ],
+     [
+      "Bronchial hyperresponsiveness",
+      "فرط استجابة القصبات"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which of the following is a predictor of poor prognosis in ARDS?",
+    "ar": "أيّها مؤشّر على سوء الإنذار في `ARDS`؟",
+    "options": [
+     [
+      "Young age",
+      "صغر السن"
+     ],
+     [
+      "Presence of sepsis",
+      "وجود الإنتان"
+     ],
+     [
+      "Improved oxygen levels",
+      "تحسّن مستويات الأكسجين"
+     ],
+     [
+      "Low heart rate",
+      "بطء ضربات القلب"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Lung cancer risk in non-smokers increases due to:",
+    "ar": "يزداد خطر سرطان الرئة لدى غير المدخّنين بسبب:",
+    "options": [
+     [
+      "Poor diet",
+      "سوء التغذية"
+     ],
+     [
+      "Passive smoking",
+      "التدخين السلبي"
+     ],
+     [
+      "Low blood pressure",
+      "انخفاض ضغط الدم"
+     ],
+     [
+      "High altitude",
+      "الارتفاع العالي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which lung cancer type has a strong correlation with smoking?",
+    "ar": "أيّ نوع من سرطان الرئة له ارتباط قوي بالتدخين؟",
+    "options": [
+     [
+      "Adenocarcinoma",
+      "السرطانة الغدّية"
+     ],
+     [
+      "Squamous cell carcinoma",
+      "السرطانة حرشفية الخلايا"
+     ],
+     [
+      "Mesothelioma",
+      "ورم المتوسّطة"
+     ],
+     [
+      "Hamartoma",
+      "الورم العابي"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Squamous cell (and small cell) carcinoma are strongly smoking-related; adenocarcinoma is the commonest type in non-smokers.",
+    "note_ar": "السرطانة الحرشفية (وصغيرة الخلايا) شديدة الارتباط بالتدخين؛ أما الغدّية فأشيع نوع عند غير المدخّنين."
+   },
+   {
+    "en": "Contraction atelectasis is primarily due to:",
+    "ar": "الانخماص التقلّصي سببه الرئيس:",
+    "options": [
+     [
+      "Lung infection",
+      "عدوى الرئة"
+     ],
+     [
+      "Fibrotic changes",
+      "تغيّرات ليفية"
+     ],
+     [
+      "Dehydration",
+      "التجفاف"
+     ],
+     [
+      "Mucus obstruction",
+      "انسداد مخاطي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Chronic bronchitis often leads to:",
+    "ar": "كثيرًا ما يؤدّي التهاب القصبات المزمن إلى:",
+    "options": [
+     [
+      "Hypocapnia",
+      "نقص ثنائي أكسيد الكربون"
+     ],
+     [
+      "Hypercapnia and cyanosis",
+      "فرط ثنائي أكسيد الكربون وازرقاق"
+     ],
+     [
+      "Decreased airway mucus",
+      "نقص مخاط المجرى الهوائي"
+     ],
+     [
+      "Reduced cough",
+      "نقص السعال"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The typical age group affected by lung cancer is:",
+    "ar": "الفئة العمرية النموذجية المصابة بسرطان الرئة:",
+    "options": [
+     [
+      "20s and 30s",
+      "العشرينات والثلاثينات"
+     ],
+     [
+      "40s and 50s",
+      "الأربعينات والخمسينات"
+     ],
+     [
+      "50s and 60s",
+      "الخمسينات والستّينات"
+     ],
+     [
+      "70s and 80s",
+      "السبعينات والثمانينات"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "The source wrote “blood group”, read here as age group — peak incidence is in the 50s–60s.",
+    "note_ar": "كُتب في الأصل «blood group» والمقصود الفئة العمرية — وذروة الحدوث في الخمسينات والستّينات."
+   },
+   {
+    "en": "Which type of emphysema causes airway obstruction?",
+    "ar": "أيّ نوع من النُّفاخ يسبّب انسداد المجرى الهوائي؟",
+    "options": [
+     [
+      "Panacinar only",
+      "شامل العنيبة فقط"
+     ],
+     [
+      "Centriacinar and Panacinar",
+      "مركزي وشامل العنيبة"
+     ],
+     [
+      "Distal acinar only",
+      "بعيد العنيبة فقط"
+     ],
+     [
+      "Irregular only",
+      "غير المنتظم فقط"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Centriacinar and panacinar emphysema are the clinically significant forms that cause airflow obstruction.",
+    "note_ar": "النوعان مركزي وشامل العنيبة هما الشكلان المهمّان سريريًا المسبّبان لانسداد الجريان الهوائي."
+   },
+   {
+    "en": "Major inflammatory cells in asthma include:",
+    "ar": "تشمل الخلايا الالتهابية الرئيسة في الربو:",
+    "options": [
+     [
+      "Eosinophils and neutrophils",
+      "الحمضات والعدلات"
+     ],
+     [
+      "Fibroblasts",
+      "الأرومات الليفية"
+     ],
+     [
+      "Plasma cells",
+      "الخلايا البلازمية"
+     ],
+     [
+      "Erythrocytes",
+      "الكريات الحمر"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "topic_en": "Exam 2 — Select the single best answer",
+    "topic_ar": "الامتحان الثاني — اختر الإجابة الأفضل الوحيدة"
+   },
+   {
+    "en": "What is the most common benign lung tumor?",
+    "ar": "ما أشيع ورم رئوي حميد؟",
+    "options": [
+     [
+      "Adenoma",
+      "الورم الغدّي"
+     ],
+     [
+      "Hamartoma",
+      "الورم العابي (الهامارتوما)"
+     ],
+     [
+      "Leiomyoma",
+      "الورم العضلي الأملس"
+     ],
+     [
+      "Lipoma",
+      "الورم الشحمي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which histologic type of lung cancer is most strongly associated with smoking?",
+    "ar": "أيّ نوع نسيجي من سرطان الرئة الأشدّ ارتباطًا بالتدخين؟",
+    "options": [
+     [
+      "Adenocarcinoma",
+      "السرطانة الغدّية"
+     ],
+     [
+      "Large cell carcinoma",
+      "السرطانة كبيرة الخلايا"
+     ],
+     [
+      "Squamous cell carcinoma",
+      "السرطانة حرشفية الخلايا"
+     ],
+     [
+      "Bronchioloalveolar carcinoma",
+      "السرطانة القصيبية السنخية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "The peak incidence of lung cancer is in persons in their:",
+    "ar": "ذروة حدوث سرطان الرئة لدى الأشخاص في:",
+    "options": [
+     [
+      "30s and 40s",
+      "الثلاثينات والأربعينات"
+     ],
+     [
+      "40s and 50s",
+      "الأربعينات والخمسينات"
+     ],
+     [
+      "50s and 60s",
+      "الخمسينات والستّينات"
+     ],
+     [
+      "70s and 80s",
+      "السبعينات والثمانينات"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "What is the most common cause of resorption atelectasis?",
+    "ar": "ما أشيع سبب للانخماص الامتصاصي؟",
+    "options": [
+     [
+      "Pleural effusion",
+      "الانصباب الجنبي"
+     ],
+     [
+      "Mucous or mucopurulent plug",
+      "سدادة مخاطية أو مخاطية قيحية"
+     ],
+     [
+      "Pneumothorax",
+      "استرواح الصدر"
+     ],
+     [
+      "Tumor invasion",
+      "الغزو الورمي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which cell type is responsible for synthesizing pulmonary surfactant?",
+    "ar": "أيّ نوع خلوي مسؤول عن تصنيع الفاعل بالسطح الرئوي؟",
+    "options": [
+     [
+      "Type I pneumocyte",
+      "الخلية الرئوية النوع الأول"
+     ],
+     [
+      "Type II pneumocyte",
+      "الخلية الرئوية النوع الثاني"
+     ],
+     [
+      "Alveolar macrophage",
+      "البلعم السنخي"
+     ],
+     [
+      "Endothelial cell",
+      "الخلية البطانية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The histologic manifestation of ARDS in the lungs is known as:",
+    "ar": "يُعرف التظاهر النسيجي لـ `ARDS` في الرئة بـ:",
+    "options": [
+     [
+      "Centrilobular necrosis",
+      "التنخّر المركزي الفصيصي"
+     ],
+     [
+      "Diffuse alveolar damage (DAD)",
+      "الأذى السنخي المنتشر `(DAD)`"
+     ],
+     [
+      "Bronchial metaplasia",
+      "الحؤول القصبي"
+     ],
+     [
+      "Granuloma formation",
+      "تكوّن الورم الحبيبي"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which of the following is a characteristic feature of chronic bronchitis?",
+    "ar": "أيّها سمة مميّزة لالتهاب القصبات المزمن؟",
+    "options": [
+     [
+      "Decreased Reid index",
+      "نقص مشعر ريد"
+     ],
+     [
+      "Hypertrophy of mucous glands",
+      "تضخّم الغدد المخاطية"
+     ],
+     [
+      "Reduced number of goblet cells",
+      "نقص عدد الخلايا الكأسية"
+     ],
+     [
+      "Decreased mucus production",
+      "نقص إنتاج المخاط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The most common primary glomerular disease in adults causing nephrotic syndrome is:",
+    "ar": "أشيع مرض كبيبي أولي عند البالغين يسبّب المتلازمة الكلائية:",
+    "options": [
+     [
+      "Minimal change disease",
+      "داء التغيّر الأدنى"
+     ],
+     [
+      "Focal segmental glomerulosclerosis (FSGS)",
+      "التصلّب الكبيبي البؤري القطعي `(FSGS)`"
+     ],
+     [
+      "Membranous glomerulonephritis",
+      "التهاب الكبيبات الغشائي"
+     ],
+     [
+      "IgA nephropathy",
+      "اعتلال `IgA`"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Per the lecture, membranous GN (~40%) is the commonest cause of nephrotic syndrome in adults (minimal change is commonest in children).",
+    "note_ar": "حسب المحاضرة، التهاب الكبيبات الغشائي (~40%) أشيع سبب للمتلازمة الكلائية عند البالغين (وداء التغيّر الأدنى أشيعها عند الأطفال)."
+   },
+   {
+    "en": "Which cytokine is primarily responsible for activating eosinophils in asthma?",
+    "ar": "أيّ سيتوكين مسؤول رئيسيًا عن تنشيط الحمضات في الربو؟",
+    "options": [
+     [
+      "IL-4",
+      "إنترلوكين 4"
+     ],
+     [
+      "IL-5",
+      "إنترلوكين 5"
+     ],
+     [
+      "IL-13",
+      "إنترلوكين 13"
+     ],
+     [
+      "IFN-gamma",
+      "إنترفيرون غاما"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Atelectasis that occurs due to generalized fibrotic changes in the lung is called:",
+    "ar": "الانخماص الناتج عن تغيّرات ليفية معمّمة في الرئة يُسمّى:",
+    "options": [
+     [
+      "Resorption atelectasis",
+      "الانخماص الامتصاصي"
+     ],
+     [
+      "Compression atelectasis",
+      "الانخماص الانضغاطي"
+     ],
+     [
+      "Contraction atelectasis",
+      "الانخماص التقلّصي"
+     ],
+     [
+      "Relaxation atelectasis",
+      "الانخماص الارتخائي"
+     ]
+    ],
+    "answer": "c"
+   }
+  ],
+  "tf": [],
+  "traps": [],
+  "important": [
+   {
+    "en": "The functional unit of the kidney is the ______.",
+    "ar": "الوحدة الوظيفية للكلية هي ______.",
+    "answer_en": "The nephron.",
+    "answer_ar": "النفرون (الوحدة الكلوية)."
+   },
+   {
+    "en": "Atelectasis can be classified into resorption, compression, and ______ atelectasis.",
+    "ar": "يُصنّف الانخماص إلى امتصاصي وانضغاطي و______.",
+    "answer_en": "Contraction atelectasis.",
+    "answer_ar": "الانخماص التقلّصي."
+   },
+   {
+    "en": "The most common benign lung tumor is ______.",
+    "ar": "أشيع ورم رئوي حميد هو ______.",
+    "answer_en": "Hamartoma.",
+    "answer_ar": "الورم العابي (الهامارتوما)."
+   },
+   {
+    "en": "In asthma, IL-5 is responsible for activating ______.",
+    "ar": "في الربو، الإنترلوكين 5 مسؤول عن تنشيط ______.",
+    "answer_en": "Eosinophils.",
+    "answer_ar": "الحمضات (اليوزينوفيلات)."
+   },
+   {
+    "en": "The diagnosis of chronic bronchitis requires a persistent productive cough for at least ______ consecutive months in at least 2 consecutive years.",
+    "ar": "يتطلّب تشخيص التهاب القصبات المزمن سعالًا منتجًا مستمرًّا لا يقلّ عن ______ أشهر متتالية في سنتين متتاليتين على الأقل.",
+    "answer_en": "3 (three) months.",
+    "answer_ar": "ثلاثة (3) أشهر."
+   },
+   {
+    "en": "The major function of the lung is to replenish ______ and excrete carbon dioxide.",
+    "ar": "الوظيفة الرئيسة للرئة هي تجديد ______ وطرح ثنائي أكسيد الكربون.",
+    "answer_en": "Oxygen.",
+    "answer_ar": "الأكسجين."
+   },
+   {
+    "en": "The two main phases of an asthma attack are the early phase and the ______ phase.",
+    "ar": "الطوران الرئيسان لنوبة الربو هما الطور المبكّر والطور ______.",
+    "answer_en": "The late phase.",
+    "answer_ar": "المتأخّر."
+   },
+   {
+    "en": "______ is characterized by abnormal permanent enlargement of the air spaces distal to the terminal bronchioles.",
+    "ar": "______ يتميّز بتوسّع دائم غير طبيعي للحيّزات الهوائية البعيدة عن القصيبات الانتهائية.",
+    "answer_en": "Emphysema.",
+    "answer_ar": "النُّفاخ الرئوي."
+   },
+   {
+    "en": "The key reason for distinguishing small cell lung cancer from non-small cell lung cancer is that SCLC is often not curable by ______.",
+    "ar": "السبب الجوهري للتمييز بين سرطان الرئة صغير الخلايا وغير صغير الخلايا هو أن صغير الخلايا غالبًا غير قابل للشفاء بـ______.",
+    "answer_en": "Surgery.",
+    "answer_ar": "الجراحة."
+   },
+   {
+    "en": "The clinical syndrome of Acute Lung Injury requires the absence of clinical evidence of primary ______ heart failure.",
+    "ar": "تتطلّب متلازمة الأذى الرئوي الحاد غياب دليل سريري على قصور القلب ______ الأولي.",
+    "answer_en": "Left-sided (left).",
+    "answer_ar": "الأيسر."
+   }
+  ]
+ }
+}
