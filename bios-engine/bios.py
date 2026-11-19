@@ -426,6 +426,48 @@ def model_answer(i, e, a, q=None, q_ar=None):
     return html
 
 
+def ending(e, fill):
+    """Closing poetry card (verse beside an image, theme colours), sized to fill `fill` mm."""
+    rows, w = [], 0.0
+    for ln in e.get("poem", []):
+        if str(ln).strip() == "":
+            rows.append('<div class="psp"></div>'); w += 0.55
+        else:
+            rows.append(f'<div class="pl">{html.escape(str(ln))}</div>'); w += 1.0
+    w = max(w, 1.0)
+    lh = min(6.0, max(3.7, (fill - 20.0) / w))            # per-line height (mm), clamped
+    fs = min(13.5, max(8.6, lh / 1.5 / 0.3528))           # font size (pt)
+    verse = "".join(rows)
+    label = html.escape(e.get("label_ar", "أشعار"))
+    by = f'<div class="pby">{html.escape(e["by"])}</div>' if e.get("by") else ""
+    img = f'<div class="pimg"><img src="{os.path.join(M["_assets"], e["image"])}"></div>' if e.get("image") else ""
+    sp = f'<style>.poem .psp{{height:{lh * 0.6:.2f}mm}}</style>'
+    return (f'{sp}<div class="poem" style="min-height:{max(fill - 3, 40):.1f}mm">{img}<div class="ptext">'
+            f'<div class="plabel">{label}</div><div class="pdiv"></div>'
+            f'<div class="pverse" style="font-size:{fs:.1f}pt;line-height:{lh:.2f}mm">{verse}</div>{by}</div></div>')
+
+
+def _page_heights(items, sub, tmp):
+    probe = "".join(f'<div data-m="{i}" style="display:flow-root">{h}</div>' for i, h in enumerate(items))
+    open(tmp, "w").write(doc("measure", [page(probe, 1, sub)]))
+    H = json.loads(node("measure", tmp))
+    return [H[str(i)] for i in range(len(items))]
+
+
+def attach_ending(e, qpages, sub, tmp):
+    """Drop the poetry card into the leftover space of the LAST questions page. If that
+    space is too tight for a readable poem, move the last block onto a fresh page so the
+    card gets room — an intentional closing page, never a blank poem-only page."""
+    w = sum(1.0 if str(l).strip() else 0.55 for l in e.get("poem", [])) or 1.0
+    need = 20.0 + w * 4.1
+    gap = BODY_MM - sum(_page_heights(qpages[-1], sub, tmp))
+    if gap < need and len(qpages[-1]) > 1:
+        qpages.append([qpages[-1].pop()])
+        gap = BODY_MM - sum(_page_heights(qpages[-1], sub, tmp))
+    gap = min(max(gap, need), 150.0)
+    qpages[-1].append(ending(e, gap))
+
+
 def question_items(Q):
     INLINE["on"] = bool(Q.get("answers_inline"))
     CMP["on"] = bool(Q.get("compact"))   # questions.compact: denser MCQ cards
@@ -588,6 +630,8 @@ def build(path, html_only=False):
             qsub = f'{M["unit_en"]} · {Q.get("sub", "Exam")}'
             qitems, qforced = question_items(Q)
             qpages = paginate(qitems, os.path.join(out_dir, "questions.html"), qsub, qforced, cap=Q.get("mcq_per_page"))
+            if Q.get("ending"):
+                attach_ending(Q["ending"], qpages, qsub, os.path.join(out_dir, "questions.html"))
             html_pages += [page("".join(p), n_pages + n, qsub, "qj" if (CMP["on"] and n < len(qpages)) else "") for n, p in enumerate(qpages, 1)]
             n_pages += len(qpages)
             stale = os.path.join(base_dir, name + " - الأسئلة.pdf")
@@ -603,6 +647,8 @@ def build(path, html_only=False):
         tmpq = os.path.join(out_dir, "questions.html")
         qitems, qforced = question_items(Q)
         qpages = paginate(qitems, tmpq, qsub, qforced, cap=Q.get("mcq_per_page"))
+        if Q.get("ending"):
+            attach_ending(Q["ending"], qpages, qsub, tmpq)
         hp = [cover(html.escape(Q.get("title_en", M["title_en"] + " — Exam & Questions")),
                     Q.get("title_ar", M["title_ar"] + " — بنك الأسئلة"), M["kind"])]
         hp += [page("".join(p), n, qsub, "qj" if (CMP["on"] and n < len(qpages)) else "") for n, p in enumerate(qpages, 1)]

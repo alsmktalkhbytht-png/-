@@ -273,3 +273,17 @@ i.sp{font-weight:700;font-style:italic}
 .qc.cmp .qans{margin-top:.8mm;padding:.9mm 3mm;font-size:8.8pt;line-height:1.26}
 .qc.cmp .qflag{margin-top:.8mm;padding:.9mm 3mm;font-size:8.6pt}
 .qc.cmp .qflag .en{font-size:8.6pt;line-height:1.24}.qc.cmp .qflag .ar{font-size:9.4pt;line-height:1.34}
+
+/* ── poetry ending: a closing verse + image card at the end of a bank ── */
+.poem{margin:3mm 0 0;border:.35mm solid var(--star);border-radius:3mm;overflow:hidden;background:var(--egret);break-inside:avoid;display:flex;align-items:stretch}
+.poem .pimg{width:60mm;flex:none;position:relative;background:var(--dark)}
+.poem .pimg img{width:100%;height:100%;object-fit:cover;display:block}
+.poem .pimg::after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 0 .4mm rgba(0,0,0,.08)}
+.poem .ptext{flex:1;padding:4.5mm 6mm 5mm;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:46mm}
+.poem .plabel{font-family:Mada;font-weight:800;font-size:7.4pt;letter-spacing:.34em;color:var(--egret);background:var(--dark);border-radius:4mm;padding:1mm 5.5mm;margin-bottom:1.6mm}
+.poem .pdiv{width:16mm;height:0;border-top:.4mm solid var(--gold);margin:0 0 3mm;position:relative}
+.poem .pdiv::before{content:"";position:absolute;left:50%;top:-1mm;width:2mm;height:2mm;transform:translateX(-50%) rotate(45deg);background:var(--gold)}
+.poem .pverse{font-family:AmiriQ,serif;direction:rtl;text-align:center;color:var(--ink);font-size:12.6pt;line-height:1.52}
+.poem .pl{margin:.5mm 0}
+.poem .psp{height:3mm}
+.poem .pby{font-family:Mada;font-weight:700;font-size:8pt;color:var(--muted);opacity:.8;margin-top:3mm;direction:rtl}
