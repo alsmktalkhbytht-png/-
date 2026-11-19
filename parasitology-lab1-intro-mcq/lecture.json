@@ -1,0 +1,843 @@
+{
+ "meta": {
+  "subject_en": "Diagnostic Parasitology",
+  "subject_ar": "الطفيليات التشخيصية",
+  "short_ar": "طفيليات",
+  "instructor": "د. ناريمان حسن",
+  "unit_en": "Lab 1",
+  "unit_ar": "العملي 1",
+  "unit_label": "LAB",
+  "unit_no": "1",
+  "title_en": "Introduction to Medical Parasitology",
+  "title_ar": "مقدّمة في علم الطفيليات الطبية",
+  "department": "قسم التحليلات",
+  "kind": "Practical — عملي",
+  "questions_kind": "MCQ — أسئلة اختيار",
+  "stage": "The fourth stage — الرابعة",
+  "file_name": "BIOS - طفيليات عملي المحاضرة الأولى - الأسئلة"
+ },
+ "questions": {
+  "title_en": "Introduction to Medical Parasitology — Comprehensive MCQs (practical)",
+  "title_ar": "مقدّمة في علم الطفيليات الطبية — أسئلة اختيار شاملة (عملي)",
+  "sub": "MCQ",
+  "answers_inline": true,
+  "mcq_en": "Comprehensive MCQs — the practical (laboratory) material",
+  "mcq_ar": "أسئلة اختيار شاملة — مادة العملي (المختبرية)",
+  "intro_en": [
+   "Q. Select the most correct answer from the followings",
+   "These MCQs cover the lab-specific material of the practical (diagnosis, stool, solutions and stains); the answer and a short reason sit under each question."
+  ],
+  "intro_ar": [
+   "س. اختر الإجابة الأصح مما يأتي",
+   "هذه الأسئلة تغطّي مادة العملي المميّزة (التشخيص والبراز والمحاليل والصبغات)؛ والحل وسطر سبب مختصر تحت كل سؤال."
+  ],
+  "mcq": [
+   {
+    "topic_en": "Laboratory diagnosis",
+    "topic_ar": "التشخيص المختبري"
+   },
+   {
+    "en": "Laboratory diagnosis of a parasitic infection is based on:",
+    "ar": "يعتمد التشخيص المختبري للإصابة الطفيلية على:",
+    "options": [
+     [
+      "The patient's clinical history only",
+      "القصّة السريرية للمريض فقط"
+     ],
+     [
+      "Measuring the patient's temperature",
+      "قياس حرارة المريض"
+     ],
+     [
+      "Finding the parasite or any stage of its life cycle",
+      "إيجاد الطفيلي أو أيّ مرحلة من دورة حياته"
+     ],
+     [
+      "A chest X-ray",
+      "صورة أشعّة الصدر"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "The clinical features only suggest it; the lab confirms by demonstrating the parasite itself.",
+    "note_ar": "المظاهر السريرية تُرجّح فقط؛ والمختبر يؤكّد بإظهار الطفيلي نفسه."
+   },
+   {
+    "en": "The direct microscopic examination depends on:",
+    "ar": "يعتمد الفحص المجهري المباشر على:",
+    "options": [
+     [
+      "Concentrating the sample before viewing",
+      "تركيز العيّنة قبل النظر"
+     ],
+     [
+      "Culturing the sample for 48 hours first",
+      "زرع العيّنة 48 ساعة أولًا"
+     ],
+     [
+      "Detecting antibodies in serum",
+      "كشف الأضداد في المصل"
+     ],
+     [
+      "Taking samples directly from the patient and examining them under the microscope",
+      "أخذ عيّنات مباشرةً من المريض وفحصها تحت المجهر"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "It is the simplest, most direct method — sample straight onto the slide.",
+    "note_ar": "أبسط الطرق وأكثرها مباشرةً — العيّنة مباشرةً على الشريحة."
+   },
+   {
+    "en": "The indirect laboratory method is also called the:",
+    "ar": "الطريقة المختبرية غير المباشرة تُسمّى أيضًا:",
+    "options": [
+     [
+      "Concentration method",
+      "طريقة التركيز"
+     ],
+     [
+      "Serological method",
+      "الطريقة المصلية"
+     ],
+     [
+      "Culture method",
+      "طريقة الزرع"
+     ],
+     [
+      "Clinical method",
+      "الطريقة السريرية"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "It concentrates few parasites from a large sample so they are easier to find.",
+    "note_ar": "تجمع (تركّز) الطفيليات القليلة من عيّنة كبيرة لتسهيل إيجادها."
+   },
+   {
+    "en": "The concentration (indirect) techniques include:",
+    "ar": "تشمل تقنيات التركيز (غير المباشرة):",
+    "options": [
+     [
+      "Staining and mounting",
+      "الصبغ والتثبيت"
+     ],
+     [
+      "Sedimentation and flotation",
+      "الترسيب والتطويف"
+     ],
+     [
+      "Clinical examination and history",
+      "الفحص السريري والقصّة"
+     ],
+     [
+      "Incubation and subculture",
+      "الحضانة وإعادة الزرع"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Heavy stages sink (sedimentation); light stages float up (flotation).",
+    "note_ar": "الأطوار الثقيلة تهبط (ترسيب) والخفيفة تطفو (تطويف)."
+   },
+   {
+    "en": "The most prominent culture medium used for culturing parasites is:",
+    "ar": "أبرز وسط زرعي يُستعمل في زراعة الطفيليات هو:",
+    "options": [
+     [
+      "Nutrient broth",
+      "مرق مغذّي"
+     ],
+     [
+      "Blood agar",
+      "آغار الدم"
+     ],
+     [
+      "MacConkey agar",
+      "آغار ماكونكي"
+     ],
+     [
+      "Novy–MacNeal–Nicolle (N.N.N) medium",
+      "وسط نوفي–ماكنيل–نيكول `(N.N.N)`"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "N.N.N medium is the classic medium for culturing parasites such as Leishmania.",
+    "note_ar": "وسط N.N.N هو الوسط الكلاسيكي لزراعة طفيليات مثل الليشمانيا."
+   },
+   {
+    "en": "Serological diagnosis depends on the reaction between:",
+    "ar": "يعتمد التشخيص المصلي على التفاعل بين:",
+    "options": [
+     [
+      "Anti-parasite antibodies and the parasite's antigens",
+      "الأجسام المضادة للطفيلي ومستضدات الطفيلي"
+     ],
+     [
+      "Two different stains",
+      "صبغتين مختلفتين"
+     ],
+     [
+      "The parasite and the culture medium",
+      "الطفيلي والوسط الزرعي"
+     ],
+     [
+      "Red cells and plasma",
+      "الكريات الحمر والبلازما"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "The antibodies form as a result of infection and react with the parasite antigens.",
+    "note_ar": "تتكوّن الأضداد نتيجة الإصابة وتتفاعل مع مستضدات الطفيلي."
+   },
+   {
+    "topic_en": "Stool specimens",
+    "topic_ar": "عيّنات البراز"
+   },
+   {
+    "en": "Stool examination is especially important for diagnosing:",
+    "ar": "فحص البراز مهمّ خاصّةً لتشخيص:",
+    "options": [
+     [
+      "Respiratory infections",
+      "الإصابات التنفّسية"
+     ],
+     [
+      "Skin infections",
+      "الإصابات الجلدية"
+     ],
+     [
+      "Intestinal parasitic infections",
+      "الإصابات الطفيلية المعوية"
+     ],
+     [
+      "Urinary infections",
+      "الإصابات البولية"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "It also detects helminths of the biliary tract that discharge their eggs into the intestine.",
+    "note_ar": "ويكشف أيضًا ديدان القناة الصفراوية التي تطرح بيوضها في الأمعاء."
+   },
+   {
+    "en": "In protozoan infections, the stool may show trophozoites during the active phase and ... during the chronic phase:",
+    "ar": "في إصابات الأوالي قد يُظهر البراز الأطوار المتغذّية في الطور النشط و... في الطور المزمن:",
+    "options": [
+     [
+      "Adult worms",
+      "الديدان البالغة"
+     ],
+     [
+      "Cystic forms",
+      "الأطوار المتكيّسة"
+     ],
+     [
+      "Eggs",
+      "البيوض"
+     ],
+     [
+      "Larvae",
+      "اليرقات"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Trophozoites = active phase; cysts = chronic phase (e.g. amoebiasis, giardiasis).",
+    "note_ar": "المتغذّية = الطور النشط؛ والأكياس = الطور المزمن (مثل داء الأميبات والجيارديا)."
+   },
+   {
+    "en": "In helminthic infections, the stool may contain:",
+    "ar": "في الإصابات الديدانية قد يحتوي البراز على:",
+    "options": [
+     [
+      "Adult worms, their eggs, or larvae",
+      "ديدانًا بالغة أو بيوضها أو يرقات"
+     ],
+     [
+      "Trophozoites only",
+      "الأطوار المتغذّية فقط"
+     ],
+     [
+      "Cysts only",
+      "الأكياس فقط"
+     ],
+     [
+      "Bacteria only",
+      "جراثيم فقط"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Helminths are detected as adults, eggs or larvae in the stool.",
+    "note_ar": "تُكشف الديدان في البراز كبالغة أو بيوض أو يرقات."
+   },
+   {
+    "en": "Stool should be collected into a container that is:",
+    "ar": "يُجمع البراز في وعاء:",
+    "options": [
+     [
+      "Pre-coated with a disinfectant",
+      "مطليّ مسبقًا بمطهّر"
+     ],
+     [
+      "Filled with normal saline",
+      "مملوء بالمحلول الملحي"
+     ],
+     [
+      "Clean and dry, without disinfectant",
+      "نظيف وجافّ، بدون مطهّر"
+     ],
+     [
+      "Kept warm at 37 °C",
+      "محفوظ دافئًا عند `37 °C`"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "A disinfectant would kill the parasites and ruin the sample.",
+    "note_ar": "المطهّر يقتل الطفيليات ويُفسد العيّنة."
+   },
+   {
+    "en": "A stool specimen is unacceptable if it is contaminated with:",
+    "ar": "تُرفض عيّنة البراز إذا تلوّثت بـ:",
+    "options": [
+     [
+      "The patient's name",
+      "اسم المريض"
+     ],
+     [
+      "Air",
+      "الهواء"
+     ],
+     [
+      "Light",
+      "الضوء"
+     ],
+     [
+      "Urine or water",
+      "الإدرار أو الماء"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "So collection from toilet bowls is not acceptable.",
+    "note_ar": "لذلك الجمع من أحواض المرحاض غير مقبول."
+   },
+   {
+    "en": "A stool specimen should be delivered to the laboratory within a maximum of:",
+    "ar": "يجب إيصال عيّنة البراز إلى المختبر خلال مدّة أقصاها:",
+    "options": [
+     [
+      "12 hours",
+      "12 ساعة"
+     ],
+     [
+      "2 hours",
+      "ساعتين"
+     ],
+     [
+      "24 hours",
+      "24 ساعة"
+     ],
+     [
+      "48 hours",
+      "48 ساعة"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Beyond that, bacteria multiply and trophozoites disintegrate.",
+    "note_ar": "بعدها تتكاثر البكتيريا وتتحلّل الأطوار المتغذّية."
+   },
+   {
+    "en": "A specimen that cannot be examined within 2 hours of collection should be:",
+    "ar": "العيّنة التي لا يمكن فحصها خلال ساعتين من جمعها يجب أن:",
+    "options": [
+     [
+      "Mixed with disinfectant",
+      "تُخلط بمطهّر"
+     ],
+     [
+      "Left at room temperature",
+      "تُترك بحرارة الغرفة"
+     ],
+     [
+      "Frozen and thawed twice",
+      "تُجمّد وتُذاب مرّتين"
+     ],
+     [
+      "Placed in transport medium and refrigerated immediately",
+      "توضع في وسط نقل وتُبرَّد فورًا"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Transport medium plus refrigeration preserves the parasites until examination.",
+    "note_ar": "وسط النقل مع التبريد يحفظ الطفيليات حتى الفحص."
+   },
+   {
+    "en": "Fresh stool is required because, if the sample is delayed:",
+    "ar": "يُشترط براز طازج لأن تأخّر العيّنة:",
+    "options": [
+     [
+      "It becomes more infective",
+      "يجعلها أكثر عدوى"
+     ],
+     [
+      "It changes colour only",
+      "يغيّر لونها فقط"
+     ],
+     [
+      "Its bacteria multiply and the results become inaccurate",
+      "يجعل بكتيرياها تتكاثر فتصبح النتائج غير دقيقة"
+     ],
+     [
+      "It has no effect at all",
+      "لا يؤثّر إطلاقًا"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "The bacterial levels no longer match those in the gut, so the test misleads.",
+    "note_ar": "تصبح مستويات البكتيريا غير مطابقة لما في الأمعاء، فيُضلّل الفحص."
+   },
+   {
+    "topic_en": "Iodine stain",
+    "topic_ar": "صبغة اليود"
+   },
+   {
+    "en": "Besides distilled water and iodine crystals, the iodine stain is prepared with:",
+    "ar": "إلى جانب الماء المقطّر وبلّورات اليود، تُحضَّر صبغة اليود بـ:",
+    "options": [
+     [
+      "Potassium iodide",
+      "يوديد البوتاسيوم"
+     ],
+     [
+      "Sodium chloride",
+      "كلوريد الصوديوم"
+     ],
+     [
+      "Methylene blue",
+      "أزرق الميثيلين"
+     ],
+     [
+      "Glycerol",
+      "الغليسيرول"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Composition: distilled water 100 ml, potassium iodide 10 g, iodine crystals 5 g.",
+    "note_ar": "التركيب: ماء مقطّر `100 ml`، يوديد البوتاسيوم `10 g`، بلّورات اليود `5 g`."
+   },
+   {
+    "en": "The iodine stain is used to detect the parasite's:",
+    "ar": "تُستعمل صبغة اليود للكشف عن:",
+    "options": [
+     [
+      "Motion",
+      "حركة الطفيلي"
+     ],
+     [
+      "Structures, nuclei and cell membranes",
+      "تراكيب الطفيلي والأنوية والأغشية الخلوية"
+     ],
+     [
+      "Antigens",
+      "مستضدات الطفيلي"
+     ],
+     [
+      "Culture",
+      "زرع الطفيلي"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Iodine fixes and stains internal structures, so the parasite is no longer motile.",
+    "note_ar": "اليود يثبّت ويصبغ التراكيب الداخلية، فلا يبقى الطفيلي متحرّكًا."
+   },
+   {
+    "en": "The colour of the iodine stain is:",
+    "ar": "لون صبغة اليود هو:",
+    "options": [
+     [
+      "Green",
+      "أخضر"
+     ],
+     [
+      "Blue",
+      "أزرق"
+     ],
+     [
+      "Reddish-brown",
+      "بنّي محمرّ"
+     ],
+     [
+      "Colourless",
+      "عديم اللون"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "A reddish-brown solution that tints the parasite structures.",
+    "note_ar": "محلول بنّي محمرّ يُلوّن تراكيب الطفيلي."
+   },
+   {
+    "topic_en": "Physiological (normal) saline",
+    "topic_ar": "المحلول الملحي الفسلجي"
+   },
+   {
+    "en": "Physiological (normal) saline is prepared from distilled water and:",
+    "ar": "يُحضَّر المحلول الملحي الفسلجي من الماء المقطّر و:",
+    "options": [
+     [
+      "8.5 g glucose",
+      "`8.5 g` غلوكوز"
+     ],
+     [
+      "10 g potassium iodide",
+      "`10 g` يوديد البوتاسيوم"
+     ],
+     [
+      "5 g iodine crystals",
+      "`5 g` بلّورات اليود"
+     ],
+     [
+      "8.5 g sodium chloride",
+      "`8.5 g` كلوريد الصوديوم"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Normal saline: sodium chloride 8.5 g in 100 ml distilled water.",
+    "note_ar": "المحلول الملحي: كلوريد الصوديوم `8.5 g` في `100 ml` ماء مقطّر."
+   },
+   {
+    "en": "Physiological saline is used mainly to detect the parasite's:",
+    "ar": "يُستعمل المحلول الملحي الفسلجي أساسًا للكشف عن:",
+    "options": [
+     [
+      "Motion",
+      "حركة الطفيلي"
+     ],
+     [
+      "Nuclei",
+      "أنوية الطفيلي"
+     ],
+     [
+      "Cell membranes",
+      "الأغشية الخلوية"
+     ],
+     [
+      "Antibodies",
+      "الأضداد"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "It keeps the parasite alive and isotonic, so its movement can be seen.",
+    "note_ar": "يُبقي الطفيلي حيًّا ومتساوي التوتّر، فتُرى حركته."
+   },
+   {
+    "topic_en": "Giemsa stain",
+    "topic_ar": "صبغة كيمزا"
+   },
+   {
+    "en": "Giemsa stain is used mainly to diagnose:",
+    "ar": "تُستعمل صبغة كيمزا أساسًا لتشخيص:",
+    "options": [
+     [
+      "Urinary tract infections",
+      "إصابات المسالك البولية"
+     ],
+     [
+      "Blood-related diseases and to identify parasites",
+      "الأمراض المتعلّقة بالدم والتعرّف على الطفيليات"
+     ],
+     [
+      "Skin fungal infections",
+      "الإصابات الفطرية الجلدية"
+     ],
+     [
+      "Bone fractures",
+      "كسور العظام"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Widely used in microbiology, parasitology and cytogenetics on blood smears.",
+    "note_ar": "تُستعمل بكثرة في الأحياء المجهرية والطفيليات والوراثة الخلوية على مسحات الدم."
+   },
+   {
+    "en": "In Giemsa stain, the basic dye that stains acidic cellular components (nucleic acids) is:",
+    "ar": "في صبغة كيمزا، الصبغة القاعدية التي تصبغ المكوّنات الخلوية الحامضية (الأحماض النووية) هي:",
+    "options": [
+     [
+      "Methylene blue",
+      "أزرق الميثيلين"
+     ],
+     [
+      "Eosin",
+      "الأيوسين"
+     ],
+     [
+      "Azure B",
+      "الأزور ب"
+     ],
+     [
+      "Glycerol",
+      "الغليسيرول"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Methylene blue is basic, so it binds acidic DNA and RNA.",
+    "note_ar": "أزرق الميثيلين قاعدي، فيرتبط بالـ `DNA` و`RNA` الحامضية."
+   },
+   {
+    "en": "In Giemsa stain, Eosin is an acidic dye that stains basic components and gives them a colour that is:",
+    "ar": "في صبغة كيمزا، الأيوسين صبغة حامضية تصبغ المكوّنات القاعدية وتعطيها لونًا:",
+    "options": [
+     [
+      "Deep blue",
+      "أزرق غامقًا"
+     ],
+     [
+      "Pink",
+      "ورديًّا"
+     ],
+     [
+      "Black",
+      "أسود"
+     ],
+     [
+      "Green",
+      "أخضر"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "Eosin stains basic cytoplasmic proteins pink.",
+    "note_ar": "يصبغ الأيوسين بروتينات السايتوبلازم القاعدية باللون الوردي."
+   },
+   {
+    "en": "In Giemsa stain, the component that enhances the staining of nucleic acids (strong differentiation of chromosomal material) is:",
+    "ar": "في صبغة كيمزا، المكوّن الذي يعزّز صبغ الأحماض النووية (تمييز قويّ للمادة الكروموسومية) هو:",
+    "options": [
+     [
+      "Distilled water",
+      "الماء المقطّر"
+     ],
+     [
+      "Methylene blue",
+      "أزرق الميثيلين"
+     ],
+     [
+      "Eosin",
+      "الأيوسين"
+     ],
+     [
+      "Azure B",
+      "الأزور ب"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "Azure B sharpens the contrast of the chromatin.",
+    "note_ar": "يزيد الأزور ب حدّة تمايز الصبغين (الكروماتين)."
+   },
+   {
+    "en": "In Giemsa stain, the solvents used to dissolve the stain components are:",
+    "ar": "في صبغة كيمزا، المذيبان المستعملان لإذابة مكوّنات الصبغة هما:",
+    "options": [
+     [
+      "Xylene and oil",
+      "الزايلين والزيت"
+     ],
+     [
+      "Alcohol and acetone",
+      "الكحول والأسيتون"
+     ],
+     [
+      "Glycerol and distilled water",
+      "الغليسيرول والماء المقطّر"
+     ],
+     [
+      "Formalin and ether",
+      "الفورمالين والإيثر"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Glycerol with distilled water dissolves the dyes and readies the stain for use.",
+    "note_ar": "الغليسيرول مع الماء المقطّر يذيب الصبغات ويجهّزها للاستعمال."
+   },
+   {
+    "topic_en": "Leishman stain",
+    "topic_ar": "صبغة ليشمان"
+   },
+   {
+    "en": "Leishman stain is commonly used to examine:",
+    "ar": "تُستعمل صبغة ليشمان عادةً لفحص:",
+    "options": [
+     [
+      "Stool concentrates",
+      "مركّزات البراز"
+     ],
+     [
+      "Blood smears (differentiating WBCs, RBCs and platelets)",
+      "مسحات الدم (تمييز الكريات البيض والحمر والصفيحات)"
+     ],
+     [
+      "Urine deposits",
+      "رواسب الإدرار"
+     ],
+     [
+      "Skin scrapings only",
+      "كشطات الجلد فقط"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "It is a Romanowsky blood stain for blood cell differentiation.",
+    "note_ar": "صبغة دم من نوع رومانوفسكي لتمييز خلايا الدم."
+   },
+   {
+    "en": "Leishman stain helps identify blood-borne parasites, particularly:",
+    "ar": "تساعد صبغة ليشمان على التعرّف على الطفيليات المنقولة بالدم، ولا سيّما:",
+    "options": [
+     [
+      "Trichomonas and Chilomastix",
+      "المشعرة والكيلوماستكس"
+     ],
+     [
+      "Giardia and Entamoeba",
+      "الجيارديا والأميبا"
+     ],
+     [
+      "Leishmania and Plasmodium",
+      "الليشمانيا والبلازموديوم"
+     ],
+     [
+      "Taenia and Echinococcus",
+      "الشريطية والمشوكة"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "Leishmania causes leishmaniasis and Plasmodium causes malaria — both seen in blood.",
+    "note_ar": "الليشمانيا تسبّب داء الليشمانيات والبلازموديوم يسبّب الملاريا — وكلاهما يُرى في الدم."
+   },
+   {
+    "topic_en": "Hosts & vectors (lab emphasis)",
+    "topic_ar": "المضائف والنواقل (تأكيد عملي)"
+   },
+   {
+    "en": "An animal species on which the parasite depends for survival in nature and that acts as a source of infection is the:",
+    "ar": "النوع الحيواني الذي يعتمد عليه الطفيلي لبقائه في الطبيعة ويعمل مصدرًا للعدوى هو:",
+    "options": [
+     [
+      "Paratenic host",
+      "المضيف الناقل"
+     ],
+     [
+      "Definitive host",
+      "المضيف النهائي"
+     ],
+     [
+      "Intermediate host",
+      "المضيف الوسطي"
+     ],
+     [
+      "Reservoir host",
+      "المضيف الخازن"
+     ]
+    ],
+    "answer": "d",
+    "note_en": "The reservoir host maintains the parasite in nature and can infect others, including man.",
+    "note_ar": "المضيف الخازن يحفظ الطفيلي في الطبيعة وقد يُعدي غيره ومنهم الإنسان."
+   },
+   {
+    "en": "A transport (carrier) host in which the parasite stays viable without further development is the:",
+    "ar": "المضيف الحامل (الناقل) الذي يبقى فيه الطفيلي حيًّا دون تطوّر إضافي هو:",
+    "options": [
+     [
+      "Paratenic host",
+      "المضيف الناقل"
+     ],
+     [
+      "Reservoir host",
+      "المضيف الخازن"
+     ],
+     [
+      "Definitive host",
+      "المضيف النهائي"
+     ],
+     [
+      "Intermediate host",
+      "المضيف الوسطي"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "The parasite neither gains nor loses infectivity in the paratenic host.",
+    "note_ar": "لا يكسب الطفيلي ولا يفقد قدرته على العدوى في المضيف الناقل."
+   },
+   {
+    "en": "A vector that is essential for the parasite's life cycle (e.g. the female Anopheles) is a:",
+    "ar": "الناقل الضروري لدورة حياة الطفيلي (مثل أنثى الأنوفيلس) هو:",
+    "options": [
+     [
+      "Mechanical vector",
+      "ناقل ميكانيكي"
+     ],
+     [
+      "Biological vector",
+      "ناقل حيوي"
+     ],
+     [
+      "Paratenic host",
+      "مضيف ناقل"
+     ],
+     [
+      "Reservoir host",
+      "مضيف خازن"
+     ]
+    ],
+    "answer": "b",
+    "note_en": "In a mechanical vector (e.g. the house fly) the parasite is only carried, not essential to its cycle.",
+    "note_ar": "أما الناقل الميكانيكي (مثل الذبابة المنزلية) فيَحمل الطفيلي فقط دون أن يكون ضروريًّا لدورته."
+   },
+   {
+    "en": "A disease transmitted from animals to humans (incidentally or commonly) is called:",
+    "ar": "المرض الذي ينتقل من الحيوان إلى الإنسان (صدفةً أو بشكل شائع) يُسمّى:",
+    "options": [
+     [
+      "Zoonosis",
+      "الأمراض المشتركة `(Zoonosis)`"
+     ],
+     [
+      "Symbiosis",
+      "التكافل"
+     ],
+     [
+      "Commensalism",
+      "المعايشة"
+     ],
+     [
+      "Mutualism",
+      "التبادل المنفعي"
+     ]
+    ],
+    "answer": "a",
+    "note_en": "Zoonosis = an animal disease that can infect humans.",
+    "note_ar": "الأمراض المشتركة = مرض حيواني قد يُصيب الإنسان."
+   },
+   {
+    "en": "A parasite that produces disease only in immunodeficient hosts is called:",
+    "ar": "الطفيلي الذي يُحدث المرض فقط في المضائف ناقصة المناعة يُسمّى:",
+    "options": [
+     [
+      "Facultative parasite",
+      "الطفيلي الاختياري"
+     ],
+     [
+      "Obligatory parasite",
+      "الطفيلي الإجباري"
+     ],
+     [
+      "Opportunistic parasite",
+      "الطفيلي الانتهازي"
+     ],
+     [
+      "Permanent parasite",
+      "الطفيلي الدائم"
+     ]
+    ],
+    "answer": "c",
+    "note_en": "In healthy hosts it stays harmless; it strikes when immunity drops.",
+    "note_ar": "يبقى غير مؤذٍ في المضيف السليم ويهاجم عند ضعف المناعة."
+   }
+  ],
+  "tf": [],
+  "traps": [],
+  "important": []
+ }
+}
