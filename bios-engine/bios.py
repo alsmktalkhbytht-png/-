@@ -378,13 +378,13 @@ def inline_answer(q):
         ks = [k for k in str(ans).upper().replace(" ", "").split(",") if k]
         body = " · ".join(f'<b>{key_letter(k)}</b> {md(opts[key_letter(k)][0]) if key_letter(k) in opts else ""}' for k in ks)
         body_ar = " · ".join(f'<bdi dir="rtl"><b><bdi dir="ltr">{key_letter(k)}</bdi></b> — <bdi dir="rtl">{md(opts[key_letter(k)][1]) if key_letter(k) in opts else ""}</bdi></bdi>' for k in ks)
-        line = (f'<div class="qans"><span dir="ltr">Answer: {body}</span>'
+        line = (f'<div class="qans">' + ('' if M.get("arabic_only") else f'<span dir="ltr">Answer: {body}</span>') +
                 f'<span dir="rtl">الحل: {body_ar}</span></div>')
     else:
         line = ('<div class="qans none"><span dir="ltr">⚠ Not solved in the source file</span>'
                 '<span dir="rtl">⚠ غير محلول في الملف الأصلي</span></div>')
-    if q.get("note_en"):
-        line += (f'<div class="qflag"><span class="pill">BIOS</span>{en(q["note_en"])}{ar(q["note_ar"])}</div>')
+    if q.get("note_en") or q.get("note_ar"):   # arabic-only banks carry note_ar alone
+        line += (f'<div class="qflag"><span class="pill">BIOS</span>{en(q["note_en"]) if q.get("note_en") else ""}{ar(q["note_ar"])}</div>')
     return line
 
 
