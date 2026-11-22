@@ -1,0 +1,1527 @@
+{
+ "meta": {
+  "subject_en": "Diagnostic Microbiology",
+  "subject_ar": "الأحياء المجهرية التشخيصية",
+  "short_ar": "بكتريا",
+  "instructor": "د. هبة سامي",
+  "unit_en": "Lab 3",
+  "unit_ar": "العملي 3",
+  "unit_label": "LAB",
+  "unit_no": "3",
+  "title_en": "Culture Media",
+  "title_ar": "الأوساط الزرعية",
+  "department": "قسم التحليلات",
+  "kind": "Laboratories — عملي",
+  "questions_kind": "MCQ — أسئلة اختيار",
+  "stage": "The fourth stage — الرابعة",
+  "file_name": "BIOS - بكتريا عملي المحاضرة الثالثة - بنك أسئلة شامل بالصور"
+ },
+ "questions": {
+  "title_en": "Culture Media — Comprehensive MCQs (with figures)",
+  "title_ar": "الأوساط الزرعية — أسئلة اختيار شاملة (مع الصور)",
+  "sub": "MCQ",
+  "answers_inline": true,
+  "compact": true,
+  "mcq_per_page": 4,
+  "mcq_en": "Comprehensive MCQs — Lab 3",
+  "mcq_ar": "أسئلة اختيار شاملة — العملي الثالث",
+  "intro_en": [
+   "Q. Select the most correct answer from the followings",
+   "These MCQs cover the whole lab with its own pictures; the answer and a short reason sit under each question. A BIOS note points out slide errors (factor V is NAD, not DNA; “50% C” means 50 °C)."
+  ],
+  "intro_ar": [
+   "س. اختر الإجابة الأصح مما يأتي",
+   "هذه الأسئلة تغطّي العملي كاملًا بصوره نفسها؛ والحل وسطر سبب مختصر تحت كل سؤال. وملاحظة BIOS تنبّه على أخطاء الشرائح (العامل V هو NAD لا DNA؛ و«50% C» يعني 50 درجة مئوية)."
+  ],
+  "mcq": [
+   {
+    "topic_en": "Culture medium — definition and composition",
+    "topic_ar": "الوسط الزرعي — التعريف والمكوّنات"
+   },
+   {
+    "en": "A culture medium is defined as a solid, liquid or semi-solid preparation used for:",
+    "ar": "يُعرَّف الوسط الزرعي بأنه مستحضر صلب أو سائل أو شبه صلب يُستعمل لـ:",
+    "options": [
+     [
+      "Staining microorganisms only",
+      "تصبيغ الكائنات الدقيقة فقط"
+     ],
+     [
+      "Killing microorganisms",
+      "قتل الكائنات الدقيقة"
+     ],
+     [
+      "Growth, transport and storage of microorganisms",
+      "نمو الكائنات الدقيقة ونقلها وخزنها"
+     ],
+     [
+      "Sterilizing specimens",
+      "تعقيم العيّنات"
+     ]
+    ],
+    "note_en": "The three underlined words: growth, transport, storage.",
+    "note_ar": "الكلمات الثلاث المسطَّرة: النمو، النقل، الخزن.",
+    "answer": "c"
+   },
+   {
+    "en": "The carbon source in culture media is:",
+    "ar": "مصدر الكربون في الأوساط الزرعية:",
+    "options": [
+     [
+      "Glucose",
+      "الغلوكوز"
+     ],
+     [
+      "Protein",
+      "البروتين"
+     ],
+     [
+      "NaCl",
+      "كلوريد الصوديوم"
+     ],
+     [
+      "Vitamins",
+      "الفيتامينات"
+     ]
+    ],
+    "note_en": "Carbon → glucose; nitrogen → protein; minerals → NaCl.",
+    "note_ar": "الكربون ← الغلوكوز؛ النيتروجين ← البروتين؛ المعادن ← NaCl.",
+    "answer": "a"
+   },
+   {
+    "en": "The nitrogen source in culture media is:",
+    "ar": "مصدر النيتروجين في الأوساط الزرعية:",
+    "options": [
+     [
+      "Hormones",
+      "الهرمونات"
+     ],
+     [
+      "Glucose",
+      "الغلوكوز"
+     ],
+     [
+      "Water",
+      "الماء"
+     ],
+     [
+      "Protein",
+      "البروتين"
+     ]
+    ],
+    "note_en": "Nitrogen source (protein).",
+    "note_ar": "مصدر النيتروجين (البروتين).",
+    "answer": "d"
+   },
+   {
+    "en": "Vitamins and hormones in culture media are classified as:",
+    "ar": "تُصنَّف الفيتامينات والهرمونات في الأوساط الزرعية على أنها:",
+    "options": [
+     [
+      "Carbon source",
+      "مصدر كربون"
+     ],
+     [
+      "Special growth factors",
+      "عوامل نمو خاصة"
+     ],
+     [
+      "Nitrogen source",
+      "مصدر نيتروجين"
+     ],
+     [
+      "Mineral salts",
+      "أملاح معدنية"
+     ]
+    ],
+    "note_en": "Special growth factors (vitamins, hormone, …).",
+    "note_ar": "عوامل النمو الخاصة (الفيتامينات، الهرمونات، …).",
+    "answer": "b"
+   },
+   {
+    "en": "The composition of culture media includes:",
+    "ar": "تشمل مكوّنات الأوساط الزرعية:",
+    "options": [
+     [
+      "Water",
+      "الماء"
+     ],
+     [
+      "Carbon and nitrogen sources",
+      "مصدرَي الكربون والنيتروجين"
+     ],
+     [
+      "Mineral salts and special growth factors",
+      "الأملاح المعدنية وعوامل النمو الخاصة"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "note_en": "Five components: water, carbon, nitrogen, mineral salts, special growth factors.",
+    "note_ar": "خمسة مكوّنات: الماء، الكربون، النيتروجين، الأملاح المعدنية، عوامل النمو الخاصة.",
+    "answer": "d"
+   },
+   {
+    "topic_en": "Types of culture media",
+    "topic_ar": "أنواع الأوساط الزرعية"
+   },
+   {
+    "en": "Culture media are classified based on physical state (density, consistency) into:",
+    "ar": "تُصنَّف الأوساط الزرعية حسب الحالة الفيزيائية (الكثافة، القوام) إلى:",
+    "options": [
+     [
+      "Aerobic and anaerobic",
+      "هوائية ولاهوائية"
+     ],
+     [
+      "General, enriched and selective",
+      "عامة، مُغناة، انتقائية"
+     ],
+     [
+      "Differential and transport",
+      "تفريقية ونقل"
+     ],
+     [
+      "Liquid, semi-solid and solid",
+      "سائلة، شبه صلبة، صلبة"
+     ]
+    ],
+    "note_en": "Two classifications: physical state (3 types) and function (6 types).",
+    "note_ar": "تصنيفان: الحالة الفيزيائية (3 أنواع) والوظيفة (6 أنواع).",
+    "answer": "d"
+   },
+   {
+    "en": "Which of the following is NOT a functional class of culture media on the slide?",
+    "ar": "أيّ مما يأتي ليس من أصناف الأوساط حسب الوظيفة في الشريحة؟",
+    "options": [
+     [
+      "Enriched media",
+      "الأوساط المُغناة"
+     ],
+     [
+      "Semi-solid media",
+      "الأوساط شبه الصلبة"
+     ],
+     [
+      "Transport media",
+      "أوساط النقل"
+     ],
+     [
+      "Anaerobic media",
+      "الأوساط اللاهوائية"
+     ]
+    ],
+    "note_en": "Semi-solid is a physical-state class. By function: general, enriched, selective, differential, transport, anaerobic.",
+    "note_ar": "شبه الصلب تصنيف حسب الحالة الفيزيائية. حسب الوظيفة: عامة، مُغناة، انتقائية، تفريقية، نقل، لاهوائية.",
+    "answer": "b"
+   },
+   {
+    "en": "The number of culture media types based on function is:",
+    "ar": "عدد أنواع الأوساط الزرعية حسب الوظيفة:",
+    "options": [
+     [
+      "4",
+      "4"
+     ],
+     [
+      "3",
+      "3"
+     ],
+     [
+      "6",
+      "6"
+     ],
+     [
+      "5",
+      "5"
+     ]
+    ],
+    "note_en": "a–f: general, enriched, selective, differential, transport, anaerobic.",
+    "note_ar": "من أ إلى و: عامة، مُغناة، انتقائية، تفريقية، نقل، لاهوائية.",
+    "answer": "c"
+   },
+   {
+    "topic_en": "Classification based on density",
+    "topic_ar": "التصنيف حسب الكثافة"
+   },
+   {
+    "en": "Solid media contain agar at a concentration of:",
+    "ar": "تحتوي الأوساط الصلبة على الأجار بتركيز:",
+    "options": [
+     [
+      "2%",
+      "2%"
+     ],
+     [
+      "0.5%",
+      "0.5%"
+     ],
+     [
+      "10%",
+      "10%"
+     ],
+     [
+      "0%",
+      "0%"
+     ]
+    ],
+    "note_en": "Solid 2%; semi-solid 0.5%; liquid no solidifying agent.",
+    "note_ar": "الصلب 2%؛ شبه الصلب 0.5%؛ السائل بلا مادة مصلِّبة.",
+    "answer": "a"
+   },
+   {
+    "en": "Solid media are useful for:",
+    "ar": "الأوساط الصلبة مفيدة لـ:",
+    "options": [
+     [
+      "Isolation of bacteria and determining morphology, pigmentation and hemolysis",
+      "عزل البكتيريا وتحديد الشكل والصبغة والتحلّل الدموي"
+     ],
+     [
+      "Determining motility",
+      "تحديد الحركة"
+     ],
+     [
+      "Fermentation studies only",
+      "دراسات التخمّر فقط"
+     ],
+     [
+      "Cultivating microaerophilic bacteria only",
+      "زرع البكتيريا المحبّة لقليل من الأكسجين فقط"
+     ]
+    ],
+    "note_en": "Solid media → isolation + colony features.",
+    "note_ar": "الصلبة ← العزل + صفات المستعمرة.",
+    "answer": "a"
+   },
+   {
+    "en": "A colony is:",
+    "ar": "المستعمرة هي:",
+    "options": [
+     [
+      "A zone of hemolysis",
+      "منطقة تحلّل دموي"
+     ],
+     [
+      "Growth of bacteria in broth",
+      "نمو البكتيريا في المرق"
+     ],
+     [
+      "A group of different bacteria from many cells",
+      "مجموعة بكتيريا مختلفة من خلايا كثيرة"
+     ],
+     [
+      "Visible growth of bacteria on the surface of a solid medium arising from a single cell",
+      "نمو بكتيري مرئي على سطح وسط صلب ينشأ من خلية واحدة"
+     ]
+    ],
+    "note_en": "Key words: visible, solid medium, single cell.",
+    "note_ar": "الكلمات المفتاحية: مرئي، وسط صلب، خلية واحدة.",
+    "answer": "d"
+   },
+   {
+    "en": "Semi-solid media are prepared with agar at a concentration of:",
+    "ar": "تُحضَّر الأوساط شبه الصلبة بأجار بتركيز:",
+    "options": [
+     [
+      "2%",
+      "2%"
+     ],
+     [
+      "0.5%",
+      "0.5%"
+     ],
+     [
+      "5%",
+      "5%"
+     ],
+     [
+      "10%",
+      "10%"
+     ]
+    ],
+    "note_en": "Semi-solid = 0.5% agar.",
+    "note_ar": "شبه الصلب = أجار 0.5%.",
+    "answer": "b"
+   },
+   {
+    "en": "Semi-solid media are useful for:",
+    "ar": "الأوساط شبه الصلبة مفيدة لـ:",
+    "options": [
+     [
+      "Propagation of large numbers of organisms",
+      "إكثار أعداد كبيرة من الكائنات"
+     ],
+     [
+      "Determining hemolysis",
+      "تحديد التحلّل الدموي"
+     ],
+     [
+      "Cultivation of microaerophilic bacteria and determination of motility",
+      "زرع البكتيريا المحبّة لقليل من الأكسجين وتحديد الحركة"
+     ],
+     [
+      "Transport of specimens",
+      "نقل العيّنات"
+     ]
+    ],
+    "note_en": "Semi-solid → microaerophilic bacteria + motility.",
+    "note_ar": "شبه الصلب ← المحبّة لقليل من الأكسجين + الحركة.",
+    "answer": "c"
+   },
+   {
+    "en": "Liquid (broth) media are:",
+    "ar": "الأوساط السائلة (المرق) هي:",
+    "options": [
+     [
+      "Used only for transport",
+      "تُستعمل للنقل فقط"
+     ],
+     [
+      "Contain 2% agar for isolation",
+      "تحتوي 2% أجار للعزل"
+     ],
+     [
+      "Contain 0.5% agar for motility",
+      "تحتوي 0.5% أجار للحركة"
+     ],
+     [
+      "Without solidifying agents, useful for propagation of large numbers of organisms and fermentation studies",
+      "بلا مواد مصلِّبة، ومفيدة لإكثار أعداد كبيرة من الكائنات ودراسات التخمّر"
+     ]
+    ],
+    "note_en": "Broth = no agar.",
+    "note_ar": "المرق = بلا أجار.",
+    "answer": "d"
+   },
+   {
+    "en": "Bacterial motility is determined using:",
+    "ar": "تُحدَّد حركة البكتيريا باستعمال:",
+    "options": [
+     [
+      "Transport medium",
+      "وسط النقل"
+     ],
+     [
+      "Solid medium",
+      "الوسط الصلب"
+     ],
+     [
+      "Semi-solid medium",
+      "الوسط شبه الصلب"
+     ],
+     [
+      "Chocolate agar",
+      "أجار الشوكولاتة"
+     ]
+    ],
+    "note_en": "Motility needs a soft (0.5%) medium.",
+    "note_ar": "الحركة تحتاج وسطًا طريًّا (0.5%).",
+    "answer": "c"
+   },
+   {
+    "topic_en": "1. General purpose (basic) media",
+    "topic_ar": "1. الأوساط العامة (الأساسية)"
+   },
+   {
+    "en": "General purpose (basic) media are simple media that:",
+    "ar": "الأوساط العامة (الأساسية) أوساط بسيطة:",
+    "options": [
+     [
+      "Inhibit most bacteria",
+      "تثبّط معظم البكتيريا"
+     ],
+     [
+      "Support most bacteria and are used for primary isolation; they contain peptone and meat extract",
+      "تدعم معظم البكتيريا وتُستعمل للعزل الأولي؛ وتحتوي الببتون ومستخلص اللحم"
+     ],
+     [
+      "Contain blood for fastidious bacteria",
+      "تحتوي الدم للبكتيريا صعبة النمو"
+     ],
+     [
+      "Contain an indicator dye",
+      "تحتوي صبغة مؤشِّرة"
+     ]
+    ],
+    "note_en": "Basic media = peptone + meat extract.",
+    "note_ar": "الأساسية = ببتون + مستخلص لحم.",
+    "answer": "b"
+   },
+   {
+    "en": "The medium in the image is:",
+    "ar": "الوسط في الصورة هو:",
+    "options": [
+     [
+      "Nutrient agar",
+      "الأجار المغذّي"
+     ],
+     [
+      "Blood agar",
+      "أجار الدم"
+     ],
+     [
+      "MacConkey agar",
+      "أجار ماكونكي"
+     ],
+     [
+      "Chocolate agar",
+      "أجار الشوكولاتة"
+     ]
+    ],
+    "note_en": "Figure (1): nutrient agar — a general purpose medium.",
+    "note_ar": "الشكل (1): الأجار المغذّي — وسط عام.",
+    "answer": "a",
+    "img": "assets/nutrient_agar.jpg",
+    "img_h": "34mm"
+   },
+   {
+    "en": "The tube in the image contains:",
+    "ar": "الأنبوب في الصورة يحتوي:",
+    "options": [
+     [
+      "Transport medium",
+      "وسط نقل"
+     ],
+     [
+      "Nutrient agar slant",
+      "أجار مغذّي مائل"
+     ],
+     [
+      "Blood culture",
+      "زرع دم"
+     ],
+     [
+      "Nutrient broth",
+      "المرق المغذّي"
+     ]
+    ],
+    "note_en": "Figure (2): nutrient broth — a liquid general purpose medium.",
+    "note_ar": "الشكل (2): المرق المغذّي — وسط عام سائل.",
+    "answer": "d",
+    "img": "assets/nutrient_broth.jpg",
+    "img_h": "34mm"
+   },
+   {
+    "topic_en": "2. Enriched medium",
+    "topic_ar": "2. الوسط المُغنى"
+   },
+   {
+    "en": "Enriched media are made by addition of extra nutrients in the form of:",
+    "ar": "تُحضَّر الأوساط المُغناة بإضافة عناصر غذائية إضافية بشكل:",
+    "options": [
+     [
+      "Blood, serum and egg yolk",
+      "الدم والمصل وصفار البيض"
+     ],
+     [
+      "Bile salts and crystal violet",
+      "الأملاح الصفراوية والبنفسج البلّوري"
+     ],
+     [
+      "Antibiotics",
+      "المضادات الحيوية"
+     ],
+     [
+      "10% NaCl",
+      "10% كلوريد الصوديوم"
+     ]
+    ],
+    "note_en": "Enriched = extra nutrients.",
+    "note_ar": "المُغنى = عناصر غذائية إضافية.",
+    "answer": "a"
+   },
+   {
+    "en": "Enriched media are used to grow:",
+    "ar": "تُستعمل الأوساط المُغناة لإنماء:",
+    "options": [
+     [
+      "Gram-positive bacteria only",
+      "موجبة غرام فقط"
+     ],
+     [
+      "Anaerobic bacteria only",
+      "البكتيريا اللاهوائية فقط"
+     ],
+     [
+      "Fastidious bacteria",
+      "البكتيريا صعبة النمو (المتطلِّبة)"
+     ],
+     [
+      "Lactose fermenters only",
+      "المخمِّرة للاكتوز فقط"
+     ]
+    ],
+    "note_en": "Highlighted on the slide: fastidious bacteria (e.g. blood agar).",
+    "note_ar": "مظلَّلة بالشريحة: البكتيريا صعبة النمو (مثل أجار الدم).",
+    "answer": "c"
+   },
+   {
+    "en": "The medium in the image is:",
+    "ar": "الوسط في الصورة هو:",
+    "options": [
+     [
+      "Chocolate agar",
+      "أجار الشوكولاتة"
+     ],
+     [
+      "Blood agar",
+      "أجار الدم"
+     ],
+     [
+      "MacConkey agar",
+      "أجار ماكونكي"
+     ],
+     [
+      "Mannitol salt agar",
+      "أجار ملح المانيتول"
+     ]
+    ],
+    "note_en": "Figure (3): blood agar — bright red.",
+    "note_ar": "الشكل (3): أجار الدم — أحمر زاهٍ.",
+    "answer": "b",
+    "img": "assets/blood_agar.jpg",
+    "img_h": "34mm"
+   },
+   {
+    "en": "The medium in the image is:",
+    "ar": "الوسط في الصورة هو:",
+    "options": [
+     [
+      "Nutrient agar",
+      "الأجار المغذّي"
+     ],
+     [
+      "Blood agar",
+      "أجار الدم"
+     ],
+     [
+      "Chocolate agar",
+      "أجار الشوكولاتة"
+     ],
+     [
+      "EMB agar",
+      "أجار `EMB`"
+     ]
+    ],
+    "note_en": "Figure (4): chocolate agar — brown, lysed blood.",
+    "note_ar": "الشكل (4): أجار الشوكولاتة — بنّي، دم متحلّل.",
+    "answer": "c",
+    "img": "assets/chocolate_agar.jpg",
+    "img_h": "34mm"
+   },
+   {
+    "en": "Chocolate blood agar (CBA) is blood agar whose red blood cells have been lysed by:",
+    "ar": "أجار الدم الشوكولاتي `(CBA)` هو أجار دم حُلّلت كرياته الحمر بـ:",
+    "options": [
+     [
+      "Adding chocolate",
+      "إضافة الشوكولاتة"
+     ],
+     [
+      "Adding bile salts",
+      "إضافة الأملاح الصفراوية"
+     ],
+     [
+      "Freezing at `-70 ºC`",
+      "التجميد عند `-70 ºC`"
+     ],
+     [
+      "Slowly heating to `80 ºC`",
+      "التسخين البطيء إلى `80 ºC`"
+     ]
+    ],
+    "note_en": "Slow heating to 80 °C lyses the RBCs.",
+    "note_ar": "التسخين البطيء إلى 80 درجة يحلّل الكريات الحمر.",
+    "answer": "d"
+   },
+   {
+    "en": "Chocolate agar got its name from:",
+    "ar": "سُمّي أجار الشوكولاتة بهذا الاسم بسبب:",
+    "options": [
+     [
+      "Its chocolate content",
+      "احتوائه على الشوكولاتة"
+     ],
+     [
+      "Its color — it contains no chocolate products",
+      "لونه — ولا يحتوي أي منتجات شوكولاتة"
+     ],
+     [
+      "The scientist who discovered it",
+      "العالِم الذي اكتشفه"
+     ],
+     [
+      "Its smell",
+      "رائحته"
+     ]
+    ],
+    "note_en": "Note on the slide.",
+    "note_ar": "ملاحظة الشريحة.",
+    "answer": "b"
+   },
+   {
+    "en": "Chocolate agar is used for growing fastidious bacteria such as:",
+    "ar": "يُستعمل أجار الشوكولاتة لإنماء البكتيريا صعبة النمو مثل:",
+    "options": [
+     [
+      "__Haemophilus influenzae__ and __Neisseria meningitidis__",
+      "المستدمية النزلية والنيسرية السحائية"
+     ],
+     [
+      "__E. coli__ and __Klebsiella__",
+      "الإشريكية القولونية والكلبسيلة"
+     ],
+     [
+      "__Staphylococcus aureus__ and __S. epidermidis__",
+      "المكوّرة العنقودية الذهبية والبشروية"
+     ],
+     [
+      "__Salmonella__ and __Shigella__",
+      "السالمونيلا والشيغيلا"
+     ]
+    ],
+    "note_en": "The slide spells “Haemophius influenza” — H. influenzae.",
+    "note_ar": "الشريحة كتبت «Haemophius influenza» وصوابها H. influenzae.",
+    "answer": "a"
+   },
+   {
+    "en": "__H. influenzae__ needs the growth factors:",
+    "ar": "تحتاج المستدمية النزلية عاملَي النمو:",
+    "options": [
+     [
+      "Vitamin C and vitamin D",
+      "فيتامين `C` وفيتامين `D`"
+     ],
+     [
+      "NAD (factor V) and hemin (factor X)",
+      "`NAD` (العامل `V`) والهيمين (العامل `X`)"
+     ],
+     [
+      "Glucose and lactose",
+      "الغلوكوز واللاكتوز"
+     ],
+     [
+      "Factor VIII and factor IX",
+      "العامل الثامن والتاسع"
+     ]
+    ],
+    "note_en": "The slide writes “factor V or DNA” — factor V is NAD, not DNA.",
+    "note_ar": "الشريحة كتبت «factor V or DNA» — والعامل V هو NAD وليس DNA.",
+    "answer": "b"
+   },
+   {
+    "en": "Hemin is:",
+    "ar": "الهيمين هو:",
+    "options": [
+     [
+      "NAD",
+      "NAD"
+     ],
+     [
+      "Factor V",
+      "العامل `V`"
+     ],
+     [
+      "Factor X",
+      "العامل `X`"
+     ],
+     [
+      "An antibiotic",
+      "مضاد حيوي"
+     ]
+    ],
+    "note_en": "Hemin = X; NAD = V.",
+    "note_ar": "الهيمين = X؛ NAD = V.",
+    "answer": "c"
+   },
+   {
+    "en": "Factors V and X are found:",
+    "ar": "يوجد العاملان `V` و`X`:",
+    "options": [
+     [
+      "Inside red blood cells, so red blood cell lysates are required for growth",
+      "داخل كريات الدم الحمر، لذلك يلزم محلّل الكريات الحمر للنمو"
+     ],
+     [
+      "In bile salts",
+      "في الأملاح الصفراوية"
+     ],
+     [
+      "In egg yolk only",
+      "في صفار البيض فقط"
+     ],
+     [
+      "In the agar",
+      "في الأجار"
+     ]
+    ],
+    "note_en": "That is why chocolate agar (lysed RBCs) grows H. influenzae.",
+    "note_ar": "لهذا ينمو H. influenzae على أجار الشوكولاتة (كريات متحلّلة).",
+    "answer": "a"
+   },
+   {
+    "topic_en": "3. Selective media",
+    "topic_ar": "3. الأوساط الانتقائية"
+   },
+   {
+    "en": "A selective medium is one in which:",
+    "ar": "الوسط الانتقائي هو الذي:",
+    "options": [
+     [
+      "No agar is added",
+      "لا يُضاف إليه أجار"
+     ],
+     [
+      "An indicator changes colour",
+      "يتغيّر فيه لون المؤشِّر"
+     ],
+     [
+      "Extra nutrients are added",
+      "تُضاف إليه عناصر غذائية إضافية"
+     ],
+     [
+      "An inhibitory substance is added to favor the growth of wanted bacteria",
+      "تُضاف إليه مادة مثبّطة لترجيح نمو البكتيريا المطلوبة"
+     ]
+    ],
+    "note_en": "Selective = inhibitory substance; differential = indicator.",
+    "note_ar": "الانتقائي = مادة مثبّطة؛ التفريقي = مؤشِّر.",
+    "answer": "d"
+   },
+   {
+    "en": "Inhibitory substances in selective media may be:",
+    "ar": "المواد المثبّطة في الأوساط الانتقائية قد تكون:",
+    "options": [
+     [
+      "Dyes and bile salts",
+      "الأصباغ والأملاح الصفراوية"
+     ],
+     [
+      "Alcohol and acids",
+      "الكحول والأحماض"
+     ],
+     [
+      "Antibiotics",
+      "المضادات الحيوية"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "note_en": "Dyes, bile salts, alcohol, acids and antibiotics.",
+    "note_ar": "الأصباغ، الأملاح الصفراوية، الكحول، الأحماض، المضادات الحيوية.",
+    "answer": "d"
+   },
+   {
+    "en": "Thayer-Martin agar is used to recover:",
+    "ar": "يُستعمل أجار ثاير-مارتن لاستعادة (عزل):",
+    "options": [
+     [
+      "__Haemophilus influenzae__",
+      "المستدمية النزلية"
+     ],
+     [
+      "__Staphylococcus__",
+      "المكوّرات العنقودية"
+     ],
+     [
+      "Enterobacteriaceae",
+      "البكتيريا المعوية"
+     ],
+     [
+      "__Neisseria gonorrhoeae__",
+      "النيسرية البنية"
+     ]
+    ],
+    "note_en": "Thayer-Martin → N. gonorrhoeae.",
+    "note_ar": "ثاير-مارتن ← النيسرية البنية.",
+    "answer": "d"
+   },
+   {
+    "en": "The antibiotic in Thayer-Martin agar mentioned on the slide is:",
+    "ar": "المضاد الحيوي في أجار ثاير-مارتن المذكور في الشريحة:",
+    "options": [
+     [
+      "Vancomycin",
+      "الفانكومايسين"
+     ],
+     [
+      "Penicillin",
+      "البنسلين"
+     ],
+     [
+      "Tetracycline",
+      "التتراسايكلين"
+     ],
+     [
+      "Ampicillin",
+      "الأمبيسلين"
+     ]
+    ],
+    "note_en": "Contains vancomycin.",
+    "note_ar": "يحتوي الفانكومايسين.",
+    "answer": "a"
+   },
+   {
+    "en": "Mannitol salt agar inhibits most bacteria because of its:",
+    "ar": "يثبّط أجار ملح المانيتول معظم البكتيريا بسبب:",
+    "options": [
+     [
+      "Bile salts",
+      "الأملاح الصفراوية"
+     ],
+     [
+      "High salt concentration (10% NaCl)",
+      "تركيز الملح العالي `(10% NaCl)`"
+     ],
+     [
+      "Vancomycin",
+      "الفانكومايسين"
+     ],
+     [
+      "Crystal violet",
+      "البنفسج البلّوري"
+     ]
+    ],
+    "note_en": "10% NaCl; Staphylococcus tolerates it.",
+    "note_ar": "10% NaCl؛ والمكوّرات العنقودية تتحمّله.",
+    "answer": "b"
+   },
+   {
+    "en": "Mannitol salt agar is used to recover:",
+    "ar": "يُستعمل أجار ملح المانيتول لعزل:",
+    "options": [
+     [
+      "Enterobacteriaceae",
+      "البكتيريا المعوية"
+     ],
+     [
+      "__Neisseria gonorrhoeae__",
+      "النيسرية البنية"
+     ],
+     [
+      "The genus __Staphylococcus__",
+      "جنس المكوّرات العنقودية"
+     ],
+     [
+      "Anaerobes",
+      "اللاهوائيات"
+     ]
+    ],
+    "note_en": "MSA → Staphylococcus.",
+    "note_ar": "MSA ← المكوّرات العنقودية.",
+    "answer": "c"
+   },
+   {
+    "en": "MacConkey agar inhibits most Gram-positive bacteria because it contains:",
+    "ar": "يثبّط أجار ماكونكي معظم موجبة غرام لاحتوائه على:",
+    "options": [
+     [
+      "10% NaCl",
+      "`10% NaCl`"
+     ],
+     [
+      "Bile salt and crystal violet",
+      "الملح الصفراوي والبنفسج البلّوري"
+     ],
+     [
+      "Vancomycin",
+      "الفانكومايسين"
+     ],
+     [
+      "Blood",
+      "الدم"
+     ]
+    ],
+    "note_en": "Used for Enterobacteriaceae members.",
+    "note_ar": "يُستعمل لأفراد البكتيريا المعوية.",
+    "answer": "b"
+   },
+   {
+    "topic_en": "4. Differential and indicator media",
+    "topic_ar": "4. الأوساط التفريقية والمؤشِّرة"
+   },
+   {
+    "en": "Differential and indicator media contain:",
+    "ar": "تحتوي الأوساط التفريقية والمؤشِّرة على:",
+    "options": [
+     [
+      "Antibiotics only",
+      "مضادات حيوية فقط"
+     ],
+     [
+      "Only water and agar",
+      "الماء والأجار فقط"
+     ],
+     [
+      "An indicator which changes colour when a bacterium grows in them",
+      "مؤشِّر يتغيّر لونه عندما تنمو فيها البكتيريا"
+     ],
+     [
+      "No nutrients",
+      "لا عناصر غذائية"
+     ]
+    ],
+    "note_en": "Definition on the slide.",
+    "note_ar": "تعريف الشريحة.",
+    "answer": "c"
+   },
+   {
+    "en": "Blood agar is prepared by adding blood to nutrient agar:",
+    "ar": "يُحضَّر أجار الدم بإضافة الدم إلى الأجار المغذّي:",
+    "options": [
+     [
+      "After sterilization and cooling to about `50 ºC`",
+      "بعد التعقيم والتبريد إلى نحو `50 ºC`"
+     ],
+     [
+      "Before sterilization",
+      "قبل التعقيم"
+     ],
+     [
+      "While boiling",
+      "أثناء الغليان"
+     ],
+     [
+      "After cooling to `4 ºC`",
+      "بعد التبريد إلى `4 ºC`"
+     ]
+    ],
+    "note_en": "The slide writes “50% C” — it means 50 °C.",
+    "note_ar": "الشريحة كتبت «50% C» والمقصود 50 درجة مئوية.",
+    "answer": "a"
+   },
+   {
+    "en": "Blood agar is considered:",
+    "ar": "يُعدّ أجار الدم:",
+    "options": [
+     [
+      "An anaerobic medium",
+      "وسطًا لاهوائيًّا"
+     ],
+     [
+      "A selective medium only",
+      "وسطًا انتقائيًّا فقط"
+     ],
+     [
+      "A transport medium",
+      "وسط نقل"
+     ],
+     [
+      "A rich and differential medium at the same time",
+      "وسطًا غنيًّا وتفريقيًّا في الوقت نفسه"
+     ]
+    ],
+    "note_en": "Rich (blood nutrients) + differential (hemolysis).",
+    "note_ar": "غني (عناصر الدم) + تفريقي (التحلّل الدموي).",
+    "answer": "d"
+   },
+   {
+    "en": "Blood agar distinguishes between pathogenic bacteria by their ability to analyze blood by secreting the enzyme:",
+    "ar": "يميّز أجار الدم بين البكتيريا الممرضة بقدرتها على تحليل الدم بإفراز إنزيم:",
+    "options": [
+     [
+      "Urease",
+      "اليورييز"
+     ],
+     [
+      "Catalase",
+      "الكاتاليز"
+     ],
+     [
+      "Coagulase",
+      "الكواغيوليز"
+     ],
+     [
+      "Hemolysin",
+      "الهيمولايسين"
+     ]
+    ],
+    "note_en": "Hemolysin → hemolysis.",
+    "note_ar": "الهيمولايسين ← التحلّل الدموي.",
+    "answer": "d"
+   },
+   {
+    "en": "Alpha-hemolysis is:",
+    "ar": "التحلّل الدموي ألفا:",
+    "options": [
+     [
+      "No hemolysis",
+      "لا تحلّل"
+     ],
+     [
+      "Complete hemolysis — clear zone",
+      "تحلّل كامل — منطقة صافية"
+     ],
+     [
+      "Partial hemolysis — colonies surrounded by a green opaque zone",
+      "تحلّل جزئي — مستعمرات محاطة بمنطقة خضراء معتمة"
+     ],
+     [
+      "Black colonies",
+      "مستعمرات سوداء"
+     ]
+    ],
+    "note_en": "α partial (green), β complete (clear), γ none.",
+    "note_ar": "ألفا جزئي (أخضر)، بيتا كامل (صافٍ)، غاما لا شيء.",
+    "answer": "c"
+   },
+   {
+    "en": "An example of alpha-hemolytic bacteria is:",
+    "ar": "مثال على البكتيريا ألفا المحلِّلة للدم:",
+    "options": [
+     [
+      "__Streptococcus pneumoniae__",
+      "المكوّرة العقدية الرئوية"
+     ],
+     [
+      "__Staphylococcus aureus__",
+      "المكوّرة العنقودية الذهبية"
+     ],
+     [
+      "__Staph. epidermidis__",
+      "المكوّرة العنقودية البشروية"
+     ],
+     [
+      "__Klebsiella pneumoniae__",
+      "الكلبسيلة الرئوية"
+     ]
+    ],
+    "note_en": "α → S. pneumoniae.",
+    "note_ar": "ألفا ← المكوّرة العقدية الرئوية.",
+    "answer": "a"
+   },
+   {
+    "en": "Beta-hemolysis is characterized by:",
+    "ar": "يتميّز التحلّل الدموي بيتا بـ:",
+    "options": [
+     [
+      "A green zone",
+      "منطقة خضراء"
+     ],
+     [
+      "Complete hemolysis with a clear zone surrounding the colonies",
+      "تحلّل كامل مع منطقة صافية حول المستعمرات"
+     ],
+     [
+      "No zone",
+      "لا منطقة"
+     ],
+     [
+      "A black precipitate",
+      "راسب أسود"
+     ]
+    ],
+    "note_en": "β = complete = clear.",
+    "note_ar": "بيتا = كامل = صافٍ.",
+    "answer": "b"
+   },
+   {
+    "en": "Examples of beta-hemolytic bacteria are:",
+    "ar": "أمثلة البكتيريا بيتا المحلِّلة للدم:",
+    "options": [
+     [
+      "__Staph. epidermidis__ and __Klebsiella pneumoniae__",
+      "المكوّرة البشروية والكلبسيلة الرئوية"
+     ],
+     [
+      "__Staphylococcus aureus__ and __Pseudomonas aeruginosa__",
+      "المكوّرة العنقودية الذهبية والزائفة الزنجارية"
+     ],
+     [
+      "__Streptococcus pneumoniae__",
+      "المكوّرة العقدية الرئوية"
+     ],
+     [
+      "__E. coli__ only",
+      "الإشريكية القولونية فقط"
+     ]
+    ],
+    "note_en": "β → S. aureus, P. aeruginosa.",
+    "note_ar": "بيتا ← العنقودية الذهبية، الزائفة الزنجارية.",
+    "answer": "b"
+   },
+   {
+    "en": "Examples of gamma-hemolysis (no hemolysis) are:",
+    "ar": "أمثلة التحلّل غاما (لا تحلّل):",
+    "options": [
+     [
+      "__Neisseria gonorrhoeae__",
+      "النيسرية البنية"
+     ],
+     [
+      "__Staphylococcus aureus__ and __Pseudomonas aeruginosa__",
+      "العنقودية الذهبية والزائفة الزنجارية"
+     ],
+     [
+      "__Streptococcus pneumoniae__",
+      "المكوّرة العقدية الرئوية"
+     ],
+     [
+      "__Staph. epidermidis__ and __Klebsiella pneumoniae__",
+      "المكوّرة البشروية والكلبسيلة الرئوية"
+     ]
+    ],
+    "note_en": "γ → S. epidermidis, K. pneumoniae.",
+    "note_ar": "غاما ← البشروية، الكلبسيلة الرئوية.",
+    "answer": "d"
+   },
+   {
+    "en": "The plate in the image shows which type of hemolysis?",
+    "ar": "الطبق في الصورة يبيّن أيّ نوع من التحلّل الدموي؟",
+    "options": [
+     [
+      "Beta-hemolysis",
+      "بيتا"
+     ],
+     [
+      "Alpha-hemolysis",
+      "ألفا"
+     ],
+     [
+      "Gamma-hemolysis",
+      "غاما"
+     ],
+     [
+      "No growth",
+      "لا نمو"
+     ]
+    ],
+    "note_en": "From Figure (5): beta — clear yellowish zones, the red has gone around the growth.",
+    "note_ar": "من الشكل (5): بيتا — مناطق صافية مصفرّة، زال الأحمر حول النمو.",
+    "answer": "a",
+    "img": "assets/beta.jpg",
+    "img_h": "36mm"
+   },
+   {
+    "en": "The plate in the image shows which type of hemolysis?",
+    "ar": "الطبق في الصورة يبيّن أيّ نوع من التحلّل الدموي؟",
+    "options": [
+     [
+      "Beta-hemolysis",
+      "بيتا"
+     ],
+     [
+      "Alpha-hemolysis",
+      "ألفا"
+     ],
+     [
+      "Gamma-hemolysis",
+      "غاما"
+     ],
+     [
+      "Complete hemolysis",
+      "تحلّل كامل"
+     ]
+    ],
+    "note_en": "From Figure (5): gamma — the medium stays red, no zones.",
+    "note_ar": "من الشكل (5): غاما — يبقى الوسط أحمر بلا مناطق.",
+    "answer": "c",
+    "img": "assets/gamma.jpg",
+    "img_h": "36mm"
+   },
+   {
+    "en": "Mannitol salt agar is:",
+    "ar": "أجار ملح المانيتول:",
+    "options": [
+     [
+      "A selective and differential medium",
+      "وسط انتقائي وتفريقي"
+     ],
+     [
+      "A selective medium only",
+      "انتقائي فقط"
+     ],
+     [
+      "An enriched medium",
+      "وسط مُغنى"
+     ],
+     [
+      "A transport medium",
+      "وسط نقل"
+     ]
+    ],
+    "note_en": "Selective (10% NaCl) + differential (mannitol fermentation).",
+    "note_ar": "انتقائي (10% NaCl) + تفريقي (تخمير المانيتول).",
+    "answer": "a"
+   },
+   {
+    "en": "In the image of mannitol salt agar, the yellow sector is due to:",
+    "ar": "في صورة أجار ملح المانيتول، القطاع الأصفر سببه:",
+    "options": [
+     [
+      "The uninoculated medium",
+      "الوسط غير الملقَّح"
+     ],
+     [
+      "__Staphylococcus epidermidis__ fermenting mannitol",
+      "تخمير المكوّرة البشروية للمانيتول"
+     ],
+     [
+      "__Staphylococcus aureus__ fermenting mannitol and producing acids that change the pH",
+      "تخمير المكوّرة العنقودية الذهبية للمانيتول وإنتاج أحماض تغيّر الأس الهيدروجيني"
+     ],
+     [
+      "Hemolysis",
+      "التحلّل الدموي"
+     ]
+    ],
+    "note_en": "Figure (6): S. aureus → yellow; S. epidermidis stays red/pink like the uninoculated part.",
+    "note_ar": "الشكل (6): الذهبية ← أصفر؛ البشروية تبقى حمراء/وردية مثل الجزء غير الملقَّح.",
+    "answer": "c",
+    "img": "assets/msa.jpg",
+    "img_h": "40mm"
+   },
+   {
+    "en": "MacConkey agar differentiates between Gram-negative bacteria by their ability to:",
+    "ar": "يميّز أجار ماكونكي بين سالبة غرام بقدرتها على:",
+    "options": [
+     [
+      "Ferment mannitol",
+      "تخمير المانيتول"
+     ],
+     [
+      "Ferment lactose",
+      "تخمير اللاكتوز"
+     ],
+     [
+      "Lyse blood",
+      "تحليل الدم"
+     ],
+     [
+      "Move",
+      "الحركة"
+     ]
+    ],
+    "note_en": "MacConkey = selective + differential (lactose).",
+    "note_ar": "ماكونكي = انتقائي + تفريقي (اللاكتوز).",
+    "answer": "b"
+   },
+   {
+    "en": "In the MacConkey agar image, the pink colonies on the left are:",
+    "ar": "في صورة أجار ماكونكي، المستعمرات الوردية على اليسار هي:",
+    "options": [
+     [
+      "Beta-hemolytic bacteria",
+      "بيتا المحلِّلة للدم"
+     ],
+     [
+      "Non-lactose fermenters",
+      "غير مخمِّرة للاكتوز"
+     ],
+     [
+      "Gram-positive bacteria",
+      "موجبة غرام"
+     ],
+     [
+      "Lactose fermenters",
+      "مخمِّرة للاكتوز"
+     ]
+    ],
+    "note_en": "Figure (7): pink = lactose fermenter (acid); pale = non-fermenter.",
+    "note_ar": "الشكل (7): وردي = مخمِّر للاكتوز (حامض)؛ شاحب = غير مخمِّر.",
+    "answer": "d",
+    "img": "assets/macconkey.jpg",
+    "img_h": "38mm"
+   },
+   {
+    "en": "Eosin Methylene Blue (EMB) agar is used to isolate:",
+    "ar": "يُستعمل أجار الإيوسين وأزرق المثيلين `(EMB)` لعزل:",
+    "options": [
+     [
+      "__Staphylococcus__",
+      "المكوّرات العنقودية"
+     ],
+     [
+      "Enterobacteriaceae",
+      "البكتيريا المعوية"
+     ],
+     [
+      "__Neisseria__",
+      "النيسرية"
+     ],
+     [
+      "Anaerobes",
+      "اللاهوائيات"
+     ]
+    ],
+    "note_en": "EMB: selective and differential for Enterobacteriaceae.",
+    "note_ar": "EMB: انتقائي وتفريقي للبكتيريا المعوية.",
+    "answer": "b"
+   },
+   {
+    "en": "In EMB agar, eosin and methylene blue are:",
+    "ar": "في أجار `EMB`، الإيوسين وأزرق المثيلين:",
+    "options": [
+     [
+      "Carbon sources",
+      "مصادر كربون"
+     ],
+     [
+      "Antibiotics",
+      "مضادات حيوية"
+     ],
+     [
+      "Growth factors",
+      "عوامل نمو"
+     ],
+     [
+      "pH indicator dyes that inhibit Gram-positive bacteria",
+      "أصباغ مؤشِّرة للأس الهيدروجيني تثبّط موجبة غرام"
+     ]
+    ],
+    "note_en": "Both indicator and inhibitor.",
+    "note_ar": "مؤشِّر ومثبِّط معًا.",
+    "answer": "d"
+   },
+   {
+    "en": "The green metallic sheen growth on EMB in the image is:",
+    "ar": "النمو ذو البريق المعدني الأخضر على `EMB` في الصورة هو:",
+    "options": [
+     [
+      "__E. coli__",
+      "الإشريكية القولونية"
+     ],
+     [
+      "__Klebsiella pneumoniae__",
+      "الكلبسيلة الرئوية"
+     ],
+     [
+      "__Staphylococcus aureus__",
+      "المكوّرة العنقودية الذهبية"
+     ],
+     [
+      "__Neisseria gonorrhoeae__",
+      "النيسرية البنية"
+     ]
+    ],
+    "note_en": "Figure (8): E. coli on EMB.",
+    "note_ar": "الشكل (8): الإشريكية القولونية على EMB.",
+    "answer": "a",
+    "img": "assets/emb_ecoli.jpg",
+    "img_h": "36mm"
+   },
+   {
+    "en": "The dark purple mucoid colonies on EMB in the image are:",
+    "ar": "المستعمرات الأرجوانية الداكنة المخاطية على `EMB` في الصورة هي:",
+    "options": [
+     [
+      "__Staphylococcus epidermidis__",
+      "المكوّرة البشروية"
+     ],
+     [
+      "__E. coli__",
+      "الإشريكية القولونية"
+     ],
+     [
+      "__Klebsiella pneumoniae__",
+      "الكلبسيلة الرئوية"
+     ],
+     [
+      "__Streptococcus pneumoniae__",
+      "المكوّرة العقدية الرئوية"
+     ]
+    ],
+    "note_en": "Figure (9): Klebsiella pneumoniae on EMB.",
+    "note_ar": "الشكل (9): الكلبسيلة الرئوية على EMB.",
+    "answer": "c",
+    "img": "assets/emb_kleb.jpg",
+    "img_h": "36mm"
+   },
+   {
+    "topic_en": "5. Transport media",
+    "topic_ar": "5. أوساط النقل"
+   },
+   {
+    "en": "Transport media are used for:",
+    "ar": "تُستعمل أوساط النقل لـ:",
+    "options": [
+     [
+      "Differentiating lactose fermenters",
+      "تمييز مخمِّرات اللاكتوز"
+     ],
+     [
+      "Isolating fastidious bacteria",
+      "عزل البكتيريا صعبة النمو"
+     ],
+     [
+      "Temporary storage of specimens being transported to the laboratory for cultivation",
+      "الخزن المؤقّت للعيّنات المنقولة إلى المختبر للزرع"
+     ],
+     [
+      "Determining motility",
+      "تحديد الحركة"
+     ]
+    ],
+    "note_en": "Definition on the slide.",
+    "note_ar": "تعريف الشريحة.",
+    "answer": "c",
+    "img": "assets/transport.jpg",
+    "img_h": "30mm"
+   },
+   {
+    "en": "Characteristics of transport media include that they should be:",
+    "ar": "من خصائص أوساط النقل أن تكون:",
+    "options": [
+     [
+      "Non-toxic",
+      "غير سامّة"
+     ],
+     [
+      "Inhibitory to bacterial growth",
+      "مثبّطة لنمو البكتيريا"
+     ],
+     [
+      "Easy to carry and transport",
+      "سهلة الحمل والنقل"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "note_en": "Three characteristics. (Transport media keep the organisms alive without letting them multiply.)",
+    "note_ar": "ثلاث خصائص. (أوساط النقل تُبقي الكائنات حيّة دون أن تسمح بتكاثرها.)",
+    "answer": "d"
+   },
+   {
+    "topic_en": "6. Anaerobic media",
+    "topic_ar": "6. الأوساط اللاهوائية"
+   },
+   {
+    "en": "Anaerobic bacteria need special media for growth because they need:",
+    "ar": "تحتاج البكتيريا اللاهوائية أوساطًا خاصة للنمو لأنها تحتاج:",
+    "options": [
+     [
+      "High oxygen content",
+      "محتوى أكسجين عاليًا"
+     ],
+     [
+      "Low oxygen content (reduced oxidation)",
+      "محتوى أكسجين منخفضًا (أكسدة مختزلة)"
+     ],
+     [
+      "High salt concentration",
+      "تركيز ملح عاليًا"
+     ],
+     [
+      "Blood only",
+      "الدم فقط"
+     ]
+    ],
+    "note_en": "The slide shows a tube with growth below the surface as the example.",
+    "note_ar": "الشريحة تعرض أنبوبًا فيه نمو تحت السطح مثالًا.",
+    "answer": "b",
+    "img": "assets/anaerobic.jpg",
+    "img_h": "32mm"
+   }
+  ],
+  "tf": [],
+  "traps": [],
+  "important": []
+ }
+}
