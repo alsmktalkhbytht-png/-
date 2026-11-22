@@ -1,0 +1,1238 @@
+{
+ "meta": {
+  "subject_en": "Diagnostic Microbiology",
+  "subject_ar": "الأحياء المجهرية التشخيصية",
+  "short_ar": "بكتريا",
+  "instructor": "د. هبة سامي",
+  "unit_en": "Lab 6",
+  "unit_ar": "العملي 6",
+  "unit_label": "LAB",
+  "unit_no": "6",
+  "title_en": "Biochemical Testing of Microorganisms",
+  "title_ar": "الفحوص الكيميائية الحيوية للأحياء المجهرية",
+  "department": "قسم التحليلات",
+  "kind": "Laboratories — عملي",
+  "questions_kind": "MCQ — أسئلة اختيار",
+  "stage": "The fourth stage — الرابعة",
+  "file_name": "BIOS - بكتريا عملي المحاضرة السادسة - بنك أسئلة شامل بالصور"
+ },
+ "questions": {
+  "title_en": "Biochemical Testing of Microorganisms — Comprehensive MCQs (with figures)",
+  "title_ar": "الفحوص الكيميائية الحيوية — أسئلة اختيار شاملة (مع الصور)",
+  "sub": "MCQ",
+  "answers_inline": true,
+  "compact": true,
+  "mcq_per_page": 4,
+  "mcq_en": "Comprehensive MCQs — Lab 6",
+  "mcq_ar": "أسئلة اختيار شاملة — العملي السادس",
+  "intro_en": [
+   "Q. Select the most correct answer from the followings",
+   "These MCQs cover the whole lab with its own pictures; the answer and a short reason sit under each question. Questions marked “Class note” come from the handwritten notes on the slides."
+  ],
+  "intro_ar": [
+   "س. اختر الإجابة الأصح مما يأتي",
+   "هذه الأسئلة تغطّي العملي كاملًا بصوره نفسها؛ والحل وسطر سبب مختصر تحت كل سؤال. الأسئلة المعلَّمة «ملاحظة المحاضرة» مأخوذة من الملاحظات المكتوبة بخط اليد على الشرائح."
+  ],
+  "mcq": [
+   {
+    "topic_en": "Introduction",
+    "topic_ar": "مقدّمة"
+   },
+   {
+    "en": "Biochemical tests are needed for the identification of bacterial species because:",
+    "ar": "نحتاج الاختبارات الكيميائية الحيوية لتشخيص أنواع البكتيريا لأن:",
+    "options": [
+     [
+      "Bacteria cannot be stained",
+      "البكتيريا لا تُصبغ"
+     ],
+     [
+      "Many species have similar shape and size, so they are identified by differences in biochemical activities",
+      "أنواعًا كثيرة متشابهة في الشكل والحجم، فتُشخَّص بالفروق في نشاطاتها الكيميائية الحيوية"
+     ],
+     [
+      "Culture is impossible",
+      "الزرع مستحيل"
+     ],
+     [
+      "They are cheaper than microscopy",
+      "أرخص من المجهر"
+     ]
+    ],
+    "note_en": "Slide 2.",
+    "note_ar": "الشريحة 2.",
+    "answer": "b"
+   },
+   {
+    "topic_en": "1. Catalase test",
+    "topic_ar": "1. اختبار الكاتاليز"
+   },
+   {
+    "en": "The catalase enzyme breaks hydrogen peroxide into:",
+    "ar": "يحلّل إنزيم الكاتاليز بيروكسيد الهيدروجين إلى:",
+    "options": [
+     [
+      "Ammonia and CO2",
+      "أمونيا و`CO2`"
+     ],
+     [
+      "Water and carbon dioxide",
+      "ماء وثاني أكسيد الكربون"
+     ],
+     [
+      "Water and oxygen gas",
+      "ماء وغاز أكسجين"
+     ],
+     [
+      "Indole and pyruvic acid",
+      "إندول وحمض البيروفيك"
+     ]
+    ],
+    "note_en": "`2H2O2 → 2H2O + O2`.",
+    "note_ar": "`2H2O2 → 2H2O + O2`.",
+    "answer": "c"
+   },
+   {
+    "en": "A positive catalase test is indicated by:",
+    "ar": "تدلّ على نتيجة كاتاليز موجبة:",
+    "options": [
+     [
+      "Bubbles (oxygen gas)",
+      "الفقاعات (غاز الأكسجين)"
+     ],
+     [
+      "A red ring",
+      "حلقة حمراء"
+     ],
+     [
+      "Dark-blue colour",
+      "لون أزرق داكن"
+     ],
+     [
+      "Agglutination",
+      "التلازن"
+     ]
+    ],
+    "note_en": "Step 3: note whether or not bubbles form.",
+    "note_ar": "الخطوة 3: لاحظ تكوّن الفقاعات أو عدمه.",
+    "answer": "a"
+   },
+   {
+    "en": "In the catalase test, the colony is transferred to the slide using:",
+    "ar": "في اختبار الكاتاليز تُنقل المستعمرة إلى الشريحة بـ:",
+    "options": [
+     [
+      "A swab",
+      "مسحة"
+     ],
+     [
+      "A metal loop",
+      "عروة معدنية"
+     ],
+     [
+      "A pipette",
+      "ماصّة"
+     ],
+     [
+      "A wooden stick",
+      "عود خشبي"
+     ]
+    ],
+    "note_en": "Step 1 (a wooden stick, not a metal loop).",
+    "note_ar": "الخطوة 1 (عود خشبي لا عروة معدنية).",
+    "answer": "d"
+   },
+   {
+    "en": "Catalase-positive and catalase-negative genera on the slide are:",
+    "ar": "الجنسان موجب وسالب الكاتاليز في الشريحة:",
+    "options": [
+     [
+      "__Streptococcus__ positive, __Staphylococcus__ negative",
+      "العقدية موجبة، العنقودية سالبة"
+     ],
+     [
+      "__Staphylococcus__ positive, __Streptococcus__ negative",
+      "العنقودية موجبة، العقدية سالبة"
+     ],
+     [
+      "Both positive",
+      "كلاهما موجب"
+     ],
+     [
+      "Both negative",
+      "كلاهما سالب"
+     ]
+    ],
+    "note_en": "Circled in class.",
+    "note_ar": "مؤطَّرة بالمحاضرة.",
+    "answer": "b"
+   },
+   {
+    "en": "The image shows the catalase test. The reagent in the bottle is:",
+    "ar": "تبيّن الصورة اختبار الكاتاليز. الكاشف في القنينة:",
+    "options": [
+     [
+      "Hydrogen peroxide (`H2O2`)",
+      "بيروكسيد الهيدروجين (`H2O2`)"
+     ],
+     [
+      "Kovac's reagent",
+      "كاشف كوفاك"
+     ],
+     [
+      "Methyl red",
+      "المثيل الأحمر"
+     ],
+     [
+      "Blood plasma",
+      "بلازما الدم"
+     ]
+    ],
+    "note_en": "Class note: the reagent is H2O2.",
+    "note_ar": "ملاحظة المحاضرة: الكاشف هو H2O2.",
+    "answer": "a",
+    "img": "assets/catalase-test.png",
+    "img_h": "36mm"
+   },
+   {
+    "en": "Class note: colonies for the catalase test should NOT be taken from blood or chocolate agar because:",
+    "ar": "ملاحظة المحاضرة: لا تؤخذ مستعمرات اختبار الكاتاليز من أجار الدم أو الشوكولاتة لأن:",
+    "options": [
+     [
+      "Blood inhibits catalase",
+      "الدم يثبّط الكاتاليز"
+     ],
+     [
+      "The colonies are too small",
+      "المستعمرات صغيرة جدًّا"
+     ],
+     [
+      "The red blood cells contain catalase and give false bubbles",
+      "الكريات الحمر تحتوي الكاتاليز وتعطي فقاعات كاذبة"
+     ],
+     [
+      "The colour hides the result",
+      "اللون يخفي النتيجة"
+     ]
+    ],
+    "note_en": "Handwritten: use nutrient agar; RBCs give a false (positive) result.",
+    "note_ar": "مكتوب بخط اليد: استعمل الأجار المغذّي؛ الكريات الحمر تعطي نتيجة (موجبة) كاذبة.",
+    "answer": "c"
+   },
+   {
+    "topic_en": "2. Indole test",
+    "topic_ar": "2. اختبار الإندول"
+   },
+   {
+    "en": "The indole test determines the ability of the organism to convert tryptophan into:",
+    "ar": "يحدّد اختبار الإندول قدرة الكائن على تحويل التربتوفان إلى:",
+    "options": [
+     [
+      "Fibrin",
+      "فيبرين"
+     ],
+     [
+      "Water and oxygen",
+      "ماء وأكسجين"
+     ],
+     [
+      "Ammonia and CO2 only",
+      "أمونيا و`CO2` فقط"
+     ],
+     [
+      "Indole, pyruvic acid and ammonia",
+      "إندول وحمض البيروفيك وأمونيا"
+     ]
+    ],
+    "note_en": "By the enzyme tryptophanase.",
+    "note_ar": "بإنزيم التربتوفانيز.",
+    "answer": "d"
+   },
+   {
+    "en": "The enzyme responsible for the indole test is:",
+    "ar": "الإنزيم المسؤول عن اختبار الإندول:",
+    "options": [
+     [
+      "Urease",
+      "اليورييز"
+     ],
+     [
+      "Catalase",
+      "الكاتاليز"
+     ],
+     [
+      "Tryptophanase",
+      "التربتوفانيز"
+     ],
+     [
+      "Citrate permease",
+      "ناقل السترات"
+     ]
+    ],
+    "note_en": "Slide 5.",
+    "note_ar": "الشريحة 5.",
+    "answer": "c"
+   },
+   {
+    "en": "Indole is detected by adding:",
+    "ar": "يُكشف الإندول بإضافة:",
+    "options": [
+     [
+      "Bromothymol blue",
+      "أزرق البروموثيمول"
+     ],
+     [
+      "Methyl red",
+      "المثيل الأحمر"
+     ],
+     [
+      "Hydrogen peroxide",
+      "بيروكسيد الهيدروجين"
+     ],
+     [
+      "Kovac's reagent",
+      "كاشف كوفاك"
+     ]
+    ],
+    "note_en": "5 drops of Kovac's reagent.",
+    "note_ar": "5 قطرات من كاشف كوفاك.",
+    "answer": "d"
+   },
+   {
+    "en": "A positive indole test appears as:",
+    "ar": "تظهر نتيجة الإندول الموجبة كـ:",
+    "options": [
+     [
+      "A bright red ring on the surface of the medium",
+      "حلقة حمراء زاهية على سطح الوسط"
+     ],
+     [
+      "Bubbles",
+      "فقاعات"
+     ],
+     [
+      "A blue slant",
+      "سطح مائل أزرق"
+     ],
+     [
+      "A black precipitate",
+      "راسب أسود"
+     ]
+    ],
+    "note_en": "Red colour in the upper organic layer.",
+    "note_ar": "لون أحمر في الطبقة العضوية العليا.",
+    "answer": "a"
+   },
+   {
+    "en": "The medium inoculated for the indole test is:",
+    "ar": "الوسط الذي يُلقَّح لاختبار الإندول:",
+    "options": [
+     [
+      "Simmons citrate agar",
+      "أجار سيمونز سترات"
+     ],
+     [
+      "Peptone water (rich in tryptophan)",
+      "ماء الببتون (غني بالتربتوفان)"
+     ],
+     [
+      "Urea agar",
+      "أجار اليوريا"
+     ],
+     [
+      "MR-VP broth",
+      "مرق `MR-VP`"
+     ]
+    ],
+    "note_en": "Incubated at 37 °C for 24 hours. (Class note: tryptone broth.)",
+    "note_ar": "يُحضن عند 37 درجة لمدّة 24 ساعة. (ملاحظة المحاضرة: مرق التربتون.)",
+    "answer": "b"
+   },
+   {
+    "en": "Indole-positive and indole-negative examples on the slide are:",
+    "ar": "مثالا موجب وسالب الإندول في الشريحة:",
+    "options": [
+     [
+      "__Pseudomonas aeruginosa__ positive, __E. coli__ negative",
+      "الزائفة موجبة، الإشريكية سالبة"
+     ],
+     [
+      "__E. coli__ positive, __Pseudomonas aeruginosa__ negative",
+      "الإشريكية موجبة، الزائفة الزنجارية سالبة"
+     ],
+     [
+      "__Klebsiella__ positive, __E. coli__ negative",
+      "الكلبسيلة موجبة، الإشريكية سالبة"
+     ],
+     [
+      "__Staphylococcus__ positive",
+      "العنقودية موجبة"
+     ]
+    ],
+    "note_en": "Slide 6.",
+    "note_ar": "الشريحة 6.",
+    "answer": "b"
+   },
+   {
+    "en": "In the image of the indole test, the tube on the left with a red ring at the top is:",
+    "ar": "في صورة اختبار الإندول، الأنبوب الأيسر ذو الحلقة الحمراء في الأعلى:",
+    "options": [
+     [
+      "Catalase positive",
+      "موجب الكاتاليز"
+     ],
+     [
+      "Indole negative",
+      "سالب الإندول"
+     ],
+     [
+      "Indole positive",
+      "موجب الإندول"
+     ],
+     [
+      "Uninoculated",
+      "غير ملقَّح"
+     ]
+    ],
+    "note_en": "Red ring = positive (e.g. E. coli); yellow = negative.",
+    "note_ar": "الحلقة الحمراء = موجب (مثل الإشريكية)؛ الأصفر = سالب.",
+    "answer": "c",
+    "img": "assets/indole-tubes.png",
+    "img_h": "36mm"
+   },
+   {
+    "en": "Class note: the indole result of __Proteus vulgaris__ and __Proteus mirabilis__ is:",
+    "ar": "ملاحظة المحاضرة: نتيجة الإندول للمتقلّبة الشائعة والمتقلّبة الرائعة:",
+    "options": [
+     [
+      "Both negative",
+      "كلاهما سالب"
+     ],
+     [
+      "__P. vulgaris__ negative, __P. mirabilis__ positive",
+      "الشائعة سالبة، الرائعة موجبة"
+     ],
+     [
+      "Both positive",
+      "كلاهما موجب"
+     ],
+     [
+      "__P. vulgaris__ positive, __P. mirabilis__ negative",
+      "الشائعة موجبة، الرائعة سالبة"
+     ]
+    ],
+    "note_en": "Handwritten in class: vulgaris +, mirabilis −.",
+    "note_ar": "مكتوب بخط اليد: vulgaris +، mirabilis −.",
+    "answer": "d"
+   },
+   {
+    "topic_en": "3. Coagulase test",
+    "topic_ar": "3. اختبار الكواغيوليز"
+   },
+   {
+    "en": "Coagulase is an enzyme that:",
+    "ar": "الكواغيوليز إنزيم:",
+    "options": [
+     [
+      "Clots plasma (fibrinogen → fibrin)",
+      "يخثّر البلازما (فيبرينوجين ← فيبرين)"
+     ],
+     [
+      "Breaks hydrogen peroxide",
+      "يحلّل بيروكسيد الهيدروجين"
+     ],
+     [
+      "Hydrolyzes urea",
+      "يحلّل اليوريا"
+     ],
+     [
+      "Ferments lactose",
+      "يخمّر اللاكتوز"
+     ]
+    ],
+    "note_en": "Fibrinogen (plasma) → fibrin (clot).",
+    "note_ar": "الفيبرينوجين (البلازما) ← الفيبرين (الخثرة).",
+    "answer": "a"
+   },
+   {
+    "en": "The coagulase test can be done by:",
+    "ar": "يمكن إجراء اختبار الكواغيوليز بطريقة:",
+    "options": [
+     [
+      "Filter paper",
+      "ورق الترشيح"
+     ],
+     [
+      "The disk method only",
+      "القرص فقط"
+     ],
+     [
+      "The tube method or the slide method",
+      "الأنبوب أو الشريحة"
+     ],
+     [
+      "Slant streaking",
+      "تخطيط السطح المائل"
+     ]
+    ],
+    "note_en": "Slide 8.",
+    "note_ar": "الشريحة 8.",
+    "answer": "c"
+   },
+   {
+    "en": "In the slide coagulase method, the reagent added to the bacterial suspension is:",
+    "ar": "في طريقة الشريحة، الكاشف المضاف إلى المعلّق البكتيري:",
+    "options": [
+     [
+      "Methyl red",
+      "المثيل الأحمر"
+     ],
+     [
+      "Hydrogen peroxide",
+      "بيروكسيد الهيدروجين"
+     ],
+     [
+      "Kovac's reagent",
+      "كاشف كوفاك"
+     ],
+     [
+      "A drop of blood plasma",
+      "قطرة من بلازما الدم"
+     ]
+    ],
+    "note_en": "Step 3.",
+    "note_ar": "الخطوة 3.",
+    "answer": "d"
+   },
+   {
+    "en": "A positive slide coagulase test shows:",
+    "ar": "تظهر نتيجة الكواغيوليز الموجبة بطريقة الشريحة كـ:",
+    "options": [
+     [
+      "No agglutination",
+      "عدم التلازن"
+     ],
+     [
+      "Agglutination — like __Staph. aureus__",
+      "تلازن — مثل العنقودية الذهبية"
+     ],
+     [
+      "Bubbles",
+      "فقاعات"
+     ],
+     [
+      "A red ring",
+      "حلقة حمراء"
+     ]
+    ],
+    "note_en": "No agglutination = negative, like other staphylococci.",
+    "note_ar": "عدم التلازن = سالب، مثل باقي العنقوديات.",
+    "answer": "b"
+   },
+   {
+    "en": "The image shows coagulase test results. On the slide (top), the granular clumping on the left side indicates:",
+    "ar": "تبيّن الصورة نتائج الكواغيوليز. على الشريحة (الأعلى) التكتّل الحبيبي في الجهة اليسرى يدلّ على:",
+    "options": [
+     [
+      "A positive coagulase result",
+      "نتيجة كواغيوليز موجبة"
+     ],
+     [
+      "A negative result",
+      "نتيجة سالبة"
+     ],
+     [
+      "Catalase activity",
+      "نشاط الكاتاليز"
+     ],
+     [
+      "Contamination",
+      "تلوّث"
+     ]
+    ],
+    "note_en": "Agglutination = positive (S. aureus).",
+    "note_ar": "التلازن = موجب (العنقودية الذهبية).",
+    "answer": "a",
+    "img": "assets/coagulase-slide-tube.png",
+    "img_h": "42mm"
+   },
+   {
+    "topic_en": "4. Methyl red (MR) test",
+    "topic_ar": "4. اختبار المثيل الأحمر (MR)"
+   },
+   {
+    "en": "In the MR test, the acid produced decreases the pH to:",
+    "ar": "في اختبار `MR` يخفّض الحامض المنتَج الأس الهيدروجيني إلى:",
+    "options": [
+     [
+      "4.5 or below",
+      "4.5 أو أقل"
+     ],
+     [
+      "7",
+      "7"
+     ],
+     [
+      "9",
+      "9"
+     ],
+     [
+      "6.5 or above",
+      "6.5 أو أكثر"
+     ]
+    ],
+    "note_en": "pH ≤ 4.5 turns methyl red from yellow to red.",
+    "note_ar": "الأس ≤ 4.5 يحوّل المثيل الأحمر من الأصفر إلى الأحمر.",
+    "answer": "a"
+   },
+   {
+    "en": "In a positive MR test, methyl red changes from:",
+    "ar": "في اختبار `MR` الموجب يتغيّر المثيل الأحمر من:",
+    "options": [
+     [
+      "Green to blue",
+      "الأخضر إلى الأزرق"
+     ],
+     [
+      "Red to yellow",
+      "الأحمر إلى الأصفر"
+     ],
+     [
+      "Yellow to red",
+      "الأصفر إلى الأحمر"
+     ],
+     [
+      "Yellow to pink",
+      "الأصفر إلى الوردي"
+     ]
+    ],
+    "note_en": "Red = positive; yellow = negative.",
+    "note_ar": "الأحمر = موجب؛ الأصفر = سالب.",
+    "answer": "c"
+   },
+   {
+    "en": "The medium used for the MR test is:",
+    "ar": "الوسط المستعمل لاختبار `MR`:",
+    "options": [
+     [
+      "Simmons citrate",
+      "سيمونز سترات"
+     ],
+     [
+      "Peptone water",
+      "ماء الببتون"
+     ],
+     [
+      "Urea agar",
+      "أجار اليوريا"
+     ],
+     [
+      "Glucose phosphate peptone water (MR-VP)",
+      "ماء الببتون الفوسفاتي بالغلوكوز `(MR-VP)`"
+     ]
+    ],
+    "note_en": "Incubated 24–48 h at 37 °C, then 2–3 drops of methyl red.",
+    "note_ar": "يُحضن 24–48 ساعة عند 37 درجة، ثم 2–3 قطرات مثيل أحمر.",
+    "answer": "d"
+   },
+   {
+    "en": "MR-positive and MR-negative examples on the slide are:",
+    "ar": "مثالا موجب وسالب `MR` في الشريحة:",
+    "options": [
+     [
+      "__Klebsiella__ positive, __E. coli__ negative",
+      "الكلبسيلة موجبة، الإشريكية سالبة"
+     ],
+     [
+      "__E. coli__ positive (red), __Klebsiella__ negative (yellow)",
+      "الإشريكية موجبة (أحمر)، الكلبسيلة سالبة (أصفر)"
+     ],
+     [
+      "Both positive",
+      "كلاهما موجب"
+     ],
+     [
+      "__Proteus__ negative",
+      "المتقلّبة سالبة"
+     ]
+    ],
+    "note_en": "Slide 11.",
+    "note_ar": "الشريحة 11.",
+    "answer": "b"
+   },
+   {
+    "en": "Some bacteria are MR-negative because they:",
+    "ar": "بعض البكتيريا سالبة `MR` لأنها:",
+    "options": [
+     [
+      "Produce strong acids",
+      "تنتج أحماضًا قوية"
+     ],
+     [
+      "Cannot grow in the medium",
+      "لا تنمو في الوسط"
+     ],
+     [
+      "Have special enzymes that convert the final acids into neutral substances and raise the pH",
+      "تمتلك إنزيمات خاصة تحوّل الأحماض النهائية إلى مواد متعادلة وترفع الأس الهيدروجيني"
+     ],
+     [
+      "Lack tryptophanase",
+      "تفتقر إلى التربتوفانيز"
+     ]
+    ],
+    "note_en": "The slide says bacteria “oxidize glucose”; strictly, the MR test detects glucose fermentation (mixed acids).",
+    "note_ar": "الشريحة تقول «تؤكسد الغلوكوز»؛ والأدقّ أن اختبار MR يكشف تخمير الغلوكوز (أحماض مختلطة).",
+    "answer": "c"
+   },
+   {
+    "topic_en": "5. Oxidase test",
+    "topic_ar": "5. اختبار الأوكسيديز"
+   },
+   {
+    "en": "The oxidase test identifies microorganisms containing the enzyme:",
+    "ar": "يشخّص اختبار الأوكسيديز الكائنات التي تحتوي إنزيم:",
+    "options": [
+     [
+      "Catalase",
+      "الكاتاليز"
+     ],
+     [
+      "Cytochrome oxidase",
+      "السايتوكروم أوكسيديز"
+     ],
+     [
+      "Coagulase",
+      "الكواغيوليز"
+     ],
+     [
+      "Urease",
+      "اليورييز"
+     ]
+    ],
+    "note_en": "Slide 12.",
+    "note_ar": "الشريحة 12.",
+    "answer": "b"
+   },
+   {
+    "en": "In the oxidase test, a positive result is:",
+    "ar": "في اختبار الأوكسيديز تكون النتيجة الموجبة:",
+    "options": [
+     [
+      "Dark-blue colour within three minutes",
+      "لون أزرق داكن خلال ثلاث دقائق"
+     ],
+     [
+      "Bubbles",
+      "فقاعات"
+     ],
+     [
+      "Red ring",
+      "حلقة حمراء"
+     ],
+     [
+      "Pink slant",
+      "سطح مائل وردي"
+     ]
+    ],
+    "note_en": "No colour change = negative.",
+    "note_ar": "عدم تغيّر اللون = سالب.",
+    "answer": "a"
+   },
+   {
+    "en": "Oxidase-positive and oxidase-negative groups on the slide are:",
+    "ar": "مجموعتا موجب وسالب الأوكسيديز في الشريحة:",
+    "options": [
+     [
+      "Both negative",
+      "كلاهما سالب"
+     ],
+     [
+      "Enterobacteriaceae positive, Pseudomonadaceae negative",
+      "المعوية موجبة، الزائفيات سالبة"
+     ],
+     [
+      "Both positive",
+      "كلاهما موجب"
+     ],
+     [
+      "Pseudomonadaceae positive, Enterobacteriaceae negative",
+      "الزائفيات موجبة، البكتيريا المعوية سالبة"
+     ]
+    ],
+    "note_en": "The slide spells “Pseudomadacea”.",
+    "note_ar": "الشريحة كتبت «Pseudomadacea» وصوابها Pseudomonadaceae.",
+    "answer": "d"
+   },
+   {
+    "en": "In this oxidase test image, the right half of the filter paper is:",
+    "ar": "في صورة اختبار الأوكسيديز هذه، النصف الأيمن من ورق الترشيح:",
+    "options": [
+     [
+      "Catalase positive",
+      "موجب الكاتاليز"
+     ],
+     [
+      "Negative — no colour",
+      "سالب — بلا لون"
+     ],
+     [
+      "Positive — dark-blue/purple colour",
+      "موجب — لون أزرق/بنفسجي داكن"
+     ],
+     [
+      "Uninoculated",
+      "غير ملقَّح"
+     ]
+    ],
+    "note_en": "Figure (1): the + side turned dark blue.",
+    "note_ar": "الشكل (1): الجهة + تحوّلت إلى أزرق داكن.",
+    "answer": "c",
+    "img": "assets/oxidase-test.png",
+    "img_h": "36mm"
+   },
+   {
+    "en": "In the oxidase test, the bacteria are transferred to the filter paper using:",
+    "ar": "في اختبار الأوكسيديز تُنقل البكتيريا إلى ورق الترشيح بـ:",
+    "options": [
+     [
+      "A nichrome loop",
+      "عروة نيكروم"
+     ],
+     [
+      "A wooden stick",
+      "عود خشبي"
+     ],
+     [
+      "A swab dipped in alcohol",
+      "مسحة مغموسة بالكحول"
+     ],
+     [
+      "A pipette",
+      "ماصّة"
+     ]
+    ],
+    "note_en": "Step 2: a large mass of pure bacteria with a wooden stick.",
+    "note_ar": "الخطوة 2: كتلة كبيرة من بكتيريا نقية بعود خشبي.",
+    "answer": "b"
+   },
+   {
+    "topic_en": "6. Urease test",
+    "topic_ar": "6. اختبار اليورييز"
+   },
+   {
+    "en": "Urease hydrolyzes urea into:",
+    "ar": "يحلّل اليورييز اليوريا إلى:",
+    "options": [
+     [
+      "Ammonia and `CO2`",
+      "أمونيا و`CO2`"
+     ],
+     [
+      "Water and oxygen",
+      "ماء وأكسجين"
+     ],
+     [
+      "Indole and pyruvic acid",
+      "إندول وحمض البيروفيك"
+     ],
+     [
+      "Fibrin",
+      "فيبرين"
+     ]
+    ],
+    "note_en": "Slide 14.",
+    "note_ar": "الشريحة 14.",
+    "answer": "a"
+   },
+   {
+    "en": "A positive urease test on urea agar is:",
+    "ar": "نتيجة اليورييز الموجبة على أجار اليوريا:",
+    "options": [
+     [
+      "Black colour",
+      "لون أسود"
+     ],
+     [
+      "Yellow colour",
+      "لون أصفر"
+     ],
+     [
+      "Blue colour",
+      "لون أزرق"
+     ],
+     [
+      "Pink colour",
+      "لون وردي"
+     ]
+    ],
+    "note_en": "Ammonia raises the pH → pink; yellow = negative.",
+    "note_ar": "الأمونيا ترفع الأس ← وردي؛ الأصفر = سالب.",
+    "answer": "d"
+   },
+   {
+    "en": "Urease-positive organisms on the slide include:",
+    "ar": "الكائنات موجبة اليورييز في الشريحة تشمل:",
+    "options": [
+     [
+      "__Pseudomonas__ only",
+      "الزائفة فقط"
+     ],
+     [
+      "__E. coli__",
+      "الإشريكية القولونية"
+     ],
+     [
+      "__Klebsiella__, __Proteus__ and __Helicobacter pylori__",
+      "الكلبسيلة والمتقلّبة والملوية البوابية"
+     ],
+     [
+      "__Streptococcus__",
+      "العقدية"
+     ]
+    ],
+    "note_en": "E. coli is urease negative (yellow).",
+    "note_ar": "الإشريكية سالبة اليورييز (أصفر).",
+    "answer": "c"
+   },
+   {
+    "topic_en": "7. Citrate test",
+    "topic_ar": "7. اختبار السترات"
+   },
+   {
+    "en": "The citrate test detects bacteria able to use:",
+    "ar": "يكشف اختبار السترات البكتيريا القادرة على استعمال:",
+    "options": [
+     [
+      "Urea as a carbon source",
+      "اليوريا مصدرًا للكربون"
+     ],
+     [
+      "Citrate as a carbon source and ammonia as a nitrogen source",
+      "السترات مصدرًا للكربون والأمونيا مصدرًا للنيتروجين"
+     ],
+     [
+      "Tryptophan as a nitrogen source",
+      "التربتوفان مصدرًا للنيتروجين"
+     ],
+     [
+      "Lactose only",
+      "اللاكتوز فقط"
+     ]
+    ],
+    "note_en": "Purpose of the test.",
+    "note_ar": "غرض الاختبار.",
+    "answer": "b"
+   },
+   {
+    "en": "Bacteria that grow on citrate medium produce the enzyme:",
+    "ar": "البكتيريا التي تنمو على وسط السترات تنتج إنزيم:",
+    "options": [
+     [
+      "Citrate permease",
+      "ناقل السترات `(citrate permease)`"
+     ],
+     [
+      "Tryptophanase",
+      "التربتوفانيز"
+     ],
+     [
+      "Urease",
+      "اليورييز"
+     ],
+     [
+      "Coagulase",
+      "الكواغيوليز"
+     ]
+    ],
+    "note_en": "Slide 16.",
+    "note_ar": "الشريحة 16.",
+    "answer": "a"
+   },
+   {
+    "en": "The medium and indicator of the citrate test are:",
+    "ar": "وسط اختبار السترات ومؤشّره:",
+    "options": [
+     [
+      "MR-VP with methyl red",
+      "`MR-VP` مع المثيل الأحمر"
+     ],
+     [
+      "Urea agar with phenol red",
+      "أجار اليوريا مع الفينول الأحمر"
+     ],
+     [
+      "Peptone water with Kovac's",
+      "ماء الببتون مع كوفاك"
+     ],
+     [
+      "Simmons citrate agar with bromothymol blue (included in the medium)",
+      "أجار سيمونز سترات مع أزرق البروموثيمول (ضمن الوسط)"
+     ]
+    ],
+    "note_en": "Note: the reagent is included in the medium.",
+    "note_ar": "ملاحظة: الكاشف ضمن الوسط.",
+    "answer": "d"
+   },
+   {
+    "en": "In this citrate test image, the blue tube on the right is:",
+    "ar": "في صورة اختبار السترات هذه، الأنبوب الأزرق على اليمين:",
+    "options": [
+     [
+      "Uninoculated",
+      "غير ملقَّح"
+     ],
+     [
+      "Negative — like __E. coli__",
+      "سالب — مثل الإشريكية"
+     ],
+     [
+      "Positive — like __Pseudomonas__ spp.",
+      "موجب — مثل الزائفة"
+     ],
+     [
+      "Contaminated",
+      "ملوَّث"
+     ]
+    ],
+    "note_en": "Green = negative (E. coli); blue = positive (Pseudomonas spp.).",
+    "note_ar": "أخضر = سالب (الإشريكية)؛ أزرق = موجب (الزائفة).",
+    "answer": "c",
+    "img": "assets/citrate-tubes.png",
+    "img_h": "36mm"
+   },
+   {
+    "en": "The citrate slant is incubated at 37 °C for:",
+    "ar": "يُحضن السطح المائل للسترات عند 37 درجة لمدّة:",
+    "options": [
+     [
+      "48 hrs",
+      "48 ساعة"
+     ],
+     [
+      "3 minutes",
+      "3 دقائق"
+     ],
+     [
+      "15 seconds",
+      "15 ثانية"
+     ],
+     [
+      "7 days",
+      "7 أيام"
+     ]
+    ],
+    "note_en": "Streaked only, incubated 48 h, then observe the colour.",
+    "note_ar": "يُخطَّط فقط، ويُحضن 48 ساعة، ثم يُلاحظ اللون.",
+    "answer": "a"
+   },
+   {
+    "topic_en": "8. Triple sugar iron (TSI) agar test",
+    "topic_ar": "8. اختبار أجار الحديد ثلاثي السكّر (TSI)"
+   },
+   {
+    "en": "TSI medium contains three sugars:",
+    "ar": "يحتوي وسط `TSI` على ثلاثة سكّريات:",
+    "options": [
+     [
+      "Sucrose, starch and dextrin",
+      "السكروز والنشا والدكسترين"
+     ],
+     [
+      "Glucose, maltose and mannitol",
+      "الغلوكوز والمالتوز والمانيتول"
+     ],
+     [
+      "Lactose, galactose and fructose",
+      "اللاكتوز والغالاكتوز والفركتوز"
+     ],
+     [
+      "Glucose, sucrose and lactose",
+      "الغلوكوز والسكروز واللاكتوز"
+     ]
+    ],
+    "note_en": "Plus ferrous sulfate and phenol red.",
+    "note_ar": "بالإضافة إلى كبريتات الحديدوز والفينول الأحمر.",
+    "answer": "d"
+   },
+   {
+    "en": "TSI is used to detect:",
+    "ar": "يُستعمل `TSI` للكشف عن:",
+    "options": [
+     [
+      "Fermentation of sugars",
+      "تخمير السكّريات"
+     ],
+     [
+      "Gas (`CO2`) production",
+      "إنتاج الغاز (`CO2`)"
+     ],
+     [
+      "`H2S` production",
+      "إنتاج `H2S`"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "note_en": "Three uses.",
+    "note_ar": "ثلاثة استعمالات.",
+    "answer": "d"
+   },
+   {
+    "en": "If neither lactose/sucrose nor glucose is fermented, the TSI tube shows:",
+    "ar": "إذا لم يُخمَّر اللاكتوز/السكروز ولا الغلوكوز، يظهر أنبوب `TSI`:",
+    "options": [
+     [
+      "Yellow butt, red slant (K/A)",
+      "قاع أصفر وسطح أحمر `(K/A)`"
+     ],
+     [
+      "Red butt and red slant (K/K), like __Pseudomonas__ spp.",
+      "قاع أحمر وسطح أحمر `(K/K)`، مثل الزائفة"
+     ],
+     [
+      "Yellow butt and slant (A/A)",
+      "قاع وسطح أصفران `(A/A)`"
+     ],
+     [
+      "Black butt",
+      "قاع أسود"
+     ]
+    ],
+    "note_en": "K = alkaline (red).",
+    "note_ar": "K = قاعدي (أحمر).",
+    "answer": "b"
+   },
+   {
+    "en": "If only glucose is fermented, the TSI result is:",
+    "ar": "إذا خُمِّر الغلوكوز فقط تكون نتيجة `TSI`:",
+    "options": [
+     [
+      "Red butt and slant (K/K)",
+      "قاع وسطح أحمران `(K/K)`"
+     ],
+     [
+      "Yellow butt, red slant (K/A), like __Salmonella typhi__",
+      "قاع أصفر وسطح أحمر `(K/A)`، مثل السالمونيلا التيفية"
+     ],
+     [
+      "Yellow butt and slant (A/A)",
+      "قاع وسطح أصفران `(A/A)`"
+     ],
+     [
+      "Blue slant",
+      "سطح أزرق"
+     ]
+    ],
+    "note_en": "Slant/butt: K/A. The slide spells “Slamonella”.",
+    "note_ar": "السطح/القاع: K/A. والشريحة كتبت «Slamonella».",
+    "answer": "b"
+   },
+   {
+    "en": "If lactose and sucrose are fermented, the TSI result is:",
+    "ar": "إذا خُمِّر اللاكتوز والسكروز تكون نتيجة `TSI`:",
+    "options": [
+     [
+      "K/A",
+      "`K/A`"
+     ],
+     [
+      "K/K",
+      "`K/K`"
+     ],
+     [
+      "Yellow butt and slant (A/A), like __E. coli__",
+      "قاع وسطح أصفران `(A/A)`، مثل الإشريكية"
+     ],
+     [
+      "Black precipitate only",
+      "راسب أسود فقط"
+     ]
+    ],
+    "note_en": "A = acid (yellow).",
+    "note_ar": "A = حامضي (أصفر).",
+    "answer": "c"
+   },
+   {
+    "en": "The black colour in TSI indicates:",
+    "ar": "اللون الأسود في `TSI` يدلّ على:",
+    "options": [
+     [
+      "No fermentation",
+      "عدم التخمير"
+     ],
+     [
+      "Gas production",
+      "إنتاج غاز"
+     ],
+     [
+      "Lactose fermentation",
+      "تخمير اللاكتوز"
+     ],
+     [
+      "`H2S` production (ferrous sulfide), like __Proteus__ spp.",
+      "إنتاج `H2S` (كبريتيد الحديدوز)، مثل المتقلّبة"
+     ]
+    ],
+    "note_en": "`H2S + FeSO4 → FeS` (black).",
+    "note_ar": "`H2S + FeSO4 → FeS` (أسود).",
+    "answer": "d"
+   },
+   {
+    "en": "Gas (`CO2`) production in TSI appears as:",
+    "ar": "يظهر إنتاج الغاز (`CO2`) في `TSI` كـ:",
+    "options": [
+     [
+      "Bubbles or cracks in the medium",
+      "فقاعات أو تشقّقات في الوسط"
+     ],
+     [
+      "A black colour",
+      "لون أسود"
+     ],
+     [
+      "A red ring",
+      "حلقة حمراء"
+     ],
+     [
+      "A blue slant",
+      "سطح مائل أزرق"
+     ]
+    ],
+    "note_en": "Slide 19.",
+    "note_ar": "الشريحة 19.",
+    "answer": "a"
+   },
+   {
+    "en": "In TSI reading, the letters K and A mean:",
+    "ar": "في قراءة `TSI` يعني الحرفان `K` و`A`:",
+    "options": [
+     [
+      "K = negative, A = gas",
+      "`K` = سالب، `A` = غاز"
+     ],
+     [
+      "K = acidic, A = alkaline",
+      "`K` = حامضي، `A` = قاعدي"
+     ],
+     [
+      "K = potassium, A = agar",
+      "`K` = البوتاسيوم، `A` = الأجار"
+     ],
+     [
+      "K = alkaline (red), A = acidic (yellow)",
+      "`K` = قاعدي (أحمر)، `A` = حامضي (أصفر)"
+     ]
+    ],
+    "note_en": "Figure (2) legend.",
+    "note_ar": "مفتاح الشكل (2).",
+    "answer": "d"
+   }
+  ],
+  "tf": [],
+  "traps": [],
+  "important": []
+ }
+}
