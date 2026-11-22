@@ -1,0 +1,827 @@
+{
+ "meta": {
+  "subject_en": "Diagnostic Microbiology",
+  "subject_ar": "الأحياء المجهرية التشخيصية",
+  "short_ar": "بكتريا",
+  "instructor": "د. عدنان",
+  "unit_en": "Lectures 3–5",
+  "unit_ar": "المحاضرات 3–5",
+  "unit_label": "LEC",
+  "unit_no": "3-5",
+  "title_en": "Selection, Collection, and Transport of Specimens",
+  "title_ar": "اختيار العيّنات وجمعها ونقلها",
+  "department": "قسم التحليلات",
+  "kind": "Theory — نظري",
+  "questions_kind": "MCQ + SA — اختيار ومقالية",
+  "stage": "The fourth stage — الرابعة",
+  "file_name": "BIOS - بكتريا نظري المحاضرات 3 و4 و5 - بنك أسئلة شامل"
+ },
+ "questions": {
+  "title_en": "Specimens (Lectures 3–5) — Comprehensive Questions (MCQ + SA)",
+  "title_ar": "العيّنات (المحاضرات 3–5) — أسئلة شاملة (اختيار + مقالية)",
+  "answers_inline": true,
+  "compact": true,
+  "mcq_per_page": 4,
+  "mcq_en": "Comprehensive MCQs — Lectures 3–5",
+  "mcq_ar": "أسئلة اختيار شاملة — المحاضرات 3 و4 و5",
+  "intro_en": [
+   "Q. Select the most correct answer from the followings",
+   "These questions cover the whole lecture; the answer and a short reason sit under each MCQ, and the model answer under each essay question. Questions that came in the 2023 exams are noted."
+  ],
+  "intro_ar": [
+   "س. اختر الإجابة الأصح مما يأتي",
+   "هذه الأسئلة تغطّي المحاضرة كاملة؛ والحل وسطر سبب مختصر تحت كل سؤال اختيار، والجواب النموذجي تحت كل سؤال مقالي. والأسئلة التي جاءت في امتحانات 2023 مذكورة."
+  ],
+  "mcq": [
+   {
+    "topic_en": "The role of the laboratory",
+    "topic_ar": "دور المختبر"
+   },
+   {
+    "en": "The role of the laboratory in the diagnosis of infections can be considered:",
+    "ar": "يمكن عدّ دور المختبر في تشخيص العدوى:",
+    "options": [
+     [
+      "Unrelated to diagnosis",
+      "غير مرتبط بالتشخيص"
+     ],
+     [
+      "A minor step",
+      "خطوة ثانوية"
+     ],
+     [
+      "An administrative step only",
+      "خطوة إدارية فقط"
+     ],
+     [
+      "A major step of diagnostic microbiology",
+      "خطوة رئيسية في علم الأحياء الدقيقة التشخيصي"
+     ]
+    ],
+    "note_en": "The file writes “a major steps” (sic).",
+    "note_ar": "الملف كتب «a major steps» كما هو.",
+    "answer": "d"
+   },
+   {
+    "en": "If pathogens are to be isolated successfully, which of the following must be correct?",
+    "ar": "لكي تُعزل الممرضات بنجاح، أيّ مما يأتي يجب أن يكون صحيحًا؟",
+    "options": [
+     [
+      "The type of specimen and its collection",
+      "نوع العيّنة وجمعها"
+     ],
+     [
+      "The time of the specimen",
+      "وقت العيّنة"
+     ],
+     [
+      "The method of its dispatch to the laboratory",
+      "طريقة إرسالها إلى المختبر"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "note_en": "Four things: type, collection, time, method of dispatch.",
+    "note_ar": "أربعة أشياء: النوع، الجمع، الوقت، طريقة الإرسال.",
+    "answer": "d"
+   },
+   {
+    "topic_en": "The request form",
+    "topic_ar": "نموذج الطلب"
+   },
+   {
+    "en": "A detailed request form that accompanies a clinical sample is pivotal in:",
+    "ar": "نموذج الطلب التفصيلي المرافق للعيّنة السريرية محوري في:",
+    "options": [
+     [
+      "Ensuring the appropriate diagnostic procedures are undertaken",
+      "ضمان إجراء الفحوص التشخيصية المناسبة"
+     ],
+     [
+      "Reducing the price",
+      "تقليل السعر"
+     ],
+     [
+      "Sterilizing the sample",
+      "تعقيم العيّنة"
+     ],
+     [
+      "Replacing the culture",
+      "الاستغناء عن الزرع"
+     ]
+    ],
+    "note_en": "Highlighted in the file.",
+    "note_ar": "مظلَّل في الملف.",
+    "answer": "a"
+   },
+   {
+    "en": "Which of the following should be included in the request form?",
+    "ar": "أيّ مما يأتي يجب أن يتضمّنه نموذج الطلب؟",
+    "options": [
+     [
+      "Patient details",
+      "تفاصيل المريض"
+     ],
+     [
+      "Sample type",
+      "نوع العيّنة"
+     ],
+     [
+      "Time of collection",
+      "وقت الجمع"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "note_en": "Seven items; this question was unsolved in the 2024 file (answer: all).",
+    "note_ar": "سبعة بنود؛ وهذا السؤال كان غير محلول في ملف 2024 (الجواب: الكل).",
+    "answer": "d"
+   },
+   {
+    "en": "Item 6 of the request form is:",
+    "ar": "البند 6 في نموذج الطلب:",
+    "options": [
+     [
+      "The patient's blood group",
+      "زمرة دم المريض"
+     ],
+     [
+      "Treatment history and concurrent antimicrobial therapy",
+      "تاريخ العلاج والعلاج المتزامن بمضادات الميكروبات"
+     ],
+     [
+      "The cost of the test",
+      "كلفة الفحص"
+     ],
+     [
+      "The doctor's phone number",
+      "رقم هاتف الطبيب"
+     ]
+    ],
+    "note_en": "Highlighted.",
+    "note_ar": "مظلَّل.",
+    "answer": "b"
+   },
+   {
+    "en": "How many items of information should the request form include?",
+    "ar": "كم بندًا من المعلومات يجب أن يتضمّن نموذج الطلب؟",
+    "options": [
+     [
+      "5",
+      "5"
+     ],
+     [
+      "4",
+      "4"
+     ],
+     [
+      "7",
+      "7"
+     ],
+     [
+      "10",
+      "10"
+     ]
+    ],
+    "note_en": "Patient details, clinical diagnosis, onset of symptoms, sample type, time of collection, treatment history, other health and safety issues.",
+    "note_ar": "تفاصيل المريض، التشخيص السريري، ظهور الأعراض، نوع العيّنة، وقت الجمع، تاريخ العلاج، قضايا الصحة والسلامة الأخرى.",
+    "answer": "c"
+   },
+   {
+    "en": "Which of the following is NOT one of the request form items?",
+    "ar": "أيّ مما يأتي ليس من بنود نموذج الطلب؟",
+    "options": [
+     [
+      "Clinical diagnosis",
+      "التشخيص السريري"
+     ],
+     [
+      "The patient's income",
+      "دخل المريض"
+     ],
+     [
+      "Onset of symptoms",
+      "ظهور الأعراض"
+     ],
+     [
+      "Other health and safety issues",
+      "قضايا الصحة والسلامة الأخرى"
+     ]
+    ],
+    "note_en": "Not on the list.",
+    "note_ar": "ليس في القائمة.",
+    "answer": "b"
+   },
+   {
+    "en": "Supporting clinical information that is also important includes:",
+    "ar": "المعلومات السريرية الداعمة المهمة أيضًا تشمل:",
+    "options": [
+     [
+      "The hospital name",
+      "اسم المستشفى"
+     ],
+     [
+      "The patient's hobbies",
+      "هوايات المريض"
+     ],
+     [
+      "The patient's job title only",
+      "وظيفة المريض فقط"
+     ],
+     [
+      "Travel history and contact with infected individuals",
+      "تاريخ السفر والتماس مع أشخاص مصابين"
+     ]
+    ],
+    "note_en": "Last sentence of page 1.",
+    "note_ar": "آخر جملة في الصفحة 1.",
+    "answer": "d"
+   },
+   {
+    "topic_en": "Sample collection",
+    "topic_ar": "جمع العيّنات"
+   },
+   {
+    "en": "Samples for microbiological investigation require careful collection without contamination from:",
+    "ar": "تتطلّب عيّنات الفحص الميكروبيولوجي جمعًا دقيقًا دون تلوّث من:",
+    "options": [
+     [
+      "External sources or the patient's own flora",
+      "مصادر خارجية أو فلورا المريض نفسه"
+     ],
+     [
+      "Sterile containers",
+      "الحاويات المعقّمة"
+     ],
+     [
+      "Transport media",
+      "أوساط النقل"
+     ],
+     [
+      "Antiseptics",
+      "المطهّرات"
+     ]
+    ],
+    "note_en": "Sample collection, first point.",
+    "note_ar": "جمع العيّنات، النقطة الأولى.",
+    "answer": "a"
+   },
+   {
+    "en": "When taking clinical samples, it is important to use:",
+    "ar": "عند أخذ العيّنات السريرية من المهم استعمال:",
+    "options": [
+     [
+      "Paper bags",
+      "أكياس ورقية"
+     ],
+     [
+      "Any clean cup",
+      "أي كوب نظيف"
+     ],
+     [
+      "Sterile, leak-proof containers",
+      "حاويات معقّمة مانعة للتسرّب"
+     ],
+     [
+      "Reused containers",
+      "حاويات مُعاد استعمالها"
+     ]
+    ],
+    "note_en": "Point 1 (highlighted).",
+    "note_ar": "النقطة 1 (مظلَّلة).",
+    "answer": "c"
+   },
+   {
+    "en": "When obtaining blood culture by vein puncture through the skin, the skin should be:",
+    "ar": "عند سحب زرع الدم بثقب الوريد عبر الجلد، يجب أن يكون الجلد:",
+    "options": [
+     [
+      "Left untreated",
+      "بلا أي معالجة"
+     ],
+     [
+      "Washed with water only",
+      "مغسولًا بالماء فقط"
+     ],
+     [
+      "Decontaminated with an appropriate antiseptic prior to collecting blood",
+      "مطهَّرًا بمطهّر مناسب قبل سحب الدم"
+     ],
+     [
+      "Heated",
+      "مسخَّنًا"
+     ]
+    ],
+    "note_en": "Because the skin contains a normal flora.",
+    "note_ar": "لأن الجلد يحتوي فلورا طبيعية.",
+    "answer": "c"
+   },
+   {
+    "en": "Specimens for microbiological culture should be taken prior to antibiotic therapy to avoid:",
+    "ar": "يجب أخذ العيّنات للزرع قبل العلاج بالمضادات الحيوية لتجنّب:",
+    "options": [
+     [
+      "False-positive results",
+      "النتائج الإيجابية الكاذبة"
+     ],
+     [
+      "False-negative results",
+      "النتائج السلبية الكاذبة"
+     ],
+     [
+      "Contamination",
+      "التلوّث"
+     ],
+     [
+      "Leakage",
+      "التسرّب"
+     ]
+    ],
+    "note_en": "Point 4; a 2023-exam question.",
+    "note_ar": "النقطة 4؛ ومن أسئلة امتحان 2023.",
+    "answer": "b"
+   },
+   {
+    "en": "Vein puncture through the skin is an example of obtaining samples through:",
+    "ar": "ثقب الوريد عبر الجلد مثال على أخذ العيّنات عبر:",
+    "options": [
+     [
+      "A biosafety cabinet",
+      "خزانة سلامة حيوية"
+     ],
+     [
+      "A sterile body site",
+      "موقع معقّم من الجسم"
+     ],
+     [
+      "A transport medium",
+      "وسط نقل"
+     ],
+     [
+      "An area containing a normal flora",
+      "منطقة تحتوي فلورا طبيعية"
+     ]
+    ],
+    "note_en": "Point 3.",
+    "note_ar": "النقطة 3.",
+    "answer": "d"
+   },
+   {
+    "topic_en": "Transport of microbiological specimens",
+    "topic_ar": "نقل العيّنات الميكروبيولوجية"
+   },
+   {
+    "en": "Rapid transport of samples to the microbiology laboratory is essential because:",
+    "ar": "النقل السريع للعيّنات إلى المختبر ضروري لأن:",
+    "options": [
+     [
+      "Many fastidious microorganisms die during transit",
+      "كائنات صعبة النمو كثيرة تموت أثناء النقل"
+     ],
+     [
+      "Samples freeze",
+      "العيّنات تتجمّد"
+     ],
+     [
+      "Labels fall off",
+      "الملصقات تسقط"
+     ],
+     [
+      "The cost increases",
+      "الكلفة تزيد"
+     ]
+    ],
+    "note_en": "First transport point.",
+    "note_ar": "أول نقطة في النقل.",
+    "answer": "a"
+   },
+   {
+    "en": "Examples of fastidious microorganisms that die during transit are:",
+    "ar": "أمثلة الكائنات صعبة النمو التي تموت أثناء النقل:",
+    "options": [
+     [
+      "__E. coli__ and __Staphylococcus aureus__",
+      "الإشريكية القولونية والعنقودية الذهبية"
+     ],
+     [
+      "__Neisseria gonorrhoeae__ and __Haemophilus influenzae__",
+      "النيسرية البنية والمستدمية النزلية"
+     ],
+     [
+      "__Klebsiella__ and __Proteus__",
+      "الكلبسيلة والمتقلّبة"
+     ],
+     [
+      "__Bacillus subtilis__",
+      "العصوية الرقيقة"
+     ]
+    ],
+    "note_en": "Underlined and highlighted; a 2023-exam question.",
+    "note_ar": "مسطَّر ومظلَّل؛ ومن أسئلة امتحان 2023.",
+    "answer": "b"
+   },
+   {
+    "en": "Another problem of delayed transport is:",
+    "ar": "مشكلة أخرى للنقل المتأخّر:",
+    "options": [
+     [
+      "Overgrowth by contaminating normal flora confusing the pathogen",
+      "النمو المفرط للفلورا الطبيعية الملوِّثة مما يربك التعرّف على الممرض"
+     ],
+     [
+      "The pathogen multiplies too fast to identify",
+      "تكاثر الممرض بسرعة"
+     ],
+     [
+      "The container melts",
+      "ذوبان الحاوية"
+     ],
+     [
+      "Loss of the request form",
+      "ضياع نموذج الطلب"
+     ]
+    ],
+    "note_en": "Second transport point.",
+    "note_ar": "النقطة الثانية في النقل.",
+    "answer": "a"
+   },
+   {
+    "topic_en": "Strategies to minimize transport complications",
+    "topic_ar": "استراتيجيات تقليل مشكلات النقل"
+   },
+   {
+    "en": "If the specimen cannot reach the laboratory as soon as possible:",
+    "ar": "إذا لم تصل العيّنة إلى المختبر بأسرع وقت:",
+    "options": [
+     [
+      "It must be heated",
+      "يجب تسخينها"
+     ],
+     [
+      "It must be discarded",
+      "يجب التخلّص منها"
+     ],
+     [
+      "A suitable preservative or transport medium must be used",
+      "يجب استعمال حافظ أو وسط نقل مناسب"
+     ],
+     [
+      "Antibiotics must be added",
+      "يجب إضافة مضادات حيوية"
+     ]
+    ],
+    "note_en": "Strategy 1.",
+    "note_ar": "الاستراتيجية 1.",
+    "answer": "c"
+   },
+   {
+    "en": "Refrigeration of the sample at `4 ºC` helps to:",
+    "ar": "تبريد العيّنة عند `4 ºC` يساعد على:",
+    "options": [
+     [
+      "Sterilize the specimen",
+      "تعقيم العيّنة"
+     ],
+     [
+      "Kill all pathogens",
+      "قتل جميع الممرضات"
+     ],
+     [
+      "Increase pathogen growth",
+      "زيادة نمو الممرض"
+     ],
+     [
+      "Preserve cells and reduce the multiplication of commensals in unpreserved specimens",
+      "حفظ الخلايا وتقليل تكاثر المتعايشات في العيّنات غير المحفوظة"
+     ]
+    ],
+    "note_en": "Strategy 2; a 2023-exam question.",
+    "note_ar": "الاستراتيجية 2؛ ومن أسئلة امتحان 2023.",
+    "answer": "d"
+   },
+   {
+    "en": "Freezing of specimens is done at:",
+    "ar": "يكون تجميد العيّنات عند:",
+    "options": [
+     [
+      "`-4 ºC`",
+      "`-4 ºC`"
+     ],
+     [
+      "`4 ºC`",
+      "`4 ºC`"
+     ],
+     [
+      "`0 ºC`",
+      "`0 ºC`"
+     ],
+     [
+      "`-70 ºC` or below with a stabilizing fluid",
+      "`-70 ºC` أو أقل مع سائل مثبِّت"
+     ]
+    ],
+    "note_en": "Strategy 3.",
+    "note_ar": "الاستراتيجية 3.",
+    "answer": "d"
+   },
+   {
+    "en": "The stabilizing fluid used when freezing specimens is:",
+    "ar": "السائل المثبِّت المستعمل عند تجميد العيّنات:",
+    "options": [
+     [
+      "Alcohol",
+      "الكحول"
+     ],
+     [
+      "Glycerol or serum",
+      "الغليسرول أو المصل"
+     ],
+     [
+      "Phenol",
+      "الفينول"
+     ],
+     [
+      "Formalin",
+      "الفورمالين"
+     ]
+    ],
+    "note_en": "Glycerol was the answer in the 2023 exam.",
+    "note_ar": "الغليسرول كان جواب امتحان 2023.",
+    "answer": "b"
+   },
+   {
+    "en": "To prevent loosening and leakage of the container cap during transit, you should:",
+    "ar": "لمنع ارتخاء غطاء الحاوية والتسرّب أثناء النقل:",
+    "options": [
+     [
+      "Use a paper cap",
+      "استعمال غطاء ورقي"
+     ],
+     [
+      "Freeze the container",
+      "تجميد الحاوية"
+     ],
+     [
+      "Seal round the cap with adhesive tape",
+      "إحكام الغطاء بشريط لاصق"
+     ],
+     [
+      "Fill the container to the top",
+      "ملء الحاوية حتى آخرها"
+     ]
+    ],
+    "note_en": "Strategy 5.",
+    "note_ar": "الاستراتيجية 5.",
+    "answer": "c"
+   },
+   {
+    "en": "If the specimen container is a glass tube or bottle:",
+    "ar": "إذا كانت حاوية العيّنة أنبوبًا أو قنينة زجاجية:",
+    "options": [
+     [
+      "Use sufficient packaging material to protect it",
+      "استعمل مادة تغليف كافية لحمايتها"
+     ],
+     [
+      "Use absorbent material only",
+      "استعمل مادة ماصّة فقط"
+     ],
+     [
+      "Use no packaging",
+      "لا تستعمل أي تغليف"
+     ],
+     [
+      "Freeze it",
+      "جمّدها"
+     ]
+    ],
+    "note_en": "The file writes “prefect” — a typo for “protect”.",
+    "note_ar": "الملف كتب «prefect» وصوابها «protect».",
+    "answer": "a"
+   },
+   {
+    "en": "If the specimen is fluid:",
+    "ar": "إذا كانت العيّنة سائلة:",
+    "options": [
+     [
+      "Dry it first",
+      "جفّفها أولًا"
+     ],
+     [
+      "Use packaging material only",
+      "استعمل مادة تغليف فقط"
+     ],
+     [
+      "Use sufficient absorbent material to absorb it",
+      "استعمل مادة ماصّة كافية لامتصاصها"
+     ],
+     [
+      "Add glycerol",
+      "أضف الغليسرول"
+     ]
+    ],
+    "note_en": "Strategy 7.",
+    "note_ar": "الاستراتيجية 7.",
+    "answer": "c"
+   },
+   {
+    "en": "All specimens that may contain a highly infectious organism must be marked:",
+    "ar": "جميع العيّنات التي قد تحتوي كائنًا شديد العدوى يجب وسمها بـ:",
+    "options": [
+     [
+      "“STERILE”",
+      "«STERILE»"
+     ],
+     [
+      "“LOW RISK”",
+      "`«LOW RISK»`"
+     ],
+     [
+      "“NO RISK”",
+      "`«NO RISK»`"
+     ],
+     [
+      "“HIGH RISK”",
+      "«`HIGH RISK`» (عالية الخطورة)"
+     ]
+    ],
+    "note_en": "Strategy 8; a 2023-exam question.",
+    "note_ar": "الاستراتيجية 8؛ ومن أسئلة امتحان 2023.",
+    "answer": "d"
+   },
+   {
+    "en": "How many strategies to minimize transport complications are listed?",
+    "ar": "كم استراتيجية لتقليل مشكلات النقل مذكورة؟",
+    "options": [
+     [
+      "4",
+      "4"
+     ],
+     [
+      "8",
+      "8"
+     ],
+     [
+      "6",
+      "6"
+     ],
+     [
+      "10",
+      "10"
+     ]
+    ],
+    "note_en": "Numbered (1)–(8).",
+    "note_ar": "مرقّمة من (1) إلى (8).",
+    "answer": "b"
+   },
+   {
+    "topic_en": "Non-culture techniques",
+    "topic_ar": "التقنيات غير الزرعية"
+   },
+   {
+    "en": "Following receipt of the sample, the laboratory may use non-culture techniques to:",
+    "ar": "بعد استلام العيّنة قد يستعمل المختبر التقنيات غير الزرعية لـ:",
+    "options": [
+     [
+      "Provide rapid clinical information that may benefit patient management",
+      "تقديم معلومات سريرية سريعة قد تفيد في تدبير المريض"
+     ],
+     [
+      "Replace the request form",
+      "الاستغناء عن نموذج الطلب"
+     ],
+     [
+      "Sterilize the sample",
+      "تعقيم العيّنة"
+     ],
+     [
+      "Slow down diagnosis",
+      "إبطاء التشخيص"
+     ]
+    ],
+    "note_en": "Highlighted: “provide rapid clinical information”.",
+    "note_ar": "المظلَّل: «تقديم معلومات سريرية سريعة».",
+    "answer": "a"
+   },
+   {
+    "en": "Non-culture techniques are of importance when:",
+    "ar": "تكون التقنيات غير الزرعية مهمة عندما:",
+    "options": [
+     [
+      "The microorganism cannot be readily cultured in vitro",
+      "لا يمكن زرع الكائن بسهولة في المختبر"
+     ],
+     [
+      "The microorganism is slow-growing",
+      "يكون الكائن بطيء النمو"
+     ],
+     [
+      "Rapid diagnosis significantly influences clinical management",
+      "يؤثّر التشخيص السريع كثيرًا في التدبير السريري"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "note_en": "Three situations; a 2023-exam question.",
+    "note_ar": "ثلاث حالات؛ ومن أسئلة امتحان 2023.",
+    "answer": "d"
+   },
+   {
+    "en": "Non-culture techniques include:",
+    "ar": "تشمل التقنيات غير الزرعية:",
+    "options": [
+     [
+      "Direct microscopy and immunological methods",
+      "الفحص المجهري المباشر والطرق المناعية"
+     ],
+     [
+      "Serology",
+      "الفحوص المصلية"
+     ],
+     [
+      "Nucleic acid amplification techniques (NAAT)",
+      "تقنيات تضخيم الحمض النووي `(NAAT)`"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "note_en": "Four techniques; a 2023-exam question.",
+    "note_ar": "أربع تقنيات؛ ومن أسئلة امتحان 2023.",
+    "answer": "d"
+   },
+   {
+    "en": "Which of the following is NOT a non-culture technique?",
+    "ar": "أيّ مما يأتي ليس تقنية غير زرعية؟",
+    "options": [
+     [
+      "NAAT",
+      "NAAT"
+     ],
+     [
+      "Serology",
+      "الفحوص المصلية"
+     ],
+     [
+      "Direct microscopy",
+      "الفحص المجهري المباشر"
+     ],
+     [
+      "Blood culture on agar",
+      "زرع الدم على الأجار"
+     ]
+    ],
+    "note_en": "Culture is, by definition, not a non-culture technique.",
+    "note_ar": "الزرع بالتعريف ليس تقنية غير زرعية.",
+    "answer": "d"
+   }
+  ],
+  "tf": [],
+  "traps": [],
+  "important": [
+   {
+    "en": "What must be correct if pathogens are to be isolated successfully?",
+    "ar": "ما الذي يجب أن يكون صحيحًا لعزل الممرضات بنجاح؟",
+    "answer_en": "The type of specimen, its collection, time and method of its dispatch to the laboratory must be correct.",
+    "answer_ar": "يجب أن يكون نوع العيّنة وجمعها ووقتها وطريقة إرسالها إلى المختبر صحيحة."
+   },
+   {
+    "en": "List the information that the request form accompanying a clinical sample should include.",
+    "ar": "عدّد المعلومات التي يجب أن يتضمّنها نموذج الطلب المرافق للعيّنة السريرية.",
+    "answer_en": "1) Patient details. 2) Clinical diagnosis. 3) Onset of symptoms. 4) Sample type. 5) Time of collection. 6) Treatment history and concurrent antimicrobial therapy. 7) Other health and safety issues. Supporting clinical information, including travel history and contact with infected individuals, is also important.",
+    "answer_ar": "1) تفاصيل المريض. 2) التشخيص السريري. 3) ظهور الأعراض. 4) نوع العيّنة. 5) وقت الجمع. 6) تاريخ العلاج والعلاج المتزامن بمضادات الميكروبات. 7) قضايا الصحة والسلامة الأخرى. والمعلومات السريرية الداعمة، كتاريخ السفر والتماس مع المصابين، مهمة أيضًا."
+   },
+   {
+    "en": "When taking clinical samples, what is it important to do?",
+    "ar": "عند أخذ العيّنات السريرية، ما الذي من المهم القيام به؟",
+    "answer_en": "1) Use sterile, leak-proof containers. 2) Label the specimen correctly. 3) Take care whilst obtaining samples through an area containing a normal flora — e.g. vein puncture through the skin for blood culture, where the skin should be decontaminated with an appropriate antiseptic prior to collecting blood. 4) If possible, take specimens for microbiological culture prior to antibiotic therapy, to avoid false-negative results.",
+    "answer_ar": "1) استعمال حاويات معقّمة مانعة للتسرّب. 2) وسم العيّنة بشكل صحيح. 3) الحذر عند أخذ العيّنات عبر منطقة فيها فلورا طبيعية — مثل ثقب الوريد عبر الجلد لزرع الدم، إذ يجب تطهير الجلد بمطهّر مناسب قبل سحب الدم. 4) أخذ عيّنات الزرع قبل العلاج بالمضادات الحيوية إن أمكن، لتجنّب النتائج السلبية الكاذبة."
+   },
+   {
+    "en": "Why is rapid transport of samples to the microbiology laboratory essential?",
+    "ar": "لماذا يُعدّ النقل السريع للعيّنات إلى مختبر الأحياء الدقيقة ضروريًّا؟",
+    "answer_en": "Because many fastidious microorganisms, such as Neisseria gonorrhoeae and Haemophilus influenzae, die during transit. Furthermore, overgrowth by contaminating normal flora confusing the pathogen may also occur.",
+    "answer_ar": "لأن كائنات صعبة النمو كثيرة، مثل النيسرية البنية والمستدمية النزلية، تموت أثناء النقل. وفوق ذلك قد يحدث نمو مفرط للفلورا الطبيعية الملوِّثة يربك التعرّف على الممرض."
+   },
+   {
+    "en": "List the strategies that the microbiology department may adopt to minimize transport complications.",
+    "ar": "عدّد الاستراتيجيات التي قد يتّبعها قسم الأحياء الدقيقة لتقليل مشكلات النقل.",
+    "answer_en": "(1) The specimen should reach the laboratory as soon as possible, or a suitable preservative or transport medium must be used. (2) Refrigeration at 4 °C to preserve cells and reduce the multiplication of commensals. (3) Freezing at −70 °C or below with a stabilizing fluid such as glycerol or serum. (4) Ensure the container is free from cracks and the cap is leak-proof. (5) Seal round the cap with adhesive tape. (6) For a glass tube or bottle, use sufficient packaging material to protect the specimen. (7) For a fluid specimen, use sufficient absorbent material. (8) Mark all specimens that may contain a highly infectious organism “HIGH RISK”.",
+    "answer_ar": "(1) وصول العيّنة إلى المختبر بأسرع وقت، أو استعمال حافظ أو وسط نقل مناسب. (2) التبريد عند 4 درجات لحفظ الخلايا وتقليل تكاثر المتعايشات. (3) التجميد عند −70 درجة أو أقل مع سائل مثبِّت كالغليسرول أو المصل. (4) التأكّد من خلوّ الحاوية من الشقوق وأن الغطاء مانع للتسرّب. (5) إحكام الغطاء بشريط لاصق. (6) للأنبوب أو القنينة الزجاجية: مادة تغليف كافية لحماية العيّنة. (7) للعيّنة السائلة: مادة ماصّة كافية. (8) وسم كل عيّنة قد تحتوي كائنًا شديد العدوى بـ«`HIGH RISK`»."
+   },
+   {
+    "en": "When are non-culture techniques important, and what do they include?",
+    "ar": "متى تكون التقنيات غير الزرعية مهمة، وماذا تشمل؟",
+    "answer_en": "They provide rapid clinical information that may benefit patient management. They are important when: the microorganism cannot be readily cultured in vitro; the microorganism is slow-growing; or rapid laboratory diagnosis significantly influences clinical management of the patient. They include: 1) direct microscopy, 2) immunological methods, 3) serology, 4) nucleic acid amplification techniques (NAAT).",
+    "answer_ar": "تقدّم معلومات سريرية سريعة قد تفيد في تدبير المريض. وتكون مهمة عندما: لا يمكن زرع الكائن بسهولة في المختبر؛ أو يكون بطيء النمو؛ أو يؤثّر التشخيص المختبري السريع كثيرًا في التدبير السريري للمريض. وتشمل: 1) الفحص المجهري المباشر، 2) الطرق المناعية، 3) الفحوص المصلية، 4) تقنيات تضخيم الحمض النووي `(NAAT)`."
+   }
+  ]
+ }
+}
