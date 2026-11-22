@@ -12,6 +12,7 @@ parts = [
     ("bacteriology-lec6-mcq", "المحاضرة 6 — الأوساط الزراعية"),
     ("bacteriology-lec7-9-mcq", "المحاضرات 7–9 — طرق التشخيص"),
     ("bacteriology-adnan-exams-mcq", "أسئلة امتحانات د. عدنان (2025، 2023، 2022)"),
+    ("bacteriology-2024-extra-mcq", "أسئلة إضافية من ملف 2024 (غير مكرَّرة)"),
 ]
 info = []; cur = 2; total_q = 0   # page 1 = note page
 for folder, title in parts:
@@ -20,8 +21,8 @@ for folder, title in parts:
     nq = sum(1 for q in j["questions"]["mcq"] if "answer" in q); total_q += nq
     pdf = os.path.join(d, j["meta"]["file_name"] + ".pdf"); n = len(PdfReader(pdf).pages)
     info.append((title, nq, cur, pdf)); print(f"{title}: {nq} Q, {n} pages @ {cur}"); cur += n
-adnan_page = info[-1][2]
-rows = "".join(f'<tr{" class=hl" if i == len(info)-1 else ""}><td>{html.escape(t)}</td><td>{nq}</td><td>{p}</td></tr>' for i, (t, nq, p, _) in enumerate(info))
+adnan_page = info[-2][2]; extra_page = info[-1][2]
+rows = "".join(f'<tr{" class=hl" if i >= len(info)-2 else ""}><td>{html.escape(t)}</td><td>{nq}</td><td>{p}</td></tr>' for i, (t, nq, p, _) in enumerate(info))
 page = f"""<!DOCTYPE html><html lang=ar dir=rtl><head><meta charset=utf-8><style>
 @font-face{{font-family:Mada;src:url(file://{ENGINE}/fonts/Mada-Regular.ttf);font-weight:400}}
 @font-face{{font-family:Mada;src:url(file://{ENGINE}/fonts/Mada-Bold.ttf);font-weight:700}}
@@ -34,8 +35,8 @@ table{{border-collapse:collapse;width:100%;font-size:13pt}} td,th{{border-bottom
 th{{color:#5a2333}} tr.hl td{{background:#efe0c8;font-weight:700}} .tot{{font-size:14pt;font-weight:700}}
 .foot{{margin-top:auto;font-size:11pt;color:#7a5a63}}
 </style></head><body><div class=p>
-<div class=brand>BIOS</div><h1>بكتريا نظري — أسئلة MCQ (المحاضرات 1–9) + أسئلة امتحانات د. عدنان</h1>
-<div class=note>ملاحظة: أسئلة امتحانات الدكتور عدنان (2025، 2/12/2023، 2022) تبدأ من الصفحة <b>{adnan_page}</b></div>
+<div class=brand>BIOS</div><h1>بكتريا نظري — أسئلة MCQ (المحاضرات 1–9) + أسئلة امتحانات د. عدنان + أسئلة 2024 الإضافية</h1>
+<div class=note>ملاحظة: أسئلة امتحانات الدكتور عدنان (2025، 2/12/2023، 2022) تبدأ من الصفحة <b>{adnan_page}</b><br>والأسئلة الإضافية من ملف 2024 (غير المكرَّرة) تبدأ من الصفحة <b>{extra_page}</b></div>
 <table><tr><th>الجزء</th><th>عدد الأسئلة</th><th>يبدأ من الصفحة</th></tr>{rows}</table>
 <div class=tot>المجموع الكلي: {total_q} سؤالًا</div>
 <div class=foot>BIOS · Telegram @BIOS0t</div></div></body></html>"""
@@ -48,6 +49,6 @@ for title, nq, p, pdf in info:
 out_dir = os.path.join(REPO, "bacteriology-theory-mcq-combined"); os.makedirs(out_dir, exist_ok=True)
 for f in os.listdir(out_dir):
     if f.endswith(".pdf"): os.remove(os.path.join(out_dir, f))
-out = os.path.join(out_dir, "BIOS - بكتريا نظري - أسئلة MCQ (المحاضرات 1-9 + امتحانات د. عدنان).pdf")
+out = os.path.join(out_dir, "BIOS - بكتريا نظري - أسئلة MCQ (المحاضرات 1-9 + امتحانات د. عدنان + 2024).pdf")
 with open(out, "wb") as f: writer.write(f)
-print("TOTAL questions:", total_q, "| pages:", cur - 1, "| Adnan starts at page", adnan_page); print(out)
+print("TOTAL questions:", total_q, "| pages:", cur - 1, "| Adnan starts at page", adnan_page, "| 2024 extra at", extra_page); print(out)

@@ -1,0 +1,1062 @@
+{
+ "meta": {
+  "subject_en": "Diagnostic Microbiology",
+  "subject_ar": "الأحياء المجهرية التشخيصية",
+  "short_ar": "بكتريا",
+  "unit_en": "2024 extra",
+  "unit_ar": "إضافية 2024",
+  "unit_label": "LEC",
+  "unit_no": "24+",
+  "title_en": "Extra Questions from the 2024 File (not repeated)",
+  "title_ar": "أسئلة إضافية من ملف 2024 (غير مكرَّرة)",
+  "department": "قسم التحليلات",
+  "stage": "The fourth stage — الرابعة",
+  "kind": "Theory — نظري",
+  "questions_kind": "MCQ — أسئلة اختيار",
+  "file_name": "BIOS - بكتريا نظري - أسئلة إضافية من ملف 2024",
+  "instructor": "د. عدنان"
+ },
+ "questions": {
+  "title_en": "Extra 2024 Questions — MCQ",
+  "title_ar": "أسئلة 2024 الإضافية — اختيار",
+  "answers_inline": true,
+  "compact": true,
+  "mcq_per_page": 5,
+  "mcq_en": "Extra questions — 2024 file",
+  "mcq_ar": "أسئلة إضافية — ملف 2024",
+  "intro_en": [
+   "Note: these questions are from the 2024 questions file (lectures 1–9) and are NOT repeated in the previous parts of this file.",
+   "Choose the correct answer; the answer sits under each question."
+  ],
+  "intro_ar": [
+   "ملاحظة: هذه الأسئلة من ملف أسئلة 2024 (المحاضرات 1–9)، وهي غير مكرَّرة في الأجزاء السابقة من هذا الملف.",
+   "اختر الإجابة الصحيحة؛ والحل تحت كل سؤال."
+  ],
+  "mcq": [
+   {
+    "topic_en": "Lecture 1 — Purpose and philosophy",
+    "topic_ar": "المحاضرة 1 — الغرض والفلسفة"
+   },
+   {
+    "en": "Infectious disease occurs when the organism causes ............ and loss function of body systems.",
+    "ar": "تحدث الأمراض المعدية عندما يسبّب الكائن الحي ............ وفقدان وظائف أجهزة الجسم.",
+    "options": [
+     [
+      "tissue damage",
+      "تلف الأنسجة"
+     ],
+     [
+      "eye injury",
+      "إصابة العين"
+     ],
+     [
+      "ear wound",
+      "جرح الأذن"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ],
+     [
+      "No one of above",
+      "لا شيء مما سبق"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "Bacteria can play an important role in the human body via",
+    "ar": "يمكن للبكتيريا أن تؤدّي دورًا مهمًّا في جسم الإنسان من خلال",
+    "options": [
+     [
+      "Degradation food",
+      "تحليل (هضم) الطعام"
+     ],
+     [
+      "against opportunistic bacteria",
+      "مقاومة البكتيريا الانتهازية"
+     ],
+     [
+      "immune suppressed",
+      "تثبيط المناعة"
+     ],
+     [
+      "a and b",
+      "أ و ب"
+     ],
+     [
+      "all of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "One of the medical terms is more dangerous than another in individuals.",
+    "ar": "أحد المصطلحات الطبية الآتية أخطر من غيره على الأفراد.",
+    "options": [
+     [
+      "Asymptomatic",
+      "عديم الأعراض"
+     ],
+     [
+      "Carrier",
+      "حامل"
+     ],
+     [
+      "Symptomatic",
+      "ظاهر الأعراض"
+     ],
+     [
+      "a and b",
+      "أ و ب"
+     ],
+     [
+      "No one of above",
+      "لا شيء مما سبق"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "The infectious disease is usually diagnosed in the patient when:",
+    "ar": "يُشخَّص المرض المعدي عادةً لدى المريض عندما:",
+    "options": [
+     [
+      "replicate and multiply in host",
+      "يتضاعف (الكائن) ويتكاثر في المضيف"
+     ],
+     [
+      "tissues damage",
+      "يحدث تلف في الأنسجة"
+     ],
+     [
+      "developed sings",
+      "تظهر العلامات"
+     ],
+     [
+      "immune induction",
+      "تُحفَّز المناعة"
+     ],
+     [
+      "all of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "answer": "E"
+   },
+   {
+    "en": "Which of the following basic laboratory techniques consider definitive microbiologic diagnosis of an infectious disease:",
+    "ar": "أيّ من التقنيات المختبرية الأساسية الآتية تُعدّ تشخيصًا ميكروبيولوجيًّا نهائيًّا للمرض المعدي:",
+    "options": [
+     [
+      "Morphologic identification of the agent",
+      "التعرّف الشكلي على العامل"
+     ],
+     [
+      "Cultivation and identification of the organisms and immunologic assay",
+      "زرع الكائنات والتعرّف عليها والمقايسة المناعية"
+     ],
+     [
+      "Detection of microbial DNA or RNA.",
+      "الكشف عن الـ `DNA` أو الـ `RNA` الميكروبي"
+     ],
+     [
+      "Detection of an inflammatory or host immune response to the pathogenic agents.",
+      "الكشف عن استجابة التهابية أو مناعية للمضيف تجاه العوامل الممرضة"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "answer": "E"
+   },
+   {
+    "topic_en": "Lecture 2 — Laboratory safety",
+    "topic_ar": "المحاضرة 2 — السلامة المختبرية"
+   },
+   {
+    "en": "Manufacturers material safety data sheets (MSDSs) this type of safety in the lab called.",
+    "ar": "أوراق بيانات سلامة المواد الصادرة عن المصنّعين `(MSDSs)` — يُسمّى هذا النوع من السلامة في المختبر:",
+    "options": [
+     [
+      "Fire safety",
+      "السلامة من الحرائق"
+     ],
+     [
+      "Electrical safety",
+      "السلامة الكهربائية"
+     ],
+     [
+      "Biosafety",
+      "السلامة الحيوية"
+     ],
+     [
+      "Chemical safety",
+      "السلامة الكيميائية"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "......... is the removal of pathogenic microorganisms so items are safe to handle or dispose of.",
+    "ar": "......... هي إزالة الكائنات الدقيقة الممرضة بحيث تصبح المواد آمنة للتعامل معها أو التخلّص منها.",
+    "options": [
+     [
+      "Disinfection",
+      "التطهير"
+     ],
+     [
+      "Sterilization",
+      "التعقيم"
+     ],
+     [
+      "Decontamination",
+      "إزالة التلوّث"
+     ],
+     [
+      "None of the above",
+      "لا شيء مما سبق"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "Infectious agents usually not destroy by:",
+    "ar": "عادةً لا تُدمَّر العوامل المعدية (كلّها) بـ:",
+    "options": [
+     [
+      "Disinfection",
+      "التطهير"
+     ],
+     [
+      "Filtration",
+      "الترشيح"
+     ],
+     [
+      "Boiling",
+      "الغليان"
+     ],
+     [
+      "Sterilization",
+      "التعقيم"
+     ],
+     [
+      "No one of above",
+      "لا شيء مما سبق"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "One of the following methods is not considered sterilization.",
+    "ar": "إحدى الطرق الآتية لا تُعدّ تعقيمًا.",
+    "options": [
+     [
+      "Moist heat",
+      "الحرارة الرطبة"
+     ],
+     [
+      "Burning",
+      "الحرق"
+     ],
+     [
+      "Pasteurization",
+      "البسترة"
+     ],
+     [
+      "Gamma radiation",
+      "إشعاع غاما"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "Diagnostic microbiologists study the :",
+    "ar": "يدرس علماء الأحياء الدقيقة التشخيصية:",
+    "options": [
+     [
+      "Causes",
+      "المسبّبات"
+     ],
+     [
+      "Treatment",
+      "العلاج"
+     ],
+     [
+      "Control of infectious disease",
+      "السيطرة على الأمراض المعدية"
+     ],
+     [
+      "all of them",
+      "جميعها"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "Is an important component of the laboratory safety program : (1st round 2023)",
+    "ar": "يُعدّ عنصرًا مهمًّا في برنامج السلامة المختبرية: (الدور الأول 2023)",
+    "options": [
+     [
+      "Chemical safety",
+      "السلامة الكيميائية"
+     ],
+     [
+      "Electrical safety",
+      "السلامة الكهربائية"
+     ],
+     [
+      "Fire safety",
+      "السلامة من الحرائق"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ],
+     [
+      "None of the above",
+      "لا شيء مما سبق"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "Different factors affect the success of sterilization, disinfection, or decontamination in a health care setting such as: (1st round 2023)",
+    "ar": "عوامل مختلفة تؤثّر في نجاح التعقيم أو التطهير أو إزالة التلوّث في مرافق الرعاية الصحية، مثل: (الدور الأول 2023)",
+    "options": [
+     [
+      "Organic load",
+      "الحمل العضوي"
+     ],
+     [
+      "The type of organisms present",
+      "نوع الكائنات الموجودة"
+     ],
+     [
+      "Environmental factors",
+      "العوامل البيئية"
+     ],
+     [
+      "A and B",
+      "أ و ب"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "answer": "e"
+   },
+   {
+    "topic_en": "Lectures 3-4-5 — Selection, collection, and transport of specimens for microbiological examination",
+    "topic_ar": "المحاضرات 3-4-5 — اختيار العيّنات وجمعها ونقلها للفحص الميكروبيولوجي"
+   },
+   {
+    "en": "Many fastidious microorganisms, such as........ die during transported to laboratory, so rapid transport required for this.",
+    "ar": "تموت كائنات دقيقة كثيرة شديدة الحساسية (صعبة النمو)، مثل ........، أثناء نقلها إلى المختبر، لذلك يلزم نقلها بسرعة.",
+    "options": [
+     [
+      "__Neisseria gonorrhoeae__ & __E.coli__",
+      "النيسرية البنية والإشريكية القولونية"
+     ],
+     [
+      "__Neisseria gonorrhoeae__ and __Staphylococcus aureus__",
+      "النيسرية البنية والمكوّرة العنقودية الذهبية"
+     ],
+     [
+      "__Neisseria gonorrhoeae__ & __Haemophilus influenza__",
+      "النيسرية البنية والمستدمية النزلية"
+     ],
+     [
+      "__E.coli__ and __Staphylococcus aureus__",
+      "الإشريكية القولونية والمكوّرة العنقودية الذهبية"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "Many fastidious microorganisms may die during bad transportation of specimen like ............ .",
+    "ar": "قد تموت كائنات دقيقة كثيرة شديدة الحساسية أثناء النقل السيّئ للعيّنة، مثل ............ .",
+    "options": [
+     [
+      "__Staphylococcus aureus__",
+      "المكوّرة العنقودية الذهبية"
+     ],
+     [
+      "__Neisseria gonorrhoeae__",
+      "النيسرية البنية"
+     ],
+     [
+      "__Streptococcus muttans__",
+      "المكوّرة العقدية الطافرة"
+     ],
+     [
+      "__Klebsiella pneumoniae__",
+      "الكلبسيلة الرئوية"
+     ],
+     [
+      "No one of above",
+      "لا شيء مما سبق"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "en": "Specimens for microbiological culture should be taken ....... to avoid falsenegative results.",
+    "ar": "يجب أخذ العيّنات للزرع الميكروبيولوجي ....... لتجنّب النتائج السلبية الكاذبة.",
+    "options": [
+     [
+      "Prior to commencement of antibiotic therapy",
+      "قبل البدء بالعلاج بالمضادات الحيوية"
+     ],
+     [
+      "After to commencement of antibiotic therapy",
+      "بعد البدء بالعلاج بالمضادات الحيوية"
+     ],
+     [
+      "Together with commencement of antibiotic therapy",
+      "مع البدء بالعلاج بالمضادات الحيوية"
+     ],
+     [
+      "None of above",
+      "لا شيء مما سبق"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "Which one of the following fluid is essential for Freezing of specimen at -70 ºC or below.",
+    "ar": "أيّ السوائل الآتية ضروري لتجميد العيّنة عند `-70 ºC` أو أقل؟",
+    "options": [
+     [
+      "phenol",
+      "الفينول"
+     ],
+     [
+      "alcohol",
+      "الكحول"
+     ],
+     [
+      "glycerol",
+      "الغليسرول"
+     ],
+     [
+      "ethanol",
+      "الإيثانول"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "Which one of the following that become non- culture techniques are of importance:",
+    "ar": "في أيّ مما يأتي تصبح التقنيات غير الزرعية ذات أهمية:",
+    "options": [
+     [
+      "Microorganism cannot be readily cultured in vitro;",
+      "الكائن الدقيق لا يُزرع بسهولة في المختبر"
+     ],
+     [
+      "Microorganism is slow-growing;",
+      "الكائن الدقيق بطيء النمو"
+     ],
+     [
+      "Rapid laboratory diagnosis",
+      "الحاجة إلى تشخيص مختبري سريع"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "topic_en": "Lecture 6 — Cultivation and Isolation of Viable Pathogen",
+    "topic_ar": "المحاضرة 6 — زرع الممرضات الحيّة وعزلها"
+   },
+   {
+    "en": "The basic constituents of culture media are: (1st round 2023)",
+    "ar": "المكوّنات الأساسية للأوساط الزرعية هي: (الدور الأول 2023)",
+    "options": [
+     [
+      "Water",
+      "الماء"
+     ],
+     [
+      "Electrolyte",
+      "الإلكتروليتات"
+     ],
+     [
+      "Peptone",
+      "الببتون"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ],
+     [
+      "No one of above",
+      "لا شيء مما سبق"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "Bile salts and crystal violet used to suppress growth of most...............",
+    "ar": "تُستعمل الأملاح الصفراوية والبنفسج البلّوري لتثبيط نمو معظم ...............",
+    "options": [
+     [
+      "Fastidious microorganism",
+      "الكائنات الدقيقة صعبة النمو"
+     ],
+     [
+      "Gram- negative microorganisms",
+      "الكائنات سالبة غرام"
+     ],
+     [
+      "Gram- positive microorganisms.",
+      "الكائنات موجبة غرام"
+     ],
+     [
+      "Both A+B is true",
+      "كلاهما أ + ب صحيح"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "MacConkey agar used to differentiate between lactose-fermenting bacteria Such as ........... from non-lactose fermenting bacteria such as..........",
+    "ar": "يُستعمل أجار ماكونكي للتمييز بين البكتيريا المخمِّرة للاكتوز مثل ........... والبكتيريا غير المخمِّرة للاكتوز مثل ..........",
+    "options": [
+     [
+      "__Salmonella spp__ & __Escherichia coli__",
+      "السالمونيلا والإشريكية القولونية"
+     ],
+     [
+      "__Escherichia coli__ & __Salmonella spp__",
+      "الإشريكية القولونية والسالمونيلا"
+     ],
+     [
+      "__Escherichia coli__ & __Klebsiella__",
+      "الإشريكية القولونية والكلبسيلة"
+     ],
+     [
+      "None of the above",
+      "لا شيء مما سبق"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "en": "When the temperature of the molten agar comes down to ..........., it is poured to the Petri dishes",
+    "ar": "عندما تنخفض درجة حرارة الأجار المنصهر إلى ..........، يُصبّ في أطباق بتري",
+    "options": [
+     [
+      "`20 ºC`",
+      "`20 ºC`"
+     ],
+     [
+      "`37 ºC`",
+      "`37 ºC`"
+     ],
+     [
+      "`45 ºC`",
+      "`45 ºC`"
+     ],
+     [
+      "`47 ºC`",
+      "`47 ºC`"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "The selective agent in MacConkey agar is ......................",
+    "ar": "العامل الانتقائي في أجار ماكونكي هو ......................",
+    "options": [
+     [
+      "Methylene blue.",
+      "أزرق المثيلين"
+     ],
+     [
+      "Crystal violet.",
+      "البنفسج البلّوري"
+     ],
+     [
+      "Safranin.",
+      "السفرانين"
+     ],
+     [
+      "Bile salts.",
+      "الأملاح الصفراوية"
+     ],
+     [
+      "both B and D",
+      "كلاهما ب و د"
+     ]
+    ],
+    "answer": "E"
+   },
+   {
+    "en": "By which of the following methods microbiological culture media are sterilized? (1st round 2023)",
+    "ar": "بأيّ من الطرق الآتية تُعقَّم الأوساط الزرعية الميكروبيولوجية؟ (الدور الأول 2023)",
+    "options": [
+     [
+      "Boiling",
+      "الغليان"
+     ],
+     [
+      "Autoclave",
+      "المؤصدة `(Autoclave)`"
+     ],
+     [
+      "Pasteurization",
+      "البسترة"
+     ],
+     [
+      "Dry heat (Oven)",
+      "الحرارة الجافة (الفرن)"
+     ],
+     [
+      "Filtration",
+      "الترشيح"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "en": "Growth of __Salmonella__ spp. on MacConkey agar produces : (1st round 2023)",
+    "ar": "نمو السالمونيلا على أجار ماكونكي يُنتج: (الدور الأول 2023)",
+    "options": [
+     [
+      "Yellow colonies",
+      "مستعمرات صفراء"
+     ],
+     [
+      "Red colonies",
+      "مستعمرات حمراء"
+     ],
+     [
+      "Colorless colonies",
+      "مستعمرات عديمة اللون"
+     ],
+     [
+      "Black colonies",
+      "مستعمرات سوداء"
+     ],
+     [
+      "None of the above",
+      "لا شيء مما سبق"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "Based on the growth requirements, culture media are classified as:",
+    "ar": "حسب متطلّبات النمو، تُصنَّف الأوساط الزرعية إلى:",
+    "options": [
+     [
+      "Routine laboratory media",
+      "الأوساط المختبرية الروتينية"
+     ],
+     [
+      "Selective media",
+      "الأوساط الانتقائية"
+     ],
+     [
+      "synthetic media",
+      "الأوساط المُصنَّعة (المحدّدة)"
+     ],
+     [
+      "Both A+C",
+      "كلاهما أ + ج"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "topic_en": "Lectures 7-8-9",
+    "topic_ar": "المحاضرات 7-8-9"
+   },
+   {
+    "en": "Phase-contrast microscope, making it possible to see living cells without staining them",
+    "ar": "مجهر تباين الطور يجعل من الممكن رؤية الخلايا الحيّة دون تلوينها",
+    "options": [
+     [
+      "living cells with staining them",
+      "الخلايا الحيّة مع تلوينها"
+     ],
+     [
+      "killed cells without staining them",
+      "الخلايا الميتة دون تلوينها"
+     ],
+     [
+      "living cells without staining them",
+      "الخلايا الحيّة دون تلوينها"
+     ],
+     [
+      "killed cells with staining them",
+      "الخلايا الميتة مع تلوينها"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "............. is technique that used to preserves overall morphology but not structures within the cells called.",
+    "ar": "............. تقنية تُستعمل للحفاظ على الشكل العام للخلايا وليس على التراكيب الموجودة داخلها، تُسمّى:",
+    "options": [
+     [
+      "Chemical fixation",
+      "التثبيت الكيميائي"
+     ],
+     [
+      "Biological fixation",
+      "التثبيت الحيوي"
+     ],
+     [
+      "Heat fixation",
+      "التثبيت الحراري"
+     ],
+     [
+      "Both A+B",
+      "كلاهما أ + ب"
+     ],
+     [
+      "None of the above",
+      "لا شيء مما سبق"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "................is technique that used to protect the fine internal structure of the cells.",
+    "ar": "................ تقنية تُستعمل لحماية البنية الداخلية الدقيقة للخلايا.",
+    "options": [
+     [
+      "Chemical fixation",
+      "التثبيت الكيميائي"
+     ],
+     [
+      "Biological fixation",
+      "التثبيت الحيوي"
+     ],
+     [
+      "Heat fixation",
+      "التثبيت الحراري"
+     ],
+     [
+      "Both A+B",
+      "كلاهما أ + ب"
+     ],
+     [
+      "None of the above",
+      "لا شيء مما سبق"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "India ink or nigrosin classified as:",
+    "ar": "يُصنَّف الحبر الهندي أو النيغروسين على أنه:",
+    "options": [
+     [
+      "Simple stain",
+      "صبغة بسيطة"
+     ],
+     [
+      "Negative staining",
+      "تصبيغ سلبي"
+     ],
+     [
+      "Differential stain",
+      "صبغة تفريقية"
+     ],
+     [
+      "AFB stain",
+      "صبغة العصيات الصامدة للحمض `(AFB)`"
+     ],
+     [
+      "Both A+B",
+      "كلاهما أ + ب"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "en": "Water and oxygen (H2O + O2) relased from Hydrogen peroxide (H2O2) by action which of the following enzyme:",
+    "ar": "يتحرّر الماء والأكسجين `(H2O + O2)` من بيروكسيد الهيدروجين `(H2O2)` بفعل أيّ من الإنزيمات الآتية:",
+    "options": [
+     [
+      "Catalase",
+      "الكاتاليز"
+     ],
+     [
+      "Oxidase",
+      "الأوكسيديز"
+     ],
+     [
+      "Urease",
+      "اليورييز"
+     ],
+     [
+      "Indol test",
+      "اختبار الإندول"
+     ],
+     [
+      "Decarboxylation",
+      "نزع الكربوكسيل"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "Presence of the enzyme................. can be determined by inoculating an organism to Stuart’ s broth or Christensen’ s agar",
+    "ar": "يمكن تحديد وجود الإنزيم ................. بتلقيح الكائن في مرق ستيوارت أو أجار كريستنسن",
+    "options": [
+     [
+      "Oxidase",
+      "الأوكسيديز"
+     ],
+     [
+      "Catalase",
+      "الكاتاليز"
+     ],
+     [
+      "Urease",
+      "اليورييز"
+     ],
+     [
+      "Indol test",
+      "اختبار الإندول"
+     ],
+     [
+      "Decarboxylation",
+      "نزع الكربوكسيل"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "........... generally used to separate organisms into major groups Enterobacteriaceae and Pseudomonas spp.",
+    "ar": "........... يُستعمل عادةً لفصل الكائنات إلى مجموعات رئيسية: البكتيريا المعوية `(Enterobacteriaceae)` والزائفة.",
+    "options": [
+     [
+      "Enrichment medium",
+      "وسط الإثراء"
+     ],
+     [
+      "Selective medium",
+      "الوسط الانتقائي"
+     ],
+     [
+      "O-F medium",
+      "وسط الأكسدة-التخمّر `(O-F)`"
+     ],
+     [
+      "Enriched medium",
+      "الوسط المُغنى"
+     ],
+     [
+      "None of the above",
+      "لا شيء مما سبق"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "Decarboxylases cleave the carboxyl group from amino acids so that amino acids are converted into amines",
+    "ar": "تقطع إنزيمات نزع الكربوكسيل مجموعة الكربوكسيل من الأحماض الأمينية فتتحوّل الأحماض الأمينية إلى أمينات",
+    "options": [
+     [
+      "nucleic acid",
+      "حمض نووي"
+     ],
+     [
+      "nucleotide",
+      "نيوكليوتيد"
+     ],
+     [
+      "Poly peptide",
+      "متعدّد الببتيد"
+     ],
+     [
+      "Amines",
+      "أمينات"
+     ],
+     [
+      "None of the above",
+      "لا شيء مما سبق"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "One of the following tests used to differentiate __Staphylococcus aureus__ from other species of this genus. (2nd round 2023)",
+    "ar": "أحد الاختبارات الآتية يُستعمل لتمييز المكوّرة العنقودية الذهبية عن الأنواع الأخرى من هذا الجنس. (الدور الثاني 2023)",
+    "options": [
+     [
+      "Oxidase",
+      "الأوكسيديز"
+     ],
+     [
+      "Coagulase",
+      "التخثّر (الكواغيوليز)"
+     ],
+     [
+      "Urease",
+      "اليورييز"
+     ],
+     [
+      "Catalase",
+      "الكاتاليز"
+     ]
+    ],
+    "answer": "B"
+   },
+   {
+    "en": "Dark-field useful for observing organisms such as",
+    "ar": "المجهر ذو الحقل المظلم مفيد لمشاهدة كائنات مثل",
+    "options": [
+     [
+      "__Neisseria gonorrhoeae__",
+      "النيسرية البنية"
+     ],
+     [
+      "__Mycobacterium tuberculosis__",
+      "المتفطّرة السلية"
+     ],
+     [
+      "__Treponema pallidum__",
+      "اللولبية الشاحبة"
+     ],
+     [
+      "__Corynebacterium diphtheria__",
+      "الوتدية الخناقية"
+     ]
+    ],
+    "answer": "C"
+   },
+   {
+    "en": "Contain additional nutrients for the isolation of more fastidious bacteria",
+    "ar": "تحتوي على عناصر غذائية إضافية لعزل البكتيريا الأكثر حساسية (صعبة النمو)",
+    "options": [
+     [
+      "Enriched media",
+      "الأوساط المُغناة"
+     ],
+     [
+      "Simple media",
+      "الأوساط البسيطة"
+     ],
+     [
+      "Enrichment media",
+      "أوساط الإثراء"
+     ],
+     [
+      "A+C",
+      "أ + ج"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Two stains are used which impart different colors to different bacteria or bacterial structures",
+    "ar": "تُستعمل صبغتان تُكسبان البكتيريا أو التراكيب البكتيرية المختلفة ألوانًا مختلفة",
+    "options": [
+     [
+      "Differential stain",
+      "الصبغة التفريقية"
+     ],
+     [
+      "Negative staining",
+      "التصبيغ السلبي"
+     ],
+     [
+      "Simple media",
+      "الأوساط البسيطة"
+     ],
+     [
+      "None of them",
+      "لا شيء منها"
+     ]
+    ],
+    "answer": "A"
+   },
+   {
+    "en": "Chemical fixation can be done using ......... and mercuric chloride.",
+    "ar": "يمكن إجراء التثبيت الكيميائي باستعمال ......... وكلوريد الزئبق.",
+    "options": [
+     [
+      "ethanol",
+      "الإيثانول"
+     ],
+     [
+      "acetic acid",
+      "حمض الخليك"
+     ],
+     [
+      "formaldehyde",
+      "الفورمالديهايد"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ],
+     [
+      "No one of above",
+      "لا شيء مما سبق"
+     ]
+    ],
+    "answer": "D"
+   },
+   {
+    "en": "The net result of catalase test is : (1st round 2023)",
+    "ar": "النتيجة الصافية لاختبار الكاتاليز هي: (الدور الأول 2023)",
+    "options": [
+     [
+      "`H2O + CO2`",
+      "`H2O + CO2`"
+     ],
+     [
+      "`O2 + CO`",
+      "`O2 + CO`"
+     ],
+     [
+      "`H2O + O2`",
+      "`H2O + O2`"
+     ],
+     [
+      "`O2`",
+      "`O2`"
+     ],
+     [
+      "`H2O`",
+      "`H2O`"
+     ]
+    ],
+    "answer": "C"
+   }
+  ],
+  "tf": [],
+  "traps": [],
+  "important": []
+ }
+}
