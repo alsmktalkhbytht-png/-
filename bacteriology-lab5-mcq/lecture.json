@@ -1,0 +1,1276 @@
+{
+ "meta": {
+  "subject_en": "Diagnostic Microbiology",
+  "subject_ar": "الأحياء المجهرية التشخيصية",
+  "short_ar": "بكتريا",
+  "instructor": "د. هبة سامي",
+  "unit_en": "Lab 5",
+  "unit_ar": "العملي 5",
+  "unit_label": "LAB",
+  "unit_no": "5",
+  "title_en": "Specimen Processing and Staining",
+  "title_ar": "معالجة العيّنات والتصبيغ",
+  "department": "قسم التحليلات",
+  "kind": "Laboratories — عملي",
+  "questions_kind": "MCQ — أسئلة اختيار",
+  "stage": "The fourth stage — الرابعة",
+  "file_name": "BIOS - بكتريا عملي المحاضرة الخامسة - بنك أسئلة شامل بالصور"
+ },
+ "questions": {
+  "title_en": "Specimen Processing and Staining — Comprehensive MCQs (with figures)",
+  "title_ar": "معالجة العيّنات والتصبيغ — أسئلة اختيار شاملة (مع الصور)",
+  "sub": "MCQ",
+  "answers_inline": true,
+  "compact": true,
+  "mcq_per_page": 4,
+  "mcq_en": "Comprehensive MCQs — Lab 5",
+  "mcq_ar": "أسئلة اختيار شاملة — العملي الخامس",
+  "intro_en": [
+   "Q. Select the most correct answer from the followings",
+   "These MCQs cover the whole lab with its own pictures; the answer and a short reason sit under each question. Slide 2 (basic procedures) was marked as not required in class and is not asked. A BIOS note points out a slide error in the acid-fast stain."
+  ],
+  "intro_ar": [
+   "س. اختر الإجابة الأصح مما يأتي",
+   "هذه الأسئلة تغطّي العملي كاملًا بصوره نفسها؛ والحل وسطر سبب مختصر تحت كل سؤال. الشريحة 2 (الإجراءات الأساسية) أُشّر عليها بالمحاضرة أنها غير مطلوبة فلم تُسأل. وملاحظة BIOS تنبّه على خطأ في شريحة صبغة الصمود للحمض."
+  ],
+  "mcq": [
+   {
+    "topic_en": "Microscopy and magnification",
+    "topic_ar": "المجهرية والتكبير"
+   },
+   {
+    "en": "Microscopy is defined as:",
+    "ar": "تُعرَّف المجهرية بأنها:",
+    "options": [
+     [
+      "Staining bacteria only",
+      "تصبيغ البكتيريا فقط"
+     ],
+     [
+      "Growing bacteria on media",
+      "إنماء البكتيريا على الأوساط"
+     ],
+     [
+      "The use of a microscope to magnify objects too small to be visualized with the naked eye",
+      "استعمال المجهر لتكبير الأجسام الصغيرة جدًّا التي لا تُرى بالعين المجرّدة"
+     ],
+     [
+      "Testing antibiotic sensitivity",
+      "اختبار الحساسية للمضادات"
+     ]
+    ],
+    "note_en": "Slide 3.",
+    "note_ar": "الشريحة 3.",
+    "answer": "c"
+   },
+   {
+    "en": "Microscopy plays an important role in the laboratory because:",
+    "ar": "تؤدّي المجهرية دورًا مهمًّا في المختبر لأن:",
+    "options": [
+     [
+      "Most infectious agents cannot be detected with the unaided eye",
+      "معظم العوامل المعدية لا تُكشف بالعين المجرّدة"
+     ],
+     [
+      "It is cheaper than culture",
+      "أرخص من الزرع"
+     ],
+     [
+      "It replaces all other tests",
+      "تغني عن كل الفحوص الأخرى"
+     ],
+     [
+      "It kills bacteria",
+      "تقتل البكتيريا"
+     ]
+    ],
+    "note_en": "Slide 3.",
+    "note_ar": "الشريحة 3.",
+    "answer": "a"
+   },
+   {
+    "en": "The ocular lens of our microscope is:",
+    "ar": "العدسة العينية في مجهرنا:",
+    "options": [
+     [
+      "`4x`",
+      "`4x`"
+     ],
+     [
+      "`10x`",
+      "`10x`"
+     ],
+     [
+      "`40x`",
+      "`40x`"
+     ],
+     [
+      "`100x`",
+      "`100x`"
+     ]
+    ],
+    "note_en": "Oculars 10x; objectives 4x, 10x, 40x, 100x.",
+    "note_ar": "العينية 10x؛ الشيئية 4x و10x و40x و100x.",
+    "answer": "b"
+   },
+   {
+    "en": "The overall magnification of a light microscope equals:",
+    "ar": "التكبير الكلّي للمجهر الضوئي يساوي:",
+    "options": [
+     [
+      "Power of the oculars ÷ power of the objectives",
+      "قوّة العينية ÷ قوّة الشيئية"
+     ],
+     [
+      "Power of the oculars + power of the objectives",
+      "قوّة العينية + قوّة الشيئية"
+     ],
+     [
+      "Power of the objectives only",
+      "قوّة الشيئية فقط"
+     ],
+     [
+      "Power of the oculars × power of the objectives",
+      "قوّة العدسة العينية × قوّة العدسة الشيئية"
+     ]
+    ],
+    "note_en": "Multiplied — highlighted.",
+    "note_ar": "حاصل الضرب — مظلَّلة.",
+    "answer": "d"
+   },
+   {
+    "en": "With a `10x` ocular and a `40x` objective, the overall magnification is:",
+    "ar": "بعدسة عينية `10x` وشيئية `40x` يكون التكبير الكلّي:",
+    "options": [
+     [
+      "`400x`",
+      "`400x`"
+     ],
+     [
+      "`50x`",
+      "`50x`"
+     ],
+     [
+      "`40x`",
+      "`40x`"
+     ],
+     [
+      "`4000x`",
+      "`4000x`"
+     ]
+    ],
+    "note_en": "10 × 40 = 400.",
+    "note_ar": "10 × 40 = 400.",
+    "answer": "a"
+   },
+   {
+    "en": "The overall magnification with the `100x` objective is:",
+    "ar": "التكبير الكلّي بالعدسة الشيئية `100x`:",
+    "options": [
+     [
+      "`100x`",
+      "`100x`"
+     ],
+     [
+      "`1000x`",
+      "`1000x`"
+     ],
+     [
+      "`110x`",
+      "`110x`"
+     ],
+     [
+      "`400x`",
+      "`400x`"
+     ]
+    ],
+    "note_en": "10 × 100 = 1000 (oil immersion).",
+    "note_ar": "10 × 100 = 1000 (الغمر بالزيت).",
+    "answer": "b"
+   },
+   {
+    "en": "To achieve the desired resolution at `1000x`:",
+    "ar": "لتحقيق قوّة التمييز المطلوبة عند `1000x`:",
+    "options": [
+     [
+      "The slide must be heated",
+      "يجب تسخين الشريحة"
+     ],
+     [
+      "Water must be added to the slide",
+      "يجب إضافة الماء إلى الشريحة"
+     ],
+     [
+      "Oil immersion must be used",
+      "يجب استعمال الغمر بالزيت"
+     ],
+     [
+      "The 4x objective must be used",
+      "يجب استعمال الشيئية `4x`"
+     ]
+    ],
+    "note_en": "Slide 5.",
+    "note_ar": "الشريحة 5.",
+    "answer": "c"
+   },
+   {
+    "en": "Immersion oil fills the space between:",
+    "ar": "يملأ زيت الغمر الفراغ بين:",
+    "options": [
+     [
+      "The eye and the ocular",
+      "العين والعينية"
+     ],
+     [
+      "The ocular and the objective",
+      "العينية والشيئية"
+     ],
+     [
+      "The light source and the stage",
+      "مصدر الضوء والمنصّة"
+     ],
+     [
+      "The objective lens and the glass slide",
+      "العدسة الشيئية والشريحة الزجاجية"
+     ]
+    ],
+    "note_en": "Slide 5.",
+    "note_ar": "الشريحة 5.",
+    "answer": "d"
+   },
+   {
+    "en": "In the sequence of using the objectives, the drop of oil is added:",
+    "ar": "في تسلسل استعمال العدسات الشيئية، تُضاف قطرة الزيت:",
+    "options": [
+     [
+      "Between `4x` and `10x`",
+      "بين `4x` و`10x`"
+     ],
+     [
+      "Before `4x`",
+      "قبل `4x`"
+     ],
+     [
+      "After `100x`",
+      "بعد `100x`"
+     ],
+     [
+      "After `40x` and before `100x`",
+      "بعد `40x` وقبل `100x`"
+     ]
+    ],
+    "note_en": "4x (coarse & fine) → 10x → 40x → add oil → 100x (fine focus only).",
+    "note_ar": "4x (خشن ودقيق) ← 10x ← 40x ← إضافة الزيت ← 100x (ضبط دقيق فقط).",
+    "answer": "d"
+   },
+   {
+    "topic_en": "Bacterial staining and smear preparation",
+    "topic_ar": "تصبيغ البكتيريا وتحضير المسحة"
+   },
+   {
+    "en": "Living bacteria are generally:",
+    "ar": "البكتيريا الحيّة عمومًا:",
+    "options": [
+     [
+      "Colorless and difficult to view with bright-field microscopes",
+      "عديمة اللون وصعبة الرؤية بالمجهر ذي الحقل المضيء"
+     ],
+     [
+      "Brightly colored",
+      "ملوّنة بوضوح"
+     ],
+     [
+      "Visible to the naked eye",
+      "مرئية بالعين المجرّدة"
+     ],
+     [
+      "Always purple",
+      "بنفسجية دائمًا"
+     ]
+    ],
+    "note_en": "That is why staining is needed.",
+    "note_ar": "لهذا يلزم التصبيغ.",
+    "answer": "a"
+   },
+   {
+    "en": "Staining is necessary in order to:",
+    "ar": "التصبيغ ضروري لـ:",
+    "options": [
+     [
+      "Grow bacteria",
+      "إنماء البكتيريا"
+     ],
+     [
+      "Kill bacteria only",
+      "قتل البكتيريا فقط"
+     ],
+     [
+      "Make bacteria visible for intracellular structures and overall morphology",
+      "جعل البكتيريا مرئية لمشاهدة التراكيب داخل الخلية والشكل العام"
+     ],
+     [
+      "Test sensitivity",
+      "اختبار الحساسية"
+     ]
+    ],
+    "note_en": "Two reasons on slide 6.",
+    "note_ar": "سببان في الشريحة 6.",
+    "answer": "c"
+   },
+   {
+    "en": "A bacterial smear is:",
+    "ar": "المسحة البكتيرية هي:",
+    "options": [
+     [
+      "A liquid culture",
+      "مزرعة سائلة"
+     ],
+     [
+      "A dried preparation of bacterial cells on a glass slide",
+      "مستحضر مجفَّف من الخلايا البكتيرية على شريحة زجاجية"
+     ],
+     [
+      "A colony on agar",
+      "مستعمرة على أجار"
+     ],
+     [
+      "A stain",
+      "صبغة"
+     ]
+    ],
+    "note_en": "Used to prepare a specimen for staining.",
+    "note_ar": "تُستعمل لتحضير العيّنة للتصبيغ.",
+    "answer": "b"
+   },
+   {
+    "en": "In the bacterial smear procedure, the first step is:",
+    "ar": "في إجراء المسحة البكتيرية، الخطوة الأولى:",
+    "options": [
+     [
+      "Draw a circle on the bottom of the slide",
+      "رسم دائرة على أسفل الشريحة"
+     ],
+     [
+      "Pass the slide over the flame",
+      "تمرير الشريحة فوق اللهب"
+     ],
+     [
+      "Let it air dry",
+      "تركها تجفّ بالهواء"
+     ],
+     [
+      "Add crystal violet",
+      "إضافة البنفسج البلّوري"
+     ]
+    ],
+    "note_en": "Circle → spread in a drop of water → air dry → flame three times.",
+    "note_ar": "دائرة ← نشر بقطرة ماء ← تجفيف بالهواء ← لهب ثلاث مرّات.",
+    "answer": "a"
+   },
+   {
+    "en": "To fix the organisms, the slide is passed over the flame:",
+    "ar": "لتثبيت الكائنات، تُمرَّر الشريحة فوق اللهب:",
+    "options": [
+     [
+      "For 5 minutes",
+      "لمدّة 5 دقائق"
+     ],
+     [
+      "Once",
+      "مرّة واحدة"
+     ],
+     [
+      "Ten times",
+      "عشر مرّات"
+     ],
+     [
+      "Three times",
+      "ثلاث مرّات"
+     ]
+    ],
+    "note_en": "Step 4.",
+    "note_ar": "الخطوة 4.",
+    "answer": "d"
+   },
+   {
+    "en": "Fixation causes the specimen to:",
+    "ar": "يؤدّي التثبيت إلى:",
+    "options": [
+     [
+      "Adhere to the glass",
+      "التصاق العيّنة بالزجاج"
+     ],
+     [
+      "Kill the microorganisms",
+      "قتل الكائنات الدقيقة"
+     ],
+     [
+      "Generally preserve their shape and size",
+      "الحفاظ عمومًا على شكلها وحجمها"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "note_en": "Three effects of fixation.",
+    "note_ar": "ثلاثة تأثيرات للتثبيت.",
+    "answer": "d"
+   },
+   {
+    "en": "The figure shows the procedure for making a bacterial smear. Before heat fixing, the smear must be:",
+    "ar": "يبيّن الشكل إجراء عمل المسحة البكتيرية. قبل التثبيت الحراري يجب أن تكون المسحة:",
+    "options": [
+     [
+      "Covered with oil",
+      "مغطّاة بالزيت"
+     ],
+     [
+      "Stained with safranin",
+      "مصبوغة بالسفرانين"
+     ],
+     [
+      "Air dried",
+      "مجفَّفة بالهواء"
+     ],
+     [
+      "Washed with alcohol",
+      "مغسولة بالكحول"
+     ]
+    ],
+    "note_en": "Smear → air dry → heat fix → stain → look.",
+    "note_ar": "مسحة ← تجفيف بالهواء ← تثبيت حراري ← تصبيغ ← فحص.",
+    "answer": "c",
+    "img": "assets/smear-procedure.png",
+    "img_h": "40mm"
+   },
+   {
+    "topic_en": "Types of stains",
+    "topic_ar": "أنواع الصبغات"
+   },
+   {
+    "en": "Simple stains are:",
+    "ar": "الصبغات البسيطة هي:",
+    "options": [
+     [
+      "Acidic dyes that react with basic substances",
+      "أصباغ حامضية تتفاعل مع المواد القاعدية"
+     ],
+     [
+      "Basic dyes that react with acidic substances in the cell",
+      "أصباغ قاعدية تتفاعل مع المواد الحامضية في الخلية"
+     ],
+     [
+      "Compound dyes using more than one dye",
+      "أصباغ مركّبة تستعمل أكثر من صبغة"
+     ],
+     [
+      "Stains for capsules only",
+      "صبغات للمحافظ فقط"
+     ]
+    ],
+    "note_en": "Basic dye + acidic cell components.",
+    "note_ar": "صبغة قاعدية + مكوّنات خلوية حامضية.",
+    "answer": "b"
+   },
+   {
+    "en": "Examples of simple stains are:",
+    "ar": "أمثلة الصبغات البسيطة:",
+    "options": [
+     [
+      "India ink and nigrosin",
+      "الحبر الهندي والنيغروسين"
+     ],
+     [
+      "Gram stain and acid-fast stain",
+      "صبغة غرام وصبغة الصمود للحمض"
+     ],
+     [
+      "Carbol fuchsin, safranin and methylene blue",
+      "الكاربول فوكسين، السفرانين، أزرق المثيلين"
+     ],
+     [
+      "Silver salts",
+      "أملاح الفضة"
+     ]
+    ],
+    "note_en": "Slide 9.",
+    "note_ar": "الشريحة 9.",
+    "answer": "c"
+   },
+   {
+    "en": "Differential staining:",
+    "ar": "التصبيغ التفريقي:",
+    "options": [
+     [
+      "Uses one basic dye",
+      "يستعمل صبغة قاعدية واحدة"
+     ],
+     [
+      "Uses more than one dye and is known as the compound dye",
+      "يستعمل أكثر من صبغة ويُعرف بالصبغة المركّبة"
+     ],
+     [
+      "Uses no dye",
+      "لا يستعمل صبغة"
+     ],
+     [
+      "Stains only the background",
+      "يصبغ الخلفية فقط"
+     ]
+    ],
+    "note_en": "Includes Gram stain and acid-fast stain.",
+    "note_ar": "يشمل صبغة غرام وصبغة الصمود للحمض.",
+    "answer": "b"
+   },
+   {
+    "en": "Which of the following is a differential stain?",
+    "ar": "أيّ مما يأتي صبغة تفريقية؟",
+    "options": [
+     [
+      "Gram stain",
+      "صبغة غرام"
+     ],
+     [
+      "Methylene blue alone",
+      "أزرق المثيلين وحده"
+     ],
+     [
+      "Safranin alone",
+      "السفرانين وحده"
+     ],
+     [
+      "Nigrosin",
+      "النيغروسين"
+     ]
+    ],
+    "note_en": "Gram and acid-fast are differential.",
+    "note_ar": "غرام والصمود للحمض تفريقيتان.",
+    "answer": "a"
+   },
+   {
+    "en": "Simple stains have an important role in recognizing:",
+    "ar": "للصبغات البسيطة دور مهم في التعرّف على:",
+    "options": [
+     [
+      "Capsules",
+      "المحافظ"
+     ],
+     [
+      "Gram reaction",
+      "تفاعل غرام"
+     ],
+     [
+      "Acid-fastness",
+      "الصمود للحمض"
+     ],
+     [
+      "The shape, size and arrangement of bacteria",
+      "شكل البكتيريا وحجمها وترتيبها"
+     ]
+    ],
+    "note_en": "Helps the initial diagnosis.",
+    "note_ar": "يساعد في التشخيص الأولي.",
+    "answer": "d"
+   },
+   {
+    "en": "Class note: the special stain written for flagella was:",
+    "ar": "ملاحظة المحاضرة: الصبغة الخاصة المكتوبة للأسواط:",
+    "options": [
+     [
+      "India ink",
+      "الحبر الهندي"
+     ],
+     [
+      "Silver salt",
+      "ملح الفضة"
+     ],
+     [
+      "Crystal violet",
+      "البنفسج البلّوري"
+     ],
+     [
+      "Carbol fuchsin",
+      "الكاربول فوكسين"
+     ]
+    ],
+    "note_en": "Handwritten in class: flagella → silver salt; capsule → India ink.",
+    "note_ar": "مكتوب بخط اليد بالمحاضرة: الأسواط ← ملح الفضة؛ المحفظة ← الحبر الهندي.",
+    "answer": "b"
+   },
+   {
+    "topic_en": "Gram stain",
+    "topic_ar": "صبغة غرام"
+   },
+   {
+    "en": "The importance of the Gram stain is that it:",
+    "ar": "أهمية صبغة غرام أنها:",
+    "options": [
+     [
+      "Measures magnification",
+      "تقيس التكبير"
+     ],
+     [
+      "Detects capsules",
+      "تكشف المحافظ"
+     ],
+     [
+      "Detects tuberculosis only",
+      "تكشف السل فقط"
+     ],
+     [
+      "Divides bacteria into Gram-negative and Gram-positive and is used for classification and differentiation",
+      "تقسم البكتيريا إلى سالبة وموجبة غرام وتُستعمل للتصنيف والتمييز"
+     ]
+    ],
+    "note_en": "Slide 11.",
+    "note_ar": "الشريحة 11.",
+    "answer": "d"
+   },
+   {
+    "en": "In the image, the purple bacteria on the right are:",
+    "ar": "في الصورة، البكتيريا البنفسجية على اليمين:",
+    "options": [
+     [
+      "Gram-positive",
+      "موجبة غرام"
+     ],
+     [
+      "Gram-negative",
+      "سالبة غرام"
+     ],
+     [
+      "Acid-fast",
+      "صامدة للحمض"
+     ],
+     [
+      "Capsulated",
+      "ذات محافظ"
+     ]
+    ],
+    "note_en": "Gram + = purple; Gram − = pink/red.",
+    "note_ar": "موجبة = بنفسجية؛ سالبة = وردية/حمراء.",
+    "answer": "a",
+    "img": "assets/gram-neg-pos.png",
+    "img_h": "36mm"
+   },
+   {
+    "en": "The primary stain in the Gram stain is:",
+    "ar": "الصبغة الأولية في صبغة غرام:",
+    "options": [
+     [
+      "Gram's iodine",
+      "يود غرام"
+     ],
+     [
+      "Safranin",
+      "السفرانين"
+     ],
+     [
+      "Crystal violet",
+      "البنفسج البلّوري"
+     ],
+     [
+      "Methylene blue",
+      "أزرق المثيلين"
+     ]
+    ],
+    "note_en": "Its function is to stain cells.",
+    "note_ar": "وظيفتها صبغ الخلايا.",
+    "answer": "c"
+   },
+   {
+    "en": "Gram's iodine acts as a:",
+    "ar": "يعمل يود غرام كـ:",
+    "options": [
+     [
+      "Decolorizer",
+      "مزيل لون"
+     ],
+     [
+      "Mordant that increases the cell's affinity for the stain (CV-I complex)",
+      "مثبِّت (مرسِّخ) يزيد ألفة الخلية للصبغة (معقّد `CV-I`)"
+     ],
+     [
+      "Counterstain",
+      "صبغة مضادّة"
+     ],
+     [
+      "Primary stain",
+      "صبغة أوّلية"
+     ]
+    ],
+    "note_en": "Mordant → crystal violet–iodine complex.",
+    "note_ar": "المرسِّخ ← معقّد البنفسج البلّوري–اليود.",
+    "answer": "b"
+   },
+   {
+    "en": "The decolorizer in the Gram stain is:",
+    "ar": "مزيل اللون في صبغة غرام:",
+    "options": [
+     [
+      "Ethyl alcohol `95%`",
+      "الكحول الإثيلي `95%`"
+     ],
+     [
+      "Acid alcohol",
+      "الكحول الحامضي"
+     ],
+     [
+      "Water",
+      "الماء"
+     ],
+     [
+      "Safranin",
+      "السفرانين"
+     ]
+    ],
+    "note_en": "Serves as a lipid solvent.",
+    "note_ar": "يعمل مذيبًا للدهون.",
+    "answer": "a"
+   },
+   {
+    "en": "The action of the decolorizer is determined by:",
+    "ar": "يتحدّد عمل مزيل اللون بـ:",
+    "options": [
+     [
+      "The colour of the stain",
+      "لون الصبغة"
+     ],
+     [
+      "The temperature of the room",
+      "حرارة الغرفة"
+     ],
+     [
+      "The concentration of lipids and the thickness of the bacterial cell wall",
+      "تركيز الدهون وسُمك جدار الخلية البكتيرية"
+     ],
+     [
+      "The size of the slide",
+      "حجم الشريحة"
+     ]
+    ],
+    "note_en": "Two factors (highlighted).",
+    "note_ar": "عاملان (مظلَّلان).",
+    "answer": "c"
+   },
+   {
+    "en": "The counterstain in the Gram stain is:",
+    "ar": "الصبغة المضادّة في صبغة غرام:",
+    "options": [
+     [
+      "Iodine",
+      "اليود"
+     ],
+     [
+      "Crystal violet",
+      "البنفسج البلّوري"
+     ],
+     [
+      "Methylene blue",
+      "أزرق المثيلين"
+     ],
+     [
+      "Safranin",
+      "السفرانين"
+     ]
+    ],
+    "note_en": "Step 7: safranin for 1 min.",
+    "note_ar": "الخطوة 7: السفرانين لمدّة دقيقة.",
+    "answer": "d"
+   },
+   {
+    "en": "In the Gram stain procedure, crystal violet is applied for:",
+    "ar": "في إجراء صبغة غرام، يوضع البنفسج البلّوري لمدّة:",
+    "options": [
+     [
+      "1 min",
+      "دقيقة واحدة"
+     ],
+     [
+      "5–15 sec",
+      "5–15 ثانية"
+     ],
+     [
+      "3–5 min with heat",
+      "3–5 دقائق مع التسخين"
+     ],
+     [
+      "10 min",
+      "10 دقائق"
+     ]
+    ],
+    "note_en": "Crystal violet 1 min, iodine 1 min, alcohol 5–15 sec, safranin 1 min.",
+    "note_ar": "البنفسج دقيقة، اليود دقيقة، الكحول 5–15 ثانية، السفرانين دقيقة.",
+    "answer": "a"
+   },
+   {
+    "en": "Decolorization in the Gram stain takes:",
+    "ar": "يستغرق إزالة اللون في صبغة غرام:",
+    "options": [
+     [
+      "3–5 min",
+      "3–5 دقائق"
+     ],
+     [
+      "1 min with acid alcohol",
+      "دقيقة بالكحول الحامضي"
+     ],
+     [
+      "5 to 15 sec with `95%` ethyl alcohol",
+      "5 إلى 15 ثانية بالكحول الإثيلي `95%`"
+     ],
+     [
+      "30 min",
+      "30 دقيقة"
+     ]
+    ],
+    "note_en": "Step 5.",
+    "note_ar": "الخطوة 5.",
+    "answer": "c"
+   },
+   {
+    "en": "The correct order of the Gram stain reagents is:",
+    "ar": "الترتيب الصحيح لكواشف صبغة غرام:",
+    "options": [
+     [
+      "Safranin → alcohol → iodine → crystal violet",
+      "السفرانين ← الكحول ← اليود ← البنفسج"
+     ],
+     [
+      "Crystal violet → iodine → alcohol → safranin",
+      "البنفسج البلّوري ← اليود ← الكحول ← السفرانين"
+     ],
+     [
+      "Iodine → crystal violet → safranin → alcohol",
+      "اليود ← البنفسج ← السفرانين ← الكحول"
+     ],
+     [
+      "Crystal violet → alcohol → iodine → safranin",
+      "البنفسج ← الكحول ← اليود ← السفرانين"
+     ]
+    ],
+    "note_en": "Washing with tap water between each step.",
+    "note_ar": "مع الغسل بماء الحنفية بين كل خطوة.",
+    "answer": "b"
+   },
+   {
+    "en": "After the Gram stain, the slide is examined under:",
+    "ar": "بعد صبغة غرام تُفحص الشريحة تحت:",
+    "options": [
+     [
+      "The naked eye",
+      "العين المجرّدة"
+     ],
+     [
+      "The `4x` objective only",
+      "الشيئية `4x` فقط"
+     ],
+     [
+      "UV light",
+      "الأشعة فوق البنفسجية"
+     ],
+     [
+      "Oil immersion",
+      "الغمر بالزيت"
+     ]
+    ],
+    "note_en": "Step 9.",
+    "note_ar": "الخطوة 9.",
+    "answer": "d"
+   },
+   {
+    "en": "The figure shows the four steps of the Gram stain. After the alcohol wash (step 3), Gram-negative cells appear:",
+    "ar": "يبيّن الشكل خطوات صبغة غرام الأربع. بعد الغسل بالكحول (الخطوة 3) تظهر الخلايا سالبة غرام:",
+    "options": [
+     [
+      "Brown",
+      "بنّية"
+     ],
+     [
+      "Purple",
+      "بنفسجية"
+     ],
+     [
+      "Pink",
+      "وردية"
+     ],
+     [
+      "Colorless",
+      "عديمة اللون"
+     ]
+    ],
+    "note_en": "Alcohol removes the CV-I from Gram-negatives; they turn pink only after safranin.",
+    "note_ar": "الكحول يزيل معقّد CV-I من السالبة؛ ولا تصير وردية إلّا بعد السفرانين.",
+    "answer": "d",
+    "img": "assets/gram-steps.png",
+    "img_h": "42mm"
+   },
+   {
+    "topic_en": "Acid-fast stain",
+    "topic_ar": "صبغة الصمود للحمض"
+   },
+   {
+    "en": "Acid-fast (acid-resistant) bacteria are difficult to decolorize even with alcohol because they have:",
+    "ar": "يصعب إزالة لون البكتيريا الصامدة للحمض حتى بالكحول لأنها تحتوي على:",
+    "options": [
+     [
+      "No cell wall",
+      "لا جدار خلوي"
+     ],
+     [
+      "A high content of fatty substances",
+      "محتوى عالٍ من المواد الدهنية"
+     ],
+     [
+      "A capsule",
+      "محفظة"
+     ],
+     [
+      "Flagella",
+      "أسواطًا"
+     ]
+    ],
+    "note_en": "e.g. tuberculosis bacteria.",
+    "note_ar": "مثل بكتيريا السل.",
+    "answer": "b"
+   },
+   {
+    "en": "An example of acid-fast bacteria is:",
+    "ar": "مثال على البكتيريا الصامدة للحمض:",
+    "options": [
+     [
+      "__Staphylococcus__",
+      "المكوّرات العنقودية"
+     ],
+     [
+      "__E. coli__",
+      "الإشريكية القولونية"
+     ],
+     [
+      "Tuberculosis bacteria (__Mycobacterium__)",
+      "بكتيريا السل (المتفطّرة)"
+     ],
+     [
+      "__Cryptococcus__",
+      "المستخفية"
+     ]
+    ],
+    "note_en": "Slide 16.",
+    "note_ar": "الشريحة 16.",
+    "answer": "c"
+   },
+   {
+    "en": "The primary dye in the acid-fast stain is:",
+    "ar": "الصبغة الأولية في صبغة الصمود للحمض:",
+    "options": [
+     [
+      "Basic fuchsin (carbol fuchsin)",
+      "الفوكسين القاعدي (الكاربول فوكسين)"
+     ],
+     [
+      "Crystal violet",
+      "البنفسج البلّوري"
+     ],
+     [
+      "Safranin",
+      "السفرانين"
+     ],
+     [
+      "India ink",
+      "الحبر الهندي"
+     ]
+    ],
+    "note_en": "Then acid alcohol, then methylene blue.",
+    "note_ar": "ثم الكحول الحامضي، ثم أزرق المثيلين.",
+    "answer": "a"
+   },
+   {
+    "en": "Heat is used in the acid-fast stain to:",
+    "ar": "يُستعمل التسخين في صبغة الصمود للحمض لـ:",
+    "options": [
+     [
+      "Kill the bacteria only",
+      "قتل البكتيريا فقط"
+     ],
+     [
+      "Facilitate the permeability of the dye into the cell wall",
+      "تسهيل نفاذ الصبغة إلى الجدار الخلوي"
+     ],
+     [
+      "Decolorize the cells",
+      "إزالة لون الخلايا"
+     ],
+     [
+      "Dry the slide",
+      "تجفيف الشريحة"
+     ]
+    ],
+    "note_en": "Basic fuchsin is heated for 3–5 minutes.",
+    "note_ar": "يُسخَّن الفوكسين القاعدي 3–5 دقائق.",
+    "answer": "b"
+   },
+   {
+    "en": "The decolorizer in the acid-fast stain is:",
+    "ar": "مزيل اللون في صبغة الصمود للحمض:",
+    "options": [
+     [
+      "Iodine",
+      "اليود"
+     ],
+     [
+      "`95%` ethyl alcohol",
+      "الكحول الإثيلي `95%`"
+     ],
+     [
+      "Water",
+      "الماء"
+     ],
+     [
+      "Acid alcohol",
+      "الكحول الحامضي"
+     ]
+    ],
+    "note_en": "Added with the slide tilted.",
+    "note_ar": "يُضاف والشريحة مائلة.",
+    "answer": "d"
+   },
+   {
+    "en": "The counterstain in the acid-fast stain is:",
+    "ar": "الصبغة المضادّة في صبغة الصمود للحمض:",
+    "options": [
+     [
+      "Methylene blue (1 min)",
+      "أزرق المثيلين (دقيقة)"
+     ],
+     [
+      "Safranin",
+      "السفرانين"
+     ],
+     [
+      "Crystal violet",
+      "البنفسج البلّوري"
+     ],
+     [
+      "Nigrosin",
+      "النيغروسين"
+     ]
+    ],
+    "note_en": "Step 5.",
+    "note_ar": "الخطوة 5.",
+    "answer": "a"
+   },
+   {
+    "en": "After the acid-fast stain:",
+    "ar": "بعد صبغة الصمود للحمض:",
+    "options": [
+     [
+      "All cells are purple",
+      "كل الخلايا بنفسجية"
+     ],
+     [
+      "Acid-fast cells are blue and non-acid-fast red",
+      "الصامدة زرقاء وغير الصامدة حمراء"
+     ],
+     [
+      "Acid-fast cells are red and non-acid-fast cells are blue",
+      "الخلايا الصامدة حمراء وغير الصامدة زرقاء"
+     ],
+     [
+      "All cells are colorless",
+      "كل الخلايا عديمة اللون"
+     ]
+    ],
+    "note_en": "The slide text says “the acid-resistant bacteria are easy to remove and take methylene blue” — it should read NON-acid-resistant.",
+    "note_ar": "نصّ الشريحة يقول «البكتيريا الصامدة للحمض سهلة الإزالة وتأخذ لون أزرق المثيلين» — والصواب: غير الصامدة.",
+    "answer": "c"
+   },
+   {
+    "en": "The red rods in this image of __Mycobacterium leprae__ are red because they are:",
+    "ar": "العصيّات الحمراء في صورة المتفطّرة الجذامية حمراء لأنها:",
+    "options": [
+     [
+      "Stained with safranin",
+      "مصبوغة بالسفرانين"
+     ],
+     [
+      "Gram-negative",
+      "سالبة غرام"
+     ],
+     [
+      "Acid-fast — they retained carbol fuchsin",
+      "صامدة للحمض — احتفظت بالكاربول فوكسين"
+     ],
+     [
+      "Capsulated",
+      "ذات محافظ"
+     ]
+    ],
+    "note_en": "Mycobacteria are acid-fast.",
+    "note_ar": "المتفطّرات صامدة للحمض.",
+    "answer": "c",
+    "img": "assets/m-leprae.png",
+    "img_h": "36mm"
+   },
+   {
+    "en": "In the acid-fast work steps, “the work of a bacterial membrane” (step 1) means:",
+    "ar": "في خطوات صبغة الصمود للحمض، «`the work of a bacterial membrane`» (الخطوة 1) تعني:",
+    "options": [
+     [
+      "Removing the cell membrane",
+      "إزالة الغشاء الخلوي"
+     ],
+     [
+      "Making a bacterial smear",
+      "عمل مسحة بكتيرية"
+     ],
+     [
+      "Staining the membrane",
+      "صبغ الغشاء"
+     ],
+     [
+      "Culturing the bacteria",
+      "زرع البكتيريا"
+     ]
+    ],
+    "note_en": "A literal translation of «عمل مسحة بكتيرية».",
+    "note_ar": "ترجمة حرفية لـ «عمل مسحة بكتيرية».",
+    "answer": "b"
+   },
+   {
+    "topic_en": "Capsule stain",
+    "topic_ar": "صبغة المحفظة"
+   },
+   {
+    "en": "In the capsule staining technique, the first step is mixing a loopful of bacterial suspension with:",
+    "ar": "في تقنية صبغ المحفظة، الخطوة الأولى خلط ملء العروة من المعلّق البكتيري بـ:",
+    "options": [
+     [
+      "A drop of India ink or nigrosin",
+      "قطرة من الحبر الهندي أو النيغروسين"
+     ],
+     [
+      "Crystal violet",
+      "البنفسج البلّوري"
+     ],
+     [
+      "Safranin",
+      "السفرانين"
+     ],
+     [
+      "Acid alcohol",
+      "الكحول الحامضي"
+     ]
+    ],
+    "note_en": "Step 1.",
+    "note_ar": "الخطوة 1.",
+    "answer": "a"
+   },
+   {
+    "en": "In capsule staining, the slide is flooded with:",
+    "ar": "في صبغ المحفظة، تُغمر الشريحة بـ:",
+    "options": [
+     [
+      "Basic fuchsin with heat",
+      "الفوكسين القاعدي مع التسخين"
+     ],
+     [
+      "Safranin for 1 min",
+      "السفرانين لمدّة دقيقة"
+     ],
+     [
+      "Methylene blue",
+      "أزرق المثيلين"
+     ],
+     [
+      "Crystal violet for 1 min",
+      "البنفسج البلّوري لمدّة دقيقة"
+     ]
+    ],
+    "note_en": "Step 3.",
+    "note_ar": "الخطوة 3.",
+    "answer": "d"
+   },
+   {
+    "en": "After rinsing, the capsule smear is left to air dry and NOT blot dried because blotting:",
+    "ar": "بعد الشطف تُترك مسحة المحفظة تجفّ بالهواء ولا تُنشَّف بالورق لأن التنشيف:",
+    "options": [
+     [
+      "Kills the bacteria",
+      "يقتل البكتيريا"
+     ],
+     [
+      "Adds color",
+      "يضيف لونًا"
+     ],
+     [
+      "Distorts the capsules",
+      "يشوّه المحافظ"
+     ],
+     [
+      "Is too slow",
+      "بطيء جدًّا"
+     ]
+    ],
+    "note_en": "Step 3 note.",
+    "note_ar": "ملاحظة الخطوة 3.",
+    "answer": "c"
+   },
+   {
+    "en": "In this capsule stain, the clear halo around the cells is:",
+    "ar": "في صبغة المحفظة هذه، الهالة الصافية حول الخلايا هي:",
+    "options": [
+     [
+      "The capsule",
+      "المحفظة"
+     ],
+     [
+      "The cell wall",
+      "الجدار الخلوي"
+     ],
+     [
+      "A spore",
+      "بوغ"
+     ],
+     [
+      "The flagellum",
+      "السوط"
+     ]
+    ],
+    "note_en": "Dark background, violet bacteria, halo = capsule (Cryptococcus neoformans in India ink on the right).",
+    "note_ar": "خلفية داكنة، بكتيريا بنفسجية، والهالة = المحفظة (المستخفية المورّمة بالحبر الهندي على اليمين).",
+    "answer": "a",
+    "img": "assets/capsule-microscopy.png",
+    "img_h": "38mm"
+   },
+   {
+    "en": "In capsule staining, the background appears:",
+    "ar": "في صبغ المحفظة تظهر الخلفية:",
+    "options": [
+     [
+      "Pink",
+      "وردية"
+     ],
+     [
+      "Black or grey",
+      "سوداء أو رمادية"
+     ],
+     [
+      "Colorless",
+      "عديمة اللون"
+     ],
+     [
+      "Blue",
+      "زرقاء"
+     ]
+    ],
+    "note_en": "India ink/nigrosin colour the background (negative staining).",
+    "note_ar": "الحبر الهندي/النيغروسين يلوّنان الخلفية (تصبيغ سلبي).",
+    "answer": "b"
+   }
+  ],
+  "tf": [],
+  "traps": [],
+  "important": []
+ }
+}
