@@ -12,25 +12,25 @@
   "title_ar": "اختيار العيّنات وجمعها ونقلها",
   "department": "قسم التحليلات",
   "kind": "Theory — نظري",
-  "questions_kind": "MCQ + SA — اختيار ومقالية",
+  "questions_kind": "MCQ — اختيار من متعدد",
   "stage": "The fourth stage — الرابعة",
-  "file_name": "BIOS - بكتريا نظري المحاضرات 3 و4 و5 - بنك أسئلة شامل"
+  "file_name": "BIOS - بكتريا نظري المحاضرات 3 و4 و5 - أسئلة MCQ"
  },
  "questions": {
-  "title_en": "Specimens (Lectures 3–5) — Comprehensive Questions (MCQ + SA)",
-  "title_ar": "العيّنات (المحاضرات 3–5) — أسئلة شاملة (اختيار + مقالية)",
+  "title_en": "Specimens (Lectures 3–5) — MCQ",
+  "title_ar": "العيّنات (المحاضرات 3–5) — أسئلة اختيار",
   "answers_inline": true,
   "compact": true,
-  "mcq_per_page": 4,
+  "mcq_per_page": 5,
   "mcq_en": "Comprehensive MCQs — Lectures 3–5",
   "mcq_ar": "أسئلة اختيار شاملة — المحاضرات 3 و4 و5",
   "intro_en": [
    "Q. Select the most correct answer from the followings",
-   "These questions cover the whole lecture; the answer and a short reason sit under each MCQ, and the model answer under each essay question. Questions that came in the 2023 exams are noted."
+   "These questions cover the whole lecture; the answer sits under each question."
   ],
   "intro_ar": [
    "س. اختر الإجابة الأصح مما يأتي",
-   "هذه الأسئلة تغطّي المحاضرة كاملة؛ والحل وسطر سبب مختصر تحت كل سؤال اختيار، والجواب النموذجي تحت كل سؤال مقالي. والأسئلة التي جاءت في امتحانات 2023 مذكورة."
+   "هذه الأسئلة تغطّي المحاضرة كاملة؛ والحل تحت كل سؤال."
   ],
   "mcq": [
    {
@@ -58,8 +58,6 @@
       "خطوة رئيسية في علم الأحياء الدقيقة التشخيصي"
      ]
     ],
-    "note_en": "The file writes “a major steps” (sic).",
-    "note_ar": "الملف كتب «a major steps» كما هو.",
     "answer": "d"
    },
    {
@@ -83,8 +81,6 @@
       "جميع ما سبق"
      ]
     ],
-    "note_en": "Four things: type, collection, time, method of dispatch.",
-    "note_ar": "أربعة أشياء: النوع، الجمع، الوقت، طريقة الإرسال.",
     "answer": "d"
    },
    {
@@ -112,8 +108,6 @@
       "الاستغناء عن الزرع"
      ]
     ],
-    "note_en": "Highlighted in the file.",
-    "note_ar": "مظلَّل في الملف.",
     "answer": "a"
    },
    {
@@ -137,8 +131,6 @@
       "جميع ما سبق"
      ]
     ],
-    "note_en": "Seven items; this question was unsolved in the 2024 file (answer: all).",
-    "note_ar": "سبعة بنود؛ وهذا السؤال كان غير محلول في ملف 2024 (الجواب: الكل).",
     "answer": "d"
    },
    {
@@ -162,8 +154,6 @@
       "رقم هاتف الطبيب"
      ]
     ],
-    "note_en": "Highlighted.",
-    "note_ar": "مظلَّل.",
     "answer": "b"
    },
    {
@@ -187,8 +177,6 @@
       "10"
      ]
     ],
-    "note_en": "Patient details, clinical diagnosis, onset of symptoms, sample type, time of collection, treatment history, other health and safety issues.",
-    "note_ar": "تفاصيل المريض، التشخيص السريري، ظهور الأعراض، نوع العيّنة، وقت الجمع، تاريخ العلاج، قضايا الصحة والسلامة الأخرى.",
     "answer": "c"
    },
    {
@@ -212,8 +200,6 @@
       "قضايا الصحة والسلامة الأخرى"
      ]
     ],
-    "note_en": "Not on the list.",
-    "note_ar": "ليس في القائمة.",
     "answer": "b"
    },
    {
@@ -237,8 +223,6 @@
       "تاريخ السفر والتماس مع أشخاص مصابين"
      ]
     ],
-    "note_en": "Last sentence of page 1.",
-    "note_ar": "آخر جملة في الصفحة 1.",
     "answer": "d"
    },
    {
@@ -266,8 +250,6 @@
       "المطهّرات"
      ]
     ],
-    "note_en": "Sample collection, first point.",
-    "note_ar": "جمع العيّنات، النقطة الأولى.",
     "answer": "a"
    },
    {
@@ -291,8 +273,6 @@
       "حاويات مُعاد استعمالها"
      ]
     ],
-    "note_en": "Point 1 (highlighted).",
-    "note_ar": "النقطة 1 (مظلَّلة).",
     "answer": "c"
    },
    {
@@ -316,8 +296,6 @@
       "مسخَّنًا"
      ]
     ],
-    "note_en": "Because the skin contains a normal flora.",
-    "note_ar": "لأن الجلد يحتوي فلورا طبيعية.",
     "answer": "c"
    },
    {
@@ -341,8 +319,6 @@
       "التسرّب"
      ]
     ],
-    "note_en": "Point 4; a 2023-exam question.",
-    "note_ar": "النقطة 4؛ ومن أسئلة امتحان 2023.",
     "answer": "b"
    },
    {
@@ -366,8 +342,6 @@
       "منطقة تحتوي فلورا طبيعية"
      ]
     ],
-    "note_en": "Point 3.",
-    "note_ar": "النقطة 3.",
     "answer": "d"
    },
    {
@@ -395,8 +369,6 @@
       "الكلفة تزيد"
      ]
     ],
-    "note_en": "First transport point.",
-    "note_ar": "أول نقطة في النقل.",
     "answer": "a"
    },
    {
@@ -420,8 +392,6 @@
       "العصوية الرقيقة"
      ]
     ],
-    "note_en": "Underlined and highlighted; a 2023-exam question.",
-    "note_ar": "مسطَّر ومظلَّل؛ ومن أسئلة امتحان 2023.",
     "answer": "b"
    },
    {
@@ -445,8 +415,6 @@
       "ضياع نموذج الطلب"
      ]
     ],
-    "note_en": "Second transport point.",
-    "note_ar": "النقطة الثانية في النقل.",
     "answer": "a"
    },
    {
@@ -474,8 +442,6 @@
       "يجب إضافة مضادات حيوية"
      ]
     ],
-    "note_en": "Strategy 1.",
-    "note_ar": "الاستراتيجية 1.",
     "answer": "c"
    },
    {
@@ -499,8 +465,6 @@
       "حفظ الخلايا وتقليل تكاثر المتعايشات في العيّنات غير المحفوظة"
      ]
     ],
-    "note_en": "Strategy 2; a 2023-exam question.",
-    "note_ar": "الاستراتيجية 2؛ ومن أسئلة امتحان 2023.",
     "answer": "d"
    },
    {
@@ -524,8 +488,6 @@
       "`-70 ºC` أو أقل مع سائل مثبِّت"
      ]
     ],
-    "note_en": "Strategy 3.",
-    "note_ar": "الاستراتيجية 3.",
     "answer": "d"
    },
    {
@@ -549,8 +511,6 @@
       "الفورمالين"
      ]
     ],
-    "note_en": "Glycerol was the answer in the 2023 exam.",
-    "note_ar": "الغليسرول كان جواب امتحان 2023.",
     "answer": "b"
    },
    {
@@ -574,8 +534,6 @@
       "ملء الحاوية حتى آخرها"
      ]
     ],
-    "note_en": "Strategy 5.",
-    "note_ar": "الاستراتيجية 5.",
     "answer": "c"
    },
    {
@@ -599,8 +557,6 @@
       "جمّدها"
      ]
     ],
-    "note_en": "The file writes “prefect” — a typo for “protect”.",
-    "note_ar": "الملف كتب «prefect» وصوابها «protect».",
     "answer": "a"
    },
    {
@@ -624,8 +580,6 @@
       "أضف الغليسرول"
      ]
     ],
-    "note_en": "Strategy 7.",
-    "note_ar": "الاستراتيجية 7.",
     "answer": "c"
    },
    {
@@ -649,8 +603,6 @@
       "«`HIGH RISK`» (عالية الخطورة)"
      ]
     ],
-    "note_en": "Strategy 8; a 2023-exam question.",
-    "note_ar": "الاستراتيجية 8؛ ومن أسئلة امتحان 2023.",
     "answer": "d"
    },
    {
@@ -674,8 +626,6 @@
       "10"
      ]
     ],
-    "note_en": "Numbered (1)–(8).",
-    "note_ar": "مرقّمة من (1) إلى (8).",
     "answer": "b"
    },
    {
@@ -703,8 +653,6 @@
       "إبطاء التشخيص"
      ]
     ],
-    "note_en": "Highlighted: “provide rapid clinical information”.",
-    "note_ar": "المظلَّل: «تقديم معلومات سريرية سريعة».",
     "answer": "a"
    },
    {
@@ -728,8 +676,6 @@
       "جميع ما سبق"
      ]
     ],
-    "note_en": "Three situations; a 2023-exam question.",
-    "note_ar": "ثلاث حالات؛ ومن أسئلة امتحان 2023.",
     "answer": "d"
    },
    {
@@ -753,8 +699,6 @@
       "جميع ما سبق"
      ]
     ],
-    "note_en": "Four techniques; a 2023-exam question.",
-    "note_ar": "أربع تقنيات؛ ومن أسئلة امتحان 2023.",
     "answer": "d"
    },
    {
@@ -778,50 +722,11 @@
       "زرع الدم على الأجار"
      ]
     ],
-    "note_en": "Culture is, by definition, not a non-culture technique.",
-    "note_ar": "الزرع بالتعريف ليس تقنية غير زرعية.",
     "answer": "d"
    }
   ],
   "tf": [],
   "traps": [],
-  "important": [
-   {
-    "en": "What must be correct if pathogens are to be isolated successfully?",
-    "ar": "ما الذي يجب أن يكون صحيحًا لعزل الممرضات بنجاح؟",
-    "answer_en": "The type of specimen, its collection, time and method of its dispatch to the laboratory must be correct.",
-    "answer_ar": "يجب أن يكون نوع العيّنة وجمعها ووقتها وطريقة إرسالها إلى المختبر صحيحة."
-   },
-   {
-    "en": "List the information that the request form accompanying a clinical sample should include.",
-    "ar": "عدّد المعلومات التي يجب أن يتضمّنها نموذج الطلب المرافق للعيّنة السريرية.",
-    "answer_en": "1) Patient details. 2) Clinical diagnosis. 3) Onset of symptoms. 4) Sample type. 5) Time of collection. 6) Treatment history and concurrent antimicrobial therapy. 7) Other health and safety issues. Supporting clinical information, including travel history and contact with infected individuals, is also important.",
-    "answer_ar": "1) تفاصيل المريض. 2) التشخيص السريري. 3) ظهور الأعراض. 4) نوع العيّنة. 5) وقت الجمع. 6) تاريخ العلاج والعلاج المتزامن بمضادات الميكروبات. 7) قضايا الصحة والسلامة الأخرى. والمعلومات السريرية الداعمة، كتاريخ السفر والتماس مع المصابين، مهمة أيضًا."
-   },
-   {
-    "en": "When taking clinical samples, what is it important to do?",
-    "ar": "عند أخذ العيّنات السريرية، ما الذي من المهم القيام به؟",
-    "answer_en": "1) Use sterile, leak-proof containers. 2) Label the specimen correctly. 3) Take care whilst obtaining samples through an area containing a normal flora — e.g. vein puncture through the skin for blood culture, where the skin should be decontaminated with an appropriate antiseptic prior to collecting blood. 4) If possible, take specimens for microbiological culture prior to antibiotic therapy, to avoid false-negative results.",
-    "answer_ar": "1) استعمال حاويات معقّمة مانعة للتسرّب. 2) وسم العيّنة بشكل صحيح. 3) الحذر عند أخذ العيّنات عبر منطقة فيها فلورا طبيعية — مثل ثقب الوريد عبر الجلد لزرع الدم، إذ يجب تطهير الجلد بمطهّر مناسب قبل سحب الدم. 4) أخذ عيّنات الزرع قبل العلاج بالمضادات الحيوية إن أمكن، لتجنّب النتائج السلبية الكاذبة."
-   },
-   {
-    "en": "Why is rapid transport of samples to the microbiology laboratory essential?",
-    "ar": "لماذا يُعدّ النقل السريع للعيّنات إلى مختبر الأحياء الدقيقة ضروريًّا؟",
-    "answer_en": "Because many fastidious microorganisms, such as Neisseria gonorrhoeae and Haemophilus influenzae, die during transit. Furthermore, overgrowth by contaminating normal flora confusing the pathogen may also occur.",
-    "answer_ar": "لأن كائنات صعبة النمو كثيرة، مثل النيسرية البنية والمستدمية النزلية، تموت أثناء النقل. وفوق ذلك قد يحدث نمو مفرط للفلورا الطبيعية الملوِّثة يربك التعرّف على الممرض."
-   },
-   {
-    "en": "List the strategies that the microbiology department may adopt to minimize transport complications.",
-    "ar": "عدّد الاستراتيجيات التي قد يتّبعها قسم الأحياء الدقيقة لتقليل مشكلات النقل.",
-    "answer_en": "(1) The specimen should reach the laboratory as soon as possible, or a suitable preservative or transport medium must be used. (2) Refrigeration at 4 °C to preserve cells and reduce the multiplication of commensals. (3) Freezing at −70 °C or below with a stabilizing fluid such as glycerol or serum. (4) Ensure the container is free from cracks and the cap is leak-proof. (5) Seal round the cap with adhesive tape. (6) For a glass tube or bottle, use sufficient packaging material to protect the specimen. (7) For a fluid specimen, use sufficient absorbent material. (8) Mark all specimens that may contain a highly infectious organism “HIGH RISK”.",
-    "answer_ar": "(1) وصول العيّنة إلى المختبر بأسرع وقت، أو استعمال حافظ أو وسط نقل مناسب. (2) التبريد عند 4 درجات لحفظ الخلايا وتقليل تكاثر المتعايشات. (3) التجميد عند −70 درجة أو أقل مع سائل مثبِّت كالغليسرول أو المصل. (4) التأكّد من خلوّ الحاوية من الشقوق وأن الغطاء مانع للتسرّب. (5) إحكام الغطاء بشريط لاصق. (6) للأنبوب أو القنينة الزجاجية: مادة تغليف كافية لحماية العيّنة. (7) للعيّنة السائلة: مادة ماصّة كافية. (8) وسم كل عيّنة قد تحتوي كائنًا شديد العدوى بـ«`HIGH RISK`»."
-   },
-   {
-    "en": "When are non-culture techniques important, and what do they include?",
-    "ar": "متى تكون التقنيات غير الزرعية مهمة، وماذا تشمل؟",
-    "answer_en": "They provide rapid clinical information that may benefit patient management. They are important when: the microorganism cannot be readily cultured in vitro; the microorganism is slow-growing; or rapid laboratory diagnosis significantly influences clinical management of the patient. They include: 1) direct microscopy, 2) immunological methods, 3) serology, 4) nucleic acid amplification techniques (NAAT).",
-    "answer_ar": "تقدّم معلومات سريرية سريعة قد تفيد في تدبير المريض. وتكون مهمة عندما: لا يمكن زرع الكائن بسهولة في المختبر؛ أو يكون بطيء النمو؛ أو يؤثّر التشخيص المختبري السريع كثيرًا في التدبير السريري للمريض. وتشمل: 1) الفحص المجهري المباشر، 2) الطرق المناعية، 3) الفحوص المصلية، 4) تقنيات تضخيم الحمض النووي `(NAAT)`."
-   }
-  ]
+  "important": []
  }
 }
