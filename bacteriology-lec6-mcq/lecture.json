@@ -1,0 +1,1261 @@
+{
+ "meta": {
+  "subject_en": "Diagnostic Microbiology",
+  "subject_ar": "الأحياء المجهرية التشخيصية",
+  "short_ar": "بكتريا",
+  "instructor": "د. عدنان",
+  "unit_en": "Lecture 6",
+  "unit_ar": "المحاضرة 6",
+  "unit_label": "LEC",
+  "unit_no": "6",
+  "title_en": "Cultivation and Isolation of Viable Pathogen",
+  "title_ar": "زراعة مسبّبات الأمراض الحيّة وعزلها",
+  "department": "قسم التحليلات",
+  "kind": "Theory — نظري",
+  "questions_kind": "MCQ — اختيار من متعدد",
+  "stage": "The fourth stage — الرابعة",
+  "file_name": "BIOS - بكتريا نظري المحاضرة السادسة - أسئلة MCQ"
+ },
+ "questions": {
+  "title_en": "Culture Media (Lecture 6) — MCQ",
+  "title_ar": "الأوساط الزراعية (المحاضرة 6) — أسئلة اختيار",
+  "answers_inline": true,
+  "compact": true,
+  "mcq_per_page": 5,
+  "mcq_en": "Comprehensive MCQs — Lecture 6",
+  "mcq_ar": "أسئلة اختيار شاملة — المحاضرة 6",
+  "intro_en": [
+   "Q. Select the most correct answer from the followings",
+   "These questions cover the whole lecture, including the ministerial and tutorial questions; the answer sits under each question."
+  ],
+  "intro_ar": [
+   "س. اختر الإجابة الأصح مما يأتي",
+   "هذه الأسئلة تغطّي المحاضرة كاملة ومعها الأسئلة الوزارية والتدريبية؛ والحل تحت كل سؤال."
+  ],
+  "mcq": [
+   {
+    "topic_en": "Laboratory media",
+    "topic_ar": "الأوساط الزراعية"
+   },
+   {
+    "en": "Culture media are required to:",
+    "ar": "الأوساط الزراعية ضرورية لـ:",
+    "options": [
+     [
+      "Sterilize the specimens",
+      "تعقيم العيّنات"
+     ],
+     [
+      "Isolate the bacteria from the clinical specimens",
+      "عزل البكتيريا من العيّنات السريرية"
+     ],
+     [
+      "Kill the causative agent",
+      "قتل المسبِّب"
+     ],
+     [
+      "Replace the biochemical tests",
+      "الاستغناء عن الفحوص الكيميائية الحيوية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Needed as source of nutrients for the growth of the microbes:",
+    "ar": "تُستعمل مصدرًا للمغذّيات لنمو الميكروبات:",
+    "options": [
+     [
+      "reagent",
+      "الكاشف"
+     ],
+     [
+      "media",
+      "الأوساط"
+     ],
+     [
+      "bacteria",
+      "البكتيريا"
+     ],
+     [
+      "alcohol",
+      "الكحول"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The isolated organism is identified from blood culture by:",
+    "ar": "يُشخَّص الكائن المعزول من زرع الدم بواسطة:",
+    "options": [
+     [
+      "colony morphology",
+      "شكل المستعمرة"
+     ],
+     [
+      "Gram staining",
+      "صبغة غرام"
+     ],
+     [
+      "Biochemical reactions",
+      "التفاعلات الكيميائية الحيوية"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Constituents of culture media",
+    "topic_ar": "مكوّنات الأوساط الزراعية"
+   },
+   {
+    "en": "The constituents of culture media are:",
+    "ar": "مكوّنات الأوساط الزراعية هي:",
+    "options": [
+     [
+      "Water",
+      "الماء"
+     ],
+     [
+      "Electrolyte",
+      "الإلكتروليت"
+     ],
+     [
+      "Peptone",
+      "الببتون"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The water used for media preparation is:",
+    "ar": "الماء المستعمل لتحضير الأوساط:",
+    "options": [
+     [
+      "Water with high mineral content",
+      "ماء غني بالمعادن"
+     ],
+     [
+      "Sea water",
+      "ماء البحر"
+     ],
+     [
+      "Distilled water or potable water with low mineral content",
+      "ماء مقطّر أو ماء صالح للشرب قليل المعادن"
+     ],
+     [
+      "Saline only",
+      "محلول ملحي فقط"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "An example of the electrolytes used in culture media is:",
+    "ar": "من أمثلة الإلكتروليتات المستعملة في الأوساط الزراعية:",
+    "options": [
+     [
+      "Peptone",
+      "الببتون"
+     ],
+     [
+      "Glucose",
+      "الكلوكوز"
+     ],
+     [
+      "Agar",
+      "الأجار"
+     ],
+     [
+      "Sodium chloride",
+      "كلوريد الصوديوم"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Peptone is:",
+    "ar": "الببتون هو:",
+    "options": [
+     [
+      "A complex mixture of partially digested proteins",
+      "خليط معقّد من بروتينات مهضومة جزئيًّا"
+     ],
+     [
+      "A polysaccharide from seaweeds",
+      "سكّر متعدّد من الطحالب البحرية"
+     ],
+     [
+      "A pure chemical substance",
+      "مادة كيميائية نقية"
+     ],
+     [
+      "A pH indicator",
+      "مؤشّر `pH`"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Peptone is usually obtained by digestion of protein material with proteolytic enzymes, such as:",
+    "ar": "يُحصل على الببتون عادةً بهضم المواد البروتينية بإنزيمات محلّلة للبروتين مثل:",
+    "options": [
+     [
+      "Lipase",
+      "الليبيز"
+     ],
+     [
+      "Amylase",
+      "الأميليز"
+     ],
+     [
+      "Pepsin",
+      "الببسين"
+     ],
+     [
+      "Lactase",
+      "اللاكتيز"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Sources of peptone include:",
+    "ar": "من مصادر الببتون:",
+    "options": [
+     [
+      "Sheep blood",
+      "دم الخراف"
+     ],
+     [
+      "Red algae",
+      "الطحالب الحمراء"
+     ],
+     [
+      "Baker's yeast",
+      "خميرة الخبّاز"
+     ],
+     [
+      "Lean meat, heart muscle, casein, fibrin or soya flour",
+      "اللحم الخالي من الدهون، عضلة القلب، الكازين، الفيبرين أو دقيق الصويا"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Accessory growth factors contained in peptone are:",
+    "ar": "عوامل النمو الإضافية الموجودة في الببتون:",
+    "options": [
+     [
+      "Glucose and starch",
+      "الكلوكوز والنشا"
+     ],
+     [
+      "Nicotinic acid and riboflavin",
+      "حمض النيكوتينيك والريبوفلافين"
+     ],
+     [
+      "Bile salts and crystal violet",
+      "أملاح الصفراء والبنفسج البلوري"
+     ],
+     [
+      "Agar and gelatin",
+      "الأجار والجيلاتين"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Agar is used in culture media for:",
+    "ar": "يُستعمل الأجار في الأوساط الزراعية لـ:",
+    "options": [
+     [
+      "Sterilization the culture media",
+      "تعقيم الوسط الزراعي"
+     ],
+     [
+      "Solidifying the culture media",
+      "تصليب الوسط الزراعي"
+     ],
+     [
+      "Neutralization the pH",
+      "معادلة الـ `pH`"
+     ],
+     [
+      "Supporting the growth of bacteria",
+      "دعم نمو البكتيريا"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "One of the following is used for solidifying the culture media:",
+    "ar": "واحد مما يأتي يُستعمل لتصليب الوسط الزراعي:",
+    "options": [
+     [
+      "Peptone",
+      "الببتون"
+     ],
+     [
+      "Electrolyte",
+      "الإلكتروليت"
+     ],
+     [
+      "Carbohydrate",
+      "الكربوهيدرات"
+     ],
+     [
+      "None of the above",
+      "لا شيء مما سبق"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Agar ('agar-agar') is prepared from the cell wall of:",
+    "ar": "يُحضَّر الأجار («أجار-أجار») من جدران خلايا:",
+    "options": [
+     [
+      "Seaweeds (red algae of species __Gelidium__ and __Gracilaria__)",
+      "الطحالب البحرية (الطحالب الحمراء من نوعي `Gelidium` و`Gracilaria`)"
+     ],
+     [
+      "Baker's yeast",
+      "خميرة الخبّاز"
+     ],
+     [
+      "Beef",
+      "لحم البقر"
+     ],
+     [
+      "Soya beans",
+      "فول الصويا"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Agar powder:",
+    "ar": "مسحوق الأجار:",
+    "options": [
+     [
+      "Melts at room temperature",
+      "يذوب بدرجة حرارة الغرفة"
+     ],
+     [
+      "Melts in water after boiling and jellifies after cooling",
+      "يذوب في الماء بعد الغليان ويتجلّد بعد التبريد"
+     ],
+     [
+      "Never dissolves in water",
+      "لا يذوب في الماء أبدًا"
+     ],
+     [
+      "Jellifies only after boiling",
+      "يتجلّد بعد الغليان فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Molten agar is poured into the Petri dishes when its temperature comes down to:",
+    "ar": "يُصبّ الأجار المذاب في أطباق بتري عندما تنخفض حرارته إلى:",
+    "options": [
+     [
+      "`4 ºC`",
+      "`4 ºC`"
+     ],
+     [
+      "`100 ºC`",
+      "`100 ºC`"
+     ],
+     [
+      "`121 ºC`",
+      "`121 ºC`"
+     ],
+     [
+      "`45 ºC`",
+      "`45 ºC`"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "After pouring into Petri dishes, agar medium is allowed to set for:",
+    "ar": "بعد الصبّ في أطباق بتري يُترك وسط الأجار ليتصلّب مدة:",
+    "options": [
+     [
+      "20 minutes",
+      "20 دقيقة"
+     ],
+     [
+      "2 minutes",
+      "دقيقتين"
+     ],
+     [
+      "2 hours",
+      "ساعتين"
+     ],
+     [
+      "24 hours",
+      "24 ساعة"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "The dissolved agar mixture is sterilized by:",
+    "ar": "يُعقَّم خليط الأجار المذاب بواسطة:",
+    "options": [
+     [
+      "Alcohol",
+      "الكحول"
+     ],
+     [
+      "Filtration",
+      "الترشيح"
+     ],
+     [
+      "Autoclave",
+      "الأوتوكلاف"
+     ],
+     [
+      "Freezing",
+      "التجميد"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Meat extract is usually made from:",
+    "ar": "يُصنع مستخلص اللحم عادةً من:",
+    "options": [
+     [
+      "Fish",
+      "السمك"
+     ],
+     [
+      "Beef",
+      "لحم البقر"
+     ],
+     [
+      "Chicken",
+      "الدجاج"
+     ],
+     [
+      "Soya",
+      "الصويا"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Malt extract agar consists of maltose (about 50%) and ………",
+    "ar": "يتكوّن أجار مستخلص الشعير من المالتوز (حوالي 50%) و………",
+    "options": [
+     [
+      "starch",
+      "النشا"
+     ],
+     [
+      "Dextrin",
+      "الدكسترين"
+     ],
+     [
+      "Glucose",
+      "الكلوكوز"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Malt extract media contains different components like:",
+    "ar": "يحتوي وسط مستخلص الشعير مكوّنات مختلفة مثل:",
+    "options": [
+     [
+      "Blood",
+      "الدم"
+     ],
+     [
+      "Inorganic salts",
+      "الأملاح غير العضوية"
+     ],
+     [
+      "Growth factors",
+      "عوامل النمو"
+     ],
+     [
+      "None of the above",
+      "لا شيء مما سبق"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Yeast extract is prepared commercially from:",
+    "ar": "يُحضَّر مستخلص الخميرة تجاريًّا من:",
+    "options": [
+     [
+      "Washed cells of Baker's yeast",
+      "خلايا مغسولة من خميرة الخبّاز"
+     ],
+     [
+      "Red algae",
+      "الطحالب الحمراء"
+     ],
+     [
+      "Lean meat",
+      "اللحم الخالي من الدهون"
+     ],
+     [
+      "Casein",
+      "الكازين"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Blood and serum are important components of:",
+    "ar": "الدم والمصل مكوّنان مهمّان في:",
+    "options": [
+     [
+      "Transport media only",
+      "أوساط النقل فقط"
+     ],
+     [
+      "Synthetic media",
+      "الأوساط الاصطناعية"
+     ],
+     [
+      "Simple media",
+      "الأوساط البسيطة"
+     ],
+     [
+      "Enriched media, providing extra nutrition to fastidious bacteria",
+      "الأوساط الغنية، إذ يوفّران تغذية إضافية للبكتيريا صعبة النمو"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "The percentage of sheep blood usually used in enriched media is:",
+    "ar": "نسبة دم الخراف المستعملة عادةً في الأوساط الغنية:",
+    "options": [
+     [
+      "20–30%",
+      "20–30%"
+     ],
+     [
+      "1%",
+      "1%"
+     ],
+     [
+      "5–10%",
+      "5–10%"
+     ],
+     [
+      "50%",
+      "50%"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Types of culture media",
+    "topic_ar": "أنواع الأوساط الزراعية"
+   },
+   {
+    "en": "Types of culture media based on consistency are:",
+    "ar": "أنواع الأوساط الزراعية حسب القوام:",
+    "options": [
+     [
+      "Liquid media (or broth)",
+      "أوساط سائلة (أو مرق)"
+     ],
+     [
+      "Semisolid media",
+      "أوساط شبه صلبة"
+     ],
+     [
+      "Solid media",
+      "أوساط صلبة"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Media that prepared from pure chemical substances known as:",
+    "ar": "الأوساط المحضَّرة من مواد كيميائية نقية تُعرف بـ:",
+    "options": [
+     [
+      "Routine laboratory media",
+      "الأوساط المختبرية الروتينية"
+     ],
+     [
+      "synthetic",
+      "الاصطناعية"
+     ],
+     [
+      "defined media",
+      "الأوساط المعرَّفة"
+     ],
+     [
+      "both B and C",
+      "`B` و`C` معًا"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Defined (synthetic) media are either:",
+    "ar": "الأوساط المعرَّفة (الاصطناعية) تكون إمّا:",
+    "options": [
+     [
+      "Simple synthetic or complex synthetic media",
+      "اصطناعية بسيطة أو اصطناعية معقّدة"
+     ],
+     [
+      "Liquid or solid only",
+      "سائلة أو صلبة فقط"
+     ],
+     [
+      "Selective or differential",
+      "انتقائية أو تفريقية"
+     ],
+     [
+      "Aerobic or anaerobic",
+      "هوائية أو لاهوائية"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Routine laboratory media are prepared from:",
+    "ar": "تُحضَّر الأوساط المختبرية الروتينية من:",
+    "options": [
+     [
+      "Pure chemical substances",
+      "مواد كيميائية نقية"
+     ],
+     [
+      "Nutrients, such as aqueous extract of meat and peptone",
+      "مغذّيات مثل مستخلص اللحم المائي والببتون"
+     ],
+     [
+      "Antibiotics only",
+      "مضادات حيوية فقط"
+     ],
+     [
+      "Distilled water only",
+      "ماء مقطّر فقط"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "MacConkey agar is used for growth only gram negative bacteria, which one of the following media:",
+    "ar": "أجار ماكونكي يُستعمل لنمو البكتيريا سالبة غرام فقط، فهو أيّ من الأوساط الآتية:",
+    "options": [
+     [
+      "Semisolid media",
+      "وسط شبه صلب"
+     ],
+     [
+      "Simple media",
+      "وسط بسيط"
+     ],
+     [
+      "Enriched media",
+      "وسط غني"
+     ],
+     [
+      "Selective media",
+      "وسط انتقائي"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Simple and enriched media",
+    "topic_ar": "الأوساط البسيطة والغنية"
+   },
+   {
+    "en": "An example of simple media is:",
+    "ar": "مثال على الأوساط البسيطة:",
+    "options": [
+     [
+      "Chocolate agar",
+      "أجار الشوكولاتة"
+     ],
+     [
+      "Blood agar",
+      "أجار الدم"
+     ],
+     [
+      "Nutrient broth / nutrient agar",
+      "مرق المغذّي / أجار المغذّي"
+     ],
+     [
+      "MacConkey agar",
+      "أجار ماكونكي"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Nutrient agar contains ‘peptone’ and:",
+    "ar": "يحتوي أجار المغذّي على «الببتون» و:",
+    "options": [
+     [
+      "Antibiotics",
+      "مضادات حيوية"
+     ],
+     [
+      "Whole blood",
+      "دم كامل"
+     ],
+     [
+      "Bile salts",
+      "أملاح الصفراء"
+     ],
+     [
+      "‘Meat extract’",
+      "«مستخلص اللحم»"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "……… Media contain additional nutrients for the isolation of more fastidious bacteria like whole blood (blood agar) or agar containing lysed blood (Chocolate agar).",
+    "ar": "……… أوساط تحتوي مغذّيات إضافية لعزل البكتيريا صعبة النمو، مثل الدم الكامل (أجار الدم) أو الأجار الحاوي على دم متحلّل (أجار الشوكولاتة).",
+    "options": [
+     [
+      "Differential",
+      "التفريقية"
+     ],
+     [
+      "Nutrient",
+      "المغذّية"
+     ],
+     [
+      "Enriched",
+      "الغنية"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Chocolate agar is agar containing:",
+    "ar": "أجار الشوكولاتة هو أجار يحتوي على:",
+    "options": [
+     [
+      "Whole blood",
+      "دم كامل"
+     ],
+     [
+      "Lysed blood",
+      "دم متحلّل"
+     ],
+     [
+      "Chocolate",
+      "شوكولاتة"
+     ],
+     [
+      "Bile salts",
+      "أملاح الصفراء"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Example of non-enriched media is:",
+    "ar": "مثال على وسط غير غني:",
+    "options": [
+     [
+      "Blood agar",
+      "أجار الدم"
+     ],
+     [
+      "Chocolate agar",
+      "أجار الشوكولاتة"
+     ],
+     [
+      "Mannitol salt agar",
+      "أجار المانيتول الملحي"
+     ],
+     [
+      "A and B",
+      "`A` و`B`"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Fastidious microorganisms:",
+    "ar": "الكائنات الدقيقة صعبة النمو:",
+    "options": [
+     [
+      "__E. coli__",
+      "الإشريكية القولونية"
+     ],
+     [
+      "__A. hydrophila__",
+      "الإيروموناس المحبّة للماء"
+     ],
+     [
+      "Staphylococci",
+      "العنقوديات"
+     ],
+     [
+      "__M. tuberculosis__",
+      "المتفطّرة السلية"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "topic_en": "Selective media",
+    "topic_ar": "الأوساط الانتقائية"
+   },
+   {
+    "en": "The ……… media are designed to facilitate growth of some bacteria while suppressing the growth of others.",
+    "ar": "الأوساط ……… مصمَّمة لتسهيل نمو بعض البكتيريا مع تثبيط نمو غيرها.",
+    "options": [
+     [
+      "Simple",
+      "البسيطة"
+     ],
+     [
+      "Enriched",
+      "الغنية"
+     ],
+     [
+      "Selective",
+      "الانتقائية"
+     ],
+     [
+      "Complex",
+      "المعقّدة"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Mannitol salt agar which contains increased in substance for the recovery of Staphylococci:",
+    "ar": "أجار المانيتول الملحي يحتوي تركيزًا عاليًا من مادة لاستعادة العنقوديات:",
+    "options": [
+     [
+      "Antibiotics",
+      "المضادات الحيوية"
+     ],
+     [
+      "NaCl",
+      "NaCl"
+     ],
+     [
+      "Thioglycollate",
+      "الثايوكلايكوليت"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Mannitol salt agar contain increased concentration of NaCl used as selective media for:",
+    "ar": "أجار المانيتول الملحي يحتوي تركيزًا عاليًا من `NaCl` ويُستعمل وسطًا انتقائيًّا لـ:",
+    "options": [
+     [
+      "__Pseudomonas__",
+      "الزائفة"
+     ],
+     [
+      "staphylococcus",
+      "العنقودية"
+     ],
+     [
+      "streptococci",
+      "العقديات"
+     ],
+     [
+      "__E. coli__",
+      "الإشريكية القولونية"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "MacConkey agar is selective because it contains:",
+    "ar": "أجار ماكونكي انتقائي لأنه يحتوي على:",
+    "options": [
+     [
+      "Bile salt, allowing the growth of bile-tolerant bacteria only",
+      "أملاح الصفراء، فيسمح بنمو البكتيريا المتحمّلة للصفراء فقط"
+     ],
+     [
+      "Increased NaCl",
+      "تركيزًا عاليًا من `NaCl`"
+     ],
+     [
+      "Whole blood",
+      "دمًا كاملًا"
+     ],
+     [
+      "Lysed blood",
+      "دمًا متحلّلًا"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Antibiotics added to media for ………",
+    "ar": "تُضاف المضادات الحيوية إلى الأوساط لـ………",
+    "options": [
+     [
+      "supporting the growth",
+      "دعم النمو"
+     ],
+     [
+      "as color indicator",
+      "مؤشّر لوني"
+     ],
+     [
+      "suppressing the growth",
+      "تثبيط النمو"
+     ],
+     [
+      "growth factor",
+      "عامل نمو"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "Some antibiotics are additive in media in order to make ………",
+    "ar": "تُضاف بعض المضادات الحيوية إلى الأوساط لجعلها ………",
+    "options": [
+     [
+      "Enrich media",
+      "أوساطًا غنية"
+     ],
+     [
+      "Simple media",
+      "أوساطًا بسيطة"
+     ],
+     [
+      "Selective media",
+      "أوساطًا انتقائية"
+     ],
+     [
+      "Basal media",
+      "أوساطًا أساسية"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "topic_en": "Indicator media",
+    "topic_ar": "الأوساط المؤشِّرة"
+   },
+   {
+    "en": "Indicator media are designed to:",
+    "ar": "الأوساط المؤشِّرة مصمَّمة لـ:",
+    "options": [
+     [
+      "Solidify the media",
+      "تصليب الأوساط"
+     ],
+     [
+      "Kill all pathogens",
+      "قتل جميع الممرضات"
+     ],
+     [
+      "Transport specimens",
+      "نقل العيّنات"
+     ],
+     [
+      "Aid the detection and recognition of particular pathogens",
+      "المساعدة في كشف ممرضات معيّنة والتعرّف عليها"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "Indicator media are often based on:",
+    "ar": "تعتمد الأوساط المؤشِّرة غالبًا على:",
+    "options": [
+     [
+      "Antibiotic resistance",
+      "مقاومة المضادات الحيوية"
+     ],
+     [
+      "Hemolysis only",
+      "التحلّل الدموي فقط"
+     ],
+     [
+      "Sugar fermentation reactions producing acid and a color change of a pH indicator",
+      "تفاعلات تخمير السكريات المنتجة للحمض وتغيّر لون مؤشّر الـ `pH`"
+     ],
+     [
+      "Gram staining",
+      "صبغة غرام"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "MacConkey agar contains lactose and a pH indicator (neutral red); used for detection of ……",
+    "ar": "أجار ماكونكي يحتوي اللاكتوز ومؤشّر `pH` (الأحمر المتعادل)؛ ويُستعمل لكشف ……",
+    "options": [
+     [
+      "Salts tolerant bacteria",
+      "البكتيريا المتحمّلة للأملاح"
+     ],
+     [
+      "Lactose-fermenting bacteria",
+      "البكتيريا المخمِّرة للاكتوز"
+     ],
+     [
+      "Lactose-fermenting yeasts",
+      "الخمائر المخمِّرة للاكتوز"
+     ],
+     [
+      "All of the above",
+      "جميع ما سبق"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "The pH indicator in MacConkey agar is:",
+    "ar": "مؤشّر الـ `pH` في أجار ماكونكي هو:",
+    "options": [
+     [
+      "Methylene blue",
+      "أزرق المثيلين"
+     ],
+     [
+      "Phenol red",
+      "أحمر الفينول"
+     ],
+     [
+      "Crystal violet",
+      "البنفسج البلوري"
+     ],
+     [
+      "Neutral red",
+      "الأحمر المتعادل"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "On MacConkey agar, lactose-fermenting bacteria (like __Escherichia coli__):",
+    "ar": "على أجار ماكونكي، البكتيريا المخمِّرة للاكتوز (مثل الإشريكية القولونية):",
+    "options": [
+     [
+      "Do not grow",
+      "لا تنمو"
+     ],
+     [
+      "Form pale yellow colonies",
+      "تكوّن مستعمرات صفراء باهتة"
+     ],
+     [
+      "Produce acid and form pink colonies",
+      "تنتج حمضًا وتكوّن مستعمرات وردية"
+     ],
+     [
+      "Form black colonies",
+      "تكوّن مستعمرات سوداء"
+     ]
+    ],
+    "answer": "c"
+   },
+   {
+    "en": "On MacConkey agar, non-lactose fermenting bacteria (like __Salmonella__ spp.):",
+    "ar": "على أجار ماكونكي، البكتيريا غير المخمِّرة للاكتوز (مثل السالمونيلا):",
+    "options": [
+     [
+      "Do not produce acid and form pale yellow colonies",
+      "لا تنتج حمضًا وتكوّن مستعمرات صفراء باهتة"
+     ],
+     [
+      "Produce acid and form pink colonies",
+      "تنتج حمضًا وتكوّن مستعمرات وردية"
+     ],
+     [
+      "Form green colonies",
+      "تكوّن مستعمرات خضراء"
+     ],
+     [
+      "Lyse the blood",
+      "تحلّل الدم"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Which of the following media can differentiate between lactose and non-lactose fermenting gram-negative bacteria?",
+    "ar": "أيّ الأوساط الآتية يفرّق بين البكتيريا سالبة غرام المخمِّرة وغير المخمِّرة للاكتوز؟",
+    "options": [
+     [
+      "Chocolate agar",
+      "أجار الشوكولاتة"
+     ],
+     [
+      "MacConkey agar",
+      "أجار ماكونكي"
+     ],
+     [
+      "Modified Thayer-Martin agar",
+      "أجار ثاير-مارتن المعدَّل"
+     ],
+     [
+      "Blood agar",
+      "أجار الدم"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "Which of the following organisms is lactose fermenting ……",
+    "ar": "أيّ الكائنات الآتية مخمِّر للاكتوز ……",
+    "options": [
+     [
+      "__Klebsiella__",
+      "الكلبسيلة"
+     ],
+     [
+      "__Salmonella__",
+      "السالمونيلا"
+     ],
+     [
+      "__Shigella__",
+      "الشيغيلا"
+     ],
+     [
+      "Both B and C",
+      "`B` و`C` معًا"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Substances added to indicator media to suppress the growth of most Gram-positive microorganisms include:",
+    "ar": "من المواد المضافة للأوساط المؤشِّرة لتثبيط نمو معظم موجبات غرام:",
+    "options": [
+     [
+      "Peptone and meat extract",
+      "الببتون ومستخلص اللحم"
+     ],
+     [
+      "Bile salts and crystal violet",
+      "أملاح الصفراء والبنفسج البلوري"
+     ],
+     [
+      "Blood and serum",
+      "الدم والمصل"
+     ],
+     [
+      "Glucose and starch",
+      "الكلوكوز والنشا"
+     ]
+    ],
+    "answer": "b"
+   },
+   {
+    "en": "MacConkey agar is therefore:",
+    "ar": "لذلك يُعدّ أجار ماكونكي:",
+    "options": [
+     [
+      "Both a selective medium and an indicator medium",
+      "وسطًا انتقائيًّا ومؤشِّرًا معًا"
+     ],
+     [
+      "An enriched medium only",
+      "وسطًا غنيًّا فقط"
+     ],
+     [
+      "A simple medium",
+      "وسطًا بسيطًا"
+     ],
+     [
+      "A synthetic medium",
+      "وسطًا اصطناعيًّا"
+     ]
+    ],
+    "answer": "a"
+   },
+   {
+    "en": "Changes in agar media resulting from bacterial growth indicate as:",
+    "ar": "التغيّرات في أوساط الأجار الناتجة عن نمو البكتيريا تظهر على شكل:",
+    "options": [
+     [
+      "hemolytic pattern on blood agar",
+      "نمط التحلّل الدموي على أجار الدم"
+     ],
+     [
+      "changes in color of pH indicators",
+      "تغيّر لون مؤشّرات الـ `pH`"
+     ],
+     [
+      "pitting of the agar surface",
+      "تنقّر سطح الأجار"
+     ],
+     [
+      "All of them",
+      "جميعها"
+     ]
+    ],
+    "answer": "d"
+   },
+   {
+    "en": "In gram positive, cells retain the ……… stain and remain purple to dark blue.",
+    "ar": "في موجبات غرام تحتفظ الخلايا بصبغة ……… وتبقى بنفسجية إلى زرقاء داكنة.",
+    "options": [
+     [
+      "Crystal violet",
+      "البنفسج البلوري"
+     ],
+     [
+      "Decolorizing",
+      "مزيل اللون"
+     ],
+     [
+      "Safranin",
+      "السفرانين"
+     ],
+     [
+      "Iodine solution",
+      "محلول اليود"
+     ]
+    ],
+    "answer": "a"
+   }
+  ],
+  "tf": [],
+  "traps": [],
+  "important": []
+ }
+}
