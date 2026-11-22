@@ -12,25 +12,25 @@
   "title_ar": "علم الأحياء الدقيقة التشخيصي: الغرض والفلسفة",
   "department": "قسم التحليلات",
   "kind": "Theory — نظري",
-  "questions_kind": "MCQ + SA — اختيار ومقالية",
+  "questions_kind": "MCQ — اختيار من متعدد",
   "stage": "The fourth stage — الرابعة",
-  "file_name": "BIOS - بكتريا نظري المحاضرة الأولى - بنك أسئلة شامل"
+  "file_name": "BIOS - بكتريا نظري المحاضرة الأولى - أسئلة MCQ"
  },
  "questions": {
-  "title_en": "Purpose and Philosophy (Lecture 1) — Comprehensive Questions (MCQ + SA)",
-  "title_ar": "الغرض والفلسفة (المحاضرة 1) — أسئلة شاملة (اختيار + مقالية)",
+  "title_en": "Purpose and Philosophy (Lecture 1) — MCQ",
+  "title_ar": "الغرض والفلسفة (المحاضرة 1) — أسئلة اختيار",
   "answers_inline": true,
   "compact": true,
-  "mcq_per_page": 4,
+  "mcq_per_page": 5,
   "mcq_en": "Comprehensive MCQs — Lecture 1",
   "mcq_ar": "أسئلة اختيار شاملة — المحاضرة الأولى",
   "intro_en": [
    "Q. Select the most correct answer from the followings",
-   "These questions cover the whole lecture; the answer and a short reason sit under each MCQ, and the model answer under each essay question. Paragraphs crossed out (✗) in class are not asked; the parts marked “short answer” come as essay questions."
+   "These questions cover the whole lecture; the answer sits under each question. Paragraphs crossed out (✗) in class are not asked."
   ],
   "intro_ar": [
    "س. اختر الإجابة الأصح مما يأتي",
-   "هذه الأسئلة تغطّي المحاضرة كاملة؛ والحل وسطر سبب مختصر تحت كل سؤال اختيار، والجواب النموذجي تحت كل سؤال مقالي. الفقرات المشطوبة (✗) بالمحاضرة لم تُسأل، والأجزاء المؤشَّرة «سؤال قصير» جاءت أسئلةً مقالية."
+   "هذه الأسئلة تغطّي المحاضرة كاملة؛ والحل تحت كل سؤال. الفقرات المشطوبة (✗) بالمحاضرة لم تُسأل."
   ],
   "mcq": [
    {
@@ -58,8 +58,6 @@
       "التفاعل بين المضيف والكائن الحي الدقيق"
      ]
     ],
-    "note_en": "Marked «سؤال قصير أو MCQ».",
-    "note_ar": "مؤشَّر «سؤال قصير أو MCQ».",
     "answer": "d"
    },
    {
@@ -83,8 +81,6 @@
       "عمر المريض فقط"
      ]
     ],
-    "note_en": "Two factors (numbered ① ② in class); also a 2023 exam question.",
-    "note_ar": "عاملان (مرقّمان ① ② بالمحاضرة)؛ وهو أيضًا من أسئلة امتحان 2023.",
     "answer": "c"
    },
    {
@@ -108,8 +104,6 @@
       "وقت اليوم"
      ]
     ],
-    "note_en": "Marked MCQ.",
-    "note_ar": "مؤشَّر MCQ.",
     "answer": "b"
    },
    {
@@ -133,8 +127,6 @@
       "جميع ما سبق"
      ]
     ],
-    "note_en": "Four sources of information (marked «فهم»).",
-    "note_ar": "أربعة مصادر للمعلومات (مؤشَّرة «فهم»).",
     "answer": "d"
    },
    {
@@ -162,8 +154,6 @@
       "الفطريات والطفيليات فقط"
      ]
     ],
-    "note_en": "Four causes (numbered ①–④ in class).",
-    "note_ar": "أربعة مسبّبات (مرقّمة ①–④ بالمحاضرة).",
     "answer": "a"
    },
    {
@@ -187,8 +177,6 @@
       "الأوساط الزرعية"
      ]
     ],
-    "note_en": "Marked «مهم MCQ».",
-    "note_ar": "مؤشَّر «مهم MCQ».",
     "answer": "c"
    },
    {
@@ -212,8 +200,6 @@
       "البيئة"
      ]
     ],
-    "note_en": "Endogenous = from the normal flora.",
-    "note_ar": "الداخلي = من الفلورا الطبيعية.",
     "answer": "b"
    },
    {
@@ -237,8 +223,6 @@
       "فلورا طبيعية"
      ]
     ],
-    "note_en": "Other persons → exogenous.",
-    "note_ar": "أشخاص آخرون ← خارجي.",
     "answer": "a"
    },
    {
@@ -266,8 +250,6 @@
       "علم الأحياء الدقيقة التشخيصي"
      ]
     ],
-    "note_en": "Boxed and starred in class; the same question came in the 2024 file.",
-    "note_ar": "مؤطَّر ومنجَّم بالمحاضرة؛ والسؤال نفسه ورد في ملف 2024.",
     "answer": "d"
    },
    {
@@ -291,8 +273,6 @@
       "كادر المختبر"
      ]
     ],
-    "note_en": "“…at the level of individual patients”.",
-    "note_ar": "«…على مستوى المرضى الأفراد».",
     "answer": "c"
    },
    {
@@ -320,8 +300,6 @@
       "عدم الزرع إطلاقًا"
      ]
     ],
-    "note_en": "Starred; marked «سؤال قصير».",
-    "note_ar": "منجَّم؛ مؤشَّر «سؤال قصير».",
     "answer": "a"
    },
    {
@@ -345,8 +323,6 @@
       "لا تحتاج ظروفًا محدّدة"
      ]
     ],
-    "note_en": "Slide text.",
-    "note_ar": "نصّ المحاضرة.",
     "answer": "c"
    },
    {
@@ -370,8 +346,6 @@
       "لا تحتاج حضنًا"
      ]
     ],
-    "note_en": "Marked «سؤال قصير».",
-    "note_ar": "مؤشَّر «سؤال قصير».",
     "answer": "b"
    },
    {
@@ -395,8 +369,6 @@
       "جميع ما سبق"
      ]
     ],
-    "note_en": "Three factors (marked «تجربة فهم»); a 2024-file question.",
-    "note_ar": "ثلاثة عوامل (مؤشَّرة «فهم»)؛ ومن أسئلة ملف 2024.",
     "answer": "d"
    },
    {
@@ -420,8 +392,6 @@
       "تضخيم الأحماض النووية متبوعًا باستعمال المسابير للتعرّف"
      ]
     ],
-    "note_en": "“Amplification of nucleic acids” is boxed «سؤال قصير».",
-    "note_ar": "«تضخيم الأحماض النووية» مؤطَّر «سؤال قصير».",
     "answer": "d"
    },
    {
@@ -445,8 +415,6 @@
       "الاستغناء عن نموذج الطلب"
      ]
     ],
-    "note_en": "Marked «سؤال قصير أو MCQ».",
-    "note_ar": "مؤشَّر «سؤال قصير أو MCQ».",
     "answer": "a"
    },
    {
@@ -470,8 +438,6 @@
       "تجنّب الفحوص المختبرية"
      ]
     ],
-    "note_en": "Second half of the same sentence.",
-    "note_ar": "النصف الثاني من الجملة نفسها.",
     "answer": "b"
    },
    {
@@ -499,8 +465,6 @@
       "جميع ما سبق"
      ]
     ],
-    "note_en": "Three outcomes (starred, «تجربة فهم»); a 2024-file question.",
-    "note_ar": "ثلاث نتائج (منجَّمة، «فهم»)؛ ومن أسئلة ملف 2024.",
     "answer": "d"
    },
    {
@@ -524,8 +488,6 @@
       "مضادات حيوية"
      ]
     ],
-    "note_en": "Outcome 2.",
-    "note_ar": "النتيجة 2.",
     "answer": "c"
    },
    {
@@ -549,8 +511,6 @@
       "دون التأثير في المضيف"
      ]
     ],
-    "note_en": "Outcome 1.",
-    "note_ar": "النتيجة 1.",
     "answer": "d"
    },
    {
@@ -574,8 +534,6 @@
       "حالة حمل فقط"
      ]
     ],
-    "note_en": "Both are highlighted (marked MCQ); asked in the 2023 exams.",
-    "note_ar": "كلاهما مظلَّل (مؤشَّر MCQ)؛ وسُئل في امتحانات 2023.",
     "answer": "c"
    },
    {
@@ -599,8 +557,6 @@
       "التعقيم"
      ]
     ],
-    "note_en": "Outcome 3.",
-    "note_ar": "النتيجة 3.",
     "answer": "b"
    },
    {
@@ -628,8 +584,6 @@
       "تحديد الكائن المسبّب بطرق مختبرية مختلفة"
      ]
     ],
-    "note_en": "Marked MCQ; the same question in the 2023 exam (“different”, not “same”).",
-    "note_ar": "مؤشَّر MCQ؛ والسؤال نفسه في امتحان 2023 («مختلفة» لا «نفسها»).",
     "answer": "d"
    },
    {
@@ -653,8 +607,6 @@
       "تجنّب التشخيص"
      ]
     ],
-    "note_en": "The arrow (MCQ) points to “effective antimicrobial…”.",
-    "note_ar": "السهم (MCQ) يشير إلى «العلاج الفعّال بمضادات الميكروبات…».",
     "answer": "a"
    },
    {
@@ -682,8 +634,6 @@
       "الأوساط الزرعية"
      ]
     ],
-    "note_en": "Technique 1.",
-    "note_ar": "التقنية 1.",
     "answer": "c"
    },
    {
@@ -707,8 +657,6 @@
       "صبغة غرام"
      ]
     ],
-    "note_en": "Technique 3.",
-    "note_ar": "التقنية 3.",
     "answer": "b"
    },
    {
@@ -732,8 +680,6 @@
       "الفحص البدني"
      ]
     ],
-    "note_en": "Technique 4.",
-    "note_ar": "التقنية 4.",
     "answer": "c"
    },
    {
@@ -757,8 +703,6 @@
       "التحديد الشكلي"
      ]
     ],
-    "note_en": "Order: morphology → cultivation → antigens → DNA/RNA → host response.",
-    "note_ar": "الترتيب: الشكل ← الزرع ← المستضدّات ← DNA/RNA ← استجابة المضيف.",
     "answer": "a"
    },
    {
@@ -782,8 +726,6 @@
       "جميع ما سبق"
      ]
     ],
-    "note_en": "All five techniques (marked «الـ5 نقاط حفظ مختصر»); a 2024-file question.",
-    "note_ar": "التقنيات الخمس كلها (مؤشَّرة «الـ5 نقاط حفظ مختصر»)؛ ومن أسئلة ملف 2024.",
     "answer": "d"
    },
    {
@@ -811,8 +753,6 @@
       "التقارير الأولية عن نتائج الخطوات الفردية في عزل العامل المسبّب وتحديده"
      ]
     ],
-    "note_en": "“feedback” is marked MCQ.",
-    "note_ar": "«feedback» مؤشَّرة MCQ.",
     "answer": "d"
    },
    {
@@ -836,74 +776,11 @@
       "العلاج التجريبي"
      ]
     ],
-    "note_en": "Reverse of the previous question.",
-    "note_ar": "عكس السؤال السابق.",
     "answer": "b"
    }
   ],
   "tf": [],
   "traps": [],
-  "important": [
-   {
-    "en": "Short answer: what does the clinical presentation of an infectious disease reflect, and what affects this interaction?",
-    "ar": "سؤال قصير: ماذا يعكس العرض السريري للمرض المعدي، وما الذي يؤثّر في هذا التفاعل؟",
-    "answer_en": "It reflects the interaction between the host and the microorganism. This interaction is affected by (1) the host immune status and (2) microbial virulence factors.",
-    "answer_ar": "يعكس التفاعل بين المضيف والكائن الحي الدقيق. ويتأثّر هذا التفاعل بـ (1) الحالة المناعية للمضيف و(2) عوامل الضراوة الميكروبية."
-   },
-   {
-    "en": "Define diagnostic microbiology.",
-    "ar": "عرّف علم الأحياء الدقيقة التشخيصي.",
-    "answer_en": "Diagnostic microbiology is the tool that makes it possible to identify the exact pathogens of infectious diseases and the most optimal therapy at the level of individual patients.",
-    "answer_ar": "علم الأحياء الدقيقة التشخيصي هو الأداة التي تتيح التعرّف الدقيق على مسبّبات الأمراض المعدية والعلاج الأمثل على مستوى المرضى الأفراد."
-   },
-   {
-    "en": "Short answer: compare exogenous and endogenous pathogens.",
-    "ar": "سؤال قصير: قارن بين العامل الممرض الخارجي والداخلي.",
-    "answer_en": "Exogenous: acquired from environmental or animal sources or from other persons. Endogenous: from the normal flora.",
-    "answer_ar": "الخارجي: يُكتسب من مصادر بيئية أو حيوانية أو من أشخاص آخرين. والداخلي: من الفلورا الطبيعية."
-   },
-   {
-    "en": "Short answer: what do conventional methods require, and why is the process lengthy?",
-    "ar": "سؤال قصير: ماذا تتطلّب الطرق التقليدية، ولماذا تكون العملية طويلة؟",
-    "answer_en": "Conventional methods require time to grow the microbes in vitro under specific conditions, and not all microbes can easily be cultured. This is followed by biochemical methods for identification, which further makes the process lengthy.",
-    "answer_ar": "تتطلّب الطرق التقليدية وقتًا لإنماء الميكروبات في المختبر تحت ظروف محدّدة، وليس كل الميكروبات تُزرع بسهولة. ويلي ذلك طرق كيميائية حيوية للتعرّف، مما يجعل العملية أطول."
-   },
-   {
-    "en": "List the factors that render culture-based methods less reliable.",
-    "ar": "عدّد العوامل التي تجعل الطرق القائمة على الزرع أقل موثوقية.",
-    "answer_en": "1) Transport of the specimens under less than ideal conditions. 2) Prior use of antibiotics. 3) Small number of organisms.",
-    "answer_ar": "1) نقل العيّنات في ظروف أقل من المثالية. 2) الاستعمال المسبق للمضادات الحيوية. 3) قلّة عدد الكائنات."
-   },
-   {
-    "en": "Short answer: on what do newer methods depend, and what can they detect directly from the specimen?",
-    "ar": "سؤال قصير: على ماذا تعتمد الطرق الأحدث، وماذا يمكنها أن تكشف مباشرة من العيّنة؟",
-    "answer_en": "Newer methods depend on amplification of nucleic acids followed by use of probes for identification. They can be used to detect antibiotic resistance genes directly from the specimen and help direct targeted therapy with efficacy.",
-    "answer_ar": "تعتمد الطرق الأحدث على تضخيم الأحماض النووية متبوعًا باستعمال المسابير للتعرّف. ويمكن استعمالها للكشف عن جينات مقاومة المضادات الحيوية مباشرة من العيّنة، والمساعدة في توجيه العلاج المستهدف بفعالية."
-   },
-   {
-    "en": "What may microbial colonization result in? When does infectious disease occur?",
-    "ar": "إلامَ قد يؤدّي الاستعمار الميكروبي؟ ومتى يحدث المرض المعدي؟",
-    "answer_en": "1) Elimination of the microorganism without affecting the host. 2) Infection in which the organisms multiply and cause the host to react by making an immune or other type of response. 3) A transient or prolonged carrier state. Infectious disease occurs when the organism causes tissue damage and loss of function of body systems.",
-    "answer_ar": "1) التخلّص من الكائن الدقيق دون التأثير في المضيف. 2) عدوى تتكاثر فيها الكائنات وتجعل المضيف يستجيب باستجابة مناعية أو نوع آخر من الاستجابة. 3) حالة حمل عابرة أو مطوّلة. ويحدث المرض المعدي عندما يسبّب الكائن تلف الأنسجة وفقدان وظائف أجهزة الجسم."
-   },
-   {
-    "en": "Pretest: give the purpose of studying diagnostic bacteria.",
-    "ar": "الاختبار القبلي: اذكر الغرض من دراسة البكتيريا التشخيصية.",
-    "answer_en": "To identify the disease-causing bacteria and select the proper treatment (the answer written in class). In the lecture's words: the purpose and philosophy of diagnostic bacteriology depend on identifying the causative microorganism by different laboratory methods, which is usually essential for effective antimicrobial and supportive therapy.",
-    "answer_ar": "تحديد البكتيريا المسبّبة للمرض واختيار العلاج المناسب (الجواب المكتوب بالمحاضرة). وبعبارة المحاضرة: يعتمد غرض وفلسفة علم الجراثيم التشخيصي على تحديد الكائن المسبّب بطرق مختبرية مختلفة، وهو ضروري عادةً للعلاج الفعّال بمضادات الميكروبات والعلاج الداعم."
-   },
-   {
-    "en": "Posttest: what are the five basic laboratory techniques?",
-    "ar": "الاختبار البعدي: ما التقنيات المختبرية الأساسية الخمس؟",
-    "answer_en": "From the lecture text: 1) Morphologic identification of the agent in stains of specimens or sections of tissues (light and electron microscopy). 2) Cultivation and identification of the organisms. 3) Detection of microbial antigens by immunologic assay (latex agglutination, enzyme immunoassay [EIA]). 4) Detection of microbial DNA or RNA. 5) Detection of an inflammatory or host immune response to the pathogenic agents. BIOS note: the answer handwritten in class (microscopy, culture, staining, biochemical test, antimicrobial susceptibility testing) differs from the lecture's list — study the lecture's five and confirm with the doctor which list he wants.",
-    "answer_ar": "من نصّ المحاضرة: 1) التحديد الشكلي للعامل في صبغات العيّنات أو مقاطع الأنسجة (المجهر الضوئي والإلكتروني). 2) زرع الكائنات والتعرّف عليها. 3) الكشف عن المستضدّات الميكروبية بالمقايسة المناعية (التلازن باللاتكس، المقايسة المناعية الإنزيمية `EIA). 4`) الكشف عن الـ `DNA` أو الـ `RNA` الميكروبي. 5) الكشف عن استجابة التهابية أو مناعية للمضيف تجاه العوامل الممرضة. ملاحظة `BIOS`: الجواب المكتوب بخط اليد بالمحاضرة (المجهر، الزرع، التصبيغ، الاختبارات الكيميائية الحيوية، اختبار الحساسية للمضادات) يختلف عن قائمة المحاضرة — احفظ الخمس الواردة في المحاضرة وتأكّد من الدكتور أيّ القائمتين يريد."
-   },
-   {
-    "en": "Define the laboratory “feedback” information.",
-    "ar": "عرّف معلومات «التغذية الراجعة» من المختبر.",
-    "answer_en": "The “feedback” information from the laboratory consists of the earliest reports of the results of individual steps in the isolation and identification of the causative agent.",
-    "answer_ar": "تتكوّن معلومات «التغذية الراجعة» من المختبر من التقارير الأولية عن نتائج الخطوات الفردية في عزل العامل المسبّب وتحديده."
-   }
-  ]
+  "important": []
  }
 }

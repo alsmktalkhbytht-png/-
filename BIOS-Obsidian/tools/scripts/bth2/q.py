@@ -14,7 +14,7 @@ sys.path.insert(0, WORK); from bidi import ltr_all
 # Slide content flagged: "Chemicals" listed under PHYSICAL methods of sterilization (they are chemical).
 
 def Q(en, ar, opts, why_en, why_ar, fixed=None):
-    d = dict(en=en, ar=ar, options=[list(o) for o in opts], note_en=why_en, note_ar=why_ar)
+    d = dict(en=en, ar=ar, options=[list(o) for o in opts], )  # user 2026-11-22: MCQ only, no explanation
     if fixed: d["_fixed"] = fixed
     else: d["answer"] = "a"
     return d
@@ -181,23 +181,23 @@ for q in mcq:
 meta = {"subject_en": "Diagnostic Microbiology", "subject_ar": "الأحياء المجهرية التشخيصية", "short_ar": "بكتريا",
         "instructor": "د. عدنان", "unit_en": "Lecture 2", "unit_ar": "المحاضرة 2", "unit_label": "LEC", "unit_no": "2",
         "title_en": "Laboratory Safety", "title_ar": "السلامة المختبرية",
-        "department": "قسم التحليلات", "kind": "Theory — نظري", "questions_kind": "MCQ + SA — اختيار ومقالية",
+        "department": "قسم التحليلات", "kind": "Theory — نظري", "questions_kind": "MCQ — اختيار من متعدد",
         "stage": "The fourth stage — الرابعة",
-        "file_name": "BIOS - بكتريا نظري المحاضرة الثانية - بنك أسئلة شامل"}
-Qs = {"title_en": "Laboratory Safety (Lecture 2) — Comprehensive Questions (MCQ + SA)",
-      "title_ar": "السلامة المختبرية (المحاضرة 2) — أسئلة شاملة (اختيار + مقالية)",
-      "answers_inline": True, "compact": True, "mcq_per_page": 4,
+        "file_name": "BIOS - بكتريا نظري المحاضرة الثانية - أسئلة MCQ"}
+Qs = {"title_en": "Laboratory Safety (Lecture 2) — MCQ",
+      "title_ar": "السلامة المختبرية (المحاضرة 2) — أسئلة اختيار",
+      "answers_inline": True, "compact": True, "mcq_per_page": 5,
       "mcq_en": "Comprehensive MCQs — Lecture 2", "mcq_ar": "أسئلة اختيار شاملة — المحاضرة الثانية",
       "intro_en": ["Q. Select the most correct answer from the followings",
-                   "These questions cover the whole lecture; the answer and a short reason sit under each MCQ, and the model answer under each essay question. Paragraphs crossed out (✗) in class are not asked; the parts marked “short answer” come as essay questions."],
+                   "These questions cover the whole lecture; the answer sits under each question. Paragraphs crossed out (✗) in class are not asked."],
       "intro_ar": ["س. اختر الإجابة الأصح مما يأتي",
-                   "هذه الأسئلة تغطّي المحاضرة كاملة؛ والحل وسطر سبب مختصر تحت كل سؤال اختيار، والجواب النموذجي تحت كل سؤال مقالي. الفقرات المشطوبة (✗) بالمحاضرة لم تُسأل، والأجزاء المؤشَّرة «سؤال قصير» جاءت أسئلةً مقالية."],
-      "mcq": ltr_all(mcq), "tf": [], "traps": [], "important": ltr_all(important)}
+                   "هذه الأسئلة تغطّي المحاضرة كاملة؛ والحل تحت كل سؤال. الفقرات المشطوبة (✗) بالمحاضرة لم تُسأل."],
+      "mcq": ltr_all(mcq), "tf": [], "traps": [], "important": []}
 
 d = "/home/user/-/bacteriology-lec2-mcq"
 os.makedirs(d, exist_ok=True)
 json.dump({"meta": meta, "questions": Qs}, open(d + "/lecture.json", "w"), ensure_ascii=False, indent=1)
 qs = [m for m in mcq if "answer" in m]
-print("MCQ:", len(qs), "| SA:", len(important), "| dist:", dict(Counter(m["answer"] for m in qs)))
+print("MCQ:", len(qs), "| dist:", dict(Counter(m["answer"] for m in qs)))
 for i, q in enumerate(qs, 1):
     print(i, q["answer"], q["options"]["abcd".index(q["answer"])][0][:60])

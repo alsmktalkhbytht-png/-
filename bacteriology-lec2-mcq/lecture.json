@@ -12,25 +12,25 @@
   "title_ar": "السلامة المختبرية",
   "department": "قسم التحليلات",
   "kind": "Theory — نظري",
-  "questions_kind": "MCQ + SA — اختيار ومقالية",
+  "questions_kind": "MCQ — اختيار من متعدد",
   "stage": "The fourth stage — الرابعة",
-  "file_name": "BIOS - بكتريا نظري المحاضرة الثانية - بنك أسئلة شامل"
+  "file_name": "BIOS - بكتريا نظري المحاضرة الثانية - أسئلة MCQ"
  },
  "questions": {
-  "title_en": "Laboratory Safety (Lecture 2) — Comprehensive Questions (MCQ + SA)",
-  "title_ar": "السلامة المختبرية (المحاضرة 2) — أسئلة شاملة (اختيار + مقالية)",
+  "title_en": "Laboratory Safety (Lecture 2) — MCQ",
+  "title_ar": "السلامة المختبرية (المحاضرة 2) — أسئلة اختيار",
   "answers_inline": true,
   "compact": true,
-  "mcq_per_page": 4,
+  "mcq_per_page": 5,
   "mcq_en": "Comprehensive MCQs — Lecture 2",
   "mcq_ar": "أسئلة اختيار شاملة — المحاضرة الثانية",
   "intro_en": [
    "Q. Select the most correct answer from the followings",
-   "These questions cover the whole lecture; the answer and a short reason sit under each MCQ, and the model answer under each essay question. Paragraphs crossed out (✗) in class are not asked; the parts marked “short answer” come as essay questions."
+   "These questions cover the whole lecture; the answer sits under each question. Paragraphs crossed out (✗) in class are not asked."
   ],
   "intro_ar": [
    "س. اختر الإجابة الأصح مما يأتي",
-   "هذه الأسئلة تغطّي المحاضرة كاملة؛ والحل وسطر سبب مختصر تحت كل سؤال اختيار، والجواب النموذجي تحت كل سؤال مقالي. الفقرات المشطوبة (✗) بالمحاضرة لم تُسأل، والأجزاء المؤشَّرة «سؤال قصير» جاءت أسئلةً مقالية."
+   "هذه الأسئلة تغطّي المحاضرة كاملة؛ والحل تحت كل سؤال. الفقرات المشطوبة (✗) بالمحاضرة لم تُسأل."
   ],
   "mcq": [
    {
@@ -58,8 +58,6 @@
       "جميع ما سبق"
      ]
     ],
-    "note_en": "Six admonitions («كلهن تجربة فهم»); a 2023-exam question.",
-    "note_ar": "ستة تحذيرات («كلهن فهم»)؛ ومن أسئلة امتحان 2023.",
     "answer": "d"
    },
    {
@@ -83,8 +81,6 @@
       "ارتداء القفازات"
      ]
     ],
-    "note_en": "(1) wear gloves.",
-    "note_ar": "(1) ارتداء القفازات.",
     "answer": "d"
    },
    {
@@ -108,8 +104,6 @@
       "الدم"
      ]
     ],
-    "note_en": "Admonition 4.",
-    "note_ar": "التحذير 4.",
     "answer": "c"
    },
    {
@@ -133,8 +127,6 @@
       "مغسولة بالماء فقط"
      ]
     ],
-    "note_en": "Admonition 5.",
-    "note_ar": "التحذير 5.",
     "answer": "a"
    },
    {
@@ -158,8 +150,6 @@
       "إبلاغ المريض"
      ]
     ],
-    "note_en": "Admonition 6.",
-    "note_ar": "التحذير 6.",
     "answer": "b"
    },
    {
@@ -183,8 +173,6 @@
       "8"
      ]
     ],
-    "note_en": "Gloves, hand washing, instruments, labels, waste, reporting.",
-    "note_ar": "القفازات، غسل اليدين، الأدوات، الملصقات، النفايات، الإبلاغ.",
     "answer": "a"
    },
    {
@@ -212,8 +200,6 @@
       "التطهير الموضعي"
      ]
     ],
-    "note_en": "Starred «مهم جدًا»; a 2023-exam question.",
-    "note_ar": "منجَّم «مهم جدًّا»؛ ومن أسئلة امتحان 2023.",
     "answer": "b"
    },
    {
@@ -237,8 +223,6 @@
       "الترشيح"
      ]
     ],
-    "note_en": "Marked MCQ.",
-    "note_ar": "مؤشَّر MCQ.",
     "answer": "c"
    },
    {
@@ -262,8 +246,6 @@
       "مع أوقات تعرّض طويلة"
      ]
     ],
-    "note_en": "The last sentence of the definition.",
-    "note_ar": "الجملة الأخيرة من التعريف.",
     "answer": "d"
    },
    {
@@ -287,8 +269,6 @@
       "التسخين عند `45 ºC`"
      ]
     ],
-    "note_en": "Marked «حفظ MCQ».",
-    "note_ar": "مؤشَّر «حفظ MCQ».",
     "answer": "a"
    },
    {
@@ -312,8 +292,6 @@
       "التعقيم بالحرارة الرطبة"
      ]
     ],
-    "note_en": "Only sterilization kills all forms.",
-    "note_ar": "التعقيم وحده يقتل كل الأشكال.",
     "answer": "b"
    },
    {
@@ -337,8 +315,6 @@
       "جميع ما سبق"
      ]
     ],
-    "note_en": "Marked «سؤال قصير»; a 2023-exam question.",
-    "note_ar": "مؤشَّر «سؤال قصير»؛ ومن أسئلة امتحان 2023.",
     "answer": "d"
    },
    {
@@ -362,8 +338,6 @@
       "وجود غشاء حيوي `(biofilm)`"
      ]
     ],
-    "note_en": "Also: physical/chemical nature of the surface, temperature, pH, humidity.",
-    "note_ar": "وأيضًا: الطبيعة الفيزيائية والكيميائية للسطح، الحرارة، الأس الهيدروجيني، الرطوبة.",
     "answer": "d"
    },
    {
@@ -387,8 +361,6 @@
       "تركيز المبيد"
      ]
     ],
-    "note_en": "From the same list.",
-    "note_ar": "من القائمة نفسها.",
     "answer": "c"
    },
    {
@@ -416,8 +388,6 @@
       "جميع ما سبق"
      ]
     ],
-    "note_en": "Marked «مهمات جدًا»; a 2023-exam question.",
-    "note_ar": "مؤشَّرة «مهمات جدًّا»؛ ومن أسئلة امتحان 2023.",
     "answer": "d"
    },
    {
@@ -441,8 +411,6 @@
       "البسترة"
      ]
     ],
-    "note_en": "Pasteurization is not sterilization (2023 exam).",
-    "note_ar": "البسترة ليست تعقيمًا (امتحان 2023).",
     "answer": "d"
    },
    {
@@ -466,8 +434,6 @@
       "الترشيح"
      ]
     ],
-    "note_en": "The lecture lists “Chemicals” under the physical methods heading; they are actually chemical methods.",
-    "note_ar": "المحاضرة تذكر «المواد الكيميائية» تحت عنوان الطرق الفيزيائية؛ وهي في الحقيقة طرق كيميائية.",
     "answer": "c"
    },
    {
@@ -491,8 +457,6 @@
       "موجات الراديو"
      ]
     ],
-    "note_en": "Gamma.",
-    "note_ar": "غاما.",
     "answer": "b"
    },
    {
@@ -520,8 +484,6 @@
       "مثل السلامة الحيوية"
      ]
     ],
-    "note_en": "Marked «تعريف أو MCQ».",
-    "note_ar": "مؤشَّر «تعريف أو MCQ».",
     "answer": "a"
    },
    {
@@ -545,8 +507,6 @@
       "مخطّطات كهربائية"
      ]
     ],
-    "note_en": "Slide text.",
-    "note_ar": "نصّ المحاضرة.",
     "answer": "c"
    },
    {
@@ -570,8 +530,6 @@
       "كابلات تمديد"
      ]
     ],
-    "note_en": "Marked MCQ.",
-    "note_ar": "مؤشَّر MCQ.",
     "answer": "b"
    },
    {
@@ -595,8 +553,6 @@
       "سنويًّا على الأقل"
      ]
     ],
-    "note_en": "Slide text.",
-    "note_ar": "نصّ المحاضرة.",
     "answer": "d"
    },
    {
@@ -620,8 +576,6 @@
       "صح ليوم واحد فقط"
      ]
     ],
-    "note_en": "Marked «T,F».",
-    "note_ar": "مؤشَّر «T,F».",
     "answer": "a"
    },
    {
@@ -645,8 +599,6 @@
       "تحتوي غازات مضغوطة ويجب التعامل معها وتأمينها بشكل صحيح"
      ]
     ],
-    "note_en": "Marked «سؤال قصير».",
-    "note_ar": "مؤشَّر «سؤال قصير».",
     "answer": "d"
    },
    {
@@ -670,8 +622,6 @@
       "الإيثانول"
      ]
     ],
-    "note_en": "Slide text.",
-    "note_ar": "نصّ المحاضرة.",
     "answer": "a"
    },
    {
@@ -699,8 +649,6 @@
       "جميع ما سبق"
      ]
     ],
-    "note_en": "Routes of exposure («كلّه فهم»).",
-    "note_ar": "طرق التعرّض («كلّه فهم»).",
     "answer": "d"
    },
    {
@@ -724,8 +672,6 @@
       "قراءة النتائج"
      ]
     ],
-    "note_en": "Route 2.",
-    "note_ar": "الطريق 2.",
     "answer": "b"
    },
    {
@@ -749,8 +695,6 @@
       "بلع المزارع"
      ]
     ],
-    "note_en": "Boxed «مهمة».",
-    "note_ar": "مؤطَّر «مهمة».",
     "answer": "c"
    },
    {
@@ -774,8 +718,6 @@
       "يغيّر لون الوسط"
      ]
     ],
-    "note_en": "Route 5.",
-    "note_ar": "الطريق 5.",
     "answer": "b"
    },
    {
@@ -799,8 +741,6 @@
       "تطهير الأدوات"
      ]
     ],
-    "note_en": "Route 6.",
-    "note_ar": "الطريق 6.",
     "answer": "c"
    },
    {
@@ -824,68 +764,11 @@
       "لبسها ثانية بعد التجفيف"
      ]
     ],
-    "note_en": "Marked MCQ (autoclave).",
-    "note_ar": "مؤشَّر MCQ (الأوتوكلاف).",
     "answer": "a"
    }
   ],
   "tf": [],
   "traps": [],
-  "important": [
-   {
-    "en": "List the admonitions of the microbiology laboratory.",
-    "ar": "عدّد تحذيرات مختبر الأحياء الدقيقة.",
-    "answer_en": "(1) Wear gloves; (2) wash hands after working with infectious materials; (3) disinfect all instruments immediately after use; (4) use water to moisten specimen labels rather than the tongue; (5) disinfect all contaminated waste before discarding; and (6) report to appropriate personnel all accidents or exposures to infectious agents.",
-    "answer_ar": "(1) ارتداء القفازات؛ (2) غسل اليدين بعد العمل بالمواد المعدية؛ (3) تطهير جميع الأدوات فور الاستعمال؛ (4) استعمال الماء لترطيب ملصقات العيّنات بدلًا من اللسان؛ (5) تطهير جميع النفايات الملوّثة قبل التخلّص منها؛ (6) إبلاغ الموظفين المختصّين بجميع الحوادث أو التعرّضات للعوامل المعدية."
-   },
-   {
-    "en": "Define sterilization, disinfection and decontamination.",
-    "ar": "عرّف التعقيم والتطهير وإزالة التلوّث.",
-    "answer_en": "Sterilization is a process that kills all forms of microbial life, including bacterial endospores. Disinfection is a process that destroys pathogenic organisms, but not necessarily all microorganisms, endospores, or prions; however, some disinfectants will kill endospores with prolonged exposure times. Decontamination is the removal of pathogenic microorganisms so items are safe to handle or dispose of.",
-    "answer_ar": "التعقيم: عملية تقتل جميع أشكال الحياة الميكروبية، بما فيها الأبواغ الداخلية البكتيرية. التطهير: عملية تقضي على الكائنات الممرضة، لكن ليس بالضرورة جميع الكائنات الدقيقة أو الأبواغ الداخلية أو البريونات؛ ومع ذلك تقتل بعض المطهّرات الأبواغ مع التعرّض الطويل. إزالة التلوّث: إزالة الكائنات الممرضة بحيث تصبح المواد آمنة للتعامل معها أو التخلّص منها."
-   },
-   {
-    "en": "Short answer: what factors limit the success or degree of sterilization, disinfection, or decontamination in a health care setting?",
-    "ar": "سؤال قصير: ما العوامل التي تحدّ من نجاح أو درجة التعقيم أو التطهير أو إزالة التلوّث في أماكن الرعاية الصحية؟",
-    "answer_en": "Organic load (organisms and other contaminating materials such as blood or body fluids), the type of organisms present, the concentration and exposure time to the germicide, the physical and chemical nature of the surface (hinges, cracks, rough or smooth surfaces), temperature, pH, humidity, and presence of a biofilm.",
-    "answer_ar": "الحمل العضوي (الكائنات والمواد الملوِّثة الأخرى كالدم أو سوائل الجسم)، ونوع الكائنات الموجودة، وتركيز المبيد الجرثومي ووقت التعرّض له، والطبيعة الفيزيائية والكيميائية للسطح (المفصلات، الشقوق، الأسطح الخشنة أو الملساء)، والحرارة، والأس الهيدروجيني، والرطوبة، ووجود غشاء حيوي."
-   },
-   {
-    "en": "List the physical methods of sterilization.",
-    "ar": "عدّد الطرق الفيزيائية للتعقيم.",
-    "answer_en": "Incineration; moist heat; dry heat; filtration; ionizing (gamma) radiation; and chemicals (ethylene oxide gas, hydrogen peroxide gas plasma, vaporized hydrogen peroxide, and other liquid chemicals). BIOS note: the lecture lists chemicals under this heading, although they are chemical, not physical, methods.",
-    "answer_ar": "الحرق؛ الحرارة الرطبة؛ الحرارة الجافة؛ الترشيح؛ الإشعاع المؤيّن (غاما)؛ والمواد الكيميائية (غاز أكسيد الإثيلين، بلازما غاز بيروكسيد الهيدروجين، بيروكسيد الهيدروجين المتبخّر، وسوائل كيميائية أخرى). ملاحظة `BIOS`: المحاضرة تذكر المواد الكيميائية تحت هذا العنوان مع أنها طرق كيميائية لا فيزيائية."
-   },
-   {
-    "en": "Define fire safety.",
-    "ar": "عرّف السلامة من الحرائق.",
-    "answer_en": "Fire safety is an important component of the laboratory safety program. Each laboratory is required to post fire evacuation plans that are essentially strategies for finding the nearest exit in case of fire.",
-    "answer_ar": "السلامة من الحرائق عنصر مهم في برنامج السلامة المختبرية. ويُطلب من كل مختبر نشر خطط الإخلاء من الحرائق، وهي في الأساس استراتيجيات للعثور على أقرب مخرج عند نشوب حريق."
-   },
-   {
-    "en": "What are the rules of electrical safety in the laboratory?",
-    "ar": "ما قواعد السلامة الكهربائية في المختبر؟",
-    "answer_en": "All plugs should be the three-prong, grounded type. All sockets should be checked for electrical grounding and leakage at least annually. No extension cables should be used in the laboratory.",
-    "answer_ar": "يجب أن تكون جميع المقابس من النوع المؤرَّض ثلاثي الشُّعب. ويجب فحص جميع المقابس للتأريض والتسرّب الكهربائي سنويًّا على الأقل. ولا ينبغي استعمال أي كابلات تمديد في المختبر."
-   },
-   {
-    "en": "Short answer: what do compressed gas cylinders contain, and how must they be treated?",
-    "ar": "سؤال قصير: ماذا تحتوي أسطوانات الغاز المضغوط، وكيف يجب التعامل معها؟",
-    "answer_en": "Compressed gas cylinders (CO2, anaerobic gas mixture) contain pressurized gases and must be properly handled and secured.",
-    "answer_ar": "تحتوي أسطوانات الغاز المضغوط (`CO2`، خليط الغاز اللاهوائي) غازات مضغوطة، ويجب التعامل معها وتأمينها بشكل صحيح."
-   },
-   {
-    "en": "How are individuals exposed to health care–associated infections, in transporting specimens and in public areas?",
-    "ar": "كيف يتعرّض الأفراد للعدوى المرتبطة بالرعاية الصحية، وفي نقل العيّنات، وفي الأماكن العامة؟",
-    "answer_en": "By: rubbing the eyes or nose with contaminated hands; inhaling aerosols produced during centrifugation, mixing with a vortex, or spills of liquid cultures; accidentally ingesting microorganisms by putting pens or fingers in the mouth; receiving percutaneous inoculation (through puncture from an accidental needle stick); manipulating or opening bacterial cultures in liquid media or on plates, creating potentially hazardous aerosols, outside of a biosafety hood; and failure to wash hands upon leaving the restroom or other public areas before entering the laboratory.",
-    "answer_ar": "عن طريق: فرك العين أو الأنف بالأيدي الملوّثة؛ واستنشاق الهباء الناتج أثناء الطرد المركزي أو الخلط بالدوامة أو انسكاب المزارع السائلة؛ وتناول الكائنات خطأً بوضع الأقلام أو الأصابع في الفم؛ والتلقيح عن طريق الجلد (وخز الإبرة العرضي)؛ والتعامل مع المزارع البكتيرية أو فتحها في الأوساط السائلة أو على الأطباق خارج غطاء السلامة الحيوية مما يكوّن هباءً خطرًا؛ وعدم غسل اليدين عند مغادرة الحمّام أو الأماكن العامة قبل دخول المختبر."
-   },
-   {
-    "en": "What should be done if the laboratory protective clothing becomes contaminated?",
-    "ar": "ماذا يجب أن يُفعل إذا تلوّثت الملابس الواقية للمختبر؟",
-    "answer_en": "If the laboratory protective clothing becomes contaminated with body fluids or potential pathogens, it should be sterilized in an autoclave immediately and cleaned before reusing.",
-    "answer_ar": "إذا تلوّثت الملابس الواقية للمختبر بسوائل الجسم أو بمسبّبات محتملة، يجب تعقيمها في الأوتوكلاف فورًا وتنظيفها قبل إعادة استعمالها."
-   }
-  ]
+  "important": []
  }
 }
