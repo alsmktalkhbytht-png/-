@@ -12,7 +12,7 @@ import re
 
 _SUP = "⁰¹²³⁴⁵⁶⁷⁸⁹⁻"                                 # powers of ten: 10⁵, 10⁻³ must stay LTR too
 _RUN = re.compile(r"[A-Za-z0-9½¼¾(][A-Za-z0-9½¼¾%s ×:/=+_.()%%,'-]*[A-Za-z0-9½¼¾%s)%%]|[A-Za-z]" % (_SUP, _SUP))
-_NEEDS = re.compile(r"[A-Za-z×=:/%s]" % _SUP)
+_NEEDS = re.compile(r"[A-Za-z×=:/%%%s]" % _SUP)      # % too: "0.85%" flips to "%0.85" inside an RTL line
 
 
 def _wrap(seg):
@@ -53,7 +53,7 @@ def ltr_all(obj):
         for k, v in obj.items():
             if k == "label" or k.endswith("en"):         # labels and English fields are never wrapped
                 out[k] = v                               # (a 2-sentence English list is not an [en, ar] pair)
-            elif k in ("ar", "answer_ar", "title_ar", "label_ar", "text_ar", "tail_ar", "sub_ar"):
+            elif k in ("ar", "answer_ar", "title_ar", "label_ar", "text_ar", "tail_ar", "sub_ar", "note_ar"):
                 out[k] = [ltr(x) for x in v] if isinstance(v, list) else ltr(v)
             elif k == "list_ar":
                 out[k] = [[ltr(y) for y in x] if isinstance(x, list) else ltr(x) for x in v]

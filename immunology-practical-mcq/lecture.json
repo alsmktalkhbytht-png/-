@@ -220,19 +220,19 @@
     "options": [
      [
       "About 90%",
-      "نحو 90%"
+      "نحو `90%`"
      ],
      [
       "About 25%",
-      "نحو 25%"
+      "نحو `25%`"
      ],
      [
       "About 75%",
-      "نحو 75%"
+      "نحو `75%`"
      ],
      [
       "About 55%",
-      "نحو 55%"
+      "نحو `55%`"
      ]
     ],
     "answer": "d"
@@ -496,19 +496,19 @@
     "options": [
      [
       "0.85% (8.5 g NaCl in 1 liter D.W.)",
-      "0.85% (8.5 غم `NaCl` في لتر ماء مقطّر)"
+      "`0.85% (8.5` غم `NaCl` في لتر ماء مقطّر)"
      ],
      [
       "0.9% (9 g NaCl in 1 liter D.W.)",
-      "0.9% (9 غم `NaCl` في لتر ماء مقطّر)"
+      "`0.9% (9` غم `NaCl` في لتر ماء مقطّر)"
      ],
      [
       "0.3% (3 g NaCl in 1 liter D.W.)",
-      "0.3% (3 غم `NaCl` في لتر ماء مقطّر)"
+      "`0.3% (3` غم `NaCl` في لتر ماء مقطّر)"
      ],
      [
       "8.5% (85 g NaCl in 1 liter D.W.)",
-      "8.5% (85 غم `NaCl` في لتر ماء مقطّر)"
+      "`8.5% (85` غم `NaCl` في لتر ماء مقطّر)"
      ]
     ],
     "answer": "a"
@@ -724,7 +724,7 @@
     ],
     "answer": "b",
     "note_en": "The seven safety instructions: hands always washed; wearing gloves; wearing face glasses; wearing a clean gown and coats; ensuring adequate procedures for routine care, cleaning and disinfection of environmental surfaces, beds, bed rails, bedside equipment and other frequently touched surfaces; sample and solution labeling; and not leaving wastes inside the laboratory (the source writes “must be damaged”, i.e. destroyed).",
-    "note_ar": "تعليمات السلامة السبع: غسل اليدين دائمًا؛ ارتداء القفازات؛ ارتداء النظارات الواقية؛ ارتداء مريول ومعاطف نظيفة؛ ضمان إجراءات كافية للعناية الروتينية وتنظيف وتطهير الأسطح البيئية والأسرّة وحواجزها ومعدّات جانب السرير والأسطح كثيرة اللمس؛ عنونة العيّنات والمحاليل؛ وعدم ترك النفايات داخل المختبر (كُتب في الأصل «must be damaged» أي يجب إتلافها)."
+    "note_ar": "تعليمات السلامة السبع: غسل اليدين دائمًا؛ ارتداء القفازات؛ ارتداء النظارات الواقية؛ ارتداء مريول ومعاطف نظيفة؛ ضمان إجراءات كافية للعناية الروتينية وتنظيف وتطهير الأسطح البيئية والأسرّة وحواجزها ومعدّات جانب السرير والأسطح كثيرة اللمس؛ عنونة العيّنات والمحاليل؛ وعدم ترك النفايات داخل المختبر (كُتب في الأصل «`must be damaged`» أي يجب إتلافها)."
    },
    {
     "topic_en": "Lab 2 — Normality, Dilution & Titration methods",
@@ -1004,7 +1004,9 @@
       "0.6%"
      ]
     ],
-    "answer": "b"
+    "answer": "b",
+    "note_en": "⚠ The handouts give two figures for isotonic saline: lab 2 lists normal saline as 0.9% (this question), while lab 1 defines saline as 0.85% (8.5 g NaCl in 1 liter D.W.). Answer each question with the figure of its own lab.",
+    "note_ar": "⚠ المحاضرات تعطي رقمين للمحلول الملحي متساوي التوتر: العملي 2 يذكر المحلول الملحي الطبيعي `0.9%` (هذا السؤال)، بينما العملي 1 يعرّف المحلول الملحي بـ `0.85% (8.5` غم `NaCl` في لتر ماء مقطّر). أجب كل سؤال برقم محاضرته."
    },
    {
     "en": "Which is an application of dilution?",
@@ -1107,7 +1109,7 @@
       "كحول أو فورمالديهايد"
      ],
      [
-      "Distilled water, normal saline or a buffered solution",
+      "Distal water, normal saline or a buffered solution",
       "ماء مقطّر أو محلول ملحي طبيعي أو محلول دارئ"
      ],
      [
@@ -1119,7 +1121,9 @@
       "محلول ألسيفر فقط"
      ]
     ],
-    "answer": "b"
+    "answer": "b",
+    "note_en": "⚠ The source writes “Distal water”; the intended word is distilled water (D.W.).",
+    "note_ar": "⚠ الأصل مكتوب «`Distal water`»، والمقصود الماء المقطّر `(D.W.)`."
    },
    {
     "en": "Besides the dilute and the diluent, preparing a simple dilution requires:",
@@ -1658,7 +1662,9 @@
       "راصّة كريات المضيف البيض"
      ]
     ],
-    "answer": "a"
+    "answer": "a",
+    "note_en": "The lecture writes “Histocompatibility Leukocyte antigens”; the standard expansion of HLA is Human Leukocyte Antigen (the human major histocompatibility complex, MHC). Answer as the lecture writes it.",
+    "note_ar": "المحاضرة تكتب «`Histocompatibility Leukocyte antigens`»، والتسمية المعيارية لـ `HLA` هي `Human Leukocyte Antigen` أي مستضد الكريات البيض البشري (معقّد التوافق النسيجي الكبير `MHC` عند الإنسان). أجب كما كتبتها المحاضرة."
    },
    {
     "en": "Auto antigens are usually a normal protein or protein complex (and sometimes DNA or RNA) that is recognized by the immune system of patients suffering from:",
@@ -1846,7 +1852,7 @@
     ],
     "answer": "d",
     "note_en": "It is also stable at 100 °C and in alcohol. ⚠ The table in the source heads the second column “Somatic (H) antigen”; from its contents (flagella, protein, inactivated above 60 °C) it is the FLAGELLAR (H) antigen.",
-    "note_ar": "وهو أيضًا ثابت عند 100 °م وفي الكحول. ⚠ ويعنون الجدول في الأصل العمود الثاني بـ«Somatic (H) antigen»، لكن من محتواه (أسواط، بروتين، يُثبَّط فوق 60 °م) يتبيّن أنه المستضد السوطي (H)."
+    "note_ar": "وهو أيضًا ثابت عند 100 °م وفي الكحول. ⚠ ويعنون الجدول في الأصل العمود الثاني بـ«`Somatic (H) antigen`»، لكن من محتواه (أسواط، بروتين، يُثبَّط فوق 60 °م) يتبيّن أنه المستضد السوطي `(H)`."
    },
    {
     "en": "The flagellar (H) antigen of Salmonella is:",
@@ -1925,11 +1931,11 @@
     "options": [
      [
       "0.3% formal saline at 4 °C",
-      "محلول ملحي فورمالي 0.3% عند 4 °م"
+      "محلول ملحي فورمالي `0.3%` عند 4 °م"
      ],
      [
       "0.6% formal saline at 37 °C",
-      "محلول ملحي فورمالي 0.6% عند 37 °م"
+      "محلول ملحي فورمالي `0.6%` عند 37 °م"
      ],
      [
       "Normal saline at room temperature",
@@ -1944,7 +1950,7 @@
    },
    {
     "en": "In the flagellar (H) antigen preparation, 250 ml of 0.6% formal saline is added and the mixture is allowed to stand at room temperature for:",
-    "ar": "في تحضير المستضد السوطي `(H)` يُضاف 250 مل من محلول ملحي فورمالي 0.6% ويُترك المزيج بدرجة حرارة الغرفة لمدة:",
+    "ar": "في تحضير المستضد السوطي `(H)` يُضاف 250 مل من محلول ملحي فورمالي `0.6%` ويُترك المزيج بدرجة حرارة الغرفة لمدة:",
     "options": [
      [
       "15 hours",
@@ -1965,7 +1971,7 @@
     ],
     "answer": "c",
     "note_en": "Steps: inoculate typical Salmonella colonies from the S.S agar plate onto 250 ml brain heart infusion broth → incubate overnight at 37 °C → add the 0.6% formal saline and stand 5 days at room temperature (sterility test performed) → wash the killed bacteria and discard the supernatant → re-suspend the precipitate with 0.3% formal saline and store at 4 °C.",
-    "note_ar": "الخطوات: تلقيح مستعمرات سالمونيلا نموذجية من طبق آكار السالمونيلا-شيغيلا في 250 مل من مرق نقيع القلب والدماغ ← الحضن ليلة كاملة عند 37 °م ← إضافة المحلول الملحي الفورمالي 0.6% والترك 5 أيام بدرجة حرارة الغرفة (مع إجراء اختبار العقامة) ← غسل البكتيريا المقتولة وطرح الطافي ← إعادة تعليق الراسب بمحلول ملحي فورمالي 0.3% والخزن عند 4 °م."
+    "note_ar": "الخطوات: تلقيح مستعمرات سالمونيلا نموذجية من طبق آكار السالمونيلا-شيغيلا في 250 مل من مرق نقيع القلب والدماغ ← الحضن ليلة كاملة عند 37 °م ← إضافة المحلول الملحي الفورمالي `0.6%` والترك 5 أيام بدرجة حرارة الغرفة (مع إجراء اختبار العقامة) ← غسل البكتيريا المقتولة وطرح الطافي ← إعادة تعليق الراسب بمحلول ملحي فورمالي `0.3%` والخزن عند 4 °م."
    },
    {
     "en": "Streptolysin O is a protein of molecular weight 67 kDa formed by:",
@@ -2035,8 +2041,8 @@
      ]
     ],
     "answer": "b",
-    "note_en": "SLO belongs to a family of lysine. Procedure: grow in Todd-Hewitt broth → transfer 50 ml to 1000 ml kalbak's broth → incubate 15 hrs at 37 °C → check for haemolysin → separate cells by filtration → preserve the filtrate with methiolate → store at 4 °C. Properly stored, the prepared SLO retains constant potency for many years.",
-    "note_ar": "ينتمي الستربتولايسين O إلى عائلة اللايسين. والإجراء: التنمية في مرق تود-هيويت ← نقل 50 مل إلى 1000 مل من مرق كالباك ← الحضن 15 ساعة عند 37 °م ← فحص المزرعة للهيموليسين ← فصل الخلايا بالترشيح ← حفظ الراشح بالميثيولات ← الخزن عند 4 °م. وإذا خُزِّن جيدًا يحتفظ بفاعلية ثابتة لسنوات عديدة."
+    "note_en": "SLO belongs to a “family of lysine” as the lecture writes it — scientifically a family of lysins (cytolysins), not the amino acid lysine. Procedure: grow in Todd-Hewitt broth → transfer 50 ml to 1000 ml kalbak's broth → incubate 15 hrs at 37 °C → check for haemolysin → separate cells by filtration → preserve the filtrate with methiolate → store at 4 °C. Properly stored, the prepared SLO retains constant potency for many years.",
+    "note_ar": "ينتمي الستربتولايسين `O` إلى «عائلة اللايسين» كما كتبتها المحاضرة — والصحيح علميًّا عائلة اللايسينات (الحالّات الخلوية `lysins`) لا الحمض الأميني لايسين. والإجراء: التنمية في مرق تود-هيويت ← نقل 50 مل إلى 1000 مل من مرق كالباك ← الحضن 15 ساعة عند 37 °م ← فحص المزرعة للهيموليسين ← فصل الخلايا بالترشيح ← حفظ الراشح بالميثيولات ← الخزن عند 4 °م. وإذا خُزِّن جيدًا يحتفظ بفاعلية ثابتة لسنوات عديدة."
    },
    {
     "en": "Streptolysin O present in the filtrate becomes inactivated after:",
@@ -2422,15 +2428,15 @@
     "options": [
      [
       "70% ethanol",
-      "إيثانول 70%"
+      "إيثانول `70%`"
      ],
      [
       "0.3% formal saline",
-      "محلول ملحي فورمالي 0.3%"
+      "محلول ملحي فورمالي `0.3%`"
      ],
      [
       "0.85% saline",
-      "محلول ملحي 0.85%"
+      "محلول ملحي `0.85%`"
      ],
      [
       "Methiolate",
@@ -2506,7 +2512,9 @@
       "تخفيف الدم في الوريد، ونزول مكبس المحقنة بسهولة، وعدم ظهور انتفاخ"
      ]
     ],
-    "answer": "d"
+    "answer": "d",
+    "note_en": "⚠ The source writes “The blunder of the syringe should move down easily”; the intended word is the plunger of the syringe.",
+    "note_ar": "⚠ الأصل مكتوب «`The blunder of the syringe`»، والمقصود مكبس المحقنة `(plunger)`."
    },
    {
     "en": "After completing the intravenous injection, bleeding is stopped by:",
@@ -2522,7 +2530,7 @@
      ],
      [
       "Making pressure by finger at the injection site and disinfecting with 70% ethanol",
-      "الضغط بالإصبع على موضع الحقن والتطهير بإيثانول 70%"
+      "الضغط بالإصبع على موضع الحقن والتطهير بإيثانول `70%`"
      ],
      [
       "Applying formal saline",
